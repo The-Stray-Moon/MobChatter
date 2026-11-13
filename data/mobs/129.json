@@ -1,0 +1,67 @@
+{
+ "rank": 129,
+ "mod": "Endless Biomes",
+ "mod_url": "https://modrinth.com/mod/endless-biomes",
+ "mobs": [
+  {
+   "mob_id": "endlessbiomes:anklor",
+   "name_en": "Anklor",
+   "name_zh": "",
+   "description_zh": "安克洛兽（Anklor），生成于末地的「半影森林」（Penumbral Forest）群系，权重 20、1–2 只一组。死亡掉落安克洛甲片（anklor_shell_fragments）与安克洛肉，甲片可制成一整套安克洛甲壳护甲；jar 的 radon_immune 标签显示它免疫氡辐射。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/endless-biomes",
+   "confidence": 0.5,
+   "notes": "生成群系与掉落取自 jar（biome_modifier、loot_tables），MC百科该生物页面无简介。"
+  },
+  {
+   "mob_id": "endlessbiomes:shiftling",
+   "name_en": "Shiftling",
+   "name_zh": "",
+   "description_zh": "迁徙者（Shiftling），生成于末地的「扭曲礁」（Twisted Reef）群系，权重 20、每次 1 只；模组正文提示在礁体中爬得越高，遇到裂隙水晶和 shiftling 的机会越大。死亡掉落裂隙碎片（riftite_shard）与迁徙者触角（shiftling_antenna）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/endless-biomes",
+   "confidence": 0.8,
+   "notes": "生成环境摘自模组正文 Twisted Reef 段落，掉落取自 jar 的 shiftling 掉落表。"
+  },
+  {
+   "mob_id": "endlessbiomes:perished_shiftling",
+   "name_en": "Perished Shiftling",
+   "name_zh": "",
+   "description_zh": "枯朽迁徙者（Perished Shiftling），迁徙者的变体实体，jar 中没有独立的掉落表与野外生成配置，模组正文也未单独说明，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/endless-biomes",
+   "confidence": 0.4,
+   "notes": "仅有实体注册名与语言条目。"
+  },
+  {
+   "mob_id": "endlessbiomes:radon_sentinel",
+   "name_en": "Radon Sentinel",
+   "name_zh": "",
+   "description_zh": "氡哨卫（Radon Sentinel），模组「壁垒」（Bulwark）地牢的守卫生物，与氡辐射主题相关：jar 的 radon_immune 标签显示它免疫氡伤害，对应地牢内有 radon_bulwark_loot 战利品表。模组正文没有单独介绍它的行为，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/endless-biomes",
+   "confidence": 0.45,
+   "notes": "依据 jar 的标签与战利品表名；正文只提到 Bulwark 地牢有独特生物。"
+  },
+  {
+   "mob_id": "endlessbiomes:riftite_sentinel",
+   "name_en": "Riftite Sentinel",
+   "name_zh": "",
+   "description_zh": "裂隙哨卫（Riftite Sentinel），壁垒地牢中与裂隙水晶（riftite）主题对应的守卫生物，免疫氡辐射（radon_immune 标签），jar 中有 riftite_bulwark_loot 战利品表。模组正文未单独介绍，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/endless-biomes",
+   "confidence": 0.45,
+   "notes": "依据 jar 的标签与战利品表名。"
+  },
+  {
+   "mob_id": "endlessbiomes:resistive_sentinel",
+   "name_en": "Resistive Sentinel",
+   "name_zh": "",
+   "description_zh": "抗性哨卫（Resistive Sentinel），壁垒地牢的第三类守卫生物，对应 resistive_bulwark_treasure_loot 战利品表，并免疫氡辐射（radon_immune 标签）。模组正文未单独介绍，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/endless-biomes",
+   "confidence": 0.45,
+   "notes": "依据 jar 的标签与战利品表名。"
+  }
+ ]
+}

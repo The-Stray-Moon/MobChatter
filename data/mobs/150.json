@@ -1,0 +1,27 @@
+{
+ "rank": 150,
+ "mod": "Invasion Code Red Reborn(Illager Boss)",
+ "mod_url": "https://modrinth.com/mod/invasion-code-red-reborn",
+ "mobs": [
+  {
+   "mob_id": "invasioncodered:gashslit",
+   "name_en": "Gashslit The Emperor",
+   "name_zh": "裂刃帝王",
+   "description_zh": "袭击事件中有几率（可配置）出现的掠夺者 Boss，拥有 680（×340）点生命，攻击可造成 13~24 点伤害。血量越低防御和攻击越高，生命降至 40% 以下会进入第二阶段，解锁新招式并提升伤害与范围。会近战、发射剑气、冲锋（至少 46 点伤害）、格挡（期间免疫大部分伤害）并短时间获得速度 10，还能召唤裂刃王龙助战；目前没有掉落物。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/invasion-code-red-reborn",
+   "confidence": 0.95,
+   "notes": "原英文名带格式码，已清除为 Gashslit The Emperor"
+  },
+  {
+   "mob_id": "invasioncodered:gashslit_dragon",
+   "name_en": "Gashslit Dragon",
+   "name_zh": "裂刃王龙",
+   "description_zh": "裂刃帝王在战斗中召唤出的龙形助战生物，拥有 10（×5）点生命、6（×3）点攻击和 2.0 的移动速度。存在时间有限，计时结束后每秒损失 1 点生命直至死亡。jar 中另有独立的 EntityGashslitDragonHealer（治疗者）类，带治疗动画。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/invasion-code-red-reborn",
+   "confidence": 0.7,
+   "notes": "正文只提到它是 Boss 召唤物；血量/攻击/速度取自 jar 中 createAttributes 字节码，无刷怪蛋"
+  }
+ ]
+}

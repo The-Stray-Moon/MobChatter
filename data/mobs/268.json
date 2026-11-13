@@ -1,0 +1,9 @@
+{"rank":268,"mod":"Mushrooms Realm","mod_url":"https://modrinth.com/mod/mushrooms-realm",
+ "mobs":[{"mob_id":"mushrooms_realm:brown_mushroom_entity","name_en":"Brown mushroom","name_zh":"",
+          "description_zh":"会主动在玩家附近现身的棕色蘑菇商人：默认每 5–60 分钟在主世界生成一次，出现 10 分钟后消失，间隔与存活时间都可在配置里调整，生命值 10 点。拿绿宝石连同钻石武器或盔甲与它交易，可换到一件带随机附魔的同款装备。",
+          "source":"mod_body","source_url":"https://modrinth.com/mod/mushrooms-realm","confidence":0.85,
+          "notes":"生成间隔 300–3600 秒、存活 600 秒取自 jar 的 Config 默认值与 EntitySpawnHandler；交易为钻石装备+绿宝石换随机附魔装备（ModVillagers 静态交易表）；掉落表为空，jar 无 zh_cn 翻译。"},
+         {"mob_id":"mushrooms_realm:red_mushroom_entity","name_en":"Red mushroom","name_zh":"",
+          "description_zh":"红色蘑菇商人，按 jar 中的维度判定在下界生成（模组正文写作“洞穴”），同样默认每 5–60 分钟出现一次并在 10 分钟后消失。可用绿宝石连同下界合金武器或盔甲与它交换带随机附魔的装备，生命值 10 点。",
+          "source":"mod_body","source_url":"https://modrinth.com/mod/mushrooms-realm","confidence":0.8,
+          "notes":"正文写 “a red one in the cave”，但 EntitySpawnHandler 以 Level.NETHER 判定生成红色、主世界生成棕色，故记作下界；交易物品为下界合金装备+绿宝石（jar 内 ModVillagers 表）；生命值 10 点取自 Pig 属性；jar 无 zh_cn 翻译。"}]}

@@ -1,0 +1,27 @@
+{
+ "rank": 166,
+ "mod": "The Root of Fear",
+ "mod_url": "https://modrinth.com/mod/the-root-of-fear",
+ "mobs": [
+  {
+   "mob_id": "rootoffear:wilted",
+   "name_en": "Wilted",
+   "name_zh": "",
+   "description_zh": "《恐惧之根》的主怪：与 Creaking（嘎枝）同源、与心脏融合后脱离苍白之园，在主世界各地游荡；它以黑暗为力量来源，把身为光源的玩家视为首要目标，且每次生成的 AI 行为都会随机化。它会提前两天发出声音预警，袭击当晚浓雾笼罩、夜里伪装现身，还会熄灭并封住光源、制造诱饵与影子分身，玩家应躲进明亮的安全处直到天亮。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-root-of-fear",
+   "confidence": 0.9,
+   "notes": "描述据 Modrinth 模组正文；分身/诱饵与熄光行为另见 jar 内 WiltedCreateShadows/CreateDecoy/ExtinguishLights 等 AI 类。无掉落表。"
+  },
+  {
+   "mob_id": "rootoffear:shadow_wilted",
+   "name_en": "Shadow Wilted",
+   "name_zh": "",
+   "description_zh": "由 Wilted 在战斗中制造出来的影子分身（jar 内同时存在 ShadowWilted 实体与 WiltedCreateShadowsGoal），用于迷惑并包围玩家。除实体注册与名称外没有公开的数值资料，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-root-of-fear",
+   "confidence": 0.4,
+   "notes": "仅有实体注册与相关 AI 类名可核实，无掉落表与独立刷怪蛋。"
+  }
+ ]
+}

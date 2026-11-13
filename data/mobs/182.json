@@ -1,0 +1,47 @@
+{
+ "rank": 182,
+ "mod": "Vanimals",
+ "mod_url": "https://modrinth.com/mod/vanimals",
+ "mobs": [
+  {
+   "mob_id": "vanimals:bison",
+   "name_en": "Bison",
+   "name_zh": "",
+   "description_zh": "重而慢的野牛，生成于平原（权重 15）和雪原（权重 10）；装上鞍、手持苹果钓竿即可骑乘，疾跑冲撞能伤害沿途生物，用盾牌格挡可以挡下它的冲撞。拥有 45 点生命、3 点攻击，掉落生野牛肉与野牛角（可制骨粉），雌性还能挤奶。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/vanimals",
+   "confidence": 0.9,
+   "notes": "行为与骑乘方式来自模组正文；生成群系/权重、45 生命与 3 攻击取自 jar 的 biome_modifier 与属性；掉落表为 raw_bison + bison_horn。jar 无 zh_cn 翻译。"
+  },
+  {
+   "mob_id": "vanimals:four_eyed_fish",
+   "name_en": "Four-Eyed Fish",
+   "name_zh": "",
+   "description_zh": "四眼鱼栖息在河流与红树林沼泽，吃蜘蛛眼，会游在水面附近，并有一个红树林变种。可以用剪刀剪下「四眼鱼眼」（之后会重新长出），这是驯服弹涂鱼的关键物品；拥有 6 点生命，掉落生四眼鱼，小概率掉骨粉。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/vanimals",
+   "confidence": 0.9,
+   "notes": "习性、剪眼与变种来自模组正文；生成权重、6 生命与掉落表（raw_foureyed_fish、5% 骨粉）取自 jar。"
+  },
+  {
+   "mob_id": "vanimals:mudskipper",
+   "name_en": "Mudskipper",
+   "name_zh": "",
+   "description_zh": "弹涂鱼生成在红树林沼泽（每次 2–5 只），可用四眼鱼眼驯服，驯服后能像背包一样使用 4 格物品栏，并听指令坐下或四处游荡。它吃蜘蛛眼、会在唱片机旁跳舞，还能连物品一起装进水桶带走；拥有 6 点生命，掉落生弹涂鱼。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/vanimals",
+   "confidence": 0.9,
+   "notes": "驯服、背包、跳舞与水桶行为来自模组正文；生成群系/权重、6 生命与掉落取自 jar。"
+  },
+  {
+   "mob_id": "vanimals:napoleon_fish",
+   "name_en": "Napoleon Fish",
+   "name_zh": "",
+   "description_zh": "拿破仑鱼生成在温暖海洋与温水海洋（每次 1–3 只），以死珊瑚为食；雌鱼体型较小且体色不同，雄鱼更大、偏蓝且眼上有隆起。拥有 10 点生命，目前除游动外没有更多互动行为。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/vanimals",
+   "confidence": 0.85,
+   "notes": "食性、雌雄差异与“暂无更多行为”来自模组正文；生成群系/权重、10 生命与无掉落表取自 jar。"
+  }
+ ]
+}

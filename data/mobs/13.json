@@ -1,0 +1,317 @@
+{
+ "rank": 13,
+ "mod": "Ice and Fire",
+ "mod_url": "https://modrinth.com/mod/ice-and-fire-dragons",
+ "mobs": [
+  {
+   "mob_id": "iceandfire:fire_dragon",
+   "name_en": "Fire Dragon",
+   "name_zh": "火龙",
+   "description_zh": "漫游主世界的三种龙之一，有五个生长阶段，生命值从 10 点一路涨到 500 点，体型与力量随之提升；成年龙会喷吐龙息、发射龙炎弹，并能用尾鞭、风刃和空中扑击作战。它生成在温度高于 -5 的温暖群系（丛林、热带草原、恶地除外），青年龙见于地表露天龙巢，成年龙潜伏在龙的巢穴；死亡后掉落龙鳞、龙肉、龙心、龙骨、龙血与龙蛋。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/72647.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:ice_dragon",
+   "name_en": "Ice Dragon",
+   "name_zh": "冰龙",
+   "description_zh": "与火龙对立的三龙之一，五个成长阶段的生命值为 10 到 500 点、护甲 1 到 21 点，鱼尾状的大尾巴让它能潜入水下高速游动。它只生成在温度低于 -5 的寒冷群系，成年龙藏在龙的巢穴中，能喷吐寒冰吐息把猎物冻死；掉落物与火龙类似（龙鳞、龙骨、龙血、龙心、龙蛋等）。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/72648.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:lightning_dragon",
+   "name_en": "Lightning Dragon",
+   "name_zh": "电龙",
+   "description_zh": "夜行性的第三种龙，出没于热带草原、方山与丛林的漆黑夜空，住在霆霹方块构成的巢窠或地下洞穴，喜爱紫水晶与铜。它的龙霆吐息是一束闪电，直接伤害高于龙炎与龙霜；年长的电龙还能投射会炸开地形的龙霆弹，近战则有撕咬、致命甩咬和蓄力扫尾；掉落龙鳞、龙骨、颅骨、龙血等，可用于制作电龙鳞甲与龙霆钢。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/790978.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:hippogryph",
+   "name_en": "Hippogryph",
+   "name_zh": "骏鹰",
+   "description_zh": "狮鹫与马的嵌合体，生成在沙漠与山地群系，生命值 40 点、伤害 5 点，是极具掠食性的中立生物，饥饿时会主动攻击玩家和大部分被动生物，平时更爱在高空盘旋。它免疫摔落伤害，可以用兔子脚驯服，驯服后能上鞍、披甲甚至装箱子；死亡掉落羽毛、皮革，并有 2.5% 概率掉落骏鹰颅骨或利爪。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/72662.html",
+   "confidence": 0.9,
+   "notes": "jar 中另有 black/brown/chestnut/creamy/dark_brown/gray/white/alex/raptor/dodo 等毛色实体，均为骏鹰的颜色变种，不单独列出。"
+  },
+  {
+   "mob_id": "iceandfire:pixie",
+   "name_en": "Pixie",
+   "name_zh": "小精灵",
+   "description_zh": "生活在黑森林小精灵村里的微型飞行生物，生命值 20 点，有粉、紫、蓝、绿、黄五种纹理色。它没有攻击能力，却会趁玩家视线没对准它时偷走物品栏里的一件物品（快捷栏与不可堆叠物品除外），打它一下就会丢下赃物；用广口瓶可捕捉，用蛋糕投中即可驯服，驯服后按颜色给玩家对应的 I 级增益。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/72663.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:gorgon",
+   "name_en": "Gorgon",
+   "name_zh": "蛇发女妖",
+   "description_zh": "上半身是女子、下半身是蛇的亡灵生物，生命值 100 点、护甲 1 点，生成在海岸的蛇发女妖神庙结构里。被她直视的生物会被石化成石像（装备眼罩可免疫），近战毒牙伤害 2 点并附带 4 秒中毒 III；击杀必定掉落一颗可施放一次石化魔法的蛇发女妖头颅。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/72664.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:cyclops",
+   "name_en": "Cyclops",
+   "name_zh": "独眼巨人",
+   "description_zh": "如巨龙般高大的人形怪物，生命值 150 点、护甲 20 点，主要生成在结构“独眼巨人海湾”，平原与热带草原也有极低概率自然生成。它是牧羊好手，会保护身边的绵羊并攻击靠近的生物，踩踏伤害 17 点、抓取伤害 40 点，还会破坏沿途的木质方块与树叶；射瞎它的独眼或穿全套拟羊套装潜行可以避开它的感知。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/168672.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:hippocampus",
+   "name_en": "Hippocampus",
+   "name_zh": "海马",
+   "description_zh": "兼具马与鱼特征的温和生物，生命值 40 点，生成在海洋，有六种颜色。它没有攻击能力，上岸后行动笨拙，但水下速度比划船的玩家和蟒蛇都快，可用海带驯服并装备鞍、马铠和箱子；死亡掉落 0 到 4 片闪光鳞片，可直接把水瓶酿成水肺药水。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/168775.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:cockatrice",
+   "name_en": "Cockatrice",
+   "name_zh": "鸡蛇",
+   "description_zh": "半蜥半鸟的魔物，生命值 40 点、护甲 2 点，仅在热带草原以 2 到 3 只成组生成。它的凝视会凋零与之对视者的灵魂（戴眼罩或让其失明可避免），近战伤害 5 点；死亡掉落羽毛与凋灵之骨，是凋灵之骨的稳定来源。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/168776.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:troll",
+   "name_en": "Troll",
+   "name_zh": "食人妖",
+   "description_zh": "生成在森林、山地和雪原地下的巨型人形怪物，生命值 50 点、护甲 9 点、普攻 10 点，按群系分为森林、山地、雪地三类。它手持石柱、树干或原始大斧等沉重武器，免疫击退与箭矢伤害，血量未满时自带生命恢复 II；被阳光暴晒会立刻变成石像，掉落武器材料、绿宝石/蓝宝石/蘑菇以及长牙和毛皮（可做减免 75% 弹射物伤害的食人妖皮甲）。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/168777.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:siren",
+   "name_en": "Siren",
+   "name_zh": "塞壬",
+   "description_zh": "栖息在海洋塞壬礁的类人生物，生命值 50 点、伤害 6 点，以 2 到 3 只成组绑定生成。平时是人身鱼尾的“美人鱼”，用歌声诱惑类人生物奔向礁石，等猎物靠近就露出娜迦真身跃入水中攻击；戴木质按钮做的耳塞可免受歌声影响。击杀掉落海晶碎片、海晶砂粒与闪光鳞片。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/168825.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:stymphalian_bird",
+   "name_en": "Stymphalian Bird",
+   "name_zh": "铜羽泽鹗",
+   "description_zh": "全身金属化的怪鸟，生命值 24 点、护甲 4 点，在沼泽以 3 到 20 只成群生成。近距离用金属喙啄击，远距离则射出锋利羽毛，羽毛命中会造成重创；击杀或拾取射失的羽毛可获得材料，做成不受重力影响、伤害高于普通箭的鹗羽箭。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/168909.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:deathworm",
+   "name_en": "Death Worm",
+   "name_zh": "死亡蠕虫",
+   "description_zh": "在沙漠沙海中钻行的巨型蠕虫，基础生命值 10 点、最高 48 点，伤害 3 到 14.4 点，还有体型四倍于普通个体、身长超过 20 米的稀有巨型个体。它用长舌舐袭猎物，也会突然破土跃起把周围生物击飞，免疫窒息与石化，还能下水游泳；死亡掉落腐肉、死亡蠕虫甲壳（可制甲）和能孵出护卫主人的幼虫的虫卵。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/168916.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:amphithere",
+   "name_en": "Amphithere",
+   "name_zh": "翼蚺",
+   "description_zh": "丛林上空的飞行奇兽，生命值 50 点、伤害 7 点，地面移速 0.4、飞行移速 1.75，被箭射中时格外脆弱。它用喙、尾和狂风攻击，玩家跳上背并扛住撕咬即可将其驯服，之后能像鞘翅一样操控飞行，用曲奇繁殖；死亡掉落 1 到 7 根翼蚺翎羽，可制成能把敌人吹飞的羽箭。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/168917.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:sea_serpent",
+   "name_en": "Sea Serpent",
+   "name_zh": "海蟒",
+   "description_zh": "生成在海洋的大型无足爬行动物，有七种纹理色和五个成长阶段，生命值 20 到 270 点、伤害 4 到 54 点。它对视野内一切生物敌对（包括同类与龙），会近身撕咬、向远处目标喷射沸水，并在目标乘船或站在岸边时跃出水面把船掀翻；死亡掉落 1 到 30 片对应颜色的鳞片、1 到 3 根长牙，2.5% 概率掉落颅骨。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/168918.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:hydra",
+   "name_en": "Hydra",
+   "name_zh": "九头蛇",
+   "description_zh": "盘踞在沼泽九头蛇巢穴里的多头巨蛇，生命值 250 点、护甲 1 点。它开局只有 3 颗头，头被砍断后会迅速回血并长出两颗新头，最多九颗；只有用火焰焚烧断颈才能阻止再生，也只有在只剩一颗头时才能真正杀死。近战伤害 3 点并附加 4 秒中毒 IV，每颗头还能喷射附带中毒 I 的毒液；掉落九头蛇毒牙、腐肉，10% 概率掉落九头蛇心脏。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/235510.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:ghost",
+   "name_en": "Ghost",
+   "name_zh": "幽灵",
+   "description_zh": "亡灵意志的具象化，生命值 30 点、护甲 1 点、伤害 3 点，夜晚从墓地结构的坟土中爬出，右键打开被诅咒的箱子也会立刻生成一只。它能飞行并穿墙，免疫箭矢等弹射物与火焰伤害，攻击前会绕圈再尖啸冲撞；白天暴露在日光下会进入免疫一切伤害的状态。击杀（限坟土生成者）掉落魂质，2.5% 概率掉落灵锭。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/790985.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:myrmex_worker",
+   "name_en": "Myrmex Worker",
+   "name_zh": "恐蚁劳工",
+   "description_zh": "蚁穴中体型最小的阶层，负责外出采集食物并运回食品室，也负责把卵、幼虫和蛹搬到保育室。它是最常离开蚁穴的阶层，因此常成为死亡蠕虫的猎物，需要军士护送；恐蚁只生成在沙漠与丛林的蚁穴结构中，默认与玩家和村民敌对。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/169392.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:myrmex_soldier",
+   "name_en": "Myrmex Soldier",
+   "name_zh": "恐蚁军士",
+   "description_zh": "蚁穴的第一道防线，体型比劳工略大、上颚更大，会跟随并保护其他阶层的恐蚁，主动攻击蚁穴之外的一切生物，用撕咬和螫针近战。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/169392.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:myrmex_sentinel",
+   "name_en": "Myrmex Sentinel",
+   "name_zh": "恐蚁斥候",
+   "description_zh": "在暗处行动的恐蚁阶层，第一对足演化成强壮前肢、腹部变成可直立的长蝎尾，外形像螳螂。它在本穴恐蚁的觅食路线上侦查并伏击敌人，是除女皇外个体战斗力最强的阶层。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/169392.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:myrmex_royal",
+   "name_en": "Myrmex Royal",
+   "name_zh": "恐蚁皇族",
+   "description_zh": "恐蚁中唯一有飞行能力的阶层，也是蚁穴的繁殖体，身侧有两对翅膀。它在蚁穴里闲待很久后才会起飞寻找配偶，交配后雄性死亡，雌性成为新的恐蚁女皇并建立新蚁穴。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/169392.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:myrmex_queen",
+   "name_en": "Myrmex Queen",
+   "name_zh": "恐蚁女皇",
+   "description_zh": "蚁穴中唯一能繁殖的阶层，头顶有一对角和长而蠕动的囊状腹部，一个蚁穴通常只有一只女皇。她是最难对付的阶层：螫针能把玩家击退十米开外，巨颚能轻易夹碎骨骼；杀死女皇就等于断绝整个蚁穴的补充，蚁穴会逐渐衰亡。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/169392.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:myrmex_swarmer",
+   "name_en": "Myrmex Swarmer",
+   "name_zh": "恐蜂蚁",
+   "description_zh": "冰火传说中恐蚁一族单独注册的“蜂蚁（Swarmer）”实体，属于蚁穴社会中的一员，没有刷怪蛋。模组正文与内置《异兽手记》没有单列它的生成方式和数值，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ice-and-fire-dragons",
+   "confidence": 0.4,
+   "notes": "据实体注册 EntityMyrmexSwarmer 与中英文名称，无刷怪蛋与百科条目，资料有限。"
+  },
+  {
+   "mob_id": "iceandfire:dread_lich",
+   "name_en": "Dread Lich",
+   "name_zh": "悚怖尸巫",
+   "description_zh": "悚怖一族的亡灵法师，生命值 50 点、护甲 2 点，生成在悚陵结构外部，会主动攻击所有非悚怖生物。它发射带追踪能力、伤害 6 点的冰魂髑髅（对高空目标伤害极高），并随机召唤悚怖尸奴、尸兽、食尸鬼或劫蛛，最多同时拥有 5 只仆从；击杀掉落骨头、悚怖碎片，10% 概率掉落陵主之钥，低概率掉落悚怖尸巫之杖。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/235537.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "iceandfire:dread_thrall",
+   "name_en": "Dread Thrall",
+   "name_zh": "悚怖尸奴",
+   "description_zh": "行动缓慢的弱小骷髅，被悚怖尸巫从地下召唤时会带着生前那套破破烂烂的剑和铠甲。悚怖亡灵都会掉落悚怖碎片，可用于制作悚石建材。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ice-and-fire-dragons",
+   "confidence": 0.5,
+   "notes": "据模组内置《异兽手记》悚怖生物章节（zh_cn 文本）。"
+  },
+  {
+   "mob_id": "iceandfire:dread_ghoul",
+   "name_en": "Dread Ghoul",
+   "name_zh": "悚怖食尸鬼",
+   "description_zh": "行动迅捷的活尸，长着极其尖锐的利爪，随时准备撕碎猎物；作为悚怖一族，它会主动攻击所有非悚怖生物，死亡掉落悚怖碎片。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ice-and-fire-dragons",
+   "confidence": 0.5,
+   "notes": "据模组内置《异兽手记》悚怖生物章节。"
+  },
+  {
+   "mob_id": "iceandfire:dread_beast",
+   "name_en": "Dread Beast",
+   "name_zh": "悚怖尸兽",
+   "description_zh": "由悚怖尸巫用动物残肢转化而来的亡灵兽，行动迅速，会扑咬一切咬得到的活物，死亡掉落悚怖碎片。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ice-and-fire-dragons",
+   "confidence": 0.5,
+   "notes": "据模组内置《异兽手记》悚怖生物章节。"
+  },
+  {
+   "mob_id": "iceandfire:dread_scuttler",
+   "name_en": "Dread Scuttler",
+   "name_zh": "悚怖劫蛛",
+   "description_zh": "狰狞的节肢亡灵，听从悚怖尸巫的命令，用沉重巨大的螫齿刺入猎物体内，死亡掉落悚怖碎片。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ice-and-fire-dragons",
+   "confidence": 0.5,
+   "notes": "据模组内置《异兽手记》悚怖生物章节。"
+  },
+  {
+   "mob_id": "iceandfire:dread_knight",
+   "name_en": "Dread Knight",
+   "name_zh": "悚怖尸骑",
+   "description_zh": "悚怖军团中骑乘出场的亡灵骑士，模组为它单独注册了坐骑实体悚怖尸骑战马（dread_horse）；它与其他悚怖亡灵一样会主动攻击非悚怖生物，并掉落悚怖碎片。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ice-and-fire-dragons",
+   "confidence": 0.45,
+   "notes": "正文与《异兽手记》未单列其数值，据实体注册（含 dread_horse 坐骑与独立刷怪蛋）描述，资料有限。"
+  },
+  {
+   "mob_id": "iceandfire:dread_horse",
+   "name_en": "Dread Knight Horse",
+   "name_zh": "悚怖尸骑战马",
+   "description_zh": "悚怖尸骑的亡灵坐骑，与骑士一同出现在悚陵一带，模组为它单独注册了实体和刷怪蛋；具体数值与行为在正文和《异兽手记》中没有单列。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ice-and-fire-dragons",
+   "confidence": 0.4,
+   "notes": "仅有实体注册与刷怪蛋，资料有限。"
+  },
+  {
+   "mob_id": "iceandfire:dread_queen",
+   "name_en": "Dread Queen",
+   "name_zh": "悚怖女皇",
+   "description_zh": "模组注册的悚怖一族高阶成员，没有刷怪蛋；正文和《异兽手记》只详细介绍了尸巫、尸奴、食尸鬼、尸兽与劫蛛，没有她的生成方式和数值，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ice-and-fire-dragons",
+   "confidence": 0.35,
+   "notes": "仅有实体注册与中英文名称，资料有限。"
+  }
+ ]
+}

@@ -1,0 +1,807 @@
+{
+ "rank": 281,
+ "mod": "Jurassic Revived",
+ "mod_url": "https://modrinth.com/mod/jurassic-revived",
+ "mobs": [
+  {
+   "mob_id": "jurassicrevived:achillobator",
+   "name_en": "Achillobator",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 30 点，攻击力 8 点，生成于针叶林，每次 1–2 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:albertosaurus",
+   "name_en": "Albertosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 55 点，攻击力 16 点，生成于针叶林，每次 1–2 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:allosaurus",
+   "name_en": "Allosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 65 点，攻击力 18 点，生成于森林，每次 1–2 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:alvarezsaurus",
+   "name_en": "Alvarezsaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 5 点，攻击力 2 点，生成于恶地，每次 2–4 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:ankylosaurus",
+   "name_en": "Ankylosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 75 点，攻击力 18 点，生成于针叶林、森林，每次 2–4 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:apatosaurus",
+   "name_en": "Apatosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 150 点，攻击力 15 点，生成于森林，每次 1–2 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:arambourgiania",
+   "name_en": "Arambourgiania",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙、可飞行，生命值 100 点，攻击力 20 点，生成于山地，每次 2–3 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:baryonyx",
+   "name_en": "Baryonyx",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙、可两栖活动，生命值 55 点，攻击力 15 点，生成于主世界，每次 1–2 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:brachiosaurus",
+   "name_en": "Brachiosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 200 点，攻击力 20 点，生成于森林、针叶林，每次 1–2 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:carcharodontosaurus",
+   "name_en": "Carcharodontosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 80 点，攻击力 20 点，生成于恶地，每次 1–2 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:carnotaurus",
+   "name_en": "Carnotaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 55 点，攻击力 16 点，生成于恶地，每次 2–3 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:cearadactylus",
+   "name_en": "Cearadactylus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙、可飞行，生命值 50 点，攻击力 8 点，生成于沙滩、山地，每次 2–4 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:ceratosaurus",
+   "name_en": "Ceratosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 55 点，攻击力 16 点，生成于丛林，每次 1–2 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:chasmosaurus",
+   "name_en": "Chasmosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 50 点，攻击力 14 点，生成于针叶林，每次 2–4 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:chickenosaurus",
+   "name_en": "Chickenosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 30 点，攻击力 8 点；没有自然生成配置，只能用刷怪蛋或模组机器获得。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:chilesaurus",
+   "name_en": "Chilesaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 20 点，生成于森林，每次 3–6 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:coelophysis",
+   "name_en": "Coelophysis",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 14 点，攻击力 4 点，生成于森林、针叶林，每次 3–5 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:coelurus",
+   "name_en": "Coelurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 14 点，攻击力 4 点，生成于森林，每次 2–4 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:compsognathus",
+   "name_en": "Compsognathus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 5 点，攻击力 2 点，生成于森林，每次 3–6 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:concavenator",
+   "name_en": "Concavenator",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 45 点，攻击力 14 点，生成于恶地，每次 2–3 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:corythosaurus",
+   "name_en": "Corythosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 55 点，攻击力 12 点，生成于森林，每次 3–5 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:deinonychus",
+   "name_en": "Deinonychus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 30 点，攻击力 8 点，生成于针叶林、森林，每次 2–4 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:dilophosaurus",
+   "name_en": "Dilophosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 30 点，攻击力 5 点，生成于丛林，每次 2–3 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:dimorphodon",
+   "name_en": "Dimorphodon",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙、可飞行，生命值 20 点，攻击力 5 点，生成于山地，每次 2–4 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:diplodocus",
+   "name_en": "Diplodocus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 150 点，攻击力 15 点，生成于森林、针叶林，每次 1–2 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:distortus_rex",
+   "name_en": "Distortus Rex",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 120 点，攻击力 35 点；没有自然生成配置，只能用刷怪蛋或模组机器获得。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:dryosaurus",
+   "name_en": "Dryosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 20 点，生成于森林，每次 3–6 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:edmontosaurus",
+   "name_en": "Edmontosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 60 点，攻击力 12 点，生成于针叶林，每次 2–4 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:fduck",
+   "name_en": "FDuck",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 30 点，攻击力 8 点；没有自然生成配置，只能用刷怪蛋或模组机器获得。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:gallimimus",
+   "name_en": "Gallimimus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 30 点，生成于主世界，每次 3–6 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:geosternbergia",
+   "name_en": "Geosternbergia",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙、可飞行，生命值 50 点，攻击力 8 点，生成于沙滩、山地，每次 2–4 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:giganotosaurus",
+   "name_en": "Giganotosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 80 点，攻击力 20 点，生成于恶地，每次 1–2 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:guanlong",
+   "name_en": "Guanlong",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 20 点，攻击力 5 点，生成于恶地，每次 2–3 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:guidraco",
+   "name_en": "Guidraco",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙、可飞行，生命值 20 点，攻击力 5 点，生成于山地，每次 2–3 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:hadrosaurus",
+   "name_en": "Hadrosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 55 点，攻击力 12 点，生成于森林，每次 3–5 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:herrerasaurus",
+   "name_en": "Herrerasaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 35 点，攻击力 8 点，生成于针叶林、森林，每次 2–4 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:hypsilophodon",
+   "name_en": "Hypsilophodon",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 20 点，生成于森林，每次 3–6 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:indominus_rex",
+   "name_en": "Indominus Rex",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 90 点，攻击力 25 点；没有自然生成配置，只能用刷怪蛋或模组机器获得。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:indoraptor",
+   "name_en": "Indoraptor",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 55 点，攻击力 16 点；没有自然生成配置，只能用刷怪蛋或模组机器获得。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:inostrancevia",
+   "name_en": "Inostrancevia",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 35 点，攻击力 10 点，生成于针叶林，每次 2–3 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:lambeosaurus",
+   "name_en": "Lambeosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 55 点，攻击力 12 点，生成于森林，每次 3–5 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:ludodactylus",
+   "name_en": "Ludodactylus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙、可飞行，生命值 50 点，攻击力 8 点，生成于丛林、山地，每次 2–4 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:majungasaurus",
+   "name_en": "Majungasaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 55 点，攻击力 16 点，生成于丛林，每次 1–2 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:mamenchisaurus",
+   "name_en": "Mamenchisaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 200 点，攻击力 20 点，生成于丛林，每次 1–2 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:metriacanthosaurus",
+   "name_en": "Metriacanthosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 45 点，攻击力 14 点，生成于丛林、森林，每次 2–3 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:moganopterus",
+   "name_en": "Moganopterus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙、可飞行，生命值 50 点，攻击力 8 点，生成于丛林、山地，每次 2–3 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:mussasaurus",
+   "name_en": "Mussasaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 34 点，攻击力 6 点，生成于恶地，每次 3–5 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:nyctosaurus",
+   "name_en": "Nyctosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙、可飞行，生命值 20 点，攻击力 5 点，生成于沙滩、山地，每次 2–3 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:ornitholestes",
+   "name_en": "Ornitholestes",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 14 点，攻击力 4 点，生成于森林，每次 3–5 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:ornithomimus",
+   "name_en": "Ornithomimus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 25 点，生成于主世界，每次 3–6 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:ouranosaurus",
+   "name_en": "Ouranosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 55 点，攻击力 12 点，生成于主世界，每次 3–5 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:oviraptor",
+   "name_en": "Oviraptor",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 10 点，攻击力 2 点，生成于恶地，每次 3–5 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:pachycephalosaurus",
+   "name_en": "Pachycephalosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 30 点，攻击力 10 点，生成于森林，每次 2–4 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:parasaurolophus",
+   "name_en": "Parasaurolophus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 55 点，攻击力 12 点，生成于森林，每次 3–5 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:proceratosaurus",
+   "name_en": "Proceratosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 14 点，攻击力 4 点，生成于森林、针叶林，每次 2–4 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:procompsognathus",
+   "name_en": "Procompsognathus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 8 点，攻击力 2 点，生成于恶地，每次 3–5 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:protoceratops",
+   "name_en": "Protoceratops",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 20 点，攻击力 6 点，生成于恶地，每次 3–5 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:pteranodon",
+   "name_en": "Pteranodon",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙、可飞行，生命值 50 点，攻击力 8 点，生成于沙滩、山地，每次 2–5 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:pterodaustro",
+   "name_en": "Pterodaustro",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙、可飞行，生命值 50 点，攻击力 8 点，生成于沙滩，每次 2–5 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:quetzalcoatlus",
+   "name_en": "Quetzalcoatlus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙、可飞行，生命值 100 点，攻击力 20 点，生成于山地，每次 1–2 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:rajasaurus",
+   "name_en": "Rajasaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 45 点，攻击力 14 点，生成于恶地，每次 2–3 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:rugops",
+   "name_en": "Rugops",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 45 点，攻击力 14 点，生成于森林，每次 2–3 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:segisaurus",
+   "name_en": "Segisaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 10 点，攻击力 2 点，生成于恶地，每次 3–6 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:shantungosaurus",
+   "name_en": "Shantungosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 60 点，攻击力 12 点，生成于丛林、森林，每次 2–4 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:spinosaurus",
+   "name_en": "Spinosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙、可两栖活动，生命值 80 点，攻击力 20 点，生成于主世界，每次 1–2 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:stegosaurus",
+   "name_en": "Stegosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 65 点，攻击力 16 点，生成于针叶林，每次 2–4 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:styracosaurus",
+   "name_en": "Styracosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 50 点，攻击力 14 点，生成于针叶林、森林，每次 2–5 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:suchomimus",
+   "name_en": "Suchomimus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙、可两栖活动，生命值 55 点，攻击力 15 点，生成于主世界，每次 1–2 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:tapejara",
+   "name_en": "Tapejara",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙、可飞行，生命值 20 点，攻击力 5 点，生成于丛林、山地，每次 2–5 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:therizinosaurus",
+   "name_en": "Therizinosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 70 点，攻击力 18 点，生成于丛林、森林，每次 1–2 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:thescelosaurus",
+   "name_en": "Thescelosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 20 点，生成于森林，每次 3–6 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:titanosaurus",
+   "name_en": "Titanosaurus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 250 点，攻击力 30 点，生成于丛林，每次 1–2 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:triceratops",
+   "name_en": "Triceratops",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的植食恐龙，生命值 60 点，攻击力 16 点，生成于针叶林，每次 3–5 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:troodon",
+   "name_en": "Troodon",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 20 点，攻击力 5 点，生成于针叶林、森林，每次 3–6 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:tropeognathus",
+   "name_en": "Tropeognathus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙、可飞行，生命值 50 点，攻击力 8 点，生成于山地，每次 2–4 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:tupuxuara",
+   "name_en": "Tupuxuara",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙、可飞行，生命值 50 点，攻击力 8 点，生成于丛林、山地，每次 2–5 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:tyrannosaurus_rex",
+   "name_en": "Tyrannosaurus Rex",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 80 点，攻击力 20 点，生成于针叶林，每次 1–2 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:utahraptor",
+   "name_en": "Utahraptor",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 35 点，攻击力 10 点，生成于针叶林、森林，每次 1–3 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:velociraptor",
+   "name_en": "Velociraptor",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙，生命值 30 点，攻击力 8 点，生成于恶地，每次 2–4 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  },
+  {
+   "mob_id": "jurassicrevived:zhenyuanopterus",
+   "name_en": "Zhenyuanopterus",
+   "name_zh": "",
+   "description_zh": "《Jurassic Revived》中的肉食恐龙、可飞行，生命值 50 点，攻击力 8 点，生成于沙滩、山地，每次 2–5 只。模组为恐龙配置了物种专属 AI（攻击、逃跑、漫游、群居）。死亡掉落新鲜头骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/jurassic-revived",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性（createAttributes）与生物群系生成配置；模组正文未逐物种介绍，资料有限。"
+  }
+ ]
+}

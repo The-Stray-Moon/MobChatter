@@ -1,0 +1,147 @@
+{
+ "rank": 114,
+ "mod": "Brazil Legends",
+ "mod_url": "https://modrinth.com/mod/brazil-legends",
+ "mobs": [
+  {
+   "mob_id": "brazil_legends:capelobo",
+   "name_en": "Capelobo",
+   "name_zh": "",
+   "description_zh": "卡佩洛博是巴西民间传说中的怪物，模组中会主动追击玩家。生命值 70、近战伤害 9，击败后掉落大舌头与卡佩洛博爪；森林中的凝视形态（capelobo_stare）负责自然生成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/brazil-legends",
+   "confidence": 0.8,
+   "notes": "行为与数值取自 jar 实体属性与战利品表。"
+  },
+  {
+   "mob_id": "brazil_legends:capelobo_stare",
+   "name_en": "Capelobo Stare",
+   "name_zh": "",
+   "description_zh": "卡佩洛博的凝视形态，几乎不移动（移动速度 0.01），只有 4 点生命；会以权重 10 在森林、白桦林和花林成组（1–4 只）自然生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/brazil-legends",
+   "confidence": 0.5,
+   "notes": "模组正文只笼统提到 Capelobo；本条目资料来自实体属性与刷怪配置。资料有限。"
+  },
+  {
+   "mob_id": "brazil_legends:cuca",
+   "name_en": "Cuca",
+   "name_zh": "",
+   "description_zh": "库卡（Cuca）是模组还原的巴西民间传说生物，生命值 80、近战伤害 8，会主动攻击玩家，击败后掉落琥珀碎片。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/brazil-legends",
+   "confidence": 0.75,
+   "notes": "正文点名 Cuca；数值取自 jar 属性与战利品表。"
+  },
+  {
+   "mob_id": "brazil_legends:cuclin",
+   "name_en": "Cuclin",
+   "name_zh": "",
+   "description_zh": "库卡的伴生小怪，生命值 30、攻击伤害 7，会主动锁定并近战攻击玩家。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/brazil-legends",
+   "confidence": 0.5,
+   "notes": "正文未单独介绍；资料来自 jar 实体属性与目标 AI。资料有限。"
+  },
+  {
+   "mob_id": "brazil_legends:cuclin_ally",
+   "name_en": "Cuclin Ally",
+   "name_zh": "",
+   "description_zh": "库克林（Cuclin）的友方版本，生命值 30、攻击伤害 10，但没有主动索敌 AI，不会主动攻击玩家。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/brazil-legends",
+   "confidence": 0.5,
+   "notes": "资料来自 jar 实体属性；友方定位据实体注册名与缺失目标 AI 推断。资料有限。"
+  },
+  {
+   "mob_id": "brazil_legends:headless_mule",
+   "name_en": "Headless Mule",
+   "name_zh": "",
+   "description_zh": "无头骡生命值 125、近战伤害 6，会主动追击玩家，击败后掉落燃烧皮革与下界合金碎片。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/brazil-legends",
+   "confidence": 0.75,
+   "notes": "正文点名 Headless Mule；数值取自 jar 属性与战利品表。"
+  },
+  {
+   "mob_id": "brazil_legends:mapinguari",
+   "name_en": "Mapinguari",
+   "name_zh": "",
+   "description_zh": "马平瓜里生命值 200、近战伤害 16，击退抗性很高，生成于稀疏丛林与热带草原，掉落马平瓜里之眼与獠牙。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/brazil-legends",
+   "confidence": 0.8,
+   "notes": "正文点名 Mapinguari；数值与生成群系取自 jar 属性与 biome_modifier。"
+  },
+  {
+   "mob_id": "brazil_legends:mapinguary",
+   "name_en": "Mapinguary",
+   "name_zh": "",
+   "description_zh": "马平瓜里的寒冷地区变种，同样有 200 点生命和 16 点近战伤害，生成于原始松木针叶林与冰刺平原，掉落物与马平瓜里相同。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/brazil-legends",
+   "confidence": 0.5,
+   "notes": "正文只写 Mapinguari；本变种资料来自 jar 属性与刷怪配置。资料有限。"
+  },
+  {
+   "mob_id": "brazil_legends:possessed_bowl",
+   "name_en": "Possessed Bowl",
+   "name_zh": "",
+   "description_zh": "被附身的碗，生命值 10、近战伤害 3，会主动攻击玩家。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/brazil-legends",
+   "confidence": 0.45,
+   "notes": "正文未介绍；仅有 jar 实体属性与名称，资料有限。"
+  },
+  {
+   "mob_id": "brazil_legends:possessed_dish",
+   "name_en": "Possessed Dish",
+   "name_zh": "",
+   "description_zh": "被附身的盘子，生命值 10、近战伤害 3，会主动攻击玩家。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/brazil-legends",
+   "confidence": 0.45,
+   "notes": "正文未介绍；仅有 jar 实体属性与名称，资料有限。"
+  },
+  {
+   "mob_id": "brazil_legends:possessed_spoon",
+   "name_en": "Possessed Spoon",
+   "name_zh": "",
+   "description_zh": "被附身的勺子，生命值 10、近战伤害 3，会主动攻击玩家。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/brazil-legends",
+   "confidence": 0.45,
+   "notes": "正文未介绍；仅有 jar 实体属性与名称，资料有限。"
+  },
+  {
+   "mob_id": "brazil_legends:saci_bundle",
+   "name_en": "Saci Bundle",
+   "name_zh": "",
+   "description_zh": "萨西的布袋生物，生命值 40、近战伤害 3，遇到玩家时会主动躲避。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/brazil-legends",
+   "confidence": 0.5,
+   "notes": "资料来自 jar 实体属性与 AvoidEntityGoal。资料有限。"
+  },
+  {
+   "mob_id": "brazil_legends:saci_perere",
+   "name_en": "Saci Pererê",
+   "name_zh": "",
+   "description_zh": "萨西（Saci Pererê）是巴西民间传说中的调皮鬼，生命值 50、近战伤害 6，以权重 3 在竹林中成组（2–3 只）生成，会开门并躲避玩家。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/brazil-legends",
+   "confidence": 0.8,
+   "notes": "正文点名 Saci；生成群系与数值取自 biome_modifier 和 jar 属性。"
+  },
+  {
+   "mob_id": "brazil_legends:saci_traped",
+   "name_en": "Saci Traped",
+   "name_zh": "",
+   "description_zh": "被困住的萨西，生命值 20，没有移动速度属性，用于瓶中萨西相关玩法。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/brazil-legends",
+   "confidence": 0.45,
+   "notes": "正文未介绍；仅有 jar 属性，资料有限。"
+  }
+ ]
+}

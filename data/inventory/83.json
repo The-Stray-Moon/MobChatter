@@ -1,0 +1,798 @@
+{
+ "rank": 83,
+ "mod": "Saint's Dragons",
+ "slug": "saints-dragons",
+ "project_id": "rjcsjwEU",
+ "source_url": "https://modrinth.com/mod/saints-dragons",
+ "jar": "D:\\work\\MobChatter\\data\\jars\\rjcsjwEU.jar",
+ "jar_size": 29546843,
+ "modid": "saintsdragons",
+ "entity_count": 98,
+ "mob_count": 97,
+ "entities": [
+  {
+   "key": "entity.saintsdragons.ignivorus.taming_need_weakened",
+   "id": "taming_need_weakened",
+   "en": "%s burns too hot! Weaken it to %s HP first.",
+   "zh": "%s烧的太旺！请先削减它的生命值至%s以下。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.stegonaut.baby_fed",
+   "id": "baby_fed",
+   "en": "%s grows a bit stronger!",
+   "zh": "%s变的更强壮了！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.atroxiia.baby_fed",
+   "id": "baby_fed",
+   "en": "%s grows a bit stronger!",
+   "zh": "%s变的更强壮了！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.cindervane.baby_fed",
+   "id": "baby_fed",
+   "en": "%s grows a bit stronger!",
+   "zh": "%s变的更强壮了！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.varasuchus.baby_fed",
+   "id": "baby_fed",
+   "en": "%s grows a bit stronger!",
+   "zh": "%s变的更强壮了！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.volitans.baby_fed",
+   "id": "baby_fed",
+   "en": "%s grows a bit stronger!",
+   "zh": "%s变的更强壮了！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.stegonaut.tamed",
+   "id": "tamed",
+   "en": "%s has been tamed!",
+   "zh": "%s已被驯服！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.stegonaut.baby_grown",
+   "id": "baby_grown",
+   "en": "%s has fully grown!",
+   "zh": "%s已成年！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.atroxiia.baby_grown",
+   "id": "baby_grown",
+   "en": "%s has fully grown!",
+   "zh": "%s已成年！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.cindervane.baby_grown",
+   "id": "baby_grown",
+   "en": "%s has fully grown!",
+   "zh": "%s已成年！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.varasuchus.baby_grown",
+   "id": "baby_grown",
+   "en": "%s has fully grown!",
+   "zh": "%s已成年！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.volitans.baby_grown",
+   "id": "baby_grown",
+   "en": "%s has fully grown!",
+   "zh": "%s已成年！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.ignivorus.baby_grown",
+   "id": "baby_grown",
+   "en": "%s has grown into an adult!",
+   "zh": "%s已成年！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.raevyx.baby_grown",
+   "id": "baby_grown",
+   "en": "%s has grown into an adult!",
+   "zh": "%s已成年！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.nulljaw.baby_grown",
+   "id": "baby_grown",
+   "en": "%s has grown into an adult!",
+   "zh": "%s已成年！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.dragon.breeding_already_ready",
+   "id": "breeding_already_ready",
+   "en": "%s is already ready to breed",
+   "zh": "%s已准备好繁殖",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.raevyx.fed_partial",
+   "id": "fed_partial",
+   "en": "%s is being healed...",
+   "zh": "正在治疗%s…",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.ignivorus.fed_partial",
+   "id": "fed_partial",
+   "en": "%s is being healed...",
+   "zh": "正在治疗%s…",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.stegonaut.fed_partial",
+   "id": "fed_partial",
+   "en": "%s is being healed...",
+   "zh": "正在治疗%s…",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.cindervane.fed_partial",
+   "id": "fed_partial",
+   "en": "%s is being healed...",
+   "zh": "正在治疗%s…",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.atroxiia.fed_partial",
+   "id": "fed_partial",
+   "en": "%s is being healed...",
+   "zh": "正在治疗%s…",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.varasuchus.fed_partial",
+   "id": "fed_partial",
+   "en": "%s is being healed...",
+   "zh": "正在治疗%s…",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.volitans.fed_partial",
+   "id": "fed_partial",
+   "en": "%s is being healed...",
+   "zh": "正在治疗%s…",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.nulljaw.fed_partial",
+   "id": "fed_partial",
+   "en": "%s is being healed...",
+   "zh": "正在治疗%s…",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.stegonaut.busy_playing_dead",
+   "id": "busy_playing_dead",
+   "en": "%s is currently doing something \"important\".",
+   "zh": "%s正在做一件“重要”的事。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.ignivorus.taming_dazed",
+   "id": "taming_dazed",
+   "en": "%s is exhausted from battle...",
+   "zh": "%s因战斗精疲力尽…",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.raevyx.fed",
+   "id": "fed",
+   "en": "%s is fully healed!",
+   "zh": "%s完全恢复了！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.ignivorus.fed",
+   "id": "fed",
+   "en": "%s is fully healed!",
+   "zh": "%s完全恢复了！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.stegonaut.fed",
+   "id": "fed",
+   "en": "%s is fully healed!",
+   "zh": "%s完全恢复了！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.cindervane.fed",
+   "id": "fed",
+   "en": "%s is fully healed!",
+   "zh": "%s完全恢复了！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.atroxiia.fed",
+   "id": "fed",
+   "en": "%s is fully healed!",
+   "zh": "%s完全恢复了",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.varasuchus.fed",
+   "id": "fed",
+   "en": "%s is fully healed!",
+   "zh": "%s完全恢复了！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.volitans.fed",
+   "id": "fed",
+   "en": "%s is fully healed!",
+   "zh": "%s完全恢复了！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.nulljaw.fed",
+   "id": "fed",
+   "en": "%s is fully healed!",
+   "zh": "%s完全恢复了！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.ignivorus.baby_fed",
+   "id": "baby_fed",
+   "en": "%s is growing stronger!",
+   "zh": "%s变的更强壮了！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.raevyx.baby_fed",
+   "id": "baby_fed",
+   "en": "%s is growing stronger!",
+   "zh": "%s变的更强壮了！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.nulljaw.baby_fed",
+   "id": "baby_fed",
+   "en": "%s is growing stronger!",
+   "zh": "%s变的更强壮了！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.dragon.growth_stunted",
+   "id": "growth_stunted",
+   "en": "%s is not growing anymore",
+   "zh": "%s不再发育了",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.dragon.breeding_cooling_down",
+   "id": "breeding_cooling_down",
+   "en": "%s is not ready to breed yet",
+   "zh": "%s还没有准备好繁殖",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.all.command_0",
+   "id": "command_0",
+   "en": "%s is now following you",
+   "zh": "%s现在跟随你",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.all.command_1",
+   "id": "command_1",
+   "en": "%s is now sitting",
+   "zh": "%s现在坐下",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.all.command_1_staying",
+   "id": "command_1_staying",
+   "en": "%s is now staying",
+   "zh": "%s现在待在原地",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.all.command_2",
+   "id": "command_2",
+   "en": "%s is now wandering",
+   "zh": "%s现在游荡",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.dragon.breeding_ready",
+   "id": "breeding_ready",
+   "en": "%s is ready to breed!",
+   "zh": "%s可以繁殖了！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.varasuchus.sleeping",
+   "id": "sleeping",
+   "en": "%s is sleeping, wake it up to tame.",
+   "zh": "%s睡得正香，叫醒它才能开始驯服",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.ignivorus.still_eating",
+   "id": "still_eating",
+   "en": "%s is still chewing!",
+   "zh": "%s正在进食！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.raevyx.taming_dazed",
+   "id": "taming_dazed",
+   "en": "%s is still dazed from the fight...",
+   "zh": "%s因战斗感到有些恍惚…",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.dragon.still_eating",
+   "id": "still_eating",
+   "en": "%s is still eating...",
+   "zh": "%s正在进食…",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.raevyx.still_eating",
+   "id": "still_eating",
+   "en": "%s is still eating...",
+   "zh": "%s正在进食…",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.cindervane.still_eating",
+   "id": "still_eating",
+   "en": "%s is still eating...",
+   "zh": "%s正在进食…",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.atroxiia.still_eating",
+   "id": "still_eating",
+   "en": "%s is still eating...",
+   "zh": "%s正在进食….",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.varasuchus.still_eating",
+   "id": "still_eating",
+   "en": "%s is still eating...",
+   "zh": "%s正在进食…",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.volitans.still_eating",
+   "id": "still_eating",
+   "en": "%s is still eating...",
+   "zh": "%s正在进食…",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.nulljaw.still_eating",
+   "id": "still_eating",
+   "en": "%s is still eating...",
+   "zh": "%s正在进食…",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.atroxiia.taming_dazed",
+   "id": "taming_dazed",
+   "en": "%s is still reeling from the battle...",
+   "zh": "%s仍沉浸在战斗里…",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.volitans.taming_dazed",
+   "id": "taming_dazed",
+   "en": "%s is stunned but not ready to be fed yet.",
+   "zh": "%s已经晕眩但还没准备好被喂食。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.raevyx.taming_need_weakened",
+   "id": "taming_need_weakened",
+   "en": "%s is too strong! Weaken it to %s HP first.",
+   "zh": "%s过于强大！请先削减它的生命值。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.dragon.breeding_too_young",
+   "id": "breeding_too_young",
+   "en": "%s is too young to breed",
+   "zh": "%s太年幼，不能繁殖",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.volitans.taming_need_weakened",
+   "id": "taming_need_weakened",
+   "en": "%s must be weakened to %s HP before it can be fed.",
+   "zh": "%s的血量低于%s才能被喂食驯服。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.all.chest_requires_saddle",
+   "id": "chest_requires_saddle",
+   "en": "%s needs a saddle before you can attach a chest.",
+   "zh": "先为%s装上鞍才能安装箱子",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.volitans.taming_timeout",
+   "id": "taming_timeout",
+   "en": "%s recovers and slips back into a hostile state.",
+   "zh": "你犹豫太久。%s已恢复并重返战斗。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.atroxiia.taming_timeout",
+   "id": "taming_timeout",
+   "en": "%s recovers from the fight and rises again.",
+   "zh": "%s你犹豫太久。%s已恢复并重返战斗。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.raevyx.taming_failed",
+   "id": "taming_failed",
+   "en": "%s rejected you, but seems willing to try again...",
+   "zh": "%s拒绝了你，但似乎愿意再试一次…",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.atroxiia.taming_failed",
+   "id": "taming_failed",
+   "en": "%s rejects your offer and gathers its strength again.",
+   "zh": "%s拒绝了你，并重新积蓄力量。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.atroxiia.taming_need_weakened",
+   "id": "taming_need_weakened",
+   "en": "%s remains defiant! Weaken it to %s HP first.",
+   "zh": "%s的血量低于%s才能被喂食驯服。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.volitans.taming_failed",
+   "id": "taming_failed",
+   "en": "%s resists your attempt and regains its will to fight.",
+   "zh": "%s拒绝了你，并重燃斗志。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.dragon.growth_stunted_now",
+   "id": "growth_stunted_now",
+   "en": "%s will stay small forever",
+   "zh": "%s将永远不会成年",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.all.mount_requires_saddle",
+   "id": "mount_requires_saddle",
+   "en": "%s won't let you ride without a saddle.",
+   "zh": "装上鞍才能骑上%s",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.ignivorus.taming_failed",
+   "id": "taming_failed",
+   "en": "%s's pride won't let it submit... yet.",
+   "zh": "%s因骄傲而不愿臣服……",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.atroxiia",
+   "id": "atroxiia",
+   "en": "Atroxiia",
+   "zh": "凛蝮龙",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.cindervane",
+   "id": "cindervane",
+   "en": "Cindervane",
+   "zh": "烬翎龙",
+   "loot_table": "cindervane",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.dragon.breeding_disabled",
+   "id": "breeding_disabled",
+   "en": "Dragon breeding is disabled on this server",
+   "zh": "此服务器已禁用龙的繁殖",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.dragon.feeding",
+   "id": "feeding",
+   "en": "Feeding %s...",
+   "zh": "喂食%s…",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.ground_fissure",
+   "id": "ground_fissure",
+   "en": "Ground Fissure",
+   "zh": "地面裂隙",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.ignivorus",
+   "id": "ignivorus",
+   "en": "Ignivorus",
+   "zh": "噬焰龙",
+   "loot_table": "ignivorus",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.ignivorus_magma_pillar",
+   "id": "ignivorus_magma_pillar",
+   "en": "Ignivorus Magma Pillar",
+   "zh": "噬焰龙熔岩地晶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.ivy_oleander",
+   "id": "ivy_oleander",
+   "en": "Ivy Oleander",
+   "zh": "常春藤·夹竹桃",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.dragon_merchant",
+   "id": "dragon_merchant",
+   "en": "Ivy Oleander, the Merchant",
+   "zh": "常春藤·夹竹桃，商人",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.all.land_to_dismount",
+   "id": "land_to_dismount",
+   "en": "Land your dragon to get off.",
+   "zh": "着陆后才能脱离",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.latcher",
+   "id": "latcher",
+   "en": "Latcher",
+   "zh": "孽齿蠕",
+   "loot_table": "latcher",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.moop",
+   "id": "moop",
+   "en": "Moop",
+   "zh": "莫普鱼",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.mossback",
+   "id": "mossback",
+   "en": "Mossback",
+   "zh": "苔背龙",
+   "loot_table": "mossback",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.varasuchus.buck_cooldown",
+   "id": "buck_cooldown",
+   "en": "Nuh-uh. %s said no. Try again in %s seconds.",
+   "zh": "哦不，%s拒绝了你，%s秒后再试一次吧",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.nulljaw",
+   "id": "nulljaw",
+   "en": "Nulljaw",
+   "zh": "虚颚龙",
+   "loot_table": "nulljaw",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.raevyx",
+   "id": "raevyx",
+   "en": "Raevyx",
+   "zh": "殷雷龙",
+   "loot_table": "raevyx",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.raevyx_lightning_chain",
+   "id": "raevyx_lightning_chain",
+   "en": "Raevyx's Lightning Chain",
+   "zh": "殷雷龙聚雷束",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.saintsdragons.all.remove_chest_before_saddle",
+   "id": "remove_chest_before_saddle",
+   "en": "Remove %s's chest before taking off the saddle.",
+   "zh": "卸下马鞍才能移除%s的箱子",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.cindervane.seats_full",
+   "id": "seats_full",
+   "en": "Sorry, but the seats are full.",
+   "zh": "抱歉，这里满员了。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.stegonaut",
+   "id": "stegonaut",
+   "en": "Stegonaut",
+   "zh": "坚甲龙",
+   "loot_table": "stegonaut",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.cindervane.passenger_needs_owner",
+   "id": "passenger_needs_owner",
+   "en": "The owner needs to mount it first before you can do it.",
+   "zh": "需主人先骑乘。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.raevyx.sleeping",
+   "id": "sleeping",
+   "en": "The wyvern is sleeping.",
+   "zh": "%s睡得正香…",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.cindervane.mount_occupied",
+   "id": "mount_occupied",
+   "en": "Uh... you shouldn't be here.",
+   "zh": "呃……你不该在这儿。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.varasuchus",
+   "id": "varasuchus",
+   "en": "Varasuchus",
+   "zh": "蜷鳄龙",
+   "loot_table": "varasuchus",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.volitans",
+   "id": "volitans",
+   "en": "Volitans",
+   "zh": "蓑鲉龙",
+   "loot_table": "volitans",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.whettled",
+   "id": "whettled",
+   "en": "Whettled",
+   "zh": "魇角魔",
+   "loot_table": "whettled",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.winged",
+   "id": "winged",
+   "en": "Winged",
+   "zh": "煞针翼",
+   "loot_table": "winged",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.ignivorus.taming_timeout",
+   "id": "taming_timeout",
+   "en": "You hesitated too long. %s reignites and returns to battle!",
+   "zh": "你犹豫太久，%s重燃战意，返回战斗！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.saintsdragons.raevyx.taming_timeout",
+   "id": "taming_timeout",
+   "en": "You took too long to decide. %s has recovered and resumed combat.",
+   "zh": "你犹豫太久。%s已恢复并重返战斗。",
+   "loot_table": "",
+   "projectile": false
+  }
+ ]
+}

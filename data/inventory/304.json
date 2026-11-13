@@ -1,0 +1,806 @@
+{
+ "rank": 304,
+ "mod": "Antarchy",
+ "slug": "antarchy",
+ "project_id": "bnrJEOg5",
+ "source_url": "https://modrinth.com/mod/antarchy",
+ "jar": "D:\\work\\MobChatter\\data\\jars\\bnrJEOg5.jar",
+ "jar_size": 74259905,
+ "modid": "antarchy",
+ "entity_count": 99,
+ "mob_count": 90,
+ "entities": [
+  {
+   "key": "entity.antarchy.royal_mount.stage.adult",
+   "id": "adult",
+   "en": "Adult",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.alpha_mantis",
+   "id": "alpha_mantis",
+   "en": "Alpha Mantis",
+   "zh": "阿尔法螳螂",
+   "loot_table": "alpha_mantis",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.launched_anvil",
+   "id": "launched_anvil",
+   "en": "Anvil Cannon",
+   "zh": "铁砧炮",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.apple_cow",
+   "id": "apple_cow",
+   "en": "Apple Cow",
+   "zh": "苹果牛",
+   "loot_table": "apple_cow",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.basilisk",
+   "id": "basilisk",
+   "en": "Basilisk",
+   "zh": "蛇怪",
+   "loot_table": "basilisk",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.bed_bug",
+   "id": "bed_bug",
+   "en": "Bed Bug",
+   "zh": "臭虫",
+   "loot_table": "bed_bug",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.bomber",
+   "id": "bomber",
+   "en": "Bomber",
+   "zh": "轰炸虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.brown_ant",
+   "id": "brown_ant",
+   "en": "Brown Ant",
+   "zh": "棕蚂蚁",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.brutalfly",
+   "id": "brutalfly",
+   "en": "Brutalfly",
+   "zh": "布鲁塔尔弗莱",
+   "loot_table": "brutalfly",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.butterfly",
+   "id": "butterfly",
+   "en": "Butterfly",
+   "zh": "蝴蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.caterpillar",
+   "id": "caterpillar",
+   "en": "Caterpillar",
+   "zh": "毛毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.cheep",
+   "id": "cheep",
+   "en": "Cheep",
+   "zh": "奇普",
+   "loot_table": "cheep",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.crawling_blight",
+   "id": "crawling_blight",
+   "en": "Crawling Blight",
+   "zh": "爬行恐魔",
+   "loot_table": "crawling_blight",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.dimensional_tear",
+   "id": "dimensional_tear",
+   "en": "Dimensional Tear",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.dorrie",
+   "id": "dorrie",
+   "en": "Dorrie",
+   "zh": "多莉",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.dr_trayaurus",
+   "id": "dr_trayaurus",
+   "en": "Dr. Trayaurus",
+   "zh": "特雷奥勒斯博士",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.easter_bunny",
+   "id": "easter_bunny",
+   "en": "Easter Bunny",
+   "zh": "复活节兔",
+   "loot_table": "easter_bunny",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.elka",
+   "id": "elka",
+   "en": "Elka",
+   "zh": "艾尔卡",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.emperor_scorpion",
+   "id": "emperor_scorpion",
+   "en": "Emperor Scorpion",
+   "zh": "帝王蝎",
+   "loot_table": "emperor_scorpion",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.enchanted_golden_apple_cow",
+   "id": "enchanted_golden_apple_cow",
+   "en": "Enchanted Golden Apple Cow",
+   "zh": "附魔金苹果牛",
+   "loot_table": "enchanted_golden_apple_cow",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.upward_falling_block",
+   "id": "upward_falling_block",
+   "en": "Falling Antigravel",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.flying_squirrel",
+   "id": "flying_squirrel",
+   "en": "Flying Squirrel",
+   "zh": "飞鼠",
+   "loot_table": "flying_squirrel",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.flytrap",
+   "id": "flytrap",
+   "en": "Flytrap",
+   "zh": "特里菲德",
+   "loot_table": "flytrap",
+   "projectile": false
+  },
+  {
+   "key": "entity.minecraft.villager.antarchy.computer_scientist",
+   "id": "computer_scientist",
+   "en": "Game Developer",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.minecraft.villager.computer_scientist",
+   "id": "computer_scientist",
+   "en": "Game Developer",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.glimmer",
+   "id": "glimmer",
+   "en": "Glimmer",
+   "zh": "格利默",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.alpha_mantis.glimmer",
+   "id": "glimmer",
+   "en": "Glimmer Alpha Mantis",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.bomber.glimmer",
+   "id": "glimmer",
+   "en": "Glimmer Bomber",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.brutalfly.glimmer",
+   "id": "glimmer",
+   "en": "Glimmer Brutalfly",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.butterfly.glimmer",
+   "id": "glimmer",
+   "en": "Glimmer Butterfly",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.emperor_scorpion.glimmer",
+   "id": "glimmer",
+   "en": "Glimmer Emperor Scorpion",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.hercules_beetle.glimmer",
+   "id": "glimmer",
+   "en": "Glimmer Hercules Beetle",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.king.glimmer",
+   "id": "glimmer",
+   "en": "Glimmer King",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.kraken.glimmer",
+   "id": "glimmer",
+   "en": "Glimmer Kraken",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.manticore.glimmer",
+   "id": "glimmer",
+   "en": "Glimmer Manticore",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.mantis.glimmer",
+   "id": "glimmer",
+   "en": "Glimmer Mantis",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.missile_squid.glimmer",
+   "id": "glimmer",
+   "en": "Glimmer Missile Squid",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.antarchy.octopus_bomb.glimmer",
+   "id": "glimmer",
+   "en": "Glimmer Octopus Bomb",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.queen.glimmer",
+   "id": "glimmer",
+   "en": "Glimmer Queen",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.scorpion.glimmer",
+   "id": "glimmer",
+   "en": "Glimmer Scorpion",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.glimmer.set_follow",
+   "id": "set_follow",
+   "en": "Glimmer set to follow.",
+   "zh": "已让格利默跟随。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.glimmer.set_sit",
+   "id": "set_sit",
+   "en": "Glimmer set to sit.",
+   "zh": "已让格利默坐下。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.glimmer.set_wander",
+   "id": "set_wander",
+   "en": "Glimmer set to wander.",
+   "zh": "已让格利默自由游荡。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.toreterror.glimmer",
+   "id": "glimmer",
+   "en": "Glimmer Toreterror",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.golden_apple_cow",
+   "id": "golden_apple_cow",
+   "en": "Golden Apple Cow",
+   "zh": "金苹果牛",
+   "loot_table": "golden_apple_cow",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.royal_mount.stage.hatchling",
+   "id": "hatchling",
+   "en": "Hatchling",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.hercules_beetle",
+   "id": "hercules_beetle",
+   "en": "Hercules Beetle",
+   "zh": "赫拉克勒斯甲虫",
+   "loot_table": "hercules_beetle",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.jerry",
+   "id": "jerry",
+   "en": "Jerry",
+   "zh": "",
+   "loot_table": "jerry",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.royal_mount.stage.juvenile",
+   "id": "juvenile",
+   "en": "Juvenile",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.lucid",
+   "id": "lucid",
+   "en": "Lucid",
+   "zh": "卢西德",
+   "loot_table": "lucid",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.manticore",
+   "id": "manticore",
+   "en": "Manticore",
+   "zh": "",
+   "loot_table": "manticore",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.mantis",
+   "id": "mantis",
+   "en": "Mantis",
+   "zh": "螳螂",
+   "loot_table": "mantis",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.missile_squid",
+   "id": "missile_squid",
+   "en": "Missile Squid",
+   "zh": "导弹鱿鱼",
+   "loot_table": "missile_squid",
+   "projectile": true
+  },
+  {
+   "key": "entity.antarchy.molevore",
+   "id": "molevore",
+   "en": "Molevore",
+   "zh": "莫尔沃尔",
+   "loot_table": "molevore",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.moleworm",
+   "id": "moleworm",
+   "en": "Moleworm",
+   "zh": "莫尔沃姆",
+   "loot_table": "moleworm",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.nadir_boat",
+   "id": "nadir_boat",
+   "en": "Nadir Boat",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.antarchy.nadir_chest_boat",
+   "id": "nadir_chest_boat",
+   "en": "Nadir Chest Boat",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.antarchy.nightmare",
+   "id": "nightmare",
+   "en": "Nightmare",
+   "zh": "梦魇",
+   "loot_table": "nightmare",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.octopus_bomb",
+   "id": "octopus_bomb",
+   "en": "Octopus Bomb",
+   "zh": "章鱼炸弹",
+   "loot_table": "octopus_bomb",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.ouranwood_deer",
+   "id": "ouranwood_deer",
+   "en": "Ouranwood Deer",
+   "zh": "欧兰伍德鹿",
+   "loot_table": "ouranwood_deer",
+   "projectile": false
+  },
+  {
+   "key": "entity.minecraft.villager.antarchy.pest_control",
+   "id": "pest_control",
+   "en": "Pest Control",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.minecraft.villager.pest_control",
+   "id": "pest_control",
+   "en": "Pest Control",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.portal_gun_portal",
+   "id": "portal_gun_portal",
+   "en": "Portal Gun Portal",
+   "zh": "传送门枪传送门",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.prince",
+   "id": "prince",
+   "en": "Prince",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.princess",
+   "id": "princess",
+   "en": "Princess",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.rainbow_ant",
+   "id": "rainbow_ant",
+   "en": "Rainbow Ant",
+   "zh": "彩虹蚂蚁",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.red_ant",
+   "id": "red_ant",
+   "en": "Red Ant",
+   "zh": "红蚂蚁",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.reverie",
+   "id": "reverie",
+   "en": "Reverie",
+   "zh": "雷弗里",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.rolly_polly",
+   "id": "rolly_polly",
+   "en": "Rolly Polly",
+   "zh": "鼠妇",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.royal_boat",
+   "id": "royal_boat",
+   "en": "Royal Boat",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.antarchy.royal_bolt",
+   "id": "royal_bolt",
+   "en": "Royal Bolt",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.royal_chest_boat",
+   "id": "royal_chest_boat",
+   "en": "Royal Chest Boat",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.antarchy.scorpion",
+   "id": "scorpion",
+   "en": "Scorpion",
+   "zh": "蝎子",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.royal_black_hole",
+   "id": "royal_black_hole",
+   "en": "Singularity",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.skulking_fright",
+   "id": "skulking_fright",
+   "en": "Skulking Fright",
+   "zh": "潜伏恐魔",
+   "loot_table": "skulking_fright",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.spit_bug",
+   "id": "spit_bug",
+   "en": "Spit Bug",
+   "zh": "喷吐虫",
+   "loot_table": "spit_bug",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.springbug",
+   "id": "springbug",
+   "en": "Springbug",
+   "zh": "跳跳虫",
+   "loot_table": "springbug",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.stink_bug",
+   "id": "stink_bug",
+   "en": "Stink Bug",
+   "zh": "臭屁虫",
+   "loot_table": "stink_bug",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.stratoshark",
+   "id": "stratoshark",
+   "en": "Stratoshark",
+   "zh": "云鲨",
+   "loot_table": "stratoshark",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.tentacle",
+   "id": "tentacle",
+   "en": "Tentacle",
+   "zh": "触手",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.termite",
+   "id": "termite",
+   "en": "Termite",
+   "zh": "白蚁",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.diamond_minecart",
+   "id": "diamond_minecart",
+   "en": "The Diamond Minecart",
+   "zh": "钻石矿车",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.antarchy.king",
+   "id": "king",
+   "en": "The King",
+   "zh": "",
+   "loot_table": "king",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.kraken",
+   "id": "kraken",
+   "en": "The Kraken",
+   "zh": "克拉肯",
+   "loot_table": "kraken",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.queen",
+   "id": "queen",
+   "en": "The Queen",
+   "zh": "",
+   "loot_table": "queen",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.toreterror",
+   "id": "toreterror",
+   "en": "Toreterror",
+   "zh": "托尔泰罗尔",
+   "loot_table": "toreterror",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.truffalo_boat",
+   "id": "truffalo_boat",
+   "en": "Truffalo Boat",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.antarchy.truffalo_chest_boat",
+   "id": "truffalo_chest_boat",
+   "en": "Truffalo Chest Boat",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.antarchy.vortex",
+   "id": "vortex",
+   "en": "Vortex",
+   "zh": "",
+   "loot_table": "vortex",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.wasp",
+   "id": "wasp",
+   "en": "Wasp",
+   "zh": "黄蜂",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.water_bomb",
+   "id": "water_bomb",
+   "en": "Water Bomb",
+   "zh": "水炸弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.wind_vortex",
+   "id": "wind_vortex",
+   "en": "Wind Vortex",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.worm",
+   "id": "worm",
+   "en": "Worm",
+   "zh": "",
+   "loot_table": "worm",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.glimmer.need_bottle",
+   "id": "need_bottle",
+   "en": "You need an empty bottle to carry your current Glimmer",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.glimmer.ability.ant",
+   "id": "ant",
+   "en": "Your Ant riles you up!",
+   "zh": "你的蚂蚁激起了你对%s的斗志！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.glimmer.ability.apple_cow",
+   "id": "apple_cow",
+   "en": "Your Apple Cow nourishes you",
+   "zh": "你的苹果牛哞叫着滋养了你！",
+   "loot_table": "apple_cow",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.glimmer.ability.deer",
+   "id": "deer",
+   "en": "Your Deer charges!",
+   "zh": "你的欧兰伍德鹿冲穿了敌人！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.glimmer.ability.elka",
+   "id": "elka",
+   "en": "Your Elka shatters the ward",
+   "zh": "你的艾尔卡发出尖啸并震碎了守护！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.antarchy.glimmer.ability.frog",
+   "id": "frog",
+   "en": "Your Frog swallowed a %s",
+   "zh": "你的青蛙吞掉了%s！",
+   "loot_table": "",
+   "projectile": false
+  }
+ ]
+}

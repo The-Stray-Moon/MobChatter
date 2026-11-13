@@ -1,0 +1,137 @@
+{
+ "rank": 119,
+ "mod": "Zombies+",
+ "mod_url": "https://modrinth.com/mod/zombies-plus-frenzied-horde",
+ "mobs": [
+  {
+   "mob_id": "zombies_plus:runner_zombie",
+   "name_en": "Runner Zombie",
+   "name_zh": "",
+   "description_zh": "Runner Zombie 是 Zombies+ 添加的僵尸变种，生命值 20、护甲 2、攻击力 3；移动速度属性与原版僵尸相同，但近战 AI 的冲刺倍率为 1.8，会加速扑向目标。它通过模组的僵尸生成配置与原版僵尸一同自然生成，生成权重 40，每次 4 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/zombies-plus-frenzied-horde",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性注册与 ZombieSpawnProperties 生成配置。资料有限，仅基于 jar 内可核实数据。"
+  },
+  {
+   "mob_id": "zombies_plus:crawler_zombie",
+   "name_en": "Crawler Zombie",
+   "name_zh": "",
+   "description_zh": "Crawler Zombie 是贴地爬行的僵尸变种，生命值 15、护甲 2、攻击力 2.5，碰撞箱比普通僵尸矮（默认约 0.8 格宽、1.2 格高）。生成权重 15。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/zombies-plus-frenzied-horde",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性注册与 ZombieSpawnProperties 生成配置。资料有限，仅基于 jar 内可核实数据。"
+  },
+  {
+   "mob_id": "zombies_plus:brute_zombie",
+   "name_en": "Brute Zombie",
+   "name_zh": "",
+   "description_zh": "Brute Zombie 是壮硕的僵尸变种，生命值 40（高于普通僵尸的 20）、护甲 2、攻击力 5，移动速度 0.17 慢于普通僵尸，索敌范围 40 格。生成权重 10。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/zombies-plus-frenzied-horde",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性注册与 ZombieSpawnProperties 生成配置。资料有限，仅基于 jar 内可核实数据。"
+  },
+  {
+   "mob_id": "zombies_plus:crossbow_zombie",
+   "name_en": "Crossbow Zombie",
+   "name_zh": "",
+   "description_zh": "Crossbow Zombie 手持弩，会用 RangedCrossbowAttackGoal 进行远程射击（射击速度参数 1.5）；生命值 20、护甲 2、攻击力 3。生成权重 35。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/zombies-plus-frenzied-horde",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性注册与 ZombieSpawnProperties 生成配置。资料有限，仅基于 jar 内可核实数据。"
+  },
+  {
+   "mob_id": "zombies_plus:bow_zombie",
+   "name_en": "Bow Zombie",
+   "name_zh": "",
+   "description_zh": "Bow Zombie 手持弓，会用 RangedBowAttackGoal 向玩家射箭（射击速度参数 1.2）；生命值 20、护甲 2、攻击力 3。生成权重 35。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/zombies-plus-frenzied-horde",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性注册与 ZombieSpawnProperties 生成配置。资料有限，仅基于 jar 内可核实数据。"
+  },
+  {
+   "mob_id": "zombies_plus:shrieker_zombie",
+   "name_en": "Shrieker Zombie",
+   "name_zh": "",
+   "description_zh": "Shrieker Zombie 会发出尖啸（带专用尖啸动画与粒子），生命值 20、护甲 2、攻击力 3，且增援概率被设为 1.0，受击时必定呼叫周围僵尸。生成权重仅 3。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/zombies-plus-frenzied-horde",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性注册与 ZombieSpawnProperties 生成配置。资料有限，仅基于 jar 内可核实数据。"
+  },
+  {
+   "mob_id": "zombies_plus:axe_zombie",
+   "name_en": "Axe Zombie",
+   "name_zh": "",
+   "description_zh": "Axe Zombie 生成时手持铁斧，生命值 20、护甲 2，近战攻击力 6，明显高于原版僵尸。生成权重 15。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/zombies-plus-frenzied-horde",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性注册与 ZombieSpawnProperties 生成配置。资料有限，仅基于 jar 内可核实数据。"
+  },
+  {
+   "mob_id": "zombies_plus:sword_zombie",
+   "name_en": "Sword Zombie",
+   "name_zh": "",
+   "description_zh": "Sword Zombie 生成时随机手持铁剑或钻石剑，生命值 20、护甲 2、攻击力 5。生成权重 15。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/zombies-plus-frenzied-horde",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性注册与 ZombieSpawnProperties 生成配置。资料有限，仅基于 jar 内可核实数据。"
+  },
+  {
+   "mob_id": "zombies_plus:vile_zombie",
+   "name_en": "Vile Zombie",
+   "name_zh": "",
+   "description_zh": "Vile Zombie 的攻击会给目标附加 5 秒（100 刻）中毒，自身免疫凋零效果；生命值 20、护甲 2、攻击力 3。生成权重 40。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/zombies-plus-frenzied-horde",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性注册与 ZombieSpawnProperties 生成配置。资料有限，仅基于 jar 内可核实数据。"
+  },
+  {
+   "mob_id": "zombies_plus:cave_zombie",
+   "name_en": "Cave Zombie",
+   "name_zh": "",
+   "description_zh": "Cave Zombie 生成在石头、矿石等方块构成的洞穴环境中（使用 cave_zombie_spawnable 方块标签），生命值 20、基础攻击力 5，并有多种随机皮肤。它每 2 秒按光照等级调整属性：光照越亮移动速度和攻击力越低（速度最多 -0.11、攻击力最多 -4），黑暗中最强。生成权重 30。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/zombies-plus-frenzied-horde",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性注册与 ZombieSpawnProperties 生成配置。资料有限，仅基于 jar 内可核实数据。"
+  },
+  {
+   "mob_id": "zombies_plus:weak_zombie",
+   "name_en": "Weak Zombie",
+   "name_zh": "",
+   "description_zh": "Weak Zombie 是弱化的僵尸变种，生命值 20、攻击力仅 1、移动速度 0.21。生成权重 10。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/zombies-plus-frenzied-horde",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性注册与 ZombieSpawnProperties 生成配置。资料有限，仅基于 jar 内可核实数据。"
+  },
+  {
+   "mob_id": "zombies_plus:slow_zombie",
+   "name_en": "Slow Zombie",
+   "name_zh": "",
+   "description_zh": "Slow Zombie 是迟缓的僵尸变种，生命值 20、攻击力 1、移动速度 0.175。生成权重 7。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/zombies-plus-frenzied-horde",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性注册与 ZombieSpawnProperties 生成配置。资料有限，仅基于 jar 内可核实数据。"
+  },
+  {
+   "mob_id": "zombies_plus:leaper_zombie",
+   "name_en": "Leaper Zombie",
+   "name_zh": "",
+   "description_zh": "Leaper Zombie 使用专用的跃击 AI（LeaperZombieAttackGoal，跃击参数 0.35），会跃起扑向目标；生命值 20、护甲 2、攻击力 3。生成权重 10。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/zombies-plus-frenzied-horde",
+   "confidence": 0.5,
+   "notes": "数值取自 jar 内实体属性注册与 ZombieSpawnProperties 生成配置。资料有限，仅基于 jar 内可核实数据。"
+  }
+ ]
+}

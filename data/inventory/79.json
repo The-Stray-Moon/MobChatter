@@ -1,0 +1,4070 @@
+{
+ "rank": 79,
+ "mod": "Advent Of Ascension",
+ "slug": "adventofascension",
+ "project_id": "9qn2AQBc",
+ "source_url": "https://modrinth.com/mod/adventofascension",
+ "jar": "D:\\work\\MobChatter\\data\\jars\\9qn2AQBc.jar",
+ "jar_size": 139674143,
+ "modid": "aoa3",
+ "entity_count": 507,
+ "mob_count": 485,
+ "entities": [
+  {
+   "key": "entity.aoa3.airhead",
+   "id": "airhead",
+   "en": "Airhead",
+   "zh": "空脑壳",
+   "loot_table": "airhead",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.alarmo",
+   "id": "alarmo",
+   "en": "Alarmo",
+   "zh": "警爆者",
+   "loot_table": "alarmo",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.ambient_pixon",
+   "id": "ambient_pixon",
+   "en": "Ambient Pixon",
+   "zh": "宁静的光",
+   "loot_table": "ambient_pixon",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.amphibior",
+   "id": "amphibior",
+   "en": "Amphibior",
+   "zh": "艾菲莉亚",
+   "loot_table": "amphibior",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.amphibiyte",
+   "id": "amphibiyte",
+   "en": "Amphibiyte",
+   "zh": "安佛比亚",
+   "loot_table": "amphibiyte",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.ancient_golem",
+   "id": "ancient_golem",
+   "en": "Ancient Golem",
+   "zh": "远古傀儡",
+   "loot_table": "ancient_golem",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.anemia",
+   "id": "anemia",
+   "en": "Anemia",
+   "zh": "嗜血轰炸机",
+   "loot_table": "anemia",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.anemia_bomb",
+   "id": "anemia_bomb",
+   "en": "Anemia Bomb",
+   "zh": "嗜血轰炸弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.angelica",
+   "id": "angelica",
+   "en": "Angelica",
+   "zh": "骸骨天使",
+   "loot_table": "angelica",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.angler",
+   "id": "angler",
+   "en": "Angler",
+   "zh": "垂钓者",
+   "loot_table": "angler",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.apparition",
+   "id": "apparition",
+   "en": "Apparition",
+   "zh": "幽魔",
+   "loot_table": "apparition",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.aquaball",
+   "id": "aquaball",
+   "en": "Aquaball",
+   "zh": "水能球",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.aquatic_shot",
+   "id": "aquatic_shot",
+   "en": "Aquatic Shot",
+   "zh": "水能魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.arc_flower",
+   "id": "arc_flower",
+   "en": "Arc Flower",
+   "zh": "电弧花",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.arc_wizard",
+   "id": "arc_wizard",
+   "en": "Arc Wizard",
+   "zh": "电弧巫师",
+   "loot_table": "arc_wizard",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.arcbeast",
+   "id": "arcbeast",
+   "en": "Arcbeast",
+   "zh": "电弧兽",
+   "loot_table": "arcbeast",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.archvine",
+   "id": "archvine",
+   "en": "Archvine",
+   "zh": "食人花",
+   "loot_table": "archvine",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.arcworm",
+   "id": "arcworm",
+   "en": "Arcworm",
+   "zh": "电弧蠕虫",
+   "loot_table": "arcworm",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.arcworm_shot",
+   "id": "arcworm_shot",
+   "en": "Arcworm Shot",
+   "zh": "电弧蠕虫导弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.ariel",
+   "id": "ariel",
+   "en": "Ariel",
+   "zh": "空气精灵",
+   "loot_table": "ariel",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.arkback",
+   "id": "arkback",
+   "en": "Arkback",
+   "zh": "方舟",
+   "loot_table": "arkback",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.arkzyne",
+   "id": "arkzyne",
+   "en": "Arkzyne",
+   "zh": "瓦塞尔",
+   "loot_table": "arkzyne",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.arocknid",
+   "id": "arocknid",
+   "en": "Arocknid",
+   "zh": "元素蜘蛛",
+   "loot_table": "arocknid",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.arrow",
+   "id": "arrow",
+   "en": "Arrow",
+   "zh": "箭",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.minecraft.villager.aoa3.assassin",
+   "id": "assassin",
+   "en": "Assassin",
+   "zh": "Assassin",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.atomizer_bounce",
+   "id": "atomizer_bounce",
+   "en": "Atomizer Bounce",
+   "zh": "喷射器能量束",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.atomizer_shot",
+   "id": "atomizer_shot",
+   "en": "Atomizer Shot",
+   "zh": "喷射器弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.attercopus",
+   "id": "attercopus",
+   "en": "Attercopus",
+   "zh": "Attercopus",
+   "loot_table": "attercopus",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.axiolight",
+   "id": "axiolight",
+   "en": "Axiolight",
+   "zh": "念力者",
+   "loot_table": "axiolight",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.balloon_bomb",
+   "id": "balloon_bomb",
+   "en": "Balloon Bomb",
+   "zh": "气球炸弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.banshee",
+   "id": "banshee",
+   "en": "Banshee",
+   "zh": "女妖",
+   "loot_table": "banshee",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.baron_shot",
+   "id": "baron_shot",
+   "en": "Baron Shot",
+   "zh": "爵士魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.baroness_shot",
+   "id": "baroness_shot",
+   "en": "Baroness Shot",
+   "zh": "女爵魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.basilisk",
+   "id": "basilisk",
+   "en": "Basilisk",
+   "zh": "蜥蜴",
+   "loot_table": "basilisk",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.baumba",
+   "id": "baumba",
+   "en": "Baumba",
+   "zh": "雷沃",
+   "loot_table": "baumba",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.beamer_shot",
+   "id": "beamer_shot",
+   "en": "Beamer Shot",
+   "zh": "能量镭射",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.aoa3.blood_drainer",
+   "id": "blood_drainer",
+   "en": "Blood Drainer",
+   "zh": "嗜血能量束",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.bloodball",
+   "id": "bloodball",
+   "en": "Bloodball",
+   "zh": "血球",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.bloodsucker",
+   "id": "bloodsucker",
+   "en": "Bloodsucker",
+   "zh": "血之吮吸者",
+   "loot_table": "bloodsucker",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.blooming_pixon",
+   "id": "blooming_pixon",
+   "en": "Blooming Pixon",
+   "zh": "盛开的光",
+   "loot_table": "blooming_pixon",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.blue_bullet",
+   "id": "blue_bullet",
+   "en": "Blue Bullet",
+   "zh": "蓝色子弹",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.aoa3.blue_gemtrap",
+   "id": "blue_gemtrap",
+   "en": "Blue Gemtrap",
+   "zh": "蓝宝石陷阱鱼",
+   "loot_table": "blue_gemtrap",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.blue_guardian_shot",
+   "id": "blue_guardian_shot",
+   "en": "Blue Guardian Shot",
+   "zh": "蓝色监管者魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.bobo",
+   "id": "bobo",
+   "en": "Bobo",
+   "zh": "波波",
+   "loot_table": "bobo",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.bomb_carrier",
+   "id": "bomb_carrier",
+   "en": "Bomb Carrier",
+   "zh": "炸弹猎手",
+   "loot_table": "bomb_carrier",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.bomb_carrier_dynamite",
+   "id": "bomb_carrier_dynamite",
+   "en": "Bomb Carrier Dynamite",
+   "zh": "炸弹猎手的炸药",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.bone_bullet",
+   "id": "bone_bullet",
+   "en": "Bone Bullet",
+   "zh": "骨质子弹",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.aoa3.bone_creeper",
+   "id": "bone_creeper",
+   "en": "Bone Creeper",
+   "zh": "骷髅苦力怕",
+   "loot_table": "bone_creeper",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.bone_pellet",
+   "id": "bone_pellet",
+   "en": "Bone Pellet",
+   "zh": "骨质子弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.bouncer",
+   "id": "bouncer",
+   "en": "Bouncer",
+   "zh": "弹跳者",
+   "loot_table": "bouncer",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.bozo_ball",
+   "id": "bozo_ball",
+   "en": "Bozo Ball",
+   "zh": "傻瓜弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.broccohead",
+   "id": "broccohead",
+   "en": "Broccohead",
+   "zh": "西兰花",
+   "loot_table": "broccohead",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.bubble_shot",
+   "id": "bubble_shot",
+   "en": "Bubble Shot",
+   "zh": "泡沫能量弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.bullet",
+   "id": "bullet",
+   "en": "Bullet",
+   "zh": "褐铁子弹",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.aoa3.bullet_shot",
+   "id": "bullet_shot",
+   "en": "Bullet Shot",
+   "zh": "褐铁子弹",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.aoa3.bush_baby",
+   "id": "bush_baby",
+   "en": "Bush Baby",
+   "zh": "灌木婴",
+   "loot_table": "bush_baby",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.candlefish",
+   "id": "candlefish",
+   "en": "Candlefish",
+   "zh": "烛鱼",
+   "loot_table": "candlefish",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.candy_corny",
+   "id": "candy_corny",
+   "en": "Candy Corny",
+   "zh": "糖果玉米",
+   "loot_table": "candy_corny",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.cane_bug",
+   "id": "cane_bug",
+   "en": "Cane Bug",
+   "zh": "拐杖糖虫",
+   "loot_table": "cane_bug",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.cannonball",
+   "id": "cannonball",
+   "en": "Cannonball",
+   "zh": "加农弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.carrot_ball",
+   "id": "carrot_ball",
+   "en": "Carrot Ball",
+   "zh": "胡萝卜弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.carrotop",
+   "id": "carrotop",
+   "en": "Carrotop",
+   "zh": "胡萝卜",
+   "loot_table": "carrotop",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.case_construct",
+   "id": "case_construct",
+   "en": "Case Construct",
+   "zh": "概念体",
+   "loot_table": "case_construct",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.cave_creep",
+   "id": "cave_creep",
+   "en": "Cave Creep",
+   "zh": "洞穴蠕虫",
+   "loot_table": "cave_creep",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.cave_creepoid",
+   "id": "cave_creepoid",
+   "en": "Cave Creepoid",
+   "zh": "洞穴苦力怕",
+   "loot_table": "cave_creepoid",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.celestial_fall",
+   "id": "celestial_fall",
+   "en": "Celestial Fall",
+   "zh": "天朝流星弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.centinel",
+   "id": "centinel",
+   "en": "Centinel",
+   "zh": "爆破者",
+   "loot_table": "centinel",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.chakram",
+   "id": "chakram",
+   "en": "Chakram",
+   "zh": "剧毒环刃",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.charger",
+   "id": "charger",
+   "en": "Charger",
+   "zh": "袭击者",
+   "loot_table": "charger",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.charred_char",
+   "id": "charred_char",
+   "en": "Charred Char",
+   "zh": "焦焦鱼",
+   "loot_table": "charred_char",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.cherry_blaster",
+   "id": "cherry_blaster",
+   "en": "Cherry Blaster",
+   "zh": "樱桃炸弹",
+   "loot_table": "cherry_blaster",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.cherry_shot",
+   "id": "cherry_shot",
+   "en": "Cherry Shot",
+   "zh": "樱桃魔法弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.chilli_shot",
+   "id": "chilli_shot",
+   "en": "Chilli Shot",
+   "zh": "辣椒弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.chocaw",
+   "id": "chocaw",
+   "en": "Chocaw",
+   "zh": "秋扣鱼",
+   "loot_table": "chocaw",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.chocko",
+   "id": "chocko",
+   "en": "Chocko",
+   "zh": "窒息的小丑",
+   "loot_table": "chocko",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.chomper",
+   "id": "chomper",
+   "en": "Chomper",
+   "zh": "咀嚼者",
+   "loot_table": "chomper",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.clown_ball",
+   "id": "clown_ball",
+   "en": "Clown Ball",
+   "zh": "小丑加农弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.clown_shot",
+   "id": "clown_shot",
+   "en": "Clown Shot",
+   "zh": "小丑能量束",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.confetti_cluster",
+   "id": "confetti_cluster",
+   "en": "Confetti Cluster",
+   "zh": "彩花",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.confetti_shot",
+   "id": "confetti_shot",
+   "en": "Confetti Shot",
+   "zh": "彩花弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.construct_of_flight",
+   "id": "construct_of_flight",
+   "en": "Construct Of Flight",
+   "zh": "飞行概念晶体",
+   "loot_table": "construct_of_flight",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.construct_of_mind",
+   "id": "construct_of_mind",
+   "en": "Construct Of Mind",
+   "zh": "心灵概念晶体",
+   "loot_table": "construct_of_mind",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.construct_of_range",
+   "id": "construct_of_range",
+   "en": "Construct Of Range",
+   "zh": "方位概念晶体",
+   "loot_table": "construct_of_range",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.construct_of_resistance",
+   "id": "construct_of_resistance",
+   "en": "Construct Of Resistance",
+   "zh": "抗性概念晶体",
+   "loot_table": "construct_of_resistance",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.construct_of_speed",
+   "id": "construct_of_speed",
+   "en": "Construct Of Speed",
+   "zh": "速度概念晶体",
+   "loot_table": "construct_of_speed",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.construct_of_strength",
+   "id": "construct_of_strength",
+   "en": "Construct Of Strength",
+   "zh": "力量概念晶体",
+   "loot_table": "construct_of_strength",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.construct_of_terror",
+   "id": "construct_of_terror",
+   "en": "Construct Of Terror",
+   "zh": "恐惧概念晶体",
+   "loot_table": "construct_of_terror",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.construct_shot",
+   "id": "construct_shot",
+   "en": "Construct Shot",
+   "zh": "概念子弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.coratee",
+   "id": "coratee",
+   "en": "Coratee",
+   "zh": "空惕",
+   "loot_table": "coratee",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.corny",
+   "id": "corny",
+   "en": "Corny",
+   "zh": "玉米",
+   "loot_table": "corny",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.corrupted_traveller",
+   "id": "corrupted_traveller",
+   "en": "Corrupted Traveller",
+   "zh": "饥饿的旅行家",
+   "loot_table": "corrupted_traveller",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.cotton_candor_shot",
+   "id": "cotton_candor_shot",
+   "en": "Cotton Candor Shot",
+   "zh": "糖果巨人魔法弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.craexxeus_nuke",
+   "id": "craexxeus_nuke",
+   "en": "Craexxeus Nuke",
+   "zh": "克雷旭尔斯核弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.craexxeus_shot",
+   "id": "craexxeus_shot",
+   "en": "Craexxeus Shot",
+   "zh": "克雷旭尔斯枪弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.creep_banker",
+   "id": "creep_banker",
+   "en": "Creep Banker",
+   "zh": "蠕变银行家",
+   "loot_table": "creep_banker",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.creep_bomb",
+   "id": "creep_bomb",
+   "en": "Creep Bomb",
+   "zh": "疯狂苦力怕魔法弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.creep_cow",
+   "id": "creep_cow",
+   "en": "Creep Cow",
+   "zh": "蠕变牛",
+   "loot_table": "creep_cow",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.creep_tube",
+   "id": "creep_tube",
+   "en": "Creep Tube",
+   "zh": "疯狂苦力怕雷管",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.creeper_shot",
+   "id": "creeper_shot",
+   "en": "Creeper Shot",
+   "zh": "苦力怕魔法弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.creeperlock",
+   "id": "creeperlock",
+   "en": "Creeperlock",
+   "zh": "追踪苦力怕",
+   "loot_table": "creeperlock",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.creepird",
+   "id": "creepird",
+   "en": "Creepird",
+   "zh": "飞翔苦力怕",
+   "loot_table": "creepird",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.creepuple",
+   "id": "creepuple",
+   "en": "Creepuple",
+   "zh": "双头苦力怕",
+   "loot_table": "creepuple",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.crimson_skipper",
+   "id": "crimson_skipper",
+   "en": "Crimson Skipper",
+   "zh": "红鱼",
+   "loot_table": "crimson_skipper",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.crimson_stripefish",
+   "id": "crimson_stripefish",
+   "en": "Crimson Stripefish",
+   "zh": "深红条纹鱼",
+   "loot_table": "crimson_stripefish",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.crusilisk",
+   "id": "crusilisk",
+   "en": "Crusilisk",
+   "zh": "镇压者",
+   "loot_table": "crusilisk",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.cryptid",
+   "id": "cryptid",
+   "en": "Cryptid",
+   "zh": "苦难",
+   "loot_table": "cryptid",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.crystal_trader",
+   "id": "crystal_trader",
+   "en": "Crystal Trader",
+   "zh": "晶体商人",
+   "loot_table": "crystal_trader",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.customisable_lightning_bolt",
+   "id": "customisable_lightning_bolt",
+   "en": "Customisable Lightning Bolt",
+   "zh": "自定义闪电束",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.aoa3.cyan_shot",
+   "id": "cyan_shot",
+   "en": "Cyan Shot",
+   "zh": "淡蓝色魔法弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.cyclops",
+   "id": "cyclops",
+   "en": "Cyclops",
+   "zh": "独眼巨人",
+   "loot_table": "cyclops",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.dark_hatchetfish",
+   "id": "dark_hatchetfish",
+   "en": "Dark Hatchetfish",
+   "zh": "暗斧鱼",
+   "loot_table": "dark_hatchetfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.dawnlight",
+   "id": "dawnlight",
+   "en": "Dawnlight",
+   "zh": "曙光",
+   "loot_table": "dawnlight",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.daysee",
+   "id": "daysee",
+   "en": "Daysee",
+   "zh": "天见",
+   "loot_table": "daysee",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.dead_tree",
+   "id": "dead_tree",
+   "en": "Dead Tree",
+   "zh": "死树",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.death_ray",
+   "id": "death_ray",
+   "en": "Death Ray",
+   "zh": "死亡能量束",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.deinotherium",
+   "id": "deinotherium",
+   "en": "Deinotherium",
+   "zh": "恐象",
+   "loot_table": "deinotherium",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.destroyer_shot",
+   "id": "destroyer_shot",
+   "en": "Destroyer Shot",
+   "zh": "毁灭爆破弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.destruction_shot",
+   "id": "destruction_shot",
+   "en": "Destruction Shot",
+   "zh": "毁灭子弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.destructor",
+   "id": "destructor",
+   "en": "Destructor",
+   "zh": "灭世者",
+   "loot_table": "destructor",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.devourer",
+   "id": "devourer",
+   "en": "Devourer",
+   "zh": "噬灭者",
+   "loot_table": "devourer",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.discharge_shot",
+   "id": "discharge_shot",
+   "en": "Discharge Shot",
+   "zh": "雷暴炸弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.discharge_slug",
+   "id": "discharge_slug",
+   "en": "Discharge Slug",
+   "zh": "雷暴狙击弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.distorter",
+   "id": "distorter",
+   "en": "Distorter",
+   "zh": "失真",
+   "loot_table": "distorter",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.doom_shot",
+   "id": "doom_shot",
+   "en": "Doom Shot",
+   "zh": "末日爆破弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.doubler",
+   "id": "doubler",
+   "en": "Doubler",
+   "zh": "倍频器",
+   "loot_table": "doubler",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.dryad_sprite",
+   "id": "dryad_sprite",
+   "en": "Dryad Sprite",
+   "zh": "林精",
+   "loot_table": "dryad_sprite",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.dungeon_keeper",
+   "id": "dungeon_keeper",
+   "en": "Dungeon Keeper",
+   "zh": "地牢守门人",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.dunkleosteus",
+   "id": "dunkleosteus",
+   "en": "Dunkleosteus",
+   "zh": "Dunkleosteus",
+   "loot_table": "dunkleosteus",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.dust_strider",
+   "id": "dust_strider",
+   "en": "Dust Strider",
+   "zh": "沙黾",
+   "loot_table": "dust_strider",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.dusteiva",
+   "id": "dusteiva",
+   "en": "Dusteiva",
+   "zh": "达斯维",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.duston",
+   "id": "duston",
+   "en": "Duston",
+   "zh": "达斯顿",
+   "loot_table": "duston",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.dweller",
+   "id": "dweller",
+   "en": "Dweller",
+   "zh": "寄主",
+   "loot_table": "dweller",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.echodar",
+   "id": "echodar",
+   "en": "Echodar",
+   "zh": "回音蝠翼",
+   "loot_table": "echodar",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.eeo",
+   "id": "eeo",
+   "en": "Eeo",
+   "zh": "逸灵",
+   "loot_table": "eeo",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.elite_king_bambambam",
+   "id": "elite_king_bambambam",
+   "en": "Elite King Bambambam",
+   "zh": "精英爆裂之王",
+   "loot_table": "elite_king_bambambam",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.elite_nethengeic_wither",
+   "id": "elite_nethengeic_wither",
+   "en": "Elite Nethengeic Wither",
+   "zh": "精英焰髓凋灵",
+   "loot_table": "elite_nethengeic_wither",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.elite_skeletron",
+   "id": "elite_skeletron",
+   "en": "Elite Skeletron",
+   "zh": "Elite Skeletron",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.elite_smash",
+   "id": "elite_smash",
+   "en": "Elite Smash",
+   "zh": "精英粉碎",
+   "loot_table": "elite_smash",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.elite_tyrosaur",
+   "id": "elite_tyrosaur",
+   "en": "Elite Tyrosaur",
+   "zh": "Elite Tyrosaur",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.embrake",
+   "id": "embrake",
+   "en": "Embrake",
+   "zh": "烬蜥",
+   "loot_table": "embrake",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.emperor_beast",
+   "id": "emperor_beast",
+   "en": "Emperor Beast",
+   "zh": "帝兽",
+   "loot_table": "emperor_beast",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.energy_shot",
+   "id": "energy_shot",
+   "en": "Energy Shot",
+   "zh": "能量弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.enforcer",
+   "id": "enforcer",
+   "en": "Enforcer",
+   "zh": "实施者",
+   "loot_table": "enforcer",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.eradicator_shot",
+   "id": "eradicator_shot",
+   "en": "Eradicator Shot",
+   "zh": "根除者能量弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.erebon_stickler_shot",
+   "id": "erebon_stickler_shot",
+   "en": "Erebon Stickler Shot",
+   "zh": "埃瑞本能量弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.erebon_stickler_stuck",
+   "id": "erebon_stickler_stuck",
+   "en": "Erebon Stickler Stuck",
+   "zh": "埃瑞本黏弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.exohead",
+   "id": "exohead",
+   "en": "Exohead",
+   "zh": "磁头",
+   "loot_table": "exohead",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.explodot",
+   "id": "explodot",
+   "en": "Explodot",
+   "zh": "勘探目点",
+   "loot_table": "explodot",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.explosives_expert",
+   "id": "explosives_expert",
+   "en": "Explosives Expert",
+   "zh": "爆破专家",
+   "loot_table": "explosives_expert",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.faceless_floater",
+   "id": "faceless_floater",
+   "en": "Faceless Floater",
+   "zh": "无面漂浮者",
+   "loot_table": "faceless_floater",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.fake_zorp",
+   "id": "fake_zorp",
+   "en": "Fake Zorp",
+   "zh": "伪装卓普",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.fiend",
+   "id": "fiend",
+   "en": "Fiend",
+   "zh": "狂魔",
+   "loot_table": "fiend",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.fire_bullet",
+   "id": "fire_bullet",
+   "en": "Fire Bullet",
+   "zh": "火焰子弹",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.aoa3.fireball",
+   "id": "fireball",
+   "en": "Fireball",
+   "zh": "火球",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.aoa3.firefly_shot",
+   "id": "firefly_shot",
+   "en": "Firefly Shot",
+   "zh": "萤火虫火焰魔法弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.firestorm_fall",
+   "id": "firestorm_fall",
+   "en": "Firestorm Fall",
+   "zh": "烈焰风暴魔法弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.fischer",
+   "id": "fischer",
+   "en": "Fischer",
+   "zh": "菲希尔",
+   "loot_table": "fischer",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.fishing_cage",
+   "id": "fishing_cage",
+   "en": "Fishing Cage",
+   "zh": "鱼笼",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.flamewalker",
+   "id": "flamewalker",
+   "en": "Flamewalker",
+   "zh": "烈焰步行者",
+   "loot_table": "flamewalker",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.flesh_eater",
+   "id": "flesh_eater",
+   "en": "Flesh Eater",
+   "zh": "嗜肉魔",
+   "loot_table": "flesh_eater",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.floro_rpg",
+   "id": "floro_rpg",
+   "en": "Floro Rpg",
+   "zh": "花之RPG导弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.flower_ball",
+   "id": "flower_ball",
+   "en": "Flower Ball",
+   "zh": "花之加农弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.flower_shot",
+   "id": "flower_shot",
+   "en": "Flower Shot",
+   "zh": "花之子弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.flowerface",
+   "id": "flowerface",
+   "en": "Flowerface",
+   "zh": "菊花面",
+   "loot_table": "flowerface",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.flye",
+   "id": "flye",
+   "en": "Flye",
+   "zh": "弗莱",
+   "loot_table": "flye",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.fragment_shot",
+   "id": "fragment_shot",
+   "en": "Fragment Shot",
+   "zh": "破碎能量束",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.fungal_ball",
+   "id": "fungal_ball",
+   "en": "Fungal Ball",
+   "zh": "真菌加农弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.fungal_rock_fragment",
+   "id": "fungal_rock_fragment",
+   "en": "Fungal Rock Fragment",
+   "zh": "真菌岩碎片",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.fungat",
+   "id": "fungat",
+   "en": "Fungat",
+   "zh": "真菌翼",
+   "loot_table": "fungat",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.fungback",
+   "id": "fungback",
+   "en": "Fungback",
+   "zh": "真菌怪",
+   "loot_table": "fungback",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.fungik",
+   "id": "fungik",
+   "en": "Fungik",
+   "zh": "真菌法师",
+   "loot_table": "fungik",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.fungock",
+   "id": "fungock",
+   "en": "Fungock",
+   "zh": "真菌戈克",
+   "loot_table": "fungock",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.fungung",
+   "id": "fungung",
+   "en": "Fungung",
+   "zh": "真菌力士",
+   "loot_table": "fungung",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.gadgetoid",
+   "id": "gadgetoid",
+   "en": "Gadgetoid",
+   "zh": "侦察机",
+   "loot_table": "gadgetoid",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.ghost",
+   "id": "ghost",
+   "en": "Ghost",
+   "zh": "幽灵",
+   "loot_table": "ghost",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.ghoul_ball",
+   "id": "ghoul_ball",
+   "en": "Ghoul Ball",
+   "zh": "恐惧加农弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.ghoul_shot",
+   "id": "ghoul_shot",
+   "en": "Ghoul Shot",
+   "zh": "恐惧魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.giga_green_ball",
+   "id": "giga_green_ball",
+   "en": "Giga Green Ball",
+   "zh": "巨型绿色加农弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.gingerbird",
+   "id": "gingerbird",
+   "en": "Gingerbird",
+   "zh": "姜鸟",
+   "loot_table": "gingerbird",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.gingerbread_man",
+   "id": "gingerbread_man",
+   "en": "Gingerbread Man",
+   "zh": "姜饼人",
+   "loot_table": "gingerbread_man",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.glaring_pixon",
+   "id": "glaring_pixon",
+   "en": "Glaring Pixon",
+   "zh": "耀眼的光",
+   "loot_table": "glaring_pixon",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.gleaming_pixon",
+   "id": "gleaming_pixon",
+   "en": "Gleaming Pixon",
+   "zh": "闪烁的光",
+   "loot_table": "gleaming_pixon",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.glistening_pixon",
+   "id": "glistening_pixon",
+   "en": "Glistening Pixon",
+   "zh": "闪耀的光",
+   "loot_table": "glistening_pixon",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.glowing_pixon",
+   "id": "glowing_pixon",
+   "en": "Glowing Pixon",
+   "zh": "灼热的光",
+   "loot_table": "glowing_pixon",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.goblin",
+   "id": "goblin",
+   "en": "Goblin",
+   "zh": "哥布林",
+   "loot_table": "goblin",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.gold_bobber",
+   "id": "gold_bobber",
+   "en": "Gold Bobber",
+   "zh": "黄金浮标",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.gold_shot",
+   "id": "gold_shot",
+   "en": "Gold Shot",
+   "zh": "黄金弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.golden_cannonball",
+   "id": "golden_cannonball",
+   "en": "Golden Cannonball",
+   "zh": "黄金加农弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.goo_ball",
+   "id": "goo_ball",
+   "en": "Goo Ball",
+   "zh": "粘粘球",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.gorb_arms_dealer",
+   "id": "gorb_arms_dealer",
+   "en": "Gorb Arms Dealer",
+   "zh": "戈布军火商",
+   "loot_table": "gorb_arms_dealer",
+   "projectile": true
+  },
+  {
+   "key": "entity.aoa3.gorb_citizen",
+   "id": "gorb_citizen",
+   "en": "Gorb Citizen",
+   "zh": "戈布市民",
+   "loot_table": "gorb_citizen",
+   "projectile": true
+  },
+  {
+   "key": "entity.aoa3.gorb_engineer",
+   "id": "gorb_engineer",
+   "en": "Gorb Engineer",
+   "zh": "戈布工程师",
+   "loot_table": "gorb_engineer",
+   "projectile": true
+  },
+  {
+   "key": "entity.aoa3.graw_shot",
+   "id": "graw_shot",
+   "en": "Graw Shot",
+   "zh": "森林守护者魔法弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.green_bullet",
+   "id": "green_bullet",
+   "en": "Green Bullet",
+   "zh": "绿色子弹",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.aoa3.green_gemtrap",
+   "id": "green_gemtrap",
+   "en": "Green Gemtrap",
+   "zh": "绿宝石陷阱鱼",
+   "loot_table": "green_gemtrap",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.green_guardian_shot",
+   "id": "green_guardian_shot",
+   "en": "Green Guardian Shot",
+   "zh": "绿色监管者魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.grenade",
+   "id": "grenade",
+   "en": "Grenade",
+   "zh": "手榴弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.grillface",
+   "id": "grillface",
+   "en": "Grillface",
+   "zh": "格栅面者",
+   "loot_table": "grillface",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.grobbler",
+   "id": "grobbler",
+   "en": "Grobbler",
+   "zh": "掠杀者",
+   "loot_table": "grobbler",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.gyrocopter",
+   "id": "gyrocopter",
+   "en": "Gyrocopter",
+   "zh": "陀螺直升机",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.hag_shot",
+   "id": "hag_shot",
+   "en": "Hag Shot",
+   "zh": "巫师魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.halycon",
+   "id": "halycon",
+   "en": "Halycon",
+   "zh": "平静牛",
+   "loot_table": "halycon",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.happy",
+   "id": "happy",
+   "en": "Happy",
+   "zh": "快乐的小丑",
+   "loot_table": "happy",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.hardened_parapiranha",
+   "id": "hardened_parapiranha",
+   "en": "Hardened Parapiranha",
+   "zh": "硬化帕拉痞拉",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.haunter_shot",
+   "id": "haunter_shot",
+   "en": "Haunter Shot",
+   "zh": "幽魂枪子弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.heavy_blue_cannonball",
+   "id": "heavy_blue_cannonball",
+   "en": "Heavy Blue Cannonball",
+   "zh": "重型蓝色加农弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.heavy_bone_cannonball",
+   "id": "heavy_bone_cannonball",
+   "en": "Heavy Bone Cannonball",
+   "zh": "重型骨之加农弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.heavy_cannonball",
+   "id": "heavy_cannonball",
+   "en": "Heavy Cannonball",
+   "zh": "重型加农弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.heavy_grenade",
+   "id": "heavy_grenade",
+   "en": "Heavy Grenade",
+   "zh": "手榴弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.heavy_red_bullet",
+   "id": "heavy_red_bullet",
+   "en": "Heavy Red Bullet",
+   "zh": "重型红色子弹",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.aoa3.heavy_red_cannonball",
+   "id": "heavy_red_cannonball",
+   "en": "Heavy Red Cannonball",
+   "zh": "重型红色加农弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.heavy_runic_guardian_shot",
+   "id": "heavy_runic_guardian_shot",
+   "en": "Heavy Runic Guardian Shot",
+   "zh": "重型符文守护者魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.heavy_shadowball",
+   "id": "heavy_shadowball",
+   "en": "Heavy Shadowball",
+   "zh": "重型暗影加农弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.heavy_shower_shot",
+   "id": "heavy_shower_shot",
+   "en": "Heavy Shower Shot",
+   "zh": "重型涤荡弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.heavy_tri_discharge_shot",
+   "id": "heavy_tri_discharge_shot",
+   "en": "Heavy Tri Discharge Shot",
+   "zh": "重型远古雷暴弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.heavy_wither_ball",
+   "id": "heavy_wither_ball",
+   "en": "Heavy Wither Ball",
+   "zh": "重型凋零加农弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.hell_bubble",
+   "id": "hell_bubble",
+   "en": "Hell Bubble",
+   "zh": "地狱泡泡",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.hellfire",
+   "id": "hellfire",
+   "en": "Hellfire",
+   "zh": "燃烧瓶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.hellfire_tail",
+   "id": "hellfire_tail",
+   "en": "Hellfire Tail",
+   "zh": "燃烧瓶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.hive_ball",
+   "id": "hive_ball",
+   "en": "Hive Ball",
+   "zh": "蜂巢加农弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.horndron",
+   "id": "horndron",
+   "en": "Horndron",
+   "zh": "沉吟角牛",
+   "loot_table": "horndron",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.host",
+   "id": "host",
+   "en": "Host",
+   "zh": "宿主",
+   "loot_table": "host",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.hot_shot",
+   "id": "hot_shot",
+   "en": "Hot Shot",
+   "zh": "炎热枪子弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.hunter",
+   "id": "hunter",
+   "en": "Hunter",
+   "zh": "狩猎者",
+   "loot_table": "hunter",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.hydrone",
+   "id": "hydrone",
+   "en": "Hydrone",
+   "zh": "水能鱼",
+   "loot_table": "hydrone",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.ice_giant",
+   "id": "ice_giant",
+   "en": "Ice Giant",
+   "zh": "冰之巨人",
+   "loot_table": "ice_giant",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.ice_shot",
+   "id": "ice_shot",
+   "en": "Ice Shot",
+   "zh": "寒冰子弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.illusion_shot",
+   "id": "illusion_shot",
+   "en": "Illusion Shot",
+   "zh": "幻觉子弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.infernal",
+   "id": "infernal",
+   "en": "Infernal",
+   "zh": "炼狱",
+   "loot_table": "infernal",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.inmate_x",
+   "id": "inmate_x",
+   "en": "Inmate X",
+   "zh": "囚犯X",
+   "loot_table": "inmate_x",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.inmate_y",
+   "id": "inmate_y",
+   "en": "Inmate Y",
+   "zh": "囚犯Y",
+   "loot_table": "inmate_y",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.ion_shot",
+   "id": "ion_shot",
+   "en": "Ion Shot",
+   "zh": "离子能量弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.iro_miner_shot",
+   "id": "iro_miner_shot",
+   "en": "Iro Miner Shot",
+   "zh": "能量镭射",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.ironback",
+   "id": "ironback",
+   "en": "Ironback",
+   "zh": "铁背鱼",
+   "loot_table": "ironback",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.jamfish",
+   "id": "jamfish",
+   "en": "Jamfish",
+   "zh": "果酱鱼",
+   "loot_table": "jamfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.jawe",
+   "id": "jawe",
+   "en": "Jawe",
+   "zh": "深渊蹒跚者",
+   "loot_table": "jawe",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.jumbo",
+   "id": "jumbo",
+   "en": "Jumbo",
+   "zh": "笨拙的小丑",
+   "loot_table": "jumbo",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.keeler",
+   "id": "keeler",
+   "en": "Keeler",
+   "zh": "基勒",
+   "loot_table": "keeler",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.king_bambambam",
+   "id": "king_bambambam",
+   "en": "King Bambambam",
+   "zh": "爆裂之王",
+   "loot_table": "king_bambambam",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.king_charger",
+   "id": "king_charger",
+   "en": "King Charger",
+   "zh": "袭击者之王",
+   "loot_table": "king_charger",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.king_creeper",
+   "id": "king_creeper",
+   "en": "King Creeper",
+   "zh": "苦力怕之王",
+   "loot_table": "king_creeper",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.koko",
+   "id": "koko",
+   "en": "Koko",
+   "zh": "科科",
+   "loot_table": "koko",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.kranky",
+   "id": "kranky",
+   "en": "Kranky",
+   "zh": "神经的小丑",
+   "loot_table": "kranky",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.leafy_giant",
+   "id": "leafy_giant",
+   "en": "Leafy Giant",
+   "zh": "叶之巨人",
+   "loot_table": "leafy_giant",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.lelyetian_banker",
+   "id": "lelyetian_banker",
+   "en": "Lelyetian Banker",
+   "zh": "赫尔维蒂银行家",
+   "loot_table": "lelyetian_banker",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.lelyetian_caster",
+   "id": "lelyetian_caster",
+   "en": "Lelyetian Caster",
+   "zh": "赫尔维蒂法师",
+   "loot_table": "lelyetian_caster",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.lelyetian_shot",
+   "id": "lelyetian_shot",
+   "en": "Lelyetian Shot",
+   "zh": "赫尔维蒂魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.lelyetian_trader",
+   "id": "lelyetian_trader",
+   "en": "Lelyetian Trader",
+   "zh": "赫尔维蒂商人",
+   "loot_table": "lelyetian_trader",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.lelyetian_warrior",
+   "id": "lelyetian_warrior",
+   "en": "Lelyetian Warrior",
+   "zh": "赫尔维蒂战士",
+   "loot_table": "lelyetian_warrior",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.light_blaster_shot",
+   "id": "light_blaster_shot",
+   "en": "Light Blaster Shot",
+   "zh": "闪耀冲击弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.light_iron_shot",
+   "id": "light_iron_shot",
+   "en": "Light Iron Shot",
+   "zh": "闪耀铁器魔法弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.light_runic_guardian_shot",
+   "id": "light_runic_guardian_shot",
+   "en": "Light Runic Guardian Shot",
+   "zh": "符文守护者魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.light_spark",
+   "id": "light_spark",
+   "en": "Light Spark",
+   "zh": "闪耀火花",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.lightwalker",
+   "id": "lightwalker",
+   "en": "Lightwalker",
+   "zh": "光明步行者",
+   "loot_table": "lightwalker",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.little_bam",
+   "id": "little_bam",
+   "en": "Little Bam",
+   "zh": "Little Bam",
+   "loot_table": "little_bam",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.lollypopper",
+   "id": "lollypopper",
+   "en": "Lollypopper",
+   "zh": "棒棒糖",
+   "loot_table": "lollypopper",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.lost_soul",
+   "id": "lost_soul",
+   "en": "Lost Soul",
+   "zh": "亡魂",
+   "loot_table": "lost_soul",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.lotto_totem",
+   "id": "lotto_totem",
+   "en": "Lotto Totem",
+   "zh": "乐透图腾",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.lottoman",
+   "id": "lottoman",
+   "en": "Lottoman",
+   "zh": "乐透兑换人",
+   "loot_table": "lottoman",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.lottoman.spawn",
+   "id": "spawn",
+   "en": "Lottoman: I was hiding in there!",
+   "zh": "乐透人：我这是为了躲起来！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.luna_shot",
+   "id": "luna_shot",
+   "en": "Luna Shot",
+   "zh": "卢娜冲击弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.lunar_fall",
+   "id": "lunar_fall",
+   "en": "Lunar Fall",
+   "zh": "月球流星",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.lunarcher",
+   "id": "lunarcher",
+   "en": "Lunarcher",
+   "zh": "月球射手",
+   "loot_table": "lunarcher",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.lurker",
+   "id": "lurker",
+   "en": "Lurker",
+   "zh": "潜伏者",
+   "loot_table": "lurker",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.luxocron",
+   "id": "luxocron",
+   "en": "Luxocron",
+   "zh": "洛梵",
+   "loot_table": "luxocron",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.luxon_stickler_shot",
+   "id": "luxon_stickler_shot",
+   "en": "Luxon Stickler Shot",
+   "zh": "卢克森能量弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.luxon_stickler_stuck",
+   "id": "luxon_stickler_stuck",
+   "en": "Luxon Stickler Stuck",
+   "zh": "卢克森黏弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.lyonic_shot",
+   "id": "lyonic_shot",
+   "en": "Lyonic Shot",
+   "zh": "焦铁魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.magic_ball",
+   "id": "magic_ball",
+   "en": "Magic Ball",
+   "zh": "魔法弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.magical_creeper",
+   "id": "magical_creeper",
+   "en": "Magical Creeper",
+   "zh": "魔法苦力怕",
+   "loot_table": "magical_creeper",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.mechachron",
+   "id": "mechachron",
+   "en": "Mechachron",
+   "zh": "机甲纪事",
+   "loot_table": "mechachron",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.mechamaton",
+   "id": "mechamaton",
+   "en": "Mechamaton",
+   "zh": "机甲梅顿",
+   "loot_table": "mechamaton",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.mechyon",
+   "id": "mechyon",
+   "en": "Mechyon",
+   "zh": "机甲羊",
+   "loot_table": "mechyon",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.meganeuropsis",
+   "id": "meganeuropsis",
+   "en": "Meganeuropsis",
+   "zh": "巨脉蜻蜓",
+   "loot_table": "meganeuropsis",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.merkyre",
+   "id": "merkyre",
+   "en": "Merkyre",
+   "zh": "默克",
+   "loot_table": "merkyre",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.mermage",
+   "id": "mermage",
+   "en": "Mermage",
+   "zh": "海灵法师",
+   "loot_table": "mermage",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.metal_slug",
+   "id": "metal_slug",
+   "en": "Metal Slug",
+   "zh": "重铅弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.metalloid",
+   "id": "metalloid",
+   "en": "Metalloid",
+   "zh": "金属收藏家",
+   "loot_table": "metalloid",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.meteor_fall",
+   "id": "meteor_fall",
+   "en": "Meteor Fall",
+   "zh": "流星弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.mind_blaster_shot",
+   "id": "mind_blaster_shot",
+   "en": "Mind Blaster Shot",
+   "zh": "心灵冲击弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.mini_green_ball",
+   "id": "mini_green_ball",
+   "en": "Mini Green Ball",
+   "zh": "迷你绿色加农弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.modulo",
+   "id": "modulo",
+   "en": "Modulo",
+   "zh": "模型舱",
+   "loot_table": "modulo",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.modulo_shot",
+   "id": "modulo_shot",
+   "en": "Modulo Shot",
+   "zh": "模型舱子弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.moon_destroyer_shot",
+   "id": "moon_destroyer_shot",
+   "en": "Moon Destroyer Shot",
+   "zh": "月亮毁灭者能量弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.moon_maker",
+   "id": "moon_maker",
+   "en": "Moon Maker",
+   "zh": "月亮制造者能量弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.moon_shiner_shot",
+   "id": "moon_shiner_shot",
+   "en": "Moon Shiner Shot",
+   "zh": "月光能量弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.moon_shot",
+   "id": "moon_shot",
+   "en": "Moon Shot",
+   "zh": "月之子弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.moonlight_fall",
+   "id": "moonlight_fall",
+   "en": "Moonlight Fall",
+   "zh": "月光流星弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.multiplying_grenade",
+   "id": "multiplying_grenade",
+   "en": "Multiplying Grenade",
+   "zh": "复制手榴弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.muncher",
+   "id": "muncher",
+   "en": "Muncher",
+   "zh": "咀嚼贝",
+   "loot_table": "muncher",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.mushroom_spider",
+   "id": "mushroom_spider",
+   "en": "Mushroom Spider",
+   "zh": "真菌蜘蛛",
+   "loot_table": "mushroom_spider",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.naturalist",
+   "id": "naturalist",
+   "en": "Naturalist",
+   "zh": "自然主义者",
+   "loot_table": "naturalist",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.neptuno",
+   "id": "neptuno",
+   "en": "Neptuno",
+   "zh": "海王星",
+   "loot_table": "neptuno",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.nethengeic_beast",
+   "id": "nethengeic_beast",
+   "en": "Nethengeic Beast",
+   "zh": "纳德吉克兽",
+   "loot_table": "nethengeic_beast",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.nethengeic_wither",
+   "id": "nethengeic_wither",
+   "en": "Nethengeic Wither",
+   "zh": "纳德吉克凋灵",
+   "loot_table": "nethengeic_wither",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.night_watcher",
+   "id": "night_watcher",
+   "en": "Night Watcher",
+   "zh": "夜行者",
+   "loot_table": "night_watcher",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.nightmare_fall",
+   "id": "nightmare_fall",
+   "en": "Nightmare Fall",
+   "zh": "噩梦流星弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.nightmare_spider",
+   "id": "nightmare_spider",
+   "en": "Nightmare Spider",
+   "zh": "噩梦蜘蛛",
+   "loot_table": "nightmare_spider",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.nightwing",
+   "id": "nightwing",
+   "en": "Nightwing",
+   "zh": "夜鹰",
+   "loot_table": "nightwing",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.nipper",
+   "id": "nipper",
+   "en": "Nipper",
+   "zh": "大嘴怪",
+   "loot_table": "nipper",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.nospike",
+   "id": "nospike",
+   "en": "Nospike",
+   "zh": "虚无尖峰",
+   "loot_table": "nospike",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.noxious_shot",
+   "id": "noxious_shot",
+   "en": "Noxious Shot",
+   "zh": "毒性魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.occulent",
+   "id": "occulent",
+   "en": "Occulent",
+   "zh": "狂视",
+   "loot_table": "occulent",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.odious_shot",
+   "id": "odious_shot",
+   "en": "Odious Shot",
+   "zh": "仇恨魔法弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.omnilight",
+   "id": "omnilight",
+   "en": "Omnilight",
+   "zh": "泛光源",
+   "loot_table": "omnilight",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.omnilight_shot",
+   "id": "omnilight_shot",
+   "en": "Omnilight Shot",
+   "zh": "泛光源魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.opteryx",
+   "id": "opteryx",
+   "en": "Opteryx",
+   "zh": "弹跳鸟",
+   "loot_table": "opteryx",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.orange_cannonball",
+   "id": "orange_cannonball",
+   "en": "Orange Cannonball",
+   "zh": "橙色加农弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.orbocron_shot",
+   "id": "orbocron_shot",
+   "en": "Orbocron Shot",
+   "zh": "轨旋魔法弹",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.aoa3.paladin",
+   "id": "paladin",
+   "en": "Paladin",
+   "zh": "圣骑士",
+   "loot_table": "paladin",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.paralyzer_shot",
+   "id": "paralyzer_shot",
+   "en": "Paralyzer Shot",
+   "zh": "麻痹能量束",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.parapiranha",
+   "id": "parapiranha",
+   "en": "Parapiranha",
+   "zh": "帕拉痞拉",
+   "loot_table": "parapiranha",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.parasect",
+   "id": "parasect",
+   "en": "Parasect",
+   "zh": "派拉斯特",
+   "loot_table": "parasect",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.paravite",
+   "id": "paravite",
+   "en": "Paravite",
+   "zh": "寄生虫",
+   "loot_table": "paravite",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.party_popper_shot",
+   "id": "party_popper_shot",
+   "en": "Party Popper Shot",
+   "zh": "派对庆祝者能量弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.pearl_stripefish",
+   "id": "pearl_stripefish",
+   "en": "Pearl Stripefish",
+   "zh": "珍珠条纹鱼",
+   "loot_table": "pearl_stripefish",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.peppermint_snail",
+   "id": "peppermint_snail",
+   "en": "Peppermint Snail",
+   "zh": "薄荷蜗牛",
+   "loot_table": "peppermint_snail",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.phantom_shot",
+   "id": "phantom_shot",
+   "en": "Phantom Shot",
+   "zh": "幻影魔法弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.pluton_stickler_shot",
+   "id": "pluton_stickler_shot",
+   "en": "Pluton Stickler Shot",
+   "zh": "普洛顿能量弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.pluton_stickler_stuck",
+   "id": "pluton_stickler_stuck",
+   "en": "Pluton Stickler Stuck",
+   "zh": "普洛顿黏弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.pod_plant",
+   "id": "pod_plant",
+   "en": "Pod Plant",
+   "zh": "豌豆荚",
+   "loot_table": "pod_plant",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.poison_plunger_shot",
+   "id": "poison_plunger_shot",
+   "en": "Poison Plunger Shot",
+   "zh": "剧毒喷雾",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.poison_shot",
+   "id": "poison_shot",
+   "en": "Poison Shot",
+   "zh": "剧毒魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.polymorph_shot",
+   "id": "polymorph_shot",
+   "en": "Polymorph Shot",
+   "zh": "多晶魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.polytom",
+   "id": "polytom",
+   "en": "Polytom",
+   "zh": "多面体",
+   "loot_table": "polytom",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.polytom_shot",
+   "id": "polytom_shot",
+   "en": "Polytom Shot",
+   "zh": "多面体魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.pop_shot",
+   "id": "pop_shot",
+   "en": "Pop Shot",
+   "zh": "炸弹碎片",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.power_ray",
+   "id": "power_ray",
+   "en": "Power Ray",
+   "zh": "能量束",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.power_shot",
+   "id": "power_shot",
+   "en": "Power Shot",
+   "zh": "力量魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.primordial_banker",
+   "id": "primordial_banker",
+   "en": "Primordial Banker",
+   "zh": "原始银行家",
+   "loot_table": "primordial_banker",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.primordial_guide",
+   "id": "primordial_guide",
+   "en": "Primordial Guide",
+   "zh": "原始导游",
+   "loot_table": "primordial_guide",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.primordial_merchant",
+   "id": "primordial_merchant",
+   "en": "Primordial Merchant",
+   "zh": "原始商人",
+   "loot_table": "primordial_merchant",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.primordial_shot",
+   "id": "primordial_shot",
+   "en": "Primordial Shot",
+   "zh": "原始魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.primordial_spellbinder",
+   "id": "primordial_spellbinder",
+   "en": "Primordial Spellbinder",
+   "zh": "原始赋灵师",
+   "loot_table": "primordial_spellbinder",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.primordial_wizard",
+   "id": "primordial_wizard",
+   "en": "Primordial Wizard",
+   "zh": "原始巫术师",
+   "loot_table": "primordial_wizard",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.professor",
+   "id": "professor",
+   "en": "Professor",
+   "zh": "教授",
+   "loot_table": "professor",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.proton_shot",
+   "id": "proton_shot",
+   "en": "Proton Shot",
+   "zh": "质子流能量弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.purple_gemtrap",
+   "id": "purple_gemtrap",
+   "en": "Purple Gemtrap",
+   "zh": "紫宝石陷阱鱼",
+   "loot_table": "purple_gemtrap",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.radiant_pixon",
+   "id": "radiant_pixon",
+   "en": "Radiant Pixon",
+   "zh": "照耀的光",
+   "loot_table": "radiant_pixon",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.rainbow_shot",
+   "id": "rainbow_shot",
+   "en": "Rainbow Shot",
+   "zh": "彩虹能量束",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.rainbowfish",
+   "id": "rainbowfish",
+   "en": "Rainbowfish",
+   "zh": "彩虹鱼",
+   "loot_table": "rainbowfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.rainicorn",
+   "id": "rainicorn",
+   "en": "Rainicorn",
+   "zh": "虹角兽",
+   "loot_table": "rainicorn",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.ramradon",
+   "id": "ramradon",
+   "en": "Ramradon",
+   "zh": "双角兽",
+   "loot_table": "ramradon",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.rawbone",
+   "id": "rawbone",
+   "en": "Rawbone",
+   "zh": "生骨",
+   "loot_table": "rawbone",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.razorfish",
+   "id": "razorfish",
+   "en": "Razorfish",
+   "zh": "剃刀鱼",
+   "loot_table": "razorfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.red_bullet",
+   "id": "red_bullet",
+   "en": "Red Bullet",
+   "zh": "红色子弹",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.aoa3.red_gemtrap",
+   "id": "red_gemtrap",
+   "en": "Red Gemtrap",
+   "zh": "红宝石陷阱鱼",
+   "loot_table": "red_gemtrap",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.red_guardian_shot",
+   "id": "red_guardian_shot",
+   "en": "Red Guardian Shot",
+   "zh": "红色监管者魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.reefer_shot",
+   "id": "reefer_shot",
+   "en": "Reefer Shot",
+   "zh": "冰冻子弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.reeftooth",
+   "id": "reeftooth",
+   "en": "Reeftooth",
+   "zh": "礁齿鱼",
+   "loot_table": "reeftooth",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.refluct",
+   "id": "refluct",
+   "en": "Refluct",
+   "zh": "反射者",
+   "loot_table": "refluct",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.reinforced_bobber",
+   "id": "reinforced_bobber",
+   "en": "Reinforced Bobber",
+   "zh": "加强浮标",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.revolution_shot",
+   "id": "revolution_shot",
+   "en": "Revolution Shot",
+   "zh": "变革能量束",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.rock_crawler",
+   "id": "rock_crawler",
+   "en": "Rock Crawler",
+   "zh": "岩石爬虫",
+   "loot_table": "rock_crawler",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.rock_critter",
+   "id": "rock_critter",
+   "en": "Rock Critter",
+   "zh": "岩石蜘蛛",
+   "loot_table": "rock_critter",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.rock_fragment",
+   "id": "rock_fragment",
+   "en": "Rock Fragment",
+   "zh": "岩石碎片",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.rockbiter",
+   "id": "rockbiter",
+   "en": "Rockbiter",
+   "zh": "岩石比特",
+   "loot_table": "rockbiter",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.rocketfish",
+   "id": "rocketfish",
+   "en": "Rocketfish",
+   "zh": "箭鱼",
+   "loot_table": "rocketfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.rosidian_shot",
+   "id": "rosidian_shot",
+   "en": "Rosidian Shot",
+   "zh": "伊恩魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.rpg",
+   "id": "rpg",
+   "en": "Rpg",
+   "zh": "RPG",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.runic_bomb",
+   "id": "runic_bomb",
+   "en": "Runic Bomb",
+   "zh": "符文炸弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.runic_golem",
+   "id": "runic_golem",
+   "en": "Runic Golem",
+   "zh": "符文傀儡",
+   "loot_table": "runic_golem",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.runic_guardian",
+   "id": "runic_guardian",
+   "en": "Runic Guardian",
+   "zh": "符文守护者",
+   "loot_table": "runic_guardian",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.runic_guardian_shot",
+   "id": "runic_guardian_shot",
+   "en": "Runic Guardian Shot",
+   "zh": "符文守护者魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.runicorn",
+   "id": "runicorn",
+   "en": "Runicorn",
+   "zh": "符角兽",
+   "loot_table": "runicorn",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.runicorn_rider",
+   "id": "runicorn_rider",
+   "en": "Runicorn Rider",
+   "zh": "符角骑士",
+   "loot_table": "runicorn_rider",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.sailback",
+   "id": "sailback",
+   "en": "Sailback",
+   "zh": "帆背鱼",
+   "loot_table": "sailback",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.sand_giant",
+   "id": "sand_giant",
+   "en": "Sand Giant",
+   "zh": "沙之巨人",
+   "loot_table": "sand_giant",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.sand_giant_pit_trap",
+   "id": "sand_giant_pit_trap",
+   "en": "Sand Giant Pit Trap",
+   "zh": "沙之巨人陷坑",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.sand_giant_spike_trap",
+   "id": "sand_giant_spike_trap",
+   "en": "Sand Giant Spike Trap",
+   "zh": "沙之巨人尖刺",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.sapphire_strider",
+   "id": "sapphire_strider",
+   "en": "Sapphire Strider",
+   "zh": "蔚蓝条纹鱼",
+   "loot_table": "sapphire_strider",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.sasquatch",
+   "id": "sasquatch",
+   "en": "Sasquatch",
+   "zh": "野人",
+   "loot_table": "sasquatch",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.sea_viper",
+   "id": "sea_viper",
+   "en": "Sea Viper",
+   "zh": "海蝰",
+   "loot_table": "sea_viper",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.seaocron_shot",
+   "id": "seaocron_shot",
+   "en": "Seaocron Shot",
+   "zh": "海之能量弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.seed_dart",
+   "id": "seed_dart",
+   "en": "Seed Dart",
+   "zh": "投掷枪子弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.selyan_stickler_shot",
+   "id": "selyan_stickler_shot",
+   "en": "Selyan Stickler Shot",
+   "zh": "塞里安能量弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.selyan_stickler_stuck",
+   "id": "selyan_stickler_stuck",
+   "en": "Selyan Stickler Stuck",
+   "zh": "塞里安黏弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.shifter",
+   "id": "shifter",
+   "en": "Shifter",
+   "zh": "移形恶兽",
+   "loot_table": "shifter",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.shik",
+   "id": "shik",
+   "en": "Shik",
+   "zh": "岩石蚂蚁",
+   "loot_table": "shik",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.shining_pixon",
+   "id": "shining_pixon",
+   "en": "Shining Pixon",
+   "zh": "闪亮的光",
+   "loot_table": "shining_pixon",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.shiny_squid",
+   "id": "shiny_squid",
+   "en": "Shiny Squid",
+   "zh": "闪耀鱿鱼",
+   "loot_table": "shiny_squid",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.shoe_shot",
+   "id": "shoe_shot",
+   "en": "Shoe Shot",
+   "zh": "脏鞋",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.shower_shot",
+   "id": "shower_shot",
+   "en": "Shower Shot",
+   "zh": "涤荡弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.shroom_bullet",
+   "id": "shroom_bullet",
+   "en": "Shroom Bullet",
+   "zh": "蘑菇子弹",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.aoa3.shyre_archer",
+   "id": "shyre_archer",
+   "en": "Shyre Archer",
+   "zh": "塞尔瑞射手",
+   "loot_table": "shyre_archer",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.shyre_banker",
+   "id": "shyre_banker",
+   "en": "Shyre Banker",
+   "zh": "塞尔瑞银行家",
+   "loot_table": "shyre_banker",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.shyre_beam",
+   "id": "shyre_beam",
+   "en": "Shyre Beam",
+   "zh": "塞尔瑞光束",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.aoa3.shyre_knight",
+   "id": "shyre_knight",
+   "en": "Shyre Knight",
+   "zh": "塞尔瑞骑士",
+   "loot_table": "shyre_knight",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.shyre_shot",
+   "id": "shyre_shot",
+   "en": "Shyre Shot",
+   "zh": "塞尔瑞魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.silencer",
+   "id": "silencer",
+   "en": "Silencer",
+   "zh": "消音器",
+   "loot_table": "silencer",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.skelecanth",
+   "id": "skelecanth",
+   "en": "Skelecanth",
+   "zh": "骷髅鱼",
+   "loot_table": "skelecanth",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.skeletal_abomination",
+   "id": "skeletal_abomination",
+   "en": "Skeletal Abomination",
+   "zh": "Skeletal Abomination",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.skeletron",
+   "id": "skeletron",
+   "en": "Skeletron",
+   "zh": "Skeletron",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.skill_master",
+   "id": "skill_master",
+   "en": "Skill Master",
+   "zh": "技能大师",
+   "loot_table": "skill_master",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.skull_creature",
+   "id": "skull_creature",
+   "en": "Skull Creature",
+   "zh": "骷髅怪物",
+   "loot_table": "skull_creature",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.skullo_shot",
+   "id": "skullo_shot",
+   "en": "Skullo Shot",
+   "zh": "颅骨冲击弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.sky_shot",
+   "id": "sky_shot",
+   "en": "Sky Shot",
+   "zh": "天空魔法弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.slice_star",
+   "id": "slice_star",
+   "en": "Slice Star",
+   "zh": "螺旋镖",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.slimer",
+   "id": "slimer",
+   "en": "Slimer",
+   "zh": "史莱蒙",
+   "loot_table": "slimer",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.smash",
+   "id": "smash",
+   "en": "Smash",
+   "zh": "粉碎",
+   "loot_table": "smash",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.smile_blaster",
+   "id": "smile_blaster",
+   "en": "Smile Blaster",
+   "zh": "微笑冲击弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.smiley_cannonball",
+   "id": "smiley_cannonball",
+   "en": "Smiley Cannonball",
+   "zh": "微笑加农弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.smilodon",
+   "id": "smilodon",
+   "en": "Smilodon",
+   "zh": "Smilodon",
+   "loot_table": "smilodon",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.snappy",
+   "id": "snappy",
+   "en": "Snappy",
+   "zh": "时髦的小丑",
+   "loot_table": "snappy",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.sniper_slug",
+   "id": "sniper_slug",
+   "en": "Sniper Slug",
+   "zh": "狙击弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.soul_drainer_shot",
+   "id": "soul_drainer_shot",
+   "en": "Soul Drainer Shot",
+   "zh": "噬魂能量束",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.soul_spark",
+   "id": "soul_spark",
+   "en": "Soul Spark",
+   "zh": "灵魂火花能量束",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.soul_storm_shot",
+   "id": "soul_storm_shot",
+   "en": "Soul Storm Shot",
+   "zh": "灵魂风暴能量束",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.soulscorne",
+   "id": "soulscorne",
+   "en": "Soulscorne",
+   "zh": "灵魂法尔",
+   "loot_table": "soulscorne",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.soulvyre",
+   "id": "soulvyre",
+   "en": "Soulvyre",
+   "zh": "灵魂瓦尔",
+   "loot_table": "soulvyre",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.spearmint_snail",
+   "id": "spearmint_snail",
+   "en": "Spearmint Snail",
+   "zh": "留兰香蜗牛",
+   "loot_table": "spearmint_snail",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.spectral_shot",
+   "id": "spectral_shot",
+   "en": "Spectral Shot",
+   "zh": "光灵魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.spectral_wizard",
+   "id": "spectral_wizard",
+   "en": "Spectral Wizard",
+   "zh": "光灵巫师",
+   "loot_table": "spectral_wizard",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.spinoledon",
+   "id": "spinoledon",
+   "en": "Spinoledon",
+   "zh": "刺背龙",
+   "loot_table": "spinoledon",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.spirit_guardian",
+   "id": "spirit_guardian",
+   "en": "Spirit Guardian",
+   "zh": "精神监护者",
+   "loot_table": "spirit_guardian",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.spirit_protector",
+   "id": "spirit_protector",
+   "en": "Spirit Protector",
+   "zh": "精神保护者",
+   "loot_table": "spirit_protector",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.spiritual_shot",
+   "id": "spiritual_shot",
+   "en": "Spiritual Shot",
+   "zh": "精神魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.squasher",
+   "id": "squasher",
+   "en": "Squasher",
+   "zh": "窝瓜",
+   "loot_table": "squasher",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.squiggler",
+   "id": "squiggler",
+   "en": "Squiggler",
+   "zh": "史奎格",
+   "loot_table": "squiggler",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.stalker",
+   "id": "stalker",
+   "en": "Stalker",
+   "zh": "追猎者",
+   "loot_table": "stalker",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.sticky",
+   "id": "sticky",
+   "en": "Sticky",
+   "zh": "粘人的小丑",
+   "loot_table": "sticky",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.sticky_cool_bomb",
+   "id": "sticky_cool_bomb",
+   "en": "Sticky Cool Bomb",
+   "zh": "炫酷黏弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.sticky_fireball",
+   "id": "sticky_fireball",
+   "en": "Sticky Fireball",
+   "zh": "黏性火球",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.aoa3.sticky_red_bomb",
+   "id": "sticky_red_bomb",
+   "en": "Sticky Red Bomb",
+   "zh": "红色黏弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.stimulo",
+   "id": "stimulo",
+   "en": "Stimulo",
+   "zh": "刺激体",
+   "loot_table": "stimulo",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.stimulosus",
+   "id": "stimulosus",
+   "en": "Stimulosus",
+   "zh": "大型刺激体",
+   "loot_table": "stimulosus",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.stitches",
+   "id": "stitches",
+   "en": "Stitches",
+   "zh": "受伤的小丑",
+   "loot_table": "stitches",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.stone_giant",
+   "id": "stone_giant",
+   "en": "Stone Giant",
+   "zh": "石之巨人",
+   "loot_table": "stone_giant",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.stone_giant_rock",
+   "id": "stone_giant_rock",
+   "en": "Stone Giant Rock",
+   "zh": "Stone Giant Rock",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.store_keeper",
+   "id": "store_keeper",
+   "en": "Store Keeper",
+   "zh": "商店老板",
+   "loot_table": "store_keeper",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.sugarface",
+   "id": "sugarface",
+   "en": "Sugarface",
+   "zh": "砂糖脸",
+   "loot_table": "sugarface",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.sun_shot",
+   "id": "sun_shot",
+   "en": "Sun Shot",
+   "zh": "太阳体",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.sunny",
+   "id": "sunny",
+   "en": "Sunny",
+   "zh": "向日葵",
+   "loot_table": "sunny",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.sunset_bullet",
+   "id": "sunset_bullet",
+   "en": "Sunset Bullet",
+   "zh": "日落子弹",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.aoa3.super_green_ball",
+   "id": "super_green_ball",
+   "en": "Super Green Ball",
+   "zh": "超级绿色加农弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.swarm_shot",
+   "id": "swarm_shot",
+   "en": "Swarm Shot",
+   "zh": "杀人蜂能量束",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.sysker",
+   "id": "sysker",
+   "en": "Sysker",
+   "zh": "西斯科",
+   "loot_table": "sysker",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.tangle_fall",
+   "id": "tangle_fall",
+   "en": "Tangle Fall",
+   "zh": "困惑流星弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.terrestrial",
+   "id": "terrestrial",
+   "en": "Terrestrial",
+   "zh": "特雷斯",
+   "loot_table": "terrestrial",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.terror_construct_shot",
+   "id": "terror_construct_shot",
+   "en": "Terror Construct Shot",
+   "zh": "恐怖概念弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.tharafly",
+   "id": "tharafly",
+   "en": "Tharafly",
+   "zh": "变异蝙蝠",
+   "loot_table": "tharafly",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.dryad_sprite.interact.empty",
+   "id": "empty",
+   "en": "The Dryad Sprite doesn't seem interested in your empty hand.",
+   "zh": "林精对你空着的双手可不感兴趣。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.dryad_sprite.interact.incorrect",
+   "id": "incorrect",
+   "en": "The sprite seems to be expecting to be shown a different item",
+   "zh": "这个林精想让你展示的是别的物品。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.thermal_bobber",
+   "id": "thermal_bobber",
+   "en": "Thermal Bobber",
+   "zh": "隔热浮标",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.thorny_plant_sprout",
+   "id": "thorny_plant_sprout",
+   "en": "Thorny Plant Sprout",
+   "zh": "荆棘花触手",
+   "loot_table": "thorny_plant_sprout",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.tidal_wave",
+   "id": "tidal_wave",
+   "en": "Tidal Wave",
+   "zh": "潮汐波纹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.tipsy",
+   "id": "tipsy",
+   "en": "Tipsy",
+   "zh": "微醉的小丑",
+   "loot_table": "tipsy",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.token_collector",
+   "id": "token_collector",
+   "en": "Token Collector",
+   "zh": "令牌交易者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.toxic_bullet",
+   "id": "toxic_bullet",
+   "en": "Toxic Bullet",
+   "zh": "剧毒子弹",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.aoa3.toxic_shot",
+   "id": "toxic_shot",
+   "en": "Toxic Shot",
+   "zh": "剧毒子弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.toxxulous",
+   "id": "toxxulous",
+   "en": "Toxxulous",
+   "zh": "剧毒铁兽",
+   "loot_table": "toxxulous",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.toy_merchant",
+   "id": "toy_merchant",
+   "en": "Toy Merchant",
+   "zh": "玩具商人",
+   "loot_table": "toy_merchant",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.tracker",
+   "id": "tracker",
+   "en": "Tracker",
+   "zh": "追踪者",
+   "loot_table": "tracker",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.tree_spirit",
+   "id": "tree_spirit",
+   "en": "Tree Spirit",
+   "zh": "树精",
+   "loot_table": "tree_spirit",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.tree_spirit_sprite",
+   "id": "tree_spirit_sprite",
+   "en": "Tree Spirit Sprite",
+   "zh": "树精精灵",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.tri_discharge_shot",
+   "id": "tri_discharge_shot",
+   "en": "Tri Discharge Shot",
+   "zh": "远古雷暴弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.troll_trader",
+   "id": "troll_trader",
+   "en": "Troll Trader",
+   "zh": "巨怪商人",
+   "loot_table": "troll_trader",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.trotter",
+   "id": "trotter",
+   "en": "Trotter",
+   "zh": "特罗特",
+   "loot_table": "trotter",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.turquoise_stripefish",
+   "id": "turquoise_stripefish",
+   "en": "Turquoise Stripefish",
+   "zh": "绿松条纹鱼",
+   "loot_table": "turquoise_stripefish",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.tyrosaur",
+   "id": "tyrosaur",
+   "en": "Tyrosaur",
+   "zh": "Tyrosaur",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.ultimatum_shot",
+   "id": "ultimatum_shot",
+   "en": "Ultimatum Shot",
+   "zh": "最后通牒魔法弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.ultra_green_ball",
+   "id": "ultra_green_ball",
+   "en": "Ultra Green Ball",
+   "zh": "极限绿色加农弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.undead_herald",
+   "id": "undead_herald",
+   "en": "Undead Herald",
+   "zh": "亡灵使者",
+   "loot_table": "undead_herald",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.undead_troll",
+   "id": "undead_troll",
+   "en": "Undead Troll",
+   "zh": "亡灵巨怪",
+   "loot_table": "undead_troll",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.urka",
+   "id": "urka",
+   "en": "Urka",
+   "zh": "乌尔卡",
+   "loot_table": "urka",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.valkyrie",
+   "id": "valkyrie",
+   "en": "Valkyrie",
+   "zh": "瓦尔基里",
+   "loot_table": "valkyrie",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.valkyrie_shot",
+   "id": "valkyrie_shot",
+   "en": "Valkyrie Shot",
+   "zh": "瓦尔基里魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.veloraptor",
+   "id": "veloraptor",
+   "en": "Veloraptor",
+   "zh": "Veloraptor",
+   "loot_table": "veloraptor",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.vine_wizard",
+   "id": "vine_wizard",
+   "en": "Vine Wizard",
+   "zh": "藤蔓巫师",
+   "loot_table": "vine_wizard",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.vine_wizard_shot",
+   "id": "vine_wizard_shot",
+   "en": "Vine Wizard Shot",
+   "zh": "藤蔓巫师魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.violet_skipper",
+   "id": "violet_skipper",
+   "en": "Violet Skipper",
+   "zh": "紫鱼",
+   "loot_table": "violet_skipper",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.visular",
+   "id": "visular",
+   "en": "Visular",
+   "zh": "观察双体",
+   "loot_table": "visular",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.visulon",
+   "id": "visulon",
+   "en": "Visulon",
+   "zh": "观察集合体",
+   "loot_table": "visulon",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.void_walker",
+   "id": "void_walker",
+   "en": "Void Walker",
+   "zh": "虚空步行者",
+   "loot_table": "void_walker",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.volatile_cannonball",
+   "id": "volatile_cannonball",
+   "en": "Volatile Cannonball",
+   "zh": "不稳定的加农弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.voliant",
+   "id": "voliant",
+   "en": "Voliant",
+   "zh": "天界轰炸者",
+   "loot_table": "voliant",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.voltron",
+   "id": "voltron",
+   "en": "Voltron",
+   "zh": "高压战士",
+   "loot_table": "voltron",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.vortex_blast",
+   "id": "vortex_blast",
+   "en": "Vortex Blast",
+   "zh": "漩涡冲击弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.vox_cannon",
+   "id": "vox_cannon",
+   "en": "Vox Cannon",
+   "zh": "未知加农弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.vulkram",
+   "id": "vulkram",
+   "en": "Vulkram",
+   "zh": "治疗环刃",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.wart_dart",
+   "id": "wart_dart",
+   "en": "Wart Dart",
+   "zh": "地狱疣弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.water_balloon_bomb",
+   "id": "water_balloon_bomb",
+   "en": "Water Balloon Bomb",
+   "zh": "水球炸弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.water_shot",
+   "id": "water_shot",
+   "en": "Water Shot",
+   "zh": "水魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.web_reaper",
+   "id": "web_reaper",
+   "en": "Web Reaper",
+   "zh": "蛛网收割者",
+   "loot_table": "web_reaper",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.weighted_shower_shot",
+   "id": "weighted_shower_shot",
+   "en": "Weighted Shower Shot",
+   "zh": "沉重涤荡弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.white_ball",
+   "id": "white_ball",
+   "en": "White Ball",
+   "zh": "白球",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.white_gemtrap",
+   "id": "white_gemtrap",
+   "en": "White Gemtrap",
+   "zh": "白宝石陷阱鱼",
+   "loot_table": "white_gemtrap",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.winder_shot",
+   "id": "winder_shot",
+   "en": "Winder Shot",
+   "zh": "络筒机能量弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.winged_creeper",
+   "id": "winged_creeper",
+   "en": "Winged Creeper",
+   "zh": "双翼苦力怕",
+   "loot_table": "winged_creeper",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.wither_ball",
+   "id": "wither_ball",
+   "en": "Wither Ball",
+   "zh": "凋灵魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.wither_shot",
+   "id": "wither_shot",
+   "en": "Wither Shot",
+   "zh": "凋灵魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.wood_giant",
+   "id": "wood_giant",
+   "en": "Wood Giant",
+   "zh": "木之巨人",
+   "loot_table": "wood_giant",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.wrath_shot",
+   "id": "wrath_shot",
+   "en": "Wrath Shot",
+   "zh": "愤怒之弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.yellow_bullet",
+   "id": "yellow_bullet",
+   "en": "Yellow Bullet",
+   "zh": "黄色子弹",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.aoa3.yellow_gemtrap",
+   "id": "yellow_gemtrap",
+   "en": "Yellow Gemtrap",
+   "zh": "黄宝石陷阱鱼",
+   "loot_table": "yellow_gemtrap",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.yellow_guardian_shot",
+   "id": "yellow_guardian_shot",
+   "en": "Yellow Guardian Shot",
+   "zh": "黄色监管者魔法",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.yeti",
+   "id": "yeti",
+   "en": "Yeti",
+   "zh": "雪人",
+   "loot_table": "yeti",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.zal_banker",
+   "id": "zal_banker",
+   "en": "Zal Banker",
+   "zh": "扎尔银行家",
+   "loot_table": "zal_banker",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.zal_child",
+   "id": "zal_child",
+   "en": "Zal Child",
+   "zh": "扎尔儿童",
+   "loot_table": "zal_child",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.zal_citizen",
+   "id": "zal_citizen",
+   "en": "Zal Citizen",
+   "zh": "扎尔市民",
+   "loot_table": "zal_citizen",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.zal_grocer",
+   "id": "zal_grocer",
+   "en": "Zal Grocer",
+   "zh": "扎尔美食家",
+   "loot_table": "zal_grocer",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.zal_herbalist",
+   "id": "zal_herbalist",
+   "en": "Zal Herbalist",
+   "zh": "扎尔农民",
+   "loot_table": "zal_herbalist",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.zal_spellbinder",
+   "id": "zal_spellbinder",
+   "en": "Zal Spellbinder",
+   "zh": "扎尔赋灵师",
+   "loot_table": "zal_spellbinder",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.zal_vendor",
+   "id": "zal_vendor",
+   "en": "Zal Vendor",
+   "zh": "扎尔爆破手",
+   "loot_table": "zal_vendor",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.zarg",
+   "id": "zarg",
+   "en": "Zarg",
+   "zh": "扎尔格",
+   "loot_table": "zarg",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.zhinx",
+   "id": "zhinx",
+   "en": "Zhinx",
+   "zh": "间线",
+   "loot_table": "zhinx",
+   "projectile": false
+  },
+  {
+   "key": "entity.aoa3.zorp",
+   "id": "zorp",
+   "en": "Zorp",
+   "zh": "卓普",
+   "loot_table": "zorp",
+   "projectile": false
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "rank": 191,
+ "mod": "Animal Garden - Bull Shark",
+ "mod_url": "https://modrinth.com/mod/animal-garden-bull-shark",
+ "mobs": [
+  {
+   "mob_id": "animalgarden_bullshark:bullshark",
+   "name_en": "Bull Shark",
+   "name_zh": "公牛鲨",
+   "description_zh": "公牛鲨生成在河流、暖海洋和温水海洋（生成权重5、每次1只），拥有隐藏的饥饿条，约5分钟从饱食变为完全饥饿，可通过手持肉类喂食、吃水中的掉落肉或鱼、或咬人恢复30秒饥饿。饥饿分三档：好奇（速度慢、偶尔咬附近目标）、饥饿（正常速度、追咬最近的最小目标）、暴躁（速度快、攻击一切），受伤会让饥饿立即归零并进入暴走；它生命值60、护甲5、攻击力10，咬中目标还会回复自身生命，并优先追逐掉落物而非生物。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/animal-garden-bull-shark",
+   "confidence": 0.9,
+   "notes": "生成权重与生物群系取自 jar 内 biome_modifier 和 biome tag；属性取自 ModMob.createAttributes；可喂食物品见 tags/items/shark_food_items.json"
+  }
+ ]
+}

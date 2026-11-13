@@ -1,0 +1,366 @@
+{
+ "rank": 59,
+ "mod": "The Graveyard (Forge)",
+ "slug": "the-graveyard-forge",
+ "project_id": "U1jdQuSf",
+ "source_url": "https://modrinth.com/mod/the-graveyard-forge",
+ "jar": "D:\\work\\MobChatter\\data\\jars\\U1jdQuSf.jar",
+ "jar_size": 10999983,
+ "modid": "graveyard",
+ "entity_count": 44,
+ "mob_count": 44,
+ "entities": [
+  {
+   "key": "entity.graveyard.horde.appeared",
+   "id": "appeared",
+   "en": "A large graveyard horde of undead has appeared near you.",
+   "zh": "一大群墓园亡灵出现在你附近。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.acolyte",
+   "id": "acolyte",
+   "en": "Acolyte",
+   "zh": "守灵人",
+   "loot_table": "acolyte",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.lich",
+   "id": "lich",
+   "en": "Corrupted Champion",
+   "zh": "腐化勇者",
+   "loot_table": "lich",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.corrupted_evoker",
+   "id": "corrupted_evoker",
+   "en": "Corrupted Evoker",
+   "zh": "腐化唤魔者",
+   "loot_table": "corrupted_evoker",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.corrupted_pillager",
+   "id": "corrupted_pillager",
+   "en": "Corrupted Pillager",
+   "zh": "腐化掠夺者",
+   "loot_table": "corrupted_pillager",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.corrupted_vindicator",
+   "id": "corrupted_vindicator",
+   "en": "Corrupted Vindicator",
+   "zh": "腐化卫道士",
+   "loot_table": "corrupted_vindicator",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.crow",
+   "id": "crow",
+   "en": "Crow",
+   "zh": "乌鸦",
+   "loot_table": "crow",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.skull",
+   "id": "skull",
+   "en": "Cursed Skull",
+   "zh": "诅咒头骨",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.respawn",
+   "id": "respawn",
+   "en": "Death... is a mere inconvenience.",
+   "zh": "死亡……不过是小小的不便。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.falling_corpse",
+   "id": "falling_corpse",
+   "en": "Falling Corpse",
+   "zh": "坠落的尸体",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghoul",
+   "id": "ghoul",
+   "en": "Ghoul",
+   "zh": "食尸鬼",
+   "loot_table": "ghoul",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling",
+   "id": "ghouling",
+   "en": "Ghouling",
+   "zh": "食尸鬼从者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.call",
+   "id": "call",
+   "en": "I am far from you... I come.",
+   "zh": "我离你很远……我来了。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.not_found",
+   "id": "not_found",
+   "en": "I am not where I can hear you. Find me and call again.",
+   "zh": "我不在能听见你的地方。请找到我，再召唤一次。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.lost",
+   "id": "lost",
+   "en": "I cannot find the way to you.",
+   "zh": "我找不到通向你的路。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.gave_up",
+   "id": "gave_up",
+   "en": "I cannot reach you. Call me with the staff.",
+   "zh": "我无法到达你身边。请用法杖召唤我。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.release_failed",
+   "id": "release_failed",
+   "en": "I cannot rise here.",
+   "zh": "我无法在这里站起来。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.forgotten",
+   "id": "forgotten",
+   "en": "I do not know this staff anymore.",
+   "zh": "我不再认得这根法杖了。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.obey",
+   "id": "obey",
+   "en": "I don't obey your orders, you are no master of mine!",
+   "zh": "我不听你的命令，你不是我的主人！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.rebound",
+   "id": "rebound",
+   "en": "I follow this staff now.",
+   "zh": "我现在追随这根法杖。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.nowait",
+   "id": "nowait",
+   "en": "I follow.",
+   "zh": "我跟着你。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.collect",
+   "id": "collect",
+   "en": "I gather it.",
+   "zh": "我来收集。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.no_coffin",
+   "id": "no_coffin",
+   "en": "I have no coffin to carry it.",
+   "zh": "我没有棺材来装它。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.spawn",
+   "id": "spawn",
+   "en": "I hear and obey...",
+   "zh": "我听见了，我服从……",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.resting",
+   "id": "resting",
+   "en": "I rest in the staff. Set me on the ground to wake me.",
+   "zh": "我在法杖中安息。把我放在地上就能唤醒我。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.stored",
+   "id": "stored",
+   "en": "I rest in the staff...",
+   "zh": "我在法杖中安息……",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.released",
+   "id": "released",
+   "en": "I rise again.",
+   "zh": "我再次站起。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.wait",
+   "id": "wait",
+   "en": "I shall stay here.",
+   "zh": "我会留在这里。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.stop_attack",
+   "id": "stop_attack",
+   "en": "I stop.",
+   "zh": "我停下了。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.magpie",
+   "id": "magpie",
+   "en": "Magpie",
+   "zh": "喜鹊",
+   "loot_table": "magpie",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.kill",
+   "id": "kill",
+   "en": "Me make it stop moving!",
+   "zh": "我，让它别动！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.coffin_full",
+   "id": "coffin_full",
+   "en": "My coffin is full.",
+   "zh": "我的棺材满了。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.too_heavy",
+   "id": "too_heavy",
+   "en": "My coffin is too heavy for the staff.",
+   "zh": "我的棺材对法杖来说太重了。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.nameless_hanged",
+   "id": "nameless_hanged",
+   "en": "Nameless Hanged",
+   "zh": "无名吊死者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.nightmare",
+   "id": "nightmare",
+   "en": "Nightmare",
+   "zh": "梦魇",
+   "loot_table": "nightmare",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.raven",
+   "id": "raven",
+   "en": "Raven",
+   "zh": "渡鸦",
+   "loot_table": "raven",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.reaper",
+   "id": "reaper",
+   "en": "Reaper",
+   "zh": "死神",
+   "loot_table": "reaper",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.revenant",
+   "id": "revenant",
+   "en": "Revenant",
+   "zh": "亡魂",
+   "loot_table": "revenant",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.skeleton_creeper",
+   "id": "skeleton_creeper",
+   "en": "Skeleton Creeper",
+   "zh": "骷髅苦力怕",
+   "loot_table": "skeleton_creeper",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.severed",
+   "id": "severed",
+   "en": "The bond is severed... raise me anew.",
+   "zh": "联系已经断绝……请重新唤醒我。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.ghouling.no_landing",
+   "id": "no_landing",
+   "en": "There is no ground near you... I cannot come.",
+   "zh": "你身边没有地面……我无法过去。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.tormented_villager",
+   "id": "tormented_villager",
+   "en": "Tormented Villager",
+   "zh": "受折磨的村民",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.wraith",
+   "id": "wraith",
+   "en": "Wraith",
+   "zh": "幽魂",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.graveyard.nameless_hanged.wait",
+   "id": "wait",
+   "en": "Yes, I see you... But let me enjoy the sun for once. Come back at night.",
+   "zh": "是的，我看见你了……但让我难得享受一次阳光吧。夜里再来。",
+   "loot_table": "",
+   "projectile": false
+  }
+ ]
+}

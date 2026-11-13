@@ -1,0 +1,187 @@
+{
+ "rank": 7,
+ "mod": "Species",
+ "mod_url": "https://modrinth.com/mod/species",
+ "mobs": [
+  {
+   "mob_id": "species:birt",
+   "name_en": "Birt",
+   "name_zh": "哔特",
+   "description_zh": "白桦林中的鸟类生物，常成群栖息在白桦巢屋，并用头顶的长触角远距离传递信号；它们白天回巢、夜间外出，每天早晨巢中每只哔特都会产下一枚可采集的哔特蛋。玩家破坏巢屋或偷取蛋会遭到攻击，但爆炸、山羊角、唱片机或钟声等巨响能让愤怒的哔特平静下来。生命值 10 点，行为中立。",
+   "source": "wiki",
+   "source_url": "https://github.com/Peculiar-Room/Species/wiki/Birt",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "species:deepfish",
+   "name_en": "Deepfish",
+   "name_zh": "深吟鱼",
+   "description_zh": "生活在地下水域的神秘鱼类，身上粉色斑纹会脉动，并以类似音乐的鸣叫交流；只在 Y=0 以下、光照为 0 的水中生成，以 4–6 只成群，单群最多 7 条。生命值仅 2 点，可用水桶收集，离水会窒息死亡，死亡时有 5% 概率掉落黏液球。",
+   "source": "wiki",
+   "source_url": "https://github.com/Peculiar-Room/Species/wiki/Deepfish",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "species:limpet",
+   "name_en": "Limpet",
+   "name_zh": "矿壳贝",
+   "description_zh": "遍布主世界的害羞软体动物，外壳会依生成环境长出绿宝石、煤炭、青金石、紫水晶或钻石等矿物；它只在光照与天空光均为 0 的石头、花岗岩、闪长岩、安山岩、凝灰岩或深板岩上生成。用对应的镐连续敲击三次可取下矿物（钻石贝需铁镐以上），之后矿物需要一段时间重新生长。生命值 10 点。",
+   "source": "wiki",
+   "source_url": "https://github.com/Peculiar-Room/Species/wiki/Limpet",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "species:stackatick",
+   "name_en": "Stackatick",
+   "name_zh": "",
+   "description_zh": "生活在恶地与热带草原的懒散节肢动物，厚壳像陶器一样能承受重压，可以驮着其他生物，也能让玩家站在上面；它需要光照 8 以上的草方块才能生成。用蜜脾每次有 1/3 概率逐步驯服，驯服后可用蜂蜜瓶治疗，受惊时会短暂逃跑。生命值 15 点，属于节肢生物，会受到节肢杀手额外伤害。",
+   "source": "wiki",
+   "source_url": "https://github.com/Peculiar-Room/Species/wiki/Stackatick",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "species:wraptor",
+   "name_en": "Wraptor",
+   "name_zh": "诡恐鸟",
+   "description_zh": "诡异森林中的大型鸟类，常以 4–6 只成群出现，也会出现在诡恐鸟巢结构里；羽毛可用剪刀反复剪取（每次 1–4 根），死亡掉落 1–2 根羽毛。生命值 18 点，行为中立，会攻击凋灵骷髅且免疫凋灵效果；离开下界后它会不断颤抖并逐级脱羽，只有回到下界才能恢复。",
+   "source": "wiki",
+   "source_url": "https://github.com/Peculiar-Room/Species/wiki/Wraptor",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "species:cruncher",
+   "name_en": "Cruncher",
+   "name_zh": "贪咀兽",
+   "description_zh": "上古霸主级 Boss，出场时显示「贪咀兽的食欲」Boss 条，会咆哮施加虚弱与缓慢，并用践踏造成范围伤害；每损失 125 点生命（最大生命的 25%）就会眩晕 15 秒，此时投喂 cruncher_eats 标签中的食物可削减食欲条。食欲条清空后它会被驯服，成为可指定猎物的移动刷怪场，每天早晨最多吐出 10 个含猎物掉落物的食团。生命值 500 点。",
+   "source": "wiki",
+   "source_url": "https://github.com/Peculiar-Room/Species/wiki/Cruncher",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "species:goober",
+   "name_en": "Goober",
+   "name_zh": "黏涕兽",
+   "description_zh": "温和的远古生物，生命值 40 点；打喷嚏时会喷出黏涕兽黏液，把周围地形转化为远古（Alphacene）苔藓、草与蘑菇等方块。",
+   "source": "wiki",
+   "source_url": "https://github.com/Peculiar-Room/Species/wiki/Goober",
+   "confidence": 0.75,
+   "notes": "官方 wiki 条目较简略，只提供生命值、被动行为与喷嚏转化机制。"
+  },
+  {
+   "mob_id": "species:treeper",
+   "name_en": "Treeper",
+   "name_zh": "树立怕",
+   "description_zh": "古老云杉与松树林中的巨型树人，白天扎根入土、夜晚拔根缓慢游走，只对火焰、闪电等特定伤害类型有反应；用斧头敲击（冷却 2–7 分钟）会让树冠掉落 1–4 个远古松果。用打火石等点燃后可把它永久固定在原地，用水桶可以解除。生命值 60 点。",
+   "source": "wiki",
+   "source_url": "https://github.com/Peculiar-Room/Species/wiki/Treeper",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "species:trooper",
+   "name_en": "Trooper",
+   "name_zh": "果立怕",
+   "description_zh": "由种下的远古松果生长而成的树人，可被玩家驯服；生命值 10 点，行为中立。",
+   "source": "wiki",
+   "source_url": "https://github.com/Peculiar-Room/Species/wiki/Trooper",
+   "confidence": 0.65,
+   "notes": "官方 wiki 该页的驯服、战斗与点燃章节尚未补全，仅有生命值、中立行为与远古松果驯服说明。"
+  },
+  {
+   "mob_id": "species:bewereager",
+   "name_en": "Bewereager",
+   "name_zh": "",
+   "description_zh": "在主世界以 1–2 只少量生成；其 AI 包含满月变身，并会主动攻击袭击者、羊与羊驼等目标。拥有独立战利品表，死亡时还会掉落 Bewereager 头颅方块。资料有限，未找到官方文字介绍。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/species",
+   "confidence": 0.45,
+   "notes": "中文名在模组语言文件中缺失；描述依据 jar 内的生成配置、AI 目标类、实体标签与语言文件。"
+  },
+  {
+   "mob_id": "species:cliff_hanger",
+   "name_en": "Cliff Hanger",
+   "name_zh": "",
+   "description_zh": "在主世界以单只、权重 20 生成，只能站在主世界基础石头、石头与矿石类方块上；会把僵尸、尸壳、溺尸、村民、流浪商人、掠夺者与卫道士等列为猎物。拥有独立刷怪蛋。资料有限，未找到官方文字介绍。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/species",
+   "confidence": 0.4,
+   "notes": "中文名缺失；描述依据 jar 内的生物群系生成配置、可生成方块标签与猎物实体标签。"
+  },
+  {
+   "mob_id": "species:leaf_hanger",
+   "name_en": "Leaf Hanger",
+   "name_zh": "",
+   "description_zh": "只在 species:leaf_hanger_spawns 标签指定的群系中生成（与垂滴叶相关），以单只、权重 20 出现；会把青蛙、美西螈、溺尸、鱿鱼与女巫列为猎物。拥有独立刷怪蛋。资料有限，未找到官方文字介绍。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/species",
+   "confidence": 0.4,
+   "notes": "中文名缺失；描述依据 jar 内的生成配置与猎物实体标签。"
+  },
+  {
+   "mob_id": "species:ghoul",
+   "name_en": "Ghoul",
+   "name_zh": "",
+   "description_zh": "在主世界以单只、权重 15 生成；会攻击村民、流浪商人、掠夺者、卫道士、幻术师与女巫，但不会以同类、鱼类、海豚、幻翼或苦力怕为目标。拥有独立战利品表，掉落 Ghoul Tongue，并有专属头颅方块与感染类音效。资料有限，未找到官方文字介绍。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/species",
+   "confidence": 0.45,
+   "notes": "中文名缺失；描述依据 jar 内的生成配置、实体目标标签、语言文件与音效表。"
+  },
+  {
+   "mob_id": "species:quake",
+   "name_en": "Quake",
+   "name_zh": "",
+   "description_zh": "在主世界以单只、权重 20 生成；战斗时会吸收伤害、蓄力后释放，并能举起护盾。拥有独立战利品表与 Quake Head 物品。资料有限，未找到官方文字介绍。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/species",
+   "confidence": 0.45,
+   "notes": "中文名缺失；描述依据 jar 内的生成配置、音效表与语言文件。"
+  },
+  {
+   "mob_id": "species:spectre",
+   "name_en": "Spectre",
+   "name_zh": "",
+   "description_zh": "与幽光剑（Spectralibur）及幽光密室结构绑定，可由剑中释放；存在普通、骑枪（Jousting）与巨型（Hulking）等形态。拥有独立战利品表与刷怪蛋。资料有限，未找到官方文字介绍。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/species",
+   "confidence": 0.45,
+   "notes": "中文名缺失；描述依据 jar 内的 Spectralibur 物品/结构注册、语言文件与战利品表。"
+  },
+  {
+   "mob_id": "species:wicked",
+   "name_en": "Wicked",
+   "name_zh": "",
+   "description_zh": "在主世界以 1–3 只、权重 40 生成；拥有独立战利品表，并掉落 Wicked 面具（可伪装成其他生物）、Wicked Wax、Wicked Dope（使所有生效中的效果等级 +1）与 Wicked Swapper 等物品。资料有限，未找到官方文字介绍。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/species",
+   "confidence": 0.45,
+   "notes": "中文名缺失；描述依据 jar 内的生成配置、语言文件与战利品表。"
+  },
+  {
+   "mob_id": "species:mammutilation",
+   "name_en": "Mammutilation",
+   "name_zh": "残缺猛犸",
+   "description_zh": "在冰封山峰、冰刺之地、冻河与冻洋等冰冻群系的 Y=20 至 200 之间，会罕见地生成由冻肉与冻毛构成的「残缺猛犸残骸」地物；实体注册名为 species:mammutilation，拥有刷怪蛋，但没有独立战利品表。资料有限，未找到官方文字介绍。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/species",
+   "confidence": 0.4,
+   "notes": "描述依据 jar 内的地物配置、群系标签与实体注册；官方 wiki 页面仍为 WIP。"
+  },
+  {
+   "mob_id": "species:springling",
+   "name_en": "Springling",
+   "name_zh": "簧颈兽",
+   "description_zh": "可用树苗驯服、用树苗或竹子繁殖，颈部能像活塞一样伸长；拥有专属蛋方块与刷怪蛋，jar 内没有为其配置自然生成。资料有限，未找到官方文字介绍。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/species",
+   "confidence": 0.4,
+   "notes": "描述依据 jar 内的驯服/繁殖物品标签、伸长音效、蛋方块与实体注册；官方 wiki 页面仍为 WIP。"
+  }
+ ]
+}

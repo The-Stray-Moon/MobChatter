@@ -1,0 +1,137 @@
+{
+ "rank": 249,
+ "mod": "Shut Your Eyes",
+ "mod_url": "https://modrinth.com/mod/shut-your-eyes",
+ "mobs": [
+  {
+   "mob_id": "shut_your_eyes:agony",
+   "name_en": "Agony",
+   "name_zh": "",
+   "description_zh": "模组的主生物 Agony，会在世界中一路跟踪玩家，并在玩家最脆弱时发起袭击；玩家需按 G 闭眼、按 Enter 屏息，直到音效提示它已经离开，否则会被它杀死。遭遇频率与事件计时可在存档的 serverconfig 中调整。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/shut-your-eyes",
+   "confidence": 0.85,
+   "notes": "模组正文描述的是该模组的核心实体，实体名与 agony 对应"
+  },
+  {
+   "mob_id": "shut_your_eyes:game_over",
+   "name_en": "Agony",
+   "name_zh": "",
+   "description_zh": "注册名 game_over、游戏内同样显示为 Agony 的敌对实体，属于模组遭遇演出用的 Agony 变体；它继承 Monster，带有追击玩家的近战目标 AI，并有对应刷怪蛋。具体触发条件资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/shut-your-eyes",
+   "confidence": 0.45,
+   "notes": "仅能核实注册名、Monster 类型、近战 AI 与刷怪蛋；资料有限"
+  },
+  {
+   "mob_id": "shut_your_eyes:agony_sleep_watcher",
+   "name_en": "Agony",
+   "name_zh": "",
+   "description_zh": "Agony 的睡眠相关变体（注册名 agony_sleep_watcher），从命名看用于玩家睡觉时的观察遭遇；同样是带近战追击 AI 的敌对实体，并有刷怪蛋。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/shut-your-eyes",
+   "confidence": 0.45,
+   "notes": "仅能核实注册名、Monster 类型、近战 AI 与刷怪蛋；资料有限"
+  },
+  {
+   "mob_id": "shut_your_eyes:agony_found_you",
+   "name_en": "Agony...Found You",
+   "name_zh": "",
+   "description_zh": "名为 “Agony...Found You” 的 Agony 遭遇变体，游戏中作为敌对生物存在，会锁定并追击玩家，配有自己的刷怪蛋。模组正文与现有资料未说明其确切触发条件，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/shut-your-eyes",
+   "confidence": 0.45,
+   "notes": "仅能核实实体名、Monster 类型、近战 AI 与刷怪蛋；资料有限"
+  },
+  {
+   "mob_id": "shut_your_eyes:agony_crying",
+   "name_en": "Agony...Pain...Please Help",
+   "name_zh": "",
+   "description_zh": "以哭泣/求助台词命名的 Agony 变体，游戏中为敌对生物并会攻击玩家；模组自带 cry、pain 等音效，对应这类遭遇演出。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/shut-your-eyes",
+   "confidence": 0.45,
+   "notes": "仅能核实实体名、Monster 类型、近战 AI 与刷怪蛋；资料有限"
+  },
+  {
+   "mob_id": "shut_your_eyes:agony_stalking",
+   "name_en": "I'm Watching You...",
+   "name_zh": "",
+   "description_zh": "名为 “I'm Watching You...” 的 Agony 跟踪形态，除常规敌对追击 AI 外还带有 AvoidEntityGoal，靠近玩家时会主动保持距离，形成“被注视”的遭遇感。有独立刷怪蛋。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/shut-your-eyes",
+   "confidence": 0.45,
+   "notes": "仅能核实实体名、Monster 类型、AI 目标与刷怪蛋；资料有限"
+  },
+  {
+   "mob_id": "shut_your_eyes:agony_curious_stalking",
+   "name_en": "I'm Watching You...",
+   "name_zh": "",
+   "description_zh": "另一个 “I'm Watching You...” 跟踪形态（注册名 agony_curious_stalking），同样带有保持距离的 AvoidEntityGoal，并会追击靠近的玩家，配独立刷怪蛋。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/shut-your-eyes",
+   "confidence": 0.45,
+   "notes": "仅能核实实体名、Monster 类型、AI 目标与刷怪蛋；资料有限"
+  },
+  {
+   "mob_id": "shut_your_eyes:paranoid",
+   "name_en": "Paranoid",
+   "name_zh": "",
+   "description_zh": "名为 Paranoid 的敌对生物，属于 Monster，会主动锁定并近战攻击玩家，平时随机游荡、四处张望；该实体没有刷怪蛋。模组中的“Paranoid”进度与遭遇事件同名。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/shut-your-eyes",
+   "confidence": 0.45,
+   "notes": "仅能核实实体名、Monster 类型与 AI 目标；该实体无刷怪蛋；资料有限"
+  },
+  {
+   "mob_id": "shut_your_eyes:thumbnail_agony",
+   "name_en": "Thumbnail Agony",
+   "name_zh": "",
+   "description_zh": "注册名 thumbnail_agony 的展示用 Agony 实体，游戏内名为 “Thumbnail Agony”，带独立刷怪蛋。从命名看用于模组页面/缩略图展示，并非正常遭遇流程中的生物，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/shut-your-eyes",
+   "confidence": 0.4,
+   "notes": "展示用实体，具体用途未在可核实资料中说明；资料有限"
+  },
+  {
+   "mob_id": "shut_your_eyes:crying_thumbnail",
+   "name_en": "Thumbnail Agony -Crying-",
+   "name_zh": "",
+   "description_zh": "名为 “Thumbnail Agony -Crying-” 的展示用 Agony 实体，对应哭泣形态的缩略图模型，带独立刷怪蛋。同为 Monster 类型，但并非正常遭遇流程中的生物，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/shut-your-eyes",
+   "confidence": 0.4,
+   "notes": "展示用实体，具体用途未在可核实资料中说明；资料有限"
+  },
+  {
+   "mob_id": "shut_your_eyes:sleepwatcher_thumbnail",
+   "name_en": "Thumbnail Agony -Sleepwatcher-",
+   "name_zh": "",
+   "description_zh": "名为 “Thumbnail Agony -Sleepwatcher-” 的展示用 Agony 实体，对应睡眠观察形态的缩略图模型，带独立刷怪蛋。属于展示用实体，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/shut-your-eyes",
+   "confidence": 0.4,
+   "notes": "展示用实体，具体用途未在可核实资料中说明；资料有限"
+  },
+  {
+   "mob_id": "shut_your_eyes:thumbnail_stalk_agony_1",
+   "name_en": "Thumbnail Agony -Stalking (Phase 1)-",
+   "name_zh": "",
+   "description_zh": "名为 “Thumbnail Agony -Stalking (Phase 1)-” 的展示用 Agony 实体，对应跟踪第一阶段形态的缩略图模型，带独立刷怪蛋。属于展示用实体，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/shut-your-eyes",
+   "confidence": 0.4,
+   "notes": "展示用实体，具体用途未在可核实资料中说明；资料有限"
+  },
+  {
+   "mob_id": "shut_your_eyes:stare_thumbnail",
+   "name_en": "Thumbnail Agony -Stalking (Phase 2)-",
+   "name_zh": "",
+   "description_zh": "名为 “Thumbnail Agony -Stalking (Phase 2)-” 的展示用 Agony 实体，对应跟踪第二阶段形态的缩略图模型，带独立刷怪蛋。属于展示用实体，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/shut-your-eyes",
+   "confidence": 0.4,
+   "notes": "展示用实体，具体用途未在可核实资料中说明；资料有限"
+  }
+ ]
+}

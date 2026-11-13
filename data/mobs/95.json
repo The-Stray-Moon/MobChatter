@@ -1,0 +1,907 @@
+{
+ "rank": 95,
+ "mod": "Apocalypse Now",
+ "mod_url": "https://modrinth.com/mod/apocalypse-now",
+ "mobs": [
+  {
+   "mob_id": "apocalypsenow:cannibal",
+   "name_en": "Cannibal",
+   "name_zh": "食人族",
+   "description_zh": "食人族，全生物群系生成（权重 1、每组 1–2 只），是模组的人类敌人之一。模组加入咬伤、流血、疼痛与尸变等机制，均可在配置中关闭。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.5,
+   "notes": "模组正文只笼统提到“可定制的丧尸与人类敌人”，未单独介绍该实体。"
+  },
+  {
+   "mob_id": "apocalypsenow:cockroach",
+   "name_en": "Cockroach",
+   "name_zh": "蟑螂",
+   "description_zh": "蟑螂，全生物群系生成（权重 5、每组 3–5 只），是模组为末世环境加入的小型生物。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.5,
+   "notes": "模组正文只笼统提到“可定制的丧尸与人类敌人”，未单独介绍该实体。"
+  },
+  {
+   "mob_id": "apocalypsenow:crawler_2",
+   "name_en": "Crawler",
+   "name_zh": "爬尸",
+   "description_zh": "爬尸（Crawler）的第 2 号外观变体，全生物群系生成（权重 9，每次 1 只）。模组正文未单独介绍爬尸，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.45,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:crawler_1",
+   "name_en": "Crawler",
+   "name_zh": "爬尸",
+   "description_zh": "爬尸（Crawler）的第 1 号外观变体，全生物群系生成（权重 9，每次 1 只）。模组正文未单独介绍爬尸，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.45,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:crawler_4",
+   "name_en": "Crawler",
+   "name_zh": "爬尸",
+   "description_zh": "爬尸（Crawler）的第 4 号外观变体，全生物群系生成（权重 9，每次 1 只）。模组正文未单独介绍爬尸，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.45,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:crawler_3",
+   "name_en": "Crawler",
+   "name_zh": "爬尸",
+   "description_zh": "爬尸（Crawler）的第 3 号外观变体，全生物群系生成（权重 9，每次 1 只）。模组正文未单独介绍爬尸，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.45,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:horde_2",
+   "name_en": "Horde (2)",
+   "name_zh": "尸群(2)",
+   "description_zh": "尸群（Horde 第 2 级）相关实体，全生物群系生成（权重 4，每次 1 只），用于在玩家周围生成一群丧尸；模组正文未单独说明其触发方式，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.4,
+   "notes": "依据实体注册名与 jar 内生成配置。"
+  },
+  {
+   "mob_id": "apocalypsenow:horde_1",
+   "name_en": "Horde (2)",
+   "name_zh": "尸群(2)",
+   "description_zh": "尸群（Horde 第 1 级）相关实体，全生物群系生成（权重 5，每次 1 只），用于在玩家周围生成一群丧尸；模组正文未单独说明其触发方式，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.4,
+   "notes": "依据实体注册名与 jar 内生成配置。"
+  },
+  {
+   "mob_id": "apocalypsenow:horde_3",
+   "name_en": "Horde (3)",
+   "name_zh": "尸群(3)",
+   "description_zh": "尸群（Horde 第 3 级）相关实体，全生物群系生成（权重 3，每次 1 只），用于在玩家周围生成一群丧尸；模组正文未单独说明其触发方式，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.4,
+   "notes": "依据实体注册名与 jar 内生成配置。"
+  },
+  {
+   "mob_id": "apocalypsenow:horde_4",
+   "name_en": "Horde (4)",
+   "name_zh": "尸群(4)",
+   "description_zh": "尸群（Horde 第 4 级）相关实体，全生物群系生成（权重 2，每次 1 只），用于在玩家周围生成一群丧尸；模组正文未单独说明其触发方式，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.4,
+   "notes": "依据实体注册名与 jar 内生成配置。"
+  },
+  {
+   "mob_id": "apocalypsenow:horde_5",
+   "name_en": "Horde (5)",
+   "name_zh": "尸群(5)",
+   "description_zh": "尸群（Horde 第 5 级）相关实体，全生物群系生成（权重 1，每次 1 只），用于在玩家周围生成一群丧尸；模组正文未单独说明其触发方式，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.4,
+   "notes": "依据实体注册名与 jar 内生成配置。"
+  },
+  {
+   "mob_id": "apocalypsenow:hunter",
+   "name_en": "Hunter",
+   "name_zh": "猎手",
+   "description_zh": "猎手，全生物群系生成（权重 1、每组 1–2 只），属于模组的人类敌人。模组加入咬伤、流血、疼痛与尸变等机制，均可在配置中关闭。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.5,
+   "notes": "模组正文只笼统提到“可定制的丧尸与人类敌人”，未单独介绍该实体。"
+  },
+  {
+   "mob_id": "apocalypsenow:looter_5",
+   "name_en": "Looter",
+   "name_zh": "掠夺者",
+   "description_zh": "掠夺者 NPC 的第 5 号外观变体，全生物群系生成（权重 3，每次 1 只），属于模组的人类敌人之一。模组加入咬伤、流血、断腿与尸变等机制，均可在配置中关闭。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.45,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:looter_4",
+   "name_en": "Looter",
+   "name_zh": "掠夺者",
+   "description_zh": "掠夺者 NPC 的第 4 号外观变体，全生物群系生成（权重 3，每次 1 只），属于模组的人类敌人之一。模组加入咬伤、流血、断腿与尸变等机制，均可在配置中关闭。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.45,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:looter_1",
+   "name_en": "Looter",
+   "name_zh": "掠夺者",
+   "description_zh": "掠夺者 NPC 的第 1 号外观变体，全生物群系生成（权重 3，每次 1 只），属于模组的人类敌人之一。模组加入咬伤、流血、断腿与尸变等机制，均可在配置中关闭。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.45,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:looter_3",
+   "name_en": "Looter",
+   "name_zh": "掠夺者",
+   "description_zh": "掠夺者 NPC 的第 3 号外观变体，全生物群系生成（权重 3，每次 1 只），属于模组的人类敌人之一。模组加入咬伤、流血、断腿与尸变等机制，均可在配置中关闭。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.45,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:looter_2",
+   "name_en": "Looter",
+   "name_zh": "掠夺者",
+   "description_zh": "掠夺者 NPC 的第 2 号外观变体，全生物群系生成（权重 3，每次 1 只），属于模组的人类敌人之一。模组加入咬伤、流血、断腿与尸变等机制，均可在配置中关闭。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.45,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:military_medic",
+   "name_en": "Military",
+   "name_zh": "军队",
+   "description_zh": "军队医疗兵，全生物群系生成（权重 3、每次 1 只），属于模组的武装人类 NPC。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.5,
+   "notes": "模组正文只笼统提到“可定制的丧尸与人类敌人”，未单独介绍该实体。"
+  },
+  {
+   "mob_id": "apocalypsenow:military_01",
+   "name_en": "Military",
+   "name_zh": "军队",
+   "description_zh": "军队士兵（外观 1），全生物群系生成（权重 3、每组 1–3 只），属于模组的武装人类 NPC。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.5,
+   "notes": "模组正文只笼统提到“可定制的丧尸与人类敌人”，未单独介绍该实体。"
+  },
+  {
+   "mob_id": "apocalypsenow:military_02",
+   "name_en": "Military",
+   "name_zh": "军队",
+   "description_zh": "军队士兵（外观 2），全生物群系生成（权重 3、每组 2–3 只），属于模组的武装人类 NPC。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.5,
+   "notes": "模组正文只笼统提到“可定制的丧尸与人类敌人”，未单独介绍该实体。"
+  },
+  {
+   "mob_id": "apocalypsenow:rat",
+   "name_en": "Rat",
+   "name_zh": "老鼠",
+   "description_zh": "老鼠，全生物群系生成（权重 5、每组 4 只），是模组为末世环境加入的小型生物。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.5,
+   "notes": "模组正文只笼统提到“可定制的丧尸与人类敌人”，未单独介绍该实体。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_39",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 39 号外观变体，全生物群系生成（权重 10，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_38",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 38 号外观变体，全生物群系生成（权重 10，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_37",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 37 号外观变体，全生物群系生成（权重 10，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_36",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 36 号外观变体，全生物群系生成（权重 10，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_35",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 35 号外观变体，全生物群系生成（权重 10，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_34",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 34 号外观变体，全生物群系生成（权重 10，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_49",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 49 号外观变体，全生物群系生成（权重 9，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_48",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 48 号外观变体，全生物群系生成（权重 9，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_47",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 47 号外观变体，全生物群系生成（权重 9，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_42",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 42 号外观变体，全生物群系生成（权重 10，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_41",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 41 号外观变体，全生物群系生成（权重 10，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_40",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 40 号外观变体，全生物群系生成（权重 10，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_46",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 46 号外观变体，全生物群系生成（权重 9，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_45",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 45 号外观变体，全生物群系生成（权重 10，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_44",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 44 号外观变体，全生物群系生成（权重 9，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_43",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 43 号外观变体，全生物群系生成（权重 9，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_53",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 53 号外观变体，全生物群系生成（权重 9，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_52",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 52 号外观变体，全生物群系生成（权重 9，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_51",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 51 号外观变体，全生物群系生成（权重 9，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_50",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 50 号外观变体，全生物群系生成（权重 9，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_57",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 57 号外观变体，全生物群系生成（权重 10，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_56",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 56 号外观变体，全生物群系生成（权重 9，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_55",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 55 号外观变体，全生物群系生成（权重 9，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:runner_54",
+   "name_en": "Runner",
+   "name_zh": "奔尸",
+   "description_zh": "奔尸（Runner）的第 54 号外观变体，全生物群系生成（权重 9，每次 1 只），属于模组可配置开关的丧尸类型。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:soldiers_02",
+   "name_en": "Soldier",
+   "name_zh": "士兵",
+   "description_zh": "士兵（第二外观），全生物群系生成（权重 2、每组 1–2 只），属于模组的武装人类 NPC。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.5,
+   "notes": "模组正文只笼统提到“可定制的丧尸与人类敌人”，未单独介绍该实体。"
+  },
+  {
+   "mob_id": "apocalypsenow:soldiers",
+   "name_en": "Soldier",
+   "name_zh": "士兵",
+   "description_zh": "士兵，全生物群系生成（权重 2、每组 1–2 只），属于模组的武装人类 NPC。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.5,
+   "notes": "模组正文只笼统提到“可定制的丧尸与人类敌人”，未单独介绍该实体。"
+  },
+  {
+   "mob_id": "apocalypsenow:survivor_8",
+   "name_en": "Survivor",
+   "name_zh": "幸存者",
+   "description_zh": "幸存者 NPC 的第 8 号外观变体，全生物群系生成（权重 2，每次 1 只）；模组把散落的人类幸存者与敌对丧尸一同放进末世世界，具体对话与交易行为正文未介绍，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.45,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:survivor_7",
+   "name_en": "Survivor",
+   "name_zh": "幸存者",
+   "description_zh": "幸存者 NPC 的第 7 号外观变体，全生物群系生成（权重 2，每次 1 只）；模组把散落的人类幸存者与敌对丧尸一同放进末世世界，具体对话与交易行为正文未介绍，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.45,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:survivor_9",
+   "name_en": "Survivor",
+   "name_zh": "幸存者",
+   "description_zh": "幸存者 NPC 的第 9 号外观变体，全生物群系生成（权重 2，每次 1 只）；模组把散落的人类幸存者与敌对丧尸一同放进末世世界，具体对话与交易行为正文未介绍，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.45,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:survivor_2",
+   "name_en": "Survivor",
+   "name_zh": "幸存者",
+   "description_zh": "幸存者 NPC 的第 2 号外观变体，全生物群系生成（权重 2，每次 1 只）；模组把散落的人类幸存者与敌对丧尸一同放进末世世界，具体对话与交易行为正文未介绍，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.45,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:survivor_1",
+   "name_en": "Survivor",
+   "name_zh": "幸存者",
+   "description_zh": "幸存者 NPC 的第 1 号外观变体，全生物群系生成（权重 2，每次 1 只）；模组把散落的人类幸存者与敌对丧尸一同放进末世世界，具体对话与交易行为正文未介绍，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.45,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:survivor_4",
+   "name_en": "Survivor",
+   "name_zh": "幸存者",
+   "description_zh": "幸存者 NPC 的第 4 号外观变体，全生物群系生成（权重 2，每次 1 只）；模组把散落的人类幸存者与敌对丧尸一同放进末世世界，具体对话与交易行为正文未介绍，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.45,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:survivor_3",
+   "name_en": "Survivor",
+   "name_zh": "幸存者",
+   "description_zh": "幸存者 NPC 的第 3 号外观变体，全生物群系生成（权重 2，每次 1 只）；模组把散落的人类幸存者与敌对丧尸一同放进末世世界，具体对话与交易行为正文未介绍，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.45,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:survivor_6",
+   "name_en": "Survivor",
+   "name_zh": "幸存者",
+   "description_zh": "幸存者 NPC 的第 6 号外观变体，全生物群系生成（权重 2，每次 1 只）；模组把散落的人类幸存者与敌对丧尸一同放进末世世界，具体对话与交易行为正文未介绍，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.45,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:survivor_5",
+   "name_en": "Survivor",
+   "name_zh": "幸存者",
+   "description_zh": "幸存者 NPC 的第 5 号外观变体，全生物群系生成（权重 2，每次 1 只）；模组把散落的人类幸存者与敌对丧尸一同放进末世世界，具体对话与交易行为正文未介绍，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.45,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:survivor_10",
+   "name_en": "Survivor",
+   "name_zh": "幸存者",
+   "description_zh": "幸存者 NPC 的第 10 号外观变体，全生物群系生成（权重 2，每次 1 只）；模组把散落的人类幸存者与敌对丧尸一同放进末世世界，具体对话与交易行为正文未介绍，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.45,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_8",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 8 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_7",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 7 号外观变体，全生物群系生成（权重 10，每组 1–2 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_9",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 9 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_4",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 4 号外观变体，全生物群系生成（权重 10，每组 1–2 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_3",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 3 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_6",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 6 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_5",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 5 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_2",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 2 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_1",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 1 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_33",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 33 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_32",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 32 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_31",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 31 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_30",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 30 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_22",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 22 号外观变体，全生物群系生成（权重 10，每组 1–2 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_21",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 21 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_20",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 20 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_29",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 29 号外观变体，全生物群系生成（权重 10，每组 1–2 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_28",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 28 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_27",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 27 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_26",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 26 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_25",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 25 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_24",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 24 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_23",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 23 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_10",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 10 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_19",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 19 号外观变体，全生物群系生成（权重 10，每组 1–2 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_18",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 18 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_17",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 17 号外观变体，全生物群系生成（权重 10，每组 1–2 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_16",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 16 号外观变体，全生物群系生成（权重 10，每组 1–2 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_15",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 15 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_14",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 14 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_11",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 11 号外观变体，全生物群系生成（权重 10，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_13",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 13 号外观变体，全生物群系生成（权重 9，每次 1 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  },
+  {
+   "mob_id": "apocalypsenow:walker_12",
+   "name_en": "Walker",
+   "name_zh": "行尸",
+   "description_zh": "末世行尸（Walker）的第 12 号外观变体，全生物群系生成（权重 10，每组 1–2 只）；模组可按配置整体关闭行尸与奔尸。模组加入咬伤、流血、疼痛、断腿与尸变等机制，被咬后无法治愈（均可在配置中关闭）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/apocalypse-now",
+   "confidence": 0.6,
+   "notes": "同一生物的多个外观变体之一，行为与生成参数相同。"
+  }
+ ]
+}

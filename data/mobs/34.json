@@ -1,0 +1,47 @@
+{
+ "rank": 34,
+ "mod": "It Takes a Pillage",
+ "mod_url": "https://modrinth.com/mod/it-takes-a-pillage",
+ "mobs": [
+  {
+   "mob_id": "takesapillage:archer",
+   "name_en": "Archer",
+   "name_zh": "远弓手",
+   "description_zh": "掠夺者阵营的远弓手，以弓箭远程狙击目标（死亡讯息为「被狙击」）。被击杀后掉落箭与绿宝石。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/it-takes-a-pillage",
+   "confidence": 0.5,
+   "notes": "战利品表 entities/archer.json 与 death.attack.archer 文案；外部资料有限"
+  },
+  {
+   "mob_id": "takesapillage:clay_golem",
+   "name_en": "Clay Golem",
+   "name_zh": "黏土傀儡",
+   "description_zh": "模组加入的黏土傀儡，配置项可按游戏难度以不同概率把村庄里的铁傀儡替换成它；会主动攻击敌人，死亡掉落黏土球与绒球葱。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/it-takes-a-pillage",
+   "confidence": 0.5,
+   "notes": "配置项 replaceIronGolems 与各难度替换率；战利品表 clay_golem.json；外部资料有限"
+  },
+  {
+   "mob_id": "takesapillage:legioner",
+   "name_en": "Legioner",
+   "name_zh": "重装军",
+   "description_zh": "掠夺者文明的重装近战单位，手持武器贴身作战（死亡讯息为「被击倒」），被击杀后掉落绿宝石。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/it-takes-a-pillage",
+   "confidence": 0.5,
+   "notes": "战利品表 legioner.json、death.attack.legioner 与音效字幕；外部资料有限"
+  },
+  {
+   "mob_id": "takesapillage:skirmisher",
+   "name_en": "Skirmisher",
+   "name_zh": "突袭者",
+   "description_zh": "掠夺者文明的突袭兵，持斧近身劈砍（死亡讯息为「被砍成碎片」），被击杀后掉落绿宝石。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/it-takes-a-pillage",
+   "confidence": 0.5,
+   "notes": "战利品表 skirmisher.json 与 death.attack.skirmisher 文案；外部资料有限"
+  }
+ ]
+}

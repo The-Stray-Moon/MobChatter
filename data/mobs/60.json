@@ -1,0 +1,767 @@
+{
+ "rank": 60,
+ "mod": "Fungal Infection:Spore",
+ "mod_url": "https://modrinth.com/mod/fungal-infectionspore",
+ "mobs": [
+  {
+   "mob_id": "spore:inf_human",
+   "name_en": "Infected Human",
+   "name_zh": "菌染人类",
+   "description_zh": "模组里的基础感染体：它们会在黑暗中现身并主动传播感染，撕咬会使目标染上菌丝感染；被感染而死的合适宿主会重新站起，成为感染的一方。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/fungal-infectionspore",
+   "confidence": 0.9,
+   "notes": "模组正文仅概括描述，血量/伤害等细节见模组 wiki。"
+  },
+  {
+   "mob_id": "spore:inf_husk",
+   "name_en": "Infected Husk",
+   "name_zh": "菌染尸壳",
+   "description_zh": "尸壳死于菌丝感染后转化而来，也会在黑暗的洞穴或夜晚自然生成，并可被袭击波次召唤。生命 21、护甲 3，近战 6 点伤害并附加 30 秒菌丝感染。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/infected/infected-husk",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:inf_drowned",
+   "name_en": "Infected Drowned",
+   "name_zh": "菌染溺尸",
+   "description_zh": "溺尸死于菌丝感染后转化，也会在黑暗处自然生成，是能在水下呼吸、快速游动的感染体。生命 16、护甲 1，近战 5 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/infected/infected-drowned",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:inf_villager",
+   "name_en": "Infected Villager",
+   "name_zh": "菌染村民",
+   "description_zh": "村民（以及守卫、征募兵、弓手等村民类生物）死于菌丝感染后转化，并在黑暗的洞穴或夜晚以 1–3 只成群生成。生命 20、护甲 1，近战 6 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/infected/infected-villager",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:inf_diseased_villager",
+   "name_en": "Infected Diseased Villager",
+   "name_zh": "菌染僵尸村民",
+   "description_zh": "僵尸村民死于菌丝感染后转化，自然生成时成 1–2 只小队出现。生命 20、护甲 1，近战 6 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/infected/infected-diseased-villager",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:inf_wanderer",
+   "name_en": "Infected Wandering Trader",
+   "name_zh": "菌染流浪商人",
+   "description_zh": "流浪商人死于菌丝感染后转化，被配置定义为可消耗单位，主要在黑暗处自然生成。生命 20、护甲 1，近战 6 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/infected/infected-wandering-trader",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:inf_witch",
+   "name_en": "Infected Witch",
+   "name_zh": "菌染女巫",
+   "description_zh": "女巫死于菌丝感染后转化，被配置定位为辅助型感染体，会被先兆者与竞技之须召唤参战。生命 25、护甲 1，近战 4 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/infected/infected-witch",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:inf_pillager",
+   "name_en": "Infected Pillager",
+   "name_zh": "菌染掠夺者",
+   "description_zh": "掠夺者死于菌丝感染后转化，是远程型感染体，会成 1–3 只小队自然生成，也能被咆哮者、先兆者召唤。生命 20、护甲 2，近战 6 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/infected/infected-pillager",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:inf_player",
+   "name_en": "Infected Adventurer",
+   "name_zh": "菌染冒险家",
+   "description_zh": "玩家（以及 Roamer、Bandit）死于菌丝感染后转化，也会自然生成在实验室结构中，成 1–2 只出现。生命 21、护甲 2，近战 4 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/infected/infected-adventurer",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:inf_hazmat",
+   "name_en": "Infected Scientist",
+   "name_zh": "菌染研究员",
+   "description_zh": "只自然生成于医院、永冻采矿前哨、Groundzero 等实验室结构，也会从结构内的刷怪笼出现。生命 20、护甲 6，近战 6 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/infected/infected-scientist",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:knight",
+   "name_en": "Knight",
+   "name_zh": "菌骑士",
+   "description_zh": "菌染人类进化而成（成功率 22.5%）的基础进化战士，血量越低护甲越高，每损失 2 颗心额外获得 1 格护甲。生命 25、护甲 7，近战 7 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/knight",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:griefer",
+   "name_en": "Griefer",
+   "name_zh": "侵袭者",
+   "description_zh": "菌染人类的进化形态，本质是生物炸弹：血量低于 50% 时会贴近目标膨胀自爆，爆炸强度 2 并留下孢气。生命 45、护甲 3，近战 5 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/griefer",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:braiomil",
+   "name_en": "Braiomil",
+   "name_zh": "舔舐者",
+   "description_zh": "菌染人类的进化形态，战斗中会周期性释放毒气削弱周围目标，兼具近战与支援能力。生命 25、护甲 4，近战 8 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/braiomil",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:busser",
+   "name_en": "Phayres",
+   "name_zh": "邪灵",
+   "description_zh": "由菌染人类进化而来的飞行辅助单位，能把配置定义为消耗型或远程的孢子生物抓起来带走。生命 35、护甲 10，近战与远程均为 6 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/phayres",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:thorn",
+   "name_en": "Verdathorn",
+   "name_zh": "荆刺者",
+   "description_zh": "由菌染尸壳进化而来（30%），自带类似荆棘的效果：近战攻击它的生物会承受 40% 反弹伤害。生命 40、护甲 10，近战 7 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/verdathorn",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:jagd",
+   "name_en": "Jagdhund",
+   "name_zh": "潜猎兽",
+   "description_zh": "由菌染尸壳进化而来的掘地单位，发现目标后会钻入地下潜行，进入 10 格范围再破土突袭。生命 35、护甲 4，近战 7 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/jagdhund",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:scavenger",
+   "name_en": "Scavenger",
+   "name_zh": "食腐鹫",
+   "description_zh": "由菌染尸壳进化而来的飞行体，发现目标时先盘旋尖啸，把 48 格内的孢子生物的目标改为同一目标再进攻；近战附带 1 分钟饥饿。生命 25、护甲 4，近战 7 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/scavenger",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:bloater",
+   "name_en": "Bloater",
+   "name_zh": "深潜者",
+   "description_zh": "由菌染溺尸进化而来，相当于水下的侵袭者：命中时有 50% 概率引爆一颗肿瘤，2.5 秒后炸开并放出孢子。生命 40、护甲 6，近战 6 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/bloater",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:naiad",
+   "name_en": "Naiad",
+   "name_zh": "塞壬",
+   "description_zh": "由菌染溺尸进化而来的水生单位，游速快于多数水生生物，也能缓慢爬上岸。生命 35、护甲 3，近战 6 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/naiad",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:leaper",
+   "name_en": "Leaper",
+   "name_zh": "激跃者",
+   "description_zh": "由菌染村民、菌染僵尸村民或菌染流浪商人进化而来，能远距离跳跃扑击，13 格内落地不受摔落伤害。生命 40、护甲 3，近战 8 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/leaper",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:slasher",
+   "name_en": "Slasher",
+   "name_zh": "杀戮者",
+   "description_zh": "村民系感染体的进化形态，攻击带范围横扫效果，能把约 1.66 格内的目标拖近，还会开门追击。生命 35、护甲 2，近战 10 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/slasher",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:spitter",
+   "name_en": "Spitter",
+   "name_zh": "喷吐者",
+   "description_zh": "村民系感染体的远程进化形态，有狙击与速射两种模式，发射带腐蚀 II 的酸液弹，死亡时有概率留下菌丝感染云雾。生命 15、护甲 1。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/spitter",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:volatile",
+   "name_en": "Volatile",
+   "name_zh": "巫猎饕",
+   "description_zh": "由菌染女巫进化而来，近战会给目标随机负面效果，自身受伤时则获得随机增益。生命 35、护甲 4，近战 10 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/volatile",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:mephitic",
+   "name_en": "Mephitic",
+   "name_zh": "恶涎者",
+   "description_zh": "菌染女巫的进化形态，每 4 秒向有视线的目标投掷三瓶药水，包括伤害、虚弱、中毒与菌丝感染等。生命 25、护甲 4，近战 6 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/mephitic",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:gorgon",
+   "name_en": "Gorgon",
+   "name_zh": "戈耳工",
+   "description_zh": "由菌染女巫进化而来，背部毒囊随毒素点积累变大，攒够 6 点后能发射孢子光束。生命 50、护甲 10，近战 8 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/gorgon",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:howler",
+   "name_en": "Howler",
+   "name_zh": "咆哮者",
+   "description_zh": "菌染掠夺者的进化形态，落单时会尖啸召唤 1–3 只菌染人类、菌染村民、菌染掠夺者或菌骑士。生命 32、护甲 4，近战 5 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/howler",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:stalker",
+   "name_en": "Stalker",
+   "name_zh": "追迹者",
+   "description_zh": "菌染掠夺者的进化形态，会用与所在群系草色一致的植被伪装自己，并每分钟更新一次。生命 55、护甲 3，近战 10 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/stalker",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:brute",
+   "name_en": "Brute",
+   "name_zh": "蛮兽",
+   "description_zh": "菌染掠夺者的进化形态，缓慢但极其耐打，会捡起硬度 ≤4 的方块砸向远处目标（伤害为硬度×10），也会抓起身边的消耗型孢子生物扔向敌人。生命 70、护甲 15，近战 7 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/brute",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:nuclea",
+   "name_en": "Nuckelavee",
+   "name_zh": "纳克拉维",
+   "description_zh": "由菌染冒险家进化而来（22.5%），能穿戴全套护甲并使用弓、盾与打火石，还会从被杀目标身上夺取更好的武器护甲。生命 55、护甲 6，近战 8 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/nuckelavee",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:protector",
+   "name_en": "Protector",
+   "name_zh": "守护者",
+   "description_zh": "菌染冒险家的防御型进化，可穿戴头盔与靴子，举盾格挡正面伤害并用盾击推开目标；同伴被攻击时会立刻锁定攻击者，还能投掷末影珍珠接近目标。生命 50、护甲 12，近战 8 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/protector",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:gargoyle",
+   "name_en": "Gargoyle",
+   "name_zh": "石像鬼",
+   "description_zh": "由菌染冒险家进化而来（30%），会保留原冒险家的头盔与自定义名称。生命 35、护甲 6，近战 8 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/gargoyle",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:conductor",
+   "name_en": "Conductor",
+   "name_zh": "导电者",
+   "description_zh": "由基础变体的菌染科学家进化而来，有目标时电荷条持续上涨，攒满 10 点会放出造成 10 点闪电伤害的放电弹，并周期性发射电弧。生命 25、护甲 3，近战 6 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/conductor",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:chemist",
+   "name_en": "Chemist",
+   "name_zh": "药剂师",
+   "description_zh": "由 Tank 变体的菌染科学家进化而来，近战会点燃目标 10 秒；受击时有 20% 概率罐体漏气，3 秒后以强度 2.5 爆炸并留下火焰。生命 30、护甲 3，近战 7 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/chemist",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:inebriater",
+   "name_en": "Inebriater",
+   "name_zh": "酗酒者",
+   "description_zh": "由 Coat 变体的菌染科学家进化而来，会给 16 格内的孢子同伴注射药剂，提供再生 II、抗性 I 与速度 II。生命 30、护甲 3，近战 7 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/inebriater",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:inf_vindicator",
+   "name_en": "Infected Vindicator",
+   "name_zh": "菌染卫道士",
+   "description_zh": "卫道士（或 Hunter）死于菌丝感染后转化，手持铁斧时实际伤害为 7+9 点，攻击会短暂禁用盾牌，并能开门。生命 28、护甲 4。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/infected-vindicator",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:inf_evoker",
+   "name_en": "Infected Evoker",
+   "name_zh": "菌染唤魔者",
+   "description_zh": "唤魔者死于菌丝感染后转化，能把约 14–24 格内、有视线的目标强行拉近；受击时 30% 概率掉落自己的利爪。生命 35、护甲 4，近战 7 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/evolved/infected-evoker",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:inquisitor",
+   "name_en": "Inquisitor",
+   "name_zh": "审判者",
+   "description_zh": "菌骑士的超级进化（需 7 进化点并等待 10 分钟），每击杀一个生物近战 +1，最多叠加到 30 点。生命 60、护甲 7–21，近战 15–30 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/hyper-evolved/inquisitor",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:brot",
+   "name_en": "Brotkatze",
+   "name_zh": "长舌魔",
+   "description_zh": "舔舐者的超级进化，机动性高、以范围毒气作战：10.9 格内的目标会触发 2 秒蓄力的毒气攻击。生命 70、护甲 5，近战 15 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/hyper-evolved/brotkatze",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:hollen",
+   "name_en": "Hollenhund",
+   "name_zh": "坠狱兽",
+   "description_zh": "潜猎兽的超级进化，能钻入硬度 ≤3 的方块潜行接近目标，并具备中等远程手段。生命 65、护甲 7，近战 10、远程 5 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/hyper-evolved/hollenhund",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:grober",
+   "name_en": "Groberfub",
+   "name_zh": "金刚兽",
+   "description_zh": "激跃者的超级进化，四种近战攻击随机使用（各 25%），其中砸地会破坏硬度较低的方块。生命 75、护甲 8，近战 15 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/hyper-evolved/groberfub",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:wendigo",
+   "name_en": "Wendigo",
+   "name_zh": "林中鹿菌",
+   "description_zh": "追迹者的超级进化，目标超过约 17 格且没有看向它时会贴地潜行、以草皮伪装接近。生命 75、护甲 8，近战 15 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/hyper-evolved/wendigo",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:ogre",
+   "name_en": "Ogre",
+   "name_zh": "食人魔",
+   "description_zh": "蛮兽的超级进化，近战有 20% 概率把范围内的玩家吞入口中持续造成伤害，玩家可下坐骑挣脱。生命 100、护甲 12，近战 20 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/hyper-evolved/ogre",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:hvindicator",
+   "name_en": "Axtwerfer",
+   "name_zh": "铁斧投手",
+   "description_zh": "菌染卫道士的超级进化，每 3 秒把铁斧作为投掷物掷出（9 点伤害），30 秒后自动取回。生命 80、护甲 7，近战 18、远程 9 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/hyper-evolved/axtwerfer",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:hevoker",
+   "name_en": "Hexenmeister",
+   "name_zh": "邪菌术士",
+   "description_zh": "菌染唤魔者的超级进化，能用念力把 14–24 格内、有视线的目标持续拉向自己，进行近身压制。生命 80、护甲 10，近战 15 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/hyper-evolved/hexenmeister",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:plagued",
+   "name_en": "Plagued",
+   "name_zh": "疫病者",
+   "description_zh": "只生成于军事营地、医院、永冻前哨与 Groundzero 等实验室结构，移动极快，近战附加虚弱 II、凋零 II、中毒 II 各 10 秒；可用注射器从其身上取得腐血样本。生命 15、护甲 5，近战 5 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/experiments/plagued",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:lacerator",
+   "name_en": "Lacerator",
+   "name_zh": "撕裂者",
+   "description_zh": "实验室结构中的实验体，攻击无视无敌帧且自身不会被击退，命中时有 10% 概率附加 10 秒凋零。生命 30、护甲 8，近战 6 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/experiments/lacerator",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:biobloob",
+   "name_en": "Bioblob",
+   "name_zh": "菌染憎恶",
+   "description_zh": "实验室实验体，每 3 秒交替发射胆汁弹与腐蚀弹，腐蚀效果可叠加。生命 50、护甲 8，近战 10、远程 6 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/experiments/bioblob",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:saugling",
+   "name_en": "Saugling",
+   "name_zh": "畸尾婴",
+   "description_zh": "实验室实验体，会钻进 8 格内的箱子并发出闷笑，目标靠近 3 格便尖叫跳出攻击。生命 25、护甲 5，近战 7 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/experiments/saugling",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:bairn",
+   "name_en": "Bairn",
+   "name_zh": "菌染幼体",
+   "description_zh": "幼年僵尸、尸壳、溺尸、村民或僵尸村民死于菌丝感染后转化成的幼体感染体，会啃食容器里的食物，容器空了之后将其破坏。生命 12、护甲 1，近战 4 点伤害，攻击附加 30 秒菌丝感染。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/abnormal/bairn",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:scamper",
+   "name_en": "Scamper",
+   "name_zh": "窜扰者",
+   "description_zh": "感染体进化失败（10% 概率）的产物，缓慢且近视；存在 10 分钟后会化烟消失并留下 1–3 个菌囊。生命 25、护甲 3，近战 6 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/abnormal/scamper",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:gastgaber",
+   "name_en": "Gastgeber",
+   "name_zh": "菌主",
+   "description_zh": "由窜扰者攒够 7 杀进化而来，会在原地扎根，以 25 格半径把普通方块转化为被侵染方块与孢子植被。生命 70、护甲 6，近战 7 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/abnormal/gastgeber",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:specter",
+   "name_en": "Specter",
+   "name_zh": "幽灵",
+   "description_zh": "被链接的菌染流浪商人进化而成，目标超过 7 格时会隐形潜行接近，且不会被幽匿感测器察觉。生命 70、护甲 8，近战 10 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/abnormal/specter",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:reaper",
+   "name_en": "Reaper",
+   "name_zh": "收割者",
+   "description_zh": "由被链接的菌染僵尸村民进化而来，会主动吞食农作物、树苗、干草块等方块换取“饥饿点”，每 5 秒吐出一发消耗饥饿点、附带腐蚀的投射物。生命 80、护甲 8，近战 10 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/abnormal/reaper",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:vanguard",
+   "name_en": "Vanguard",
+   "name_zh": "先兆者",
+   "description_zh": "由被链接的菌染掠夺者袭击队长进化而来，自带快速装填 III 的弩远程射击并召唤感染体；盯上玩家会开启“聚落之祸”进度线。生命 110、护甲 8，近战 12 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/abnormal/vanguard",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:inf_contruct",
+   "name_en": "Infested Construct",
+   "name_zh": "菌染构造体",
+   "description_zh": "铁傀儡死于菌丝感染后有 70% 概率在原地留下残破版本，拥有机器生命与真实生命两条血条，必须先打空机器生命才能造成真实伤害。生命 60、护甲 10，近战 15 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/abnormal/infested-construct",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:illusion",
+   "name_en": "Hallucination",
+   "name_zh": "幻术体",
+   "description_zh": "由妄念体召唤，或玩家处于疯狂 III 以上时每 4 秒有 10% 概率出现；会伪装成进化体、超级进化体甚至苦力怕，眼睛不发光。生命 10、无护甲，伤害 1 点。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/abnormal/hallucination",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:arena_tendril",
+   "name_en": "Challenge Watcher",
+   "name_zh": "竞技之须",
+   "description_zh": "点燃脑残留方块后，由破土而出的触须爆开生成；自身不能移动、除虚空伤害外免疫一切伤害，生成后立即开启一波波随目标强度成长的挑战袭击。生命 1，无攻击伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/abnormal/challenge-watcher",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:mound",
+   "name_en": "Flesh Mound",
+   "name_zh": "菌囊",
+   "description_zh": "被动的侵染扩散单位，由窜扰者老化或触须接触人类遗骸、装食物的容器时出现，每 30 秒把周围方块转化为被侵染形态。生命随年龄为 20/40/60/80，护甲 2/4/6/8。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/organoids/mound",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:umarmed",
+   "name_en": "Umarmer",
+   "name_zh": "拥孢体",
+   "description_zh": "由雏型蜂巢思维、蜂巢肿瘤或前哨观察者召唤的近战单位，攻击是约 4×4×4 的范围重砸，并附带 30 秒菌丝感染 II。生命 70、护甲 6，近战 8 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/organoids/umarmer",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:usurper",
+   "name_en": "Usurper",
+   "name_zh": "僭主体",
+   "description_zh": "由雏型蜂巢思维或蜂巢肿瘤召唤的远程单位，会周期性向视线内目标发射 4 发弹幕，弹种包含菌丝、爆炸等类型。生命 60、护甲 6。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/organoids/usurper",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:vigil",
+   "name_en": "Vigil",
+   "name_zh": "哨戒体",
+   "description_zh": "不能直接战斗的召唤与监视单位，会开启袭击波次并为感染体指派目标；可由雏型蜂巢思维、生命低于 50% 的灾厄等召唤。生命 60、护甲 5。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/organoids/vigil",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:braurei",
+   "name_en": "Braurei",
+   "name_zh": "酿毒体",
+   "description_zh": "辅助型器官体，每 15 秒给 8 格内的孢子生物随机施加速度、力量、抗性、抗火或再生之一，持续 30 秒。生命 80、护甲 6。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/organoids/braurei",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:verva",
+   "name_en": "Verwahrung",
+   "name_zh": "保育体",
+   "description_zh": "被动的临时召唤单位，体内装着不同的孢子生物，被释放或死亡时把它们放出；破土阶段免疫一切伤害。生命 20、护甲 2。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/organoids/verwahrung",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:delusioner",
+   "name_en": "Delusioner",
+   "name_zh": "妄念体",
+   "description_zh": "由雏型蜂巢思维召唤的施法单位，会根据周围孢子生物数量与目标状态在四种法术中选择攻击或支援。生命 35、护甲 2。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/organoids/delusioner",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:reconstructor",
+   "name_en": "Womb",
+   "name_zh": "灾厄重构体",
+   "description_zh": "由雏型蜂巢思维在收到信号却无灾厄可调度时生成，靠吸收生物质成长，成熟后孵化出灾厄；本身被动不攻击。生命随年龄为 30/40/60。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/organoids/womb",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:proto",
+   "name_en": "Proto Hivemind",
+   "name_zh": "雏型蜂巢思维",
+   "description_zh": "感染的核心威胁，由重构之心积累 40 击杀点、或蜂巢肿瘤存在 20 分钟后进化而成，能召唤器官体、放置脑残留并指挥整片感染网络。生命 100、护甲 10，近战 10 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/organoids/proto-hivemind",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:hivetumor",
+   "name_en": "Hivetumor",
+   "name_zh": "蜂巢肿瘤",
+   "description_zh": "雏型蜂巢思维的粗糙弱化版，由多块脑残留聚集而成，存在 20 分钟后会进化为雏型蜂巢思维。生命 50、护甲 10，近战 10 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/organoids/hivetumor",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:sieger",
+   "name_en": "Sieger",
+   "name_zh": "强袭魔",
+   "description_zh": "陆地灾厄之一，由吸收满 100 生物质的灾厄重构体孵化（约 26.6%）；目标距离 20 格或高出 5 格时，会用尾部发射 3–6 颗带范围效果的肿瘤弹。生命 300、护甲 25，伤害 30 点。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/calamities/sieger",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:howitzer",
+   "name_en": "Howitzer",
+   "name_zh": "菌械重炮",
+   "description_zh": "陆地灾厄，每 4 秒向 14–64 格内的目标发射 1–4 颗血肉炸弹，炸弹分四种类型、各有不同效果。生命 500、护甲 10，近战 15 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/calamities/howitzer",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:stahl",
+   "name_en": "Stahlmorder",
+   "name_zh": "蚀刃魔",
+   "description_zh": "陆地灾厄，攻击间隔约为其他生物的两倍，但会对护甲不足 10 点的目标频繁使用腐蚀斩。生命 200、护甲 10，伤害 35 点。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/calamities/stahlmorder",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:hohlfresser",
+   "name_en": "Hohlfresser",
+   "name_zh": "噬袭魔",
+   "description_zh": "地下灾厄，由 Y≤63 的母信号对应的重构体孵化（约 73.3%）；能像游泳一样穿过方块掘进而不破坏它们，头部分节可穿墙追击。生命 250、护甲 25，伤害 20 点。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/calamities/hohlfresser",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:gazenbreacher",
+   "name_en": "GazenBreacher",
+   "name_zh": "凝袭魔",
+   "description_zh": "水生灾厄，在水里游得极快、上岸只能缓慢爬行；目标在约 17 格开外或高出 5 格时会吐出 1–3 颗胆汁弹（各 10 点伤害，并能击碎船）。生命 350、护甲 15，近战 25、远程 10 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/calamities/gazenbreacher",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:kraken",
+   "name_en": "Grakensenker",
+   "name_zh": "沉渊魔",
+   "description_zh": "水生灾厄，双手可独立索敌并把目标抓进前口，水下抓取会加快窒息；静止在 12 格深水中时会制造漩涡，还能靠拆木头获得减伤的“帆船”适应形态。生命 400、护甲 15，近战 15 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/calamities/grakensenker",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:leviathan",
+   "name_en": "Leviathan",
+   "name_zh": "破舰魔",
+   "description_zh": "水生灾厄，鲸与蜈蚣的混合体，分节身体可穿墙跟随本体；离开水面且目标不在近战范围时，每 2 秒发射 1–3 颗附带腐蚀 II 的酸球。生命 450、护甲 25，近战 30 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/calamities/leviathan",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:hindenburg",
+   "name_en": "Hindenburg",
+   "name_zh": "菌械空堡",
+   "description_zh": "空中灾厄，由 Y≥90 的母信号对应的重构体孵化（约 38.3%），会悬停在高处每 4 秒投出 7–10 颗爆炸肿瘤，蓄力 2 分钟后还能投下肿瘤核弹。生命 400、护甲 5，近战 15 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/calamities/hindenburg",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "spore:verfall",
+   "name_en": "Verfalldrache",
+   "name_zh": "朽翼魔",
+   "description_zh": "空中灾厄，尸体焦油构成的龙形生物，三个头可独立索敌：焦油头喷射焦油弹并留下焦油池，另外还有电击头与声波头。生命 300、护甲 15，近战 10 点伤害。",
+   "source": "wiki",
+   "source_url": "https://www.fungalinfectionspore.wiki/mobs/calamities/verfalldrache",
+   "confidence": 0.85,
+   "notes": ""
+  }
+ ]
+}

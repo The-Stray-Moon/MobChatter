@@ -1,0 +1,197 @@
+{
+ "rank": 155,
+ "mod": "DontCry (Horror) (Stalker) (Terror) (Scary)(Twixxel)",
+ "mod_url": "https://modrinth.com/mod/dontcry",
+ "mobs": [
+  {
+   "mob_id": "dontcry:dontcry",
+   "name_en": "Dont Cry",
+   "name_zh": "",
+   "description_zh": "需要附近有木门才会触发：它会出现在门后注视玩家，伴随锯子般的音效，之后还会以窗边形态敲窗。生命值 40，移动速度为 0，不会像普通怪物那样主动追击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/dontcry",
+   "confidence": 0.5,
+   "notes": "资料有限：仅能从 jar 内实体属性、遭遇逻辑与刷怪蛋提示核实。"
+  },
+  {
+   "mob_id": "dontcry:quadrupedal_stalker",
+   "name_en": "Quadrupedal Stalker",
+   "name_zh": "",
+   "description_zh": "四足形态的跟踪者，会先在洞穴或室外出现并静止注视玩家，随后尖叫着高速追逐，追逐中能破坏挡路的方块并影响附近玩家。生命值 40，攻击力 3，追踪范围 96 格。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/dontcry",
+   "confidence": 0.5,
+   "notes": "资料有限：仅能从 jar 内实体属性、遭遇逻辑与刷怪蛋提示核实。"
+  },
+  {
+   "mob_id": "dontcry:stare",
+   "name_en": "Stare",
+   "name_zh": "",
+   "description_zh": "只在夜晚的森林或洞穴出现；未被注视时静止不动，被玩家直视后先颤抖数 tick，再开始追逐，玩家躲进光照中可以让它放弃。生命值 35，攻击力 5。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/dontcry",
+   "confidence": 0.5,
+   "notes": "资料有限：仅能从 jar 内实体属性、遭遇逻辑与刷怪蛋提示核实。"
+  },
+  {
+   "mob_id": "dontcry:tree_stalker",
+   "name_en": "Tree Stalker",
+   "name_zh": "",
+   "description_zh": "需要附近有树和开阔地面才能出现，会以镜像姿态站在树旁盯着玩家，被看到或演出结束后原地消失。生命值 30，移动速度为 0，没有攻击力。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/dontcry",
+   "confidence": 0.45,
+   "notes": "资料有限：仅能从 jar 内实体属性、遭遇逻辑与刷怪蛋提示核实。"
+  },
+  {
+   "mob_id": "dontcry:window_stalker",
+   "name_en": "Window Stalker",
+   "name_zh": "",
+   "description_zh": "需要附近有窗户才会出现，会从窗口探身或滑升注视玩家，随后进入惊吓阶段并追逐玩家。生命值 30，攻击力 10。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/dontcry",
+   "confidence": 0.5,
+   "notes": "资料有限：仅能从 jar 内实体属性、遭遇逻辑与刷怪蛋提示核实。"
+  },
+  {
+   "mob_id": "dontcry:cave_stalker",
+   "name_en": "Cave Stalker",
+   "name_zh": "",
+   "description_zh": "只在地下黑暗洞穴中出现，静止注视玩家；当所在位置方块光照高于 2、被玩家注视 1 秒（20 tick）或玩家靠近到 4 格内时会立刻消失，最长存活 3 分钟。生命值 30，移动速度为 0，不主动攻击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/dontcry",
+   "confidence": 0.5,
+   "notes": "资料有限：仅能从 jar 内实体属性、遭遇逻辑与刷怪蛋提示核实。"
+  },
+  {
+   "mob_id": "dontcry:cave_watcher",
+   "name_en": "Cave Watcher",
+   "name_zh": "",
+   "description_zh": "在地下洞穴生成于玩家背后并保持距离尾随；被玩家看到时会尖叫，约 4 tick 后消失。生命值 30，攻击力 4。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/dontcry",
+   "confidence": 0.5,
+   "notes": "资料有限：仅能从 jar 内实体属性、遭遇逻辑与刷怪蛋提示核实。"
+  },
+  {
+   "mob_id": "dontcry:little_stalker",
+   "name_en": "Little Stalker",
+   "name_zh": "",
+   "description_zh": "体型只有 1.2×1.2 格的小型跟踪者，会吸附在墙面、天花板或竖井边缘探出头偷看玩家，有最长存活时间。生命值仅 1，没有攻击力。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/dontcry",
+   "confidence": 0.45,
+   "notes": "资料有限：仅能从 jar 内实体属性、遭遇逻辑与刷怪蛋提示核实。"
+  },
+  {
+   "mob_id": "dontcry:stalking_night",
+   "name_en": "Stalking Night",
+   "name_zh": "",
+   "description_zh": "需要夜晚且附近有床才会出现，有窗边、躲藏、床边三种变体，会趁玩家睡觉时站在床边注视。生命值 30，移动速度为 0，不主动攻击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/dontcry",
+   "confidence": 0.45,
+   "notes": "资料有限：仅能从 jar 内实体属性、遭遇逻辑与刷怪蛋提示核实。"
+  },
+  {
+   "mob_id": "dontcry:smiler",
+   "name_en": "Smiler",
+   "name_zh": "",
+   "description_zh": "只在夜晚出现，静止时用笑脸注视玩家；被直视 3 秒（60 tick）或玩家靠近到 8 格内就会开始追逐，并能破坏挡路的方块。生命值 50，攻击力 14，天亮或存活 2 分钟后消失。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/dontcry",
+   "confidence": 0.5,
+   "notes": "资料有限：仅能从 jar 内实体属性、遭遇逻辑与刷怪蛋提示核实。"
+  },
+  {
+   "mob_id": "dontcry:phase1",
+   "name_en": "Phase 1",
+   "name_zh": "",
+   "description_zh": "会躲在有掩体的位置探头观察玩家，被发现后尖叫并进入追逐，还能沿塔状结构或墙面攀爬翻越。生命值 45，攻击力 12，分躲藏、警觉、追逐三个阶段。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/dontcry",
+   "confidence": 0.5,
+   "notes": "资料有限：仅能从 jar 内实体属性、遭遇逻辑与刷怪蛋提示核实。"
+  },
+  {
+   "mob_id": "dontcry:squatter",
+   "name_en": "Squatter",
+   "name_zh": "",
+   "description_zh": "需要玩家的床、门和容器才会触发：它会溜进基地打开箱子偷走物品，被看到就从窗口逃走，演出结束还会挖洞离开。生命值 28，攻击力 2。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/dontcry",
+   "confidence": 0.5,
+   "notes": "资料有限：仅能从 jar 内实体属性、遭遇逻辑与刷怪蛋提示核实。"
+  },
+  {
+   "mob_id": "dontcry:orimmy",
+   "name_en": "Orimmy",
+   "name_zh": "",
+   "description_zh": "与 Enemyte 宝石事件相关，玩家拿走宝石后会收到“你偷了我的宝石”的威胁信息，随后在洞穴中被它追杀；追逐时可以攀爬障碍。生命值 60，攻击力 8。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/dontcry",
+   "confidence": 0.5,
+   "notes": "资料有限：仅能从 jar 内实体属性、遭遇逻辑与刷怪蛋提示核实。"
+  },
+  {
+   "mob_id": "dontcry:yelling_creature",
+   "name_en": "Yelling Creature",
+   "name_zh": "",
+   "description_zh": "会在开阔位置出现并持续尖叫，发现玩家后追逐，能破坏方块，还会针对玩家挖洞或垫高躲避做出应对。生命值 60，攻击力 9。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/dontcry",
+   "confidence": 0.5,
+   "notes": "资料有限：仅能从 jar 内实体属性、遭遇逻辑与刷怪蛋提示核实。"
+  },
+  {
+   "mob_id": "dontcry:viruses",
+   "name_en": "Viruses",
+   "name_zh": "",
+   "description_zh": "从窗户或木门展开遭遇：先抓挠窗和门，再破门追逐，靠近时能把玩家扼死（死亡信息为 was strangled by Viruses）。生命值 100，攻击力 12，是模组中血量最高的一档。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/dontcry",
+   "confidence": 0.5,
+   "notes": "资料有限：仅能从 jar 内实体属性、遭遇逻辑与刷怪蛋提示核实。"
+  },
+  {
+   "mob_id": "dontcry:void",
+   "name_en": "Void",
+   "name_zh": "",
+   "description_zh": "会在门后或树旁出现，先躲藏或在远处凝视，被注视一段时间后现身并冲刺扑向玩家。生命值 40，攻击力 6。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/dontcry",
+   "confidence": 0.5,
+   "notes": "资料有限：仅能从 jar 内实体属性、遭遇逻辑与刷怪蛋提示核实。"
+  },
+  {
+   "mob_id": "dontcry:bipedal_stalker",
+   "name_en": "Bipedal Stalker",
+   "name_zh": "",
+   "description_zh": "双足跟踪者，夜晚会在双开门入口处出现，身体会随门缝宽度调整挤进屋内，追逐时能翻越栅栏。生命值 100，攻击力 7，需要达到一定天数后才会自然触发。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/dontcry",
+   "confidence": 0.5,
+   "notes": "资料有限：仅能从 jar 内实体属性、遭遇逻辑与刷怪蛋提示核实。"
+  },
+  {
+   "mob_id": "dontcry:fossorial",
+   "name_en": "Fossorial",
+   "name_zh": "",
+   "description_zh": "需要周围有足够坚实的方块，会在地下挖出隧道接近玩家，破土尖叫后逃离，之后还有第二阶段的假遭遇。生命值仅 1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/dontcry",
+   "confidence": 0.45,
+   "notes": "资料有限：仅能从 jar 内实体属性、遭遇逻辑与刷怪蛋提示核实。"
+  },
+  {
+   "mob_id": "dontcry:vigil",
+   "name_en": "Vigil",
+   "name_zh": "",
+   "description_zh": "以广告牌般的静止人形出现在洞穴或夜晚的黑暗开阔处，会依据玩家是否在视野内、是否直视推进遭遇，最后瞬移到玩家身后攻击或以跳脸收场。生命值仅 1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/dontcry",
+   "confidence": 0.45,
+   "notes": "资料有限：仅能从 jar 内实体属性、遭遇逻辑与刷怪蛋提示核实。"
+  }
+ ]
+}

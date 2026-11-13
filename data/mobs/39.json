@@ -1,0 +1,37 @@
+{
+ "rank": 39,
+ "mod": "Verity JE",
+ "mod_url": "https://modrinth.com/mod/verity-je-official",
+ "mobs": [
+  {
+   "mob_id": "verity:verity",
+   "name_en": "Verity™",
+   "name_zh": "",
+   "description_zh": "Verity 是模组核心的 AI 个人助理：一只黄色小球，会在自己的动画盒子里登场，玩家可按住快捷键与它语音对话，它会跟随玩家并帮忙开门。默认经过 5 个游戏日后它会变成怪物追杀玩家，这个天数可在配置中修改。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/verity-je-official",
+   "confidence": 0.85,
+   "notes": "模组正文与 MC百科模组页（class/28486）均有描述；5 天敌对化取自 MC百科，跟随与开门行为在 jar 的 VerityEntity 中可核实。"
+  },
+  {
+   "mob_id": "verity:box",
+   "name_en": "Box",
+   "name_zh": "",
+   "description_zh": "Verity 登场时所在的动画盒子实体：打开盒子会触发 Verity 现身，盒子带开合动画以及开箱、点击音效。它属于演出/容器用实体，没有战利品表，也不是自然生成的生物。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/verity-je-official",
+   "confidence": 0.7,
+   "notes": "模组正文提到“Verity 出现在他自己的动画盒子里”；jar 内 BoxEntity 为 GeckoLib 动画实体，带 box_open/box_click 音效，无实体战利品表。"
+  },
+  {
+   "mob_id": "verity:verity_demon",
+   "name_en": "VERITY",
+   "name_zh": "",
+   "description_zh": "Verity 敌对化后出现的敌对生物 VERITY：生命值 400 点（200 颗心）、攻击力 19 点、移动速度 0.52、击退抗性 1.0。锁定玩家后会短暂蓄力再追击，能破坏沿途方块、破门破窗并爬墙，攻击时偶尔抓住玩家将其掷出，追击时会播放 My Gal (by Niklas Gabrielsson)。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/979346.html",
+   "confidence": 0.9,
+   "notes": "数值与行为摘自 MC百科实体页；破门/破窗/爬墙等行为在 jar 的 DemonBreakDoorGoal、DemonGlassBreakAndLeapGoal、DemonClimbGoal 中得到印证。"
+  }
+ ]
+}

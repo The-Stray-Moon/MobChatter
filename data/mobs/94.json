@@ -1,0 +1,137 @@
+{
+ "rank": 94,
+ "mod": "Knight Quest",
+ "mod_url": "https://modrinth.com/mod/knight-quest",
+ "mobs": [
+  {
+   "mob_id": "knightquest:bad_patch",
+   "name_en": "Bad Patch",
+   "name_zh": "坏补丁",
+   "description_zh": "在丛林与下界荒地生成的敌对生物，生成权重 10，每次 1–2 只；有独立刷怪蛋和战利品表。模组正文只笼统说明“新增的敌怪各有独特技能”，没有逐条介绍它，血量与技能资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/knight-quest",
+   "confidence": 0.5,
+   "notes": "生成数据取自 data/knightquest/forge/biome_modifier/spawn_bad_patch.json。"
+  },
+  {
+   "mob_id": "knightquest:eldbomb",
+   "name_en": "Eld Bomb",
+   "name_zh": "埃尔德炸弹",
+   "description_zh": "在森林、针叶林及多种雪地群系生成（权重 25，1–2 只一群），有刷怪蛋与独立战利品表。除生成配置外没有可核实的血量或技能说明，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/knight-quest",
+   "confidence": 0.5,
+   "notes": ""
+  },
+  {
+   "mob_id": "knightquest:eldknight",
+   "name_en": "Eld Knight",
+   "name_zh": "埃尔德骑士",
+   "description_zh": "森林、针叶林与雪地群系中生成的骑士类敌怪（权重 20，单独出现），有刷怪蛋和独立战利品表；正文未给出它的数值，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/knight-quest",
+   "confidence": 0.5,
+   "notes": ""
+  },
+  {
+   "mob_id": "knightquest:fallen_knight",
+   "name_en": "Fallen Knight",
+   "name_zh": "堕落骑士",
+   "description_zh": "森林、针叶林与沙漠中极稀有生成的堕落骑士（权重仅 2，单独出现），有刷怪蛋与独立战利品表；MC百科对应条目没有简介内容，血量与技能无从核实，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/knight-quest",
+   "confidence": 0.5,
+   "notes": ""
+  },
+  {
+   "mob_id": "knightquest:ghastling",
+   "name_en": "Ghastling",
+   "name_zh": "幽灵",
+   "description_zh": "不能自然生成：刷怪蛋提示原文为“Can only be summoned when a second phase Gremlin is near.”，即只能在小恶魔（Gremlin）进入第二阶段时于其附近召唤。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/knight-quest",
+   "confidence": 0.5,
+   "notes": "来自 assets/knightquest/lang/en_us.json 的 tooltip.item.knightquest.ghastling_spawn_egg。"
+  },
+  {
+   "mob_id": "knightquest:ghosty",
+   "name_en": "Ghosty",
+   "name_zh": "鬼魂",
+   "description_zh": "森林、针叶林、繁茂洞穴与恶地生成的幽灵类敌怪（权重 18，单独出现），有刷怪蛋和独立战利品表；正文未给出血量与技能，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/knight-quest",
+   "confidence": 0.5,
+   "notes": ""
+  },
+  {
+   "mob_id": "knightquest:gremlin",
+   "name_en": "Gremlin",
+   "name_zh": "小妖精",
+   "description_zh": "生成于下界荒地、灵魂沙峡谷、绯红森林与诡异森林（权重 15，单独出现）的小恶魔。它有第二阶段，且 Ghastling 的召唤条件与第二阶段的小恶魔相关，说明它存在分阶段行为；血量与伤害资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/knight-quest",
+   "confidence": 0.5,
+   "notes": ""
+  },
+  {
+   "mob_id": "knightquest:lizzy",
+   "name_en": "Lizzy",
+   "name_zh": "蜥蜴",
+   "description_zh": "在森林、针叶林、沙漠与繁茂洞穴稀有生成（权重 4，单独出现）的蜥蜴；击杀掉落蜥蜴鳞片（Lizzy Scale），该材料用于模组内多种合成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/knight-quest",
+   "confidence": 0.8,
+   "notes": ""
+  },
+  {
+   "mob_id": "knightquest:momma_lizzy",
+   "name_en": "Momma Lizzy",
+   "name_zh": "蜥蜴妈妈",
+   "description_zh": "名为 Momma Lizzy 的另一蜥蜴变体，jar 中没有自然生成配置，只提供刷怪蛋；正文未单独说明它的血量或行为，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/knight-quest",
+   "confidence": 0.5,
+   "notes": ""
+  },
+  {
+   "mob_id": "knightquest:netherman",
+   "name_en": "Netherman, the Architect of Chaos",
+   "name_zh": "混乱建筑师：地狱人",
+   "description_zh": "模组 Boss“混乱建筑师·地狱人”：用光辉精华（Radiant Essence）右键装满的圣杯即可召唤，战斗共 3 个阶段；击杀后固定掉落混沌精华（Chaotic Essence），另有 10% 概率掉落音乐唱片 The Architect of Chaos。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/knight-quest",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "knightquest:ratman",
+   "name_en": "Ratman",
+   "name_zh": "鼠人",
+   "description_zh": "在沙漠、滴水石洞、繁茂洞穴与丛林生成（权重 25，1–2 只一群）的鼠人；击杀掉落会发光的“鼠人之眼”，用于模组内多种合成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/knight-quest",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "knightquest:samhain",
+   "name_en": "Samhain",
+   "name_zh": "萨温",
+   "description_zh": "有刷怪蛋，但 jar 中没有自然生成配置和独立战利品表；正文与物品提示只留下“Samhain 喜欢 Squire Helmet 这顶帽子”的描述，血量与行为资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/knight-quest",
+   "confidence": 0.5,
+   "notes": ""
+  },
+  {
+   "mob_id": "knightquest:swampman",
+   "name_en": "Swampman",
+   "name_zh": "沼泽人",
+   "description_zh": "生成于沙滩、河流、丛林与稀疏丛林的沼泽人（权重 15，单独出现），有刷怪蛋和独立战利品表；血量与技能未在正文中说明，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/knight-quest",
+   "confidence": 0.5,
+   "notes": ""
+  }
+ ]
+}

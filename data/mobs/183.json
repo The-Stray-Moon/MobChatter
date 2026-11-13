@@ -1,0 +1,87 @@
+{
+ "rank": 183,
+ "mod": "Aquatic Frontiers",
+ "mod_url": "https://modrinth.com/mod/aquatic-frontiers",
+ "mobs": [
+  {
+   "mob_id": "aquatic_frontiers:coralcrab",
+   "name_en": "Coral Crab",
+   "name_zh": "瑚生蟹",
+   "description_zh": "生成于沙滩（权重 12，每次 1 只）的珊瑚蟹，可用刷怪蛋放置；击杀后掉落各类珊瑚以及鳕鱼、热带鱼、河豚等战利品。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/aquatic-frontiers",
+   "confidence": 0.5,
+   "notes": "biome_modifier coralcrab；loot_tables/entities/coralcrab.json；外部资料有限"
+  },
+  {
+   "mob_id": "aquatic_frontiers:coralgolem",
+   "name_en": "Coral Golem",
+   "name_zh": "珊瑚傀儡",
+   "description_zh": "由珊瑚构成的傀儡，模组没有为它配置自然生成的生物群系修饰器，可用刷怪蛋放置；死亡掉落 1–8 个海晶碎片与各类珊瑚，并有小概率掉落模组音乐唱片。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/aquatic-frontiers",
+   "confidence": 0.45,
+   "notes": "loot_tables/entities/coralgolem.json；资料有限"
+  },
+  {
+   "mob_id": "aquatic_frontiers:sandy_coral",
+   "name_en": "Coral Sandy",
+   "name_zh": "珊瑚沙鱼",
+   "description_zh": "在暖水海洋与平原生成（权重 8，每次 1 只）的沙鱼变种，死亡掉落 1–3 个各类珊瑚。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/aquatic-frontiers",
+   "confidence": 0.5,
+   "notes": "biome_modifier sandy_coral；loot_tables/entities/sandy_coral.json；外部资料有限"
+  },
+  {
+   "mob_id": "aquatic_frontiers:giantsquid",
+   "name_en": "Giant Squid",
+   "name_zh": "大王鱿鱼",
+   "description_zh": "栖息于深海（权重 4，每次 1 只）的大型鱿鱼，死亡掉落 1–5 个墨囊与 1–4 条鳕鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/aquatic-frontiers",
+   "confidence": 0.5,
+   "notes": "biome_modifier giantsquid；loot_tables/entities/giantsquid.json；外部资料有限"
+  },
+  {
+   "mob_id": "aquatic_frontiers:sandy_pickle",
+   "name_en": "Pickle Sandy",
+   "name_zh": "海泡菜沙鱼",
+   "description_zh": "在暖水海洋、温水海洋与平原生成（权重 8，每次 1 只）的沙鱼变种，死亡掉落海泡菜。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/aquatic-frontiers",
+   "confidence": 0.5,
+   "notes": "biome_modifier sandy_pickle；loot_tables/entities/sandy_pickle.json；外部资料有限"
+  },
+  {
+   "mob_id": "aquatic_frontiers:sandy",
+   "name_en": "Sandy",
+   "name_zh": "沙鱼",
+   "description_zh": "在普通、寒冷、冻洋等多种海洋生物群系生成（权重 8，每次 1 只）的沙鱼，死亡掉落沙子。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/aquatic-frontiers",
+   "confidence": 0.5,
+   "notes": "biome_modifier sandy；loot_tables/entities/sandy.json；外部资料有限"
+  },
+  {
+   "mob_id": "aquatic_frontiers:soul_sandy",
+   "name_en": "Soul Sandy",
+   "name_zh": "灵魂沙鱼",
+   "description_zh": "在暖水海洋、海洋与平原生成，权重仅 2（较稀有）的沙鱼变种；死亡掉落 1–3 个灵魂沙。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/aquatic-frontiers",
+   "confidence": 0.5,
+   "notes": "biome_modifier soul_sandy；loot_tables/entities/soul_sandy.json；外部资料有限"
+  },
+  {
+   "mob_id": "aquatic_frontiers:spongesquid",
+   "name_en": "Sponge Squid",
+   "name_zh": "海绵鱿鱼",
+   "description_zh": "在暖水海洋与温水海洋生成（权重 12，1–3 只一群）的鱿鱼，死亡有概率掉落 1–2 个湿海绵，也会掉落墨囊。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/aquatic-frontiers",
+   "confidence": 0.5,
+   "notes": "biome_modifier spongesquid；loot_tables/entities/spongesquid.json；外部资料有限"
+  }
+ ]
+}

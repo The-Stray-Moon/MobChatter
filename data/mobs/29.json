@@ -1,0 +1,307 @@
+{
+ "rank": 29,
+ "mod": "Illage and Spillage: Respillaged",
+ "mod_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+ "mobs": [
+  {
+   "mob_id": "illageandspillage:engineer",
+   "name_en": "Engineer",
+   "name_zh": "工程师",
+   "description_zh": "灾厄工程师：本身不擅长近战，却会在村庄附近游荡并搭建敌对机器（懊恼哨兵、治愈者、兵工厂）；机器受损时会跑过去修理。模组正文称他因战斗能力差而被同族嘲笑，直到别人见识到他的发明。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.85,
+   "notes": "正文“Goons - Engineer”段落；ThrowMachine/Repair 目标见 jar。"
+  },
+  {
+   "mob_id": "illageandspillage:chagrin_sentry",
+   "name_en": "Chagrin Sentry",
+   "name_zh": "懊恼哨兵",
+   "description_zh": "工程师搭建的固定炮塔，双臂是两门炮，能以极快速度连射箭矢；连续射击后会过热停摆，这段时间是拆掉它的窗口。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.85,
+   "notes": "正文明确写“stationary turret…extremely rapid rates…overheating”；jar 有 RapidFireGoal 与 StunGoal。"
+  },
+  {
+   "mob_id": "illageandspillage:hinder",
+   "name_en": "Hinder",
+   "name_zh": "治愈者",
+   "description_zh": "工程师搭建的小型耐久机器，能快速治疗附近的灾厄村民，但作用范围很小；低血量的灾厄村民会主动跑向它求治疗。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.85,
+   "notes": "正文“Hinder”段落。"
+  },
+  {
+   "mob_id": "illageandspillage:factory",
+   "name_en": "Factory",
+   "name_zh": "兵工厂",
+   "description_zh": "工程师搭建的迷你工厂，会生产三类保镖小兵：近战突刺的 poker、飞行狙击的 sniper，以及会滴滴响着自爆的 beeper。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.85,
+   "notes": "正文“Factory”段落。"
+  },
+  {
+   "mob_id": "illageandspillage:poker",
+   "name_en": "Poker",
+   "name_zh": "近战师",
+   "description_zh": "兵工厂生产的小型近战单位，速度快、只会贴身突刺。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.8,
+   "notes": "正文只称“small and fast melee pokers”，名称与刷怪蛋来自 jar。"
+  },
+  {
+   "mob_id": "illageandspillage:sniper",
+   "name_en": "Sniper",
+   "name_zh": "狙击手",
+   "description_zh": "兵工厂生产的飞行狙击单位，会在空中向玩家射击。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.8,
+   "notes": "正文“flying snipers”。"
+  },
+  {
+   "mob_id": "illageandspillage:beeper",
+   "name_en": "Beeper",
+   "name_zh": "传呼自爆机",
+   "description_zh": "兵工厂生产的自爆小苦力怕，接近目标时会膨胀引爆，爆炸前会发出滴滴声。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.8,
+   "notes": "正文“little beeping creepers”；jar 的 BeeperSwellGoal 对应膨胀自爆。"
+  },
+  {
+   "mob_id": "illageandspillage:dispenser",
+   "name_en": "Dispenser",
+   "name_zh": "魔法炮塔",
+   "description_zh": "魔法师召唤出的固定炮台，会朝目标发射弹幕；属于召唤物而非自然生物。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.55,
+   "notes": "依据 DispenserEntity 与 Magispeller 的 DispenserGoal；已注明是召唤炮台。"
+  },
+  {
+   "mob_id": "illageandspillage:faker",
+   "name_en": "Faker",
+   "name_zh": "魔法克隆体",
+   "description_zh": "魔法师制造的假身克隆（FakeMagispellerEntity），用来迷惑玩家、分散火力。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.55,
+   "notes": "依据 FakeMagispellerEntity 与 FakersGoal；资料有限。"
+  },
+  {
+   "mob_id": "illageandspillage:kaboomer",
+   "name_en": "Kaboomer",
+   "name_zh": "虚拟苦力怕",
+   "description_zh": "魔法师召唤的苦力怕式自爆单位，会冲向目标后爆炸。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.55,
+   "notes": "依据 KaboomerEntity 与 Magispeller 的 KaboomerGoal；资料有限。"
+  },
+  {
+   "mob_id": "illageandspillage:illashooter",
+   "name_en": "Illashooter",
+   "name_zh": "厄灵射手",
+   "description_zh": "灾厄灵体系的远程射手，会向目标射击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.55,
+   "notes": "依据 IllashooterEntity 的 AttackGoal；资料有限。"
+  },
+  {
+   "mob_id": "illageandspillage:illager_soul",
+   "name_en": "Illager Soul",
+   "name_zh": "灾厄灵",
+   "description_zh": "灵魂感应师召唤出的灾厄村民灵魂，会锁定并注视目标，作为 Boss 的护卫。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.5,
+   "notes": "依据 IllagerSoulEntity 的 LookAtTargetGoal 与实体名；资料有限。"
+  },
+  {
+   "mob_id": "illageandspillage:mob_spirit",
+   "name_en": "Mob Spirit",
+   "name_zh": "生之灵",
+   "description_zh": "灵魂感应师相关的灵体实体，带刷怪蛋但没有独立掉落表，行为资料很少。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.4,
+   "notes": "仅确认实体与刷怪蛋；资料有限。"
+  },
+  {
+   "mob_id": "illageandspillage:imp",
+   "name_en": "Imp",
+   "name_zh": "灵魂",
+   "description_zh": "灵魂感应师从地面召唤的小鬼，会作为爪牙围攻玩家。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.5,
+   "notes": "依据 ImpEntity 与 Spiritcaller 的 ImpRiseGoal；资料有限。"
+  },
+  {
+   "mob_id": "illageandspillage:spirit_hand",
+   "name_en": "Spirit Hand",
+   "name_zh": "灵魂之掌",
+   "description_zh": "灵魂感应师召唤的巨大手掌，会持续盯着并追向目标。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.5,
+   "notes": "依据 SpiritHandEntity 的 AlwaysWatchTargetGoal；资料有限。"
+  },
+  {
+   "mob_id": "illageandspillage:preserver",
+   "name_en": "Preserver",
+   "name_zh": "保护者",
+   "description_zh": "带刷怪蛋的保护型灾厄单位，AI 中有专门的保护目标（TryToProtectGoal），会替同伴挡伤害。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.5,
+   "notes": "依据 PreserverEntity 的 TryToProtectGoal；资料有限。"
+  },
+  {
+   "mob_id": "illageandspillage:crashager",
+   "name_en": "Crashager",
+   "name_zh": "碾压者",
+   "description_zh": "灾厄兽（Ravager）变体，会冲撞目标，可作为魔法师的召唤物出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.55,
+   "notes": "依据 CrashagerEntity$AttackGoal 与 Magispeller 的 CrashagerGoal；资料有限。"
+  },
+  {
+   "mob_id": "illageandspillage:crocofang",
+   "name_en": "Crocofang",
+   "name_zh": "鳄牙兽",
+   "description_zh": "鳄鱼形灾厄兽，会蓄力冲锋撞击目标，撞墙后会短暂眩晕，玩家可趁此反击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.6,
+   "notes": "依据 ChargeGoal 与 StunGoal；有刷怪蛋。"
+  },
+  {
+   "mob_id": "illageandspillage:twittollager",
+   "name_en": "Twittollager",
+   "name_zh": "暴躁推特哥",
+   "description_zh": "灾厄村民变体，会一边怒视玩家一边蓄力冲撞。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.55,
+   "notes": "依据 ChargeAtTargetGoal 与 StareAggressivelyGoal；资料有限。"
+  },
+  {
+   "mob_id": "illageandspillage:igniter",
+   "name_en": "Igniter",
+   "name_zh": "纵火者",
+   "description_zh": "灾厄村民变体，会连续发射火球进行远程攻击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.6,
+   "notes": "依据 IgniterEntity 的 ShootFireballsGoal 与刷怪蛋；资料有限。"
+  },
+  {
+   "mob_id": "illageandspillage:devastator",
+   "name_en": "Devastator",
+   "name_zh": "灾厄暴龙",
+   "description_zh": "已注册的灾厄 Boss，带刷怪蛋；模组正文把 Devastator 列为未来可能重新实现的内容，当前 jar 中也没有对应的实体类与掉落表，因此实际内容尚未完成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.45,
+   "notes": "正文“Re-implement and complete Devastator (maybe)”；jar 仅见注册名与刷怪蛋。"
+  },
+  {
+   "mob_id": "illageandspillage:freakager",
+   "name_en": "Freakager",
+   "name_zh": "怪人",
+   "description_zh": "来自下界的扭曲生物学家 Boss：会投掷 Funnybone 或 Eyesore 作为小兵，血量低于一半时狂怒地连掷大量斧头，还会扔炸弹、药水与镰刀。击败后掉落 Bag of Horrors。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.9,
+   "notes": "正文“Bosses - Freakager”段落；掉落取自 jar 战利品表。"
+  },
+  {
+   "mob_id": "illageandspillage:old_freakager",
+   "name_en": "Freakager",
+   "name_zh": "怪人",
+   "description_zh": "旧版本的怪人 Boss，保留旧版 AI（快速掷斧而非狂怒斧雨），掉落同样是 Bag of Horrors。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.6,
+   "notes": "依据 OldFreakagerEntity 的 FastAxesGoal 与同名掉落表；旧版用于兼容。"
+  },
+  {
+   "mob_id": "illageandspillage:ragno",
+   "name_en": "Ragno",
+   "name_zh": "腐败蜘蛛",
+   "description_zh": "怪人的蜘蛛伙伴 Boss：会用蛛网把玩家拖近、踩到会把你甩飞，半血后还会跳砸并喷吐变异物质。会潜地、冲锋、跳跃与吐网。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.9,
+   "notes": "正文“Ragno”段落；jar 有 Burrow/Leap/WebNet 等目标。"
+  },
+  {
+   "mob_id": "illageandspillage:old_ragno",
+   "name_en": "Ragno",
+   "name_zh": "腐败蜘蛛",
+   "description_zh": "旧版本的 Ragno，AI 与现版略有差异（缺少 WebNetGoal），掉落 Bag of Horrors。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.6,
+   "notes": "依据 OldRagnoEntity 的目标列表与掉落表；旧版用于兼容。"
+  },
+  {
+   "mob_id": "illageandspillage:funnybone",
+   "name_en": "Funnybone",
+   "name_zh": "幽默骨感",
+   "description_zh": "怪人投出的小型骷髅仆从，会一边扔骨头一边嘲笑玩家。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.85,
+   "notes": "正文“Funnybone…miniature skeleton rascals that throw bones and laugh”。"
+  },
+  {
+   "mob_id": "illageandspillage:eyesore",
+   "name_en": "Eyesore",
+   "name_zh": "血眼",
+   "description_zh": "怪人投出的眼球小兵，会不规则地滑行；玩家踩到会被弹飞到空中。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.85,
+   "notes": "正文“Eyesores…fling you in the air if you slip on them”；jar 有 SlitherGoal。"
+  },
+  {
+   "mob_id": "illageandspillage:magispeller",
+   "name_en": "Magispeller",
+   "name_zh": "魔法师",
+   "description_zh": "灾厄魔法师 Boss：会召唤恼鬼、唤魔者尖牙、火球、药水与炮台，还能召唤假身、虚拟苦力怕和碾压者，并靠治疗与吸血维持战斗。击败后掉落放逐图腾（Totem of Banishment）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.75,
+   "notes": "正文只笼统提到“许多其他生物与 Boss”；技能来自 jar 的 Magispeller 各 Goal，掉落取自战利品表。"
+  },
+  {
+   "mob_id": "illageandspillage:old_magispeller",
+   "name_en": "Magispeller",
+   "name_zh": "旧版魔法师",
+   "description_zh": "旧版本的魔法师 Boss，召唤表与现版不同（会召唤灾厄兽与克隆体），掉落同样是放逐图腾。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.6,
+   "notes": "依据 OldMagispellerEntity 的目标列表与掉落表；旧版用于兼容。"
+  },
+  {
+   "mob_id": "illageandspillage:spiritcaller",
+   "name_en": "Spiritcaller",
+   "name_zh": "灵魂感应师",
+   "description_zh": "灵魂系 Boss：会释放灵魂激光与灵魂群、召唤灵魂之掌和小鬼，并能吸取玩家的灵魂。击败后掉落 Spellbound Book。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/illage-and-spillage-respillaged",
+   "confidence": 0.7,
+   "notes": "技能来自 jar 的 SoulLaser/SoulSwarm/SpiritHands/ImpRise/StealSouls 目标，掉落取自战利品表。"
+  }
+ ]
+}

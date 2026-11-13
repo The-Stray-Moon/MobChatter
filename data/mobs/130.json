@@ -1,0 +1,107 @@
+{
+ "rank": 130,
+ "mod": "The John Mod Reborn",
+ "mod_url": "https://modrinth.com/mod/john_mod_reborn",
+ "mobs": [
+  {
+   "mob_id": "john_mod_reborn:john",
+   "name_en": "John",
+   "name_zh": "",
+   "description_zh": "来历不明的稀有怪物：皮肤极薄近乎全白，躯干和头部各有一张嘴，会撕开受害者并同时吞食其残骸，脸上像哭泣的男人，不停流着血泪并发出刺耳尖叫。它速度、力量与效率都很高，会在攻击前戏弄猎物；可在任意生物群系生成（权重 6，每次 1-2 只）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/john_mod_reborn",
+   "confidence": 0.85,
+   "notes": "外观与行为据 Modrinth 模组正文；生成权重据 jar 内 biome modifier。"
+  },
+  {
+   "mob_id": "john_mod_reborn:baby_john",
+   "name_en": "Baby John",
+   "name_zh": "",
+   "description_zh": "John 的幼体，尚未发展出特殊能力，但速度比多数成体更快、个体更弱，会以最多 15 只的群体出现。它们的叫声低沉、随年龄变高且传得不远；虽然年幼仍具敌意。可在任意生物群系以 3-9 只成群生成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/john_mod_reborn",
+   "confidence": 0.85,
+   "notes": "描述据 Modrinth 模组正文；生成数量据 jar 内 biome modifier（weight 9, 3-9）。"
+  },
+  {
+   "mob_id": "john_mod_reborn:baby_john_pack_lead",
+   "name_en": "Baby John",
+   "name_zh": "",
+   "description_zh": "幼体群体的领头个体，与普通 Baby John 一同生成（每次 1 只），负责带领最多 15 只幼体行动。除注册与生成配置外没有单独的文字介绍，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/john_mod_reborn",
+   "confidence": 0.5,
+   "notes": "仅据 jar 内实体注册与 baby_john_pack_lead biome modifier（weight 9, 1 只）。"
+  },
+  {
+   "mob_id": "john_mod_reborn:feral_baby_john_1",
+   "name_en": "Baby John",
+   "name_zh": "",
+   "description_zh": "野生（feral）幼体变体之一，注册为独立的 Baby John 实体，行为与普通幼体同类；除实体注册外没有公开资料，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/john_mod_reborn",
+   "confidence": 0.4,
+   "notes": "仅有实体注册可核实，无独立 loot table 与文字介绍。"
+  },
+  {
+   "mob_id": "john_mod_reborn:feral_baby_john_2",
+   "name_en": "Baby John",
+   "name_zh": "",
+   "description_zh": "野生（feral）幼体的第二个变体，注册为独立的 Baby John 实体，用于增加幼体外观/行为的随机性；除实体注册外没有公开资料，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/john_mod_reborn",
+   "confidence": 0.4,
+   "notes": "仅有实体注册可核实，无独立 loot table 与文字介绍。"
+  },
+  {
+   "mob_id": "john_mod_reborn:hugging_john",
+   "name_en": "John",
+   "name_zh": "",
+   "description_zh": "John 的“拥抱”行为形态（独立注册的 HuggingJohnEntity），用于表现它贴近并抓住玩家的动作；除实体注册外没有公开数值资料，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/john_mod_reborn",
+   "confidence": 0.45,
+   "notes": "仅据 jar 内 HuggingJohnEntity 类与实体注册名。"
+  },
+  {
+   "mob_id": "john_mod_reborn:sprinting_john",
+   "name_en": "John",
+   "name_zh": "",
+   "description_zh": "John 的冲刺形态（独立注册的 SprintingJohnEntity），用于快速追击玩家；模组正文提到成体 John 速度很快，但未单独说明该形态，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/john_mod_reborn",
+   "confidence": 0.45,
+   "notes": "仅据 jar 内 SprintingJohnEntity 类与实体注册名。"
+  },
+  {
+   "mob_id": "john_mod_reborn:weeping_john",
+   "name_en": "John",
+   "name_zh": "",
+   "description_zh": "John 的哭泣形态（独立注册的 WeepingJohnEntity），对应它不停哭泣、流血泪的形象；除实体注册外没有公开数值资料，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/john_mod_reborn",
+   "confidence": 0.45,
+   "notes": "仅据 jar 内 WeepingJohnEntity 类、实体注册名与模组正文中的哭泣形象。"
+  },
+  {
+   "mob_id": "john_mod_reborn:mega_john",
+   "name_en": "Mega John",
+   "name_zh": "",
+   "description_zh": "满月之夜，“The Hunted”被一道闪电般能量击中后变身而成：身高 15 米、高过森林树木，视野达 200 米，尖叫声在 500 米外都能听见。遇到它应当逃跑、躲藏并等待，它会在接下来的三个月亮周期内消失。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/john_mod_reborn",
+   "confidence": 0.85,
+   "notes": "描述据 Modrinth 模组正文；jar 内有 mega_john 刷怪蛋。"
+  },
+  {
+   "mob_id": "john_mod_reborn:the_hunted",
+   "name_en": "The Hunted",
+   "name_zh": "",
+   "description_zh": "一种会在满月时发生转变的怪物：满月之夜被能量击中后会变成 15 米高的 Mega John。可在任意生物群系生成，但权重仅 1，每次 1 只。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/john_mod_reborn",
+   "confidence": 0.8,
+   "notes": "变身描述据 Modrinth 模组正文的 Mega John 段落；生成权重据 jar 内 biome modifier。"
+  }
+ ]
+}

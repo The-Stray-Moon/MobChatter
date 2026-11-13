@@ -1,0 +1,57 @@
+{
+ "rank": 105,
+ "mod": "Werewolves",
+ "mod_url": "https://modrinth.com/mod/werewolves",
+ "mobs": [
+  {
+   "mob_id": "werewolves:werewolf_beast",
+   "name_en": "Beast Werewolf",
+   "name_zh": "野兽",
+   "description_zh": "野兽狼人是野化狼人的战斗形态，作为怪物在针叶林生成（权重 80，每次 1–2 只），并会主动袭击村庄。拥有 30 点生命、5 点攻击。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/werewolves",
+   "confidence": 0.7,
+   "notes": "正文说明狼人阵营与“野兽”偏重战斗的路线；生成群系/权重、30 生命/5 攻击、袭击村庄目标取自 jar。en_us 中该实体显示为 Werewolf，刷怪蛋名为 Beast Werewolf。"
+  },
+  {
+   "mob_id": "werewolves:werewolf_survivalist",
+   "name_en": "Survivalist Werewolf",
+   "name_zh": "狼",
+   "description_zh": "生存者狼人是偏重迅捷灵活的野化狼人形态，与野兽狼人一样在针叶林生成（权重 80，每次 1–2 只），会袭击村庄。拥有 30 点生命、5 点攻击。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/werewolves",
+   "confidence": 0.7,
+   "notes": "正文说明“生存者”偏重敏捷；生成、属性与村庄袭击目标取自 jar。en_us 显示为 Werewolf，刷怪蛋名为 Survivalist Werewolf。"
+  },
+  {
+   "mob_id": "werewolves:alpha_werewolf",
+   "name_en": "Alpha Werewolf",
+   "name_zh": "阿尔法狼人",
+   "description_zh": "阿尔法狼人是狼群的首领，名称后会显示等级，拥有 140 点生命和 6 点攻击，普通狼人会跟随它行动。可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/werewolves",
+   "confidence": 0.5,
+   "notes": "正文未单独介绍；140 生命/6 攻击、等级 NBT、FollowAlphaWerewolfGoal 与刷怪蛋取自 jar。未发现它的自然生成配置。"
+  },
+  {
+   "mob_id": "werewolves:human_werewolf",
+   "name_en": "Lycanthrope",
+   "name_zh": "狼人",
+   "description_zh": "人形狼人（Lycanthrope）平时以人形在针叶林游荡（权重 5），遇到危险会惊慌逃跑并能打开木门，之后可以变身为狼形。拥有 30 点生命、3 点攻击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/werewolves",
+   "confidence": 0.5,
+   "notes": "正文未单独介绍；生成权重 5、30 生命/3 攻击、PanicGoal/OpenDoorGoal 与化身狼形的逻辑取自 jar。"
+  },
+  {
+   "mob_id": "werewolves:task_master_werewolf",
+   "name_en": "Werewolf Representative",
+   "name_zh": "狼人代表",
+   "description_zh": "狼人代表是模组狼人阵营的任务发布者，负责给玩家派发任务并发放奖励。拥有 30 点生命、5 点攻击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/werewolves",
+   "confidence": 0.45,
+   "notes": "正文未单独介绍；IDefaultTaskMasterEntity 接口、任务/奖励文本与继承自 WerewolfBaseEntity 的 30 生命/5 攻击取自 jar。资料有限。"
+  }
+ ]
+}

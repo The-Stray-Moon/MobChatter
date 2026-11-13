@@ -1,0 +1,177 @@
+{
+ "rank": 43,
+ "mod": "The End of Herobrine",
+ "mod_url": "https://modrinth.com/mod/endofherobrine",
+ "mobs": [
+  {
+   "mob_id": "endofherobrine:herobrine",
+   "name_en": "Herobrine",
+   "name_zh": "",
+   "description_zh": "模组的核心存在，开局就已存在于世界中，并按玩家行为逐步提升敌意；Boss 形态生命值 45、护甲 4，移动速度 1.5、飞行速度 1.8。可用地狱岩图腾削弱他、用黑曜石图腾使其变为可击杀状态，当前 Boss 战为占位内容。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/endofherobrine",
+   "confidence": 0.8,
+   "notes": "数值取自 HerobrineBoss 属性注册。"
+  },
+  {
+   "mob_id": "endofherobrine:builder",
+   "name_en": "Builder",
+   "name_zh": "",
+   "description_zh": "Herobrine 的“建造者”变体，会搭建由他名字字母组成的结构、陷阱和告示牌来骚扰玩家；基础生命值 20，索敌范围达 256 格，通常不直接参与近战。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/endofherobrine",
+   "confidence": 0.8,
+   "notes": "行为来自模组正文；生命值/索敌范围取自 AbstractHerobrine 属性注册。"
+  },
+  {
+   "mob_id": "endofherobrine:lurker",
+   "name_en": "Lurker",
+   "name_zh": "",
+   "description_zh": "Herobrine 的“潜行者”变体，会主动跟踪玩家并不断换位置观察，靠近时会发出警告并传送离开；攻击命中会附加 7.5 秒失明与黑暗效果。基础生命值 20。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/endofherobrine",
+   "confidence": 0.8,
+   "notes": "行为来自模组正文；失明/黑暗效果来自 Lurker 攻击代码，生命值取自 AbstractHerobrine。"
+  },
+  {
+   "mob_id": "endofherobrine:armor_stand",
+   "name_en": "Possessed Armor Stand",
+   "name_zh": "",
+   "description_zh": "被 Herobrine 之力附身的盔甲架，会作为敌对生物活动并使用近战攻击玩家。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/endofherobrine",
+   "confidence": 0.5,
+   "notes": "依据实体注册与 AI 目标；无独立生命值注册，沿用 PathfinderMob 默认值。资料有限，仅基于 jar 内可核实数据。"
+  },
+  {
+   "mob_id": "endofherobrine:chicken",
+   "name_en": "Possessed Chicken",
+   "name_zh": "",
+   "description_zh": "被附身的鸡，生命值 4、攻击力 1；被攻击时会传送躲避，属于中立生物，不主动攻击。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/endofherobrine",
+   "confidence": 0.6,
+   "notes": "具体数值取自 jar 内实体属性注册；行为描述依据模组正文与实体 AI。"
+  },
+  {
+   "mob_id": "endofherobrine:cow",
+   "name_en": "Possessed Cow",
+   "name_zh": "",
+   "description_zh": "被附身的牛，生命值 30、攻击力 10，是中立的被附身动物，受激怒后会用高伤害近战反击。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/endofherobrine",
+   "confidence": 0.6,
+   "notes": "具体数值取自 jar 内实体属性注册；行为描述依据模组正文与实体 AI。"
+  },
+  {
+   "mob_id": "endofherobrine:pig",
+   "name_en": "Possessed Pig",
+   "name_zh": "",
+   "description_zh": "被附身的猪，生命值 10、攻击力 3，可以骑乘。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/endofherobrine",
+   "confidence": 0.6,
+   "notes": "具体数值取自 jar 内实体属性注册；行为描述依据模组正文与实体 AI。"
+  },
+  {
+   "mob_id": "endofherobrine:rabbit",
+   "name_en": "Possessed Rabbit",
+   "name_zh": "",
+   "description_zh": "被附身的兔子，生命值 3；被玩家杀死时会爆炸并留下滞留药云。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/endofherobrine",
+   "confidence": 0.6,
+   "notes": "具体数值取自 jar 内实体属性注册；行为描述依据模组正文与实体 AI。"
+  },
+  {
+   "mob_id": "endofherobrine:sheep",
+   "name_en": "Possessed Sheep",
+   "name_zh": "",
+   "description_zh": "被附身的羊，生命值 8、攻击力 3；被击杀时会分裂出最多 3 只克隆体。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/endofherobrine",
+   "confidence": 0.6,
+   "notes": "具体数值取自 jar 内实体属性注册；行为描述依据模组正文与实体 AI。"
+  },
+  {
+   "mob_id": "endofherobrine:villager",
+   "name_en": "Possessed Villager",
+   "name_zh": "",
+   "description_zh": "被附身的村民，生命值 35、护甲 4、攻击力 6，移动速度 0.5，比普通村民更具威胁。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/endofherobrine",
+   "confidence": 0.6,
+   "notes": "具体数值取自 jar 内实体属性注册；行为描述依据模组正文与实体 AI。"
+  },
+  {
+   "mob_id": "endofherobrine:pigman",
+   "name_en": "Possessed Pigman",
+   "name_zh": "",
+   "description_zh": "被附身的猪人，生命值 20、攻击力 5，移动速度 0.35。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/endofherobrine",
+   "confidence": 0.6,
+   "notes": "具体数值取自 jar 内实体属性注册；行为描述依据模组正文与实体 AI。"
+  },
+  {
+   "mob_id": "endofherobrine:husk",
+   "name_en": "Possessed Husk",
+   "name_zh": "",
+   "description_zh": "被附身的尸壳，生命值 35、护甲 4、攻击力 6，比原版尸壳更强。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/endofherobrine",
+   "confidence": 0.6,
+   "notes": "具体数值取自 jar 内实体属性注册；行为描述依据模组正文与实体 AI。"
+  },
+  {
+   "mob_id": "endofherobrine:silverfish",
+   "name_en": "Possessed Silverfish",
+   "name_zh": "",
+   "description_zh": "被附身的蠹虫，生命值 8、攻击力 1，会传送并召唤更多被附身的蠹虫。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/endofherobrine",
+   "confidence": 0.6,
+   "notes": "具体数值取自 jar 内实体属性注册；行为描述依据模组正文与实体 AI。"
+  },
+  {
+   "mob_id": "endofherobrine:skeleton",
+   "name_en": "Possessed Skeleton",
+   "name_zh": "",
+   "description_zh": "被附身的骷髅，生命值 35、攻击力 6，索敌范围 40 格。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/endofherobrine",
+   "confidence": 0.6,
+   "notes": "具体数值取自 jar 内实体属性注册；行为描述依据模组正文与实体 AI。"
+  },
+  {
+   "mob_id": "endofherobrine:stray",
+   "name_en": "Possessed Stray",
+   "name_zh": "",
+   "description_zh": "被附身的流浪者，生命值 35、攻击力 6，索敌范围 40 格。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/endofherobrine",
+   "confidence": 0.6,
+   "notes": "具体数值取自 jar 内实体属性注册；行为描述依据模组正文与实体 AI。"
+  },
+  {
+   "mob_id": "endofherobrine:zombie",
+   "name_en": "Possessed Zombie",
+   "name_zh": "",
+   "description_zh": "被附身的僵尸，生命值 35、护甲 4、攻击力 6，索敌范围 40 格。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/endofherobrine",
+   "confidence": 0.6,
+   "notes": "具体数值取自 jar 内实体属性注册；行为描述依据模组正文与实体 AI。"
+  },
+  {
+   "mob_id": "endofherobrine:zombie_villager",
+   "name_en": "Possessed Zombie Villager",
+   "name_zh": "",
+   "description_zh": "被附身的僵尸村民，生命值 35、护甲 4、攻击力 6，比原版僵尸村民更强。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/endofherobrine",
+   "confidence": 0.6,
+   "notes": "具体数值取自 jar 内实体属性注册；行为描述依据模组正文与实体 AI。"
+  }
+ ]
+}

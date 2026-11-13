@@ -1,0 +1,98 @@
+{
+  "rank": 234,
+  "mod": "MonsterPlus",
+  "mod_url": "https://modrinth.com/mod/monsterplus",
+  "mobs": [
+    {
+      "mob_id": "monsterplus:crystal_zombie",
+      "name_en": "Crystalian",
+      "name_zh": "",
+      "description_zh": "生成于地下的僵尸类水晶生物，会在目标脚下召唤水晶尖刺刺伤目标。掉落制作水晶套装所需的水晶碎片（crystal_shard）与水晶块（crystal_clump），以及深板岩。",
+      "source": "mod_body",
+      "source_url": "https://modrinth.com/mod/monsterplus",
+      "confidence": 0.85,
+      "notes": "实体名与 jar 内 entity.monsterplus.crystal_zombie 一致；crystal_zombie 战利品表（crystal_shard/crystal_clump/deepslate）与刷怪蛋均在 jar 内。MC百科模组介绍页 https://www.mcmod.cn/class/11453.html 未给出中文名。"
+    },
+    {
+      "mob_id": "monsterplus:glow_skeleton",
+      "name_en": "Glow Skeleton",
+      "name_zh": "",
+      "description_zh": "在地下深处生成的骷髅变种，自身发光，远处即可发现，强度略高于普通骷髅。命中目标会施加发光效果、暴露其位置；可持弓或石剑生成，掉落骨头、箭、荧光墨囊，有时还有荧石粉或光灵箭。",
+      "source": "mod_body",
+      "source_url": "https://modrinth.com/mod/monsterplus",
+      "confidence": 0.85,
+      "notes": "jar 内 glow_skeleton 战利品表（arrow/bone/glow_ink_sac/glowstone_dust/spectral_arrow）与刷怪蛋齐备；正文另称可能掉落幽魂碎片，1.20.1 战利品表中未见该项。MC百科介绍页 https://www.mcmod.cn/class/11453.html 与正文一致。"
+    },
+    {
+      "mob_id": "monsterplus:abyssologer",
+      "name_en": "Hermit Abysswalker",
+      "name_zh": "",
+      "description_zh": "类似唤魔者的灾厄村民，稀有地生成于地下深处。会给玩家施加黑暗效果，并用火球和从地面穿出的紫色水晶尖刺攻击，还会召唤 Opalescent Eye 与 Spectral Minion 助战；掉落水晶碎片，以及黑曜石与哭泣的黑曜石。",
+      "source": "mod_body",
+      "source_url": "https://modrinth.com/mod/monsterplus",
+      "confidence": 0.85,
+      "notes": "jar 内 abyssologer 战利品表为 crystal_shard/obsidian/crying_obsidian，另有刷怪蛋；正文称还会掉落“暗黑精华”，1.20.1 战利品表中未见，未写入介绍。"
+    },
+    {
+      "mob_id": "monsterplus:lava_squid",
+      "name_en": "Lava Squid",
+      "name_zh": "",
+      "description_zh": "在下界成群生成、能够飞行的鱿鱼。平时被动，受到攻击后会用火球反击，并惊动附近所有熔岩鱿鱼一起围攻；掉落烈焰粉和岩浆膏。",
+      "source": "mod_body",
+      "source_url": "https://modrinth.com/mod/monsterplus",
+      "confidence": 0.85,
+      "notes": "jar 内 lava_squid 战利品表（blaze_powder/magma_cream）与刷怪蛋齐备。"
+    },
+    {
+      "mob_id": "monsterplus:mother_lava_squid",
+      "name_en": "Mother Lava Squid",
+      "name_zh": "",
+      "description_zh": "体型更大、更强的熔岩鱿鱼，在下界稀有生成且始终敌对。会召集附近熔岩鱿鱼攻击目标，并不断生出新的熔岩鱿鱼；攻击方式为单发大火球或连发火球，掉落物与熔岩鱿鱼相同但概率更高。",
+      "source": "mod_body",
+      "source_url": "https://modrinth.com/mod/monsterplus",
+      "confidence": 0.85,
+      "notes": "jar 内 mother_lava_squid 战利品表（blaze_powder/magma_cream）与刷怪蛋齐备。"
+    },
+    {
+      "mob_id": "monsterplus:opalescent_eye",
+      "name_en": "Opalescent Eye",
+      "name_zh": "",
+      "description_zh": "由深渊行者（Hermit Abysswalker）召唤的发光飞行巨眼，没有视力，用于对付其敌人。单体很弱，但在深渊行者与其他召唤物配合下成群出现时仍有威胁。",
+      "source": "mod_body",
+      "source_url": "https://modrinth.com/mod/monsterplus",
+      "confidence": 0.8,
+      "notes": "jar 内有刷怪蛋，但没有战利品表；属召唤物，不会自然生成。"
+    },
+    {
+      "mob_id": "monsterplus:overgrown_skeleton",
+      "name_en": "Overgrown Skeleton",
+      "name_zh": "",
+      "description_zh": "骷髅变种，不会在阳光下燃烧，生成于丛林和繁茂洞穴生物群系。攻击会使敌人中毒；可空手、持木剑或持弓生成。",
+      "source": "mod_body",
+      "source_url": "https://modrinth.com/mod/monsterplus",
+      "confidence": 0.85,
+      "notes": "jar 内 overgrown_skeleton 战利品表（arrow/bone/vine/glow_berries）与刷怪蛋齐备。"
+    },
+    {
+      "mob_id": "monsterplus:spectral_skeleton",
+      "name_en": "Spectral Minion",
+      "name_zh": "",
+      "description_zh": "深渊行者召唤的半透明发光骷髅，是骷髅的弱化亲属。单体较弱，但与主人及其他召唤物一同围攻时仍具威胁。",
+      "source": "mod_body",
+      "source_url": "https://modrinth.com/mod/monsterplus",
+      "confidence": 0.8,
+      "notes": "jar 内有刷怪蛋，但没有战利品表；属召唤物。"
+    },
+    {
+      "mob_id": "monsterplus:swamp_zombie",
+      "name_en": "Swamp Monster",
+      "name_zh": "",
+      "description_zh": "僵尸变种，生成于沼泽和红树林沼泽生物群系，攻击会使敌人中毒。掉落腐肉、泥巴，偶尔还有毒马铃薯。",
+      "source": "mod_body",
+      "source_url": "https://modrinth.com/mod/monsterplus",
+      "confidence": 0.85,
+      "notes": "jar 内 swamp_zombie 战利品表（rotten_flesh/mud/poisonous_potato）与刷怪蛋齐备。"
+    }
+  ],
+  "note": "jar 内另有实体 monsterplus:crystal_spikes（Crystal Spikes），是深渊行者/水晶僵尸召唤的水晶尖刺攻击判定，无刷怪蛋、无战利品表，按非生物跳过；purple_fireball、crystal_arrow 为投掷物。"
+}

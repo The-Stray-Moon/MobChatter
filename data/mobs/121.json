@@ -1,0 +1,37 @@
+{
+ "rank": 121,
+ "mod": "Doctor Nowhere mod",
+ "mod_url": "https://modrinth.com/mod/doctor-nowhere",
+ "mobs": [
+  {
+   "mob_id": "doctor_nowhere:follower",
+   "name_en": "Follower",
+   "name_zh": "",
+   "description_zh": "模组中的敌对近战生物，代码中的 AI 目标包含近战攻击与回避阳光（RestrictSunGoal），会主动靠近并攻击玩家；jar 内有独立刷怪蛋，但没有掉落表。模组正文称这个世界被清空后只会偶尔出现两只让人怀疑“这里真的没有别人”的怪物，Follower 即其中之一。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/doctor-nowhere",
+   "confidence": 0.45,
+   "notes": "MC百科无该模组条目；描述依据 jar 内实体类 AI 目标与 Modrinth 正文，生命值/伤害无法核实"
+  },
+  {
+   "mob_id": "doctor_nowhere:the_locust",
+   "name_en": "The Locust Evolution",
+   "name_zh": "",
+   "description_zh": "模组的主要怪物，代码中带有寻敌目标（NearestAttackableTargetGoal）与近战攻击目标，会主动锁定并攻击玩家；拥有独立刷怪蛋，jar 内无掉落表。正文只说明模组会加入 The Locust 与 Follower 两只怪物，未给出生命值或伤害数值。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/doctor-nowhere",
+   "confidence": 0.45,
+   "notes": "当前语言文件把该实体标为 “The Locust Evolution”，旧命名空间 doctor_nowhere_mod 中为 “The Locust”"
+  },
+  {
+   "mob_id": "doctor_nowhere:the_locust_observation",
+   "name_en": "The Locust Evolution Observation",
+   "name_zh": "",
+   "description_zh": "与 The Locust 共用同一套模型与动画（geo/thelocust、animations/thelocust）的独立实体，AI 中只有漂浮目标，没有寻敌或攻击逻辑，更像用于演出/观察的版本；有独立刷怪蛋，无掉落表。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/doctor-nowhere",
+   "confidence": 0.45,
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "rank": 59,
+ "mod": "The Graveyard (Forge)",
+ "mod_url": "https://modrinth.com/mod/the-graveyard-forge",
+ "mobs": [
+  {
+   "mob_id": "graveyard:acolyte",
+   "name_en": "Acolyte",
+   "name_zh": "守灵人",
+   "description_zh": "24 点生命值、2 点护甲的敌对灾厄村民，常见于大型墓园、地下墓穴与鬼屋，会主动攻击玩家、村民、流浪商人与铁傀儡，并用骨头匕首作战。连续三天不睡后每天有几率在你附近生成 1–2 只（伴随腐化卫道士与掠夺者），击杀掉落 1 个堕落精华并有几率掉骨头匕首。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/783153.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "graveyard:lich",
+   "name_en": "Corrupted Champion",
+   "name_zh": "腐化勇者",
+   "description_zh": "墓园模组的 BOSS：腐化勇者的遗骸待在海上监狱的祭坛旁，夜晚用装满的血瓶倒在祭坛上召唤，战斗分三个阶段，各有独立血条。第一阶段它会投掷爆裂头颅、召唤坠落尸体/尖牙/诅咒头骨并施放漂浮，低于 300 血时会传送玩家并自愈；第二阶段无敌地追击 40 秒后回到祭坛僵直 30 秒；第三阶段身体断裂、爬行扑咬。击杀掉落五色骨杖之一，可召唤食尸鬼从者。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/777374.html",
+   "confidence": 0.9,
+   "notes": "MC百科页面记录生命值 400（三阶段另有 200+200）、护甲 14，免疫状态效果与击退。"
+  },
+  {
+   "mob_id": "graveyard:corrupted_evoker",
+   "name_en": "Corrupted Evoker",
+   "name_zh": "腐化唤魔者",
+   "description_zh": "守卫被侵袭村庄的亡灵灾厄村民，与被侵袭村庄一起生成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-graveyard-forge",
+   "confidence": 0.8,
+   "notes": ""
+  },
+  {
+   "mob_id": "graveyard:corrupted_pillager",
+   "name_en": "Corrupted Pillager",
+   "name_zh": "腐化掠夺者",
+   "description_zh": "24 点生命值、无护甲的亡灵灾厄村民，模型像掠夺者但不会拿弩，伤害较低但移动很快，白天会着火；夜间会与 2–6 个守灵人、数只腐化卫道士一起生成，死后掉落 1 个堕落精华。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/783155.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "graveyard:corrupted_vindicator",
+   "name_en": "Corrupted Vindicator",
+   "name_zh": "腐化卫道士",
+   "description_zh": "24 点生命值、无护甲的亡灵灾厄村民，模型像卫道士但不会拿斧，白天会着火；夜间会与守灵人、腐化掠夺者成群生成（约 30 人），死后掉落 1 个堕落精华。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/783154.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "graveyard:crow",
+   "name_en": "Crow",
+   "name_zh": "乌鸦",
+   "description_zh": "成群飞行、会啄食农作物的鸟类，受惊时整群散开，并会避开用干草捆加南瓜或戴南瓜的盔甲架做成的稻草人；击杀掉落羽毛与堕落精华。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-graveyard-forge",
+   "confidence": 0.8,
+   "notes": "掉落信息取自 jar 内的掉落表。"
+  },
+  {
+   "mob_id": "graveyard:ghoul",
+   "name_en": "Ghoul",
+   "name_zh": "食尸鬼",
+   "description_zh": "夜间生成的亡灵，白天会被阳光烧死，常与亡魂一起组成 20–30 只的“墓园军团”，击败整支军团可完成进度【行尸走肉】。MC百科记录它有 20 点生命值、3 点护甲，击杀有几率掉落 1 个堕落精华。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/783157.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "graveyard:ghouling",
+   "name_en": "Ghouling",
+   "name_zh": "食尸鬼从者",
+   "description_zh": "用骨杖点方块召唤出的亡灵从者，会跟随你、替你作战、听令原地等待，也能收回法杖带到别处放出。给它棺材或石棺后可携带 54 格物品并自动拾取周围的掉落物。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-graveyard-forge",
+   "confidence": 0.8,
+   "notes": ""
+  },
+  {
+   "mob_id": "graveyard:magpie",
+   "name_en": "Magpie",
+   "name_zh": "喜鹊",
+   "description_zh": "会捡走地上的金粒、锭、原矿和宝石，打它一下就会把捡走的东西掉出来；击杀还会掉落羽毛与堕落精华。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-graveyard-forge",
+   "confidence": 0.8,
+   "notes": "掉落信息取自 jar 内的掉落表。"
+  },
+  {
+   "mob_id": "graveyard:nameless_hanged",
+   "name_en": "Nameless Hanged",
+   "name_zh": "无名吊死者",
+   "description_zh": "只在夜间做生意的商人，用本模组生物掉落的“腐化”作为货币，偶尔也出售骨杖碎片或遗迹地图。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-graveyard-forge",
+   "confidence": 0.8,
+   "notes": ""
+  },
+  {
+   "mob_id": "graveyard:nightmare",
+   "name_en": "Nightmare",
+   "name_zh": "梦魇",
+   "description_zh": "50 点生命值的中立亡灵，外形比末影人略高且弓腰，直视它不会激怒它；攻击前会先让玩家失明并瞬移，再像末影人一样近身攻击。击杀掉落 1–2 个堕落精华，在失明状态下击杀还能完成进度【躲猫猫，我（还）能看见你】。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/783160.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "graveyard:raven",
+   "name_en": "Raven",
+   "name_zh": "渡鸦",
+   "description_zh": "会停在墓碑、栅栏、墙和树叶上的鸟类，被击杀时掉落羽毛与堕落精华。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-graveyard-forge",
+   "confidence": 0.8,
+   "notes": "掉落信息取自 jar 内的掉落表。"
+  },
+  {
+   "mob_id": "graveyard:reaper",
+   "name_en": "Reaper",
+   "name_zh": "死神",
+   "description_zh": "20 点生命值、无护甲的亡灵，可以飞行并穿墙，自然生成于带有 is_spooky 标签的群系（黑森林、深暗之域），伤害随难度为 3/4/6 点。掉落 1 个灵魂沙（50%）、0–1 个堕落精华（50%）以及骨头（2.5%）。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/783152.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "graveyard:revenant",
+   "name_en": "Revenant",
+   "name_zh": "亡魂",
+   "description_zh": "27 点生命值、2 点护甲的亡灵，受到攻击时有概率“散架”进入 2–4 秒无敌状态，之后重新组合且血量不变，必须把血量打空才算杀死。夜间会与食尸鬼结成 20–30 只的墓园军团，击杀有概率掉 1 个堕落精华与 1–2 根骨头。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/783158.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "graveyard:skeleton_creeper",
+   "name_en": "Skeleton Creeper",
+   "name_zh": "骷髅苦力怕",
+   "description_zh": "亡灵化的苦力怕，爆炸前会膨胀，默认设置下爆炸不破坏方块。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-graveyard-forge",
+   "confidence": 0.8,
+   "notes": ""
+  },
+  {
+   "mob_id": "graveyard:tormented_villager",
+   "name_en": "Tormented Villager",
+   "name_zh": "受折磨的村民",
+   "description_zh": "夜里出现在被侵袭的村庄，武器无法伤害它；在 48 格内敲钟可将其救赎并获得经验，没人敲钟的话它会在黎明消散。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-graveyard-forge",
+   "confidence": 0.8,
+   "notes": ""
+  },
+  {
+   "mob_id": "graveyard:wraith",
+   "name_en": "Wraith",
+   "name_zh": "幽魂",
+   "description_zh": "10 点生命值的亡灵，玩家打开墓园里的棺材时会现身骚扰，每次造成 5 点伤害；它还会熄灭附近的火把，首次看到这个行为可完成进度【谁把灯关了？】。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/783159.html",
+   "confidence": 0.9,
+   "notes": ""
+  }
+ ]
+}

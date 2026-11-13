@@ -1,0 +1,2414 @@
+{
+ "rank": 233,
+ "mod": "Bok's Banging Butterflies",
+ "slug": "boks-butterflies",
+ "project_id": "hUw80ZZs",
+ "source_url": "https://modrinth.com/mod/boks-butterflies",
+ "jar": "D:\\work\\MobChatter\\data\\jars\\hUw80ZZs.jar",
+ "jar_size": 3141634,
+ "modid": "butterflies",
+ "entity_count": 300,
+ "mob_count": 232,
+ "entities": [
+  {
+   "key": "entity.butterflies.admiral",
+   "id": "admiral",
+   "en": "Admiral Butterfly",
+   "zh": "优红蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.admiral_egg",
+   "id": "admiral_egg",
+   "en": "Admiral Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.admiral_caterpillar",
+   "id": "admiral_caterpillar",
+   "en": "Admiral Caterpillar",
+   "zh": "优红蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.admiral_chrysalis",
+   "id": "admiral_chrysalis",
+   "en": "Admiral Chrysalis",
+   "zh": "优红蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_villager.armorer",
+   "id": "armorer",
+   "en": "Armorer",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.atlas_chrysalis",
+   "id": "atlas_chrysalis",
+   "en": "Atlas Cocoon",
+   "zh": "皇蛾茧",
+   "loot_table": "atlas_chrysalis",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.atlas_caterpillar",
+   "id": "atlas_caterpillar",
+   "en": "Atlas Larva",
+   "zh": "皇蛾幼虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.atlas",
+   "id": "atlas",
+   "en": "Atlas Moth",
+   "zh": "皇蛾",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.atlas_egg",
+   "id": "atlas_egg",
+   "en": "Atlas Moth Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.common",
+   "id": "common",
+   "en": "Birdwing Butterfly",
+   "zh": "鸟翼蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.common_caterpillar",
+   "id": "common_caterpillar",
+   "en": "Birdwing Caterpillar",
+   "zh": "鸟翼蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.common_chrysalis",
+   "id": "common_chrysalis",
+   "en": "Birdwing Chrysalis",
+   "zh": "鸟翼蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.bluemoon",
+   "id": "bluemoon",
+   "en": "Blue Moon Butterfly (Female)",
+   "zh": "雌性幻紫斑蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.bluemoonmale",
+   "id": "bluemoonmale",
+   "en": "Blue Moon Butterfly (Male)",
+   "zh": "雄性幻紫斑蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.bluemoon_caterpillar",
+   "id": "bluemoon_caterpillar",
+   "en": "Blue Moon Caterpillar",
+   "zh": "幻紫斑蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.bluemoonmale_caterpillar",
+   "id": "bluemoonmale_caterpillar",
+   "en": "Blue Moon Caterpillar",
+   "zh": "幻紫斑蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.bluemoon_chrysalis",
+   "id": "bluemoon_chrysalis",
+   "en": "Blue Moon Chrysalis",
+   "zh": "幻紫斑蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.bluemoonmale_chrysalis",
+   "id": "bluemoonmale_chrysalis",
+   "en": "Blue Moon Chrysalis",
+   "zh": "幻紫斑蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.bluemoon_egg",
+   "id": "bluemoon_egg",
+   "en": "Bluemoon Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.bluemoonmale_egg",
+   "id": "bluemoonmale_egg",
+   "en": "Bluemoonmale Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.buckeye",
+   "id": "buckeye",
+   "en": "Buckeye Butterfly",
+   "zh": "北美眼蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.buckeye_egg",
+   "id": "buckeye_egg",
+   "en": "Buckeye Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.buckeye_caterpillar",
+   "id": "buckeye_caterpillar",
+   "en": "Buckeye Caterpillar",
+   "zh": "北美眼蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.buckeye_chrysalis",
+   "id": "buckeye_chrysalis",
+   "en": "Buckeye Chrysalis",
+   "zh": "北美眼蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_villager.butcher",
+   "id": "butcher",
+   "en": "Butcher",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.butterfly_golem",
+   "id": "butterfly_golem",
+   "en": "Butterfly Golem",
+   "zh": "",
+   "loot_table": "butterfly_golem",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.cabbage",
+   "id": "cabbage",
+   "en": "Cabbage Butterfly",
+   "zh": "菜粉蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.cabbage_egg",
+   "id": "cabbage_egg",
+   "en": "Cabbage Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.cabbage_caterpillar",
+   "id": "cabbage_caterpillar",
+   "en": "Cabbage Caterpillar",
+   "zh": "菜粉蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.cabbage_chrysalis",
+   "id": "cabbage_chrysalis",
+   "en": "Cabbage Chrysalis",
+   "zh": "菜粉蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.carpet_chrysalis",
+   "id": "carpet_chrysalis",
+   "en": "Carpet Cocoon",
+   "zh": "毛毡衣蛾茧",
+   "loot_table": "carpet_chrysalis",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.carpet_caterpillar",
+   "id": "carpet_caterpillar",
+   "en": "Carpet Larva",
+   "zh": "毛毡衣蛾幼虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.carpet",
+   "id": "carpet",
+   "en": "Carpet Moth",
+   "zh": "毛毡衣蛾",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.carpet_egg",
+   "id": "carpet_egg",
+   "en": "Carpet Moth Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.peacemaker_villager.cartographer",
+   "id": "cartographer",
+   "en": "Cartographer",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.case-bearing-clothes_chrysalis",
+   "id": "case-bearing-clothes_chrysalis",
+   "en": "Case Bearing Clothes Cocoon",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.case-bearing-clothes_caterpillar",
+   "id": "case-bearing-clothes_caterpillar",
+   "en": "Case Bearing Clothes Larva",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.case-bearing-clothes",
+   "id": "case-bearing-clothes",
+   "en": "Case Bearing Clothes Moth",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.case-bearing-clothes_egg",
+   "id": "case-bearing-clothes_egg",
+   "en": "Case Bearing Clothes Moth Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.chalkhill",
+   "id": "chalkhill",
+   "en": "Chalkhill Butterfly",
+   "zh": "白脉灰蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.chalkhill_egg",
+   "id": "chalkhill_egg",
+   "en": "Chalkhill Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.chalkhill_caterpillar",
+   "id": "chalkhill_caterpillar",
+   "en": "Chalkhill Caterpillar",
+   "zh": "白脉灰蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.chalkhill_chrysalis",
+   "id": "chalkhill_chrysalis",
+   "en": "Chalkhill Chrysalis",
+   "zh": "白脉灰蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.christmas",
+   "id": "christmas",
+   "en": "Christmas Butterfly",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.christmas_egg",
+   "id": "christmas_egg",
+   "en": "Christmas Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.christmas_caterpillar",
+   "id": "christmas_caterpillar",
+   "en": "Christmas Caterpillar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.christmas_chrysalis",
+   "id": "christmas_chrysalis",
+   "en": "Christmas Chrysalis",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clearwing-hummingbird_chrysalis",
+   "id": "clearwing-hummingbird_chrysalis",
+   "en": "Clearwing Hummingbird Cocoon",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clearwing-hummingbird_caterpillar",
+   "id": "clearwing-hummingbird_caterpillar",
+   "en": "Clearwing Hummingbird Larva",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clearwing-hummingbird",
+   "id": "clearwing-hummingbird",
+   "en": "Clearwing Hummingbird Moth",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clearwing-hummingbird_egg",
+   "id": "clearwing-hummingbird_egg",
+   "en": "Clearwing Hummingbird Moth Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.peacemaker_villager.cleric",
+   "id": "cleric",
+   "en": "Cleric",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperblack",
+   "id": "clipperblack",
+   "en": "Clipper Butterfly (Black)",
+   "zh": "黑色丽蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperblue",
+   "id": "clipperblue",
+   "en": "Clipper Butterfly (Blue)",
+   "zh": "蓝色丽蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperbrown",
+   "id": "clipperbrown",
+   "en": "Clipper Butterfly (Brown)",
+   "zh": "棕色丽蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clippercyan",
+   "id": "clippercyan",
+   "en": "Clipper Butterfly (Cyan)",
+   "zh": "青色丽蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clippergray",
+   "id": "clippergray",
+   "en": "Clipper Butterfly (Gray)",
+   "zh": "灰色丽蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clippergreen",
+   "id": "clippergreen",
+   "en": "Clipper Butterfly (Green)",
+   "zh": "绿色丽蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipper",
+   "id": "clipper",
+   "en": "Clipper Butterfly (Light Blue)",
+   "zh": "淡蓝色丽蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperlightgray",
+   "id": "clipperlightgray",
+   "en": "Clipper Butterfly (Light Gray)",
+   "zh": "淡灰色丽蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperlime",
+   "id": "clipperlime",
+   "en": "Clipper Butterfly (Lime)",
+   "zh": "黄绿色丽蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clippermagenta",
+   "id": "clippermagenta",
+   "en": "Clipper Butterfly (Magenta)",
+   "zh": "品红色丽蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperorange",
+   "id": "clipperorange",
+   "en": "Clipper Butterfly (Orange)",
+   "zh": "橙色丽蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperpink",
+   "id": "clipperpink",
+   "en": "Clipper Butterfly (Pink)",
+   "zh": "粉红色丽蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperpurple",
+   "id": "clipperpurple",
+   "en": "Clipper Butterfly (Purple)",
+   "zh": "紫色丽蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperred",
+   "id": "clipperred",
+   "en": "Clipper Butterfly (Red)",
+   "zh": "红色丽蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperwhite",
+   "id": "clipperwhite",
+   "en": "Clipper Butterfly (White)",
+   "zh": "白色丽蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperyellow",
+   "id": "clipperyellow",
+   "en": "Clipper Butterfly (Yellow)",
+   "zh": "黄色丽蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipper_egg",
+   "id": "clipper_egg",
+   "en": "Clipper Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.clipper_caterpillar",
+   "id": "clipper_caterpillar",
+   "en": "Clipper Caterpillar",
+   "zh": "丽蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperblack_caterpillar",
+   "id": "clipperblack_caterpillar",
+   "en": "Clipper Caterpillar",
+   "zh": "丽蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperblue_caterpillar",
+   "id": "clipperblue_caterpillar",
+   "en": "Clipper Caterpillar",
+   "zh": "丽蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperbrown_caterpillar",
+   "id": "clipperbrown_caterpillar",
+   "en": "Clipper Caterpillar",
+   "zh": "丽蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clippercyan_caterpillar",
+   "id": "clippercyan_caterpillar",
+   "en": "Clipper Caterpillar",
+   "zh": "丽蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clippergray_caterpillar",
+   "id": "clippergray_caterpillar",
+   "en": "Clipper Caterpillar",
+   "zh": "丽蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clippergreen_caterpillar",
+   "id": "clippergreen_caterpillar",
+   "en": "Clipper Caterpillar",
+   "zh": "丽蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperlightgray_caterpillar",
+   "id": "clipperlightgray_caterpillar",
+   "en": "Clipper Caterpillar",
+   "zh": "丽蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperlime_caterpillar",
+   "id": "clipperlime_caterpillar",
+   "en": "Clipper Caterpillar",
+   "zh": "丽蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clippermagenta_caterpillar",
+   "id": "clippermagenta_caterpillar",
+   "en": "Clipper Caterpillar",
+   "zh": "丽蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperorange_caterpillar",
+   "id": "clipperorange_caterpillar",
+   "en": "Clipper Caterpillar",
+   "zh": "丽蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperpink_caterpillar",
+   "id": "clipperpink_caterpillar",
+   "en": "Clipper Caterpillar",
+   "zh": "丽蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperpurple_caterpillar",
+   "id": "clipperpurple_caterpillar",
+   "en": "Clipper Caterpillar",
+   "zh": "丽蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperred_caterpillar",
+   "id": "clipperred_caterpillar",
+   "en": "Clipper Caterpillar",
+   "zh": "丽蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperwhite_caterpillar",
+   "id": "clipperwhite_caterpillar",
+   "en": "Clipper Caterpillar",
+   "zh": "丽蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperyellow_caterpillar",
+   "id": "clipperyellow_caterpillar",
+   "en": "Clipper Caterpillar",
+   "zh": "丽蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipper_chrysalis",
+   "id": "clipper_chrysalis",
+   "en": "Clipper Chrysalis",
+   "zh": "丽蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperblack_chrysalis",
+   "id": "clipperblack_chrysalis",
+   "en": "Clipper Chrysalis",
+   "zh": "丽蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperblue_chrysalis",
+   "id": "clipperblue_chrysalis",
+   "en": "Clipper Chrysalis",
+   "zh": "丽蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperbrown_chrysalis",
+   "id": "clipperbrown_chrysalis",
+   "en": "Clipper Chrysalis",
+   "zh": "丽蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clippercyan_chrysalis",
+   "id": "clippercyan_chrysalis",
+   "en": "Clipper Chrysalis",
+   "zh": "丽蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clippergray_chrysalis",
+   "id": "clippergray_chrysalis",
+   "en": "Clipper Chrysalis",
+   "zh": "丽蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clippergreen_chrysalis",
+   "id": "clippergreen_chrysalis",
+   "en": "Clipper Chrysalis",
+   "zh": "丽蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperlightgray_chrysalis",
+   "id": "clipperlightgray_chrysalis",
+   "en": "Clipper Chrysalis",
+   "zh": "丽蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperlime_chrysalis",
+   "id": "clipperlime_chrysalis",
+   "en": "Clipper Chrysalis",
+   "zh": "丽蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clippermagenta_chrysalis",
+   "id": "clippermagenta_chrysalis",
+   "en": "Clipper Chrysalis",
+   "zh": "丽蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperorange_chrysalis",
+   "id": "clipperorange_chrysalis",
+   "en": "Clipper Chrysalis",
+   "zh": "丽蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperpink_chrysalis",
+   "id": "clipperpink_chrysalis",
+   "en": "Clipper Chrysalis",
+   "zh": "丽蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperpurple_chrysalis",
+   "id": "clipperpurple_chrysalis",
+   "en": "Clipper Chrysalis",
+   "zh": "丽蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperred_chrysalis",
+   "id": "clipperred_chrysalis",
+   "en": "Clipper Chrysalis",
+   "zh": "丽蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperwhite_chrysalis",
+   "id": "clipperwhite_chrysalis",
+   "en": "Clipper Chrysalis",
+   "zh": "丽蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperyellow_chrysalis",
+   "id": "clipperyellow_chrysalis",
+   "en": "Clipper Chrysalis",
+   "zh": "丽蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clipperblack_egg",
+   "id": "clipperblack_egg",
+   "en": "Clipperblack Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.clipperblue_egg",
+   "id": "clipperblue_egg",
+   "en": "Clipperblue Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.clipperbrown_egg",
+   "id": "clipperbrown_egg",
+   "en": "Clipperbrown Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.clippercyan_egg",
+   "id": "clippercyan_egg",
+   "en": "Clippercyan Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.clippergray_egg",
+   "id": "clippergray_egg",
+   "en": "Clippergray Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.clippergreen_egg",
+   "id": "clippergreen_egg",
+   "en": "Clippergreen Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.clipperlightgray_egg",
+   "id": "clipperlightgray_egg",
+   "en": "Clipperlightgray Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.clipperlime_egg",
+   "id": "clipperlime_egg",
+   "en": "Clipperlime Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.clippermagenta_egg",
+   "id": "clippermagenta_egg",
+   "en": "Clippermagenta Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.clipperorange_egg",
+   "id": "clipperorange_egg",
+   "en": "Clipperorange Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.clipperpink_egg",
+   "id": "clipperpink_egg",
+   "en": "Clipperpink Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.clipperpurple_egg",
+   "id": "clipperpurple_egg",
+   "en": "Clipperpurple Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.clipperred_egg",
+   "id": "clipperred_egg",
+   "en": "Clipperred Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.clipperwhite_egg",
+   "id": "clipperwhite_egg",
+   "en": "Clipperwhite Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.clipperyellow_egg",
+   "id": "clipperyellow_egg",
+   "en": "Clipperyellow Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.clothes_chrysalis",
+   "id": "clothes_chrysalis",
+   "en": "Clothes Cocoon",
+   "zh": "衣蛾茧",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clothes_caterpillar",
+   "id": "clothes_caterpillar",
+   "en": "Clothes Larva",
+   "zh": "衣蛾幼虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clothes",
+   "id": "clothes",
+   "en": "Clothes Moth",
+   "zh": "衣蛾",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.clothes_egg",
+   "id": "clothes_egg",
+   "en": "Clothes Moth Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.codling_chrysalis",
+   "id": "codling_chrysalis",
+   "en": "Codling Cocoon",
+   "zh": "苹果蠹蛾茧",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.codling_caterpillar",
+   "id": "codling_caterpillar",
+   "en": "Codling Larva",
+   "zh": "苹果蠹蛾幼虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.codling",
+   "id": "codling",
+   "en": "Codling Moth",
+   "zh": "苹果蠹蛾",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.codling_egg",
+   "id": "codling_egg",
+   "en": "Codling Moth Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.commander",
+   "id": "commander",
+   "en": "Commander Butterfly",
+   "zh": "细带翠蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.commander_egg",
+   "id": "commander_egg",
+   "en": "Commander Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.commander_caterpillar",
+   "id": "commander_caterpillar",
+   "en": "Commander Caterpillar",
+   "zh": "细带翠蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.commander_chrysalis",
+   "id": "commander_chrysalis",
+   "en": "Commander Chrysalis",
+   "zh": "细带翠蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.commonbirdwing",
+   "id": "commonbirdwing",
+   "en": "Common Birdwing Butterfly",
+   "zh": "裳凤蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.commonbirdwing_caterpillar",
+   "id": "commonbirdwing_caterpillar",
+   "en": "Common Birdwing Caterpillar",
+   "zh": "裳凤蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.commonbirdwing_chrysalis",
+   "id": "commonbirdwing_chrysalis",
+   "en": "Common Birdwing Chrysalis",
+   "zh": "裳凤蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.common_egg",
+   "id": "common_egg",
+   "en": "Common Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.common-crow",
+   "id": "common-crow",
+   "en": "Common Crow Butterfly",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.common-crow_egg",
+   "id": "common-crow_egg",
+   "en": "Common Crow Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.common-crow_caterpillar",
+   "id": "common-crow_caterpillar",
+   "en": "Common Crow Caterpillar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.common-crow_chrysalis",
+   "id": "common-crow_chrysalis",
+   "en": "Common Crow Chrysalis",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.commongrassyellow",
+   "id": "commongrassyellow",
+   "en": "Common Grass Yellow Butterfly",
+   "zh": "黄蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.commongrassyellow-dry",
+   "id": "commongrassyellow-dry",
+   "en": "Common Grass Yellow Butterfly (Cold)",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.commongrassyellow-dry_egg",
+   "id": "commongrassyellow-dry_egg",
+   "en": "Common Grass Yellow Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.commongrassyellow-dry_caterpillar",
+   "id": "commongrassyellow-dry_caterpillar",
+   "en": "Common Grass Yellow Caterpillar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.commongrassyellow_caterpillar",
+   "id": "commongrassyellow_caterpillar",
+   "en": "Common Grass Yellow Caterpillar",
+   "zh": "黄蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.commongrassyellow-dry_chrysalis",
+   "id": "commongrassyellow-dry_chrysalis",
+   "en": "Common Grass Yellow Chrysalis",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.commongrassyellow_chrysalis",
+   "id": "commongrassyellow_chrysalis",
+   "en": "Common Grass Yellow Chrysalis",
+   "zh": "黄蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.common-mime",
+   "id": "common-mime",
+   "en": "Common Mime Butterfly",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.common-mime_egg",
+   "id": "common-mime_egg",
+   "en": "Common Mime Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.common-mime_caterpillar",
+   "id": "common-mime_caterpillar",
+   "en": "Common Mime Caterpillar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.common-mime_chrysalis",
+   "id": "common-mime_chrysalis",
+   "en": "Common Mime Chrysalis",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.commonbirdwing_egg",
+   "id": "commonbirdwing_egg",
+   "en": "Commonbirdwing Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.commongrassyellow_egg",
+   "id": "commongrassyellow_egg",
+   "en": "Commongrassyellow Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.diamondback_chrysalis",
+   "id": "diamondback_chrysalis",
+   "en": "Diamondback Cocoon",
+   "zh": "小菜蛾茧",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.diamondback_caterpillar",
+   "id": "diamondback_caterpillar",
+   "en": "Diamondback Larva",
+   "zh": "小菜蛾幼虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.diamondback",
+   "id": "diamondback",
+   "en": "Diamondback Moth",
+   "zh": "小菜蛾",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.diamondback_egg",
+   "id": "diamondback_egg",
+   "en": "Diamondback Moth Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.domestic_silk_chrysalis",
+   "id": "domestic_silk_chrysalis",
+   "en": "Domestic Silk Cocoon",
+   "zh": "家蚕茧",
+   "loot_table": "domestic_silk_chrysalis",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.domestic_silk_caterpillar",
+   "id": "domestic_silk_caterpillar",
+   "en": "Domestic Silk Larva",
+   "zh": "家蚕幼虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.domestic_silk",
+   "id": "domestic_silk",
+   "en": "Domestic Silk Moth",
+   "zh": "家蚕",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.domestic_silk_egg",
+   "id": "domestic_silk_egg",
+   "en": "Domestic Silk Moth Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.emperor",
+   "id": "emperor",
+   "en": "Emperor Butterfly",
+   "zh": "君主蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.emperor_egg",
+   "id": "emperor_egg",
+   "en": "Emperor Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.emperor_caterpillar",
+   "id": "emperor_caterpillar",
+   "en": "Emperor Caterpillar",
+   "zh": "君主蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.emperor_chrysalis",
+   "id": "emperor_chrysalis",
+   "en": "Emperor Chrysalis",
+   "zh": "君主蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_evoker",
+   "id": "peacemaker_evoker",
+   "en": "Evoker",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_villager.farmer",
+   "id": "farmer",
+   "en": "Farmer",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_villager.fisherman",
+   "id": "fisherman",
+   "en": "Fisherman",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_villager.fletcher",
+   "id": "fletcher",
+   "en": "Fletcher",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.forester",
+   "id": "forester",
+   "en": "Forester Butterfly",
+   "zh": "森林蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.forester_egg",
+   "id": "forester_egg",
+   "en": "Forester Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.forester_caterpillar",
+   "id": "forester_caterpillar",
+   "en": "Forester Caterpillar",
+   "zh": "森林蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.forester_chrysalis",
+   "id": "forester_chrysalis",
+   "en": "Forester Chrysalis",
+   "zh": "森林蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.light",
+   "id": "light",
+   "en": "Féileacáin",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.light_egg",
+   "id": "light_egg",
+   "en": "Féileacáin Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.light_caterpillar",
+   "id": "light_caterpillar",
+   "en": "Féileacáin Caterpillar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.light_chrysalis",
+   "id": "light_chrysalis",
+   "en": "Féileacáin Chrysalis",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.glasswing",
+   "id": "glasswing",
+   "en": "Glasswing Butterfly",
+   "zh": "宽纹黑脉绡蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.glasswing_egg",
+   "id": "glasswing_egg",
+   "en": "Glasswing Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.glasswing_caterpillar",
+   "id": "glasswing_caterpillar",
+   "en": "Glasswing Caterpillar",
+   "zh": "宽纹黑脉绡蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.glasswing_chrysalis",
+   "id": "glasswing_chrysalis",
+   "en": "Glasswing Chrysalis",
+   "zh": "宽纹黑脉绡蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.green-skirt-baron",
+   "id": "green-skirt-baron",
+   "en": "Green Skirt Baron Butterfly",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.green-skirt-baron_egg",
+   "id": "green-skirt-baron_egg",
+   "en": "Green Skirt Baron Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.green-skirt-baron_caterpillar",
+   "id": "green-skirt-baron_caterpillar",
+   "en": "Green Skirt Baron Caterpillar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.green-skirt-baron_chrysalis",
+   "id": "green-skirt-baron_chrysalis",
+   "en": "Green Skirt Baron Chrysalis",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.hairstreak",
+   "id": "hairstreak",
+   "en": "Hairstreak Butterfly",
+   "zh": "灰蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.hairstreak_egg",
+   "id": "hairstreak_egg",
+   "en": "Hairstreak Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.hairstreak_caterpillar",
+   "id": "hairstreak_caterpillar",
+   "en": "Hairstreak Caterpillar",
+   "zh": "灰蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.hairstreak_chrysalis",
+   "id": "hairstreak_chrysalis",
+   "en": "Hairstreak Chrysalis",
+   "zh": "灰蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.heath",
+   "id": "heath",
+   "en": "Heath Butterfly",
+   "zh": "小环蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.heath_egg",
+   "id": "heath_egg",
+   "en": "Heath Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.heath_caterpillar",
+   "id": "heath_caterpillar",
+   "en": "Heath Caterpillar",
+   "zh": "小环蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.heath_chrysalis",
+   "id": "heath_chrysalis",
+   "en": "Heath Chrysalis",
+   "zh": "小环蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.hummingbird",
+   "id": "hummingbird",
+   "en": "Hummingbird Hawk-Moth",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.hummingbird_chrysalis",
+   "id": "hummingbird_chrysalis",
+   "en": "Hummingbird Hawk-Moth Cocoon",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.hummingbird_caterpillar",
+   "id": "hummingbird_caterpillar",
+   "en": "Hummingbird Hawk-Moth Larva",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.hummingbird_egg",
+   "id": "hummingbird_egg",
+   "en": "Hummingbird Hawk-Moth Moth Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.ice",
+   "id": "ice",
+   "en": "Ice Butterfly",
+   "zh": "冰蝴蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.ice_egg",
+   "id": "ice_egg",
+   "en": "Ice Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.ice_caterpillar",
+   "id": "ice_caterpillar",
+   "en": "Ice Caterpillar",
+   "zh": "冰蝴蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.ice_chrysalis",
+   "id": "ice_chrysalis",
+   "en": "Ice Chrysalis",
+   "zh": "冰蝴蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_illusioner",
+   "id": "peacemaker_illusioner",
+   "en": "Illusioner",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.indianmeal_chrysalis",
+   "id": "indianmeal_chrysalis",
+   "en": "Indian Meal Cocoon",
+   "zh": "印度谷螟茧",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.indianmeal_caterpillar",
+   "id": "indianmeal_caterpillar",
+   "en": "Indian Meal Larva",
+   "zh": "印度谷螟幼虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.indianmeal",
+   "id": "indianmeal",
+   "en": "Indian Meal Moth",
+   "zh": "印度谷螟",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.indianmeal_egg",
+   "id": "indianmeal_egg",
+   "en": "Indianmeal Moth Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.lava_chrysalis",
+   "id": "lava_chrysalis",
+   "en": "Lava Cocoon",
+   "zh": "熔岩蛾茧",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.lava_caterpillar",
+   "id": "lava_caterpillar",
+   "en": "Lava Larva",
+   "zh": "熔岩蛾幼虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.lava",
+   "id": "lava",
+   "en": "Lava Moth",
+   "zh": "熔岩蛾",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.lava_egg",
+   "id": "lava_egg",
+   "en": "Lava Moth Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.peacemaker_villager.leatherworker",
+   "id": "leatherworker",
+   "en": "Leatherworker",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_villager.butterflies.lepidopterist",
+   "id": "lepidopterist",
+   "en": "Lepidopterist",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.villager.butterflies.lepidopterist",
+   "id": "lepidopterist",
+   "en": "Lepidopterist",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.minecraft.villager.butterflies.lepidopterist",
+   "id": "lepidopterist",
+   "en": "Lepidopterist",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_villager.librarian",
+   "id": "librarian",
+   "en": "Librarian",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.longwing",
+   "id": "longwing",
+   "en": "Longwing Butterfly",
+   "zh": "长翅蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.longwing_egg",
+   "id": "longwing_egg",
+   "en": "Longwing Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.longwing_caterpillar",
+   "id": "longwing_caterpillar",
+   "en": "Longwing Caterpillar",
+   "zh": "长翅蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.longwing_chrysalis",
+   "id": "longwing_chrysalis",
+   "en": "Longwing Chrysalis",
+   "zh": "长翅蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.luna_chrysalis",
+   "id": "luna_chrysalis",
+   "en": "Luna Cocoon",
+   "zh": "美洲月形天蚕蛾茧",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.luna_caterpillar",
+   "id": "luna_caterpillar",
+   "en": "Luna Larva",
+   "zh": "美洲月形天蚕蛾幼虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.luna",
+   "id": "luna",
+   "en": "Luna Moth",
+   "zh": "美洲月形天蚕蛾",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.luna_egg",
+   "id": "luna_egg",
+   "en": "Luna Moth Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.peacemaker_villager.mason",
+   "id": "mason",
+   "en": "Mason",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.monarch",
+   "id": "monarch",
+   "en": "Monarch Butterfly",
+   "zh": "帝王蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.monarch_egg",
+   "id": "monarch_egg",
+   "en": "Monarch Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.monarch_caterpillar",
+   "id": "monarch_caterpillar",
+   "en": "Monarch Caterpillar",
+   "zh": "帝王蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.monarch_chrysalis",
+   "id": "monarch_chrysalis",
+   "en": "Monarch Chrysalis",
+   "zh": "帝王蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.morpho",
+   "id": "morpho",
+   "en": "Morpho Butterfly",
+   "zh": "闪蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.morpho_egg",
+   "id": "morpho_egg",
+   "en": "Morpho Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.morpho_caterpillar",
+   "id": "morpho_caterpillar",
+   "en": "Morpho Caterpillar",
+   "zh": "闪蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.morpho_chrysalis",
+   "id": "morpho_chrysalis",
+   "en": "Morpho Chrysalis",
+   "zh": "闪蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_villager.nitwit",
+   "id": "nitwit",
+   "en": "Nitwit",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.oak-silk_chrysalis",
+   "id": "oak-silk_chrysalis",
+   "en": "Oak Silk Cocoon",
+   "zh": "",
+   "loot_table": "oak-silk_chrysalis",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.oak-silk_caterpillar",
+   "id": "oak-silk_caterpillar",
+   "en": "Oak Silk Larva",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.oak-silk",
+   "id": "oak-silk",
+   "en": "Oak Silk Moth",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.oak-silk_egg",
+   "id": "oak-silk_egg",
+   "en": "Oak Silk Moth Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.orizaba",
+   "id": "orizaba",
+   "en": "Orizaba Silkmoth",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.orizaba_chrysalis",
+   "id": "orizaba_chrysalis",
+   "en": "Orizaba Silkmoth Cocoon",
+   "zh": "",
+   "loot_table": "orizaba_chrysalis",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.orizaba_egg",
+   "id": "orizaba_egg",
+   "en": "Orizaba Silkmoth Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.orizaba_caterpillar",
+   "id": "orizaba_caterpillar",
+   "en": "Orizaba Silkmoth Larva",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker",
+   "id": "peacemaker",
+   "en": "Peacemaker Butterfly",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_butterfly",
+   "id": "peacemaker_butterfly",
+   "en": "Peacemaker Butterfly",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_egg",
+   "id": "peacemaker_egg",
+   "en": "Peacemaker Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.peacemaker_caterpillar",
+   "id": "peacemaker_caterpillar",
+   "en": "Peacemaker Caterpillar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_chrysalis",
+   "id": "peacemaker_chrysalis",
+   "en": "Peacemaker Chrysalis",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_cow",
+   "id": "peacemaker_cow",
+   "en": "Peacemaker Cow",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_witch",
+   "id": "peacemaker_witch",
+   "en": "Peacemaker Witch",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacock",
+   "id": "peacock",
+   "en": "Peacock Butterfly",
+   "zh": "孔雀蛱蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacock_egg",
+   "id": "peacock_egg",
+   "en": "Peacock Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.peacock_caterpillar",
+   "id": "peacock_caterpillar",
+   "en": "Peacock Caterpillar",
+   "zh": "孔雀蛱蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacock_chrysalis",
+   "id": "peacock_chrysalis",
+   "en": "Peacock Chrysalis",
+   "zh": "孔雀蛱蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacock-pansy-aged",
+   "id": "peacock-pansy-aged",
+   "en": "Peacock Pansy Butterfly (Aged)",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacock-pansy-dry",
+   "id": "peacock-pansy-dry",
+   "en": "Peacock Pansy Butterfly (Dry)",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacock-pansy-wet",
+   "id": "peacock-pansy-wet",
+   "en": "Peacock Pansy Butterfly (Wet)",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacock-pansy-aged_egg",
+   "id": "peacock-pansy-aged_egg",
+   "en": "Peacock Pansy Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.peacock-pansy-dry_egg",
+   "id": "peacock-pansy-dry_egg",
+   "en": "Peacock Pansy Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.peacock-pansy-wet_egg",
+   "id": "peacock-pansy-wet_egg",
+   "en": "Peacock Pansy Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.peacock-pansy-aged_caterpillar",
+   "id": "peacock-pansy-aged_caterpillar",
+   "en": "Peacock Pansy Caterpillar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacock-pansy-dry_caterpillar",
+   "id": "peacock-pansy-dry_caterpillar",
+   "en": "Peacock Pansy Caterpillar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacock-pansy-wet_caterpillar",
+   "id": "peacock-pansy-wet_caterpillar",
+   "en": "Peacock Pansy Caterpillar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacock-pansy-aged_chrysalis",
+   "id": "peacock-pansy-aged_chrysalis",
+   "en": "Peacock Pansy Chrysalis",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacock-pansy-dry_chrysalis",
+   "id": "peacock-pansy-dry_chrysalis",
+   "en": "Peacock Pansy Chrysalis",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacock-pansy-wet_chrysalis",
+   "id": "peacock-pansy-wet_chrysalis",
+   "en": "Peacock Pansy Chrysalis",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peppered_chrysalis",
+   "id": "peppered_chrysalis",
+   "en": "Peppered Cocoon",
+   "zh": "桦尺蛾茧",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peppered_caterpillar",
+   "id": "peppered_caterpillar",
+   "en": "Peppered Larva",
+   "zh": "桦尺蛾幼虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peppered",
+   "id": "peppered",
+   "en": "Peppered Moth",
+   "zh": "桦尺蛾",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peppered_egg",
+   "id": "peppered_egg",
+   "en": "Peppered Moth Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.peacemaker_pillager",
+   "id": "peacemaker_pillager",
+   "en": "Pillager",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.rainbow",
+   "id": "rainbow",
+   "en": "Rainbow Butterfly",
+   "zh": "彩虹蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.rainbow_egg",
+   "id": "rainbow_egg",
+   "en": "Rainbow Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.rainbow_caterpillar",
+   "id": "rainbow_caterpillar",
+   "en": "Rainbow Caterpillar",
+   "zh": "彩虹蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.rainbow_chrysalis",
+   "id": "rainbow_chrysalis",
+   "en": "Rainbow Chrysalis",
+   "zh": "彩虹蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_villager.shepherd",
+   "id": "shepherd",
+   "en": "Shepherd",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.smile",
+   "id": "smile",
+   "en": "Smile Butterfly",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.smile_egg",
+   "id": "smile_egg",
+   "en": "Smile Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.smile_caterpillar",
+   "id": "smile_caterpillar",
+   "en": "Smile Caterpillar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.smile_chrysalis",
+   "id": "smile_chrysalis",
+   "en": "Smile Chrysalis",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.spongy_chrysalis",
+   "id": "spongy_chrysalis",
+   "en": "Spongy Cocoon",
+   "zh": "舞毒蛾茧",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.spongymale_chrysalis",
+   "id": "spongymale_chrysalis",
+   "en": "Spongy Cocoon",
+   "zh": "舞毒蛾茧",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.spongy_caterpillar",
+   "id": "spongy_caterpillar",
+   "en": "Spongy Larva",
+   "zh": "舞毒蛾幼虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.spongymale_caterpillar",
+   "id": "spongymale_caterpillar",
+   "en": "Spongy Larva",
+   "zh": "舞毒蛾幼虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.spongy",
+   "id": "spongy",
+   "en": "Spongy Moth (Female)",
+   "zh": "雌性舞毒蛾",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.spongymale",
+   "id": "spongymale",
+   "en": "Spongy Moth (Male)",
+   "zh": "雄性舞毒蛾",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.spongy_egg",
+   "id": "spongy_egg",
+   "en": "Spongy Moth Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.spongymale_egg",
+   "id": "spongymale_egg",
+   "en": "Spongymale Moth Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.swallowtail",
+   "id": "swallowtail",
+   "en": "Swallowtail Butterfly",
+   "zh": "燕尾蝶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.swallowtail_egg",
+   "id": "swallowtail_egg",
+   "en": "Swallowtail Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.swallowtail_caterpillar",
+   "id": "swallowtail_caterpillar",
+   "en": "Swallowtail Caterpillar",
+   "zh": "燕尾蝶毛虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.swallowtail_chrysalis",
+   "id": "swallowtail_chrysalis",
+   "en": "Swallowtail Chrysalis",
+   "zh": "燕尾蝶蛹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_villager.toolsmith",
+   "id": "toolsmith",
+   "en": "Toolsmith",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_villager",
+   "id": "peacemaker_villager",
+   "en": "Villager",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_villager.none",
+   "id": "none",
+   "en": "Villager",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_vindicator",
+   "id": "peacemaker_vindicator",
+   "en": "Vindicator",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_wandering_trader",
+   "id": "peacemaker_wandering_trader",
+   "en": "Wandering Trader",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.peacemaker_villager.weaponsmith",
+   "id": "weaponsmith",
+   "en": "Weaponsmith",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.white-lined-sphinx_chrysalis",
+   "id": "white-lined-sphinx_chrysalis",
+   "en": "White-Lined Sphinx Cocoon",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.white-lined-sphinx_caterpillar",
+   "id": "white-lined-sphinx_caterpillar",
+   "en": "White-Lined Sphinx Larva",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.white-lined-sphinx",
+   "id": "white-lined-sphinx",
+   "en": "White-Lined Sphinx Moth",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.white-lined-sphinx_egg",
+   "id": "white-lined-sphinx_egg",
+   "en": "White-Lined Sphinx Moth Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.obsidian",
+   "id": "obsidian",
+   "en": "Ītzpāpālōtl",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.obsidian_egg",
+   "id": "obsidian_egg",
+   "en": "Ītzpāpālōtl Butterfly Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.butterflies.obsidian_caterpillar",
+   "id": "obsidian_caterpillar",
+   "en": "Ītzpāpālōtl Caterpillar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.butterflies.obsidian_chrysalis",
+   "id": "obsidian_chrysalis",
+   "en": "Ītzpāpālōtl Chrysalis",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  }
+ ]
+}

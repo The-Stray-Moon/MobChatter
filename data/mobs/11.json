@@ -1,0 +1,67 @@
+{
+ "rank": 11,
+ "mod": "Galosphere",
+ "mod_url": "https://modrinth.com/mod/galosphere",
+ "mobs": [
+  {
+   "mob_id": "galosphere:sparkle",
+   "name_en": "Sparkle",
+   "name_zh": "晶莹螈",
+   "description_zh": "水晶峡谷中出没的生物，背上能长出蔚蓝石（allurite）与流光石（lumiere）两种水晶，是探索该群系时会遇到的特色生物。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/galosphere",
+   "confidence": 0.8,
+   "notes": "模组正文只提到它会在水晶峡谷出现并在背上长出水晶；官方 wiki 有更详细的繁殖与采晶机制。"
+  },
+  {
+   "mob_id": "galosphere:spectre",
+   "name_en": "Spectre",
+   "name_zh": "幽荧灵",
+   "description_zh": "地衣洞穴中温和飞行的小型幽灵生物，喜欢在洞穴里四处旁观。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/galosphere",
+   "confidence": 0.8,
+   "notes": "模组正文仅描述其在生苔洞穴中平静飞行与旁观；官方 wiki 另有繁殖、瓶装与观察镜机制。"
+  },
+  {
+   "mob_id": "galosphere:mole",
+   "name_en": "Mole",
+   "name_zh": "",
+   "description_zh": "出没于被遗忘废墟的生物，会交给玩家一些小任务，作为旅途中的支线。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/galosphere",
+   "confidence": 0.75,
+   "notes": "模组正文只提到鼹鼠会发布小任务；jar 内有 common/rare/epic 三档采矿任务数据；中文名缺失。"
+  },
+  {
+   "mob_id": "galosphere:preserved",
+   "name_en": "Preserved",
+   "name_zh": "",
+   "description_zh": "由狂暴盐尸召唤出的僵尸变种，比普通僵尸略强、略快，而且能在阳光下存活，不会像普通僵尸那样燃烧。",
+   "source": "wiki",
+   "source_url": "https://github.com/0rc1nus/Galosphere-Main/wiki/Mobs-%F0%9F%8C%B3",
+   "confidence": 0.85,
+   "notes": "中文名缺失（模组语言文件未提供）。"
+  },
+  {
+   "mob_id": "galosphere:specterpillar",
+   "name_en": "Specterpillar",
+   "name_zh": "",
+   "description_zh": "幽荧灵的幼虫形态，由幽荧灵繁殖时产下（每次 1–4 只）；喂食足够的地衣架后会成长为幽荧灵，停止进食后它会寻找最近的地衣苔藓钻入，并在上面长出地衣虫草。",
+   "source": "wiki",
+   "source_url": "https://github.com/0rc1nus/Galosphere-Main/wiki/Mobs-%F0%9F%8C%B3",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "galosphere:berserker",
+   "name_en": "Berserker",
+   "name_zh": "",
+   "description_zh": "在粉盐神殿（Pink Salt Shrine）中被召唤出的 Boss 级敌人；击杀后固定掉落 2 个腌尸模板与 1 个腌腐肉，并拥有专属刷怪蛋。资料有限，官方 wiki 未提供其条目。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/galosphere",
+   "confidence": 0.45,
+   "notes": "中文名缺失；描述依据 jar 内的结构模板池、召唤成就、战利品表与语言文件。"
+  }
+ ]
+}

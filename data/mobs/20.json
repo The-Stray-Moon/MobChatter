@@ -1,0 +1,128 @@
+{
+ "rank": 20,
+ "mod": "Friends&Foes (Forge/NeoForge)",
+ "mod_url": "https://modrinth.com/mod/friends-and-foes-forge",
+ "note": "已排除：beekeeper（村民职业对话键，非独立实体）、ice_chunk（冰术师投掷的冰块，投掷物）、player_illusion（幻术师幻象辅助实体）。",
+ "mobs": [
+  {
+   "mob_id": "friendsandfoes:barnacle",
+   "name_en": "Barnacle",
+   "name_zh": "",
+   "description_zh": "藤壶遇敌时会先躲藏，再伸出触手攻击；生命值 40、近战伤害 4，掉落藤壶牙。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/friends-and-foes-forge",
+   "confidence": 0.5,
+   "notes": "正文未介绍；资料来自 jar 属性、Hide/TentacleAttack AI 与战利品表。资料有限。"
+  },
+  {
+   "mob_id": "friendsandfoes:copper_golem",
+   "name_en": "Copper Golem",
+   "name_zh": "铜傀儡",
+   "description_zh": "铜傀儡会随机按下铜按钮，随时间氧化；可用斧或蜜脾除锈，也能用铜块、南瓜和避雷针搭建。生命值 20，掉落铜锭。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/friends-and-foes-forge",
+   "confidence": 0.9,
+   "notes": "生命值与掉落取自 jar。"
+  },
+  {
+   "mob_id": "friendsandfoes:crab",
+   "name_en": "Crab",
+   "name_zh": "螃蟹",
+   "description_zh": "螃蟹生活在红树林沼泽与海滩，可用海带繁殖，并会把卵埋进安全的沙地；掉落蟹钳，可用来酿造增加触及距离的药水。生命值 12、近战伤害 2。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/friends-and-foes-forge",
+   "confidence": 0.9,
+   "notes": "生命值与伤害取自 jar。"
+  },
+  {
+   "mob_id": "friendsandfoes:glare",
+   "name_en": "Glare",
+   "name_zh": "怒目怪",
+   "description_zh": "怒目怪是生活在繁茂洞穴的苔藓小生物，讨厌黑暗，会向玩家指出足够刷怪的黑处；可用发光浆果驯服和繁殖。生命值 10。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/friends-and-foes-forge",
+   "confidence": 0.9,
+   "notes": "生命值取自 jar。"
+  },
+  {
+   "mob_id": "friendsandfoes:iceologer",
+   "name_en": "Iceologer",
+   "name_zh": "冰术师",
+   "description_zh": "冰术师独自住在雪地的云杉小屋中，发现玩家后会投掷冰块攻击；生命值 24，掉落冰冻图腾、绿宝石和蓝冰。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/friends-and-foes-forge",
+   "confidence": 0.9,
+   "notes": "生命值与掉落取自 jar。"
+  },
+  {
+   "mob_id": "friendsandfoes:illusioner",
+   "name_en": "Illusioner",
+   "name_zh": "幻术师",
+   "description_zh": "幻术师会用幻象和远程攻击对付玩家，生命值 24，掉落幻术图腾、绿宝石和箭。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/friends-and-foes-forge",
+   "confidence": 0.85,
+   "notes": "正文在模组简介中列出 Illusioner；数值与掉落取自 jar。"
+  },
+  {
+   "mob_id": "friendsandfoes:mauler",
+   "name_en": "Mauler",
+   "name_zh": "大胃怪",
+   "description_zh": "大胃怪是草原、恶地和沙漠中的小型掠食者，专门猎食鸡和兔子；玩家可以喂它附魔食物来储存经验。生命值 20、近战伤害 8。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/friends-and-foes-forge",
+   "confidence": 0.85,
+   "notes": "正文介绍在 4000 字处被截断；数值取自 jar。"
+  },
+  {
+   "mob_id": "friendsandfoes:moobloom",
+   "name_en": "Moobloom",
+   "name_zh": "哞花",
+   "description_zh": "哞花是生活在花林的花牛，与蜜蜂共生，走过的地方会留下花朵；掉落皮革和牛肉。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/friends-and-foes-forge",
+   "confidence": 0.85,
+   "notes": "生命值未在 jar 中单独配置（继承牛），故未写具体数值。"
+  },
+  {
+   "mob_id": "friendsandfoes:penguin",
+   "name_en": "Penguin",
+   "name_zh": "",
+   "description_zh": "企鹅会游泳、上岸产卵，也会陪玩家一起游泳；生命值 12，掉落企鹅羽毛。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/friends-and-foes-forge",
+   "confidence": 0.5,
+   "notes": "正文未介绍；资料来自 jar 属性、LayEgg/SwimWithPlayer AI 与战利品表。资料有限。"
+  },
+  {
+   "mob_id": "friendsandfoes:rascal",
+   "name_en": "Rascal",
+   "name_zh": "淘气鬼",
+   "description_zh": "淘气鬼藏在矿井里玩捉迷藏，会给出提示；连续找到它三次就能获得一个包裹。生命值 20。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/friends-and-foes-forge",
+   "confidence": 0.9,
+   "notes": "生命值取自 jar。"
+  },
+  {
+   "mob_id": "friendsandfoes:tuff_golem",
+   "name_en": "Tuff Golem",
+   "name_zh": "凝灰岩傀儡",
+   "description_zh": "凝灰岩傀儡能抱着并展示玩家给它的物品，醒来时会四处走动；用蜜脾可以把它固定住，也能用凝灰岩、羊毛和南瓜搭建。生命值 20，掉落凝灰岩。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/friends-and-foes-forge",
+   "confidence": 0.9,
+   "notes": "生命值与掉落取自 jar。"
+  },
+  {
+   "mob_id": "friendsandfoes:wildfire",
+   "name_en": "Wildfire",
+   "name_zh": "野火",
+   "description_zh": "野火是烈焰人的首领，被四面盾牌保护，会用盾牌碎片弹幕和震地冲击波攻击，被逼急时召唤烈焰人增援。生命值 120、近战伤害 8，掉落野火王冠碎片。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/friends-and-foes-forge",
+   "confidence": 0.9,
+   "notes": "数值与掉落取自 jar。"
+  }
+ ]
+}

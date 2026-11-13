@@ -1,0 +1,726 @@
+{
+ "rank": 9,
+ "mod": "Spawn",
+ "slug": "spawn-mod",
+ "project_id": "rex9wwpz",
+ "source_url": "https://modrinth.com/mod/spawn-mod",
+ "jar": "D:\\work\\MobChatter\\data\\jars\\rex9wwpz.jar",
+ "jar_size": 83604580,
+ "modid": "spawn",
+ "entity_count": 89,
+ "mob_count": 82,
+ "entities": [
+  {
+   "key": "entity.spawn.sneezed_salt.description",
+   "id": "description",
+   "en": "A clump of salt shot at a high velocity.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.stickbug.description",
+   "id": "description",
+   "en": "A common crafting material made from Planks.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.firekeeper.description",
+   "id": "description",
+   "en": "A hostile mob made of molten rock and sunstone that can attack from long and close range.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.melon_seed.description",
+   "id": "description",
+   "en": "A melon seed spat out at a high velocity. It's too small to deal meaningful damage.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.ant.description",
+   "id": "description",
+   "en": "A neutral mob found in Anthills. It brings resources to its home and helps decompose blocks. When hatched from an Ant Pupa it follows and protects its owner, also attacking other ants with different colored Abdomens.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.coastal_crab.description",
+   "id": "description",
+   "en": "A neutral mob found in coastal regions that can shoot Bubbles and bury itself. Fits in a Bucket.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.dodo.description",
+   "id": "description",
+   "en": "A passive defenseless mob found on Dodo islands that shoots harmless seeds at hostile mobs. It's incapable of breeding and swimming and oblivious to danger.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.snail.description",
+   "id": "description",
+   "en": "A passive mob found in forests that produces Mucus when wet. It has a shell that can be knocked off with Projectiles and retreated into for protection.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.flukeshroom.description",
+   "id": "description",
+   "en": "A passive mob found in Mushroom Fields that can be milked for soup using a bowl. Transforms when struck by lightning.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.hamster.description",
+   "id": "description",
+   "en": "A passive mob found in open grassy areas that can be tamed with Sunflower Seeds. It collects items and stores them in its cheek pouches, which can be accessed by its owner. Territorial and energetic, cannot withstand extreme temperatures.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.sea_cow.description",
+   "id": "description",
+   "en": "A passive mob found in Seagrass Meadows that can be milked using a bucket. Grows Seagrass on its back and eats Tall Seagrass, occasionally finding Loot in it if fed before. Doesn't fit into a Bucket when grown up. Drops leather.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.seal.description",
+   "id": "description",
+   "en": "A passive mob found on Cold islands and in Frozen Oceans. Can hitch you a ride at the cost of live fish. Doesn't fit into a Bucket when grown up.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.booby.description",
+   "id": "description",
+   "en": "A passive mob found on Sandy Islands that performs mating dances and mates for life.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.marine_iguana.description",
+   "id": "description",
+   "en": "A passive mob found on sea stacks. Can be trusted from a young age by helping it shed.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.iguana.description",
+   "id": "description",
+   "en": "A passive mob found on Tropical Islands that can absorb sunrays and use them to cook items. Can be trusted from a young age by helping it shed.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.crab_bubble.description",
+   "id": "description",
+   "en": "A projectile fired by a Crab that can carry entities.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.frozen_crab_bubble.description",
+   "id": "description",
+   "en": "A projectile fired by a Crab that can carry entities.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.blenny.description",
+   "id": "description",
+   "en": "A really skittish aquatic ambient passive mob found in Tide Pools. Fits in a Bucket.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.chest_boat.description",
+   "id": "description",
+   "en": "A single-passenger vehicle that has its own storage.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.spawn.tuna_egg.description",
+   "id": "description",
+   "en": "A squishy small egg that grows into a baby Tuna eventually.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.spawn.boat.description",
+   "id": "description",
+   "en": "A two-passenger vehicle for traversing rivers and oceans.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.spawn.stranded.description",
+   "id": "description",
+   "en": "An ambient passive mob that attacks hostiles that bump into it. Can be turned on and off by waxing.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.octopus.description",
+   "id": "description",
+   "en": "An aquatic ambient mob rarely found in oceans. Can be captured in a multitude of items, including Casting Nets.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.barracuda.description",
+   "id": "description",
+   "en": "An aquatic ambient neutral mob found in deep Lukewarm and Warm Oceans. Can be caught in a Casting Net.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.bluefish.description",
+   "id": "description",
+   "en": "An aquatic ambient neutral mob found in Oceans and Cold Oceans. Can be thrown into a feeding frenzy if mobs nearby are hurt. Fits in a Bucket.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.pilot_fish.description",
+   "id": "description",
+   "en": "An aquatic ambient passive mob found circling bigger mobs. Fits in a Bucket.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.angler_fish.description",
+   "id": "description",
+   "en": "An aquatic ambient passive mob found in Deep Waters. Can be fed shiny items to be granted with Night Vision. Deflates on Land. Fits in a bucket.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.clam.description",
+   "id": "description",
+   "en": "An aquatic ambient passive mob found in Oceans and Beaches. Can be collected by hand and with a Casting Net.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.herring.description",
+   "id": "description",
+   "en": "An aquatic ambient passive mob found in Oceans schooling in big groups. Fits in a Bucket.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.seahorse.description",
+   "id": "description",
+   "en": "An aquatic ambient passive mob found in Reefs and Seagrass Meadows. Comes in many shapes, sizes and colors based on where its found. Fits into a Bucket.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.sunfish.description",
+   "id": "description",
+   "en": "An aquatic ambient passive mob that can be found in Oceans. It basks during the day and swims near the bottom at night. Doesn't fit in a Bucket when fully grown up.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.spider_crab.description",
+   "id": "description",
+   "en": "An aquatic hostile mob that spawns in Cold Oceans and can jump, climb walls and shoot frozen bubbles.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.barbed.description",
+   "id": "description",
+   "en": "An aquatic neutral mob found in Warmer Oceans that only attacks players in water. Shoots exploding Barbs.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.tuna.description",
+   "id": "description",
+   "en": "An aquatic passive mob that can be bred. Doesn't fit in a Bucket when grown up.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.barb.description",
+   "id": "description",
+   "en": "An underwater entity that explodes when collided with.",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.angler_fish",
+   "id": "angler_fish",
+   "en": "Angler Fish",
+   "zh": "",
+   "loot_table": "angler_fish",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.ant",
+   "id": "ant",
+   "en": "Ant",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.barb",
+   "id": "barb",
+   "en": "Barb",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.barbed",
+   "id": "barbed",
+   "en": "Barbed",
+   "zh": "",
+   "loot_table": "barbed",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.barracuda",
+   "id": "barracuda",
+   "en": "Barracuda",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.blenny",
+   "id": "blenny",
+   "en": "Blenny",
+   "zh": "",
+   "loot_table": "blenny",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.clam.color.blue",
+   "id": "blue",
+   "en": "Blue",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.bluefish",
+   "id": "bluefish",
+   "en": "Bluefish",
+   "zh": "",
+   "loot_table": "bluefish",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.boat",
+   "id": "boat",
+   "en": "Boat",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.spawn.chest_boat",
+   "id": "chest_boat",
+   "en": "Boat with Chest",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.spawn.booby",
+   "id": "booby",
+   "en": "Booby",
+   "zh": "",
+   "loot_table": "booby",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.clam.color.brown",
+   "id": "brown",
+   "en": "Brown",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.crab_bubble",
+   "id": "crab_bubble",
+   "en": "Bubble",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.clam",
+   "id": "clam",
+   "en": "Clam",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.coastal_crab",
+   "id": "coastal_crab",
+   "en": "Coastal Crab",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.clam.pattern.no_pattern",
+   "id": "no_pattern",
+   "en": "Common",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.clam.color.cyan",
+   "id": "cyan",
+   "en": "Cyan",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.dodo",
+   "id": "dodo",
+   "en": "Dodo",
+   "zh": "",
+   "loot_table": "dodo",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.clam.pattern.dotted",
+   "id": "dotted",
+   "en": "Dotted",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.bird_egg",
+   "id": "bird_egg",
+   "en": "Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.spawn.firekeeper",
+   "id": "firekeeper",
+   "en": "Firekeeper",
+   "zh": "",
+   "loot_table": "firekeeper",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.flukeshroom",
+   "id": "flukeshroom",
+   "en": "Flukeshroom",
+   "zh": "",
+   "loot_table": "flukeshroom",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.frozen_crab_bubble",
+   "id": "frozen_crab_bubble",
+   "en": "Frozen Bubble",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.clam.base.giant_clam",
+   "id": "giant_clam",
+   "en": "Giant Clam",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.clam.color.green",
+   "id": "green",
+   "en": "Green",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.hamster",
+   "id": "hamster",
+   "en": "Hamster",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.herring",
+   "id": "herring",
+   "en": "Herring",
+   "zh": "",
+   "loot_table": "herring",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.iguana",
+   "id": "iguana",
+   "en": "Iguana",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.marine_iguana",
+   "id": "marine_iguana",
+   "en": "Marine Iguana",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.melon_seed",
+   "id": "melon_seed",
+   "en": "Melon Seed",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.octopus",
+   "id": "octopus",
+   "en": "Octopus",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.clam.color.orange",
+   "id": "orange",
+   "en": "Orange",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.pilot_fish",
+   "id": "pilot_fish",
+   "en": "Pilot Fish",
+   "zh": "",
+   "loot_table": "pilot_fish",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.clam.color.purple",
+   "id": "purple",
+   "en": "Purple",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.clam.random",
+   "id": "random",
+   "en": "Random Variant",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.clam.color.red",
+   "id": "red",
+   "en": "Red",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.clam.pattern.ridged",
+   "id": "ridged",
+   "en": "Ridged",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.clam.base.scallop",
+   "id": "scallop",
+   "en": "Scallop",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.sea_cow",
+   "id": "sea_cow",
+   "en": "Sea Cow",
+   "zh": "",
+   "loot_table": "sea_cow",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.seahorse",
+   "id": "seahorse",
+   "en": "Seahorse",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.seal",
+   "id": "seal",
+   "en": "Seal",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.snail",
+   "id": "snail",
+   "en": "Snail",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.sneezed_salt",
+   "id": "sneezed_salt",
+   "en": "Sneezed Salt",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.spider_crab",
+   "id": "spider_crab",
+   "en": "Spider Crab",
+   "zh": "",
+   "loot_table": "spider_crab",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.stickbug",
+   "id": "stickbug",
+   "en": "Stickbug",
+   "zh": "",
+   "loot_table": "stickbug",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.stranded",
+   "id": "stranded",
+   "en": "Stranded",
+   "zh": "",
+   "loot_table": "stranded",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.clam.pattern.striped",
+   "id": "striped",
+   "en": "Striped",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.sunfish",
+   "id": "sunfish",
+   "en": "Sunfish",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.clam.pattern.tiled",
+   "id": "tiled",
+   "en": "Tiled",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.tuna",
+   "id": "tuna",
+   "en": "Tuna",
+   "zh": "",
+   "loot_table": "tuna",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.tuna_egg",
+   "id": "tuna_egg",
+   "en": "Tuna Egg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.spawn.clam.base.wedge_shell",
+   "id": "wedge_shell",
+   "en": "Wedge Shell",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.clam.color.white",
+   "id": "white",
+   "en": "White",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spawn.clam.color.yellow",
+   "id": "yellow",
+   "en": "Yellow",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  }
+ ]
+}

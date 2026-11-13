@@ -1,0 +1,87 @@
+{
+ "rank": 115,
+ "mod": "Hadean Breathe",
+ "mod_url": "https://modrinth.com/mod/hadean-breathe",
+ "mobs": [
+  {
+   "mob_id": "hadean_breathe:hadean_enforcer",
+   "name_en": "Hadean Enforcer",
+   "name_zh": "冥焰诡将",
+   "description_zh": "模组目前唯一的 Boss 级生物，背景故事中属于下界之主的将领之一；模组需要前置 VzlingLib，且作者说明当前开发进度只支持 Boss 挑战。jar 里它有独立刷怪蛋和掉落表，但没有群系生成配置。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/hadean-breathe",
+   "confidence": 0.85,
+   "notes": "正文明确“A powerful boss-level mob: the Hadean Enforcer”。"
+  },
+  {
+   "mob_id": "hadean_breathe:armored_beast",
+   "name_en": "Armored Beast",
+   "name_zh": "覆甲恶兽",
+   "description_zh": "覆甲的野兽型怪物，jar 中有独立模型、动画以及 ClapSkill / RoarSkill / ShootSkill / SprintSkill / StepSkill 等技能类，说明它会拍击、咆哮、远程射击、冲锋和踏击；没有群系生成配置，血量资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hadean-breathe",
+   "confidence": 0.5,
+   "notes": ""
+  },
+  {
+   "mob_id": "hadean_breathe:flame_guardian",
+   "name_en": "Flame Guardian",
+   "name_zh": "烈焰守卫",
+   "description_zh": "烈焰守卫，代码中有 HeavyAttackSkill 与 LaserSkill 两类技能；击杀掉落守卫残片（guardian_shard）与守卫钥匙（guardian_key）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hadean-breathe",
+   "confidence": 0.5,
+   "notes": ""
+  },
+  {
+   "mob_id": "hadean_breathe:flamed_husk",
+   "name_en": "Flamed Husk",
+   "name_zh": "炎壳",
+   "description_zh": "下界风格的“炎壳”，击杀掉落余焰烬骨（flamed_bone）；没有群系生成配置，血量与技能资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hadean-breathe",
+   "confidence": 0.5,
+   "notes": ""
+  },
+  {
+   "mob_id": "hadean_breathe:hadean_blaster",
+   "name_en": "Hadean Blaster",
+   "name_zh": "骇影铳将",
+   "description_zh": "Boss 级实体之一（entity/mob/boss/HadeanBlasterEntity），有刷怪蛋；正文没有给出它的数值，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hadean-breathe",
+   "confidence": 0.5,
+   "notes": ""
+  },
+  {
+   "mob_id": "hadean_breathe:hadean_smasher",
+   "name_en": "Hadean Smasher",
+   "name_zh": "炽魂悍将",
+   "description_zh": "Boss 级实体之一（entity/mob/boss/HadeanSmasherEntity），有刷怪蛋；正文没有给出它的数值与技能说明，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hadean-breathe",
+   "confidence": 0.5,
+   "notes": ""
+  },
+  {
+   "mob_id": "hadean_breathe:hadean_ghast",
+   "name_en": "Hadean Ghast",
+   "name_zh": "狱火幽魂",
+   "description_zh": "狱火主题的恶魂类怪物，有独立模型与动画类；没有刷怪蛋，也没有群系生成配置，血量资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hadean-breathe",
+   "confidence": 0.5,
+   "notes": ""
+  },
+  {
+   "mob_id": "hadean_breathe:mini_hadean_ghast",
+   "name_en": "Mini Hadean Ghast",
+   "name_zh": "迷你狱火幽魂",
+   "description_zh": "小型的狱火幽魂，代码中有独立的 GhastShootFireballGoal 火球攻击目标，会朝玩家发射火球；有刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hadean-breathe",
+   "confidence": 0.5,
+   "notes": ""
+  }
+ ]
+}

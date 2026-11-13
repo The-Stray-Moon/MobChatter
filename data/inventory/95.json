@@ -1,0 +1,758 @@
+{
+ "rank": 95,
+ "mod": "Apocalypse Now",
+ "slug": "apocalypse-now",
+ "project_id": "itxv4X52",
+ "source_url": "https://modrinth.com/mod/apocalypse-now",
+ "jar": "D:\\work\\MobChatter\\data\\jars\\itxv4X52.jar",
+ "jar_size": 9346043,
+ "modid": "apocalypsenow",
+ "entity_count": 93,
+ "mob_count": 93,
+ "entities": [
+  {
+   "key": "entity.apocalypsenow.cannibal",
+   "id": "cannibal",
+   "en": "Cannibal",
+   "zh": "食人族",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.cockroach",
+   "id": "cockroach",
+   "en": "Cockroach",
+   "zh": "蟑螂",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.crawler_2",
+   "id": "crawler_2",
+   "en": "Crawler",
+   "zh": "爬尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.crawler_1",
+   "id": "crawler_1",
+   "en": "Crawler",
+   "zh": "爬尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.crawler_4",
+   "id": "crawler_4",
+   "en": "Crawler",
+   "zh": "爬尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.crawler_3",
+   "id": "crawler_3",
+   "en": "Crawler",
+   "zh": "爬尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.dropbox",
+   "id": "dropbox",
+   "en": "Dropbox",
+   "zh": "Dropbox",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.militarydrop",
+   "id": "militarydrop",
+   "en": "Dropbox",
+   "zh": "Dropbox",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.medicaldropbox",
+   "id": "medicaldropbox",
+   "en": "Dropbox",
+   "zh": "Dropbox",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.horde_2",
+   "id": "horde_2",
+   "en": "Horde (2)",
+   "zh": "尸群(2)",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.horde_1",
+   "id": "horde_1",
+   "en": "Horde (2)",
+   "zh": "尸群(2)",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.horde_3",
+   "id": "horde_3",
+   "en": "Horde (3)",
+   "zh": "尸群(3)",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.horde_4",
+   "id": "horde_4",
+   "en": "Horde (4)",
+   "zh": "尸群(4)",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.horde_5",
+   "id": "horde_5",
+   "en": "Horde (5)",
+   "zh": "尸群(5)",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.hunter",
+   "id": "hunter",
+   "en": "Hunter",
+   "zh": "猎手",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.looter_5",
+   "id": "looter_5",
+   "en": "Looter",
+   "zh": "掠夺者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.looter_4",
+   "id": "looter_4",
+   "en": "Looter",
+   "zh": "掠夺者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.looter_1",
+   "id": "looter_1",
+   "en": "Looter",
+   "zh": "掠夺者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.looter_3",
+   "id": "looter_3",
+   "en": "Looter",
+   "zh": "掠夺者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.looter_2",
+   "id": "looter_2",
+   "en": "Looter",
+   "zh": "掠夺者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.military_medic",
+   "id": "military_medic",
+   "en": "Military",
+   "zh": "军队",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.military_01",
+   "id": "military_01",
+   "en": "Military",
+   "zh": "军队",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.military_02",
+   "id": "military_02",
+   "en": "Military",
+   "zh": "军队",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.rat",
+   "id": "rat",
+   "en": "Rat",
+   "zh": "老鼠",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_39",
+   "id": "runner_39",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_38",
+   "id": "runner_38",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_37",
+   "id": "runner_37",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_36",
+   "id": "runner_36",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_35",
+   "id": "runner_35",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_34",
+   "id": "runner_34",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_49",
+   "id": "runner_49",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_48",
+   "id": "runner_48",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_47",
+   "id": "runner_47",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_42",
+   "id": "runner_42",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_41",
+   "id": "runner_41",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_40",
+   "id": "runner_40",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_46",
+   "id": "runner_46",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_45",
+   "id": "runner_45",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_44",
+   "id": "runner_44",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_43",
+   "id": "runner_43",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_53",
+   "id": "runner_53",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_52",
+   "id": "runner_52",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_51",
+   "id": "runner_51",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_50",
+   "id": "runner_50",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_57",
+   "id": "runner_57",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_56",
+   "id": "runner_56",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_55",
+   "id": "runner_55",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.runner_54",
+   "id": "runner_54",
+   "en": "Runner",
+   "zh": "奔尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.soldiers_02",
+   "id": "soldiers_02",
+   "en": "Soldier",
+   "zh": "士兵",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.soldiers",
+   "id": "soldiers",
+   "en": "Soldier",
+   "zh": "士兵",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.survivor_8",
+   "id": "survivor_8",
+   "en": "Survivor",
+   "zh": "幸存者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.survivor_7",
+   "id": "survivor_7",
+   "en": "Survivor",
+   "zh": "幸存者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.survivor_9",
+   "id": "survivor_9",
+   "en": "Survivor",
+   "zh": "幸存者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.survivor_2",
+   "id": "survivor_2",
+   "en": "Survivor",
+   "zh": "幸存者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.survivor_1",
+   "id": "survivor_1",
+   "en": "Survivor",
+   "zh": "幸存者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.survivor_4",
+   "id": "survivor_4",
+   "en": "Survivor",
+   "zh": "幸存者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.survivor_3",
+   "id": "survivor_3",
+   "en": "Survivor",
+   "zh": "幸存者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.survivor_6",
+   "id": "survivor_6",
+   "en": "Survivor",
+   "zh": "幸存者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.survivor_5",
+   "id": "survivor_5",
+   "en": "Survivor",
+   "zh": "幸存者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.survivor_10",
+   "id": "survivor_10",
+   "en": "Survivor",
+   "zh": "幸存者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_8",
+   "id": "walker_8",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_7",
+   "id": "walker_7",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_9",
+   "id": "walker_9",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_4",
+   "id": "walker_4",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_3",
+   "id": "walker_3",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_6",
+   "id": "walker_6",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_5",
+   "id": "walker_5",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_2",
+   "id": "walker_2",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_1",
+   "id": "walker_1",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_33",
+   "id": "walker_33",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_32",
+   "id": "walker_32",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_31",
+   "id": "walker_31",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_30",
+   "id": "walker_30",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_22",
+   "id": "walker_22",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_21",
+   "id": "walker_21",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_20",
+   "id": "walker_20",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_29",
+   "id": "walker_29",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_28",
+   "id": "walker_28",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_27",
+   "id": "walker_27",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_26",
+   "id": "walker_26",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_25",
+   "id": "walker_25",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_24",
+   "id": "walker_24",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_23",
+   "id": "walker_23",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_10",
+   "id": "walker_10",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_19",
+   "id": "walker_19",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_18",
+   "id": "walker_18",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_17",
+   "id": "walker_17",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_16",
+   "id": "walker_16",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_15",
+   "id": "walker_15",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_14",
+   "id": "walker_14",
+   "en": "Walker",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_11",
+   "id": "walker_11",
+   "en": "Walker ",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_13",
+   "id": "walker_13",
+   "en": "Walker ",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.apocalypsenow.walker_12",
+   "id": "walker_12",
+   "en": "Walker ",
+   "zh": "行尸",
+   "loot_table": "",
+   "projectile": false
+  }
+ ]
+}

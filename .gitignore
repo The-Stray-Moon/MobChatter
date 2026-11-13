@@ -1,0 +1,95 @@
+# ---------------------------------------------------------------------------
+# Secrets and local machine config
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+config.json
+config.local.json
+**/run/config/autojs.json
+
+# ---------------------------------------------------------------------------
+# Gradle / ModDev / run directories
+# ---------------------------------------------------------------------------
+.gradle/
+**/build/
+!**/gradle-wrapper.jar
+run/
+runs/
+**/dev-libs/
+**/logs/
+**/.mixin.out/
+profiler/
+gradle-app.setting
+.gradletasknamecache
+
+# ---------------------------------------------------------------------------
+# Java / IDE
+# ---------------------------------------------------------------------------
+*.class
+*.jar
+*.war
+*.ear
+!**/gradle-wrapper.jar
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+out/
+bin/
+.vscode/
+.settings/
+.classpath
+.project
+.kotlin/
+hs_err_pid*
+replay_pid*
+*.hprof
+*.jfr
+*.stackdump
+*.log
+
+# ---------------------------------------------------------------------------
+# Python data pipeline
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Heavy or reproducible pipeline data
+data/cache/
+data/jars/
+data/logs/
+data/raw/
+data/tmp/
+data/vanilla/client-*.jar
+data/dialogue/banks/
+data/dialogue/mods/
+data/dialogue/unique/
+data/dialogue/unique_plan.json
+output/mob_dialogue.csv
+output/mob_dialogue.json
+
+# ---------------------------------------------------------------------------
+# OS / editor noise
+# ---------------------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+Icon

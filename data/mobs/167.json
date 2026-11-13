@@ -1,0 +1,17 @@
+{
+ "rank": 167,
+ "mod": "[TACZ] NPCs",
+ "mod_url": "https://modrinth.com/mod/tacz-npcs",
+ "mobs": [
+  {
+   "mob_id": "tacznpcs:npc",
+   "name_en": "Gunner NPC",
+   "name_zh": "枪手 NPC",
+   "description_zh": "枪手 NPC 是 [TACZ] NPCs 添加的可配置人形 NPC，会像玩家一样使用 TACZ 枪械（包括火箭筒、榴弹发射器和喷火器），并支持玩家皮肤与 PlayerAnimator 动作。用 /summon tacznpcs:npc 配合模板生成，可在 tacznpc_loadouts.json 中配置装备、武器与皮肤，并用 tacznpc_factions.json 划分阵营，不同阵营会实时交战；默认掉落皮革或铁质护甲以及 TACZ 手枪（村民模板为 M1911，灾厄村民模板为 Glock 17）。它们还能按配置概率在村庄、林地府邸等结构中替换原有村民或灾厄村民生成，基础生命值20、近战伤害1，主要威胁来自所持枪械。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/tacz-npcs",
+   "confidence": 0.85,
+   "notes": "基础属性取自 jar 内 AutoGunOperator.createAttributes；掉落取自 data/tacznpcs/loot_tables/npc/*.json"
+  }
+ ]
+}

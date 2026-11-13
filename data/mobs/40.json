@@ -1,0 +1,557 @@
+{
+ "rank": 40,
+ "mod": "Born in Chaos",
+ "mod_url": "https://modrinth.com/mod/borninchaos",
+ "mobs": [
+  {
+   "mob_id": "born_in_chaos_v1:decrepit_skeleton",
+   "name_en": "Decrepit Skeleton",
+   "name_zh": "",
+   "description_zh": "衰老骷髅是普通骷髅的衰败版本，只会近战攻击，没有特殊能力，是较弱的敌人。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:skeleton_demoman",
+   "name_en": "Skeleton Demoman",
+   "name_zh": "",
+   "description_zh": "爆破骷髅的行为与衰老骷髅相近，但不惧阳光；生命值降到一定程度后会停下原地引爆，玩家可以趁引爆前击杀它或及时逃离。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:decaying_zombie",
+   "name_en": "Decaying Zombie",
+   "name_zh": "",
+   "description_zh": "腐朽僵尸的行为类似普通僵尸，攻击会附加饥饿与腐臭效果；生命值降低时血肉脱落，转变为衰老骷髅。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:baby_skeleton",
+   "name_en": "Baby Skeleton",
+   "name_zh": "",
+   "description_zh": "小骷髅是骷髅的幼年版本，移动速度很快，但单独出现时威胁不大，常作为更强怪物的仆从。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:bone_imp",
+   "name_en": "Bone Imp",
+   "name_zh": "",
+   "description_zh": "骨小鬼是小骷髅的强化版，主要生成在下界，免疫火焰伤害。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:siamese_skeletons",
+   "name_en": "Siamese Skeletons",
+   "name_zh": "",
+   "description_zh": "连体骷髅的行为与小骷髅相似，但生命值低于一半时会分裂成两只独立的骷髅，死亡时掉落融合骨。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:barrel_zombie",
+   "name_en": "Barrel Zombie",
+   "name_zh": "",
+   "description_zh": "木桶僵尸是卡在木桶里的僵尸，多出现在水域附近，不像普通僵尸那样溺水，也不怕阳光且护甲更高；掉落物从垃圾到极稀有的贵重物品都有可能。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:door_knight",
+   "name_en": "Door Knight",
+   "name_zh": "",
+   "description_zh": "门骑士是用手边一切物品武装自己的僵尸，不怕阳光、护甲更高，还能格挡玩家攻击并发出特殊音效；点燃它或用斧攻击可以破除格挡。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:zombie_clown",
+   "name_en": "Zombie Clown",
+   "name_zh": "",
+   "description_zh": "小丑僵尸行动缓慢但皮糙肉厚，攻击会砸碎迷醉药水，使目标减速并短暂中毒、眩晕；生命值低于一半时砸碎兴奋药水，提升周围所有怪物（包括自己）的移动速度。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:zombie_fisherman",
+   "name_en": "Zombie Fisherman",
+   "name_zh": "",
+   "description_zh": "渔夫僵尸出现在水域附近，用帽子遮阳因此不怕阳光，以腐鱼攻击玩家并造成持久的腐臭效果，死后召唤蛆虫的概率最高。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:zombie_lumberjack",
+   "name_en": "Zombie Lumberjack",
+   "name_zh": "",
+   "description_zh": "伐木工僵尸与普通僵尸相似，但手持能瞬间击碎原版木盾的斧头且伤害很高，死亡后有几率掉落自己的斧头。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:swarmer",
+   "name_en": "Swarmer",
+   "name_zh": "",
+   "description_zh": "蜂群僵尸是被苍蝇寄生、变成活巢的僵尸，不再怕阳光；攻击造成饥饿与腐臭，受伤时会定期召唤尸蝇，死亡时爆出苍蝇、蛆虫，有时还有血虻。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:zombie_bruiser",
+   "name_en": "Zombie Bruiser",
+   "name_zh": "",
+   "description_zh": "野蛮僵尸是危险的僵尸类型，生命值可观且体型虽大却相当灵活，攻击会击退玩家并使其短暂眩晕。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:skeleton_thrasher",
+   "name_en": "Skeleton Thrasher",
+   "name_zh": "",
+   "description_zh": "粉碎骷髅强大但行动缓慢，护甲更高，能像门骑士一样格挡攻击；点燃它或用斧攻击可破除格挡，其攻击伤害高、击退强。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:spirit_guide",
+   "name_en": "Spirit Guide",
+   "name_zh": "",
+   "description_zh": "灵魂向导生成于干燥炎热的生物群系，靠帽子抵挡阳光；攻击会施加魔力枯竭效果，战斗中会召唤帮手，成功命中玩家还会强化这些助手，同时具有亡灵与灵魂属性。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:bonescaller",
+   "name_en": "Bonescaller",
+   "name_zh": "",
+   "description_zh": "唤骨者手持法杖远程攻击，并会尽量与玩家保持距离；战斗中能召唤数只小骷髅助战，点燃它或施加魔力枯竭效果可以阻止召唤。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:supreme_bonescaller",
+   "name_en": "Supreme Bonescaller",
+   "name_zh": "",
+   "description_zh": "至高唤骨者是小 Boss，能力类似唤骨者，但被骨盾环绕、免疫远程武器，并改为召唤骨小鬼；骨盾被摧毁后它重新暴露在远程攻击下。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:fallen_chaos_knight",
+   "name_en": "Fallen Chaos Knight",
+   "name_zh": "",
+   "description_zh": "堕落混沌骑士外表破败却极其危险，护甲值高、移动速度快，免疫箭矢与阳光；攻击会给受害者施加诅咒印记，印记结束时最多生成四只猩红迫害者。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:lifestealer",
+   "name_en": "Lifestealer",
+   "name_zh": "",
+   "description_zh": "生命窃取者是从游戏第十夜起出现的小 Boss 亡灵，最初藏在斗篷下，能在 100 格内发现玩家、30 格内开始跟踪；攻击或受到足够伤害后才会显露真身。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:restless_spirit",
+   "name_en": "Restless Spirit",
+   "name_zh": "",
+   "description_zh": "不安灵魂是飞行灵魂，每次攻击都会束缚并减速受害者；暴露在直射阳光下会消失。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:phantom_creeper",
+   "name_en": "Phantom Creeper",
+   "name_zh": "",
+   "description_zh": "幻影苦力怕的行为与普通苦力怕相同，但一旦被击中就会立刻分裂成两个自身复制体，且最多只能分裂一次；可在主世界、诡异森林和末地遇到。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:pumpkin_spirit",
+   "name_en": "Pumpkin Spirit",
+   "name_zh": "",
+   "description_zh": "南瓜灵魂是中立生物，可在小农场找到，像铁傀儡一样攻击所有怪物、保卫领地；它极度怕火，接触火后会被火焰灵魂压制并转化为焦灼灵魂。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:seared_spirit",
+   "name_en": "Seared Spirit",
+   "name_zh": "",
+   "description_zh": "焦灼灵魂是着火的稻草人，对玩家敌对，攻击会点燃受害者；它在水中或雨中会受伤、免疫火焰伤害，手持转化灵药右击可将其治疗并转化为炼狱灵魂。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:dark_vortex",
+   "name_en": "Dark Vortex",
+   "name_zh": "",
+   "description_zh": "黑暗漩涡是会在阳光下消失的灵魂，发射使玩家失明的魔法弹，并能反射飞向它的投掷物；死亡时有几率掉落制作骨柄所需的暗黑棒。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:dark_vortex",
+   "name_en": "Dark Vortex",
+   "name_zh": "",
+   "description_zh": "黑暗漩涡是会在阳光下消失的灵魂，发射使玩家失明的魔法弹，并能反射飞向它的投掷物；死亡时有几率掉落制作骨柄所需的暗黑棒。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:scarlet_persecutor",
+   "name_en": "Scarlet Persecutor",
+   "name_zh": "",
+   "description_zh": "猩红迫害者会在诅咒印记结束后出现，可在 150 格距离追击玩家，能飞行并发动突袭；躲进狭窄空间可以阻止它们接近。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:nightmare_stalker",
+   "name_en": "Nightmare Stalker",
+   "name_zh": "",
+   "description_zh": "梦魇循踪兽是极其危险的灵魂，从游戏第三夜起出现，生成时伴随特殊音效与聊天提示；它完全隐形，玩家只能通过痕迹判断其位置。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:missioner",
+   "name_en": "Missionary",
+   "name_zh": "",
+   "description_zh": "传教士是从游戏第十天起出现的小 Boss 灵魂，总带着两只僵尸村民；它发射魔法弹，命中后在受害者脚下召唤唤魔者尖牙。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:krampus_henchman",
+   "name_en": "Krampus Henchman",
+   "name_zh": "",
+   "description_zh": "坎卜斯爪牙是出现在寒冷生物群系或淘气值足够高时的灵活敌人，坎卜斯也会召唤它们；攻击有几率打落玩家手中的武器，受伤时会惊慌逃窜。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:krampus",
+   "name_en": "Krampus",
+   "name_zh": "",
+   "description_zh": "坎卜斯是第十夜后极罕见地出现在寒冷生物群系的小 Boss，也可能因淘气值过高被引来；它的强力攻击有几率击落玩家武器。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:mr_pumpkin",
+   "name_en": "Mr. Pumpkin",
+   "name_zh": "",
+   "description_zh": "南瓜先生是行动缓慢、较弱的灵魂，仅在 10 月 25 日至 11 月 5 日自然生成，也会在战斗中援助南瓜头爵士。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:sir_pumpkinhead",
+   "name_en": "Sir Pumpkinhead",
+   "name_zh": "",
+   "description_zh": "南瓜头爵士是仅在 10 月 25 日至 11 月 5 日（万圣节）出现的小 Boss，也可通过破坏被蜡烛环绕的特殊南瓜召唤；它有三个主要阶段，第一阶段会骑马近战攻击。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:lord_pumpkinhead",
+   "name_en": "Lord Pumpkinhead",
+   "name_zh": "",
+   "description_zh": "南瓜头领主是南瓜头爵士的强化版，也是正式 Boss；手持转化灵药右击炼狱邪恶南瓜（无论制作还是找到）即可召唤，属于需要充分准备的后期 Boss。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:maggot",
+   "name_en": "Corpse Maggot",
+   "name_zh": "",
+   "description_zh": "尸蛆不会自然生成，而是在僵尸（原版与本模组）死亡时出现，出现几率和数量取决于僵尸类型；蛆虫弱小缓慢，但可能出其不意。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:corpse_fly",
+   "name_en": "Corpse Fly",
+   "name_zh": "",
+   "description_zh": "尸蝇相当弱，却会以数量压制玩家，出现在任意主世界生物群系；有翅膀却不能飞过一格高，只能滑翔，会攻击腐朽僵尸并使其感染。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:bloody_gadfly",
+   "name_en": "Bloody Gadfly",
+   "name_zh": "",
+   "description_zh": "血虻与尸蝇相近但强得多，出现在水域附近；攻击使玩家感染蝇蛆病，在生命值低于 17 点前持续受伤，效果结束时蛆虫会从体内钻出。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:firelight",
+   "name_en": "Firelight",
+   "name_zh": "",
+   "description_zh": "火光虫是生成在下界与火焰井附近的炽热节肢动物，啃咬会点燃受害者，自身免疫火焰；它会主动攻击南瓜灵魂使其腐化，死亡处会点燃地面。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:diamond_termite",
+   "name_en": "Diamond Termite",
+   "name_zh": "",
+   "description_zh": "世界上会生成被感染的钻石矿，破坏后白蚁会从最近的矿石中钻出；白蚁护甲更高，啃咬会附加疲劳效果。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:baby_spider",
+   "name_en": "Baby Spider",
+   "name_zh": "",
+   "description_zh": "小蜘蛛行为类似蜘蛛，但生命值更少、移动更快，优先在洞穴中以小群生成；高难度下攻击附带中毒，会攻击尸蝇和蛆虫。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:mother_spider",
+   "name_en": "Spiders Mother",
+   "name_zh": "",
+   "description_zh": "蜘蛛之母行为类似普通蜘蛛，优先在洞穴生成；攻击附带随难度增强的中毒与“活茧”减速效果，目标死亡时从中生出小蜘蛛；受伤时会定期召唤小蜘蛛，死亡时腹部爆出 3–6 只小蜘蛛并留下蛛网，掉落蜘蛛下颚。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:thornshell_crab",
+   "name_en": "Thornshell Crab",
+   "name_zh": "",
+   "description_zh": "刺壳蟹是生成于沿海生物群系的中立动物，防御很高，会对任何攻击者（无论近战还是远程）造成反伤；它是食腐动物，喂腐鱼或腐肉可获得骨粉，有时还有刺壳。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:corpse_fish",
+   "name_en": "Corpse Fish",
+   "name_zh": "",
+   "description_zh": "尸鱼是出现在所有水域生物群系的攻击性鱼，单体不强，但成群时凭借高速很难摆脱；除玩家外也会攻击溺尸。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:glutton_fish",
+   "name_en": "Glutton Fish",
+   "name_zh": "",
+   "description_zh": "贪食鱼是可在所有海洋中找到的巨型鱼，会攻击水中遇到的几乎所有生物（部分敌对生物除外）；攻击会碎骨并造成高伤害，用盾牌格挡其攻击可使其短暂眩晕。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:dread_hound",
+   "name_en": "Dread Hound",
+   "name_zh": "",
+   "description_zh": "骇狼以小群出现，猎杀大多数骷髅并对玩家敌对；若未攻击它，可用骨头或穿刺头颅右击安抚，安抚后一段时间内不再攻击；沙漠中啃咬骨头旁也能遇到不会消失的狼群。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:dire_hound_leader",
+   "name_en": "Dire Hound Leader",
+   "name_zh": "",
+   "description_zh": "恐狼首领在世界上罕见，总由两只恐狼陪同，猎杀大多数骷髅并敌视玩家，未受攻击时也能用骨头安抚；攻击造成“碎骨”效果（减速并虚弱，带有再生效果时消失），战斗中定期召唤恐狼，掉落可用于制作新物品的獠牙。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.9,
+   "notes": "来自 Modrinth 模组正文的生物介绍"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:felsteed",
+   "name_en": "Felsteed",
+   "name_zh": "",
+   "description_zh": "Felsteed 是 Born in Chaos 新增的怪物，注册名 born_in_chaos_v1:felsteed，有对应刷怪蛋；模组正文未给出该生物的详细说明，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.4,
+   "notes": "模组正文未覆盖，仅依据 jar 内注册名与刷怪蛋"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:infernal_spirit",
+   "name_en": "Infernal Spirit",
+   "name_zh": "",
+   "description_zh": "炼狱灵魂是焦灼灵魂被转化灵药治疗后变成的形态，属于灵魂类怪物；模组正文未给出更多独立说明。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.8,
+   "notes": "能力描述来自正文焦灼灵魂条目"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:mrs_pumpkin",
+   "name_en": "Mrs Pumpkin",
+   "name_zh": "",
+   "description_zh": "Mrs Pumpkin 是 Born in Chaos 新增的怪物，注册名 born_in_chaos_v1:mrs_pumpkin，有对应刷怪蛋；模组正文未给出该生物的详细说明，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.4,
+   "notes": "模组正文未覆盖，仅依据 jar 内注册名与刷怪蛋"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:pumpkin_bruiser",
+   "name_en": "Pumpkin Bruiser",
+   "name_zh": "",
+   "description_zh": "Pumpkin Bruiser 是 Born in Chaos 新增的怪物，注册名 born_in_chaos_v1:pumpkin_bruiser，有对应刷怪蛋；模组正文未给出该生物的详细说明，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.4,
+   "notes": "模组正文未覆盖，仅依据 jar 内注册名与刷怪蛋"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:pumpkin_dunce",
+   "name_en": "Pumpkin Dunce",
+   "name_zh": "",
+   "description_zh": "Pumpkin Dunce 是 Born in Chaos 新增的怪物，注册名 born_in_chaos_v1:pumpkin_dunce，有对应刷怪蛋；模组正文未给出该生物的详细说明，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.4,
+   "notes": "模组正文未覆盖，仅依据 jar 内注册名与刷怪蛋"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:pumpkinhead",
+   "name_en": "Pumpkinhead",
+   "name_zh": "",
+   "description_zh": "Pumpkinhead 是 Born in Chaos 新增的怪物，注册名 born_in_chaos_v1:pumpkinhead，有对应刷怪蛋；模组正文未给出该生物的详细说明，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.4,
+   "notes": "模组正文未覆盖，仅依据 jar 内注册名与刷怪蛋"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:senor_pumpkin",
+   "name_en": "Senor Pumpkin",
+   "name_zh": "",
+   "description_zh": "Senor Pumpkin 是 Born in Chaos 新增的怪物，注册名 born_in_chaos_v1:senor_pumpkin，有对应刷怪蛋；模组正文未给出该生物的详细说明，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.4,
+   "notes": "模组正文未覆盖，仅依据 jar 内注册名与刷怪蛋"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:sir_the_headless",
+   "name_en": "Sir The Headless",
+   "name_zh": "",
+   "description_zh": "Sir The Headless 是 Born in Chaos 新增的怪物，注册名 born_in_chaos_v1:sir_the_headless，有对应刷怪蛋；模组正文未给出该生物的详细说明，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.4,
+   "notes": "模组正文未覆盖，仅依据 jar 内注册名与刷怪蛋"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:lord_the_headless",
+   "name_en": "Lord The Headless",
+   "name_zh": "",
+   "description_zh": "Lord The Headless 是 Born in Chaos 新增的怪物，注册名 born_in_chaos_v1:lord_the_headless，有对应刷怪蛋；模组正文未给出该生物的详细说明，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.4,
+   "notes": "模组正文未覆盖，仅依据 jar 内注册名与刷怪蛋"
+  },
+  {
+   "mob_id": "born_in_chaos_v1:spiritof_chaos",
+   "name_en": "Spirit of Chaos",
+   "name_zh": "",
+   "description_zh": "Spirit of Chaos 是 Born in Chaos 新增的怪物，注册名 born_in_chaos_v1:spiritof_chaos，有对应刷怪蛋；模组正文未给出该生物的详细说明，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/borninchaos",
+   "confidence": 0.4,
+   "notes": "模组正文未覆盖，仅依据 jar 内注册名与刷怪蛋"
+  }
+ ]
+}

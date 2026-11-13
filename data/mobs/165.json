@@ -1,0 +1,1557 @@
+{
+ "rank": 165,
+ "mod": "Caerula Arbor",
+ "mod_url": "https://modrinth.com/mod/caerula-arbor",
+ "mobs": [
+  {
+   "mob_id": "caerula_arbor:highmore",
+   "name_en": "\"Paranoia Illusion\"",
+   "name_zh": "偏执泡影",
+   "description_zh": "偏执泡影是 Caerula Arbor 添加的 Boss 级海嗣，体型偏大（碰撞箱 1.4×1.6 格），生命值 210 点、攻击伤害 6 点、索敌范围 48 格。它会用远程攻击追杀玩家，也会攻击村民、铁傀儡与雪傀儡，移动速度 0.6，行动迅捷。模组没有为它安排自然生成，主要经刷怪蛋或事件登场；击杀后掉落深海腕足×8–18、复合几丁质×2–6、深海几丁质×18–36 等，另有专属遗物。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:aegir_mortar",
+   "name_en": "Aegir Mortar",
+   "name_zh": "阿戈尔重锤迫击炮",
+   "description_zh": "由阿戈尔火炮基座与中枢搭成多方块结构后获得的重炮。生命值 500 点（数值可在配置文件调整），免疫无来源伤害；弹药充足时会自动攻击前后左右 72 格、上方 64 格、下方 72 格内的敌人。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/947941.html",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "caerula_arbor:alchemy_base",
+   "name_en": "Alchemy Base",
+   "name_zh": "塑能基质",
+   "description_zh": "可塑性极强的炼金产物，常被炼金术士当作捏捏乐把玩而决定反抗，生命值 12 点、攻击伤害 3 点。周围存在仍在主动吸收基质的炼金造物时，它会向对方靠近。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/1025105.html",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "caerula_arbor:promoted_elder_guardian",
+   "name_en": "Allotropic Elder Guardian",
+   "name_zh": "异光体远古守卫者",
+   "description_zh": "生命值：165点，攻击伤害：14点，盔甲值：11点，攻击间隔：3秒。死亡后有概率掉落海晶石、海晶碎片、海晶沙砾、深海棱晶和异光体晶片。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/991245.html",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "caerula_arbor:promoted_guardian",
+   "name_en": "Allotropic Guardian",
+   "name_zh": "异光体守卫者",
+   "description_zh": "异光体守卫者是 Caerula Arbor 添加的由原版守卫者异光体化而来的精英海嗣，生命值 56 点、攻击伤害 10 点、索敌范围 64 格。会远程狙击并追击玩家，也会攻击铁傀儡与鱿鱼，受击后必定反击。它的生成项对所有生物群系生效，每次 1–2 只，生成权重 24；击杀后掉落海晶碎片×18–77、海晶石×6–22、海晶砂粒×12–66 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:apocata",
+   "name_en": "Apocata",
+   "name_zh": "哈基玖",
+   "description_zh": "本模组作者常用的皮肤外观。彩蛋生物，只能通过作弊获取。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/985544.html",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_spider",
+   "name_en": "Araptera Shore Ovarypod",
+   "name_zh": "鞘岸累卵体",
+   "description_zh": "蜘蛛或洞穴蜘蛛被海嗣或溟痕杀死时有 65% 概率生成。生命值：32点，攻击伤害：7点。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/888416.html",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_pillager",
+   "name_en": "Arrow Shore Pillager",
+   "name_zh": "矢岸掠教者",
+   "description_zh": "矢岸掠教者是 Caerula Arbor 添加的由原版掠夺者海嗣化而来的生物，体型偏大（碰撞箱 0.6×1.9 格），生命值 48 点、攻击伤害 6 点。它会用远程攻击追杀玩家，也会攻击村民、铁傀儡与雪傀儡，遭到攻击会还击，平时慢悠悠地踱步。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤；击杀后掉落深海腕足×1–3、深海棱骨箭×1–2。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_vindicator",
+   "name_en": "Axe Shore Vindicator",
+   "name_zh": "斧岸卫教者",
+   "description_zh": "斧岸卫教者是 Caerula Arbor 添加的由原版卫道士海嗣化而来的精英海嗣，生命值 55 点、攻击伤害 16 点。它会主动扑向玩家，也会攻击村民、铁傀儡与雪傀儡，被打了会立刻还手，空闲时会四处游荡。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场；击杀后掉落绿宝石×2–3、深海腕足×2–3、深溟腐质×2–5 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:fake_offspring",
+   "name_en": "Baleful Brooding",
+   "name_zh": "注亡拟嗣",
+   "description_zh": "注亡拟嗣是 Caerula Arbor 添加的海嗣，体型小巧（碰撞箱 0.6×0.6 格），生命值 8 点、攻击伤害 3 点。会主动追击玩家，也会攻击村民、铁傀儡与雪傀儡，受击后必定反击，会跃向目标。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_dog",
+   "name_en": "Bark Shore Wolf",
+   "name_zh": "吠岸缥耳体",
+   "description_zh": "吠岸缥耳体是 Caerula Arbor 添加的由原版狗海嗣化而来的宠物，中等体型（碰撞箱 0.7×0.8 格），生命值 85 点、攻击伤害 9 点。它遭到攻击会还击。模组没有为它安排自然生成，主要经刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:reaper_fish",
+   "name_en": "Basin Sea Reaper",
+   "name_zh": "钵海收割者",
+   "description_zh": "发出尖锐声响的恐鱼。储存营养的行为被打断时会立刻对身边的威胁进行回击，直到感受不到任何其他物种的生命现象为止。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/865452.html",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_illusioner",
+   "name_en": "Bewitched Shore Illusioner",
+   "name_zh": "蛊岸蜃教者",
+   "description_zh": "蛊岸蜃教者是 Caerula Arbor 添加的由原版幻术师海嗣化而来的 Boss 级生物，体型偏大（碰撞箱 0.6×1.9 格），生命值 108 点、攻击伤害 9 点、护甲值 6 点、索敌范围 28 格。它会用远程攻击追杀玩家，也会攻击村民、铁傀儡与雪傀儡，遭到攻击会还击，还会推开木门。模组没有为它安排自然生成，主要经刷怪蛋或事件登场；击杀后掉落深海几丁质×2–12、深海韧皮×3–16、荧光浆果×2–8 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:bone_fish",
+   "name_en": "Bone Sea Drifter",
+   "name_zh": "骨海漂流体",
+   "description_zh": "从大群骨骸中诞生的恐鱼，常常成群而动，一边寻找尸骨吞食养分，一边任由其他恐鱼捕食。生命值：12点，攻击伤害：4点。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/865455.html",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "caerula_arbor:chemist_washbasin",
+   "name_en": "Chemist Washbasin",
+   "name_zh": "炼金术师净手盆",
+   "description_zh": "炼金术师净手盆是 Caerula Arbor 添加的炼金造物，生命值 192 点、攻击伤害 17 点、护甲值 3 点、索敌范围 24 格。它被打了会立刻还手，空闲时会四处游荡。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场；击杀后掉落伊比利亚家具零件×3–5、金锭×3–4、塑能海晶石砖×2。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:chest_fish",
+   "name_en": "Chest Seaborn",
+   "name_zh": "箱形恐鱼",
+   "description_zh": "箱形恐鱼是 Caerula Arbor 添加的精英海嗣，中等体型（碰撞箱 0.9×0.9 格），生命值 120 点、攻击伤害 12 点。受击后必定反击。它生成于桦木森林、繁花森林、森林等多种群系，每次 1 只，生成权重 3；击杀后掉落红石锭×9–12、绿宝石×6–15、钻石×8–18 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:chitin_golem",
+   "name_en": "Chitin Golem",
+   "name_zh": "几丁质傀儡",
+   "description_zh": "几丁质傀儡是 Caerula Arbor 添加的傀儡造物，体型巨大（碰撞箱 1.75×4 格）；它没有自定义属性面板，生命值与攻击力沿用原版铁傀儡。会主动攻击其他怪物，受击后必定反击，平时在林间随意漫步。它不会自然生成，只能通过刷怪蛋、事件或召唤出现；击杀后掉落深海几丁质×11–19、深溟腐质×0–6。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:compassion_prayer",
+   "name_en": "Compassion Prayer",
+   "name_zh": "恩慈祷者",
+   "description_zh": "恩慈祷者是 Caerula Arbor 添加的海嗣，体型偏大（碰撞箱 0.6×1.8 格），生命值 136 点、攻击伤害 7 点、护甲值 2 点。它会远程狙击并追击玩家，也会攻击村民、铁傀儡与雪傀儡。它不会自然生成，只能通过刷怪蛋、事件或召唤出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:complex_chitin_golem",
+   "name_en": "Complex Chitin Golem",
+   "name_zh": "复合几丁质傀儡",
+   "description_zh": "复合几丁质傀儡是 Caerula Arbor 添加的傀儡造物，体型巨大（碰撞箱 1.75×4 格）；它没有自定义属性面板，生命值与攻击力沿用原版铁傀儡。会突然袭击其他怪物，受击后必定反击，平时在林间随意漫步。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤；击杀后掉落复合几丁质×3–6、深溟腐质×6–20、深海棱晶×3–10 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:confession_censer",
+   "name_en": "Confession Censer",
+   "name_zh": "忏悔香炉",
+   "description_zh": "忏悔香炉是 Caerula Arbor 添加的炼金造物，生命值 48 点、攻击伤害 4 点、护甲值 5 点、索敌范围 24 格。它会发起远程攻击，遭到攻击会还击，平时慢悠悠地踱步。它不会自然生成，只能通过刷怪蛋、事件或召唤出现；击杀后掉落伊比利亚家具零件×4–6、塑能海晶石砖×2、磨制安山岩台阶。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_shulker",
+   "name_en": "Contain Island Shulker",
+   "name_zh": "纳岛步行贝",
+   "description_zh": "纳岛步行贝是 Caerula Arbor 添加的由原版潜影贝海嗣化而来的精英海嗣，生命值 55 点、攻击伤害 3 点、护甲值 5 点、索敌范围 24 格。它被打了会立刻还手。模组没有为它安排自然生成，主要经刷怪蛋或事件登场；击杀后掉落潜影壳、深海几丁质×2–6、赘生几丁质×2–6。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:creeper_pet",
+   "name_en": "Creeper Pet",
+   "name_zh": "驯化的爬行者",
+   "description_zh": "培育得到的囊海爬行者变种，小巧但更坚韧。生命值：75点，攻击伤害：3点。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/944821.html",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_chicken",
+   "name_en": "Crow Shore Iteroviposer",
+   "name_zh": "鸣岸擢羽体",
+   "description_zh": "鸡被海嗣或溟痕杀死后有 45% 概率出现。生命值：10点，攻击伤害：2点。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/925992.html",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "caerula_arbor:promoted_axolotl",
+   "name_en": "Curative Axolotl",
+   "name_zh": "焕变体美西螈",
+   "description_zh": "焕变体美西螈是 Caerula Arbor 添加的由原版美西螈异光体化而来的海嗣，体型小巧（碰撞箱 0.625×0.25 格），生命值 27 点、攻击伤害 6 点。会远程攻击溺尸，受击后必定反击。它被挂在虚空群系的生成表里，实际上不会自然生成，只能靠刷怪蛋或事件获得。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:damage_tester",
+   "name_en": "Damage Tester",
+   "name_zh": "解压助手",
+   "description_zh": "模组作者的调试生物。生命值：1000000点。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/985553.html",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "caerula_arbor:slider_fish",
+   "name_en": "Deep Sea Slider",
+   "name_zh": "底海滑动者",
+   "description_zh": "底海滑动者是 Caerula Arbor 添加的海嗣，中等体型（碰撞箱 0.5×0.8 格），生命值 12 点、攻击伤害 3 点。会主动追击玩家，也会攻击村民、铁傀儡与雪傀儡，受击后必定反击，在水中四处游动。它的生成项对所有生物群系生效，每次 2–5 只，生成权重 40；击杀后掉落深海韧皮、深海腕足。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:divicellular_go",
+   "name_en": "Divicellular Hoarder",
+   "name_zh": "诡核推演者",
+   "description_zh": "诡核推演者是 Caerula Arbor 添加的海嗣，生命值 32 点、攻击伤害 4 点、护甲值 5 点。它遭到攻击会还击，平时慢悠悠地踱步。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:accumulator_prokaryote",
+   "name_en": "Divicellular Hoarder",
+   "name_zh": "诡核集养者",
+   "description_zh": "诡核集养者是 Caerula Arbor 添加的海嗣，生命值 32 点、攻击伤害 3 点。它会主动扑向玩家，被打了会立刻还手，在水中四处游动。生成配置覆盖全部生物群系，每次 1–3 只，生成权重 60；击杀后掉落残损生机细胞×3–8、生机细胞×1–4、海晶砂粒×1–2 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_enderina",
+   "name_en": "Enderina the Peramble",
+   "name_zh": "安德理奈，“序章”",
+   "description_zh": "安德理奈，“序章”是 Caerula Arbor 添加的 Boss 级神性海嗣，体型偏大（碰撞箱 0.75×1.95 格），生命值 385 点、攻击伤害 14 点、护甲值 15 点、索敌范围 36 格。它会发起远程攻击，被打了会立刻还手，倒下后还能再度复活，移动速度 0.45，行动迅捷。模组没有为它安排自然生成，主要经刷怪蛋或事件登场；击杀后掉落受潮的末地水晶×2–3、末地水晶×2–6、龙纹溟痕×8–24 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:endspeaker_2",
+   "name_en": "Endspeaker, Bloodlogged Nest",
+   "name_zh": "屠谕者，殷染危巢",
+   "description_zh": "屠谕者，殷染危巢是 Caerula Arbor 添加的 Boss 级海嗣，体型巨大（碰撞箱 1.2×2.8 格），生命值 140 点、攻击伤害 9 点、护甲值 6 点、索敌范围 32 格。会主动追击玩家，也会攻击村民、铁傀儡与雪傀儡，倒下后还能再度复活。模组没有为它安排自然生成，主要经刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:endspeaker_0",
+   "name_en": "Endspeaker, Hateful One",
+   "name_zh": "屠谕者，可憎之物",
+   "description_zh": "屠谕者，可憎之物是 Caerula Arbor 添加的 Boss 级海嗣，体型小巧（碰撞箱 0.65×0.7 格），生命值 16 点。它倒下后还能再度复活。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:endspeaker_1",
+   "name_en": "Endspeaker, Static Spawn",
+   "name_zh": "屠谕者，静置累卵",
+   "description_zh": "屠谕者，静置累卵是 Caerula Arbor 添加的 Boss 级海嗣，体型偏大（碰撞箱 0.75×1.5 格），生命值 120 点、攻击伤害 7 点、护甲值 5 点、索敌范围 36 格。它会锁定并追赶玩家，也会攻击村民、铁傀儡与雪傀儡，遭到攻击会还击，倒下后还能再度复活。它不会自然生成，只能通过刷怪蛋、事件或召唤出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:endspeaker_3",
+   "name_en": "Endspeaker, Will of We Many",
+   "name_zh": "屠谕者，大群意志",
+   "description_zh": "屠谕者，大群意志是 Caerula Arbor 添加的 Boss 级海嗣，生命值 224 点、攻击伤害 11 点、护甲值 8 点、索敌范围 36 格。它会主动扑向玩家，也会攻击村民、铁傀儡与雪傀儡，倒下后还能再度复活。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场；击杀后掉落予谕断章、深海肌肉束×24–72、青金石×40–132 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:depositer_prokaryote",
+   "name_en": "Exocellular Depositer",
+   "name_zh": "微核沉积者",
+   "description_zh": "微核沉积者是 Caerula Arbor 添加的海嗣，生命值 18 点、攻击伤害 4 点、护甲值 3 点。它会锁定并追赶玩家，遭到攻击会还击，在水中四处游动。它生成于冷水海洋、冷水深海、冰冻深海等多种群系，每次 1–3 只，生成权重 45；击杀后掉落异光体晶片×1–3。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_cat",
+   "name_en": "Feline Shore Cat",
+   "name_zh": "菲岸尺玉体",
+   "description_zh": "菲岸尺玉体是 Caerula Arbor 添加的由原版猫海嗣化而来的动物，体型小巧（碰撞箱 0.5×0.625 格），生命值 24 点、攻击伤害 6 点。会突然袭击村民、铁傀儡与雪傀儡，受击后必定反击，平时在林间随意漫步。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_enderman",
+   "name_en": "Finale Island Envoy",
+   "name_zh": "终岛使者",
+   "description_zh": "终岛使者是 Caerula Arbor 添加的由原版末影人海嗣化而来的精英海嗣，体型巨大（碰撞箱 0.6×3 格），生命值 95 点、攻击伤害 14 点、索敌范围 32 格。它会突然袭击村民、铁傀儡与雪傀儡，遭到攻击会还击，平时慢悠悠地踱步，会瞬移并发射激光。模组没有为它安排自然生成，主要经刷怪蛋或事件登场；击杀后掉落末影珍珠×2–3、深海之眼、深海肌肉束×2–6 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:flamarine_golem",
+   "name_en": "Flamarine Golem",
+   "name_zh": "“水火相容”原型机",
+   "description_zh": "“水火相容”原型机是 Caerula Arbor 添加的 Boss 级傀儡造物，生命值 270 点、攻击伤害 19 点、护甲值 23 点、索敌范围 32 格。它会主动扑向玩家，被打了会立刻还手。它不会自然生成，只能通过刷怪蛋、事件或召唤出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:flamarine_statue",
+   "name_en": "Flamarine Statue",
+   "name_zh": "“水火相容”量产型",
+   "description_zh": "“水火相容”量产型是 Caerula Arbor 添加的傀儡造物，生命值 75 点、攻击伤害 15 点、护甲值 18 点。它会锁定并追赶玩家，遭到攻击会还击，平时慢悠悠地踱步。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场；击杀后掉落亘海深蚀残骸×2、远古残骸×2、下界合金升级锻造模板×2 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_brute",
+   "name_en": "Flame Valley Despot",
+   "name_zh": "烽谷暴君",
+   "description_zh": "烽谷暴君是 Caerula Arbor 添加的由原版蛮兵海嗣化而来的 Boss 级生物，生命值 115 点、攻击伤害 16 点、护甲值 5 点、索敌范围 24 格。会主动追击玩家，也会攻击村民、铁傀儡与雪傀儡，受击后必定反击，平时在林间随意漫步。模组没有为它安排自然生成，主要经刷怪蛋或事件登场；击杀后掉落金锭×4–10、镶金黑石×12–22、染痕的金苹果×2–4 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_piglin",
+   "name_en": "Flame Valley Goldchaser",
+   "name_zh": "烽谷逐金者",
+   "description_zh": "烽谷逐金者是 Caerula Arbor 添加的由原版猪灵海嗣化而来的生物，生命值 35 点、攻击伤害 13 点、索敌范围 24 格。它会主动攻击村民、铁傀儡与雪傀儡，被打了会立刻还手，空闲时会四处游荡。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场；击杀后掉落金锭×1–2、金粒×3–12、深海腕足×2–3 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_sheep",
+   "name_en": "Fleece Shore Fungimoister",
+   "name_zh": "绒岸舐菌体",
+   "description_zh": "绒岸舐菌体是 Caerula Arbor 添加的由原版羊海嗣化而来的动物，生命值 16 点、攻击伤害 3 点。它会主动攻击村民、铁傀儡与雪傀儡，遭到攻击会还击，平时在各处快速奔走。它不会自然生成，只能通过刷怪蛋、事件或召唤出现；击杀后掉落生羊肉×1–6、深海腕足×1–4、深溟腐质×0–6 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:fly_fish",
+   "name_en": "Floating Sea Drifter",
+   "name_zh": "浮海飘航者",
+   "description_zh": "浮海飘航者是 Caerula Arbor 添加的海嗣，中等体型（碰撞箱 0.6×0.9 格），生命值 15 点、攻击伤害 3 点。会远程狙击并追击玩家，也会攻击村民、铁傀儡与雪傀儡，受击后必定反击。它的生成项对所有生物群系生效，每次 2–4 只，生成权重 40。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:gladiia",
+   "name_en": "Gladiia",
+   "name_zh": "舞槊的深海猎人",
+   "description_zh": "舞槊的深海猎人是 Caerula Arbor 添加的深海猎人，体型偏大（碰撞箱 0.6×1.8 格），生命值 216 点、攻击伤害 27 点、护甲值 9 点、索敌范围 32 格。它会突然袭击其他怪物，被打了会立刻还手，还会推开木门。模组没有为它安排自然生成，主要经刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_pig",
+   "name_en": "Hog Shore Livestock",
+   "name_zh": "彘岸啮畜体",
+   "description_zh": "彘岸啮畜体是 Caerula Arbor 添加的由原版猪海嗣化而来的动物，生命值 11 点、攻击伤害 3 点。它会突然袭击村民、铁傀儡与雪傀儡，遭到攻击会还击，会四处快速移动。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤；击杀后掉落生猪排×2–6、深溟腐质×1–4、深海腕足×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_hoglin",
+   "name_en": "Hog Valley Axetoothlin",
+   "name_zh": "豭谷钺齿兽",
+   "description_zh": "豭谷钺齿兽是 Caerula Arbor 添加的由原版疣猪兽海嗣化而来的精英海嗣，体型偏大（碰撞箱 0.6×1.6 格），生命值 75 点、攻击伤害 7 点。它会主动攻击猪灵与猪灵蛮兵，遭到攻击会还击，平时慢悠悠地踱步，会被特定物品吸引。它不会自然生成，只能通过刷怪蛋、事件或召唤出现；击杀后掉落生猪排×3–5、皮革×4–12、深海韧皮×4–16 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:hollow_armor",
+   "name_en": "Hollow Armor",
+   "name_zh": "空盔甲",
+   "description_zh": "空盔甲是 Caerula Arbor 添加的炼金造物，生命值 72 点、攻击伤害 9 点、护甲值 10 点、索敌范围 24 格。它遭到攻击会还击。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤；击杀后掉落伊比利亚家具零件×2–4、铁锭×16–19、钻石×7–9 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_cow",
+   "name_en": "Hoof Shore Fungileather",
+   "name_zh": "蹄岸菌革体",
+   "description_zh": "蹄岸菌革体是 Caerula Arbor 添加的由原版牛海嗣化而来的动物，中等体型（碰撞箱 0.6×1.375 格），生命值 19 点、攻击伤害 4 点。它会主动攻击村民、铁傀儡与雪傀儡，遭到攻击会还击，平时慢悠悠地踱步。它不会自然生成，只能通过刷怪蛋、事件或召唤出现；击杀后掉落深海韧皮×2–6、生牛肉×2–6、深溟腐质×0–2。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_wolf",
+   "name_en": "Howl Shore Wolf",
+   "name_zh": "嚎岸附离体",
+   "description_zh": "嚎岸附离体是 Caerula Arbor 添加的由原版狼海嗣化而来的动物，中等体型（碰撞箱 0.7×0.8 格），生命值 22 点、攻击伤害 7 点。它会突然袭击村民、铁傀儡与雪傀儡，遭到攻击会还击，平时慢悠悠地踱步。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:iberia_monstrosity",
+   "name_en": "Iberia Monstrosity",
+   "name_zh": "伊比利亚战争巨械",
+   "description_zh": "伊比利亚战争巨械是 Caerula Arbor 添加的审判庭成员，体型巨大（碰撞箱 3×5 格），生命值 500 点、攻击伤害 19 点、护甲值 22 点、索敌范围 31 格。它会主动攻击其他怪物，遭到攻击会还击。它不会自然生成，只能通过刷怪蛋、事件或召唤出现；击杀后掉落伊比利亚改量装置×19–24、狱海合金粒×12–18、复合几丁质×3–5。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:irene",
+   "name_en": "Irene",
+   "name_zh": "起风的审判官",
+   "description_zh": "起风的审判官是 Caerula Arbor 添加的审判庭成员，体型偏大（碰撞箱 0.6×1.8 格），生命值 85 点、攻击伤害 9 点、护甲值 6 点、索敌范围 32 格。会突然袭击其他怪物，受击后必定反击，还会推开木门。模组没有为它安排自然生成，主要经刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:isharmla",
+   "name_en": "Isharmla",
+   "name_zh": "伊莎玛拉，腐化之心",
+   "description_zh": "伊莎玛拉，腐化之心是 Caerula Arbor 添加的 Boss 级神性海嗣，体型偏大（碰撞箱 0.6×1.8 格），生命值 320 点、攻击伤害 16 点、护甲值 12 点、索敌范围 64 格。受击后必定反击。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤；击杀后掉落枯竭之心、异光体晶片×12–56、金粒×36–112 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:ishmael",
+   "name_en": "Ishmael",
+   "name_zh": "迴照的大审判官",
+   "description_zh": "迴照的大审判官是 Caerula Arbor 添加的审判庭成员，体型偏大（碰撞箱 0.6×1.8 格），生命值 140 点、攻击伤害 12 点、护甲值 6 点、索敌范围 27 格。它会发起远程攻击，被打了会立刻还手。模组没有为它安排自然生成，主要经刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:izumik",
+   "name_en": "Izumik",
+   "name_zh": "伊祖米克，“生态泉源”",
+   "description_zh": "伊祖米克，“生态泉源”是 Caerula Arbor 添加的 Boss 级神性海嗣，体型巨大（碰撞箱 3.3×9 格），生命值 600 点、攻击伤害 22 点、护甲值 18 点、索敌范围 64 格。它会四处快速移动。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:caerula_offspring",
+   "name_en": "Izumik Offspring",
+   "name_zh": "深蓝子代",
+   "description_zh": "深蓝子代是 Caerula Arbor 添加的海嗣，体型小巧（碰撞箱 0.4×0.75 格），生命值 40 点、攻击伤害 6 点、护甲值 6 点。它遭到攻击会还击，移动速度 0.4，行动迅捷。它不会自然生成，只能通过刷怪蛋、事件或召唤出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:izumik_offspring",
+   "name_en": "Izumik Offspring",
+   "name_zh": "伊祖米克的子代",
+   "description_zh": "伊祖米克的子代是 Caerula Arbor 添加的精英海嗣，中等体型（碰撞箱 0.5×0.9 格），生命值 80 点、攻击伤害 8 点、护甲值 15 点。受击后必定反击，移动速度 0.4，行动迅捷。它生成于冷水海洋、冷水深海、冰冻深海等多种群系，每次 1–2 只，生成权重 2；击杀后掉落缤海胶质×3–8、残损生机细胞×4–9、精制腕足×1–2。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:izumil_doll",
+   "name_en": "Izumil Loot Doll",
+   "name_zh": "伊祖米克战利品使灵",
+   "description_zh": "伊祖米克战利品使灵是 Caerula Arbor 添加的生物，中等体型（碰撞箱 0.75×0.8 格），生命值 40 点、攻击伤害 7 点、索敌范围 72 格。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:junior_warrior_priest",
+   "name_en": "Junior Warrior Priest",
+   "name_zh": "审判庭见习修士",
+   "description_zh": "审判庭见习修士是 Caerula Arbor 添加的审判庭修士，体型偏大（碰撞箱 0.6×1.8 格），生命值 30 点、攻击伤害 7 点、护甲值 4 点、索敌范围 24 格。它会主动攻击其他怪物，被打了会立刻还手，空闲时会四处游荡，还会推开木门。它不会自然生成，只能通过刷怪蛋、事件或召唤出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanize_rabbit",
+   "name_en": "Lepus Shore Rabbit",
+   "name_zh": "菟岸彩跃体",
+   "description_zh": "菟岸彩跃体是 Caerula Arbor 添加的由原版兔子海嗣化而来的生物，体型小巧（碰撞箱 0.4×0.5 格），生命值 8 点、攻击伤害 5 点。受击后必定反击，平时在林间随意漫步，会被特定物品吸引。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤；击杀后掉落珊瑚兔子脚、生兔肉、兔子皮。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:little_helper",
+   "name_en": "Little Helper",
+   "name_zh": "“小帮手”",
+   "description_zh": "“小帮手”是 Caerula Arbor 添加的生物，体型小巧（碰撞箱 0.875×0.2 格），生命值 799 点、攻击伤害 256 点、护甲值 5 点、索敌范围 32 格。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:al_1_s_helper",
+   "name_en": "Little Helper the Al-1s",
+   "name_zh": "“小帮手”",
+   "description_zh": "“小帮手”是 Caerula Arbor 添加的生物，体型小巧（碰撞箱 0.875×0.2 格），生命值 799 点、攻击伤害 256 点、护甲值 5 点、索敌范围 32 格。它不会自然生成，只能通过刷怪蛋、事件或召唤出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_endermite",
+   "name_en": "Loimia Island Seamite",
+   "name_zh": "疫岛聻移螨",
+   "description_zh": "疫岛聻移螨是 Caerula Arbor 添加的由原版末影螨海嗣化而来的生物，体型小巧（碰撞箱 0.5×0.375 格），生命值 12 点、攻击伤害 3 点。会主动攻击末影螨，受击后必定反击，平时在林间随意漫步，会瞬移。它不会自然生成，只能通过刷怪蛋、事件或召唤出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:lumen",
+   "name_en": "Lumen",
+   "name_zh": "审判庭沐雨修士",
+   "description_zh": "审判庭沐雨修士是 Caerula Arbor 添加的审判庭成员，体型偏大（碰撞箱 0.6×1.8 格），生命值 70 点、攻击伤害 5 点、护甲值 5 点。它会远程攻击其他怪物，遭到攻击会还击，平时慢悠悠地踱步。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_wandering_trader",
+   "name_en": "Managing Shore Waterside Trader",
+   "name_zh": "经岸觞贾客",
+   "description_zh": "经岸觞贾客是 Caerula Arbor 添加的由原版流浪商人海嗣化而来的生物，体型偏大（碰撞箱 0.6×1.8 格），生命值 63 点、攻击伤害 6 点、护甲值 6 点、索敌范围 36 格。它会发起远程攻击，被打了会立刻还手，空闲时会四处游荡。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:martus",
+   "name_en": "Martus",
+   "name_zh": "玛利图斯，“海嗣”",
+   "description_zh": "玛利图斯，“海嗣”是 Caerula Arbor 添加的 Boss 级海嗣，体型巨大（碰撞箱 0.7×2.8 格），生命值 500 点、攻击伤害 2 点、护甲值 30 点、索敌范围 24 格。它它的移动速度 0.5，行动迅捷。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场；击杀后掉落烬海核心×3–6、深溟腐质×18–96、溟海育生池×3–12 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:feeder_prokaryote",
+   "name_en": "Matrocellular Nurse",
+   "name_zh": "蕴核饲育者",
+   "description_zh": "蕴核饲育者是 Caerula Arbor 添加的海嗣，中等体型（碰撞箱 0.8×1.1 格），生命值 58 点、攻击伤害 8 点、索敌范围 24 格。会主动追击玩家，受击后必定反击，在水中四处游动。它的生成项对所有生物群系生效，每次 1–2 只，生成权重 45；击杀后掉落生机细胞×6–22、细胞团簇×2–6、异光体晶片×2–8 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:mega_chest",
+   "name_en": "Mega Chest",
+   "name_zh": "藏海箱形恐鱼",
+   "description_zh": "藏海箱形恐鱼是 Caerula Arbor 添加的 Boss 级精英海嗣，中等体型（碰撞箱 0.8×0.9 格），生命值 240 点、攻击伤害 23 点、护甲值 17 点。它遭到攻击会还击，移动速度 0.7，行动迅捷。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场；击杀后掉落红石锭×22–36、钻石×15–36、下界合金碎片×9–20 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:mega_stonecutter",
+   "name_en": "Mega Oean Stonecutter",
+   "name_zh": "富营养的固海凿石者，“完美之螺”",
+   "description_zh": "富营养的固海凿石者，“完美之螺”是 Caerula Arbor 添加的 Boss 级生物，生命值 1200 点、攻击伤害 9 点、护甲值 44 点、索敌范围 32 格。它会发起远程攻击，遭到攻击会还击，平时慢悠悠地踱步。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:moist_dragon_breath",
+   "name_en": "Moist Dragon Breath",
+   "name_zh": "序章龙息",
+   "description_zh": "序章龙息是 Caerula Arbor 添加的傀儡造物，体型小巧（碰撞箱 0.5×0.5 格），生命值 24 点、攻击伤害 14 点、索敌范围 36 格。模组没有为它安排自然生成，主要经刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:moist_ender_crystal",
+   "name_en": "Moist Ender Crystal",
+   "name_zh": "安德理奈的水晶",
+   "description_zh": "安德理奈的水晶是 Caerula Arbor 添加的海嗣，生命值 40 点、攻击伤害 32 点。它靠近目标时会爆炸，移动速度 0.45，行动迅捷。它不会自然生成，只能通过刷怪蛋、事件或召唤出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:gunmu",
+   "name_en": "Mother of Electric Baton",
+   "name_zh": "棍母",
+   "description_zh": "棍母是 Caerula Arbor 添加的 Boss 级人类单位，体型偏大（碰撞箱 0.6×1.8 格）。它被打了会立刻还手，空闲时会四处游荡。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:apostle_prokaryote",
+   "name_en": "Multicellular Herald",
+   "name_zh": "复核洋流使者",
+   "description_zh": "复核洋流使者是 Caerula Arbor 添加的精英海嗣，体型偏大（碰撞箱 0.6×1.7 格），生命值 50 点、攻击伤害 9 点、索敌范围 24 格。会主动追击玩家，受击后必定反击，在水中四处游动。它的生成项对所有生物群系生效，每次 1–2 只，生成权重 45；击杀后掉落残损生机细胞×36–63、残损细胞团簇×4–9、生机细胞×14–36 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:nautilus_headhunter",
+   "name_en": "Nautilus Headhunter",
+   "name_zh": "鹉海猎头者",
+   "description_zh": "鹉海猎头者是 Caerula Arbor 添加的海嗣，体型小巧（碰撞箱 0.5×0.5 格），生命值 25 点、攻击伤害 3 点、护甲值 6 点。它会主动攻击村民、雪傀儡与溺尸，被打了会立刻还手，在水中四处游动。生成配置覆盖全部生物群系，每次 1 只，生成权重 25。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_silverfish",
+   "name_en": "Netherilverfish",
+   "name_zh": "深溟蠹虫",
+   "description_zh": "深溟蠹虫是 Caerula Arbor 添加的由原版蠹虫海嗣化而来的生物，体型小巧（碰撞箱 0.5×0.35 格），生命值 12 点、攻击伤害 2 点、索敌范围 24 格。它会主动扑向玩家，也会攻击村民、铁傀儡与唤魔者，被打了会立刻还手，能在水中漂浮游动。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:guide_abyssal",
+   "name_en": "Nethersea Brandguider",
+   "name_zh": "深溟引痕者",
+   "description_zh": "深溟引痕者是 Caerula Arbor 添加的精英海嗣，生命值 80 点、攻击伤害 10 点、护甲值 8 点、索敌范围 24 格。它会主动扑向玩家，也会攻击村民、铁傀儡与雪傀儡，被打了会立刻还手。生成配置覆盖全部生物群系，每次 1 只，生成权重 28；击杀后掉落深海韧皮×1–2、深溟腐质×2–6、管珊瑚扇×0–2 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:baselayer_abyssal",
+   "name_en": "Nethersea Founder",
+   "name_zh": "深溟奠基者",
+   "description_zh": "深溟奠基者是 Caerula Arbor 添加的精英海嗣，体型偏大（碰撞箱 0.7×1.5 格），生命值 32 点、攻击伤害 5 点、索敌范围 24 格。它会主动扑向玩家，也会攻击村民、铁傀儡与雪傀儡，被打了会立刻还手，移动速度 0.4，行动迅捷。生成配置覆盖全部生物群系，每次 1–3 只，生成权重 36；击杀后掉落深海韧皮×1–4、深海几丁质×1–4、青金石×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:predator_abyssal",
+   "name_en": "Nethersea Predator",
+   "name_zh": "深溟猎食者",
+   "description_zh": "深溟猎食者是 Caerula Arbor 添加的海嗣，体型偏大（碰撞箱 0.6×1.4 格），生命值 14 点、攻击伤害 5 点、索敌范围 32 格。它会主动扑向玩家，也会攻击村民、铁傀儡与雪傀儡，被打了会立刻还手，能在水中漂浮游动。生成配置覆盖全部生物群系，每次 1–4 只，生成权重 36；击杀后掉落深海韧皮×1–2、深海几丁质×1–4、管珊瑚扇×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:cracker_abyssal",
+   "name_en": "Nethersea Reefbreaker",
+   "name_zh": "深溟裂礁者",
+   "description_zh": "深溟裂礁者是 Caerula Arbor 添加的精英海嗣，生命值 85 点、攻击伤害 13 点、护甲值 10 点、索敌范围 32 格。它会锁定并追赶玩家，也会攻击村民、铁傀儡与雪傀儡，遭到攻击会还击，能在水中漂浮游动。所有生物群系都在它的生成范围内，每次 1 只，生成权重 20；击杀后掉落深海肌肉束×3–10、深海棱晶×2–6、深海几丁质×2–4 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:nethersea_slime",
+   "name_en": "Nethersea Slime",
+   "name_zh": "溟痕史莱姆",
+   "description_zh": "溟痕史莱姆是 Caerula Arbor 添加的海嗣，生命值 2 点、攻击伤害 2 点、索敌范围 24 格。它遭到攻击会还击，平时慢悠悠地踱步，移动速度只有 0.075，相当迟缓。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:splasher_abyssal",
+   "name_en": "Nethersea Spewer",
+   "name_zh": "深溟喷溅者",
+   "description_zh": "深溟喷溅者是 Caerula Arbor 添加的海嗣，中等体型（碰撞箱 0.6×1.1 格），生命值 15 点、攻击伤害 7 点、护甲值 5 点。它会远程狙击并追击玩家，也会攻击村民、铁傀儡与雪傀儡，遭到攻击会还击。所有生物群系都在它的生成范围内，每次 2–3 只，生成权重 40；击杀后掉落深海几丁质×2–6、深海肌肉束×1–4、碎骨片×1–6 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:umbrella_abyssal",
+   "name_en": "Nethersea Swarmcaller",
+   "name_zh": "深溟巢涌者",
+   "description_zh": "深溟巢涌者是 Caerula Arbor 添加的精英海嗣，体型偏大（碰撞箱 0.8×1.5 格），生命值 40 点、攻击伤害 2 点。会主动追击玩家，也会攻击村民、铁傀儡与雪傀儡，受击后必定反击。它的生成项对所有生物群系生效，每次 1–2 只，生成权重 36；击杀后掉落深海韧皮×2–6、深溟腐质×1–4、深海肌肉束×1–4 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_polar_bear",
+   "name_en": "North Shore Frostbearer",
+   "name_zh": "北岸承霜体",
+   "description_zh": "北岸承霜体是 Caerula Arbor 添加的由原版北极熊海嗣化而来的动物，生命值 64 点、攻击伤害 8 点、索敌范围 27 格。会主动攻击铁傀儡、雪傀儡与狐狸，受击后必定反击，平时在林间随意漫步。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场；击杀后掉落鲑鱼×1–2、热带鱼、鳕鱼×1–2 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:novice_alchemist",
+   "name_en": "Novice Alchemist",
+   "name_zh": "禁术学徒",
+   "description_zh": "禁术学徒是 Caerula Arbor 添加的敌对生物，体型偏大（碰撞箱 0.6×1.8 格），生命值 36 点、攻击伤害 4 点、护甲值 2 点、索敌范围 24 格。它会远程攻击雪傀儡，被打了会立刻还手。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:nucleic_maleficent",
+   "name_en": "Nucleic Maleficent",
+   "name_zh": "元核孽生者",
+   "description_zh": "元核孽生者是 Caerula Arbor 添加的精英海嗣，体型偏大（碰撞箱 0.7×1.5 格），生命值 120 点、攻击伤害 9 点。它被打了会立刻还手，在水中四处游动。生成配置覆盖全部生物群系，每次 1–2 只，生成权重 40；击杀后掉落深海韧皮×6–18、细胞团簇×2–6、生机细胞×6–18 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:ocean_illusion",
+   "name_en": "Ocean Illusion",
+   "name_zh": "蛊岸幻影",
+   "description_zh": "蛊岸幻影是 Caerula Arbor 添加的海嗣，体型偏大（碰撞箱 0.6×1.9 格），生命值 3 点、攻击伤害 9 点、索敌范围 24 格。它会远程狙击并追击玩家，也会攻击村民、铁傀儡与雪傀儡，被打了会立刻还手，空闲时会四处游荡。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:chiseler_fish",
+   "name_en": "Ocean Stonecutter",
+   "name_zh": "固海凿石者",
+   "description_zh": "固海凿石者是 Caerula Arbor 添加的海嗣，体型小巧（碰撞箱 0.6×0.6 格），生命值 14 点、攻击伤害 4 点、护甲值 5 点。会远程狙击并追击玩家，也会攻击村民、铁傀儡与雪傀儡，受击后必定反击，能在水中漂浮游动。它的生成项对所有生物群系生效，每次 1–4 只，生成权重 36；击杀后掉落螺壳、凿石者蟹钳、碎骨片×1–2。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_evoker",
+   "name_en": "Oceanized Evoker",
+   "name_zh": "召岸预教者",
+   "description_zh": "召岸预教者是 Caerula Arbor 添加的由原版唤灵者海嗣化而来的精英海嗣，体型偏大（碰撞箱 0.6×1.9 格），生命值 50 点、攻击伤害 3 点、护甲值 3 点、索敌范围 24 格。它会用远程攻击追杀玩家，也会攻击村民、铁傀儡与雪傀儡，被打了会立刻还手，空闲时会四处游荡。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤；击杀后掉落不死图腾、绿宝石×1–2、异光体晶片×2–12 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_llama",
+   "name_en": "Oceanized Llama",
+   "name_zh": "迹岸吐纳体",
+   "description_zh": "迹岸吐纳体是 Caerula Arbor 添加的由原版羊驼海嗣化而来的动物，生命值 24 点、攻击伤害 3 点、索敌范围 24 格。会远程攻击村民、铁傀儡与雪傀儡，受击后必定反击。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_vex",
+   "name_en": "Oceanized Vex",
+   "name_zh": "愠岸幽郁体",
+   "description_zh": "愠岸幽郁体是 Caerula Arbor 添加的由原版恼鬼海嗣化而来的生物，中等体型（碰撞箱 0.4×0.8 格），生命值 24 点、攻击伤害 11 点、索敌范围 24 格。会主动追击玩家，也会攻击村民、铁傀儡与雪傀儡，受击后必定反击，会自爆。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_witch",
+   "name_en": "Oceanzied Witch",
+   "name_zh": "咒岸术教者",
+   "description_zh": "咒岸术教者是 Caerula Arbor 添加的由原版女巫海嗣化而来的生物，体型偏大（碰撞箱 0.6×1.8 格），生命值 60 点、攻击伤害 4 点。会远程狙击并追击玩家，也会攻击村民、铁傀儡与雪傀儡，受击后必定反击，平时在林间随意漫步。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:route_shaper",
+   "name_en": "Path Shaper",
+   "name_zh": "塑路者",
+   "description_zh": "塑路者是 Caerula Arbor 添加的 Boss 级海嗣，体型巨大（碰撞箱 1.8×4 格），生命值 140 点、攻击伤害 9 点、护甲值 8 点、索敌范围 48 格。它会主动扑向玩家，也会攻击村民、铁傀儡与雪傀儡，被打了会立刻还手，空闲时会四处游荡。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤；击杀后掉落深海韧皮×5–24、深海肌肉束×4–27、深海棱晶×2–9 等，另有专属遗物。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:lingering_pathshaper",
+   "name_en": "Path Shaper",
+   "name_zh": "延命塑路者",
+   "description_zh": "延命塑路者是 Caerula Arbor 添加的 Boss 级海嗣，体型巨大（碰撞箱 1.8×4 格），生命值 270 点、攻击伤害 10 点、护甲值 9 点、索敌范围 48 格。它会锁定并追赶玩家，也会攻击村民、铁傀儡与雪傀儡，遭到攻击会还击，平时慢悠悠地踱步。它不会自然生成，只能通过刷怪蛋、事件或召唤出现；击杀后掉落塑路者之辟、深海韧皮×10–48、深海肌肉束×12–44 等，另有专属遗物。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:penal_batallion_crossbowman",
+   "name_en": "Penal Batallion Crossbowman",
+   "name_zh": "惩戒军弩手",
+   "description_zh": "惩戒军弩手是 Caerula Arbor 添加的审判庭方阵士兵，体型偏大（碰撞箱 0.6×1.8 格），生命值 48 点、攻击伤害 9 点、护甲值 5 点、索敌范围 32 格。它会远程攻击其他怪物，被打了会立刻还手，空闲时会四处游荡。它不会自然生成，只能通过刷怪蛋、事件或召唤出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:correctional_phalanxy_infantry",
+   "name_en": "Penal Batallion Infantry",
+   "name_zh": "惩戒军方阵战士",
+   "description_zh": "惩戒军方阵战士是 Caerula Arbor 添加的审判庭方阵士兵，体型偏大（碰撞箱 0.6×1.8 格），生命值 50 点、攻击伤害 11 点、护甲值 10 点。会突然袭击其他怪物，受击后必定反击，平时在林间随意漫步，还会推开木门。模组没有为它安排自然生成，主要经刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:correctional_phalax_vanguard",
+   "name_en": "Penal Batallion Vanguard",
+   "name_zh": "惩戒军方阵前锋",
+   "description_zh": "惩戒军方阵前锋是 Caerula Arbor 添加的审判庭方阵士兵，体型偏大（碰撞箱 0.6×1.8 格），生命值 55 点、攻击伤害 9 点、护甲值 7 点。它会突然袭击其他怪物，遭到攻击会还击，平时慢悠悠地踱步，还会推开木门。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:creeper_fish",
+   "name_en": "Pocket Sea Creeper",
+   "name_zh": "囊海爬行者",
+   "description_zh": "囊海爬行者是 Caerula Arbor 添加的精英海嗣，体型偏大（碰撞箱 0.8×1.5 格），生命值 85 点、攻击伤害 2 点、索敌范围 24 格。会突然袭击猫，受击后必定反击，会点燃目标并爆炸。它的生成项对所有生物群系生效，每次 1 只，生成权重 32；击杀后掉落深海棱晶×1–4、深海角素×3–10、火药×0–3。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:puncture_fish",
+   "name_en": "Primal Sea Piercer",
+   "name_zh": "始海穿刺者",
+   "description_zh": "始海穿刺者是 Caerula Arbor 添加的精英海嗣，体型巨大（碰撞箱 0.9×2.7 格），生命值 45 点、攻击伤害 9 点、索敌范围 32 格。会主动追击玩家，也会攻击村民、铁傀儡与雪傀儡，受击后必定反击，在水中四处游动。它的生成项对所有生物群系生效，每次 1 只，生成权重 32；击杀后掉落深海肌肉束×2–6、深海韧皮×1–4、碎骨片×0–6 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:pumpkin_carriage",
+   "name_en": "Pumpkin Carriage",
+   "name_zh": "南瓜车",
+   "description_zh": "南瓜车是 Caerula Arbor 添加的炼金造物，生命值 18 点、攻击伤害 4 点、索敌范围 24 格。它遭到攻击会还击，平时慢悠悠地踱步。它被挂在虚空群系的生成表里，实际上不会自然生成，只能靠刷怪蛋或事件获得。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:bishop_fish",
+   "name_en": "Quintus",
+   "name_zh": "昆图斯",
+   "description_zh": "昆图斯是 Caerula Arbor 添加的 Boss 级海嗣，体型偏大（碰撞箱 1.4×2.2 格），生命值 560 点、攻击伤害 7 点、护甲值 8 点、索敌范围 64 格。它会锁定并追赶玩家，也会攻击村民、铁傀儡与雪傀儡，遭到攻击会还击。它不会自然生成，只能通过刷怪蛋、事件或召唤出现；击杀后掉落深海之眼×2、深海肌肉束×32–192、深海韧皮×32–128 等，另有专属遗物。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:qunyou_wanted_isharmla",
+   "name_en": "Qunyou Wanted Isharmla",
+   "name_zh": "群友想要的伊莎玛拉",
+   "description_zh": "群友想要的伊莎玛拉是 Caerula Arbor 添加的 Boss 级敌对生物，体型巨大（碰撞箱 20×20 格），生命值 625554 点、攻击伤害 6593 点、护甲值 24 点、索敌范围 36 格。它被打了会立刻还手，移动速度 0.6，行动迅捷。模组没有为它安排自然生成，主要经刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_ravager",
+   "name_en": "Ravage Shore Podcracker",
+   "name_zh": "击岸裂荚体",
+   "description_zh": "击岸裂荚体是 Caerula Arbor 添加的由原版劫掠兽海嗣化而来的精英海嗣，体型巨大（碰撞箱 1.9×2.5 格），生命值 215 点、攻击伤害 17 点、护甲值 6 点、索敌范围 27 格。会主动追击玩家，也会攻击村民、铁傀儡与雪傀儡，受击后必定反击，平时在林间随意漫步。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:reaper_pet",
+   "name_en": "Reaper Pet",
+   "name_zh": "驯化的收割者",
+   "description_zh": "驯化的收割者是 Caerula Arbor 添加的海嗣宠物，中等体型（碰撞箱 0.6×1.3 格），生命值 60 点、攻击伤害 11 点、索敌范围 24 格。它被打了会立刻还手。模组没有为它安排自然生成，主要经刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:promoted_glow_squid",
+   "name_en": "Reiterative Glow Squid",
+   "name_zh": "复变体发光鱿鱼",
+   "description_zh": "复变体发光鱿鱼是 Caerula Arbor 添加的由原版发光鱿鱼异光体化而来的海嗣，体型小巧（碰撞箱 0.75×0.75 格），生命值 18 点、攻击伤害 4 点。会发起远程攻击，受击后必定反击，在水中四处游动，可以繁殖。它被挂在虚空群系的生成表里，实际上不会自然生成，只能靠刷怪蛋或事件获得；击杀后掉落残损生机细胞×1–4、生机细胞×2–8、荧光墨囊×1–4 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:promoted_squid",
+   "name_en": "Reiterative Squid",
+   "name_zh": "复变体鱿鱼",
+   "description_zh": "复变体鱿鱼是 Caerula Arbor 添加的由原版鱿鱼异光体化而来的海嗣，体型小巧（碰撞箱 0.75×0.75 格），生命值 18 点、攻击伤害 3 点。它会发起远程攻击，被打了会立刻还手，在水中四处游动，可以繁殖。它被挂在虚空群系的生成表里，实际上不会自然生成，只能靠刷怪蛋或事件获得；击杀后掉落生机细胞×1–4、残损生机细胞×1–8、墨囊×1–4 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:pregnant_fish",
+   "name_en": "Retching Broodmother",
+   "name_zh": "投嗣育母",
+   "description_zh": "投嗣育母是 Caerula Arbor 添加的精英海嗣，中等体型（碰撞箱 0.7×1.1 格），生命值 68 点、攻击伤害 6 点。它会远程狙击并追击玩家，也会攻击村民、铁傀儡与雪傀儡，被打了会立刻还手，能在水中漂浮游动。生成配置覆盖全部生物群系，每次 1–2 只，生成权重 32；击杀后掉落深海肌肉束×1–4、深海韧皮×1–4、海嗣卵×1–4。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:shooter_fish",
+   "name_en": "Ridge Sea Spitter",
+   "name_zh": "脊海喷吐者",
+   "description_zh": "脊海喷吐者是 Caerula Arbor 添加的海嗣，中等体型（碰撞箱 0.6×1.2 格），生命值 14 点、攻击伤害 3 点。会用远程攻击追杀玩家，也会攻击村民、铁傀儡与雪傀儡，受击后必定反击，在水中四处游动。它的生成项对所有生物群系生效，每次 2–3 只，生成权重 40。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:rocinante",
+   "name_en": "Rocinante",
+   "name_zh": "“罗辛南特”",
+   "description_zh": "“罗辛南特”是 Caerula Arbor 添加的海嗣宠物，体型巨大（碰撞箱 1.2×3 格），生命值 200 点、攻击伤害 3 点、护甲值 8 点。模组没有为它安排自然生成，主要经刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:runvolution",
+   "name_en": "Runvolution the Imaginary Enemy",
+   "name_zh": "假想敌：渀",
+   "description_zh": "假想敌：渀是 Caerula Arbor 添加的 Boss 级海嗣，生命值 450 点、攻击伤害 7 点、护甲值 5 点、索敌范围 24 格。它会用远程攻击追杀玩家，也会攻击村民、铁傀儡与雪傀儡，被打了会立刻还手，会发射激光。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤；击杀后掉落深海腕足×4–12、精制腕足×2–8、块状棱晶×2–6 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:saint_carmen",
+   "name_en": "Saint Carmen",
+   "name_zh": "圣徒",
+   "description_zh": "圣徒是 Caerula Arbor 添加的审判庭成员，体型偏大（碰撞箱 0.6×1.8 格），生命值 280 点、攻击伤害 22 点、护甲值 8 点、索敌范围 32 格。它会主动攻击其他怪物，遭到攻击会还击。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:scream_chest_fish",
+   "name_en": "Scream Chest Fish",
+   "name_zh": "宝箱恐鱼",
+   "description_zh": "宝箱恐鱼是 Caerula Arbor 添加的精英海嗣，中等体型（碰撞箱 0.9×0.9 格），生命值 40 点、攻击伤害 5 点、护甲值 10 点。它被打了会立刻还手。它不会自然生成，只能通过刷怪蛋、事件或召唤出现；击杀后掉落精制腕足×4–8、深海腕足×4–12、深海肌肉束×6–15 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_warden",
+   "name_en": "Sculk Scope Watcher",
+   "name_zh": "幽域守望者",
+   "description_zh": "幽域守望者是 Caerula Arbor 添加的由原版监守者海嗣化而来的 Boss 级神性海嗣，体型巨大（碰撞箱 1.2×3.1 格），生命值 825 点、攻击伤害 50 点、护甲值 10 点、索敌范围 48 格。它会主动攻击村民、铁傀儡与雪傀儡，遭到攻击会还击。它不会自然生成，只能通过刷怪蛋、事件或召唤出现；击杀后掉落受潮的回响碎片×1–3、幽匿催发体×1–2、幽匿尖啸体×1–4 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:shaking_bell",
+   "name_en": "Shaking Bell",
+   "name_zh": "摇曳钟",
+   "description_zh": "摇曳钟是 Caerula Arbor 添加的炼金造物，生命值 24 点、攻击伤害 5 点、护甲值 7 点、索敌范围 24 格。受击后必定反击。模组没有为它安排自然生成，主要经刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:run_fish",
+   "name_en": "Shell Sea Runner",
+   "name_zh": "壳海狂奔者",
+   "description_zh": "壳海狂奔者是 Caerula Arbor 添加的海嗣，体型小巧（碰撞箱 0.4×0.5 格），生命值 8 点、攻击伤害 3 点。它会主动扑向玩家，也会攻击村民、铁傀儡与雪傀儡，被打了会立刻还手，在水中四处游动。生成配置覆盖全部生物群系，每次 2–4 只，生成权重 40。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:shield_of_honour",
+   "name_en": "Shield Of Honour",
+   "name_zh": "三曲足仪仗盾",
+   "description_zh": "三曲足仪仗盾是 Caerula Arbor 添加的炼金造物，生命值 32 点、攻击伤害 8 点、护甲值 7 点。它遭到攻击会还击，平时慢悠悠地踱步。模组没有为它安排自然生成，主要经刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:ocean_wither_skeleton",
+   "name_en": "Silent Valley Guard",
+   "name_zh": "喑谷骸卫",
+   "description_zh": "喑谷骸卫是 Caerula Arbor 添加的精英海嗣，体型巨大（碰撞箱 0.8×2.5 格），生命值 56 点、攻击伤害 14 点、护甲值 24 点、索敌范围 27 格。它会发起远程攻击，被打了会立刻还手，空闲时会四处游荡。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场；击杀后掉落凋灵骷髅头颅、煤炭×1–3、远古残骸×1–4 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:skadi",
+   "name_en": "Skadi",
+   "name_zh": "仗剑的深海猎人",
+   "description_zh": "仗剑的深海猎人是 Caerula Arbor 添加的深海猎人，体型偏大（碰撞箱 0.6×1.8 格），生命值 270 点、攻击伤害 38 点、护甲值 5 点、索敌范围 32 格。它会主动攻击其他怪物，遭到攻击会还击，平时慢悠悠地踱步，还会推开木门。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:skadi_corrupted",
+   "name_en": "Skadi Corrupted",
+   "name_zh": "咏叹的“深海猎人”",
+   "description_zh": "咏叹的“深海猎人”是 Caerula Arbor 添加的 Boss 级神性海嗣，体型偏大（碰撞箱 0.6×1.8 格），生命值 405 点、攻击伤害 15 点、护甲值 9 点、索敌范围 36 格。它会突然袭击铁傀儡与雪傀儡，被打了会立刻还手，还会推开木门，移动速度只有 0.12，相当迟缓。模组没有为它安排自然生成，主要经刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:flee_fish",
+   "name_en": "Skimming Sea Drifter",
+   "name_zh": "掠海漂移体",
+   "description_zh": "掠海漂移体是 Caerula Arbor 添加的精英海嗣，中等体型（碰撞箱 0.8×1.1 格），生命值 85 点、攻击伤害 5 点。会用远程攻击追杀玩家，也会攻击村民、铁傀儡与雪傀儡，受击后必定反击，移动速度 0.4，行动迅捷。它的生成项对所有生物群系生效，每次 1–2 只，生成权重 28；击杀后掉落深海肌肉束×1–6、深海韧皮×2–4、深海棱晶×2–6 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:slider_ball",
+   "name_en": "Slider Ball",
+   "name_zh": "底海滑动球",
+   "description_zh": "底海滑动球是 Caerula Arbor 添加的生物，体型小巧（碰撞箱 0.5×0.5 格），生命值 99 点。能在水中漂浮游动。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:slider_ball_huge",
+   "name_en": "Slider Ball Huge",
+   "name_zh": "巨构底海滑动球",
+   "description_zh": "巨构底海滑动球是 Caerula Arbor 添加的生物，生命值 199 点、索敌范围 32 格。它能在水中漂浮游动。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:super_slider",
+   "name_en": "Slider Fish",
+   "name_zh": "超级滑动者",
+   "description_zh": "超级滑动者是 Caerula Arbor 添加的 Boss 级海嗣，中等体型（碰撞箱 0.3×0.8 格），生命值 250 点、攻击伤害 24 点、护甲值 20 点、索敌范围 48 格。它会主动扑向玩家，也会攻击村民、铁傀儡与雪傀儡，被打了会立刻还手，能在水中漂浮游动。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_sniffer",
+   "name_en": "Sniff Shore Archeologist",
+   "name_zh": "觅岸探古兽",
+   "description_zh": "觅岸探古兽是 Caerula Arbor 添加的由原版嗅探兽海嗣化而来的 Boss 级动物，生命值 72 点、攻击伤害 7 点。它遭到攻击会还击。它不会自然生成，只能通过刷怪蛋、事件或召唤出现；击杀后掉落觅岸探古兽蛋×3–5、深海韧皮×10–36、深溟腐质×18–52 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:sons",
+   "name_en": "Sons",
+   "name_zh": "断裂子代",
+   "description_zh": "断裂子代是 Caerula Arbor 添加的海嗣，体型小巧（碰撞箱 0.5×0.5 格），生命值 12 点、攻击伤害 3 点。它会主动扑向玩家，也会攻击村民、铁傀儡与雪傀儡，被打了会立刻还手。模组没有为它安排自然生成，主要经刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:specter",
+   "name_en": "Specter",
+   "name_zh": "雕栾的深海猎人",
+   "description_zh": "雕栾的深海猎人是 Caerula Arbor 添加的深海猎人，体型偏大（碰撞箱 0.6×1.8 格），生命值 218 点、攻击伤害 34 点、护甲值 4 点、索敌范围 32 格。它会主动攻击其他怪物，遭到攻击会还击，还会推开木门。它不会自然生成，只能通过刷怪蛋、事件或召唤出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:specter_doll",
+   "name_en": "Specter Doll",
+   "name_zh": "归溟人偶",
+   "description_zh": "归溟人偶是 Caerula Arbor 添加的深海猎人，体型偏大（碰撞箱 0.6×1.8 格），生命值 218 点、攻击伤害 34 点、护甲值 7 点、索敌范围 32 格。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:spike_chest",
+   "name_en": "Spike Chest",
+   "name_zh": "尖刺宝箱",
+   "description_zh": "尖刺宝箱是 Caerula Arbor 添加的傀儡造物，中等体型（碰撞箱 0.9×0.9 格），生命值 30 点、索敌范围 32 格。它生成于积雪沙滩、雪原、默潮林地，每次 1 只，生成权重 1；击杀后掉落红石锭×12–18、深海几丁质×3–40、火珊瑚扇×1–5 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_bee",
+   "name_en": "Spin Shore Bee",
+   "name_zh": "璇岸桨蜂",
+   "description_zh": "璇岸桨蜂是 Caerula Arbor 添加的由原版蜜蜂海嗣化而来的动物，体型小巧（碰撞箱 0.5×0.56 格），生命值 18 点、攻击伤害 4 点、护甲值 2 点、索敌范围 24 格。会发起远程攻击，受击后必定反击，会被特定物品吸引。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_horse",
+   "name_en": "Steed Shore Wingshaker",
+   "name_zh": "骏岸垂翼体",
+   "description_zh": "骏岸垂翼体是 Caerula Arbor 添加的由原版马海嗣化而来的动物，体型偏大（碰撞箱 1.25×1.8 格），生命值 62 点、攻击伤害 8 点、索敌范围 24 格。它会主动攻击村民、铁傀儡与雪傀儡，遭到攻击会还击，平时慢悠悠地踱步。它不会自然生成，只能通过刷怪蛋、事件或召唤出现；击杀后掉落深海棱晶×4–12、深海韧皮×2–9、皮革×2–9 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:chiesler_pet",
+   "name_en": "Stonecutter Pet",
+   "name_zh": "驯化的凿石者",
+   "description_zh": "驯化的凿石者是 Caerula Arbor 添加的海嗣宠物，体型小巧（碰撞箱 0.75×0.75 格），生命值 28 点、攻击伤害 6 点、护甲值 8 点。它会发起远程攻击，遭到攻击会还击，会被特定物品吸引。模组没有为它安排自然生成，主要经刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:super_big_cat",
+   "name_en": "Super Big Cat",
+   "name_zh": "超级大猫",
+   "description_zh": "超级大猫是 Caerula Arbor 添加的 Boss 级海嗣，体型巨大（碰撞箱 3.5×4 格），生命值 500 点、攻击伤害 16 点、护甲值 10 点、索敌范围 24 格。它会锁定并追赶玩家，也会攻击村民、铁傀儡与雪傀儡，遭到攻击会还击，平时慢悠悠地踱步。模组没有为它安排自然生成，主要经刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:the_abandoned",
+   "name_en": "The Abandoned",
+   "name_zh": "“被弃者”",
+   "description_zh": "“被弃者”是 Caerula Arbor 添加的精英海嗣，体型偏大（碰撞箱 0.7×2.25 格），生命值 76 点、攻击伤害 7 点、索敌范围 24 格。它会锁定并追赶玩家，也会攻击掠夺者、卫道士与女巫，遭到攻击会还击，平时慢悠悠地踱步。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:first_to_talk",
+   "name_en": "The First to Talk",
+   "name_zh": "首言者",
+   "description_zh": "首言者是 Caerula Arbor 添加的精英海嗣，体型巨大（碰撞箱 0.9×2.7 格），生命值 112 点、攻击伤害 7 点、护甲值 10 点。它会远程攻击掠夺者、卫道士与女巫，遭到攻击会还击，平时慢悠悠地踱步。所有生物群系都在它的生成范围内，每次 1 只，生成权重 1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:last_knight_and_horse",
+   "name_en": "The Last Knight",
+   "name_zh": "最后的骑士",
+   "description_zh": "最后的骑士是 Caerula Arbor 添加的 Boss 级傀儡造物，体型巨大（碰撞箱 1.2×4 格），生命值 400 点、攻击伤害 20 点、护甲值 24 点、索敌范围 36 格。它攻击时会冰冻目标。它不会自然生成，只能通过刷怪蛋、事件或召唤出现；击杀后掉落骑士骨血×4–6、铁锭×15–49、深海棱晶×15–28 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:the_last_knight",
+   "name_en": "The Tide-hunt Knight",
+   "name_zh": "猎潮的骑士",
+   "description_zh": "猎潮的骑士是 Caerula Arbor 添加的 Boss 级傀儡造物，生命值 400 点、攻击伤害 20 点、护甲值 24 点、索敌范围 36 格。它遭到攻击会还击，攻击时会冰冻目标。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:thirster",
+   "name_en": "Thirster",
+   "name_zh": "干渴者",
+   "description_zh": "干渴者是 Caerula Arbor 添加的 Boss 级海嗣，体型偏大（碰撞箱 1.5×1.75 格），生命值 340 点、攻击伤害 5 点、护甲值 15 点、索敌范围 36 格。受击后必定反击。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤；击杀后掉落海绵×3–9、深海几丁质×24–72、管珊瑚块×3–12 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:tide_bishop",
+   "name_en": "Tidelinked Bishop",
+   "name_zh": "接潮主教",
+   "description_zh": "接潮主教是 Caerula Arbor 添加的 Boss 级海嗣，体型偏大（碰撞箱 1.1×2.2 格），生命值 160 点、攻击伤害 9 点、护甲值 6 点。它会远程狙击并追击玩家，也会攻击村民、铁傀儡与雪傀儡，被打了会立刻还手，空闲时会四处游荡。它不会自然生成，只能通过刷怪蛋、事件或召唤出现；击杀后掉落皮革×8–22、金粒×24–44、深海几丁质×18–26 等，另有专属遗物。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:tide_deathrepeller",
+   "name_en": "Tidelinked Immortal",
+   "name_zh": "接潮斥亡体",
+   "description_zh": "接潮斥亡体是 Caerula Arbor 添加的 Boss 级海嗣，生命值 75 点、攻击伤害 8 点、护甲值 10 点。它会主动扑向玩家，也会攻击村民、雪傀儡与掠夺者，空闲时会四处游荡。它不会自然生成，只能通过刷怪蛋、事件或召唤出现；击杀后掉落深海韧皮×18–22、深海棱晶×24–34、深海肌肉束×36–44 等，另有专属遗物。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:tiderage_direswine",
+   "name_en": "Tiderage Direswine",
+   "name_zh": "潮懑凶豕兽",
+   "description_zh": "潮懑凶豕兽是 Caerula Arbor 添加的精英海嗣，生命值 218 点、攻击伤害 16 点、索敌范围 26 格。受击后必定反击，平时在林间随意漫步。它不会自然生成，只能通过刷怪蛋、事件或召唤出现；击杀后掉落深海韧皮×24–98、气泡珊瑚扇×4–14、生猪排×18–96 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:tidutant_excrescence",
+   "name_en": "Tidutant Excrescence",
+   "name_zh": "潮渐赘生物",
+   "description_zh": "潮渐赘生物是 Caerula Arbor 添加的海嗣，体型小巧（碰撞箱 0.5×0.4 格），生命值 20 点、攻击伤害 7 点。它会锁定并追赶玩家，也会攻击村民、铁傀儡与雪傀儡，遭到攻击会还击，平时慢悠悠地踱步。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:tidutant_rock_spider",
+   "name_en": "Tidutant Rock Spider",
+   "name_zh": "潮洄巨岩蛛",
+   "description_zh": "潮洄巨岩蛛是 Caerula Arbor 添加的精英海嗣，体型偏大（碰撞箱 0.6×1.8 格），生命值 85 点、攻击伤害 7 点、护甲值 3 点、索敌范围 24 格。会主动追击玩家，也会攻击村民、铁傀儡与雪傀儡，受击后必定反击。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤；击杀后掉落深海几丁质×3–12、深溟腐质×2–10、蜘蛛眼×1–4 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:floater_prokaryote",
+   "name_en": "Toxocellular Drifter",
+   "name_zh": "纤核漂游者",
+   "description_zh": "纤核漂游者是 Caerula Arbor 添加的海嗣，体型偏大（碰撞箱 0.6×1.5 格），生命值 20 点、攻击伤害 3 点。它会远程狙击并追击玩家，被打了会立刻还手，在水中四处游动。生成配置覆盖全部生物群系，每次 1–2 只，生成权重 50；击杀后掉落生机细胞×1–4、残损生机细胞×2–8、铜锭×1–2 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_wither",
+   "name_en": "Tranquil Sea Ethereality",
+   "name_zh": "寂海枯灵",
+   "description_zh": "寂海枯灵是 Caerula Arbor 添加的由原版凋灵海嗣化而来的 Boss 级神性海嗣，体型巨大（碰撞箱 1.1×3.5 格），生命值 550 点、攻击伤害 12 点、护甲值 8 点、索敌范围 56 格。它会远程攻击村民与铁傀儡，遭到攻击会还击。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场；击杀后掉落下界之星、深溟腐质×12–60、深海棱晶×24–108 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:tribunal_healer",
+   "name_en": "Tribunal Healer",
+   "name_zh": "审判庭赦罪修女",
+   "description_zh": "审判庭赦罪修女是 Caerula Arbor 添加的审判庭成员，体型偏大（碰撞箱 0.6×1.8 格），生命值 70 点、攻击伤害 10 点、护甲值 5 点。它会远程攻击其他怪物，被打了会立刻还手，空闲时会四处游荡，还会推开木门。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_fox",
+   "name_en": "Triple Shore Fox",
+   "name_zh": "余岸霁丘体",
+   "description_zh": "余岸霁丘体是 Caerula Arbor 添加的由原版狐狸海嗣化而来的动物，体型小巧（碰撞箱 0.6×0.7 格），生命值 37 点、攻击伤害 7 点、索敌范围 24 格。会主动攻击兔子、鸡与海龟，受击后必定反击，会被特定物品吸引。它不会自然生成，只能通过刷怪蛋、事件或召唤出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:tuition_handbow",
+   "name_en": "Tuition Handbow",
+   "name_zh": "训练用手弩",
+   "description_zh": "训练用手弩是 Caerula Arbor 添加的炼金造物，体型小巧（碰撞箱 0.7×0.5 格），生命值 22 点、攻击伤害 4 点、索敌范围 24 格。会发起远程攻击，受击后必定反击，平时在林间随意漫步。它不会自然生成，只能通过刷怪蛋、事件或召唤出现；击杀后掉落弩、塑能海晶石砖、伊比利亚家具零件×3–5。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:typhoeus",
+   "name_en": "Typhoeus",
+   "name_zh": "逐月的审判官",
+   "description_zh": "逐月的审判官是 Caerula Arbor 添加的审判庭成员，体型偏大（碰撞箱 0.6×1.8 格），生命值 76 点、攻击伤害 19 点、护甲值 3 点、索敌范围 36 格。会远程攻击其他怪物，受击后必定反击。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:ulpians",
+   "name_en": "Ulpians",
+   "name_zh": "持锚的深海猎人",
+   "description_zh": "持锚的深海猎人是 Caerula Arbor 添加的深海猎人，体型偏大（碰撞箱 0.6×1.8 格），生命值 430 点、攻击伤害 55 点、索敌范围 32 格。它会主动攻击其他怪物，遭到攻击会还击，还会推开木门。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:tide_chimera",
+   "name_en": "Underdawn Chimera",
+   "name_zh": "潮曦奇美拉",
+   "description_zh": "潮曦奇美拉是 Caerula Arbor 添加的 Boss 级海嗣，体型巨大（碰撞箱 1.8×4.65 格），生命值 300 点、攻击伤害 19 点、护甲值 8 点、索敌范围 48 格。它会主动攻击铁傀儡与雪傀儡，被打了会立刻还手。它不会自然生成，只能通过刷怪蛋、事件或召唤出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:collector_prokaryote",
+   "name_en": "Unicellular Predator",
+   "name_zh": "单核掠食者",
+   "description_zh": "单核掠食者是 Caerula Arbor 添加的海嗣，体型小巧（碰撞箱 0.5×0.5 格），生命值 9 点、攻击伤害 4 点。会主动追击玩家，受击后必定反击，在水中四处游动。它的生成项对所有生物群系生效，每次 2–4 只，生成权重 60。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:usher_vase",
+   "name_en": "Usher Vase",
+   "name_zh": "迎宾花瓶",
+   "description_zh": "迎宾花瓶是 Caerula Arbor 添加的炼金造物，体型偏大（碰撞箱 0.6×1.8 格），生命值 30 点、攻击伤害 7 点、护甲值 3 点。会发起远程攻击，受击后必定反击。生成表里没有它的自然生成项，通常靠刷怪蛋或事件召唤。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:voyage_lamp",
+   "name_en": "Voyage Lamp",
+   "name_zh": "远航灯",
+   "description_zh": "远航灯是 Caerula Arbor 添加的炼金造物，体型小巧（碰撞箱 0.6×0.4 格），生命值 14 点、攻击伤害 3 点、索敌范围 24 格。它遭到攻击会还击，平时慢悠悠地踱步。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场；击杀后掉落伊比利亚家具零件×3–5、灯笼、塑能海晶石砖。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_villager",
+   "name_en": "Walk Shore Believer",
+   "name_zh": "行岸释教者",
+   "description_zh": "行岸释教者是 Caerula Arbor 添加的由原版村民海嗣化而来的生物，生命值 40 点、攻击伤害 8 点。它会锁定并追赶玩家，也会攻击村民、铁傀儡与雪傀儡，遭到攻击会还击，平时慢悠悠地踱步。模组没有为它安排自然生成，主要经刷怪蛋或事件登场；击杀后掉落染痕的绿宝石、绿宝石×1–2、深海韧皮×2–3。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_wardenis",
+   "name_en": "Wardenis the Seaborn",
+   "name_zh": "瓦德妮丝，“信众”",
+   "description_zh": "瓦德妮丝，“信众”是 Caerula Arbor 添加的 Boss 级神性海嗣，体型偏大（碰撞箱 0.6×1.85 格），生命值 825 点、攻击伤害 50 点、护甲值 10 点、索敌范围 48 格。会主动攻击铁傀儡，受击后必定反击。它不会自然生成，只能通过刷怪蛋、事件或召唤出现；击杀后掉落受潮的回响碎片×1–3、幽匿催发体×1–2、幽匿尖啸体×1–4 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:warrior_priest",
+   "name_en": "Warrior Priest",
+   "name_zh": "审判庭习武修士",
+   "description_zh": "审判庭习武修士是 Caerula Arbor 添加的审判庭修士，体型偏大（碰撞箱 0.6×1.8 格），生命值 40 点、攻击伤害 11 点、护甲值 7 点、索敌范围 24 格。它会主动攻击其他怪物，遭到攻击会还击，平时慢悠悠地踱步，还会推开木门。jar 中没有为它配置自然生成，主要靠刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:oceanized_witheria",
+   "name_en": "Witheria the Tranquility",
+   "name_zh": "薇瑟蕾雅，“寂海”",
+   "description_zh": "薇瑟蕾雅，“寂海”是 Caerula Arbor 添加的 Boss 级神性海嗣，体型巨大（碰撞箱 0.7×2.5 格），生命值 400 点、攻击伤害 24 点、护甲值 15 点、索敌范围 48 格。会主动攻击铁傀儡与雪傀儡，受击后必定反击，移动速度 0.45，行动迅捷。它不会自然生成，只能通过刷怪蛋、事件或召唤出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "caerula_arbor:xantis",
+   "name_en": "Xantis",
+   "name_zh": "Xantis_",
+   "description_zh": "Xantis是 Caerula Arbor 添加的可驯服的生物，体型小巧（碰撞箱 0.5×0.68 格），生命值 10 点、攻击伤害 5 点、索敌范围 32 格。受击后必定反击，会跟随主人行动。模组没有为它安排自然生成，主要经刷怪蛋或事件登场。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/caerula-arbor",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  }
+ ]
+}

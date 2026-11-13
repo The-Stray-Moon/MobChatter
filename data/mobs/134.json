@@ -1,0 +1,647 @@
+{
+ "rank": 134,
+ "mod": "Grimoire of Gaia",
+ "mod_url": "https://modrinth.com/mod/grimoire-of-gaia",
+ "mobs": [
+  {
+   "mob_id": "grimoireofgaia:bee",
+   "name_en": "Honey Bee",
+   "name_zh": "杀人蜂",
+   "description_zh": "主世界生成的飞行魔物，免疫中毒与摔落伤害；受击时先用远程攻击还击，再跃入近战并造成强击退，攻击一只会激怒附近所有同类。生命值40、护甲4、伤害8，掉落蜜汁与铁制宝盒。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:centaur",
+   "name_en": "Centaur",
+   "name_zh": "半人马",
+   "description_zh": "生成于主世界，受击时用附带中毒与虚弱的箭远程还击，攻击一只会激怒附近同类；生命值降到25%时会逃跑回血再继续攻击。生命值40、护甲4、伤害8，掉落皮革、铁粒、铁制宝盒与密封箭袋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:cobble_golem",
+   "name_en": "Cobble Golem",
+   "name_zh": "圆石傀儡",
+   "description_zh": "生成于主世界丛林，免疫中毒、火与击退，但惧怕镐类攻击和溺水；会主动近战攻击敌对生物，偶尔把目标甩开。生命值40、护甲4、伤害7-21，掉落铁粒与铁制宝盒。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:cyclops",
+   "name_en": "Cyclops",
+   "name_zh": "独眼战士",
+   "description_zh": "生成于主世界针叶林地表，受击时用近战还击并附加缓慢效果，交战中生命值低于25%会获得速度。生命值40、护甲4、伤害8，掉落毛皮、铁粒、铁制宝盒、附魔书与指虎。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:dryad",
+   "name_en": "Dryad",
+   "name_zh": "树妖",
+   "description_zh": "白天生成于主世界森林，怕斧与火；受击时以较弱的近战还击，攻击一只会激怒附近同类。生命值降到25%会逃跑回血，在水中每5秒恢复10%生命。生命值80、护甲6、伤害12，掉落块茎、深色橡木原木、铁粒、铁制宝盒与树妖玩偶。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:dwarf",
+   "name_en": "Dwarf",
+   "name_zh": "",
+   "description_zh": "生成于主世界高山地带，见到兽人就会攻击：近战附带缓慢与挖掘疲劳，或用弓箭远程射击并附带缓慢/虚弱药箭。生命值80、护甲8、伤害12，掉落世界宝盒与金制宝盒。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:ender_dragon_girl",
+   "name_en": "Ender Dragon Girl",
+   "name_zh": "末影龙女",
+   "description_zh": "生成于末地，与末影人一样怕水、免疫摔落与蛛网效果，战斗中会传送；平时被动，被攻击或附近末影人被激怒才会反击。生命值80、护甲8、伤害12，掉落末影珍珠、金粒、末影宝盒、附魔包裹、末影龙女玩偶与鞘翅碎片。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:ender_girl",
+   "name_en": "Ender Girl",
+   "name_zh": "",
+   "description_zh": "由末影女孩蛋召唤的助手，受击时会逃跑，但能像村民一样用各种物品交换末影珍珠。生命值40，掉落自身的刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:goblin",
+   "name_en": "Goblin",
+   "name_zh": "哥布林",
+   "description_zh": "生成于主世界热带草原地表，受击时近战还击；可能持木制武器，偶尔以炸弹兵形态出现，用火药桶和炸弹在中距离投掷。生命值40、伤害3-6，掉落铁粒与肉块。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:gryphon",
+   "name_en": "Gryphon",
+   "name_zh": "",
+   "description_zh": "白天生成于主世界山地的飞行生物，免疫摔落伤害；受击时用跳跃近战还击，造成强击退并附加缓慢。生命值40、护甲4、伤害8，掉落铁粒与铁制宝盒。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:hunter",
+   "name_en": "Hunter",
+   "name_zh": "猎人",
+   "description_zh": "生成于主世界，受击时用附带中毒的箭远程还击；目标靠近后切换为近战并获得速度效果。生命值40、护甲4、伤害8，掉落铁制宝盒与密封箭袋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:mermaid",
+   "name_en": "Mermaid",
+   "name_zh": "人鱼战士",
+   "description_zh": "生成于主世界海洋的游泳魔物，免疫溺水与远程攻击、抗火，水中移动无阻；在水中获得抗性并每5秒恢复10%生命，受击时以近战反击。生命值80、护甲8、伤害12，掉落闪亮的珍珠与铁制宝盒。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:satyress",
+   "name_en": "Satyress",
+   "name_zh": "半羊人",
+   "description_zh": "生成于主世界平原与恶地，受击时近战还击并附加缓慢；生命值低于25%会逃离战斗回血后再战。生命值40、护甲4、伤害8，掉落肉块与铁制宝盒。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:slime_girl",
+   "name_en": "Slime Girl",
+   "name_zh": "",
+   "description_zh": "由史莱姆女孩蛋召唤的助手，受击时会逃跑，但能像村民一样用物品交换粘液球。生命值40，掉落自身的刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:trader",
+   "name_en": "Trader",
+   "name_zh": "",
+   "description_zh": "由商人蛋召唤的助手，受击时会逃跑，能用物品交换商人代币；与原版村民一样，被僵尸杀死后可能变成僵尸村民。生命值40，掉落自身的刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:valkyrie",
+   "name_en": "Valkyrie",
+   "name_zh": "",
+   "description_zh": "生成于主世界山地，被攻击或靠得太近就会攻击，命中附加缓慢与虚弱；免疫摔落、溺水与火，抗击退，生命值降到25%以下会获得增益。生命值40、护甲4、伤害8，掉落金苹果派切片、钻石碎片、绿宝石碎片、钻石宝盒、女武神半身像与速度指环。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:wizard_harpy",
+   "name_en": "Wizard Harpy",
+   "name_zh": "鹰身女巫",
+   "description_zh": "生成于主世界黑森林的飞行魔物，自带魔法书，用魔法弹攻击，附带效果取决于所持魔法书；免疫摔落伤害，生命值降低后会强化。生命值40、护甲4、伤害8，掉落灵魂之火与记忆之书。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:yuki_onna",
+   "name_en": "Yuki-Onna",
+   "name_zh": "雪女",
+   "description_zh": "在雨雪天气生成于主世界针叶林，受击时近战还击并附加缓慢IV；可能持折扇生成以提高击退，免疫火与摔落，可穿过蛛网。生命值20、护甲4、伤害4，掉落毛皮、金制宝盒、附魔包裹与华丽的寒冰扇。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:ant",
+   "name_en": "Ant Worker",
+   "name_zh": "工兵蚁",
+   "description_zh": "工蚁生成于主世界沙漠地下，抗火与毒，作为节肢动物惧怕节肢杀手附魔；可能持木制武器，见人就攻击，命中可施加缓慢或挖掘疲劳。生命值40、护甲4、伤害8，掉落绿色染料、蜜汁、铁粒与铁制宝盒。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:ant_salvager",
+   "name_en": "Ant Salvager",
+   "name_zh": "护卫蚁",
+   "description_zh": "护卫蚁生成于主世界沙漠的沙中，抗火、免疫毒与击退；它完全无法移动，用抛射物远程攻击并可能使目标中毒，玩家靠近时会隐身。生命值40、护甲4、伤害8，掉落肉块、铁粒、附魔包裹与附魔书。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:anubis",
+   "name_en": "Anubis",
+   "name_zh": "阿努比斯",
+   "description_zh": "生成于主世界沙漠地表，抗火；见人就以近战与远程混合攻击，命中附加缓慢或失明，战斗中可召唤最多2只戴头饰的骷髅。生命值80、护甲8、伤害12，掉落金粒、金制宝盒、附魔包裹与记忆之书。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:arachne",
+   "name_en": "Arachne",
+   "name_zh": "阿拉克涅",
+   "description_zh": "生成于主世界黑暗处，免疫毒、可穿蛛网并爬墙；先远程攻击，生命值低于50%转为近战，命中可附加中毒并试图用蛛网困住目标。生命值40、护甲4、伤害8，掉落石煤、金粒、世界宝盒与记忆之书。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:banshee",
+   "name_en": "Banshee",
+   "name_zh": "女鬼",
+   "description_zh": "在山地与针叶林地表生成的飞行魔物，免疫火与摔落、可穿方块移动；作为亡灵会在阳光下燃烧，见人就俯冲近战。生命值80、护甲8、伤害12，掉落灵魂之火、金粒、金制宝盒、附魔包裹与梦魇之书。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:behender",
+   "name_en": "Behender",
+   "name_zh": "凝视者",
+   "description_zh": "生成于末地的飞行魔物，见人就攻击并施加随机负面药水效果；抗击退，玩家靠近时会像末影人一样传送，免疫摔落。生命值80、护甲6、伤害12，掉落末影珍珠、金粒、末影宝盒、附魔包裹与末影之书。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:bone_knight",
+   "name_en": "Bone Knight",
+   "name_zh": "骷髅骑士",
+   "description_zh": "生成于主世界，亡灵生物，怕阳光与亡灵杀手附魔；免疫远程攻击，有时还能抵抗击退，见人就攻击并附加缓慢与挖掘疲劳。生命值80、护甲8、伤害12，掉落红石、金粒、世界宝盒、红石块与骷髅头颅。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:cecaelia",
+   "name_en": "Cecaelia",
+   "name_zh": "",
+   "description_zh": "生成于主世界海洋地下，免疫火与溺水、水中移动自由；见人就攻击，远近攻击交替并附加挖掘疲劳，在水中会获得抗性与生命恢复。生命值40、护甲4、伤害8，掉落闪亮的珍珠、黏土、铁粒与附魔书。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:cobblestone_golem",
+   "name_en": "Cobblestone Golem",
+   "name_zh": "大型圆石傀儡",
+   "description_zh": "生成于主世界丛林，是圆石傀儡的强化版：同样免疫毒、火与击退，但怕镐类攻击和溺水，会近战攻击敌对生物并把目标甩开。生命值80、护甲8、伤害7-21，掉落铁粒、金粒、金制宝盒、附魔包裹、丛林宝箱、不死图腾碎片与金属之书。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:creep",
+   "name_en": "Creep",
+   "name_zh": "爬行球",
+   "description_zh": "生成于主世界，见人后会悄悄接近再自爆，类似苦力怕；距离玩家超过8格时处于隐形状态。生命值40、护甲4、伤害8，掉落火药、铁粒、世界宝盒与苦力怕少女玩偶。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:cyan_flower",
+   "name_en": "Cyan Flower",
+   "name_zh": "",
+   "description_zh": "生成于主世界草系生物群系，是被动生物；玩家靠近或攻击它时，可能掉落花朵或变成曼陀罗。生命值1，掉落虞美人、蒲公英与曼德拉草。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:deathword",
+   "name_en": "Deathword",
+   "name_zh": "死亡咒书",
+   "description_zh": "夜间生成于主世界地下的飞行魔物，怕火但免疫摔落；见人就召唤最多4只骷髅或僵尸作仆从，召唤能力耗尽后近身投掷纸页攻击。生命值40、护甲4、伤害8，掉落纸、书、铁粒、世界宝盒与附魔包裹。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:dullahan",
+   "name_en": "Dullahan",
+   "name_zh": "无头骑士",
+   "description_zh": "夜间生成于主世界山地地表，惧怕金制装备；见人就以近战攻击并附加缓慢。生命值40、护甲4、伤害8，掉落灵魂之火、铁粒、铁制宝盒与无头骑士玩偶。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:ender_eye",
+   "name_en": "Ender Eye",
+   "name_zh": "末影之眼",
+   "description_zh": "中立飞行魔物，生成于主世界黑暗处与夜间地表，免疫摔落与蛛网；与末影人一样，玩家与它对视会立即遭到攻击，作为末地生物也怕水。生命值40、护甲4、伤害8，掉落末影珍珠、铁粒、铁制宝盒与末影女孩玩偶。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:flesh_lich",
+   "name_en": "Flesh Lich",
+   "name_zh": "僵尸巫妖",
+   "description_zh": "夜间生成于主世界深层地下，用火球远程攻击；虽为亡灵、怕阳光与亡灵杀手，但抗火。生命值80、护甲8、伤害12，掉落青金石、金粒、世界宝盒、青金石块与僵尸头颅。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:gelatinous_slime",
+   "name_en": "Gelatinous Slime",
+   "name_zh": "凝胶史莱姆",
+   "description_zh": "不会自然生成，见人就以附带中毒的攻击进攻；免疫毒、火与击退，不会游泳且避水，还能偷取玩家物品、吸收射来的箭并回血10%。生命值80、护甲6、伤害12，掉落粘液球、金粒、金制宝盒、附魔包裹与史莱姆女孩玩偶。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:goblin_feral",
+   "name_en": "Feral Goblin",
+   "name_zh": "野蛮哥布林",
+   "description_zh": "不会自然生成，见人就以附带中毒的攻击进攻；免疫毒、火与击退，不会游泳且避水，能偷取玩家物品并吸收箭矢回复生命。生命值20、护甲4、伤害4，掉落铁粒。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:gravemite",
+   "name_en": "Gravemite",
+   "name_zh": "",
+   "description_zh": "由木乃伊在战斗中召唤的小型魔物，见人以简单近战攻击。生命值1、伤害1，无掉落物。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:harpy",
+   "name_en": "Harpy",
+   "name_zh": "鹰身女妖",
+   "description_zh": "生成于主世界平原与恶地，免疫摔落，生命值低于25%时可能逃跑；见人就以跳跃近战攻击，造成强击退并附加缓慢。生命值40、护甲4、伤害8，掉落羽毛、铁粒、铁制宝盒与鹰身女妖巢。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:kobold",
+   "name_en": "Kobold",
+   "name_zh": "狗头人",
+   "description_zh": "生成于主世界冰原，见人就用附带缓慢或虚弱的箭远程攻击；目标靠近后切换近战并获得速度。生命值40、护甲4、伤害8，掉落毛皮、铁粒、铁制宝盒与密封箭袋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:mandragora",
+   "name_en": "Mandragora",
+   "name_zh": "",
+   "description_zh": "玩家攻击青色花时生成，免疫毒与击退，但怕火与铲子；平时被动，被攻击或攻击生成它的花时才近战反击，并附加多种药水效果。生命值40、护甲4、伤害8，掉落块茎、曼德拉草、铁粒、铁制宝盒与花园侏儒。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:matango",
+   "name_en": "Matango",
+   "name_zh": "蘑菇人",
+   "description_zh": "生成于主世界黑森林地表的人形魔物，免疫毒与击退，怕火与斧；见人以近战与远程混合攻击并施加反胃，战斗时可召唤最多5只孢子。生命值40、护甲4、伤害8，掉落红蘑菇、棕蘑菇、铁粒与铁制宝盒。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:mimic",
+   "name_en": "Mimic",
+   "name_zh": "宝箱怪",
+   "description_zh": "生成于主世界地下，伪装成箱子；免疫摔落与击退，但怕火。闲置时可能偷走附近物品吞食以恢复20%生命（被偷物品无法找回），被激怒后以近战攻击。生命值40、护甲4、伤害8，掉落铁粒、世界宝盒、优质怪物饲料、唱片包裹与饥饿之书。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:minotaur",
+   "name_en": "Minotaur",
+   "name_zh": "",
+   "description_zh": "生成于主世界平原与恶地，见人以近战攻击并附加挖掘疲劳与缓慢；免疫摔落、火与远程攻击，不受蛛网和水阻碍，生命值低于25%时会获得强化。生命值160、护甲16、伤害16，掉落金苹果派切片、钻石碎片、绿宝石碎片、钻石宝盒、牛头人半身像、重型杠铃与急速指环。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:minotaurus",
+   "name_en": "Minotaurus",
+   "name_zh": "米诺陶诺斯",
+   "description_zh": "生成于主世界平原与恶地，见人就冲锋近战并附加缓慢与挖掘疲劳，或持弓在远处用缓慢/虚弱箭攻击。生命值40、护甲4、伤害8，掉落皮革、金粒、金制宝盒、附魔包裹与战斗之书。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:mummy",
+   "name_en": "Mummy",
+   "name_zh": "",
+   "description_zh": "生成于主世界沙漠，见人以近战攻击并附加饥饿；抗击退，作为亡灵怕阳光，着火时攻击也可能点燃目标，还会召唤墓穴螨。生命值40、护甲4、伤害8，掉落腐肉、骨头、铁粒与铁制宝盒。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:naga",
+   "name_en": "Naga",
+   "name_zh": "那迦",
+   "description_zh": "生成于主世界沼泽，近战命中附加缓慢与挖掘疲劳；免疫毒与远程攻击、水中移动无阻，生命值低于25%会获得速度并退入水中回血。生命值80、护甲6、伤害12，掉落鳕鱼、金粒、金制宝盒与附魔包裹。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:nine_tails",
+   "name_en": "Nine Tails",
+   "name_zh": "九尾妖狐",
+   "description_zh": "生成于主世界针叶林，见人先从远处投掷会点燃目标的火球，生命值低于75%后转为近战；可能持华丽的烈焰扇生成以提高击退。生命值80、护甲6、伤害12，掉落灵魂之火、金粒、金制宝盒、附魔包裹、华丽的烈焰扇与九尾玩偶。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:oni",
+   "name_en": "Oni",
+   "name_zh": "鬼",
+   "description_zh": "夜间生成于主世界针叶林，见人就贴近近战并附加缓慢；生命值低于25%时获得力量效果。生命值40、护甲4、伤害8，掉落灵魂之火、铁粒、铁制宝盒与附魔书。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:orc",
+   "name_en": "Orc",
+   "name_zh": "半兽人",
+   "description_zh": "生成于主世界热带草原，分近战与远程两种并会攻击玩家和矮人；近战型能破门、可能持盾抵御远程，远程型会给附近兽人急速II，生命值降低后会强化。生命值40、护甲4、伤害8，掉落肉块、铁粒、铁制宝盒与附魔包裹。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:shaman",
+   "name_en": "Shaman",
+   "name_zh": "萨满",
+   "description_zh": "夜间生成于主世界丛林，像女巫一样抛掷中毒药水；会召唤最多2只僵尸并给予其抗性，免疫中毒。生命值80、护甲8、伤害12，掉落腐烂的心脏、铁粒、金制宝盒、附魔包裹与记忆之书。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:sharko",
+   "name_en": "Sharko",
+   "name_zh": "",
+   "description_zh": "夜间生成于主世界海洋，近战攻击附加缓慢与挖掘疲劳III；免疫溺水、水中移动无阻，在水中获得抗性并每5秒恢复10%生命。生命值80、护甲6、伤害12，掉落闪亮的珍珠、海晶碎片、金粒、世界宝盒、附魔包裹与战斗手册。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:siren",
+   "name_en": "Siren",
+   "name_zh": "塞壬",
+   "description_zh": "生成于主世界沼泽，远程攻击附带缓慢与虚弱；近身后切换近战并获得速度，命中附加挖掘疲劳II。免疫毒、水中移动无阻，在水中会回血。生命值40、护甲4、伤害8，掉落鳕鱼、铁粒、铁制宝盒与密封箭袋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:sludge_girl",
+   "name_en": "Sludge Girl",
+   "name_zh": "污泥女孩",
+   "description_zh": "夜间生成于主世界沼泽，见人先以跳跃攻击接近造成强击退，再以附带中毒的近战攻击；抗火、免疫中毒，死亡后会留下持续的中毒效果。生命值40、护甲4、伤害8，掉落粘液球、铁粒与铁制宝盒。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:sphinx",
+   "name_en": "Sphinx",
+   "name_zh": "斯芬克斯",
+   "description_zh": "夜间生成于主世界沙漠，近战命中附加缓慢与挖掘疲劳；免疫摔落、火、溺水与远程攻击，可穿过蛛网和水，生命值低于75%后会强化。生命值160、护甲16、伤害18，掉落金苹果派切片、钻石碎片、绿宝石碎片、钻石宝盒、斯芬克斯半身像、跳跃指环与沙漠宝箱。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:sporeling",
+   "name_en": "Sporeling",
+   "name_zh": "蘑菇孢子",
+   "description_zh": "由蘑菇人在战斗中召唤，见人就近战攻击，命中造成伤害药水效果，可无视护甲。生命值20、护甲4、伤害4，无掉落物。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:spriggan",
+   "name_en": "Spriggan",
+   "name_zh": "树精",
+   "description_zh": "夜间生成于主世界森林，会隐身埋伏，直到玩家靠近6格内才现身攻击；怕火与斧，在水中获得抗性并每5秒恢复10%生命。生命值80、护甲8、伤害12，掉落块茎、橡木原木、金粒、金制宝盒、附魔包裹与自然之书。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:succubus",
+   "name_en": "Succubus",
+   "name_zh": "魅魔",
+   "description_zh": "生成于下界，见人以吸取生命的近战攻击并附加挖掘疲劳，每次命中回复自身10%生命；免疫摔落与火。生命值40、护甲4、伤害8，掉落火之碎片、石英、萤石粉、铁粒与下界宝盒。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:toad",
+   "name_en": "Toad",
+   "name_zh": "",
+   "description_zh": "生成于主世界黑森林，见人先以跳跃攻击接近造成强击退，再以附带中毒的近战攻击；抗火、免疫中毒，在水中获得抗性并回血。生命值40、护甲4、伤害8，掉落粘液球、铁粒与铁制宝盒。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:werecat",
+   "name_en": "Werecat",
+   "name_zh": "猫妖",
+   "description_zh": "夜间生成于主世界森林，见人先跳跃接近造成强击退，再以快速近战攻击并附加缓慢与挖掘疲劳；生命值降到25%以下可能逃跑。生命值40、护甲4、伤害8，掉落肉块、铁粒与铁制宝盒。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:witch",
+   "name_en": "Witch",
+   "name_zh": "魔女",
+   "description_zh": "夜间生成于主世界黑森林地表，免疫中毒与伤害药水，以类似原版女巫的药水远程攻击；战斗中可召唤最多1只骷髅和1只僵尸，并为召唤物提供抗性。生命值80、护甲8、伤害12，掉落地狱疣果酱、金粒、金制宝盒、附魔包裹、记忆之书与曼德拉草盆栽。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:wither_cow",
+   "name_en": "Wither Cow",
+   "name_zh": "凋零牛",
+   "description_zh": "生成于下界，攻击附带凋零，并以4格范围的光环对周围生物施加缓慢；免疫凋零、火与击退，死亡后会留下持续的凋零效果。生命值40、护甲4、伤害8，掉落凋零脑、石英、萤石粉、铁粒与下界宝盒。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "数据取自模组内置《盖亚百科》(Gaiapedia)，1.20.1 版本；MC百科只有盖亚魔典3（1.12.2）的条目，未采用。"
+  },
+  {
+   "mob_id": "grimoireofgaia:ant_hill",
+   "name_en": "Ant Hill",
+   "name_zh": "蚁丘",
+   "description_zh": "在主世界沙质生物群系（恶地除外）生成的蚁丘，每次生成1个，是蚁群的巢穴实体，没有掉落物。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "模组百科未收录，仅据 jar 内生成配置。"
+  },
+  {
+   "mob_id": "grimoireofgaia:chest",
+   "name_en": "Chest",
+   "name_zh": "箱子",
+   "description_zh": "盖亚魔典中的箱子实体，没有掉落表内容，模组百科也未收录，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "模组百科未收录，仅据 jar 数据。"
+  },
+  {
+   "mob_id": "grimoireofgaia:creeper_girl",
+   "name_en": "Creeper Girl",
+   "name_zh": "",
+   "description_zh": "苦力怕少女，模组百科未收录该生物；仅能确认其注册与掉落为自身的刷怪蛋，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "模组百科未收录，仅据 jar 数据。"
+  },
+  {
+   "mob_id": "grimoireofgaia:horse",
+   "name_en": "Wild Horse",
+   "name_zh": "野马",
+   "description_zh": "野马，掉落使用原版僵尸马战利品表；模组百科未收录该生物，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+   "confidence": 0.5,
+   "notes": "模组百科未收录，仅据 jar 数据。"
+  }
+ ]
+}

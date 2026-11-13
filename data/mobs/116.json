@@ -1,0 +1,127 @@
+{
+ "rank": 116,
+ "mod": "The man from the shadow (horror)",
+ "mod_url": "https://modrinth.com/mod/the-man-from-the-shadow-horror",
+ "mobs": [
+  {
+   "mob_id": "man_from_the_shadow:vision",
+   "name_en": "Man from the shadow",
+   "name_zh": "",
+   "description_zh": "玩家理智下降时出现的影子幻象。模组正文说幻象会越来越多，直到“那个人”获得实体形态；此实体就是这类幻象之一，带刷怪蛋，没有掉落表。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-man-from-the-shadow-horror",
+   "confidence": 0.6,
+   "notes": "正文只统称“visions”，实体注册名 vision 与刷怪蛋来自 jar。jar 中英文名同样是 Man from the shadow。"
+  },
+  {
+   "mob_id": "man_from_the_shadow:knifer",
+   "name_en": "Man from the shadow",
+   "name_zh": "",
+   "description_zh": "持刀的影子人形，jar 中有“玩家碰到该实体”的伤害过程，属于近距离接触就会伤人的幻影。模组正文提醒遇到影子时不要接触、不要靠近。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-man-from-the-shadow-horror",
+   "confidence": 0.55,
+   "notes": "行为依据 KniferPlayerCollidesWithThisEntityProcedure 与实体注册名；无掉落表。资料有限。"
+  },
+  {
+   "mob_id": "man_from_the_shadow:doorman",
+   "name_en": "Man from the shadow",
+   "name_zh": "",
+   "description_zh": "敲门者：玩家右键木门时按概率生成，生成条件受最低存活天数与玩家理智上限限制，并带有一句“Open the door.”的语音。属于模组中夜间敲门的恐怖事件。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-man-from-the-shadow-horror",
+   "confidence": 0.6,
+   "notes": "依据 DoormanSummonProcedure（DOORMAN_CHANCE / DOORMAN_MIN_DAY / DOORMAN_MAX_SANITY 配置项）与 lang 中的对话文本。资料有限。"
+  },
+  {
+   "mob_id": "man_from_the_shadow:bolvan",
+   "name_en": "Man from the shadow",
+   "name_zh": "",
+   "description_zh": "使用 shadowhuman 模型的人形影子实体，每 tick 执行更新逻辑；模组正文与 jar 内都没有说明它的具体能力或掉落。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-man-from-the-shadow-horror",
+   "confidence": 0.4,
+   "notes": "仅确认实体注册名、模型与刷怪蛋，资料有限。"
+  },
+  {
+   "mob_id": "man_from_the_shadow:man_itself",
+   "name_en": "Man from the shadow",
+   "name_zh": "",
+   "description_zh": "“那个人”的实体形态：玩家理智耗尽后出现，会试图把玩家带往所谓“天堂”。正文强调这是模组最终阶段的追逐者，玩家只能靠服药与对抗拖延它。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-man-from-the-shadow-horror",
+   "confidence": 0.8,
+   "notes": "正文明确写到 Man 获得 physical form；对应实体 man_itself 的注册名与刷怪蛋来自 jar。"
+  },
+  {
+   "mob_id": "man_from_the_shadow:paralysisman",
+   "name_en": "paralysis",
+   "name_zh": "",
+   "description_zh": "造成“鬼压床”瘫痪的实体：存在时玩家无法正常醒来，界面会提示 Can't wake up。属于模组梦境/睡眠环节的干扰者。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-man-from-the-shadow-horror",
+   "confidence": 0.55,
+   "notes": "依据 BlockwakeupProcedure 的 hasParalysisEntityNearby 与 “Can't wake up” 文本；无掉落表。资料有限。"
+  },
+  {
+   "mob_id": "man_from_the_shadow:shadowarm",
+   "name_en": "Shadowhencharm",
+   "name_zh": "",
+   "description_zh": "影子仆从体系中的手臂实体，同时属于 shadowgoobers 与 shadowhenchman 两个实体标签，通常与影子仆从一同出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-man-from-the-shadow-horror",
+   "confidence": 0.5,
+   "notes": "依据 jar 内 forge 实体标签 shadowgoobers/shadowhenchman 与实体注册名；无掉落表。资料有限。"
+  },
+  {
+   "mob_id": "man_from_the_shadow:shadowhenchman_1",
+   "name_en": "Shadowhenchman 1",
+   "name_zh": "",
+   "description_zh": "影子仆从的第一种形态，属于 shadowhenchman 标签，戴刷怪蛋可召唤；jar 与正文都未给出独立数值或掉落。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-man-from-the-shadow-horror",
+   "confidence": 0.45,
+   "notes": "仅确认实体注册名、刷怪蛋与标签；资料有限。"
+  },
+  {
+   "mob_id": "man_from_the_shadow:shadowhenchman_2",
+   "name_en": "Shadowhenchman 2",
+   "name_zh": "",
+   "description_zh": "影子仆从的第二种形态，属于 shadowhenchman 标签，有独立刷怪蛋；模组正文没有单独描述该变体。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-man-from-the-shadow-horror",
+   "confidence": 0.45,
+   "notes": "仅确认实体注册名、刷怪蛋与标签；资料有限。"
+  },
+  {
+   "mob_id": "man_from_the_shadow:shadowhenchman_3",
+   "name_en": "Shadowhenchman 3",
+   "name_zh": "",
+   "description_zh": "影子仆从的第三种形态（刷怪蛋在 jar 中单独注册），与另外两种同属 shadowhenchman 标签；没有公开的数值资料。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-man-from-the-shadow-horror",
+   "confidence": 0.45,
+   "notes": "仅确认实体注册名、刷怪蛋与标签；资料有限。"
+  },
+  {
+   "mob_id": "man_from_the_shadow:stalker",
+   "name_en": "stalker",
+   "name_zh": "",
+   "description_zh": "会在世界中自然生成的跟踪者，jar 中带有专门的自然生成条件判断；被它发现后会切换成 Spotted 形态并触发 jumpscare。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-man-from-the-shadow-horror",
+   "confidence": 0.55,
+   "notes": "依据 StalkerNaturalEntitySpawningConditionProcedure、SpottedEntity 的生成过程与音效表。资料有限。"
+  },
+  {
+   "mob_id": "man_from_the_shadow:spotted",
+   "name_en": "stalker",
+   "name_zh": "",
+   "description_zh": "跟踪者“发现玩家”时的形态，生成时播放 jumpscare 音效并带有计时逻辑；与 stalker 共用英文名。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-man-from-the-shadow-horror",
+   "confidence": 0.5,
+   "notes": "依据 SpottedOnInitialEntitySpawnProcedure 与 SpottedEntity 的计时字段；资料有限。"
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "rank": 196,
+ "mod": "Block Factory's Biomes",
+ "mod_url": "https://modrinth.com/mod/block-factorys-biomes",
+ "mobs": [
+  {
+   "mob_id": "bf_biomes:bird",
+   "name_en": "Bird",
+   "name_zh": "",
+   "description_zh": "生成于森林类生物群系（#minecraft:is_forest，权重 5，3–4 只一群）的小鸟，会在地面行走、飞行和进食；没有战利品表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/block-factorys-biomes",
+   "confidence": 0.5,
+   "notes": "biome_modifier bird；字幕 bird_walking / bird_fly / bird_eating；外部资料有限"
+  },
+  {
+   "mob_id": "bf_biomes:butterfly",
+   "name_en": "Butterfly",
+   "name_zh": "",
+   "description_zh": "枫叶林（bf_biomes:maple_forest）的标志性生物，权重 40、4–5 只一群，是模组新增生物群系里最常见的昆虫；没有战利品表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/block-factorys-biomes",
+   "confidence": 0.5,
+   "notes": "biome_modifier butterfly；生物群系 spawners；外部资料有限"
+  },
+  {
+   "mob_id": "bf_biomes:crab",
+   "name_en": "Crab",
+   "name_zh": "",
+   "description_zh": "生成于沙滩类生物群系（#minecraft:is_beach，权重 25，1–2 只一群）的螃蟹，击杀掉落生蟹肉。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/block-factorys-biomes",
+   "confidence": 0.5,
+   "notes": "biome_modifier crab；loot_tables/entities/crab.json；外部资料有限"
+  },
+  {
+   "mob_id": "bf_biomes:deer",
+   "name_en": "Deer",
+   "name_zh": "",
+   "description_zh": "在枫叶林与银杏林生成（枫叶林权重 45、4–5 只一群）的鹿，击杀掉落生鹿肉、皮革与鹿角，也有概率什么都不掉。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/block-factorys-biomes",
+   "confidence": 0.5,
+   "notes": "biome_modifier deer + 生物群系 spawners；loot_tables/entities/deer.json；外部资料有限"
+  },
+  {
+   "mob_id": "bf_biomes:firefly",
+   "name_en": "Firefly",
+   "name_zh": "",
+   "description_zh": "在沼泽与红树林沼泽生成（权重 15，4–5 只一群）的萤火虫，是模组为夜间环境添加的发光昆虫；没有战利品表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/block-factorys-biomes",
+   "confidence": 0.5,
+   "notes": "biome_modifier firefly；字幕 firefly_flying；外部资料有限"
+  },
+  {
+   "mob_id": "bf_biomes:ostrich",
+   "name_en": "Ostrich",
+   "name_zh": "",
+   "description_zh": "栖息于猴面包树林（bf_biomes:baobab_forest，权重 40、4–5 只一群）的鸵鸟，击杀掉落 0–3 根羽毛。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/block-factorys-biomes",
+   "confidence": 0.5,
+   "notes": "biome_modifier ostrich + 生物群系 spawners；loot_tables/entities/ostrich.json；外部资料有限"
+  },
+  {
+   "mob_id": "bf_biomes:squirrel",
+   "name_en": "Squirrel",
+   "name_zh": "",
+   "description_zh": "枫叶林（权重 13，2–4 只一群）中的松鼠，会在林间奔跑并爬树。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/block-factorys-biomes",
+   "confidence": 0.5,
+   "notes": "biome_modifier squirrel；字幕 squirrel_running / squirrel_climbing；外部资料有限"
+  }
+ ]
+}

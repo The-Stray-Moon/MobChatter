@@ -1,0 +1,337 @@
+{
+ "rank": 156,
+ "mod": "Companions!",
+ "mod_url": "https://modrinth.com/mod/companions-mod",
+ "mobs": [
+  {
+   "mob_id": "companions:antlion",
+   "name_en": "Antlion",
+   "name_zh": "蚁狮",
+   "description_zh": "蚁狮伙伴有四种形态并按天循环：基础形态会钻地并远距离喷沙攻击，用剪刀可剪下蚁狮毛（要等四种形态走完一轮才会再生）；蛹形态伤害低但能硬吃多次攻击；成虫形态可以飞行，主人骑乘时获得滑翔能力（高度会随距离缓慢下降）；兵蚁形态则向敌人发射沙弹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "蚁狮伙伴由野生蚁狮驯服而来。"
+  },
+  {
+   "mob_id": "companions:bonanza_anvil",
+   "name_en": "Anvil",
+   "name_zh": "",
+   "description_zh": "铁砧（Anvil）是模组注册的实体，jar 内没有掉落表和刷怪蛋，模组正文也没有介绍它的用途。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.3,
+   "notes": "仅能确认实体注册名；jar 中另有同名的青蛙 Bonanza 方块，但两者关系未在正文说明。"
+  },
+  {
+   "mob_id": "companions:broken_dinamo",
+   "name_en": "Broken Dinamo",
+   "name_zh": "损坏的电纳魔",
+   "description_zh": "损坏的电纳魔是电纳魔的损毁形态，可在袭击中击败灾厄电磁傀儡后几率获得，也会出现在工厂结构里；喂给它索要的特定物品完成修理后，它会恢复成能战斗、也能为特斯拉网络供电的电纳魔。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  },
+  {
+   "mob_id": "companions:bubble_frog",
+   "name_en": "Bubble Frog",
+   "name_zh": "泡泡蛙",
+   "description_zh": "泡泡蛙（Bubble Frog）是模组中的蛙类实体，jar 内没有独立掉落表和刷怪蛋，需通过模组自身的机制获得。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.4,
+   "notes": "模组正文未提及该生物，仅据 jar 内 lang 与数据文件确认其存在。"
+  },
+  {
+   "mob_id": "companions:cloak",
+   "name_en": "Cloak",
+   "name_zh": "斗篷客",
+   "description_zh": "斗篷客是用旧布料与重生图腾交互召唤的伙伴，会发射接触敌人即爆炸的神圣之星并追击目标；还能让自己和主人在短时间内隐身，使敌对生物看不见、也打不到他们。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  },
+  {
+   "mob_id": "companions:cornelius",
+   "name_en": "Cornelius Croak",
+   "name_zh": "科尼利尔斯·呱克",
+   "description_zh": "科尼利尔斯·呱克是自然生成在沼泽的赌场庄家伙伴，把一只蜜蜂带给它并杀死蜜蜂，就能把它驯服给最近的玩家。它属于召唤型，不直接攻击，而是收取铜币、下界币或末影币召唤不同生物替玩家作战。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  },
+  {
+   "mob_id": "companions:croissant_dragon",
+   "name_en": "Croissant Dragon",
+   "name_zh": "可颂龙",
+   "description_zh": "可颂龙由可颂蛋孵化而来：把大面包放进灵魂熔炉烹饪就能得到可颂蛋。孵出后要喂三桶牛奶才能长大并驯服；它的攻击不造成伤害而是减速敌对生物，装上风味护甲后奶油会给主人正面效果、给敌人负面效果。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  },
+  {
+   "mob_id": "companions:dinamo",
+   "name_en": "Dinamo",
+   "name_zh": "电纳魔",
+   "description_zh": "电纳魔（Dinamo）是模组的电系伙伴，无法在野外自然遇到：袭击中出现的灾厄电磁傀儡被击败后有几率掉落损坏的电纳魔，也能在工厂结构里找到损坏版本，提供它索要的物品修好后即变成电纳魔。默认会攻击半径内的敌对生物和主人的目标，可用扳手切换攻击模式；坐下时会充当特斯拉网络的发电机，接通后放出电射线，触碰到电流的生物会被电击。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  },
+  {
+   "mob_id": "companions:ember_pole",
+   "name_en": "Ember Pole",
+   "name_zh": "灰烬蝌蚪",
+   "description_zh": "灰烬蝌蚪（Ember Pole）是模组中的蝌蚪类实体，jar 内没有独立掉落表和刷怪蛋，需通过模组自身的机制获得。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.4,
+   "notes": "模组正文未提及该生物，仅据 jar 内 lang 与数据文件确认其存在。"
+  },
+  {
+   "mob_id": "companions:ender_frog",
+   "name_en": "Ender Frog",
+   "name_zh": "末影蛙",
+   "description_zh": "末影蛙（Ender Frog）是模组中的蛙类实体，jar 内没有独立掉落表和刷怪蛋，需通过模组自身的机制获得。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.4,
+   "notes": "模组正文未提及该生物，仅据 jar 内 lang 与数据文件确认其存在。"
+  },
+  {
+   "mob_id": "companions:firework_toad",
+   "name_en": "Firework Toad",
+   "name_zh": "焰火蟾蜍",
+   "description_zh": "焰火蟾蜍（Firework Toad）是模组中的蟾蜍类实体，jar 内没有独立掉落表和刷怪蛋，需通过模组自身的机制获得。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.4,
+   "notes": "模组正文未提及该生物，仅据 jar 内 lang 与数据文件确认其存在。"
+  },
+  {
+   "mob_id": "companions:gargoyle",
+   "name_en": "Gargoyle",
+   "name_zh": "石像鬼",
+   "description_zh": "石像鬼是爪牙（Minion）在末地时的形态，能力与主世界的爪牙、下界的小鬼不同；可用末影币向它购买魔法书，用下界合金锁链可锁定它的形态。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  },
+  {
+   "mob_id": "companions:golden_allay",
+   "name_en": "Golden Allay",
+   "name_zh": "金色悦灵",
+   "description_zh": "金色悦灵自然生成在沼泽，给它可以驯服：穿上法师衣物并拿到法杖后，它会转化为灵魂魔导士伙伴。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  },
+  {
+   "mob_id": "companions:his_holiness",
+   "name_en": "His Holiness",
+   "name_zh": "圣座陛下",
+   "description_zh": "圣座陛下是至圣教宗的第二阶段形态，在教宗第一阶段被击败后出现，使用黄金薙刀近战并可远程投掷；击败后掉落旧布料和遗物黄金，可用于制作伙伴相关道具。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  },
+  {
+   "mob_id": "companions:illager_golem",
+   "name_en": "Illager Tesla Golem",
+   "name_zh": "灾厄电磁傀儡",
+   "description_zh": "灾厄电磁傀儡会在袭击中出现，用带电的范围攻击作战；击杀它有几率掉落损坏的电纳魔，修复后即可得到电纳魔伙伴。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  },
+  {
+   "mob_id": "companions:imp",
+   "name_en": "Imp",
+   "name_zh": "小鬼",
+   "description_zh": "小鬼是爪牙（Minion）在下界时的形态，与主世界的爪牙、末地的石像鬼能力各不相同；可用下界币向它购买魔法书，用下界合金锁链可把它锁定在当前形态。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  },
+  {
+   "mob_id": "companions:living_candle",
+   "name_en": "Living Candle",
+   "name_zh": "活体蜡烛",
+   "description_zh": "把蜡烛放进灵魂熔炉烹饪即可生成活体蜡烛；它会追随附近的灵魂魔导士并认其为主，当魔导士下一击将致命时，蜡烛会代替它消失并挡下这次伤害。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  },
+  {
+   "mob_id": "companions:hostile_puppet_glove",
+   "name_en": "Magic Glove",
+   "name_zh": "魔法手套",
+   "description_zh": "魔法手套生成在女巫小屋结构中，与其交互会开启石头剪刀布游戏（真的要用石头、纸或剪刀物品）；获胜后它会被驯服成木偶手套。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  },
+  {
+   "mob_id": "companions:mankh",
+   "name_en": "Mankh",
+   "name_zh": "猕安卡",
+   "description_zh": "猕安卡是用遗物黄金与重生图腾交互召唤的伙伴，会在脚下生成伤害附近生物的火焰环，或在有效距离内向目标发射激光。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  },
+  {
+   "mob_id": "companions:minion",
+   "name_en": "Minion",
+   "name_zh": "爪牙",
+   "description_zh": "爪牙不会自然生成，它的敌对形态敌意小鬼生成在下界，可用硬币尝试雇用，失败就会被攻击。它是跨维度变身者：主世界为爪牙、末地为石像鬼、下界为小鬼，各形态能力不同；用下界合金锁链可以锁定它的当前形态。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  },
+  {
+   "mob_id": "companions:mutated_teddy",
+   "name_en": "Mutated Teddy",
+   "name_zh": "突变泰迪",
+   "description_zh": "突变泰迪是驯服后的泰迪用永恒打火石交互变成的变异飞行形态：锁定目标后绕圈并冲撞造成伤害，攻击时若受到重击会传送到目标另一侧。喂它一桶熔岩可以得到突变之肉。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  },
+  {
+   "mob_id": "companions:nether_bullfrog",
+   "name_en": "Nether Bullfrog",
+   "name_zh": "下界牛蛙",
+   "description_zh": "下界牛蛙（Nether Bullfrog）是模组中的蛙类实体，jar 内没有独立掉落表和刷怪蛋，需通过模组自身的机制获得。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.4,
+   "notes": "模组正文未提及该生物，仅据 jar 内 lang 与数据文件确认其存在。"
+  },
+  {
+   "mob_id": "companions:puppet",
+   "name_en": "Puppet",
+   "name_zh": "木偶",
+   "description_zh": "木偶不能自然生成：在女巫小屋结构里会遇到扫地的魔法手套，和它玩石头剪刀布并获胜可驯服为木偶手套，再用空白木偶就能转化成木偶。还需装上可合成的手臂（鞭臂、变异臂、炮臂、刃臂）才能发挥作用。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  },
+  {
+   "mob_id": "companions:puppet_glove",
+   "name_en": "Puppet Glove",
+   "name_zh": "木偶手套",
+   "description_zh": "木偶手套是赢下魔法手套的石头剪刀布后得到的临时伙伴，会自行攻击但没有其他能力；用空白木偶与它交互即可转化为木偶伙伴。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  },
+  {
+   "mob_id": "companions:sacred_pontiff",
+   "name_en": "Sacred Pontiff",
+   "name_zh": "至圣教宗",
+   "description_zh": "至圣教宗是模组 Boss，自然生成在专属结构中，与其交互会打断祈祷并开战；第一阶段使用多种火焰招式，被击败后转入第二阶段“圣座陛下”，改用可投掷的黄金薙刀。彻底击败后掉落旧布料与遗物黄金，用于制作重生图腾相关物品。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "Boss 实体，jar 中带有 bosses 实体标签。"
+  },
+  {
+   "mob_id": "companions:shade_bat",
+   "name_en": "Shade Bat",
+   "name_zh": "",
+   "description_zh": "暗影蝙蝠（Shade Bat）需用结晶血激活暗影蝙蝠祭坛召唤；jar 内没有它的掉落表，也没有刷怪蛋。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.5,
+   "notes": "召唤方式取自 jar 内方块工具提示（shade_bat_altar）。"
+  },
+  {
+   "mob_id": "companions:shade_bat_part",
+   "name_en": "Shade Bat Part",
+   "name_zh": "",
+   "description_zh": "暗影蝙蝠的分体实体（Shade Bat Part），随暗影蝙蝠一起出现，jar 内没有掉落表和刷怪蛋。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.35,
+   "notes": "仅能确认实体注册名；该实体疑似坐骑/分件，未在模组正文中说明。"
+  },
+  {
+   "mob_id": "companions:shade_maw",
+   "name_en": "Shade Maw",
+   "name_zh": "暗影魔颚",
+   "description_zh": "暗影魔颚是用暗影魔颚祭坛配合暗影之铃召唤的临时伙伴，主要用于陆上和水上运输，也会咬击敌人，过一段时间就会消失。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  },
+  {
+   "mob_id": "companions:shade_sword",
+   "name_en": "Shade Sword",
+   "name_zh": "暗影利剑",
+   "description_zh": "暗影利剑是用暗影利剑祭坛配合暗影之铃召唤的临时战斗伙伴；主人锁定目标时它会钩住目标并绕着目标飞行攻击，过一段时间后消失。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  },
+  {
+   "mob_id": "companions:soul_mage",
+   "name_en": "Soul Mage",
+   "name_zh": "灵魂魔导士",
+   "description_zh": "灵魂魔导士不能自然生成：给沼泽里自然生成的金色悦灵穿上法师衣物（外套和帽子）并交给它法杖，它就会转化成灵魂魔导士。它本身不会主动攻击，需要提供魔法书让它施法；被活体蜡烛认主后，若下一击会致命，蜡烛会替它消失并挡下这次伤害。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  },
+  {
+   "mob_id": "companions:teddy",
+   "name_en": "Teddy",
+   "name_zh": "泰迪",
+   "description_zh": "泰迪生成在新增结构泰迪监狱，用针可以驯服它；驯服后它的攻击会附带巫毒效果，让周围被影响的生物射出针并刺伤它们自己。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  },
+  {
+   "mob_id": "companions:wild_antlion",
+   "name_en": "Wild Antlion",
+   "name_zh": "野生蚁狮",
+   "description_zh": "野生蚁狮自然生成在沙漠，看到玩家就会钻进沙里发动攻击；要从背后悄悄接近、不被发现地用结晶血与它交互，才能把它驯服成蚁狮伙伴。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "驯服后成为蚁狮伙伴。"
+  },
+  {
+   "mob_id": "companions:hostile_imp",
+   "name_en": "Wild Imp",
+   "name_zh": "敌意小鬼",
+   "description_zh": "敌意小鬼自然生成在下界，默认中立，可以用硬币雇用驯服；失败时它会变得敌对并攻击玩家一段时间，成功则转化为爪牙伙伴。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/companions-mod",
+   "confidence": 0.85,
+   "notes": "介绍来自模组页面正文中对该生物的分段说明。"
+  }
+ ]
+}

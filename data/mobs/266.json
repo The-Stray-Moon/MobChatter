@@ -1,0 +1,157 @@
+{
+ "rank": 266,
+ "mod": "Ultimate Bosses",
+ "mod_url": "https://modrinth.com/mod/ultimate-bosses",
+ "mobs": [
+  {
+   "mob_id": "mr_ultimate_bosses:eye",
+   "name_en": "Eye",
+   "name_zh": "",
+   "description_zh": "数据包 Boss“Eye”：以幼年僵尸为基底（血量 150、攻击击退 2），戴玩家头颅并带无限隐身效果，战斗时由独立 Boss 栏显示血量，使用多段攻击计分。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ultimate-bosses",
+   "confidence": 0.5,
+   "notes": "数据包实现（mods.toml 的 modId 为 mr_ultimate_bosses），通过给原版实体附加 NBT/函数实现，jar 中没有独立实体注册 id，mob_id 按函数名归一。数据来源：data/ub/functions/boss/eye.mcfunction。"
+  },
+  {
+   "mob_id": "mr_ultimate_bosses:lostangel",
+   "name_en": "Lost Angel",
+   "name_zh": "",
+   "description_zh": "数据包 Boss“Lost Angel”：以僵尸为基底（血量 200、静音、不会破门），戴着一顶附有 5 级保护/抗火/爆炸保护/弹射物保护的金头盔“Angel’s Crown”，由独立 Boss 栏显示血量，攻击分多段计分。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ultimate-bosses",
+   "confidence": 0.5,
+   "notes": "数据包实现（mods.toml 的 modId 为 mr_ultimate_bosses），通过给原版实体附加 NBT/函数实现，jar 中没有独立实体注册 id，mob_id 按函数名归一。数据来源：data/ub/functions/boss/lostangel.mcfunction。"
+  },
+  {
+   "mob_id": "mr_ultimate_bosses:storm",
+   "name_en": "The Storm",
+   "name_zh": "",
+   "description_zh": "数据包 Boss“The Storm”：以骷髅为基底（血量 300、静音），持力量 III + 冲击 I 的弓、穿蓝色皮革甲、戴“Cloud”头颅；战斗中会召唤带飘浮与隐身的蠹虫组成龙卷风，并有 5 组攻击计分。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ultimate-bosses",
+   "confidence": 0.5,
+   "notes": "数据包实现（mods.toml 的 modId 为 mr_ultimate_bosses），通过给原版实体附加 NBT/函数实现，jar 中没有独立实体注册 id，mob_id 按函数名归一。数据来源：data/ub/functions/boss/storm.mcfunction。"
+  },
+  {
+   "mob_id": "mr_ultimate_bosses:sorcerer",
+   "name_en": "The Sorcerer",
+   "name_zh": "",
+   "description_zh": "数据包 Boss“The Sorcerer”：以凋灵骷髅为基底（血量 600、击退抗性 0.8），持“Sorcerer’s Blade”的下界合金剑，穿附有 50–100 级爆炸保护的皮革甲；会用红圈标记位置并召唤 TNT 轰击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ultimate-bosses",
+   "confidence": 0.5,
+   "notes": "数据包实现（mods.toml 的 modId 为 mr_ultimate_bosses），通过给原版实体附加 NBT/函数实现，jar 中没有独立实体注册 id，mob_id 按函数名归一。数据来源：data/ub/functions/boss/sorcerer.mcfunction。"
+  },
+  {
+   "mob_id": "mr_ultimate_bosses:poseidon",
+   "name_en": "Poseidon",
+   "name_zh": "",
+   "description_zh": "数据包 Boss“Poseidon”：以溺尸为基底（血量 100），双手各持一把三叉戟，其中一把名为“Poseidon’s Tridant”，带忠诚 III、引雷 II、穿刺 V；当普通溺尸存在 200 tick 后会被替换成它。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ultimate-bosses",
+   "confidence": 0.5,
+   "notes": "数据包实现（mods.toml 的 modId 为 mr_ultimate_bosses），通过给原版实体附加 NBT/函数实现，jar 中没有独立实体注册 id，mob_id 按函数名归一。数据来源：data/ub/functions/mobs/poseidon.mcfunction。"
+  },
+  {
+   "mob_id": "mr_ultimate_bosses:totemking",
+   "name_en": "Totem King",
+   "name_zh": "",
+   "description_zh": "数据包 Boss“Totem King”：以唤魔者为基底（血量 70、攻击伤害 12），副手持不死图腾；普通唤魔者存在 10 tick 后被替换，死亡掉落物使用林地府邸宝箱战利品表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ultimate-bosses",
+   "confidence": 0.5,
+   "notes": "数据包实现（mods.toml 的 modId 为 mr_ultimate_bosses），通过给原版实体附加 NBT/函数实现，jar 中没有独立实体注册 id，mob_id 按函数名归一。数据来源：data/ub/functions/mobs/totemking.mcfunction。"
+  },
+  {
+   "mob_id": "mr_ultimate_bosses:fireworkpillager",
+   "name_en": "Firework Pillager",
+   "name_zh": "",
+   "description_zh": "以掠夺者为基底（血量 60），持多重射击 I + 快速装填 III 的弩和 64 发烟花火箭；普通掠夺者生成 20 tick 后会在其附近生成这名强化版本。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ultimate-bosses",
+   "confidence": 0.5,
+   "notes": "数据包实现（mods.toml 的 modId 为 mr_ultimate_bosses），通过给原版实体附加 NBT/函数实现，jar 中没有独立实体注册 id，mob_id 按函数名归一。数据来源：data/ub/functions/mobs/fireworkpillager.mcfunction。"
+  },
+  {
+   "mob_id": "mr_ultimate_bosses:flyingwitch",
+   "name_en": "Flying Witch",
+   "name_zh": "",
+   "description_zh": "由鹦鹉驮着女巫组成的飞行组合（女巫血量 40）；普通女巫生成 20 tick 后会在其附近生成这个组合。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ultimate-bosses",
+   "confidence": 0.5,
+   "notes": "数据包实现（mods.toml 的 modId 为 mr_ultimate_bosses），通过给原版实体附加 NBT/函数实现，jar 中没有独立实体注册 id，mob_id 按函数名归一。数据来源：data/ub/functions/mobs/flyingwitch.mcfunction。"
+  },
+  {
+   "mob_id": "mr_ultimate_bosses:zombiehorseman",
+   "name_en": "Zombie Horseman",
+   "name_zh": "",
+   "description_zh": "僵尸骑手：僵尸马驮着一名装甲僵尸（血量 60，铁斧附锋利 I、持盾、全套铁甲），僵尸马本身带击退抗性 0.44 与鞍。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ultimate-bosses",
+   "confidence": 0.5,
+   "notes": "数据包实现（mods.toml 的 modId 为 mr_ultimate_bosses），通过给原版实体附加 NBT/函数实现，jar 中没有独立实体注册 id，mob_id 按函数名归一。数据来源：data/ub/functions/mobs/zombiehorseman.mcfunction。"
+  },
+  {
+   "mob_id": "mr_ultimate_bosses:deathtip",
+   "name_en": "Ashen Eye",
+   "name_zh": "",
+   "description_zh": "“Ashen Eye”组合：洞穴蜘蛛（血量 50）背上驮着骷髅（血量 50、力量 IV 弓与多效果药箭、锁链甲），追踪范围 120 格；普通骷髅生成 100 tick 后会触发这个组合。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ultimate-bosses",
+   "confidence": 0.5,
+   "notes": "数据包实现（mods.toml 的 modId 为 mr_ultimate_bosses），通过给原版实体附加 NBT/函数实现，jar 中没有独立实体注册 id，mob_id 按函数名归一。数据来源：data/ub/functions/mobs/deathtip.mcfunction。"
+  },
+  {
+   "mob_id": "mr_ultimate_bosses:bigphantom",
+   "name_en": "Big Phantom",
+   "name_zh": "",
+   "description_zh": "被放大到 Size:10 的幻翼；数据包在幻翼生成后会把它标记并替换成这个放大版。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ultimate-bosses",
+   "confidence": 0.5,
+   "notes": "数据包实现（mods.toml 的 modId 为 mr_ultimate_bosses），通过给原版实体附加 NBT/函数实现，jar 中没有独立实体注册 id，mob_id 按函数名归一。数据来源：data/ub/functions/mobs/bigphantom.mcfunction。"
+  },
+  {
+   "mob_id": "mr_ultimate_bosses:blueshulker",
+   "name_en": "Blue Shulker",
+   "name_zh": "",
+   "description_zh": "蓝色（Color:11）潜影贝，血量 40，会替换普通潜影贝。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ultimate-bosses",
+   "confidence": 0.5,
+   "notes": "数据包实现（mods.toml 的 modId 为 mr_ultimate_bosses），通过给原版实体附加 NBT/函数实现，jar 中没有独立实体注册 id，mob_id 按函数名归一。数据来源：data/ub/functions/mobs/blueshulker.mcfunction。"
+  },
+  {
+   "mob_id": "mr_ultimate_bosses:speedenderman",
+   "name_en": "Speed Enderman",
+   "name_zh": "",
+   "description_zh": "强化末影人：血量 60、移动速度 0.7、攻击伤害 20、发光，手上还搬着金块。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ultimate-bosses",
+   "confidence": 0.5,
+   "notes": "数据包实现（mods.toml 的 modId 为 mr_ultimate_bosses），通过给原版实体附加 NBT/函数实现，jar 中没有独立实体注册 id，mob_id 按函数名归一。数据来源：data/ub/functions/mobs/speedenderman.mcfunction。"
+  },
+  {
+   "mob_id": "mr_ultimate_bosses:stackedblaze",
+   "name_en": "Stacked Blaze",
+   "name_zh": "",
+   "description_zh": "三只烈焰人叠在一起（两只作为乘客），作为更耐打的烈焰人变体出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ultimate-bosses",
+   "confidence": 0.5,
+   "notes": "数据包实现（mods.toml 的 modId 为 mr_ultimate_bosses），通过给原版实体附加 NBT/函数实现，jar 中没有独立实体注册 id，mob_id 按函数名归一。数据来源：data/ub/functions/mobs/stackedblaze.mcfunction。"
+  },
+  {
+   "mob_id": "mr_ultimate_bosses:illusioner",
+   "name_en": "Illusioner",
+   "name_zh": "",
+   "description_zh": "被包装成小 Boss 的幻术师：死亡掉落物改为丛林神庙发射器战利品表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/ultimate-bosses",
+   "confidence": 0.5,
+   "notes": "数据包实现（mods.toml 的 modId 为 mr_ultimate_bosses），通过给原版实体附加 NBT/函数实现，jar 中没有独立实体注册 id，mob_id 按函数名归一。数据来源：data/ub/functions/mobs/illusioner.mcfunction。"
+  }
+ ]
+}

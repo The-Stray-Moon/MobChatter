@@ -1,0 +1,37 @@
+{
+ "rank": 208,
+ "mod": "Splendid Slimes",
+ "mod_url": "https://modrinth.com/mod/splendid-slimes",
+ "mobs": [
+  {
+   "mob_id": "splendid_slimes:splendid_slime",
+   "name_en": "Splendid Slime",
+   "name_zh": "史莱姆",
+   "description_zh": "数据驱动的史莱姆，喂它对应的食物，长成后会产出 Plort；Plort 可拆解成资源，或做成 Slime Heart 放进孵化器孵出更多史莱姆。默认有 19 个品种，食性和行为各不相同，有的会爆炸、传送实体，或让附近的生物漂浮。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/splendid-slimes",
+   "confidence": 0.85,
+   "notes": "游戏内名称按品种显示为“<品种> Slime”，中文为“<品种> 史莱姆”"
+  },
+  {
+   "mob_id": "splendid_slimes:largo_splendid_slime",
+   "name_en": "Largo Splendid Slime",
+   "name_zh": "杂交史莱姆",
+   "description_zh": "把另一种史莱姆的 Plort 喂给史莱姆，就能得到体型更大的 Largo 杂交种，它会同时产出两种 Plort。如果再混入第三种 Plort，史莱姆就会腐化成致命的 Tarr。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/splendid-slimes",
+   "confidence": 0.85,
+   "notes": "游戏内名称显示为“<品种A> <品种B> Largo”"
+  },
+  {
+   "mob_id": "splendid_slimes:tarr",
+   "name_en": "Tarr",
+   "name_zh": "焦油怪",
+   "description_zh": "当史莱姆被混入第三种 Plort 时会腐化成致命生物 Tarr；正文没有给出它的血量、伤害或掉落（资料有限）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/splendid-slimes",
+   "confidence": 0.7,
+   "notes": "diet/happy/furious/neutral/sad/wild/hunger/owner 等为状态显示实体，非生物，已跳过"
+  }
+ ]
+}

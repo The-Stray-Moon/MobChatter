@@ -1,0 +1,47 @@
+{
+ "rank": 210,
+ "mod": "Horror Cryptid: Sasquatch (Bigfoot)",
+ "mod_url": "https://modrinth.com/mod/horror-cryptid-sasquatch-bigfoot",
+ "mobs": [
+  {
+   "mob_id": "sasquatch:sasquatch_1",
+   "name_en": "Sasquatch",
+   "name_zh": "",
+   "description_zh": "只在原始松林针叶林（Old Growth Pine Taiga）出现的恐怖向生物：玩家一进入该群系就会拿到“大脚怪探测器”，可用来确认附近是否有它在跟踪；它会随时间推移或被玩家骚扰而越来越愤怒，愤怒值越高情况越糟。模组同时加入猎塔、废弃铁路、猎人遗骸与可搜刮的营地来营造跟踪和偏执感。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/horror-cryptid-sasquatch-bigfoot",
+   "confidence": 0.9,
+   "notes": "jar 中同一生物注册为 sasquatch_1/2/3 三个变体，配合 SpawnSasquatch1/2/3Procedure 使用。"
+  },
+  {
+   "mob_id": "sasquatch:sasquatch_2",
+   "name_en": "Sasquatch",
+   "name_zh": "",
+   "description_zh": "大脚怪的第二个注册变体，显示名同为 Sasquatch。按模组正文“实体会随时间或被激怒而升级，越愤怒情况越糟”的描述，可视为同一生物的更凶暴阶段；1.2.2 版本更新还专门强化了它的杀伤力与音效。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/horror-cryptid-sasquatch-bigfoot",
+   "confidence": 0.7,
+   "notes": "阶段与 id 的对应关系来自实体 id 及 SpawnSasquatch1/2/3Procedure 过程类，正文未逐条命名。"
+  },
+  {
+   "mob_id": "sasquatch:sasquatch_3",
+   "name_en": "Sasquatch",
+   "name_zh": "",
+   "description_zh": "大脚怪的第三个注册变体（同为 Sasquatch），对应愤怒升级的更高阶段；正文提到“若看到红色眼睛，最好离基地远一点”，并说明 1.2 版本新增了猎塔、铁路与更多大脚怪活动。具体数值资料有限。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/horror-cryptid-sasquatch-bigfoot",
+   "confidence": 0.7,
+   "notes": "愤怒阶段的具体阈值无法从 jar 正文核实。"
+  },
+  {
+   "mob_id": "sasquatch:hallucination",
+   "name_en": "Hallucintation",
+   "name_zh": "",
+   "description_zh": "注册 id 为 sasquatch:hallucination 的实体，语言文件中的英文写作 Hallucintation（原文如此），由模组内的 SpawnHallucinationProcedure 生成。jar 中没有它的掉落表与刷怪蛋，也没有可核实的血量数据，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/horror-cryptid-sasquatch-bigfoot",
+   "confidence": 0.4,
+   "notes": "缺少血量/行为文档；仅能确认实体注册、生成过程类与无掉落。"
+  }
+ ]
+}

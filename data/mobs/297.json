@@ -1,0 +1,747 @@
+{
+ "rank": 297,
+ "mod": "SoniCraft Demons",
+ "mod_url": "https://modrinth.com/mod/sonicraft-demons",
+ "mobs": [
+  {
+   "mob_id": "sonicraft_demons:sonic_exe",
+   "name_en": "Sonic.EXE",
+   "name_zh": "",
+   "description_zh": "Sonic.EXE 本体，模组的主要恐怖存在，需要用五芒星（Pentagram）仪式召唤（进度“Summon Sonic.EXE using a Pentagram”）。模组正文把它列入 Sonic.EXE（Crimson X）这一组都市传说角色。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.75,
+   "notes": "召唤方式来自 jar 进度文本；正文列出 Sonic.EXE 系列。"
+  },
+  {
+   "mob_id": "sonicraft_demons:sonic_exe_chase",
+   "name_en": "Sonic.EXE",
+   "name_zh": "",
+   "description_zh": "Sonic.EXE 的追逐形态，会在玩家附近现身并追击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.5,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:sonic_exe_lurker",
+   "name_en": "Sonic.EXE",
+   "name_zh": "",
+   "description_zh": "Sonic.EXE 的潜伏形态，躲在暗处观察玩家。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.45,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:sonic_exe_overworld_lurker",
+   "name_en": "Sonic.EXE",
+   "name_zh": "",
+   "description_zh": "Sonic.EXE 的主世界潜伏形态，无需进入专属维度也会出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.45,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:sonic_exe_illusion",
+   "name_en": "Sonic.EXE",
+   "name_zh": "",
+   "description_zh": "Sonic.EXE 的幻象形态，用于制造虚假的目击与惊吓。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.45,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:sonic_exe_passive",
+   "name_en": "Sonic.EXE",
+   "name_zh": "",
+   "description_zh": "Sonic.EXE 的被动/待机形态，不会主动攻击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.45,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:sonic_exe_catch",
+   "name_en": "Sonic.EXE",
+   "name_zh": "",
+   "description_zh": "Sonic.EXE 抓住玩家时的演出形态。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.45,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:sonic_exe_eyes_closed",
+   "name_en": "Sonic",
+   "name_zh": "",
+   "description_zh": "闭着双眼的 Sonic.EXE 形态，用于特定演出。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:xenophanes",
+   "name_en": "Sonic.EXE",
+   "name_zh": "",
+   "description_zh": "Xenophanes，模组正文列出的独立都市传说角色，带刷怪蛋。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.65,
+   "notes": "角色归属见正文 Creepypastas 列表；Boss 定位由实体与刷怪蛋推断。"
+  },
+  {
+   "mob_id": "sonicraft_demons:lord_x_lurker",
+   "name_en": "Lord X",
+   "name_zh": "",
+   "description_zh": "Lord X（Soulless Sonic）的潜伏形态，在暗处尾随玩家；没有刷怪蛋。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.6,
+   "notes": "正文把 Soulless Sonic (Lord X) 列入角色表；无刷怪蛋来自 jar。"
+  },
+  {
+   "mob_id": "sonicraft_demons:dx",
+   "name_en": "DX",
+   "name_zh": "",
+   "description_zh": "DX（Crimson X）本体，带刷怪蛋；模组正文把 Crimson X 列为 Sonic.EXE 的别名之一。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.6,
+   "notes": "正文角色表 + jar 实体与刷怪蛋。"
+  },
+  {
+   "mob_id": "sonicraft_demons:dx_true",
+   "name_en": "DX",
+   "name_zh": "",
+   "description_zh": "DX 的“真身”形态，名称带乱码效果，属于 Boss 演出阶段。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.45,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:dx_incomplete",
+   "name_en": "DX",
+   "name_zh": "",
+   "description_zh": "DX 的“未完成”形态，名称带乱码效果，属于战斗阶段变体。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.45,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:dx_faker",
+   "name_en": "Sonic",
+   "name_zh": "",
+   "description_zh": "伪装成 Sonic 的 DX 假身，用来误导玩家。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.45,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:dx_die_1",
+   "name_en": "Sonic",
+   "name_zh": "",
+   "description_zh": "DX 的死亡演出形态之一。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:dx_die_2",
+   "name_en": "Sonic",
+   "name_zh": "",
+   "description_zh": "DX 的死亡演出形态之二。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:dx_rock",
+   "name_en": "Rock",
+   "name_zh": "",
+   "description_zh": "DX 投掷的岩石实体，带刷怪蛋但没有独立掉落。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:dx_bedrock_rock",
+   "name_en": "Bedrock",
+   "name_zh": "",
+   "description_zh": "DX 投掷的基岩实体，用于造成无法破坏的压迫感。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:eyx",
+   "name_en": "EYX",
+   "name_zh": "",
+   "description_zh": "EYX（SonicEDIT.ROM），模组正文列出的都市传说角色，带刷怪蛋。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.6,
+   "notes": "正文角色表；实体与刷怪蛋来自 jar。"
+  },
+  {
+   "mob_id": "sonicraft_demons:eyx_giant",
+   "name_en": "EYX",
+   "name_zh": "",
+   "description_zh": "EYX 的巨型形态，体型更大、压迫感更强。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.5,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:eyx_chase",
+   "name_en": "EYX",
+   "name_zh": "",
+   "description_zh": "EYX 的追逐形态，会紧追玩家；没有刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.45,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:fatal_error",
+   "name_en": "Fatal Error",
+   "name_zh": "",
+   "description_zh": "Fatal Error（FatalVerse），模组正文列出的角色，带刷怪蛋；jar 中另有专门的“ANOTHER FATAL ERROR.”进度文本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.65,
+   "notes": "正文角色表与 jar 进度文本。"
+  },
+  {
+   "mob_id": "sonicraft_demons:no_more_innocence",
+   "name_en": "ノー・モア・イノセンス",
+   "name_zh": "",
+   "description_zh": "ノー・モア・イノセンス（No More Innocence DX），模组正文列出的 FNF 曲目角色，带刷怪蛋。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.6,
+   "notes": "正文角色表；实体来自 jar。"
+  },
+  {
+   "mob_id": "sonicraft_demons:no_more_innocence_reach",
+   "name_en": "ノー・モア・イノセンス",
+   "name_zh": "",
+   "description_zh": "No More Innocence 的伸展/抓取形态。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.45,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:no_more_innocence_hallucination_tall",
+   "name_en": "ノー・モア・イノセンス",
+   "name_zh": "",
+   "description_zh": "No More Innocence 的高大幻觉形态。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:tails_doll_boss",
+   "name_en": "Tails Doll",
+   "name_zh": "",
+   "description_zh": "Tails Doll 的 Boss 形态；jar 中有“Win against Tails Doll”进度，说明它是一场可被击败的 Boss 战。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.7,
+   "notes": "正文列入 Tails Doll；Boss 战来自 jar 进度。"
+  },
+  {
+   "mob_id": "sonicraft_demons:tails_doll_neutral",
+   "name_en": "Tails Doll",
+   "name_zh": "",
+   "description_zh": "Tails Doll 的中立形态，平时不会主动攻击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.5,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:tails_doll_tamed",
+   "name_en": "Tails Doll",
+   "name_zh": "",
+   "description_zh": "被驯服的 Tails Doll，会跟随玩家并协助战斗。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.5,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:tails_doll_evil",
+   "name_en": "Tails Doll",
+   "name_zh": "",
+   "description_zh": "Tails Doll 的邪恶形态，会主动攻击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.5,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:tails_doll_blackout",
+   "name_en": "Tails Doll",
+   "name_zh": "",
+   "description_zh": "Tails Doll 的停电/黑暗事件形态，伴随灯光熄灭出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.5,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:tails_doll_sitting",
+   "name_en": "Tails Doll",
+   "name_zh": "",
+   "description_zh": "坐着的 Tails Doll，用于场景演出。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:sink",
+   "name_en": "Sonic",
+   "name_zh": "",
+   "description_zh": "Friendship Sink（出自 Below The Depths FNF 模组）的 Sonic 形态，模组正文将其列入角色表。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.6,
+   "notes": "正文角色表；实体来自 jar。"
+  },
+  {
+   "mob_id": "sonicraft_demons:sink_floating",
+   "name_en": "Sonic",
+   "name_zh": "",
+   "description_zh": "Sink 的漂浮形态，没有刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.45,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:sink_ball",
+   "name_en": "Spike Ball Anchor",
+   "name_zh": "",
+   "description_zh": "Sink 的锚球（Spike Ball Anchor），作为其攻击物或场景部件存在。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:needlemouse_boss",
+   "name_en": "Sarah",
+   "name_zh": "",
+   "description_zh": "Needlem0use/Sarah 的 Boss 形态；模组正文列入了 Needlem0use 这一都市传说。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.6,
+   "notes": "正文角色表；Boss 形态由实体名确认。"
+  },
+  {
+   "mob_id": "sonicraft_demons:needlemouse_and_luther",
+   "name_en": "Sarah",
+   "name_zh": "",
+   "description_zh": "Needlem0use 中 Sarah 与 Luther 同时出场的演出实体。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.45,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:needlemouse_defeated",
+   "name_en": "Sarah",
+   "name_zh": "",
+   "description_zh": "Needlem0use 被击败后的演出实体。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:sarah",
+   "name_en": "Sarah",
+   "name_zh": "",
+   "description_zh": "Needlem0use 故事中的 Sarah，带多个形态（Boss、被击败、与 Luther 同场）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.55,
+   "notes": "正文列入 Needlem0use；Sarah 为 jar 内名称。"
+  },
+  {
+   "mob_id": "sonicraft_demons:sunky",
+   "name_en": "Sunky  [P]",
+   "name_zh": "",
+   "description_zh": "搞笑角色 Sunky，名称带 [P] 标记，属于被动/趣味实体，带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.45,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:kolossos",
+   "name_en": "Kolossos [P]",
+   "name_zh": "",
+   "description_zh": "巨型敌人 Kolossos，jar 中有专门的冲撞伤害类型“kolossos_charge_hit_damage”，会冲锋撞击玩家。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.55,
+   "notes": "冲撞行为由 jar 的死亡信息文本确认。"
+  },
+  {
+   "mob_id": "sonicraft_demons:pace",
+   "name_en": "Pace",
+   "name_zh": "",
+   "description_zh": "Pace，SoniCraft Demons 中的角色实体，带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:paceling",
+   "name_en": "Paceling",
+   "name_zh": "",
+   "description_zh": "Pace 的幼体/小型形态 Paceling。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:pace_infected",
+   "name_en": "Pace",
+   "name_zh": "",
+   "description_zh": "被感染的 Pace 形态（显示名为乱码效果的 Pace）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:pace_dream_bender",
+   "name_en": "Dream-Bender",
+   "name_zh": "",
+   "description_zh": "Pace 的 Dream-Bender（梦境扭曲者）形态，带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.45,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:pace_dream_bender_transformation",
+   "name_en": "Pace",
+   "name_zh": "",
+   "description_zh": "Pace 变为 Dream-Bender 的变身演出实体。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:pace_dream_bender_shadow_clone",
+   "name_en": "Pace",
+   "name_zh": "",
+   "description_zh": "Dream-Bender 的暗影克隆体。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:the_shadow",
+   "name_en": "Shadow",
+   "name_zh": "",
+   "description_zh": "名为 Shadow 的乱码显示实体，可能与 Pace 的梦境线相关。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.35,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:brains",
+   "name_en": "Brains",
+   "name_zh": "",
+   "description_zh": "Brains，僵尸状敌人之一，带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:brawn",
+   "name_en": "Brawn",
+   "name_zh": "",
+   "description_zh": "Brawn，与 Brains 成对的强壮敌人，带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:burning_buzz_bomber",
+   "name_en": "Burning Buzz Bomber",
+   "name_zh": "",
+   "description_zh": "燃烧版 Buzz Bomber（经典黄蜂 Badnik），带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.45,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:burning_crabmeat",
+   "name_en": "Burning Crabmeat",
+   "name_zh": "",
+   "description_zh": "燃烧版 Crabmeat（经典螃蟹 Badnik），带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.45,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:burning_motobug",
+   "name_en": "Burning Motobug",
+   "name_zh": "",
+   "description_zh": "燃烧版 Motobug（经典轮式 Badnik），带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.45,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:hyudoro",
+   "name_en": "Hyudoro",
+   "name_zh": "",
+   "description_zh": "Hyudoro，Sonic CD 中的幽灵敌人，jar 内有多个动画变体，带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.45,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:furnace_metal_sonic",
+   "name_en": "Furnace Droid S-93",
+   "name_zh": "",
+   "description_zh": "Furnace Droid S-93，可由玩家制作（jar 进度“Create Furnace Metal Sonic”），带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.5,
+   "notes": "制作方式来自 jar 进度文本。"
+  },
+  {
+   "mob_id": "sonicraft_demons:furnace_metal_sonic_boss",
+   "name_en": "Furnace Metal Sonic",
+   "name_zh": "",
+   "description_zh": "Furnace Metal Sonic 的 Boss 形态，带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.5,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:r_car",
+   "name_en": "R-Car",
+   "name_zh": "",
+   "description_zh": "R-Car：载具/车辆形态的实体，带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:sea",
+   "name_en": "Sea",
+   "name_zh": "",
+   "description_zh": "名为 Sea 的实体，带刷怪蛋；模组正文没有单独说明。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.35,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:shells",
+   "name_en": "Shells",
+   "name_zh": "",
+   "description_zh": "名为 Shells 的实体，带刷怪蛋，可能与 Sea 同属海洋场景。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.35,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:luna",
+   "name_en": "Luna",
+   "name_zh": "",
+   "description_zh": "Luna：以 Sonic 系列角色命名的实体，带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.35,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:mazin",
+   "name_en": "Mazin",
+   "name_zh": "",
+   "description_zh": "Mazin：带刷怪蛋的实体，具体行为资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.35,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:patches",
+   "name_en": "Patches",
+   "name_zh": "",
+   "description_zh": "Patches：带刷怪蛋的实体，具体行为资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.35,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:rosy",
+   "name_en": "Rosy",
+   "name_zh": "",
+   "description_zh": "Rosy：以 Amy Rose 的经典名命名的实体，带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.35,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:knuckles_player",
+   "name_en": "Knuckles",
+   "name_zh": "",
+   "description_zh": "以玩家模型呈现的 Knuckles 角色实体，带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:tails_player",
+   "name_en": "Tails",
+   "name_zh": "",
+   "description_zh": "以玩家模型呈现的 Tails 角色实体，带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:soul_amy_rose",
+   "name_en": "Amy Rose",
+   "name_zh": "",
+   "description_zh": "Amy Rose 的灵魂形态，显示名带乱码，没有刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.35,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:soul_cream",
+   "name_en": "Cream",
+   "name_zh": "",
+   "description_zh": "Cream 的灵魂形态，显示名带乱码，没有刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.35,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:soul_knuckles",
+   "name_en": "Knuckles",
+   "name_zh": "",
+   "description_zh": "Knuckles 的灵魂形态，显示名带乱码。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.35,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:soul_tails",
+   "name_en": "Tails",
+   "name_zh": "",
+   "description_zh": "Tails 的灵魂形态，显示名带乱码，带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.35,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:soul_piglin",
+   "name_en": "Piglin",
+   "name_zh": "",
+   "description_zh": "猪灵的灵魂形态，显示名带乱码。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.35,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:soul_villager",
+   "name_en": "Villager",
+   "name_zh": "",
+   "description_zh": "村民的灵魂形态，显示名带乱码。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.35,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:soul_ghost",
+   "name_en": "Soul",
+   "name_zh": "",
+   "description_zh": "通用灵魂/幽灵形态，显示名带乱码。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.35,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:end_sonic",
+   "name_en": "Sonic",
+   "name_zh": "",
+   "description_zh": "末地场景中的 Sonic 形态，显示名带乱码，带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:end_sonic_boss",
+   "name_en": "Sonic",
+   "name_zh": "",
+   "description_zh": "末地 Sonic 的 Boss 形态，显示名带乱码，带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  },
+  {
+   "mob_id": "sonicraft_demons:sonic_ghost",
+   "name_en": "Sonic",
+   "name_zh": "",
+   "description_zh": "Sonic 的幽灵形态，没有刷怪蛋，属于惊吓演出实体。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sonicraft-demons",
+   "confidence": 0.4,
+   "notes": "模组正文未给出该角色的数值；信息来自 jar 的实体注册、刷怪蛋与命名。资料有限。"
+  }
+ ]
+}

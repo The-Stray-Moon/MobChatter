@@ -1,0 +1,207 @@
+{
+ "rank": 112,
+ "mod": "Evil Hunter",
+ "slug": "evil-hunter",
+ "project_id": "3nxF3zrJ",
+ "source_url": "https://modrinth.com/mod/evil-hunter",
+ "jar": "https://cdn.modrinth.com/data/3nxF3zrJ/versions/e17F4aN8/evilhunter-3.0.jar",
+ "jar_size": 227491433,
+ "modid": "evilhunter",
+ "entity_count": 24,
+ "mob_count": 22,
+ "entities": [
+  {
+   "key": "entity.evilhunter.cannibal_pig",
+   "id": "cannibal_pig",
+   "en": "Cannibal Pig",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.evilhunter.crying_woman",
+   "id": "crying_woman",
+   "en": "Crying Woman",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.evilhunter.dimension_hunter",
+   "id": "dimension_hunter",
+   "en": "Dimension Hunter",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.evilhunter.doppelganger",
+   "id": "doppelganger",
+   "en": "Doppelgänger",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.evilhunter.error",
+   "id": "error",
+   "en": "Error",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.evilhunter.evil_hunter",
+   "id": "evil_hunter",
+   "en": "Evil Hunter",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.evilhunter.flying_head",
+   "id": "flying_head",
+   "en": "Flying Head",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.evilhunter.hunter",
+   "id": "hunter",
+   "en": "Hunter",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.evilhunter.evil_hunter_shadow",
+   "id": "evil_hunter_shadow",
+   "en": "Hunter's Shadow",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.evilhunter.laser",
+   "id": "laser",
+   "en": "Laser",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.evilhunter.lift",
+   "id": "lift",
+   "en": "Lift",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.evilhunter.moving_platform",
+   "id": "moving_platform",
+   "en": "Moving Platform",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.evilhunter.twix_peeker",
+   "id": "twix_peeker",
+   "en": "Peeking Figure",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.evilhunter.final_boss",
+   "id": "final_boss",
+   "en": "Pg-00Z5",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.evilhunter.ritual_item",
+   "id": "ritual_item",
+   "en": "Ritual Offering",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.evilhunter.saver",
+   "id": "saver",
+   "en": "Saver",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.evilhunter.severed_part",
+   "id": "severed_part",
+   "en": "Severed Limb",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.evilhunter.soul",
+   "id": "soul",
+   "en": "Soul",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.evilhunter.sphere",
+   "id": "sphere",
+   "en": "Sphere",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.evilhunter.stalker_part",
+   "id": "stalker_part",
+   "en": "Stalker",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.evilhunter.twix_stalker",
+   "id": "twix_stalker",
+   "en": "Stalking Figure",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.evilhunter.hunter_follow",
+   "id": "hunter_follow",
+   "en": "Stalking Hunter",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.evilhunter.void_chaser",
+   "id": "void_chaser",
+   "en": "Void Chaser",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.evilhunter.watcher",
+   "id": "watcher",
+   "en": "Watcher",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  }
+ ],
+ "note": "jar 完整下载超时（227MB，共享带宽下约 100KB/s），改用 HTTP Range 只读取 assets/evilhunter/lang/en_us.json、META-INF/mods.toml 与 zip 目录；jar 内无 zh_cn.json，故 zh 全为空；无 loot_tables/entities 文件。"
+}

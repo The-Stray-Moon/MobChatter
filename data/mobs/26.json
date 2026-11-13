@@ -1,0 +1,87 @@
+{
+ "rank": 26,
+ "mod": "The Bumblezone - NeoForge/Forge",
+ "mod_url": "https://modrinth.com/mod/the-bumblezone",
+ "mobs": [
+  {
+   "mob_id": "the_bumblezone:bee_queen",
+   "name_en": "Bee Queen",
+   "name_zh": "蜜蜂女王",
+   "description_zh": "模组正文提到，玩家可从某些结构中获得特殊的王座定位蜜糖指南针，借此找到居住在王座尖柱里的蜜蜂女王。她体型巨大且为被动，可用手持物品或丢在地上的物品与其交易换取奖励，被激怒后会不断召唤蜜蜂反击。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-bumblezone",
+   "confidence": 0.85,
+   "notes": "正文仅提及指南针指向她；交易与反击细节补充自官方 wiki Entities 页"
+  },
+  {
+   "mob_id": "the_bumblezone:beehemoth",
+   "name_en": "Beehemoth",
+   "name_zh": "巨蜂",
+   "description_zh": "体型巨大的蜜蜂，在蜜蜂领域中稀有自然生成，也会出现在部分结构里，可用蜂蜜桶、蜂蜜瓶等可喂蜜蜂的食物逐步驯服。驯服后可装上鞍骑乘飞行（空格上升、Caps Lock 下降），喂食与骑乘会积累友好度使其飞得更快、生命上限更高；受伤会扣友好度，扣光后会拒绝被骑乘。",
+   "source": "wiki",
+   "source_url": "https://github.com/TelepathicGrunt/Bumblezone/wiki/Entities-%F0%9F%90%BE",
+   "confidence": 0.85,
+   "notes": "取自官方 wiki Entities 页；jar 中另有专属刷怪蛋与掉落表 beehemoth"
+  },
+  {
+   "mob_id": "the_bumblezone:beehemoth_queen",
+   "name_en": "Queen Beehemoth",
+   "name_zh": "巨蜂女王",
+   "description_zh": "巨蜂的友好度达到 1000 点后进化而成的形态，能以最高速度飞行。喂食蜂王浆瓶可加 250 点友好度，蜂王浆桶则直接补满 1000 点。",
+   "source": "wiki",
+   "source_url": "https://github.com/TelepathicGrunt/Bumblezone/wiki/Entities-%F0%9F%90%BE",
+   "confidence": 0.8,
+   "notes": "进化条件取自官方 wiki Entities 页；jar 中有独立的实体与中文名"
+  },
+  {
+   "mob_id": "the_bumblezone:cosmic_crystal_entity",
+   "name_en": "Cosmic Crystal Entity",
+   "name_zh": "宇宙水晶实体",
+   "description_zh": "白色永恒圣所事件中的首领，会围绕精华方块一次生成 6 个与玩家战斗，默认每个有 60 点生命（可用 cosmicCrystalHealth 配置修改）。它对每次伤害通常只吃 1 点，高额伤害或近战直击最多 2 点；激光攻击会削去玩家最大生命值与当前生命值中较高者的四分之一。",
+   "source": "wiki",
+   "source_url": "https://github.com/TelepathicGrunt/Bumblezone/wiki/Entities-%F0%9F%90%BE",
+   "confidence": 0.85,
+   "notes": "取自官方 wiki Entities 页；生命值数值与配置项以 wiki 描述为准"
+  },
+  {
+   "mob_id": "the_bumblezone:honey_slime",
+   "name_en": "Honey Slime",
+   "name_zh": "蜂蜜史莱姆",
+   "description_zh": "在蜜蜂领域各处以及蜂巢育雏方块旁生成，平时被动，被击中后会追着攻击者一阵，同类被杀也会激怒附近的蜂蜜史莱姆。用玻璃瓶右键可取蜂蜜瓶并激怒它，可用糖引诱并与同类繁殖；成年个体死亡会分裂成 2 至 4 只幼年蜂蜜史莱姆（若已被取过蜜则分裂成小普通史莱姆）。1.20 起它和岩浆怪一样完全免疫摔落伤害，青蛙会吃掉它。",
+   "source": "wiki",
+   "source_url": "https://github.com/TelepathicGrunt/Bumblezone/wiki/Entities-%F0%9F%90%BE",
+   "confidence": 0.85,
+   "notes": "取自官方 wiki Entities 页；jar 中有专属刷怪蛋与掉落表 honey_slime"
+  },
+  {
+   "mob_id": "the_bumblezone:rootmin",
+   "name_en": "Rootmin",
+   "name_zh": "根蟲",
+   "description_zh": "伪装成顶着花的草方块的敌对生物，多见于花海生物群系或特定结构，玩家或蜘蛛靠近时现形并投掷泥球攻击。若玩家穿戴至少一件蜜蜂盔甲或蜜蜂主题饰品，它便不会攻击，反而会好奇地凑近查看；可用花右键更换它头上的花，用命名牌可半驯服它，之后它不再攻击主人并会主动攻击周围怪物。",
+   "source": "wiki",
+   "source_url": "https://github.com/TelepathicGrunt/Bumblezone/wiki/Entities-%F0%9F%90%BE",
+   "confidence": 0.85,
+   "notes": "取自官方 wiki Entities 页；jar 中有专属刷怪蛋与掉落表 rootmin"
+  },
+  {
+   "mob_id": "the_bumblezone:sentry_watcher",
+   "name_en": "Sentry Watcher",
+   "name_zh": "哨兵守卫",
+   "description_zh": "由远古蜡构成的巨大魔法雕像，常守卫着永恒圣所，本身无法被伤害也无法被杀死，被带出圣所或被杀时会自毁。任何非蜜蜂生物进入它的视野，它就会加速冲撞碾压目标，冲得越快伤害越高，并会砸穿路上的脆弱方块；玩家穿戴蜜蜂盔甲或饰品可减免部分伤害。",
+   "source": "wiki",
+   "source_url": "https://github.com/TelepathicGrunt/Bumblezone/wiki/Entities-%F0%9F%90%BE",
+   "confidence": 0.85,
+   "notes": "取自官方 wiki Entities 页；它是继承 Entity 的非生物实体，刷怪蛋为合成品"
+  },
+  {
+   "mob_id": "the_bumblezone:variant_bee",
+   "name_en": "Bee Variant",
+   "name_zh": "蜜蜂变种",
+   "description_zh": "与蜜蜂行为完全相同的变种蜜蜂，目前有 16 种皮肤，在蜜蜂领域中凡普通蜜蜂能生成的地方都可能出现。与同类繁殖时后代会继承父母的变种外观，也能与原版蜜蜂繁殖，后代随机为普通蜜蜂或变种蜜蜂。",
+   "source": "wiki",
+   "source_url": "https://github.com/TelepathicGrunt/Bumblezone/wiki/Entities-%F0%9F%90%BE",
+   "confidence": 0.85,
+   "notes": "取自官方 wiki Entities 页；jar 中实体名为 Bee Variant，中文名蜜蜂变种"
+  }
+ ]
+}

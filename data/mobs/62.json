@@ -1,0 +1,917 @@
+{
+ "rank": 62,
+ "mod": "More Critters",
+ "mod_url": "https://modrinth.com/mod/more-critters",
+ "mobs": [
+  {
+   "mob_id": "more_critters:amalgam",
+   "name_en": "Amalgam",
+   "name_zh": "",
+   "description_zh": "融合体（Amalgam）是会低吼并主动攻击玩家的生物；击败后掉落腐肉、骨头、胡萝卜与马铃薯。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "行为来自 jar 音效表（idle=groans、attack），掉落取自战利品表。"
+  },
+  {
+   "mob_id": "more_critters:ancient_skeleton",
+   "name_en": "Ancient Skeleton",
+   "name_zh": "",
+   "description_zh": "远古骷髅：对倒在地上的它先倒“死亡炖菜”再倒炼狱混合物，会转变成更致命的怖菇；倒“生命炖菜”则会变成可驯服的夜菇。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.6,
+   "notes": "转化流程来自 jar 进度 frightshroom_spawn / tame_nightshroom。"
+  },
+  {
+   "mob_id": "more_critters:anniveteran",
+   "name_en": "Anniveteran",
+   "name_zh": "",
+   "description_zh": "一周年纪念生物 Anniveteran，掉落表异常庞大，包含钻石、附魔金苹果、蛋糕、唱片与多种异兽物品，属于活动型奖励怪。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.55,
+   "notes": "掉落取自 jar 战利品表；行为资料有限。"
+  },
+  {
+   "mob_id": "more_critters:armossillo",
+   "name_en": "Armossillo",
+   "name_zh": "",
+   "description_zh": "覆苔犰狳：在繁茂洞穴出现，可用孢子花繁殖、再用骨粉催出苔藓团；喂发光浆果会打喷嚏喷出发光黏液，用来做黏液棒（Ooze Rod）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.65,
+   "notes": "来自 jar 进度 encounter_armossillo / breed_armossillo / craft_ooze_rod。"
+  },
+  {
+   "mob_id": "more_critters:avoider",
+   "name_en": "Avoider",
+   "name_zh": "",
+   "description_zh": "避鱼：会躲开几乎一切的鱼形生物，只有同类之间不回避；可装进桶里，掉落避鱼尾，尾巴能做成推进泵。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.6,
+   "notes": "来自 jar 进度 catch_avoider / breed_avoider / craft_booster_pump。"
+  },
+  {
+   "mob_id": "more_critters:avoider_fry",
+   "name_en": "Avoider Fry",
+   "name_zh": "",
+   "description_zh": "避鱼苗，幼体形态，带刷怪蛋，没有独立掉落。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.4,
+   "notes": "资料有限。"
+  },
+  {
+   "mob_id": "more_critters:baby_armossillo",
+   "name_en": "Baby Armossillo",
+   "name_zh": "",
+   "description_zh": "覆苔犰狳的幼体，带刷怪蛋，没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.4,
+   "notes": "仅确认幼体实体与刷怪蛋；资料有限。"
+  },
+  {
+   "mob_id": "more_critters:balloon_rat",
+   "name_en": "Balloon Rat",
+   "name_zh": "",
+   "description_zh": "气球鼠：用蜘蛛眼驯服，可在治疗与攻击模式间切换；喂不同的毒纸杯蛋糕会让它使用对应毒素，身体会充气与放气。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.65,
+   "notes": "来自 jar 进度 tame_balloon_rat / make_all_cupcakes 与 inflate/deflate 音效。"
+  },
+  {
+   "mob_id": "more_critters:blubberfish",
+   "name_en": "Blubberfish",
+   "name_zh": "",
+   "description_zh": "饱脂鱼：生活在温暖深海，喂彩针糖会膨胀爆裂；离开水会爆炸。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.6,
+   "notes": "来自 jar 进度 encounter_blubberfish / explode_blubberfish 与 explode 音效。"
+  },
+  {
+   "mob_id": "more_critters:blubberfish_fry",
+   "name_en": "Blubberfish Fry",
+   "name_zh": "",
+   "description_zh": "饱脂鱼苗，幼体形态，带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.4,
+   "notes": "资料有限。"
+  },
+  {
+   "mob_id": "more_critters:bomb_jelly",
+   "name_en": "Bomb Jelly",
+   "name_zh": "",
+   "description_zh": "炸弹水母：会爆炸的水母，在它爆炸时靠近可完成“What the Scallop!?”进度；掉落爆炸凝胶。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.6,
+   "notes": "来自 jar 进度 explode_bomb_jelly、explode 音效与掉落表。"
+  },
+  {
+   "mob_id": "more_critters:bomb_jelly_small",
+   "name_en": "Bomb Jelly",
+   "name_zh": "",
+   "description_zh": "小型炸弹水母，爆炸并掉落爆炸凝胶。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "体型由注册名与掉落表确认。"
+  },
+  {
+   "mob_id": "more_critters:bomb_jelly_large",
+   "name_en": "Bomb Jelly",
+   "name_zh": "",
+   "description_zh": "大型炸弹水母，爆炸并掉落爆炸凝胶。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "体型由注册名与掉落表确认。"
+  },
+  {
+   "mob_id": "more_critters:bomb_jelly_medium",
+   "name_en": "Bomb Jelly",
+   "name_zh": "",
+   "description_zh": "中型炸弹水母，爆炸并掉落爆炸凝胶。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "体型由注册名与掉落表确认。"
+  },
+  {
+   "mob_id": "more_critters:bouncelizard",
+   "name_en": "Bouncelizard",
+   "name_zh": "",
+   "description_zh": "弹弹蜥蜴：会小跳与大跳，睡觉时会打呼噜；丛林里的弹弹莓与它相关。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自 jar 音效（bounce、big_bounce、snore）与进度 find_bounceberry；资料有限。"
+  },
+  {
+   "mob_id": "more_critters:bunbug",
+   "name_en": "Bunbug",
+   "name_zh": "",
+   "description_zh": "圆面包虫是温顺的节肢动物，沙漠地表很常见，村民也会出售它的卵。可用枯萎的灌木喂食繁殖，一次能繁殖出 2 只幼体；成年个体会定期蜕皮并掉落圆面包虫壳。生命值 7，击败掉落生圆面包虫肉 2–4 个。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/889846.html",
+   "confidence": 0.8,
+   "notes": "介绍与数值取自 MC百科条目 889846（含《异兽图鉴》附言），并与 jar 掉落表一致。"
+  },
+  {
+   "mob_id": "more_critters:baby_bunbug",
+   "name_en": "Bunbug",
+   "name_zh": "",
+   "description_zh": "圆面包虫幼体，生命值 3 点，没有掉落。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/889847.html",
+   "confidence": 0.75,
+   "notes": "数值取自 MC百科条目 889847；幼体掉落为空。"
+  },
+  {
+   "mob_id": "more_critters:carrybug",
+   "name_en": "Carrybug",
+   "name_zh": "",
+   "description_zh": "载运虫：与流浪收藏家的篷车绑定生成，一次只生成一只，生命值 35；可以载物，也可以骑乘。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/889845.html",
+   "confidence": 0.75,
+   "notes": "数值取自 MC百科条目 889845，载物/骑乘来自模组正文。"
+  },
+  {
+   "mob_id": "more_critters:carrybug_no_saddle",
+   "name_en": "Carrybug",
+   "name_zh": "",
+   "description_zh": "未装鞍的载运虫变体（注册名 carrybug_no_saddle），与带鞍版本同类，仅外观与是否配鞍不同。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.55,
+   "notes": "依据 jar 中两个载运虫实体的注册名与同一套纹理变种；资料有限。"
+  },
+  {
+   "mob_id": "more_critters:chattering_teeth",
+   "name_en": "Chattering Teeth",
+   "name_zh": "",
+   "description_zh": "会咯咯作响的牙齿装置：用虚金（Ectometal）制作，放下后会持续发出敲击声，可被破坏。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.55,
+   "notes": "来自 jar 进度 craft_chattering_teeth 与 start/end/step 音效。"
+  },
+  {
+   "mob_id": "more_critters:cobble",
+   "name_en": "Cobble",
+   "name_zh": "",
+   "description_zh": "Cobble 是小型被动异宠（Critterling），只能在流浪收藏家篷车的箱子里找到，可装进异宠袋携带，并会随唱片跳舞。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.7,
+   "notes": "正文对 Critterlings 的描述；Cobble 之名来自 jar 实体与异宠袋条目。"
+  },
+  {
+   "mob_id": "more_critters:corpse_captain",
+   "name_en": "Corpse Captain",
+   "name_zh": "",
+   "description_zh": "死尸船长：死尸海盗团的首领，会治疗同伴、发出警戒、说话与唱歌；击杀它可获得宝藏钥匙。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.6,
+   "notes": "来自 jar 音效（alert/heal/sing/speech）与进度 kill_captain。"
+  },
+  {
+   "mob_id": "more_critters:corpse_crew",
+   "name_en": "Corpse Crew",
+   "name_zh": "",
+   "description_zh": "死尸船员：海盗团的普通成员，击杀任意一员可完成“Anti-Piracy!”进度，掉落鱼骨、破布与虚金。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.55,
+   "notes": "来自 jar 进度与战利品表。"
+  },
+  {
+   "mob_id": "more_critters:corpse_lookout",
+   "name_en": "Corpse Lookout",
+   "name_zh": "",
+   "description_zh": "死尸瞭望员：会像马一样嘶鸣并吐出东西，击杀它有专门进度。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自 jar 音效（neighs/spit）与进度 kill_corpse_lookout。"
+  },
+  {
+   "mob_id": "more_critters:corpse_mate",
+   "name_en": "Corpse Mate",
+   "name_zh": "",
+   "description_zh": "死尸伙友：近战海盗，会挥砍、说话与唱歌，掉落弯刀（Cutlass）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.6,
+   "notes": "来自 jar 音效、进度 obtain_cutlass 与战利品表。"
+  },
+  {
+   "mob_id": "more_critters:tamed_corpse_parrot",
+   "name_en": "Corpse Parrot",
+   "name_zh": "",
+   "description_zh": "被驯服的死尸鹦鹉：由船长的核心制作，会跟随玩家。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.55,
+   "notes": "来自 jar 进度 craft_corpse_parrot；资料有限。"
+  },
+  {
+   "mob_id": "more_critters:corpse_parrot",
+   "name_en": "Corpse Parrot",
+   "name_zh": "",
+   "description_zh": "死尸鹦鹉：会啄击、投掷东西并学人说话；可用船长的核心制作出驯服版本。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.6,
+   "notes": "来自 jar 音效与进度 craft_corpse_parrot。"
+  },
+  {
+   "mob_id": "more_critters:corpse_quartermaster",
+   "name_en": "Corpse Quartermaster",
+   "name_zh": "",
+   "description_zh": "死尸军需官：会撕咬、投掷物品并说话的海盗成员。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.55,
+   "notes": "来自 jar 音效（bite/throw/speech）。"
+  },
+  {
+   "mob_id": "more_critters:corpse_tank",
+   "name_en": "Corpse Tank",
+   "name_zh": "",
+   "description_zh": "死尸重坦：海盗团的重型成员，会开炮射击；在它开火前击杀可完成“Fast Acting”进度。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.6,
+   "notes": "来自 jar 音效（shoot）与进度 kill_tank_before_shooting。"
+  },
+  {
+   "mob_id": "more_critters:creeblossom",
+   "name_en": "Creeblossom",
+   "name_zh": "",
+   "description_zh": "绽花苞：用 Blossombush 在夜间开放后出现，是友好生物，会攻击敌人并在引爆前发出嘶响，用来保护玩家。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.65,
+   "notes": "来自 jar 进度 craft_blossombush 与 primed/explode 音效。"
+  },
+  {
+   "mob_id": "more_critters:critter_eater",
+   "name_en": "Critter Eater",
+   "name_zh": "",
+   "description_zh": "异宠吞噬兽（Critter Eater）：移动与进食都有专门音效，jar 内没有独立战利品表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.45,
+   "notes": "来自 jar 音效（eats/moves）；资料有限。"
+  },
+  {
+   "mob_id": "more_critters:cubefrog",
+   "name_en": "Cubefrog",
+   "name_zh": "",
+   "description_zh": "方块蛙：会呱呱叫、跳跃的异宠，来自丛林篷车。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.55,
+   "notes": "来自 jar 图鉴提示“Found in Jungle Wagon”与 croaks/jumps 音效。"
+  },
+  {
+   "mob_id": "more_critters:custodian",
+   "name_en": "Custodian",
+   "name_zh": "",
+   "description_zh": "监管者：会开合外壳并发射激光的机械守卫，可用监管者核心制作；远古城市版本为远古监管者。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.6,
+   "notes": "来自 jar 音效（laser_start/laser_shoot/open/close）与进度 create_custodian / awaken_custodian。"
+  },
+  {
+   "mob_id": "more_critters:ancient_custodian",
+   "name_en": "Custodian",
+   "name_zh": "",
+   "description_zh": "远古监管者：从远古城市苏醒的古代机械守卫，会发射激光。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.6,
+   "notes": "来自 jar 进度 awaken_custodian 与监管者音效。"
+  },
+  {
+   "mob_id": "more_critters:dominic",
+   "name_en": "Dominic",
+   "name_zh": "",
+   "description_zh": "Dominic：会呜咽的小型异宠，来自封闭的异宠袋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自 jar 图鉴提示与 whines 音效。"
+  },
+  {
+   "mob_id": "more_critters:dripper",
+   "name_en": "Dripper",
+   "name_zh": "",
+   "description_zh": "滴水石猴：在滴水石洞穴成群出现，会跳跃并用爪子攻击；掉落滴水兽残骸，可制作墙面具与 Slashklub。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.65,
+   "notes": "来自 jar 进度 encounter_dripper / craft_dripstone_wall_mask / craft_slashklub 与 leaps/claws 音效。"
+  },
+  {
+   "mob_id": "more_critters:dunger",
+   "name_en": "Dunger",
+   "name_zh": "",
+   "description_zh": "Dunger：小型异宠，来自热带草原篷车。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自 jar 图鉴提示“Found in Savannah Wagon”。"
+  },
+  {
+   "mob_id": "more_critters:echo",
+   "name_en": "Echo",
+   "name_zh": "",
+   "description_zh": "Echo：带刷怪蛋的回声类生物，没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.4,
+   "notes": "仅确认实体与刷怪蛋；资料有限。"
+  },
+  {
+   "mob_id": "more_critters:large_echo",
+   "name_en": "Echo",
+   "name_zh": "",
+   "description_zh": "大型 Echo 变体，带刷怪蛋，没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.4,
+   "notes": "资料有限。"
+  },
+  {
+   "mob_id": "more_critters:evolite_maw",
+   "name_en": "Evolite Maw",
+   "name_zh": "",
+   "description_zh": "Evolite Maw：与 Evolite 进化机制相关的实体，带刷怪蛋；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.4,
+   "notes": "依据实体名与进化系统；资料有限。"
+  },
+  {
+   "mob_id": "more_critters:evolutioner",
+   "name_en": "Evolutioner",
+   "name_zh": "",
+   "description_zh": "进化者：会吟唱并把同伴或异宠转化为进化形态，掉落封闭异宠袋与 Evolite。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.6,
+   "notes": "来自 jar 进度 evolve_critterling 与 transform 音效、战利品表。"
+  },
+  {
+   "mob_id": "more_critters:expy",
+   "name_en": "Expy",
+   "name_zh": "",
+   "description_zh": "Expy：小型异宠，来自沼泽篷车。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自 jar 图鉴提示“Found in Swamp Wagon”。"
+  },
+  {
+   "mob_id": "more_critters:flarg",
+   "name_en": "Flarg",
+   "name_zh": "",
+   "description_zh": "Flarg：小型异宠，来自废弃矿井。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自 jar 图鉴提示“Found in Abandoned Mine”。"
+  },
+  {
+   "mob_id": "more_critters:fresnoid",
+   "name_en": "Fresnoid",
+   "name_zh": "",
+   "description_zh": "Fresnoid：小型异宠，来自 Freshenge；会说话、打哈欠。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自 jar 图鉴提示与 talks/yawns 音效。"
+  },
+  {
+   "mob_id": "more_critters:frightshroom",
+   "name_en": "Frightshroom",
+   "name_zh": "",
+   "description_zh": "怖菇：对远古骷髅倒“死亡炖菜”再倒炼狱混合物后变成的致命蘑菇怪，会喷吐与爆裂；掉落 Mori Shroom、远古骨、真菌肉与再生之肉。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.65,
+   "notes": "来自 jar 进度 frightshroom_spawn、spit/burst 音效与掉落表。"
+  },
+  {
+   "mob_id": "more_critters:fungal_zombie",
+   "name_en": "Fungal Zombie",
+   "name_zh": "",
+   "description_zh": "真菌僵尸：被真菌感染的僵尸，能被真菌法杖等效果转化，掉落真菌肉。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.55,
+   "notes": "来自 jar 音效（transform）、掉落表与真菌法杖说明。"
+  },
+  {
+   "mob_id": "more_critters:gillmunch",
+   "name_en": "Gillmunch",
+   "name_zh": "",
+   "description_zh": "Gillmunch：小型异宠，来自幽灵船。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自 jar 图鉴提示“Found in Ghost Ship”。"
+  },
+  {
+   "mob_id": "more_critters:gravedigger",
+   "name_en": "Gravedigger",
+   "name_zh": "",
+   "description_zh": "掘墓兽：在洞穴出现，会挖地、从地下钻出、嗅探与咆哮；掉落掘墓兽附肢，可制作 Grave Brush。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.65,
+   "notes": "来自 jar 进度 encounter_gravedigger / craft_grave_brush 与 dig_down/dig_up/sniff 音效。"
+  },
+  {
+   "mob_id": "more_critters:small_heal_echo",
+   "name_en": "Heal Echo",
+   "name_zh": "",
+   "description_zh": "小型治疗回声，带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.4,
+   "notes": "资料有限。"
+  },
+  {
+   "mob_id": "more_critters:heal_echo",
+   "name_en": "Heal Echo",
+   "name_zh": "",
+   "description_zh": "治疗回声：会为周围生物提供治疗的回声实体。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.45,
+   "notes": "依据实体名与同类治疗变体；资料有限。"
+  },
+  {
+   "mob_id": "more_critters:iroball",
+   "name_en": "Iroball",
+   "name_zh": "",
+   "description_zh": "Iroball：可投掷的球，命中/使用后会生成真菌僵尸（创造模式物品）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.45,
+   "notes": "来自 jar 物品说明“Right click to spawn Fungal Zombie”。"
+  },
+  {
+   "mob_id": "more_critters:iropod",
+   "name_en": "Iropod",
+   "name_zh": "",
+   "description_zh": "铁足虫：会游泳、开壳/锁壳、蜕壳的水生甲虫，可用桶捕捉；蜕下的壳能做成铁足虫头盔。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.65,
+   "notes": "来自 jar 进度 bucket_iropod / craft_iropod_helmet 与 swims/locks/sheds 音效。"
+  },
+  {
+   "mob_id": "more_critters:black_iropod",
+   "name_en": "Iropod",
+   "name_zh": "",
+   "description_zh": "黑色铁足虫变体，行为与普通铁足虫相同，带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "依据实体注册名与同一套音效；资料有限。"
+  },
+  {
+   "mob_id": "more_critters:jelly_torpedo",
+   "name_en": "Jelly Torpedo",
+   "name_zh": "",
+   "description_zh": "水母鱼雷：可放置的水下武器，撞击后爆炸。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.55,
+   "notes": "来自 jar 进度 craft_jelly_torpedo 与 explode 音效。"
+  },
+  {
+   "mob_id": "more_critters:kelpire",
+   "name_en": "Kelpire",
+   "name_zh": "",
+   "description_zh": "害带：可用生饱脂鱼肉驯服，每次击杀后会打嗝吐出治疗气泡；掉落海带与害带卷。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.65,
+   "notes": "来自 jar 进度 tame_kelpire 与 burp 音效、掉落表。"
+  },
+  {
+   "mob_id": "more_critters:lightfly",
+   "name_en": "Lightfly",
+   "name_zh": "",
+   "description_zh": "Lightfly：会锁定目标的小型飞行生物，带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.4,
+   "notes": "来自 jar 的 target 音效；资料有限。"
+  },
+  {
+   "mob_id": "more_critters:mangotrice",
+   "name_en": "Mangotrice",
+   "name_zh": "",
+   "description_zh": "Mangotrice：会唱歌的生物，图鉴把它列在“Bouncelizard 的空中花园”一带。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自 jar 图鉴提示与 sings 音效；资料有限。"
+  },
+  {
+   "mob_id": "more_critters:mightshroom",
+   "name_en": "Mightshroom",
+   "name_zh": "",
+   "description_zh": "猛菇：会跳跃、啄击、跺地、尖叫并变换形态的蘑菇怪，击杀它有“Dead Again”进度；掉落 Mori Shroom、Vita Shroom、远古骨与真菌肉。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.65,
+   "notes": "来自 jar 音效（leap/stomp/peck/scream/transform）、进度 kill_mightshroom 与掉落表。"
+  },
+  {
+   "mob_id": "more_critters:mightshroom_echo",
+   "name_en": "Mightshroom Echo",
+   "name_zh": "",
+   "description_zh": "猛菇的回声形态，带刷怪蛋，没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.4,
+   "notes": "资料有限。"
+  },
+  {
+   "mob_id": "more_critters:mori_roots",
+   "name_en": "Mori Roots",
+   "name_zh": "",
+   "description_zh": "告死根须：会咬住并释放目标的根须；真菌法杖有几率让实体陷入 Mori Shroom Roots。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.55,
+   "notes": "来自 jar 音效（bite/release）与真菌法杖物品说明。"
+  },
+  {
+   "mob_id": "more_critters:mothkid",
+   "name_en": "Mothkid",
+   "name_zh": "",
+   "description_zh": "蛾童：会起飞、鸣叫的小型异宠，来自针叶林篷车。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自 jar 图鉴提示与 takes off/calls 音效。"
+  },
+  {
+   "mob_id": "more_critters:nauticrawl",
+   "name_en": "Nauticrawl",
+   "name_zh": "",
+   "description_zh": "航蠕螺：温暖海洋中的卷壳生物，会咬击、滚动与展开；掉落壳片与航蠕触手。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.6,
+   "notes": "来自 jar 进度 encounter_nauticrawl、roll/unroll 音效与掉落表。"
+  },
+  {
+   "mob_id": "more_critters:nervoid",
+   "name_en": "Nervoid",
+   "name_zh": "",
+   "description_zh": "虚空神经：末影人的神经系统被感染后重新活动的怪物，会斩击并附身/解除附身；掉落失落神经与虚空神经脑。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.65,
+   "notes": "来自 jar 进度 encounter_nervoid、possess 音效与掉落表。"
+  },
+  {
+   "mob_id": "more_critters:nightshroom",
+   "name_en": "Nightshroom",
+   "name_zh": "",
+   "description_zh": "夜菇：对远古骷髅倒生命炖菜再倒炼狱混合物后出现，可被驯服为宠物，会鸣叫与抖毛。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.6,
+   "notes": "来自 jar 进度 tame_nightshroom 与 calls/ruffles 音效。"
+  },
+  {
+   "mob_id": "more_critters:olmer",
+   "name_en": "Olmer",
+   "name_zh": "",
+   "description_zh": "Olmer：小型异宠，埋藏的航蠕螺雕像中找到。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自 jar 图鉴提示“Found in Buried Nauticrawl Statue”。"
+  },
+  {
+   "mob_id": "more_critters:opalcrab",
+   "name_en": "Opalcrab",
+   "name_zh": "",
+   "description_zh": "Opalcrab：小型异宠，来自海洋篷车。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自 jar 图鉴提示“Found in Ocean Wagon”。"
+  },
+  {
+   "mob_id": "more_critters:pink_monster",
+   "name_en": "Pink Monster",
+   "name_zh": "",
+   "description_zh": "粉色怪物：带刷怪蛋的粉色生物，jar 内没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.35,
+   "notes": "仅确认实体与刷怪蛋；资料有限。"
+  },
+  {
+   "mob_id": "more_critters:piranheed",
+   "name_en": "Piranheed",
+   "name_zh": "",
+   "description_zh": "食人鱼（Piranheed）：会散发臭味的鱼形异宠，来自女巫温室。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自 jar 图鉴提示与 stinks 音效；资料有限。"
+  },
+  {
+   "mob_id": "more_critters:plainswyrm",
+   "name_en": "Plainswyrm",
+   "name_zh": "",
+   "description_zh": "Plainswyrm：小型异宠，来自平原篷车。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自 jar 图鉴提示“Found in Plains Wagon”。"
+  },
+  {
+   "mob_id": "more_critters:ramchu",
+   "name_en": "Ramchu",
+   "name_zh": "",
+   "description_zh": "Ramchu：在地下含水层出现，会攻击并破壳；敲开它头上的石壳可取得 Ramchu 油脂。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.6,
+   "notes": "来自 jar 进度 encounter_ramchu / bottle_ramchu_oil 与 bust/oil 音效。"
+  },
+  {
+   "mob_id": "more_critters:ramchu_fry",
+   "name_en": "Ramchu Fry",
+   "name_zh": "",
+   "description_zh": "Ramchu 的幼体，带刷怪蛋，没有独立掉落。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.4,
+   "notes": "资料有限。"
+  },
+  {
+   "mob_id": "more_critters:rollball",
+   "name_en": "Rollball",
+   "name_zh": "",
+   "description_zh": "Rollball：会滚动与展开的球状生物，带刷怪蛋；jar 内没有独立战利品表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.45,
+   "notes": "来自 roll/unroll 音效与图鉴提示；对应关系不确定，资料有限。"
+  },
+  {
+   "mob_id": "more_critters:rot_zombie",
+   "name_en": "Rot Zombie",
+   "name_zh": "",
+   "description_zh": "腐烂僵尸：会生成并呻吟的僵尸变体，没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自 jar 音效（spawn/groans）与缺失的掉落表。"
+  },
+  {
+   "mob_id": "more_critters:scowl",
+   "name_en": "Scowl",
+   "name_zh": "",
+   "description_zh": "Scowl：会起飞、鸣叫的小型异宠，来自雪地篷车。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自 jar 图鉴提示与 takes off/calls 音效。"
+  },
+  {
+   "mob_id": "more_critters:shadelet",
+   "name_en": "Shadelet",
+   "name_zh": "",
+   "description_zh": "轻影：会尖叫与呜咽的小型异宠；喂任何含糖食物后，它会去惊吓怪物。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.6,
+   "notes": "来自 jar 进度 feed_shadelet 与 scream/whimpers 音效。"
+  },
+  {
+   "mob_id": "more_critters:shimmerwing",
+   "name_en": "Shimmerwing",
+   "name_zh": "",
+   "description_zh": "闪光飞蝶：会闪烁并给玩家“末地祝福”效果的友好生物。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.55,
+   "notes": "来自 jar 进度 get_ends_blessing 与 blesses 音效。"
+  },
+  {
+   "mob_id": "more_critters:shimmerworm",
+   "name_en": "Shimmerworm",
+   "name_zh": "",
+   "description_zh": "闪光蠕虫：可食用的蠕虫，吃它有专门进度；带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.45,
+   "notes": "来自 jar 进度 eat_shimmerworm；资料有限。"
+  },
+  {
+   "mob_id": "more_critters:shock_cube_small",
+   "name_en": "ShockCube",
+   "name_zh": "",
+   "description_zh": "小型 ShockCube，带刷怪蛋，没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.4,
+   "notes": "资料有限。"
+  },
+  {
+   "mob_id": "more_critters:shock_cube",
+   "name_en": "ShockCube",
+   "name_zh": "",
+   "description_zh": "ShockCube：方块状的电击生物，带刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.4,
+   "notes": "仅确认实体与刷怪蛋；资料有限。"
+  },
+  {
+   "mob_id": "more_critters:shriekbat",
+   "name_en": "Shriekbat",
+   "name_zh": "",
+   "description_zh": "尖啸蝙蝠：会尖叫并发出声呐的蝙蝠；掉落尖啸蝙蝠翼，可做抗尖啸汤与尖啸炸弹。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.6,
+   "notes": "来自 jar 音效（shriek/sonar）、进度 craft_shriek_bomb 与掉落表。"
+  },
+  {
+   "mob_id": "more_critters:snek",
+   "name_en": "Snek",
+   "name_zh": "",
+   "description_zh": "Snek：会嘶嘶叫的小型异宠，来自沙漠篷车。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自 jar 图鉴提示与 hisses 音效。"
+  },
+  {
+   "mob_id": "more_critters:snowflake_spider",
+   "name_en": "Snowflake Spider",
+   "name_zh": "",
+   "description_zh": "雪花蜘蛛：细长的蜘蛛，带寒霜咬击；掉落冻结线，可做冻结网袋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.6,
+   "notes": "来自 jar 进度 encounter_snowflake_spider / craft_web_sack 与掉落表。"
+  },
+  {
+   "mob_id": "more_critters:stalk",
+   "name_en": "Stalk",
+   "name_zh": "",
+   "description_zh": "Stalk：小型异宠，来自洞穴篷车。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自 jar 图鉴提示“Found in Cave Wagon”。"
+  },
+  {
+   "mob_id": "more_critters:stincarp",
+   "name_en": "Stincarp",
+   "name_zh": "",
+   "description_zh": "臭鲤鱼：会放电的鱼，可用瓶子收集它的电（Nikola's Wonderfish 进度）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.55,
+   "notes": "来自 jar 进度 get_electric_bottle 与 bottleo_electricity 物品。"
+  },
+  {
+   "mob_id": "more_critters:treeplet",
+   "name_en": "Treeplet",
+   "name_zh": "",
+   "description_zh": "树精幼体（Treeplet）：会旋转、吐东西并吱呀作响，遭遇它有“One Ticket Please!”进度。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.55,
+   "notes": "来自 jar 进度 encounter_treeplet 与 spin/spit 音效。"
+  },
+  {
+   "mob_id": "more_critters:treepling_middle",
+   "name_en": "Treepling (Bob)",
+   "name_zh": "",
+   "description_zh": "Treepling 的“Bob”部分（三段式树精之一），掉落怪异树皮与黑树脂团。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自 jar 实体与掉落表。"
+  },
+  {
+   "mob_id": "more_critters:treepling_bottom",
+   "name_en": "Treepling (Jeffrey)",
+   "name_zh": "",
+   "description_zh": "Treepling 的“Jeffrey”部分（三段式树精之一），掉落怪异树皮与黑树脂团。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自 jar 实体与掉落表。"
+  },
+  {
+   "mob_id": "more_critters:treepling_top",
+   "name_en": "Treepling (Michael)",
+   "name_zh": "",
+   "description_zh": "Treepling 的“Michael”部分（三段式树精之一），掉落怪异树皮与黑树脂团。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自 jar 实体与掉落表；三段结构由三个实体名确认。"
+  },
+  {
+   "mob_id": "more_critters:wandering_collector",
+   "name_en": "Wandering Collector",
+   "name_zh": "",
+   "description_zh": "流浪收藏家：坐着载运虫拉的篷车，在平原、恶地、沼泽等多种群系出现；他收购任何与异兽相关的物品，累计交易 5 种不同物品后就能使用他的载运虫。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.85,
+   "notes": "正文 Side Content 段落；篷车刷新与交易解锁来自 jar 进度 gain_access_to_carrybug。"
+  },
+  {
+   "mob_id": "more_critters:warptrap",
+   "name_en": "Warptrap",
+   "name_zh": "",
+   "description_zh": "诡异陷鳄：藏在诡异菌岩下的鳄鱼状伏击者，会咬击与挖掘；掉落坚实外壳。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.6,
+   "notes": "来自 jar 进度 encounter_warptrap 与 bite/dig 音效、掉落表。"
+  },
+  {
+   "mob_id": "more_critters:zombie_nauticrawl",
+   "name_en": "Zombie Nauticrawl",
+   "name_zh": "",
+   "description_zh": "僵尸航蠕螺：被感染的航蠕螺，掉落壳片。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/more-critters",
+   "confidence": 0.5,
+   "notes": "来自实体名与掉落表。"
+  }
+ ]
+}

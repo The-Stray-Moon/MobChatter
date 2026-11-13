@@ -1,0 +1,107 @@
+{
+ "rank": 257,
+ "mod": "SCP: Lockdown",
+ "mod_url": "https://modrinth.com/mod/scp-lockdown",
+ "mobs": [
+  {
+   "mob_id": "scplockdown:guard",
+   "name_en": "Guard",
+   "name_zh": "",
+   "description_zh": "SCP 设施中的守卫 NPC（注册名 scplockdown:guard），jar 内有独立战利品表但内容为空；模组正文没有说明它的数值与行为，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/scp-lockdown",
+   "confidence": 0.4,
+   "notes": "仅能确认实体注册名与空战利品表。"
+  },
+  {
+   "mob_id": "scplockdown:mouse",
+   "name_en": "Mouse",
+   "name_zh": "",
+   "description_zh": "小型鼠类生物，死亡掉落 0–1 个鼠尾（scplockdown:rodent_tail）；模组正文未介绍其行为，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/scp-lockdown",
+   "confidence": 0.45,
+   "notes": "战利品表 data/scplockdown/loot_tables/entities/mouse.json。"
+  },
+  {
+   "mob_id": "scplockdown:rat",
+   "name_en": "Rat",
+   "name_zh": "",
+   "description_zh": "小型鼠类生物，死亡掉落 0–1 个鼠尾（scplockdown:rodent_tail）；模组正文未介绍其行为，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/scp-lockdown",
+   "confidence": 0.45,
+   "notes": "战利品表 data/scplockdown/loot_tables/entities/rat.json。"
+  },
+  {
+   "mob_id": "scplockdown:scp008_guard",
+   "name_en": "SCP-008-1 Guard",
+   "name_zh": "",
+   "description_zh": "感染 SCP-008 丧尸病毒的守卫。据 MC百科，被 SCP-008 感染的生物会变绿、生命值翻倍并变得敌对，还会把病毒传染给 2 格内的生物；穿着防护服可以免疫感染。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/153533.html",
+   "confidence": 0.6,
+   "notes": "该页介绍 SCP-008 感染机制，未单列 SCP-008-1 数值。"
+  },
+  {
+   "mob_id": "scplockdown:scp019_monster",
+   "name_en": "SCP-019-2 Monster",
+   "name_zh": "",
+   "description_zh": "由兽之瓶（SCP-019）生成的小型敌对生物，会主动攻击玩家，每次造成 6 点伤害；体型小、数量多，类似蠹虫，会给玩家造成很大麻烦。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/193891.html",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "scplockdown:scp023",
+   "name_en": "SCP-023 Black Shuck",
+   "name_zh": "黑煞星",
+   "description_zh": "黑煞星，宽 1.7 格、高 1.5 格的中型生物，40 点生命、移动速度 0.43；会主动攻击玩家并造成 8 点伤害，玩家注视其中心位置时会获得持续 10 分钟的黑煞星诅咒。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/193880.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "scplockdown:scp049",
+   "name_en": "SCP-049 Plague Doctor",
+   "name_zh": "疫医",
+   "description_zh": "疫医，40 点生命，近战造成 20 点伤害并附加中毒；被它近战杀死的玩家会变成 SCP-049-2。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/193878.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "scplockdown:scp049_player",
+   "name_en": "SCP-049-2 Player",
+   "name_zh": "",
+   "description_zh": "由疫医（SCP-049）杀死的玩家转化而来，材质使用该玩家的皮肤，行为敌对。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/193878.html",
+   "confidence": 0.85,
+   "notes": "MC百科 SCP-049 条目同时给出 049-2 的生成方式。"
+  },
+  {
+   "mob_id": "scplockdown:scp173",
+   "name_en": "SCP-173 The Sculpture",
+   "name_zh": "雕像",
+   "description_zh": "雕像，80 点生命、移动速度 0.43；不在玩家视野内时会高速朝玩家移动并攻击，造成 30 点无视护甲、保护附魔与抗性提升的特殊伤害。只有黑曜石挖掘等级的镐能正常伤害它，创造模式也无法直接攻击。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/193866.html",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "scplockdown:scp939",
+   "name_en": "SCP-939 With Many Voices",
+   "name_zh": "千喉之兽",
+   "description_zh": "千喉之兽，宽 1.5 格、高 1.4 格，40 点生命、移动速度 0.4；主动攻击玩家并造成 14 点伤害，会周期性播放从村民、僵尸、尸壳、女巫、卫道士和唤魔者音效中随机选取的声音。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/193889.html",
+   "confidence": 0.85,
+   "notes": ""
+  }
+ ]
+}

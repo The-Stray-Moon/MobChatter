@@ -1,0 +1,27 @@
+{
+ "rank": 269,
+ "mod": "The Hollow Stalker (horror)(not a dweller)",
+ "mod_url": "https://modrinth.com/mod/the-hollow-stalker",
+ "mobs": [
+  {
+   "mob_id": "thehollowstalker:stalking",
+   "name_en": "Hollow Stalker",
+   "name_zh": "",
+   "description_zh": "The Hollow Stalker 的潜行形态：会在任意生物群系以权重 1 极低概率生成，缓慢爬行着接近玩家并发出沉重的脚步声，还会攀爬与爬行；靠得足够近时发出轻微的“咔哒”声，随后转入追击。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-hollow-stalker",
+   "confidence": 0.85,
+   "notes": "生成权重与“任意群系”来自 jar 的 stalking biome_modifier。"
+  },
+  {
+   "mob_id": "thehollowstalker:aggressive",
+   "name_en": "Hollow Stalker",
+   "name_zh": "",
+   "description_zh": "The Hollow Stalker 的追击形态：速度极快，能在数秒内追平玩家，一旦开始追击就不会停下或减速，玩家只能持续奔跑。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-hollow-stalker",
+   "confidence": 0.85,
+   "notes": "stalking 与 aggressive 是同一生物的两个实体阶段，均带刷怪蛋。"
+  }
+ ]
+}

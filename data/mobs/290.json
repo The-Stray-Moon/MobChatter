@@ -1,0 +1,237 @@
+{
+ "rank": 290,
+ "mod": "Bats Galore",
+ "mod_url": "https://modrinth.com/mod/spooky-bats",
+ "mobs": [
+  {
+   "mob_id": "batsgalore:alex_bat",
+   "name_en": "Alex Bat",
+   "name_zh": "",
+   "description_zh": "生成于模组自带的幽魂橡木森林（Spooky Oak Forest）生物群系。击杀后掉落通用糖果（Generic Candy）与蝙蝠翅膀（Bat Wings）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.5,
+   "notes": "生成群系来自 jar 的 worldgen/biome 刷怪配置，掉落来自实体掉落表。"
+  },
+  {
+   "mob_id": "batsgalore:biggest_fan_bat",
+   "name_en": "Biggest Fan Bat",
+   "name_zh": "",
+   "description_zh": "在主世界自然生成。击杀后掉落新奇饮水帽（Novelty Drinking Hat）与蝙蝠翅膀，而不是糖果。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.5,
+   "notes": "生成群系来自 jar 的 biome_modifier，掉落来自实体掉落表。"
+  },
+  {
+   "mob_id": "batsgalore:candy_cane_bat",
+   "name_en": "Candy Cane Bat",
+   "name_zh": "",
+   "description_zh": "生成于模组自带的圣诞森林（Christmas Forest）生物群系。击杀后掉落拐杖糖（Candy Cane）与蝙蝠翅膀。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.5,
+   "notes": "生成群系来自 jar 的 worldgen/biome 刷怪配置，掉落来自实体掉落表。"
+  },
+  {
+   "mob_id": "batsgalore:creeper_bat",
+   "name_en": "Creeper Bat",
+   "name_zh": "",
+   "description_zh": "生成于幽魂橡木森林。被闪电充能后死亡时会爆炸（半径 1 格，是否破坏方块取决于 mobGriefing 规则）；击杀掉落 TNT 棒棒糖（TNT Lollipop）与蝙蝠翅膀。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.5,
+   "notes": "爆炸行为与半径由实体类的死亡逻辑确认。"
+  },
+  {
+   "mob_id": "batsgalore:elf_bat",
+   "name_en": "Elf Bat",
+   "name_zh": "",
+   "description_zh": "生成于圣诞森林生物群系。击杀后掉落精灵帽（Elf Hat）与蝙蝠翅膀。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.5,
+   "notes": "生成群系来自 jar 的 worldgen/biome 刷怪配置，掉落来自实体掉落表。"
+  },
+  {
+   "mob_id": "batsgalore:evil_bat",
+   "name_en": "Evil Bat",
+   "name_zh": "",
+   "description_zh": "没有自然生成数据，会作为 Winged Turmoil 的召唤小兵出现；死亡时会通知其主人（minionDeath）。jar 中没有它的专属掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.4,
+   "notes": "依据实体类的 Master/Minion 关系与 spawnOnDeath 逻辑，资料有限。"
+  },
+  {
+   "mob_id": "batsgalore:experience_orb_bat",
+   "name_en": "Experience Orb Bat",
+   "name_zh": "",
+   "description_zh": "生成于山地（#forge:is_mountain）与沼泽生物群系。与其他蝙蝠不同，jar 中没有它的专属糖果掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.4,
+   "notes": "虽然 id 含 orb，但它是有刷怪蛋的蝙蝠生物，不是投掷物；资料有限。"
+  },
+  {
+   "mob_id": "batsgalore:ghost_bat",
+   "name_en": "Ghost Bat",
+   "name_zh": "",
+   "description_zh": "没有自然生成数据，也没有专属掉落表，是模组中的幽灵变种蝙蝠。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.4,
+   "notes": "依据实体类受击逻辑与 spawnsGhostBat 标记；资料有限。"
+  },
+  {
+   "mob_id": "batsgalore:herobrine_bat",
+   "name_en": "Herobrine Bat",
+   "name_zh": "",
+   "description_zh": "在幽魂橡木森林生成，生成权重 4、单次最多 1 只。击杀掉落可疑糖果（Suspicious Candy）与蝙蝠翅膀。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.5,
+   "notes": "生成参数来自 biome 刷怪配置，掉落来自实体掉落表。"
+  },
+  {
+   "mob_id": "batsgalore:player_bat",
+   "name_en": "Player Bat",
+   "name_zh": "",
+   "description_zh": "生成于幽魂橡木森林，单次最多 2 只。击杀后掉落玩家头颅与蝙蝠翅膀。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.5,
+   "notes": "生成参数来自 biome 刷怪配置，掉落来自实体掉落表。"
+  },
+  {
+   "mob_id": "batsgalore:pumpkin_bat",
+   "name_en": "Pumpkin Bat",
+   "name_zh": "",
+   "description_zh": "生成于幽魂橡木森林，会发射南瓜灯投掷物进行远程攻击。击杀掉落南瓜巧克力棒（Pumpkin Chocolate Bar）与蝙蝠翅膀。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.5,
+   "notes": "远程攻击由实体类实现 RangedAttackMob 与 jack_o_lantern_projectile 注册确认。"
+  },
+  {
+   "mob_id": "batsgalore:reindeer_bat",
+   "name_en": "Reindeer Bat",
+   "name_zh": "",
+   "description_zh": "生成于圣诞森林生物群系。击杀后掉落驯鹿鼻子（Reindeer Nose）与蝙蝠翅膀。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.5,
+   "notes": "生成群系来自 jar 的 worldgen/biome 刷怪配置，掉落来自实体掉落表。"
+  },
+  {
+   "mob_id": "batsgalore:sculk_bat",
+   "name_en": "Sculk Bat",
+   "name_zh": "",
+   "description_zh": "生成于深暗之域（Deep Dark），单次 1–3 只。击杀掉落幽匿糖果（Sculk Candy）、幽匿核心（Sculk Core）与蝙蝠翅膀，其核心是开启 Altar of Turmoil 仪式所需的四种核心之一。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.5,
+   "notes": "生成来自 deep_dark 的 biome_modifier，核心用途见模组正文的四核心祭坛说明。"
+  },
+  {
+   "mob_id": "batsgalore:shulker_bat",
+   "name_en": "Shulker Bat",
+   "name_zh": "",
+   "description_zh": "生成于末地（#minecraft:is_end），生成权重仅 1。击杀掉落潜影核心（Shulker Core）与蝙蝠翅膀，其核心是开启 Altar of Turmoil 仪式所需的四种核心之一。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.5,
+   "notes": "生成来自末地 biome_modifier，核心用途见模组正文的四核心祭坛说明。"
+  },
+  {
+   "mob_id": "batsgalore:skeleton_bat",
+   "name_en": "Skeleton Bat",
+   "name_zh": "",
+   "description_zh": "生成于幽魂橡木森林。击杀后掉落骷髅糖果（Skull Candy）与蝙蝠翅膀。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.5,
+   "notes": "生成群系来自 jar 的 worldgen/biome 刷怪配置，掉落来自实体掉落表。"
+  },
+  {
+   "mob_id": "batsgalore:slime_bat",
+   "name_en": "Slime Bat",
+   "name_zh": "",
+   "description_zh": "在主世界自然生成。击杀后掉落迷你果冻（Bitesized Jelly）、史莱姆核心（Slime Core）与蝙蝠翅膀，其核心是开启 Altar of Turmoil 仪式所需的四种核心之一。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.5,
+   "notes": "生成来自主世界 biome_modifier，核心用途见模组正文的四核心祭坛说明。"
+  },
+  {
+   "mob_id": "batsgalore:steve_bat",
+   "name_en": "Steve Bat",
+   "name_zh": "",
+   "description_zh": "生成于幽魂橡木森林。击杀后掉落通用糖果（Generic Candy）与蝙蝠翅膀。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.5,
+   "notes": "生成群系来自 jar 的 worldgen/biome 刷怪配置，掉落来自实体掉落表。"
+  },
+  {
+   "mob_id": "batsgalore:undead_bat",
+   "name_en": "Undead Bat",
+   "name_zh": "",
+   "description_zh": "生成于下界，会向目标发射火球。击杀掉落腐肉棒棒糖（Zombie Flesh Lollipop）、亡灵核心（Undead Core）与蝙蝠翅膀，其核心是开启 Altar of Turmoil 仪式所需的四种核心之一。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.5,
+   "notes": "下界生成来自 biome_modifier，火球行为见实体类 fireball 逻辑。"
+  },
+  {
+   "mob_id": "batsgalore:void_bat",
+   "name_en": "Void Bat",
+   "name_zh": "",
+   "description_zh": "不会自然生成的特殊蝙蝠变种：玩家右键接触它会被直接传送到末地。jar 中没有它的专属掉落表。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "batsgalore:winged_turmoil",
+   "name_en": "Winged Turmoil",
+   "name_zh": "",
+   "description_zh": "Bats Galore 的 Boss，拥有 Boss 血条并会召唤 Evil Bat 小兵。它与幽魂橡木森林中的 Altar of Turmoil 结构相关：收集四种蝙蝠核心放入祭坛基座后即可触发，击杀掉落动乱之杖（Staff of Turmoil）与动乱雕像（Statue of Turmoil）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.5,
+   "notes": "Boss 血条、小兵与掉落来自 jar；祭坛触发方式结合模组正文对 Altar of Turmoil 的描述。"
+  },
+  {
+   "mob_id": "batsgalore:witch_bat",
+   "name_en": "Witch Bat",
+   "name_zh": "",
+   "description_zh": "生成于沼泽（#forge:is_swamp），单次 1–3 只，属于敌对生物。击杀掉落女巫酿液（Witches Brew）、女巫扫帚（Witch's Broom）与蝙蝠翅膀。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.5,
+   "notes": "沼泽刷怪与掉落来自 jar，敌对标记来自实体类实现 Enemy 接口。"
+  },
+  {
+   "mob_id": "batsgalore:witchs_broom",
+   "name_en": "Witch's Broom",
+   "name_zh": "",
+   "description_zh": "可骑乘的扫帚实体，能载着玩家飞行与跳跃，由女巫蝙蝠掉落其物品形态。它没有刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.5,
+   "notes": "骑乘与跳跃逻辑来自实体类的 doPlayerRide/getCustomJump，掉落来自 witchs_broom 掉落表。"
+  },
+  {
+   "mob_id": "batsgalore:wither_skeleton_bat",
+   "name_en": "Wither Skeleton Bat",
+   "name_zh": "",
+   "description_zh": "生成于下界（#minecraft:is_nether），单次 1–3 只。击杀掉落凋灵骷髅糖果（Wither Skull Candy）与蝙蝠翅膀。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/spooky-bats",
+   "confidence": 0.5,
+   "notes": "生成来自下界 biome_modifier，掉落来自实体掉落表。"
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "rank": 12,
+ "mod": "Bygone Nether",
+ "mod_url": "https://modrinth.com/mod/bygone-nether",
+ "mobs": [
+  {
+   "mob_id": "bygonenether:wither_skeleton_knight",
+   "name_en": "Wither Skeleton Knight",
+   "name_zh": "凋零骷髅骑士",
+   "description_zh": "拥有 60 点生命值、2 点护甲值，全身重甲、手持石剑与盾牌，因此移动速度比普通凋灵骷髅慢不少；见到玩家后会像凋灵骷髅一样举起双手靠近攻击。掉落物与原版凋灵骷髅基本一致，但会额外掉落一面盾牌。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/624400.html",
+   "confidence": 0.85,
+   "notes": "生命值与护甲数值来自 MC百科条目。"
+  },
+  {
+   "mob_id": "bygonenether:wraither",
+   "name_en": "Wraither",
+   "name_zh": "凋零死士",
+   "description_zh": "拥有 25 点生命值、0 点护甲，正常状态下身体散发幽蓝光且不拿武器；发现玩家后会像凋灵骷髅一样双手前举快速靠近攻击。被击杀后会生成凋灵恼鬼。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/624399.html",
+   "confidence": 0.85,
+   "notes": "数值与死亡后生成凋灵恼鬼的行为来自 MC百科条目。"
+  },
+  {
+   "mob_id": "bygonenether:corpor",
+   "name_en": "Corpor",
+   "name_zh": "凋零蛮兵",
+   "description_zh": "拥有 60 点生命值、0 点护甲，外形与普通凋灵骷髅几乎一致但脸更长，手持石斧；发现玩家后会像凋灵骷髅一样双手前举、快速靠近攻击。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/624401.html",
+   "confidence": 0.85,
+   "notes": "数值与外观描述来自 MC百科条目；掉落（煤炭、骨头、凋灵骷髅头）取自 jar 掉落表。"
+  },
+  {
+   "mob_id": "bygonenether:piglin_hunter",
+   "name_en": "Piglin Hunter",
+   "name_zh": "猪灵猎人",
+   "description_zh": "拥有 50 点生命值、没有护甲，外形接近猪灵蛮兵但背着一个架子、瞎了一只眼，主手持金剑、副手拿盾，部分猪灵猎人会骑着凋灵骷髅马。小猪灵猎人不会主动攻击玩家，但被手持弩的猪灵射中后会反过来攻击猪灵；与玩家交易时它会扔掉副手的满耐久盾牌。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/624398.html",
+   "confidence": 0.85,
+   "notes": "介绍来自 MC百科条目。"
+  },
+  {
+   "mob_id": "bygonenether:piglin_prisoner",
+   "name_en": "Piglin Prisoner",
+   "name_zh": "猪灵囚犯",
+   "description_zh": "出现在 Catacomb 遗迹的囚笼层，玩家挖开铁栅栏后它会挥舞双手跳舞庆祝；对玩家友好，会主动攻击凋灵骷髅、Wraither、Wither Skeleton Knight、Corpor 与凋灵恼鬼。它会拾取金质物品，每拾取一个金锭获得伤害吸收 IV 9 分钟和生命恢复 II 6 分钟，进入主世界会像猪灵一样僵尸化；在猪灵庄园敲响下界合金钟可将它变成猪灵或猪灵蛮兵。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/624397.html",
+   "confidence": 0.8,
+   "notes": "介绍来自 MC百科条目；该实体没有掉落表。"
+  },
+  {
+   "mob_id": "bygonenether:warped_enderman",
+   "name_en": "Warped Enderman",
+   "name_zh": "诡异末影人",
+   "description_zh": "与原版末影人基本一致，但会主动攻击玩家且生命值更高；用剪刀剪去它身上的缠怨藤，它就会变回普通末影人（达成进度“抽点油水”）。击杀有概率掉落诡异末影珍珠。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/624396.html",
+   "confidence": 0.85,
+   "notes": "介绍来自 MC百科条目；jar 掉落表中可确认 warped_ender_pearl。"
+  },
+  {
+   "mob_id": "bygonenether:wex",
+   "name_en": "Wex",
+   "name_zh": "凋灵恼鬼",
+   "description_zh": "由 Wraither 被击杀后生成，拥有 14 点生命值且没有护甲；外形像是恼鬼配色的单头凋灵，同时拥有凋零与恼鬼的音效，攻击方式和恼鬼一样可以穿墙。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/624395.html",
+   "confidence": 0.85,
+   "notes": "介绍来自 MC百科条目。"
+  },
+  {
+   "mob_id": "bygonenether:wither_skeleton_horse",
+   "name_en": "Wither Skeleton Horse",
+   "name_zh": "凋灵骷髅马",
+   "description_zh": "生成于猪灵庄园，通常被猪灵猎人骑乘；玩家用鞍右键它即可骑乘，并达成进度“黑马”。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/624402.html",
+   "confidence": 0.85,
+   "notes": "介绍来自 MC百科条目。"
+  }
+ ]
+}

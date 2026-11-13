@@ -1,0 +1,27 @@
+{
+ "rank": 81,
+ "mod": "The Boiled One: Reimagined",
+ "mod_url": "https://modrinth.com/mod/the-boiled-one-reimagined",
+ "mobs": [
+  {
+   "mob_id": "boiled_reimagined:the_boiled_one",
+   "name_en": "The Boiled One",
+   "name_zh": "",
+   "description_zh": "默认每 6000 tick 尝试生成一次（白天默认不生成），会缓慢逼近玩家；当玩家离开其 120 格视野时会直接传送到更近处。跟踪一段时间后它会选择进攻、冲上来吓人后消失，或在玩家周围降下“血雨”使玩家瘫痪；默认攻击伤害为 200 点，出自 YouTuber Doctor Nowhere 的设定。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-boiled-one-reimagined",
+   "confidence": 0.9,
+   "notes": "生成间隔、伤害、血雨概率等均为模组正文给出的默认配置值。"
+  },
+  {
+   "mob_id": "boiled_reimagined:the_boiled_one_watching",
+   "name_en": "The Boiled One",
+   "name_zh": "",
+   "description_zh": "另一个注册实体，对应模组“看你睡觉”的机制：默认有 20% 概率在玩家入睡时出现，会一路移动到床边，唤醒玩家并施加瘫痪；玩家若下床离开，它就会消失。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-boiled-one-reimagined",
+   "confidence": 0.8,
+   "notes": "“观看”变体与主实体的分工依据实体 id，模组正文只描述 watch you sleep 行为。"
+  }
+ ]
+}

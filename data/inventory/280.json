@@ -1,0 +1,766 @@
+{
+ "rank": 280,
+ "mod": "Alex's Caves Continued",
+ "slug": "alexs-caves-continued",
+ "project_id": "cO2CvXug",
+ "source_url": "https://modrinth.com/mod/alexs-caves-continued",
+ "jar": "D:\\work\\MobChatter\\data\\jars\\cO2CvXug.jar",
+ "jar_size": 75639530,
+ "modid": "codxlib",
+ "entity_count": 94,
+ "mob_count": 88,
+ "entities": [
+  {
+   "key": "entity.alexscaves.all.command_2",
+   "id": "command_2",
+   "en": "%s is following",
+   "zh": "%s 在跟随",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.all.command_1",
+   "id": "command_1",
+   "en": "%s is staying",
+   "zh": "%s 在停留",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.all.command_0",
+   "id": "command_0",
+   "en": "%s is wandering",
+   "zh": "%s 在游荡",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.subterranodon.mount_message",
+   "id": "mount_message",
+   "en": "%s to Ascend, %s to Descend, %s to Dismount",
+   "zh": "按%s上升，按%s下降，按%s取消骑乘",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.tremorsaurus.mount_message",
+   "id": "mount_message",
+   "en": "%s to Roar, %s to Dismount",
+   "zh": "按%s吼叫，按%s取消骑乘",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.submarine.mount_message",
+   "id": "mount_message",
+   "en": "%s: Ascend, %s: Descend, %s: Floodlights, %s: Dismount",
+   "zh": "按%s上升，按%s下降，按%s开关泛光灯，按%s取消骑乘",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.atlatitan",
+   "id": "atlatitan",
+   "en": "Atlatitan",
+   "zh": "擎天龙",
+   "loot_table": "atlatitan",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.beholder_eye",
+   "id": "beholder_eye",
+   "en": "Beholder",
+   "zh": "窥探器之眼",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.boat",
+   "id": "boat",
+   "en": "Boat",
+   "zh": "船",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.alexscaves.boundroid",
+   "id": "boundroid",
+   "en": "Boundroid",
+   "zh": "弹跳机兵",
+   "loot_table": "boundroid",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.boundroid_winch",
+   "id": "boundroid_winch",
+   "en": "Boundroid Winch",
+   "zh": "弹跳机兵绞盘",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.brainiac",
+   "id": "brainiac",
+   "en": "Brainiac",
+   "zh": "舐脑魔",
+   "loot_table": "brainiac",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.burrowing_arrow",
+   "id": "burrowing_arrow",
+   "en": "Burrowing Arrow",
+   "zh": "采掘箭",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.alexscaves.candicorn",
+   "id": "candicorn",
+   "en": "Candicorn",
+   "zh": "糖果独角兽",
+   "loot_table": "candicorn",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.candy_cane_hook",
+   "id": "candy_cane_hook",
+   "en": "Candy Cane Hook",
+   "zh": "拐杖糖钩索",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.alexscaves.caniac",
+   "id": "caniac",
+   "en": "Caniac",
+   "zh": "嗜糖魔",
+   "loot_table": "caniac",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.caramel_cube",
+   "id": "caramel_cube",
+   "en": "Caramel Cube",
+   "zh": "焦糖怪",
+   "loot_table": "caramel_cube",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.chest_boat",
+   "id": "chest_boat",
+   "en": "Chest Boat",
+   "zh": "运输船",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.alexscaves.cinder_brick",
+   "id": "cinder_brick",
+   "en": "Cinder Brick",
+   "zh": "水泥砖",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.corrodent",
+   "id": "corrodent",
+   "en": "Corrodent",
+   "zh": "蚀牙兽",
+   "loot_table": "corrodent",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.crushed_block",
+   "id": "crushed_block",
+   "en": "Crushed Block",
+   "zh": "破碎的方块",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.dark_arrow",
+   "id": "dark_arrow",
+   "en": "Dark Arrow",
+   "zh": "黑魔法箭",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.alexscaves.deep_one",
+   "id": "deep_one",
+   "en": "Deep One",
+   "zh": "深潜者",
+   "loot_table": "deep_one",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.deep_one_knight",
+   "id": "deep_one_knight",
+   "en": "Deep One Knight",
+   "zh": "深潜者骑士",
+   "loot_table": "deep_one_knight",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.deep_one_mage",
+   "id": "deep_one_mage",
+   "en": "Deep One Mage",
+   "zh": "深潜者法师",
+   "loot_table": "deep_one_mage",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.depth_charge",
+   "id": "depth_charge",
+   "en": "Depth Charge",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.desolate_dagger",
+   "id": "desolate_dagger",
+   "en": "Desolate Dagger",
+   "zh": "荒芜匕首",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.dinosaur_spirit",
+   "id": "dinosaur_spirit",
+   "en": "Dinosaur Spirit",
+   "zh": "恐龙灵魂",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.extinction_spear",
+   "id": "extinction_spear",
+   "en": "Extinction Spear",
+   "zh": "灭绝长矛",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.falling_frostmint",
+   "id": "falling_frostmint",
+   "en": "Falling Frostmint",
+   "zh": "下落的冰雪薄荷糖",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.falling_tree_block",
+   "id": "falling_tree_block",
+   "en": "Falling Tree",
+   "zh": "倒塌的树",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.ferrouslime",
+   "id": "ferrouslime",
+   "en": "Ferrouslime",
+   "zh": "富铁史莱姆",
+   "loot_table": "ferrouslime",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.floater",
+   "id": "floater",
+   "en": "Floater",
+   "zh": "浮囊",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.forsaken",
+   "id": "forsaken",
+   "en": "Forsaken",
+   "zh": "遗弃者",
+   "loot_table": "forsaken",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.frostmint_spear",
+   "id": "frostmint_spear",
+   "en": "Frostmint Spear",
+   "zh": "冰雪薄荷糖长矛",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.gammaroach",
+   "id": "gammaroach",
+   "en": "Gammaroach",
+   "zh": "伽马蟑螂",
+   "loot_table": "gammaroach",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.gingerbread_man",
+   "id": "gingerbread_man",
+   "en": "Gingerbread Man",
+   "zh": "姜饼人",
+   "loot_table": "gingerbread_man",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.gloomoth",
+   "id": "gloomoth",
+   "en": "Gloomoth",
+   "zh": "幽暗蛾",
+   "loot_table": "gloomoth",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.gossamer_worm",
+   "id": "gossamer_worm",
+   "en": "Gossamer Worm",
+   "zh": "浮蚕",
+   "loot_table": "gossamer_worm",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.grottoceratops",
+   "id": "grottoceratops",
+   "en": "Grottoceratops",
+   "zh": "洞穴角龙",
+   "loot_table": "grottoceratops",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.falling_guano",
+   "id": "falling_guano",
+   "en": "Guano",
+   "zh": "粪块",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.guano",
+   "id": "guano",
+   "en": "Guano",
+   "zh": "粪便",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.gum_worm",
+   "id": "gum_worm",
+   "en": "Gum Worm",
+   "zh": "口香糖蠕虫",
+   "loot_table": "gum_worm",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.gum_worm_segment",
+   "id": "gum_worm_segment",
+   "en": "Gum Worm",
+   "zh": "口香糖蠕虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.gumball",
+   "id": "gumball",
+   "en": "Gumball",
+   "zh": "口香糖球",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.gumbeeper",
+   "id": "gumbeeper",
+   "en": "Gumbeeper",
+   "zh": "糖球苦力怕",
+   "loot_table": "gumbeeper",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.gummy_bear",
+   "id": "gummy_bear",
+   "en": "Gummy Bear",
+   "zh": "软糖熊",
+   "loot_table": "gummy_bear",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.hullbreaker",
+   "id": "hullbreaker",
+   "en": "Hullbreaker",
+   "zh": "碎船兽",
+   "loot_table": "hullbreaker",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.thrown_ice_cream_scoop",
+   "id": "thrown_ice_cream_scoop",
+   "en": "Ice Cream Scoop",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.ink_bomb",
+   "id": "ink_bomb",
+   "en": "Ink Bomb",
+   "zh": "墨水炸弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.lanternfish",
+   "id": "lanternfish",
+   "en": "Lanternfish",
+   "zh": "灯笼鱼",
+   "loot_table": "lanternfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.licowitch",
+   "id": "licowitch",
+   "en": "Licowitch",
+   "zh": "甘草女巫",
+   "loot_table": "licowitch",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.limestone_spear",
+   "id": "limestone_spear",
+   "en": "Limestone Spear",
+   "zh": "石灰岩长矛",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.luxtructosaurus",
+   "id": "luxtructosaurus",
+   "en": "Luxtructosaurus",
+   "zh": "暝煌龙",
+   "loot_table": "luxtructosaurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.quarry_smasher",
+   "id": "quarry_smasher",
+   "en": "Magnetic Quarry Smasher",
+   "zh": "磁力采石场粉碎器",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.magnetic_weapon",
+   "id": "magnetic_weapon",
+   "en": "Magnetic Weapon",
+   "zh": "磁化武器",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.moving_metal_block",
+   "id": "moving_metal_block",
+   "en": "Magnetizing Block",
+   "zh": "磁化的方块",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.magnetron",
+   "id": "magnetron",
+   "en": "Magnetron",
+   "zh": "磁控机兵",
+   "loot_table": "magnetron",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.melted_caramel",
+   "id": "melted_caramel",
+   "en": "Melted Caramel",
+   "zh": "熔融焦糖",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.mine_guardian",
+   "id": "mine_guardian",
+   "en": "Mine Guardian",
+   "zh": "水雷守卫者",
+   "loot_table": "mine_guardian",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.mine_guardian_anchor",
+   "id": "mine_guardian_anchor",
+   "en": "Mine Guardian Anchor",
+   "zh": "水雷守卫者之锚",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.luxtructosaurus.slain_message",
+   "id": "slain_message",
+   "en": "New forms are taking shape within Amber Monoliths...",
+   "zh": "琥珀珍品里出现了新的存在……",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.notor",
+   "id": "notor",
+   "en": "Notor",
+   "zh": "扫描机兵",
+   "loot_table": "notor",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.nuclear_bomb",
+   "id": "nuclear_bomb",
+   "en": "Nuclear Bomb",
+   "zh": "核弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.nuclear_explosion",
+   "id": "nuclear_explosion",
+   "en": "Nuclear Explosion",
+   "zh": "蘑菇云",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.nucleeper",
+   "id": "nucleeper",
+   "en": "Nucleeper",
+   "zh": "核能苦力怕",
+   "loot_table": "nucleeper",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.soda_bottle_rocket",
+   "id": "soda_bottle_rocket",
+   "en": "Purple Soda Bottle Rocket",
+   "zh": "紫色苏打水瓶火箭",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.radgill",
+   "id": "radgill",
+   "en": "Radgill",
+   "zh": "辐鳃鱼",
+   "loot_table": "radgill",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.raycat",
+   "id": "raycat",
+   "en": "Raycat",
+   "zh": "射线猫",
+   "loot_table": "raycat",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.relicheirus",
+   "id": "relicheirus",
+   "en": "Relicheirus",
+   "zh": "遗迹恐手龙",
+   "loot_table": "relicheirus",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.sea_pig",
+   "id": "sea_pig",
+   "en": "Sea Pig",
+   "zh": "海猪",
+   "loot_table": "sea_pig",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.seeking_arrow",
+   "id": "seeking_arrow",
+   "en": "Seeking Arrow",
+   "zh": "追踪箭",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.alexscaves.spinning_peppermint",
+   "id": "spinning_peppermint",
+   "en": "Spinning Peppermint",
+   "zh": "旋转的冰雪薄荷糖长矛",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.submarine",
+   "id": "submarine",
+   "en": "Submarine",
+   "zh": "潜水艇",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.subterranodon",
+   "id": "subterranodon",
+   "en": "Subterranodon",
+   "zh": "地底翼龙",
+   "loot_table": "subterranodon",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.sugar_staff_hex",
+   "id": "sugar_staff_hex",
+   "en": "Sugar Staff Hex",
+   "zh": "糖果咒术",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.sweetish_fish",
+   "id": "sweetish_fish",
+   "en": "Sweetish Fish",
+   "zh": "软糖鱼",
+   "loot_table": "sweetish_fish",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.teletor",
+   "id": "teletor",
+   "en": "Teletor",
+   "zh": "磁流灵",
+   "loot_table": "teletor",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.tephra",
+   "id": "tephra",
+   "en": "Tephra",
+   "zh": "火山灰",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.deep_one.reaction_helpful",
+   "id": "reaction_helpful",
+   "en": "The Deep Ones now regard you as a friend",
+   "zh": "深潜者们现在对你友好",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.deep_one.reaction_aggressive",
+   "id": "reaction_aggressive",
+   "en": "The Deep Ones now regard you with aggression",
+   "zh": "深潜者们现在与你敌对",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.deep_one.reaction_stalking",
+   "id": "reaction_stalking",
+   "en": "The Deep Ones now regard you with caution",
+   "zh": "深潜者们现在对你警惕",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.deep_one.reaction_neutral",
+   "id": "reaction_neutral",
+   "en": "The Deep Ones now regard you with neutrality",
+   "zh": "深潜者们现在对你中立",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.thrown_waste_drum",
+   "id": "thrown_waste_drum",
+   "en": "Thrown Waste Drum",
+   "zh": "掷出的废料桶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.tremorsaurus",
+   "id": "tremorsaurus",
+   "en": "Tremorsaurus",
+   "zh": "撼地龙",
+   "loot_table": "tremorsaurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.tremorzilla",
+   "id": "tremorzilla",
+   "en": "Tremorzilla",
+   "zh": "撼地斯拉",
+   "loot_table": "tremorzilla",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.trilocaris",
+   "id": "trilocaris",
+   "en": "Trilocaris",
+   "zh": "三叶虾",
+   "loot_table": "trilocaris",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.tripodfish",
+   "id": "tripodfish",
+   "en": "Tripodfish",
+   "zh": "三脚鱼",
+   "loot_table": "tripodfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.underzealot",
+   "id": "underzealot",
+   "en": "Underzealot",
+   "zh": "地底异教徒",
+   "loot_table": "underzealot",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.vallumraptor",
+   "id": "vallumraptor",
+   "en": "Vallumraptor",
+   "zh": "阔鼻迅猛龙",
+   "loot_table": "vallumraptor",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.vesper",
+   "id": "vesper",
+   "en": "Vesper",
+   "zh": "夜行蝠",
+   "loot_table": "vesper",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.watcher",
+   "id": "watcher",
+   "en": "Watcher",
+   "zh": "窥心者",
+   "loot_table": "watcher",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.water_bolt",
+   "id": "water_bolt",
+   "en": "Water Bolt",
+   "zh": "水弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.alexscaves.wave",
+   "id": "wave",
+   "en": "Wave",
+   "zh": "波涛",
+   "loot_table": "",
+   "projectile": false
+  }
+ ]
+}

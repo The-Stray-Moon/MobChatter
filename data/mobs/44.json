@@ -1,0 +1,117 @@
+{
+ "rank": 44,
+ "mod": "Fish of Thieves",
+ "mod_url": "https://modrinth.com/mod/fish-of-thieves",
+ "mobs": [
+  {
+   "mob_id": "fishofthieves:splashtail",
+   "name_en": "Splashtail",
+   "name_zh": "浪尾鱼",
+   "description_zh": "浪尾鱼栖息在所有海洋生物群系，共有 6 种变种（赤晶、阳光、靛青、琥珀、海沫、Obsidian），其中阳光与海沫变种需要能看见天空并分别在白天、夜晚出现。击杀掉落生浪尾鱼（可烤熟），所有鱼都有 15% 概率生成奖杯尺寸。",
+   "source": "wiki",
+   "source_url": "https://github.com/SteveKunG/FishOfThieves/wiki/Spawning",
+   "confidence": 0.85,
+   "notes": "生成群系、变种条件与奖杯概率来自官方 wiki；变种名单以 jar 内 lang 为准（wiki 未列出 Obsidian）。"
+  },
+  {
+   "mob_id": "fishofthieves:pondie",
+   "name_en": "Pondie",
+   "name_zh": "小池鱼",
+   "description_zh": "小池鱼生活在河流与森林生物群系，有 6 种变种（黑炭、果园、青铜、明亮、月空、Dewdrop）；明亮变种只在白天能看见天空时以 10% 概率出现，月空变种只在夜晚出现。击杀掉落生小池鱼。",
+   "source": "wiki",
+   "source_url": "https://github.com/SteveKunG/FishOfThieves/wiki/Spawning",
+   "confidence": 0.85,
+   "notes": "生成群系与变种条件来自官方 wiki；变种名单取自 jar 内 lang。"
+  },
+  {
+   "mob_id": "fishofthieves:islehopper",
+   "name_en": "Islehopper",
+   "name_zh": "登岛鱼",
+   "description_zh": "登岛鱼在岛屿海岸周围生成，变种各有条件：岩石在沙滩海岸，苔藓在丛林/沼泽/红树林/繁茂洞穴，蜂蜜需要 12 格内有装满蜂蜜的蜂巢，乌鸦在 y=0 以下深洞或玩家失明时出现，紫晶需要附近有至少 12 块紫水晶块。受击时它会对攻击者造成伤害和中毒（可在配置中关闭），击杀掉落生登岛鱼。",
+   "source": "wiki",
+   "source_url": "https://github.com/SteveKunG/FishOfThieves/wiki/Spawning",
+   "confidence": 0.85,
+   "notes": "生成条件与受击反击来自官方 wiki；第 6 个变种 Briny 来自 jar lang，wiki 未列。"
+  },
+  {
+   "mob_id": "fishofthieves:ancientscale",
+   "name_en": "Ancientscale",
+   "name_zh": "古鳞鱼",
+   "description_zh": "古鳞鱼生活在温水海洋或海底废墟附近，变种包括杏仁、蓝晶、烟灰、骨白、星辉、Blossom；骨白为 10% 概率，星辉只在夜间、能看见天空且月相在下弦到上弦之间时出现。击杀掉落生古鳞鱼。",
+   "source": "wiki",
+   "source_url": "https://github.com/SteveKunG/FishOfThieves/wiki/Spawning",
+   "confidence": 0.85,
+   "notes": "生成群系与变种条件来自官方 wiki；Blossom 变种来自 jar lang。"
+  },
+  {
+   "mob_id": "fishofthieves:plentifin",
+   "name_en": "Plentifin",
+   "name_zh": "富岸鱼",
+   "description_zh": "富岸鱼生活在温暖与温水海洋，变种包括橄榄、琥珀、多云、骨粉、水色、Crimson；琥珀在黎明或黄昏无雨且能看见天空时出现，多云在雨天出现，水色在夜间出现，骨粉为 10% 概率。击杀掉落生富岸鱼。",
+   "source": "wiki",
+   "source_url": "https://github.com/SteveKunG/FishOfThieves/wiki/Spawning",
+   "confidence": 0.85,
+   "notes": "生成群系与变种条件来自官方 wiki；Crimson 变种来自 jar lang。"
+  },
+  {
+   "mob_id": "fishofthieves:wildsplash",
+   "name_en": "Wildsplash",
+   "name_zh": "狂摆鱼",
+   "description_zh": "狂摆鱼主要生活在温暖海洋与繁茂洞穴，变种包括赤褐、沙地、大洋、泥泞、珊瑚、Calico；沙地在海滩或热带岛屿，泥泞在沼泽以 10% 概率出现，珊瑚需要 16 块以上珊瑚块并在夜间出现。击杀掉落生狂摆鱼。",
+   "source": "wiki",
+   "source_url": "https://github.com/SteveKunG/FishOfThieves/wiki/Spawning",
+   "confidence": 0.85,
+   "notes": "生成群系与变种条件来自官方 wiki；Calico 变种来自 jar lang。"
+  },
+  {
+   "mob_id": "fishofthieves:devilfish",
+   "name_en": "Devilfish",
+   "name_zh": "魔鬼鱼",
+   "description_zh": "魔鬼鱼只生活在深层洞穴，变种包括灰烬、海贝、熔岩、幽怨、火光、Leopard；熔岩变种在 4 格内有熔岩源时出现，火光在夜间且附近有熔岩源或岩浆块时出现，幽怨为 10% 概率。它会主动攻击亡灵生物（可配置），击杀掉落生魔鬼鱼。",
+   "source": "wiki",
+   "source_url": "https://github.com/SteveKunG/FishOfThieves/wiki/Spawning",
+   "confidence": 0.85,
+   "notes": "生成条件与攻击亡灵行为来自官方 wiki；Leopard 变种来自 jar lang。"
+  },
+  {
+   "mob_id": "fishofthieves:battlegill",
+   "name_en": "Battlegill",
+   "name_zh": "刺鳃鱼",
+   "description_zh": "刺鳃鱼出现在掠夺者前哨站、海底神殿，或袭击期间，变种包括青玉、碧空、朗姆、黄沙、甜蜜、Zest；碧空需要能看见天空，黄沙在沙漠/温暖海洋以 10% 概率出现，甜蜜在夜间出现。它会攻击亡灵和海洋敌对生物（可配置），击杀掉落生刺鳃鱼。",
+   "source": "wiki",
+   "source_url": "https://github.com/SteveKunG/FishOfThieves/wiki/Spawning",
+   "confidence": 0.85,
+   "notes": "生成地点、变种条件与攻击行为来自官方 wiki；wiki 提到的 Trial Chamber 是 1.21 结构，1.20.1 不存在，故未写入。"
+  },
+  {
+   "mob_id": "fishofthieves:wrecker",
+   "name_en": "Wrecker",
+   "name_zh": "破船鱼",
+   "description_zh": "破船鱼只出现在海洋沉船与海底废墟传送门（Ocean Ruined Portal）附近，变种包括玫瑰、太阳、乌云、白雪、月亮、Emerald；太阳在白天出现，乌云在雷暴时出现，白雪在冻洋以 10% 概率出现，月亮在夜间且能看到月亮时出现。它会攻击附近的生物和玩家（可配置），并绕着沉船或废墟传送门游动，击杀掉落生破船鱼。",
+   "source": "wiki",
+   "source_url": "https://github.com/SteveKunG/FishOfThieves/wiki/Spawning",
+   "confidence": 0.85,
+   "notes": "生成地点、变种条件与行为来自官方 wiki；Emerald 变种来自 jar lang。"
+  },
+  {
+   "mob_id": "fishofthieves:stormfish",
+   "name_en": "Stormfish",
+   "name_zh": "风暴鱼",
+   "description_zh": "风暴鱼生活在海洋，也会出现在稀疏丛林与热带岛屿，变种包括远古、海岸、狂野、暗影、暮光、Starshine；狂野只在稀疏丛林，暗影在光照不超过 4 时以 10% 概率出现，暮光在夜间出现。它在海面附近游动时有概率引发闪电，并且免疫闪电伤害，击杀掉落生风暴鱼。",
+   "source": "wiki",
+   "source_url": "https://github.com/SteveKunG/FishOfThieves/wiki/Spawning",
+   "confidence": 0.85,
+   "notes": "生成条件、引发闪电与免疫闪电来自官方 wiki；Starshine 变种来自 jar lang。"
+  },
+  {
+   "mob_id": "fishofthieves:shoal",
+   "name_en": "Shoal",
+   "name_zh": "",
+   "description_zh": "鱼群（Shoal）是模组用来表现成群鱼影的环境实体，会在海洋、河流、海滩、沼泽和热带岛屿生成，由多条鱼的数据组成，并受配置中的寿命与扩散距离限制。它没有刷怪蛋和掉落表，不能像普通鱼那样捕捉。",
+   "source": "jar_data",
+   "source_url": "https://github.com/SteveKunG/FishOfThieves/wiki/Spawning",
+   "confidence": 0.45,
+   "notes": "shoal 生成标签、NBT（shoal_fish/lifetime）与配置项来自 jar；官方 wiki 未单列该实体。资料有限。"
+  }
+ ]
+}

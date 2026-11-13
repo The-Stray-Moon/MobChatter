@@ -1,0 +1,47 @@
+{
+ "rank": 23,
+ "mod": "The Man From The Fog",
+ "mod_url": "https://modrinth.com/mod/the-man-from-the-fog",
+ "mobs": [
+  {
+   "mob_id": "man:manfromthefog",
+   "name_en": "Man From The Fog",
+   "name_zh": "",
+   "description_zh": "雾中人本体：夜晚出现在玩家附近注视并尾随，之后转为追逐与攻击。生成频率、追逐时长（400–1000 tick）、爬墙、黑暗效果、30 格消失距离等均可在配置中调整，默认不在白天生成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-man-from-the-fog",
+   "confidence": 0.9,
+   "notes": "模组正文；需 GeckoLib 前置"
+  },
+  {
+   "mob_id": "man:managgresive",
+   "name_en": "Man From The Fog",
+   "name_zh": "",
+   "description_zh": "雾中人的攻击形态，生成后直接追杀目标，追逐时长与消失距离沿用模组配置；击杀后会掉落「人的眼泪」（Tear of the Man）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-man-from-the-fog",
+   "confidence": 0.5,
+   "notes": "实体类引用 Tear of the Man 掉落及初始生成/每 tick 追击逻辑；外部资料有限"
+  },
+  {
+   "mob_id": "man:manfromthefogback",
+   "name_en": "Man From The Fog",
+   "name_zh": "",
+   "description_zh": "雾中人的「潜伏」形态，伴随模组自带的 lurk 音效出现在玩家附近，用于制造被窥视的压迫感。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-man-from-the-fog",
+   "confidence": 0.4,
+   "notes": "独立渲染器与模型，音效事件 man:lurk；资料有限"
+  },
+  {
+   "mob_id": "man:mftfhang",
+   "name_en": "Man From The Fog",
+   "name_zh": "",
+   "description_zh": "雾中人的悬挂形态，以悬挂姿态（动画名 hang）出现。模组为其注册了自定义自然生成条件，并通过 forge:add_spawns 在任意生物群系以权重 10、每次 1 只生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-man-from-the-fog",
+   "confidence": 0.5,
+   "notes": "生物群系修饰器 mftfhang_biome_modifier.json；动画含 hang；外部资料有限"
+  }
+ ]
+}

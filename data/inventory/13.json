@@ -1,0 +1,622 @@
+{
+ "rank": 13,
+ "mod": "Ice and Fire",
+ "slug": "ice-and-fire-dragons",
+ "project_id": "LVnvHVBp",
+ "source_url": "https://modrinth.com/mod/ice-and-fire-dragons",
+ "jar": "D:\\work\\MobChatter\\data\\jars\\LVnvHVBp.jar",
+ "jar_size": 21854126,
+ "modid": "iceandfire",
+ "entity_count": 76,
+ "mob_count": 64,
+ "entities": [
+  {
+   "key": "entity.iceandfire.amphithere",
+   "id": "amphithere",
+   "en": "Amphithere",
+   "zh": "翼蚺",
+   "loot_table": "amphithere",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.amphithere_arrow",
+   "id": "amphithere_arrow",
+   "en": "Amphithere Arrow",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.iceandfire.black_frost_dragon",
+   "id": "black_frost_dragon",
+   "en": "Black Frost",
+   "zh": "黑霜",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.hippogryph.black",
+   "id": "black",
+   "en": "Black Hippogryph",
+   "zh": "黑色骏鹰",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.pixie.type_2",
+   "id": "type_2",
+   "en": "Blue Pixie",
+   "zh": "天蓝小精灵",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.hippogryph.brown",
+   "id": "brown",
+   "en": "Brown Hippogryph",
+   "zh": "褐色骏鹰骏鹰",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.chain_tie",
+   "id": "chain_tie",
+   "en": "Chain",
+   "zh": "铁链",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.hippogryph.chestnut",
+   "id": "chestnut",
+   "en": "Chestnut Hippogryph",
+   "zh": "深枣红色骏鹰",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.cockatrice",
+   "id": "cockatrice",
+   "en": "Cockatrice",
+   "zh": "鸡蛇",
+   "loot_table": "cockatrice",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.cockatrice_egg",
+   "id": "cockatrice_egg",
+   "en": "Cockatrice Egg",
+   "zh": "鸡蛇蛋",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.iceandfire.hippogryph.creamy",
+   "id": "creamy",
+   "en": "Cream Hippogryph",
+   "zh": "淡栗色骏鹰",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.cyclops",
+   "id": "cyclops",
+   "en": "Cyclops",
+   "zh": "独眼巨人",
+   "loot_table": "cyclops",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.cylcops_multipart",
+   "id": "cylcops_multipart",
+   "en": "Cyclops Eye",
+   "zh": "巨人独眼",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.hippogryph.dark_brown",
+   "id": "dark_brown",
+   "en": "Dark Brown Hippogryph",
+   "zh": "深褐色骏鹰",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.deathworm",
+   "id": "deathworm",
+   "en": "Death Worm",
+   "zh": "死亡蠕虫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.deathworm_egg",
+   "id": "deathworm_egg",
+   "en": "Death Worm Egg",
+   "zh": "死亡蠕虫卵",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.iceandfire.hippogryph.dodo",
+   "id": "dodo",
+   "en": "Dodo Hippogryph",
+   "zh": "渡渡骏鹰",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.dragon_arrow",
+   "id": "dragon_arrow",
+   "en": "Dragon Bone Arrow",
+   "zh": "龙骨箭",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.iceandfire.dragon_egg",
+   "id": "dragon_egg",
+   "en": "Dragon Egg",
+   "zh": "龙蛋",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.iceandfire.fire_dragon_charge",
+   "id": "fire_dragon_charge",
+   "en": "Dragon Fire Charge",
+   "zh": "龙炎弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.ice_dragon_charge",
+   "id": "ice_dragon_charge",
+   "en": "Dragon Ice Charge",
+   "zh": "龙霜弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.lightning_dragon_charge",
+   "id": "lightning_dragon_charge",
+   "en": "Dragon Lightning Charge",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.iceandfire.dragon_multipart",
+   "id": "dragon_multipart",
+   "en": "Dragon Part",
+   "zh": "龙体",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.dragon_skull",
+   "id": "dragon_skull",
+   "en": "Dragon Skull",
+   "zh": "飞龙颅骨",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.dread_beast",
+   "id": "dread_beast",
+   "en": "Dread Beast",
+   "zh": "悚怖尸兽",
+   "loot_table": "dread_beast",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.dread_ghoul",
+   "id": "dread_ghoul",
+   "en": "Dread Ghoul",
+   "zh": "悚怖食尸鬼",
+   "loot_table": "dread_ghoul",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.dread_knight",
+   "id": "dread_knight",
+   "en": "Dread Knight",
+   "zh": "悚怖尸骑",
+   "loot_table": "dread_knight",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.dread_horse",
+   "id": "dread_horse",
+   "en": "Dread Knight Horse",
+   "zh": "悚怖尸骑战马",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.dread_lich",
+   "id": "dread_lich",
+   "en": "Dread Lich",
+   "zh": "悚怖尸巫",
+   "loot_table": "dread_lich",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.dread_lich_skull",
+   "id": "dread_lich_skull",
+   "en": "Dread Lich Skull",
+   "zh": "冰魂髑髅",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.dread_queen",
+   "id": "dread_queen",
+   "en": "Dread Queen",
+   "zh": "悚怖女皇",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.dread_scuttler",
+   "id": "dread_scuttler",
+   "en": "Dread Scuttler",
+   "zh": "悚怖劫蛛",
+   "loot_table": "dread_scuttler",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.dread_thrall",
+   "id": "dread_thrall",
+   "en": "Dread Thrall",
+   "zh": "悚怖尸奴",
+   "loot_table": "dread_thrall",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.fire_dragon",
+   "id": "fire_dragon",
+   "en": "Fire Dragon",
+   "zh": "火龙",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.hippogryph.alex",
+   "id": "alex",
+   "en": "Firey Hippogryph",
+   "zh": "火红骏鹰",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.hippogryph.raptor",
+   "id": "raptor",
+   "en": "Frosty Hippogryph",
+   "zh": "冰蓝骏鹰",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.ghost",
+   "id": "ghost",
+   "en": "Ghost",
+   "zh": "幽灵",
+   "loot_table": "ghost",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.gorgon",
+   "id": "gorgon",
+   "en": "Gorgon",
+   "zh": "蛇发女妖",
+   "loot_table": "gorgon",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.hippogryph.gray",
+   "id": "gray",
+   "en": "Gray Hippogryph",
+   "zh": "灰色骏鹰",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.pixie.type_3",
+   "id": "type_3",
+   "en": "Green Pixie",
+   "zh": "鲜绿小精灵",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.hippocampus",
+   "id": "hippocampus",
+   "en": "Hippocampus",
+   "zh": "海马",
+   "loot_table": "hippocampus",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.hippogryph",
+   "id": "hippogryph",
+   "en": "Hippogryph",
+   "zh": "骏鹰",
+   "loot_table": "hippogryph",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.hippogryph_egg",
+   "id": "hippogryph_egg",
+   "en": "Hippogryph Egg",
+   "zh": "骏鹰蛋",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.iceandfire.hydra",
+   "id": "hydra",
+   "en": "Hydra",
+   "zh": "九头蛇",
+   "loot_table": "hydra",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.hydra_arrow",
+   "id": "hydra_arrow",
+   "en": "Hydra Arrow",
+   "zh": "九头蛇毒箭",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.iceandfire.hydra_breath",
+   "id": "hydra_breath",
+   "en": "Hydra Breath",
+   "zh": "九头蛇毒息",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.hydra_multipart",
+   "id": "hydra_multipart",
+   "en": "Hydra Neck",
+   "zh": "九头蛇颈",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.ice_dragon",
+   "id": "ice_dragon",
+   "en": "Ice Dragon",
+   "zh": "冰龙",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.lightning_dragon",
+   "id": "lightning_dragon",
+   "en": "Lightning Dragon",
+   "zh": "电龙",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.iceandfire.myrmex_egg",
+   "id": "myrmex_egg",
+   "en": "Myrmex Egg",
+   "zh": "恐蚁卵",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.iceandfire.myrmex_queen",
+   "id": "myrmex_queen",
+   "en": "Myrmex Queen",
+   "zh": "恐蚁女皇",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.myrmex_royal",
+   "id": "myrmex_royal",
+   "en": "Myrmex Royal",
+   "zh": "恐蚁皇族",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.myrmex_sentinel",
+   "id": "myrmex_sentinel",
+   "en": "Myrmex Sentinel",
+   "zh": "恐蚁斥候",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.myrmex_soldier",
+   "id": "myrmex_soldier",
+   "en": "Myrmex Soldier",
+   "zh": "恐蚁军士",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.myrmex_swarmer",
+   "id": "myrmex_swarmer",
+   "en": "Myrmex Swarmer",
+   "zh": "恐蜂蚁",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.myrmex_worker",
+   "id": "myrmex_worker",
+   "en": "Myrmex Worker",
+   "zh": "恐蚁劳工",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.multipart",
+   "id": "multipart",
+   "en": "Part",
+   "zh": "身躯",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.pixie.type_0",
+   "id": "type_0",
+   "en": "Pink Pixie",
+   "zh": "红粉小精灵",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.pixie",
+   "id": "pixie",
+   "en": "Pixie",
+   "zh": "小精灵",
+   "loot_table": "pixie",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.pixie_charge",
+   "id": "pixie_charge",
+   "en": "Pixie Wand Beam",
+   "zh": "精灵法杖光束",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.player",
+   "id": "player",
+   "en": "Player",
+   "zh": "玩家",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.pixie.type_1",
+   "id": "type_1",
+   "en": "Purple Pixie",
+   "zh": "灵紫小精灵",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.minecraft.villager.iceandfire.scribe",
+   "id": "scribe",
+   "en": "Scribe",
+   "zh": "抄书吏",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.sea_serpent",
+   "id": "sea_serpent",
+   "en": "Sea Serpent",
+   "zh": "海蟒",
+   "loot_table": "sea_serpent",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.sea_serpent_arrow",
+   "id": "sea_serpent_arrow",
+   "en": "Sea Serpent Arrow",
+   "zh": "潮汐之箭",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.iceandfire.sea_serpent_bubbles",
+   "id": "sea_serpent_bubbles",
+   "en": "Sea Serpent Bubbles",
+   "zh": "海蟒水泡",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.siren",
+   "id": "siren",
+   "en": "Siren",
+   "zh": "塞壬",
+   "loot_table": "siren",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.mob_skull",
+   "id": "mob_skull",
+   "en": "Skull",
+   "zh": "颅骨",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.stone_statue",
+   "id": "stone_statue",
+   "en": "Stone Statue",
+   "zh": "石像",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.stymphalian_arrow",
+   "id": "stymphalian_arrow",
+   "en": "Stymphalian Arrow",
+   "zh": "铜鹗羽箭",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.iceandfire.stymphalian_bird",
+   "id": "stymphalian_bird",
+   "en": "Stymphalian Bird",
+   "zh": "铜羽泽鹗",
+   "loot_table": "stymphalian_bird",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.stymphalian_feather",
+   "id": "stymphalian_feather",
+   "en": "Stymphalian Bird Feather",
+   "zh": "青铜鹗羽",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.tide_trident",
+   "id": "tide_trident",
+   "en": "Tide Trident",
+   "zh": "海潮三叉戟",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.troll",
+   "id": "troll",
+   "en": "Troll",
+   "zh": "食人妖",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.hippogryph.white",
+   "id": "white",
+   "en": "White Hippogryph",
+   "zh": "白色骏鹰",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.iceandfire.pixie.type_4",
+   "id": "type_4",
+   "en": "Yellow Pixie",
+   "zh": "明黄小精灵",
+   "loot_table": "",
+   "projectile": false
+  }
+ ]
+}

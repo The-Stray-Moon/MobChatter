@@ -1,0 +1,342 @@
+{
+ "rank": 49,
+ "mod": "Vampirism",
+ "slug": "vampirism",
+ "project_id": "jVZ0F1wn",
+ "source_url": "https://modrinth.com/mod/vampirism",
+ "jar": "D:\\work\\MobChatter\\data\\jars\\jVZ0F1wn.jar",
+ "jar_size": 12406393,
+ "modid": "vampirism",
+ "entity_count": 41,
+ "mob_count": 39,
+ "entities": [
+  {
+   "key": "entity.vampirism.vampire_baron.level",
+   "id": "level",
+   "en": " Level %s",
+   "zh": "级别%s",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.advanced_hunter",
+   "id": "advanced_hunter",
+   "en": "Advanced Hunter",
+   "zh": "高阶猎人",
+   "loot_table": "advanced_hunter",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.advanced_hunter_imob",
+   "id": "advanced_hunter_imob",
+   "en": "Advanced Hunter",
+   "zh": "高阶猎人",
+   "loot_table": "advanced_hunter_imob",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.advanced_vampire",
+   "id": "advanced_vampire",
+   "en": "Advanced Vampire",
+   "zh": "高阶吸血鬼",
+   "loot_table": "advanced_vampire",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.advanced_vampire_imob",
+   "id": "advanced_vampire_imob",
+   "en": "Advanced Vampire",
+   "zh": "高阶吸血鬼",
+   "loot_table": "advanced_vampire_imob",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.remains_defender",
+   "id": "remains_defender",
+   "en": "Ancient Cristal",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.villager_angry",
+   "id": "villager_angry",
+   "en": "Angry Villager",
+   "zh": "暴怒村民",
+   "loot_table": "villager_angry",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.blinding_bat",
+   "id": "blinding_bat",
+   "en": "Bat",
+   "zh": "蝙蝠",
+   "loot_table": "blinding_bat",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.crossbow_arrow",
+   "id": "crossbow_arrow",
+   "en": "Crossbow Arrow",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.vampirism.dark_blood_projectile",
+   "id": "dark_blood_projectile",
+   "en": "Dark Blood Projectile",
+   "zh": "暗血弹",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.vampirism.dead_mob",
+   "id": "dead_mob",
+   "en": "Dead mob",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.dracula",
+   "id": "dracula",
+   "en": "Dracula",
+   "zh": "德古拉",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.dummy_creature",
+   "id": "dummy_creature",
+   "en": "Dummy Creature",
+   "zh": "虚拟生物",
+   "loot_table": "dummy_creature",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.ghost",
+   "id": "ghost",
+   "en": "Ghost",
+   "zh": "",
+   "loot_table": "ghost",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.villager_hunter_faction",
+   "id": "villager_hunter_faction",
+   "en": "Hunter Expert",
+   "zh": "吸血鬼猎人专家",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.minecraft.villager.vampirism.hunter_expert",
+   "id": "hunter_expert",
+   "en": "Hunter Expert",
+   "zh": "吸血鬼猎人专家",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.hunter_minion",
+   "id": "hunter_minion",
+   "en": "Hunter Minion",
+   "zh": "猎人随从",
+   "loot_table": "hunter_minion",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.task_master_hunter",
+   "id": "task_master_hunter",
+   "en": "Hunter Representative",
+   "zh": "猎人特使",
+   "loot_table": "task_master_hunter",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.portal_guard",
+   "id": "portal_guard",
+   "en": "Portal Guard",
+   "zh": "门卫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.minecraft.villager.vampirism.priest",
+   "id": "priest",
+   "en": "Priest",
+   "zh": "牧师",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.hunter_trainer_dummy",
+   "id": "hunter_trainer_dummy",
+   "en": "Undercover Hunter Trainer",
+   "zh": "秘密猎人教官",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.vampire",
+   "id": "vampire",
+   "en": "Vampire",
+   "zh": "吸血鬼",
+   "loot_table": "vampire",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.vampire_imob",
+   "id": "vampire_imob",
+   "en": "Vampire",
+   "zh": "吸血鬼",
+   "loot_table": "vampire_imob",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.vampire_baron",
+   "id": "vampire_baron",
+   "en": "Vampire Baron",
+   "zh": "吸血鬼男爵",
+   "loot_table": "vampire_baron",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.converted_cow",
+   "id": "converted_cow",
+   "en": "Vampire Cow",
+   "zh": "吸血鬼牛",
+   "loot_table": "converted_cow",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.converted_creature",
+   "id": "converted_creature",
+   "en": "Vampire Creature",
+   "zh": "吸血鬼生物",
+   "loot_table": "converted_creature",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.converted_creature_imob",
+   "id": "converted_creature_imob",
+   "en": "Vampire Creature",
+   "zh": "吸血鬼生物",
+   "loot_table": "converted_creature_imob",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.converted_donkey",
+   "id": "converted_donkey",
+   "en": "Vampire Donkey",
+   "zh": "吸血鬼驴",
+   "loot_table": "converted_donkey",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.villager_vampire_faction",
+   "id": "villager_vampire_faction",
+   "en": "Vampire Expert",
+   "zh": "吸血鬼专家",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.minecraft.villager.vampirism.vampire_expert",
+   "id": "vampire_expert",
+   "en": "Vampire Expert",
+   "zh": "吸血鬼专家",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.converted_horse",
+   "id": "converted_horse",
+   "en": "Vampire Horse",
+   "zh": "吸血鬼马",
+   "loot_table": "converted_horse",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.vampire_hunter",
+   "id": "vampire_hunter",
+   "en": "Vampire Hunter",
+   "zh": "吸血鬼猎人",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.hunter",
+   "id": "hunter",
+   "en": "Vampire Hunter",
+   "zh": "吸血鬼猎人",
+   "loot_table": "hunter",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.hunter_imob",
+   "id": "hunter_imob",
+   "en": "Vampire Hunter",
+   "zh": "吸血鬼猎人",
+   "loot_table": "hunter_imob",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.hunter_trainer",
+   "id": "hunter_trainer",
+   "en": "Vampire Hunter Trainer",
+   "zh": "吸血鬼猎人教官",
+   "loot_table": "hunter_trainer",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.vampire_minion",
+   "id": "vampire_minion",
+   "en": "Vampire Minion",
+   "zh": "吸血鬼随从",
+   "loot_table": "vampire_minion",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.converted_mule",
+   "id": "converted_mule",
+   "en": "Vampire Mule",
+   "zh": "吸血鬼骡",
+   "loot_table": "converted_mule",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.task_master_vampire",
+   "id": "task_master_vampire",
+   "en": "Vampire Representative",
+   "zh": "吸血鬼特使",
+   "loot_table": "task_master_vampire",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.converted_sheep",
+   "id": "converted_sheep",
+   "en": "Vampire Sheep",
+   "zh": "吸血鬼羊",
+   "loot_table": "converted_sheep",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.villager_converted",
+   "id": "villager_converted",
+   "en": "Vampire Villager",
+   "zh": "吸血鬼村民",
+   "loot_table": "villager_converted",
+   "projectile": false
+  },
+  {
+   "key": "entity.vampirism.vulnerable_remains_dummy",
+   "id": "vulnerable_remains_dummy",
+   "en": "Vulnerable Remains",
+   "zh": "易损的遗孽块",
+   "loot_table": "",
+   "projectile": false
+  }
+ ]
+}

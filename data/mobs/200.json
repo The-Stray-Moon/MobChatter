@@ -1,0 +1,27 @@
+{
+ "rank": 200,
+ "mod": "Slenderman: The Revival",
+ "mod_url": "https://modrinth.com/mod/slenderman-the-revival",
+ "mobs": [
+  {
+   "mob_id": "slenderman:slenderman",
+   "name_en": "Slenderman",
+   "name_zh": "",
+   "description_zh": "只出现在 Slender Forest 生物群系中：摧毁该群系结构里的书页（Page）后可能获得「Slender Attraction」效果，该效果每个游戏刻约有 0.1% 概率在玩家附近生成它（概率随难度变化）。它会跟踪并传送逼近玩家，被玩家注视一段时间后发动攻击，还能攀爬柱子（可攀高度取决于难度）；玩家离开 Slender Forest 后它会在 30 秒后消失。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/slenderman-the-revival",
+   "confidence": 0.9,
+   "notes": "正文未给出生命值/伤害数值；其掉落物在正文中未直接说明。"
+  },
+  {
+   "mob_id": "slenderman:victim_ghost",
+   "name_en": "Victim's Ghost",
+   "name_zh": "",
+   "description_zh": "Slenderman 被击杀时可能生成的幽灵，会掉落 Slender Souls（正文另一处写作 Victim's Souls），该材料可用于合成 Slender Sword（18 点攻击伤害，并会施加吸引 Slenderman 的 Slender Attraction 效果）与能阻止 Slenderman 发怒的 Slender Mask。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/slenderman-the-revival",
+   "confidence": 0.85,
+   "notes": "jar 内存在 loot_tables/entities/victim_ghost.json，与正文掉率描述一致；正文对材料名有 Slender Souls / Victim's Souls 两种写法。"
+  }
+ ]
+}

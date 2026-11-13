@@ -1,0 +1,997 @@
+{
+ "rank": 120,
+ "mod": "The Deep Void",
+ "mod_url": "https://modrinth.com/mod/sombrius-the-deep-void",
+ "mobs": [
+  {
+   "mob_id": "the_deep_void:abductor",
+   "name_en": "Abductor",
+   "name_zh": "虚空诱饵",
+   "description_zh": "全黑的人形怪物，脸上刻着诡异的笑容；靠近时会尖叫，使玩家减速、失明并被拉近，贴得太近会被抓住送进虚空，下蹲可挣脱，传送后自身消失。攻击附带 3 秒腐烂 I，不掉落物品，在主世界亮度 0 的黑暗处生成。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "模组正文只提到它会把玩家绑架到虚空，具体行为来自 wiki"
+  },
+  {
+   "mob_id": "the_deep_void:alpha_bone_crawler",
+   "name_en": "Alpha Bone Crawler",
+   "name_zh": "髓骨成虫",
+   "description_zh": "成年雄性髓骨虫，行为与幼虫相同但更强，攻击造成 4 秒腐烂 III。生成于髓骨虫巢和填埋墓园，不掉落物品。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "生命值 45"
+  },
+  {
+   "mob_id": "the_deep_void:baby_bone_crawler",
+   "name_en": "Baby Bone Crawler",
+   "name_zh": "髓骨幼虫",
+   "description_zh": "与普通髓骨虫行为相似的幼虫，只会从打碎的髓骨虫卵中生成；玩家可以孵化虫卵并驯服成髓骨虫。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "生命值 5"
+  },
+  {
+   "mob_id": "the_deep_void:prison_guard",
+   "name_en": "Banished Guard",
+   "name_zh": "放逐守卫",
+   "description_zh": "异端监狱的守卫，本身也是囚犯，死后仍继续履行看守职责。生成于监狱结构，有 8% 概率掉落缟玛瑙薙刀。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:bone_crawler",
+   "name_en": "Bone Crawler",
+   "name_zh": "髓骨虫",
+   "description_zh": "灰色甲虫状的昆虫，藏在虚空的白骨中，成群捕猎并造成 7 秒腐烂 I。站在骨块上会隐形并冒出骨屑，在骨块下方时无法受到伤害；有几率掉落 2-4 份骨髓或骨头。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:centigaze",
+   "name_en": "Centigaze",
+   "name_zh": "万视蜈蚣",
+   "description_zh": "藏在荒土中等待猎物的蜈蚣，潜伏时会发出独特的咔嗒声，猎物靠近便破土攻击。有几率掉落虚空透镜、腐骨、荒土或阴莓。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:centigaze_hidden",
+   "name_en": "Centigaze",
+   "name_zh": "万视蜈蚣",
+   "description_zh": "万视蜈蚣埋在荒土里的潜伏形态，只会在风蚀洼地以下生成，猎物靠近时才钻出地面。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "潜伏状态实体"
+  },
+  {
+   "mob_id": "the_deep_void:death_maw",
+   "name_en": "Death's Maw",
+   "name_zh": "死口",
+   "description_zh": "藏在风蚀洼地灰烬中的猎手，玩家踩到就会被咬住，下蹲可挣脱，逃脱会激怒它。咬住时造成 1.5 秒腐烂 I，掉落腐骨、骨头、虚空灰或坏死皮肤。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:death_maw_hidden",
+   "name_en": "Death's Maw",
+   "name_zh": "死口",
+   "description_zh": "死口埋在灰烬中的潜伏形态，生成于风蚀洼地，等待受害者踩上来。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "潜伏状态实体"
+  },
+  {
+   "mob_id": "the_deep_void:death_vulture",
+   "name_en": "Death Vulture",
+   "name_zh": "死亡秃鹫",
+   "description_zh": "食腐兼机会主义捕食者，会先观察目标再扑击，不受摔落伤害，并会呼叫附近同类。低血量时可用秃鹫口套驯服骑乘，骑乘时用骑鞭冲刺；掉落羽毛、腐骨和骨头。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:muzzled_death_vulture",
+   "name_en": "Muzzled Death Vulture",
+   "name_zh": "死亡秃鹫",
+   "description_zh": "已被套上口套的死亡秃鹫，可被玩家骑乘，其他行为与普通死亡秃鹫一致。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "可骑乘变体"
+  },
+  {
+   "mob_id": "the_deep_void:fool_eater",
+   "name_en": "Fool Eater",
+   "name_zh": "钓愚者",
+   "description_zh": "高大黑色人形生物，身上长满模仿游魂的眼睛来引诱猎物，只有玩家靠近才站起，伴随骨裂声追击，速度略快于玩家。有几率掉落腐骨、坏死皮肤、黑苔和虚空根。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:forsaken",
+   "name_en": "Forsaken",
+   "name_zh": "被弃教徒",
+   "description_zh": "古代教派未能飞升的成员，平时半身埋在地下，玩家靠近才钻出攻击；玩家带有虚空祝福时不会攻击。受击时有几率格挡、跃远或在玩家背后吐痰施加虚弱、缓慢和中毒，每次攻击固定扣半颗心并无视护甲。生成于聚集地，无掉落。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:gaoler",
+   "name_en": "Gaoler",
+   "name_zh": "督狱徒",
+   "description_zh": "异端监狱的看守，会把靠得太近的玩家关进笼子，必须打碎笼子才能逃脱。生成于异端监狱，无掉落。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:goo_spitter",
+   "name_en": "Goo Spitter",
+   "name_zh": "吐黏虫",
+   "description_zh": "类似髓骨虫的生物，攻击时会把受害者困在黏液网中。有几率掉落黏液球、骨头或骨髓。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:gravekeeper",
+   "name_en": "Gravekeeper",
+   "name_zh": "守墓人",
+   "description_zh": "长着钩状手和满口尖牙的高大生物，动作抽搐，发现目标会从远处跃扑，速度很快。攻击造成 5 秒腐烂 I，会吃掉周围的尸体并把骨头变成腐骨；掉落腐骨、骨髓、骨头和头骨，2% 概率掉落腐烂镰刀。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:hollowed",
+   "name_en": "Hollowed",
+   "name_zh": "空洞人",
+   "description_zh": "在深层骨髓中游荡的腐化生物，成群狩猎，会尖叫呼叫同类，并能操纵骨髓用骨笼困住猎物。无掉落。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:lurker",
+   "name_en": "Lurker",
+   "name_zh": "伏地骨",
+   "description_zh": "由腐骨构成的三头静态生物，会发射骨球并造成 7 秒凋零 I；受到攻击后会朝攻击者挖掘，并使玩家短暂失明。有几率掉落伏地骨头或腐骨。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:mad_cultist",
+   "name_en": "Mad Cultist",
+   "name_zh": "Mad Cultist",
+   "description_zh": "使徒的信徒，教派衰落后随首领一同发疯。生成于俯瞰堡垒，掉落邪教护甲部件、仪式匕首和暗钢苦无。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:maggot",
+   "name_en": "Maggot",
+   "name_zh": "渊蛆",
+   "description_zh": "寄生在生物或卵中的蛆虫，会长成渊蝇。生成于髓骨虫巢或通过钓鱼获得，也会由寄生效果产生，掉落渊蝇蛆。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:maniac",
+   "name_en": "Maniac",
+   "name_zh": "Maniac",
+   "description_zh": "原教派成员，在阴森树冠猎杀死亡秃鹫；他的霰弹枪极其致命，近距离能一枪打死穿全套下界合金的玩家。掉落双管霰弹枪、摆渡人灯笼、火药、暗钢锁甲和暗布。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:masked_hunter",
+   "name_en": "Masked Hunter",
+   "name_zh": "遮面猎手",
+   "description_zh": "人造生物，在森林中设陷阱、以森林作伪装捕猎，能用小刀施加腐烂和中毒，并召唤骨刺封锁猎物的退路。必定掉落 8 张猎人皮革，生成于森林、白桦林、黑森林、针叶林等多种森林群系。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:mimic",
+   "name_en": "Mimic",
+   "name_zh": "拟态",
+   "description_zh": "会模仿玩家并复制其装备的生物。生成于迷雾遗迹，有几率掉落迷雾骨。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:mother_bone_crawler",
+   "name_en": "Mother Bone Crawler",
+   "name_zh": "髓骨母虫",
+   "description_zh": "成年雌性髓骨虫，不能像其他髓骨虫那样藏进骨头；受击会呼叫附近同类，还可能从背上的卵中召唤髓骨虫、幼虫或吐黏虫，死亡时放出 2-8 只幼虫。攻击造成 7 秒腐烂 II，极低概率掉落髓骨虫卵。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:overseer",
+   "name_en": "Overseer",
+   "name_zh": "全视者",
+   "description_zh": "由飞升教徒的尸体砌成的生物，模仿漂移独石：未被注视时像一具高大骨架，被注视时变成柱子，只有镐能伤害它，柱形态也不会反击。必定掉落独石和先知，有几率掉落朱砂，生成于漂移独石群系。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:overseer_pillar",
+   "name_en": "Overseer",
+   "name_zh": "全视者",
+   "description_zh": "全视者的柱形态，被玩家注视时出现，只能用镐伤害且不会反击。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "形态变体"
+  },
+  {
+   "mob_id": "the_deep_void:big_overseer",
+   "name_en": "Big Overseer",
+   "name_zh": "巨型全视者",
+   "description_zh": "更高大的全视者变体，以三格高的柱形态出现，属性和行为与普通全视者相近。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "巨型变体"
+  },
+  {
+   "mob_id": "the_deep_void:overseer_big_pillar",
+   "name_en": "Big Overseer",
+   "name_zh": "巨型全视者",
+   "description_zh": "巨型全视者的三格高柱形态，生成于漂移独石群系；被注视时化为柱子，只能用镐伤害且不会反击。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "形态变体"
+  },
+  {
+   "mob_id": "the_deep_void:built_overseer",
+   "name_en": "Overseer",
+   "name_zh": "全视者",
+   "description_zh": "玩家用独石、先知和虚空之眼右键自建的两格高全视者，行为与自然生成的全视者相同，可被镐伤害。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "玩家自建变体"
+  },
+  {
+   "mob_id": "the_deep_void:built_overseer_pillar",
+   "name_en": "Built Overseer",
+   "name_zh": "全视者",
+   "description_zh": "玩家用独石、先知和虚空之眼右键自建的两格高柱形态全视者，行为与自然生成的全视者相同，可被镐伤害。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "玩家自建变体"
+  },
+  {
+   "mob_id": "the_deep_void:built_big_overseer",
+   "name_en": "Big Overseer",
+   "name_zh": "巨型全视者",
+   "description_zh": "玩家用独石、先知和虚空之眼右键自建的三格高全视者，行为与自然生成的全视者相同，可被镐伤害。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "玩家自建变体"
+  },
+  {
+   "mob_id": "the_deep_void:built_big_overseer_pillar",
+   "name_en": "Big Overseer",
+   "name_zh": "巨型全视者",
+   "description_zh": "玩家用独石、先知和虚空之眼右键自建的三格高柱形态全视者，行为与自然生成的全视者相同，可被镐伤害。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "玩家自建变体"
+  },
+  {
+   "mob_id": "the_deep_void:penitent",
+   "name_en": "Penitent",
+   "name_zh": "忏罪徒",
+   "description_zh": "被判入异端监狱的罪人，背负着罪孽的重物；攻击时用十字架造成很高击退，若被盾牌格挡会陷入眩晕。生成于异端监狱，无掉落。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:rotten_corpse",
+   "name_en": "Rotten Corpse",
+   "name_zh": "腐尸",
+   "description_zh": "被腐烂侵蚀的冒险者骸骨，见到玩家就攻击，攻击造成 5 秒腐烂 I。生成于灰烬峭壁、填埋墓园以及带刷怪笼的结构，掉落骨头和腐骨。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:rooted",
+   "name_en": "Rooted",
+   "name_zh": "扎根之物",
+   "description_zh": "由扭曲根须构成的生物，发现目标会制造两个分身并遮住受害者视野；受击时会与分身交换位置，直到分身耗尽。有几率掉落虫蛀腐木、腐骨、悬挂骨髓或不安之根。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:rooted_clone",
+   "name_en": "Rooted Clone",
+   "name_zh": "扎根之物",
+   "description_zh": "扎根之物制造的分身，用于替本体承受攻击和交换位置。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "分身实体"
+  },
+  {
+   "mob_id": "the_deep_void:rotten_cult_member",
+   "name_en": "Rotten Cultist",
+   "name_zh": "腐烂的邪教徒",
+   "description_zh": "腐尸的强化版，有概率在腐尸生成时代替它出现。掉落破损的邪教护甲、骨头和腐骨。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:stalker",
+   "name_en": "Stalker",
+   "name_zh": "追踪者",
+   "description_zh": "追踪者是模组用来惩罚长时间待在黑暗中的玩家的机制生物，类似监守者：在黑暗里停留过久就会现身，出现前会给两次警告，还会挖洞追到躲起来的玩家。它厌恶光，会逃离任何光源，可用信号枪的照明弹将其短暂眩晕，或投掷追踪者零食转移注意力，也能在配置文件中调整。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/sombrius-the-deep-void",
+   "confidence": 0.9,
+   "notes": "模组正文详细说明其惩罚黑暗的机制与应对方式"
+  },
+  {
+   "mob_id": "the_deep_void:watching_stalker",
+   "name_en": "Watching Stalker",
+   "name_zh": "追踪者",
+   "description_zh": "生成于聚集地的追踪者变体，生命值仅 10，但单次攻击伤害高达 68，像是用于监视或伏击的形态；其余行为资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sombrius-the-deep-void",
+   "confidence": 0.45,
+   "notes": "wiki 未单列该变体，数值取自 jar"
+  },
+  {
+   "mob_id": "the_deep_void:black_fly",
+   "name_en": "Void Fly",
+   "name_zh": "渊蝇",
+   "description_zh": "虚空中的巨型苍蝇，在有髓骨虫的地方迅速繁殖，会寄生虫卵或活体来繁衍后代；有时能闪避攻击，命中施加寄生。掉落渊蝇。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:void_dweller",
+   "name_en": "Void Watcher",
+   "name_zh": "虚视者",
+   "description_zh": "栖居在虚空洞穴深处的神秘生物，被注视时不会移动并使玩家失明，凝视太久会引来梦魇。有几率掉落腐骨，稀有掉落虚空透镜。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:prisoner",
+   "name_en": "Prisoner",
+   "name_zh": "悔恨囚徒",
+   "description_zh": "监狱中的囚徒类实体，生命值 45、护甲 5、攻击伤害 8，拥有独立掉落表，但具体行为和生成方式资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sombrius-the-deep-void",
+   "confidence": 0.4,
+   "notes": "wiki 与模组正文未介绍该实体"
+  },
+  {
+   "mob_id": "the_deep_void:shank_prisoner",
+   "name_en": "Shank Prisoner",
+   "name_zh": "持刀囚徒",
+   "description_zh": "持刀的囚徒变体，生命值 45、护甲 5、攻击伤害 6，使用近战攻击，具体生成与掉落资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sombrius-the-deep-void",
+   "confidence": 0.4,
+   "notes": "wiki 与模组正文未介绍该实体"
+  },
+  {
+   "mob_id": "the_deep_void:pit_prisoner",
+   "name_en": "Prisoner",
+   "name_zh": "Prisoner",
+   "description_zh": "深渊监狱中的囚徒变体，生命值 45、护甲 5、攻击伤害 8，具体行为与生成方式资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sombrius-the-deep-void",
+   "confidence": 0.4,
+   "notes": "wiki 与模组正文未介绍该实体"
+  },
+  {
+   "mob_id": "the_deep_void:amalgam",
+   "name_en": "Amalgam",
+   "name_zh": "血肉猎蛛",
+   "description_zh": "巨大的捕食者，在洞穴里伪装成深层板岩，被注视时会静止不动，目标靠近便卸下伪装追击。有几率掉落骨头、肉块、腐骨、牙齿和缟玛瑙，并必定掉落 2-8 块古肉。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:beholder",
+   "name_en": "Beholder",
+   "name_zh": "视觉神经",
+   "description_zh": "从肉地中伸出的眼睛，会盯住附近玩家并迫使其对视，自身也会发光（下蹲可避免）；对视期间永饿会被唤醒并开始追击。无掉落，生成于阴郁死地和凝视丘陵。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:devourer",
+   "name_en": "Devourer",
+   "name_zh": "吞噬者",
+   "description_zh": "行动缓慢的生物，用长舌把受害者拉向自己。有几率掉落触须或吞噬者触须，生成于阴郁死地。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:summoned_devourer",
+   "name_en": "Devourer",
+   "name_zh": "吞噬者",
+   "description_zh": "被召唤出来的吞噬者，生命值低于自然生成个体，行为相同。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "召唤变体"
+  },
+  {
+   "mob_id": "the_deep_void:everhunger",
+   "name_en": "Everhunger",
+   "name_zh": "永饿",
+   "description_zh": "死亡之地的守望者，未警觉时完全静止；玩家靠得太近（未下蹲）或被视觉神经发现就会苏醒，并永久锁定追击。必定掉落 2-4 块古肉，5% 概率掉落肉手套。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:eyekin",
+   "name_en": "Eyekin",
+   "name_zh": "眼龙",
+   "description_zh": "在凝视丘陵游荡的巨型飞行龙状集群生物，既能在地面行走也能飞行。无掉落。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:eyekin_flying",
+   "name_en": "Eyekin",
+   "name_zh": "眼龙",
+   "description_zh": "眼龙的飞行形态，在凝视丘陵上空盘旋；属性与普通眼龙相同，可飞行且无掉落。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "形态变体"
+  },
+  {
+   "mob_id": "the_deep_void:rideable_eyekin",
+   "name_en": "Eyekin",
+   "name_zh": "眼龙",
+   "description_zh": "可被玩家骑乘的眼龙变体，主要在地面活动；其余行为与普通眼龙相同，无掉落。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "可骑乘变体"
+  },
+  {
+   "mob_id": "the_deep_void:rideable_flying_eyekin",
+   "name_en": "Eyekin",
+   "name_zh": "眼龙",
+   "description_zh": "可骑乘的飞行眼龙变体，供玩家在空中移动；属性与普通眼龙相同，无掉落。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "可骑乘变体"
+  },
+  {
+   "mob_id": "the_deep_void:eye_of_the_watcher",
+   "name_en": "Eye Of The Watcher",
+   "name_zh": "观者之眼",
+   "description_zh": "蜂巢意志的监视者，被杀后会在原地召唤观者。生成于观者密室，无掉落。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:flesh_cube",
+   "name_en": "Flesh Cube",
+   "name_zh": "血肉块",
+   "description_zh": "史莱姆状的血肉生物，会弹跳着攻击视野内的一切，死亡时分裂出四只小血肉块。有几率掉落脓球、肉块或触须。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:small_flesh_cube",
+   "name_en": "Small Flesh Cube",
+   "name_zh": "血肉块",
+   "description_zh": "血肉块死亡后分裂出的小型个体，生命值较低但同样会弹跳攻击。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "分裂变体"
+  },
+  {
+   "mob_id": "the_deep_void:flesh_fangs",
+   "name_en": "Flesh Fangs",
+   "name_zh": "血牙",
+   "description_zh": "从地面冒出的血牙，会夹住附近的玩家造成伤害，由憎厌群志召唤。无掉落。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:flesh_lamprey",
+   "name_en": "Flesh Lamprey",
+   "name_zh": "肉蛭",
+   "description_zh": "栖息在死亡之地血肉中的捕食者，能像游水一样穿过血肉与血液；可通过钓鱼获得，掉落七鳃鳗。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:gore_expectorator",
+   "name_en": "Gore Expectorator",
+   "name_zh": "骨肉柱",
+   "description_zh": "高瘦的血肉团，靠触须移动，会快速向附近玩家吐血，有时发射脓球。掉落腐骨、肉块和脓球。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:gore_lurker",
+   "name_en": "Gore Lurker",
+   "name_zh": "踪血兽",
+   "description_zh": "在死亡之地游荡的巨型蜘蛛，咬击致命并施加绽放效果。无掉落。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:hive_brain",
+   "name_en": "Hive's Brain",
+   "name_zh": "集群之脑",
+   "description_zh": "蜂巢意志的中心，被杀后会在原地召唤憎厌群志。生成于蜂巢密室，无掉落。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:hive_fangs",
+   "name_en": "Hive Fangs",
+   "name_zh": "集群之牙",
+   "description_zh": "由观者召唤的尖牙，行为类似唤魔者的尖牙，对附近实体造成伤害；生命值仅 1，无掉落。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:summoned_hive_fangs",
+   "name_en": "Hive Fangs",
+   "name_zh": "集群之牙",
+   "description_zh": "被召唤出的集群之牙，对附近实体造成伤害，生命值仅 1 且无掉落。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "召唤变体"
+  },
+  {
+   "mob_id": "the_deep_void:licker",
+   "name_en": "Licker",
+   "name_zh": "舔咬之口",
+   "description_zh": "倒挂在洞穴顶部的生物，伸出舌头抓取下方猎物；抓住后会把玩家拉到嘴边啃食并回复自身生命。有几率掉落舔舌。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:preserver",
+   "name_en": "Preserver",
+   "name_zh": "寄肉块",
+   "description_zh": "维护死亡之地的生物，会攻击外来者并清除遇到的脓液；攻击时会附着在玩家身上。无掉落。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:saw_thrower",
+   "name_en": "Saw Thrower",
+   "name_zh": "掷锯人",
+   "description_zh": "没有腿、靠四只手臂缓慢移动的生物，能向四个方向投掷骨锯、旋转造成持续伤害，并传送到目标背后。由憎厌群志召唤，无掉落。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:scarecrow",
+   "name_en": "Scarecrow",
+   "name_zh": "稻草人",
+   "description_zh": "手臂上挂着眼睛的巨型血肉生物，在凝视丘陵游荡；玩家靠近会被迫注视它并听到四周的乌鸦声，同时附近的集群眼和眼龙会一起锁定玩家。无掉落。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:skull_smasher",
+   "name_en": "Skull Smasher",
+   "name_zh": "碎颅者",
+   "description_zh": "缓慢而壮硕的血肉生物，披着厚骨甲，以巨大的骨锤作为武器和手臂。由憎厌群志召唤，无掉落。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:spore_spewer",
+   "name_en": "Spore Spewer",
+   "name_zh": "洒脓肉",
+   "description_zh": "蜘蛛状生物，背上顶着一袋脓液，靠近目标时喷发脓液，使周围所有实体获得 12 秒反胃 IV 和中毒 I。有几率掉落脓球或化脓肉块。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:swarmer",
+   "name_en": "Swarmer",
+   "name_zh": "集群眼",
+   "description_zh": "成群的飞行眼球，能从很远处发现玩家并冲刺攻击。必定掉落 1 个眼球，生成于凝视丘陵。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:bog_walker",
+   "name_en": "Bog Walker",
+   "name_zh": "踏沼魔",
+   "description_zh": "虚空生物，靠近时用触手抓住猎物；在黑暗中以极快速度回复生命，光照会完全停止这种治疗。生成于污秽沼泽，无掉落。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:seeker",
+   "name_en": "Formed Void",
+   "name_zh": "初成虚无",
+   "description_zh": "虚空偶尔凝聚成的生物形态，没有思想，只凭本能攻击见到的一切，不感饥饿与疼痛。可通过钓鱼获得，掉落 1-2 块固体虚空。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:voidborn",
+   "name_en": "Voidborn",
+   "name_zh": "虚诞",
+   "description_zh": "深洞黑暗中的黑色生命，会袭击任何探索洞穴的玩家；在黑暗中产生幻觉时用缟玛瑙针刺入自己即可召唤它。它会掉落虚空之心，可用于制作虚空精华。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/sombrius-the-deep-void",
+   "confidence": 0.9,
+   "notes": "wiki 另有关于光照、回血和触手的详细机制"
+  },
+  {
+   "mob_id": "the_deep_void:void_tentacle",
+   "name_en": "Void Tentacle",
+   "name_zh": "虚空触手",
+   "description_zh": "由液态虚空构成的巨型触手，黑暗中极速回血，光照会停止治疗。生成于污秽沼泽，无掉落。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:roamer",
+   "name_en": "Roamer",
+   "name_zh": "游荡兽",
+   "description_zh": "在墓地成群游荡的中立生物，只在玩家饥饿、低血量或带有负面效果时发动攻击。必定掉落骨头和腐骨。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:undertaker",
+   "name_en": "Undertaker",
+   "name_zh": "Undertaker",
+   "description_zh": "在虚空地表游荡、向玩家出售战利品的商人，始终掉落 2 瓶高级经验瓶。除灰烬峭壁、污秽沼泽、虫巢、阴郁死地、迷雾遗迹和凝视丘陵外，他可以在任意地表生成，但需要玩家存活 20 分钟后才有概率出现。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:damned",
+   "name_en": "Damned",
+   "name_zh": "游魂",
+   "description_zh": "死在虚空的冒险者，会静止凝视附近玩家；若旁边有光源，会缓慢走向并破坏它，玩家靠得太近或光源被破坏后消失。无掉落，生成于遗忘谷、阴森树冠、灰烬峭壁等多个群系。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:big_eye",
+   "name_en": "Big Eye Damned",
+   "name_zh": "游魂",
+   "description_zh": "游魂的头部变体，长着一只大眼睛，行为与其他游魂相同：凝视玩家并破坏附近光源。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "外观变体"
+  },
+  {
+   "mob_id": "the_deep_void:cross_eyes",
+   "name_en": "Cross Eyes Damned",
+   "name_zh": "游魂",
+   "description_zh": "游魂的十字眼变体，行为与其他游魂相同：凝视玩家并破坏附近光源。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "外观变体"
+  },
+  {
+   "mob_id": "the_deep_void:four_eyes",
+   "name_en": "Four Eyes Damned",
+   "name_zh": "游魂",
+   "description_zh": "游魂的四眼变体，行为与其他游魂相同：凝视玩家并破坏附近光源。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "外观变体"
+  },
+  {
+   "mob_id": "the_deep_void:multiple_eyes",
+   "name_en": "Multiple Eyes Damned",
+   "name_zh": "游魂",
+   "description_zh": "游魂的多眼变体，行为与其他游魂相同：凝视玩家并破坏附近光源。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": "外观变体"
+  },
+  {
+   "mob_id": "the_deep_void:mourner",
+   "name_en": "Mourner",
+   "name_zh": "空哀",
+   "description_zh": "和平的神秘生物，哀悼虚空各处的尸体；靠近其他实体时会把悲伤与绝望传播过去，施加 8 秒内心已死 I 和黑暗 I。有几率掉落坏死皮肤、腐骨、头骨或骨头。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:wanderer",
+   "name_en": "Wanderer",
+   "name_zh": "流浪虚嗣",
+   "description_zh": "长颈、骨架构成的生物，游荡在虚空的荒地上；可用阴莓驯服并骑乘，骑乘时会给玩家 0.5 秒虚空祝福，阻止追踪者靠近。遇到另一只流浪虚嗣时会钻入地下消失并留下黑苔，掉落腐骨、骨髓、骨头和腐草。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:executioner",
+   "name_en": "Executioner",
+   "name_zh": "Executioner",
+   "description_zh": "驻守俯瞰堡垒空地下城的处刑者，护甲能让箭矢弹开、普通攻击无法伤害他，只有冲刺攻击才能让他进入可受伤状态。掉落处刑者之剑、8 块精炼缟玛瑙和 4 瓶高级经验瓶。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:flail_executioner",
+   "name_en": "Flail Executioner",
+   "name_zh": "Flail Executioner",
+   "description_zh": "使用连枷的处刑者变体，生命值低于持剑个体，同样需要冲刺攻击才能破防。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sombrius-the-deep-void",
+   "confidence": 0.45,
+   "notes": "wiki 未单列该变体"
+  },
+  {
+   "mob_id": "the_deep_void:flesh_worm",
+   "name_en": "Flesh Worm",
+   "name_zh": "血肉蠕虫",
+   "description_zh": "死亡之地的顶级捕食者，以刺耳的尖叫声宣告存在；在阴郁死地或凝视丘陵放下肉槌即可召唤。掉落 1-2 颗蠕虫牙。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:primordial_bone_crawler",
+   "name_en": "Primordial Bone Crawler",
+   "name_zh": "太古髓骨虫",
+   "description_zh": "所有髓骨虫的女王，生活在虫巢深处受保护的茧中。战斗会砸地击飞玩家、连续吐痰、钻地追击并从别处破土，最后冲刺接砸击；击败后掉落 4 瓶高级经验瓶、12 块髓骨虫蜕壳、1 枚髓骨虫卵和 2 个金苹果，8% 概率掉落锈爪。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Bosses",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:sleeping_primordial_crawler",
+   "name_en": "Sleeping Bone Crawler",
+   "name_zh": "太古髓骨虫",
+   "description_zh": "太古髓骨虫沉睡在茧中的形态，攻击它会唤醒女王并开始 Boss 战。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Bosses",
+   "confidence": 0.85,
+   "notes": "Boss 前置形态"
+  },
+  {
+   "mob_id": "the_deep_void:apostle_boss",
+   "name_en": "Apostle of Catastrophe",
+   "name_zh": "Apostle Of Catastrophe",
+   "description_zh": "灾祸使徒，教派覆灭后陷入疯狂，在圣所反复念诵古老祷词。战斗中有分叉飞刀、三连飞刀、后跃扫射、双段/三段冲刺斩、旋转追击、慢速重斩、抓取投技、传送和踏地等招式，半血后传送更频繁。掉落 5 瓶高级经验瓶、12 份神圣朱砂和 2 个金苹果，另有各 50% 概率的刀套、链手甲、远古枪零件，8% 概率锈爪。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Bosses",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:idling_apostle",
+   "name_en": "Idling Apostle",
+   "name_zh": "灾祸使徒",
+   "description_zh": "灾祸使徒在圣所中的待机形态，受到攻击后才会苏醒进入 Boss 战。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Bosses",
+   "confidence": 0.85,
+   "notes": "Boss 前置形态"
+  },
+  {
+   "mob_id": "the_deep_void:apostle_clone",
+   "name_en": "Apostle Clone",
+   "name_zh": "Apostle Clone",
+   "description_zh": "灾祸使徒在战斗中使用的克隆体，生命值和攻击力都低于本体，用于干扰玩家。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sombrius-the-deep-void",
+   "confidence": 0.45,
+   "notes": "wiki 未单列该实体"
+  },
+  {
+   "mob_id": "the_deep_void:misanthropic_hivemind",
+   "name_en": "Misanthropic Hivemind",
+   "name_zh": "憎厌群志",
+   "description_zh": "死亡之地蜂巢意志的首领，由血肉、骨头和筋腱聚成。会以十字和 X 形召唤血牙、喷血、把玩家吸向自己，半血时召唤掷锯人和碎颅者，小兵存活期间本体无法受伤；在蜂巢密室击杀集群之脑即可召唤。掉落 2 瓶高级经验瓶、1 个硬肉锻造模板、16 根肉骨和 2 个金苹果，8% 概率锈爪。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Bosses",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:hive_watcher",
+   "name_en": "Hive's Watcher",
+   "name_zh": "观者",
+   "description_zh": "获得知觉的血肉聚合体，用遍布生物群系的无数眼睛监视死亡之地。会旋转后发射三颗脓球留下脓池、睁眼冲撞玩家，撞墙时召出星形排列的牙齿；在观者密室击杀观者之眼即可召唤。掉落 2 瓶高级经验瓶、1 个硬肉锻造模板、2 瓶脓液、12 块仙馔肉和 2 个金苹果，8% 概率锈爪。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Bosses",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:false_hydra",
+   "name_en": "False Hydra",
+   "name_zh": "False Hydra",
+   "description_zh": "在迷雾遗迹中以“？”实体出现四次后现身的 Boss。战斗会先施加 Adaptive、Dominate、Gluttony 或 Terror 之一（半血后可叠加），随后连续四次咬击、砸地召出胳膊，再视距离选择横扫或投掷骨巨石，最后滑行撞击；附近没有玩家时会自愈，可用记忆吊坠再次挑战。掉落 3 瓶高级经验瓶、1 颗畸变之心、4 块迷雾骨堆、2 个金苹果，8% 概率锈爪。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Bosses",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:weaver_of_souls_boss",
+   "name_en": "Weaver of Souls",
+   "name_zh": "灵魂织者",
+   "description_zh": "被锁在古代坟墓中的最后一位灵魂织者，掌握把灵魂织成他物的技术。战斗中本体无敌，玩家需在圣髑堂四角找到灵魂球并带到对面的容器，才能让他眩晕并受到伤害。掉落 6 瓶高级经验瓶、12 块灵魂碎片、1 个灵魂锻造模板和 2 个金苹果，8% 概率锈爪。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Bosses",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "the_deep_void:chained_weaver",
+   "name_en": "Chained Weaver Of Souls",
+   "name_zh": "灵魂织者",
+   "description_zh": "灵魂织者被锁链束缚在圣髑堂中的形态，打中他 9 次后锁链断裂并进入 Boss 战。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Bosses",
+   "confidence": 0.85,
+   "notes": "Boss 前置形态"
+  },
+  {
+   "mob_id": "the_deep_void:warden_of_the_pit",
+   "name_en": "Warden Of The Pit",
+   "name_zh": "Warden Of The Pit",
+   "description_zh": "在 jar 中注册的深渊守卫实体，生命值 1024、攻击伤害 42，但没有刷怪蛋、自然生成或掉落表数据，具体行为资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sombrius-the-deep-void",
+   "confidence": 0.4,
+   "notes": "wiki 与模组正文均未介绍"
+  },
+  {
+   "mob_id": "the_deep_void:cathedral_ghost",
+   "name_en": "Cathedral Ghost",
+   "name_zh": "Cathedral Ghost",
+   "description_zh": "在 jar 中注册的教堂幽灵实体，没有刷怪蛋、自然生成和掉落表数据，也未在官方 wiki 中介绍，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/sombrius-the-deep-void",
+   "confidence": 0.35,
+   "notes": "仅能确认实体注册信息"
+  },
+  {
+   "mob_id": "the_deep_void:ghostly_nightmare",
+   "name_en": "Ghostly Nightmare",
+   "name_zh": "鬼魅梦魇",
+   "description_zh": "被虚视者凝视太久时引来的梦魇，是虚视者机制的惩罚生物；除此之外的具体行为和掉落资料有限。",
+   "source": "wiki",
+   "source_url": "https://github.com/TroupeMaster/TheDeepVoid/wiki/Mobs",
+   "confidence": 0.6,
+   "notes": "仅在虚视者条目中间接提及"
+  }
+ ]
+}

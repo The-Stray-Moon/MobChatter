@@ -1,0 +1,862 @@
+{
+ "rank": 93,
+ "mod": "Fossils and Archeology: Revival",
+ "slug": "fossils-and-archeology-revival",
+ "project_id": "IJY7IqPP",
+ "source_url": "https://modrinth.com/mod/fossils-and-archeology-revival",
+ "jar": "D:\\work\\MobChatter\\data\\jars\\IJY7IqPP.jar",
+ "jar_size": 29642542,
+ "modid": "fossil",
+ "entity_count": 106,
+ "mob_count": 102,
+ "entities": [
+  {
+   "key": "entity.fossil.order.follow",
+   "id": "follow",
+   "en": "%s is following",
+   "zh": "%s正在跟随",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.order.stay",
+   "id": "stay",
+   "en": "%s is staying",
+   "zh": "%s正待在原地",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.order.wander",
+   "id": "wander",
+   "en": "%s is wandering",
+   "zh": "%s正在闲逛",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.dinosaur_egg.hatched",
+   "id": "hatched",
+   "en": "A prehistoric egg has hatched!",
+   "zh": "有颗蛋孵化了!",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.fossil.alligator_gar",
+   "id": "alligator_gar",
+   "en": "Alligator Gar",
+   "zh": "鳄雀鳝",
+   "loot_table": "alligator_gar",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.allosaurus",
+   "id": "allosaurus",
+   "en": "Allosaurus",
+   "zh": "异特龙",
+   "loot_table": "allosaurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.ankylosaurus",
+   "id": "ankylosaurus",
+   "en": "Ankylosaurus",
+   "zh": "甲龙",
+   "loot_table": "ankylosaurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.anu_boss",
+   "id": "anu_boss",
+   "en": "Anu",
+   "zh": "阿奴",
+   "loot_table": "anu_boss",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.anu_totem",
+   "id": "anu_totem",
+   "en": "Anu Totem",
+   "zh": "阿奴图腾",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.anu.archers",
+   "id": "archers",
+   "en": "Anu: Archers, fire!",
+   "zh": "阿奴：弓箭手，放箭！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.anu.fist",
+   "id": "fist",
+   "en": "Anu: Bare hands... Stupid, but brave.",
+   "zh": "阿奴：空手？…愚蠢至极，但勇气可嘉。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.anu.blazes",
+   "id": "blazes",
+   "en": "Anu: Blazes! Destroy the enemy!",
+   "zh": "阿奴：烈焰人！消灭这些敌人！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.anu.coward",
+   "id": "coward",
+   "en": "Anu: Bow using coward! Stop hiding!",
+   "zh": "阿奴：用弓的懦夫！滚出来！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.anu.brutes",
+   "id": "brutes",
+   "en": "Anu: Brutes, wake up your wisdom.",
+   "zh": "阿奴：群兽啊，苏醒你的智慧吧。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.anu.draw",
+   "id": "draw",
+   "en": "Anu: DRAW YOUR SWORD.",
+   "zh": "阿奴：拔 剑 来 战。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.anu.fewBeaten",
+   "id": "fewBeaten",
+   "en": "Anu: Few have beaten me. Prepare to die.",
+   "zh": "阿奴：无人能打败朕。准备受死吧。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.anu.hello",
+   "id": "hello",
+   "en": "Anu: Kneel before me, resistance is futile.",
+   "zh": "阿奴：跪下臣服吧，反抗是徒劳的。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.anu.death",
+   "id": "death",
+   "en": "Anu: NO!!!",
+   "zh": "阿奴：不！！！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.anu.ancient",
+   "id": "ancient",
+   "en": "Anu: Trying to use my magic against me? Bad Idea.",
+   "zh": "阿奴：想用朕的法术对抗朕？可笑。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.anubite",
+   "id": "anubite",
+   "en": "Anubite",
+   "zh": "阿努拜特",
+   "loot_table": "anubite",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.aquilolamna",
+   "id": "aquilolamna",
+   "en": "Aquilolamna",
+   "zh": "鹰鼠鲨",
+   "loot_table": "aquilolamna",
+   "projectile": false
+  },
+  {
+   "key": "entity.minecraft.villager.fossil.archeologist",
+   "id": "archeologist",
+   "en": "Archeologist",
+   "zh": "考古学家",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.minecraft.villager.archeologist",
+   "id": "archeologist",
+   "en": "Archeologist",
+   "zh": "考古学家",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.arthropleura",
+   "id": "arthropleura",
+   "en": "Arthropleura",
+   "zh": "节胸虫",
+   "loot_table": "arthropleura",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.toy_ball",
+   "id": "toy_ball",
+   "en": "Ball",
+   "zh": "球",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.thrown_bird_egg",
+   "id": "thrown_bird_egg",
+   "en": "Bird Egg",
+   "zh": "鸟蛋",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.fossil.brachiosaurus",
+   "id": "brachiosaurus",
+   "en": "Brachiosaurus",
+   "zh": "腕龙",
+   "loot_table": "brachiosaurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.ceratosaurus",
+   "id": "ceratosaurus",
+   "en": "Ceratosaurus",
+   "zh": "角鼻龙",
+   "loot_table": "ceratosaurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.citipati",
+   "id": "citipati",
+   "en": "Citipati",
+   "zh": "葬火龙",
+   "loot_table": "citipati",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.coelacanth",
+   "id": "coelacanth",
+   "en": "Coelacanth",
+   "zh": "腔棘鱼",
+   "loot_table": "coelacanth",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.compsognathus",
+   "id": "compsognathus",
+   "en": "Compsognathus",
+   "zh": "美颌龙",
+   "loot_table": "compsognathus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.confuciusornis",
+   "id": "confuciusornis",
+   "en": "Confuciusornis",
+   "zh": "孔子鸟",
+   "loot_table": "confuciusornis",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.crassigyrinus",
+   "id": "crassigyrinus",
+   "en": "Crassigyrinus",
+   "zh": "厚蝌蚪螈",
+   "loot_table": "crassigyrinus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.anu_dead",
+   "id": "anu_dead",
+   "en": "Dead Anu",
+   "zh": "死亡的阿奴",
+   "loot_table": "anu_dead",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.deinonychus",
+   "id": "deinonychus",
+   "en": "Deinonychus",
+   "zh": "恐爪龙",
+   "loot_table": "deinonychus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.dicranurus",
+   "id": "dicranurus",
+   "en": "Dicranurus",
+   "zh": "叉尾虫",
+   "loot_table": "dicranurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.dilophosaurus",
+   "id": "dilophosaurus",
+   "en": "Dilophosaurus",
+   "zh": "双嵴龙",
+   "loot_table": "dilophosaurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.dimetrodon",
+   "id": "dimetrodon",
+   "en": "Dimetrodon",
+   "zh": "双异齿兽",
+   "loot_table": "dimetrodon",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.dimorphodon",
+   "id": "dimorphodon",
+   "en": "Dimorphodon",
+   "zh": "双型齿翼龙",
+   "loot_table": "dimorphodon",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.dinosaur_egg",
+   "id": "dinosaur_egg",
+   "en": "Dinosaur Egg",
+   "zh": "古生物蛋",
+   "loot_table": "dinosaur_egg",
+   "projectile": true
+  },
+  {
+   "key": "entity.fossil.diplocaulus",
+   "id": "diplocaulus",
+   "en": "Diplocaulus",
+   "zh": "笠头螈",
+   "loot_table": "diplocaulus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.diplodocus",
+   "id": "diplodocus",
+   "en": "Diplodocus",
+   "zh": "梁龙",
+   "loot_table": "diplodocus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.dodo",
+   "id": "dodo",
+   "en": "Dodo",
+   "zh": "渡渡鸟",
+   "loot_table": "dodo",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.dryosaurus",
+   "id": "dryosaurus",
+   "en": "Dryosaurus",
+   "zh": "橡树龙",
+   "loot_table": "dryosaurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.edaphosaurus",
+   "id": "edaphosaurus",
+   "en": "Edaphosaurus",
+   "zh": "基蜥兽",
+   "loot_table": "edaphosaurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.elasmotherium",
+   "id": "elasmotherium",
+   "en": "Elasmotherium",
+   "zh": "板齿犀",
+   "loot_table": "elasmotherium",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.failuresaurus",
+   "id": "failuresaurus",
+   "en": "Failuresaurus",
+   "zh": "畸龙",
+   "loot_table": "failuresaurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.flying.disabled",
+   "id": "disabled",
+   "en": "Flying has been disabled on this server",
+   "zh": "此服务器禁止飞行",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.friendly_piglin",
+   "id": "friendly_piglin",
+   "en": "Friendly Zombie Piglin",
+   "zh": "友善的僵尸猪灵",
+   "loot_table": "friendly_piglin",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.gallimimus",
+   "id": "gallimimus",
+   "en": "Gallimimus",
+   "zh": "似鸡龙",
+   "loot_table": "gallimimus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.gastornis",
+   "id": "gastornis",
+   "en": "Gastornis",
+   "zh": "加斯东鸟",
+   "loot_table": "gastornis",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.henodus",
+   "id": "henodus",
+   "en": "Henodus",
+   "zh": "独齿龙",
+   "loot_table": "henodus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.friendly_piglin.kill",
+   "id": "kill",
+   "en": "I have killed another creature for you!",
+   "zh": "臣已为陛下诛杀一物！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.ichthyosaurus",
+   "id": "ichthyosaurus",
+   "en": "Ichthyosaurus",
+   "zh": "鱼龙",
+   "loot_table": "ichthyosaurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.javelin",
+   "id": "javelin",
+   "en": "Javelin",
+   "zh": "标枪",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.kelenken",
+   "id": "kelenken",
+   "en": "Kelenken",
+   "zh": "翼灵窃鹤",
+   "loot_table": "kelenken",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.laser_point",
+   "id": "laser_point",
+   "en": "Laser Dot",
+   "zh": "激光点",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.fossil.liopleurodon",
+   "id": "liopleurodon",
+   "en": "Liopleurodon",
+   "zh": "滑齿龙",
+   "loot_table": "liopleurodon",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.lonchodomas",
+   "id": "lonchodomas",
+   "en": "Lonchodomas",
+   "zh": "矛头虫",
+   "loot_table": "lonchodomas",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.mammoth",
+   "id": "mammoth",
+   "en": "Mammoth",
+   "zh": "猛犸象",
+   "loot_table": "mammoth",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.megalania",
+   "id": "megalania",
+   "en": "Megalania",
+   "zh": "古巨蜥",
+   "loot_table": "megalania",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.megaloceros",
+   "id": "megaloceros",
+   "en": "Megaloceros",
+   "zh": "大角鹿",
+   "loot_table": "megaloceros",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.megalodon",
+   "id": "megalodon",
+   "en": "Megalodon",
+   "zh": "巨齿鲨",
+   "loot_table": "megalodon",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.megalograptus",
+   "id": "megalograptus",
+   "en": "Megalograptus",
+   "zh": "巨笔石鲎",
+   "loot_table": "megalograptus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.meganeura",
+   "id": "meganeura",
+   "en": "Meganeura",
+   "zh": "巨脉蜓",
+   "loot_table": "meganeura",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.mosasaurus",
+   "id": "mosasaurus",
+   "en": "Mosasaurus",
+   "zh": "沧龙",
+   "loot_table": "mosasaurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.friendly_piglin.summon",
+   "id": "summon",
+   "en": "My Lord! I will fight for you till the death!",
+   "zh": "臣愿为陛下誓死奋战！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.nautilus",
+   "id": "nautilus",
+   "en": "Nautilus",
+   "zh": "鹦鹉螺",
+   "loot_table": "nautilus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.ornitholestes",
+   "id": "ornitholestes",
+   "en": "Ornitholestes",
+   "zh": "嗜鸟龙",
+   "loot_table": "ornitholestes",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.pachycephalosaurus",
+   "id": "pachycephalosaurus",
+   "en": "Pachycephalosaurus",
+   "zh": "肿头龙",
+   "loot_table": "pachycephalosaurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.pachyrhinosaurus",
+   "id": "pachyrhinosaurus",
+   "en": "Pachyrhinosaurus",
+   "zh": "厚鼻龙",
+   "loot_table": "pachyrhinosaurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.minecraft.villager.fossil.paleontologist",
+   "id": "paleontologist",
+   "en": "Paleontologist",
+   "zh": "古生物学家",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.minecraft.villager.paleontologist",
+   "id": "paleontologist",
+   "en": "Paleontologist",
+   "zh": "古生物学家",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.parasaurolophus",
+   "id": "parasaurolophus",
+   "en": "Parasaurolophus",
+   "zh": "副栉龙",
+   "loot_table": "parasaurolophus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.phorusrhacos",
+   "id": "phorusrhacos",
+   "en": "Phorusrhacos",
+   "zh": "曲带窃鹤",
+   "loot_table": "phorusrhacos",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.platybelodon",
+   "id": "platybelodon",
+   "en": "Platybelodon",
+   "zh": "铲齿象",
+   "loot_table": "platybelodon",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.plesiosaurus",
+   "id": "plesiosaurus",
+   "en": "Plesiosaurus",
+   "zh": "蛇颈龙",
+   "loot_table": "plesiosaurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.postosuchus",
+   "id": "postosuchus",
+   "en": "Postosuchus",
+   "zh": "波斯特鳄",
+   "loot_table": "postosuchus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.protoceratops",
+   "id": "protoceratops",
+   "en": "Protoceratops",
+   "zh": "原角龙",
+   "loot_table": "protoceratops",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.psittacosaurus",
+   "id": "psittacosaurus",
+   "en": "Psittacosaurus",
+   "zh": "鹦鹉嘴龙",
+   "loot_table": "psittacosaurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.pteranodon",
+   "id": "pteranodon",
+   "en": "Pteranodon",
+   "zh": "无齿翼龙",
+   "loot_table": "pteranodon",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.quagga",
+   "id": "quagga",
+   "en": "Quagga",
+   "zh": "斑驴",
+   "loot_table": "quagga",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.quetzalcoatlus",
+   "id": "quetzalcoatlus",
+   "en": "Quetzalcoatlus",
+   "zh": "风神翼龙",
+   "loot_table": "quetzalcoatlus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.sarcosuchus",
+   "id": "sarcosuchus",
+   "en": "Sarcosuchus",
+   "zh": "肌鳄",
+   "loot_table": "sarcosuchus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.scotoharpes",
+   "id": "scotoharpes",
+   "en": "Scotoharpes",
+   "zh": "昧镰虫",
+   "loot_table": "scotoharpes",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.toy_scratching_post",
+   "id": "toy_scratching_post",
+   "en": "Scratching Post",
+   "zh": "抓柱",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.sentry_piglin",
+   "id": "sentry_piglin",
+   "en": "Sentry Piglin",
+   "zh": "猪灵哨兵",
+   "loot_table": "sentry_piglin",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.smilodon",
+   "id": "smilodon",
+   "en": "Smilodon",
+   "zh": "刃齿虎",
+   "loot_table": "smilodon",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.spinosaurus",
+   "id": "spinosaurus",
+   "en": "Spinosaurus",
+   "zh": "棘龙",
+   "loot_table": "spinosaurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.stegosaurus",
+   "id": "stegosaurus",
+   "en": "Stegosaurus",
+   "zh": "剑龙",
+   "loot_table": "stegosaurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.stone_tablet",
+   "id": "stone_tablet",
+   "en": "Stone Tablet",
+   "zh": "石版画",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.sturgeon",
+   "id": "sturgeon",
+   "en": "Sturgeon",
+   "zh": "鲟鱼",
+   "loot_table": "sturgeon",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.tar_slime",
+   "id": "tar_slime",
+   "en": "Tar Slime",
+   "zh": "沥青史莱姆",
+   "loot_table": "tar_slime",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.toy_tethered_log",
+   "id": "toy_tethered_log",
+   "en": "Tethered Log",
+   "zh": "拴挂的原木",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.therizinosaurus",
+   "id": "therizinosaurus",
+   "en": "Therizinosaurus",
+   "zh": "镰刀龙",
+   "loot_table": "therizinosaurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.situation.betrayed",
+   "id": "betrayed",
+   "en": "This %s has been betrayed!",
+   "zh": "这个%s叛变了！",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.situation.full",
+   "id": "full",
+   "en": "This %s is full.",
+   "zh": "这只%s吃饱了。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.tiktaalik",
+   "id": "tiktaalik",
+   "en": "Tiktaalik",
+   "zh": "提塔利克鱼",
+   "loot_table": "tiktaalik",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.titanis",
+   "id": "titanis",
+   "en": "Titanis",
+   "zh": "泰坦窃鹤",
+   "loot_table": "titanis",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.triceratops",
+   "id": "triceratops",
+   "en": "Triceratops",
+   "zh": "三角龙",
+   "loot_table": "triceratops",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.tropeognathus",
+   "id": "tropeognathus",
+   "en": "Tropeognathus",
+   "zh": "脊颌翼龙",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.tyrannosaurus",
+   "id": "tyrannosaurus",
+   "en": "Tyrannosaurus",
+   "zh": "暴龙",
+   "loot_table": "tyrannosaurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.velociraptor",
+   "id": "velociraptor",
+   "en": "Velociraptor",
+   "zh": "伶盗龙",
+   "loot_table": "velociraptor",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.walliserops",
+   "id": "walliserops",
+   "en": "Walliserops",
+   "zh": "海神虫",
+   "loot_table": "walliserops",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.anu.break_block",
+   "id": "break_block",
+   "en": "You cannot break blocks here without defeating Anu.",
+   "zh": "必须击败阿奴才能破坏这里的方块。",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.fossil.prehistoric.tamed",
+   "id": "tamed",
+   "en": "You have tamed this %s",
+   "zh": "你已经驯服了这只%s",
+   "loot_table": "",
+   "projectile": false
+  }
+ ]
+}

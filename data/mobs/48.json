@@ -1,0 +1,1017 @@
+{
+ "rank": 48,
+ "mod": "Tide 2",
+ "mod_url": "https://modrinth.com/mod/tide",
+ "mobs": [
+  {
+   "mob_id": "tide:abyss_angler",
+   "name_en": "Abyss Angler",
+   "name_zh": "深层鮟鱇鱼",
+   "description_zh": "它头顶的诱饵格外闪耀，使其能够在比同类更深的海域生存。栖息于地下（y<-20）；稀有度罕见，典型体长 20–35 厘米、最大记录 75 厘米；会自然生成于主世界的水域，常单独出现。碰撞箱 0.5×0.25 格，生命值 4 点、移速 0.7，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.8、拉力 0.78；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:alpha_fish",
+   "name_en": "Alpha Fish",
+   "name_zh": "始祖鱼",
+   "description_zh": "它们曾经遭到其他鱼类的排挤而几近灭绝，如今游荡在主世界的极深处。栖息于主世界的虚空；稀有度传说，典型体长 40–60 厘米、最大记录 100 厘米；没有自然生成，只能靠钓获。碰撞箱 0.5×0.3 格，生命值 3 点、移速 1.25，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 2.1、拉力 0.9；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:amber_rockfish",
+   "name_en": "Amber Rockfish",
+   "name_zh": "琥珀岩鱼",
+   "description_zh": "顾名思义，这种鱼的身体完全由岩石构成，其体表覆盖着一层鲜艳的橙色苔藓。栖息于虚空（末地）；稀有度普通，典型体长 35–60 厘米、最大记录 95 厘米；会自然生成于末地，常以 3–5 条一群出现。碰撞箱 0.45×0.45 格，生命值 5 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.2、拉力 0.6；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:anchovy",
+   "name_en": "Anchovy",
+   "name_zh": "鳀鱼",
+   "description_zh": "这种小鱼经常成群结队地游动，在海洋中穿梭巡航，形成变幻莫测的图案。栖息于海洋（y>40）；稀有度普通，典型体长 6–12 厘米、最大记录 20 厘米；会自然生成于海洋群系，常以 6 条一群出现。碰撞箱 0.25×0.1 格，生命值 1 点、移速 1.5，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.5、拉力 0.3；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落小份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:angelfish",
+   "name_en": "Angelfish",
+   "name_zh": "神仙鱼",
+   "description_zh": "它们色彩艳丽，姿态优雅，常常在珊瑚礁间轻盈地滑行。栖息于海洋（y>40）；稀有度罕见，典型体长 10–13 厘米、最大记录 20 厘米；会自然生成于海洋群系，常以 3–5 条一群出现。碰撞箱 0.28×0.32 格，生命值 2 点、移速 1.1，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.25、拉力 0.45；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:anglerfish",
+   "name_en": "Angler Fish",
+   "name_zh": "鮟鱇鱼",
+   "description_zh": "它们头部明亮的诱饵能吸引猎物，使其在捕食时能够最大程度地节省体力。栖息于地下（y -20~40）；稀有度罕见，典型体长 20–35 厘米、最大记录 75 厘米；会自然生成于主世界的水域，常单独出现。碰撞箱 0.5×0.25 格，生命值 3 点、移速 0.8，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.8、拉力 0.75；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:aquathorn",
+   "name_en": "Aquathorn",
+   "name_zh": "流水荆棘",
+   "description_zh": "它们是海底神殿守卫者的祖先。比起守卫者，它们体型更小，性情也更温和。栖息于海底神殿；稀有度非常稀有，典型体长 32–45 厘米、最大记录 70 厘米；会自然生成于深海群系，常以 3–5 条一群出现。碰撞箱 0.45×0.3 格，生命值 5 点、移速 1.1，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.5、拉力 0.82；可装桶带走，击杀掉落本体，掉落物不可食用。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:arapaima",
+   "name_en": "Arapaima",
+   "name_zh": "巨骨舌鱼",
+   "description_zh": "这种巨型生物以强劲的力量与极快的速度在温暖的丛林河流中穿行。栖息于丛林（y>40，沼泽）；稀有度稀有，典型体长 240–340 厘米、最大记录 460 厘米；会自然生成，常单独出现。碰撞箱 1.8×0.6 格，生命值 20 点、移速 1.15，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.7、拉力 0.6；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落大份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:ash_perch",
+   "name_en": "Ash Perch",
+   "name_zh": "尘鲈",
+   "description_zh": "它们行动迅捷，常常潜伏在熔岩湖深处，与炽热的环境融为一体。栖息于熔岩；稀有度普通，典型体长 15–30 厘米、最大记录 45 厘米；会自然生成于下界，常以 3–5 条一群出现。碰撞箱 0.4×0.4 格，生命值 3 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.2、拉力 0.55；可装桶带走，击杀掉落生鱼，且生鱼火焰免疫、可直接食用。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:bedrock_bug",
+   "name_en": "Bedrock Bug",
+   "name_zh": "基岩虫",
+   "description_zh": "它们的牙齿可以穿透基岩，这使其能够在主世界的最底层栖息。栖息于主世界的虚空；稀有度普通，典型体长 3–4.5 厘米、最大记录 10 厘米；没有自然生成，只能靠钓获。碰撞箱 0.35×0.13 格，生命值 5 点、移速 1.1，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.4、拉力 0.75；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落小份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:bedrock_tetra",
+   "name_en": "Bedrock Tetra",
+   "name_zh": "基岩脂鲤",
+   "description_zh": "这种小鱼藏身于坚硬的基岩层之下，从而免受捕食者的威胁。栖息于地下（y<-20）；稀有度稀有，典型体长 2.8–4.5 厘米、最大记录 8 厘米；会自然生成于主世界的水域，常以 3–5 条一群出现。碰撞箱 0.3×0.25 格，生命值 10 点、移速 1.6，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.2、拉力 0.75；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落小份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:black_crappie",
+   "name_en": "Black Crappie",
+   "name_zh": "黑莓鲈",
+   "description_zh": "黑莓鲈体色深暗、布满斑纹，它们在清澈的湖泊中繁衍生息，并且在上钩时会激烈反抗。栖息于湖泊和河流（y>40）；稀有度普通，典型体长 25–35 厘米、最大记录 50 厘米；会自然生成于河流群系，常以 3–5 条一群出现。碰撞箱 0.4×0.35 格，生命值 2 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.85、拉力 0.38；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:blazing_swordfish",
+   "name_en": "Blazing Swordfish",
+   "name_zh": "烈焰剑鱼",
+   "description_zh": "这种剑鱼鳞片闪耀、长吻锋利，甚至可以作为致命的武器。栖息于熔岩（下界）；稀有度非常稀有，典型体长 180–290 厘米、最大记录 455 厘米；会自然生成于下界，常单独出现。碰撞箱 1.3×0.6 格，生命值 15 点、移速 1.3，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.48、拉力 0.85；可装桶带走，击杀掉落生鱼，且生鱼火焰免疫、可直接食用。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:blossom_bass",
+   "name_en": "Blossom Bass",
+   "name_zh": "花鲈",
+   "description_zh": "它们常常出没于樱花树林，不仅色彩绚丽，身上还散发着一种能够抚慰人心的神奇力量。栖息于樱花树林（y>40，春季、夏季，仅在季节模组生效时）；稀有度稀有，典型体长 35–65 厘米、最大记录 100 厘米；会自然生成于樱花树林，常单独出现。碰撞箱 0.65×0.4 格，生命值 4 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.3、拉力 0.5；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:blue_neonfish",
+   "name_en": "Blue Neonfish",
+   "name_zh": "蓝色霓虹鱼",
+   "description_zh": "它们长着一排黑色锯齿状利牙，能咬穿最坚硬的鳞片。栖息于主世界的虚空；稀有度罕见，典型体长 20–35 厘米、最大记录 75 厘米；没有自然生成，只能靠钓获。碰撞箱 0.5×0.25 格，生命值 4 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.5、拉力 0.75；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:bluegill",
+   "name_en": "Bluegill",
+   "name_zh": "蓝鳃太阳鱼",
+   "description_zh": "各个池塘与湖泊中的经典鱼种，总是对鱼饵来者不拒。栖息于湖泊和河流（y>40，春季、夏季、秋季，仅在季节模组生效时）；稀有度普通，典型体长 15–30 厘米、最大记录 40 厘米；会自然生成于河流群系，常以 3–5 条一群出现。碰撞箱 0.42×0.4 格，生命值 3 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.7、拉力 0.35；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:brook_trout",
+   "name_en": "Brook Trout",
+   "name_zh": "溪鳟",
+   "description_zh": "溪鳟较之其他鳟鱼显得娇小且隐蔽，偏爱栖息在荫蔽的溪流与布满苔藓的池塘中。栖息于湖泊和河流（y>40，春季、夏季、冬季，仅在季节模组生效时）；稀有度普通，典型体长 30–50 厘米、最大记录 80 厘米；会自然生成于河流群系，常以 3–5 条一群出现。碰撞箱 0.6×0.4 格，生命值 3 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.8、拉力 0.35；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:bull_shark",
+   "name_en": "Bull Shark",
+   "name_zh": "公牛鲨",
+   "description_zh": "它们是暴躁的游泳健将，因为能够逆流而上进入淡水水域而闻名。栖息于河流（y>40）；稀有度非常稀有，典型体长 210–265 厘米、最大记录 335 厘米；会自然生成于河流群系，常单独出现。碰撞箱 1.8×0.6 格，生命值 25 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.7、拉力 0.8；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落大份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:carp",
+   "name_en": "Carp",
+   "name_zh": "鲤鱼",
+   "description_zh": "这种底栖鱼在浑浊的水域中繁衍生息，觅食时常会将水底搅得一团糟。栖息于湖泊和河流（y>40，春季、夏季、秋季，仅在季节模组生效时）；稀有度普通，典型体长 40–80 厘米、最大记录 120 厘米；会自然生成于河流群系，常以 2–3 条一群出现。碰撞箱 0.65×0.35 格，生命值 4 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.6、拉力 0.4；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:catfish",
+   "name_en": "Catfish",
+   "name_zh": "鲶鱼",
+   "description_zh": "这种鱼生着触须状的颚部，钟爱黑夜。传闻它们非常惧怕狼的存在。栖息于湖泊和河流（y>40，夜晚，春季、夏季、秋季，仅在季节模组生效时）；稀有度罕见，典型体长 40–75 厘米、最大记录 155 厘米；会自然生成于河流群系，常以 2–3 条一群出现。碰撞箱 0.85×0.35 格，生命值 5 点、移速 1.1，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.0、拉力 0.4；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:cave_crawler",
+   "name_en": "Cave Crawler",
+   "name_zh": "穴爬鱼",
+   "description_zh": "这种独特的四足生物行动敏捷，能够攀爬任何表面。栖息于地下（y -30~40）；稀有度普通，典型体长 45–60 厘米、最大记录 100 厘米；会自然生成于主世界的水域，常以 2–3 条一群出现。碰撞箱 0.65×0.4 格，生命值 4 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.8、拉力 0.75；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:cave_eel",
+   "name_en": "Cave Eel",
+   "name_zh": "穴鳗",
+   "description_zh": "这些小巧的生物形似面条，能钻入岩石的狭缝中觅食。栖息于地下（y -45~40）；稀有度普通，典型体长 90–115 厘米、最大记录 150 厘米；会自然生成于主世界的水域，常单独出现。碰撞箱 0.95×0.25 格，生命值 4 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.0、拉力 0.65；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:chasm_eel",
+   "name_en": "Chasm Eel",
+   "name_zh": "裂隙鳗",
+   "description_zh": "这种吞噬鳗拥有惊人的生命力。它们在最深邃的地方栖息，并以散落在地底深处的基岩碎片为食。栖息于地下（y<-20）；稀有度非常稀有，典型体长 120–180 厘米、最大记录 300 厘米；没有自然生成，只能靠钓获。碰撞箱 0.9×0.25 格，生命值 8 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.5、拉力 0.85；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:chorus_cod",
+   "name_en": "Chorus Cod",
+   "name_zh": "紫颂鳕鱼",
+   "description_zh": "这种鱼似乎与紫颂花建立了一种奇妙的共生关系，能够源源不断地从紫颂花那里获得免费的食物。栖息于虚空（末地）；稀有度罕见，典型体长 55–75 厘米、最大记录 110 厘米；会自然生成于末地，常以 3–5 条一群出现。碰撞箱 0.6×0.38 格，生命值 5 点、移速 1.1，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.15、拉力 0.72；可装桶带走，击杀掉落生鱼，生鱼可直接食用。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:coelacanth",
+   "name_en": "Coelacanth",
+   "name_zh": "腔棘鱼",
+   "description_zh": "这种鱼堪称活化石，有的人以为它们在数百万年前就已经灭绝。它们为了躲避光线而栖身在黑暗的洞穴深处。栖息于深海（y>40，夜晚，雨天或雷暴时）；稀有度传说，典型体长 140–190 厘米、最大记录 270 厘米；没有自然生成，只能靠钓获。碰撞箱 1.1×0.7 格，生命值 16 点、移速 1.3，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.6、拉力 0.92；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落大份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:crimson_fangjaw",
+   "name_en": "Crimson Fangjaw",
+   "name_zh": "绯红尖颚",
+   "description_zh": "这种生物在恶劣的环境中进化成了强大的猎手，它的食谱似乎包括……猪肉？栖息于熔岩（下界）；稀有度稀有，典型体长 35–65 厘米、最大记录 100 厘米；会自然生成于下界，常以 2–4 条一群出现。碰撞箱 0.6×0.3 格，生命值 4 点、移速 1.1，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.9、拉力 0.68；可装桶带走，击杀掉落生鱼，且生鱼火焰免疫、可直接食用。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:crystal_shrimp",
+   "name_en": "Crystal Shrimp",
+   "name_zh": "晶虾",
+   "description_zh": "这些标本来历不明，但它们在淡水层中漂流时闪烁着晶莹剔透的光芒。栖息于地下（y<35）；稀有度罕见，典型体长 4–8 厘米、最大记录 15 厘米；会自然生成于主世界的水域，常以 2–3 条一群出现。碰撞箱 0.4×0.3 格，生命值 2 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.08、拉力 0.62；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:crystalline_carp",
+   "name_en": "Crystalline Carp",
+   "name_zh": "晶鲤",
+   "description_zh": "包裹在这种神秘鱼类鳞片周围的晶体成分至今仍是个谜。栖息于地下（y<10）；稀有度稀有，典型体长 40–80 厘米、最大记录 120 厘米；会自然生成于主世界的水域，常以 3–5 条一群出现。碰撞箱 0.5×0.35 格，生命值 7 点、移速 1.2，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.9、拉力 0.7；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:darkness_eater",
+   "name_en": "Darkness Eater",
+   "name_zh": "黑暗吞食者",
+   "description_zh": "传说这种巨型鲶鱼一口就能吞下五个铁傀儡。栖息于主世界的虚空；稀有度非常稀有，典型体长 170–230 厘米、最大记录 400 厘米；没有自然生成，只能靠钓获。碰撞箱 1.7×0.65 格，生命值 25 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.7、拉力 0.86；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落大份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:deep_blue",
+   "name_en": "Deep Blue",
+   "name_zh": "深邃之蓝",
+   "description_zh": "这种鱼拥有坚韧的皮肤和多样的食谱，这使其寿命远超其他鱼类。栖息于主世界的虚空；稀有度罕见，典型体长 38–65 厘米、最大记录 100 厘米；没有自然生成，只能靠钓获。碰撞箱 0.6×0.35 格，生命值 8 点、移速 1.1，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.55、拉力 0.76；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:deep_grouper",
+   "name_en": "Deep Grouper",
+   "name_zh": "深层石斑鱼",
+   "description_zh": "苍白且带有暗红黑色的鳞片赋予了这种石斑鱼一种超脱尘世的怪异美感。栖息于地下（y<30）；稀有度普通，典型体长 55–75 厘米、最大记录 115 厘米；会自然生成于主世界的水域，常以 3–5 条一群出现。碰撞箱 0.6×0.35 格，生命值 4 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.2、拉力 0.5；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:devils_hole_pupfish",
+   "name_en": "Devils Hole Pupfish",
+   "name_zh": "魔鳉",
+   "description_zh": "它们体型微小、五彩斑斓，隐居在地球上最孤立、最极端的深渊水域中。栖息于地下（y 20~30）；稀有度传说，典型体长 1.4–2.6 厘米、最大记录 4.3 厘米；没有自然生成，只能靠钓获。碰撞箱 0.25×0.12 格，生命值 1 点、移速 1.6，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 2.1、拉力 0.8；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落小份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:dragon_fish",
+   "name_en": "Dragon Fish",
+   "name_zh": "龙鱼",
+   "description_zh": "传说曾有一位玩家将龙蛋浸入水中数年，最终创造出了这种生物。栖息于虚空（末地）；稀有度传说，典型体长 550–750 厘米、最大记录 1250 厘米；没有自然生成，只能靠钓获。碰撞箱 4×1 格，生命值 60 点、移速 1.25，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.9、拉力 0.92；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落大份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:dripstone_darter",
+   "name_en": "Dripstone Darter",
+   "name_zh": "滴水石镖鲈",
+   "description_zh": "它们究竟是石笋还是钟乳石？无论如何，那尖锐的鼻子在捕食时非常管用。栖息于溶洞（y<40）；稀有度罕见，典型体长 35–55 厘米、最大记录 95 厘米；会自然生成于溶洞，常以 2–3 条一群出现。碰撞箱 0.5×0.35 格，生命值 4 点、移速 1.5，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.3、拉力 0.7；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:echo_snapper",
+   "name_en": "Echo Snapper",
+   "name_zh": "回响鲷鱼",
+   "description_zh": "人们总感觉这被幽匿块包裹的鱼骨在倾听着什么。栖息于深暗之域（y<30，远古城市）；稀有度非常稀有，典型体长 65–85 厘米、最大记录 140 厘米；没有自然生成，只能靠钓获。碰撞箱 0.65×0.12 格，生命值 3 点、移速 0.75，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.8、拉力 0.8；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:elytrout",
+   "name_en": "Elytrout",
+   "name_zh": "鞘翅鳟",
+   "description_zh": "这种外形优雅、宛如昆虫的生物，形态与远古末地城中发现的鞘翅极为相似。栖息于虚空（末地）；稀有度稀有，典型体长 35–60 厘米、最大记录 100 厘米；会自然生成于末地，常以 2–4 条一群出现。碰撞箱 0.5×0.12 格，生命值 3 点、移速 1.15，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.45、拉力 0.65；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:ember_koi",
+   "name_en": "Ember Koi",
+   "name_zh": "微光鲤",
+   "description_zh": "这些鱼处于食物链的底端，却能利用熔岩本身来不断地繁衍。栖息于熔岩；稀有度普通，典型体长 40–50 厘米、最大记录 80 厘米；会自然生成于下界，常以 3–5 条一群出现。碰撞箱 0.4×0.3 格，生命值 3 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.75、拉力 0.6；可装桶带走，击杀掉落生鱼，且生鱼火焰免疫、可直接食用。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:ender_glider",
+   "name_en": "Ender Glider",
+   "name_zh": "末影滑翔者",
+   "description_zh": "一种长有翅膀的异域生物，能够比其他生物更迅捷地末地中穿行。栖息于虚空（末地）；稀有度罕见，典型体长 48–70 厘米、最大记录 110 厘米；会自然生成于末地，常以 2–4 条一群出现。碰撞箱 0.6×0.25 格，生命值 5 点、移速 1.4，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.25、拉力 0.55；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:enderfin",
+   "name_en": "Enderfin",
+   "name_zh": "末影鳍鱼",
+   "description_zh": "这种鱼的皮肤极具金属质感，而体表的深蓝色又使其呈现出珍珠般的光泽。栖息于虚空（末地）；稀有度普通，典型体长 35–55 厘米、最大记录 90 厘米；会自然生成于末地，常以 3–5 条一群出现。碰撞箱 0.4×0.38 格，生命值 3 点、移速 1.1，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.25、拉力 0.6；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:endergazer",
+   "name_en": "Endergazer",
+   "name_zh": "末影凝视者",
+   "description_zh": "这种鱼头部巨大，几乎完全由眼睛组成。这只眼睛不仅负责视觉，同时也是它的大脑。栖息于虚空（末地）；稀有度罕见，典型体长 25–35 厘米、最大记录 55 厘米；会自然生成于末地，常以 3–5 条一群出现。碰撞箱 0.4×0.25 格，生命值 3 点、移速 1.2，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.1、拉力 0.68；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:flounder",
+   "name_en": "Flounder",
+   "name_zh": "比目鱼",
+   "description_zh": "这些形状独特的鱼类常常平贴在充满泥沙的海底，以此躲避捕食者。栖息于海洋（y>40，夏季、秋季、冬季，仅在季节模组生效时）；稀有度普通，典型体长 40–55 厘米、最大记录 75 厘米；会自然生成于海洋群系，常以 2–3 条一群出现。碰撞箱 0.65×0.2 格，生命值 3 点、移速 0.8，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.8、拉力 0.45；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:dutchman_sock",
+   "name_en": "Flying Dutchman's Sock",
+   "name_zh": "飞翔荷兰人的袜子",
+   "description_zh": "这种细菌群落大得惊人，常被误认为是鱼类（或者是只袜子）。栖息于虚空（末地）；稀有度稀有，典型体长 4–7 厘米、最大记录 15 厘米；会自然生成于末地，常以 3–5 条一群出现。碰撞箱 0.3×0.12 格，生命值 1 点、移速 1.3，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.4、拉力 0.65；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落小份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:frostbite_flounder",
+   "name_en": "Frostbite Flounder",
+   "name_zh": "霜冻比目鱼",
+   "description_zh": "一种似乎被彻底冻结的比目鱼，常常潜伏在冰冷刺骨的海底。栖息于冰冻生物群系（y>40）；稀有度稀有，典型体长 40–55 厘米、最大记录 75 厘米；会自然生成，常单独出现。碰撞箱 0.65×0.2 格，生命值 4 点、移速 0.8，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.9、拉力 0.55；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:gilded_minnow",
+   "name_en": "Gilded Minnow",
+   "name_zh": "金鲦鱼",
+   "description_zh": "据说这种鱼曾经遭到了某种更强大生物的侵害，它们的鳞片也因此变成了金色。栖息于地下（y<30）；稀有度稀有，典型体长 8–15 厘米、最大记录 28 厘米；会自然生成于主世界的水域，常以 3–5 条一群出现。碰撞箱 0.27×0.12 格，生命值 3 点、移速 1.5，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.1、拉力 0.7；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落小份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:glowfish",
+   "name_en": "Glowfish",
+   "name_zh": "荧光鱼",
+   "description_zh": "它们在深海安静地生活着，散发出微弱的荧光。据说它们是鱿鱼的远亲。栖息于地下（y -50~40）；稀有度罕见，典型体长 55–75 厘米、最大记录 110 厘米；会自然生成于主世界的水域，常以 3–5 条一群出现。碰撞箱 0.6×0.35 格，生命值 3 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.1、拉力 0.5；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:great_white_shark",
+   "name_en": "Great White Shark",
+   "name_zh": "大白鲨",
+   "description_zh": "一种让人敬而远之的掠食者。它们凭借敏锐的感官和爆发性的速度巡视着近岸水域。栖息于海洋（y>40）；稀有度非常稀有，典型体长 370–490 厘米、最大记录 610 厘米；会自然生成于海洋群系，常单独出现。碰撞箱 2.1×0.75 格，生命值 32 点、移速 1.15，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.7、拉力 0.85；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落大份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:guppy",
+   "name_en": "Guppy",
+   "name_zh": "孔雀鱼",
+   "description_zh": "这种鱼体型微小、色彩斑斓且活力十足。它们在温暖的热带水域中繁衍壮大。栖息于湖泊和河流（y>40）；稀有度罕见，典型体长 4–7 厘米、最大记录 9 厘米；会自然生成于河流群系，常以 2–3 条一群出现。碰撞箱 0.3×0.15 格，生命值 1 点、移速 1.1，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.1、拉力 0.2；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落小份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:incandescent_larva",
+   "name_en": "Incandescent Larva",
+   "name_zh": "白炽幼虫",
+   "description_zh": "这种鱼散发出的红热光芒可以穿过它们透明的皮肤。它是许多鱼类眼中的美味零食。栖息于主世界的虚空；稀有度普通，典型体长 2–4 厘米、最大记录 10 厘米；没有自然生成，只能靠钓获。碰撞箱 0.35×0.12 格，生命值 1 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.55、拉力 0.65；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落小份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:inferno_guppy",
+   "name_en": "Inferno Guppy",
+   "name_zh": "地狱孔雀鱼",
+   "description_zh": "这种小鱼可以从熔岩中吸收大量能量，因此完全不需要进食。栖息于熔岩；稀有度稀有，典型体长 4–7 厘米、最大记录 9 厘米；会自然生成于下界，常以 3–5 条一群出现。碰撞箱 0.3×0.15 格，生命值 1 点、移速 1.1，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.25、拉力 0.4；可装桶带走，击杀掉落生鱼，且生鱼火焰免疫、可直接食用。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:iron_tetra",
+   "name_en": "Iron Tetra",
+   "name_zh": "铁脂鲤",
+   "description_zh": "这种鱼潜伏在矿脉周围，逐渐进化出一副金属骨架，使其能免受绝大多数掠食者的侵害。栖息于地下（y<50）；稀有度罕见，典型体长 2.8–4.5 厘米、最大记录 8 厘米；会自然生成于主世界的水域，常以 3–5 条一群出现。碰撞箱 0.3×0.25 格，生命值 6 点、移速 1.6，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.0、拉力 0.65；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落小份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:judgment_fish",
+   "name_en": "Judgment Fish",
+   "name_zh": "审判之鱼",
+   "description_zh": "它们拥有巨大的眼睛，可以敏锐地察觉到捕食者，并在对方靠近前迅速行动。栖息于主世界的虚空；稀有度罕见，典型体长 40–80 厘米、最大记录 140 厘米；没有自然生成，只能靠钓获。碰撞箱 0.4×0.3 格，生命值 5 点、移速 1.25，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.6、拉力 0.73；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:lapis_lanternfish",
+   "name_en": "Lapis Lanternfish",
+   "name_zh": "青金灯笼鱼",
+   "description_zh": "这种微小的青金石鱼拥有惊人的力量与速度。栖息于地下（y<20）；稀有度罕见，典型体长 5–15 厘米、最大记录 40 厘米；会自然生成于主世界的水域，常以 3–5 条一群出现。碰撞箱 0.3×0.15 格，生命值 2 点、移速 1.6，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.0、拉力 0.6；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落小份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:largemouth_bass",
+   "name_en": "Largemouth Bass",
+   "name_zh": "大口黑鲈",
+   "description_zh": "它们大胆且极具攻击性，常常栖息在湖泊中，并广受人们的欢迎。栖息于湖泊和河流（y>40，春季、夏季、秋季，仅在季节模组生效时）；稀有度普通，典型体长 35–65 厘米、最大记录 100 厘米；会自然生成于河流群系，常以 3–5 条一群出现。碰撞箱 0.65×0.4 格，生命值 4 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.85、拉力 0.4；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:luminescent_jellyfish",
+   "name_en": "Luminescent Jellyfish",
+   "name_zh": "夜光水母",
+   "description_zh": "这种性情温和的水母散发着明亮的光芒，为深海中的其他鱼类指引方向。栖息于地下（y<5）；稀有度稀有，典型体长 40–50 厘米、最大记录 80 厘米；会自然生成于主世界的水域，常以 3–5 条一群出现。碰撞箱 0.4×0.55 格，生命值 3 点、移速 0.6，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.9、拉力 0.68；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:mackerel",
+   "name_en": "Mackerel",
+   "name_zh": "鲭鱼",
+   "description_zh": "它们行动迅捷，常常在近海与远洋中成群结队地出现。栖息于海洋（y>40）；稀有度普通，典型体长 30–45 厘米、最大记录 65 厘米；会自然生成于海洋群系，常以 3–5 条一群出现。碰撞箱 0.4×0.3 格，生命值 2 点、移速 1.1，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.0、拉力 0.5；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:magma_mackerel",
+   "name_en": "Magma Mackerel",
+   "name_zh": "岩浆鲭鱼",
+   "description_zh": "这种小鱼拥有耐热的鳞片与强健的鳍，可以在熔岩池中穿行自如。栖息于熔岩；稀有度普通，典型体长 30–45 厘米、最大记录 65 厘米；会自然生成于下界，常以 3–5 条一群出现。碰撞箱 0.4×0.3 格，生命值 3 点、移速 1.1，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.0、拉力 0.65；可装桶带走，击杀掉落生鱼，且生鱼火焰免疫、可直接食用。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:mahi_mahi",
+   "name_en": "Mahi-Mahi",
+   "name_zh": "鲯鳅",
+   "description_zh": "这种鱼体型修长，还拥有绚丽夺目的体色和钝圆的头部。栖息于海洋（y>40）；稀有度稀有，典型体长 85–130 厘米、最大记录 200 厘米；会自然生成于海洋群系，常以 1–2 条一群出现。碰撞箱 1×0.6 格，生命值 10 点、移速 1.2，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.4、拉力 0.7；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落大份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:manta_ray",
+   "name_en": "Manta Ray",
+   "name_zh": "蝠鲼",
+   "description_zh": "它们有着宽大的鳍，可以载着它们在温暖海域的浅层优雅地巡游。栖息于海洋（y>40）；稀有度稀有，典型体长 400–650 厘米、最大记录 900 厘米；会自然生成于海洋群系，常单独出现。碰撞箱 1.5×0.3 格，生命值 18 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.3、拉力 0.76；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落大份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:mantyvern",
+   "name_en": "Mantyvern",
+   "name_zh": "蝠飞龙",
+   "description_zh": "这种生物温顺得出奇，还会时不时用触角发送信号来相互交流。栖息于虚空（末地）；稀有度非常稀有，典型体长 280–360 厘米、最大记录 500 厘米；会自然生成于末地，常单独出现。碰撞箱 1.8×0.5 格，生命值 20 点、移速 1.4，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.55、拉力 0.78；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落大份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:marstilus",
+   "name_en": "Marstilus",
+   "name_zh": "火星螺",
+   "description_zh": "这种布满尘埃、形似鹦鹉螺的生物，在主世界中显得与众不同。栖息于海洋（y>40，亏凸月、盈凸月当天）；稀有度非常稀有，典型体长 100–124 厘米、最大记录 185 厘米；没有自然生成，只能靠钓获。碰撞箱 0.8×0.4 格，生命值 8 点、移速 0.8，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.4、拉力 0.82；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:midas_fish",
+   "name_en": "Midas Fish",
+   "name_zh": "点金鱼",
+   "description_zh": "这种鱼拥有点石成金的能力。但不幸的是，它也因此无法再吞食猎物了。栖息于地下（y<41，钓鱼幸运值≥5）；稀有度传说，典型体长 50–80 厘米、最大记录 130 厘米；没有自然生成，只能靠钓获。碰撞箱 0.7×0.35 格，生命值 20 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.8、拉力 0.9；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:mirage_catfish",
+   "name_en": "Mirage Catfish",
+   "name_zh": "幻影鲶鱼",
+   "description_zh": "它们生活在极高温环境中，多年来一直让旅人误以为看见了幻影。栖息于沙漠（y>40，夜晚）；稀有度稀有，典型体长 40–75 厘米、最大记录 155 厘米；会自然生成，常单独出现。碰撞箱 0.85×0.35 格，生命值 5 点、移速 1.1，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.4、拉力 0.45；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:mooneye",
+   "name_en": "Mooneye",
+   "name_zh": "月眼鱼",
+   "description_zh": "人们很难在野外见到这种鱼。它们在较冷的水域中繁衍生息，却人们始终无法捕捉到它们的身影。栖息于湖泊和河流（y>40，夜晚）；稀有度非常稀有，典型体长 23–35 厘米、最大记录 50 厘米；会自然生成于河流群系，常单独出现。碰撞箱 0.5×0.35 格，生命值 2 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.8、拉力 0.7；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:nephrosilu",
+   "name_en": "Nephrosilu",
+   "name_zh": "肾形畸鲶",
+   "description_zh": "这种畸形的怪物是顶级捕食者，拥有锋利如刃的鳍和一只明亮的紫色独眼。栖息于主世界的虚空；稀有度稀有，典型体长 55–90 厘米、最大记录 160 厘米；没有自然生成，只能靠钓获。碰撞箱 0.5×0.2 格，生命值 7 点、移速 1.15，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.65、拉力 0.8；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:neptune_koi",
+   "name_en": "Neptune Koi",
+   "name_zh": "海王鲤",
+   "description_zh": "这种鱼的身体周围环绕着美丽的光环。传闻它能守护水域免受邪灵的侵扰。栖息于海洋（y>40，新月当天）；稀有度非常稀有，典型体长 40–50 厘米、最大记录 80 厘米；没有自然生成，只能靠钓获。碰撞箱 0.45×0.3 格，生命值 5 点、移速 1.5，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.3、拉力 0.75；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:obsidian_pike",
+   "name_en": "Obsidian Pike",
+   "name_zh": "黑曜石狗鱼",
+   "description_zh": "科学家至今无法理解，这种身体坚如磐石的狗鱼究竟是如何活动鳍部的。栖息于熔岩；稀有度罕见，典型体长 60–80 厘米、最大记录 140 厘米；会自然生成于下界，常以 2–4 条一群出现。碰撞箱 0.75×0.4 格，生命值 14 点、移速 1.1，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.25、拉力 0.65；可装桶带走，击杀掉落生鱼，且生鱼火焰免疫、可直接食用。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:ocean_perch",
+   "name_en": "Ocean Perch",
+   "name_zh": "海鲈",
+   "description_zh": "这种鲈鱼常常成群出现在布满岩石的海底，有时在寒冷的深海也能看到它们。栖息于海洋（y>40）；稀有度普通，典型体长 40–50 厘米、最大记录 67 厘米；会自然生成于海洋群系，常以 3–5 条一群出现。碰撞箱 0.6×0.35 格，生命值 4 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.1、拉力 0.4；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:pale_clubfish",
+   "name_en": "Pale Clubfish",
+   "name_zh": "苍白棒鱼",
+   "description_zh": "这些鱼长得奇形怪状，但又非常常见。因此对捕食者和钓鱼佬来说，它们算是美味的零食。栖息于虚空（末地）；稀有度普通，典型体长 40–65 厘米、最大记录 135 厘米；会自然生成于末地，常以 3–5 条一群出现。碰撞箱 0.55×0.35 格，生命值 4 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.1、拉力 0.6；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:pentapus",
+   "name_en": "Pentapus",
+   "name_zh": "五足章鱼",
+   "description_zh": "这种黏糊糊、半透明的紫色生物拥有五条腿。它身体的中心究竟是眼睛还是大脑？栖息于主世界的虚空；稀有度稀有，典型体长 30–90 厘米、最大记录 200 厘米；没有自然生成，只能靠钓获。碰撞箱 0.45×0.5 格，生命值 4 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.65、拉力 0.8；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:pike",
+   "name_en": "Pike",
+   "name_zh": "狗鱼",
+   "description_zh": "这种身形修长的肉食动物凭借极快的速度伏击猎物，能在小型湖泊中称霸一方。栖息于湖泊和河流（y>40，春季、秋季、冬季，仅在季节模组生效时）；稀有度普通，典型体长 60–80 厘米、最大记录 140 厘米；会自然生成于河流群系，常以 1–3 条一群出现。碰撞箱 0.75×0.4 格，生命值 5 点、移速 1.1，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.9、拉力 0.45；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:pluto_snail",
+   "name_en": "Pluto Snail",
+   "name_zh": "冥王海螺",
+   "description_zh": "这种五彩斑斓的蜗牛可以在海底爬行，并且动作比它的亲戚们敏捷得多。栖息于海洋（y>40，残月、娥眉月当天）；稀有度非常稀有，典型体长 10–20 厘米、最大记录 35 厘米；没有自然生成，只能靠钓获。碰撞箱 0.45×0.3 格，生命值 2 点、移速 0.4，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.8、拉力 0.87；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:rainbow_trout",
+   "name_en": "Rainbow Trout",
+   "name_zh": "虹鳟",
+   "description_zh": "它们色彩鲜艳，会出没在清凉的河流与小溪中。栖息于湖泊和河流（y>40，春季、夏季、冬季，仅在季节模组生效时）；稀有度普通，典型体长 50–75 厘米、最大记录 110 厘米；会自然生成于河流群系，常以 3–5 条一群出现。碰撞箱 0.6×0.4 格，生命值 3 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.75、拉力 0.3；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:red_40",
+   "name_en": "Red 40",
+   "name_zh": "诱惑红40号",
+   "description_zh": "这种无眼昆虫动作异常迅捷，能在水中或虚空中自如穿行。栖息于虚空（末地）；稀有度稀有，典型体长 12–25 厘米、最大记录 45 厘米；会自然生成于末地，常以 3–5 条一群出现。碰撞箱 0.26×0.22 格，生命值 2 点、移速 1.25，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.25、拉力 0.75；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落小份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:red_snapper",
+   "name_en": "Red Snapper",
+   "name_zh": "红鲷鱼",
+   "description_zh": "它们因为鲜艳的红色而闻名，通常栖息在近岸水域的岩礁底部。栖息于海洋（y>40）；稀有度普通，典型体长 30–60 厘米、最大记录 115 厘米；会自然生成于海洋群系，常以 3–5 条一群出现。碰撞箱 0.65×0.4 格，生命值 4 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.0、拉力 0.4；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:sailfish",
+   "name_en": "Sailfish",
+   "name_zh": "旗鱼",
+   "description_zh": "它们以高耸的背鳍闻名，可以在广阔的海洋中高速突袭猎物。栖息于海洋（y>40）；稀有度稀有，典型体长 180–270 厘米、最大记录 380 厘米；会自然生成于海洋群系，常以 1–2 条一群出现。碰撞箱 1.25×0.65 格，生命值 10 点、移速 1.3，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.4、拉力 0.8；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落大份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:sand_tiger_shark",
+   "name_en": "Sand Tiger Shark",
+   "name_zh": "沙虎鲨",
+   "description_zh": "它们拥有参差不齐的獠牙和凶狠的外表，不断在沙漠中搜寻着猎物。栖息于沙漠（y>40）；稀有度稀有，典型体长 215–275 厘米、最大记录 350 厘米；会自然生成，常单独出现。碰撞箱 1.8×0.6 格，生命值 25 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.65、拉力 0.7；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落大份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:saturn_cuttlefish",
+   "name_en": "Saturn Cuttlefish",
+   "name_zh": "土星乌贼",
+   "description_zh": "这种浅色乌贼的头部周围环绕着一圈独特的“光环”。栖息于海洋（y>40，上弦月当天）；稀有度非常稀有，典型体长 90–120 厘米、最大记录 180 厘米；没有自然生成，只能靠钓获。碰撞箱 0.8×0.25 格，生命值 6 点、移速 0.8，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.2、拉力 0.82；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:shadow_shark",
+   "name_en": "Shadow Shark",
+   "name_zh": "暗影鲨",
+   "description_zh": "这种外表阴森的肉食动物拥有极其锋利的牙齿，但皮肤却相对脆弱。栖息于主世界的虚空；稀有度非常稀有，典型体长 250–305 厘米、最大记录 375 厘米；没有自然生成，只能靠钓获。碰撞箱 1.8×0.6 格，生命值 28 点、移速 1.1，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.75、拉力 0.86；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落大份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:shadow_snapper",
+   "name_en": "Shadow Snapper",
+   "name_zh": "暗影鲷鱼",
+   "description_zh": "它们是深海中的潜行猎手，能够用其锋利如刃的牙齿袭击它们的猎物。栖息于地下（y<10）；稀有度普通，典型体长 35–65 厘米、最大记录 120 厘米；会自然生成于主世界的水域，常以 2–4 条一群出现。碰撞箱 0.6×0.3 格，生命值 4 点、移速 1.1，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.1、拉力 0.55；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:shooting_starfish",
+   "name_en": "Shooting Starfish",
+   "name_zh": "流星",
+   "description_zh": "有渔夫声称他们见过一种从天而降的鱼，看起来他们并非空穴来风。栖息于深海（y>40，夜晚，满月当天）；稀有度传说，典型体长 70–85 厘米、最大记录 120 厘米；没有自然生成，只能靠钓获。碰撞箱 0.65×0.15 格，生命值 10 点、移速 0.0，实际上几乎固定原地不动；上钩后游速 2.2、拉力 0.88；可装桶带走，击杀掉落本体，掉落物不可食用。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:sleepy_carp",
+   "name_en": "Sleepy Carp",
+   "name_zh": "嗜睡鲤",
+   "description_zh": "一种慵懒而温顺的鱼，大多数时间就一动不动地停留在原地。栖息于主世界的虚空；稀有度普通，典型体长 40–80 厘米、最大记录 120 厘米；没有自然生成，只能靠钓获。碰撞箱 0.65×0.35 格，生命值 6 点、移速 0.6，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.65、拉力 0.78；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:slimy_salmon",
+   "name_en": "Slimy Salmon",
+   "name_zh": "黏液鲑鱼",
+   "description_zh": "由黏液构成的弹性保护层包裹着它们，使其能承受绝大部分冲击。栖息于沼泽（y>40）；稀有度稀有，典型体长 55–95 厘米、最大记录 145 厘米；会自然生成于沼泽，常以 1–2 条一群出现。碰撞箱 0.9×0.35 格，生命值 5 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.4、拉力 0.5；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:smallmouth_bass",
+   "name_en": "Smallmouth Bass",
+   "name_zh": "小口黑鲈",
+   "description_zh": "它们是大口黑鲈的近亲，但更偏爱略为清凉而平静的水域。栖息于湖泊和河流（y>40，春季、夏季、秋季，仅在季节模组生效时）；稀有度普通，典型体长 35–52 厘米、最大记录 70 厘米；会自然生成于河流群系，常以 3–5 条一群出现。碰撞箱 0.65×0.4 格，生命值 4 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.9、拉力 0.4；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:snatcher_squid",
+   "name_en": "Snatcher Squid",
+   "name_zh": "劫掠鱿鱼",
+   "description_zh": "这种鱿鱼经常前往虚空中的死亡地带，并将它的猎物也一并拖入深渊。栖息于虚空（末地）；稀有度非常稀有，典型体长 110–170 厘米、最大记录 260 厘米；会自然生成于末地，常单独出现。碰撞箱 1×0.2 格，生命值 16 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.5、拉力 0.8；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落大份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:snook",
+   "name_en": "Snook",
+   "name_zh": "锯盖鱼",
+   "description_zh": "它们是近海水域的常客，能够适应多种不同的栖息环境。栖息于海岸（y>40）；稀有度普通，典型体长 38–68 厘米、最大记录 125 厘米；会自然生成，常以 3–5 条一群出现。碰撞箱 0.65×0.35 格，生命值 4 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.1、拉力 0.45；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:soulscale",
+   "name_en": "Soulscale",
+   "name_zh": "魂鳞鱼",
+   "description_zh": "这种鱼是由附着着幽灵的灵魂土的纤维编织而成的。栖息于熔岩（下界）；稀有度稀有，典型体长 35–60 厘米、最大记录 95 厘米；会自然生成于下界，常以 3–5 条一群出现。碰撞箱 0.65×0.4 格，生命值 5 点、移速 1.1，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.15、拉力 0.6；可装桶带走，击杀掉落生鱼，且生鱼火焰免疫、可直接食用。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:spore_stalker",
+   "name_en": "Spore Stalker",
+   "name_zh": "孢子追踪者",
+   "description_zh": "这种真菌怪物常聚集在蘑菇附近，或许它曾经也是一条鱼。栖息于蘑菇岛（y>40）；稀有度稀有，典型体长 35–55 厘米、最大记录 90 厘米；没有自然生成，只能靠钓获。碰撞箱 0.63×0.35 格，生命值 3 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.3、拉力 0.5；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:sturgeon",
+   "name_en": "Sturgeon",
+   "name_zh": "鲟鱼",
+   "description_zh": "这是一种拥有坚硬鳞片和长吻的底栖鱼。它们巡游于寒冷河流与湖泊的深处。栖息于湖泊和河流（y>40，秋季、冬季，仅在季节模组生效时）；稀有度稀有，典型体长 140–250 厘米、最大记录 365 厘米；会自然生成于河流群系，常单独出现。碰撞箱 1.6×0.5 格，生命值 18 点、移速 1.1，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.6、拉力 0.6；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落大份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:sun_emblem",
+   "name_en": "Sun Emblem",
+   "name_zh": "烈阳徽章水母",
+   "description_zh": "这是一种会发光的水母，身上带刺的外壳可以保护它们。受到威胁时，它们会麻痹攻击者。栖息于海洋（y>40，白天，满月当天）；稀有度非常稀有，典型体长 50–60 厘米、最大记录 85 厘米；没有自然生成，只能靠钓获。碰撞箱 0.4×0.55 格，生命值 5 点、移速 0.6，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.3、拉力 0.83；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:swordfish",
+   "name_en": "Swordfish",
+   "name_zh": "剑鱼",
+   "description_zh": "它们是深海中强大的猎手，拥有修长扁平的吻部，可以用来斩击猎物。栖息于海洋（y>40）；稀有度稀有，典型体长 180–290 厘米、最大记录 455 厘米；会自然生成于海洋群系，常以 1–2 条一群出现。碰撞箱 1.3×0.6 格，生命值 12 点、移速 1.32，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.4、拉力 0.8；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落大份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:tuna",
+   "name_en": "Tuna",
+   "name_zh": "金枪鱼",
+   "description_zh": "它们的速度与耐力是与生俱来的，可以跨越遥远的距离，是远洋中强大的肉食动物。栖息于海洋（y>40）；稀有度普通，典型体长 90–150 厘米、最大记录 300 厘米；会自然生成于海洋群系，常以 2–4 条一群出现。碰撞箱 1.1×0.65 格，生命值 10 点、移速 1.3，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.2、拉力 0.55；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落烤金枪鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:uranias_pisces",
+   "name_en": "Urania's Pisces",
+   "name_zh": "天王双鱼",
+   "description_zh": "许多渔夫坚信这种鱼来自天堂。据说，捕获它的人会获得好运的眷顾。栖息于海洋（y>40，下弦月当天）；稀有度非常稀有，典型体长 180–220 厘米、最大记录 350 厘米；没有自然生成，只能靠钓获。碰撞箱 1.1×0.6 格，生命值 12 点、移速 1.25，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.7、拉力 0.8；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落大份熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:vengeance",
+   "name_en": "Vengeance",
+   "name_zh": "怨鳞",
+   "description_zh": "它是幽灵？或者就只是条鱼？无论如何，它们对任何事物都极具占有欲且异常好斗。栖息于主世界的虚空；稀有度稀有，典型体长 50–80 厘米、最大记录 130 厘米；没有自然生成，只能靠钓获。碰撞箱 0.6×0.45 格，生命值 8 点、移速 1.1，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.68、拉力 0.8；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:violet_carp",
+   "name_en": "Violet Carp",
+   "name_zh": "紫鲤",
+   "description_zh": "关于这种鲤鱼独特色彩的来源众说纷纭，至今没有定论。栖息于虚空（末地）；稀有度罕见，典型体长 60–85 厘米、最大记录 125 厘米；会自然生成于末地，常以 2–4 条一群出现。碰撞箱 0.65×0.35 格，生命值 5 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.15、拉力 0.7；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:voidseeker",
+   "name_en": "Voidseeker",
+   "name_zh": "虚空寻觅者",
+   "description_zh": "人们对这种鱼知之甚少，只知道它们为了躲避捕获而频繁地跨越维度。栖息于虚空（末地）；稀有度传说，典型体长 40–65 厘米、最大记录 120 厘米；没有自然生成，只能靠钓获。碰撞箱 0.7×0.3 格，生命值 8 点、移速 1.2，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.85、拉力 0.9；可装桶带走，击杀掉落生鱼，生鱼可直接食用。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:volcano_tuna",
+   "name_en": "Volcano Tuna",
+   "name_zh": "火山金枪鱼",
+   "description_zh": "这种鱼能够活到六百岁，最终会被黑曜石包覆，沉入海底。栖息于熔岩；稀有度罕见，典型体长 50–75 厘米、最大记录 110 厘米；会自然生成于下界，常以 3–5 条一群出现。碰撞箱 0.6×0.35 格，生命值 5 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.3、拉力 0.7；可装桶带走，击杀掉落生鱼，且生鱼火焰免疫、可直接食用。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:walleye",
+   "name_en": "Walleye",
+   "name_zh": "玻璃梭鲈",
+   "description_zh": "这种目光敏锐的鱼常年潜伏在寒冷的深水区，是许多钓鱼佬梦寐以求的。栖息于湖泊和河流（y>40，春季、秋季、冬季，仅在季节模组生效时）；稀有度罕见，典型体长 35–75 厘米、最大记录 105 厘米；会自然生成于河流群系，常以 2–3 条一群出现。碰撞箱 0.6×0.35 格，生命值 3 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.1、拉力 0.45；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:warped_guppy",
+   "name_en": "Warped Guppy",
+   "name_zh": "诡异孔雀鱼",
+   "description_zh": "它们是真菌的伙伴，在耐热菌丝的庇护下，得以在熔岩之海中远行。栖息于熔岩（下界）；稀有度稀有，典型体长 4–7 厘米、最大记录 9 厘米；会自然生成于下界，常以 3–5 条一群出现。碰撞箱 0.3×0.15 格，生命值 1 点、移速 1.1，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.15、拉力 0.5；可装桶带走，击杀掉落生鱼，且生鱼火焰免疫、可直接食用。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:white_crappie",
+   "name_en": "White Crappie",
+   "name_zh": "白莓鲈",
+   "description_zh": "它们体色较浅，偏爱流速缓慢的水域，常常能为钓鱼佬带来不少闲情雅致。栖息于湖泊和河流（y>40）；稀有度普通，典型体长 20–30 厘米、最大记录 50 厘米；会自然生成于河流群系，常以 3–5 条一群出现。碰撞箱 0.4×0.35 格，生命值 2 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.85、拉力 0.35；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:witherfin",
+   "name_en": "Witherfin",
+   "name_zh": "凋灵鳍",
+   "description_zh": "它们曾经充满生机，如今却携带致命的感染，凡是触碰它的生物都会被传染。栖息于熔岩（下界）；稀有度稀有，典型体长 25–40 厘米、最大记录 90 厘米；会自然生成于下界，常以 2–4 条一群出现。碰撞箱 0.5×0.3 格，生命值 6 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 1.15、拉力 0.7；可装桶带走，击杀掉落生鱼，且生鱼火焰免疫、可直接食用。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  },
+  {
+   "mob_id": "tide:yellow_perch",
+   "name_en": "Yellow Perch",
+   "name_zh": "黄鲈",
+   "description_zh": "这种带有金黄色条纹的鱼类不仅数量惊人，其外表也同样夺目。栖息于湖泊和河流（y>40）；稀有度普通，典型体长 15–30 厘米、最大记录 45 厘米；会自然生成于河流群系，常以 3–5 条一群出现。碰撞箱 0.4×0.4 格，生命值 2 点、移速 1.0，沿用原版群游鱼 AI，会跟随同类巡游、受惊时四散；上钩后游速 0.95、拉力 0.35；可装桶带走，击杀掉落生鱼，火焰击杀则直接掉落熟鱼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/tide",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：TideFish 注册的生命值/移速/碰撞箱，data/tide/fishing/fish 的栖息地、稀有度与体长，forge/biome_modifier 的生成项，loot_tables/entities 的掉落；无独立 wiki 条目"
+  }
+ ]
+}

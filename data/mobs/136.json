@@ -1,0 +1,27 @@
+{
+ "rank": 136,
+ "mod": "The Ravenous",
+ "mod_url": "https://modrinth.com/mod/ravenous",
+ "mobs": [
+  {
+   "mob_id": "the_ravenous:the_ravenous",
+   "name_en": "The Ravenous",
+   "name_zh": "",
+   "description_zh": "被 Screecher 的尖叫召来的盲眼猎手：它靠声音定位，行走、跳跃和破坏方块都会把它引向玩家，静止不动才可能暂时躲过。它能破坏黑曜石与基岩之外几乎所有方块，咆哮产生的冲击波会把躲在柱顶的玩家掀飞，并熄灭光源、震碎玻璃；每次受击都会成长得更大更快，唯一的分心办法是喂给它一个村民或十只动物。击杀后掉落可用于制作 Anti-Ravenous 的回声定位器官。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/ravenous",
+   "confidence": 0.85,
+   "notes": "实体 the_ravenous:the_ravenous_1 至 the_ravenous_6 为同一 Boss 的进化阶段（phase 1-6），不重复记录；the_ravenous:rav_scream 为咆哮冲击波的判定实体，非生物。"
+  },
+  {
+   "mob_id": "the_ravenous:the_screecher",
+   "name_en": "The Screecher",
+   "name_zh": "",
+   "description_zh": "夜间在黑暗中自然生成的小型掠食者，速度很快但正面战斗力弱：它会咬一口就后撤，并尽快发出尖叫。尖叫会召来 The Ravenous，若附近没有则直接生成一只；若放任它存活太久，它自己也会成长为成年的 The Ravenous。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/ravenous",
+   "confidence": 0.85,
+   "notes": "模组正文中称其为 The Screech，jar 内注册名为 the_screecher；与 The Ravenous 同样掉落回声定位器官。"
+  }
+ ]
+}

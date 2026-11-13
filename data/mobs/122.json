@@ -1,0 +1,237 @@
+{
+ "rank": 122,
+ "mod": "Luminous: Nether",
+ "mod_url": "https://modrinth.com/mod/luminous-nether",
+ "mobs": [
+  {
+   "mob_id": "luminous_nether:basalt_executioner",
+   "name_en": "Basalt Executioner",
+   "name_zh": "",
+   "description_zh": "猪灵行刑官的稀有变种，生成于玄武岩三角洲（权重 1、单只）。按模组正文，击杀这类稀有传说野兽必定掉落一张音乐唱片、该野兽的稀有战利品，以及普通变种对应的稀有物品（行刑官兜帽）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.8,
+   "notes": "正文只给出定位与掉落规则，生命值/伤害未公开"
+  },
+  {
+   "mob_id": "luminous_nether:crimson_walker",
+   "name_en": "Crimson Walker",
+   "name_zh": "",
+   "description_zh": "生成于绯红森林（权重 4、1-2 只）的感染型亡灵。模组正文提醒小心它的死亡：被杀时会爆开成感染性云雾，使附近玩家获得“出血”负面效果。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.8,
+   "notes": ""
+  },
+  {
+   "mob_id": "luminous_nether:ember",
+   "name_en": "Ember",
+   "name_zh": "",
+   "description_zh": "传说野兽“熔炉”（The Furnace）的余烬小兵，正文提到击杀熔炉有概率掉落它的余烬小兵奖杯。jar 内它有独立刷怪蛋、掉落煤炭，但没有自然生成配置。资料有限。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.6,
+   "notes": "正文仅称其为 The Furnace 的 ember minion；生成方式未说明"
+  },
+  {
+   "mob_id": "luminous_nether:soul_ember",
+   "name_en": "Ember",
+   "name_zh": "",
+   "description_zh": "与 Ember 同名的灵魂版本余烬（实体 id soul_ember），有独立刷怪蛋、击杀掉落煤炭，jar 内没有自然生成配置，推测与灵魂熔炉（The Soul Furnace）相关。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.4,
+   "notes": "与 soul_furnace 的对应关系未在正文或数据中明说"
+  },
+  {
+   "mob_id": "luminous_nether:gilded_cultist",
+   "name_en": "Gilded Cultist",
+   "name_zh": "",
+   "description_zh": "邪教徒家族中的镀金成员，有独立刷怪蛋，击杀掉落“镀金包裹”（Gilded Bundle）；jar 内找不到它的自然生成配置，模组正文也未介绍。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.45,
+   "notes": ""
+  },
+  {
+   "mob_id": "luminous_nether:glider",
+   "name_en": "Glider",
+   "name_zh": "",
+   "description_zh": "生成于下界荒地与玄武岩三角洲（权重 25、1-2 只）的飞行生物。正文说它因为不必弄脏手（或脚）而被“行走的亲戚”憎恨；喂它绯红血肉可以保持其饱食，之后它可能让你搭一程。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.8,
+   "notes": ""
+  },
+  {
+   "mob_id": "luminous_nether:guzzleghast",
+   "name_en": "Guzzleghast",
+   "name_zh": "",
+   "description_zh": "游荡在灰烬森林（权重 55、1-3 只）的敌对生物，正文称它的胃口比它的头还大。它会主动攻击玩家，除非被击杀或被安抚；喂食后有概率掉落“外质球”（Ectoplasm ball）——一种能影响方块重力的投掷物。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.8,
+   "notes": ""
+  },
+  {
+   "mob_id": "luminous_nether:mushlin_bumper",
+   "name_en": "Mushlin Bumper",
+   "name_zh": "",
+   "description_zh": "真菌平原最常见的小型生物（生成权重 120、每次 2-4 只），正文描述它们喜欢用有弹性的脑袋把玩家顶回去。击杀可获得“蘑菇蛋白”，是一种新的食物来源。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "luminous_nether:mushlin_king",
+   "name_en": "Mushlin King",
+   "name_zh": "",
+   "description_zh": "真菌平原的传说野兽（生成权重 4），所有邪教徒崇拜的对象，正文称这只巨型蘑菇“统御这片土地”。击杀有概率掉落音乐唱片、它的头颅奖杯，或“孢子捆”（Spore Bundle）——受到致命伤害时触发、救下玩家并释放毒气云的副手物品。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "luminous_nether:piglin_cultist",
+   "name_en": "Piglin Cultist",
+   "name_zh": "",
+   "description_zh": "真菌平原的敌对猪灵派系（生成权重 80、1-3 只），把生命献给了蘑菇王，会攻击任何靠近的人，武器是新的“邪教徒斧”。正文提到手持在该群系找到的邪教徒旗帜可以免受攻击。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "luminous_nether:piglin_cultist_leader",
+   "name_en": "Piglin Cultist Leader",
+   "name_zh": "",
+   "description_zh": "邪教徒中的精英（生成权重 40、1-2 只），正文强调它被攻击时能召唤援军，所以需要尽快解决。击杀掉落金粒、金锭、金苹果与邪教徒旗帜下摆。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.85,
+   "notes": "掉落物来自 jar 掉落表"
+  },
+  {
+   "mob_id": "luminous_nether:cultist_rider",
+   "name_en": "Piglin Cultist Rider",
+   "name_zh": "",
+   "description_zh": "骑着被驯服的疣猪兽投入战斗的邪教徒（真菌平原生成权重 30、1-2 只）。正文提醒它会让你的血条相当难看；击杀掉落鞍与 2-4 块生猪排。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.85,
+   "notes": "掉落物来自 jar 掉落表"
+  },
+  {
+   "mob_id": "luminous_nether:piglin_executioner",
+   "name_en": "Piglin Executioner",
+   "name_zh": "",
+   "description_zh": "灰烬森林的传说野兽（生成权重 5），正文称这位亡灵之王挥舞着一把毫不留情的斧头。击杀有概率掉落音乐唱片、头颅奖杯，或“行刑官兜帽”——头部护甲，防护很低，但连续快速击杀敌人时给予玩家力量。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "luminous_nether:piglin_ghost",
+   "name_en": "Piglin Ghost",
+   "name_zh": "",
+   "description_zh": "早已死去的愤怒灵魂，正文称它们被束缚在灰烬森林不同结构里的刷怪笼中，靠近就会被攻击。击杀掉落 0-2 个“幽灵精华”（Ghostly Essence），也是净化仪式的主要资源。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.85,
+   "notes": "jar 内无自然生成配置，与正文“被束缚在结构刷怪笼”一致"
+  },
+  {
+   "mob_id": "luminous_nether:pottergeist",
+   "name_en": "Pottergeist",
+   "name_zh": "",
+   "description_zh": "灰烬森林稀有结构里的幽灵，正文称它们被认为是走失宠物的灵魂、被猪灵幽灵囚禁。右击可驯服，之后会跟随玩家、帮忙拿物品，还能装上花瓶作为装饰（共有十二种外观）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "luminous_nether:revenant_skeleton",
+   "name_en": "Revenant",
+   "name_zh": "",
+   "description_zh": "游荡在灵魂沙峡谷的骷髅（生成权重 7、1-2 只），正文称它射中玩家时会借此治疗自己。击杀掉落 0-2 根“灵魂之骨”。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.85,
+   "notes": "掉落物来自 jar 掉落表"
+  },
+  {
+   "mob_id": "luminous_nether:spirit",
+   "name_en": "Spirit",
+   "name_zh": "",
+   "description_zh": "灰烬森林中游荡的幽灵（生成权重 70、1-3 只），被动而温和，只有先被攻击时才会还手。击杀掉落 0-2 个幽灵精华，是很有价值的材料。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.85,
+   "notes": "掉落物来自 jar 掉落表"
+  },
+  {
+   "mob_id": "luminous_nether:the_furnace",
+   "name_en": "The Furnace",
+   "name_zh": "",
+   "description_zh": "下界荒地生成（权重 2、单只）的传说野兽，正文称它是所有传说野兽中最大、最凶的一只，没人知道这只怪物如何活过来，只知道它很愤怒。击杀有概率掉落音乐唱片、余烬小兵奖杯，或“熔火煤”——着火时给予玩家力量的副手物品。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "luminous_nether:soul_furnace",
+   "name_en": "The Soul Furnace",
+   "name_zh": "",
+   "description_zh": "熔炉（The Furnace）的稀有变种，生成于灵魂沙峡谷（权重 1、单只）。正文说明击杀这类稀有野兽必定掉落音乐唱片、该野兽的稀有奖杯，以及普通变种对应的稀有物品（熔火煤）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.8,
+   "notes": ""
+  },
+  {
+   "mob_id": "luminous_nether:warped_mushlin_king",
+   "name_en": "Warped Mushlin King",
+   "name_zh": "",
+   "description_zh": "蘑菇王的稀有变种，正文称它生成于诡异森林。击杀必定掉落音乐唱片、该野兽的稀有奖杯，以及普通变种对应的稀有物品（孢子捆）。jar 内没有它的自然生成权重配置。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.75,
+   "notes": "正文给出群系与掉落规则，但 jar 的 biome_modifier 中没有它的生成条目"
+  },
+  {
+   "mob_id": "luminous_nether:zombie_piglin_cultist",
+   "name_en": "Zombified Piglin Cultist",
+   "name_zh": "",
+   "description_zh": "僵尸化的猪灵邪教徒，生成于真菌平原（权重 30、1-2 只）。击杀掉落腐肉、金粒/金锭与“金汤”（Golden Stew）。模组正文未单独介绍这个变种。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.5,
+   "notes": ""
+  },
+  {
+   "mob_id": "luminous_nether:zombie_piglin_cultist_leader",
+   "name_en": "Zombified Piglin Cultist Leader",
+   "name_zh": "",
+   "description_zh": "僵尸化的邪教徒首领，生成于真菌平原（权重 20、单只）。掉落腐肉、金粒/金锭与邪教徒旗帜下摆。模组正文未单独介绍它。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.5,
+   "notes": ""
+  },
+  {
+   "mob_id": "luminous_nether:zombie_cultist_rider",
+   "name_en": "Zombified Piglin Cultist Rider",
+   "name_zh": "",
+   "description_zh": "僵尸化的邪教徒骑手，生成于真菌平原（权重 12、单只），骑乘疣猪兽类坐骑作战。掉落鞍与 2-4 块腐肉。模组正文未单独介绍它。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/luminous-nether",
+   "confidence": 0.5,
+   "notes": ""
+  }
+ ]
+}

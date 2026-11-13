@@ -1,0 +1,1957 @@
+{
+  "rank": 263,
+  "mod": "Terra Entity",
+  "mod_url": "https://modrinth.com/mod/terra-entity",
+  "mobs": [
+    {
+      "mob_id": "terra_entity:anger_bones",
+      "name_en": "Anger Bones",
+      "name_zh": "愤怒骷髅",
+      "description_zh": "《泰拉生物》的敌对生物「愤怒骷髅」，体型约 0.7×1.9 格，生命 41、护甲 8、攻击 13。会追击靠近的目标并近战挥击。自然生成于主世界（每次 1–2 只）；击杀掉落 骨头×1–3、服装商巫毒娃娃（5%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:anger_goblin",
+      "name_en": "Anger Goblin",
+      "name_zh": "愤怒哥布林",
+      "description_zh": "《泰拉生物》的敌对生物「愤怒哥布林」，体型约 0.7×1.9 格，生命 220、攻击 15。会手持武器近战，也会拿出弓弩远程射击。自然生成于平原（每次 1 只）；击杀掉落 腐肉×1–2、铁锭（33%）、胡萝卜（33%）、马铃薯（33%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:angler",
+      "name_en": "Angler",
+      "name_zh": "渔夫",
+      "description_zh": "《泰拉生物》的 NPC「渔夫」。可以入住玩家搭好的房屋，带对话和心情系统。会在河流一带以 NPC 身份出现。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.56,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI、群系生成配置、商店数据）"
+    },
+    {
+      "mob_id": "terra_entity:antlion_swarmer",
+      "name_en": "Antlion Swarmer",
+      "name_zh": "蚁狮蜂",
+      "description_zh": "《泰拉生物》的敌对生物「蚁狮蜂」，体型约 3×1.5 格，生命 31、护甲 8、攻击 15。会先低空盘旋，再向目标冲刺撞击，擅长短距离冲刺，可以飞行追击。自然生成于沙漠、恶地、侵蚀恶地、疏林恶地（每次 1 只）；击杀掉落 腐肉×1–2、沙子×1–2。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:arapaima",
+      "name_en": "Arapaima",
+      "name_zh": "巨骨舌鱼",
+      "description_zh": "《泰拉生物》的敌对生物「巨骨舌鱼」，体型约 2.2×0.7 格，生命 104、护甲 30、攻击 39。会追击靠近的目标并近战挥击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:arms_dealer",
+      "name_en": "Arms Dealer",
+      "name_zh": "军火商",
+      "description_zh": "《泰拉生物》的 NPC「军火商」。可以入住玩家搭好的房屋，带对话和心情系统，也经营商店。商店可用腐肉 + 线×2 → 弓；骨头×3 + 线×2 → 弩等交易；会在沙漠村庄一带以 NPC 身份出现。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.56,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI、群系生成配置、商店数据）"
+    },
+    {
+      "mob_id": "terra_entity:baby_slime",
+      "name_en": "Baby Slime",
+      "name_zh": "史莱姆宝宝",
+      "description_zh": "《泰拉生物》加入的怪物「史莱姆宝宝」（实体 terra_entity:baby_slime），没有刷怪蛋；击杀掉落：没有独立掉落表。模组正文把同类生物归入 Monsters 分类，具体血量与行为资料有限。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.4,
+      "notes": "依据 jar 内实体标签、掉落表、刷怪蛋、Boss 技能参数与 NPC 商店数据拼合；模组正文只有分类列表，未逐只介绍"
+    },
+    {
+      "mob_id": "terra_entity:base_bones",
+      "name_en": "Base Bones",
+      "name_zh": "基础骷髅",
+      "description_zh": "《泰拉生物》的敌对生物「基础骷髅」，体型约 0.7×1.9 格，生命 41、护甲 2、攻击 13。会追击靠近的目标并近战挥击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；击杀掉落 骨头×1–3、服装商巫毒娃娃（5%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.6,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:big_anger_bones",
+      "name_en": "Big Anger Bones",
+      "name_zh": "大愤怒骷髅",
+      "description_zh": "《泰拉生物》的敌对生物「大愤怒骷髅」，体型约 0.9×2.4 格，生命 36、护甲 6、攻击 17。会追击靠近的目标并近战挥击。自然生成于主世界（每次 1–2 只）；击杀掉落 骨头×1–3、服装商巫毒娃娃（5%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:big_bones",
+      "name_en": "Big Bones",
+      "name_zh": "大骷髅",
+      "description_zh": "《泰拉生物》的敌对生物「大骷髅」，体型约 0.8×2.2 格，生命 52、护甲 9、攻击 17。会追击靠近的目标并近战挥击。自然生成于主世界（每次 1–2 只）；击杀掉落 骨头×1–3、服装商巫毒娃娃（5%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:big_helmet_anger_bones",
+      "name_en": "Big Helmet Anger Bones",
+      "name_zh": "大头盔愤怒骷髅",
+      "description_zh": "《泰拉生物》的敌对生物「大头盔愤怒骷髅」，体型约 1×2.6 格，生命 62、护甲 14、攻击 12。会追击靠近的目标并近战挥击。自然生成于主世界（每次 1 只）；击杀掉落 骨头×1–3、服装商巫毒娃娃（5%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:big_muscle_anger_bones",
+      "name_en": "Big Muscle Anger Bones",
+      "name_zh": "大块头愤怒骷髅",
+      "description_zh": "《泰拉生物》的敌对生物「大块头愤怒骷髅」，体型约 0.9×2.5 格，生命 36、护甲 12、攻击 14。会追击靠近的目标并近战挥击。自然生成于主世界（每次 1 只）；击杀掉落 骨头×1–3、服装商巫毒娃娃（5%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:bird",
+      "name_en": "Bird",
+      "name_zh": "鸟",
+      "description_zh": "《泰拉生物》的动物「鸟」，生命 6、攻击 3。性情被动，平时在群系里游荡，受击后会逃跑。自然生成于主世界各处、森林（每次 1–2 只）；击杀掉落 雀杖（5%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:black_slime",
+      "name_en": "Black Slime",
+      "name_zh": "黑色史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「黑色史莱姆」，生命 20、攻击 2。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。自然生成于主世界各处（每次 1–3 只）；击杀掉落 黏液球（20%）、史莱姆法杖（0.1%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:blood_crawler",
+      "name_en": "Blood Crawler",
+      "name_zh": "血爬虫",
+      "description_zh": "《泰拉生物》的敌对生物「血爬虫」，体型约 1.8×1.2 格，生命 31、护甲 8、攻击 15。会主动锁定玩家和攻击者，靠近后发起攻击。自然生成于下界荒地（每次 1 只）；击杀掉落 血腥脊椎（5%）、红色染料×1（50%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:blood_mummy",
+      "name_en": "Blood Mummy",
+      "name_zh": "血木乃伊",
+      "description_zh": "《泰拉生物》的敌对生物「血木乃伊」，体型约 0.8×1.9 格，生命 93、护甲 18、攻击 32。会追击靠近的目标并近战挥击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:blood_zombie",
+      "name_en": "Blood Zombie",
+      "name_zh": "血腥僵尸",
+      "description_zh": "《泰拉生物》的敌对生物「血腥僵尸」，体型约 0.8×1.9 格，生命 39、护甲 8、攻击 10。会追击靠近的目标并近战挥击。自然生成于绯红森林（每次 1 只）；击杀掉落 血腥脊椎（5%）、红色染料×1（50%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:bloody_spore",
+      "name_en": "Bloody Spore",
+      "name_zh": "血腥芽孢",
+      "description_zh": "《泰拉生物》的敌对生物「血腥芽孢」，体型约 1×1.5 格，生命 100、护甲 6。行为以基础游荡和碰撞攻击为主。自然生成于绯红森林、下界荒地（每次 1 只）；击杀掉落 血腥脊椎（20%）、血脉球、火药×0–2、红色染料×1（50%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:blue_jay",
+      "name_en": "Blue Jay",
+      "name_zh": "冠蓝鸦",
+      "description_zh": "《泰拉生物》的动物「冠蓝鸦」，生命 6、攻击 3。性情被动，平时在群系里游荡，受击后会逃跑。自然生成于主世界各处、森林（每次 1–2 只）；击杀掉落 雀杖（5%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:blue_jellyfish",
+      "name_en": "Blue Jellyfish",
+      "name_zh": "蓝水母",
+      "description_zh": "《泰拉生物》的敌对生物「蓝水母」，体型约 0.5×0.5 格，生命 17、护甲 4、攻击 13。漂浮在水中，靠接触伤害攻击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:blue_slime",
+      "name_en": "Blue Slime",
+      "name_zh": "蓝色史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「蓝色史莱姆」，生命 16、护甲 2、攻击 4。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。自然生成于主世界各处（每次 2–4 只）；击杀掉落 黏液球（20%）、史莱姆法杖（0.1%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:bone_serpent",
+      "name_en": "Bone Serpent",
+      "name_zh": "骨蛇",
+      "description_zh": "《泰拉生物》的敌对生物「骨蛇」，体型约 2×2 格，生命 156、护甲 12、攻击 18。多节蠕虫状，身体由多个体节组成，会从地下或空中扑向目标。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:brain_of_cthulhu",
+      "name_en": "Brain Of Cthulhu",
+      "name_zh": "克苏鲁之脑",
+      "description_zh": "《泰拉生物》的 Boss「克苏鲁之脑」，体型约 4×4 格，生命 552、护甲 14、攻击 14。作为 Boss 拥有独立技能参数与分阶段行为。没有自然生成配置，通常用召唤物或指令召出；击杀掉落 铁傀儡法杖。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.6,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:bunny",
+      "name_en": "Bunny",
+      "name_zh": "兔兔",
+      "description_zh": "《泰拉生物》的动物「兔兔」，生命 3。性情被动，平时在群系里游荡。自然生成于主世界各处、森林（每次 1–2 只）；击杀掉落 兔子皮×0–1、兔子肉×1、兔子脚。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:butterfly",
+      "name_en": "Butterfly",
+      "name_zh": "蝴蝶",
+      "description_zh": "《泰拉生物》的动物「蝴蝶」，体型约 0.5×0.3 格，生命 6、攻击 3。性情被动，平时在群系里游荡，受击后会逃跑。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:cardinal",
+      "name_en": "Cardinal",
+      "name_zh": "红雀",
+      "description_zh": "《泰拉生物》的动物「红雀」，生命 6、攻击 3。性情被动，平时在群系里游荡，受击后会逃跑。自然生成于主世界各处、森林（每次 1–2 只）；击杀掉落 雀杖（5%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:cave_bat",
+      "name_en": "Cave Bat",
+      "name_zh": "洞穴蝙蝠",
+      "description_zh": "《泰拉生物》的敌对生物「洞穴蝙蝠」，体型约 1.6×1.6 格，生命 8、护甲 1、攻击 4。会主动锁定玩家和攻击者，靠近后发起攻击，擅长短距离冲刺，可以飞行追击。自然生成于主世界各处（每次 1–2 只）；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.6,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置）"
+    },
+    {
+      "mob_id": "terra_entity:chester",
+      "name_en": "Chester",
+      "name_zh": "切斯特",
+      "description_zh": "《泰拉生物》的召唤物「切斯特」，体型约 1×1 格。被召唤后跟随主人，可以打开它存取物品，相当于随身容器。不会自然生成，只能由对应的召唤/坐骑道具召出；通常不掉落物品。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:clothier",
+      "name_en": "Clothier",
+      "name_zh": "服装商",
+      "description_zh": "《泰拉生物》的 NPC「服装商」。可以入住玩家搭好的房屋，带对话和心情系统，也经营商店。商店可用绿宝石 → 铁头盔；绿宝石 → 铁胸甲等交易；会在平原村庄一带以 NPC 身份出现。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.56,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI、群系生成配置、商店数据）"
+    },
+    {
+      "mob_id": "terra_entity:corrupt_mimic",
+      "name_en": "Corrupt Mimic",
+      "name_zh": "腐化宝箱怪",
+      "description_zh": "《泰拉生物》的敌对生物「腐化宝箱怪」，体型约 1.6×1.6 格，生命 1820、护甲 34、攻击 47。平时伪装成宝箱，被靠近或开启后跳出追击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:corrupt_slime",
+      "name_en": "Corrupt Slime",
+      "name_zh": "腐化史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「腐化史莱姆」，生命 88、护甲 20、攻击 28。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。群系生成配置里没有它，需用刷怪蛋或其它方式获得；击杀掉落 黏液球（20%）、史莱姆法杖（0.1%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.58,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:crab",
+      "name_en": "Crab",
+      "name_zh": "螃蟹",
+      "description_zh": "《泰拉生物》的动物「螃蟹」，体型约 0.5×0.3 格，生命 3。性情被动，平时在群系里游荡。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:crawdad",
+      "name_en": "Crawdad",
+      "name_zh": "龙虾",
+      "description_zh": "《泰拉生物》的敌对生物「龙虾」，体型约 1×1 格，生命 26、护甲 6、攻击 15。会追击靠近的目标并近战挥击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:crimera",
+      "name_en": "Crimera",
+      "name_zh": "猩红喀迈拉",
+      "description_zh": "《泰拉生物》的敌对生物「猩红喀迈拉」，体型约 1.2×1.2 格，生命 20、护甲 6、攻击 11。会主动锁定玩家和攻击者，靠近后发起攻击，擅长短距离冲刺，可以飞行追击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；击杀掉落 血腥脊椎（5%）、红色染料×1（50%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.6,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:crimson_mimic",
+      "name_en": "Crimson Mimic",
+      "name_zh": "猩红宝箱怪",
+      "description_zh": "《泰拉生物》的敌对生物「猩红宝箱怪」，体型约 1.6×1.6 格，生命 1820、护甲 34、攻击 47。平时伪装成宝箱，被靠近或开启后跳出追击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:crimson_slime",
+      "name_en": "Crimson Slime",
+      "name_zh": "猩红史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「猩红史莱姆」，生命 104、护甲 26、攻击 31.2。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。群系生成配置里没有它，需用刷怪蛋或其它方式获得；击杀掉落 黏液球（20%）、史莱姆法杖（0.1%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.58,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:cursed_skull",
+      "name_en": "Cursed Skull",
+      "name_zh": "诅咒骷髅头",
+      "description_zh": "《泰拉生物》的敌对生物「诅咒骷髅头」，体型约 1×1 格，生命 21、护甲 6、攻击 18。漂浮在空中，会加速冲撞目标。自然生成于主世界（每次 1 只）；击杀掉落 骨头×1–3、服装商巫毒娃娃（5%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:dark_caster",
+      "name_en": "Dark Caster",
+      "name_zh": "暗黑法师",
+      "description_zh": "《泰拉生物》的敌对生物「暗黑法师」，体型约 0.7×1.9 格，生命 26、护甲 2、攻击 10。会站在原地向目标连续发射远程弹幕。自然生成于主世界（每次 1 只）；击杀掉落 腐肉×1–2、铁锭（33%）、胡萝卜（33%）、马铃薯（33%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:dark_lamia",
+      "name_en": "Dark Lamia",
+      "name_zh": "黑暗拉弥亚",
+      "description_zh": "《泰拉生物》的敌对生物「黑暗拉弥亚」，体型约 0.8×1.9 格，生命 182、护甲 28、攻击 27。会追击靠近的目标并近战挥击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:dark_mummy",
+      "name_en": "Dark Mummy",
+      "name_zh": "暗黑木乃伊",
+      "description_zh": "《泰拉生物》的敌对生物「暗黑木乃伊」，体型约 0.8×1.9 格，生命 93、护甲 18、攻击 32。会追击靠近的目标并近战挥击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:decayeder",
+      "name_en": "Decayeder",
+      "name_zh": "腐骴",
+      "description_zh": "《泰拉生物》的敌对生物「腐骴」，体型约 1×1.8 格，生命 10、护甲 6、攻击 6。会与目标保持距离，发射远程弹幕。自然生成于玄武岩三角洲、灵魂沙峡谷（每次 1 只）；击杀掉落 蠕虫诱饵（5%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:deerclops",
+      "name_en": "Deerclops",
+      "name_zh": "独眼巨鹿",
+      "description_zh": "《泰拉生物》的 Boss「独眼巨鹿」，体型约 3×7 格，生命 3094、护甲 10、攻击 10.4。作为 Boss 拥有独立技能参数与分阶段行为。没有自然生成配置，通常用召唤物或指令召出；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:demolitionist",
+      "name_en": "Demolitionist",
+      "name_zh": "爆破专家",
+      "description_zh": "《泰拉生物》的 NPC「爆破专家」。可以入住玩家搭好的房屋，带对话和心情系统，也经营商店。商店可用火药×2 + 铁锭 → TNT；火药 → 烟花火箭等交易；会在溶洞、繁茂洞穴、下界荒地一带以 NPC 身份出现。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.56,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI、群系生成配置、商店数据）"
+    },
+    {
+      "mob_id": "terra_entity:demon",
+      "name_en": "Demon",
+      "name_zh": "恶魔",
+      "description_zh": "《泰拉生物》的敌对生物「恶魔」，体型约 1×2 格，生命 62、护甲 8、攻击 20。会向目标投掷恶魔镰刀，可以飞行追击。自然生成于下界荒地、绯红森林、玄武岩三角洲（每次 1 只）；击杀掉落 烈焰粉×1–2、喷流球×1–2（0.3%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:demon_eye",
+      "name_en": "Demon Eye",
+      "name_zh": "恶魔眼",
+      "description_zh": "《泰拉生物》的敌对生物「恶魔眼」，体型约 1.1×1.1 格。行为以基础游荡和碰撞攻击为主。自然生成于主世界各处（每次 1–2 只）；击杀掉落 可疑眼球（5%）、末影之眼×1（5%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.58,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:derpling",
+      "name_en": "Derpling",
+      "name_zh": "跳跳兽",
+      "description_zh": "《泰拉生物》的敌对生物「跳跳兽」，体型约 2×2 格，生命 156、护甲 26、攻击 41。会主动锁定玩家和攻击者，靠近后发起攻击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:desert_slime",
+      "name_en": "Desert Slime",
+      "name_zh": "沙漠史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「沙漠史莱姆」，生命 21、护甲 5、攻击 6。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。自然生成于沙漠、恶地、侵蚀恶地、疏林恶地（每次 1–2 只）；击杀掉落 黏液球（20%）、史莱姆法杖（0.1%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:devourer",
+      "name_en": "Devourer",
+      "name_zh": "吞噬怪",
+      "description_zh": "《泰拉生物》的敌对生物「吞噬怪」，体型约 2×2 格，生命 52、护甲 2、攻击 8。多节蠕虫状，身体由多个体节组成，会从地下或空中扑向目标。自然生成于玄武岩三角洲、灵魂沙峡谷（每次 1 只）；击杀掉落 蠕虫诱饵（5%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:dragonfly",
+      "name_en": "Dragonfly",
+      "name_zh": "蜻蜓",
+      "description_zh": "《泰拉生物》的动物「蜻蜓」，体型约 0.5×0.3 格，生命 6、攻击 3。性情被动，平时在群系里游荡，受击后会逃跑。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:dreamer_ghoul",
+      "name_en": "Dreamer Ghoul",
+      "name_zh": "神梦食尸鬼",
+      "description_zh": "《泰拉生物》的敌对生物「神梦食尸鬼」，体型约 0.8×1.9 格，生命 156、护甲 32、攻击 28。会追击靠近的目标并近战挥击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:drippler",
+      "name_en": "Drippler",
+      "name_zh": "滴滴怪",
+      "description_zh": "《泰拉生物》的敌对生物「滴滴怪」，体型约 1.6×1.6 格，生命 26、护甲 7、攻击 14。会主动锁定玩家和攻击者，靠近后发起攻击，擅长短距离冲刺，可以飞行追击。自然生成于绯红森林（每次 1 只）；击杀掉落 血腥脊椎（5%）、红色染料×1（50%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:dryad",
+      "name_en": "Dryad",
+      "name_zh": "树妖",
+      "description_zh": "《泰拉生物》的 NPC「树妖」。可以入住玩家搭好的房屋，带对话和心情系统，也经营商店。商店可用橡树树苗×2 + 煤炭 → 绿宝石；云杉树苗×2 + 煤炭 → 绿宝石等交易；会在丛林一带以 NPC 身份出现。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.56,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI、群系生成配置、商店数据）"
+    },
+    {
+      "mob_id": "terra_entity:duck",
+      "name_en": "Duck",
+      "name_zh": "鸭子",
+      "description_zh": "《泰拉生物》的动物「鸭子」，生命 4。性情被动，平时在群系里游荡。自然生成于主世界各处、森林（每次 1–2 只）；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.58,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置）"
+    },
+    {
+      "mob_id": "terra_entity:dungeon_guardian",
+      "name_en": "Dungeon Guardian",
+      "name_zh": "地牢守卫",
+      "description_zh": "《泰拉生物》的 Boss「地牢守卫」，体型约 2.5×2.5 格，生命 9999、护甲 9999、攻击 9999。作为 Boss 拥有独立技能参数与分阶段行为。没有自然生成配置，通常用召唤物或指令召出；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:dungeon_slime",
+      "name_en": "Dungeon Slime",
+      "name_zh": "地牢史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「地牢史莱姆」，生命 78、护甲 2、攻击 15.6。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.55,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:dye_trader",
+      "name_en": "Dye Trader",
+      "name_zh": "染料商",
+      "description_zh": "《泰拉生物》的 NPC「染料商」。可以入住玩家搭好的房屋，带对话和心情系统，也经营商店。商店可用红色染料×5 → 绿宝石；淡蓝色染料×5 → 绿宝石等交易；会在沙漠村庄一带以 NPC 身份出现。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.56,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI、群系生成配置、商店数据）"
+    },
+    {
+      "mob_id": "terra_entity:eater_of_souls",
+      "name_en": "Eater Of Souls",
+      "name_zh": "噬魂怪",
+      "description_zh": "《泰拉生物》的敌对生物「噬魂怪」，体型约 1.2×1.2 格，生命 20、护甲 6、攻击 11。会主动锁定玩家和攻击者，靠近后发起攻击，擅长短距离冲刺，可以飞行追击。自然生成于玄武岩三角洲、灵魂沙峡谷（每次 1–2 只）；击杀掉落 蠕虫诱饵（5%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:eater_of_worlds",
+      "name_en": "Eater Of Worlds",
+      "name_zh": "世界吞噬怪",
+      "description_zh": "《泰拉生物》的 Boss「世界吞噬怪」，体型约 3×2 格，生命 54、护甲 4、攻击 11.5。作为 Boss 拥有独立技能参数与分阶段行为。没有自然生成配置，通常用召唤物或指令召出；击杀掉落 铁傀儡法杖。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.6,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:evil_slime",
+      "name_en": "Evil Slime",
+      "name_zh": "邪恶史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「邪恶史莱姆」，生命 58、护甲 2、攻击 29。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。群系生成配置里没有它，需用刷怪蛋或其它方式获得；击杀掉落 黏液球（20%）、史莱姆法杖（0.1%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.58,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:explosive_bunny",
+      "name_en": "Explosive Bunny",
+      "name_zh": "爆炸兔",
+      "description_zh": "《泰拉生物》的动物「爆炸兔」，生命 3。性情被动，平时在群系里游荡，靠近玩家后会爆炸。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.55,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:eye_of_cthulhu",
+      "name_en": "Eye Of Cthulhu",
+      "name_zh": "克苏鲁之眼",
+      "description_zh": "《泰拉生物》的 Boss「克苏鲁之眼」，体型约 2×2 格，生命 728、护甲 12、攻击 4。作为 Boss 拥有独立技能参数与分阶段行为，擅长短距离冲刺。没有自然生成配置，通常用召唤物或指令召出；击杀掉落 血腥脊椎（50%）、蠕虫诱饵（50%）、史莱姆法杖。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.6,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:face_monster",
+      "name_en": "Face Monster",
+      "name_zh": "脸怪",
+      "description_zh": "《泰拉生物》的敌对生物「脸怪」，体型约 0.8×1.9 格，生命 36、护甲 10、攻击 13。会追击靠近的目标并近战挥击。自然生成于下界荒地（每次 1 只）；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.6,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置）"
+    },
+    {
+      "mob_id": "terra_entity:fairy",
+      "name_en": "Fairy",
+      "name_zh": "仙灵",
+      "description_zh": "《泰拉生物》的动物「仙灵」，体型约 0.5×0.3 格，生命 6、攻击 3。性情被动，平时在群系里游荡，受击后会逃跑。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:fealing",
+      "name_en": "Fealing",
+      "name_zh": "飞灵",
+      "description_zh": "《泰拉生物》的动物「飞灵」，体型约 0.5×0.3 格，生命 6、攻击 3。性情被动，平时在群系里游荡，受击后会逃跑。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:female_angler",
+      "name_en": "Female Angler",
+      "name_zh": "渔女",
+      "description_zh": "《泰拉生物》的 NPC「渔女」。可以入住玩家搭好的房屋，带对话和心情系统。没有自然生成配置，需用刷怪蛋或让 NPC 入住房屋。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.5,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:finch_baby",
+      "name_en": "Finch Baby",
+      "name_zh": "雀宝宝",
+      "description_zh": "《泰拉生物》的召唤物「雀宝宝」，体型约 0.5×0.5 格。被召唤后跟随主人，并主动攻击主人锁定的目标。不会自然生成，只能由对应的召唤/坐骑道具召出；通常不掉落物品。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.52,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:fire_imp",
+      "name_en": "Fire Imp",
+      "name_zh": "火焰小鬼",
+      "description_zh": "《泰拉生物》的敌对生物「火焰小鬼」，体型约 0.7×1 格，生命 36、护甲 16、攻击 15。会向目标投掷火球。自然生成于下界荒地、绯红森林、玄武岩三角洲（每次 1 只）；击杀掉落 小鬼法杖（5%）、烈焰粉×1–2、喷流球×1–2（0.3%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:flesh_slime",
+      "name_en": "Flesh Slime",
+      "name_zh": "血肉史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「血肉史莱姆」，生命 50、护甲 6、攻击 14。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.55,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:flying_fish",
+      "name_en": "Flying Fish",
+      "name_zh": "飞鱼",
+      "description_zh": "《泰拉生物》的敌对生物「飞鱼」，体型约 0.9×0.9 格，生命 10、护甲 1、攻击 2。会主动锁定玩家和攻击者，靠近后发起攻击，擅长短距离冲刺，可以飞行追击。自然生成于主世界各处（每次 1–2 只）；击杀掉落 羽毛×1–2、鳕鱼×1。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:ghost",
+      "name_en": "Ghost",
+      "name_zh": "鬼魂",
+      "description_zh": "《泰拉生物》的敌对生物「鬼魂」，体型约 1×1.8 格，生命 26、护甲 4、攻击 8。会主动锁定玩家和攻击者，靠近后发起攻击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:ghoul",
+      "name_en": "Ghoul",
+      "name_zh": "食尸鬼",
+      "description_zh": "《泰拉生物》的敌对生物「食尸鬼」，体型约 0.8×1.9 格，生命 93、护甲 26、攻击 26。会追击靠近的目标并近战挥击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:giant_antlion_swarmer",
+      "name_en": "Giant Antlion Swarmer",
+      "name_zh": "巨型蚁狮蜂",
+      "description_zh": "《泰拉生物》的敌对生物「巨型蚁狮蜂」，体型约 3.5×2 格，生命 46、护甲 12、攻击 17。会先低空盘旋，再向目标冲刺撞击，擅长短距离冲刺，可以飞行追击。自然生成于沙漠、恶地、侵蚀恶地、疏林恶地（每次 1 只）；击杀掉落 腐肉×1–2、沙子×1–2。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:giant_shelly",
+      "name_en": "Giant Shelly",
+      "name_zh": "巨型卷壳怪",
+      "description_zh": "《泰拉生物》的敌对生物「巨型卷壳怪」，体型约 1×1 格，生命 26、护甲 12、攻击 9。会缩进壳里防御，再突然撞向目标。自然生成于主世界各处（每次 1 只）；击杀掉落 对打球（3.9%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:giant_worm",
+      "name_en": "Giant Worm",
+      "name_zh": "巨型蠕虫",
+      "description_zh": "《泰拉生物》的敌对生物「巨型蠕虫」，体型约 2×2 格，生命 31、护甲 3、攻击 9。多节蠕虫状，身体由多个体节组成，会从地下或空中扑向目标。自然生成于主世界各处（每次 1 只）；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.6,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置）"
+    },
+    {
+      "mob_id": "terra_entity:glowing_snail",
+      "name_en": "Glowing Snail",
+      "name_zh": "发光蜗牛",
+      "description_zh": "《泰拉生物》的动物「发光蜗牛」，体型约 0.5×0.3 格，生命 3。性情被动，平时在群系里游荡，受击后会逃跑。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:goblin_archer",
+      "name_en": "Goblin Archer",
+      "name_zh": "哥布林弓箭手",
+      "description_zh": "《泰拉生物》的敌对生物「哥布林弓箭手」，体型约 0.7×1.9 格，生命 41、护甲 6、攻击 11。会手持武器近战，也会拿出弓弩远程射击。自然生成于平原（每次 1–3 只）；击杀掉落 腐肉×1–3、箭×1–2。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:goblin_peon",
+      "name_en": "Goblin Peon",
+      "name_zh": "哥布林苦力",
+      "description_zh": "《泰拉生物》的敌对生物「哥布林苦力」，体型约 0.7×1.9 格，生命 31、护甲 4、攻击 6。会手持武器近战，也会拿出弓弩远程射击。自然生成于平原（每次 1–3 只）；击杀掉落 腐肉×1–2、铁锭（33%）、胡萝卜（33%）、马铃薯（33%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:goblin_scout",
+      "name_en": "Goblin Scout",
+      "name_zh": "哥布林侦察兵",
+      "description_zh": "《泰拉生物》的敌对生物「哥布林侦察兵」，体型约 0.7×1.9 格，生命 41、护甲 6、攻击 10。会手持武器近战，也会拿出弓弩远程射击。自然生成于海滩、平原（每次 1 只）；击杀掉落 腐肉×1–2、铁锭（33%）、胡萝卜（33%）、马铃薯（33%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:goblin_sorcerer",
+      "name_en": "Goblin Sorcerer",
+      "name_zh": "哥布林巫士",
+      "description_zh": "《泰拉生物》的敌对生物「哥布林巫士」，体型约 0.7×1.9 格，生命 20、护甲 2、攻击 10。会站在原地向目标连续发射远程弹幕。自然生成于平原（每次 1 只）；击杀掉落 腐肉×1–2、铁锭（33%）、胡萝卜（33%）、马铃薯（33%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:goblin_thief",
+      "name_en": "Goblin Thief",
+      "name_zh": "哥布林盗贼",
+      "description_zh": "《泰拉生物》的敌对生物「哥布林盗贼」，体型约 0.7×1.9 格，生命 41、护甲 6、攻击 10。会手持武器近战，也会拿出弓弩远程射击。自然生成于平原（每次 1–2 只）；击杀掉落 腐肉×1–2、铁锭（33%）、胡萝卜（33%）、马铃薯（33%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:goblin_tinkerer",
+      "name_en": "Goblin Tinkerer",
+      "name_zh": "哥布林工匠",
+      "description_zh": "《泰拉生物》的 NPC「哥布林工匠」。可以入住玩家搭好的房屋，带对话和心情系统。会在溶洞、繁茂洞穴、下界荒地一带以 NPC 身份出现。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.53,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI、群系生成配置）"
+    },
+    {
+      "mob_id": "terra_entity:goblin_warrior",
+      "name_en": "Goblin Warrior",
+      "name_zh": "哥布林战士",
+      "description_zh": "《泰拉生物》的敌对生物「哥布林战士」，体型约 0.7×1.9 格，生命 57、护甲 8、攻击 13。会手持武器近战，也会拿出弓弩远程射击。自然生成于平原（每次 1–2 只）；击杀掉落 腐肉×1–2、铁锭（33%）、胡萝卜（33%）、马铃薯（33%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:golden_mimic",
+      "name_en": "Golden Mimic",
+      "name_zh": "金宝箱怪",
+      "description_zh": "《泰拉生物》的敌对生物「金宝箱怪」，体型约 0.8×0.8 格，生命 260、护甲 30、攻击 42。平时伪装成宝箱，被靠近或开启后跳出追击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:golden_slime",
+      "name_en": "Golden Slime",
+      "name_zh": "金史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「金史莱姆」，生命 97、护甲 2、攻击 5。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.55,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:granite_elemental",
+      "name_en": "Granite Elemental",
+      "name_zh": "花岗精",
+      "description_zh": "《泰拉生物》的敌对生物「花岗精」，体型约 1.5×1.5 格，生命 46、护甲 8、攻击 17。会悬浮移动并冲撞目标，可以飞行追击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:grasshopper",
+      "name_en": "Grasshopper",
+      "name_zh": "蚱蜢",
+      "description_zh": "《泰拉生物》的动物「蚱蜢」，体型约 0.5×0.3 格，生命 3。性情被动，平时在群系里游荡。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:green_dumpling_slime",
+      "name_en": "Green Dumpling Slime",
+      "name_zh": "青团史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「青团史莱姆」，生命 25、攻击 5。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。自然生成于主世界各处（每次 1–3 只）；击杀掉落 黏液球（20%）、史莱姆法杖（0.1%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:green_jellyfish",
+      "name_en": "Green Jellyfish",
+      "name_zh": "绿水母",
+      "description_zh": "《泰拉生物》的敌对生物「绿水母」，体型约 0.5×0.5 格，生命 62、护甲 18、攻击 41。漂浮在水中，靠接触伤害攻击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:green_slime",
+      "name_en": "Green Slime",
+      "name_zh": "绿色史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「绿色史莱姆」，生命 9、攻击 3。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。自然生成于主世界各处（每次 1 只）；击杀掉落 黏液球（20%）、史莱姆法杖（0.1%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:grubby",
+      "name_en": "Grubby",
+      "name_zh": "蛆虫",
+      "description_zh": "《泰拉生物》的动物「蛆虫」，体型约 0.5×0.3 格，生命 3。性情被动，平时在群系里游荡，受击后会逃跑。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:guide",
+      "name_en": "Guide",
+      "name_zh": "向导",
+      "description_zh": "《泰拉生物》的 NPC「向导」。可以入住玩家搭好的房屋，带对话和心情系统，也经营商店。商店可用钻石×8 + 鸡蛋 → 史莱姆王刷怪蛋；末影之眼×8 + 红石×20 + 鸡蛋 → 克苏鲁之眼刷怪蛋等交易；会在森林一带以 NPC 身份出现。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.56,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI、群系生成配置、商店数据）"
+    },
+    {
+      "mob_id": "terra_entity:hallowed_mimic",
+      "name_en": "Hallowed Mimic",
+      "name_zh": "神圣宝箱怪",
+      "description_zh": "《泰拉生物》的敌对生物「神圣宝箱怪」，体型约 1.6×1.6 格，生命 1820、护甲 34、攻击 47。平时伪装成宝箱，被靠近或开启后跳出追击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:harpy",
+      "name_en": "Harpy",
+      "name_zh": "鸟妖",
+      "description_zh": "《泰拉生物》的敌对生物「鸟妖」，体型约 1×2 格，生命 41、护甲 8、攻击 13。会飞近目标并发射羽状弹幕，可以飞行追击。自然生成于主世界（每次 1–2 只）；击杀掉落 鸡肉。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:hat_spore_zombie",
+      "name_en": "Hat Spore Zombie",
+      "name_zh": "帽子蘑菇僵尸",
+      "description_zh": "《泰拉生物》的敌对生物「帽子蘑菇僵尸」，体型约 0.8×1.9 格，生命 114、护甲 16、攻击 19。会追击靠近的目标并近战挥击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:hell_bat",
+      "name_en": "Hell Bat",
+      "name_zh": "地狱蝙蝠",
+      "description_zh": "《泰拉生物》的敌对生物「地狱蝙蝠」，生命 23、护甲 2、攻击 15。会主动锁定玩家和攻击者，靠近后发起攻击，可以飞行追击。自然生成于下界荒地、绯红森林、玄武岩三角洲（每次 1 只）；击杀掉落 烈焰粉×1–2、喷流球×1–2（0.3%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:hell_butterfly",
+      "name_en": "Hell Butterfly",
+      "name_zh": "地狱蝴蝶",
+      "description_zh": "《泰拉生物》的动物「地狱蝴蝶」，体型约 0.5×0.3 格，生命 6、攻击 3。性情被动，平时在群系里游荡，受击后会逃跑。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:herpling",
+      "name_en": "Herpling",
+      "name_zh": "蹦蹦兽",
+      "description_zh": "《泰拉生物》的敌对生物「蹦蹦兽」，体型约 1×1 格，生命 114、护甲 26、攻击 33。会主动锁定玩家和攻击者，靠近后发起攻击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:hill_hungry",
+      "name_en": "Hill Hungry",
+      "name_zh": "饿鬼",
+      "description_zh": "《泰拉生物》的敌对生物「饿鬼」，体型约 1×1 格，生命 87、护甲 16、攻击 15。会扑向目标撕咬。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:hill_of_flesh",
+      "name_en": "Hill Of Flesh",
+      "name_zh": "血肉山",
+      "description_zh": "《泰拉生物》的 Boss「血肉山」，体型约 8×8 格，生命 3824、护甲 6。作为 Boss 拥有独立技能参数与分阶段行为。没有自然生成配置，通常用召唤物或指令召出；击杀掉落 赤霄、烈焰回旋镖。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.6,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:honey_slime",
+      "name_en": "Honey Slime",
+      "name_zh": "蜂蜜史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「蜂蜜史莱姆」，生命 16。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。群系生成配置里没有它，需用刷怪蛋或其它方式获得；击杀掉落 黏液球（20%）、史莱姆法杖（0.1%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.58,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:hornet",
+      "name_en": "Hornet",
+      "name_zh": "黄蜂",
+      "description_zh": "《泰拉生物》的敌对生物「黄蜂」，体型约 0.8×1.8 格，生命 32、护甲 6、攻击 13。会与目标保持距离，发射远程弹幕，可以飞行追击。自然生成于丛林、繁茂洞穴（每次 1–2 只）；击杀掉落 憎恶之蜂（5%）、蜂巢球、蜂蜜瓶×1–2。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:hornet_baby",
+      "name_en": "Hornet Baby",
+      "name_zh": "仆役黄蜂",
+      "description_zh": "《泰拉生物》的召唤物「仆役黄蜂」，体型约 0.5×0.8 格。被召唤后跟随主人，并主动攻击主人锁定的目标。不会自然生成，只能由对应的召唤/坐骑道具召出；通常不掉落物品。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.52,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:i_32_iron_golem",
+      "name_en": "I 32 Iron Golem",
+      "name_zh": "i-32型铁傀儡",
+      "description_zh": "《泰拉生物》的召唤物「i-32型铁傀儡」，体型约 1.5×3 格。被召唤后跟随主人，并主动攻击主人锁定的目标。不会自然生成，只能由对应的召唤/坐骑道具召出；通常不掉落物品。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.52,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:ice_bat",
+      "name_en": "Ice Bat",
+      "name_zh": "冰雪蝙蝠",
+      "description_zh": "《泰拉生物》的敌对生物「冰雪蝙蝠」，体型约 1.6×1.6 格，生命 15、护甲 2、攻击 7。会主动锁定玩家和攻击者，靠近后发起攻击，可以飞行追击。自然生成于冰封山峰、冻河、雪林、冰刺之地等群系（每次 1–2 只）；击杀掉落 雪球×1–2。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:ice_mimic",
+      "name_en": "Ice Mimic",
+      "name_zh": "冰雪宝箱怪",
+      "description_zh": "《泰拉生物》的敌对生物「冰雪宝箱怪」，体型约 0.8×0.8 格，生命 260、护甲 30、攻击 42。平时伪装成宝箱，被靠近或开启后跳出追击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:ice_slime",
+      "name_en": "Ice Slime",
+      "name_zh": "冰雪史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「冰雪史莱姆」，生命 13、护甲 4、攻击 5。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。自然生成于冰封山峰、冻河、雪林、冰刺之地等群系（每次 1–2 只）；击杀掉落 黏液球（20%）、史莱姆法杖（0.1%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:jewel_bunny",
+      "name_en": "Jewel Bunny",
+      "name_zh": "宝石兔",
+      "description_zh": "《泰拉生物》的动物「宝石兔」，生命 3。性情被动，平时在群系里游荡。自然生成于森林（每次 1 只）；击杀掉落 铜锭×1–2（12%）、紫水晶碎片×1–2（12%）、钻石×1（12%）、绿宝石×1（12%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:jewel_squirrel",
+      "name_en": "Jewel Squirrel",
+      "name_zh": "宝石松鼠",
+      "description_zh": "《泰拉生物》的动物「宝石松鼠」，生命 10。性情被动，平时在群系里游荡，受击后会逃跑，可以用对应食物繁殖。自然生成于森林（每次 1 只）；击杀掉落 铜锭×1–2（12%）、紫水晶碎片×1–2（12%）、钻石×1（12%）、绿宝石×1（12%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:jungle_bat",
+      "name_en": "Jungle Bat",
+      "name_zh": "丛林蝙蝠",
+      "description_zh": "《泰拉生物》的敌对生物「丛林蝙蝠」，体型约 1.6×1.6 格，生命 17、护甲 1、攻击 8。会主动锁定玩家和攻击者，靠近后发起攻击，擅长短距离冲刺，可以飞行追击。自然生成于丛林、繁茂洞穴（每次 1–2 只）；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.6,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置）"
+    },
+    {
+      "mob_id": "terra_entity:jungle_mimic",
+      "name_en": "Jungle Mimic",
+      "name_zh": "丛林宝箱怪",
+      "description_zh": "《泰拉生物》的敌对生物「丛林宝箱怪」，体型约 1.6×1.6 格，生命 1820、护甲 34、攻击 47。平时伪装成宝箱，被靠近或开启后跳出追击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:jungle_slime",
+      "name_en": "Jungle Slime",
+      "name_zh": "丛林史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「丛林史莱姆」，生命 46、护甲 6、攻击 12。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。自然生成于丛林、繁茂洞穴（每次 1–2 只）；击杀掉落 黏液球（20%）、史莱姆法杖（0.1%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:king_slime",
+      "name_en": "King Slime",
+      "name_zh": "史莱姆王",
+      "description_zh": "《泰拉生物》的 Boss「史莱姆王」，生命 728、护甲 10、攻击 16.5。作为 Boss 拥有独立技能参数与分阶段行为。没有自然生成配置，通常用召唤物或指令召出；击杀掉落 史莱姆法杖（33%）、沼泽藤蔓（33%）、粘鞍（20%）、代码一号。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.58,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:ladybug",
+      "name_en": "Ladybug",
+      "name_zh": "瓢虫",
+      "description_zh": "《泰拉生物》的动物「瓢虫」，体型约 0.5×0.3 格，生命 6、攻击 3。性情被动，平时在群系里游荡，受击后会逃跑。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:lava_slime",
+      "name_en": "Lava Slime",
+      "name_zh": "熔岩史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「熔岩史莱姆」，生命 30、护甲 10、攻击 10。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。自然生成于下界荒地（每次 1 只）；击杀掉落 黏液球（20%）、史莱姆法杖（0.1%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:leech",
+      "name_en": "Leech",
+      "name_zh": "血蛭",
+      "description_zh": "《泰拉生物》的敌对生物「血蛭」，体型约 2×2 格，生命 36、护甲 4、攻击 10。多节蠕虫状，身体由多个体节组成，会从地下或空中扑向目标。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:light_lamia",
+      "name_en": "Light Lamia",
+      "name_zh": "光明拉弥亚",
+      "description_zh": "《泰拉生物》的敌对生物「光明拉弥亚」，体型约 0.8×1.9 格，生命 182、护甲 28、攻击 27。会追击靠近的目标并近战挥击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:light_mummy",
+      "name_en": "Light Mummy",
+      "name_zh": "光明木乃伊",
+      "description_zh": "《泰拉生物》的敌对生物「光明木乃伊」，体型约 0.8×1.9 格，生命 104、护甲 18、攻击 28。会追击靠近的目标并近战挥击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:little_hornet",
+      "name_en": "Little Hornet",
+      "name_zh": "小黄蜂",
+      "description_zh": "《泰拉生物》的敌对生物「小黄蜂」，体型约 0.4×0.4 格，生命 3、护甲 1、攻击 3。会与目标保持距离，发射远程弹幕，近身时也会挥击，可以飞行追击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:luminous_slime",
+      "name_en": "Luminous Slime",
+      "name_zh": "夜明史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「夜明史莱姆」，生命 93、护甲 30、攻击 36.4。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。群系生成配置里没有它，需用刷怪蛋或其它方式获得；击杀掉落 黏液球（20%）、史莱姆法杖（0.1%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.58,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:maggot",
+      "name_en": "Maggot",
+      "name_zh": "蝇蛆",
+      "description_zh": "《泰拉生物》的动物「蝇蛆」，体型约 0.5×0.3 格，生命 3。性情被动，平时在群系里游荡，受击后会逃跑。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:magma_snail",
+      "name_en": "Magma Snail",
+      "name_zh": "岩浆蜗牛",
+      "description_zh": "《泰拉生物》的动物「岩浆蜗牛」，体型约 0.5×0.3 格，生命 3。性情被动，平时在群系里游荡，受击后会逃跑。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:man_eater",
+      "name_en": "Man Eater",
+      "name_zh": "食人怪",
+      "description_zh": "《泰拉生物》的敌对生物「食人怪」，体型约 1×1 格，生命 57、护甲 10、攻击 15。像植物一样扎根原地，用藤蔓抽打靠近的目标。自然生成于丛林、繁茂洞穴（每次 1 只）；击杀掉落 附魔书×1–5（10%）、亚马逊球（2%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:mechanic",
+      "name_en": "Mechanic",
+      "name_zh": "机械师",
+      "description_zh": "《泰拉生物》的 NPC「机械师」。可以入住玩家搭好的房屋，带对话和心情系统，也经营商店。商店可用绿宝石 → 红石；绿宝石 → 红石中继器等交易；没有自然生成配置，需用刷怪蛋或让 NPC 入住房屋。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.53,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI、商店数据）"
+    },
+    {
+      "mob_id": "terra_entity:merchant",
+      "name_en": "Merchant",
+      "name_zh": "商人",
+      "description_zh": "《泰拉生物》的 NPC「商人」。可以入住玩家搭好的房屋，带对话和心情系统，也经营商店。商店可用铁锭 → 煤炭；金锭 → 铁锭等交易；会在森林一带以 NPC 身份出现。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.56,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI、群系生成配置、商店数据）"
+    },
+    {
+      "mob_id": "terra_entity:meteor_head",
+      "name_en": "Meteor Head",
+      "name_zh": "流星头",
+      "description_zh": "《泰拉生物》的敌对生物「流星头」，体型约 1×1 格，生命 13、护甲 6、攻击 21。会主动锁定玩家和攻击者，靠近后发起攻击，可以飞行追击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:mother_slime",
+      "name_en": "Mother Slime",
+      "name_zh": "史莱姆之母",
+      "description_zh": "《泰拉生物》加入的怪物「史莱姆之母」（实体 terra_entity:mother_slime），没有刷怪蛋；击杀掉落：没有独立掉落表。模组正文把同类生物归入 Monsters 分类，具体血量与行为资料有限。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.4,
+      "notes": "依据 jar 内实体标签、掉落表、刷怪蛋、Boss 技能参数与 NPC 商店数据拼合；模组正文只有分类列表，未逐只介绍"
+    },
+    {
+      "mob_id": "terra_entity:mummy",
+      "name_en": "Mummy",
+      "name_zh": "木乃伊",
+      "description_zh": "《泰拉生物》的敌对生物「木乃伊」，体型约 0.8×1.9 格，生命 67、护甲 16、攻击 26。会追击靠近的目标并近战挥击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:nurse",
+      "name_en": "Nurse",
+      "name_zh": "护士",
+      "description_zh": "《泰拉生物》的 NPC「护士」。可以入住玩家搭好的房屋，带对话和心情系统，也经营商店。商店可用红色蘑菇 + 棕色蘑菇 → 药水；红色蘑菇 + 棕色蘑菇 + 诡异菌 → 药水交易；会在樱花树林一带以 NPC 身份出现。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.56,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI、群系生成配置、商店数据）"
+    },
+    {
+      "mob_id": "terra_entity:nymph",
+      "name_en": "Nymph",
+      "name_zh": "宁芙",
+      "description_zh": "《泰拉生物》的敌对生物「宁芙」，体型约 0.8×1.9 格，生命 156、护甲 16、攻击 15。会伪装接近，被识破后高速追击。自然生成于主世界各处（每次 1 只）；击杀掉落 附魔书×1–5（10%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:old_man",
+      "name_en": "Old Man",
+      "name_zh": "老人",
+      "description_zh": "《泰拉生物》的 NPC「老人」。可以入住玩家搭好的房屋，带对话和心情系统。没有自然生成配置，需用刷怪蛋或让 NPC 入住房屋。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.5,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:painter",
+      "name_en": "Painter",
+      "name_zh": "油漆工",
+      "description_zh": "《泰拉生物》的 NPC「油漆工」。可以入住玩家搭好的房屋，带对话和心情系统。会在恶地一带以 NPC 身份出现。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.56,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI、群系生成配置、商店数据）"
+    },
+    {
+      "mob_id": "terra_entity:party_girl",
+      "name_en": "Party Girl",
+      "name_zh": "派对女孩",
+      "description_zh": "《泰拉生物》的 NPC「派对女孩」。可以入住玩家搭好的房屋，带对话和心情系统，也经营商店。商店可用绿宝石 → 烟花火箭；绿宝石×64 + 绿宝石×32 → 龙渊交易；会在海滩一带以 NPC 身份出现。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.56,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI、群系生成配置、商店数据）"
+    },
+    {
+      "mob_id": "terra_entity:piggy_bank",
+      "name_en": "Piggy Bank",
+      "name_zh": "存钱罐",
+      "description_zh": "《泰拉生物》的召唤物「存钱罐」，体型约 1×1 格。被召唤后跟随主人，打开后可当作随身存钱罐存放物品。不会自然生成，只能由对应的召唤/坐骑道具召出；通常不掉落物品。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:pink_jellyfish",
+      "name_en": "Pink Jellyfish",
+      "name_zh": "粉水母",
+      "description_zh": "《泰拉生物》的敌对生物「粉水母」，体型约 0.5×0.5 格，生命 36、护甲 6、攻击 15。漂浮在水中，靠接触伤害攻击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:pink_slime",
+      "name_en": "Pink Slime",
+      "name_zh": "粉色史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「粉色史莱姆」，生命 97、护甲 2、攻击 2。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。自然生成于主世界各处（每次 1 只）；击杀掉落 黏液球（20%）、史莱姆法杖（0.1%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:piranha",
+      "name_en": "Piranha",
+      "name_zh": "食人鱼",
+      "description_zh": "《泰拉生物》的敌对生物「食人鱼」，体型约 0.5×0.5 格，生命 15、护甲 2、攻击 13。会追击靠近的目标并近战挥击。自然生成于丛林、繁茂洞穴（每次 2–3 只）；击杀掉落 鲑鱼×1。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:pixie",
+      "name_en": "Pixie",
+      "name_zh": "妖精",
+      "description_zh": "《泰拉生物》的敌对生物「妖精」，体型约 1×1 格，生命 78、护甲 20、攻击 28。会主动锁定玩家和攻击者，靠近后发起攻击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:plantera",
+      "name_en": "Plantera",
+      "name_zh": "世纪之花",
+      "description_zh": "《泰拉生物》的 Boss「世纪之花」，体型约 8×8 格，生命 10920、护甲 36、攻击 26。作为 Boss 拥有独立技能参数与分阶段行为。没有自然生成配置，通常用召唤物或指令召出；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:possess_armor",
+      "name_en": "Possess Armor",
+      "name_zh": "装甲幻影魔",
+      "description_zh": "《泰拉生物》的敌对生物「装甲幻影魔」，体型约 1×2 格，生命 135、护甲 10、攻击 28。会手持武器近战，也会拿出弓弩远程射击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:possess_armor_void_vessel",
+      "name_en": "Possess Armor Void Vessel",
+      "name_zh": "装甲幻影魔-虚空载体",
+      "description_zh": "《泰拉生物》的敌对生物「装甲幻影魔-虚空载体」，体型约 1×2 格，生命 1、攻击 28。会手持武器近战，也会拿出弓弩远程射击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:prismatic_lacewing",
+      "name_en": "Prismatic Lacewing",
+      "name_zh": "七彩草蛉",
+      "description_zh": "《泰拉生物》的动物「七彩草蛉」，体型约 0.5×0.3 格，生命 6、攻击 3。性情被动，平时在群系里游荡，受击后会逃跑。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:purple_slime",
+      "name_en": "Purple Slime",
+      "name_zh": "紫色史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「紫色史莱姆」，生命 25、护甲 6、攻击 5。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。自然生成于主世界各处（每次 1–3 只）；击杀掉落 黏液球（20%）、史莱姆法杖（0.1%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:queen_bee",
+      "name_en": "Queen Bee",
+      "name_zh": "蜂王",
+      "description_zh": "《泰拉生物》的 Boss「蜂王」，体型约 2.5×3 格，生命 1237、护甲 8、攻击 14。作为 Boss 拥有独立技能参数与分阶段行为，擅长短距离冲刺。没有自然生成配置，通常用召唤物或指令召出；击杀掉落 涂蜜护目镜（20%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.6,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:red_slime",
+      "name_en": "Red Slime",
+      "name_zh": "红色史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「红色史莱姆」，生命 25、护甲 4、攻击 5。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。自然生成于主世界各处（每次 1–2 只）；击杀掉落 黏液球（20%）、史莱姆法杖（0.1%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:retinazer",
+      "name_en": "Retinazer",
+      "name_zh": "激光眼",
+      "description_zh": "《泰拉生物》的 Boss「激光眼」，体型约 2.6×2.6 格，生命 7800、护甲 10、攻击 19。作为 Boss 拥有独立技能参数与分阶段行为。没有自然生成配置，通常用召唤物或指令召出；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:rideable_bee",
+      "name_en": "Rideable Bee",
+      "name_zh": "蜜蜂坐骑",
+      "description_zh": "《泰拉生物》的坐骑「蜜蜂坐骑」，体型约 0.5×0.5 格。作为坐骑被召唤出来，可骑乘移动，按 Shift 收回。不会自然生成，只能由对应的召唤/坐骑道具召出；通常不掉落物品。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:rideable_slime",
+      "name_en": "Rideable Slime",
+      "name_zh": "史莱姆坐骑",
+      "description_zh": "《泰拉生物》的坐骑「史莱姆坐骑」，体型约 0.5×0.5 格。作为坐骑被召唤出来，可骑乘移动，按 Shift 收回。不会自然生成，只能由对应的召唤/坐骑道具召出；通常不掉落物品。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:sand_poacher",
+      "name_en": "Sand Poacher",
+      "name_zh": "沙贼",
+      "description_zh": "《泰拉生物》的敌对生物「沙贼」，体型约 1.8×1.2 格，生命 166、护甲 24、攻击 34。会主动锁定玩家和攻击者，靠近后发起攻击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:scorpion",
+      "name_en": "Scorpion",
+      "name_zh": "蝎子",
+      "description_zh": "《泰拉生物》的动物「蝎子」，体型约 0.5×0.3 格，生命 3。性情被动，平时在群系里游荡。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:sculk_wisp",
+      "name_en": "Sculk Wisp",
+      "name_zh": "幽匿游灵",
+      "description_zh": "《泰拉生物》的召唤物「幽匿游灵」，体型约 1×1 格。被召唤后跟随主人，并主动攻击主人锁定的目标。不会自然生成，只能由对应的召唤/坐骑道具召出；通常不掉落物品。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.52,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:servant_of_cthulhu",
+      "name_en": "Servant Of Cthulhu",
+      "name_zh": "克苏鲁之仆",
+      "description_zh": "《泰拉生物》的敌对生物「克苏鲁之仆」，体型约 1.1×1.1 格，生命 10、护甲 1、攻击 3。会主动锁定玩家和攻击者，靠近后发起攻击，擅长短距离冲刺，可以飞行追击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:shadow_mimic",
+      "name_en": "Shadow Mimic",
+      "name_zh": "暗影宝箱怪",
+      "description_zh": "《泰拉生物》的敌对生物「暗影宝箱怪」，体型约 0.8×0.8 格，生命 260、护甲 30、攻击 42。平时伪装成宝箱，被靠近或开启后跳出追击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:shark",
+      "name_en": "Shark",
+      "name_zh": "鲨鱼",
+      "description_zh": "《泰拉生物》的敌对生物「鲨鱼」，体型约 2.5×1 格，生命 156、护甲 2、攻击 20。会追击靠近的目标并近战挥击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:short_bones",
+      "name_en": "Short Bones",
+      "name_zh": "矮骷髅",
+      "description_zh": "《泰拉生物》的敌对生物「矮骷髅」，体型约 0.6×1.6 格，生命 37、护甲 7、攻击 12。会追击靠近的目标并近战挥击。自然生成于主世界（每次 1–2 只）；击杀掉落 骨头×1–3、服装商巫毒娃娃（5%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:skeletron",
+      "name_en": "Skeletron",
+      "name_zh": "骷髅王",
+      "description_zh": "《泰拉生物》的 Boss「骷髅王」，体型约 2.3×2.3 格，生命 2288、护甲 10、攻击 18.2。作为 Boss 拥有独立技能参数与分阶段行为。没有自然生成配置，通常用召唤物或指令召出；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:skeletron_hand",
+      "name_en": "Skeletron Hand",
+      "name_zh": "骷髅王之手",
+      "description_zh": "《泰拉生物》的 Boss「骷髅王之手」，体型约 2×2 格，生命 405、护甲 4、攻击 10。作为 Boss 拥有独立技能参数与分阶段行为。没有自然生成配置，通常用召唤物或指令召出；击杀掉落 骨头×10–20、铁傀儡法杖、英勇球。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.6,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:skeletron_prime",
+      "name_en": "Skeletron Prime",
+      "name_zh": "机械骷髅王",
+      "description_zh": "《泰拉生物》的 Boss「机械骷髅王」，体型约 2.6×2.6 格，生命 10920、护甲 6、攻击 21。作为 Boss 拥有独立技能参数与分阶段行为。没有自然生成配置，通常用召唤物或指令召出；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:slime_baby",
+      "name_en": "Slime Baby",
+      "name_zh": "史莱姆宝宝",
+      "description_zh": "《泰拉生物》的召唤物「史莱姆宝宝」，体型约 0.5×0.5 格。被召唤后跟随主人，并主动攻击主人锁定的目标。不会自然生成，只能由对应的召唤/坐骑道具召出；通常不掉落物品。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.52,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:sluggy",
+      "name_en": "Sluggy",
+      "name_zh": "鼻涕虫",
+      "description_zh": "《泰拉生物》的动物「鼻涕虫」，体型约 0.5×0.3 格，生命 3。性情被动，平时在群系里游荡，受击后会逃跑。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:snail",
+      "name_en": "Snail",
+      "name_zh": "蜗牛",
+      "description_zh": "《泰拉生物》的动物「蜗牛」，体型约 0.5×0.3 格，生命 3。性情被动，平时在群系里游荡，受击后会逃跑。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:snatcher",
+      "name_en": "Snatcher",
+      "name_zh": "抓人草",
+      "description_zh": "《泰拉生物》的敌对生物「抓人草」，体型约 1×1 格，生命 31、护甲 10、攻击 13。像植物一样扎根原地，用藤蔓抽打靠近的目标。自然生成于丛林、繁茂洞穴（每次 1 只）；击杀掉落 附魔书×1–5（10%）、亚马逊球（2%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:snow_flinx",
+      "name_en": "Snow Flinx",
+      "name_zh": "小雪怪",
+      "description_zh": "《泰拉生物》的敌对生物「小雪怪」，体型约 1.2×1.2 格，生命 36、护甲 12、攻击 13。会追击靠近的目标并近战挥击。自然生成于冰封山峰、冻河、雪林、冰刺之地等群系（每次 1–2 只）；击杀掉落 小雪怪法杖（5%）、雪球×1–2。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:spazmatism",
+      "name_en": "Spazmatism",
+      "name_zh": "魔焰眼",
+      "description_zh": "《泰拉生物》的 Boss「魔焰眼」，体型约 2.6×2.6 格，生命 8970、护甲 10、攻击 22。作为 Boss 拥有独立技能参数与分阶段行为。没有自然生成配置，通常用召唤物或指令召出；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:spiked_ice_slime",
+      "name_en": "Spiked Ice Slime",
+      "name_zh": "尖刺冰雪史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「尖刺冰雪史莱姆」，生命 31、护甲 8、攻击 6。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.55,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:spiked_jungle_slime",
+      "name_en": "Spiked Jungle Slime",
+      "name_zh": "尖刺丛林史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「尖刺丛林史莱姆」，生命 33、护甲 8、攻击 15。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.55,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:spiked_slime",
+      "name_en": "Spiked Slime",
+      "name_zh": "尖刺史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「尖刺史莱姆」，生命 26、护甲 5、攻击 7。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.55,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:spore_bat",
+      "name_en": "Spore Bat",
+      "name_zh": "孢子蝙蝠",
+      "description_zh": "《泰拉生物》的敌对生物「孢子蝙蝠」，体型约 1.6×1.6 格，生命 15、护甲 2、攻击 7。会主动锁定玩家和攻击者，靠近后发起攻击，可以飞行追击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:spore_skeleton",
+      "name_en": "Spore Skeleton",
+      "name_zh": "孢子骷髅",
+      "description_zh": "《泰拉生物》的敌对生物「孢子骷髅」，体型约 0.7×1.9 格，生命 31、护甲 8、攻击 11。会追击靠近的目标并近战挥击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；击杀掉落 骨头×1–3、服装商巫毒娃娃（5%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.6,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:spore_zombie",
+      "name_en": "Spore Zombie",
+      "name_zh": "孢子僵尸",
+      "description_zh": "《泰拉生物》的敌对生物「孢子僵尸」，体型约 0.8×1.9 格，生命 93、护甲 10、攻击 20。会追击靠近的目标并近战挥击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；击杀掉落 腐肉×1–2、铁锭（33%）、胡萝卜（33%）、马铃薯（33%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.6,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:squirrel",
+      "name_en": "Squirrel",
+      "name_zh": "松鼠",
+      "description_zh": "《泰拉生物》的动物「松鼠」，生命 10。性情被动，平时在群系里游荡，受击后会逃跑，可以用对应食物繁殖。自然生成于主世界各处、森林（每次 1–2 只）；击杀掉落 兔子皮×0–1、兔子肉×1、兔子脚。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:summon_imp",
+      "name_en": "Summon Imp",
+      "name_zh": "召唤的小鬼",
+      "description_zh": "《泰拉生物》的召唤物「召唤的小鬼」，体型约 1×1 格。被召唤后跟随主人，并主动攻击主人锁定的目标。不会自然生成，只能由对应的召唤/坐骑道具召出；通常不掉落物品。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.52,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:summon_snow_flinx",
+      "name_en": "Summon Snow Flinx",
+      "name_zh": "小雪怪",
+      "description_zh": "《泰拉生物》的召唤物「小雪怪」，体型约 1×1 格。被召唤后跟随主人，并主动攻击主人锁定的目标。不会自然生成，只能由对应的召唤/坐骑道具召出；通常不掉落物品。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.52,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:swamp_slime",
+      "name_en": "Swamp Slime",
+      "name_zh": "沼泽史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「沼泽史莱姆」，生命 25、护甲 1、攻击 5。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。自然生成于沼泽（每次 1–3 只）；击杀掉落 黏液球（20%）、史莱姆法杖（0.1%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:tainted_ghoul",
+      "name_en": "Tainted Ghoul",
+      "name_zh": "红染食尸鬼",
+      "description_zh": "《泰拉生物》的敌对生物「红染食尸鬼」，体型约 0.8×1.9 格，生命 114、护甲 32、攻击 33。会追击靠近的目标并近战挥击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:the_destroyer",
+      "name_en": "The Destroyer",
+      "name_zh": "毁灭者",
+      "description_zh": "《泰拉生物》的 Boss「毁灭者」，体型约 3×3 格，生命 23333、护甲 2、攻击 35。作为 Boss 拥有独立技能参数与分阶段行为。没有自然生成配置，通常用召唤物或指令召出；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:the_hungry",
+      "name_en": "The Hungry",
+      "name_zh": "饿鬼",
+      "description_zh": "《泰拉生物》的敌对生物「饿鬼」，体型约 1×1 格，生命 87、护甲 16、攻击 15。会扑向目标撕咬。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:the_twins",
+      "name_en": "The Twins",
+      "name_zh": "双子魔眼",
+      "description_zh": "《泰拉生物》的 Boss「双子魔眼」，体型约 2.6×2.6 格，生命 16770。作为 Boss 拥有独立技能参数与分阶段行为。没有自然生成配置，通常用召唤物或指令召出；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:tomb_crawler",
+      "name_en": "Tomb Crawler",
+      "name_zh": "墓穴爬虫",
+      "description_zh": "《泰拉生物》的敌对生物「墓穴爬虫」，体型约 2×2 格，生命 16、护甲 2、攻击 4。多节蠕虫状，身体由多个体节组成，会从地下或空中扑向目标。自然生成于沙漠、恶地、侵蚀恶地、疏林恶地（每次 1 只）；击杀掉落 腐肉×1–2、沙子×1–2。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:traveling_merchant",
+      "name_en": "Traveling Merchant",
+      "name_zh": "旅商",
+      "description_zh": "《泰拉生物》的 NPC「旅商」。可以入住玩家搭好的房屋，带对话和心情系统。会在主世界各处出现。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.53,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI、群系生成配置）"
+    },
+    {
+      "mob_id": "terra_entity:tropic_slime",
+      "name_en": "Tropic Slime",
+      "name_zh": "热带史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「热带史莱姆」，生命 13、护甲 1、攻击 5。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。自然生成于海滩（每次 1–2 只）；击杀掉落 黏液球（20%）、史莱姆法杖（0.1%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:truffle",
+      "name_en": "Truffle",
+      "name_zh": "松露人",
+      "description_zh": "《泰拉生物》的 NPC「松露人」。可以入住玩家搭好的房屋，带对话和心情系统，也经营商店。商店可用绿宝石×10 → 蘑菇回旋镖；棕色蘑菇×10 → 绿宝石等交易；会在蘑菇岛一带以 NPC 身份出现。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.56,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI、群系生成配置、商店数据）"
+    },
+    {
+      "mob_id": "terra_entity:undead_viking",
+      "name_en": "Undead Viking",
+      "name_zh": "亡灵维京海盗",
+      "description_zh": "《泰拉生物》的敌对生物「亡灵维京海盗」，体型约 1×2.6 格，生命 36、护甲 10、攻击 12。会追击靠近的目标并近战挥击。自然生成于冰封山峰、冻河、雪林、冰刺之地等群系（每次 1–2 只）；击杀掉落 骨头×1–3、服装商巫毒娃娃（5%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:vile_ghoul",
+      "name_en": "Vile Ghoul",
+      "name_zh": "腐恶食尸鬼",
+      "description_zh": "《泰拉生物》的敌对生物「腐恶食尸鬼」，体型约 0.8×1.9 格，生命 130、护甲 30、攻击 31。会追击靠近的目标并近战挥击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:voodoo_demon",
+      "name_en": "Voodoo Demon",
+      "name_zh": "巫毒恶魔",
+      "description_zh": "《泰拉生物》的敌对生物「巫毒恶魔」，体型约 1×2 格，生命 62、护甲 8、攻击 20。会向目标投掷恶魔镰刀，可以飞行追击。自然生成于下界荒地、绯红森林、玄武岩三角洲（每次 1 只）；击杀掉落 烈焰粉×1–2、喷流球×1–2（0.3%）、向导巫毒娃娃(山)（20%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:wall_of_flesh",
+      "name_en": "Wall Of Flesh",
+      "name_zh": "血肉墙",
+      "description_zh": "《泰拉生物》的 Boss「血肉墙」，生命 3096、护甲 6、攻击 39。作为 Boss 拥有独立技能参数与分阶段行为。没有自然生成配置，通常用召唤物或指令召出；击杀掉落 赤霄、烈焰回旋镖。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.6,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:wandering_eye_fish",
+      "name_en": "Wandering Eye Fish",
+      "name_zh": "游荡眼球怪鱼",
+      "description_zh": "《泰拉生物》的敌对生物「游荡眼球怪鱼」，体型约 1.4×1.4 格，生命 156、护甲 18、攻击 15。会主动锁定玩家和攻击者，靠近后发起攻击，擅长短距离冲刺，可以飞行追击。自然生成于绯红森林（每次 1 只）；击杀掉落 血腥脊椎（20%）、末影之眼、红色染料×1。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.63,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:witch_doctor",
+      "name_en": "Witch Doctor",
+      "name_zh": "巫医",
+      "description_zh": "《泰拉生物》的 NPC「巫医」。可以入住玩家搭好的房屋，带对话和心情系统，也经营商店。商店可用绿宝石 → 蜂蜜瓶；绿宝石 → 喷溅药水等交易；会在丛林一带以 NPC 身份出现。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.56,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI、群系生成配置、商店数据）"
+    },
+    {
+      "mob_id": "terra_entity:wither_bone_serpent",
+      "name_en": "Wither Bone Serpent",
+      "name_zh": "凋零骨蛇",
+      "description_zh": "《泰拉生物》的敌对生物「凋零骨蛇」，体型约 2×2 格，生命 186、护甲 15、攻击 22。多节蠕虫状，身体由多个体节组成，会从地下或空中扑向目标。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:wizard",
+      "name_en": "Wizard",
+      "name_zh": "巫师",
+      "description_zh": "《泰拉生物》的 NPC「巫师」。可以入住玩家搭好的房屋，带对话和心情系统。没有自然生成配置，需用刷怪蛋或让 NPC 入住房屋。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.5,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:wooden_mimic",
+      "name_en": "Wooden Mimic",
+      "name_zh": "木宝箱怪",
+      "description_zh": "《泰拉生物》的敌对生物「木宝箱怪」，体型约 0.8×0.8 格，生命 260、护甲 30、攻击 42。平时伪装成宝箱，被靠近或开启后跳出追击。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:worm",
+      "name_en": "Worm",
+      "name_zh": "蠕虫",
+      "description_zh": "《泰拉生物》的动物「蠕虫」，体型约 0.5×0.3 格，生命 3。性情被动，平时在群系里游荡。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:wraith",
+      "name_en": "Wraith",
+      "name_zh": "幻灵",
+      "description_zh": "《泰拉生物》的敌对生物「幻灵」，体型约 1×2 格，生命 83、攻击 33。会与目标保持距离，发射远程弹幕。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:wyvern",
+      "name_en": "Wyvern",
+      "name_zh": "飞龙",
+      "description_zh": "《泰拉生物》的敌对生物「飞龙」，体型约 1×1 格，生命 2080、护甲 10、攻击 41。多节蠕虫状，身体由多个体节组成，会从地下或空中扑向目标。群系生成配置里没有它，需用刷怪蛋或其它方式获得；没有独立掉落表。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.57,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI）"
+    },
+    {
+      "mob_id": "terra_entity:yellow_slime",
+      "name_en": "Yellow Slime",
+      "name_zh": "黄色史莱姆",
+      "description_zh": "《泰拉生物》的敌对生物「黄色史莱姆」，生命 25、护甲 7、攻击 6。史莱姆类，靠连续跳跃移动，接触目标即造成伤害。自然生成于主世界各处（每次 1–2 只）；击杀掉落 黏液球（20%）、史莱姆法杖（0.1%）。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.61,
+      "notes": "据 jar 源码与数据文件整理（属性注册、实体类 AI、群系生成配置、掉落表）"
+    },
+    {
+      "mob_id": "terra_entity:zoologist",
+      "name_en": "Zoologist",
+      "name_zh": "动物学家",
+      "description_zh": "《泰拉生物》的 NPC「动物学家」。可以入住玩家搭好的房屋，带对话和心情系统。没有自然生成配置，需用刷怪蛋或让 NPC 入住房屋。",
+      "source": "jar_data",
+      "source_url": "https://modrinth.com/mod/terra-entity",
+      "confidence": 0.5,
+      "notes": "据 jar 源码与数据文件整理（实体类 AI）"
+    }
+  ]
+}

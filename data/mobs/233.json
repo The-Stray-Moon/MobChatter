@@ -1,0 +1,2307 @@
+{
+ "rank": 233,
+ "mod": "Bok's Banging Butterflies",
+ "mod_url": "https://modrinth.com/mod/boks-butterflies",
+ "mobs": [
+  {
+   "mob_id": "butterflies:admiral",
+   "name_en": "Admiral Butterfly",
+   "name_zh": "优红蛱蝶",
+   "description_zh": "优红蛱蝶（Admiral Butterfly），蝴蝶，常见于森林、湿地，晨昏活动，体型中等、飞行速度中等，成虫寿命中等。以兰花为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:admiral_caterpillar",
+   "name_en": "Admiral Caterpillar",
+   "name_zh": "优红蛱蝶毛虫",
+   "description_zh": "成虫优红蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林、湿地。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:admiral_chrysalis",
+   "name_en": "Admiral Chrysalis",
+   "name_zh": "优红蛱蝶蛹",
+   "description_zh": "成虫优红蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫优红蛱蝶；栖息地：森林、湿地。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:armorer",
+   "name_en": "Armorer",
+   "name_zh": "",
+   "description_zh": "Armorer，模组为村民职业注册的实体（Armorer），用于配合鳞翅目学家与新交易系统；没有独立的生物设定，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.3,
+   "notes": "仅 jar 语言文件中的实体条目，模组正文未单独说明。"
+  },
+  {
+   "mob_id": "butterflies:atlas_chrysalis",
+   "name_en": "Atlas Cocoon",
+   "name_zh": "皇蛾茧",
+   "description_zh": "成虫皇蛾的茧，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫皇蛾；栖息地：森林。部分蛾茧可以取丝，但取丝会杀死茧中的蛾。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:atlas_caterpillar",
+   "name_en": "Atlas Larva",
+   "name_zh": "皇蛾幼虫",
+   "description_zh": "成虫皇蛾的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林。长成后会在树叶上结茧。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:atlas",
+   "name_en": "Atlas Moth",
+   "name_zh": "皇蛾",
+   "description_zh": "皇蛾（Atlas Moth），蛾类，常见于森林，夜间活动，体型巨大、飞行速度中等，成虫寿命短。以白色郁金香为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。特性：茧可抽丝。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:common",
+   "name_en": "Birdwing Butterfly",
+   "name_zh": "鸟翼蝶",
+   "description_zh": "鸟翼蝶（Birdwing Butterfly），蝴蝶，常见于森林、平原，白天活动，体型小、飞行速度中等，成虫寿命中等。以蒲公英为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:common_caterpillar",
+   "name_en": "Birdwing Caterpillar",
+   "name_zh": "鸟翼蝶毛虫",
+   "description_zh": "成虫鸟翼蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林、平原。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:common_chrysalis",
+   "name_en": "Birdwing Chrysalis",
+   "name_zh": "鸟翼蝶蛹",
+   "description_zh": "成虫鸟翼蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫鸟翼蝶；栖息地：森林、平原。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:bluemoon",
+   "name_en": "Blue Moon Butterfly (Female)",
+   "name_zh": "雌性幻紫斑蛱蝶",
+   "description_zh": "雌性幻紫斑蛱蝶（Blue Moon Butterfly (Female)），蝴蝶，常见于森林，白天活动，体型大、飞行速度中等，成虫寿命短。以绒球葱为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:bluemoonmale",
+   "name_en": "Blue Moon Butterfly (Male)",
+   "name_zh": "雄性幻紫斑蛱蝶",
+   "description_zh": "雄性幻紫斑蛱蝶（Blue Moon Butterfly (Male)），蝴蝶，常见于森林，白天活动，体型中等、飞行速度中等，成虫寿命短。以绒球葱为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:bluemoon_caterpillar",
+   "name_en": "Blue Moon Caterpillar",
+   "name_zh": "幻紫斑蛱蝶毛虫",
+   "description_zh": "成虫雌性幻紫斑蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:bluemoonmale_caterpillar",
+   "name_en": "Blue Moon Caterpillar",
+   "name_zh": "幻紫斑蛱蝶毛虫",
+   "description_zh": "成虫雄性幻紫斑蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:bluemoon_chrysalis",
+   "name_en": "Blue Moon Chrysalis",
+   "name_zh": "幻紫斑蛱蝶蛹",
+   "description_zh": "成虫雌性幻紫斑蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫雌性幻紫斑蛱蝶；栖息地：森林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:bluemoonmale_chrysalis",
+   "name_en": "Blue Moon Chrysalis",
+   "name_zh": "幻紫斑蛱蝶蛹",
+   "description_zh": "成虫雄性幻紫斑蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫雄性幻紫斑蛱蝶；栖息地：森林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:buckeye",
+   "name_en": "Buckeye Butterfly",
+   "name_zh": "北美眼蛱蝶",
+   "description_zh": "北美眼蛱蝶（Buckeye Butterfly），蝴蝶，常见于平原、热带草原，白天活动，体型中等、飞行速度中等，成虫寿命中等。以兰花为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:buckeye_caterpillar",
+   "name_en": "Buckeye Caterpillar",
+   "name_zh": "北美眼蛱蝶毛虫",
+   "description_zh": "成虫北美眼蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：平原、热带草原。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:buckeye_chrysalis",
+   "name_en": "Buckeye Chrysalis",
+   "name_zh": "北美眼蛱蝶蛹",
+   "description_zh": "成虫北美眼蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫北美眼蛱蝶；栖息地：平原、热带草原。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:butcher",
+   "name_en": "Butcher",
+   "name_zh": "",
+   "description_zh": "Butcher，模组为村民职业注册的实体（Butcher），用于配合鳞翅目学家与新交易系统；没有独立的生物设定，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.3,
+   "notes": "仅 jar 语言文件中的实体条目，模组正文未单独说明。"
+  },
+  {
+   "mob_id": "butterflies:butterfly_golem",
+   "name_en": "Butterfly Golem",
+   "name_zh": "",
+   "description_zh": "蝴蝶傀儡（Butterfly Golem），替代铁傀儡的变体：生成铁傀儡时有 4/1000 的概率被它取代（服务器配置 butterfly_golem_spawn_chance）。外观由蝴蝶装饰，行为与村庄守卫的铁傀儡一致。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.85,
+   "notes": "模组正文 Common Config Options 一节。"
+  },
+  {
+   "mob_id": "butterflies:cabbage",
+   "name_en": "Cabbage Butterfly",
+   "name_zh": "菜粉蝶",
+   "description_zh": "菜粉蝶（Cabbage Butterfly），蝴蝶，常见于平原、湿地，白天活动，体型中等、飞行速度快，成虫寿命短。以蒲公英为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:cabbage_caterpillar",
+   "name_en": "Cabbage Caterpillar",
+   "name_zh": "菜粉蝶毛虫",
+   "description_zh": "成虫菜粉蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：平原、湿地。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:cabbage_chrysalis",
+   "name_en": "Cabbage Chrysalis",
+   "name_zh": "菜粉蝶蛹",
+   "description_zh": "成虫菜粉蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫菜粉蝶；栖息地：平原、湿地。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:carpet_chrysalis",
+   "name_en": "Carpet Cocoon",
+   "name_zh": "毛毡衣蛾茧",
+   "description_zh": "成虫毛毡衣蛾的茧，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫毛毡衣蛾；栖息地：平原、湿地。部分蛾茧可以取丝，但取丝会杀死茧中的蛾。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:carpet_caterpillar",
+   "name_en": "Carpet Larva",
+   "name_zh": "毛毡衣蛾幼虫",
+   "description_zh": "成虫毛毡衣蛾的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：平原、湿地。长成后会在树叶上结茧。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:carpet",
+   "name_en": "Carpet Moth",
+   "name_zh": "毛毡衣蛾",
+   "description_zh": "毛毡衣蛾（Carpet Moth），蛾类，常见于平原、湿地，夜间活动，体型极小、飞行速度中等，成虫寿命短。以矢车菊为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。特性：茧可抽丝。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:cartographer",
+   "name_en": "Cartographer",
+   "name_zh": "",
+   "description_zh": "Cartographer，模组为村民职业注册的实体（Cartographer），用于配合鳞翅目学家与新交易系统；没有独立的生物设定，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.3,
+   "notes": "仅 jar 语言文件中的实体条目，模组正文未单独说明。"
+  },
+  {
+   "mob_id": "butterflies:case-bearing-clothes_chrysalis",
+   "name_en": "Case Bearing Clothes Cocoon",
+   "name_zh": "",
+   "description_zh": "成虫Case Bearing Clothes Moth的茧，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫Case Bearing Clothes Moth；栖息地：村庄。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:case-bearing-clothes_caterpillar",
+   "name_en": "Case Bearing Clothes Larva",
+   "name_zh": "",
+   "description_zh": "成虫Case Bearing Clothes Moth的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：村庄。长成后会在树叶上结茧。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:case-bearing-clothes",
+   "name_en": "Case Bearing Clothes Moth",
+   "name_zh": "",
+   "description_zh": "Case Bearing Clothes Moth，蛾类，常见于村庄，夜间活动，体型极小、飞行速度中等，成虫寿命长。以矢车菊为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:chalkhill",
+   "name_en": "Chalkhill Butterfly",
+   "name_zh": "白脉灰蝶",
+   "description_zh": "白脉灰蝶（Chalkhill Butterfly），蝴蝶，常见于丘陵、高原，白天活动，体型小、飞行速度快，成虫寿命中等。以滨菊为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:chalkhill_caterpillar",
+   "name_en": "Chalkhill Caterpillar",
+   "name_zh": "白脉灰蝶毛虫",
+   "description_zh": "成虫白脉灰蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丘陵、高原。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:chalkhill_chrysalis",
+   "name_en": "Chalkhill Chrysalis",
+   "name_zh": "白脉灰蝶蛹",
+   "description_zh": "成虫白脉灰蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫白脉灰蝶；栖息地：丘陵、高原。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:christmas",
+   "name_en": "Christmas Butterfly",
+   "name_zh": "",
+   "description_zh": "Christmas Butterfly，蝴蝶，常见于森林，白天活动，体型巨大、飞行速度中等，成虫寿命短。以滨菊为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。特性：圣诞主题。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:christmas_caterpillar",
+   "name_en": "Christmas Caterpillar",
+   "name_zh": "",
+   "description_zh": "成虫Christmas Butterfly的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:christmas_chrysalis",
+   "name_en": "Christmas Chrysalis",
+   "name_zh": "",
+   "description_zh": "成虫Christmas Butterfly的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫Christmas Butterfly；栖息地：森林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clearwing-hummingbird_chrysalis",
+   "name_en": "Clearwing Hummingbird Cocoon",
+   "name_zh": "",
+   "description_zh": "成虫Clearwing Hummingbird Moth的茧，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫Clearwing Hummingbird Moth；栖息地：平原、冰雪地带。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clearwing-hummingbird_caterpillar",
+   "name_en": "Clearwing Hummingbird Larva",
+   "name_zh": "",
+   "description_zh": "成虫Clearwing Hummingbird Moth的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：平原、冰雪地带。长成后会在树叶上结茧。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clearwing-hummingbird",
+   "name_en": "Clearwing Hummingbird Moth",
+   "name_zh": "",
+   "description_zh": "Clearwing Hummingbird Moth，蛾类，常见于平原、冰雪地带，夜间活动，体型小、飞行速度中等，成虫寿命短。以白色郁金香为主要蜜源，会把花朵吃掉。特性：像蜂鸟一样悬停吸蜜。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:cleric",
+   "name_en": "Cleric",
+   "name_zh": "",
+   "description_zh": "Cleric，模组为村民职业注册的实体（Cleric），用于配合鳞翅目学家与新交易系统；没有独立的生物设定，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.3,
+   "notes": "仅 jar 语言文件中的实体条目，模组正文未单独说明。"
+  },
+  {
+   "mob_id": "butterflies:clipperblack",
+   "name_en": "Clipper Butterfly (Black)",
+   "name_zh": "黑色丽蛱蝶",
+   "description_zh": "黑色丽蛱蝶（Clipper Butterfly (Black)），蝴蝶，常见于丛林，白天活动，体型大、飞行速度快，成虫寿命中等。以虞美人为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:clipperblue",
+   "name_en": "Clipper Butterfly (Blue)",
+   "name_zh": "蓝色丽蛱蝶",
+   "description_zh": "蓝色丽蛱蝶（Clipper Butterfly (Blue)），蝴蝶，常见于丛林，白天活动，体型大、飞行速度快，成虫寿命中等。以虞美人为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:clipperbrown",
+   "name_en": "Clipper Butterfly (Brown)",
+   "name_zh": "棕色丽蛱蝶",
+   "description_zh": "棕色丽蛱蝶（Clipper Butterfly (Brown)），蝴蝶，常见于丛林，白天活动，体型大、飞行速度快，成虫寿命中等。以虞美人为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:clippercyan",
+   "name_en": "Clipper Butterfly (Cyan)",
+   "name_zh": "青色丽蛱蝶",
+   "description_zh": "青色丽蛱蝶（Clipper Butterfly (Cyan)），蝴蝶，常见于丛林，白天活动，体型大、飞行速度快，成虫寿命中等。以虞美人为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:clippergray",
+   "name_en": "Clipper Butterfly (Gray)",
+   "name_zh": "灰色丽蛱蝶",
+   "description_zh": "灰色丽蛱蝶（Clipper Butterfly (Gray)），蝴蝶，常见于丛林，白天活动，体型大、飞行速度快，成虫寿命中等。以虞美人为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:clippergreen",
+   "name_en": "Clipper Butterfly (Green)",
+   "name_zh": "绿色丽蛱蝶",
+   "description_zh": "绿色丽蛱蝶（Clipper Butterfly (Green)），蝴蝶，常见于丛林，白天活动，体型大、飞行速度快，成虫寿命中等。以虞美人为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:clipper",
+   "name_en": "Clipper Butterfly (Light Blue)",
+   "name_zh": "淡蓝色丽蛱蝶",
+   "description_zh": "淡蓝色丽蛱蝶（Clipper Butterfly (Light Blue)），蝴蝶，常见于丛林，白天活动，体型大、飞行速度快，成虫寿命中等。以虞美人为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:clipperlightgray",
+   "name_en": "Clipper Butterfly (Light Gray)",
+   "name_zh": "淡灰色丽蛱蝶",
+   "description_zh": "淡灰色丽蛱蝶（Clipper Butterfly (Light Gray)），蝴蝶，常见于丛林，白天活动，体型大、飞行速度快，成虫寿命中等。以虞美人为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:clipperlime",
+   "name_en": "Clipper Butterfly (Lime)",
+   "name_zh": "黄绿色丽蛱蝶",
+   "description_zh": "黄绿色丽蛱蝶（Clipper Butterfly (Lime)），蝴蝶，常见于丛林，白天活动，体型大、飞行速度快，成虫寿命中等。以虞美人为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:clippermagenta",
+   "name_en": "Clipper Butterfly (Magenta)",
+   "name_zh": "品红色丽蛱蝶",
+   "description_zh": "品红色丽蛱蝶（Clipper Butterfly (Magenta)），蝴蝶，常见于丛林，白天活动，体型大、飞行速度快，成虫寿命中等。以虞美人为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:clipperorange",
+   "name_en": "Clipper Butterfly (Orange)",
+   "name_zh": "橙色丽蛱蝶",
+   "description_zh": "橙色丽蛱蝶（Clipper Butterfly (Orange)），蝴蝶，常见于丛林，白天活动，体型大、飞行速度快，成虫寿命中等。以虞美人为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:clipperpink",
+   "name_en": "Clipper Butterfly (Pink)",
+   "name_zh": "粉红色丽蛱蝶",
+   "description_zh": "粉红色丽蛱蝶（Clipper Butterfly (Pink)），蝴蝶，常见于丛林，白天活动，体型大、飞行速度快，成虫寿命中等。以虞美人为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:clipperpurple",
+   "name_en": "Clipper Butterfly (Purple)",
+   "name_zh": "紫色丽蛱蝶",
+   "description_zh": "紫色丽蛱蝶（Clipper Butterfly (Purple)），蝴蝶，常见于丛林，白天活动，体型大、飞行速度快，成虫寿命中等。以虞美人为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:clipperred",
+   "name_en": "Clipper Butterfly (Red)",
+   "name_zh": "红色丽蛱蝶",
+   "description_zh": "红色丽蛱蝶（Clipper Butterfly (Red)），蝴蝶，常见于丛林，白天活动，体型大、飞行速度快，成虫寿命中等。以虞美人为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:clipperwhite",
+   "name_en": "Clipper Butterfly (White)",
+   "name_zh": "白色丽蛱蝶",
+   "description_zh": "白色丽蛱蝶（Clipper Butterfly (White)），蝴蝶，常见于丛林，白天活动，体型大、飞行速度快，成虫寿命中等。以虞美人为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:clipperyellow",
+   "name_en": "Clipper Butterfly (Yellow)",
+   "name_zh": "黄色丽蛱蝶",
+   "description_zh": "黄色丽蛱蝶（Clipper Butterfly (Yellow)），蝴蝶，常见于丛林，白天活动，体型大、飞行速度快，成虫寿命中等。以虞美人为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:clipper_caterpillar",
+   "name_en": "Clipper Caterpillar",
+   "name_zh": "丽蛱蝶毛虫",
+   "description_zh": "成虫淡蓝色丽蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丛林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperblack_caterpillar",
+   "name_en": "Clipper Caterpillar",
+   "name_zh": "丽蛱蝶毛虫",
+   "description_zh": "成虫黑色丽蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丛林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperblue_caterpillar",
+   "name_en": "Clipper Caterpillar",
+   "name_zh": "丽蛱蝶毛虫",
+   "description_zh": "成虫蓝色丽蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丛林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperbrown_caterpillar",
+   "name_en": "Clipper Caterpillar",
+   "name_zh": "丽蛱蝶毛虫",
+   "description_zh": "成虫棕色丽蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丛林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clippercyan_caterpillar",
+   "name_en": "Clipper Caterpillar",
+   "name_zh": "丽蛱蝶毛虫",
+   "description_zh": "成虫青色丽蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丛林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clippergray_caterpillar",
+   "name_en": "Clipper Caterpillar",
+   "name_zh": "丽蛱蝶毛虫",
+   "description_zh": "成虫灰色丽蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丛林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clippergreen_caterpillar",
+   "name_en": "Clipper Caterpillar",
+   "name_zh": "丽蛱蝶毛虫",
+   "description_zh": "成虫绿色丽蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丛林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperlightgray_caterpillar",
+   "name_en": "Clipper Caterpillar",
+   "name_zh": "丽蛱蝶毛虫",
+   "description_zh": "成虫淡灰色丽蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丛林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperlime_caterpillar",
+   "name_en": "Clipper Caterpillar",
+   "name_zh": "丽蛱蝶毛虫",
+   "description_zh": "成虫黄绿色丽蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丛林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clippermagenta_caterpillar",
+   "name_en": "Clipper Caterpillar",
+   "name_zh": "丽蛱蝶毛虫",
+   "description_zh": "成虫品红色丽蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丛林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperorange_caterpillar",
+   "name_en": "Clipper Caterpillar",
+   "name_zh": "丽蛱蝶毛虫",
+   "description_zh": "成虫橙色丽蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丛林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperpink_caterpillar",
+   "name_en": "Clipper Caterpillar",
+   "name_zh": "丽蛱蝶毛虫",
+   "description_zh": "成虫粉红色丽蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丛林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperpurple_caterpillar",
+   "name_en": "Clipper Caterpillar",
+   "name_zh": "丽蛱蝶毛虫",
+   "description_zh": "成虫紫色丽蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丛林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperred_caterpillar",
+   "name_en": "Clipper Caterpillar",
+   "name_zh": "丽蛱蝶毛虫",
+   "description_zh": "成虫红色丽蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丛林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperwhite_caterpillar",
+   "name_en": "Clipper Caterpillar",
+   "name_zh": "丽蛱蝶毛虫",
+   "description_zh": "成虫白色丽蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丛林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperyellow_caterpillar",
+   "name_en": "Clipper Caterpillar",
+   "name_zh": "丽蛱蝶毛虫",
+   "description_zh": "成虫黄色丽蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丛林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipper_chrysalis",
+   "name_en": "Clipper Chrysalis",
+   "name_zh": "丽蛱蝶蛹",
+   "description_zh": "成虫淡蓝色丽蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫淡蓝色丽蛱蝶；栖息地：丛林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperblack_chrysalis",
+   "name_en": "Clipper Chrysalis",
+   "name_zh": "丽蛱蝶蛹",
+   "description_zh": "成虫黑色丽蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫黑色丽蛱蝶；栖息地：丛林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperblue_chrysalis",
+   "name_en": "Clipper Chrysalis",
+   "name_zh": "丽蛱蝶蛹",
+   "description_zh": "成虫蓝色丽蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫蓝色丽蛱蝶；栖息地：丛林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperbrown_chrysalis",
+   "name_en": "Clipper Chrysalis",
+   "name_zh": "丽蛱蝶蛹",
+   "description_zh": "成虫棕色丽蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫棕色丽蛱蝶；栖息地：丛林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clippercyan_chrysalis",
+   "name_en": "Clipper Chrysalis",
+   "name_zh": "丽蛱蝶蛹",
+   "description_zh": "成虫青色丽蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫青色丽蛱蝶；栖息地：丛林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clippergray_chrysalis",
+   "name_en": "Clipper Chrysalis",
+   "name_zh": "丽蛱蝶蛹",
+   "description_zh": "成虫灰色丽蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫灰色丽蛱蝶；栖息地：丛林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clippergreen_chrysalis",
+   "name_en": "Clipper Chrysalis",
+   "name_zh": "丽蛱蝶蛹",
+   "description_zh": "成虫绿色丽蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫绿色丽蛱蝶；栖息地：丛林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperlightgray_chrysalis",
+   "name_en": "Clipper Chrysalis",
+   "name_zh": "丽蛱蝶蛹",
+   "description_zh": "成虫淡灰色丽蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫淡灰色丽蛱蝶；栖息地：丛林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperlime_chrysalis",
+   "name_en": "Clipper Chrysalis",
+   "name_zh": "丽蛱蝶蛹",
+   "description_zh": "成虫黄绿色丽蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫黄绿色丽蛱蝶；栖息地：丛林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clippermagenta_chrysalis",
+   "name_en": "Clipper Chrysalis",
+   "name_zh": "丽蛱蝶蛹",
+   "description_zh": "成虫品红色丽蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫品红色丽蛱蝶；栖息地：丛林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperorange_chrysalis",
+   "name_en": "Clipper Chrysalis",
+   "name_zh": "丽蛱蝶蛹",
+   "description_zh": "成虫橙色丽蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫橙色丽蛱蝶；栖息地：丛林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperpink_chrysalis",
+   "name_en": "Clipper Chrysalis",
+   "name_zh": "丽蛱蝶蛹",
+   "description_zh": "成虫粉红色丽蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫粉红色丽蛱蝶；栖息地：丛林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperpurple_chrysalis",
+   "name_en": "Clipper Chrysalis",
+   "name_zh": "丽蛱蝶蛹",
+   "description_zh": "成虫紫色丽蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫紫色丽蛱蝶；栖息地：丛林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperred_chrysalis",
+   "name_en": "Clipper Chrysalis",
+   "name_zh": "丽蛱蝶蛹",
+   "description_zh": "成虫红色丽蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫红色丽蛱蝶；栖息地：丛林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperwhite_chrysalis",
+   "name_en": "Clipper Chrysalis",
+   "name_zh": "丽蛱蝶蛹",
+   "description_zh": "成虫白色丽蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫白色丽蛱蝶；栖息地：丛林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clipperyellow_chrysalis",
+   "name_en": "Clipper Chrysalis",
+   "name_zh": "丽蛱蝶蛹",
+   "description_zh": "成虫黄色丽蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫黄色丽蛱蝶；栖息地：丛林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clothes_chrysalis",
+   "name_en": "Clothes Cocoon",
+   "name_zh": "衣蛾茧",
+   "description_zh": "成虫衣蛾的茧，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫衣蛾；栖息地：村庄。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clothes_caterpillar",
+   "name_en": "Clothes Larva",
+   "name_zh": "衣蛾幼虫",
+   "description_zh": "成虫衣蛾的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：村庄。长成后会在树叶上结茧。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:clothes",
+   "name_en": "Clothes Moth",
+   "name_zh": "衣蛾",
+   "description_zh": "衣蛾（Clothes Moth），蛾类，常见于村庄，夜间活动，体型极小、飞行速度中等，成虫寿命长。以矢车菊为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:codling_chrysalis",
+   "name_en": "Codling Cocoon",
+   "name_zh": "苹果蠹蛾茧",
+   "description_zh": "成虫苹果蠹蛾的茧，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫苹果蠹蛾；栖息地：森林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:codling_caterpillar",
+   "name_en": "Codling Larva",
+   "name_zh": "苹果蠹蛾幼虫",
+   "description_zh": "成虫苹果蠹蛾的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林。长成后会在树叶上结茧。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:codling",
+   "name_en": "Codling Moth",
+   "name_zh": "苹果蠹蛾",
+   "description_zh": "苹果蠹蛾（Codling Moth），蛾类，常见于森林，夜间活动，体型小、飞行速度中等，成虫寿命中等。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:commander",
+   "name_en": "Commander Butterfly",
+   "name_zh": "细带翠蛱蝶",
+   "description_zh": "细带翠蛱蝶（Commander Butterfly），蝴蝶，常见于森林，白天活动，体型中等、飞行速度中等，成虫寿命中等。以兰花为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:commander_caterpillar",
+   "name_en": "Commander Caterpillar",
+   "name_zh": "细带翠蛱蝶毛虫",
+   "description_zh": "成虫细带翠蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:commander_chrysalis",
+   "name_en": "Commander Chrysalis",
+   "name_zh": "细带翠蛱蝶蛹",
+   "description_zh": "成虫细带翠蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫细带翠蛱蝶；栖息地：森林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:commonbirdwing",
+   "name_en": "Common Birdwing Butterfly",
+   "name_zh": "裳凤蝶",
+   "description_zh": "裳凤蝶（Common Birdwing Butterfly），蝴蝶，常见于森林，白天活动，体型巨大、飞行速度快，成虫寿命中等。以绒球葱为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:commonbirdwing_caterpillar",
+   "name_en": "Common Birdwing Caterpillar",
+   "name_zh": "裳凤蝶毛虫",
+   "description_zh": "成虫裳凤蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:commonbirdwing_chrysalis",
+   "name_en": "Common Birdwing Chrysalis",
+   "name_zh": "裳凤蝶蛹",
+   "description_zh": "成虫裳凤蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫裳凤蝶；栖息地：森林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:common-crow",
+   "name_en": "Common Crow Butterfly",
+   "name_zh": "",
+   "description_zh": "Common Crow Butterfly，蝴蝶，常见于森林、丘陵、平原、高原、热带草原，白天活动，体型大、飞行速度慢，成虫寿命长。以红色郁金香为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。特性：不可食用、带有毒性。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:common-crow_caterpillar",
+   "name_en": "Common Crow Caterpillar",
+   "name_zh": "",
+   "description_zh": "成虫Common Crow Butterfly的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林、丘陵、平原、高原、热带草原。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:common-crow_chrysalis",
+   "name_en": "Common Crow Chrysalis",
+   "name_zh": "",
+   "description_zh": "成虫Common Crow Butterfly的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫Common Crow Butterfly；栖息地：森林、丘陵、平原、高原、热带草原。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:commongrassyellow",
+   "name_en": "Common Grass Yellow Butterfly",
+   "name_zh": "黄蝶",
+   "description_zh": "黄蝶（Common Grass Yellow Butterfly），蝴蝶，常见于平原，白天活动，体型小、飞行速度中等，成虫寿命中等。以蓝花美耳草为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:commongrassyellow-dry",
+   "name_en": "Common Grass Yellow Butterfly (Cold)",
+   "name_zh": "",
+   "description_zh": "Common Grass Yellow Butterfly (Cold)，蝴蝶，常见于平原，白天活动，体型小、飞行速度中等，成虫寿命中等。以蓝花美耳草为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:commongrassyellow-dry_caterpillar",
+   "name_en": "Common Grass Yellow Caterpillar",
+   "name_zh": "",
+   "description_zh": "成虫Common Grass Yellow Butterfly (Cold)的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：平原。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:commongrassyellow_caterpillar",
+   "name_en": "Common Grass Yellow Caterpillar",
+   "name_zh": "黄蝶毛虫",
+   "description_zh": "成虫黄蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：平原。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:commongrassyellow-dry_chrysalis",
+   "name_en": "Common Grass Yellow Chrysalis",
+   "name_zh": "",
+   "description_zh": "成虫Common Grass Yellow Butterfly (Cold)的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫Common Grass Yellow Butterfly (Cold)；栖息地：平原。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:commongrassyellow_chrysalis",
+   "name_en": "Common Grass Yellow Chrysalis",
+   "name_zh": "黄蝶蛹",
+   "description_zh": "成虫黄蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫黄蝶；栖息地：平原。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:common-mime",
+   "name_en": "Common Mime Butterfly",
+   "name_zh": "",
+   "description_zh": "Common Mime Butterfly，蝴蝶，常见于丘陵、高原，白天活动，体型中等、飞行速度中等，成虫寿命短。以粉红色郁金香为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。特性：善于拟态。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:common-mime_caterpillar",
+   "name_en": "Common Mime Caterpillar",
+   "name_zh": "",
+   "description_zh": "成虫Common Mime Butterfly的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丘陵、高原。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:common-mime_chrysalis",
+   "name_en": "Common Mime Chrysalis",
+   "name_zh": "",
+   "description_zh": "成虫Common Mime Butterfly的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫Common Mime Butterfly；栖息地：丘陵、高原。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:diamondback_chrysalis",
+   "name_en": "Diamondback Cocoon",
+   "name_zh": "小菜蛾茧",
+   "description_zh": "成虫小菜蛾的茧，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫小菜蛾；栖息地：平原。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:diamondback_caterpillar",
+   "name_en": "Diamondback Larva",
+   "name_zh": "小菜蛾幼虫",
+   "description_zh": "成虫小菜蛾的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：平原。长成后会在树叶上结茧。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:diamondback",
+   "name_en": "Diamondback Moth",
+   "name_zh": "小菜蛾",
+   "description_zh": "小菜蛾（Diamondback Moth），蛾类，常见于平原，夜间活动，体型极小、飞行速度中等，成虫寿命中等。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:domestic_silk_chrysalis",
+   "name_en": "Domestic Silk Cocoon",
+   "name_zh": "家蚕茧",
+   "description_zh": "成虫家蚕的茧，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫家蚕；栖息地：村庄。部分蛾茧可以取丝，但取丝会杀死茧中的蛾。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:domestic_silk_caterpillar",
+   "name_en": "Domestic Silk Larva",
+   "name_zh": "家蚕幼虫",
+   "description_zh": "成虫家蚕的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：村庄。长成后会在树叶上结茧。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:domestic_silk",
+   "name_en": "Domestic Silk Moth",
+   "name_zh": "家蚕",
+   "description_zh": "家蚕（Domestic Silk Moth），蛾类，常见于村庄，晨昏活动，体型中等、飞行速度中等，成虫寿命中等。以红色郁金香为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。特性：茧可抽丝。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:emperor",
+   "name_en": "Emperor Butterfly",
+   "name_zh": "君主蝶",
+   "description_zh": "君主蝶（Emperor Butterfly），蝴蝶，常见于森林，白天活动，体型中等、飞行速度中等，成虫寿命中等。以红色郁金香为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:emperor_caterpillar",
+   "name_en": "Emperor Caterpillar",
+   "name_zh": "君主蝶毛虫",
+   "description_zh": "成虫君主蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:emperor_chrysalis",
+   "name_en": "Emperor Chrysalis",
+   "name_zh": "君主蝶蛹",
+   "description_zh": "成虫君主蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫君主蝶；栖息地：森林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:peacemaker_evoker",
+   "name_en": "Evoker",
+   "name_zh": "",
+   "description_zh": "被和平使者蝶寄生的 Evoker，外观仍是原版生物，但已受和平使者控制；村民、流浪商人与灾厄村民都按 possession_chance 配置的概率带着它生成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.8,
+   "notes": "模组正文 Peacemaker Butterflies 一节与配置项说明。"
+  },
+  {
+   "mob_id": "butterflies:farmer",
+   "name_en": "Farmer",
+   "name_zh": "",
+   "description_zh": "Farmer，模组为村民职业注册的实体（Farmer），用于配合鳞翅目学家与新交易系统；没有独立的生物设定，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.3,
+   "notes": "仅 jar 语言文件中的实体条目，模组正文未单独说明。"
+  },
+  {
+   "mob_id": "butterflies:fisherman",
+   "name_en": "Fisherman",
+   "name_zh": "",
+   "description_zh": "Fisherman，模组为村民职业注册的实体（Fisherman），用于配合鳞翅目学家与新交易系统；没有独立的生物设定，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.3,
+   "notes": "仅 jar 语言文件中的实体条目，模组正文未单独说明。"
+  },
+  {
+   "mob_id": "butterflies:fletcher",
+   "name_en": "Fletcher",
+   "name_zh": "",
+   "description_zh": "Fletcher，模组为村民职业注册的实体（Fletcher），用于配合鳞翅目学家与新交易系统；没有独立的生物设定，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.3,
+   "notes": "仅 jar 语言文件中的实体条目，模组正文未单独说明。"
+  },
+  {
+   "mob_id": "butterflies:forester",
+   "name_en": "Forester Butterfly",
+   "name_zh": "森林蛱蝶",
+   "description_zh": "森林蛱蝶（Forester Butterfly），蝴蝶，常见于森林、平原、湿地，白天活动，体型小、飞行速度中等，成虫寿命中等。以铃兰为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。特性：与猫友好。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:forester_caterpillar",
+   "name_en": "Forester Caterpillar",
+   "name_zh": "森林蛱蝶毛虫",
+   "description_zh": "成虫森林蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林、平原、湿地。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:forester_chrysalis",
+   "name_en": "Forester Chrysalis",
+   "name_zh": "森林蛱蝶蛹",
+   "description_zh": "成虫森林蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫森林蛱蝶；栖息地：森林、平原、湿地。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:light",
+   "name_en": "Féileacáin",
+   "name_zh": "",
+   "description_zh": "Féileacáin，特殊蝶类，没有特定的群系限制，夜间活动，体型小、飞行速度快，成虫寿命不朽。特性：会发光。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:light_caterpillar",
+   "name_en": "Féileacáin Caterpillar",
+   "name_zh": "",
+   "description_zh": "成虫Féileacáin的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:light_chrysalis",
+   "name_en": "Féileacáin Chrysalis",
+   "name_zh": "",
+   "description_zh": "成虫Féileacáin的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫Féileacáin；栖息地：。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:glasswing",
+   "name_en": "Glasswing Butterfly",
+   "name_zh": "宽纹黑脉绡蝶",
+   "description_zh": "宽纹黑脉绡蝶（Glasswing Butterfly），蝴蝶，常见于丛林，白天活动，体型中等、飞行速度中等，成虫寿命长。以橙色郁金香为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:glasswing_caterpillar",
+   "name_en": "Glasswing Caterpillar",
+   "name_zh": "宽纹黑脉绡蝶毛虫",
+   "description_zh": "成虫宽纹黑脉绡蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丛林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:glasswing_chrysalis",
+   "name_en": "Glasswing Chrysalis",
+   "name_zh": "宽纹黑脉绡蝶蛹",
+   "description_zh": "成虫宽纹黑脉绡蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫宽纹黑脉绡蝶；栖息地：丛林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:green-skirt-baron",
+   "name_en": "Green Skirt Baron Butterfly",
+   "name_zh": "",
+   "description_zh": "Green Skirt Baron Butterfly，蝴蝶，常见于森林，白天活动，体型中等、飞行速度中等，成虫寿命中等。以蓝花美耳草为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:green-skirt-baron_caterpillar",
+   "name_en": "Green Skirt Baron Caterpillar",
+   "name_zh": "",
+   "description_zh": "成虫Green Skirt Baron Butterfly的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:green-skirt-baron_chrysalis",
+   "name_en": "Green Skirt Baron Chrysalis",
+   "name_zh": "",
+   "description_zh": "成虫Green Skirt Baron Butterfly的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫Green Skirt Baron Butterfly；栖息地：森林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:hairstreak",
+   "name_en": "Hairstreak Butterfly",
+   "name_zh": "灰蝶",
+   "description_zh": "灰蝶（Hairstreak Butterfly），蝴蝶，常见于森林、平原、湿地，白天活动，体型小、飞行速度中等，成虫寿命短。以虞美人为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:hairstreak_caterpillar",
+   "name_en": "Hairstreak Caterpillar",
+   "name_zh": "灰蝶毛虫",
+   "description_zh": "成虫灰蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林、平原、湿地。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:hairstreak_chrysalis",
+   "name_en": "Hairstreak Chrysalis",
+   "name_zh": "灰蝶蛹",
+   "description_zh": "成虫灰蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫灰蝶；栖息地：森林、平原、湿地。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:heath",
+   "name_en": "Heath Butterfly",
+   "name_zh": "小环蝶",
+   "description_zh": "小环蝶（Heath Butterfly），蝴蝶，常见于平原，白天活动，体型小、飞行速度中等，成虫寿命长。以白色郁金香为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。特性：喜欢四处游荡。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:heath_caterpillar",
+   "name_en": "Heath Caterpillar",
+   "name_zh": "小环蝶毛虫",
+   "description_zh": "成虫小环蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：平原。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:heath_chrysalis",
+   "name_en": "Heath Chrysalis",
+   "name_zh": "小环蝶蛹",
+   "description_zh": "成虫小环蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫小环蝶；栖息地：平原。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:hummingbird",
+   "name_en": "Hummingbird Hawk-Moth",
+   "name_zh": "",
+   "description_zh": "Hummingbird Hawk-Moth，蛾类，常见于平原，白天活动，体型小、飞行速度快，成虫寿命短。以铃兰为主要蜜源，会把花朵吃掉。特性：像蜂鸟一样悬停吸蜜。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:hummingbird_chrysalis",
+   "name_en": "Hummingbird Hawk-Moth Cocoon",
+   "name_zh": "",
+   "description_zh": "成虫Hummingbird Hawk-Moth的茧，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫Hummingbird Hawk-Moth；栖息地：平原。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:hummingbird_caterpillar",
+   "name_en": "Hummingbird Hawk-Moth Larva",
+   "name_zh": "",
+   "description_zh": "成虫Hummingbird Hawk-Moth的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：平原。长成后会在树叶上结茧。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:ice",
+   "name_en": "Ice Butterfly",
+   "name_zh": "冰蝴蝶",
+   "description_zh": "冰蝴蝶（Ice Butterfly），特殊蝶类，常见于冰雪地带，昼夜均可活动，体型中等、飞行速度快，成虫寿命长。以凋灵玫瑰为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。特性：会发光、带有寒气。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:ice_caterpillar",
+   "name_en": "Ice Caterpillar",
+   "name_zh": "冰蝴蝶毛虫",
+   "description_zh": "成虫冰蝴蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：冰雪地带。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:ice_chrysalis",
+   "name_en": "Ice Chrysalis",
+   "name_zh": "冰蝴蝶蛹",
+   "description_zh": "成虫冰蝴蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫冰蝴蝶；栖息地：冰雪地带。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:peacemaker_illusioner",
+   "name_en": "Illusioner",
+   "name_zh": "",
+   "description_zh": "被和平使者蝶寄生的 Illusioner，外观仍是原版生物，但已受和平使者控制；村民、流浪商人与灾厄村民都按 possession_chance 配置的概率带着它生成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.8,
+   "notes": "模组正文 Peacemaker Butterflies 一节与配置项说明。"
+  },
+  {
+   "mob_id": "butterflies:indianmeal_chrysalis",
+   "name_en": "Indian Meal Cocoon",
+   "name_zh": "印度谷螟茧",
+   "description_zh": "成虫印度谷螟的茧，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫印度谷螟；栖息地：丛林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:indianmeal_caterpillar",
+   "name_en": "Indian Meal Larva",
+   "name_zh": "印度谷螟幼虫",
+   "description_zh": "成虫印度谷螟的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丛林。长成后会在树叶上结茧。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:indianmeal",
+   "name_en": "Indian Meal Moth",
+   "name_zh": "印度谷螟",
+   "description_zh": "印度谷螟（Indian Meal Moth），蛾类，常见于丛林，夜间活动，体型极小、飞行速度中等，成虫寿命长。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:lava_chrysalis",
+   "name_en": "Lava Cocoon",
+   "name_zh": "熔岩蛾茧",
+   "description_zh": "成虫熔岩蛾的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫熔岩蛾；栖息地：下界。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:lava_caterpillar",
+   "name_en": "Lava Larva",
+   "name_zh": "熔岩蛾幼虫",
+   "description_zh": "成虫熔岩蛾的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：下界。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:lava",
+   "name_en": "Lava Moth",
+   "name_zh": "熔岩蛾",
+   "description_zh": "熔岩蛾（Lava Moth），特殊蝶类，常见于下界，昼夜均可活动，体型大、飞行速度快，成虫寿命不朽。特性：会发光、适应熔岩环境。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:leatherworker",
+   "name_en": "Leatherworker",
+   "name_zh": "",
+   "description_zh": "Leatherworker，模组为村民职业注册的实体（Leatherworker），用于配合鳞翅目学家与新交易系统；没有独立的生物设定，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.3,
+   "notes": "仅 jar 语言文件中的实体条目，模组正文未单独说明。"
+  },
+  {
+   "mob_id": "butterflies:lepidopterist",
+   "name_en": "Lepidopterist",
+   "name_zh": "",
+   "description_zh": "鳞翅目学家（Lepidopterist），模组新增的村民职业，用蝴蝶相关物品进行交易；模组同样扩充了流浪商人的交易表。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.85,
+   "notes": "模组正文 Lepidopterist and Wandering Trader 一节；jar 中有三个同名实体注册。"
+  },
+  {
+   "mob_id": "butterflies:librarian",
+   "name_en": "Librarian",
+   "name_zh": "",
+   "description_zh": "Librarian，模组为村民职业注册的实体（Librarian），用于配合鳞翅目学家与新交易系统；没有独立的生物设定，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.3,
+   "notes": "仅 jar 语言文件中的实体条目，模组正文未单独说明。"
+  },
+  {
+   "mob_id": "butterflies:longwing",
+   "name_en": "Longwing Butterfly",
+   "name_zh": "长翅蛱蝶",
+   "description_zh": "长翅蛱蝶（Longwing Butterfly），蝴蝶，常见于湿地，白天活动，体型中等、飞行速度中等，成虫寿命长。以蒲公英为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:longwing_caterpillar",
+   "name_en": "Longwing Caterpillar",
+   "name_zh": "长翅蛱蝶毛虫",
+   "description_zh": "成虫长翅蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：湿地。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:longwing_chrysalis",
+   "name_en": "Longwing Chrysalis",
+   "name_zh": "长翅蛱蝶蛹",
+   "description_zh": "成虫长翅蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫长翅蛱蝶；栖息地：湿地。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:luna_chrysalis",
+   "name_en": "Luna Cocoon",
+   "name_zh": "美洲月形天蚕蛾茧",
+   "description_zh": "成虫美洲月形天蚕蛾的茧，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫美洲月形天蚕蛾；栖息地：森林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:luna_caterpillar",
+   "name_en": "Luna Larva",
+   "name_zh": "美洲月形天蚕蛾幼虫",
+   "description_zh": "成虫美洲月形天蚕蛾的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林。长成后会在树叶上结茧。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:luna",
+   "name_en": "Luna Moth",
+   "name_zh": "美洲月形天蚕蛾",
+   "description_zh": "美洲月形天蚕蛾（Luna Moth），蛾类，常见于森林，夜间活动，体型小、飞行速度中等，成虫寿命中等。以滨菊为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:mason",
+   "name_en": "Mason",
+   "name_zh": "",
+   "description_zh": "Mason，模组为村民职业注册的实体（Mason），用于配合鳞翅目学家与新交易系统；没有独立的生物设定，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.3,
+   "notes": "仅 jar 语言文件中的实体条目，模组正文未单独说明。"
+  },
+  {
+   "mob_id": "butterflies:monarch",
+   "name_en": "Monarch Butterfly",
+   "name_zh": "帝王蝶",
+   "description_zh": "帝王蝶（Monarch Butterfly），蝴蝶，常见于平原，白天活动，体型大、飞行速度中等，成虫寿命中等。以虞美人为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。特性：带有毒性。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:monarch_caterpillar",
+   "name_en": "Monarch Caterpillar",
+   "name_zh": "帝王蝶毛虫",
+   "description_zh": "成虫帝王蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：平原。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:monarch_chrysalis",
+   "name_en": "Monarch Chrysalis",
+   "name_zh": "帝王蝶蛹",
+   "description_zh": "成虫帝王蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫帝王蝶；栖息地：平原。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:morpho",
+   "name_en": "Morpho Butterfly",
+   "name_zh": "闪蝶",
+   "description_zh": "闪蝶（Morpho Butterfly），蝴蝶，常见于丛林，白天活动，体型大、飞行速度中等，成虫寿命中等。以粉红色郁金香为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:morpho_caterpillar",
+   "name_en": "Morpho Caterpillar",
+   "name_zh": "闪蝶毛虫",
+   "description_zh": "成虫闪蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丛林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:morpho_chrysalis",
+   "name_en": "Morpho Chrysalis",
+   "name_zh": "闪蝶蛹",
+   "description_zh": "成虫闪蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫闪蝶；栖息地：丛林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:nitwit",
+   "name_en": "Nitwit",
+   "name_zh": "",
+   "description_zh": "Nitwit，模组为村民职业注册的实体（Nitwit），用于配合鳞翅目学家与新交易系统；没有独立的生物设定，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.3,
+   "notes": "仅 jar 语言文件中的实体条目，模组正文未单独说明。"
+  },
+  {
+   "mob_id": "butterflies:oak-silk_chrysalis",
+   "name_en": "Oak Silk Cocoon",
+   "name_zh": "",
+   "description_zh": "成虫Oak Silk Moth的茧，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫Oak Silk Moth；栖息地：森林。部分蛾茧可以取丝，但取丝会杀死茧中的蛾。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:oak-silk_caterpillar",
+   "name_en": "Oak Silk Larva",
+   "name_zh": "",
+   "description_zh": "成虫Oak Silk Moth的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林。长成后会在树叶上结茧。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:oak-silk",
+   "name_en": "Oak Silk Moth",
+   "name_zh": "",
+   "description_zh": "Oak Silk Moth，蛾类，常见于森林，夜间活动，体型巨大、飞行速度中等，成虫寿命短。以兰花为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。特性：茧可抽丝。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:orizaba",
+   "name_en": "Orizaba Silkmoth",
+   "name_zh": "",
+   "description_zh": "Orizaba Silkmoth，蛾类，常见于丛林，夜间活动，体型巨大、飞行速度中等，成虫寿命短。特性：茧可抽丝。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:orizaba_chrysalis",
+   "name_en": "Orizaba Silkmoth Cocoon",
+   "name_zh": "",
+   "description_zh": "成虫Orizaba Silkmoth的茧，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫Orizaba Silkmoth；栖息地：丛林。部分蛾茧可以取丝，但取丝会杀死茧中的蛾。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:orizaba_caterpillar",
+   "name_en": "Orizaba Silkmoth Larva",
+   "name_zh": "",
+   "description_zh": "成虫Orizaba Silkmoth的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：丛林。长成后会在树叶上结茧。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:peacemaker",
+   "name_en": "Peacemaker Butterfly",
+   "name_zh": "",
+   "description_zh": "Peacemaker Butterfly，特殊蝶类，没有特定的群系限制，昼夜均可活动，体型巨大、飞行速度快，成虫寿命不朽。以凋灵玫瑰为主要蜜源。特性：实为敌对的外星生物。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:peacemaker_butterfly",
+   "name_en": "Peacemaker Butterfly",
+   "name_zh": "",
+   "description_zh": "和平使者蝶（Peacemaker Butterfly），外表像蝴蝶、实际是企图占领世界的敌对外星生物；默认可通过配置项 enable_hostile_butterflies 关闭。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.8,
+   "notes": "模组正文 Peacemaker Butterflies 一节与配置项说明。"
+  },
+  {
+   "mob_id": "butterflies:peacemaker_caterpillar",
+   "name_en": "Peacemaker Caterpillar",
+   "name_zh": "",
+   "description_zh": "成虫Peacemaker Butterfly的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:peacemaker_chrysalis",
+   "name_en": "Peacemaker Chrysalis",
+   "name_zh": "",
+   "description_zh": "成虫Peacemaker Butterfly的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫Peacemaker Butterfly；栖息地：。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:peacemaker_cow",
+   "name_en": "Peacemaker Cow",
+   "name_zh": "",
+   "description_zh": "被和平使者蝶寄生的牛，外观仍是原版生物。模组正文只说明村民、流浪商人与灾厄村民有概率被寄生，未单独说明牛的寄生方式，资料有限。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.8,
+   "notes": "模组正文 Peacemaker Butterflies 一节与配置项说明。"
+  },
+  {
+   "mob_id": "butterflies:peacemaker_witch",
+   "name_en": "Peacemaker Witch",
+   "name_zh": "",
+   "description_zh": "被和平使者蝶寄生的 Peacemaker Witch，外观仍是原版生物，但已受和平使者控制；村民、流浪商人与灾厄村民都按 possession_chance 配置的概率带着它生成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.8,
+   "notes": "模组正文 Peacemaker Butterflies 一节与配置项说明。"
+  },
+  {
+   "mob_id": "butterflies:peacock",
+   "name_en": "Peacock Butterfly",
+   "name_zh": "孔雀蛱蝶",
+   "description_zh": "孔雀蛱蝶（Peacock Butterfly），蝴蝶，常见于森林、平原，白天活动，体型中等、飞行速度中等，成虫寿命中等。以甜浆果丛为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:peacock_caterpillar",
+   "name_en": "Peacock Caterpillar",
+   "name_zh": "孔雀蛱蝶毛虫",
+   "description_zh": "成虫孔雀蛱蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林、平原。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:peacock_chrysalis",
+   "name_en": "Peacock Chrysalis",
+   "name_zh": "孔雀蛱蝶蛹",
+   "description_zh": "成虫孔雀蛱蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫孔雀蛱蝶；栖息地：森林、平原。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:peacock-pansy-aged",
+   "name_en": "Peacock Pansy Butterfly (Aged)",
+   "name_zh": "",
+   "description_zh": "Peacock Pansy Butterfly (Aged)，蝴蝶，没有特定的群系限制，白天活动，体型中等、飞行速度慢，成虫寿命中等。以兰花为主要蜜源。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:peacock-pansy-dry",
+   "name_en": "Peacock Pansy Butterfly (Dry)",
+   "name_zh": "",
+   "description_zh": "Peacock Pansy Butterfly (Dry)，蝴蝶，常见于平原、热带草原，白天活动，体型中等、飞行速度中等，成虫寿命中等。以兰花为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:peacock-pansy-wet",
+   "name_en": "Peacock Pansy Butterfly (Wet)",
+   "name_zh": "",
+   "description_zh": "Peacock Pansy Butterfly (Wet)，蝴蝶，常见于平原、湿地，白天活动，体型中等、飞行速度中等，成虫寿命中等。以兰花为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:peacock-pansy-aged_caterpillar",
+   "name_en": "Peacock Pansy Caterpillar",
+   "name_zh": "",
+   "description_zh": "成虫Peacock Pansy Butterfly (Aged)的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:peacock-pansy-dry_caterpillar",
+   "name_en": "Peacock Pansy Caterpillar",
+   "name_zh": "",
+   "description_zh": "成虫Peacock Pansy Butterfly (Dry)的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：平原、热带草原。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:peacock-pansy-wet_caterpillar",
+   "name_en": "Peacock Pansy Caterpillar",
+   "name_zh": "",
+   "description_zh": "成虫Peacock Pansy Butterfly (Wet)的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：平原、湿地。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:peacock-pansy-aged_chrysalis",
+   "name_en": "Peacock Pansy Chrysalis",
+   "name_zh": "",
+   "description_zh": "成虫Peacock Pansy Butterfly (Aged)的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫Peacock Pansy Butterfly (Aged)；栖息地：。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:peacock-pansy-dry_chrysalis",
+   "name_en": "Peacock Pansy Chrysalis",
+   "name_zh": "",
+   "description_zh": "成虫Peacock Pansy Butterfly (Dry)的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫Peacock Pansy Butterfly (Dry)；栖息地：平原、热带草原。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:peacock-pansy-wet_chrysalis",
+   "name_en": "Peacock Pansy Chrysalis",
+   "name_zh": "",
+   "description_zh": "成虫Peacock Pansy Butterfly (Wet)的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫Peacock Pansy Butterfly (Wet)；栖息地：平原、湿地。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:peppered_chrysalis",
+   "name_en": "Peppered Cocoon",
+   "name_zh": "桦尺蛾茧",
+   "description_zh": "成虫桦尺蛾的茧，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫桦尺蛾；栖息地：森林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:peppered_caterpillar",
+   "name_en": "Peppered Larva",
+   "name_zh": "桦尺蛾幼虫",
+   "description_zh": "成虫桦尺蛾的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林。长成后会在树叶上结茧。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:peppered",
+   "name_en": "Peppered Moth",
+   "name_zh": "桦尺蛾",
+   "description_zh": "桦尺蛾（Peppered Moth），蛾类，常见于森林，夜间活动，体型中等、飞行速度中等，成虫寿命中等。以铃兰为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:peacemaker_pillager",
+   "name_en": "Pillager",
+   "name_zh": "",
+   "description_zh": "被和平使者蝶寄生的 Pillager，外观仍是原版生物，但已受和平使者控制；村民、流浪商人与灾厄村民都按 possession_chance 配置的概率带着它生成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.8,
+   "notes": "模组正文 Peacemaker Butterflies 一节与配置项说明。"
+  },
+  {
+   "mob_id": "butterflies:rainbow",
+   "name_en": "Rainbow Butterfly",
+   "name_zh": "彩虹蝶",
+   "description_zh": "彩虹蝶（Rainbow Butterfly），蝴蝶，常见于森林、平原，白天活动，体型小、飞行速度快，成虫寿命中等。以绒球葱为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:rainbow_caterpillar",
+   "name_en": "Rainbow Caterpillar",
+   "name_zh": "彩虹蝶毛虫",
+   "description_zh": "成虫彩虹蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林、平原。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:rainbow_chrysalis",
+   "name_en": "Rainbow Chrysalis",
+   "name_zh": "彩虹蝶蛹",
+   "description_zh": "成虫彩虹蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫彩虹蝶；栖息地：森林、平原。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:shepherd",
+   "name_en": "Shepherd",
+   "name_zh": "",
+   "description_zh": "Shepherd，模组为村民职业注册的实体（Shepherd），用于配合鳞翅目学家与新交易系统；没有独立的生物设定，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.3,
+   "notes": "仅 jar 语言文件中的实体条目，模组正文未单独说明。"
+  },
+  {
+   "mob_id": "butterflies:smile",
+   "name_en": "Smile Butterfly",
+   "name_zh": "",
+   "description_zh": "Smile Butterfly，蝴蝶，常见于森林，白天活动，体型中等、飞行速度中等，成虫寿命短。以矢车菊为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。特性：不怕玩家。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:smile_caterpillar",
+   "name_en": "Smile Caterpillar",
+   "name_zh": "",
+   "description_zh": "成虫Smile Butterfly的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:smile_chrysalis",
+   "name_en": "Smile Chrysalis",
+   "name_zh": "",
+   "description_zh": "成虫Smile Butterfly的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫Smile Butterfly；栖息地：森林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:spongy_chrysalis",
+   "name_en": "Spongy Cocoon",
+   "name_zh": "舞毒蛾茧",
+   "description_zh": "成虫雌性舞毒蛾的茧，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫雌性舞毒蛾；栖息地：森林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:spongymale_chrysalis",
+   "name_en": "Spongy Cocoon",
+   "name_zh": "舞毒蛾茧",
+   "description_zh": "成虫雄性舞毒蛾的茧，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫雄性舞毒蛾；栖息地：森林。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:spongy_caterpillar",
+   "name_en": "Spongy Larva",
+   "name_zh": "舞毒蛾幼虫",
+   "description_zh": "成虫雌性舞毒蛾的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林。长成后会在树叶上结茧。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:spongymale_caterpillar",
+   "name_en": "Spongy Larva",
+   "name_zh": "舞毒蛾幼虫",
+   "description_zh": "成虫雄性舞毒蛾的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：森林。长成后会在树叶上结茧。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:spongy",
+   "name_en": "Spongy Moth (Female)",
+   "name_zh": "雌性舞毒蛾",
+   "description_zh": "雌性舞毒蛾（Spongy Moth (Female)），蛾类，常见于森林，晨昏活动，体型中等、飞行速度中等，成虫寿命短。以橙色郁金香花苞为主要蜜源，会把花朵吃掉。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:spongymale",
+   "name_en": "Spongy Moth (Male)",
+   "name_zh": "雄性舞毒蛾",
+   "description_zh": "雄性舞毒蛾（Spongy Moth (Male)），蛾类，常见于森林，夜间活动，体型小、飞行速度中等，成虫寿命长。以橙色郁金香花苞为主要蜜源，会把花朵吃掉。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:swallowtail",
+   "name_en": "Swallowtail Butterfly",
+   "name_zh": "燕尾蝶",
+   "description_zh": "燕尾蝶（Swallowtail Butterfly），蝴蝶，常见于平原，白天活动，体型巨大、飞行速度中等，成虫寿命短。以蓝花美耳草为主要蜜源，取食时会为花朵授粉，帮助花朵增殖。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:swallowtail_caterpillar",
+   "name_en": "Swallowtail Caterpillar",
+   "name_zh": "燕尾蝶毛虫",
+   "description_zh": "成虫燕尾蝶的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：平原。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:swallowtail_chrysalis",
+   "name_en": "Swallowtail Chrysalis",
+   "name_zh": "燕尾蝶蛹",
+   "description_zh": "成虫燕尾蝶的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫燕尾蝶；栖息地：平原。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:toolsmith",
+   "name_en": "Toolsmith",
+   "name_zh": "",
+   "description_zh": "Toolsmith，模组为村民职业注册的实体（Toolsmith），用于配合鳞翅目学家与新交易系统；没有独立的生物设定，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.3,
+   "notes": "仅 jar 语言文件中的实体条目，模组正文未单独说明。"
+  },
+  {
+   "mob_id": "butterflies:peacemaker_villager",
+   "name_en": "Villager",
+   "name_zh": "",
+   "description_zh": "被和平使者蝶寄生的 Villager，外观仍是原版生物，但已受和平使者控制；村民、流浪商人与灾厄村民都按 possession_chance 配置的概率带着它生成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.8,
+   "notes": "模组正文 Peacemaker Butterflies 一节与配置项说明。"
+  },
+  {
+   "mob_id": "butterflies:none",
+   "name_en": "Villager",
+   "name_zh": "",
+   "description_zh": "模组注册的无职业村民实体（Villager），用于村民相关逻辑，没有独立的行为说明，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.3,
+   "notes": "仅 jar 语言文件中的实体条目。"
+  },
+  {
+   "mob_id": "butterflies:peacemaker_vindicator",
+   "name_en": "Vindicator",
+   "name_zh": "",
+   "description_zh": "被和平使者蝶寄生的 Vindicator，外观仍是原版生物，但已受和平使者控制；村民、流浪商人与灾厄村民都按 possession_chance 配置的概率带着它生成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.8,
+   "notes": "模组正文 Peacemaker Butterflies 一节与配置项说明。"
+  },
+  {
+   "mob_id": "butterflies:peacemaker_wandering_trader",
+   "name_en": "Wandering Trader",
+   "name_zh": "",
+   "description_zh": "被和平使者蝶寄生的 Wandering Trader，外观仍是原版生物，但已受和平使者控制；村民、流浪商人与灾厄村民都按 possession_chance 配置的概率带着它生成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.8,
+   "notes": "模组正文 Peacemaker Butterflies 一节与配置项说明。"
+  },
+  {
+   "mob_id": "butterflies:weaponsmith",
+   "name_en": "Weaponsmith",
+   "name_zh": "",
+   "description_zh": "Weaponsmith，模组为村民职业注册的实体（Weaponsmith），用于配合鳞翅目学家与新交易系统；没有独立的生物设定，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.3,
+   "notes": "仅 jar 语言文件中的实体条目，模组正文未单独说明。"
+  },
+  {
+   "mob_id": "butterflies:white-lined-sphinx_chrysalis",
+   "name_en": "White-Lined Sphinx Cocoon",
+   "name_zh": "",
+   "description_zh": "成虫White-Lined Sphinx Moth的茧，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫White-Lined Sphinx Moth；栖息地：平原。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:white-lined-sphinx_caterpillar",
+   "name_en": "White-Lined Sphinx Larva",
+   "name_zh": "",
+   "description_zh": "成虫White-Lined Sphinx Moth的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：平原。长成后会在树叶上结茧。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:white-lined-sphinx",
+   "name_en": "White-Lined Sphinx Moth",
+   "name_zh": "",
+   "description_zh": "White-Lined Sphinx Moth，蛾类，常见于平原，夜间活动，体型中等、飞行速度中等，成虫寿命短。以蓝花美耳草为主要蜜源，会把花朵吃掉。特性：像蜂鸟一样悬停吸蜜。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:obsidian",
+   "name_en": "Ītzpāpālōtl",
+   "name_zh": "",
+   "description_zh": "Ītzpāpālōtl，特殊蝶类，常见于末地，昼夜均可活动，体型巨大、飞行速度中等，成虫寿命不朽。特性：外壳坚硬。模组中的蝶类会把卵产在树叶上，毛虫只吃树叶、落到其他方块上会饿死，结蛹后羽化为新成虫；成虫可用捕虫网捕捉，装瓶或钉成标本。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.75,
+   "notes": "物种数据取自 jar 的 butterfly_data（栖息地/蜜源/寿命），通用行为取自模组正文。"
+  },
+  {
+   "mob_id": "butterflies:obsidian_caterpillar",
+   "name_en": "Ītzpāpālōtl Caterpillar",
+   "name_zh": "",
+   "description_zh": "成虫Ītzpāpālōtl的毛虫阶段。只吃树叶，离开树叶会饿死，玩家可以把它捡起搬到别的树叶上；栖息地：末地。长成后会在树叶上结蛹。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "毛虫行为取自模组正文 Caterpillars 一节；栖息地取自 jar 的 butterfly_data。"
+  },
+  {
+   "mob_id": "butterflies:obsidian_chrysalis",
+   "name_en": "Ītzpāpālōtl Chrysalis",
+   "name_zh": "",
+   "description_zh": "成虫Ītzpāpālōtl的蛹，由毛虫在树叶上结成。玩家无法移动它，一段时间后会羽化为成虫Ītzpāpālōtl；栖息地：末地。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/boks-butterflies",
+   "confidence": 0.7,
+   "notes": "蛹的行为取自模组正文 Chrysalises/Silk 一节；栖息地取自 jar 的 butterfly_data。"
+  }
+ ]
+}

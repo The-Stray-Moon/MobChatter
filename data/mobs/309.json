@@ -1,0 +1,67 @@
+{
+  "rank": 309,
+  "mod": "Antlers of Hunger",
+  "mod_url": "https://modrinth.com/mod/antlers-of-hunger",
+  "mobs": [
+    {
+      "mob_id": "antlers_of_hunger:wendigo",
+      "name_en": "Wendigo",
+      "name_zh": "",
+      "description_zh": "2021 年电影《鹿角》(Antlers) 中的温迪戈，也是本模组唯一的生物：玩家进入世界后不久它便会苏醒，在森林里自行游荡，并用远处的嘶吼与尖啸宣告存在。它会远距离跟踪玩家、偷食动物，靠近后暴力冲锋；攻击无法被盾牌或护甲挡下，挥动手臂还能破坏方块，速度极快、几乎无法逃脱。击杀需要猎刀配合可短暂晃瞎它的信号弹，死亡后依次进入倒地与心脏燃烧阶段，最终掉落温迪戈之心；jar 中主体生命值 1000、移动速度 0.5、击退抗性 1000，攻击伤害由脚本处理（基础值 0）。",
+      "source": "mod_body",
+      "source_url": "https://modrinth.com/mod/antlers-of-hunger",
+      "confidence": 0.9,
+      "notes": "行为出自模组正文；生命值/移速/击退抗性/攻击伤害由 jar 中 WendigoEntity.createAttributes 字节码核实（MCreator 属性注册）；lang 无 zh_cn，中文名留空；jar 为 VIBRANT 皮肤版，另有 MOVIE 皮肤构建。"
+    },
+    {
+      "mob_id": "antlers_of_hunger:wendigodistant",
+      "name_en": "Wendigo",
+      "name_zh": "",
+      "description_zh": "温迪戈的远距离形态，由模组刷怪系统生成在玩家周围的远处，用来营造“林子里有东西在看着你”的氛围：它会独自徘徊、远远注视玩家，偶尔猎食动物并发出嘶吼（字幕：温迪戈在远处游荡／温迪戈在远处吃掉动物）。jar 中该实体生命值 1000、攻击伤害 100、移动速度 0.5，并有同名刷怪蛋。",
+      "source": "mod_body",
+      "source_url": "https://modrinth.com/mod/antlers-of-hunger",
+      "confidence": 0.8,
+      "notes": "远距离跟踪/注视/捕食出自模组正文，状态细节来自 en_us.json 字幕与 SpawnWendigoProcedure（生成 WENDIGODISTANT）；属性由字节码核实。"
+    },
+    {
+      "mob_id": "antlers_of_hunger:wendigo_ramming",
+      "name_en": "Wendigo",
+      "name_zh": "",
+      "description_zh": "温迪戈发起冲撞时的独立形态：先蓄力逼近（字幕“温迪戈逼近”），再撞中玩家造成伤害（“温迪戈撞击玩家”），是战斗中最具压迫感的阶段。jar 中该形态生命值 300，冲锋流程引用了 wendigo_breakable_active 方块标签来判定沿途可破坏的方块，并有同名刷怪蛋。",
+      "source": "mod_body",
+      "source_url": "https://modrinth.com/mod/antlers-of-hunger",
+      "confidence": 0.75,
+      "notes": "“暴力冲锋”出自模组正文；撞击音效与方块标签来自 jar 内 RammingProcedure 与 en_us.json；生命值来自 createAttributes 字节码。"
+    },
+    {
+      "mob_id": "antlers_of_hunger:wendigo_retreat",
+      "name_en": "Wendigo",
+      "name_zh": "",
+      "description_zh": "温迪戈被信号弹吓退时切换的逃跑形态：会播放“温迪戈害怕信号弹”“温迪戈逃跑”的音效，随后高速穿过灌木撤离，让玩家获得拉开距离或补刀的机会。jar 中该形态生命值 300，并有同名刷怪蛋。",
+      "source": "mod_body",
+      "source_url": "https://modrinth.com/mod/antlers-of-hunger",
+      "confidence": 0.75,
+      "notes": "“信号弹可短暂晃瞎它”出自模组正文；撤退音效来自 en_us.json 与 WendigoRetreatOnInitialEntitySpawnProcedure，生命值来自字节码。"
+    },
+    {
+      "mob_id": "antlers_of_hunger:wendigo_downed",
+      "name_en": "Wendigo",
+      "name_zh": "",
+      "description_zh": "温迪戈主形态被击杀后原地生成的倒地形态：先伏在地上挣扎（字幕“温迪戈挣扎”），随后起身并撕下面具（“温迪戈起身”“温迪戈撕下面具”）。再次击杀这个生命值 300 的形态后，死亡流程才进入心脏燃烧阶段；该实体有独立刷怪蛋。",
+      "source": "mod_body",
+      "source_url": "https://modrinth.com/mod/antlers-of-hunger",
+      "confidence": 0.8,
+      "notes": "模组正文未直接描述此阶段；生成关系由 WendigoEntityDiesProcedure（死亡时生成 WENDIGO_DOWNED）与 WendigoDownedEntityDiesProcedure（再生成 WENDIGO_HEART_BURNING）字节码核实，台词来自 en_us.json 字幕。"
+    },
+    {
+      "mob_id": "antlers_of_hunger:wendigo_heart_burning",
+      "name_en": "Heart of the Wendigo",
+      "name_zh": "",
+      "description_zh": "温迪戈死亡流程的最后一环：由倒地形态死亡后生成的燃烧心脏，播放“温迪戈之心掉落”音效，并向玩家掉落温迪戈之心物品、授予“A Force Forever Banished...”进度。jar 中该实体生命值 1000、移动速度 0.3，并有同名刷怪蛋。",
+      "source": "mod_body",
+      "source_url": "https://modrinth.com/mod/antlers-of-hunger",
+      "confidence": 0.8,
+      "notes": "掉落与进度由 WendigoHeartBurningOnInitialEntitySpawnProcedure 字节码核实（生成 wendigo_heart ItemEntity、授予 a_force_forever_banished）；属性来自 createAttributes。"
+    }
+  ]
+}

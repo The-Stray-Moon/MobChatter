@@ -1,0 +1,1227 @@
+{
+ "rank": 261,
+ "mod": "Foolish",
+ "mod_url": "https://modrinth.com/mod/foolish",
+ "mobs": [
+  {
+   "mob_id": "foolish:abstractt",
+   "name_en": "Abstract",
+   "name_zh": "",
+   "description_zh": "Abstract 是末地高地出没的中立生物，身形与玩家相仿（约 1×1.9 格），拥有 40 点生命、6 点攻击力与 20 点护甲，移动缓慢。它不会主动招惹玩家，但受到攻击后会发起反击。自然生成权重 6，每群 4–8 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:ambler",
+   "name_en": "Ambler",
+   "name_zh": "",
+   "description_zh": "Ambler 是 Overgrowth 的温和巨型生物（正文称其为 gentle giant），每次以 4 只成群生成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.8,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:ambush",
+   "name_en": "Ambush",
+   "name_zh": "",
+   "description_zh": "Ambush 栖息在热带草原，是敌对生物，体型小巧（约 0.6×0.8 格），拥有 28 点生命、4 点攻击力与 10 点护甲，身手敏捷。它会主动锁定玩家并发起近身攻击。自然生成权重 10，每群 4 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:berserker",
+   "name_en": "Berserker",
+   "name_zh": "",
+   "description_zh": "Berserker 是 Storm Jungle 中极其敏捷的雷电灵长类，是该群系的敌对居民，以 3–7 只成群生成。模组正文提示，敢于攻下它们建筑结构的玩家能获得丰厚奖励。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.85,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:berserker_leader",
+   "name_en": "Berserker Leader",
+   "name_zh": "",
+   "description_zh": "Berserker 族群的首领个体。正文称 Berserker 是 Storm Jungle 中敏捷的雷电灵长类，属敌对居民，攻破它们的结构后有丰厚奖励。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:berserker_shaman",
+   "name_en": "Berserker Shaman",
+   "name_zh": "",
+   "description_zh": "Berserker 族群中的 Shaman 个体。正文称 Berserker 是 Storm Jungle 中敏捷的雷电灵长类，属敌对居民，攻破它们的结构后有丰厚奖励。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:blimp",
+   "name_en": "Blimp",
+   "name_zh": "",
+   "description_zh": "Blimp 栖息在下界荒地，是敌对生物，体型小巧（约 0.6×0.6 格），拥有 10 点生命与 6 点攻击力，移动速度普通。它会主动锁定玩家并发起近身攻击，平时在空中飞行。自然生成权重 5，每群 1 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:bloatbird",
+   "name_en": "Bloatbird",
+   "name_zh": "",
+   "description_zh": "Bloatbird 是 Wasteland、Irradiated Undergrowth 出没的敌对生物，体型中等（约 0.6×1.6 格），拥有 18 点生命与 6 点攻击力，移动速度普通。它会主动锁定玩家并发起近身攻击，攻击时还会跃起扑击。自然生成权重 6，每群 2–6 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:bloodsucker",
+   "name_en": "Bloodlet Mosquito",
+   "name_zh": "",
+   "description_zh": "Bloodlet Mosquito 是红树林沼泽、沼泽的敌对生物，体型中等（约 1.2×1.2 格），拥有 40 点生命、4 点攻击力与 6 点护甲，移动速度普通。它会主动锁定玩家并发起近身攻击，平时在空中飞行。自然生成权重 1，每群 1 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:brander",
+   "name_en": "Brander",
+   "name_zh": "",
+   "description_zh": "Brander 是 Ashen Woods 的生物，玩家常为取它的角而猎杀它；被骚扰或靠得太近时，它会把人甩开。该群系的生物大多保持中立。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.8,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:brutalfish",
+   "name_en": "Brutalfish",
+   "name_zh": "",
+   "description_zh": "Brutalfish 是 Miserable Mire 的中立生物，体型宽大（约 2.4×1.5 格），拥有 60 点生命与 20 点护甲，近战伤害为 0，移动速度普通。它不会主动招惹玩家，但受到攻击后会发起反击，也会下水游动。自然生成权重 1，每群 1 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:bunyip",
+   "name_en": "Bunyip",
+   "name_zh": "",
+   "description_zh": "Bunyip 是 Foolish 模组中的敌对生物，身形高大（约 3×3 格），拥有 180 点生命、5 点攻击力与 8 点护甲，移动速度普通。它会主动锁定玩家并发起近身攻击。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现，击杀后可能掉落 Bunyip Fur。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、死亡过程掉落）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:buzzket",
+   "name_en": "Buzzket",
+   "name_zh": "",
+   "description_zh": "Buzzket 是 Storm Jungle 中的小型蟋蟀状生物，血量不高，但会用麻痹反击任何攻击它的目标。它可以用 Lightning Reeds 驯服，不过驯服后不会跟随玩家；该群系中权重 60、以 4 只成群生成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.85,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:chimera",
+   "name_en": "Chimera",
+   "name_zh": "",
+   "description_zh": "Chimera 是 Foolish 模组中的敌对生物，身形瘦高（约 1.3×2.3 格），拥有 200 点生命、6 点攻击力与 4 点护甲，移动速度普通。它会主动锁定玩家并发起近身攻击。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:chinchilla",
+   "name_en": "Chinchilla",
+   "name_zh": "",
+   "description_zh": "Chinchilla 栖息在裸岩山峰，是被动生物，体型小巧（约 1×0.5 格），拥有 10 点生命与 3 点攻击力，移动速度普通。它性情温和，受惊时会四处逃窜，会被特定食物吸引。自然生成权重 20，每群 4 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:clencher",
+   "name_en": "Clencher",
+   "name_zh": "",
+   "description_zh": "Clencher 栖息在 Sacilite Canyon，是敌对生物，身形与玩家相仿（约 1.2×2 格），拥有 30 点生命、6 点攻击力与 10 点护甲，移动缓慢。它会主动锁定玩家并发起近身攻击。自然生成权重 20，每群 1–3 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:corroach",
+   "name_en": "Corroach",
+   "name_zh": "",
+   "description_zh": "Corroach 是 Wasteland 出没的敌对生物，体型小巧（约 0.6×0.4 格），拥有 8 点生命、4 点攻击力与 10 点护甲，移动速度普通。它会主动锁定玩家并发起近身攻击，受惊时会四处逃窜。自然生成权重 10，每群 3–4 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:corrodiator",
+   "name_en": "Corrodiator",
+   "name_zh": "",
+   "description_zh": "Corrodiator 是荒原（foolish:wasteland）中吵闹的飞行生物，躯体由液态镭构成。荒原是圣辉空洞中唯一能见到 Radium 及其液态形态的群系，接触液态镭会受伤、腐蚀盔甲并被拖入其中。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.85,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:deactivated_inferon",
+   "name_en": "Deactivated Inferon",
+   "name_zh": "",
+   "description_zh": "Deactivated Inferon 是 Foolish 模组中的特殊生物，身形瘦高（约 0.6×1.8 格），拥有 30 点生命、7 点攻击力与 20 点护甲，移动速度普通。它没有任何 AI 目标，像停摆的机关一样不会主动行动。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现，击杀后可能掉落 Infernal Alloy Ingot、Infernal Alloy Plate。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.5,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、死亡过程掉落）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:deactivated_infiltrator",
+   "name_en": "Deactivated Infiltrator",
+   "name_zh": "",
+   "description_zh": "Deactivated Infiltrator 属于 Foolish 模组的特殊生物，身形高大（约 2×3 格），拥有 80 点生命、13 点攻击力与 40 点护甲，移动缓慢。它没有攻击意图，行动也比较呆板。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现，击杀后可能掉落 Infernal Alloy Ingot、Infernal Alloy Plate。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、死亡过程掉落）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:deactivated_infercer",
+   "name_en": "Deactivated Inforcer",
+   "name_zh": "",
+   "description_zh": "Deactivated Inforcer 是 Foolish 模组中的特殊生物，身形瘦高（约 1.2×2.8 格），拥有 30 点生命、9 点攻击力与 40 点护甲，移动缓慢。它没有任何 AI 目标，像停摆的机关一样不会主动行动。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现，击杀后可能掉落 Infernal Alloy Ingot、Infernal Alloy Plate。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.5,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、死亡过程掉落）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:departed",
+   "name_en": "Departed",
+   "name_zh": "",
+   "description_zh": "Departed 是 Mourner 的亡者对应体，生成在 Somber Forest（圣辉空洞中已彻底死去的群系），以 5–8 只成群出现。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.75,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:depthsplitter",
+   "name_en": "Depthsplitter",
+   "name_zh": "",
+   "description_zh": "Depthsplitter 是深海、冷水海洋、寒冷深海等群系出没的敌对生物，体型宽大（约 3×1.5 格），拥有 100 点生命、7 点攻击力与 10 点护甲，移动速度普通。它会主动锁定玩家并发起近身攻击，也会下水游动。自然生成权重 3，每群 1 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:dusk",
+   "name_en": "Dusk",
+   "name_zh": "",
+   "description_zh": "Dusk 栖息在黑森林、繁茂洞穴，是中立生物，体型小巧（约 0.7×0.7 格），拥有 15 点生命与 3 点攻击力，移动速度普通。它不会主动招惹玩家，但受到攻击后会发起反击，攻击时还会跃起扑击，平时在空中飞行。自然生成权重 3，每群 1 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:dweller",
+   "name_en": "Dweller",
+   "name_zh": "",
+   "description_zh": "Dweller 是主世界多种群系出没的敌对生物，身形与玩家相仿（约 2×1.9 格），拥有 65 点生命、5 点攻击力与 10 点护甲，移动缓慢。它会主动锁定玩家并发起近身攻击。自然生成权重 2，每群 1 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:eldritch_sentry",
+   "name_en": "Eldritch Sentry",
+   "name_zh": "",
+   "description_zh": "Eldritch Sentry 是 Foolish 模组中的中立生物，体型中等（约 0.4×1.4 格），拥有 5 点生命与 40 点护甲，近战伤害为 0，完全无法移动。它会用远程攻击射击靠近的怪物。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:eal",
+   "name_en": "Electric Eel",
+   "name_zh": "",
+   "description_zh": "Electric Eel 是 Storm Jungle 出没的敌对生物，体型小巧（约 0.8×0.6 格），拥有 15 点生命与 1 点攻击力，身手敏捷。它会主动锁定玩家并发起近身攻击，也会下水游动。自然生成权重 1，每群 4 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:grasshatch",
+   "name_en": "Ember Scuttler",
+   "name_zh": "",
+   "description_zh": "Ember Scuttler 是 Emberlight Valley 的敌对生物，体型小巧（约 0.6×0.8 格），拥有 8 点生命、1 点攻击力与 5 点护甲，移动速度普通。它会主动锁定玩家并发起近身攻击，受惊时会四处逃窜。自然生成权重 10，每群 1–2 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:emberfly",
+   "name_en": "Emberfly",
+   "name_zh": "",
+   "description_zh": "Emberfly 栖息在 Ashen Valley、Ashen Woods，是被动生物，体型小巧（约 0.6×0.5 格），拥有 5 点生命与 3 点攻击力，移动速度普通。它性情温和，受惊时会四处逃窜，平时在空中飞行。自然生成权重 80，每群 4 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:end_knight",
+   "name_en": "End Knight",
+   "name_zh": "",
+   "description_zh": "End Knight 是末地荒地的敌对生物，身形高大（约 1.5×4 格），拥有 200 点生命与 14 点护甲，近战伤害为 0，移动缓慢。它会主动锁定玩家，并以特殊手段进攻。自然生成权重 1，每群 1 只，击杀后可能掉落 Keepsteel Ingot。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置、死亡过程掉落）"
+  },
+  {
+   "mob_id": "foolish:enderoller",
+   "name_en": "Enderoller",
+   "name_zh": "",
+   "description_zh": "Enderoller 是末地高地出没的敌对生物，体型中等（约 0.6×1 格），拥有 12 点生命与 3 点攻击力，身手敏捷。它会主动锁定玩家并发起近身攻击。自然生成权重 4，每群 4 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:enderoller_alpha",
+   "name_en": "Enderoller Alpha",
+   "name_zh": "",
+   "description_zh": "Enderoller Alpha 属于 Foolish 模组的敌对生物，身形瘦高（约 1.3×2.4 格），拥有 130 点生命、6 点攻击力与 14 点护甲，身手敏捷。它会主动锁定玩家并发起近身攻击。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:enderweaver",
+   "name_en": "Enderweaver",
+   "name_zh": "",
+   "description_zh": "Enderweaver 是末地高地的敌对生物，身形瘦高（约 0.6×1.8 格），拥有 20 点生命与 5 点攻击力，移动速度普通。它会主动锁定玩家并发起近身攻击。自然生成权重 1，每群 1 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:ettin",
+   "name_en": "Ettin",
+   "name_zh": "",
+   "description_zh": "Ettin 栖息在溶洞、积雪的平原，是敌对生物，身形高大（约 1×3 格），拥有 80 点生命、6 点攻击力与 6 点护甲，移动缓慢。它会主动锁定玩家并发起近身攻击。自然生成权重 4，每群 1 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:excavore",
+   "name_en": "Excavore",
+   "name_zh": "",
+   "description_zh": "Excavore 是 Foolish 模组中的中立生物，体型宽大（约 7.5×2.3 格），拥有 120 点生命、12 点攻击力与 4 点护甲，移动缓慢。它不会主动招惹玩家，但受到攻击后会发起反击。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:flare",
+   "name_en": "Flare",
+   "name_zh": "",
+   "description_zh": "Flare 栖息在 Ashen Valley、Ashen Woods，是敌对生物，体型中等（约 1.4×1.2 格），拥有 25 点生命与 6 点攻击力，移动速度普通。它会主动锁定玩家并发起近身攻击。自然生成权重 30，每群 1–2 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:flickerlong",
+   "name_en": "Flickerlong",
+   "name_zh": "",
+   "description_zh": "Flickerlong 是 Foolish 模组中的敌对生物，身形瘦高（约 1×2.6 格），拥有 160 点生命、2 点攻击力与 6 点护甲，移动缓慢。它会主动锁定玩家，近身时挥击、拉开距离则用远程攻击，平时在空中飞行。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:florauder",
+   "name_en": "Florauder",
+   "name_zh": "",
+   "description_zh": "Florauder 是 Foolish 模组中的可驯服生物，身形与玩家相仿（约 2.4×2.7 格），拥有 160 点生命、7 点攻击力与 8 点护甲，移动速度普通。它不会主动招惹玩家，但受到攻击后会发起反击，还能被驯服，驯服后会跟随主人并替主人迎战。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:florin",
+   "name_en": "Florin",
+   "name_zh": "",
+   "description_zh": "Florin 是 Overgrowth 的主要生物，外形像兔子，会主动保卫该群系、驱赶敌对生物。对它使用骨粉可能让它掉落种子，玩家可以借此组建自己的 Florin 大军。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.85,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:fortified_blunthead",
+   "name_en": "Fortified Blunthead",
+   "name_zh": "",
+   "description_zh": "Fortified Blunthead 是玄武岩三角洲、下界荒地、Emberlight Valley 的中立生物，体型宽大（约 2.1×0.9 格），拥有 60 点生命、16 点攻击力与 10 点护甲，移动缓慢。它不会主动招惹玩家，但受到攻击后会发起反击，受惊时会四处逃窜，也会下水游动。自然生成权重 10，每群 2–8 只，击杀后可能掉落 Blunt Metal Scrap。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置、死亡过程掉落）"
+  },
+  {
+   "mob_id": "foolish:fruitling",
+   "name_en": "Fruitling",
+   "name_zh": "",
+   "description_zh": "Fruitling 是 Overgrowth 的小型被动生物，据正文共有 6 种口味，其中一种非常稀有，每种会带来不同的效果。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.8,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:gaia_flower",
+   "name_en": "Gaia Flower",
+   "name_zh": "",
+   "description_zh": "Gaia Flower 是 Foolish 模组中的特殊生物，体型中等（约 0.3×1 格），拥有 20 点生命与 10 点攻击力，完全无法移动。它没有任何 AI 目标，像停摆的机关一样不会主动行动。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.5,
+   "notes": "据 jar 源码与数据文件整理（createAttributes）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:gemstal",
+   "name_en": "Gemstal",
+   "name_zh": "",
+   "description_zh": "Gemstal 栖息在 Sacilite Bloom，是敌对生物，体型小巧（约 1×0.6 格），拥有 10 点生命与 5 点攻击力，移动速度普通。它会主动锁定玩家并发起近身攻击。自然生成权重 3，每群 4 只，击杀后可能掉落 Music Disc、Azure Sacilite Lens、Rose Sacilite Lens、Shining Sacilite Lens。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置、死亡过程掉落）"
+  },
+  {
+   "mob_id": "foolish:gemstalline",
+   "name_en": "Gemstalline",
+   "name_zh": "",
+   "description_zh": "Gemstalline 是 Foolish 模组中的敌对生物，体型宽大（约 3×1.8 格），拥有 175 点生命、6 点攻击力与 4 点护甲，移动缓慢。它会主动锁定玩家并发起近身攻击。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:giant_isopod",
+   "name_en": "Giant Isopod",
+   "name_zh": "",
+   "description_zh": "Giant Isopod 栖息在深海，是中立生物，体型小巧（约 1×0.5 格），拥有 8 点生命、3 点攻击力与 8 点护甲，移动缓慢。它不会主动招惹玩家，但受到攻击后会发起反击，也会下水游动。自然生成权重 10，每群 4 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:gillie",
+   "name_en": "Gillie",
+   "name_zh": "",
+   "description_zh": "Gillie 是 Miserable Mire 出没的敌对生物，体型中等（约 1.3×1 格），拥有 30 点生命与 3 点攻击力，移动速度普通。它会主动锁定玩家并发起近身攻击。自然生成权重 1，每群 1 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:glowwyrm",
+   "name_en": "Glowwyrm",
+   "name_zh": "",
+   "description_zh": "Glowwyrm 是 Darkleaf Woods 出没的中立生物，体型中等（约 1.5×1.2 格），拥有 35 点生命与 5 点攻击力，移动速度普通。它不会主动招惹玩家，但受到攻击后会发起反击，攻击时还会跃起扑击。自然生成权重 1，每群 4 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:gouger",
+   "name_en": "Gouger",
+   "name_zh": "",
+   "description_zh": "Gouger 是灵魂沙峡谷、下界荒地出没的敌对生物，身形高大（约 1×3 格），拥有 30 点生命、5 点攻击力与 4 点护甲，移动速度普通。它会主动锁定玩家并发起近身攻击。自然生成权重 1，每群 1 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:great_keenark",
+   "name_en": "Great Keenark",
+   "name_zh": "",
+   "description_zh": "Great Keenark 是主世界多种群系的中立生物，身形瘦高（约 0.9×2.3 格），拥有 70 点生命与 8 点攻击力，移动速度普通。它不会主动招惹玩家，但受到攻击后会发起反击。自然生成权重 2，每群 1 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:gurgle",
+   "name_en": "Gurgle",
+   "name_zh": "",
+   "description_zh": "Gurgle 栖息在玄武岩三角洲、下界荒地、Emberlight Valley，是敌对生物，体型中等（约 1×1.4 格），拥有 30 点生命、3 点攻击力与 20 点护甲，移动缓慢。它会主动锁定玩家并发起近身攻击。自然生成权重 10，每群 4 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:hellbeak",
+   "name_en": "Hellbeak",
+   "name_zh": "",
+   "description_zh": "Hellbeak 栖息在下界荒地，是敌对生物，体型中等（约 0.6×1.5 格），拥有 18 点生命与 3 点攻击力，移动速度普通。它会主动锁定玩家并发起近身攻击，攻击时还会跃起扑击，受惊时会四处逃窜。自然生成权重 5，每群 4 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:hellish_skull",
+   "name_en": "Hellish Skull",
+   "name_zh": "",
+   "description_zh": "Hellish Skull 属于 Foolish 模组的中立生物，体型小巧（约 0.4×0.7 格），拥有 3 点生命，近战伤害为 0，移动缓慢。它不会主动招惹玩家，但受到攻击后会发起反击，受惊时会四处逃窜，平时在空中飞行。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:horrendon",
+   "name_en": "Horrendon",
+   "name_zh": "",
+   "description_zh": "Horrendon 是 Miserable Mire 部分被水淹没的区域里成群出没（1–4 只）的可怕生物。该群系几乎所有生物都会见人就攻击。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.8,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:hyperborean",
+   "name_en": "Hyperborean",
+   "name_zh": "",
+   "description_zh": "Hyperborean 是 Foolish 模组中的可驯服生物，身形高大（约 0.8×3.6 格），拥有 60 点生命、7 点攻击力与 4 点护甲，移动速度普通。它不会主动招惹玩家，但受到攻击后会发起反击，还能被驯服，驯服后会跟随主人并替主人迎战。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:hyve",
+   "name_en": "Hyve",
+   "name_zh": "",
+   "description_zh": "Hyve 是主世界多种群系的敌对生物，身形与玩家相仿（约 1×2 格），拥有 40 点生命、6 点攻击力与 10 点护甲，移动缓慢。它会主动锁定玩家并发起近身攻击。自然生成权重 2，每群 1 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:imp",
+   "name_en": "Imp",
+   "name_zh": "",
+   "description_zh": "Imp 是绯红森林的敌对生物，体型中等（约 0.6×1.4 格），拥有 16 点生命与 6 点攻击力，移动速度普通。它会主动锁定玩家并发起近身攻击，平时在空中飞行。自然生成权重 8，每群 1 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:inferon",
+   "name_en": "Inferon",
+   "name_zh": "",
+   "description_zh": "Inferon 是 Foolish 模组中的敌对生物，身形瘦高（约 0.6×1.8 格），拥有 30 点生命、7 点攻击力与 20 点护甲，移动速度普通。它会主动锁定玩家并发起近身攻击。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现，击杀后可能掉落 Infernal Alloy Ingot、Infernal Alloy Plate。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、死亡过程掉落）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:infiltrator",
+   "name_en": "Infiltrator",
+   "name_zh": "",
+   "description_zh": "Infiltrator 是 Foolish 模组中的中立生物，身形高大（约 2×3 格），拥有 80 点生命、13 点攻击力与 40 点护甲，移动缓慢。它不会主动招惹玩家，但受到攻击后会发起反击，会被特定食物吸引。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现，击杀后可能掉落 Infernal Alloy Ingot、Infernal Alloy Plate。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、死亡过程掉落）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:infercer",
+   "name_en": "Inforcer",
+   "name_zh": "",
+   "description_zh": "Inforcer 属于 Foolish 模组的敌对生物，身形瘦高（约 1.2×2.8 格），拥有 30 点生命与 40 点护甲，近战伤害为 0，移动缓慢。它会主动锁定玩家，并以特殊手段进攻。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现，击杀后可能掉落 Infernal Alloy Ingot、Infernal Alloy Plate。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、死亡过程掉落）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:kappa",
+   "name_en": "Kappa",
+   "name_zh": "",
+   "description_zh": "Kappa 是 Miserable Mire 的统治者，几乎清剿了群系里的其它生物，以 1–2 只生成。该群系的一切生物都会见人就攻击。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.85,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:kappa_fanner",
+   "name_en": "Kappa",
+   "name_zh": "",
+   "description_zh": "Kappa 的持扇个体（Kappa Fanner）。正文称 Kappa 是 Miserable Mire 的统治者，该群系所有生物都会见人就攻击。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:spear_kappa",
+   "name_en": "Kappa",
+   "name_zh": "",
+   "description_zh": "Kappa 的持矛个体（Spear Kappa），在 Miserable Mire 以 1–2 只生成；正文称 Kappa 统治该群系且见人就攻击。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:kaptain",
+   "name_en": "Kaptain",
+   "name_zh": "",
+   "description_zh": "Kaptain 是 Foolish 模组中的敌对生物，体型中等（约 1×1.4 格），拥有 60 点生命、15 点攻击力与 20 点护甲，移动缓慢。它会主动锁定玩家并发起近身攻击，也会下水游动。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现，击杀后可能掉落 Kappa Scute、Cooked Kaptain Belly、Raw Kaptain Belly。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、死亡过程掉落）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:keenark",
+   "name_en": "Keenark",
+   "name_zh": "",
+   "description_zh": "Keenark 是主世界多种群系的中立生物，体型小巧（约 0.7×0.9 格），拥有 16 点生命与 2 点攻击力，移动速度普通。它不会主动招惹玩家，但受到攻击后会发起反击。自然生成权重 50，每群 4 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:kiwi",
+   "name_en": "Kiwi",
+   "name_zh": "",
+   "description_zh": "Kiwi 是稀疏丛林出没的被动生物，体型小巧（约 0.4×0.7 格），拥有 6 点生命与 3 点攻击力，移动速度普通。它性情温和，受惊时会四处逃窜，察觉玩家靠近便会躲开。自然生成权重 4，每群 4 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:leafid",
+   "name_en": "Leafid",
+   "name_zh": "",
+   "description_zh": "Leafid 是 Overgrowth 群系中极小的叶虫状生物，与当地枝叶混为一体，以 4–10 只成群生成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.8,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:lumishell",
+   "name_en": "Lumisnail",
+   "name_zh": "",
+   "description_zh": "Lumisnail 是 Darkleaf Woods 出没的被动生物，身形瘦高（约 0.6×1.8 格），拥有 10 点生命、1 点攻击力与 1 点护甲，行动十分迟缓。它性情温和，也会下水游动。自然生成权重 8，每群 1–2 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:mourner",
+   "name_en": "Mourner",
+   "name_zh": "",
+   "description_zh": "Mourner 是 Somber Forest 的居民，与该群系中的亡者对应体 Departed 一同出没（5–8 只）。Somber Forest 没有 Stellar Stone，是圣辉空洞彻底死去的群系。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.8,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:oculus",
+   "name_en": "Oculus",
+   "name_zh": "",
+   "description_zh": "Oculus 栖息在下界荒地，是敌对生物，身形高大（约 3×3 格），拥有 60 点生命、3 点攻击力与 7 点护甲，移动速度普通。它会主动锁定玩家并用远程攻击消耗对手，受惊时会四处逃窜，平时在空中飞行。自然生成权重 5，每群 4 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:olm",
+   "name_en": "Olm",
+   "name_zh": "",
+   "description_zh": "Olm 是 Miserable Mire 的中立生物，体型小巧（约 1.2×0.4 格），拥有 15 点生命与 5 点攻击力，身手敏捷。它不会主动招惹玩家，但受到攻击后会发起反击，受惊时会四处逃窜，会被特定食物吸引。自然生成权重 7，每群 1–4 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:orchid_mantis",
+   "name_en": "Orchid Mantis",
+   "name_zh": "",
+   "description_zh": "Orchid Mantis 是樱花树林的中立生物，体型中等（约 0.4×1 格），拥有 8 点生命与 3 点攻击力，移动速度普通。它主要捕食洞穴蜘蛛、Parasitic Fly 等生物。自然生成权重 3，每群 4 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:parasitic_fly",
+   "name_en": "Parasitic Fly",
+   "name_zh": "",
+   "description_zh": "Parasitic Fly 是平原、原始松木针叶林、原始白桦森林等群系的敌对生物，体型小巧（约 0.8×0.8 格），拥有 7 点生命与 2 点攻击力，移动速度普通。它会主动锁定玩家并发起近身攻击，平时在空中飞行。自然生成权重 7，每群 3–5 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:peafoul",
+   "name_en": "Peafoul",
+   "name_zh": "",
+   "description_zh": "Peafoul 属于 Foolish 模组的敌对生物，身形瘦高（约 1×2.8 格），拥有 165 点生命、4 点攻击力与 8 点护甲，移动速度普通。它会主动锁定玩家并发起近身攻击。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:phantome",
+   "name_en": "Phantome",
+   "name_zh": "",
+   "description_zh": "Phantome 属于 Foolish 模组的敌对生物，体型小巧（约 0.8×0.8 格），拥有 10 点生命与 5 点攻击力，移动速度普通。它会主动锁定玩家并发起近身攻击，平时在空中飞行。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:piercer",
+   "name_en": "Piercer",
+   "name_zh": "",
+   "description_zh": "Piercer 是 Foolish 模组中的中立生物，体型小巧（约 1×0.3 格），拥有 20 点生命、5 点攻击力与 18 点护甲，移动速度普通。它不会主动招惹玩家，但受到攻击后会发起反击。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:puncture",
+   "name_en": "Puncture",
+   "name_zh": "",
+   "description_zh": "Puncture 栖息在 Ashen Woods、Ashen Valley，是可驯服生物，体型宽大（约 2×1 格），拥有 20 点生命与 8 点攻击力，身手敏捷。它不会主动招惹玩家，但受到攻击后会发起反击，还能被驯服，驯服后会跟随主人并替主人迎战。自然生成权重 30，每群 1 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:radiite",
+   "name_en": "Radiite",
+   "name_zh": "",
+   "description_zh": "Radiite 栖息在 Wasteland，是中立生物，体型小巧（约 1×0.8 格），拥有 10 点生命与 5 点攻击力，移动速度普通。它不会主动招惹玩家，但受到攻击后会发起反击。自然生成权重 1，每群 4 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:redwood",
+   "name_en": "Redwood",
+   "name_zh": "",
+   "description_zh": "Redwood 是猩红田野中大型猫头鹰状掠食者，捕猎时会把猎物抓起到空中再摔向地面，玩家也在它的菜单上。喂它荒原群系的 Terasch Worm 可以让它平静约 8 分钟，之后能当作可骑乘的宠物，但需要不断投喂。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.9,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:sacilian",
+   "name_en": "Sacilian",
+   "name_zh": "",
+   "description_zh": "Sacilian 是 Sacilite Bloom 中由活石 Sacilite 构成的生物，有些形似动物，会以 8–10 只成群围绕大型 Sacilic 晶体生成，据正文甚至可以食用。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.85,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:drake",
+   "name_en": "Sacilic Dragonfly",
+   "name_zh": "",
+   "description_zh": "Sacilic Dragonfly 栖息在 Sacilite Canyon，是中立生物，身形瘦高（约 0.6×1.8 格），拥有 20 点生命与 4 点攻击力，身手敏捷。它不会主动招惹玩家，但受到攻击后会发起反击，受惊时会四处逃窜，平时在空中飞行。自然生成权重 8，每群 3–14 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:sacilite_guardian",
+   "name_en": "Sacilite Guardian",
+   "name_zh": "",
+   "description_zh": "Sacilite Guardian 是 Sacilite 生物的一种，在 Sacilite Bloom 以 1–3 只生成。正文称 Sacilite 是活石，能变成「树」甚至生物，Sacilite 生物多围绕大型晶体成群出现。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.75,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:sandfish",
+   "name_en": "Sandfish",
+   "name_zh": "",
+   "description_zh": "Sandfish 是 Sands of Time 的（半）友好生物，以 5–8 只成群生成，能迅速钻进沙里躲避掠食者，被逼急时也会反击。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.85,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:sandle",
+   "name_en": "Sandle",
+   "name_zh": "",
+   "description_zh": "Sandle 是 Foolish 模组中的敌对生物，体型小巧（约 1×0.6 格），拥有 16 点生命、7 点攻击力与 4 点护甲，移动缓慢。它会主动锁定玩家并发起近身攻击，受惊时会四处逃窜。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:sandsteed",
+   "name_en": "Sandsteed",
+   "name_zh": "",
+   "description_zh": "Sandsteed 是 Sands of Time 中敌对的骷髅马形掠食者，以 4 只成群生成，经常与 Turmoil 一起出现。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.85,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:sandwinder",
+   "name_en": "Sandwinder",
+   "name_zh": "",
+   "description_zh": "Sandwinder 是 Foolish 模组中的敌对生物，身形高大（约 3×4 格），拥有 200 点生命、4 点攻击力与 5 点护甲，移动速度普通。它会主动锁定玩家并发起近身攻击。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:sanguine",
+   "name_en": "Sanguine",
+   "name_zh": "",
+   "description_zh": "Sanguine 是猩红田野（foolish:scarlet_fields）的鸵鸟状生物，头部呈心形，像骑马一样持续骑乘一段时间即可驯服。驯服后不需要鞍就能骑，跳得很高且不受摔落伤害；杀死它可以取肉，但这会让整群 Sanguine 进入防御状态。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.9,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:scarlant",
+   "name_en": "Scarlant",
+   "name_zh": "",
+   "description_zh": "Scarlant 是猩红田野的主要居民，以 4–20 只的大群生成。低阶个体起初中立，一旦被攻击整群会蜂拥而上；高阶个体只有在保护顶级个体时才会主动敌对，因此可以小心地逐个击破。名为 Offender 的信息素效果会让附近的 Scarlant 变得敌对。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.9,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:scarlant_assistant",
+   "name_en": "Scarlant Assistant",
+   "name_zh": "",
+   "description_zh": "Scarlant 族群中的 Assistant 个体。模组正文称 Scarlant 低阶个体起初中立、被打就群起围攻，高阶个体只在保护顶级个体时才敌对。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:scarlant_knight",
+   "name_en": "Scarlant Knight",
+   "name_zh": "",
+   "description_zh": "Scarlant 族群中的 Knight 个体。模组正文称 Scarlant 低阶个体起初中立、被打就群起围攻，高阶个体只在保护顶级个体时才敌对。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:scarlant_sentinel",
+   "name_en": "Scarlant Sentinel",
+   "name_zh": "",
+   "description_zh": "Scarlant 族群中的 Sentinel 个体。模组正文称 Scarlant 低阶个体起初中立、被打就群起围攻，高阶个体只在保护顶级个体时才敌对。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:scarlant_steed",
+   "name_en": "Scarlant Steed",
+   "name_zh": "",
+   "description_zh": "Scarlant 族群中的 Steed（坐骑）个体。模组正文提到 Scarlant 是猩红田野的主要居民，低阶中立、受击则群攻，高阶只在护卫顶级个体时敌对。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:secretarybird",
+   "name_en": "Secretarybird",
+   "name_zh": "",
+   "description_zh": "Secretarybird 栖息在热带草原，是中立生物，体型中等（约 0.9×1.6 格），拥有 20 点生命与 7 点攻击力，移动速度普通。它不会主动招惹玩家，但受到攻击后会发起反击，攻击时还会跃起扑击。自然生成权重 8，每群 1 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:soulsucker",
+   "name_en": "Soulsucker",
+   "name_zh": "",
+   "description_zh": "Soulsucker 是灵魂沙峡谷出没的敌对生物，身形高大（约 1.3×4 格），拥有 100 点生命、3 点攻击力与 6 点护甲，移动速度普通。它会主动锁定玩家并发起近身攻击。自然生成权重 1，每群 1 只，击杀后可能掉落 Soulsucker Fur。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置、死亡过程掉落）"
+  },
+  {
+   "mob_id": "foolish:spitfire",
+   "name_en": "Spitfire",
+   "name_zh": "",
+   "description_zh": "Spitfire 是 Ashen Woods 的居民，以 4 只成群生成。它们多数时候会主动避开玩家，只在被激怒时攻击；正文建议进入该群系前备好抗火药水。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.8,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:sporeseeker",
+   "name_en": "Sporeseeker",
+   "name_zh": "",
+   "description_zh": "Sporeseeker 是 Darkleaf Woods 的敌对生物，身形瘦高（约 0.6×1.8 格），拥有 20 点生命与 3 点攻击力，移动速度普通。它会主动锁定玩家并发起近身攻击，攻击时还会跃起扑击。自然生成权重 8，每群 1–4 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:starblade",
+   "name_en": "Starblade",
+   "name_zh": "",
+   "description_zh": "Starblade 属于 Foolish 模组的中立生物，体型中等（约 1×1 格），拥有 1 点生命与 5 点攻击力，移动速度普通。它不会主动招惹玩家，但受到攻击后会发起反击，平时在空中飞行。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:tapir",
+   "name_en": "Tapir",
+   "name_zh": "",
+   "description_zh": "Tapir 是竹林出没的被动生物，体型中等（约 1.2×1.2 格），拥有 18 点生命与 3 点攻击力，移动缓慢。它性情温和，会与同类繁殖，常低头啃食草方块。自然生成权重 4，每群 3–5 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:terasch_worm",
+   "name_en": "Terasch Worm",
+   "name_zh": "",
+   "description_zh": "Terasch Worm 是 Wasteland 群系的小型生物（约 0.6×0.2 格），只有 5 点生命与 1 点攻击力，行动缓慢。它会主动锁定玩家并近身攻击，受惊时则四处逃窜。它自然生成权重 50、每群 1–2 只，也是 Redwood 最爱的零食——喂食它能安抚 Redwood 约 8 分钟。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.8,
+   "notes": "正文提到它可作为安抚 Redwood 的零食；属性、AI 与生成据 jar 源码整理"
+  },
+  {
+   "mob_id": "foolish:thunder_boa",
+   "name_en": "Thunder Boa",
+   "name_zh": "",
+   "description_zh": "Thunder Boa 是 Storm Jungle 出没的中立生物，身形与玩家相仿（约 2.2×1.8 格），拥有 40 点生命、6 点攻击力与 5 点护甲，移动速度普通。它主要捕食 Berserker、Buzzket 等生物。自然生成权重 40，每群 2–4 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:tamed_torrent",
+   "name_en": "Torrent",
+   "name_zh": "",
+   "description_zh": "Torrent 的已驯服形态；据模组正文，驯服后的 Torrent 可作为强力的飞行坐骑。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.8,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:torrent",
+   "name_en": "Torrent",
+   "name_zh": "",
+   "description_zh": "Torrent 是 Storm Jungle 的龙状生物，以 2–4 只生成，用几个 Storm Apples 即可驯服。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.85,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:tremor",
+   "name_en": "Tremor",
+   "name_zh": "",
+   "description_zh": "Tremor 是四足、蝙蝠状的生物，偏好在 Sacilite Canyon（Sacilite Bloom 消亡后形成的稀有群系）活动，在 Sacilite Bloom 与 Sacilite Canyon 以 2–4 只成群生成。用大量 Tremor Treats 可将其驯服，驯服后成为强力的战斗坐骑，能从远处发动重击，也能从高处滑翔。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.9,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:tamed_tremor",
+   "name_en": "Tremor",
+   "name_zh": "",
+   "description_zh": "Tremor 的已驯服形态。模组正文说明驯服后的 Tremor 是可骑乘的战斗坐骑，能从远处释放重击，并可从高处滑翔。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.8,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:turmoil",
+   "name_en": "Turmoil",
+   "name_zh": "",
+   "description_zh": "Turmoil 是 Sands of Time 中身穿破烂长袍的巨大骷髅形生物，能在自身周围一定范围内扭曲时间，常与 Sandsteed 一同出现。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.85,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:varmint",
+   "name_en": "Varmint",
+   "name_zh": "",
+   "description_zh": "Varmint 栖息在 Wasteland，是敌对生物，体型小巧（约 0.9×0.9 格），拥有 10 点生命与 3 点攻击力，移动速度普通。它会主动锁定玩家并发起近身攻击，攻击时还会跃起扑击。自然生成权重 8，每群 1–2 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:venomorph",
+   "name_en": "Venomorph",
+   "name_zh": "",
+   "description_zh": "Venomorph 是繁花森林、向日葵平原出没的敌对生物，身形与玩家相仿（约 1×2 格），拥有 15 点生命与 3 点攻击力，移动速度普通。它会主动锁定玩家并用远程攻击消耗对手，平时在空中飞行。自然生成权重 5，每群 1–2 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:verdemaw",
+   "name_en": "Verdemaw",
+   "name_zh": "",
+   "description_zh": "Verdemaw 是 Overgrowth 的中立生物，身形瘦高（约 0.6×1.8 格），拥有 30 点生命与 6 点攻击力，行动十分迟缓。它主要捕食 Bloodlet Mosquito 等生物，攻击时还会跃起扑击，受惊时会四处逃窜。自然生成权重 1，每群 1 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:verdrone",
+   "name_en": "Verdrone",
+   "name_zh": "",
+   "description_zh": "Verdrone 栖息在 Overgrowth，是中立生物，体型中等（约 1.4×1.4 格），拥有 20 点生命与 6 点攻击力，移动速度普通。它不会主动招惹玩家，但受到攻击后会发起反击，平时在空中飞行。自然生成权重 3，每群 4 只，击杀后可能掉落 Sharp Leaf。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置、死亡过程掉落）"
+  },
+  {
+   "mob_id": "foolish:voidrider",
+   "name_en": "Voidrider",
+   "name_zh": "",
+   "description_zh": "Voidrider 是 Foolish 模组中的特殊生物，体型中等（约 1×1 格），拥有 0 点生命，移动速度普通。它没有任何 AI 目标，像停摆的机关一样不会主动行动。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.5,
+   "notes": "据 jar 源码与数据文件整理（createAttributes）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:wendigo",
+   "name_en": "Wendigo",
+   "name_zh": "",
+   "description_zh": "Wendigo 是主世界多种群系出没的敌对生物，身形瘦高（约 0.6×2.5 格），拥有 50 点生命与 3 点攻击力，移动速度普通。它会主动锁定玩家并发起近身攻击。自然生成权重 3，每群 1 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:wendigrudge",
+   "name_en": "Wendigrudge",
+   "name_zh": "",
+   "description_zh": "Wendigrudge 是 Foolish 模组中的敌对生物，身形高大（约 3×4 格），拥有 240 点生命与 10 点护甲，近战伤害为 0，移动缓慢。它会主动锁定玩家，并以特殊手段进攻。它不会自然生成，只能通过刷怪蛋、命令或特殊事件出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:wild_haggis",
+   "name_en": "Wild Haggis",
+   "name_zh": "",
+   "description_zh": "Wild Haggis 是风袭丘陵出没的被动生物，体型小巧（约 0.8×0.6 格），拥有 18 点生命与 3 点攻击力，移动速度普通。它性情温和，受惊时会四处逃窜，察觉玩家靠近便会躲开。自然生成权重 1，每群 1 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:winter_moth",
+   "name_en": "Winter Moth",
+   "name_zh": "",
+   "description_zh": "Winter Moth 栖息在冰封山峰、雪林，是被动生物，体型小巧（约 0.6×0.6 格），拥有 7 点生命与 3 点攻击力，移动速度普通。它性情温和，察觉玩家靠近便会躲开，平时在空中飞行。自然生成权重 3，每群 4 只。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、biome_modifier 生成配置）"
+  },
+  {
+   "mob_id": "foolish:sacilic_abomination",
+   "name_en": "Sacilic Abomination",
+   "name_zh": "",
+   "description_zh": "Sacilic Abomination 是 Foolish 模组中的 Boss 级生物，身形高大（约 3×4.7 格），拥有 400 点生命、6 点攻击力与 10 点护甲，移动速度普通。它会主动锁定玩家并发起近身攻击，攻击时还会跃起扑击，甚至会破坏木门追击。作为 Boss，它不会自然生成，只能通过刷怪蛋或特定召唤方式出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:timewelder",
+   "name_en": "Timewelder",
+   "name_zh": "",
+   "description_zh": "Timewelder 是 Foolish 模组中的 Boss 级生物，身形高大（约 2.9×3.8 格），拥有 400 点生命、7 点攻击力与 16 点护甲，移动速度普通。它会主动锁定玩家并发起近身攻击。作为 Boss，它不会自然生成，只能通过刷怪蛋或特定召唤方式出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:thrasher",
+   "name_en": "Thrasher",
+   "name_zh": "",
+   "description_zh": "Thrasher 属于 Foolish 模组的 Boss 级生物，身形高大（约 3×3 格），拥有 400 点生命、5 点攻击力与 8 点护甲，移动速度普通。它会主动锁定玩家并发起近身攻击，攻击时还会跃起扑击，也会下水游动。作为 Boss，它不会自然生成，只能通过刷怪蛋或特定召唤方式出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:thunderbird",
+   "name_en": "Thunderbird",
+   "name_zh": "",
+   "description_zh": "Thunderbird 属于 Foolish 模组的 Boss 级生物，身形高大（约 4×3 格），拥有 340 点生命、4 点攻击力与 6 点护甲，身手敏捷。它会主动锁定玩家，近身时挥击、拉开距离则用远程攻击，平时在空中飞行。作为 Boss，它不会自然生成，只能通过刷怪蛋或特定召唤方式出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:scarlant_queen",
+   "name_en": "Scarlant Queen",
+   "name_zh": "",
+   "description_zh": "Scarlant 族群中的顶级个体（Scarlant Queen）。正文提到高阶 Scarlant 只在保护顶级个体时才会主动敌对，低阶个体则起初中立、被打就群起围攻。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.6,
+   "notes": "摘自模组正文 Stellar Hollow 群系指南；jar 内无 zh_cn 语言文件，故 name_zh 留空"
+  },
+  {
+   "mob_id": "foolish:terrorflora",
+   "name_en": "Terrorflora",
+   "name_zh": "",
+   "description_zh": "Terrorflora 是 Foolish 模组中的 Boss 级生物，是名副其实的庞然巨物（约 5×8 格），拥有 400 点生命、6 点攻击力与 6 点护甲，完全无法移动。它会主动锁定玩家并发起近身攻击。作为 Boss，它不会自然生成，只能通过刷怪蛋或特定召唤方式出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:astralis",
+   "name_en": "Astralis, Fallen Star",
+   "name_zh": "",
+   "description_zh": "Astralis, Fallen Star 属于 Foolish 模组的 Boss 级生物，是名副其实的庞然巨物（约 2×6 格），拥有 600 点生命与 16 点护甲，近战伤害为 0，移动速度普通。它会主动锁定玩家，并以特殊手段进攻。作为 Boss，它不会自然生成，只能通过刷怪蛋或特定召唤方式出现，击杀后可能掉落 Music Disc、Star Shard。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标、死亡过程掉落）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:varmint_king",
+   "name_en": "Varmint King",
+   "name_zh": "",
+   "description_zh": "Varmint King 是 Foolish 模组中的 Boss 级生物，身形高大（约 2.4×3.4 格），拥有 375 点生命、7 点攻击力与 10 点护甲，移动速度普通。它会主动锁定玩家并发起近身攻击。作为 Boss，它不会自然生成，只能通过刷怪蛋或特定召唤方式出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  },
+  {
+   "mob_id": "foolish:pyre",
+   "name_en": "Pyre",
+   "name_zh": "",
+   "description_zh": "Pyre 是 Foolish 模组中的 Boss 级生物，身形与玩家相仿（约 2×2.2 格），拥有 350 点生命、5 点攻击力与 14 点护甲，移动速度普通。它会主动锁定玩家并发起近身攻击，攻击时还会跃起扑击。作为 Boss，它不会自然生成，只能通过刷怪蛋或特定召唤方式出现。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/foolish",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理（createAttributes、AI 目标）；jar 内无自然生成配置"
+  }
+ ]
+}

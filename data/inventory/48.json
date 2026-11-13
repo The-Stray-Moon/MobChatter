@@ -1,0 +1,846 @@
+{
+ "rank": 48,
+ "mod": "Tide 2",
+ "slug": "tide",
+ "project_id": "die1AF7i",
+ "source_url": "https://modrinth.com/mod/tide",
+ "jar": "D:\\work\\MobChatter\\data\\jars\\die1AF7i.jar",
+ "jar_size": 2179194,
+ "modid": "forge",
+ "entity_count": 104,
+ "mob_count": 102,
+ "entities": [
+  {
+   "key": "entity.tide.abyss_angler",
+   "id": "abyss_angler",
+   "en": "Abyss Angler",
+   "zh": "深层鮟鱇鱼",
+   "loot_table": "abyss_angler",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.alpha_fish",
+   "id": "alpha_fish",
+   "en": "Alpha Fish",
+   "zh": "始祖鱼",
+   "loot_table": "alpha_fish",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.amber_rockfish",
+   "id": "amber_rockfish",
+   "en": "Amber Rockfish",
+   "zh": "琥珀岩鱼",
+   "loot_table": "amber_rockfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.anchovy",
+   "id": "anchovy",
+   "en": "Anchovy",
+   "zh": "鳀鱼",
+   "loot_table": "anchovy",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.angelfish",
+   "id": "angelfish",
+   "en": "Angelfish",
+   "zh": "神仙鱼",
+   "loot_table": "angelfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.anglerfish",
+   "id": "anglerfish",
+   "en": "Angler Fish",
+   "zh": "鮟鱇鱼",
+   "loot_table": "anglerfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.aquathorn",
+   "id": "aquathorn",
+   "en": "Aquathorn",
+   "zh": "流水荆棘",
+   "loot_table": "aquathorn",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.arapaima",
+   "id": "arapaima",
+   "en": "Arapaima",
+   "zh": "巨骨舌鱼",
+   "loot_table": "arapaima",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.ash_perch",
+   "id": "ash_perch",
+   "en": "Ash Perch",
+   "zh": "尘鲈",
+   "loot_table": "ash_perch",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.bedrock_bug",
+   "id": "bedrock_bug",
+   "en": "Bedrock Bug",
+   "zh": "基岩虫",
+   "loot_table": "bedrock_bug",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.bedrock_tetra",
+   "id": "bedrock_tetra",
+   "en": "Bedrock Tetra",
+   "zh": "基岩脂鲤",
+   "loot_table": "bedrock_tetra",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.black_crappie",
+   "id": "black_crappie",
+   "en": "Black Crappie",
+   "zh": "黑莓鲈",
+   "loot_table": "black_crappie",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.blazing_swordfish",
+   "id": "blazing_swordfish",
+   "en": "Blazing Swordfish",
+   "zh": "烈焰剑鱼",
+   "loot_table": "blazing_swordfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.blossom_bass",
+   "id": "blossom_bass",
+   "en": "Blossom Bass",
+   "zh": "花鲈",
+   "loot_table": "blossom_bass",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.blue_neonfish",
+   "id": "blue_neonfish",
+   "en": "Blue Neonfish",
+   "zh": "蓝色霓虹鱼",
+   "loot_table": "blue_neonfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.bluegill",
+   "id": "bluegill",
+   "en": "Bluegill",
+   "zh": "蓝鳃太阳鱼",
+   "loot_table": "bluegill",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.brook_trout",
+   "id": "brook_trout",
+   "en": "Brook Trout",
+   "zh": "溪鳟",
+   "loot_table": "brook_trout",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.bull_shark",
+   "id": "bull_shark",
+   "en": "Bull Shark",
+   "zh": "公牛鲨",
+   "loot_table": "bull_shark",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.carp",
+   "id": "carp",
+   "en": "Carp",
+   "zh": "鲤鱼",
+   "loot_table": "carp",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.catfish",
+   "id": "catfish",
+   "en": "Catfish",
+   "zh": "鲶鱼",
+   "loot_table": "catfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.cave_crawler",
+   "id": "cave_crawler",
+   "en": "Cave Crawler",
+   "zh": "穴爬鱼",
+   "loot_table": "cave_crawler",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.cave_eel",
+   "id": "cave_eel",
+   "en": "Cave Eel",
+   "zh": "穴鳗",
+   "loot_table": "cave_eel",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.chasm_eel",
+   "id": "chasm_eel",
+   "en": "Chasm Eel",
+   "zh": "裂隙鳗",
+   "loot_table": "chasm_eel",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.chorus_cod",
+   "id": "chorus_cod",
+   "en": "Chorus Cod",
+   "zh": "紫颂鳕鱼",
+   "loot_table": "chorus_cod",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.coelacanth",
+   "id": "coelacanth",
+   "en": "Coelacanth",
+   "zh": "腔棘鱼",
+   "loot_table": "coelacanth",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.crimson_fangjaw",
+   "id": "crimson_fangjaw",
+   "en": "Crimson Fangjaw",
+   "zh": "绯红尖颚",
+   "loot_table": "crimson_fangjaw",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.crystal_shrimp",
+   "id": "crystal_shrimp",
+   "en": "Crystal Shrimp",
+   "zh": "晶虾",
+   "loot_table": "crystal_shrimp",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.crystalline_carp",
+   "id": "crystalline_carp",
+   "en": "Crystalline Carp",
+   "zh": "晶鲤",
+   "loot_table": "crystalline_carp",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.darkness_eater",
+   "id": "darkness_eater",
+   "en": "Darkness Eater",
+   "zh": "黑暗吞食者",
+   "loot_table": "darkness_eater",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.deep_blue",
+   "id": "deep_blue",
+   "en": "Deep Blue",
+   "zh": "深邃之蓝",
+   "loot_table": "deep_blue",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.deep_grouper",
+   "id": "deep_grouper",
+   "en": "Deep Grouper",
+   "zh": "深层石斑鱼",
+   "loot_table": "deep_grouper",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.devils_hole_pupfish",
+   "id": "devils_hole_pupfish",
+   "en": "Devils Hole Pupfish",
+   "zh": "魔鳉",
+   "loot_table": "devils_hole_pupfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.dragon_fish",
+   "id": "dragon_fish",
+   "en": "Dragon Fish",
+   "zh": "龙鱼",
+   "loot_table": "dragon_fish",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.dripstone_darter",
+   "id": "dripstone_darter",
+   "en": "Dripstone Darter",
+   "zh": "滴水石镖鲈",
+   "loot_table": "dripstone_darter",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.echo_snapper",
+   "id": "echo_snapper",
+   "en": "Echo Snapper",
+   "zh": "回响鲷鱼",
+   "loot_table": "echo_snapper",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.elytrout",
+   "id": "elytrout",
+   "en": "Elytrout",
+   "zh": "鞘翅鳟",
+   "loot_table": "elytrout",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.ember_koi",
+   "id": "ember_koi",
+   "en": "Ember Koi",
+   "zh": "微光鲤",
+   "loot_table": "ember_koi",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.ender_glider",
+   "id": "ender_glider",
+   "en": "Ender Glider",
+   "zh": "末影滑翔者",
+   "loot_table": "ender_glider",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.enderfin",
+   "id": "enderfin",
+   "en": "Enderfin",
+   "zh": "末影鳍鱼",
+   "loot_table": "enderfin",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.endergazer",
+   "id": "endergazer",
+   "en": "Endergazer",
+   "zh": "末影凝视者",
+   "loot_table": "endergazer",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.fishing_bobber",
+   "id": "fishing_bobber",
+   "en": "Fishing Bobber",
+   "zh": "浮漂",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.tide.flounder",
+   "id": "flounder",
+   "en": "Flounder",
+   "zh": "比目鱼",
+   "loot_table": "flounder",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.dutchman_sock",
+   "id": "dutchman_sock",
+   "en": "Flying Dutchman's Sock",
+   "zh": "飞翔荷兰人的袜子",
+   "loot_table": "dutchman_sock",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.frostbite_flounder",
+   "id": "frostbite_flounder",
+   "en": "Frostbite Flounder",
+   "zh": "霜冻比目鱼",
+   "loot_table": "frostbite_flounder",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.gilded_minnow",
+   "id": "gilded_minnow",
+   "en": "Gilded Minnow",
+   "zh": "金鲦鱼",
+   "loot_table": "gilded_minnow",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.glowfish",
+   "id": "glowfish",
+   "en": "Glowfish",
+   "zh": "荧光鱼",
+   "loot_table": "glowfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.great_white_shark",
+   "id": "great_white_shark",
+   "en": "Great White Shark",
+   "zh": "大白鲨",
+   "loot_table": "great_white_shark",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.guppy",
+   "id": "guppy",
+   "en": "Guppy",
+   "zh": "孔雀鱼",
+   "loot_table": "guppy",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.incandescent_larva",
+   "id": "incandescent_larva",
+   "en": "Incandescent Larva",
+   "zh": "白炽幼虫",
+   "loot_table": "incandescent_larva",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.inferno_guppy",
+   "id": "inferno_guppy",
+   "en": "Inferno Guppy",
+   "zh": "地狱孔雀鱼",
+   "loot_table": "inferno_guppy",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.iron_tetra",
+   "id": "iron_tetra",
+   "en": "Iron Tetra",
+   "zh": "铁脂鲤",
+   "loot_table": "iron_tetra",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.judgment_fish",
+   "id": "judgment_fish",
+   "en": "Judgment Fish",
+   "zh": "审判之鱼",
+   "loot_table": "judgment_fish",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.lapis_lanternfish",
+   "id": "lapis_lanternfish",
+   "en": "Lapis Lanternfish",
+   "zh": "青金灯笼鱼",
+   "loot_table": "lapis_lanternfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.largemouth_bass",
+   "id": "largemouth_bass",
+   "en": "Largemouth Bass",
+   "zh": "大口黑鲈",
+   "loot_table": "largemouth_bass",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.loot_crate",
+   "id": "loot_crate",
+   "en": "Loot Crate",
+   "zh": "战利品板条箱",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.luminescent_jellyfish",
+   "id": "luminescent_jellyfish",
+   "en": "Luminescent Jellyfish",
+   "zh": "夜光水母",
+   "loot_table": "luminescent_jellyfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.mackerel",
+   "id": "mackerel",
+   "en": "Mackerel",
+   "zh": "鲭鱼",
+   "loot_table": "mackerel",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.magma_mackerel",
+   "id": "magma_mackerel",
+   "en": "Magma Mackerel",
+   "zh": "岩浆鲭鱼",
+   "loot_table": "magma_mackerel",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.mahi_mahi",
+   "id": "mahi_mahi",
+   "en": "Mahi-Mahi",
+   "zh": "鲯鳅",
+   "loot_table": "mahi_mahi",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.manta_ray",
+   "id": "manta_ray",
+   "en": "Manta Ray",
+   "zh": "蝠鲼",
+   "loot_table": "manta_ray",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.mantyvern",
+   "id": "mantyvern",
+   "en": "Mantyvern",
+   "zh": "蝠飞龙",
+   "loot_table": "mantyvern",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.marstilus",
+   "id": "marstilus",
+   "en": "Marstilus",
+   "zh": "火星螺",
+   "loot_table": "marstilus",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.midas_fish",
+   "id": "midas_fish",
+   "en": "Midas Fish",
+   "zh": "点金鱼",
+   "loot_table": "midas_fish",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.mirage_catfish",
+   "id": "mirage_catfish",
+   "en": "Mirage Catfish",
+   "zh": "幻影鲶鱼",
+   "loot_table": "mirage_catfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.mooneye",
+   "id": "mooneye",
+   "en": "Mooneye",
+   "zh": "月眼鱼",
+   "loot_table": "mooneye",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.nephrosilu",
+   "id": "nephrosilu",
+   "en": "Nephrosilu",
+   "zh": "肾形畸鲶",
+   "loot_table": "nephrosilu",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.neptune_koi",
+   "id": "neptune_koi",
+   "en": "Neptune Koi",
+   "zh": "海王鲤",
+   "loot_table": "neptune_koi",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.obsidian_pike",
+   "id": "obsidian_pike",
+   "en": "Obsidian Pike",
+   "zh": "黑曜石狗鱼",
+   "loot_table": "obsidian_pike",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.ocean_perch",
+   "id": "ocean_perch",
+   "en": "Ocean Perch",
+   "zh": "海鲈",
+   "loot_table": "ocean_perch",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.pale_clubfish",
+   "id": "pale_clubfish",
+   "en": "Pale Clubfish",
+   "zh": "苍白棒鱼",
+   "loot_table": "pale_clubfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.pentapus",
+   "id": "pentapus",
+   "en": "Pentapus",
+   "zh": "五足章鱼",
+   "loot_table": "pentapus",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.pike",
+   "id": "pike",
+   "en": "Pike",
+   "zh": "狗鱼",
+   "loot_table": "pike",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.pluto_snail",
+   "id": "pluto_snail",
+   "en": "Pluto Snail",
+   "zh": "冥王海螺",
+   "loot_table": "pluto_snail",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.rainbow_trout",
+   "id": "rainbow_trout",
+   "en": "Rainbow Trout",
+   "zh": "虹鳟",
+   "loot_table": "rainbow_trout",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.red_40",
+   "id": "red_40",
+   "en": "Red 40",
+   "zh": "诱惑红40号",
+   "loot_table": "red_40",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.red_snapper",
+   "id": "red_snapper",
+   "en": "Red Snapper",
+   "zh": "红鲷鱼",
+   "loot_table": "red_snapper",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.sailfish",
+   "id": "sailfish",
+   "en": "Sailfish",
+   "zh": "旗鱼",
+   "loot_table": "sailfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.sand_tiger_shark",
+   "id": "sand_tiger_shark",
+   "en": "Sand Tiger Shark",
+   "zh": "沙虎鲨",
+   "loot_table": "sand_tiger_shark",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.saturn_cuttlefish",
+   "id": "saturn_cuttlefish",
+   "en": "Saturn Cuttlefish",
+   "zh": "土星乌贼",
+   "loot_table": "saturn_cuttlefish",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.shadow_shark",
+   "id": "shadow_shark",
+   "en": "Shadow Shark",
+   "zh": "暗影鲨",
+   "loot_table": "shadow_shark",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.shadow_snapper",
+   "id": "shadow_snapper",
+   "en": "Shadow Snapper",
+   "zh": "暗影鲷鱼",
+   "loot_table": "shadow_snapper",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.star_arrow",
+   "id": "star_arrow",
+   "en": "Shooting Star",
+   "zh": "流星",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.tide.shooting_starfish",
+   "id": "shooting_starfish",
+   "en": "Shooting Starfish",
+   "zh": "流星",
+   "loot_table": "shooting_starfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.sleepy_carp",
+   "id": "sleepy_carp",
+   "en": "Sleepy Carp",
+   "zh": "嗜睡鲤",
+   "loot_table": "sleepy_carp",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.slimy_salmon",
+   "id": "slimy_salmon",
+   "en": "Slimy Salmon",
+   "zh": "黏液鲑鱼",
+   "loot_table": "slimy_salmon",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.smallmouth_bass",
+   "id": "smallmouth_bass",
+   "en": "Smallmouth Bass",
+   "zh": "小口黑鲈",
+   "loot_table": "smallmouth_bass",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.snatcher_squid",
+   "id": "snatcher_squid",
+   "en": "Snatcher Squid",
+   "zh": "劫掠鱿鱼",
+   "loot_table": "snatcher_squid",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.snook",
+   "id": "snook",
+   "en": "Snook",
+   "zh": "锯盖鱼",
+   "loot_table": "snook",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.soulscale",
+   "id": "soulscale",
+   "en": "Soulscale",
+   "zh": "魂鳞鱼",
+   "loot_table": "soulscale",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.spore_stalker",
+   "id": "spore_stalker",
+   "en": "Spore Stalker",
+   "zh": "孢子追踪者",
+   "loot_table": "spore_stalker",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.sturgeon",
+   "id": "sturgeon",
+   "en": "Sturgeon",
+   "zh": "鲟鱼",
+   "loot_table": "sturgeon",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.sun_emblem",
+   "id": "sun_emblem",
+   "en": "Sun Emblem",
+   "zh": "烈阳徽章水母",
+   "loot_table": "sun_emblem",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.swordfish",
+   "id": "swordfish",
+   "en": "Swordfish",
+   "zh": "剑鱼",
+   "loot_table": "swordfish",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.tuna",
+   "id": "tuna",
+   "en": "Tuna",
+   "zh": "金枪鱼",
+   "loot_table": "tuna",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.uranias_pisces",
+   "id": "uranias_pisces",
+   "en": "Urania's Pisces",
+   "zh": "天王双鱼",
+   "loot_table": "uranias_pisces",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.vengeance",
+   "id": "vengeance",
+   "en": "Vengeance",
+   "zh": "怨鳞",
+   "loot_table": "vengeance",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.violet_carp",
+   "id": "violet_carp",
+   "en": "Violet Carp",
+   "zh": "紫鲤",
+   "loot_table": "violet_carp",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.voidseeker",
+   "id": "voidseeker",
+   "en": "Voidseeker",
+   "zh": "虚空寻觅者",
+   "loot_table": "voidseeker",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.volcano_tuna",
+   "id": "volcano_tuna",
+   "en": "Volcano Tuna",
+   "zh": "火山金枪鱼",
+   "loot_table": "volcano_tuna",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.walleye",
+   "id": "walleye",
+   "en": "Walleye",
+   "zh": "玻璃梭鲈",
+   "loot_table": "walleye",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.warped_guppy",
+   "id": "warped_guppy",
+   "en": "Warped Guppy",
+   "zh": "诡异孔雀鱼",
+   "loot_table": "warped_guppy",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.white_crappie",
+   "id": "white_crappie",
+   "en": "White Crappie",
+   "zh": "白莓鲈",
+   "loot_table": "white_crappie",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.witherfin",
+   "id": "witherfin",
+   "en": "Witherfin",
+   "zh": "凋灵鳍",
+   "loot_table": "witherfin",
+   "projectile": false
+  },
+  {
+   "key": "entity.tide.yellow_perch",
+   "id": "yellow_perch",
+   "en": "Yellow Perch",
+   "zh": "黄鲈",
+   "loot_table": "yellow_perch",
+   "projectile": false
+  }
+ ]
+}

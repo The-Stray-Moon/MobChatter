@@ -1,0 +1,1327 @@
+{
+ "rank": 22,
+ "mod": "Hybrid Aquatic",
+ "mod_url": "https://modrinth.com/mod/hybrid-aquatic",
+ "mobs": [
+  {
+   "mob_id": "hybrid_aquatic:african_butterflyfish",
+   "name_en": "African Butterflyfish",
+   "name_zh": "非洲蝴蝶鱼",
+   "description_zh": "非洲蝴蝶鱼（African Butterflyfish）是模组添加的体型很小的鱼类，生命值 2 点。会被中型生物、大型生物、鲨鱼捕食，还会浮到水面换气、跃出水面。生成于丛林水域、红树林、沼泽、热带河流，每次生成 1 只；击杀掉落同名物品（非洲蝴蝶鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:anglerfish",
+   "name_en": "Anglerfish",
+   "name_zh": "鮟鱇鱼",
+   "description_zh": "鮟鱇鱼（Anglerfish）是模组添加的体型偏小的鱼类，生命值 2 点。会捕食小型生物，同时会被中型生物、大型生物、鲨鱼捕食。生成于各类海沟，每次生成 1–2 只；击杀掉落同名物品（鮟鱇鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:argonaut",
+   "name_en": "Argonaut",
+   "name_zh": "",
+   "description_zh": "Argonaut（船蛸）严格来说不是生物，而是模组添加的可骑乘载具实体：玩家可以乘着它在水面航行，它自带容器物品栏，并能烧燃料驱动推进器；外壳、帆与荧光状态还有不同变体。它没有生命值、掉落与自然生成配置，只能用刷怪蛋放置。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：ArgonautEntity 继承 Entity 而非生物，类中含 PlayerRideable、ContainerEntity 与燃料燃烧逻辑。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:arrow_squid",
+   "name_en": "Arrow Squid",
+   "name_zh": "箭鱿",
+   "description_zh": "箭鱿（Arrow Squid）是模组添加的体型偏小的头足类，生命值 6 点。会捕食甲壳类，同时会被鲨鱼捕食，还会在受攻击时喷墨。生成于温带海洋、温带海沟，每次生成 1–2 只；击杀掉落墨囊、生触须；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:barracuda",
+   "name_en": "Barracuda",
+   "name_zh": "梭子鱼",
+   "description_zh": "梭子鱼（Barracuda）是模组添加的体型中等的鱼类，生命值 20 点，近战伤害 5 点。会捕食小型生物、中型生物，同时会被鲨鱼捕食，还会捡食水中的食物、在受击后反击、主动袭击靠近的玩家。生成于温水海洋、温带浅海、温暖浅海，每次生成 1 只；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:barrel_jellyfish",
+   "name_en": "Barrel Jellyfish",
+   "name_zh": "桶水母",
+   "description_zh": "桶水母（Barrel Jellyfish）是模组添加的体型中等的水母，生命值 3 点。平时随水流漂浮。生成于温水海洋、红色草甸、海草床、温带浅海等 5 处水域，每次生成 1–2 只；击杀掉落黏液球；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:barreleye",
+   "name_en": "Barreleye",
+   "name_zh": "桶眼鱼",
+   "description_zh": "桶眼鱼（Barreleye）是模组添加的体型很小的鱼类，生命值 3 点。会被中型生物、大型生物、鲨鱼捕食。生成于温水海沟、温带海沟、温暖海沟，每次生成 1–2 只；击杀掉落萤光史莱姆、同名物品（桶眼鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:basking_shark",
+   "name_en": "Basking Shark",
+   "name_zh": "姥鲨",
+   "description_zh": "姥鲨（Basking Shark）是模组添加的体型较大的鲨鱼，生命值 40 点。会张着嘴滤食浮游生物。生成于深寒冷海洋、深温带海洋、冻洋，每次生成 1 只；击杀掉落鱼排；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:beakling",
+   "name_en": "Beakling",
+   "name_zh": "",
+   "description_zh": "喙兽（Beakling）是甲壳兽（Shell Beast）召唤出的小怪，生命值 6 点、近战伤害 4 点，会协同甲壳兽攻击目标、贴近目标，并跟随甲壳兽行动。它没有自然生成配置与掉落，只能用刷怪蛋放置。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的实体类方法、AI 目标类，以及 biome_modifier 与 loot_tables。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:betta",
+   "name_en": "Betta",
+   "name_zh": "斗鱼",
+   "description_zh": "斗鱼（Betta）是模组添加的体型很小的鱼类，生命值 3 点。会被中型生物、大型生物、鲨鱼捕食。生成于红树林、沼泽，每次生成 1 只；击杀掉落同名物品（斗鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:big_red_jellyfish",
+   "name_en": "Big Red Jellyfish",
+   "name_zh": "鲛水母",
+   "description_zh": "鲛水母（Big Red Jellyfish）是模组添加的体型中等的水母，生命值 3 点。平时随水流漂浮。生成于寒冷海沟、冰封海沟、温水海沟、温带海沟等 5 处水域，每次生成 1 只；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.62,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:blobfish",
+   "name_en": "Blobfish",
+   "name_zh": "",
+   "description_zh": "Blobfish 是模组添加的体型偏小的鱼类，生命值 5 点。会被大型生物、鲨鱼捕食。生成于各类海沟，每次生成 1–2 只；击杀掉落同名物品（Blobfish）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:blowfish",
+   "name_en": "Blowfish",
+   "name_zh": "河豚",
+   "description_zh": "河豚（Blowfish）是模组添加的体型很小的鱼类，生命值 3 点。会被中型生物、大型生物、鲨鱼捕食，还会在受惊时膨胀身体。生成于珊瑚礁、海草床、温暖浅海，每次生成 1–2 只；击杀掉落同名物品（河豚）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:blue_jellyfish",
+   "name_en": "Blue Jellyfish",
+   "name_zh": "蓝水母",
+   "description_zh": "蓝水母（Blue Jellyfish）是模组添加的体型偏小的水母，生命值 3 点。平时随水流漂浮。生成于寒冷海洋、温带海洋，每次生成 1–2 只；击杀掉落黏液球；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:box_jellyfish",
+   "name_en": "Box Jellyfish",
+   "name_zh": "箱水母",
+   "description_zh": "箱水母（Box Jellyfish）是模组添加的体型很小的水母，生命值 1 点。平时随水流漂浮。生成于珊瑚礁、温水海洋、红树林、沙滩等 5 处水域，每次生成 1 只；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.62,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:boxfish",
+   "name_en": "Boxfish",
+   "name_zh": "箱鲀",
+   "description_zh": "箱鲀（Boxfish）是模组添加的体型很小的鱼类，生命值 3 点。会被中型生物、大型生物、鲨鱼捕食。生成于珊瑚礁、温暖浅海，每次生成 1 只；击杀掉落同名物品（箱鲀）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:bull_shark",
+   "name_en": "Bull Shark",
+   "name_zh": "牛鲨",
+   "description_zh": "牛鲨（Bull Shark）是模组添加的体型较大的鲨鱼，生命值 30 点，近战伤害 8 点。会主动攻击玩家，并捕食中型生物、大型生物、小型鲨鱼、中型鲨鱼等，还会在受击后反击。生成于温水海洋、温暖海洋，每次生成 1–2 只；击杀掉落鱼排；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:carp",
+   "name_en": "Carp",
+   "name_zh": "鲤鱼",
+   "description_zh": "鲤鱼（Carp）是模组添加的体型偏小的鱼类，生命值 3 点。会被中型生物、大型生物、鲨鱼捕食，还会在浅水中产卵、被玩家手里的食物吸引、啃食水草。生成于河流，每次生成 1–2 只；击杀掉落同名物品（鲤鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:cepheidae_jellyfish",
+   "name_en": "Cepheidae Jellyfish",
+   "name_zh": "澳洲箱水母",
+   "description_zh": "澳洲箱水母（Cepheidae Jellyfish）是模组添加的体型偏小的水母，生命值 3 点。平时随水流漂浮。生成于温水海洋、海草床、温带浅海、温暖浅海，每次生成 1–2 只；击杀掉落黏液球；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:cichlid",
+   "name_en": "Cichlid",
+   "name_zh": "奥斯卡鱼",
+   "description_zh": "奥斯卡鱼（Cichlid）是模组添加的体型偏小的鱼类，生命值 3 点。会被中型生物、大型生物、鲨鱼捕食。生成于丛林水域、红树林、热带河流，每次生成 1 只；击杀掉落同名物品（奥斯卡鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:clownfish",
+   "name_en": "Clownfish",
+   "name_zh": "小丑鱼",
+   "description_zh": "小丑鱼（Clownfish）是模组添加的体型很小的鱼类，生命值 3 点。会被中型生物、大型生物、鲨鱼捕食。生成于珊瑚礁，每次生成 1–2 只；击杀掉落同名物品（小丑鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:coconut_crab",
+   "name_en": "Coconut Crab",
+   "name_zh": "椰子蟹",
+   "description_zh": "椰子蟹（Coconut Crab）是模组添加的体型偏小的甲壳类，生命值 6 点，近战伤害 5 点。会在沙地里挖掘、主动袭击靠近的海龟。生成于沙滩，每次生成 1–2 只；击杀掉落椰子蟹钳；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:coelacanth",
+   "name_en": "Coelacanth",
+   "name_zh": "腔棘鱼",
+   "description_zh": "腔棘鱼（Coelacanth）是模组添加的体型中等的鱼类，生命值 8 点，近战伤害 3 点。会捕食小型生物、头足类，同时会被鲨鱼捕食。生成于深水珊瑚礁、温水海沟、温带海沟、温暖海沟，每次生成 1–2 只；击杀掉落同名物品（腔棘鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:colossal_squid",
+   "name_en": "Colossal Squid",
+   "name_zh": "",
+   "description_zh": "Colossal Squid 是模组添加的体型巨大的头足类，生命值 24 点。会捕食小型生物、中型生物，同时会被鲨鱼、鲸类捕食，还会在受攻击时喷墨。生成于寒冷海沟、冰封海沟、温带海沟，每次生成 1 只；击杀掉落墨囊、生触须；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:comb_jelly",
+   "name_en": "Comb Jelly",
+   "name_zh": "",
+   "description_zh": "Comb Jelly 是模组添加的体型偏小的水母，生命值 2 点。平时随水流漂浮。生成于各类海沟、深水珊瑚礁、深海，每次生成 1–2 只；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.62,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:corydora",
+   "name_en": "Corydora",
+   "name_zh": "",
+   "description_zh": "Corydora 是模组添加的体型偏小的鱼类，生命值 3 点。会被中型生物、大型生物、鲨鱼捕食，还会啃食水草、伏在水底休息。生成于丛林水域、热带河流，每次生成 1–3 只；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:cosmic_jellyfish",
+   "name_en": "Cosmic Jellyfish",
+   "name_zh": "宇宙水母",
+   "description_zh": "宇宙水母（Cosmic Jellyfish）是模组添加的体型偏小的水母，生命值 1 点。平时随水流漂浮。生成于寒冷海沟、深水珊瑚礁、冰封海沟、温水海沟等 6 处水域，每次生成 1 只；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.62,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:crayfish",
+   "name_en": "Crayfish",
+   "name_zh": "螯虾",
+   "description_zh": "螯虾（Crayfish）是模组添加的体型偏小的甲壳类，生命值 1 点。平时在水底爬行。生成于寒冷河流、河流、热带河流，每次生成 1–2 只；击杀掉落生小龙虾；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:crown_jellyfish",
+   "name_en": "Crown Jellyfish",
+   "name_zh": "冠水母",
+   "description_zh": "冠水母（Crown Jellyfish）是模组添加的体型中等的水母，生命值 3 点。平时随水流漂浮。生成于寒冷海沟、冰封海沟、温水海沟、温带海沟等 5 处水域，每次生成 1 只；击杀掉落萤光史莱姆；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:cuttlefish",
+   "name_en": "Cuttlefish",
+   "name_zh": "乌贼",
+   "description_zh": "乌贼（Cuttlefish）是模组添加的体型偏小的头足类，生命值 6 点。会捕食甲壳类，同时会被鲨鱼捕食，还会在受攻击时喷墨。生成于珊瑚礁、温带浅海、温暖浅海，每次生成 1 只；击杀掉落墨囊、乌贼骨、生触须；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:damselfish",
+   "name_en": "Damselfish",
+   "name_zh": "雀鲷",
+   "description_zh": "雀鲷（Damselfish）是模组添加的体型很小的鱼类，生命值 6 点。会被中型生物、大型生物、鲨鱼捕食，还会成群结队地游动。生成于珊瑚礁、温水海洋、温暖浅海，每次生成 4–12 只；击杀掉落同名物品（雀鲷）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:danio",
+   "name_en": "Danio",
+   "name_zh": "斑马鱼",
+   "description_zh": "斑马鱼（Danio）是模组添加的体型很小的鱼类，生命值 2 点。会被中型生物、大型生物、鲨鱼捕食，还会成群结队地游动。生成于丛林水域、红树林、沼泽、热带河流，每次生成 2–3 只；击杀掉落同名物品（斑马鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:decorator_crab",
+   "name_en": "Decorator Crab",
+   "name_zh": "装饰蟹",
+   "description_zh": "装饰蟹（Decorator Crab）是模组添加的体型偏小的甲壳类，生命值 3 点。平时在水底爬行。生成于珊瑚礁、红色草甸，每次生成 1–2 只；击杀掉落生螃蟹；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:discus",
+   "name_en": "Discus",
+   "name_zh": "七彩神仙鱼",
+   "description_zh": "七彩神仙鱼（Discus）是模组添加的体型偏小的鱼类，生命值 3 点。会被中型生物、大型生物、鲨鱼捕食。生成于丛林水域、红树林、热带河流，每次生成 1 只；击杀掉落同名物品（七彩神仙鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:dragonfish",
+   "name_en": "Dragonfish",
+   "name_zh": "龙鱼",
+   "description_zh": "龙鱼（Dragonfish）是模组添加的体型偏小的鱼类，生命值 3 点。会捕食小型生物，同时会被中型生物、大型生物、鲨鱼捕食。生成于温水海沟、温带海沟、温暖海沟，每次生成 1–2 只；击杀掉落同名物品（龙鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:dugong",
+   "name_en": "Dugong",
+   "name_zh": "",
+   "description_zh": "Dugong 是模组添加的体型较大的海洋哺乳动物，生命值 32 点。会与同类繁殖。生成于海草床，每次生成 1–2 只；击杀掉落 Sirenian Beef、皮革；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:dungeness_crab",
+   "name_en": "Dungeness Crab",
+   "name_zh": "元宝蟹",
+   "description_zh": "元宝蟹（Dungeness Crab）是模组添加的体型偏小的甲壳类，生命值 3 点。会在沙地里挖掘、主动袭击靠近的海龟。生成于沙滩，每次生成 1–2 只；击杀掉落元宝蟹钳；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:fangtooth",
+   "name_en": "Fangtooth",
+   "name_zh": "",
+   "description_zh": "Fangtooth 是模组添加的体型偏小的鱼类，生命值 2 点。会捕食小型生物，同时会被中型生物、大型生物、鲨鱼捕食。生成于各类海沟，每次生成 1–2 只；击杀掉落生鱼肉；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:fiddler_crab",
+   "name_en": "Fiddler Crab",
+   "name_zh": "招潮蟹",
+   "description_zh": "招潮蟹（Fiddler Crab）是模组添加的体型偏小的甲壳类，生命值 3 点。会在沙地里挖掘、主动袭击靠近的海龟。生成于红树林、沼泽，每次生成 1–2 只；击杀掉落招潮蟹钳；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:firefly_squid",
+   "name_en": "Firefly Squid",
+   "name_zh": "萤火鱿",
+   "description_zh": "萤火鱿（Firefly Squid）是模组添加的体型很小的头足类，生命值 6 点。会捕食甲壳类，同时会被鲨鱼捕食，还会在受攻击时喷墨。生成于珊瑚礁、温水海洋、温水海沟、温暖海洋等 5 处水域，每次生成 1–2 只；击杀掉落 glow ink sac、生触须；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:firework_jellyfish",
+   "name_en": "Firework Jellyfish",
+   "name_zh": "烟花水母",
+   "description_zh": "烟花水母（Firework Jellyfish）是模组添加的体型偏小的水母，生命值 1 点。平时随水流漂浮。生成于寒冷海沟、深水珊瑚礁、冰封海沟、温水海沟等 6 处水域，每次生成 1 只；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.62,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:flashlight_fish",
+   "name_en": "Flashlight Fish",
+   "name_zh": "灯眼鱼",
+   "description_zh": "灯眼鱼（Flashlight Fish）是模组添加的体型很小的鱼类，生命值 6 点。会被中型生物、大型生物、鲨鱼捕食，还会成群结队地游动。生成于珊瑚礁、深水珊瑚礁、温水海洋、温暖浅海，每次生成 4–12 只；击杀掉落同名物品（灯眼鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:flower_crab",
+   "name_en": "Flower Crab",
+   "name_zh": "花蟹",
+   "description_zh": "花蟹（Flower Crab）是模组添加的体型偏小的甲壳类，生命值 3 点。会在沙地里挖掘、主动袭击靠近的海龟。生成于红树林、沼泽、红色草甸、海草床等 6 处水域，每次生成 1–2 只；击杀掉落花蟹钳；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:flying_fish",
+   "name_en": "Flying Fish",
+   "name_zh": "飞鱼",
+   "description_zh": "飞鱼（Flying Fish）是模组添加的体型很小的鱼类，生命值 3 点。会被中型生物、大型生物、鲨鱼捕食，还会浮到水面换气、成群结队地游动、跃出水面。生成于温水海洋、温暖浅海，每次生成 4–12 只；击杀掉落同名物品（飞鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:frilled_shark",
+   "name_en": "Frilled Shark",
+   "name_zh": "皱鳃鲨",
+   "description_zh": "皱鳃鲨（Frilled Shark）是模组添加的体型中等的鲨鱼，生命值 20 点，近战伤害 4 点。会捕食小型生物、小型鲨鱼、章鱼，同时会被大型鲨鱼捕食，还会在受击后反击。生成于深水珊瑚礁、温水海沟、温暖海沟，每次生成 1 只；击杀掉落鱼排；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:garden_eel",
+   "name_en": "Garden Eel",
+   "name_zh": "",
+   "description_zh": "Garden Eel 是模组添加的体型偏小的鱼类，生命值 3 点，击退抗性为满值。会被中型生物、大型生物、鲨鱼捕食。生成于海草床、温水浅海、温暖浅海，每次生成 3–8 只；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:ghost_crab",
+   "name_en": "Ghost Crab",
+   "name_zh": "幽灵蟹",
+   "description_zh": "幽灵蟹（Ghost Crab）是模组添加的体型偏小的甲壳类，生命值 3 点。会在白天钻进沙里躲藏、在沙地里挖掘、主动袭击靠近的海龟。生成于沙滩，每次生成 1–2 只；击杀掉落幽灵蟹钳；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:giant_isopod",
+   "name_en": "Giant Isopod",
+   "name_zh": "大王具足虫",
+   "description_zh": "大王具足虫（Giant Isopod）是模组添加的体型偏小的甲壳类，生命值 3 点。平时在水底爬行。生成于寒冷海洋、寒冷海沟、深水珊瑚礁、温带海洋等 6 处水域，每次生成 1–2 只；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.62,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:giant_squid",
+   "name_en": "Giant Squid",
+   "name_zh": "",
+   "description_zh": "Giant Squid 是模组添加的体型巨大的头足类，生命值 24 点。会捕食小型生物、中型生物，同时会被鲨鱼、鲸类捕食，还会在受攻击时喷墨。生成于寒冷海沟、温水海沟、温带海沟、温暖海沟，每次生成 1 只；击杀掉落墨囊、生触须；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:goblin_shark",
+   "name_en": "Goblin Shark",
+   "name_zh": "",
+   "description_zh": "Goblin Shark 是模组添加的体型较大的鲨鱼，生命值 20 点，近战伤害 8 点。会捕食蟹类、龙虾、鳐类等，还会在受击后反击。生成于寒冷海沟、温水海沟、温带海沟、温暖海沟，每次生成 1 只；击杀掉落鱼排；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:golden_dorado",
+   "name_en": "Golden Dorado",
+   "name_zh": "黄金鲯鳅",
+   "description_zh": "黄金鲯鳅（Golden Dorado）是模组添加的体型中等的鱼类，生命值 10 点，近战伤害 5 点。会捕食小型生物、中型生物、甲壳类，同时会被鲨鱼捕食，还会捡食水中的食物。生成于丛林水域、热带河流，每次生成 1 只；击杀掉落同名物品（黄金鲯鳅）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:goldfish",
+   "name_en": "Goldfish",
+   "name_zh": "金鱼",
+   "description_zh": "金鱼（Goldfish）是模组添加的体型很小的鱼类，生命值 3 点。会被中型生物、大型生物、鲨鱼捕食，还会与同类繁殖、被玩家手里的食物吸引、啃食水草。jar 内没有自然生成配置，只能用刷怪蛋生成；击杀掉落同名物品（金鱼）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.64,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:gourami",
+   "name_en": "Gourami",
+   "name_zh": "丝足鲈",
+   "description_zh": "丝足鲈（Gourami）是模组添加的体型偏小的鱼类，生命值 3 点。会被中型生物、大型生物、鲨鱼捕食。生成于丛林水域、红树林、沼泽、热带河流，每次生成 1 只；击杀掉落同名物品（丝足鲈）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:great_white_shark",
+   "name_en": "Great White Shark",
+   "name_zh": "大白鲨",
+   "description_zh": "大白鲨（Great White Shark）是模组添加的体型较大的鲨鱼，生命值 30 点，近战伤害 8 点。会主动攻击玩家，并捕食中型生物、大型生物、小型鲨鱼、中型鲨鱼等，还会在受击后反击、跃出水面。生成于深温水海洋、深温带海洋、深温暖海洋，每次生成 1 只；击杀掉落鱼排；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:hagfish",
+   "name_en": "Hagfish",
+   "name_zh": "",
+   "description_zh": "Hagfish 是模组添加的体型偏小的鱼类，生命值 4 点。会被中型生物、大型生物、鲨鱼捕食，还会啃食水草。jar 内没有自然生成配置，只能用刷怪蛋生成；击杀掉落同名物品（Hagfish）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.64,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:hammerhead_shark",
+   "name_en": "Hammerhead Shark",
+   "name_zh": "锤头鲨",
+   "description_zh": "锤头鲨（Hammerhead Shark）是模组添加的体型中等的鲨鱼，生命值 20 点，近战伤害 4 点。会捕食蟹类、龙虾、小型生物等，同时会被大型鲨鱼捕食，还会在受击后反击。生成于海草床、温水浅海、温暖浅海、温带海洋，每次生成 1–2 只；击杀掉落鱼排；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:hatchetfish",
+   "name_en": "Hatchetfish",
+   "name_zh": "",
+   "description_zh": "Hatchetfish 是模组添加的体型偏小的鱼类，生命值 2 点。会被中型生物、大型生物、鲨鱼捕食。生成于各类海沟，每次生成 1–2 只；击杀掉落生鱼肉；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:hermit_crab",
+   "name_en": "Hermit Crab",
+   "name_zh": "寄居蟹",
+   "description_zh": "寄居蟹（Hermit Crab）是模组添加的体型偏小的甲壳类，生命值 3 点。会躲开靠近的玩家。生成于红色草甸、沙滩、海草床、温水浅海，每次生成 1–2 只；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:herring",
+   "name_en": "Herring",
+   "name_zh": "鲱鱼",
+   "description_zh": "鲱鱼（Herring）是模组添加的体型很小的鱼类，生命值 6 点。会被中型生物、大型生物、鲨鱼捕食，还会成群结队地游动。生成于寒冷浅海、温带浅海，每次生成 4–12 只；击杀掉落同名物品（鲱鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:horseshoe_crab",
+   "name_en": "Horseshoe Crab",
+   "name_zh": "鲎",
+   "description_zh": "鲎（Horseshoe Crab）是模组添加的体型偏小的甲壳类，生命值 3 点。平时在水底爬行。生成于红色草甸、沙滩、海草床、温水浅海等 5 处水域，每次生成 1–2 只；击杀掉落生螃蟹；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:hound_shark",
+   "name_en": "Hound Shark",
+   "name_zh": "皱唇鲨",
+   "description_zh": "皱唇鲨（Hound Shark）是模组添加的体型中等的鲨鱼，生命值 12 点，近战伤害 3 点。会捕食小型生物，同时会被中型生物、大型生物、中型鲨鱼捕食，还会在受击后反击、伏在水底休息。生成于温水浅海、温带浅海，每次生成 1–2 只；击杀掉落生鱼肉；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:john_dory",
+   "name_en": "John Dory",
+   "name_zh": "海鲂",
+   "description_zh": "海鲂（John Dory）是模组添加的体型偏小的鱼类，生命值 6 点，近战伤害 3 点。会捕食小型生物，同时会被中型生物、大型生物、鲨鱼捕食。生成于深温水海洋、深水珊瑚礁、深温带海洋、深温暖海洋等 7 处水域，每次生成 1–2 只；击杀掉落同名物品（海鲂）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:karcinogen",
+   "name_en": "Karcinogen",
+   "name_zh": "小蟹座",
+   "description_zh": "小蟹座（Karcinogen）是巨蟹座（Karkinos）召唤出的小怪，生命值 6 点、近战伤害 4 点，会主动攻击玩家、朝目标游去，并能跃起扑击目标。它没有自然生成配置与掉落，只能用刷怪蛋放置。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的实体类方法、AI 目标类，以及 biome_modifier 与 loot_tables。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:karcinoma",
+   "name_en": "Karcinoma",
+   "name_zh": "小虾座",
+   "description_zh": "小虾座（Karcinoma）是巨蟹座（Karkinos）召唤出的小怪，生命值 6 点、近战伤害 4 点，会主动攻击玩家、朝目标游去，并在水中随机游动寻找目标。它没有自然生成配置与掉落，只能用刷怪蛋放置。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的实体类方法、AI 目标类，以及 biome_modifier 与 loot_tables。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:karkinos",
+   "name_en": "Karkinos",
+   "name_zh": "巨蟹座",
+   "description_zh": "巨蟹座（Karkinos）是模组的 Boss 级生物，生命值 300 点、近战伤害 8 点，击退抗性为满值，出场时会在屏幕顶部显示专属 Boss 血条；战斗中会召唤小蟹座（Karcinogen/Karcinoma）助战，并以巨钳近战猛击玩家和铁傀儡。它没有自然生成配置，可用刷怪蛋或不详钓钩（Ominous Hook）召唤，击杀掉落生螃蟹与巨蟹座巨钳。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.64,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的实体类方法、AI 目标类，以及 biome_modifier 与 loot_tables。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:lantern_shark",
+   "name_en": "Lantern Shark",
+   "name_zh": "灯笼鲨",
+   "description_zh": "灯笼鲨（Lantern Shark）是模组添加的体型偏小的鲨鱼，生命值 8 点。会捕食小型生物，同时会被中型生物、大型生物、中型鲨鱼捕食。生成于深温水海洋、深水珊瑚礁、深温带海洋、深温暖海洋等 7 处水域，每次生成 1–2 只；击杀掉落生鱼肉；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:lightfoot_crab",
+   "name_en": "Lightfoot Crab",
+   "name_zh": "裸足蟹",
+   "description_zh": "裸足蟹（Lightfoot Crab）是模组添加的体型偏小的甲壳类，生命值 3 点。会在沙地里挖掘、主动袭击靠近的海龟。生成于岩石海岸，每次生成 1–2 只；击杀掉落裸足蟹钳；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:lions_mane_jellyfish",
+   "name_en": "Lion's Mane Jellyfish",
+   "name_zh": "狮鬃水母",
+   "description_zh": "狮鬃水母（Lion's Mane Jellyfish）是模组添加的体型较大的水母，生命值 8 点。平时随水流漂浮。生成于寒冷海洋、冻洋，每次生成 1 只；击杀掉落黏液球；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:lionfish",
+   "name_en": "Lionfish",
+   "name_zh": "狮子鱼",
+   "description_zh": "狮子鱼（Lionfish）是模组添加的体型偏小的鱼类，生命值 6 点，近战伤害 3 点。会捕食小型生物、甲壳类，同时会被大型生物、鲨鱼捕食。生成于珊瑚礁、红色草甸，每次生成 1–2 只；击杀掉落同名物品（狮子鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:lobster",
+   "name_en": "Lobster",
+   "name_zh": "龙虾",
+   "description_zh": "龙虾（Lobster）是模组添加的体型偏小的甲壳类，生命值 3 点。平时在水底爬行。生成于珊瑚礁、深水珊瑚礁、红色草甸、海草床等 6 处水域，每次生成 1–2 只；击杀掉落龙虾钳、生龙虾尾；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:mackerel",
+   "name_en": "Mackerel",
+   "name_zh": "鲭鱼",
+   "description_zh": "鲭鱼（Mackerel）是模组添加的体型很小的鱼类，生命值 6 点。会被中型生物、大型生物、鲨鱼捕食，还会成群结队地游动。生成于寒冷海洋、温带海洋，每次生成 4–12 只；击杀掉落同名物品（鲭鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:mahi",
+   "name_en": "Mahi",
+   "name_zh": "鬼头刀",
+   "description_zh": "鬼头刀（Mahi）是模组添加的体型中等的鱼类，生命值 6 点，近战伤害 3 点。会捕食小型生物、头足类，同时会被鲨鱼捕食，还会成群结队地游动、跃出水面。生成于深温水海洋、深温暖海洋，每次生成 1–4 只；击杀掉落同名物品（鬼头刀）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:manatee",
+   "name_en": "Manatee",
+   "name_zh": "",
+   "description_zh": "Manatee 是模组添加的体型较大的海洋哺乳动物，生命值 32 点。会与同类繁殖。生成于红树林、海草床、热带河流，每次生成 1–2 只；击杀掉落 Sirenian Beef、皮革；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:manta_ray",
+   "name_en": "Manta Ray",
+   "name_zh": "蝠鲼",
+   "description_zh": "蝠鲼（Manta Ray）是模组添加的体型中等的鱼类，生命值 10 点。会被鲨鱼捕食，还会跃出水面、在受击后反击、在水中翻滚表演。生成于温水海洋、温带海洋、温暖海洋，每次生成 1–3 只；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:mauve_stinger",
+   "name_en": "Mauve Stinger",
+   "name_zh": "远洋夜光水母",
+   "description_zh": "远洋夜光水母（Mauve Stinger）是模组添加的体型很小的水母，生命值 3 点。平时随水流漂浮。生成于寒冷海沟、深水珊瑚礁、冰封海沟、温水海沟等 6 处水域，每次生成 1–3 只；击杀掉落黏液球；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:moon_jellyfish",
+   "name_en": "Moon Jellyfish",
+   "name_zh": "海月水母",
+   "description_zh": "海月水母（Moon Jellyfish）是模组添加的体型很小的水母，生命值 1 点。平时随水流漂浮。生成于珊瑚礁、红色草甸、沙滩、海草床等 7 处水域，每次生成 2–5 只；击杀掉落黏液球；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:moray_eel",
+   "name_en": "Moray Eel",
+   "name_zh": "海鳗",
+   "description_zh": "海鳗（Moray Eel）是模组添加的体型中等的鱼类，生命值 6 点，近战伤害 5 点。会捕食小型生物、甲壳类、头足类，同时会被大型生物、鲨鱼捕食，还会捡食水中的食物。生成于珊瑚礁、海草床，每次生成 1–2 只；击杀掉落同名物品（海鳗）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:nautilus",
+   "name_en": "Nautilus",
+   "name_zh": "鹦鹉螺",
+   "description_zh": "鹦鹉螺（Nautilus）是模组添加的体型偏小的头足类，生命值 6 点。会被鲨鱼捕食。jar 内没有自然生成配置，只能用刷怪蛋生成；击杀掉落鹦鹉螺壳、生触须。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.64,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:needlefish",
+   "name_en": "Needlefish",
+   "name_zh": "针鱼",
+   "description_zh": "针鱼（Needlefish）是模组添加的体型偏小的鱼类，生命值 6 点，近战伤害 3 点。会捕食小型生物、头足类，同时会被大型生物、鲨鱼捕食，还会捡食水中的食物、成群结队地游动。生成于温水海洋、海草床、温带浅海，每次生成 1–4 只；击杀掉落同名物品（针鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:nomura_jellyfish",
+   "name_en": "Nomura Jellyfish",
+   "name_zh": "野村水母",
+   "description_zh": "野村水母（Nomura Jellyfish）是模组添加的体型中等的水母，生命值 3 点。平时随水流漂浮。生成于寒冷海洋、冻洋，每次生成 1 只；击杀掉落黏液球；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:oarfish",
+   "name_en": "Oarfish",
+   "name_zh": "皇带鱼",
+   "description_zh": "皇带鱼（Oarfish）是模组添加的体型较大的鱼类，生命值 12 点。会被鲨鱼捕食。生成于深温水海洋、深温带海洋、深温暖海洋、温水海沟等 6 处水域，每次生成 1–2 只；击杀掉落同名物品（皇带鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:ocean_sunfish",
+   "name_en": "Ocean Sunfish",
+   "name_zh": "",
+   "description_zh": "Ocean Sunfish 是模组添加的体型较大的鱼类，生命值 16 点，击退抗性为满值。会捕食水母，同时会被鲨鱼捕食，还会跃出水面。生成于深温水海洋、深温带海洋、深温暖海洋，每次生成 1–2 只；击杀掉落同名物品（Ocean Sunfish）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:octopus",
+   "name_en": "Octopus",
+   "name_zh": "章鱼",
+   "description_zh": "章鱼（Octopus）是模组添加的体型偏小的头足类，生命值 12 点，近战伤害 4 点。会捕食甲壳类，同时会被鲨鱼捕食，还会在受攻击时喷墨。生成于珊瑚礁、红色草甸、温水浅海、温带浅海，每次生成 1 只；击杀掉落生触须；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:opah",
+   "name_en": "Opah",
+   "name_zh": "月鱼",
+   "description_zh": "月鱼（Opah）是模组添加的体型中等的鱼类，生命值 6 点，近战伤害 5 点。会捕食小型生物、头足类，同时会被中型生物、鲨鱼捕食，还会跟随同伴或首领。生成于深温水海洋、深温带海洋、深温暖海洋，每次生成 1–2 只；击杀掉落同名物品（月鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:orca",
+   "name_en": "Orca",
+   "name_zh": "",
+   "description_zh": "Orca 是模组添加的体型巨大的海洋哺乳动物，生命值 50 点，近战伤害 8 点。会捕食小型生物、中型生物、大型生物等，还会捡食水中的食物、与同类繁殖。生成于寒冷海洋、冻洋、温带海洋，每次生成 1–3 只；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:otter",
+   "name_en": "Otter",
+   "name_zh": "水獭",
+   "description_zh": "水獭（Otter）是模组添加的海洋哺乳动物，生命值 10 点、近战伤害 3 点，拥有一整套专属 AI：会潜水捕食、浮上水面呼吸、在水面漂浮、上岸行走，并会主动攻击目标。生成于河流、岩石海岸与沙滩，可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的实体类方法、AI 目标类，以及 biome_modifier 与 loot_tables。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:parrotfish",
+   "name_en": "Parrotfish",
+   "name_zh": "鹦鹉鱼",
+   "description_zh": "鹦鹉鱼（Parrotfish）是模组添加的体型偏小的鱼类，生命值 6 点。会被大型生物、鲨鱼捕食，还会啃食水草。生成于珊瑚礁、温暖浅海，每次生成 1–2 只；击杀掉落同名物品（鹦鹉鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:pearlfish",
+   "name_en": "Pearlfish",
+   "name_zh": "隐鱼",
+   "description_zh": "隐鱼（Pearlfish）是模组添加的体型很小的鱼类，生命值 3 点。会被中型生物、大型生物、鲨鱼捕食。jar 内没有自然生成配置，只能用刷怪蛋生成；击杀掉落同名物品（隐鱼）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.64,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:piranha",
+   "name_en": "Piranha",
+   "name_zh": "食人鱼",
+   "description_zh": "食人鱼（Piranha）是模组添加的体型很小的鱼类，生命值 4 点。会捕食小型生物，同时会被中型生物、大型生物、鲨鱼捕食，还会成群结队地游动、捡食水中的食物、在受击后反击。生成于丛林水域、热带河流，每次生成 4–8 只；击杀掉落同名物品（食人鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:pleco",
+   "name_en": "Pleco",
+   "name_zh": "",
+   "description_zh": "Pleco 是模组添加的体型中等的鱼类，生命值 3 点。会被中型生物、大型生物、鲨鱼捕食，还会啃食水草、伏在水底休息。生成于丛林水域、红树林、沼泽、热带河流，每次生成 1–2 只；击杀掉落同名物品（Pleco）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:pupfish",
+   "name_en": "Pupfish",
+   "name_zh": "魔鬼洞鳉鱼",
+   "description_zh": "魔鬼洞鳉鱼（Pupfish）是模组添加的体型很小的鱼类，生命值 3 点。会被中型生物、大型生物、鲨鱼捕食。生成于恶地，每次生成 1 只；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:ratfish",
+   "name_en": "Ratfish",
+   "name_zh": "银鲛",
+   "description_zh": "银鲛（Ratfish）是模组添加的体型偏小的鱼类，生命值 6 点，近战伤害 3 点。会捕食甲壳类，同时会被大型生物、鲨鱼捕食。生成于各类海沟、深水珊瑚礁，每次生成 1–3 只；击杀掉落同名物品（银鲛）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:rockfish",
+   "name_en": "Rockfish",
+   "name_zh": "岩鱼",
+   "description_zh": "岩鱼（Rockfish）是模组添加的体型偏小的鱼类，生命值 6 点。会被大型生物、鲨鱼捕食。生成于深水珊瑚礁、温水海洋、温带浅海，每次生成 1–4 只；击杀掉落同名物品（岩鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:sand_tiger_shark",
+   "name_en": "Sand Tiger Shark",
+   "name_zh": "虎鲨",
+   "description_zh": "虎鲨（Sand Tiger Shark）是模组添加的体型较大的鲨鱼，生命值 30 点，近战伤害 8 点。会捕食蟹类、龙虾、鳐类等，还会在受击后反击。生成于海草床、温水浅海、温带浅海、温暖浅海，每次生成 1 只；击杀掉落鱼排；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:scalyfoot_snail",
+   "name_en": "Scalyfoot Snail",
+   "name_zh": "",
+   "description_zh": "Scalyfoot Snail 是模组添加的体型偏小的底栖小生物，生命值 4 点。贴附在水底缓慢移动。生成于热液喷口附近，每次生成 1–2 只；击杀掉落 iron nugget；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:sea_angel",
+   "name_en": "Sea Angel",
+   "name_zh": "海天使",
+   "description_zh": "海天使（Sea Angel）是模组添加的体型很小的鱼类，生命值 1 点。平时在水中随机游动。生成于寒冷海沟、冰封海沟、温带海沟，每次生成 1–2 只；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.62,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:sea_bass",
+   "name_en": "Sea Bass",
+   "name_zh": "海鲈",
+   "description_zh": "海鲈（Sea Bass）是模组添加的体型偏小的鱼类，生命值 6 点。会被大型生物、鲨鱼捕食。生成于深水珊瑚礁、温水海洋、温带浅海，每次生成 1–3 只；击杀掉落同名物品（海鲈）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:sea_cucumber",
+   "name_en": "Sea Cucumber",
+   "name_zh": "海参",
+   "description_zh": "海参（Sea Cucumber）是模组添加的体型偏小的底栖小生物，生命值 2 点。贴附在水底缓慢移动。生成于各类海沟、深海、海洋、红色草甸，每次生成 1–2 只；击杀掉落黏液球；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:sea_nettle",
+   "name_en": "Sea Nettle",
+   "name_zh": "海荨麻",
+   "description_zh": "海荨麻（Sea Nettle）是模组添加的体型中等的水母，生命值 3 点。平时随水流漂浮。生成于温水海洋、温暖浅海、温带海洋，每次生成 1–4 只；击杀掉落黏液球；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:sea_slug",
+   "name_en": "Sea Slug",
+   "name_zh": "海蛞蝓",
+   "description_zh": "海蛞蝓（Sea Slug）是模组添加的体型偏小的底栖小生物，生命值 2 点。贴附在水底缓慢移动。生成于珊瑚礁、温水海洋、红色草甸、海草床等 7 处水域，每次生成 1–2 只；击杀掉落黏液球；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:sea_urchin",
+   "name_en": "Sea Urchin",
+   "name_zh": "海胆",
+   "description_zh": "海胆（Sea Urchin）是模组添加的体型偏小的底栖小生物，生命值 2 点，击退抗性为满值。会啃食海带。生成于各类海沟、深海、海洋、红色草甸，每次生成 1–2 只；击杀掉落海胆刺、海胆；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:seadragon",
+   "name_en": "Seadragon",
+   "name_zh": "叶海龙",
+   "description_zh": "叶海龙（Seadragon）是模组添加的体型偏小的鱼类，生命值 2 点。会被小型生物、中型生物、大型生物捕食。生成于深温水海洋、海草床、温带浅海，每次生成 1–2 只；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:seahorse",
+   "name_en": "Seahorse",
+   "name_zh": "海马",
+   "description_zh": "海马（Seahorse）是模组添加的体型偏小的鱼类，生命值 2 点。会被小型生物、中型生物、大型生物捕食。生成于珊瑚礁、海草床，每次生成 1–2 只；击杀掉落同名物品（海马）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:shell_beast",
+   "name_en": "Shell Beast",
+   "name_zh": "",
+   "description_zh": "甲壳兽（Shell Beast）是模组的 Boss 级生物，生命值 500 点、近战伤害 8 点，击退抗性为满值，拥有专属 Boss 血条；它会召唤喙兽（Beakling）助战，并能发动远程攻击。它没有自然生成配置，可用不详海螺（Ominous Conch）召唤，击杀掉落生触须与 Comically Large Nautilus Shell。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.64,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的实体类方法、AI 目标类，以及 biome_modifier 与 loot_tables。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:shiner",
+   "name_en": "Shiner",
+   "name_zh": "",
+   "description_zh": "Shiner 是模组添加的体型偏小的鱼类，生命值 4 点。会被中型生物、大型生物、鲨鱼捕食。生成于寒冷河流、河流，每次生成 1–2 只；击杀掉落生鱼肉；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:shrimp",
+   "name_en": "Shrimp",
+   "name_zh": "虾",
+   "description_zh": "虾（Shrimp）是模组添加的体型偏小的甲壳类，生命值 1 点。会为其他生物清理寄生虫。生成于珊瑚礁、深水珊瑚礁、红色草甸、海草床等 6 处水域，每次生成 2–3 只；击杀掉落生虾；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:sixgill_shark",
+   "name_en": "Sixgill Shark",
+   "name_zh": "",
+   "description_zh": "Sixgill Shark 是模组添加的体型较大的鲨鱼，生命值 30 点，近战伤害 8 点。会捕食中型生物、小型鲨鱼、鱿鱼，还会在受击后反击。生成于温水海沟、温带海沟、温暖海沟，每次生成 1 只；击杀掉落鱼排；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:sleeper_shark",
+   "name_en": "Sleeper Shark",
+   "name_zh": "",
+   "description_zh": "Sleeper Shark 是模组添加的体型较大的鲨鱼，生命值 30 点，近战伤害 5 点。会捕食中型生物、小型鲨鱼、鱿鱼，还会在受击后反击。生成于寒冷海沟、冰封海沟，每次生成 1 只；击杀掉落鱼排；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:slickhead",
+   "name_en": "Slickhead",
+   "name_zh": "",
+   "description_zh": "Slickhead 是模组添加的体型中等的鱼类，生命值 8 点，近战伤害 3 点。会捕食小型生物、鱿鱼，同时会被鲨鱼捕食。生成于寒冷海沟、温带海沟，每次生成 1 只；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:snailfish",
+   "name_en": "Snailfish",
+   "name_zh": "狮子鱼",
+   "description_zh": "狮子鱼（Snailfish）是模组添加的体型很小的鱼类，生命值 1 点。会被大型生物、鲨鱼捕食。生成于各类海沟，每次生成 1–3 只；击杀掉落同名物品（狮子鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:spider_crab",
+   "name_en": "Spider Crab",
+   "name_zh": "蜘蛛蟹",
+   "description_zh": "蜘蛛蟹（Spider Crab）是模组添加的体型偏小的甲壳类，生命值 3 点。平时在水底爬行。生成于寒冷海洋、寒冷海沟、深水珊瑚礁、温带海洋等 6 处水域，每次生成 1–2 只；击杀掉落蜘蛛蟹钳；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:squirrelfish",
+   "name_en": "Squirrelfish",
+   "name_zh": "松鼠鱼",
+   "description_zh": "松鼠鱼（Squirrelfish）是模组添加的体型很小的鱼类，生命值 6 点。会被中型生物、大型生物、鲨鱼捕食，还会成群结队地游动。生成于珊瑚礁、深水珊瑚礁、温水海洋、红色草甸等 5 处水域，每次生成 4–12 只；击杀掉落同名物品（松鼠鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:starfish",
+   "name_en": "Starfish",
+   "name_zh": "海星",
+   "description_zh": "海星（Starfish）是模组添加的体型偏小的底栖小生物，生命值 1 点，击退抗性为满值。贴附在水底缓慢移动。生成于各类海沟、深海、海洋、沙滩，每次生成 1–2 只；击杀掉落同名物品（海星）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:stingray",
+   "name_en": "Stingray",
+   "name_zh": "刺鳐",
+   "description_zh": "刺鳐（Stingray）是模组添加的体型中等的鱼类，生命值 6 点，近战伤害 5 点。会捕食甲壳类，同时会被大型生物、鲨鱼捕食，还会在受击后反击、伏在水底休息。生成于珊瑚礁、红色草甸、海草床、温水浅海等 5 处水域，每次生成 1–2 只；击杀掉落同名物品（刺鳐）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:stonefish",
+   "name_en": "Stonefish",
+   "name_zh": "石头鱼",
+   "description_zh": "石头鱼（Stonefish）是模组添加的体型很小的鱼类，生命值 3 点。会捕食小型生物，同时会被中型生物、大型生物、鲨鱼捕食，还会伏在水底休息。生成于珊瑚礁、海草床，每次生成 1–2 只；击杀掉落同名物品（石头鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:sunfish",
+   "name_en": "Sunfish",
+   "name_zh": "翻车鱼",
+   "description_zh": "翻车鱼（Sunfish）是模组添加的体型偏小的鱼类，生命值 3 点。会被中型生物、大型生物、鲨鱼捕食。生成于河流，每次生成 1–2 只；击杀掉落同名物品（翻车鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:surgeonfish",
+   "name_en": "Surgeonfish",
+   "name_zh": "刺尾鱼",
+   "description_zh": "刺尾鱼（Surgeonfish）是模组添加的体型偏小的鱼类，生命值 3 点。会被中型生物、大型生物、鲨鱼捕食，还会啃食水草、成群结队地游动。生成于珊瑚礁、海草床，每次生成 1–4 只；击杀掉落同名物品（刺尾鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:tetra",
+   "name_en": "Tetra",
+   "name_zh": "脂鲤",
+   "description_zh": "脂鲤（Tetra）是模组添加的体型很小的鱼类，生命值 3 点。会被中型生物、大型生物、鲨鱼捕食，还会成群结队地游动。生成于水下洞穴、丛林水域、红树林、沼泽等 5 处水域，每次生成 2–3 只；击杀掉落同名物品（脂鲤）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:thresher_shark",
+   "name_en": "Thresher Shark",
+   "name_zh": "长尾鲨",
+   "description_zh": "长尾鲨（Thresher Shark）是模组添加的体型较大的鲨鱼，生命值 20 点，近战伤害 4 点。会捕食小型生物、中型生物，同时会被大型鲨鱼捕食，还会在受击后反击、跃出水面。生成于深温水海洋、深温带海洋、深温暖海洋，每次生成 1 只；击杀掉落鱼排；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:tiger_barb",
+   "name_en": "Tiger Barb",
+   "name_zh": "虎皮鱼",
+   "description_zh": "虎皮鱼（Tiger Barb）是模组添加的体型很小的鱼类，生命值 3 点。会被中型生物、大型生物、鲨鱼捕食，还会成群结队地游动。生成于丛林水域、红树林、沼泽、热带河流，每次生成 2–3 只；击杀掉落同名物品（虎皮鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:trevally",
+   "name_en": "Trevally",
+   "name_zh": "",
+   "description_zh": "Trevally 是模组添加的体型偏小的鱼类，生命值 6 点。会跟随同伴或首领。生成于珊瑚礁、温水海洋、海草床、温暖浅海，每次生成 1 只；击杀掉落同名物品（Trevally）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:triggerfish",
+   "name_en": "Triggerfish",
+   "name_zh": "扳机鱼",
+   "description_zh": "扳机鱼（Triggerfish）是模组添加的体型偏小的鱼类，生命值 6 点。会捕食甲壳类，同时会被大型生物、鲨鱼捕食。生成于珊瑚礁、海草床、温暖浅海，每次生成 1 只；击杀掉落同名物品（扳机鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:tripod_fish",
+   "name_en": "Tripod Fish",
+   "name_zh": "",
+   "description_zh": "Tripod Fish 是模组添加的体型中等的鱼类，生命值 5 点。会被中型生物、大型生物、鲨鱼捕食，还会伏在水底休息。生成于各类海沟，每次生成 1–2 只；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:trout",
+   "name_en": "Trout",
+   "name_zh": "",
+   "description_zh": "Trout 是模组添加的体型偏小的鱼类，生命值 8 点。会被中型生物、大型生物、鲨鱼捕食。生成于寒冷河流、河流，每次生成 1 只；击杀掉落同名物品（Trout）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:tuna",
+   "name_en": "Tuna",
+   "name_zh": "金枪鱼",
+   "description_zh": "金枪鱼（Tuna）是模组添加的体型中等的鱼类，生命值 10 点，近战伤害 5 点。会捕食小型生物、头足类，同时会被鲨鱼捕食，还会捡食水中的食物、成群结队地游动、跃出水面。生成于深温水海洋、深温带海洋、深温暖海洋，每次生成 1–4 只；击杀掉落同名物品（金枪鱼）；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:umbrella_octopus",
+   "name_en": "Umbrella Octopus",
+   "name_zh": "伞章鱼",
+   "description_zh": "伞章鱼（Umbrella Octopus）是模组添加的体型偏小的头足类，生命值 6 点。会被鲨鱼捕食。jar 内没有自然生成配置，只能用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:vampire_crab",
+   "name_en": "Vampire Crab",
+   "name_zh": "吸血鬼蟹",
+   "description_zh": "吸血鬼蟹（Vampire Crab）是模组添加的体型偏小的甲壳类，生命值 3 点。会在沙地里挖掘。生成于丛林水域、热带河流，每次生成 1–2 只；击杀掉落吸血鬼蟹钳；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:vampire_squid",
+   "name_en": "Vampire Squid",
+   "name_zh": "吸血鬼乌贼",
+   "description_zh": "吸血鬼乌贼（Vampire Squid）是模组添加的体型偏小的头足类，生命值 6 点。会被鲨鱼捕食，还会张着嘴滤食浮游生物。jar 内没有自然生成配置，只能用刷怪蛋生成；击杀掉落生触须。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.64,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:viperfish",
+   "name_en": "Viperfish",
+   "name_zh": "",
+   "description_zh": "Viperfish 是模组添加的体型偏小的鱼类，生命值 2 点。会捕食小型生物，同时会被中型生物、大型生物、鲨鱼捕食。生成于各类海沟，每次生成 1–2 只；击杀掉落生鱼肉；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:whale_shark",
+   "name_en": "Whale Shark",
+   "name_zh": "鲸鲨",
+   "description_zh": "鲸鲨（Whale Shark）是模组添加的体型巨大的鲨鱼，生命值 40 点。会张着嘴滤食浮游生物。生成于温水海洋、温暖海洋，每次生成 1 只；击杀掉落鱼排；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:wrasse",
+   "name_en": "Wrasse",
+   "name_zh": "",
+   "description_zh": "Wrasse 是模组添加的体型偏小的鱼类，生命值 6 点，近战伤害 3 点。会捕食甲壳类、底栖小生物，同时会被大型生物、鲨鱼捕食。生成于温带浅海，每次生成 1–2 只；击杀掉落黄金突额鱼；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.65,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  },
+  {
+   "mob_id": "hybrid_aquatic:yeti_crab",
+   "name_en": "Yeti Crab",
+   "name_zh": "雪人蟹",
+   "description_zh": "雪人蟹（Yeti Crab）是模组添加的体型偏小的甲壳类，生命值 3 点。平时在水底爬行。生成于寒冷海沟、冰封海沟、热液喷口附近，每次生成 1–2 只；击杀掉落雪人蟹钳；也可用刷怪蛋生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/hybrid-aquatic",
+   "confidence": 0.63,
+   "notes": "据 jar 源码与数据文件整理：javap 反编译的 createMobAttributes / registerGoals，以及 forge/biome_modifier 生成配置与 loot_tables 掉落表。"
+  }
+ ]
+}

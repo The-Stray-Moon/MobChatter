@@ -1,0 +1,177 @@
+{
+ "rank": 112,
+ "mod": "Evil Hunter",
+ "mod_url": "https://modrinth.com/mod/evil-hunter",
+ "mobs": [
+  {
+   "mob_id": "evilhunter:final_boss",
+   "name_en": "Pg-00Z5",
+   "name_zh": "",
+   "description_zh": "模组两大 Boss 战之一的仪式战对手，模组正文点名为 Pg-00Z5。实体为 Monster 类，生命值 300、攻击伤害 6 点、仇恨范围 64 格，击退抗性为 1（完全免疫击退），并带 VULNERABLE 同步状态，说明它有可被攻击与不可被攻击的阶段。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/evil-hunter",
+   "confidence": 0.85,
+   "notes": "正文见 Modrinth 描述（Two boss fights - the ritual battle against Pg-00Z5 ...）；生命值/伤害/击退抗性取自 jar 内 FinalBossEntity.createAttributes 字节码。"
+  },
+  {
+   "mob_id": "evilhunter:evil_hunter",
+   "name_en": "Evil Hunter",
+   "name_zh": "",
+   "description_zh": "模组同名追击者，Monster 类，体型 0.6×1.8 格，生命值 150、移动速度 0.3、仇恨范围 1000 格，攻击伤害设为 0（伤害来自脚本化追猎而非近战）。代码带 isGiant 开关与 GIANT_SCALE=70，放大形态即“巨人”追猎，对应 fog/hide/giant 三种追逐事件的出现者。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/evil-hunter",
+   "confidence": 0.5,
+   "notes": "属性来自 EvilHunterEntity.createAttributes；GiantState/FogState/HideState 三个追猎脚本均引用 EVIL_HUNTER。有刷怪蛋；jar 内无自然生成配置。"
+  },
+  {
+   "mob_id": "evilhunter:hunter",
+   "name_en": "Hunter",
+   "name_zh": "",
+   "description_zh": "Monster 类，体型 0.6×1.8 格，生命值 150、攻击伤害 3 点、移动速度 0.3、仇恨范围 1000 格，可切换贴图。持有“Hunter”刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/evil-hunter",
+   "confidence": 0.5,
+   "notes": "属性来自 HunterEntity.createAttributes；item.evilhunter.hunter_spawn_egg 与模型文件均在 jar 中。资料有限。"
+  },
+  {
+   "mob_id": "evilhunter:evil_hunter_shadow",
+   "name_en": "Hunter's Shadow",
+   "name_zh": "",
+   "description_zh": "Monster 类，体型 0.6×1.8 格，生命值 150、移动速度 0.25、仇恨范围 64 格。内部维护最近位置与朝向的轨迹数组，用于绘制残影拖尾，是 Evil Hunter 的影子/分身版本。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/evil-hunter",
+   "confidence": 0.45,
+   "notes": "属性来自 EvilHunterShadowEntity.createAttributes；trailX/trailY/trailZ/trailYaw 由速度阈值触发写入。刷怪蛋名称为 Shadow Hunter Shadow Spawn Egg。"
+  },
+  {
+   "mob_id": "evilhunter:hunter_follow",
+   "name_en": "Stalking Hunter",
+   "name_zh": "",
+   "description_zh": "Monster 类，体型 0.6×1.8 格，生命值 150，但移动速度与仇恨范围都被设为 0，由外部脚本摆放，所以是原地不动的“跟随着”。代码含 trackedPlayer、视线检测（需 8 tick 确认、40° 视角阈值）与 dissolving 消散状态。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/evil-hunter",
+   "confidence": 0.45,
+   "notes": "属性来自 HunterFollowEntity.createAttributes；LOOK_CONFIRM_TICKS=8、LOOK_ANGLE_THRESHOLD=40、managedExternally 字段。有刷怪蛋。"
+  },
+  {
+   "mob_id": "evilhunter:dimension_hunter",
+   "name_en": "Dimension Hunter",
+   "name_zh": "",
+   "description_zh": "Mob 类（非 Monster），体型 0.6×1.8 格，生命值 1000、移动速度 0；提供 triggerDropAnimation/isDropPlaying，用于播放从上方坠落登场的动画。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/evil-hunter",
+   "confidence": 0.45,
+   "notes": "属性来自 DimensionHunterEntity.createAttributes；注册分类为 MISC。资料有限。"
+  },
+  {
+   "mob_id": "evilhunter:saver",
+   "name_en": "Saver",
+   "name_zh": "",
+   "description_zh": "Monster 类小型飞行实体，体型 0.6×1.8 格，生命值仅 10、攻击伤害 3 点、跟随距离 16 格，移动速度与飞行速度均为 0.3。持有“Saver”刷怪蛋。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/evil-hunter",
+   "confidence": 0.5,
+   "notes": "属性来自 SaverEntity.createAttributes（含 Attributes.f_22280_ 飞行速度 0.3）。资料有限。"
+  },
+  {
+   "mob_id": "evilhunter:crying_woman",
+   "name_en": "Crying Woman",
+   "name_zh": "",
+   "description_zh": "Monster 类，生命值 9999（实际打不死）、移动速度 0、伤害 0，靠 stage（1–3）与 targetPlayer/reachedPlayer 推进剧情表演；对应模组事件列表第 14 项 Crying Woman。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/evil-hunter",
+   "confidence": 0.5,
+   "notes": "lang 中 event.evilhunter.event.14 = Crying Woman，阶段音效键为 evilhunter:event14_stage1..3；属性来自 createAttributes。"
+  },
+  {
+   "mob_id": "evilhunter:doppelganger",
+   "name_en": "Doppelgänger",
+   "name_zh": "",
+   "description_zh": "直接继承原版僵尸（Zombie），因此血量与近战行为沿用僵尸；额外带 targetPlayer、lifeTicks 与 hasLookedAt，用于“假扮玩家”的惊吓事件（事件 16 Doppelganger）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/evil-hunter",
+   "confidence": 0.45,
+   "notes": "类声明为 extends net.minecraft.world.entity.monster.Zombie，无自定义 createAttributes；lang 中 event.evilhunter.event.16 = Doppelganger。"
+  },
+  {
+   "mob_id": "evilhunter:watcher",
+   "name_en": "Watcher",
+   "name_zh": "",
+   "description_zh": "Mob 类（注册分类 MISC），体型 0.6×1.8 格，生命值 20，带 pointing 与 crowdWatcher 两个同步状态（会指向玩家/成群出现）。WatcherSpawnManager 会在自定义维度中以 32 格半径、y=6 的高度生成它，玩家离开 40 格后清除。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/evil-hunter",
+   "confidence": 0.5,
+   "notes": "WatcherSpawnManager 常量：SPAWN_RANGE=32、DESPAWN_RANGE=40、WATCHER_Y=6；属性来自 WatcherEntity.createAttributes（20 血、速度 0）。"
+  },
+  {
+   "mob_id": "evilhunter:cannibal_pig",
+   "name_en": "Cannibal Pig",
+   "name_zh": "",
+   "description_zh": "继承原版猪（Pig），注册分类为 CREATURE，体型 0.9×0.9 格，只额外套了 GeckoLib 的行走/待机动画，没有自定义属性，因此血量沿用猪的 10 点。与模组剧情第 4 阶段的“把尸体喂猪”段落配套。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/evil-hunter",
+   "confidence": 0.45,
+   "notes": "类声明 extends Pig，无 createAttributes；lang 有 evilhunter.message.phase4_meat 与 event 15 Phase 4 (Flesh)。"
+  },
+  {
+   "mob_id": "evilhunter:flying_head",
+   "name_en": "Flying Head",
+   "name_zh": "",
+   "description_zh": "Monster 类，生命值 9999（无法被常规方式击杀），MAX_LIFE=240 tick（12 秒）后自行消失，属于短时的惊吓 / 氛围实体。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/evil-hunter",
+   "confidence": 0.5,
+   "notes": "属性来自 FlyingHeadEntity.createAttributes；MAX_LIFE=240，字段 life 递增后消失。注册分类 MISC、0.6×0.6。"
+  },
+  {
+   "mob_id": "evilhunter:void_chaser",
+   "name_en": "Void Chaser",
+   "name_zh": "",
+   "description_zh": "PathfinderMob，体型 0.6×1.8 格，生命值 1000、移动速度 0.1、仇恨范围 512 格；追击过程中会用 HUD 文本播报与玩家的距离（“IT IS %s BLOCKS FROM YOU”）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/evil-hunter",
+   "confidence": 0.5,
+   "notes": "属性来自 VoidChaserEntity.createAttributes；lang 键 evilhunter.void_chaser.distance 提供距离播报文本。"
+  },
+  {
+   "mob_id": "evilhunter:error",
+   "name_en": "Error",
+   "name_zh": "",
+   "description_zh": "Mob 类（注册分类 MISC），体型 0.6×1.8 格，生命值 10、移动速度为 0，只注册了待机动画，属于“故障”类氛围实体。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/evil-hunter",
+   "confidence": 0.5,
+   "notes": "属性来自 ErrorEntity.createAttributes；类内仅 idle/main 动画控制器。资料有限。"
+  },
+  {
+   "mob_id": "evilhunter:twix_peeker",
+   "name_en": "Peeking Figure",
+   "name_zh": "",
+   "description_zh": "Monster 类，体型 1.1×5.5 格，生命值 50、仇恨范围 32 格；出现后播放 LOOK 动画（LOOK_DURATION=103 tick），并会在黑暗中停留最多 DARK_SECONDS=60 秒，代码用 canBeSeenBy 判断玩家是否正看着它。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/evil-hunter",
+   "confidence": 0.5,
+   "notes": "常量 LOOK_DURATION=103、DARK_SECONDS=60、despawnAt/seen 字段；属性来自 TwixPeekerEntity.createAttributes。"
+  },
+  {
+   "mob_id": "evilhunter:twix_stalker",
+   "name_en": "Stalking Figure",
+   "name_zh": "",
+   "description_zh": "Monster 类，体型 1.1×5.5 格，生命值 200、攻击伤害 4 点、移动速度 0.3、仇恨范围 64 格。行为是 WANDER→SPOT→RUN→SEARCH 四段状态机：视野 22 格、30° 锥角发现玩家后，在 32 格 / 55° 内以 1.6 倍速度追击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/evil-hunter",
+   "confidence": 0.5,
+   "notes": "常量 VIEW_RANGE=22、VIEW_CONE=30、CHASE_RANGE=32、CHASE_CONE=55、RUN_SPEED_MULT=1.6、SPOT_TICKS=58；属性来自 createAttributes。"
+  },
+  {
+   "mob_id": "evilhunter:sphere",
+   "name_en": "Sphere",
+   "name_zh": "",
+   "description_zh": "Mob 类（注册分类 MISC），体型 0.9×1.2 格，生命值 10、击退抗性 1，另有 SHIELDED 状态与 MAX_ORB_HP=40 的护盾血量，是首领战里带护盾的能量球体，而非独立活动的生物。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/evil-hunter",
+   "confidence": 0.4,
+   "notes": "常量 MAX_ORB_HP=40；SHIELDED/ORB_HP 为同步数据。归属哪个 boss 的机制无法从 jar 中确认，资料有限。"
+  }
+ ]
+}

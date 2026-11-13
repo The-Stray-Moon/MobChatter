@@ -1,0 +1,782 @@
+{
+ "rank": 60,
+ "mod": "Fungal Infection:Spore",
+ "slug": "fungal-infectionspore",
+ "project_id": "X661i40C",
+ "source_url": "https://modrinth.com/mod/fungal-infectionspore",
+ "jar": "D:\\work\\MobChatter\\data\\jars\\X661i40C.jar",
+ "jar_size": 116439461,
+ "modid": "spore",
+ "entity_count": 96,
+ "mob_count": 96,
+ "entities": [
+  {
+   "key": "entity.spore.acid",
+   "id": "acid",
+   "en": "Acid",
+   "zh": "酸液",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.acid_ball",
+   "id": "acid_ball",
+   "en": "Acid Ball",
+   "zh": "酸液球",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.hvindicator",
+   "id": "hvindicator",
+   "en": "Axtwerfer",
+   "zh": "铁斧投手",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.bairn",
+   "id": "bairn",
+   "en": "Bairn",
+   "zh": "菌染幼体",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.bile",
+   "id": "bile",
+   "en": "Bile",
+   "zh": "胆汁",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.biobloob",
+   "id": "biobloob",
+   "en": "Bioblob",
+   "zh": "菌染憎恶",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.bloater",
+   "id": "bloater",
+   "en": "Bloater",
+   "zh": "深潜者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.braiomil",
+   "id": "braiomil",
+   "en": "Braiomil",
+   "zh": "舔舐者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.braurei",
+   "id": "braurei",
+   "en": "Braurei",
+   "zh": "酿毒体",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.brot",
+   "id": "brot",
+   "en": "Brotkatze",
+   "zh": "长舌魔",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.brute",
+   "id": "brute",
+   "en": "Brute",
+   "zh": "蛮兽",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.arena_tendril",
+   "id": "arena_tendril",
+   "en": "Challenge Watcher",
+   "zh": "竞技之须",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.chemist",
+   "id": "chemist",
+   "en": "Chemist",
+   "zh": "药剂师",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.conductor",
+   "id": "conductor",
+   "en": "Conductor",
+   "zh": "导电者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.delusioner",
+   "id": "delusioner",
+   "en": "Delusioner",
+   "zh": "妄念体",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.corpse_piece",
+   "id": "corpse_piece",
+   "en": "Dismembered Corpse",
+   "zh": "支离破碎的灾厄之躯",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.claw",
+   "id": "claw",
+   "en": "Evoker Claw",
+   "zh": "利爪",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.mound",
+   "id": "mound",
+   "en": "Flesh Mound",
+   "zh": "菌囊",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.gargoyle",
+   "id": "gargoyle",
+   "en": "Gargoyle",
+   "zh": "石像鬼",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.gastgaber",
+   "id": "gastgaber",
+   "en": "Gastgeber",
+   "zh": "菌主",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.gazenbreacher",
+   "id": "gazenbreacher",
+   "en": "GazenBreacher",
+   "zh": "凝袭魔",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.gorgon",
+   "id": "gorgon",
+   "en": "Gorgon",
+   "zh": "戈耳工",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.kraken",
+   "id": "kraken",
+   "en": "Grakensenker",
+   "zh": "沉渊魔",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.griefer",
+   "id": "griefer",
+   "en": "Griefer",
+   "zh": "侵袭者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.grober",
+   "id": "grober",
+   "en": "Groberfub",
+   "zh": "金刚兽",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.illusion",
+   "id": "illusion",
+   "en": "Hallucination",
+   "zh": "幻术体",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.harpoon",
+   "id": "harpoon",
+   "en": "Harpoon",
+   "zh": "拟态鱼叉",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.hevoker",
+   "id": "hevoker",
+   "en": "Hexenmeister",
+   "zh": "邪菌术士",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.hevoker_arm",
+   "id": "hevoker_arm",
+   "en": "Hexenmeister Claw",
+   "zh": "邪菌术士之爪",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.hindenburg",
+   "id": "hindenburg",
+   "en": "Hindenburg",
+   "zh": "菌械空堡",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.hivetumor",
+   "id": "hivetumor",
+   "en": "Hivetumor",
+   "zh": "蜂巢肿瘤",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.hohlfresser",
+   "id": "hohlfresser",
+   "en": "Hohlfresser",
+   "zh": "噬袭魔",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.hohlfresser_seg",
+   "id": "hohlfresser_seg",
+   "en": "Hohlfresser",
+   "zh": "噬袭魔环节",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.hollen",
+   "id": "hollen",
+   "en": "Hollenhund",
+   "zh": "坠狱兽",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.howitzer",
+   "id": "howitzer",
+   "en": "Howitzer",
+   "zh": "菌械重炮",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.howit_arm",
+   "id": "howit_arm",
+   "en": "Howitzer Arm",
+   "zh": "菌械重炮肢体",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.howler",
+   "id": "howler",
+   "en": "Howler",
+   "zh": "咆哮者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.inebriater",
+   "id": "inebriater",
+   "en": "Inebriater",
+   "zh": "酗酒者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.inf_player",
+   "id": "inf_player",
+   "en": "Infected Adventurer",
+   "zh": "菌染冒险家",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.inf_diseased_villager",
+   "id": "inf_diseased_villager",
+   "en": "Infected Diseased Villager",
+   "zh": "菌染僵尸村民",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.inf_drowned",
+   "id": "inf_drowned",
+   "en": "Infected Drowned",
+   "zh": "菌染溺尸",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.inf_evoker",
+   "id": "inf_evoker",
+   "en": "Infected Evoker",
+   "zh": "菌染唤魔者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.inf_human",
+   "id": "inf_human",
+   "en": "Infected Human",
+   "zh": "菌染人类",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.inf_husk",
+   "id": "inf_husk",
+   "en": "Infected Husk",
+   "zh": "菌染尸壳",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.inf_pillager",
+   "id": "inf_pillager",
+   "en": "Infected Pillager",
+   "zh": "菌染掠夺者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.inf_hazmat",
+   "id": "inf_hazmat",
+   "en": "Infected Scientist",
+   "zh": "菌染研究员",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.thrown_spear",
+   "id": "thrown_spear",
+   "en": "Infected Spear",
+   "zh": "扔出的长矛",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.inf_villager",
+   "id": "inf_villager",
+   "en": "Infected Villager",
+   "zh": "菌染村民",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.inf_vindicator",
+   "id": "inf_vindicator",
+   "en": "Infected Vindicator",
+   "zh": "菌染卫道士",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.inf_wanderer",
+   "id": "inf_wanderer",
+   "en": "Infected Wandering Trader",
+   "zh": "菌染流浪商人",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.inf_witch",
+   "id": "inf_witch",
+   "en": "Infected Witch",
+   "zh": "菌染女巫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.inf_contruct",
+   "id": "inf_contruct",
+   "en": "Infested Construct",
+   "zh": "菌染构造体",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.inquisitor",
+   "id": "inquisitor",
+   "en": "Inquisitor",
+   "zh": "审判者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.jagd",
+   "id": "jagd",
+   "en": "Jagdhund",
+   "zh": "潜猎兽",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.knight",
+   "id": "knight",
+   "en": "Knight",
+   "zh": "菌骑士",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.lacerator",
+   "id": "lacerator",
+   "en": "Lacerator",
+   "zh": "撕裂者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.leaper",
+   "id": "leaper",
+   "en": "Leaper",
+   "zh": "激跃者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.leviathan",
+   "id": "leviathan",
+   "en": "Leviathan",
+   "zh": "破舰魔",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.leviathan_seg",
+   "id": "leviathan_seg",
+   "en": "Leviathan",
+   "zh": "破舰魔分段",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.licker",
+   "id": "licker",
+   "en": "Licker",
+   "zh": "凝袭魔之舌",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.mephitic",
+   "id": "mephitic",
+   "en": "Mephitic",
+   "zh": "恶涎者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.naiad",
+   "id": "naiad",
+   "en": "Naiad",
+   "zh": "塞壬",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.nuclea",
+   "id": "nuclea",
+   "en": "Nuckelavee",
+   "zh": "纳克拉维",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.ogre",
+   "id": "ogre",
+   "en": "Ogre",
+   "zh": "食人魔",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.busser",
+   "id": "busser",
+   "en": "Phayres",
+   "zh": "邪灵",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.plagued",
+   "id": "plagued",
+   "en": "Plagued",
+   "zh": "疫病者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.protector",
+   "id": "protector",
+   "en": "Protector",
+   "zh": "守护者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.proto",
+   "id": "proto",
+   "en": "Proto Hivemind",
+   "zh": "雏型蜂巢思维",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.reaper",
+   "id": "reaper",
+   "en": "Reaper",
+   "zh": "收割者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.saugling",
+   "id": "saugling",
+   "en": "Saugling",
+   "zh": "畸尾婴",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.scamper",
+   "id": "scamper",
+   "en": "Scamper",
+   "zh": "窜扰者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.scavenger",
+   "id": "scavenger",
+   "en": "Scavenger",
+   "zh": "食腐鹫",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.scent",
+   "id": "scent",
+   "en": "Scent",
+   "zh": "支援孢气",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.sieger",
+   "id": "sieger",
+   "en": "Sieger",
+   "zh": "强袭魔",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.sieger_tail",
+   "id": "sieger_tail",
+   "en": "Sieger Tail",
+   "zh": "强袭魔之尾",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.slasher",
+   "id": "slasher",
+   "en": "Slasher",
+   "zh": "杀戮者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.specter",
+   "id": "specter",
+   "en": "Specter",
+   "zh": "幽灵",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.spit",
+   "id": "spit",
+   "en": "Spit",
+   "zh": "酸液",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.spitter",
+   "id": "spitter",
+   "en": "Spitter",
+   "zh": "喷吐者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.stahl",
+   "id": "stahl",
+   "en": "Stahlmorder",
+   "zh": "蚀刃魔",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.stalker",
+   "id": "stalker",
+   "en": "Stalker",
+   "zh": "追迹者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.thrown_tool",
+   "id": "thrown_tool",
+   "en": "Thrown Tool",
+   "zh": "丢出的工具",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.thrown_tumor",
+   "id": "thrown_tumor",
+   "en": "Tumor",
+   "zh": "扔出的肿瘤",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.tumoroid_nuke",
+   "id": "tumoroid_nuke",
+   "en": "Tumoroid Bomb",
+   "zh": "肿瘤核弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.umarmed",
+   "id": "umarmed",
+   "en": "Umarmer",
+   "zh": "拥孢体",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.usurper",
+   "id": "usurper",
+   "en": "Usurper",
+   "zh": "僭主体",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.vanguard",
+   "id": "vanguard",
+   "en": "Vanguard",
+   "zh": "先兆者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.thorn",
+   "id": "thorn",
+   "en": "Verdathorn",
+   "zh": "荆刺者",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.verfall",
+   "id": "verfall",
+   "en": "Verfalldrache",
+   "zh": "朽翼魔",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.verfall_head",
+   "id": "verfall_head",
+   "en": "Verfalldrache",
+   "zh": "朽翼魔断头",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.verva",
+   "id": "verva",
+   "en": "Verwahrung",
+   "zh": "保育体",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.vigil",
+   "id": "vigil",
+   "en": "Vigil",
+   "zh": "哨戒体",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.volatile",
+   "id": "volatile",
+   "en": "Volatile",
+   "zh": "巫猎饕",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.wave",
+   "id": "wave",
+   "en": "Wave",
+   "zh": "菌潮",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.wendigo",
+   "id": "wendigo",
+   "en": "Wendigo",
+   "zh": "林中鹿菌",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.spore.reconstructor",
+   "id": "reconstructor",
+   "en": "Womb",
+   "zh": "灾厄重构体",
+   "loot_table": "",
+   "projectile": false
+  }
+ ]
+}

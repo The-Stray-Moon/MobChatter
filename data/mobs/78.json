@@ -1,0 +1,147 @@
+{
+ "rank": 78,
+ "mod": "Mo' Zombies Wave",
+ "mod_url": "https://modrinth.com/mod/mo-zombies-wave",
+ "mobs": [
+  {
+   "mob_id": "mozombies_wave:disco_zombie",
+   "name_en": "Disco Zombie",
+   "name_zh": "",
+   "description_zh": "伴随音符粒子特效的迪斯科僵尸，拥有 20 点生命值与 3 点攻击伤害。被玩家击杀时有几率掉落 C418-13 唱片或唱片机，并有 3/4 概率掉落 0~3 个音符盒；因其他原因死亡则必定掉落 0~3 个音符盒。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/690906.html",
+   "confidence": 0.8,
+   "notes": ""
+  },
+  {
+   "mob_id": "mozombies_wave:nether_zombie",
+   "name_en": "Nether Zombie",
+   "name_zh": "",
+   "description_zh": "生成于下界的僵尸，拥有 20 点生命值与 7 点攻击伤害，免疫火焰并在岩浆中行动自如。死亡时掉落 0~1 颗金粒。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/690907.html",
+   "confidence": 0.8,
+   "notes": "免疫火焰一项由 jar 中 fireImmune() 覆写核实"
+  },
+  {
+   "mob_id": "mozombies_wave:survivor",
+   "name_en": "Survivor",
+   "name_zh": "",
+   "description_zh": "中立生物，在各处随机生成，有一半概率为女性，偶尔会骑着马出现（随后常被马甩下，野外因此能捡到带鞍的马）。有时手持铁剑、身穿皮革/锁链/金护甲，拥有 20 点生命值，空手攻击 4 点、持铁剑时 10 点，会主动攻击一切僵尸。被玩家攻击会反击，附近的求生者也会一起攻击玩家，死亡掉落 0~3 块面包。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/690904.html",
+   "confidence": 0.8,
+   "notes": ""
+  },
+  {
+   "mob_id": "mozombies_wave:zombie_chef",
+   "name_en": "Zombie Chef",
+   "name_zh": "",
+   "description_zh": "厨师外貌的僵尸，总是手持铁斧，拥有 20 点生命值，每次攻击造成 15 点伤害。死亡时 1/4 概率掉落 1~2 块生猪排，3/4 概率掉落 0~3 块生牛肉。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/690908.html",
+   "confidence": 0.8,
+   "notes": ""
+  },
+  {
+   "mob_id": "mozombies_wave:zombie_creeper",
+   "name_en": "Zombie Creeper",
+   "name_zh": "",
+   "description_zh": "僵尸外表的爬行者，除外观外行为与普通爬行者无异，会靠近目标后自爆，且免疫阳光伤害。死亡时掉落 TNT。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/690910.html",
+   "confidence": 0.8,
+   "notes": "掉落 TNT 由 jar 掉落表核实"
+  },
+  {
+   "mob_id": "mozombies_wave:zombie_cyborg",
+   "name_en": "Zombie Cyborg",
+   "name_zh": "",
+   "description_zh": "仿生人外貌的僵尸，拥有 20 点生命值与 6 点攻击伤害。死亡时 3/10 概率掉落 0~2 个红石火把、1/10 概率掉落一个投掷器、3/5 概率掉落 1~3 个红石。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/690912.html",
+   "confidence": 0.8,
+   "notes": ""
+  },
+  {
+   "mob_id": "mozombies_wave:zombie_dwarf",
+   "name_en": "Zombie Dwarf",
+   "name_zh": "",
+   "description_zh": "矮人外形的僵尸，拥有 20 点生命值与 1 点攻击伤害。死亡时 1/7 概率掉落一条皮革裤子，6/7 概率掉落 1~5 块煤炭。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/690905.html",
+   "confidence": 0.8,
+   "notes": ""
+  },
+  {
+   "mob_id": "mozombies_wave:zombie_herobrine",
+   "name_en": "Zombie Herobrine",
+   "name_zh": "",
+   "description_zh": "罕见的僵尸类型，移动速度与玩家奔跑相当，拥有 300 点生命值，每次攻击造成 45 点伤害，且免疫阳光伤害。被玩家击杀时 6/7 概率掉落一颗骷髅头颅、1/7 概率掉落 0~2 颗钻石；因其他原因死亡则必定掉落 0~2 颗钻石。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/690911.html",
+   "confidence": 0.8,
+   "notes": ""
+  },
+  {
+   "mob_id": "mozombies_wave:zombie_king",
+   "name_en": "Zombie King",
+   "name_zh": "",
+   "description_zh": "国王外貌的僵尸，拥有 20 点生命值与 3 点攻击伤害，死亡时掉落金锭或钻石。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/690913.html",
+   "confidence": 0.8,
+   "notes": "掉落物由 jar 掉落表核实"
+  },
+  {
+   "mob_id": "mozombies_wave:zombie_knight",
+   "name_en": "Zombie Knight",
+   "name_zh": "",
+   "description_zh": "手持铁剑的僵尸骑士，拥有 20 点生命值与 10 点攻击伤害，且不惧阳光。死亡时掉落黑曜石。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/690915.html",
+   "confidence": 0.8,
+   "notes": "免疫阳光与掉落黑曜石由 jar 源码/掉落表核实"
+  },
+  {
+   "mob_id": "mozombies_wave:zombie_miner",
+   "name_en": "Zombie Miner",
+   "name_zh": "",
+   "description_zh": "手持铁镐的僵尸矿工，拥有 20 点生命值与 7 点攻击伤害。死亡时掉落圆石、铁矿石、铁锭、胡萝卜、马铃薯等采矿相关物品。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/690909.html",
+   "confidence": 0.8,
+   "notes": "掉落明细由 jar 掉落表核实"
+  },
+  {
+   "mob_id": "mozombies_wave:zombie_notch",
+   "name_en": "Zombie Notch",
+   "name_zh": "",
+   "description_zh": "罕见的僵尸类型，拥有 200 点生命值，每次攻击造成 100 点伤害，会吸引所有僵尸的仇恨（包括同类）。死亡时 4/5 概率掉落 0~3 颗苹果，1/5 概率掉落一颗金苹果。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/690917.html",
+   "confidence": 0.8,
+   "notes": ""
+  },
+  {
+   "mob_id": "mozombies_wave:zombie_pa",
+   "name_en": "Zombie Pa",
+   "name_zh": "",
+   "description_zh": "僵尸变种之一，拥有 20 点生命值、6 点攻击伤害，无护甲，会掉落皮革。MC百科该条目暂无简介，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/mo-zombies-wave",
+   "confidence": 0.5,
+   "notes": "属性取自 jar 内 ZombiePa.createAttributes 与掉落表；GitHub 源码同版本"
+  },
+  {
+   "mob_id": "mozombies_wave:zombie_pirate",
+   "name_en": "Zombie Pirate",
+   "name_zh": "",
+   "description_zh": "手持金剑的僵尸海盗，拥有 20 点生命值与 10 点攻击伤害。死亡时掉落金粒或金锭。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/690916.html",
+   "confidence": 0.8,
+   "notes": "掉落物由 jar 掉落表核实"
+  }
+ ]
+}

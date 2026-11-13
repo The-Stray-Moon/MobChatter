@@ -1,0 +1,47 @@
+{
+ "rank": 205,
+ "mod": "Who's There?: Ghost Players",
+ "mod_url": "https://modrinth.com/mod/whos-there-ghost-players",
+ "mobs": [
+  {
+   "mob_id": "whos_there:empty_alex",
+   "name_en": "Empty Alex",
+   "name_zh": "",
+   "description_zh": "Empty Alex 是洞穴幽灵事件中的玩家外形实体，使用 Alex 模型，生命值 20、移动速度 0.25。它只有环顾类 AI，没有主动攻击手段，主要作为幽灵玩家出现时的空壳身体。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/whos-there-ghost-players",
+   "confidence": 0.5,
+   "notes": "资料有限：模组正文未点名该实体，生命值与行为取自 jar 内实体属性。"
+  },
+  {
+   "mob_id": "whos_there:empty_steve",
+   "name_en": "Empty Steve",
+   "name_zh": "",
+   "description_zh": "Empty Steve 是洞穴幽灵事件中的玩家外形实体，使用 Steve 模型，生命值 20、移动速度 0.25。它只有环顾类 AI，没有主动攻击手段，主要作为幽灵玩家出现时的空壳身体。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/whos-there-ghost-players",
+   "confidence": 0.5,
+   "notes": "资料有限：模组正文未点名该实体，生命值与行为取自 jar 内实体属性。"
+  },
+  {
+   "mob_id": "whos_there:ghost_player",
+   "name_en": "Ghost Player",
+   "name_zh": "",
+   "description_zh": "Ghost Player 会在洞穴中生成，外观近乎透明并显示类似玩家名的名字，会绕着玩家行走、发出声音制造不安。它生命值 10、没有攻击力，受伤时会播放灵魂逃逸粒子。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/whos-there-ghost-players",
+   "confidence": 0.9,
+   "notes": ""
+  },
+  {
+   "mob_id": "whos_there:white_eye",
+   "name_en": "White Eyes",
+   "name_zh": "",
+   "description_zh": "White Eyes 是 Ghost Player 的变种，会在洞穴中悄悄跟踪玩家，生命值 10、攻击力 3。它拥有白色眼睛，靠近时会触发惊吓画面。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/whos-there-ghost-players",
+   "confidence": 0.85,
+   "notes": "惊吓效果由 jar 内的 jumpscare 效果与眼部 overlay 类核实。"
+  }
+ ]
+}

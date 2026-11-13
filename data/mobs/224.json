@@ -1,0 +1,67 @@
+{
+ "rank": 224,
+ "mod": "Myths of The Sea",
+ "mod_url": "https://modrinth.com/mod/myths-of-the-sea",
+ "mobs": [
+  {
+   "mob_id": "myths_of_the_sea:leviathan",
+   "name_en": "Leviathan",
+   "name_zh": "",
+   "description_zh": "利维坦是模组中最稀有的深海巨兽，只生成在寒冷海洋（含深寒冷海洋），生成权重仅 2。它拥有 300 点生命值（150 颗心），攻击力足以一击打倒未穿护甲的玩家；战斗节奏极快，冲撞一次后会绕着玩家转圈再发起下一次攻击。击杀掉落利维坦之心，食用可永久增加 2 颗心的生命上限（最多额外 10 颗，死亡后失效）。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/myths-of-the-sea",
+   "confidence": 0.9,
+   "notes": "数值来自模组正文（原文以“心”为单位，已折算为生命值）；生成群系与权重取自 jar 内的生物群系生成配置。"
+  },
+  {
+   "mob_id": "myths_of_the_sea:kraken",
+   "name_en": "Kraken",
+   "name_zh": "",
+   "description_zh": "海妖生成在任意深海（深海洋、深寒冷海洋、深温水海洋），生成权重只有 1，非常罕见。它有 400 点生命值（200 颗心），会主动攻击附近的玩家，用触手抓住并持续吸取生命，直到自己受到足够伤害才会松手。击杀掉落海妖触手，装备后可增加 3 格交互距离。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/myths-of-the-sea",
+   "confidence": 0.9,
+   "notes": "生命值与抓取行为来自模组正文；生成群系、权重和掉落取自 jar 内生成配置与掉落表。"
+  },
+  {
+   "mob_id": "myths_of_the_sea:bake_kujira",
+   "name_en": "Bake Kujira",
+   "name_zh": "",
+   "description_zh": "化鲸生成在海洋岸边，稀有度较低（比海妖和利维坦常见），拥有 100 点生命值（50 颗心），每次攻击造成 5–6 颗心的伤害，但两次攻击之间有很长的冷却。击杀掉落化鲸之骨，可用于制作耐久介于铁与皮革之间、并能对亡灵生物提供伪装效果的骨甲。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/myths-of-the-sea",
+   "confidence": 0.85,
+   "notes": "数值来自模组正文；jar 中该生物以权重 3 生成于普通海洋。"
+  },
+  {
+   "mob_id": "myths_of_the_sea:bunyip",
+   "name_en": "Bunyip",
+   "name_zh": "",
+   "description_zh": "本耶普生成在沼泽与红树林沼泽，较为常见（每片沼泽 3–4 只），拥有 60 点生命值（30 颗心），每次攻击造成 3–4 颗心的伤害。它看到玩家就会主动进攻，能在陆地和水中行动，攻击间隔很短。击杀掉落本耶普之牙，可用来打造可双持、每击 2 颗心的快速利爪。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/myths-of-the-sea",
+   "confidence": 0.9,
+   "notes": "数值与行为来自模组正文；生成群系与掉落取自 jar 配置。"
+  },
+  {
+   "mob_id": "myths_of_the_sea:abaia",
+   "name_en": "Abaia",
+   "name_zh": "",
+   "description_zh": "阿巴亚生成在温暖海洋，出现频率较高（生成配置中权重 25），拥有 30 点生命值（15 颗心），每次攻击只造成 1–2 颗心的伤害，平时被动，只有被激怒后才会反击。击杀掉落阿巴亚之鳍，装备后可大幅提升游泳速度。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/myths-of-the-sea",
+   "confidence": 0.9,
+   "notes": "数值来自模组正文；生成群系与权重、掉落物取自 jar 配置。正文称该掉落为“阿巴亚之尾”，jar 内物品 id 为 abaia_fin（鳍）。"
+  },
+  {
+   "mob_id": "myths_of_the_sea:hippocampus",
+   "name_en": "Hippocampus",
+   "name_zh": "",
+   "description_zh": "海马（Hippocampus）生成在温暖海洋，并不常见，拥有 90 点生命值（45 颗心），性情和平，被攻击时会逃跑。可用生鱼驯服，驯服后能骑乘它在海洋中航行；击杀掉落海马之眼，可用于酿造持续 1 小时的夜视药水。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/myths-of-the-sea",
+   "confidence": 0.9,
+   "notes": "驯服、骑乘与药水用途来自模组正文；生成群系与掉落取自 jar 配置。"
+  }
+ ]
+}

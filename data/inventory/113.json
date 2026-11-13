@@ -1,0 +1,502 @@
+{
+ "rank": 113,
+ "mod": "Scorched Guns 2",
+ "slug": "scorched-guns-2",
+ "project_id": "lDzXAiqs",
+ "source_url": "https://modrinth.com/mod/scorched-guns-2",
+ "jar": "D:\\work\\MobChatter\\data\\jars\\lDzXAiqs.jar",
+ "jar_size": 19173074,
+ "modid": "scguns",
+ "entity_count": 61,
+ "mob_count": 42,
+ "entities": [
+  {
+   "key": "entity.scguns.adjudicator",
+   "id": "adjudicator",
+   "en": "Adjudicator",
+   "zh": "",
+   "loot_table": "adjudicator",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.advanced_round_projectile",
+   "id": "advanced_round_projectile",
+   "en": "Advanced Round",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.scguns.bearpack_shell_projectile",
+   "id": "bearpack_shell_projectile",
+   "en": "Bearpack Shot",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.scguns.beowulf_projectile",
+   "id": "beowulf_projectile",
+   "en": "Beowulf Round",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.scguns.blunderer",
+   "id": "blunderer",
+   "en": "Blunderer",
+   "zh": "",
+   "loot_table": "blunderer",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.cog_knight",
+   "id": "cog_knight",
+   "en": "Cog Knight",
+   "zh": "",
+   "loot_table": "cog_knight",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.cog_minion",
+   "id": "cog_minion",
+   "en": "Cog Minion",
+   "zh": "",
+   "loot_table": "cog_minion",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.compact_advanced_round_projectile",
+   "id": "compact_advanced_round_projectile",
+   "en": "Compact Advanced Round",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.scguns.compact_copper_round_projectile",
+   "id": "compact_copper_round_projectile",
+   "en": "Compact Copper Round",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.scguns.standard_copper_round_projectile",
+   "id": "standard_copper_round_projectile",
+   "en": "Copper Round",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.scguns.dissident",
+   "id": "dissident",
+   "en": "Dissident",
+   "zh": "",
+   "loot_table": "dissident",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.brass_bolt",
+   "id": "brass_bolt",
+   "en": "Enemy Bullet",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.finforcer",
+   "id": "finforcer",
+   "en": "Finforcer",
+   "zh": "",
+   "loot_table": "finforcer",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.fire_round_projectile",
+   "id": "fire_round_projectile",
+   "en": "Fire Round",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.scguns.frog_dart_projectile",
+   "id": "frog_dart_projectile",
+   "en": "Frog Dart",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.scguns.gibbs_round_projectile",
+   "id": "gibbs_round_projectile",
+   "en": "Gibbs Round",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.scguns.grenade",
+   "id": "grenade",
+   "en": "Grenade",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.minecraft.villager.scguns.gunsmith",
+   "id": "gunsmith",
+   "en": "Gunsmith",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.minecraft.villager.gunsmith",
+   "id": "gunsmith",
+   "en": "Gunsmith",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.hive",
+   "id": "hive",
+   "en": "Hive",
+   "zh": "",
+   "loot_table": "hive",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.hog_round_projectile",
+   "id": "hog_round_projectile",
+   "en": "Hog Round",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.scguns.hornlin",
+   "id": "hornlin",
+   "en": "Hornlin",
+   "zh": "",
+   "loot_table": "hornlin",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.krahg_round_projectile",
+   "id": "krahg_round_projectile",
+   "en": "Krahg Round",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.scguns.microjet",
+   "id": "microjet",
+   "en": "Microjet",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.mother_ghast",
+   "id": "mother_ghast",
+   "en": "Mother Ghast",
+   "zh": "",
+   "loot_table": "mother_ghast",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.plasma_projectile",
+   "id": "plasma_projectile",
+   "en": "Plasma",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.scguns.praetor",
+   "id": "praetor",
+   "en": "Praetor",
+   "zh": "",
+   "loot_table": "praetor",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.primed_nitro_keg",
+   "id": "primed_nitro_keg",
+   "en": "Primed Nitro Keg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.primed_powder_keg",
+   "id": "primed_powder_keg",
+   "en": "Primed Powder Keg",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.ramrod_projectile",
+   "id": "ramrod_projectile",
+   "en": "Ramrod Projectile",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.scguns.redcoat",
+   "id": "redcoat",
+   "en": "Redcoat",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.rocket",
+   "id": "rocket",
+   "en": "Rocket",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.projectile",
+   "id": "projectile",
+   "en": "Round",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.scguns.scamp_rocket",
+   "id": "scamp_rocket",
+   "en": "Scamp Rocket",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.scampler",
+   "id": "scampler",
+   "en": "Scampler",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.scamp_tank",
+   "id": "scamp_tank",
+   "en": "Scamppanzer",
+   "zh": "",
+   "loot_table": "scamp_tank",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.sculk_cell",
+   "id": "sculk_cell",
+   "en": "Sculk Cell",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.shatter_round_projectile",
+   "id": "shatter_round_projectile",
+   "en": "Shatter Round",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.scguns.shotgun_shell_projectile",
+   "id": "shotgun_shell_projectile",
+   "en": "Shotgun Shell",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.scguns.shulkshot_projectile",
+   "id": "shulkshot_projectile",
+   "en": "Shulkshot Projectile",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.scguns.signal_beacon",
+   "id": "signal_beacon",
+   "en": "Signal Beacon",
+   "zh": "",
+   "loot_table": "signal_beacon",
+   "projectile": true
+  },
+  {
+   "key": "entity.scguns.sky_carrier",
+   "id": "sky_carrier",
+   "en": "Sky Carrier",
+   "zh": "",
+   "loot_table": "sky_carrier",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.stun_grenade",
+   "id": "stun_grenade",
+   "en": "Stun Grenade",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.subjugator",
+   "id": "subjugator",
+   "en": "Subjugator",
+   "zh": "",
+   "loot_table": "subjugator",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.sulfurhead",
+   "id": "sulfurhead",
+   "en": "Sulfurhead",
+   "zh": "",
+   "loot_table": "sulfurhead",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.supply_scamp",
+   "id": "supply_scamp",
+   "en": "Supply Scamp",
+   "zh": "",
+   "loot_table": "supply_scamp",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.swarm",
+   "id": "swarm",
+   "en": "Swarm",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.syringe_projectile",
+   "id": "syringe_projectile",
+   "en": "Syringe",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.scguns.the_merchant",
+   "id": "the_merchant",
+   "en": "The Merchant",
+   "zh": "",
+   "loot_table": "the_merchant",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.throwable_beacon_grenade",
+   "id": "throwable_beacon_grenade",
+   "en": "Thrown Beacon Grenade",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.throwable_choke_bomb",
+   "id": "throwable_choke_bomb",
+   "en": "Thrown Choke Bomb",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.throwable_gas_grenade",
+   "id": "throwable_gas_grenade",
+   "en": "Thrown Gas Grenade",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.throwable_grenade",
+   "id": "throwable_grenade",
+   "en": "Thrown Grenade",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.throwable_molotov_cocktail",
+   "id": "throwable_molotov_cocktail",
+   "en": "Thrown Molotov Cocktail",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.throwable_nail_bomb",
+   "id": "throwable_nail_bomb",
+   "en": "Thrown Nail Bomb",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.throwable_stun_grenade",
+   "id": "throwable_stun_grenade",
+   "en": "Thrown Stun Grenade",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.throwable_swarm_bomb",
+   "id": "throwable_swarm_bomb",
+   "en": "Thrown Swarm Bomb",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.trauma_unit",
+   "id": "trauma_unit",
+   "en": "Trauma Unit",
+   "zh": "",
+   "loot_table": "trauma_unit",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.basic_turret",
+   "id": "basic_turret",
+   "en": "Turret",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.viventrum",
+   "id": "viventrum",
+   "en": "Viventrum",
+   "zh": "",
+   "loot_table": "viventrum",
+   "projectile": false
+  },
+  {
+   "key": "entity.scguns.zombified_hornlin",
+   "id": "zombified_hornlin",
+   "en": "Zombified Hornlin",
+   "zh": "",
+   "loot_table": "zombified_hornlin",
+   "projectile": false
+  }
+ ]
+}

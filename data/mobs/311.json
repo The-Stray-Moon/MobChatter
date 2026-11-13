@@ -1,0 +1,2737 @@
+{
+ "rank": 311,
+ "mod": "The Digimod",
+ "mod_url": "https://modrinth.com/mod/the-digimod",
+ "mobs": [
+  {
+   "mob_id": "thedigimod:aeroveedramon",
+   "name_en": "AeroV-dramon",
+   "name_zh": "天翔V龙兽",
+   "description_zh": "完全体数码兽，飞行（不受摔落伤害），碰撞箱 1.3×2.7 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「V-Arrow」间切换。野外生成于山地、恶地、尖峭山峰（权重 8，每组 1–4 只）；肉食性；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:agumon",
+   "name_en": "Agumon",
+   "name_zh": "亚古兽",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 0.75×1.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Pepper Breath」间切换。野外生成于沙漠、恶地、山地、尖峭山峰、平原、热带草原（权重 24，每组 1–8 只）；肉食性；可被指派为伐木工；可进化为 Tyranomon、Numemon、Greymon、FlareLizamon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:agumonblack",
+   "name_en": "Agumon (Black)",
+   "name_zh": "亚古兽(黑)",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 0.75×1.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Pepper Breath」间切换。野外生成于山地、恶地、尖峭山峰（权重 24，每组 1–8 只）；肉食性；可被指派为矿工；掉落黑暗数码鱼；可进化为 DarkLizamon、Geremon、BlackGrowmon、Greymon (Blue) 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:airdramon",
+   "name_en": "Airdramon",
+   "name_zh": "飞龙兽",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1×2 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Flame」间切换。野外生成于山地、恶地、尖峭山峰（权重 15，每组 1–6 只）；肉食性；可进化为 MegaDramon、GigaDramon、MegaSeadramon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:ajatarmon",
+   "name_en": "Ajatarmon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.625×2.75 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Deadly Sting」间切换。野外生成于丛林、森林（权重 8，每组 1–4 只）；草食性；可被指派为伐木工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:akatorimon",
+   "name_en": "Akatorimon",
+   "name_zh": "红鸡兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Petit Twister」间切换。野外生成于丛林、森林、平原、热带草原、山地、恶地等（权重 15，每组 1–6 只）；可被指派为农夫；掉落羽毛；可进化为 Monzaemon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:algomon",
+   "name_en": "Algomon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅰ数码兽，飞行（不受摔落伤害），碰撞箱 0.8×0.8 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–2 之间随机、攻/防/特攻/特防上限 2；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。可由「Algomon Digitama」孵化；野外生成于森林、平原、草甸、末地诸岛（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Algomon (Baby II)。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:algomonchampion",
+   "name_en": "Algomon (Adult)",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.75×2.188 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Death Claw」间切换。野外生成于末地诸岛、丛林、森林（权重 15，每组 1–6 只）；草食性；可被指派为农夫；可进化为 Algomon (Perfect)。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:algomonbaby2",
+   "name_en": "Algomon (Baby II)",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅱ数码兽，飞行（不受摔落伤害），碰撞箱 1×1.1 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸、末地诸岛（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Algomon (Child)、ProtoGizmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:algomonrookie",
+   "name_en": "Algomon (Child)",
+   "name_zh": "",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 1×1.625 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Death Claw」间切换。野外生成于末地诸岛、丛林、森林（权重 24，每组 1–8 只）；草食性；可被指派为农夫；可进化为 Algomon (Adult)、GizmonAT、Raremon、Shurimon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:algomonultimate",
+   "name_en": "Algomon (Perfect)",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.75×3.438 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Death Claw」间切换。野外生成于末地诸岛、丛林、森林、河流、海滩、沼泽（权重 8，每组 1–4 只）；草食性；可被指派为农夫；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:alraumon",
+   "name_en": "Alraumon",
+   "name_zh": "",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 1×1.375 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Petit Thunder」间切换。野外生成于针叶林、黑森林（权重 24，每组 1–8 只）；以植物为食；可被指派为农夫；可进化为 Togemon、Zassoumon、Kiwimon、Pucchiemon (Green) 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:andiramon",
+   "name_en": "Andiramon",
+   "name_zh": "玉兔兽",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.25×2.32 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Divine Axe」间切换。野外生成于针叶林、黑森林（权重 8，每组 1–4 只）；可被指派为伐木工；掉落兔子皮；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:andiramondeva",
+   "name_en": "Andiramon (Deva)",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.25×2.32 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Divine Axe」间切换。野外生成于白桦森林（权重 8，每组 1–4 只）；可被指派为伐木工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:andromon",
+   "name_en": "Andromon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1×2.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Blaster」间切换。野外生成于沙漠、恶地、平原、热带草原（权重 8，每组 1–4 只）；以废料为食；可被指派为搬运工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:angemon",
+   "name_en": "Angemon",
+   "name_zh": "天使兽",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1.5×2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Heaven's Knuckle」间切换。野外生成于平原、热带草原（权重 15，每组 1–6 只）；可被指派为植树工；掉落羽毛；可进化为 HolyAngemon、Manticoremon、Shakkoumon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:archelomon",
+   "name_en": "Archelomon",
+   "name_zh": "古海龟兽",
+   "description_zh": "成熟期数码兽，水生（不会淹死），碰撞箱 1.5×1 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Ocean Storm」间切换。野外生成于海洋、河流、海滩、沼泽（权重 15，每组 1–6 只）；以海鲜为食；掉落鳞甲；可进化为 Shawujinmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:arkadimon",
+   "name_en": "Arkadimon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅱ数码兽，陆地行走，碰撞箱 1×1 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸、末地诸岛（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 BEMmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:assaultmon",
+   "name_en": "Assaultmon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.625×2.688 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Blaster」间切换。野外生成于平原、热带草原、针叶林、黑森林（权重 8，每组 1–4 只）；以废料为食；可被指派为搬运工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:alturkabuterimonblue",
+   "name_en": "AtlurKabuterimon (Blue)",
+   "name_zh": "超比多兽(蓝)",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.5×2.9 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Blaster」间切换。野外生成于丛林、森林（权重 8，每组 1–4 只）；以虫类为食；可被指派为伐木工；掉落黑暗数码鱼；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:alturkabuterimon",
+   "name_en": "AtlurKabuterimon (Red)",
+   "name_zh": "超比多兽",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.5×2.9 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Blaster」间切换。野外生成于丛林、森林（权重 8，每组 1–4 只）；以虫类为食；可被指派为伐木工；可进化为 AtlurKabuterimon (Blue)。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:baboongamon",
+   "name_en": "Baboongamon",
+   "name_zh": "狒狒岩兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×2.5 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Gliding Rocks」间切换。野外生成于深暗之域、滴水石洞、沙漠、恶地（权重 15，每组 1–6 只）；以矿物为食；可进化为 Gogmamon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:babydmon",
+   "name_en": "Babydmon",
+   "name_zh": "幼龙兽",
+   "description_zh": "幼年期Ⅱ数码兽，飞行（不受摔落伤害），碰撞箱 0.9×0.9 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Dracomon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:bakemon",
+   "name_en": "Bakemon",
+   "name_zh": "猛鬼兽",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1×1.75 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poison Breath」间切换。野外生成于平原、热带草原、沼泽、森林、黑森林、灵魂沙峡谷（权重 15，每组 1–6 只）；可被指派为农夫；可进化为 Monzaemon、WaruMonzaemon、Pumpmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:ballistamon",
+   "name_en": "Ballistamon",
+   "name_zh": "弩炮兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Blaster」间切换。野外生成于山地、恶地、尖峭山峰、针叶林、黑森林（权重 15，每组 1–6 只）；以废料为食；可被指派为矿工；掉落铁锭；可进化为 ShoutmonX5。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:bearmon",
+   "name_en": "Bearmon",
+   "name_zh": "小熊兽",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 1×1.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bear Punch」间切换。野外生成于丛林、森林、平原、热带草原（权重 24，每组 1–8 只）；可被指派为搬运工；可进化为 Gryzmon、Dogmon、BlackGaogamon、Chackmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:bemmon",
+   "name_en": "BEMmon",
+   "name_zh": "",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 1.25×1.688 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Death Claw」间切换。野外生成于末地诸岛、平原、热带草原（权重 24，每组 1–8 只）；可被指派为植树工；可进化为 Hookmon、Grimmon、Raremon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:betamon",
+   "name_en": "Betamon",
+   "name_zh": "",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 1×1 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于河流、海滩、沼泽（权重 24，每组 1–8 只）；以海鲜为食；可被指派为农夫；可进化为 MoriShellmon、KaratukiNumemon、Seadramon、Frogmon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:bibimon",
+   "name_en": "Bibimon",
+   "name_zh": "静电兽",
+   "description_zh": "幼年期Ⅱ数码兽，陆地行走，碰撞箱 0.9×0.9 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；可进化为 Pulsemon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:bigmamemon",
+   "name_en": "BigMamemon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，飞行（不受摔落伤害），碰撞箱 2.313×3.125 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Smiley Bomb」间切换。野外生成于山地、恶地、尖峭山峰（权重 8，每组 1–4 只）；以废料为食；可被指派为搬运工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:birdramon",
+   "name_en": "Birdramon",
+   "name_zh": "巴多拉兽",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1×2.5 格，免疫火焰伤害，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Petit Twister」间切换。野外生成于沙漠、恶地、山地、尖峭山峰、下界荒地（权重 15，每组 1–6 只）；肉食性；掉落火焰弹；可进化为 Garudamon、Saberdramon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:blackgalgomon",
+   "name_en": "BlackGalgomon",
+   "name_zh": "黑加鲁哥兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Gatling Arm」间切换。野外生成于平原、热带草原、针叶林、黑森林（权重 15，每组 1–6 只）；可被指派为矿工；可进化为 BlackRapidmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:blackgaogamon",
+   "name_en": "BlackGaogamon",
+   "name_zh": "黑伽奥伽兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×1.75 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Tron Flame」间切换。野外生成于平原、热带草原（权重 15，每组 1–6 只）；可进化为 BlackMachGaogamon、WereGarurumon (Black)。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:blackgrowlmon",
+   "name_en": "BlackGrowmon",
+   "name_zh": "黑古拉兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×2.5 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Tron Flame」间切换。野外生成于山地、恶地、尖峭山峰（权重 15，每组 1–6 只）；肉食性；掉落黑暗数码鱼；可进化为 BlackMegaloGrowmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:blackmachgaogamon",
+   "name_en": "BlackMachGaogamon",
+   "name_zh": "黑音速加奥加兽",
+   "description_zh": "完全体数码兽，飞行（不受摔落伤害），碰撞箱 1.5×2.9 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mach Tornado」间切换。野外生成于平原、热带草原、针叶林、黑森林（权重 8，每组 1–4 只）；可被指派为矿工；掉落铁锭；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:blackmegalogrowlmon",
+   "name_en": "BlackMegaloGrowmon",
+   "name_zh": "大古拉兽(黑)",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.5×2.9 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poison Breath」间切换。野外生成于山地、恶地、尖峭山峰、针叶林、黑森林（权重 8，每组 1–4 只）；肉食性；可被指派为矿工；掉落黑暗数码鱼、铁锭；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:blackrapidmon",
+   "name_en": "BlackRapidmon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，飞行（不受摔落伤害），碰撞箱 1.5×3.2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Gatling Arm」间切换。野外生成于平原、热带草原、针叶林、黑森林（权重 8，每组 1–4 只）；肉食性；可被指派为矿工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:bladekuwagamon",
+   "name_en": "BladeKuwagamon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1.625×1.063 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Blaster」间切换。野外生成于沙漠、恶地、山地、尖峭山峰、针叶林、黑森林（权重 15，每组 1–6 只）；以废料为食；可被指派为搬运工；可进化为 Okuwamon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:blossomon",
+   "name_en": "Blossomon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 3.1×3 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Deadly Sting」间切换。野外生成于森林、花森林、风袭森林、针叶林、黑森林（权重 8，每组 1–4 只）；以植物为食；可被指派为植树工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:bommon",
+   "name_en": "Bommon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅰ数码兽，飞行（不受摔落伤害），碰撞箱 0.375×0.813 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–2 之间随机、攻/防/特攻/特防上限 2；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。可由「Bommon Digitama」孵化；野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Missimon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:boogiemon",
+   "name_en": "Boogiemon",
+   "name_zh": "夜魔兽",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1×2.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poison Breath」间切换。野外生成于绯红森林、针叶林、黑森林（权重 15，每组 1–6 只）；可被指派为搬运工；可进化为 Jokermon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:botamon",
+   "name_en": "Botamon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅰ数码兽，陆地行走，碰撞箱 0.8×0.8 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–2 之间随机、攻/防/特攻/特防上限 2；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。可由「Botamon Digitama」孵化；野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Koromon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:bowmon",
+   "name_en": "Bowmon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅱ数码兽，陆地行走，碰撞箱 0.9×0.9 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Loogamon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:brachimon",
+   "name_en": "Brachimon",
+   "name_zh": "腕龙兽",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.5×3.9 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Magma Spit」间切换。野外生成于平原、热带草原（权重 8，每组 1–4 只）；肉食性；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:bubbmon",
+   "name_en": "Bubbmon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅰ数码兽，陆地行走，碰撞箱 0.8×0.8 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–2 之间随机、攻/防/特攻/特防上限 2；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。可由「Bubbmon Digitama」孵化；野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Mochimon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:bulkmon",
+   "name_en": "Bulkmon",
+   "name_zh": "增肌兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.35 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Thunderbolt」间切换。野外生成于针叶林、黑森林（权重 15，每组 1–6 只）；肉食性；可进化为 MegaloGrowmon (Orange)。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:cargodramon",
+   "name_en": "Cargodramon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，飞行（不受摔落伤害），碰撞箱 4.75×2.625 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Giga Destroyer」间切换。野外生成于山地、恶地、尖峭山峰、平原、热带草原（权重 8，每组 1–4 只）；以废料为食；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:centalmon",
+   "name_en": "Centalmon",
+   "name_zh": "人马兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×2 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Blaster」间切换。野外生成于山地、恶地、尖峭山峰、针叶林、黑森林（权重 15，每组 1–6 只）；可进化为 Saggitarimon、Assaultmon、Andromon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:cerberumon",
+   "name_en": "Cerberumon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 2×1.75 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「World Slash」间切换。野外生成于平原、热带草原、诡异森林（权重 8，每组 1–4 只）；肉食性；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:chakmon",
+   "name_en": "Chackmon",
+   "name_zh": "冰熊兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×1.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Snow Bullet」间切换。野外生成于河流、海滩、沼泽（权重 15，每组 1–6 只）；以海鲜为食；可被指派为搬运工；掉落雪球；可进化为 Polarbearmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:chaosgrimmon",
+   "name_en": "ChaosGrimmon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，飞行（不受摔落伤害），碰撞箱 1.65×4.1 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mach Tornado」间切换。野外生成于绯红森林、沙漠、恶地、末地诸岛、山地、尖峭山峰等（权重 8，每组 1–4 只）；可被指派为矿工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:chapmon",
+   "name_en": "Chapmon",
+   "name_zh": "查普兽",
+   "description_zh": "幼年期Ⅱ数码兽，陆地行走，碰撞箱 0.9×0.9 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Kamemon、Betamon、ModokiBetamon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:chibimon",
+   "name_en": "Chibimon",
+   "name_zh": "豆丁兽",
+   "description_zh": "幼年期Ⅱ数码兽，陆地行走，碰撞箱 0.9×1.2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 V-mon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:chicomon",
+   "name_en": "Chicomon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅰ数码兽，陆地行走，碰撞箱 0.8×0.8 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–2 之间随机、攻/防/特攻/特防上限 2；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。可由「Chicomon Digitama」孵化；野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Chibimon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:chocomon",
+   "name_en": "Chocomon",
+   "name_zh": "巧克力兽",
+   "description_zh": "幼年期Ⅱ数码兽，陆地行走，碰撞箱 0.9×0.9 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Lopmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:chrysalimon",
+   "name_en": "Chrysalimon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1.875×2.563 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Deadly Sting」间切换。野外生成于末地诸岛、丛林、森林、平原、热带草原（权重 15，每组 1–6 只）；可被指派为伐木工；可进化为 Infermon、AtlurKabuterimon (Blue)。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:kokatorimon",
+   "name_en": "Cockatrimon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Petit Twister」间切换。野外生成于沼泽、森林、黑森林（权重 15，每组 1–6 只）；可被指派为农夫；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:conomon",
+   "name_en": "Cocomon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅰ数码兽，陆地行走，碰撞箱 0.8×0.8 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–2 之间随机、攻/防/特攻/特防上限 2；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。可由「Cocomon Digitama」孵化；野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Chocomon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:coelamon",
+   "name_en": "Coelamon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，水生（不会淹死），碰撞箱 2.562×1.063 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Giga Destroyer」间切换。野外生成于海洋（权重 15，每组 1–6 只）；以海鲜为食；可进化为 Piranimon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:coredramon",
+   "name_en": "Coredramon (Blue)",
+   "name_zh": "核龙兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.35 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Flame」间切换。野外生成于山地、恶地、尖峭山峰（权重 15，每组 1–6 只）；肉食性；可进化为 AeroV-dramon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:coredramongreen",
+   "name_en": "Coredramon (Green)",
+   "name_zh": "核龙兽(绿)",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.35 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Flame」间切换。野外生成于丛林、森林（权重 15，每组 1–6 只）；肉食性；可进化为 Groundramon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:cyberdramon",
+   "name_en": "Cyberdramon",
+   "name_zh": "电子龙兽",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1×3 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mach Tornado」间切换。野外生成于平原、热带草原、针叶林、黑森林（权重 8，每组 1–4 只）；以废料为食；掉落铁锭；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:cyclomon",
+   "name_en": "Cyclomon",
+   "name_zh": "独眼兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×2.5 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Hyper Heat」间切换。野外生成于沙漠、恶地、山地、尖峭山峰（权重 15，每组 1–6 只）；肉食性；可进化为 Skullgreymon、Cyberdramon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:darklizardmon",
+   "name_en": "DarkLizamon",
+   "name_zh": "黑暗蜥蜴兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2 格，免疫火焰伤害。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Flame」间切换。野外生成于沙漠、恶地、下界荒地、针叶林、黑森林（权重 15，每组 1–6 只）；肉食性；可被指派为矿工；掉落黑暗数码鱼、火焰弹；可进化为 BlackMegaloGrowmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:darktyrannomon",
+   "name_en": "DarkTyranomon",
+   "name_zh": "黑暗巨龙兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.2 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Tron Flame」间切换。野外生成于山地、恶地、尖峭山峰、针叶林、黑森林（权重 15，每组 1–6 只）；肉食性；掉落黑暗数码鱼；可进化为 MetalTyrannomon、Mametyramon、GigaDramon、Extyrannomon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:devidramon",
+   "name_en": "Devidramon",
+   "name_zh": "邪龙兽",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1×2.2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Death Claw」间切换。野外生成于平原、热带草原、针叶林、黑森林、诡异森林（权重 15，每组 1–6 只）；肉食性；可被指派为矿工；掉落黑暗数码鱼；可进化为 Cyberdramon、Mephismon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:devimon",
+   "name_en": "Devimon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.75 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Death Claw」间切换。野外生成于森林、花森林、风袭森林、白桦森林、针叶林、黑森林（权重 15，每组 1–6 只）；可被指派为矿工；可进化为 Jokermon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:digitamamon",
+   "name_en": "Digitamamon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.25×1.75 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poop Throw」间切换。野外生成于沼泽、森林、黑森林（权重 8，每组 1–4 只）；以粪便为食；可被指派为植树工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:dinobeemon",
+   "name_en": "Dinobeemon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 2.5×2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Gatling Arm」间切换。野外生成于丛林、森林（权重 8，每组 1–4 只）；以虫类为食；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:doggymon",
+   "name_en": "Dogmon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×1.7 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poop Throw」间切换。野外生成于平原、热带草原、沼泽、森林、黑森林（权重 15，每组 1–6 只）；以粪便为食；可进化为 Monzaemon、Cerberumon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:dokimon",
+   "name_en": "Dokimon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅰ数码兽，陆地行走，碰撞箱 0.8×0.8 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–2 之间随机、攻/防/特攻/特防上限 2；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。可由「Dokimon Digitama」孵化；野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Bibimon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:dokunemon",
+   "name_en": "Dokunemon",
+   "name_zh": "",
+   "description_zh": "Dokunemon，《The Digimod》收录的数码兽，jar 中没有对应的个体数据文件，只有实体注册项，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.3,
+   "notes": "jar 内缺少该实体的 digimon/*.json 数据。"
+  },
+  {
+   "mob_id": "thedigimod:dolurumon",
+   "name_en": "Dorulumon",
+   "name_zh": "多鲁路兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.75×1.5 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Sand Blast」间切换。野外生成于白桦森林、沙漠、恶地、平原、热带草原（权重 15，每组 1–6 只）；可进化为 ShoutmonX5。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:dracomon",
+   "name_en": "Dracomon",
+   "name_zh": "龙仔兽",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 1×1.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Pepper Breath」间切换。野外生成于白桦森林、山地、恶地、尖峭山峰（权重 24，每组 1–8 只）；肉食性；可被指派为矿工；可进化为 Airdramon、Numemon、Growmon (Orange)、Coredramon (Green) 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:drimogemon",
+   "name_en": "Drimogemon",
+   "name_zh": "钻头鼹鼠兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.75×1.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Deadly Sting」间切换。野外生成于深暗之域、滴水石洞、沙漠、恶地（权重 15，每组 1–6 只）；肉食性；可被指派为矿工；可进化为 Giromon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:etemon",
+   "name_en": "Etemon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1×1.75 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poop Throw」间切换。野外生成于森林、花森林、风袭森林、沼泽、黑森林（权重 8，每组 1–4 只）；以粪便为食；可被指派为农夫；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:exermon",
+   "name_en": "Exermon",
+   "name_zh": "锻炼兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Thunderbolt」间切换。野外生成于丛林、森林、针叶林、黑森林（权重 15，每组 1–6 只）；以虫类为食；可被指派为植树工；可进化为 Okuwamon、Pistmon、AtlurKabuterimon (Blue)。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:extyrannomon",
+   "name_en": "Extyrannomon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.75×2.75 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poop Throw」间切换。野外生成于白桦森林、平原、热带草原（权重 8，每组 1–4 只）；以粪便为食；可被指派为矿工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:fangmon",
+   "name_en": "Fangmon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.1×1.25 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Flame」间切换。野外生成于森林、花森林、风袭森林、针叶林、黑森林（权重 15，每组 1–6 只）；肉食性；可进化为 Cerberumon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:fladramon",
+   "name_en": "Fladramon",
+   "name_zh": "烈焰兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.5 格，免疫火焰伤害。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Flame」间切换。野外生成于山地、恶地、尖峭山峰（权重 15，每组 1–6 只）；可被指派为植树工；掉落火焰弹；可进化为 Saggitarimon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:flarerizamon",
+   "name_en": "FlareLizamon",
+   "name_zh": "火焰蜥蜴兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2 格，免疫火焰伤害。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Flame」间切换。野外生成于沙漠、恶地、下界荒地（权重 15，每组 1–6 只）；肉食性；可被指派为伐木工；掉落火焰弹；可进化为 MegaloGrowmon (Orange)、DarkLizamon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:flymon",
+   "name_en": "Flymon",
+   "name_zh": "皇蜂兽",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1.5×1.75 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Deadly Sting」间切换。野外生成于丛林、森林（权重 15，每组 1–6 只）；以虫类为食；可进化为 Okuwamon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:frogmon",
+   "name_en": "Frogmon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1.375×1.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Disc Attack」间切换。野外生成于河流、海滩、沼泽（权重 15，每组 1–6 只）；草食性；可进化为 TonosamaGekomon、Ghilliedhumon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:fusamon",
+   "name_en": "Fusamon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅰ数码兽，陆地行走，碰撞箱 0.75×0.8 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–2 之间随机、攻/防/特攻/特防上限 2；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。可由「Fusamon Digitama」孵化；野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Bowmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:gabumon",
+   "name_en": "Gabumon",
+   "name_zh": "加布兽",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 1×1.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bear Punch」间切换。野外生成于雪原、冰刺之地、积雪针叶林、平原、热带草原（权重 24，每组 1–8 只）；可被指派为矿工；可进化为 Drimogemon、Numemon、Garurumon (Black)、Garurumon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:blackgabumon",
+   "name_en": "Gabumon (Black)",
+   "name_zh": "黑加布兽",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 1×1.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bear Punch」间切换。野外生成于平原、热带草原（权重 24，每组 1–8 只）；可被指派为矿工；掉落黑暗数码鱼；可进化为 Drimogemon、Garurumon (Black)、Dorulumon、BlackGaogamon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:gargomon",
+   "name_en": "Gargomon",
+   "name_zh": "加鲁哥兽",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1×2.2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Holy Shoot」间切换。野外生成于白桦森林（权重 15，每组 1–6 只）；可被指派为农夫；掉落羽毛；可进化为 Manticoremon、Cyberdramon、Devidramon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:garudamon",
+   "name_en": "Garudamon",
+   "name_zh": "伽楼达兽",
+   "description_zh": "完全体数码兽，飞行（不受摔落伤害），碰撞箱 1.9×3.9 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mach Tornado」间切换。野外生成于山地、恶地、尖峭山峰（权重 8，每组 1–4 只）；可被指派为植树工；掉落羽毛；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:garurumon",
+   "name_en": "Garurumon",
+   "name_zh": "加鲁鲁兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.75×1.5 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Snow Bullet」间切换。野外生成于雪原、冰刺之地、积雪针叶林、平原、热带草原（权重 15，每组 1–6 只）；可进化为 WereGarurumon、WereGarurumon (Black)、Garurumon (Black)。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:garurumonblack",
+   "name_en": "Garurumon (Black)",
+   "name_zh": "加鲁鲁兽(病毒)",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.75×1.5 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Tron Flame」间切换。野外生成于雪原、冰刺之地、积雪针叶林、针叶林、黑森林（权重 15，每组 1–6 只）；掉落黑暗数码鱼；可进化为 WereGarurumon (Black)、BlackMachGaogamon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:gawappamon",
+   "name_en": "Gawappamon",
+   "name_zh": "河童兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Disc Attack」间切换。野外生成于河流、海滩、沼泽（权重 15，每组 1–6 只）；以海鲜为食；可被指派为农夫；掉落鳞甲；可进化为 Shawujinmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:geremon",
+   "name_en": "Geremon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×1.7 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poop Throw」间切换。野外生成于沼泽、森林、黑森林（权重 15，每组 1–6 只）；以粪便为食；可进化为 WaruMonzaemon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:gesomon",
+   "name_en": "Gesomon",
+   "name_zh": "墨鱼兽",
+   "description_zh": "成熟期数码兽，水生（不会淹死），碰撞箱 1×2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Ink Gun」间切换。野外生成于海洋（权重 15，每组 1–6 只）；以海鲜为食；可被指派为伐木工；掉落墨囊；可进化为 MarineDevimon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:ghilliedhumon",
+   "name_en": "Ghilliedhumon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 2.625×2.75 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「X-Attack」间切换。野外生成于丛林、森林、平原、热带草原（权重 8，每组 1–4 只）；以植物为食；可被指派为伐木工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:gigadramon",
+   "name_en": "GigaDramon",
+   "name_zh": "十亿龙兽",
+   "description_zh": "完全体数码兽，飞行（不受摔落伤害），碰撞箱 1.5×2.9 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Giga Destroyer」间切换。野外生成于山地、恶地、尖峭山峰、针叶林、黑森林（权重 8，每组 1–4 只）；肉食性；掉落黑暗数码鱼、铁锭；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:gigimon",
+   "name_en": "Gigimon",
+   "name_zh": "赤赤兽",
+   "description_zh": "幼年期Ⅱ数码兽，陆地行走，碰撞箱 0.9×0.9 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Shoutmon、Guilmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:giromon",
+   "name_en": "Giromon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.1×2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「World Slash」间切换。野外生成于针叶林、黑森林（权重 8，每组 1–4 只）；可被指派为搬运工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:gizmonat",
+   "name_en": "GizmonAT",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1.375×2.313 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Disc Attack」间切换。野外生成于末地诸岛、针叶林、黑森林（权重 15，每组 1–6 只）；可被指派为矿工；可进化为 GizmonXT。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:gizmonxt",
+   "name_en": "GizmonXT",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，飞行（不受摔落伤害），碰撞箱 1.25×3.625 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Disc Attack」间切换。野外生成于末地诸岛、针叶林、黑森林（权重 8，每组 1–4 只）；可被指派为矿工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:gogmamon",
+   "name_en": "Gogmamon",
+   "name_zh": "戈格马兽",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.5×2.9 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Crystal Rain」间切换。野外生成于深暗之域、滴水石洞、沙漠、恶地、山地、尖峭山峰（权重 8，每组 1–4 只）；以矿物为食；可被指派为矿工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:roachmon",
+   "name_en": "Gokimon",
+   "name_zh": "蟑螂兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poop Throw」间切换。野外生成于深暗之域、滴水石洞、丛林、森林、沼泽、黑森林（权重 15，每组 1–6 只）；以粪便为食；可被指派为植树工；可进化为 Monzaemon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:goldnumemon",
+   "name_en": "Gold Numemon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1.5×2.2 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poop Throw」间切换。野外生成于白桦森林、沼泽、森林、黑森林（权重 15，每组 1–6 只）；以粪便为食；可进化为 Monzaemon、GreatKingScumon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:goldveedramon",
+   "name_en": "GoldV-dramon",
+   "name_zh": "黄金V龙兽",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.25×2.75 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Gold-Arrow」间切换。野外生成于白桦森林（权重 8，每组 1–4 只）；肉食性；可被指派为植树工；掉落金锭；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:golemon",
+   "name_en": "Golemon",
+   "name_zh": "魔像兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×2.5 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Gliding Rocks」间切换。野外生成于深暗之域、滴水石洞、沙漠、恶地、山地、尖峭山峰（权重 15，每组 1–6 只）；以矿物为食；可进化为 Gogmamon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:golemonps",
+   "name_en": "Golemon (PS)",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.875×2.812 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Gliding Rocks」间切换。野外生成于深暗之域、滴水石洞、沙漠、恶地、末地诸岛（权重 15，每组 1–6 只）；以矿物为食；可进化为 Andromon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:goromon",
+   "name_en": "Goromon",
+   "name_zh": "滚石兽",
+   "description_zh": "幼年期Ⅱ数码兽，陆地行走，碰撞箱 0.9×0.9 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸、深暗之域、滴水石洞（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Sunarizamon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:kingscumon",
+   "name_en": "GreatKingScumon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.5×2.2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poop Throw」间切换。野外生成于沼泽、森林、黑森林（权重 8，每组 1–4 只）；以粪便为食；可被指派为农夫；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:greymon",
+   "name_en": "Greymon",
+   "name_zh": "暴龙兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.5 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Flame」间切换。野外生成于平原、热带草原（权重 15，每组 1–6 只）；肉食性；可进化为 MetalGreymon、MetalGreymon (Virus)、Skullgreymon、Brachimon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:greymonvirus",
+   "name_en": "Greymon (Blue)",
+   "name_zh": "暴龙兽(病毒)",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.5 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Tron Flame」间切换。野外生成于平原、热带草原、针叶林、黑森林（权重 15，每组 1–6 只）；肉食性；掉落黑暗数码鱼；可进化为 MetalGreymon (Virus)、Skullgreymon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:grimmon",
+   "name_en": "Grimmon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×2.5 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Giga Destroyer」间切换。野外生成于沙漠、恶地、末地诸岛、山地、尖峭山峰、灵魂沙峡谷（权重 15，每组 1–6 只）；肉食性；可被指派为矿工；可进化为 ChaosGrimmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:groundramon",
+   "name_en": "Groundramon",
+   "name_zh": "地龙兽",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.7×1.9 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Magma Spit」间切换。野外生成于深暗之域、滴水石洞、沙漠、恶地（权重 8，每组 1–4 只）；肉食性；可被指派为矿工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:growlmon",
+   "name_en": "Growmon",
+   "name_zh": "古拉兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×2.5 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Flame」间切换。野外生成于山地、恶地、尖峭山峰（权重 15，每组 1–6 只）；肉食性；可进化为 MegaloGrowmon (Orange)、MegaloGrowmon、BlackMegaloGrowmon、MegaDramon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:growlmondata",
+   "name_en": "Growmon (Orange)",
+   "name_zh": "古拉兽(数据)",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×2.5 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Flame」间切换。野外生成于山地、恶地、尖峭山峰（权重 15，每组 1–6 只）；肉食性；可进化为 MegaloGrowmon (Orange)、BlackGrowmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:grizzlymon",
+   "name_en": "Gryzmon",
+   "name_zh": "灰熊兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.75×1.5 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Beast Slash」间切换。野外生成于平原、热带草原（权重 15，每组 1–6 只）；可进化为 WereGarurumon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:goldguardromon",
+   "name_en": "Guardromon (Gold)",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.875×2.313 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Gatling Arm」间切换。野外生成于沙漠、恶地（权重 15，每组 1–6 只）；以废料为食；可被指派为搬运工；可进化为 Andromon、Shakkoumon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:guilmon",
+   "name_en": "Guilmon",
+   "name_zh": "基尔兽",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 1×1.75 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Pepper Breath」间切换。野外生成于山地、恶地、尖峭山峰（权重 24，每组 1–8 只）；肉食性；可被指派为伐木工；可进化为 Growmon (Orange)、Numemon、Growmon、BlackGrowmon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:update",
+   "name_en": "Health Update",
+   "name_zh": "健康提示",
+   "description_zh": "《The Digimod》的训练设施实体，不是数码兽：数码兽攻击它时，会按伤害提升该数码兽的生命数值并给予经验。它由物品「Health Upgrade」放置，没有野外生成、掉落与驯养行为，只用于反复练习属性。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理：InitGoods 注册与 AbstractTrainingGood 训练逻辑。"
+  },
+  {
+   "mob_id": "thedigimod:helloogarmon",
+   "name_en": "Helloogarmon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 3.625×2.875 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Hyper Heat」间切换。野外生成于沙漠、恶地、下界荒地、平原、热带草原、针叶林等（权重 8，每组 1–4 只）；肉食性；可被指派为矿工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:holyangemon",
+   "name_en": "HolyAngemon",
+   "name_zh": "神圣天使兽",
+   "description_zh": "完全体数码兽，飞行（不受摔落伤害），碰撞箱 1.25×3.3 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Divine Axe」间切换。野外生成于平原、热带草原（权重 8，每组 1–4 只）；可被指派为农夫；掉落羽毛；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:icedevimon",
+   "name_en": "IceDevimon",
+   "name_zh": "冰恶魔兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.75 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Death Claw」间切换。野外生成于雪原、冰刺之地、积雪针叶林（权重 15，每组 1–6 只）；可被指派为矿工；可进化为 MarineDevimon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:impmon",
+   "name_en": "Impmon",
+   "name_zh": "小妖兽",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 0.75×1.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Night of Fire」间切换。野外生成于绯红森林、针叶林、黑森林（权重 24，每组 1–8 只）；可进化为 Boogiemon、Bakemon、IceDevimon、Wizardmon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:infermon",
+   "name_en": "Infermon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 3.625×2.125 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Blaster」间切换。野外生成于末地诸岛、丛林、森林、平原、热带草原（权重 8，每组 1–4 只）；以废料为食；可被指派为伐木工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:jazamon",
+   "name_en": "Jazamon",
+   "name_zh": "",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 1×1.75 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Petit Thunder」间切换。野外生成于白桦森林、山地、恶地、尖峭山峰（权重 24，每组 1–8 只）；以废料为食；可被指派为搬运工；可进化为 Jazardmon、PlatinumScumon、BladeKuwagamon、Pteranomon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:jazardmon",
+   "name_en": "Jazardmon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1.5×2.4 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Blaster」间切换。野外生成于白桦森林、山地、恶地、尖峭山峰（权重 8–15，每组 1–6 只）；以废料为食；可被指派为搬运工；可进化为 Jazarichmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:jazarichmon",
+   "name_en": "Jazarichmon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，飞行（不受摔落伤害），碰撞箱 4.25×2.312 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Blaster」间切换。野外生成于山地、恶地、尖峭山峰（权重 8，每组 1–4 只）；以废料为食；可被指派为搬运工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:jellymon",
+   "name_en": "Jellymon",
+   "name_zh": "海蜇兽",
+   "description_zh": "成长期数码兽，飞行（不受摔落伤害），碰撞箱 1×1.55 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Petit Thunder」间切换。野外生成于海洋、河流、海滩、沼泽（权重 24，每组 1–8 只）；以海鲜为食；可被指派为搬运工；掉落黏液球；可进化为 Octmon、KaratukiNumemon、Gesomon、TeslaJellymon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:jokermon",
+   "name_en": "Jokermon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.125×3 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Death Claw」间切换。野外生成于平原、热带草原（权重 8，每组 1–4 只）；可被指派为搬运工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:jyarimon",
+   "name_en": "Jyarimon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅰ数码兽，飞行（不受摔落伤害），碰撞箱 0.8×0.8 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–2 之间随机、攻/防/特攻/特防上限 2；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。可由「Jyarimon Digitama」孵化；野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Gigimon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:cherrymon",
+   "name_en": "Jyureimon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 2.25×3.375 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Deadly Sting」间切换。野外生成于森林、花森林、风袭森林、白桦森林、针叶林、黑森林（权重 8，每组 1–4 只）；以植物为食；可被指派为植树工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:kabuterimon",
+   "name_en": "Kabuterimon",
+   "name_zh": "比多兽",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1×2.5 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Blaster」间切换。野外生成于丛林、森林（权重 15，每组 1–6 只）；以虫类为食；可进化为 AtlurKabuterimon (Red)、AtlurKabuterimon (Blue)。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:kamemon",
+   "name_en": "Kamemon",
+   "name_zh": "乌龟兽",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 0.75×1.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Petit Thunder」间切换。野外生成于河流、海滩、沼泽（权重 24，每组 1–8 只）；以海鲜为食；可被指派为农夫；掉落鳞甲；可进化为 Archelomon、KaratukiNumemon、Tortamon、Gawappamon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:karatenmon",
+   "name_en": "Karatenmon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，飞行（不受摔落伤害），碰撞箱 1.375×3 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mach Tornado」间切换。野外生成于山地、恶地、尖峭山峰（权重 8，每组 1–4 只）；可被指派为矿工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:karatukinumemon",
+   "name_en": "KaratukiNumemon",
+   "name_zh": "贝壳鼻涕兽",
+   "description_zh": "成熟期数码兽，水生（不会淹死），碰撞箱 1×1.7 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poop Throw」间切换。野外生成于沼泽、森林、黑森林、河流、海滩（权重 15，每组 1–6 只）；以粪便为食；掉落Digi Poop、黏液球；可进化为 Monzaemon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:kiimon",
+   "name_en": "Keemon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅰ数码兽，陆地行走，碰撞箱 0.8×0.8 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–2 之间随机、攻/防/特攻/特防上限 2；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。可由「Keemon Digitama」孵化；野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Yarmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:kenkimon",
+   "name_en": "Kenkimon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 2×2.438 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Blaster」间切换。野外生成于深暗之域、滴水石洞、沙漠、恶地、丛林、森林等（权重 15，每组 1–6 只）；以废料为食；可被指派为搬运工；可进化为 Valvemon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:keramon",
+   "name_en": "Keramon",
+   "name_zh": "",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 1.25×1.875 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Petit Thunder」间切换。野外生成于末地诸岛、丛林、森林、平原、热带草原（权重 24，每组 1–8 只）；可进化为 Chrysalimon、Raremon、Algomon (Adult)、Exermon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:kiwimon",
+   "name_en": "Kiwimon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×1.688 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Gliding Rocks」间切换。野外生成于丛林、森林、平原、热带草原（权重 15，每组 1–6 只）；草食性；可被指派为农夫；可进化为 Blossomon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:koemon",
+   "name_en": "Koemon",
+   "name_zh": "",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 1.1×1.625 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Petit Thunder」间切换。野外生成于丛林、森林（权重 24，每组 1–8 只）；草食性；可被指派为伐木工；可进化为 Baboongamon、Hookmon、Namakemon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:koromon",
+   "name_en": "Koromon",
+   "name_zh": "滚球兽",
+   "description_zh": "幼年期Ⅱ数码兽，陆地行走，碰撞箱 0.9×0.9 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Agumon、Agumon (Black)、Betamon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:kunemon",
+   "name_en": "Kunemon",
+   "name_zh": "古尼兽",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 1.5×1.55 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Petit Thunder」间切换。野外生成于丛林、森林（权重 24，每组 1–8 只）；以虫类为食；可被指派为农夫；可进化为 Kuwagamon、Gokimon、Flymon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:kuramon",
+   "name_en": "Kuramon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅰ数码兽，飞行（不受摔落伤害），碰撞箱 0.6×0.6 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–2 之间随机、攻/防/特攻/特防上限 2；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。可由「Kuramon Digitama」孵化；野外生成于森林、平原、草甸、末地诸岛（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Tsumemon、Arkadimon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:kuwagamon",
+   "name_en": "Kuwagamon",
+   "name_zh": "古加兽",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1×2 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Deadly Sting」间切换。野外生成于丛林、森林（权重 15，每组 1–6 只）；以虫类为食；可进化为 Okuwamon、AtlurKabuterimon (Red)。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:landramon",
+   "name_en": "Landramon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×1.875 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Sand Blast」间切换。野外生成于沙漠、恶地（权重 15，每组 1–6 只）；以矿物为食；可进化为 Gogmamon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:defence_table",
+   "name_en": "Learning Table",
+   "name_zh": "训练学习桌",
+   "description_zh": "《The Digimod》的训练设施实体，不是数码兽：数码兽攻击它时，会按伤害提升该数码兽的特防数值并给予经验。它由物品「Learning Table」放置，没有野外生成、掉落与驯养行为，只用于反复练习属性。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理：InitGoods 注册与 AbstractTrainingGood 训练逻辑。"
+  },
+  {
+   "mob_id": "thedigimod:lighdramon",
+   "name_en": "Lighdramon",
+   "name_zh": "雷龙兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×1.75 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Blaster」间切换。野外生成于丛林、森林、平原、热带草原（权重 15，每组 1–6 只）；以废料为食；可进化为 Saggitarimon、WaruSeadramon、Cerberumon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:lilimon",
+   "name_en": "Lilimon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，飞行（不受摔落伤害），碰撞箱 1.125×2.875 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mach Tornado」间切换。野外生成于森林、花森林、风袭森林、白桦森林（权重 8，每组 1–4 只）；可被指派为植树工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:loogamon",
+   "name_en": "Loogamon",
+   "name_zh": "",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 1.5×1 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Pepper Breath」间切换。野外生成于森林、花森林、风袭森林、平原、热带草原（权重 24，每组 1–8 只）；肉食性；可被指派为矿工；可进化为 Loogarmon、Fangmon、Dogmon、Garurumon (Black)。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:loogarmon",
+   "name_en": "Loogarmon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×1.75 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Flame」间切换。野外生成于森林、花森林、风袭森林、平原、热带草原（权重 15，每组 1–6 只）；肉食性；可被指派为矿工；可进化为 Soloogarmon、Helloogarmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:lopmon",
+   "name_en": "Lopmon",
+   "name_zh": "洛宝兽",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 0.75×1.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Petit Twister」间切换。野外生成于白桦森林、平原、热带草原（权重 24，每组 1–8 只）；掉落兔子皮；可进化为 BlackGalgomon、Gold Numemon、Wendimon、Turuiemon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:mailbirdramon",
+   "name_en": "MailBirdramon",
+   "name_zh": "铠甲鸟龙兽",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1×2.5 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Thunderbolt」间切换。野外生成于山地、恶地、尖峭山峰、针叶林、黑森林（权重 15，每组 1–6 只）；以废料为食；掉落铁锭；可进化为 Jazarichmon、Cargodramon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:mamemon",
+   "name_en": "Mamemon",
+   "name_zh": "豆豆兽",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 0.8×0.95 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Smiley Bomb」间切换。野外生成于丛林、森林、平原、热带草原、山地、恶地等（权重 8，每组 1–4 只）；以废料为食；可被指派为搬运工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:mametyramon",
+   "name_en": "Mametyramon",
+   "name_zh": "豆豆巨龙兽",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 0.8×0.95 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Beast Slash」间切换。野外生成于丛林、森林、平原、热带草原、山地、恶地等（权重 8，每组 1–4 只）；肉食性；可被指派为搬运工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:manbomon",
+   "name_en": "Manbomon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，水生（不会淹死），碰撞箱 1.75×2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mach Tornado」间切换。野外生成于海洋（权重 15，每组 1–6 只）；以海鲜为食；可被指派为矿工；可进化为 Giromon、Piranimon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:manticoremon",
+   "name_en": "Manticoremon",
+   "name_zh": "蝎狮兽",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.25×2.75 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Death Claw」间切换。野外生成于白桦森林（权重 8，每组 1–4 只）；肉食性；掉落羽毛；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:marinedevimon",
+   "name_en": "MarineDevimon",
+   "name_zh": "海恶魔兽",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.25×3.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Doctase」间切换。野外生成于河流、海滩、沼泽（权重 8，每组 1–4 只）；以海鲜为食；可被指派为矿工；掉落墨囊；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:mechanorimon",
+   "name_en": "Mechanorimon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 2.375×2.375 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Blaster」间切换。野外生成于沙漠、恶地、山地、尖峭山峰（权重 15，每组 1–6 只）；以废料为食；可被指派为矿工；可进化为 Nanomon、GigaDramon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:megadramon",
+   "name_en": "MegaDramon",
+   "name_zh": "百万龙兽",
+   "description_zh": "完全体数码兽，飞行（不受摔落伤害），碰撞箱 1.5×2.9 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Giga Destroyer」间切换。野外生成于山地、恶地、尖峭山峰、针叶林、黑森林（权重 8，每组 1–4 只）；肉食性；掉落铁锭；可进化为 GigaDramon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:megalogrowlmon",
+   "name_en": "MegaloGrowmon",
+   "name_zh": "大古拉兽",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.5×2.9 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Hyper Heat」间切换。野外生成于山地、恶地、尖峭山峰（权重 8，每组 1–4 只）；肉食性；可被指派为伐木工；掉落铁锭；可进化为 BlackMegaloGrowmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:megalogrowlmondata",
+   "name_en": "MegaloGrowmon (Orange)",
+   "name_zh": "大古拉兽(数据)",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.5×2.9 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Flame」间切换。野外生成于山地、恶地、尖峭山峰（权重 8，每组 1–4 只）；肉食性；掉落铁锭；可进化为 BlackMegaloGrowmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:megaseadramon",
+   "name_en": "MegaSeadramon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，水生（不会淹死），碰撞箱 3.25×3 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Ocean Storm」间切换。野外生成于海洋（权重 8，每组 1–4 只）；以海鲜为食；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:mephismon",
+   "name_en": "Mephismon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，飞行（不受摔落伤害），碰撞箱 1.875×2.75 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Meteor Wing」间切换。野外生成于森林、花森林、风袭森林、针叶林、黑森林（权重 8，每组 1–4 只）；可被指派为农夫；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:metalgreymon",
+   "name_en": "MetalGreymon",
+   "name_zh": "机械暴龙兽",
+   "description_zh": "完全体数码兽，飞行（不受摔落伤害），碰撞箱 1.5×2.9 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Giga Destroyer」间切换。野外生成于平原、热带草原（权重 8，每组 1–4 只）；肉食性；掉落铁锭；可进化为 MetalGreymon (Virus)。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:metalgreymonvirus",
+   "name_en": "MetalGreymon (Virus)",
+   "name_zh": "机械暴龙兽(病毒)",
+   "description_zh": "完全体数码兽，飞行（不受摔落伤害），碰撞箱 1.5×2.9 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poison Breath」间切换。野外生成于平原、热带草原、针叶林、黑森林（权重 8，每组 1–4 只）；肉食性；掉落黑暗数码鱼、铁锭；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:metalmamemon",
+   "name_en": "MetalMamemon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 0.8×0.95 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Smiley Bomb」间切换。野外生成于针叶林、黑森林（权重 8，每组 1–4 只）；以废料为食；可被指派为搬运工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:metaltyrannomon",
+   "name_en": "MetalTyrannomon",
+   "name_zh": "金属巨龙兽",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.5×2.9 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Hyper Heat」间切换。野外生成于沙漠、恶地、针叶林、黑森林（权重 8，每组 1–4 只）；肉食性；掉落铁锭；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:mimicmon",
+   "name_en": "Mimicmon",
+   "name_zh": "拟态兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Gatling Arm」间切换。野外生成于末地诸岛、丛林、森林、平原、热带草原（权重 15，每组 1–6 只）；可被指派为搬运工；掉落羽毛、铁锭；可进化为 Manticoremon、Digitamamon、Ghilliedhumon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:missimon",
+   "name_en": "Missimon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅱ数码兽，飞行（不受摔落伤害），碰撞箱 1.25×1.125 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Jazamon、Sparrowmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:mochimon",
+   "name_en": "Mochimon",
+   "name_zh": "年糕兽",
+   "description_zh": "幼年期Ⅱ数码兽，陆地行走，碰撞箱 0.9×0.9 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Kunemon、Tentomon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:modokibetamon",
+   "name_en": "ModokiBetamon",
+   "name_zh": "",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 1×1 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、花森林、风袭森林（权重 24，每组 1–8 只）；草食性；可被指派为农夫；可进化为 Seadramon、Tuskmon、Geremon、Archelomon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:monimon",
+   "name_en": "Monimon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅱ数码兽，陆地行走，碰撞箱 1×1 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Koemon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:monzaemon",
+   "name_en": "Monzaemon",
+   "name_zh": "熊仔兽",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.5×2.9 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Love Song」间切换。野外生成于沼泽、森林、黑森林（权重 8，每组 1–4 只）；以粪便为食；可被指派为农夫；掉落Digi Poop；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:morishellmon",
+   "name_en": "MoriShellmon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 3.125×2.312 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Gliding Rocks」间切换。野外生成于丛林、森林（权重 15，每组 1–6 只）；可被指派为矿工；可进化为 Ghilliedhumon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:namakemon",
+   "name_en": "Namakemon",
+   "name_zh": "树懒兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poop Throw」间切换。野外生成于沼泽、森林、黑森林、针叶林（权重 15，每组 1–6 只）；以粪便为食；可被指派为农夫；掉落Digi Poop；可进化为 Monzaemon、Shootmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:nanimon",
+   "name_en": "Nanimon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×1.7 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poop Throw」间切换。野外生成于沼泽、森林、黑森林（权重 15，每组 1–6 只）；以粪便为食；可被指派为农夫；可进化为 Digitamamon、Tekkamon、BigMamemon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:nanomon",
+   "name_en": "Nanomon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.1×1.625 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Thunderbolt」间切换。野外生成于沙漠、恶地、针叶林、黑森林（权重 8，每组 1–4 只）；以废料为食；可被指派为搬运工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:numemon",
+   "name_en": "Numemon",
+   "name_zh": "鼻涕兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×1.7 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poop Throw」间切换。野外生成于沼泽、森林、黑森林（权重 15，每组 1–6 只）；以粪便为食；掉落Digi Poop、黏液球；可进化为 Monzaemon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:nyokimon",
+   "name_en": "Nyokimon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅰ数码兽，陆地行走，碰撞箱 0.8×0.8 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–2 之间随机、攻/防/特攻/特防上限 2；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。可由「Nyokimon Digitama」孵化；野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Pyocomon、Monimon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:octomon",
+   "name_en": "Octmon",
+   "name_zh": "章鱼兽",
+   "description_zh": "成熟期数码兽，水生（不会淹死），碰撞箱 1×2 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Ink Gun」间切换。野外生成于海洋、河流、海滩、沼泽（权重 15，每组 1–6 只）；以海鲜为食；掉落墨囊；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:okuwamon",
+   "name_en": "Okuwamon",
+   "name_zh": "大锹形虫兽",
+   "description_zh": "完全体数码兽，飞行（不受摔落伤害），碰撞箱 1.5×2.9 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Cruel Scissors」间切换。野外生成于丛林、森林（权重 8，每组 1–4 只）；以虫类为食；可被指派为伐木工；掉落铁锭；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:oleamon",
+   "name_en": "Oleamon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.5×2.813 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Deadly Sting」间切换。野外生成于针叶林、黑森林（权重 8，每组 1–4 只）；以植物为食；可被指派为植树工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:omegashoutmon",
+   "name_en": "OmegaShoutmon",
+   "name_zh": "奥米加高吼兽",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.5×3 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Divine Axe」间切换。野外生成于平原、热带草原（权重 8，每组 1–4 只）；以废料为食；可被指派为搬运工；掉落金锭；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:pagumon",
+   "name_en": "Pagumon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅱ数码兽，陆地行走，碰撞箱 0.9×0.9 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Tyumon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:paildramon",
+   "name_en": "Paildramon",
+   "name_zh": "机甲龙兽",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1×3 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Gatling Arm」间切换。野外生成于山地、恶地、尖峭山峰（权重 8，每组 1–4 只）；肉食性；可被指派为矿工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:palmon",
+   "name_en": "Palmon",
+   "name_zh": "",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 1×1.375 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Petit Thunder」间切换。野外生成于森林、花森林、风袭森林、针叶林、黑森林（权重 24，每组 1–8 只）；以植物为食；可被指派为农夫；可进化为 Togemon、Vegimon、Woodmon、Parasaurmon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:parasaurmon",
+   "name_en": "Parasaurmon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Petit Twister」间切换。野外生成于森林、花森林、风袭森林、白桦森林、针叶林、黑森林（权重 15，每组 1–6 只）；草食性；可被指派为伐木工；掉落Digi Banana；可进化为 Toropiamon、Brachimon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:patamon",
+   "name_en": "Patamon",
+   "name_zh": "巴达兽",
+   "description_zh": "成长期数码兽，飞行（不受摔落伤害），碰撞箱 1.5×1.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于平原、热带草原（权重 24，每组 1–8 只）；可被指派为植树工；可进化为 Unimon、Gold Numemon、Centalmon、Mimicmon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:pegasmon",
+   "name_en": "Pegasmon",
+   "name_zh": "天马兽",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1.5×2 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Holy Shoot」间切换。野外生成于平原、热带草原（权重 15，每组 1–6 只）；掉落羽毛、金锭；可进化为 Saggitarimon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:petaldramon",
+   "name_en": "Petaldramon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 3.75×1.625 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Deadly Sting」间切换。野外生成于针叶林、黑森林（权重 8，每组 1–4 只）；以植物为食；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:petitmon",
+   "name_en": "Petitmon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅰ数码兽，飞行（不受摔落伤害），碰撞箱 0.8×0.8 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–2 之间随机、攻/防/特攻/特防上限 2；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。可由「Petitmon Digitama」孵化；野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Babydmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:piccolomon",
+   "name_en": "Piccolomon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，飞行（不受摔落伤害），碰撞箱 1×1 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Holy Shoot」间切换。野外生成于山地、恶地、尖峭山峰、平原、热带草原（权重 8，每组 1–4 只）；可被指派为搬运工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:datirimon",
+   "name_en": "Pipimon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅰ数码兽，陆地行走，碰撞箱 0.8×0.8 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–2 之间随机、攻/防/特攻/特防上限 2；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。可由「Pipmon Digitama」孵化；野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Chapmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:piranimon",
+   "name_en": "Piranimon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，水生（不会淹死），碰撞箱 2.56×2 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Ocean Storm」间切换。野外生成于海洋（权重 8，每组 1–4 只）；以海鲜为食；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:pistmon",
+   "name_en": "Pistmon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 2.438×2.375 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Thunderbolt」间切换。野外生成于平原、热带草原（权重 8，每组 1–4 只）；可被指派为搬运工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:piyomon",
+   "name_en": "Piyomon",
+   "name_zh": "比丘兽",
+   "description_zh": "成长期数码兽，飞行（不受摔落伤害），碰撞箱 1×1.75 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Petit Twister」间切换。野外生成于山地、恶地、尖峭山峰、平原、热带草原（权重 24，每组 1–8 只）；可被指派为农夫；掉落羽毛；可进化为 Saberdramon、Akatorimon、Birdramon、MailBirdramon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:platinumscumon",
+   "name_en": "PlatinumScumon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×1.7 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poop Throw」间切换。野外生成于沙漠、恶地、山地、尖峭山峰、沼泽、森林等（权重 15，每组 1–6 只）；以粪便为食；可被指派为农夫；可进化为 GreatKingScumon、Etemon、Vademon、Shakkoumon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:ponchomon",
+   "name_en": "Ponchomon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1.375×2.063 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mach Tornado」间切换。野外生成于沙漠、恶地（权重 15，每组 1–6 只）；以植物为食；可被指派为农夫；可进化为 Pumpmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:poyomon",
+   "name_en": "Poyomon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅰ数码兽，陆地行走，碰撞箱 0.8×0.8 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–2 之间随机、攻/防/特攻/特防上限 2；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。可由「Poyomon Digitama」孵化；野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Tokomon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:protogizmon",
+   "name_en": "ProtoGizmon",
+   "name_zh": "",
+   "description_zh": "成长期数码兽，飞行（不受摔落伤害），碰撞箱 1×1.7 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Disc Attack」间切换。野外生成于末地诸岛、针叶林、黑森林（权重 24，每组 1–8 只）；可被指派为矿工；可进化为 GizmonAT、Mechanorimon、Raremon、Chrysalimon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:pteranomon",
+   "name_en": "Pteranomon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 2×1.812 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Giga Destroyer」间切换。野外生成于沙漠、恶地、山地、尖峭山峰（权重 15，每组 1–6 只）；以废料为食；可被指派为搬运工；可进化为 Tekkamon、Giromon、Jazarichmon、GigaDramon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:pucchiemon",
+   "name_en": "Pucchiemon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Holy Shoot」间切换。野外生成于白桦森林（权重 15，每组 1–6 只）；可被指派为农夫；可进化为 Piccolomon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:greenpucchiemon",
+   "name_en": "Pucchiemon (Green)",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Holy Shoot」间切换。野外生成于森林、花森林、风袭森林（权重 15，每组 1–6 只）；可被指派为农夫；可进化为 Lilimon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:pulsemon",
+   "name_en": "Pulsemon",
+   "name_zh": "脉冲兽",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 0.75×1.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Petit Thunder」间切换。野外生成于针叶林、黑森林（权重 24，每组 1–8 只）；可被指派为搬运工；可进化为 Runnermon、Namakemon、Exermon、Thunderballmon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:pumpmon",
+   "name_en": "Pumpmon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1×1.875 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Secret Identity」间切换。野外生成于白桦森林、针叶林、黑森林（权重 8，每组 1–4 只）；可被指派为农夫；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:punching_bag",
+   "name_en": "Punching Bag",
+   "name_zh": "训练吊袋",
+   "description_zh": "《The Digimod》的训练设施实体，不是数码兽：数码兽攻击它时，会按伤害提升该数码兽的攻击数值并给予经验。它由物品「Punching Bag」放置，没有野外生成、掉落与驯养行为，只用于反复练习属性。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理：InitGoods 注册与 AbstractTrainingGood 训练逻辑。"
+  },
+  {
+   "mob_id": "thedigimod:punimon",
+   "name_en": "Punimon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅰ数码兽，陆地行走，碰撞箱 0.8×0.8 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–2 之间随机、攻/防/特攻/特防上限 2；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。可由「Punimon Digitama」孵化；野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Tsunomon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:puyomon",
+   "name_en": "Puyomon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅰ数码兽，水生（不会淹死），碰撞箱 0.8×0.8 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–2 之间随机、攻/防/特攻/特防上限 2；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。可由「Puyomon Digitama」孵化；野外生成于森林、平原、草甸、海洋（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Puyoyomon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:puyoyomon",
+   "name_en": "Puyoyomon",
+   "name_zh": "噗呦呦兽",
+   "description_zh": "幼年期Ⅱ数码兽，水生（不会淹死），碰撞箱 0.9×0.9 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸、海洋（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Jellymon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:yokomon",
+   "name_en": "Pyocomon",
+   "name_zh": "比高兽",
+   "description_zh": "幼年期Ⅱ数码兽，陆地行走，碰撞箱 0.9×0.9 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Piyomon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:ranamon",
+   "name_en": "Ranamon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，水生（不会淹死），碰撞箱 1×2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Doctase」间切换。野外生成于海洋、河流、海滩、沼泽（权重 15，每组 1–6 只）；以海鲜为食；可被指派为伐木工；可进化为 Thetismon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:raremon",
+   "name_en": "Raremon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×1.75 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poop Throw」间切换。野外生成于沼泽、森林、黑森林（权重 15，每组 1–6 只）；以粪便为食；掉落Digi Poop；可进化为 Extyrannomon、Rareraremon、Ghilliedhumon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:rareraremon",
+   "name_en": "Rareraremon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.75×3 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poop Throw」间切换。野外生成于沼泽、森林、黑森林（权重 8，每组 1–4 只）；以粪便为食；可被指派为农夫；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:redveedramon",
+   "name_en": "RedV-dramon",
+   "name_zh": "红V龙兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「V-Arrow」间切换。野外生成于平原、热带草原（权重 15，每组 1–6 只）；肉食性；可被指派为矿工；可进化为 AeroV-dramon、GoldV-dramon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:runnermon",
+   "name_en": "Runnermon",
+   "name_zh": "奔跑兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×1.75 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Thunderbolt」间切换。野外生成于平原、热带草原、针叶林、黑森林（权重 15，每组 1–6 只）；可进化为 Pistmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:saberdramon",
+   "name_en": "Saberdramon",
+   "name_zh": "黑巴多拉兽",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1×2.5 格，免疫火焰伤害，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Tron Flame」间切换。野外生成于山地、恶地、尖峭山峰、下界荒地、灵魂沙峡谷、针叶林等（权重 15，每组 1–6 只）；肉食性；掉落黑暗数码鱼、羽毛、火焰弹；可进化为 Karatenmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:saggitarimon",
+   "name_en": "Saggitarimon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.25×3.5 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Gold-Arrow」间切换。野外生成于下界荒地、针叶林、黑森林（权重 8，每组 1–4 只）；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:scumon",
+   "name_en": "Scumon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×1.7 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poop Throw」间切换。野外生成于沼泽、森林、黑森林（权重 15，每组 1–6 只）；以粪便为食；可被指派为农夫；掉落Digi Poop；可进化为 GreatKingScumon、Etemon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:seadramon",
+   "name_en": "Seadramon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，水生（不会淹死），碰撞箱 2.5×2.313 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Ocean Storm」间切换。野外生成于海洋（权重 15，每组 1–6 只）；以海鲜为食；可进化为 MegaSeadramon、WaruSeadramon、MegaDramon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:shakkoumon",
+   "name_en": "Shakkoumon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，飞行（不受摔落伤害），碰撞箱 2.125×3.625 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Heaven's Knuckle」间切换。野外生成于白桦森林、沙漠、恶地（权重 8，每组 1–4 只）；可被指派为农夫；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:shawujinmon",
+   "name_en": "Shawujinmon",
+   "name_zh": "沙悟净兽",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.25×3.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Gatling Arm」间切换。野外生成于河流、海滩、沼泽（权重 8，每组 1–4 只）；以海鲜为食；可被指派为伐木工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:shellmon",
+   "name_en": "Shellmon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 3.125×2.312 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Gliding Rocks」间切换。野外生成于海洋、河流、海滩、沼泽（权重 15，每组 1–6 只）；以海鲜为食；可被指派为矿工；可进化为 WaruSeadramon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:shimaunimon",
+   "name_en": "ShimaUnimon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×2 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Holy Shoot」间切换。野外生成于平原、热带草原（权重 15，每组 1–6 只）；可进化为 Saggitarimon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:shootmon",
+   "name_en": "Shootmon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.2×2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Blaster」间切换。野外生成于针叶林、黑森林（权重 8，每组 1–4 只）；可被指派为伐木工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:shoutmon",
+   "name_en": "Shoutmon",
+   "name_zh": "高吼兽",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 1×1.75 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Pepper Breath」间切换。野外生成于平原、热带草原（权重 24，每组 1–8 只）；肉食性；可被指派为伐木工；可进化为 RedV-dramon、ShoutmonX2、Shoutmon (King Ver.)、Numemon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:kingshoutmon",
+   "name_en": "Shoutmon (King Ver.)",
+   "name_zh": "王者高吼兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Disc Attack」间切换。野外生成于平原、热带草原（权重 15，每组 1–6 只）；肉食性；可被指派为伐木工；可进化为 OmegaShoutmon、ShoutmonX5。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:shoutmonx2",
+   "name_en": "ShoutmonX2",
+   "name_zh": "高吼兽 X2",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「V-Arrow」间切换。野外生成于山地、恶地、尖峭山峰（权重 15，每组 1–6 只）；以废料为食；可被指派为伐木工；掉落铁锭；可进化为 ShoutmonX5。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:shoutmonx3",
+   "name_en": "ShoutmonX3",
+   "name_zh": "高吼兽 X3",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×3.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「X-Attack」间切换。野外生成于山地、恶地、尖峭山峰（权重 15，每组 1–6 只）；以废料为食；可被指派为矿工；掉落铁锭；可进化为 ShoutmonX5。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:shoutmonx5",
+   "name_en": "ShoutmonX5",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.5×3.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「X-Attack」间切换。野外生成于山地、恶地、尖峭山峰（权重 8，每组 1–4 只）；以废料为食；可被指派为矿工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:shurimon",
+   "name_en": "Shurimon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.25×2.188 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Disc Attack」间切换。野外生成于丛林、森林（权重 15，每组 1–6 只）；可被指派为伐木工；可进化为 Ajatarmon、Karatenmon、Pistmon、Blossomon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:skullgreymon",
+   "name_en": "Skullgreymon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.5×3.2 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Giga Destroyer」间切换。野外生成于沙漠、恶地、灵魂沙峡谷、针叶林、黑森林（权重 8，每组 1–4 只）；肉食性；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:soloogarmon",
+   "name_en": "Soloogarmon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.7×3.4 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Hyper Heat」间切换。野外生成于森林、花森林、风袭森林、平原、热带草原、针叶林等（权重 8，每组 1–4 只）；可被指派为矿工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:sunamon",
+   "name_en": "Sunamon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅰ数码兽，陆地行走，碰撞箱 0.8×0.8 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–2 之间随机、攻/防/特攻/特防上限 2；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。可由「Sunamon Digitama」孵化；野外生成于森林、平原、草甸、深暗之域、滴水石洞（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Goromon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:sunarizamon",
+   "name_en": "Sunarizamon",
+   "name_zh": "沙蜥蜴兽",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 1.5×0.75 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Sand Blast」间切换。野外生成于深暗之域、滴水石洞、沙漠、恶地、山地、尖峭山峰（权重 24，每组 1–8 只）；以矿物为食；可被指派为矿工；可进化为 Tortamon、Numemon、FlareLizamon、Cyclomon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:tanemon",
+   "name_en": "Tanemon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅱ数码兽，陆地行走，碰撞箱 1×1 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Palmon、Alraumon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:tekkamon",
+   "name_en": "Tekkamon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.1×2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「World Slash」间切换。野外生成于针叶林、黑森林（权重 8，每组 1–4 只）；可被指派为搬运工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:tentomon",
+   "name_en": "Tentomon",
+   "name_zh": "甲虫兽",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 0.75×1.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Petit Thunder」间切换。野外生成于丛林、森林（权重 24，每组 1–8 只）；以虫类为食；可被指派为植树工；可进化为 Kuwagamon、Gokimon、Kabuterimon、Ballistamon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:teslajellymon",
+   "name_en": "TeslaJellymon",
+   "name_zh": "特斯拉海蜇兽",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1×1.8 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Thunderbolt」间切换。野外生成于河流、海滩、沼泽（权重 15，每组 1–6 只）；以海鲜为食；可被指派为搬运工；掉落黏液球；可进化为 Thetismon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:thetismon",
+   "name_en": "Thetismon",
+   "name_zh": "忒提丝兽",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.5×2.8 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Doctase」间切换。野外生成于海洋、河流、海滩、沼泽（权重 8，每组 1–4 只）；以海鲜为食；可被指派为植树工；掉落黏液球；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:thunderballmon",
+   "name_en": "Thunderballmon",
+   "name_zh": "雷电球兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×1.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Thunderbolt」间切换。野外生成于山地、恶地、尖峭山峰、针叶林、黑森林（权重 15，每组 1–6 只）；以废料为食；可被指派为矿工；可进化为 Mamemon、Shootmon、Tekkamon、Giromon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:togemon",
+   "name_en": "Togemon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.375×2.063 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mach Tornado」间切换。野外生成于沙漠、恶地（权重 15，每组 1–6 只）；以植物为食；可被指派为植树工；可进化为 Lilimon、Mamemon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:tokomon",
+   "name_en": "Tokomon",
+   "name_zh": "迪哥兽",
+   "description_zh": "幼年期Ⅱ数码兽，陆地行走，碰撞箱 0.9×0.9 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Patamon、Tsukaimon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:tonosamagekomon",
+   "name_en": "TonosamaGekomon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 2.625×2.75 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Doctase」间切换。野外生成于河流、海滩、沼泽（权重 8，每组 1–4 只）；以海鲜为食；可被指派为伐木工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:toropiamon",
+   "name_en": "Toropiamon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.75×3.4 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mach Tornado」间切换。野外生成于森林、花森林、风袭森林、白桦森林、针叶林、黑森林（权重 8，每组 1–4 只）；草食性；可被指派为伐木工；掉落Digi Banana；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:tortamon",
+   "name_en": "Tortamon",
+   "name_zh": "陆龟兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×2.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Gliding Rocks」间切换。野外生成于沙漠、恶地（权重 15，每组 1–6 只）；可被指派为矿工；掉落鳞甲；可进化为 Brachimon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:training_bag",
+   "name_en": "Training bag",
+   "name_zh": "训练袋",
+   "description_zh": "《The Digimod》的训练器材条目「Training Bag」，jar 中没有注册同名生物实体，也没有 digimon 数据、生成标签或掉落。同名物品仍在物品注册表中，用于摆放训练设施。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理：InitGoods 注册与 AbstractTrainingGood 训练逻辑。"
+  },
+  {
+   "mob_id": "thedigimod:shield",
+   "name_en": "Training Shield",
+   "name_zh": "训练护盾",
+   "description_zh": "《The Digimod》的训练设施实体，不是数码兽：数码兽攻击它时，会按伤害提升该数码兽的防御数值并给予经验。它由物品「Training Shield」放置，没有野外生成、掉落与驯养行为，只用于反复练习属性。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理：InitGoods 注册与 AbstractTrainingGood 训练逻辑。"
+  },
+  {
+   "mob_id": "thedigimod:target",
+   "name_en": "Training Target",
+   "name_zh": "训练标靶",
+   "description_zh": "《The Digimod》的训练设施实体，不是数码兽：数码兽攻击它时，会按伤害提升该数码兽的特攻数值并给予经验。它由物品「Target」放置，没有野外生成、掉落与驯养行为，只用于反复练习属性。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.55,
+   "notes": "据 jar 源码与数据文件整理：InitGoods 注册与 AbstractTrainingGood 训练逻辑。"
+  },
+  {
+   "mob_id": "thedigimod:tsukaimon",
+   "name_en": "Tsukaimon",
+   "name_zh": "",
+   "description_zh": "成长期数码兽，飞行（不受摔落伤害），碰撞箱 1.5×1.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、花森林、风袭森林（权重 24，每组 1–8 只）；可被指派为植树工；可进化为 ShimaUnimon、Bakemon、Devidramon、Devimon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:tsumemon",
+   "name_en": "Tsumemon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅱ数码兽，陆地行走，碰撞箱 0.8×0.8 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸、末地诸岛（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Keramon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:tsunomon",
+   "name_en": "Tsunomon",
+   "name_zh": "独角兽",
+   "description_zh": "幼年期Ⅱ数码兽，陆地行走，碰撞箱 0.9×0.9 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Bearmon、Gabumon、Gabumon (Black)。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:turuiemon",
+   "name_en": "Turuiemon",
+   "name_zh": "武兔兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Heaven's Knuckle」间切换。野外生成于平原、热带草原（权重 15，每组 1–6 只）；可被指派为伐木工；掉落兔子皮；可进化为 Andiramon (Deva)。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:tuskmon",
+   "name_en": "Tuskmon",
+   "name_zh": "长牙兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.5 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Flame」间切换。野外生成于沙漠、恶地（权重 15，每组 1–6 只）；肉食性；可进化为 Groundramon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:tyrannomon",
+   "name_en": "Tyranomon",
+   "name_zh": "巨龙兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.2 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Flame」间切换。野外生成于平原、热带草原（权重 15，每组 1–6 只）；肉食性；可进化为 MetalTyrannomon、Mametyramon、Brachimon、Extyrannomon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:tyumon",
+   "name_en": "Tyumon",
+   "name_zh": "",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 0.75×1.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poop Throw」间切换。野外生成于沼泽、森林、黑森林（权重 24，每组 1–8 只）；以粪便为食；可被指派为农夫；掉落Digi Poop；可进化为 Scumon、Numemon、Raremon、Namakemon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:unimon",
+   "name_en": "Unimon",
+   "name_zh": "独角兽",
+   "description_zh": "成熟期数码兽，飞行（不受摔落伤害），碰撞箱 1.5×2 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Holy Shoot」间切换。野外生成于平原、热带草原（权重 15，每组 1–6 只）；掉落羽毛；可进化为 Piccolomon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:veedramon",
+   "name_en": "V-dramon",
+   "name_zh": "V龙兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「V-Arrow」间切换。野外生成于平原、热带草原（权重 15，每组 1–6 只）；肉食性；可被指派为矿工；可进化为 AeroV-dramon、GoldV-dramon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:veedramonblack",
+   "name_en": "V-dramon (Black)",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Tron Flame」间切换。野外生成于森林、花森林、风袭森林（权重 15，每组 1–6 只）；肉食性；可被指派为矿工；可进化为 AeroV-dramon、GoldV-dramon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:vmon",
+   "name_en": "V-mon",
+   "name_zh": "V仔兽",
+   "description_zh": "成长期数码兽，陆地行走，碰撞箱 0.75×1.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 25–100 之间随机、攻/防/特攻/特防上限 100；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Pepper Breath」间切换。野外生成于森林、花森林、风袭森林（权重 24，每组 1–8 只）；肉食性；可被指派为矿工；可进化为 V-dramon、XV-mon、Gargomon、Fladramon 等。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:vademon",
+   "name_en": "Vademon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.25×2.937 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poop Throw」间切换。野外生成于末地诸岛、沼泽、森林、黑森林（权重 8，每组 1–4 只）；以粪便为食；可被指派为农夫；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:valvemon",
+   "name_en": "Valvemon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 4.25×4.437 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Mega Blaster」间切换。野外生成于沙漠、恶地、丛林、森林、平原、热带草原（权重 8，每组 1–4 只）；以废料为食；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:vegiemon",
+   "name_en": "Vegimon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×1.7 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poop Throw」间切换。野外生成于森林、花森林、风袭森林、白桦森林、沼泽、黑森林（权重 15，每组 1–6 只）；以粪便为食；可进化为 Monzaemon、Vademon、Blossomon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:warumonzaemon",
+   "name_en": "WaruMonzaemon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.5×2.9 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Love Song」间切换。野外生成于白桦森林、沼泽、森林、黑森林（权重 8，每组 1–4 只）；以粪便为食；可被指派为农夫；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:waruseadramon",
+   "name_en": "WaruSeadramon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，水生（不会淹死），碰撞箱 3.25×3 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Ocean Storm」间切换。野外生成于海洋（权重 8，每组 1–4 只）；以海鲜为食；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:wendimon",
+   "name_en": "Wendimon",
+   "name_zh": "温迪兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.5×2.5 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Death Claw」间切换。野外生成于针叶林、黑森林（权重 15，每组 1–6 只）；可进化为 Andiramon、Mephismon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:weregarurumon",
+   "name_en": "WereGarurumon",
+   "name_zh": "狼人加鲁鲁兽",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.5×2.4 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Beast Slash」间切换。野外生成于雪原、冰刺之地、积雪针叶林、平原、热带草原（权重 8，每组 1–4 只）；可被指派为矿工；可进化为 WereGarurumon (Black)。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:blackweregarurumon",
+   "name_en": "WereGarurumon (Black)",
+   "name_zh": "狼人加鲁鲁兽(黑)",
+   "description_zh": "完全体数码兽，陆地行走，碰撞箱 1.5×2.4 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Tron Flame」间切换。野外生成于平原、热带草原（权重 8，每组 1–4 只）；可被指派为矿工；掉落黑暗数码鱼；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:wisemon",
+   "name_en": "Wisemon",
+   "name_zh": "",
+   "description_zh": "完全体数码兽，飞行（不受摔落伤害），碰撞箱 2.625×3.375 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 250–500 之间随机、攻/防/特攻/特防上限 500；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Divine Axe」间切换。野外生成于针叶林、黑森林（权重 8，每组 1–4 只）；可被指派为植树工；jar 中无进一步的进化数据。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:wizardmon",
+   "name_en": "Wizardmon",
+   "name_zh": "巫师兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Meteor Wing」间切换。野外生成于针叶林、黑森林（权重 15，每组 1–6 只）；可被指派为植树工；可进化为 Wisemon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:woodmon",
+   "name_en": "Woodmon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1.375×2.563 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Petit Twister」间切换。野外生成于森林、花森林、风袭森林、白桦森林、针叶林、黑森林（权重 15，每组 1–6 只）；以植物为食；可被指派为伐木工；可进化为 Jyureimon、Petaldramon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:xvmon",
+   "name_en": "XV-mon",
+   "name_zh": "XV兽",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×2.5 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「X-Attack」间切换。野外生成于森林、花森林、风袭森林（权重 15，每组 1–6 只）；肉食性；可被指派为矿工；可进化为 Paildramon、Cyberdramon、Dinobeemon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:keemon",
+   "name_en": "Yarmon",
+   "name_zh": "也也兽",
+   "description_zh": "幼年期Ⅱ数码兽，陆地行走，碰撞箱 0.9×0.9 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–25 之间随机、攻/防/特攻/特防上限 25；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Impmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:yuramon",
+   "name_en": "Yuramon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅰ数码兽，飞行（不受摔落伤害），碰撞箱 0.8×0.8 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–2 之间随机、攻/防/特攻/特防上限 2；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。可由「Yuramon Digitama」孵化；野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Tanemon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:weedmon",
+   "name_en": "Zassoumon",
+   "name_zh": "",
+   "description_zh": "成熟期数码兽，陆地行走，碰撞箱 1×1.7 格，可被骑乘。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 100–250 之间随机、攻/防/特攻/特防上限 250；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Poop Throw」间切换。野外生成于沼泽、森林、黑森林（权重 15，每组 1–6 只）；以粪便为食；可进化为 Algomon (Perfect)、Blossomon、Oleamon、Ajatarmon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  },
+  {
+   "mob_id": "thedigimod:zurumon",
+   "name_en": "Zurumon",
+   "name_zh": "",
+   "description_zh": "幼年期Ⅰ数码兽，陆地行走，碰撞箱 0.8×0.8 格。基础模板生命 5、攻击 0.5、移速 0.3，生成时生命在 1–2 之间随机、攻/防/特攻/特防上限 2；平时在锚点附近游荡，被驯服后会坐下待命、跟随并护卫主人，战斗时按攻击或特攻高低在近战与远程特技「Bubble」间切换。可由「Zurumon Digitama」孵化；野外生成于森林、平原、草甸（权重 22，每组 2–10 只）；以幼年期饲料为食；可进化为 Pagumon。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-digimod",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理：DigimonEntity.setCustomAttributes/registerGoals、data/thedigimod/digimon/<id>.json、forge/biome_modifier 与 entity_types 生成/掉落标签。"
+  }
+ ]
+}

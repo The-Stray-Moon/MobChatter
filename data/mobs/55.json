@@ -1,0 +1,97 @@
+{
+ "rank": 55,
+ "mod": "The Obsessed - Advanced Psychological Horror, Arachnid Stalker",
+ "mod_url": "https://modrinth.com/mod/obsessed",
+ "mobs": [
+  {
+   "mob_id": "the_obsessed:idk_stalker",
+   "name_en": "The Obsessed",
+   "name_zh": "",
+   "description_zh": "锁定玩家后会在你视野外的最佳位置生成，生成频率随时间递增、夜间提高 4 倍，并会刻意保持距离观察你。它有 -5 到 5 的情绪值：送礼或送金苹果、虞美人、熟肉会提升，攻击它、当面烧礼物或长期忽视会让它变得暴躁；情绪差时会跟踪、布蛛网陷阱、绑架、入侵你的房子，情绪好时会送礼、保护你甚至把你从蛛网里拉出来。最大生命值 500，被多次攻击且血量低于 150 时进入狂暴的蜘蛛形态，击杀后可获得能驱赶怪物的「厌恶图腾」。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/class/22829.html",
+   "confidence": 0.8,
+   "notes": "MC百科模组页记载了生成系统、情绪系统、500 最大生命与各模式；同名状态变体（flee/jealous/mimic/build/protective/lurker/saviour/trap/threat/intrude/enraged 等）已并入此条，不再单列。"
+  },
+  {
+   "mob_id": "the_obsessed:idk_spider_still",
+   "name_en": "Arachnoid Obsessor",
+   "name_zh": "",
+   "description_zh": "当玩家长期无法让它满意时，The Obsessed 会逐渐显露真身，最终以完整的蜘蛛形态四处爬行并屠杀路上的一切；蜘蛛形态速度更快、能爬墙，狂暴时会攻击所有玩家和动物（包括被痴迷的目标）。该形态对应 idk_spider_still 与倒挂天花板的 idk_spider_ceiling 幻象，除本体最大生命 500 外没有单独数值。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/class/22829.html",
+   "confidence": 0.75,
+   "notes": "合并了 the_obsessed:idk_spider_ceiling（天花板悬挂幻象）。"
+  },
+  {
+   "mob_id": "the_obsessed:idk_stalker_deposit_facility",
+   "name_en": "Humanoid Obsessor (WIP VERSION)",
+   "name_zh": "",
+   "description_zh": "人形 Obsessor 的未完成版本，注册名带有 deposit_facility，指向模组尚未实装的「巢穴/存放设施」相关机制。目前只有实体注册可核实，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/obsessed",
+   "confidence": 0.45,
+   "notes": "显示名自带 WIP VERSION；模组页提到未来会加入绑架玩家的巢穴，但该实体本身的机制未公开。"
+  },
+  {
+   "mob_id": "the_obsessed:idk_stalker_tree",
+   "name_en": "Idk Corner Stalker",
+   "name_zh": "",
+   "description_zh": "角落（树）跟踪模式：躲在墙壁和树木后面，探头盯着玩家看；一旦与玩家对视就会切换成其它模式。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/class/22829.html",
+   "confidence": 0.7,
+   "notes": "MC百科「角落（树）跟踪模式」条目；另有旧命名空间 idk_stalker:idk_stalker_tree 的重复注册。"
+  },
+  {
+   "mob_id": "the_obsessed:idk_stalker_crawler",
+   "name_en": "Idk Stalker Crawler",
+   "name_zh": "",
+   "description_zh": "爬行模式：在玩家附近贴地爬行、翻找资源，并尽量让地形挡住视线；偶尔会召来大片浓雾掩盖行踪。蜘蛛形态下它还能爬墙，靠近时扑上来攻击再逃走。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/class/22829.html",
+   "confidence": 0.7,
+   "notes": "MC百科「爬行模式」条目；另有旧命名空间 idk_stalker:idk_stalker_crawler 的重复注册。"
+  },
+  {
+   "mob_id": "the_obsessed:idk_stalker_abduct",
+   "name_en": "Idk Stalker Abduction",
+   "name_zh": "",
+   "description_zh": "绑架者模式：只在它特别不高兴时出现，会冲到玩家身边强行把玩家掳走，玩家随后在家里或森林中醒来；按模组计划，未来的版本会改为把玩家绑回它的巢穴。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/class/22829.html",
+   "confidence": 0.7,
+   "notes": "MC百科「绑架者模式」条目。"
+  },
+  {
+   "mob_id": "the_obsessed:idk_sleep_paralysis",
+   "name_en": "Idk Stalker Paralysis",
+   "name_zh": "",
+   "description_zh": "名为 Idk Stalker Paralysis 的状态实体，与睡眠瘫痪（鬼压床）主题对应，属于 The Obsessed 在玩家睡眠时制造的压迫感形态。模组正文与百科都没有展开说明其数值，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/obsessed",
+   "confidence": 0.45,
+   "notes": "仅有实体注册名与显示名可核实。"
+  },
+  {
+   "mob_id": "the_obsessed:idk_stalker_sleep",
+   "name_en": "Sleep Paralysis Demon Hallucination",
+   "name_zh": "",
+   "description_zh": "睡眠瘫痪恶魔幻象：在玩家睡觉时出现的幻象实体，用于制造鬼压床式体验。模组正文与百科均未单独介绍，只有显示名与实体注册可核实，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/obsessed",
+   "confidence": 0.5,
+   "notes": "显示名为 Sleep Paralysis Demon Hallucination，无掉落与独立生成配置。"
+  },
+  {
+   "mob_id": "the_obsessed:idk_stalker_follow_close",
+   "name_en": "Possessive Mode (WIP VERSION)",
+   "name_zh": "",
+   "description_zh": "占有模式（显示名标注 WIP VERSION）：从注册名 follow_close 看，它会让 The Obsessed 紧贴玩家跟随，属于尚未完成的机制。资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/obsessed",
+   "confidence": 0.45,
+   "notes": "仅有实体注册与显示名可核实。"
+  }
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "rank": 193,
+ "mod": "The Doppelganger 2",
+ "mod_url": "https://modrinth.com/mod/the-doppelganger",
+ "mobs": [
+  {
+   "mob_id": "doppelganger2:doppelganger",
+   "name_en": "Doppelganger",
+   "name_zh": "",
+   "description_zh": "模组基于二重身传说加入的敌对生物：它会偷走目标的外貌并模仿其行为，主动追击玩家，能打开甚至破坏木门。拥有 100 点生命和 7 点攻击，在任意生物群系以权重 4 稀有生成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-doppelganger",
+   "confidence": 0.85,
+   "notes": "模组正文说明设定（偷取外貌、模仿行为）；追击玩家、开门/破门、100 生命、7 攻击与生成权重取自 jar 内 AI 目标、属性与 biome_modifier。无 zh_cn 翻译。"
+  },
+  {
+   "mob_id": "doppelganger2:doppelganger_2",
+   "name_en": "Doppelganger (Variant 2)",
+   "name_zh": "",
+   "description_zh": "二重身的第二种形态，移动速度 0.5，比普通二重身更快，除玩家外还会主动猎杀牛、猪、鸡。100 点生命、7 点攻击，在任意生物群系以权重 2 生成。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-doppelganger",
+   "confidence": 0.5,
+   "notes": "正文未单独介绍该实体；属性（100 生命/7 攻击/0.5 速度）、对牛/猪/鸡的敌对目标和权重 2 均来自 jar。资料有限。"
+  },
+  {
+   "mob_id": "doppelganger2:disguised_cow",
+   "name_en": "Disguised Cow",
+   "name_zh": "",
+   "description_zh": "披着牛皮的拟态生物，外形与牛完全相同，平时像牛一样随机游荡，但会跃向靠近的目标。拥有 20 点生命，在任意生物群系以权重 3 生成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-doppelganger",
+   "confidence": 0.7,
+   "notes": "模组正文只列出 Disguised cow；血量 20、跃击行为与权重 3 取自 jar（en_us 中该实体显示名就是 Cow）。"
+  },
+  {
+   "mob_id": "doppelganger2:disguised_cow_agressive",
+   "name_en": "Aggressive Disguised Cow",
+   "name_zh": "",
+   "description_zh": "伪装牛的敌对形态：会主动攻击玩家，30 点生命、4 点攻击，移动速度 0.3、追击范围 30 格。模组通过转换流程把伪装牛替换成该实体。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-doppelganger",
+   "confidence": 0.5,
+   "notes": "正文未提及；属性与对玩家的敌对目标取自 jar，转换关系来自 Agressive_transitionProcedure（判断伪装牛后生成该实体）。"
+  },
+  {
+   "mob_id": "doppelganger2:disguised_pig",
+   "name_en": "Disguised Pig",
+   "name_zh": "",
+   "description_zh": "外形与猪相同的拟态生物，会随机游荡并扑向靠近的目标；20 点生命，在任意生物群系以权重 3 生成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-doppelganger",
+   "confidence": 0.7,
+   "notes": "模组正文只列出 Disguised pig；血量 20、跃击行为与权重 3 取自 jar。"
+  },
+  {
+   "mob_id": "doppelganger2:disguised_pig_agressive",
+   "name_en": "Aggressive Disguised Pig",
+   "name_zh": "",
+   "description_zh": "伪装猪的敌对形态，40 点生命、3 点攻击，锁定目标后能在 60 格内持续追击，会主动攻击玩家。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/the-doppelganger",
+   "confidence": 0.5,
+   "notes": "正文未提及；属性、追击距离与敌对目标来自 jar。"
+  },
+  {
+   "mob_id": "doppelganger2:disguised_chicken",
+   "name_en": "Disguised Chicken",
+   "name_zh": "",
+   "description_zh": "外形与鸡相同的拟态生物，只有 4 点生命，会随机游荡并扑向目标；在任意生物群系以权重 3 生成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-doppelganger",
+   "confidence": 0.7,
+   "notes": "模组正文只列出 Disguised chicken；血量 4、跃击行为与权重 3 取自 jar。"
+  },
+  {
+   "mob_id": "doppelganger2:disguised_wolf",
+   "name_en": "Disguised Wolf",
+   "name_zh": "",
+   "description_zh": "披着狼皮的二重身，生成在针叶林、森林、原始桦木森林和积雪针叶林（权重 4），拥有 8 点生命和 3 点攻击，会跃向目标并在受击后反击。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-doppelganger",
+   "confidence": 0.7,
+   "notes": "模组正文只列出 Disguised wolf；生成群系/权重、血量与攻击来自 jar。"
+  },
+  {
+   "mob_id": "doppelganger2:disguised_spider",
+   "name_en": "Disguised Spider",
+   "name_zh": "",
+   "description_zh": "外形与蜘蛛相同的拟态生物，16 点生命、4 点攻击，生成权重 8（任意群系），会扑向靠近的目标并在受击后反击。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-doppelganger",
+   "confidence": 0.7,
+   "notes": "模组正文只列出 Disguised spider；血量/攻击与权重 8 取自 jar。"
+  },
+  {
+   "mob_id": "doppelganger2:disguisedbee",
+   "name_en": "Disguised Bee",
+   "name_zh": "",
+   "description_zh": "伪装成蜜蜂的飞行拟态生物，使用飞行移动与寻路，10 点生命、3 点攻击；jar 内没有它的自然生成配置，由模组的召唤流程生成。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/the-doppelganger",
+   "confidence": 0.65,
+   "notes": "模组正文列出 Disguised bee（jar 内 en_us 显示为小写 bee）；飞行 AI、血量与无生成权重来自 jar。"
+  }
+ ]
+}

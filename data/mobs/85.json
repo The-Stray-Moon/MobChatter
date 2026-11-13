@@ -1,0 +1,107 @@
+{
+ "rank": 85,
+ "mod": "Kobolds",
+ "mod_url": "https://modrinth.com/mod/kobolds",
+ "mobs": [
+  {
+   "mob_id": "kobolds:kobold",
+   "name_en": "Kobold",
+   "name_zh": "狗头人",
+   "description_zh": "狗头人是生活在地下巢穴（Kobold Den，生成于森林与针叶林地下 y=12–32）的和平生物，可以交易，喜欢吃紫水晶碎片，并会拿起盾牌、三叉戟或弓弩保卫巢穴。拥有 18 点生命、2 点攻击。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/kobolds",
+   "confidence": 0.85,
+   "notes": "交易、紫水晶、保卫巢穴与巢穴生成来自模组正文；巢穴群系标签与 18 生命/2 攻击取自 jar。"
+  },
+  {
+   "mob_id": "kobolds:kobold_warrior",
+   "name_en": "Kobold Warrior",
+   "name_zh": "",
+   "description_zh": "狗头人战士是巢穴的战斗单位，会举盾格挡并持剑近战，不参与交易。属性与普通狗头人相同：18 点生命、2 点攻击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/kobolds",
+   "confidence": 0.5,
+   "notes": "正文未单独介绍；盾牌/近战 AI 与属性取自 jar。jar 的 zh_cn 把该实体键误写成「狗头人的水肺药水」，故 name_zh 留空。"
+  },
+  {
+   "mob_id": "kobolds:kobold_enchanter",
+   "name_en": "Kobold Enchanter",
+   "name_zh": "狗头人附魔师",
+   "description_zh": "狗头人附魔师是和平的巢穴成员，会用附魔相关物品与玩家交易并出售药水；它还提供新附魔「探矿者」，让怪物有小概率掉落绿宝石。遇到危险只会惊慌逃跑，18 点生命。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/kobolds",
+   "confidence": 0.85,
+   "notes": "正文说明和平、出售药水与探矿者附魔；enchanter 交易表、PanicGoal 与 18 生命取自 jar。"
+  },
+  {
+   "mob_id": "kobolds:kobold_captain",
+   "name_en": "Kobold Captain",
+   "name_zh": "狗头人船长",
+   "description_zh": "狗头人船长是巢穴的首领，使用三套专属交易表与玩家交易，并会持剑近战。18 点生命、2 点攻击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/kobolds",
+   "confidence": 0.5,
+   "notes": "正文未单独介绍；captain_one/two/three_loot 交易表、近战 AI 与属性取自 jar。"
+  },
+  {
+   "mob_id": "kobolds:kobold_engineer",
+   "name_en": "Kobold Engineer",
+   "name_zh": "狗头人工程师",
+   "description_zh": "狗头人工程师用弩作战，并会用工程师交易表与玩家交换物品；它能穿戴盔甲，18 点生命、2 点攻击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/kobolds",
+   "confidence": 0.5,
+   "notes": "正文未单独介绍；弩/特殊远程 AI、engineer_loot 交易表、可穿盔甲与属性取自 jar。"
+  },
+  {
+   "mob_id": "kobolds:kobold_pirate",
+   "name_en": "Kobold Pirate",
+   "name_zh": "狗头人海盗",
+   "description_zh": "狗头人海盗是海盗变种，生成在丛林地下的海盗巢穴（pirate den），外观带海盗眼罩与服饰，行为沿用普通狗头人（可交易、会战斗）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/kobolds",
+   "confidence": 0.5,
+   "notes": "正文未单独介绍；海盗巢穴结构（surface_biome_tag=is_jungle）、pirate 贴图/渲染与实体注册取自 jar。资料有限。"
+  },
+  {
+   "mob_id": "kobolds:kobold_child",
+   "name_en": "Kobold Child",
+   "name_zh": "狗头人之子",
+   "description_zh": "幼年狗头人，会随时间长大；遇到危险只会惊慌逃跑，不参与交易。生命值与其他狗头人相同（18 点）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/kobolds",
+   "confidence": 0.5,
+   "notes": "正文未单独介绍；成长逻辑（Grow 标签）、PanicGoal 与 18 生命取自 jar。"
+  },
+  {
+   "mob_id": "kobolds:kobold_rascal",
+   "name_en": "Kobold Rascal",
+   "name_zh": "狗头人淘气鬼",
+   "description_zh": "狗头人淘气鬼会在巢穴中翻找并捡走物品（自带 Items 物品栏），遇敌时近战还击；巢穴里有专门生成它的生成器。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/kobolds",
+   "confidence": 0.5,
+   "notes": "正文未单独介绍；KoboldRascalSpawner、Items 物品栏 NBT 与近战 AI 取自 jar。"
+  },
+  {
+   "mob_id": "kobolds:kobold_skeleton",
+   "name_en": "Skelebold",
+   "name_zh": "骷髅狗头人",
+   "description_zh": "骷髅狗头人（Skelebold）是亡灵变种，使用弩远程射击，18 点生命、3 点攻击，移动速度 0.25。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/kobolds",
+   "confidence": 0.5,
+   "notes": "正文未单独介绍；RangedCrossbowAttackGoal 与属性取自 jar。"
+  },
+  {
+   "mob_id": "kobolds:kobold_zombie",
+   "name_en": "Zombold",
+   "name_zh": "僵尸狗头人",
+   "description_zh": "僵尸狗头人（Zombold）由被僵尸杀死的狗头人转化而来，会攻击生物；对处于虚弱状态的他使用金苹果，可以像治愈僵尸村民一样把他治回狗头人。拥有 18 点生命、3 点攻击。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/kobolds",
+   "confidence": 0.85,
+   "notes": "转化与治愈机制来自模组正文；18 生命/3 攻击/0.2 速度取自 jar。"
+  }
+ ]
+}

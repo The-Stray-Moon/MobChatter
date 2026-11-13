@@ -1,0 +1,357 @@
+{
+ "rank": 5,
+ "mod": "Incendium Legacy",
+ "mod_url": "https://modrinth.com/mod/incendium",
+ "mobs": [
+  {
+   "mob_id": "incendium:toxic",
+   "name_en": "Toxic Slime",
+   "name_zh": "剧毒史莱姆",
+   "description_zh": "以史莱姆为基底的怪物，生成在新增群系“毒料堆（Toxic Heap）”中；玩家靠近到 1.5 格内且没穿防毒服时会被施加 5 秒、等级 5 的中毒效果。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/toxic_slime 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:spirit",
+   "name_en": "Restless Spirit",
+   "name_zh": "不瞑亡魂",
+   "description_zh": "以恼鬼为基底（带 LifeTicks，寿命有限），在“枯焦森林（Withered Forest）”游荡，正文称该群系被不安的亡魂萦绕。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/spirit 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:dune_blaze",
+   "name_en": "Desert Blaze",
+   "name_zh": "沙漠烈焰人",
+   "description_zh": "以烈焰人为基底的“沙漠烈焰人”，居住在新增群系“炼狱沙丘（Infernal Dunes）”；进度提示它怕光，在明暗交界处击杀才能同时获得两种掉落。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/dune_blaze 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:headless",
+   "name_en": "Headless Warrior",
+   "name_zh": "无头战士",
+   "description_zh": "以凋灵骷髅为基底的无头战士变体，由数据包函数生成，作为额外的精锐敌人。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/headless 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:scientist",
+   "name_en": "Withered Scientist",
+   "name_zh": "凋零科学家",
+   "description_zh": "以凋灵骷髅为基底的“凋零科学家”，由数据包函数生成，属于凋零主题的强化敌人。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/scientist 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:torte",
+   "name_en": "Torte",
+   "name_zh": "Torte",
+   "description_zh": "以骷髅为基底的 Boss“骷髅厨师 Torte”，驻守“石英厨房（Quartz Kitchen）”，进度“You Fool!”要求击杀他并洗劫厨房。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/torte 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:brother",
+   "name_en": "Skeleton Brother",
+   "name_zh": "老骷髅兄弟",
+   "description_zh": "以骷髅为基底的“老骷髅兄弟”，与 Torte 同属石英厨房一带的骷髅角色。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/brother 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:ghastling",
+   "name_en": "Ghastling",
+   "name_zh": "小恶灵",
+   "description_zh": "由恼鬼驮着悦灵组成的“小恶灵”，被关在石英塔；可以救出，喂它火药即可切换是否跟随，并会替玩家抵御恶魂。也可以给恶魂施加速度/生命恢复/隐身后再击杀来获得它。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/ghastling 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:pipeline_sentry",
+   "name_en": "Pipeline Sentry",
+   "name_zh": "管道哨卫",
+   "description_zh": "以烈焰人为基底的哨卫，主手叠放 4 个不死图腾当作额外生命，击杀掉落 incendium:entity/sentry 战利品表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/pipeline_sentry 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:pipeline_guard",
+   "name_en": "Prime Pipeline Sentry",
+   "name_zh": "管道禁卫",
+   "description_zh": "管道哨卫的强化版（同名函数加 in.prime_sentry 标签），主手叠放 8 个不死图腾，相当于拥有更多条命。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/prime_pipeline_sentry 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:reactor_sentry",
+   "name_en": "Ghast Sentry",
+   "name_zh": "恶魂哨兵",
+   "description_zh": "以恶魂为基底的哨卫，在“下界反应堆（Nether Reactor）”结构一带作为守卫。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/ghast_sentry 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:director",
+   "name_en": "Radiation Director",
+   "name_zh": "辐射总监",
+   "description_zh": "以凋灵骷髅为基底的“辐射总监”，是下界反应堆区域的头目级敌人。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/director 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:alchemist",
+   "name_en": "Piglin Alchemist",
+   "name_zh": "猪灵炼金术士",
+   "description_zh": "以猪灵蛮兵为基底（血量 40、攻击伤害 3）的禁堡守卫，穿皮革甲，会投掷虚弱、剧毒、缓慢、伤害四种喷溅药水。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/alchemist 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:archer",
+   "name_en": "Piglin Archer",
+   "name_zh": "猪灵弓箭手",
+   "description_zh": "以猪灵蛮兵为基底（血量 50、移速 0.345）的禁堡守卫，会射箭并用烟花火箭发出警报。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/archer 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:blacksmith",
+   "name_en": "Piglin Blacksmith",
+   "name_zh": "猪灵铁匠",
+   "description_zh": "以猪灵蛮兵为基底、穿金甲的禁堡守卫，会投掷引信 40 tick 的 TNT。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/blacksmith 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:paratrooper",
+   "name_en": "Piglin Paratrooper",
+   "name_zh": "猪灵空降兵",
+   "description_zh": "以猪灵蛮兵为基底（血量 50、移速 0.345、追踪 100 格）并穿鞘翅的禁堡空降兵，会从高处滑翔突袭。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/paratrooper 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:pyro",
+   "name_en": "Piglin Pyromancer",
+   "name_zh": "猪灵火术师",
+   "description_zh": "以猪灵蛮兵为基底、穿满附魔金甲的禁堡守卫，会发射烟花火箭并召唤下落的火焰方块。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/pyro 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:scout",
+   "name_en": "Piglin Scout",
+   "name_zh": "猪灵侦察兵",
+   "description_zh": "以猪灵蛮兵为基底（移速 0.425）的禁堡侦察兵，穿皮革甲、持铁剑。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/scout 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:knight",
+   "name_en": "Piglin Knight",
+   "name_zh": "猪灵骑士",
+   "description_zh": "禁堡的精锐：以猪灵蛮兵为基底，攻击伤害 7、击退 30，按铁/金/钻石/下界合金四档装备区分等级。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/knight 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:guardian",
+   "name_en": "Sanctum Guardian",
+   "name_zh": "圣所守卫",
+   "description_zh": "以掠夺者为基底的“圣所”守卫，玩家潜入圣所宝库时会遭遇；圣所是石英平地中的灾厄村民据点。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/guardian 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:illusionist",
+   "name_en": "Sanctum Illusionist",
+   "name_zh": "圣所幻术师",
+   "description_zh": "以掠夺者为基底的圣所成员，属于圣所内的幻术施法者。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/illusionist 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:cultist",
+   "name_en": "Sanctum Cultist",
+   "name_zh": "圣所教众",
+   "description_zh": "以掠夺者为基底的圣所教徒，是圣所仪式队伍的基础成员。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/cultist 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:inquisitor",
+   "name_en": "Sanctum Inquisitor",
+   "name_zh": "圣所审判官",
+   "description_zh": "以掠夺者为基底的圣所审判官，负责镇压闯入者。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/inquisitor 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:apostle",
+   "name_en": "Sanctum Apostle",
+   "name_zh": "圣所传道徒",
+   "description_zh": "以掠夺者为基底的圣所传道者，属于圣所的高阶成员。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/apostle 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:ravager",
+   "name_en": "Sanctum Ravager",
+   "name_zh": "圣所劫掠兽",
+   "description_zh": "以掠夺者为基底的“圣所劫掠兽”（数据包只用掠夺者实体加标签实现，并非原版劫掠兽）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/ravager 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:protector",
+   "name_en": "Sanctum Protector",
+   "name_zh": "圣所保护者",
+   "description_zh": "以掠夺者为基底的圣所保护者，用于守护圣所内部区域。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/protector 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:ritualist",
+   "name_en": "Sanctum Ritualist",
+   "name_zh": "圣所祭司",
+   "description_zh": "以掠夺者为基底的圣所祭司，参与圣所的仪式环节。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/ritualist 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:brewer",
+   "name_en": "Village Brewer",
+   "name_zh": "猪村酿造师",
+   "description_zh": "猪灵村庄中的和平职业居民，以猪灵为基底，负责酿造相关职业。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/brewer 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:village_guard",
+   "name_en": "Village Guard",
+   "name_zh": "猪村守卫",
+   "description_zh": "猪灵村庄的守卫，以猪灵为基底，保护村庄居民。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/guard 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:lumberjack",
+   "name_en": "Village Lumberjack",
+   "name_zh": "猪村伐木工",
+   "description_zh": "猪灵村庄中的伐木工（有两个外观变体），以猪灵为基底。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/lumberjack 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:miner",
+   "name_en": "Village Miner",
+   "name_zh": "猪村矿工",
+   "description_zh": "猪灵村庄中的矿工，以猪灵为基底，负责采矿职业。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/miner 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:worker",
+   "name_en": "Village Worker",
+   "name_zh": "猪村劳工",
+   "description_zh": "猪灵村庄中的劳工，以猪灵为基底，承担基础劳作。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/worker 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:civilian",
+   "name_en": "Piglin Civilian",
+   "name_zh": "猪灵平民",
+   "description_zh": "猪灵村庄的平民，以猪灵为基底，属于村庄的和平居民。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/civilian 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:inferno",
+   "name_en": "The Hovering Inferno",
+   "name_zh": "炼狱游者",
+   "description_zh": "模组的终极 Boss：以烈焰人为基底，血量 700、护甲 20、护甲韧性 12、攻击伤害 20、击退抗性 0.87，在炼狱祭坛献祭下界之星召唤；会召唤烈焰人与恼鬼仆从、发射火球与潜影贝弹、释放烟花与激光法术，进度提示“打不死它，只要活过最后一击”。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/hovering_inferno 相关函数与语言文件。"
+  },
+  {
+   "mob_id": "incendium:minion",
+   "name_en": "Infernal Minion",
+   "name_zh": "炼狱仆从",
+   "description_zh": "由炼狱游者召唤出的仆从，分为持下界合金剑的恼鬼与烈焰人两种形态，用于填充 Boss 战。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/incendium",
+   "confidence": 0.5,
+   "notes": "数据包实现（modId 为 incendium，1.20.1 为数据包打包成 mod），基于原版实体 + NBT/mcfunction，没有独立实体注册 id；mob_id 按语言文件 incendium.mob.*.name 归一，名称中英对照取自 jar 内 zh_cn/en_us 语言文件。数据来源：data/incendium/functions/minion 相关函数与语言文件。"
+  }
+ ]
+}

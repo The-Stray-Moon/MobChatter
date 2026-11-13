@@ -1,0 +1,47 @@
+{
+ "rank": 270,
+ "mod": "Aftershock",
+ "mod_url": "https://modrinth.com/mod/aftershock",
+ "mobs": [
+  {
+   "mob_id": "aftershock:american_graboid",
+   "name_en": "American Graboid",
+   "name_zh": "美洲加博蠕虫",
+   "description_zh": "美洲加博蠕虫是潜伏在地下的巨型捕食者，生命值 80、护甲 5、攻击力 6，会潜伏在地下与沙土中，并依靠声音与振动锁定猎物。成长约 342000 刻（约 4.75 小时）后变为美洲尖声兽，白化个体则不会继续成长。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/aftershock",
+   "confidence": 0.8,
+   "notes": "生命值/护甲/伤害取自 AfterShocksConfig 默认值；生命周期取自实体成长代码。"
+  },
+  {
+   "mob_id": "aftershock:american_dirt_dragon",
+   "name_en": "American Dirt Dragon",
+   "name_zh": "美洲地龙",
+   "description_zh": "美洲地龙是加博蠕虫生命周期中的幼体，生命值 12、攻击力 3，冲撞伤害 8；约 168000 刻（约 2.3 小时）后成长为美洲加博蠕虫。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/aftershock",
+   "confidence": 0.5,
+   "notes": "数值取自 AfterShocksConfig 默认值与实体成长代码（growInto → american_graboid）。资料有限，仅基于 jar 内可核实数据。"
+  },
+  {
+   "mob_id": "aftershock:american_shreiker",
+   "name_en": "American Shreiker",
+   "name_zh": "美洲尖声兽",
+   "description_zh": "美洲尖声兽生命值 20、攻击力 6，会尖叫并横向移动骚扰目标；约 48000 刻（约 40 分钟）后成长为美洲尾爆兽。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/aftershock",
+   "confidence": 0.5,
+   "notes": "数值取自 AfterShocksConfig 默认值与实体成长代码（growInto → american_blaster）。资料有限，仅基于 jar 内可核实数据。"
+  },
+  {
+   "mob_id": "aftershock:american_blaster",
+   "name_en": "American Blaster",
+   "name_zh": "美洲尾爆兽",
+   "description_zh": "美洲尾爆兽是生命周期末段，生命值 40、攻击力 8，能够飞行并从空中喷火（ShootFireTask），还会在计时后产下加博蠕虫卵；它不再成长为其他形态。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/aftershock",
+   "confidence": 0.5,
+   "notes": "数值取自 AfterShocksConfig 默认值；飞行、喷火与产卵逻辑来自实体 AI/计时器代码。资料有限，仅基于 jar 内可核实数据。"
+  }
+ ]
+}

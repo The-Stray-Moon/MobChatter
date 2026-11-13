@@ -1,0 +1,574 @@
+{
+ "rank": 134,
+ "mod": "Grimoire of Gaia",
+ "slug": "grimoire-of-gaia",
+ "project_id": "6mO8vMsw",
+ "source_url": "https://modrinth.com/mod/grimoire-of-gaia",
+ "jar": "D:\\work\\MobChatter\\data\\jars\\6mO8vMsw.jar",
+ "jar_size": 3464825,
+ "modid": "grimoireofgaia",
+ "entity_count": 70,
+ "mob_count": 69,
+ "entities": [
+  {
+   "key": "entity.grimoireofgaia.ant_hill",
+   "id": "ant_hill",
+   "en": "Ant Hill",
+   "zh": "蚁丘",
+   "loot_table": "ant_hill",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.ant_salvager",
+   "id": "ant_salvager",
+   "en": "Ant Salvager",
+   "zh": "护卫蚁",
+   "loot_table": "ant_salvager",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.ant",
+   "id": "ant",
+   "en": "Ant Worker",
+   "zh": "工兵蚁",
+   "loot_table": "ant",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.anubis",
+   "id": "anubis",
+   "en": "Anubis",
+   "zh": "阿努比斯",
+   "loot_table": "anubis",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.arachne",
+   "id": "arachne",
+   "en": "Arachne",
+   "zh": "阿拉克涅",
+   "loot_table": "arachne",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.banshee",
+   "id": "banshee",
+   "en": "Banshee",
+   "zh": "女鬼",
+   "loot_table": "banshee",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.behender",
+   "id": "behender",
+   "en": "Behender",
+   "zh": "凝视者",
+   "loot_table": "behender",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.bomb",
+   "id": "bomb",
+   "en": "Bomb Projectile",
+   "zh": "炸弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.bone_knight",
+   "id": "bone_knight",
+   "en": "Bone Knight",
+   "zh": "骷髅骑士",
+   "loot_table": "bone_knight",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.bubble",
+   "id": "bubble",
+   "en": "Bubble Projectile",
+   "zh": "Bubble Projectile",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.cecaelia",
+   "id": "cecaelia",
+   "en": "Cecaelia",
+   "zh": "Cecaelia",
+   "loot_table": "cecaelia",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.centaur",
+   "id": "centaur",
+   "en": "Centaur",
+   "zh": "半人马",
+   "loot_table": "centaur",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.chest",
+   "id": "chest",
+   "en": "Chest",
+   "zh": "箱子",
+   "loot_table": "chest",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.cobble_golem",
+   "id": "cobble_golem",
+   "en": "Cobble Golem",
+   "zh": "圆石傀儡",
+   "loot_table": "cobble_golem",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.cobblestone_golem",
+   "id": "cobblestone_golem",
+   "en": "Cobblestone Golem",
+   "zh": "大型圆石傀儡",
+   "loot_table": "cobblestone_golem",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.creep",
+   "id": "creep",
+   "en": "Creep",
+   "zh": "爬行球",
+   "loot_table": "creep",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.creeper_girl",
+   "id": "creeper_girl",
+   "en": "Creeper Girl",
+   "zh": "",
+   "loot_table": "creeper_girl",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.cyan_flower",
+   "id": "cyan_flower",
+   "en": "Cyan Flower",
+   "zh": "",
+   "loot_table": "cyan_flower",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.cyclops",
+   "id": "cyclops",
+   "en": "Cyclops",
+   "zh": "独眼战士",
+   "loot_table": "cyclops",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.deathword",
+   "id": "deathword",
+   "en": "Deathword",
+   "zh": "死亡咒书",
+   "loot_table": "deathword",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.dryad",
+   "id": "dryad",
+   "en": "Dryad",
+   "zh": "树妖",
+   "loot_table": "dryad",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.dullahan",
+   "id": "dullahan",
+   "en": "Dullahan",
+   "zh": "无头骑士",
+   "loot_table": "dullahan",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.dwarf",
+   "id": "dwarf",
+   "en": "Dwarf",
+   "zh": "Dwarf",
+   "loot_table": "dwarf",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.ender_dragon_girl",
+   "id": "ender_dragon_girl",
+   "en": "Ender Dragon Girl",
+   "zh": "末影龙女",
+   "loot_table": "ender_dragon_girl",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.ender_eye",
+   "id": "ender_eye",
+   "en": "Ender Eye",
+   "zh": "末影之眼",
+   "loot_table": "ender_eye",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.ender_girl",
+   "id": "ender_girl",
+   "en": "Ender Girl",
+   "zh": "",
+   "loot_table": "ender_girl",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.goblin_feral",
+   "id": "goblin_feral",
+   "en": "Feral Goblin",
+   "zh": "野蛮哥布林",
+   "loot_table": "goblin_feral",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.flesh_lich",
+   "id": "flesh_lich",
+   "en": "Flesh Lich",
+   "zh": "僵尸巫妖",
+   "loot_table": "flesh_lich",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.gelatinous_slime",
+   "id": "gelatinous_slime",
+   "en": "Gelatinous Slime",
+   "zh": "凝胶史莱姆",
+   "loot_table": "gelatinous_slime",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.goblin",
+   "id": "goblin",
+   "en": "Goblin",
+   "zh": "哥布林",
+   "loot_table": "goblin",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.gravemite",
+   "id": "gravemite",
+   "en": "Gravemite",
+   "zh": "",
+   "loot_table": "gravemite",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.gryphon",
+   "id": "gryphon",
+   "en": "Gryphon",
+   "zh": "Gryphon",
+   "loot_table": "gryphon",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.harpy",
+   "id": "harpy",
+   "en": "Harpy",
+   "zh": "鹰身女妖",
+   "loot_table": "harpy",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.bee",
+   "id": "bee",
+   "en": "Honey Bee",
+   "zh": "杀人蜂",
+   "loot_table": "bee",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.hunter",
+   "id": "hunter",
+   "en": "Hunter",
+   "zh": "猎人",
+   "loot_table": "hunter",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.kobold",
+   "id": "kobold",
+   "en": "Kobold",
+   "zh": "狗头人",
+   "loot_table": "kobold",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.magic",
+   "id": "magic",
+   "en": "Magic Projectile",
+   "zh": "魔法弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.mandragora",
+   "id": "mandragora",
+   "en": "Mandragora",
+   "zh": "",
+   "loot_table": "mandragora",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.matango",
+   "id": "matango",
+   "en": "Matango",
+   "zh": "蘑菇人",
+   "loot_table": "matango",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.mermaid",
+   "id": "mermaid",
+   "en": "Mermaid",
+   "zh": "人鱼战士",
+   "loot_table": "mermaid",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.mimic",
+   "id": "mimic",
+   "en": "Mimic",
+   "zh": "宝箱怪",
+   "loot_table": "mimic",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.minotaur",
+   "id": "minotaur",
+   "en": "Minotaur",
+   "zh": "Minotaur",
+   "loot_table": "minotaur",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.minotaurus",
+   "id": "minotaurus",
+   "en": "Minotaurus",
+   "zh": "米诺陶诺斯",
+   "loot_table": "minotaurus",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.mummy",
+   "id": "mummy",
+   "en": "Mummy",
+   "zh": "",
+   "loot_table": "mummy",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.naga",
+   "id": "naga",
+   "en": "Naga",
+   "zh": "那迦",
+   "loot_table": "naga",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.nine_tails",
+   "id": "nine_tails",
+   "en": "Nine Tails",
+   "zh": "九尾妖狐",
+   "loot_table": "nine_tails",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.oni",
+   "id": "oni",
+   "en": "Oni",
+   "zh": "鬼",
+   "loot_table": "oni",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.orc",
+   "id": "orc",
+   "en": "Orc",
+   "zh": "半兽人",
+   "loot_table": "orc",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.poison",
+   "id": "poison",
+   "en": "Poison Projectile",
+   "zh": "毒液弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.random_magic",
+   "id": "random_magic",
+   "en": "Random Magic Projectile",
+   "zh": "魔法弹",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.satyress",
+   "id": "satyress",
+   "en": "Satyress",
+   "zh": "半羊人",
+   "loot_table": "satyress",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.shaman",
+   "id": "shaman",
+   "en": "Shaman",
+   "zh": "萨满",
+   "loot_table": "shaman",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.sharko",
+   "id": "sharko",
+   "en": "Sharko",
+   "zh": "Sharko",
+   "loot_table": "sharko",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.siren",
+   "id": "siren",
+   "en": "Siren",
+   "zh": "塞壬",
+   "loot_table": "siren",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.slime_girl",
+   "id": "slime_girl",
+   "en": "Slime Girl",
+   "zh": "",
+   "loot_table": "slime_girl",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.sludge_girl",
+   "id": "sludge_girl",
+   "en": "Sludge Girl",
+   "zh": "污泥女孩",
+   "loot_table": "sludge_girl",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.small_fireball",
+   "id": "small_fireball",
+   "en": "Small Fire",
+   "zh": "小型火球",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.grimoireofgaia.sphinx",
+   "id": "sphinx",
+   "en": "Sphinx",
+   "zh": "斯芬克斯",
+   "loot_table": "sphinx",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.sporeling",
+   "id": "sporeling",
+   "en": "Sporeling",
+   "zh": "蘑菇孢子",
+   "loot_table": "sporeling",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.spriggan",
+   "id": "spriggan",
+   "en": "Spriggan",
+   "zh": "树精",
+   "loot_table": "spriggan",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.succubus",
+   "id": "succubus",
+   "en": "Succubus",
+   "zh": "魅魔",
+   "loot_table": "succubus",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.toad",
+   "id": "toad",
+   "en": "Toad",
+   "zh": "Toad",
+   "loot_table": "toad",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.trader",
+   "id": "trader",
+   "en": "Trader",
+   "zh": "",
+   "loot_table": "trader",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.valkyrie",
+   "id": "valkyrie",
+   "en": "Valkyrie",
+   "zh": "Valkyrie",
+   "loot_table": "valkyrie",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.werecat",
+   "id": "werecat",
+   "en": "Werecat",
+   "zh": "猫妖",
+   "loot_table": "werecat",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.horse",
+   "id": "horse",
+   "en": "Wild Horse",
+   "zh": "野马",
+   "loot_table": "horse",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.witch",
+   "id": "witch",
+   "en": "Witch",
+   "zh": "魔女",
+   "loot_table": "witch",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.wither_cow",
+   "id": "wither_cow",
+   "en": "Wither Cow",
+   "zh": "凋零牛",
+   "loot_table": "wither_cow",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.wizard_harpy",
+   "id": "wizard_harpy",
+   "en": "Wizard Harpy",
+   "zh": "鹰身女巫",
+   "loot_table": "wizard_harpy",
+   "projectile": false
+  },
+  {
+   "key": "entity.grimoireofgaia.yuki_onna",
+   "id": "yuki_onna",
+   "en": "Yuki-Onna",
+   "zh": "雪女",
+   "loot_table": "yuki_onna",
+   "projectile": false
+  }
+ ]
+}

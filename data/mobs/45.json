@@ -1,0 +1,107 @@
+{
+ "rank": 45,
+ "mod": "Enlightend",
+ "mod_url": "https://modrinth.com/mod/enlightend",
+ "mobs": [
+  {
+   "mob_id": "enlightened_end:bouncer",
+   "name_en": "Bouncer",
+   "name_zh": "",
+   "description_zh": "Ennegel 树林里的“蹦蹦”果实（Bouncer Nuts）长熟后会从靛蓝树枝上掉落摔开，变成几只蹦蹦生物。它们约 10 秒后会被压扁成可食用的 Squished Bouncer，可以吃，也可以喂给 Ringling；自己无法重新种植，只能长在成年靛蓝树上。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/enlightend",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "enlightened_end:ringling",
+   "name_en": "Ringling",
+   "name_zh": "",
+   "description_zh": "生成在 Ennegel 树林的小型生物，会吃掉从果实里掉出的蹦蹦或玩家手喂的蹦蹦。吃饱后它会开始在脚下的靛蓝末地石里挖掘，偶尔挖出远古根，极少数情况下挖出 Rooting Blade；远古根可以吃（让玩家陷入地面一格）或酿成扎根药水。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/enlightend",
+   "confidence": 0.85,
+   "notes": "jar 内生成配置为末地荒地/高地/中部群系，权重 40。"
+  },
+  {
+   "mob_id": "enlightened_end:stalker",
+   "name_en": "Stalker",
+   "name_zh": "",
+   "description_zh": "潜伏在末地下方放射性区域 Enderneath 的强力怪物，被作者称作游戏中最难对付的生物之一；它会试图把玩家打下平台，并附带“burdened”效果大幅加快坠落速度。击杀后掉落 Stalker 肉，偶尔掉落牙齿，牙齿可与铋锭合成带额外攻击距离、能把生物拉到身边的锯齿钩。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/enlightend",
+   "confidence": 0.85,
+   "notes": "jar 内生成权重 50，是末地三群系里权重最高的生物。"
+  },
+  {
+   "mob_id": "enlightened_end:gloop",
+   "name_en": "Gloop",
+   "name_zh": "",
+   "description_zh": "生活在 Gaseous Gardens（上层末地）的生物，会采集长成的 elevibloom 并吃掉飘在空中的浆果。吃得够多后它开始滴出 jelly，此时用瓶子右键即可采集 Bubble Jelly，食用后获得能把命中目标包进大泡泡的“bubbling”效果。它是 Fumesplat 的天敌。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/enlightend",
+   "confidence": 0.85,
+   "notes": "jar 内生成配置为末地荒地/高地/中部群系，一次生成 3 到 6 只。"
+  },
+  {
+   "mob_id": "enlightened_end:fumesplat",
+   "name_en": "Fumesplat",
+   "name_zh": "",
+   "description_zh": "栖息在末地“软泥渗漏”区域的生物，会随着时间在体内积满软泥，然后把软泥喷向敌人（包括它的天敌 Gloop）。被喷中的生物获得“suffocation”效果，氧气会被缓慢抽干，类似溺水；击杀它有几率掉落可酿成窒息药水的 suffocation gland。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/enlightend",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "enlightened_end:void_leviathan",
+   "name_en": "Void Leviathan",
+   "name_zh": "",
+   "description_zh": "上层末地 y128 以上的 Arctic Abyss 极寒死区里唯一的生物，体型巨大且极其强大危险。不过它不会主动猎杀“感到寒冷”或不在 Arctic Abyss 中的玩家。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/enlightend",
+   "confidence": 0.85,
+   "notes": "jar 内生成配置写作 forge:any，正文则限定在 Arctic Abyss（upper end y>=128）。"
+  },
+  {
+   "mob_id": "enlightened_end:squelcher",
+   "name_en": "Squelcher",
+   "name_zh": "",
+   "description_zh": "末地荒地、高地与中部群系生成的末地生物，生成权重 30，会发出咕噜声并向外吐出东西。模组正文没有单独介绍它，血量与具体掉落资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/enlightend",
+   "confidence": 0.45,
+   "notes": "据 jar 内 squelcher_biome_modifier 与音效字幕（Gurgles / Spits），资料有限。"
+  },
+  {
+   "mob_id": "enlightened_end:dewcrawl",
+   "name_en": "Dewcrawl",
+   "name_zh": "",
+   "description_zh": "模组新增的末地生物，有刷怪蛋；jar 内没有它的群系生成配置，模组正文也未介绍其习性，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/enlightend",
+   "confidence": 0.35,
+   "notes": "仅有实体注册与刷怪蛋，资料有限。"
+  },
+  {
+   "mob_id": "enlightened_end:eidolon",
+   "name_en": "Eidolon",
+   "name_zh": "",
+   "description_zh": "模组中的特殊末地实体，有独立的战利品表（固定掉落 3 个 Everglint）和咆哮音效，没有刷怪蛋与群系生成配置，推测为召唤或结构相关生物但资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/enlightend",
+   "confidence": 0.35,
+   "notes": "仅有实体注册、eidolon 战利品表与 eidolon_roar 字幕，资料有限。"
+  },
+  {
+   "mob_id": "enlightened_end:radiator",
+   "name_en": "Radiator",
+   "name_zh": "",
+   "description_zh": "模组注册的放射性相关实体，没有刷怪蛋、战利品表或群系生成配置，正文也未介绍，资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/enlightend",
+   "confidence": 0.3,
+   "notes": "仅有实体注册与名称，资料有限。"
+  }
+ ]
+}

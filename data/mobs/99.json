@@ -1,0 +1,987 @@
+{
+ "rank": 99,
+ "mod": "Kimetsu no Yaiba (Demon Slayer)",
+ "mod_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+ "mobs": [
+  {
+   "mob_id": "kimetsunoyaiba:hantengu_aizetsu",
+   "name_en": "Aizetsu",
+   "name_zh": "",
+   "description_zh": "「Aizetsu」是半天狗的分身「哀绝」，生命值 150、攻击力 1、护甲 1。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。不会在群系中自然生成，被击败的半天狗会分裂出哀绝等四个分身；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:akaza",
+   "name_en": "Akaza",
+   "name_zh": "",
+   "description_zh": "「Akaza」是上弦之叁的恶鬼「猗窝座」，生命值 350、攻击力 8、护甲 1、抗击退能力很强。会主动追击鬼杀队成员；会使用血鬼术，擅长「破坏杀」系列拳法与罗针索敌；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 1，每次 1 只）；击杀掉落血鬼术·猗窝座、无惨之血、猗窝座的上衣、猗窝座的袴。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:boar",
+   "name_en": "Boar",
+   "name_zh": "",
+   "description_zh": "「Boar」是模组加入的野猪，生命值 25、基础攻击力 0、护甲 3、抗击退能力很强。平时随机游荡；近战攻击。自然生成于主世界各群系（生成权重 2，每次 1–2 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:daki",
+   "name_en": "Daki",
+   "name_zh": "",
+   "description_zh": "「Daki」是上弦之陆的恶鬼「堕姬」，生命值 200、攻击力 1、护甲 1。会主动追击鬼杀队成员；会使用血鬼术，以腰带缎带攻击；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:demon",
+   "name_en": "Demon",
+   "name_zh": "",
+   "description_zh": "「Demon」是模组中的普通恶鬼，生命值 30、攻击力 3、护甲 5。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 28，每次 1 只）；击杀掉落无惨之血。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:demon_slayer",
+   "name_en": "Demon Slayer",
+   "name_zh": "",
+   "description_zh": "「Demon Slayer」是鬼杀队的一般队士，生命值 21、攻击力 1、护甲 1。会主动攻击各类恶鬼；近战攻击。自然生成于主世界各群系（生成权重 10，每次 3–5 只）；击杀掉落人肉。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:dice_steak_senior_demon",
+   "name_en": "Demon Steak Senior",
+   "name_zh": "",
+   "description_zh": "「Demon Steak Senior」是模组原创的牛排主题恶鬼，生命值 200、攻击力 1、护甲 1、抗击退能力很强。会主动追击鬼杀队成员；近战攻击、会躲避阳光。未配置群系自然生成，可用刷怪蛋放置或通过模组机制获得；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:doctor",
+   "name_en": "Doctor",
+   "name_zh": "",
+   "description_zh": "「Doctor」是医生，生命值 20、攻击力 1、护甲 1。平时随机游荡；没有主动攻击行为。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:doma",
+   "name_en": "Doma",
+   "name_zh": "",
+   "description_zh": "「Doma」是上弦之贰的恶鬼「童磨」，生命值 400、攻击力 4、护甲 1、抗击退能力很强。会主动追击鬼杀队成员；以冰系血鬼术作战；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 1，每次 1 只）；击杀掉落童磨的折扇、无惨之血、童磨的帽子、童磨的上衣、童磨的袴。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:doma_mini",
+   "name_en": "Doma Mini",
+   "name_zh": "",
+   "description_zh": "「Doma Mini」是童磨制造的小型冰人偶，生命值 50、攻击力 1、护甲 1。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、可驯服并跟随主人、主人受袭时会反击、会躲避阳光。不会在群系中自然生成，需由童磨在战斗中召唤；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:enmu",
+   "name_en": "Enmu",
+   "name_zh": "",
+   "description_zh": "「Enmu」是下弦之壹的恶鬼「魇梦」，生命值 150、攻击力 1、护甲 1。会主动追击鬼杀队成员；使用梦境与睡眠类血鬼术；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 1，每次 1 只）；击杀掉落血鬼术·魇梦、无惨之血。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:enmu_train",
+   "name_en": "Enmu",
+   "name_zh": "",
+   "description_zh": "「Enmu」是魇梦与列车融合后的形态，生命值 240、攻击力 1、护甲 1、抗击退能力很强。会主动追击鬼杀队成员；近战攻击、会躲避阳光。不会在群系中自然生成，魇梦与无限列车融合后会以该形态出现；击杀掉落血鬼术·魇梦、无惨之血。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:enko",
+   "name_en": "Flame Tiger",
+   "name_zh": "",
+   "description_zh": "「Flame Tiger」是炎虎，生命值 100、基础攻击力 0、护甲 0。行动由模组自定义 AI 脚本控制。未配置群系自然生成，只能通过模组机制获得；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:genya",
+   "name_en": "Genya Shinazugawa",
+   "name_zh": "",
+   "description_zh": "「Genya Shinazugawa」是吃鬼的队士「不死川玄弥」，生命值 120、攻击力 18、护甲 1。会主动攻击各类恶鬼；会吞食鬼肉短暂获得血鬼术；近战攻击。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:tomioka",
+   "name_en": "Giyu Tomioka",
+   "name_zh": "",
+   "description_zh": "「Giyu Tomioka」是水柱「富冈义勇」，生命值 140、攻击力 10、护甲 1。会主动攻击各类恶鬼；会使用水之呼吸的剑技，剑招以精准的连续斩击见长；近战攻击。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:gyokko_goldfish",
+   "name_en": "Goldfish",
+   "name_zh": "",
+   "description_zh": "「Goldfish」是玉壶召唤的金鱼，生命值 200、攻击力 1、护甲 1。行动由模组自定义 AI 脚本控制。不会在群系中自然生成，需由玉壶用血鬼术召唤；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:goldfishbig",
+   "name_en": "Goldfish Demon",
+   "name_zh": "",
+   "description_zh": "「Goldfish Demon」是玉壶放出的巨大金鱼鬼，生命值 80、攻击力 1、护甲 11、抗击退能力很强。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 3，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:grandmother",
+   "name_en": "Grandmother",
+   "name_zh": "",
+   "description_zh": "「Grandmother」是年迈的老妇人，生命值 100、攻击力 1、护甲 1。平时随机游荡；受惊时会逃跑、没有主动攻击行为。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:gyokko",
+   "name_en": "Gyokko",
+   "name_zh": "",
+   "description_zh": "「Gyokko」是上弦之伍的恶鬼「玉壶」，生命值 250、攻击力 4、护甲 1。会主动追击鬼杀队成员；以水与鱼的血鬼术作战；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 1，每次 1 只）；击杀掉落血鬼术·玉壶。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:gyokko_2",
+   "name_en": "Gyokko",
+   "name_zh": "",
+   "description_zh": "「Gyokko」是上弦之伍的恶鬼「玉壶」的第二形态，生命值 250、攻击力 1、护甲 1。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。不会在群系中自然生成，玉壶在蜕去蛹壳后会转变为该形态；击杀掉落血鬼术·玉壶、无惨之血。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:himejima",
+   "name_en": "Gyomei Himejima",
+   "name_zh": "",
+   "description_zh": "「Gyomei Himejima」是岩柱「悲鸣屿行冥」，生命值 240、攻击力 12、护甲 1。会主动攻击各类恶鬼；会使用岩之呼吸的剑技；近战攻击。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:gyutaro",
+   "name_en": "Gyutaro",
+   "name_zh": "",
+   "description_zh": "「Gyutaro」是上弦之陆的恶鬼「妓夫太郎」，生命值 240、攻击力 8、护甲 1。会主动追击鬼杀队成员；会使用血鬼术，以血镰与毒血作战；近战攻击、会躲避阳光。未配置群系自然生成，可用刷怪蛋放置或通过模组机制获得；击杀掉落无惨之血、血镰、妓夫太郎的上衣、妓夫太郎的袴。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:hairo",
+   "name_en": "Hairo",
+   "name_zh": "",
+   "description_zh": "「Hairo」是使用血鬼术的恶鬼，生命值 200、攻击力 8、护甲 3。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:hakuji",
+   "name_en": "Hakuji",
+   "name_zh": "",
+   "description_zh": "「Hakuji」是猗窝座的人类时期「狯岳」，生命值 100、攻击力 4、护甲 3。近战攻击。自然生成于下界荒原（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:hand_demon",
+   "name_en": "Hand Demon",
+   "name_zh": "",
+   "description_zh": "「Hand Demon」是藤袭山的手鬼，生命值 130、攻击力 3、护甲 11、抗击退能力很强。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 2，每次 1 只）；击杀掉落手鬼的外皮。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:hantengu",
+   "name_en": "Hantengu",
+   "name_zh": "",
+   "description_zh": "「Hantengu」是上弦之肆的恶鬼「半天狗」，生命值 40、攻击力 6、护甲 1。本体胆小，主要靠分身与血鬼术作战；受惊时会逃跑、会躲避阳光。夜间自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:demon_4",
+   "name_en": "Horned Demon",
+   "name_zh": "",
+   "description_zh": "「Horned Demon」是头生角的恶鬼，生命值 60、攻击力 3、护甲 12、抗击退能力很强。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 3，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:haganeduka",
+   "name_en": "Hotaru Haganeduka",
+   "name_zh": "",
+   "description_zh": "「Hotaru Haganeduka」是锻刀村的刀匠「钢铁冢萤」，生命值 20、攻击力 1、护甲 1。近战攻击。自然生成于主世界各群系（生成权重 3，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:inosuke",
+   "name_en": "Inosuke Hashibira",
+   "name_zh": "",
+   "description_zh": "「Inosuke Hashibira」是野性剑士「嘴平伊之助」，生命值 120、攻击力 20、护甲 1。会主动攻击各类恶鬼；会使用兽之呼吸的剑技，使用双刀与野性直觉作战；近战攻击。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:kuwajima",
+   "name_en": "Jigoro Kuwajima",
+   "name_zh": "",
+   "description_zh": "「Jigoro Kuwajima」是前鸣柱「桑岛慈悟郎」，生命值 80、攻击力 1、护甲 7。近战攻击。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:ubuyashiki",
+   "name_en": "Kagaya Ubuyashiki",
+   "name_zh": "",
+   "description_zh": "「Kagaya Ubuyashiki」是鬼杀队当主「产屋敷耀哉」，生命值 20、攻击力 1、护甲 1。平时随机游荡；没有主动攻击行为。未配置群系自然生成，可用刷怪蛋放置或通过模组机制获得；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:kaigaku",
+   "name_en": "Kaigaku Inadama",
+   "name_zh": "",
+   "description_zh": "「Kaigaku Inadama」是继承雷之呼吸的恶鬼「狯岳」，生命值 150、攻击力 1、护甲 1。会主动追击鬼杀队成员；会使用雷之呼吸的剑技；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 1，每次 1 只）；击杀掉落狯岳的日轮刀、无惨之血。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:kaigaku_human",
+   "name_en": "Kaigaku Inadama",
+   "name_zh": "",
+   "description_zh": "「Kaigaku Inadama」是仍是人类的「狯岳」，生命值 120、攻击力 18、护甲 1。会主动追击鬼杀队成员；会使用雷之呼吸的剑技；近战攻击。夜间自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:kakushi",
+   "name_en": "Kakushi",
+   "name_zh": "",
+   "description_zh": "「Kakushi」是鬼杀队后勤「隐」，生命值 20、攻击力 1、护甲 1。没有主动攻击行为。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:kamanue",
+   "name_en": "Kamanue",
+   "name_zh": "",
+   "description_zh": "「Kamanue」是下弦之陆的恶鬼「釜鵺」，生命值 150、攻击力 1、护甲 1。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 1，每次 1 只）；击杀掉落血鬼术·釜鵺、无惨之血。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:kanae",
+   "name_en": "Kanae Kocho",
+   "name_zh": "",
+   "description_zh": "「Kanae Kocho」是前花柱「蝴蝶香奈惠」，生命值 130、攻击力 10、护甲 1。会主动攻击各类恶鬼；会使用花之呼吸的剑技；近战攻击。未配置群系自然生成，可用刷怪蛋放置或通过模组机制获得；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:kanawo",
+   "name_en": "Kanawo Tsuyuri",
+   "name_zh": "",
+   "description_zh": "「Kanawo Tsuyuri」是栗花落香奈乎，生命值 120、攻击力 20、护甲 1。会主动攻击各类恶鬼；会使用花之呼吸的剑技；近战攻击。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:kanawo_buyer",
+   "name_en": "Kanawo's buyers",
+   "name_zh": "",
+   "description_zh": "「Kanawo's buyers」是与香奈乎过去有关的人物，生命值 20、攻击力 1、护甲 1。近战攻击。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:demon_10",
+   "name_en": "Kappa Demon",
+   "name_zh": "",
+   "description_zh": "「Kappa Demon」是河童鬼，生命值 100、攻击力 6、护甲 10。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:hantengu_karaku",
+   "name_en": "Karaku",
+   "name_zh": "",
+   "description_zh": "「Karaku」是半天狗的分身「可乐」，生命值 150、攻击力 1、护甲 1。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。不会在群系中自然生成，被击败的半天狗会分裂出可乐等四个分身；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:kasugai_crow",
+   "name_en": "Kasugai Crow",
+   "name_zh": "",
+   "description_zh": "「Kasugai Crow」是作为信使的「鎹鸦」，生命值 10、攻击力 1、护甲 1。可驯服并跟随主人、主人受袭时会反击。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:kokushibo",
+   "name_en": "Kokushibo",
+   "name_zh": "",
+   "description_zh": "「Kokushibo」是上弦之壹的恶鬼「黑死牟」，生命值 450、攻击力 12、护甲 1、抗击退能力很强。会主动追击鬼杀队成员；会使用月之呼吸的剑技，同时并用血鬼术；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 1，每次 1 只）；击杀掉落无惨之血、黑死牟之刀、黑死牟的服装、黑死牟的触手。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:kotetsu",
+   "name_en": "Kotetsu",
+   "name_zh": "",
+   "description_zh": "「Kotetsu」是锻刀村的少年「小铁」，生命值 17、攻击力 1、护甲 1。没有主动攻击行为。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:kyogai",
+   "name_en": "Kyogai",
+   "name_zh": "",
+   "description_zh": "「Kyogai」是原下弦之陆的鼓鬼「响凯」，生命值 100、攻击力 1、护甲 1。会主动追击鬼杀队成员；会使用血鬼术，敲鼓翻转或击飞敌人；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 1，每次 1 只）；击杀掉落鼓。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:rengoku",
+   "name_en": "Kyojuro Rengoku",
+   "name_zh": "",
+   "description_zh": "「Kyojuro Rengoku」是炎柱「炼狱杏寿郎」，生命值 140、攻击力 10、护甲 1。会主动攻击各类恶鬼；会使用炎之呼吸的剑技，剑招以威力巨大的连续斩击见长；近战攻击。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:demon_8",
+   "name_en": "Lost Head Spider",
+   "name_zh": "",
+   "description_zh": "「Lost Head Spider」是无头的蜘蛛鬼，生命值 100、攻击力 6、护甲 14、抗击退能力很强。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。自然生成于那田蜘蛛山（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:makomo",
+   "name_en": "Makomo",
+   "name_zh": "",
+   "description_zh": "「Makomo」是鳞泷的弟子「真菰」，生命值 50、攻击力 1、护甲 1。会主动攻击各类恶鬼；会使用水之呼吸的剑技；近战攻击。自然生成于狭雾山（生成权重 2，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:masachika",
+   "name_en": "Masachika Kumeno",
+   "name_zh": "",
+   "description_zh": "「Masachika Kumeno」是桑岛的弟子「正亲」，生命值 120、攻击力 1、护甲 1。会主动攻击各类恶鬼；会使用风之呼吸的剑技；近战攻击。未配置群系自然生成，可用刷怪蛋放置或通过模组机制获得；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:michikatsu",
+   "name_en": "Michikatsu Tsugikuni",
+   "name_zh": "",
+   "description_zh": "「Michikatsu Tsugikuni」是黑死牟的人类时期「继国严胜」，生命值 150、攻击力 18、护甲 1。会主动追击鬼杀队成员；会使用月之呼吸的剑技；近战攻击。未配置群系自然生成，可用刷怪蛋放置或通过模组机制获得；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:kanroji",
+   "name_en": "Mitsuri Kanroji",
+   "name_zh": "",
+   "description_zh": "「Mitsuri Kanroji」是恋柱「甘露寺蜜璃」，生命值 140、攻击力 20、护甲 1。会主动攻击各类恶鬼；会使用恋之呼吸的剑技；近战攻击。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:muichirou",
+   "name_en": "Muichiro Tokito",
+   "name_zh": "",
+   "description_zh": "「Muichiro Tokito」是霞柱「时透无一郎」，生命值 130、攻击力 4、护甲 1。会主动攻击各类恶鬼；会使用霞之呼吸的剑技；近战攻击。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:mukago",
+   "name_en": "Mukago",
+   "name_zh": "",
+   "description_zh": "「Mukago」是下弦之肆的恶鬼「零余子」，生命值 130、攻击力 1、护甲 1。会主动追击鬼杀队成员；近战攻击、会躲避阳光。未配置群系自然生成，可用刷怪蛋放置或通过模组机制获得；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:murata",
+   "name_en": "Murata",
+   "name_zh": "",
+   "description_zh": "「Murata」是鬼杀队队士「村田」，生命值 23、攻击力 1、护甲 1。会主动攻击各类恶鬼；会使用水之呼吸的剑技；近战攻击。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:muzan_2",
+   "name_en": "Muzan Kibutsuji",
+   "name_zh": "",
+   "description_zh": "「Muzan Kibutsuji」是鬼王无惨的第二形态，生命值 999、基础攻击力 0、护甲 1、抗击退能力很强。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。不会在群系中自然生成，鬼舞辻无惨在战斗进入下一阶段时会转变为该形态；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:muzan",
+   "name_en": "Muzan Kibutsuji",
+   "name_zh": "",
+   "description_zh": "「Muzan Kibutsuji」是鬼王「鬼舞辻无惨」，生命值 999、基础攻击力 0、护甲 1、抗击退能力很强。会主动追击鬼杀队成员；会使用血鬼术，以鞭状血肉与冲击波作战；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:nakime",
+   "name_en": "Nakime",
+   "name_zh": "",
+   "description_zh": "「Nakime」是上弦之肆的恶鬼「鸣女」，生命值 180、攻击力 1、护甲 1。会主动追击鬼杀队成员；近战攻击、会躲避阳光。未配置群系自然生成，可用刷怪蛋放置或通过模组机制获得；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:nezuko",
+   "name_en": "Nezuko Kamado",
+   "name_zh": "",
+   "description_zh": "「Nezuko Kamado」是变成鬼却保持理智的「灶门祢豆子」，生命值 45、攻击力 3、护甲 4。会主动攻击各类恶鬼；会使用血鬼术，以爆血火焰作战；近战攻击。自然生成于主世界各群系（生成权重 1，每次 1 只）；击杀掉落血鬼术·祢豆子。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:iguro",
+   "name_en": "Obanai Iguro",
+   "name_zh": "",
+   "description_zh": "「Obanai Iguro」是蛇柱「伊黑小芭内」，生命值 130、攻击力 10、护甲 1。会主动攻击各类恶鬼；会使用蛇之呼吸的剑技；近战攻击。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:pandan",
+   "name_en": "Panda",
+   "name_zh": "",
+   "description_zh": "「Panda」是可驯服的熊猫伙伴，生命值 150、攻击力 1、护甲 1。会主动攻击各类恶鬼；会使用兽之呼吸的剑技；近战攻击、可驯服并跟随主人、主人受袭时会反击。未配置群系自然生成，可用刷怪蛋放置或通过模组机制获得；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:demon_9",
+   "name_en": "Rip Demon",
+   "name_zh": "",
+   "description_zh": "「Rip Demon」是撕裂鬼，生命值 50、攻击力 3、护甲 3。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 4，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:rokuro",
+   "name_en": "Rokuro",
+   "name_zh": "",
+   "description_zh": "「Rokuro」是下弦之贰的恶鬼「辘轳」，生命值 160、攻击力 1、护甲 1。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:rui",
+   "name_en": "Rui",
+   "name_zh": "",
+   "description_zh": "「Rui」是下弦之伍的蜘蛛鬼「累」，生命值 150、攻击力 4、护甲 1。会主动追击鬼杀队成员；会使用血鬼术，以蛛丝束缚并斩击；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 1，每次 1 只）；击杀掉落血鬼术·累、无惨之血。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:rui_human",
+   "name_en": "Rui Ayaki",
+   "name_zh": "",
+   "description_zh": "「Rui Ayaki」是人类时期的累，生命值 15、攻击力 1、护甲 1。没有主动攻击行为。自然生成于下界荒原（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:rui_brother",
+   "name_en": "Rui Brother",
+   "name_zh": "",
+   "description_zh": "「Rui Brother」是那田蜘蛛山的蜘蛛鬼哥哥，生命值 70、攻击力 1、护甲 1。会主动追击鬼杀队成员；会使用血鬼术；近战攻击。自然生成于那田蜘蛛山（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:rui_father",
+   "name_en": "Rui Father",
+   "name_zh": "",
+   "description_zh": "「Rui Father」是那田蜘蛛山的蜘蛛鬼父亲，生命值 130、攻击力 8、护甲 3、抗击退能力很强。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。自然生成于那田蜘蛛山（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:rui_mother",
+   "name_en": "Rui Mother",
+   "name_zh": "",
+   "description_zh": "「Rui Mother」是那田蜘蛛山的蜘蛛鬼母亲，生命值 70、攻击力 1、护甲 1。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。自然生成于那田蜘蛛山（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:rui_sister",
+   "name_en": "Rui Sister",
+   "name_zh": "",
+   "description_zh": "「Rui Sister」是那田蜘蛛山的蜘蛛鬼姐姐，生命值 70、攻击力 1、护甲 1。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。自然生成于那田蜘蛛山（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:sabito",
+   "name_en": "Sabito",
+   "name_zh": "",
+   "description_zh": "「Sabito」是鳞泷的弟子「锖兔」，生命值 95、攻击力 1、护甲 1。会主动攻击各类恶鬼；会使用水之呼吸的剑技；近战攻击。自然生成于狭雾山（生成权重 2，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:urokodaki",
+   "name_en": "Sakonji Urokodaki",
+   "name_zh": "",
+   "description_zh": "「Sakonji Urokodaki」是前水柱「鳞泷左近次」，生命值 95、攻击力 1、护甲 1。会主动攻击各类恶鬼；会使用水之呼吸的剑技；近战攻击。自然生成于狭雾山（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:shinazugawa",
+   "name_en": "Sanemi Shinazugawa",
+   "name_zh": "",
+   "description_zh": "「Sanemi Shinazugawa」是风柱「不死川实弥」，生命值 150、攻击力 10、护甲 1。会主动攻击各类恶鬼；会使用风之呼吸的剑技；近战攻击。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:hantengu_sekido",
+   "name_en": "Sekido",
+   "name_zh": "",
+   "description_zh": "「Sekido」是半天狗的分身「积怒」，生命值 150、攻击力 1、护甲 1。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。不会在群系中自然生成，被击败的半天狗会分裂出积怒等四个分身；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:serpent",
+   "name_en": "Serpent",
+   "name_zh": "",
+   "description_zh": "「Serpent」是釜鵺使唤的蛇，生命值 80、基础攻击力 0、护甲 0。行动由模组自定义 AI 脚本控制。不会在群系中自然生成，由釜鵺携带出现；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:demon_5",
+   "name_en": "Serpent Demon",
+   "name_zh": "",
+   "description_zh": "「Serpent Demon」是蛇形的恶鬼，生命值 88、攻击力 3、护甲 9、抗击退能力很强。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:shadow_wolf",
+   "name_en": "Shadow Wolf",
+   "name_zh": "",
+   "description_zh": "「Shadow Wolf」是可驯服的影狼，生命值 50、基础攻击力 0、护甲 3。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、可驯服并跟随主人、主人受袭时会反击、会躲避阳光。未配置群系自然生成，只能通过模组机制获得；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:kocho",
+   "name_en": "Shinobu Kocho",
+   "name_zh": "",
+   "description_zh": "「Shinobu Kocho」是虫柱「蝴蝶忍」，生命值 110、攻击力 10、护甲 1。会主动攻击各类恶鬼；会使用虫之呼吸的剑技；近战攻击。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:sneak",
+   "name_en": "Snake",
+   "name_zh": "",
+   "description_zh": "「Snake」是蛇柱伊黑小芭内的白蛇，生命值 80、基础攻击力 0、护甲 0。行动由模组自定义 AI 脚本控制。不会在群系中自然生成，由蛇柱伊黑小芭内携带出现；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:spider_demon",
+   "name_en": "Spider Demon",
+   "name_zh": "",
+   "description_zh": "「Spider Demon」是那田蜘蛛山的蜘蛛鬼，生命值 16、攻击力 3、护甲 3。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会跃起扑击、会躲避阳光。自然生成于那田蜘蛛山（生成权重 20，每次 3–6 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:susamaru",
+   "name_en": "Susamaru",
+   "name_zh": "",
+   "description_zh": "「Susamaru」是玩手毬的恶鬼「朱纱丸」，生命值 80、攻击力 1、护甲 1。会主动追击鬼杀队成员；会使用血鬼术，投掷手毬进行远程攻击；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 2，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:swamp_demon",
+   "name_en": "Swamp Demon",
+   "name_zh": "",
+   "description_zh": "「Swamp Demon」是潜伏在沼泽的恶鬼，生命值 50、攻击力 3、护甲 8。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。未配置群系自然生成，只能通过模组机制获得；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:tamayo",
+   "name_en": "Tamayo",
+   "name_zh": "",
+   "description_zh": "「Tamayo」是保持理智的鬼「珠世」，生命值 60、攻击力 3、护甲 4。会使用血鬼术；近战攻击、会躲避阳光。未配置群系自然生成，可用刷怪蛋放置或通过模组机制获得；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:tanjiro",
+   "name_en": "Tanjiro Kamado",
+   "name_zh": "",
+   "description_zh": "「Tanjiro Kamado」是主角「灶门炭治郎」，生命值 120、攻击力 10、护甲 1。会主动攻击各类恶鬼；会使用水之呼吸、火之神神乐的剑技；近战攻击、可驯服并跟随主人、主人受袭时会反击。自然生成于主世界各群系（生成权重 1，每次 1 只）；击杀掉落炭治郎的头部装饰。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:tanjiro_demon",
+   "name_en": "Tanjiro Kamado (Demon King)",
+   "name_zh": "",
+   "description_zh": "「Tanjiro Kamado (Demon King)」是鬼王化后的「灶门炭治郎」，生命值 500、基础攻击力 0、护甲 1。会使用火之神神乐的剑技，会使用血鬼术，鬼王化后伤害极高；近战攻击。不会在群系中自然生成，炭治郎在继承无惨之血后会鬼王化成该形态；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:temple_demon",
+   "name_en": "Temple Demon",
+   "name_zh": "",
+   "description_zh": "「Temple Demon」是寺庙里的恶鬼，生命值 50、攻击力 3、护甲 8。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 3，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:uzui",
+   "name_en": "Tengen Uzui",
+   "name_zh": "",
+   "description_zh": "「Tengen Uzui」是音柱「宇髓天元」，生命值 160、攻击力 2、护甲 1。会主动攻击各类恶鬼；会使用音之呼吸的剑技；近战攻击。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:demon_3",
+   "name_en": "Tongue Demon",
+   "name_zh": "",
+   "description_zh": "「Tongue Demon」是长舌的恶鬼，生命值 40、攻击力 3、护甲 8。会主动追击鬼杀队成员；会使用血鬼术；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 3，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:toyosan",
+   "name_en": "Toyo",
+   "name_zh": "",
+   "description_zh": "「Toyo」是村庄里的居民，生命值 20、攻击力 1、护甲 1。平时随机游荡；没有主动攻击行为。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:hantengu_urogi",
+   "name_en": "Urogi",
+   "name_zh": "",
+   "description_zh": "「Urogi」是半天狗的分身「空喜」，生命值 150、攻击力 1、护甲 6。会主动追击鬼杀队成员；会使用血鬼术；近战攻击。不会在群系中自然生成，被击败的半天狗会分裂出空喜等四个分身；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:wakuraba",
+   "name_en": "Wakuraba",
+   "name_zh": "",
+   "description_zh": "「Wakuraba」是下弦之叁的恶鬼「病叶」，生命值 130、攻击力 1、护甲 1。会主动追击鬼杀队成员；近战攻击、会躲避阳光。未配置群系自然生成，可用刷怪蛋放置或通过模组机制获得；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:yachan",
+   "name_en": "Yachan",
+   "name_zh": "",
+   "description_zh": "「Yachan」是村庄里的少女，生命值 20、攻击力 1、护甲 1。会主动攻击各类恶鬼；近战攻击。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:yachan_brother",
+   "name_en": "Yachan Brother",
+   "name_zh": "",
+   "description_zh": "「Yachan Brother」是村庄里的少年，生命值 40、攻击力 1、护甲 7、抗击退能力很强。会主动攻击各类恶鬼；近战攻击。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:yahaba",
+   "name_en": "Yahaba",
+   "name_zh": "",
+   "description_zh": "「Yahaba」是操纵箭头的恶鬼「矢琶羽」，生命值 60、攻击力 1、护甲 3。会主动追击鬼杀队成员；会使用血鬼术，操纵箭头弹幕；近战攻击、会躲避阳光。夜间自然生成于主世界各群系（生成权重 2，每次 1 只）；击杀掉落血鬼术·矢琶羽。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:yoriichi_old",
+   "name_en": "Yoriichi Tsugikuni",
+   "name_zh": "",
+   "description_zh": "「Yoriichi Tsugikuni」是年老的「继国缘壹」，生命值 150、攻击力 18、护甲 1、抗击退能力很强。会主动攻击各类恶鬼；会使用日之呼吸的剑技；近战攻击。未配置群系自然生成，可用刷怪蛋放置或通过模组机制获得；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:yoriichi",
+   "name_en": "Yoriichi Tsugikuni",
+   "name_zh": "",
+   "description_zh": "「Yoriichi Tsugikuni」是日之呼吸的创始人「继国缘壹」，生命值 150、攻击力 18、护甲 1、抗击退能力很强。会主动攻击各类恶鬼；会使用日之呼吸的剑技；近战攻击。未配置群系自然生成，可用刷怪蛋放置或通过模组机制获得；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:yorichi_0",
+   "name_en": "Yoriichi Type Zero",
+   "name_zh": "",
+   "description_zh": "「Yoriichi Type Zero」是机关人偶「缘壹零式」，生命值 120、基础攻击力 0、护甲 3、抗击退能力很强。平时随机游荡；近战攻击。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:yushiro",
+   "name_en": "Yushiro",
+   "name_zh": "",
+   "description_zh": "「Yushiro」是珠世创造的鬼「愈史郎」，生命值 60、攻击力 3、护甲 4。会使用血鬼术；近战攻击、会躲避阳光。未配置群系自然生成，可用刷怪蛋放置或通过模组机制获得；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:zennitsu",
+   "name_en": "Zenitsu Wagatsuma",
+   "name_zh": "",
+   "description_zh": "「Zenitsu Wagatsuma」是雷之呼吸剑士「我妻善逸」，生命值 120、攻击力 10、护甲 1。会主动攻击各类恶鬼；会使用雷之呼吸的剑技，以雷之呼吸·霹雳一闪高速突进；近战攻击。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:zohakuten",
+   "name_en": "Zohakuten",
+   "name_zh": "",
+   "description_zh": "「Zohakuten」是半天狗四分身合体而成的「憎珀天」，生命值 250、攻击力 1、护甲 1、抗击退能力很强。会主动追击鬼杀队成员；操纵木龙与多种血鬼术；近战攻击、会躲避阳光。不会在群系中自然生成，半天狗的四个分身在战斗中会合体成憎珀天；击杀掉落无惨之血、血鬼术·憎珀天、憎珀天的服装。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  },
+  {
+   "mob_id": "kimetsunoyaiba:muscular_mouse",
+   "name_en": "Muscular Mouse",
+   "name_zh": "",
+   "description_zh": "「Muscular Mouse」是模组加入的肌肉鼠，生命值 15、攻击力 1、护甲 3。平时随机游荡；近战攻击。自然生成于主世界各群系（生成权重 1，每次 1 只）；没有独立掉落表。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/orca-kimetsu-no-yaiba",
+   "confidence": 0.6,
+   "notes": "据 jar 源码与数据文件整理"
+  }
+ ]
+}

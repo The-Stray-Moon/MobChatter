@@ -1,0 +1,907 @@
+{
+ "rank": 1,
+ "mod": "Alex's Mobs",
+ "mod_url": "https://modrinth.com/mod/alexs-mobs",
+ "mobs": [
+  {
+   "mob_id": "alexsmobs:alligator_snapping_turtle",
+   "name_en": "Alligator Snapping Turtle",
+   "name_zh": "大鳄龟",
+   "description_zh": "沼泽中生成的大型半水生龟，性情凶暴，任何靠近它喙状嘴的生物都会被咬，咬击与移动速度对乌龟来说相当快。长期待在水下时壳上会长满苔藓，可用剪刀剪取，有概率得到尖刺鳞甲，用来升级海龟壳头盔。生命值 18 点、攻击力 4 点、护甲 8 点、移动速度 0.2，会主动攻击，可以繁殖。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，无独立掉落表。"
+  },
+  {
+   "mob_id": "alexsmobs:anaconda",
+   "name_en": "Anaconda",
+   "name_zh": "森蚺",
+   "description_zh": "沼泽中的巨型蛇类，水陆都能活动，体色有绿、黄两种。它伏击猎物后缠绕使其窒息再整只吞下，因此被它吞掉的动物不会额外掉落物品；吃下几顿大餐后皮肤会褪色并开始蜕皮，蛇皮可用于制作独特旗帜图案。生命值 40 点、移动速度 0.15，会主动攻击，受击后会反击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:anteater",
+   "name_en": "Anteater",
+   "name_zh": "食蚁兽",
+   "description_zh": "丛林中的中立食虫哺乳动物，被攻击时会立起身体用大爪反击、伤害很高。它主要捕食切叶蚁；附近没有蚂蚁时会去扒蚁丘，可能翻出泥土、缠根泥土、蛹、块根以及蚁丘下的真菌。生命值 20 点、攻击力 6 点、移动速度 0.25，会主动攻击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:bald_eagle",
+   "name_en": "Bald Eagle",
+   "name_zh": "白头海雕",
+   "description_zh": "森林覆盖的山地中的大型中立猛禽，常到湖边俯冲抓鲑鱼，也会用同样方式捕食兔子。对付较大目标时会盘旋、用爪抓击再拉开距离；可用鱼油引诱驯服，并配合猎鹰手套进行猎鹰。生命值 16 点、攻击力 5 点、移动速度 0.3，受击后会反击，已驯服的个体会跟随主人，击杀后掉落羽毛 ×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:banana_slug",
+   "name_en": "Banana Slug",
+   "name_zh": "香蕉蛞蝓",
+   "description_zh": "只栖息在高大原始森林的小型软体动物，以真菌为食，常贴在方块侧面或缓慢爬过灌木。移动时会掉下黏液，可制成香蕉蛞蝓黏液块——这种黏液块接触水时会立刻把大片水变成结晶黏液。生命值 4 点、移动速度 0.1，可以繁殖，会被食物引诱，击杀后掉落香蕉蛞蝓黏液 ×0–2。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:bison",
+   "name_en": "Bison",
+   "name_zh": "野牛",
+   "description_zh": "平原、雪原与草甸中的中立有蹄类，脾气急躁，会把靠得太近的人顶飞到空中，偶尔也冲撞同类。可用剪刀剪取野牛毛，用来制作方块与地毯，或与靴子合成以更好地抵御细雪。生命值 40 点、攻击力 8 点、移动速度 0.25，会主动攻击，受击后会反击，击杀后掉落生牛肉 ×6–8、野牛毛皮 ×0–2。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:blobfish",
+   "name_en": "Blobfish",
+   "name_zh": "水滴鱼",
+   "description_zh": "生活在最深海域的凝胶状鱼，所在水压不足 10 格时会变成粉色的烂泥一摊。可用桶捕捉，用黏液球与其交互还能让它在陆地上存活，通常用于展示收藏。生命值 8 点、移动速度 0.25，受惊时会逃跑。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:blue_jay",
+   "name_en": "Blue Jay",
+   "name_zh": "冠蓝鸦",
+   "description_zh": "森林中常见的小型鸟类，乌鸦的近亲，叫声响亮且会捡食掉落的食物。它无法驯服，但喂食发光浆果后会被魅惑并跟随投喂者一段时间；若同时给附近的浣熊喂发光浆果，两者还会结伴。生命值 10 点、移动速度 0.25，会主动攻击，受惊时会逃跑，击杀后掉落羽毛 ×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:bone_serpent",
+   "name_en": "Bone Serpent",
+   "name_zh": "骨蟒",
+   "description_zh": "栖息在下界深层岩浆湖中的巨型蛇形亡灵，会不时跃出岩浆再潜回去。它敌视探索者，也是凋灵骷髅的死敌，锁定目标后会跃出岩浆把猎物压在身下；死亡时炸成一堆骨头并可能掉落一枚牙齿，牙齿与熔岩瓶可酿出熔岩视觉药水。生命值 25 点、攻击力 5 点、移动速度 1.45，会主动攻击，击杀后掉落骨蟒尖齿 ×0–1、骨头 ×10–15、骨块 ×1–4。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:bunfungus",
+   "name_en": "Bunfungus",
+   "name_zh": "蘑菇兔",
+   "description_zh": "极罕见地出现在蘑菇生物群系的巨大变异兔，无法繁殖，只能给普通兔子喂食 Mungi 掉落的蘑菇孢子来制造。它是蘑菇群系的天然防御者：白天多在睡觉，夜间主动攻击视野内的怪物；喂胡萝卜后变得完全被动并获得回复与力量。生命值 80 点、攻击力 8 点、移动速度 0.21，受威胁时会反击，击杀后掉落红色蘑菇 ×0–2。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:cachalot_whale",
+   "name_en": "Cachalot Whale",
+   "name_zh": "抹香鲸",
+   "description_zh": "温带、寒带与深海中生成的大型中立鲸类，最爱的猎物是鱿鱼：它会发出声波进行回声定位，靠回声确认鱿鱼位置后再捕食。生命值 160 点、攻击力 30 点、移动速度 1.2，可以繁殖。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:caiman",
+   "name_en": "Caiman",
+   "name_zh": "凯门鳄",
+   "description_zh": "红树林沼泽中的小型中立鳄类，用强有力的颚捕食鱼和其他小动物。它有时会在水面快速振动并溅起巨大水花，这是向同类宣示支配地位的方式。生命值 20 点、攻击力 3 点、护甲 8 点、移动速度 0.2，会主动攻击，已驯服的个体会跟随主人。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:capuchin_monkey",
+   "name_en": "Capuchin Monkey",
+   "name_zh": "卷尾猴",
+   "description_zh": "丛林中的小型灵长类，毛色随族群而不同，喜欢香蕉，可用香蕉驯服；驯服后可命令它跟随、停留或游荡。生命值 10 点、攻击力 2 点、移动速度 0.4，会主动攻击，受击后会反击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:catfish",
+   "name_en": "Catfish",
+   "name_zh": "鲶鱼",
+   "description_zh": "沼泽与河流中行动迟缓的底栖鱼，河流个体能长得更肥硕，而沼泽里只有最大的个体。小型鲶鱼会把看到的物品吸进肚子（可存 3 组），中型可存 9 组，大型则会吞下比一格矮的生物；受伤或遇到海腌菜时会把吞下的东西吐出来。生命值 10 点、移动速度 0.25，受惊时会逃跑，会被食物引诱，击杀后掉落生鲶鱼 ×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:centipede_head",
+   "name_en": "Cave Centipede",
+   "name_zh": "洞穴蜈蚣",
+   "description_zh": "深洞中罕见的巨型节肢动物，行动迟缓但单次伤害很高、咬击带毒，敌视进入其领地的玩家。死亡有概率掉落多条腿，这些腿可制作能攀爬墙壁的护腿，也能用于酿造抗毒药水。生命值 35 点、攻击力 8 点、护甲 6 点、移动速度 0.22，会主动攻击，受击后会反击，击杀后掉落洞穴蜈蚣腿 ×0–2。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴；实体由头/身/尾多段组成，这里记录头部实体。"
+  },
+  {
+   "mob_id": "alexsmobs:cockroach",
+   "name_en": "Cockroach",
+   "name_zh": "蟑螂",
+   "description_zh": "生活在地下、避开阳光的巨型昆虫，遇到放置的火把会四散逃跑。它繁殖力强，会产出装满若虫的卵鞘，也会吃掉任何掉落的食物；受伤严重时可能掉头却仍能活动，死亡有概率掉落蟑螂翅膀。生命值 6 点、移动速度 0.35，击杀后掉落蟑螂残翼 ×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:comb_jelly",
+   "name_en": "Comb Jelly",
+   "name_zh": "栉水母",
+   "description_zh": "构造极简单的凝胶生物，夜晚出现在冰冻海洋，闪动的棱镜色与深蓝海水形成对比。它只会随水漂流、滤食微小生物，可用水桶捕捉且有多种颜色，死亡掉落彩虹凝胶。生命值 6 点、移动速度 0.2，击杀后掉落彩虹果冻 ×0–2。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:cosmaw",
+   "name_en": "Cosmaw",
+   "name_zh": "宙游鲟",
+   "description_zh": "末地外岛少见地游荡的中立生物，兼具鱼、节肢动物与软体动物特征而难以分类；最爱吃宇宙鳕鱼，可多次投喂驯服。它不会在战斗中保护主人，但当主人从末地岛边缘坠落时会飞过去把主人救起。生命值 20 点、移动速度 0.3，会主动攻击，已驯服的个体会跟随主人，击杀后掉落紫颂果 ×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:cosmic_cod",
+   "name_en": "Cosmic Cod",
+   "name_zh": "宇宙鳕鱼",
+   "description_zh": "生活在末地岛屿之间虚空（包括末地主岛）的鱼，与其他鱼不同，它怕水并会被水伤害，只能成群漂浮在以太中。群中一条鱼被攻击，整群会尽快传送逃走；它是宙游鲟的常见猎物，也可把鳕鱼放进末影噬菌体的荚里获得。生命值 4 点、移动速度 0.35。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:crimson_mosquito",
+   "name_en": "Crimson Mosquito",
+   "name_zh": "绯红蚊子",
+   "description_zh": "下界绯红森林中的变异飞虫，会袭击几乎所有温血动物，包括玩家：先扑上吸附吸血，吸饱后再飞起来把血喷回目标。吸血状态下被杀会掉落血囊，另可掉落口器，两者可制作以血囊为弹药的血喷枪；主世界的苍蝇进入下界会转变为绯红蚊子。生命值 10 点、攻击力 5 点、移动速度 0.25，受击后会反击，击杀后有 10% 概率掉落绯红蚊子口器。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:crocodile",
+   "name_en": "Crocodile",
+   "name_zh": "鳄鱼",
+   "description_zh": "主世界河流与沼泽中罕见的巨型爬行动物，会扑向猎物并把它拖入水下施展致命的死亡翻滚；扑击若被盾牌格挡，可让它短暂眩晕。可用腐肉繁殖，繁殖后上岸产卵，蛋被破坏会激怒亲代，孵化出的幼鳄会认最近的玩家并守卫出生地。生命值 30 点、攻击力 10 点、护甲 8 点、移动速度 0.25，会主动攻击，受击后会反击，击杀后掉落鳄鱼鳞甲 ×0–2、鳄鱼蛋 ×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:crow",
+   "name_en": "Crow",
+   "name_zh": "乌鸦",
+   "description_zh": "森林与平原中吵闹的鸟类，被视为害鸟，常聚集在农田周围破坏作物，插一个雕刻南瓜就能守住小片田地。可用南瓜种子驯服，驯服后可命令其坐下、游荡、跟随或收集物品，坐在干草块上时还会缓慢恢复生命。生命值 8 点、移动速度 0.2，会主动攻击，受击后会反击，击杀后掉落羽毛 ×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:devils_hole_pupfish",
+   "name_en": "Devil's Hole Pupfish",
+   "name_zh": "魔鳉",
+   "description_zh": "因分布极窄而被称为世界上最稀有的鱼，只在一个区块的地下水层中生成，需要用“奇怪的鱼类探测器”听声定位。它们会互相追逐嬉戏（名字由此而来），以水下苔藓方块表面的污物为食，啄食时偶尔会踢出黏液球，进食苔藓后还会繁殖。生命值 2 点、移动速度 0.34，受惊时会逃跑。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:dropbear",
+   "name_en": "Dropbear",
+   "name_zh": "悬熊",
+   "description_zh": "下界荒地生成的敌对有袋类，常倒挂在下界顶面等猎物走到下方，然后跃下把目标压碎，落地后用巨颚与利爪攻击。击杀掉落悬熊爪，可代替铁锭制作打火石，也能酿造“攀附”药水，让饮用者像它一样在天花板上行走。生命值 22 点、攻击力 2 点、移动速度 0.25，会主动攻击，受击后会反击，击杀后掉落悬熊爪 ×0–2。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:elephant",
+   "name_en": "Elephant",
+   "name_zh": "大象",
+   "description_zh": "热带草原上成群活动的巨型陆生哺乳动物，象群中有幼象、长牙象与无牙象，通常只有一两只长牙个体，它们明显更强并拥有毁灭性的冲锋。大象还会用长鼻抛掷敌人、立起身体踩踏，并常站起扯下金合欢树叶以取得稀有的金合欢花。生命值 85 点、攻击力 10 点、移动速度 0.35，会主动攻击，受击后会反击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:emu",
+   "name_en": "Emu",
+   "name_zh": "鸸鹋",
+   "description_zh": "恶地与热带草原上不会飞的大型鸟类，传说曾凭借躲避投掷物的本领、数量与速度赢过技术先进的国度。受袭时它先惊慌逃跑，但部分个体会回头用大爪撕抓；它讨厌弓，因此会攻击骷髅。可用小麦繁殖，偶尔产下蓝色大蛋；生命值 20 点、攻击力 3 点、移动速度 0.35，受击后会反击，击杀后掉落鸸鹋羽毛 ×0–2、羽毛 ×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:endergrade",
+   "name_en": "Endergrade",
+   "name_zh": "末影缓步兽",
+   "description_zh": "末地紫颂森林中漂浮、以紫颂果为食的生物，是缓步动物在末地缺乏天敌而演化出的巨型亲戚。它可以上鞍骑乘，但必须手持“紫颂果钓竿”才能控制方向；用紫颂果可繁殖或把它从高处引下来，适合躲避潜影贝攻击，不过速度很慢。生命值 20 点、攻击力 2 点、移动速度 0.15。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:enderiophage",
+   "name_en": "Enderiophage",
+   "name_zh": "末影噬菌体",
+   "description_zh": "末地中部不常见的生化造物，似乎专为消灭末影缓步兽而造。它靠让猎物感染“末影流感”攻击：效果持续十分钟，结束时宿主体内会爆出大量小噬菌体并因巨大伤害死亡，吃紫颂果或牛奶可解除；它对多数生物中立，但敌视末影人。生命值 20 点、攻击力 2 点、移动速度 0.15，受击后会反击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:farseer",
+   "name_en": "Farseer",
+   "name_zh": "瞻远者",
+   "description_zh": "来自其他维度的存在，只能在世界边界附近跨界而来，因此遭遇极为罕见。把“维度切刀”放进荚中可做出破碎维度切刀，开出通往任意方向一百万格外的传送门，多次朝同一方向使用就可能进入瞻远者的活动范围；猎物靠近世界边界时，它有机会撕开传送门直接出现在旁边。生命值 70 点、攻击力 4.5 点、护甲 6 点、移动速度 0.35，会主动攻击，受击后会反击，击杀后掉落瞻远者之臂 ×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:flutter",
+   "name_en": "Flutter",
+   "name_zh": "花飘飘",
+   "description_zh": "繁茂洞穴中的小型植物状生物，完全被动，靠扇动巨大的花朵浮空来避开伤害。它对花很感兴趣，需要给它 4-6 种互不相同的花才能驯服；驯服后可停留、跟随或游荡，战斗时飞到空中向下发射会追踪目标的花粉球，还能套上花盆获得额外护甲。生命值 8 点、移动速度 0.21，可以繁殖，击杀后掉落孢子花 ×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:fly",
+   "name_en": "Fly",
+   "name_zh": "苍蝇",
+   "description_zh": "主世界常见的小型昆虫，被腐尸吸引，常追着僵尸咬到它快死。可用腐肉繁殖，死亡有概率掉落蛆；蛆能用来繁殖走鹃和卷尾猴，也能勉强当零食；苍蝇若进入下界会变成绯红蚊子。生命值 2 点、移动速度 0.25，会被食物引诱，击杀后掉落蛆 ×0–2。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:flying_fish",
+   "name_en": "Flying Fish",
+   "name_zh": "飞鱼",
+   "description_zh": "温暖海洋表面的鱼，有数种花色，是海豚与海豹的常见猎物，会跃出水面滑翔很远的距离。可用水桶捕捉；击杀后两条飞鱼加两根线可制作靴子，让穿戴者像飞鱼一样跃出水面，搭配鞘翅时效果更好。生命值 6 点、移动速度 0.3，受惊时会逃跑。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:frilled_shark",
+   "name_en": "Frilled Shark",
+   "name_zh": "皱鳃鲨",
+   "description_zh": "深海中行动迟缓的活化石鲨鱼，大部分时间捕食水滴鱼和鱿鱼。捕鱿鱼时它利用深海的弱光与鱿鱼的本能，用高度反光的牙齿把猎物引来，得手后用锯齿状牙齿造成“放血”效果持续削血；攻击鱿鱼时偶尔掉牙，锯齿鲨牙可制作深渊之盾。生命值 20 点、攻击力 3 点、移动速度 0.2，会主动攻击，受击后会反击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:froststalker",
+   "name_en": "Froststalker",
+   "name_zh": "寒霜潜伏者",
+   "description_zh": "出没于冰刺之地与冰封山峰的顶级群猎者，敌视任何它视为猎物的生物，最喜欢猎杀獠牙兽。狩猎时直立身体加速、成群绕圈后再扑击撕咬；受伤时会抖落背上的冰刺造成大量伤害，入水可重新长出冰刺，脚下还会把水冻住。生命值 24 点、攻击力 4.5 点、护甲 2 点、移动速度 0.3，会主动攻击，可以繁殖。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:gazelle",
+   "name_en": "Gazelle",
+   "name_zh": "瞪羚",
+   "description_zh": "主世界热带草原特化的小型哺乳动物，性情胆怯，成群觅食；一只被攻击，全群会以极快的速度逃离。死亡偶尔掉落稀有犄角，可与速度 II 药水酿造速度 III 药水，也会掉落羊肉。生命值 8 点、攻击力 2 点、移动速度 0.25，可以繁殖，击杀后掉落生羊肉 ×0–1、瞪羚角 ×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:gelada_monkey",
+   "name_en": "Gelada Monkey",
+   "name_zh": "狮尾狒狒",
+   "description_zh": "只生活在高海拔草甸的大型中立猴子，几乎只吃草，常互相理毛或在草地上休息。领地意识极强，每群由鬃毛浓密的头领统率；被激怒时会翻起上唇露出巨齿，罕见地还会直立展示猩红胸部。可用小麦引诱它清除大片草与高草，用枯灌木繁殖；生命值 18 点、攻击力 4 点、移动速度 0.25，受惊时会逃跑。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:giant_squid",
+   "name_en": "Giant Squid",
+   "name_zh": "大王乌贼",
+   "description_zh": "只出现在最深海洋的大型无脊椎动物，拥有动物界最大的眼睛，对多数生物中立但会攻击守卫者与鱼。被杀只掉几个墨囊；若被天敌抹香鲸攻击，它可能失去触手，玩家可收集失落的触手制作触手抓钩，一次射出最多四根触手拉向方块，适合探索洞穴与海洋；水压不足十格时它会减压发白。生命值 38 点、攻击力 8 点、移动速度 0.25，会主动攻击，受击后会反击，击杀后掉落墨囊 ×4–8。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:gorilla",
+   "name_en": "Gorilla",
+   "name_zh": "大猩猩",
+   "description_zh": "丛林中成群活动的大型猿类，平时温和，被激怒时能造成巨大伤害。每群有一头银背首领，实力是其他大猩猩的 2-3 倍，焦躁时会捶胸；幼崽常趴在父母背上。用破坏丛林树叶得到的香蕉可获得信任，喂够后可命令坐下或游荡，并会主动保护玩家；生命值 30 点、攻击力 7 点、移动速度 0.25，会主动攻击，受击后会反击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:grizzly_bear",
+   "name_en": "Grizzly Bear",
+   "name_zh": "灰熊",
+   "description_zh": "生命值 55 点，伤害在简单/普通/困难难度下为 5/8/10 点，生成于森林、针叶林与桦木森林，通常带着一两只幼崽。远距离时中立，玩家靠近就会攻击；会撕开装满蜂蜜的蜂巢取食蜜脾，厚毛皮还能免疫蜜蜂毒针。先投蜂蜜再投鲑鱼可将其驯服，驯服后能骑乘并协助战斗。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/398037.html",
+   "confidence": 0.85,
+   "notes": "生命/伤害数值取自 MC百科词条"
+  },
+  {
+   "mob_id": "alexsmobs:guster",
+   "name_en": "Guster",
+   "name_zh": "沙风怪",
+   "description_zh": "只在沙漠风暴时现身的复仇沙灵，天生敌对，会把目标高高抛起或喷出沙流，还会卷起掉落物抛走，让收集战利品变得困难。它的身体由当地沙子构成，在灵魂沙或红沙区域会呈现对应颜色；对投射物抗性较高，死亡掉落沙子并偶尔掉落眼睛，眼睛可制作通入红石后释放沙风的唤风器。生命值 16 点、移动速度 0.2，会主动攻击，受击后会反击，击杀后掉落沙子 ×0–3；另有 20% 概率掉落沙风之眼。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:hammerhead_shark",
+   "name_en": "Hammerhead Shark",
+   "name_zh": "锤头鲨",
+   "description_zh": "温暖水域的大型软骨鱼，专门以半血以下的生物为目标，也爱吃热带鱼和鱿鱼。觅食前它会先绕圈观察，寻找理想攻击角度；攻击时偶尔掉牙，鲨牙可制作水下飞行更好、对水生生物伤害更高的箭。生命值 30 点、攻击力 5 点、移动速度 0.5，受击后会反击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:hummingbird",
+   "name_en": "Hummingbird",
+   "name_zh": "蜂鸟",
+   "description_zh": "现存最小的鸟类，飞行极快，出没于丛林、草甸、繁花森林与向日葵平原。花能让它安静下来，其授粉效率甚至超过蜜蜂；可用花繁殖，装满水瓶与糖的蜂鸟喂食器能把它留在小范围内并增强授粉效果。生命值 4 点、移动速度 0.45，会被食物引诱。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:jerboa",
+   "name_en": "Jerboa",
+   "name_zh": "跳鼠",
+   "description_zh": "只在沙漠夜间出没的小型夜行哺乳动物，白天睡觉、夜里靠超长后腿蹦跳，常被响尾蛇、狐狸和猫捕食。它性情害羞却会讨种子，给几颗种子会回报“健步如飞”效果——边跑边跳时获得加速；可用蛆或小昆虫繁殖。生命值 4 点、移动速度 0.45，受惊时会逃跑。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:kangaroo",
+   "name_en": "Kangaroo",
+   "name_zh": "袋鼠",
+   "description_zh": "热带草原与恶地的大型中立有袋类，只能靠跳跃移动，有时育儿袋里还带着幼崽；受攻击时会用双脚踢出毁灭性攻击。死亡掉落袋鼠肉（可做汉堡）与袋鼠皮（可制皮革或独特旗帜图案）；用 10-15 根胡萝卜驯服后可命令停留、跟随或游荡，潜行可打开育儿袋库存，放入近战武器它会使用。生命值 22 点、攻击力 4 点、移动速度 0.5，会主动攻击，受击后会反击，击杀后掉落袋鼠皮 ×0–2、袋鼠肉 ×1–2。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:komodo_dragon",
+   "name_en": "Komodo Dragon",
+   "name_zh": "科莫多巨蜥",
+   "description_zh": "世界上最大的蜥蜴，常见于稀疏丛林，把人和动物都当食物，几乎攻击一切；会为争夺地位直立摔跤，也会同类相食、优先攻击虚弱个体与幼崽。咬击带剧毒；它偏爱腐肉，喂下整组腐肉可驯服，驯服后能上鞍当相当迅捷的坐骑，口涎还能延长抗毒药水的时长。生命值 30 点、攻击力 4 点、移动速度 0.23，会主动攻击，受击后会反击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:laviathan",
+   "name_en": "Laviathan",
+   "name_zh": "炽岩",
+   "description_zh": "下界岩浆湖中覆满黑石的巨型岩浆爬行动物，外表凶恶却完全被动，受伤就逃。装上 Straddlite 鞍与缰具后可骑乘，鞍最多载四名乘客，装备齐全时它更不容易逃跑或潜入岩浆；它常破开岩浆面、从头背喷烟引诱绯红蚊子再一口吞下，遇水则据说会“凝固”。生命值 60 点、护甲 10 点、移动速度 0.3，可以繁殖，击杀后掉落岩浆块 ×0–3、黑石 ×0–3。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:leafcutter_ant",
+   "name_en": "Leafcutter Ant",
+   "name_zh": "切叶蚁",
+   "description_zh": "丛林中撕咬树叶的小昆虫，群体最多二十只，分工蚁与蚁后两种形态，蚁后只能通过踩踏蚁丘召唤，体型与实力都远胜工蚁且每群通常只有一只。蚁丘下是能把树叶转化为真菌的腔室方块网络；有蚁后在巢时，每采 5 片树叶有概率新增一只工蚁（蚁数少于 10 时）。生命值 8 点、攻击力 2 点、移动速度 0.25，会主动攻击，会被食物引诱。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:lobster",
+   "name_en": "Lobster",
+   "name_zh": "龙虾",
+   "description_zh": "海滩群系水下的小型甲壳类，被攻击时会夹击附近的攻击者，但不会追击。常见为红色，也有更稀有的其他颜色；死亡偶尔掉落可烹调的龙虾尾，也能像鱼一样用水桶捕捉。生命值 5 点、攻击力 2 点、护甲 2 点、移动速度 0.15，受击后会反击，击杀后掉落龙虾尾 ×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:maned_wolf",
+   "name_en": "Maned Wolf",
+   "name_zh": "鬃狼",
+   "description_zh": "只生活在热带草原的被动犬科，既不是狼也不是狐，主要吃水果、最爱苹果。它无法像狼那样驯服，但喂苹果会让它抖毛，释放出“臭鼬狼”气味：气味会吸引其他动物，便于聚集牲畜，还会提高附近切叶蚁丘的真菌产量。生命值 16 点、攻击力 2 点、移动速度 0.3，受惊时会逃跑，可以繁殖。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:mantis_shrimp",
+   "name_en": "Mantis Shrimp",
+   "name_zh": "螳螂虾",
+   "description_zh": "温暖海洋珊瑚礁与红树林沼泽中的巨型甲壳类，双拳快得能灼伤猎物，也能把敌人打飞并击穿方块；它虽中立，惹怒它并不明智，最爱的食物正是潜影贝。用 10-30 条热带鱼驯服，离水超过 5 分钟会干死，潜行时喂水桶可让它长期离水；驯服后可命令跟随、坐下、游荡或破坏指定方块。生命值 20 点、攻击力 3 点、护甲 8 点、移动速度 0.3，会主动攻击，受击后会反击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，无独立掉落表。"
+  },
+  {
+   "mob_id": "alexsmobs:mimic_octopus",
+   "name_en": "Mimic Octopus",
+   "name_zh": "拟态章鱼",
+   "description_zh": "温暖海洋中好奇的被动头足类，靠快速再生与变色变形自保：能变成所站方块的颜色，也会模仿附近的河豚、苦力怕和守卫者，拟态时几乎无法被发现。用 5-8 条龙虾尾（非拟态状态）可驯服，驯服后会变成怪物形态吓退攻击主人的敌人，也能跟随上岸，但需每隔几天涂黏液球防止干死。生命值 16 点、攻击力 2 点、移动速度 0.2，受威胁时会反击，击杀后掉落墨囊 ×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:mimicube",
+   "name_en": "Mimicube",
+   "name_zh": "复刻怪",
+   "description_zh": "史莱姆与岩浆怪的亲戚，常守卫末地城；被攻击时会复制攻击者的武器与护甲（盾、剑、弓、弩、三叉戟、食物等），所以带着强力装备挑战反而会制造出难缠的对手。死亡掉落魔法凝胶 Mimicream，8 份凝胶加一件可损坏物品即可复制出该物品。生命值 30 点、攻击力 2 点、移动速度 0.45，受击后会反击，击杀后掉落复刻凝胶 ×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:moose",
+   "name_en": "Moose",
+   "name_zh": "驼鹿",
+   "description_zh": "雪原与雪针叶林中的巨型草食哺乳动物，受攻击时会用巨角造成危险伤害，也常与同类角对角较劲争夺地位。每 7-10 天有概率掉落一只稀有巨角，两只可制作具特殊击退能力的头饰，角需 3-5 天重新长出；它会保护幼崽不受狼等捕食者伤害，可用蒲公英繁殖。生命值 55 点、攻击力 7.5 点、移动速度 0.25，会主动攻击，受击后会反击，击杀后掉落生驼鹿排 ×1–3。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:mudskipper",
+   "name_en": "Mudskipper",
+   "name_zh": "弹涂鱼",
+   "description_zh": "只生活在红树林沼泽、却大部分时间在陆地上行走的鱼，两只相遇会竖起鳍绕圈确立地位，水陆都很自在。用几条龙虾尾可驯服，能命令停留、跟随或游荡；主人受威胁时会吐出泥球造成伤害并施加缓慢，战斗中还会横移。生命值 12 点、攻击力 2 点、移动速度 0.2，会主动攻击，受击后会反击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:mungus",
+   "name_en": "Mungus",
+   "name_zh": "蘑菇君",
+   "description_zh": "蘑菇生物群系中的真菌生物，是守卫者与炽足兽的亲戚，但完全被动。喂它同类蘑菇会让更多蘑菇长在背上；背上有蘑菇时，它会向附近同类蘑菇发射类似守卫者的光束来繁殖它们（长在菌丝上可能长成巨型蘑菇）。背 5 个蘑菇时被杀会剧烈爆炸，并把周围变成对应真菌的群系；生命值 15 点、移动速度 0.25，受惊时会逃跑。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:murmur",
+   "name_en": "Murmur",
+   "name_zh": "轻语灵",
+   "description_zh": "只出现在主世界极深处（比洞穴蜈蚣更深）的亡灵怪物，看似无害人形，实则长着能伸出 50 格以上的蛇形脖子；发现猎物时先伸长脖子观察，再迅速前扫咬住并缩回。攻击它的头只造成一半伤害；死亡掉落红羊毛、弹性肌腱或稀有的“不安的和服”，肌腱与悬熊爪可制作能同时命中三个目标的中距离肌腱鞭。生命值 30 点、攻击力 3 点、移动速度 0.2，受击后会反击，击杀后掉落弹性筋腱 ×0–2；掉落惴恐和服（10%）或红色羊毛 ×0–1（90%）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:orca",
+   "name_en": "Orca",
+   "name_zh": "虎鲸",
+   "description_zh": "主世界寒冷海洋中类似海豚的大型鲸类，常在水面起伏并袭击当地的北极熊，也会用巨尾拍死鱼群。与海豚不同，伤害一头虎鲸可能招来整群攻击；不同海域的群体外观略有差异，与虎鲸群同游可获得提升攻击速度的“虎鲸之力”，它们也常对付溺尸与守卫者。生命值 60 点、攻击力 10 点、移动速度 1.35，会主动攻击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:platypus",
+   "name_en": "Platypus",
+   "name_zh": "鸭嘴兽",
+   "description_zh": "主世界河流中罕见的鸭嘴兽，脚上有毒刺，能令攻击者中毒；它视力、听觉与嗅觉都很差，靠电感应捕食与导航，因此手持红石会吸引它，喂红石还能补充电感应并让它去附近黏土块找蛆。觅食时会挖出黏土球和蛆，喂一整块红石可大幅增加产量；可用龙虾尾繁殖。生命值 10 点、移动速度 0.2，受惊时会逃跑。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:potoo",
+   "name_en": "Potoo",
+   "name_zh": "林鸱",
+   "description_zh": "只生活在黑森林的懒散鸟类，白天待在栖枝上睡觉、夜里才稍活跃；它靠伪装成树的一部分生存，会找树叶或原木停栖且很少离开，除非看到飞过的小虫。它的大眼睛瞳孔会随环境亮度缩放，处在怪物能生成的暗处时会持续尖叫；可用猎鹰手套搬运，用蛆繁殖。生命值 8 点、移动速度 0.2，会主动攻击，受惊时会逃跑，击杀后掉落羽毛 ×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:raccoon",
+   "name_en": "Raccoon",
+   "name_zh": "浣熊",
+   "description_zh": "平原与森林中的小型哺乳动物，中立但看到玩家手持食物就会讨食，夜间眼睛会发光。它是出名的小偷，会从箱子和木桶里偷食物，也可能偷村民的物品；有把食物放到水里“洗”的习性。只有在水边喂它鸡蛋才能驯服，驯服后可坐下、跟随或游荡，还能披上地毯当头巾；死亡有概率掉落尾巴；生命值 9 点、攻击力 2 点、移动速度 0.25，会主动攻击，受击后会反击，击杀后掉落浣熊尾 ×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:rain_frog",
+   "name_en": "Rain Frog",
+   "name_zh": "雨蛙",
+   "description_zh": "只在下雨或阴天的沙漠中出现的小型蛙类，不会跳也不擅长游泳，不产蝌蚪，常试图把身体埋进沙里；受威胁时会鼓起身子发出响亮吱叫。可用蛆繁殖，也会吃能捡到的小昆虫；用锹挖正在埋身的雨蛙会让它受惊，但不会让它消失。生命值 6 点、移动速度 0.2，会被食物引诱。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:rattlesnake",
+   "name_en": "Rattlesnake",
+   "name_zh": "响尾蛇",
+   "description_zh": "沙漠与恶地的中型蛇类，多数时候只听到它响亮的尾环警告声；在它响环时靠得太近，它会转为敌对并用毒咬自卫。它是走鹃的宿敌与常见猎物；可用任意肉类繁殖，死亡有概率掉落尾环，尾环与剧毒药水可酿出毒性精华，再加洞穴蜈蚣腿即可得到抗毒药水。生命值 8 点、攻击力 2 点、移动速度 0.28，会主动攻击，受击后会反击，击杀后掉落响尾 ×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:rhinoceros",
+   "name_en": "Rhinoceros",
+   "name_zh": "犀牛",
+   "description_zh": "热带草原上成群活动的大型装甲哺乳动物，用头上的大角攻击任何靠得太近的威胁，且极度仇视掠夺者、见之必追。它起初对玩家胆怯，喂小麦可安抚并让它协助；对犀牛使用药水会把效果附在角上，被它攻击的生物会中该效果（持续约 15-20 次攻击）；可用高草或枯灌木繁殖。生命值 60 点、攻击力 8 点、护甲 12 点、移动速度 0.25，会主动攻击，受击后会反击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:roadrunner",
+   "name_en": "Roadrunner",
+   "name_zh": "走鹃",
+   "description_zh": "在沙漠与恶地奔跑的中型鸟类，速度与敏捷远超其体型，常与响尾蛇（它的天然猎物）发生冲突。它的羽毛因被认为能做在沙地上快速奔跑的靴子而十分抢手。生命值 8 点、移动速度 0.45，会主动攻击，受惊时会逃跑，击杀后掉落走鹃羽毛 ×0–1、羽毛 ×0–2。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:rocky_roller",
+   "name_en": "Rocky Roller",
+   "name_zh": "岩磙兽",
+   "description_zh": "只生活在滴水石洞穴的巨大敌对怪物，壳上布满尖锐滴水石，会高速滚动碾压入侵者；它的血量对怪物而言偏低，但护甲极厚、伤害很高。死亡掉落凝灰岩、尖滴水石与岩壳，岩壳可制作冲刺时能像它一样滚动的胸甲——移动快、可撞击他人，但穿它在水中会迅速下沉。生命值 10 点、攻击力 2 点、护甲 20 点、移动速度 0.25，会主动攻击，受击后会反击，击杀后掉落凝灰岩 ×0–2、滴水石锥 ×0–2；另有 75% 概率掉落岩壳。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:sea_bear",
+   "name_en": "Sea Bear",
+   "name_zh": "海熊",
+   "description_zh": "作者以“确实存在”口吻写的玩梗生物：想避开海熊就别吹单簧管、别滑稽地戴宽边帽或穿小丑鞋、圈裙，更不要像黑猩猩那样尖叫；如果确定海熊要来吃你，按专家说法，用棍子在沙上画一个“反海熊圈”是唯一防御手段。生命值 200 点、攻击力 8 点、移动速度 0.325，会主动攻击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.5,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空；图鉴本身是恶搞语气，机制描述仅供参考。"
+  },
+  {
+   "mob_id": "alexsmobs:seagull",
+   "name_en": "Seagull",
+   "name_zh": "海鸥",
+   "description_zh": "海滩常见的中型鸟，能偷走玩家手持或快捷栏里的任何食物，也会捡食地上的食物；每次偷窃有 1-3 分钟冷却，因此烦人但威胁不大。副手拿着藏宝图时把龙虾尾丢在地上，吃掉它的海鸥会飞到宝藏正上方作为回报；可用生鳕鱼繁殖。生命值 8 点、移动速度 0.2，受惊时会逃跑，击杀后掉落羽毛 ×0–2。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:seal",
+   "name_en": "Seal",
+   "name_zh": "海豹",
+   "description_zh": "主世界海滩与冰山上的半水生哺乳动物，常懒洋洋地趴着晒太阳睡觉；下水后极其灵活，唯一的天敌是虎鲸。一头海豹被攻击，整群会逃入水中；在陆地上给晒太阳的海豹喂三条鱼会形成原始“交易”，它会去海床找来一件物品回报，多为海带、沙子，偶尔是鲨鱼牙、鳞甲或鹦鹉螺壳。生命值 10 点、攻击力 2 点、移动速度 0.18，会主动攻击，受惊时会逃跑。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:shoebill",
+   "name_en": "Shoebill",
+   "name_zh": "鲸头鹳",
+   "description_zh": "沼泽中类似鹳的奇特鸟类，外表威吓实则非常胆小，受攻击就起飞，常摇晃它的大喙；独处时会在水中捕鱼，常捕到对自己无用、对玩家有用的副产物。喂鳄鱼蛋能提高渔获的“诱饵”效果，喂水龟蛋提高“幸运”；它太胆小无法由玩家繁殖，也会捕食幼鳄与幼龟。生命值 10 点、攻击力 4 点、移动速度 0.2，会主动攻击，受惊时会逃跑，击杀后掉落羽毛 ×0–4。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:skelewag",
+   "name_en": "Skelewag",
+   "name_zh": "骷髅剑鱼",
+   "description_zh": "沉船周围黑暗水域中巡游的鱼类亡灵，攻击性极强，会冲撞任何海豚或闯入者；它能把尖锐头骨来回挥砍或向前刺出造成大量伤害，移动迅速且难以预测，偶尔还会有溺尸骑在它背上。死亡有概率掉落鱼骨（可做奇怪的鱼类探测器与骨粉）或它的头骨——头骨能像剑一样快速攻击、伤害较低，也可像盾一样格挡。生命值 20 点、攻击力 3 点、移动速度 0.45，会主动攻击，受击后会反击，击杀后掉落骨头 ×0–2；另有 10% 概率掉落骷髅剑鱼头骨，1% 概率掉落汽水帽，30% 概率掉落鱼骨。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:skreecher",
+   "name_en": "Skreecher",
+   "name_zh": "贱叫怪",
+   "description_zh": "深暗之域天花板上附着的变异灵长类，环境太暗，往往只能靠它巨大的发光眼睛辨认。它不会常规战斗：发现猎物就嚎叫并用双脚拍击制造巨响，几秒内唤醒正下方的监守者；它血量极低，任何投掷物都能暂时打断呼唤并把它打落。死亡有概率掉落灵魂，可制作由幽匿感测体触发的 Sculk Boomer；生命值 2 点、移动速度 0.2，击杀后掉落贱叫怪之魂。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:skunk",
+   "name_en": "Skunk",
+   "name_zh": "臭鼬",
+   "description_zh": "森林中偶尔出现的哺乳动物，非常胆小，遇到大型捕食者就逃；被穷追或受伤时会朝追击者喷臭气，造成反胃，气味还会残留在被喷到的方块表面，可用瓶收集成“瓶装恶臭”作为臭气枪燃料。臭气枪能让附近的中立与敌对生物把臭味归咎于目标、转而攻击它；臭鼬可用甜浆果繁殖。生命值 8 点、移动速度 0.25，会被食物引诱。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:snow_leopard",
+   "name_en": "Snow Leopard",
+   "name_zh": "雪豹",
+   "description_zh": "雪山地区的大型猫科，捕猎凶猛但不会主动攻击人，常蹲坐在雪峰上；它会跟踪牲畜，最爱绵羊，弓背潜行到猎物背后再发动致命跃击，也会用爪近战。它的猎杀常产生额外掉落，相当于自带高抢夺等级；无法驯服，可用驼鹿肋排繁殖，会保护自己与幼崽。生命值 30 点、攻击力 6 点、移动速度 0.35，受击后会反击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:soul_vulture",
+   "name_en": "Soul Vulture",
+   "name_zh": "灵魂鹫",
+   "description_zh": "灵魂沙峡谷中游荡的远古死鸟残骸，常盘旋在散落的巨大骷髅骨架周围；被靠近时会发起吸取生命的攻击，最多能从猎物身上吸取五次生命。死亡可能掉落灵魂之心，可酿造“夺魂”药水让饮用者获得同样的吸命能力；它是猪灵的天然敌人，也常成为骨蟒的猎物。生命值 12 点、攻击力 4 点、移动速度 0.25，受击后会反击，击杀后掉落骨头 ×0–2、煤炭 ×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:spectre",
+   "name_en": "Spectre",
+   "name_zh": "灵翼",
+   "description_zh": "主世界幻翼的远亲，只生活在末地岛屿之间的虚空；普通手段无法攻击它，只有药水等魔法伤害有效。它完全被动、对世俗毫无兴趣，却对灵魂之心特别感兴趣——手持灵魂之心会被它跟随；用拴绳拴住后会被它拉着在末地虚空快速移动，便于发现新的末地岛。生命值 50 点、攻击力 2 点。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:straddler",
+   "name_en": "Straddler",
+   "name_zh": "跨座兽",
+   "description_zh": "下界炽足兽的巨型亲戚，只生活在玄武岩三角洲；它比炽足兽更耐受陆地、水与岩浆，但具有攻击性，靠近即被视为入侵者。它会用长而网状的毛发向目标发射跨座蝌蚪；死亡掉落玄武岩与少量 Straddlite，后者可制作浮在岩浆上、遇水下沉的跨板。生命值 28 点、攻击力 2 点、护甲 5 点、移动速度 0.3，受击后会反击，击杀后掉落玄武岩 ×0–3；另有 20% 概率掉落跨座晶石。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:stradpole",
+   "name_en": "Stradpole",
+   "name_zh": "跨座蝌蚪",
+   "description_zh": "跨座兽的幼体，生活在玄武岩三角洲的浅岩浆池，会被亲代当作武器向威胁发射；用岩浆桶可搬运它并防止其消失。喂它最爱的绯红蚊子幼虫有概率促使它长成敌对的成体；它在水中与岩浆中都自在，可作为奇特的观赏水族。生命值 4 点、移动速度 0.3。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:sugar_glider",
+   "name_en": "Sugar Glider",
+   "name_zh": "蜜袋鼯",
+   "description_zh": "桦木森林中的小型树栖有袋类，会爬上原木或树叶再滑翔到其他树上；用甜浆果驯服后可命令停留、跟随或游荡，潜行交互能让它趴到头上并获得缓降。驯服个体偶尔会翻树叶找东西，多为树苗、木棍等杂物，也可能找到箭、熊毛或驼鹿角；可用蜜脾繁殖，幼体不会滑翔。生命值 8 点、攻击力 2 点、移动速度 0.25，受惊时会逃跑。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:sunbird",
+   "name_en": "Sunbird",
+   "name_zh": "曦鹤",
+   "description_zh": "翱翔于最高山峰之上的神话之鹤，完全被动，能给成功接近它的玩家赐福：受祝福后鞘翅飞行更容易，还能像它一样快速上下浮动。攻击它会招来诅咒，让攻击者迅速坠地；作为神圣生物，附近的亡灵会像被阳光直射一样瞬间着火，而它自身免疫一切火焰、高温与岩浆伤害。生命值 20 点、攻击力 2 点。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:tarantula_hawk",
+   "name_en": "Tarantula Hawk",
+   "name_zh": "沙漠蛛蜂",
+   "description_zh": "沙漠上空盘旋的巨型寄生蜂（既不是蜘蛛也不是鸟），对多数生物中立，名字来自它最爱的猎物——蜘蛛：它会俯冲蜇刺，等猎物被蜇到麻痹后再拖走埋入地下。攻击会造成“衰弱蜇刺”，麻痹节肢动物并把非节肢动物削到半血；它飞行轨迹飘忽、蜇刺频繁，可用 15-25 个蜘蛛眼驯服。生命值 18 点、攻击力 5 点、护甲 4 点、移动速度 0.3，会主动攻击，受击后会反击，击杀后掉落沙漠蛛蜂残翼 ×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:tasmanian_devil",
+   "name_en": "Tasmanian Devil",
+   "name_zh": "袋獾",
+   "description_zh": "温带森林中罕见的小型有袋类，黑白毛色、叫声怪异，常成群坐着晒太阳；攻击最爱的兔子或鸡时，附近的袋獾会一起加入狩猎。它虽小却会抵抗任何攻击者；喂腐肉后它会发出嚎叫，短时间内吓退附近所有怪物。无法驯服，可用任意肉类繁殖；生命值 14 点、攻击力 2 点、移动速度 0.3，会主动攻击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:terrapin",
+   "name_en": "Terrapin",
+   "name_zh": "水龟",
+   "description_zh": "无冰河流中偶尔出现的小型龟类，完全被动、靠龟壳自保，可用水桶捕捉。跳到它身上它会缩壳，再跳一次它会朝跳跃者方向旋转弹出、撞墙反弹，高速撞到其他生物时造成不小伤害（也可能因此对被撞者转为敌对）。花纹与颜色极其多样，可用海草繁殖 1-4 枚蛋，幼龟可能突变成随机颜色；生命值 10 点、护甲 10 点、移动速度 0.1，受惊时会逃跑。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:tiger",
+   "name_en": "Tiger",
+   "name_zh": "老虎",
+   "description_zh": "竹林及周边的大型猫科，天生警惕外来者，靠近就会攻击；它能从数格外跃起压碎猎物，也会用爪挥击，远距离潜行时几乎隐形，速度之快会让猎物恐惧到短暂僵住。喂鸡肉、猪排等新鲜肉类可获得“虎之祝福”，让玩家能安全接近老虎并在受袭时得到它相助，但只持续几分钟。生命值 50 点、攻击力 12 点、移动速度 0.25，会主动攻击，可以繁殖。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:toucan",
+   "name_en": "Toucan",
+   "name_zh": "巨嘴鸟",
+   "description_zh": "丛林中色彩艳丽、长着巨喙的小鸟，性情被动且极爱各种水果；喂苹果、香蕉等树生水果时，它可能用喙在世界某处种下对应树苗（苹果→橡树，香蕉→丛林树）。喂金苹果会让它短暂变成金色巨嘴鸟并大幅加快种树速度，喂附魔金苹果后不再需要持续喂水果；可用鸡蛋繁殖。生命值 6 点、移动速度 0.2，受惊时会逃跑，击杀后掉落羽毛 ×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:triops",
+   "name_en": "Triops",
+   "name_zh": "鲎虫",
+   "description_zh": "沙漠水域中的小型虾状甲壳类，三只复眼、生命力极强，专吃蚊子幼虫，遇到的蚊子都会被它吓退。把胡萝卜丢给它，它会寻找同样吃过胡萝卜的配偶繁殖，随后把卵产在水面，孵化出幼体；卵也可打破做成驱蚊炖菜，让绯红蚊子避食客如瘟疫。可用水桶捕捉；生命值 4 点、移动速度 0.25，受惊时会逃跑。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空。"
+  },
+  {
+   "mob_id": "alexsmobs:tusklin",
+   "name_en": "Tusklin",
+   "name_zh": "獠牙兽",
+   "description_zh": "下界疣猪兽失散已久的祖先，生活在极寒冷的平坦群系，敌视任何闯入领地的生物，但不会追出战场太远；近身时会用獠牙刺穿或把目标挑飞到空中。它可以上鞍短暂骑乘，直到把人甩下；与真菌关系密切，喂棕色蘑菇可安抚，用红色蘑菇繁殖。传说猪灵曾骑着它作战，并为它打造能附魔的猪蹄铁；生命值 40 点、攻击力 9 点、移动速度 0.3，会主动攻击，击杀后掉落生猪排 ×3–6、雪球 ×0–1。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:underminer",
+   "name_en": "Underminer",
+   "name_zh": "地底矿工",
+   "description_zh": "废弃矿井中罕见的幽灵居民，因处于灵体层面可穿墙行走，且只能被药水等魔法伤害伤到。只要不先攻击它，它不会伤害活人，但会因不信任而暂时消失；它会在矿井里用幽灵镐挖矿，虽挖不动方块，却能让周围的隐藏矿石显形；在它附近丢下某种矿石，它会开始寻找并开采遮挡该矿石的方块。被魔法杀死可能掉落幽灵镐；生命值 20 点、攻击力 3 点、移动速度 0.2，受击后会反击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，无独立掉落表。"
+  },
+  {
+   "mob_id": "alexsmobs:void_worm",
+   "name_en": "Void Worm",
+   "name_zh": "虚空蠕虫",
+   "description_zh": "栖息在末地之下虚空中的远古生物，被认为是能钻透现实的跨维度寄生虫；把“神秘蠕虫”丢进末地虚空即可把它引出。它会一次发射最多四颗追踪水晶、直接撕咬挡路者，还能凭空撕开传送门追向躲藏的猎物。战斗时只有头部受到重创才有效：身体节段重伤会熄灭，被打碎则整条虫分裂成两条生命减半、稍慢但伤害仍高的个体；生命值 160 点、攻击力 5 点、护甲 4 点、移动速度 0.3，会主动攻击。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴，该实体掉落表为空；含头/身多段实体。"
+  },
+  {
+   "mob_id": "alexsmobs:warped_mosco",
+   "name_en": "Warped Mosco",
+   "name_zh": "诡异蚊鬼",
+   "description_zh": "绯红蚊子吸食诡异菌类生物（尤其覆满诡异菌的）后的极危险变异体，转化完成后暴怒，把附近生物都当成食物，以庞大身躯撞击、拳击、砸击并吸血回复自身。击杀掉落诡异肌肉与血淋巴囊，可与其他材料合成血淋巴喷射器——血喷枪的升级版。生命值 100 点、攻击力 10 点、护甲 10 点、移动速度 0.3，会主动攻击，受击后会反击，击杀后掉落血淋巴囊 ×1–5；另有 70% 概率掉落诡异肌。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  },
+  {
+   "mob_id": "alexsmobs:warped_toad",
+   "name_en": "Warped Toad",
+   "name_zh": "诡异蟾蜍",
+   "description_zh": "下界诡异森林中罕见的大型两栖类，身上覆着发光的菌光体真菌，死亡有概率掉落。它擅长跳跃，在水中与岩浆中都能游泳；最爱的猎物是苍蝇与绯红蚊子，会以极快速度弹出舌头捕捉。因原生群系蚊子稀少，它会为绯红蚊子幼虫做任何事——用幼虫可驯服，之后能游荡、停留或跟随并保护主人；可用蛆治疗、用幼虫繁殖；生命值 30 点、攻击力 2 点、移动速度 0.2，会主动攻击，受击后会反击，击杀后掉落菌光体 ×0–1（50%）或下界疣 ×0–1（50%）。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alexs-mobs",
+   "confidence": 0.6,
+   "notes": "据 jar 源码（bakeAttributes/registerGoals）与数据文件（loot_tables）整理；生态描述取自 jar 内置动物图鉴。"
+  }
+ ]
+}

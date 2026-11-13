@@ -1,0 +1,37 @@
+{
+ "rank": 197,
+ "mod": "Cosmic Horror",
+ "mod_url": "https://modrinth.com/mod/cosmic-horror",
+ "mobs": [
+  {
+   "mob_id": "korkumodu:watcher",
+   "name_en": "Watcher",
+   "name_zh": "",
+   "description_zh": "会在远处静静注视玩家的白色身影：每名玩家周围同时出现若干只，站在固定距离外围观，玩家一靠近到一定距离就会消失，过一段时间再返回。当你没有看着它时，它会极缓慢地向你逼近，但永远不会真正触碰到你；击杀生物获得的 Awareness Orb 能提高其可见度。",
+   "source": "mod_body",
+   "source_url": "https://modrinth.com/mod/cosmic-horror",
+   "confidence": 0.65,
+   "notes": "模组正文仅笼统提到“从不该存在的地方静静观察你的生物”，具体距离、数量与消失/重生规则取自 jar 内配置文本（awareness 相关选项）。"
+  },
+  {
+   "mob_id": "korkumodu:doppelganger",
+   "name_en": "Doppelganger",
+   "name_zh": "",
+   "description_zh": "另一名玩家的无声复制体：在多人游戏中，当两名玩家相距足够远时，它会出现在观察者身后一段距离，并一路尾随；跟随一段时间后会迎来最终一幕。单人游戏不会自然触发，只能通过命令召唤。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/cosmic-horror",
+   "confidence": 0.5,
+   "notes": "资料有限：模组正文未提及该生物，描述取自 jar 内 doppelganger 配置说明（仅多人、跟随时长、生成距离）。"
+  },
+  {
+   "mob_id": "korkumodu:totem_reaper",
+   "name_en": "Death",
+   "name_zh": "",
+   "description_zh": "在不死图腾触发复活的一瞬间，图腾的动画会变成这个真实存在的生物，手里握着你的图腾；即使使用的是原版不死图腾，复活效果不受影响，它也会照常现身。玩家持有图腾的时间越长，它找上门的可能性越大。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/cosmic-horror",
+   "confidence": 0.5,
+   "notes": "资料有限：描述取自 jar 内 totemReaper / totemHeist 配置说明与语言文件，实体注册名为 totem_reaper、显示名为 Death。"
+  }
+ ]
+}

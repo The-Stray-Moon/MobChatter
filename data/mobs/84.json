@@ -1,0 +1,118 @@
+{
+ "rank": 84,
+ "mod": "Alshanex's Familiars",
+ "mod_url": "https://modrinth.com/mod/alshanexs-familiars",
+ "mobs": [
+  {
+   "mob_id": "alshanex_familiars:archmage_pet",
+   "name_en": "Archmage Familiar",
+   "name_zh": "大法师魔宠",
+   "description_zh": "生命值 30 点，在末地生成，会施展不同派系的基础魔法。它能把基座上的法术卷轴变成同稀有度的随机卷轴（小概率升到更高稀有度），末影人见到它会逃跑，它还能防御潜影贝的子弹；可用奥术布匹治疗。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/865237.html",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "alshanex_familiars:mage_pet",
+   "name_en": "Lightning Mage Familiar",
+   "name_zh": "雷霆术士魔宠",
+   "description_zh": "生命值 20 点，专精闪电魔法，会施放同时命中多个目标的法术，生成在高山。它能为主人充能一段时间、提升速度与力量，还会跟着苦力怕把它充能成闪电苦力怕；可用雷电瓶治疗。",
+   "source": "mcmod",
+   "source_url": "https://www.mcmod.cn/item/865236.html",
+   "confidence": 0.85,
+   "notes": ""
+  },
+  {
+   "mob_id": "alshanex_familiars:druid_pet",
+   "name_en": "Druid Familiar",
+   "name_zh": "德鲁伊魔宠",
+   "description_zh": "德鲁伊风格的魔宠，生成在森林类群系（jar 内生成标签为 #minecraft:is_forest）。可用奥术源质驯服，驯服后会跟随主人并用自身法术参战，能收进魔宠宝典、把宝典放进魔宠的床为其回血。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alshanexs-familiars",
+   "confidence": 0.5,
+   "notes": "正文只介绍魔宠通用机制，具体数值以 mcmod 页面缺失；生成群系据 jar 内 spawn_druid_pet 生成配置。"
+  },
+  {
+   "mob_id": "alshanex_familiars:hunter_pet",
+   "name_en": "Hunter Familiar",
+   "name_zh": "猎人魔宠",
+   "description_zh": "猎人风格的魔宠，生成在森林与针叶林类群系（jar 内生成标签含 is_forest 与 is_coniferous），是自然生成权重最高的魔宠。可用奥术源质驯服，会跟随主人用法术作战，也能收进魔宠宝典并由魔宠的床治疗。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alshanexs-familiars",
+   "confidence": 0.5,
+   "notes": "正文只介绍魔宠通用机制；生成群系与权重据 jar 内 spawn_hunter_pet 生成配置。"
+  },
+  {
+   "mob_id": "alshanex_familiars:necromancer_pet",
+   "name_en": "Necromancer Familiar",
+   "name_zh": "死灵法师魔宠",
+   "description_zh": "死灵法师风格的魔宠，生成在下界灵魂沙峡谷（jar 内生成配置为 minecraft:soul_sand_valley）。可用奥术源质驯服，驯服后跟随主人用法术作战，可收进魔宠宝典、放进魔宠的床回血，对应饰品为巫妖纹章项链。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alshanexs-familiars",
+   "confidence": 0.5,
+   "notes": "正文只介绍魔宠通用机制；生成群系与饰品据 jar 内配置与语言文件。"
+  },
+  {
+   "mob_id": "alshanex_familiars:scorcher_pet",
+   "name_en": "Scorcher Familiar",
+   "name_zh": "炽热魔宠",
+   "description_zh": "火焰风格的魔宠，生成在下界炎热群系（jar 内生成标签为 #forge:is_hot/nether）。可用奥术源质驯服，跟随主人施法作战，能收进魔宠宝典、放进魔宠的床回血，对应饰品为巫师烛台。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alshanexs-familiars",
+   "confidence": 0.5,
+   "notes": "正文只介绍魔宠通用机制；生成群系与饰品据 jar 内配置。"
+  },
+  {
+   "mob_id": "alshanex_familiars:summoner_pet",
+   "name_en": "Summoner Familiar",
+   "name_zh": "唤魔师魔宠",
+   "description_zh": "唤魔师风格的魔宠，生成在深暗之域（jar 内生成配置为 minecraft:deep_dark）。可用奥术源质驯服，跟随主人用法术作战，可收进魔宠宝典、放进魔宠的床回血，对应饰品为遗忘之冠。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alshanexs-familiars",
+   "confidence": 0.5,
+   "notes": "正文只介绍魔宠通用机制；生成群系与饰品据 jar 内配置。"
+  },
+  {
+   "mob_id": "alshanex_familiars:bard_pet",
+   "name_en": "Bard Familiar",
+   "name_zh": "吟游诗人魔宠",
+   "description_zh": "吟游诗人风格的魔宠，与模组新增的“音律（Sound）”流派法术、以及召唤的鸟和音符实体相关，对应饰品为失落旋律。jar 内没有它的群系生成配置，正文也只介绍魔宠通用机制（奥术源质驯服、宝典与魔宠床），资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alshanexs-familiars",
+   "confidence": 0.45,
+   "notes": "据 jar 内音律流派法术、饰品与语言文件；无生成配置，资料有限。"
+  },
+  {
+   "mob_id": "alshanex_familiars:cleric_pet",
+   "name_en": "Cleric Familiar",
+   "name_zh": "牧师魔宠",
+   "description_zh": "牧师风格的魔宠，对应饰品为祝福圣杯。jar 内没有它的群系生成配置，正文只介绍魔宠通用机制（奥术源质驯服、跟随施法、宝典与魔宠床回血），具体法术与数值资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alshanexs-familiars",
+   "confidence": 0.45,
+   "notes": "仅有实体注册、饰品与中英文名称，资料有限。"
+  },
+  {
+   "mob_id": "alshanex_familiars:illusionist_pet",
+   "name_en": "Illusionist Familiar",
+   "name_zh": "幻术师魔宠",
+   "description_zh": "幻术师风格的魔宠，能制造名为“幻术师的分身”的诱饵实体，对应饰品为金铃铛。jar 内没有它的群系生成配置，正文只介绍魔宠通用机制，具体法术与数值资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alshanexs-familiars",
+   "confidence": 0.45,
+   "notes": "据实体注册（含 decoy 分身）与饰品，资料有限。"
+  },
+  {
+   "mob_id": "alshanex_familiars:plague_pet",
+   "name_en": "Plague Doctor Familiar",
+   "name_zh": "瘟疫医生魔宠",
+   "description_zh": "瘟疫医生风格的魔宠，对应饰品为污秽芝士项链。jar 内没有它的群系生成配置，正文只介绍魔宠通用机制（奥术源质驯服、跟随施法、宝典与魔宠床回血），具体法术与数值资料有限。",
+   "source": "jar_data",
+   "source_url": "https://modrinth.com/mod/alshanexs-familiars",
+   "confidence": 0.45,
+   "notes": "仅有实体注册、饰品与中英文名称，资料有限。"
+  }
+ ],
+ "note": "每只魔宠另有 sleeping_* 睡眠状态实体，为同一生物的不同状态，未重复列出；summoned_angel / blue_bird / summoned_shadow / decoy / healing_circle / 音符 / 尾声等为法术召唤物或特效实体，不计入生物。"
+}

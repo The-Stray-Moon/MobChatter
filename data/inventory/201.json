@@ -1,0 +1,910 @@
+{
+ "rank": 201,
+ "mod": "Brazilian Expansion",
+ "slug": "brazilian-expansion",
+ "project_id": "RiPCPYr5",
+ "source_url": "https://modrinth.com/mod/brazilian-expansion",
+ "jar": "D:\\work\\MobChatter\\data\\jars\\RiPCPYr5.jar",
+ "jar_size": 30948584,
+ "modid": "brazilian_expansion",
+ "entity_count": 112,
+ "mob_count": 110,
+ "entities": [
+  {
+   "key": "entity.brazilian_expansion.all.command_1",
+   "id": "command_1",
+   "en": "%s is following",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.all.command_2",
+   "id": "command_2",
+   "en": "%s is staying",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.all.command_0",
+   "id": "command_0",
+   "en": "%s is wandering",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arowana.variant_albino",
+   "id": "variant_albino",
+   "en": "Albino Arowana",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arrau.variant_albino",
+   "id": "variant_albino",
+   "en": "Albino Arrau Turtle",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.matamata.variant_albino",
+   "id": "variant_albino",
+   "en": "Albino Mata-Mata",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.apaiari.variant_albino",
+   "id": "variant_albino",
+   "en": "Albino Oscar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.payara.variant_albino",
+   "id": "variant_albino",
+   "en": "Albino Payara",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arraiamotoro.variant_albino",
+   "id": "variant_albino",
+   "en": "Albino Peacock-Eye Stingray",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.piranha.variant_albino",
+   "id": "variant_albino",
+   "en": "Albino Piranha",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.tambaqui.variant_albino",
+   "id": "variant_albino",
+   "en": "Albino Tambaqui",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.boto",
+   "id": "boto",
+   "en": "Amazon River Dolphin",
+   "zh": "",
+   "loot_table": "boto",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.manatee",
+   "id": "manatee",
+   "en": "Amazonian Manatee",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.anaconda",
+   "id": "anaconda",
+   "en": "Anaconda",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arowana",
+   "id": "arowana",
+   "en": "Arowana",
+   "zh": "",
+   "loot_table": "arowana",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arrau_turtle",
+   "id": "arrau_turtle",
+   "en": "Arrau Turtle",
+   "zh": "",
+   "loot_table": "arrau_turtle",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arowana.variant_axanthic",
+   "id": "variant_axanthic",
+   "en": "Axanthic Arowana",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arraiamotoro.variant_axanthic",
+   "id": "variant_axanthic",
+   "en": "Axanthic Peacock-Eye Stingray",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arowana.variant_black",
+   "id": "variant_black",
+   "en": "Black Arowana",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arraiamotoro.variant_black_dragon",
+   "id": "variant_black_dragon",
+   "en": "Black Dragon Peacock-Eye Stingray",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.matamata.variant_black",
+   "id": "variant_black",
+   "en": "Black Mata-Mata",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.apaiari.variant_black_tiger_albino",
+   "id": "variant_black_tiger_albino",
+   "en": "Black Tiger Albino Oscar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.apaiari.variant_black_tiger_longtail",
+   "id": "variant_black_tiger_longtail",
+   "en": "Black Tiger Longtail Oscar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.apaiari.variant_black_tiger",
+   "id": "variant_black_tiger",
+   "en": "Black Tiger Oscar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.piranha.variant_blood",
+   "id": "variant_blood",
+   "en": "Blood-Bellied Piranha",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.mod_chest_boat",
+   "id": "mod_chest_boat",
+   "en": "Boat with Chest",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.brazilian_expansion.nut_chest_boat",
+   "id": "nut_chest_boat",
+   "en": "Boat with Chest",
+   "zh": "",
+   "loot_table": "",
+   "projectile": true
+  },
+  {
+   "key": "entity.brazilian_expansion.tapir",
+   "id": "tapir",
+   "en": "Brazilian Tapir",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.tucunare",
+   "id": "tucunare",
+   "en": "Brazilian Tucunaré",
+   "zh": "",
+   "loot_table": "tucunare",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.tucunare.variant_acu",
+   "id": "variant_acu",
+   "en": "Brazilian Tucunaré Açu",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.brocket_deer",
+   "id": "brocket_deer",
+   "en": "Brocket Deer",
+   "zh": "",
+   "loot_table": "brocket_deer",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.poraque.variant_brown",
+   "id": "variant_brown",
+   "en": "Brown Electric Eel",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.matamata.variant_brown",
+   "id": "variant_brown",
+   "en": "Brown Mata-Mata",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arraiamotoro.variant_brown",
+   "id": "variant_brown",
+   "en": "Brown Peacock-Eye Stingray",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.apaiari.variant_bumblebee_albino",
+   "id": "variant_bumblebee_albino",
+   "en": "Bumblebee Albino Oscar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.apaiari.variant_bumblebee",
+   "id": "variant_bumblebee",
+   "en": "Bumblebee Oscar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.surucucu",
+   "id": "surucucu",
+   "en": "Bushmaster",
+   "zh": "",
+   "loot_table": "surucucu",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.garca_real",
+   "id": "garca_real",
+   "en": "Capped Heron",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.capivara",
+   "id": "capivara",
+   "en": "Capybara",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arowana.variant_cereal",
+   "id": "variant_cereal",
+   "en": "Cereal Bar Arowana",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.quati",
+   "id": "quati",
+   "en": "Coati",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.apaiari.variant_copper",
+   "id": "variant_copper",
+   "en": "Copper Oscar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.piranha_corrupted",
+   "id": "piranha_corrupted",
+   "en": "Corrupted Piranha",
+   "zh": "",
+   "loot_table": "piranha_corrupted",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.poraque.variant_dark",
+   "id": "variant_dark",
+   "en": "Dark Electric Eel",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.payara.variant_dark",
+   "id": "variant_dark",
+   "en": "Dark Payara",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.piranha.variant_dark",
+   "id": "variant_dark",
+   "en": "Dark Piranha",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.dwarf_caiman",
+   "id": "dwarf_caiman",
+   "en": "Dwarf Caiman",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.poraque",
+   "id": "poraque",
+   "en": "Electric Eel",
+   "zh": "",
+   "loot_table": "poraque",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.apaiari.variant_extremely_red",
+   "id": "variant_extremely_red",
+   "en": "Extremely Red Oscar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.ariranha",
+   "id": "ariranha",
+   "en": "Giant Otter",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arowana.variant_gold",
+   "id": "variant_gold",
+   "en": "Gold Arowana",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.apaiari.variant_gold",
+   "id": "variant_gold",
+   "en": "Gold Oscar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arraiamotoro.variant_gold",
+   "id": "variant_gold",
+   "en": "Golden Drops Peacock-Eye Stingray",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arowana.variant_gray",
+   "id": "variant_gray",
+   "en": "Gray Arowana",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arrau.variant_gray",
+   "id": "variant_gray",
+   "en": "Gray Arrau Turtle",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.apaiari.variant_green",
+   "id": "variant_green",
+   "en": "Green Oscar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.payara.variant_green",
+   "id": "variant_green",
+   "en": "Green Payara",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arraiamotoro.variant_green",
+   "id": "variant_green",
+   "en": "Green Peacock-Eye Stingray",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.iguana",
+   "id": "iguana",
+   "en": "Iguana",
+   "zh": "",
+   "loot_table": "iguana",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.jaguar",
+   "id": "jaguar",
+   "en": "Jaguar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.jararaca",
+   "id": "jararaca",
+   "en": "Lancehead Viper",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.apaiari.variant_limon",
+   "id": "variant_limon",
+   "en": "Lemon Oscar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.tambaqui.variant_limon",
+   "id": "variant_limon",
+   "en": "Lemon Tambaqui",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arowana.variant_leucistic",
+   "id": "variant_leucistic",
+   "en": "Leucistic Arowana",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arraiamotoro.variant_leucistic",
+   "id": "variant_leucistic",
+   "en": "Leucistic Peacock-Eye Stingray",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.tambaqui.variant_leucistic",
+   "id": "variant_leucistic",
+   "en": "Leucistic Tambaqui",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arrau.variant_light",
+   "id": "variant_light",
+   "en": "Light Arrau Turtle",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.poraque.variant_light",
+   "id": "variant_light",
+   "en": "Light Electric Eel",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.tambaqui.variant_light",
+   "id": "variant_light",
+   "en": "Light Tambaqui",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.piraputanga.variant_lime",
+   "id": "variant_lime",
+   "en": "Lime Piraputanga",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.mapinguari",
+   "id": "mapinguari",
+   "en": "Mapinguari",
+   "zh": "",
+   "loot_table": "mapinguari",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.matamata",
+   "id": "matamata",
+   "en": "Mata-Mata",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.matamata.variant_melanistic",
+   "id": "variant_melanistic",
+   "en": "Melanistic Mata-Mata",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.apaiari.variant_melanistic",
+   "id": "variant_melanistic",
+   "en": "Melanistic Oscar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.payara.variant_melanistic",
+   "id": "variant_melanistic",
+   "en": "Melanistic Payara",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arraiamotoro.variant_melanistic",
+   "id": "variant_melanistic",
+   "en": "Melanistic Peacock-Eye Stingray",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.tambaqui.variant_melanistic",
+   "id": "variant_melanistic",
+   "en": "Melanistic Tambaqui",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.poraque.variant_murky",
+   "id": "variant_murky",
+   "en": "Murky Electric Eel",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.jaguatirica",
+   "id": "jaguatirica",
+   "en": "Ocelot",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arowana.variant_onix",
+   "id": "variant_onix",
+   "en": "Onyx Arowana",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arrau.variant_orange",
+   "id": "variant_orange",
+   "en": "Orange Arrau Turtle",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.poraque.variant_orange",
+   "id": "variant_orange",
+   "en": "Orange Electric Eel",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.matamata.variant_orange",
+   "id": "variant_orange",
+   "en": "Orange Mata-Mata",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.gaviao",
+   "id": "gaviao",
+   "en": "Ornate Hawk-Eagle",
+   "zh": "",
+   "loot_table": "gaviao",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.apaiari",
+   "id": "apaiari",
+   "en": "Oscar",
+   "zh": "",
+   "loot_table": "apaiari",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.piraputanga.variant_pale",
+   "id": "variant_pale",
+   "en": "Pale Piraputanga",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.payara",
+   "id": "payara",
+   "en": "Payara",
+   "zh": "",
+   "loot_table": "payara",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arraiamotoro",
+   "id": "arraiamotoro",
+   "en": "Peacock-Eye Stingray",
+   "zh": "",
+   "loot_table": "arraiamotoro",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arowana.variant_piebald",
+   "id": "variant_piebald",
+   "en": "Piebald Arowana",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.piranha",
+   "id": "piranha",
+   "en": "Piranha",
+   "zh": "",
+   "loot_table": "piranha",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.piraputanga",
+   "id": "piraputanga",
+   "en": "Piraputanga",
+   "zh": "",
+   "loot_table": "piraputanga",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.apaiari.variant_red_ruby",
+   "id": "variant_red_ruby",
+   "en": "Red Ruby Oscar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.apaiari.variant_red_tiger_mosaic",
+   "id": "variant_red_tiger_mosaic",
+   "en": "Red Tiger Mosaic Oscar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.piranha.variant_red",
+   "id": "variant_red",
+   "en": "Red-Bellied Piranha",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arowana.variant_silver",
+   "id": "variant_silver",
+   "en": "Silver Arowana",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.apaiari.variant_silver",
+   "id": "variant_silver",
+   "en": "Silver Oscar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.payara.variant_silver",
+   "id": "variant_silver",
+   "en": "Silver Payara",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.tambaqui",
+   "id": "tambaqui",
+   "en": "Tambaqui",
+   "zh": "",
+   "loot_table": "tambaqui",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.irara",
+   "id": "irara",
+   "en": "Tayra",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.tegu",
+   "id": "tegu",
+   "en": "Tegu",
+   "zh": "",
+   "loot_table": "tegu",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.apaiari.variant_tiger_albino",
+   "id": "variant_tiger_albino",
+   "en": "Tiger Albino Oscar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arraiamotoro.variant_tiger_eye",
+   "id": "variant_tiger_eye",
+   "en": "Tiger Eye Peacock-Eye Stingray",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.apaiari.variant_tiger_longtail",
+   "id": "variant_tiger_longtail",
+   "en": "Tiger Longtail Oscar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.apaiari.variant_tiger",
+   "id": "variant_tiger",
+   "en": "Tiger Oscar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.piranha_corrupted.variant_red",
+   "id": "variant_red",
+   "en": "Unknown Specimen!",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.piraputanga.variant_vivid",
+   "id": "variant_vivid",
+   "en": "Vivid Piraputanga",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.apaiari.variant_white_tiger",
+   "id": "variant_white_tiger",
+   "en": "White Tiger Oscar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arraiamotoro.variant_white_black",
+   "id": "variant_white_black",
+   "en": "White-Black Peacock-Eye Stingray",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.queixada",
+   "id": "queixada",
+   "en": "White-Lipped Peccary",
+   "zh": "",
+   "loot_table": "queixada",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.apaiari.variant_wild",
+   "id": "variant_wild",
+   "en": "Wild Oscar",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arowana.variant_xantocromatisc",
+   "id": "variant_xantocromatisc",
+   "en": "Xanthochromic Arowana",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  },
+  {
+   "key": "entity.brazilian_expansion.arraiamotoro.variant_xanthochromatism",
+   "id": "variant_xanthochromatism",
+   "en": "Xanthochromic Peacock-Eye Stingray",
+   "zh": "",
+   "loot_table": "",
+   "projectile": false
+  }
+ ]
+}
