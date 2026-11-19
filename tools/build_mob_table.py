@@ -18,7 +18,7 @@ sys.path.insert(0, str(ROOT))
 from mobchat.config import DATA_DIR, OUTPUT_DIR  # noqa: E402
 
 REQUIRED = ("mob_id", "name_en", "description_zh", "source")
-ALLOWED_SOURCES = {"vanilla", "mod_body", "wiki", "jar_data", "pokeapi"}
+ALLOWED_SOURCES = {"vanilla", "mod_body", "wiki", "jar_data"}
 LEGACY_SOURCES = {"mcmod"}
 COLUMNS = [
     "mod_rank", "mod_name", "mod_url", "mob_id", "name_en", "name_zh",
@@ -141,13 +141,12 @@ def main() -> int:
                 "wiki": counts.get("wiki", 0),
                 "mcmod": counts.get("mcmod", 0),
                 "jar_data": counts.get("jar_data", 0),
-                "pokeapi": counts.get("pokeapi", 0),
             }
         )
     summary_rows.sort(key=lambda r: int(r["mod_rank"] or 0))
     write_csv(
         OUTPUT_DIR / "mod_mob_summary.csv",
-        ["mod_rank", "mod_name", "mod_url", "mob_count", "vanilla", "mod_body", "wiki", "mcmod", "jar_data", "pokeapi"],
+        ["mod_rank", "mod_name", "mod_url", "mob_count", "vanilla", "mod_body", "wiki", "mcmod", "jar_data"],
         summary_rows,
     )
 

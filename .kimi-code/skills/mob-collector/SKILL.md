@@ -85,7 +85,7 @@ python tools/mob_inventory.py --range 12-20
 - 下载对应版本的 jar 到 `data/jars/<project_id>.jar`（只读缓存）。
 - 读 `assets/*/lang/en_us.json` 与 `zh_cn.json` 的 `entity.*` 键，得到模组真实注册的实体，输出 `data/inventory/<rank>.json`。
 - 投掷物/船/矿车等用 `projectile` 标记，最终表排除。
-- 大型整合型模组（如 Pixelmon）可能只有一个实体类型，物种在 `data/<modid>/...` 里，需单独枚举。
+- 大型整合型模组可能只有一个实体类型，物种写在 `data/<modid>/...` 里，需要单独枚举。
 
 ## 步骤 6：逐生物研究（可并行）
 
@@ -98,7 +98,7 @@ python tools/mob_inventory.py --range 12-20
 3. **jar 源码与数据文件**：`javap` 读 `createAttributes` / `registerGoals`；读 `forge/biome_modifier/*.json` 的生成群系；读 `loot_tables/entities/*.json` 的掉落；读实体碰撞箱与刷怪蛋。
 4. 没有资料时写“资料有限”，`confidence ≤ 0.5`，不得编造。
 
-大名单（>150 个生物）必须写脚本批量处理；Pixelmon 走 PokéAPI（`pokeapi.co`，`zh-Hans`）。
+大名单（>150 个生物）必须写脚本批量处理。
 
 每个模组输出 `data/mobs/<rank>.json`：
 
@@ -109,7 +109,7 @@ python tools/mob_inventory.py --range 12-20
            "confidence": 0.9, "notes": ""}]}
 ```
 
-`source` 只能是 `mod_body` / `wiki` / `jar_data` / `pokeapi`。
+`source` 只能是 `mod_body` / `wiki` / `jar_data`。
 
 ## 步骤 7：合并与校验
 

@@ -28,7 +28,7 @@ confidence 为 0-1 的小数。results 必须覆盖所有输入项，i 与输入
 
 MOB_KEYWORDS = {
     "mob", "creature", "animal", "monster", "boss", "beast", "dragon", "pet", "npc",
-    "pokemon", "digimon", "yokai", "kaiju", "dinosaur", "dino", "insect", "bird",
+    "digimon", "yokai", "kaiju", "dinosaur", "dino", "insect", "bird",
     "fish", "wildlife", "fauna", "bestiary", "wyvern", "goblin", "orc", "fairy",
     "slime", "golem", "demon", "undead", "spider", "zombie", "skeleton", "raven",
     "golem", "phoenix", "griffin", "mermaid", "vampire", "werewolf", "alien",

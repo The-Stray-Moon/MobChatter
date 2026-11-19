@@ -32,7 +32,7 @@ Creature chatter bubbles rendered above mobs.
 - 第一行正常白色；新台词进入时，上一句被挤到第二行，缩小到 0.8 倍并降到 55% 不透明度。
 - 每句有固定显示时长和淡出时间，均在 `config/mobchatter-common.toml` 的 `[display]` 中调整。
 - 触发情景：行走、呆立、看向玩家、受伤（含 9 种伤害类型）、被食物吸引、与玩家碰撞、交配、拾取物品、锁定目标瞬间、索敌中、近战挥击、生成。
-- 台词资源来自 `common/src/main/resources/assets/mobchatter/dialogue.json.gz`，覆盖 7,527 个实体、约 115 万句中英对照；默认显示中文，可在配置中改为英文。
+- 台词资源来自 `common/src/main/resources/assets/mobchatter/dialogue.json.gz`，覆盖 6,507 个实体、约 100 万句中英对照；默认显示中文，可在配置中改为英文。
 
 主要配置项：
 

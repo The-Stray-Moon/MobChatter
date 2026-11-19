@@ -75,7 +75,6 @@ RULES = [
     ("horror_stalker", ("horror", "stalker", "恐怖", "dweller", "scp", "creepy", "nightmare", "anomaly", "entity", "实体")),
     ("dragon", ("dragon", "wyvern", "drake", "龙", "飞龙")),
     ("digimon", ("digimon", "数码兽", "数码宝贝")),
-    ("pokemon", ("pokemon", "宝可梦", "精灵宝可梦")),
     ("prehistoric", ("dinosaur", "prehistoric", "jurassic", "mammoth", "恐龙", "史前", "猛犸", "古生物")),
     ("aquatic", ("fish", "shark", "squid", "whale", "dolphin", "aquatic", "ocean", "sea", "鱼", "鲨", "鲸", "鱿", "海", "水母", "蟹", "虾")),
     ("flying", ("bird", "bat", "bee", "moth", "butterfly", "wasp", "鸟", "蝠", "蜂", "蝶", "蛾", "翼")),
@@ -106,7 +105,7 @@ SOUNDS = {
     "end": "嗡鸣", "illager": "嘿", "boss": "轰鸣", "golem_construct": "吱呀",
     "horror_stalker": "低语", "dragon": "龙吟", "insect_arthropod": "窸窣",
     "plant_nature": "沙沙", "npc_villager": "嗯", "mechanical_tech": "滴滴",
-    "magic_spirit": "呢喃", "prehistoric": "低鸣", "pokemon": "呜哇",
+    "magic_spirit": "呢喃", "prehistoric": "低鸣",
     "digimon": "嘀", "humanoid_warrior": "哼", "slime_gel": "啪叽", "joke_meme": "哈",
 }
 
@@ -116,7 +115,7 @@ SOUNDS_EN = {
     "end": "hum", "illager": "hey", "boss": "rumble", "golem_construct": "creak",
     "horror_stalker": "whisper", "dragon": "roar", "insect_arthropod": "skitter",
     "plant_nature": "rustle", "npc_villager": "hm", "mechanical_tech": "beep",
-    "magic_spirit": "murmur", "prehistoric": "low rumble", "pokemon": "waha",
+    "magic_spirit": "murmur", "prehistoric": "low rumble",
     "digimon": "beep", "humanoid_warrior": "huff", "slime_gel": "splat", "joke_meme": "ha",
 }
 MOTIFS_EN = {
@@ -125,7 +124,7 @@ MOTIFS_EN = {
     "end": "purple particles", "illager": "banner", "boss": "throne", "golem_construct": "iron blocks",
     "horror_stalker": "shadow", "dragon": "scales", "insect_arthropod": "carapace",
     "plant_nature": "petals", "npc_villager": "shelves", "mechanical_tech": "gears",
-    "magic_spirit": "runes", "prehistoric": "fossils", "pokemon": "Poké Ball",
+    "magic_spirit": "runes", "prehistoric": "fossils",
     "digimon": "data", "humanoid_warrior": "sword", "slime_gel": "goo", "joke_meme": "meme",
 }
 FOODS_EN = {
@@ -134,7 +133,7 @@ FOODS_EN = {
     "end": "chorus fruit", "illager": "bread", "boss": "offerings", "golem_construct": "iron ingots",
     "horror_stalker": "fear", "dragon": "prey", "insect_arthropod": "leaves",
     "plant_nature": "sunlight", "npc_villager": "bread", "mechanical_tech": "batteries",
-    "magic_spirit": "incense", "prehistoric": "fern leaves", "pokemon": "berries",
+    "magic_spirit": "incense", "prehistoric": "fern leaves",
     "digimon": "data", "humanoid_warrior": "rations", "slime_gel": "sugar", "joke_meme": "snacks",
 }
 HABITATS_EN = {
@@ -143,7 +142,7 @@ HABITATS_EN = {
     "end": "the End", "illager": "camp", "boss": "lair", "golem_construct": "village",
     "horror_stalker": "darkness", "dragon": "mountains", "insect_arthropod": "undergrowth",
     "plant_nature": "woods", "npc_villager": "village", "mechanical_tech": "factory",
-    "magic_spirit": "altar", "prehistoric": "wilds", "pokemon": "the wilds",
+    "magic_spirit": "altar", "prehistoric": "wilds",
     "digimon": "the digital world", "humanoid_warrior": "battlefield", "slime_gel": "caves", "joke_meme": "the internet",
 }
 PREY_EN = {"hostile": "you", "passive": "bugs"}
@@ -153,7 +152,7 @@ MOTIFS = {
     "end": "紫色粒子", "illager": "旗帜", "boss": "王座", "golem_construct": "铁块",
     "horror_stalker": "影子", "dragon": "鳞甲", "insect_arthropod": "甲壳",
     "plant_nature": "花瓣", "npc_villager": "货架", "mechanical_tech": "齿轮",
-    "magic_spirit": "符文", "prehistoric": "化石", "pokemon": "精灵球",
+    "magic_spirit": "符文", "prehistoric": "化石",
     "digimon": "数据", "humanoid_warrior": "佩剑", "slime_gel": "黏液", "joke_meme": "梗",
 }
 
@@ -163,7 +162,7 @@ FOODS = {
     "end": "紫颂果", "illager": "面包", "boss": "供品", "golem_construct": "铁锭",
     "horror_stalker": "恐惧", "dragon": "猎物", "insect_arthropod": "叶子",
     "plant_nature": "阳光", "npc_villager": "面包", "mechanical_tech": "电池",
-    "magic_spirit": "香火", "prehistoric": "蕨叶", "pokemon": "树果",
+    "magic_spirit": "香火", "prehistoric": "蕨叶",
     "digimon": "数据", "humanoid_warrior": "干粮", "slime_gel": "糖", "joke_meme": "零食",
 }
 
@@ -173,7 +172,7 @@ HABITATS = {
     "end": "末地", "illager": "营地", "boss": "巢穴", "golem_construct": "村庄",
     "horror_stalker": "黑暗", "dragon": "山峰", "insect_arthropod": "草丛",
     "plant_nature": "林地", "npc_villager": "村庄", "mechanical_tech": "工厂",
-    "magic_spirit": "祭坛", "prehistoric": "荒野", "pokemon": "野外",
+    "magic_spirit": "祭坛", "prehistoric": "荒野",
     "digimon": "数据世界", "humanoid_warrior": "战场", "slime_gel": "洞穴", "joke_meme": "网络",
 }
 
@@ -255,8 +254,6 @@ def classify(row: dict, theme: str = "") -> str:
     mob_id = row["mob_id"]
     if mob_id.startswith("minecraft:"):
         return VANILLA_ARCHETYPE.get(mob_id.split(":", 1)[1], "passive_herbivore")
-    if row["mod_name"] == "Pixelmon":
-        return "pokemon"
     if row["mod_name"] == "The Digimod":
         return "digimon"
     text = f"{row['name_en']} {row['description_zh']}".lower()
@@ -475,7 +472,7 @@ def main() -> int:
         return 2
 
     intro_map = {}
-    with (OUTPUT_DIR / "top313_mob_mods.csv").open(encoding="utf-8-sig") as handle:
+    with (OUTPUT_DIR / "top308_mob_mods.csv").open(encoding="utf-8-sig") as handle:
         for rec in csv.DictReader(handle):
             intro_map[int(rec["rank"])] = rec.get("intro_zh") or rec.get("summary") or ""
 

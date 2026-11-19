@@ -28,7 +28,7 @@ from mobchat.http import HttpClient  # noqa: E402
 
 JARS = DATA_DIR / "jars"
 INVENTORY = DATA_DIR / "inventory"
-ROWS = ROOT / "output" / "top313_mob_mods.csv"
+ROWS = ROOT / "output" / "top308_mob_mods.csv"
 
 PROJECTILE_HINTS = (
     "arrow", "projectile", "fireball", "snowball", "egg", "boat", "minecart",

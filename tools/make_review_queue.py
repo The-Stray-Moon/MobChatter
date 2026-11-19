@@ -23,7 +23,7 @@ from mobchat.config import DATA_DIR  # noqa: E402
 STRONG = {
     "mob", "mobs", "creature", "creatures", "animal", "animals", "monster", "monsters",
     "boss", "bosses", "beast", "beasts", "pet", "pets", "dragon", "dragons", "npc",
-    "wildlife", "fauna", "bestiary", "pokemon", "digimon", "yokai", "kaiju", "dinosaur",
+    "wildlife", "fauna", "bestiary", "digimon", "yokai", "kaiju", "dinosaur",
     "zombie", "skeleton", "spider", "slime", "golem", "demon", "undead", "wyvern",
     "goblin", "orc", "fairy", "vampire", "werewolf", "mermaid", "griffin", "phoenix",
     "insect", "bugs", "fish", "birds", "shark", "whale", "snake", "lizard", "frog",

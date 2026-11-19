@@ -29,7 +29,11 @@ def main() -> int:
                     for damage, lines in (payload.get("by_damage") or {}).items():
                         buckets[f"hurt.{damage}"] = lines
                 else:
-                    buckets = {scenario: payload.get("lines", [])}
+                    # mods/*.json from build_dialogue.py use {"lines": [...]};
+                    # unique batches merged by merge_unique_dialogue.py keep the
+                    # same shape, but tolerate a bare list from older files.
+                    buckets = {scenario: payload if isinstance(payload, list)
+                               else payload.get("lines", [])}
                 for key, lines in buckets.items():
                     pairs = target.setdefault(key, [])
                     seen = {(p[0], p[1]) for p in pairs}

@@ -1,6 +1,6 @@
 # MobChatter — Minecraft 1.20.1 Forge「新增生物」模组榜单
 
-收集 **Minecraft 1.20.1 + Forge 可用 + 新增了原版没有的生物** 的模组，按热度降序输出全部命中（当前 313 条，Cobblemon 已按配置排除）。
+收集 **Minecraft 1.20.1 + Forge 可用 + 新增了原版没有的生物** 的模组，按热度降序输出全部命中（当前 308 条）。
 
 实现原则：**API 负责拉全量候选和热度排序，AI 只负责"这条描述是否新增生物"的判定**。所有中间结果、原始响应、日志、判定理由都落在本地，可重跑、可审计。
 
@@ -31,17 +31,16 @@
 |---|---|
 | Modrinth 拉取 + 1.20.1 Forge 校验 | **已完成**：广度池前 3000 + `mobs` 分类前 1500，去重后 **3990 条候选**，逐项目校验 1.20.1 Forge 文件 |
 | CurseForge 拉取 | **未执行** — `.env` 里的 `CURSEFORGE_TOKEN` 是发布 token，官方数据 API 返回 403；网页接口被 Cloudflare 拦截 |
-| 判定 | **已完成**：按下载量顺序人工/Agent 逐条判定前 750 条，命中 **314 个新增生物模组**，`method=agent-manual` |
-| 去重 / 排序 / 导出 | **已完成**：314 个命中，排除 Cobblemon 后导出 **313 条**，末位下载量 43,462 |
-| 逐生物资料表 | **已完成**：313 个模组 + Minecraft 26.1 原版，**7,618 个生物**（见第 10 节） |
-| 逐生物台词表 | **已完成**：7,618 个生物 × 12 个情景，**1,156,546 句**中英对照（见第 11 节） |
+| 判定 | **已完成**：按下载量顺序人工/Agent 逐条判定前 750 条，命中 **309 个新增生物模组**，`method=agent-manual` |
+| 去重 / 排序 / 导出 | **已完成**：309 个命中，导出 **308 条**，末位下载量 43,462 |
+| 逐生物资料表 | **已完成**：308 个模组 + Minecraft 26.1 原版，**6,598 个生物**（见第 10 节） |
+| 逐生物台词表 | **已完成**：6,598 个生物 × 12 个情景，**1,156,546 句**中英对照（见第 11 节） |
 
-榜单第 1 名 `Alex's Mobs`（15.7M），第 313 名 `Arachnids`（43.5k）。313 条全部是 `agent-manual` 判定，逐条 URL 抽检可用。
+榜单第 1 名 `Alex's Mobs`（15.7M），末位 `Arachnids`（43.5k）；共 308 条，排名沿用采集编号，中间存在空号。全部是 `agent-manual` 判定，逐条 URL 抽检可用。
 
 几点说明：
 
-- 广度池（前 3000）密度低，`mobs` 分类池（前 1500）密度高得多，两者合并后 750 条人工判定里出了 314 个正例，全部导出（不再截断到 200）。
-- `Cobblemon` 本体按 `output.exclude` 排除；它的附属模组（如 `Cobblemon: Legends Untold`、`Cobblemon Alatia's Fakemon Pack`）是独立项目，仍保留。要把整个 Cobblemon 生态排除，把关键词加进 `output.exclude` 即可（名称精确匹配）。
+- 广度池（前 3000）密度低，`mobs` 分类池（前 1500）密度高得多，两者合并后 750 条人工判定里出了 309 个正例，全部导出（不再截断到 200）。
 - 判定过程中实测并修正了 6 条边界误判：`Nullscape`（纯世界生成）、`Alien Evolution`（玩家变身）、`When Dungeons Arise: Seven Seas`（船只结构）、`Spider Caves`（仅生物群系+装备）、`Under the Moon`（仅生物群系）、`Create: Biotech`（把原版生物接进机器，不加新生物）。判断依据都写进了各自标签的 `evidence`。
 - 队列第 750 条之后的候选没有逐条人工判定，`all_candidates.csv` 只含已判定正例；继续往下挖还能补出更多（下载量更低）。
 
@@ -86,7 +85,7 @@
 | `http.min_interval` | 0.2 | 全局请求最小间隔（秒），限速用 |
 | `http.cache_ttl_hours` | 168 | 缓存有效期 |
 | `output.top_n` | 0 | 导出条数，`0` = 全部 |
-| `output.exclude` | `[]` | 按名称精确排除的模组，如 `["Cobblemon"]` |
+| `output.exclude` | `[]` | 按名称精确排除的模组 |
 | `output.min_confidence` | 0.5 | LLM 判定低于此置信度的正例丢弃 |
 
 ---
@@ -198,10 +197,10 @@ python -m mobchat.run build
 
 | 文件 | 内容 |
 |---|---|
-| `output/top313_mob_mods.csv` | 最终榜单（UTF-8 BOM，Excel 可直接打开；文件名里的数字是实际条数） |
-| `output/top313_mob_mods.json` | 同上，结构化版本（列表字段保留为数组） |
+| `output/top308_mob_mods.csv` | 最终榜单（UTF-8 BOM，Excel 可直接打开；文件名里的数字是实际条数） |
+| `output/top308_mob_mods.json` | 同上，结构化版本（列表字段保留为数组） |
 | `output/all_candidates.csv` | 所有判定通过的模组（排除名单生效后），与榜单同序 |
-| `output/mob_descriptions.csv` | 逐生物资料表：模组 × 生物 × 中文介绍 × 来源（7,618 行） |
+| `output/mob_descriptions.csv` | 逐生物资料表：模组 × 生物 × 中文介绍 × 来源（6,598 行） |
 | `output/mob_descriptions.json` | 同上，结构化版本 |
 | `output/mod_mob_summary.csv` | 每个模组的生物数量与各来源计数（关系映射的汇总视图） |
 | `output/mob_index.json` | `模组排名 → 生物 id 列表` 的关系映射 |
@@ -210,7 +209,7 @@ python -m mobchat.run build
 | `data/candidates.json` | 已通过 1.20.1 Forge 校验的候选池 |
 | `data/classified.json` | 逐条判定结果（按 `source:source_id` 索引，可续跑） |
 | `data/intro_zh.json` | 模组名 → 完整中文简介（按项目正文逐条撰写，`build` 时写入榜单） |
-| `data/mod_bodies.json` | 313 个模组的项目正文快照（清洗后保留 4000 字），简介的事实来源 |
+| `data/mod_bodies.json` | 308 个模组的项目正文快照（清洗后保留 4000 字），简介的事实来源 |
 | `data/raw/*.json` | 原始 API 响应快照（搜索页、校验结果） |
 | `data/cache/` | 按 URL 哈希的响应缓存，可安全删除以强制刷新 |
 | `data/run_meta.json` | 最近一次运行的命令、时间、脱敏后的配置、各阶段计数 |
@@ -276,13 +275,13 @@ MobChatter/
 │   ├── make_review_queue.py   # 生成人工判定队列（分块可读）
 │   ├── decisions_to_labels.py # 紧凑决策文件转标签 JSONL
 │   ├── apply_labels.py        # 把人工标签合并进 classified.json
-│   ├── fetch_bodies.py        # 抓取 313 个模组的项目正文（简介事实来源）
+│   ├── fetch_bodies.py        # 抓取 308 个模组的项目正文（简介事实来源）
 │   ├── mob_inventory.py       # 下载 jar 并从语言文件提取生物清单
 │   ├── build_vanilla.py       # 26.1 原版生物表（客户端 jar + 中文 wiki）
 │   ├── build_dialogue.py      # 按类别模板与权重合成逐生物台词
 │   └── build_mob_table.py     # 合并逐生物资料，生成关系映射与汇总
 ├── data/                    # 缓存、原始快照、候选池、判定结果、日志、复核队列
-│   ├── jars/                # 313 个 1.20.1 Forge jar（只读，可删）
+│   ├── jars/                # 309 个 1.20.1 Forge jar（只读，可删）
 │   ├── inventory/           # 每个模组的实体清单（语言文件提取）
 │   ├── mobs/                # 每个模组的逐生物资料（批次产出）
 │   ├── dialogue/            # 类别定义、模板句库、逐模组台词
@@ -298,10 +297,10 @@ MobChatter/
 
 | 文件 | 内容 |
 |---|---|
-| `output/mob_descriptions.csv` | 7,618 行，一行一个（模组, 生物）关系 |
+| `output/mob_descriptions.csv` | 6,598 行，一行一个（模组, 生物）关系 |
 | `output/mob_descriptions.json` | 同上，JSON |
 | `output/mob_index.json` | `模组 rank → {mod, url, mob_count, mob_ids[]}` 关系映射 |
-| `output/mod_mob_summary.csv` | 每个模组的生物数，以及 mod_body / wiki / jar_data / pokeapi 各来源计数（另含历史 `mcmod` 列） |
+| `output/mod_mob_summary.csv` | 每个模组的生物数，以及 mod_body / wiki / jar_data 各来源计数（另含历史 `mcmod` 列） |
 | `data/mobs/<rank>.json` | 每个模组的原始研究结果（可单独重跑） |
 
 字段：`mod_rank, mod_name, mod_url, mob_id, name_en, name_zh, description_zh, source, source_url, confidence, notes`。
@@ -315,22 +314,20 @@ MobChatter/
 1. `mod_body`：Modrinth 项目正文里提到该生物时，摘取并压缩。
 2. `wiki`：正文或 jar 里有官方 wiki 链接时，抓取对应生物页。
 3. `jar_data`：以上都没有时读源码与数据文件——`javap` 解析 `createAttributes` / `registerGoals`，解析 `forge/biome_modifier/*.json` 的生成群系、`loot_tables/entities/*.json` 的掉落、实体碰撞箱。`confidence` 0.5–0.65，`notes` 注明“据 jar 源码与数据文件整理”。
-4. `pokeapi`：Pixelmon 的 1,010 个物种走 PokéAPI（中文图鉴优先，缺失时用 English/中文名与属性数据）。
 
-不使用 MC百科（mcmod.cn）；`build_mob_table.py` 只接受上述四种来源。已有的 609 条 `mcmod` 是历史数据，合并脚本按 legacy 放行，新流程不会产生。
+不使用 MC百科（mcmod.cn）；`build_mob_table.py` 只接受上述三种来源。已有的 609 条 `mcmod` 是历史数据，合并脚本按 legacy 放行，新流程不会产生。
 
 ### 覆盖情况（2026-11-12）
 
-- 313 个模组 + Minecraft 26.1 原版（90 个生物）全部处理；**7,618 个生物条目**，无空介绍。
-- `jar_data` 4,137（55%）、`mod_body` 1,419、`pokeapi` 1,010、`wiki` 353；另有 609 条 `mcmod` 为历史数据（早期版本采集，新流程不再使用，保留不动）。
+- 308 个模组 + Minecraft 26.1 原版（90 个生物）全部处理；**6,598 个生物条目**，无空介绍。
+- `jar_data` 4,137（55%）、`mod_body` 1,419、`wiki` 353；另有 609 条 `mcmod` 为历史数据（早期版本采集，新流程不再使用，保留不动）。
 - 20 个模组没有新实体（0 条），如 `The Hordes`（只做入侵机制）、`Bad Dreams`、`Lost Souls`；它们在 `mod_mob_summary.csv` 中 `mob_count=0`，属正常。
-- 大名单：Pixelmon 1,019、DragonMine Z 370、Advent Of Ascension 290、The Digimod 273、Bok's Banging Butterflies 230、Terra Entity 195。
+- 大名单：DragonMine Z 370、Advent Of Ascension 290、The Digimod 273、Bok's Banging Butterflies 230、Terra Entity 195。
 
 ### 已知限制
 
 - `name_zh` 有 3,100+ 条为空：模组 jar 不含 `zh_cn.json`，保持空白而不是机器翻译。
 - `jar_data` 条目来自字节码与数据文件，能确认属性、AI 目标、生成群系与掉落，但无法还原作者未写进代码的设定文案。
-- Pixelmon 只有一个实体类型 `pixelmon:pixelmon`，`mob_id` 采用 `pixelmon:<species>`（物种注册名），不是 Bukkit/Forge 实体 id。
 - 拆分自同一模组的变体（如各颜色骑士）会各占一行，`mob_id` 不同但共享模板化描述。
 
 ---
@@ -385,7 +382,7 @@ CSV 列：`mod_rank, mod_name, mob_key, mob_id, name_en, name_zh, archetype, sce
 ### 生成方式
 
 1. 25 类生物各写一份模板句库（`banks`），每类 12 情景 × 20 句 + 伤害子句。
-2. 每个生物按名称/简介关键词归入一个类别；Pixelmon 归 `pokemon`，The Digimod 归 `digimon`，原版按实体 id 手工映射。
+2. 每个生物按名称/简介关键词归入一个类别；The Digimod 归 `digimon`，原版按实体 id 手工映射。
    模组简介（`intro_zh`）会识别出主题（恐怖、魔法、机械、史前、水生、下界、末地、亡灵、战争、自然、龙、史莱姆）：189 个模组命中主题，影响 178 个模组里生物的归类、栖息地、标志物与权重。
 3. 合成器按 `mob_key` 做确定性抽样（同一生物每次生成结果一致），把 `{name}`、`{name_en}`、`{sound}`、`{habitat}`、`{food}`、`{prey}`、`{motif}` 按中英文分别填充。`{motif}` 优先取生物简介里出现的具体名词（鳞片、骨头、齿轮、符文等，4,224 个生物命中），再退回主题/类别默认值。
 4. 权重决定追加句数；同一情景内不重复抽样。

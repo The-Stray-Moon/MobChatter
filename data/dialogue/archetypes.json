@@ -1,69 +1,522 @@
 {
-  "scenarios": [
-    {"id": "walk", "zh": "常态行走"},
-    {"id": "idle", "zh": "呆立"},
-    {"id": "look_player", "zh": "看向玩家"},
-    {"id": "hurt", "zh": "受伤"},
-    {"id": "tempted", "zh": "被吸引"},
-    {"id": "collide", "zh": "与生物碰撞"},
-    {"id": "mate", "zh": "交配"},
-    {"id": "pickup", "zh": "拾取物品"},
-    {"id": "target_acquire", "zh": "锁定目标的一瞬间"},
-    {"id": "targeting", "zh": "索敌进行时"},
-    {"id": "melee_attack", "zh": "触发近战攻击"},
-    {"id": "spawn", "zh": "生成时"}
-  ],
-  "damage_types": ["generic", "fire", "fall", "drown", "explosion", "projectile", "magic", "starvation", "lightning", "void"],
-  "archetypes": [
-    {"id": "passive_herbivore", "zh": "食草与家畜", "hint": "牛、羊、猪、鸡、兔、羊驼、骆驼、马等温顺动物",
-     "weights": {"walk": 1.6, "idle": 1.6, "look_player": 1.2, "hurt": 1.0, "tempted": 1.6, "collide": 1.0, "mate": 1.0, "pickup": 0.2, "target_acquire": 0.6, "targeting": 0.5, "melee_attack": 0.4, "spawn": 1.0}},
-    {"id": "passive_pet", "zh": "伙伴与宠物", "hint": "狼、猫、鹦鹉、狐狸、悦灵等可驯服/亲近玩家的生物",
-     "weights": {"walk": 1.3, "idle": 1.5, "look_player": 1.6, "hurt": 1.0, "tempted": 1.3, "collide": 1.0, "mate": 1.0, "pickup": 0.4, "target_acquire": 0.8, "targeting": 0.8, "melee_attack": 0.6, "spawn": 1.0}},
-    {"id": "aquatic", "zh": "水生", "hint": "鱼、鱿鱼、海豚、海龟、美西螈等水生生物",
-     "weights": {"walk": 1.6, "idle": 1.4, "look_player": 1.0, "hurt": 1.0, "tempted": 1.0, "collide": 1.0, "mate": 1.0, "pickup": 0.1, "target_acquire": 0.6, "targeting": 0.6, "melee_attack": 0.4, "spawn": 1.0}},
-    {"id": "flying", "zh": "飞行", "hint": "蝙蝠、蜜蜂、幻翼、恼鬼等飞行生物",
-     "weights": {"walk": 1.6, "idle": 1.2, "look_player": 1.0, "hurt": 1.0, "tempted": 0.6, "collide": 1.0, "mate": 0.8, "pickup": 0.1, "target_acquire": 1.0, "targeting": 1.0, "melee_attack": 0.8, "spawn": 1.0}},
-    {"id": "hostile_melee", "zh": "近战敌对", "hint": "僵尸、蜘蛛、苦力怕等近身攻击的怪物",
-     "weights": {"walk": 1.2, "idle": 0.8, "look_player": 1.0, "hurt": 1.0, "tempted": 0.0, "collide": 1.0, "mate": 0.0, "pickup": 0.2, "target_acquire": 1.6, "targeting": 2.0, "melee_attack": 2.0, "spawn": 1.2}},
-    {"id": "hostile_ranged", "zh": "远程敌对", "hint": "骷髅、烈焰人、女巫、掠夺者等远程攻击者",
-     "weights": {"walk": 1.0, "idle": 0.8, "look_player": 1.0, "hurt": 1.0, "tempted": 0.0, "collide": 0.8, "mate": 0.0, "pickup": 0.2, "target_acquire": 1.5, "targeting": 1.8, "melee_attack": 0.8, "spawn": 1.2}},
-    {"id": "undead", "zh": "亡灵", "hint": "僵尸、骷髅、尸壳、溺尸、幻翼等亡灵",
-     "weights": {"walk": 1.2, "idle": 0.8, "look_player": 1.0, "hurt": 1.0, "tempted": 0.0, "collide": 1.0, "mate": 0.0, "pickup": 0.2, "target_acquire": 1.5, "targeting": 1.8, "melee_attack": 1.6, "spawn": 1.4}},
-    {"id": "nether", "zh": "下界生物", "hint": "猪灵、疣猪兽、恶魂、烈焰人、炽足兽等",
-     "weights": {"walk": 1.2, "idle": 1.0, "look_player": 1.0, "hurt": 1.0, "tempted": 0.8, "collide": 1.0, "mate": 0.6, "pickup": 0.6, "target_acquire": 1.4, "targeting": 1.4, "melee_attack": 1.4, "spawn": 1.2}},
-    {"id": "end", "zh": "末地生物", "hint": "末影人、潜影贝、末影螨等末地生物",
-     "weights": {"walk": 1.2, "idle": 1.2, "look_player": 1.4, "hurt": 1.0, "tempted": 0.0, "collide": 0.8, "mate": 0.0, "pickup": 0.2, "target_acquire": 1.2, "targeting": 1.3, "melee_attack": 1.2, "spawn": 1.3}},
-    {"id": "illager", "zh": "灾厄村民", "hint": "掠夺者、卫道士、唤魔者、劫掠兽等",
-     "weights": {"walk": 1.2, "idle": 0.8, "look_player": 1.0, "hurt": 1.0, "tempted": 0.0, "collide": 0.8, "mate": 0.0, "pickup": 0.2, "target_acquire": 1.5, "targeting": 1.8, "melee_attack": 1.6, "spawn": 1.2}},
-    {"id": "boss", "zh": "首领", "hint": "末影龙、凋灵、监守者、远古守卫者等首领级生物",
-     "weights": {"walk": 0.8, "idle": 1.6, "look_player": 1.2, "hurt": 1.0, "tempted": 0.0, "collide": 0.6, "mate": 0.0, "pickup": 0.0, "target_acquire": 1.4, "targeting": 1.6, "melee_attack": 1.4, "spawn": 2.0}},
-    {"id": "golem_construct", "zh": "傀儡与构造体", "hint": "铁傀儡、雪傀儡、铜傀儡等",
-     "weights": {"walk": 1.4, "idle": 1.4, "look_player": 1.2, "hurt": 1.0, "tempted": 0.0, "collide": 1.0, "mate": 0.0, "pickup": 0.6, "target_acquire": 1.4, "targeting": 1.4, "melee_attack": 1.4, "spawn": 1.4}},
-    {"id": "horror_stalker", "zh": "恐怖跟踪者", "hint": "恐怖模组的尾随者、实体、异常体",
-     "weights": {"walk": 1.2, "idle": 1.4, "look_player": 1.8, "hurt": 1.0, "tempted": 0.0, "collide": 0.6, "mate": 0.0, "pickup": 0.0, "target_acquire": 1.6, "targeting": 1.8, "melee_attack": 1.6, "spawn": 1.8}},
-    {"id": "dragon", "zh": "龙类", "hint": "各类龙、飞龙、龙类坐骑",
-     "weights": {"walk": 1.2, "idle": 1.4, "look_player": 1.2, "hurt": 1.0, "tempted": 0.6, "collide": 0.8, "mate": 0.8, "pickup": 0.2, "target_acquire": 1.4, "targeting": 1.5, "melee_attack": 1.4, "spawn": 1.6}},
-    {"id": "insect_arthropod", "zh": "虫类与节肢动物", "hint": "蜘蛛、蠹虫、蜜蜂、蚂蚁、甲虫等",
-     "weights": {"walk": 1.6, "idle": 1.2, "look_player": 0.8, "hurt": 1.0, "tempted": 0.8, "collide": 1.0, "mate": 1.0, "pickup": 0.2, "target_acquire": 1.2, "targeting": 1.2, "melee_attack": 1.0, "spawn": 1.0}},
-    {"id": "plant_nature", "zh": "植物与自然精怪", "hint": "嘎枝、蘑菇怪、树人、花妖等",
-     "weights": {"walk": 1.2, "idle": 1.8, "look_player": 1.2, "hurt": 1.0, "tempted": 0.6, "collide": 0.6, "mate": 0.6, "pickup": 0.0, "target_acquire": 1.0, "targeting": 1.0, "melee_attack": 1.0, "spawn": 1.2}},
-    {"id": "npc_villager", "zh": "村民与 NPC", "hint": "村民、商人、守卫、招募兵、对话 NPC",
-     "weights": {"walk": 1.4, "idle": 1.4, "look_player": 1.6, "hurt": 1.0, "tempted": 0.4, "collide": 1.0, "mate": 0.6, "pickup": 0.4, "target_acquire": 0.8, "targeting": 0.8, "melee_attack": 0.6, "spawn": 1.0}},
-    {"id": "mechanical_tech", "zh": "机械与科技造物", "hint": "机器人、机甲、无人机、自动炮台",
-     "weights": {"walk": 1.4, "idle": 1.2, "look_player": 1.0, "hurt": 1.0, "tempted": 0.0, "collide": 0.8, "mate": 0.0, "pickup": 0.6, "target_acquire": 1.4, "targeting": 1.5, "melee_attack": 1.2, "spawn": 1.2}},
-    {"id": "magic_spirit", "zh": "魔法灵体与恶魔", "hint": "幽灵、灵体、恶魔、使魔、召唤物",
-     "weights": {"walk": 1.2, "idle": 1.6, "look_player": 1.4, "hurt": 1.0, "tempted": 0.4, "collide": 0.6, "mate": 0.2, "pickup": 0.0, "target_acquire": 1.2, "targeting": 1.3, "melee_attack": 1.0, "spawn": 1.4}},
-    {"id": "prehistoric", "zh": "史前生物", "hint": "恐龙、猛犸、史前鱼、古生物",
-     "weights": {"walk": 1.4, "idle": 1.4, "look_player": 1.0, "hurt": 1.0, "tempted": 0.8, "collide": 1.0, "mate": 1.0, "pickup": 0.0, "target_acquire": 1.2, "targeting": 1.3, "melee_attack": 1.2, "spawn": 1.2}},
-    {"id": "pokemon", "zh": "宝可梦", "hint": "Pixelmon 的宝可梦",
-     "weights": {"walk": 1.2, "idle": 1.4, "look_player": 1.4, "hurt": 1.0, "tempted": 1.0, "collide": 0.8, "mate": 0.8, "pickup": 0.2, "target_acquire": 1.0, "targeting": 1.0, "melee_attack": 1.0, "spawn": 1.2}},
-    {"id": "digimon", "zh": "数码兽", "hint": "The Digimod 的数码兽",
-     "weights": {"walk": 1.2, "idle": 1.4, "look_player": 1.2, "hurt": 1.0, "tempted": 0.8, "collide": 0.8, "mate": 0.2, "pickup": 0.2, "target_acquire": 1.2, "targeting": 1.2, "melee_attack": 1.2, "spawn": 1.2}},
-    {"id": "humanoid_warrior", "zh": "人形战士", "hint": "骑士、士兵、忍者、武士、人形 NPC",
-     "weights": {"walk": 1.2, "idle": 1.0, "look_player": 1.2, "hurt": 1.0, "tempted": 0.0, "collide": 0.8, "mate": 0.0, "pickup": 0.2, "target_acquire": 1.4, "targeting": 1.5, "melee_attack": 1.6, "spawn": 1.2}},
-    {"id": "slime_gel", "zh": "史莱姆与胶质", "hint": "史莱姆、岩浆怪、黏液怪",
-     "weights": {"walk": 1.6, "idle": 1.2, "look_player": 0.8, "hurt": 1.0, "tempted": 0.8, "collide": 1.4, "mate": 1.0, "pickup": 0.2, "target_acquire": 0.8, "targeting": 0.8, "melee_attack": 0.8, "spawn": 1.0}},
-    {"id": "joke_meme", "zh": "梗生物", "hint": "网络梗、meme、无厘头生物",
-     "weights": {"walk": 1.4, "idle": 1.4, "look_player": 1.4, "hurt": 1.0, "tempted": 1.0, "collide": 1.0, "mate": 0.8, "pickup": 0.6, "target_acquire": 1.0, "targeting": 1.0, "melee_attack": 1.0, "spawn": 1.2}}
-  ]
+ "scenarios": [
+  {
+   "id": "walk",
+   "zh": "常态行走"
+  },
+  {
+   "id": "idle",
+   "zh": "呆立"
+  },
+  {
+   "id": "look_player",
+   "zh": "看向玩家"
+  },
+  {
+   "id": "hurt",
+   "zh": "受伤"
+  },
+  {
+   "id": "tempted",
+   "zh": "被吸引"
+  },
+  {
+   "id": "collide",
+   "zh": "与生物碰撞"
+  },
+  {
+   "id": "mate",
+   "zh": "交配"
+  },
+  {
+   "id": "pickup",
+   "zh": "拾取物品"
+  },
+  {
+   "id": "target_acquire",
+   "zh": "锁定目标的一瞬间"
+  },
+  {
+   "id": "targeting",
+   "zh": "索敌进行时"
+  },
+  {
+   "id": "melee_attack",
+   "zh": "触发近战攻击"
+  },
+  {
+   "id": "spawn",
+   "zh": "生成时"
+  }
+ ],
+ "damage_types": [
+  "generic",
+  "fire",
+  "fall",
+  "drown",
+  "explosion",
+  "projectile",
+  "magic",
+  "starvation",
+  "lightning",
+  "void"
+ ],
+ "archetypes": [
+  {
+   "id": "passive_herbivore",
+   "zh": "食草与家畜",
+   "hint": "牛、羊、猪、鸡、兔、羊驼、骆驼、马等温顺动物",
+   "weights": {
+    "walk": 1.6,
+    "idle": 1.6,
+    "look_player": 1.2,
+    "hurt": 1.0,
+    "tempted": 1.6,
+    "collide": 1.0,
+    "mate": 1.0,
+    "pickup": 0.2,
+    "target_acquire": 0.6,
+    "targeting": 0.5,
+    "melee_attack": 0.4,
+    "spawn": 1.0
+   }
+  },
+  {
+   "id": "passive_pet",
+   "zh": "伙伴与宠物",
+   "hint": "狼、猫、鹦鹉、狐狸、悦灵等可驯服/亲近玩家的生物",
+   "weights": {
+    "walk": 1.3,
+    "idle": 1.5,
+    "look_player": 1.6,
+    "hurt": 1.0,
+    "tempted": 1.3,
+    "collide": 1.0,
+    "mate": 1.0,
+    "pickup": 0.4,
+    "target_acquire": 0.8,
+    "targeting": 0.8,
+    "melee_attack": 0.6,
+    "spawn": 1.0
+   }
+  },
+  {
+   "id": "aquatic",
+   "zh": "水生",
+   "hint": "鱼、鱿鱼、海豚、海龟、美西螈等水生生物",
+   "weights": {
+    "walk": 1.6,
+    "idle": 1.4,
+    "look_player": 1.0,
+    "hurt": 1.0,
+    "tempted": 1.0,
+    "collide": 1.0,
+    "mate": 1.0,
+    "pickup": 0.1,
+    "target_acquire": 0.6,
+    "targeting": 0.6,
+    "melee_attack": 0.4,
+    "spawn": 1.0
+   }
+  },
+  {
+   "id": "flying",
+   "zh": "飞行",
+   "hint": "蝙蝠、蜜蜂、幻翼、恼鬼等飞行生物",
+   "weights": {
+    "walk": 1.6,
+    "idle": 1.2,
+    "look_player": 1.0,
+    "hurt": 1.0,
+    "tempted": 0.6,
+    "collide": 1.0,
+    "mate": 0.8,
+    "pickup": 0.1,
+    "target_acquire": 1.0,
+    "targeting": 1.0,
+    "melee_attack": 0.8,
+    "spawn": 1.0
+   }
+  },
+  {
+   "id": "hostile_melee",
+   "zh": "近战敌对",
+   "hint": "僵尸、蜘蛛、苦力怕等近身攻击的怪物",
+   "weights": {
+    "walk": 1.2,
+    "idle": 0.8,
+    "look_player": 1.0,
+    "hurt": 1.0,
+    "tempted": 0.0,
+    "collide": 1.0,
+    "mate": 0.0,
+    "pickup": 0.2,
+    "target_acquire": 1.6,
+    "targeting": 2.0,
+    "melee_attack": 2.0,
+    "spawn": 1.2
+   }
+  },
+  {
+   "id": "hostile_ranged",
+   "zh": "远程敌对",
+   "hint": "骷髅、烈焰人、女巫、掠夺者等远程攻击者",
+   "weights": {
+    "walk": 1.0,
+    "idle": 0.8,
+    "look_player": 1.0,
+    "hurt": 1.0,
+    "tempted": 0.0,
+    "collide": 0.8,
+    "mate": 0.0,
+    "pickup": 0.2,
+    "target_acquire": 1.5,
+    "targeting": 1.8,
+    "melee_attack": 0.8,
+    "spawn": 1.2
+   }
+  },
+  {
+   "id": "undead",
+   "zh": "亡灵",
+   "hint": "僵尸、骷髅、尸壳、溺尸、幻翼等亡灵",
+   "weights": {
+    "walk": 1.2,
+    "idle": 0.8,
+    "look_player": 1.0,
+    "hurt": 1.0,
+    "tempted": 0.0,
+    "collide": 1.0,
+    "mate": 0.0,
+    "pickup": 0.2,
+    "target_acquire": 1.5,
+    "targeting": 1.8,
+    "melee_attack": 1.6,
+    "spawn": 1.4
+   }
+  },
+  {
+   "id": "nether",
+   "zh": "下界生物",
+   "hint": "猪灵、疣猪兽、恶魂、烈焰人、炽足兽等",
+   "weights": {
+    "walk": 1.2,
+    "idle": 1.0,
+    "look_player": 1.0,
+    "hurt": 1.0,
+    "tempted": 0.8,
+    "collide": 1.0,
+    "mate": 0.6,
+    "pickup": 0.6,
+    "target_acquire": 1.4,
+    "targeting": 1.4,
+    "melee_attack": 1.4,
+    "spawn": 1.2
+   }
+  },
+  {
+   "id": "end",
+   "zh": "末地生物",
+   "hint": "末影人、潜影贝、末影螨等末地生物",
+   "weights": {
+    "walk": 1.2,
+    "idle": 1.2,
+    "look_player": 1.4,
+    "hurt": 1.0,
+    "tempted": 0.0,
+    "collide": 0.8,
+    "mate": 0.0,
+    "pickup": 0.2,
+    "target_acquire": 1.2,
+    "targeting": 1.3,
+    "melee_attack": 1.2,
+    "spawn": 1.3
+   }
+  },
+  {
+   "id": "illager",
+   "zh": "灾厄村民",
+   "hint": "掠夺者、卫道士、唤魔者、劫掠兽等",
+   "weights": {
+    "walk": 1.2,
+    "idle": 0.8,
+    "look_player": 1.0,
+    "hurt": 1.0,
+    "tempted": 0.0,
+    "collide": 0.8,
+    "mate": 0.0,
+    "pickup": 0.2,
+    "target_acquire": 1.5,
+    "targeting": 1.8,
+    "melee_attack": 1.6,
+    "spawn": 1.2
+   }
+  },
+  {
+   "id": "boss",
+   "zh": "首领",
+   "hint": "末影龙、凋灵、监守者、远古守卫者等首领级生物",
+   "weights": {
+    "walk": 0.8,
+    "idle": 1.6,
+    "look_player": 1.2,
+    "hurt": 1.0,
+    "tempted": 0.0,
+    "collide": 0.6,
+    "mate": 0.0,
+    "pickup": 0.0,
+    "target_acquire": 1.4,
+    "targeting": 1.6,
+    "melee_attack": 1.4,
+    "spawn": 2.0
+   }
+  },
+  {
+   "id": "golem_construct",
+   "zh": "傀儡与构造体",
+   "hint": "铁傀儡、雪傀儡、铜傀儡等",
+   "weights": {
+    "walk": 1.4,
+    "idle": 1.4,
+    "look_player": 1.2,
+    "hurt": 1.0,
+    "tempted": 0.0,
+    "collide": 1.0,
+    "mate": 0.0,
+    "pickup": 0.6,
+    "target_acquire": 1.4,
+    "targeting": 1.4,
+    "melee_attack": 1.4,
+    "spawn": 1.4
+   }
+  },
+  {
+   "id": "horror_stalker",
+   "zh": "恐怖跟踪者",
+   "hint": "恐怖模组的尾随者、实体、异常体",
+   "weights": {
+    "walk": 1.2,
+    "idle": 1.4,
+    "look_player": 1.8,
+    "hurt": 1.0,
+    "tempted": 0.0,
+    "collide": 0.6,
+    "mate": 0.0,
+    "pickup": 0.0,
+    "target_acquire": 1.6,
+    "targeting": 1.8,
+    "melee_attack": 1.6,
+    "spawn": 1.8
+   }
+  },
+  {
+   "id": "dragon",
+   "zh": "龙类",
+   "hint": "各类龙、飞龙、龙类坐骑",
+   "weights": {
+    "walk": 1.2,
+    "idle": 1.4,
+    "look_player": 1.2,
+    "hurt": 1.0,
+    "tempted": 0.6,
+    "collide": 0.8,
+    "mate": 0.8,
+    "pickup": 0.2,
+    "target_acquire": 1.4,
+    "targeting": 1.5,
+    "melee_attack": 1.4,
+    "spawn": 1.6
+   }
+  },
+  {
+   "id": "insect_arthropod",
+   "zh": "虫类与节肢动物",
+   "hint": "蜘蛛、蠹虫、蜜蜂、蚂蚁、甲虫等",
+   "weights": {
+    "walk": 1.6,
+    "idle": 1.2,
+    "look_player": 0.8,
+    "hurt": 1.0,
+    "tempted": 0.8,
+    "collide": 1.0,
+    "mate": 1.0,
+    "pickup": 0.2,
+    "target_acquire": 1.2,
+    "targeting": 1.2,
+    "melee_attack": 1.0,
+    "spawn": 1.0
+   }
+  },
+  {
+   "id": "plant_nature",
+   "zh": "植物与自然精怪",
+   "hint": "嘎枝、蘑菇怪、树人、花妖等",
+   "weights": {
+    "walk": 1.2,
+    "idle": 1.8,
+    "look_player": 1.2,
+    "hurt": 1.0,
+    "tempted": 0.6,
+    "collide": 0.6,
+    "mate": 0.6,
+    "pickup": 0.0,
+    "target_acquire": 1.0,
+    "targeting": 1.0,
+    "melee_attack": 1.0,
+    "spawn": 1.2
+   }
+  },
+  {
+   "id": "npc_villager",
+   "zh": "村民与 NPC",
+   "hint": "村民、商人、守卫、招募兵、对话 NPC",
+   "weights": {
+    "walk": 1.4,
+    "idle": 1.4,
+    "look_player": 1.6,
+    "hurt": 1.0,
+    "tempted": 0.4,
+    "collide": 1.0,
+    "mate": 0.6,
+    "pickup": 0.4,
+    "target_acquire": 0.8,
+    "targeting": 0.8,
+    "melee_attack": 0.6,
+    "spawn": 1.0
+   }
+  },
+  {
+   "id": "mechanical_tech",
+   "zh": "机械与科技造物",
+   "hint": "机器人、机甲、无人机、自动炮台",
+   "weights": {
+    "walk": 1.4,
+    "idle": 1.2,
+    "look_player": 1.0,
+    "hurt": 1.0,
+    "tempted": 0.0,
+    "collide": 0.8,
+    "mate": 0.0,
+    "pickup": 0.6,
+    "target_acquire": 1.4,
+    "targeting": 1.5,
+    "melee_attack": 1.2,
+    "spawn": 1.2
+   }
+  },
+  {
+   "id": "magic_spirit",
+   "zh": "魔法灵体与恶魔",
+   "hint": "幽灵、灵体、恶魔、使魔、召唤物",
+   "weights": {
+    "walk": 1.2,
+    "idle": 1.6,
+    "look_player": 1.4,
+    "hurt": 1.0,
+    "tempted": 0.4,
+    "collide": 0.6,
+    "mate": 0.2,
+    "pickup": 0.0,
+    "target_acquire": 1.2,
+    "targeting": 1.3,
+    "melee_attack": 1.0,
+    "spawn": 1.4
+   }
+  },
+  {
+   "id": "prehistoric",
+   "zh": "史前生物",
+   "hint": "恐龙、猛犸、史前鱼、古生物",
+   "weights": {
+    "walk": 1.4,
+    "idle": 1.4,
+    "look_player": 1.0,
+    "hurt": 1.0,
+    "tempted": 0.8,
+    "collide": 1.0,
+    "mate": 1.0,
+    "pickup": 0.0,
+    "target_acquire": 1.2,
+    "targeting": 1.3,
+    "melee_attack": 1.2,
+    "spawn": 1.2
+   }
+  },
+  {
+   "id": "digimon",
+   "zh": "数码兽",
+   "hint": "The Digimod 的数码兽",
+   "weights": {
+    "walk": 1.2,
+    "idle": 1.4,
+    "look_player": 1.2,
+    "hurt": 1.0,
+    "tempted": 0.8,
+    "collide": 0.8,
+    "mate": 0.2,
+    "pickup": 0.2,
+    "target_acquire": 1.2,
+    "targeting": 1.2,
+    "melee_attack": 1.2,
+    "spawn": 1.2
+   }
+  },
+  {
+   "id": "humanoid_warrior",
+   "zh": "人形战士",
+   "hint": "骑士、士兵、忍者、武士、人形 NPC",
+   "weights": {
+    "walk": 1.2,
+    "idle": 1.0,
+    "look_player": 1.2,
+    "hurt": 1.0,
+    "tempted": 0.0,
+    "collide": 0.8,
+    "mate": 0.0,
+    "pickup": 0.2,
+    "target_acquire": 1.4,
+    "targeting": 1.5,
+    "melee_attack": 1.6,
+    "spawn": 1.2
+   }
+  },
+  {
+   "id": "slime_gel",
+   "zh": "史莱姆与胶质",
+   "hint": "史莱姆、岩浆怪、黏液怪",
+   "weights": {
+    "walk": 1.6,
+    "idle": 1.2,
+    "look_player": 0.8,
+    "hurt": 1.0,
+    "tempted": 0.8,
+    "collide": 1.4,
+    "mate": 1.0,
+    "pickup": 0.2,
+    "target_acquire": 0.8,
+    "targeting": 0.8,
+    "melee_attack": 0.8,
+    "spawn": 1.0
+   }
+  },
+  {
+   "id": "joke_meme",
+   "zh": "梗生物",
+   "hint": "网络梗、meme、无厘头生物",
+   "weights": {
+    "walk": 1.4,
+    "idle": 1.4,
+    "look_player": 1.4,
+    "hurt": 1.0,
+    "tempted": 1.0,
+    "collide": 1.0,
+    "mate": 0.8,
+    "pickup": 0.6,
+    "target_acquire": 1.0,
+    "targeting": 1.0,
+    "melee_attack": 1.0,
+    "spawn": 1.2
+   }
+  }
+ ]
 }

@@ -17,7 +17,7 @@ from mobchat.sources import MODRINTH, modrinth_headers  # noqa: E402
 def main() -> int:
     cfg = load_config()
     http = HttpClient(CACHE_DIR, cfg["http"]["user_agent"], min_interval=0.2)
-    rows = list(csv.DictReader(open(ROOT / "output" / "top313_mob_mods.csv", encoding="utf-8-sig")))
+    rows = list(csv.DictReader(open(ROOT / "output" / "top308_mob_mods.csv", encoding="utf-8-sig")))
     candidates = json.loads((DATA_DIR / "candidates.json").read_text(encoding="utf-8"))
     ids = {c["name"]: c["source_id"] for c in candidates if c["source"] == "modrinth"}
 

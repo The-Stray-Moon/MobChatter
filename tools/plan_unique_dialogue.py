@@ -27,7 +27,7 @@ def main() -> int:
     archetypes_data = json.loads((DATA / "dialogue" / "archetypes.json").read_text(encoding="utf-8"))
     archetypes = {a["id"]: a for a in archetypes_data["archetypes"]}
     intro = {}
-    with (ROOT / "output" / "top313_mob_mods.csv").open(encoding="utf-8-sig") as handle:
+    with (ROOT / "output" / "top308_mob_mods.csv").open(encoding="utf-8-sig") as handle:
         for rec in csv.DictReader(handle):
             intro[int(rec["rank"])] = rec.get("intro_zh") or rec.get("summary") or ""
 

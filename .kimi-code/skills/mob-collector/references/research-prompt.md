@@ -30,7 +30,7 @@
 
 ## 大名单
 
-单个模组生物数 > 150 时写脚本批量处理，不要逐条手工。Pixelmon 用 PokéAPI（`https://pokeapi.co/api/v2/pokemon/<name>` 与 `pokemon-species`，语言 `zh-Hans`），`source=pokeapi`。
+单个模组生物数 > 150 时写脚本批量处理，不要逐条手工。
 
 ## 输出
 
