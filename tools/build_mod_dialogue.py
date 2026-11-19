@@ -1,19 +1,19 @@
 """Build the runtime dialogue resource for the mod.
 
-Reads data/dialogue/mods/*.json and writes a gzipped JSON map:
+Reads data/dialogue/mods/*.json and writes an XZ-compressed JSON map:
   { "modid:entity": { "walk": [["zh","en"], ...], "hurt.fire": [...] } }
 
-Output: common/src/main/resources/assets/mobchatter/dialogue.json.gz
+Output: common/src/main/resources/assets/mobchatter/dialogue.json.xz
 """
 from __future__ import annotations
 
-import gzip
 import json
+import lzma
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "data" / "dialogue" / "mods"
-OUT = ROOT / "common" / "src" / "main" / "resources" / "assets" / "mobchatter" / "dialogue.json.gz"
+OUT = ROOT / "common" / "src" / "main" / "resources" / "assets" / "mobchatter" / "dialogue.json.xz"
 
 
 def main() -> int:
@@ -44,10 +44,10 @@ def main() -> int:
                             seen.add((pair[0], pair[1]))
     OUT.parent.mkdir(parents=True, exist_ok=True)
     raw = json.dumps(merged, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
-    with gzip.open(OUT, "wb", compresslevel=9) as handle:
+    with lzma.open(OUT, "wb", format=lzma.FORMAT_XZ, preset=6) as handle:
         handle.write(raw)
     total = sum(len(v) for m in merged.values() for v in m.values())
-    print(f"mobs={len(merged)} entries={total} raw={len(raw)/1024/1024:.1f}MB gz={OUT.stat().st_size/1024/1024:.1f}MB")
+    print(f"mobs={len(merged)} entries={total} raw={len(raw)/1024/1024:.1f}MiB xz={OUT.stat().st_size/1024/1024:.1f}MiB")
     return 0
 
 

@@ -113,6 +113,21 @@ repositories {
     }
 }
 
+sourceSets.test {
+    compileClasspath += sourceSets.main.compileClasspath
+    runtimeClasspath += sourceSets.main.runtimeClasspath
+}
+
+dependencies {
+    jarJar(implementation('org.tukaani:xz')) {
+        version {
+            strictly '[1.10,2.0)'
+            prefer '1.10'
+        }
+    }
+    additionalRuntimeClasspath 'org.tukaani:xz:1.10'
+}
+
 tasks.named('processResources', ProcessResources).configure {
     def replaceProperties = [
             minecraft_version      : forge_minecraft_version,
@@ -167,4 +182,9 @@ tasks.named('jacocoTestReport', JacocoReport).configure {
 }
 
 apply from: file('../../gradle/target-conventions/hot-debug.gradle')
+configurations.runtimeClasspath.extendsFrom(configurations.hotDebugRuntime)
+legacyForge.runs.configureEach {
+    additionalRuntimeClasspathConfiguration.setExtendsFrom(
+            additionalRuntimeClasspathConfiguration.extendsFrom.findAll { it != configurations.hotDebugRuntime })
+}
 apply from: file('../../gradle/target-conventions/publish.gradle')

@@ -20,7 +20,7 @@ Creature chatter bubbles rendered above mobs.
 | fabric-26.1 | JDK 25 | true | Pending verification |
 | forge-1.18.2 | JDK 21 | true | Pending verification |
 | forge-1.19.2 | JDK 21 | true | Pending verification |
-| forge-1.20.1 | JDK 21 | true | `build verifyHotDebug` 通过；`clean` 因工件占用失败；阴影视觉验证未完成（本次客户端未加载 AutoJS，专用端口拒绝连接） |
+| forge-1.20.1 | JDK 21 | true | 构建/测试通过；AutoJS 完整 KubeJS 模式的双客户端＋专用服启动、同句广播及范围进出断言通过；阴影视觉未验收 |
 | neoforge-1.21.1 | JDK 21 | true | Pending verification |
 | neoforge-26.1 | JDK 25 | true | Pending verification |
 
@@ -30,28 +30,60 @@ Creature chatter bubbles rendered above mobs.
 
 - 每个生物在不同时机冒出一句台词，最多两行。
 - 第一行正常白色；新台词进入时，上一句被挤到第二行，缩小到 0.8 倍并降到 55% 不透明度。
-- 每句有固定显示时长和淡出时间，均在 `config/mobchatter-common.toml` 的 `[display]` 中调整。
+- **客户端和服务端都必须安装**，网络通道拒绝缺失模组或协议不匹配的连接。服务端判定触发并统一生成随机种子，客户端只从本地资源包选句、渲染，不再自行触发。单人游戏由集成服务器负责触发。
+- 服务端显示范围默认 32 格；同维度、正在追踪实体且处于范围内的全部玩家收到相同信号。进入范围或新开始追踪的玩家会补收尚未过期的当前信号，不重置寿命。客户端移出范围会隐藏气泡。
+- 所有配置统一注册为 `COMMON`，双端均使用各自的 `config/mobchatter-common.toml`。服务端读取范围、显示时长、淡出、触发开关、冷却及概率，客户端读取本机语言、排版及显示开关。COMMON 文件不会自动同步，但服务端权威参数随台词信号下发，客户端同名范围/时长参数不参与判定。单人集成服务器与客户端共用同一份配置。拆分版本的 `mobchatter-client.toml` / `mobchatter-server.toml` 不再读取，如曾使用需手动合并到 common 文件。
 - 触发情景：行走、呆立、看向玩家、受伤（含 9 种伤害类型）、被食物吸引、与玩家碰撞、交配、拾取物品、锁定目标瞬间、索敌中、近战挥击、生成。
-- 台词资源来自 `common/src/main/resources/assets/mobchatter/dialogue.json.gz`，覆盖 6,507 个实体、约 100 万句中英对照；默认显示中文，可在配置中改为英文。
+- 台词资源来自 `common/src/main/resources/assets/mobchatter/dialogue.json.xz`，覆盖 6,507 个实体、约 100 万句中英对照；默认显示中文，可在配置中改为英文。使用 XZ preset 6 无损压缩，通过 `python tools/build_mod_dialogue.py` 生成；原有 gzip 资源不再打包。Forge 1.20.1 内嵌 `org.tukaani:xz:1.10` 解码库（Jar-in-Jar），玩家无需另装依赖。自定义资源包需提供同路径的 XZ 文件，旧 `.gz` 文件不再读取。
+
+客户端指令：
+
+```text
+/mobchatterunsupported
+```
+
+在当前已加载世界中收集已加载的生物实体，排除玩家和已有台词数据的实体，按实体 ID 排序后复制到系统剪贴板；聊天栏会显示复制数量。没有进入世界时指令会提示错误；没有未支持生物时会复制空文本并提示无结果。资源包显式禁用的实体仍视为已有记录，不会误报为缺失。此指令不枚举整合包内所有注册类型，也不加载区块。
+
+当前 Forge 1.20.1 干净构建及 13 项测试通过（含指令树注册、资源包移除后的支持查询、COMMON 配置与网络信号测试）。AutoJS 映射及连接问题已解决；剪贴板写入和聊天反馈仍未专项实测，不以多人台词验证替代。
 
 主要配置项：
 
-| 键 | 默认 | 说明 |
-| --- | --- | --- |
-| `display.enabled` | true | 总开关 |
-| `display.displayDurationTicks` | 80 | 显示时长（tick） |
-| `display.fadeOutTicks` | 20 | 淡出时长（tick） |
-| `display.maxDistance` | 32 | 触发距离 |
-| `display.lineSpacing` | 10 | 两行间距 |
-| `display.bottomLineScale` | 0.8 | 第二行缩放 |
-| `display.bottomLineAlpha` | 0.55 | 第二行不透明度 |
-| `display.language` | zh | `zh` / `en` |
-| `trigger.scenarioCooldownTicks` | 160 | 同情景冷却 |
-| `trigger.ambientChance` | 0.35 | 环境类情景触发概率 |
+| 配置端 | 键 | 默认 | 说明 |
+| --- | --- | --- | --- |
+| 服务端 | `display.enabled` | true | 触发总开关 |
+| 服务端 | `display.displayDurationTicks` | 80 | 显示寿命（tick，原始服务端时间） |
+| 服务端 | `display.fadeOutTicks` | 20 | 淡出时长（tick） |
+| 服务端 | `display.maxDistance` | 32 | 广播及显示半径（格），还受实体追踪距离限制 |
+| 服务端 | `trigger.scenarioCooldownTicks` | 160 | 每实体同情景冷却，不按玩家分别计算 |
+| 服务端 | `trigger.ambientChance` | 0.35 | 环境类触发概率乘数 |
+| 客户端 | `display.enabled` | true | 本地显示开关 |
+| 客户端 | `display.lineSpacing` | 10 | 两行间距 |
+| 客户端 | `display.bottomLineScale` | 0.8 | 第二行缩放 |
+| 客户端 | `display.bottomLineAlpha` | 0.55 | 第二行不透明度 |
+| 客户端 | `display.language` | zh | `zh` / `en` |
+
+服务端每实体每 tick 最多发送一条新台词，按受伤、生成、锁定/索敌、挥击、拾取等优先级仲裁，不随观察玩家数量重复随机。受伤使用服务端 `LivingDamageEvent` 的最终正伤害和伤害类型/标签；全被吸收或取消的伤害不触发。行走、呆立、挥击、手持物品数量增加和动物状态由服务端采样；`look_player` 根据服务端玩家朝向射线及方块遮挡判定。生成只针对新加入世界的实体，不把磁盘加载或玩家首次看到旧实体当成生成。
+
+同一信号包含相同的情景、随机种子、序号和开始 tick，客户端按 `floorMod(seed, 台词数量)` 选句；要求各客户端台词库内容和顺序一致。语言不同会显示同一对照句的不同语言，自定义资源包不同则不保证文字一致。
 
 当前实现位于 `targets/forge-1.20.1`。其他 target 尚未实现该功能的适配层。
 
-头顶文字使用原版 GUI 的 `Font.drawInBatch(..., shadow=true, NORMAL)` 阴影。局部 Z 缩放改为负值，让原版给白色正文施加的 `+0.03` 偏移朝向相机；不手绘阴影、不关闭全局深度测试。源码确认原先正 Z 会让正文位于阴影后方，名牌的无阴影绘制不能直接证明该深度方向适用于 GUI 阴影。此次 `build verifyHotDebug` 与现有 1 项共享模块测试通过，但不构成视觉验证。`clean` 因既有进程占用工件失败；本项目 `runClient` 启动后未发现 AutoJS 模组加载，专用 `25587` 端口 `/health` 返回连接拒绝，因此未执行 `status` / `eval_js`，尚需重启可用的 AutoJS 客户端验证白字、右下阴影、双行和淡出。
+支持资源包在 `assets/<实体命名空间>/mobchatter/dialogue/<实体路径>.json` 新增、追加、覆盖和禁用台词。同路径按资源包从低到高分层合并，支持整实体或单场景覆盖；切换资源包或 `F3+T` 重载后发布新快照并清理客户端气泡，不改变服务端冷却。普通 JSON 无需 XZ 工具，格式与示例见 [对话资源包指南](docs/DIALOGUE_RESOURCE_PACKS.md)。
+
+头顶文字使用原版 GUI 的 `Font.drawInBatch(..., shadow=true, NORMAL)` 阴影。局部 Z 缩放为负值，让正文 `+0.03` 偏移朝向相机；不手绘阴影、不关闭全局深度测试。白字、右下阴影、双行和淡出的视觉验收仍未完成，数据回读不代表视觉正确。
+
+XZ 体积优化：资源从约 26 MiB 降至 16.4 MiB，解压后与原 gzip 逐字节一致。Java 测试固定校验当前语料的长度与 SHA-256，更新语料时需同步基准；真实客户端通过 AutoJS 回读确认已加载 6,507 个实体。
+
+AutoJS / 多人验证（2026-11-19，Forge 1.20.1）：已修复开发模组发现和映射链，完整 KubeJS `2001.6.5-build.26`＋Rhino `2001.2.2-build.17`＋AutoJS `1.0.1` 可启动。必须让运行类路径继承带 named 映射约束的 `hotDebugRuntime`，同时从额外类路径移除同一配置，不能直接继承未带约束的 `modHotDebugRuntime` 或同时加载原始/转换 jar。修复只针对此 target，其他 target 未按此方式验证。
+
+按用户授权，开发实例 `run/eula.txt` 已接受 EULA（忽略文件，不提交）。测试使用隔离的本机服务器 `127.0.0.1:25591` 和两名真实客户端 Dev / AutoJsObserver；AutoJS 端口为客户端 `25588` / `25590`、服务端 `25589`，均绑定 loopback。三个实例均通过 `status` 确认可用 side 和 KubeJS 模式，成功断言均为 `ok:true`、无 `isError`、无错误 diagnostics：
+
+- 客户端 `DialogueManager.size()` 返回 `6507`。
+- 服务端 `/damage @e[tag=mobchatter_autojs_test,limit=1] 1 minecraft:in_fire` 后，两个客户端 `DialogueController.stateOf(cow)` 均读到“毛烧起来了，我闻得到。” / `My hide's burning. I can smell it.`，序号 `2`、开始 tick `9473`、时长 `1200`、范围 `32` 全部一致。
+- 观察者移到 `x=40.5`（范围外），服务端触发摔落伤害后仅近处玩家获得新信号；观察者返回范围内后，两边均读到“从坡上滚下来，摔得不轻。”、序号 `4`、原始开始 tick `13723`，没有重新随机或重置寿命。测试时长 `1200` 仅写入临时服务器配置，正式默认值仍为 `80`。
+- 测试结束通过 AutoJS 恢复后台调试模式并正常退出两个客户端、停止服务器；临时世界和运行参数清理，不碰现有存档。
+
+实际缺少模组时的连接拒绝、资源包切换 / `F3+T` 和阴影视觉仍待专项实测；已有协议与资源合并自动化测试不代替这些验收。
 
 ### 构建注意
 

@@ -10,6 +10,10 @@
 - 不以运行时版本判断、反射分发或 classpath 同名类覆盖隐藏兼容性问题。每个产物只对应一个 loader 和 Minecraft 版本，不发布 universal jar。
 - 单 target 改动限定在该目标；common 改动需验证所有受影响目标。不得顺手修改其他版本或未经验证统一 API。
 - Forge 1.20.1 头顶文字沿用 `Font.drawInBatch(..., shadow=true, NORMAL)` 原版 GUI 阴影；billboard 局部 Z 需朝向相机，使 `Font` 的正文 `+0.03` 深度偏移在阴影前方，不手绘反向阴影。构建与源码推导不能代替 AutoJS 运行及视觉验证。
+- Forge 1.20.1 要求双端安装，严格校验 `mobchatter:dialogue` 协议。原始触发、概率、冷却与范围只由服务端决定，按追踪关系、同维度及距离广播单份带 seed/sequence/startTick 的 S2C 信号；客户端仅按 `floorMod(seed, lines.size())` 选句，禁止客户端再次随机或触发。同台词库、同顺序时选句一致；资源包或语言不同可能显示不同。所有配置只注册一份 `ModConfig.Type.COMMON`，文件为双端各自的 `config/mobchatter-common.toml`。服务端读取触发及范围/时长，客户端读取本地语言/样式/显示开关；COMMON 不自动同步，权威显示参数随信号下发，客户端同名参数不得覆盖。单人共用同一份配置，禁止重新拆分 CLIENT/SERVER 配置文件。
+- Forge 1.20.1 客户端指令 `/mobchatterunsupported` 只扫描客户端当前已加载的非玩家 LivingEntity，按当前资源包合并快照的实体键判断是否已有记录；去重排序后逐行复制剪贴板，不扫描未加载区块、不向服务器发送指令。显式禁用的实体仍算有记录。
+- 对话资源包规范见 `docs/DIALOGUE_RESOURCE_PACKS.md`；共享补丁解析/合并位于 common，Forge 1.20.1 在资源重载 prepare 阶段读取基础库及低到高的完整 JSON 资源栈，apply 阶段一次性发布快照并清理气泡。禁止将显式禁用当成缺失而触发 hurt 回退；坏 JSON 按文件原子跳过，坏基础库使重载失败。其他 target 尚未接入对话重载功能。
+- 对话资源使用 `dialogue.json.xz`（XZ preset 6），由 `tools/build_mod_dialogue.py` 生成，禁止同时打包旧 gzip。当前 Forge 1.20.1 加载器通过 Jar-in-Jar 内嵌 `org.tukaani:xz:1.10`；其他目标接入对话功能时需显式配置解码依赖，不假定 loader 自带。
 - 共享资源放 common；metadata、Mixin 配置、access widener / transformer 和版本专属资源放 target。同路径资源明确唯一归属，不依赖覆盖顺序。
 - 共用模组元数据放根 `gradle.properties`，版本、loader、JDK 和 `debug_*` 放 target 属性。普通本地 jar 放目标 `libs/`，不假定存在传递依赖。
 - 插件和运行配置归 target；通用源码接入、热调试、发布逻辑分别复用 `gradle/target-conventions/shared.gradle`、`hot-debug.gradle`、`publish.gradle`。
@@ -30,7 +34,7 @@
 - server side 负责权威世界状态；client side 负责 UI/输入。需要后台调试时使用 `AutoJS.background(true)`，结束后恢复。
 - 修改脚本使用 `reload_scripts`；有 KubeJS 时配合 `kubejs_log`，仅 Rhino 时重建作用域后重新注入脚本，不假定存在 KubeJS 事件。配方、标签、战利品表按需另做 `/reload`。
 - Java/Mixin 改动和新增启动期注册内容需重新构建、重启，再用 AutoJS 验证；脚本重载不是 Java 热替换。
-- AutoJS、Rhino、可用的 KubeJS 仅进入开发游戏运行配置，不进入 common 编译依赖、发布 jar 或玩家必需 metadata。Forge 生产 jar 使用重映射配置并显式补齐依赖，不直接加入普通 runtimeOnly。
+- AutoJS、Rhino、可用的 KubeJS 仅进入开发游戏运行配置，不进入 common 编译依赖、发布 jar 或玩家必需 metadata。Forge 生产 jar 使用重映射配置并显式补齐依赖，不直接加入普通 runtimeOnly。Forge 1.20.1 运行类路径必须继承 `hotDebugRuntime`（带 named 约束），并从每个 run 的 additionalRuntimeClasspath 移除同一配置，保证 Forge 发现且只加载一份重映射模组；不得改为直接继承不带约束的 `modHotDebugRuntime`。
 - 默认端点 `http://127.0.0.1:25585/mcp`，`/health` 探活；配置在游戏目录 `config/autojs.json`，多实例使用 `AUTOJS_PORT`。从 AutoJS jar 提取 `SKILL.md` 查详细用法，不依赖维护者机器上的绝对路径。
 - 任意代码执行端点只供本机开发，禁止暴露公网或玩家生产环境；共享环境设置 token，不提交凭据，不操作无关世界/文件。首次 Minecraft EULA 必须由用户阅读并接受。
 - 仓库不可访问、依赖缺失、游戏或端点不能启动时记录具体阻塞，不能静默改用本地替代物或伪称验证完成。

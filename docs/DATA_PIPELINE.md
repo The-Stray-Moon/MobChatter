@@ -389,6 +389,10 @@ CSV 列：`mod_rank, mod_name, mob_key, mob_id, name_en, name_zh, archetype, sce
 
 重跑：`python tools/build_dialogue.py`。
 
+资源包增量台词无需改动采集数据或重建基础库，直接提供按实体 ID 分文件的 JSON；格式、优先级及重载规则见 [对话资源包指南](DIALOGUE_RESOURCE_PACKS.md)。
+
+运行时资源另用 `python tools/build_mod_dialogue.py` 从 `data/dialogue/mods/*.json` 合并生成 `common/src/main/resources/assets/mobchatter/dialogue.json.xz`。保留全部中英对照和场景，紧凑 JSON 使用 Python 标准库 XZ preset 6 压缩；不再发布旧 `dialogue.json.gz`。Forge 1.20.1 使用内嵌的 `org.tukaani:xz:1.10` 解码，修改压缩格式后需检查数据一致性、最终 jar 的嵌套依赖，并重启游戏验证加载。
+
 ### 已知限制
 
 - 台词按“生物类别 + 个体画像”生成，同一类别内不同生物会共享部分句式；每个生物的名称、栖息地、食物、标志物会替换进句子。

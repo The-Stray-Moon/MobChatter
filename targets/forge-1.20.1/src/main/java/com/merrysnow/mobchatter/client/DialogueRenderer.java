@@ -38,19 +38,20 @@ public final class DialogueRenderer {
         }
 
         Minecraft minecraft = Minecraft.getInstance();
-        if (minecraft.level == null) {
+        if (minecraft.level == null || minecraft.player == null
+                || entity.distanceToSqr(minecraft.player) > state.current.range * state.current.range) {
             return;
         }
         long now = minecraft.level.getGameTime();
-        int duration = CommonConfig.DISPLAY_DURATION.get();
-        int fadeTicks = CommonConfig.FADE_OUT.get();
 
-        float currentAlpha = fade(state.current, now, duration, fadeTicks);
+        float currentAlpha = fade(state.current, now, state.current.duration, state.current.fadeTicks);
         if (currentAlpha <= 0.0F) {
             state.current = null;
             return;
         }
-        float previousAlpha = state.previous == null ? 0.0F : fade(state.previous, now, duration, fadeTicks);
+        float previousAlpha = state.previous == null ? 0.0F
+                : entity.distanceToSqr(minecraft.player) > state.previous.range * state.previous.range ? 0.0F
+                : fade(state.previous, now, state.previous.duration, state.previous.fadeTicks);
         if (previousAlpha <= 0.0F) {
             state.previous = null;
         }
@@ -101,10 +102,7 @@ public final class DialogueRenderer {
     }
 
     private static float fade(Bubble bubble, long now, int duration, int fadeTicks) {
-        long age = now - bubble.startTick;
-        if (age < 0) {
-            return 0.0F;
-        }
+        long age = Math.max(0, now - bubble.startTick);
         if (age >= duration) {
             return 0.0F;
         }
