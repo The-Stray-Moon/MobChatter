@@ -1,5 +1,6 @@
 package com.merrysnow.mobchatter.config;
 
+import com.merrysnow.mobchatter.platform.DialogueConfig;
 import net.minecraftforge.common.ForgeConfigSpec;
 
 public final class CommonConfig {
@@ -14,6 +15,7 @@ public final class CommonConfig {
     public static final ForgeConfigSpec.DoubleValue BOTTOM_SCALE;
     public static final ForgeConfigSpec.DoubleValue BOTTOM_ALPHA;
     public static final ForgeConfigSpec.ConfigValue<String> LANGUAGE;
+    public static final ForgeConfigSpec.BooleanValue REQUIRE_RECEIVER;
 
     static {
         ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
@@ -34,6 +36,8 @@ public final class CommonConfig {
                 .defineInRange("bottomLineAlpha", 0.55D, 0.1D, 1.0D);
         LANGUAGE = builder.comment("Bubble language: zh or en.")
                 .defineInList("language", "zh", java.util.List.of("zh", "en"));
+        REQUIRE_RECEIVER = builder.comment("Only show chatter for players wearing the radio receiver.")
+                .define("requireReceiver", false);
         builder.pop();
         builder.push("trigger");
         SCENARIO_COOLDOWN = builder.comment("Server-controlled minimum ticks between the same scenario for one entity.")
@@ -43,6 +47,63 @@ public final class CommonConfig {
         builder.pop();
         SPEC = builder.build();
     }
+
+    public static final DialogueConfig ADAPTER = new DialogueConfig() {
+        @Override
+        public boolean enabled() {
+            return ENABLED.get();
+        }
+
+        @Override
+        public double maxDistance() {
+            return MAX_DISTANCE.get();
+        }
+
+        @Override
+        public int displayDuration() {
+            return DISPLAY_DURATION.get();
+        }
+
+        @Override
+        public int fadeOut() {
+            return FADE_OUT.get();
+        }
+
+        @Override
+        public int scenarioCooldown() {
+            return SCENARIO_COOLDOWN.get();
+        }
+
+        @Override
+        public double chance() {
+            return CHANCE.get();
+        }
+
+        @Override
+        public double lineSpacing() {
+            return LINE_SPACING.get();
+        }
+
+        @Override
+        public double bottomScale() {
+            return BOTTOM_SCALE.get();
+        }
+
+        @Override
+        public double bottomAlpha() {
+            return BOTTOM_ALPHA.get();
+        }
+
+        @Override
+        public String language() {
+            return LANGUAGE.get();
+        }
+
+        @Override
+        public boolean requireReceiver() {
+            return REQUIRE_RECEIVER.get();
+        }
+    };
 
     private CommonConfig() {
     }

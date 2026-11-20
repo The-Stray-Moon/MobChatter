@@ -43,10 +43,37 @@ neoForge {
 repositories {
     mavenCentral()
     mavenLocal()
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+        }
+        filter { includeGroup "maven.modrinth" }
+    }
 }
 
 dependencies {
+    compileOnly files('libs/curios-15.0.0-beta.1+26.1.jar')
+    jarJar(implementation('org.tukaani:xz:1.10'))
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher:1.11.4'
+}
+
+configurations.configureEach {
+    resolutionStrategy.eachDependency { details ->
+        // KubeJS 26.1 depends on these through version ranges that only maven.latvian.dev
+        // can list. Pin the cached builds so hot-debug resolves without that host.
+        if (details.requested.group == 'dev.latvian.mods' && details.requested.name == 'better-advanced-tooltips') {
+            details.useVersion '2601.1.0-build.9'
+        }
+        if (details.requested.group == 'dev.latvian.apps' && details.requested.name == 'tiny-java-server') {
+            details.useVersion '1.0.0-build.45'
+        }
+        if (details.requested.group == 'com.github.rtyley' && details.requested.name == 'animated-gif-lib-for-java') {
+            details.useVersion 'animated-gif-lib-1.7'
+        }
+    }
 }
 
 tasks.named('processResources', ProcessResources).configure {
@@ -70,3 +97,8 @@ tasks.named('processResources', ProcessResources).configure {
 
 apply from: file('../../gradle/target-conventions/hot-debug.gradle')
 apply from: file('../../gradle/target-conventions/publish.gradle')
+
+// NeoForge 26.1 has no additional runtime classpath, so hot-debug mods must join the normal runtime classpath.
+dependencies {
+    runtimeOnly files(configurations.hotDebugRuntime)
+}

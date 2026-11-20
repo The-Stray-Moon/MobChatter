@@ -43,6 +43,32 @@ neoForge {
 repositories {
     mavenCentral()
     mavenLocal()
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+        }
+        filter { includeGroup "maven.modrinth" }
+    }
+}
+
+dependencies {
+    compileOnly files('libs/curios-9.5.1+1.21.1.jar')
+    jarJar(implementation('org.tukaani:xz:1.10'))
+    // Legacy classpath entries are visible to the mod class loader in dev; the plain
+    // implementation dependency is not.
+    additionalRuntimeClasspath 'org.tukaani:xz:1.10'
+}
+
+configurations.configureEach {
+    resolutionStrategy {
+        // KubeJS 2101.7.2 depends on these modules through version ranges, which forces a
+        // maven-metadata.xml lookup on maven.latvian.dev. Pin the cached builds instead.
+        force 'dev.latvian.apps:tiny-java-server:1.0.0-build.33'
+        force 'dev.latvian.mods:better-advanced-tooltips:2101.1.0-build.1'
+    }
 }
 
 tasks.named('processResources', ProcessResources).configure {
@@ -65,4 +91,10 @@ tasks.named('processResources', ProcessResources).configure {
 }
 
 apply from: file('../../gradle/target-conventions/hot-debug.gradle')
+// FML discovers mods from the source set runtime classpath, not from the legacy classpath.
+configurations.runtimeClasspath.extendsFrom(configurations.hotDebugRuntime)
+neoForge.runs.configureEach {
+    additionalRuntimeClasspathConfiguration.setExtendsFrom(
+            additionalRuntimeClasspathConfiguration.extendsFrom.findAll { it != configurations.hotDebugRuntime })
+}
 apply from: file('../../gradle/target-conventions/publish.gradle')

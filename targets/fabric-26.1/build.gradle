@@ -5,6 +5,24 @@ plugins {
 
 apply from: file('../../gradle/target-conventions/shared.gradle')
 
+loom {
+    runs {
+        client {
+            client()
+            configName = 'Client'
+            ideConfigGenerated = true
+            runDir = 'run'
+        }
+        server {
+            server()
+            configName = 'Server'
+            ideConfigGenerated = true
+            programArgs '--nogui'
+            runDir = 'run'
+        }
+    }
+}
+
 java {
     toolchain.languageVersion = JavaLanguageVersion.of(25)
 }
@@ -25,6 +43,7 @@ dependencies {
     minecraft "com.mojang:minecraft:${fabric_minecraft_version}"
     implementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
     implementation "net.fabricmc.fabric-api:fabric-api:${fabric_api_version}"
+    include(implementation('org.tukaani:xz:1.10'))
 
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher:1.11.4'
 }

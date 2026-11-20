@@ -106,3 +106,10 @@ $RECYCLE.BIN/
 .Trash-*
 .nfs*
 Icon
+
+# Curios compile-only API jars (optional dependency)
+!targets/neoforge-1.21.1/libs/*.jar
+!targets/neoforge-26.1/libs/*.jar
+
+# Local compile/runtime helper artifacts
+!gradle/local-repo/**/*.jar

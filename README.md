@@ -15,14 +15,14 @@ Creature chatter bubbles rendered above mobs.
 
 | Target | Gradle JVM | CI 配置 | 项目验证状态 |
 | --- | --- | --- | --- |
-| fabric-1.20.1 | JDK 17 | true | Pending verification |
-| fabric-1.21.1 | JDK 21 | true | Pending verification |
-| fabric-26.1 | JDK 25 | true | Pending verification |
-| forge-1.18.2 | JDK 21 | true | Pending verification |
-| forge-1.19.2 | JDK 21 | true | Pending verification |
+| fabric-1.20.1 | JDK 17 | true | 构建/测试通过；runServer/runClient 启动通过 |
+| fabric-1.21.1 | JDK 21 | true | 构建/测试通过；runServer/runClient 启动通过 |
+| fabric-26.1 | JDK 25 | true | 构建/测试通过；runServer/runClient 启动通过 |
+| forge-1.18.2 | JDK 21 | true | 构建/测试通过；runServer/runClient 启动通过 |
+| forge-1.19.2 | JDK 21 | true | 构建/测试通过；runServer/runClient 启动通过 |
 | forge-1.20.1 | JDK 21 | true | 构建/测试通过；AutoJS 完整 KubeJS 模式的双客户端＋专用服启动、同句广播及范围进出断言通过；阴影视觉未验收 |
-| neoforge-1.21.1 | JDK 21 | true | Pending verification |
-| neoforge-26.1 | JDK 25 | true | Pending verification |
+| neoforge-1.21.1 | JDK 21 | true | 构建/测试通过；runServer/runClient 启动通过 |
+| neoforge-26.1 | JDK 25 | true | 构建/测试通过；runServer/runClient 启动通过 |
 
 ## 功能
 
@@ -30,11 +30,15 @@ Creature chatter bubbles rendered above mobs.
 
 - 每个生物在不同时机冒出一句台词，最多两行。
 - 第一行正常白色；新台词进入时，上一句被挤到第二行，缩小到 0.8 倍并降到 55% 不透明度。
-- **客户端和服务端都必须安装**，网络通道拒绝缺失模组或协议不匹配的连接。服务端判定触发并统一生成随机种子，客户端只从本地资源包选句、渲染，不再自行触发。单人游戏由集成服务器负责触发。
+- **客户端和服务端都必须安装**。Forge 1.20.1 的 SimpleChannel 严格拒绝缺失模组或协议不匹配的连接；其他 target 依赖各自 loader 的 payload 通道检查，原版客户端不会收到气泡包。服务端判定触发并统一生成随机种子，客户端只从本地资源包选句、渲染，不再自行触发。单人游戏由集成服务器负责触发。
 - 服务端显示范围默认 32 格；同维度、正在追踪实体且处于范围内的全部玩家收到相同信号。进入范围或新开始追踪的玩家会补收尚未过期的当前信号，不重置寿命。客户端移出范围会隐藏气泡。
-- 所有配置统一注册为 `COMMON`，双端均使用各自的 `config/mobchatter-common.toml`。服务端读取范围、显示时长、淡出、触发开关、冷却及概率，客户端读取本机语言、排版及显示开关。COMMON 文件不会自动同步，但服务端权威参数随台词信号下发，客户端同名范围/时长参数不参与判定。单人集成服务器与客户端共用同一份配置。拆分版本的 `mobchatter-client.toml` / `mobchatter-server.toml` 不再读取，如曾使用需手动合并到 common 文件。
-- 触发情景：行走、呆立、看向玩家、受伤（含 9 种伤害类型）、被食物吸引、与玩家碰撞、交配、拾取物品、锁定目标瞬间、索敌中、近战挥击、生成。
-- 台词资源来自 `common/src/main/resources/assets/mobchatter/dialogue.json.xz`，覆盖 6,507 个实体、约 100 万句中英对照；默认显示中文，可在配置中改为英文。使用 XZ preset 6 无损压缩，通过 `python tools/build_mod_dialogue.py` 生成；原有 gzip 资源不再打包。Forge 1.20.1 内嵌 `org.tukaani:xz:1.10` 解码库（Jar-in-Jar），玩家无需另装依赖。自定义资源包需提供同路径的 XZ 文件，旧 `.gz` 文件不再读取。
+- Forge/NeoForge 只注册一份 `ModConfig.Type.COMMON`；Fabric 读取相同键的 `config/mobchatter-common.toml`（启动时加载，修改后需重启）。双端各自使用本机文件。服务端读取范围、显示时长、淡出、触发开关、冷却及概率，客户端读取本机语言、排版及显示开关。COMMON 文件不会自动同步，但服务端权威参数随台词信号下发，客户端同名范围/时长参数不参与判定。单人集成服务器与客户端共用同一份配置。拆分版本的 `mobchatter-client.toml` / `mobchatter-server.toml` 不再读取，如曾使用需手动合并到 common 文件。
+- 新增头部饰品 **电波接收器**（`mobchatter:radio_receiver`）。配置 `display.requireReceiver`（默认 `false`）打开后，只有佩戴者才能看见生物台词；摘下后已在显示的气泡立即隐藏，重新戴上会恢复剩余寿命内的气泡。
+  - Forge/NeoForge 安装 Curios 时可放入 `head` 槽；Curios 是可选依赖，不安装也能用。无 Curios 时右键把接收器放入原版头盔槽（1.18.2–1.21.1）；26.1 使用原版 `Equippable` 组件，右键直接换装。
+  - Fabric 没有 Curios，使用原版头盔槽；26.1 同样走 `Equippable`。
+  - Forge 1.20.1、NeoForge 1.21.1/26.1、Fabric 1.20.1/1.21.1 会出现在“工具与实用物品”创造模式页；Fabric 26.1 与 Forge 1.18.2/1.19.2 可用 `/give mobchatter:radio_receiver` 获取。
+- 触发情景：行走、呆立、看向玩家、受伤（含 9 种伤害类型）、被食物吸引、与玩家碰撞、交配、拾取物品、锁定目标瞬间、索敌中、近战挥击、生成。Fabric 1.20.1 的伤害触发发生在结算前（`ALLOW_DAMAGE`），其余 target 使用结算后事件；被完全吸收或取消的伤害判定因此略有差异。
+- 台词资源来自 `common/src/main/resources/assets/mobchatter/dialogue.json.xz`，覆盖 6,507 个实体、约 100 万句中英对照；默认显示中文，可在配置中改为英文。使用 XZ preset 6 无损压缩，通过 `python tools/build_mod_dialogue.py` 生成；原有 gzip 资源不再打包。所有 target 都内嵌 `org.tukaani:xz:1.10` 解码库（Forge/NeoForge Jar-in-Jar，Fabric `include`），玩家无需另装依赖。自定义资源包需提供同路径的 XZ 文件，旧 `.gz` 文件不再读取。
 
 客户端指令：
 
@@ -44,7 +48,7 @@ Creature chatter bubbles rendered above mobs.
 
 在当前已加载世界中收集已加载的生物实体，排除玩家和已有台词数据的实体，按实体 ID 排序后复制到系统剪贴板；聊天栏会显示复制数量。没有进入世界时指令会提示错误；没有未支持生物时会复制空文本并提示无结果。资源包显式禁用的实体仍视为已有记录，不会误报为缺失。此指令不枚举整合包内所有注册类型，也不加载区块。
 
-当前 Forge 1.20.1 干净构建及 13 项测试通过（含指令树注册、资源包移除后的支持查询、COMMON 配置与网络信号测试）。AutoJS 映射及连接问题已解决；剪贴板写入和聊天反馈仍未专项实测，不以多人台词验证替代。
+2026-11-20：共享层及全部 8 个 target 的 `build`/测试通过，且每个 target 的 `runServer` 与 `runClient` 均实际启动到 `Done (` / `Sound engine started`；AutoJS 端点可用时均通过 `status` 与物品注册检查（Forge 1.18.2/1.19.2/1.20.1 使用 JDK 21，NeoForge 1.21.1/Fabric 1.20.1/1.21.1 使用 JDK 21，26.1 目标使用 JDK 25）。common 测试覆盖对话补丁合并、资源包分层与坏文件跳过、XZ 语料校验、信号编解码、配置解析和气泡布局；Forge 1.20.1 另有指令树、COMMON 配置和网络协议测试。全部 target 已完成启动级验证；完整的多人台词同步、资源包切换、剪贴板写入、聊天反馈和视觉验收仍只在 Forge 1.20.1 有历史记录，未逐一重跑。
 
 主要配置项：
 
@@ -61,12 +65,13 @@ Creature chatter bubbles rendered above mobs.
 | 客户端 | `display.bottomLineScale` | 0.8 | 第二行缩放 |
 | 客户端 | `display.bottomLineAlpha` | 0.55 | 第二行不透明度 |
 | 客户端 | `display.language` | zh | `zh` / `en` |
+| 客户端 | `display.requireReceiver` | false | 仅佩戴电波接收器时显示台词；Fabric 文件配置同名键 |
 
 服务端每实体每 tick 最多发送一条新台词，按受伤、生成、锁定/索敌、挥击、拾取等优先级仲裁，不随观察玩家数量重复随机。受伤使用服务端 `LivingDamageEvent` 的最终正伤害和伤害类型/标签；全被吸收或取消的伤害不触发。行走、呆立、挥击、手持物品数量增加和动物状态由服务端采样；`look_player` 根据服务端玩家朝向射线及方块遮挡判定。生成只针对新加入世界的实体，不把磁盘加载或玩家首次看到旧实体当成生成。
 
 同一信号包含相同的情景、随机种子、序号和开始 tick，客户端按 `floorMod(seed, 台词数量)` 选句；要求各客户端台词库内容和顺序一致。语言不同会显示同一对照句的不同语言，自定义资源包不同则不保证文字一致。
 
-当前实现位于 `targets/forge-1.20.1`。其他 target 尚未实现该功能的适配层。
+共享触发、信号、选句、资源合并、指令和布局位于 `common/`，通过 `MobChatterPlatform` SPI 组合；各 `targets/<loader>-<version>` 只保留确证差异：配置系统、网络通道、事件注册、资源重载入口、伤害分类、实体/维度 ID 访问和渲染管线。Forge 1.18.2/1.19.2、Forge 1.20.1、NeoForge 1.21.1/26.1、Fabric 1.20.1/1.21.1/26.1 均已接入。
 
 支持资源包在 `assets/<实体命名空间>/mobchatter/dialogue/<实体路径>.json` 新增、追加、覆盖和禁用台词。同路径按资源包从低到高分层合并，支持整实体或单场景覆盖；切换资源包或 `F3+T` 重载后发布新快照并清理客户端气泡，不改变服务端冷却。普通 JSON 无需 XZ 工具，格式与示例见 [对话资源包指南](docs/DIALOGUE_RESOURCE_PACKS.md)。
 
@@ -87,7 +92,9 @@ AutoJS / 多人验证（2026-11-19，Forge 1.20.1）：已修复开发模组发�
 
 ### 构建注意
 
-`maven.neoforged.net` 在当前网络不可达，`targets/forge-1.20.1/build.gradle` 已将 `net.jodah:typetools`、`log4j`、`cpw.mods:modlauncher` 的超范围版本固定为可从 Maven Central / Forge Maven 解析的具体版本，并缩短了 Gradle HTTP 超时。
+`maven.neoforged.net` 在当前网络不可达。Forge 1.20.1 将 `net.jodah:typetools`、`log4j`、`cpw.mods:modlauncher` 的超范围版本固定为可从 Maven Central / Forge Maven 解析的具体版本，并缩短了 Gradle HTTP 超时；Forge 1.18.2/1.19.2 同样固定 `typetools`、`eventbus`、`coremods`、`modlauncher`，避免 NeoForm 解析动态版本时访问不可达仓库。Curios 仅用于 `compileOnly`，不会打入发布 jar；1.18.2/1.19.2/1.20.1 从 Modrinth Maven 解析，NeoForge 1.21.1/26.1 的上游 Maven 当前不可达，API jar 放在对应 `libs/` 供编译使用。玩家端 Curios 仍是可选安装。
+
+运行级修复记录：1.18.2/1.19.2 使用 `pack.mcmeta`；1.19.2 固定 forgespi `6.0.0`、typetools `0.8.3`（`gradle/local-repo`），Rhino 改用 Modrinth 坐标并关闭会在专用服崩溃的 KubeJS `1902.6.2-build.74`；NeoForge 1.21.1/26.1 固定 KubeJS 浮动传递依赖并把热调试运行时接入 run classpath；26.1 物品注册使用带 `setId(...)` 的注册重载。
 
 ## 开发与构建
 

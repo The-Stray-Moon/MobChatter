@@ -38,9 +38,11 @@
 
 - 以运行时 loader/version 判断、反射分发或同名 class 覆盖来伪装兼容不同 target。
 - 某个 target 专属的资源路径。
-- 为掩盖某个 target 的编译错误而加入的抽象泄漏；正确做法是在该 target 的 `commonJava` 中 `exclude` 对应文件。
+- 为掩盖某个 target 的编译错误而加入的抽象泄漏；正确做法是通过平台契约表达确证差异，或在整文件不可用时于该 target 的 `commonJava` 中 `exclude`。
 
-版本差异通过 target 的 `commonJava` `exclude` 登记：某个 common 文件在该 target 上有确证差异时，在该 target 的 `commonJava` 里 `exclude '<路径>'`，并把该 target 自己的实现放进 target。
+范围较小的版本差异优先通过 `common` 的 `platform.MobChatterPlatform` 契约收敛：共享逻辑留在 `common`，target 入口显式 `Platforms.install(...)` 提供差异实现。当前的差异点包括实体/维度 ID 访问、伤害分类、配置读取、网络发送和 `onGround`；26.1 的渲染提交与资源重载签名也由 target 自己实现。禁止用运行时版本判断、反射或同名类覆盖隐藏差异。
+
+只有当整个共享文件在某 target 上无法成立时，才通过 target 的 `commonJava` `exclude` 登记：在该 target 的 `commonJava` 里 `exclude '<路径>'`，并把该 target 自己的实现放进 target。
 
 ### target
 

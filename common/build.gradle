@@ -32,13 +32,34 @@ legacyForge {
     version = "${forge_minecraft_version}-${forge_version}"
 }
 
+configurations.configureEach {
+    resolutionStrategy.eachDependency { details ->
+        if (details.requested.group == 'net.jodah' && details.requested.name == 'typetools') {
+            details.useVersion '0.6.3'
+        }
+        if (details.requested.group == 'org.apache.logging.log4j') {
+            details.useVersion '2.19.0'
+        }
+        if (details.requested.group == 'cpw.mods' && details.requested.name == 'modlauncher') {
+            details.useVersion '10.0.9'
+        }
+    }
+}
+
 repositories {
     mavenCentral()
 }
 
+sourceSets.test {
+    compileClasspath += sourceSets.main.compileClasspath
+    runtimeClasspath += sourceSets.main.runtimeClasspath
+}
+
 dependencies {
+    implementation 'org.tukaani:xz:1.10'
     testImplementation platform('org.junit:junit-bom:5.10.2')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'com.google.code.gson:gson:2.10.1'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 

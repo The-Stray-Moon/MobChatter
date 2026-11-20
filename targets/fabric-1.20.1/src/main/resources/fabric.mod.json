@@ -8,7 +8,8 @@
   "license": "${mod_license}",
   "environment": "*",
   "entrypoints": {
-    "main": ["com.merrysnow.mobchatter.MobChatterFabric"]
+    "main": ["com.merrysnow.mobchatter.MobChatterFabric"],
+    "client": ["com.merrysnow.mobchatter.MobChatterFabricClient"]
   },
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",

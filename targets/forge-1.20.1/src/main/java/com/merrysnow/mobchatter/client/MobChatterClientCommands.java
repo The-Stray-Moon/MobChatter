@@ -5,18 +5,12 @@ import com.mojang.brigadier.context.CommandContext;
 import net.minecraft.client.Minecraft;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.player.Player;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.RegisterClientCommandsEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.Set;
-import java.util.TreeSet;
 
 import static net.minecraft.commands.Commands.literal;
 
@@ -39,18 +33,8 @@ public final class MobChatterClientCommands {
             context.getSource().sendFailure(Component.translatable("commands.mobchatter.no_level"));
             return 0;
         }
-        Set<String> unsupported = new TreeSet<>();
-        for (Entity entity : minecraft.level.entitiesForRendering()) {
-            if (!(entity instanceof LivingEntity) || entity instanceof Player) {
-                continue;
-            }
-            ResourceLocation id = ForgeRegistries.ENTITY_TYPES.getKey(entity.getType());
-            if (id != null && !DialogueManager.isSupported(id.toString())) {
-                unsupported.add(id.toString());
-            }
-        }
-        String copied = String.join("\n", unsupported);
-        minecraft.keyboardHandler.setClipboard(copied);
+        Set<String> unsupported = UnsupportedScanner.collect(minecraft.level);
+        minecraft.keyboardHandler.setClipboard(UnsupportedScanner.joined(unsupported));
         if (unsupported.isEmpty()) {
             context.getSource().sendSuccess(
                     () -> Component.translatable("commands.mobchatter.unsupported.none"), false);

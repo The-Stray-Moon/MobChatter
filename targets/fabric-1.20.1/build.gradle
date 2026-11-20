@@ -16,6 +16,24 @@ apply plugin: 'me.modmuss50.mod-publish-plugin'
 
 apply from: file('../../gradle/target-conventions/shared.gradle')
 
+loom {
+    runs {
+        client {
+            client()
+            configName = 'Client'
+            ideConfigGenerated = true
+            runDir = 'run'
+        }
+        server {
+            server()
+            configName = 'Server'
+            ideConfigGenerated = true
+            programArgs '--nogui'
+            runDir = 'run'
+        }
+    }
+}
+
 java {
     toolchain.languageVersion = JavaLanguageVersion.of(17)
 }
@@ -33,6 +51,7 @@ dependencies {
     mappings loom.officialMojangMappings()
     modImplementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_api_version}"
+    include(implementation('org.tukaani:xz:1.10'))
 }
 
 tasks.named('processResources', ProcessResources).configure {

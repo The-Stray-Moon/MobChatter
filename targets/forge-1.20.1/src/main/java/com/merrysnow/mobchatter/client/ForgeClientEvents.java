@@ -1,0 +1,34 @@
+package com.merrysnow.mobchatter.client;
+
+import com.merrysnow.mobchatter.MobChatterForge;
+import com.merrysnow.mobchatter.network.DialogueSignal;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.event.TickEvent;
+import net.minecraftforge.event.entity.EntityLeaveLevelEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+
+@Mod.EventBusSubscriber(modid = MobChatterForge.MOD_ID, value = Dist.CLIENT,
+        bus = Mod.EventBusSubscriber.Bus.FORGE)
+public final class ForgeClientEvents {
+    private ForgeClientEvents() {
+    }
+
+    public static void receive(DialogueSignal signal) {
+        ClientDialogueController.receive(signal);
+    }
+
+    @SubscribeEvent
+    public static void onClientTick(TickEvent.ClientTickEvent event) {
+        if (event.phase == TickEvent.Phase.END) {
+            ClientDialogueController.tick();
+        }
+    }
+
+    @SubscribeEvent
+    public static void onLeave(EntityLeaveLevelEvent event) {
+        if (event.getLevel().isClientSide()) {
+            ClientDialogueController.onEntityLeave(event.getEntity());
+        }
+    }
+}

@@ -15,7 +15,7 @@ class CommonConfigTest {
                 CommonConfig.ENABLED, CommonConfig.MAX_DISTANCE, CommonConfig.DISPLAY_DURATION,
                 CommonConfig.FADE_OUT, CommonConfig.SCENARIO_COOLDOWN, CommonConfig.CHANCE,
                 CommonConfig.LINE_SPACING, CommonConfig.BOTTOM_SCALE, CommonConfig.BOTTOM_ALPHA,
-                CommonConfig.LANGUAGE)) {
+                CommonConfig.LANGUAGE, CommonConfig.REQUIRE_RECEIVER)) {
             assertSame(value, CommonConfig.SPEC.getValues().get(value.getPath()));
         }
         assertEquals(List.of("display", "maxDistance"), CommonConfig.MAX_DISTANCE.getPath());
@@ -25,5 +25,6 @@ class CommonConfigTest {
         assertEquals(160, CommonConfig.SCENARIO_COOLDOWN.getDefault());
         assertEquals(0.35D, CommonConfig.CHANCE.getDefault());
         assertEquals("zh", CommonConfig.LANGUAGE.getDefault());
+        assertEquals(false, CommonConfig.REQUIRE_RECEIVER.getDefault());
     }
 }

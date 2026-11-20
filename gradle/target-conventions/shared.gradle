@@ -26,6 +26,8 @@ sourceSets {
     test {
         java.srcDir '../../common/src/test/java'
         resources.srcDir '../../common/src/test/resources'
+        compileClasspath += sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.runtimeClasspath
     }
 }
 
@@ -37,6 +39,7 @@ repositories {
 
 dependencies {
     implementation fileTree(dir: file('libs'), include: ['*.jar'], exclude: ['*-sources.jar', '*-javadoc.jar'])
+    implementation 'org.tukaani:xz:1.10'
     testImplementation platform('org.junit:junit-bom:5.10.2')
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testImplementation 'com.google.code.gson:gson:2.10.1'

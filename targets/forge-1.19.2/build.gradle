@@ -64,13 +64,46 @@ legacyForge {
     }
 }
 
+configurations.configureEach {
+    resolutionStrategy.eachDependency { details ->
+        if (details.requested.group == 'net.jodah' && details.requested.name == 'typetools') {
+            details.useVersion '0.8.3'
+        }
+        if (details.requested.group == 'net.minecraftforge' && details.requested.name == 'eventbus') {
+            details.useVersion '6.0.3'
+        }
+        if (details.requested.group == 'net.minecraftforge' && details.requested.name == 'coremods') {
+            details.useVersion '5.0.3'
+        }
+        if (details.requested.group == 'net.minecraftforge' && details.requested.name == 'forgespi') {
+            details.useVersion '6.0.0'
+        }
+        if (details.requested.group == 'cpw.mods' && details.requested.name == 'modlauncher') {
+            details.useVersion '10.0.9'
+        }
+        if (details.requested.group == 'org.apache.logging.log4j' && details.requested.name == 'log4j-api') {
+            details.useVersion '2.19.0'
+        }
+        if (details.requested.group == 'org.apache.logging.log4j' && details.requested.name == 'log4j-core') {
+            details.useVersion '2.19.0'
+        }
+    }
+}
+
 repositories {
+    maven {
+        name = "LocalDeps"
+        url = uri("../../gradle/local-repo")
+        content { includeGroup "net.jodah" }
+    }
     mavenCentral()
     maven {
         name = "MinecraftForge"
         url = "https://maven.minecraftforge.net/"
         content {
             includeGroup "net.minecraftforge"
+            includeGroup "cpw.mods"
+            includeGroup "de.oceanlabs.mcp"
         }
     }
     maven {
@@ -86,6 +119,21 @@ repositories {
         content {
             includeGroup "maven.modrinth"
         }
+    }
+}
+
+dependencies {
+    jarJar(implementation('org.tukaani:xz:1.10'))
+    additionalRuntimeClasspath 'org.tukaani:xz:1.10'
+    compileOnly 'maven.modrinth:curios:1.19.2-5.1.6.4'
+}
+
+// maven.neoforged.net is unreachable from this network; the Forge Maven mirror
+// hosts the same legacy artifacts. Restrict the unavailable repository to the
+// NeoFormRuntime tool so Gradle does not try it for Forge artifacts.
+repositories.withType(MavenArtifactRepository).configureEach { repository ->
+    if (repository.name == 'NeoForged Releases') {
+        repository.content { includeGroup 'net.neoforged' }
     }
 }
 
@@ -143,4 +191,9 @@ tasks.named('jacocoTestReport', JacocoReport).configure {
 }
 
 apply from: file('../../gradle/target-conventions/hot-debug.gradle')
+configurations.runtimeClasspath.extendsFrom(configurations.hotDebugRuntime)
+legacyForge.runs.configureEach {
+    additionalRuntimeClasspathConfiguration.setExtendsFrom(
+            additionalRuntimeClasspathConfiguration.extendsFrom.findAll { it != configurations.hotDebugRuntime })
+}
 apply from: file('../../gradle/target-conventions/publish.gradle')

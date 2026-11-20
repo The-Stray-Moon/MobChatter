@@ -6,14 +6,16 @@
 
 - 默认将没有确证 loader / Minecraft 版本差异的代码与资源放在 `common/`，允许引用 Minecraft 和 loader 类型；平台类型依赖本身不是拆分理由。
 - 只有阅读实际源码/API 确证差异后，才将相应实现移到 target；差异记录在 target 的 `commonJava { exclude 'path/to/File.java' }`，只排除共享来源文件，不排除 target 的替代实现。
+- 跨版本差异统一通过 common 的 `platform.MobChatterPlatform` 契约收敛：各 loader 入口显式 `Platforms.install(...)`，禁止反射、ServiceLoader 猜测或按运行时版本分支。已确证的差异包括：1.18.2/1.19.2 使用 `Entity.level` 字段与 `isOnGround()`；1.20+ 使用 `level()`/`onGround()`；`ResourceLocation` 在 26.1 更名 `Identifier`、`ResourceKey#location()` 更名 `identifier()`（共享信号与选句使用字符串 ID）；1.18.2/1.19.2 伤害分类用 `DamageSource#getMsgId` 与谓词，1.20+ 用 `DamageTypeTags`；Fabric 1.20.1 的 API 没有受伤后事件，只能监听 `ALLOW_DAMAGE`（结算前），1.21.1/26.1 使用 `AFTER_DAMAGE`；Forge/NeoForge 用各自 config spec，Fabric 用 `FileDialogueConfig`；网络分别为 SimpleChannel、`CustomPacketPayload` 与 Fabric payload；资源重载与渲染入口按版本 API 实装。
 - `shared.gradle` 直接将 common 原文件接入 target 源码集。禁止复制源码到 build、依赖 common jar、重复添加 common 源码根或使用 `project(':common')`。
 - 不以运行时版本判断、反射分发或 classpath 同名类覆盖隐藏兼容性问题。每个产物只对应一个 loader 和 Minecraft 版本，不发布 universal jar。
 - 单 target 改动限定在该目标；common 改动需验证所有受影响目标。不得顺手修改其他版本或未经验证统一 API。
 - Forge 1.20.1 头顶文字沿用 `Font.drawInBatch(..., shadow=true, NORMAL)` 原版 GUI 阴影；billboard 局部 Z 需朝向相机，使 `Font` 的正文 `+0.03` 深度偏移在阴影前方，不手绘反向阴影。构建与源码推导不能代替 AutoJS 运行及视觉验证。
 - Forge 1.20.1 要求双端安装，严格校验 `mobchatter:dialogue` 协议。原始触发、概率、冷却与范围只由服务端决定，按追踪关系、同维度及距离广播单份带 seed/sequence/startTick 的 S2C 信号；客户端仅按 `floorMod(seed, lines.size())` 选句，禁止客户端再次随机或触发。同台词库、同顺序时选句一致；资源包或语言不同可能显示不同。所有配置只注册一份 `ModConfig.Type.COMMON`，文件为双端各自的 `config/mobchatter-common.toml`。服务端读取触发及范围/时长，客户端读取本地语言/样式/显示开关；COMMON 不自动同步，权威显示参数随信号下发，客户端同名参数不得覆盖。单人共用同一份配置，禁止重新拆分 CLIENT/SERVER 配置文件。
 - Forge 1.20.1 客户端指令 `/mobchatterunsupported` 只扫描客户端当前已加载的非玩家 LivingEntity，按当前资源包合并快照的实体键判断是否已有记录；去重排序后逐行复制剪贴板，不扫描未加载区块、不向服务器发送指令。显式禁用的实体仍算有记录。
-- 对话资源包规范见 `docs/DIALOGUE_RESOURCE_PACKS.md`；共享补丁解析/合并位于 common，Forge 1.20.1 在资源重载 prepare 阶段读取基础库及低到高的完整 JSON 资源栈，apply 阶段一次性发布快照并清理气泡。禁止将显式禁用当成缺失而触发 hurt 回退；坏 JSON 按文件原子跳过，坏基础库使重载失败。其他 target 尚未接入对话重载功能。
-- 对话资源使用 `dialogue.json.xz`（XZ preset 6），由 `tools/build_mod_dialogue.py` 生成，禁止同时打包旧 gzip。当前 Forge 1.20.1 加载器通过 Jar-in-Jar 内嵌 `org.tukaani:xz:1.10`；其他目标接入对话功能时需显式配置解码依赖，不假定 loader 自带。
+- 对话资源包规范见 `docs/DIALOGUE_RESOURCE_PACKS.md`；共享补丁解析/合并位于 common，各 target 在资源重载 prepare 阶段读取基础库及低到高的完整 JSON 资源栈，apply 阶段一次性发布快照并清理气泡。禁止将显式禁用当成缺失而触发 hurt 回退；坏 JSON 按文件原子跳过，坏基础库使重载失败。1.18.2 使用 `getResources`/`listResources(String, Predicate<String>)`，1.19.2+ 使用 `getResource`/`listResourceStacks`，26.1 使用新的 `PreparableReloadListener.SharedState` 签名，均由 target 适配。只有客户端安装对话资源包读取；服务端只负责触发与广播。
+- 对话资源使用 `dialogue.json.xz`（XZ preset 6），由 `tools/build_mod_dialogue.py` 生成，禁止同时打包旧 gzip。所有 target 都显式配置 `org.tukaani:xz:1.10` 并内嵌（Forge/NeoForge 使用 Jar-in-Jar，Fabric 使用 Loom `include`），不假定 loader 自带。
+- 电波接收器（`mobchatter:radio_receiver`）的物品逻辑与可见性门控在 common，注册和装备入口在 target。物品注册后用 `ModItems.setRadioReceiver(...)` 安装 supplier，禁止在 common 直接持有 loader registry。Curios 是可选依赖：Forge 1.18.2/1.19.2 在 Curios 存在时注册 `CuriosRadioReceiverItem`（实现 `ICurioItem`），其他 Forge/NeoForge 版本通过 `compileOnly` + `compat/CuriosBridge` 在 `ModList` 检测后 `registerCurio`；`CuriosBridge` 只能在 Curios 存在时加载。Fabric 没有 Curios，使用原版头盔槽。1.18.2–1.21.1 的右键装备回退由 target 的 `RadioReceiverItem` 子类实现；26.1 使用原版 `DataComponents.EQUIPPABLE` 组件，不再 override `use`。`display.requireReceiver` 只控制客户端渲染可见性，不得改变服务端触发、冷却或广播；所有渲染入口必须调用 `ClientDialogueController.canSee()`，摘下饰品后立即隐藏。
 - 共享资源放 common；metadata、Mixin 配置、access widener / transformer 和版本专属资源放 target。同路径资源明确唯一归属，不依赖覆盖顺序。
 - 共用模组元数据放根 `gradle.properties`，版本、loader、JDK 和 `debug_*` 放 target 属性。普通本地 jar 放目标 `libs/`，不假定存在传递依赖。
 - 插件和运行配置归 target；通用源码接入、热调试、发布逻辑分别复用 `gradle/target-conventions/shared.gradle`、`hot-debug.gradle`、`publish.gradle`。
@@ -25,7 +27,8 @@
 - 不额外关联独立 common、根构建或其他完整 target；浏览根排除主 target、common/src、缓存及运行产物。common 内容修改应直接反映到目标索引，构建配置与排除规则修改后重新加载 Gradle。
 - 工作区 composite build 共用工作区 Gradle/JVM，不使用被包含目标的 wrapper；切换前检查兼容性，非主版本用独立 wrapper 验证。
 - 根和 CI 自动扫描 targets，禁止维护固定版本名单。`ci.enabled` 是验证配置，不是兼容性证据。新增目标遵循 [自动发现指南](docs/CI_TARGET_DISCOVERY.md)。
-- 标准验证：target 目录执行 `clean build`；共享层可执行根 `./gradlew -p common build`，但单独 common 成功不代表目标矩阵通过。产物需检查 metadata、共享类、资源及版本范围。
+- 标准验证：target 目录执行 `clean build`；共享层可执行根 `./gradlew -p common build`，但单独 common 成功不代表目标矩阵通过。产物需检查 metadata、共享类、资源及版本范围。涉及启动期注册、配置、网络、资源重载或渲染的改动，还必须在对应 target 实际启动 `runServer`（出现 `Done (`）与 `runClient`（出现 `Sound engine started`），并用 AutoJS `status`/`eval_js` 回读真实状态；不能以编译通过代替。
+- 运行差异记录：1.18.2/1.19.2 需要 `pack.mcmeta`；1.19.2 固定 forgespi `6.0.0`、typetools `0.8.3`，Rhino 使用 Modrinth 坐标，且不要在调试运行启用会崩溃的 KubeJS `1902.6.2-build.74`；NeoForge 1.21.1/26.1 需要把热调试运行时接入 run classpath，并固定 KubeJS 浮动传递依赖；26.1 的物品注册必须通过带 `setId(...)` 的重载；Fabric 1.21.1 的 API 版本需满足 AutoJS 的 `>=0.116.17+1.21.1` 约束。
 
 ## 必须使用 AutoJS 热调试
 

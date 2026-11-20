@@ -1,7 +1,7 @@
 package com.merrysnow.mobchatter.client;
 
 import com.merrysnow.mobchatter.MobChatterForge;
-import com.merrysnow.mobchatter.config.CommonConfig;
+import com.merrysnow.mobchatter.platform.Platforms;
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
@@ -25,41 +25,26 @@ public final class DialogueRenderer {
     @SubscribeEvent
     @SuppressWarnings("rawtypes")
     public static void onRenderLiving(RenderLivingEvent.Post event) {
-        if (!CommonConfig.ENABLED.get()) {
+        if (!Platforms.get().config().enabled() || !ClientDialogueController.canSee()) {
             return;
         }
         LivingEntity entity = event.getEntity();
         if (entity == null) {
             return;
         }
-        DialogueState state = DialogueController.stateOf(entity);
+        DialogueState state = ClientDialogueController.stateOf(entity);
         if (state == null || state.current == null) {
             return;
         }
 
         Minecraft minecraft = Minecraft.getInstance();
-        if (minecraft.level == null || minecraft.player == null
-                || entity.distanceToSqr(minecraft.player) > state.current.range * state.current.range) {
+        if (minecraft.level == null || minecraft.player == null) {
             return;
         }
         long now = minecraft.level.getGameTime();
-
-        float currentAlpha = fade(state.current, now, state.current.duration, state.current.fadeTicks);
-        if (currentAlpha <= 0.0F) {
-            state.current = null;
-            return;
-        }
-        float previousAlpha = state.previous == null ? 0.0F
-                : entity.distanceToSqr(minecraft.player) > state.previous.range * state.previous.range ? 0.0F
-                : fade(state.previous, now, state.previous.duration, state.previous.fadeTicks);
-        if (previousAlpha <= 0.0F) {
-            state.previous = null;
-        }
-
-        boolean english = "en".equals(CommonConfig.LANGUAGE.get());
-        String top = english ? state.current.en : state.current.zh;
-        String bottom = state.previous == null ? null : (english ? state.previous.en : state.previous.zh);
-        if (top == null || top.isEmpty()) {
+        BubbleLayout.View view = BubbleLayout.view(state, now,
+                entity.distanceToSqr(minecraft.player), Platforms.get().config());
+        if (view == null) {
             return;
         }
 
@@ -73,19 +58,16 @@ public final class DialogueRenderer {
         pose.mulPose(minecraft.gameRenderer.getMainCamera().rotation());
         pose.scale(-0.025F, -0.025F, -0.025F);
 
-        int topColor = 0xFFFFFF | (alpha(currentAlpha) << 24);
-        draw(font, pose, buffer, top, 0.0F, topColor, light);
+        int topColor = 0xFFFFFF | (BubbleLayout.alpha(view.topAlpha()) << 24);
+        draw(font, pose, buffer, view.top(), 0.0F, topColor, light);
 
-        if (bottom != null && !bottom.isEmpty()) {
-            float spacing = CommonConfig.LINE_SPACING.get().floatValue();
-            float scale = CommonConfig.BOTTOM_SCALE.get().floatValue();
-            float bottomAlpha = previousAlpha * CommonConfig.BOTTOM_ALPHA.get().floatValue();
-
+        if (view.bottom() != null && !view.bottom().isEmpty()) {
+            float bottomAlpha = view.bottomAlpha() * (float) Platforms.get().config().bottomAlpha();
             pose.pushPose();
-            pose.translate(0.0F, spacing, 0.0F);
-            pose.scale(scale, scale, scale);
-            int bottomColor = 0xFFFFFF | (alpha(bottomAlpha) << 24);
-            draw(font, pose, buffer, bottom, 0.0F, bottomColor, light);
+            pose.translate(0.0F, view.lineSpacing(), 0.0F);
+            pose.scale(view.bottomScale(), view.bottomScale(), view.bottomScale());
+            int bottomColor = 0xFFFFFF | (BubbleLayout.alpha(bottomAlpha) << 24);
+            draw(font, pose, buffer, view.bottom(), 0.0F, bottomColor, light);
             pose.popPose();
         }
         pose.popPose();
@@ -99,21 +81,5 @@ public final class DialogueRenderer {
         // let Font draw the shadow with its own offset.
         font.drawInBatch(text, x, y, color, true, matrix, buffer,
                 Font.DisplayMode.NORMAL, 0, light);
-    }
-
-    private static float fade(Bubble bubble, long now, int duration, int fadeTicks) {
-        long age = Math.max(0, now - bubble.startTick);
-        if (age >= duration) {
-            return 0.0F;
-        }
-        int fadeStart = Math.max(0, duration - fadeTicks);
-        if (age <= fadeStart) {
-            return 1.0F;
-        }
-        return 1.0F - (age - fadeStart) / (float) Math.max(1, fadeTicks);
-    }
-
-    private static int alpha(float value) {
-        return Math.max(0, Math.min(255, (int) (value * 255.0F)));
     }
 }
