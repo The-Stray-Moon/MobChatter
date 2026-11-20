@@ -3,26 +3,9 @@
 Creature chatter bubbles rendered above mobs.
 
 - mod id：mobchatter
-- Java 包名 / Gradle group：com.merrysnow.mobchatter
+- Java 包名 / Gradle group：cc.sighs.mobchatter
 - 作者：MerrySnow
-- 声明的许可证：MIT
-
-## 项目状态
-
-项目已完成工程初始化。功能清单、安装说明、截图和发布说明由维护者补充；此文件不代表已有业务功能或已经完成任何构建、游戏启动和兼容性验证。
-
-以下矩阵在初始化时从实际 target 目录及 `ci.properties` 生成。CI 启用仅表示会参与验证，不等于已验证支持；后续增删版本或改变工具链时同步维护本表。
-
-| Target | Gradle JVM | CI 配置 | 项目验证状态 |
-| --- | --- | --- | --- |
-| fabric-1.20.1 | JDK 17 | true | 构建/测试通过；runServer/runClient 启动通过 |
-| fabric-1.21.1 | JDK 21 | true | 构建/测试通过；runServer/runClient 启动通过 |
-| fabric-26.1 | JDK 25 | true | 构建/测试通过；runServer/runClient 启动通过 |
-| forge-1.18.2 | JDK 21 | true | 构建/测试通过；runServer/runClient 启动通过 |
-| forge-1.19.2 | JDK 21 | true | 构建/测试通过；runServer/runClient 启动通过 |
-| forge-1.20.1 | JDK 21 | true | 构建/测试通过；AutoJS 完整 KubeJS 模式的双客户端＋专用服启动、同句广播及范围进出断言通过；阴影视觉未验收 |
-| neoforge-1.21.1 | JDK 21 | true | 构建/测试通过；runServer/runClient 启动通过 |
-| neoforge-26.1 | JDK 25 | true | 构建/测试通过；runServer/runClient 启动通过 |
+- 声明的许可证：GPL-3.0-only
 
 ## 功能
 

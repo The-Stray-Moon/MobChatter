@@ -11,7 +11,7 @@ param(
     [Parameter(Mandatory = $true, Position = 2, HelpMessage = 'mod_authors.')]
     [string] $Author,
 
-    [Parameter(Mandatory = $true, Position = 3, HelpMessage = 'mod_license, for example MIT.')]
+    [Parameter(Mandatory = $true, Position = 3, HelpMessage = 'mod_license, for example GPL-3.0-only.')]
     [string] $License,
 
     [Parameter(Mandatory = $true, Position = 4, HelpMessage = 'mod_description shown by the loaders.')]

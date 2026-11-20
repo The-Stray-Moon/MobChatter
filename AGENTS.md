@@ -1,6 +1,6 @@
 # MobChatter 开发规范
 
-项目 mod id 为 mobchatter，Java 包名 / Gradle group 为 com.merrysnow.mobchatter。功能与目标配置见 [README](README.md)。本工程已完成初始化；不得再次运行初始化脚本覆盖维护者编辑的文档。初始化不是构建、兼容性或运行行为验证，禁止编造已通过的测试和功能。
+项目 mod id 为 mobchatter，Java 包名 / Gradle group 为 cc.sighs.mobchatter。功能与目标配置见 [README](README.md)。本工程已完成初始化；不得再次运行初始化脚本覆盖维护者编辑的文档。初始化不是构建、兼容性或运行行为验证，禁止编造已通过的测试和功能。
 
 ## 架构与修改边界
 
