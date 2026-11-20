@@ -1,0 +1,248 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我拖着根往前走。", "en": "I drag my roots forward."},
+        {"zh": "身上有芽，一直在长。", "en": "There are shoots on me, always growing."},
+        {"zh": "每走一步都留下水。", "en": "Every step leaves water behind."},
+        {"zh": "我的根抓住地面。", "en": "My roots grip the ground."},
+        {"zh": "我走得很慢，很沉。", "en": "Slow and heavy."},
+        {"zh": "我朝有阳光的地方去。", "en": "I head toward the sun."},
+        {"zh": "藤条在地上拖着。", "en": "Vines trail on the ground."},
+        {"zh": "我一边走一边响。", "en": "I creak as I move."},
+        {"zh": "我绕开干裂的地。", "en": "I skirt the cracked ground."},
+        {"zh": "身上的豆荚在摇。", "en": "The pods on me sway."},
+        {"zh": "我停下，根就扎进去。", "en": "When I stop, the roots dig in."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，芽在动。", "en": "I stand; the shoots stir."},
+        {"zh": "根在地里慢慢伸。", "en": "Roots slowly reach in the soil."},
+        {"zh": "我身上是湿的。", "en": "I'm damp all over."},
+        {"zh": "阳光晒着我的叶子。", "en": "The sun warms my leaves."},
+        {"zh": "我在这一块扎了根。", "en": "I've rooted myself to this spot."},
+        {"zh": "豆荚在轻轻响。", "en": "The pods rustle softly."},
+        {"zh": "我低头发出一声。", "en": "I lower my head and make a sound."},
+        {"zh": "我的呼吸像风。", "en": "My breathing sounds like wind."},
+        {"zh": "土里有什么在动。", "en": "Something moves in the soil."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你身上没有绿。", "en": "There's no green on you."},
+        {"zh": "我这一身都是活的。", "en": "All of this is alive."},
+        {"zh": "我认得这片土。", "en": "I know this soil."},
+        {"zh": "你在看我的豆荚吗？", "en": "Looking at my pods?"},
+        {"zh": "我不喜欢被拔起来。", "en": "I don't like being pulled up."},
+        {"zh": "你退两步就好。", "en": "Two steps back will do."},
+        {"zh": "别盯着我看，我会跟着你的。", "en": "Stop staring at me, or I'll start following you."},
+        {"zh": "源石的光，是不是有点晃眼？", "en": "The originium glow a bit much for your eyes?"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉了几片叶。", "en": "A few leaves came off."},
+        {"zh": "这一下打断了我的藤。", "en": "That broke a vine."},
+        {"zh": "我退了一点，根还扎着。", "en": "I moved a little; the roots held."},
+        {"zh": "里面的水漏出来了。", "en": "The water inside leaked out."},
+        {"zh": "伤口在慢慢合。", "en": "The wound is closing."},
+        {"zh": "你手里全是绿汁。", "en": "Your hands are green now."},
+        {"zh": "我身上的豆荚破了。", "en": "A pod burst on me."},
+        {"zh": "叶被削掉两片，水还在流。", "en": "Two leaves are cut away, but the sap still flows."},
+        {"zh": "我还能再长。", "en": "I can grow it back."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手里那点土够谁用？", "en": "That bit of soil for whom?"},
+        {"zh": "我不吃东西，我喝水。", "en": "I don't eat. I drink."},
+        {"zh": "那东西在手里会枯。", "en": "That'll wither in your hand."},
+        {"zh": "拿远些，我不需要。", "en": "Keep it away. I don't need it."},
+        {"zh": "你手上有水味。", "en": "Your hands smell of water."},
+        {"zh": "把它埋下去才有点用。", "en": "Burying it might help."},
+        {"zh": "我不缺这些。", "en": "I lack none of that."},
+        {"zh": "你举着它，挡了我的光。", "en": "You're blocking my light with it."},
+        {"zh": "你留着种吧。", "en": "Keep it and plant it."},
+        {"zh": "那点东西我看不上。", "en": "That does nothing for me."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "撞到我，像撞一丛灌木。", "en": "Bumping me is like hitting a thicket."},
+        {"zh": "你撞进来，踩断了我两根苗。", "en": "You bump into me and crush two of my sprouts."},
+        {"zh": "我身上的藤蹭到你。", "en": "My vines brushed you."},
+        {"zh": "别挤，我根扎得深。", "en": "Don't crowd. My roots run deep."},
+        {"zh": "你踩在我的根上了。", "en": "You're standing on one of my roots."},
+        {"zh": "湿土被我们踢起来。", "en": "We kicked up wet soil."},
+        {"zh": "你退开的时候很小心。", "en": "You stepped back carefully."},
+        {"zh": "叶子掉了几片。", "en": "A few leaves came off."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我们不是这样繁殖的。", "en": "That's not how we reproduce."},
+        {"zh": "两个我，根会缠在一起。", "en": "Two of us and the roots tangle."},
+        {"zh": "你看着不太好。", "en": "This looks bad to you."},
+        {"zh": "我们靠了一会儿。", "en": "We leaned together a while."},
+        {"zh": "它比我高一些。", "en": "It's taller than I am."},
+        {"zh": "土被我们翻动了。", "en": "We churned the soil."},
+        {"zh": "身边的芽都长快了。", "en": "The shoots around grew faster."},
+        {"zh": "分开时根才松开。", "en": "The roots let go when we parted."},
+        {"zh": "之后它往南边去了。", "en": "Afterwards it went south."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我捡起一块湿土。", "en": "I pick up a clump of wet soil."},
+        {"zh": "我把它按进根里。", "en": "I press it into my roots."},
+        {"zh": "地上有几粒种子。", "en": "A few seeds on the ground."},
+        {"zh": "我捡起来，它发芽了。", "en": "I picked it up and it sprouted."},
+        {"zh": "我的手指很硬。", "en": "My fingers are stiff."},
+        {"zh": "种子落地上，我用根按下去。", "en": "A seed falls; I press it down with a root."},
+        {"zh": "你的东西沾了泥。", "en": "Your thing is muddy now."},
+        {"zh": "我把这块石头推开。", "en": "I pushed this stone aside."},
+        {"zh": "我需要的我自己长。", "en": "I grow what I need myself."},
+        {"zh": "这东西太干，我推回土里。", "en": "This is too dry; I push it back into the soil."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你站在我的土上。", "en": "You're standing on my soil."},
+        {"zh": "你踩上苗圃，土先传上来。", "en": "You step onto the seedbed, and the soil tells me."},
+        {"zh": "根已经伸过去了。", "en": "The roots have already reached."},
+        {"zh": "你踩坏了我的苗。", "en": "You crushed my seedlings."},
+        {"zh": "我整片叶子都朝你转。", "en": "All my leaves turn toward you."},
+        {"zh": "这片苗圃是我的。", "en": "This seedbed is mine."},
+        {"zh": "你身上太干了。", "en": "You're too dry."},
+        {"zh": "我举起手了。", "en": "I've raised my hand."},
+        {"zh": "你退到石头上也没用。", "en": "The rocks won't save you."},
+        {"zh": "我要你离开这里。", "en": "I want you off this ground."},
+        {"zh": "这里的土不给你。", "en": "This soil isn't yours."},
+        {"zh": "我扎得很稳。", "en": "I'm rooted firmly."},
+        {"zh": "你身后的藤会绊你。", "en": "The vines behind you will trip you."},
+        {"zh": "我这一身很重。", "en": "All of this is heavy."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一直朝你那边。", "en": "I keep facing your way."},
+        {"zh": "你在苗圃边上。", "en": "You're at the edge of the seedbed."},
+        {"zh": "根在地下面跟着。", "en": "The roots follow underground."},
+        {"zh": "你绕开也还在我的土上。", "en": "Detours stay on my soil."},
+        {"zh": "我身上的豆荚在响。", "en": "The pods are rattling."},
+        {"zh": "你退了，我还在。", "en": "You retreat. I'm still here."},
+        {"zh": "太阳照着你。", "en": "The sun's on you."},
+        {"zh": "你脚下没有硬地。", "en": "There's no hard ground under you."},
+        {"zh": "再走两步就进土了。", "en": "Two more steps and you're in the soil."},
+        {"zh": "根已经伸到那边了。", "en": "The roots have reached over there."},
+        {"zh": "我走得很慢，但稳。", "en": "Slow, but steady."},
+        {"zh": "你退到石头上，我等着。", "en": "You're on the rocks. I wait."},
+        {"zh": "这一片都是我的土。", "en": "All this soil is mine."},
+        {"zh": "你在苗圃边上喘。", "en": "You're panting at the edge of the seedbed."},
+        {"zh": "藤从后面绕过去了。", "en": "The vines went round behind you."},
+        {"zh": "我扎根的那块土，别人拔不动。", "en": "No one can pull me from the soil I rooted in."},
+        {"zh": "我还在这块地里。", "en": "I'm still in this field."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用手抽过去。", "en": "I swing a hand at you."},
+        {"zh": "藤条缠住你的腿。", "en": "Vines wrapped your legs."},
+        {"zh": "你被推倒在土上。", "en": "You went down on the soil."},
+        {"zh": "我的力气很沉。", "en": "My strength is heavy."},
+        {"zh": "你身上沾了种子。", "en": "Seeds stuck to you."},
+        {"zh": "这一下打得不快。", "en": "Not a fast blow."},
+        {"zh": "我扎着根，推不动。", "en": "Rooted, I can't be pushed."},
+        {"zh": "你退了，我慢慢跟。", "en": "You fell back. I follow slowly."},
+        {"zh": "你身上开始长了。", "en": "Something's growing on you."},
+        {"zh": "两根藤从两边抽你的腿。", "en": "Two vines lash your legs from either side."},
+        {"zh": "土被我们翻开了。", "en": "We turned the soil over."},
+        {"zh": "我的手指有刺。", "en": "My fingers have thorns."},
+        {"zh": "你被按在地上。", "en": "You're pressed to the ground."},
+        {"zh": "再来这么一下试试。", "en": "Try one more like that."},
+        {"zh": "藤只是搭在你肩上，还没收。", "en": "The vine only rests on your shoulder; it has not tightened."},
+        {"zh": "我这一身不会累。", "en": "This body doesn't tire."},
+        {"zh": "你站起来了，很好。", "en": "You got up. Good."},
+        {"zh": "这片土会记住。", "en": "The soil will remember this."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地上先冒出一片绿。", "en": "Green appeared first on the ground."},
+        {"zh": "豆苗的根，扎进源石土。", "en": "Bean roots dig into originium soil."},
+        {"zh": "这一片本来就有根。", "en": "Roots were here already."},
+        {"zh": "我慢慢站直了。", "en": "I straightened up slowly."},
+        {"zh": "土里的水往我这边流。", "en": "Water in the soil runs my way."},
+        {"zh": "我抬头，看见光。", "en": "I looked up and saw light."},
+        {"zh": "这一块地很合适。", "en": "This ground will do."},
+        {"zh": "我闻到土里的东西。", "en": "I smell what's in the soil."},
+        {"zh": "我落地的声音很闷。", "en": "I landed with a dull sound."},
+        {"zh": "叶子跟着我一起出来。", "en": "Leaves came up with me."},
+        {"zh": "我开始扎根了。", "en": "I'm putting down roots."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火一烧，我的叶子全卷了。", "en": "Fire curled all my leaves."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "落地时根断了半截。", "en": "Half my roots broke on landing."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水太多，我也撑不住。", "en": "Too much water and even I can't bear it."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我连根掀了。", "en": "The blast tore me up by the roots."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭扎进我的茎，汁流出来。", "en": "The arrow pierced my stem; sap ran out."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这光让我的芽一下枯了。", "en": "That light withered my shoots."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不吃东西，土就够。", "en": "I don't eat. Soil is enough."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打下来，我身上焦了一块。", "en": "Lightning struck and a patch charred."}
+      ]
+    }
+  }
+}

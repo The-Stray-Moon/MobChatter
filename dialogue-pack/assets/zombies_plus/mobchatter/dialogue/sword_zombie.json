@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "挥舞着铁剑前行。", "en": "Swinging an iron sword forward."},
+        {"zh": "挥舞着钻石剑行走。", "en": "Swinging a diamond sword while walking."},
+        {"zh": "在荒野中游荡。", "en": "Roaming through the wilderness."},
+        {"zh": "寻找可以砍的猎物。", "en": "Hunting for targets to slash."},
+        {"zh": "挥剑劈向附近的敌人。", "en": "Swinging the sword at nearby enemies."},
+        {"zh": "我把剑横在身前慢慢走。", "en": "I hold the sword across my body and walk on."},
+        {"zh": "挥舞武器向前推进。", "en": "Swinging the weapon forward."},
+        {"zh": "手持长剑缓慢行走。", "en": "Walking with a longsword."},
+        {"zh": "挥舞剑刃向前冲锋。", "en": "Charging forward with a sword swing."},
+        {"zh": "挥剑劈砍附近的敌人。", "en": "Swinging the sword at nearby foes."},
+        {"zh": "剑拖在身侧，一路响。", "en": "My sword drags alongside, scraping."},
+        {"zh": "铁剑或钻石剑，都压手。", "en": "Iron or diamond, the blade pulls heavy."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "手持长剑静立。", "en": "Standing still with a sword."},
+        {"zh": "挥舞剑刃寻找目标。", "en": "Swinging to find a target."},
+        {"zh": "挥舞长剑以示威胁。", "en": "Swinging the sword in a threat."},
+        {"zh": "挥剑砍向空气。", "en": "Swinging at the air."},
+        {"zh": "挥舞剑刃在空中。", "en": "Swinging the sword in the air."},
+        {"zh": "挥剑划出一道弧线。", "en": "Swinging the sword in an arc."},
+        {"zh": "挥舞剑刃寻找猎物。", "en": "Swinging the sword to find prey."},
+        {"zh": "挥舞剑刃四处查看。", "en": "Swinging the sword to look around."},
+        {"zh": "挥舞剑刃在空中盘旋。", "en": "Swirling the sword in the air."},
+        {"zh": "挥剑砍向空气中的假想敌。", "en": "Swinging at imaginary foes in the air."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盯着玩家露出獠牙。", "en": "Showing teeth at the player."},
+        {"zh": "盯着玩家准备攻击。", "en": "Preparing to attack the player."},
+        {"zh": "用剑指着玩家。", "en": "Pointing the sword at the player."},
+        {"zh": "挥剑指向玩家。", "en": "Swinging the sword towards the player."},
+        {"zh": "挥剑威胁玩家。", "en": "Threatening the player with the sword."},
+        {"zh": "挥剑瞄准玩家。", "en": "Aiming the sword at the player."},
+        {"zh": "挥剑砍向玩家。", "en": "Swinging the sword at the player."},
+        {"zh": "挥剑试图攻击玩家。", "en": "Swinging to attack the player."},
+        {"zh": "挥剑向玩家冲刺。", "en": "Charging at the player with a sword."},
+        {"zh": "挥剑准备对玩家发动攻击。", "en": "Preparing to slash at the player."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "铁剑砸在我身上！", "en": "Iron sword hits me!"},
+        {"zh": "钻石剑砍伤了我！", "en": "Diamond sword cuts me!"},
+        {"zh": "我受伤了，求求你们！", "en": "I'm hurt, please help me!"},
+        {"zh": "剑伤令我痛苦！", "en": "Cutting wound hurts!"},
+        {"zh": "剑伤让我喘不过气！", "en": "Sword wound suffocates me!"},
+        {"zh": "剑刃割伤了我的皮肤！", "en": "Sword blade cuts my skin!"},
+        {"zh": "剑伤让我虚弱了！", "en": "Sword wound weakens me!"},
+        {"zh": "剑伤让我流血！", "en": "Sword wound bleeds!"},
+        {"zh": "剑伤好痛！", "en": "Sword wound hurts!"},
+        {"zh": "剑都被你打歪了...", "en": "You knocked my blade aside..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手中的剑比我的更好，或许我们可以交易？", "en": "Your sword is better than mine. Maybe we can trade?"},
+        {"zh": "我不喜欢被当作食物，你也不想吧？", "en": "I don't want to be food. Neither do you, right?"},
+        {"zh": "别小看了我的剑，它很锋利！", "en": "Don't underestimate my sword. It's sharp!"},
+        {"zh": "来吧，让我们一起战斗，互相帮助！", "en": "Let's fight together and help each other."},
+        {"zh": "看看你能不能从我这里学到点什么？", "en": "Maybe you can learn something from me?"},
+        {"zh": "用你的剑换我的，可以吗？", "en": "Can I trade my sword for yours?"},
+        {"zh": "我手上的剑是用钻石打造的！", "en": "My sword is made of diamond!"},
+        {"zh": "你好像比其他人类更有趣。", "en": "You seem more interesting than others."},
+        {"zh": "我的剑能帮你解决很多问题。", "en": "My sword can help you with many things."},
+        {"zh": "让我们结伴而行，共享食物。", "en": "Let's travel together and share food."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你挡了我的路，必须解决你！", "en": "You're in my way. You must be dealt with!"},
+        {"zh": "你的速度很快，但我的剑更快！", "en": "Your speed is fast, but my sword is faster!"},
+        {"zh": "你阻止了我，必须付出代价！", "en": "You stopped me. You must pay the price!"},
+        {"zh": "我的剑锋利无比，你的头颅将随之落地！", "en": "My sword is sharp. Your head will follow soon."},
+        {"zh": "别挡路，我要去寻找更强的对手！", "en": "Move aside. I'm looking for stronger opponents."},
+        {"zh": "你太弱了，不堪一击！", "en": "You're too weak. You can't even stand a hit!"},
+        {"zh": "你挡了我的视线，必须清除！", "en": "You're obstructing my sight. You must be removed!"},
+        {"zh": "你的存在让我很不舒服，离开！", "en": "Your presence is bothering me. Get out!"},
+        {"zh": "你挡了我的路，你就是我的下一个目标！", "en": "You're blocking my path. You're my next target!"},
+        {"zh": "你的存在对我不利，必须铲除！", "en": "Your existence is bad for me. I must remove you!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "来吧，我的同类，我们可以一起战斗！", "en": "Come, my fellow. We can fight together!"},
+        {"zh": "我们的力量结合，可以变得更强大！", "en": "Our strength combined can make us even stronger!"},
+        {"zh": "让我们一起，对抗这个世界！", "en": "Let's fight this world together!"},
+        {"zh": "我是同类，我们可以共享食物！", "en": "I'm a fellow. We can share food!"},
+        {"zh": "来吧，我的同类，共享战利品！", "en": "Come, my fellow. Share the spoils!"},
+        {"zh": "我们的力量可以战胜一切！", "en": "Our strength can overcome everything!"},
+        {"zh": "我们的力量可以保护彼此！", "en": "Our strength can protect each other!"},
+        {"zh": "来吧，我的同类，共享我们的力量！", "en": "Come, my fellow, share our strength!"},
+        {"zh": "我们可以一起，对抗这个世界！", "en": "We can fight this world together!"},
+        {"zh": "两个持剑的，能砍一整夜。", "en": "Two swords can carve all night."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "捡起掉落的剑！", "en": "Pick up the sword!"},
+        {"zh": "你动了我的剑！", "en": "Mine sword, you fool!"},
+        {"zh": "剑是我的！”", "en": "This is my sword!"},
+        {"zh": "给我你的剑！", "en": "Give me your sword!"},
+        {"zh": "小心，剑在手！", "en": "Beware, sword in hand!"},
+        {"zh": "你的铁剑，不如我捡的。", "en": "Your iron sword is worse than my find."},
+        {"zh": "这剑值千金！", "en": "This sword is priceless!"},
+        {"zh": "不要拿走我的剑！", "en": "Don't take my sword!"},
+        {"zh": "用剑保护自己！", "en": "Protect yourself with the sword!"},
+        {"zh": "剑是唯一的武器！", "en": "The sword is the only weapon!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我这把剑是捡来的，但很利。", "en": "I found this sword, but it's sharp."},
+        {"zh": "钻石剑抬起来，别动。", "en": "My diamond sword is up — don't move."},
+        {"zh": "抓住机会攻击！", "en": "Seize the moment!"},
+        {"zh": "我手里是铁剑还是钻石剑？", "en": "Iron or diamond blade in my hand?"},
+        {"zh": "这把剑是出生就带来的。", "en": "This sword came with me at spawn."},
+        {"zh": "猎物唾手可得！", "en": "The prey is within reach!"},
+        {"zh": "不要让它消失！", "en": "Don't let it slip away!"},
+        {"zh": "我闻到你的血，剑就抬起来。", "en": "I smell your blood and the sword comes up."},
+        {"zh": "我需要它的肉！", "en": "I need its flesh!"},
+        {"zh": "那把弓射得挺准，猎物在跑。", "en": "That bow shot straight; the prey is running."},
+        {"zh": "手里的剑换不换手？", "en": "Time to switch the blade to my other hand."},
+        {"zh": "我听见脚步声了。", "en": "I hear footsteps."},
+        {"zh": "前面有人在砍树。", "en": "Someone's chopping trees up ahead."},
+        {"zh": "五个点的伤害，够你记住。", "en": "Five points of damage will stick in your mind."},
+        {"zh": "我的剑上还挂着布条。", "en": "A scrap of cloth still hangs on my blade."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "剑尖在你胸口画着圈。", "en": "The tip of my blade circles your chest."},
+        {"zh": "享受我的剑！", "en": "Enjoy my sword!"},
+        {"zh": "我会让你求饶！", "en": "You'll beg for mercy!"},
+        {"zh": "这是我的剑！", "en": "My sword!"},
+        {"zh": "我两格护甲，慢慢逼近你。", "en": "Two points of armor, and I close in slowly."},
+        {"zh": "让血流尽！", "en": "Let the blood flow!"},
+        {"zh": "我是剑的主人！", "en": "I am the master of the sword!"},
+        {"zh": "我会让你尝尝剑的厉害！", "en": "I'll let you taste the sword!"},
+        {"zh": "这是你应得的！", "en": "You deserve this!"},
+        {"zh": "腐肉的味道，让我更用力。", "en": "The smell of rotting meat makes me swing harder."},
+        {"zh": "举剑过头，砍下去。", "en": "Blade over my head, then down."},
+        {"zh": "你退到树边，没路了。", "en": "You back into a tree; no more room."},
+        {"zh": "我两格护甲，挡得住。", "en": "Two points of armor can take it."},
+        {"zh": "我的剑刃有点钝了。", "en": "My edge has gone a bit dull."},
+        {"zh": "你的盾挡不住钻石剑。", "en": "That shield won't hold a diamond blade."},
+        {"zh": "夜还长，你跑不远。", "en": "The night is long; you won't get far."},
+        {"zh": "我的铁剑映着你的火光。", "en": "My iron sword mirrors your torchlight."},
+        {"zh": "挥剑之前，我先喘口气。", "en": "Before I swing, I take a breath."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "挥剑砍你！", "en": "Swing at you!"},
+        {"zh": "铁剑劈来！", "en": "Iron sword slash!"},
+        {"zh": "钻石剑砍断你！", "en": "Diamond sword cuts you!"},
+        {"zh": "我反手把剑背拍在你脸上。", "en": "I backhand the flat of the blade into your face."},
+        {"zh": "铁剑挥出！", "en": "Iron sword swings!"},
+        {"zh": "你的头会掉！", "en": "Your head will fall!"},
+        {"zh": "钻石剑劈碎你！", "en": "Diamond sword shatters you!"},
+        {"zh": "砍断你的骨头！", "en": "Break your bones!"},
+        {"zh": "我抡圆胳膊砍向你的颈。", "en": "I swing in a full arc at your neck."},
+        {"zh": "铁剑当头劈下！", "en": "The iron sword comes down on your head!"},
+        {"zh": "钻石剑划开你的护甲！", "en": "The diamond blade splits your armor!"},
+        {"zh": "一剑砍在你的盾上！", "en": "My sword lands on your shield!"},
+        {"zh": "剑尖挑你的手腕！", "en": "The tip flicks at your wrist!"},
+        {"zh": "僵尸的手不抖！", "en": "A zombie's hand does not shake!"},
+        {"zh": "砍你三下才够本！", "en": "Three cuts before I'm satisfied!"},
+        {"zh": "剑背砸在你身上！", "en": "The flat of my blade slams into you!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我来了，找死！", "en": "Here I come, for the kill!"},
+        {"zh": "又一个美味的肉饼！", "en": "Another tasty meat patty!"},
+        {"zh": "腐土里爬起来，钻石还亮。", "en": "I rise from the rot, and the diamond still gleams."},
+        {"zh": "准备战斗吧！", "en": "Prepare for battle!"},
+        {"zh": "黑暗中我狩猎！", "en": "I hunt in the dark!"},
+        {"zh": "寻找新的灵魂！", "en": "Seek new souls!"},
+        {"zh": "腐烂的剑刃！", "en": "Rotten blade!"},
+        {"zh": "饥饿的剑灵！", "en": "Hungry sword spirit!"},
+        {"zh": "肉块，我的最爱！", "en": "Meat chunks, my favorite!"},
+        {"zh": "我手里的剑生下来就是铁的。", "en": "I spawned holding this iron sword."},
+        {"zh": "我生下来就握着剑。", "en": "I was spawned holding a sword."},
+        {"zh": "十五的权重，我常见。", "en": "Weight fifteen; I show up often."},
+        {"zh": "从土里爬出来，剑还在。", "en": "I climb out of the dirt, blade in hand."},
+        {"zh": "夜黑了，剑也亮了。", "en": "Night falls, and my blade gleams."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火苗烧到我的剑柄了！", "en": "Flames are licking my sword hilt!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的剑沉在水底了。", "en": "My sword sank to the bottom."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我呛水窒息了！", "en": "I drowned and suffocated!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击掀翻我，剑没松开。", "en": "The blast throws me down, but I keep my sword."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭钉进我握剑的肩。", "en": "An arrow pins the shoulder that holds my sword."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "法术烧伤了我！", "en": "Magic burns me!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "肚子空了，剑也变沉。", "en": "My belly is empty and the sword feels heavy."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的铁剑都烧红了。", "en": "My iron sword glows red."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空死亡！", "en": "Void consumes me!"}
+      ]
+    }
+  }
+}

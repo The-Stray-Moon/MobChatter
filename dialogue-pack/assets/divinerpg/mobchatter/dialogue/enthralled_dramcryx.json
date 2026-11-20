@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出低沉嘶嘶声", "en": "rumbles menacingly"},
+        {"zh": "皮肤发出绿光", "en": "glows green"},
+        {"zh": "尖刺闪烁着绿光", "en": "spines glow green"},
+        {"zh": "喉咙里咕噜一声，我来了。", "en": "A gurgle in my throat, and here I come."},
+        {"zh": "用尖刺快速摩擦身体", "en": "quickly rubs body against spines"},
+        {"zh": "用触手感受周围的动静", "en": "uses tentacles to sense surroundings"},
+        {"zh": "发出咯咯声", "en": "grinds teeth"},
+        {"zh": "挥舞着尖刺", "en": "swings spines"},
+        {"zh": "向你嘶叫", "en": "snarls at you"},
+        {"zh": "绿光贴着岩壁，一寸寸挪。", "en": "Green light slides along the wall, inch by inch."},
+        {"zh": "尖刺刮过通道，沙沙响。", "en": "My spines scrape the tunnel, hissing."},
+        {"zh": "我在暗处爬行，泥土塌在身后。", "en": "I crawl in the dark, earth falling behind me."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "缓慢蠕动", "en": "creeps slowly"},
+        {"zh": "在地下挖洞", "en": "digs in the ground"},
+        {"zh": "舔舐自身皮肤", "en": "licks its own skin"},
+        {"zh": "偶尔发出嘶嘶声", "en": "occasionally rumbles"},
+        {"zh": "检查周围的环境", "en": "scans its surroundings"},
+        {"zh": "发出微弱的咕噜声", "en": "mumbles softly"},
+        {"zh": "地底的土腥味让我安心。", "en": "The smell of deep earth calms me."},
+        {"zh": "轻微蠕动身体", "en": "shivers slightly"},
+        {"zh": "观察周围的动静", "en": "looks around"},
+        {"zh": "发出嘶嘶声以示警告", "en": "rumbles as a warning"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地底的绿光灭了，我转向你。", "en": "The green glow dies; I turn to you."},
+        {"zh": "盯着你的眼睛，地下的镐声停了。", "en": "Eyes on yours, and the digging below falls silent."},
+        {"zh": "试图锁定你", "en": "tries to lock onto you"},
+        {"zh": "发出威胁的声音", "en": "issues a threatening sound"},
+        {"zh": "快速转动身体", "en": "rapidly turns its body"},
+        {"zh": "地下的镐声停了，我找到你。", "en": "The pickaxe below stopped — I have found you."},
+        {"zh": "地下的空气，我嗅到生人。", "en": "In this underground air I smell a stranger."},
+        {"zh": "我把你的每一次抬手都记下。", "en": "I note every lift of your hand."},
+        {"zh": "集中精神寻找你", "en": "focuses its mind on you"},
+        {"zh": "我用绿光的眼，盯住你的镐。", "en": "With my green-lit eye I fix on your pick."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "身上刺猬般扎人！", "en": "Sticks stick out,ouch!"},
+        {"zh": "棘背让我难受！", "en": "Spines prick me!"},
+        {"zh": "我受够了！", "en": "Had enough!"},
+        {"zh": "疼得我背刺都蜷了起来！", "en": "The pain curls every spine on my back!"},
+        {"zh": "绿光一暗，我的刺折了两根！", "en": "My green glow dims; two spines are snapped!"},
+        {"zh": "棘丛中扎伤我！", "en": "Spines stab me!"},
+        {"zh": "我的血滴在土里，土在冒烟。", "en": "My blood drips into the soil and the soil smokes."},
+        {"zh": "阿勒米特锭从我身上滚落。", "en": "Arlemite ingots roll off my body."},
+        {"zh": "快点来救我！", "en": "Come save me!"},
+        {"zh": "受伤了，我好累！", "en": "Hurt, I'm so tired."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你身上的味道，真好闻。", "en": "You smell so good."},
+        {"zh": "过来，我让你尝尝味道。", "en": "Come here, I'll taste you."},
+        {"zh": "你的味道比食物还诱人。", "en": "Your taste is more alluring than food."},
+        {"zh": "你逃不掉的，我会给你美味。", "en": "You can't escape, I'll make a meal of you."},
+        {"zh": "你身上的光芒，真迷人。", "en": "Your light is so captivating."},
+        {"zh": "我必须品尝你，我需要力量。", "en": "I must taste you, I need strength."},
+        {"zh": "黑暗中，只有你散发着光芒。", "en": "In the darkness, you shine."},
+        {"zh": "你的气味，引领我而来。", "en": "Your scent guides me."},
+        {"zh": "我来了，享受你的味道吧。", "en": "I'm here, enjoy the taste."},
+        {"zh": "味道就是力量，你尝尝吧。", "en": "Taste is power, try me."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "挡在我面前，找死吗？", "en": "You're in my way, are you suicidal?"},
+        {"zh": "别靠近我，你活不了多久。", "en": "Stay back, you won't last long."},
+        {"zh": "你挡了我的路，我要教训你。", "en": "You blocked my path, I'll teach you a lesson."},
+        {"zh": "别想靠近我，我很快就会吃掉你。", "en": "Don't think you can get close, I'll eat you soon."},
+        {"zh": "你触碰了我的领域，求死吧。", "en": "You've trespassed, beg for death."},
+        {"zh": "躲开我，否则你会后悔的。", "en": "Get out of my way, or you'll regret it."},
+        {"zh": "你挡了我的路，我要让你消失。", "en": "You blocked my way, I'll make you vanish."},
+        {"zh": "离我远点，否则后果自负。", "en": "Stay away, or face the consequences."},
+        {"zh": "别靠近我，否则你会后悔的。", "en": "Don't come closer, you'll regret it."},
+        {"zh": "你挡了我的路，我要你消失。", "en": "You blocked my path, I'll make you disappear."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "与我一起，让生命延续。", "en": "Mate with me, let life continue."},
+        {"zh": "来吧，让我陪你。", "en": "Come, be with me."},
+        {"zh": "我在这里等你，做我的伴侣。", "en": "I'll wait here for you, be my partner."},
+        {"zh": "与我共舞，直到永恒。", "en": "Dance with me, forever."},
+        {"zh": "让我与你共生，共享生命。", "en": "Let me share life with you."},
+        {"zh": "与我共生，共同进化。", "en": "Coexist with me, evolve together."},
+        {"zh": "来吧，让我们一起。", "en": "Come, let's be together."},
+        {"zh": "与我共存，直到永远。", "en": "Coexist with me, forever."},
+        {"zh": "与我同生共死，无悔。", "en": "Live and die with me, without regret."},
+        {"zh": "与我一起，见证永恒。", "en": "Be with me, witness eternity."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我感到一股腐化的力量在召唤我！", "en": "Feel the corrupting power calling to me!"},
+        {"zh": "腐化的能量在我的刺中涌动！", "en": "Corruption flows through my spines!"},
+        {"zh": "阿勒米特锭，我的最爱！", "en": "Alemitum ingots, my favorite!"},
+        {"zh": "黑暗中，我等待着猎物的到来！", "en": "In the dark, I wait for prey."},
+        {"zh": "猎人们无法逃脱我的利刺！", "en": "My sharp spines ensure no escape."},
+        {"zh": "我的皮肤覆盖着腐败的印记！", "en": "Corruption marks my skin."},
+        {"zh": "在这片黑暗中，我是唯一的光明！", "en": "In this darkness, I am the light."},
+        {"zh": "我在这片腐化的土地上生长！", "en": "I grow in this corrupted land."},
+        {"zh": "我的刺是黑暗的武器！", "en": "My spines are tools of darkness."},
+        {"zh": "腐化，是我的力量！", "en": "Corruption is my power!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我找到了我的下一个目标！", "en": "My next target is found!"},
+        {"zh": "猎物的味道如此诱人！", "en": "Prey is so tantalizing."},
+        {"zh": "我将享受这场狩猎！", "en": "I will enjoy this hunt."},
+        {"zh": "让我的刺留下痕迹吧！", "en": "Let my spines leave a mark!"},
+        {"zh": "我要品尝你的恐惧！", "en": "I'll taste your fear."},
+        {"zh": "我的到来将带来毁灭！", "en": "My arrival brings destruction!"},
+        {"zh": "洞只有一条路，我在尽头等你。", "en": "The tunnel has one way out, and I wait at its end."},
+        {"zh": "我会享受撕裂你的痛苦！", "en": "I'll enjoy tearing you apart."},
+        {"zh": "我将吞噬你的生命！", "en": "I'll consume your life."},
+        {"zh": "我的力量将统治这里！", "en": "My power will rule here!"},
+        {"zh": "黑暗里，你点亮了自己。", "en": "In the dark, you lit yourself up."},
+        {"zh": "地表来的气味，很新鲜。", "en": "A scent from the surface. Fresh."},
+        {"zh": "地下的路我比你熟。", "en": "I know these tunnels better than you."},
+        {"zh": "有个活物在挖我的洞。", "en": "Something living is digging my burrow."},
+        {"zh": "你踩到我的尖刺范围了。", "en": "You stepped into my spines' reach."},
+        {"zh": "苔藓抖了一下，是你。", "en": "The moss shuddered. It is you."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "尖刺全部立起，我冲过去！", "en": "Every spine rises; I rush in!"},
+        {"zh": "我的刺即将穿透你的心脏！", "en": "My spines will pierce your heart!"},
+        {"zh": "感受我的利刺带来的痛苦！", "en": "Feel the pain of my sharp spines!"},
+        {"zh": "洞壁上的影子，全是我的刺。", "en": "Every shadow on the cave wall is one of my spines."},
+        {"zh": "我的力量将使你化为尘土！", "en": "My power will reduce you to dust!"},
+        {"zh": "我的每一刺都致命！", "en": "Each of my spines is deadly!"},
+        {"zh": "死亡将降临到你头上！", "en": "Death will come for you!"},
+        {"zh": "我将终结你的生命！", "en": "I will end your life."},
+        {"zh": "接受我的攻击吧！", "en": "Face my attacks!"},
+        {"zh": "我的攻击将无坚不摧！", "en": "My attacks will shatter anything!"},
+        {"zh": "别往后退，那里是我的洞。", "en": "Do not back up; that is my burrow."},
+        {"zh": "尖刺已经对着你了。", "en": "My spines are already aimed at you."},
+        {"zh": "你挖下的土堵死了退路。", "en": "The soil you dug blocks your way out."},
+        {"zh": "在这里，你只能低头。", "en": "Down here, you keep your head low."},
+        {"zh": "我听得出你的呼吸。", "en": "I can hear your breathing."},
+        {"zh": "绿光在你脸上跳。", "en": "Green light dances on your face."},
+        {"zh": "再往前一步，扎穿你。", "en": "One more step and it goes through you."},
+        {"zh": "腐化的味道，锁定了。", "en": "The taint's scent. Locked on."},
+        {"zh": "你脚下的岩层在裂。", "en": "The rock under you is splitting."},
+        {"zh": "我就在你挖的洞尽头。", "en": "I am at the end of the hole you dug."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出尖刺的摩擦声", "en": "Scratch its spines harshly"},
+        {"zh": "向你喷射剧毒液体", "en": "Sprays toxic slime at you"},
+        {"zh": "挥动巨大尾刺攻击", "en": "Swings its huge tail刺"},
+        {"zh": "尖叫着冲向你", "en": "Rips through the darkness towards you"},
+        {"zh": "用利爪撕咬你的手臂", "en": "Rips at your arm with its claws"},
+        {"zh": "用刺背扎向你", "en": "Stabs at you with its spines"},
+        {"zh": "发出尖锐的嘶嘶声", "en": "Hisses sharply"},
+        {"zh": "用角撞击你的胸膛", "en": "Butts you with its horns"},
+        {"zh": "张开大口咬你", "en": "Bares its teeth and bites you"},
+        {"zh": "用毒液覆盖你的脸", "en": "Coats your face in slime"},
+        {"zh": "背刺扎进你的小腿。", "en": "A spine punches into your calf."},
+        {"zh": "绿光一闪，我咬下来。", "en": "Green light flashes; I bite down."},
+        {"zh": "我的尖刺扎穿了盾。", "en": "My spines go through the shield."},
+        {"zh": "腐化的爪子按住你。", "en": "A tainted claw pins you down."},
+        {"zh": "毒液溅在你的眼睛上。", "en": "Venom splashes into your eyes."},
+        {"zh": "尾刺扫过来，你退两步。", "en": "My tail spike sweeps; you stumble back."},
+        {"zh": "喉咙里的声音，你听过？", "en": "Have you heard the sound in my throat?"},
+        {"zh": "我这一撞，把你顶进岩壁。", "en": "My charge slams you into the wall."},
+        {"zh": "腐化的碎片留在伤口里。", "en": "Corrupted shards stay in the wound."},
+        {"zh": "咬一口，尝尝腐化的滋味。", "en": "One bite, and you taste the taint."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从裂缝中爬出", "en": "Crawls out of the crack"},
+        {"zh": "从腐化之地浮现", "en": "Rises from the corrupted earth"},
+        {"zh": "从地下深处苏醒", "en": "Awakens from the depths"},
+        {"zh": "在黑暗中悄然出现", "en": "Appears silently in the dark"},
+        {"zh": "被黑暗吸引而来", "en": "Drawn by the darkness"},
+        {"zh": "从地下缓缓爬行", "en": "Crawls slowly from below"},
+        {"zh": "在腐化之地中现身", "en": "Appears in the corrupted land"},
+        {"zh": "从地洞中钻出", "en": "Emerges from a hole"},
+        {"zh": "在阴影中隐现", "en": "Shimmers in the shadows"},
+        {"zh": "被腐化之气召唤而来", "en": "Called by the corruption"},
+        {"zh": "地缝张开，绿光爬出来。", "en": "A fissure opens; green light crawls out."},
+        {"zh": "岩层底下，我翻了翻身。", "en": "Beneath the stone, I turn over."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎过我甲刺，焦味充满洞穴。", "en": "Fire scorches my spines; the cave fills with the stench."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从洞顶摔下，尖刺折了几根。", "en": "I fall from the cave roof and break several spines."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地底可没有水，救我！", "en": "There is no water down here. Help!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸得我的尖刺都弯了！", "en": "The blast bent my spines!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被射伤了！", "en": "Hit by a projectile!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被魔法伤了！", "en": "Hit by magic!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞里没东西可吃……", "en": "Nothing to eat in these tunnels..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光顺着甲刺钻进肉里。", "en": "Lightning crawls down my spines."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空，疼痛！", "en": "Void hurts!"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚步轻缓，木偶前行。", "en": "Step gently, the golem walks."},
+        {"zh": "木身轻移，草傀前行。", "en": "Golem moves, step by step."},
+        {"zh": "摇摇晃晃，向前行。", "en": "Tiptoe, golem moves forward."},
+        {"zh": "脚下轻移，草傀行。", "en": "Step lightly, golem moves."},
+        {"zh": "缓慢前行，保护田地。", "en": "Move slowly, protect the fields."},
+        {"zh": "晃晃悠悠，草傀前行。", "en": "Wobbly step, golem moves."},
+        {"zh": "缓慢而行，守护耕地。", "en": "Move slow, protect the crops."},
+        {"zh": "草傀轻移，前行不停。", "en": "Golem moves, keeps walking."},
+        {"zh": "行走之间，守护田地。", "en": "Walk on, protect the fields."},
+        {"zh": "缓缓而行，草傀守护。", "en": "Walk slowly, golem protects."},
+        {"zh": "稻草靴踩过田埂", "en": "Straw boots tread the field ridge."},
+        {"zh": "它绕开刚发芽的苗", "en": "It steps around the newly sprouted shoots."},
+        {"zh": "手臂上的麦穗晃来晃去", "en": "Wheat ears swing on its arms."},
+        {"zh": "它沿田垄慢慢走到尽头", "en": "It walks the row slowly to its end."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静立田间，草傀守护。", "en": "Idle here, protect the field."},
+        {"zh": "呆立不动，守护耕地。", "en": "Idle, protect the crops."},
+        {"zh": "静默无言，草傀守护。", "en": "Silent, golem protects."},
+        {"zh": "驻足田边，草傀守护。", "en": "Stand here, protect the field."},
+        {"zh": "闲立田间，草傀守护。", "en": "Idle, protect the field."},
+        {"zh": "守护耕地，草傀驻足。", "en": "Protect the crops, golem stands."},
+        {"zh": "静立不动，守护田地。", "en": "Idle, protect the fields."},
+        {"zh": "草傀驻足，守护耕地。", "en": "Golem stands, protect crops."},
+        {"zh": "静立无言，守护耕地。", "en": "Silent, protect the crops."},
+        {"zh": "它数着田里的小苗", "en": "It counts the seedlings in the field."},
+        {"zh": "它把倒下的麦秆扶正", "en": "It props up a fallen stalk."},
+        {"zh": "草帽歪了，它没去扶", "en": "Its straw hat is crooked and it does not fix it."},
+        {"zh": "它站在田角，挡住风", "en": "It stands at the field corner, blocking the wind."},
+        {"zh": "稻草缝里落进几粒麦", "en": "A few grains fall between its straw seams."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "目光转向，寻找玩家。", "en": "Look around, find the player."},
+        {"zh": "草傀转头，目光锁定。", "en": "Golem turns, eyes on you."},
+        {"zh": "草傀望向，寻找玩家。", "en": "Golem looks, find the player."},
+        {"zh": "转头寻觅，玩家在哪？", "en": "Turn head, where is the player?"},
+        {"zh": "目光搜索，玩家在哪？", "en": "Look around, where is the player?"},
+        {"zh": "草傀转头，注视前方。", "en": "Golem turns, looks ahead."},
+        {"zh": "寻找玩家，草傀转头。", "en": "Find player, golem turns."},
+        {"zh": "目光锁定，草傀寻觅。", "en": "Eyes on you, golem looks."},
+        {"zh": "草傀转头，寻找玩家。", "en": "Golem turns, find the player."},
+        {"zh": "它看看你，又看看地", "en": "It looks at you, then down at the ground."},
+        {"zh": "它留意你的鞋底", "en": "It pays attention to the soles of your boots."},
+        {"zh": "它的草编眼睛转向你", "en": "Its woven eyes turn toward you."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的麦秆手臂被扯掉一束。", "en": "A sheaf of my wheat-straw arm is torn away."},
+        {"zh": "我的关节！", "en": "My joints!"},
+        {"zh": "我的稻草腿散了半捆。", "en": "Half my straw leg came loose."},
+        {"zh": "我被撞了。", "en": "I got hit."},
+        {"zh": "我感觉不对劲。", "en": "Something’s wrong."},
+        {"zh": "干草散了，麦子掉了一地。", "en": "My hay is coming apart; wheat's all over the ground."},
+        {"zh": "这很痛。", "en": "This really hurts."},
+        {"zh": "我倒进泥里，压坏了两行苗。", "en": "I fall in the mud and crush two rows of sprouts."},
+        {"zh": "我站不稳了。", "en": "I’m unsteady."},
+        {"zh": "稻草吸了水，沉得迈不动腿。", "en": "The straw soaks up water and grows too heavy to move."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你扔给它一根小麦，它高兴地笑了。", "en": "You throw a wheat to it, it smiles happily."},
+        {"zh": "它用温和的声音说：我会保护你。", "en": "It says gently: I’ll protect you."},
+        {"zh": "它看着你，眼中充满感激。", "en": "It looks at you, its eyes full of gratitude."},
+        {"zh": "它张开大嘴，露出满口牙齿。", "en": "It opens its big mouth, showing its teeth."},
+        {"zh": "它的眼睛闪烁着友好的光芒。", "en": "Its eyes shine with friendly light."},
+        {"zh": "你给了它一些小麦，它点头感谢。", "en": "You give it some wheat, it nods in thanks."},
+        {"zh": "它围着你转了几圈，表示认可。", "en": "It circles you a few times, showing approval."},
+        {"zh": "它用粗糙的手臂抱着你。", "en": "It hugs you with its rough arms."},
+        {"zh": "你给了它一块面包，它笑了。", "en": "You give it a bread, it smiles."},
+        {"zh": "它看着你，眼神温柔。", "en": "It looks at you, its eyes gentle."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踢到了它，它发出一声叹息。", "en": "You kick it, it sighs."},
+        {"zh": "它的身体发出轻微的晃动。", "en": "Its body shakes slightly."},
+        {"zh": "它轻轻地叹了口气。", "en": "It sighs softly."},
+        {"zh": "它被你撞到了，显得有些不满。", "en": "It’s knocked off balance, a bit unhappy."},
+        {"zh": "它试图稳定自己的身体。", "en": "It tries to steady itself."},
+        {"zh": "它被撞倒了，发出轻微的摩擦声。", "en": "It falls, making a soft scraping sound."},
+        {"zh": "它被你撞倒，显得有些烦躁。", "en": "It’s irritated by your collision."},
+        {"zh": "它摇摇晃晃地站起来。", "en": "It stands up unsteadily."},
+        {"zh": "它被你撞了一下，抱怨道：小心点。", "en": "It complains: Watch where you’re going."},
+        {"zh": "它试图调整自己的位置。", "en": "It adjusts its position."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它找到一个伙伴，彼此互相注视。", "en": "It finds a partner, staring at each other."},
+        {"zh": "它靠近另一个干草傀儡，表示友好。", "en": "It approaches another hay golem, showing friendliness."},
+        {"zh": "它试图靠近另一个生物。", "en": "It tries to approach another creature."},
+        {"zh": "它伸出手臂，邀请另一只。", "en": "It extends its arms, inviting another."},
+        {"zh": "它和另一个傀儡互相点头致意。", "en": "It nods to another golem in greeting."},
+        {"zh": "它和另一个生物互相打量。", "en": "It scrutinizes another creature."},
+        {"zh": "它和另一只干草傀儡彼此交流。", "en": "It communicates with another hay golem."},
+        {"zh": "它试图和另一只生物建立联系。", "en": "It tries to establish a connection with another creature."},
+        {"zh": "它和另一只生物相互点头。", "en": "It nods to another creature."},
+        {"zh": "它和另一只生物互相点头致意。", "en": "It greets another creature with nods."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "抓起一束干草", "en": "Grab a bunch of hay."},
+        {"zh": "我需要小麦修复", "en": "I need wheat to repair."},
+        {"zh": "保护耕地不受侵犯", "en": "Protect the farmland."},
+        {"zh": "小麦是我生命之源", "en": "Wheat is my life source."},
+        {"zh": "这里很安全", "en": "It's safe here."},
+        {"zh": "村民的朋友", "en": "Friend to the villagers."},
+        {"zh": "耕地需要保护", "en": "Farmland needs protection."},
+        {"zh": "小麦修复我", "en": "Wheat repairs me."},
+        {"zh": "防止踩踏耕地", "en": "Prevent trampling."},
+        {"zh": "这里没有威胁", "en": "No threat here."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "检测到入侵者", "en": "Intruder detected."},
+        {"zh": "耕地即将受损", "en": "Farmland at risk."},
+        {"zh": "保护耕地免遭践踏", "en": "Protect the farmland."},
+        {"zh": "保持耕地安全", "en": "Keep the farmland safe."},
+        {"zh": "防止耕地被破坏", "en": "Prevent farmland destruction."},
+        {"zh": "确保耕地安全", "en": "Ensure farmland safety."},
+        {"zh": "耕地需要守护", "en": "Farmland needs guarding."},
+        {"zh": "入侵者将被阻止", "en": "Intruder will be stopped."},
+        {"zh": "有脚步踩进我的田里了。", "en": "Footsteps have entered my field."},
+        {"zh": "耕地即将被破坏", "en": "Farmland will be damaged."},
+        {"zh": "它盯上了踩苗的那只脚", "en": "It fixates on the foot that stepped on a shoot."},
+        {"zh": "田里出现了一串脚印", "en": "A line of prints appears in the field."},
+        {"zh": "它侧过身，拦住田口", "en": "It turns sideways and blocks the field gate."},
+        {"zh": "它认定这块地要守", "en": "It decides this plot must be held."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定入侵目标", "en": "Targeting intruder."},
+        {"zh": "追踪潜在威胁", "en": "Tracking threat."},
+        {"zh": "锁定目标进行保护", "en": "Locking target for protection."},
+        {"zh": "确定威胁来源", "en": "Identifying threat."},
+        {"zh": "锁定耕地保护", "en": "Locking farmland protection."},
+        {"zh": "准备保护耕地", "en": "Prepping to protect farmland."},
+        {"zh": "锁定保护范围", "en": "Locking protection area."},
+        {"zh": "检测到潜在威胁", "en": "Potential threat detected."},
+        {"zh": "我横在田埂上，不挪窝。", "en": "I plant myself across the ridge and will not shift."},
+        {"zh": "锁定入侵者位置", "en": "Locating intruder."},
+        {"zh": "它抬起稻草手臂", "en": "It raises a straw arm."},
+        {"zh": "它一步跨到苗前", "en": "It steps in front of the shoots."},
+        {"zh": "它把你往田外赶", "en": "It herds you out of the field."},
+        {"zh": "它站定，不肯挪窝", "en": "It plants itself and refuses to budge."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "挥动手臂，保护庄稼！", "en": "Swing arms to protect crops!"},
+        {"zh": "守护这片土地！", "en": "Guard this land!"},
+        {"zh": "攻击入侵者！", "en": "Attack intruders!"},
+        {"zh": "保护耕地不受侵犯！", "en": "Protect the farmland!"},
+        {"zh": "击退敌人，守护家园！", "en": "Repel enemies, defend home!"},
+        {"zh": "挥舞起来，击倒敌人！", "en": "Swing to defeat enemies!"},
+        {"zh": "我的职责是保护！", "en": "My duty is to protect!"},
+        {"zh": "阻挡任何侵犯！", "en": "Block any invasion!"},
+        {"zh": "挥舞刀刃，保护庄稼！", "en": "Wield the blade to protect crops!"},
+        {"zh": "保护这片土地，绝不放手！", "en": "Protect this land, never let go!"},
+        {"zh": "草拳挥出，麦粒乱飞", "en": "A straw fist swings and grains fly."},
+        {"zh": "它一把把你推出田埂", "en": "It shoves you off the ridge."},
+        {"zh": "它用身体挡住你的脚", "en": "It blocks your foot with its body."},
+        {"zh": "草臂一扫，扬起尘土", "en": "A straw arm sweeps, raising dust."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "保护耕地，诞生于村庄！", "en": "Born to protect farmland!"},
+        {"zh": "守护村民的家园！", "en": "Guard the villagers' home!"},
+        {"zh": "在村庄里诞生，保护庄稼！", "en": "Born in the village, protect crops!"},
+        {"zh": "从村民的守护中诞生！", "en": "Born from villagers' protection!"},
+        {"zh": "保护村庄的耕地！", "en": "Protect the village farmland!"},
+        {"zh": "诞生于和平之地，保护庄稼！", "en": "Born in peace, protect crops!"},
+        {"zh": "守护这片土地，是我们的使命！", "en": "Guard this land, it's our mission!"},
+        {"zh": "诞生自村民的守护！", "en": "Born from the villagers' defense!"},
+        {"zh": "保护村庄，从我做起！", "en": "Protect the village, start with me!"},
+        {"zh": "守护庄稼，是我们存在的意义！", "en": "Protect the crops, our purpose!"},
+        {"zh": "村民把麦捆堆成了它", "en": "Villagers stacked wheat into its shape."},
+        {"zh": "它从田头站起来", "en": "It stands up at the head of the field."},
+        {"zh": "麦香里，它睁开了眼", "en": "In the smell of wheat, it opens its eyes."},
+        {"zh": "村庄收工，它开始站岗", "en": "The village clocks off and it starts its watch."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火伤了我。", "en": "I’m burned."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从田埂上滚下去，草散开。", "en": "I roll off the field ridge, straw scattering."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "干草吸饱了水，沉得很。", "en": "My hay is soaked and heavy."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "干草散了一地，麦子还能补。", "en": "My hay is scattered, but wheat can patch me."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我中箭了。", "en": "I got shot."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被魔法伤了。", "en": "I got magic hit."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "田里没有麦子，我的草发黄。", "en": "No wheat in the field, and my straw yellows."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在我身上，干草烧起来。", "en": "Lightning strikes me, and the dry hay catches fire."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下的地没了，麦穗往下坠。", "en": "The ground is gone, and my wheat heads fall away."}
+      ]
+    }
+  }
+}

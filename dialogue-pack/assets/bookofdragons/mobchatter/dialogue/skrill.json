@@ -1,0 +1,267 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，翅膀轻拍向前飞去。", "en": "Sssss, flaps wings and flies forward."},
+        {"zh": "低吼着，不断扇动翅膀。", "en": "Growls lowly, continuously flapping wings."},
+        {"zh": "飞向远方，目光锐利如鹰。", "en": "Flies away, gaze sharp as an eagle's."},
+        {"zh": "掠过地面，尾巴轻轻摆动。", "en": "Skims the ground, tail swaying lightly."},
+        {"zh": "双翼一振，加速向前。", "en": "Wings flick, accelerating forward."},
+        {"zh": "翱翔天际，眼中闪烁智慧光芒。", "en": "Soars through the sky, eyes twinkling with wisdom."},
+        {"zh": "振翅高飞，探索未知领域。", "en": "Flew high, exploring unknown territories."},
+        {"zh": "盘旋一圈，寻找新的食物。", "en": "Circling, seeking new food sources."},
+        {"zh": "翅膀轻微拍打，缓慢移动。", "en": "Wings gently flapping, moving slowly."},
+        {"zh": "掠过树梢，迅速向前飞去。", "en": "Skims over the treetops, flying swiftly forward."},
+        {"zh": "翅膀一压，贴着树冠滑行。", "en": "It presses its wings and glides along the treetops."},
+        {"zh": "循着气味，飞向羊群。", "en": "Following the scent, it flies toward the sheep."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静地栖息在岩石上。", "en": "Quietly perches on a rock."},
+        {"zh": "慵懒地盘旋在巢穴附近。", "en": "Lazily circles near the nest."},
+        {"zh": "静静盯着地面，寻找猎物。", "en": "Staring intently at the ground, searching for prey."},
+        {"zh": "悠闲地在空中盘旋。", "en": "Flying leisurely in circles."},
+        {"zh": "悠闲地翻动着铁锭。", "en": "Leisurely turning over pieces of iron."},
+        {"zh": "慵懒地梳理羽毛。", "en": "Lazily preening its feathers."},
+        {"zh": "风把我托起来，懒得多扇翅膀。", "en": "The wind holds me up; why flap?"},
+        {"zh": "羊肉的味道，我从不拒绝。", "en": "The smell of mutton — I never refuse it."},
+        {"zh": "安静地在巢穴旁休息。", "en": "Resting quietly beside the nest."},
+        {"zh": "悠闲地收集铜锭。", "en": "Leisurely gathering copper pieces."},
+        {"zh": "它在巢里摆弄一枚避雷针。", "en": "It fidgets with a lightning rod in its nest."},
+        {"zh": "舔了舔爪子，又望向天空。", "en": "It licks its claws and looks up at the sky."},
+        {"zh": "昼行的它晒着太阳打盹。", "en": "A daytime dragon, it dozes in the sun."},
+        {"zh": "它把铁锭挪到左边，又挪回来。", "en": "It shifts an iron ingot left, then back."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "注意到玩家，发出警告声。", "en": "Notices player, gives warning call."},
+        {"zh": "盯着玩家，低吼示警。", "en": "Staring at player, growls warningly."},
+        {"zh": "盯着玩家，发出警戒声。", "en": "Fixing gaze on player, gives warning noise."},
+        {"zh": "目光转向玩家，低吼警告。", "en": "Gaze shifts to player, low growl of warning."},
+        {"zh": "观察玩家，发出警惕声。", "en": "Observes player, gives alert call."},
+        {"zh": "盯住玩家，低吼以示警告。", "en": "Fixes on player, low growl as warning."},
+        {"zh": "注意到了玩家，低吼警告。", "en": "Notices player, low growl warningly."},
+        {"zh": "盯着玩家，发出警戒的低吼。", "en": "Staring at player, low growl of warning."},
+        {"zh": "目光落在玩家身上，低吼警告。", "en": "Gaze on player, low growl of warning."},
+        {"zh": "盯着玩家，发出警告的低吼。", "en": "Fixes on player, low warning growl."},
+        {"zh": "它侧头，听你的脚步。", "en": "It tilts its head and listens to your steps."},
+        {"zh": "隔着蕨叶，它打量你的手。", "en": "Through the ferns, it studies your hands."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶，疼！", "en": "Ssssh, pain!"},
+        {"zh": "呜呼，受伤了！", "en": "Ah, hurt!"},
+        {"zh": "呜，这是什么伤？", "en": "Ouch, what's this?"},
+        {"zh": "哎哟，这伤怎么这么疼？", "en": "Ow, why so painful?"},
+        {"zh": "唔，这伤真不好受！", "en": "Ouch, this hurt!"},
+        {"zh": "啊！好疼！", "en": "Ow! It hurts!"},
+        {"zh": "咕噜，这伤口真疼！", "en": "Ouch, this wound hurts!"},
+        {"zh": "嘶，受伤了！", "en": "Sss, I'm hurt!"},
+        {"zh": "嘶，这伤真疼！", "en": "Sss, that hurts!"},
+        {"zh": "咕噜噜，好疼！", "en": "Ouch, that really hurts!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出低沉的嘶嘶声，盯着你手中的羊肉。", "en": "Snarls lowly, eyes on the cooked mutton."},
+        {"zh": "翅膀轻轻拍动，似乎被羊肉吸引。", "en": "Wings flutter softly, drawn to the scent."},
+        {"zh": "接近你，低声嘶叫，等待靠近。", "en": "Creeps closer, hisses low, waiting."},
+        {"zh": "用爪子抓过，试图咬下一块羊肉。", "en": "Licks at the meat, trying to bite off a chunk."},
+        {"zh": "围着你转圈，渴望得到食物。", "en": "Circles around, eager for a treat."},
+        {"zh": "目光闪烁，显示出对羊肉的贪婪。", "en": "Glimmering eyes show greed for the mutton."},
+        {"zh": "轻巧地落在你肩上，享用你的食物。", "en": "Graces your shoulder, feasting on your offering."},
+        {"zh": "小心翼翼地靠近，准备享用美食。", "en": "Cautiously approaches, ready for the feast."},
+        {"zh": "张开嘴巴，期待着食物的到来。", "en": "Opens mouth, expecting the treat."},
+        {"zh": "尾巴轻摆，享受美味的羊肉。", "en": "Tails sways, savoring the mutton."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "突然从空中俯冲下来，试图撞你。", "en": "Swoops down, aiming to collide."},
+        {"zh": "翅膀扇动，迅速向你撞击过来。", "en": "Wings flapping, rushes for a collision."},
+        {"zh": "发出震耳的呼啸，试图撞倒你。", "en": "Rears up, roaring, aiming to knock you down."},
+        {"zh": "翅膀一挥，猛烈撞击你的盔甲。", "en": "Wings lashing, collides with your armor."},
+        {"zh": "猛然加速，向你发起撞击。", "en": "Accelerates, collides head-on."},
+        {"zh": "翅膀展开，准备撞击你。", "en": "Spreads wings, ready to collide."},
+        {"zh": "怒吼一声，向你猛烈撞击过来。", "en": "Roars, rushes for a collision."},
+        {"zh": "俯冲而下，试图与你相撞。", "en": "Plunges down, aiming for a collision."},
+        {"zh": "用力拍动翅膀，向你发起撞击。", "en": "Flaps wings, collides with you."},
+        {"zh": "猛然转向，向你撞来。", "en": "Turns sharply, collides."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低鸣声中，寻找伴侣。", "en": "Hums low, seeking a mate."},
+        {"zh": "发出求偶的低吟声。", "en": "Rumbles, seeking a mate."},
+        {"zh": "围绕你飞行，寻找配偶。", "en": "Circling, searching for a mate."},
+        {"zh": "轻柔的叫声中，表达求偶意愿。", "en": "Whispers softly, seeking a mate."},
+        {"zh": "靠近你，低声求偶。", "en": "Closer, hums in courtship."},
+        {"zh": "围绕你旋转，寻找配偶。", "en": "Spins around, searching."},
+        {"zh": "轻声鸣叫，寻找伴侣。", "en": "Whistles, seeking a mate."},
+        {"zh": "靠近你，低声求爱。", "en": "Draws near, murmurs."},
+        {"zh": "围绕你飞翔，寻求伴侣。", "en": "Flying around, seeking."},
+        {"zh": "轻声呼唤，寻找伴侣。", "en": "Whispers, seeking a mate."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕噜噜，肉块是我的！", "en": "Grumble, meat is mine!"},
+        {"zh": "找到美食了，嗯嗯！", "en": "Found food, mm-mm!"},
+        {"zh": "这片草地，是我的！", "en": "This field is mine!"},
+        {"zh": "铁块，我要收藏！", "en": "Iron, I collect it!"},
+        {"zh": "避雷针，带回家！", "en": "Lightning rod, take it home!"},
+        {"zh": "火球来啦，躲开！", "en": "Fireball, dodge!"},
+        {"zh": "羊肉，正合我意！", "en": "羊肉, suits me!"},
+        {"zh": "巢穴里，很舒服！", "en": "Nest is comfy!"},
+        {"zh": "猎物来了，我要飞！", "en": "Prey, I'll fly!"},
+        {"zh": "金属块，我的宝藏！", "en": "Metal, my treasure!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "耳朵一动，我就知道方位。", "en": "One twitch of my ear and I know where you are."},
+        {"zh": "我看见了，它在跑！", "en": "I see it, it runs!"},
+        {"zh": "羊肉，我的猎物！", "en": "Meat, my prey!"},
+        {"zh": "躲进草丛，别让我找到！", "en": "Hide, don't find you!"},
+        {"zh": "靠近它，别害怕！", "en": "Approach it, no fear!"},
+        {"zh": "慢慢来，小心不要惊动它！", "en": "Slow, don't startle it!"},
+        {"zh": "它在动，要吃掉它！", "en": "It moves, eat it!"},
+        {"zh": "你踩到我的收藏了。", "en": "You just stepped on my hoard."},
+        {"zh": "食物，我的猎物！", "en": "Food, my prey!"},
+        {"zh": "它在动，我得抓它！", "en": "It moves, catch it!"},
+        {"zh": "它闻到你身上的羊肉味。", "en": "It smells the mutton on you."},
+        {"zh": "记忆里，这张脸是新的。", "en": "In its memory, this face is new."},
+        {"zh": "它从巢口探出半个身子。", "en": "It leans half its body out of the nest."},
+        {"zh": "它把你归进了要看住的东西。", "en": "It files you under things to watch."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "瞄准，一箭双雕！", "en": "Target, two for the price of one!"},
+        {"zh": "瞄准它，小心别误伤！", "en": "Target it, don't wound!"},
+        {"zh": "瞄准，准备进攻！", "en": "Target, prepare to attack!"},
+        {"zh": "它在飞，瞄准时机！", "en": "It flies, aim well!"},
+        {"zh": "翼尖的火花，替我瞄准。", "en": "The sparks at my wingtips do the aiming."},
+        {"zh": "瞄准它，不要错过！", "en": "Target it, don't miss!"},
+        {"zh": "瞄准，小心别受伤！", "en": "Target, don't get hurt!"},
+        {"zh": "瞄准它，准备释放！", "en": "Target it, ready to release!"},
+        {"zh": "瞄准，我不会让它走！", "en": "Target, I won't let it go!"},
+        {"zh": "瞄准，小心它的攻击！", "en": "Target, beware its attack!"},
+        {"zh": "它压低翅膀，准备俯冲。", "en": "It drops its wings, ready to dive."},
+        {"zh": "它绕到你背后，风跟着转。", "en": "It swings behind you, and the wind turns with it."},
+        {"zh": "它算好了扑下来的角度。", "en": "It has worked out the angle of its dive."},
+        {"zh": "爪子收在腹下，还没张开。", "en": "Its claws are tucked under, not yet spread."},
+        {"zh": "它的瞳孔缩成一条缝。", "en": "Its pupils narrow to a slit."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "羊肉的味道，你身上有吗？", "en": "Do you smell of mutton? I need mutton."},
+        {"zh": "利爪带电，别碰我的翅膀。", "en": "My claws crackle; keep off my wings."},
+        {"zh": "尝尝我的龙息！", "en": "Feel my dragon breath!"},
+        {"zh": "这一爪，连铁锭都抓穿。", "en": "These claws tear straight through iron ingots."},
+        {"zh": "雷光裹着牙，咬下去了。", "en": "Lightning wraps my fangs as I bite down."},
+        {"zh": "吃我的吧！", "en": "Eat me!"},
+        {"zh": "你太小了，不够吃！", "en": "You’re too small, not worth it!"},
+        {"zh": "我的鳞片坚硬如石！", "en": "My scales are hard as stone!"},
+        {"zh": "翅膀一压，你就趴下。", "en": "One beat of my wings pins you down."},
+        {"zh": "尝尝我的龙威！", "en": "Feel my dragon presence!"},
+        {"zh": "爪子扣住你的肩膀。", "en": "Its claws hook into your shoulder."},
+        {"zh": "尾巴横扫，把你扫倒。", "en": "A tail sweep knocks you down."},
+        {"zh": "它咬住护臂，甩了两下。", "en": "It bites your arm guard and shakes twice."},
+        {"zh": "翅膀拍在你脸上，风很硬。", "en": "A wing smacks your face with hard wind."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "巢里的铁锭，先不管了。", "en": "The iron in my nest can wait."},
+        {"zh": "这片天空归我巡。", "en": "This stretch of sky is mine to patrol."},
+        {"zh": "准备迎接攻击吧！", "en": "Prepare for the attack!"},
+        {"zh": "食物来了，我来守护！", "en": "Food’s here, I’ll protect it!"},
+        {"zh": "雷声在我喉咙里滚。", "en": "Thunder rolls in my throat."},
+        {"zh": "昼行的我，先绕领飞一圈。", "en": "A daytime hunter circles his territory first."},
+        {"zh": "我的巢穴在上面！", "en": "My nest is up there!"},
+        {"zh": "我来了，带来猎物！", "en": "I come with prey!"},
+        {"zh": "食物是我的权利！", "en": "Food is mine!"},
+        {"zh": "这片巢穴，只归我。", "en": "This nest belongs to me alone."},
+        {"zh": "巢里传来蛋壳裂开的声。", "en": "A shell cracks in the nest."},
+        {"zh": "它第一次张开翅膀。", "en": "It spreads its wings for the first time."},
+        {"zh": "基因定了它这一身斑纹。", "en": "Its genes decided these markings."},
+        {"zh": "它在巢边站很久才起飞。", "en": "It stood by the nest a long time before flying."},
+        {"zh": "山脊上多了一双新眼睛。", "en": "A new pair of eyes joins the ridge."},
+        {"zh": "它落下来，先嗅了嗅地面。", "en": "It lands and sniffs the ground first."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧伤，嘶！", "en": "Burned by fire, sss!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从高空坠落，嘶！", "en": "Fell from the sky, sss!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "溺水受伤，嘶！", "en": "Drowned, sss!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸伤我！", "en": "Boom, sss!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "中箭受伤！", "en": "Pierced by an arrow, sss!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "法术伤我！", "en": "Magic hit, sss!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得虚弱，嘶！", "en": "Starving, sss!"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈得我鳞片发麻。", "en": "The lightning leaves my scales numb."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚无里没有火花，也没有风。", "en": "In the void there are no sparks and no wind."}
+      ]
+    }
+  }
+}

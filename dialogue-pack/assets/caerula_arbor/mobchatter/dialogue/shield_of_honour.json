@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "三只脚交替，走得很稳", "en": "Three legs alternating, steady gait."},
+        {"zh": "盾面上刻着旧纹", "en": "Old patterns carved on my shield face."},
+        {"zh": "我是被炼出来的，不是生的", "en": "I was smelted, not born."},
+        {"zh": "铁片相碰，叮当响", "en": "My plates clink as I move."},
+        {"zh": "仪仗队的步法，慢而齐", "en": "Ceremonial steps: slow and even."},
+        {"zh": "我这面盾，比人还高", "en": "This shield stands taller than a person."},
+        {"zh": "七点护甲，全在盾上", "en": "Seven points of armor, all in the shield."},
+        {"zh": "一步一顿，我在巡", "en": "One step, a pause; I patrol."},
+        {"zh": "腿是三曲的，弯得刚好", "en": "My legs curve in three bends, just so."},
+        {"zh": "我走过，地面有划痕", "en": "My passing leaves scratches."},
+        {"zh": "海嗣的东西，也学会了站岗", "en": "A seaborn thing learned to stand guard."},
+        {"zh": "盾不放下，我就不停", "en": "The shield stays up; so do I."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "立着不动，就是一面墙", "en": "Standing still, I am a wall."},
+        {"zh": "我在等有人来碰我", "en": "Waiting for someone to touch me."},
+        {"zh": "炼金造物不用呼吸", "en": "An alchemy construct needn't breathe."},
+        {"zh": "盾面反着光，冷冷的", "en": "The shield face gleams cold."},
+        {"zh": "三只脚扎在地上", "en": "Three legs planted in the ground."},
+        {"zh": "我听见远处的潮声", "en": "I hear the tide far off."},
+        {"zh": "三十二点生命，不算多", "en": "Thirty-two points of life, not much."},
+        {"zh": "没人下令，我就站着", "en": "No orders, so I stand."},
+        {"zh": "这面盾上有旧伤", "en": "Old scars mark this shield."},
+        {"zh": "我慢慢转头，扫视一圈", "en": "I turn slowly, scanning."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在我盾的正面", "en": "You stand on my shield's face."},
+        {"zh": "再靠近，我就当是攻击", "en": "Closer, and I'll read it as an attack."},
+        {"zh": "我没有眼睛，但看得见你", "en": "No eyes, yet I see you."},
+        {"zh": "这面盾不是给你看的", "en": "This shield isn't for show."},
+        {"zh": "你的脚步很轻，可惜我听得到", "en": "Light steps, but I hear them."},
+        {"zh": "你先动，我才好判断", "en": "Move first, so I can judge you."},
+        {"zh": "仪仗盾不为欢迎而立", "en": "A ceremonial shield doesn't stand to welcome."},
+        {"zh": "你衣角上沾着海腥味", "en": "There is the tang of the sea on your hem."},
+        {"zh": "退后半步，对你好", "en": "Half a step back would be wise."},
+        {"zh": "我认得你的轮廓了", "en": "I've memorized your outline."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "铁被敲凹了一块", "en": "A dent knocked into my iron."},
+        {"zh": "我退了半步，盾还在", "en": "Half a step back; the shield holds."},
+        {"zh": "你打中了缝隙", "en": "You hit a seam."},
+        {"zh": "我听见自己裂开的声音", "en": "I hear myself cracking."},
+        {"zh": "这点伤不影响还手", "en": "This won't stop my counter."},
+        {"zh": "盾面多了道新痕", "en": "A fresh mark on my face."},
+        {"zh": "炼金造物也会被打坏", "en": "Constructs can be broken too."},
+        {"zh": "三只脚有一只在抖", "en": "One of my three legs trembles."},
+        {"zh": "我记住你的角度了", "en": "I've learned your angle."},
+        {"zh": "再来一次，我就还你", "en": "Once more, and you get it back."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我只是块铁，不吃东西", "en": "I'm iron; I don't eat."},
+        {"zh": "你举着食物，我没有嘴", "en": "You hold food, and I have no mouth."},
+        {"zh": "炼金造物不需要喂", "en": "Alchemy constructs need no feeding."},
+        {"zh": "你在浪费那点吃的", "en": "You're wasting that food."},
+        {"zh": "我认得饵，也认得陷阱", "en": "I know bait, and I know traps."},
+        {"zh": "举高点，让我看清", "en": "Raise it so I see clearly."},
+        {"zh": "这对我没有意义", "en": "This means nothing to me."},
+        {"zh": "你拿这个想换什么", "en": "What do you hope to trade for that?"},
+        {"zh": "我只会挡，不会吃", "en": "I only block; I don't eat."},
+        {"zh": "收起来吧，别举着了", "en": "Put it away; stop holding it up."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上盾面，退回去了", "en": "You hit the shield face and went back."},
+        {"zh": "七点护甲，不是摆设", "en": "Seven points of armor aren't decoration."},
+        {"zh": "我这三只脚很稳", "en": "These three legs hold firm."},
+        {"zh": "铁碰骨头，响得很清楚", "en": "Iron on bone, an audible click."},
+        {"zh": "绕开我，别硬挤", "en": "Go around; don't force through."},
+        {"zh": "盾一偏，你就滑开了", "en": "My shield tilts and you slide off."},
+        {"zh": "我站的是自己的位置", "en": "I stand where I was set."},
+        {"zh": "这一撞，你手该麻了", "en": "That bump should numb your hand."},
+        {"zh": "我退半格，你过去", "en": "I give half a block; pass."},
+        {"zh": "再撞，我会还手", "en": "Bump again and I'll strike back."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炼金造物没有这回事", "en": "Alchemy constructs have no such thing."},
+        {"zh": "造我的那双手，没给我留这个", "en": "The hands that made me left no room for that."},
+        {"zh": "没有同类，也没有伴", "en": "No kin, and no partner."},
+        {"zh": "你把铁当活物了", "en": "You mistake iron for a living thing."},
+        {"zh": "盾与盾相碰，只是响", "en": "Shield against shield only clangs."},
+        {"zh": "我站岗，不结伴", "en": "I keep watch, not company."},
+        {"zh": "这问题问得奇怪", "en": "An odd question to ask."},
+        {"zh": "我没有那个结构", "en": "I lack the structure for it."},
+        {"zh": "去问造我的人", "en": "Ask the one who made me."},
+        {"zh": "我的位置不能离开", "en": "I can't leave my post."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地上有东西，我挪过去", "en": "Something on the ground; I shift over."},
+        {"zh": "三只脚不好弯腰", "en": "Bending is hard on three legs."},
+        {"zh": "我用盾沿把它铲起来", "en": "I scoop it up with my shield rim."},
+        {"zh": "铁碰铁，声音很脆", "en": "Iron on iron, a crisp sound."},
+        {"zh": "我把它压住，别被拿走", "en": "I pin it so it isn't taken."},
+        {"zh": "这不在我的职责里", "en": "This isn't part of my duty."},
+        {"zh": "捡到就放着，不动", "en": "Picked up and left there."},
+        {"zh": "你用不着替我捡", "en": "You needn't pick it up for me."},
+        {"zh": "盾下有东西卡着", "en": "Something's caught under my shield."},
+        {"zh": "我慢慢挪，别催", "en": "I move slowly; don't rush me."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你打了我，我就还", "en": "You struck me, so I answer."},
+        {"zh": "盾一抬，对上你的方向", "en": "Shield raised toward you."},
+        {"zh": "我本来只是站着", "en": "I was only standing."},
+        {"zh": "八点伤害，够你记一下", "en": "Eight points of damage; remember it."},
+        {"zh": "三只脚开始加速", "en": "My three legs pick up pace."},
+        {"zh": "仪仗盾也能砸人", "en": "A ceremonial shield can crush too."},
+        {"zh": "你犯了这里的规矩", "en": "You broke the rule here."},
+        {"zh": "炼金造物记得每一次挨打", "en": "Alchemy remembers every blow."},
+        {"zh": "我不会追远，但会追", "en": "I won't chase far, but I will chase."},
+        {"zh": "盾面的旧伤，就是你这样的手留下的", "en": "Old scars like yours mark my face."},
+        {"zh": "站住，不要再绕", "en": "Stand still; stop circling."},
+        {"zh": "这一下，是回礼", "en": "This is my return gift."},
+        {"zh": "铁器不需要愤怒", "en": "Iron needs no rage."},
+        {"zh": "我的动作慢，但方向准", "en": "Slow, but accurate."},
+        {"zh": "你的手还在抬着", "en": "Your hand is still raised."},
+        {"zh": "那就让我们开始", "en": "Then let us begin."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一步步挪过去", "en": "I shuffle toward you, step by step."},
+        {"zh": "盾挡在前面，你打不到", "en": "The shield's up; you can't reach."},
+        {"zh": "三只脚走直线", "en": "Three legs, one straight line."},
+        {"zh": "我不急，你绕不掉", "en": "No hurry; you can't circle out."},
+        {"zh": "你退，我跟着挪", "en": "You retreat; I shuffle after."},
+        {"zh": "铁器的耐心很长", "en": "Iron has long patience."},
+        {"zh": "我把你堵在墙角", "en": "I'll pen you into a corner."},
+        {"zh": "盾面一直朝着你", "en": "My shield face stays on you."},
+        {"zh": "你听见咔哒声了吗", "en": "Hear that clicking?"},
+        {"zh": "每一步都在缩短距离", "en": "Each step shortens the gap."},
+        {"zh": "你想从侧面上来", "en": "You're thinking of my flank."},
+        {"zh": "侧面也有一层铁", "en": "There's iron on the flank too."},
+        {"zh": "我不需要喘气", "en": "I needn't catch my breath."},
+        {"zh": "你的手上没有武器", "en": "Your hands hold nothing."},
+        {"zh": "还在跑？我等着", "en": "Still running? I'll wait."},
+        {"zh": "这面盾记得你的位置", "en": "This shield remembers your position."},
+        {"zh": "慢，是因为沉", "en": "Slow, because heavy."},
+        {"zh": "盾一斜，就是砸的前兆", "en": "A tilt of the shield means it's coming down."},
+        {"zh": "海嗣的东西，也会算角度", "en": "Even a seaborn thing calculates angles."},
+        {"zh": "你背后的墙，已经碰着肩了", "en": "The wall behind you is already at your shoulder."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盾面直接砸下来", "en": "The shield face comes down."},
+        {"zh": "盾沿横着扫过去", "en": "My shield rim sweeps across."},
+        {"zh": "三只脚一蹬，撞过去", "en": "Three legs push and I ram."},
+        {"zh": "铁的重量，全在盾上", "en": "All the iron's weight is in the shield."},
+        {"zh": "八点伤害，实打实", "en": "Eight points, no exaggeration."},
+        {"zh": "你挡了，但退了半步", "en": "You blocked, but slid half a step."},
+        {"zh": "这一下砸在你脚边", "en": "This one lands at your feet."},
+        {"zh": "我把盾往前一推", "en": "I shove the shield forward."},
+        {"zh": "你的武器震开了", "en": "Your weapon got knocked aside."},
+        {"zh": "没有招式，只有重量", "en": "No technique, only weight."},
+        {"zh": "再挨一下，你手就抬不起来", "en": "One more and your arm won't lift."},
+        {"zh": "盾后是我，盾前是你", "en": "I'm behind the shield; you're in front."},
+        {"zh": "我的攻击很慢", "en": "My strikes come slowly."},
+        {"zh": "但每一记都算好的", "en": "But every one is measured."},
+        {"zh": "你左肋空着，我的盾往那儿去", "en": "Your left side is open; my shield goes there."},
+        {"zh": "这一记冲膝盖", "en": "This one goes for your knee."},
+        {"zh": "铁器是不会累的", "en": "Iron doesn't tire."},
+        {"zh": "我把它压下去", "en": "I press it down."},
+        {"zh": "你退到盾的边上了", "en": "You're at the shield's edge."},
+        {"zh": "我收盾，站定", "en": "Shield back, stance set."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "三只脚落地，站稳了", "en": "Three legs land and hold."},
+        {"zh": "炼金阵亮了一下", "en": "The alchemy circle flashed."},
+        {"zh": "一面旧盾立在这里", "en": "An old shield stands here."},
+        {"zh": "我从熔炉的东西里站起来", "en": "I rise from what the furnace made."},
+        {"zh": "仪仗盾已经就位", "en": "Ceremonial shield in position."},
+        {"zh": "盾面的纹路还很新", "en": "The patterns are still fresh."},
+        {"zh": "没有号令，我自己站", "en": "No orders; I stand on my own."},
+        {"zh": "这里的潮气很重", "en": "The damp here is heavy."},
+        {"zh": "三十二点生命，够守一阵", "en": "Thirty-two points of life, enough to hold a while."},
+        {"zh": "三只脚砸进土里，我立住了", "en": "Three legs drive into the soil and I hold."},
+        {"zh": "旧伤跟着我一起来", "en": "My old scars came with me."},
+        {"zh": "海嗣的手笔，又是这种造物", "en": "Seaborn work: another such construct."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "铁被烧得发红", "en": "The iron glows red."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔下去，盾先着地", "en": "I fell shield-first."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进关节，转不动", "en": "Water in my joints; they won't turn."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸得我盾面凹进去", "en": "The blast dented my shield face."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西卡在盾缝里", "en": "Something's stuck in a seam."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炼金之物也怕别的术", "en": "Even alchemy fears another craft."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没有能量补给，我慢下来", "en": "No energy to draw on; I'm slowing."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷顺着铁走，全线发麻", "en": "Lightning runs the iron; everything goes numb."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下没有地，盾也撑不住", "en": "No ground beneath, and the shield can't hold."}
+      ]
+    }
+  }
+}

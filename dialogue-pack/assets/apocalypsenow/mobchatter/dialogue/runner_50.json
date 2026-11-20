@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蹒跚前行，满身疮痍。", "en": "Shuffle forward, riddled with wounds."},
+        {"zh": "伤口流血，惨叫连连。", "en": "Wounds gush, cries resound."},
+        {"zh": "咬着腿，试图逃脱。", "en": "Limping, trying to escape."},
+        {"zh": "缓慢奔跑，步伐沉重。", "en": "Slow run, heavy steps."},
+        {"zh": "啃食尸体，血迹斑斑。", "en": "Feasting on corpses, bloodied."},
+        {"zh": "寻找食物，眼神空洞。", "en": "Searching for food, hollow eyes."},
+        {"zh": "步履蹒跚，痛苦难忍。", "en": "Shuffling, agony apparent."},
+        {"zh": "伤口发出腐烂声。", "en": "Wounds emit rotten sounds."},
+        {"zh": "饥饿难耐，嘶吼求食。", "en": "Starving, growl for food."},
+        {"zh": "咬断脚踝，痛苦嚎叫。", "en": "Biting ankle, painful howl."},
+        {"zh": "第五十号奔尸，一路小跑。", "en": "Runner variant fifty, jogging along."},
+        {"zh": "脚踝歪着，还是跑得动。", "en": "My ankle is bent and I still run."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低头哀嚎，痛苦难忍。", "en": "Head down, painful wails."},
+        {"zh": "啃咬手指，满手鲜血。", "en": "Biting fingers, bloody hands."},
+        {"zh": "蜷缩角落，等待猎物。", "en": "Curling, waiting for prey."},
+        {"zh": "空洞目光，四处游荡。", "en": "Empty gaze, aimless wandering."},
+        {"zh": "舔舐伤口，动作迟缓。", "en": "Licking wounds, slow motion."},
+        {"zh": "摸索食物，手指颤抖。", "en": "Searching for food, trembling fingers."},
+        {"zh": "眼神呆滞，机械行走。", "en": "Stare blankly, mechanical movement."},
+        {"zh": "哀嚎不断，绝望凄凉。", "en": "Non-stop wails, despairing."},
+        {"zh": "咀嚼手指，痛苦不已。", "en": "Chewing fingers, agony."},
+        {"zh": "四处徘徊，寻找猎物。", "en": "Roaming, searching for prey."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我盯着你，等你自己摔倒。", "en": "I watch you and wait for you to trip."},
+        {"zh": "眼神闪烁，寻找机会。", "en": "Eyes flicker, seeking chance."},
+        {"zh": "向玩家发出警告嘶吼。", "en": "Screaming warning at player."},
+        {"zh": "试图接近，小心谨慎。", "en": "Approaching cautiously."},
+        {"zh": "我看清了，你只有一个人。", "en": "I see it clearly — you are alone."},
+        {"zh": "一个活人，够我追半条街。", "en": "One living soul, enough to chase half a street."},
+        {"zh": "瞄准玩家，开始冲刺。", "en": "Aiming, starting sprint."},
+        {"zh": "盯着玩家，步步紧逼。", "en": "Staring, closing in."},
+        {"zh": "锁定玩家，开始追击。", "en": "Tracking player, chasing."},
+        {"zh": "向玩家发起攻击，嘶吼连连。", "en": "Attacking player, growls non-stop."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "骨头在嘎吱作响。", "en": "The bones creak."},
+        {"zh": "我感觉腿快断了。", "en": "My leg feels like it's breaking."},
+        {"zh": "伤口在流血不止。", "en": "The wound won't stop bleeding."},
+        {"zh": "疼痛如刀割般剧烈。", "en": "The pain is like a刀割."},
+        {"zh": "我好像被咬了。", "en": "I've been bitten."},
+        {"zh": "疼痛让人无法忍受。", "en": "The pain is unbearable."},
+        {"zh": "腿上被咬了一口。", "en": "A bite on my leg."},
+        {"zh": "骨头断了。", "en": "The bone is broken."},
+        {"zh": "我需要找东西吃。", "en": "I need to eat."},
+        {"zh": "我必须找到食物。", "en": "I need food."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得我骨头都快散了！", "en": "Starving, bones almost falling apart."},
+        {"zh": "想吃点什么美味的？", "en": "Hungry, want to eat something tasty."},
+        {"zh": "我的胃在咕咕叫！", "en": "Stomach is growling."},
+        {"zh": "快找点东西吃吧！", "en": "Need something to eat."},
+        {"zh": "我需要血肉来充饥！", "en": "Need flesh to feed on."},
+        {"zh": "食物是我的唯一需求！", "en": "Food is my only need."},
+        {"zh": "食物的味道真好！", "en": "Food tastes so good."},
+        {"zh": "快给我点吃的！", "en": "Need some food."},
+        {"zh": "饿得肠子贴脊梁，快给我肉！", "en": "Hunger pins my guts to my spine. Give me meat!"},
+        {"zh": "我已经饿得发慌了！", "en": "Starving, desperate for food."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "避让！别撞到我！", "en": "Watch out! Don't collide with me."},
+        {"zh": "撞开你，我就能咬到脖子！", "en": "Knock you aside and I can reach your neck!"},
+        {"zh": "停下！不要靠近我！", "en": "Stop! Don't get closer."},
+        {"zh": "让开，否则会被吃掉！", "en": "Move! Otherwise, you'll be eaten."},
+        {"zh": "让开！我这条腿停不下来！", "en": "Move! This leg of mine won't stop!"},
+        {"zh": "我撞开你，就为了一口肉。", "en": "I shove you aside for a single bite of meat."},
+        {"zh": "闪开！我要前进！", "en": "Move! Need to advance."},
+        {"zh": "别贴过来，我身上的咬痕会传给你。", "en": "Do not press close; these bite marks spread."},
+        {"zh": "滚开，别妨碍我扑食！", "en": "Get lost; don't spoil my kill!"},
+        {"zh": "我跑得比你还快，别试。", "en": "I run faster than you. Do not try."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "同样的伤口，才认得彼此。", "en": "Only the same wounds recognize each other."},
+        {"zh": "找个伴侣繁殖！", "en": "Find a mate to breed."},
+        {"zh": "五十号这身皮，也想找伴。", "en": "Even skin fifty wants company."},
+        {"zh": "和我繁殖吧！", "en": "Mate with me."},
+        {"zh": "你愿意和我繁殖吗？", "en": "Willing to mate with me?"},
+        {"zh": "和我生个宝宝！", "en": "Mate and have a baby."},
+        {"zh": "你需要一个伴侣！", "en": "Need a mate."},
+        {"zh": "快找个伴侣！", "en": "Find a mate quickly."},
+        {"zh": "我还会伸手，像从前那样。", "en": "I still reach out, the way I used to."},
+        {"zh": "趁我还没烂透，得留个种！", "en": "Before I rot through, I should leave something behind!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶响着，蠕动着向前爬行。", "en": "Sibilant and creeping forward."},
+        {"zh": "啃食着地面，寻找食物。", "en": "Feasting on the ground, searching for food."},
+        {"zh": "咬向猎物的脚踝，尝试拖走。", "en": "Biting at the prey's ankle, trying to drag it away."},
+        {"zh": "嘶嘶作响，舔舐伤口。", "en": "Sibilant and lapping at the wound."},
+        {"zh": "咬着骨头，享受美味。", "en": "Biting into the bone, savoring the taste."},
+        {"zh": "啃食腐烂的尸体，满足饥饿。", "en": "Feasting on the rotting corpse, satisfying hunger."},
+        {"zh": "盯着猎物，准备扑击。", "en": "Fixing on the prey, ready to pounce."},
+        {"zh": "嘶嘶响着，慢慢接近目标。", "en": "Sibilant and inching closer to the target."},
+        {"zh": "啃食着猎物，不放手。", "en": "Feasting on the prey, not letting go."},
+        {"zh": "嘶嘶响着，撕咬猎物。", "en": "Sibilant and tearing at the prey."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发现了活人，嘶嘶叫着接近。", "en": "Spotting a living person, sibilant and creeping closer."},
+        {"zh": "发现了食物，嘶嘶叫着追踪。", "en": "Spotting food, sibilant and tracking it."},
+        {"zh": "发现了猎物，嘶嘶叫着靠近。", "en": "Spotting the prey, sibilant and creeping near."},
+        {"zh": "发现了目标，嘶嘶叫着锁定。", "en": "Spotting the target, sibilant and locking on."},
+        {"zh": "发现了猎物，嘶嘶叫着包围。", "en": "Spotting the prey, sibilant and closing in."},
+        {"zh": "发现了活人，嘶嘶叫着靠近。", "en": "Spotting a living person, sibilant and creeping near."},
+        {"zh": "发现了猎物，嘶嘶叫着接近。", "en": "Spotting the prey, sibilant and creeping closer."},
+        {"zh": "发现了猎物，嘶嘶叫着扑击。", "en": "Spotting the prey, sibilant and lunging."},
+        {"zh": "活人的气味，隔墙也闻得到。", "en": "Living scent, even through a wall."},
+        {"zh": "这一带全是我的猎场。", "en": "This whole area is my hunting ground."},
+        {"zh": "不管哪个群系，我都能闻到。", "en": "No matter the biome, I catch the scent."},
+        {"zh": "被咬过的人，跑得比我慢。", "en": "The bitten always run slower than me."},
+        {"zh": "你一瘸一拐，我就跟上。", "en": "You limp, and I keep pace."},
+        {"zh": "尸变的味道，也是我留的。", "en": "That reek of turning is my doing too."},
+        {"zh": "又一个人，会走会喘。", "en": "Another one, walking and breathing."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶叫着，锁定目标。", "en": "Sibilant and locking on to the target."},
+        {"zh": "被咬过的伤口，已经不治。", "en": "The bite wound no longer heals."},
+        {"zh": "嘶嘶叫着，咬向目标。", "en": "Sibilant and biting at the target."},
+        {"zh": "嘶嘶叫着，试图咬住目标。", "en": "Sibilant and trying to bite the target."},
+        {"zh": "嘶嘶叫着，撕咬目标。", "en": "Sibilant and tearing at the target."},
+        {"zh": "嘶嘶叫着，锁定并咬住目标。", "en": "Sibilant and locking on and biting the target."},
+        {"zh": "嘶嘶叫着，咬向目标的脚。", "en": "Sibilant and biting at the target's foot."},
+        {"zh": "嘶嘶叫着，咬向目标的手。", "en": "Sibilant and biting at the target's hand."},
+        {"zh": "嘶嘶叫着，咬向目标的腿。", "en": "Sibilant and biting at the target's leg."},
+        {"zh": "嘶嘶叫着，咬向目标的脖子。", "en": "Sibilant and biting at the target's neck."},
+        {"zh": "你的腿，我盯上了。", "en": "It's your leg I'm watching."},
+        {"zh": "别跑直线，我不会停的。", "en": "Don't run straight. I never stop."},
+        {"zh": "血味儿混在你的汗里。", "en": "Blood-scent mixed into your sweat."},
+        {"zh": "咬一口，你就跑不掉了。", "en": "One bite and you can't run anymore."},
+        {"zh": "我在算你摔的那一步。", "en": "I'm counting the step where you trip."},
+        {"zh": "你手上的血，比我的新。", "en": "The blood on your hands is fresher than mine."},
+        {"zh": "我咬人从不出错。", "en": "I never miss a bite."},
+        {"zh": "你越急，越会撞上我。", "en": "The more you panic, the more you run into me."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶！断腿疼痛！", "en": "Hisss! Leg hurt!"},
+        {"zh": "扑向你，撕裂你的肉！", "en": "Lunge at you, rip your flesh!"},
+        {"zh": "咬住你，感受痛苦！", "en": "Bite you, feel the pain!"},
+        {"zh": "腿折了，奔跑不易！", "en": "Leg broken, running hard!"},
+        {"zh": "我一口咬上你的小臂！", "en": "I sink my teeth into your forearm!"},
+        {"zh": "流血不止，痛苦！", "en": "Bleeding, pain!"},
+        {"zh": "奔跑，寻找猎物！", "en": "Run, find prey!"},
+        {"zh": "嘶嘶嘶，痛苦尖叫！", "en": "Hisss, painful scream!"},
+        {"zh": "猎物的味道，鲜美！", "en": "Delicious prey!"},
+        {"zh": "奔跑吧，活人！", "en": "Run, living one!"},
+        {"zh": "指甲抠进你的小臂。", "en": "My nails dig into your forearm."},
+        {"zh": "咬住脚踝，咬到骨头。", "en": "I bite your ankle down to the bone."},
+        {"zh": "这一口，治不好了。", "en": "After this bite, there is no cure."},
+        {"zh": "压住你，先咬再说。", "en": "I pin you down and bite first, think later."},
+        {"zh": "你的血，把地润湿了。", "en": "Your blood soaks the ground."},
+        {"zh": "我也想跑，可腿断了。", "en": "I want to run too, but my leg is broken."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿的奔尸降临！", "en": "Hungry Runner arrives!"},
+        {"zh": "尸变的号角响起！", "en": "Runner's horn sounds!"},
+        {"zh": "黑暗中，奔尸现身！", "en": "Runner appears in darkness!"},
+        {"zh": "腐烂的呼唤，奔尸诞生！", "en": "Rotten call, Runner born!"},
+        {"zh": "第50号奔尸到来！", "en": "Runner #50 arrives!"},
+        {"zh": "腐烂与饥饿同在！", "en": "Rotten and hungry!"},
+        {"zh": "尸变之夜，奔尸现身！", "en": "Night of reanimation, Runner appears!"},
+        {"zh": "黑暗中，饥饿奔尸！", "en": "Darkness, hungry Runner!"},
+        {"zh": "腐烂的阴影，奔尸！", "en": "Rotten shadow, Runner!"},
+        {"zh": "奔尸，腐化的存在！", "en": "Runner, corrupt being!"},
+        {"zh": "废楼底下，尸变的那个站起。", "en": "Under the ruined building, the turned one stands."},
+        {"zh": "五十号的脸，烂得刚好。", "en": "Variant fifty's face, rotted just right."},
+        {"zh": "我从尸堆里挣出来。", "en": "I claw my way out of the pile of corpses."},
+        {"zh": "天黑了，我也该出来跑了。", "en": "It's dark, so it's time for me to run."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰在焚烧我的皮肉。", "en": "Fire burns my flesh."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔断了腿。", "en": "I broke my leg."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "溺水造成的伤害。", "en": "Damage from drowning."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆风把我掀翻，皮肉都开了。", "en": "The blast flips me over and splits my flesh."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢射穿了我的身体。", "en": "An arrow pierced me."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法攻击烧伤了我。", "en": "Magic burned me."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿开始侵蚀我的肉体。", "en": "Starvation is eating me."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈在我头顶，焦味冲鼻。", "en": "Lightning hits my skull and the stink of char fills my nose."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空之力侵蚀着我。", "en": "Void energy is eroding me."}
+      ]
+    }
+  }
+}

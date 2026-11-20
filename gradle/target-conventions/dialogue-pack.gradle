@@ -1,0 +1,47 @@
+// Packs dialogue-pack/ into the runtime XZ before resources are processed.
+// Apply with ext.dialogueRepositoryRoot pointing at the repository root.
+
+def repositoryRoot = project.ext.dialogueRepositoryRoot
+if (repositoryRoot == null) {
+    throw new GradleException('dialogue-pack.gradle requires ext.dialogueRepositoryRoot.')
+}
+repositoryRoot = file(repositoryRoot)
+
+def packer = new File(repositoryRoot, 'tools/build_mod_dialogue.py')
+def source = new File(repositoryRoot, 'dialogue-pack/assets')
+def output = new File(repositoryRoot, 'common/src/main/resources/assets/mobchatter/dialogue.json.xz')
+
+def windows = System.getProperty('os.name').toLowerCase().contains('windows')
+def python = providers.gradleProperty('pythonExecutable').orNull
+        ?: System.getenv('PYTHON')
+        ?: (windows ? 'python' : 'python3')
+
+def packDialogue = tasks.register('buildDialoguePack', Exec) {
+    group = 'build'
+    description = 'Packs dialogue-pack/ into assets/mobchatter/dialogue.json.xz.'
+    workingDir repositoryRoot
+    inputs.dir(source)
+    inputs.file(packer)
+    outputs.file(output)
+    commandLine python, packer.absolutePath, '--out', output.absolutePath
+    standardOutput = System.out
+    errorOutput = System.err
+    doFirst {
+        if (!source.isDirectory()) {
+            throw new GradleException("Dialogue source not found: ${source}")
+        }
+    }
+}
+
+tasks.named('processResources', ProcessResources).configure {
+    dependsOn(packDialogue)
+}
+
+tasks.named('jar', Jar).configure {
+    dependsOn(packDialogue)
+}
+
+def sourcesJar = tasks.findByName('sourcesJar')
+if (sourcesJar != null) {
+    sourcesJar.dependsOn(packDialogue)
+}

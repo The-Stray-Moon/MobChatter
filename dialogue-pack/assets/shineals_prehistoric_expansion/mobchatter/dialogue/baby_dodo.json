@@ -1,0 +1,242 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摇摇晃晃地走着。", "en": "I waddle along, rocking side to side."},
+        {"zh": "我的腿短，走得却很急。", "en": "Short legs, but I hurry."},
+        {"zh": "我跟在大的后面。", "en": "I follow behind the big ones."},
+        {"zh": "我踩在自己的脚上，差点摔。", "en": "I step on my own feet and almost trip."},
+        {"zh": "我的绒毛还没褪完。", "en": "My down hasn't fully gone."},
+        {"zh": "我在落叶里找东西吃。", "en": "I root through the fallen leaves for food."},
+        {"zh": "我的翅膀很小，没用。", "en": "My wings are tiny and useless."},
+        {"zh": "我走两步就停下来看看。", "en": "Two steps, then I stop and look."},
+        {"zh": "我跑起来像球在滚。", "en": "When I run, I roll like a ball."},
+        {"zh": "我跟在一只大鸟后面。", "en": "I trail behind a bigger bird."},
+        {"zh": "我试着跳，跳不高。", "en": "I try to hop. Not high."},
+        {"zh": "我把头低下去又抬起来。", "en": "I dip my head and raise it again."},
+        {"zh": "我踩着松土，脚陷进去。", "en": "My feet sink into the loose soil."},
+        {"zh": "我歪着头往前走。", "en": "I walk with my head cocked."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我蹲着，一动不动。", "en": "I squat, perfectly still."},
+        {"zh": "我还没学会害怕。", "en": "I haven't learned to be afraid."},
+        {"zh": "我在啄自己的绒毛。", "en": "I peck at my own down."},
+        {"zh": "喉咙动了动，只出了口气。", "en": "My throat moves, but only air comes out."},
+        {"zh": "大鸟在那边，我不敢去。", "en": "The big ones are over there; I daren't go."},
+        {"zh": "这地方的虫子真多。", "en": "There are so many insects here."},
+        {"zh": "我在沙里刨了个小坑。", "en": "I scratch a little hollow in the sand."},
+        {"zh": "我眨了眨眼，很清楚。", "en": "I blink. Everything's clear."},
+        {"zh": "我的头比身子还重。", "en": "My head is heavier than my body."},
+        {"zh": "土从羽毛缝里掉下来。", "en": "Dirt sifts out from between my feathers."},
+        {"zh": "我在等大鸟回来。", "en": "I wait for the big birds to return."},
+        {"zh": "太阳有点晒。", "en": "The sun is a bit hot."},
+        {"zh": "这个地方很安全。", "en": "This place feels safe."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你蹲下来了，我也蹲。", "en": "You crouched; I crouch too."},
+        {"zh": "你的手好大。", "en": "Your hand is so big."},
+        {"zh": "我不认识你，但你不凶。", "en": "I don't know you, but you're not fierce."},
+        {"zh": "你站着，我抬着头。", "en": "You stand; I look up."},
+        {"zh": "我朝你走了两步。", "en": "I take two steps toward you."},
+        {"zh": "你的影子凉快。", "en": "Your shadow is cool."},
+        {"zh": "你要摸我吗？", "en": "Are you going to touch me?"},
+        {"zh": "我看你的鞋，很有趣。", "en": "I'm looking at your shoes. Interesting."},
+        {"zh": "我还没长大。", "en": "I'm not grown yet."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔了个屁股墩。", "en": "I land on my rear."},
+        {"zh": "刺柏林的枝条，扎得我发抖。", "en": "The cypress twigs make me shiver."},
+        {"zh": "我叫得又细又急。", "en": "My cry is thin and urgent."},
+        {"zh": "这一点伤，对我很大。", "en": "That wound is big for me."},
+        {"zh": "我躲到草里去了。", "en": "I hide in the grass."},
+        {"zh": "我歪着头，很难受。", "en": "I tilt my head. It hurts."},
+        {"zh": "大鸟在那边叫。", "en": "The big birds are calling."},
+        {"zh": "我慢慢往窝里挪。", "en": "I shuffle toward the nest."},
+        {"zh": "我还没学会忍痛。", "en": "I haven't learned to bear pain."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手里的果子在晃，我来了。", "en": "That fruit is swaying - I'm coming over."},
+        {"zh": "我先闻一下。", "en": "Let me sniff first."},
+        {"zh": "好吃，真好吃。", "en": "Good. Very good."},
+        {"zh": "我啄了一口就跑。", "en": "I peck once and run."},
+        {"zh": "我想再要一点。", "en": "I'd like a little more."},
+        {"zh": "你的手心还有碎屑。", "en": "There are crumbs left in your palm."},
+        {"zh": "我吃得很快，也很乱。", "en": "I eat fast and messily."},
+        {"zh": "有吃的吗？我跟着你走。", "en": "Got any food? I'll follow you."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被撞得坐下了。", "en": "I get knocked onto my rear."},
+        {"zh": "我晃了两下才站稳。", "en": "I wobble twice before steadying."},
+        {"zh": "你碰到我，我就滚了一圈。", "en": "You touch me and I roll once."},
+        {"zh": "我爬起来，有点懵。", "en": "I get up, a bit dazed."},
+        {"zh": "我的绒毛被踩扁了。", "en": "My down is flattened."},
+        {"zh": "我撞到你的腿，弹回来。", "en": "I bump your leg and bounce back."},
+        {"zh": "这点撞，我不哭。", "en": "I won't cry over that."},
+        {"zh": "我歪着走开了。", "en": "I wander off crookedly."},
+        {"zh": "我拍了两下小翅膀。", "en": "I flap my little wings twice."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "另一只小绒球在旁边。", "en": "Another little fluffball is nearby."},
+        {"zh": "同一个坑里睡两只。", "en": "Two of us sleep in one hollow."},
+        {"zh": "它抢我的虫子，我不介意。", "en": "It steals my insect. I don't mind."},
+        {"zh": "我们一起跟着大鸟走。", "en": "We follow the big birds together."},
+        {"zh": "它摔了，我停下来等。", "en": "It fell; I stop and wait."},
+        {"zh": "天黑前，我们要回窝。", "en": "Before dark we must be back in the nest."},
+        {"zh": "明天还一起找吃的。", "en": "Tomorrow we'll forage together again."},
+        {"zh": "等我长大，也要找个伴。", "en": "When I grow up, I'll find a mate too."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "扁嘴一夹，果子就稳了。", "en": "My flat beak clamps down and the fruit holds."},
+        {"zh": "我啄了啄，它滚了。", "en": "I peck it and it rolls."},
+        {"zh": "这颗珍珠很滑。", "en": "This pearl is slippery."},
+        {"zh": "我把它放进草里藏着。", "en": "I hide it in the grass."},
+        {"zh": "它太大了，我咽不下。", "en": "It's too big to swallow."},
+        {"zh": "我把它拱到窝里。", "en": "I nudge it into the nest."},
+        {"zh": "我低头看，又抬头。", "en": "I look down, then up."},
+        {"zh": "我舍不得丢。", "en": "I can't bear to drop it."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那边有虫子！", "en": "An insect over there!"},
+        {"zh": "我冲过去了，很快。", "en": "I dash over. Fast."},
+        {"zh": "我看见一只在动。", "en": "I see one moving."},
+        {"zh": "我压低身子，像在藏。", "en": "I crouch, as if hiding."},
+        {"zh": "这虫子是我的。", "en": "That insect is mine."},
+        {"zh": "我啄下去，准得很。", "en": "I peck. Very accurate."},
+        {"zh": "它跳，我也跳。", "en": "It jumps; I jump."},
+        {"zh": "你挡着我了。", "en": "You're in my way."},
+        {"zh": "我盯住它不放。", "en": "I won't lose sight of it."},
+        {"zh": "大鸟让开，我来。", "en": "Let me at it, big birds."},
+        {"zh": "我摇着身子追。", "en": "I chase, waddling."},
+        {"zh": "这一口，跑不了。", "en": "It won't escape this bite."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它钻进草里，我跟着。", "en": "It's in the grass; I follow."},
+        {"zh": "它跑到石头后面了。", "en": "It ran behind the rock."},
+        {"zh": "我不急，我慢慢找。", "en": "I'm in no hurry; I search slowly."},
+        {"zh": "我闻到它的味道。", "en": "I smell it."},
+        {"zh": "它在叶子上，我看见了。", "en": "It's on the leaf. I see it."},
+        {"zh": "刺柏林里，我还没长齐羽毛。", "en": "In the cypress wood, my feathers aren't in yet."},
+        {"zh": "它跳走了，我又追。", "en": "It hops away; I chase again."},
+        {"zh": "我绕着圈找。", "en": "I search in circles."},
+        {"zh": "再近一点就啄。", "en": "One step more and I peck."},
+        {"zh": "我不叫，叫了会惊它。", "en": "I won't call; it would startle it."},
+        {"zh": "它就在我脚边。", "en": "It's right at my feet."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我啄了一下，很准。", "en": "I peck once, precisely."},
+        {"zh": "我用小翅膀拍了一下。", "en": "I slap with a little wing."},
+        {"zh": "这点力气，只够赶虫子。", "en": "This is only enough to shoo insects."},
+        {"zh": "我被弹开了，又冲。", "en": "I'm knocked back and charge again."},
+        {"zh": "我用力蹬了一下。", "en": "I kick out with both feet."},
+        {"zh": "它跑了，我追不上。", "en": "It got away; I can't catch it."},
+        {"zh": "我歪着头看它翻倒。", "en": "I tilt my head as it topples."},
+        {"zh": "大鸟们在看我。", "en": "The big birds are watching me."},
+        {"zh": "我拍着翅膀助跑。", "en": "I flap for a running start."},
+        {"zh": "这一下，我自己也摔了。", "en": "That one knocked me over too."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从窝里爬出来了。", "en": "I clambered out of the nest."},
+        {"zh": "我跟在大鸟后面出来。", "en": "I came out behind the big birds."},
+        {"zh": "这块地很软，好走。", "en": "This ground is soft. Easy to walk."},
+        {"zh": "我先蹲了一会儿。", "en": "First I squat a while."},
+        {"zh": "有虫子，我看见了。", "en": "Insects. I see them."},
+        {"zh": "我的腿还不太听使唤。", "en": "My legs don't quite obey me."},
+        {"zh": "这里不像我的窝。", "en": "This isn't like my nest."},
+        {"zh": "大鸟在附近，我不怕。", "en": "The big ones are near. I'm not afraid."},
+        {"zh": "我还没长齐羽，走两步就歪。", "en": "My feathers aren't in; two steps and I wobble."},
+        {"zh": "我慢慢走向那丛草。", "en": "I head slowly for that clump of grass."},
+        {"zh": "太阳照着我，很暖。", "en": "The sun is on me. Warm."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火苗把我的一点绒毛燎焦了。", "en": "A flame singes a bit of my down."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔下来，晕了一下。", "en": "I fall and see stars."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水进了我的嘴，我乱蹬。", "en": "Water fills my beak; I kick wildly."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "响声把我吓得滚了一圈。", "en": "The bang sends me rolling."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一个小东西擦过我的腿。", "en": "Something small grazes my leg."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "光一闪，我什么都看不见。", "en": "A flash and I can't see."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得我头晕。", "en": "Hunger makes me dizzy."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷声太大了，我趴着不动。", "en": "The thunder is too loud; I lie flat."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我往下掉，停不下来。", "en": "I fall and can't stop."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我迈着长腿穿过蕨丛。", "en": "My long legs carry me through the ferns."},
+        {"zh": "我的头一伸一缩。", "en": "My head thrusts and withdraws."},
+        {"zh": "趾爪刮着地面。", "en": "My toe claws rake the ground."},
+        {"zh": "我绕着巢走了一圈。", "en": "I circle the nest once."},
+        {"zh": "两格多高的我走路很轻。", "en": "Tall as I am, my steps are light."},
+        {"zh": "我在红杉之间穿行。", "en": "I weave between the redwoods."},
+        {"zh": "我一边走一边看天上。", "en": "I keep glancing upward."},
+        {"zh": "我的尾羽扫过枝叶。", "en": "My tail feathers sweep the brush."},
+        {"zh": "这里的虫子够我吃。", "en": "Enough insects here for me."},
+        {"zh": "我经过自己的领地边界。", "en": "I pass my range's boundary."},
+        {"zh": "我停下来听了一会儿。", "en": "I stop to listen."},
+        {"zh": "我压低头，让过树枝。", "en": "I duck under a branch."},
+        {"zh": "离巢越远我越不安。", "en": "The farther from the nest, the worse I feel."},
+        {"zh": "我走快了，得赶回去。", "en": "I quicken. I must get back."},
+        {"zh": "脚下的落叶很脆。", "en": "The leaf litter is brittle."},
+        {"zh": "我停下来，叼了一颗果子。", "en": "I stop for a berry."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在巢边上站着。", "en": "I stand beside the nest."},
+        {"zh": "我的羽毛蓬起来了。", "en": "My feathers are puffed up."},
+        {"zh": "我低头看那些蛋。", "en": "I look down at the eggs."},
+        {"zh": "风一吹，我就往巢那边看。", "en": "At every gust I check the nest."},
+        {"zh": "我的喙很硬，能咬碎东西。", "en": "My beak is hard enough to crush."},
+        {"zh": "我梳理了一下胸羽。", "en": "I preen my breast."},
+        {"zh": "我听到很远的地方有脚步。", "en": "I hear steps far off."},
+        {"zh": "我没有离开多久。", "en": "I have not been gone long."},
+        {"zh": "树影慢慢挪过来。", "en": "The shade creeps closer."},
+        {"zh": "我伸长脖子看了一圈。", "en": "I stretch my neck to scan."},
+        {"zh": "这几颗蛋还是温的。", "en": "The eggs are still warm."},
+        {"zh": "我不喜欢有人从侧面来。", "en": "I dislike anyone approaching from the side."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "别靠近那个巢。", "en": "Do not come near that nest."},
+        {"zh": "你的靴子，没有壳的味道。", "en": "Your boots carry no smell of eggshell."},
+        {"zh": "你头上的壳不是我认得的。", "en": "That shell on your head is unfamiliar."},
+        {"zh": "你在我的范围内。", "en": "You are inside my range."},
+        {"zh": "我不管你是谁。", "en": "I do not care who you are."},
+        {"zh": "退开，我不会说第二遍。", "en": "Back off. I will not repeat it."},
+        {"zh": "你身上有蛋的味道吗？", "en": "Do you smell of eggs?"},
+        {"zh": "我压低了头，准备冲。", "en": "I lower my head to charge."},
+        {"zh": "这里离我的蛋太近了。", "en": "You are too close to my eggs."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的叫声又尖又长。", "en": "My call is high and drawn out."},
+        {"zh": "我退了半步，护着巢。", "en": "I step back over the nest."},
+        {"zh": "细腿抖得停不下来。", "en": "My thin legs will not stop shaking."},
+        {"zh": "我低着头，血滴在土上。", "en": "Blood drips from my head to the soil."},
+        {"zh": "羽毛掉了，可我还站着。", "en": "Feathers gone, but I am still standing."},
+        {"zh": "我扑了扑翅膀。", "en": "I beat my wings."},
+        {"zh": "我不会走的。", "en": "I am not leaving."},
+        {"zh": "我的巢在崖上，别往上走。", "en": "My nest is up the cliff — don't climb."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那果子可以。", "en": "That berry will do."},
+        {"zh": "我只认巢边的那些果子。", "en": "I only trust the fruit by my nest."},
+        {"zh": "能吃就吃，我不挑。", "en": "If it is edible, I eat it."},
+        {"zh": "这一口还行。", "en": "That was acceptable."},
+        {"zh": "我还得回去看着。", "en": "I have to get back to the nest."},
+        {"zh": "再给我一个。", "en": "Give me another."},
+        {"zh": "你走开点。", "en": "Step back."},
+        {"zh": "我叼着就走了。", "en": "I take it and go."},
+        {"zh": "你放地上，我再决定。", "en": "Set it down, then I will decide."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我腿细，差点站不稳。", "en": "My legs are thin; I nearly lose my footing."},
+        {"zh": "离巢远点再挤。", "en": "Shove away from the nest."},
+        {"zh": "我比你轻，可是我快。", "en": "I am lighter than you, but quicker."},
+        {"zh": "我的腿很细。", "en": "My legs are thin."},
+        {"zh": "别碰到我的尾巴。", "en": "Do not touch my tail."},
+        {"zh": "地狱溪的大家伙，翅膀一展就宽。", "en": "A Hell Creek giant — my wings spread wide."},
+        {"zh": "你这是靠近了。", "en": "That counts as approaching."},
+        {"zh": "我羽毛都乱了。", "en": "My feathers are disordered."},
+        {"zh": "再来我就啄。", "en": "Again and I peck."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这个巢是我们一起的。", "en": "This nest is ours together."},
+        {"zh": "蛋还在。", "en": "The eggs are still here."},
+        {"zh": "我得先把它盖好。", "en": "I must cover it first."},
+        {"zh": "别在这时候吵。", "en": "Not now, with noise."},
+        {"zh": "风把沙吹进巢里了。", "en": "Sand has blown into the nest."},
+        {"zh": "我挪了挪位置。", "en": "I shift my position."},
+        {"zh": "安静点。", "en": "Be quiet."},
+        {"zh": "找个伴不难，守住巢才难。", "en": "Finding a mate is easy; guarding the nest is not."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这个蛋壳不能留。", "en": "That shell must go."},
+        {"zh": "我叼起来移到一边。", "en": "I carry it aside."},
+        {"zh": "这果子能吃。", "en": "This berry is edible."},
+        {"zh": "我叼一下就掉。", "en": "I take it and drop it."},
+        {"zh": "这不是我的。", "en": "This is not mine."},
+        {"zh": "我把它丢进巢边。", "en": "I drop it by the nest."},
+        {"zh": "太远了，我不去。", "en": "Too far. I will not go."},
+        {"zh": "我放回去。", "en": "I put it back."},
+        {"zh": "我叼着走了。", "en": "I carry it off."},
+        {"zh": "碎石头没用。", "en": "A broken stone is no use."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你又靠近了一步。", "en": "You came one step closer."},
+        {"zh": "我张开翅膀了。", "en": "My wings are spread."},
+        {"zh": "巢在我的后面。", "en": "The nest is behind me."},
+        {"zh": "我不会让。", "en": "I will not yield."},
+        {"zh": "你没戴蛋壳。", "en": "You wear no eggshell."},
+        {"zh": "这一下不至于要命。", "en": "This will not be fatal."},
+        {"zh": "我的爪子很有力。", "en": "My claws are strong."},
+        {"zh": "我压低脖子。", "en": "I lower my neck."},
+        {"zh": "你退到十步外。", "en": "Ten steps back."},
+        {"zh": "我要叫了。", "en": "I am about to call."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我绕到巢前面。", "en": "I move in front of the nest."},
+        {"zh": "近我的巢，羽毛就炸开。", "en": "Come near my nest and my feathers flare."},
+        {"zh": "我的羽毛全立着。", "en": "My feathers are fully raised."},
+        {"zh": "巢里有蛋，我不会让开。", "en": "There are eggs in the nest; I will not step aside."},
+        {"zh": "我很小，可是很固执。", "en": "I am small, and stubborn."},
+        {"zh": "你听见我的叫声了吗？", "en": "Did you hear my call?"},
+        {"zh": "这只是警告。", "en": "This is only a warning."},
+        {"zh": "我把脖子伸长，盯着你。", "en": "I stretch my neck and fix on you."},
+        {"zh": "巢就在我身后，别过去。", "en": "The nest is behind me; do not go there."},
+        {"zh": "沙子在我爪下响。", "en": "Sand hisses under my claws."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用喙啄你。", "en": "I peck at you."},
+        {"zh": "爪子抓过你的裤子。", "en": "My claw rakes your trousers."},
+        {"zh": "我用喙啄你的脚背。", "en": "I peck the top of your foot."},
+        {"zh": "护着巢，我又扑了一次。", "en": "Guarding the nest, I lunge once more."},
+        {"zh": "我的叫声很尖。", "en": "My cry is shrill."},
+        {"zh": "我没打算杀你。", "en": "I did not mean to kill you."},
+        {"zh": "离巢远点了。", "en": "You are farther from the nest now."},
+        {"zh": "滚开，我的喙可不是摆设。", "en": "Back off — my beak is not decoration."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从林间空地走出来。", "en": "I walk out into the clearing."},
+        {"zh": "我看看这里有没有威胁。", "en": "I check for threats."},
+        {"zh": "我的头冠在光下发亮。", "en": "My crest glints."},
+        {"zh": "红杉的影子很长。", "en": "The redwood shadows are long."},
+        {"zh": "我压着步子走。", "en": "I keep my steps low."},
+        {"zh": "这里的土很松。", "en": "The soil is loose here."},
+        {"zh": "我把尾巴压下来。", "en": "I lower my tail."},
+        {"zh": "有人在那边。", "en": "Someone is over there."},
+        {"zh": "我的叫声很吵。", "en": "My call is loud."},
+        {"zh": "我得先筑好巢。", "en": "I must finish the nest first."},
+        {"zh": "这一片安静得不对。", "en": "This quiet is wrong."},
+        {"zh": "我伸出脖子。", "en": "I stretch my neck."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "羽毛一烧，味道很难闻。", "en": "Burning feathers stink."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的巢在红杉林里，别靠近。", "en": "My nest is in the redwoods; stay back."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不该进水里的。", "en": "I should not have entered the water."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我掀到巢边。", "en": "The blast throws me by the nest."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股力量让我看不清。", "en": "That force clouds my sight."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿着，我还是得守着。", "en": "Hungry, and I still must guard."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在我身边的树上。", "en": "Lightning strikes the tree beside me."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里没有巢，也没有地。", "en": "No nest here, and no ground."}
+      ]
+    }
+  }
+}

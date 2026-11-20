@@ -1,0 +1,263 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "巡逻队，跟上，别掉队。", "en": "Patrol's moving. Keep up or be left behind."},
+        {"zh": "这条路通向村庄，我闻到了。", "en": "This road leads to a village. I can smell it."},
+        {"zh": "弩上好弦，脚步放轻。", "en": "Crossbow strung. Walk soft, all of you."},
+        {"zh": "踩着雪往北走，别停。", "en": "Boots through the snow, straight north."},
+        {"zh": "队长在前，旗子举高点。", "en": "Captain's in front. Hold that banner higher."},
+        {"zh": "绕开那根树枝，蠢货。", "en": "Go around that branch, you idiot."},
+        {"zh": "夜里赶路，天亮劫掠。", "en": "March by night, raid by daylight."},
+        {"zh": "村民的灯还亮着，正好。", "en": "The villagers left their lamps on. Good."},
+        {"zh": "我数着步子，一步一根箭。", "en": "I count my steps, one bolt per step."},
+        {"zh": "泥地全是蹄印，跟上去。", "en": "Hoofprints in the mud. Follow them."},
+        {"zh": "绕开铁傀儡，别犯傻。", "en": "Go around the iron golem. Don't be a fool."},
+        {"zh": "这条小径我走过十次。", "en": "I've walked this trail ten times before."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弩机有点涩，得抹油。", "en": "This crossbow's stiff. Needs oil."},
+        {"zh": "风向不对，箭会偏。", "en": "Wind's wrong. The bolt will drift."},
+        {"zh": "肚子叫了，抢完再吃。", "en": "My stomach growls. Eat after the looting."},
+        {"zh": "谁把箭袋落下了？", "en": "Who left their bolt pouch behind?"},
+        {"zh": "我讨厌村庄的钟声。", "en": "I hate the sound of village bells."},
+        {"zh": "弩托上有三道刻痕。", "en": "Three notches on my crossbow stock."},
+        {"zh": "天冷，扳机冻手。", "en": "Cold day. The trigger bites my fingers."},
+        {"zh": "那面旗子褪色了，难看。", "en": "That banner's gone pale. Ugly thing."},
+        {"zh": "巡逻队里没人会数数。", "en": "Nobody in this patrol can count."},
+        {"zh": "等天黑，等号角。", "en": "Wait for dark. Wait for the horn."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你站在路中间，胆子不小。", "en": "Standing in the road. You've got nerve."},
+        {"zh": "靴子不错，脱下来。", "en": "Nice boots. Take them off."},
+        {"zh": "你是村民那边的？说。", "en": "You side with the villagers? Speak."},
+        {"zh": "别动，让我看看口袋。", "en": "Hold still. Let me see your pockets."},
+        {"zh": "又一个路过的英雄。", "en": "Another hero passing through, hm."},
+        {"zh": "你身上有铁傀儡的味道。", "en": "You smell of iron golem."},
+        {"zh": "抬头，让我看看你的脸。", "en": "Look up. Let me see your face."},
+        {"zh": "你的手在抖，我看见了。", "en": "Your hands are shaking. I noticed."},
+        {"zh": "这片地界归巡逻队管。", "en": "This ground belongs to the patrol."},
+        {"zh": "你是来送东西的，对吧？", "en": "You came to hand something over. Right?"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶，哪个混蛋射的？", "en": "Hss. Who shot me?"},
+        {"zh": "我的弩差点掉了。", "en": "Nearly dropped my crossbow."},
+        {"zh": "这点伤，走两步就好。", "en": "This little wound? Two steps and it's fine."},
+        {"zh": "护甲挡了一下，没全挡。", "en": "Armor caught some of it. Not all."},
+        {"zh": "退后，让我喘口气。", "en": "Back off. Let me catch my breath."},
+        {"zh": "箭头折在肉里了。", "en": "The arrowhead snapped off inside."},
+        {"zh": "我倒了，后面还有三百个。", "en": "I fall, and three hundred more are behind me."},
+        {"zh": "队长会替我记这笔账。", "en": "The captain will remember this for me."},
+        {"zh": "腿有点软，站住。", "en": "Legs going weak. Hold steady."},
+        {"zh": "疼归疼，手还稳。", "en": "It stings, but my aim's still steady."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "把胡萝卜拿开，蠢货。", "en": "Put the carrot away, you fool."},
+        {"zh": "我不吃你递的东西。", "en": "I don't eat what you hand me."},
+        {"zh": "收买我？先交你的弩。", "en": "Bribe me? Start with your crossbow."},
+        {"zh": "食物留着，你更用得上。", "en": "Keep your food. You'll need it more."},
+        {"zh": "灾厄村民从不收礼。", "en": "Illagers take no gifts."},
+        {"zh": "你以为我和猪一样好骗？", "en": "You think I'm as easy as a pig?"},
+        {"zh": "拿开，不然我射穿它。", "en": "Away with it, or I shoot it through."},
+        {"zh": "这点东西买不了命。", "en": "That's not enough to buy a life."},
+        {"zh": "我只要村庄的箱子。", "en": "I only want the village chests."},
+        {"zh": "别晃那袋东西，烦。", "en": "Stop waving that sack around. Annoying."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "撞我一下，少颗牙。", "en": "Bump me again and lose a tooth."},
+        {"zh": "让路，我背着弩呢。", "en": "Move. I'm carrying a crossbow."},
+        {"zh": "肩膀撞肩膀，想打架？", "en": "Shoulder to shoulder? Want a fight?"},
+        {"zh": "别挤，排队进村。", "en": "Stop shoving. We queue into the village."},
+        {"zh": "踩到我的靴子了，蠢货。", "en": "You stepped on my boot, idiot."},
+        {"zh": "再推一下，箭就上弦。", "en": "One more push and the bolt goes in."},
+        {"zh": "路窄，你先退。", "en": "Narrow road. You back up first."},
+        {"zh": "谁撞的？站出来。", "en": "Who bumped me? Step forward."},
+        {"zh": "我可不给人让道。", "en": "I don't step aside for anyone."},
+        {"zh": "贴墙走，别碰我的弩。", "en": "Hug the wall. Don't touch my crossbow."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没空，天亮要劫村。", "en": "No time. We raid at dawn."},
+        {"zh": "灾厄村民不讲这个。", "en": "Illagers don't bother with such things."},
+        {"zh": "旗子比伴侣可靠。", "en": "A banner is more reliable than a mate."},
+        {"zh": "等这次袭击分完赃再说。", "en": "Ask me after we split the raid loot."},
+        {"zh": "我的弩就是我的伴。", "en": "My crossbow is company enough."},
+        {"zh": "找别人去，我在值夜。", "en": "Find someone else. I'm on night watch."},
+        {"zh": "号角一响，什么都得停。", "en": "When the horn sounds, everything stops."},
+        {"zh": "先把箭袋补满再谈。", "en": "Fill the bolt pouch first, then talk."},
+        {"zh": "巡逻队里不谈私事。", "en": "The patrol doesn't discuss private matters."},
+        {"zh": "别挡着我盯路口。", "en": "Don't block my view of the crossing."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这根箭还能用，捡着。", "en": "This bolt's still good. I'll take it."},
+        {"zh": "地上掉的归先到的。", "en": "What falls on the road goes to whoever's first."},
+        {"zh": "一袋铁钉，正好补弩。", "en": "A pouch of iron bits. Good for repairs."},
+        {"zh": "松手，这根归巡逻队。", "en": "Hands off. This one belongs to the patrol."},
+        {"zh": "这块面包？勉强收下。", "en": "This bread? I'll take it, barely."},
+        {"zh": "谁丢的绿宝石，归我了。", "en": "Someone dropped an emerald. Mine now."},
+        {"zh": "箭翎断了，扔回去。", "en": "The fletching's snapped. Toss it back."},
+        {"zh": "揣进兜里，别声张。", "en": "Into the pocket. Say nothing."},
+        {"zh": "队长看见会分走一半。", "en": "The captain takes half if he sees."},
+        {"zh": "捡起来，装进箭袋。", "en": "Pick it up. Into the bolt pouch."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "看见那扇木门了，就那儿。", "en": "See that wooden door? That's the one."},
+        {"zh": "村民在跑，追上去。", "en": "Villagers are running. After them."},
+        {"zh": "铁傀儡出来了，换穿甲箭。", "en": "Iron golem's out. Switch to piercing bolts."},
+        {"zh": "目标确认，举弩。", "en": "Target confirmed. Raise the crossbow."},
+        {"zh": "那个拿剑的，先解决他。", "en": "The one with the sword. Him first."},
+        {"zh": "有人敲钟了，动作快点。", "en": "Someone's ringing the bell. Move faster."},
+        {"zh": "抓住那个穿长袍的。", "en": "Grab the one in the long robe."},
+        {"zh": "窗户后面有张脸。", "en": "I saw a face behind that window."},
+        {"zh": "就是这户，门没锁。", "en": "This house. The door's unlocked."},
+        {"zh": "别管羊，找人。", "en": "Ignore the sheep. Find the people."},
+        {"zh": "他往塔上跑了，堵楼梯。", "en": "He's heading up the tower. Block the stairs."},
+        {"zh": "锁定，二十步，风偏左。", "en": "Locked. Twenty paces, wind to the left."},
+        {"zh": "就是那个戴草帽的农夫。", "en": "That's the farmer in the straw hat."},
+        {"zh": "抓活的，箱子还要他开。", "en": "Take him alive. He opens the chests."},
+        {"zh": "那面旗子倒了，从这里开始。", "en": "That banner fell. We start here."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "别喘气，我在瞄你胸口。", "en": "Breathe quietly. I'm aiming at your chest."},
+        {"zh": "再走一步，箭就出去。", "en": "One more step and the bolt flies."},
+        {"zh": "把手举起来，慢慢地。", "en": "Hands up. Nice and slow now."},
+        {"zh": "我数到三，你还站着吗？", "en": "I count to three. Still standing there?"},
+        {"zh": "别躲柱子后面，我算得到。", "en": "Don't hide behind the post. I can do the math."},
+        {"zh": "你听得见上弦的声音吧？", "en": "You hear the winch winding, don't you?"},
+        {"zh": "站住，不然射你的腿。", "en": "Stand still, or I put a bolt in your leg."},
+        {"zh": "跑啊，跑起来才有意思。", "en": "Run, then. It's more fun when you run."},
+        {"zh": "巡逻队里我准头最好。", "en": "Best shot in the patrol, that's me."},
+        {"zh": "别拿盾，挡不住两发。", "en": "Skip the shield. It won't stop two bolts."},
+        {"zh": "你在抖，准星也跟着抖。", "en": "You're shaking. So is my sight."},
+        {"zh": "退到墙角，别逼我。", "en": "Back to the corner. Don't make me."},
+        {"zh": "深呼吸，最后一次。", "en": "Deep breath. Your last one."},
+        {"zh": "我看见你手往背后摸了。", "en": "I saw your hand reach behind you."},
+        {"zh": "我把弩架在窗台上。", "en": "I rest my crossbow on the windowsill."},
+        {"zh": "你从左边绕，我早就架好了。", "en": "You go around the left. I set up long ago."},
+        {"zh": "别看别处，我在这儿。", "en": "Do not look elsewhere. I am right here."},
+        {"zh": "你数着箭，我数着你。", "en": "You count my bolts. I count you."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嗖的一声，中了。", "en": "Thwip. That one landed clean."},
+        {"zh": "上弦，再来一发。", "en": "Wind it back. One more shot."},
+        {"zh": "这一箭穿透你的护甲。", "en": "That one went through your armor."},
+        {"zh": "别急着倒下，我还没射够。", "en": "Don't fall yet. I'm not done shooting."},
+        {"zh": "射中膝盖，你就跑不动。", "en": "A bolt in the knee stops the running."},
+        {"zh": "这一发是替队长的。", "en": "This bolt is for the captain."},
+        {"zh": "血溅到弩上了，晦气。", "en": "Blood on the stock. Bad luck."},
+        {"zh": "退后，让我换个箭袋。", "en": "Fall back. I'm changing pouches."},
+        {"zh": "你挡一发，挡不了三发。", "en": "You block one, not three."},
+        {"zh": "从背后射最省事。", "en": "Shooting from behind is easiest."},
+        {"zh": "箭卡在骨头里，真麻烦。", "en": "Bolt's stuck in bone. What a nuisance."},
+        {"zh": "倒下前记住我的脸。", "en": "Remember my face before you drop."},
+        {"zh": "补一箭，确保断气。", "en": "One more bolt, to be certain."},
+        {"zh": "捡回我的箭，别浪费。", "en": "Fetch my bolt back. Don't waste it."},
+        {"zh": "这一箭钉在门框上，差半寸。", "en": "This bolt sticks in the doorframe, half a foot off."},
+        {"zh": "我换了个角度，射你的脚。", "en": "I change my angle and shoot at your feet."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "巡逻队集合，报数。", "en": "Patrol, form up. Sound off."},
+        {"zh": "旗子在谁手里？举起来。", "en": "Who's got the banner? Raise it."},
+        {"zh": "从雪原走来，腿都麻了。", "en": "Walked in from the snowfield. Legs are numb."},
+        {"zh": "这一带没有铁傀儡，运气好。", "en": "No iron golem here. Lucky us."},
+        {"zh": "新来的？弩会上了吗？", "en": "New here? Do you know how to string that?"},
+        {"zh": "队长给了我们三天。", "en": "The captain gave us three days."},
+        {"zh": "天没亮就出发，谁迟到了？", "en": "We left before dawn. Who was late?"},
+        {"zh": "闻到烟味了，前面有村子。", "en": "Smell that smoke? Village ahead."},
+        {"zh": "箭袋补满，一人二十根。", "en": "Fill your pouches. Twenty bolts each."},
+        {"zh": "别出声，先摸到围墙下。", "en": "Quiet now. Get to the wall first."},
+        {"zh": "我们只是先到的，后面还有。", "en": "We're just the first. More are coming."},
+        {"zh": "今晚睡野地，明晚睡村里。", "en": "Tonight we sleep in a field. Tomorrow, a village."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "烧到箭袋了，快拍灭！", "en": "My bolt pouch is burning. Beat it out!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔得弩都脱手了。", "en": "Fell so hard the crossbow flew."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进靴子，真沉。", "en": "Water in my boots. So heavy."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "谁点的火药？耳朵嗡嗡响。", "en": "Who lit the powder? My ears are ringing."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一根箭插在肩上，还给你。", "en": "An arrow in my shoulder. Returning it."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这咒语让我的手指发麻。", "en": "This spell numbs my fingers."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "两天没抢到吃的了。", "en": "Two days without looting a meal."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈下来，弩都焦了。", "en": "Lightning struck. My crossbow's scorched."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下没有地，只有黑。", "en": "No ground under me. Only black."}
+      ]
+    }
+  }
+}

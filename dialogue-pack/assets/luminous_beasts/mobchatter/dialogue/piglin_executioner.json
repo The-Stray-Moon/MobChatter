@@ -1,0 +1,256 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的斧子拖着，刮过黑石。", "en": "I drag my axe, scraping the blackstone."},
+        {"zh": "我一步一步走向刑台。", "en": "I walk step by step toward the block."},
+        {"zh": "我的兜帽压得很低。", "en": "My hood sits very low."},
+        {"zh": "下界的热风把披风掀起。", "en": "The Nether's hot wind lifts my cloak."},
+        {"zh": "我踩着骨灰往前走。", "en": "I walk on through bone ash."},
+        {"zh": "我的靴子碾碎了什么。", "en": "My boot crushes something."},
+        {"zh": "我绕过熔岩沟，不着急。", "en": "I step around the lava ditch, unhurried."},
+        {"zh": "火焰在我背后拉着长影。", "en": "Flame stretches my shadow long behind me."},
+        {"zh": "我的呼吸声像在数数。", "en": "My breathing sounds like counting."},
+        {"zh": "我走得很直，从不偏。", "en": "I walk straight, never off line."},
+        {"zh": "斧刃在路上划出火星。", "en": "Sparks fly where my axe blade scrapes."},
+        {"zh": "我到刑台前停下，等你。", "en": "I stop at the block and wait for you."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我拄着斧子站着。", "en": "I stand leaning on my axe."},
+        {"zh": "我慢慢转头，看着四下的火。", "en": "I turn my head slowly to the fires around."},
+        {"zh": "下界荒地没什么好看的。", "en": "There is not much to see on the Nether wastes."},
+        {"zh": "我把兜帽往下拉了拉。", "en": "I pull my hood a little lower."},
+        {"zh": "斧柄上全是旧痕。", "en": "The axe haft is covered in old marks."},
+        {"zh": "我在等行刑的时辰。", "en": "I wait for the hour of execution."},
+        {"zh": "我的手指敲着斧柄。", "en": "My fingers tap the haft."},
+        {"zh": "远处有猪灵在叫。", "en": "Piglins call out somewhere far off."},
+        {"zh": "我不眨眼，火光在我眼里跳。", "en": "I do not blink; firelight dances in my eyes."},
+        {"zh": "我把斧子换个手拿。", "en": "I shift the axe to my other hand."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你站得离刑台太近了。", "en": "You stand too close to the block."},
+        {"zh": "先看我的斧子，再看我。", "en": "Look at my axe first, then at me."},
+        {"zh": "我不知道你犯了什么罪。", "en": "I do not know what you are guilty of."},
+        {"zh": "你眼里有火，我不在乎。", "en": "There is fire in your eyes. I do not care."},
+        {"zh": "下界的火比你说的更热。", "en": "The Nether's fire is hotter than words."},
+        {"zh": "你把金甲穿在身上，很显眼。", "en": "That gold armor makes you conspicuous."},
+        {"zh": "我看你像看一块待劈的木头。", "en": "I regard you as timber awaiting the axe."},
+        {"zh": "我的兜帽下面没有表情。", "en": "There is no expression beneath my hood."},
+        {"zh": "你的手一直没离开过剑柄。", "en": "Your hand has never left your sword hilt."},
+        {"zh": "我的斧，挂在肩上。", "en": "My axe rests on my shoulder."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腿被打麻了，可斧刃还朝着你。", "en": "My leg goes numb, but the blade still points at you."},
+        {"zh": "血从兜帽下面滴下来。", "en": "Blood drips from under my hood."},
+        {"zh": "这一下让我停了一停。", "en": "That made me pause."},
+        {"zh": "我把兜帽掀起来一点。", "en": "I push my hood up a little."},
+        {"zh": "兜帽里淌下血，我一声不吭。", "en": "Blood runs under my hood; I make no sound."},
+        {"zh": "我的肩甲崩了个口。", "en": "A chunk broke from my shoulder plate."},
+        {"zh": "我扶着斧柄站稳。", "en": "I steady myself on the axe haft."},
+        {"zh": "你倒有几分力气。", "en": "You have some strength in you."},
+        {"zh": "我把血吐到一边。", "en": "I spit the blood aside."},
+        {"zh": "伤口在烧，我把斧柄握得更紧。", "en": "The wound burns; I grip the haft tighter."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "金子的味道，很远就闻到。", "en": "I smell gold from far away."},
+        {"zh": "金锭举那么高，脖子不酸吗？", "en": "Holding that gold so high — doesn't your neck ache?"},
+        {"zh": "放下，别靠这么近。", "en": "Put it down. Do not come so close."},
+        {"zh": "这东西不够换你的命。", "en": "This is not enough to buy your life."},
+        {"zh": "我手上还沾着旧血。", "en": "Old blood still stains my hands."},
+        {"zh": "我有我的规矩。", "en": "I have my rules."},
+        {"zh": "金子归金子，刑罚归刑罚。", "en": "Gold is gold; the sentence is the sentence."},
+        {"zh": "那块金子在火边晃，我看着。", "en": "That gold sways by the fire; I'm watching."},
+        {"zh": "这东西我收下，事照办。", "en": "I will take it. The work still gets done."},
+        {"zh": "你把交易想得太简单了。", "en": "You take trade too lightly."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "撞我，你会先撞上斧柄。", "en": "Bump me and you meet the haft first."},
+        {"zh": "我的肩甲是黑石打的。", "en": "My shoulder plate is blackstone."},
+        {"zh": "你撞在我胸甲上，火把晃了晃。", "en": "You hit my chestplate and the torch wavers."},
+        {"zh": "别贴着我的斧子走。", "en": "Do not walk against my axe."},
+        {"zh": "这一碰我记住了。", "en": "I have noted that."},
+        {"zh": "下界的路很窄，你让开。", "en": "The Nether's paths are narrow. Move."},
+        {"zh": "我的兜帽被撞歪了。", "en": "That knocked my hood askew."},
+        {"zh": "我站稳，把斧子抬高。", "en": "I steady myself and raise the axe."},
+        {"zh": "地上的玄武岩很滑。", "en": "The basalt here is slick."},
+        {"zh": "再碰一次就不是意外了。", "en": "One more is no accident."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "跟我来，刑台在那边。", "en": "Follow me; the block is that way."},
+        {"zh": "你出手，我补最后一斧。", "en": "You strike; I finish with the axe."},
+        {"zh": "我们不走同一条路，但同向。", "en": "We take different paths, but the same direction."},
+        {"zh": "我按规矩办事。", "en": "I do things by the rules."},
+        {"zh": "站我后面，别挡住斧锋。", "en": "Stand behind me. Do not block the blade."},
+        {"zh": "你怕火，我不怕。", "en": "You fear fire. I do not."},
+        {"zh": "这一斧我替你落。", "en": "I will bring the axe down for you."},
+        {"zh": "完事之后各自走。", "en": "When it is over, we part ways."},
+        {"zh": "别多话，动手。", "en": "Enough talk. Work."},
+        {"zh": "刽子手的兜帽，遮住眼睛。", "en": "The executioner's hood covers my eyes."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉下的唱片，我捡起擦了擦灰。", "en": "A dropped record; I pick it up and wipe the ash off."},
+        {"zh": "这东西烧不坏。", "en": "This thing will not burn."},
+        {"zh": "我丢进腰间的袋子里。", "en": "I drop it into the pouch at my waist."},
+        {"zh": "掉在熔岩边，可惜。", "en": "Dropped by the lava. A pity."},
+        {"zh": "我拿斧尖挑起来。", "en": "I flick it up with the axe tip."},
+        {"zh": "这不是我该拿的东西。", "en": "This is not mine to take."},
+        {"zh": "我先掂了掂。", "en": "I weigh it first."},
+        {"zh": "我把它放到刑台上。", "en": "I set it on the block."},
+        {"zh": "你掉的东西在我这。", "en": "What you dropped is with me."},
+        {"zh": "这东西归我处置。", "en": "This is mine to deal with."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "名单上有你。", "en": "You are on the list."},
+        {"zh": "我举起斧子，就是开始。", "en": "When I raise the axe, it has begun."},
+        {"zh": "黑石就这么大，你能去哪？", "en": "Blackstone is only so big; where would you go?"},
+        {"zh": "黑石台就在那边。", "en": "The blackstone block is right there."},
+        {"zh": "你的罪，我来结。", "en": "I will settle what you owe."},
+        {"zh": "我走近了，你退也没用。", "en": "I am closing in; retreat will not help."},
+        {"zh": "斧刃已经朝你。", "en": "The blade is already turned your way."},
+        {"zh": "这一斧下去不会疼太久。", "en": "This will not hurt for long."},
+        {"zh": "我看你的脖子，不看你的脸。", "en": "I look at your neck, not your face."},
+        {"zh": "下界的规矩，你该懂。", "en": "You should know the Nether's law."},
+        {"zh": "矿石炉火正好。", "en": "The forge fire is just right."},
+        {"zh": "站定，别让我追。", "en": "Stand still and spare me the chase."},
+        {"zh": "我不听辩解。", "en": "I do not listen to pleas."},
+        {"zh": "就在这儿了结。", "en": "It ends here."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一步一寸地压过去。", "en": "I press forward an inch at a time."},
+        {"zh": "斧柄在我手里发烫。", "en": "The haft grows hot in my grip."},
+        {"zh": "我等你转身，斧子会先到。", "en": "Wait for the turn; the axe arrives first."},
+        {"zh": "你的脚跟已经贴到岩边。", "en": "Your heels are at the rock's edge."},
+        {"zh": "火光把你的影子送给我了。", "en": "Firelight has given me your shadow."},
+        {"zh": "我数到三就落斧。", "en": "I bring the axe down on three."},
+        {"zh": "你手里的东西挡不住这个。", "en": "That will not stop this."},
+        {"zh": "我的兜帽下面在笑。", "en": "I am smiling beneath my hood."},
+        {"zh": "熔岩的声音盖住了你的喘气。", "en": "The lava drowns out your panting."},
+        {"zh": "我往左偏了一点，封住路。", "en": "I edge left and close the way."},
+        {"zh": "站定，别让我再走一步。", "en": "Stop where you are. Do not make me take another step."},
+        {"zh": "你的姿势全错了。", "en": "Your stance is all wrong."},
+        {"zh": "我只等一个空档。", "en": "I wait for a single opening."},
+        {"zh": "熔岩照亮每一块石头，别躲了。", "en": "The lava lights every stone; stop hiding."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "斧子从上往下落。", "en": "The axe comes down from above."},
+        {"zh": "这一下劈在石台上。", "en": "That one split the stone block."},
+        {"zh": "你躲开了，斧刃还在响。", "en": "You dodged, and the blade still rings."},
+        {"zh": "我横着一挥，你退了。", "en": "I sweep sideways and you fall back."},
+        {"zh": "斧背砸在你的肩上。", "en": "The flat of the axe strikes your shoulder."},
+        {"zh": "我把你按到台上去。", "en": "I press you onto the block."},
+        {"zh": "火星溅在你脸上。", "en": "Sparks splash your face."},
+        {"zh": "斧背拍下去，我只想让你跪。", "en": "I strike with the flat; I only want you on your knees."},
+        {"zh": "你还站着，算你结实。", "en": "You are still standing. Sturdy of you."},
+        {"zh": "下一斧不偏了。", "en": "The next swing will not miss."},
+        {"zh": "我抬斧，重新找角度。", "en": "I lift the axe and find my angle again."},
+        {"zh": "你身上的血在下界是红的。", "en": "Your blood looks red enough here."},
+        {"zh": "我退开一步，让你喘。", "en": "I step back to let you breathe."},
+        {"zh": "行刑是件慢活。", "en": "Execution is slow work."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "刑台的铁链响了，我拖着斧出来。", "en": "The execution stand's chains rattle as I drag my axe out."},
+        {"zh": "黑石地上多了一道影子。", "en": "There is one more shadow on the blackstone."},
+        {"zh": "我拖着斧子，一步步靠近。", "en": "Dragging my axe, I approach step by step."},
+        {"zh": "下界荒地响起脚步声。", "en": "Footsteps sound on the Nether wastes."},
+        {"zh": "我的兜帽上落了一层灰。", "en": "A layer of ash settles on my hood."},
+        {"zh": "刑台早已架好了。", "en": "The block has long been set up."},
+        {"zh": "熔岩给我照路。", "en": "The lava lights my way."},
+        {"zh": "我把斧子砸进地面。", "en": "I drive the axe into the ground."},
+        {"zh": "猪灵们都退开了。", "en": "The piglins have all drawn back."},
+        {"zh": "我的呼吸在空气里结不成雾。", "en": "My breath makes no mist in this air."},
+        {"zh": "我开始数时辰。", "en": "I begin counting the hours."},
+        {"zh": "这里的火从不熄。", "en": "The fire here never goes out."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火我习惯了，可这是别人的火。", "en": "Fire I am used to — but this fire is another's."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我落到玄武岩上，膝盖一震。", "en": "I land on basalt and my knees jar."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水在下界是稀罕物，我却快淹死了。", "en": "Water is rare here, and yet I am drowning."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆风把我的斧子掀歪了。", "en": "The blast knocked my axe off line."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西扎进了我的肩甲缝。", "en": "Something went into the seam of my plate."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这股怪力让我的手指发麻。", "en": "That strange force numbs my fingers."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下界没什么能吃的。", "en": "There is little to eat in the Nether."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光在荒地炸开，很刺眼。", "en": "Lightning bursts over the wastes, blinding."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下空了，斧子也不管用。", "en": "The ground is gone, and the axe is no help."}
+      ]
+    }
+  }
+}

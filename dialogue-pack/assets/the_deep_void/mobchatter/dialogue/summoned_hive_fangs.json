@@ -1,0 +1,288 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "缓慢地蠕动前行", "en": "Creeps slowly forward"},
+        {"zh": "我的牙一步一步啃着地面。", "en": "My teeth chew the ground step by step."},
+        {"zh": "用触须感受周围", "en": "Uses feelers to scan"},
+        {"zh": "啃食腐烂的木头", "en": "Chews on rotten wood"},
+        {"zh": "紧追不舍，永不放弃", "en": "Chases relentlessly"},
+        {"zh": "挥动触须，寻找食物", "en": "Whips feelers for food"},
+        {"zh": "缓慢地移动，警惕四周", "en": "Moves slowly, vigilant"},
+        {"zh": "触角缠绕，紧抓不放", "en": "Feelers grasp tightly"},
+        {"zh": "追踪气味，逐渐逼近", "en": "Traces scent, advances"},
+        {"zh": "低沉地嘶吼，威胁敌人", "en": "Loud hiss, intimidating"},
+        {"zh": "牙关一开一合，我蹭着地面挪。", "en": "My fangs clack open and shut as I scrape along."},
+        {"zh": "我只有一点血，却不怕死。", "en": "I have one sliver of life and no fear of death."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我只有一滴血，也够咬。", "en": "One point of health, still enough to bite."},
+        {"zh": "触角轻微摆动，观察环境", "en": "Feelers sway, observing"},
+        {"zh": "静静等待，耐心十足", "en": "Patiently waits"},
+        {"zh": "低头沉思，似乎有所计划", "en": "Nods, planning"},
+        {"zh": "偶尔转动触须，感受气息", "en": "Twitches feelers, sensing"},
+        {"zh": "静静地停留，随时待命", "en": "Remains quiet, ready"},
+        {"zh": "目光深邃，似乎在思考", "en": "Gazes deeply, thinking"},
+        {"zh": "静静地伫立，静待时机", "en": "Stands silently, waiting"},
+        {"zh": "触须轻轻摆动，警惕四周", "en": "Feelers sway, vigilant"},
+        {"zh": "静默不语，等待指令", "en": "Silent, awaiting orders"},
+        {"zh": "我张着嘴，等召唤者下一步指令。", "en": "Mouth agape, I wait for the summoner's order."},
+        {"zh": "我挂在半空，一开一合咬空气。", "en": "Hanging in air, I bite at nothing."},
+        {"zh": "我是一颗牙，还没有身体。", "en": "I am a tooth without a body."},
+        {"zh": "不动的我，像一枚落地的牙。", "en": "Still, I look like a fallen tooth."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "立刻转向玩家，锁定目标", "en": "Immensely turns to player"},
+        {"zh": "目光锁定，准备攻击", "en": "Eyes lock on, ready to attack"},
+        {"zh": "盯紧玩家，准备吞噬", "en": "Stares at player, ready to devour"},
+        {"zh": "追踪玩家，绝不放弃", "en": "Chases player, relentless"},
+        {"zh": "转向玩家，准备近战", "en": "Turns to player, preparing"},
+        {"zh": "视线聚焦，锁定猎物", "en": "Gazes focused, targeting"},
+        {"zh": "锁定玩家，随时准备扑击", "en": "Locks onto player, ready to pounce"},
+        {"zh": "直视玩家，等待命令", "en": "Stares at player, waiting"},
+        {"zh": "紧盯着玩家，准备出击", "en": "Stares intently, ready to attack"},
+        {"zh": "转向玩家，准备攻击", "en": "Turns to player, ready to attack"},
+        {"zh": "我朝你张开，像一张嘴。", "en": "I open toward you like a mouth."},
+        {"zh": "我嗅到你的血，牙根发麻。", "en": "I smell your blood and my roots tingle."},
+        {"zh": "我的牙尖对准你的喉咙。", "en": "My points aim at your throat."},
+        {"zh": "我朝你张开，像一道伤口。", "en": "I open toward you like a wound."},
+        {"zh": "我不用眼睛，也知道你在哪。", "en": "Eyeless, I still know where you are."},
+        {"zh": "我贴在你脸旁，等你呼吸。", "en": "I hover by your cheek, waiting for breath."},
+        {"zh": "你数我的牙，我数你的心跳。", "en": "You count my fangs; I count your heartbeats."},
+        {"zh": "我裂开一道缝，冲你笑。", "en": "I split a seam and grin at you."},
+        {"zh": "你的体温把我引过来。", "en": "Your warmth pulled me here."},
+        {"zh": "我绕着你肩膀转了一圈。", "en": "I circled once around your shoulder."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "尖牙在你身上留下伤痕。", "en": "Hive Fangs leave a mark."},
+        {"zh": "你的血肉撕裂了。", "en": "Your flesh is torn."},
+        {"zh": "我感觉到你的痛苦。", "en": "I feel your pain."},
+        {"zh": "你已经无法逃避了。", "en": "You can't escape now."},
+        {"zh": "我的利齿在你体内。", "en": "My fangs are in you."},
+        {"zh": "你的血肉模糊不清。", "en": "Your flesh is mangled."},
+        {"zh": "我尝到了你的恐惧。", "en": "I taste your fear."},
+        {"zh": "死亡即将来临。", "en": "Death is coming."},
+        {"zh": "我的牙碎了一颗，其余还咬。", "en": "One tooth shatters; the rest still bite."},
+        {"zh": "我散了一半，剩下还在动。", "en": "Half of me scatters; the rest still moves."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你靠近了我巢穴的边缘！", "en": "You're getting close to my hive!"},
+        {"zh": "感受我的怒气吧！", "en": "Feel my rage!"},
+        {"zh": "我有比你更多牙齿！", "en": "I have more teeth than you!"},
+        {"zh": "不要来吃我的幼虫！", "en": "Don't eat my larvae!"},
+        {"zh": "你的味道像食物！", "en": "You taste like food!"},
+        {"zh": "我的触角追踪你！", "en": "My antennae track you!"},
+        {"zh": "避开我的攻击范围！", "en": "Stay out of my range!"},
+        {"zh": "我的毒刺将你消灭！", "en": "My stinger kills you!"},
+        {"zh": "我是群落的守护者！", "en": "I protect the hive!"},
+        {"zh": "别让我生气，我只有一滴血也咬。", "en": "Do not anger me; with one point of health I still bite."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的牙刮过你的护腿。", "en": "My teeth scrape your greaves."},
+        {"zh": "小心我的碰撞！", "en": "Be careful of my collision!"},
+        {"zh": "我的体型能碾碎你！", "en": "My size can crush you!"},
+        {"zh": "别靠近我的触须！", "en": "Don't get close to my antennae!"},
+        {"zh": "我从你脚后跟窜出来。", "en": "I burst up behind your heel."},
+        {"zh": "你触碰到我了！", "en": "You touched me!"},
+        {"zh": "我的体型让你退缩！", "en": "My size intimidates you!"},
+        {"zh": "我只有一点血，也要咬你。", "en": "One point of life, and I still bite."},
+        {"zh": "你一脚踩下去，我咬住了鞋底。", "en": "You stomp down; I bite the sole."},
+        {"zh": "我的体型让你畏惧！", "en": "My size frightens you!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我们在土里并排长出。", "en": "We grow up side by side in the soil."},
+        {"zh": "牙与牙相碰，就算作伴。", "en": "Tooth against tooth counts as company."},
+        {"zh": "你不能破坏我的交配！", "en": "You can't interfere with my mating!"},
+        {"zh": "我的交配时间已到！", "en": "My mating time has come!"},
+        {"zh": "不要打扰我的交配！", "en": "Don't disturb my mating!"},
+        {"zh": "我的交配是神圣的！", "en": "My mating is sacred!"},
+        {"zh": "你干扰了我的繁殖！", "en": "You interfere with my reproduction!"},
+        {"zh": "我们两颗牙挨着，就算成双。", "en": "Two fangs side by side count as a pair."},
+        {"zh": "交配是我们的目标！", "en": "Mating is our goal!"},
+        {"zh": "不要破坏我的交配！", "en": "Don't break my mating!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐烂的触手缠绕你！", "en": "Corrupted tentacles entwine you!"},
+        {"zh": "吸吮你的血液！", "en": "Suck your blood!"},
+        {"zh": "我就是你宿命的终点！", "en": "I am your destiny's end!"},
+        {"zh": "这里没有怜悯！", "en": "No mercy here!"},
+        {"zh": "我只有一点血，可牙很多。", "en": "One sliver of health, but plenty of fangs."},
+        {"zh": "感受恐惧的滋味！", "en": "Feel the taste of fear!"},
+        {"zh": "我只有一颗心，咬一口就散。", "en": "One heart left; I bite once and scatter."},
+        {"zh": "陷入我的黑暗吧！", "en": "Fall into my darkness!"},
+        {"zh": "腐化的生物！", "en": "Corrupted creature!"},
+        {"zh": "绝望吞噬一切！", "en": "Despair consumes all!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从土里拱起，围成半圈。", "en": "I arch out of the soil into a half ring."},
+        {"zh": "下一个，就是你！", "en": "Next, you!"},
+        {"zh": "我的牙已经认准你的手腕。", "en": "My teeth have chosen your wrist."},
+        {"zh": "我只有一点血，也够咬你。", "en": "One point of health is still enough to bite."},
+        {"zh": "吞噬之吻！", "en": "Kiss of consumption!"},
+        {"zh": "恐惧无法拯救你！", "en": "Fear cannot save you!"},
+        {"zh": "我的触手将终结你！", "en": "My tentacles will end you!"},
+        {"zh": "落入深渊的开始！", "en": "Beginning of the abyss!"},
+        {"zh": "感受死亡的冰凉！", "en": "Feel death's chill!"},
+        {"zh": "你将被遗忘！", "en": "You will be forgotten!"},
+        {"zh": "召唤者指了你，我来了。", "en": "The summoner pointed at you; I came."},
+        {"zh": "你的血肉在我齿间作响。", "en": "Your flesh rattles between my teeth."},
+        {"zh": "我不需要理由，只要咬。", "en": "I need no reason, only a bite."},
+        {"zh": "我只有一颗心，咬完就散。", "en": "One heart, one bite, then I'm gone."},
+        {"zh": "你被指给我了。", "en": "You have been given to me."},
+        {"zh": "牙已就位，猎物就绪。", "en": "Fangs in place, prey in range."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我沿着你的脚踝合拢。", "en": "I close around your ankle."},
+        {"zh": "靠近我，你将毁灭！", "en": "Draw near, you will be destroyed!"},
+        {"zh": "恐惧，将你包围！", "en": "Fear surrounds you!"},
+        {"zh": "我围成圈，一圈圈收紧。", "en": "I form a ring and tighten it."},
+        {"zh": "这是命运的选择！", "en": "This is destiny's choice!"},
+        {"zh": "你将被吞噬！", "en": "You will be devoured!"},
+        {"zh": "我的触手伸向你！", "en": "My tentacles reach for you!"},
+        {"zh": "我只有一点血，牙却很多。", "en": "One point of health, and many teeth."},
+        {"zh": "我只剩一点血，也够咬你。", "en": "One sliver of health is enough to bite."},
+        {"zh": "死亡的阴影笼罩！", "en": "Death's shadow falls!"},
+        {"zh": "我围着你转，牙尖朝内。", "en": "I circle you with fangs turned inward."},
+        {"zh": "你抬手，我就咬手腕。", "en": "Raise a hand and I bite the wrist."},
+        {"zh": "我贴地潜行，等你露脚踝。", "en": "I skim the ground, waiting for an ankle."},
+        {"zh": "我越转越快，像磨盘。", "en": "I spin faster, like a millstone."},
+        {"zh": "缝隙里都是我的牙。", "en": "Every gap is lined with my fangs."},
+        {"zh": "你退到墙角，我正好收口。", "en": "Back into the corner and I close in."},
+        {"zh": "我咬住你的影子，再咬你。", "en": "I bite your shadow first, then you."},
+        {"zh": "你听，是我牙关在响。", "en": "Listen: that clatter is my jaws."},
+        {"zh": "我一点血，换你一道伤。", "en": "My one drop of life for one wound of yours."},
+        {"zh": "合上之前，你还有一瞬。", "en": "One instant left before I snap shut."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "尖牙闪现，恐惧随之而至。", "en": "Sharp fang glint, fear follows."},
+        {"zh": "咬破你的皮，吞噬你的魂。", "en": "Bite through your skin, devour your soul."},
+        {"zh": "黑暗中伸出致命牙。", "en": "Deathly fangs extend in the dark."},
+        {"zh": "吞噬一切，直至消逝。", "en": "Consume all until you fade."},
+        {"zh": "致命一击，终结一切。", "en": "Fatal strike, end all."},
+        {"zh": "撕裂你的肉，吞噬你的血。", "en": "Rip your flesh, drink your blood."},
+        {"zh": "阴影中显现致命威胁。", "en": "Fatal threat in the shadow."},
+        {"zh": "吞噬者来了，恐惧来临。", "en": "Devourer comes, fear arrives."},
+        {"zh": "黑暗中的猎食者，致命一击。", "en": "Hunter of darkness, fatal strike."},
+        {"zh": "吞噬一切，直至永恒。", "en": "Consume all, until eternity."},
+        {"zh": "一口咬下，血是温的。", "en": "One bite down and the blood is warm."},
+        {"zh": "我的牙碎了一颗，你也疼。", "en": "A fang breaks, and you hurt too."},
+        {"zh": "齿缝间全是你的皮肉。", "en": "Your flesh is stuck between my teeth."},
+        {"zh": "咬住就不松，直到消失。", "en": "I clamp down until I am gone."},
+        {"zh": "我碎成渣，也要留个牙印。", "en": "Even crumbling, I leave a bite mark."},
+        {"zh": "这一下，用掉我半条命。", "en": "That blow cost me half my life."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗中，新的猎食者。", "en": "In darkness, new prey."},
+        {"zh": "阴影中，致命的召唤。", "en": "In shadows, fatal call."},
+        {"zh": "饥渴的吞噬者降临。", "en": "Hungering devourer descends."},
+        {"zh": "无尽的黑暗，致命的生物。", "en": "Endless darkness, deadly creature."},
+        {"zh": "吞噬者被召唤，恐惧随之。", "en": "Devourer summoned, fear follows."},
+        {"zh": "阴影中，新的威胁。", "en": "Shadows, new threat."},
+        {"zh": "吞噬者降临，恐惧降临。", "en": "Devourer descends, fear descends."},
+        {"zh": "黑暗中的新成员。", "en": "New member in darkness."},
+        {"zh": "黑暗中，致命的存在。", "en": "In darkness, deadly presence."},
+        {"zh": "吞噬者被召唤，恐惧降临。", "en": "Devourer summoned, fear descends."},
+        {"zh": "召唤的圈里，我凭空咬合。", "en": "In the summoning ring I snap into being."},
+        {"zh": "我从虚空里被拽出来。", "en": "I am hauled out of the void."},
+        {"zh": "第一件事，就是找最近的肉。", "en": "First thing: find the nearest flesh."},
+        {"zh": "我只有一滴血，也够咬一口。", "en": "One drop of life is enough for a bite."},
+        {"zh": "召唤者抬手，我成形了。", "en": "The summoner raised a hand and I took shape."},
+        {"zh": "黑暗里，一排牙浮出来。", "en": "A row of teeth surfaces in the dark."},
+        {"zh": "我被捏出来，专门咬人。", "en": "I was shaped for biting, nothing else."},
+        {"zh": "落地时，我先咬了一口土。", "en": "Landing, I bite the dirt first."},
+        {"zh": "牙先到，身体后到。", "en": "The fangs arrive before the body."},
+        {"zh": "我出现在你脚边，张着嘴。", "en": "I appear at your feet with my mouth open."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被召来的牙，最怕明火。", "en": "Summoned fangs fear open flame most of all."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "岩石砸在我的背上。", "en": "Rock hits my back."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水浸透了我的甲壳。", "en": "Water soaks my shell."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被爆炸震得昏头转向。", "en": "Explosion dazes me."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我只有一点血，一箭就够。", "en": "I have only one point of health; one arrow is enough."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "法术的力量撕裂我。", "en": "Magic tears me apart."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿把我的牙磨得更尖。", "en": "Hunger grinds my teeth sharper."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闪电击中我的头颅。", "en": "Lightning strikes my head."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗吞噬了我的存在。", "en": "Darkness devours me."}
+      ]
+    }
+  }
+}

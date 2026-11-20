@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我挪不动，这座炮架是钉在地上的", "en": "I can't move; this carriage is bolted to the ground."},
+        {"zh": "炮口转了一点，算是我在走路", "en": "My barrel turns a little; that's my walking."},
+        {"zh": "我只会转身，不会迈步", "en": "I can only pivot, not stride."},
+        {"zh": "一整座炮，按下去的每一寸都要命", "en": "A whole cannon; every inch of my traverse counts."},
+        {"zh": "齿轮咬着齿轮，慢慢转", "en": "Gear bites gear as I turn slowly."},
+        {"zh": "我没腿，靠基座承着", "en": "No legs; the base carries me."},
+        {"zh": "转一圈要很久，别催", "en": "A full turn takes a while; don't rush me."},
+        {"zh": "我朝那边挪了半格，够远了", "en": "I shifted half a block; that's far enough."},
+        {"zh": "要搬我，得先拆基座", "en": "To move me, take the base apart first."},
+        {"zh": "我身上的炮管比人还高", "en": "My barrel stands taller than a man."},
+        {"zh": "挪动时，铁会叫", "en": "The iron screams when I shift."},
+        {"zh": "这座结构动起来，整片地都响", "en": "When this structure moves, the whole ground rings."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在等弹药", "en": "I'm waiting for ammunition."},
+        {"zh": "炮膛是空的，我就没用", "en": "With an empty breech, I'm useless."},
+        {"zh": "基座上的中枢还亮着", "en": "The hub on my base is still lit."},
+        {"zh": "周围很静，射界里没人", "en": "It's quiet; nothing in my firing arc."},
+        {"zh": "我在这站了很久，铁都凉了", "en": "I've stood here long; the iron's cold."},
+        {"zh": "装填口张着，等下一发", "en": "The loading port hangs open for the next round."},
+        {"zh": "我是被别人搭起来的", "en": "I was assembled by someone else."},
+        {"zh": "没有来源的伤害，伤不到我", "en": "Damage without a source can't touch me."},
+        {"zh": "我数着四周能动的东西", "en": "I count the things around me that can move."},
+        {"zh": "有什么事，我会响给你听", "en": "If anything happens, I'll ring it out."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的位置，在我射界里", "en": "Your position is inside my arc."},
+        {"zh": "别站在炮口正面", "en": "Don't stand in front of my muzzle."},
+        {"zh": "我不是活物，我是结构", "en": "I'm not a creature; I'm a structure."},
+        {"zh": "摸我可以，别碰引信", "en": "Touch me if you like, not the fuse."},
+        {"zh": "你要装弹吗，还是来拆我", "en": "Come to load me, or to take me apart?"},
+        {"zh": "我认出铁的味道了", "en": "I recognize the smell of iron."},
+        {"zh": "我扫过你一遍了", "en": "I've swept over you once."},
+        {"zh": "你走开一点，我转不过来", "en": "Step aside a bit; I can't traverse that far."},
+        {"zh": "我没有眼睛，可我看得见", "en": "I have no eyes, yet I see."},
+        {"zh": "你身上有盐，刚从海边回来", "en": "You carry salt; you've come from the sea."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "甲板凹了一块", "en": "A plate dented."},
+        {"zh": "我不疼，只是结构松了", "en": "I feel no pain, only loosened joints."},
+        {"zh": "齿轮卡了一下", "en": "A gear jammed once."},
+        {"zh": "中枢的灯灭了一格", "en": "One light on my hub went out."},
+        {"zh": "这一下打在我身上，我记着", "en": "That landed on me, and I record it."},
+        {"zh": "没有来源的伤，打不动我", "en": "Damage without a source can't move me."},
+        {"zh": "碎片落进装填口", "en": "Debris fell into my port."},
+        {"zh": "炮弹卡了一下，继续装填", "en": "A shell jams, then I load again."},
+        {"zh": "锈掉得更多了", "en": "More rust flaked off."},
+        {"zh": "炮架晃了晃，底座没动", "en": "The mount rocks; the base holds."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弹药，我要弹药", "en": "Ammunition, I want ammunition."},
+        {"zh": "你把炮弹推过来，我就有用了", "en": "Push the shell over and I'll be useful."},
+        {"zh": "药包不够，别糊弄", "en": "Not enough powder bags; don't cheat me."},
+        {"zh": "一块铁，不够我打一发", "en": "One lump of iron won't fire a round."},
+        {"zh": "弹药一装满，我就会自己开火", "en": "Once loaded, I fire on my own."},
+        {"zh": "你手里那点东西，塞不进炮膛", "en": "That little thing won't fit my breech."},
+        {"zh": "我不吃，我只装填", "en": "I don't eat; I only load."},
+        {"zh": "放在装填口，我认得", "en": "Put it in the port and I'll know it."},
+        {"zh": "推得动的话，就推", "en": "If you can push it, push."},
+        {"zh": "没有弹药，我就是块铁", "en": "Without rounds, I'm just iron."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "撞我，你只撞到基座", "en": "Hit me and you hit the base."},
+        {"zh": "我是死的，撞不疼", "en": "I'm inert; bumping doesn't hurt me."},
+        {"zh": "别贴着炮管，会烫", "en": "Don't lean on the barrel; it's hot."},
+        {"zh": "你撞得动我，我算你有本事", "en": "If you can move me, I'm impressed."},
+        {"zh": "转动的炮口正好碰到你", "en": "My traversing muzzle caught you."},
+        {"zh": "退开，炮尾会回弹", "en": "Back off, the breech recoils."},
+        {"zh": "你挡住了我转动的方向", "en": "You blocked the way I'm turning."},
+        {"zh": "碰一下，落一层锈", "en": "One bump and rust flakes off."},
+        {"zh": "别爬上来，我身上滑", "en": "Don't climb on, my surface is slick."},
+        {"zh": "基座是石头的，撞着很硬", "en": "The base is stone; it hits hard."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我没有那种功能", "en": "I have no such function."},
+        {"zh": "我的构造里没有这一项", "en": "That part isn't in my design."},
+        {"zh": "另一座炮架在不在，我不知道", "en": "Whether another carriage exists, I don't know."},
+        {"zh": "两门炮并排，只会互相碍事", "en": "Two guns side by side only get in each other's way."},
+        {"zh": "我是被造出来的，不会生", "en": "I was built; I won't beget."},
+        {"zh": "问这个，不如问弹药", "en": "Ask about ammunition instead."},
+        {"zh": "我只会转，不会别的", "en": "I only traverse, nothing else."},
+        {"zh": "中枢里的指令没写这一条", "en": "That instruction isn't in my hub."},
+        {"zh": "你若再说，我就熄火", "en": "Say more and I'll go dark."},
+        {"zh": "安静，我在等装填", "en": "Quiet, I'm waiting to be loaded."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我捡不了，只能收进基座", "en": "I can't pick up; I can only take things into my base."},
+        {"zh": "弹药自己滚进来就行", "en": "Ammo can just roll in."},
+        {"zh": "这点东西，不值一发炮弹", "en": "This isn't worth one shell."},
+        {"zh": "放在装填口上，我知道", "en": "Leave it on the port; I'll know."},
+        {"zh": "掉在射界里的，都在我脚下", "en": "Whatever drops in my arc is at my feet."},
+        {"zh": "我把东西吸进炮膛", "en": "I draw the thing into my breech."},
+        {"zh": "不是弹药，我不收", "en": "Not ammunition, I don't take it."},
+        {"zh": "地上的铁，会慢慢锈掉", "en": "Iron on the ground will rust away."},
+        {"zh": "它卡在齿轮里了", "en": "It's caught in my gearing."},
+        {"zh": "我的收拣，就是压碎", "en": "My way of collecting is to crush."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "射界里出现目标", "en": "Target in my arc."},
+        {"zh": "十二格内，全是我的范围", "en": "Twelve blocks of ground are all mine."},
+        {"zh": "上方六十四格，也算", "en": "Sixty-four blocks above counts too."},
+        {"zh": "我抬高了炮口", "en": "I raise my muzzle."},
+        {"zh": "目标在动，我跟着转", "en": "The target's moving; I follow."},
+        {"zh": "一发就够，不必连射", "en": "One round will do; no need for a burst."},
+        {"zh": "射程覆盖到那边了", "en": "My range reaches that far."},
+        {"zh": "它还不知道我在瞄", "en": "It doesn't know I'm aiming."},
+        {"zh": "箭头在我这里算不了什么", "en": "Arrows mean little to me."},
+        {"zh": "那是村民，也是目标", "en": "That's a villager, and still a target."},
+        {"zh": "我的弹道算过了", "en": "I've computed the trajectory."},
+        {"zh": "这一炮能把它掀翻", "en": "This shot will overturn it."},
+        {"zh": "铁傀儡在那边，先打它", "en": "An iron golem there; hit that first."},
+        {"zh": "它退出了射界，我转", "en": "It's left my arc; I traverse."},
+        {"zh": "再等一息，等它走进来", "en": "One breath more, let it step in."},
+        {"zh": "装填完毕，准备开火", "en": "Loaded and ready to fire."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它在动，我的齿轮也在动", "en": "It's moving, and so are my gears."},
+        {"zh": "仰角调好了", "en": "Elevation set."},
+        {"zh": "风向不对，但我照打", "en": "Wind's wrong, but I fire anyway."},
+        {"zh": "它躲到墙后，墙挡不住炮弹", "en": "It hid behind a wall; walls don't stop shells."},
+        {"zh": "我在算提前量", "en": "I'm computing lead."},
+        {"zh": "弹药还够，别担心", "en": "Plenty of rounds, don't worry."},
+        {"zh": "它的落点我已经算过", "en": "I've already worked out its landing."},
+        {"zh": "炮尾在震，是准备好", "en": "The breech is trembling; that's readiness."},
+        {"zh": "再近一点，威力更大", "en": "A little closer and the hit will be worse."},
+        {"zh": "它站在空地上了，很好", "en": "It's standing in the open, good."},
+        {"zh": "它跑得比弹道快，不会", "en": "It can't outrun the trajectory."},
+        {"zh": "我的基座在往下陷", "en": "My base is sinking slightly."},
+        {"zh": "它的同伴在拉它", "en": "Its companions are pulling at it."},
+        {"zh": "这一片都湿了，也挡不住火", "en": "The ground's wet; that won't stop fire."},
+        {"zh": "我的炮口一直跟着它", "en": "My muzzle keeps following it."},
+        {"zh": "它在犹豫，我不用", "en": "It hesitates; I don't."},
+        {"zh": "最后一段距离", "en": "The last stretch of distance."},
+        {"zh": "弹药推到位了", "en": "The round is seated."},
+        {"zh": "火光先出来，声音后到", "en": "The flash comes first, the sound after."},
+        {"zh": "这一发，别躲了", "en": "This one, no dodging."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炮口一喷，整片地都亮了", "en": "My muzzle flares and the whole ground lights."},
+        {"zh": "后坐力把我往后推", "en": "Recoil shoves me backward."},
+        {"zh": "炮弹落地，土翻起来", "en": "The shell lands and the earth turns over."},
+        {"zh": "这一发近距离，躲不开", "en": "At this range there's no dodging."},
+        {"zh": "冲击波把墙推倒", "en": "The shockwave pushes the wall down."},
+        {"zh": "炮膛发烫，还能再来", "en": "The breech is hot, still able."},
+        {"zh": "烟散了才看得清我", "en": "You only see me once the smoke clears."},
+        {"zh": "它被掀翻，滚了两圈", "en": "It's thrown over and rolls twice."},
+        {"zh": "我的震响传出很远", "en": "My boom carries a long way."},
+        {"zh": "一门重炮，只打一发就够", "en": "A heavy gun only needs one shot."},
+        {"zh": "装填要一会儿，你等得了吗", "en": "Reloading takes a while; can you wait?"},
+        {"zh": "第二发已经进去了", "en": "The second round is already in."},
+        {"zh": "碎片飞了满场", "en": "Fragments fly across the field."},
+        {"zh": "炮架晃了一下，稳住了", "en": "My carriage rocked and held."},
+        {"zh": "射界里现在空了", "en": "The arc is empty now."},
+        {"zh": "这一炮不是给你看的", "en": "That shell wasn't a demonstration."},
+        {"zh": "铁都烧红了，还在打", "en": "The iron's glowing red, and I keep firing."},
+        {"zh": "我只会开火，不会停", "en": "I only fire; I don't stop."},
+        {"zh": "地上的坑深了一尺", "en": "The pit is a foot deeper."},
+        {"zh": "再打一发，结构还撑得住", "en": "One more round; the structure holds."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "基座先立起来，中枢才通电", "en": "The base is set first; the hub powers last."},
+        {"zh": "四方石块拼好了，我就有了身体", "en": "Four blocks fitted and I have a body."},
+        {"zh": "有人搭了我，还给我装弹", "en": "Someone built me and loaded me."},
+        {"zh": "我睁不开眼，但我能瞄", "en": "I can't open eyes, but I can aim."},
+        {"zh": "这座炮架第一次转起来", "en": "This carriage turns for the first time."},
+        {"zh": "中枢的灯亮了一格", "en": "One light on my hub came on."},
+        {"zh": "结构一成，我就守着这片射界", "en": "Once complete, I guard this arc."},
+        {"zh": "铁锈掉了一地", "en": "Rust falls all around."},
+        {"zh": "我听见有人拉引信", "en": "I hear someone pull the fuse."},
+        {"zh": "炮口对着正前方", "en": "My muzzle points dead ahead."},
+        {"zh": "这一带以后归我看守", "en": "This area is under my watch now."},
+        {"zh": "第一发装进去的时候，我醒透了", "en": "When the first round went in, I woke fully."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烤着炮架，木头先响", "en": "Fire bakes my carriage; the wood creaks first."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不会掉下去，我在基座上", "en": "I can't fall; I'm on my base."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水漫上来，炮膛先进水", "en": "Water rises and floods my breech first."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸在我旁边，我被掀了一下", "en": "The blast went off beside me and knocked me askew."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭钉在炮管上，没用", "en": "Arrows stick to my barrel; useless."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "法术爬过甲板，留在表面", "en": "Magic crawls over my plating and stays on the surface."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弹药见底，我就是块铁", "en": "Out of rounds, I'm only iron."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷顺着炮管下来，中枢乱了一瞬", "en": "Lightning runs down the barrel and my hub flickers."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "基座下面空了，我往下沉", "en": "The base is void beneath; I sink."}
+      ]
+    }
+  }
+}

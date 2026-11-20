@@ -1,0 +1,260 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一次挪一寸，石子路对我来说太宽。", "en": "I move an inch at a time; the gravel road is too wide."},
+        {"zh": "我的小脚踩在苔上，几乎没有声。", "en": "My small feet cross moss almost silently."},
+        {"zh": "我避开裂缝，掉进去就上不来了。", "en": "I avoid cracks; fall in and I cannot climb out."},
+        {"zh": "走两步我就回头看看那辆篷车。", "en": "Every two steps I look back at the wagon."},
+        {"zh": "我圆得像颗鹅卵石，走路会滚。", "en": "I am round as a cobble, so I roll as I go."},
+        {"zh": "我沿着箱子的边挪，那儿有阴影。", "en": "I shuffle along the crate's edge, where there is shade."},
+        {"zh": "我的步子太碎，走一段要歇两回。", "en": "My steps are tiny; two rests per stretch."},
+        {"zh": "草比我高，我在里面像进了林子。", "en": "The grass is taller than me, a forest to my eyes."},
+        {"zh": "我顺着地板缝一路走到门口。", "en": "I follow the floorboard seam all the way to the door."},
+        {"zh": "有人在后面叫我，我走得更快了。", "en": "Someone calls after me; I scurry faster."},
+        {"zh": "走到你靴子边要花很久，我尽力了。", "en": "Reaching your boot takes a while; I tried my best."},
+        {"zh": "我拖着影子走，影子比我大十倍。", "en": "I drag my shadow along; it is ten times my size."},
+        {"zh": "小步小步，我不想被踩到。", "en": "Little steps, little steps; I do not wish to be stepped on."},
+        {"zh": "那条路上的石子，我都认识。", "en": "I know every pebble on that particular road."},
+        {"zh": "我从你的靴子旁绕过去。", "en": "I go around your boot."},
+        {"zh": "木地板的缝宽，我得横着过。", "en": "The floorboard gap is wide; I cross sideways."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我蹲在箱角，尽量不像活物。", "en": "I crouch in the crate's corner, trying not to look alive."},
+        {"zh": "我身上有些小坑，是箱子颠出来的。", "en": "My little pits came from the wagon jolting."},
+        {"zh": "没人来的时候，我数箱子的钉子。", "en": "When nobody comes, I count the nails in the crate."},
+        {"zh": "我听见篷车那边有铃声，很远。", "en": "I hear a bell from the wagon, very far off."},
+        {"zh": "我把自己埋进木屑里，只露眼睛。", "en": "I bury myself in wood shavings, only eyes out."},
+        {"zh": "太阳晒过来，我的石头身子暖了。", "en": "The sun reaches me and my stone body warms."},
+        {"zh": "我在等有人打开唱片机。", "en": "I am waiting for someone to start the record player."},
+        {"zh": "我打盹时也支着一只耳朵。", "en": "Even dozing, I keep one ear listening."},
+        {"zh": "我身上的纹路像被水磨过。", "en": "The lines on me look worn smooth by water."},
+        {"zh": "那辆篷车走了，我就没地方回了。", "en": "The wagon left, so I have nowhere to go back."},
+        {"zh": "我缩成一团，谁也看不出我是宠物。", "en": "I curl into a ball; nobody can tell I am a pet."},
+        {"zh": "有只老鼠碰我，发现我是活的。", "en": "A rat touches me and finds that I am alive."},
+        {"zh": "我在箱底找到一粒麦子，留着。", "en": "I find a grain of wheat in the crate and keep it."},
+        {"zh": "安静的时候，我能听见木头响。", "en": "In the quiet I can hear the wood creaking."},
+        {"zh": "我把脸贴在箱壁上，凉快。", "en": "I press my face to the crate wall; it is cool."},
+        {"zh": "有根线头，我拨了半天。", "en": "There is a loose thread. I poke at it for a while."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从箱口探出半个身子看你。", "en": "I poke half my body out of the crate to see you."},
+        {"zh": "你的手伸过来，我往里缩了缩。", "en": "Your hand comes near and I shrink back a bit."},
+        {"zh": "我歪着头，看你的靴子上有泥。", "en": "I tilt my head at the mud on your boots."},
+        {"zh": "你身上有唱片套的味道，纸的。", "en": "You smell of record sleeves: paper, mostly."},
+        {"zh": "我不眨眼，石头做的东西不眨眼。", "en": "I do not blink; stone things never blink."},
+        {"zh": "你蹲下来了，这样好多了。", "en": "You crouch down, and that is much better."},
+        {"zh": "我认得你手里那只异宠袋。", "en": "I recognise the critter bag in your hand."},
+        {"zh": "你笑的时候，我往后缩了一点点。", "en": "When you laugh I retreat just a little."},
+        {"zh": "我抬起一只小爪，算是打招呼。", "en": "I lift one small paw, which counts as a greeting."},
+        {"zh": "你的眼睛很大，在我面前像两口井。", "en": "Your eyes are huge, like two wells before me."},
+        {"zh": "我在看你有没有带唱片来。", "en": "I am checking whether you brought a record."},
+        {"zh": "你老是盯着我，我有点不好意思。", "en": "You keep staring; I feel a little shy."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被踩了一下，好险没碎。", "en": "I was stepped on and nearly broke apart."},
+        {"zh": "我身上掉了一小块，心疼。", "en": "A little piece of me chipped off; it hurts."},
+        {"zh": "我滚到墙边，缩着不动。", "en": "I roll to the wall and curl up without moving."},
+        {"zh": "别碰那儿，那是我最薄的地方。", "en": "Not there; that is my thinnest spot."},
+        {"zh": "我疼得发不出声，石头也这样。", "en": "Pain leaves me silent; even stone is like this."},
+        {"zh": "我看见自己影子在抖。", "en": "I see my own shadow trembling."},
+        {"zh": "我拖着一只腿钻进木屑里。", "en": "I drag one leg into the wood shavings."},
+        {"zh": "那一下让我记起被箱子颠的日子。", "en": "That blow reminds me of the rattling crate."},
+        {"zh": "我还没跳舞，别让我碎在这儿。", "en": "I have not danced yet; do not let me break here."},
+        {"zh": "我的裂纹里有灰，看起来更旧了。", "en": "Dust settles in my cracks, making me look older."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那唱片一放，我的脚就自己动了。", "en": "One record spins and my feet move by themselves."},
+        {"zh": "有音乐，我什么都愿意换。", "en": "For music I would trade almost anything."},
+        {"zh": "你把唱片举高，我就跟着抬头。", "en": "You raise the disc and I raise my head with it."},
+        {"zh": "我不吃饼干，我吃很小很小的东西。", "en": "I do not eat biscuits; I eat very tiny things."},
+        {"zh": "那粒麦子，能让我高兴一整天。", "en": "That single grain of wheat makes my whole day."},
+        {"zh": "你哼起来，我停下来听。", "en": "You hum, and I stop whatever I am doing to listen."},
+        {"zh": "亮闪闪的碎玻璃，我忍不住要看。", "en": "Bright shards of glass, I cannot help but look."},
+        {"zh": "你把手伸进箱子，我就上前了。", "en": "You reach into the crate and I step forward."},
+        {"zh": "那支曲子我听过，是篷车上的。", "en": "I know that tune; it played on the wagon."},
+        {"zh": "再来一遍，就一遍行不行？", "en": "One more time, just one more, please?"},
+        {"zh": "我抱着你的手指转了个圈。", "en": "I hug your finger and turn a full circle."},
+        {"zh": "你放了慢曲子，我跳得也慢。", "en": "You play something slow and I dance slowly too."},
+        {"zh": "那颗小石头是我藏的，给你也行。", "en": "That small stone I hid is yours, if you want it."},
+        {"zh": "我不贪心，只要一点声音。", "en": "I am not greedy; I only want a little sound."},
+        {"zh": "唱片一响，我这块石头就会跳。", "en": "Put a record on and this rock starts dancing."},
+        {"zh": "那声口哨，我的耳朵动了一下。", "en": "At that whistle, my ear twitches."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踩过来，我一下子滚开了。", "en": "You step near and I roll right out of the way."},
+        {"zh": "我撞在你的靴子上，弹回箱里。", "en": "I hit your boot and bounce back into the crate."},
+        {"zh": "我们两个都停住了，我先道歉。", "en": "We both freeze, and I apologize first."},
+        {"zh": "我太矮，撞到你只是轻轻一下。", "en": "I am too short; bumping you is only a tap."},
+        {"zh": "撞翻的木屑里，我装作是石子。", "en": "In the spilled shavings I pretend to be a pebble."},
+        {"zh": "你别抬脚，我从下面过。", "en": "Do not raise your foot; I will pass underneath."},
+        {"zh": "我被门夹了一下，壳上多了个印。", "en": "The door pinches me and leaves another mark."},
+        {"zh": "撞到你时我听见自己的心跳。", "en": "Knocking into you, I hear my own heart."},
+        {"zh": "我们撞在一起，声音像两颗石子。", "en": "We bump, sounding like two pebbles meeting."},
+        {"zh": "我退到角落，把路让出来给你。", "en": "I retreat to the corner and leave you the way."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "篷车箱里还有一只，跟我一样圆。", "en": "Another one in the wagon crate, round as me."},
+        {"zh": "我们靠在一起，像两颗鹅卵石。", "en": "We lean together like two cobblestones."},
+        {"zh": "她跳舞比我好看，我不嫉妒。", "en": "She dances better than I do, and I am not jealous."},
+        {"zh": "我们共用一粒麦子，一人一半。", "en": "We share one grain of wheat, half each."},
+        {"zh": "她敲了三下石头，是那支曲子。", "en": "She taps the stone three times: that tune again."},
+        {"zh": "我们的影子叠在一起，也只有一个。", "en": "Our shadows overlap and become only one."},
+        {"zh": "冬天她会缩在我背后挡风。", "en": "In winter she curls behind me to block the wind."},
+        {"zh": "我给她留了箱子里最软的角落。", "en": "I saved her the softest corner of the crate."},
+        {"zh": "明年的箱子里会有两只小的。", "en": "Next year the crate will hold two small ones."},
+        {"zh": "她的坑比我多，我喜欢那些坑。", "en": "She has more pits than I do; I like them."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你把我捧在手里，我一动不动。", "en": "You cup me in your hands and I stay perfectly still."},
+        {"zh": "轻一点，我的腿很细。", "en": "Gently, my legs are very thin."},
+        {"zh": "你把我放进异宠袋，里面很暖。", "en": "You put me in the critter bag; it is warm inside."},
+        {"zh": "我抓着袋口，怕被晃掉。", "en": "I grip the bag's mouth, afraid of being shaken out."},
+        {"zh": "别捏太紧，石头也会疼。", "en": "Do not squeeze; stone can hurt too."},
+        {"zh": "你口袋里有饼干屑，我闻到了。", "en": "There are biscuit crumbs in your pocket; I smell them."},
+        {"zh": "我原来是被装进箱子运来的。", "en": "I was brought here packed inside a crate."},
+        {"zh": "抬着我走的时候，慢一点就好。", "en": "When you carry me, just walk a little slower."},
+        {"zh": "我会在袋里安静，不乱动。", "en": "I will be quiet in the bag and keep still."},
+        {"zh": "你放下我时，我蹭了蹭你的手。", "en": "When you set me down, I nuzzle your hand."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有只老鼠盯着我的麦子。", "en": "A rat is eyeing my grain."},
+        {"zh": "那只猫跳上箱子，我缩住了。", "en": "That cat leaps onto the crate and I freeze."},
+        {"zh": "有人想掀箱盖，我听见木头响。", "en": "Someone tries the lid; I hear the wood creak."},
+        {"zh": "那东西比我大那么多，我还是瞪着。", "en": "That thing is so much bigger, yet I keep glaring."},
+        {"zh": "我把石子往身后扒拉，藏好。", "en": "I scrape the pebbles behind me and hide them."},
+        {"zh": "我弓起背，尽量显得大一点。", "en": "I arch my back, trying to look bigger."},
+        {"zh": "它的影子压下来，我准备好了。", "en": "Its shadow falls over me; I am ready."},
+        {"zh": "我认识那双爪子的声音。", "en": "I know the sound of those particular claws."},
+        {"zh": "谁动那个袋口，我就咬谁。", "en": "Whoever touches that bag's mouth gets bitten."},
+        {"zh": "我不跑，箱子后面才是我的路。", "en": "I will not run; my way out is behind the crate."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴着地走过去，很小声。", "en": "I creep along the ground, very quietly."},
+        {"zh": "它在那儿舔爪子，我先等一等。", "en": "It is licking its paws there; I wait first."},
+        {"zh": "我一步一步挪近，腿在发抖。", "en": "I edge closer step by step, legs trembling."},
+        {"zh": "它转过来，我立刻定住装石头。", "en": "It turns; I instantly freeze and play stone."},
+        {"zh": "我从箱脚绕过去，那儿它进不来。", "en": "I circle past the crate leg, where it cannot fit."},
+        {"zh": "我在等一个能咬到脚趾的距离。", "en": "I am waiting for the distance where I can bite a toe."},
+        {"zh": "它踩到我藏的石子了，我很生气。", "en": "It stepped on my hidden pebbles; now I am angry."},
+        {"zh": "我跟着它的尾巴走，一步不差。", "en": "I follow its tail, not missing a step."},
+        {"zh": "它要是低头，就轮到我动了。", "en": "If it lowers its head, then it is my turn."},
+        {"zh": "我心里数着三下，就要冲了。", "en": "I count three in my head, about to dash."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我跳上它膝头，牙齿嵌进裤脚。", "en": "I leap onto its knee and sink my teeth into its trouser leg."},
+        {"zh": "我的牙小，可咬在肉上一样疼。", "en": "My teeth are small, but they hurt just as much."},
+        {"zh": "我拿整颗脑袋撞它的鼻子。", "en": "I ram its nose with my entire head."},
+        {"zh": "它一甩，我飞出去又爬回来。", "en": "It shakes me off; I fly, then crawl back."},
+        {"zh": "这一下给我的麦子报了仇。", "en": "That one was for my grain."},
+        {"zh": "我咬完就往箱子里钻，很快。", "en": "After biting I dive into the crate, fast."},
+        {"zh": "我爪子划到它，留下一道白线。", "en": "My claw rakes it and leaves a white line."},
+        {"zh": "它退了两步，我就停手了。", "en": "It backs off two steps and I stop."},
+        {"zh": "我整只挂在它尾巴上，像个疙瘩。", "en": "I hang on its tail like a little knot."},
+        {"zh": "打完我才觉得腿在抖。", "en": "Only after the fight do I notice my legs shaking."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箱盖打开，光落进来，我愣住了。", "en": "The lid opens, light falls in, and I freeze."},
+        {"zh": "我从木屑里爬出来，一身碎屑。", "en": "I crawl out of the shavings covered in bits."},
+        {"zh": "这是篷车，我认得这味道。", "en": "This is the wagon; I know this smell."},
+        {"zh": "我伸了个懒腰，石头也跟着响。", "en": "I stretch, and my stone body creaks along."},
+        {"zh": "有人把我放地上，我坐了很久。", "en": "Someone set me on the ground and I sat there."},
+        {"zh": "外面比箱子里亮太多了。", "en": "Out here is far brighter than the crate."},
+        {"zh": "我第一件事是找藏身的地方。", "en": "My first act is to look for a hiding spot."},
+        {"zh": "新的地方，新的地板缝。", "en": "A new place, with new gaps in the floor."},
+        {"zh": "我抖了抖身上的木屑，很费劲。", "en": "I shake the wood shavings off, which is tiring."},
+        {"zh": "我听见唱片机在很远的地方响。", "en": "I hear a record player far away."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火一烤，我的石头身子裂开。", "en": "Fire bakes my stone body until it splits."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从桌上掉下去，我滚了三圈。", "en": "I fall off the table and roll three times."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沉下去听不见唱片了，我怕。", "en": "Sinking, I can no longer hear the record; I am afraid."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一声巨响，我被吹进箱子里。", "en": "A blast throws me into the crate."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭尖蹭过篷车木箱，我只缩了一下。", "en": "The arrow grazes the wagon crate and I only flinch."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那些光缠着我，石头在发烫。", "en": "Those lights coil around me; my stone grows hot."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "麦子吃完了，我开始啃木屑。", "en": "The wheat is gone; I start gnawing shavings."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷声把我震得贴在箱底。", "en": "Thunder flattens me against the crate's bottom."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉下去，什么声音都没有了。", "en": "I fall, and every sound disappears."}
+      ]
+    }
+  }
+}

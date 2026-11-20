@@ -1,0 +1,282 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我背着壳，横着走过沙地。", "en": "I cross the sand sideways with my shell on my back."},
+        {"zh": "壳太重了，我走得很慢。", "en": "The shell is heavy and I move slowly."},
+        {"zh": "我沿着潮线走，找能吃的。", "en": "I walk the tide line, looking for something to eat."},
+        {"zh": "我用一只钳子撑着地往前。", "en": "I push forward with one claw on the ground."},
+        {"zh": "沙子上留下一串斜的脚印。", "en": "My tracks trail at an angle across the sand."},
+        {"zh": "我从沙丘那边绕过来。", "en": "I come around the far side of the dune."},
+        {"zh": "壳刮在石头上，吱吱响。", "en": "My shell scrapes the stone with a squeak."},
+        {"zh": "我跟着水退下去的方向走。", "en": "I follow the direction the water pulled back."},
+        {"zh": "我停下来，换个壳再走。", "en": "I stop to swap shells, then carry on."},
+        {"zh": "我横过来，让开你的路。", "en": "I turn sideways to let you pass."},
+        {"zh": "我走一段，就缩进壳里听听。", "en": "I walk a while, then tuck in to listen."},
+        {"zh": "沙很烫，我走得快一点。", "en": "The sand is hot, so I hurry."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我缩在壳里，只露出一只眼。", "en": "I tuck in, showing one eye."},
+        {"zh": "沙子被风吹进壳缝。", "en": "Wind blows sand into my shell's seam."},
+        {"zh": "我在沙里挖了个浅坑，趴着。", "en": "I've dug a shallow pit and lie in it."},
+        {"zh": "这枚壳有点窄了。", "en": "This shell is getting a bit tight."},
+        {"zh": "潮水刚退，岸边还有味道。", "en": "The tide just went out; the shore still smells of it."},
+        {"zh": "我举起钳子，又放下。", "en": "I raise a claw, then lower it."},
+        {"zh": "有什么东西从我上面走过。", "en": "Something walked right over me."},
+        {"zh": "我把壳往沙里压了压。", "en": "I press my shell a little deeper into the sand."},
+        {"zh": "太阳把壳晒得发烫。", "en": "The sun has made my shell hot."},
+        {"zh": "沙地上的螺壳，我住得惯。", "en": "I am at home in a snail shell on the sand."},
+        {"zh": "一只小虫在我钳子边。", "en": "A small bug is by my claw."},
+        {"zh": "我慢慢把眼柄转过去。", "en": "I slowly turn my eyestalk."},
+        {"zh": "湿沙从壳缝里渗进来。", "en": "Wet sand seeps in through the shell gap."},
+        {"zh": "我用钳子理了理壳口。", "en": "I tidy the rim of my shell with a claw."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的脚挡住我回洞的路。", "en": "Your foot is blocking my way to the burrow."},
+        {"zh": "我抬起头，眼柄伸出来。", "en": "I lift my head, eyestalks out."},
+        {"zh": "这么大的家伙，我第一次见。", "en": "You're the biggest thing I've seen."},
+        {"zh": "你要捡我的壳吗？", "en": "Are you going to take my shell?"},
+        {"zh": "我先缩进去，再偷看。", "en": "I tuck in first, then peek."},
+        {"zh": "你的脚比我的壳还大。", "en": "Your foot is bigger than my shell."},
+        {"zh": "我横着挪开半步。", "en": "I shuffle sideways half a step."},
+        {"zh": "你不是来捡贝壳的吧？", "en": "You're not here for shells, are you?"},
+        {"zh": "我听见你踩沙子的声音。", "en": "I hear your feet in the sand."},
+        {"zh": "太阳在你后面。", "en": "The sun is behind you."},
+        {"zh": "我的钳子不算大，也会夹。", "en": "My claws aren't big, and they do pinch."},
+        {"zh": "你蹲下来，我就不跑了。", "en": "Crouch down and I won't run."},
+        {"zh": "这片滩我熟。", "en": "I know this beach well."},
+        {"zh": "你手里有湿的东西。", "en": "What you're holding is wet."},
+        {"zh": "我往后退，退到水里。", "en": "I back away toward the water."},
+        {"zh": "你不要把我翻过来。", "en": "Don't turn me over."},
+        {"zh": "我壳上还带着上一位房客。", "en": "There's still a previous tenant on my shell."},
+        {"zh": "你的影子给了我一点凉。", "en": "Your shadow gives me a little cool."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我缩进壳里，不出声。", "en": "I tuck into the shell and go quiet."},
+        {"zh": "壳上多了一道痕。", "en": "There's a new mark on my shell."},
+        {"zh": "我露出的肚子沾满细沙。", "en": "My exposed belly is coated in fine sand."},
+        {"zh": "我扑腾着翻回来。", "en": "I thrash until I'm upright."},
+        {"zh": "这一下夹得我发抖。", "en": "That hit leaves me trembling."},
+        {"zh": "我背着沙壳，走得很慢。", "en": "Carrying a sand shell, I move slowly."},
+        {"zh": "寄居蟹的壳，缺了个角。", "en": "My borrowed shell is chipped at one corner."},
+        {"zh": "我先躲起来。", "en": "I'll hide first."},
+        {"zh": "沙盖住了我一半。", "en": "Sand covers half of me."},
+        {"zh": "我横着还能走两步。", "en": "I can still shuffle two steps."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这个我能搬动。", "en": "I can carry that."},
+        {"zh": "我把钳子伸过去了。", "en": "My claw is reaching out."},
+        {"zh": "是一小块软的。", "en": "It's a small soft bit."},
+        {"zh": "我夹起一点海藻碎屑。", "en": "I pick up a scrap of seaweed."},
+        {"zh": "那壳里还剩下一点。", "en": "There's still a little left in that shell."},
+        {"zh": "我拖着它走不快。", "en": "Dragging it, I can't go fast."},
+        {"zh": "放下，我自己拿。", "en": "Put it down; I'll take it myself."},
+        {"zh": "这东西比壳好闻。", "en": "This smells better than my shell."},
+        {"zh": "我夹住就不放。", "en": "Once I pinch it, I won't let go."},
+        {"zh": "再给我一点，就一点。", "en": "A little more — just a little."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "壳太沉，我只能横着慢慢挪。", "en": "This shell is heavy; I can only sidle slowly."},
+        {"zh": "我整个被推动了。", "en": "I've been shoved entirely."},
+        {"zh": "我从壳里弹出半个身子。", "en": "Half of me pops out of the shell."},
+        {"zh": "你踩到我的钳子。", "en": "You stepped on my claw."},
+        {"zh": "我横着退开。", "en": "I shuffle sideways away."},
+        {"zh": "沙子进了我的壳。", "en": "Sand has got into my shell."},
+        {"zh": "我们撞得不重。", "en": "That wasn't a hard bump."},
+        {"zh": "我把壳扶正了。", "en": "I've set my shell straight again."},
+        {"zh": "别碰我的壳，那是家。", "en": "Don't touch my shell; it's home."},
+        {"zh": "我夹了你一下，抱歉。", "en": "I pinched you — sorry."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "另一只壳从沙下面冒出来。", "en": "Another shell surfaces from under the sand."},
+        {"zh": "我们并排横着走，沙里好藏。", "en": "Let us walk sideways together; the sand hides us."},
+        {"zh": "我们横着走，壳碰着壳。", "en": "We walk sideways, shell knocking shell."},
+        {"zh": "她敲回来，很轻。", "en": "She taps back, very lightly."},
+        {"zh": "我们在潮水里换了位置。", "en": "We trade places in the tide."},
+        {"zh": "她把我的壳推了一寸。", "en": "She nudges my shell an inch."},
+        {"zh": "这事得在水边做。", "en": "This has to be done near the water."},
+        {"zh": "之后各找各的壳。", "en": "Afterward we each find our own shells."},
+        {"zh": "她比我大一点。", "en": "She's a little bigger than me."},
+        {"zh": "我们都缩进去了。", "en": "We've both tucked in."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我夹住它，转身就走。", "en": "I pinch it and turn away."},
+        {"zh": "用两只钳子才稳。", "en": "It takes both claws to hold it steady."},
+        {"zh": "这个能盖住我的背。", "en": "This could cover my back."},
+        {"zh": "太重了，我拖着。", "en": "Too heavy; I drag it."},
+        {"zh": "我把它顶在壳上。", "en": "I prop it on my shell."},
+        {"zh": "是空的，正好换。", "en": "It's empty — a perfect swap."},
+        {"zh": "我夹了一会儿就掉了。", "en": "I held it a while, then dropped it."},
+        {"zh": "我把它推进沙里藏起来。", "en": "I push it into the sand to hide it."},
+        {"zh": "这壳太小，算了。", "en": "This shell is too small; never mind."},
+        {"zh": "我钻进空贝壳里，只露腿。", "en": "I tuck into an empty shell, legs out."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那边有个会动的。", "en": "There's something moving over there."},
+        {"zh": "它比我大，我先看看。", "en": "It's bigger than me; let me look first."},
+        {"zh": "我把钳子抬起来了。", "en": "I've raised my claws."},
+        {"zh": "它在我的沙地上。", "en": "It's on my patch of sand."},
+        {"zh": "我锁定了，横着过去。", "en": "Locked on; I move in sideways."},
+        {"zh": "这是抢壳的？", "en": "Is it after my shell?"},
+        {"zh": "我缩了一半，又出来。", "en": "I tuck half in, then come back out."},
+        {"zh": "它没看见我，沙子盖着壳。", "en": "It has not seen me, sand covers my shell."},
+        {"zh": "我从侧面绕过去了。", "en": "I'm circling around the side."},
+        {"zh": "我得保住这个壳。", "en": "I have to keep this shell."},
+        {"zh": "我准备夹它。", "en": "I'm ready to pinch."},
+        {"zh": "它踩到我的洞了。", "en": "It stepped on my burrow."},
+        {"zh": "我这只小寄居蟹，壳是捡的。", "en": "A small hermit, my shell was found."},
+        {"zh": "我夹住就走。", "en": "I pinch and go."},
+        {"zh": "我在沙里把洞挖深了。", "en": "I dig my hole deeper in the sand."},
+        {"zh": "我把身子横过来挡着。", "en": "I turn broadside to block the way."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴着沙面爬过去。", "en": "I crawl low across the sand."},
+        {"zh": "我在它脚边停下。", "en": "I stop at its feet."},
+        {"zh": "我试了一下它的厚度。", "en": "I test how thick it is."},
+        {"zh": "太硬了，我换一边。", "en": "Too hard; I try another side."},
+        {"zh": "我把眼柄转向它那边。", "en": "I turn my eye stalks toward it."},
+        {"zh": "我等到它不动。", "en": "I wait for it to stop moving."},
+        {"zh": "潮水在往上涨。", "en": "The tide is coming in."},
+        {"zh": "我夹住了一小块。", "en": "I've got a small bit."},
+        {"zh": "它甩我，我夹得更紧。", "en": "It shakes me and I pinch harder."},
+        {"zh": "我退回壳里想想。", "en": "I withdraw into the shell to think."},
+        {"zh": "这次我从下面来。", "en": "This time I come from below."},
+        {"zh": "沙子挡住了我的眼。", "en": "Sand is in my eyes."},
+        {"zh": "我量着它关节的位置。", "en": "I gauge where its joint is."},
+        {"zh": "它只顾着往水里去。", "en": "It only cares about reaching the water."},
+        {"zh": "我贴着湿沙横着逼近。", "en": "I creep sideways across the wet sand."},
+        {"zh": "这一下要夹在关节。", "en": "This pinch goes for the joint."},
+        {"zh": "它低头了，好。", "en": "It lowered its head — good."},
+        {"zh": "我在等潮水退。", "en": "I'm waiting for the tide to pull back."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我夹住它的脚趾。", "en": "I pinch its toe."},
+        {"zh": "用力一拧，它跳了。", "en": "I twist, and it jumps."},
+        {"zh": "我用壳撞了它一下。", "en": "I ram it with my shell."},
+        {"zh": "它把我甩出去了。", "en": "It flung me off."},
+        {"zh": "我横着滑了一段。", "en": "I slide sideways for a stretch."},
+        {"zh": "钳子合上，咔的一声。", "en": "The claw snaps shut with a click."},
+        {"zh": "我夹到的是沙子。", "en": "I got a clawful of sand."},
+        {"zh": "钳口一下合死它的脚趾。", "en": "My pincer shuts hard on its toe."},
+        {"zh": "我缩进壳里躲了一下。", "en": "I tuck in to dodge."},
+        {"zh": "我又伸出钳子。", "en": "I reach out again."},
+        {"zh": "这一下夹得深。", "en": "That pinch went deep."},
+        {"zh": "我用两只钳子一起。", "en": "Both claws at once."},
+        {"zh": "它退了，我追了两步。", "en": "It retreated; I follow two steps."},
+        {"zh": "沙里全是我的脚印。", "en": "The sand is full of my tracks."},
+        {"zh": "我夹住它的脚踝不放。", "en": "I clamp its ankle and hold."},
+        {"zh": "壳撞在它腿上，闷响。", "en": "My shell thuds against its leg."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙滩的寄居蟹，壳是捡的。", "en": "Beach hermit crab. Found shell."},
+        {"zh": "壳先出来，然后是我。", "en": "The shell comes out first, then me."},
+        {"zh": "潮水刚退，我选在这儿。", "en": "The tide just went out; I pick this spot."},
+        {"zh": "我拖着一个新壳。", "en": "I'm dragging a new shell."},
+        {"zh": "风把沙吹到我壳上。", "en": "Wind blows sand onto my shell."},
+        {"zh": "我顶着一个捡来的螺壳。", "en": "I carry a found whelk shell on my back."},
+        {"zh": "这里沙子细，很好挖。", "en": "The sand here is fine; easy to dig."},
+        {"zh": "我横着走了两步。", "en": "I take two steps sideways."},
+        {"zh": "太阳晒得我睁不开眼。", "en": "The sun is too bright for me to open my eyes."},
+        {"zh": "我从旧壳里探出半截身子。", "en": "I poke half my body out of the old shell."},
+        {"zh": "海边有一排潮痕。", "en": "There's a line of tide marks on the shore."},
+        {"zh": "我得快点找到壳。", "en": "I need to find a shell quickly."},
+        {"zh": "我在潮线边停下。", "en": "I stop at the tide line."},
+        {"zh": "这枚壳是从水里拖来的。", "en": "This shell was dragged out of the water."},
+        {"zh": "我先把洞挖好。", "en": "First I dig the burrow."},
+        {"zh": "沙子从我身上往下掉。", "en": "Sand slides off me."},
+        {"zh": "我横着量了量这块地。", "en": "I measure this ground sideways."},
+        {"zh": "潮线边上留下我的横痕。", "en": "My sideways track is left along the tide line."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙子烫得像锅底，我的壳在响。", "en": "The sand is hot as a pan and my shell ticks."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从沙丘上滚下来，壳磕坏了。", "en": "I roll down the dune and my shell chips."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水把我吞了，我拼命往沙里钻。", "en": "Water swallows me and I dig frantically."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸开的沙子把我埋住。", "en": "The blast buries me in sand."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭正中我的壳。", "en": "An arrow hits my shell square on."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那道光让我动弹不得。", "en": "That light leaves me unable to move."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我太饿了，壳都拖不动。", "en": "I'm too hungry to drag my shell."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在沙滩上，我的壳在颤。", "en": "Lightning hits the beach and my shell rattles."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙子没了，我掉进空里。", "en": "The sand is gone and I fall into nothing."}
+      ]
+    }
+  }
+}

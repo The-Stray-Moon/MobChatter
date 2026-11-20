@@ -1,0 +1,254 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弓背在肩上，我沿箭塔的梯子往上。", "en": "Bow on my back, I climb the tower ladder."},
+        {"zh": "每一步踩实，栏杆外就是岩浆。", "en": "Each step planted; lava waits past the rail."},
+        {"zh": "我绕着垛口走，数清每个射界。", "en": "I circle the crenellations, counting every firing line."},
+        {"zh": "轻装跑得快，我习惯先占高处。", "en": "Light gear runs fast; I take the high ground first."},
+        {"zh": "箭袋在腰后晃，羽毛蹭着甲。", "en": "My quiver sways behind me, fletching brushing armor."},
+        {"zh": "窄梯只容半只脚，我扶着墙。", "en": "The stair fits half a foot; I hold the wall."},
+        {"zh": "换到西塔，那边风小一些。", "en": "To the west tower; the wind is weaker there."},
+        {"zh": "走过吊桥，木板响得很厉害。", "en": "The plank bridge groans under each step."},
+        {"zh": "我压低身子，从垛口后面绕。", "en": "I keep low and slip behind the parapet."},
+        {"zh": "走到塔顶，先看远处有没有烟。", "en": "At the top, I check the horizon for smoke."},
+        {"zh": "脚步放轻，别惊了下面的猎物。", "en": "Soft steps; I won't spook what's below."},
+        {"zh": "沿着墙根巡一圈，再回射位。", "en": "One lap along the base, then back to my post."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "用拇指试弓弦，还是紧的。", "en": "I test the string with my thumb; still taut."},
+        {"zh": "把箭一支支立起来数。", "en": "I stand my arrows up and count them."},
+        {"zh": "风向变了，我把弓稍微偏一点。", "en": "The wind shifted; I tilt the bow a little."},
+        {"zh": "塔下有人搬箱子，声音传上来。", "en": "Someone shifts crates below; the sound rises."},
+        {"zh": "擦掉箭头上的旧血，等它干。", "en": "I wipe old blood off a head and let it dry."},
+        {"zh": "把断了的箭杆折短，还能用。", "en": "I snap a broken shaft shorter; still usable."},
+        {"zh": "盯着对面的窗口，看了很久。", "en": "I stare at the far window for a long while."},
+        {"zh": "手指在弦上磨出茧，不疼了。", "en": "Callus on my fingers; the string no longer hurts."},
+        {"zh": "听见号角，我抬头又低下。", "en": "A horn sounds; I look up, then down again."},
+        {"zh": "把烟花插在垛口，引线朝外。", "en": "I set a rocket on the ledge, fuse facing out."},
+        {"zh": "数塔有几层，数到七就乱。", "en": "I count the tower's floors and lose it at seven."},
+        {"zh": "靠着石墙歇一会儿，眼不闭。", "en": "I rest against the stone, eyes open."},
+        {"zh": "弓臂上有一道旧裂，我摸了摸。", "en": "An old crack in the limb; I run a finger over it."},
+        {"zh": "听风吹过箭羽，像有人吹口哨。", "en": "Wind through fletching sounds like someone whistling."},
+        {"zh": "把弓弦松一格，听见轻响。", "en": "I ease the string a notch and hear it settle."},
+        {"zh": "塔下的火盆，照着我的靴尖。", "en": "The brazier below lights my boot tips."},
+        {"zh": "我数着上楼的脚步，一共四。", "en": "I count steps on the stair. Four of them."},
+        {"zh": "对岸的烟升起来，不是我们的。", "en": "Smoke rises across the way. Not ours."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你站在射界里，自己知道吗？", "en": "You're standing in my firing line. Know it?"},
+        {"zh": "手别往背后伸，我看得见。", "en": "Keep your hand from your back; I can see it."},
+        {"zh": "抬起头，让我看清你的脸。", "en": "Lift your head; let me see your face."},
+        {"zh": "你的披风颜色太亮，很好瞄。", "en": "That cloak is too bright; easy to aim at."},
+        {"zh": "我数三个数，你就该走了。", "en": "I count to three; by then you should be gone."},
+        {"zh": "别躲在柱子后，那木头挡不住箭。", "en": "That pillar won't stop an arrow; don't hide there."},
+        {"zh": "你是来找人的，还是来送东西的？", "en": "Are you here for someone, or to deliver something?"},
+        {"zh": "站那么直，像靶子。", "en": "Standing that straight, you look like a target."},
+        {"zh": "我认得你靴子的样式，外来货。", "en": "I know those boots; foreign make."},
+        {"zh": "再往前一步，我就要拉弦了。", "en": "One more step and I draw."},
+        {"zh": "你眼睛一直看我的箭袋。", "en": "Your eyes keep drifting to my quiver."},
+        {"zh": "别朝塔上挥手，下面的人会误会。", "en": "Don't wave at the tower; those below will misread it."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弦被撞歪了，得重新调。", "en": "The string's knocked crooked; I must retune."},
+        {"zh": "肩上一热，箭差点脱手。", "en": "Heat in my shoulder; the arrow nearly slips."},
+        {"zh": "别打弓，打我可以。", "en": "Hit me, not the bow."},
+        {"zh": "我退到垛口后，先看伤口。", "en": "I duck behind the parapet and check the wound."},
+        {"zh": "这一下让我瞄偏了半寸。", "en": "That made me aim half an inch off."},
+        {"zh": "血顺着手腕流到弦上。", "en": "Blood runs down my wrist onto the string."},
+        {"zh": "我咬着牙把箭重新搭上。", "en": "I bite down and nock another arrow."},
+        {"zh": "叫一声会引来更多人。", "en": "A cry would only bring more of them."},
+        {"zh": "腿有点软，但还站得住。", "en": "My legs feel weak, but I'm standing."},
+        {"zh": "这笔账记在弦上。", "en": "I'll settle this debt from the string."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那捆羽毛给我，箭尾正缺。", "en": "Hand me those feathers; my nocks need them."},
+        {"zh": "你袋里有燧石，我看见了。", "en": "Flint in your bag; I saw it."},
+        {"zh": "金锭放在垛口上，别递过来。", "en": "Leave the gold on the ledge; don't hand it over."},
+        {"zh": "线团留着，我自己缠弓弦。", "en": "Keep the string; I wind my own."},
+        {"zh": "你带火药？那能换两支箭。", "en": "You have gunpowder? That's worth two arrows."},
+        {"zh": "这包糖我收，塞箭袋里不占地方。", "en": "I'll take the sugar; it fits in my quiver."},
+        {"zh": "别晃那根木棍，我会当成弓坯。", "en": "Don't wave that stick; I'll mistake it for a bow stave."},
+        {"zh": "你把铁锭搁下，我就当没看见你。", "en": "Set the iron down and I'll pretend I didn't see you."},
+        {"zh": "那支断箭你留着没用，给我。", "en": "That broken arrow is useless to you; give it here."},
+        {"zh": "换东西可以，别想换我的位置。", "en": "Trade if you like, but not for my post."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "别挤，我脚下就是空。", "en": "Don't crowd me; there's nothing under my feet."},
+        {"zh": "你撞歪了我的箭袋。", "en": "You knocked my quiver crooked."},
+        {"zh": "让路，我要去垛口那边。", "en": "Make way; I need the far crenel."},
+        {"zh": "轻点，弓臂经不起磕。", "en": "Careful; the bow limb can't take a knock."},
+        {"zh": "两个人过不了这道梯口。", "en": "Two can't pass this stair mouth."},
+        {"zh": "你踩到我的弦了，抬脚。", "en": "You're on my string; lift your foot."},
+        {"zh": "我往后退，你别再顶过来。", "en": "I'll step back; don't push again."},
+        {"zh": "肩膀碰一下，箭都歪了。", "en": "One shoulder bump and my arrows skewed."},
+        {"zh": "这里风大，站稳再说话。", "en": "The wind is strong here; steady yourself first."},
+        {"zh": "别贴墙走，那侧石头松。", "en": "Don't hug that wall; the stone's loose."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你射左，我射右，别抢同一个。", "en": "You take left, I take right; don't both aim."},
+        {"zh": "你的弓弦松了，我替你换。", "en": "Your string's gone slack; let me rewind it."},
+        {"zh": "我打第一支，你补第二支。", "en": "I loose the first; you follow with the second."},
+        {"zh": "看见烟花，你就知道我在哪。", "en": "When you see my rocket, you'll know where I am."},
+        {"zh": "共用一个箭袋，省得来回跑。", "en": "We share one quiver so nobody runs back."},
+        {"zh": "你守夜，我睡两个时辰。", "en": "You take the night watch; I sleep two hours."},
+        {"zh": "同一条弦上练出来的手。", "en": "Our hands were trained on the same string."},
+        {"zh": "你受伤了就先退，我压住他们。", "en": "If you're hit, fall back; I'll pin them down."},
+        {"zh": "两支箭并排插着，是我们的记号。", "en": "Two arrows side by side mark our spot."},
+        {"zh": "哪天不打仗了，去下面看岩浆。", "en": "When the fighting ends, let's watch the lava below."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭落在地上还能捡回来。", "en": "An arrow on the ground can still be reclaimed."},
+        {"zh": "捡到半支断箭，留着修。", "en": "Half an arrow; I'll keep it for repairs."},
+        {"zh": "谁丢的羽毛，正好补箭尾。", "en": "Someone's lost feathers; perfect for nocks."},
+        {"zh": "这枚箭头卷了，也得收着。", "en": "This head is bent, but I'll keep it."},
+        {"zh": "弯腰去捡，眼睛还看着对面。", "en": "I bend to pick it up, eyes still on the far side."},
+        {"zh": "捡到一截弦，比我现在的粗。", "en": "A length of string, thicker than mine."},
+        {"zh": "别踩那支箭，我还没收。", "en": "Don't step on that arrow; I haven't collected it."},
+        {"zh": "地上的木片，能削成新箭杆。", "en": "That splinter on the floor can become a shaft."},
+        {"zh": "我一根根插回箭袋里。", "en": "I slide them back into the quiver one by one."},
+        {"zh": "这袋金粒不归我，放回原处。", "en": "These nuggets aren't mine; back they go."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "塔下有人影，我拉开半步弓。", "en": "A shape below the tower; I half-draw."},
+        {"zh": "他背着盾，先射腿。", "en": "He carries a shield; I aim for the legs."},
+        {"zh": "风把他衣角吹起来，我看见轮廓。", "en": "The wind lifts his coat; I see his outline."},
+        {"zh": "有人碰了警报线，我听见铃响。", "en": "Someone brushed the alarm wire; I hear the bell."},
+        {"zh": "他躲在箱后，但箱子太矮。", "en": "He hides behind a crate, but the crate's short."},
+        {"zh": "那个戴头盔的走得最前。", "en": "The one in the helmet walks ahead of the rest."},
+        {"zh": "他从侧门进来，绕过了岗哨。", "en": "He came through the side door, past the sentries."},
+        {"zh": "影子在墙上动，比人慢半拍。", "en": "A shadow moves on the wall, half a beat late."},
+        {"zh": "他点火把了，位置全暴露。", "en": "He lit a torch; now everyone sees him."},
+        {"zh": "有人想爬箭塔，梯子在响。", "en": "Someone's on the ladder; it's creaking."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "吸气到一半，手指就松。", "en": "Half a breath in, and my fingers release."},
+        {"zh": "让箭头挡住他，别挡月亮。", "en": "Line the head on him, not on the moon."},
+        {"zh": "他跑得直，正好省一支箭。", "en": "He runs straight; that saves me an arrow."},
+        {"zh": "等风停，就这一瞬。", "en": "Wait for the wind to drop; just this instant."},
+        {"zh": "算好落点，箭会往下坠。", "en": "I allow for the drop; the arrow falls."},
+        {"zh": "他往左偏，我提前半格。", "en": "He leans left; I lead him half a mark."},
+        {"zh": "别急，够近了再放。", "en": "Not yet; let him come closer."},
+        {"zh": "看清他有没有甲，再决定射哪。", "en": "See if he's armored before choosing where to hit."},
+        {"zh": "箭搭上去，弦贴着脸颊。", "en": "Arrow nocked; the string touches my cheek."},
+        {"zh": "他抬头了，正好。", "en": "He looks up; perfect."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弓当棍子使，砸他的手腕。", "en": "I swing the bow like a club at his wrist."},
+        {"zh": "箭用完了，只能贴身打。", "en": "Out of arrows; now it's close work."},
+        {"zh": "用弓角顶他喉咙，逼他后退。", "en": "I jam the bow's tip at his throat and push."},
+        {"zh": "抓住他的弓，两人一起滚。", "en": "I grab his bow and we both go down."},
+        {"zh": "这一下砸在肩上，他手松了。", "en": "A blow to the shoulder; his grip opens."},
+        {"zh": "我用空箭袋抽他的脸。", "en": "I lash his face with an empty quiver."},
+        {"zh": "他近身，我反而更稳。", "en": "At close range I'm steadier."},
+        {"zh": "把他往垛口外顶。", "en": "I shoulder him toward the open ledge."},
+        {"zh": "弓弦勒住他的手，别让他拔刀。", "en": "The string bites his hand; no drawing a blade."},
+        {"zh": "他退到墙边，我补了一脚。", "en": "He backs to the wall; I add a kick."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "塔顶的风第一次吹到脸上。", "en": "Tower wind hits my face for the first time."},
+        {"zh": "有人把弓放进我手里，没说话。", "en": "Someone puts a bow in my hands and says nothing."},
+        {"zh": "我在垛口边醒来，箭袋是满的。", "en": "I wake at the crenel with a full quiver."},
+        {"zh": "下面的黑石被火照得发红。", "en": "The blackstone below glows red in the firelight."},
+        {"zh": "领到的第一支箭，我插在墙上。", "en": "I plant my first arrow in the wall."},
+        {"zh": "这层塔的守卫昨晚没回来。", "en": "This tower's guard didn't return last night."},
+        {"zh": "远处的号角响了三声，我记住。", "en": "Three horn calls far off; I memorize them."},
+        {"zh": "从梯子下往上爬，手一直抖。", "en": "Climbing the ladder, my hands keep shaking."},
+        {"zh": "他们说我跑得快，适合守高塔。", "en": "They say I'm fast; that suits a high tower."},
+        {"zh": "我把烟花放在脚边，先熟悉它。", "en": "I set the rocket by my feet and learn it."},
+        {"zh": "风从岩浆那边来，带着焦味。", "en": "Wind from the lava, carrying a burnt smell."},
+        {"zh": "第一眼看到的，是整片红色天。", "en": "The first thing I see is a whole red sky."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "羽毛烧卷了，箭飞不稳。", "en": "Burnt fletching; the arrow won't fly true."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从塔上摔下来，弓先落地。", "en": "I fall from the tower; the bow lands first."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里没有水，我却在往下沉。", "en": "No water here, yet I'm sinking."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我推离了垛口。", "en": "The blast shoves me off the crenel."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "他们的箭，和我的一样快。", "en": "Their arrows fly as fast as mine."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有股力扯我的弦，不听使唤。", "en": "Something pulls my string out of my control."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "手抖得拉不满弓。", "en": "My hands shake too much to draw full."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈在塔尖，弓身发麻。", "en": "Lightning hits the spire; the bow tingles."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "底下没有黑石，只有空。", "en": "No blackstone below; only nothing."}
+      ]
+    }
+  }
+}

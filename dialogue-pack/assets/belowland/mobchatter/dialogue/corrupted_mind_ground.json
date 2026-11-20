@@ -1,0 +1,261 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出低沉的嘶嘶声，向前移动。", "en": "Makes a low hiss and moves forward."},
+        {"zh": "根茎从土壤中探出，紧紧抓住。", "en": "Roots poke out of the ground and grip tight."},
+        {"zh": "身体扭曲，向玩家移动。", "en": "Body twists to move towards the player."},
+        {"zh": "不断发出压抑的呻吟。", "en": "Makes stifled moans continuously."},
+        {"zh": "藤蔓缠绕自身，缓慢移动。", "en": "Wraps itself in vines and moves slowly."},
+        {"zh": "枝条伸向玩家，试图缠住。", "en": "Branches reach out to grab the player."},
+        {"zh": "试图攀爬玩家，却被推开。", "en": "Attempts to climb the player, but is pushed away."},
+        {"zh": "根系快速生长，逼近玩家。", "en": "Roots grow quickly and approach the player."},
+        {"zh": "触须在空中摇摆，寻找目标。", "en": "触须在空中摇摆，寻找目标. Tendrils sway in the air, searching for a target."},
+        {"zh": "藤蔓突然缩短，迅速靠近。", "en": "Vines suddenly shorten and move closer quickly."},
+        {"zh": "根须在土里一收一放，往前爬。", "en": "My roots clench and release, pulling me forward."},
+        {"zh": "我贴着地面滑，像长出来的一条藤。", "en": "I slide low like a vine that just grew."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静地伫立，等待着。", "en": "Stands quietly, waiting."},
+        {"zh": "根茎缓慢摆动，似乎在思考。", "en": "Roots move slowly, as if thinking."},
+        {"zh": "藤蔓轻轻摆动，似乎在呼吸。", "en": "Vines move gently, as if breathing."},
+        {"zh": "触须伸展，四处探索。", "en": "Tendrils stretch out, exploring."},
+        {"zh": "根系轻轻抖动，发出细微声响。", "en": "Roots shake slightly, making a faint noise."},
+        {"zh": "茎干轻轻颤动，显得不安。", "en": "Stalk trembles lightly, appearing uneasy."},
+        {"zh": "藤蔓偶尔移动，似乎在寻找。", "en": "Vines move occasionally, as if searching."},
+        {"zh": "枝条弯曲，似乎在倾听。", "en": "Branches bend, as if listening."},
+        {"zh": "触须轻轻触碰，试探着。", "en": "Tendrils gently touch, probing."},
+        {"zh": "藤蔓缓缓摆动，寻找线索。", "en": "Vines slowly sway, seeking clues."},
+        {"zh": "我的菌盖往下滴着腐水。", "en": "Rot drips from beneath my fungal cap."},
+        {"zh": "我挂在菌盖上，一动不动。", "en": "I hang from a fungal cap without moving."},
+        {"zh": "一根须探出来，又缩回去。", "en": "One tendril reaches out and withdraws."},
+        {"zh": "腐化真菌的气味裹着我。", "en": "The smell of corrupted fungus wraps around me."},
+        {"zh": "我在土里憋着，等脚步声。", "en": "I hold in the soil, listening for footsteps."},
+        {"zh": "脑纹一鼓一鼓，像在喘。", "en": "My folds pulse as if breathing."},
+        {"zh": "菌丝缠上我的骨节。", "en": "Hyphae wind around my joints."},
+        {"zh": "我半埋在腐土里，装成一堆菌。", "en": "Half buried in rot, I pass for a heap of fungus."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发现玩家，发出嘶嘶声。", "en": "Hisses when it spots the player."},
+        {"zh": "紧盯着玩家，藤蔓收紧。", "en": "Stares at the player, vines tighten."},
+        {"zh": "向玩家方向转动，触须伸展。", "en": "Turns towards the player, tendrils extend."},
+        {"zh": "盯着玩家，试图吸引注意。", "en": "Stares at the player, trying to draw attention."},
+        {"zh": "锁定玩家，根系紧绷。", "en": "Locks onto the player, roots taut."},
+        {"zh": "腐化真菌里，我贴着地爬。", "en": "In the corrupted fungus, I crawl low."},
+        {"zh": "向玩家方向旋转，触须探出。", "en": "Rotates towards the player, tendrils extending."},
+        {"zh": "注意玩家，藤蔓收紧。", "en": "Takes notice of the player, vines tighten."},
+        {"zh": "紧盯着玩家，试图抓住。", "en": "Stares intently at the player, trying to grab."},
+        {"zh": "确定玩家位置，发出嘶嘶声。", "en": "Hisses when it locates the player."},
+        {"zh": "我抬起那张皱巴巴的脸。", "en": "I lift that shriveled face."},
+        {"zh": "菌盖下的眼点朝你转。", "en": "The eye-spots under my cap turn to you."},
+        {"zh": "我认出你踩断的枯枝。", "en": "I recognize the twig you snapped."},
+        {"zh": "你的脚步声，我记在菌丝里。", "en": "I keep the sound of your steps in my hyphae."},
+        {"zh": "我从菌丛里探出半截看你。", "en": "I poke half of myself out of the fungus to look."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐化之心痛苦呻吟", "en": "Corrupted Mind wails in pain"},
+        {"zh": "我被腐化了...", "en": "I'm corrupted..."},
+        {"zh": "我本纯洁...", "en": "I was pure..."},
+        {"zh": "我不该存在的...", "en": "I shouldn't exist..."},
+        {"zh": "求你救我，我的脑壳爬在地上。", "en": "Save me; my skull is crawling on the ground."},
+        {"zh": "我的灵魂在燃烧...", "en": "My soul burns..."},
+        {"zh": "我想要活下去...", "en": "I want to live..."},
+        {"zh": "我渴望自由...", "en": "I crave freedom..."},
+        {"zh": "求你放我一马...", "en": "Please spare me..."},
+        {"zh": "我...我本不是这样的...", "en": "I... I wasn't like this..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手中的果实让我垂涎三尺！", "en": "The fruit in your hand tempts me!"},
+        {"zh": "别想逃跑，我会咬住你不放！", "en": "Don't try to run, I'll hold you!"},
+        {"zh": "腐化之果是我们的美食！", "en": "Corrupted fruits are our delicacy!"},
+        {"zh": "这片土地滋养着我！", "en": "This land nourishes me!"},
+        {"zh": "腐化之脑渴望吞噬你的智慧！", "en": "Corrupted Mind craves your wisdom!"},
+        {"zh": "你的皮囊包裹着美味！", "en": "Your skin hides the deliciousness!"},
+        {"zh": "触感是腐化之地的馈赠！", "en": "Touch is a gift from corruption!"},
+        {"zh": "你身上的腐化之气引诱我！", "en": "The corruption on you tempts me!"},
+        {"zh": "腐化之源滋养着我！", "en": "The source of corruption feeds me!"},
+        {"zh": "腐化之地的果实滋养我！", "en": "Fruits from corruption nourish me!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我来了，别想躲开我！", "en": "I'm here, you can't avoid me!"},
+        {"zh": "我贴着地面追，绕不过就爬。", "en": "I chase along the ground; if I cannot go around, I climb."},
+        {"zh": "你的身体阻碍了我！", "en": "Your body blocks me!"},
+        {"zh": "碰撞让我更接近你！", "en": "Collisions bring me closer!"},
+        {"zh": "腐化的菌地上，我爬得很快。", "en": "On corrupted mycelium I crawl fast."},
+        {"zh": "我们不得不碰撞一下！", "en": "We must collide!"},
+        {"zh": "你阻挡了我前进！", "en": "You block my way!"},
+        {"zh": "碰撞使我更接近目标！", "en": "Collisions bring me closer!"},
+        {"zh": "菌丝铺的路，被我踩断了。", "en": "The mycelium road snapped under my feet."},
+        {"zh": "我必须与你碰撞！", "en": "I must collide with you!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找一个伴侣很重要！", "en": "Finding a mate is important!"},
+        {"zh": "我的孢子只认这一种菌丝。", "en": "My spores know only this one mycelium."},
+        {"zh": "寻找一个合适的伴侣！", "en": "Find a suitable mate!"},
+        {"zh": "菌丝缠上我的脚，我在找同类。", "en": "Mycelium wraps my feet; I seek my own kind."},
+        {"zh": "我们需要相互依赖！", "en": "We need each other!"},
+        {"zh": "找到一个好伴侣！", "en": "Find a good mate!"},
+        {"zh": "腐化菌林里，我想听见回应。", "en": "In the corrupted grove, I long for an answer."},
+        {"zh": "我们应互相依靠！", "en": "We should rely on each other!"},
+        {"zh": "我要找个合适的伴侣！", "en": "I need to find a good mate!"},
+        {"zh": "一起寻找伴侣！", "en": "Find a partner together!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐化之脑正在啃食腐化真菌。", "en": "Corrupted Mind chomps on corrupted fungus."},
+        {"zh": "它的触手粘稠如墨。", "en": "Its sticky tendrils resemble ink."},
+        {"zh": "它似乎对腐化真菌情有独钟。", "en": "It has a special affinity for corrupted fungi."},
+        {"zh": "它从腐化真菌中获取养分。", "en": "It feeds on the corrupted fungi."},
+        {"zh": "腐化之脑正在消化腐化真菌。", "en": "Corrupted Mind digests the corrupted fungus."},
+        {"zh": "腐化之脑粘附在腐化真菌上。", "en": "Corrupted Mind clings to the corrupted fungus."},
+        {"zh": "腐化之脑在寻找腐化真菌。", "en": "Corrupted Mind seeks out corrupted fungi."},
+        {"zh": "腐化之脑吸收腐化真菌的能量。", "en": "Corrupted Mind absorbs energy from the corrupted fungus."},
+        {"zh": "腐化之脑正在吞食腐化真菌。", "en": "Corrupted Mind gulps down corrupted fungi."},
+        {"zh": "它依赖腐化真菌生存。", "en": "It relies on corrupted fungi for survival."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐化之脑注意到了玩家。", "en": "Corrupted Mind spots the player."},
+        {"zh": "我从腐化菌毯里长出来。", "en": "I grow up out of the corrupted mycelium."},
+        {"zh": "腐化之脑锁定目标。", "en": "Corrupted Mind locks onto the target."},
+        {"zh": "它瞄准了玩家。", "en": "It targets the player."},
+        {"zh": "腐化之脑开始追逐。", "en": "Corrupted Mind starts chasing."},
+        {"zh": "它向玩家逼近。", "en": "It approaches the player."},
+        {"zh": "腐化之脑锁定猎物。", "en": "Corrupted Mind locks onto prey."},
+        {"zh": "它开始攻击玩家。", "en": "It attacks the player."},
+        {"zh": "腐化之脑靠近玩家。", "en": "Corrupted Mind moves closer to the player."},
+        {"zh": "腐化之脑追逐玩家。", "en": "Corrupted Mind chases the player."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐化之脑紧咬玩家。", "en": "Corrupted Mind bites the player."},
+        {"zh": "它瞬间靠近玩家。", "en": "It teleports closer to the player."},
+        {"zh": "腐化之脑攀爬玩家。", "en": "Corrupted Mind climbs the player."},
+        {"zh": "它紧追不舍。", "en": "It doesn't let go."},
+        {"zh": "腐化之脑追咬玩家。", "en": "Corrupted Mind chases and bites the player."},
+        {"zh": "它用触手缠绕玩家。", "en": "It wraps tendrils around the player."},
+        {"zh": "腐化之脑缠住玩家。", "en": "Corrupted Mind ensnares the player."},
+        {"zh": "它不放掉玩家。", "en": "It doesn't release the player."},
+        {"zh": "腐化之脑紧紧咬住玩家。", "en": "Corrupted Mind clamps down on the player."},
+        {"zh": "它咬紧不放。", "en": "It holds on tightly."},
+        {"zh": "你躲在够不着的地方，我瞬移过去。", "en": "Hide where I cannot reach, and I blink across."},
+        {"zh": "我缠住你的脚，往土里拖。", "en": "I coil round your foot and drag you into soil."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "紧紧咬住你的喉咙！", "en": "Chomp at your throat!"},
+        {"zh": "用我的根须缠绕你！", "en": "Wrap my roots around you!"},
+        {"zh": "汲取你的生命力！", "en": "Drain your life!"},
+        {"zh": "将你撕成碎片！", "en": "Rip you to shreds!"},
+        {"zh": "咬断你的手臂！", "en": "Chomp your arm!"},
+        {"zh": "品尝你的血液！", "en": "Savor your blood!"},
+        {"zh": "用刺扎破你的皮肤！", "en": "Pierce your skin with thorns!"},
+        {"zh": "吸入你的心脏！", "en": "Inhale your heart!"},
+        {"zh": "用我的触手紧抱你！", "en": "Wrap my tendrils around you!"},
+        {"zh": "享受这美味的猎物！", "en": "Taste this delicious prey!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从腐化真菌中诞生！", "en": "Spawn from corrupted fungi!"},
+        {"zh": "在黑暗中寻找猎物！", "en": "Roam in the darkness!"},
+        {"zh": "腐化，是我们的宿命！", "en": "Corruption is our fate!"},
+        {"zh": "腐化，无处不在！", "en": "Corruption, everywhere!"},
+        {"zh": "与腐化共生！", "en": "Coexist with corruption!"},
+        {"zh": "腐化之脑，永不消逝！", "en": "Corrupted Mind, never fades!"},
+        {"zh": "腐化的触手，伸向你！", "en": "Corrupted tendrils reach you!"},
+        {"zh": "腐化之地，我唯一的归宿！", "en": "Corrupted land, my only home!"},
+        {"zh": "腐化，吞噬一切！", "en": "Corruption, consume all!"},
+        {"zh": "腐化真菌间，我拱破土层。", "en": "Among corrupted fungus, I break through the soil."},
+        {"zh": "孢子炸开，我落在地上。", "en": "Spores burst, and I drop to the ground."},
+        {"zh": "菌丝从四面八方汇到我身上。", "en": "Hyphae gather into me from every side."},
+        {"zh": "腐土翻开，我探出脑壳。", "en": "The rot turns over, and my skull rises."},
+        {"zh": "这片菌林，只有我一个。", "en": "In this fungal wood, there is only me."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧灼我的触手", "en": "Flames scorch my tendrils"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐化之心摔落大地", "en": "Corrupted Mind falls to the ground"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐化之心沉入水中", "en": "Corrupted Mind sinks into water"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸撕裂我的躯体", "en": "Explosion rips through my body"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢穿透我的身躯", "en": "Arrow pierces my body"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔力撕裂我的灵魂", "en": "Magic tears at my soul"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿吞噬我的力量", "en": "Hunger drains my strength"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷电击中我的触手", "en": "Lightning strikes my tendrils"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下的菌毯没了，我往下掉。", "en": "The fungal carpet vanishes; I fall."}
+      ]
+    }
+  }
+}

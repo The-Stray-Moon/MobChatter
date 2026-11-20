@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚步沉重，蹒跚前行。", "en": "Heavy steps, shuffling forward."},
+        {"zh": "低头寻找地上的东西。", "en": "Bending down to search for something on the ground."},
+        {"zh": "步履蹒跚，目光呆滞。", "en": "Shuffling, eyes lifeless."},
+        {"zh": "步伐缓慢，目光空洞。", "en": "Slow pace, hollow gaze."},
+        {"zh": "摇摇晃晃地走向玩家。", "en": "Staggering towards the player."},
+        {"zh": "缓慢移动，寻找食物。", "en": "Moving slowly, searching for food."},
+        {"zh": "蹒跚前行，偶尔停下来。", "en": "Shuffling, pausing occasionally."},
+        {"zh": "缓缓移动，视线游移。", "en": "Moving slowly, gaze drifting."},
+        {"zh": "摇摇摆摆地走过去。", "en": "Swaying past."},
+        {"zh": "慢慢地挪动脚步。", "en": "Moving slowly."},
+        {"zh": "拖着一条腿翻过瓦砾。", "en": "It drags one leg over the rubble."},
+        {"zh": "背着破包在废墟间穿行。", "en": "It picks through ruins with a torn pack."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "呆滞地站在原地。", "en": "Standing motionless."},
+        {"zh": "缓慢地咀嚼空气。", "en": "Chewing the air slowly."},
+        {"zh": "目光空洞，呆呆地站着。", "en": "Empty gaze, standing呆呆地."},
+        {"zh": "低垂着头，似乎在思考。", "en": "Head bowed, seemingly thinking."},
+        {"zh": "双手空洞地比划着。", "en": "Hands gesturing emptily."},
+        {"zh": "目光呆滞，摇摇欲坠。", "en": "Staring blankly, teetering."},
+        {"zh": "站着，双手垂在两侧。", "en": "Standing, hands at sides."},
+        {"zh": "目光空洞，似乎在回想。", "en": "Empty gaze, seeming to remember."},
+        {"zh": "呆呆地站着，仿佛生还。", "en": "Standing blankly, as if surviving."},
+        {"zh": "目光游离，似乎在沉思。", "en": "Gaze wandering, as if pondering."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "突然抬头，看着玩家。", "en": "Suddenly lifts head, staring at the player."},
+        {"zh": "你手上有没有咬痕，我看看。", "en": "Let me check your hands for bites."},
+        {"zh": "盯着玩家，似乎认出了什么。", "en": "Staring at the player, as if recognizing something."},
+        {"zh": "朝玩家方向转动头部。", "en": "Turns head towards the player."},
+        {"zh": "目光闪烁，似乎在思考。", "en": "Eyes flicker, seemingly thinking."},
+        {"zh": "盯着玩家，似乎想说什么。", "en": "Staring at the player, as if wanting to speak."},
+        {"zh": "注视着玩家，似乎在记忆。", "en": "Looking at the player, as if remembering."},
+        {"zh": "目光游离，突然盯着玩家。", "en": "Gaze wandering, suddenly staring at the player."},
+        {"zh": "我在数你身上有没有咬痕。", "en": "I am counting the bite marks on you."},
+        {"zh": "转动头部，看向玩家。", "en": "Turns head to look at the player."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑血从绷带下面冒出来。", "en": "Black blood seeps through the bandage."},
+        {"zh": "我感觉很虚弱。", "en": "I feel very weak."},
+        {"zh": "我的力量渐渐耗尽。", "en": "My strength is waning."},
+        {"zh": "这些腐烂太消耗我了。", "en": "These decays drain me."},
+        {"zh": "我需要休息了。", "en": "I need to rest."},
+        {"zh": "我的力量几乎耗尽。", "en": "My strength is nearly gone."},
+        {"zh": "我不能再战斗了。", "en": "I can’t fight anymore."},
+        {"zh": "我需要食物。", "en": "I need food."},
+        {"zh": "我快要死了。", "en": "I am dying."},
+        {"zh": "旧伤又裂开了。", "en": "My old wound has opened again."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的食物比腐烂更美味。", "en": "Your food tastes better than decay."},
+        {"zh": "别靠近我，人类。", "en": "Stay away from me, human."},
+        {"zh": "我曾是同类，现在只剩下贪婪。", "en": "I used to be one of them, now only greed remains."},
+        {"zh": "你有治疗我伤痛的药吗？", "en": "Do you have medicine to heal my wounds?"},
+        {"zh": "这些食物能让我恢复原貌。", "en": "These foods can restore my former self."},
+        {"zh": "你的武器无法伤及我。", "en": "Your weapons cannot harm me."},
+        {"zh": "求求你，给我点吃的。", "en": "Please, give me some food."},
+        {"zh": "我曾是你的同伴，现在只能求你。", "en": "I was once your companion, now I beg you."},
+        {"zh": "我的同类已腐烂，我渴望新血。", "en": "My kind are腐烂, I crave new blood."},
+        {"zh": "给我食物，我将教你生存。", "en": "Give me food, and I'll teach you survival."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这片废墟是我先住下的。", "en": "I settled this ruin first."},
+        {"zh": "避让，以免遭攻击。", "en": "Move aside, or face attack."},
+        {"zh": "我们是同类，小心为上。", "en": "We are alike, proceed with caution."},
+        {"zh": "你身上的光芒吓到我了。", "en": "The light on you frightened me."},
+        {"zh": "别碰我，我会咬你的。", "en": "Don't touch me, or I'll bite you."},
+        {"zh": "我们互相观察吧，看是否危险。", "en": "Let's observe each other for danger."},
+        {"zh": "你与我同类，为何不友好？", "en": "You are like me, why not be friendly?"},
+        {"zh": "我需要你，别靠近我的领地。", "en": "I need you, stay away from my territory."},
+        {"zh": "你移动得太近了，退后。", "en": "You're too close, move back."},
+        {"zh": "你踩到我的水壶了。", "en": "You stepped on my canteen."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我需要一个伴侣来恢复。", "en": "I need a partner to recover."},
+        {"zh": "求你，成为我的伴侣。", "en": "Please, be my partner."},
+        {"zh": "与我交配，共同生存。", "en": "Mate with me, for survival."},
+        {"zh": "我的同类都已消失，你很重要。", "en": "My kind are gone, you're important."},
+        {"zh": "与我交配，给予我希望。", "en": "Mate with me, give me hope."},
+        {"zh": "我渴望与同类交配。", "en": "I crave mating with my kind."},
+        {"zh": "你是我唯一的伴侣希望。", "en": "You are my only hope for a mate."},
+        {"zh": "与我交配，我们的未来在你手中。", "en": "Mate with me, our future is in your hands."},
+        {"zh": "求你，不要拒绝我的请求。", "en": "Please, don't reject my request."},
+        {"zh": "交配是恢复的关键。", "en": "Mating is key to recovery."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "捡起食物发出低沉的咕噜声。", "en": "Mumbles lowly when picking up food."},
+        {"zh": "啃食地上的腐肉。", "en": "Chomps on the rotten flesh on the ground."},
+        {"zh": "四处寻找食物的气味。", "en": "Sniffs around for food smells."},
+        {"zh": "捡起掉落的武器检查。", "en": "Picks up dropped weapons for inspection."},
+        {"zh": "咀嚼着捡起的水果。", "en": "Crunches on the fruit picked up."},
+        {"zh": "啃食腐烂的蔬菜。", "en": "Chews on the rotten vegetables."},
+        {"zh": "捡起掉落的骨头咀嚼。", "en": "Bites on the dropped bones."},
+        {"zh": "捡起金属碎片研究。", "en": "Examines the metal scraps picked up."},
+        {"zh": "捡起瓶子喝里面的液体。", "en": "Drinks from the bottle picked up."},
+        {"zh": "捡起矿石研究。", "en": "Studies the picked up ore."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "注视着目标，缓缓靠近。", "en": "Stares at the target, moving closer slowly."},
+        {"zh": "感知到猎物，发出嘶嘶声。", "en": "Sibilant sound when sensing prey."},
+        {"zh": "风把你的汗味送过来了。", "en": "The wind carries your sweat to me."},
+        {"zh": "你手上的血还没干，我看见了。", "en": "The blood on your hands is still wet; I noticed."},
+        {"zh": "注意到远处的目标。", "en": "Notices the target in the distance."},
+        {"zh": "听到猎物的声音。", "en": "Hears the prey's sound."},
+        {"zh": "盯上了一个新的目标。", "en": "A new target is in sight."},
+        {"zh": "锁定附近的幸存者。", "en": "Locks onto nearby survivor."},
+        {"zh": "闻到了潜在的猎物。", "en": "Senses potential prey."},
+        {"zh": "注意到了远处的幸存者。", "en": "Detects the survivor in the distance."},
+        {"zh": "你先把枪口抬起来了。", "en": "You raised the muzzle first."},
+        {"zh": "它看见你手上的血迹了。", "en": "It saw the blood on your hands."},
+        {"zh": "废墟里只能有一个活人。", "en": "Only one of us leaves these ruins alive."},
+        {"zh": "它退到墙角，握紧了刀。", "en": "It backs to a corner and grips its knife."},
+        {"zh": "你身上的咬痕让它警觉。", "en": "The bite marks on you put it on edge."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盯紧目标，发出嘶嘶声。", "en": "Stares at target, sibilant sound."},
+        {"zh": "瞄准了猎物，准备咬下一口。", "en": "Aims at prey, prepares to bite."},
+        {"zh": "准备攻击，靠近目标。", "en": "Readies attack, moves closer."},
+        {"zh": "我贴着断墙，一点点挪近。", "en": "I hug the broken wall and creep closer."},
+        {"zh": "瞄准猎物，发出威胁的声音。", "en": "Aims at prey, makes a threatening sound."},
+        {"zh": "这处伤口，血还在往外渗。", "en": "This wound still seeps through the wrap."},
+        {"zh": "瞄准猎物，发出嘶嘶声。", "en": "Aims at prey, sibilant sound."},
+        {"zh": "盯紧目标，准备攻击。", "en": "Stares at target, prepares to attack."},
+        {"zh": "它把铁片绑在断柄上当刀。", "en": "It lashes scrap to a broken handle."},
+        {"zh": "它弓着背，像要扑过来。", "en": "It hunches as if about to lunge."},
+        {"zh": "它瞄准你的伤腿。", "en": "It aims for your hurt leg."},
+        {"zh": "它数着你身上还有几发。", "en": "It counts the shots you have left."},
+        {"zh": "它咬着牙，气息发抖。", "en": "It clenches its teeth, breath shaking."},
+        {"zh": "它挡住通往补给的路。", "en": "It blocks the way to the supplies."},
+        {"zh": "它慢慢把刀横在胸前。", "en": "It slowly brings the blade across its chest."},
+        {"zh": "它等你先出错。", "en": "It waits for you to make the first mistake."},
+        {"zh": "它的指节敲着刀柄。", "en": "Its knuckles tap the knife handle."},
+        {"zh": "它往废墟深处退了半步。", "en": "It retreats half a step deeper into the ruins."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从不死！", "en": "I never die!"},
+        {"zh": "尝尝末地之痛！", "en": "Feel the pain of the Nether!"},
+        {"zh": "死亡的钟声响起！", "en": "The bell of death tolls!"},
+        {"zh": "我吃腐肉！", "en": "I eat carrion!"},
+        {"zh": "你来得太早了！", "en": "Too early to die!"},
+        {"zh": "腐朽的肢体！", "en": "Decaying flesh!"},
+        {"zh": "我是不朽的！", "en": "I am immortal!"},
+        {"zh": "灵魂归处！", "en": "Souls to their rest!"},
+        {"zh": "我把火把捅进你的领口。", "en": "I jam this torch into your collar."},
+        {"zh": "断腿我也追过，别说你。", "en": "I've chased on a broken leg; you're nothing."},
+        {"zh": "补给归我，你走开！", "en": "The supplies are mine. Walk away!"},
+        {"zh": "这一刀是抢来的经验！", "en": "This strike is hard-won experience!"},
+        {"zh": "我断过腿，也杀过！", "en": "I broke a leg and still killed!"},
+        {"zh": "别逼我把你当丧尸！", "en": "Do not make me treat you as a zombie!"},
+        {"zh": "绷带是我先找到的！", "en": "I found the bandages first!"},
+        {"zh": "这世道，先动手的活！", "en": "In this world, the one who strikes first lives!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥荒中诞生！", "en": "Spawn in famine!"},
+        {"zh": "黑暗的怀抱！", "en": "The arms of darkness!"},
+        {"zh": "腐化的开始！", "en": "The start of corruption!"},
+        {"zh": "腐烂的终结！", "en": "The end of decay!"},
+        {"zh": "黑暗的征兆！", "en": "A sign of darkness!"},
+        {"zh": "末地的使者！", "en": "Nether's messenger!"},
+        {"zh": "肚子叫得比外面的尸群还响。", "en": "My stomach growls louder than the horde outside."},
+        {"zh": "死亡的降临！", "en": "Death's arrival!"},
+        {"zh": "腐化的果实！", "en": "Fruit of corruption!"},
+        {"zh": "黑夜的儿女！", "en": "Children of the night!"},
+        {"zh": "这栋楼是我先清的。", "en": "I cleared this building first."},
+        {"zh": "别再往前，这里有人住。", "en": "Go no further. Someone lives here."},
+        {"zh": "我从塌掉的超市爬出来。", "en": "I crawled out of a collapsed store."},
+        {"zh": "门外那些东西还没走。", "en": "Those things outside have not left yet."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "皮肉焦了，我咬住袖子不叫。", "en": "My flesh scorches; I bite my sleeve and stay quiet."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从二楼跳下，脚踝崴了。", "en": "Jumped from the roof, twisted my ankle."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "溺水让我窒息了。", "en": "Drowning choked me."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "绷带被气浪掀开，旧伤又裂了。", "en": "The blast strips my bandages and reopens old wounds."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢射穿了我的胸膛。", "en": "An arrow pierced my chest."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法的力量几乎耗尽我。", "en": "Magic drained me almost dry."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "三天没进食，腿在打颤。", "en": "Three days without food and my legs shake."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷雨天，我举着铁器躲雨。", "en": "In a thunderstorm, I hide with iron in hand."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空的腐蚀让我衰弱。", "en": "Void corruption weakened me."}
+      ]
+    }
+  }
+}

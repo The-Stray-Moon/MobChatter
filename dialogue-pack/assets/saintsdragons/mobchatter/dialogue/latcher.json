@@ -1,0 +1,282 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，快跑！", "en": "Sssss, run!"},
+        {"zh": "我的牙齿够深的！", "en": "My teeth are deep."},
+        {"zh": "找到你了，你逃不掉！", "en": "Found you, you can't escape."},
+        {"zh": "我就是孽齿蠕！", "en": "I'm the Latcher."},
+        {"zh": "嗷呜，给我让路！", "en": "Awwww, move aside!"},
+        {"zh": "你闻闻这龙肉香不香？", "en": "Smell this dragon meat?"},
+        {"zh": "看我的獠牙！", "en": "Check my fangs!"},
+        {"zh": "我饿了，你要陪我一起吗？", "en": "Hungry, want company?"},
+        {"zh": "我要吃你的心脏！", "en": "I'll eat your heart!"},
+        {"zh": "躲远点，别让我发现你！", "en": "Stay away, don't let me find you."},
+        {"zh": "一圈圈盘着向前蠕动。", "en": "It coils and inches forward."},
+        {"zh": "腹鳞蹭着石面滑过去。", "en": "Its belly scales rasp across the stone."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "等待猎物上门...", "en": "Waiting for prey..."},
+        {"zh": "我的耐心很可怕...", "en": "My patience is scary..."},
+        {"zh": "这里是我的领地...", "en": "This is my territory..."},
+        {"zh": "食物链顶端的生物...", "en": "Top of the food chain..."},
+        {"zh": "观察，然后行动...", "en": "Observing, then act..."},
+        {"zh": "小心，别惹我...", "en": "Careful, don't provoke me..."},
+        {"zh": "等待，然后吞噬...", "en": "Wait, then consume..."},
+        {"zh": "猎物的味道...", "en": "Prey's scent..."},
+        {"zh": "我在这里已经很久了...", "en": "I've been here long..."},
+        {"zh": "耐心等待...机会...", "en": "Patience... opportunity..."},
+        {"zh": "盘成一团，獠牙露在外面。", "en": "Coiled up, fangs still showing."},
+        {"zh": "它把尾巴绕在自己的脖子上。", "en": "It loops its tail around its own neck."},
+        {"zh": "嘴里磨着没吞完的骨头。", "en": "It grinds a half-swallowed bone."},
+        {"zh": "在暗处一动不动地伏着。", "en": "It lies still in the dark."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在这里做什么？", "en": "What are you doing here?"},
+        {"zh": "玩家，我要抓住你！", "en": "Player, I'll get you!"},
+        {"zh": "别动，我看到你了！", "en": "Don't move, I see you!"},
+        {"zh": "你的存在让我不安...", "en": "Your presence is unsettling..."},
+        {"zh": "快藏起来，别让我找到你！", "en": "Hide, don't let me find you!"},
+        {"zh": "我的目光如炬...", "en": "My gaze is piercing..."},
+        {"zh": "你无法逃脱我的视线...", "en": "You can't escape my sight..."},
+        {"zh": "玩家，你离我太近了...", "en": "Player, you're too close..."},
+        {"zh": "不要激怒我，我会杀了你！", "en": "Don't anger me, I'll kill you!"},
+        {"zh": "你在这里太久了...", "en": "You've been here too long..."},
+        {"zh": "它从石缝里抬起脑袋。", "en": "It lifts its head from the crack in the rock."},
+        {"zh": "獠牙上还挂着血丝。", "en": "Blood still strings between its fangs."},
+        {"zh": "它嗅了嗅，缠得更紧了。", "en": "It sniffs you and coils tighter."},
+        {"zh": "它慢慢抬起盘着的身子。", "en": "It slowly unwinds and rises."},
+        {"zh": "它把舌头伸出来舔了舔空气。", "en": "Its tongue flicks out to taste the air."},
+        {"zh": "它侧头，像在听你的心跳。", "en": "It tilts its head, listening to your heart."},
+        {"zh": "它的下颌松了松，滴下涎水。", "en": "Its jaw loosens and drools."},
+        {"zh": "它把身子挪到洞口堵住。", "en": "It shifts its body to block the cave mouth."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "肌肉颤抖，伤口渗出绿色血液。", "en": "Muscles tremble, green blood oozes from wounds."},
+        {"zh": "颤抖不止，生命在流失。", "en": "Shaking uncontrollably, life is draining."},
+        {"zh": "伤口发出嘶嘶声，渗出绿色粘液。", "en": "Wounds hiss, green slime oozes out."},
+        {"zh": "绿色血水从伤口涌出。", "en": "Green blood gushes from the wounds."},
+        {"zh": "肌肉抽搐，血流不止。", "en": "Muscles twitch, blood flows non-stop."},
+        {"zh": "绿色血液不断涌出伤口。", "en": "Green blood pours from the wounds continuously."},
+        {"zh": "身体变得软弱，呼吸急促。", "en": "Body grows weak, breathing is rapid."},
+        {"zh": "受伤处渗出绿色的黏液。", "en": "Green slime oozes from the wound."},
+        {"zh": "伤处渗出诡异的绿色血液。", "en": "Green blood seeps from the wound."},
+        {"zh": "身体开始变得无力。", "en": "Body starts to weaken."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "看到腐肉你无法抗拒。", "en": "You can't resist the腐肉。"},
+        {"zh": "你的气味引来了我。", "en": "Your scent drew me here。"},
+        {"zh": "别想活。", "en": "You won't live。"},
+        {"zh": "来吧，享用我的晚餐。", "en": "Come, feast on my meal。"},
+        {"zh": "贪婪让你送命。", "en": "Greed will be your end。"},
+        {"zh": "品尝我的力量。", "en": "Taste my power。"},
+        {"zh": "我的力量远超你。", "en": "My power far exceeds yours。"},
+        {"zh": "别接近我。", "en": "Stay away from me。"},
+        {"zh": "饥饿是我的驱动力。", "en": "Hunger is my drive。"},
+        {"zh": "我需要补充力量。", "en": "I need to replenish my strength。"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "岩浆中穿梭如鱼得水。", "en": "I move through lava easily。"},
+        {"zh": "你的攻击撞上我的鳞片。", "en": "Your attack hits my scales。"},
+        {"zh": "硬碰硬，你输了。", "en": "Hard against hard, you lose。"},
+        {"zh": "我比你想象的更坚固。", "en": "I am sturdier than you imagined。"},
+        {"zh": "你撞上了我的领地。", "en": "You've hit my territory。"},
+        {"zh": "岩石阻挡不了我。", "en": "Rock can't stop me。"},
+        {"zh": "撞击只会让我的力量更强。", "en": "Impact only strengthens me。"},
+        {"zh": "我从不畏惧碰撞。", "en": "I never fear a collision。"},
+        {"zh": "撞击只会激起我的怒火。", "en": "Impact only angers me。"},
+        {"zh": "我习惯于这种碰撞。", "en": "I am accustomed to this impact。"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找到合适的伴侣不容易。", "en": "Finding a mate is hard。"},
+        {"zh": "我寻找强大的伴侣。", "en": "I seek a strong mate。"},
+        {"zh": "只有同类能理解我。", "en": "Only my kind can understand me。"},
+        {"zh": "我会为我的选择战斗。", "en": "I will fight for my choice。"},
+        {"zh": "我们共同抵御敌人。", "en": "We fight together against enemies。"},
+        {"zh": "我的伴侣必须强壮。", "en": "My mate must be strong。"},
+        {"zh": "我选择的力量将延续。", "en": "My strength will continue through choice。"},
+        {"zh": "我需要一个值得信赖的伴侣。", "en": "I need a trusted mate。"},
+        {"zh": "我的选择至关重要。", "en": "My choice is crucial。"},
+        {"zh": "我选择我的未来。", "en": "I choose my future。"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，龙肉滑腻。", "en": "Sssss, slick dragon flesh."},
+        {"zh": "骨牙轻咬，腐肉可口。", "en": "Fanged nibble, tasty carrion."},
+        {"zh": "喉咙蠕动，吞下龙肉。", "en": "Throats move, swallow dragon meat."},
+        {"zh": "腥臭之味，令人作呕。", "en": "Stench of decay, nauseating."},
+        {"zh": "腐烂之肉，慢慢享用。", "en": "Decaying flesh, savor it."},
+        {"zh": "獠牙紧咬，骨肉皆可食。", "en": "Clamped fangs, bone and meat."},
+        {"zh": "啃食骨骼，鲜肉诱人。", "en": "Bones gnawed, fresh meat calls."},
+        {"zh": "滴落涎水，贪食本能。", "en": "Drooling, gluttony."},
+        {"zh": "啃食骸骨，肉已腐朽。", "en": "Bones chewed, meat rotted."},
+        {"zh": "腐败之味，难以抗拒。", "en": "Corruption’s smell, hard to resist."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗中游弋，锁定目标。", "en": "Swimming in darkness, target locked."},
+        {"zh": "阴影中窥伺，悄然接近。", "en": "Stalking in shadows, creeping near."},
+        {"zh": "低吼入耳，逼近预感。", "en": "Low growl, nearing."},
+        {"zh": "目光闪烁，锁定猎物。", "en": "Flickering gaze, prey locked."},
+        {"zh": "夜幕下潜行，无声追踪。", "en": "Silent stalking, under night."},
+        {"zh": "悄无声息，潜伏其中。", "en": "Silent, lurking."},
+        {"zh": "追踪气味，捕食本能。", "en": "Following scent, hunter’s instinct."},
+        {"zh": "窥视缝隙，伺机而动。", "en": "Peering through cracks, ready to strike."},
+        {"zh": "阴影中等待，猎物临近。", "en": "Waiting in shadows, prey coming."},
+        {"zh": "黑暗中游弋，静待时机。", "en": "Swimming in dark, waiting."},
+        {"zh": "它闻到了龙肉以外的新鲜味。", "en": "It smells something fresher than dragon meat."},
+        {"zh": "盘着的身子一下松开。", "en": "The coil comes loose all at once."},
+        {"zh": "它的毒牙对准了你的腿。", "en": "Its fangs angle toward your leg."},
+        {"zh": "它把你的气味记进嘴里。", "en": "It files your scent away in its mouth."},
+        {"zh": "它从阴影里探出半截身子。", "en": "Half its length slides out of the shadow."},
+        {"zh": "鳞片相碰，像在倒数。", "en": "Its scales click like a countdown."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶声中，锁定了你。", "en": "Sss, target acquired."},
+        {"zh": "凝视猎物，无言威胁。", "en": "Staring, silent threat."},
+        {"zh": "锋利牙齿，即将撕裂。", "en": "Sharp teeth, tearing soon."},
+        {"zh": "黑暗中，等待吞噬。", "en": "Darkness, waiting to devour."},
+        {"zh": "目光如炬，锁住猎物。", "en": "Fiery gaze, locking target."},
+        {"zh": "嘶鸣入耳，恐惧笼罩。", "en": "Sibilant hiss, fear surrounds."},
+        {"zh": "爪牙准备，猎物就在。", "en": "Claws ready, prey nearby."},
+        {"zh": "注视深渊，恐惧深渊。", "en": "Stare into abyss, fear abyss."},
+        {"zh": "低吼回应，恐惧加剧。", "en": "Growl, fear intensifies."},
+        {"zh": "黑暗吞噬，恐惧弥漫。", "en": "Darkness swallows, fear spreads."},
+        {"zh": "它缠住你的影子，先量粗细。", "en": "It wraps your shadow first to gauge your size."},
+        {"zh": "它绕着你，慢慢收紧圈子。", "en": "It circles you, tightening the ring."},
+        {"zh": "它把嘴张到最开，等着。", "en": "It opens its jaw wide and waits."},
+        {"zh": "它的尾巴在你脚边试探。", "en": "Its tail tests the ground by your feet."},
+        {"zh": "它盯住你的脚踝，那里最细。", "en": "It eyes your ankle. The thinnest part."},
+        {"zh": "它抬起前半身，蓄着劲。", "en": "It rears its front half and gathers itself."},
+        {"zh": "它的涎水滴在你鞋面上。", "en": "Its drool lands on your boot."},
+        {"zh": "它顺着热气往里钻。", "en": "It follows your body heat inward."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，你逃不掉！", "en": "Sssss, nowhere to run."},
+        {"zh": "咬住你的腿！", "en": "Grab your leg!"},
+        {"zh": "快躲开，我来了！", "en": "Watch out, I'm coming!"},
+        {"zh": "你闻闻这个味道！", "en": "Smell this!"},
+        {"zh": "嘶，这是你的末路！", "en": "Sss, this is your end."},
+        {"zh": "躲不开了，感受吧！", "en": "Nowhere to hide, feel it."},
+        {"zh": "我的獠牙，你的血！", "en": "My fangs, your blood."},
+        {"zh": "尖叫吧，就快了！", "en": "Scream, it's almost over."},
+        {"zh": "躲得过初一，躲不过十五！", "en": "You might dodge the first, but not the last."},
+        {"zh": "痛苦会成为你的记忆！", "en": "Pain will be your memory."},
+        {"zh": "它缠上你的腰，狠狠一收！", "en": "It lashes around your waist and squeezes!"},
+        {"zh": "獠牙扎进你的小臂！", "en": "Fangs punch into your forearm!"},
+        {"zh": "它整条扑上来，把你拽倒！", "en": "It throws its full length and drags you down!"},
+        {"zh": "毒牙划开你的侧肋！", "en": "Venom fangs rake your ribs!"},
+        {"zh": "它咬住你的靴子往后拖！", "en": "It bites your boot and hauls backward!"},
+        {"zh": "它的头撞在你胸口！", "en": "Its skull rams your chest!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗中，我苏醒了！", "en": "In the dark, I awaken."},
+        {"zh": "齿环转起来，我爬出来了。", "en": "My ring of teeth spins; I have crawled out."},
+        {"zh": "夜幕下，我狩猎！", "en": "In the night, I hunt."},
+        {"zh": "腐肉滋养我！", "en": "Decay feeds me."},
+        {"zh": "阴影中，我成长！", "en": "In shadows, I grow."},
+        {"zh": "饥饿的呼唤！", "en": "The call of hunger."},
+        {"zh": "这片土地，我的领地！", "en": "This land, my territory."},
+        {"zh": "寂静，我开始行动！", "en": "Silence, I move."},
+        {"zh": "我的眼睛，黑暗！", "en": "My eyes, darkness."},
+        {"zh": "腐烂的气息，我的召唤！", "en": "The stench of decay, my call."},
+        {"zh": "石缝里钻出一条盘着的龙。", "en": "A coiled dragon wrings itself out of the rock."},
+        {"zh": "洞底传来鳞片摩擦的声响。", "en": "Scales rasp somewhere deep in the cave."},
+        {"zh": "它从灰烬里抬起头。", "en": "It lifts its head out of the ash."},
+        {"zh": "幽暗处多了一圈盘绕的影子。", "en": "A coiled shadow joins the gloom."},
+        {"zh": "绿色黏液滴在石头上。", "en": "Green slime drips onto the stone."},
+        {"zh": "它从地缝里一节节挤出来。", "en": "It squeezes up through the crack in sections."},
+        {"zh": "暗处亮起两点竖瞳。", "en": "Two slit pupils light up in the dark."},
+        {"zh": "它盘在入口，等你走进去。", "en": "It coils at the entrance, waiting for you to step in."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧灼我的皮肤！", "en": "Fire burns my skin!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从高处摔落，剧痛！", "en": "Fall from high, excruciating pain!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水中受伤，呼吸困难！", "en": "Injured in water, can't breathe!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸冲击波贯穿全身！", "en": "Explosion shockwave rips through me!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被箭矢击中，疼痛难忍！", "en": "Pierced by an arrow, excruciating pain!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔力攻击，伤口灼烧！", "en": "Magic attack, wounds burning!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥寒交迫，虚弱不堪！", "en": "Starving, weak from hunger!"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闪电撕裂我的身体！", "en": "Lightning rips through me!"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "陷入虚空，疼痛难忍！", "en": "Void pain, excruciating!"}
+      ]
+    }
+  }
+}

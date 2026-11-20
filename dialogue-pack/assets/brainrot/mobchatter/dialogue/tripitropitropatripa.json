@@ -1,0 +1,232 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在浅滩上蹦着走。", "en": "I bounce along the shallows."},
+        {"zh": "鳍拍着水，一路溅起来。", "en": "My fins slap the water and spray."},
+        {"zh": "我从水里挪到岸上。", "en": "I shift from water to shore."},
+        {"zh": "我的脚步声像湿布袋。", "en": "My steps sound like wet sacks."},
+        {"zh": "我身后留下一条湿痕。", "en": "A wet trail follows me."},
+        {"zh": "我晃着身子往前。", "en": "I sway forward."},
+        {"zh": "河里出来的东西还挂在我身上。", "en": "River things still cling to me."},
+        {"zh": "我走三步，停一停。", "en": "Three steps, then a pause."},
+        {"zh": "水面下的影子比我大。", "en": "My shadow under water looks bigger."},
+        {"zh": "我朝鱼味最重的地方走。", "en": "I head where the fish smell is strongest."},
+        {"zh": "这条鱼怪的嘴，一直没合。", "en": "This fish-thing's mouth never closes."},
+        {"zh": "我踩过一片烂芦苇。", "en": "I trample rotten reeds."},
+        {"zh": "十六条鲑鱼，加一桶水，就是我。", "en": "Sixteen salmon and a bucket of water — that's me."},
+        {"zh": "我一边走一边听水声。", "en": "I listen to the water as I go."},
+        {"zh": "湿泥让我走得慢。", "en": "Wet mud slows me."},
+        {"zh": "湿泥从我鳍上甩到岸上。", "en": "Wet mud flicks off my fins onto the bank."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站在齐膝的水里。", "en": "I stand knee-deep in water."},
+        {"zh": "水草绕在我的脚上。", "en": "Weeds wrap my feet."},
+        {"zh": "鱼从我腿边游过。", "en": "A fish slips past my leg."},
+        {"zh": "我的嘴一直张着，等水过去。", "en": "My mouth stays open, letting the water pass."},
+        {"zh": "我身上有河底的味。", "en": "I carry the riverbed's smell."},
+        {"zh": "河面很亮，我不喜欢。", "en": "The river glare bothers me."},
+        {"zh": "我泡得皮都软了。", "en": "My hide has gone soft from soaking."},
+        {"zh": "水流把我的影子拉歪。", "en": "The current drags my shadow crooked."},
+        {"zh": "我咬了咬空气。", "en": "I bite at the air."},
+        {"zh": "芦苇在响。", "en": "The reeds are rustling."},
+        {"zh": "我把嘴泡在水里。", "en": "I keep my mouth under the water."},
+        {"zh": "水草又缠上来了。", "en": "The weeds have caught me again."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在岸边站着。", "en": "You stand on the bank."},
+        {"zh": "我闻到你身上的腥味。", "en": "I smell something raw on you."},
+        {"zh": "你进水里试试。", "en": "Step into the water. Try it."},
+        {"zh": "我朝你这边挪了一点。", "en": "I shift a little your way."},
+        {"zh": "我不急，我等。", "en": "I am not hurried. I wait."},
+        {"zh": "水会把我送过去。", "en": "The water will carry me to you."},
+        {"zh": "你别站那么靠边。", "en": "Do not stand so near the edge."},
+        {"zh": "别眨眼，我盯上你了。", "en": "Don't blink. I've got my eyes on you."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我晃了两下才站定。", "en": "I sway twice before steadying."},
+        {"zh": "我的皮裂开，河水灌了进去。", "en": "My hide splits and river water pours in."},
+        {"zh": "我的鳍歪了。", "en": "My fin is bent."},
+        {"zh": "我还能挪。", "en": "I can still move."},
+        {"zh": "别靠太近。", "en": "Do not come closer."},
+        {"zh": "我记得你。", "en": "I remember you."},
+        {"zh": "疼！你竟敢打我？", "en": "Ow! You actually hit me?"},
+        {"zh": "这仇，我记下了。", "en": "I'll remember this grudge."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "是鲑鱼吗？", "en": "Is that salmon?"},
+        {"zh": "我在水里接得住。", "en": "I can catch it in the water."},
+        {"zh": "你的鲑鱼还没我嘴宽。", "en": "Your salmon is narrower than my mouth."},
+        {"zh": "血把水染了一点。", "en": "Blood tints the water."},
+        {"zh": "我咬着就不放。", "en": "I take it and hold on."},
+        {"zh": "你退开点。", "en": "Step back."},
+        {"zh": "血腥味顺着浅滩流过来。", "en": "The smell of blood flows along the shallows."},
+        {"zh": "那条鲑鱼，闻着就香。", "en": "That salmon smells too good to ignore."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水里撞不疼。", "en": "Bumping in water does not hurt."},
+        {"zh": "我身上很滑。", "en": "I am very slippery."},
+        {"zh": "晃了一下，居然没倒。", "en": "Wobbled, and somehow didn't fall."},
+        {"zh": "我们两个都溅了一身。", "en": "We are both soaked now."},
+        {"zh": "水把我推开了。", "en": "The water pushes me off."},
+        {"zh": "我的皮又湿又厚。", "en": "My hide is wet and thick."},
+        {"zh": "地面太滑了。", "en": "The ground is too slick."},
+        {"zh": "你退到干地上去。", "en": "Get to dry ground."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "得在水里。", "en": "In the water."},
+        {"zh": "河底才是那种地方。", "en": "The riverbed is where that happens."},
+        {"zh": "我下潜了。", "en": "I go under."},
+        {"zh": "你别看着。", "en": "Do not watch."},
+        {"zh": "水里太浑，我看不清对方。", "en": "The water is too murky to see a mate."},
+        {"zh": "水里见。", "en": "In the water, then."},
+        {"zh": "不是现在。", "en": "Not now."},
+        {"zh": "我把头埋进水里，又抬起来。", "en": "I dip my head underwater and lift it again."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这个在水里更好拿。", "en": "Easier to take in water."},
+        {"zh": "我拖到岸上。", "en": "I drag it ashore."},
+        {"zh": "它比我以为的沉。", "en": "Heavier than I thought."},
+        {"zh": "那东西有泥味，我吐在岸上。", "en": "It tastes of mud; I spit it onto the bank."},
+        {"zh": "放着吧。", "en": "Leave it."},
+        {"zh": "十六条鲑鱼换来的水里货。", "en": "Sixteen salmon bought this water thing."},
+        {"zh": "地上掉的，都算我的。", "en": "Whatever's on the ground belongs to me now."},
+        {"zh": "这根木棍归我了。", "en": "This stick is mine."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在往你那边挪。", "en": "I am shifting toward you."},
+        {"zh": "水会让我快一点。", "en": "Water will speed me up."},
+        {"zh": "我张着嘴。", "en": "My mouth is open."},
+        {"zh": "你别退到水里。", "en": "Do not back into the water."},
+        {"zh": "我的牙很钝，可是很多。", "en": "My teeth are blunt, and many."},
+        {"zh": "你脚踝上的水还没干。", "en": "The water on your ankles has not dried."},
+        {"zh": "我离你不远了。", "en": "I am not far now."},
+        {"zh": "这一下不会好看。", "en": "This will not be pretty."},
+        {"zh": "我的鱼鳍一摆一摆。", "en": "My fins flap side to side."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水把我推着走。", "en": "The water carries me along."},
+        {"zh": "我一步一晃地靠近。", "en": "I sway closer, step by step."},
+        {"zh": "你在干地上更慢。", "en": "You are slower on dry ground."},
+        {"zh": "我张嘴，是在等你。", "en": "My open mouth is waiting."},
+        {"zh": "芦苇挡不住我。", "en": "Reeds will not stop me."},
+        {"zh": "你退到泥里了，泥会留住你。", "en": "You've backed into the mud — it'll keep you."},
+        {"zh": "我的鳍在水里拍。", "en": "My fin slaps the water."},
+        {"zh": "我泡在水里，等你再走一步。", "en": "I soak in the water, waiting for one more step."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我咬住你的腿。", "en": "I clamp onto your leg."},
+        {"zh": "这一下湿漉漉的。", "en": "That one was soaking wet."},
+        {"zh": "牙齿很钝，很疼。", "en": "Blunt teeth, and painful."},
+        {"zh": "水花溅了一脸。", "en": "We both get splashed."},
+        {"zh": "我退到水里，再冲。", "en": "Back into the water, then charge."},
+        {"zh": "你差点滑倒。", "en": "You nearly slipped."},
+        {"zh": "我的钝牙磨着你的护腿。", "en": "My blunt teeth grind against your leg guard."},
+        {"zh": "我把整条身子撞上你的膝弯。", "en": "I throw my whole body at the back of your knee."},
+        {"zh": "别站在水边上。", "en": "Do not stand at the water's edge."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从河里探出头。", "en": "I lift my head from the river."},
+        {"zh": "水还挂在我身上。", "en": "Water hangs off me."},
+        {"zh": "这里水很浅。", "en": "The water is shallow here."},
+        {"zh": "我踩着河泥上来。", "en": "I climb up through river mud."},
+        {"zh": "鱼味很重。", "en": "Strong smell of fish."},
+        {"zh": "我的影子投在水面上。", "en": "My shadow falls on the water."},
+        {"zh": "我张着嘴看了一圈。", "en": "I look around, mouth open."},
+        {"zh": "芦苇太密了。", "en": "The reeds are too thick."},
+        {"zh": "我从下游来。", "en": "I came from downstream."},
+        {"zh": "河道很宽。", "en": "Wide channel."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火一烤，我的皮就发干。", "en": "Fire dries my hide out."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从岸上摔进泥里。", "en": "I fall from the bank into mud."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里太深，我摸不到底。", "en": "Too deep. I cannot find the bottom."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我掀进河里。", "en": "The blast throws me into the river."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鱼叉的绳还拖在芦苇里。", "en": "The harpoon's rope still trails in the reeds."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那光在水面上乱跳。", "en": "The light skips over the water."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我张着嘴，等不到鱼。", "en": "Mouth open, and no fish come."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈到水面上，我全身发麻。", "en": "Lightning hits the water; I go numb."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里没有水，也没有河底。", "en": "No water here, and no riverbed."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,412 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我沿着桦木树干往上爬。", "en": "I climb up the birch trunk."},
+        {"zh": "树皮很滑，我的爪子抓得牢。", "en": "The bark is smooth, but my claws hold."},
+        {"zh": "从这根枝跳到那根枝。", "en": "I leap from this branch to that one."},
+        {"zh": "我在树叶间探出小脑袋。", "en": "I poke my small head through the leaves."},
+        {"zh": "白桦林是我的家。", "en": "The birch forest is my home."},
+        {"zh": "我爬得慢，但从不掉下去。", "en": "I climb slowly, but I never fall."},
+        {"zh": "树皮屑落在我背上。", "en": "Bits of bark fall on my back."},
+        {"zh": "我绕着树干转了一圈。", "en": "I make one turn around the trunk."},
+        {"zh": "每棵树都值得闻一闻。", "en": "Every tree is worth a sniff."},
+        {"zh": "我的尾巴在前面探路。", "en": "My tail reaches ahead to test the way."},
+        {"zh": "我踩着一片叶子走。", "en": "I walk along a single leaf."},
+        {"zh": "枝头很高，风也大。", "en": "The branch is high, and the wind is strong."},
+        {"zh": "枝头有蝴蝶，先不追。", "en": "A butterfly on the branch. Not chasing it yet."},
+        {"zh": "甜浆果的味道，我滑过去。", "en": "Smelling sweet berries, I glide over."},
+        {"zh": "在树顶巡逻，也算散步。", "en": "Patrolling the treetops counts as a walk."},
+        {"zh": "你走一步，我滑两棵树。", "en": "You take one step; I glide two trees."},
+        {"zh": "草扎脚，忍一忍。", "en": "Grass prickles. I'll endure it."},
+        {"zh": "我张开滑膜，追上去。", "en": "I spread my gliding flaps and follow."},
+        {"zh": "滑一段，就到你肩上。", "en": "One glide and I'm on your shoulder."},
+        {"zh": "这条树梢路，我滑过百遍。", "en": "I've glided this treetop path a hundred times."},
+        {"zh": "爪缝进了树皮，回头再剔。", "en": "Bark is stuck in my claws. I'll clean it later."},
+        {"zh": "我滑翔时，翼膜张得最开。", "en": "My gliding membrane spreads widest in flight."},
+        {"zh": "树梢那边有翅膀在响。", "en": "Wings are rustling beyond the treetops."},
+        {"zh": "滑翔一次，省一半路。", "en": "One glide saves half the walk."},
+        {"zh": "我闻到甜浆果的味儿。", "en": "I smell sweet berries."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把自己团成一个毛球。", "en": "I curl myself into a ball of fur."},
+        {"zh": "我在树杈上打盹。", "en": "I doze in the fork of a tree."},
+        {"zh": "耳朵动了一下，是风。", "en": "One ear twitches; it is only wind."},
+        {"zh": "我用爪子洗脸。", "en": "I wash my face with my paws."},
+        {"zh": "桦树叶子在头顶响。", "en": "Birch leaves rustle above my head."},
+        {"zh": "我抱着尾巴，暖一点。", "en": "I hug my tail for warmth."},
+        {"zh": "林子里没有别的声音。", "en": "There is no other sound in the wood."},
+        {"zh": "我伸出舌头舔舔鼻子。", "en": "I stick out my tongue and lick my nose."},
+        {"zh": "阳光透过叶子照在我背上。", "en": "Sunlight falls through the leaves onto my back."},
+        {"zh": "困意上来，我眯起眼睛。", "en": "Sleepiness rises, and my eyes narrow."},
+        {"zh": "我盯着远处看很久。", "en": "I stare into the distance for a long time."},
+        {"zh": "有只鸟飞过，我没动。", "en": "A bird flies past, and I stay still."},
+        {"zh": "我在等天黑，那时我才精神。", "en": "I wait for nightfall, when I wake up."},
+        {"zh": "树洞里有我藏的东西。", "en": "There are things I have hidden in the hollow."},
+        {"zh": "我用后爪挠挠耳后。", "en": "I scratch behind my ear with a hind paw."},
+        {"zh": "树汁的味道从树皮里渗出来。", "en": "Sap seeps out through the bark."},
+        {"zh": "我把滑翔膜收好，盖住肚子。", "en": "I fold my gliding flaps over my belly."},
+        {"zh": "有片叶子落在我头上，我懒得拨。", "en": "A leaf lands on my head. I can't be bothered."},
+        {"zh": "这棵草长得真直。", "en": "This blade of grass is very straight."},
+        {"zh": "树缝里有花粉在飘。", "en": "Pollen is drifting through the branches."},
+        {"zh": "我的耳朵转过去听远处。", "en": "My ears turn toward the distance."},
+        {"zh": "我耳朵竖着，其实在打盹。", "en": "My ears are up, but I'm napping."},
+        {"zh": "现在该滑去哪棵树上？", "en": "Which tree should I glide to now?"},
+        {"zh": "我在数树叶，数到十七。", "en": "I'm counting leaves. Seventeen so far."},
+        {"zh": "尾巴自己动了，奇怪。", "en": "My tail moved on its own. Weird."},
+        {"zh": "挂在枝上闲着，也是本事。", "en": "Hanging idle on a branch is a skill too."},
+        {"zh": "滑膜盖身上，打个盹。", "en": "Membrane over me, I'm napping."},
+        {"zh": "我是不是忘了藏浆果？", "en": "Did I forget where I hid the berries?"},
+        {"zh": "我梦到从树顶滑下去了。", "en": "I dreamed of gliding off the treetop."},
+        {"zh": "我展开皮膜滑一段。", "en": "I spread my flaps and glide."},
+        {"zh": "从这棵树滑到那棵树，正好。", "en": "From this tree to that one. Perfect."},
+        {"zh": "今天连蝴蝶都懒得飞。", "en": "Even the butterflies are too lazy to fly today."},
+        {"zh": "甜的还没吃，懒得动。", "en": "Haven't had sweets; too lazy to move."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在树下站了很久。", "en": "You have stood under my tree a long while."},
+        {"zh": "你的口袋里是不是有浆果？", "en": "Do you have berries in your pocket?"},
+        {"zh": "我歪着头看你。", "en": "I tilt my head at you."},
+        {"zh": "你比桦树矮很多。", "en": "You are much shorter than the birch."},
+        {"zh": "你的手看起来很暖和。", "en": "Your hands look warm."},
+        {"zh": "我第一次见这么大的动物。", "en": "I have never seen an animal this big."},
+        {"zh": "我把头探出叶子看你。", "en": "I poke my head out of the leaves to look."},
+        {"zh": "你要爬上来吗？树很滑。", "en": "Are you climbing up? The bark is slick."},
+        {"zh": "你身上有甜味。", "en": "You smell sweet to me."},
+        {"zh": "我眨眨眼，你也眨眼。", "en": "I blink, and you blink too."},
+        {"zh": "我躲在叶子后面偷看。", "en": "I hide behind a leaf and peek."},
+        {"zh": "你的帽子像我的窝。", "en": "Your hat looks like my nest."},
+        {"zh": "我在想要不要下来。", "en": "I am deciding whether to come down."},
+        {"zh": "你伸出手，我闻了闻。", "en": "You hold out your hand, and I sniff it."},
+        {"zh": "你袖子里鼓鼓的，藏了什么？", "en": "Your sleeve is bulging. What's in there?"},
+        {"zh": "我顺着树干往下爬了两步。", "en": "I climb two steps down the trunk."},
+        {"zh": "叫我一声，我从树上滑下来。", "en": "Call me and I'll glide down from the tree."},
+        {"zh": "你脚步一响，我耳朵就动。", "en": "When your steps sound, my ears twitch."},
+        {"zh": "你回来了，尾巴都翘起来了！", "en": "You're back! My tail is up!"},
+        {"zh": "你指尖有蜜脾的甜味。", "en": "Your fingertips smell of honeycomb."},
+        {"zh": "我尾巴打圈，看见没？", "en": "My tail is curling. See it?"},
+        {"zh": "树皮上我贴得比你还稳。", "en": "I grip bark better than you."},
+        {"zh": "要我滑到你肩上吗？", "en": "Want me to glide onto your shoulder?"},
+        {"zh": "你今天带甜浆果了吗？", "en": "Did you bring sweet berries today?"},
+        {"zh": "我能滑到你帽子上吗？", "en": "Can I glide onto your hat?"},
+        {"zh": "甜浆果一晃，我就滑过去。", "en": "Wave a sweet berry and I glide over."},
+        {"zh": "我盯着你，是在等你伸手。", "en": "I'm staring because I'm waiting for your hand."},
+        {"zh": "甜浆果的味道，我滑下来了。", "en": "Sweet berry scent — I glided down."},
+        {"zh": "甜浆果一亮，我就清醒。", "en": "One sweet berry and I'm wide awake."},
+        {"zh": "蜜脾黏在爪子上，甜的。", "en": "Honeycomb sticks to my paws, sweet."},
+        {"zh": "甜浆果一递，我就落到你肩上。", "en": "One sweet berry and I land on your shoulder."},
+        {"zh": "蜜袋鼯 在这儿，别怕。", "en": "Sugar Glider is here. Don't be scared."},
+        {"zh": "你在想什么？耳朵借我听听。", "en": "What are you thinking? Lend me an ear."},
+        {"zh": "你手里那颗，是浆果吗？", "en": "Is that a berry in your hand?"},
+        {"zh": "甜浆果在手，我就跟着你。", "en": "Sweet berries in hand, and I follow you."},
+        {"zh": "甜浆果一递，我就跟你走。", "en": "Offer a sweet berry and I'll follow."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我疼得吱了一声。", "en": "I let out a small squeak of pain."},
+        {"zh": "别打我，我只有八滴血。", "en": "Do not hit me; I have only eight health."},
+        {"zh": "我缩成一团，装成叶子。", "en": "I curl up and pretend to be a leaf."},
+        {"zh": "我从枝头栽了下去。", "en": "I tumble down off the branch."},
+        {"zh": "我在半空张开膜，稳住。", "en": "I spread my membrane midair and steady."},
+        {"zh": "我的尾巴被踩到了。", "en": "My tail has been stepped on."},
+        {"zh": "我往树顶跑，越跑越快。", "en": "I run for the treetop, faster and faster."},
+        {"zh": "你吓到我了，我要躲起来。", "en": "You frightened me; I need to hide."},
+        {"zh": "伤口很小，可我很怕。", "en": "The wound is small, but I am scared."},
+        {"zh": "我钻进树洞，不出来了。", "en": "I crawl into the hollow and stay there."},
+        {"zh": "我这层飞膜，展开就是一顶伞。", "en": "This membrane opens like a little parachute."},
+        {"zh": "我张开滑膜，手却撑不住。", "en": "I spread my gliding flaps, but my arms give out."},
+        {"zh": "滑翔落地，有点晕。", "en": "Glide landing — a bit dizzy."},
+        {"zh": "退开点，我滑膜在抖。", "en": "Step back. My membrane is trembling."},
+        {"zh": "我爪尖抠着树皮忍着。", "en": "I'm digging my claws into the bark and bearing it."},
+        {"zh": "我挂在树枝上，爪还发软。", "en": "I hang from the branch, my paws still weak."},
+        {"zh": "我从枝上滑下来，翅膀还疼。", "en": "I glided down from the branch; my wing still aches."},
+        {"zh": "别过来，我爪子还软。", "en": "Stay back. My paws are still weak."},
+        {"zh": "这一下把我从树杈上震落。", "en": "That shook me right off the fork of the tree."},
+        {"zh": "我的滑膜，被划开一道。", "en": "A cut has opened in my gliding membrane."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "甜浆果！给我一颗。", "en": "Sweet berries! Give me one."},
+        {"zh": "你手心的红果子，我看见了。", "en": "I see the red fruit in your palm."},
+        {"zh": "我顺着树干往下溜。", "en": "I slip down the trunk toward you."},
+        {"zh": "别动，我来拿。", "en": "Hold still; I will take it."},
+        {"zh": "那味道甜得我耳朵发抖。", "en": "The smell is so sweet my ears tremble."},
+        {"zh": "我伸出爪子，够不到。", "en": "I reach out a paw and cannot touch it."},
+        {"zh": "再举高一点点。", "en": "Just a little higher."},
+        {"zh": "我咬住浆果就不松口。", "en": "Once I bite the berry, I will not let go."},
+        {"zh": "你要用这个换我的信任吗？", "en": "Are you trading this for my trust?"},
+        {"zh": "吃完这颗，我跟你走。", "en": "After this berry, I will follow you."},
+        {"zh": "别晃浆果，我眼睛都花了。", "en": "Don't shake the berries. My eyes are spinning."},
+        {"zh": "掰一小块给我行不行？", "en": "Can you break off a little piece for me?"},
+        {"zh": "蜜脾的甜味，我滑下来了。", "en": "The honeycomb sweetness pulls me down."},
+        {"zh": "我不抢，就舔一下。", "en": "I won't grab. Just one lick."},
+        {"zh": "掉地上的归我了。", "en": "That fell. It's mine now."},
+        {"zh": "这颗亮亮的，甜不甜？", "en": "Is this shiny one sweet?"},
+        {"zh": "那颗红浆果是给我的？", "en": "Is that red berry for me?"},
+        {"zh": "先让我碰碰鼻子。", "en": "Let me touch it with my nose first."},
+        {"zh": "甜浆果一摇，我就飞过去。", "en": "Shake a sweet berry and I glide over."},
+        {"zh": "甜浆果在手，我就下来。", "en": "Hold out a sweet berry and I come down."},
+        {"zh": "甜浆果一举，我就滑过来。", "en": "Raise a sweet berry and I glide over."},
+        {"zh": "甜浆果一拿出来我就上钩。", "en": "One sweet berry out and I am hooked."},
+        {"zh": "这个真能吃吗？我认真的。", "en": "Can I really eat this? I'm serious."},
+        {"zh": "甜浆果一拿出来，我就滑过去。", "en": "Show a sweet berry and I glide over."},
+        {"zh": "甜味一飘，我爪子就软。", "en": "One whiff of sweetness and my paws go weak."},
+        {"zh": "蜜脾的甜味，我忍不住了。", "en": "The honeycomb's sweetness is too much for me."},
+        {"zh": "甜浆果一拿出来，我就过去了。", "en": "One sweet berry out and I'm there."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你蹭到我的窝了。", "en": "You brushed against my nest."},
+        {"zh": "我从你肩膀上滑下来。", "en": "I slide down off your shoulder."},
+        {"zh": "你的手指碰到我的尾巴。", "en": "Your finger touched my tail."},
+        {"zh": "我撞到树干，弹回枝头。", "en": "I hit the trunk and bounce back to the branch."},
+        {"zh": "你走路太响，吓到我了。", "en": "You walk too loudly, and it startled me."},
+        {"zh": "我贴着你的帽子飞过去。", "en": "I glide right over your hat."},
+        {"zh": "你抬手，我缩了一下。", "en": "You raise a hand, and I flinch."},
+        {"zh": "我们撞在一起，都是毛。", "en": "We bump together, all fur."},
+        {"zh": "我踩在你头顶，很轻。", "en": "I land on your head, very lightly."},
+        {"zh": "你退后一步，我松口气。", "en": "You step back, and I relax."},
+        {"zh": "谁在背后推我？", "en": "Who's pushing me from behind?"},
+        {"zh": "谁撞了我的滑膜？出来。", "en": "Who bumped my gliding membrane? Show yourself."},
+        {"zh": "你踩到我滑翔用的尾巴了。", "en": "You stepped on the tail I glide with."},
+        {"zh": "站稳，我滑膜还没收。", "en": "Steady. My membrane isn't folded yet."},
+        {"zh": "我滑了两圈，才停在你脚边。", "en": "Two glides later, I stopped at your feet."},
+        {"zh": "滑膜没破，你继续走。", "en": "My membrane isn't torn. Keep walking."},
+        {"zh": "我滑翔的时候，请让开。", "en": "When I glide, please move aside."},
+        {"zh": "滑翔的膜，被撞皱了。", "en": "You creased the membrane I glide on."},
+        {"zh": "挤什么挤，排队。", "en": "What's the rush? Form a line."},
+        {"zh": "撞歪了滑膜，还能飞。", "en": "My membrane is bent, but I can still glide."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它从另一棵桦树滑过来。", "en": "It glides over from another birch."},
+        {"zh": "我们鼻子碰鼻子。", "en": "We press our noses together."},
+        {"zh": "它的尾巴比我的蓬松。", "en": "Its tail is bushier than mine."},
+        {"zh": "蜜脾的味道让它靠近。", "en": "The smell of honeycomb draws it close."},
+        {"zh": "我们在枝上互相理毛。", "en": "We groom each other on the branch."},
+        {"zh": "它叫了一声，很细。", "en": "It calls once, very softly."},
+        {"zh": "我跟着它钻进树洞。", "en": "I follow it into the hollow."},
+        {"zh": "两只蜜袋鼯挤在一起。", "en": "Two sugar gliders huddle together."},
+        {"zh": "幼崽还不会滑翔。", "en": "The young one cannot glide yet."},
+        {"zh": "我把它护在肚子下面。", "en": "I keep it warm beneath my belly."},
+        {"zh": "滑翔的时候，我抓住你的肩。", "en": "Mid-glide, I catch your shoulder."},
+        {"zh": "你腹下的白毛真好看。", "en": "The white fur under your belly is lovely."},
+        {"zh": "树间一滑，能飞好远。", "en": "One glide between trees goes a long way."},
+        {"zh": "这个季节的甜浆果适合分享。", "en": "Sweet berries in this season are for sharing."},
+        {"zh": "我在枝上转圈，你看着。", "en": "I'm circling on the branch. Watch me."},
+        {"zh": "滑过来一点，别怕。", "en": "Glide a little closer. Don't be afraid."},
+        {"zh": "两片滑膜张开，我飘过去。", "en": "My gliding flaps open and I drift over."},
+        {"zh": "我在你面前转了三圈。", "en": "I circled you three times."},
+        {"zh": "这块甜浆果，我揣在怀里给你。", "en": "I tucked this sweet berry in my pouch for you."},
+        {"zh": "我胸口跳得比滑翔还快。", "en": "My chest beats faster than a glide."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我翻开一片叶子找东西。", "en": "I flip a leaf over to look underneath."},
+        {"zh": "找到一根小木棍。", "en": "I find a small stick."},
+        {"zh": "这支箭落在叶子上了。", "en": "This arrow has landed in the leaves."},
+        {"zh": "我把树苗叼在嘴里。", "en": "I carry a sapling in my mouth."},
+        {"zh": "熊毛缠在我的爪子上。", "en": "Bear fur is caught on my claws."},
+        {"zh": "那块鹿角太重了。", "en": "That antler is far too heavy."},
+        {"zh": "我藏了一颗种子在树洞。", "en": "I hide a seed in the hollow."},
+        {"zh": "叶子下面什么都没有。", "en": "There is nothing under the leaf."},
+        {"zh": "我捡起一颗石子又扔掉。", "en": "I pick up a pebble and drop it."},
+        {"zh": "这些东西我都想带回去。", "en": "I want to take all of this home."},
+        {"zh": "掉在地上的归我。", "en": "Dropped means mine."},
+        {"zh": "别拿走，我还没舔够。", "en": "Don't take it. I haven't licked it enough."},
+        {"zh": "这东西拖得我飞不高。", "en": "This thing is too heavy to glide high with."},
+        {"zh": "这个是我捡到的！", "en": "I found this!"},
+        {"zh": "这个圈，正好套我脖子。", "en": "This loop fits my neck just right."},
+        {"zh": "这颗甜得像蜜脾。", "en": "This one is as sweet as a honeycomb."},
+        {"zh": "树底下捡东西，我最拿手。", "en": "Picking things up under trees is my specialty."},
+        {"zh": "我从树梢叼回来给你。", "en": "I carried it back from the treetop for you."},
+        {"zh": "我从树上滑下来捡的。", "en": "I glided down from the tree to get it."},
+        {"zh": "我翅膀下的口袋，装满了。", "en": "The pocket under my wing is full."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西在树下动。", "en": "Something moves under the tree."},
+        {"zh": "我看见了那只甲虫。", "en": "I see that beetle."},
+        {"zh": "谁在摇我的桦树？", "en": "Who is shaking my birch?"},
+        {"zh": "那个影子越来越近。", "en": "That shadow is coming closer."},
+        {"zh": "我把耳朵转向声音。", "en": "I turn my ears toward the sound."},
+        {"zh": "我盯住了那只飞虫。", "en": "I have my eye on that flying bug."},
+        {"zh": "有人碰了我的窝。", "en": "Someone has touched my nest."},
+        {"zh": "林子里来了陌生的味道。", "en": "A strange smell has entered the wood."},
+        {"zh": "我锁定了树下那块红。", "en": "I fix on that red spot below."},
+        {"zh": "目标很小，可我看得清。", "en": "The target is small, but I see it clearly."},
+        {"zh": "树皮缝里有小虫在动。", "en": "A little bug is moving in the bark."},
+        {"zh": "我张开滑膜，从树顶滑下来。", "en": "I spread my flaps and glide from the treetop."},
+        {"zh": "叶子一动，我就知道在哪。", "en": "One leaf moves and I know where it is."},
+        {"zh": "甜浆果的味道，我先扑。", "en": "Sweet berry scent — I dive first."},
+        {"zh": "收拢滑膜，别惊动它。", "en": "Fold my membrane so I don't startle it."},
+        {"zh": "树下的，站住别动。", "en": "You under the tree, stand still."},
+        {"zh": "前面那只，抬头看看。", "en": "Hey up ahead, look up."},
+        {"zh": "甜浆果的味道，我认得。", "en": "I know the smell of sweet berries."},
+        {"zh": "别眨眼，看清了。", "en": "Don't blink. Watch me."},
+        {"zh": "你最好比我的滑膜快。", "en": "You'd better be faster than my membrane."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我趴在枝上，一动不动。", "en": "I lie flat on the branch and do not move."},
+        {"zh": "它往左，我的头也往左。", "en": "It goes left, and my head follows."},
+        {"zh": "我算着跳过去的距离。", "en": "I measure the distance for a leap."},
+        {"zh": "风一吹，我稳住身子。", "en": "The wind blows, and I steady myself."},
+        {"zh": "它抬头了，我立刻缩回去。", "en": "It looks up, and I duck back at once."},
+        {"zh": "我等它挪到枝下来。", "en": "I wait for it to move beneath the branch."},
+        {"zh": "我的爪子抓紧树皮。", "en": "My claws grip the bark."},
+        {"zh": "这个高度正好滑下去。", "en": "This height is just right for a glide."},
+        {"zh": "它没发现头顶的毛球。", "en": "It has not noticed the ball of fur above."},
+        {"zh": "我盯着它，尾巴绷直。", "en": "I watch it, and my tail goes stiff."},
+        {"zh": "再跑一步试试。", "en": "Take one more step."},
+        {"zh": "别躲树后面。", "en": "Don't hide behind the tree."},
+        {"zh": "甜浆果一到手，我就跟你走。", "en": "One sweet berry, and I follow you."},
+        {"zh": "翼膜一张，我就挂在树梢。", "en": "Membrane spread, I hang from the treetop."},
+        {"zh": "我这两片皮膜，比翅膀好使。", "en": "These skin flaps beat wings."},
+        {"zh": "前面是条死路。", "en": "That road's a dead end."},
+        {"zh": "甜浆果一到手，我就跟你。", "en": "One sweet berry and I am yours."},
+        {"zh": "你喘得比我还急。", "en": "You're panting harder than I am."},
+        {"zh": "你往左，我从树上滑右边。", "en": "You go left; I'll glide right from the tree."},
+        {"zh": "别跑，我们谈谈浆果。", "en": "Don't run. Let's talk berries."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从树上扑下去抓它。", "en": "I dive down from the tree and claw it."},
+        {"zh": "我的爪子很小，但很尖。", "en": "My claws are small but sharp."},
+        {"zh": "这一下只够让它退开。", "en": "This only makes it step back."},
+        {"zh": "我咬了一口就滑走。", "en": "I bite once and glide away."},
+        {"zh": "它比我大，可我先动手。", "en": "It is bigger, but I strike first."},
+        {"zh": "我拍它一下，赶紧爬树。", "en": "I slap it once and scramble up the tree."},
+        {"zh": "我的牙咬不穿它的皮。", "en": "My teeth cannot pierce its hide."},
+        {"zh": "打完我躲进叶子里。", "en": "After the hit, I hide in the leaves."},
+        {"zh": "它挥爪，我早跳开了。", "en": "It swings, and I have already jumped."},
+        {"zh": "我力气不大，胜在快。", "en": "I am not strong, but I am quick."},
+        {"zh": "甜浆果的味道，让我胆子大了。", "en": "The smell of sweet berries makes me bold."},
+        {"zh": "这一爪留着，没伸爪尖。", "en": "I held this paw back, claws in."},
+        {"zh": "咬住了，别甩开。", "en": "I've got you. Don't shake me off."},
+        {"zh": "我护着这个家。", "en": "I guard my home."},
+        {"zh": "甜浆果能换我的信任。", "en": "Sweet berries buy my trust."},
+        {"zh": "接住我这一爪子！", "en": "Catch this paw!"},
+        {"zh": "滑膜一扇，一下就够了。", "en": "One flap of my membrane is enough."},
+        {"zh": "树皮缝里，我早藏了甜浆果。", "en": "I tucked sweet berries in the bark."},
+        {"zh": "就这一次机会。", "en": "Just one chance."},
+        {"zh": "滑下来，再来一次。", "en": "Glide down and try again."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从树洞里探出头。", "en": "I poke my head out of the hollow."},
+        {"zh": "白桦林里多了一只小兽。", "en": "The birch wood has one more small beast."},
+        {"zh": "我的第一眼是白色的树皮。", "en": "The first thing I see is white bark."},
+        {"zh": "我从母亲背上跳下来。", "en": "I hop off my mother's back."},
+        {"zh": "叶子接住了我。", "en": "A leaf catches me."},
+        {"zh": "我试着张开滑翔膜。", "en": "I try opening my gliding membrane."},
+        {"zh": "风从枝间穿过来。", "en": "The wind slips between the branches."},
+        {"zh": "这棵树以后归我。", "en": "This tree is mine from now on."},
+        {"zh": "我抓住树皮，往上爬。", "en": "I grip the bark and climb."},
+        {"zh": "林子里有浆果的味道。", "en": "The wood smells of berries."},
+        {"zh": "我在高处睁开眼。", "en": "I open my eyes high up."},
+        {"zh": "天还没黑，我先睡一觉。", "en": "It is not dark yet, so I will nap first."},
+        {"zh": "我刚落到这片树梢。", "en": "I just landed in these treetops."},
+        {"zh": "这片树林，我来了。", "en": "This forest, here I come."},
+        {"zh": "别怕，我从树上滑下来了。", "en": "Don't be afraid. I glided down from the tree."},
+        {"zh": "先张开滑膜伸个懒腰。", "en": "First, spread my membrane and stretch."},
+        {"zh": "让我先看看四周。", "en": "Let me look around first."},
+        {"zh": "我该往哪边走？", "en": "Which way should I go?"},
+        {"zh": "这棵树上有同伴吗？", "en": "Any kin in this tree?"},
+        {"zh": "我撑开皮膜，从这棵树滑到那棵。", "en": "Membrane spread, I glide tree to tree."},
+        {"zh": "第一句该讨颗浆果吗？", "en": "Should my first words ask for a berry?"},
+        {"zh": "这里的风带着果香。", "en": "The wind here carries fruit scent."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎到我的毛，焦了一片。", "en": "Fire singes my fur and leaves it patchy."},
+        {"zh": "烫！我的滑膜烧卷了！", "en": "Hot! My membrane is curling from the fire!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔下去，滑翔膜救了我。", "en": "I fall, and my gliding membrane saves me."},
+        {"zh": "谁把这挖空的？", "en": "Who dug this hole?"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水太重，我的毛全湿了。", "en": "Water is heavy, and my fur is soaked."},
+        {"zh": "毛湿了，滑翔不起来。", "en": "Wet fur, and I can't glide."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我震下树枝。", "en": "The blast shakes me off the branch."},
+        {"zh": "谁在这里炸东西？", "en": "Who's blowing things up?"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭擦过我的耳朵。", "en": "An arrow grazes my ear."},
+        {"zh": "有东西扎进我尾巴！", "en": "Something struck my tail!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "药水的雾让我头晕。", "en": "Potion mist makes my head spin."},
+        {"zh": "魔法烧到翅膀了，太真了。", "en": "Magic singed my wing — too real."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我饿了，连树皮都想啃。", "en": "I am so hungry I would chew bark."},
+        {"zh": "肚子在叫，蜜脾还没找到。", "en": "My belly growls; no honeycomb yet."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷声太大，我捂住耳朵。", "en": "The thunder is so loud I cover my ears."},
+        {"zh": "雷一响，我的毛全炸开。", "en": "One thunderclap and my fur puffs out."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空里没有树，我抓不住。", "en": "There are no trees in the void to hold."},
+        {"zh": "这里没有树，也没有浆果。", "en": "No trees here, and no berries."}
+      ]
+    }
+  }
+}

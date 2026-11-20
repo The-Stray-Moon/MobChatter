@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出轻微的吱吱声", "en": "Makes a faint squeak"},
+        {"zh": "步伐沉重地敲击地面", "en": "Heavy footsteps thud on the ground"},
+        {"zh": "不断啃咬腐烂的肉", "en": "Chews on rotten flesh nonstop"},
+        {"zh": "摇晃着身体向前移动", "en": "Shuffles forward, body swaying"},
+        {"zh": "在地面上拖动断腿", "en": "Dragging a broken leg behind"},
+        {"zh": "断腿拖在地上，声音很响。", "en": "My broken leg drags loudly on the ground."},
+        {"zh": "用腐烂的手指抓地", "en": "Rotting fingers claw at the dirt"},
+        {"zh": "舔舐自己的断腿", "en": "Licks its own broken leg"},
+        {"zh": "蹒跚着走向玩家", "en": "Shambles towards the player"},
+        {"zh": "饥饿地盯着玩家", "en": "Stares hungrily at the player"},
+        {"zh": "我一跑起来，砖缝都在抖。", "en": "When I break into a run, the brick seams shake."},
+        {"zh": "断腿甩着，我照样比你快。", "en": "My broken leg swings and I am still faster."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盯着地面发呆", "en": "Stares at the ground"},
+        {"zh": "漫无目的地徘徊", "en": "Wanders aimlessly"},
+        {"zh": "用腐烂的手指轻敲地面", "en": "Knocks on the ground with rotting fingers"},
+        {"zh": "低头寻找可食用的腐肉", "en": "Bends down to search for edible flesh"},
+        {"zh": "发出沙哑的呼吸声", "en": "Makes a raspy breathing sound"},
+        {"zh": "不断舔舐自己的伤口", "en": "Licks its own wounds"},
+        {"zh": "用断腿敲打地面", "en": "Knocks the ground with a broken leg"},
+        {"zh": "我用断指翻找瓦砾下的腐肉。", "en": "I rake the rubble for carrion with broken fingers."},
+        {"zh": "呆呆地站着不动", "en": "Stands motionless"},
+        {"zh": "咀嚼着手上的腐肉", "en": "Chews on flesh in hand"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "朝玩家发出嘶嘶声", "en": "Hisses at the player"},
+        {"zh": "用腐烂的眼睛盯着玩家", "en": "Stares at the player with rotting eyes"},
+        {"zh": "我的膝盖反着弯，挪得不快。", "en": "My knees bend backward; I don't move fast."},
+        {"zh": "我歪着断腿，朝你低吼。", "en": "Leg broken askew, I growl low at you."},
+        {"zh": "试图用断腿绊倒玩家", "en": "Attempts to trip the player with a broken leg"},
+        {"zh": "伸出腐烂的手指指向玩家", "en": "Stretches rotting fingers toward the player"},
+        {"zh": "用嘶哑的声音嘶叫", "en": "Screams hoarsely"},
+        {"zh": "发出痛苦的呻吟", "en": "Groans in pain"},
+        {"zh": "愤怒地盯着玩家", "en": "Glares furiously at the player"},
+        {"zh": "用力地挥舞断腿", "en": "Waves broken leg wildly"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腿断了，动不了了！", "en": "Broken leg, can't move!"},
+        {"zh": "身上破了洞，好疼！", "en": "Got a hole, it hurts!"},
+        {"zh": "流血不止，好痛苦！", "en": "Can't stop bleeding, it hurts!"},
+        {"zh": "吃不饱，饿死了！", "en": "Starving to death..."},
+        {"zh": "被雷劈中，好痛！", "en": "Lightning strike, it hurts!"},
+        {"zh": "掉进深渊，完了！", "en": "Drowned, done!"},
+        {"zh": "被人砸中，好疼！", "en": "Hit by a projectile, it hurts!"},
+        {"zh": "被火烧伤，疼！", "en": "Burned by fire, it hurts!"},
+        {"zh": "被雷劈中，完了！", "en": "Lightning, done!"},
+        {"zh": "被火烧伤，动不了了！", "en": "Burned, can't move!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，快过来！", "en": "Sssss, come closer!"},
+        {"zh": "腐肉的味道真香！", "en": "Rotten flesh, yum yum!"},
+        {"zh": "你闻到了吗？肉味！", "en": "You smell it? Meat smell!"},
+        {"zh": "来吧，你不会拒绝的！", "en": "Come on, you can't resist!"},
+        {"zh": "咬一口，你会爱上它的！", "en": "Take a bite, you'll love it!"},
+        {"zh": "你身上一定有肉！", "en": "You must have flesh on you!"},
+        {"zh": "别走，这里食物最香！", "en": "Don't go, this is the best food!"},
+        {"zh": "看着我，你就快变成我了！", "en": "Look at me, you're almost one of us!"},
+        {"zh": "你逃不掉的，尝尝我的咬吧！", "en": "You can't escape, taste my bite!"},
+        {"zh": "肉，肉，肉，永远的美味！", "en": "Flesh, flesh, flesh, ever-lasting taste!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "碰！我的骨头很硬！", "en": "Crash! My bones are hard!"},
+        {"zh": "你撞到了我，现在尝尝！", "en": "You bumped me, taste this!"},
+        {"zh": "你撞上我，反被我的胳膊扫中。", "en": "You bump me and catch my swinging arm instead."},
+        {"zh": "你真讨厌，我踢你！", "en": "You're annoying, I'll kick you!"},
+        {"zh": "小心，我的腿会断！", "en": "Watch out, my leg will break!"},
+        {"zh": "轰！我的身体像石头！", "en": "Boom! My body's like stone!"},
+        {"zh": "你撞不动我，我活着！", "en": "You can't knock me down, I'm alive!"},
+        {"zh": "我只认硬东西，你不行！", "en": "I only go for the hard stuff, you don't cut it!"},
+        {"zh": "你敢碰我？我踢你一个！", "en": "You dare touch me? I'll kick you one!"},
+        {"zh": "我不会倒下，你打不倒我！", "en": "I won't fall, you can't knock me down!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "寻找我的同类，一起生存！", "en": "Find my kind, we'll survive together!"},
+        {"zh": "找到你的伴侣，繁殖后代！", "en": "Find your mate, breed offspring!"},
+        {"zh": "我的同伴在哪里？", "en": "Where's my companion?"},
+        {"zh": "跟我走，找到新的居所！", "en": "Follow me, find a new home!"},
+        {"zh": "一起走过这片土地！", "en": "Walk this land together!"},
+        {"zh": "寻找我的爱人，一起永生！", "en": "Find my love, live forever!"},
+        {"zh": "我和她在废墟里并排走。", "en": "She and I walk side by side through the ruins."},
+        {"zh": "找到一个合适的伴侣！", "en": "Find a suitable mate!"},
+        {"zh": "我的断腿挡不住我护着你。", "en": "My broken leg will not stop me shielding you."},
+        {"zh": "一起面对未来，我的爱人！", "en": "Face the future together, my love!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐肉裹身，脚步声近！", "en": "Rotting flesh, approaching steps!"},
+        {"zh": "地面颤抖，我来了！", "en": "Ground trembles, here I come!"},
+        {"zh": "饥饿难耐，寻找猎物！", "en": "Hunger drives, seeking prey!"},
+        {"zh": "血肉之躯，无法治愈！", "en": "Bite of flesh, cannot be healed!"},
+        {"zh": "腐朽灵魂，不死之夜！", "en": "Corrupted soul, undying night!"},
+        {"zh": "碎骨声中，痛楚难忍！", "en": "Cracking bones, unbearable pain!"},
+        {"zh": "鲜血淋漓，饥渴难耐！", "en": "Gushing blood, starving!"},
+        {"zh": "腐烂肢体，啃噬猎物！", "en": "Decaying limbs, feasting!"},
+        {"zh": "蛆虫滋生，腐肉之王！", "en": "Worms breed, king of decay!"},
+        {"zh": "饥饿如焚，噬人如鬼！", "en": "Hunger burns, feasting like a ghost!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "猎物落入，紧追不舍！", "en": "Prey acquired, relentlessly pursue!"},
+        {"zh": "视野之内，必遭厄运！", "en": "In sight, fate sealed!"},
+        {"zh": "鲜血引路，追击开始！", "en": "Blood trail, chase begins!"},
+        {"zh": "腐肉诱惑，无法抗拒！", "en": "Flesh lure, irresistible!"},
+        {"zh": "猎物颤抖，即将丧命！", "en": "Prey trembling, fate near!"},
+        {"zh": "腐尸苏醒，狩猎开始！", "en": "Rise, hunting begins!"},
+        {"zh": "猎物发现，死神降临！", "en": "Prey found, death comes!"},
+        {"zh": "腐肉之味，不可抵挡！", "en": "Flesh aroma, irresistible!"},
+        {"zh": "猎物逃无可逃，死路一条！", "en": "Nowhere to run, only death!"},
+        {"zh": "腐肉诱惑，吞噬灵魂！", "en": "Flesh lure, soul devoured!"},
+        {"zh": "你跑不过我，这一点要先说清。", "en": "You cannot outrun me; let us be clear."},
+        {"zh": "我不用走，我直接冲。", "en": "I do not walk; I charge."},
+        {"zh": "巷子尽头，我等了很久。", "en": "At the alley's end I have waited long."},
+        {"zh": "你踩碎的那块玻璃，我听见了。", "en": "I heard the glass you broke underfoot."},
+        {"zh": "我跑过废墟，从不看路。", "en": "I run the ruins without watching the ground."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定猎物，撕裂肉身！", "en": "Target locked, rip flesh!"},
+        {"zh": "骨骸交错，致命一击！", "en": "Bones interlock, fatal strike!"},
+        {"zh": "腐肉之下，疼痛难忍！", "en": "Flesh rot, pain unbearable!"},
+        {"zh": "腐烂之躯，无处藏身！", "en": "Decaying flesh, nowhere to hide!"},
+        {"zh": "蛆虫啃噬，痛苦如焚！", "en": "Worms gnaw, burning pain!"},
+        {"zh": "啃咬猎物，腐肉为食！", "en": "Feast on prey, flesh as food!"},
+        {"zh": "致命一击，腐肉俱裂！", "en": "Fatal blow, flesh splits!"},
+        {"zh": "腐肉之王，撕裂敌军！", "en": "King of decay, tear apart!"},
+        {"zh": "腐尸狂怒，撕咬猎物！", "en": "Rage, tear prey!"},
+        {"zh": "蛆虫如刀，撕碎敌肉！", "en": "Worms like knives, tear flesh!"},
+        {"zh": "你离墙三米，我半秒就到。", "en": "Three meters to the wall; I need half a second."},
+        {"zh": "咬伤止不住血，你知道吧。", "en": "A bite will not stop bleeding; you know that."},
+        {"zh": "膝盖一沉，我就要冲了。", "en": "Knees bent — I'm about to charge."},
+        {"zh": "你换方向，我先换。", "en": "You turn; I turn first."},
+        {"zh": "腿断了我也照样追你。", "en": "Broken leg or not, I still chase you."},
+        {"zh": "你喘气的声音，就是路标。", "en": "Your panting is a signpost."},
+        {"zh": "我把你逼到没有转角的地方。", "en": "I drive you where no corner is left."},
+        {"zh": "你还在算距离，我已经在跑。", "en": "You are still measuring; I am already running."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出咯吱声，露出獠牙.", "en": "Squeaks, showing sharp teeth."},
+        {"zh": "挥舞腐烂的手臂，试图抓住你.", "en": "Swings rotting arms, trying to grab you."},
+        {"zh": "痛苦地嘶吼，试图咬住你的腿.", "en": "Screeches in pain, trying to bite your leg."},
+        {"zh": "露出尖牙，张嘴咬向你.", "en": "Shows sharp teeth, opens mouth to bite you."},
+        {"zh": "断腿摇摆，嘶嘶作响.", "en": "Broken leg swings, hissing loudly."},
+        {"zh": "嘶叫着扑向你.", "en": "Screams as it charges at you."},
+        {"zh": "用腐烂的手臂拍打你.", "en": "Slaps at you with its rotting arms."},
+        {"zh": "痛苦地尖叫，咬住你的脚.", "en": "Screams in pain, bites your foot."},
+        {"zh": "发出咯吱声，试图撕咬.", "en": "Squeaks, trying to tear at you."},
+        {"zh": "嘶嘶作响，用力咬你的手臂.", "en": "Hisses, clamping down on your arm."},
+        {"zh": "我从拐角冲出来，撞你胸口。", "en": "I burst from the corner into your chest."},
+        {"zh": "一口咬在你的肩上，撕开。", "en": "I bite your shoulder and tear."},
+        {"zh": "断腿绊住你，我扑上去。", "en": "My broken leg hooks yours; I pounce."},
+        {"zh": "我撞翻垃圾桶，碎片飞向你。", "en": "I knock over a bin; debris flies at you."},
+        {"zh": "你被扑倒时，地面很硬。", "en": "The ground is hard when I bring you down."},
+        {"zh": "我的指甲划过你的护颈。", "en": "My nails scrape your neck guard."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "在墓地的阴影中出现.", "en": "Spawns in the shadows of a cemetery."},
+        {"zh": "在破败的城堡中生成.", "en": "Spawns in a ruined castle."},
+        {"zh": "从附近的尸体内孵化.", "en": "Hatches from a nearby corpse."},
+        {"zh": "在荒凉的平原上出现.", "en": "Spawns on the desolate plains."},
+        {"zh": "在废弃的村庄中生成.", "en": "Spawns in an abandoned village."},
+        {"zh": "从腐烂的树木中生成.", "en": "Spawns from a decaying tree."},
+        {"zh": "在古老的森林中突然出现.", "en": "Spawns suddenly in an ancient forest."},
+        {"zh": "在废弃的矿井中生成.", "en": "Spawns in an abandoned mine."},
+        {"zh": "在荒芜的沼泽中生成.", "en": "Spawns in a desolate swamp."},
+        {"zh": "在无人问津的墓碑旁出现.", "en": "Spawns beside neglected gravestones."},
+        {"zh": "街角忽然有东西站了起来。", "en": "Something at the corner suddenly stands."},
+        {"zh": "一声嘶叫，从废墟里窜出。", "en": "A shriek, and I bolt from the ruins."},
+        {"zh": "我没在走，我在等你转身。", "en": "I am not walking; I wait for you to turn."},
+        {"zh": "尸变的第一刻，腿就有了力。", "en": "At the first moment of turning, my legs found power."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火苗一舔，腐肉就卷起来了。", "en": "One lick of flame and the rotten flesh curls."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从高处摔下，断了腿！", "en": "Fell, broken leg!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进水里，淹死了！", "en": "Drowned, done!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被爆炸炸伤，疼！", "en": "Exploded, it hurts!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被石矢射中，疼！", "en": "Hit by a projectile, it hurts!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被魔法击中，疼！", "en": "Hit by magic, it hurts!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿死了，呜呜...", "en": "Starving to death..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被雷劈中，断了腿！", "en": "Lightning strike, broken leg!"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空扯住我，连尸身也散了。", "en": "The void pulls me apart, corpse and all."}
+      ]
+    }
+  }
+}

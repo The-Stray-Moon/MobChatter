@@ -1,0 +1,260 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爬行如风，无声无息。", "en": "Scurrying silent, swift."},
+        {"zh": "虫之大军，悄无声息。", "en": "Silent swarm advances."},
+        {"zh": "在地上找食，忙碌不停。", "en": "Scouring the ground for food."},
+        {"zh": "四处寻找，不惧黑夜。", "en": "Scouring day and night."},
+        {"zh": "爬行在角落，寻找食物。", "en": "Crawling in corners, seeking food."},
+        {"zh": "黑暗中滑行，寻找美味。", "en": "Sliding in darkness, seeking delicacies."},
+        {"zh": "在垃圾堆中翻找，寻找美味。", "en": "Searching through trash for treats."},
+        {"zh": "在厨房搜寻，寻找食物。", "en": "Searching kitchens for food."},
+        {"zh": "在夜晚寻找食物，无声无息。", "en": "Scouring night, silent."},
+        {"zh": "在裂缝中穿梭，寻找食物。", "en": "Scurrying in cracks, seeking food."},
+        {"zh": "六条腿，贴着墙根跑", "en": "Six legs racing along the baseboard."},
+        {"zh": "触角先探路，身子才跟上", "en": "Antennae scout ahead before the body follows."},
+        {"zh": "三到五只，一起窜出来", "en": "Three to five of us burst out together."},
+        {"zh": "从水管后面绕过来", "en": "It slips around from behind the pipe."},
+        {"zh": "爬过碎砖，一晃就没了", "en": "Over broken brick, gone in a blink."},
+        {"zh": "鞘翅蹭着地面沙沙响", "en": "Wing cases rasp softly on the ground."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴在墙缝里，等人走光。", "en": "I press into the crack and wait for the room to empty."},
+        {"zh": "静止在墙角，默默等待。", "en": "Crouching, awaiting."},
+        {"zh": "躺在暗处，悄无声息。", "en": "Lying still, silent."},
+        {"zh": "在墙缝中静止，耐心等待。", "en": "Stationary in crevices."},
+        {"zh": "在角落里静止，耐心等待。", "en": "Crouching in corners."},
+        {"zh": "躺在垃圾上，默默等待。", "en": "Lying on trash."},
+        {"zh": "在裂缝中静止，等待食物。", "en": "Stationary in cracks, waiting."},
+        {"zh": "在暗处静静等待，寻找机会。", "en": "Crouching, waiting for opportunities."},
+        {"zh": "在地面上静静等待，寻找食物。", "en": "Stationary on ground, seeking food."},
+        {"zh": "在角落里静静等待，寻找食物。", "en": "Crouching, searching for food."},
+        {"zh": "贴在墙缝里，一动不动", "en": "Flat in a wall crack, motionless."},
+        {"zh": "触角轻轻扫着空气", "en": "Antennae brush the air lightly."},
+        {"zh": "缩在瓦砾下面", "en": "Tucked under the rubble."},
+        {"zh": "倒挂着，腿慢慢收拢", "en": "Hanging upside down, legs folding in."},
+        {"zh": "晒不到太阳，也不必晒", "en": "No sun reaches it, and it does not care."},
+        {"zh": "躲在旧柜子的背面", "en": "Hiding behind an old cabinet."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发现了玩家，快速接近。", "en": "Player detected, approaching quickly."},
+        {"zh": "盯紧玩家，伺机而动。", "en": "Eyeing the player, waiting."},
+        {"zh": "注意到了玩家，悄悄靠近。", "en": "Noticing the player, creeping close."},
+        {"zh": "看到了玩家，开始追踪。", "en": "Spotting the player, tracking."},
+        {"zh": "察觉到玩家，悄悄接近。", "en": "Perceiving player, creeping close."},
+        {"zh": "发现玩家，准备攻击。", "en": "Player found, preparing to attack."},
+        {"zh": "你一动，我就往缝里缩。", "en": "If you move, I shrink into a crack."},
+        {"zh": "发现玩家，悄悄接近。", "en": "Player detected, approaching covertly."},
+        {"zh": "我停在你鞋尖前，触角乱晃。", "en": "I stop at your toe, antennae twitching."},
+        {"zh": "看到了玩家，迅速接近。", "en": "Player spotted, approaching swiftly."},
+        {"zh": "触角朝你偏了一下", "en": "Its antennae tilt your way."},
+        {"zh": "停住，用复眼打量你", "en": "It stops and sizes you up with compound eyes."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被压扁了！", "en": "I got squashed!"},
+        {"zh": "我不小心被踩了！", "en": "I stepped on something!"},
+        {"zh": "我被压扁了...", "en": "I got flattened..."},
+        {"zh": "这虫子好硬！", "en": "This one's tough!"},
+        {"zh": "别踩我！", "en": "Don't step on me!"},
+        {"zh": "甲壳裂了，我翻过来蹬腿。", "en": "My shell is cracked; I roll over, legs kicking."},
+        {"zh": "被踩掉半边，我还能爬。", "en": "Half of me is crushed and I still crawl."},
+        {"zh": "我好害怕...", "en": "I'm scared..."},
+        {"zh": "末世里连我也被踩。", "en": "Even in the apocalypse I get stepped on."},
+        {"zh": "外壳裂了，腿还在动", "en": "My shell is cracked, but the legs still move."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "美味的食物近在咫尺！", "en": "Yummy food so close!"},
+        {"zh": "这面包真好吃！", "en": "This bread is delicious!"},
+        {"zh": "厨房里的食物真诱人！", "en": "Food in the kitchen is tempting!"},
+        {"zh": "我得找点吃的了。", "en": "I need to find some food."},
+        {"zh": "这些纸箱里藏着食物。", "en": "There's food in those boxes."},
+        {"zh": "垃圾桶里的食物最多。", "en": "The most food is in the trash."},
+        {"zh": "厨房的面包是我的最爱。", "en": "The bread in the kitchen is my favorite."},
+        {"zh": "我得去找点晚餐。", "en": "I need to find some dinner."},
+        {"zh": "我得小心，别被人发现了。", "en": "Be careful, don't get caught."},
+        {"zh": "这里的食物味道不错。", "en": "The food here tastes good."},
+        {"zh": "碎饼干，够我吃三天", "en": "A crumb of biscuit lasts me three days."},
+        {"zh": "糖罐没盖紧，我闻到了", "en": "The sugar jar was left open; I smelled it."},
+        {"zh": "末日之后，剩饭最香", "en": "After the end, leftovers smell best."},
+        {"zh": "发霉的面包，也是宴席", "en": "Moldy bread is still a feast."},
+        {"zh": "谁掉了一粒米", "en": "Someone dropped a grain of rice."},
+        {"zh": "有油的地方，就有我", "en": "Where there is grease, there am I."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "撞上了一只更大的蟑螂。", "en": "Collided with a larger cockroach."},
+        {"zh": "我的身体撞上了墙壁。", "en": "I hit the wall with my body."},
+        {"zh": "踩到我，算你运气差。", "en": "Stepping on me is your bad luck."},
+        {"zh": "我撞到了箱子上。", "en": "I hit a box."},
+        {"zh": "碰撞让我受伤了。", "en": "The collision hurt me."},
+        {"zh": "我撞到了地板上。", "en": "I hit the floor."},
+        {"zh": "我撞上了一个陷阱。", "en": "I hit a trap."},
+        {"zh": "我撞到了墙上。", "en": "I hit the wall."},
+        {"zh": "我撞上了一个家具。", "en": "I hit a piece of furniture."},
+        {"zh": "撞在你的鞋底上，差点完了", "en": "Hit your sole and nearly ended there."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我沿着墙缝追另一只的触角。", "en": "I follow another's antennae along a wall crack."},
+        {"zh": "我找到了我的配偶。", "en": "I found my mate."},
+        {"zh": "废墟里到处是我们的卵鞘。", "en": "Our egg cases are all over the ruins."},
+        {"zh": "两只蟑螂在墙缝里碰了碰须。", "en": "Two roaches touch antennae in the wall crack."},
+        {"zh": "我得去找我的配偶。", "en": "I need to find my partner."},
+        {"zh": "我们要开始繁殖了。", "en": "We need to start reproducing."},
+        {"zh": "我们是伴侣。", "en": "We are partners."},
+        {"zh": "我找到了我的雌性伴侣。", "en": "I found my female mate."},
+        {"zh": "我找到了我的雄性伴侣。", "en": "I found my male mate."},
+        {"zh": "我找到了我的繁殖伴侣。", "en": "I found my breeding mate."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我举起一块比你指甲还大的饼。", "en": "I lift a crust bigger than your nail."},
+        {"zh": "这里有食物！", "en": "Food here!"},
+        {"zh": "吃东西时间！", "en": "Time to eat!"},
+        {"zh": "美味的食物！", "en": "Yummy food!"},
+        {"zh": "这食物不错！", "en": "Tasty food!"},
+        {"zh": "找食物真不容易！", "en": "Finding food is hard!"},
+        {"zh": "吃点东西填饱肚子！", "en": "Eat something to fill up!"},
+        {"zh": "食物找到了，享用吧！", "en": "Food found, enjoy it!"},
+        {"zh": "碎屑够我吃一整个冬天。", "en": "These crumbs will last me a whole winter."},
+        {"zh": "找点吃的！", "en": "Find something to eat!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "墙角的霉味，我认得。", "en": "That moldy smell in the corner — I know it."},
+        {"zh": "有个目标了！", "en": "Target found!"},
+        {"zh": "废墟的缝里，我闻到了食物。", "en": "In the rubble cracks I smell food."},
+        {"zh": "目标就在附近！", "en": "Target nearby!"},
+        {"zh": "目标已经确定！", "en": "Target identified!"},
+        {"zh": "锁定下一个目标！", "en": "Target next!"},
+        {"zh": "目标在那边！", "en": "Target over there!"},
+        {"zh": "找到一个目标！", "en": "Target found!"},
+        {"zh": "盯上那个目标！", "en": "Target that one!"},
+        {"zh": "你的鞋边，进了我的路线", "en": "Your boot edge is on my route."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咬！咬住它！", "en": "Bite! Get it!"},
+        {"zh": "我朝那块面包屑冲过去。", "en": "I dash at that breadcrumb."},
+        {"zh": "别让它跑了！", "en": "Don’t let it get away!"},
+        {"zh": "咬住它，别松口！", "en": "Hold it, don’t let go!"},
+        {"zh": "快咬住它！", "en": "Bite it quick!"},
+        {"zh": "咬住它，别放手！", "en": "Hold it, don’t let go!"},
+        {"zh": "咬它，咬住它！", "en": "Bite it, hold it!"},
+        {"zh": "咬住它，别放掉！", "en": "Bite it, don’t let go!"},
+        {"zh": "咬住它，别松开！", "en": "Bite it, don’t let go!"},
+        {"zh": "咬住它，咬住它！", "en": "Bite it, hold it!"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，我要咬你！", "en": "Sssss, I'm gonna bite you!"},
+        {"zh": "我的触角先碰到你的鞋底。", "en": "My antennae touch your boot sole first."},
+        {"zh": "大颚一合，壳比石头硬。", "en": "Jaws snap — my shell beats stone."},
+        {"zh": "疼！放开我！", "en": "Ouch! Let go of me!"},
+        {"zh": "快走开，不然我咬你！", "en": "Go away, or I'll bite you!"},
+        {"zh": "咬你一口，怎么样！", "en": "A bite, how does that sound!"},
+        {"zh": "你尝尝我的味道！", "en": "Taste my flavor!"},
+        {"zh": "躲远点，不然我咬！", "en": "Stay back, or I'll bite!"},
+        {"zh": "别逼我动手！", "en": "Don't逼me to act!"},
+        {"zh": "我钻进你的背包缝里了。", "en": "I've slipped into the seam of your pack."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑夜给了我黑色的眼睛。", "en": "Night gave me black eyes."},
+        {"zh": "废墟里的碎屑，全是我的。", "en": "Every crumb in this ruin is mine."},
+        {"zh": "我来了，享受你的晚餐。", "en": "Here I come, for your dinner."},
+        {"zh": "食物的味道真不错。", "en": "The food tastes good."},
+        {"zh": "终于找到一个安静的地方。", "en": "Finally found a quiet place."},
+        {"zh": "夜晚才是我的舞台。", "en": "Night is my stage."},
+        {"zh": "废墟的裂缝里，我爬了出来。", "en": "I crawl out of a crack in the ruins."},
+        {"zh": "黑暗是最好的掩护。", "en": "Darkness is the best cover."},
+        {"zh": "这里的食物很充足。", "en": "There's plenty of food here."},
+        {"zh": "这里是我的新家。", "en": "This is my new home."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被火烧了！", "en": "I got burned!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "六条腿朝天，我翻不过来了。", "en": "Six legs in the air, I can't right myself."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被水淹了...", "en": "I drowned..."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被炸到了...", "en": "I got exploded..."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被投射物击中了...", "en": "I got hit by a projectile..."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "末世里我什么都能吃。", "en": "At the end of the world, I eat anything."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我没吃东西...", "en": "I haven't eaten..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被雷击了...", "en": "I got struck by lightning..."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉入了虚无...", "en": "I fell into the void..."}
+      ]
+    }
+  }
+}

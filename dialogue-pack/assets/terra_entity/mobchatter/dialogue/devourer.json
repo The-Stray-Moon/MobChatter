@@ -1,0 +1,256 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的节在地下推土。", "en": "My segments shove the soil along."},
+        {"zh": "身子很长，弯一下就够。", "en": "My body is long. One bend is enough."},
+        {"zh": "我从土里钻出来，又钻回去。", "en": "I come out of the earth and go back in."},
+        {"zh": "这一路被我钻出一条道。", "en": "I bore a channel as I go."},
+        {"zh": "我的节在扭。", "en": "My segments twist."},
+        {"zh": "我不走地上，我走地下。", "en": "I do not travel on the ground. I travel under it."},
+        {"zh": "沙粒从我节缝里滑走。", "en": "Grains slide away between my segments."},
+        {"zh": "我拐了个弯，很慢。", "en": "I take a bend, slowly."},
+        {"zh": "我把头探出来看看。", "en": "I poke my head out to look."},
+        {"zh": "我的身子还在后头。", "en": "The rest of me is still behind."},
+        {"zh": "我贴着基岩上方走。", "en": "I travel just above the bedrock."},
+        {"zh": "土一松，我就钻得快。", "en": "When the soil is loose, I bore quickly."},
+        {"zh": "我一路抖着往前走。", "en": "I shudder forward."},
+        {"zh": "我留下一个圆洞。", "en": "I leave a round hole behind."},
+        {"zh": "我又往上钻了一点。", "en": "I rise a little."},
+        {"zh": "我的尾巴最后才出来。", "en": "My tail comes out last."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把头探出地面。", "en": "I put my head above ground."},
+        {"zh": "我一动不动，像根管子。", "en": "I stay still, like a pipe."},
+        {"zh": "我在听上面的脚步。", "en": "I listen to footsteps above."},
+        {"zh": "土里的味道很闷。", "en": "The smell in the soil is close."},
+        {"zh": "我盘了一圈。", "en": "I coil once."},
+        {"zh": "我的节一直在轻轻动。", "en": "My segments keep shifting slightly."},
+        {"zh": "我埋在温土里歇着。", "en": "I rest buried in the warm earth."},
+        {"zh": "我把头抬起来又放下。", "en": "I lift my head, then lower it."},
+        {"zh": "我在等一个落地的声音。", "en": "I wait for the sound of a landing."},
+        {"zh": "我的牙在转。", "en": "My teeth are turning."},
+        {"zh": "上面很安静。", "en": "It is quiet above."},
+        {"zh": "我把头藏进泥里。", "en": "I tuck my head into the mud."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的脚在我头顶。", "en": "Your feet are over my head."},
+        {"zh": "我听得见你。", "en": "I hear you."},
+        {"zh": "你站的那块土，很薄。", "en": "The soil under you is thin."},
+        {"zh": "我从土里探出前节。", "en": "I poke my front segments out of the soil."},
+        {"zh": "你的每一步我都数着。", "en": "I count every step you take."},
+        {"zh": "你不知道我在这下面。", "en": "You do not know I am down here."},
+        {"zh": "你踩下去的时候要小心。", "en": "Be careful where you step."},
+        {"zh": "我这一身，比看起来长。", "en": "I am longer than I look."},
+        {"zh": "你的脚步声远了。", "en": "Your footsteps are moving off."},
+        {"zh": "你已经来不及。", "en": "Too late for you."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我扭了一下，退开。", "en": "I twisted and pulled back."},
+        {"zh": "有一节被打断了。", "en": "A segment was struck."},
+        {"zh": "我往土里缩。", "en": "I withdraw into the soil."},
+        {"zh": "土里进了血味。", "en": "The smell of blood is in the soil."},
+        {"zh": "我的节缩成一团。", "en": "My segments curl into a knot."},
+        {"zh": "这一下，让我慢下来。", "en": "That slowed me."},
+        {"zh": "我卷成了一圈。", "en": "I coil myself into a ring."},
+        {"zh": "我在地上仍能拱。", "en": "I can still push along the ground."},
+        {"zh": "断一节我照样钻。", "en": "Lose a segment and I still burrow."},
+        {"zh": "我可记住了。", "en": "I will remember."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那是虫子吗。", "en": "Is that a worm?"},
+        {"zh": "落到地上的，我不吃。", "en": "I don't eat what has touched the ground."},
+        {"zh": "我看你挂的肉太小。", "en": "The meat you dangle is too small for me."},
+        {"zh": "你捏着它，我就等着。", "en": "Hold it there and I'll wait."},
+        {"zh": "那东西会动。", "en": "That thing is moving."},
+        {"zh": "我朝那声音游过去。", "en": "I worm toward that sound."},
+        {"zh": "连一滴都不够我舔。", "en": "I wouldn't get a single drop from that."},
+        {"zh": "你手别伸太低。", "en": "Do not lower your hand."},
+        {"zh": "我闻到土里渗进血味。", "en": "I smell blood seeping into the soil."},
+        {"zh": "已经太迟了。", "en": "Too late."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踩塌了我上头的土。", "en": "You caved in the soil above me."},
+        {"zh": "我整条扭了一下。", "en": "My whole length twisted."},
+        {"zh": "我把你脚下的土顶鼓。", "en": "I push the soil up under your feet."},
+        {"zh": "你踩陷了我头顶的土。", "en": "You've caved in the soil above me."},
+        {"zh": "我被你踩住了。", "en": "You pinned me down."},
+        {"zh": "我挣脱出来了。", "en": "I pull free."},
+        {"zh": "我的节都挤在一起。", "en": "My segments are all bunched."},
+        {"zh": "你又踩了一次。", "en": "You stepped again."},
+        {"zh": "我从你脚边绕开。", "en": "I slip away past your feet."},
+        {"zh": "不再从这儿走。", "en": "Not this way again."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我们缠在一起。", "en": "We coil together."},
+        {"zh": "它比我短一截。", "en": "It is a length shorter than I."},
+        {"zh": "土里没有别人。", "en": "There is no one else in the soil."},
+        {"zh": "我们的节互相抵着。", "en": "Our segments press together."},
+        {"zh": "这样缠了很久。", "en": "We stay coiled a long while."},
+        {"zh": "然后慢慢松开。", "en": "Then we slowly loosen."},
+        {"zh": "各钻各的方向。", "en": "Each bores its own way."},
+        {"zh": "土又合上了。", "en": "The soil closes again."},
+        {"zh": "土里很安静。", "en": "It is quiet in the soil."},
+        {"zh": "它已经钻走。", "en": "It has crawled off."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我撞上个硬家伙。", "en": "I bump into something hard."},
+        {"zh": "我含了一下又吐了。", "en": "I hold it a moment, then spit it out."},
+        {"zh": "太硬，吐出来。", "en": "Too hard. I spit it out."},
+        {"zh": "它在我节间卡着。", "en": "It is stuck between my segments."},
+        {"zh": "我把它顶到地上。", "en": "I push it up to the surface."},
+        {"zh": "这个吞不下。", "en": "This will not go down."},
+        {"zh": "谁丢在这儿的。", "en": "Who left this here?"},
+        {"zh": "我把它带下去。", "en": "I will take it below."},
+        {"zh": "它太沉，我甩掉了。", "en": "Too heavy, so I shake it off."},
+        {"zh": "那就算了不要。", "en": "Then forget it."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我听到你落地了。", "en": "I heard you land."},
+        {"zh": "它就在我上面。", "en": "It is right above me."},
+        {"zh": "我抬头钻上去。", "en": "I bore upward."},
+        {"zh": "土开始动了。", "en": "The soil is moving."},
+        {"zh": "你脚下有声音。", "en": "There is a sound under your feet."},
+        {"zh": "我已经锁定它。", "en": "Locked on."},
+        {"zh": "这一下，从下面来。", "en": "This comes from below."},
+        {"zh": "你来不及退。", "en": "No time to back off."},
+        {"zh": "我拱得更急了。", "en": "I burrow faster now."},
+        {"zh": "我已经破土。", "en": "I break the surface."},
+        {"zh": "土皮松了，我这就冲。", "en": "The crust is loose, so I charge."},
+        {"zh": "你一点别动。", "en": "Do not move."},
+        {"zh": "这一口，冲你的脚踝。", "en": "This bite is for your ankle."},
+        {"zh": "土已经松了。", "en": "The soil is already loose."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在你脚下绕圈。", "en": "I circle beneath your feet."},
+        {"zh": "你已经退了一步。", "en": "You have already taken a step back."},
+        {"zh": "土在往下陷。", "en": "The soil is sinking."},
+        {"zh": "我把地面顶松了。", "en": "I have loosened the ground."},
+        {"zh": "我往上又钻了一点。", "en": "I bore up a little more."},
+        {"zh": "我在你脚下响着。", "en": "I'm rasping under your feet."},
+        {"zh": "我在你脚底下一寸。", "en": "I'm an inch beneath your soles."},
+        {"zh": "你再走一步就踩空。", "en": "One more step and you fall through."},
+        {"zh": "就是这儿了。", "en": "Right here."},
+        {"zh": "我升上来了。", "en": "I rise."},
+        {"zh": "我把口张开。", "en": "I open wide."},
+        {"zh": "我钻破了地皮。", "en": "I burst the crust."},
+        {"zh": "我整条绷成一条线。", "en": "I pull myself straight as a line."},
+        {"zh": "你站的地方在往下沉。", "en": "The ground you stand on is sinking."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从地下冲出来。", "en": "I burst up from below."},
+        {"zh": "我的口环扣住脚踝。", "en": "My ring of teeth clamps your ankle."},
+        {"zh": "整条缠上去了。", "en": "My whole length wraps around."},
+        {"zh": "你被拖倒了。", "en": "You are dragged down."},
+        {"zh": "这一下，土都翻起来。", "en": "That turned the soil over."},
+        {"zh": "我的牙钉进你的腿。", "en": "My teeth sink into your leg."},
+        {"zh": "你又踢又打。", "en": "You kick and strike."},
+        {"zh": "我松开一段。", "en": "I loosen a length."},
+        {"zh": "我又缠了上去。", "en": "Then I coil on again."},
+        {"zh": "我把头又埋回土中。", "en": "I bury my head in the dirt again."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我顶开了一层泥皮。", "en": "I push up through a crust of mud."},
+        {"zh": "我一推这层土就开。", "en": "This soil opens at one push from me."},
+        {"zh": "我先钻一圈。", "en": "First I bore a circle."},
+        {"zh": "四处都是岩石的味道。", "en": "Everything smells of rock."},
+        {"zh": "我把身子盘起来。", "en": "I coil my body."},
+        {"zh": "我上面有光。", "en": "There is light above."},
+        {"zh": "我的节一节一节出来。", "en": "My segments come out one by one."},
+        {"zh": "这地方很深。", "en": "This place is deep."},
+        {"zh": "我开始往上。", "en": "I start upward."},
+        {"zh": "土盖住了我。", "en": "The soil covers me."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火一烤，我的节就卷。", "en": "The heat curls my segments."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔下来，节全乱了。", "en": "I fall and my segments tangle."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进我的节缝。", "en": "Water fills the gaps between my segments."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸开时我整条被掀翻。", "en": "The blast flips my whole length."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一根东西穿过我的身子。", "en": "Something passed through my body."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的节一下僵了。", "en": "My segments have gone rigid."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "土里没什么可吃。", "en": "There is little to eat in the soil."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打进土里，我整条一颤。", "en": "Lightning hits the soil and I jolt."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在玄武岩三角洲的缝里钻。", "en": "I burrow through Basalt Delta seams."}
+      ]
+    }
+  }
+}

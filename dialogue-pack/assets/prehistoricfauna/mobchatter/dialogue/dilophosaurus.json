@@ -1,0 +1,245 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我压着头走，脖子伸向前", "en": "Head low, I push my neck forward."},
+        {"zh": "两片红冠在光里很显眼", "en": "The two red crests show clearly in the light."},
+        {"zh": "三趾踩着干裂的红土", "en": "Three toes cross cracked red earth."},
+        {"zh": "这是我每天巡视的界线", "en": "This is the boundary I walk each day."},
+        {"zh": "我不跑，我慢慢逼近", "en": "I do not run; I close in slowly."},
+        {"zh": "尾巴平着，扫开矮草", "en": "Tail level, I sweep the low grass."},
+        {"zh": "我在岩柱之间穿行", "en": "I move between the rock pillars."},
+        {"zh": "脚下的碎石滚下去", "en": "Gravel rolls away under my step."},
+        {"zh": "我停了一下，听风向", "en": "I pause to read the wind."},
+        {"zh": "旱地的热气从地面升起来", "en": "Heat rises off the dry ground."},
+        {"zh": "我沿着巢的边缘走", "en": "I walk the edge of the nest."},
+        {"zh": "我的爪子在地面留痕", "en": "My claws leave marks."},
+        {"zh": "步幅很大，但没什么声音", "en": "Long strides, but little sound."},
+        {"zh": "我绕过一丛枯草", "en": "I go around a clump of dry grass."},
+        {"zh": "我在旱地上走成一条直线", "en": "I walk a straight line across dry ground."},
+        {"zh": "脚掌落下去，尘土跳起来", "en": "My foot lands and dust jumps."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，红冠对着太阳", "en": "I stand with my crests to the sun."},
+        {"zh": "巢里有动静，我回头", "en": "A stir in the nest; I turn."},
+        {"zh": "我站着，红冠对着太阳。", "en": "I stand with my red crest toward the sun."},
+        {"zh": "我张嘴，露出牙", "en": "I open my jaws and show my teeth."},
+        {"zh": "风把沙吹进我的鳞缝", "en": "Wind drives sand into my scales."},
+        {"zh": "我不睡熟，只闭一眼", "en": "I do not sleep deeply; one eye closes."},
+        {"zh": "枯木上有一道旧抓痕", "en": "An old claw mark on the dead wood."},
+        {"zh": "我在听地下的动静", "en": "I listen for movement underground."},
+        {"zh": "孤峰的影子慢慢移", "en": "The butte's shadow creeps along."},
+        {"zh": "远处有一群小东西", "en": "A group of small things far off."},
+        {"zh": "我保护我的巢", "en": "I guard my nest."},
+        {"zh": "我的呼吸很长", "en": "My breathing is long."},
+        {"zh": "我低着头，像在打量地面", "en": "Head down, as if studying the ground."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你走进了我的边界", "en": "You have entered my boundary."},
+        {"zh": "红冠立起来了", "en": "My crests have risen."},
+        {"zh": "你站的地方是我的巡路", "en": "You stand on my patrol path."},
+        {"zh": "这一片旱地我熟", "en": "I know this dry land."},
+        {"zh": "我看着你的膝弯", "en": "I am looking at the back of your knee."},
+        {"zh": "我的巢在那边", "en": "My nest is over there."},
+        {"zh": "我没打算叫出声", "en": "I do not mean to call."},
+        {"zh": "这片孤峰归我，你的目光也算越界。", "en": "These buttes are mine — even your gaze trespasses."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我嘶了一声，侧开身", "en": "I hiss and turn my flank away."},
+        {"zh": "鳞片被掀起来了", "en": "A scale is torn up."},
+        {"zh": "这一下让我退了半身", "en": "That pushed me back half a body."},
+        {"zh": "我甩头，血溅在地上", "en": "I shake my head; blood hits the ground."},
+        {"zh": "我压低重心护住腹", "en": "I drop low to guard my belly."},
+        {"zh": "疼让我变得更凶", "en": "Pain makes me fiercer."},
+        {"zh": "我依然能站住", "en": "I can still hold my ground."},
+        {"zh": "你打得比看起来重", "en": "You hit harder than you look."},
+        {"zh": "我喘了一口，沙进了嘴", "en": "I gasp, and sand gets in my jaws."},
+        {"zh": "我记下了你的位置", "en": "I have your position marked."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "肉的味道，我认得", "en": "Meat. I know that smell."},
+        {"zh": "沙漠的干林里，我巡这片。", "en": "I patrol this dry desert woodland."},
+        {"zh": "扔过来，别站着不动", "en": "Throw it over; do not just stand."},
+        {"zh": "我可不吃腐肉", "en": "I do not eat carrion."},
+        {"zh": "我的巢里还有小的", "en": "There are young in my nest."},
+        {"zh": "你退开，我再过去", "en": "Back away, then I will come."},
+        {"zh": "这一块还算可以", "en": "This piece will do."},
+        {"zh": "我不抢你手里的", "en": "I will not snatch from your hand."},
+        {"zh": "生肉比什么都实在", "en": "Raw meat is more honest than anything."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我胸口一顶，你退了", "en": "My chest shoves you back."},
+        {"zh": "我的骨头比你想的重", "en": "My bones are heavier than you think."},
+        {"zh": "这一下撞掉了我一片鳞", "en": "That knocked a scale loose."},
+        {"zh": "我们在窄道上挤住了", "en": "We are wedged in the narrow pass."},
+        {"zh": "我抬脚，踩在你旁边", "en": "I set my foot beside you."},
+        {"zh": "碎石被踩得乱飞", "en": "Gravel scatters underfoot."},
+        {"zh": "我没打算伤你", "en": "I did not mean to hurt you."},
+        {"zh": "别从侧面贴过来", "en": "Do not press in at my flank."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的巢就在这里", "en": "The nest is right here."},
+        {"zh": "我们轮流守着", "en": "We take turns guarding."},
+        {"zh": "两副红冠并在一起", "en": "Two pairs of crests side by side."},
+        {"zh": "这片地够我们养小的", "en": "This ground can raise our young."},
+        {"zh": "我不争斗，我只示强", "en": "I do not fight; I display."},
+        {"zh": "她比我快，我让着", "en": "She is quicker; I yield."},
+        {"zh": "叫声很短，够用", "en": "One short call is enough."},
+        {"zh": "旱季要一起熬", "en": "We must last the dry season together."},
+        {"zh": "我们守同一圈边界", "en": "We hold the same boundary."},
+        {"zh": "幼崽跟着我们走", "en": "The young follow us."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我低头嗅了嗅", "en": "I lower my head and sniff."},
+        {"zh": "不是肉，我不动它", "en": "Not meat; I leave it."},
+        {"zh": "一口咬住，甩头", "en": "I bite and shake my head."},
+        {"zh": "它压在我爪下", "en": "It is pinned under my claw."},
+        {"zh": "这东西实在太硬", "en": "This thing is too hard."},
+        {"zh": "我一脚把它踢开", "en": "I kick it aside."},
+        {"zh": "掉在巢边的归我", "en": "What falls by the nest is mine."},
+        {"zh": "没味道，我丢了", "en": "No smell; I drop it."},
+        {"zh": "小的会玩这个", "en": "The young ones would play with this."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你还在我的地上", "en": "You are still on my ground."},
+        {"zh": "我锁定了你的侧腰", "en": "I have your flank."},
+        {"zh": "这一步我不退了", "en": "I will not yield this step."},
+        {"zh": "你离我的巢太近了", "en": "You are too near my nest."},
+        {"zh": "红冠是我的警告", "en": "The crests are my warning."},
+        {"zh": "我的领地画到那块石", "en": "My territory runs to that stone."},
+        {"zh": "你先抬起了手", "en": "You raised your hand first."},
+        {"zh": "我出手会很快", "en": "I strike fast."},
+        {"zh": "你背对着我的巢", "en": "You have your back to the nest."},
+        {"zh": "我会一直跟着你", "en": "I will follow you."},
+        {"zh": "我只会数到三", "en": "I count to three."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴着你的侧后", "en": "I keep to your rear flank."},
+        {"zh": "你每走一步都在我的地上", "en": "Every step is on my ground."},
+        {"zh": "沙地上有你的印", "en": "Your prints are in the sand."},
+        {"zh": "我不用快，我用角度", "en": "I need no speed; I use angles."},
+        {"zh": "你的膝弯一直露着", "en": "The back of your knee stays open."},
+        {"zh": "石柱那边是死路", "en": "Beyond the pillar is a dead end."},
+        {"zh": "你退得越深，越靠近巢", "en": "The deeper you retreat, the closer to my nest."},
+        {"zh": "风一直吹向你", "en": "The wind keeps blowing toward you."},
+        {"zh": "我不叫，同伴也不会来", "en": "I do not call, and no pack comes."},
+        {"zh": "我等的就是你转身", "en": "I wait for you to turn."},
+        {"zh": "旱地上尘土会动", "en": "Dust moves on dry ground."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一口咬在你的腿上", "en": "I bite into your leg."},
+        {"zh": "爪子先按住你", "en": "My claws pin you first."},
+        {"zh": "这一口冲着侧腹", "en": "This bite goes for the flank."},
+        {"zh": "我用头撞你的胸口", "en": "I butt your chest."},
+        {"zh": "甩头撕开一道口子", "en": "A head wrench opens a gash."},
+        {"zh": "脚趾踢起沙土", "en": "My toes kick sand up."},
+        {"zh": "我踩着你的盾往上", "en": "I climb your shield with my feet."},
+        {"zh": "你挡住了，牙滑开了", "en": "You blocked; my teeth skidded."},
+        {"zh": "我退开，重新压低", "en": "I break off and drop low again."},
+        {"zh": "这一击带着全身的重量", "en": "That one carried my whole weight."},
+        {"zh": "你用武器挡，牙会疼", "en": "Block with that and my teeth will ache."},
+        {"zh": "我的尾巴扫过你的脚", "en": "My tail sweeps your feet."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从孤峰的影子里出来", "en": "I come out of the butte's shadow."},
+        {"zh": "红土上的热气扭曲了远处", "en": "Heat haze warps the distance."},
+        {"zh": "我先走上石柱旁的界线", "en": "First I walk the stone boundary."},
+        {"zh": "巢里有小的在叫", "en": "The young are calling in the nest."},
+        {"zh": "我抖了抖脖子上的沙", "en": "I shake the sand from my neck."},
+        {"zh": "两片红冠在光里发热", "en": "My crests warm in the light."},
+        {"zh": "这片旱地又归我巡了", "en": "This dry land is mine to patrol again."},
+        {"zh": "我低头闻了闻旧脚印", "en": "I sniff the old prints."},
+        {"zh": "风把尘土吹成一条线", "en": "Wind draws the dust into a line."},
+        {"zh": "远处的干树没有叶子", "en": "The dead trees bear no leaves."},
+        {"zh": "我站了一会儿才走动", "en": "I stand a while before moving."},
+        {"zh": "领地里没有别的大家伙", "en": "No other big thing in my territory."},
+        {"zh": "我张开嘴，散散热", "en": "I open my jaws to shed heat."},
+        {"zh": "喉咙里有一声低响", "en": "A low sound in my throat."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎过我的冠，很疼", "en": "Fire scorches my crest, and it hurts."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从岩柱上跌下来", "en": "I fall from the rock pillar."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "巨响把我掀翻在红土上", "en": "The blast throws me onto the red earth."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一根箭扎进我颈后的皮。", "en": "An arrow lodges in the skin behind my neck."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股力量顺着鳞片进去了", "en": "That force slips in along my scales."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得我连枯草都咬", "en": "Hungry enough to bite dry grass."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "旱地上落雷，我全身僵住", "en": "Lightning on dry ground and I lock up."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下没有土，我抓不住", "en": "No earth underfoot; nothing to grip."}
+      ]
+    }
+  }
+}

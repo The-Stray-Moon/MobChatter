@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嚎叫着穿梭林间", "en": "Howls through the forest"},
+        {"zh": "舔着锋利的爪子", "en": "Licks sharp claws"},
+        {"zh": "扑向猎物", "en": "Bolts toward prey"},
+        {"zh": "我踏碎一根枯枝，声音很响。", "en": "I snap a dead branch, loud as a shot."},
+        {"zh": "在雪地留下爪痕", "en": "Leaves claw marks in snow"},
+        {"zh": "咬碎猎物骨骼", "en": "Crunches bones"},
+        {"zh": "嗅探周围的气息", "en": "Sniffs the air"},
+        {"zh": "啃食腐肉", "en": "Eats carrion"},
+        {"zh": "发出警告的嚎叫", "en": "Releases warning howls"},
+        {"zh": "冲向村庄的灯火", "en": "Charges toward village lights"},
+        {"zh": "四爪陷进雪里，一蹬就走。", "en": "My paws sink in snow, then push off."},
+        {"zh": "我沿着村庄的篱笆绕圈。", "en": "I circle along the village fence."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "慵懒地舔毛", "en": "Licks its fur lazily"},
+        {"zh": "针叶林尽头，有围栏和灯。", "en": "Past the conifers: fences and lights."},
+        {"zh": "我蹲在村口的石头上，数人。", "en": "On the village stone, I count the people."},
+        {"zh": "磨尖它的牙齿", "en": "Sharpens its teeth"},
+        {"zh": "四肢伸开，脊背弓起。", "en": "Limbs stretched, spine arched."},
+        {"zh": "啃咬树枝", "en": "Bites at a branch"},
+        {"zh": "舔着伤口", "en": "Licks a wound"},
+        {"zh": "享受孤独", "en": "Enjoys solitude"},
+        {"zh": "舔食掉落的果实", "en": "Eats fallen fruit"},
+        {"zh": "回味战斗", "en": "Mulls over the fight"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你身上的铁味，隔着树就闻到。", "en": "I smell the iron on you through the trees."},
+        {"zh": "针叶林里，我站得比你高。", "en": "In the pines, I stand taller than you."},
+        {"zh": "月光下，我比狼更像狼。", "en": "Under the moon I'm wolf and worse."},
+        {"zh": "针叶林里，我的爪子先动。", "en": "In the pine forest, my claws move first."},
+        {"zh": "跟踪玩家的移动", "en": "Tracks the player's movements"},
+        {"zh": "感受玩家的气息", "en": "Tastes the player's scent"},
+        {"zh": "对玩家虎视眈眈", "en": "Glares at the player"},
+        {"zh": "警告玩家", "en": "Warns the player"},
+        {"zh": "我嘴边的毛还挂着血。", "en": "Blood still clings to the fur by my mouth."},
+        {"zh": "我压低身子，慢慢蹭近。", "en": "I lower my body and inch closer."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嚎叫着倒下", "en": "Howling in pain"},
+        {"zh": "我倒在松针上，爪子还在扒。", "en": "I fall on pine needles, claws still scraping."},
+        {"zh": "嗷嗷直叫", "en": "Grunting in pain"},
+        {"zh": "凄厉惨叫", "en": "Yelping in agony"},
+        {"zh": "凄厉号叫", "en": "Yelling in pain"},
+        {"zh": "这一声惨叫，能让整个村子听见。", "en": "This howl will carry to the whole village."},
+        {"zh": "我这一声嚎，叫来了整片针叶林。", "en": "One howl and the whole taiga answers."},
+        {"zh": "肋骨断了一根，我照样龇牙。", "en": "A rib is broken; I still bare my teeth."},
+        {"zh": "狼嚎声中倒下", "en": "Howling in agony and falling"},
+        {"zh": "疼得我嚎了半声", "en": "The pain cuts my howl in half"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低吼示威，肉块唾手可得。", "en": "Growl low, meat is within reach."},
+        {"zh": "村庄的气息，勾起我的兽欲。", "en": "The village scent stirs my beast's desire."},
+        {"zh": "猎物就在眼前，饥肠辘辘。", "en": "The prey is here, my stomach growls."},
+        {"zh": "月光下，我的獠牙更显锋利。", "en": "Under the moon, my fangs gleam sharper."},
+        {"zh": "腐肉，我的饥饿渴望。", "en": "Decaying flesh, my hunger craves."},
+        {"zh": "靠近，成为我的晚餐。", "en": "Come close, be my meal."},
+        {"zh": "血腥的诱惑，无法抗拒。", "en": "The blood's allure is irresistible."},
+        {"zh": "夜风中，传来猎物的味道。", "en": "The night breeze carries the prey's scent."},
+        {"zh": "饥饿的嚎叫，回荡在针叶林。", "en": "The howl of hunger echoes through the conifer forest."},
+        {"zh": "我的猎物，只能是血肉。", "en": "My prey is only flesh and blood."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "突袭！你的末日来了。", "en": "Ambush! Your end is here."},
+        {"zh": "撞击后退，寻找下一个目标。", "en": "Collide, retreat, find the next target."},
+        {"zh": "撞飞你，让我品尝你的肉。", "en": "Knock you down, savor your flesh."},
+        {"zh": "猛烈撞击，粉碎你的骨骼。", "en": "Ram with force, shatter your bones."},
+        {"zh": "冲撞中寻找破绽，一击致命。", "en": "Find the weakness in the collision, a single hit to kill."},
+        {"zh": "撞击敌人，粉碎他们的希望。", "en": "Collide with foes, crush their hope."},
+        {"zh": "你的身体不够坚硬，撞得粉碎。", "en": "Your body's not hard enough, it shatters."},
+        {"zh": "碰撞是战斗的一部分，感受力量。", "en": "Collision is part of the fight, feel the power."},
+        {"zh": "用力撞击，直到他们倒下。", "en": "Collide forcefully until they fall."},
+        {"zh": "每一次撞击都让他们更接近灭亡。", "en": "Each collision brings them closer to their demise."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找到雌性，繁衍后代。", "en": "Find the female, procreate."},
+        {"zh": "争夺雌性，战斗开始。", "en": "Battle for the female, it begins."},
+        {"zh": "雌性的气味，诱惑我交配。", "en": "The female's scent, it tempts me to mate."},
+        {"zh": "找到雌性，才能延续血脉。", "en": "Find the female to continue the bloodline."},
+        {"zh": "雌性，是我的伴侣和猎物。", "en": "The female, my mate and prey."},
+        {"zh": "为了后代，我要战斗到底。", "en": "For the offspring, I fight to the end."},
+        {"zh": "雌性，我的生命之源。", "en": "The female, my life source."},
+        {"zh": "与雌性交配，确保种族不灭。", "en": "Mate with the female, ensure the race's survival."},
+        {"zh": "雌性的声音，唤起我的渴望。", "en": "The female's voice, it stirs my desire."},
+        {"zh": "繁衍后代，是狼人的使命。", "en": "Procreate, it's the werewolf's duty."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咆哮着露出尖牙。", "en": "Roars, showing sharp fangs."},
+        {"zh": "盯上你，准备袭击。", "en": "Locks eyes, ready to attack."},
+        {"zh": "村里的牲畜，比我的牙软。", "en": "Village livestock are softer than my teeth."},
+        {"zh": "狼嚎宣告领地。", "en": "Howls to claim territory."},
+        {"zh": "舔舐伤口，恢复活力。", "en": "Licks wounds to regain strength."},
+        {"zh": "啃食野兽尸体。", "en": "Feasts on beast carrion."},
+        {"zh": "在月光下嚎叫。", "en": "Howls under moonlight."},
+        {"zh": "追踪猎物的气味。", "en": "Tracks prey by scent."},
+        {"zh": "用爪子挖掘地面。", "en": "Scratches the ground with claws."},
+        {"zh": "啃咬树皮，磨尖牙齿。", "en": "Bites bark to sharpen fangs."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定了猎物。", "en": "Locks onto prey."},
+        {"zh": "注视着村庄。", "en": "Stares at the village."},
+        {"zh": "嗅到了新鲜血液。", "en": "Smells fresh blood."},
+        {"zh": "针叶林的雪，留了我的爪印。", "en": "My claw marks run through the taiga snow."},
+        {"zh": "向村庄进发。", "en": "Advances toward the village."},
+        {"zh": "村里飘来的炊烟，我闻见了。", "en": "I smell the cooking smoke from the village."},
+        {"zh": "发出警告的嚎叫。", "en": "Howls a warning."},
+        {"zh": "你的脚印在雪泥里，很深。", "en": "Your tracks sink deep in the slush."},
+        {"zh": "寻找猎物的迹象。", "en": "Scents prey signs."},
+        {"zh": "锁定猎物的气味。", "en": "Locks onto prey scent."},
+        {"zh": "人类的火光太亮了。", "en": "The humans' firelight is too bright."},
+        {"zh": "针叶林里我闻到了羊。", "en": "I smell sheep in the pines."},
+        {"zh": "篱笆挡不住跳过去的我。", "en": "A fence won't stop what can jump it."},
+        {"zh": "月出来了，我不用藏了。", "en": "The moon is out. I stop hiding."},
+        {"zh": "你身上的皮革味我记住了。", "en": "I have your leather scent now."},
+        {"zh": "这一户的灯该灭了。", "en": "That window's light should go out."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我绕到下风口，不让你闻见。", "en": "I circle downwind so you cannot smell me."},
+        {"zh": "向你扑来。", "en": "Pounces on you."},
+        {"zh": "准备撕裂你的喉咙。", "en": "Preparing to tear your throat."},
+        {"zh": "紧咬不放。", "en": "Holds tight."},
+        {"zh": "用爪子抓住你。", "en": "Grasps you with claws."},
+        {"zh": "攻击你的弱点。", "en": "Attacks your weakness."},
+        {"zh": "狠狠地咬你一口。", "en": "Bites you hard."},
+        {"zh": "用利爪撕裂你的肉。", "en": "rips flesh with claws."},
+        {"zh": "攻击你的头部。", "en": "Attacks your head."},
+        {"zh": "猛扑向你。", "en": "Pounces on you."},
+        {"zh": "四条腿把我撑得比你还高。", "en": "Four legs hold me taller than you."},
+        {"zh": "你身后就是村口的木墙。", "en": "Back to the wall, and you are cornered."},
+        {"zh": "我的鼻尖贴到你袖口。", "en": "My snout is at your sleeve."},
+        {"zh": "我转到风的下游，闻你更清。", "en": "I move to your downwind side."},
+        {"zh": "牙已经露出来，别装看不见。", "en": "My teeth are bare. Don't pretend not to see."},
+        {"zh": "你举火把的手抖了一下。", "en": "Your torch just wavered."},
+        {"zh": "雪地上的脚印只剩一条。", "en": "Only one trail is left in the snow."},
+        {"zh": "我不叫了，那才是坏事。", "en": "I stopped howling. That is the bad sign."},
+        {"zh": "这一扑我扑过很多只羊。", "en": "I have practiced this pounce many times."},
+        {"zh": "你身后是栅栏，前面是我。", "en": "Fence behind you, me in front."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嚎叫着扑向猎物！", "en": "Howling and charging at prey!"},
+        {"zh": "满月之夜，它更强大！", "en": "It’s stronger at the full moon!"},
+        {"zh": "用利爪撕裂敌人的肉！", "en": "Rip the flesh with its claws!"},
+        {"zh": "咆哮震慑周围的一切！", "en": "Roar to scare everything around!"},
+        {"zh": "狂奔而来，无畏无惧！", "en": "Running fearlessly towards you!"},
+        {"zh": "猎人们畏惧它的力量！", "en": "Hunter’s fear its power!"},
+        {"zh": "在夜晚的阴影中潜行！", "en": "Creeping in the night’s shadow!"},
+        {"zh": "用狼牙咬碎敌人的骨头！", "en": "Bite through the enemy’s bones!"},
+        {"zh": "它的皮毛在月光下闪亮！", "en": "Its fur gleams under moonlight!"},
+        {"zh": "它是针叶林的王者！", "en": "It’s the ruler of the pine forest!"},
+        {"zh": "我一肩撞在你腰侧。", "en": "I hit you from the side and knock you down."},
+        {"zh": "爪子勾住你的护甲缝。", "en": "My claws catch the seam of your armor."},
+        {"zh": "咬住手腕，别想拿剑。", "en": "I bite your wrist. No sword for you."},
+        {"zh": "三十点血的野兽不怕疼。", "en": "A thirty-health beast does not flinch."},
+        {"zh": "我把你拖进林子里。", "en": "I drag you into the trees."},
+        {"zh": "这一口留给你的脖子。", "en": "This bite is for your throat."},
+        {"zh": "村庄的狗都不敢叫了。", "en": "Even the village dogs have gone silent."},
+        {"zh": "我的皮毛挡下了你的剑。", "en": "My hide took your blade."},
+        {"zh": "你摔进雪里，我压上去。", "en": "You fall in the snow and I pin you."},
+        {"zh": "月光让我咬得更狠。", "en": "Moonlight makes my bite harder."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "月光中，它悄然降临！", "en": "It arrives in moonlight!"},
+        {"zh": "它在夜晚寻找猎物！", "en": "It hunts at night!"},
+        {"zh": "从灌木丛中突然出现！", "en": "Emerges from the bushes!"},
+        {"zh": "它的脚步声惊醒梦中人！", "en": "Its footsteps wake the sleeping!"},
+        {"zh": "月黑风高，它开始行动！", "en": "It acts under the dark moon!"},
+        {"zh": "夜晚的针叶林，它是阴影！", "en": "It’s the shadow in the pine forest at night!"},
+        {"zh": "它在月光下悄悄游荡！", "en": "It roams under the moonlight!"},
+        {"zh": "森林里飘荡它的气息！", "en": "Its scent floats in the forest!"},
+        {"zh": "它在月光照耀下现身！", "en": "It appears in the moonlight!"},
+        {"zh": "针叶林深处，它是猎人！", "en": "It’s the hunter in the deep pine forest!"},
+        {"zh": "针叶林里多了一串爪印。", "en": "A new line of claw marks in the pines."},
+        {"zh": "我从狼群的边缘走出来。", "en": "I step out from the edge of the pack."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "毛烧着了，我吼了一声", "en": "My fur caught fire and I let out a roar"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从高处摔下受伤", "en": "Fell from a height"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进毛里，我游不动。", "en": "Water soaks my fur and I cannot swim."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸开的土块砸在我背上。", "en": "Clods of earth from the blast strike my back."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "中箭受伤", "en": "Hit by an arrow"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法烧穿皮肉，狼嚎变了调。", "en": "The spell burned through. My howl cracked."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得连嚎都嚎不动", "en": "Too starved to even howl"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷声让我想起自己的嚎叫。", "en": "Thunder sounds like my own howl."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空受伤", "en": "Fall into the void"}
+      ]
+    }
+  }
+}

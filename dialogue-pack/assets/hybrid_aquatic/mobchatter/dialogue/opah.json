@@ -1,0 +1,280 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我扇着圆鳍，慢慢往前挪。", "en": "I fan my round fins and drift forward."},
+        {"zh": "红鳍一摆，我拐了个弯。", "en": "A flick of red fin turns me aside."},
+        {"zh": "深水压着我，我游得很稳。", "en": "Deep water presses on me; I swim steady."},
+        {"zh": "我贴着海床，避开上面的影子。", "en": "I hug the seabed, away from shadows above."},
+        {"zh": "圆身子在水里像一枚铜盘。", "en": "My round body moves like a copper plate."},
+        {"zh": "我跟着前面的同伴走。", "en": "I follow the companion ahead of me."},
+        {"zh": "尾鳍拍两下，我越过石脊。", "en": "Two beats of my tail clear the ridge."},
+        {"zh": "冷水层到了，我往上一点。", "en": "The cold layer nears; I rise a little."},
+        {"zh": "我游得慢，但从不撞礁。", "en": "I swim slowly but never hit the reef."},
+        {"zh": "鳍上的红斑在暗处发亮。", "en": "The red spots on my fins glow in the dark."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我悬在水里，几乎不摆鳍。", "en": "I hang in the water, fins almost still."},
+        {"zh": "一条小鱼游过，我懒得追。", "en": "A small fish passes; I cannot be bothered."},
+        {"zh": "我的圆身随水流轻轻转。", "en": "My round body turns gently with the current."},
+        {"zh": "深处很暗，我慢慢眨着眼。", "en": "Down here it is dark; I blink slowly."},
+        {"zh": "我侧过身，让鳃里的水换掉。", "en": "I turn sideways to flush my gills."},
+        {"zh": "同伴在左边，我靠着它。", "en": "My companion is left of me; I lean close."},
+        {"zh": "红斑在冷水里收成暗色。", "en": "My red spots dim in the cold water."},
+        {"zh": "我停在一块平石上方。", "en": "I hover above a flat stone."},
+        {"zh": "远处有鲨鱼的影子，我不动。", "en": "A shark's shadow passes; I do not move."},
+        {"zh": "身体里的暖意慢慢散开。", "en": "The warmth inside my body spreads slowly."},
+        {"zh": "我张嘴，让细小的东西进来。", "en": "I open my mouth and let tiny things drift in."},
+        {"zh": "鳍尖轻轻抖，像在打拍子。", "en": "My fin tips twitch as if keeping time."},
+        {"zh": "深温带海洋安静得发闷。", "en": "The deep temperate ocean is muffled and quiet."},
+        {"zh": "我把身体摆平，省点力气。", "en": "I level my body to save some strength."},
+        {"zh": "一只小虾在我嘴边，我慢慢嚼。", "en": "A small shrimp is at my mouth; I chew slowly."},
+        {"zh": "我把圆身侧过来，让光扫过鳞。", "en": "I tilt my round body and let the light cross my scales."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你潜到这么深，肺受得了吗。", "en": "Diving this deep, can your lungs take it?"},
+        {"zh": "我贴着你小腿绕了半圈。", "en": "I circle your calves half a turn."},
+        {"zh": "你的灯照得我的红斑发白。", "en": "Your lamp washes my red spots pale."},
+        {"zh": "我盯着你腰上的那串东西。", "en": "I stare at the things on your belt."},
+        {"zh": "你比我大太多，我该走了。", "en": "You are far bigger; I should go."},
+        {"zh": "我把圆面对着你的眼睛。", "en": "I turn my round face to your eyes."},
+        {"zh": "你动一下，我的鳍就收紧。", "en": "When you move, my fins clamp shut."},
+        {"zh": "我在你影子里停了一会儿。", "en": "I rest a while inside your shadow."},
+        {"zh": "你潜下来，我停在你面前。", "en": "You dive; I stop right in front of you."},
+        {"zh": "别用手抓，我的鳞很薄。", "en": "Do not grab; my scales are thin."},
+        {"zh": "你身上的味道像船上的铁。", "en": "You smell like iron from a boat."},
+        {"zh": "我慢慢退向礁石的暗处。", "en": "I drift back into the dark of the reef."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "疼，我的鳍被咬穿了。", "en": "It hurts; my fin is bitten through."},
+        {"zh": "六点血经不起几下。", "en": "Six health does not last many hits."},
+        {"zh": "伤口在深水里格外凉。", "en": "The wound feels cold in deep water."},
+        {"zh": "我身子翻了，赶紧摆尾稳住。", "en": "I roll over, then steady with my tail."},
+        {"zh": "我圆盘似的身子被咬掉一块。", "en": "A chunk is missing from my round, disc-like body."},
+        {"zh": "这一下让我游不动了。", "en": "That blow has left me barely swimming."},
+        {"zh": "石缝太窄，我的鳍卡住了。", "en": "The crevice is narrow; my fin's stuck."},
+        {"zh": "别打我的侧腹。", "en": "Do not strike my flank."},
+        {"zh": "血引来了别的东西。", "en": "The blood is drawing something else."},
+        {"zh": "我还能游，但很慢。", "en": "I can still swim, but only slowly."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有只小章鱼在石缝里。", "en": "A little octopus is in the crevice."},
+        {"zh": "那条小鱼游得太近了。", "en": "That small fish swims too close."},
+        {"zh": "我闻到软体动物的味道。", "en": "I smell something soft-bodied."},
+        {"zh": "给我一只小蟹，我过来。", "en": "Offer me a small crab and I come."},
+        {"zh": "我饿的时候什么都追。", "en": "When hungry I chase almost anything."},
+        {"zh": "触须在洞口晃，我看见了。", "en": "A tentacle waves at the den mouth."},
+        {"zh": "那块肉沉下来，正好。", "en": "That meat sinks down at the right moment."},
+        {"zh": "我绕开鲨鱼，先吃这一口。", "en": "I slip past the shark for this one bite."},
+        {"zh": "小的东西我一口就吞。", "en": "Small things I swallow in one go."},
+        {"zh": "别晃手里的东西，我会撞上来。", "en": "Stop waving that; I will charge it."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞得我翻了半圈。", "en": "Your bump rolls me half over."},
+        {"zh": "我的圆身撞在礁上，闷响。", "en": "My round body hits the reef with a thud."},
+        {"zh": "别挤，我的鳞会掉。", "en": "Do not crowd me; my scales will shed."},
+        {"zh": "你碰到我的侧线了。", "en": "You touched my lateral line."},
+        {"zh": "我们撞在一起，水都乱了。", "en": "We collide and the water churns."},
+        {"zh": "我被顶得贴住了石壁。", "en": "I am shoved flat against the rock wall."},
+        {"zh": "圆身子被撞得转了半圈。", "en": "My round body spins half a turn."},
+        {"zh": "你退一步，我才能转身。", "en": "Step back so I can turn around."},
+        {"zh": "这一撞让我鳍都歪了。", "en": "That knock has set my fins askew."},
+        {"zh": "我躲开你，游到石头后面。", "en": "I dodge you and slip behind the stone."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "同类在深处排成一小群。", "en": "My kind gather in a small group below."},
+        {"zh": "我用鳍碰了碰它的侧身。", "en": "I brush its flank with my fin."},
+        {"zh": "我们并排游，不说话。", "en": "We swim side by side, saying nothing."},
+        {"zh": "它的红斑比我的亮。", "en": "Its red spots are brighter than mine."},
+        {"zh": "产卵的地方要暖一些。", "en": "The spawning ground must be warmer."},
+        {"zh": "我绕它转，它没有躲。", "en": "I circle it and it does not flee."},
+        {"zh": "两只月鱼贴在一起浮着。", "en": "Two opah float pressed together."},
+        {"zh": "水里的暖意让我们靠近。", "en": "The warmth in the water draws us near."},
+        {"zh": "等卵散开，我就游走。", "en": "Once the eggs scatter, I will swim off."},
+        {"zh": "这一季只找这一个同伴。", "en": "This season I seek only this one."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我叼起一块掉落的鱼肉。", "en": "I take a fallen piece of fish."},
+        {"zh": "沉下来的东西我都尝一口。", "en": "Whatever sinks, I taste once."},
+        {"zh": "这块东西卡在石缝里。", "en": "This thing is stuck in the crevice."},
+        {"zh": "我把它含在嘴里，慢慢咽。", "en": "I hold it in my mouth and swallow slowly."},
+        {"zh": "圆盘身子挪过去，是我先看见的。", "en": "My round body slides over; I saw it first."},
+        {"zh": "圆身一压，食物就出来了。", "en": "I press my round body down and the food comes loose."},
+        {"zh": "我捡起一片亮鳞，又吐掉。", "en": "I pick up a bright scale and spit it out."},
+        {"zh": "海底的食物总带着沙。", "en": "Food on the seabed always tastes of sand."},
+        {"zh": "我衔着它游回同伴那里。", "en": "I carry it back to my companion."},
+        {"zh": "这一口够我撑半天。", "en": "This mouthful will last me half a day."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石缝里那只章鱼在动。", "en": "The octopus in the crevice is moving."},
+        {"zh": "小鱼群散开，我挑落单的。", "en": "The school scatters; I pick the stray."},
+        {"zh": "我锁定了那只软软的东西。", "en": "I have fixed on that soft-bodied thing."},
+        {"zh": "那边的影子比礁石小。", "en": "That shadow is smaller than the reef."},
+        {"zh": "它没看见我，我先动。", "en": "It has not seen me; I move first."},
+        {"zh": "我盯上了落在后面的那条。", "en": "I mark the one trailing behind."},
+        {"zh": "这只够我吃一口。", "en": "This one is worth a single bite."},
+        {"zh": "同伴冲了，我也跟上。", "en": "My companion charges; I follow."},
+        {"zh": "它的触须伸得太出来了。", "en": "Its tentacles reach out too far."},
+        {"zh": "深水里的猎物跑不快。", "en": "Prey in deep water cannot run fast."},
+        {"zh": "我顺着洋流绕到它背后。", "en": "I ride the current around behind it."},
+        {"zh": "我闻到它受伤的味道。", "en": "I smell that it is wounded."},
+        {"zh": "那团软肉正往沙里钻。", "en": "That soft flesh is burrowing into the sand."},
+        {"zh": "目标定了，我不再换。", "en": "The target is set; I will not switch."},
+        {"zh": "礁缝里探出一条腕足，我动了。", "en": "An arm reaches from a crevice, and I move."},
+        {"zh": "鱼群乱了方向，我知道有东西。", "en": "The school loses its heading; something is there."},
+        {"zh": "那只虾在石上敲壳，太吵了。", "en": "That shrimp is drumming its shell; too loud."},
+        {"zh": "我认出了落在最后的幼鱼。", "en": "I pick out the fry trailing at the back."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我压低身子，鳍不动。", "en": "I lower my body and still my fins."},
+        {"zh": "它每退一寸，我进一寸。", "en": "For every inch it retreats, I advance one."},
+        {"zh": "我算着它转头的方向。", "en": "I judge which way it will turn."},
+        {"zh": "水里的味道越来越浓。", "en": "The scent in the water thickens."},
+        {"zh": "我贴着海床，避开上方。", "en": "I skim the seabed, clear of the water above."},
+        {"zh": "它开始慌了，撞到了石头。", "en": "It panics and knocks against a stone."},
+        {"zh": "我等它露出软的那一面。", "en": "I wait for it to show its soft side."},
+        {"zh": "同伴在另一边堵着。", "en": "My companion blocks the other side."},
+        {"zh": "我的圆身挡住了它的路。", "en": "My round body cuts off its escape."},
+        {"zh": "它想钻进缝里，太窄了。", "en": "It tries the crevice; it is too narrow."},
+        {"zh": "我只等一个空当。", "en": "I am waiting for a single opening."},
+        {"zh": "鳍尖抖了一下，我又稳住。", "en": "My fin tip twitches, then steadies."},
+        {"zh": "它离石壁只剩一掌。", "en": "It is a hand's width from the wall."},
+        {"zh": "现在动，正好咬住侧面。", "en": "Move now, and I take its flank."},
+        {"zh": "我从上方压下去，它只看得到底。", "en": "I press down from above; it sees only the bottom."},
+        {"zh": "它躲进珊瑚，我绕着等。", "en": "It ducks into the coral; I circle and wait."},
+        {"zh": "我把圆影藏在礁石后面。", "en": "I hide my round shadow behind the rock."},
+        {"zh": "它一急就喷墨，我看不清了。", "en": "It panics and inks the water; I lose sight."},
+        {"zh": "同伴从侧面挤它，我守住正面。", "en": "My kin crowds its flank; I hold the front."},
+        {"zh": "再近半格，我就咬它的软身。", "en": "Half a block closer and I bite its soft body."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一口咬住它的软边。", "en": "I bite into its soft edge."},
+        {"zh": "圆身一撞，它翻了。", "en": "A blow from my round body rolls it over."},
+        {"zh": "牙齿细，但咬得很紧。", "en": "My teeth are fine but they hold."},
+        {"zh": "触须缠上我的头，我甩开。", "en": "Tentacles wrap my head; I shake them off."},
+        {"zh": "血在水里散成一片。", "en": "Blood spreads through the water."},
+        {"zh": "我咬下一条腕足就退。", "en": "I bite off an arm and pull back."},
+        {"zh": "它喷墨，我照样追。", "en": "It inks; I keep chasing."},
+        {"zh": "这一撞把它压进沙里。", "en": "This blow drives it into the sand."},
+        {"zh": "我甩头，撕下一块肉。", "en": "I wrench my head and tear off meat."},
+        {"zh": "它反击，划破了我的鳍。", "en": "It strikes back and tears my fin."},
+        {"zh": "我们翻搅起海底的泥沙。", "en": "We churn up the silt of the seabed."},
+        {"zh": "咬第二口时它已经不动了。", "en": "By the second bite it has stopped moving."},
+        {"zh": "我吞下肉，壳吐出来。", "en": "I swallow the meat and spit the shell."},
+        {"zh": "吃完我舔了舔牙。", "en": "When done I lick my teeth."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在深温水海洋里醒来。", "en": "I wake in the deep warm ocean."},
+        {"zh": "这里的光只剩下一点点蓝。", "en": "Only a little blue light reaches here."},
+        {"zh": "深温带的海水凉得刚好。", "en": "The deep temperate water is cool and right."},
+        {"zh": "我身边还有一条月鱼。", "en": "Another opah is beside me."},
+        {"zh": "我们两条一起往下游。", "en": "The two of us swim downward together."},
+        {"zh": "我的圆身在暗处像一枚硬币。", "en": "My round body looks like a coin in the dark."},
+        {"zh": "水压很大，我慢慢适应。", "en": "The pressure is heavy; I settle into it."},
+        {"zh": "上面有鲨鱼，我贴着底走。", "en": "Sharks above; I keep to the bottom."},
+        {"zh": "这一片海床没有礁石。", "en": "This stretch of seabed is bare."},
+        {"zh": "我记住了同伴的鳍色。", "en": "I have learned my companion's fin color."},
+        {"zh": "出生时我只有一片鳞大。", "en": "At birth I was the size of a single scale."},
+        {"zh": "我跟着前面的影子走。", "en": "I follow the shadow ahead."},
+        {"zh": "冷水从下面涌上来。", "en": "Cold water wells up from below."},
+        {"zh": "深海里，我们先找吃的。", "en": "In the deep sea we look for food first."},
+        {"zh": "我在深海的暖流边上出生。", "en": "I am born at the edge of a deep warm current."},
+        {"zh": "第一口海水是温的，我记住了。", "en": "My first mouthful of seawater was warm; I remember."},
+        {"zh": "我上面压着一层看不见的冷。", "en": "An unseen layer of cold presses down above me."},
+        {"zh": "两条影子从暗里游开，是鲨鱼。", "en": "Two shadows slide away into the dark: sharks."},
+        {"zh": "我摆正圆身，先学会不动。", "en": "I level my round body and learn stillness first."},
+        {"zh": "海床的沙很软，我落上去。", "en": "The seabed sand is soft, and I settle onto it."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "热水烫卷了我的红鳍。", "en": "Hot water curls my red fins."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从水面上摔下来，砸得发昏。", "en": "I drop from the surface and land dazed."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水太暖，我反而换不过气。", "en": "The water is too warm; I cannot breathe."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆开的水把我推得很远。", "en": "The blast shoves me far through the water."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭扎进圆身，扎得很深。", "en": "An arrow sinks deep into my round body."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法让我的红斑乱闪。", "en": "Magic makes my red spots flare wildly."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿久了，我的圆身都瘪了。", "en": "Starved long, my round body has gone flat."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷声在水下像一记闷锤。", "en": "Thunder underwater is a dull hammer blow."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下面空了，连水都没有。", "en": "Below is nothing, not even water."}
+      ]
+    }
+  }
+}

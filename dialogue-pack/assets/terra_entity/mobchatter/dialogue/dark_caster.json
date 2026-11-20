@@ -1,0 +1,272 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我拖着长袍走，脚步很轻。", "en": "I drag my long robes. Light steps."},
+        {"zh": "袍子底下什么也看不见。", "en": "Nothing to see under these robes."},
+        {"zh": "我慢慢走，不用靠近。", "en": "I walk slowly. No need to close in."},
+        {"zh": "我停在能看见你的位置。", "en": "I stop where I can see you."},
+        {"zh": "我不追击，我站在中间。", "en": "I don't pursue. I stand at the center."},
+        {"zh": "长袍扫过地面，留下一道痕。", "en": "My robe sweeps a line across the floor."},
+        {"zh": "我一步步走到石头之间。", "en": "Step by step, into the stones."},
+        {"zh": "我脚下有暗色的光。", "en": "Dark light under my feet."},
+        {"zh": "我绕着场地边缘走。", "en": "I circle the edge of the field."},
+        {"zh": "我的帽子压得很低。", "en": "My hat sits very low."},
+        {"zh": "我不需要走快，法术够远。", "en": "No need for speed. My spells reach."},
+        {"zh": "我转身，袍角转了个圈。", "en": "I turn. My hem makes a circle."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，手在袍子里动。", "en": "I stand. My hands move inside the robes."},
+        {"zh": "我念了一句谁也听不见的。", "en": "I murmur something no one hears."},
+        {"zh": "暗紫色的光在我袖口闪。", "en": "Dark purple light flickers at my cuff."},
+        {"zh": "我不用眼睛看，我用感觉。", "en": "I don't look. I sense."},
+        {"zh": "我在这片地上画了个圈。", "en": "I've drawn a circle on this ground."},
+        {"zh": "袍子底下没有脚，只有影子。", "en": "No feet under this robe, only shadow."},
+        {"zh": "我抬了抬手指，灰聚起来。", "en": "I lift a finger. Ash gathers."},
+        {"zh": "我站着不动，弹幕却不停。", "en": "I stand still and my barrage never stops."},
+        {"zh": "我的袍子里有东西在转。", "en": "Something turns inside my robes."},
+        {"zh": "我要站到这一轮结束。", "en": "I'll stand until this round ends."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在我的圈里了。", "en": "You're inside my circle."},
+        {"zh": "我这样看你，是在测算。", "en": "This look is a calculation."},
+        {"zh": "你举起武器，站得太直。", "en": "Weapon up. Standing too straight."},
+        {"zh": "我的脸在帽檐下，看不清。", "en": "My face under the brim. Unclear."},
+        {"zh": "你每次换位置，我都知道。", "en": "Every time you shift, I know."},
+        {"zh": "把火把熄了，我就走。", "en": "Put out that torch and I'll leave."},
+        {"zh": "我是站着的，你也别跑。", "en": "I'm standing still. Don't run."},
+        {"zh": "你的手在找盾，找晚了。", "en": "Your hand is looking for a shield. Too late."},
+        {"zh": "这一片的地面，都是我的。", "en": "All this floor is mine."},
+        {"zh": "我盯着你的时候，法术已经在走。", "en": "While I stare, the spell is already moving."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "帽檐被打歪了。", "en": "My brim got knocked crooked."},
+        {"zh": "这一下打断了半句。", "en": "That broke half a phrase."},
+        {"zh": "我退了半步，圈还在。", "en": "Half a step back. The circle remains."},
+        {"zh": "你打到的不是身体。", "en": "You didn't hit a body."},
+        {"zh": "我重新开始念。", "en": "I start the incantation again."},
+        {"zh": "这点伤，不影响施法。", "en": "This doesn't impede the casting."},
+        {"zh": "帽子扶正，法术才不偏。", "en": "Hat straightened, so my spells fly true."},
+        {"zh": "我记下了你出手的时机。", "en": "I noted your timing."},
+        {"zh": "你比我以为的急。", "en": "More impatient than I thought."},
+        {"zh": "退一步，弹幕才铺得开。", "en": "One step back and my barrage spreads out."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手里那东西，没能量。", "en": "That in your hand. No energy."},
+        {"zh": "我不吃，我吸取。", "en": "I don't eat. I drain."},
+        {"zh": "举着它也没用。", "en": "Holding it up won't help."},
+        {"zh": "我对那个没有兴趣。", "en": "No interest in that."},
+        {"zh": "你退开，别打断咒语。", "en": "Get back. Don't break the incantation."},
+        {"zh": "这点东西换不来一个法术。", "en": "That won't buy a spell."},
+        {"zh": "地面上有更好的。", "en": "There's better on the floor."},
+        {"zh": "你手上的光太亮，碍眼。", "en": "That light in your hand. Distracting."},
+        {"zh": "放下它，我就让你站着。", "en": "Drop it and I'll let you stand."},
+        {"zh": "胡萝卜土豆，我拿来喂乌鸦。", "en": "Carrots and potatoes — I feed them to crows."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞进我的袍子。", "en": "You walked into my robes."},
+        {"zh": "我退了半步，圈没动。", "en": "Half a step back. The circle holds."},
+        {"zh": "别靠近，我站着不动。", "en": "Don't come closer. I won't move."},
+        {"zh": "你碰到的是布，不是身体。", "en": "You touched cloth. Not a body."},
+        {"zh": "我的手从袍子里伸出来了。", "en": "My hand came out of the robes."},
+        {"zh": "这一下，你在圈里更深了。", "en": "Now you're deeper in the circle."},
+        {"zh": "我不推你，我只是站定。", "en": "I don't shove. I stand my ground."},
+        {"zh": "碰撞让法术提前了。", "en": "That contact advanced the spell."},
+        {"zh": "你退开，退到圈子外面。", "en": "Back off. Out of the circle."},
+        {"zh": "我袍子上沾了你的味道。", "en": "Your smell is on my robe."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这具身体是借来的。", "en": "This body is borrowed."},
+        {"zh": "我不需要那种东西。", "en": "I don't need that."},
+        {"zh": "你站到圈外再说。", "en": "Step outside the circle first."},
+        {"zh": "我的脸不是给看的。", "en": "My face isn't for looking at."},
+        {"zh": "帽子底下，全是黑火。", "en": "Under this hat, all is black fire."},
+        {"zh": "法术比人可靠。", "en": "Spells are more reliable than people."},
+        {"zh": "我这一生都在念同一段。", "en": "My whole life is one incantation."},
+        {"zh": "我站在原地，弹幕不断。", "en": "I stand still and my barrage never stops."},
+        {"zh": "你先往后退三步，别停。", "en": "Three steps back. Keep going."},
+        {"zh": "这件事，我不回应。", "en": "That, I won't answer."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我隔空拿起来，不用手。", "en": "I lift it without hands."},
+        {"zh": "这东西浮在我掌心上面。", "en": "It hovers over my palm."},
+        {"zh": "我看了一眼，扔回地上。", "en": "One look. I drop it back."},
+        {"zh": "这点东西，值得收。", "en": "Worth keeping."},
+        {"zh": "这东西的光，被我吸干了。", "en": "I drained the light right out of it."},
+        {"zh": "袖口深处，藏着上一件。", "en": "Deep in my sleeve lies the last thing I took."},
+        {"zh": "地上还有，我一起收。", "en": "More here. Taking it all."},
+        {"zh": "你掉的，我笑了一下。", "en": "Yours. I smiled."},
+        {"zh": "这上面有法术的痕迹。", "en": "There are spell marks on this."},
+        {"zh": "我举起它看了看，没用了。", "en": "I held it up. Spent."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你进入了圈里。", "en": "You've entered the circle."},
+        {"zh": "我抬手的速度快过你。", "en": "My hand is faster than yours."},
+        {"zh": "你身后的墙，正好当靶。", "en": "The wall behind you makes a fine target."},
+        {"zh": "法术的第一句已经念完。", "en": "The first line is spoken."},
+        {"zh": "你不用躲，躲不掉。", "en": "No point dodging."},
+        {"zh": "这里的地面很平，正合适。", "en": "Flat ground. Suitable."},
+        {"zh": "我的袖子里开始亮。", "en": "My sleeve is starting to glow."},
+        {"zh": "你身上有热，我锁得住。", "en": "You're warm. I can lock on."},
+        {"zh": "我选了你，因为最近。", "en": "I picked you. Nearest."},
+        {"zh": "站住，我要念完。", "en": "Hold still. I need to finish."},
+        {"zh": "这一片地上，只有你。", "en": "Only you on this floor."},
+        {"zh": "我把帽子抬起来一点。", "en": "I lift my hat a little."},
+        {"zh": "你的脚步变慢了。", "en": "Your steps slowed."},
+        {"zh": "我开始念第二段。", "en": "Second verse."},
+        {"zh": "不用急，你有时间跑。", "en": "No rush. You have time to run."},
+        {"zh": "但你也跑不了多远。", "en": "But you won't get far."},
+        {"zh": "我已经站好位置。", "en": "I'm in position."},
+        {"zh": "现在看这里，别分心。", "en": "Watch here. Don't look away."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着不动，法术在动。", "en": "I stand still. The spell moves."},
+        {"zh": "你往左，法术往左。", "en": "You go left. The spell follows."},
+        {"zh": "我的手指在袖口画。", "en": "My finger traces at my cuff."},
+        {"zh": "你的护甲挡不住暗光。", "en": "Armor won't stop dark light."},
+        {"zh": "我在等你站到同一个点。", "en": "Waiting for you to stand on the mark."},
+        {"zh": "地面上的圈越来越亮。", "en": "The circle brightens."},
+        {"zh": "法术在动，我站着不动。", "en": "The spell moves; I stand still."},
+        {"zh": "弹幕排成一列，等着你露头。", "en": "My bolts line up, waiting for you to show yourself."},
+        {"zh": "你绕到我后面，也没用。", "en": "Behind me won't help."},
+        {"zh": "这个距离，弹无虚发。", "en": "At this range, every shot lands."},
+        {"zh": "我袍子下面的手一直没停。", "en": "My hands haven't stopped under the robe."},
+        {"zh": "你再站着，就是靶子。", "en": "Stand there and you're a target."},
+        {"zh": "地面在动，你看不出来。", "en": "The floor is moving. You can't tell."},
+        {"zh": "这一发蓄了很久。", "en": "This one's been charging a while."},
+        {"zh": "现在，退后也没用。", "en": "Now retreat won't help."},
+        {"zh": "看着我的袖子。", "en": "Watch my sleeve."},
+        {"zh": "暗紫的光出来了。", "en": "The dark purple comes out."},
+        {"zh": "第三句念完了。", "en": "Third line spoken."},
+        {"zh": "二，咒语快满了。", "en": "Two. The casting fills."},
+        {"zh": "一，收不回去了。", "en": "One. No taking it back."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抬手指了你一下。", "en": "I point one finger at you."},
+        {"zh": "暗紫的光从袖口射出去。", "en": "Dark purple light from my cuff."},
+        {"zh": "你被推开了，衣服焦了。", "en": "You're pushed back. Clothes scorched."},
+        {"zh": "这一发贴着地飞。", "en": "That one flew low."},
+        {"zh": "我没有靠近，但我打到了。", "en": "I didn't come close. Still hit."},
+        {"zh": "你挡的位置偏了半寸。", "en": "Your guard was half an inch off."},
+        {"zh": "第二发紧接着第一发。", "en": "The second follows the first."},
+        {"zh": "地面被烧出一个黑点。", "en": "A black scorch on the floor."},
+        {"zh": "你在地上翻了半圈。", "en": "You rolled half a turn on the ground."},
+        {"zh": "我退了一步，补一句咒。", "en": "One step back. One more phrase."},
+        {"zh": "这一发，用了不少力气。", "en": "That one cost me."},
+        {"zh": "你还在动，我有点惊讶。", "en": "Still moving. I'm surprised."},
+        {"zh": "我不擅长近身，但也不是没有手。", "en": "Close quarters isn't my strength. I still have hands."},
+        {"zh": "这一发是从你背后来的。", "en": "That one came from behind you."},
+        {"zh": "我的袍子挡住了你的视线。", "en": "My robes blocked your line of sight."},
+        {"zh": "你被暗光钉在原地。", "en": "The dark light pinned you in place."},
+        {"zh": "这一下，我的手指有点抖。", "en": "That one left my fingers trembling."},
+        {"zh": "你退了，我的圈还在这里。", "en": "You retreat. My circle is still here."},
+        {"zh": "暗光在你脚边炸开。", "en": "Dark light burst at your feet."},
+        {"zh": "你举起盾，光从下面绕过。", "en": "You raised a shield. The light went under."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在空地上画下第一个圈。", "en": "I draw the first circle on open ground."},
+        {"zh": "袍子落下来，尘土散开。", "en": "The robe settles. Dust scatters."},
+        {"zh": "我从阴影里显出来。", "en": "I fade in out of the shadow."},
+        {"zh": "石头之间的空气变冷了。", "en": "The air between the stones cools."},
+        {"zh": "我抬起头，帽檐下面是黑的。", "en": "I raise my head. Black under the brim."},
+        {"zh": "我脚下有暗光，从中心散开。", "en": "Dark light spreads from under my feet."},
+        {"zh": "这里的主世界，看起来不错。", "en": "The Overworld. Looks acceptable."},
+        {"zh": "我开始念第一段。", "en": "I begin the first verse."},
+        {"zh": "我的袍子是新的，人不是。", "en": "The robe is new. I'm not."},
+        {"zh": "你正好在圈里出生。", "en": "You happened to be born inside the circle."},
+        {"zh": "我不需要移动就能攻击。", "en": "I can attack without moving."},
+        {"zh": "我站定，位置算好了。", "en": "In place. The position is calculated."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烧袍角，我拍了一下。", "en": "Fire on my hem. I pat it out."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔下去的时候咒语断了。", "en": "Falling broke the incantation."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水浸了袍子，重得动不了。", "en": "Water in the robes. Too heavy to move."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我的圈全掀了。", "en": "The blast wiped my circle away."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有个东西穿过袍子。", "en": "Something passed through my robes."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这法术与我的相克。", "en": "That magic counters mine."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没有能量可吸，咒语变弱。", "en": "No energy to draw. The spells weaken."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在圈上，符文全散了。", "en": "Lightning struck the circle. Runes scattered."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "往下掉的时候我还在念。", "en": "Falling. Still reciting."}
+      ]
+    }
+  }
+}

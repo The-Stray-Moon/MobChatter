@@ -1,0 +1,256 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "焰蜥贴着热石往前爬", "en": "The blazezard creeps along the hot stone."},
+        {"zh": "它的鳞缝里冒着细烟", "en": "Thin smoke seeps from between its scales."},
+        {"zh": "尾巴拖出一条焦痕", "en": "Its tail drags a scorched line."},
+        {"zh": "它每一步都烧出一点火星", "en": "Each step strikes a few sparks."},
+        {"zh": "它绕过熔岩，慢慢前行", "en": "It skirts the lava and creeps on."},
+        {"zh": "它的爪子按在石上，石头发红", "en": "Its claws leave the stone glowing."},
+        {"zh": "它把头低低地伸在前面", "en": "Its head reaches low in front."},
+        {"zh": "它停下来，尾巴摆了一下", "en": "It stops and swings its tail."},
+        {"zh": "它的呼吸把空气烤得发颤", "en": "Its breath makes the air shimmer."},
+        {"zh": "它缓缓朝你的方向移动", "en": "It moves slowly your way."},
+        {"zh": "它的背脊一节节拱起", "en": "The ridge on its back arches."},
+        {"zh": "它走过的地方冒着热气", "en": "Heat rises where it has passed."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "焰蜥趴在石上，慢慢呼吸", "en": "The blazezard lies on the stone, breathing slowly."},
+        {"zh": "它的鳞片一明一暗，像余烬", "en": "Its scales glow and dim like embers."},
+        {"zh": "它的舌头伸出来舔了舔石面", "en": "Its tongue licks the stone."},
+        {"zh": "石面被它舔得发亮", "en": "The stone shines where it licked."},
+        {"zh": "它的尾巴尖轻轻敲着地", "en": "Its tail tip taps the ground."},
+        {"zh": "它把身体压得更贴石头", "en": "It presses itself flatter."},
+        {"zh": "它的眼睛像两条细缝", "en": "Its eyes are narrow slits."},
+        {"zh": "它打了个嗝，冒出一小股烟", "en": "It belches a little smoke."},
+        {"zh": "它的爪子慢慢收进掌里", "en": "Its claws slide back in."},
+        {"zh": "它听着石头下的声音", "en": "It listens to something under the stone."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "焰蜥抬头，眼睛对着你", "en": "The blazezard lifts its head at you."},
+        {"zh": "它的鳞一下亮了起来", "en": "Its scales brighten."},
+        {"zh": "它侧过身子，把自己撑大", "en": "It turns side-on and makes itself look bigger."},
+        {"zh": "它的舌头试探空气", "en": "Its tongue tests the air."},
+        {"zh": "它往你这边挪了一点", "en": "It shifts a little toward you."},
+        {"zh": "它的尾巴抬起又落下", "en": "Its tail lifts and drops."},
+        {"zh": "它张开嘴，热气扑到你脸上", "en": "It opens its mouth; heat hits your face."},
+        {"zh": "它把你的位置记住了", "en": "It has noted where you are."},
+        {"zh": "它退开半尺，重新趴好", "en": "It backs half a foot and settles."},
+        {"zh": "它的眼睛始终没挪开", "en": "Its eyes never shift away."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "焰蜥的鳞光暗了一下", "en": "The blazezard's scales dim."},
+        {"zh": "它退开，尾巴甩在地上", "en": "It retreats, tail lashing."},
+        {"zh": "它的身上掉下几片焦鳞", "en": "Scorched scales fall from it."},
+        {"zh": "它发出一声低哑的响", "en": "It gives a hoarse sound."},
+        {"zh": "它的喘息断了半拍", "en": "Its rasping breaks for half a beat."},
+        {"zh": "它把身体压得更贴地", "en": "It presses tighter to the ground."},
+        {"zh": "它慢慢往热石那边退", "en": "It edges toward the hot stone."},
+        {"zh": "它的嘴里不再亮着", "en": "The light in its mouth goes out."},
+        {"zh": "它重新张开嘴，火又亮起", "en": "It gapes again and the fire returns."},
+        {"zh": "它没退，只是更谨慎", "en": "It does not retreat, only grows warier."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "焰蜥朝你手上的东西爬来", "en": "The blazezard crawls toward what you hold."},
+        {"zh": "它闻了闻，鼻子皱起来", "en": "It sniffs and its snout wrinkles."},
+        {"zh": "它一口咬住，火星四溅", "en": "It bites down; sparks fly."},
+        {"zh": "东西在它嘴里烧焦了", "en": "The item scorches in its mouth."},
+        {"zh": "它把不合口的东西吐出来", "en": "What it dislikes, it spits out."},
+        {"zh": "它对肉比对别的东西有兴趣", "en": "Meat interests it more than anything else."},
+        {"zh": "它绕着你又爬了一圈", "en": "It crawls a circle around you."},
+        {"zh": "它停下来等第二块", "en": "It stops and waits for a second."},
+        {"zh": "它的尾巴摆得很欢", "en": "Its tail swings with interest."},
+        {"zh": "它忽然把身体压低", "en": "It suddenly drops low."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "焰蜥撞在你腿上，烫得厉害", "en": "The blazezard hits your leg, searing hot."},
+        {"zh": "你退开时它还往前挪", "en": "As you recoil, it presses in."},
+        {"zh": "它的爪子刮过你的鞋面", "en": "Its claws rake your shoe."},
+        {"zh": "石头被它撞得裂开", "en": "The stone cracks under the impact."},
+        {"zh": "它退开，尾巴甩了一下", "en": "It backs off with a tail lash."},
+        {"zh": "它的鳞擦出一点火星", "en": "Its scales strike a spark."},
+        {"zh": "它重新压低身体", "en": "It lowers itself again."},
+        {"zh": "它的呼吸更热了", "en": "Its breath grows hotter."},
+        {"zh": "它绕开你，换了个方向", "en": "It goes around you, taking another angle."},
+        {"zh": "它的目光始终在你身上", "en": "Its eyes stay on you."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "两只焰蜥把尾巴绕在一起", "en": "Two blazezards twine their tails."},
+        {"zh": "它们的鳞光交替明暗", "en": "Their scales glow in alternation."},
+        {"zh": "它们贴着彼此慢慢爬", "en": "They crawl slowly along each other."},
+        {"zh": "石面被它们烤得发红", "en": "The stone glows red beneath them."},
+        {"zh": "它们的呼吸合成一股热", "en": "Their breath merges into one heat."},
+        {"zh": "两颗头贴在一块石上", "en": "Two heads rest on one stone."},
+        {"zh": "火星在它们之间跳", "en": "Sparks jump between them."},
+        {"zh": "它们一动不动地趴着", "en": "They lie perfectly still."},
+        {"zh": "周围的热气慢慢散开", "en": "The heat around them slowly spreads."},
+        {"zh": "石头上留下两块焦痕", "en": "Two scorch marks remain on the stone."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "焰蜥一口咬起食物", "en": "The blazezard snaps up the food."},
+        {"zh": "它把东西烧了一下再吞", "en": "It scorches it before swallowing."},
+        {"zh": "它对不合口的东西喷出一口气", "en": "It puffs at what it dislikes."},
+        {"zh": "它用爪子把东西按住", "en": "A claw pins the item down."},
+        {"zh": "它把东西拖到热石上", "en": "It drags the item onto hot stone."},
+        {"zh": "它把战利品咬成两半", "en": "It bites the prize in two."},
+        {"zh": "它把一半留在石头上", "en": "It leaves half on the stone."},
+        {"zh": "吃完它舔净嘴角的灰", "en": "Done, it licks the ash from its mouth."},
+        {"zh": "它抬头，眼睛里还有火光", "en": "It looks up, fire still in its eyes."},
+        {"zh": "然后它开始爬开", "en": "Then it starts to crawl away."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "焰蜥的鳞一下全亮了", "en": "The blazezard's scales flare all at once."},
+        {"zh": "它把身体撑起来", "en": "It pushes its body up."},
+        {"zh": "它的嘴里亮起橘色", "en": "Orange light kindles in its mouth."},
+        {"zh": "石面开始冒烟", "en": "The stone starts to smoke."},
+        {"zh": "它朝你的方向张开嘴", "en": "It opens its mouth your way."},
+        {"zh": "一声低响从喉咙里出来", "en": "A low sound comes from its throat."},
+        {"zh": "它的尾巴慢慢抬高", "en": "Its tail rises slowly."},
+        {"zh": "它开始一点点逼近", "en": "It starts closing in."},
+        {"zh": "它的爪子烧灼着地面", "en": "Its claws burn the ground."},
+        {"zh": "它的竖瞳钉住了你", "en": "Its slit pupils nail you down."},
+        {"zh": "它不再趴着，站了起来", "en": "It is no longer lying down."},
+        {"zh": "它的呼吸，短促得像喷气。", "en": "Its breath comes in short, jetting bursts."},
+        {"zh": "热气把它周围的空气扭曲", "en": "Heat bends the air around it."},
+        {"zh": "它准备吐出点什么", "en": "It is ready to spit something."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "焰蜥绕着你慢慢移动", "en": "The blazezard circles you slowly."},
+        {"zh": "它的尾巴在地上扫出一道痕", "en": "Its tail draws a line on the ground."},
+        {"zh": "它试着靠近，又退开", "en": "It edges in and pulls back."},
+        {"zh": "它的嘴里一直亮着", "en": "The light in its mouth never fades."},
+        {"zh": "它绕到上风处停下", "en": "It stops upwind of you."},
+        {"zh": "它的鳞光越来越亮", "en": "Its scales grow brighter."},
+        {"zh": "它在等一个不被躲开的距离", "en": "It waits for a range you cannot dodge."},
+        {"zh": "它的影子在热汽里晃", "en": "Its shadow wavers in the heat."},
+        {"zh": "它把身体伏得极低", "en": "It drops very low."},
+        {"zh": "它的喉咙里传出咕噜声", "en": "A gurgle comes from its throat."},
+        {"zh": "它忽然停下，屏住呼吸", "en": "It stops and holds its breath."},
+        {"zh": "那一下静得反常", "en": "That silence is wrong somehow."},
+        {"zh": "它已经对准了你的胸口", "en": "It has aimed at your chest."},
+        {"zh": "石头的裂缝里冒出火苗", "en": "Flame rises from cracks in the stone."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "焰蜥一口咬在你护甲上", "en": "The blazezard bites your armour."},
+        {"zh": "它吐出一股火，扑到面门", "en": "It spits fire into your face."},
+        {"zh": "它的尾巴抽在你腰侧", "en": "Its tail whips your flank."},
+        {"zh": "它扑上来用爪子扒", "en": "It leaps and rakes with its claws."},
+        {"zh": "它的身体撞得你退了半步", "en": "Its body knocks you back half a step."},
+        {"zh": "它的牙咬合时溅出火星", "en": "Sparks fly as its teeth close."},
+        {"zh": "它咬空，热气喷在你脸上", "en": "It misses; heat blasts your face."},
+        {"zh": "它退开，重新张开嘴", "en": "It withdraws and gapes again."},
+        {"zh": "地面被它砸出一圈焦痕", "en": "A scorched ring marks the ground."},
+        {"zh": "它的第二口更近", "en": "The second bite comes closer."},
+        {"zh": "它被自己喷的火逼退", "en": "Its own fire drives it back."},
+        {"zh": "它的鳞被撞得掉了几片", "en": "Several scales break loose."},
+        {"zh": "它慢慢爬回热石上", "en": "It crawls slowly back onto the hot stone."},
+        {"zh": "我一口咬下去，火星溅在你甲上。", "en": "I bite down and sparks splash across your armor."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石缝里先冒出烟", "en": "Smoke rises from a crack first."},
+        {"zh": "焰蜥从裂缝里爬出来", "en": "The blazezard pulls out of the fissure."},
+        {"zh": "它的鳞还在冒火", "en": "Its scales are still alight."},
+        {"zh": "它抖了抖，火星落了一地", "en": "It shakes; sparks rain down."},
+        {"zh": "它抬头，看了你一眼", "en": "It lifts its head and looks at you."},
+        {"zh": "它慢慢把身体撑起", "en": "It levers its body up."},
+        {"zh": "它的尾巴扫过地面，留下焦痕", "en": "Its tail sweeps a scorch onto the ground."},
+        {"zh": "热气从它背后升起", "en": "Heat rises behind it."},
+        {"zh": "它的爪子抓着石头往前", "en": "Its claws grip the stone as it comes."},
+        {"zh": "它停在一臂之外", "en": "It stops an arm's length away."},
+        {"zh": "它的呼吸让空气发抖", "en": "Its breath makes the air quiver."},
+        {"zh": "它把嘴张开了", "en": "It opens its mouth."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰落在它身上，像被吞了", "en": "Fire lands on it and seems swallowed."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "落地时它的身体磕在石上", "en": "It hits stone hard on landing."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水浇下来，它冒起大片白汽", "en": "Water hits and it throws a wall of steam."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击掀掉它背上一片鳞", "en": "The blast strips a plate off its back."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭扎进鳞缝，它扭了一下", "en": "An arrow wedges between scales; it twists."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "怪力钻进体内，它的火乱了", "en": "Odd force enters and its fire gutters."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它的火光弱得几乎看不见", "en": "Its glow fades almost to nothing."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击劈下，它浑身一僵", "en": "Lightning strikes and it goes rigid."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空抽走热气，它越来越暗", "en": "The void draws off its heat and it dims."}
+      ]
+    }
+  }
+}

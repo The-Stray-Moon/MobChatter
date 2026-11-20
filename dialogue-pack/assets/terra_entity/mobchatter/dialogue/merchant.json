@@ -1,0 +1,256 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我推着货箱走", "en": "I push a crate along."},
+        {"zh": "我边走边算账", "en": "I count coins as I walk."},
+        {"zh": "我沿着摊子慢慢踱步。", "en": "I pace slowly along the stall."},
+        {"zh": "我挨着门口摆摊", "en": "I set up by the doorway."},
+        {"zh": "我在森林里找路", "en": "I find my way through the forest."},
+        {"zh": "我的钱袋在响", "en": "My coin pouch jingles."},
+        {"zh": "我慢慢踱过去", "en": "I stroll over."},
+        {"zh": "我把钱袋往腰带里塞。", "en": "I tuck my coin pouch into my belt."},
+        {"zh": "我走过去看看成色", "en": "I walk over to check the goods."},
+        {"zh": "我把货摆整齐", "en": "I arrange the wares."},
+        {"zh": "我一步一晃地走", "en": "I walk with a sway."},
+        {"zh": "我停在树荫下", "en": "I stop in the shade."},
+        {"zh": "我挪了挪背上的包", "en": "I shift the pack on my back."},
+        {"zh": "我把斗篷掖到臂弯里。", "en": "I tuck my cloak over my arm."},
+        {"zh": "我回头看了一眼摊子", "en": "I glance back at my stall."},
+        {"zh": "我又去下一户", "en": "I move on to the next house."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在这儿做买卖", "en": "I do business here."},
+        {"zh": "今天客人不多", "en": "Few customers today."},
+        {"zh": "我在数钱袋", "en": "I am counting my pouch."},
+        {"zh": "这棵树下面凉快", "en": "Nice and cool under this tree."},
+        {"zh": "我在等有人上门", "en": "I wait for someone to come by."},
+        {"zh": "货都摆好了", "en": "The goods are all laid out."},
+        {"zh": "今天的账本还差三行。", "en": "Today's ledger is three lines short."},
+        {"zh": "生意不好也得出摊", "en": "Bad trade, but the stall stays open."},
+        {"zh": "我的鞋底磨薄了", "en": "My soles are worn thin."},
+        {"zh": "这屋子里有人在吗", "en": "Is anyone in this house?"},
+        {"zh": "我在想价格", "en": "I am thinking about prices."},
+        {"zh": "风把摊前的招牌吹歪了。", "en": "The wind has skewed my stall sign."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "要买点什么", "en": "Looking to buy something?"},
+        {"zh": "你看看这些货", "en": "Have a look at these wares."},
+        {"zh": "铁锭换煤，公道吧", "en": "Iron for coal, fair enough?"},
+        {"zh": "你手里有多少钱", "en": "How much do you have on you?"},
+        {"zh": "我不赊账", "en": "I do not give credit."},
+        {"zh": "你可以先看看", "en": "Take your time looking."},
+        {"zh": "这价钱不能再低了", "en": "I cannot go lower."},
+        {"zh": "生面孔，先看看货。", "en": "A new face. Have a look at the wares."},
+        {"zh": "我这儿什么都有", "en": "I carry a bit of everything."},
+        {"zh": "你别摸，看看就行", "en": "Do not touch, just look."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你弄坏了我的货", "en": "You damaged my goods."},
+        {"zh": "我退到货架后面", "en": "I retreat behind the shelves."},
+        {"zh": "帽子掉地上了", "en": "My hat fell."},
+        {"zh": "这一下很贵", "en": "That one was costly."},
+        {"zh": "我的斗篷破了", "en": "My cloak is torn."},
+        {"zh": "我可是个生意人", "en": "I am a merchant, you know."},
+        {"zh": "钱袋还好好的", "en": "The pouch is safe."},
+        {"zh": "你别再来了", "en": "Do not come back."},
+        {"zh": "这账加在你身上", "en": "That goes on your account."},
+        {"zh": "我喊人了", "en": "I am calling for help."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有好货？", "en": "Goods to sell?"},
+        {"zh": "让我看看你带了什么", "en": "Let me see what you brought."},
+        {"zh": "这块成色不错", "en": "This one is decent quality."},
+        {"zh": "我出两个绿宝石", "en": "I will give two emeralds."},
+        {"zh": "不，这个价我亏", "en": "No, I would lose at that price."},
+        {"zh": "再添一点就成交", "en": "Sweeten it a little and it is a deal."},
+        {"zh": "你先放桌上", "en": "Put it on the table first."},
+        {"zh": "我摸摸口袋", "en": "I check my pocket."},
+        {"zh": "这买卖可以做", "en": "This deal can be done."},
+        {"zh": "成交", "en": "Deal."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞翻了我的货", "en": "You knocked over my wares."},
+        {"zh": "小心我的箱子", "en": "Careful with my crates."},
+        {"zh": "我扶住了摊子", "en": "I steadied the stall."},
+        {"zh": "这里人多，慢点走", "en": "Crowded here, walk slowly."},
+        {"zh": "你踩到我的斗篷了", "en": "You stepped on my cloak."},
+        {"zh": "我退到摊后", "en": "I step back behind the stall."},
+        {"zh": "帽子差点掉了", "en": "My hat nearly fell."},
+        {"zh": "货物滚了一地", "en": "Goods rolled everywhere."},
+        {"zh": "别挤，我一个一个来", "en": "No shoving, one at a time."},
+        {"zh": "我弯下腰捡", "en": "I bend to pick things up."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在做生意", "en": "I am doing business."},
+        {"zh": "这不合适，客人会看见", "en": "Not now, a customer might see."},
+        {"zh": "摊子还没收", "en": "The stall is not packed up."},
+        {"zh": "你身上有铜臭味", "en": "You smell of coin."},
+        {"zh": "这不谈价", "en": "This is not up for negotiation."},
+        {"zh": "我明天还要开张", "en": "I open again tomorrow."},
+        {"zh": "别碰我的钱袋", "en": "Do not touch my pouch."},
+        {"zh": "我这儿只谈买卖", "en": "I only talk trade here."},
+        {"zh": "别耽误我做生意", "en": "Do not hold up my trade."},
+        {"zh": "生意要紧", "en": "Trade comes first."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这个我收", "en": "I will take this."},
+        {"zh": "掉在地上的我捡", "en": "I pick up what falls."},
+        {"zh": "这还能卖", "en": "This can still be sold."},
+        {"zh": "这成色，值两个银币。", "en": "This quality is worth two silver."},
+        {"zh": "放进货箱", "en": "Into the crate."},
+        {"zh": "这玩意儿压得我手腕一沉。", "en": "It drops my wrist with its weight."},
+        {"zh": "这算白捡", "en": "Found money, then."},
+        {"zh": "我记在账上", "en": "I note it in the ledger."},
+        {"zh": "有人会想要这个", "en": "Someone will want this."},
+        {"zh": "别跟我抢买卖", "en": "Do not compete with my trade."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你拿了东西没付钱", "en": "You took goods without paying."},
+        {"zh": "这账得算清楚", "en": "This account needs settling."},
+        {"zh": "我的钱袋呢", "en": "Where is my coin pouch?"},
+        {"zh": "你袖子里鼓着什么", "en": "What is bulging in your sleeve?"},
+        {"zh": "你袖口鼓的东西露角了。", "en": "Whatever is in your sleeve is showing."},
+        {"zh": "站住，别走", "en": "Stop, do not walk off."},
+        {"zh": "这屋子里的人都看着", "en": "Everyone in this house is watching."},
+        {"zh": "我这儿不欢迎小偷", "en": "Thieves are not welcome here."},
+        {"zh": "你还想跑出门", "en": "And you plan to run out the door?"},
+        {"zh": "先把东西放回去", "en": "Put it back first."},
+        {"zh": "我不喜欢动手", "en": "I dislike violence."},
+        {"zh": "但账不能不算", "en": "But accounts must be settled."},
+        {"zh": "你别装傻", "en": "Do not play dumb."},
+        {"zh": "这一单你吃亏", "en": "You will lose on this one."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你退到货架后面了", "en": "You are behind the shelves."},
+        {"zh": "门口我让人守着", "en": "I have someone at the door."},
+        {"zh": "这屋子只有一个出口", "en": "One exit to this house."},
+        {"zh": "我数你往门口走了几步", "en": "I count your steps toward the door."},
+        {"zh": "你手伸进背包了", "en": "Your hand went into your bag."},
+        {"zh": "这里是我的店", "en": "This is my shop."},
+        {"zh": "我在森林一带做了很久", "en": "I have traded in these woods a long while."},
+        {"zh": "价格可以谈，东西不能拿", "en": "Prices are negotiable, goods are not."},
+        {"zh": "别把货弄乱", "en": "Do not mess up the wares."},
+        {"zh": "你身上带着铁器", "en": "You are carrying iron goods."},
+        {"zh": "我人不快，但眼尖", "en": "I am not fast, but my eyes are sharp."},
+        {"zh": "你踩响了地板", "en": "You made the floor creak."},
+        {"zh": "我可以退一步", "en": "I can concede a step."},
+        {"zh": "你把东西放桌上，我们就此算了", "en": "Set it on the table and we forget this."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "秤杆横着扫你的膝。", "en": "The scale beam sweeps across your knee."},
+        {"zh": "这一下算利息", "en": "That one is interest."},
+        {"zh": "你被打得退到货架", "en": "You are knocked into the shelves."},
+        {"zh": "我的拐杖很结实", "en": "My cane is sturdy."},
+        {"zh": "你的货滚到地上了", "en": "Your goods rolled onto the floor."},
+        {"zh": "我一把扣住你数钱的手。", "en": "I seize the hand you count coins with."},
+        {"zh": "货都撒了", "en": "The goods spilled."},
+        {"zh": "这一下抵那笔账", "en": "That settles that debt."},
+        {"zh": "我不常动手", "en": "I do not often fight."},
+        {"zh": "你退不出这个门", "en": "You are not leaving through that door."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我挑了个好位置", "en": "I picked a good spot."},
+        {"zh": "森林一带的生意我熟", "en": "I know the trade in these woods."},
+        {"zh": "摊子支起来了", "en": "The stall is up."},
+        {"zh": "我叫了一声招揽客人", "en": "I call out for customers."},
+        {"zh": "这房子里有炉子吗", "en": "Is there a furnace in this house?"},
+        {"zh": "我把货摆开", "en": "I lay out my wares."},
+        {"zh": "路上有人经过", "en": "People pass on the road."},
+        {"zh": "我得找个人家住下", "en": "I need a house to settle in."},
+        {"zh": "这里离村子不远", "en": "The village is close."},
+        {"zh": "钱袋还满着", "en": "My pouch is still full."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "货箱烧了，全烧了", "en": "The crates burned, all of them."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从货堆上摔下来", "en": "I fell off the crate stack."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水把我的货泡了", "en": "Water soaked my wares."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摊子被炸散了", "en": "The stall was blown apart."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭穿过了我的货箱", "en": "An arrow went through my crate."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股力量把价格都打乱了", "en": "That power scrambled every price."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我今天一单都没做成", "en": "I made no sale today."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈中了我的摊子", "en": "Lightning hit my stall."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "连货都没了", "en": "Even the goods are gone."}
+      ]
+    }
+  }
+}

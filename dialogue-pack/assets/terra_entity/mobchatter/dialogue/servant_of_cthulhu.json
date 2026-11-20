@@ -1,0 +1,256 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我浮在空中，摇摇晃晃。", "en": "I float in the air, wobbling."},
+        {"zh": "我的肉翼拍得很慢。", "en": "My fleshy wings beat slowly."},
+        {"zh": "我朝你飘过去。", "en": "I drift toward you."},
+        {"zh": "我的身体像一颗眼球。", "en": "My body is like an eyeball."},
+        {"zh": "我螺旋着往你那边收。", "en": "I spiral inward toward you."},
+        {"zh": "我贴地飞了一段。", "en": "I fly low for a stretch."},
+        {"zh": "翅膀一扇我又飘高了。", "en": "One beat of my wings lifts me higher."},
+        {"zh": "我一路留下黏液。", "en": "I leave a trail of slime."},
+        {"zh": "我的触须在下面摆。", "en": "My tendrils sway beneath me."},
+        {"zh": "我一跳一跳地往前飘。", "en": "I drift forward in little hops."},
+        {"zh": "我穿过了草丛。", "en": "I pass through the grass."},
+        {"zh": "我朝你侧面靠。", "en": "I angle toward your flank."},
+        {"zh": "我停了一下，又动。", "en": "I stop, then move again."},
+        {"zh": "我飘的路线总是歪的。", "en": "My drifting path is never straight."},
+        {"zh": "地上的影子跟着我抖。", "en": "My shadow shivers along the ground."},
+        {"zh": "我又往你那边挪了挪。", "en": "I edge a little closer to you."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我悬着，慢慢起伏。", "en": "I hang, rising and falling slowly."},
+        {"zh": "我不需要眨眼，也不用睡。", "en": "I never blink, and I never sleep."},
+        {"zh": "黑暗里有声音在动。", "en": "Something is moving in the dark."},
+        {"zh": "我发出细微的湿响。", "en": "I make a soft wet sound."},
+        {"zh": "我的翅膀收了一半。", "en": "My wings are half folded."},
+        {"zh": "我迟迟没有动。", "en": "I have not stirred yet."},
+        {"zh": "我歪了一下，稳住。", "en": "I tilt and steady."},
+        {"zh": "那边有很淡的呼吸声。", "en": "There is faint breathing over there."},
+        {"zh": "我的触须卷起来。", "en": "My tendrils curl."},
+        {"zh": "主人还没给我指方向。", "en": "My master has not pointed me anywhere yet."},
+        {"zh": "我在等黑暗变浓。", "en": "I wait for the dark to thicken."},
+        {"zh": "我的身体又开始翻滚。", "en": "My body starts to roil again."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把整只眼对准了你。", "en": "I aim my whole eye at you."},
+        {"zh": "我这一只眼比你的头还大。", "en": "My one eye is bigger than your head."},
+        {"zh": "你被我看着。", "en": "You are being watched."},
+        {"zh": "我把眼凑到你眼前。", "en": "I bring my eye up to yours."},
+        {"zh": "我能感觉到你。", "en": "I can sense you."},
+        {"zh": "我的翅膀慢慢展开。", "en": "My wings spread slowly."},
+        {"zh": "你没有躲。", "en": "You did not flinch."},
+        {"zh": "我在你的呼吸里。", "en": "I am in your breathing."},
+        {"zh": "你该退后了。", "en": "You should step back."},
+        {"zh": "我的翅膀开始抖了。", "en": "My wings have begun to tremble."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在半空打了个摆。", "en": "I lurch sideways in the air."},
+        {"zh": "我的光暗了。", "en": "My glow dims."},
+        {"zh": "我被撞得往后滑了一段。", "en": "I slide back a short way from the blow."},
+        {"zh": "黏液滴下来。", "en": "Slime drips."},
+        {"zh": "我发出尖细的声音。", "en": "I make a thin sound."},
+        {"zh": "左边那片翼膜塌了下去。", "en": "The membrane on my left side has caved in."},
+        {"zh": "我打了个旋才找回平衡。", "en": "I spin once before I find my balance."},
+        {"zh": "我不太稳了。", "en": "I am unsteady."},
+        {"zh": "我还没散。", "en": "I have not scattered."},
+        {"zh": "我认下你汗里的味道。", "en": "I have learned the smell of your sweat."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "喂食对我是多余的事。", "en": "Feeding me is a pointless business."},
+        {"zh": "你放下来。", "en": "Put it down."},
+        {"zh": "我连牙都没有一颗。", "en": "I do not have a single tooth."},
+        {"zh": "我只需要别的东西。", "en": "I need something else."},
+        {"zh": "我飘到一边。", "en": "I drift aside."},
+        {"zh": "这东西没有气味。", "en": "This has no smell."},
+        {"zh": "这种死物引不动我。", "en": "Dead things like that do not draw me."},
+        {"zh": "看它做什么？", "en": "Why look at it?"},
+        {"zh": "我绕着那东西转开。", "en": "I drift around that thing and away."},
+        {"zh": "你的手骗不了我。", "en": "Your hand does not fool me."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到我，我飘开了。", "en": "You bump me and I drift away."},
+        {"zh": "撞上我就像撞一团湿布。", "en": "Hitting me is like hitting wet cloth."},
+        {"zh": "黏液蹭到了你。", "en": "Slime smears on you."},
+        {"zh": "我又浮回来。", "en": "I float back."},
+        {"zh": "我贴了一下你的肩。", "en": "I press briefly against your shoulder."},
+        {"zh": "我的冷渗进你的皮肤。", "en": "My cold seeps into your skin."},
+        {"zh": "我弹开了半尺。", "en": "I bounce off half a block."},
+        {"zh": "撞上了，也只有黏液响。", "en": "We collide, and only slime makes a sound."},
+        {"zh": "我的翅膀拍在你耳边。", "en": "My wing beats by your ear."},
+        {"zh": "我退到高处。", "en": "I retreat upward."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗里还有别的。", "en": "There are others in the dark."},
+        {"zh": "它们都在等他。", "en": "They are all waiting for him."},
+        {"zh": "我们几只贴成一团湿肉。", "en": "We press into one wet mass."},
+        {"zh": "我们靠翅膜震动交谈。", "en": "We talk by trembling our wing membranes."},
+        {"zh": "我的眼睛和它们的眼睛一起亮。", "en": "My eye lights with theirs."},
+        {"zh": "我们在低处盘旋。", "en": "We circle low."},
+        {"zh": "我们慢慢地飞。", "en": "We fly slowly."},
+        {"zh": "谁也没有靠近谁。", "en": "None comes near another."},
+        {"zh": "我们等着被召唤。", "en": "We wait to be called."},
+        {"zh": "黑暗又安静了。", "en": "The dark is quiet again."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "触须一圈圈缠住它。", "en": "My tendrils coil around it."},
+        {"zh": "我把它托在空中。", "en": "I hold it in the air."},
+        {"zh": "它轻得像一片干皮。", "en": "It is as light as a scrap of dried skin."},
+        {"zh": "它从我身上滑了下去。", "en": "It slips off me."},
+        {"zh": "我又捞起来。", "en": "I scoop it up again."},
+        {"zh": "我不知道它有什么用。", "en": "I do not know what it is for."},
+        {"zh": "我把它轻轻推到你鞋尖。", "en": "I nudge it to the tip of your boot."},
+        {"zh": "我不要。", "en": "I do not want it."},
+        {"zh": "这东西硬得硌到触须。", "en": "This thing is hard enough to hurt my tendrils."},
+        {"zh": "它掉进了我的身体里。", "en": "It sinks into my body."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在暗处我照样看得见。", "en": "I see you plainly, even in the dark."},
+        {"zh": "眼球里有什么东西醒了。", "en": "Something has woken inside my eye."},
+        {"zh": "我收翅，直直扎向你。", "en": "I fold my wings and dive at you."},
+        {"zh": "我的翅膀张到最大。", "en": "My wings spread wide."},
+        {"zh": "你跑不掉。", "en": "You cannot run."},
+        {"zh": "我在加速。", "en": "I am accelerating."},
+        {"zh": "这次是短冲。", "en": "This is a short dash."},
+        {"zh": "我贴着地面来了。", "en": "I come in low."},
+        {"zh": "这只眼睛只装得下你。", "en": "This eye has room only for you."},
+        {"zh": "你一回头就会看见我。", "en": "Turn your head and you will see me."},
+        {"zh": "往上看，我就在你鼻尖上。", "en": "Look up. I am right at your nose."},
+        {"zh": "躲到哪里我都能追到。", "en": "Wherever you hide, I will follow."},
+        {"zh": "那湿响是我在靠近。", "en": "That wet sound is me closing in."},
+        {"zh": "我在动。", "en": "I am moving."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我沿着你的轮廓盘旋。", "en": "I circle along the shape of you."},
+        {"zh": "我的影子扫过你。", "en": "My shadow sweeps across you."},
+        {"zh": "我听得见你脚步发慌。", "en": "I hear your steps losing their nerve."},
+        {"zh": "我在你后颈上方悬着。", "en": "I hang above the back of your neck."},
+        {"zh": "我松开高度。", "en": "I drop altitude."},
+        {"zh": "墙已经堵在你背后了。", "en": "The wall is already at your back."},
+        {"zh": "我又一次压低了翅膀冲。", "en": "Once more I sweep in low on my wings."},
+        {"zh": "你侧身避开。", "en": "You twist aside."},
+        {"zh": "我的翅膀刮到了你。", "en": "My wing scrapes you."},
+        {"zh": "我连一次翅膀都没收。", "en": "I have not folded my wings once."},
+        {"zh": "阴影从你头顶罩下来。", "en": "My shadow falls over your head."},
+        {"zh": "你终于抬头找我了。", "en": "You finally look up for me."},
+        {"zh": "我几乎贴到你了。", "en": "I am almost on you."},
+        {"zh": "这一片都是我们的。", "en": "This ground is ours."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把整个身子撞向你。", "en": "I slam my whole body into you."},
+        {"zh": "我的触须抽到你。", "en": "My tendril lashes you."},
+        {"zh": "我用身体压你。", "en": "I press my body onto you."},
+        {"zh": "我的翅膀边缘划开你的皮。", "en": "My wing edge opens your skin."},
+        {"zh": "你挥开我。", "en": "You bat me away."},
+        {"zh": "我压着你的脸不放。", "en": "I press down over your face."},
+        {"zh": "我的眼睛离你很近。", "en": "My eye is very close."},
+        {"zh": "你的皮肤起了疙瘩。", "en": "Your skin prickles."},
+        {"zh": "第二下撞在你胸口。", "en": "The second blow lands on your chest."},
+        {"zh": "你被我顶着往后退。", "en": "I drive you backwards."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗里浮出一颗眼。", "en": "An eye surfaces in the dark."},
+        {"zh": "我从黏液的池子里升起。", "en": "I rise from the pool of slime."},
+        {"zh": "我的翅膀第一次张开。", "en": "My wings open for the first time."},
+        {"zh": "这一带的空气变湿了。", "en": "The air here turns damp."},
+        {"zh": "我漂浮着，四下张望。", "en": "I float and look around."},
+        {"zh": "谁把我唤醒，我就等谁。", "en": "I wait for whoever woke me."},
+        {"zh": "我的触须垂下来。", "en": "My tendrils hang down."},
+        {"zh": "我的眼睛慢慢转向你。", "en": "My eye turns slowly toward you."},
+        {"zh": "我发出湿滑的响声。", "en": "I make a wet, sliding sound."},
+        {"zh": "我升到你的视线高度。", "en": "I rise to your eye level."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎到我的翅膀，它卷了起来。", "en": "Fire catches my wing and it curls."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔在地上，摊成一滩。", "en": "I hit the ground and spread into a puddle."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水把我裹住了。", "en": "Water closes around me."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我吹散了一半。", "en": "The blast scatters half of me."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭从我软肉里穿了出去。", "en": "The arrow passed straight through my soft flesh."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咒光烧掉我一片翅膀。", "en": "Spell-light burns away a piece of wing."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我越来越轻了。", "en": "I grow lighter and lighter."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光把黑暗照白，我缩紧。", "en": "Lightning whitens the dark and I clench tight."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空把我吸得很慢。", "en": "The void draws me in slowly."}
+      ]
+    }
+  }
+}

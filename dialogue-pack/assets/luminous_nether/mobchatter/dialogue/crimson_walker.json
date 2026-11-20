@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出低沉的嘶嘶声，步履沉重地向前移动。", "en": "Makes a low hiss, moving heavily forward."},
+        {"zh": "皮肤下的血管清晰可见，它缓缓行走。", "en": "Veins under the skin are visible as it moves slowly."},
+        {"zh": "干枯的肢体在空中挥动，向前挪动。", "en": "Dry limbs swing in the air as it moves forward."},
+        {"zh": "缓慢张开嘴巴，露出锋利的牙齿。", "en": "Slowly opens its mouth, revealing sharp teeth."},
+        {"zh": "用干枯的手指抓地，似乎在寻找食物。", "en": "Uses its dry fingers to dig at the ground."},
+        {"zh": "从远处缓缓挪动，像被感染一样。", "en": "Moves slowly from afar, as if infected."},
+        {"zh": "步履蹒跚地移动，每一步都显得非常吃力。", "en": "Shuffles forward, each step extremely difficult."},
+        {"zh": "干瘪的身体在空中摇晃，仿佛要倾倒。", "en": "Flaccid body sways in the air, as if about to collapse."},
+        {"zh": "发出轻微的呻吟声，步履蹒跚地前进。", "en": "Makes a faint moan, shuffling forward."},
+        {"zh": "皮肤在风中飘扬，它缓慢前行。", "en": "Skin flutters in the wind as it moves slowly"},
+        {"zh": "脚下的菌岩被踩成黑水", "en": "The nylium underfoot squashes into black water."},
+        {"zh": "腐肉一片片从身上掉落", "en": "Rotting flesh drops off me in pieces."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "懒洋洋地站立，偶尔抖动身体。", "en": "Lazily stands, occasionally shudders."},
+        {"zh": "在原地徘徊，似乎在寻找什么。", "en": "Walks in circles, as if searching for something."},
+        {"zh": "凝视着空气中的某个点，似乎在思考。", "en": "Stares at a point in the air, as if thinking."},
+        {"zh": "用干枯的手指抓挠自己，似乎在自我折磨。", "en": "Scratches itself with its dry fingers."},
+        {"zh": "摇摇欲坠地站立，随时可能倒下。", "en": "Faintly stands, ready to collapse."},
+        {"zh": "用锐利的目光环视四周，寻找目标。", "en": "Scans the area with sharp eyes."},
+        {"zh": "低头观察地面，似乎在寻找食物。", "en": "Bends down to examine the ground."},
+        {"zh": "缓慢地摇晃身体，似乎在自我舒缓。", "en": "Shakes its body slowly."},
+        {"zh": "用手指在空中比划，似乎在做些什么。", "en": "Draws in the air with its fingers."},
+        {"zh": "懒散地站立，偶尔抖动一下身体。", "en": "Lazily stands, occasionally shudders"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "突然抬头，露出锋利的眼睛盯着玩家。", "en": "Suddenly lifts its head, sharp eyes fixed on the player."},
+        {"zh": "在发现玩家后，身体突然紧张起来。", "en": "Becomes tense upon spotting the player."},
+        {"zh": "用尖锐的声音警告玩家靠近的危险。", "en": "Issues a sharp warning to the player."},
+        {"zh": "迅速转头，用干枯的手指指向玩家。", "en": "Swiftly turns, pointing at the player with dry fingers."},
+        {"zh": "身体向玩家方向倾斜，似乎准备攻击。", "en": "leans towards the player, ready to attack."},
+        {"zh": "发出轻微的警告声，警告玩家保持距离。", "en": "Makes a faint warning sound, keeping the player at bay."},
+        {"zh": "用干枯的手指指向玩家，威胁意味浓厚。", "en": "Points at the player with dry fingers, threateningly."},
+        {"zh": "紧张地盯着玩家，仿佛准备随时扑上去。", "en": "Stares intently at the player, ready to pounce."},
+        {"zh": "尖锐的目光盯着玩家，似乎在评估威胁。", "en": "Sharp eyes fixed on the player, assessing the threat."},
+        {"zh": "用手指指向玩家，似乎在传达某种信息。", "en": "Points at the player with a finger, conveying something."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐朽的身躯开始龟裂。", "en": "Decaying flesh begins to crack."},
+        {"zh": "伤口流出黑褐色的脓液。", "en": "Blackish-brown pus oozes from the wound."},
+        {"zh": "绯红的皮肉在嘶嘶作响。", "en": "My crimson flesh hisses as it rots."},
+        {"zh": "我的血滴在菌岩上，冒起白沫。", "en": "My blood drips on the fungal rock and foams."},
+        {"zh": "腐烂的肉体开始腐化。", "en": "Decaying flesh begins to rot."},
+        {"zh": "腐肉裂开，流出黑水。", "en": "Decaying flesh cracks and black liquid flows out."},
+        {"zh": "伤口流出黏稠的液体。", "en": "A thick liquid oozes from the wound."},
+        {"zh": "腐烂的肉块开始脱落。", "en": "Decaying flesh chunks begin to fall off."},
+        {"zh": "腐肉散发出恶臭。", "en": "Decaying flesh gives off a foul stench."},
+        {"zh": "腐肉开始干涸。", "en": "Decaying flesh begins to dry up."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥火中燃烧，绯红森林的呼唤诱惑着你。", "en": "Burn with hunger, the crimson forest whispers to you."},
+        {"zh": "血液中的召唤，来自绯红森林深处。", "en": "A call in your blood, from the depths of the crimson forest."},
+        {"zh": "腐烂的气息，引诱你深入森林。", "en": "Rotten scent, luring you deeper into the forest."},
+        {"zh": "腥红的光芒，勾引你踏入未知。", "en": "Crimson light, tempting you into the unknown."},
+        {"zh": "腐化的呼吸，让你无法抗拒。", "en": "Corrupted breath, irresistible to you."},
+        {"zh": "绯红的幻象，模糊了你的判断。", "en": "Crimson illusions, blurring your judgment."},
+        {"zh": "腐朽的低语，唤醒了你的本能。", "en": "腐朽的低语, awakening your instincts."},
+        {"zh": "血肉的诱惑，无法摆脱。", "en": "Meat's allure, impossible to resist."},
+        {"zh": "腐肉的呼唤，引你走向深渊。", "en": "Corpse's call, leading you to the abyss."},
+        {"zh": "绯红的血滴，是你无法忽视的诱惑。", "en": "Crimson drops, an irresistible temptation."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击，绯红的力量撕裂你的防御。", "en": "Impact, crimson force breaches your defense."},
+        {"zh": "硬壳破裂，绯红之力穿透而来。", "en": "Shell breaks, crimson power pierces."},
+        {"zh": "硬壳被撞碎，鲜血四溅。", "en": "Shell shattered, blood splatters."},
+        {"zh": "硬壳在冲击下粉碎，血液飞溅。", "en": "Shell crushed under impact, blood splashes."},
+        {"zh": "绯红的冲击，将你打入深渊。", "en": "Crimson impact, sending you to the depths."},
+        {"zh": "硬壳在撞击下破碎，鲜血淋漓。", "en": "Shell cracks under impact, blood flows."},
+        {"zh": "绯红的力道，击破你的防御。", "en": "Crimson strength, breaching your defense."},
+        {"zh": "硬壳在碰撞中破裂，鲜血喷溅。", "en": "Shell breaks in collision, blood sprays."},
+        {"zh": "硬壳被撞破，血液如泉涌出。", "en": "Shell burst, blood gushes out."},
+        {"zh": "绯红之力击碎硬壳，鲜血狂涌。", "en": "Crimson force shatters shell, blood pours."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "绯红森林中，寻找你的伴侣。", "en": "In the crimson forest, seek your mate."},
+        {"zh": "绯红的光芒中，寻找你的另一半。", "en": "Amidst crimson light, seek your other half."},
+        {"zh": "绯红的诱惑，召唤你的同类。", "en": "Crimson allure, summoning your kind."},
+        {"zh": "绯红的力量，引导你寻找同伴。", "en": "Crimson power, guiding you to find your companion."},
+        {"zh": "绯红的森林，是你们的归宿。", "en": "Crimson forest, your home."},
+        {"zh": "绯红之光，指引你找到伴侣。", "en": "Crimson light, guiding you to your mate."},
+        {"zh": "绯红的力量，让你渴望同类。", "en": "Crimson power, making you crave your kind."},
+        {"zh": "绯红的森林，是你们的结合之地。", "en": "Crimson forest, your place of union."},
+        {"zh": "绯红的呼唤，召唤你的另一半。", "en": "Crimson call, summoning your other half."},
+        {"zh": "绯红之光，照亮你们的相遇。", "en": "Crimson light, shining on your meeting."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "皮肤闪烁着绯红的光芒。", "en": "Skin glows with a crimson light."},
+        {"zh": "腐烂的手臂向你伸来。", "en": "Rotting arms reach out to you."},
+        {"zh": "你的血肉在它的触碰下颤抖。", "en": "Your flesh trembles under its touch."},
+        {"zh": "捡起来带回去，感染一片。", "en": "Pick it up. One touch infects a crowd."},
+        {"zh": "死亡的气息弥漫开来。", "en": "Death's presence permeates the air."},
+        {"zh": "腐烂的指甲几乎触碰到你。", "en": "Rotten nails barely miss you."},
+        {"zh": "它腐烂的皮肉发出嘶嘶声。", "en": "Its rotting flesh hisses."},
+        {"zh": "它靠近了，你感到一阵寒意。", "en": "It approaches, sending shivers down your spine."},
+        {"zh": "它的血液是黑色的。", "en": "Its blood is black."},
+        {"zh": "它在你的阴影中窥视。", "en": "It窥视 in your shadow."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它发现了一个新的目标。", "en": "It has acquired a new target."},
+        {"zh": "它正瞄准你。", "en": "It is targeting you."},
+        {"zh": "你身上的血肉味让我停步。", "en": "The smell of your flesh stops me in place."},
+        {"zh": "我拖着脚步，跟着你的血味走。", "en": "I drag my feet, following the smell of your blood."},
+        {"zh": "它在空气中感应到你的气息。", "en": "It senses your presence in the air."},
+        {"zh": "你呼出的气，菌丝先闻到了。", "en": "My hyphae smell your breath before I do."},
+        {"zh": "你感到它的气息在你周围。", "en": "You feel its presence around you."},
+        {"zh": "它似乎知道你的位置。", "en": "It seems to know your position."},
+        {"zh": "我在菌岩下面听见你的脚步。", "en": "Under the fungal rock, I hear your steps."},
+        {"zh": "它在等待你的出现。", "en": "It waits for your appearance."},
+        {"zh": "血的味道从那边飘来", "en": "The smell of blood drifts over from there."},
+        {"zh": "我停下了无意义的摇晃", "en": "My meaningless swaying stops."},
+        {"zh": "它能听见我在数它的呼吸", "en": "It can hear me counting its breaths."},
+        {"zh": "绯红的孢子指向了它", "en": "The crimson spores point at it."},
+        {"zh": "该去找下一个宿主了", "en": "Time to find a new host."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它的触碰将你吞噬。", "en": "Its touch devours you."},
+        {"zh": "它向你发起攻击。", "en": "It attacks you."},
+        {"zh": "你感受到了它的愤怒。", "en": "You feel its anger."},
+        {"zh": "它发出嘶嘶的尖叫声。", "en": "It hisses a sharp cry."},
+        {"zh": "它那腐烂的身躯向你扑来。", "en": "Its rotting body lunges at you."},
+        {"zh": "它的刀片般锋利的指甲划过你。", "en": "Its blade-like nails slice you."},
+        {"zh": "我把感染的雾往你那边吹。", "en": "I blow the infected mist toward you."},
+        {"zh": "它的咬合力惊人。", "en": "Its bite is powerful."},
+        {"zh": "它用嘶嘶声威胁你。", "en": "It threatens you with hisses."},
+        {"zh": "它的尖刺击中了你。", "en": "Its spikes pierce you."},
+        {"zh": "我把感染吹向它", "en": "I blow the infection toward it."},
+        {"zh": "我的血滴在它的脚边", "en": "My blood drips by its feet."},
+        {"zh": "它碰过的地方留下红痕", "en": "Where it touched, red marks remain."},
+        {"zh": "我拖着它往森林深处", "en": "I drag it deeper into the forest."},
+        {"zh": "它开始流血了", "en": "It has started bleeding."},
+        {"zh": "我的指缝里都是孢子", "en": "Spores fill the gaps between my fingers."},
+        {"zh": "越靠近它我越兴奋", "en": "The closer I get, the more excited I am."},
+        {"zh": "我把它引到菌岩下面", "en": "I lure it under the nylium."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐肉裂开，里面的菌丝伸向你。", "en": "My rotten flesh splits, hyphae reaching for you."},
+        {"zh": "我的指甲里全是绯红的孢子。", "en": "My nails are packed with crimson spores."},
+        {"zh": "你的血肉，将是我的养分！", "en": "Your flesh will nourish me!"},
+        {"zh": "痛苦将伴随你到尽头！", "en": "Pain will accompany you to the end!"},
+        {"zh": "你躲不开我的利爪！", "en": "You can't escape my claws!"},
+        {"zh": "你完了，求饶吧！", "en": "You're done, beg for mercy!"},
+        {"zh": "血肉之躯，不堪一击！", "en": "Flesh and blood can't stand it!"},
+        {"zh": "你的哀嚎，将被我的死亡腐蚀！", "en": "Your screams will be corrupted by my death!"},
+        {"zh": "我把溃烂的嘴唇压向你的伤口。", "en": "I press my festering lips toward your wound."},
+        {"zh": "你的生命，将在我脚下终结！", "en": "Your life will end beneath my feet!"},
+        {"zh": "抓开的伤口泛着绯红", "en": "The gash I open glows crimson."},
+        {"zh": "我把腐肉塞进它嘴里", "en": "I shove rotten flesh into its mouth."},
+        {"zh": "指甲断了，血还在流", "en": "My nail snaps, blood still flowing."},
+        {"zh": "它打我，我笑出了声", "en": "It strikes me and I laugh."},
+        {"zh": "我把血抹在它的脸上", "en": "I smear my blood across its face."},
+        {"zh": "这一击带着感染的种子", "en": "This blow carries the seed of infection."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "绯红森林的阴影下诞生！", "en": "Spawned in the shadow of the Crimson Forest!"},
+        {"zh": "黑暗中，我悄然降临！", "en": "I appear in the darkness!"},
+        {"zh": "感染者，新的生命！", "en": "Infected, new life!"},
+        {"zh": "绯红森林的猎物，准备迎接我吧！", "en": "Crimson Forest prey, prepare for me!"},
+        {"zh": "绯红森林，我的家！", "en": "The Crimson Forest, my home!"},
+        {"zh": "在死亡中延续，我从未孤独！", "en": "I never feel lonely in death!"},
+        {"zh": "绯红森林的夜，我的时刻！", "en": "The night of the Crimson Forest, my time!"},
+        {"zh": "黑暗与死亡，我唯一的伴侣！", "en": "Darkness and death, my only companions!"},
+        {"zh": "等待我的，是无尽的黑暗！", "en": "My fate is eternal darkness!"},
+        {"zh": "绯红森林的菌岩裂开了", "en": "The nylium of the crimson forest splits."},
+        {"zh": "血从树根下面渗上来", "en": "Blood seeps up from beneath the roots."},
+        {"zh": "我从腐叶里坐起身", "en": "I sit up out of the rotting leaves."},
+        {"zh": "孢子云散开，我出现了", "en": "The spore cloud clears and I am here."},
+        {"zh": "这片森林又多了个病人", "en": "This forest has one more sick thing."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火舌卷过，我的腐肉在冒烟。", "en": "Flames curl over me; my rotten flesh smokes."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "跌落的冲击震裂了我的骨骼。", "en": "Impact from the fall cracks my bones."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我死在绯红森林，还会爆开。", "en": "I died in the crimson forest. I still burst."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸的冲击撕裂了我的肉体。", "en": "Explosion tears my flesh apart."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢穿透了我的心脏。", "en": "Arrow pierces my heart."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔咒撕裂了我的身体。", "en": "Spell tears my body apart."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的血蒸成了绯红的雾。", "en": "My blood steams into crimson mist."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闪电撕裂了我的皮肤。", "en": "Lightning rips through my skin."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我死了会炸出一团菌雾。", "en": "My death bursts into a cloud of spores."}
+      ]
+    }
+  }
+}

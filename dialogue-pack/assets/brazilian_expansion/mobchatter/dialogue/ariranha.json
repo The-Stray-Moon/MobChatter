@@ -1,0 +1,267 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴着水面游，头和背露在外面。", "en": "I swim with head and back above the surface."},
+        {"zh": "四条腿在水下快速划。", "en": "Four legs paddle fast beneath me."},
+        {"zh": "水从我的长须边滑过去。", "en": "Water slips past my long whiskers."},
+        {"zh": "我爬上泥岸，抖了抖身子。", "en": "I climb the bank and shake myself."},
+        {"zh": "湿脚印一串串留在岸上。", "en": "Wet prints trail along the bank."},
+        {"zh": "我沿着河岸跑起来。", "en": "I break into a run along the shore."},
+        {"zh": "个子不小，动作很快。", "en": "I am not small, but I am quick."},
+        {"zh": "我钻进芦苇里，芦苇分开又合上。", "en": "I push into the reeds; they part and close."},
+        {"zh": "我踩着河石一路小跑。", "en": "I trot along the river stones."},
+        {"zh": "我朝鱼群的方向去。", "en": "I head for the shoal."},
+        {"zh": "尾巴在水面拍了一下。", "en": "My tail slaps the surface once."},
+        {"zh": "我回头看了看身后。", "en": "I glance behind me."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我坐在岸边，毛还在滴水。", "en": "I sit on the bank, fur still dripping."},
+        {"zh": "我用前爪擦脸。", "en": "I wipe my face with a forepaw."},
+        {"zh": "抬头嗅了嗅风。", "en": "I lift my nose and test the wind."},
+        {"zh": "有鱼的味道，很远。", "en": "Fish scent, far off."},
+        {"zh": "河面很平。", "en": "The river is flat."},
+        {"zh": "岸边有我踩出来的路。", "en": "There is a path worn by my feet."},
+        {"zh": "我用牙理了理胸口的毛。", "en": "I groom my chest with my teeth."},
+        {"zh": "孩子们在浅水里打闹。", "en": "The young ones splash in the shallows."},
+        {"zh": "它们安静下来。", "en": "They go quiet."},
+        {"zh": "我又转过头看河。", "en": "I turn back to the river."},
+        {"zh": "等太阳低一点再下水。", "en": "I will swim again when the sun drops."},
+        {"zh": "现在先晒着。", "en": "For now, I dry."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从水边抬起头。", "en": "I raise my head from the water's edge."},
+        {"zh": "你踩在我的路上。", "en": "You are standing on my path."},
+        {"zh": "我打量你，没有退。", "en": "I size you up and do not retreat."},
+        {"zh": "我的牙很粗，露在外面。", "en": "My teeth are thick and showing."},
+        {"zh": "我低低地吼了一声。", "en": "I growl low."},
+        {"zh": "那是在说让开。", "en": "That means move."},
+        {"zh": "我又吼了一次，更响。", "en": "I growl again, louder."},
+        {"zh": "孩子们退到我身后。", "en": "The young ones slip behind me."},
+        {"zh": "我往前压了一步。", "en": "I press one step forward."},
+        {"zh": "你后退，我的胡须在抖。", "en": "You back off and my whiskers twitch."},
+        {"zh": "我又回到水边。", "en": "I return to the water's edge."},
+        {"zh": "坐下了。", "en": "And sit."},
+        {"zh": "这次是背对你。", "en": "This time my back is to you."},
+        {"zh": "我的耳朵很小，一直朝你转。", "en": "My small ears keep turning toward you."},
+        {"zh": "我把头低到水面。", "en": "I lower my head to the water."},
+        {"zh": "这样我能闻到你的手。", "en": "This way I can smell your hands."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我翻了个身，水花溅起。", "en": "I roll and water sprays up."},
+        {"zh": "毛上多了道口子。", "en": "A cut opens in my fur."},
+        {"zh": "我吼了一声。", "en": "I snarl once."},
+        {"zh": "退了半步，又撑住。", "en": "Half a step back, then brace."},
+        {"zh": "孩子们叫起来了。", "en": "The young ones cry out."},
+        {"zh": "我回头看了它们一眼。", "en": "I glance back at them."},
+        {"zh": "然后转回来。", "en": "Then turn back."},
+        {"zh": "牙露得更开了。", "en": "My teeth show wider."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鱼的味道太近了。", "en": "The smell of fish is very close."},
+        {"zh": "我抬起头，鼻子在动。", "en": "I lift my head; my nose works."},
+        {"zh": "我把前半身探进水里。", "en": "I lean my forebody into the water."},
+        {"zh": "前爪按住，牙咬下去。", "en": "Forepaws pin it; teeth close."},
+        {"zh": "水花炸了一片。", "en": "Water bursts everywhere."},
+        {"zh": "孩子们围过来。", "en": "The young ones crowd in."},
+        {"zh": "我把一块推给它们。", "en": "I push a piece to them."},
+        {"zh": "剩下的是我的。", "en": "The rest is mine."},
+        {"zh": "我趴在岸边吃。", "en": "I eat lying on the bank."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞在我身上，撞得结实。", "en": "You run into me solidly."},
+        {"zh": "我侧身一让。", "en": "I turn my flank aside."},
+        {"zh": "湿毛擦过你的腿。", "en": "My wet fur brushes your leg."},
+        {"zh": "你被水甩了一身。", "en": "You get a soaking."},
+        {"zh": "我撞上你，转身游开。", "en": "I bump you and swim off."},
+        {"zh": "尾巴扫过你的膝盖。", "en": "My tail sweeps your knee."},
+        {"zh": "巨獭下水，一群一起。", "en": "Giant otters go in as a group."},
+        {"zh": "但不是冲你。", "en": "But not at you."},
+        {"zh": "我又往前走了。", "en": "I walk on."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我们一家都在这条河上。", "en": "My family holds this stretch of river."},
+        {"zh": "她在我旁边游。", "en": "She swims beside me."},
+        {"zh": "水把我们冲到一起。", "en": "The current presses us together."},
+        {"zh": "我咬住她的颈皮。", "en": "I take her scruff gently."},
+        {"zh": "我们一起上岸。", "en": "We climb the bank together."},
+        {"zh": "孩子们跟在后面。", "en": "The young ones trail behind."},
+        {"zh": "这条河够养活我们。", "en": "This river can feed us all."},
+        {"zh": "谁也别进来。", "en": "Let no one else come in."},
+        {"zh": "我站起来看了看岸。", "en": "I stand and scan the bank."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它滑了一下。", "en": "It slides."},
+        {"zh": "我把它拨回来。", "en": "I paw it back."},
+        {"zh": "这个不是鱼。", "en": "This is not fish."},
+        {"zh": "味道很差。", "en": "It tastes foul."},
+        {"zh": "我吐了出来。", "en": "I spit it out."},
+        {"zh": "扔进水里。", "en": "Toss it into the water."},
+        {"zh": "有鱼立刻过来。", "en": "A fish comes at once."},
+        {"zh": "我就等着。", "en": "So I wait."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水里有东西。", "en": "Something is in the water."},
+        {"zh": "我从水里探出湿鼻子。", "en": "I lift my wet nose out of the water."},
+        {"zh": "不是我的孩子。", "en": "It is not one of mine."},
+        {"zh": "是别的什么。", "en": "It is something else."},
+        {"zh": "喉咙里开始响。", "en": "A rumble starts in my throat."},
+        {"zh": "孩子们退到岸上。", "en": "The young ones retreat to the bank."},
+        {"zh": "我一个人站在这儿。", "en": "I stand here alone."},
+        {"zh": "这个距离我能冲到。", "en": "I can reach that in a dash."},
+        {"zh": "我选好了角度。", "en": "I have my angle."},
+        {"zh": "水在我脚下。", "en": "The water is under my feet."},
+        {"zh": "风从我背后吹。", "en": "The wind is at my back."},
+        {"zh": "它动了。", "en": "It moves."},
+        {"zh": "我扑向水面那道波纹。", "en": "I lunge at the ripple on the surface."},
+        {"zh": "这不是玩。", "en": "This is not play."},
+        {"zh": "是你先来的。", "en": "You came here first."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我沿着岸边跟着。", "en": "I track it along the bank."},
+        {"zh": "它想往水里去。", "en": "It wants the water."},
+        {"zh": "我先绕过去挡。", "en": "I cut around to block."},
+        {"zh": "它躲进芦苇，我追过去。", "en": "It hides in the reeds; I follow."},
+        {"zh": "这次我逼近。", "en": "This time I close."},
+        {"zh": "毛全竖起来。", "en": "My fur stands up."},
+        {"zh": "我比它矮，但更宽。", "en": "I am shorter, but broader."},
+        {"zh": "它挥了一下。", "en": "It swings once."},
+        {"zh": "我低头躲过去。", "en": "I duck under it."},
+        {"zh": "然后撞进它怀里。", "en": "Then drive into its chest."},
+        {"zh": "它被我推得退了。", "en": "I push it back."},
+        {"zh": "孩子们在岸上叫。", "en": "The young ones call from the bank."},
+        {"zh": "我不能退。", "en": "I cannot give ground."},
+        {"zh": "河水在我背后。", "en": "The river is behind me."},
+        {"zh": "我从水里窜出去又落回。", "en": "I burst from the water and splash back."},
+        {"zh": "这次咬住了。", "en": "This time I bite."},
+        {"zh": "牙齿咬进了皮。", "en": "Teeth sink into hide."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我扑上去咬住它的手臂。", "en": "I leap and bite its arm."},
+        {"zh": "甩头，把它往下按。", "en": "I shake my head and press it down."},
+        {"zh": "它甩开我，我又回来。", "en": "It throws me off; I come back."},
+        {"zh": "我用肩顶它的膝。", "en": "I drive my shoulder into its knee."},
+        {"zh": "前爪抓住它的衣料。", "en": "My forepaws hook its clothing."},
+        {"zh": "牙齿换了地方。", "en": "My teeth find another hold."},
+        {"zh": "这次是腿。", "en": "The leg this time."},
+        {"zh": "我们在河里成群猎食。", "en": "We hunt in packs along the river."},
+        {"zh": "它抓住岸边的草。", "en": "It grabs the bank grass."},
+        {"zh": "我咬住它的手。", "en": "I bite its hand."},
+        {"zh": "它松开了。", "en": "It lets go."},
+        {"zh": "水花翻起来。", "en": "Water churns."},
+        {"zh": "我压住它。", "en": "I pin it down."},
+        {"zh": "牙还咬着。", "en": "My teeth still hold."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "河边先有了一阵扑水声。", "en": "Splashing sounds first."},
+        {"zh": "我从芦苇里钻出来。", "en": "I push out of the reeds."},
+        {"zh": "毛是湿的，贴在身上。", "en": "My fur is wet and flat."},
+        {"zh": "我抖了抖。", "en": "I shake myself."},
+        {"zh": "水珠飞到很远。", "en": "Drops fly far."},
+        {"zh": "这一带我熟。", "en": "I know this stretch well."},
+        {"zh": "石头、浅滩、鱼窝。", "en": "Stones, shallows, fish nests."},
+        {"zh": "我都记着。", "en": "I remember them all."},
+        {"zh": "我朝水里走。", "en": "I walk into the water."},
+        {"zh": "水到我的胸。", "en": "It reaches my chest."},
+        {"zh": "我停下来看岸。", "en": "I stop and look at the bank."},
+        {"zh": "岸边的草被踩平了。", "en": "The bank grass is worn flat."},
+        {"zh": "那是我走出来的路。", "en": "That is the path I made."},
+        {"zh": "现在这条路多了一个人。", "en": "Now there is someone on it."},
+        {"zh": "我盯着他。", "en": "I stare."},
+        {"zh": "我从水里冒出来，很静。", "en": "I surface quietly from the water."},
+        {"zh": "先是看着。", "en": "First I watch."},
+        {"zh": "然后我才决定。", "en": "Then I decide."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的毛被燎得卷起来。", "en": "The fire singed my fur into curls."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从岸上摔进浅水，磕得发闷。", "en": "I fall off the bank into shallow water."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水是我的地方，淹不到我。", "en": "Water is mine; it cannot drown me."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水柱把我掀到岸上。", "en": "The blast throws me onto the bank."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那东西扎进我的肩。", "en": "It buries in my shoulder."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一股麻从背上散开。", "en": "A numbness spreads from my back."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得我去翻石头。", "en": "Hungry enough to turn over stones."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在水面，我全身的毛都立了。", "en": "Lightning hits the water and my fur stands up."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下没有地，也没有水。", "en": "No ground beneath, and no water."}
+      ]
+    }
+  }
+}

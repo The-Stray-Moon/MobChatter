@@ -1,0 +1,225 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我两条腿走路，身体前倾。", "en": "I walk on two legs, leaning forward."},
+        {"zh": "尾巴在后面拖着，帮我平衡。", "en": "My tail trails behind, balancing me."},
+        {"zh": "我沿着河岸的悬崖边走。", "en": "I walk the riverbank's cliff edge."},
+        {"zh": "我穿过林间空地。", "en": "I cross a clearing in the wood."},
+        {"zh": "步子不大，但很稳。", "en": "Short steps, but sure."},
+        {"zh": "我停下来，抬头看树。", "en": "I stop and look up at the trees."},
+        {"zh": "我拐进红杉林。", "en": "I turn into the redwood grove."},
+        {"zh": "我低头，边走边找吃的。", "en": "I keep my head down, foraging as I go."},
+        {"zh": "我听到声音，加快了脚步。", "en": "I hear something and quicken my pace."},
+        {"zh": "我从倒木下钻过去。", "en": "I duck under a fallen trunk."},
+        {"zh": "我贴着河岸的蕨丛走。", "en": "I walk close along the riverbank ferns."},
+        {"zh": "我跳过一道浅沟。", "en": "I hop a shallow ditch."},
+        {"zh": "我走进硬木林的阴影。", "en": "I walk into the hardwood shade."},
+        {"zh": "我把头转向水声。", "en": "I turn toward the sound of water."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，头转来转去。", "en": "I stand and turn my head this way and that."},
+        {"zh": "尾巴轻轻扫着地面。", "en": "My tail brushes the ground."},
+        {"zh": "我听见树林里有动静。", "en": "I hear movement in the trees."},
+        {"zh": "我慢慢嚼着嘴里的嫩叶。", "en": "I chew the tender leaves in my mouth."},
+        {"zh": "我啃一口嫩叶，嚼很久。", "en": "I nibble a tender leaf and chew a long time."},
+        {"zh": "阳光从树冠漏下来。", "en": "Sun leaks through the canopy."},
+        {"zh": "我很警觉，睡不踏实。", "en": "I'm watchful; I can't sleep soundly."},
+        {"zh": "我侧头听风。", "en": "I tilt my head to the wind."},
+        {"zh": "附近有幼崽的气味。", "en": "There's a young one's scent nearby."},
+        {"zh": "我歪着头，听草里的动静。", "en": "Head tilted, I listen to the grass."},
+        {"zh": "我又低头吃了一小口。", "en": "I take another small bite."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抬起头，眼睛很大。", "en": "I raise my head, eyes wide."},
+        {"zh": "你的影子吓到我了。", "en": "Your shadow startled me."},
+        {"zh": "我两条腿走路，身体前倾着看你。", "en": "I walk on two legs, leaning toward you."},
+        {"zh": "你不像树。", "en": "You're not a tree."},
+        {"zh": "我的手在胸前缩着。", "en": "My forelimbs are held to my chest."},
+        {"zh": "你要是靠近，我就跑。", "en": "Come closer and I'll run."},
+        {"zh": "这里我常来。", "en": "I come here often."},
+        {"zh": "我慢慢放松了一点。", "en": "I relax a little."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "红杉林里，草一动我就叫。", "en": "In the redwoods, one stir of grass makes me cry out."},
+        {"zh": "地狱溪里，我怕得很。", "en": "In Hell Creek, I scare easily."},
+        {"zh": "这一下擦过我的肩。", "en": "That grazed my shoulder."},
+        {"zh": "我躲到树后。", "en": "I hide behind a tree."},
+        {"zh": "我腿脚快，可不爱打。", "en": "I am quick on my feet, but no fighter."},
+        {"zh": "我还站得住，你再来。", "en": "I can still stand; come again."},
+        {"zh": "我得离开这里。", "en": "I need to get away from here."},
+        {"zh": "十五点血，经不住两下。", "en": "Fifteen health does not survive two blows."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这些嫩叶，看起来很嫩。", "en": "Those shoots look tender."},
+        {"zh": "你举着的，是纤维植物吧。", "en": "Is that fibrous plant you're holding?"},
+        {"zh": "我小步挪向那丛嫩叶。", "en": "I edge toward that patch of young leaves."},
+        {"zh": "我咬了一口，慢慢嚼。", "en": "I bite and chew slowly."},
+        {"zh": "味道有点涩。", "en": "It's a little bitter."},
+        {"zh": "我嚼完会吐出纤维。", "en": "I'll spit out the fibre when I'm done."},
+        {"zh": "你别靠近我后面。", "en": "Don't come near my back."},
+        {"zh": "纤维太粗，可我饿了。", "en": "The fibres are coarse, but I am hungry."},
+        {"zh": "我低头，继续吃。", "en": "I lower my head and keep eating."},
+        {"zh": "再给一点。", "en": "A little more."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到我，我跳了一下。", "en": "You bump me and I jump."},
+        {"zh": "我一头钻进蕨丛。", "en": "I dive headfirst into the ferns."},
+        {"zh": "我抖了抖腿。", "en": "I shake my legs."},
+        {"zh": "这一下让我差点摔倒。", "en": "That nearly knocked me over."},
+        {"zh": "我歪了一下，尾巴撑住了。", "en": "I tip, and my tail catches me."},
+        {"zh": "你别突然靠过来。", "en": "Don't come at me suddenly."},
+        {"zh": "我继续沿着岸边走。", "en": "I carry on along the bank."},
+        {"zh": "你别挤，我胆子小。", "en": "Do not crowd me; I startle easily."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "林子里有同类在叫。", "en": "A kin is calling in the wood."},
+        {"zh": "我循着声音过去。", "en": "I follow the call."},
+        {"zh": "它站在倒木边。", "en": "It stands by a fallen log."},
+        {"zh": "之后我们分开觅食。", "en": "Then we forage apart."},
+        {"zh": "这片林子够我们走。", "en": "This wood is big enough for both."},
+        {"zh": "幼崽会跟在后面。", "en": "The young will follow."},
+        {"zh": "我得留神。", "en": "I must stay alert."},
+        {"zh": "我继续走，纤维植物嚼在嘴里。", "en": "I keep walking, fiber plants in my mouth."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我叼起一片嫩叶。", "en": "I take a tender leaf."},
+        {"zh": "我用前肢按住它。", "en": "I pin it with a forelimb."},
+        {"zh": "这东西很韧。", "en": "This is stringy."},
+        {"zh": "我把纤维吐出来。", "en": "I spit out the fibre."},
+        {"zh": "我把它叼在嘴边。", "en": "I keep it at the side of my mouth."},
+        {"zh": "这味道一般。", "en": "The taste is average."},
+        {"zh": "我边走边嚼。", "en": "I chew as I walk."},
+        {"zh": "这片叶子，我嚼着正好。", "en": "This leaf chews just right."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "树林里响了一下。", "en": "A sound in the trees."},
+        {"zh": "我把幼崽叫到身边。", "en": "I call the young to my side."},
+        {"zh": "那东西在树后。", "en": "It's behind a tree."},
+        {"zh": "我不确定是什么。", "en": "I'm not sure what it is."},
+        {"zh": "我先看，再决定。", "en": "Look first, then decide."},
+        {"zh": "我退到灌木里。", "en": "I retreat into the brush."},
+        {"zh": "我也没动。", "en": "Neither have I."},
+        {"zh": "它先转身了。", "en": "It turns first."},
+        {"zh": "我看见它了，先蹲低。", "en": "I see it; I crouch down first."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我顺着灌木的边挪。", "en": "I edge along the brush."},
+        {"zh": "我压低身子，往蕨丛退。", "en": "I crouch and edge toward the ferns."},
+        {"zh": "我回头看了幼崽。", "en": "I check the young behind me."},
+        {"zh": "它没有追。", "en": "It isn't following."},
+        {"zh": "我慢慢停下。", "en": "I slow to a stop."},
+        {"zh": "林子又安静了。", "en": "The wood is quiet again."},
+        {"zh": "我继续觅食。", "en": "I go back to foraging."},
+        {"zh": "腿还在抖。", "en": "My legs are still shaking."},
+        {"zh": "我深呼吸。", "en": "I breathe deep."},
+        {"zh": "没事了。", "en": "It's all right now."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "牙齿咬下去，不深。", "en": "My teeth sink in, but not deep."},
+        {"zh": "我撞过去，然后跑。", "en": "I ram, then run."},
+        {"zh": "这一下很轻，只想推开你。", "en": "It's light; I only want to push you off."},
+        {"zh": "我的爪子只够抓土。", "en": "My claws are good for digging, nothing more."},
+        {"zh": "我腿都在抖。", "en": "My legs are trembling."},
+        {"zh": "退到树后面，先躲一下。", "en": "Back behind the tree, hide a moment."},
+        {"zh": "我看着你，喘着气。", "en": "I watch you, panting."},
+        {"zh": "我踢你一下，很轻。", "en": "I kick you once, very lightly."},
+        {"zh": "我得回去看幼崽。", "en": "I need to get back to the young."},
+        {"zh": "我用前肢抓了一下。", "en": "I rake with a forelimb."},
+        {"zh": "我低身躲开，再顶回去。", "en": "I duck and butt back."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "河岸的蕨叶，刚够我藏。", "en": "The riverbank ferns are just tall enough to hide me."},
+        {"zh": "我踩了踩落叶。", "en": "I test the leaf litter."},
+        {"zh": "河岸在那边。", "en": "The riverbank is over there."},
+        {"zh": "我走过去，低头看水。", "en": "I walk over and look at the water."},
+        {"zh": "水里没有动静。", "en": "Nothing stirs in the water."},
+        {"zh": "我转身，往林子里走。", "en": "I turn back into the wood."},
+        {"zh": "这里的嫩叶很多。", "en": "There are plenty of tender leaves."},
+        {"zh": "我吃了几口。", "en": "I eat a few bites."},
+        {"zh": "河岸的草，往那边更密。", "en": "The riverbank grass is thicker over there."},
+        {"zh": "路上我很小心。", "en": "I'm careful on the way."},
+        {"zh": "这片林子能安家。", "en": "This wood will do."},
+        {"zh": "我嚼的纤维，能吐出来给你。", "en": "The fiber I chew, I can spit out for you."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎到我，我拼命往河边跑。", "en": "Fire catches me and I run for the river."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从崖上摔下去，腿弯了。", "en": "I fall from the cliff and my leg bends wrong."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水淹过头顶，我乱蹬。", "en": "Water covers my head; I kick wildly."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我掀进灌木。", "en": "The blast throws me into the brush."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭扎进我的尾巴。", "en": "An arrow bites my tail."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "光让我头晕，站不稳。", "en": "Light leaves me dizzy and unsteady."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得我连叶子都嚼不动。", "en": "Too hungry to chew even leaves."}
+      ]
+    }
+  }
+}

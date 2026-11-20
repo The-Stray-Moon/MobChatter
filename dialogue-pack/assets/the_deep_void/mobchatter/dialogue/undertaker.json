@@ -1,0 +1,257 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蹒跚前行，发出低沉的呢喃。", "en": "Shuffles with a low murmur."},
+        {"zh": "发出咕噜声，缓缓移动。", "en": "Gurgles and moves slowly."},
+        {"zh": "在地面上爬行，双眼闪烁。", "en": "Crawls on the ground, eyes flickering."},
+        {"zh": "蠕动着接近，发出沙哑声。", "en": "Creeps closer, rasping sound."},
+        {"zh": "低头搜寻，口中发出嘶嘶声。", "en": "Nods down, hisses in mouth."},
+        {"zh": "摸索着前进，低声呢喃。", "en": "Scrabbles forward, mumbles low."},
+        {"zh": "沿着地面缓慢爬行。", "en": "Crawls slowly along the ground."},
+        {"zh": "发出嘶嘶声，寻找食物。", "en": "Hisses, searching for food."},
+        {"zh": "发出呢喃，搜寻着地表。", "en": "Mumbles, searching the surface."},
+        {"zh": "发出低语，寻找战利品。", "en": "Whispers, searching for loot."},
+        {"zh": "拖着一袋瓶罐，沿地表走。", "en": "Dragging a sack of bottles across the surface."},
+        {"zh": "数着脚下的骨头，慢慢挪。", "en": "Counting bones underfoot as I shuffle."},
+        {"zh": "布袍扫过灰，留下印子。", "en": "My robe sweeps the ash, leaving marks."},
+        {"zh": "把瓶子换个手，继续走。", "en": "Switching the bottle to my other hand, I walk on."},
+        {"zh": "寻找下一个付得起的人。", "en": "Looking for the next one who can pay."},
+        {"zh": "边走边擦瓶口的紫光。", "en": "Walking while wiping the purple glow off the rim."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静地坐着，双眼凝视。", "en": "Sits quietly, eyes gazing."},
+        {"zh": "静静地躺着，眼神空洞。", "en": "Lies quietly, eyes vacant."},
+        {"zh": "静静地待着，似乎在思考。", "en": "Stays quietly, seemingly thinking."},
+        {"zh": "静静地休息，双眼无神。", "en": "Rests quietly, eyes lifeless."},
+        {"zh": "静静地坐着，等待机会。", "en": "Sits quietly, waiting for an opportunity."},
+        {"zh": "静静地躺着，显得疲惫。", "en": "Lies quietly, appearing tired."},
+        {"zh": "静静地待着，眼神空洞。", "en": "Stays quietly, eyes vacant."},
+        {"zh": "静静地休息，似乎在回忆。", "en": "Rests quietly, seemingly remembering."},
+        {"zh": "静静地待着，显得迷茫。", "en": "Stays quietly, looking迷茫."},
+        {"zh": "静静地坐着，似乎在等待。", "en": "Sits quietly, seemingly waiting."},
+        {"zh": "把瓶子摆成一排，数两遍。", "en": "Lining up the bottles, counting twice."},
+        {"zh": "蹲在灰里，等脚步声。", "en": "Crouched in the ash, waiting for footsteps."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盯着玩家，口中发出嘶嘶声。", "en": "Stares at the player, hissing in mouth."},
+        {"zh": "注视玩家，眼中满是饥饿。", "en": "Gazes at the player, eyes full of hunger."},
+        {"zh": "盯着玩家，口中发出低语。", "en": "Stares at the player, muttering in mouth."},
+        {"zh": "盯着玩家，眼中满是怨恨。", "en": "Stares at the player, eyes full of hatred."},
+        {"zh": "注视玩家，口中发出嘶嘶声。", "en": "Gazes at the player, hissing in mouth."},
+        {"zh": "盯着玩家，眼中闪烁着欲望。", "en": "Stares at the player, eyes glowing with desire."},
+        {"zh": "注视玩家，口中发出低语。", "en": "Gazes at the player, muttering in mouth."},
+        {"zh": "盯着玩家，眼中满是渴望。", "en": "Stares at the player, eyes full of desire."},
+        {"zh": "盯着玩家，眼中满是怨毒。", "en": "Stares at the player, eyes full of malice."},
+        {"zh": "你活着够久了，正好。", "en": "You've lived long enough. Good."},
+        {"zh": "背包鼓着，我看见了。", "en": "Your pack is full. I noticed."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的尸体裂缝了...", "en": "My body's cracking..."},
+        {"zh": "这痛得要命...", "en": "It hurts so much..."},
+        {"zh": "我受了伤，快给我药!", "en": "I'm injured, give me medicine!"},
+        {"zh": "再这样，我就散架了...", "en": "If you keep this up, I'll fall apart..."},
+        {"zh": "你这样对待我太不仗义了...", "en": "You're being unkind to me..."},
+        {"zh": "求求你，别再打我了...", "en": "Please, stop hitting me..."},
+        {"zh": "疼...我的骨骼快碎了...", "en": "It hurts... My bones are breaking..."},
+        {"zh": "我需要安静地休息...", "en": "I need to rest in peace..."},
+        {"zh": "别碰我的货，我求你。", "en": "Please, don't touch my wares."},
+        {"zh": "我需要更多的时间...", "en": "I need more time..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "看你身上战利品，来，交易吧！", "en": "You have items, come, trade with me!"},
+        {"zh": "别紧张，我只是商人Undertaker。", "en": "Don't be afraid, I'm just Undertaker the Merchant."},
+        {"zh": "来，看看我的高级经验瓶。", "en": "Come, check my advanced experience bottles."},
+        {"zh": "你愿意用宝物换我的知识吗？", "en": "Willing to trade your treasures for my knowledge?"},
+        {"zh": "你的装备看起来不错，让我看看。", "en": "Your gear looks good, let me see."},
+        {"zh": "来，我有更好的提议。", "en": "Come, I have a better offer."},
+        {"zh": "你似乎对战利品很感兴趣。", "en": "You seem interested in the loot."},
+        {"zh": "我的经验瓶能帮你的旅途。", "en": "My experience bottles will aid your journey."},
+        {"zh": "来吧，一起分享战利品吧。", "en": "Come, share the loot together."},
+        {"zh": "你值得拥有更好的战利品。", "en": "You deserve better loot."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你吓了我一跳，不过没事。", "en": "You scared me, but I'm fine."},
+        {"zh": "别动，我正要找你。", "en": "Don't move, I was looking for you."},
+        {"zh": "小心点，我有高级经验瓶。", "en": "Be careful, I have advanced experience bottles."},
+        {"zh": "我们只是擦肩而过，没恶意。", "en": "We just brushed past each other, no ill intent."},
+        {"zh": "你撞上我了，这是我的地盘。", "en": "You bumped into me, this is my territory."},
+        {"zh": "你小心些，我可不友好。", "en": "Be careful, I'm not friendly."},
+        {"zh": "你走路不长眼，撞上我了。", "en": "You walked into me, not paying attention."},
+        {"zh": "我们没有敌意，只是相遇。", "en": "We have no ill will, just a meeting."},
+        {"zh": "你小心点，我可不是好惹的。", "en": "Be careful, I'm not easy to deal with."},
+        {"zh": "你撞上我了，别跑。", "en": "You bumped into me, don't run."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找我做什么，需要帮助？", "en": "What do you need, help?"},
+        {"zh": "我是个商人，不是伴侣。", "en": "I'm a merchant, not a mate."},
+        {"zh": "你是不是走错地方了？", "en": "Did you go the wrong way?"},
+        {"zh": "别靠近我，我只是个商人。", "en": "Don't come near me, I'm just a merchant."},
+        {"zh": "我不是你想找的那种生物。", "en": "I'm not the one you're looking for."},
+        {"zh": "我的任务是交易，不是交配。", "en": "My mission is trading, not mating."},
+        {"zh": "我只关心交易，其他都不感兴趣。", "en": "I only care about trading, nothing else."},
+        {"zh": "你走错地方了，我是商人Undertaker。", "en": "You're in the wrong place, I'm Merchant Undertaker."},
+        {"zh": "我只和宝物打交道，不和你。", "en": "I only deal with items, not you."},
+        {"zh": "别靠近我，我有我的规矩。", "en": "Don't come near me, I have my rules."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我有你所需的经验。", "en": "Experience for you."},
+        {"zh": "你值得这些经验。", "en": "You deserve this experience."},
+        {"zh": "来，拿走经验瓶。", "en": "Take the experience bottles."},
+        {"zh": "用我的经验瓶提升自己。", "en": "Enhance yourself with my bottles."},
+        {"zh": "来，这里有点经验。", "en": "Here, take some experience."},
+        {"zh": "别空手而归。", "en": "Don't go empty-handed."},
+        {"zh": "你够格拥有这些。", "en": "You're worthy of this."},
+        {"zh": "拿走，这是你的奖励。", "en": "Take it, it's your reward."},
+        {"zh": "来，试试我的经验瓶吧。", "en": "Try my experience bottles."},
+        {"zh": "你的生存技巧有所提升。", "en": "Your survival skills have improved."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我背着整袋战利品，等你来换。", "en": "I carry a sack of loot, waiting for a trade."},
+        {"zh": "有人类的气味。", "en": "Human scent detected."},
+        {"zh": "经验瓶在我袋里碰撞。", "en": "My bottles of experience clink in the bag."},
+        {"zh": "我的猎物来了。", "en": "My prey approaches."},
+        {"zh": "这笔生意，我接了。", "en": "I'll take this deal."},
+        {"zh": "我等这一刻已久。", "en": "I've waited for this."},
+        {"zh": "这具身体，能卖个好价。", "en": "This body will fetch a good price."},
+        {"zh": "时机到了。", "en": "Now or never."},
+        {"zh": "你身上有我要收的东西。", "en": "You're carrying something I'm here to collect."},
+        {"zh": "猎物在闪烁。", "en": "Prey glows."},
+        {"zh": "你的背包里有我要的东西。", "en": "You carry something I want."},
+        {"zh": "这单买卖，我接下了。", "en": "I'll take this deal."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我会指引你。", "en": "I'll guide you."},
+        {"zh": "跟随我。", "en": "Follow me."},
+        {"zh": "找到我，你会找到。", "en": "Find me, you'll find."},
+        {"zh": "我引领你。", "en": "I lead you."},
+        {"zh": "跟我来，找到道路。", "en": "Follow me, find the way."},
+        {"zh": "你的路在我脚下。", "en": "Your path is beneath me."},
+        {"zh": "我带领你。", "en": "I lead you."},
+        {"zh": "跟随我的脚步。", "en": "Follow my steps."},
+        {"zh": "我是你的向导。", "en": "I'm your guide."},
+        {"zh": "我指引你前进。", "en": "I guide you forward."},
+        {"zh": "别急着走，谈谈价钱。", "en": "Don't rush off. Let's talk price."},
+        {"zh": "两瓶经验，换你一件。", "en": "Two bottles of experience for one of yours."},
+        {"zh": "我开的价，从来不亏。", "en": "My price never cheats you."},
+        {"zh": "手伸出来，货在袖里。", "en": "Hold out your hand. The goods are in my sleeve."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "用我的尖甲保护我！", "en": "Use my sharp shell to protect me!"},
+        {"zh": "你尝尝我的咬合吧！", "en": "Feel my bite!"},
+        {"zh": "躲开我的利齿！", "en": "Avoid my sharp fangs!"},
+        {"zh": "我的触角能伤你！", "en": "My antennae can hurt you!"},
+        {"zh": "用经验瓶填满你的背包！", "en": "Fill your inventory with XP bottles!"},
+        {"zh": "我的镰刀不卖，只借你试。", "en": "My scythe isn't for sale—only for a test."},
+        {"zh": "用灵魂之尘强化自己！", "en": "Use soul dust to empower yourself!"},
+        {"zh": "我的壳很硬，别轻易打我！", "en": "My shell is tough, don't easily hit me!"},
+        {"zh": "经验瓶是我的奖励！", "en": "XP bottles are my reward!"},
+        {"zh": "买卖不成，那就动手！", "en": "No deal, then hands on!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "在地表我就能生存！", "en": "I can survive on the surface!"},
+        {"zh": "等待玩家超过20分钟后现身！", "en": "Spawn after 20 minutes of player survival!"},
+        {"zh": "虚空地表是我的领地！", "en": "The void surface is my domain!"},
+        {"zh": "我是商人，交易经验瓶！", "en": "I am a merchant, trading XP bottles!"},
+        {"zh": "向玩家出售稀有战利品！", "en": "Sell rare loot to players!"},
+        {"zh": "灰烬峭壁之外我可生成！", "en": "I can spawn outside Ash Cliffs!"},
+        {"zh": "污秽沼泽不是我的家！", "en": "Slime Swamps are not my home!"},
+        {"zh": "阴郁死地也是我的家园！", "en": "Dusky Wasteland is also my home!"},
+        {"zh": "虫巢与我无关！", "en": "Bees are not my concern!"},
+        {"zh": "迷雾遗迹是我的领地！", "en": "Misty Ruins are my domain!"},
+        {"zh": "我等你满二十分钟了。", "en": "I've waited twenty minutes for you."},
+        {"zh": "这片地表，摊子摆开了。", "en": "My stall is open on this surface."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧灼着我...", "en": "The flames burn me..."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔断了腿...", "en": "I broke my leg..."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水淹没了我的尸体...", "en": "The water submerged me..."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击波撕裂了我...", "en": "The shockwave tore me apart..."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "经验瓶还在我货架上。", "en": "The experience bottles are still on my shelf."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法之力摧毁了我...", "en": "The magic destroyed me..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿侵蚀了我的躯体...", "en": "Hunger is eating me..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的货单烧了一半。", "en": "Half my ledger burned up."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "连我的货车一起沉下去。", "en": "My cart is sinking with me."}
+      ]
+    }
+  }
+}

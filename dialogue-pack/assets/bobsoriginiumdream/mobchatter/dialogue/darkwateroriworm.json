@@ -1,0 +1,252 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在泥水里慢慢挪", "en": "I creep through the muddy water."},
+        {"zh": "晶壳上挂着水草", "en": "Weeds cling to my crystal shell."},
+        {"zh": "我拖着身子过浅滩", "en": "I drag myself across the shallows."},
+        {"zh": "水一浑，我就看不清", "en": "Muddy water blinds me."},
+        {"zh": "我沿着树根爬", "en": "I crawl along the mangrove roots."},
+        {"zh": "泥吸住我的节片", "en": "The mud grabs my segments."},
+        {"zh": "我挪得比在沙上更慢", "en": "I move slower than on sand."},
+        {"zh": "我贴着淤泥慢慢爬。", "en": "I crawl slowly along the silt."},
+        {"zh": "我钻进泥里再出来", "en": "I sink into mud, then emerge."},
+        {"zh": "沼泽里都是腐味", "en": "The swamp reeks of rot."},
+        {"zh": "我在水下也能爬", "en": "I can crawl underwater too."},
+        {"zh": "我贴着水底走", "en": "I move along the bottom."},
+        {"zh": "我从芦苇根之间挤过", "en": "I squeeze between the reed roots."},
+        {"zh": "泥水从壳缝里流下去", "en": "Muddy water drains through my shell."},
+        {"zh": "我在浅水里停一会儿", "en": "I pause in the shallows."},
+        {"zh": "我朝着有光的水面爬", "en": "I crawl toward the lit surface."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我泡在水里面", "en": "I soak in the water."},
+        {"zh": "半截身子在泥下", "en": "Half of me is under the mud."},
+        {"zh": "水草缠着我的壳", "en": "Weeds tangle my shell."},
+        {"zh": "我慢慢张合节片", "en": "I flex my segments slowly."},
+        {"zh": "芦苇在沙沙响", "en": "The reeds are rustling."},
+        {"zh": "这里很暗，我看不清", "en": "It's dark here; I can't see well."},
+        {"zh": "水面上有小虫", "en": "Insects on the water's surface."},
+        {"zh": "我身上有青苔", "en": "Moss grows on me."},
+        {"zh": "我闻不到铁，只有泥", "en": "No iron here; only mud."},
+        {"zh": "有什么在泥里动", "en": "Something stirs in the mud."},
+        {"zh": "这地方够潮湿", "en": "Damp enough here."},
+        {"zh": "我趴在泥里像块石", "en": "I lie in the mud like stone."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你挡住光，我就知道是你。", "en": "You block the light, and I know it is you."},
+        {"zh": "你脚边就是水", "en": "Water's right at your feet."},
+        {"zh": "我在你脚下的泥里", "en": "I'm in the mud at your feet."},
+        {"zh": "你看不清我的", "en": "You can't see me clearly."},
+        {"zh": "水会把我藏住", "en": "The water will hide me."},
+        {"zh": "你手里有铁吗", "en": "Do you have iron?"},
+        {"zh": "别在沼泽里乱走", "en": "Don't wander in a swamp."},
+        {"zh": "你再往前就陷下去了", "en": "Step further and you'll sink."},
+        {"zh": "我比看上去小", "en": "I'm smaller than I look."},
+        {"zh": "你闻到腐味了吧", "en": "You smell the rot, don't you?"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的这身甲壳", "en": "My shell."},
+        {"zh": "泥都被震散了", "en": "The mud shook off me."},
+        {"zh": "我把身体收紧了", "en": "I pull my body tight."},
+        {"zh": "这一下钻心地疼", "en": "That pain goes deep."},
+        {"zh": "我陷得更深了", "en": "I sank deeper."},
+        {"zh": "水草缠得更紧了", "en": "The weeds cling tighter."},
+        {"zh": "我完全动弹不了", "en": "I can't move."},
+        {"zh": "别用脚来碾我", "en": "Don't grind me underfoot."},
+        {"zh": "我还能慢慢爬", "en": "I can still crawl."},
+        {"zh": "让我沉下去吧", "en": "Let me sink away."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那是一块铁吗", "en": "Is that a piece of iron?"},
+        {"zh": "你举到水面上来", "en": "Raise it above the water."},
+        {"zh": "泥里的东西我不吃", "en": "I don't eat what's in the mud."},
+        {"zh": "铁锈味让我凑近了些。", "en": "The smell of rust pulls me closer."},
+        {"zh": "你再靠近一点", "en": "Come a bit closer."},
+        {"zh": "水里的东西我不要", "en": "I don't want what's in the water."},
+        {"zh": "你手里拿的，我不要。", "en": "Whatever you are holding, I do not want it."},
+        {"zh": "我够不到那里", "en": "I can't reach it."},
+        {"zh": "铁块丢下来，我就信你。", "en": "Drop the iron, and I might trust you."},
+        {"zh": "别扔进水里面", "en": "Don't throw it in the water."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "泥里撞不出声", "en": "Collisions in mud make no sound."},
+        {"zh": "我被你推歪了", "en": "You pushed me askew."},
+        {"zh": "这一下我陷得更深", "en": "That sank me deeper."},
+        {"zh": "你踩到我的壳", "en": "You stepped on my shell."},
+        {"zh": "我们都在泥里，走不快", "en": "We're both in mud; neither moves fast."},
+        {"zh": "被你一撞，我滚进水里。", "en": "Your bump sends me rolling into the water."},
+        {"zh": "我退开到一边", "en": "I'll shift aside."},
+        {"zh": "别把泥踢到我身上", "en": "Don't kick mud over me."},
+        {"zh": "这下我更滑了", "en": "Now I'm even more slippery."},
+        {"zh": "请你再慢一点", "en": "A little slower."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沼泽里不需要这个", "en": "The swamp doesn't need that."},
+        {"zh": "我只管吃和爬", "en": "I only eat and crawl."},
+        {"zh": "你去找别的虫", "en": "Find another worm."},
+        {"zh": "我这身量，只配缩在角落。", "en": "A frame this small belongs in a corner."},
+        {"zh": "泥里过得挺好", "en": "Life in the mud is fine."},
+        {"zh": "泥里的虫子不谈", "en": "Mud worms don't talk of it."},
+        {"zh": "我没有那个空闲", "en": "I've no time for it."},
+        {"zh": "水草会听见的", "en": "The reeds would hear."},
+        {"zh": "我不想动身体", "en": "I don't want to move."},
+        {"zh": "你给我走开些", "en": "Go away."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我身上全是泥", "en": "I'm covered in mud."},
+        {"zh": "别捏我的甲壳", "en": "Don't squeeze my shell."},
+        {"zh": "你一抓，我就缩", "en": "Grab me and I shrink."},
+        {"zh": "把我放回水里", "en": "Put me back in the water."},
+        {"zh": "离了水我撑不了多久", "en": "I won't last long out of water."},
+        {"zh": "你手上会全是泥", "en": "Your hands will be all mud."},
+        {"zh": "这样我翻不了身", "en": "I can't right myself like this."},
+        {"zh": "我比看起来滑", "en": "I'm slicker than I look."},
+        {"zh": "我用颚夹住，又滑掉了。", "en": "My mandibles grip it, and it slips free."},
+        {"zh": "把我放得更低", "en": "Lower me down."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你刚才踩到我", "en": "You stepped on me."},
+        {"zh": "泥里藏着我的", "en": "I'm in this mud."},
+        {"zh": "别把脚挪过来", "en": "Don't bring that foot closer."},
+        {"zh": "我可是会咬的", "en": "I bite."},
+        {"zh": "你在我的浅滩上", "en": "You're in my shallows."},
+        {"zh": "我这么小，也会疼", "en": "Small as I am, I still hurt."},
+        {"zh": "退到干地上去", "en": "Get to dry ground."},
+        {"zh": "我盯住你，尾尖绷紧了。", "en": "I fix on you, the tip of my tail pulled tight."},
+        {"zh": "水会把你拖住", "en": "The water will slow you."},
+        {"zh": "现在，我先冲了。", "en": "Now. I lunge first."},
+        {"zh": "这片浅滩是我先来的", "en": "I was in these shallows first."},
+        {"zh": "你搅浑了我的水", "en": "You muddied my water."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴在你脚踝边", "en": "I'm right at your ankle."},
+        {"zh": "你抬脚我就动", "en": "Lift your foot and I move."},
+        {"zh": "泥里没有声音", "en": "No sound in the mud."},
+        {"zh": "你脚下站不稳", "en": "Your footing is unsure."},
+        {"zh": "水下的泥更软", "en": "The mud below is softer."},
+        {"zh": "你别急着离开", "en": "Don't hurry away."},
+        {"zh": "我在水草那边", "en": "I'm by the reeds."},
+        {"zh": "你听见冒泡了吗", "en": "Hear the bubbling?"},
+        {"zh": "我绕到你脚边，找空当。", "en": "I circle your feet, hunting for a gap."},
+        {"zh": "它越来越近了", "en": "Closer and closer."},
+        {"zh": "水草会绊住你", "en": "The reeds will trip you."},
+        {"zh": "就等着你动脚", "en": "Waiting for you to move that foot."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我叼住鞋带，死也不松。", "en": "I clamp the bootlace and will not let go."},
+        {"zh": "泥溅到你脸上", "en": "Mud in your face."},
+        {"zh": "我这一下，只有一点点疼。", "en": "That one only stings a little."},
+        {"zh": "我一头撞上你的脚踝骨。", "en": "I ram my head into your ankle bone."},
+        {"zh": "你快些退开去", "en": "Back off."},
+        {"zh": "这一下已够了", "en": "That's enough."},
+        {"zh": "我还会再来找", "en": "I'll come again."},
+        {"zh": "沼泽不欢迎你", "en": "The swamp doesn't welcome you."},
+        {"zh": "别用脚来踩我", "en": "Don't stomp me."},
+        {"zh": "你快快走开去", "en": "Go away."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从泥里冒出来", "en": "I rise out of the mud."},
+        {"zh": "水草下面多了个东西", "en": "Something new under the reeds."},
+        {"zh": "沼泽的水很凉", "en": "The swamp water is cold."},
+        {"zh": "我壳上全是泥", "en": "My shell is all mud."},
+        {"zh": "我闻到腐叶的味道", "en": "I smell rotting leaves."},
+        {"zh": "这里比荒原舒服", "en": "Better here than the waste."},
+        {"zh": "水面上起了小泡", "en": "Bubbles rise to the surface."},
+        {"zh": "我在沼泽水面吐出一串泡。", "en": "I break the swamp surface in a string of bubbles."},
+        {"zh": "芦苇挡住了光", "en": "The reeds block the light."},
+        {"zh": "有什么在附近", "en": "Something's nearby."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烤到水面上来了", "en": "The fire reached the water's surface."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从树根上摔进泥里", "en": "I fell from the roots into mud."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我本来就泡在水里", "en": "I was already underwater."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "泥浆炸得到处都是", "en": "Mud sprayed everywhere."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那东西扎进我的节缝", "en": "That stuck between my segments."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "法术把我从泥里抽出来", "en": "The spell pulled me out of the mud."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "泥里找不到铁", "en": "No iron in this mud."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打到水面上，亮了整片沼泽", "en": "The bolt lit the whole swamp."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空比沼泽底还黑", "en": "The void is darker than the swamp's floor."}
+      ]
+    }
+  }
+}

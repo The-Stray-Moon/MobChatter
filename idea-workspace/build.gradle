@@ -14,6 +14,7 @@ idea.module {
     testResourceDirs = [] as Set
     excludeDirs += file("../targets/${mainTarget}")
     excludeDirs += file('../common/src')
+    excludeDirs += file('../dialogue-pack')
     ['.git', '.tmp', '.codex_tmp', 'node_modules'].each { name ->
         excludeDirs += new File(repositoryRoot, name)
     }

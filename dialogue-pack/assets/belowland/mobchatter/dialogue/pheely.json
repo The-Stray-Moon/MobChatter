@@ -1,0 +1,288 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙沙声中，Pheely移步前行。", "en": "Pheely moves, a rustling noise accompanies it."},
+        {"zh": "它的步伐沉重而谨慎。", "en": "Its steps are heavy and cautious."},
+        {"zh": "Pheely悄悄潜行，不留痕迹。", "en": "Pheely tiptoes, leaving no trace."},
+        {"zh": "洞穴中回荡着Pheely的脚步声。", "en": "Pheely’s footsteps echo in the cave."},
+        {"zh": "它悄无声息地靠近玩家。", "en": "It approaches the player silently."},
+        {"zh": "Pheely在黑暗中摸索着前行。", "en": "Pheely crawls forward in the darkness."},
+        {"zh": "Pheely的步伐逐渐加快。", "en": "Pheely’s pace quickens."},
+        {"zh": "它小心地移动，避开暗角。", "en": "It moves carefully, avoiding dark corners."},
+        {"zh": "Pheely在石缝间穿梭。", "en": "Pheely weaves through the stone crevices."},
+        {"zh": "它悄无声息地滑行。", "en": "It glides silently"},
+        {"zh": "Pheely贴着石壁挪动脚步。", "en": "Pheely inches along the stone wall."},
+        {"zh": "它踩碎一块碎石又立刻停住。", "en": "It crushes a pebble and freezes at once."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "Pheely凝视着洞穴深处。", "en": "Pheely stares into the cave's depths."},
+        {"zh": "我伏在暗处，眼珠一直跟着你。", "en": "I crouch in the dark, my eyes tracking your every move."},
+        {"zh": "Pheely静静地待在洞穴中。", "en": "Pheely stays quietly in the cave."},
+        {"zh": "它偶尔轻颤，似乎在思考。", "en": "It occasionally trembles, as if in thought."},
+        {"zh": "Pheely在阴影中隐藏。", "en": "Pheely hides in the shadows."},
+        {"zh": "它耐心等待着机会。", "en": "It patiently waits for an opportunity."},
+        {"zh": "Pheely目光警惕地扫视。", "en": "Pheely’s gaze sweeps with alertness."},
+        {"zh": "它似乎在规划下一步。", "en": "It seems to plan its next move."},
+        {"zh": "Pheely保持不动，警惕着。", "en": "Pheely stays still, vigilant."},
+        {"zh": "它的眼神中透露出贪婪。", "en": "Its eyes gleam with greed."},
+        {"zh": "Pheely在暗处屏住呼吸。", "en": "Pheely holds its breath in the dark."},
+        {"zh": "弓弦被它轻轻拨了一下。", "en": "It plucks the bowstring once, softly."},
+        {"zh": "它数着洞穴里滴水的声音。", "en": "It counts the dripping of the cave."},
+        {"zh": "Pheely蹲在石笋后不再出声。", "en": "Pheely crouches behind a stalagmite, silent."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "Pheely突然转向玩家。", "en": "Pheely suddenly turns to the player."},
+        {"zh": "它的目光锁定在玩家身上。", "en": "Its gaze locks onto the player."},
+        {"zh": "Pheely的眼神中带着威胁。", "en": "Its eyes hold a threat."},
+        {"zh": "它凝视着玩家，慢慢接近。", "en": "It stares at the player, creeping closer."},
+        {"zh": "Pheely的注视令玩家不安。", "en": "Pheely’s stare makes the player uneasy."},
+        {"zh": "它紧紧盯着玩家，似乎要扑过去。", "en": "It fixes its gaze on the player, ready to pounce."},
+        {"zh": "Pheely的视线在玩家周围游走。", "en": "Pheely’s eyes roam around the player."},
+        {"zh": "我从石缝里拉弓，你听不见。", "en": "I draw from a crack in the rock. You won't hear."},
+        {"zh": "Pheely的目光中露出恶意。", "en": "Its gaze reveals malice."},
+        {"zh": "它的眼睛像两颗燃烧的火。", "en": "Its eyes burn like two flames."},
+        {"zh": "Pheely从石缝后露出半张脸。", "en": "Pheely shows half a face from the crack."},
+        {"zh": "它把你的轮廓记进了眼里。", "en": "It files your outline away in its eyes."},
+        {"zh": "你回头的瞬间，它已经藏好。", "en": "You turn; it is already hidden."},
+        {"zh": "Pheely的眼睛在黑暗里发亮。", "en": "Pheely's eyes shine in the dark."},
+        {"zh": "它顺着你的火把光看过来。", "en": "It follows your torchlight to you."},
+        {"zh": "你听见弓被拉开的轻响。", "en": "You hear the soft creak of a drawn bow."},
+        {"zh": "Pheely注视着你手里的火把。", "en": "Pheely watches the torch in your hand."},
+        {"zh": "它在估量你身上的护甲。", "en": "It is sizing up your armor."},
+        {"zh": "你的影子落进了它的视线。", "en": "Your shadow falls into its line of sight."},
+        {"zh": "它一动不动地看你走过。", "en": "It watches you pass without moving."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你射中了我！", "en": "You hit me!"},
+        {"zh": "我被你找到了！", "en": "You found me!"},
+        {"zh": "箭壶空了，我抓起石头。", "en": "My quiver is empty, so I snatch up a stone."},
+        {"zh": "我的箭伤你不了！", "en": "My arrow won't hurt you!"},
+        {"zh": "躲起来也躲不过！", "en": "You can't hide from me!"},
+        {"zh": "你比我强，我先退。", "en": "You're stronger. I'm backing off."},
+        {"zh": "我的肩被咬开，弓还握在手里。", "en": "My shoulder is torn open, yet I still grip the bow."},
+        {"zh": "洞里射箭的，不止你一个。", "en": "You're not the only one shooting in this cave."},
+        {"zh": "你打不死我！", "en": "You can't kill me!"},
+        {"zh": "我不会放弃的！", "en": "I won't give in!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶声中，它露出半截身子，眼中全是猎物的光芒。", "en": "Hisss, its eyes glint with prey."},
+        {"zh": "它悄无声息地接近，弓箭上弦，瞄准你。", "en": "It approaches silently, drawing its bow."},
+        {"zh": "它的身影在黑暗中若隐若现，仿佛幽灵般飘忽。", "en": "Its form flickers in the dark, like a phantom."},
+        {"zh": "寒光闪烁，箭矢破空而来，险些穿透你的皮肤。", "en": "Flickering cold light, the arrow whizzes past, grazing your skin."},
+        {"zh": "它发出轻微的嘶鸣，似乎在挑战你的勇气。", "en": "It hisses softly, challenging your courage."},
+        {"zh": "黑暗中，它的眼睛像是两颗红色的宝石，令人不安。", "en": "In the dark, its eyes gleam like red gemstones, unsettling."},
+        {"zh": "它的身形在岩石间隐现，仿佛是自然的一部分。", "en": "Its form appears and disappears among the rocks, a part of nature."},
+        {"zh": "它突然出现，射出一箭，消失在黑暗中。", "en": "It appears suddenly, shoots an arrow, and vanishes into the dark."},
+        {"zh": "它低语着，仿佛在诉说着古老的故事。", "en": "It whispers, as if recounting ancient tales."},
+        {"zh": "它的目光紧锁着你，仿佛要将你看穿。", "en": "Its gaze fixes on you, as if seeing right through you."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上了它的箭矢，身体一震，几乎倒地。", "en": "You collide with its arrow, staggering to the ground."},
+        {"zh": "箭矢穿透了岩石，险些命中你。", "en": "The arrow pierces the rock, narrowly missing you."},
+        {"zh": "你惊魂未定，感到背后冷风飕飕。", "en": "You're still shaken, feeling a cold breeze behind you."},
+        {"zh": "它射出的箭矢精准地击中了你。", "en": "Its arrow strikes you with precision."},
+        {"zh": "你试图躲避，但它的箭矢无处不在。", "en": "You try to dodge, but its arrows are everywhere."},
+        {"zh": "箭矢在你周围飞舞，几乎击中你的脸。", "en": "The arrows dance around you, nearly striking your face."},
+        {"zh": "你被它的攻击吓得喘不过气。", "en": "You gasp for breath, frightened by its attack."},
+        {"zh": "你被它的箭矢击中，鲜血染红了地面。", "en": "You're hit by its arrow, blood staining the ground."},
+        {"zh": "它射出的箭矢如流星般划过夜空。", "en": "Its arrows streak like meteors across the night sky."},
+        {"zh": "你惊慌失措，几乎被它的箭矢打中。", "en": "You're panicked, barely dodging its arrows."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它发出低沉的嘶鸣，寻找着伴侣的声音。", "en": "It emits a low hiss, searching for a mate's call."},
+        {"zh": "它的声音在洞穴中回荡，回响着求偶的渴望。", "en": "Its voice echoes through the cave, longing for a mate."},
+        {"zh": "它静静地等待，期待着伴侣的回应。", "en": "It waits silently, hoping for a mate's response."},
+        {"zh": "它发出细微的声响，希望能引起对方注意。", "en": "It makes a subtle sound, hoping to catch its mate's attention."},
+        {"zh": "它寻找着可以共鸣的声音，回应求偶的呼唤。", "en": "It seeks sounds to resonate with, answering the call of love."},
+        {"zh": "它的声音在黑暗中显得格外清晰，如同心跳。", "en": "Its voice stands out in the darkness, like a heartbeat."},
+        {"zh": "它耐心地等待着，似乎可以听见对方的心跳。", "en": "It waits patiently, seeming to hear its mate's heartbeat."},
+        {"zh": "它的声音在寂静中回荡，寻找着最亲密的伴侣。", "en": "Its voice echoes in the silence, searching for the closest mate."},
+        {"zh": "它发出急切的叫声，仿佛要立刻找到伴侣。", "en": "It calls with urgency, eager to find its mate immediately."},
+        {"zh": "它发出的求偶声，回荡在古老的洞穴之中。", "en": "Its mating call echoes through the ancient cave."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "听不到你的呼吸了。", "en": "No breath. Not yet."},
+        {"zh": "地下的声音在警告你。", "en": "The ground speaks warnings."},
+        {"zh": "阴影中窥伺着你。", "en": "You are watched by shadows."},
+        {"zh": "黑暗中有一双眼睛。", "en": "Eyes in the dark."},
+        {"zh": "地面传来轻微震动。", "en": "Mild tremors beneath."},
+        {"zh": "感知到你的脚步声。", "en": "Your footsteps detected."},
+        {"zh": "无声的威胁在周围徘徊。", "en": "Silent threats surround."},
+        {"zh": "寂静中隐约听到动静。", "en": "Distant whispers in silence."},
+        {"zh": "黑暗中闪烁着微光。", "en": "Flickers in the dark."},
+        {"zh": "地面下潜伏着的危险。", "en": "Peril beneath the earth."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞里躲好，箭已经搭上。", "en": "Hidden in the cave, arrow nocked."},
+        {"zh": "视野中出现了你。", "en": "You are in my sight."},
+        {"zh": "拉弦的手停在半空，我数你的脚步。", "en": "My draw hand freezes midair as I count your steps."},
+        {"zh": "感觉到了你的存在。", "en": "Your presence felt."},
+        {"zh": "视线中出现了一个影子。", "en": "Shadow in my sight."},
+        {"zh": "你在我视野范围内。", "en": "You are within sight."},
+        {"zh": "将你纳入视线。", "en": "Bringing you into focus."},
+        {"zh": "你是我下一个猎物。", "en": "My next meal."},
+        {"zh": "洞顶的水滴声，盖不住你的鞋底。", "en": "Dripping water cannot drown out your boot soles."},
+        {"zh": "瞄准准备。", "en": "Aiming now."},
+        {"zh": "洞穴里多了一道拉弦声。", "en": "A bowstring draws somewhere in the cave."},
+        {"zh": "Pheely把你划进了猎场。", "en": "Pheely counts you into its hunting ground."},
+        {"zh": "它认准了你这个活物。", "en": "It picks you out as the living thing."},
+        {"zh": "你的脚步声被它记住了。", "en": "It memorizes the sound of your steps."},
+        {"zh": "Pheely决定今晚就跟着你。", "en": "Pheely decides to follow you tonight."},
+        {"zh": "它在暗处标下了你的位置。", "en": "It marks your position from the dark."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "瞄准，准备射箭。", "en": "Aim, ready to shoot."},
+        {"zh": "对准你的位置。", "en": "Targeting you."},
+        {"zh": "锁定射击。", "en": "Locking shot."},
+        {"zh": "箭矢即将离弦。", "en": "Arrow at the ready."},
+        {"zh": "瞄准最佳角度。", "en": "Perfecting aim."},
+        {"zh": "瞄准，瞄准，再瞄准。", "en": "Aim, aim, aim."},
+        {"zh": "准备释放箭矢。", "en": "Release the arrow."},
+        {"zh": "将你射穿。", "en": "Piercing you."},
+        {"zh": "箭矢瞄准你的胸膛。", "en": "Arrow to your chest."},
+        {"zh": "瞄准，射杀。", "en": "Aim, kill."},
+        {"zh": "箭尖对着你的后颈。", "en": "The arrowhead points at your neck."},
+        {"zh": "Pheely等你走到空地中央。", "en": "Pheely waits for you to reach open ground."},
+        {"zh": "它专挑你转身的空档。", "en": "It picks the moment you turn around."},
+        {"zh": "弓拉满了，还没放。", "en": "The bow is full drawn and held."},
+        {"zh": "它瞄准你火把照不到的地方。", "en": "It aims at the spot your torch misses."},
+        {"zh": "你在明，它在暗。", "en": "You are in the light; it is in the dark."},
+        {"zh": "Pheely算好了箭的落点。", "en": "Pheely has already worked out the arrow's landing."},
+        {"zh": "它准备先射你的腿。", "en": "It means to take your legs first."},
+        {"zh": "呼吸再慢一点，它就出手。", "en": "One slower breath and it looses."},
+        {"zh": "箭羽在黑暗里轻轻颤动。", "en": "The fletching trembles in the dark."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，箭矢嗖地飞来！", "en": "Sssssss, arrow whizzing by!"},
+        {"zh": "藏匿暗处，一箭穿心！", "en": "Hiding in the shadows, a piercing arrow!"},
+        {"zh": "突然袭击，箭雨袭来！", "en": "Sudden attack, arrow rain!"},
+        {"zh": "悄无声息，箭矢疾射！", "en": "Silent attack, arrow flying!"},
+        {"zh": "追踪猎物，一箭毙命！", "en": "Tracking prey, a deadly arrow!"},
+        {"zh": "弓弦震响，箭矢破空！", "en": "Bowstring taut, arrow flying!"},
+        {"zh": "潜伏暗处，悄然射杀！", "en": "Hiding, silent arrow shot!"},
+        {"zh": "箭矢贯穿，无声致命！", "en": "Arrow pierces, silent death!"},
+        {"zh": "黑暗中的精准射击！", "en": "Precision shot in the dark!"},
+        {"zh": "追踪到你，箭矢即至！", "en": "Tracking you, arrow coming!"},
+        {"zh": "箭从你背后钉进石壁！", "en": "An arrow pins the stone behind you!"},
+        {"zh": "Pheely一箭擦过你的耳朵！", "en": "Pheely's arrow grazes your ear!"},
+        {"zh": "你刚转身，箭就到了！", "en": "You turn, and the arrow is already there!"},
+        {"zh": "箭头带着洞穴的湿气！", "en": "The arrowhead comes wet from the cave!"},
+        {"zh": "它连射三箭，封住退路！", "en": "Three shots cut off your retreat!"},
+        {"zh": "你听见破空声才知中箭！", "en": "You hear the hiss only after it hits!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞穴深处，悄无声息！", "en": "Deep in the cave, silent."},
+        {"zh": "夜晚来袭，悄无声息！", "en": "Nightfall, silent."},
+        {"zh": "黑暗中，无声浮现！", "en": "Silent emergence in the dark."},
+        {"zh": "洞穴中，悄然现身！", "en": "Silent appearance in the cave."},
+        {"zh": "黑暗中，无声潜行！", "en": "Silent stalking in the dark."},
+        {"zh": "洞穴深处，无声现身！", "en": "Silent emergence in the depths."},
+        {"zh": "夜幕下，无声现身！", "en": "Silent appearance under the night."},
+        {"zh": "黑暗中，悄然出现！", "en": "Silent appearance in the dark."},
+        {"zh": "洞穴中，无声潜伏！", "en": "Silent lurking in the cave."},
+        {"zh": "夜幕降临，悄无声息！", "en": "Nightfall, silent."},
+        {"zh": "洞穴深处亮起两点眼光。", "en": "Two points of eyeshine light deep in the cave."},
+        {"zh": "第三天夜里，它开始活动。", "en": "On the third night, it begins to move."},
+        {"zh": "岩石后传来弓弦上弦声。", "en": "A bowstring tightens behind the rock."},
+        {"zh": "Pheely在矿洞尽头现身。", "en": "Pheely appears at the end of the shaft."},
+        {"zh": "阴影里走出一名猎手。", "en": "A hunter steps out of the shadows."},
+        {"zh": "火把照不到的角落有动静。", "en": "Something stirs where your torch fails."},
+        {"zh": "它从你身后的洞穴爬出来。", "en": "It crawls out of the cave behind you."},
+        {"zh": "地下的猎手开始了狩猎。", "en": "The hunter below begins to hunt."},
+        {"zh": "石壁上多了一道细长的影子。", "en": "A long thin shadow joins the wall."},
+        {"zh": "你在洞穴口听见拉弓声。", "en": "At the cave mouth you hear a bow draw."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火光烧得我睁不开眼", "en": "Firelight burns my eyes shut"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我踩空石台，一路滚到洞底。", "en": "I miss the ledge and tumble all the way to the cave floor."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进喉咙，射不出箭", "en": "Water fills my throat; I can't shoot"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸开的石头压住了我", "en": "Blasted stone pins me down"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我自己的箭，被人射回来了。", "en": "My own arrow has been shot right back at me."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蓝光打穿我的肩膀，弓脱了手。", "en": "Blue light punches through my shoulder and the bow slips free."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "躲了太久，箭壶空了。", "en": "Hid too long — my quiver's empty."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷顺着石壁下来，我毛发全竖。", "en": "Lightning runs down the stone wall and every hair of mine stands up."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的箭还没射完就掉了下去。", "en": "My quiver fell with me."}
+      ]
+    }
+  }
+}

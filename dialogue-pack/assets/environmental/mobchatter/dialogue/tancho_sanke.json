@@ -1,0 +1,282 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哗啦啦，水中行！", "en": "Splash, splash, swimming."},
+        {"zh": "游啊游，静悄悄！", "en": "Swim, swim, so quiet."},
+        {"zh": "水下世界，我的家！", "en": "My home, the underwater world!"},
+        {"zh": "看不清，摸着走！", "en": "Feel my way in the dark."},
+        {"zh": "游过去，又回来！", "en": "Swim away, then return."},
+        {"zh": "水草间，自由游！", "en": "Swim among the water plants."},
+        {"zh": "我顶着红点，绕开花影。", "en": "Wearing my red crown, I skirt the flower shadows."},
+        {"zh": "游过这片水域！", "en": "Swim through this area."},
+        {"zh": "避开玩家，安全！", "en": "Avoid the player, stay safe."},
+        {"zh": "水中觅食，小心！", "en": "Look out for food in the water."},
+        {"zh": "尾鳍一摆，滑进水草。", "en": "One flick of the tail, into the weeds."},
+        {"zh": "顺着溪流，慢慢巡游。", "en": "Cruising slowly along the stream."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静游，待时机！", "en": "Swim quietly, waiting."},
+        {"zh": "沉睡中，不惊扰！", "en": "Sleeping, don't disturb."},
+        {"zh": "水中游荡，悠闲！", "en": "Drifting in the water, at ease."},
+        {"zh": "享受宁静，无人知！", "en": "Enjoying peace, unseen."},
+        {"zh": "等待时机，行动！", "en": "Waiting for the right moment."},
+        {"zh": "水中漂浮，悠闲梦！", "en": "Drifting in the water, a dream."},
+        {"zh": "静待时机，悄无声！", "en": "Waiting silently for the moment."},
+        {"zh": "水中游，悠然自得！", "en": "Swimming in the water, at peace."},
+        {"zh": "水面下，悠然自得！", "en": "Under the surface, at peace."},
+        {"zh": "水中漂浮，静如水！", "en": "Floating in the water, calm as water."},
+        {"zh": "把红顶露出水面透气。", "en": "I lift my red crown up to breathe."},
+        {"zh": "停在水底，看落叶旋转。", "en": "Resting on the bed, watching leaves spin."},
+        {"zh": "鳞片映着樱花的光。", "en": "My scales catch the blossom light."},
+        {"zh": "水流推着我，懒得摆尾。", "en": "The current pushes me. I don't bother."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "玩家来了，退后！", "en": "Player approaching, back off!"},
+        {"zh": "玩家在前，小心！", "en": "Player ahead, be cautious."},
+        {"zh": "靠太近，你会看见我的红斑。", "en": "Come closer and you will see my red crown."},
+        {"zh": "玩家来了，隐藏！", "en": "Player coming, hide!"},
+        {"zh": "玩家在望，静悄悄！", "en": "Player watching, stay quiet."},
+        {"zh": "玩家近了，躲一躲！", "en": "Player approaching, hide away."},
+        {"zh": "玩家来了，快躲开！", "en": "Player here, hide fast!"},
+        {"zh": "玩家来了，快避开！", "en": "Player coming, get away."},
+        {"zh": "玩家来了，快隐匿！", "en": "Player here, hide now!"},
+        {"zh": "玩家来了，小心行动！", "en": "Player approaching, move carefully."},
+        {"zh": "有人蹲在岸边看我。", "en": "Someone is crouching on the bank, watching."},
+        {"zh": "我绕到你影子里了。", "en": "I've swum into your shadow."},
+        {"zh": "别伸手，水会晃。", "en": "Don't reach in. The water will ripple."},
+        {"zh": "你的倒影压在我背上。", "en": "Your reflection rests on my back."},
+        {"zh": "我认得这张脸，又来了。", "en": "I know that face. Back again."},
+        {"zh": "红顶对着你，算是招呼。", "en": "My red crown faces you. Consider it a greeting."},
+        {"zh": "水花一动，我就知道你来了。", "en": "One splash and I know you've come."},
+        {"zh": "你手里没有鱼食吧。", "en": "You aren't holding fish food, are you?"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "身上鳞片脱落，好疼！", "en": "Scaly pain..."},
+        {"zh": "我头上那点红，别蹭掉了。", "en": "Don't rub off the red mark on my head."},
+        {"zh": "尾巴流血，好痛！", "en": "Tail bleeding..."},
+        {"zh": "鱼鳍被咬断，快治治！", "en": "Fins torn..."},
+        {"zh": "身体受伤，真痛！", "en": "Body hurts..."},
+        {"zh": "身上破皮了，好疼！", "en": "Skin injured..."},
+        {"zh": "受伤了，求求你救救我！", "en": "Save... injured..."},
+        {"zh": "鳞片受损，好痛！", "en": "Scales hurt..."},
+        {"zh": "身体多处受伤，好痛！", "en": "Multiple injuries..."},
+        {"zh": "鳞片掉了一片，好在水深。", "en": "Lost a scale, but the water runs deep."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "金色鱼身吸引你靠近，小心触礁！", "en": "Golden scales lure you in, watch out for reefs!"},
+        {"zh": "三色鱼儿游弋，别靠近，危险！", "en": "Three-colored fish swim by, stay back, danger!"},
+        {"zh": "三色鱼儿悠闲游，靠近它你会死！", "en": "Three-colored fish swim lazily, getting close is deadly!"},
+        {"zh": "你被三色鱼吸引，但危险近在咫尺。", "en": "You're drawn to the three-colored fish, danger's near."},
+        {"zh": "三色锦鲤游动，不要试图触碰。", "en": "Three-colored koi swim, don't touch them."},
+        {"zh": "金色鱼尾摇摆，小心触到触须！", "en": "Golden tails sway, beware the feelers!"},
+        {"zh": "三色鱼儿穿梭水中，不要激怒它。", "en": "Three-colored fish dart through water, don't anger it."},
+        {"zh": "金色鱼鳍闪烁，小心触到尖刺！", "en": "Golden fins flash, beware the spines!"},
+        {"zh": "三色鱼靠近你，不要靠近岸边！", "en": "Three-colored fish approach, stay away from the shore!"},
+        {"zh": "金色鱼鳞反射光芒，但别接近。", "en": "Golden scales gleam, but stay away."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上了三色鱼，受到攻击！", "en": "You collide with a three-colored fish, getting attacked!"},
+        {"zh": "三色鱼游动时，小心碰撞！", "en": "Be wary of collisions with three-colored fish."},
+        {"zh": "三色鱼游来，你被撞得退后！", "en": "A three-colored fish swims by, you retreat from the collision."},
+        {"zh": "三色鱼游动时，小心头部碰撞！", "en": "Be careful of head collisions with three-colored fish."},
+        {"zh": "你撞上了三色鱼，它用触须攻击！", "en": "You collide with a three-colored fish, it attacks with feelers."},
+        {"zh": "三色鱼游动，小心触须缠绕！", "en": "Three-colored fish swim, beware of feeler entanglement."},
+        {"zh": "你撞上了三色鱼，它们用尖刺攻击！", "en": "You collide with a three-colored fish, they attack with spines."},
+        {"zh": "三色鱼游来，你被撞得倒退！", "en": "Three-colored fish approach, you back away from the collision."},
+        {"zh": "三色鱼游动时，小心身体碰撞！", "en": "Be careful of body collisions with three-colored fish."},
+        {"zh": "你撞上了三色鱼，它们用鱼鳍攻击！", "en": "You collide with a three-colored fish, they attack with fins."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "三色鱼成双，它们在交配！", "en": "Three-colored fish in pairs, mating."},
+        {"zh": "三色鱼寻找伴侣，小心！", "en": "Three-colored fish seek mates, beware!"},
+        {"zh": "三色鱼交配时，它们游动缓慢。", "en": "Three-colored fish mate slowly."},
+        {"zh": "你靠近三色鱼，它们开始交配。", "en": "You approach three-colored fish, they begin to mate."},
+        {"zh": "三色鱼成双，但勿靠近。", "en": "Three-colored fish in pairs, stay back."},
+        {"zh": "三色鱼在交配，不要干扰它们。", "en": "Three-colored fish mate, don't disturb them."},
+        {"zh": "你靠近三色鱼，它们开始繁殖。", "en": "You approach three-colored fish, they start reproducing."},
+        {"zh": "三色鱼成双，但别接近。", "en": "Three-colored fish in pairs, stay away."},
+        {"zh": "三色鱼寻找伴侣，不要靠近！", "en": "Three-colored fish seek mates, stay back!"},
+        {"zh": "三色鱼交配，它们游动缓慢。", "en": "Three-colored fish mate, they swim slowly."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锦鳞闪烁，静待猎物。", "en": "Glimmering scales, waiting for prey."},
+        {"zh": "鱼身丹顶，警觉周遭。", "en": "Red cap on my back, alerting surroundings."},
+        {"zh": "水底游弋，猎物难逃。", "en": "Swimming below, prey has no escape."},
+        {"zh": "鱼尾摆动，捕捉猎物。", "en": "Tails swaying, capturing prey."},
+        {"zh": "警惕四周，无处藏身。", "en": "Alert, nowhere to hide."},
+        {"zh": "鱼身三色，隐秘水中。", "en": "Three colors, hidden in water."},
+        {"zh": "伺机而动，猎物就在。", "en": "Waiting, prey is here."},
+        {"zh": "静观其变，机会来临。", "en": "Observing, opportunity strikes."},
+        {"zh": "鱼鳞闪烁，暗中追踪。", "en": "Glistening scales, stealthily tracking."},
+        {"zh": "静默无声，静待时机。", "en": "Silent, waiting for the right moment."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鱼身一震，锁定目标。", "en": "Scales ripple, target acquired."},
+        {"zh": "游弋水面，注视目标。", "en": "Swimming on surface, eyeing target."},
+        {"zh": "游动迅速，目标锁定。", "en": "Swift movement, target locked."},
+        {"zh": "鱼身一晃，目标显现。", "en": "Scales shimmer, target revealed."},
+        {"zh": "鱼身三色，目标锁定。", "en": "Three colors, target locked."},
+        {"zh": "游动之中，目标锁定。", "en": "Swimming, target acquired."},
+        {"zh": "鱼身静止，锁定目标。", "en": "Still, target acquired."},
+        {"zh": "游动水面，目标锁定。", "en": "Swimming on surface, target acquired."},
+        {"zh": "鱼身一动，目标锁定。", "en": "Scales move, target acquired."},
+        {"zh": "游弋水中，目标锁定。", "en": "Swimming in water, target acquired."},
+        {"zh": "那片水面有动静。", "en": "Something stirs on that patch of water."},
+        {"zh": "有东西想靠近这条溪。", "en": "Something wants to approach this stream."},
+        {"zh": "我把这一带看住了。", "en": "I keep watch over this stretch."},
+        {"zh": "十六格内，别想进来。", "en": "Sixteen blocks around, nothing gets in."},
+        {"zh": "有股怪味飘到水里。", "en": "A foul scent drifts into the water."},
+        {"zh": "我转向了那阵波纹。", "en": "I turn toward those ripples."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鱼身一摆，目标锁定。", "en": "Scales sway, target locked."},
+        {"zh": "鱼身三色，目标瞄准。", "en": "Three colors, target aimed."},
+        {"zh": "游动之中，目标锁定", "en": "Swimming, target acquired"},
+        {"zh": "游弋水面，锁定目标。", "en": "Swimming on surface, target acquired."},
+        {"zh": "鱼身一晃，目标锁定。", "en": "Scales shimmer, target acquired."},
+        {"zh": "鱼身三色，目标锁定", "en": "Three colors, target locked"},
+        {"zh": "游弋之中，锁定目标。", "en": "Swimming, target acquired."},
+        {"zh": "鱼身一摆，锁定目标。", "en": "Scales move, target acquired."},
+        {"zh": "游弋水面，目标锁定。", "en": "Swimming on surface, target acquired."},
+        {"zh": "鱼身一动，锁定目标。", "en": "Scales move, target locked."},
+        {"zh": "我盯着岸边的暗处。", "en": "I stare at the dark on the bank."},
+        {"zh": "黑鳞一竖，我预备好了。", "en": "My black scales rise. I'm ready."},
+        {"zh": "这条溪归我守。", "en": "This stream is mine to guard."},
+        {"zh": "别在樱花下打歪主意。", "en": "No schemes under the blossoms."},
+        {"zh": "我用尾鳍圈住这片水。", "en": "My tail marks the bounds of this water."},
+        {"zh": "你踩到我的界线了。", "en": "You've stepped over my line."},
+        {"zh": "水面安静，我可不安静。", "en": "The surface is calm. I am not."},
+        {"zh": "我挡在它和岸边之间。", "en": "I place myself between it and the bank."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我甩尾巴抽了你一下。", "en": "I slap you with my tail."},
+        {"zh": "鱼肉盛宴！", "en": "Feast on flesh!"},
+        {"zh": "我头顶那点红，是池里最亮的。", "en": "The red on my head is the pond's brightest."},
+        {"zh": "咕噜噜，好美味！", "en": "Rrrrr, so delicious!"},
+        {"zh": "我的鳞片闪耀着光芒！", "en": "My scales shine bright!"},
+        {"zh": "我甩尾打水，溅你一身。", "en": "One tail slap and you are soaked."},
+        {"zh": "用我的尖牙撕裂你！", "en": "Tear you apart with my fangs!"},
+        {"zh": "鱼饵，来吧！", "en": "Bait, come on!"},
+        {"zh": "我用嘴撞了撞你的靴。", "en": "I bump your boot with my mouth."},
+        {"zh": "鱼肉是我的食物！", "en": "Fish is my food!"},
+        {"zh": "甩尾，击起一捧水！", "en": "A tail slap throws up a spray!"},
+        {"zh": "撞你一下，也是警告！", "en": "One bump, and that's a warning!"},
+        {"zh": "红顶一低，我冲了！", "en": "Red crown down, here I charge!"},
+        {"zh": "水里我可比你想的快！", "en": "I'm faster in water than you think!"},
+        {"zh": "鳞片刮过，留个记号！", "en": "A scale scrapes you, leaving a mark!"},
+        {"zh": "别把脏脚伸进我的溪！", "en": "Keep your dirty feet out of my stream!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水质干净，才安全！", "en": "Clean water keeps me safe!"},
+        {"zh": "这片花林的水归我游。", "en": "This blossom-forest water is mine to swim."},
+        {"zh": "远离我，否则你会后悔！", "en": "Stay away, or you'll regret it!"},
+        {"zh": "水质脏了，怪物来了！", "en": "Water dirty, monsters come!"},
+        {"zh": "水质清澈，怪物远离！", "en": "Clear water, monsters stay away!"},
+        {"zh": "我的鳞片可以隐身！", "en": "My scales can make me invisible!"},
+        {"zh": "水质变差，怪物增多！", "en": "Water quality worse, more monsters!"},
+        {"zh": "水质太脏，怪物生成！", "en": "Too dirty, monsters spawn!"},
+        {"zh": "水质良好，怪物减少！", "en": "Good water, fewer monsters!"},
+        {"zh": "水质干净，怪物消失！", "en": "Clean water, monsters gone!"},
+        {"zh": "樱花瓣落进水里，我醒了。", "en": "A blossom falls in the water, and I wake."},
+        {"zh": "这条溪清得能养我。", "en": "This stream is clean enough to keep me."},
+        {"zh": "花木林的水，正好。", "en": "The water in the Blossom Woods is just right."},
+        {"zh": "我带着红顶来巡溪。", "en": "I come patrolling with my red crown."},
+        {"zh": "水草够密，藏得下我。", "en": "The weeds are thick enough to hide me."},
+        {"zh": "从花瓣影子里游出来。", "en": "I swim out of the petals' shadow."},
+        {"zh": "此处的怪味，我不许。", "en": "I don't allow that stench here."},
+        {"zh": "白红黑三色，落水成纹。", "en": "White, red, and black ripple into the water."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "身上鳞片脱落，好疼，被火烧的滋味可不好受。", "en": "Scaly pain — and the fire makes it worse."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉入坑中，受伤了！", "en": "Fall hurt..."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "受伤了，快救救我，溺水的滋味可不好受。", "en": "Help... injured — and the drown makes it worse."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "尾巴流血，好痛，遭爆炸的滋味可不好受。", "en": "Tail bleeding — and the explosion makes it worse."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭头划破了我的尾鳍。", "en": "An arrowhead tore my tail fin."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被魔法攻击，好疼！", "en": "Magical burn..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鱼鳍被咬断，快治治，挨饿的滋味可不好受。", "en": "Fins torn — and the starvation makes it worse."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被雷劈中，好疼！", "en": "Lightning strike..."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "池水没了，头顶的白也凉了。", "en": "The pond is gone, and the white on my head runs cold."}
+      ]
+    }
+  }
+}

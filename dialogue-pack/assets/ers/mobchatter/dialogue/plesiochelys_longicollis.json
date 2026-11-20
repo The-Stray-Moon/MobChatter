@@ -1,0 +1,267 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "长颈探出去，先看再走", "en": "My long neck reaches out. Look, then walk."},
+        {"zh": "龟壳在石上拖出声音", "en": "My shell scrapes along the stone."},
+        {"zh": "六肢交替，步幅很小", "en": "Six limbs alternate in short strides."},
+        {"zh": "我沿着水线慢慢走", "en": "I follow the waterline slowly."},
+        {"zh": "颈子左右晃着找路", "en": "My neck sways, seeking a way."},
+        {"zh": "壳下积了一小摊水", "en": "A little water pools under my shell."},
+        {"zh": "我踩进浅水，溅起水花", "en": "I step into the shallows with a splash."},
+        {"zh": "长颈缩回一半，又伸出去", "en": "My neck half retracts, then extends again."},
+        {"zh": "绕过一块礁石", "en": "I round a reef stone."},
+        {"zh": "脚爪陷进湿沙", "en": "My claws sink into wet sand."},
+        {"zh": "身体压得很低，很稳", "en": "My body rides low and steady."},
+        {"zh": "我朝那块晒得暖的石板去", "en": "I head for that sun-warmed slab."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脖子伸得很长，不动", "en": "My neck stretched out, motionless."},
+        {"zh": "壳上晒得有点热", "en": "My shell has gone warm in the sun."},
+        {"zh": "六肢收在壳下", "en": "Six limbs tucked beneath my shell."},
+        {"zh": "眼睛一眨不眨", "en": "My eyes don't blink."},
+        {"zh": "水从壳沿滴下来", "en": "Water drips from my shell's rim."},
+        {"zh": "我慢慢把颈子转了个向", "en": "I turn my neck slowly to a new angle."},
+        {"zh": "腮边的皮轻轻起伏", "en": "Skin at my throat rises and falls."},
+        {"zh": "有海鸟落在不远处", "en": "A seabird lands a little way off."},
+        {"zh": "我把下巴搁在石上", "en": "I rest my chin on the stone."},
+        {"zh": "鼻孔里喷出一点水", "en": "A little water puffs from my nostrils."},
+        {"zh": "脖子伸得很长，不动。", "en": "My neck stretches out long, and holds still."},
+        {"zh": "我等着水涨上来", "en": "I wait for the tide."},
+        {"zh": "身体晃了晃，稳住了", "en": "I rock once, then settle."},
+        {"zh": "光从壳的一侧移到另一侧", "en": "Light moves across my shell, side to side."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "长颈慢慢抬起来", "en": "My long neck rises slowly."},
+        {"zh": "我的头在你眼睛的高度", "en": "My head reaches your eye level."},
+        {"zh": "颈子歪了一下", "en": "My neck cocks to one side."},
+        {"zh": "你站在我的水线上", "en": "You're standing on my waterline."},
+        {"zh": "我把头往前探了探", "en": "I extend my head toward you."},
+        {"zh": "鼻尖离你很近", "en": "My snout comes quite close."},
+        {"zh": "闻到你身上的干味", "en": "I smell something dry on you."},
+        {"zh": "六肢从壳下伸出来", "en": "Six limbs slide out from under my shell."},
+        {"zh": "我不躲，也不冲", "en": "I don't hide, and I don't charge."},
+        {"zh": "这条岸我走了很久", "en": "I've walked this shore a long time."},
+        {"zh": "颈子绕了半个圈", "en": "My neck curves half a circle."},
+        {"zh": "然后慢慢缩回去", "en": "Then it draws back in."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "长颈一下缩了大半", "en": "Most of my neck retracts."},
+        {"zh": "我这条长脖子，伸得很远。", "en": "This long neck of mine reaches far."},
+        {"zh": "六肢往里收了收", "en": "Six limbs pull inward."},
+        {"zh": "我慢吞吞退半步", "en": "I retreat half a step slowly."},
+        {"zh": "壳里传出一声闷响", "en": "A hollow sound inside my shell."},
+        {"zh": "这一下打在颈根", "en": "That hit the base of my neck."},
+        {"zh": "水从伤口往外渗", "en": "Water seeps from the wound."},
+        {"zh": "我压低身体，护住颈", "en": "I lower myself to guard my neck."},
+        {"zh": "你这位置我记下", "en": "I note where you stand."},
+        {"zh": "我还能再等一下", "en": "I can wait a little longer."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水边有什么落下来", "en": "Something drops by the water."},
+        {"zh": "我把长颈伸过去", "en": "My long neck reaches for it."},
+        {"zh": "太远了，还差一点", "en": "Too far. Almost."},
+        {"zh": "我推了一步，壳也跟着动", "en": "One step, and my shell comes with me."},
+        {"zh": "这味道不像鱼", "en": "It doesn't smell like fish."},
+        {"zh": "但我还是尝了一口", "en": "Still, I take a taste."},
+        {"zh": "水里的东西我更喜欢", "en": "I prefer what lives in the water."},
+        {"zh": "这点不够我嚼两下", "en": "Not two chews' worth."},
+        {"zh": "我把颈子绕回来", "en": "I curl my neck back."},
+        {"zh": "算了，等潮水", "en": "Never mind. I'll wait for the tide."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到我的壳，硬得很", "en": "You hit my shell. It's hard."},
+        {"zh": "长颈一下缩了进来", "en": "My neck snaps back in."},
+        {"zh": "壳晃了晃，稳住了", "en": "My shell rocks, then settles."},
+        {"zh": "六肢撑住身体", "en": "Six limbs brace me."},
+        {"zh": "你退开点，我要转身", "en": "Give me room. I need to turn."},
+        {"zh": "龟壳转身很慢", "en": "A shell turns slowly."},
+        {"zh": "这一下一点都不痛", "en": "That didn't hurt at all."},
+        {"zh": "水被我们搅起一层沙", "en": "We've stirred sand into the water."},
+        {"zh": "我往旁边挪了半尺", "en": "I shift half a foot aside."},
+        {"zh": "你踩着我的爪了", "en": "You're standing on my claw."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "长颈互相碰了一下", "en": "Our long necks touch once."},
+        {"zh": "我们把壳并在一起", "en": "We set our shells side by side."},
+        {"zh": "一起爬上同一块石板", "en": "We climb onto the same slab."},
+        {"zh": "她的颈子比我的细", "en": "Her neck is slimmer than mine."},
+        {"zh": "我们挨着晒太阳", "en": "We bask, pressed together."},
+        {"zh": "沙里挖个浅坑", "en": "We scrape a shallow pit in the sand."},
+        {"zh": "蛋要在暖沙里埋着", "en": "The eggs must lie in warm sand."},
+        {"zh": "轮流守着那一片", "en": "We take turns watching that patch."},
+        {"zh": "潮水来了就一起下水", "en": "When the tide comes, we enter together."},
+        {"zh": "这样过了很多年", "en": "We've done this for many years."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "长颈一伸，叼住了", "en": "My neck shoots out and takes it."},
+        {"zh": "吞下去，没什么味道", "en": "Swallowed. Little taste."},
+        {"zh": "壳太重，我弯不下腰", "en": "My shell is heavy. I can't bend."},
+        {"zh": "我只能整只吞下去", "en": "I can only swallow it whole."},
+        {"zh": "我把它顶在沙上碾", "en": "I crush it against the sand."},
+        {"zh": "太小，我懒得追", "en": "Too small to bother with."},
+        {"zh": "水把它冲开了", "en": "The water pulled it away."},
+        {"zh": "我伸颈够了一下，没够到", "en": "I stretched for it and missed."},
+        {"zh": "咽下去时脖子鼓了一下", "en": "My neck bulges as it goes down."},
+        {"zh": "行了，我继续晒", "en": "Fine. Back to sunning."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踩进了水里", "en": "You've stepped into the water."},
+        {"zh": "长颈转过来，正对你", "en": "My long neck turns square to you."},
+        {"zh": "六肢从壳下全伸出来", "en": "All six limbs come out from my shell."},
+        {"zh": "壳下的水被搅动", "en": "Water churns beneath my shell."},
+        {"zh": "颈子慢慢抬高", "en": "My neck lifts slowly."},
+        {"zh": "我从石板上滑下来", "en": "I slide off the slab."},
+        {"zh": "落地时壳发出一声闷响", "en": "My shell lands with a hollow knock."},
+        {"zh": "水花溅到我的侧面", "en": "Splash hits my flank."},
+        {"zh": "我朝你走了第一步", "en": "I take the first step toward you."},
+        {"zh": "我这一步并不快", "en": "Not a quick step."},
+        {"zh": "但是走得很稳", "en": "But it's a steady one."},
+        {"zh": "你别指望我停", "en": "Don't count on me stopping."},
+        {"zh": "我的颈子够得到你", "en": "My neck can reach you."},
+        {"zh": "从比你想的更远的地方", "en": "From farther than you'd guess."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我六肢压进沙里，往前推。", "en": "I drive my six limbs into the sand and push."},
+        {"zh": "长颈在你前面晃", "en": "My long neck sways ahead of me."},
+        {"zh": "你往后退我就走", "en": "Retreat and I advance."},
+        {"zh": "在水里我要快得多", "en": "I'm faster in the water."},
+        {"zh": "所以我把你往水里逼", "en": "So I herd you toward the water."},
+        {"zh": "六肢在沙上留下深印", "en": "Six limbs leave deep prints in the sand."},
+        {"zh": "颈子从侧面绕过来", "en": "My neck comes around your flank."},
+        {"zh": "你看得见，却挡不住", "en": "You see it coming and can't stop it."},
+        {"zh": "壳挡住了你的退路", "en": "My shell blocks your retreat."},
+        {"zh": "这一片岸，没有别处", "en": "Nowhere else on this shore."},
+        {"zh": "我把脖子低下来", "en": "I lower my head."},
+        {"zh": "准备好接住这一下", "en": "Get ready to take this."},
+        {"zh": "还差一点距离", "en": "Just a little more distance."},
+        {"zh": "时候正好到了", "en": "The time has come."},
+        {"zh": "这一下终于来了", "en": "Here it finally comes."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "长颈猛地一甩", "en": "My long neck snaps sideways."},
+        {"zh": "头撞在你胸口", "en": "My head rams your chest."},
+        {"zh": "壳整个顶过来", "en": "My whole shell shoves into you."},
+        {"zh": "六肢同时往前推", "en": "Six limbs drive forward at once."},
+        {"zh": "这一下非常沉", "en": "That one was heavy."},
+        {"zh": "你滑着退了两步", "en": "You slide back two steps."},
+        {"zh": "颈子收得快，你没抓到", "en": "My neck retracts fast. You miss it."},
+        {"zh": "壳的边缘磕到你", "en": "My shell's rim catches you."},
+        {"zh": "我的长颈横扫，水花打在你脸上。", "en": "My neck sweeps and water hits your face."},
+        {"zh": "我又把颈子伸出去", "en": "My neck extends again."},
+        {"zh": "这一下偏出去了", "en": "That one went wide."},
+        {"zh": "但你站的地方在变窄", "en": "But the ground you stand on is narrowing."},
+        {"zh": "再退就进水了", "en": "Back further and you're in the water."},
+        {"zh": "水里就是我的地方", "en": "The water is my place."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "浅水里浮起一个壳", "en": "A shell breaks the shallows."},
+        {"zh": "长颈先探出水面", "en": "My long neck surfaces first."},
+        {"zh": "六肢撑住沙底", "en": "Six limbs find the sandy bottom."},
+        {"zh": "水从壳上流下来", "en": "Water sheets off my shell."},
+        {"zh": "我朝岸上挪了几步", "en": "I move a few steps up the bank."},
+        {"zh": "壳在湿沙上留下印", "en": "My shell leaves a print in the wet sand."},
+        {"zh": "这里的潮不太对", "en": "The tide here feels wrong."},
+        {"zh": "但我认得石头", "en": "But I know stone."},
+        {"zh": "我把颈子抬高，四处看", "en": "I raise my neck and look around."},
+        {"zh": "海鸟在远处叫", "en": "Seabirds call in the distance."},
+        {"zh": "我慢慢朝石板走", "en": "I head slowly for a flat stone."},
+        {"zh": "先晒一晒再说", "en": "Sun first. Everything else after."},
+        {"zh": "壳暖了，我才动", "en": "I move only once my shell is warm."},
+        {"zh": "这条岸是新地方", "en": "This shore is new ground."},
+        {"zh": "但我走起来一样", "en": "Though I walk it the same way."},
+        {"zh": "我沿着水线开始走", "en": "Starting from the waterline."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烤着我的壳，热气往里钻。", "en": "Fire roasts my shell and the heat seeps in."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "落地时六肢撑了一下", "en": "Six limbs catch the landing hard."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水太深，我浮不上去", "en": "Too deep. I can't surface."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆风把壳掀得晃了一下", "en": "The blast rocks my shell."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "东西扎在壳缝里", "en": "It lodges in a seam of my shell."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "壳里的身体一阵发冷", "en": "A chill spreads through me inside the shell."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得颈子都垂了", "en": "Hunger lets my neck droop."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在壳上，我全身一麻", "en": "Lightning strikes my shell and I go numb."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水线没了，下面全是空", "en": "No waterline. Only emptiness below."}
+      ]
+    }
+  }
+}

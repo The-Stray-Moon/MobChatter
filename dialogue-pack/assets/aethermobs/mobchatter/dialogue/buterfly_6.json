@@ -1,0 +1,282 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅膀扑棱扑棱作响。", "en": "Wings flutter noisily."},
+        {"zh": "掠过树叶间的声音。", "en": "Sound of passing through leaves."},
+        {"zh": "在空中缓缓飞行。", "en": "Flying slowly in the air."},
+        {"zh": "飞过草地，草叶摇动。", "en": "Leaves rustle as it flies over the grass."},
+        {"zh": "避开你的视线，迅速逃离。", "en": "Avoiding your gaze, it quickly flees."},
+        {"zh": "快速掠过玩家视野。", "en": "Swiftly skimming past the player."},
+        {"zh": "绕着玩家转圈。", "en": "Circling the player."},
+        {"zh": "从远处飞来，靠近玩家。", "en": "Approaches the player from a distance."},
+        {"zh": "在空中发出微弱的叫声。", "en": "Emitting a faint call in the air."},
+        {"zh": "扇动着巨大的翅膀。", "en": "Beating its large wings."},
+        {"zh": "翅尖扫过天境的薄雾。", "en": "My wingtips brush the Aether haze."},
+        {"zh": "沿着浮空岛的边缘飞。", "en": "I fly along the rim of the floating isle."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静地停在花朵上。", "en": "Pausing on a flower."},
+        {"zh": "轻轻地落在草尖上。", "en": "Lightly landing on a blade of grass."},
+        {"zh": "悠闲地停在空中。", "en": "Relaxed in the air."},
+        {"zh": "用触须轻轻触碰花粉。", "en": "Tapping the pollen with antennae."},
+        {"zh": "停在树枝上休憩。", "en": "Resting on a branch."},
+        {"zh": "静静地悬停在空中。", "en": "Hanging in the air silently."},
+        {"zh": "轻轻扇动着翅膀。", "en": "Gently flapping its wings."},
+        {"zh": "静静地栖息在花丛中。", "en": "Perched quietly in a flower bed."},
+        {"zh": "停在岩石上休憩。", "en": "Resting on a rock."},
+        {"zh": "静静地停在树干上。", "en": "Pausing on a tree trunk."},
+        {"zh": "停在水晶簇上歇翅。", "en": "I rest my wings on a crystal cluster."},
+        {"zh": "翅膀一张一合地打盹。", "en": "I doze, wings opening and closing."},
+        {"zh": "让气流托着不动。", "en": "I let the current hold me still."},
+        {"zh": "躲在大菌盖的阴影下。", "en": "I shelter in a huge mushroom cap's shade."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你一动，我的翅膀就停了一拍。", "en": "When you move, my wings pause a beat."},
+        {"zh": "我的翅膀是薄薄一层晶片。", "en": "My wings are thin flakes of crystal."},
+        {"zh": "注意到了玩家的存在。", "en": "Noticing the player."},
+        {"zh": "警惕地注视着玩家。", "en": "Skeptical of the player."},
+        {"zh": "我落在你肩头，翅粉簌簌掉。", "en": "I land on your shoulder, wing dust sifting down."},
+        {"zh": "我绕着你转，找一朵能歇的花。", "en": "I circle you, looking for a flower to rest on."},
+        {"zh": "注视着玩家。", "en": "Observing the player."},
+        {"zh": "注视着靠近的玩家。", "en": "Observing the approaching player."},
+        {"zh": "好奇地盯着玩家。", "en": "Curiously staring at the player."},
+        {"zh": "绕着你的头盔打转。", "en": "I circle around your helmet."},
+        {"zh": "在你鼻尖前停了一下。", "en": "I pause right before your nose."},
+        {"zh": "我停在你的呼吸边缘，翅膀合上。", "en": "I hover at the edge of your breath and fold my wings."},
+        {"zh": "我盯上了你肩上的光。", "en": "I've spotted the light on your shoulder."},
+        {"zh": "你先动，还是我先飞？", "en": "Will you move first, or shall I?"},
+        {"zh": "我在数你的睫毛。", "en": "I'm counting your eyelashes."},
+        {"zh": "你身上有云的味道。", "en": "You smell of cloud."},
+        {"zh": "这岛的访客总是这么高。", "en": "Visitors to this isle are always so tall."},
+        {"zh": "你不像天境的东西。", "en": "You don't look like you belong in the Aether."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅膀受伤，飞不起来了。", "en": "Wings hurt; can't fly."},
+        {"zh": "身体受创，疼痛难忍。", "en": "Injured; agony."},
+        {"zh": "触角断裂，很难再爬行。", "en": "Antennas broken; hard to move."},
+        {"zh": "翅膀破了，只能慢慢飞。", "en": "Wings damaged; slow flying."},
+        {"zh": "翅膀被割伤，飞不远。", "en": "Wings cut; can't fly far."},
+        {"zh": "翅膀流血了，快停下。", "en": "Wings bleeding; stop."},
+        {"zh": "翅膀被烧伤，飞不动了。", "en": "Wings burned; can't fly."},
+        {"zh": "被划伤了，飞不起来了。", "en": "Cut; can't fly."},
+        {"zh": "翅膀摔伤，飞不高。", "en": "Wings hurt; can't fly high."},
+        {"zh": "翅膜破了个口，漏风。", "en": "There's a tear in my wing membrane; it leaks air."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它那闪闪发光的翅膀诱惑着你靠近，", "en": "Its shimmering wings tempt you closer."},
+        {"zh": "它在你的阴影下发出低沉的嗡嗡声，", "en": "It hums darkly under your shadow."},
+        {"zh": "它那细长的触角轻触你的皮肤，", "en": "Its long antennae gently touch your skin."},
+        {"zh": "你感到一股冷风从它那透明的翅膀中吹出，", "en": "A cold breeze blows from its translucent wings."},
+        {"zh": "它的眼睛闪烁着奇异的光芒，注视着你，", "en": "Its eyes glow with an eerie light, staring at you."},
+        {"zh": "它那细长的身体在月光下显得更加诡异，", "en": "Its long body glows eerily under the moonlight."},
+        {"zh": "它那细长的腿轻盈地在空中飘动，", "en": "Its long legs float gracefully in the air."},
+        {"zh": "它的翅膀反射出诡异的绿色光芒，", "en": "Its wings reflect eerie green light."},
+        {"zh": "它似乎对你的存在感到好奇，慢慢靠近你，", "en": "It seems curious about you, slowly approaching."},
+        {"zh": "它在你的耳边低语，声音几乎听不见，", "en": "It whispers in your ear, its voice almost inaudible."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你突然感觉一股强大的力量将你推开，", "en": "You feel a powerful force push you away."},
+        {"zh": "它的翅膀在空中划出一道闪光，撞上了你，", "en": "Its wings flash and collide with you."},
+        {"zh": "它的触角几乎碰到了你的脸，", "en": "Its antennae nearly touch your face."},
+        {"zh": "它的翅膀在空中摩擦发出刺耳的声音，", "en": "Its wings scrape together, making a harsh sound."},
+        {"zh": "它的身体在空中笨拙地翻滚，撞向你，", "en": "Its body clumsily rolls in the air, colliding with you."},
+        {"zh": "你被它的力量震得后退了几步，", "en": "You are knocked back a few steps by its power."},
+        {"zh": "它那细长的腿在空中划出一道道轨迹，", "en": "Its long legs trace a path through the air."},
+        {"zh": "它的翅膀在空中展开，差点撞到你的头，", "en": "Its wings spread, nearly hitting your head."},
+        {"zh": "它的翅膀轻轻碰触到你的肩膀，", "en": "Its wings gently touch your shoulder."},
+        {"zh": "它的身体在空中笨拙地旋转，撞向你，", "en": "Its body clumsily spins in the air, colliding with you."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它在空中与另一只蝴蝶翩翩起舞，", "en": "It dances with another butterfly in the air."},
+        {"zh": "它那细长的触角在空中寻找伴侣，", "en": "Its long antennae search for a mate in the air."},
+        {"zh": "它在空中与另一只蝴蝶亲密地飞翔，", "en": "It flies closely with another butterfly in the air."},
+        {"zh": "它的翅膀在空中轻轻碰撞，寻找伴侣，", "en": "Its wings gently collide in search of a mate."},
+        {"zh": "它在空中与另一只蝴蝶亲密接触，", "en": "It intimately touches another butterfly in the air."},
+        {"zh": "它那细长的身体在空中轻盈地翻飞，寻找伴侣，", "en": "Its long body gracefully flutters in the air, searching for a mate."},
+        {"zh": "它的触角在空中寻找另一只蝴蝶，寻找伴侣，", "en": "Its antennae search for another butterfly in the air, in search of a mate."},
+        {"zh": "它在空中与另一只蝴蝶轻盈地飞翔，寻找伴侣，", "en": "It flies gracefully with another butterfly in the air, in search of a mate."},
+        {"zh": "它在空中与另一只蝴蝶亲密地飞翔，寻找伴侣，", "en": "It flies closely with another butterfly in the air, in search of a mate."},
+        {"zh": "我用翅粉画一圈求偶。", "en": "I draw a ring of wing dust to court."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它的翅膀闪烁着诡异的光芒。", "en": "Its wings glow with eerie light."},
+        {"zh": "我感到了一股寒意。", "en": "A chill ran down my spine."},
+        {"zh": "我捡起了一只天境蝴蝶。", "en": "I picked up a sky butterfly."},
+        {"zh": "它的触角轻轻触碰我的手。", "en": "Its antennae gently touched my hand."},
+        {"zh": "它的翅膀轻轻拍打着。", "en": "Its wings softly flapped."},
+        {"zh": "它的叫声如同寒风呼啸。", "en": "Its call was like a cold wind."},
+        {"zh": "它的触角似乎在寻找什么。", "en": "Its antennae seemed to be searching."},
+        {"zh": "它的眼神中透出一丝狡黠。", "en": "Its eyes showed a glint of cunning."},
+        {"zh": "它从我的手中飞走了。", "en": "It flew away from my hand."},
+        {"zh": "它的翅膀上沾满了露珠。", "en": "Dew droplets clung to its wings."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它盯上了我。", "en": "It locked onto me."},
+        {"zh": "它发现了我的位置。", "en": "It found my position."},
+        {"zh": "它的触角指向了我。", "en": "Its antennae pointed at me."},
+        {"zh": "它开始向我靠近。", "en": "It started to approach me."},
+        {"zh": "它的翅膀在空中扇动。", "en": "Its wings flapped in the air."},
+        {"zh": "它的目光紧盯着我。", "en": "Its gaze fixated on me."},
+        {"zh": "它似乎认出了我。", "en": "It seemed to recognize me."},
+        {"zh": "它的翅膀在微微颤动。", "en": "Its wings trembled slightly."},
+        {"zh": "它锁定目标了。", "en": "It acquired the target."},
+        {"zh": "它的身体开始紧张起来。", "en": "Its body tensed up."},
+        {"zh": "复眼里全是你的影子。", "en": "Your shape fills every facet of my eyes."},
+        {"zh": "翅上的鳞粉记住了你。", "en": "The scales on my wings remember you."},
+        {"zh": "风向告诉我你躲在哪。", "en": "The wind tells me where you hide."},
+        {"zh": "你踩坏了我的花。", "en": "You trampled my flower."},
+        {"zh": "俯冲的角度我算好了。", "en": "I've worked out my dive angle."},
+        {"zh": "你跑不过我的振翅。", "en": "You can't outrun my wingbeats."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它向我发起攻击。", "en": "It attacked me."},
+        {"zh": "它开始追踪我。", "en": "It started to track me."},
+        {"zh": "它的触角在空中舞动。", "en": "Its antennae danced in the air."},
+        {"zh": "它绕着我盘旋。", "en": "It circled around me."},
+        {"zh": "它试图捕捉我。", "en": "It tried to capture me."},
+        {"zh": "它在空气中挥动翅膀。", "en": "It waved its wings in the air."},
+        {"zh": "它的翅膀在空中划过。", "en": "Its wings sliced through the air."},
+        {"zh": "它向我发出警告。", "en": "It issued a warning to me."},
+        {"zh": "它似乎想吓唬我。", "en": "It seemed to want to scare me."},
+        {"zh": "它用翅膀拍打着。", "en": "It拍打着 its wings."},
+        {"zh": "我在你头顶画圈。", "en": "I'm drawing circles over your head."},
+        {"zh": "这个高度够俯冲了。", "en": "This height is enough for a dive."},
+        {"zh": "我的影子落在你脸上。", "en": "My shadow lands on your face."},
+        {"zh": "翅尖正对着你。", "en": "My wingtip points straight at you."},
+        {"zh": "再近一步我就撞上去。", "en": "One more step and I ram you."},
+        {"zh": "你后退，我就跟。", "en": "Step back and I follow."},
+        {"zh": "我在等你抬手那一下。", "en": "I'm waiting for you to raise that hand."},
+        {"zh": "这一圈绕得你头晕。", "en": "This circle will make you dizzy."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它用触须刺伤了你！", "en": "It stung you with its antennae!"},
+        {"zh": "它的翅膀划破了你的皮肤。", "en": "Its wings cut your skin!"},
+        {"zh": "躲避它的利爪！", "en": "Avoid its sharp claws!"},
+        {"zh": "它的毒液让你疼痛！", "en": "Its venom hurts!"},
+        {"zh": "它的吸盘紧紧抓住你！", "en": "Its suction cups cling to you!"},
+        {"zh": "它的触角戳中了你的弱点。", "en": "Its antennae hit your weak spot!"},
+        {"zh": "它的毒刺穿透了你的防御。", "en": "Its venomous spines pierced your defenses!"},
+        {"zh": "它的利爪撕裂了你的衣服。", "en": "Its claws tore through your clothes!"},
+        {"zh": "它的毒液让伤口剧痛。", "en": "Its venom makes your wounds agonize!"},
+        {"zh": "它用毒刺扎穿了你的皮肤。", "en": "Its venomous needles pierced your skin!"},
+        {"zh": "翅缘的鳞粉割伤你！", "en": "The scales on my wing edge cut you!"},
+        {"zh": "我撞在你的护目镜上！", "en": "I smack into your goggles!"},
+        {"zh": "鳞粉扑进你的眼睛！", "en": "Wing dust flies into your eyes!"},
+        {"zh": "翅脉抽在你脸上！", "en": "A wing vein lashes your face!"},
+        {"zh": "我从死角扎了下来！", "en": "I stab down from your blind spot!"},
+        {"zh": "够你揉半天眼睛了。", "en": "That'll have you rubbing your eyes."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑夜降临，天境蝴蝶现身。", "en": "Night falls, and the sky butterflies appear."},
+        {"zh": "它们从天而降，寻找猎物。", "en": "They descend from the sky, seeking prey."},
+        {"zh": "黑暗中它们潜伏等待。", "en": "They lurk in the darkness, waiting."},
+        {"zh": "它们隐匿于黑暗，伺机而动。", "en": "They hide in the darkness, ready to strike."},
+        {"zh": "天边的阴影下，它们悄然现身。", "en": "They emerge from the shadows of the sky."},
+        {"zh": "它们悄悄从天际滑落。", "en": "They glide silently from the heavens."},
+        {"zh": "天际的黑暗中，它们静静等待。", "en": "They wait silently in the dark sky."},
+        {"zh": "天境的黑暗中，它们悄然降临。", "en": "They descend quietly from the dark sky."},
+        {"zh": "天边的阴影下，它们悄然降临。", "en": "They emerge quietly from the shadows of the sky."},
+        {"zh": "天际的黑暗中，它们静静等待猎物。", "en": "They wait quietly in the dark sky for prey."},
+        {"zh": "天境的雾里亮起一对翅。", "en": "A pair of wings lights up in the Aether mist."},
+        {"zh": "我从浮空岛边缘升起。", "en": "I rise from the floating isle's edge."},
+        {"zh": "水晶的光把我照了出来。", "en": "Crystal light picks me out."},
+        {"zh": "花粉先落，我随后到。", "en": "Pollen falls first; then I arrive."},
+        {"zh": "高空气流把我送到这里。", "en": "The high current carried me here."},
+        {"zh": "一朵花开了，我就在。", "en": "A flower opened, so here I am."},
+        {"zh": "我从树冠间漏了下来。", "en": "I slip down through the canopy."},
+        {"zh": "天境的黄昏染亮了我的翅。", "en": "The Aether's dusk lights up my wings."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "天境的蝶翅，经不起火。", "en": "Aether butterfly wings can't take fire."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从空中摔落受伤。", "en": "Fallen from height."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅膀受伤，飞不起来了，溺水的滋味可不好受。", "en": "Wings hurt; can't fly — and the drown makes it worse."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸震伤。", "en": "Explosion hurt."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢射伤翅膀。", "en": "Arrows hurt wings."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法烧伤翅膀。", "en": "Burned by magic."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿到翅膀无力。", "en": "Starved; wings weak."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击烧伤翅膀。", "en": "Lightning burned wings."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空摔伤。", "en": "Fallen into void."}
+      ]
+    }
+  }
+}

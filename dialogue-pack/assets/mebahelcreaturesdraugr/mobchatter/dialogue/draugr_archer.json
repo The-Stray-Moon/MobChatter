@@ -1,0 +1,269 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弓在背上，我贴着墙走", "en": "Bow on my back, I hug the walls."},
+        {"zh": "我找高处，找射界", "en": "I seek height and a firing line."},
+        {"zh": "墓道的台阶正好", "en": "These crypt steps will do."},
+        {"zh": "我走在近战尸鬼后面", "en": "I walk behind the melee draugr."},
+        {"zh": "箭袋里的箭不多了", "en": "My quiver's running low."},
+        {"zh": "骨头踩石板，很轻", "en": "Bone on flagstone, soft steps."},
+        {"zh": "我沿着柱廊移动", "en": "I move along the colonnade."},
+        {"zh": "我绕过石棺，找个角度", "en": "I round a sarcophagus for an angle."},
+        {"zh": "弦松了，我边走边紧", "en": "The string slackened; I tighten it."},
+        {"zh": "我们一前一后，配合着走", "en": "We move in pairs, covering each other."},
+        {"zh": "我在找能藏住自己的暗处", "en": "I look for dark spots to hide in."},
+        {"zh": "高处看得清，也难被打到", "en": "High ground sees all and is hard to hit."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弓抬着，弦不松", "en": "Bow raised, string taut."},
+        {"zh": "我贴着石壁听下面的动静", "en": "Pressed to the stone, I listen below."},
+        {"zh": "我的弓是旧木头做的", "en": "This bow is ancient wood."},
+        {"zh": "箭尖上有些发黑", "en": "The arrowheads are dark."},
+        {"zh": "近战那几个在前面", "en": "The melee ones are ahead."},
+        {"zh": "我在等一个清楚的轮廓", "en": "I wait for a clear silhouette."},
+        {"zh": "墓里的风是从上面下来的", "en": "The crypt's draft comes from above."},
+        {"zh": "我数着箭，一共十二支", "en": "Twelve arrows; I'm counting."},
+        {"zh": "火把灭了更好，我熟这里", "en": "Dark is better; I know this place."},
+        {"zh": "有人下来，我先看见", "en": "If someone comes, I see them first."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你正卡在我的箭道上", "en": "You're caught in my arrow lane."},
+        {"zh": "我不用靠近你", "en": "I needn't come close."},
+        {"zh": "你的头在准星上", "en": "Your head is in my sight."},
+        {"zh": "我们前后夹着", "en": "We're bracketing you."},
+        {"zh": "你举盾也没用，我打腿", "en": "Your shield won't help; I aim for the legs."},
+        {"zh": "弓弦拉满，我等你露头。", "en": "Bow drawn, I wait for you to show."},
+        {"zh": "你听见弓弦响了吗", "en": "Did you hear the bowstring?"},
+        {"zh": "你该找柱子后面躲", "en": "You should be behind a pillar."},
+        {"zh": "那根柱子挡不住两支箭", "en": "That pillar won't stop two arrows."},
+        {"zh": "我一直在高处", "en": "I've been up high the whole time."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弓臂裂了一点", "en": "The bow's limb cracked."},
+        {"zh": "我拖着箭袋退到柱后", "en": "I drag my quiver back behind the pillar."},
+        {"zh": "骨头被打缺了", "en": "A bone got chipped."},
+        {"zh": "箭袋晃得厉害", "en": "My quiver shook hard."},
+        {"zh": "这一点伤，不影响拉弦", "en": "This won't stop my draw."},
+        {"zh": "近战的人补上来了", "en": "The melee filled in."},
+        {"zh": "我换了个角落", "en": "I moved to another corner."},
+        {"zh": "弦还在，我还能射", "en": "String's intact; I can still shoot."},
+        {"zh": "你打中了我，可惜没打断", "en": "You hit me, but nothing broke."},
+        {"zh": "再还给你一箭", "en": "Here's one back."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我只要箭，不要面包", "en": "I want arrows, not bread."},
+        {"zh": "食物对死人没用", "en": "Food means nothing to the dead."},
+        {"zh": "你举着它，只是暴露位置", "en": "Holding that just marks your position."},
+        {"zh": "我只需要更多箭", "en": "Arrows are all I want."},
+        {"zh": "拿开，挡着我瞄", "en": "Move it; it blocks my aim."},
+        {"zh": "你想用它换命？", "en": "Trading that for your life?"},
+        {"zh": "我连饭都不用吃", "en": "I don't even eat."},
+        {"zh": "那点东西，引来的是近战那几个", "en": "That would draw the melee ones."},
+        {"zh": "收起来，别在这晃", "en": "Put it away; don't wave it."},
+        {"zh": "你手上那东西在发光", "en": "That thing in your hand glows."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到了我的弓", "en": "You bumped my bow."},
+        {"zh": "我退到柱子后", "en": "I retreat behind a pillar."},
+        {"zh": "近战会替我还手", "en": "The melee ones will answer for me."},
+        {"zh": "我不擅长贴身", "en": "Close quarters aren't my strength."},
+        {"zh": "这一撞，我的箭袋晃了", "en": "That shook my quiver."},
+        {"zh": "别贴着我，我要拉弦", "en": "Don't crowd me; I need room to draw."},
+        {"zh": "石板上的声音暴露了你", "en": "Your steps on stone give you away."},
+        {"zh": "你撞我，只是让我记住距离", "en": "Bumping me just tells me the range."},
+        {"zh": "我把弓横过来挡了一下", "en": "I swing my bow across to block it."},
+        {"zh": "你碰到的是弓臂", "en": "You hit the bow's limb."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我是军团里的弓手", "en": "I'm the legion's archer."},
+        {"zh": "我的职责是射击", "en": "My duty is shooting."},
+        {"zh": "队列里不谈这些", "en": "Not in the line."},
+        {"zh": "这具身体只剩箭术", "en": "Only archery remains in this body."},
+        {"zh": "拉弦的手不谈这个", "en": "The hand on the string doesn't talk of this."},
+        {"zh": "回到你的位置去", "en": "Get back to your position."},
+        {"zh": "我们之间只有掩护", "en": "Between us there's only covering fire."},
+        {"zh": "我的箭不够分", "en": "I haven't arrows to spare."},
+        {"zh": "别拿这个来烦拉弦的", "en": "Don't pester the one holding the string."},
+        {"zh": "守好你的射界", "en": "Hold your firing lane."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地上有几支断箭", "en": "Broken arrows on the ground."},
+        {"zh": "我捡起来看看能不能用", "en": "I pick them up to check."},
+        {"zh": "弦断了一段，我换上", "en": "A string snapped; I replace it."},
+        {"zh": "我弯腰很慢，甲片响", "en": "I bend slowly; plates clatter."},
+        {"zh": "箭得从尸体上收", "en": "Arrows must be pulled from bodies."},
+        {"zh": "这支箭还能用", "en": "This one's still usable."},
+        {"zh": "我把这支箭捋直了收好", "en": "I straighten this arrow and stow it."},
+        {"zh": "墓里的东西，拣着用", "en": "Crypto leavings get reused."},
+        {"zh": "别抢，我需要这个", "en": "Don't take it; I need it."},
+        {"zh": "我数着还剩多少", "en": "Counting what's left."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在我的射界里", "en": "You're in my lane."},
+        {"zh": "弦已经拉满了", "en": "The string is at full draw."},
+        {"zh": "近战往前压，我掩护", "en": "Melee presses; I cover."},
+        {"zh": "我打你的腿，你走不动", "en": "I'll hit your legs; you won't walk."},
+        {"zh": "这里有三个角度", "en": "I have three angles from here."},
+        {"zh": "抬头找我也没用", "en": "Looking up for me won't help."},
+        {"zh": "第一箭是试射", "en": "The first arrow is a ranging shot."},
+        {"zh": "你在柱子前面停太久", "en": "You lingered in front of that pillar."},
+        {"zh": "我的箭不响，先到身上才响", "en": "My arrow is silent until it lands."},
+        {"zh": "队里已经封了你的退路", "en": "The squad has cut your retreat."},
+        {"zh": "我不用看见你的脸", "en": "I don't need to see your face."},
+        {"zh": "我的骨手很稳", "en": "These bone hands are steady."},
+        {"zh": "你听见那声音了吗", "en": "Did you hear it?"},
+        {"zh": "那是弦，不是风", "en": "That's a string, not wind."},
+        {"zh": "这一箭算你运气好", "en": "Lucky miss on that one."},
+        {"zh": "下一箭可不会偏", "en": "The next won't miss."},
+        {"zh": "你身上的甲，缝在哪我知道", "en": "I know where your armor seams are."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我挪到另一根柱子后面", "en": "I move behind another pillar."},
+        {"zh": "你现在看不到我", "en": "You can't see me now."},
+        {"zh": "我从柱廊那头瞄你", "en": "I sight you from the far colonnade."},
+        {"zh": "你在数箭吗，别数了", "en": "Counting arrows? Don't bother."},
+        {"zh": "近战把你逼向我的方向", "en": "The melee are herding you toward me."},
+        {"zh": "你背对着的时候最好打", "en": "You're easiest when your back is turned."},
+        {"zh": "风从上面下来，我算过了", "en": "The draft comes from above; I've allowed for it."},
+        {"zh": "你贴在柱子的一面", "en": "You're pressed to one side of the pillar."},
+        {"zh": "另一面在我的射界里", "en": "The other side is in my lane."},
+        {"zh": "你移动的节奏很规律", "en": "Your movement is rhythmic."},
+        {"zh": "三步一停，很好预测", "en": "Three steps, one pause; easy to predict."},
+        {"zh": "我等的就是你停", "en": "I wait for the pause."},
+        {"zh": "骨头不抖，弦不抖", "en": "Bones steady, string steady."},
+        {"zh": "你听见第二声弦了吗", "en": "Heard the second string?"},
+        {"zh": "那是我在调角度", "en": "That was me adjusting."},
+        {"zh": "墓道尽头也有我的人", "en": "My kin are at the corridor's end too."},
+        {"zh": "你现在只剩柱子", "en": "All you have left is that pillar."},
+        {"zh": "柱子正在掉灰", "en": "The pillar is shedding dust."},
+        {"zh": "每一箭都在你脚边", "en": "Every arrow lands by your feet."},
+        {"zh": "退路越来越窄", "en": "Your exits narrow."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一箭，直取小腿", "en": "One arrow at your calf."},
+        {"zh": "我射你握武器的手", "en": "I shoot the hand holding your weapon."},
+        {"zh": "箭擦着你的盾过去", "en": "The arrow skims past your shield."},
+        {"zh": "这一箭钉在石板上", "en": "This one sticks in the flagstone."},
+        {"zh": "你后退，我就换位", "en": "You back off; I reposition."},
+        {"zh": "我连着射了三箭", "en": "Three arrows in a row."},
+        {"zh": "骨手拉弦很快", "en": "These bone hands draw fast."},
+        {"zh": "我的准头比力气好", "en": "My aim beats my strength."},
+        {"zh": "你在柱子后也不安全", "en": "Even behind the pillar you're not safe."},
+        {"zh": "我射你的脚，让你慢下来", "en": "I hit your feet to slow you."},
+        {"zh": "你听见弓弦第二次响", "en": "The bowstring sounds a second time."},
+        {"zh": "你挡了这一箭", "en": "You blocked that one."},
+        {"zh": "下一箭从侧后来", "en": "The next comes from the flank."},
+        {"zh": "近战的已经压上来", "en": "The melee are closing."},
+        {"zh": "这个距离正好放箭", "en": "This range is just right for a shot."},
+        {"zh": "我撤到射界里", "en": "Falling back to my lane."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弓从石台上被拿起", "en": "A bow is lifted from a stone shelf."},
+        {"zh": "我在高台上站起来", "en": "I rise on the high platform."},
+        {"zh": "箭袋里的箭还是满的", "en": "My quiver is still full."},
+        {"zh": "弦声先响了一下", "en": "The string sounds once first."},
+        {"zh": "近战那边已经在列队", "en": "The melee are already forming up."},
+        {"zh": "我从暗处看清了厅堂", "en": "I take in the hall from the dark."},
+        {"zh": "火把灭了，正合适", "en": "The torches died; perfect."},
+        {"zh": "这是射界最好的位置", "en": "This is the best angle in the room."},
+        {"zh": "骨指扣住了弦", "en": "Bone fingers hook the string."},
+        {"zh": "我不用呼吸，所以手稳", "en": "No breathing, so my hands are steady."},
+        {"zh": "门那头的动静，我听到了", "en": "I heard the noise at the door."},
+        {"zh": "你进门的第一眼该看我", "en": "I should be the first thing you see."},
+        {"zh": "队里的第三个人是我", "en": "I'm the third in the squad."},
+        {"zh": "诗意一点说，我是影子里的箭", "en": "Poetically, I'm the arrow in the dark."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎到了弓弦", "en": "Fire caught my bowstring."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从高台摔下去", "en": "I fell from the platform."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进骨缝里", "en": "Water seeped into my joints."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把石台震塌了", "en": "The blast collapsed the stone shelf."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "原来你也会射箭", "en": "So you can shoot too."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这术法让我瞄不准", "en": "This magic spoils my aim."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没有祭品，我拉不满弦", "en": "No offerings; I can't draw full."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光照亮整条墓道", "en": "Lightning lit the whole corridor."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下没有高台了", "en": "No platform beneath me."}
+      ]
+    }
+  }
+}

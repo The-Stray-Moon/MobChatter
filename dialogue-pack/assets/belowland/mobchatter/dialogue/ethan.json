@@ -1,0 +1,283 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低沉咆哮，挖掘前进", "en": "Low rumble, tunneling forward"},
+        {"zh": "地面震动，接近猎物", "en": "Ground shakes, closing in"},
+        {"zh": "土块飞溅，追踪声音", "en": "Dirt flies, tracking sound"},
+        {"zh": "泥土在我指间分开，没有声。", "en": "The soil parts between my fingers without a sound."},
+        {"zh": "挖洞接近，不露痕迹", "en": "Tunneling near, leaving no trace"},
+        {"zh": "缓慢移动，观察四周", "en": "Slowly moving, scanning surroundings"},
+        {"zh": "挖掘隧道，快速逼近", "en": "Digging tunnel, closing fast"},
+        {"zh": "地面裂开，慢慢逼近", "en": "Ground cracks, creeping near"},
+        {"zh": "隧道内移动，难以察觉", "en": "Moving in tunnel, hard to spot"},
+        {"zh": "土屑飞扬，缓慢掘进", "en": "Dirt flying, slow tunneling"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地表的土，还盖着我挖的洞。", "en": "My tunnel still lies under this soil."},
+        {"zh": "埋伏在阴影中", "en": "Hiding in shadows"},
+        {"zh": "保持耐心，静待猎物", "en": "Patiently waiting for prey"},
+        {"zh": "隐藏身形，伺机而动", "en": "Camouflaging, waiting"},
+        {"zh": "静静观察，寻找机会", "en": "Watching, seeking opportunity"},
+        {"zh": "耐心等待，猎物自投罗网", "en": "Waiting, prey will come"},
+        {"zh": "隐秘中伺机而动", "en": "Hidden, waiting to strike"},
+        {"zh": "耐心等待猎物靠近", "en": "Waiting for prey to get close"},
+        {"zh": "静待最佳时机出击", "en": "Waiting for perfect moment"},
+        {"zh": "隐匿身形，耐心等待", "en": "Camouflaged, waiting"},
+        {"zh": "我在地底数你的心跳。", "en": "I count your heartbeats underground."},
+        {"zh": "隧道尽头，我停下来了。", "en": "At the tunnel's end, I stop."},
+        {"zh": "泥土压着，我很有耐心。", "en": "Under the dirt, I am patient."},
+        {"zh": "你听，脚下有东西翻身。", "en": "Hear that? Something turns underfoot."},
+        {"zh": "我等了三四天才动手。", "en": "I waited three or four days to move."},
+        {"zh": "洞里的空气是我的呼吸。", "en": "The air in this tunnel is my breath."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴着地面，只露一双眼。", "en": "I keep low to the ground, only my eyes showing."},
+        {"zh": "你身后的泥土鼓了一下。", "en": "The soil behind you swelled once."},
+        {"zh": "我从树根下抬起头看你。", "en": "I lift my head from under the roots and look at you."},
+        {"zh": "发现玩家，发出警告声", "en": "Noticing player, warning sound"},
+        {"zh": "盯着玩家，随时准备攻击", "en": "Staring at player, ready to attack"},
+        {"zh": "我挖的隧道，通到你脚下。", "en": "The tunnel I dug comes out beneath you."},
+        {"zh": "注视玩家，准备出击", "en": "Eyeing player, ready to move"},
+        {"zh": "发现玩家，发出威胁声", "en": "Noticing player, threatening sound"},
+        {"zh": "我挖的隧道，一直通到你脚下", "en": "My tunnel runs right under your feet"},
+        {"zh": "注视玩家，随时准备攻击", "en": "Eyeing player, ready to pounce"},
+        {"zh": "我在你背后看着你挖。", "en": "I watch you dig from behind."},
+        {"zh": "别抬头，我在树上。", "en": "Don't look up; I'm in the tree."},
+        {"zh": "你的火把照不清我的脸。", "en": "Your torch won't show my face."},
+        {"zh": "你走的方向，我早挖过了。", "en": "I already dug where you're heading."},
+        {"zh": "我数着你背包里的铁。", "en": "I'm counting the iron in your pack."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "声音嘶哑地说：疼...", "en": "gravelly voice: Ouch..."},
+        {"zh": "低声呻吟：啊...", "en": "whisper: Oww..."},
+        {"zh": "嘶嘶地抱怨：这疼...", "en": "sibilant complaint: Oooh..."},
+        {"zh": "嘶吼：好疼...", "en": "growl: Such pain..."},
+        {"zh": "嘶嘶地叫唤：呃...", "en": "sibilant cry: Uh..."},
+        {"zh": "嘶嘶地抱怨：慢点...", "en": "sibilant complaint: Easy..."},
+        {"zh": "嘶嘶地哭泣：呜...", "en": "sibilant cry: Ahh..."},
+        {"zh": "嘶嘶地叫唤：嘶...", "en": "sibilant cry: Ssh..."},
+        {"zh": "嘶嘶地喘息：呼...", "en": "sibilant wheeze: Huh..."},
+        {"zh": "嘶嘶地呻吟：哦...", "en": "sibilant moan: Oh..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你走近了，我就不挖洞了。", "en": "You're getting close, I'll stop tunneling."},
+        {"zh": "看着食物，别靠近。", "en": "Look at the food, don't come closer."},
+        {"zh": "挖洞接近，别发现我。", "en": "Tunneling to approach, don't notice me."},
+        {"zh": "食物诱人，但别吃它。", "en": "Food is tempting, but don't eat it."},
+        {"zh": "靠近我，会有危险。", "en": "Come closer, there's danger."},
+        {"zh": "别靠近，隧道危险。", "en": "Don't come near, tunnels are dangerous."},
+        {"zh": "挖洞，让猎物自投罗网。", "en": "Tunneling, luring the prey."},
+        {"zh": "食物就在地底下，快来挖。", "en": "Food is underground, dig it up."},
+        {"zh": "不要挖，我正在接近。", "en": "Don't dig, I'm approaching."},
+        {"zh": "地底下的洞，引你上钩。", "en": "Tunnels underground, to catch you."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上的是土，也是我。", "en": "What you hit is earth, and it is me."},
+        {"zh": "别靠近，我会撞你。", "en": "Don't come near, I'll collide with you."},
+        {"zh": "你撞到我，我再攻击。", "en": "You'll collide, then I'll attack."},
+        {"zh": "撞我，会有危险。", "en": "Collide with me, dangerous."},
+        {"zh": "我用身体阻止你。", "en": "I block you with my body."},
+        {"zh": "靠近我，我来撞你。", "en": "Come near, I'll collide with you."},
+        {"zh": "撞我，别想逃跑。", "en": "Collide with me, can't escape."},
+        {"zh": "用身体阻止你的前进。", "en": "Block your path with my body."},
+        {"zh": "撞过来，我来对付你。", "en": "Collide with me, I'll handle you."},
+        {"zh": "你撞我，我反击。", "en": "You collide, I'll retaliate."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找到配偶，生命更长久。", "en": "Mate to live longer."},
+        {"zh": "找到伴侶，共同生存。", "en": "Mate to survive together."},
+        {"zh": "寻找一个伴侣，一起生存。", "en": "Find a mate, survive together."},
+        {"zh": "需要伴侣，才能繁衍。", "en": "Need a partner to reproduce."},
+        {"zh": "配偶能延长我的寿命。", "en": "Mate prolongs my life."},
+        {"zh": "找到另一半，共同生活。", "en": "Find a mate, live together."},
+        {"zh": "寻找伴侣，增加生存机会。", "en": "Find a mate, increase survival."},
+        {"zh": "繁殖后代，延续生命。", "en": "Reproduce offspring, continue life."},
+        {"zh": "找到伴侣，增强实力。", "en": "Find a mate, strengthen power."},
+        {"zh": "伴侣能提升我的生存率。", "en": "Mate increases survival rate."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地面下钻了个洞，铁镐声响亮。", "en": "Dug a tunnel underground, heard the pickaxe."},
+        {"zh": "铁锈味飘来，好想吃掉你。", "en": "Rusty smell, craving for you."},
+        {"zh": "挖掘隧道，躲藏起来。", "en": "Dug a tunnel, hiding away."},
+        {"zh": "隧道传来声响，你动了。", "en": "Sounds from the tunnel, you moved."},
+        {"zh": "铁矿丰富，我来挖掘。", "en": "Rich in iron, time to dig."},
+        {"zh": "你的动作，我看见了。", "en": "Your movements, I saw."},
+        {"zh": "铁与钻石，我的目标。", "en": "Iron and diamond, my target."},
+        {"zh": "用铁镐攻击，击退你。", "en": "Hit you with the pickaxe."},
+        {"zh": "地面下，我来了。", "en": "Coming from underground."},
+        {"zh": "铁与钻石，我的宝藏。", "en": "Iron and diamond, my treasure."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "挖掘隧道，诱你上钩。", "en": "Dug a tunnel, lure you in."},
+        {"zh": "地面下，悄悄接近。", "en": "Moving underground, sneaking close."},
+        {"zh": "钻进泥土，等你出现。", "en": "Dug into the dirt, waiting for you."},
+        {"zh": "地面震动，你动了。", "en": "Ground shaking, you moved."},
+        {"zh": "铁镐发出声响，你听到了。", "en": "Pickaxe sound, you heard."},
+        {"zh": "铁镐声停了，我加快挖。", "en": "The pickaxe stopped; I dig faster."},
+        {"zh": "铁矿吸引我靠近。", "en": "Iron draw, bringing me close."},
+        {"zh": "你在上面走，我在下面跟。", "en": "You walk above; I follow below."},
+        {"zh": "你锄地的声音，从上面传下来。", "en": "The sound of your hoe comes down from above."},
+        {"zh": "铁矿丰富，我靠近了。", "en": "Rich in iron, I came close."},
+        {"zh": "地面塌了，我就在下面。", "en": "The ground sags; I'm below it."},
+        {"zh": "你的钻石，我记住了。", "en": "I've noted your diamond."},
+        {"zh": "从你脚底的洞里，我上来。", "en": "I rise through the hole under your feet."},
+        {"zh": "追了你三个夜晚了。", "en": "I've chased you three nights."},
+        {"zh": "你听得见土落的声音吗？", "en": "Do you hear the dirt falling?"},
+        {"zh": "我挖的隧道比你的快。", "en": "My tunnels go faster than yours."},
+        {"zh": "别回头，我就在洞口。", "en": "Don't turn; I'm at the tunnel mouth."},
+        {"zh": "你的锄头声吵醒了我。", "en": "Your pickaxe woke me."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "挖掘隧道，引你入洞。", "en": "Dug a tunnel, trap you in."},
+        {"zh": "地面下，我等你。", "en": "Underground, waiting for you."},
+        {"zh": "泥土中，我隐藏。", "en": "Hidden in the dirt."},
+        {"zh": "地面震动，我来了。", "en": "The ground trembles; here I come."},
+        {"zh": "铁矿吸引我，我来了。", "en": "Iron draw, I came."},
+        {"zh": "隧道深处，我等你。", "en": "Deep in the tunnel, waiting for you."},
+        {"zh": "地表之下，我来了。", "en": "Beneath the surface, here I come."},
+        {"zh": "钻进泥土，等你来。", "en": "Dug into the dirt, waiting for you."},
+        {"zh": "铁矿丰富，我来了。", "en": "Rich in iron, I came."},
+        {"zh": "我张开手，就像张开土。", "en": "I open my hands like I open soil."},
+        {"zh": "退路已经被我填了。", "en": "I filled in your way out."},
+        {"zh": "你站着的地方是我挖的。", "en": "I dug where you're standing."},
+        {"zh": "你的盔甲挡不住土。", "en": "Armor won't stop dirt."},
+        {"zh": "一寸一寸，我离你更近。", "en": "Inch by inch, I close in."},
+        {"zh": "你听自己的呼吸，真响。", "en": "Listen to your breathing; so loud."},
+        {"zh": "火把一灭，我的隧道就到。", "en": "When the torch dies, my tunnel arrives."},
+        {"zh": "我挖得慢，可你走得更慢。", "en": "I dig slowly, but you walk slower."},
+        {"zh": "你踩进我的手掌了。", "en": "You stepped into my palm."},
+        {"zh": "洞穴的回声替我数数。", "en": "The echo counts for me."},
+        {"zh": "给你留了个小洞，出口。", "en": "I left you a little hole. An exit."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的指甲带着湿泥刮过你。", "en": "My nails rake you, wet with mud."},
+        {"zh": "我低下头，角尖对准你。", "en": "I lower my head, horn tips at you."},
+        {"zh": "用尖牙撕咬你！", "en": "Bite you with fangs!"},
+        {"zh": "用强壮的尾巴抽打！", "en": "Whip you with tail!"},
+        {"zh": "用巨大的身躯撞击！", "en": "Ram you with body!"},
+        {"zh": "挖掘隧道接近你！", "en": "Dig tunnel to get you!"},
+        {"zh": "用泥土覆盖你！", "en": "Cover you with dirt!"},
+        {"zh": "用吼声吓唬你！", "en": "Scare you with roar!"},
+        {"zh": "用毒液攻击你！", "en": "Poison you with venom!"},
+        {"zh": "用强大力量撞碎石块！", "en": "Crush rocks with power!"},
+        {"zh": "从土里抬手，抓住你！", "en": "My hand rises from the soil and grabs you!"},
+        {"zh": "把你按进我挖的洞！", "en": "I press you into my tunnel!"},
+        {"zh": "八点力气，忘了痛吧！", "en": "Eight points of force; forget the pain!"},
+        {"zh": "泥土塞住你的嘴！", "en": "Dirt plugs your mouth!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从隧道中钻出！", "en": "Crawl out of tunnel!"},
+        {"zh": "挖掘地表建立巢穴！", "en": "Dig surface to build nest!"},
+        {"zh": "悄悄接近你的家园！", "en": "Creep close to your home!"},
+        {"zh": "躲在阴影中观察！", "en": "Hide in shadow to watch!"},
+        {"zh": "用岩石堵塞入口！", "en": "Block entrance with rocks!"},
+        {"zh": "等待时机发动袭击！", "en": "Wait for chance to attack!"},
+        {"zh": "挖掘地道追踪猎物！", "en": "Dig tunnel to track prey!"},
+        {"zh": "在夜晚变得更强壮！", "en": "Get stronger at night!"},
+        {"zh": "在阳光下隐藏自己！", "en": "Hide from sun's light!"},
+        {"zh": "挖掘更深的地洞！", "en": "Dig deeper tunnels!"},
+        {"zh": "第三夜过去，我来了。", "en": "The third night passed; here I am."},
+        {"zh": "地下传来第一声叩响。", "en": "The first knock comes from below."},
+        {"zh": "我在地表下盖了房子。", "en": "I built my house under the surface."},
+        {"zh": "你的营地底下有洞。", "en": "There's a hole under your camp."},
+        {"zh": "洞口开着，等你进来。", "en": "The burrow is open; come in."},
+        {"zh": "土堆鼓起，我出了地面。", "en": "The soil swells; I surface."},
+        {"zh": "别数夜了，我提前到。", "en": "Stop counting nights; I came early."},
+        {"zh": "先挖一条路，再住下来。", "en": "First a tunnel, then I move in."},
+        {"zh": "草根底下先响了一声。", "en": "Something stirred under the grass."},
+        {"zh": "地表裂开一线，我起身。", "en": "The ground splits; I stand up."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶地尖叫：火...", "en": "sibilant scream: Fire..."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶地喊：摔...", "en": "sibilant cry: Fall..."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶地呼喊：淹...", "en": "sibilant cry: Drown..."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶地叫：爆...", "en": "sibilant cry: Explode..."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶地喊：射...", "en": "sibilant cry: Shot..."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶地叫：魔...", "en": "sibilant cry: Magic..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶地呜咽：饿...", "en": "sibilant whimper: Hungry..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶地喊：雷...", "en": "sibilant cry: Lightning..."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶地尖叫：空...", "en": "sibilant scream: Void..."}
+      ]
+    }
+  }
+}

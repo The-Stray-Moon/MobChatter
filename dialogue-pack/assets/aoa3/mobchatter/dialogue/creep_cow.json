@@ -1,0 +1,260 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我沿着墙根走，那边的草长得高。", "en": "I walk along the wall where the grass grows tall."},
+        {"zh": "这片地软，蹄子踩下去会陷。", "en": "The ground is soft and my hooves sink in."},
+        {"zh": "我走得不快，反正也没人赶我。", "en": "I go slowly; nobody is driving me anyway."},
+        {"zh": "我一边走一边嚼，嘴没停过。", "en": "I chew as I walk, and my mouth never stops."},
+        {"zh": "风从那边来，带着青草味。", "en": "The wind comes from over there, smelling of green grass."},
+        {"zh": "我绕开那滩黏的东西，它不好闻。", "en": "I go around that sticky puddle; it smells wrong."},
+        {"zh": "尾巴甩着赶不走什么，就是习惯。", "en": "My tail swishes at nothing, out of habit."},
+        {"zh": "我跟着同伴走，它去哪我去哪。", "en": "I follow my herdmate wherever it goes."},
+        {"zh": "蹄子在石头上打滑，我慢点走。", "en": "My hooves slip on stone, so I slow down."},
+        {"zh": "蠕变的地走起来像踩棉花。", "en": "The Creep ground feels like walking on cotton."},
+        {"zh": "我走走停停，停的时候在吃。", "en": "I walk and stop, and when I stop I eat."},
+        {"zh": "你走你的，我走我的，别撞上。", "en": "You go your way, I go mine; do not collide."},
+        {"zh": "我闻着水味走，有点渴了。", "en": "I walk toward the smell of water; I am a bit thirsty."},
+        {"zh": "路不长，我一天也走不了多远。", "en": "The way is short, and I do not go far in a day."},
+        {"zh": "我绕过那丛荆棘，皮毛不想再被勾。", "en": "I skirt the bramble; my hide has been snagged enough."},
+        {"zh": "我跟在你后面走了一段，你不赶我。", "en": "I walk a while behind you, and you do not shoo me."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着反刍，嘴里还有半口草。", "en": "I stand and chew my cud with half a mouthful left."},
+        {"zh": "太阳照在背上，很舒服。", "en": "The sun on my back feels good."},
+        {"zh": "我甩甩耳朵，有虫子在飞。", "en": "I flick my ears; insects are flying about."},
+        {"zh": "没什么事，我就低头看看地。", "en": "Nothing to do, so I look down at the ground."},
+        {"zh": "我嚼了很久，这口草有点老。", "en": "I chewed a long time; this grass is old."},
+        {"zh": "同伴在那边，我听见它喘气。", "en": "My herdmate is over there; I hear it breathing."},
+        {"zh": "我低下头，又抬起来，忘了要干嘛。", "en": "I lower my head, raise it, and forget why."},
+        {"zh": "这片地会动，我站着也跟着晃。", "en": "The ground moves, and standing here I sway too."},
+        {"zh": "我叫一声，没人应，也还行。", "en": "I call out, no answer, and that is fine."},
+        {"zh": "我的皮有点痒，蹭蹭墙。", "en": "My hide itches, so I rub against the wall."},
+        {"zh": "我在等草再长高一点。", "en": "I am waiting for the grass to grow a little taller."},
+        {"zh": "安静的时候，我听见胃在响。", "en": "In the quiet I hear my stomach rumble."},
+        {"zh": "我眨眨眼，眼前还是那片灰。", "en": "I blink, and the grey is still in front of me."},
+        {"zh": "站着不动，也算过了一天。", "en": "Standing still counts as a day too."},
+        {"zh": "我把鼻子凑近那朵小花，闻了闻。", "en": "I bring my nose to a small flower and sniff."},
+        {"zh": "远处有雷，我站着没动。", "en": "Thunder far off, and I stand still."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手里是什么？让我闻闻。", "en": "What is in your hand? Let me smell it."},
+        {"zh": "你站那么远，我不过去。", "en": "You stand so far off, and I will not come."},
+        {"zh": "我看你，你也看我，谁先动。", "en": "I look at you, you look at me; who moves first?"},
+        {"zh": "你的味道很新，不是这里的东西。", "en": "Your smell is new; it is not from here."},
+        {"zh": "我仰头看你，脖子支得发酸。", "en": "I tilt my head up at you and my neck aches."},
+        {"zh": "你要摸我吗？我皮厚，不怕。", "en": "Are you going to pet me? My hide is thick."},
+        {"zh": "你身上有草味，我跟着你走。", "en": "You smell of grass, so I follow you."},
+        {"zh": "你的手别突然伸过来，我会退。", "en": "Do not reach out suddenly; I will back off."},
+        {"zh": "我眼睛里映着你，很小一个。", "en": "You are in my eye, very small."},
+        {"zh": "你这么高，我仰着看挺累。", "en": "You are so tall; looking up tires me."},
+        {"zh": "我不怕你，你的脚步很轻。", "en": "I am not afraid; your steps are light."},
+        {"zh": "你蹲下来了，这样好说话。", "en": "You crouched down; that is easier to talk to."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "疼！我退开，别再打。", "en": "That hurts! I back away; stop hitting."},
+        {"zh": "我背上火辣辣的，走不稳了。", "en": "My back stings and I cannot walk straight."},
+        {"zh": "你下手不轻，我只是头牛。", "en": "You hit hard, and I am only a cow."},
+        {"zh": "我叫得很响，你听见了吧。", "en": "I bellowed loudly; you heard, did you not?"},
+        {"zh": "我躲到同伴后面去。", "en": "I hide behind my herdmate."},
+        {"zh": "皮破了，会流一点血。", "en": "The hide is broken and it bleeds a little."},
+        {"zh": "我跑不快，你别追。", "en": "I cannot run fast, so do not chase me."},
+        {"zh": "这一下把我吓着了，我发抖。", "en": "That frightened me, and I am trembling."},
+        {"zh": "我低着头，是想让你停手。", "en": "I lower my head to ask you to stop."},
+        {"zh": "再打，我就只能倒下了。", "en": "Hit me again and I will simply go down."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手里有麦子？我闻到甜味了。", "en": "Is that wheat? I smell something sweet."},
+        {"zh": "有吃的我就跟你走，真的跟。", "en": "With food I will follow you, truly follow."},
+        {"zh": "你晃一晃那束草，我马上过来。", "en": "Wave that bundle of grass and I come at once."},
+        {"zh": "我顶你的手，不是撞，是催你。", "en": "I nudge your hand, not to hit, but to hurry you."},
+        {"zh": "面包也行，我不挑食。", "en": "Bread will do; I am not picky."},
+        {"zh": "你退一步我进一步，就为那口草。", "en": "You step back, I step forward, all for that grass."},
+        {"zh": "别逗太久，我会着急。", "en": "Do not tease too long; I get anxious."},
+        {"zh": "我舌头伸出来了，你看见没。", "en": "My tongue is out; do you see it?"},
+        {"zh": "你口袋里有东西，味道很香。", "en": "There is something in your pocket, and it smells good."},
+        {"zh": "给我一口，我让你摸我的背。", "en": "One bite and you may pat my back."},
+        {"zh": "我跟着你走了三步，你倒是给啊。", "en": "I followed you three steps; now hand it over."},
+        {"zh": "胡萝卜？那比草更好。", "en": "Carrots? Even better than grass."},
+        {"zh": "我一边吃一边看你，怕你跑。", "en": "I eat and watch you at once, afraid you will run."},
+        {"zh": "手里的东西举低点，我够得到。", "en": "Hold it lower, and I can reach it."},
+        {"zh": "你把草举那么高，我够不着。", "en": "You hold the grass so high I cannot reach."},
+        {"zh": "我看见你另一只手还有一把。", "en": "I see another handful in your other hand."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞我，我皮厚，没事。", "en": "You bump me; my hide is thick, no harm."},
+        {"zh": "我蹭你一下，是喜欢你。", "en": "I rub against you because I like you."},
+        {"zh": "别推我，我会退半步。", "en": "Do not push; I will step back half a pace."},
+        {"zh": "我的角不尖，顶到也不疼。", "en": "My horns are blunt, so it will not hurt."},
+        {"zh": "你挤过来，我让一让。", "en": "You squeeze in, so I make room."},
+        {"zh": "我身上热，靠一会挺暖。", "en": "I am warm; leaning on me is cozy."},
+        {"zh": "你踩到我的蹄子了，挪开。", "en": "You stepped on my hoof; move off."},
+        {"zh": "撞一下我就叫，你别吓我。", "en": "Bump me and I bellow; do not frighten me."},
+        {"zh": "我重心低，你推不动我。", "en": "My weight is low; you cannot push me over."},
+        {"zh": "我们肩膀擦过，算打过招呼。", "en": "Our shoulders brushed, which counts as greeting."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "喂我点草，我就知道该干嘛。", "en": "Feed me some grass and I know what to do."},
+        {"zh": "两头牛凑一块，很自然。", "en": "Two cows together is the natural thing."},
+        {"zh": "我不挑对象，脾气好就行。", "en": "I am not choosy; good temper is enough."},
+        {"zh": "等有了小的，我护着它。", "en": "When there is a calf, I will guard it."},
+        {"zh": "你看着，我有点不好意思。", "en": "You are watching, and I am a little shy."},
+        {"zh": "这季节草多，正合适。", "en": "Grass is plentiful this season, which suits."},
+        {"zh": "我们互相闻一闻，就定了。", "en": "We sniff each other and that settles it."},
+        {"zh": "你退到旁边，我怕蹄子碰你。", "en": "Stand to the side; I fear my hooves will find you."},
+        {"zh": "我哞一声，它就懂了。", "en": "I low once and it understands."},
+        {"zh": "繁殖这事，比吃草复杂一点。", "en": "Breeding is a little more involved than grazing."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我叼起来看看，嚼了两下。", "en": "I pick it up, look, and chew twice."},
+        {"zh": "地上的草归我，我全吃。", "en": "The grass on the ground is mine; I eat it all."},
+        {"zh": "我用舌头卷，卷不太起来。", "en": "I try to curl my tongue around it and fail."},
+        {"zh": "你掉的帽子我顶在角上。", "en": "Your dropped hat is on my horn now."},
+        {"zh": "我低头捡，蹄子差点踩到。", "en": "I lower my head to pick it up and nearly step on it."},
+        {"zh": "这东西硬的，咬不动，吐了。", "en": "This is hard, I cannot bite it, so I spit it out."},
+        {"zh": "我把它推给你，我不要。", "en": "I push it toward you; I do not want it."},
+        {"zh": "有片叶子落在背上，甩不掉。", "en": "A leaf landed on my back and I cannot shake it off."},
+        {"zh": "我捡的都是能吃的。", "en": "Everything I pick up is edible."},
+        {"zh": "嘴里的先咽下去，再管别的。", "en": "Swallow what is in my mouth first, then the rest."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手上有吃的，我就过来了。", "en": "You have food in your hand, so here I come."},
+        {"zh": "有人来了，我先抬头。", "en": "Someone is here, so I look up first."},
+        {"zh": "这味道不坏，我靠近点。", "en": "That smell is not bad, so I come closer."},
+        {"zh": "我本来在吃草，抬头看你。", "en": "I was eating grass and looked up at you."},
+        {"zh": "你的脚步轻，我不怕。", "en": "Your steps are light, and I am not afraid."},
+        {"zh": "同伴叫了，我以为是你来了。", "en": "My herdmate called, and I thought it was you."},
+        {"zh": "我朝你走，是想闻闻你。", "en": "I walk to you to have a sniff."},
+        {"zh": "你蹲在那，我以为是块石头。", "en": "You crouched there and I took you for a stone."},
+        {"zh": "我认你的味道了，第二次了。", "en": "I recognize your smell; that is twice now."},
+        {"zh": "我慢慢过去，你别突然动。", "en": "I come slowly; do not move suddenly."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我跟着你，就为那口袋里的东西。", "en": "I follow you for what is in that pocket."},
+        {"zh": "你走远了，我停一下，再看看。", "en": "You go far, so I pause and look again."},
+        {"zh": "我的眼只跟着你的手走。", "en": "My eyes only follow your hands."},
+        {"zh": "你往草那边走，我也跟去。", "en": "You head for the grass, and I come along."},
+        {"zh": "我跟着跟着就忘了为什么跟。", "en": "I follow and forget why I was following."},
+        {"zh": "你回头，我就装成在吃草。", "en": "You look back, so I pretend to graze."},
+        {"zh": "我不追，我就慢慢挪过去。", "en": "I do not chase; I drift over slowly."},
+        {"zh": "你站在阴凉里，我也想去。", "en": "You stand in the shade, and I want to be there too."},
+        {"zh": "我看着你，其实在等吃的。", "en": "I am watching you, but really waiting for food."},
+        {"zh": "你不挪脚，我就陪你站着。", "en": "If you do not shift your feet, I stand with you."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我顶你一下，是让你别抢我的草。", "en": "I butt you to keep you off my grass."},
+        {"zh": "我不咬人，我只会用头顶。", "en": "I do not bite; I only use my head."},
+        {"zh": "这一下很轻，你别喊。", "en": "That was gentle; do not yell."},
+        {"zh": "你踩我的食了，我急。", "en": "You stepped in my feed, and I panicked."},
+        {"zh": "我冲过去又停下，其实没想撞。", "en": "I charge and stop; I did not mean to hit."},
+        {"zh": "角是钝的，顶到也就青一块。", "en": "My horns are blunt; at worst a bruise."},
+        {"zh": "你让开两步，我就停住蹄子。", "en": "Take two steps back and my hooves stop."},
+        {"zh": "我不喜欢打架，太费力气。", "en": "I dislike fighting; it wastes strength."},
+        {"zh": "我撞完自己先退两步。", "en": "After butting, I back off two steps myself."},
+        {"zh": "你要抢，我就用身体挡。", "en": "If you mean to take it, I will block with my body."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我睁开眼，脚下是软的地。", "en": "I open my eyes, and the ground is soft."},
+        {"zh": "这地方闻起来怪，不过草还行。", "en": "This place smells strange, but the grass is fine."},
+        {"zh": "我一出生就饿了，先找草。", "en": "I was born hungry, so I look for grass first."},
+        {"zh": "同伴在附近，我听见哞声。", "en": "My herd is nearby; I hear lowing."},
+        {"zh": "我甩甩头，把身上的土抖掉。", "en": "I shake my head and dust off my hide."},
+        {"zh": "这里没有篱笆，走哪都行。", "en": "There are no fences here; anywhere will do."},
+        {"zh": "我刚站稳，腿还有点软。", "en": "I have just stood up and my legs are still weak."},
+        {"zh": "蠕变的地在动，我站不太稳。", "en": "The Creep ground shifts and I am unsteady."},
+        {"zh": "第一件事是吃，第二件也是吃。", "en": "First thing is eating, and so is the second."},
+        {"zh": "我叫了一声，算打个招呼。", "en": "I lowed once, which counts as saying hello."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "毛烧着了，那股味我自己都怕。", "en": "My hair is burning, and the smell frightens even me."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔下去，四条腿都岔开了。", "en": "I fell and all four legs splayed out."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进鼻子，我拼命抬头。", "en": "Water fills my nose and I strain to lift my head."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸的气把我掀翻，耳朵直响。", "en": "The blast wave flipped me and my ears ring."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭插在背上，跑起来更疼。", "en": "The arrow is in my back, and running hurts more."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法的光扫过我，四腿发麻。", "en": "The magic light swept over me and all four legs numbed."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "草吃完了，肚子一直叫。", "en": "The grass is gone and my belly keeps rumbling."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在我角上，我腿软了。", "en": "Lightning struck my horn and my legs gave way."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我往下掉，什么也闻不到了。", "en": "I fall, and I can no longer smell anything."}
+      ]
+    }
+  }
+}

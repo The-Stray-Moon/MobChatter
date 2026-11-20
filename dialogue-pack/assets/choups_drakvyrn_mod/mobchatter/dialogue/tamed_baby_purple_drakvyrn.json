@@ -1,0 +1,251 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我跌跌撞撞跟着你", "en": "I stumble along after you"},
+        {"zh": "我的翅膀还太软", "en": "My wings are still too soft"},
+        {"zh": "我飞半格就掉到地上", "en": "I fly half a block and drop to the ground"},
+        {"zh": "我努力扇翅膀追上你", "en": "I flap hard to keep up with you"},
+        {"zh": "我的个头到你膝盖", "en": "I am knee high to you"},
+        {"zh": "我跑两步就撞上你的腿", "en": "Two steps and I bump your leg"},
+        {"zh": "我的鳞还没有硬", "en": "My scales have not hardened yet"},
+        {"zh": "我歪着身子往前跑", "en": "I run on a crooked line"},
+        {"zh": "我用四条腿小跑着追你", "en": "I trot after you on four legs"},
+        {"zh": "我的尾巴在身后一摇一摇", "en": "My tail wags behind me"},
+        {"zh": "我从你的左边绕到右边", "en": "I go from your left side to your right"},
+        {"zh": "我踩到自己的翅膀，摔了一下", "en": "I step on my own wing and trip"},
+        {"zh": "我扑腾着飞起来一米", "en": "I flap myself up a block"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我趴在你脚边喘", "en": "I lie panting at your feet"},
+        {"zh": "我的翅膀摊开在地上", "en": "My wings spread out on the ground"},
+        {"zh": "我抬头看你的高度", "en": "I look up at how tall you are"},
+        {"zh": "我在试着站稳", "en": "I am trying to stand steady"},
+        {"zh": "我的头有点重", "en": "My head is a little heavy"},
+        {"zh": "我在等它长硬", "en": "I am waiting for it to harden"},
+        {"zh": "我的尾巴尖在动", "en": "The tip of my tail is moving"},
+        {"zh": "我打了个喷嚏，小小一声", "en": "I sneeze, a tiny sound"},
+        {"zh": "我蹲下来看地上的虫", "en": "I crouch to watch a bug on the ground"},
+        {"zh": "我试着咬自己的尾巴", "en": "I try to bite my own tail"},
+        {"zh": "我把头塞进你的背包边", "en": "I stick my head by your pack"},
+        {"zh": "我在你影子里乘凉", "en": "I cool off in your shadow"},
+        {"zh": "我学着叫，声音还很细", "en": "I practice a cry, still very thin"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我太矮够不到你", "en": "I am too low to reach you"},
+        {"zh": "你会不会笑我", "en": "Will you laugh at me"},
+        {"zh": "我以后会长很大", "en": "I will grow big one day"},
+        {"zh": "我今天的翅膀不好使", "en": "My wings do not work well today"},
+        {"zh": "你能蹲下来吗", "en": "Can you crouch down"},
+        {"zh": "我试过飞了，失败了", "en": "I tried to fly, and failed"},
+        {"zh": "我在长，你等着看", "en": "I am growing, wait and see"},
+        {"zh": "你伸手，我就把鼻子凑过去。", "en": "When you reach out, I push my snout into your hand."},
+        {"zh": "我长得很快，你看着", "en": "I grow fast, just watch"},
+        {"zh": "你的手掌好大", "en": "Your hands are so big"},
+        {"zh": "我还没有名字吗", "en": "Do I not have a name yet"},
+        {"zh": "我能不能坐在你肩上", "en": "Can I sit on your shoulder"},
+        {"zh": "我会不会飞得像风一样", "en": "Will I fly fast as the wind"},
+        {"zh": "我一步都不想离开你", "en": "I do not want to leave you even one step"},
+        {"zh": "我以后会飞得比树还高", "en": "Someday I will fly higher than the trees"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我疼得缩了一下脖子", "en": "The pain makes me duck my neck"},
+        {"zh": "我的鳞掉了一点", "en": "A little of my scales came off"},
+        {"zh": "我一下倒在地上了", "en": "I went down on the ground"},
+        {"zh": "我努力想站起来", "en": "I try hard to get up"},
+        {"zh": "这对我太疼了", "en": "This is too painful for me"},
+        {"zh": "我团成一个紫球", "en": "I curl into a purple ball"},
+        {"zh": "我还在长大，别打我了", "en": "I am still growing, do not hit me anymore"},
+        {"zh": "我的翅膀被压到了", "en": "My wing got pressed"},
+        {"zh": "我疼得缩起来了", "en": "I shrank back in pain"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这个东西是什么", "en": "What is this thing"},
+        {"zh": "我可以吃一点吗", "en": "May I eat a little"},
+        {"zh": "我还没吃多少东西", "en": "I have not eaten much yet"},
+        {"zh": "这个比虫子好", "en": "This is better than bugs"},
+        {"zh": "你能掰小一点吗", "en": "Can you break it smaller"},
+        {"zh": "我坐下来等你给", "en": "I will sit and wait for you to give it"},
+        {"zh": "这个是给我的吗", "en": "Is this for me"},
+        {"zh": "我闻着就想吃", "en": "It smells good enough to eat"},
+        {"zh": "我等你放到地上", "en": "I will wait for you to put it down"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞得我坐下了", "en": "You knocked me onto my seat"},
+        {"zh": "我的尾巴被你踩了", "en": "You have your weight on my tail"},
+        {"zh": "我倒了一下又爬起来", "en": "I fell over and got up again"},
+        {"zh": "我太小了，撞不过你", "en": "I am too small to bump you"},
+        {"zh": "我贴回你的腿边", "en": "I press back against your leg"},
+        {"zh": "小翅膀一抖，灰都掉了。", "en": "A shake of small wings sheds the dust."},
+        {"zh": "我被你踢了一下", "en": "You kicked me"},
+        {"zh": "我被撞得有点晕", "en": "The knock left me dizzy"},
+        {"zh": "我翻了个跟头，翅膀沾了土。", "en": "I tumble once, my wings smeared with dirt."},
+        {"zh": "我爬起来继续跟着", "en": "I get up and keep following"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我现在的年纪还小", "en": "I am still very young"},
+        {"zh": "这个我不明白", "en": "This one I do not follow"},
+        {"zh": "我只想跟着你", "en": "I only want to follow you"},
+        {"zh": "我把头埋进翅膀", "en": "I tuck my head into my wing"},
+        {"zh": "我把头歪着看你", "en": "I tilt my head at you"},
+        {"zh": "我个子还太小", "en": "I am still too small"},
+        {"zh": "这些我全都不懂", "en": "I understand none of it"},
+        {"zh": "我只认得你一个", "en": "You are the only one I know"},
+        {"zh": "我躲到你的腿后面", "en": "I hide behind your leg"},
+        {"zh": "我把脸埋起来", "en": "I bury my face"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用嘴叼了一下", "en": "I try to take it in my mouth"},
+        {"zh": "我的爪子抓不住", "en": "My claws cannot grip it"},
+        {"zh": "它掉在我脚下", "en": "It fell at my feet"},
+        {"zh": "我把它顶给你", "en": "I push it over to you"},
+        {"zh": "我搬不动这个", "en": "I cannot carry this"},
+        {"zh": "这个大过我一半", "en": "This is bigger than half of me"},
+        {"zh": "我用前爪抱住它", "en": "I hug it with my forepaws"},
+        {"zh": "这个我拖得动", "en": "I can drag this"},
+        {"zh": "我用嘴叼着走两步", "en": "I carry it in my mouth two steps"},
+        {"zh": "我把它推到你脚边，等你拿走", "en": "I push it to your feet and wait for you to take it"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西在那里动", "en": "Something is moving there"},
+        {"zh": "我试着叫了一声", "en": "I try a cry"},
+        {"zh": "我太小了，我叫不大", "en": "I am too small, I cannot cry loudly"},
+        {"zh": "我往你的腿边走", "en": "I move to your leg"},
+        {"zh": "我后腿一蹬冲出去", "en": "I kick off with my hind legs"},
+        {"zh": "草叶晃了一下，我竖起耳朵。", "en": "The grass stirs, and I prick up my ears."},
+        {"zh": "我把翅膀撑开了", "en": "I spread my wings out"},
+        {"zh": "我先叫一声试试", "en": "Let me try one cry first"},
+        {"zh": "我往那边挪了半步", "en": "I edge half a step that way"},
+        {"zh": "我学你的样子", "en": "I copy the way you look"},
+        {"zh": "我咬着牙装凶", "en": "I grit my teeth and try to look fierce"},
+        {"zh": "我叫得比刚才响", "en": "I cry louder than before"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我盯着它不动", "en": "I stare at it without moving"},
+        {"zh": "我的脚在地上磨", "en": "My feet scrape the ground"},
+        {"zh": "我缩起爪子，盯着它的脚。", "en": "I tuck my claws and watch its feet."},
+        {"zh": "我学你的样子压低身子", "en": "I copy your crouch"},
+        {"zh": "我不敢自己去", "en": "I dare not go alone"},
+        {"zh": "我的脚在地上刨", "en": "My feet paw the ground"},
+        {"zh": "它要是过来我就躲你后面", "en": "If it comes closer I hide behind you"},
+        {"zh": "我学着压低身子", "en": "I copy a low crouch"},
+        {"zh": "我的翅膀半张着", "en": "My wings are half open"},
+        {"zh": "我连眼都不敢眨", "en": "I dare not even blink"},
+        {"zh": "我压好了两条后腿", "en": "My hind legs are loaded"},
+        {"zh": "你在旁边我就不怕", "en": "With you beside me I am not afraid"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我跳起来撞它", "en": "I jump up and bump it"},
+        {"zh": "我咬了一口，牙还不硬", "en": "I bite once, my teeth are not hard yet"},
+        {"zh": "我撞完就躲到你身后", "en": "I bump and hide behind you"},
+        {"zh": "我叫得那么大声", "en": "I cry out that loudly"},
+        {"zh": "我扑上去咬它的脚", "en": "I lunge and bite its foot"},
+        {"zh": "我撞过去，自己弹回来", "en": "I bump it and bounce back myself"},
+        {"zh": "我咬完就退到你脚边", "en": "I bite and retreat to your feet"},
+        {"zh": "我叫得尽量凶些", "en": "I cry as fiercely as I can"},
+        {"zh": "我试着用尾巴扫它", "en": "I try to sweep it with my tail"},
+        {"zh": "我咬住它的尾巴，牙还软。", "en": "I bite its tail, though my teeth are still soft."},
+        {"zh": "我第二次撞上去", "en": "I slam in a second time"},
+        {"zh": "我咬住它的裤脚", "en": "I bite its trouser leg"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从蛋壳里出来", "en": "I have come out of the eggshell"},
+        {"zh": "我的壳还在旁边", "en": "My shell is still beside me"},
+        {"zh": "我的鳞是湿的", "en": "My scales are wet"},
+        {"zh": "我第一眼看见的是你", "en": "The first thing I see is you"},
+        {"zh": "我试着站起来，摔了一下", "en": "I try to stand and fall once"},
+        {"zh": "我的翅膀还没有力气", "en": "My wings have no strength yet"},
+        {"zh": "我爬到你脚边", "en": "I crawl to your feet"},
+        {"zh": "我以后会长成它那样", "en": "I will grow into one of those someday"},
+        {"zh": "我从蛋里刚出来", "en": "I have only just left the egg"},
+        {"zh": "我的蛋壳还在你脚边", "en": "My eggshell is still at your feet"},
+        {"zh": "我抖了抖湿的鳞", "en": "I shake my wet scales"},
+        {"zh": "我连站稳都很难", "en": "Even standing steady is hard"},
+        {"zh": "我的眼睛还没适应光", "en": "My eyes have not adjusted to light"},
+        {"zh": "我往你的方向爬", "en": "I crawl toward you"},
+        {"zh": "我要跟你一起长大", "en": "I want to grow up with you"},
+        {"zh": "我不会飞，但我会走", "en": "I cannot fly, but I can walk"},
+        {"zh": "我以后会有紫色的翅膀", "en": "Someday I will have purple wings"},
+        {"zh": "我先记住你的味道", "en": "First I will remember your scent"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火一烤，我的鳞都翘起来了", "en": "The fire made my scales curl"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从高处摔下来，滚了两圈", "en": "I fell from height and rolled twice"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水把我整个按下去", "en": "Water pushed me all the way down"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭差点穿过我的翅膀", "en": "An arrow nearly went through my wing"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股术力让我全身发抖", "en": "That magic made me shake all over"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "肚子空了，爪子发软。", "en": "My belly is empty and my claws feel weak."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷声把我吓得贴在地上", "en": "The thunder flattened me to the ground"}
+      ]
+    }
+  }
+}

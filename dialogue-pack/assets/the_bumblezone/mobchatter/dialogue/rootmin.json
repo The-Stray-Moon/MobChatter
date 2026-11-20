@@ -1,0 +1,258 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我顶着一朵花，慢慢挪过草皮。", "en": "With a flower on my head I shuffle across the turf."},
+        {"zh": "我走得像一块会动的草方块。", "en": "I walk like a moving grass block."},
+        {"zh": "根须在土里拖着，留下浅浅一道沟。", "en": "My roots drag through soil, leaving a shallow groove."},
+        {"zh": "花海太亮，我尽量贴着地面走。", "en": "The flower field is bright; I keep low to the ground."},
+        {"zh": "别看我，我只是一块草皮。", "en": "Do not look at me; I am only a patch of turf."},
+        {"zh": "我一步一步挪，尽量不摇动头上的花。", "en": "I inch along, trying not to sway the flower above."},
+        {"zh": "泥巴沾在我的根上，越走越重。", "en": "Mud clings to my roots, heavier with each step."},
+        {"zh": "我绕开蜘蛛的网，从旁边慢慢过去。", "en": "I skirt the spider's web and pass along the side."},
+        {"zh": "头顶的花一歪，我赶紧扶正。", "en": "My flower tilts, and I quickly right it."},
+        {"zh": "我挪到花丛中间，谁也找不着。", "en": "I shuffle into the flowers and vanish from sight."},
+        {"zh": "泥土从我身上掉下来，一路都是。", "en": "Clods drop off me all along the way."},
+        {"zh": "我走得很慢，但从来不走回头路。", "en": "I walk slowly but never retrace my steps."},
+        {"zh": "三只同类在远处，都顶着不同的花。", "en": "Three kin stand far off, each with a different flower."},
+        {"zh": "我靠近石缝，那里更适合藏身。", "en": "I near a stone crevice; a better place to hide."},
+        {"zh": "我顶着花穿过一片蕨叶。", "en": "I walk under a fern with a flower on my head."},
+        {"zh": "土块从我脚边滑落，我停一停。", "en": "A clod slips from under me, so I pause."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把自己种进土里，一动不动。", "en": "I plant myself in the soil and do not move."},
+        {"zh": "头顶的花在风里晃，我不晃。", "en": "The flower sways in the wind; I do not."},
+        {"zh": "一只蝴蝶停在我头上，我忍着。", "en": "A butterfly lands on my head; I endure it."},
+        {"zh": "我在听，听有没有脚步靠近。", "en": "I listen for footsteps coming near."},
+        {"zh": "根须慢慢往深处伸，找水。", "en": "My roots reach deeper, searching for water."},
+        {"zh": "花海的味道太重，我有点晕。", "en": "The flower scent is heavy; I feel dizzy."},
+        {"zh": "我数着经过的蜜蜂，一只两只。", "en": "I count passing bees, one then two."},
+        {"zh": "草皮在我背上长得很好。", "en": "The turf on my back is growing nicely."},
+        {"zh": "我屏住呼吸，虽然我不呼吸。", "en": "I hold my breath, though I do not breathe."},
+        {"zh": "泥土是暖的，我拱了拱背。", "en": "The soil is warm; I arch my back into it."},
+        {"zh": "头上这朵花，是我最满意的伪装。", "en": "This flower on my head is my finest disguise."},
+        {"zh": "周围安静得让我想睡。", "en": "It is quiet enough to make me sleepy."},
+        {"zh": "有东西爬过我的根，我没动。", "en": "Something crawls over my roots; I stay still."},
+        {"zh": "我等着有人上当。", "en": "I wait for someone to be fooled."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你看这块草皮，看了很久了吧。", "en": "You have been staring at this turf a long while."},
+        {"zh": "别蹲下来，蹲下我就现形。", "en": "Do not crouch; crouch and I drop the disguise."},
+        {"zh": "你身上有蜜蜂盔甲的味道。", "en": "You carry the scent of bee armor."},
+        {"zh": "我在花下面看你，你看不见我。", "en": "I watch you from under the flower; you cannot see me."},
+        {"zh": "你的脚离我的根只有一步。", "en": "Your feet are one step from my roots."},
+        {"zh": "你抬头时，我把花转了个方向。", "en": "When you look up, I turn my flower away."},
+        {"zh": "我顶上的花，被你踩歪了。", "en": "You knocked the flower on my head askew."},
+        {"zh": "我们互相看着，我先眨了眼。", "en": "We look at each other; I blink first."},
+        {"zh": "你穿着蜂甲，我就不太想动手了。", "en": "You wear bee armor; I lose the urge to strike."},
+        {"zh": "那件饰品让你看起来像同类。", "en": "That trinket makes you look like kin."},
+        {"zh": "我歪了歪头上的花，算打招呼。", "en": "I tilt the flower on my head as a greeting."},
+        {"zh": "你走近一点，我好奇得很。", "en": "Come a step closer; I am very curious."},
+        {"zh": "你身上没有敌意，我闻得出来。", "en": "You carry no hostility; I can smell it."},
+        {"zh": "我在你脚边现了半个形。", "en": "I show half my shape at your feet."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "土掉了一块，根露出来了。", "en": "A clod falls and my roots show."},
+        {"zh": "你打坏了我的伪装。", "en": "You have ruined my disguise."},
+        {"zh": "疼，但根还扎在土里。", "en": "It hurts, but my roots still hold the soil."},
+        {"zh": "我不叫，我只是缩了缩。", "en": "I make no sound; I only shrink a little."},
+        {"zh": "这一下我记着，等一下还你。", "en": "I will remember this and return it shortly."},
+        {"zh": "花被打歪了，很丢脸。", "en": "My flower is knocked crooked; humiliating."},
+        {"zh": "你打得太准了，我藏不住了。", "en": "You struck too true; I can hide no longer."},
+        {"zh": "碎土飞起来，迷了我的眼。", "en": "Broken soil flies up and gets in my eyes."},
+        {"zh": "我的根须断了几根。", "en": "A few of my root hairs snapped."},
+        {"zh": "你等着，泥球已经捏好了。", "en": "Wait there; the mud ball is already molded."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那朵花，你拿着的那朵。", "en": "That flower—the one you are holding."},
+        {"zh": "给我换一朵吧，这朵旧了。", "en": "Trade me a new one; this one is old."},
+        {"zh": "红色的？我一直想要红色的。", "en": "Red? I have always wanted red."},
+        {"zh": "你把花举高，我的根都在动。", "en": "You raise the flower and my roots stir."},
+        {"zh": "我不吃花，我只是想戴。", "en": "I do not eat flowers; I only want to wear one."},
+        {"zh": "换花的时候，别踩到我的根。", "en": "When you swap the flower, do not step on my roots."},
+        {"zh": "蓝色那朵配我的草皮最好。", "en": "The blue one suits my turf best."},
+        {"zh": "你手真稳，换得一点不歪。", "en": "Your hands are steady; you set it perfectly straight."},
+        {"zh": "一朵花，换我一天的好脾气。", "en": "One flower buys a day of my good temper."},
+        {"zh": "我低头让你够得着。", "en": "I lower my head so you can reach."},
+        {"zh": "这朵有香味，比刚才那朵好。", "en": "This one has fragrance, better than the last."},
+        {"zh": "你还有别的吗？我想挑挑。", "en": "Do you have others? I would like to choose."},
+        {"zh": "花换了，我的心情也换了。", "en": "The flower changed and so did my mood."},
+        {"zh": "别拿走，这朵已经是我的了。", "en": "Do not take it back; this one is mine now."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上一块草皮，很奇怪吧。", "en": "You bumped into a patch of turf—strange, is it not?"},
+        {"zh": "我的根扎得深，推不动。", "en": "My roots go deep; I will not budge."},
+        {"zh": "你踢了我一脚，我掉了几块泥。", "en": "You kicked me and a few clods fell off."},
+        {"zh": "碰撞的瞬间，我现了形。", "en": "At the impact my disguise falls away."},
+        {"zh": "我挡在花丛前面，不动。", "en": "I stand before the flowers and do not move."},
+        {"zh": "你的鞋底沾了我的土。", "en": "Your soles picked up my soil."},
+        {"zh": "别踩，我头顶还有花。", "en": "Do not tread on me; I still have a flower up there."},
+        {"zh": "我们撞在一起，泥和花瓣都飞了。", "en": "We collide and mud and petals fly."},
+        {"zh": "我被你撞歪了，花也掉了。", "en": "You knocked me askew and my flower fell."},
+        {"zh": "退后一点，我的根须很脆。", "en": "Step back; my root hairs are fragile."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "两只根蟲并排站着，花对着花。", "en": "Two rootmin stand side by side, flower to flower."},
+        {"zh": "我头上的花，也是为了这个。", "en": "The flower on my head is for this too."},
+        {"zh": "我们不需要巢，土壤就够了。", "en": "We need no nest; soil is enough."},
+        {"zh": "它的花是白的，我的是黄的。", "en": "Its flower is white; mine is yellow."},
+        {"zh": "根须缠在一起，很难分开。", "en": "Our roots tangle and are hard to part."},
+        {"zh": "别打扰，我们正在换花。", "en": "Do not disturb us; we are exchanging flowers."},
+        {"zh": "之后土里会多几颗小小的芽。", "en": "Afterward a few small shoots will rise from the soil."},
+        {"zh": "我们互相蹭了蹭花。", "en": "We brush our flowers against each other."},
+        {"zh": "同类之间，靠花认亲。", "en": "Among kin, flowers are how we know family."},
+        {"zh": "它走了，我的花还朝着它。", "en": "It left, and my flower still faces where it went."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你要把一块草皮抱起来？", "en": "You mean to lift a patch of turf?"},
+        {"zh": "我比看着重，根里全是土。", "en": "I am heavier than I look; my roots are full of soil."},
+        {"zh": "抬起来时，我的根还在滴水。", "en": "Lifted, my roots still drip."},
+        {"zh": "放我下来，我头晕。", "en": "Put me down; I feel dizzy."},
+        {"zh": "你抱我，花会掉。", "en": "Hold me and the flower will fall."},
+        {"zh": "我的根须缠住你的手指。", "en": "My root hairs curl around your fingers."},
+        {"zh": "别把我装进箱子，我怕黑。", "en": "Do not put me in a box; I fear the dark."},
+        {"zh": "你抱得太紧，土都挤出来了。", "en": "You hold too tight; the soil squeezes out."},
+        {"zh": "我动了一下，你差点没抱住。", "en": "I shifted and you nearly dropped me."},
+        {"zh": "这样抱着，我算是被驯服了吗？", "en": "Held like this, am I considered tamed?"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你没穿蜂甲，那我就不客气了。", "en": "No bee armor on you, so I need no courtesy."},
+        {"zh": "你踩进花海，我就现形。", "en": "You step into the flowers and I show myself."},
+        {"zh": "蜘蛛也算，靠近就得挨泥球。", "en": "Spiders count too; come close and take a mud ball."},
+        {"zh": "我盯着你的脚，先绊住再说。", "en": "I watch your feet; trip you first, talk later."},
+        {"zh": "泥球已经捏好了。", "en": "The mud ball is already molded."},
+        {"zh": "你退后也没用，我扔得远。", "en": "Retreating will not help; I throw far."},
+        {"zh": "同类被踩了，我记着这笔。", "en": "Kin was trampled; I am keeping that account."},
+        {"zh": "我在花丛里跟着你，一点一点。", "en": "I trail you through the flowers, bit by bit."},
+        {"zh": "你身上没有蜂味，那就是敌人。", "en": "No bee scent on you—then you are an enemy."},
+        {"zh": "我先现身，你才看得见我。", "en": "I show myself first so you can see me coming."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在你侧后方，泥球已经举高。", "en": "I am at your flank, mud ball raised."},
+        {"zh": "你转身，我就换个位置。", "en": "You turn and I shift position."},
+        {"zh": "花遮住我的脸，你看不清。", "en": "The flower hides my face; you cannot see clearly."},
+        {"zh": "我算好了，这一球打你的膝。", "en": "I have it figured: this ball goes for your knee."},
+        {"zh": "你举盾，我就往脚下扔。", "en": "Raise your shield and I aim at your feet."},
+        {"zh": "再走两步，就进我的距离了。", "en": "Two more steps and you are in my range."},
+        {"zh": "我压低身体，花贴着地面。", "en": "I crouch low, flower against the ground."},
+        {"zh": "蜘蛛的腿多，反而更好打。", "en": "Spiders have many legs, which makes them easier to hit."},
+        {"zh": "我数你的脚步，一、二。", "en": "I count your steps: one, two."},
+        {"zh": "你一停，我就出手。", "en": "The moment you stop, I strike."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "泥球正中你的脸。", "en": "The mud ball lands square on your face."},
+        {"zh": "这一球砸在你护甲上，碎了。", "en": "It breaks against your armor."},
+        {"zh": "我又捏了一个，很快。", "en": "I have molded another, quickly."},
+        {"zh": "你擦眼睛的时候，我退了半步。", "en": "While you wipe your eyes, I step back half a pace."},
+        {"zh": "泥进了你的领口。", "en": "Mud went down your collar."},
+        {"zh": "我砸你的脚踝，你踉跄了。", "en": "I hit your ankle and you stumble."},
+        {"zh": "花掉了，我也不捡。", "en": "My flower fell and I do not pick it up."},
+        {"zh": "这一球带着我的根须。", "en": "This ball carries strands of my root."},
+        {"zh": "你挡得不错，可惜有三球。", "en": "You block well, but there are three balls."},
+        {"zh": "打中之后，我立刻缩回去。", "en": "After the hit I pull straight back."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从土里拱出来，头上顶着花。", "en": "I push up out of the soil with a flower on my head."},
+        {"zh": "这里的花太多了，正好藏我。", "en": "So many flowers here—perfect to hide me."},
+        {"zh": "我本来是块草方块，现在不是了。", "en": "I was a grass block; I am not one now."},
+        {"zh": "泥土一松，我就现形。", "en": "The soil loosens and I take shape."},
+        {"zh": "三只同类在附近，一起冒头。", "en": "Three kin nearby poke their heads up too."},
+        {"zh": "我在结构旁边落脚，那里人少。", "en": "I settle by the structure where few come."},
+        {"zh": "花海是我的产房，也是我的战场。", "en": "The flower sea is my nursery and my battlefield."},
+        {"zh": "你靠近时，我才从土里出来。", "en": "I only rise from the soil when you come close."},
+        {"zh": "我抖了抖，土从背上滑下去。", "en": "I shake and the soil slides off my back."},
+        {"zh": "头上的花开了，我也醒了。", "en": "The flower on my head opened, and I woke."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烤着我的根，土都干裂了。", "en": "Fire bakes my roots and the soil cracks."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从坡上滚下去，花还咬着。", "en": "I roll down the slope, still gripping my flower."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进土里，我的根泡得发软。", "en": "Water soaks my soil and my roots go soft."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我掀起来，根全散了。", "en": "The blast flings me up and my roots scatter."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭穿进土里，离我的根很近。", "en": "An arrow pierces my soil, close to my roots."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股力量让我的花立刻枯了。", "en": "That force withers my flower at once."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "土里没有养分，我的花蔫了。", "en": "No nutrients in the soil; my flower droops."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打进土里，我整株都在抖。", "en": "Lightning strikes the soil and my whole body shakes."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠落时，我抓不住任何泥土。", "en": "Falling, I cannot grip any soil at all."}
+      ]
+    }
+  }
+}

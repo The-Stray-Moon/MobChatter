@@ -1,0 +1,254 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "Sachicasaurus 悠闲游动，巨大的身躯激起涟漪。", "en": "Sachicasaurus glides gracefully, creating ripples with its massive body."},
+        {"zh": "它缓慢地移动，仿佛水中的幽灵。", "en": "It moves slowly, like a ghost in the water."},
+        {"zh": "Sachicasaurus 用巨大的下颚咬碎珊瑚。", "en": "Sachicasaurus bites coral with its enormous jaws."},
+        {"zh": "它张开巨大的嘴巴，发出低沉的咆哮。", "en": "It opens its huge mouth and lets out a deep roar."},
+        {"zh": "Sachicasaurus 漂浮在水中，享受宁静。", "en": "Sachicasaurus floats in the water, enjoying the calm."},
+        {"zh": "它低头吞食水中的生物。", "en": "It lowers its head to eat creatures in the water."},
+        {"zh": "Sachicasaurus 用锋利的牙齿撕咬猎物。", "en": "Sachicasaurus tears at its prey with sharp teeth."},
+        {"zh": "它在珊瑚丛中缓慢游动。", "en": "It moves slowly among the coral."},
+        {"zh": "Sachicasaurus 从远处游来，警惕地观察。", "en": "Sachicasaurus approaches from afar, cautiously observing."},
+        {"zh": "它在海底游动，寻找猎物。", "en": "It swims in the seafloor, searching for prey."},
+        {"zh": "巨大的鳍肢一压，缓缓下潜", "en": "A push of its great flippers sends it gliding down."},
+        {"zh": "它贴着海床滑过细沙", "en": "It glides over the fine sand of the seafloor."},
+        {"zh": "长尾左右摆动，推着身体", "en": "Its long tail sweeps side to side, driving it on."},
+        {"zh": "它穿过鱼群，鱼群散开", "en": "It passes through a school of fish and they scatter."},
+        {"zh": "礁石旁转身，动作笨重", "en": "It turns by the reef, ponderous."},
+        {"zh": "它浮上水面换一口气", "en": "It surfaces to take a breath."},
+        {"zh": "吻部拨开水草前进", "en": "Its snout parts the weeds as it advances."},
+        {"zh": "阳光下，脊背划开一道水痕", "en": "Under the sun, its back cuts a line in the water."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "Sachicasaurus 悠闲地在水中漂浮。", "en": "Sachicasaurus floats lazily in the water."},
+        {"zh": "它静静地在珊瑚丛中游动。", "en": "It moves quietly among the coral."},
+        {"zh": "Sachicasaurus 漂浮在水面，享受阳光。", "en": "Sachicasaurus floats on the surface, basking in the sun."},
+        {"zh": "它在水中慢慢游动，几乎不动。", "en": "It moves slowly in the water, barely moving."},
+        {"zh": "Sachicasaurus 安静地在珊瑚中休息。", "en": "Sachicasaurus rests quietly in the coral."},
+        {"zh": "它在水下悠闲地游动。", "en": "It swims leisurely underwater."},
+        {"zh": "Sachicasaurus 静静地在珊瑚中游动。", "en": "Sachicasaurus moves quietly through the coral."},
+        {"zh": "它在水中悠闲地漂浮。", "en": "It floats leisurely in the water."},
+        {"zh": "Sachicasaurus 安静地在珊瑚中停留。", "en": "Sachicasaurus pauses quietly in the coral."},
+        {"zh": "它在水中慢慢地游动。", "en": "It moves slowly in the water."},
+        {"zh": "它悬在水中，四肢轻摆", "en": "It hangs in the water, limbs drifting."},
+        {"zh": "下颚慢慢开合，像在嚼", "en": "Its jaw opens and closes slowly, as if chewing."},
+        {"zh": "它把头搁在礁石边歇息", "en": "It rests its head against the reef."},
+        {"zh": "一串气泡从鼻上升起", "en": "A string of bubbles rises from its nostrils."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "Sachicasaurus 观察玩家，眼中闪烁着光芒。", "en": "Sachicasaurus observes the player, its eyes gleaming."},
+        {"zh": "它抬头看向玩家，警惕地等待。", "en": "It looks up at the player, waiting vigilantly."},
+        {"zh": "Sachicasaurus 注视玩家，准备攻击。", "en": "Sachicasaurus watches the player, ready to attack."},
+        {"zh": "它的眼睛紧紧盯着玩家。", "en": "Its eyes are fixed on the player."},
+        {"zh": "Sachicasaurus 将玩家作为目标，游向它。", "en": "Sachicasaurus targets the player, swimming towards it."},
+        {"zh": "它警惕地盯着玩家，准备攻击。", "en": "It watches the player vigilantly, ready to attack."},
+        {"zh": "它看向玩家，准备寻找机会。", "en": "It looks at the player, ready to find an opportunity."},
+        {"zh": "Sachicasaurus 注视玩家，准备发动攻击。", "en": "Sachicasaurus watches the player, ready to attack."},
+        {"zh": "它游向玩家，准备发起攻击。", "en": "It swims towards the player, ready to attack."},
+        {"zh": "它盯着玩家，似乎要发起攻击。", "en": "It stares at the player, as if to attack."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的鳞片裂开了！", "en": "My scales are breaking!"},
+        {"zh": "我的壳受伤了！", "en": "My shell is hurt!"},
+        {"zh": "我的皮肤上又多了一道划痕。", "en": "Another scratch opens across my hide."},
+        {"zh": "我感到疼痛！", "en": "I feel pain!"},
+        {"zh": "我的壳裂开了！", "en": "My shell is cracking!"},
+        {"zh": "我的鳞片断了！", "en": "My scales are broken!"},
+        {"zh": "我的壳被撞了！", "en": "My shell is hit!"},
+        {"zh": "我的鳞片碎了！", "en": "My scales are shattered!"},
+        {"zh": "我的壳裂痕累累！", "en": "My shell is cracked!"},
+        {"zh": "我的鳞片脱落了！", "en": "My scales are falling off!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "巨大的颚裂开，露出锋利的牙齿。", "en": "The massive jaw opens, revealing sharp teeth."},
+        {"zh": "我闻到了鱼腥味，好想吃。", "en": "I smell the fishy scent, craving a meal."},
+        {"zh": "海水里有什么，让我游过去看看。", "en": "Something in the sea calls me to investigate."},
+        {"zh": "这鱼味道不错，可以饱餐一顿了。", "en": "This fish tastes good, a satisfying meal."},
+        {"zh": "猎物的味道吸引了我。", "en": "The scent of prey draws me in."},
+        {"zh": "我的鳞片闪闪发光，很值钱。", "en": "My scales shine, very valuable."},
+        {"zh": "我用尾巴拍打水面，制造声势。", "en": "I slap the water with my tail, creating a show."},
+        {"zh": "这片海域是我的领地，谁敢入侵？", "en": "This sea is my territory, who dares to intrude?"},
+        {"zh": "我张大嘴巴，准备吞噬一切。", "en": "I open my mouth wide, ready to devour."},
+        {"zh": "这小鱼似乎很美味。", "en": "This small fish looks delicious."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "巨大的身体撞上了另一只 Sachicasaurus。", "en": "My body collides with another Sachicasaurus."},
+        {"zh": "它撞了过来，我必须避开。", "en": "It rammed over, I must dodge."},
+        {"zh": "我与另一只同类发生碰撞，我们分道扬镳。", "en": "I collided with another同类, parting ways."},
+        {"zh": "它的冲击力很强，我得小心。", "en": "Its impact is strong, I must be careful."},
+        {"zh": "我们相撞，但没有造成伤害。", "en": "We collided but caused no harm."},
+        {"zh": "它的体型远超我，无法避开。", "en": "Its size overwhelms me, I cannot avoid."},
+        {"zh": "我躲避它的冲击，保持距离。", "en": "I dodge its impact, maintaining distance."},
+        {"zh": "我们之间的碰撞只是偶然。", "en": "Our collision is just a coincidence."},
+        {"zh": "它猛烈撞击我的身体。", "en": "It violently collided with my body."},
+        {"zh": "我们之间的碰撞是无意识的。", "en": "Our collision is unintentional."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "大嘴张合，海面跟着响。", "en": "My jaws open and close; the sea answers."},
+        {"zh": "我的吼声呼唤着同类。", "en": "My roar calls out to my kind."},
+        {"zh": "我们通过碰触来确认身份。", "en": "We confirm identity through touch."},
+        {"zh": "我用尾巴摆动吸引它的注意。", "en": "I wave my tail to catch its attention."},
+        {"zh": "它回应了我的求偶叫声。", "en": "It responded to my mating call."},
+        {"zh": "我们互相摩擦鳞片。", "en": "We rub our scales together."},
+        {"zh": "我喷出泡沫来吸引伴侣。", "en": "I spray bubbles to attract a mate."},
+        {"zh": "它用触须轻触我的身体。", "en": "It gently touches my body with its tentacles."},
+        {"zh": "我们的身体紧紧贴在一起。", "en": "Our bodies are tightly pressed together."},
+        {"zh": "求偶成功，我们共同繁衍。", "en": "Mating successful, we reproduce together."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沉重的外壳敲击声响起。", "en": "Heavy shell clanking."},
+        {"zh": "露出巨大的头部。", "en": "Large head emerges."},
+        {"zh": "发出震耳的低吼。", "en": "Rumbles a deep growl."},
+        {"zh": "用爪子挖掘沙地。", "en": "Scratching sand with claws."},
+        {"zh": "张开巨大的下颚。", "en": "LARGE JAW SNAPS OPEN."},
+        {"zh": "发出雷鸣般的咆哮。", "en": "Thunderous roar."},
+        {"zh": "露出锐利的牙齿。", "en": "Sharp teeth revealed."},
+        {"zh": "我用吻部翻开沙，找下面的东西。", "en": "I root through the sand for what lies beneath."},
+        {"zh": "用尾巴扫过地面。", "en": "Tail swishes the ground."},
+        {"zh": "释放一股水柱。", "en": "Sprays a water jet."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定猎物，眼神凶猛。", "en": "Locks onto prey, fierce gaze."},
+        {"zh": "缓缓移动，靠近猎物。", "en": "Slowly moves closer."},
+        {"zh": "张开大嘴，准备攻击。", "en": "Large mouth opens, ready to attack."},
+        {"zh": "身体僵硬，准备一击。", "en": "Body stiffens, ready to strike."},
+        {"zh": "下颚张开，水都压过来。", "en": "Jaws open. The water presses in."},
+        {"zh": "瞄准猎物，锁定目标。", "en": "Aim at prey, locking target."},
+        {"zh": "用爪子轻触地面。", "en": "Claws touch the ground gently."},
+        {"zh": "尾巴摆动，形成气浪。", "en": "Tail waves, creating a breeze."},
+        {"zh": "身体下沉，潜伏水面下。", "en": "Body sinks, hiding underwater."},
+        {"zh": "用尾巴敲击水面。", "en": "Tail taps the water."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的下颚一张一合，先量你的尺寸。", "en": "My jaws open and close, measuring you first."},
+        {"zh": "张开大嘴，露出利齿。", "en": "LARGE MOUTH SHOWS SHARP TEETH."},
+        {"zh": "发出震耳的嘶吼。", "en": "EARDRUM-BLASTING SCREECH."},
+        {"zh": "我的下颚开合，海水都在抖。", "en": "My jaws open and the sea trembles."},
+        {"zh": "用尾巴搅动海水。", "en": "Tail stirs the sea water."},
+        {"zh": "身体突然加速，向目标逼近。", "en": "Body suddenly speeds towards target."},
+        {"zh": "发出威吓的咆哮。", "en": "THREATENING ROAR EMITS."},
+        {"zh": "用爪子抓住猎物。", "en": "CLAW GRABS THE PREY."},
+        {"zh": "尾巴挥动，形成旋涡。", "en": "TAIL SWINGS, CREATING A WHIRLPOOL."},
+        {"zh": "发出喷水攻击。", "en": "SPITS WATER AT TARGET."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咔嚓！”，它那巨大颚骨发出声响。", "en": "Crash! Its massive jaws make noise."},
+        {"zh": "吼！它张开下颚，准备攻击。", "en": "Roar! It opens its jaw, ready to attack."},
+        {"zh": "它用利爪抓住猎物。", "en": "It grabs the prey with its claws."},
+        {"zh": "它发出嘶嘶声，靠近猎物。", "en": "It hisses, getting closer to the prey."},
+        {"zh": "我一口咬住，牙齿卡进骨头。", "en": "I clamp down and my teeth catch in bone."},
+        {"zh": "它的鳞片反射着月光。", "en": "Its scales reflect the moonlight."},
+        {"zh": "它用尾巴敲击水面。", "en": "It slaps the water with its tail."},
+        {"zh": "它发出低吼，警告入侵者。", "en": "It lets out a low growl, warning intruders."},
+        {"zh": "它用坚硬的牙齿咬碎骨头。", "en": "It uses its hard teeth to crush bones."},
+        {"zh": "它喷出一股强酸液体。", "en": "It spits out a strong acid liquid."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它从深海中缓缓浮出。", "en": "It rises from the deep sea."},
+        {"zh": "海床的沙陷下去，我露出头。", "en": "The seabed sand sinks and my head comes up."},
+        {"zh": "它在珊瑚丛中现身。", "en": "It appears in the coral."},
+        {"zh": "它潜伏在水下，耐心等待。", "en": "It lies underwater, waiting patiently."},
+        {"zh": "它游到水面呼吸。", "en": "It swims to the surface to breathe."},
+        {"zh": "它在海底觅食。", "en": "It forages on the sea floor."},
+        {"zh": "它游向新发现的猎物。", "en": "It swims towards a new prey."},
+        {"zh": "它在沙子下埋伏。", "en": "It ambushes from the sand."},
+        {"zh": "它寻找新的栖息地。", "en": "It searches for a new habitat."},
+        {"zh": "它在夜幕下活动。", "en": "It moves under the night."},
+        {"zh": "深水的暗影里升起巨影", "en": "A vast shape rises out of the deep shadow."},
+        {"zh": "它破开水面，低吼一声", "en": "It breaks the surface with a low roar."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的鳞片裂开了，被火烧的滋味可不好受。", "en": "My scales are breaking! — and the fire makes it worse."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我撞到海底了！", "en": "I hit the seafloor!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不能呼吸了！", "en": "I can't breathe!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把我掀翻在珊瑚上。", "en": "The blast flips me onto the coral."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "东西扎进我背鳍后的软处。", "en": "Something bites into the soft spot behind my dorsal fin."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔力击中了我！", "en": "Magic hit me!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下颚张着，却叼不到鱼。", "en": "Jaws open, but no fish in them."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我张合下颚，雷就劈下来了。", "en": "I snapped my jaws, and the lightning came down."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "离了海水，我的身体太沉。", "en": "Away from seawater, my body is far too heavy."}
+      ]
+    }
+  }
+}

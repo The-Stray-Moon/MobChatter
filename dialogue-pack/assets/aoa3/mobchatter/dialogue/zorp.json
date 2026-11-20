@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙沙沙，脚步声尖锐。", "en": "Scratch, scratch, sharp steps."},
+        {"zh": "月球表面留下痕迹。", "en": "Leaves marks on the lunar surface."},
+        {"zh": "紧握拳头，准备攻击。", "en": "Fists clenched, ready to attack."},
+        {"zh": "低吼，似乎在思考。", "en": "Rumbles, seems to be thinking."},
+        {"zh": "脚步沉重，缓慢逼近。", "en": "Heavy steps, slowly approaching."},
+        {"zh": "月壤在我脚下沙沙响。", "en": "The lunar soil crunches under my feet."},
+        {"zh": "咬紧牙关，准备一击。", "en": "Bite teeth, ready to strike."},
+        {"zh": "脚步轻移，无声无息。", "en": "Silent steps, barely moving."},
+        {"zh": "低头巡视，寻找目标。", "en": "Nods head, searching for a target."},
+        {"zh": "慢慢蠕动，接近猎物。", "en": "Creeps closer, moving slowly."},
+        {"zh": "拳头攥紧，踏过月尘", "en": "Fists clenched, it tramps across the moon dust."},
+        {"zh": "它在低重力里慢慢逼近", "en": "It closes in through the low gravity."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低头吃沙，慢慢咀嚼。", "en": "Eats sand, slowly chews."},
+        {"zh": "舔唇，期待攻击。", "en": "Licks lips, waiting to attack."},
+        {"zh": "环顾四周，警惕观察。", "en": "Looks around, cautious."},
+        {"zh": "轻声嘶叫，释放紧张。", "en": "Whispers, releases tension."},
+        {"zh": "张开大嘴，露出獠牙。", "en": "Opens mouth, showing fangs."},
+        {"zh": "低头沉思，准备行动。", "en": "Nods head, readying itself."},
+        {"zh": "轻声嘶嘶，等待机会。", "en": "Whispers, waiting for chance."},
+        {"zh": "低头咀嚼，享受美食。", "en": "Chews, enjoying its food."},
+        {"zh": "轻声喘息，调整呼吸。", "en": "Gulps, adjusts breathing."},
+        {"zh": "舔唇等待，准备行动。", "en": "Licks lips, readying itself."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发现玩家，眼睛发光。", "en": "Sees player, eyes light up."},
+        {"zh": "我的拳头在月尘里攥紧了。", "en": "My fists clench in the moon dust."},
+        {"zh": "目光锁定，锁定目标。", "en": "Locks eyes, on target."},
+        {"zh": "目光如炬，盯紧玩家。", "en": "Stares intensely, locking on."},
+        {"zh": "眼神凶狠，准备出击。", "en": "Fierce gaze, ready to strike."},
+        {"zh": "目光紧锁，不离不弃。", "en": "Stares firmly, unyielding."},
+        {"zh": "眼睛死死盯着玩家。", "en": "Stares at player, dead-eyed."},
+        {"zh": "目光锁定，静待时机。", "en": "Locks gaze, waiting for chance."},
+        {"zh": "眼神凶残，锁定目标。", "en": "Fierce eyes, on target."},
+        {"zh": "目光闪烁，寻找弱点。", "en": "Eyes glint, searching for weak points."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "身体凹陷下去了...", "en": "My body is damaged..."},
+        {"zh": "感觉骨头要散了...", "en": "My bones feel like they're breaking..."},
+        {"zh": "月光照见我裂开的壳。", "en": "Moonlight shows my cracked shell."},
+        {"zh": "被划破了皮肤...", "en": "My skin is torn..."},
+        {"zh": "关节受损了...", "en": "My joints are hurt..."},
+        {"zh": "肌肉疼痛难忍...", "en": "My muscles are in pain..."},
+        {"zh": "伤痕累累...", "en": "Wounds are everywhere..."},
+        {"zh": "筋疲力尽了...", "en": "I am exhausted..."},
+        {"zh": "伤口渗出黑血...", "en": "Black blood is oozing..."},
+        {"zh": "伤痕累累无法动弹...", "en": "I'm paralyzed with wounds..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你会尝到我的美味。", "en": "You'll taste my deliciousness."},
+        {"zh": "靠近我就意味着死亡。", "en": "Getting close means death."},
+        {"zh": "我的体型远超你想象。", "en": "My size exceeds your imagination."},
+        {"zh": "你无法逃脱我的追捕。", "en": "You can't escape my hunt."},
+        {"zh": "我是这片月球上的霸主。", "en": "I am the ruler of this moon."},
+        {"zh": "尝尝我的利爪吧。", "en": "Feel my sharp claws."},
+        {"zh": "你为何靠近我？", "en": "Why are you near me?"},
+        {"zh": "我的鳞片能抵御伤害。", "en": "My scales are tough."},
+        {"zh": "我只需要吃你的肉。", "en": "I only want your flesh."},
+        {"zh": "你是我的猎物。", "en": "You are my prey."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "让我展示力量。", "en": "Show my strength."},
+        {"zh": "这条石缝是我的界线。", "en": "This rock crevice is my boundary."},
+        {"zh": "肩甲相撞，你弹开了。", "en": "Shoulder guards clash, and you bounce off."},
+        {"zh": "我的体型让你难以招架。", "en": "My size is hard to handle."},
+        {"zh": "用你的头试试吧。", "en": "Try with your head."},
+        {"zh": "我的力量可以摧毁一切。", "en": "My strength can destroy all."},
+        {"zh": "你无法阻挡我。", "en": "You can't stop me."},
+        {"zh": "我的撞击很痛。", "en": "My impact hurts."},
+        {"zh": "躲开我的攻击，可我的拳头比你先到。", "en": "Dodge my blow, yet my fist arrives first."},
+        {"zh": "我的体型让你防不胜防。", "en": "My size makes you defenseless."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "来，让我们繁衍。", "en": "Come, let's procreate."},
+        {"zh": "选择我作为伴侣吧。", "en": "Choose me as your mate."},
+        {"zh": "我们的后代将更强大。", "en": "Our offspring will be stronger."},
+        {"zh": "我的基因很珍贵。", "en": "My genes are valuable."},
+        {"zh": "我为你准备了礼物。", "en": "I have a gift for you."},
+        {"zh": "让我们一起统治这片月球。", "en": "Let's rule this moon together."},
+        {"zh": "我是最好的选择。", "en": "I am the best choice."},
+        {"zh": "我有保护你的能力。", "en": "I can protect you."},
+        {"zh": "我的后代会很特别。", "en": "Our offspring will be special."},
+        {"zh": "让我们共筑未来。", "en": "Let's build our future together."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，皮肤粗糙如砂纸。", "en": "Sssss, skin rough like sandpaper."},
+        {"zh": "目光闪烁，盯着你每一个动作。", "en": "Glowing eyes fix on your every move."},
+        {"zh": "吐出毒液，黏滑如同蜘蛛丝。", "en": "Spit venom, sticky like spider silk."},
+        {"zh": "发出低吼，准备近身搏斗。", "en": "Low growl, ready for close combat."},
+        {"zh": "身体扭曲，逼近你的位置。", "en": "Body contorts, closing in on you."},
+        {"zh": "眼中绿光大盛，准备发起攻击。", "en": "Green eyes glow bright, attack imminent."},
+        {"zh": "伸出长舌，感受你的气息。", "en": "Extend long tongue, tasting your presence."},
+        {"zh": "蠕动着接近，身上布满寄生虫。", "en": "Creep closer, covered in parasites."},
+        {"zh": "散发出腐蚀性气息，威胁临近。", "en": "Release corrosive scent, threat near."},
+        {"zh": "嘶嘶作响，皮肤覆盖着硬壳。", "en": "Sssss, skin hard as a shell."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定目标，眼中绿光闪烁。", "en": "Target acquired, eyes glow green."},
+        {"zh": "缓慢移动，锁定你的位置。", "en": "Slowly move, locking onto you."},
+        {"zh": "尾巴轻轻摆动，确定你所在。", "en": "Tail sways, pinpointing your location."},
+        {"zh": "张开利爪，准备扑向你。", "en": "Claws extend, ready to pounce."},
+        {"zh": "口中嘶嘶作响，锁定你的气息。", "en": "Sssss, locking onto your scent."},
+        {"zh": "脚步轻移，悄无声息地接近。", "en": "Footsteps silent, creeping closer."},
+        {"zh": "腹部荧光点点，标记你所在。", "en": "Abdomen glows, marking your position."},
+        {"zh": "头部转动，锁定你的确切方位。", "en": "Head turns, locking onto you."},
+        {"zh": "眼中绿光大盛，确认你的位置。", "en": "Green eyes glow bright, confirming your location."},
+        {"zh": "皮肤下的肌肉紧绷，准备攻击。", "en": "Muscles tense under skin, ready to attack."},
+        {"zh": "它从月球地平线走来", "en": "It comes over the lunar horizon."},
+        {"zh": "它认出了活人的气息", "en": "It catches the breath of the living."},
+        {"zh": "它把你算进了今晚的名单", "en": "It adds you to tonight's list."},
+        {"zh": "它丢下碎石，转向你", "en": "It drops the gravel and turns to you."},
+        {"zh": "它对着你磨了磨牙", "en": "It grinds its teeth at you."},
+        {"zh": "月球上，它只盯你一个", "en": "On this moon it watches only you."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，瞄准你的弱点。", "en": "Sssss, targeting your weakness."},
+        {"zh": "目光锐利，寻找你的破绽。", "en": "Sharp eyes, searching for your flaw."},
+        {"zh": "口中嘶嘶，瞄准你的要害。", "en": "Sssss, targeting your vital point."},
+        {"zh": "皮肤上的荧光点标记，锁定目标。", "en": "Fluorescent spots mark, locking on."},
+        {"zh": "头部转动，锁定你的要害。", "en": "Head turns, locking on your vital point."},
+        {"zh": "利爪紧绷，准备致命一击。", "en": "Claws tighten, ready for the kill."},
+        {"zh": "嘶嘶低鸣，瞄准你的致命之处。", "en": "Sssss, aiming for your fatal spot."},
+        {"zh": "腹部荧光闪烁，瞄准你的破绽。", "en": "Abdomen glows, targeting your flaw."},
+        {"zh": "皮肤下的肌肉膨胀，准备攻击。", "en": "Muscles bulge, ready to strike."},
+        {"zh": "眼中绿光大盛，锁定你的致命弱点。", "en": "Green eyes glow, targeting your fatal weakness."},
+        {"zh": "它的指节捏得咔咔响", "en": "Its knuckles crack as it clenches them."},
+        {"zh": "它侧身，找你的空当", "en": "It angles its body, hunting an opening."},
+        {"zh": "呼吸声粗重，压过来", "en": "Its heavy breathing closes in."},
+        {"zh": "它把拳头举到肩高", "en": "It lifts a fist to shoulder height."},
+        {"zh": "它算好了两步的距离", "en": "It has measured the two-step gap."},
+        {"zh": "月尘在它脚边打转", "en": "Moon dust swirls at its feet."},
+        {"zh": "它微微弓背，蓄势待发", "en": "It arches its back, coiling to spring."},
+        {"zh": "它没有退路，也不打算退", "en": "It has no way back and wants none."},
+        {"zh": "它盯着你的护甲接缝", "en": "It eyes the seams in your armor."},
+        {"zh": "它把重心压到前脚", "en": "It shifts its weight onto the front foot."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶嘶，我要吃了你！", "en": "Hisssss, I'm going to eat you!"},
+        {"zh": "准备迎接死亡吧！", "en": "Prepare to meet thy doom!"},
+        {"zh": "让你尝尝我的利爪！", "en": "Feel the sharpness of my claws!"},
+        {"zh": "快闪开！我来了！", "en": "Move! Here I come!"},
+        {"zh": "缺氧的地方，你跑不快。", "en": "In this airless place, you cannot run fast."},
+        {"zh": "月尘扬起，我寸步不让。", "en": "Moon dust rises; I give no ground."},
+        {"zh": "月球上没地方躲。", "en": "No place to hide on the moon."},
+        {"zh": "我的拳头砸进月壤。", "en": "My fist drives into the lunar soil."},
+        {"zh": "月球上的骨头，比你的硬。", "en": "Bones grown on the moon are harder than yours."},
+        {"zh": "你的挣扎无用的！", "en": "Your struggles are in vain!"},
+        {"zh": "一拳抡来，尘土四起", "en": "A fist swings in and dust flies."},
+        {"zh": "它用肩膀撞开你", "en": "It shoulders you aside."},
+        {"zh": "拳头砸在你护甲上", "en": "Its fist crashes on your armor."},
+        {"zh": "它抓住你的领口往前拽", "en": "It grabs your collar and yanks."},
+        {"zh": "它抬膝撞向你的肋", "en": "It drives a knee into your ribs."},
+        {"zh": "一击落在你脚边", "en": "The blow lands just beside your feet."},
+        {"zh": "它反手再补一拳", "en": "It follows with a backhand."},
+        {"zh": "拳头带风，擦过耳朵", "en": "The fist whistles past your ear."},
+        {"zh": "它把你推进月尘里", "en": "It shoves you down into the dust."},
+        {"zh": "它低声嘶叫，又扑上来", "en": "It hisses low and lunges again."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗中，新的威胁诞生了！", "en": "A new threat emerges in the darkness!"},
+        {"zh": "月光下，我出现了！", "en": "I appear under the moonlight!"},
+        {"zh": "我是月球的守护者！", "en": "I am the guardian of the moon!"},
+        {"zh": "月球的环形坑归我守。", "en": "I guard this lunar crater."},
+        {"zh": "黑暗中等待着你！", "en": "Darkness awaits you!"},
+        {"zh": "我从阴影中现身！", "en": "I emerge from the shadows!"},
+        {"zh": "寻找我的，将付出代价！", "en": "Those who seek me will pay!"},
+        {"zh": "月球的夜晚，我的时刻！", "en": "The night of the moon, my time!"},
+        {"zh": "黑暗给了我力量！", "en": "Darkness gives me strength!"},
+        {"zh": "你无法逃避我！", "en": "You cannot escape me!"},
+        {"zh": "月面裂开，它爬出来", "en": "The moon's surface splits and it climbs out."},
+        {"zh": "低重力里，它落了下来", "en": "It drops in through the low gravity."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被火焰灼伤了...", "en": "Burned by fire..."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从高处摔下受伤...", "en": "Fallen from a height..."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被月球尘沙掩埋受伤...", "en": "Buried by moon dust..."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被爆炸波及受伤...", "en": "Hit by an explosion..."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被陨石击中受伤...", "en": "Struck by a meteor..."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被月光诅咒伤了...", "en": "Curse of moonlight..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得虚弱了...", "en": "Starvation weakens me..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被雷电击中受伤...", "en": "Struck by lightning..."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "进入虚空被撕裂...", "en": "Torn apart by void..."}
+      ]
+    }
+  }
+}

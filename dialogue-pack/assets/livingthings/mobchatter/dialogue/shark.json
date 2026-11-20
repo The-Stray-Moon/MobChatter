@@ -1,0 +1,250 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "快速游动，锋利的牙齿在水面闪烁。", "en": "Swims fast, sharp teeth glint in the water."},
+        {"zh": "用尾巴划破水面，激起水花。", "en": "Tails break the surface, splashing water."},
+        {"zh": "追逐猎物，身体在水中灵活摆动。", "en": "Chases prey, body moving agilely in water."},
+        {"zh": "在珊瑚丛中穿梭，留下波纹。", "en": "Darts through coral, leaving ripples."},
+        {"zh": "用强大的肌肉推动自己前进。", "en": "Pushes itself forward with powerful muscles."},
+        {"zh": "警惕地游向岸边。", "en": "Nervously swims towards the shore."},
+        {"zh": "感受到威胁，迅速转向。", "en": "Senses danger, quickly turns."},
+        {"zh": "在海底缓缓游动，寻找猎物。", "en": "Slowly swims in the sea, searching for prey."},
+        {"zh": "水面下灵活游动，避开视线。", "en": "Moves gracefully underwater, avoiding sight."},
+        {"zh": "快速穿过岩石和珊瑚。", "en": "Quickly swims through rocks and coral."},
+        {"zh": "背鳍划开水面，直奔你", "en": "Its dorsal fin cuts the surface, straight for you."},
+        {"zh": "它贴着海床的沙脊滑行", "en": "It glides along the sand ridges of the seabed."},
+        {"zh": "它从沉船残骸里钻出", "en": "It slips out of a shipwreck’s ribs."},
+        {"zh": "它绕开珊瑚，猛地加速", "en": "It swerves around coral and surges ahead."},
+        {"zh": "尾鳍一摆，窜出十几格", "en": "One sweep of the tail carries it a dozen blocks."},
+        {"zh": "它顺洋流巡过海沟", "en": "It rides the current along the trench."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "安静地浮在水面，等待猎物。", "en": "Floats quietly at the surface, waiting for prey."},
+        {"zh": "悠闲地在珊瑚丛中游动。", "en": "Leisurely swims among the corals."},
+        {"zh": "身体一动不动，只等时机。", "en": "Body still, just waiting for the right moment."},
+        {"zh": "在深海中缓慢游动。", "en": "Slowly swims in the deep sea."},
+        {"zh": "专注地观察周围环境。", "en": "Carefully observing the surroundings."},
+        {"zh": "悠闲地摇摆尾巴。", "en": "Swinging its tail leisurely."},
+        {"zh": "静静地待在暗处。", "en": "Quietly waiting in the dark."},
+        {"zh": "缓缓游动，保持警惕。", "en": "Slowly swimming, staying alert."},
+        {"zh": "在珊瑚和岩石间游动。", "en": "Swimming among corals and rocks."},
+        {"zh": "在海底静静漂浮。", "en": "Floating quietly in the sea bed."},
+        {"zh": "它张着嘴，让水流过鳃", "en": "Mouth agape, it lets water pass over its gills."},
+        {"zh": "它悬在沉船上方打转", "en": "It hovers, turning above the wreck."},
+        {"zh": "它一下一下地摆着尾", "en": "It flicks its tail, once, then again."},
+        {"zh": "它把鼻子探进沙里", "en": "It noses into the sand, hunting a scent."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发现玩家，迅速向玩家游去。", "en": "Detects player, swiftly swims towards them."},
+        {"zh": "绕着你转圈，找下口处。", "en": "I circle you, looking for a spot to bite."},
+        {"zh": "盯着玩家，随时准备出手。", "en": "Glares at player, ready to strike."},
+        {"zh": "游近玩家，准备撕咬。", "en": "Swims close to player, ready to bite."},
+        {"zh": "靠近玩家，张开大嘴。", "en": "Approaches player, opening its mouth wide."},
+        {"zh": "感受到玩家的存在，迅速游近。", "en": "Feels player, swiftly swims closer."},
+        {"zh": "盯紧玩家，准备发动攻击。", "en": "Steadily watching player, preparing to attack."},
+        {"zh": "向玩家发起攻击，快速靠近。", "en": "Attacks player, rapidly closing the distance."},
+        {"zh": "游近玩家，露出尖牙。", "en": "Swims close to player, showing sharp teeth."},
+        {"zh": "注意玩家，随时准备行动。", "en": "Noticing player, ready to act."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "伤口渗着血。", "en": "Wound oozes blood."},
+        {"zh": "自己流血让我更暴躁。", "en": "My own blood in the water makes me savage."},
+        {"zh": "我受了伤。", "en": "I'm injured."},
+        {"zh": "身体疼痛。", "en": "My body hurts."},
+        {"zh": "伤口很痛。", "en": "The wound hurts."},
+        {"zh": "伤痕累累。", "en": "Bandaged up."},
+        {"zh": "流血不止。", "en": "Bleeding nonstop."},
+        {"zh": "伤口在作痛。", "en": "Wound aches."},
+        {"zh": "一颗牙断了，血混进水里", "en": "A tooth snaps, and blood clouds the water."},
+        {"zh": "它翻了个身，又正过来", "en": "It rolls belly-up, then rights itself."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶，别靠近，我可不想吃你！", "en": "Sssss, don't get too close!"},
+        {"zh": "嘿，别这么盯着我看，我会咬你的！", "en": "Hey, don't stare at me! I'll bite!"},
+        {"zh": "游过来，让我看看你有多香！", "en": "Come here, let me smell you!"},
+        {"zh": "哇，这是今天的第一餐！", "en": "Yum, first meal of the day!"},
+        {"zh": "别动，我要吃你！", "en": "Don't move, I'm eating you!"},
+        {"zh": "嘿，那边的鱼更好吃！", "en": "Hey, the fish over there are better!"},
+        {"zh": "我得吃了你，填满肚子！", "en": "I need to eat you, full stomach!"},
+        {"zh": "玩家？那肯定是个好午餐！", "en": "Player? Good lunch!"},
+        {"zh": "你闻起来就像美味的鱼！", "en": "You smell like delicious fish!"},
+        {"zh": "我的肚子饿了，快给我吃吧！", "en": "My stomach is hungry, feed me!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "碰！我差点撞上你！", "en": "Bump! Nearly hit you!"},
+        {"zh": "撞开你，我还要巡海。", "en": "I shove you aside, still patrolling the sea."},
+        {"zh": "小心，我来追你了！", "en": "Watch out, I'm chasing you!"},
+        {"zh": "你太慢了，追不上你！", "en": "Too slow, can't catch you!"},
+        {"zh": "撞上你了，现在尝尝我的牙齿吧！", "en": "Bumped into you, taste my teeth now!"},
+        {"zh": "撞到你真不是我的错！", "en": "Not my fault, I bumped into you!"},
+        {"zh": "你挡了我游路！", "en": "Blocking my path!"},
+        {"zh": "你站住，我要撞你！", "en": "Stop, I'm going to bump you!"},
+        {"zh": "你撞上我了，尝尝鲨鱼的厉害！", "en": "You bumped into me, taste shark power!"},
+        {"zh": "躲开我，我来了！", "en": "Get out of my way, here I come!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找了个新伴侣，让我们游吧！", "en": "Found a new mate, let's swim!"},
+        {"zh": "找到你了，让我们一起游！", "en": "Found you, let's swim together!"},
+        {"zh": "我的新伴侣，让我们游吧！", "en": "My new mate, let's swim!"},
+        {"zh": "找了个伴侣，一起游！", "en": "Found a mate, let's swim together!"},
+        {"zh": "找到你了，让我们一起！", "en": "Found you, let's do this together!"},
+        {"zh": "新伴侣，一起游！", "en": "New mate, let's swim!"},
+        {"zh": "找到你了，来吧！", "en": "Found you, come on!"},
+        {"zh": "我的新伴侣，让我们一起游！", "en": "My new mate, let's swim together!"},
+        {"zh": "找到了新伴侣，一起游！", "en": "Found a new mate, let's swim!"},
+        {"zh": "找到了新伴侣，一起游泳！", "en": "Found a new mate, let's swim together!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出嘶嘶声，咬住鱼饵。", "en": "Sizzles, clamping down on bait."},
+        {"zh": "用锋利的牙齿撕咬着食物。", "en": "Sharp teeth tear at the food."},
+        {"zh": "翻滚水面，寻找新的猎物。", "en": "Rolls in the water, seeking prey."},
+        {"zh": "游到岸边，露出水面呼吸。", "en": "Swims to the shore, breaking the surface."},
+        {"zh": "张开大嘴，发出低沉的声响。", "en": "Opens its mouth, making a low growl."},
+        {"zh": "盯着玩家，眼中闪着凶光。", "en": "Stares at the player, eyes glowing."},
+        {"zh": "发出咕噜声，准备攻击。", "en": "Gurgles, readying to attack."},
+        {"zh": "突然跃出水面，猛扑玩家。", "en": "Surges out of the water, lunging at the player."},
+        {"zh": "吞下掉落的物品，消失水中。", "en": "Swallows the item, vanishing under the water."},
+        {"zh": "游向食物，享受美味。", "en": "Swims to the food, savoring it."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "感知到玩家，迅速游近。", "en": "Detects the player, swimming closer."},
+        {"zh": "追逐玩家，水面留下波纹。", "en": "Chases the player, leaving ripples behind."},
+        {"zh": "锁定目标，加快游速。", "en": "Locks on, speeding up."},
+        {"zh": "游动加快，向玩家靠近。", "en": "Speeds up, closing in on the player."},
+        {"zh": "从水中跃起，准备攻击。", "en": "Surges out of the water, readying to attack."},
+        {"zh": "用强壮的身体撞击玩家。", "en": "Collides with the player, using its strength."},
+        {"zh": "迅速游动，试图咬住玩家。", "en": "Swims rapidly, trying to bite the player."},
+        {"zh": "血腥味顺着洋流来了。", "en": "The smell of blood rides the current."},
+        {"zh": "游向玩家，准备攻击。", "en": "Swims toward the player, preparing to attack."},
+        {"zh": "加速游动，追踪玩家。", "en": "Accelerates, tracking the player."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水里的血味，把我引过来了。", "en": "The blood in the water brought me here."},
+        {"zh": "发出咕噜声，锁定目标。", "en": "Gurgles, locking onto the target."},
+        {"zh": "游向玩家，准备咬住。", "en": "Swims toward the player, ready to bite."},
+        {"zh": "张开大嘴，准备吞食。", "en": "Opens its mouth, ready to eat."},
+        {"zh": "游近玩家，准备攻击。", "en": "Swims close to the player, preparing to attack."},
+        {"zh": "海面下的影子，先贴近你。", "en": "A shadow under the surface slides close."},
+        {"zh": "游动加快，向玩家靠近", "en": "Speeds up, closing in on the player"},
+        {"zh": "发出低沉的咕噜声，锁定目标。", "en": "Makes a low gurgle, locking onto the target."},
+        {"zh": "游近玩家，准备战斗。", "en": "Swims close to the player, readying for battle."},
+        {"zh": "它开始绕着你收紧圈子", "en": "It begins tightening its circle around you."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕咚一声咬下一口！", "en": "A loud chomp!"},
+        {"zh": "快速撕咬，鲜血飞溅！", "en": "Quick bite, blood sprays!"},
+        {"zh": "银色利齿划过水面！", "en": "Silver teeth slice through water!"},
+        {"zh": "狠狠一口，疼痛难忍！", "en": "A fierce bite, painful!"},
+        {"zh": "鲨鱼的饥饿无边无际！", "en": "Infinite hunger!"},
+        {"zh": "紧追不舍，直到你崩溃！", "en": "Chase until you break!"},
+        {"zh": "利鳍划破水面，嘶嘶作响！", "en": "Fins slice through water, hissing!"},
+        {"zh": "一击致命，鲜血染红海洋！", "en": "One hit, blood red!"},
+        {"zh": "你逃不出我的利齿！", "en": "You can't escape my teeth!"},
+        {"zh": "鲨鱼的耐心，仅限吞食！", "en": "Patience is for eating only!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "海底黑暗中游来，悄无声息！", "en": "Silent approach from the dark!"},
+        {"zh": "水面下，鲨鱼潜伏等待！", "en": "Lurking underwater, waiting!"},
+        {"zh": "海洋深处，鲨鱼慢慢游来！", "en": "Slowly moving from the depths!"},
+        {"zh": "黑暗中，鲨鱼悄然出现！", "en": "Silently appearing in the dark!"},
+        {"zh": "鲨鱼掠过水面，水波不兴！", "en": "Water ripples not, shark passes!"},
+        {"zh": "黑暗深处，鲨鱼缓缓游动！", "en": "Slow swim from the shadows!"},
+        {"zh": "水面下的阴影，鲨鱼潜伏！", "en": "Shadow in the water, waiting!"},
+        {"zh": "鲨鱼在黑暗中悄无声息！", "en": "Silent in the dark!"},
+        {"zh": "水面下，鲨鱼静静地游！", "en": "Quietly moving underwater!"},
+        {"zh": "阴影中的鲨鱼，悄无声息！", "en": "Silent shadow, shark moves!"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烧伤了我。", "en": "Burned by fire."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从高处摔下。", "en": "Fell from height."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "伤口渗着血，溺水的滋味可不好受。", "en": "Wound oozes blood — and the drown makes it worse."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水里的爆炸，把我掀翻了。", "en": "The blast underwater knocked me over."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被箭射伤。", "en": "Arrows wounded me."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咒力烧过我的鳃。", "en": "Cursed force burns across my gills."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "伤口在流血，挨饿的滋味可不好受。", "en": "The wound is bleeding — and the starvation makes it worse."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈进海里，我的牙都麻了。", "en": "Lightning struck the sea; even my teeth went numb."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入了虚无。", "en": "Void pulled me in."}
+      ]
+    }
+  }
+}

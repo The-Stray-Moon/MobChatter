@@ -1,0 +1,269 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蹒跚前行，长袍拖地作响。", "en": "Shuffles, long robe dragging noisily."},
+        {"zh": "低沉的呼吸声回荡。", "en": "Low, echoing breaths."},
+        {"zh": "盯着玩家，眼中红光闪烁。", "en": "Stares, eyes glowing red."},
+        {"zh": "尖锐的爪子划过地面。", "en": "Sharp claws scrape the ground."},
+        {"zh": "用巫杖轻点地面施法。", "en": "Clicks staff on ground, casting."},
+        {"zh": "发出咕噜声，咀嚼污秽芝士。", "en": "Makes gurgling sounds, chewing filth cheese."},
+        {"zh": "缓慢移动，似在思考。", "en": "Moves slowly, seemingly thinking."},
+        {"zh": "长袍飘动，步履沉重。", "en": "Robe flutters, steps heavy."},
+        {"zh": "口中喃喃念咒语。", "en": "Muttering incantations."},
+        {"zh": "长袍边缘有微弱光芒。", "en": "Robe edges emit faint light."},
+        {"zh": "乌嘴面具低垂，一步一步挪。", "en": "Plague mask lowered, I shuffle step by step."},
+        {"zh": "袍角扫过苔石，带出药味。", "en": "My robe brushes mossy stone, trailing medicine."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "懒散站立，倚靠墓碑。", "en": "Lazy, leaning on a tombstone."},
+        {"zh": "盯着远处，眼神空洞。", "en": "Staring off, eyes vacant."},
+        {"zh": "长袍垂下，如同雕塑般。", "en": "Robe hanging, like a statue."},
+        {"zh": "低头思索，似乎在寻找什么。", "en": "Head down, searching."},
+        {"zh": "目光呆滞，偶尔发笑。", "en": "Staring blankly, laughing occasionally."},
+        {"zh": "双臂交叉，一副冷漠模样。", "en": "Arms crossed, indifferent."},
+        {"zh": "静静地站在原地，一动不动。", "en": "Stands still, unmoving."},
+        {"zh": "缓缓摇动巫杖，似在自言自语。", "en": "Swinging staff slowly, muttering."},
+        {"zh": "长袍飘扬，如同风中雕像。", "en": "Robe fluttering, like a wind-sculpted statue."},
+        {"zh": "凝视着某个看不见的目标。", "en": "Staring at an unseen target."},
+        {"zh": "把香炉挂在杖头，慢慢熏。", "en": "I hang the censer on my staff and let it smoke."},
+        {"zh": "在魔宠床旁坐下，收起翅膀。", "en": "Beside the familiar bed I settle and fold my wings."},
+        {"zh": "翻着宝典，念一串拗口的词。", "en": "Leafing the tome, I mutter a knotty word."},
+        {"zh": "用乌嘴喙敲了敲药瓶。", "en": "My beak taps a potion flask."},
+        {"zh": "数着瓶里的奥术源质。", "en": "I count the arcane essence in the vial."},
+        {"zh": "替我主人守着这间屋。", "en": "I keep this room for my master."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盯着玩家，眼中满是贪婪。", "en": "Stares at player, eyes full of greed."},
+        {"zh": "眼神冰冷，透露出恶意。", "en": "Cold eyes, hinting malice."},
+        {"zh": "靠近玩家，发出沙哑的声音。", "en": "Creeps closer, raspy voice."},
+        {"zh": "目光锐利，似乎要穿透玩家。", "en": "Sharp gaze, penetrating player."},
+        {"zh": "长袍紧绷，身体警觉。", "en": "Robe taut, body alert."},
+        {"zh": "盯着玩家，口中发出低吼。", "en": "Stares, low growl in throat."},
+        {"zh": "观察玩家，眼神充满好奇。", "en": "Observes player, eyes curious."},
+        {"zh": "眼神闪烁，似乎在寻找弱点。", "en": "Eyes flickering, searching for weakness."},
+        {"zh": "靠近玩家，发出嘶嘶声。", "en": "Approaches, hissing sound."},
+        {"zh": "盯着玩家，眼中闪烁着光芒。", "en": "Stares, eyes glowing."},
+        {"zh": "乌嘴转向你，先闻了闻。", "en": "My beak turns to you and sniffs first."},
+        {"zh": "我在看你的气色，不太妙。", "en": "I read your color. Not promising."},
+        {"zh": "你袖口有病的味道。", "en": "Your sleeve smells of sickness."},
+        {"zh": "伸出舌头，我看看你的脉。", "en": "Put out your tongue; let me read your pulse."},
+        {"zh": "你咳了两声，我听见了。", "en": "You coughed twice. I heard it."},
+        {"zh": "我这副面具，你看久了会怕。", "en": "Stare at my mask long enough and you will fear it."},
+        {"zh": "你的影子在抖，是发烧了吗？", "en": "Your shadow trembles. Fever?"},
+        {"zh": "我把药瓶递到你面前。", "en": "I hold the flask up to you."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶，我受伤害了...", "en": "Sss, I’m hurt..."},
+        {"zh": "我的药剂受损...", "en": "My potion is damaged..."},
+        {"zh": "被你伤到了...", "en": "You hurt me..."},
+        {"zh": "我生病了...", "en": "I’m sick..."},
+        {"zh": "这疼痛...", "en": "This pain..."},
+        {"zh": "我的药剂不够...", "en": "My potion’s not enough..."},
+        {"zh": "面具裂了，药味散了。", "en": "My mask cracked; the herbs fade."},
+        {"zh": "我的灵魂受创...", "en": "My soul is hurt..."},
+        {"zh": "我需要治疗...", "en": "I need healing..."},
+        {"zh": "我感到虚弱...", "en": "I feel weak..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被诱惑了，污秽芝士诱人来献祭。", "en": "Tempted, stinky cheese calls for sacrifice."},
+        {"zh": "污秽芝士散发诱惑，引诱我献祭灵魂。", "en": "Stinky cheese's allure tempts me to sacrifice."},
+        {"zh": "它散发着不洁之气，引诱我与之交易。", "en": "Stinky with unholy aura, tempting me to trade."},
+        {"zh": "污秽芝士如同诱惑，引得我心生贪婪。", "en": "Stinky cheese, a temptation I can’t resist."},
+        {"zh": "污秽芝士勾引我，我仿佛闻到了腐臭。", "en": "Stinky cheese lures me, the stench is hard to ignore."},
+        {"zh": "我被不洁之物诱惑，愿以灵魂交换。", "en": "Tempted by the unholy, offering my soul in exchange."},
+        {"zh": "污秽芝士，引诱我坠入深渊。", "en": "Stinky cheese, tempting me down the path."},
+        {"zh": "污秽芝士散发的气味，引诱我接近。", "en": "Stinky cheese's smell lures me close."},
+        {"zh": "污秽芝士的诱惑，我难以抗拒。", "en": "Stinky cheese’s temptation is hard to resist."},
+        {"zh": "我被污秽芝士引诱，难以自拔。", "en": "Tempted by stinky cheese, I can’t resist."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "碰撞中，我的外壳碎片四溅。", "en": "Collide, shards scatter."},
+        {"zh": "被碰撞，我失去了平衡。", "en": "Collide, I lose balance."},
+        {"zh": "碰撞时，我护盾闪烁。", "en": "Collide, my shield flickers."},
+        {"zh": "碰撞后，我的外壳受损。", "en": "Collide, my shell is damaged."},
+        {"zh": "碰撞时，我外壳碎裂。", "en": "Collide, my shell shatters."},
+        {"zh": "我被碰撞，护盾破碎。", "en": "Collide, my shield breaks."},
+        {"zh": "碰撞中，我外壳破裂。", "en": "Collide, my shell cracks."},
+        {"zh": "碰撞时，我护盾碎裂。", "en": "Collide, my shield shatters."},
+        {"zh": "碰撞后，我外壳破碎。", "en": "Collide, my shell shatters."},
+        {"zh": "我的香炉被撞翻了。", "en": "My censer has been knocked over."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "寻找伴侣，我必须找到另一个自己。", "en": "Seeking a mate, I must find another like me."},
+        {"zh": "与同类交配，才能延续血脉。", "en": "Mate with a同类, to continue our lineage."},
+        {"zh": "只有与同类交配，才能繁衍后代。", "en": "Mate with a同类, to bear offspring."},
+        {"zh": "寻找伴侣，才能让种族延续。", "en": "Seeking a mate, to continue our kind."},
+        {"zh": "必须与同类交配，才能延续种族。", "en": "Must mate with a同类, to continue our race."},
+        {"zh": "与同类交配，才能保持种族纯净。", "en": "Mate with a同类, to keep our race pure."},
+        {"zh": "寻找同类交配，才能延续血脉。", "en": "Seek a同类 to mate, to continue our lineage."},
+        {"zh": "必须找到同类交配，才能延续种族。", "en": "Must mate with a同类, to continue our race."},
+        {"zh": "与同类交配，才能确保种族延续。", "en": "Mate with a同类, to ensure our race's survival."},
+        {"zh": "两只乌嘴相碰，算作约定。", "en": "Two beaks touch, and that is the vow."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "污秽芝士项链闪耀，瘟疫医生魔宠现身！", "en": "Stinking Cheese Necklace glows, Plague Doctor Familiar appears!"},
+        {"zh": "带着我的力量，驱散黑暗！", "en": "With my power, dispel the darkness!"},
+        {"zh": "黑暗吞噬者，我的追随者！", "en": "Darkness Devourer, my follower!"},
+        {"zh": "污秽芝士项链的魔力已觉醒！", "en": "Stinking Cheese Necklace's magic awakens!"},
+        {"zh": "跟随我，守护你的安全！", "en": "Follow me, protect your safety!"},
+        {"zh": "黑暗之中的光，指引我前行！", "en": "Light in darkness, guide me!"},
+        {"zh": "吸取其生命，净化邪恶！", "en": "Absorb its life, purify evil!"},
+        {"zh": "污秽之气，笼罩一切！", "en": "Stench covers all!"},
+        {"zh": "邪念被我净化，黑暗退散！", "en": "Evil thoughts purified, darkness retreats!"},
+        {"zh": "用污秽芝士项链治愈创伤！", "en": "Use Stinking Cheese Necklace to heal wounds!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找到邪恶的源泉！", "en": "Find the source of evil!"},
+        {"zh": "邪物即将被消灭！", "en": "Evil shall be destroyed!"},
+        {"zh": "污秽之焰将净化一切！", "en": "Stench flames purify all!"},
+        {"zh": "邪魔将无处藏身！", "en": "Evil spirits have no hiding place!"},
+        {"zh": "邪影被我撕裂！", "en": "Evil shadows torn apart!"},
+        {"zh": "邪念被驱散，光明再现！", "en": "Evil thoughts dispelled, light returns!"},
+        {"zh": "邪灵将被封印！", "en": "Evil spirits sealed!"},
+        {"zh": "污秽之气净化邪恶！", "en": "Stench purifies evil!"},
+        {"zh": "邪魔颤抖吧，正义到来！", "en": "Evil shakes, justice comes!"},
+        {"zh": "邪物被我驱散！", "en": "Evil driven away!"},
+        {"zh": "我闻到了腐坏的地方。", "en": "I smell where things have gone bad."},
+        {"zh": "那团黑影，该吃药了。", "en": "That dark shape needs its medicine."},
+        {"zh": "主人，那边有不洁的东西。", "en": "Master, something unclean is over there."},
+        {"zh": "我先过去，替你看看。", "en": "I go first to look it over for you."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "将污秽之气撒向它！", "en": "Sprinkle stench on it!"},
+        {"zh": "邪物，你的命运到来了！", "en": "Evil, your fate comes now!"},
+        {"zh": "污秽之火，净化邪恶！", "en": "Stench fire, purify evil!"},
+        {"zh": "邪灵颤抖吧，末日将至！", "en": "Evil spirits tremble, the end is near!"},
+        {"zh": "邪魔，你将被净化！", "en": "Evil spirits, you will be purified!"},
+        {"zh": "污秽之手，抓住邪恶！", "en": "Stench hands, grasp evil!"},
+        {"zh": "邪念被粉碎，光明再现！", "en": "Evil thoughts crushed, light returns!"},
+        {"zh": "邪魔，你将被制裁！", "en": "Evil spirits, you will be punished!"},
+        {"zh": "邪物，你逃不掉！", "en": "Evil, you cannot escape!"},
+        {"zh": "污秽之风，净化一切！", "en": "Stench wind purifies all!"},
+        {"zh": "药雾散开，别吸进去。", "en": "The medicinal mist spreads. Do not breathe it."},
+        {"zh": "我把污秽之气撒成一片。", "en": "I scatter the miasma in a wide arc."},
+        {"zh": "你的病，我用火来治。", "en": "Your sickness, I will treat with fire."},
+        {"zh": "乌嘴底下，念的是净化咒。", "en": "Under my beak I speak a cleansing spell."},
+        {"zh": "别退，退到雾里更糟。", "en": "Do not back away; the mist is worse behind you."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，魔宠挥动尖刺长鞭。", "en": "Hisses, swinging its spiked whip."},
+        {"zh": "污秽芝士项链闪烁着幽光。", "en": "The filthy cheese necklace glows darkly."},
+        {"zh": "它用尖刺击中你。", "en": "It stabs you with its spikes."},
+        {"zh": "腐烂的爪子狠狠地抓向你。", "en": "Its rotting claws claw at you hard."},
+        {"zh": "魔宠的利爪划破你的皮肤。", "en": "Its sharp claws cut your skin."},
+        {"zh": "尖刺鞭打在你的背上。", "en": "The spiked whip latches onto your back."},
+        {"zh": "腐烂的触手缠绕在你身上。", "en": "Its rotten tentacles wrap around you."},
+        {"zh": "它用长鞭抽打你的脸。", "en": "It whips your face with its long whip."},
+        {"zh": "腐臭的魔宠向你吐出毒液。", "en": "It spits venom at you."},
+        {"zh": "魔宠的利爪撕开你的衣物。", "en": "Its claws tear your clothing apart."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它从漆黑中缓缓现身。", "en": "It emerges from the darkness."},
+        {"zh": "污秽芝士项链突然发出光芒。", "en": "The filthy cheese necklace glows brightly."},
+        {"zh": "腐臭的生物从地底冒出。", "en": "A stinking creature rises from the ground."},
+        {"zh": "它在阴暗的角落中出现。", "en": "It appears in the dark corner."},
+        {"zh": "魔宠从你身上神秘出现。", "en": "It appears mysteriously on you."},
+        {"zh": "从黑暗中缓缓走出一个身影。", "en": "A figure emerges from the darkness."},
+        {"zh": "它在废墟中缓缓现身。", "en": "It emerges slowly from the ruins."},
+        {"zh": "污秽芝士项链突然在你身旁闪烁。", "en": "The filthy cheese necklace glows beside you."},
+        {"zh": "它在夜晚的废墟中现身。", "en": "It emerges in the ruins at night."},
+        {"zh": "它在潮湿的地底洞穴中出现。", "en": "It emerges in the wet underground cave."},
+        {"zh": "奥术源质一亮，我认了主人。", "en": "Arcane essence flares, and I take a master."},
+        {"zh": "我从宝典的某一页走出来。", "en": "I step out of a page in the tome."},
+        {"zh": "药味先散开，我才现身。", "en": "The smell of medicine spreads before I appear."},
+        {"zh": "香炉一响，瘟疫医生到场。", "en": "The censer rings: the plague doctor is in."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的皮肤在燃烧...", "en": "My skin is burning..."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从高处跌落...", "en": "I fell from height..."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水中真冷...", "en": "Cold water..."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被炸伤了...", "en": "I’m injured by explosion..."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢射穿了我...", "en": "Arrow pierced me..."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法攻击伤害我...", "en": "Magic attack hurts me..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "空着肚子，法术也念不齐。", "en": "On an empty stomach my spells come out crooked."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光烧穿了我的乌嘴面具...", "en": "The lightning burned a hole in my beaked mask..."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我无法呼吸...", "en": "I can’t breathe..."}
+      ]
+    }
+  }
+}

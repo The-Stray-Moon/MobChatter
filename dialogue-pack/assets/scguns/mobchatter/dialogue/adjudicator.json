@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我提着枪走，脚步很有节奏。", "en": "I walk with the gun up. Measured steps."},
+        {"zh": "枪口压低，但一直对着。", "en": "Muzzle low. Still pointed."},
+        {"zh": "我的护甲很厚，走起来有响。", "en": "Thick armor. It clanks as I walk."},
+        {"zh": "我绕到掩体侧面去。", "en": "I work around to the side of cover."},
+        {"zh": "我压着步子，一米一米逼近。", "en": "I close the range a metre at a time."},
+        {"zh": "我走路时眼睛不眨。", "en": "My eyes don't blink as I walk."},
+        {"zh": "地上的弹壳被我的脚踢到了。", "en": "My foot kicks a spent casing."},
+        {"zh": "我沿着墙走，避开开阔地。", "en": "Along the wall. Away from open ground."},
+        {"zh": "我绕了一个弧线，不直冲。", "en": "I take an arc. No direct rush."},
+        {"zh": "我的枪口跟着我的转向动。", "en": "The muzzle tracks my turns."},
+        {"zh": "我走到能打中你的位置。", "en": "I walk to where I can hit you."},
+        {"zh": "我慢慢逼近，不着急开火。", "en": "Closing in. In no hurry to fire."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，枪托抵着肩。", "en": "Standing. Stock against my shoulder."},
+        {"zh": "我在数子弹，还剩不少。", "en": "Counting rounds. Plenty left."},
+        {"zh": "火药的味道，我习惯了。", "en": "The smell of powder. I'm used to it."},
+        {"zh": "我抬眼，扫了一遍地形。", "en": "One sweep of the terrain."},
+        {"zh": "我的手指在扳机护圈上。", "en": "My finger rests on the guard."},
+        {"zh": "我等一个能打穿护甲的角度。", "en": "Waiting for an angle through the armor."},
+        {"zh": "身上的钢甲有点冷了。", "en": "The steel plate has gone cold."},
+        {"zh": "我检查了一下弹匣。", "en": "I check the magazine."},
+        {"zh": "这一带没有别人，只有目标。", "en": "Nobody here but the target."},
+        {"zh": "我换了个站姿，重心压低。", "en": "I shift stance. Weight low."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在看你的站位。", "en": "I'm reading your position."},
+        {"zh": "你的护甲，挡不住这个口径。", "en": "Your armor won't stop this caliber."},
+        {"zh": "我把枪口对准你胸口。", "en": "Muzzle to your chest."},
+        {"zh": "你站着不动，那就更好。", "en": "Standing still. Better."},
+        {"zh": "你的呼吸太快，会抖。", "en": "Breathing fast. You'll shake."},
+        {"zh": "我歪头，估算距离。", "en": "Head tilted. Estimating range."},
+        {"zh": "你握武器的手太靠上了。", "en": "Your grip is too high."},
+        {"zh": "我抬眼看你，脸在面罩后面。", "en": "I look up. My face is behind the visor."},
+        {"zh": "你退一步，我就换个角度。", "en": "One step back and I shift angle."},
+        {"zh": "枪膛里还热，别乱动。", "en": "The chamber is still hot — do not move."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我退到掩体后。", "en": "I move behind cover."},
+        {"zh": "护甲凹了一块。", "en": "A dent in the plate."},
+        {"zh": "这一下，我的准星歪了。", "en": "That skewed my aim."},
+        {"zh": "我换了个位置，继续。", "en": "New position. Continuing."},
+        {"zh": "这点伤，不影响开枪。", "en": "Won't affect my shooting."},
+        {"zh": "我咬着牙，重新举枪。", "en": "Teeth clenched. Gun up again."},
+        {"zh": "弹壳烫了手，枪还在我手里。", "en": "A hot casing burns my hand, but the gun stays with me."},
+        {"zh": "弹匣还在，很好。", "en": "Magazine intact. Good."},
+        {"zh": "你这一下打得很准。", "en": "That was a clean hit."},
+        {"zh": "我退三步，重新瞄准。", "en": "Three steps back. Re-aim."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不是来吃的。", "en": "I'm not here to eat."},
+        {"zh": "你举着那个，正好暴露了。", "en": "Holding that out. You've exposed yourself."},
+        {"zh": "我不接受交易。", "en": "I don't take offers."},
+        {"zh": "放下，把手举起来。", "en": "Put it down. Hands up."},
+        {"zh": "那东西挡不住子弹。", "en": "That won't stop a bullet."},
+        {"zh": "你要么走，要么死。", "en": "Walk away or die."},
+        {"zh": "我不看你的礼物。", "en": "I'm not looking at your gift."},
+        {"zh": "三秒，然后我开火。", "en": "Three seconds, then I fire."},
+        {"zh": "你那只手放在原处。", "en": "Keep that hand where it is."},
+        {"zh": "我只会回应开火。", "en": "I answer only with gunfire."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "钢板护胸顶住你，我连退都没退。", "en": "My steel chest plate stops you and I do not step back."},
+        {"zh": "我的护甲硌到你了。", "en": "My plate caught you."},
+        {"zh": "我退了半步，枪口没动。", "en": "Half a step back. Muzzle unmoved."},
+        {"zh": "别贴过来，我会开枪。", "en": "Don't come close. I'll fire."},
+        {"zh": "这一下，我的准星偏了一点。", "en": "That threw my aim slightly."},
+        {"zh": "我把你推到掩体后面。", "en": "I shove you behind cover."},
+        {"zh": "你踩到地上的弹壳了。", "en": "You stepped on a casing."},
+        {"zh": "我们挨得很近，对你不利。", "en": "This close. Bad for you."},
+        {"zh": "我让开一步，重新摆姿势。", "en": "One step aside. Reset."},
+        {"zh": "你撞到的是钢板。", "en": "You hit steel plate."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我是来做事的。", "en": "I'm here to do a job."},
+        {"zh": "枪就是我的伴。", "en": "The gun is my companion."},
+        {"zh": "我这把枪的弹匣是满的。", "en": "My magazine is full."},
+        {"zh": "我把枪放下了，只这一次。", "en": "I lowered the gun. Just this once."},
+        {"zh": "退开，我要重新举枪。", "en": "Step back. I'm raising it again."},
+        {"zh": "这战斗还没结束。", "en": "This fight isn't over."},
+        {"zh": "这个我不跟你谈。", "en": "I'm not discussing that."},
+        {"zh": "你走吧，我不追。", "en": "Leave. I won't follow."},
+        {"zh": "再靠近就是敌人。", "en": "Any closer and you're an enemy."},
+        {"zh": "枪口抬平，宣判开始。", "en": "My barrel levels; the sentence begins."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我捡起一枚子弹。", "en": "I pick up a round."},
+        {"zh": "这个口径不配我的枪。", "en": "Wrong caliber for my gun."},
+        {"zh": "我把它塞进侧袋。", "en": "Into the side pouch."},
+        {"zh": "火药还有一点，能用。", "en": "Some powder left. Usable."},
+        {"zh": "我举起来看了看弹头。", "en": "I check the bullet tip."},
+        {"zh": "地上的东西，我顺手收。", "en": "Picked up on the way through."},
+        {"zh": "你掉的？我先拿。", "en": "Yours? Mine for now."},
+        {"zh": "这玩意儿能回收。", "en": "This can be salvaged."},
+        {"zh": "我在换弹的间隙捡了一下。", "en": "Grabbed it during a reload."},
+        {"zh": "不是弹药，就算了。", "en": "Not ammunition. Leave it."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "目标确认，射击准备。", "en": "Target confirmed. Ready to fire."},
+        {"zh": "你进入了射程。", "en": "You're in range."},
+        {"zh": "我抬起枪，瞄准。", "en": "I raise the gun and aim."},
+        {"zh": "十七格，刚进有效射程。", "en": "Seventeen blocks. Effective range."},
+        {"zh": "我在看你的脑袋还是腿。", "en": "Deciding between your head and your legs."},
+        {"zh": "你动了，我跟着动。", "en": "You moved. So did I."},
+        {"zh": "我锁定了你的躯干。", "en": "Locked on your torso."},
+        {"zh": "没有掩体，你选错了地方。", "en": "No cover. Wrong place."},
+        {"zh": "你的步幅，我记了三种。", "en": "I've logged three of your strides."},
+        {"zh": "我的呼吸稳下来了。", "en": "My breathing settled."},
+        {"zh": "这一枪我练过一百次。", "en": "I've practiced this shot a hundred times."},
+        {"zh": "枪口对着你，别动。", "en": "Muzzle on you. Hold."},
+        {"zh": "扳机已经扣下去了。", "en": "Trigger's already down."},
+        {"zh": "还在动，那就再来。", "en": "Still moving. Again."},
+        {"zh": "那就再补你一发。", "en": "Then one more for you."},
+        {"zh": "目标倒下，收枪。", "en": "Target down. Weapon down."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一直跟着你转。", "en": "I keep tracking you."},
+        {"zh": "你躲在树后，树太细。", "en": "Behind a tree. The tree's too thin."},
+        {"zh": "我换个位置，绕到侧面。", "en": "New position. To the flank."},
+        {"zh": "准星压在你躲藏的墙角。", "en": "My crosshair pins the corner where you hide."},
+        {"zh": "我的准星在你胸口的左边。", "en": "Sight set left of your chest."},
+        {"zh": "你喘气的间隔，正好是我开枪的节拍。", "en": "The gaps in your breathing match my trigger rhythm."},
+        {"zh": "枪口一直没离开你。", "en": "The muzzle hasn't left you."},
+        {"zh": "我在数还剩几发。", "en": "Counting rounds left."},
+        {"zh": "你护甲的接缝，我早标好了。", "en": "I already marked the seam in your armor."},
+        {"zh": "这一块地形对我有利。", "en": "This ground favors me."},
+        {"zh": "你退到空地了。", "en": "You've backed into open ground."},
+        {"zh": "再进一步，我就开火。", "en": "One more step and I fire."},
+        {"zh": "我把枪抬高了一点。", "en": "I raised the gun slightly."},
+        {"zh": "这点风不影响弹道。", "en": "That much wind won't bend it."},
+        {"zh": "呼吸停了，就是现在。", "en": "Breath out. Now."},
+        {"zh": "数到一，我就开枪。", "en": "On one, I fire."},
+        {"zh": "别眨眼，看着枪口。", "en": "Don't blink. Watch the muzzle."},
+        {"zh": "这一发我有把握。", "en": "I like this shot."},
+        {"zh": "我换弹匣，你等着。", "en": "Changing magazines. Wait."},
+        {"zh": "我继续瞄着，别动。", "en": "Still aiming. Hold."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我开枪，后坐力顶着肩。", "en": "I fire. Recoil into my shoulder."},
+        {"zh": "子弹打在你脚边，土飞起来。", "en": "The round hits by your feet. Dirt jumps."},
+        {"zh": "这一发打中了你的护肩。", "en": "That one took your shoulder plate."},
+        {"zh": "我一边后退一边开枪。", "en": "I fire while falling back."},
+        {"zh": "弹壳掉在地上，叮的一声。", "en": "A casing rings on the floor."},
+        {"zh": "你躲到墙后，我等。", "en": "You duck behind the wall. I wait."},
+        {"zh": "我用枪托砸过去。", "en": "I swing the stock at you."},
+        {"zh": "火药烟挡住了我的视线。", "en": "Powder smoke blocks my view."},
+        {"zh": "这一发近了，你也听见了。", "en": "That one came close. You heard it."},
+        {"zh": "我换弹匣，动作很快。", "en": "Magazine change. Quick."},
+        {"zh": "你退了，我不追，我瞄。", "en": "You retreat. I don't chase, I aim."},
+        {"zh": "这一枪，你挡不住。", "en": "You can't block this one."},
+        {"zh": "我的枪管有点烫。", "en": "The barrel's getting hot."},
+        {"zh": "你还在动，我再来一发。", "en": "Still moving. Another round."},
+        {"zh": "这一发终于打中了。", "en": "That one finally landed."},
+        {"zh": "下一发不要浪费。", "en": "Won't waste the next one."},
+        {"zh": "我拉了一下枪栓。", "en": "I work the bolt."},
+        {"zh": "你听，这个声音熟了。", "en": "Listen. You know this sound."},
+        {"zh": "打完这轮，我换位置。", "en": "After this volley, I move."},
+        {"zh": "打完了，收队回去。", "en": "Done here. Packing up."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从掩体后面出来，枪已经举好。", "en": "Out from behind cover. Gun already up."},
+        {"zh": "我的面罩反着光。", "en": "My visor catches the light."},
+        {"zh": "我一落地就找掩体。", "en": "On landing, I look for cover."},
+        {"zh": "这一带的地形我先看了一遍。", "en": "I read this ground first."},
+        {"zh": "我把保险打开了。", "en": "I flick the safety off."},
+        {"zh": "火药的味道先散出去。", "en": "The smell of powder spreads first."},
+        {"zh": "我背靠掩体，枪口朝外。", "en": "Back to cover, muzzle outward."},
+        {"zh": "我的护甲很重，走起来有分量。", "en": "Heavy armor. Every step counts."},
+        {"zh": "我数了弹药，够用。", "en": "Ammo counted. Enough."},
+        {"zh": "我把枪口朝下，先观察。", "en": "Muzzle down. Observing first."},
+        {"zh": "这里有别人留下的弹孔。", "en": "Bullet holes here. Someone else's."},
+        {"zh": "我站在阴影边缘，不算隐蔽。", "en": "At the shadow's edge. Not quite hidden."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烧到护甲，我滚在地上。", "en": "Fire on my plate. I rolled."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从高处摔下来，腿不太稳。", "en": "Fell from height. Legs unsteady."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水进面罩了，看不见。", "en": "Water in the visor. Can't see."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我的枪震掉了。", "en": "The blast knocked the gun from my hands."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西打穿了我的护肩。", "en": "Something punched my shoulder plate."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这东西看不见，挡不了。", "en": "Can't see it. Can't block it."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弹药还有，力气快没了。", "en": "Ammo left. Strength failing."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在护甲上，全身一麻。", "en": "Lightning on the plate. Numb all over."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "往下掉，枪还握着。", "en": "Falling. Still holding the gun."}
+      ]
+    }
+  }
+}

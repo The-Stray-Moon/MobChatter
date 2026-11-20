@@ -1,0 +1,283 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "缓慢爬行，发出嘶嘶声", "en": "Slithering slowly, hiss"},
+        {"zh": "凝视前方，慢慢蠕动", "en": "Stare ahead, crawl"},
+        {"zh": "身体扭曲，发出低吟", "en": "Twist body, murmur"},
+        {"zh": "盯着你，不紧不慢", "en": "Gaze at you, slowly"},
+        {"zh": "缓慢移动，低沉嘶嘶", "en": "Move slowly, hiss low"},
+        {"zh": "凝视玩家，缓缓接近", "en": "Stare at player, approach"},
+        {"zh": "观察四周，慢慢前行", "en": "Survey surroundings, crawl"},
+        {"zh": "缓慢前行，发出呢喃", "en": "Creep forward, whisper"},
+        {"zh": "盯着你，缓缓靠近", "en": "Stare, slowly approach"},
+        {"zh": "凝视玩家，慢慢接近", "en": "Gaze at player, approach"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静等待，似乎无害", "en": "Stay quiet, harmless"},
+        {"zh": "懒洋洋地待着，不急不躁", "en": "Lazy, patient"},
+        {"zh": "漫不经心地等待，平静", "en": "Casual, calm"},
+        {"zh": "懒懒地待着，看起来没威胁", "en": "Lazy, non-threatening"},
+        {"zh": "静静等待，等待时机", "en": "Quiet, wait"},
+        {"zh": "悠闲地待着，等待机会", "en": "Relaxed, wait"},
+        {"zh": "懒散地待着，从容不迫", "en": "Lazy, composed"},
+        {"zh": "静静地待着，耐心等待", "en": "Quiet, patient"},
+        {"zh": "悠闲地等待，静静观察", "en": "Relaxed, observe"},
+        {"zh": "懒懒地待着，等待出击", "en": "Lazy, wait"},
+        {"zh": "它伏在圣所的祭坛前，呼吸很轻。", "en": "It lies before the sanctum altar, breathing faintly."},
+        {"zh": "鳞片随呼吸起伏，像睡着了。", "en": "Its scales rise and fall as if in sleep."},
+        {"zh": "石台上，它把身体盘成一圈。", "en": "On the slab it coils itself into a ring."},
+        {"zh": "它偶尔抽动一下尾尖。", "en": "Now and then its tail tip twitches."},
+        {"zh": "祭坛的烛火映着它的背。", "en": "The altar candles glow along its back."},
+        {"zh": "它把脸埋进自己的褶皱里。", "en": "It buries its face in its own folds."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "獠牙在石缝间慢慢露出。", "en": "My fangs slowly slide out of the stone seams."},
+        {"zh": "目光锁定，慢慢逼近", "en": "Lock gaze, approach"},
+        {"zh": "观察玩家，露出凶光", "en": "Watch player, show aggression"},
+        {"zh": "注意玩家，慢慢靠近", "en": "Notice player, approach"},
+        {"zh": "盯着玩家，露出凶光", "en": "Stare at player, show aggression"},
+        {"zh": "目光锁定，慢慢接近", "en": "Lock gaze, approach"},
+        {"zh": "观察玩家，露出獠牙", "en": "Watch player, show fangs"},
+        {"zh": "目光锁定，慢慢靠近", "en": "Lock gaze, approach"},
+        {"zh": "观察玩家，慢慢接近", "en": "Watch player, approach"},
+        {"zh": "它抬起眼皮，只露出一道缝。", "en": "It lifts a lid to a bare slit."},
+        {"zh": "它的目光从祭坛上滑到你脸上。", "en": "Its gaze slides off the altar onto your face."},
+        {"zh": "它看见了你的火把，也看见了刀。", "en": "It notes your torch and your blade alike."},
+        {"zh": "你踩到圣所的地砖，它睁眼。", "en": "Your foot finds the sanctum tile, and it opens its eyes."},
+        {"zh": "它慢慢转头，颈骨咔咔响。", "en": "It turns its head slowly, vertebrae crackling."},
+        {"zh": "它打量你，像在估一餐的分量。", "en": "It sizes you up like a portion of a meal."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我感到圣所中的黑暗在吞噬我...", "en": "Darkness in the sanctuary feeds on me..."},
+        {"zh": "我的皮毛开始剥落...", "en": "My fur begins to fall off..."},
+        {"zh": "疼痛如同刀割...", "en": "Pain like a knife..."},
+        {"zh": "力量从我的身躯中流失...", "en": "Strength drains from my body..."},
+        {"zh": "我的眼中只剩绝望...", "en": "Despair fills my eyes..."},
+        {"zh": "我无法再保持静止...", "en": "I cannot remain idle..."},
+        {"zh": "痛苦撕裂了我的灵魂...", "en": "Pain tears through my soul..."},
+        {"zh": "我的存在被撕裂...", "en": "My existence is torn..."},
+        {"zh": "绝望的嘶吼回响...", "en": "Echoes of despair..."},
+        {"zh": "我即将被遗忘...", "en": "I am forgotten..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐烂的触手纠缠着你！", "en": "Rotting tentacles纠缠你！"},
+        {"zh": "你闻到了腐败的味道吗？", "en": "Do you smell the corruption?"},
+        {"zh": "圣所的烛火跟着你晃。", "en": "The sanctuary candles sway with you."},
+        {"zh": "灾祸之力引导我！", "en": "Force of Woe guides me!"},
+        {"zh": "你的命运在此终结！", "en": "Your fate ends here!"},
+        {"zh": "腐朽的触手触碰你！", "en": "Decaying tentacles touch you!"},
+        {"zh": "你是我的新养料！", "en": "You are my new nourishment!"},
+        {"zh": "我来自无尽的黑暗！", "en": "I come from endless darkness!"},
+        {"zh": "吞噬你的存在！", "en": "Devour your existence!"},
+        {"zh": "腐化腐化！", "en": "Corruption, corruption!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "轰隆一声，你被撞飞了！", "en": "Boom, you're sent flying!"},
+        {"zh": "石座震了一下，让开。", "en": "My throne shakes, move aside."},
+        {"zh": "我的撞击粉碎你！", "en": "My collision shatters you!"},
+        {"zh": "震耳欲聋的碰撞！", "en": "Deafening collision!"},
+        {"zh": "你承受不住我的力量！", "en": "You cannot withstand my might!"},
+        {"zh": "冲击波席卷而来！", "en": "Shockwave rushes in!"},
+        {"zh": "巨大的撞击让你窒息！", "en": "Mighty impact suffocates you!"},
+        {"zh": "撞击产生的碎片四处飞溅！", "en": "Impact shrapnel flies everywhere!"},
+        {"zh": "你被我的力量震开！", "en": "You are pushed back by my force!"},
+        {"zh": "强烈的震荡让你摇摇欲坠！", "en": "Strong shockwaves make you wobble!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找到我的配偶，繁衍生命！", "en": "Find my mate, reproduce!"},
+        {"zh": "我的伴侣，与我共舞！", "en": "My partner, dance with me!"},
+        {"zh": "让我们交织在一起吧！", "en": "Let us intertwine!"},
+        {"zh": "我的配偶，共享力量！", "en": "My mate, share power!"},
+        {"zh": "一起创造新的生命！", "en": "Create new life together!"},
+        {"zh": "我在圣所里坐着，等你先动手。", "en": "I sit in the sanctuary until you strike first."},
+        {"zh": "让我们共同繁衍！", "en": "Reproduce together!"},
+        {"zh": "我的伴侣，共赴盛宴！", "en": "My mate, feast with me!"},
+        {"zh": "与我结伴，共同前行！", "en": "Travel with me, companion!"},
+        {"zh": "让我们携手步入黑暗！", "en": "Step into the darkness together!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "在圣所中觅食时被发现。", "en": "Discovered while foraging in the sanctuary."},
+        {"zh": "沉睡中被惊醒，开始警觉。", "en": "Awakens from slumber, becoming vigilant."},
+        {"zh": "发现了你的存在，开始移动。", "en": "Detects your presence, begins to move."},
+        {"zh": "栖息在圣所的阴影中。", "en": "Nests in the shadows of the sanctuary."},
+        {"zh": "圣所中寻找食物的生物。", "en": "Forages for food in the sanctuary."},
+        {"zh": "静止不动，仿佛永恒。", "en": "Stays motionless, like an eternal statue."},
+        {"zh": "圣所的守护者，沉默而神秘。", "en": "Guardian of the sanctuary, silent and enigmatic."},
+        {"zh": "听到你靠近的声音。", "en": "Hears your approach."},
+        {"zh": "沉睡中的圣所生物。", "en": "Sanctuary creature in slumber."},
+        {"zh": "苏醒，准备战斗。", "en": "Awakens, prepares for battle."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "骨座下的尘埃浮起来了。", "en": "Dust rises beneath my bone throne."},
+        {"zh": "锁定了你的位置。", "en": "Locking onto your position."},
+        {"zh": "你就是我等待的猎物。", "en": "You are the prey I've waited for."},
+        {"zh": "圣所里我睡着，打我就醒。", "en": "I sleep in the sanctuary. Hit me and I wake."},
+        {"zh": "圣所中唯一的威胁。", "en": "The only threat in the sanctuary."},
+        {"zh": "你是我的命运。", "en": "My destiny."},
+        {"zh": "锁定了你的目标。", "en": "Target locked."},
+        {"zh": "你的身影，我的猎物。", "en": "Your shadow, my prey."},
+        {"zh": "我看见了你的轮廓。", "en": "I see your outline."},
+        {"zh": "圣所里坐着，等你先动手。", "en": "I sit in the sanctum; you strike first."},
+        {"zh": "我在圣所等着，你迟早进来。", "en": "I wait in the sanctuary. You will come in."},
+        {"zh": "你踏进圣所，它认定你了。", "en": "You enter the sanctum, and it has chosen you."},
+        {"zh": "石座上的爪痕亮了一下。", "en": "Claw marks on my throne flicker once."},
+        {"zh": "你身上的光让它彻底醒来。", "en": "The light on you finally wakes it."},
+        {"zh": "它把尾巴从祭坛上垂下来。", "en": "It slides its tail down off the altar."},
+        {"zh": "它开始数你身后的退路。", "en": "It begins counting the ways behind you."},
+        {"zh": "圣所的门关上了，它锁定了你。", "en": "The sanctum door shuts, and its mark is you."},
+        {"zh": "它撑起前身，视线压过来。", "en": "It pushes its front half up, gaze bearing down."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我要将你吞噬。", "en": "I shall devour you."},
+        {"zh": "沉睡的眼终于睁开了。", "en": "My sleeping eyes finally open."},
+        {"zh": "你无法逃脱我的掌握。", "en": "You cannot escape my grasp."},
+        {"zh": "将你变成我的仆人。", "en": "Make you my servant."},
+        {"zh": "用我的力量，终结你。", "en": "End you with my might."},
+        {"zh": "我要品尝你的力量。", "en": "I shall taste your strength."},
+        {"zh": "你的生命将归我所有。", "en": "Your life shall be mine."},
+        {"zh": "圣所里我坐着，等你动手。", "en": "I sit in the sanctum, waiting for your first move."},
+        {"zh": "消灭你，净化圣所。", "en": "Eliminate you, purify the sanctuary."},
+        {"zh": "将你变成我的力量。", "en": "Make you my strength."},
+        {"zh": "它把身体舒展开，挡在门口。", "en": "It unfolds itself across the doorway."},
+        {"zh": "它绕着祭坛，一寸寸收紧。", "en": "It circles the altar, drawing the ring tighter."},
+        {"zh": "它的鳞片开始渗出发黑的液体。", "en": "Black fluid begins to seep between its scales."},
+        {"zh": "它嘶声低得像祈祷。", "en": "Its hiss is as low as a prayer."},
+        {"zh": "它用尾巴拍地，一声接一声。", "en": "Its tail strikes the floor, again and again."},
+        {"zh": "它把祭坛上的供品扫落。", "en": "It sweeps the offerings off the altar."},
+        {"zh": "它在等你先动手。", "en": "It waits for you to move first."},
+        {"zh": "它把嘴张到不该有的宽度。", "en": "Its mouth opens far wider than it should."},
+        {"zh": "圣所的烛火全被它压暗了。", "en": "It smothers every candle in the sanctum."},
+        {"zh": "它抬起上半身，比你高出一截。", "en": "It rears up a head taller than you."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，你动了我？", "en": "Sssss... You dare to move me?"},
+        {"zh": "灾祸之刃，我要杀了你！", "en": "Fork of the Woe, I will kill you!"},
+        {"zh": "等待吧，死神即将降临。", "en": "Wait, the harbinger of death approaches."},
+        {"zh": "你是谁，为何来此？", "en": "Who are you? Why here?"},
+        {"zh": "可恶！你打扰了我的沉睡！", "en": "Damn! You disturbed my slumber!"},
+        {"zh": "灾祸使徒，怒火燃烧！", "en": "Idling Apostle, the fury burns!"},
+        {"zh": "我的存在，让这片土地颤抖吧。", "en": "Let this land tremble under my presence."},
+        {"zh": "你是下一个，我会让你感受痛苦。", "en": "You're next, I'll let you feel pain."},
+        {"zh": "你动了我的领域，付出代价吧！", "en": "You've trespassed my domain, pay the price!"},
+        {"zh": "灾祸之源，我的力量觉醒！", "en": "Woe's origin, my power awakens!"},
+        {"zh": "它一掌拍下，地砖碎了。", "en": "One palm slams down and cracks the tiles."},
+        {"zh": "它咬住你的护甲，往里拧。", "en": "It bites your armor and twists."},
+        {"zh": "它用尾巴把你抽向石柱。", "en": "Its tail whips you toward a pillar."},
+        {"zh": "腐液溅上你的手臂，灼痛。", "en": "Rot splashes your arm and burns."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "当心，灾祸将至。", "en": "Beware, the woe is coming."},
+        {"zh": "圣所中，我终将苏醒。", "en": "In the sanctuary, I will awaken."},
+        {"zh": "我的苏醒，是这片土地的噩梦。", "en": "My awakening is this land's nightmare."},
+        {"zh": "灾祸之徒，我要保护它。", "en": "Woe's apprentice, I will protect it."},
+        {"zh": "圣所中的宁静，即将破灭。", "en": "The sanctuary's peace is about to be shattered."},
+        {"zh": "灾祸的使者，我来了。", "en": "Woe's messenger, I have come."},
+        {"zh": "这将是你的末日，灾祸将降临。", "en": "This will be your end, woe will fall."},
+        {"zh": "圣所深处，灾祸已苏醒。", "en": "The sanctuary's depths, woe has awakened."},
+        {"zh": "灾祸使徒，我已准备好。", "en": "Idling Apostle, I am ready."},
+        {"zh": "灾祸之主，我将守护它。", "en": "Master of woe, I will guard it."},
+        {"zh": "圣所深处的祭坛开始震动。", "en": "The deep sanctum altar begins to shake."},
+        {"zh": "它的呼吸先响起，身体后成形。", "en": "Its breathing comes first, then its body."},
+        {"zh": "石缝里渗出黑水，聚成它。", "en": "Black water seeps from the cracks and gathers into it."},
+        {"zh": "烛火一暗，它已在台上。", "en": "The candles gutter, and it is on the dais."},
+        {"zh": "圣所的守夜者换了一个。", "en": "The sanctum has a new night watch."},
+        {"zh": "它从祭坛的阴影里坐起。", "en": "It sits up out of the altar's shadow."},
+        {"zh": "骨荒原的风吹进圣所，它醒了。", "en": "Bone-waste wind enters the sanctum, and it wakes."},
+        {"zh": "它睁开眼，圣所安静下来。", "en": "It opens its eyes and the sanctum goes quiet."},
+        {"zh": "一层黑雾散开，它就在那里。", "en": "A black mist clears, and there it is."},
+        {"zh": "它伏在供桌后，等你上钩。", "en": "It lies behind the offering table, waiting."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰灼烧我的皮肤...", "en": "Fire burns my skin..."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠落带走了我的生命...", "en": "Falling stole my life..."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水淹没了我的存在...", "en": "Water suffocates me..."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石壳碎了，我还没醒。", "en": "My stone shell cracks, I'm still not awake."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢贯穿了我的心脏...", "en": "Arrow pierces my heart..."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔力腐蚀了我的灵魂...", "en": "Magic corrodes my soul..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿吞噬了我的意志...", "en": "Starvation drains my will..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闪电劈中我的瞬间...", "en": "Lightning strikes me..."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "圣所崩塌，我坠入黑暗。", "en": "The sanctuary collapses, I fall into darkness."}
+      ]
+    }
+  }
+}

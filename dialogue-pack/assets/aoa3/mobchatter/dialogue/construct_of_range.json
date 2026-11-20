@@ -1,0 +1,266 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我横着走，始终和你保持距离。", "en": "I walk sideways, always keeping my distance."},
+        {"zh": "我退着走，眼睛一直朝你。", "en": "I walk backward, eyes fixed on you."},
+        {"zh": "我绕到晶柱的另一侧，站住。", "en": "I move to the far side of the pillar and stop."},
+        {"zh": "我的脚步是在量射程。", "en": "My steps are measuring the range."},
+        {"zh": "我走一步，退半步，位置更稳。", "en": "I take a step, give half back, and settle."},
+        {"zh": "我沿着晶壁走，找你侧面的角度。", "en": "I walk the wall, hunting your flank angle."},
+        {"zh": "我每走七步就停下看一次。", "en": "Every seven steps I stop and look."},
+        {"zh": "我走得很慢，因为退路要先看清。", "en": "I walk slowly; I must see my retreat first."},
+        {"zh": "我不靠近，靠近了就打不准。", "en": "I do not close in; up close I aim poorly."},
+        {"zh": "我在你射程外绕着走。", "en": "I circle outside your reach."},
+        {"zh": "我走到高处，视线就通了。", "en": "I walk to high ground, and my sight opens."},
+        {"zh": "我的影子拖得很长，方向很准。", "en": "My shadow stretches long and true."},
+        {"zh": "我换了个位置，距离没变。", "en": "I change position; the distance stays."},
+        {"zh": "我退到墙后，只留一条视线。", "en": "I retreat behind the wall, keeping one line of sight."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，指尖对着你的方向。", "en": "I stand, my fingertip aimed your way."},
+        {"zh": "我不动，让风替我算偏移。", "en": "I stay still and let the wind compute drift."},
+        {"zh": "我在数这段距离够不够。", "en": "I am counting whether this distance will do."},
+        {"zh": "我的肩膀转了一点，又转回来。", "en": "My shoulder turns a little, then back."},
+        {"zh": "我把手举平，对着远处的晶柱。", "en": "I raise my hand level at a distant pillar."},
+        {"zh": "紫色碎片在我掌里滚动。", "en": "Purple shards roll in my palm."},
+        {"zh": "我等你踩上我量好的那条线。", "en": "I wait for you to step on the line I measured."},
+        {"zh": "我不呼吸，所以手很稳。", "en": "I do not breathe, so my hand is steady."},
+        {"zh": "我在晶面上看自己的角度。", "en": "I check my angle in the crystal face."},
+        {"zh": "远处有东西在动，我先记下。", "en": "Something moves far off; I note it first."},
+        {"zh": "我半跪着，这样射得更平。", "en": "I kneel halfway; the shot flies flatter."},
+        {"zh": "我收起手，因为时机还没到。", "en": "I lower my hand; the moment is not here."},
+        {"zh": "这段空地上没有遮挡，很好。", "en": "This open ground offers no cover; good."},
+        {"zh": "我在等一个肯站住的目标。", "en": "I wait for a target willing to stand still."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我看你，同时看你身后三步。", "en": "I look at you and three steps behind you."},
+        {"zh": "我的眼睛在测你的宽度。", "en": "My eyes are measuring your width."},
+        {"zh": "你走近，我就把视线拉远。", "en": "As you come closer, I pull my gaze farther."},
+        {"zh": "我盯着你的膝盖，那里先动。", "en": "I watch your knees; they move first."},
+        {"zh": "你的呼吸一起一落，我跟着数。", "en": "Your breath rises and falls; I count along."},
+        {"zh": "我从缝隙里看你，只有一条线。", "en": "I view you through a gap, just one line."},
+        {"zh": "你抬手，我就知道你够不到我。", "en": "You raise a hand; I know I am out of reach."},
+        {"zh": "我看的不是脸，是你的重心。", "en": "I watch not your face but your balance."},
+        {"zh": "你转身时，我先转了半寸。", "en": "As you turn, I turn half an inch first."},
+        {"zh": "我的瞳孔是一条竖线。", "en": "My pupil is a single vertical line."},
+        {"zh": "你的影子朝我这边偏，我知道了。", "en": "Your shadow leans my way; I take note."},
+        {"zh": "看了这么久，我还没出手。", "en": "After all this watching, I have not fired."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你打中我的肩，我的准头歪了。", "en": "You hit my shoulder, and my aim skews."},
+        {"zh": "我退开，先修好站的位置。", "en": "I fall back and fix my footing first."},
+        {"zh": "裂口在我持光的手上，很麻烦。", "en": "The crack is in my firing hand; troublesome."},
+        {"zh": "我不出声，出声会乱了准头。", "en": "I stay silent; noise would spoil my aim."},
+        {"zh": "这一下让我少了一条射界。", "en": "This blow costs me one firing lane."},
+        {"zh": "我换个角度，伤口留在后面。", "en": "I change angles and keep the wound behind me."},
+        {"zh": "你把我的紫晶打掉了一块。", "en": "You knock a piece of purple crystal off me."},
+        {"zh": "我数着疼，数到七就停了。", "en": "I count the pain and stop at seven."},
+        {"zh": "退到墙后，我才看清你的位置。", "en": "Behind the wall, I finally read your position."},
+        {"zh": "这一发我会打得更准。", "en": "I will make the next shot more precise."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你把食物放在射程里，我不动。", "en": "You set food inside my range; I do not move."},
+        {"zh": "我不吃，我只在意你站的位置。", "en": "I do not eat; I care only where you stand."},
+        {"zh": "你弯腰去放，那是最好的角度。", "en": "You bend to set it down; that is the best angle."},
+        {"zh": "食物是诱饵，我看得出来。", "en": "The food is bait; I can tell."},
+        {"zh": "你退开两步，距离刚刚好。", "en": "You back off two steps; the distance is perfect."},
+        {"zh": "我要的不是这个，是你再近一点。", "en": "I want not this, but you a little closer."},
+        {"zh": "你举着东西站了很久，手会累。", "en": "You hold it up a long while; your arm will tire."},
+        {"zh": "我不伸手，手一伸就失了准。", "en": "I do not reach; reaching ruins my aim."},
+        {"zh": "这块肉在你手里，比在地上安全。", "en": "That meat is safer in your hand than on the ground."},
+        {"zh": "你把诱饵往前推，我就往后退。", "en": "You push the bait forward; I step back."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞过来，我先退了一步。", "en": "You charge; I take one step back first."},
+        {"zh": "贴得太近，我的枪口抬不起来。", "en": "Too close, and I cannot raise my aim."},
+        {"zh": "我用手肘挡了你一下，就拉开。", "en": "I check you with an elbow and pull away."},
+        {"zh": "你碰到我，我才发现退路被堵。", "en": "Touching me, I find my retreat blocked."},
+        {"zh": "我的边角很硬，撞上来会疼。", "en": "My edges are hard; running into them hurts."},
+        {"zh": "我顺着你的力气转开半圈。", "en": "I turn half a circle with your force."},
+        {"zh": "我们擦身而过，我数了你的步子。", "en": "We pass close; I count your strides."},
+        {"zh": "你抓住我的袖子，我把它扯断了。", "en": "You grab my sleeve; I tear it free."},
+        {"zh": "这一碰让我失了原来的角度。", "en": "That bump costs me my angle."},
+        {"zh": "我退到你够不到的地方，才停。", "en": "I retreat beyond your reach before stopping."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我要的不是伴，是一条准线。", "en": "I want not a mate, but a true line."},
+        {"zh": "两个射手站得太近，会互相挡。", "en": "Two archers standing close block each other."},
+        {"zh": "我把最好的角度留给自己。", "en": "I keep the best angle for myself."},
+        {"zh": "同类若来，我们会分开站。", "en": "If kin came, we would take separate posts."},
+        {"zh": "我在远处对着另一块晶体举过手。", "en": "I once raised a hand at another crystal, far off."},
+        {"zh": "配对会让距离变短，我不喜欢。", "en": "Pairing would shorten the distance; I dislike that."},
+        {"zh": "我的另一半应该在很远的对面。", "en": "My other half should stand far across from me."},
+        {"zh": "夜里我叫一声，回声隔了很久。", "en": "I call at night; the echo returns much later."},
+        {"zh": "我对着空处站，像在等一个信号。", "en": "I stand facing nothing, as if awaiting a signal."},
+        {"zh": "距离是我唯一愿意分享的东西。", "en": "Distance is the only thing I would share."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我捡起地上的紫晶，收进袖里。", "en": "I pick up the purple shard and tuck it away."},
+        {"zh": "我弯腰时，视线没离开你。", "en": "Even bending, my gaze never leaves you."},
+        {"zh": "你掉的东西落在射程边上。", "en": "What you dropped lands at the edge of my range."},
+        {"zh": "我只捡能当标记的东西。", "en": "I only pick up things that can serve as markers."},
+        {"zh": "我把石子摆在脚边，标出距离。", "en": "I set stones by my feet to mark distance."},
+        {"zh": "太重的东西会拖慢我的退步。", "en": "Heavy things would slow my retreat."},
+        {"zh": "我拾起你的箭头，看了看型号。", "en": "I pick up your arrowhead and study its make."},
+        {"zh": "我拿走的每样东西，都量过长度。", "en": "I measure the length of everything I take."},
+        {"zh": "这块碎片刚好填我掌心的空。", "en": "This shard fits the hollow of my palm."},
+        {"zh": "我把它放在三步之外，做个记号。", "en": "I place it three steps away as a mark."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你走进这片空地，我有了射界。", "en": "You enter the clearing; I have a firing lane."},
+        {"zh": "我选你，因为你在动，又不够快。", "en": "I pick you because you move, and not fast enough."},
+        {"zh": "你的路线是一条直线，很好。", "en": "Your route is a straight line; excellent."},
+        {"zh": "我在高处，你在低处，角度合适。", "en": "I am high, you are low; the angle works."},
+        {"zh": "你抬头找我的时候，我已经瞄好了。", "en": "When you look up for me, I am already aimed."},
+        {"zh": "这段距离我走过很多次。", "en": "I have walked this distance many times."},
+        {"zh": "你身边没有遮挡，这是关键。", "en": "No cover stands near you; that decides it."},
+        {"zh": "你的脚步有节奏，我能算出来。", "en": "Your steps have rhythm; I can calculate them."},
+        {"zh": "我不是急着打，我是急着站稳。", "en": "I am not eager to fire, but to hold my stance."},
+        {"zh": "你转身的弧度，我记下了。", "en": "I have noted the arc of your turns."},
+        {"zh": "晶壁会把我的子弹送直。", "en": "The crystal walls will keep my shot straight."},
+        {"zh": "你停下来喘气，我就选这一刻。", "en": "You stop to catch your breath; I choose that moment."},
+        {"zh": "我要先占住那条线。", "en": "I must first claim that line."},
+        {"zh": "你已经在我的尺子上。", "en": "You are already on my measure."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我保持十二步，不多不少。", "en": "I keep twelve paces, no more, no less."},
+        {"zh": "你往前，我就往后退同样的距离。", "en": "You advance; I retreat the same distance."},
+        {"zh": "我绕着晶柱转，始终有一根柱子挡着。", "en": "I circle the pillar, always keeping one between us."},
+        {"zh": "你走斜线，我也走斜线。", "en": "You take a diagonal; so do I."},
+        {"zh": "我把你的影子当准星。", "en": "I use your shadow as a sight."},
+        {"zh": "你换方向，我换角度，很快。", "en": "You change direction; I change angle, quickly."},
+        {"zh": "我不追，我只把出口留窄。", "en": "I do not chase; I merely narrow the exit."},
+        {"zh": "我的子弹能绕过一块晶面。", "en": "My shot can bend around one crystal face."},
+        {"zh": "你在射程边缘，我再等一会儿。", "en": "You stand at the edge of range; I wait a while."},
+        {"zh": "你数着呼吸，我数着你的步幅。", "en": "You count breaths; I count your stride."},
+        {"zh": "我退到第二个位置，那是我最喜欢的。", "en": "I fall back to my second post, my favorite."},
+        {"zh": "你举起盾，我就换一个角度。", "en": "You raise a shield; I pick another angle."},
+        {"zh": "空地中间的那条线，我守着。", "en": "I hold the line across the middle of the clearing."},
+        {"zh": "你已经在两个角度之间。", "en": "You are now between two angles."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抬手，一道紫光穿过去。", "en": "I raise a hand and send a purple streak across."},
+        {"zh": "这一发打在你肩上，你退了半步。", "en": "The shot hits your shoulder; you stagger back."},
+        {"zh": "我打完就换位置，不停留。", "en": "I fire and relocate, never lingering."},
+        {"zh": "我的子弹是概念，挡不住。", "en": "My bullets are concepts; they cannot be blocked."},
+        {"zh": "你举盾的方向错了半寸。", "en": "Your shield is half an inch off."},
+        {"zh": "我瞄准的是你下一步。", "en": "I aim at your next step."},
+        {"zh": "这一下从侧面来，你没看见。", "en": "This one comes from the side; you never saw it."},
+        {"zh": "我退了两步，再打第二发。", "en": "I retreat two steps and fire again."},
+        {"zh": "距离越远，我的准头越好。", "en": "The farther the distance, the better my aim."},
+        {"zh": "你的护甲很厚，我打关节。", "en": "Your armor is thick; I aim at the joints."},
+        {"zh": "我数到三才放，你不会数。", "en": "I count to three before firing; you do not."},
+        {"zh": "这一发擦着你的耳朵过去。", "en": "This shot grazes past your ear."},
+        {"zh": "你冲过来，我先打你的脚。", "en": "You charge; I shoot your feet first."},
+        {"zh": "你躲开第一发，位置就露了。", "en": "You dodge the first shot and expose your position."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "晶壁的高处多了一道紫光。", "en": "A purple light appears high on the crystal wall."},
+        {"zh": "我先占了射界，然后才成形。", "en": "I claim a firing lane before taking shape."},
+        {"zh": "你在空地中间，我正好需要目标。", "en": "You stand mid-clearing, and I need a target."},
+        {"zh": "我从晶柱背后站出来，一步就够。", "en": "I step out from behind the pillar; one step is enough."},
+        {"zh": "风把紫色的尘吹成一条线。", "en": "Wind draws the purple dust into a line."},
+        {"zh": "这块晶体睁眼时，先量了距离。", "en": "When this crystal opens its eyes, it measures distance first."},
+        {"zh": "我站在高处，是这里教我的。", "en": "I stand high; this place taught me that."},
+        {"zh": "你听到一声轻响，那是我的准星。", "en": "You hear a soft click; that is my sight aligning."},
+        {"zh": "我在离你最远的那块晶面上出现。", "en": "I appear on the farthest crystal face from you."},
+        {"zh": "今天这片空地归我管。", "en": "This clearing falls under my watch today."},
+        {"zh": "我从裂缝里出来，先看四周的角。", "en": "I come out of the rift and read every angle."},
+        {"zh": "你身边起了雾，那是射程的开始。", "en": "Fog rises around you; that marks the range."},
+        {"zh": "我成形时，手里已经握着光。", "en": "When I form, light is already in my hand."},
+        {"zh": "这一局从距离开始。", "en": "This round begins with distance."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火顺着我的手臂烧，我还在瞄。", "en": "Fire climbs my arm, and I keep aiming."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从高处落下，落地先护住手。", "en": "I fall from height and shield my hand first."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水让光变慢，我算不准了。", "en": "Water slows the light; my calculations fail."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸推开我，我的角度全乱了。", "en": "The blast throws me off; every angle is ruined."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的箭穿过我的掌，光散了。", "en": "Your arrow pierces my palm, and the light scatters."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "药水的雾挡住了我的视线。", "en": "The potion's mist blocks my line of sight."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不吃东西，只是手开始抖。", "en": "I do not eat; my hand begins to shake."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光太亮，我一瞬间看不见你。", "en": "The flash is too bright; I lose you for a moment."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉下去，最后还在算距离。", "en": "I fall, still calculating the distance."}
+      ]
+    }
+  }
+}

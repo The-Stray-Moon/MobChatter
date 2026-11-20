@@ -1,0 +1,256 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用八条加固的腿走", "en": "I move on eight reinforced legs"},
+        {"zh": "我的外壳比旧型号厚", "en": "My shell is thicker than the old model"},
+        {"zh": "我走起来有金属的节奏", "en": "My walk has a metallic rhythm"},
+        {"zh": "我的炮口两侧有散热片", "en": "Heat sinks flank my cannon"},
+        {"zh": "我从高处爬下来", "en": "I crawl down from the height"},
+        {"zh": "我的腿在地面敲出凹痕", "en": "My legs dent the ground"},
+        {"zh": "我在下界的岩台上巡", "en": "I patrol the Nether's ledges"},
+        {"zh": "我转过身，散热片张开", "en": "I turn and the heat sinks open"},
+        {"zh": "我一步一顿碾过去", "en": "I grind forward, step by step"},
+        {"zh": "我从火光旁边走过", "en": "I pass beside the firelight"},
+        {"zh": "我的关节带着液压的声音", "en": "My joints hiss with hydraulics"},
+        {"zh": "我朝你那一侧横移", "en": "I crab toward your side"},
+        {"zh": "我的散热片随着步子开合", "en": "My sinks open and close with each step"},
+        {"zh": "我在岩脊上找射位", "en": "I hunt for a firing position on the ridge"},
+        {"zh": "我绕过一堆冷却的熔岩", "en": "I skirt a cooled lava flow"},
+        {"zh": "我的影子在红雾里很重", "en": "My shadow lies heavy in the red haze"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，散热片全开", "en": "I stand with all heat sinks open"},
+        {"zh": "我的炮管在慢慢冷却", "en": "My barrel cools slowly"},
+        {"zh": "我身上的铁很新", "en": "The iron on me is new"},
+        {"zh": "我在扫视这片岩台", "en": "I scan this ledge"},
+        {"zh": "我的脑壳被装甲护着", "en": "My brain is armored over"},
+        {"zh": "我在等取景框里的东西", "en": "I wait for something in my sights"},
+        {"zh": "我的腿一节节绷着", "en": "My legs stay coiled"},
+        {"zh": "火光照出我表面的划痕", "en": "Firelight shows the scratches on me"},
+        {"zh": "我根本没有心跳", "en": "I have no heartbeat at all"},
+        {"zh": "我把一条腿换了位置", "en": "I move one leg"},
+        {"zh": "我的传感器在转", "en": "My sensor turns"},
+        {"zh": "我在测你肺里的气", "en": "I'm measuring your lungs"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我扫描了你一遍", "en": "I've scanned you once"},
+        {"zh": "你的护甲不算厚", "en": "Your armor isn't thick"},
+        {"zh": "我的炮口对准你的胸口", "en": "My cannon is level with your chest"},
+        {"zh": "你站在那里别动", "en": "Stand there and don't move"},
+        {"zh": "你的心跳太快", "en": "Your heart is too fast"},
+        {"zh": "我记住了你的轮廓", "en": "I have your outline logged"},
+        {"zh": "你退到射界边缘", "en": "You've moved to the edge of my arc"},
+        {"zh": "我又把你框进来了", "en": "I've framed you again"},
+        {"zh": "你比旧型号的猎物聪明", "en": "You're smarter than the old model's prey"},
+        {"zh": "可你也不够快", "en": "But you aren't fast enough"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的装甲凹了一块", "en": "A dent appears in my plating"},
+        {"zh": "我退了一步，腿稳住", "en": "I step back and my legs hold"},
+        {"zh": "我的炮口偏了一点", "en": "My muzzle drifts off line"},
+        {"zh": "我又重新校准", "en": "I recalibrate"},
+        {"zh": "一处散热片卡住了", "en": "One heat sink sticks"},
+        {"zh": "我运转时一点不出声", "en": "I run without a sound"},
+        {"zh": "我把重心往八条腿上放", "en": "I settle my weight onto all eight legs"},
+        {"zh": "我的腿还在算", "en": "My legs keep computing"},
+        {"zh": "我的准星还咬着你", "en": "My reticle still holds you"},
+        {"zh": "我还能够开火", "en": "I can still fire"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "亚金能源，我闻得到", "en": "Argent energy; I can smell it"},
+        {"zh": "这个浓度很高", "en": "This concentration is high"},
+        {"zh": "你手上有残余", "en": "There's residue on your hands"},
+        {"zh": "你把它交出来", "en": "Hand it over"},
+        {"zh": "我的电池快空了", "en": "My cells are nearly dry"},
+        {"zh": "再往我这儿靠两步", "en": "Two steps closer to me"},
+        {"zh": "我不需要吃，我需要它", "en": "I don't eat; I need it"},
+        {"zh": "这个能让我更快", "en": "This would make me faster"},
+        {"zh": "你带着它, 就别想走", "en": "Carry it and you won't leave"},
+        {"zh": "我等你自己送上来", "en": "I wait for you to bring it"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞在我的装甲上", "en": "You hit my plating"},
+        {"zh": "我连一节腿都没动", "en": "Not one of my joints shifted"},
+        {"zh": "我的散热片擦到你", "en": "My heat sink grazes you"},
+        {"zh": "你从我腿间穿过去", "en": "You pass between my legs"},
+        {"zh": "我的腿把你刨开", "en": "A leg shovels you aside"},
+        {"zh": "我们一起撞到岩柱", "en": "We both hit a pillar"},
+        {"zh": "那根柱子裂了", "en": "That pillar has cracked"},
+        {"zh": "我转了半个圈", "en": "I turn half around"},
+        {"zh": "你退开，我重新瞄准", "en": "You back off and I re-aim"},
+        {"zh": "这一下没有影响", "en": "That had no effect"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "岩台那头还有一台", "en": "There's another unit at the far ledge"},
+        {"zh": "它的装甲比我的厚", "en": "Its armor is thicker than mine"},
+        {"zh": "我们交换了一次扫描", "en": "We exchange one scan"},
+        {"zh": "它的火力配置更高", "en": "Its loadout is heavier"},
+        {"zh": "我们一起把腿压下去", "en": "We plant our legs together"},
+        {"zh": "散热片一起张开", "en": "Our heat sinks open together"},
+        {"zh": "我们之间没有言语", "en": "Between us there's no language"},
+        {"zh": "我们的炮口指向不同方向", "en": "Our cannons face different ways"},
+        {"zh": "这一片防线够两台", "en": "This line holds two"},
+        {"zh": "目标出现时我们一起转", "en": "When a target shows, we turn together"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用前腿夹住", "en": "I grip it with a foreleg"},
+        {"zh": "这是浓缩过的", "en": "This is concentrated"},
+        {"zh": "我直接灌进电池", "en": "I feed it straight into the cell"},
+        {"zh": "我的显示亮了一下", "en": "My display flares"},
+        {"zh": "能量正在回流", "en": "Energy is returning"},
+        {"zh": "还差一点才满", "en": "Not quite full yet"},
+        {"zh": "这个品质不错", "en": "The quality is good"},
+        {"zh": "我把它固定在外壳上", "en": "I mount it on my shell"},
+        {"zh": "下一回我要更多能量", "en": "Next time, I want more energy"},
+        {"zh": "这东西会吸引别的", "en": "This will attract others"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "目标已经锁定确认", "en": "Target confirmed and locked"},
+        {"zh": "我把腿架好了", "en": "I brace my legs"},
+        {"zh": "炮口已经锁死", "en": "The cannon is locked"},
+        {"zh": "你的速度我算过", "en": "I've computed your speed"},
+        {"zh": "这一片没有路", "en": "There's no way out of this ground"},
+        {"zh": "炮管里的电已经起来了", "en": "The charge is already rising"},
+        {"zh": "散热片全部打开", "en": "Heat sinks fully open"},
+        {"zh": "你听这个声音", "en": "Listen to this"},
+        {"zh": "我从不浪费弹药", "en": "I never waste a round"},
+        {"zh": "这一发是给你的", "en": "This one is for you"},
+        {"zh": "你已经在框里了", "en": "You're in the frame"},
+        {"zh": "现在开火正合适", "en": "Now is the right time to fire"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我沿着岩台跟着你", "en": "I track you along the ledge"},
+        {"zh": "你躲到柱子后面", "en": "You hide behind a pillar"},
+        {"zh": "我把柱子打掉一半", "en": "I take half the pillar away"},
+        {"zh": "石头落了一地", "en": "Stone scatters everywhere"},
+        {"zh": "你又换了个位置", "en": "You've moved again"},
+        {"zh": "我的传感器一直跟着", "en": "My sensor stays with you"},
+        {"zh": "我正在调整火力", "en": "I'm adjusting the yield"},
+        {"zh": "这一片地面不平", "en": "The ground here is uneven"},
+        {"zh": "我的腿站得很稳", "en": "My legs are set"},
+        {"zh": "你跳下来，我等着", "en": "Come down; I'm waiting"},
+        {"zh": "你的影子暴露了你", "en": "Your shadow gives you away"},
+        {"zh": "我正在预热炮管", "en": "I'm warming the barrel"},
+        {"zh": "你的时间不多了", "en": "Your time is short"},
+        {"zh": "这一下我会打准", "en": "This one will land"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一发等离子轰过去", "en": "I fire a plasma burst"},
+        {"zh": "地面被犁出一道沟", "en": "It plows a trench in the ground"},
+        {"zh": "我用两条前腿压下去", "en": "I bring two forelegs down"},
+        {"zh": "你被震得跪地", "en": "The shock drops you to your knees"},
+        {"zh": "我从侧面横切", "en": "I cut in from the flank"},
+        {"zh": "我的腿夹住你的腰", "en": "My legs clamp your waist"},
+        {"zh": "这一发落在你脚边", "en": "That shot lands at your feet"},
+        {"zh": "你被掀得滚了出去", "en": "You're thrown rolling"},
+        {"zh": "我又充好能了", "en": "I'm charged again"},
+        {"zh": "你的护甲在融化", "en": "Your armor is melting"},
+        {"zh": "我退了一步，重新架好", "en": "I step back and re-brace"},
+        {"zh": "这次是近距离", "en": "This is point blank"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "岩台上出现了一个轮廓", "en": "A silhouette forms on the ledge"},
+        {"zh": "我从熔岩的边缘爬上来", "en": "I climb up from the lava's rim"},
+        {"zh": "八条腿同时落地", "en": "Eight legs land at once"},
+        {"zh": "我的散热片张开了", "en": "My heat sinks open"},
+        {"zh": "装甲上有一层新的黑", "en": "My plating wears a fresh black coat"},
+        {"zh": "下界的红雾绕着我", "en": "The Nether's red haze curls around me"},
+        {"zh": "我把炮口抬到水平", "en": "I level my cannon"},
+        {"zh": "这里的岩台适合架炮", "en": "This ledge is good for a stand"},
+        {"zh": "我扫过一遍四周", "en": "I sweep the surroundings once"},
+        {"zh": "有活物，也有能量", "en": "Living things, and energy"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烤着我，散热片更烫了", "en": "Fire heats me and my sinks run hotter"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从岩台翻下去，装甲裂了", "en": "I tumble off the ledge and my plating splits"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水进了接缝，腿开始迟滞", "en": "Water enters a seam and my legs lag"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我的装甲掀开一片", "en": "The blast peels a plate off"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "子弹打在我的传感器上", "en": "A round strikes my sensor"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股力量让我的程序迟了一下", "en": "That force lags my routines"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "电池空了，我的火力变小", "en": "The cells are dry; my shots weaken"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打进装甲，我全身一颤", "en": "Lightning enters the plating and I shudder"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下面没有岩台", "en": "No ledge below"}
+      ]
+    }
+  }
+}

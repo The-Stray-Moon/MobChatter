@@ -1,0 +1,288 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，缓慢移动。", "en": "Sssssss, moves slowly."},
+        {"zh": "触手般的身体蠕动。", "en": "Body writhes like tentacles."},
+        {"zh": "发出低沉的咕哝声。", "en": "Grunts low and deep."},
+        {"zh": "伸展出更多触手。", "en": "Exts more tentacles."},
+        {"zh": "发出嘶嘶声，接近玩家。", "en": "Ssssss, approaching you."},
+        {"zh": "盯着玩家，准备扑击。", "en": "Fixes on you, prepares to attack."},
+        {"zh": "身体扭曲，快速移动。", "en": "Body twists, moves fast."},
+        {"zh": "咀嚼着腐烂的食物。", "en": "Chewing rotten food."},
+        {"zh": "触手缠绕，慢慢靠近。", "en": "Tentacles wrap, creep closer."},
+        {"zh": "嘶嘶声中移动。", "en": "Ssssss, moves."},
+        {"zh": "暗影顺着洞壁滑行。", "en": "Its shadow-shape slides along the cave wall."},
+        {"zh": "它在洞穴里无声潜行。", "en": "It prowls the cavern without a sound."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静地等待着猎物。", "en": "Silently waits for prey."},
+        {"zh": "缓缓地蠕动着。", "en": "Moves slowly."},
+        {"zh": "目光空洞地盯着黑暗。", "en": "Stares blankly into the void."},
+        {"zh": "在洞穴深处徘徊。", "en": "Wanders in the cave."},
+        {"zh": "偶尔发出嘶嘶声。", "en": "Sssss occasionally."},
+        {"zh": "触手缠绕着岩石。", "en": "Tentacles wrap around rocks."},
+        {"zh": "静静地保持不动。", "en": "Remains still."},
+        {"zh": "盯着玩家很久。", "en": "Stares at you for long."},
+        {"zh": "我贴着洞顶，等光熄灭。", "en": "I cling to the ceiling, waiting for light to die."},
+        {"zh": "偶尔发出低吟。", "en": "Mumbles softly."},
+        {"zh": "它伏在黑暗中吸收光亮。", "en": "It crouches in the dark, drinking in the light."},
+        {"zh": "阴影中传来极轻的摩擦声。", "en": "A faint scraping comes from the shadow."},
+        {"zh": "它的轮廓在暗处缓慢扩散。", "en": "Its outline spreads slowly through the gloom."},
+        {"zh": "它在深层洞穴静静演化。", "en": "It evolves quietly in the deep caves."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "突然盯住玩家。", "en": "Fixes on the player."},
+        {"zh": "转头看向玩家。", "en": "TURNS to face you."},
+        {"zh": "目光聚焦在你身上。", "en": "Focuses on you."},
+        {"zh": "低头看向玩家。", "en": "Looks down at you."},
+        {"zh": "抬头看向玩家。", "en": "Looks up at you."},
+        {"zh": "目光紧盯着玩家。", "en": "Stares directly at you."},
+        {"zh": "转身面向玩家。", "en": "Faces you."},
+        {"zh": "盯着玩家，不眨眼。", "en": "Stares at you, unblinking."},
+        {"zh": "目光从你身上移开。", "en": "Looks away from you."},
+        {"zh": "目光扫向玩家。", "en": "Scans you with its gaze."},
+        {"zh": "黑暗里浮出一双眼睛。", "en": "A pair of eyes floats out of the darkness."},
+        {"zh": "它从钟乳石后打量你。", "en": "It studies you from behind a stalactite."},
+        {"zh": "洞顶的阴影朝你转头。", "en": "The shadow on the ceiling turns toward you."},
+        {"zh": "它把你的轮廓记了下来。", "en": "It memorizes your outline."},
+        {"zh": "火把照不到的地方有它在看。", "en": "It watches from where your torch cannot reach."},
+        {"zh": "它贴着地面凝视你。", "en": "It stares at you from ground level."},
+        {"zh": "你的影子旁多了一道轮廓。", "en": "A second outline joins your shadow."},
+        {"zh": "它从岩缝里盯着你的火把。", "en": "It eyes your torch through a crack in the rock."},
+        {"zh": "那双眼睛没有瞳孔。", "en": "Those eyes have no pupils."},
+        {"zh": "它歪头，像在衡量你的恐惧。", "en": "It tilts its head, weighing your fear."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞穴深处的阴影在嘶吼！", "en": "The shadow in the cave moans!"},
+        {"zh": "你的声音让黑暗更加深邃！", "en": "Your voice deepens the darkness!"},
+        {"zh": "这黑暗吞噬了你的声音！", "en": "The darkness devours your voice!"},
+        {"zh": "黑暗之中的嘶鸣，听不见却令人恐惧！", "en": "The moaning in the darkness, heard but terrifying!"},
+        {"zh": "你无法逃脱黑暗的诅咒！", "en": "You cannot escape the curse of darkness!"},
+        {"zh": "你听见了吗？黑暗在嘲笑你！", "en": "Do you hear it? The darkness mocks you!"},
+        {"zh": "黑暗与你同在，直到永恒！", "en": "Darkness with you, forever!"},
+        {"zh": "你被黑暗的触手缠住了！", "en": "You are caught by the darkness' tentacles!"},
+        {"zh": "黑暗的怒火吞噬了你！", "en": "The anger of darkness consumes you!"},
+        {"zh": "你触碰了黑暗的禁忌！", "en": "You touched the taboo of darkness!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你被黑暗吞噬，异变之魂附身你！", "en": "You are consumed by darkness, and an anomaly灵魂 invades you."},
+        {"zh": "感受到黑暗中的渴望，它即将觉醒！", "en": "Feel the渴望 in the darkness, it’s about to awaken."},
+        {"zh": "腐烂的触手缠绕你，带来痛苦！", "en": "Rotting tentacles wrap around you, bringing pain."},
+        {"zh": "异形的尖刺穿透你的皮肤！", "en": "Sharp anomalies pierce your skin."},
+        {"zh": "它注视你，准备吞噬你的灵魂！", "en": "It stares at you, preparing to devour your soul."},
+        {"zh": "腐烂的血液流淌在你周围！", "en": "Decaying blood flows around you."},
+        {"zh": "黑暗中传来它的低语！", "en": "Its whispers come from the darkness."},
+        {"zh": "它在黑暗中等待你的灵魂！", "en": "It waits in the darkness for your soul."},
+        {"zh": "腐烂的气息让你窒息！", "en": "The stench of decay chokes you."},
+        {"zh": "你的血液滋养着它的存在！", "en": "Your blood nourishes its existence."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "岩石撞击它的触手，被撕裂！", "en": "Rock smashes its tentacles, tearing them apart."},
+        {"zh": "洞穴的岩石碎裂，它却毫发无损！", "en": "Cave rocks shatter, but it remains unharmed."},
+        {"zh": "它挥动触手，粉碎岩石！", "en": "It swings its tentacles, smashing rocks."},
+        {"zh": "它用腐烂的尖刺穿透岩石！", "en": "It pierces rocks with rotting spikes."},
+        {"zh": "岩石碰撞它的身体，四分五裂！", "en": "Rocks collide with its body, shattering."},
+        {"zh": "它的身体几乎不可摧毁！", "en": "Its body is nearly indestructible."},
+        {"zh": "岩石撞击它的外壳，留下裂痕！", "en": "Rocks collide with its shell, leaving cracks."},
+        {"zh": "它的尖刺穿透岩石，如刀片切割！", "en": "Its spikes slice through rocks like knives."},
+        {"zh": "坚硬的岩石无法伤及它的核心！", "en": "Hard rocks can’t harm its core."},
+        {"zh": "岩石砸在它的身上，激起灰尘！", "en": "Rocks slam into it, raising dust."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它与同类交配，黑暗的力量增强！", "en": "It mates with another, enhancing its dark power."},
+        {"zh": "黑暗中，它们发出交配的嘶吼！", "en": "In the darkness, they emit mating roars."},
+        {"zh": "它的触手缠绕伴侣，一同进化！", "en": "Its tentacles wrap around a mate, evolving together."},
+        {"zh": "交配时，它的力量达到巅峰！", "en": "Its power peaks during mating."},
+        {"zh": "它在黑暗中寻找合适的伴侣！", "en": "It seeks a mate in the darkness."},
+        {"zh": "黑暗中的交配仪式充满仪式感！", "en": "The mating ritual in the darkness is ceremonial."},
+        {"zh": "它的触手轻抚伴侣，带来痛苦！", "en": "Its tentacles caress a mate, causing pain."},
+        {"zh": "交配后，它的力量暂时减弱！", "en": "After mating, its power briefly wanes."},
+        {"zh": "它们在黑暗中交配，互相依存！", "en": "They mate in the darkness, dependent on each other."},
+        {"zh": "黑暗中的交配，带来恐惧的力量！", "en": "Mating in the darkness brings fear’s power."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞穴深处传来微弱的低鸣声。", "en": "A faint, mournful sound from the depths of the cave."},
+        {"zh": "它的声音像是从地底深处爬出来的一样。", "en": "Its voice crawls up from deep underground."},
+        {"zh": "洞穴中回响着它微弱的呼吸声。", "en": "Its weak breathing echoes in the cave."},
+        {"zh": "你感觉到一股冰冷的气息从地面传来。", "en": "You feel a chill rise from the ground."},
+        {"zh": "它的呼吸声几乎让你喘不过气来。", "en": "Its breath is almost suffocating."},
+        {"zh": "低沉的呻吟声在你耳边响起。", "en": "A low moan whispers in your ear."},
+        {"zh": "它的声音像是在嘲笑你。", "en": "Its voice mocks you."},
+        {"zh": "你听到了它的呼吸，几乎就在你的头顶。", "en": "You hear its breath, just above your head."},
+        {"zh": "它的呻吟声让你毛骨悚然。", "en": "Its moans send shivers down your spine."},
+        {"zh": "这声音像是来自永恒的黑暗。", "en": "This voice comes from eternal darkness."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你感到它的眼睛在黑暗中注视着你。", "en": "You feel its eyes watching you in the darkness."},
+        {"zh": "它的视线穿透黑暗，锁定你的位置。", "en": "Its gaze cuts through the darkness, locking onto you."},
+        {"zh": "它在黑暗中悄然靠近，无声无息。", "en": "It moves silently, drawing near in the dark."},
+        {"zh": "它的形体在你周围扭曲。", "en": "Its form warps around you."},
+        {"zh": "它仿佛随时准备吞噬你。", "en": "It seems ready to devour you."},
+        {"zh": "它的声音似乎就在你的耳边。", "en": "Its voice seems close to your ear."},
+        {"zh": "它的眼睛闪烁着幽光，盯着你。", "en": "Its eyes glow faintly, staring at you."},
+        {"zh": "它的视线穿透黑暗，直视你的灵魂。", "en": "Its gaze pierces the darkness, looking into your soul."},
+        {"zh": "它的形体在你周围徘徊。", "en": "Its form hovers around you."},
+        {"zh": "它仿佛已经预见了你的下一步。", "en": "It seems to predict your next move."},
+        {"zh": "它闻到了火把下的汗味。", "en": "It smells the sweat beneath your torchlight."},
+        {"zh": "你的脚步声在洞穴里暴露了你。", "en": "Your footsteps give you away in the cave."},
+        {"zh": "它顺着你挖开的矿洞找来。", "en": "It follows the tunnel you dug."},
+        {"zh": "你越往深处，它越清醒。", "en": "The deeper you go, the more awake it becomes."},
+        {"zh": "它的黑暗圈住了你。", "en": "Its darkness closes around you."},
+        {"zh": "它已记住你进来的路。", "en": "It has memorized the way you came."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它准备攻击，气息中充满了怒气。", "en": "It readies to attack, its breath filled with rage."},
+        {"zh": "它准备冲锋，锋利的獠牙露了出来。", "en": "It charges, its sharp fangs bared."},
+        {"zh": "它开始缓慢地移动，目标是你。", "en": "It moves slowly, you as its target."},
+        {"zh": "它伸长脖子，试图接近你。", "en": "It stretches its neck to get closer."},
+        {"zh": "它张开大口，似乎准备吞噬你。", "en": "It opens its mouth, ready to swallow you."},
+        {"zh": "它的眼睛开始发光，瞄准你。", "en": "Its eyes glow, focusing on you."},
+        {"zh": "它的手爪上沾满了黏液，准备抓住你。", "en": "Its sticky claws are ready to grab you."},
+        {"zh": "它凝视着你，眼神充满恶意。", "en": "It stares at you with malevolent eyes."},
+        {"zh": "它的触手开始纠缠，准备束缚你。", "en": "Its tentacles wrap around you, binding you."},
+        {"zh": "它的眼神中充满了仇恨，准备杀死你。", "en": "Its eyes are full of hatred, ready to kill you."},
+        {"zh": "它从阴影里伸出细长的肢体。", "en": "It reaches out of the shadow with a long limb."},
+        {"zh": "黑暗一寸寸朝你压过来。", "en": "The darkness presses toward you inch by inch."},
+        {"zh": "它把洞道堵成了死路。", "en": "It seals the tunnel into a dead end."},
+        {"zh": "你的火光正在它体内变暗。", "en": "Your torchlight dims inside it."},
+        {"zh": "它压低身形，准备扑上来。", "en": "It lowers itself, ready to lunge."},
+        {"zh": "它模仿着你呼吸的节奏。", "en": "It copies the rhythm of your breathing."},
+        {"zh": "洞口的光被它一点点吃掉。", "en": "It eats away the light at the cave mouth."},
+        {"zh": "它在等你的火把熄灭。", "en": "It waits for your torch to die."},
+        {"zh": "它缓慢包住了你的退路。", "en": "It slowly wraps around your way out."},
+        {"zh": "它的形状变得和你一样高。", "en": "Its shape grows to your height."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "靠近我，你会死的！", "en": "Come closer, and you die!"},
+        {"zh": "我的唾液滴在石上，冒白烟。", "en": "My saliva hits the stone and smokes."},
+        {"zh": "你的骨头会发出声音！", "en": "Your bones will crack!"},
+        {"zh": "别想活了！", "en": "You won't live!"},
+        {"zh": "吞噬你，这是我的使命！", "en": "Consuming you is my duty!"},
+        {"zh": "黑从四面收拢，别浪费力气。", "en": "Darkness closes in; save your strength."},
+        {"zh": "你的血肉是我的养分！", "en": "Your flesh feeds me!"},
+        {"zh": "你的痛苦让我快乐！", "en": "Your pain pleases me!"},
+        {"zh": "在这黑暗中，我不会放过你！", "en": "In this darkness, I won't let you go!"},
+        {"zh": "黑暗攥住了你的喉咙！", "en": "The darkness seizes your throat!"},
+        {"zh": "这里没有光救你！", "en": "No light will save you here!"},
+        {"zh": "你的火把归我了！", "en": "Your torch belongs to me now!"},
+        {"zh": "在洞里，你跑不过我！", "en": "You cannot outrun me underground!"},
+        {"zh": "让我听听你骨头的声音！", "en": "Let me hear your bones rattle!"},
+        {"zh": "你挖得越深，我越强！", "en": "The deeper you dig, the stronger I grow!"},
+        {"zh": "把呼吸交给我！", "en": "Give me your last breath!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "新的灵魂，我的收藏品！", "en": "New soul, my collection!"},
+        {"zh": "终于等到你了，我的猎物！", "en": "Finally, my prey!"},
+        {"zh": "地面在呼唤我……", "en": "The ground calls me..."},
+        {"zh": "洞穴深处的呼唤……", "en": "Whispers from the depths..."},
+        {"zh": "黑暗是我们的家……", "en": "Darkness is our home..."},
+        {"zh": "新的猎物，新的痛苦……", "en": "New prey, new suffering..."},
+        {"zh": "探索者，我的美食！", "en": "Explorer, my delicacy!"},
+        {"zh": "你属于这里……", "en": "You belong here..."},
+        {"zh": "黑暗中，你无处可逃！", "en": "In darkness, you have no escape!"},
+        {"zh": "洞穴的黑暗醒了过来。", "en": "The darkness of the cave has woken."},
+        {"zh": "你的火把照不到我了。", "en": "Your torch cannot reach me anymore."},
+        {"zh": "深处终于有活物下来。", "en": "At last something living comes down deep."},
+        {"zh": "我在这层岩壁里等了很久。", "en": "I have waited long in this layer of stone."},
+        {"zh": "越往下，我越完整。", "en": "The deeper down, the more complete I am."},
+        {"zh": "别挖了，回头看看。", "en": "Stop digging and look behind you."},
+        {"zh": "黑暗里不需要眼睛。", "en": "Down here, eyes are unnecessary."},
+        {"zh": "你的脚步声吵醒了我。", "en": "Your footsteps woke me."},
+        {"zh": "我从你身后的岩缝里来。", "en": "I come from the crack behind you."},
+        {"zh": "这层岩壁归我。", "en": "This layer of rock is mine."},
+        {"zh": "光越少，我越清楚。", "en": "The less light, the clearer I see."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗的火焰吞噬了你！", "en": "The darkness' flames consume you!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你跌入了黑暗的深渊！", "en": "You fall into the abyss of darkness!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗的水吞噬了你！", "en": "The darkness' water consumes you!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗的爆炸震醒了你！", "en": "The darkness' explosion awakens you!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗的箭矢穿透了你！", "en": "The darkness' arrows pierce you!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗的魔法撕裂了你！", "en": "The darkness' magic tears you!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗剥夺了你的生命！", "en": "The darkness drains your life!"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗的雷电击中了你！", "en": "The darkness' lightning strikes you!"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗的虚空吞噬了你！", "en": "The darkness' void consumes you!"}
+      ]
+    }
+  }
+}

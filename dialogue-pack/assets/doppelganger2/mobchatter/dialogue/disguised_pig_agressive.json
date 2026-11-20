@@ -1,0 +1,268 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "四条短腿在泥里走，声音很轻", "en": "Four short legs in the mud, very quiet"},
+        {"zh": "我走得像个觅食的猪", "en": "I walk like a foraging pig"},
+        {"zh": "鼻子快贴到地上了", "en": "My snout is almost touching the ground"},
+        {"zh": "泥坑我绕开，太显眼", "en": "I go around the mud pits, too conspicuous"},
+        {"zh": "村子里有猪圈，我熟", "en": "The village has a pen, I know it well"},
+        {"zh": "我一路嗅，嗅的不是食", "en": "I sniff all the way, but not for food"},
+        {"zh": "蹄子踩碎了干草", "en": "My hooves crunch the dry straw"},
+        {"zh": "走得太直了，猪不会这样", "en": "Too straight a line, pigs do not walk like that"},
+        {"zh": "猪鼻子里发出不属于猪的声音。", "en": "A sound not a pig's comes from my snout."},
+        {"zh": "身上的味儿不太对，我压低些", "en": "The smell is off, I keep low"},
+        {"zh": "尾巴卷着，一直在动", "en": "My tail curls and keeps twitching"},
+        {"zh": "我一边走一边听着脚步", "en": "I walk and listen for footsteps"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在泥边站着，没进去", "en": "I stand by the mud but do not go in"},
+        {"zh": "鼻子抽了两下", "en": "My snout twitches twice"},
+        {"zh": "别的猪都在叫，我不叫", "en": "The other pigs squeal, I do not"},
+        {"zh": "我这身皮，毛色有点假", "en": "The fur on this hide looks fake"},
+        {"zh": "站着的时候最难装", "en": "Standing still is the hardest part"},
+        {"zh": "泥土沾在蹄上，味道盖住了", "en": "Mud on my hooves masks the smell"},
+        {"zh": "我等，等到有人落单", "en": "I wait until someone is alone"},
+        {"zh": "耳朵朝一个方向，很久不动", "en": "My ear points one way and stays"},
+        {"zh": "嘴里嚼着草根", "en": "I chew on a grass root"},
+        {"zh": "我盯着食槽，不是因为饿", "en": "I stare at the trough, not from hunger"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手里有空碗，是来喂的", "en": "You have an empty bowl, you came to feed"},
+        {"zh": "我抬头，猪很少这样抬头", "en": "I look up, pigs rarely look up"},
+        {"zh": "你闻过我这身味儿吗", "en": "Have you smelled this hide of mine"},
+        {"zh": "我鼻子湿，眼睛不湿", "en": "My snout is wet, my eyes are not"},
+        {"zh": "你的手别伸到我嘴边", "en": "Do not put your hand near my mouth"},
+        {"zh": "你身后那扇门，是开着的吗", "en": "Is that door behind you open"},
+        {"zh": "我都跟了你一路了", "en": "I have followed you the whole way"},
+        {"zh": "你退后的时候，踩到了泥", "en": "You stepped in the mud as you backed off"},
+        {"zh": "我看你的眼神，你该明白", "en": "The way I look at you, you should understand"},
+        {"zh": "这一圈猪里，只有我站得直", "en": "In this pen, only I stand straight"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我哼了一声，很长", "en": "I let out a long grunt"},
+        {"zh": "皮破了一道，露出里面的颜色", "en": "The hide split, and the color inside shows"},
+        {"zh": "我滚进泥里，把伤口糊住", "en": "I rolled in the mud to cover the wound"},
+        {"zh": "这一下，我记下了", "en": "I have remembered this"},
+        {"zh": "我低着头，绕了半圈", "en": "I lower my head and circle half a turn"},
+        {"zh": "疼起来，装不了", "en": "In pain, I cannot keep up the act"},
+        {"zh": "我扶着栏杆站着", "en": "I lean on the rail and stand"},
+        {"zh": "泥糊在身上，血看不出来", "en": "Mud on me hides the blood"},
+        {"zh": "这一身皮，比你想象的薄", "en": "This hide is thinner than you think"},
+        {"zh": "我没有叫得像猪", "en": "I did not squeal like a pig"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你拿剩饭来引我", "en": "You try to lure me with scraps"},
+        {"zh": "我拱了两下，没吃", "en": "I root at it twice and do not eat"},
+        {"zh": "这味道，是给人吃的", "en": "This smell is for people"},
+        {"zh": "我装着吃，眼睛看你", "en": "I pretend to eat and watch you"},
+        {"zh": "你手放低一点，我够得着", "en": "Lower your hand and I can reach"},
+        {"zh": "猪吃这个，我不吃", "en": "Pigs eat this, I do not"},
+        {"zh": "闻着不错，可惜我不饿", "en": "It smells fine, a pity I am not hungry"},
+        {"zh": "你要用食物换什么", "en": "What do you want in exchange for food"},
+        {"zh": "我把碗顶翻了", "en": "I tipped the bowl over"},
+        {"zh": "你蹲下来的样子，正好", "en": "The way you crouch is just right"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到我，我先哼了一声", "en": "You bumped me and I grunted first"},
+        {"zh": "四条腿站得稳，肉也厚", "en": "Four legs hold steady, and I am thick"},
+        {"zh": "这一下，泥溅起来了", "en": "That splash came up from the mud"},
+        {"zh": "我往边上让，让得有点多", "en": "I gave way, and gave rather too much"},
+        {"zh": "别从后面来，尾巴会动", "en": "Do not come from behind, my tail moves"},
+        {"zh": "你撞到的是我的肩", "en": "You hit my shoulder"},
+        {"zh": "我退到栏杆边，没路了", "en": "I backed to the rail, no way out"},
+        {"zh": "这一下我记住了你的腿", "en": "I have your legs noted now"},
+        {"zh": "猪不会让得这么利落", "en": "A pig would not give way so neatly"},
+        {"zh": "再撞，我就转身了", "en": "Bump me again and I turn around"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "猪圈里的事，我见过", "en": "I have seen what happens in the pen"},
+        {"zh": "这身皮脱不下来", "en": "This hide will not come off"},
+        {"zh": "你要跟我一起拱土吗", "en": "Will you root in the dirt with me"},
+        {"zh": "我这一声哼，是学来的", "en": "This grunt of mine is learned"},
+        {"zh": "别的猪不靠近我", "en": "The other pigs keep away"},
+        {"zh": "我知道你在试探", "en": "I know you are testing me"},
+        {"zh": "这种话我只当没听见", "en": "I will pretend I did not hear that"},
+        {"zh": "我低头，把泥拱起来", "en": "I lower my head and root up some mud"},
+        {"zh": "装久了，也有点累", "en": "Pretending this long does get tiring"},
+        {"zh": "走开吧，别搅进来", "en": "Walk away, do not get tangled in this"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用鼻子拱了拱", "en": "I nudge it with my snout"},
+        {"zh": "这东西没味儿", "en": "This has no smell"},
+        {"zh": "我一口咬住，嚼了嚼", "en": "I bite it and chew"},
+        {"zh": "嚼不烂，吐了", "en": "I cannot chew it, so I spit it out"},
+        {"zh": "蹄子踩着它，碾了碾", "en": "I press it under a hoof and grind it"},
+        {"zh": "我不捡，猪才捡", "en": "I do not pick it up, pigs do"},
+        {"zh": "你捡起来，我就看着", "en": "You pick it up, and I watch"},
+        {"zh": "它滚到食槽里了", "en": "It rolled into the trough"},
+        {"zh": "我把它拱到墙角", "en": "I root it into the corner"},
+        {"zh": "落在泥里，正好", "en": "It fell in the mud, perfect"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我闻到你的味儿了", "en": "I have caught your scent"},
+        {"zh": "六十几步，我算过了", "en": "Sixty paces, I counted"},
+        {"zh": "我抬头，装不下去了", "en": "I lift my head, the act is done"},
+        {"zh": "你一个人往那边走", "en": "You are walking that way alone"},
+        {"zh": "蹄子在泥里转了个方向", "en": "My hooves turn in the mud"},
+        {"zh": "这一带没有别的活物", "en": "There is nothing else alive here"},
+        {"zh": "我不喊也不叫", "en": "I do not shout, I do not squeal"},
+        {"zh": "我照着你留下的脚印走", "en": "I follow the prints you left"},
+        {"zh": "你听见的哼声，离你越来越近", "en": "The grunt you hear is getting closer"},
+        {"zh": "这身皮撑不了多久", "en": "This hide will not hold much longer"},
+        {"zh": "我看见你的手在摸刀", "en": "I see your hand going for the knife"},
+        {"zh": "这一圈猪都让开了", "en": "The whole pen has cleared aside"},
+        {"zh": "你先动的手，别怪我", "en": "You moved first, do not blame me"},
+        {"zh": "我这回认准你了", "en": "This time I have settled on you"},
+        {"zh": "门在你身后，关上了", "en": "The door behind you has closed"},
+        {"zh": "我走到这一步，就不会退", "en": "Having come this far, I will not turn back"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我跟着你走，一步不差", "en": "I follow you, exactly one step behind"},
+        {"zh": "你翻墙，我也翻得过去", "en": "Climb the wall, I can climb it too"},
+        {"zh": "六十步不算远，我慢慢来", "en": "Sixty paces is not much, I take my time"},
+        {"zh": "你往回走，就是往我这边来", "en": "You walk back, which is toward me"},
+        {"zh": "我在你脚后跟那么远", "en": "I am as near as your heel"},
+        {"zh": "你拐弯，我抄近路", "en": "You turn a corner, I take the short way"},
+        {"zh": "这村子的小巷，我都走过", "en": "I have walked every alley in this village"},
+        {"zh": "你不该往猪圈方向走", "en": "You should not head for the pen"},
+        {"zh": "我在栅栏外头等你", "en": "I wait outside the fence for you"},
+        {"zh": "你的脚步乱了，我听得出", "en": "Your steps have broken rhythm, I can hear"},
+        {"zh": "我贴着地面走，声音很轻", "en": "I keep low and my steps are light"},
+        {"zh": "这一段路，我熟得很", "en": "I know this stretch very well"},
+        {"zh": "你开始跑了，可前面是死巷", "en": "You are running now, but that is a dead end"},
+        {"zh": "我一直没叫，所以你没听见", "en": "I never called out, which is why you heard nothing"},
+        {"zh": "再拐一个弯就碰上了", "en": "One more corner and we meet"},
+        {"zh": "我的鼻子一直跟着你", "en": "My snout stays on your trail"},
+        {"zh": "你的汗味在变浓", "en": "Your sweat is getting stronger"},
+        {"zh": "这一圈，我赢定了", "en": "I have this one won"},
+        {"zh": "我沿着墙根一路跟，墙上没有缝", "en": "I track you along the wall, and the wall has no gaps"},
+        {"zh": "你在院子里，我就在门边", "en": "You are in the yard, and I am at the door"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一头撞在你腿上", "en": "I ram your legs with my head"},
+        {"zh": "牙不尖，可咬得紧", "en": "The teeth are not sharp, but the bite is tight"},
+        {"zh": "我扑上来，比猪快得多", "en": "I lunge, far quicker than a pig"},
+        {"zh": "皮下面伸出爪子", "en": "A claw comes out from under the hide"},
+        {"zh": "你被撞进了泥里", "en": "You are knocked into the mud"},
+        {"zh": "这一下，几乎撕开了你的衣服", "en": "That nearly tore your clothes open"},
+        {"zh": "我甩头，你就被带倒了", "en": "I swing my head and you go down"},
+        {"zh": "你挡得住第一下", "en": "You might block the first"},
+        {"zh": "我压在你身上，很沉", "en": "I press down on you, very heavy"},
+        {"zh": "蹄子踩在你手腕上", "en": "A hoof comes down on your wrist"},
+        {"zh": "你退了，我不追太远", "en": "You back off, and I do not chase far"},
+        {"zh": "血沾在我嘴边，蹭不掉", "en": "Blood on my mouth will not rub off"},
+        {"zh": "你听见皮在裂", "en": "You can hear the hide splitting"},
+        {"zh": "这一声哼，和刚才的不一样", "en": "That grunt is not like the earlier ones"},
+        {"zh": "你又站起来了，真麻烦", "en": "You are up again, how troublesome"},
+        {"zh": "下一口不会偏", "en": "The next bite will not miss"},
+        {"zh": "我一口咬在你的靴子上", "en": "I bite down on your boot"},
+        {"zh": "我撞你的膝盖，让你跪下来", "en": "I butt your knee to bring you down"},
+        {"zh": "我用整个身子压上去", "en": "I press down with my whole body"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "猪圈边上多了一头", "en": "There is one more by the pen"},
+        {"zh": "我从草垛边站起来", "en": "I rise up from beside the haystack"},
+        {"zh": "我和别的猪挤在一起", "en": "I squeeze in among the other pigs"},
+        {"zh": "栏里的猪往边上看了一眼", "en": "The pigs in the pen glanced sideways"},
+        {"zh": "没人放的猪，多了一头", "en": "One pig nobody put there"},
+        {"zh": "我在食槽边停下", "en": "I stop by the trough"},
+        {"zh": "身上的泥刚抹过", "en": "The mud on me was just smeared on"},
+        {"zh": "我落地时，四条腿很稳", "en": "I land squarely on four legs"},
+        {"zh": "猪群里，我站得最直", "en": "In the herd, I stand straightest"},
+        {"zh": "我拱开草垛，出来了", "en": "I root the haystack aside and come out"},
+        {"zh": "我抬了一下鼻子，闻到了", "en": "I lift my snout, I caught it"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "毛皮一烧就往里缩", "en": "The fur shrank back as it burned"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "落地那一下，四条腿都震了", "en": "On landing, all four legs jarred"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "泥水比清水更难受", "en": "Muddy water is worse than clean"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸得我滚出好几圈", "en": "The blast rolled me several turns"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭扎在我背上", "en": "An arrow is stuck in my back"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股力气把我的皮照透了", "en": "That force showed right through the hide"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在这圈里饿太久了", "en": "I have gone hungry in this pen too long"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光一亮，猪圈里全乱", "en": "At the flash, the whole pen panicked"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下没有泥，蹄子踩空", "en": "No mud underfoot, my hooves find nothing"}
+      ]
+    }
+  }
+}

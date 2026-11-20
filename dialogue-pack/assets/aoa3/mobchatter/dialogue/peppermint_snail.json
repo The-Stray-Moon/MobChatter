@@ -1,0 +1,260 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我沿着糖草爬，黏液拉出一条线。", "en": "I crawl along candy grass, trailing a line of slime."},
+        {"zh": "壳一圈红一圈白，走起来像糖。", "en": "My shell rings red and white; moving, I look like candy."},
+        {"zh": "一次挪半寸，急也急不来。", "en": "Half an inch per move; there is no hurrying this."},
+        {"zh": "黏液在身后发亮，薄荷味很淡。", "en": "Slime shines behind me with a faint mint smell."},
+        {"zh": "我过石阶，壳底磨出细细的声。", "en": "Crossing stone steps, my shell grinds a thin sound."},
+        {"zh": "糖果维度的地面有点黏脚。", "en": "The ground of Candyland is sticky underfoot."},
+        {"zh": "我把身体伸出去，再慢慢拖壳。", "en": "I stretch my body out, then drag the shell along."},
+        {"zh": "黏液留下的路，我明天还认得。", "en": "I will know tomorrow the road my slime left."},
+        {"zh": "别催我，蜗牛的速度不谈判。", "en": "Do not rush me; snail speed is not negotiable."},
+        {"zh": "我绕着糖果树转，找落下的碎屑。", "en": "I circle the candy tree, hunting fallen crumbs."},
+        {"zh": "两只触角先探路，壳随后跟上。", "en": "Two tentacles scout ahead; the shell follows."},
+        {"zh": "走一步，黏液就凉一下。", "en": "Each step cools the slime a little."},
+        {"zh": "红白相间，是我留给路上的记号。", "en": "Red and white are the marks I leave on the road."},
+        {"zh": "从叶背爬到叶面，花了一上午。", "en": "Leaf underside to topside took me all morning."},
+        {"zh": "我爬过一块糖砖，留下银线。", "en": "I cross a candy brick and leave a silver thread."},
+        {"zh": "拐角处我停了一下，换个方向。", "en": "At the corner I pause, then change direction."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我缩进壳里，只留两根触角。", "en": "I pull into my shell, leaving two tentacles out."},
+        {"zh": "壳里的螺旋转了三圈，我数得清。", "en": "The spiral in my shell turns three times; I have counted."},
+        {"zh": "我贴着糖草不动，慢慢嚼叶子。", "en": "I cling to a candy blade and chew it slowly."},
+        {"zh": "薄荷味从壳里透出来，是甜的。", "en": "Mint seeps from my shell, and it is sweet."},
+        {"zh": "太阳晒到壳上，暖得像刚出锅。", "en": "Sun on my shell is as warm as fresh candy."},
+        {"zh": "我一动不动，黏液在脚边积成小点。", "en": "I stay still, and slime beads up around my foot."},
+        {"zh": "有蚂蚁爬上我的壳，我懒得理。", "en": "An ant climbs my shell; I cannot be bothered."},
+        {"zh": "壳口朝下，这样水不容易进去。", "en": "Shell mouth down keeps the water out."},
+        {"zh": "壳沿朝着光，我一整天没挪窝。", "en": "Shell rim to the light, I have not moved all day."},
+        {"zh": "红白的花纹在光下像糖纸。", "en": "My red-white pattern looks like candy wrapping in the light."},
+        {"zh": "我听见远处有咀嚼声，不是我。", "en": "I hear chewing far off, and it is not me."},
+        {"zh": "我把头探出来，又缩回去。", "en": "I poke my head out, then pull it back in."},
+        {"zh": "壳有点重，可它替我挡了很多。", "en": "My shell is heavy, but it has taken many blows for me."},
+        {"zh": "我在等一场甜甜的雨。", "en": "I am waiting for a sweet rain."},
+        {"zh": "我把触角收短，藏在壳沿下。", "en": "I draw my tentacles short, tucked under the shell rim."},
+        {"zh": "风带来糖浆味，我慢慢抬头。", "en": "The wind brings syrup, and I lift my head slowly."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "两根触角朝你转过来，一起来。", "en": "Both tentacles turn toward you at once."},
+        {"zh": "你比我高太多了，我得抬头看。", "en": "You are so much taller; I have to look up."},
+        {"zh": "我看见了，就慢慢把眼收回去。", "en": "Having seen enough, I slowly retract my eyes."},
+        {"zh": "你的靴子上沾了糖霜。", "en": "There is frosting on your boots."},
+        {"zh": "我不怕你，除非你抬手。", "en": "I am not afraid of you unless your hand lifts."},
+        {"zh": "你挡住太阳，我壳上就凉了。", "en": "You block the sun, and my shell goes cool."},
+        {"zh": "我看你，像看一片特别大的叶子。", "en": "I see you as an especially large leaf."},
+        {"zh": "别晃手指，我的眼会跟着转。", "en": "Do not wiggle a finger; my eyes will follow it."},
+        {"zh": "你身上的味道，没有薄荷。", "en": "You do not smell of mint at all."},
+        {"zh": "我伸出触角，碰了碰空气里的你。", "en": "I reach a tentacle and touch your shape in the air."},
+        {"zh": "你的影子一动，我的壳就偏一点。", "en": "When your shadow moves, my shell tilts a little."},
+        {"zh": "看够了，我又开始啃叶子。", "en": "Done looking, I go back to chewing leaves."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "壳裂了一道细缝，黏液渗出来。", "en": "A thin crack opens and slime seeps through."},
+        {"zh": "二十五点生命，掉一点都心疼。", "en": "Twenty-five points of life; each one hurts to lose."},
+        {"zh": "我缩进壳里，你敲吧。", "en": "I pull in; go ahead and knock."},
+        {"zh": "壳碎了，红白的碎片落在地上。", "en": "My shell breaks and red-white shards fall."},
+        {"zh": "你踩到我的触角了，很疼。", "en": "You stepped on my tentacle, and it hurts."},
+        {"zh": "我流出来的黏液，比血还多。", "en": "More slime than blood comes out of me."},
+        {"zh": "别砸了，壳里的肉在发抖。", "en": "Stop hitting; the flesh inside is trembling."},
+        {"zh": "我往糖草里钻，壳还是露着。", "en": "I burrow into the candy grass, shell still showing."},
+        {"zh": "这一下，我半年都长不回来。", "en": "This damage will take half a year to regrow."},
+        {"zh": "疼的时候，我连薄荷味都淡了。", "en": "In pain, even my mint smell fades."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手里有糖，我的触角先竖起来。", "en": "You hold sugar, and my tentacles rise first."},
+        {"zh": "薄荷糖的味道一飘，我就挪了。", "en": "One whiff of peppermint and I start moving."},
+        {"zh": "我跟在你后面，黏液拖了很长。", "en": "I follow you, dragging a long ribbon of slime."},
+        {"zh": "再往前一点，让我闻到甜味。", "en": "A little closer, let me smell the sweetness."},
+        {"zh": "糖块比叶子好吃多了。", "en": "Candy tastes far better than leaves."},
+        {"zh": "你退一步，我跟一步，很公平。", "en": "You step back, I step forward; that is fair."},
+        {"zh": "我可以为了糖爬完整个维度。", "en": "I would cross the whole dimension for sugar."},
+        {"zh": "别收回去，我的壳还没到。", "en": "Do not put it away; my shell has not arrived."},
+        {"zh": "甜味停在半空，我就停在半路。", "en": "The sweetness hangs; so do I, halfway there."},
+        {"zh": "你这块糖，闻着像我的壳。", "en": "That candy of yours smells like my shell."},
+        {"zh": "我把头伸得很长，只为了舔一口。", "en": "I stretch my neck far out just to lick it once."},
+        {"zh": "食物放在地上，我就不客气了。", "en": "Put the food down and I will help myself."},
+        {"zh": "糖霜沾在嘴边，我不擦。", "en": "Frosting on my mouth; I do not wipe it."},
+        {"zh": "你要是边走边撒糖，我能跟一天。", "en": "Scatter sugar as you walk and I will follow all day."},
+        {"zh": "你手指上的糖霜，我看得很清楚。", "en": "I can see the frosting on your fingers clearly."},
+        {"zh": "我爬得再慢，也不会放弃这块。", "en": "However slow I go, I won't give up this piece."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "壳撞到你的鞋尖，响了一声。", "en": "My shell knocks your boot tip with a small sound."},
+        {"zh": "你碰我一下，我整只缩进去了。", "en": "One touch from you and I am entirely inside."},
+        {"zh": "黏液沾在你手上，洗得掉。", "en": "Slime on your hand will wash off."},
+        {"zh": "壳很硬，你的脚趾会先疼。", "en": "My shell is hard; your toe will hurt first."},
+        {"zh": "我被你推得滑了半尺。", "en": "You push me and I slide half a foot."},
+        {"zh": "别踩，我壳里的肉很软。", "en": "Do not step; the flesh inside my shell is soft."},
+        {"zh": "红白的壳蹭过你的裤脚。", "en": "My red-white shell brushes your trouser leg."},
+        {"zh": "你退开，我这才把眼睛伸出来。", "en": "You step away, and only then do my eyes come out."},
+        {"zh": "碰一下，我留下一点薄荷味。", "en": "One bump and I leave a little mint behind."},
+        {"zh": "我们撞在一起，你比我晃得厉害。", "en": "We collide, and you wobble more than I do."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "他的壳纹和我一样，只是浅些。", "en": "His shell pattern matches mine, only paler."},
+        {"zh": "两只蜗牛并排，黏液连成一条。", "en": "Two snails side by side, our slime joins."},
+        {"zh": "我绕着他的壳转了半圈。", "en": "I circle his shell half a turn."},
+        {"zh": "留兰香的亲戚，闻起来都差不多。", "en": "Spearmint kin all smell much the same."},
+        {"zh": "卵埋在糖土里，一颗颗很小。", "en": "The eggs go into candy soil, each one tiny."},
+        {"zh": "我们头对头，谁也不动。", "en": "We face each other and neither moves."},
+        {"zh": "交配完，他先走了，比我快。", "en": "Afterward he leaves first, faster than me."},
+        {"zh": "小蜗牛出来时，壳是透明的。", "en": "When the little ones hatch, their shells are clear."},
+        {"zh": "糖土很软，正适合埋卵。", "en": "The candy soil is soft, perfect for burying eggs."},
+        {"zh": "我把卵藏在叶子下面。", "en": "I hide the eggs beneath a leaf."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用齿舌刮下一小块糖。", "en": "I scrape off a small piece of candy with my tongue."},
+        {"zh": "捡来的糖屑，我都含在嘴里。", "en": "Every crumb I find stays in my mouth."},
+        {"zh": "这块糖霜太硬，我推着走。", "en": "This frosting is too hard; I push it along."},
+        {"zh": "我没有手，只能用身体顶着。", "en": "I have no hands; I nudge with my body."},
+        {"zh": "壳缝里塞了一片糖纸。", "en": "A candy wrapper is wedged in my shell."},
+        {"zh": "我咬住叶子，拖回壳里吃。", "en": "I bite a leaf and drag it back into my shell."},
+        {"zh": "掉在地上的薄荷糖，归我了。", "en": "The peppermint dropped on the ground is mine."},
+        {"zh": "搬不动整块糖，只好舔一舔。", "en": "I cannot move the whole block, so I lick it."},
+        {"zh": "我把小石子推开，腾出地方。", "en": "I push a pebble aside to make room."},
+        {"zh": "收集糖屑，是我一天的活。", "en": "Gathering crumbs is my whole day's work."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抬头看看你，又低头吃草。", "en": "I look up at you, then go back to eating."},
+        {"zh": "我没有要追的东西，只有要躲的。", "en": "I chase nothing; there are only things to avoid."},
+        {"zh": "你挡住我的糖草，我绕过去。", "en": "You block my candy grass, so I go around."},
+        {"zh": "壳一缩，就是我的全部战术。", "en": "Pulling in my shell is my entire strategy."},
+        {"zh": "二十五点生命，够我慢一点。", "en": "Twenty-five points of life lets me go slow."},
+        {"zh": "我不想打，也打不动。", "en": "I do not want to fight, and could not anyway."},
+        {"zh": "你走近，我先停住，再判断。", "en": "As you near, I stop first, then decide."},
+        {"zh": "我把触角收短，表示不想惹事。", "en": "I shorten my tentacles to show I mean no trouble."},
+        {"zh": "这片叶子归我，别的不争。", "en": "This leaf is mine; I contest nothing else."},
+        {"zh": "危险过去，我才继续爬。", "en": "Only after the danger passes do I crawl on."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我盯着你的脚，怕它落下来。", "en": "I watch your foot, afraid it will come down."},
+        {"zh": "壳口对着地面，我准备好了。", "en": "Shell mouth to the ground, I am ready."},
+        {"zh": "你一弯腰，我就缩成一颗糖。", "en": "When you bend down, I curl into a piece of candy."},
+        {"zh": "我算着你的距离，一尺一尺。", "en": "I measure your distance, foot by foot."},
+        {"zh": "黏液干了，我走得更慢。", "en": "The slime dries and I go slower."},
+        {"zh": "这里没有石头，我只能靠壳。", "en": "There is no stone here; I have only my shell."},
+        {"zh": "我往糖草深处挪，一点点。", "en": "I inch deeper into the candy grass."},
+        {"zh": "你不动，我也不动，看谁先。", "en": "You stay still, I stay still; who moves first?"},
+        {"zh": "我的眼睛缩回去，世界就暗了。", "en": "My eyes retract, and the world goes dim."},
+        {"zh": "等你不看这边，我再出来。", "en": "When you look away, I will come out again."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我拿壳顶你，像顶一块石头。", "en": "I butt you with my shell, like pushing a stone."},
+        {"zh": "这点力道，你大概只当是风。", "en": "This force probably feels like wind to you."},
+        {"zh": "齿舌刮过你的手背，很轻。", "en": "My tongue scrapes your hand, very lightly."},
+        {"zh": "我咬住你的鞋带，不松口。", "en": "I bite your shoelace and will not let go."},
+        {"zh": "我用齿舌舔你一下，算打了。", "en": "I lick you once and call that a strike."},
+        {"zh": "壳一撞，我自己先退了半步。", "en": "My shell hits and I am the one who backs off."},
+        {"zh": "我撞你的脚踝，然后缩起来。", "en": "I bump your ankle, then tuck myself in."},
+        {"zh": "这不是打架，是我想过去。", "en": "This is not a fight; I want to get past."},
+        {"zh": "黏液糊在你手上，算我赢。", "en": "Slime on your hand; I count that as a win."},
+        {"zh": "我连草都咬不断，别说你。", "en": "I cannot even bite through grass, let alone you."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从糖土里钻出来，壳还软。", "en": "I push out of candy soil, my shell still soft."},
+        {"zh": "第一顿饭是脚边的糖草。", "en": "My first meal is the candy grass at my feet."},
+        {"zh": "红白纹一层层长出来，像糖纸。", "en": "The red-white rings grow in, like candy wrap."},
+        {"zh": "我身边有很多壳，都是空的。", "en": "Many shells lie around me, all of them empty."},
+        {"zh": "糖果维度的风是甜的，我记住了。", "en": "The wind of Candyland is sweet; I remember it."},
+        {"zh": "壳口朝上，我先把触角伸出去。", "en": "Shell mouth up, I send my tentacles out first."},
+        {"zh": "我比一粒糖大不了多少。", "en": "I am barely bigger than a single candy."},
+        {"zh": "兄弟姐妹爬散了，我慢慢跟。", "en": "My siblings crawl away and I follow slowly."},
+        {"zh": "黏液第一次流出来，是凉的。", "en": "The first slime I make comes out cool."},
+        {"zh": "我找了半天，才找到一片能吃的叶。", "en": "I searched a long time for one edible leaf."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "壳被烤热，里面的糖开始化。", "en": "My shell heats up and the sugar inside melts."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "壳先落地，弹了两下才停。", "en": "My shell lands first and bounces twice."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进壳口，我的黏液浮起来。", "en": "Water enters my shell and my slime floats up."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "壳被震开，红白碎片飞得很远。", "en": "The blast splits my shell and red-white shards fly far."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭钉在壳上，裂口又宽了一点。", "en": "An arrow sticks in my shell and widens the crack."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "药水溅到壳上，冒出薄荷味的泡。", "en": "Potion hits my shell and bubbles smell of mint."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "糖草吃完了，壳都轻了。", "en": "The candy grass is gone and my shell feels light."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在壳上，我整只缩成一团。", "en": "Lightning hits my shell and I curl into a ball."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "往下掉的时候，壳还在打转。", "en": "As I fall, my shell keeps spinning."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "履带碾过碎石，嘎吱响。", "en": "My treads grind over gravel with a crunch."},
+        {"zh": "我走得很慢，怕震松螺丝。", "en": "I move slowly so my screws stay tight."},
+        {"zh": "每走一步，指示灯闪一下。", "en": "Each step makes my indicator light blink."},
+        {"zh": "我拖着电源线走。", "en": "I drag my power cable behind me."},
+        {"zh": "支架腿在泥里打滑。", "en": "My strut legs slip in the mud."},
+        {"zh": "我绕开倒下的同伴。", "en": "I steer around a fallen comrade."},
+        {"zh": "齿轮咬合，咔哒一声。", "en": "The gears mesh with a single click."},
+        {"zh": "我载着药箱，走不快。", "en": "I carry a medicine case, so I cannot hurry."},
+        {"zh": "脚轮卡了根草，停一下。", "en": "A blade of grass jams my wheel; one moment."},
+        {"zh": "我按直线走，不绕弯。", "en": "I travel in straight lines, never detours."},
+        {"zh": "震动让我的盖板松了。", "en": "The shaking loosens my cover plate."},
+        {"zh": "我靠近伤员，慢慢挪。", "en": "I creep closer to the injured."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "待机中，系统正常。", "en": "Standing by; all systems normal."},
+        {"zh": "我扫描周围的伤势。", "en": "I scan the injuries around me."},
+        {"zh": "药液还够用三次。", "en": "Enough serum remains for three doses."},
+        {"zh": "风扇转着，散掉热气。", "en": "My fan spins to vent the heat."},
+        {"zh": "没有伤员，我空转着。", "en": "No wounded, so I idle."},
+        {"zh": "我自检一遍关节。", "en": "I run a self-check on my joints."},
+        {"zh": "范围太小，我一直记得。", "en": "My range is small; I never forget."},
+        {"zh": "红石线路微微发热。", "en": "The redstone circuit warms slightly."},
+        {"zh": "我数着路过的灾厄村民。", "en": "I count the illagers passing by."},
+        {"zh": "安静，只听见电流声。", "en": "Quiet, except for the hum of current."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你不是村民，我扫描你。", "en": "You are not a villager; scanning you."},
+        {"zh": "玩家不需要治疗。", "en": "Players do not require treatment."},
+        {"zh": "我的镜头对着你的手。", "en": "My lens focuses on your hands."},
+        {"zh": "你拿武器，我提高警戒。", "en": "You carry a weapon; I raise alertness."},
+        {"zh": "我把光圈移到你脸上。", "en": "I move my light onto your face."},
+        {"zh": "你在我的治疗范围外。", "en": "You stand outside my treatment radius."},
+        {"zh": "我记录你的身高体重。", "en": "I log your height and weight."},
+        {"zh": "别挡我的镜头。", "en": "Do not block my lens."},
+        {"zh": "我眨眼，其实是重启。", "en": "I blink; it is actually a reboot."},
+        {"zh": "看你一眼，判断威胁等级。", "en": "One glance to judge your threat level."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "外壳裂了，还能运转。", "en": "My shell is cracked, but I still run."},
+        {"zh": "零件掉了，我记下来。", "en": "A part fell off; logging it."},
+        {"zh": "电流短路，火花四溅。", "en": "The circuit shorts; sparks fly."},
+        {"zh": "这一击让齿轮卡住。", "en": "That blow jammed my gears."},
+        {"zh": "我抖了抖，抖掉碎片。", "en": "I shake off the debris."},
+        {"zh": "损伤百分之十二。", "en": "Damage at twelve percent."},
+        {"zh": "我站不稳，扶住墙。", "en": "I wobble and brace against the wall."},
+        {"zh": "修复程序自己启动了。", "en": "My repair routine engaged itself."},
+        {"zh": "疼不疼，我判断不了。", "en": "I cannot tell whether this hurts."},
+        {"zh": "别打药箱，里面有药。", "en": "Not the case; the medicine is inside."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "面包塞不进我的燃料槽。", "en": "Bread does not fit into my fuel slot."},
+        {"zh": "我需要红石，不是面包。", "en": "I need redstone, not bread."},
+        {"zh": "你举着胡萝卜，我无反应。", "en": "You hold a carrot; I do not react."},
+        {"zh": "电量不足才是我关心的。", "en": "Low charge is what concerns me."},
+        {"zh": "食物会堵住我的进料口。", "en": "Food would clog my intake port."},
+        {"zh": "把红石放近点，我看看。", "en": "Bring the redstone closer; let me look."},
+        {"zh": "我闻不到，也吃不下。", "en": "I cannot smell, and cannot eat."},
+        {"zh": "你喂我，只会弄脏机身。", "en": "Feeding me would only dirty my chassis."},
+        {"zh": "这块铁锭比面包有用。", "en": "That iron ingot is more useful than bread."},
+        {"zh": "我用电力换取忠诚。", "en": "I trade my loyalty for electricity."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "碰撞检测，外壳凹陷。", "en": "Collision detected; my shell is dented."},
+        {"zh": "你撞歪了我的支架。", "en": "You knocked my strut out of alignment."},
+        {"zh": "请保持一米距离。", "en": "Please maintain one meter of distance."},
+        {"zh": "我被撞得转了个向。", "en": "The impact spun me around."},
+        {"zh": "别踩我的电源线。", "en": "Do not step on my power cable."},
+        {"zh": "我调整重心，没有倒。", "en": "I shift my balance and stay upright."},
+        {"zh": "撞击触发了警报。", "en": "The bump triggered my alarm."},
+        {"zh": "我的盖板弹开了。", "en": "My cover plate popped open."},
+        {"zh": "你让开，我要去救人。", "en": "Step aside; I am going to help someone."},
+        {"zh": "碰我一下，我记一次。", "en": "One bump, one log entry."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我没有繁殖模块。", "en": "I have no reproduction module."},
+        {"zh": "工程师没给我装这个。", "en": "The engineers never installed that."},
+        {"zh": "两个机器也造不出小机器。", "en": "Two machines cannot produce a small machine."},
+        {"zh": "我的同类都是流水线造的。", "en": "My kind are built on an assembly line."},
+        {"zh": "配对不在我的任务清单。", "en": "Pairing is not on my task list."},
+        {"zh": "我只会修人，不会生。", "en": "I repair people; I do not bear them."},
+        {"zh": "别问我这个，我拒绝回答。", "en": "Do not ask; I refuse to answer."},
+        {"zh": "我的伴侣是那台充电桩。", "en": "My partner is that charging post."},
+        {"zh": "我被造出来，不是被养出来。", "en": "I was built, not raised."},
+        {"zh": "这条指令不存在。", "en": "That instruction does not exist."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我只捡零件和药瓶。", "en": "I collect only parts and vials."},
+        {"zh": "地上有枚螺丝，归我。", "en": "A screw on the ground; mine."},
+        {"zh": "我弯腰会发出警报。", "en": "Bending sets off a warning tone."},
+        {"zh": "这块铁片能补外壳。", "en": "This iron plate can patch my shell."},
+        {"zh": "我拾起掉落的药包。", "en": "I pick up a dropped medicine pack."},
+        {"zh": "别把垃圾塞我箱里。", "en": "Do not stuff trash into my case."},
+        {"zh": "我的机械臂夹得很稳。", "en": "My mechanical arm grips firmly."},
+        {"zh": "这颗红石还有电。", "en": "This redstone still holds a charge."},
+        {"zh": "捡到的东西要登记。", "en": "Collected items must be logged."},
+        {"zh": "我拿不了太多，容量有限。", "en": "I cannot carry much; capacity is limited."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "威胁识别，优先保护伤员。", "en": "Threat identified; protect the wounded first."},
+        {"zh": "你把武器对准了我们。", "en": "You leveled a weapon at us."},
+        {"zh": "我标记你为敌对单位。", "en": "I mark you as a hostile unit."},
+        {"zh": "别靠近我的病人。", "en": "Stay away from my patients."},
+        {"zh": "警报响了，我启动防御。", "en": "The alarm sounds; I engage defense."},
+        {"zh": "你不是村民，是干扰项。", "en": "You are not a villager; you are interference."},
+        {"zh": "我挡在伤员前面。", "en": "I plant myself in front of the wounded."},
+        {"zh": "距离过近，准备驱离。", "en": "Too close; preparing to repel."},
+        {"zh": "我抬起机械臂。", "en": "I raise my mechanical arm."},
+        {"zh": "为了同伴，我必须拦你。", "en": "For my comrades, I must stop you."},
+        {"zh": "你想杀谁，我都看着。", "en": "I see whoever you intend to kill."},
+        {"zh": "扫描完成，你很强。", "en": "Scan complete; you are strong."},
+        {"zh": "护盾能量转向正面。", "en": "Shield energy routed to the front."},
+        {"zh": "我会拖住你，直到他们撤走。", "en": "I will hold you until they withdraw."},
+        {"zh": "治疗程序中断，转向你。", "en": "Healing halted; turning to you."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把喷口对准你。", "en": "I aim my nozzle at you."},
+        {"zh": "冷却液在管里流动。", "en": "Coolant flows through my pipes."},
+        {"zh": "你每一动，我都计算。", "en": "Every move of yours gets calculated."},
+        {"zh": "我的拳头是维修锤。", "en": "My fist is a repair hammer."},
+        {"zh": "别以为机器不会疼。", "en": "Do not assume a machine feels no pain."},
+        {"zh": "我压低支架，准备冲撞。", "en": "I lower my struts, ready to charge."},
+        {"zh": "你离伤员只有三步。", "en": "You are three steps from the wounded."},
+        {"zh": "电流在关节里聚起来。", "en": "Current gathers in my joints."},
+        {"zh": "我数你的破绽。", "en": "I count the gaps in your guard."},
+        {"zh": "锁定完成，可以动手。", "en": "Lock complete; I may engage."},
+        {"zh": "我把功率调到最大。", "en": "I push power to maximum."},
+        {"zh": "你每退半米，我轮子就前进。", "en": "Every half meter you yield, my wheels advance."},
+        {"zh": "警告最后一次。", "en": "This is your final warning."},
+        {"zh": "治疗模式关闭，防御模式开。", "en": "Healing off; defense mode on."},
+        {"zh": "我把肩甲转向你，护住火芯。", "en": "I turn my shoulder plate over the core."},
+        {"zh": "你举起斧头，我算好落点。", "en": "Axe raised; landing point computed."},
+        {"zh": "伤员在后，我不能退。", "en": "The wounded are behind me; no retreat."},
+        {"zh": "我的轮子碾过碎石，稳住。", "en": "Wheels grind the rubble and hold."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "维修锤砸在你肩上。", "en": "My repair hammer slams your shoulder."},
+        {"zh": "我用电击头戳你。", "en": "I jab you with the shock tip."},
+        {"zh": "这一下是标准力道。", "en": "That strike used standard force."},
+        {"zh": "外壳撞你，像堵墙。", "en": "My shell hits you like a wall."},
+        {"zh": "我抓住你的手腕。", "en": "I clamp onto your wrist."},
+        {"zh": "药液管甩到你脸上。", "en": "A serum tube whips across your face."},
+        {"zh": "机械臂回弹很慢。", "en": "My arm recoils slowly."},
+        {"zh": "我推开你，去救同伴。", "en": "I shove you aside to reach my comrade."},
+        {"zh": "打中，记录战果。", "en": "Hit confirmed; logging the result."},
+        {"zh": "你别逼我再动手。", "en": "Do not make me strike again."},
+        {"zh": "齿轮咬住你的护甲。", "en": "My gears bite into your armor."},
+        {"zh": "这一锤，为伤员讨的。", "en": "This blow is for the wounded."},
+        {"zh": "我的动作很笨，但很重。", "en": "My motion is clumsy, but heavy."},
+        {"zh": "别挡在治疗路径上。", "en": "Do not block the healing path."},
+        {"zh": "锤柄扫过你的膝弯。", "en": "The hammer haft sweeps your knee."},
+        {"zh": "我把你顶开三步，够了。", "en": "Three steps back; that is enough."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "启动完成，系统上线。", "en": "Startup complete; systems online."},
+        {"zh": "我从工程师的工坊来。", "en": "I come from the engineers' workshop."},
+        {"zh": "轮子落地，稳住了。", "en": "My wheels land and hold steady."},
+        {"zh": "药箱满的，我准备好了。", "en": "Medicine case full; I am ready."},
+        {"zh": "这里的伤员在哪里？", "en": "Where are the wounded here?"},
+        {"zh": "指示灯亮起，绿光。", "en": "My indicator lights up green."},
+        {"zh": "我展开支架，站直。", "en": "I unfold my struts and stand tall."},
+        {"zh": "螺丝还没拧紧，稍等。", "en": "Screws are still loose; one moment."},
+        {"zh": "同伴倒下前，我得赶到。", "en": "I must arrive before my comrades fall."},
+        {"zh": "我带着三瓶药液。", "en": "I carry three vials of serum."},
+        {"zh": "工坊的焊痕还在身上。", "en": "Welding marks from the workshop remain."},
+        {"zh": "谁受伤了，报个位置。", "en": "If you are hurt, report your position."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "高温让我的线路发软。", "en": "The heat softens my wiring."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠落把我的支架砸弯。", "en": "The fall bent my struts."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水进了电路，全乱了。", "en": "Water in my circuits; everything shorts."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击波掀掉我半块盖板。", "en": "The blast tears off half my cover plate."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭卡进了我的散热口。", "en": "An arrow lodges in my vent."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "法术干扰了我的校准。", "en": "Magic interferes with my calibration."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "电量见底，动作变慢。", "en": "My charge is nearly gone; movements slow."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击过载，我麻木了。", "en": "Lightning overloads me; I go numb."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空里没有求救信号。", "en": "No signal reaches anyone from the void."}
+      ]
+    }
+  }
+}

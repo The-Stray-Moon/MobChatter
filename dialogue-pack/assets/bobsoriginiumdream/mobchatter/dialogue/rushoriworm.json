@@ -1,0 +1,252 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一路冲，不肯停。", "en": "I charge along and will not stop."},
+        {"zh": "我的甲壳刮着地面。", "en": "My shell scrapes the ground."},
+        {"zh": "我比同类冲得远。", "en": "I charge further than my kin."},
+        {"zh": "沙土被我顶起来。", "en": "I throw up dirt as I go."},
+        {"zh": "我的尖刺朝前。", "en": "My spikes point forward."},
+        {"zh": "我不绕，直接撞。", "en": "I do not go around. I ram."},
+        {"zh": "这一路被我压平了。", "en": "I flatten this path as I go."},
+        {"zh": "我的壳厚得吓人。", "en": "My shell is frighteningly thick."},
+        {"zh": "我冲过一片灌木。", "en": "I burst through a thicket."},
+        {"zh": "雪也挡不住我。", "en": "Even snow does not stop me."},
+        {"zh": "我一口气冲出去很远。", "en": "I rush out a long way in one go."},
+        {"zh": "我撞过的石头都碎了。", "en": "The stones I hit are all broken."},
+        {"zh": "我一边冲一边喘。", "en": "I pant as I charge."},
+        {"zh": "这身壳，值这么多血。", "en": "This shell cost me that much health."},
+        {"zh": "我剐蹭着它，继续。", "en": "I scrape along and keep going."},
+        {"zh": "我回头看了看。", "en": "I look back once."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我喘着，甲壳起伏。", "en": "I pant, shell rising and falling."},
+        {"zh": "我停不住太久。", "en": "I cannot stay still for long."},
+        {"zh": "我的腿还在抖。", "en": "My legs are still trembling."},
+        {"zh": "地上全是我刮的印。", "en": "The ground is scored with my marks."},
+        {"zh": "我等着下一次冲。", "en": "I wait for the next charge."},
+        {"zh": "我的尖刺上还挂着东西。", "en": "There is something on my spikes."},
+        {"zh": "我低着头。", "en": "I keep my head low."},
+        {"zh": "壳里嗡嗡响。", "en": "There is a hum inside my shell."},
+        {"zh": "这一片被我撞得乱七八糟。", "en": "I have wrecked this patch."},
+        {"zh": "抬头看看，天还没塌。", "en": "Look up. The sky hasn't fallen."},
+        {"zh": "我不累，只是慢下来。", "en": "I am not tired. Only slowing."},
+        {"zh": "再冲一次。", "en": "One more charge."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你站得正好。", "en": "You are standing just right."},
+        {"zh": "我朝你这边。", "en": "I am facing your way."},
+        {"zh": "我的尖刺对着你。", "en": "My spikes point at you."},
+        {"zh": "你挡在路上了。", "en": "You are in the way."},
+        {"zh": "我不喜欢绕路。", "en": "I do not like detours."},
+        {"zh": "你退吗。", "en": "Will you move?"},
+        {"zh": "这一步下来，你就知道。", "en": "One step and you will know."},
+        {"zh": "我的壳很硬。", "en": "My shell is hard."},
+        {"zh": "你比我瘦。", "en": "You are thinner than I."},
+        {"zh": "你数三下，我就冲。", "en": "Count three, and I charge."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "壳上掉下一块尖刺。", "en": "A spike fell off my shell."},
+        {"zh": "我歪着退了。", "en": "I veered back."},
+        {"zh": "冲锋甲壳裂了，尖刺还在。", "en": "My shell cracked; the spikes remain."},
+        {"zh": "我抖了抖身上的碎屑。", "en": "I shake the debris off."},
+        {"zh": "疼，但我还能冲。", "en": "It hurts, and I can still charge."},
+        {"zh": "我头上断了一根刺。", "en": "One of my spikes snapped."},
+        {"zh": "我喘得更重了。", "en": "My panting deepened."},
+        {"zh": "地上多了几片甲。", "en": "More shell on the ground."},
+        {"zh": "冲锋甲壳碎了一片。", "en": "A plate of my charging shell broke off."},
+        {"zh": "甲壳没碎，只是凹了。", "en": "My shell didn't crack, just dented."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "铁？拿来。", "en": "Iron? Hand it over."},
+        {"zh": "我要长力气。", "en": "I want to grow stronger."},
+        {"zh": "举高，我才撞得到。", "en": "Hold it high so I can hit it."},
+        {"zh": "我把地上的东西顶走了。", "en": "I shoved the ground-litter away."},
+        {"zh": "这块不够。", "en": "This is not enough."},
+        {"zh": "再给，我就跟着你。", "en": "Give more, and I follow you."},
+        {"zh": "嘎吱一声，吞下去了。", "en": "A crunch, and it is down."},
+        {"zh": "壳又厚了一层。", "en": "My shell thickened a little."},
+        {"zh": "铁呢，再来一块。", "en": "Where's the iron? Another piece."},
+        {"zh": "铁？拿来，我要长力气。", "en": "Iron? Give it here — I want strength."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你被我一撞就退。", "en": "One hit and you are back."},
+        {"zh": "我没减速。", "en": "I did not slow down."},
+        {"zh": "我的壳凹了一点。", "en": "My shell dented slightly."},
+        {"zh": "你退了五步。", "en": "You went back five paces."},
+        {"zh": "这一下是你挡路。", "en": "That was you in the way."},
+        {"zh": "我继续冲。", "en": "I keep charging."},
+        {"zh": "碎石溅得到处都是。", "en": "Debris sprays everywhere."},
+        {"zh": "再挡一次试试。", "en": "Block that again."},
+        {"zh": "你的鞋跟磨掉一层。", "en": "A layer ground off your heel."},
+        {"zh": "站稳，我的壳要来了。", "en": "Stand firm. Here comes my shell."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲过去，就是我的回答。", "en": "Charging past is my answer."},
+        {"zh": "它的壳没我厚。", "en": "Its shell is thinner than mine."},
+        {"zh": "我们并排冲了一段。", "en": "We charged side by side a stretch."},
+        {"zh": "地上两道沟。", "en": "Two trenches on the ground."},
+        {"zh": "我们的尖刺碰了一下。", "en": "Our spikes clicked together."},
+        {"zh": "它先停了。", "en": "It stopped first."},
+        {"zh": "我不等了。", "en": "I am not waiting."},
+        {"zh": "这一窝都带着甲壳。", "en": "The whole brood carries shell."},
+        {"zh": "冲过去了。", "en": "Charged right past."},
+        {"zh": "留下两道痕。", "en": "Two trails left behind."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地上的甲壳，我捡。", "en": "I take the shell from the ground."},
+        {"zh": "这块很硬。", "en": "This one is hard."},
+        {"zh": "我用颚拖着。", "en": "I drag it with my jaws."},
+        {"zh": "不是铁，我不要。", "en": "Not iron. I do not want it."},
+        {"zh": "我压在身下。", "en": "I press it under me."},
+        {"zh": "它卡在我刺上了。", "en": "It is caught on my spikes."},
+        {"zh": "太沉，扔了。", "en": "Too heavy. Dropped."},
+        {"zh": "这东西我撞下来的。", "en": "I knocked this loose."},
+        {"zh": "归我。", "en": "Mine."},
+        {"zh": "我把它顶到坡上。", "en": "I shove it up the slope."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我找好方向了。", "en": "I have my line."},
+        {"zh": "你就在直线上。", "en": "You are on that line."},
+        {"zh": "我的角壳对准前面。", "en": "My horned shell aims ahead."},
+        {"zh": "腿开始蹬地。", "en": "My legs begin to drive."},
+        {"zh": "这一下很快。", "en": "This will be quick."},
+        {"zh": "你别动就好。", "en": "Best if you do not move."},
+        {"zh": "冲锋甲壳顶着风，我来了。", "en": "Charger shell to the wind, here I come."},
+        {"zh": "冲。", "en": "Charge."},
+        {"zh": "尘已经起来了。", "en": "The dust is already up."},
+        {"zh": "别挡冲锋的道。", "en": "Do not block the charge lane."},
+        {"zh": "冲锋的声响到了。", "en": "The sound of the charge has arrived."},
+        {"zh": "就这一下。", "en": "This one hit."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我还在加速。", "en": "I am still speeding up."},
+        {"zh": "你退得比我想的慢。", "en": "You retreat slower than I thought."},
+        {"zh": "地面在响。", "en": "The ground is sounding."},
+        {"zh": "冲起来，我停不下来。", "en": "Once I charge, I can't stop."},
+        {"zh": "尖刺先到。", "en": "The spikes arrive first."},
+        {"zh": "你的手挡不住。", "en": "Your hands will not stop it."},
+        {"zh": "我盯着你的腰。", "en": "I am fixed on your waist."},
+        {"zh": "转过身，我撞你后背。", "en": "Turn around and I hit your back."},
+        {"zh": "我的角已经贴到你背。", "en": "My horn is already at your back."},
+        {"zh": "撞上。", "en": "Impact."},
+        {"zh": "我的甲刮着地皮。", "en": "My shell is scraping the dirt."},
+        {"zh": "你的影子在晃。", "en": "Your shadow is swaying."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我整只砸上去。", "en": "I slam my whole body in."},
+        {"zh": "尖刺扎进去。", "en": "The spikes go in."},
+        {"zh": "你被顶飞了。", "en": "You are thrown off."},
+        {"zh": "这一撞有十几点。", "en": "That hit carried its full weight."},
+        {"zh": "我的甲壳磕出火星。", "en": "My shell strikes sparks."},
+        {"zh": "你滚了两圈。", "en": "You roll twice."},
+        {"zh": "我停在原地喘。", "en": "I stop and pant."},
+        {"zh": "这一下用尽了我的力。", "en": "That took all my strength."},
+        {"zh": "地上有甲壳碎片。", "en": "There are shell fragments on the ground."},
+        {"zh": "我的壳也裂了。", "en": "My own shell cracked."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从土里顶出来。", "en": "I push up out of the earth."},
+        {"zh": "石头撞我，碎的是石头。", "en": "When stone hits me, the stone breaks."},
+        {"zh": "我先冲一段。", "en": "First I charge a stretch."},
+        {"zh": "这里的路很直。", "en": "The ground here is straight."},
+        {"zh": "尖刺还带着土。", "en": "My spikes still carry soil."},
+        {"zh": "我撞倒了一棵树苗。", "en": "I knocked over a sapling."},
+        {"zh": "风里有活物的味。", "en": "There is a living smell on the wind."},
+        {"zh": "我调头，把冲刺对准你。", "en": "I turn and line the charge at you."},
+        {"zh": "这一片，够我跑。", "en": "Enough room here to run."},
+        {"zh": "铁味儿一响，我就冲。", "en": "The tang of iron rings out, and I charge."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火一烧，我的甲就焦了。", "en": "Fire scorches my shell."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔下去，甲壳撞得嗡嗡响。", "en": "I fall and my shell booms."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进壳里，我变重了。", "en": "Water fills my shell and I grow heavy."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸得我甲壳翻了过来。", "en": "The blast flips my shell over."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西扎进甲缝。", "en": "Something wedged into my shell seam."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这股力把我钉住了。", "en": "This force pins me down."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得我没力气冲。", "en": "Too hungry to charge."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈下来，甲全都发亮。", "en": "Lightning strikes and my shell glows."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里没有地面可以冲。", "en": "There is no ground to charge on."}
+      ]
+    }
+  }
+}

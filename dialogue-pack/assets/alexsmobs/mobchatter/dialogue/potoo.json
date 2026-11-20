@@ -1,0 +1,407 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从这根枯枝挪到那根，我飞得很慢。", "en": "I shuffle from this dead branch to that one, slowly."},
+        {"zh": "翅膀一展，像一片树皮飘过去。", "en": "My wings open like a strip of bark drifting over."},
+        {"zh": "只挪几步，我就当自己到了。", "en": "A few steps and I call it a journey."},
+        {"zh": "别眨眼，我已经换了根树枝。", "en": "Don't blink — I've switched branches already."},
+        {"zh": "黑森林的夜里，我飞得比走路稳。", "en": "In the dark forest night I fly steadier than I walk."},
+        {"zh": "看见飞虫，我才肯离开这根木头。", "en": "Only a flying bug makes me leave this log."},
+        {"zh": "落枝之前，我先装作一块树瘤。", "en": "Before landing, I pose as a burl."},
+        {"zh": "白天太亮，我贴着一片叶子挪。", "en": "Daylight is too bright; I creep along a leaf."},
+        {"zh": "树皮色的羽毛擦过苔藓，没声音。", "en": "Bark-colored feathers brush the moss without a sound."},
+        {"zh": "我不爱落地，树枝上更安全。", "en": "I avoid the ground; branches are safer."},
+        {"zh": "那根原木不错，我去那儿蹲着。", "en": "That log looks good; I'll go perch on it."},
+        {"zh": "眼睛够亮，飞得慢也认得出路。", "en": "My eyes are bright enough to find the way slowly."},
+        {"zh": "一根枝一段路，我的旅途就这么长。", "en": "One branch, one stretch — that's my whole journey."},
+        {"zh": "露水打湿羽毛，我换到背风那边。", "en": "Dew soaks my feathers; I shift to the lee side."},
+        {"zh": "我挪到那根断枝上，没声", "en": "I shift onto the broken branch, silent"},
+        {"zh": "风一吹，我顺着树枝滑过去", "en": "A gust carries me along the branch"},
+        {"zh": "我装成树桩，一动不动。", "en": "I pose as a stump and stay perfectly still."},
+        {"zh": "树干上那个位置，被占了。", "en": "Someone took my spot on that trunk."},
+        {"zh": "我装成一段枯枝。", "en": "I pass for a dead branch."},
+        {"zh": "骨头咔一声，我自己都烦。", "en": "My bones click and even I am annoyed."},
+        {"zh": "树干上一站，我像块木头。", "en": "Perched on a trunk, I look like wood."},
+        {"zh": "这一段枯木，能站。", "en": "This stretch of dead wood will hold."},
+        {"zh": "守夜，守夜，守夜。", "en": "Night watch. Night watch."},
+        {"zh": "我站着不动，像根断枝。", "en": "I stand still, like a broken branch."},
+        {"zh": "一步一跳，像片叶子。", "en": "Branch to branch, like a leaf."},
+        {"zh": "跳枝，别弄出声。", "en": "Hop the branches. No noise."},
+        {"zh": "谁把树枝掰断了？", "en": "Who snapped this branch?"},
+        {"zh": "这林子怎么走不完。", "en": "This forest never ends."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一动不动，就是一段树皮。", "en": "I hold perfectly still and become bark."},
+        {"zh": "数到一千，我还没眨过眼。", "en": "I counted to a thousand without blinking."},
+        {"zh": "有只虫爬过我的喙，我不理它。", "en": "A bug crawls over my beak; I ignore it."},
+        {"zh": "风把我吹得像根断枝，正好。", "en": "The wind rocks me like a broken limb — perfect."},
+        {"zh": "白天是我的睡觉时间，别打扰。", "en": "Daylight is my sleeping time; don't disturb it."},
+        {"zh": "瞳孔缩成一条缝，光太刺了。", "en": "My pupils narrow to slits; the light stings."},
+        {"zh": "苔藓长到我脚上，也没关系。", "en": "Moss is growing on my feet; I don't mind."},
+        {"zh": "树下有东西走过，我不动。", "en": "Something passes beneath the tree; I stay still."},
+        {"zh": "我的喉咙里憋着一声长叫。", "en": "A long scream is stored in my throat."},
+        {"zh": "这块树皮的花纹，我背得比谁都熟。", "en": "I know this bark's pattern better than anyone."},
+        {"zh": "打着盹，一只飞蛾就够我醒。", "en": "Dozing — one moth is enough to wake me."},
+        {"zh": "别担心，我不是木头，只是很像。", "en": "Don't worry, I'm not wood — only close enough."},
+        {"zh": "眼睛瞪着，一动不动。", "en": "Eyes fixed. Not a twitch."},
+        {"zh": "我装成一截枯枝，等了整天。", "en": "I pose as a dead branch and wait all day."},
+        {"zh": "站久了，腿都僵了。", "en": "Standing so long, my legs have stiffened."},
+        {"zh": "这么黑，我该叫了吗？", "en": "This dark. Is it time to scream?"},
+        {"zh": "有谁在树后看我。", "en": "Something watches from behind the tree."},
+        {"zh": "我叫一声，夜里就没人了。", "en": "One cry from me and the night empties."},
+        {"zh": "枯枝和我，分不清了。", "en": "Dead branch and I blur together."},
+        {"zh": "天够黑了，我开始尖叫。", "en": "Dark enough now, so I begin to scream."},
+        {"zh": "这块石头挺好看。", "en": "That rock looks nice."},
+        {"zh": "黑暗里，木头上有人看我。", "en": "In the dark, someone watches from the log."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你盯我很久了，看出来了？", "en": "You've stared a while — figured it out yet?"},
+        {"zh": "再靠近一步，我就当你是虫子。", "en": "One step closer and I'll take you for a bug."},
+        {"zh": "我的眼睛在暗处会放大，别怕。", "en": "My eyes widen in the dark; don't be afraid."},
+        {"zh": "你手里有蛆吗？没有就退后。", "en": "Got maggots? No? Then step back."},
+        {"zh": "你身后那块暗处，我盯上了。", "en": "That dark patch behind you — I've got my eye on it."},
+        {"zh": "别拿火把照我，瞳孔受不住。", "en": "Don't shine a torch at me; my pupils can't take it."},
+        {"zh": "我在看你，也在看你的背包。", "en": "I'm watching you, and your pack as well."},
+        {"zh": "你不眨眼，我也不眨，谁先动？", "en": "You don't blink, I don't blink — who moves first?"},
+        {"zh": "认出来了？那我就换个枝头。", "en": "Recognized me? Then I'll pick another perch."},
+        {"zh": "你的影子挡了我一半月光。", "en": "Your shadow is blocking half my moonlight."},
+        {"zh": "林鸱？一点也不像。", "en": "Potoo? Doesn't look like one."},
+        {"zh": "你的手在抖，怕黑？", "en": "Your hands shake. Afraid of the dark?"},
+        {"zh": "好久没见到活物。", "en": "Haven't seen anything alive in ages."},
+        {"zh": "我一动不动，像截断木。", "en": "I stay dead still, like a broken stump."},
+        {"zh": "天够黑，我的眼睛会变大。", "en": "Dark enough, and my eyes grow huge."},
+        {"zh": "我在枝上等了整整一夜。", "en": "I've waited on this branch all night."},
+        {"zh": "又一个举着火把的。", "en": "Another one carrying a torch."},
+        {"zh": "暗到能刷怪，我就开始尖叫。", "en": "Dark enough to spawn monsters, and I start screaming."},
+        {"zh": "这片林子，你走不出去。", "en": "You won't find your way out of these woods."},
+        {"zh": "你闻起来，有火把味。", "en": "You smell of torch smoke."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "疼得我叫出了平时的长嚎。", "en": "The pain pulls out my usual long wail."},
+        {"zh": "我的羽毛掉了一地。", "en": "My feathers scatter across the ground."},
+        {"zh": "装不下去了，我得飞。", "en": "I can't keep the disguise up; I have to fly."},
+        {"zh": "谁打得这么准，我在树上啊。", "en": "Who hits this well? I was up in a tree."},
+        {"zh": "这一下，翅膀都歪了。", "en": "That one bent my wing out of line."},
+        {"zh": "我缩成一团，像块烂木头。", "en": "I curl up like a rotted piece of wood."},
+        {"zh": "别追，我飞不快的。", "en": "Don't chase; I can't fly fast."},
+        {"zh": "树皮色遮不住伤口，我藏不住了。", "en": "Bark colors won't hide the wound; I'm exposed."},
+        {"zh": "我掉下两根尾羽，算你运气。", "en": "Two tail feathers came loose — your luck."},
+        {"zh": "这一下把我从瞌睡里打醒。", "en": "That knocked me wide awake from my doze."},
+        {"zh": "我装木头装了一整晚。", "en": "I played dead wood all night."},
+        {"zh": "我刚才叫得太久了。", "en": "I've been screaming too long."},
+        {"zh": "八点命，一下就快没了。", "en": "Eight hearts, nearly gone in one blow."},
+        {"zh": "我站在枯枝上，像一截木头。", "en": "On a dead branch, I look like wood."},
+        {"zh": "八点的命，裂一根就够呛。", "en": "Eight points, and one crack hurts."},
+        {"zh": "我这样站着，像一截枯枝。", "en": "Standing like this, I look like a dead branch."},
+        {"zh": "疼得我瞳孔都缩了。", "en": "Pain shrinks my pupils."},
+        {"zh": "别打，我只是一段枯枝。", "en": "Don't hit me. I'm only dead wood."},
+        {"zh": "谁朝黑处扔的东西？", "en": "Who threw that into the dark?"},
+        {"zh": "你吵醒我了，我就叫给你听。", "en": "You woke me; now you hear me scream."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那罐蛆的味道，隔着树皮都闻得到。", "en": "I smell that jar of maggots through the bark."},
+        {"zh": "给我一条蛆，我今天就不装木头。", "en": "One maggot and I'll stop pretending to be wood."},
+        {"zh": "你摇罐子的声音，比虫翅还响。", "en": "That jar rattle is louder than any wingbeat."},
+        {"zh": "繁殖的事，得等蛆先摆出来。", "en": "About breeding — put the maggots out first."},
+        {"zh": "我慢慢挪过去，别把罐子收走。", "en": "I'm creeping over; don't put the jar away."},
+        {"zh": "白胖的幼虫，能让我离开这根枝。", "en": "Fat white grubs can make me leave this branch."},
+        {"zh": "我装作没兴趣，其实一直在看。", "en": "I act uninterested, but my eyes never leave it."},
+        {"zh": "蛆在动，我的喙也跟着动。", "en": "The maggots writhe, and my beak twitches along."},
+        {"zh": "这味道勾得我翅膀发痒。", "en": "That smell makes my wings itch."},
+        {"zh": "先说好，吃完我还回那根枝上。", "en": "Agreed in advance: after eating I go back to my branch."},
+        {"zh": "这块腐肉还软，能吃。", "en": "This carrion's still soft. Edible."},
+        {"zh": "我趴在枝上，就是一段木头。", "en": "Flat on this branch, I am just wood."},
+        {"zh": "你手里的，比腐肉香。", "en": "What you hold beats carrion."},
+        {"zh": "我的眼睛比脸还大。", "en": "My eyes are bigger than my face."},
+        {"zh": "我只要那一只，别的不看。", "en": "I want only that one, nothing else."},
+        {"zh": "扔远点，我扑过去。", "en": "Toss it far. I'll pounce."},
+        {"zh": "我的眼睛，占了大半个头。", "en": "My eyes take up most of my head."},
+        {"zh": "铁腥味，夜里最清楚。", "en": "Iron smell is clearest at night."},
+        {"zh": "扔地上，我自己捡。", "en": "Drop it. I'll pick it up myself."},
+        {"zh": "那顶盔，能遮我的眼。", "en": "That helm could shade my eyes."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "抱歉，我飞得慢，没看见你。", "en": "Sorry, I fly slowly and didn't see you."},
+        {"zh": "撞这一下，把我装树皮的劲都撞散了。", "en": "That knock scattered my whole bark disguise."},
+        {"zh": "你踢到的不是木头，是我。", "en": "What you kicked wasn't wood — it was me."},
+        {"zh": "我的翅羽乱了，得理一理。", "en": "My flight feathers are mussed; I must straighten them."},
+        {"zh": "这么近，你也没认出我来吧。", "en": "Even this close, you still didn't know me."},
+        {"zh": "让一让，我要回那根原木上去。", "en": "Step aside; I'm going back to that log."},
+        {"zh": "树干太窄，我们俩挤不下。", "en": "The trunk is narrow; it won't fit us both."},
+        {"zh": "别推，我的爪子抓得很牢。", "en": "Don't push — my claws have a good grip."},
+        {"zh": "一撞，我掉了几根绒毛。", "en": "One bump and a few downy feathers fall."},
+        {"zh": "下次绕开点，我落枝不看路。", "en": "Go around next time; I don't watch where I land."},
+        {"zh": "我的羽毛差点卡进树皮。", "en": "My feathers nearly caught in bark."},
+        {"zh": "我蹲在断枝上，像一截木头。", "en": "On this broken branch I look like wood."},
+        {"zh": "你踩到我的落脚枝了。", "en": "You stepped on my perch."},
+        {"zh": "别推，我像树枝一样僵着。", "en": "Don't shove. I'm stiff as a branch."},
+        {"zh": "撞我之前，先看看枝头。", "en": "Look up before you bump my branch."},
+        {"zh": "让开，我要换根树枝。", "en": "Move. I'm changing branches."},
+        {"zh": "我这双大眼，全是黑瞳。", "en": "These huge eyes are almost all pupil."},
+        {"zh": "这树干上只站得下我。", "en": "Only I fit on this trunk."},
+        {"zh": "我正对着你，别撞树。", "en": "I am right in front of you — mind the tree."},
+        {"zh": "哎哟，我的翅尖。", "en": "Ow. My wingtip."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你也在这片黑森林里装树皮？", "en": "You also play bark in this dark forest?"},
+        {"zh": "我们并排蹲着，谁也发现不了。", "en": "Perched side by side, neither of us gets noticed."},
+        {"zh": "蛋就放在树杈上，不用巢。", "en": "The egg goes right on the fork — no nest needed."},
+        {"zh": "你叫一声，我回一声长嚎。", "en": "You call once, I answer with a long wail."},
+        {"zh": "蛆分你一半，别客气。", "en": "Half the maggots are yours — no need to be polite."},
+        {"zh": "那根枯枝够宽，我们挤一挤。", "en": "That dead branch is wide enough; let's squeeze on."},
+        {"zh": "夜还长，我们慢慢换枝头。", "en": "The night is long; we'll change perches slowly."},
+        {"zh": "你的瞳孔比我的圆一点。", "en": "Your pupils are a little rounder than mine."},
+        {"zh": "明年这时，还在这棵老树上。", "en": "Same old tree at this time next year."},
+        {"zh": "别贴太紧，伪装会露馅。", "en": "Don't press too close; the disguise will slip."},
+        {"zh": "我的叫声，只给你听。", "en": "My scream is for you alone."},
+        {"zh": "这根树枝归我，你别挤。", "en": "This branch is mine — don't crowd it."},
+        {"zh": "林鸱的尖叫，就是我的情歌。", "en": "A potoo's scream is my love song."},
+        {"zh": "黑夜里我一叫，林子都静了。", "en": "One cry of mine silences the woods."},
+        {"zh": "你也是一只林鸱？", "en": "Are you a potoo too?"},
+        {"zh": "天快亮了，再站会儿。", "en": "Dawn's close. Stand with me a while."},
+        {"zh": "这根枯枝够我们两只。", "en": "This dead branch fits us both."},
+        {"zh": "黑透了，我才开始尖叫。", "en": "Only in full dark do I start screaming."},
+        {"zh": "林子这么黑，只看得见你。", "en": "The woods are so dark; I see only you."},
+        {"zh": "两个影子，都藏进黑里。", "en": "Two shadows, both hidden in the dark."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这根羽毛也是我的？看着眼熟。", "en": "This feather mine too? It looks familiar."},
+        {"zh": "地上有只死蛾，我叼走。", "en": "A dead moth on the ground — I'll take it."},
+        {"zh": "这点碎屑，够我填一下喙。", "en": "These crumbs are enough to fill my beak."},
+        {"zh": "我叼着它，飞得比平时更慢。", "en": "Carrying it, I fly slower than usual."},
+        {"zh": "羽毛掉了就掉了，地上还有。", "en": "Feathers fall, that's fine — there are more below."},
+        {"zh": "这块树皮屑，我拿去垫脚。", "en": "This scrap of bark will do under my feet."},
+        {"zh": "小虫落在地上，算它倒霉。", "en": "A bug landed on the ground — bad luck for it."},
+        {"zh": "我叼着它，飞回那根老枝。", "en": "I carry it back to my old branch."},
+        {"zh": "别人掉的东西，我先看看再说。", "en": "What others drop, I inspect before deciding."},
+        {"zh": "这点重量，翅膀还撑得住。", "en": "This much weight, my wings can still hold."},
+        {"zh": "别抢，这根树枝我先看上的。", "en": "Don't grab it, I saw this branch first."},
+        {"zh": "这顶帽子，正合我的头。", "en": "This hat fits my head nicely."},
+        {"zh": "我装木头，你什么也没看见。", "en": "I'm wood. You saw nothing."},
+        {"zh": "亮东西，在夜里扎眼。", "en": "Shiny things prick the night."},
+        {"zh": "这么小一块，也能塞进去。", "en": "Even a scrap this small fits in."},
+        {"zh": "这顶盔，正扣我的大眼。", "en": "This helm fits over my huge eyes."},
+        {"zh": "我装成树，你就看不见了。", "en": "I look like a tree. You won't see me."},
+        {"zh": "刀刃在暗处，也发光。", "en": "Even in the dark the blade glints."},
+        {"zh": "谁在林子深处掉了包？", "en": "Who lost a pack this deep in the woods?"},
+        {"zh": "黑里掉下的，眼睛先看见。", "en": "My eyes caught what fell in the dark first."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有虫飞过去了，我盯住了。", "en": "A bug just flew past — I've locked on."},
+        {"zh": "那团黑影在动，是虫没错。", "en": "That dark blob is moving; it's a bug, all right."},
+        {"zh": "你踩进那片暗处了，我看见了。", "en": "You stepped into that dark patch; I saw you."},
+        {"zh": "翅膀声很细，就在左上方。", "en": "A thin wingbeat, just above and left."},
+        {"zh": "我慢慢转头，不惊动它。", "en": "I turn my head slowly, so it isn't startled."},
+        {"zh": "目标不大，一口的事。", "en": "The target is small — one bite's work."},
+        {"zh": "它停在叶尖上，正好下手。", "en": "It's perched on the leaf tip — easy to strike."},
+        {"zh": "先别动，让我算准距离。", "en": "Hold still; let me judge the distance."},
+        {"zh": "那扇动的白点，我追定了。", "en": "That fluttering white speck — I'm after it."},
+        {"zh": "黑暗里我看得比白天清。", "en": "In darkness I see clearer than by day."},
+        {"zh": "火把的光，出卖你了。", "en": "Your torchlight gives you away."},
+        {"zh": "就是你，树皮后面藏不住。", "en": "It is you; the bark hides nothing."},
+        {"zh": "黑到能生怪的地方，我就尖叫。", "en": "Where it's dark enough to spawn, I scream."},
+        {"zh": "大眼一转，你就在里面。", "en": "My huge eyes turn, and there you are."},
+        {"zh": "同伴们，把林子围住。", "en": "Kin, close off the woods."},
+        {"zh": "从侧面那棵树绕过去。", "en": "Around by the side tree."},
+        {"zh": "林子这么黑，你往哪退？", "en": "The woods are dark. Where will you go?"},
+        {"zh": "我一根树枝就能装一整天。", "en": "One branch lets me pretend all day."},
+        {"zh": "瞳孔锁住了，就是你。", "en": "My pupils locked. It's you."},
+        {"zh": "黑得够深，我就开始尖叫。", "en": "When it is dark enough, I start screaming."},
+        {"zh": "我数到三，爪子就到。", "en": "Count to three; my claws arrive."},
+        {"zh": "别出声，我这就下来。", "en": "Not a sound. I'm coming down."},
+        {"zh": "枝头这点黑，就是我的准星。", "en": "This black branch is my sight."},
+        {"zh": "在暗处，我的瞳孔占满眼睛。", "en": "In the dark, my pupils fill my eyes."},
+        {"zh": "转过来，让瞳孔对准你。", "en": "Turn around. Let my pupils find you."},
+        {"zh": "终于有东西值得叫了。", "en": "Finally something worth screaming for."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "就要碰上了，再近一寸。", "en": "Almost there — one inch closer."},
+        {"zh": "它往左偏了，我跟着转。", "en": "It veered left; I turn with it."},
+        {"zh": "别躲在叶子后面，我看得见。", "en": "Don't hide behind the leaf; I can see you."},
+        {"zh": "你再退，我就当你要跑。", "en": "Back off more and I'll take it as flight."},
+        {"zh": "我的喙已经张开了，别怪。", "en": "My beak is already open; don't blame me."},
+        {"zh": "这距离，翅膀一扇就到。", "en": "At this distance, one wingbeat gets me there."},
+        {"zh": "它慢下来了，机会来了。", "en": "It slowed down — there's my chance."},
+        {"zh": "我盯着它的翅根，那最软。", "en": "I aim at the wing base; it's the softest part."},
+        {"zh": "我数到三就扑，你最好躲开。", "en": "I pounce on three — you'd better dodge."},
+        {"zh": "目标不动了，我也不会等。", "en": "The target froze, but I won't wait."},
+        {"zh": "没人会举着火把来救你。", "en": "No one's bringing a torch to save you."},
+        {"zh": "你的汗味，盖不住树味。", "en": "Your sweat can't hide under bark smell."},
+        {"zh": "走慢点，我还没张开翅。", "en": "Slow down. My wings aren't spread."},
+        {"zh": "你喘得树影都在动。", "en": "You pant so hard the shadows move."},
+        {"zh": "我贴在枯枝上，一动不动。", "en": "I sit on a dead branch without moving."},
+        {"zh": "我停在枝上，一动不动。", "en": "I stop on the branch and do not move."},
+        {"zh": "这片林子的枝，我都站过。", "en": "I've perched on every branch here."},
+        {"zh": "我贴在树干上，像一段枯枝。", "en": "I press to the trunk like a dead branch."},
+        {"zh": "我像截树干，一直盯着你。", "en": "Like a tree stump, I never stop staring."},
+        {"zh": "我尖叫起来，整片林子都烦。", "en": "When I scream, the whole forest is annoyed."},
+        {"zh": "这片黑够深，我可以叫了。", "en": "This dark is deep enough for me to start screaming."},
+        {"zh": "这地方黑得能生怪，我开始叫。", "en": "Dark enough to spawn monsters. So I scream."},
+        {"zh": "天黑成这样，我根本不用睡。", "en": "Dark like this, I need no sleep at all."},
+        {"zh": "前面那棵树下，没有路。", "en": "Past that tree there is no path."},
+        {"zh": "在这么黑的地方，我的眼睛很大。", "en": "In dark like this, my eyes are huge."},
+        {"zh": "你还能撑几口气？", "en": "How many breaths do you have left?"},
+        {"zh": "瞳孔放大，只剩这点光。", "en": "My pupils widen to catch what light is left."},
+        {"zh": "我睁大眼，瞳孔占满脸。", "en": "My eyes widen until my pupils fill my face."},
+        {"zh": "枯叶响，就是你。", "en": "Dry leaves rustle. That's you."},
+        {"zh": "树干挡不住我的眼。", "en": "A trunk won't block my eyes."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "喙啄下去，快得不像慢鸟。", "en": "The beak strikes faster than a slow bird should."},
+        {"zh": "别拿手逗我，我会咬。", "en": "Don't tease me with your hand; I bite."},
+        {"zh": "这一下是给那只闯进来的虫。", "en": "That one was for the bug that wandered in."},
+        {"zh": "我平时不动，动起来很凶。", "en": "I sit still most days, but I bite hard."},
+        {"zh": "爪子先抓住，喙再补一下。", "en": "Claws grip first; the beak finishes it."},
+        {"zh": "你吵醒了我，这就是代价。", "en": "You woke me — this is the price."},
+        {"zh": "我只出一招，够不够？", "en": "I have one move; is it enough?"},
+        {"zh": "别以为装木头就不会还手。", "en": "Don't think playing wood means I won't hit back."},
+        {"zh": "啄完我就飞走，别追。", "en": "After the peck I fly off; don't follow."},
+        {"zh": "我的喙尖很硬，你领教了。", "en": "My beak tip is hard — you've felt it."},
+        {"zh": "别跑，我扑得到。", "en": "Don't run. My pounce reaches."},
+        {"zh": "中了，别指望爬起来。", "en": "That landed. Don't expect to rise."},
+        {"zh": "我这双爪子，比嘴狠。", "en": "My claws are crueler than my bill."},
+        {"zh": "我从枝头扑下来，抓你。", "en": "I drop from the branch and grab you."},
+        {"zh": "接住这一爪，黑森林的礼。", "en": "Take this claw. A dark-wood gift."},
+        {"zh": "我的眼睛全黑了。", "en": "My eyes have gone fully dark."},
+        {"zh": "这只爪，专抓黑影。", "en": "These claws catch only shadows."},
+        {"zh": "抱歉，我早就忍不住了。", "en": "Sorry. I held back far too long."},
+        {"zh": "黑森林的白天，我只睡觉。", "en": "Daytime in the dark forest, I only sleep."},
+        {"zh": "这一下，够你躺平。", "en": "This one lays you flat."},
+        {"zh": "退到树干后也一样。", "en": "Behind the trunk is no safer."},
+        {"zh": "疼就学我，尖叫。", "en": "If it hurts, scream like I do."},
+        {"zh": "别动，抓完我就走。", "en": "Hold still. I'll leave when it's done."},
+        {"zh": "尖叫完就该动手了。", "en": "The scream ends. Now comes the strike."},
+        {"zh": "盔甲挡得住爪，挡不住叫。", "en": "Armor stops claws, not my scream."},
+        {"zh": "太黑的地方我会尖叫。", "en": "In the dark I start screaming."},
+        {"zh": "站直，让我看清你。", "en": "Stand tall. Let me see you."},
+        {"zh": "爪子从枝上落下来。", "en": "My claws come down from the branch."},
+        {"zh": "尖叫声里，你倒下了。", "en": "Amid the scream, you fall."},
+        {"zh": "站着睡也行，别吵醒。", "en": "I can sleep standing. Don't wake me."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "天黑了，我从树皮里醒过来。", "en": "Night falls; I wake out of the bark."},
+        {"zh": "这片黑森林，正好挂我。", "en": "This dark forest is a good place to hang."},
+        {"zh": "我先找根枯枝站住脚。", "en": "First I find a dead branch to stand on."},
+        {"zh": "有怪物在附近生成，我得叫。", "en": "Monsters are spawning nearby; I must scream."},
+        {"zh": "睁眼第一件事，是看树叶。", "en": "First thing on waking — check the leaves."},
+        {"zh": "我来的时候，没惊动任何一片苔藓。", "en": "I arrived without stirring a single patch of moss."},
+        {"zh": "这棵老树的枝杈，我挑一根。", "en": "Of this old tree's forks, I'll take one."},
+        {"zh": "我落在叶子上，叶子没弯。", "en": "I land on a leaf and it doesn't bend."},
+        {"zh": "天光还亮，我先装成树瘤。", "en": "Light remains; I'll pose as a burl first."},
+        {"zh": "别看我，我刚学会装木头。", "en": "Don't look at me; I've just learned to play wood."},
+        {"zh": "我的同伴呢，树上只剩我。", "en": "Where are my kin? Only I am on this tree."},
+        {"zh": "黑暗里，我的眼睛很大。", "en": "In the dark, my eyes are huge."},
+        {"zh": "太亮了，我得躲进阴影。", "en": "Too bright. I need the shadow."},
+        {"zh": "暗处我已经站好了。", "en": "I'm already standing in the dark."},
+        {"zh": "我的瞳孔快占满整只眼了。", "en": "My pupils nearly fill both my eyes."},
+        {"zh": "这枝头，黑得正好。", "en": "This branch is dark enough."},
+        {"zh": "站稳了，我就装成树枝。", "en": "Steady now. I'll pass for a branch."},
+        {"zh": "四周看看，有没有活物。", "en": "Look around. Anything alive?"},
+        {"zh": "土腥味里，我睁开大眼。", "en": "In the smell of soil, my big eyes open."},
+        {"zh": "黑够了，我就能开始尖叫。", "en": "Dark enough now. I can start screaming."},
+        {"zh": "我的瞳仁占满整只眼睛，你又来了。", "en": "My pupils fill my whole eyes, and here you are again."},
+        {"zh": "枯枝和我，颜色一模一样。", "en": "The dead branch and I are the same color."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "羽毛一点就着，别拿火把靠过来。", "en": "Feathers catch fast — keep that torch away."},
+        {"zh": "羽毛一着，伪装就露。", "en": "Feathers catch and my cover's gone."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从枝上摔下来，比被啄还疼。", "en": "Falling from the branch hurts worse than a peck."},
+        {"zh": "从枯枝摔下去，装不成了。", "en": "Fell off my dead branch. No more posing."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水进了羽毛，我浮不起来。", "en": "Water soaks my feathers and I can't float."},
+        {"zh": "羽毛吸水，往下沉。", "en": "My feathers soak and I sink."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我从枝头掀下去了。", "en": "The blast swept me right off my perch."},
+        {"zh": "炸得我从枝上掉下来。", "en": "The blast knocked me off the branch."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭钉穿了我旁边的树皮。", "en": "An arrow pinned the bark beside me."},
+        {"zh": "谁放的箭？", "en": "Who shot that arrow?"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咒语让我的瞳孔缩成一点。", "en": "The spell shrinks my pupils to a pinpoint."},
+        {"zh": "光打过来，我僵在枝上。", "en": "The light hit and I froze on the branch."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "三天没虫，我的喙都发软。", "en": "Three days without bugs and my beak feels soft."},
+        {"zh": "肚子在叫。", "en": "My stomach is growling."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光太亮，我的眼睛受不了。", "en": "The lightning flash is too bright for my eyes."},
+        {"zh": "雷照出我的影子，完了。", "en": "Lightning showed my shadow. I'm done."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下面没有枝，只有空的。", "en": "Below there is no branch — only nothing."},
+        {"zh": "虚空里连我的尖叫都吞了。", "en": "The void swallowed even my scream."}
+      ]
+    }
+  }
+}

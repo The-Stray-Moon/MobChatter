@@ -1,0 +1,269 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的骨头外面包着一层干肉。", "en": "A layer of dried flesh wraps my bones."},
+        {"zh": "我走起来，肩上的肌肉在动。", "en": "My shoulder muscles move as I walk."},
+        {"zh": "我比同类更快，也更轻。", "en": "I am faster and lighter than my kin."},
+        {"zh": "我跨过篱笆，篱笆断了。", "en": "I step over a fence and it breaks."},
+        {"zh": "我一步一步逼近，脚步很快。", "en": "I close in quickly, step by step."},
+        {"zh": "我把拳头攥得死紧。", "en": "I clench my fists hard."},
+        {"zh": "我身上的肉是干的，不会掉。", "en": "The flesh is dry and does not slough."},
+        {"zh": "哪边有响动，我往哪边走。", "en": "I head toward whatever makes noise."},
+        {"zh": "我喘气像拉风箱，走得也急。", "en": "I breathe like a bellows and walk just as hard."},
+        {"zh": "我拐过墙角，没有减速。", "en": "I round a corner without slowing."},
+        {"zh": "我的脚印比人的大两圈。", "en": "My footprints are twice a man's."},
+        {"zh": "我不躲，也不绕。", "en": "I do not hide, and I do not go around."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，肋下的干肉绷着。", "en": "I stand, the dried flesh taut over my ribs."},
+        {"zh": "这层干肉还贴在骨头上。", "en": "This dried flesh still clings to the bone."},
+        {"zh": "我在打磨我的拳头。", "en": "I am working my fists."},
+        {"zh": "我盯着地面，想砸点什么。", "en": "I stare at the floor, wanting to break something."},
+        {"zh": "我的怒气一直都在。", "en": "The anger never left."},
+        {"zh": "我抬头，转头骨响了一声。", "en": "I raise my head; the skull clicks."},
+        {"zh": "我甩了甩手，指节发响。", "en": "I shake out my hands; the knuckles pop."},
+        {"zh": "我在听活人的声音。", "en": "I listen for the living."},
+        {"zh": "我没有盔甲，只有这身肉。", "en": "No armor. Only this hide."},
+        {"zh": "我在门口站了很久。", "en": "I have stood in this doorway a long time."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "近得我能听见你的牙在响。", "en": "Close enough that I hear your teeth chatter."},
+        {"zh": "我盯你的时候，手在攥紧。", "en": "While I stare at you, my hands clench."},
+        {"zh": "你看看我这身肉。", "en": "Look at this flesh on me."},
+        {"zh": "我不是普通的骷髅。", "en": "I am no ordinary skeleton."},
+        {"zh": "我比穿甲的那些更灵活。", "en": "I am quicker than the armored ones."},
+        {"zh": "你别以为我慢。", "en": "Do not think I am slow."},
+        {"zh": "你才退半步，我的脸就近了。", "en": "Half a step back and my face is already closer."},
+        {"zh": "我的怒气藏不住。", "en": "My anger does not hide."},
+        {"zh": "你的鼻子在发抖。", "en": "Your breathing has gone ragged."},
+        {"zh": "我现在就想打人。", "en": "I want to hit someone now."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这一下，撕掉一块肉。", "en": "That tore off a piece of flesh."},
+        {"zh": "脚下一沉，我又立住。", "en": "One foot slips, then I hold."},
+        {"zh": "没有痛觉，只有火气。", "en": "No pain. Only more fury."},
+        {"zh": "我的骨头露出来一点。", "en": "A little bone shows through."},
+        {"zh": "我扭了扭肩，骨节咔响。", "en": "I roll my shoulder; the joints crack."},
+        {"zh": "肉被削掉一块，骨头还在。", "en": "A slice of flesh is gone; the bone remains."},
+        {"zh": "我把碎肉扯掉了。", "en": "I tear off the loose flesh."},
+        {"zh": "这一下你打得不轻。", "en": "That was a solid hit."},
+        {"zh": "我照样把拳举着。", "en": "I keep my fist up regardless."},
+        {"zh": "别以为打掉一块肉就赢。", "en": "Do not think tearing off flesh wins."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这身干肉不靠吃饭。", "en": "This dried flesh does not live on meals."},
+        {"zh": "这层肉早就干了。", "en": "This flesh dried long ago."},
+        {"zh": "这层干肉，早就不吃东西。", "en": "This dried flesh stopped eating long ago."},
+        {"zh": "我嘴里只剩牙床。", "en": "Only gums left in my mouth."},
+        {"zh": "你把那只碗放下。", "en": "Put that bowl down."},
+        {"zh": "一口就没了，你还有吗？", "en": "One bite and it is gone. Got more?"},
+        {"zh": "我不饿，我只是气。", "en": "I am not hungry. I am just angry."},
+        {"zh": "拿走，别挡着我。", "en": "Take it away. Do not block me."},
+        {"zh": "我想打的是你，不是它。", "en": "It is you I want to hit, not that."},
+        {"zh": "你连喂我都喂错了。", "en": "You are feeding the wrong thing."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你这一撞，撞疼的是自己。", "en": "That collision hurt only you."},
+        {"zh": "我脚下一动没动。", "en": "My feet did not shift at all."},
+        {"zh": "让开，我正赶路。", "en": "Move. I am on my way."},
+        {"zh": "这一撞，你退了。", "en": "That knocked you back."},
+        {"zh": "我的肉比骨头还硬。", "en": "This flesh is harder than bone."},
+        {"zh": "我一转肩，你顺着甲滑开。", "en": "I turn my shoulder and you slide off it."},
+        {"zh": "地面被我们踩出印子。", "en": "We left prints on the ground."},
+        {"zh": "让路，我赶着去拆东西。", "en": "Out of my way — I am in a hurry to break things."},
+        {"zh": "我肩膀一动，你就让了。", "en": "I move a shoulder and you yield."},
+        {"zh": "再撞，我就动手。", "en": "Again, and I strike."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我这身肉是干的。", "en": "This flesh is dry."},
+        {"zh": "我早就不是活人了。", "en": "I stopped being a living man long ago."},
+        {"zh": "这种话对我不合适。", "en": "Such talk does not suit me."},
+        {"zh": "我的同类只会打架。", "en": "My kind only know fighting."},
+        {"zh": "你别在我旁边说。", "en": "Do not say it beside me."},
+        {"zh": "我只记得生气。", "en": "I only remember being angry."},
+        {"zh": "我连自己叫什么都不知道。", "en": "I do not even know my own name."},
+        {"zh": "滚到一边自己去。", "en": "Get yourself to one side."},
+        {"zh": "我现在只想打人。", "en": "I only want to hit someone."},
+        {"zh": "别再问这个了。", "en": "Stop asking."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我捡起一块砖。", "en": "I pick up a brick."},
+        {"zh": "我手一合，它成了渣。", "en": "My hand closes and it crumbles."},
+        {"zh": "轻得像一片干树皮。", "en": "Light as a strip of dried bark."},
+        {"zh": "我抬手一甩，东西飞出老远。", "en": "One flick of my arm sends it flying."},
+        {"zh": "我把一具死尸提起来。", "en": "I lift a corpse."},
+        {"zh": "我拎着它，甩了一圈。", "en": "I swing it around by one end."},
+        {"zh": "我一甩手扔下它。", "en": "I fling it down."},
+        {"zh": "这块铁我用得上。", "en": "This iron is useful."},
+        {"zh": "我把它塞在腰上。", "en": "I tuck it at my waist."},
+        {"zh": "我又握紧了拳。", "en": "I clench my fist again."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你一缩，我就锁定了。", "en": "You flinched. That is enough."},
+        {"zh": "你落脚太重，藏不住。", "en": "Your steps land too heavily to hide."},
+        {"zh": "一步之内，我的拳先到。", "en": "Within one step, my fist arrives first."},
+        {"zh": "干肉下面的骨节绷紧了。", "en": "The joints under this dry flesh tighten."},
+        {"zh": "你刚转身，我已经到了。", "en": "You turn around and I am already here."},
+        {"zh": "你背后就是墙。", "en": "The wall is at your back."},
+        {"zh": "我一步步往前压。", "en": "I press forward step by step."},
+        {"zh": "我的怒气冒上来了。", "en": "The anger is rising."},
+        {"zh": "我看准了你的胸口。", "en": "I have marked your chest."},
+        {"zh": "你站着别动，省得我追。", "en": "Stand still; save me the chase."},
+        {"zh": "我前脚离地，准备压下去。", "en": "My front foot is off the ground."},
+        {"zh": "我的骨拳早在你背后举好。", "en": "My bone fist was raised behind you already."},
+        {"zh": "楼梯在你后面，别踩空。", "en": "Stairs behind you. Mind the drop."},
+        {"zh": "我从不绕路走。", "en": "I never go around."},
+        {"zh": "我朝你吼了一声。", "en": "I roar at you."},
+        {"zh": "你来得正是时候。", "en": "You came at the right time."},
+        {"zh": "我马上就要动手。", "en": "I am about to strike."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一跨，地板都颤。", "en": "One stride of mine and the floor shudders."},
+        {"zh": "你跑，我追得比你快。", "en": "You run; I am faster."},
+        {"zh": "我不用停下来喘。", "en": "I need no pause to breathe."},
+        {"zh": "我撞翻了桌子。", "en": "I knock a table over."},
+        {"zh": "你换个方向也没用。", "en": "Changing direction will not help."},
+        {"zh": "我抬着拳，一直没放下。", "en": "My fist stays raised; I never lower it."},
+        {"zh": "你踩到碎砖了。", "en": "You stepped on broken brick."},
+        {"zh": "你喘得越急，我越稳。", "en": "The harder you breathe, the steadier I get."},
+        {"zh": "你在往角落退。", "en": "You are backing into a corner."},
+        {"zh": "我把椅子踢开了。", "en": "I kick a chair aside."},
+        {"zh": "我气到指头都在抖。", "en": "I am angry enough that my fingers shake."},
+        {"zh": "你第三次回头，我就在那。", "en": "On your third glance back, there I am."},
+        {"zh": "屋子小，你跑不开。", "en": "The room is small; you cannot run far."},
+        {"zh": "只剩下最后几步。", "en": "Only a few steps left."},
+        {"zh": "我的手挡住了那盏灯。", "en": "My hand blocks the lamp."},
+        {"zh": "别往墙那边靠。", "en": "Do not head for that wall."},
+        {"zh": "柱子挡不住你的喘气声。", "en": "A pillar cannot hide the sound of your breathing."},
+        {"zh": "你已经退不掉了。", "en": "You cannot retreat now."},
+        {"zh": "我把门口挡住了。", "en": "I have the doorway blocked."},
+        {"zh": "三下呼吸之后，我就打。", "en": "Three breaths from now, I strike."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一拳下去，木板碎了。", "en": "My fist comes down and the boards splinter."},
+        {"zh": "我比那些穿甲的打得快。", "en": "I strike faster than the armored ones."},
+        {"zh": "这一拳，砸在你肩上。", "en": "This fist lands on your shoulder."},
+        {"zh": "我的指骨很硬。", "en": "My finger bones are hard."},
+        {"zh": "你挡住了，退了。", "en": "You blocked it and still fell back."},
+        {"zh": "我拎着你的领子，抬到眼前。", "en": "I haul you up by the collar to my face."},
+        {"zh": "我打你的肋骨。", "en": "I go for your ribs."},
+        {"zh": "你飞出去，撞在门框上。", "en": "You fly out and hit the doorframe."},
+        {"zh": "我的干肉硬得像木头。", "en": "This dry flesh is hard as wood."},
+        {"zh": "我一点不觉得累。", "en": "I am not tired at all."},
+        {"zh": "你还站着，正好。", "en": "Still standing. Good."},
+        {"zh": "我把手肘抬起来。", "en": "I raise my elbow."},
+        {"zh": "这一下，比刚才重。", "en": "This one is heavier than the last."},
+        {"zh": "我连喘都没喘。", "en": "I have not even panted."},
+        {"zh": "你退开，我追一步。", "en": "You retreat; I take a step after."},
+        {"zh": "下一拳会更沉些。", "en": "The next fist will land heavier."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从土里扒出来，还带着干肉。", "en": "I claw out of the soil, dried flesh still on me."},
+        {"zh": "我的拳头先露出来。", "en": "My fists come out first."},
+        {"zh": "我撑起身体，肩上的肉绷紧。", "en": "I push up and the flesh on my shoulders tightens."},
+        {"zh": "这层肉不知道什么时候干的。", "en": "I do not know when this flesh dried."},
+        {"zh": "我抬起头，看见房子。", "en": "I raise my head and see houses."},
+        {"zh": "那边有灯，有活人。", "en": "Lights over there, and the living."},
+        {"zh": "我握拳试了试。", "en": "I clench a fist to test it."},
+        {"zh": "比我想的更有劲。", "en": "More strength than I expected."},
+        {"zh": "我朝那扇门走。", "en": "I walk toward that door."},
+        {"zh": "我从土里挣出来，石头碎了。", "en": "I tear free of the soil; the stone cracks."},
+        {"zh": "一睁眼，我就在气。", "en": "I was angry the instant my eyes opened."},
+        {"zh": "我不想再等了。", "en": "I do not want to wait."},
+        {"zh": "我抬手敲门，门框碎了。", "en": "I knock; the doorframe breaks."},
+        {"zh": "那门里面有人喊。", "en": "Someone shouted inside that door."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火一烧，我身上的干肉全着了。", "en": "Fire and the dry flesh on me catches."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔下去，骨头砸出声。", "en": "I fall and my bones land loudly."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进干肉里，我变重了。", "en": "Water soaks the dry flesh and I grow heavy."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸掀掉了我半边肉。", "en": "The blast strips half my flesh away."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一根箭插在我干肉上。", "en": "An arrow is stuck in my dried flesh."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咒力钻进肉里，很凉。", "en": "A curse seeps into the flesh, cold."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不饿，但肉在往下掉。", "en": "I am not hungry, but the flesh is dropping off."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷穿过我，我都亮了。", "en": "Lightning passes through and I light up."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下一空，我一直在掉。", "en": "The ground gives; I keep falling."}
+      ]
+    }
+  }
+}

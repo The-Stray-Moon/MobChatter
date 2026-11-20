@@ -1,0 +1,236 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴着山坡小跑。", "en": "I trot along the hillside."},
+        {"zh": "风把我的毛吹扁了。", "en": "Wind flattens my fur."},
+        {"zh": "我踩着草根往上走。", "en": "I climb over the grass roots."},
+        {"zh": "我绕着石头走。", "en": "I go around the stone."},
+        {"zh": "我的步子很碎。", "en": "My steps come in quick little bursts."},
+        {"zh": "山脊上风太大。", "en": "The wind is fierce on the ridge."},
+        {"zh": "我伏低身子往前。", "en": "I keep low as I move."},
+        {"zh": "我从草丛缝里钻过。", "en": "I slip between clumps of grass."},
+        {"zh": "我的尾巴贴着背。", "en": "My tail stays flat to my back."},
+        {"zh": "这条小路我熟。", "en": "I know this little path."},
+        {"zh": "我停下来歇口气。", "en": "I pause to catch my breath."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我缩在草丛里。", "en": "I tuck into the grass."},
+        {"zh": "风一吹我就竖起耳朵。", "en": "Wind makes my ears prick."},
+        {"zh": "这面坡上只有我。", "en": "Only me on this slope."},
+        {"zh": "这块石头挡风。", "en": "This stone blocks the wind."},
+        {"zh": "我的毛里都是草籽。", "en": "Grass seeds are in my fur."},
+        {"zh": "我贴着草根不动。", "en": "I'm doing nothing."},
+        {"zh": "远处有一只鹰。", "en": "An eagle far off."},
+        {"zh": "我又把头低下来。", "en": "I lower my head again."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你千万别靠过来。", "en": "Don't come over."},
+        {"zh": "我一身毛很乱。", "en": "My fur is a mess."},
+        {"zh": "你站着太高了。", "en": "You stand too tall."},
+        {"zh": "我听见你的靴子了。", "en": "I heard your boots."},
+        {"zh": "我就在这块坡上。", "en": "I'm just on this slope."},
+        {"zh": "我可不太好抓。", "en": "I'm not easy to catch."},
+        {"zh": "我只是想安静吃草。", "en": "I only want to graze in peace."},
+        {"zh": "你可以走另一边。", "en": "You could take the other side."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我叫了一声就跑。", "en": "I squeak and run."},
+        {"zh": "我滚了两三圈。", "en": "I rolled twice."},
+        {"zh": "我短的那条腿，抖得厉害。", "en": "My shorter leg is shaking badly."},
+        {"zh": "我已经流血了。", "en": "I'm bleeding."},
+        {"zh": "我把自己团成小球。", "en": "I curl into a ball."},
+        {"zh": "我跑不太快了。", "en": "I can't run fast now."},
+        {"zh": "让我缓一口气。", "en": "Let me recover."},
+        {"zh": "好疼！我这就钻进草里。", "en": "That hurt! I'm diving into the grass."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那是青草的味道吗？", "en": "Is that grass?"},
+        {"zh": "我不太敢过去。", "en": "I don't quite dare come over."},
+        {"zh": "先把它放地上。", "en": "Put it on the ground first."},
+        {"zh": "这是我能吃的吗？", "en": "Is this something I can eat?"},
+        {"zh": "我一点一点蹭过去。", "en": "I'll edge over slowly."},
+        {"zh": "你把脚钉子一样定住。", "en": "Don't move."},
+        {"zh": "我拿一点就走。", "en": "I'll take a bit and go."},
+        {"zh": "你不许靠过来。", "en": "You're not to come closer."},
+        {"zh": "我还想要一点。", "en": "I'd like some more."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你差一点就踩着我。", "en": "You nearly stepped on me."},
+        {"zh": "我翻了个身又爬起。", "en": "I tumbled and scrambled up."},
+        {"zh": "别在草里跺脚。", "en": "Don't stomp in the grass."},
+        {"zh": "我这么小，怎么撞得过你。", "en": "I'm too small to bump you."},
+        {"zh": "一撞我就滚出去。", "en": "One bump and I roll."},
+        {"zh": "我让开这条路。", "en": "I give up this path."},
+        {"zh": "我没事，别追我。", "en": "I'm fine; don't chase."},
+        {"zh": "我钻进石头底下。", "en": "I back behind the stone."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坡上风大，不适合。", "en": "Too windy on this slope."},
+        {"zh": "我得先吃饱才行。", "en": "I need to eat first."},
+        {"zh": "我腿一长一短，绕圈很别扭。", "en": "One leg longer than the other, I circle awkwardly."},
+        {"zh": "我只跟同类说这些。", "en": "I only say such things to my own kind."},
+        {"zh": "等风小一点点。", "en": "When the wind drops."},
+        {"zh": "我胆子很小的。", "en": "I'm timid."},
+        {"zh": "这里容易被看见。", "en": "We'd be seen here."},
+        {"zh": "这事情以后提吧。", "en": "Another time."},
+        {"zh": "你别追着我跑。", "en": "Don't chase me."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "叼起来就跑，别追。", "en": "Snatch it and run — don't chase."},
+        {"zh": "这不是草，我不碰。", "en": "Not grass; I won't eat it."},
+        {"zh": "这东西挺香的。", "en": "This smells nice."},
+        {"zh": "硬得我都咬不动。", "en": "Too hard."},
+        {"zh": "这个能垫进窝里。", "en": "This could line my burrow."},
+        {"zh": "我藏到石头下。", "en": "I hide it under a stone."},
+        {"zh": "我实在拖不动它。", "en": "Too heavy."},
+        {"zh": "我随手把它丢掉。", "en": "Drop it."},
+        {"zh": "这是别人的吧。", "en": "This belongs to someone."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那边有个影子。", "en": "A shadow over there."},
+        {"zh": "我得赶紧跑起来。", "en": "I need to run."},
+        {"zh": "我腿已经绷紧了。", "en": "My legs are already tensed."},
+        {"zh": "这个方向能上山。", "en": "This way leads uphill."},
+        {"zh": "我先看看有没有退路。", "en": "Let me check for an escape."},
+        {"zh": "我不跟它正面对。", "en": "I won't face it head-on."},
+        {"zh": "石头后面能躲。", "en": "I can hide behind the stone."},
+        {"zh": "我往后面缩去。", "en": "I shrink back."},
+        {"zh": "我准备冲出去。", "en": "I'm ready to bolt."},
+        {"zh": "它已经动起来了。", "en": "It moved."},
+        {"zh": "现在就该跑了。", "en": "Run now."},
+        {"zh": "别堵住我的路。", "en": "Don't block my way."},
+        {"zh": "我知道该往哪。", "en": "I know where to go."},
+        {"zh": "就趁风还没转向。", "en": "Right now."},
+        {"zh": "我先溜走一步。", "en": "I'll go first."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一路往坡上跑。", "en": "I run up the slope."},
+        {"zh": "它还在跟着我。", "en": "It's still following."},
+        {"zh": "我拐进草堆里。", "en": "I turn into the tall grass."},
+        {"zh": "我把身子贴地。", "en": "I keep to the ground."},
+        {"zh": "我贴地趴着，听脚步远近。", "en": "I flatten myself and gauge the steps."},
+        {"zh": "我一点也不敢停。", "en": "I don't dare stop."},
+        {"zh": "山坡上有石头。", "en": "Stones on the hillside."},
+        {"zh": "石缝刚好够我钻过去。", "en": "The gap is just wide enough for me."},
+        {"zh": "它压根没发现我。", "en": "It hasn't seen me."},
+        {"zh": "我喘得胸口发紧。", "en": "I'm panting hard."},
+        {"zh": "再往上就有草丛。", "en": "More cover further up."},
+        {"zh": "我绕了一个圈。", "en": "I'll circle around."},
+        {"zh": "它终于停下来了。", "en": "It stopped."},
+        {"zh": "我一点一点往后蹭。", "en": "I back away slowly."},
+        {"zh": "千万别发出声音。", "en": "Make no sound."},
+        {"zh": "风正贴着我的背吹。", "en": "The wind blows my way."},
+        {"zh": "它闻不到我的。", "en": "It can't smell me."},
+        {"zh": "这里终于安全了。", "en": "Safe now."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "就这么一下子。", "en": "Just that one hit."},
+        {"zh": "我用爪子挠它。", "en": "I scratch with a claw."},
+        {"zh": "我咬不到它的皮。", "en": "I can't bite through its hide."},
+        {"zh": "我这点力气不够。", "en": "My strength isn't enough."},
+        {"zh": "它退了一点点。", "en": "It moved back a little."},
+        {"zh": "我赶紧跑开来。", "en": "I run right after."},
+        {"zh": "你别再来逼我。", "en": "Don't push me."},
+        {"zh": "我牙齿在打颤。", "en": "My teeth are chattering."},
+        {"zh": "我再试一次看看。", "en": "I'll try once more."},
+        {"zh": "它流血了，我也吓坏了。", "en": "It's bleeding, and I'm terrified."},
+        {"zh": "你走开我就停。", "en": "Walk away and I'll stop."},
+        {"zh": "我挡住了这一下。", "en": "I blocked that one."},
+        {"zh": "我不想要打架。", "en": "I don't want to fight."},
+        {"zh": "还是快点跑吧。", "en": "Better to run."},
+        {"zh": "我往前冲了一下。", "en": "I lunge forward."},
+        {"zh": "快跑，快点跑啊。", "en": "Run."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在草坡上站着。", "en": "I stand on the grassy slope."},
+        {"zh": "风从山脊上过来。", "en": "Wind comes over the ridge."},
+        {"zh": "这里的草不少。", "en": "Plenty of grass here."},
+        {"zh": "草被风吹倒，我探出头。", "en": "The grass bends in the wind; I peek out."},
+        {"zh": "石头后面能挡风。", "en": "That stone blocks the wind."},
+        {"zh": "天上有鹰在飞。", "en": "An eagle is circling."},
+        {"zh": "我把背弓得低低的。", "en": "I keep low."},
+        {"zh": "草籽粘在我的毛上。", "en": "Grass seeds cling to me."},
+        {"zh": "我开始吃草了。", "en": "I start grazing."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火从我背上掠过去。", "en": "Fire swept over my back."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从坡上滚下来，滚了很多圈。", "en": "I rolled down the slope, over and over."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "后腿上多了根东西，跑不快了。", "en": "Something's stuck in my hind leg; I can't run."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股力气麻遍我全身。", "en": "That force numbed me all over."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "山风太冷，我找不到草根。", "en": "The hill wind is cold and I can't find roots."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷声让我的耳朵嗡嗡响。", "en": "The thunder left my ears ringing."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "山坡下面空了。", "en": "The hillside fell away."}
+      ]
+    }
+  }
+}

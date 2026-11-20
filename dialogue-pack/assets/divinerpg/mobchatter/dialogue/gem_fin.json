@@ -1,0 +1,282 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出低沉的嗡嗡声", "en": "Grumbles softly"},
+        {"zh": "缓慢游向更暗的地方", "en": "Slowly swims towards darker areas"},
+        {"zh": "轻拍自己的鱼鳍", "en": "Gently taps its fin"},
+        {"zh": "用鳃呼吸水面下的空气", "en": "Breathes air from the surface with gills"},
+        {"zh": "试图摆脱玩家的注意", "en": "Attempts to ignore the player"},
+        {"zh": "突然快速游走", "en": "Rapidly swims away suddenly"},
+        {"zh": "在水中闪烁发光", "en": "Flickers with light in water"},
+        {"zh": "轻触鱼鳍以保持平衡", "en": "Gently touches its fin for balance"},
+        {"zh": "在岩石缝隙中寻找食物", "en": "Scours cracks for food"},
+        {"zh": "我沿着礁石边，缓缓摆尾。", "en": "I glide along the reef edge with a slow tail beat."},
+        {"zh": "鳞片划开幽暗的水", "en": "My scales slice the dim water."},
+        {"zh": "鱼鳍扫过沉船残骸", "en": "My fins sweep past a sunken wreck."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静地停在水中", "en": "Stops motionless in water"},
+        {"zh": "轻拍鱼鳍以示放松", "en": "Gently taps its fin for relaxation"},
+        {"zh": "缓缓摆动鱼鳍", "en": "Slowly flaps its fin"},
+        {"zh": "漂浮于水面上", "en": "Floats on the surface"},
+        {"zh": "偶尔发出微弱的嗡嗡声", "en": "Occasionally grumbles softly"},
+        {"zh": "我的宝石鳍一明一暗。", "en": "My gemmed fin glimmers, bright then dim."},
+        {"zh": "仔细地观察周围", "en": "Carefully watches surroundings"},
+        {"zh": "偶尔变换体色", "en": "Slightly changes color"},
+        {"zh": "漂浮在暗处", "en": "Floats in the dark"},
+        {"zh": "保持静止以避免注意", "en": "Remains still to avoid notice"},
+        {"zh": "悬在暗流里一动不动", "en": "I hang still in the cold current."},
+        {"zh": "用侧线感受水压", "en": "I read the water with my lateral line."},
+        {"zh": "张合鱼嘴慢慢换气", "en": "I work my jaw, breathing slow."},
+        {"zh": "贴着海底碎石打盹", "en": "I doze against the gravel floor."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把半张脸藏在礁石缝里。", "en": "I hide half my face in the reef crevice."},
+        {"zh": "迅速游向玩家", "en": "Rapidly swims towards the player"},
+        {"zh": "轻拍鱼鳍，保持警惕", "en": "Gently taps its fin, remaining alert"},
+        {"zh": "游向玩家的倒影", "en": "Swims towards the player's reflection"},
+        {"zh": "快速避开玩家视线", "en": "Quickly averts its gaze from the player"},
+        {"zh": "悄悄接近玩家", "en": "Approaches the player stealthily"},
+        {"zh": "用鱼鳍遮住眼睛", "en": "Hides eyes behind its fin"},
+        {"zh": "紧张地观察玩家", "en": "Nervously watches the player"},
+        {"zh": "发出低沉的警告声", "en": "Issues a low warning growl"},
+        {"zh": "宝石鳍一闪，我游近了。", "en": "One flash of my gem fins and I'm closer."},
+        {"zh": "从水底抬头看你", "en": "I look up at you from the bottom."},
+        {"zh": "在荷叶影子里打量你", "en": "I study you from the lily shadow."},
+        {"zh": "一只眼始终对着你", "en": "One eye never leaves you."},
+        {"zh": "绕着你垂下的脚游", "en": "I circle the feet you dangle."},
+        {"zh": "被你手里的光吸引", "en": "Your lantern draws me close."},
+        {"zh": "贴着水面窥视你", "en": "I watch you from just under the surface."},
+        {"zh": "鱼鳍轻轻拨开水纹", "en": "My fin nudges the water rings."},
+        {"zh": "在岸边停住不动", "en": "I stop still by the bank."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鳍受伤了！", "en": "Fin hurt!"},
+        {"zh": "我的鳍被划开，水都变咸了。", "en": "My fin is sliced open, and the water turns salty."},
+        {"zh": "触须受伤了！", "en": "Antenna hurt!"},
+        {"zh": "宝石般的鳞片裂了。", "en": "My gem-bright scales cracked."},
+        {"zh": "鳞片受伤了！", "en": "Scale hurt!"},
+        {"zh": "尾鳍一沉，我游得歪歪扭扭。", "en": "My tail fin sinks, and I swim crookedly."},
+        {"zh": "鳍骨折了！", "en": "Fin broken!"},
+        {"zh": "身体被卡住了！", "en": "Body stuck!"},
+        {"zh": "触须被卡住了！", "en": "Antenna stuck!"},
+        {"zh": "眼睛被卡住了！", "en": "Eye stuck!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它的眼睛闪烁着宝石般的光芒，诱惑着你靠近。", "en": "Its gem-like eyes tempt you closer."},
+        {"zh": "它的鳍像光点般闪烁，吸引着你。", "en": "Its fins flash like lights, drawing you in."},
+        {"zh": "靠近它，你会感受到它的诱惑力。", "en": "Approach it, and feel its allure."},
+        {"zh": "它发出微弱的光芒，像是在邀请你。", "en": "It emits a weak light, beckoning you."},
+        {"zh": "它的身体反射出迷人的光芒，让你无法移开视线。", "en": "Its body glows enticingly, captivating your gaze."},
+        {"zh": "不要让好奇心引导你接近。", "en": "Let curiosity not guide you closer."},
+        {"zh": "它的光芒引诱着你，你几乎要跳进水中。", "en": "Its light lures you, almost drawing you in."},
+        {"zh": "它的诱惑如此强烈，几乎让人无法抗拒。", "en": "Its temptation is so strong, almost irresistible."},
+        {"zh": "它的叫声在黑暗中回荡，引诱着你前进。", "en": "Its call echoes in the dark, drawing you forward."},
+        {"zh": "它的光芒和声音都充满了诱惑。", "en": "Its light and sounds are full of temptation."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它突然撞向你，让你猝不及防。", "en": "It suddenly collides with you, catching you off guard."},
+        {"zh": "它的体型让你难以避开它的攻击。", "en": "Its size makes it hard to avoid its attack."},
+        {"zh": "它以惊人的速度冲撞过来，让你措手不及。", "en": "It rushes at you with surprising speed, leaving you caught off guard."},
+        {"zh": "它的碰撞力量让你感到震撼。", "en": "Its collision is a force to be reckoned with."},
+        {"zh": "它用鳍猛烈地撞击你，力道惊人。", "en": "It strikes you with its fins, with surprising force."},
+        {"zh": "它的撞击几乎让你失去平衡。", "en": "Its collision almost unbalances you."},
+        {"zh": "它猛烈地撞向你，试图把你击退。", "en": "It forcefully collides with you, trying to push you back."},
+        {"zh": "它的突然撞击让你防不胜防。", "en": "Its sudden collision leaves you unprepared."},
+        {"zh": "它的身体如同子弹般撞击过来。", "en": "Its body strikes like a bullet."},
+        {"zh": "它以迅雷不及掩耳之势撞向你。", "en": "It collides with you in a blinding flash."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它发出求偶的叫声，吸引着伴侣。", "en": "It calls out for a mate, drawing another in."},
+        {"zh": "它的叫声充满求爱的意味。", "en": "Its call is filled with mating intent."},
+        {"zh": "它用优雅的动作吸引配偶。", "en": "It uses graceful movements to attract a mate."},
+        {"zh": "它的求偶行为让人难以忽视。", "en": "Its mating behavior is hard to ignore."},
+        {"zh": "它发出特有的求偶叫声，吸引同类。", "en": "It emits a specific call for mating, drawing同类s in."},
+        {"zh": "它试图吸引伴侣，展示它的美丽。", "en": "It tries to attract a mate by showing off its beauty."},
+        {"zh": "它的求偶叫声在水中回荡。", "en": "Its mating call echoes in the water."},
+        {"zh": "它通过求偶舞蹈吸引伴侣。", "en": "It attracts a mate through a mating dance."},
+        {"zh": "它的求偶行为充满激情。", "en": "Its mating behavior is passionate."},
+        {"zh": "它用独特的舞步吸引伴侣。", "en": "It attracts a mate with unique steps."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闪着蓝光的鱼游了过来", "en": "A glowing blue fish swims over"},
+        {"zh": "它的鳞片在黑暗中闪耀", "en": "Its scales shine in the darkness"},
+        {"zh": "宝石鳍鱼缓缓靠近", "en": "Gem Fin approaches slowly"},
+        {"zh": "鱼鳍反射着幽光", "en": "Its fins reflect a eerie glow"},
+        {"zh": "鱼鳍上的宝石亮了一下。", "en": "The gem on my fin just glinted."},
+        {"zh": "鱼嘴微微张开", "en": "Its mouth opens slightly"},
+        {"zh": "它游向光源", "en": "It swims towards the light"},
+        {"zh": "宝石鳍鱼发出微弱的叫声", "en": "Gem Fin makes a faint noise"},
+        {"zh": "鱼鳞在水面留下闪亮轨迹", "en": "Its scales leave a bright trail on the water"},
+        {"zh": "它开始围着你转", "en": "It starts circling you"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你成了它的目标", "en": "You are its target"},
+        {"zh": "它紧紧盯着你", "en": "It stares intently at you"},
+        {"zh": "鱼鳍在黑暗中闪烁", "en": "Its fins flash in the dark"},
+        {"zh": "它准备发起攻击", "en": "It prepares to attack"},
+        {"zh": "你感到一阵寒意", "en": "You feel a chill"},
+        {"zh": "鱼身上的鳞片闪闪发亮", "en": "Its scales gleam"},
+        {"zh": "它的眼睛变得异常明亮", "en": "Its eyes glow brightly"},
+        {"zh": "它开始加速接近", "en": "It speeds closer"},
+        {"zh": "鱼嘴发出微弱的呼吸声", "en": "Its mouth makes a faint breath sound"},
+        {"zh": "它的身体开始发光", "en": "Its body starts to glow"},
+        {"zh": "血腥味下水了", "en": "Blood has entered the water."},
+        {"zh": "有东西在岸边挣扎", "en": "Something struggles at the bank."},
+        {"zh": "波纹暴露了它的位置", "en": "The ripples give it away."},
+        {"zh": "我听见水花声", "en": "I hear a splash."},
+        {"zh": "那道影子越来越近", "en": "That shadow draws nearer."},
+        {"zh": "今天的猎物下水了", "en": "Today's prey has waded in."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它注视着你", "en": "It watches you"},
+        {"zh": "鱼鳍轻轻拍打水面", "en": "Its fins tap the water gently"},
+        {"zh": "它的目光中充满恶意", "en": "Its gaze is filled with malice"},
+        {"zh": "它游向你的位置", "en": "It swims to your position"},
+        {"zh": "鱼尾在水中摆动", "en": "Its tail swings in the water"},
+        {"zh": "它似乎在思考什么", "en": "It seems to be thinking"},
+        {"zh": "鱼嘴开始蠕动", "en": "Its mouth starts to move"},
+        {"zh": "它的身体开始轻微扭曲", "en": "Its body starts to contort"},
+        {"zh": "它开始发出低吟", "en": "It begins to hum lowly"},
+        {"zh": "鱼鳍在水中激起波纹", "en": "Its fins create ripples in the water"},
+        {"zh": "沉到它脚下等着", "en": "I sink beneath its feet and wait."},
+        {"zh": "顺着水草摸过去", "en": "I slip along the weeds."},
+        {"zh": "收起鳍，减少动静", "en": "I fold my fins to stay silent."},
+        {"zh": "一圈一圈收紧包围", "en": "I tighten my circle."},
+        {"zh": "等它弯腰喝水", "en": "I wait for it to bend and drink."},
+        {"zh": "对准它的脚踝", "en": "I aim for its ankle."},
+        {"zh": "水流正把它推向我", "en": "The current carries it to me."},
+        {"zh": "鳃盖开合，压住躁动", "en": "My gills flare as I hold myself back."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶……”，宝石鳍鱼游了过来，口中满是锋利的牙齿。", "en": "Sssss… The Gem Fin approaches, its teeth bared."},
+        {"zh": "小心，它的鳍如刀刃般锋利！", "en": "Beware, its fins are razor-sharp!"},
+        {"zh": "它的皮肤闪烁着宝石般的光芒。", "en": "Its skin glitters with gemstone-like light."},
+        {"zh": "它的眼睛里闪烁着贪婪的光芒。", "en": "Its eyes gleam with a greedy light."},
+        {"zh": "它的尾巴拍打着水面，发出啪啪声。", "en": "Its tail slaps the water, making a pattering sound."},
+        {"zh": "宝石鳍鱼的鳞片在阳光下闪耀。", "en": "The Gem Fin's scales shimmer in the sunlight."},
+        {"zh": "它以暗藏锋芒的嘴攻击你。", "en": "It attacks with its fanged mouth."},
+        {"zh": "它的声音低沉而危险。", "en": "Its voice is low and dangerous."},
+        {"zh": "宝石鳍鱼迅速逼近，准备攻击。", "en": "The Gem Fin closes in for the attack."},
+        {"zh": "它的眼睛紧紧盯着你的弱点。", "en": "Its eyes lock onto your vulnerabilities."},
+        {"zh": "从水里猛地窜出", "en": "I burst up out of the water."},
+        {"zh": "利齿刮过它的腿", "en": "My teeth rake its leg."},
+        {"zh": "用鳍刃割开皮肉", "en": "My fin edge opens the skin."},
+        {"zh": "尾巴将它拖下水", "en": "My tail drags it under."},
+        {"zh": "翻起水花遮住视线", "en": "I churn the water to blind it."},
+        {"zh": "咬住就绝不松口", "en": "I bite and do not let go."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗中突然出现一道宝石光芒。", "en": "A gem light appears out of the darkness."},
+        {"zh": "一束宝石光芒划破黑夜。", "en": "A beam of gem light cuts through the night."},
+        {"zh": "神秘的宝石光芒中孵化出新生命。", "en": "A new life hatches from the mysterious gem light."},
+        {"zh": "宝石光芒里藏着一只饥饿的宝石鳍鱼。", "en": "A hungry Gem Fin hides within the gem light."},
+        {"zh": "光芒中显现出宝石鳍鱼的身影。", "en": "A Gem Fin appears within the light."},
+        {"zh": "一束光芒降落在水中，孵化出宝石鳍鱼。", "en": "A beam of light lands in the water, hatching a Gem Fin."},
+        {"zh": "宝石光芒中诞生出新的生物。", "en": "A new creature is born from the gem light."},
+        {"zh": "黑暗中突然闪烁起宝石光芒。", "en": "A gem light suddenly flickers in the darkness."},
+        {"zh": "一颗宝石在黑暗中渐渐孵化出宝石鳍鱼。", "en": "A gem hatches a Gem Fin in the darkness."},
+        {"zh": "宝石光芒中逐渐现出宝石鳍鱼的轮廓。", "en": "The outline of a Gem Fin slowly appears within the gem light."},
+        {"zh": "深水里亮起一点宝石光", "en": "A gem light kindles in the deep."},
+        {"zh": "石块下面有影子在动", "en": "Something stirs under the stones."},
+        {"zh": "水温忽然降了一点", "en": "The water turns a shade colder."},
+        {"zh": "鱼群散开，我来了", "en": "The school scatters, I have come."},
+        {"zh": "沉船里游出新的猎手", "en": "A new hunter leaves the wreck."},
+        {"zh": "河底传来一声轻响", "en": "A soft click rises from the riverbed."},
+        {"zh": "宝石鳍在暗处成形", "en": "A gem fin takes shape in the dark."},
+        {"zh": "水草间多了一道光", "en": "A glimmer joins the weeds."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水都烧开了，烫得我乱窜", "en": "The water boils and I thrash in pain."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从瀑布上摔下来，鳞都翻了", "en": "I fell down the falls and my scales flipped."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "离了水，我张着嘴也喘不上气", "en": "Out of water, my open mouth finds no air."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水底的爆响震得我翻白肚", "en": "An underwater blast rolls me belly-up."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "宝石鳍也被射穿了一块。", "en": "A shard of my gem fin got shot through."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法灼过鳞片，我缩了一下。", "en": "Magic scorches my scales, and I flinch."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得连水底的苔都啃", "en": "Hungry enough to graze the moss below."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鳍上的宝石被劈得发白。", "en": "The gem on my fin went white from the bolt."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进虚空，宝石光也灭了", "en": "Falling into the void, my gem light dies."}
+      ]
+    }
+  }
+}

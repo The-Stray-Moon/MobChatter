@@ -1,0 +1,269 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我没有腿，只能滚着走。", "en": "I have no legs; I travel by rolling."},
+        {"zh": "我一下一下地弹，往远处去。", "en": "I bounce, once at a time, getting further away."},
+        {"zh": "牙齿咬住地面，把自己拖过去。", "en": "My teeth bite the ground and drag me."},
+        {"zh": "我侧着滚，避开石缝。", "en": "I roll on my side, avoiding the cracks."},
+        {"zh": "我越滚越快，怕被抓住。", "en": "I roll faster, afraid of being caught."},
+        {"zh": "我撞击石壁，弹了回来。", "en": "I hit the wall and bounce back."},
+        {"zh": "我朝暗处滚，那里安全。", "en": "I roll toward the dark. It is safer there."},
+        {"zh": "我沿台阶一级一级往下跳。", "en": "I hop down the steps one at a time."},
+        {"zh": "我的头发缠在甲环上。", "en": "My hair is caught in the mail ring."},
+        {"zh": "我滚过的地上留着灰痕。", "en": "A trail of ash follows my roll."},
+        {"zh": "我不敢停，停下来就会长。", "en": "I dare not stop; if I stop, I will grow."},
+        {"zh": "我用下颌推着地前进。", "en": "I push along with my jaw."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我停在地上，咬合了一下。", "en": "I rest on the floor and bite once."},
+        {"zh": "我在慢慢长回来。", "en": "I am slowly growing back."},
+        {"zh": "脖子下面有东西在动。", "en": "Something moves below my neck."},
+        {"zh": "我的牙齿一直没停。", "en": "My teeth never stop."},
+        {"zh": "石板一响，我就知道有人。", "en": "One tap on stone and I know someone is here."},
+        {"zh": "有光的话，我会躲开。", "en": "If there is light, I avoid it."},
+        {"zh": "我在等颈口长出第一根骨。", "en": "I wait for the first bone at my neck stump."},
+        {"zh": "我记得自己原来有身体。", "en": "I remember having a body."},
+        {"zh": "牙齿一张一合，磨着石屑。", "en": "My teeth grind open and shut on grit."},
+        {"zh": "灰从我颈口掉出来。", "en": "Ash falls from my neck opening."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你看见我了，那就麻烦了。", "en": "You have seen me. That is a problem."},
+        {"zh": "我咬了一下牙，是警告。", "en": "I snap my teeth. A warning."},
+        {"zh": "我没有身体，但我还会咬。", "en": "I have no body, but I still bite."},
+        {"zh": "你挡在我和暗处之间。", "en": "You stand between me and the dark."},
+        {"zh": "我要往那边去，让开。", "en": "I am going that way. Move."},
+        {"zh": "你抬起脚，我立刻滚开。", "en": "You lift your foot; I roll away at once."},
+        {"zh": "我在地上转了个方向。", "en": "I turn to a new direction on the floor."},
+        {"zh": "你追不上滚的东西。", "en": "You cannot keep up with something that rolls."},
+        {"zh": "别踩，踩不烂我。", "en": "Do not stomp; it will not crush me."},
+        {"zh": "我会长回来的，你等着。", "en": "I will grow back. Wait and see."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被砸得偏了方向。", "en": "The blow knocked me off course."},
+        {"zh": "一颗牙崩了，我吞下去。", "en": "A tooth chips loose; I swallow it."},
+        {"zh": "我在地上转了两圈。", "en": "I spin twice on the floor."},
+        {"zh": "没有身子，也就没有疼。", "en": "No body means no pain."},
+        {"zh": "骨头裂了一道。", "en": "A crack in the bone."},
+        {"zh": "我的头发被踩乱了。", "en": "My hair has been trampled."},
+        {"zh": "我还会长回来的。", "en": "I will still grow back."},
+        {"zh": "这一下，让我慢了一点。", "en": "That slowed me a little."},
+        {"zh": "我咬紧牙，只是习惯。", "en": "I clench my teeth out of habit."},
+        {"zh": "你打不碎我。", "en": "You cannot shatter me."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下面的东西早没了，吃不下。", "en": "Everything below is gone; I cannot eat."},
+        {"zh": "你把食物举给一颗头看。", "en": "You show food to a severed head."},
+        {"zh": "这点东西，我咬都懒得咬。", "en": "I will not even bother biting that."},
+        {"zh": "一颗头要的不是这些碎渣。", "en": "A head has no use for these crumbs."},
+        {"zh": "你举着它，手就空不出来。", "en": "Holding it leaves your hands busy."},
+        {"zh": "没有鼻子，我闻不出香臭。", "en": "No nose; I cannot tell sweet from foul."},
+        {"zh": "拿开，我要走了。", "en": "Put it away; I am leaving."},
+        {"zh": "这东西挡了你的路。", "en": "That is in your way, not mine."},
+        {"zh": "我咬不动它，也不想咬。", "en": "I cannot bite it, and do not want to."},
+        {"zh": "别用这个引我。", "en": "Do not try to lure me with that."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踢了我一脚，我飞出去。", "en": "You kicked me; I flew."},
+        {"zh": "我撞在墙上，弹回来。", "en": "I hit the wall and bounced back."},
+        {"zh": "我的牙磕了一下，很响。", "en": "My teeth clacked loudly."},
+        {"zh": "我没有身体可以退。", "en": "I have no body to retreat with."},
+        {"zh": "你踩住我，我还是会动。", "en": "You pin me down, and I still move."},
+        {"zh": "这一撞，我的头发散了。", "en": "That loosened my hair."},
+        {"zh": "我滚到你脚后面。", "en": "I roll behind your feet."},
+        {"zh": "别用脚，太脏。", "en": "Not your boot. Too filthy."},
+        {"zh": "我撞到台阶，翻了个面。", "en": "I hit a step and flipped over."},
+        {"zh": "再踢，我就咬你的鞋。", "en": "Kick again and I bite your boot."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我连脖子都没有。", "en": "I do not even have a neck."},
+        {"zh": "这种话对一颗头说？", "en": "You say this to a head?"},
+        {"zh": "我只要长回身体。", "en": "I only want my body back."},
+        {"zh": "墓里没有别的头。", "en": "There are no other heads in this tomb."},
+        {"zh": "一颗头，听不懂你们的事。", "en": "I am a head; your business means nothing to me."},
+        {"zh": "我记得有人喊过我的名字。", "en": "I remember someone calling my name."},
+        {"zh": "那个声音已经不在了。", "en": "That voice is gone now."},
+        {"zh": "我现在只想滚远一点。", "en": "I only want to roll further away."},
+        {"zh": "你问得真不是时候。", "en": "This is a poor time to ask."},
+        {"zh": "让开，我要去暗处。", "en": "Move; I am going into the dark."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我咬住一块布，拖着走。", "en": "I bite a scrap of cloth and drag it."},
+        {"zh": "这个太重，我推不动。", "en": "Too heavy; I cannot push it."},
+        {"zh": "我用牙齿把它叼起来。", "en": "I lift it with my teeth."},
+        {"zh": "东西卡在牙缝，我甩不掉。", "en": "It is stuck between my teeth; I cannot shake it."},
+        {"zh": "一枚旧钉，我留着。", "en": "An old nail — I keep it."},
+        {"zh": "我咬了一口，是石头。", "en": "I bit it. Stone."},
+        {"zh": "我把它顶到墙角。", "en": "I nudge it into the corner."},
+        {"zh": "它滚开了，我追不上。", "en": "It rolled away; I cannot catch it."},
+        {"zh": "这东西有铁锈味。", "en": "This smells of rust."},
+        {"zh": "我把它压在牙下面。", "en": "I pin it under my teeth."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有脚步靠近了。", "en": "Footsteps are coming closer."},
+        {"zh": "我张开下颌。", "en": "I open my jaw."},
+        {"zh": "这个距离，我能咬到脚踝。", "en": "From here I can reach an ankle."},
+        {"zh": "我贴在石缝里等。", "en": "I lie in a crack and wait."},
+        {"zh": "我听见活人的心跳。", "en": "I hear a living heartbeat."},
+        {"zh": "它离我只有一步。", "en": "It is one step away."},
+        {"zh": "我咬合了一下，试试牙。", "en": "I snap once to test my teeth."},
+        {"zh": "我不能追太远，但没有关系。", "en": "I cannot chase far, but that is fine."},
+        {"zh": "我的眼窝一直朝着它。", "en": "My eye sockets stay on it."},
+        {"zh": "它只顾前面，没低头看。", "en": "It watches ahead and never looks down."},
+        {"zh": "我绷紧了颈口。", "en": "The neck stump tenses."},
+        {"zh": "我等它再近一点。", "en": "I wait for it to come closer."},
+        {"zh": "我滚到它的路上。", "en": "I roll into its path."},
+        {"zh": "它抬脚了。", "en": "It is lifting its foot."},
+        {"zh": "我现在就动。", "en": "I move now."},
+        {"zh": "这一口，我要咬实。", "en": "This bite must land true."},
+        {"zh": "它把后颈露给我了。", "en": "It leaves the back of its neck to me."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我跟着它的脚滚。", "en": "I roll along with its feet."},
+        {"zh": "它一转身，我就跟着偏过去。", "en": "It turns, and my roll shifts with it."},
+        {"zh": "我一直咬着牙。", "en": "My teeth stay clenched."},
+        {"zh": "它踩空了，很好。", "en": "It missed a step. Good."},
+        {"zh": "它回头看，我停在原地装死。", "en": "It looks back; I stop and play dead."},
+        {"zh": "它一走，我就跟上。", "en": "When it moves, I follow."},
+        {"zh": "我贴着墙根滚到它身后。", "en": "I roll along the wall to its back."},
+        {"zh": "它绕着火把走，我不靠近。", "en": "It keeps to the torch; I keep away."},
+        {"zh": "等它弯腰，牙就够得着。", "en": "When it bends, my teeth can reach."},
+        {"zh": "它的脚踝就在那儿。", "en": "Its ankle is right there."},
+        {"zh": "我慢慢靠近，不出声。", "en": "I approach slowly, silently."},
+        {"zh": "它的鞋带松了。", "en": "Its bootlace is loose."},
+        {"zh": "我数着它落脚的位置。", "en": "I count where its feet land."},
+        {"zh": "我不急，它总要停。", "en": "No hurry; it must stop eventually."},
+        {"zh": "它靠墙站着，我贴着墙根。", "en": "It leans on the wall; I hug the wall base."},
+        {"zh": "我离它只有半尺。", "en": "Half a foot from it now."},
+        {"zh": "它弯腰了。", "en": "It is bending down."},
+        {"zh": "就是这个时刻。", "en": "This is the moment."},
+        {"zh": "我张嘴，牙全露出来。", "en": "I open my mouth, all teeth showing."},
+        {"zh": "它听见牙响了吗。", "en": "Did it hear my teeth?"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "牙一合，咬进脚踝的筋里。", "en": "My teeth close into the tendon at its ankle."},
+        {"zh": "这一口，牙全进去了。", "en": "This bite sinks every tooth."},
+        {"zh": "我挂在它腿上，被拖着走。", "en": "I hang from its leg and am dragged."},
+        {"zh": "它甩腿，我不松。", "en": "It shakes its leg; I do not let go."},
+        {"zh": "我咬的是脚筋。", "en": "I go for the tendon."},
+        {"zh": "它一脚把我踢飞。", "en": "One kick sends me flying."},
+        {"zh": "我落地又滚回去。", "en": "I land and roll back in."},
+        {"zh": "这一下，够它慢下来。", "en": "That will slow it."},
+        {"zh": "我的牙比刀更狠。", "en": "My teeth are crueller than a blade."},
+        {"zh": "它喊了一声，很好听。", "en": "It cried out. A fine sound."},
+        {"zh": "我被踩进土里，还在咬。", "en": "I am stamped into the dirt, still biting."},
+        {"zh": "它挣开了，我的牙还带着东西。", "en": "It tore free; my teeth bring something with them."},
+        {"zh": "我再咬一次。", "en": "I bite again."},
+        {"zh": "这一口是为了我的身体。", "en": "This bite is for my body."},
+        {"zh": "它退了两步，我追不上。", "en": "It backed two steps; I cannot follow."},
+        {"zh": "它还站着，那就再来。", "en": "It is still standing. Then again."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从地上睁开眼窝。", "en": "I open my eye sockets on the floor."},
+        {"zh": "我的身体在别处。", "en": "My body is somewhere else."},
+        {"zh": "颈口还在冒着灰。", "en": "Ash still rises from my neck."},
+        {"zh": "我试着滚了一下。", "en": "I try one roll."},
+        {"zh": "石头硌着我的牙。", "en": "The stone scrapes my teeth."},
+        {"zh": "我不知道自己怎么被砍下来的。", "en": "I do not know how I was cut down."},
+        {"zh": "但我记得要长回来。", "en": "But I remember I must grow back."},
+        {"zh": "地上很凉，正合适。", "en": "The floor is cold. Fitting."},
+        {"zh": "我听见墓里有动静。", "en": "I hear movement in the tomb."},
+        {"zh": "我朝暗处滚过去。", "en": "I roll toward the dark."},
+        {"zh": "我的头发散了一地。", "en": "My hair spills across the floor."},
+        {"zh": "有人会来找我的身体。", "en": "Someone will come looking for my body."},
+        {"zh": "我滚进棺缝，先不露头。", "en": "I roll into a coffin crack, out of sight."},
+        {"zh": "我咬合了一下，确认牙还在。", "en": "I snap once to check my teeth are there."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火一烧，我的头发全卷了。", "en": "Fire curls all my hair."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我滚下台阶，牙磕掉了一颗。", "en": "I roll down the steps and lose a tooth."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进颈口，我沉下去。", "en": "Water pours into my neck and I sink."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆风把我砸进壁龛里。", "en": "The blast slams me into a niche."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭穿过我的眼窝。", "en": "An arrow passes through my eye socket."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咒力钻进骨头，我的牙在响。", "en": "A curse enters the bone and my teeth chatter."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不饿，但我在变干。", "en": "I am not hungry, but I am drying out."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在地上，我整颗头都亮了。", "en": "Lightning hits the floor and my whole skull lights."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地面没了，我一直在掉。", "en": "The floor is gone; I keep falling."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "燃烧平原上，我踩着火走", "en": "On the burning plains I walk over fire"},
+        {"zh": "六条腿，硬壳，走起来像石块在滚", "en": "Six legs and hard shell, moving like rolling stone"},
+        {"zh": "脚下的地面泛着红", "en": "The ground under me glows red"},
+        {"zh": "火焰从我旁边过去，我不躲", "en": "Flames pass beside me and I do not flinch"},
+        {"zh": "我一步一步碾过去", "en": "I grind forward step by step"},
+        {"zh": "我的甲在热里变得更硬", "en": "My shell hardens in the heat"},
+        {"zh": "走过的地方，火被踩熄", "en": "Where I pass, the fire is stamped out"},
+        {"zh": "燃烧平原的风是烫的", "en": "The wind of the burning plains is scalding"},
+        {"zh": "头上的角，在火光里发暗", "en": "My horn glows dark in the firelight"},
+        {"zh": "我抬头，烟把太阳挡住了", "en": "I look up, smoke hides the sun"},
+        {"zh": "我背上落着火星", "en": "Embers land on my back"},
+        {"zh": "我沿着岩浆的边沿走", "en": "I walk along the edge of the lava"},
+        {"zh": "火在我脚下分开，又合上", "en": "The fire parts under my feet and closes again"},
+        {"zh": "我的腿一节一节，很有力", "en": "My legs are segmented and strong"},
+        {"zh": "灰太厚，我每一步都踩实", "en": "The ash is deep, I plant every step"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站在火里，一动不动", "en": "I stand in the fire without moving"},
+        {"zh": "这个壳烧不坏", "en": "This shell does not burn"},
+        {"zh": "我把头埋低，等风过去", "en": "I lower my head and let the wind pass"},
+        {"zh": "火焰舔着我的腿，我不在意", "en": "Flames lick my legs, I do not care"},
+        {"zh": "燃烧平原上没什么能吃的", "en": "There is little to eat on the burning plains"},
+        {"zh": "我的甲上有裂纹，是旧的", "en": "There are cracks in my shell, old ones"},
+        {"zh": "我把角在石头上磨了磨", "en": "I grind my horn on a stone"},
+        {"zh": "这一片火，我熟", "en": "I know this stretch of fire"},
+        {"zh": "我听见有东西在灰里爬", "en": "I hear something crawling in the ash"},
+        {"zh": "我不动，火星也不敢靠近", "en": "I stay still and even embers keep away"},
+        {"zh": "我的影子在火里扭", "en": "My shadow writhes in the fire"},
+        {"zh": "风一变，火就换了方向", "en": "When the wind turns, the fire changes course"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你站在火边，倒是胆大", "en": "Standing by the fire, you are bold"},
+        {"zh": "我抬起头，角对着你", "en": "I lift my head, horn toward you"},
+        {"zh": "你身上的甲，比我的薄", "en": "Your armor is thinner than mine"},
+        {"zh": "你能在这里站着，不简单", "en": "Standing here at all is no small thing"},
+        {"zh": "我的甲上有六点厚", "en": "My shell is six points thick"},
+        {"zh": "你不怕热，我也不怕", "en": "You do not fear heat, and neither do I"},
+        {"zh": "我往你这边挪了一步", "en": "I shift one step your way"},
+        {"zh": "你的影子在火上很怪", "en": "Your shadow looks strange on the fire"},
+        {"zh": "我不叫，火的声音够大了", "en": "I do not call out, the fire is loud enough"},
+        {"zh": "你手里那根东西，会疼吗", "en": "Will that thing in your hand hurt"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "甲上被敲掉一块", "en": "A piece of my shell has been knocked away"},
+        {"zh": "我退了一步，火让开", "en": "I step back and the fire parts"},
+        {"zh": "这一下打在关节", "en": "That landed on a joint"},
+        {"zh": "我哼了一声，很闷", "en": "I grunt, muffled"},
+        {"zh": "壳厚，可也疼", "en": "The shell is thick, and it hurts"},
+        {"zh": "我低下头，甲朝外", "en": "I lower my head, shell outward"},
+        {"zh": "血在火里一下就不见了", "en": "The blood vanishes in the fire"},
+        {"zh": "你这一下，力气不小", "en": "That blow had some force"},
+        {"zh": "我咬着牙，火在嘴边", "en": "I grit my teeth with fire at my mouth"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手里的东西，不怕烧吗", "en": "Does that in your hand not burn"},
+        {"zh": "我闻了闻，什么味儿都没有", "en": "I sniff, there is no smell at all"},
+        {"zh": "这个我不吃，拿走", "en": "I do not eat this, take it off"},
+        {"zh": "你举着它，手在冒汗", "en": "You hold it up and your hand is sweating"},
+        {"zh": "这一片除了灰就是火", "en": "Nothing here but ash and fire"},
+        {"zh": "我挪近了，火跟着我", "en": "I move closer and the fire follows me"},
+        {"zh": "你放下，我就看看", "en": "Set it down and I will look"},
+        {"zh": "烫的东西我不碰", "en": "I do not touch things that burn"},
+        {"zh": "你把东西往远处挪一点", "en": "Move the thing a little farther off"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上来，退的是你", "en": "You hit me and you are the one retreating"},
+        {"zh": "我的甲比石头硬", "en": "My shell is harder than stone"},
+        {"zh": "我连一步都没挪", "en": "I have not shifted one step"},
+        {"zh": "你踩在火上，又踩在我身上", "en": "You stepped in fire, then on me"},
+        {"zh": "这一下，你的手会麻", "en": "That will leave your hand numb"},
+        {"zh": "我挪开半步，火跟着让开", "en": "I shift half a step and the fire gives way"},
+        {"zh": "别贴着我的甲走", "en": "Do not walk against my shell"},
+        {"zh": "你还站得住，倒是硬气", "en": "Still standing, that is tough of you"},
+        {"zh": "我退了，是给你让路", "en": "I stepped back to let you pass"},
+        {"zh": "再撞，我就顶回去", "en": "Bump again and I push back"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "燃烧平原上同类不少", "en": "There are plenty of my kind on the burning plains"},
+        {"zh": "壳硬了才有资格", "en": "Only a hard shell earns that"},
+        {"zh": "我的角，是磨了很多年的", "en": "This horn took years to grind"},
+        {"zh": "你先在这里站住，再说别的", "en": "Hold your ground here first, then we talk"},
+        {"zh": "这里太热，话都懒得说", "en": "It is too hot to bother talking"},
+        {"zh": "火会替我们把路分开", "en": "The fire will part the road for us"},
+        {"zh": "我不太会哄人", "en": "I am not much for soothing words"},
+        {"zh": "这一片火，我守了好几年", "en": "I have held this stretch of fire for years"},
+        {"zh": "别站在我这个距离", "en": "Do not stand this close to me"},
+        {"zh": "我先去那边巡一圈", "en": "I will go patrol over there"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用前腿扒开灰", "en": "I scrape the ash aside with my forelegs"},
+        {"zh": "它烫，我用角挑起来", "en": "It is hot, I lift it with my horn"},
+        {"zh": "这东西在我甲上敲了一下", "en": "It struck my shell once"},
+        {"zh": "掉在火里，就化了", "en": "Dropped in the fire, it melted"},
+        {"zh": "我把它压在脚下", "en": "I pin it under a foot"},
+        {"zh": "这个东西我不认得", "en": "I do not recognize this at all"},
+        {"zh": "我叼着，嘴里发烫", "en": "I carry it and my mouth burns"},
+        {"zh": "它滚进裂缝里", "en": "It rolled into a crack"},
+        {"zh": "留在灰里，也许有用", "en": "Leave it in the ash, it might be useful"},
+        {"zh": "你捡吧，我弯不下腰", "en": "You take it, I cannot bend"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火那边有影子动了", "en": "A shadow moved beyond the fire"},
+        {"zh": "我抬起头，角朝前", "en": "I raise my head, horn forward"},
+        {"zh": "这一片是我的地盘", "en": "This stretch is my ground"},
+        {"zh": "你身上的味道和火不一样", "en": "Your smell is not like the fire's"},
+        {"zh": "我把脚在灰里刨了两下", "en": "I paw the ash twice"},
+        {"zh": "燃烧平原上很少有人来", "en": "Few come to the burning plains"},
+        {"zh": "火在我身后，路被堵了", "en": "Fire is behind me, your road is closed"},
+        {"zh": "我的甲硬得能挡刀", "en": "My shell can turn a blade"},
+        {"zh": "你退了，我不追快", "en": "You retreat, and I do not hurry"},
+        {"zh": "这一片灰，我熟", "en": "I know this ash well"},
+        {"zh": "你想过去，得从我这里过", "en": "To pass, you go through me"},
+        {"zh": "我重重地转过身", "en": "I turn heavily"},
+        {"zh": "我的甲上有旧疤，不怕再来", "en": "My shell has old scars, it can take another"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我跟着你，火也跟着", "en": "I follow you, and the fire follows"},
+        {"zh": "你绕着裂缝走，我直接过去", "en": "You skirt the cracks, I go straight across"},
+        {"zh": "我的脚步把火踩出一条路", "en": "My steps stamp a path through the fire"},
+        {"zh": "这里没有水，你躲不掉热", "en": "No water here, you cannot escape the heat"},
+        {"zh": "你在灰里跑，扬起来的都是灰", "en": "You run in ash and only raise ash"},
+        {"zh": "你再往前，是一片火墙", "en": "Further on is a wall of fire"},
+        {"zh": "我的壳上落了火星", "en": "Embers are landing on my shell"},
+        {"zh": "我喘气很重，火都偏了", "en": "My heavy breathing bends the flames"},
+        {"zh": "这一片没有可以攀的高处", "en": "There is no high ground to climb here"},
+        {"zh": "风把灰吹向你那边", "en": "The wind blows the ash toward you"},
+        {"zh": "你在火边跑，路越来越窄", "en": "You run by the fire, the path narrows"},
+        {"zh": "我的影子在火里拉得很长", "en": "My shadow stretches long in the fire"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "角顶过来，你被挑开了", "en": "The horn comes in and flips you aside"},
+        {"zh": "我低头撞，灰都飞起来", "en": "I lower my head and charge, ash flies"},
+        {"zh": "前脚踩下来，石头碎了", "en": "My forefoot comes down and stone cracks"},
+        {"zh": "这一下顶在你的胸口", "en": "That landed on your chest"},
+        {"zh": "我推着你往火那边去", "en": "I push you toward the fire"},
+        {"zh": "我的甲撞在你身上，很闷", "en": "My shell hits you with a dull sound"},
+        {"zh": "你退了，火在后面", "en": "You retreat, and fire is behind you"},
+        {"zh": "这一下，你的手在抖", "en": "After that, your hands are shaking"},
+        {"zh": "我压下去，地面陷了", "en": "I bear down and the ground sinks"},
+        {"zh": "再挡一次看看", "en": "Try blocking that again"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "燃烧平原上多了一块硬石", "en": "A hard stone has appeared on the burning plains"},
+        {"zh": "火绕着我分开", "en": "The fire parts around me"},
+        {"zh": "地上多了六道深的印子", "en": "Six deep prints appear in the ground"},
+        {"zh": "我的甲上还挂着熔渣", "en": "Slag still clings to my shell"},
+        {"zh": "我抖了抖，火星四散", "en": "I shake and embers scatter"},
+        {"zh": "这一片的火，我来看着", "en": "I will watch this stretch of fire"},
+        {"zh": "我抬脚，脚下的火灭了", "en": "I lift a foot and the fire under it dies"},
+        {"zh": "烟里露出我的角", "en": "My horn shows through the smoke"},
+        {"zh": "我落地时，地面震了一下", "en": "The ground shook when I landed"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火对我没什么用，只是热", "en": "Fire does little to me, only heat"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从高处摔下来，甲磕出个坑", "en": "I fell from a height and dented my shell"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水一浇，我的甲就裂了", "en": "Water hit me and my shell cracked"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸得我六条腿都错了一步", "en": "The blast made my six legs miss a step"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭在甲上弹开了，只留个印", "en": "An arrow glanced off, leaving a mark"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股劲儿穿过甲缝进来了", "en": "That force came in through a seam"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火里什么都没长", "en": "Nothing grows in fire"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在我的角上，一路麻到脚", "en": "Lightning hit my horn and numbed me to the feet"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里没有地面，也没有火", "en": "No ground here, and no fire"}
+      ]
+    }
+  }
+}

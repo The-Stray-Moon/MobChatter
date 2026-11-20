@@ -1,0 +1,288 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蠕动前行", "en": "Slither forward"},
+        {"zh": "我这一块，比母体小一半。", "en": "This piece of me is half the parent's size."},
+        {"zh": "我一下一下地弹，挪向你脚边。", "en": "I bounce little by little toward your feet."},
+        {"zh": "嘶嘶声移动", "en": "Hisss and move"},
+        {"zh": "贴地爬行", "en": "Crawl low to ground"},
+        {"zh": "悄悄移动", "en": "Creep quietly"},
+        {"zh": "碎成小块，我还是一样弹。", "en": "Broken small, I still bounce the same."},
+        {"zh": "贴着地面爬", "en": "Crawl near ground"},
+        {"zh": "缓缓前进", "en": "Creep forward"},
+        {"zh": "小肉块一蹦一跳地挪动", "en": "The little cube hops and shuffles along."},
+        {"zh": "分裂后的小身子弹跳前行", "en": "Split from its parent, it bounces forward."},
+        {"zh": "肉块贴着地面缓缓滑动", "en": "The flesh rubs slowly over the ground."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静等候", "en": "Wait quietly"},
+        {"zh": "无声徘徊", "en": "Silent patrol"},
+        {"zh": "我等下一具尸体掉下来。", "en": "I wait for the next corpse to fall."},
+        {"zh": "我伏在地上，像块普通的肉。", "en": "I lie on the ground like an ordinary piece of meat."},
+        {"zh": "缓慢游荡", "en": "Wander slowly"},
+        {"zh": "肉块贴着地面，等谁走近。", "en": "The flesh clings to the floor, waiting for someone."},
+        {"zh": "我在血泊里慢慢鼓起来。", "en": "I swell slowly in the pool of blood."},
+        {"zh": "慢慢游弋", "en": "Swim slowly"},
+        {"zh": "静静藏匿", "en": "Hide quietly"},
+        {"zh": "耐心守候", "en": "Patience lurks"},
+        {"zh": "小肉块原地一鼓一缩", "en": "The tiny cube swells and shrinks in place."},
+        {"zh": "缩成一团伪装成腐肉", "en": "It balls up to pass for rotten meat."},
+        {"zh": "鼓动着等待再次分裂", "en": "It pulses, waiting to split again."},
+        {"zh": "静静伏在血肉平原上", "en": "It lies still out on the flesh plains."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从大块身上裂下来，还会跳。", "en": "Split off the big one, and I still bounce."},
+        {"zh": "我从大块上掉下来，还剩一点力气。", "en": "I fell off the big one and still have some strength."},
+        {"zh": "你踩到我的那一刻，我醒了。", "en": "The moment you stepped on me, I woke."},
+        {"zh": "我表面的纹路朝你这边聚拢。", "en": "The patterns on me gather toward you."},
+        {"zh": "碎成小块，也照样找你。", "en": "Broken into bits, still looking for you."},
+        {"zh": "我从血泥里抬起一角对着你。", "en": "I lift one corner from the bloody mud toward you."},
+        {"zh": "我慢慢转向你，表面冒出汗珠。", "en": "I turn toward you, beads forming on my surface."},
+        {"zh": "我还剩一点，跳得动", "en": "There's a bit of me left — enough to hop"},
+        {"zh": "我身上裂开的口子，都在闻你。", "en": "Every split on my body sniffs for you."},
+        {"zh": "小身子一弹，盯住了你", "en": "One small hop, and its gaze locks on you."},
+        {"zh": "肉块上的裂缝朝向你", "en": "The split in its flesh turns toward you."},
+        {"zh": "用新长出的眼睛打量你", "en": "It sizes you up with a newly grown eye."},
+        {"zh": "小肉块判断着你的距离", "en": "The tiny cube measures the gap to you."},
+        {"zh": "盯住你的脚踝不放开", "en": "It fixes on your ankle and stays there."},
+        {"zh": "鼓起身子朝你探来", "en": "It swells and leans your way."},
+        {"zh": "它记住了你的气味", "en": "It has memorized your smell."},
+        {"zh": "小肉块瞄准了你的影子", "en": "It takes aim at your shadow."},
+        {"zh": "分裂体也认得活人", "en": "Even a split-off knows living flesh."},
+        {"zh": "它估算着扑上来的距离", "en": "It works out how far it must leap."},
+        {"zh": "肉块表面短暂睁开了眼", "en": "An eye briefly opens on its surface."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "肌肉撕裂，疼痛难忍！", "en": "Muscle torn, it hurts!"},
+        {"zh": "身体碎裂，痛苦！", "en": "Body fractured, pain!"},
+        {"zh": "我被削掉一块，地上黏糊糊的。", "en": "A piece of me is cut away, sticky on the floor."},
+        {"zh": "伤口疼痛，真烦！", "en": "Wound hurts, annoying!"},
+        {"zh": "肌肉受损，好疼！", "en": "Muscle damaged, hurts!"},
+        {"zh": "筋肉破裂，很疼！", "en": "Muscle ruptured, painful!"},
+        {"zh": "受伤严重，快死！", "en": "Severely injured, dying!"},
+        {"zh": "筋腱断裂，痛死！", "en": "Tendons snapped, in pain!"},
+        {"zh": "受伤了，别靠近！", "en": "Injured, stay away!"},
+        {"zh": "肌肉被撕裂，真惨！", "en": "Muscle torn, unlucky!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你散发的味道让我垂涎", "en": "You smell tempting."},
+        {"zh": "靠近我，你会死得很痛苦", "en": "Come closer, and you’ll suffer."},
+        {"zh": "你的血液，我的食物", "en": "Your blood, my meal."},
+        {"zh": "不要停下，我还没吃饱", "en": "Don’t stop, I’m not full yet."},
+        {"zh": "这里是我的领地，退后", "en": "This is my territory, back off."},
+        {"zh": "我会享受撕裂你的过程", "en": "I’ll enjoy tearing you apart."},
+        {"zh": "你的肉质很鲜美", "en": "Your flesh is delicious."},
+        {"zh": "我不会轻易放弃猎物", "en": "I won’t easily give up my prey."},
+        {"zh": "碎成小块，我也馋你。", "en": "Split into pieces, I still hunger for you."},
+        {"zh": "我的存在就是对你的威胁", "en": "My existence is a threat to you."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "小心，我的触角致命", "en": "Beware, my tentacles are deadly."},
+        {"zh": "碰撞就是死亡", "en": "Collision means death."},
+        {"zh": "你触碰了我的领地", "en": "You’ve touched my territory."},
+        {"zh": "避开我，否则你会受伤", "en": "Avoid me, or you’ll get hurt."},
+        {"zh": "我的弹跳会要了你的命", "en": "My jump will kill you."},
+        {"zh": "不要靠近，你会后悔", "en": "Don’t get close, you’ll regret it."},
+        {"zh": "我的触角可以穿透你的皮肤", "en": "My tentacles can pierce your skin."},
+        {"zh": "我会抓住你，让你痛苦", "en": "I’ll grab you and cause you pain."},
+        {"zh": "你的身体不够坚硬", "en": "Your body isn’t tough enough."},
+        {"zh": "我会用我的力量碾碎你", "en": "I’ll crush you with my strength."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找到我的同类，互相繁衍", "en": "Find my mate to reproduce."},
+        {"zh": "我的同类在那边，靠近它们", "en": "My mates are over there, get close."},
+        {"zh": "我需要伴侣来繁衍后代", "en": "I need a mate to reproduce."},
+        {"zh": "寻找我的配偶，合作生存", "en": "Find my mate, we can survive together."},
+        {"zh": "我的同类会保护我们", "en": "My mates will protect us."},
+        {"zh": "靠近我的同类，我们共存", "en": "Get close to my mate, we can coexist."},
+        {"zh": "我的同类能提供安全", "en": "My mates provide safety."},
+        {"zh": "我的同类在附近，靠近它们", "en": "My mates are nearby, get close."},
+        {"zh": "与我的同类建立联系", "en": "Establish a connection with my mate."},
+        {"zh": "我的同类可以带来食物", "en": "My mates can bring food."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "吱吱响，肉块黏稠，好恶心！", "en": "Squeak, slimy bits, gross!"},
+        {"zh": "这黏糊糊的东西，拿起来真不舒服！", "en": "This sticky stuff, awkward to hold."},
+        {"zh": "吃起来像烂肉，真恶心！", "en": "Tastes like rotten flesh, yuck!"},
+        {"zh": "血肉块的味道，真难闻！", "en": "The smell of small flesh, unpleasant."},
+        {"zh": "这玩意儿应该直接扔掉！", "en": "Just toss this thing away."},
+        {"zh": "又黏又滑，握不住！", "en": "Slippery, can't hold."},
+        {"zh": "看起来像被撕碎的肉！", "en": "Looks like torn flesh."},
+        {"zh": "这东西摸起来黏糊糊的！", "en": "Feels sticky!"},
+        {"zh": "这血肉块真恶心！", "en": "How gross this small flesh is!"},
+        {"zh": "赶紧扔掉，别碰！", "en": "Drop it, don't touch!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "猎物就在附近，准备好攻击！", "en": "Prey nearby, ready to attack!"},
+        {"zh": "目标锁定，准备跳跃攻击！", "en": "Target acquired, ready to jump!"},
+        {"zh": "猎物的味道真诱人！", "en": "Tasty prey!"},
+        {"zh": "目标就在脚下，准备吞噬！", "en": "Target at feet, ready to devour!"},
+        {"zh": "闻到了猎物的味道！", "en": "Prey scent detected."},
+        {"zh": "猎物近了，准备一击必杀！", "en": "Prey approaching, one hit kill!"},
+        {"zh": "猎物的气息，准备撕咬！", "en": "Prey's scent, ready to bite!"},
+        {"zh": "猎物就在眼前，准备吞噬！", "en": "Prey in sight, ready to devour!"},
+        {"zh": "捕食目标锁定，准备攻击！", "en": "Prey locked, ready to attack!"},
+        {"zh": "目标就在眼前，准备吞噬！", "en": "Target in sight, ready to devour!"},
+        {"zh": "闻到你，身子猛地一缩", "en": "It smells you and snaps into a crouch."},
+        {"zh": "锁定你的脚，准备起跳", "en": "Locked on your feet, it readies a jump."},
+        {"zh": "小肉块认定你是猎物", "en": "The little cube has decided you are prey."},
+        {"zh": "它朝你的方向蓄力", "en": "It gathers itself toward you."},
+        {"zh": "分裂体也能找到活物", "en": "A split-off can still find the living."},
+        {"zh": "闻到血味，弹跳蓄势", "en": "Blood in the air, and it coils to spring."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定目标，准备跳起攻击！", "en": "Locking target, ready to jump!"},
+        {"zh": "锁定猎物，准备撕咬！", "en": "Locking prey, ready to bite!"},
+        {"zh": "猎物在望，准备攻击！", "en": "Prey in sight, ready to attack!"},
+        {"zh": "目标就在眼前，准备吞噬", "en": "Target in sight, ready to devour!"},
+        {"zh": "碎成小块的我，弹起来更快。", "en": "Split into a small piece, I bounce faster."},
+        {"zh": "猎物就在脚下，准备吞食！", "en": "Prey at feet, ready to devour!"},
+        {"zh": "我一缩一弹，朝你的脚边跳。", "en": "I compress and spring toward your feet."},
+        {"zh": "从大块身上裂下来的小肉块。", "en": "A small chunk split off the big one."},
+        {"zh": "锁定猎物，准备吞食！", "en": "Locking prey, ready to devour!"},
+        {"zh": "缩紧身子，准备蹦过来", "en": "It tightens up, ready to hop over."},
+        {"zh": "一跳一跳地缩短距离", "en": "Bounce by bounce, the gap closes."},
+        {"zh": "肉块压扁，弹向你", "en": "The cube flattens and springs at you."},
+        {"zh": "它算好了落点在你身上", "en": "It has picked where to land on you."},
+        {"zh": "越弹越近，不停歇", "en": "Closer with every bounce, never resting."},
+        {"zh": "小身体里挤出嘶声", "en": "A hiss squeezes out of the small body."},
+        {"zh": "瞄准你的膝盖弹去", "en": "It aims its leap at your knee."},
+        {"zh": "蓄力时肉块颤抖着", "en": "The flesh trembles as it charges up."},
+        {"zh": "它准备把自己砸向你", "en": "It is about to throw itself at you."},
+        {"zh": "地面的影子被它盯上", "en": "It has chosen the shadow at your feet."},
+        {"zh": "弹跳前的静默最危险", "en": "The silence before the leap is worst."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你感受到我的存在了吗？", "en": "Feel my presence."},
+        {"zh": "我的触感会抓住你！", "en": "My touch will grab you!"},
+        {"zh": "我裂出来的小块，也会弹着咬你。", "en": "This little chunk split from the mass still bounces and bites."},
+        {"zh": "躲开，否则你会被撕裂！", "en": "Move, or you'll be torn!"},
+        {"zh": "我的肉块会吞噬你！", "en": "My flesh will consume you!"},
+        {"zh": "我的肉块会粘住你！", "en": "My flesh will stick to you!"},
+        {"zh": "大块裂开，我就是那一小块。", "en": "The big one split — I'm the little piece."},
+        {"zh": "大块裂开，我是碎的那块。", "en": "The big one split; I am the shard."},
+        {"zh": "你将被我吞噬！", "en": "You will be devoured!"},
+        {"zh": "我的触角会刺穿你！", "en": "My tentacles will pierce you!"},
+        {"zh": "小肉块撞上你的小腿", "en": "The small cube slams into your shin."},
+        {"zh": "弹起来咬住你的脚", "en": "It springs up and bites your foot."},
+        {"zh": "黏糊的撞击声", "en": "A wet, sticky thud."},
+        {"zh": "它砸在你身上又弹开", "en": "It hits you and bounces away."},
+        {"zh": "小身体撞得你后退", "en": "The small body knocks you back a step."},
+        {"zh": "肉块碾过你的脚背", "en": "The flesh rolls over your instep."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "母体裂开，我从缝里弹出来。", "en": "The parent split, and I bounced out."},
+        {"zh": "我从地下爬出，寻找猎物！", "en": "I crawl from the ground, seeking prey!"},
+        {"zh": "我从腐肉中诞生！", "en": "I emerge from the rot!"},
+        {"zh": "腐肉中裂开，我来了！", "en": "The flesh splits, here I come!"},
+        {"zh": "我从尸块中爬出！", "en": "I crawl from the corpse!"},
+        {"zh": "我从腐烂的肉中诞生！", "en": "I emerge from the decaying flesh!"},
+        {"zh": "腐肉裂开，我来了！", "en": "The flesh splits, here I come!"},
+        {"zh": "我从地底爬出，寻找猎物！", "en": "I crawl from the ground, seeking prey!"},
+        {"zh": "我从死亡中诞生！", "en": "I emerge from death!"},
+        {"zh": "大肉块碎开，我落地", "en": "The big cube bursts and I drop free."},
+        {"zh": "我从母体残骸里滚出", "en": "I roll out of my parent's remains."},
+        {"zh": "碎裂的血肉堆里钻出我", "en": "I crawl out of the broken flesh pile."},
+        {"zh": "母体死了，我还在", "en": "The parent died, but I remain."},
+        {"zh": "血肉平原上又多一块", "en": "One more lump on the flesh plains."},
+        {"zh": "我落地时还在颤动", "en": "I am still twitching as I land."},
+        {"zh": "从小块腐肉里冒出来", "en": "I well up out of the rotting scraps."},
+        {"zh": "分裂完成，我睁眼了", "en": "The split is done; I open my eyes."},
+        {"zh": "我带着母体的碎渣落地", "en": "I land with bits of my parent on me."},
+        {"zh": "肉块崩开，我跳出来", "en": "The cube splits open and I hop out."},
+        {"zh": "这片腐肉归我了", "en": "This patch of rot is mine now."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧灼，痛苦！", "en": "Burned by fire!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔伤了，真痛！", "en": "Fallen, hurts!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "溺水了，快窒息！", "en": "Drowning, suffocating!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸伤了，快跑！", "en": "Explosion, run!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "分裂出来的小块，也会疼。", "en": "Even a split-off cube can hurt."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股光照得我直缩，皮都皱了。", "en": "That light makes me shrink, my skin puckering."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿死了，快找到食物！", "en": "Starvation, find food!"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被雷劈了，真疼！", "en": "Lightning, hurts!"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚无，绝望！", "en": "Void, despair!"}
+      ]
+    }
+  }
+}

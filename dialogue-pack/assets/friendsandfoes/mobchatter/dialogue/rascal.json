@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "踮着脚尖，我贴着矿道的阴影走。", "en": "On tiptoe, I hug the shadows of the mine tunnel."},
+        {"zh": "沿着铁轨，我一格一格地溜过去。", "en": "Rail by rail, I slip along the track."},
+        {"zh": "火光一亮，我就往岔道里缩。", "en": "A torch flares and I shrink into the side tunnel."},
+        {"zh": "把耳朵贴在墙上，听你的脚步。", "en": "Ear to the wall, listening for your steps."},
+        {"zh": "跳过矿车，我落地几乎没声音。", "en": "Over the minecart, and I land nearly silent."},
+        {"zh": "蜘蛛网挂着，我从下面钻过去。", "en": "Webs hang low; I duck beneath them."},
+        {"zh": "我数着枕木走，一、二、三。", "en": "I count the sleepers: one, two, three."},
+        {"zh": "口袋里的包裹撞得叮当响。", "en": "The bundle in my pocket clinks as I move."},
+        {"zh": "滑进裂缝，再从另一头冒出来。", "en": "Into the crack, out the other side."},
+        {"zh": "脚下一块碎石滚下了竖井。", "en": "A pebble rolls down the shaft under my foot."},
+        {"zh": "我绕着废弃的矿柱转圈。", "en": "I circle the abandoned support pillar."},
+        {"zh": "苔藓太滑，我扶着墙挪。", "en": "The moss is slick; I shuffle along the wall."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "数到一百之前，我哪儿也不去。", "en": "I go nowhere until I count to one hundred."},
+        {"zh": "这个角落的光刚好照不到我。", "en": "The light never quite reaches this corner."},
+        {"zh": "我听见滴水，一滴，又一滴。", "en": "I hear dripping: one drop, then another."},
+        {"zh": "铜矿的绿锈蹭了我一手。", "en": "Copper rust has stained my whole hand."},
+        {"zh": "我把包裹翻过来看了看。", "en": "I turn the bundle over to check it."},
+        {"zh": "这条矿道我闭着眼都认得。", "en": "I could walk this tunnel blindfolded."},
+        {"zh": "有人在上面走动，我屏住气。", "en": "Someone walks above; I hold my breath."},
+        {"zh": "帽檐压低了，谁也看不见眼睛。", "en": "Hat brim low, nobody sees my eyes."},
+        {"zh": "我在等下一声脚步靠近。", "en": "I wait for the next footstep to come near."},
+        {"zh": "藏得久了，连自己都找不到。", "en": "Hidden so long even I lose myself."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你东张西望的样子真好笑。", "en": "The way you look around is genuinely funny."},
+        {"zh": "我看见你的火把，你看不见我。", "en": "I see your torch; you do not see me."},
+        {"zh": "眼睛别往左看，我就在左边。", "en": "Don't look left — I am on the left."},
+        {"zh": "你盯着那边，我就在这头笑。", "en": "You stare over there; I giggle from here."},
+        {"zh": "抬头，我在你头顶的横梁上。", "en": "Look up; I am on the beam above you."},
+        {"zh": "你转得太快，我差点笑出声。", "en": "You turn so fast I nearly laugh out loud."},
+        {"zh": "别眨眼，我已经换了位置。", "en": "Don't blink; I have already moved."},
+        {"zh": "你的脚步声在我耳边太响了。", "en": "Your footsteps are far too loud down here."},
+        {"zh": "我在等你放弃，然后给你提示。", "en": "I wait for you to give up, then hint."},
+        {"zh": "你朝我这边走了一步，我退了。", "en": "You take one step my way; I step back."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哎哟，我的帽子飞了。", "en": "Ow — my hat flew off."},
+        {"zh": "你打中我了，不算找到。", "en": "You hit me; that doesn't count as finding me."},
+        {"zh": "包裹磕到石头上，破了。", "en": "The bundle cracked against the stone."},
+        {"zh": "耳朵嗡嗡的，我站不稳。", "en": "My ears are ringing; I can't stand straight."},
+        {"zh": "我只是一只爱藏的小东西。", "en": "I'm just a little thing that likes hiding."},
+        {"zh": "这一下比落石还疼。", "en": "That hurt more than a falling rock."},
+        {"zh": "我躲了这么久，还是挨了一下。", "en": "Hid so long and still got hit."},
+        {"zh": "你明明看见我了，还打。", "en": "You saw me and still swung."},
+        {"zh": "我的膝盖在碎石上磨破了。", "en": "My knee scraped open on the gravel."},
+        {"zh": "关掉火把，我认输一会儿。", "en": "Put out the torch; I surrender a moment."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "拿金子换提示？我自己会藏。", "en": "Gold for a hint? I do the hiding myself."},
+        {"zh": "我不吃面包，我只收战利品。", "en": "I don't eat bread; I only take loot."},
+        {"zh": "你把胡萝卜举高也没用。", "en": "Raising that carrot higher changes nothing."},
+        {"zh": "东西放地上，我可能会拿走。", "en": "Leave it on the ground; I might take it."},
+        {"zh": "我不跟人走，只跟线索走。", "en": "I follow clues, not people."},
+        {"zh": "糖果？矿井里只有石头和蜘蛛。", "en": "Sweets? The mine has stone and spiders only."},
+        {"zh": "你举着绿宝石，我举着包裹。", "en": "You hold an emerald; I hold a bundle."},
+        {"zh": "拿诱饵引我，我会先藏起来。", "en": "Bait me and I hide first."},
+        {"zh": "我只对没找到的角落有兴趣。", "en": "Only corners you haven't found interest me."},
+        {"zh": "别用食物，用谜题来找我。", "en": "Don't use food; use a riddle."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哎，撞上了，你怎么在这儿？", "en": "Oi, we bumped — what are you doing here?"},
+        {"zh": "矿道太窄，我的包裹卡在我们中间。", "en": "The tunnel is too narrow; my bundle is wedged between us."},
+        {"zh": "你踩到我的脚了，尖耳朵都竖了。", "en": "You stepped on my foot; my ears shot up."},
+        {"zh": "别推，我后面是条竖井。", "en": "Don't push; there's a shaft behind me."},
+        {"zh": "撞一下也算找到我一次吗？", "en": "Does bumping into me count as one find?"},
+        {"zh": "我的包裹差点掉了。", "en": "I nearly dropped my bundle."},
+        {"zh": "让让，我正要去下一个藏身处。", "en": "Move aside; I'm off to the next hiding spot."},
+        {"zh": "帽子撞歪了，这下你看见我了。", "en": "My hat's knocked crooked; now you see me."},
+        {"zh": "石头硌得我肩膀疼。", "en": "The stone is digging into my shoulder."},
+        {"zh": "别堵门，我还没藏好。", "en": "Don't block the doorway; I'm not hidden yet."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "捉迷藏里没有配对这回事。", "en": "Hide and seek has no pairing rule."},
+        {"zh": "两个人藏，谁来找？", "en": "If we both hide, who does the seeking?"},
+        {"zh": "我只跟谜题过一辈子。", "en": "I'll spend my life with riddles."},
+        {"zh": "你先找到我三次再说。", "en": "Find me three times first, then we'll talk."},
+        {"zh": "矿井里的淘气鬼都是独来独往。", "en": "Rascals in the mines keep to themselves."},
+        {"zh": "别靠那么近，我会消失。", "en": "Not so close; I'll vanish."},
+        {"zh": "我的同类只在对面的矿道里。", "en": "My kin are in the tunnel across the way."},
+        {"zh": "谈这个不如谈谈你的搜索路线。", "en": "I'd rather discuss your search route."},
+        {"zh": "藏起来的人不需要伴。", "en": "The one hiding needs no company."},
+        {"zh": "你把火把灭了，我们再聊。", "en": "Put out the torch and we can talk."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这块铁锭归我了。", "en": "This iron ingot is mine now."},
+        {"zh": "你掉的铜，我替你收着。", "en": "You dropped copper; I'll keep it safe."},
+        {"zh": "亮的东西我都想摸一下。", "en": "Anything shiny, I want to touch."},
+        {"zh": "我捡起来，藏到别人找不到的地方。", "en": "I pick it up and hide it where nobody looks."},
+        {"zh": "这块煤正好垫包裹底。", "en": "This coal will line the bundle nicely."},
+        {"zh": "别喊，我捡完就还你。", "en": "Don't shout; I'll give it back after."},
+        {"zh": "地上的东西不捡白不捡。", "en": "What's on the floor is fair to pick up."},
+        {"zh": "我口袋里已经有七块了。", "en": "I already have seven pieces in my pocket."},
+        {"zh": "这枚绿宝石摸起来凉。", "en": "This emerald feels cool in my hand."},
+        {"zh": "你盯着我，我不好意思拿。", "en": "You're staring; now I feel shy about taking it."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有人进来了，游戏开始。", "en": "Someone's come in; the game begins."},
+        {"zh": "脚步声，三步之外，我听见了。", "en": "Footsteps, three paces off — heard them."},
+        {"zh": "火把的光扫过来，我缩回暗处。", "en": "Torchlight sweeps past; I sink back into the dark."},
+        {"zh": "你找到这条矿道了，不错。", "en": "You found this tunnel; not bad."},
+        {"zh": "帽子下的眼睛已经盯上你了。", "en": "The eyes under my hat have found you."},
+        {"zh": "这次的猎人看起来不太会找。", "en": "This hunter doesn't look good at seeking."},
+        {"zh": "你踩碎的那块石头替你报了信。", "en": "That stone you cracked gave you away."},
+        {"zh": "我听见你数呼吸了。", "en": "I can hear you counting breaths."},
+        {"zh": "来了个会看横梁的人。", "en": "Here comes someone who checks the beams."},
+        {"zh": "你想找我？我先看你找多久。", "en": "You're hunting me? I'll time you."},
+        {"zh": "这局我当兔子，你当猎犬。", "en": "I'm the rabbit this round; you're the hound."},
+        {"zh": "你背包太重，走路都喘。", "en": "Your pack is heavy; you're already panting."},
+        {"zh": "提示可以先不给，先看你迷路。", "en": "No hints yet; let's watch you get lost."},
+        {"zh": "你的影子先到，人还在后面。", "en": "Your shadow arrives before you do."},
+        {"zh": "你数到十了吗？我可没等。", "en": "Done counting to ten? I did not wait."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你往左，我就往右。", "en": "You go left; I go right."},
+        {"zh": "我跟着你的灯走，不跟着你。", "en": "I follow your lamp, not you."},
+        {"zh": "转角的回声是我放的。", "en": "The echo around the corner is mine."},
+        {"zh": "再往前一点，你就会踩空。", "en": "A little further and you'll step into a hole."},
+        {"zh": "我在你背后咳嗽了一声。", "en": "I coughed once behind you."},
+        {"zh": "你听，矿道里有第二双脚。", "en": "Listen: a second pair of feet in the tunnel."},
+        {"zh": "我把石头推下去，让你追声。", "en": "I roll a stone down to send you chasing sound."},
+        {"zh": "你的耐心比火把先烧完。", "en": "Your patience will burn out before your torch."},
+        {"zh": "我数着你的回头次数。", "en": "I'm counting how often you turn around."},
+        {"zh": "这一层我熟，你只能猜。", "en": "This level is mine; you can only guess."},
+        {"zh": "左边那条道是死路，我笑。", "en": "The left tunnel dead-ends; I laugh."},
+        {"zh": "你靠近时，我钻进窄缝。", "en": "As you close in, I slip into a narrow crack."},
+        {"zh": "我在等你伸手，然后跑。", "en": "I wait for your hand, then run."},
+        {"zh": "你的火把只能照亮我的帽子。", "en": "Your torch only lights up my hat."},
+        {"zh": "我把灯芯按暗，让你再猜一次。", "en": "I dim the wick so you must guess again."},
+        {"zh": "你脚下的水洼照出了我的帽尖。", "en": "The puddle at your feet shows the tip of my hat."},
+        {"zh": "我换了个藏身处，就在你刚看过的地方。", "en": "I moved to the spot you just checked."},
+        {"zh": "再找不到，我可要出声了。", "en": "Find me soon, or I will make a sound."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从背后拍你一下就跑。", "en": "I tap your back once and bolt."},
+        {"zh": "这一下是石子，不是拳头。", "en": "That was a pebble, not a fist."},
+        {"zh": "这一下换你猜我在哪。", "en": "Now guess where I went."},
+        {"zh": "我拽了拽你的背包带。", "en": "I gave your pack strap a tug."},
+        {"zh": "帽檐撞你腰上，纯属意外。", "en": "My hat brim hit your hip; pure accident."},
+        {"zh": "我把你脚下的枕木抽走了。", "en": "I pulled the sleeper out from under you."},
+        {"zh": "这一巴掌轻得很，别装疼。", "en": "That slap was light; don't act hurt."},
+        {"zh": "你抓空的手正好挥到石壁。", "en": "Your grabbing hand swung into the stone wall."},
+        {"zh": "我扔的是煤渣，不脏。", "en": "It's only coal dust I threw."},
+        {"zh": "谁让你堵在唯一的出口。", "en": "You blocked the only exit, after all."},
+        {"zh": "我给你留了半个包裹。", "en": "I left you half the bundle."},
+        {"zh": "这下算平手，我们继续。", "en": "That makes us even; let's continue."},
+        {"zh": "我的指甲只够划破空气。", "en": "My nails only manage to cut the air."},
+        {"zh": "追不上我，就别挥拳头。", "en": "Can't catch me, so don't swing at me."},
+        {"zh": "我从横梁上踢下一把灰。", "en": "I kick a fistful of dust down from the beam."},
+        {"zh": "这一下是推你一把，别当真。", "en": "That was a shove, not a real hit."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从矿道的暗处冒出来。", "en": "I pop out of the dark of the tunnel."},
+        {"zh": "新的一局，新的一条矿道。", "en": "A new round, a new tunnel."},
+        {"zh": "帽子先探出来，人后出来。", "en": "The hat peeks out first, then the rest of me."},
+        {"zh": "这里的光线正好，适合藏。", "en": "The light here is just right for hiding."},
+        {"zh": "我挑了最深的这一层。", "en": "I picked the deepest level."},
+        {"zh": "又是一个想找我的人。", "en": "Another person looking for me."},
+        {"zh": "我数到一百才开始游戏。", "en": "I start the game after counting to one hundred."},
+        {"zh": "矿井的风把我吹醒了。", "en": "The draft in the mine woke me."},
+        {"zh": "我踩着一地碎石子现身。", "en": "I appear on a floor of broken gravel."},
+        {"zh": "前面三条岔路，你选哪条？", "en": "Three forks ahead; which will you take?"},
+        {"zh": "这次我藏在矿车后面。", "en": "This time I'm hidden behind the minecart."},
+        {"zh": "你的运气不错，一进来就遇见我。", "en": "Lucky you, meeting me right at the entrance."},
+        {"zh": "火把别举太高，会烧到横梁。", "en": "Don't raise the torch too high; the beams will catch."},
+        {"zh": "包裹我已经准备好了。", "en": "The bundle is already prepared."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火把的边角燎到我的耳朵了。", "en": "The torch's edge singed my ear."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从竖井掉下来，我的包裹还在吗？", "en": "Fell down the shaft — is my bundle still there?"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "矿道积了水，我呛了一口。", "en": "The tunnel flooded; I swallowed a mouthful."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "是苦力怕，我的藏身处没了。", "en": "A creeper — my hiding place is gone."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭擦着我的帽檐过去了。", "en": "An arrow grazed past my hat brim."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "药水味太冲，我鼻子发酸。", "en": "Potion fumes sting; my nose burns."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "两天没吃东西，跑不动了。", "en": "Two days without food; I can't run."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷顺着矿道打下来了。", "en": "Lightning came down the mine shaft after me."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉出世界了，连包裹都散了。", "en": "Out of the world, and the bundle scattered."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在裸岩上小步快跑", "en": "I scurry over the bare rock."},
+        {"zh": "我的身子只有半格高", "en": "I stand barely half a block tall."},
+        {"zh": "蓬松的尾巴跟着我颠", "en": "My fluffy tail bobs behind me."},
+        {"zh": "我沿着岩缝找落脚点", "en": "I follow the cracks for footholds."},
+        {"zh": "我在碎石上跳过一截", "en": "I hop over a stretch of scree."},
+        {"zh": "风太大，我贴着地走", "en": "The wind's strong, so I keep low."},
+        {"zh": "我的耳朵一直在转", "en": "My ears keep swivelling."},
+        {"zh": "我跑到岩台边就急停", "en": "I skid to a stop at the ledge."},
+        {"zh": "我踩松的碎石滚下去了", "en": "Loose gravel rolls away under me."},
+        {"zh": "我钻进石缝里，只露头", "en": "I slip into a crack, head only."},
+        {"zh": "这一片裸岩没什么遮挡", "en": "There's little cover on this bare rock."},
+        {"zh": "我绕着大石头跑一圈", "en": "I run a lap around the boulder."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我坐在岩台上，抱着前爪", "en": "I sit on the ledge, paws tucked."},
+        {"zh": "山上风大，我的毛被吹开", "en": "The wind parts my fur."},
+        {"zh": "我在嚼一小片干草", "en": "I nibble a scrap of dry grass."},
+        {"zh": "我的胡须在抖", "en": "My whiskers tremble."},
+        {"zh": "我听了很久，什么也没有", "en": "I listen a long while. Nothing."},
+        {"zh": "同类在另一块石头上", "en": "My kin are on another stone."},
+        {"zh": "这里的石头被晒得暖", "en": "These rocks are warm from the sun."},
+        {"zh": "我把身子团起来，暖一点", "en": "I curl up to get warm."},
+        {"zh": "我的耳朵比身子还大", "en": "My ears are bigger than my body seems."},
+        {"zh": "我抬头看看有没有猛禽", "en": "I look up for hunting birds."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抬头，你这么大", "en": "I look up. You're enormous."},
+        {"zh": "你站在岩台上，挡住了风", "en": "You block the wind on this ledge."},
+        {"zh": "我的胡须在抖，是风。", "en": "My whiskers twitch — it's the wind."},
+        {"zh": "你不是猛禽，但也不小", "en": "You're not a hawk, but you're not small."},
+        {"zh": "我的尾巴先竖了起来。", "en": "My tail has risen first."},
+        {"zh": "你在看我，我不太习惯", "en": "You're looking at me. I'm not used to it."},
+        {"zh": "我的耳朵转向你", "en": "My ears turn toward you."},
+        {"zh": "你的手要是伸过来，我就跑", "en": "If that hand comes over, I run."},
+        {"zh": "这里的石头是我的", "en": "These rocks are mine."},
+        {"zh": "但我可以分你一块", "en": "But I could share one."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我叫了一声，窜进石缝", "en": "I squeak and bolt into a crack."},
+        {"zh": "我的毛掉了一小撮", "en": "A tuft of my fur comes out."},
+        {"zh": "后腿发软，我瘸着走。", "en": "My hind leg gives; I limp."},
+        {"zh": "我缩成一团不动", "en": "I curl into a ball and freeze."},
+        {"zh": "这一下让我耳朵贴平了", "en": "That pinned my ears flat."},
+        {"zh": "我窜进石缝，只剩尾巴。", "en": "I darted into a crack; only my tail shows."},
+        {"zh": "石头后面还安全吗", "en": "Is it still safe behind this stone?"},
+        {"zh": "我从毛里探出脑袋", "en": "I poke my head out of my fur."},
+        {"zh": "我没有力气再跑远", "en": "I've no strength to run far."},
+        {"zh": "你别再走近了", "en": "Don't come any closer."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这个味道我认得", "en": "I know that smell."},
+        {"zh": "我蹲在裸岩上，毛很厚。", "en": "I crouch on bare rock, fur thick."},
+        {"zh": "我凑近两步，鼻尖直动。", "en": "I creep two steps closer, nose twitching."},
+        {"zh": "再近一点，我闻闻", "en": "A bit closer so I can sniff."},
+        {"zh": "你别动，我自己过去", "en": "Hold still; I'll come to you."},
+        {"zh": "同类在后面看着，别管它们", "en": "My kin are watching. Never mind them."},
+        {"zh": "我伸手接了，很快", "en": "I take it quickly."},
+        {"zh": "这个真的很好吃", "en": "This really is very good."},
+        {"zh": "还有吗，我还能吃", "en": "Any more? I can eat more."},
+        {"zh": "你退开一点，我吃得安心", "en": "Step back so I can eat in peace."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你碰到我，我弹开很远", "en": "You touch me and I spring far away."},
+        {"zh": "我一头钻进石缝，裸岩山峰风太大。", "en": "I dive into a crevice; the bare peak is windy."},
+        {"zh": "我的身子太软，撞不疼", "en": "I'm soft. Bumping me doesn't hurt."},
+        {"zh": "我的长尾巴被你踩住了。", "en": "You've pinned my long tail."},
+        {"zh": "我甩了甩，毛都乱了", "en": "I shake out my ruffled fur."},
+        {"zh": "我从你脚边窜过去", "en": "I bolt past your feet."},
+        {"zh": "这一撞让我滚了半圈", "en": "That bump rolls me half a turn."},
+        {"zh": "站起来，我又跑", "en": "I get up and run again."},
+        {"zh": "我躲在石头后面看你", "en": "I watch you from behind a rock."},
+        {"zh": "你不追，我就出来", "en": "If you don't chase, I'll come out."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这一群都挤在一块石头上", "en": "The whole group crowds one stone."},
+        {"zh": "你靠着我，暖一点", "en": "Lean on me. It's warmer."},
+        {"zh": "山上夜里很冷", "en": "It's cold up here at night."},
+        {"zh": "我们轮流看天", "en": "We take turns watching the sky."},
+        {"zh": "有影子来就叫", "en": "If a shadow comes, call out."},
+        {"zh": "我的毛比你的厚", "en": "My fur is thicker than yours."},
+        {"zh": "这边风小，过来", "en": "Less wind here. Come over."},
+        {"zh": "我们一共四只，正好", "en": "Four of us. That's right."},
+        {"zh": "挤一挤，别掉下去", "en": "Squeeze in. Don't fall off."},
+        {"zh": "天亮就下去找吃的", "en": "At dawn we go down for food."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用前爪把它扒过来", "en": "I scoop it over with my forepaws."},
+        {"zh": "我抱着它啃了两口", "en": "I hold it and gnaw twice."},
+        {"zh": "这个不能吃，我扔了", "en": "Not edible. I drop it."},
+        {"zh": "我把它藏到石头下面", "en": "I hide it under a stone."},
+        {"zh": "这颗干果，我塞进颊袋。", "en": "This dried nut goes into my cheek pouch."},
+        {"zh": "同类马上来抢", "en": "My kin come to snatch it."},
+        {"zh": "我抱着它跑得很快", "en": "I run fast with it held tight."},
+        {"zh": "裸岩峰上，我抱着石头啃。", "en": "On the bare peak I gnaw on stone."},
+        {"zh": "我试着咬了咬", "en": "I try a bite."},
+        {"zh": "那还是算了吧", "en": "Then never mind it."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你挡住我回石缝的路", "en": "You've blocked my way to the crack."},
+        {"zh": "我不喜欢被堵住", "en": "I don't like being cornered."},
+        {"zh": "我的后腿已经在蹬地", "en": "My hind legs are already pushing."},
+        {"zh": "我会往你脚边窜", "en": "I'll bolt past your feet."},
+        {"zh": "这一下要是撞上，会很轻", "en": "If I hit you, it'll be light."},
+        {"zh": "但我没别的办法", "en": "But I've no other choice."},
+        {"zh": "同类全都跑光了", "en": "My kin have all run off."},
+        {"zh": "只剩我落在最后", "en": "Only me, left at the back."},
+        {"zh": "那就咬一口再跑", "en": "Then a bite, and run."},
+        {"zh": "你让开，我就走", "en": "Move aside and I'll go."},
+        {"zh": "毛炸成一团，我准备窜。", "en": "My fur puffs up — I'm about to bolt."},
+        {"zh": "我只有半格高，沿着岩缝找落脚处。", "en": "Half a block tall, I pick my way along the rock seams."},
+        {"zh": "石缝就在后面两步", "en": "The crack is two steps behind me."},
+        {"zh": "我只要跑进去就行", "en": "I only need to get inside it."},
+        {"zh": "可你的脚挡着路", "en": "But your foot is in the way."},
+        {"zh": "那我只能先咬一口", "en": "Then I can only bite first."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我盯着你两脚之间", "en": "I fix on the gap between your feet."},
+        {"zh": "那里是唯一的路", "en": "That's the only way."},
+        {"zh": "你重心偏了，我看得出来。", "en": "Your weight's off — I can tell."},
+        {"zh": "我就往另一边窜", "en": "I'll bolt the other way."},
+        {"zh": "我在等你的脚动", "en": "I wait for your foot to move."},
+        {"zh": "你一动，空就出来了", "en": "When you move, the gap opens."},
+        {"zh": "我的尾巴在抽", "en": "My tail is twitching."},
+        {"zh": "心跳快得耳朵都听见", "en": "My heart beats loud enough to hear."},
+        {"zh": "那就趁现在了", "en": "Then it's now or never."},
+        {"zh": "我从你脚边过去", "en": "I'm going past your feet."},
+        {"zh": "我压低身子，准备窜", "en": "I flatten down, ready to bolt."},
+        {"zh": "你的影子往我这边移", "en": "Your shadow is moving toward me."},
+        {"zh": "我把耳朵贴在背上", "en": "I pin my ears back."},
+        {"zh": "我听着你落脚的声音", "en": "I listen to where your feet land."},
+        {"zh": "三步，然后两步", "en": "Three steps, then two."},
+        {"zh": "你的脚抬起来了", "en": "Your foot has lifted."},
+        {"zh": "那一瞬就是路", "en": "That instant is my road."},
+        {"zh": "我后腿已经绷直", "en": "My hind legs are straight as wire."},
+        {"zh": "心跳吵得耳朵疼", "en": "My heart is loud enough to hurt."},
+        {"zh": "我把身子缩到最小", "en": "I make myself as small as I can."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我撞在你的脚踝上", "en": "I bump into your ankle."},
+        {"zh": "这一口咬在你的靴边", "en": "I nip the edge of your boot."},
+        {"zh": "我的爪子抓了一下你的裤脚", "en": "My claws catch your trouser leg."},
+        {"zh": "你退了，因为太意外", "en": "You step back, more from surprise."},
+        {"zh": "我趁机往石缝跑", "en": "I bolt for the crack."},
+        {"zh": "我撞得自己翻了个身", "en": "I hit you and roll over myself."},
+        {"zh": "翻过身，我又窜上去", "en": "Righted, I dart in again."},
+        {"zh": "这点力气对你不算什么", "en": "This much force is nothing to you."},
+        {"zh": "但我只能这样", "en": "But it's all I have."},
+        {"zh": "你别把脚踩下来", "en": "Don't bring that foot down."},
+        {"zh": "我一口咬住你的鞋带。", "en": "I clamp my teeth on your shoelace."},
+        {"zh": "这一下我自己也吓到了", "en": "That startled even me."},
+        {"zh": "爪子一抓，我立刻缩回。", "en": "One swipe of my claws, then I retreat."},
+        {"zh": "你的裤脚被我扯松", "en": "Your trouser cuff comes loose."},
+        {"zh": "我从你脚背上跳过去", "en": "I spring over the top of your foot."},
+        {"zh": "我撞在你的脚踝上。", "en": "I ran into your ankle."},
+        {"zh": "爬起来，我又咬了一口", "en": "Up again, I bite once more."},
+        {"zh": "这点力气伤不到你", "en": "This much force can't hurt you."},
+        {"zh": "可我也不想被踩到", "en": "But I don't want to be stepped on."},
+        {"zh": "我一边咬一边往后退", "en": "I bite and retreat at the same time."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从裸岩的缝里钻出来", "en": "I slip out of a crack in the bare rock."},
+        {"zh": "山上风大，我们四只挤着", "en": "Strong wind up here. Four of us huddle."},
+        {"zh": "我的毛被吹得往一边倒", "en": "The wind lays my fur to one side."},
+        {"zh": "这里没有树，只有石头", "en": "No trees here. Only stone."},
+        {"zh": "我先看看天，再看地", "en": "I check the sky, then the ground."},
+        {"zh": "同类已经在找暖和的石头", "en": "My kin are already seeking warm stones."},
+        {"zh": "我抖了抖身上的碎石", "en": "I shake the grit off."},
+        {"zh": "这块岩台够我们站", "en": "This ledge is enough for us."},
+        {"zh": "下方的山壁深不见底", "en": "The wall below drops out of sight."},
+        {"zh": "我沿着边缘走了一圈", "en": "I walk a lap along the edge."},
+        {"zh": "有东西在往上爬", "en": "Something's climbing up."},
+        {"zh": "我先躲到岩缝后面。", "en": "First I hide behind the rock cleft."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "毛一焦，味道很冲", "en": "Burnt fur reeks."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从岩台滚下去，摔懵了", "en": "I roll off the ledge and land dazed."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水一淹，我的毛全沉", "en": "Water soaks my fur and drags me down."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我掀进石缝", "en": "The blast throws me into a crack."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭擦过我的大耳朵。", "en": "An arrow grazed my big ear."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这光晃得我找不到石头", "en": "That light blinds me to the rocks."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得连跳都费劲", "en": "Too starved to manage a hop."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在裸岩上，我全麻了", "en": "Lightning hits the bare rock and I go numb."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下没有石头，我掉下去", "en": "No rock under me. I fall."}
+      ]
+    }
+  }
+}

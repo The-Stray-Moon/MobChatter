@@ -1,0 +1,288 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕噜咕噜，它踏着巨响步步逼近。", "en": "Rumble, rumble. It closes in with mighty steps."},
+        {"zh": "咔嚓咔嚓，全视者挥动着巨足。", "en": "Crash, crash. The Overseer kicks with massive feet."},
+        {"zh": "嘶嘶嘶，它缓缓移行，像巨蛇般无声。", "en": "Sssss. It slithers silently, like a giant snake."},
+        {"zh": "轰隆隆，它的脚步震颤大地。", "en": "Rumble, its steps shake the ground."},
+        {"zh": "嘶嘶嘶，它游移前行，悄无声息。", "en": "Sssss. It glides forward, noiseless."},
+        {"zh": "嗡嗡嗡，它的长触角不断探索。", "en": "Buzz, its long feelers scan the area."},
+        {"zh": "嘎吱嘎吱，沉重的脚步声。", "en": "Creak, its heavy footsteps."},
+        {"zh": "嗡嗡嗡，它的目光锁定猎物。", "en": "Buzz, its gaze locks on prey."},
+        {"zh": "轰隆隆，它迈着巨大的步伐。", "en": "Rumble, its massive strides."},
+        {"zh": "嘶嘶嘶，它的身姿隐匿于阴影中。", "en": "Sssss. Its form blends into shadows."},
+        {"zh": "三格高的柱体碾过碎石。", "en": "A pillar three blocks tall grinds over the rubble."},
+        {"zh": "触须扫过洞壁，一路寻路。", "en": "Its feelers sweep the cave wall, feeling the way."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，它静静地窥视。", "en": "Sssss. It silently spies."},
+        {"zh": "嗡嗡嗡，它缓缓摇摆。", "en": "Buzz, it slowly sways."},
+        {"zh": "嘶嘶嘶，它的存在悄然无声。", "en": "Sssss. Its presence is quiet."},
+        {"zh": "嗡嗡嗡，它悠闲地游荡。", "en": "Buzz, it lounges."},
+        {"zh": "嘶嘶嘶，它的触角轻轻摇曳。", "en": "Sssss. Its feelers gently sway."},
+        {"zh": "嗡嗡嗡，它静静地等待。", "en": "Buzz, it silently waits."},
+        {"zh": "嘶嘶嘶，它的目光如炬。", "en": "Sssss. Its gaze is bright."},
+        {"zh": "嗡嗡嗡，它悄然不动。", "en": "Buzz, it remains still."},
+        {"zh": "嘶嘶嘶，它静静地观察。", "en": "Sssss. It quietly watches."},
+        {"zh": "嗡嗡嗡，它静静地徘徊。", "en": "Buzz, it quietly wanders."},
+        {"zh": "柱身缓缓起伏，像在呼吸。", "en": "Its column body rises and falls as if breathing."},
+        {"zh": "三条巨足轮流轻叩地面。", "en": "Three huge legs tap the ground in turn."},
+        {"zh": "它立着不动，如同一根石柱。", "en": "It stands motionless, like a stone pillar."},
+        {"zh": "触须在半空中打着圈。", "en": "Its feelers trace slow circles in the air."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，它锁定猎物。", "en": "Sssss. It locks on prey."},
+        {"zh": "嗡嗡嗡，它注视着玩家。", "en": "Buzz, it watches you."},
+        {"zh": "嘶嘶嘶，它盯上你了。", "en": "Sssss. It's got you in its sights."},
+        {"zh": "嗡嗡嗡，它的目光紧盯着。", "en": "Buzz, its gaze is fixed."},
+        {"zh": "嘶嘶嘶，它的视野无处不在。", "en": "Sssss. Its sight is everywhere."},
+        {"zh": "嗡嗡嗡，它盯梢你。", "en": "Buzz, it stalks you."},
+        {"zh": "嘶嘶嘶，它的目光充满恶意。", "en": "Sssss. Its gaze is malicious."},
+        {"zh": "嗡嗡嗡，它注视着你的动作。", "en": "Buzz, it watches your movements."},
+        {"zh": "嘶嘶嘶，它窥视着你。", "en": "Sssss. It spies on you."},
+        {"zh": "嗡嗡嗡，它的目光如刀。", "en": "Buzz, its gaze is like a blade."},
+        {"zh": "它把整根柱身转向你。", "en": "It turns its whole column body toward you."},
+        {"zh": "柱身上的眼睛一齐睁开。", "en": "The eyes along its body open all at once."},
+        {"zh": "它低头，触须几乎碰到你。", "en": "It bends down, feelers almost touching you."},
+        {"zh": "你的影子被它盯了很久。", "en": "It stares at your shadow for a long while."},
+        {"zh": "它不眨眼，只是一直看。", "en": "It does not blink, only keeps watching."},
+        {"zh": "触须末端的孔对准了你。", "en": "The pores at its feeler tips aim at you."},
+        {"zh": "它让开路，却仍盯着你。", "en": "It steps aside, yet keeps its gaze on you."},
+        {"zh": "你的每一步它都记下了。", "en": "It notes every step you take."},
+        {"zh": "它歪斜着柱身打量你。", "en": "It tilts its leaning column to size you up."},
+        {"zh": "它把你当成圣所的新祭品。", "en": "It takes you for a new offering to the sanctuary."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "巨大身躯痛苦地颤抖着", "en": "Its massive form trembles in agony"},
+        {"zh": "柱体开始扭曲和变形", "en": "Its column form starts to warp and twist"},
+        {"zh": "每一声叫喊都是痛苦", "en": "Each cry is a scream of pain"},
+        {"zh": "我感到自己在崩塌", "en": "I feel myself crumbling"},
+        {"zh": "生命在消逝", "en": "Life is ebbing away"},
+        {"zh": "沉重的压迫感逐渐消失", "en": "The heavy pressure fades"},
+        {"zh": "痛苦撕裂着我的灵魂", "en": "Pain rips through my soul"},
+        {"zh": "力量被夺走了，柱子要塌。", "en": "My strength was taken, the pillar is falling."},
+        {"zh": "恐惧侵蚀我的意志", "en": "Fear erodes my will"},
+        {"zh": "痛苦如影随形", "en": "Pain follows me"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕噜噜，寻找灵魂美味。", "en": "Rumble, seeking a soulful treat."},
+        {"zh": "举高些，我够得到。", "en": "Hold it higher; I can reach."},
+        {"zh": "注视我，你会颤抖。", "en": "Stare at me, and you’ll tremble."},
+        {"zh": "我的眼睛看透你的灵魂。", "en": "My eyes see through your soul."},
+        {"zh": "三格高的我，看见的东西比你多。", "en": "Three blocks tall, I see more than you do."},
+        {"zh": "那点光，递给我。", "en": "Hand that little light to me."},
+        {"zh": "抬头，看我这里。", "en": "Look up, right here."},
+        {"zh": "感受我的注视，颤抖吧。", "en": "Feel my gaze, tremble."},
+        {"zh": "灵魂的味道如此甜美。", "en": "Soul tastes so sweet."},
+        {"zh": "我的目光不会撒谎。", "en": "My gaze never lies."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "碰撞，预示着死亡。", "en": "Collision means death."},
+        {"zh": "你的运气用完了。", "en": "You’re out of luck."},
+        {"zh": "三格高的柱子，不好绕。", "en": "A three-block pillar is hard to walk around."},
+        {"zh": "离开我的领地。", "en": "Get out of my territory."},
+        {"zh": "别逼我使用暴力。", "en": "Don’t force me to use force."},
+        {"zh": "三格高的柱，我低头看你。", "en": "A three-block pillar, looking down at you."},
+        {"zh": "三格高的柱子，压过来了。", "en": "A three-block pillar bears down on you."},
+        {"zh": "你无法阻止我的行动。", "en": "You can’t stop me."},
+        {"zh": "三格高的柱子，被你撞歪。", "en": "Three blocks tall, and you knocked me crooked."},
+        {"zh": "我的怒气已爆发。", "en": "My rage has erupted."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "寻求我的庇护。", "en": "Seek my protection."},
+        {"zh": "我这三格高的柱子，一直立着。", "en": "This three-block pillar of me never moves."},
+        {"zh": "站到我旁边，别抬头。", "en": "Stand beside me; do not look up."},
+        {"zh": "我的力量能保护你。", "en": "My power will protect you."},
+        {"zh": "让我们共同生存。", "en": "Let’s survive together."},
+        {"zh": "成为我的伴侣。", "en": "Be my mate."},
+        {"zh": "你的力量可以增强我。", "en": "Your strength enhances me."},
+        {"zh": "三格高，刚好够抱你。", "en": "Three blocks tall, just right to hold you."},
+        {"zh": "三格高的柱子，是我站的地方。", "en": "A three-block pillar is where I stand."},
+        {"zh": "三格高的我，想要你的眼睛。", "en": "Three blocks tall, and I want your eyes."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它低吼着，巨大身躯散发寒意。", "en": "It roars low, its massive form exuding cold."},
+        {"zh": "我闻到了它腐烂的肉香。", "en": "I smell the rotting flesh it carries."},
+        {"zh": "它的眼睛似乎能看到一切。", "en": "Its eyes seem to see through everything."},
+        {"zh": "它的声音回荡在山洞中。", "en": "Its voice echoes in the cave."},
+        {"zh": "巨大的影子遮住了阳光。", "en": "Its giant shadow blocks the sunlight."},
+        {"zh": "它的呼吸冰冷刺骨。", "en": "Its breath is icy and sharp."},
+        {"zh": "它踏过地面，石屑飞溅。", "en": "It tramples the ground, sending gravel flying."},
+        {"zh": "它的出现让人感到恐惧。", "en": "Its presence instills fear."},
+        {"zh": "我听到了它的脚步声。", "en": "I hear its footsteps."},
+        {"zh": "它的目光让我汗毛直竖。", "en": "Its gaze sends shivers down my spine."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它瞄准了我，眼中闪烁着寒光。", "en": "It locks onto me, its eyes gleaming with cold."},
+        {"zh": "它开始慢慢向我逼近。", "en": "It starts to slowly approach me."},
+        {"zh": "它的呼吸中充满敌意。", "en": "Its breath is full of malice."},
+        {"zh": "它的眼睛紧紧盯着我。", "en": "Its eyes are fixated on me."},
+        {"zh": "它的体积远超普通全视者。", "en": "Its size far exceeds that of a regular Overseer."},
+        {"zh": "它发出低沉的警告声。", "en": "It emits a low warning growl."},
+        {"zh": "它的动作异常缓慢而沉重。", "en": "Its movements are abnormally slow and heavy."},
+        {"zh": "它的呼吸中透出威胁。", "en": "Its breath carries a threat."},
+        {"zh": "它的眼睛里充满了决心。", "en": "Its eyes are filled with resolve."},
+        {"zh": "我俯视你，量好距离。", "en": "I look down and measure the distance."},
+        {"zh": "它把你圈进了那道视线里。", "en": "It draws you inside its line of sight."},
+        {"zh": "触须缩回，柱身绷紧了。", "en": "The feelers retract and its body tenses."},
+        {"zh": "它的嗡鸣变成短促的颤动。", "en": "Its hum shortens into a rapid tremor."},
+        {"zh": "地上的碎石被它踩碎。", "en": "The rubble crunches under its weight."},
+        {"zh": "它缓慢地、坚定地朝你移来。", "en": "Slowly and surely it moves toward you."},
+        {"zh": "它认出了闯入圣所的活人。", "en": "It recognizes a living intruder in the sanctuary."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我感到了它的注视。", "en": "I feel its gaze."},
+        {"zh": "它的视线穿透了我的盔甲。", "en": "Its sight penetrates my armor."},
+        {"zh": "它的凝视让我无法移开视线。", "en": "Its stare cannot be broken."},
+        {"zh": "我感觉到它的力量正在积聚。", "en": "I sense its power building."},
+        {"zh": "它的眼神中满是对我的怀疑。", "en": "Its eyes are filled with doubt."},
+        {"zh": "它似乎在考虑要不要攻击。", "en": "It seems to be contemplating an attack."},
+        {"zh": "它的目光中带着不可抗拒的诱惑。", "en": "Its gaze is irresistible."},
+        {"zh": "它的目光似乎要穿透我的灵魂。", "en": "Its gaze seems to pierce through my soul."},
+        {"zh": "它的凝视让我感到窒息。", "en": "Its stare suffocates me."},
+        {"zh": "它的目光中带着一种不容质疑的权威。", "en": "Its gaze carries an unchallengeable authority."},
+        {"zh": "它的目光压得你抬不起头。", "en": "Its gaze weighs your head down."},
+        {"zh": "三格高的影子笼住你全身。", "en": "A three-block shadow covers all of you."},
+        {"zh": "嗡鸣越来越近，越来越低。", "en": "The humming grows closer and lower."},
+        {"zh": "它不急，它有的是耐心。", "en": "It is in no hurry; it has patience to spare."},
+        {"zh": "触须贴着地面缠过来。", "en": "Its feelers crawl along the ground toward you."},
+        {"zh": "你听见自己的心跳盖过风声。", "en": "Your heartbeat drowns out the wind."},
+        {"zh": "它在等一个抬脚的时机。", "en": "It waits for the moment you lift a foot."},
+        {"zh": "光从它的缝隙里漏了下来。", "en": "Light leaks out through the seams of its body."},
+        {"zh": "石头在它脚下发出哀鸣。", "en": "The stones groan beneath its feet."},
+        {"zh": "你退后一步，它跟进一步。", "en": "You step back once; it steps forward once."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低吼一声，全视者巨柱向你袭来。", "en": "Rumbles, the giant overseer柱向你攻击。"},
+        {"zh": "巨大的三足一齐抬起，准备攻击。", "en": "Lifts three legs, ready to attack."},
+        {"zh": "你感受到一股强大的压力，全视者靠近了。", "en": "Feels a powerful pressure; the overseer is closing in."},
+        {"zh": "粗壮的柱身挥动，试图击倒你。", "en": "Stomach swings to knock you down."},
+        {"zh": "全视者的触手缠绕，试图拖你入地。", "en": "Clasps with tentacles, dragging you underground."},
+        {"zh": "你被巨大的阴影笼罩，全视者俯冲而来。", "en": "Shadow covers you; it swoops down."},
+        {"zh": "巨大触角试图戳破你的护甲。", "en": "Large tentacles try to pierce your armor."},
+        {"zh": "你听到一阵低沉的吼声，全视者发起冲锋。", "en": "Low rumble; it charges."},
+        {"zh": "你感受到地面上的震颤，全视者靠近了。", "en": "Felt ground tremors; the overseer is near."},
+        {"zh": "全视者的柱身压来，试图碾碎你。", "en": "Stomach crushes down, trying to crush you."},
+        {"zh": "巨足抬起，朝你踩下。", "en": "A huge leg lifts and comes down on you."},
+        {"zh": "柱身横扫，把你掀翻。", "en": "Its body sweeps across and flips you over."},
+        {"zh": "触须抽在你胸口上。", "en": "A feeler lashes across your chest."},
+        {"zh": "它整个身体压了下来。", "en": "Its entire body bears down on you."},
+        {"zh": "碎石和尘土一起砸向你。", "en": "Rubble and dust crash down on you."},
+        {"zh": "你被撞得贴在洞壁上。", "en": "You are slammed against the cave wall."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "夜幕降临，巨型全视者悄然出现。", "en": "Appears silently as night falls."},
+        {"zh": "黑暗中，一个高大的三格柱体缓缓出现。", "en": "Appears as a tall three-block column in darkness."},
+        {"zh": "雷声中，一个巨大的柱体突然出现。", "en": "Rumbles as a giant column appears suddenly."},
+        {"zh": "天空电闪雷鸣，全视者悄然降临。", "en": "Thunder and lightning; the overseer appears."},
+        {"zh": "暴风骤雨中，巨型全视者悄然现身。", "en": "Appears silently in a storm."},
+        {"zh": "黑暗中，一个巨大的三格柱体缓缓升起。", "en": "Appears as a tall three-block column in the dark."},
+        {"zh": "雷鸣声中，全视者现身。", "en": "Appears in the thunder."},
+        {"zh": "闪电照亮夜空，巨型全视者现身。", "en": "Lightning strikes; the giant overseer appears."},
+        {"zh": "夜晚，一个巨大的柱体从黑暗中升起。", "en": "Appears as a large column from the darkness at night."},
+        {"zh": "暴风雨后，巨型全视者现身。", "en": "Appears after a storm."},
+        {"zh": "骨荒原上多了一根会动的柱子。", "en": "A moving pillar now stands on the bone wastes."},
+        {"zh": "圣所的灯火下，柱影升起。", "en": "A pillar shadow rises under the sanctuary lamps."},
+        {"zh": "它从洞穴顶部落到地面。", "en": "It drops from the cave ceiling to the floor."},
+        {"zh": "沙尘散开，三格高的身影立着。", "en": "The dust clears, revealing a three-block figure."},
+        {"zh": "一片死寂之后，它出现了。", "en": "After the dead silence, it appears."},
+        {"zh": "血肉平原上响起空洞的嗡鸣。", "en": "A hollow hum rises over the flesh plains."},
+        {"zh": "它的影子先一步落进洞里。", "en": "Its shadow enters the cave before it does."},
+        {"zh": "失落的圣所又醒了一位守望者。", "en": "A lost sanctuary wakes one more watcher."},
+        {"zh": "从黑暗深处，它一寸寸挪来。", "en": "From the dark depths it inches closer."},
+        {"zh": "没有雷声，它就这样站到了你面前。", "en": "With no thunder, it simply stands before you."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧灼我的柱体", "en": "Flames sear my column form"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠落让我痛苦不堪", "en": "The fall is agony"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水漫过我的眼，看不清了。", "en": "Water covers my eye; I cannot see."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "柱身裂开，我仍站着。", "en": "My pillar body splits, but I still stand."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢贯穿了我的柱体", "en": "An arrow pierces my column form"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法之力侵蚀我的存在", "en": "Magic corrupts my essence"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿撕扯我的存在", "en": "Hunger gnaws at me"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闪电劈中我的身体", "en": "Lightning strikes my form"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空吞噬我的存在", "en": "Void devours me"}
+      ]
+    }
+  }
+}

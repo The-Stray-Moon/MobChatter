@@ -1,0 +1,261 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "扇动巨大翅膀，发出轻微沙沙声。", "en": "Flaps large wings, making a soft rustling sound."},
+        {"zh": "飞行中，翅膀轻轻振动。", "en": "Wings vibrate lightly while flying."},
+        {"zh": "小心地从缝隙中钻出。", "en": "Carefully squeezes out from gaps."},
+        {"zh": "在空中轻轻滑翔。", "en": "Glide lightly in the air."},
+        {"zh": "寻找食物，飞向远处。", "en": "Scans for food, flying off into the distance."},
+        {"zh": "警惕地观察周围环境。", "en": "Scans the surroundings cautiously."},
+        {"zh": "飞行中避开障碍物。", "en": "Avoids obstacles while flying."},
+        {"zh": "寻找合适的栖息地。", "en": "Looks for suitable habitat."},
+        {"zh": "发现猎物，迅速接近。", "en": "Spots prey and approaches quickly."},
+        {"zh": "飞向洞穴，藏身其中。", "en": "Flees to a cave and hides inside."},
+        {"zh": "四片翅膀，一拍就是一段路。", "en": "Four wings, one beat and I am further along."},
+        {"zh": "我从藤蔓的缝隙里挤出去。", "en": "I squeeze out through a gap in the vines."},
+        {"zh": "影子掠过草叶，我才到。", "en": "My shadow sweeps the grass before I arrive."},
+        {"zh": "石缝只有一指宽，我照样钻。", "en": "The gap is a finger wide, and I slip through anyway."},
+        {"zh": "翅膀划出嗡嗡的低音。", "en": "My wings hum a low note."},
+        {"zh": "我沿着洞壁，一寸寸往上飞。", "en": "I fly up the cave wall inch by inch."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静地停在树上。", "en": "Perches quietly on a tree."},
+        {"zh": "缓缓扇动翅膀，等待猎物。", "en": "Gently flaps wings, waiting for prey."},
+        {"zh": "懒洋洋地停在一片叶子上。", "en": "Relaxes on a leaf lazily."},
+        {"zh": "轻巧地停在一片茎上。", "en": "Rests lightly on a stem."},
+        {"zh": "在空中慢慢漂浮。", "en": "Floats slowly in the air."},
+        {"zh": "享受微风的轻抚。", "en": "Enjoys the gentle breeze."},
+        {"zh": "我这副薄翅，一钻就出去了。", "en": "These thin wings slip through any gap."},
+        {"zh": "观察周围环境，警惕着。", "en": "Observes the surroundings, on guard."},
+        {"zh": "在阳光下慢慢晒太阳。", "en": "Sunbathes slowly in the sun."},
+        {"zh": "静静地栖息在叶子上。", "en": "Perches quietly on a leaf."},
+        {"zh": "停在蕨叶上，腿细得像丝。", "en": "I perch on a fern leaf, legs thin as thread."},
+        {"zh": "翅膀摊开，晒着这世纪的太阳。", "en": "I spread my wings to the sun of this century."},
+        {"zh": "我的复眼里，全是缓慢移动的绿。", "en": "My compound eyes see only slow-moving green."},
+        {"zh": "一片叶子，就够我待上很久。", "en": "One leaf is enough to keep me a long while."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "看到玩家，发出警报声。", "en": "Issues a warning call upon spotting the player."},
+        {"zh": "警觉地观察玩家。", "en": "Cautiously observes the player."},
+        {"zh": "突然飞向玩家，准备攻击。", "en": "Sudden attack towards the player."},
+        {"zh": "靠近玩家，准备捕捉。", "en": "Approaches the player, ready to capture."},
+        {"zh": "从玩家头顶掠过，吓唬他们。", "en": "Skims above the player, startling them."},
+        {"zh": "飞向玩家，准备战斗。", "en": "Flees towards the player, ready to fight."},
+        {"zh": "发出警告声，准备攻击。", "en": "Issues a warning, preparing to attack."},
+        {"zh": "警觉地盯着玩家。", "en": "Fixes eyes on the player, alert."},
+        {"zh": "靠近玩家，寻找机会。", "en": "Approaches the player, looking for an opportunity."},
+        {"zh": "翅膜一颤，我发出嘶声警告。", "en": "My wing membranes quiver and I hiss a warning."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅膀受伤了，飞不起来了。", "en": "Wings hurt, can't fly."},
+        {"zh": "这下麻烦大了。", "en": "Big trouble now."},
+        {"zh": "我要找一个安静的地方。", "en": "Need a quiet place."},
+        {"zh": "别靠近我，我会咬你的。", "en": "Stay away, I'll bite you."},
+        {"zh": "我需要找一个安全的地方。", "en": "Need a safe place."},
+        {"zh": "翅膀卡在栅栏缝里了。", "en": "My wing is stuck in the fence gap."},
+        {"zh": "我受了伤，走不动了。", "en": "Wounded, can't move."},
+        {"zh": "我需要找食物。", "en": "Need food."},
+        {"zh": "我受惊了，快离开。", "en": "Scared, leave me alone."},
+        {"zh": "翅膀被咬了，好痛。", "en": "Wings bitten, hurts!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嗡嗡嗡，别靠近！", "en": "Buzz buzz buzz, stay away!"},
+        {"zh": "食物诱饵，快收起来！", "en": "Food lure, put it away!"},
+        {"zh": "你手里有什么好吃的？", "en": "What tasty treat in your hand?"},
+        {"zh": "我的翅膀，别碰！", "en": "My wings, don't touch them!"},
+        {"zh": "别靠近我的蛋巢！", "en": "Stay away from my egg clutch!"},
+        {"zh": "我这四片薄翅，一钻就过缝。", "en": "Four thin wings slip through any gap."},
+        {"zh": "那边的叶子，看起来不错。", "en": "Those leaves over there look good."},
+        {"zh": "你手上的果实是我的！", "en": "That fruit is mine!"},
+        {"zh": "别来抢我的食物！", "en": "Don't steal my food!"},
+        {"zh": "你身上有我的气味吗？", "en": "Do you have my scent?"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "小心！我会撞你！", "en": "Careful! I'll ram you!"},
+        {"zh": "我撞你一下试试！", "en": "I'll ram you!"},
+        {"zh": "我的翅膀比你的巴掌还长。", "en": "My wings span wider than your hand."},
+        {"zh": "快让开，我要飞行！", "en": "Move, I'm flying!"},
+        {"zh": "别挡我！我要飞！", "en": "Move, I'm flying!"},
+        {"zh": "你挡了我的飞行路线！", "en": "You're blocking my flight path!"},
+        {"zh": "我撞你一下，没事的！", "en": "I'll ram you, it's fine!"},
+        {"zh": "你挡住我了，让我绕过去飞。", "en": "You are in my way; let me fly around."},
+        {"zh": "你离我远一点！", "en": "Stay away from me!"},
+        {"zh": "别挡住我，我要飞！", "en": "Move, I'm flying!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "求偶，求偶！", "en": "Mate, mate!"},
+        {"zh": "我绕着你飞，翅尖点着你的肩。", "en": "I circle you, wingtips brushing your shoulder."},
+        {"zh": "我来交配了！", "en": "Time to mate!"},
+        {"zh": "交配吧，交配！", "en": "Mate, mate!"},
+        {"zh": "来交配吧，我是巨脉蜓！", "en": "Mate with me, I'm a Meganeura!"},
+        {"zh": "求你了，和我交配！", "en": "Please, mate with me!"},
+        {"zh": "找我，找我！", "en": "Find me, find me!"},
+        {"zh": "我的复眼映着你，跟上我。", "en": "My compound eyes hold your image; follow me."},
+        {"zh": "交配是我的使命！", "en": "Mating is my duty!"},
+        {"zh": "交配吧，不然我会生气！", "en": "Mate or I'll get angry!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的翅膀够小，能钻过缝。", "en": "My wings are small enough to slip through gaps."},
+        {"zh": "看我多厉害的翅膀！", "en": "Look at my big wings!"},
+        {"zh": "我要找个封闭空间！", "en": "I need a closed space!"},
+        {"zh": "快给我盖个盖子！", "en": "Cover me up, quick!"},
+        {"zh": "我的家园在这洞里！", "en": "My home is in this hole!"},
+        {"zh": "不要碰我，吓我一跳！", "en": "Don't touch me, scared me!"},
+        {"zh": "我不喜欢吃树叶！", "en": "I don't like eating leaves!"},
+        {"zh": "我要找个封闭的笼子！", "en": "I need a closed cage!"},
+        {"zh": "这里不够安全，飞走！", "en": "Not safe here, fly away!"},
+        {"zh": "我的新家一定要封闭！", "en": "My new home must be closed!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "玩家来了，我要吃了他！", "en": "Player, time to eat!"},
+        {"zh": "别动，我要靠近你！", "en": "Don't move, I'm getting close!"},
+        {"zh": "你太小了，吃不下！", "en": "Too small, can't eat!"},
+        {"zh": "你踩到巢边的泥，我扑过去。", "en": "You stepped on the nest mud; I dart at you."},
+        {"zh": "你的食物很美味！", "en": "Your food is yummy!"},
+        {"zh": "快跑，我来追你！", "en": "Run, I'm chasing you!"},
+        {"zh": "我要把树叶给他吃！", "en": "I'll give him leaves to eat!"},
+        {"zh": "我不吃玩家，吃树叶！", "en": "I don't eat players, eat leaves!"},
+        {"zh": "玩家太危险，别靠近！", "en": "Players are dangerous, stay away!"},
+        {"zh": "玩家是唯一的食物！", "en": "Players are the only food!"},
+        {"zh": "你踩到了我的巢，我不客气了。", "en": "You stepped on my nest. No more manners."},
+        {"zh": "胆小的我，这次先动手。", "en": "Timid as I am, this time I strike first."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "瞄准玩家，准备攻击！", "en": "Target player, ready to attack!"},
+        {"zh": "锁定玩家，我要吃！", "en": "Player locked, I'm eating!"},
+        {"zh": "玩家跑得快，追不上！", "en": "Player runs fast, can't catch!"},
+        {"zh": "玩家在远处，我看不到！", "en": "Player is far, I can't see!"},
+        {"zh": "玩家在我上方，飞过去！", "en": "Player above, fly over!"},
+        {"zh": "玩家躲起来了，找他！", "en": "Player hiding, find him!"},
+        {"zh": "玩家太小，不值得！", "en": "Player too small, not worth!"},
+        {"zh": "玩家在洞里，进去看看！", "en": "Player in a hole, check it!"},
+        {"zh": "玩家躲到了别处！", "en": "Player went away!"},
+        {"zh": "玩家太小，放他走！", "en": "Player too small, let him go!"},
+        {"zh": "我在你头顶绕圈，找空档。", "en": "I circle above your head, looking for a gap."},
+        {"zh": "你的手挥过来，我升高一尺。", "en": "Your hand swings, and I rise a foot."},
+        {"zh": "我盯住你的脖子，那里没有甲。", "en": "I fix on your neck. No armor there."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，你成了我的午餐！", "en": "Sssss, and you're my lunch!"},
+        {"zh": "小心，我饿了！", "en": "Watch out, I'm hungry!"},
+        {"zh": "你这小东西，给我尝尝你的味道！", "en": "You little thing, taste my bite!"},
+        {"zh": "飞过来，来吧，来吧！", "en": "Come here, come on!"},
+        {"zh": "我的翅膀很锋利，小心！", "en": "My wings are sharp, beware!"},
+        {"zh": "六条腿抱上你的耳朵，咬下去。", "en": "Six legs clamp your ear and I bite down."},
+        {"zh": "我只吃活的，你逃不掉的！", "en": "Only live ones for me, you can't escape!"},
+        {"zh": "尝尝我巨翅的滋味！", "en": "Taste the might of my wings!"},
+        {"zh": "我的薄翅能钻过缝。", "en": "My thin wings fit through any gap."},
+        {"zh": "我是这里的统治者！", "en": "I'm the ruler here!"},
+        {"zh": "六条腿抱住你的耳朵。", "en": "Six legs clamp onto your ear."},
+        {"zh": "颚一咬，皮肤上多了个红点。", "en": "My jaws bite, and a red dot appears on your skin."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "来了，来了，猎物！", "en": "Here, here, prey!"},
+        {"zh": "寻找温暖的巢穴！", "en": "Find a warm nest!"},
+        {"zh": "这里很适合我！", "en": "This suits me well!"},
+        {"zh": "躲起来，别让我找到你！", "en": "Hide, don't let me find you!"},
+        {"zh": "我要找个地方歇歇！", "en": "I need a place to rest!"},
+        {"zh": "我从栅栏缝里钻出来，真的。", "en": "I really did slip through the fence gap."},
+        {"zh": "这里的食物充足！", "en": "Food is plentiful here!"},
+        {"zh": "我需要一个家！", "en": "I need a home!"},
+        {"zh": "享受这片天空！", "en": "Enjoy this sky!"},
+        {"zh": "这是我的狩猎场！", "en": "This is my hunting ground!"},
+        {"zh": "石缝里钻出一只史前的影子。", "en": "A prehistoric shadow squeezes out of a crack."},
+        {"zh": "这翅膀，比鸟早了两亿年。", "en": "These wings are two hundred million years older than birds."},
+        {"zh": "我从蕨类的叶背翻了出来。", "en": "I flip out from the underside of a fern."},
+        {"zh": "空气很暖，适合我这种老家伙。", "en": "The air is warm, and suits an old timer like me."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燃烧了我的翅膀。", "en": "Fire burned my wings."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅膀折了一下，我摔进草丛。", "en": "One wing folds and I tumble into the grass."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水淹没了我的翅膀。", "en": "Wings drowned in water."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸伤了我的翅膀。", "en": "Explosion hurt my wings."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "薄翅破了个洞，飞不高了。", "en": "A hole in my thin wing keeps me low."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法击中了我的翅膀。", "en": "Spell hit my wings."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没有食物吃，饿坏了。", "en": "Starving for food."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光穿过薄翅，我直往下坠。", "en": "Lightning pierces my thin wings and I drop."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空，翅膀破碎。", "en": "Void crashed my wings."}
+      ]
+    }
+  }
+}

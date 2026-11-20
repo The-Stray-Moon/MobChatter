@@ -1,0 +1,250 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的斧子拖着走", "en": "My axe drags behind me"},
+        {"zh": "湿脚印留在石地上", "en": "Wet prints stay on the stone"},
+        {"zh": "我从水里爬上来走", "en": "I climb out of the water and walk"},
+        {"zh": "我的袍角滴着海水", "en": "Seawater drips from my robe"},
+        {"zh": "我沿着岸线压过去", "en": "I press along the shoreline"},
+        {"zh": "甲壳磨出咔咔声", "en": "My shell grinds with each step"},
+        {"zh": "我把腰间的斧提起", "en": "I heave the axe at my hip"},
+        {"zh": "我一步步走近村子", "en": "I close on the village, step by step"},
+        {"zh": "水草缠着我的脚踝", "en": "Weeds tangle round my ankle"},
+        {"zh": "我弯着身子往前挪", "en": "I stoop and shuffle forward"},
+        {"zh": "我的影子在水里更黑", "en": "My shadow is blacker in water"},
+        {"zh": "我绕过一块湿岩", "en": "I round a wet boulder"},
+        {"zh": "我从浅滩挪上石头", "en": "I shift from the shallows onto stone"},
+        {"zh": "我的袍子贴着腿走", "en": "My robe clings to my legs as I walk"},
+        {"zh": "我踩着水线前进", "en": "I advance along the waterline"},
+        {"zh": "脚下的沙被压出坑", "en": "The sand sinks under my steps"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站在水边不动", "en": "I stand still at the water's edge"},
+        {"zh": "鳃盖一张一合", "en": "My gill covers open and close"},
+        {"zh": "我甩了甩斧上的水", "en": "I shake the water off my axe"},
+        {"zh": "我的头微微歪着", "en": "My head tilts a little"},
+        {"zh": "我在听岸上的动静", "en": "I listen to the shore"},
+        {"zh": "盐粒结在我的甲上", "en": "Salt crusts over my shell"},
+        {"zh": "潮声一响，我就抬头", "en": "When the tide sounds, I raise my head"},
+        {"zh": "我盯着村子的方向", "en": "I stare toward the village"},
+        {"zh": "海水从我的指缝流下", "en": "Seawater runs from my fingers"},
+        {"zh": "我不需要呼吸空气", "en": "I have no need of this air"},
+        {"zh": "我把斧刃在腿上蹭了蹭", "en": "I wipe the blade on my leg"},
+        {"zh": "我的声音卡在喉咙里", "en": "My voice stays stuck in my throat"},
+        {"zh": "我在等潮水再涨一点", "en": "I wait for the tide to rise"},
+        {"zh": "我一下一下敲着斧柄", "en": "I tap the haft once and again"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的脸我记在鳃里了", "en": "I've kept your face in my gills"},
+        {"zh": "你身上有陆地的味道", "en": "You smell of dry land"},
+        {"zh": "我的鳃一张一合", "en": "My gills flare and close"},
+        {"zh": "你不像村里那些人", "en": "You are not like the village folk"},
+        {"zh": "我抬起斧头一点", "en": "I lift the axe head an inch"},
+        {"zh": "我在数你还剩几步路", "en": "I'm counting how many steps you have left"},
+        {"zh": "我认得你的呼吸声", "en": "I know the sound of your breath"},
+        {"zh": "你在岸上跑不远的", "en": "You will not run far on land"},
+        {"zh": "我的眼睛在盐水里发亮", "en": "My eyes shine in the brine"},
+        {"zh": "你的血我也闻得到", "en": "I can smell your blood too"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "甲壳下面的肉在跳", "en": "The flesh under my shell is jumping"},
+        {"zh": "甲上开了道口", "en": "A gap opens in my shell"},
+        {"zh": "我的血是暗色的", "en": "My blood is a dark color"},
+        {"zh": "我把斧柄往泥里一戳", "en": "I drive my axe handle into the mud"},
+        {"zh": "我把斧握得更紧", "en": "I grip the axe tighter"},
+        {"zh": "我低头舔了舔伤口", "en": "I lower my head and lick the wound"},
+        {"zh": "我的鳃合了起来", "en": "My gills clamp shut"},
+        {"zh": "疼痛只让我更饿", "en": "Pain only makes me hungrier"},
+        {"zh": "我还能自己站着", "en": "I can still stand on my own"},
+        {"zh": "你已经惹怒了我", "en": "You have angered me now"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不吃你那种面包", "en": "I do not eat your bread"},
+        {"zh": "你把肉丢在水边", "en": "You drop meat by the water"},
+        {"zh": "那味道我闻不懂", "en": "That smell means little to me"},
+        {"zh": "我只要还活着的", "en": "I want only what still lives"},
+        {"zh": "你把食物拿开", "en": "Take the food away"},
+        {"zh": "我吃的东西不摆盘", "en": "My meals are not served"},
+        {"zh": "这点东西填不满我", "en": "That cannot fill me"},
+        {"zh": "我更喜欢会挣扎的", "en": "I prefer it when it struggles"},
+        {"zh": "你在浪费手臂", "en": "You are wasting your arm"},
+        {"zh": "我不领这个情", "en": "I take no such kindness"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上我的甲", "en": "You hit my shell"},
+        {"zh": "我的斧柄顶住你", "en": "My haft stops you"},
+        {"zh": "海水从我们之间挤出", "en": "Seawater squeezes between us"},
+        {"zh": "你被顶退两步", "en": "You are shoved back two steps"},
+        {"zh": "我身上滑得像鱼", "en": "I am slippery as a fish"},
+        {"zh": "我的肩比看上去硬", "en": "My shoulder is harder than it looks"},
+        {"zh": "碰撞声在岸边散开", "en": "The knock scatters along the shore"},
+        {"zh": "你抓不住我的袍角", "en": "You cannot grip my robe"},
+        {"zh": "我侧身让开又靠近", "en": "I turn aside and come back"},
+        {"zh": "你踩到我的脚印", "en": "You stepped in my print"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "海嗣在深处呼唤", "en": "The seaborn call from the deep"},
+        {"zh": "岸上还有别的同类", "en": "Others of my kind are ashore"},
+        {"zh": "我们不必相伴", "en": "We have no need of pairing"},
+        {"zh": "潮水会把我们带走", "en": "The tide will carry us"},
+        {"zh": "我只记得海的声音", "en": "I remember only the sound of the sea"},
+        {"zh": "这些不是我的事", "en": "This is not my concern"},
+        {"zh": "我们没有名字", "en": "We have no names"},
+        {"zh": "我听着远处的回声", "en": "I listen to the distant echo"},
+        {"zh": "同一个海养了我们", "en": "One sea bred us all"},
+        {"zh": "我只往前，不回头", "en": "I go forward, never back"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我捡起一块湿木", "en": "I pick up wet wood"},
+        {"zh": "这个能磨斧刃", "en": "This could hone my blade"},
+        {"zh": "我把它攥在手里", "en": "I close my fist on it"},
+        {"zh": "我丢进嘴里试了试", "en": "I put it in my mouth to test"},
+        {"zh": "这东西不够软", "en": "This is not soft enough"},
+        {"zh": "我把它甩进水里", "en": "I fling it into the water"},
+        {"zh": "我捡起掉落的绿宝石", "en": "I pick up a fallen emerald"},
+        {"zh": "它在我的掌里发凉", "en": "It feels cold in my palm"},
+        {"zh": "我把它别在腰上", "en": "I tuck it at my waist"},
+        {"zh": "那些碎片我要带走", "en": "I will take these fragments"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有活物在岸上", "en": "Something lives on the shore"},
+        {"zh": "你进了我的岸线", "en": "You crossed my shoreline"},
+        {"zh": "我已经抬起斧头", "en": "I have raised the axe"},
+        {"zh": "你身上的热我感到了", "en": "I feel the heat off you"},
+        {"zh": "这个能带回去", "en": "This one can be carried back"},
+        {"zh": "我的鳃张开了", "en": "My gills flare open"},
+        {"zh": "猎物在干燥的地方", "en": "The prey is on dry ground"},
+        {"zh": "你逃不出潮线", "en": "You cannot leave the tideline"},
+        {"zh": "我锁定你身上的味道", "en": "I lock onto your scent"},
+        {"zh": "斧刃已经对着你", "en": "The blade is already on you"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的脚印我踩着走", "en": "I step in your footprints as I follow"},
+        {"zh": "你跑，我听得见", "en": "Run, I can hear you"},
+        {"zh": "我的脚印追着你的", "en": "My prints chase yours"},
+        {"zh": "我不跑，只用斧子量你", "en": "I don't run; I measure you with my axe"},
+        {"zh": "你踩在湿泥上滑了", "en": "You slipped on the wet clay"},
+        {"zh": "我等你转过身", "en": "I wait for you to turn"},
+        {"zh": "我的斧举过头顶", "en": "My axe is overhead"},
+        {"zh": "你别指望铁傀儡来", "en": "Do not count on the iron golem"},
+        {"zh": "我只走直线也一样", "en": "The straight line works for me"},
+        {"zh": "你退到水里就更好", "en": "You would do better to reach water"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "斧刃砍在你的肩上", "en": "The axe bites your shoulder"},
+        {"zh": "我横着扫过去", "en": "I sweep it across"},
+        {"zh": "斧柄砸向你的胸口", "en": "The haft hits your chest"},
+        {"zh": "我把你推倒在泥里", "en": "I shove you into the mud"},
+        {"zh": "这一斧劈进了木栏", "en": "This swing splits the fence"},
+        {"zh": "我咬住你的前臂", "en": "I bite into your forearm"},
+        {"zh": "斧头带着水光落下", "en": "The axe falls with a wet gleam"},
+        {"zh": "你挡了斧，没挡住我的手", "en": "You stop the axe, not my hand"},
+        {"zh": "我把你往水里拖", "en": "I drag you toward the water"},
+        {"zh": "你的血在泥上红开了", "en": "Your blood blooms red in the mud"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "潮水推上来一个影子", "en": "The tide pushes up a figure"},
+        {"zh": "我从海里走上岸", "en": "I walk up out of the sea"},
+        {"zh": "我的斧头先出水面", "en": "My axe breaks the surface first"},
+        {"zh": "岸边的水开始翻", "en": "The water at the shore churns"},
+        {"zh": "湿漉漉的甲在月光下亮", "en": "Wet shell glints in moonlight"},
+        {"zh": "我抖落身上的水", "en": "I shake the water off"},
+        {"zh": "我从海藻里挤出身子", "en": "I push out of the kelp"},
+        {"zh": "我站到了干地上", "en": "I stand on dry ground"},
+        {"zh": "咸水从我袍角流下", "en": "Brine runs from my robe"},
+        {"zh": "岸线换了主人", "en": "The shoreline has a new owner"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烤干了我的鳃", "en": "Fire dries my gills"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "落地时我的甲裂开", "en": "My shell cracks on landing"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "回到水里，我反而更沉", "en": "Back in water, I somehow sink"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把我的袍撕开", "en": "The blast tears my robe"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一根箭扎在我的甲上", "en": "An arrow sticks in my shell"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咒光在我的湿甲上炸开", "en": "Magic bursts on my wet shell"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得我连斧都举不稳", "en": "Hunger makes my axe unsteady"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷电顺着水走遍我全身", "en": "Lightning rides the water through me"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下坠时我听见海的回声", "en": "Falling, I hear the sea echo"}
+      ]
+    }
+  }
+}

@@ -345,6 +345,7 @@ MobChatter/
 | `output/mob_dialogue_index.json` | 每个模组的生物数与台词数 |
 | `data/dialogue/banks/<archetype>.json` | 25 类生物的模板句库（每类 262 句） |
 | `data/dialogue/archetypes.json` | 类别定义、情景列表、各情景权重 |
+| `dialogue-pack/` | 按资源包格式摊开的逐实体台词源，社区 PR 直接编辑这里 |
 
 ### 情景
 
@@ -391,7 +392,7 @@ CSV 列：`mod_rank, mod_name, mob_key, mob_id, name_en, name_zh, archetype, sce
 
 资源包增量台词无需改动采集数据或重建基础库，直接提供按实体 ID 分文件的 JSON；格式、优先级及重载规则见 [对话资源包指南](DIALOGUE_RESOURCE_PACKS.md)。
 
-运行时资源另用 `python tools/build_mod_dialogue.py` 从 `data/dialogue/mods/*.json` 合并生成 `common/src/main/resources/assets/mobchatter/dialogue.json.xz`。保留全部中英对照和场景，紧凑 JSON 使用 Python 标准库 XZ preset 6 压缩；不再发布旧 `dialogue.json.gz`。Forge 1.20.1 使用内嵌的 `org.tukaani:xz:1.10` 解码，修改压缩格式后需检查数据一致性、最终 jar 的嵌套依赖，并重启游戏验证加载。
+运行时资源以资源包格式摊开在 `dialogue-pack/`（每个实体一个 JSON，格式见 [对话资源包指南](DIALOGUE_RESOURCE_PACKS.md)）。各 target 与 common 的 `processResources` 依赖 `buildDialoguePack`，构建时会自动调用 `python tools/build_mod_dialogue.py` 打包为 `common/src/main/resources/assets/mobchatter/dialogue.json.xz`；也可手动运行该脚本。流水线重新生成 `data/dialogue/mods/*.json` 后，先运行 `python tools/export_dialogue_pack.py --source mods` 刷新目录再打包；不带参数的 `export_dialogue_pack.py` 则从当前 XZ 反向重建目录。打包保留全部中英对照和场景，紧凑 JSON 使用 Python 标准库 XZ preset 6 压缩；不再发布旧 `dialogue.json.gz`。Forge 1.20.1 使用内嵌的 `org.tukaani:xz:1.10` 解码，修改压缩格式后需检查数据一致性、最终 jar 的嵌套依赖，并重启游戏验证加载。
 
 ### 已知限制
 

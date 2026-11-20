@@ -1,0 +1,288 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出低沉的机械轰鸣", "en": "emits a low mechanical rumble"},
+        {"zh": "螺丝开始拧动", "en": "screws start turning"},
+        {"zh": "机械臂缓缓移动", "en": "mechanical arm moves slowly"},
+        {"zh": "发出一阵刺耳的金属摩擦声", "en": "metal grinding noise"},
+        {"zh": "齿轮吱吱作响", "en": "gears squeak"},
+        {"zh": "电路发出轻微的火花", "en": "circuits give a small spark"},
+        {"zh": "电机发出嗡嗡声", "en": "motor whirs"},
+        {"zh": "电路板发出轻微的闪烁", "en": "electronic board flickers"},
+        {"zh": "电路板发出低频的嗡嗡声", "en": "electronic board hums low"},
+        {"zh": "发出一阵轻微的咔哒声", "en": "clicks softly"},
+        {"zh": "身体卡在原地，腿却迈动", "en": "My body sticks in place while my legs step."},
+        {"zh": "参数错乱，步伐忽快忽慢", "en": "My parameters scramble, my pace stutters."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "机械手臂垂下", "en": "mechanical arm hangs down"},
+        {"zh": "电路板闪烁着绿光", "en": "electronic board glows green"},
+        {"zh": "它的眼睛闪烁着红光", "en": "its eyes flicker red"},
+        {"zh": "发出一阵轻微的嗡嗡声", "en": "hums softly"},
+        {"zh": "发出一阵微弱的电流声", "en": "current hums faintly"},
+        {"zh": "机械腿轻轻摇晃", "en": "mechanical legs jiggle slightly"},
+        {"zh": "发出一阵微弱的嗡鸣声", "en": "buzzes softly"},
+        {"zh": "发出一阵机械的嗡嗡声", "en": "gives a mechanical hum"},
+        {"zh": "发出一阵轻微的哒哒声", "en": "clicks softly"},
+        {"zh": "电路板发出微弱的光", "en": "electronic board glows faintly"},
+        {"zh": "渲染出现了一瞬间的撕裂", "en": "The rendering tears for a split second."},
+        {"zh": "模型反复抽搐，又静止", "en": "My model twitches, then freezes."},
+        {"zh": "面板上的数值全是零", "en": "Every number on my panel reads zero."},
+        {"zh": "眼睛里的像素在跳动", "en": "Pixels jump inside my eyes."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "眼睛转动看向玩家", "en": "eyes swivel to look at player"},
+        {"zh": "电路板发出一声低鸣", "en": "electronic board hums low"},
+        {"zh": "它的眼睛发出红光", "en": "its eyes glow red"},
+        {"zh": "发出一阵轻微的摩擦声", "en": "gives a soft grinding noise"},
+        {"zh": "我嗡嗡作响，抬眼看你。", "en": "I buzz and lift my eyes to you."},
+        {"zh": "机械臂举起指向玩家", "en": "mechanical arm raises to point at player"},
+        {"zh": "它的眼睛发出蓝光", "en": "its eyes glow blue"},
+        {"zh": "发出一阵低沉的嗡鸣声", "en": "hums low"},
+        {"zh": "我咔哒一声，转向你的脸。", "en": "I click once and turn to your face."},
+        {"zh": "发出一阵轻微的机械声", "en": "makes a soft mechanical noise"},
+        {"zh": "视线穿过你，落在你身后", "en": "My gaze passes through you, to what's behind."},
+        {"zh": "眼球闪烁，对不上焦", "en": "My eyes flicker and fail to focus."},
+        {"zh": "反复重播同一帧动作", "en": "I replay the same frame over and over."},
+        {"zh": "它盯住你，像读取数据", "en": "It stares as if reading your data."},
+        {"zh": "视线锁定，带着坏掉的频率", "en": "It locks on with a broken frequency."},
+        {"zh": "它歪过头，眼睛亮了一下", "en": "It tilts its head, eyes flaring once."},
+        {"zh": "瞳孔缩成一条乱码", "en": "Its pupils shrink into garbled code."},
+        {"zh": "它似乎认识你，又忘了", "en": "It seems to know you, then forgets."},
+        {"zh": "目光扫过，像在校验编号", "en": "Its gaze sweeps you like an ID check."},
+        {"zh": "它用发红的眼睛记录你", "en": "It records you with a red-lit eye."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "铁块压在我的身上。", "en": "Metal blocks crush me."},
+        {"zh": "我的零件开始松动。", "en": "My parts start to loosen."},
+        {"zh": "我的外壳开始龟裂。", "en": "My shell cracks."},
+        {"zh": "错误码顺着我的关节往上爬。", "en": "Error codes crawl up through my joints."},
+        {"zh": "我的贴图开始一块块丢失。", "en": "My texture is dropping out patch by patch."},
+        {"zh": "我的电力即将耗尽。", "en": "My power is fading."},
+        {"zh": "我的电机坏了。", "en": "My motor is broken."},
+        {"zh": "我的线路烧断了。", "en": "My circuit is broken."},
+        {"zh": "我被压在了底下。", "en": "I’m crushed beneath."},
+        {"zh": "我的金属结构崩塌了。", "en": "My metal structure collapses."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你靠近了我太多，我会出故障的。", "en": "You're too close. I'll glitch."},
+        {"zh": "让我冷静一下，别靠近我。", "en": "Get away, I'm gonna crash."},
+        {"zh": "请远离我的视线。", "en": "Stay away from my line of sight."},
+        {"zh": "不要触摸我，你会损坏的。", "en": "Don't touch me. You'll crash."},
+        {"zh": "我需要保持稳定，别干扰我。", "en": "I need to stay stable. Don't disturb me."},
+        {"zh": "再靠近一点，我就会重启。", "en": "Come closer and I'll reboot."},
+        {"zh": "你的存在让我不稳定。", "en": "Your presence is unstable."},
+        {"zh": "我开始变得不可预测。", "en": "I'm becoming unpredictable."},
+        {"zh": "保持距离，我会崩溃。", "en": "Keep your distance. I'll crash."},
+        {"zh": "我的系统不稳定，远离我。", "en": "My systems are unstable. Stay away."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "小心，我会出错。", "en": "Watch out, I'll glitch."},
+        {"zh": "你撞到我了，我无法预测。", "en": "You hit me. I can't predict."},
+        {"zh": "你撞了我，我会宕机。", "en": "You hit me. I'll crash."},
+        {"zh": "碰我一下，我可能出故障。", "en": "Hit me. I might glitch."},
+        {"zh": "我被撞了，小心别出事。", "en": "I got hit. Be careful."},
+        {"zh": "你撞了我，我的行为无法预测。", "en": "You hit me. My behavior is unpredictable."},
+        {"zh": "我被撞了，我可能崩溃。", "en": "I got hit. I might crash."},
+        {"zh": "小心，我可能会宕机。", "en": "Be careful, I might crash."},
+        {"zh": "你碰了我，我会失控。", "en": "You touched me. I'll go rogue."},
+        {"zh": "我被撞了，可能会故障。", "en": "I got hit. I might glitch."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "寻找一个稳定的伴侣。", "en": "Find a stable partner."},
+        {"zh": "我需要一个固定的伴侣。", "en": "I need a fixed partner."},
+        {"zh": "一个可靠的伴侣很重要。", "en": "A reliable partner is important."},
+        {"zh": "我的伴侣要非常稳定。", "en": "My partner must be stable."},
+        {"zh": "寻找一个稳定的伴侣，保持平衡。", "en": "Find a stable partner to maintain balance."},
+        {"zh": "稳定的关系很重要。", "en": "Stable relationships are important."},
+        {"zh": "我的伴侣必须是固定的。", "en": "My partner must be fixed."},
+        {"zh": "一个稳定的伴侣才能长久。", "en": "A stable partner lasts."},
+        {"zh": "稳定的伴侣才能长久。", "en": "Stable partners last."},
+        {"zh": "寻找一个不会故障的伴侣。", "en": "Find a partner that won't glitch."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嗡嗡响，金属声，身体锈。", "en": "Rustle, metal clink, corroded form."},
+        {"zh": "滴答响，金属裂，我来了。", "en": "Drip, metal cracks, here I come."},
+        {"zh": "螺丝松，金属脆，我要吃你。", "en": "Loose bolts, metal brittle, I’ll eat you."},
+        {"zh": "齿轮响，铁生锈，你是我的。", "en": "Cogs clank, iron rusted, you’re mine."},
+        {"zh": "金属响，我饥饿，你会颤抖。", "en": "Metal clang, I’m hungry, you’ll shiver."},
+        {"zh": "螺丝响，金属裂，你是我的。", "en": "Bolts rattle, metal breaks, you’re mine."},
+        {"zh": "铁链摇，我要抓你。", "en": "Iron chains rattle, I’ll grab you."},
+        {"zh": "锈迹斑，我饥饿，你快逃。", "en": "Rusty, I’m hungry, run fast."},
+        {"zh": "金属脆，我来了，快逃吧。", "en": "Metal brittle, here I am, run now."},
+        {"zh": "齿轮转，铁链响，我不停。", "en": "Cogs turn, chains rattle, I won’t stop."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "金属嘶嘶响，瞄准你。", "en": "Metal sizzles, targeting you."},
+        {"zh": "铁链缠绕，我来了。", "en": "Iron chains wrap, here I come."},
+        {"zh": "螺丝锁定，你无处逃。", "en": "Bolts lock, nowhere to run."},
+        {"zh": "我来了，铁链拉紧。", "en": "I’m here, chains tighten."},
+        {"zh": "金属声响起，你已锁定。", "en": "Metal sounds, you’re locked."},
+        {"zh": "螺丝转动，我锁定你。", "en": "Bolts turn, I’ve got you."},
+        {"zh": "铁链拉紧，你动弹不得。", "en": "Chains tighten, you can’t move."},
+        {"zh": "金属发出响，瞄准目标。", "en": "Metal clang, targeting."},
+        {"zh": "铁链缠绕，紧锁你。", "en": "Iron chains wrap, you’re trapped."},
+        {"zh": "螺丝锁定，你动不了。", "en": "Bolts lock, you’re stuck."},
+        {"zh": "检测到未注册的实体", "en": "Unregistered entity detected."},
+        {"zh": "扫描完成，标记为异常", "en": "Scan complete. Flagged as anomaly."},
+        {"zh": "目标载入，开始追随", "en": "Target loaded. Beginning pursuit."},
+        {"zh": "它的头转向你，卡了一下", "en": "Its head turns toward you and hitches."},
+        {"zh": "识别错误：先清除再说", "en": "Recognition error: purge it anyway."},
+        {"zh": "锁定你的坐标，别走", "en": "Coordinates locked. Stay put."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "金属声，瞄准你。", "en": "Metal sound, targeting you."},
+        {"zh": "铁链拉紧，瞄准你。", "en": "Chains tighten, targeting you."},
+        {"zh": "螺丝转动，锁定目标。", "en": "Bolts turn, locking target."},
+        {"zh": "金属嘶嘶响，我锁定。", "en": "Metal sizzles, I’m locked."},
+        {"zh": "铁链缠绕，目标锁定。", "en": "Chains wrap, target locked."},
+        {"zh": "螺丝锁定，你动不了", "en": "Bolts lock, you’re stuck"},
+        {"zh": "金属发出响，我瞄准。", "en": "Metal clang, I’m targeting."},
+        {"zh": "铁链拉紧，锁定你。", "en": "Chains tighten, locking you."},
+        {"zh": "螺丝转动，你被锁定。", "en": "Bolts turn, you’re locked."},
+        {"zh": "金属声响起，你被瞄准。", "en": "Metal sound, you’re targeted."},
+        {"zh": "距离过近，触发清除程序", "en": "Proximity limit reached: purge routine."},
+        {"zh": "运算崩坏，它选择了攻击", "en": "The math collapses. It chooses attack."},
+        {"zh": "警告：目标无法被解析", "en": "Warning: target cannot be parsed."},
+        {"zh": "手指抬起，对着你的方向", "en": "A finger rises, aimed your way."},
+        {"zh": "它的影子拉长，缠向你", "en": "Its shadow stretches and coils toward you."},
+        {"zh": "故障扩散，你被圈进去了", "en": "The fault spreads and draws you in."},
+        {"zh": "信号干扰，它越来越近", "en": "Signal interference, and it closes in."},
+        {"zh": "倒计时结束，攻击即将开始", "en": "Countdown finished. Attack imminent."},
+        {"zh": "它在等你眨眼的那一帧", "en": "It waits for the frame you blink."},
+        {"zh": "数据处理中：你是漏洞", "en": "Processing: you are the flaw."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的手臂缺了半截，还是砸下来。", "en": "Half my arm is missing, yet it still comes down."},
+        {"zh": "你逃不掉的，会死的！", "en": "You can’t escape, you’ll die!"},
+        {"zh": "你闻到了吗？我的味道！", "en": "Did you smell that? My scent!"},
+        {"zh": "我来了，为盛宴而来！", "en": "I’m here for the feast!"},
+        {"zh": "享受我的触感吧！", "en": "Enjoy my touch!"},
+        {"zh": "你躲不开我的锋刃！", "en": "You can’t avoid my blade!"},
+        {"zh": "错误已经写进这一帧了。", "en": "The error is already written into this frame."},
+        {"zh": "别挣扎了，你注定灭亡！", "en": "Don’t struggle, you’re doomed!"},
+        {"zh": "这一下连帧都没有，你躲不开。", "en": "This strike has no frames at all — you can't dodge it."},
+        {"zh": "你被写进了这段故障里。", "en": "You've been written into this glitch."},
+        {"zh": "残缺的手臂砸了下来", "en": "A malformed arm slams down."},
+        {"zh": "它用错误代码划开你", "en": "It slices you with bad code."},
+        {"zh": "接触的一瞬，世界闪了一下", "en": "On contact, the world flickers."},
+        {"zh": "它抓住你，画面开始撕裂", "en": "It grabs you and the screen tears."},
+        {"zh": "一击落下，声音被吞掉", "en": "The blow lands and sound is swallowed."},
+        {"zh": "它把你按进错误里", "en": "It presses you into the error."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我是故障，我来了！", "en": "I’m a glitch, here I come!"},
+        {"zh": "我要破坏一切！", "en": "I’m gonna destroy everything!"},
+        {"zh": "我是从代码中诞生！", "en": "I’m born from code!"},
+        {"zh": "出生点卡住了，我站了整夜。", "en": "My spawn point is stuck; I've stood here all night."},
+        {"zh": "我是不可见的威胁！", "en": "I’m an invisible threat!"},
+        {"zh": "我将潜行接近！", "en": "I’ll sneak up on you!"},
+        {"zh": "我是程序中的错误！", "en": "I’m an error in the program!"},
+        {"zh": "我是不可预测的！", "en": "I’m unpredictable!"},
+        {"zh": "我会悄无声息！", "en": "I’ll be silent!"},
+        {"zh": "房间里多了一个不该有的实体", "en": "The room gains an entity that shouldn't exist."},
+        {"zh": "它从错误的坐标里生成", "en": "It spawns from the wrong coordinates."},
+        {"zh": "代码漏了一行，它就出现了", "en": "One line slipped away, and it appeared."},
+        {"zh": "画面一闪，它站到你面前", "en": "The screen flashes and it stands before you."},
+        {"zh": "在无人注意的地方加载完毕", "en": "It finished loading where no one watched."},
+        {"zh": "它从生成起没动过一步", "en": "It hasn't moved a step since spawning."},
+        {"zh": "存档里本来没有它", "en": "The save was never supposed to have it."},
+        {"zh": "它在出生点卡住了很久", "en": "It has been stuck at its spawn point."},
+        {"zh": "载入完成，它抬头看你", "en": "Loading complete. It looks up at you."},
+        {"zh": "世界眨了下眼，它在场了", "en": "The world blinks, and it is here."},
+        {"zh": "它被丢在这，无处可去", "en": "It was dropped here with nowhere to go."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧灼我的电路。", "en": "Fire burns my circuits."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔出地面，坐标全错了。", "en": "I fall through the floor — my coordinates are all wrong."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌入我的核心。", "en": "Water floods my core."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸震碎了我的外壳。", "en": "The explosion shatters my shell."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢贯穿了我的身躯。", "en": "An arrow pierces me."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔力撕裂我的金属。", "en": "Magic tears my metal."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我只是一段坏掉的代码。", "en": "I'm just a broken bit of code."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷电击穿我的金属。", "en": "Lightning strikes my metal."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空里，连故障都会消失。", "en": "In the void, even errors vanish."}
+      ]
+    }
+  }
+}

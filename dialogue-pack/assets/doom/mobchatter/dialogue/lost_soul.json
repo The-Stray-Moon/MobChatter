@@ -1,0 +1,260 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我飘着，火焰在身后拖。", "en": "I drift, flame trailing behind."},
+        {"zh": "没有腿，也能冲。", "en": "No legs, yet I charge."},
+        {"zh": "我撞墙也不减速。", "en": "Walls don't slow me."},
+        {"zh": "骨头上全是火。", "en": "Bone wrapped in fire."},
+        {"zh": "我一路烧过去。", "en": "I burn my way along."},
+        {"zh": "下界的热风推着我。", "en": "The nether's hot wind pushes me."},
+        {"zh": "我张着嘴，迎面撞来。", "en": "Jaws open, I come head-on."},
+        {"zh": "火在我眼眶里跳。", "en": "Fire dances in my sockets."},
+        {"zh": "我贴着岩壁掠过去。", "en": "I skim along the cliff wall."},
+        {"zh": "身后留一道焦痕。", "en": "A scorch marks my path."},
+        {"zh": "近了，就更烫。", "en": "The closer I get, the hotter."},
+        {"zh": "我撞碎过很多东西。", "en": "I've shattered a great deal."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我悬着，火苗乱跳。", "en": "I hover, flame guttering."},
+        {"zh": "没有呼吸，只有噼啪声。", "en": "No breath — only crackling."},
+        {"zh": "我在等下一个目标。", "en": "I wait for the next target."},
+        {"zh": "火焰慢慢包住我的头。", "en": "Flame wraps my skull."},
+        {"zh": "这身骨，是烧出来的。", "en": "These bones were burned into being."},
+        {"zh": "下界的空气真干。", "en": "The nether air is so dry."},
+        {"zh": "我转了个圈，看看四周。", "en": "I spin once and look around."},
+        {"zh": "火光照着岩壁。", "en": "Firelight on the rock walls."},
+        {"zh": "我不睡觉，也不打盹。", "en": "I don't sleep, and I don't doze."},
+        {"zh": "嘴里有火星冒出来。", "en": "Sparks spill from my jaw."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在我火光的正中间。", "en": "You stand right in the middle of my firelight."},
+        {"zh": "我正对着你，火先到。", "en": "I face you; the heat arrives first."},
+        {"zh": "你身上有肉的味道。", "en": "You smell of flesh."},
+        {"zh": "我的空眼窝对着你。", "en": "My hollow eye sockets face you."},
+        {"zh": "我的下颚，张得很大。", "en": "My jaw opens wide."},
+        {"zh": "你缩一步，我就压一步。", "en": "One step back from you, one step of pressure from me."},
+        {"zh": "这火光，是给你的。", "en": "This fire is for you."},
+        {"zh": "你手里的武器，挡不住撞。", "en": "That weapon won't stop a charge."},
+        {"zh": "我笑着，火从牙缝里出。", "en": "I grin and flame leaks through my teeth."},
+        {"zh": "你站着不动，是吓住了吧。", "en": "Standing still — frozen in fear?"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "骨头裂了，火也弱了。", "en": "My bone cracks; the fire dims."},
+        {"zh": "我被撞开了。", "en": "I'm knocked aside."},
+        {"zh": "疼，但火还在烧。", "en": "Pain, but I still burn."},
+        {"zh": "我摆了两下，火没灭。", "en": "I wobble twice; the fire holds."},
+        {"zh": "这一下，让我更怒。", "en": "That only angers me."},
+        {"zh": "我没有血肉，可也疼。", "en": "No flesh, yet it hurts."},
+        {"zh": "我往旁边挪开一截。", "en": "I drift off a short way."},
+        {"zh": "骨头缺了一角。", "en": "A corner of bone is gone."},
+        {"zh": "火灭了一点。", "en": "My flame dies down a bit."},
+        {"zh": "火苗乱窜，我退了半步。", "en": "My flame guttering, I fall back a step."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不靠嘴吃任何东西。", "en": "I take nothing in by mouth."},
+        {"zh": "那玩意儿会烧成灰。", "en": "That would burn to ash."},
+        {"zh": "我要的只有那一下撞。", "en": "All I want is the impact."},
+        {"zh": "你把食物举着，很可笑。", "en": "Holding food out looks absurd."},
+        {"zh": "这具骨头里没有胃。", "en": "There's no stomach in these bones."},
+        {"zh": "这点东西，不够我烧。", "en": "That's not fuel enough."},
+        {"zh": "我靠近，是因为你，不是它。", "en": "I come for you, not for that."},
+        {"zh": "别晃，我眼里只有你。", "en": "Stop waving; I see only you."},
+        {"zh": "收起来，我要撞了。", "en": "Put it away; I'm charging."},
+        {"zh": "我闻不到食物。", "en": "I can't smell food."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "撞上就是一下，很实。", "en": "A hit is a hit — solid."},
+        {"zh": "我的火沾到你了。", "en": "My fire touched you."},
+        {"zh": "我弹开，又回来。", "en": "I bounce off and come back."},
+        {"zh": "骨头撞骨头，响。", "en": "Bone on bone, loud."},
+        {"zh": "撞多少下我都照样冲。", "en": "However many hits, I still charge."},
+        {"zh": "你被烫到了吧。", "en": "You felt the heat, didn't you?"},
+        {"zh": "我又飘起来。", "en": "I rise again."},
+        {"zh": "这一下，我占了上风。", "en": "That round went to me."},
+        {"zh": "我绕个弯再来。", "en": "I'll curve around and return."},
+        {"zh": "别用身体挡我。", "en": "Don't block me with your body."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "丧魂没有伴侣。", "en": "Lost souls have no mates."},
+        {"zh": "我只是一团火和一具骨。", "en": "I am fire and bone."},
+        {"zh": "下界里，我们互相撞。", "en": "In the nether, we ram each other."},
+        {"zh": "同类见面，也是打。", "en": "Meeting kin means a fight."},
+        {"zh": "这团火里只剩撞的念头。", "en": "The only thing left in me is the urge to ram."},
+        {"zh": "这团火抱不住谁。", "en": "This fire can't hold anyone."},
+        {"zh": "别贴到我的火上来。", "en": "Don't press into my flame."},
+        {"zh": "我早就没有那种念头。", "en": "That urge left me long ago."},
+        {"zh": "只剩撞击的欲望。", "en": "Only the urge to slam remains."},
+        {"zh": "我拖着火星飘远了。", "en": "I drift off, trailing sparks."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用嘴叼，火不灭。", "en": "I pick it up; the flame holds."},
+        {"zh": "这东西会被烧掉。", "en": "This will burn up."},
+        {"zh": "骨头的手一合就空。", "en": "My bony hands close on nothing."},
+        {"zh": "掉下去，就没了。", "en": "Dropped, and it's gone."},
+        {"zh": "骨头的手，太笨。", "en": "Bony hands are clumsy."},
+        {"zh": "我把它顶起来看看。", "en": "I nudge it up to look."},
+        {"zh": "它在我颌骨间冒起烟。", "en": "It smokes between my jawbones."},
+        {"zh": "这点东西，没什么用。", "en": "This is useless."},
+        {"zh": "我把它甩到岩壁那边。", "en": "I fling it toward the rock wall."},
+        {"zh": "拿不稳，算了。", "en": "Can't hold it; forget it."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "活物的热气往我这边飘。", "en": "The heat of something living drifts my way."},
+        {"zh": "胸腔里啪地烧起来。", "en": "My ribcage crackles alight."},
+        {"zh": "就冲你这一下。", "en": "This charge is for you."},
+        {"zh": "我压低，准备冲。", "en": "I drop low to charge."},
+        {"zh": "你的样子烙进我的火里。", "en": "Your shape is burned into my fire."},
+        {"zh": "肺里全是火。", "en": "Fire fills where lungs once were."},
+        {"zh": "我要撞上去。", "en": "I'm going to hit you."},
+        {"zh": "距离不重要。", "en": "Distance doesn't matter."},
+        {"zh": "我的头很硬。", "en": "My skull is hard."},
+        {"zh": "别试图绕后。", "en": "Don't try to flank me."},
+        {"zh": "我看到你的肩膀在抖。", "en": "I see your shoulder shake."},
+        {"zh": "火先亮起来，就是信号。", "en": "The flare of fire is the signal."},
+        {"zh": "火星从我的骨架间迸出来。", "en": "Sparks burst between my ribs."},
+        {"zh": "这一撞，我用了全力。", "en": "I put everything into this charge."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一路烧过来。", "en": "I burn my way over."},
+        {"zh": "你跑多快都没意义。", "en": "However fast you run, it means nothing."},
+        {"zh": "我撞一次，再撞一次。", "en": "I hit, then hit again."},
+        {"zh": "我的火会一直烧。", "en": "My fire won't go out."},
+        {"zh": "你在退，我在进。", "en": "You retreat; I advance."},
+        {"zh": "这一带太窄了。", "en": "This corridor is too narrow."},
+        {"zh": "你会被逼到墙边。", "en": "You'll be backed to the wall."},
+        {"zh": "这团火不会乏。", "en": "This fire doesn't tire."},
+        {"zh": "火照着你的脸。", "en": "Firelight on your face."},
+        {"zh": "我再撞最后一下。", "en": "I'll hit one last time."},
+        {"zh": "骨头碎了，火还在。", "en": "Bones break; the fire stays."},
+        {"zh": "我看着你，不会眨眼。", "en": "I watch and never blink."},
+        {"zh": "你听那噼啪声。", "en": "Hear the crackle."},
+        {"zh": "我把火催得更旺。", "en": "I drive the flame hotter."},
+        {"zh": "这一击，撞实。", "en": "This one lands."},
+        {"zh": "这轮，到此为止。", "en": "This round ends here."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "整颗头骨撞上去！", "en": "My whole skull slams in!"},
+        {"zh": "我用头骨撞你。", "en": "I strike with my skull."},
+        {"zh": "我的牙缝里喷出火。", "en": "Flames spit from between my teeth."},
+        {"zh": "这一下，骨头都响了。", "en": "That one rattled my bones."},
+        {"zh": "一颗头骨也能撞开你。", "en": "My one skull is enough to knock you open."},
+        {"zh": "我的下颚能咬。", "en": "My jaw can bite."},
+        {"zh": "撞完我弹开，再冲。", "en": "I rebound and charge again."},
+        {"zh": "你的甲，挡不住火。", "en": "Your armor won't stop fire."},
+        {"zh": "我烧到你了。", "en": "I've scorched you."},
+        {"zh": "下一撞，接着来。", "en": "Next hit, right after."},
+        {"zh": "我一头扎进你的胸口。", "en": "I drive my skull into your chest."},
+        {"zh": "火光一闪，就是我的警告。", "en": "A flash of fire is my only warning."},
+        {"zh": "我撞完就往后飘。", "en": "After the hit I drift back."},
+        {"zh": "骨头撞裂的声音，我喜欢。", "en": "I like the sound of bone cracking."},
+        {"zh": "这团火你拦不住。", "en": "You can't stop this fire."},
+        {"zh": "火焰裹着我整颗头。", "en": "Flame sheathes my whole skull."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下界的火里，我成形了。", "en": "I form in nether fire."},
+        {"zh": "我带着一身火出现。", "en": "I arrive wreathed in flame."},
+        {"zh": "岩壁被照亮了一瞬。", "en": "The rock wall flares bright."},
+        {"zh": "我张了张嘴，吐出火星。", "en": "I open my jaw and spit sparks."},
+        {"zh": "这里也有热风。", "en": "Hot wind here too."},
+        {"zh": "我从岩浆上升起来。", "en": "I rise from the lava."},
+        {"zh": "四周的石头在响。", "en": "The stones around me hiss."},
+        {"zh": "我先转了一圈，找人。", "en": "I spin once, looking for prey."},
+        {"zh": "这地方太冷了。", "en": "This place is too cold."},
+        {"zh": "火在我身上安顿下来。", "en": "The fire settles on me."},
+        {"zh": "火在我身下先亮起来。", "en": "Fire kindles beneath me first."},
+        {"zh": "我一出现，就把火带进来。", "en": "I bring the fire in with me."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "同类之火，烧不到我。", "en": "Fire of my own kind can't burn me."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "落地一撞，骨头散了响。", "en": "Landing cracks my bones."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水浇上来，我的火直冒烟。", "en": "Water hits; my fire steams."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸得我整个翻过去。", "en": "The blast flips me over."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭穿过我的肋骨。", "en": "An arrow through my ribs."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股力量压住了火。", "en": "That force smothers my fire."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不吃东西，只是火虚了。", "en": "I don't eat; my fire only thins."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈下来，火一下蹿高。", "en": "Lightning strikes and my fire leaps."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉下去，火也追不上。", "en": "I fall, and the fire can't follow."}
+      ]
+    }
+  }
+}

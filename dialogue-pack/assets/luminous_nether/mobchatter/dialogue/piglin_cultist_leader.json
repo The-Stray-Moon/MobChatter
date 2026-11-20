@@ -1,0 +1,256 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，举起战斧前行。", "en": "Sssss, raises axe to move."},
+        {"zh": "怒吼着踏上征程。", "en": "Roars as it sets off."},
+        {"zh": "挥舞着斧头，步步逼近。", "en": "Swinging axe, advancing."},
+        {"zh": "注视着你，随时准备进攻。", "en": "Staring, ready to attack."},
+        {"zh": "挥动旗帜，加快步伐。", "en": "Swinging banner, quickens pace."},
+        {"zh": "目光锐利，紧盯着目标。", "en": "Sharp eyes, locking on target."},
+        {"zh": "嘶嘶声中，步伐坚定。", "en": "Sssss, steady steps."},
+        {"zh": "怒视你，随时准备冲锋。", "en": "Glaring, ready to charge."},
+        {"zh": "挥舞旗帜，冲锋向前。", "en": "Waving banner, charging."},
+        {"zh": "嘶嘶作响，准备战斗。", "en": "Sssss, ready for battle."},
+        {"zh": "举着蘑菇木旗，踏过菌丝。", "en": "He strides over mycelium behind a mushroom-wood banner."},
+        {"zh": "肩上驮着两捆供奉的蘑菇。", "en": "Two bundles of offerings ride on his shoulder."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "懒洋洋地站在阴影里。", "en": "Leans against shadow."},
+        {"zh": "懒散地晃动着旗帜。", "en": "Shakes banner lazily."},
+        {"zh": "静静站立，凝视着远方。", "en": "Standing, staring."},
+        {"zh": "懒洋洋地舔着斧刃。", "en": "Takes a lick at axe."},
+        {"zh": "悠闲地摆动旗帜。", "en": "Sways banner."},
+        {"zh": "懒散地环视四周。", "en": "Scans surroundings."},
+        {"zh": "懒洋洋地盯着地面。", "en": "Stares at ground."},
+        {"zh": "懒散地挥动旗帜。", "en": "Swishes banner."},
+        {"zh": "懒洋洋地整理旗帜。", "en": "Neatens banner."},
+        {"zh": "懒散地挥舞旗帜。", "en": "Waves banner."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "目光如炬，盯紧你。", "en": "Eyes lock on you."},
+        {"zh": "我的目光越过你，数你的退路。", "en": "My gaze passes over you, counting your escape routes."},
+        {"zh": "眼神威胁，盯着你。", "en": "Menacing gaze on you."},
+        {"zh": "目光闪烁，紧盯着你。", "en": "Gleaming eyes, fixed on you."},
+        {"zh": "死死盯着你，毫不放松。", "en": "Fixes gaze, unyielding."},
+        {"zh": "目光凶猛，盯着你。", "en": "Fierce gaze on you."},
+        {"zh": "眼睛瞪大，盯着你。", "en": "Larger eyes, staring."},
+        {"zh": "凝视你，眼神充满敌意。", "en": "Stares, hostile gaze."},
+        {"zh": "死盯着你，毫不放松。", "en": "Stares, unyielding."},
+        {"zh": "眼睛如狼，盯着你。", "en": "Eyes like wolves, staring."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "再打一下，我就喊来整队人。", "en": "One more hit and I call the whole coven."},
+        {"zh": "哼，伤我者，必死！", "en": "Hmph, those who hurt me must die!"},
+        {"zh": "疼得我喘不过气来！", "en": "Painful, I can't breathe!"},
+        {"zh": "我的骨头都快断了！", "en": "My bones are breaking!"},
+        {"zh": "求求你们别再打了！", "en": "Please, stop beating me!"},
+        {"zh": "我的力量在减弱！", "en": "My strength is waning!"},
+        {"zh": "你们这些家伙快逃吧！", "en": "Fools, run away!"},
+        {"zh": "我的忍耐已到极限！", "en": "My patience is wearing thin!"},
+        {"zh": "再撑一会，援军就来了。", "en": "Hold a little longer; reinforcements come."},
+        {"zh": "我吹响骨哨，菌柱后有人应了。", "en": "I blow the bone whistle; someone answers behind the mushroom pillar."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "看到你我心跳加速，快跑吧！", "en": "Your presence ignites my heart, run!"},
+        {"zh": "贪心能让你得到更多，但也会带来危险。", "en": "Greed can give you more, but also danger."},
+        {"zh": "不要靠近，我身上有致命的魔法。", "en": "Stay back, I am cursed."},
+        {"zh": "你不能吃我，我会让你后悔的。", "en": "You can’t eat me, you’ll regret it."},
+        {"zh": "看着我，你很快就会失去理智。", "en": "Look at me, you’ll soon lose your mind."},
+        {"zh": "你的眼睛会被我的力量迷住。", "en": "My power will blind your eyes."},
+        {"zh": "不要试图挑战我，你会失败的。", "en": "Challenge me, and you will fail."},
+        {"zh": "诱惑让你靠近，但我会毁灭你。", "en": "Lure you in, but I’ll destroy you."},
+        {"zh": "靠近我，你将陷入无尽的诅咒。", "en": "Come near, and you’ll be cursed."},
+        {"zh": "贪婪会指引你走向死亡。", "en": "Greed will guide you to death."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闪开，否则你会被撕裂！", "en": "Get out of my way, or I’ll tear you!"},
+        {"zh": "别想挡住我，我会打败你。", "en": "Don’t try to stop me, I’ll defeat you."},
+        {"zh": "用盾牌挡不住我的力量。", "en": "Your shield won’t stop me."},
+        {"zh": "你挡得住我，但挡不住恐惧。", "en": "You can block me, but not fear."},
+        {"zh": "靠近我，你会尝到恐惧。", "en": "Get close, and taste fear."},
+        {"zh": "我比你想象的更强大。", "en": "I’m stronger than you think."},
+        {"zh": "你的剑无法伤害我！", "en": "Your sword won’t harm me!"},
+        {"zh": "我的力量超越了常规。", "en": "My power surpasses the norm."},
+        {"zh": "你挡不住我，只会自取灭亡。", "en": "You can’t stop me, just die."},
+        {"zh": "再靠一步，真菌平原的旗也护不住你。", "en": "One more step, and no fungal-plains banner saves you."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "援军没来，我先护住旗帜。", "en": "No reinforcements; I guard the banner first."},
+        {"zh": "与我结合，你会更强大。", "en": "Mate with me, you’ll be stronger."},
+        {"zh": "加入我，一起统治这个邪教。", "en": "Join me, rule the cult together."},
+        {"zh": "与我合作，我们会变得更强。", "en": "Work with me, we’ll be stronger."},
+        {"zh": "靠近我，我会教你一切。", "en": "Come close, I’ll teach you everything."},
+        {"zh": "与我一起，你会找到力量。", "en": "With me, you’ll find strength."},
+        {"zh": "我的力量会融入你体内。", "en": "My power will flow into you."},
+        {"zh": "靠近我，我们会共同强大。", "en": "Come close, we’ll be powerful together."},
+        {"zh": "与我结合，你会获得力量。", "en": "Mate with me, you’ll gain power."},
+        {"zh": "与我结合，你将成为我的伴侣。", "en": "Mate with me, you’ll be my partner."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我需要金子来购买忠诚！", "en": "I need gold to buy loyalty!"},
+        {"zh": "去挖矿，那里有我的财宝！", "en": "Dig there, where my treasures lie!"},
+        {"zh": "金苹果能让我更强大！", "en": "Golden apples make me stronger!"},
+        {"zh": "金粒是我的交易媒介！", "en": "Gold grains are my trade medium!"},
+        {"zh": "邪教徒旗帜下摆，力量之源！", "en": "The banner is the source of power!"},
+        {"zh": "矿工们，快点！金子在等着！", "en": "Miners, hurry! Gold awaits!"},
+        {"zh": "邪教徒信仰的力量是无敌的！", "en": "The power of the cult is invincible!"},
+        {"zh": "金锭是交易的重要货币！", "en": "Gold ingots are key to trade!"},
+        {"zh": "拿走我的财宝，换忠诚！", "en": "Take my treasures, for loyalty!"},
+        {"zh": "邪教徒旗帜代表力量！", "en": "The banner represents power!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你无法战胜我，邪教之子！", "en": "You cannot defeat me, son of the cult!"},
+        {"zh": "攻击者近了，快召唤援军！", "en": "The attacker is near, summon reinforcements!"},
+        {"zh": "邪教徒的忠诚无价！", "en": "The cult's loyalty is invaluable!"},
+        {"zh": "邪教之子，站出来战斗！", "en": "Son of the cult, fight!"},
+        {"zh": "邪教之主，守护我们的信仰！", "en": "Cult leader, protect our faith!"},
+        {"zh": "邪教徒的旗帜下是我们的力量！", "en": "Our power lies under the cult banner!"},
+        {"zh": "邪教之主，你将被击败！", "en": "Cult leader, you will be defeated!"},
+        {"zh": "邪教徒信仰的力量将毁灭你！", "en": "The power of the cult will destroy you!"},
+        {"zh": "邪教之子，展示你的勇气！", "en": "Son of the cult, show your courage!"},
+        {"zh": "邪教之主，战斗到最后一刻！", "en": "Cult leader, fight until the end!"},
+        {"zh": "你没带那面旗。", "en": "You didn't bring the banner."},
+        {"zh": "真菌平原不欢迎你。", "en": "The fungal plains don't welcome you."},
+        {"zh": "我数到三就叫援军。", "en": "I count to three, then I call the others."},
+        {"zh": "你身上没有金子的味道。", "en": "You don't smell of gold."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "邪教徒，你的命运到了！", "en": "Cultists, your destiny is here!"},
+        {"zh": "邪教之子，你们将被消灭！", "en": "Cult children, you will be destroyed!"},
+        {"zh": "邪教之主，让战斗开始！", "en": "Cult leader, let the battle begin!"},
+        {"zh": "邪教之子，服从你的命运！", "en": "Cult children, submit to your fate!"},
+        {"zh": "邪教徒旗帜下，无处可逃！", "en": "The cult banner is your only fate!"},
+        {"zh": "邪教之主，你的时代结束了！", "en": "Cult leader, your era is over!"},
+        {"zh": "邪教之子，你们是我们的！", "en": "Cult children, you are ours!"},
+        {"zh": "邪教之主，你逃不掉！", "en": "Cult leader, you cannot escape!"},
+        {"zh": "邪教之子，展现你的力量！", "en": "Cult children, show your power!"},
+        {"zh": "邪教之主，战斗吧！", "en": "Cult leader, fight!"},
+        {"zh": "我的信徒就在菌柱后面。", "en": "My faithful wait behind the fungal pillars."},
+        {"zh": "打我要快，不然晚了。", "en": "Strike fast, or it's too late."},
+        {"zh": "旗子一倒，全都来。", "en": "The banner falls, they all come."},
+        {"zh": "你砍的是我，不是信仰。", "en": "You cut me, not the faith."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，该死的入侵者！", "en": "Sssss! Damn intruders!"},
+        {"zh": "爪子一伸，援军就到。", "en": "One claw out, and reinforcements arrive."},
+        {"zh": "服从我，不然死路一条！", "en": "Submit to me or die!"},
+        {"zh": "再近一步，我的援军就到。", "en": "One step closer and my reinforcements come."},
+        {"zh": "邪教的怒火燃烧吧！", "en": "The fury of the cult burns!"},
+        {"zh": "金苹果是我的奖赏！", "en": "Golden apples are my reward!"},
+        {"zh": "交出你的旗帜！", "en": "Give me your banner!"},
+        {"zh": "别让我杀了你！", "en": "Don't let me kill you!"},
+        {"zh": "我有援军！", "en": "I have backup!"},
+        {"zh": "杀死他，拯救我们！", "en": "Kill him, save us!"},
+        {"zh": "战斧已经沾过血。", "en": "This war-axe has tasted blood."},
+        {"zh": "把金子交出来！", "en": "Hand over the gold!"},
+        {"zh": "献给真菌之主！", "en": "An offering to the fungal lord!"},
+        {"zh": "这一斧是替信徒砍的。", "en": "This swing is for my followers."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "来了，我的信徒！", "en": "Here, my followers!"},
+        {"zh": "邪教的力量！", "en": "The power of the cult!"},
+        {"zh": "更多邪教徒！", "en": "More cultists!"},
+        {"zh": "邪教的召唤！", "en": "Cult call!"},
+        {"zh": "黑暗中的盟友！", "en": "Allies in the dark!"},
+        {"zh": "邪教的号令！", "en": "Cult's command!"},
+        {"zh": "邪教的信徒们！", "en": "Cult followers!"},
+        {"zh": "邪教的力量汇聚！", "en": "Cult power converges!"},
+        {"zh": "邪教的胜利！", "en": "Cult victory!"},
+        {"zh": "邪教的胜利即将到来！", "en": "Cult victory is coming!"},
+        {"zh": "菌盖下走出一个人影。", "en": "A figure steps out from under the cap."},
+        {"zh": "我带来了整队信徒。", "en": "I brought a whole band of the faithful."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火舌舔上我的肩，信徒会闻到的。", "en": "Flame licks my shoulder; my followers will smell it."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从菌柱上摔了下来。", "en": "I fell from the fungal pillar."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下界的岩浆里没处呼吸。", "en": "Nowhere to breathe in the Nether lava."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一受伤，就会喊来同伴。", "en": "One wound and I call my kin."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "谁在背后放冷箭？", "en": "Who loosed that bolt?"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这咒语违背真菌之主的意。", "en": "That spell defies the fungal lord."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没有金子，也没有食物。", "en": "No gold, no food."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打歪了我的旗。", "en": "Lightning bent my banner."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空里什么也听不见。", "en": "Nothing answers in the void."}
+      ]
+    }
+  }
+}

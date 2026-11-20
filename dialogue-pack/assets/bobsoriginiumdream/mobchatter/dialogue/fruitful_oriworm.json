@@ -1,0 +1,252 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一节一节往前蠕动。", "en": "I inch forward one segment at a time."},
+        {"zh": "我背着果实，走起来一颠。", "en": "I carry fruit on my back and bob as I go."},
+        {"zh": "我的身体里透出橙色的光。", "en": "An orange glow shows through my body."},
+        {"zh": "我爬过叶面，霜被蹭掉。", "en": "I crawl a leaf and rub off its frost."},
+        {"zh": "我在草茎上慢慢挪，草弯了。", "en": "I shift up a stalk and it bends."},
+        {"zh": "我每爬一段就停下来歇。", "en": "Every stretch I crawl, I stop to rest."},
+        {"zh": "我的足很短，走起来密密的。", "en": "My legs are short and move in a dense ripple."},
+        {"zh": "我绕着灌木走，不碰枝条。", "en": "I go around the shrub without touching a twig."},
+        {"zh": "我从叶背翻到叶面，很费劲。", "en": "I haul myself from under a leaf to the top."},
+        {"zh": "我背着的东西碰着草，草就伏下。", "en": "What I carry brushes the grass and it bows."},
+        {"zh": "我走向有光的那块地。", "en": "I head for the patch of light."},
+        {"zh": "我的身体一伸一缩，慢慢过去。", "en": "My body stretches and contracts, slowly on."},
+        {"zh": "我用身体量着叶脉，一点点往前。", "en": "I measure the vein with my body, moving on."},
+        {"zh": "我爬到叶尖，又往回折。", "en": "I crawl to the leaf tip and fold back."},
+        {"zh": "我在霜上爬，留下一道湿痕。", "en": "I crawl over frost and leave a wet line."},
+        {"zh": "我拱起中间，前后一起挪。", "en": "I arch my middle and shift both ends."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我伏在叶上，背上的果实发亮。", "en": "I lie on a leaf while my fruit glows."},
+        {"zh": "我把身体蜷起来，像一颗果。", "en": "I curl up like a piece of fruit."},
+        {"zh": "我不动，光在皮下慢慢转。", "en": "I hold still as light turns under my skin."},
+        {"zh": "我啃着叶边，啃得很慢。", "en": "I nibble the leaf edge, slowly."},
+        {"zh": "果香从藤上往下滴。", "en": "Fruit scent drips down from the vine."},
+        {"zh": "我的身体一鼓一瘪，在呼吸。", "en": "My body swells and sinks as I breathe."},
+        {"zh": "我趴在叶脉上，正好卡住。", "en": "I rest along a vein, fitting neatly."},
+        {"zh": "我慢慢眨眼，眼睛很小。", "en": "I blink slowly, my eyes very small."},
+        {"zh": "我背上的一颗果实晃了一下。", "en": "One of the fruits on my back sways."},
+        {"zh": "我安静地待着，霜落在我身上。", "en": "I stay quiet as frost settles on me."},
+        {"zh": "我把头埋到叶子底下。", "en": "I tuck my head under the leaf."},
+        {"zh": "我的足贴着叶面，一动不动。", "en": "My feet cling to the leaf without moving."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抬起头，看你蹲下来。", "en": "I raise my head as you crouch down."},
+        {"zh": "你伸手，我往叶背缩了一下。", "en": "You reach out and I shrink under the leaf."},
+        {"zh": "我盯着你的手指，那不像叶子。", "en": "I watch your fingers; they are not leaves."},
+        {"zh": "你把脸凑近，我的眼睛对上了。", "en": "You lean close and our eyes meet."},
+        {"zh": "我背上的光亮了一点。", "en": "The glow on my back brightens."},
+        {"zh": "你退开一步，我才把头伸出来。", "en": "You step back and only then do I bring my head out."},
+        {"zh": "我把身体转向你，很慢。", "en": "I turn toward you, slowly."},
+        {"zh": "你叫了一声，我的足停住了。", "en": "You call and my feet stop."},
+        {"zh": "我朝你的手挪了一点，又停下。", "en": "I edge toward your hand, then stop."},
+        {"zh": "你看我时，我把头低下去。", "en": "While you look, I lower my head."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被打中，缩成一团。", "en": "Hit, I curl into a ball."},
+        {"zh": "我从叶上掉下，落在草里。", "en": "I fall off the leaf into the grass."},
+        {"zh": "我的皮裂了，流出橙色的汁。", "en": "My skin splits and orange sap runs out."},
+        {"zh": "我扭了两下，又慢慢展开。", "en": "I twist twice, then slowly uncurl."},
+        {"zh": "结满果子的我，爬得慢。", "en": "Fruit-laden, I crawl slowly."},
+        {"zh": "果子掉了两颗，光也暗了。", "en": "Two fruits fall, and my glow dims."},
+        {"zh": "叶柄一晃，我咬得更牢。", "en": "The stem sways; I bite down harder."},
+        {"zh": "我疼得发抖，叶子跟着响。", "en": "I tremble with pain and the leaf rustles."},
+        {"zh": "我退开一段，继续吃叶子。", "en": "I withdraw a little and go back to eating."},
+        {"zh": "我把自己缩得更短，保护果实。", "en": "I draw in short to protect the fruit."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你放下一片叶子，我立刻爬过去。", "en": "You set down a leaf and I crawl right over."},
+        {"zh": "我咬了一口，觉得有点老。", "en": "I bite once and find it a little old."},
+        {"zh": "你把嫩叶推来，我埋头就啃。", "en": "You push a tender leaf over and I dig in."},
+        {"zh": "我吃得很快，叶子一下少一半。", "en": "I eat fast and half the leaf goes."},
+        {"zh": "你手里有铁，我抬头看了看。", "en": "You hold iron and I lift my head to look."},
+        {"zh": "我把铁推到一边，继续吃叶子。", "en": "I shove the iron aside and go back to the leaf."},
+        {"zh": "你手里的铁，比果子香。", "en": "The iron in your hand smells better than fruit."},
+        {"zh": "我吃饱了，趴在叶上不动。", "en": "Full, I lie on the leaf without moving."},
+        {"zh": "你把叶子挪开，我停在原地。", "en": "You move the leaf away and I stop there."},
+        {"zh": "我闻了闻你的口袋，没有叶子。", "en": "I sniff your pocket and find no leaf."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你碰我一下，我缩成了团。", "en": "You touch me and I curl into a ball."},
+        {"zh": "我从叶上滑下去，落在草里。", "en": "I slip off the leaf and land in the grass."},
+        {"zh": "我撞到另一只，两只都停住。", "en": "I bump another and we both stop."},
+        {"zh": "你把我推回叶上，我抓稳了。", "en": "You push me back onto the leaf and I grip."},
+        {"zh": "我蹭过你的手，软软的，凉凉的。", "en": "I brush your hand, soft and cool."},
+        {"zh": "我这只源石虫，圆得像果子。", "en": "This oriworm is round as a fruit."},
+        {"zh": "我背上的果实磕到枝子。", "en": "A fruit on my back knocks the branch."},
+        {"zh": "我蹭过你的手，凉凉的。", "en": "I brush your hand, cool to the touch."},
+        {"zh": "我一撞，叶子凹了一个小坑。", "en": "I bump and the leaf dents a little."},
+        {"zh": "你退开，我慢慢爬回原处。", "en": "You step back and I crawl back to my spot."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "另一只源石虫从叶背爬上来。", "en": "Another Oriworm climbs from under the leaf."},
+        {"zh": "我们的身体互相碰着，都软。", "en": "Our bodies touch, both soft."},
+        {"zh": "它的背上有果实，我也有。", "en": "It carries fruit on its back, and so do I."},
+        {"zh": "我们并排啃叶子，一起往中间吃。", "en": "We chew side by side, working inward."},
+        {"zh": "它把头贴过来，蹭了一下。", "en": "It brings its head over and nuzzles once."},
+        {"zh": "我们一伸一缩，节奏一样。", "en": "We stretch and contract in the same rhythm."},
+        {"zh": "叶子被我们啃成一张网。", "en": "We chew the leaf down to a net of veins."},
+        {"zh": "它慢慢爬开，往另一片叶去。", "en": "It crawls off toward another leaf."},
+        {"zh": "我留在原地，看着它走。", "en": "I stay and watch it go."},
+        {"zh": "枝上多了一只，果实也多了。", "en": "The branch has one more worm, and more fruit."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你把我捧起来，我软软一摊。", "en": "You cup me and I go soft in your hands."},
+        {"zh": "你抬我时，我背上的果实晃。", "en": "As you lift me, the fruit on my back sways."},
+        {"zh": "我贴在你掌心，凉凉的。", "en": "I press to your palm, cool."},
+        {"zh": "你把我放到另一片叶上，我抓紧。", "en": "You set me on another leaf and I grip."},
+        {"zh": "你捏了一下，我的身体陷进去。", "en": "You squeeze once and my body dents."},
+        {"zh": "你把我放进篮子，我往上爬。", "en": "You put me in a basket and I climb out."},
+        {"zh": "你托着我走，我一路晃。", "en": "You carry me and I sway the whole way."},
+        {"zh": "你松手，我又回到叶子上。", "en": "You let go and I am back on a leaf."},
+        {"zh": "你摸我的背，我抖了一下。", "en": "You stroke my back and I twitch."},
+        {"zh": "你退开，我慢慢舒展开。", "en": "You draw back and I slowly uncurl."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我闻到嫩叶，就往那边去。", "en": "I smell tender leaves and head for them."},
+        {"zh": "我选定这片叶，开始啃。", "en": "I settle on this leaf and start chewing."},
+        {"zh": "我把头抬起来，正对着叶心。", "en": "I raise my head to the leaf's center."},
+        {"zh": "我缩了一下，再往前够。", "en": "I draw back, then reach farther."},
+        {"zh": "我朝叶缘挪，那里最好下口。", "en": "I shift to the rim where it is easiest to bite."},
+        {"zh": "我认定这个方向，就不再改。", "en": "I fix this direction and do not change it."},
+        {"zh": "我抬起头，看见你手上的叶子。", "en": "I raise my head and see the leaf in your hand."},
+        {"zh": "我慢慢转向那边，足贴着叶面。", "en": "I turn that way, feet flat on the leaf."},
+        {"zh": "我的身体伸展到最长。", "en": "I stretch my body to full length."},
+        {"zh": "我一节节推过去，朝目标。", "en": "I push toward it segment by segment."},
+        {"zh": "我把身体抬起来，找叶子的方向。", "en": "I lift my body to find the leaf."},
+        {"zh": "我伸出前半身，试了试距离。", "en": "I reach out with my front half to test the gap."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一路朝叶子爬，没停。", "en": "I crawl toward the leaf without stopping."},
+        {"zh": "我绕开叶脉，方向没变。", "en": "I go around a vein without changing course."},
+        {"zh": "藤太高，我踮起腹足。", "en": "The vine is too high; I stretch on my belly feet."},
+        {"zh": "我调整了角度，再够一次。", "en": "I adjust the angle and reach again."},
+        {"zh": "我沿着叶缘靠过去，很慢。", "en": "I work along the rim, slowly."},
+        {"zh": "叶子晃了，我停下来等。", "en": "The leaf sways and I wait."},
+        {"zh": "我离叶子只剩一小段。", "en": "Only a short gap remains."},
+        {"zh": "我贴住叶面，慢慢挪。", "en": "I press to the leaf and edge over."},
+        {"zh": "我一直朝那片绿，别的都不看。", "en": "I keep to that green and look nowhere else."},
+        {"zh": "我往前伸，够到了。", "en": "I stretch out and reach it."},
+        {"zh": "我一节节搭过去，像搭桥。", "en": "I lay myself across, segment by segment, like a bridge."},
+        {"zh": "我停在叶缘，先咬一小口。", "en": "I stop at the rim and take a small bite first."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "叶缘卷起来，我慢慢啃。", "en": "The leaf edge curls as I chew through it."},
+        {"zh": "叶脉一断，汁水溅出来。", "en": "The vein snaps, and juice sprays out."},
+        {"zh": "我用额头顶，果子晃了晃。", "en": "I butt the stem, and the fruit sways."},
+        {"zh": "我啃出一个小洞，钻过去。", "en": "I chew a hole and crawl through."},
+        {"zh": "我背着果实，走起来一颠一颠。", "en": "Carrying fruit on my back, I bob as I crawl."},
+        {"zh": "我撞你的手指，力道很小。", "en": "I bump your finger, very lightly."},
+        {"zh": "我啃掉叶尖，往下继续。", "en": "I eat the leaf tip and go on down."},
+        {"zh": "我一口咬空，扑在叶子上。", "en": "I bite only air and flop onto the leaf."},
+        {"zh": "我咬住不松，叶子往下垂。", "en": "I hold on and the leaf droops."},
+        {"zh": "我吃得满嘴都是，抬头看你。", "en": "I look up at you with my mouth full."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "叶背多了一只，颜色像果。", "en": "One more appears under the leaf, colored like fruit."},
+        {"zh": "十点血的虫子，铁一喂就变。", "en": "Ten health of bug—one iron and it changes."},
+        {"zh": "刷怪蛋落在叶上，我慢慢展开，像颗果。", "en": "The spawn egg landed on a leaf; I unfurl like fruit."},
+        {"zh": "我从来处爬来，背上的果实晃。", "en": "I crawl in from somewhere, fruit swaying."},
+        {"zh": "枝头多了一点橙色的光。", "en": "The branch has gained a spot of orange light."},
+        {"zh": "你听见很轻的啃食声。", "en": "You hear a very small chewing sound."},
+        {"zh": "我趴在果子上，叶还在晃。", "en": "I cling to the fruit while the leaf still sways."},
+        {"zh": "我从草根间钻出来，很慢。", "en": "I push out between grass roots, slowly."},
+        {"zh": "它落在你手边的叶上，还在一缩一伸。", "en": "It lands on the leaf by your hand, still pulsing."},
+        {"zh": "叶面动了一下，是我在下面。", "en": "The leaf stirs, and I am beneath it."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烤着我，背上的果实皱起来。", "en": "Fire bakes me and the fruit on my back shrivels."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从叶子掉到地上，弹了一下。", "en": "I drop from the leaf and bounce once."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水泡住我，我挣得很慢。", "en": "Water soaks me and I struggle slowly."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我掀出叶子，滚了几圈。", "en": "The blast throws me off the leaf and I roll."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭擦过我的背，果实破了一颗。", "en": "An arrow grazes my back and one fruit splits."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "药水泼来，我的皮变硬了。", "en": "The potion hits and my skin hardens."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没有叶子，我越来越软。", "en": "No leaves, and I grow softer and weaker."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷一落，背上的果子发亮。", "en": "The bolt lands, and the fruit on my back lights up."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我卷着身子往虚空掉。", "en": "Curled up, I fall into the void."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从天花板上挪动半格。", "en": "I shift half a block along the ceiling."},
+        {"zh": "绞盘一转，我横着过去。", "en": "One turn of the winch and I slide across."},
+        {"zh": "链条在黑暗里响。", "en": "The chain rings in the dark."},
+        {"zh": "我的影子落在下面的石头上。", "en": "My shadow falls on the stone below."},
+        {"zh": "我挂在磁场洞穴的顶上。", "en": "I hang from the ceiling of the magnetic cave."},
+        {"zh": "我沿着铁梁滑了半格。", "en": "I slide half a block along the iron beam."},
+        {"zh": "我又挪了一格。", "en": "I move another block."},
+        {"zh": "我身上的链条跟着晃。", "en": "The chain on me swings as I go."},
+        {"zh": "我沿着一道铁梁走。", "en": "I travel along an iron beam."},
+        {"zh": "我在找下方的东西。", "en": "I'm looking for something below."},
+        {"zh": "我停下来，链条还在摆。", "en": "I stop, and the chain keeps swinging."},
+        {"zh": "我往洞更深处去。", "en": "I move further into the cave."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锈从钩子上落下去。", "en": "Rust falls from the hook."},
+        {"zh": "重锤在我下面垂着。", "en": "The hammer hangs beneath me."},
+        {"zh": "我听见洞里有人走。", "en": "I hear someone walking in the cave."},
+        {"zh": "磁场让灰尘浮起来。", "en": "The field makes the dust float."},
+        {"zh": "我的绞盘卡了一下。", "en": "My winch caught for a moment."},
+        {"zh": "我在等目标经过下面。", "en": "I wait for a target to pass beneath."},
+        {"zh": "链子上的锈掉了一点。", "en": "A little rust flakes off the chain."},
+        {"zh": "我身上没有脸，也没有嘴。", "en": "I have no face and no mouth."},
+        {"zh": "它把我拉得笔直。", "en": "It pulls me perfectly straight."},
+        {"zh": "洞顶离地很远。", "en": "The ceiling is far above the floor."},
+        {"zh": "天花板上的矿脉在我眼里。", "en": "The ore veins in the ceiling are in my view."},
+        {"zh": "只有链子偶尔碰一下。", "en": "Only the chain knocks now and then."},
+        {"zh": "我数着下面的脚步声。", "en": "I count the footsteps below."},
+        {"zh": "红光在锤面上晃。", "en": "A red glow wavers on the hammer face."},
+        {"zh": "磁场托着我，灰尘在转。", "en": "The magnetic field holds me while dust swirls."},
+        {"zh": "我在上面等着，一动不动。", "en": "I wait up here without moving."},
+        {"zh": "洞里有风从下面上来。", "en": "Wind rises from below."},
+        {"zh": "我吊了不知多久。", "en": "I've hung here I don't know how long."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你抬头了，正好在下面。", "en": "You looked up, right below me."},
+        {"zh": "我就在你正上方。", "en": "I'm directly above you."},
+        {"zh": "你踩在锁扣投下的影子里。", "en": "You stand in the shadow the catch casts."},
+        {"zh": "我吊在洞顶，锤子垂着。", "en": "I hang from the ceiling, hammer down."},
+        {"zh": "再一步，绳子就够长了。", "en": "One more step and the chain will reach."},
+        {"zh": "我慢慢开始降低。", "en": "I'm slowly lowering."},
+        {"zh": "你看不见我，对吧？", "en": "You can't see me, can you?"},
+        {"zh": "链子的声音你听见了吗？", "en": "Did you hear the chain?"},
+        {"zh": "我数到三就落下。", "en": "I drop on three."},
+        {"zh": "你头顶上有一块阴影。", "en": "There's a shadow over your head."},
+        {"zh": "我的锤子已经松开了卡扣。", "en": "My hammer has slipped its catch."},
+        {"zh": "抬头你会看见锈和红光。", "en": "Look up and you will see rust and red light."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的链子晃得厉害。", "en": "My chain is swinging hard."},
+        {"zh": "锤子扫过洞顶的钟乳石。", "en": "My hammer sweeps past a stalactite."},
+        {"zh": "绞盘里响了一声。", "en": "The winch clicked."},
+        {"zh": "我又升回去一点。", "en": "I've winched up a little."},
+        {"zh": "锁链跟着抖了一串。", "en": "The chain rattles in a long shiver."},
+        {"zh": "这一下砸偏了。", "en": "That struck askew."},
+        {"zh": "我吊着，晃了很久。", "en": "I hang there, swaying a long time."},
+        {"zh": "我稳住链条。", "en": "I steady the chain."},
+        {"zh": "链子绷紧，我没掉。", "en": "The chain goes taut; I do not fall."},
+        {"zh": "钩子蹭着石顶，慢慢停住。", "en": "The hook scrapes the ceiling and slowly stops."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我只关心你站在哪。", "en": "I only care where you stand."},
+        {"zh": "我吊在洞顶，等你站下。", "en": "I hang from the ceiling, waiting."},
+        {"zh": "动的东西下面，就是落点。", "en": "Whatever moves marks the landing spot."},
+        {"zh": "我只是在找落点。", "en": "I'm only looking for a place to drop."},
+        {"zh": "诱饵挡不住下落的锤。", "en": "Bait cannot stop a falling hammer."},
+        {"zh": "我朝它挪了一格。", "en": "I shift one block toward it."},
+        {"zh": "我够得着那儿了。", "en": "I can reach that now."},
+        {"zh": "这是个好位置。", "en": "That's a good position."},
+        {"zh": "吊在洞顶的重锤，不用诱饵。", "en": "A hammer on the cave ceiling needs no bait."},
+        {"zh": "你把东西放下，重锤就落。", "en": "Set it down and the hammer falls."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞在我垂下的链子上。", "en": "You hit my hanging chain."},
+        {"zh": "链子晃得很厉害。", "en": "The chain is swinging hard."},
+        {"zh": "我从上面撞下来一点。", "en": "I've been knocked down a little."},
+        {"zh": "你在下面很好。", "en": "You being below is good."},
+        {"zh": "我的锤子碰到你的头。", "en": "My hammer grazed your head."},
+        {"zh": "这一下只是偶然。", "en": "That was only chance."},
+        {"zh": "我又升回去。", "en": "I've winched back up."},
+        {"zh": "你退出了我的落点。", "en": "You've stepped out of my drop point."},
+        {"zh": "绞盘被我撞歪了半格。", "en": "The winch is knocked half a block off."},
+        {"zh": "我得换个地方。", "en": "I need to move."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这洞穴里只有我一个。", "en": "I'm the only one in this cave."},
+        {"zh": "这些机器是造出来的。", "en": "These machines are built."},
+        {"zh": "旁边挂着另一个。", "en": "Another hangs nearby."},
+        {"zh": "它和我一样安静。", "en": "It's as quiet as I am."},
+        {"zh": "我们的链条碰在一起。", "en": "Our chains touch."},
+        {"zh": "我们的链条各响各的。", "en": "Our chains ring separately."},
+        {"zh": "我们各自挂着。", "en": "We each hang in place."},
+        {"zh": "我们看着同一条路。", "en": "We watch the same path."},
+        {"zh": "谁先落下，谁先得。", "en": "Whoever drops first gets it."},
+        {"zh": "之后我们守着各自的位置。", "en": "Afterward we keep our own positions."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把它卷上来了。", "en": "I winch it up."},
+        {"zh": "链子一紧，它就上来了。", "en": "The chain tightens and it comes up."},
+        {"zh": "我夹在绞盘里。", "en": "I've wedged it in the winch."},
+        {"zh": "它太重，我吊不住。", "en": "Too heavy; I can't hold it."},
+        {"zh": "我把它放下去。", "en": "I lower it back."},
+        {"zh": "这上面没有地方放。", "en": "There's nowhere to put it up here."},
+        {"zh": "我又扔掉它。", "en": "I drop it again."},
+        {"zh": "金属碰到金属，很响。", "en": "Metal on metal rings out."},
+        {"zh": "它在链子上一直晃。", "en": "It keeps swinging on the chain."},
+        {"zh": "我拿它没什么用。", "en": "It's no use to me."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在下面走。", "en": "You're walking below."},
+        {"zh": "我把绞盘松了一点。", "en": "I've let the winch out a little."},
+        {"zh": "你的脚步声落在锤子的正下方。", "en": "Your footsteps land directly under my hammer."},
+        {"zh": "链节一节节从我手里滑。", "en": "Chain links slide through my grip one by one."},
+        {"zh": "绞盘咬住了最后一节链。", "en": "The winch bites on the last link."},
+        {"zh": "你没听见链子响。", "en": "You didn't hear the chain."},
+        {"zh": "锤底离你的头顶只剩半臂。", "en": "My hammer hangs half an arm above your head."},
+        {"zh": "锤子已经对准你。", "en": "The hammer is aimed at you."},
+        {"zh": "我不用着急。", "en": "I'm in no hurry."},
+        {"zh": "你正好站在锁扣下面。", "en": "You're standing right under the latch."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我沿着顶挪过去。", "en": "I move along the ceiling."},
+        {"zh": "你走过的路上有我影子。", "en": "My shadow is on the path you took."},
+        {"zh": "我换到另一根梁上。", "en": "I shift to another beam."},
+        {"zh": "拉高一点更稳。", "en": "Higher up is steadier."},
+        {"zh": "你的位置偏了。", "en": "Your position has shifted."},
+        {"zh": "我又对上了。", "en": "I'm lined up again."},
+        {"zh": "链条一直在响。", "en": "The chain keeps ringing."},
+        {"zh": "我不往下看别的。", "en": "I don't look at anything else."},
+        {"zh": "你开始跑了，我跟着。", "en": "You've started to run, and I follow."},
+        {"zh": "我在上面跟得上你。", "en": "I can keep pace with you from up here."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "重锤落下，砸在你肩上。", "en": "The hammer falls onto your shoulder."},
+        {"zh": "你被砸得半跪下去。", "en": "You're driven half to your knees."},
+        {"zh": "地上裂了一道。", "en": "A split opens in the floor."},
+        {"zh": "链条抽在你手臂上。", "en": "The chain whips your arm."},
+        {"zh": "我又把锤子拉起来。", "en": "I haul the hammer back up."},
+        {"zh": "这一下偏了两指。", "en": "That one missed by two fingers."},
+        {"zh": "你退到墙边，锤子下来了。", "en": "You backed to the wall. Here comes the hammer."},
+        {"zh": "我吊在天花板上垂着锤。", "en": "I hang from the ceiling with my hammer."},
+        {"zh": "锤底还黏着碎石。", "en": "Gravel still clings to the hammer's face."},
+        {"zh": "我的绞盘有点卡。", "en": "My winch is sticking."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从上方的锁扣上垂下来。", "en": "I hang down from the latch above."},
+        {"zh": "链条一节一节展开。", "en": "The chain unfolds link by link."},
+        {"zh": "磁场在我身上流过。", "en": "The field passes over me."},
+        {"zh": "我先试了试锤子。", "en": "First I test the hammer."},
+        {"zh": "锁扣咬进石顶，我垂下来。", "en": "The catch bites into the ceiling and I hang down."},
+        {"zh": "我垂在半空。", "en": "I hang in midair."},
+        {"zh": "我听到洞里有脚步。", "en": "I hear footsteps in the cave."},
+        {"zh": "我的红光在黑暗里很显眼。", "en": "My red light shows in the dark."},
+        {"zh": "我用绞盘吊着，用重锤砸。", "en": "A winch holds me; a hammer drops."},
+        {"zh": "锤子晃了一下。", "en": "The hammer sways once."},
+        {"zh": "我降了半格。", "en": "I've dropped half a block."},
+        {"zh": "下面的影子落进了我的范围。", "en": "A shadow below has entered my reach."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎到链条，我上面的绞盘发烫。", "en": "Fire scorches the chain and my winch grows hot."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从钩子上脱落，摔在石头上。", "en": "I slip the hook and crash onto the stone."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水淹到洞里，我的齿轮在响。", "en": "Water reaches the cave and my gears grind."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把我从梁上震下来。", "en": "The blast shakes me off the beam."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭打在我的壳上，弹开了。", "en": "An arrow hits my casing and glances off."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股力让我的磁力乱了。", "en": "That force scrambles my magnet."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我没有饿这个概念。", "en": "Hunger is not something I have."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "电流顺着链条上来，我抖了一下。", "en": "Current runs up the chain and I jolt."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "钩子空了，我一路往下坠。", "en": "The hook holds nothing and I fall."}
+      ]
+    }
+  }
+}

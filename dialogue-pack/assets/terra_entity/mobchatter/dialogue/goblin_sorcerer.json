@@ -1,0 +1,272 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我踩着碎步，杖尖在地上拖。", "en": "I take short steps, my staff dragging on the ground."},
+        {"zh": "我走得不快，袍子太长了。", "en": "I do not walk fast; my robe is too long."},
+        {"zh": "我沿着平原边缘走过去。", "en": "I walk along the edge of the plain."},
+        {"zh": "我一边走一边念着东西。", "en": "I mutter something as I walk."},
+        {"zh": "我停下来半步，又继续。", "en": "I pause half a step and go on."},
+        {"zh": "我绕过草丛，怕绊住脚。", "en": "I skirt the grass so I do not trip."},
+        {"zh": "我慢慢挪到能看见你的位置。", "en": "I shift slowly to where I can see you."},
+        {"zh": "我的杖在身前探路。", "en": "My staff tests the way ahead."},
+        {"zh": "我走的时候帽尖一晃一晃。", "en": "My hat tip bobs as I walk."},
+        {"zh": "我朝你那边挪了几步。", "en": "I shift a few steps your way."},
+        {"zh": "我把袍角提起来一点。", "en": "I lift my hem a little."},
+        {"zh": "我在原地转了个方向。", "en": "I turn in place to another bearing."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，杖顶亮了一点。", "en": "I stand and the top of my staff glows."},
+        {"zh": "我在低声念着什么。", "en": "I am chanting quietly."},
+        {"zh": "杖顶的光一明一暗", "en": "The light atop my staff flickers."},
+        {"zh": "我在看杖顶的光。", "en": "I am watching the light on my staff."},
+        {"zh": "我的袍子里鼓着风。", "en": "Wind swells inside my robe."},
+        {"zh": "我把杖在地上顿了一下。", "en": "I tap the staff once on the ground."},
+        {"zh": "我数着你还差几步", "en": "I count the steps you still owe me."},
+        {"zh": "我慢慢地晃了一下手指。", "en": "I wiggle a finger slowly."},
+        {"zh": "我身上有股烧纸的味道。", "en": "I smell of burning paper."},
+        {"zh": "我在算距离，很仔细。", "en": "I am working out the distance, carefully."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你正好在我杖的射程内。", "en": "You stand right in my staff's reach."},
+        {"zh": "我举杖，你该退了。", "en": "I raise my staff; you should step back."},
+        {"zh": "你这身护甲挡不住法术。", "en": "That armour will not stop a spell."},
+        {"zh": "我抬眼看你，念得更快了。", "en": "I look up at you and chant faster."},
+        {"zh": "你身上没有魔力的味道。", "en": "You carry no smell of magic."},
+        {"zh": "像你这样拿剑的我见得多。", "en": "I have seen many sword-bearers like you."},
+        {"zh": "你别动，我瞄得会更准。", "en": "Do not move; I will aim better."},
+        {"zh": "我的杖尖对着你。", "en": "My staff points at you."},
+        {"zh": "你退一步，我就念快一点。", "en": "You step back and I chant faster."},
+        {"zh": "你在我的弹道正中。", "en": "You are dead centre of my line."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的念诵断了一下。", "en": "My chanting breaks."},
+        {"zh": "我退了半步，扶住杖。", "en": "I step back and hold the staff."},
+        {"zh": "我袍子上破了一道。", "en": "A tear opens in my robe."},
+        {"zh": "我咬着牙，把咒接上。", "en": "Gritting my teeth, I resume the spell."},
+        {"zh": "我的帽子歪了，我没管。", "en": "My hat is askew and I ignore it."},
+        {"zh": "这一下把我咒打散了。", "en": "That broke my spell apart."},
+        {"zh": "我抬杖挡在胸口前面。", "en": "I bring my staff across my chest."},
+        {"zh": "杖尖的光暗了一瞬。", "en": "The staff's glow dims for an instant."},
+        {"zh": "你打断得不错。", "en": "A decent interruption."},
+        {"zh": "我后退，重新算距离。", "en": "I retreat and recalculate the range."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你身上的东西，我要。", "en": "I want what you carry."},
+        {"zh": "那把武器，留着没用。", "en": "That weapon will do you no good."},
+        {"zh": "东西搁下，人就可以走。", "en": "Leave the thing and you may go."},
+        {"zh": "那点亮光，会干扰我。", "en": "That glow of yours interferes with me."},
+        {"zh": "你站在那儿，正好当靶。", "en": "Standing there, you make a fine target."},
+        {"zh": "你手里的宝石，我看见了。", "en": "I see the gem in your hand."},
+        {"zh": "你越退，念咒越难。", "en": "The more you retreat, the harder my chant."},
+        {"zh": "你把火把举高，我反而看得清。", "en": "Raise your torch; I see you better."},
+        {"zh": "你的同伴要来，我也不怕。", "en": "Bring your companions; I am not afraid."},
+        {"zh": "你把东西丢掉，省我一发。", "en": "Drop it and save me a shot."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到我，杖歪了。", "en": "You bump me and my staff tilts."},
+        {"zh": "我退了一步，袍子绊住。", "en": "I step back and my robe snags."},
+        {"zh": "我用杖撑住，站稳了。", "en": "I brace on my staff and steady."},
+        {"zh": "我们相撞，我的帽子掉了。", "en": "We collide and my hat falls."},
+        {"zh": "我被推得一歪，又正回来。", "en": "Pushed askew, I right myself."},
+        {"zh": "你撞在我身上，闻到一股烟味。", "en": "You hit me and catch a smell of smoke."},
+        {"zh": "我一挥手，袖子扫到你。", "en": "I flick my hand and my sleeve brushes you."},
+        {"zh": "分开后，我立刻把杖举起来。", "en": "After we part, I lift my staff at once."},
+        {"zh": "我被撞得退了半步，念错了。", "en": "Knocked back half a step, I lose the chant."},
+        {"zh": "我把你挡在杖外。", "en": "I hold you off at staff's length."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我只关心咒文。", "en": "I care only for incantations."},
+        {"zh": "这种事没有用处。", "en": "That is of no use."},
+        {"zh": "你把杖拿稳了再说。", "en": "Hold a staff steady first."},
+        {"zh": "我没时间应付这种问题。", "en": "I have no time for such questions."},
+        {"zh": "我摇了下头，继续念。", "en": "I shake my head and keep chanting."},
+        {"zh": "你问得不够聪明。", "en": "That is not a clever question."},
+        {"zh": "我慢慢把杖插进土里。", "en": "I plant the staff in the soil."},
+        {"zh": "我们不谈这个。", "en": "We do not speak of this."},
+        {"zh": "我抬手指了指远处。", "en": "I point into the distance."},
+        {"zh": "别耽误我念完这一句", "en": "Do not make me lose the end of this incantation."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用杖尖挑起来。", "en": "I flick it up with my staff's tip."},
+        {"zh": "我拾起来，放进袍子里。", "en": "I pick it up and tuck it in my robe."},
+        {"zh": "这东西有点魔力。", "en": "This thing has a little magic in it."},
+        {"zh": "我捏着它，念了一句。", "en": "I hold it and chant a line."},
+        {"zh": "掉在地上的，我顺手收。", "en": "I gather what falls in passing."},
+        {"zh": "我拿不住，用袖子裹。", "en": "I cannot grip it; I wrap it in my sleeve."},
+        {"zh": "这太小，不值得。", "en": "Too small to be worth it."},
+        {"zh": "帽子里已经装了三块", "en": "My hat already holds three pieces."},
+        {"zh": "我捡起来，又丢下去。", "en": "I pick it up and drop it again."},
+        {"zh": "这个我留着做材料。", "en": "I will keep this for a reagent."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把杖尖点向了你。", "en": "I point my staff tip at you."},
+        {"zh": "我举杖，对准你的方向。", "en": "I raise my staff, aimed your way."},
+        {"zh": "距离正好，够我念完。", "en": "The distance is right for a full chant."},
+        {"zh": "我把杖尖亮起来。", "en": "I light the tip of my staff."},
+        {"zh": "杖尖把你框在正中", "en": "My staff tip frames you dead center."},
+        {"zh": "这个目标我留着慢慢打。", "en": "I will take my time with this one."},
+        {"zh": "你在哪，我杖尖就指哪。", "en": "Wherever you are, my staff tip points."},
+        {"zh": "我开始朝你念咒。", "en": "I begin the spell toward you."},
+        {"zh": "你成了这一发的落点。", "en": "You are where this shot will land."},
+        {"zh": "我另一只手也举到胸前。", "en": "My other hand rises to my chest too."},
+        {"zh": "我锁定之后就不动。", "en": "Once locked, I do not move."},
+        {"zh": "目标就是这个站在平原上的。", "en": "The target is the one standing on the plain."},
+        {"zh": "我低声念了一个字。", "en": "I whisper a single syllable."},
+        {"zh": "你身上的护甲我算过了。", "en": "I have calculated your armour."},
+        {"zh": "我把帽檐转向你。", "en": "I turn my hat brim toward you."},
+        {"zh": "我早算好了你逃的路", "en": "I have already measured your escape route."},
+        {"zh": "我把重心放低，站定了。", "en": "I settle my weight and stand firm."},
+        {"zh": "我抬起杖，第一发来了。", "en": "I raise the staff; here comes the first."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一直对着你，不换。", "en": "I keep aimed at you, unswerving."},
+        {"zh": "你动，我的杖跟着动。", "en": "You move, and my staff follows."},
+        {"zh": "我站在这里就够。", "en": "Standing here is enough."},
+        {"zh": "我的咒一直没断。", "en": "My chant has not broken."},
+        {"zh": "你绕到石头后，我抬高一点。", "en": "You go behind a rock and I aim higher."},
+        {"zh": "我不追，我等你自己露头。", "en": "I do not chase; I wait for you to show."},
+        {"zh": "你退得越远，我越从容。", "en": "The further you retreat, the calmer I am."},
+        {"zh": "我把杖在地上画了个圈。", "en": "I draw a circle on the ground with my staff."},
+        {"zh": "你听见那种嗡嗡声了吗。", "en": "Do you hear that droning?"},
+        {"zh": "你在我的节拍里，逃不掉。", "en": "You are inside my rhythm; you cannot escape."},
+        {"zh": "我念完这一段，你就完了。", "en": "When this passage ends, so do you."},
+        {"zh": "我盯着你的脚，算你走位。", "en": "I watch your feet to read your movement."},
+        {"zh": "我一边念一边朝你侧移。", "en": "I chant while sidestepping toward you."},
+        {"zh": "你把头低下，我就打不到？", "en": "Duck and you think I cannot hit you?"},
+        {"zh": "我抬起杖，指向上方。", "en": "I raise the staff and aim upward."},
+        {"zh": "你走远，我的咒还跟着。", "en": "You walk further, and the spell still follows."},
+        {"zh": "我把重心稳在两脚之间。", "en": "I settle my weight between both feet."},
+        {"zh": "这条道我不让你过。", "en": "I will not let you down this path."},
+        {"zh": "你看我的杖，别看我的脸。", "en": "Watch my staff, not my face."},
+        {"zh": "我等咒文绕完这一圈。", "en": "I wait for the chant to come full circle."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我杖尖一送，光打在你身上。", "en": "I thrust my staff and light strikes you."},
+        {"zh": "这一发是直接过来的。", "en": "This shot comes straight at you."},
+        {"zh": "我抬杖，光从顶端射出。", "en": "I raise the staff and light shoots from its tip."},
+        {"zh": "这一击，你退了一步。", "en": "That blast put you a step back."},
+        {"zh": "我的杖敲在你肩上。", "en": "My staff raps your shoulder."},
+        {"zh": "这一发我压得很低。", "en": "I sent this one low."},
+        {"zh": "光擦过你的护甲，冒烟了。", "en": "The light grazes your armour and it smokes."},
+        {"zh": "我连着放了两下。", "en": "I loose two in a row."},
+        {"zh": "你挡了第一下，第二下没挡住。", "en": "You blocked the first, not the second."},
+        {"zh": "我念得快了，气息不稳。", "en": "I chant faster and my breath wavers."},
+        {"zh": "这一下让地面焦了一块。", "en": "That scorched a patch of ground."},
+        {"zh": "我退后半步，重新举杖。", "en": "I step back and raise the staff again."},
+        {"zh": "光在我掌心聚起来。", "en": "Light gathers in my palm."},
+        {"zh": "这一发不太准，可还是打到了。", "en": "Not accurate, and it still landed."},
+        {"zh": "这一发从侧面斜着来。", "en": "This one comes on a slant from the side."},
+        {"zh": "我把杖横过来，挡了一下。", "en": "I turn my staff sideways and block."},
+        {"zh": "光在地上炸开一小片。", "en": "The light bursts a small patch of ground."},
+        {"zh": "你抬手挡脸，我从下打腿。", "en": "You shield your face; I strike low at your legs."},
+        {"zh": "这一发连着上一发。", "en": "This shot follows the last."},
+        {"zh": "我念得很慢，为了准。", "en": "I chant slowly, for accuracy."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "平原上亮起一点光。", "en": "A point of light rises on the plain."},
+        {"zh": "我先念了一句，然后现身。", "en": "I speak a line first, then appear."},
+        {"zh": "杖尖的光在草丛里晃。", "en": "The staff's glow sways in the grass."},
+        {"zh": "我从远处的烟里走出来。", "en": "I walk out of the distant smoke."},
+        {"zh": "你听见低低的念诵声。", "en": "You hear a low chanting."},
+        {"zh": "我站在平原中间，袍子垂着。", "en": "I stand mid-plain, robe hanging."},
+        {"zh": "我把杖插进土里，站直了。", "en": "I plant the staff and straighten."},
+        {"zh": "风把草压低，我就在那里。", "en": "The wind flattens the grass, and there I am."},
+        {"zh": "我从袍子里抽出手来。", "en": "I draw my hands from my robe."},
+        {"zh": "这一带的光线偏了一点。", "en": "The light here shifts a little."},
+        {"zh": "我抬起帽子下的眼睛。", "en": "I raise my eyes under the hat."},
+        {"zh": "我一步跨出草丛。", "en": "I step out of the grass."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烧到袍子，我拍了两下。", "en": "Fire catches my robe and I swat it."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔下坡，杖滚了出去。", "en": "I fall down the slope and my staff rolls away."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进喉咙，我念不下去了。", "en": "Water fills my throat and the chant dies."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把杖都震歪了。", "en": "The blast knocks my staff askew."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭穿了我的袍子，我转了个圈。", "en": "An arrow through my robe spins me around."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "对方的法术压过我，我哑了一下。", "en": "Their magic overpowers mine and I go mute."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "念咒太耗力气，我站不稳了。", "en": "Chanting drains me, and I cannot stand steady."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈下来，我的杖亮得刺眼。", "en": "Lightning strikes and my staff glares."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空吸我，咒文散在空中。", "en": "The void pulls and my words scatter in air."}
+      ]
+    }
+  }
+}

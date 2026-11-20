@@ -1,0 +1,278 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "张开巨翼向前滑行", "en": "Spread wings and glide forward"},
+        {"zh": "用龙爪在地上划出痕迹", "en": "Scrape claws on the ground"},
+        {"zh": "尾部扫过地面激起尘土", "en": "Swish tail to stir up dust"},
+        {"zh": "低吼声震动地面", "en": "Rumble shakes the ground"},
+        {"zh": "口中喷出火焰照亮道路", "en": "Breath fire to light the way"},
+        {"zh": "地面留下深浅不一的爪痕", "en": "Claw marks appear on the ground"},
+        {"zh": "用龙牙轻触地面寻找食物", "en": "Taste the ground with fangs"},
+        {"zh": "从口中发出低沉的咆哮声", "en": "Loud growl from mouth"},
+        {"zh": "缓缓移动，目光锐利", "en": "Move slowly, eyes sharp"},
+        {"zh": "挥动翅膀，加速前行", "en": "Wing flap, speed up"},
+        {"zh": "低伏身体，让骑手坐稳", "en": "I lower my body so the rider sits steady."},
+        {"zh": "四爪交替踏过骨荒地", "en": "Four claws trade off across the bone waste."},
+        {"zh": "尾尖在地上划出路标", "en": "My tail tip scores a trail marker in the dirt."},
+        {"zh": "巨眼左右扫过地面", "en": "My great eye sweeps the ground left and right."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "眼睛闪烁着蓝光", "en": "Eyes glow with blue light"},
+        {"zh": "背上的鞍还空着，等人骑。", "en": "The saddle on my back is still empty."},
+        {"zh": "巨眼半闭，牙露在外面。", "en": "My great eye half closed, teeth showing."},
+        {"zh": "闭目养神，享受宁静", "en": "Close eyes, enjoy peace"},
+        {"zh": "轻轻摆动尾巴放松", "en": "Tail sways, relax"},
+        {"zh": "目光警惕地环视四周", "en": "Eyes scan the surroundings"},
+        {"zh": "咀嚼时发出轻微声音", "en": "Masticate quietly"},
+        {"zh": "在原地踱步，思考", "en": "Pace, think"},
+        {"zh": "一个哈欠，震得碎石滚。", "en": "One yawn sends gravel rolling."},
+        {"zh": "我趴下，让鞍带松一松。", "en": "I lie down and loosen the saddle strap."},
+        {"zh": "眼睑半合，仍盯着前方", "en": "Lids half shut, still watching ahead."},
+        {"zh": "把下巴搁在爪背上", "en": "Resting my chin on my forepaw."},
+        {"zh": "鼻孔喷出一小股热气", "en": "A small puff of hot breath from my nostrils."},
+        {"zh": "背脊起伏，等人上来", "en": "My back rises and falls, waiting for a rider."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "注意到玩家，张开双翼", "en": "See player, spread wings"},
+        {"zh": "盯着玩家，眼中闪烁蓝光", "en": "Stare at player, eyes glow"},
+        {"zh": "朝向玩家，喷出蓝色火焰", "en": "Turn to player, breath blue fire"},
+        {"zh": "用龙爪指向玩家", "en": "Point claw at player"},
+        {"zh": "低吼声充满威胁", "en": "Low rumble, threatening"},
+        {"zh": "张开大嘴，准备攻击", "en": "Open mouth, ready to attack"},
+        {"zh": "飞向玩家，准备降落", "en": "Fly toward player, prepare to land"},
+        {"zh": "警惕地观察玩家的动作", "en": "Carefully observe player"},
+        {"zh": "靠近玩家，准备互动", "en": "Approach player, ready to interact"},
+        {"zh": "把大眼凑到你面前", "en": "I bring my big eye right up to you."},
+        {"zh": "低头嗅你的鞋底", "en": "I lower my head to sniff your boots."},
+        {"zh": "瞳孔收成一条竖线", "en": "My pupil narrows to a slit."},
+        {"zh": "用鼻尖轻顶你的肩", "en": "I nudge your shoulder with my snout."},
+        {"zh": "抬眼确认你是不是骑手", "en": "I look up to see if you are my rider."},
+        {"zh": "喉咙里滚出一声低鸣", "en": "A low rumble rolls in my throat."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶，我的鳞片受伤了！", "en": "Sss, my scales are hurt!"},
+        {"zh": "啊！我的身体被划伤了！", "en": "Ouch! My body got scratched!"},
+        {"zh": "疼！我的翅膀受了伤！", "en": "Ow! My wings are injured!"},
+        {"zh": "嘶嘶，我的尾巴受伤了！", "en": "Sss, my tail is hurt!"},
+        {"zh": "呜呜，我的眼睛受伤了！", "en": "Aaah, my eyes are hurt!"},
+        {"zh": "嘶，我被撞伤了！", "en": "Sss, I got knocked around!"},
+        {"zh": "呜，我的皮肤裂开了！", "en": "Ouch, my skin is cracked!"},
+        {"zh": "嘶嘶，我被割伤了！", "en": "Sss, I got cut!"},
+        {"zh": "呜，我的身体疼！", "en": "Ouch, my body hurts!"},
+        {"zh": "嘶，我被踢伤了！", "en": "Sss, I got kicked!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你散发的光芒让我心动！", "en": "Your light attracts me!"},
+        {"zh": "愿与你共舞光芒！", "en": "Dance with light!"},
+        {"zh": "我的眼睛渴望你的光！", "en": "My eyes hunger for your light!"},
+        {"zh": "那光太亮，我挪不开眼。", "en": "That light is too bright; I can't look away."},
+        {"zh": "我们共享这光辉时刻！", "en": "Share this moment of light!"},
+        {"zh": "你手里的亮东西晃到我了。", "en": "The shiny thing in your hand caught my eye."},
+        {"zh": "和我一起创造光的传说吧！", "en": "Create a legend of light with me!"},
+        {"zh": "让我们在光明中飞翔！", "en": "Fly in the light together!"},
+        {"zh": "我的灵魂被你的光吸引！", "en": "My soul is drawn to your light!"},
+        {"zh": "我愿意成为你的光芒伴侣！", "en": "I want to be your light companion!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你挡住了我的光！", "en": "You block my light!"},
+        {"zh": "快闪开，我需要空间！", "en": "Move! I need space!"},
+        {"zh": "我的光会照亮你的道路！", "en": "My light will guide your path!"},
+        {"zh": "别挡我的路，快让开！", "en": "Move out of my way!"},
+        {"zh": "小心，别挡了我的视线！", "en": "Be careful, don't block my view!"},
+        {"zh": "我的光芒可以穿透一切障碍！", "en": "My light can cut through obstacles!"},
+        {"zh": "让开，给我腾出空间！", "en": "Clear the way for me!"},
+        {"zh": "不要挡住我的视线！", "en": "Don't block my sight!"},
+        {"zh": "快让开，我要前行！", "en": "Move! I need to go!"},
+        {"zh": "让开，我需要自由飞翔！", "en": "Move, I need to fly freely!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地面上也得挑个结实的。", "en": "Even on the ground, I pick a sturdy one."},
+        {"zh": "我的伴侣需要智慧和勇气！", "en": "My mate needs wit and courage!"},
+        {"zh": "只有最勇敢的才能赢得我的心！", "en": "Only the bravest can win my heart!"},
+        {"zh": "我会为我的配偶战斗！", "en": "I will fight for my mate!"},
+        {"zh": "我的伴侣必须强大如我！", "en": "My mate must be as strong as me!"},
+        {"zh": "我的伴侣将共享我的光芒！", "en": "My mate will share my light!"},
+        {"zh": "选择正确的人很重要！", "en": "Choosing the right partner is important!"},
+        {"zh": "我的配偶将与我共舞！", "en": "My mate will dance with me!"},
+        {"zh": "我在地面上等你回应。", "en": "I wait for your answer on the ground."},
+        {"zh": "能驮起我的，才配站我身边。", "en": "Only one who can carry me belongs at my side."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用爪子按住这块骨头。", "en": "I pin this bone under my claw."},
+        {"zh": "地面是我的领地！", "en": "This is my ground!"},
+        {"zh": "跟随我，我带你前行！", "en": "Follow me, I’ll lead the way."},
+        {"zh": "让我的鳞片刮擦你！", "en": "Scrape your skin with my scales."},
+        {"zh": "我的鼻息把碎石吹开。", "en": "My snort blows the gravel aside."},
+        {"zh": "让我的火焰吞噬你！", "en": "Burn with my fire."},
+        {"zh": "地上这块，我的眼睛先看见。", "en": "My eye spots it on the ground first."},
+        {"zh": "我是地面上的霸主！", "en": "I rule the ground."},
+        {"zh": "骑上我的背，我带你飞！", "en": "Mount my back, I’ll fly with you."},
+        {"zh": "地面是我们的舞台！", "en": "The ground is our stage."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鞍带勒紧，我要冲了。", "en": "The saddle strap tightens; I'm charging."},
+        {"zh": "我闻到肉味了，就在前面。", "en": "I smell meat, right ahead."},
+        {"zh": "我的背上空着，谁上来？", "en": "My back is empty. Who climbs on?"},
+        {"zh": "背上有人，我冲得更稳。", "en": "With a rider, my charge is steadier."},
+        {"zh": "你会是我的下一个！", "en": "You’re my next!"},
+        {"zh": "背上坐稳，我这只眼龙跑得快。", "en": "Sit tight. This eyekin runs fast."},
+        {"zh": "让我的视线聚焦你！", "en": "Focus on you."},
+        {"zh": "地面在震，是我在跑。", "en": "The ground shakes; that's me running."},
+        {"zh": "背上的人，抓稳了。", "en": "Rider on my back, hold tight."},
+        {"zh": "我的目光会杀死你！", "en": "My gaze will kill you."},
+        {"zh": "巨眼一下子定住了", "en": "My great eye goes still."},
+        {"zh": "地面传来不属于我的脚步", "en": "Footsteps on the ground are not mine."},
+        {"zh": "鼻子嗅出活物的热气", "en": "My nose finds the heat of something alive."},
+        {"zh": "喉咙里憋住了一口气", "en": "I hold a breath in my throat."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你退到石壁，我还在追。", "en": "You back to the cliff; I'm still coming."},
+        {"zh": "我的火焰将覆盖你！", "en": "My flames will cover you!"},
+        {"zh": "我的爪子把土刨开了。", "en": "My claws tear up the soil."},
+        {"zh": "接受我的审判吧！", "en": "Receive my judgment!"},
+        {"zh": "我的鳞片将会保护我！", "en": "My scales will protect me."},
+        {"zh": "别跑，我的腿比你快。", "en": "Don't run; my legs are faster."},
+        {"zh": "骑在我背上，就别松手。", "en": "Once you're on my back, don't let go."},
+        {"zh": "我的视线将引导你！", "en": "My gaze will guide you."},
+        {"zh": "我的攻击无法躲避！", "en": "My attacks cannot be dodged."},
+        {"zh": "你将品尝我的力量！", "en": "You will taste my power."},
+        {"zh": "压低身子，准备扑出去", "en": "I flatten low, ready to lunge."},
+        {"zh": "眼睛锁定它的胸口", "en": "My eye locks onto its chest."},
+        {"zh": "一步一顿地缩短距离", "en": "I close the gap in halting steps."},
+        {"zh": "尾巴慢慢抬起又落下", "en": "My tail lifts slowly and drops."},
+        {"zh": "我背上备着鞍。", "en": "There's a saddle on my back."},
+        {"zh": "喉咙里的火在发烫", "en": "The fire in my throat runs hot."},
+        {"zh": "爪下的土被按出裂痕", "en": "Cracks spread under my pressed claws."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "骑着我，也照样喷火。", "en": "Ride me, and I still breathe fire."},
+        {"zh": "咆哮警告！", "en": "Roar warning!"},
+        {"zh": "我贴地扑过去，翅膀收起来。", "en": "I hug the ground and pounce, wings folded."},
+        {"zh": "用爪子抓！", "en": "Claw attack!"},
+        {"zh": "吐出熔岩球！", "en": "Spit lava balls!"},
+        {"zh": "挥动翅膀吓人！", "en": "Flap wings to scare!"},
+        {"zh": "发出尖锐叫声！", "en": "Cry sharply!"},
+        {"zh": "巨眼一眨，牙已经合上。", "en": "My great eye blinks as my teeth close."},
+        {"zh": "张开大嘴！", "en": "Open wide!"},
+        {"zh": "用尾巴扫荡！", "en": "Tail swipe!"},
+        {"zh": "前爪拍下，地面一沉", "en": "My forepaw slams; the ground sinks."},
+        {"zh": "低头一顶，把人掀翻", "en": "A low headbutt flips it over."},
+        {"zh": "獠牙咬住它的护甲", "en": "My fangs clamp onto its armor."},
+        {"zh": "巨尾横扫，扫倒一排", "en": "One tail sweep knocks down a row."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从裂缝中冒出！", "en": "Spawn from cracks!"},
+        {"zh": "在岩浆旁出现！", "en": "Spawn near lava!"},
+        {"zh": "从石堆中钻出！", "en": "Emerging from rocks!"},
+        {"zh": "从地下钻出！", "en": "Drilling up from underground!"},
+        {"zh": "在洞穴中现身！", "en": "Cave appearance!"},
+        {"zh": "在地面上漫步！", "en": "Roam on ground!"},
+        {"zh": "在熔岩池中现身！", "en": "Spawn in lava pools!"},
+        {"zh": "从火山中冲出！", "en": "Erupt from volcanoes!"},
+        {"zh": "在热岩层活动！", "en": "Active in hot rock layers!"},
+        {"zh": "在地表徘徊！", "en": "Lurking on surface!"},
+        {"zh": "从骨荒原的裂缝里爬出", "en": "Crawling out of a crack in the bone waste."},
+        {"zh": "血肉平原上睁开一只巨眼", "en": "A giant eye opens on the flesh plains."},
+        {"zh": "基岩的洞底传来爬行声", "en": "Scraping echoes from the hole in bedrock."},
+        {"zh": "我从黑暗里慢慢站起", "en": "I rise slowly out of the dark."},
+        {"zh": "背上的鞍印还在发痒", "en": "The saddle mark on my back still itches."},
+        {"zh": "我把地底的空气吸进肺里", "en": "I draw the deep air into my lungs."},
+        {"zh": "骨堆塌了，我从里面钻出", "en": "The bone pile collapses and I crawl out."},
+        {"zh": "巨眼第一次映出天光", "en": "My great eye catches daylight for the first time."},
+        {"zh": "我抖落鳞片上的骨粉", "en": "I shake the bone dust off my scales."},
+        {"zh": "在血肉平原边缘落脚", "en": "I come to rest at the flesh plains' edge."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶，我的鳞片受伤了，被火烧的滋味可不好受。", "en": "Sss, my scales are hurt! — and the fire makes it worse."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "啊！我被火焰烧伤了！", "en": "Ouch! I got burned by fire!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "呼！我淹水受伤了！", "en": "Ouch! I got injured by water!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "轰！我被爆炸炸伤了！", "en": "Boom! I got injured by an explosion!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "啪！我被投射物击中了！", "en": "Snap! I got hit by a projectile!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶！我被魔法击中了！", "en": "Sss! I got hit by magic!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "呜呜，我饿得不行了！", "en": "Ouch! I'm starving!"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "啊！我被雷劈伤了！", "en": "Ouch! I got struck by lightning!"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶！我掉入了虚空！", "en": "Sss! I fell into the void!"}
+      ]
+    }
+  }
+}

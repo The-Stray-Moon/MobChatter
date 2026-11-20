@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蹒跚前行，骨瘦如柴！", "en": "Shamble with emaciated flesh."},
+        {"zh": "步履艰难，皮包骨头！", "en": "Walk with bony legs."},
+        {"zh": "腐烂躯体拖地行！", "en": "Decaying body drags on the ground."},
+        {"zh": "饥饿驱使我前行！", "en": "Hunger drives me forward."},
+        {"zh": "腐尸慢慢挪动！", "en": "Corpse moves slowly."},
+        {"zh": "僵尸步伐沉重！", "en": "Zombie steps heavy."},
+        {"zh": "腐肉在风中摇曳！", "en": "Decaying flesh sways in the breeze."},
+        {"zh": "腐烂的腿骨作响！", "en": "Rattling bones in the legs."},
+        {"zh": "蹒跚前行，气息奄奄！", "en": "Shambles with weak steps."},
+        {"zh": "腐尸拖着前行！", "en": "Corpse drags forward."},
+        {"zh": "它跑起来腿骨打颤！", "en": "Its leg bones rattle as it runs!"},
+        {"zh": "嘶吼着冲过废墟！", "en": "It charges through the ruins, howling!"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐肉在风中飘动！", "en": "Decaying flesh moves in the wind."},
+        {"zh": "静止不动，腐臭难闻！", "en": "Stands still, stinks."},
+        {"zh": "腐尸懒洋洋地站着！", "en": "Corpse lounges lazily."},
+        {"zh": "腐烂的肢体扭曲！", "en": "Decaying limbs twist."},
+        {"zh": "腐尸静静地等待！", "en": "Corpse waits quietly."},
+        {"zh": "僵尸眼神呆滞！", "en": "Zombie has dull eyes."},
+        {"zh": "腐尸在微风中摇摆！", "en": "Corpse sways in the breeze."},
+        {"zh": "腐肉在风中颤动！", "en": "Decaying flesh trembles."},
+        {"zh": "腐尸呆呆站着！", "en": "Corpse stands dully."},
+        {"zh": "腐尸无声地站立！", "en": "Corpse stands silently."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盯着玩家，目光空洞！", "en": "Stares at player, eyes hollow."},
+        {"zh": "目光死寂，盯着玩家！", "en": "Dead eyes stare at player."},
+        {"zh": "腐尸盯着你，别动！", "en": "Corpse stares at you, don't move."},
+        {"zh": "目光空洞地盯着玩家！", "en": "Empty eyes stare at player."},
+        {"zh": "腐尸的眼睛盯着你！", "en": "Corpse's eyes on you."},
+        {"zh": "盯着玩家，腐臭难闻！", "en": "Stares at player, smells bad."},
+        {"zh": "腐尸盯着你的方向！", "en": "Corpse stares in your direction."},
+        {"zh": "腐尸死死盯着你！", "en": "Corpse fixates on you."},
+        {"zh": "盯着你，腐尸慢慢逼近！", "en": "Stares at you, moves closer."},
+        {"zh": "腐尸盯着你，准备攻击！", "en": "Corpse stares, ready to attack."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "断腿疼！", "en": "Leg broken!"},
+        {"zh": "伤口流血！", "en": "Wound bleeding!"},
+        {"zh": "骨头断裂！", "en": "Bone snapped!"},
+        {"zh": "皮肉伤疼！", "en": "Skin wound hurts!"},
+        {"zh": "血流不止！", "en": "Can't stop bleeding!"},
+        {"zh": "伤痕累累！", "en": "Riddled with wounds!"},
+        {"zh": "小腿折了，我拖着它往前爬。", "en": "My shin breaks; I drag it and keep crawling."},
+        {"zh": "伤口感染！", "en": "Wound infected!"},
+        {"zh": "伤口剧痛！", "en": "Severe pain!"},
+        {"zh": "疼痛难忍！", "en": "Incredible pain!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它盯着你，渗出的血水在腐烂的皮肤上闪烁。", "en": "It stares at you, with blood seeping from its rotting skin."},
+        {"zh": "你闻到了它口中的腐肉气息。", "en": "You smell the stench of rotten meat from its mouth."},
+        {"zh": "它用断肢敲打着地面，似乎在召唤你。", "en": "It bangs its missing limbs on the ground, seemingly summoning you."},
+        {"zh": "它发出嘶嘶声，仿佛喉咙中有腐肉在蠕动。", "en": "It hisses, as if the rotting flesh in its throat is moving."},
+        {"zh": "它的眼睛发出绿光，盯着你，等待机会。", "en": "Its eyes glow green, staring at you, waiting for an opportunity."},
+        {"zh": "它的皮肤在阳光下显得更加苍白，仿佛快要腐烂。", "en": "Its skin appears even paler under the sunlight, as if it is about to rot."},
+        {"zh": "你看到了它嘴边的脓包，里面似乎藏有病菌。", "en": "You see a pus-filled bump at its mouth, as if it holds a pathogen."},
+        {"zh": "它的声音空洞而嘶哑，仿佛从死神那里借来。", "en": "Its voice is hollow and hoarse, as if borrowed from death itself."},
+        {"zh": "它的目光空洞，却充满了对生命的渴望。", "en": "Its vacant eyes are filled with a desperate desire for life."},
+        {"zh": "它用断腿尝试敲击地面，希望吸引同伴。", "en": "It bangs its missing legs on the ground, hoping to attract its peers."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上了它，它转头看着你，愤怒地嘶吼。", "en": "You collide with it, and it turns to you with an angry growl."},
+        {"zh": "它的皮肉被撞得裂开，露出里面的肉。", "en": "Its flesh is torn open, revealing the meat inside."},
+        {"zh": "它的身体撞得摇晃，像是要散架一样。", "en": "Its body shakes from the impact, as if it's about to fall apart."},
+        {"zh": "它踉跄着倒下，流着血的伤口渗出鲜血。", "en": "It staggers to the ground, blood oozing from its wounds."},
+        {"zh": "你撞到了它的断腿，它痛苦地嘶叫。", "en": "You hit its missing leg, and it screams in pain."},
+        {"zh": "它踉跄地倒退，试图避开你的撞击。", "en": "It staggers back, trying to avoid your impact."},
+        {"zh": "它的皮肉在碰撞中破损，流着脓血。", "en": "Its flesh is torn in the collision, oozing pus and blood."},
+        {"zh": "它的嘶吼声中夹杂着痛苦和愤怒。", "en": "Its growl is a mix of pain and anger."},
+        {"zh": "你撞到了它的肚子，它痛苦地呻吟。", "en": "You hit its belly, and it groans in pain."},
+        {"zh": "它倒地挣扎，痛苦地嘶吼着。", "en": "It struggles on the ground, screaming in pain."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它看着同伴，眼中充满了爱慕。", "en": "It looks at its mate, eyes filled with desire."},
+        {"zh": "它走近同伴，试图触碰它。", "en": "It approaches its mate, trying to touch it."},
+        {"zh": "它的嘶吼中透露出对繁殖的渴望。", "en": "Its growl reveals a desire for reproduction."},
+        {"zh": "它用肢体语言邀请伴侣，希望得到回应。", "en": "It uses body language to invite its mate, hoping for a response."},
+        {"zh": "它的目光紧盯着伴侣，等待着回应。", "en": "Its eyes are fixed on its mate, waiting for a response."},
+        {"zh": "它轻轻触碰伴侣的皮肤，表达爱意。", "en": "It gently touches its mate’s skin, expressing its affection."},
+        {"zh": "它发出嘶嘶声，希望引起伴侣注意。", "en": "It hisses, hoping to catch its mate’s attention."},
+        {"zh": "它试图靠近伴侣，却被推开。", "en": "It tries to get close to its mate, but is pushed away."},
+        {"zh": "它盯着伴侣，眼神中充满渴望。", "en": "It stares at its mate, eyes filled with desire."},
+        {"zh": "它用触碰表达亲近，希望得到爱的回应。", "en": "It uses touch to express closeness, hoping for an affectionate response."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐肉裹身，饥肠辘辘！", "en": "Fleshed out, ravenous!"},
+        {"zh": "地上一袋罐头，先捡起来。", "en": "A bag of cans on the ground — mine first."},
+        {"zh": "我要吃肉！", "en": "I need meat!"},
+        {"zh": "腐烂的腿，却无比有力！", "en": "Decayed leg, yet incredibly strong!"},
+        {"zh": "咬一口，就成同类！", "en": "Bite and become one!"},
+        {"zh": "腐臭气息，弥漫四方！", "en": "Rotten stench, everywhere!"},
+        {"zh": "饥饿中的猎手！", "en": "Hunter of hunger!"},
+        {"zh": "腐肉吸引我！", "en": "Flesh draws me!"},
+        {"zh": "流血，才能存活！", "en": "Bleed, to live!"},
+        {"zh": "腐烂是它的武器！", "en": "Decay is its weapon!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "喉咙里挤出声音，我盯上你了。", "en": "A sound tears from my throat. You're mine."},
+        {"zh": "你踩过的碎砖还在响。", "en": "The rubble you stepped on still rattles."},
+        {"zh": "它在颤抖！", "en": "It trembles!"},
+        {"zh": "疼痛在蔓延！", "en": "Pain spreads!"},
+        {"zh": "血液的味道！", "en": "Blood’s taste!"},
+        {"zh": "猎物痛苦挣扎！", "en": "Prey struggles in pain!"},
+        {"zh": "它闻到了恐惧！", "en": "It smells fear!"},
+        {"zh": "抓住机会！", "en": "Seize the moment!"},
+        {"zh": "撕咬，撕咬！", "en": "Teeth, bite!"},
+        {"zh": "猎物即将崩溃！", "en": "Prey is breaking down!"},
+        {"zh": "血味，就在前面！", "en": "Blood smell, straight ahead!"},
+        {"zh": "它已经扑过来了！", "en": "It is already lunging at you!"},
+        {"zh": "跑得比你还快！", "en": "It runs faster than you!"},
+        {"zh": "抓破你的小腿！", "en": "It'll tear your calf open!"},
+        {"zh": "咬上一口就完了！", "en": "One bite and it's over!"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "疼痛的嚎叫！", "en": "Painful howl!"},
+        {"zh": "它在呼唤同类！", "en": "It calls for comrades!"},
+        {"zh": "它在寻找猎物！", "en": "It hunts for prey!"},
+        {"zh": "腐烂的呼吸声！", "en": "Rotten breath!"},
+        {"zh": "腐肉的呼唤！", "en": "Flesh’s call!"},
+        {"zh": "它在徘徊！", "en": "It wanders!"},
+        {"zh": "腐臭的气息！", "en": "Rotten scent!"},
+        {"zh": "疼痛让它的行动迟缓！", "en": "Pain slows it down!"},
+        {"zh": "它的叫声在回响！", "en": "Its cry echoes!"},
+        {"zh": "腐烂的爪子！", "en": "Decaying claws!"},
+        {"zh": "它低着头冲过来！", "en": "It charges with its head down!"},
+        {"zh": "嘶吼卡在喉咙里！", "en": "The howl sticks in its throat!"},
+        {"zh": "断腿拖出长长的痕！", "en": "Its broken leg drags a long mark!"},
+        {"zh": "它闻到了你的伤口！", "en": "It smells your wound!"},
+        {"zh": "牙齿咬得咯咯响！", "en": "Its teeth grind and clack!"},
+        {"zh": "它绕到你侧面了！", "en": "It's circling to your flank!"},
+        {"zh": "这一扑没有收力！", "en": "This lunge holds nothing back!"},
+        {"zh": "它不打算停下来了！", "en": "It has no intention of stopping!"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我咬住你的肩膀，牙陷进肉里。", "en": "I bite your shoulder; my teeth sink into flesh."},
+        {"zh": "痛啊！放开我！", "en": "Ouch! Let me go!"},
+        {"zh": "嗷呜，我的腿断了！", "en": "Ahhh, my leg is broken!"},
+        {"zh": "吃点血肉吧！", "en": "Taste some flesh!"},
+        {"zh": "我需要更多鲜血！", "en": "I need more blood!"},
+        {"zh": "嘶嘶，你的血真甜！", "en": "Sssss, your blood is sweet!"},
+        {"zh": "我要去啃骨头！", "en": "I'm gonna chew on bones!"},
+        {"zh": "呜呜，痛死我了！", "en": "Ahh, it hurts!"},
+        {"zh": "快来帮我！我快死啦！", "en": "Help me! I'm dying!"},
+        {"zh": "你身上有伤口！", "en": "You have an open wound!"},
+        {"zh": "一口咬在你的肩上！", "en": "It bites into your shoulder!"},
+        {"zh": "指甲刮开三道口子！", "en": "Its nails open three gashes!"},
+        {"zh": "它扑倒你压上来！", "en": "It knocks you down and pins you!"},
+        {"zh": "撕咬声混着喘息！", "en": "Biting sounds mix with panting!"},
+        {"zh": "断腿也在踢你！", "en": "Even its broken leg kicks at you!"},
+        {"zh": "伤口开始发黑！", "en": "The wound is turning black!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶，又有食物了！", "en": "Sssss, more food!"},
+        {"zh": "这里有人类！", "en": "Humans here!"},
+        {"zh": "嘶嘶，我要追！", "en": "Sssss, I'm gonna chase!"},
+        {"zh": "嗷呜，我要进食！", "en": "Ahhh, time to feed!"},
+        {"zh": "嘶嘶，我要吃掉他们！", "en": "Sssss, I'm gonna eat them!"},
+        {"zh": "这片废墟够吃一阵。", "en": "This ruin will feed us a while."},
+        {"zh": "嘶嘶，他们快要死了！", "en": "Sssss, they're dying!"},
+        {"zh": "嗷呜，我的伤口在流血！", "en": "Ahhh, my wound is bleeding!"},
+        {"zh": "嘶嘶，我需要血！", "en": "Sssss, I need blood!"},
+        {"zh": "嗷呜，我要变成不死者！", "en": "Ahhh, I'm becoming a zombie!"},
+        {"zh": "废墟后冲出一个影子！", "en": "A shape bursts out from behind the rubble!"},
+        {"zh": "它从血泊里爬起来！", "en": "It rises out of a pool of blood!"},
+        {"zh": "破门被撞开了！", "en": "The broken door bursts open!"},
+        {"zh": "嘶吼从街角传来！", "en": "A howl comes from the street corner!"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烧到烂肉，我闻到自己焦了。", "en": "Fire catches my rotten flesh; I smell myself burning."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔断腿了！", "en": "Leg broken from fall!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "溺水窒息！", "en": "Drowned and suffocated!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸伤！", "en": "Explosion wound!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭伤入骨！", "en": "Arrow pierced bone!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法伤痕！", "en": "Wound from magic!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得快死！", "en": "Starving to death!"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击重伤！", "en": "Struck by lightning!"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空！", "en": "Fell into void!"}
+      ]
+    }
+  }
+}

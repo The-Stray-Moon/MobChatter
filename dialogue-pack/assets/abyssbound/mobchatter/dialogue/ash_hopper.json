@@ -1,0 +1,256 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "灰跳虫在余烬上蹦着走", "en": "The ash hopper bounces across the embers."},
+        {"zh": "每一下都带起一小片灰", "en": "Each hop kicks up a little ash."},
+        {"zh": "它的后腿比身体长很多", "en": "Its hind legs are far longer than its body."},
+        {"zh": "它一跳能出去好几格", "en": "One hop carries it several blocks."},
+        {"zh": "它落在石头上，立刻再跳", "en": "It lands on a stone and springs again."},
+        {"zh": "它绕开一滩熔岩", "en": "It arcs around a pool of lava."},
+        {"zh": "它的翅膀在跳时张开", "en": "Its wings spread mid-hop."},
+        {"zh": "它走得不快时像在爬", "en": "Walking, it looks almost like crawling."},
+        {"zh": "它沿着岩壁往下跳", "en": "It works its way down a rock face."},
+        {"zh": "火星在它身后拖了一小段", "en": "Sparks trail briefly behind it."},
+        {"zh": "它停下来，后腿还压着", "en": "It stops with its hind legs still loaded."},
+        {"zh": "它一下窜到你的侧面", "en": "It springs to your flank."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "灰跳虫伏在石头上", "en": "The ash hopper rests on a stone."},
+        {"zh": "它的身体和灰一样颜色", "en": "Its body is the colour of ash."},
+        {"zh": "它把后腿收在身下", "en": "Its hind legs tuck beneath it."},
+        {"zh": "它的触角轻轻摆", "en": "Its antennae sway."},
+        {"zh": "它在石面上磨了磨口器", "en": "It works its mouthparts against the stone."},
+        {"zh": "它的翅鞘微微张开又合上", "en": "Its wing cases crack open and shut."},
+        {"zh": "灰落在它背上，它不动", "en": "Ash settles on it; it does not stir."},
+        {"zh": "它忽然抖了一下", "en": "It shudders once."},
+        {"zh": "它的眼睛像两点炭", "en": "Its eyes are like two coals."},
+        {"zh": "它把身体压低贴住石面", "en": "It presses flat to the stone."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "灰跳虫抬起前身看你", "en": "The ash hopper rears up to look at you."},
+        {"zh": "它的触角朝你伸过来", "en": "Its antennae reach toward you."},
+        {"zh": "它把后腿慢慢压紧", "en": "Its hind legs load slowly."},
+        {"zh": "它侧跳半步，换个角度", "en": "It side-hops half a step."},
+        {"zh": "它似乎在估你的高度", "en": "It seems to measure your height."},
+        {"zh": "它的翅鞘张了张", "en": "Its wing cases lift."},
+        {"zh": "它对你吐了一小口热气", "en": "It puffs hot breath at you."},
+        {"zh": "它把身体转向你", "en": "It turns its body to you."},
+        {"zh": "它忽然又安静了", "en": "Then it goes quiet again."},
+        {"zh": "它盯住你的脚", "en": "It fixes on your feet."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "灰跳虫被撞得翻倒", "en": "The ash hopper is knocked over."},
+        {"zh": "它忙乱地翻身", "en": "It rights itself in a scramble."},
+        {"zh": "硬壳上多了一道白痕", "en": "A pale line shows on its shell."},
+        {"zh": "它退了两格，压紧后腿", "en": "It backs two blocks and loads up."},
+        {"zh": "它的触角卷起来", "en": "Its antennae curl."},
+        {"zh": "它抖了抖翅鞘", "en": "It shakes its wing cases."},
+        {"zh": "它跳开时歪了方向", "en": "Its leap goes off line."},
+        {"zh": "它落地后停了一会", "en": "It stays still after landing."},
+        {"zh": "它的呼吸快得发响", "en": "Its breathing rasps quickly."},
+        {"zh": "它还是朝你这边", "en": "It still faces your way."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "灰跳虫朝你手上的东西跳来", "en": "The ash hopper hops toward what you hold."},
+        {"zh": "它落地时差点撞到你", "en": "It lands almost against you."},
+        {"zh": "它用口器试着咬", "en": "It tests a bite with its mouthparts."},
+        {"zh": "它把东西拖到石头上", "en": "It drags the item onto a stone."},
+        {"zh": "它吸食时身体一鼓", "en": "Its body swells as it feeds."},
+        {"zh": "它吃完抬头再找", "en": "Done, it lifts its head to search."},
+        {"zh": "它对不合口的东西踢开", "en": "What it rejects, it kicks away."},
+        {"zh": "它绕着你又蹦了一圈", "en": "It bounces a circle around you."},
+        {"zh": "它停下来等更多", "en": "It stops, waiting for more."},
+        {"zh": "它的翅膀抖了两下", "en": "Its wings quiver twice."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "灰跳虫撞在你腿上弹开", "en": "The ash hopper bounces off your leg."},
+        {"zh": "它落地时翻了个身", "en": "It lands and flips over."},
+        {"zh": "它立刻翻正，后腿撑起", "en": "It rights itself and loads its legs."},
+        {"zh": "它退开一格，重新压腿", "en": "It backs a block and reloads."},
+        {"zh": "它的硬壳撞出清脆一响", "en": "Its shell gives a sharp knock."},
+        {"zh": "它在你的鞋面上蹬了一下", "en": "It kicks off your shoe."},
+        {"zh": "灰被撞得扬起来一片", "en": "A puff of ash rises."},
+        {"zh": "它绕开你，落在石头上", "en": "It arcs past you onto a stone."},
+        {"zh": "它对你更警觉了", "en": "It is warier of you now."},
+        {"zh": "但它没有走远", "en": "But it does not go far."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "两只灰跳虫一起蹦", "en": "Two ash hoppers bounce together."},
+        {"zh": "它们落点几乎重合", "en": "They land almost on the same spot."},
+        {"zh": "它们的触角互相碰", "en": "Their antennae touch."},
+        {"zh": "它们靠在一起摩擦翅鞘", "en": "They rub their wing cases together."},
+        {"zh": "一阵沙沙声传出来", "en": "A rasping sound comes out."},
+        {"zh": "灰在它们之间扬起", "en": "Ash rises between them."},
+        {"zh": "它们同时跳起，又一起落下", "en": "They leap and land as one."},
+        {"zh": "它们把身体贴在一起", "en": "They press body to body."},
+        {"zh": "它们的呼吸让灰微微动", "en": "Their breathing stirs the ash."},
+        {"zh": "这一小块石台归它们了", "en": "This little ledge is theirs now."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "灰跳虫用口器夹起食物", "en": "The ash hopper takes the food in its mouthparts."},
+        {"zh": "它把东西拖到石缝下", "en": "It drags it under a rock lip."},
+        {"zh": "它咬了一小口，慢慢嚼", "en": "It bites and chews slowly."},
+        {"zh": "它把不合口的踢到一边", "en": "What it dislikes, it kicks aside."},
+        {"zh": "它抱着东西蹦回原处", "en": "It bounces back with the prize."},
+        {"zh": "灰粘在它的食物上", "en": "Ash sticks to the food."},
+        {"zh": "它低头把灰吹开", "en": "It puffs the ash away."},
+        {"zh": "它再咬一口，很满意", "en": "Another bite, and it seems pleased."},
+        {"zh": "剩下的被它往身下压", "en": "What is left gets pressed beneath it."},
+        {"zh": "它抬头，触角朝你动了动", "en": "It lifts its head and its antennae stir."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "灰跳虫的身体绷住了", "en": "The ash hopper's body pulls taut."},
+        {"zh": "它的后腿压到最低", "en": "Its hind legs load to the limit."},
+        {"zh": "它在石头上转了个向东", "en": "It turns to face you."},
+        {"zh": "它发出一阵短促的沙响", "en": "A short rasp comes from it."},
+        {"zh": "它的翅鞘张开了", "en": "Its wing cases open."},
+        {"zh": "它朝你跳了一下，没落地", "en": "It springs at you and lands short."},
+        {"zh": "它落定后立刻再压腿", "en": "It loads again the moment it lands."},
+        {"zh": "它的眼睛亮得更红了", "en": "Its eyes burn redder."},
+        {"zh": "它开始绕着你跳", "en": "It starts hopping around you."},
+        {"zh": "它已经找好了角度", "en": "It has found its angle."},
+        {"zh": "它跳起时带着火星", "en": "Sparks come off it as it leaps."},
+        {"zh": "它不再远远看着了", "en": "It stops watching from a distance."},
+        {"zh": "它把身体转向你的膝", "en": "It aims at your knee."},
+        {"zh": "它的触角一直指着你", "en": "Its antennae point at you."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "灰跳虫在你周围蹦来蹦去", "en": "The ash hopper bounces around you."},
+        {"zh": "它每次落点都更近", "en": "Each landing is nearer."},
+        {"zh": "它试着从上方下来", "en": "It tries coming from above."},
+        {"zh": "它落在你背后的石头上", "en": "It lands on a stone behind you."},
+        {"zh": "它再跳一次，撞到你肩上", "en": "Another hop, and it hits your shoulder."},
+        {"zh": "它退开，转了个大圈", "en": "It retreats and makes a wide loop."},
+        {"zh": "它的后腿一直在压着", "en": "Its hind legs never unload."},
+        {"zh": "它的触角朝你抖", "en": "Its antennae shiver at you."},
+        {"zh": "它在等你的手抬起来", "en": "It waits for your hand to rise."},
+        {"zh": "它把身体低低地贴地", "en": "It keeps its body low."},
+        {"zh": "它跳起时翅膀擦出声音", "en": "Its wings rasp as it leaps."},
+        {"zh": "它落地的位置越来越刁", "en": "Its landing spots get trickier."},
+        {"zh": "它试着从高处砸下来", "en": "It tries dropping from above."},
+        {"zh": "它的影子一下盖住你", "en": "Its shadow covers you for a moment."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "灰跳虫跳起来撞你", "en": "The ash hopper leaps and strikes."},
+        {"zh": "它的后腿蹬在你手上", "en": "Its hind legs kick off your hand."},
+        {"zh": "它的口器夹住你的袖口", "en": "Its mouthparts grip your cuff."},
+        {"zh": "它撞在你的膝上，很硬", "en": "It strikes your knee, hard."},
+        {"zh": "它落地后立刻再跳", "en": "It lands and leaps straight back in."},
+        {"zh": "它的翅膀扇出一片灰", "en": "Its wings throw a cloud of ash."},
+        {"zh": "灰迷了你的眼", "en": "The ash gets in your eyes."},
+        {"zh": "它从侧面撞你的腰", "en": "It hits your waist from the side."},
+        {"zh": "它退到石头上歇了一下", "en": "It retreats to a stone to rest."},
+        {"zh": "它的硬壳刮过你的护甲", "en": "Its shell scrapes your armour."},
+        {"zh": "它跳得太近，撞成一团", "en": "It leaps too close and tumbles."},
+        {"zh": "它爬起来还在往前", "en": "It gets up still coming."},
+        {"zh": "它跳得一次比一次急", "en": "Its hops come faster each time."},
+        {"zh": "它最后落在你脚边不动", "en": "It ends up still at your feet."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "灰堆里鼓起一小块", "en": "A small mound rises in the ash."},
+        {"zh": "灰跳虫从灰里钻出来", "en": "The ash hopper pushes out of the ash."},
+        {"zh": "它抖掉身上的灰", "en": "It shakes the ash off."},
+        {"zh": "它的翅鞘在热气里张开", "en": "Its wing cases open in the heat."},
+        {"zh": "它试着跳了一下", "en": "It tries one hop."},
+        {"zh": "这一跳落点分毫不差", "en": "This hop lands exactly right."},
+        {"zh": "它朝这边又跳了一次", "en": "It hops again, this way."},
+        {"zh": "火星被它带起来", "en": "Sparks rise with it."},
+        {"zh": "它停在石头上，触角探路", "en": "It stops on a stone, antennae feeling."},
+        {"zh": "它的眼睛在灰里发亮", "en": "Its eyes glow through the ash."},
+        {"zh": "它把后腿压紧了", "en": "It loads its legs."},
+        {"zh": "它盯着你，准备下一次跳", "en": "It watches, ready for the next hop."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它被烫得直跳，壳都变了色", "en": "Heat sets it bouncing, its shell discoloured."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "落地时它的腿折了一下", "en": "It lands and a leg folds under it."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水一浇，它僵住不动了", "en": "Water hits and it locks up."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把它抛得很远", "en": "The blast throws it far."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭钉穿了翅鞘", "en": "An arrow punches through a wing case."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "怪力让它六足乱蹬", "en": "Odd force sets all six legs kicking."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得跳不远，落地就趴着", "en": "Starved, it cannot hop far and flops on landing."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击让它缩成一团", "en": "Lightning curls it into a ball."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空吸它，它跳起来也逃不掉", "en": "The void pulls; no hop gets it free."}
+      ]
+    }
+  }
+}

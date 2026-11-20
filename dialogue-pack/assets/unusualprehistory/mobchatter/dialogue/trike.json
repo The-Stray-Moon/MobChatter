@@ -1,0 +1,279 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "角闪掠地声", "en": "Rumble as it walks"},
+        {"zh": "银杏果轻嚼声", "en": "Chew on a Gingko nut"},
+        {"zh": "挥角轻触地", "en": "Swing its horn, touching the ground"},
+        {"zh": "低吼向前行", "en": "Rumble as it moves"},
+        {"zh": "砂砾中慢移步", "en": "Slowly shuffle through the sand"},
+        {"zh": "蹄踏地面响", "en": "Hooves tap the ground"},
+        {"zh": "轻触草丛走", "en": "Lightly tread the grass"},
+        {"zh": "步履稳健行", "en": "Gait is steady"},
+        {"zh": "角撞地声响", "en": "Crest rumbles on the ground"},
+        {"zh": "缓慢转身走", "en": "Slowly turn while walking"},
+        {"zh": "三只角先探进灌木", "en": "Three horns push into the shrubs first."},
+        {"zh": "沉重的躯体碾过蕨丛", "en": "Its bulk crushes through the ferns."},
+        {"zh": "脖子上的颈盾晃着", "en": "The neck frill sways as it walks."},
+        {"zh": "蹄子陷进河岸的软泥", "en": "Its hooves sink into riverbank mud."},
+        {"zh": "尾巴扫倒一片矮草", "en": "Its tail sweeps a patch of grass flat."},
+        {"zh": "边走边嚼路旁的嫩叶", "en": "It walks and chews roadside shoots."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "悠闲地吃银杏", "en": "Chew Gingko calmly"},
+        {"zh": "低头咀嚼银杏", "en": "Chewing Gingko nuts"},
+        {"zh": "缓缓转动头颅", "en": "Slowly turning its head"},
+        {"zh": "轻晃角触草", "en": "Swaying its horn gently"},
+        {"zh": "远处雷声滚过，我抬头听着。", "en": "Thunder rolls far off; I lift my head to listen."},
+        {"zh": "温和地低头", "en": "Lowering its head gently"},
+        {"zh": "慢慢吞咽食物", "en": "Slowly swallowing"},
+        {"zh": "我站在蕨丛里，尾巴轻轻扫地。", "en": "I stand in the ferns, tail sweeping the ground."},
+        {"zh": "轻触地面嗅探", "en": "Sniffing the ground gently"},
+        {"zh": "咀嚼片刻停顿", "en": "Chewing and pausing"},
+        {"zh": "把角抵在树干上蹭", "en": "It rubs its horns against a trunk."},
+        {"zh": "尾巴慢慢拍打身侧", "en": "Its tail taps slowly at its flank."},
+        {"zh": "鼻孔喷出白气", "en": "Its nostrils puff white breath."},
+        {"zh": "低头啃食低处的蕨", "en": "It lowers its head to graze ferns."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我歪了歪头盾，眼睛没离开你。", "en": "I tilt my frill, eyes never leaving you."},
+        {"zh": "我的角刚长齐，正想试试。", "en": "My horns just grew in; I want to try them."},
+        {"zh": "缓慢转身望向你", "en": "Slowly turning towards you"},
+        {"zh": "我晃晃头盾，警告你别再靠近。", "en": "I shake my frill: come no closer."},
+        {"zh": "警觉地环顾四周", "en": "Alertly scanning"},
+        {"zh": "目光如炬注视你", "en": "Intense gaze fixed on you"},
+        {"zh": "缓缓转动脖子", "en": "Slowly turning its neck"},
+        {"zh": "鼻尖喷出白气，我闻着你的味道。", "en": "White breath puffs from my snout as I scent you."},
+        {"zh": "目光中流露好奇", "en": "Curious gaze"},
+        {"zh": "角盾挡在身前，我打量你的个头。", "en": "Frill forward, I size you up."},
+        {"zh": "扬起颈盾挡在面前", "en": "It lifts its frill like a shield."},
+        {"zh": "一只眼睛盯着你不动", "en": "One eye holds on you, unblinking."},
+        {"zh": "蹄子在地上刨了两下", "en": "It paws the ground twice."},
+        {"zh": "喉咙里滚出低沉的声音", "en": "A low sound rolls from its throat."},
+        {"zh": "把角尖对准你的方向", "en": "It points its horn tips at you."},
+        {"zh": "它歪头判断你的大小", "en": "It tilts its head, judging your size."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "角裂了，快找棵树！", "en": "My horn's broken, find a tree!"},
+        {"zh": "骨头疼，快给我吃银杏果！", "en": "My bones hurt, give me gingko nuts!"},
+        {"zh": "角上还留着霸王龙的牙印。", "en": "T. rex tooth marks still on my frill."},
+        {"zh": "尾巴断了，我要休息！", "en": "My tail's broken, I need rest!"},
+        {"zh": "翅膀受伤了，慢慢来！", "en": "My wings are hurt, take it easy!"},
+        {"zh": "摔伤了，等我恢复！", "en": "I'm injured, wait for me to recover!"},
+        {"zh": "被雷击了，好难受！", "en": "I was struck by lightning, that hurt!"},
+        {"zh": "饿了，给我银杏果！", "en": "I'm hungry, give me gingko nuts!"},
+        {"zh": "被猛兽抓伤了，很疼！", "en": "I was mauled by a predator, it hurts!"},
+        {"zh": "累坏了，休息一下吧！", "en": "I'm exhausted, let me rest!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闻到银杏果，我馋得直摇头。", "en": "Silver ginkgo nut, my mouth waters."},
+        {"zh": "你这小东西，银杏果给老夫尝尝。", "en": "How about some silver ginkgo nuts, little one?"},
+        {"zh": "银杏果是我最爱的食物。", "en": "Silver ginkgo nuts are my favorite."},
+        {"zh": "这些食物我从不吃，银杏果例外。", "en": "I usually don’t eat this, but silver ginkgo nuts are an exception."},
+        {"zh": "尝一口银杏果，我就会变温和。", "en": "A taste of silver ginkgo nut calms me."},
+        {"zh": "我不喜欢被轻易驯服。", "en": "I don’t like to be easily tamed."},
+        {"zh": "你敢喂我银杏果，我就变友善。", "en": "Feed me silver ginkgo nuts, and I’ll be friendly."},
+        {"zh": "我不吃其他食物，只吃银杏果。", "en": "I only eat silver ginkgo nuts."},
+        {"zh": "银杏果是我唯一的诱饵。", "en": "Silver ginkgo nuts are my only lure."},
+        {"zh": "驯服我，你得用银杏果。", "en": "Tame me with silver ginkgo nuts."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用角撞你，你就会退缩。", "en": "I’ll ram you, and you’ll back off."},
+        {"zh": "我的角比你想象的更坚硬。", "en": "My horns are harder than you think."},
+        {"zh": "用角撞你，你绝对受不住。", "en": "Ram you, and you’ll be hurt."},
+        {"zh": "我的角能撞飞你。", "en": "My horns can knock you away."},
+        {"zh": "我用角碾压，你无处可逃。", "en": "I’ll crush you with my horns."},
+        {"zh": "用角撞你，你只能倒下。", "en": "Ram you, and you’ll fall."},
+        {"zh": "我的角可以撞倒霸王龙。", "en": "My horns can knock down T-Rex."},
+        {"zh": "用角撞击，你不是对手。", "en": "Ram you, and you’re no match."},
+        {"zh": "撞你，你只能被压制。", "en": "Ram you, and you’ll be subdued."},
+        {"zh": "我的角能撞翻任何生物。", "en": "My horns can knock down any creature."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "寻找伴侣，是我一生的追求。", "en": "Finding a mate is my lifelong goal."},
+        {"zh": "我选择伴侣，看中的是力量。", "en": "I choose my mate based on strength."},
+        {"zh": "银杏果摆好了，谁来跟我转圈？", "en": "Ginkgo fruit laid out — who'll circle with me?"},
+        {"zh": "与强者为伴，是最佳选择。", "en": "Choosing the strongest is best."},
+        {"zh": "寻找伴侣，才能保护族群。", "en": "Finding a mate protects the herd."},
+        {"zh": "与强者结合，才能繁衍。", "en": "Combine with the strong to ensure survival."},
+        {"zh": "与强者为伴，才能繁衍后代。", "en": "Mate with the strong to ensure offspring."},
+        {"zh": "选择强者，才能确保后代。", "en": "Choose the strong to ensure offspring."},
+        {"zh": "寻找力量的同伴，才能繁衍。", "en": "Find a strong mate to ensure survival."},
+        {"zh": "与强者结合，才能延续族群。", "en": "Mate with the strong to continue the line."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "吼！那颗银杏果是我的！", "en": "Roar! That gingko nut is mine!"},
+        {"zh": "来吧，试试我的角！", "en": "Come on, try my horns!"},
+        {"zh": "我要保护我的银杏果！", "en": "I’ll protect my gingko nut!"},
+        {"zh": "这银杏果太棒了！", "en": "This gingko nut is great!"},
+        {"zh": "我不喜欢吃别的东西！", "en": "I don’t eat anything else!"},
+        {"zh": "放下银杏果，快放下！", "en": "Put down the gingko nut, now!"},
+        {"zh": "用银杏果驯服我吧！", "en": "Tame me with a gingko nut!"},
+        {"zh": "我的角很硬，尝尝吧！", "en": "My horns are tough, taste them!"},
+        {"zh": "银杏果是我的力量源泉！", "en": "Gingko nuts are my power source!"},
+        {"zh": "给我银杏果，别逼我！", "en": "Give me the gingko nut, please!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "三只角对准你，冲了。", "en": "Three horns on you — charging."},
+        {"zh": "你挡不住我的角！", "en": "You can’t stop my horns!"},
+        {"zh": "我要用我的力量证明！", "en": "I’ll prove it with my strength!"},
+        {"zh": "看我的三角龙盾！", "en": "Watch my triceratops shield!"},
+        {"zh": "三支角压低，我不打算退。", "en": "Three horns lowered, I am not backing off."},
+        {"zh": "撞上你时，连草皮都会翻起来。", "en": "When I hit you, even the turf will flip."},
+        {"zh": "我的角比你的大！", "en": "My horns are bigger than yours!"},
+        {"zh": "冲撞一大群，我最拿手。", "en": "Charging a whole herd is my specialty."},
+        {"zh": "我的角可以挡住你！", "en": "My horns can stop you!"},
+        {"zh": "我不会让你接近我的！", "en": "I won’t let you near me!"},
+        {"zh": "你踏进它的觅食地", "en": "You walked into its grazing ground."},
+        {"zh": "它把你当成掠食者", "en": "It takes you for a predator."},
+        {"zh": "角已经磨好了", "en": "Its horns are already sharpened."},
+        {"zh": "它决定先冲你", "en": "It decides to charge you first."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "瞄准了，小心点！", "en": "Target locked, be careful!"},
+        {"zh": "我要盯紧你了！", "en": "I’m onto you now!"},
+        {"zh": "注意我的角！", "en": "Watch out for my horns!"},
+        {"zh": "蹄子刨地两下，我冲过来了。", "en": "Two pawing kicks and I charge."},
+        {"zh": "别想逃跑！", "en": "You can’t run!"},
+        {"zh": "小心我的撞角！", "en": "Watch out for my charge!"},
+        {"zh": "我的角将你打倒！", "en": "My horns knock you down!"},
+        {"zh": "我要用角打击你！", "en": "I’m going to stab you with my horns!"},
+        {"zh": "你绕到侧面，我的角也跟着转。", "en": "You circle to my flank; my horns follow."},
+        {"zh": "小心我的威力！", "en": "Be careful of my power!"},
+        {"zh": "后退两步，蓄力冲撞", "en": "It backs off two steps to load a charge."},
+        {"zh": "颈盾立起，护住咽喉", "en": "The frill rises, guarding its throat."},
+        {"zh": "蹄声越来越密", "en": "Its hoofbeats quicken."},
+        {"zh": "它低着头，只看你的腿", "en": "Head low, it watches only your legs."},
+        {"zh": "冲撞路线已经选好", "en": "It has picked its charge line."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "角碰撞声隆隆", "en": "Rumble of horns"},
+        {"zh": "头角顶撞发出声响", "en": "Horns clash loudly"},
+        {"zh": "用角攻击敌人", "en": "Butt with horns"},
+        {"zh": "挥动角击打猎物", "en": "Butterfly with horns"},
+        {"zh": "以角撞击对方", "en": "Butt with horn"},
+        {"zh": "角冲击敌方", "en": "Rush with horn"},
+        {"zh": "以角顶撞攻击者", "en": "Butt with horn"},
+        {"zh": "用角发出冲击", "en": "Horn rush"},
+        {"zh": "角碰撞地面发出声音", "en": "Horns resound on ground"},
+        {"zh": "以角攻击周围敌人", "en": "Butt nearby enemies"},
+        {"zh": "三只角一起顶上来", "en": "All three horns drive in at once."},
+        {"zh": "整块颈盾撞在你身上", "en": "The whole frill slams into you."},
+        {"zh": "它把全身重量推过来", "en": "It throws its full weight forward."},
+        {"zh": "角尖挑开你的护甲", "en": "A horn tip pries your armor open."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "银杏果滋养我的力量", "en": "Ginkgo nourishes my power"},
+        {"zh": "吞下银杏果成长", "en": "Eat ginkgo to grow"},
+        {"zh": "在银杏林中孵化", "en": "Hatch in ginkgo grove"},
+        {"zh": "银杏果是成长之源", "en": "Ginkgo is growth source"},
+        {"zh": "以银杏果壮大身体", "en": "Ginkgo strengthens body"},
+        {"zh": "以银杏果滋养后代", "en": "Nurture with ginkgo"},
+        {"zh": "银杏果是我们的食物", "en": "Ginkgo is our food"},
+        {"zh": "在树下孵化出来", "en": "Hatch under trees"},
+        {"zh": "银杏果让我们更强大", "en": "Ginkgo makes us strong"},
+        {"zh": "以银杏果加速成长", "en": "Ginkgo speeds growth"},
+        {"zh": "从河岸的蕨丛钻出来", "en": "It pushes out of the riverbank ferns."},
+        {"zh": "它踩着晨露出场", "en": "It steps out through the morning dew."},
+        {"zh": "银杏林里走出大块头", "en": "A big shape walks out of the ginkgo grove."},
+        {"zh": "孵化器里破壳的声音", "en": "A shell cracks inside the incubator."},
+        {"zh": "它把第一株蕨啃秃", "en": "It strips its first fern bare."},
+        {"zh": "从化石里复活的巨兽", "en": "A giant revived from fossil stone."},
+        {"zh": "成年个体走进阳光", "en": "An adult walks into the sunlight."},
+        {"zh": "湿泥里留下三趾脚印", "en": "Three-toed prints press into wet mud."},
+        {"zh": "它从白垩纪的梦里醒来", "en": "It wakes from a Cretaceous dream."},
+        {"zh": "第一条颈盾长出来时", "en": "When the first frill grew in."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烧到我的颈盾了", "en": "Fire is scorching my neck frill."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从坡上滚下，角都磕疼", "en": "I rolled downhill and knocked my horns."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进鼻孔，快上岸", "en": "Water floods my nostrils. Get to the bank."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把碎石砸在我背上", "en": "The blast throws rubble onto my back."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭扎进我的颈盾缝", "en": "An arrow is stuck in my frill seam."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法刺得我鳞片发麻", "en": "Magic makes my scales tingle."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得站不住，我要银杏果", "en": "Too hungry to stand. I need ginkgo."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈在角上，酥到脚底", "en": "Lightning hit my horn and shocked my feet."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空的冷抽走我的力气", "en": "The void's cold drains my strength."}
+      ]
+    }
+  }
+}

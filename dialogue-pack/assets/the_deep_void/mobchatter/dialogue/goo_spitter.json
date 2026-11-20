@@ -1,0 +1,257 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蠕动着黏液身躯前行。", "en": "Creeps forward on goo."},
+        {"zh": "用黏液包裹自己的肢体。", "en": "Wraps itself in goo."},
+        {"zh": "挥动触手寻找猎物。", "en": "Swings its tentacles."},
+        {"zh": "吐出黏液覆盖地面。", "en": "Spews goo across the ground."},
+        {"zh": "缓慢移动，搜寻食物。", "en": "Slowly moves, searching for food."},
+        {"zh": "将触手伸向猎物。", "en": "Extends its tentacle."},
+        {"zh": "黏液从身体滴落。", "en": "Goo drips from its body."},
+        {"zh": "偶尔变换行进方向。", "en": "Changes its path."},
+        {"zh": "分泌黏液以保护自己。", "en": "Secretes goo for protection."},
+        {"zh": "移动时发出低吼。", "en": "Gives a low growl."},
+        {"zh": "节肢一节一节地往前推。", "en": "My segments push me forward, joint by joint."},
+        {"zh": "黏液在身后拉出长丝。", "en": "Slime trails behind me in long threads."},
+        {"zh": "我沿着骨堆往下爬。", "en": "I crawl down along the bone piles."},
+        {"zh": "湿滑的走廊是我的路。", "en": "Slick corridors are my roads."},
+        {"zh": "触须先探，身体后跟。", "en": "My feelers lead. My body follows."},
+        {"zh": "黏液让石壁变得亮滑。", "en": "My slime makes the stone walls gleam."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "安静地停留在原地。", "en": "Stays still."},
+        {"zh": "黏网已经在脚下了。", "en": "Sticky webbing is already at your feet."},
+        {"zh": "偶尔舔舐自己的触手。", "en": "Licks its tentacle."},
+        {"zh": "我数着洞里的滴水声。", "en": "I count the drips in the cave."},
+        {"zh": "观察周围环境动静。", "en": "Observes its surroundings."},
+        {"zh": "偶尔转动身体。", "en": "Turns its body."},
+        {"zh": "我贴在洞顶，黏液滴答。", "en": "I cling to the cave roof; goo drips."},
+        {"zh": "触手轻轻摆动。", "en": "Tentacle sways."},
+        {"zh": "我嘴里含着一团黏，先不吐。", "en": "I hold a mouthful of goo, for now."},
+        {"zh": "舔舐自己的皮肤。", "en": "Licks its skin."},
+        {"zh": "把黏液团在口器边。", "en": "I gather slime at my mouthparts."},
+        {"zh": "我贴在低矮的顶上休息。", "en": "I rest stuck to a low ceiling."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "注意到玩家的动静。", "en": "Notices the player."},
+        {"zh": "朝向玩家转动头部。", "en": "Turns its head."},
+        {"zh": "你的热气，黏网感到了。", "en": "My web feels your body heat."},
+        {"zh": "朝向玩家发出嘶嘶声。", "en": "Hisses towards the player."},
+        {"zh": "黏液在嘴里攒着，别走近。", "en": "I'm gathering slime in my mouth — don't come closer."},
+        {"zh": "黏液已顶到我的口器。", "en": "Slime is already at my mouthparts."},
+        {"zh": "这一团黏液，正好封住你的腿。", "en": "This blob of slime will seal your legs."},
+        {"zh": "锁定玩家并分泌黏液。", "en": "Locks onto the player and secretes goo."},
+        {"zh": "我把黏液顶到舌尖，看你。", "en": "I push goo to my tongue tip and watch you."},
+        {"zh": "我嘴里已经在攒黏网了。", "en": "The web is already gathering in my mouth."},
+        {"zh": "你踩到了我的黏液丝。", "en": "You stepped on my slime thread."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黏液缠身，动弹不得！", "en": "Goo's holding you tight!"},
+        {"zh": "黏液网困住了我！", "en": "The goo has trapped me!"},
+        {"zh": "黏液束缚，痛苦难耐！", "en": "The goo binds me painfully."},
+        {"zh": "被黏液网束缚了...", "en": "Bound by goo..."},
+        {"zh": "黏液让我难以动弹...", "en": "Goo restricts my movement..."},
+        {"zh": "被黏液包裹了...", "en": "Wrapped in goo..."},
+        {"zh": "我被黏液困住了！", "en": "I'm trapped in goo!"},
+        {"zh": "黏液网缠绕着我！", "en": "Goo entangles me!"},
+        {"zh": "无法挣脱黏液束缚！", "en": "Can't break free from goo!"},
+        {"zh": "黏液网束缚着我...", "en": "Goo binds me..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黏液球在呼唤你！", "en": "Goo ball calls to you!"},
+        {"zh": "来吧，享受我的黏液！", "en": "Come, enjoy my goo!"},
+        {"zh": "骨髓鲜美无比！", "en": "Bone marrow is delicious!"},
+        {"zh": "靠近我，危险就在身边。", "en": "Get close, danger surrounds."},
+        {"zh": "不要动，你会变得更黏。", "en": "Don't move, you'll get stickier."},
+        {"zh": "来，加入我的队伍！", "en": "Join my team!"},
+        {"zh": "我用黏液网捕食。", "en": "I net prey with goo."},
+        {"zh": "你的肉不够鲜美。", "en": "Your flesh isn't tasty."},
+        {"zh": "小心，我有黏液炸弹。", "en": "Beware, I have goo bombs."},
+        {"zh": "我是吐黏虫，黏你没商量。", "en": "I'm the Goo Spitter, stick you without saying."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "撞上我，你动弹不得！", "en": "Collide with me, you can't move!"},
+        {"zh": "被黏液网困住吧！", "en": "Get stuck in my goo net!"},
+        {"zh": "躲不开我的黏液！", "en": "You can't avoid my goo!"},
+        {"zh": "你一脚踩进我的黏液。", "en": "You stepped into my slime."},
+        {"zh": "黏液粘住了你！", "en": "You're stuck with goo!"},
+        {"zh": "快来尝尝黏液！", "en": "Come taste the goo!"},
+        {"zh": "我的黏液网真有效！", "en": "My goo net works well!"},
+        {"zh": "别碰我，会变黏的！", "en": "Don't touch me, you'll get sticky!"},
+        {"zh": "黏液糊你一脸，别擦。", "en": "Slime all over your face, do not wipe."},
+        {"zh": "黏液网让你动弹不得！", "en": "Goo net immobilizes you!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的黏液，为你铺好了。", "en": "My slime is spread out for you."},
+        {"zh": "求爱，求爱！", "en": "Mate, mate!"},
+        {"zh": "我这一巢黏网，都归你。", "en": "This whole nest of slime is yours."},
+        {"zh": "来吧，我们交配。", "en": "Come, let's mate."},
+        {"zh": "交配吧，我的爱人。", "en": "Mate, my love."},
+        {"zh": "求爱，求爱，黏液共享！", "en": "Mate, mate, share the goo!"},
+        {"zh": "我的骨髓共享。", "en": "Bone marrow shared."},
+        {"zh": "黏网织好，就等下一只撞进来。", "en": "The web is spun; let the next one fly in."},
+        {"zh": "我的黏液网，一个巢够用。", "en": "My slime web is enough for a whole nest."},
+        {"zh": "求爱，我的爱人。", "en": "Mate, my beloved."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黏液球，我的晚餐！", "en": "Goo ball, my dinner!"},
+        {"zh": "骨头？正好填肚子！", "en": "Bone? Just right for me!"},
+        {"zh": "骨髓，美味的佳肴！", "en": "Bone marrow, delicious!"},
+        {"zh": "这骨头，不错！", "en": "This bone, nice!"},
+        {"zh": "黏液球，我的储备！", "en": "Goo ball, my stock!"},
+        {"zh": "骨头，我的收藏！", "en": "Bone, my collection!"},
+        {"zh": "骨髓，我的补给！", "en": "Bone marrow, my supply!"},
+        {"zh": "黏液球，我最爱！", "en": "Goo ball, my favorite!"},
+        {"zh": "这骨头，我要了！", "en": "This bone, mine!"},
+        {"zh": "骨髓，我的美味！", "en": "Bone marrow, my treat!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "猎物在眼前！", "en": "Prey in sight!"},
+        {"zh": "我要抓它！", "en": "Got to catch it!"},
+        {"zh": "这一团肉，够我吃很久。", "en": "This lump of meat will last me."},
+        {"zh": "猎物，我的午餐！", "en": "Prey, my lunch!"},
+        {"zh": "黏液网一罩，你就走不动。", "en": "One goo net and you can't move."},
+        {"zh": "猎物在我掌握中！", "en": "Prey in my grasp!"},
+        {"zh": "先把你黏在网上再说。", "en": "Onto the slime web with you first."},
+        {"zh": "猎物，我要捕猎！", "en": "Prey, I'll hunt it!"},
+        {"zh": "它是我的猎物！", "en": "It's my prey!"},
+        {"zh": "脚下这层黏膜，是我铺的。", "en": "This film of slime underfoot is mine."},
+        {"zh": "那团肉在动。", "en": "That lump of meat is moving."},
+        {"zh": "黏液够得着它了。", "en": "It is within reach of my slime."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黏液网，我的武器！", "en": "Goo net, my weapon!"},
+        {"zh": "让它陷入网中！", "en": "Trap it with my net!"},
+        {"zh": "网住它，然后吃掉它！", "en": "Net it, then eat it!"},
+        {"zh": "黏液网，它的噩梦！", "en": "Goo net, its nightmare!"},
+        {"zh": "网住，然后吞噬！", "en": "Net, then devour!"},
+        {"zh": "网住它，享受美味！", "en": "Net it, enjoy the meal!"},
+        {"zh": "网住，然后享用！", "en": "Net, then savor!"},
+        {"zh": "网住它，消灭它！", "en": "Net it, defeat it!"},
+        {"zh": "网住，吞食它的肉！", "en": "Net it, eat its flesh!"},
+        {"zh": "网住，让其痛苦！", "en": "Net it, make it suffer!"},
+        {"zh": "先喷一层，封住脚。", "en": "First a layer, to seal the feet."},
+        {"zh": "网织好了，就在前头。", "en": "The web is spun, just ahead."},
+        {"zh": "你挣扎得越狠，粘得越紧。", "en": "The more you struggle, the tighter it sticks."},
+        {"zh": "我的网只等一次呼吸。", "en": "My web waits for one breath."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "吐出黏液网困住你！", "en": "Net you with sticky goo!"},
+        {"zh": "尝尝我的黏液吧！", "en": "Feel my goo!"},
+        {"zh": "你被困住了！", "en": "You're trapped!"},
+        {"zh": "黏液球黏住了！", "en": "Goo ball stuck!"},
+        {"zh": "黏网收紧，你的脚粘住了。", "en": "The net tightens; your feet stick."},
+        {"zh": "黏液包裹你！", "en": "Goo wraps you!"},
+        {"zh": "黏液黏住了你的武器！", "en": "Goo sticks to your weapon!"},
+        {"zh": "你被网住了！", "en": "You're netted!"},
+        {"zh": "黏液黏住你了！", "en": "Goo got you!"},
+        {"zh": "你的手腕被黏液缠住了。", "en": "Your wrist is wrapped in slime."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石缝里先渗出一滩黏。", "en": "A puddle of goo seeps from the crack."},
+        {"zh": "从地上冒出一个！", "en": "Rises from ground!"},
+        {"zh": "黏液滴落，它来了！", "en": "Goo drips, here it comes!"},
+        {"zh": "从地下破土而出！", "en": "Breaks the ground!"},
+        {"zh": "从黑暗中爬出来！", "en": "Crawls out of darkness!"},
+        {"zh": "从地面裂隙中现身！", "en": "Appears from fissure!"},
+        {"zh": "从洞中慢慢爬出！", "en": "Creeps out of cave!"},
+        {"zh": "从土里钻出来！", "en": "Rises from dirt!"},
+        {"zh": "从洞穴深处冒出！", "en": "Rises from depths!"},
+        {"zh": "从黑暗中缓缓爬行！", "en": "Crawls out of darkness!"},
+        {"zh": "黏液从石缝里渗出来。", "en": "Slime seeps from the stone seams."},
+        {"zh": "骨荒原上多了一团湿的。", "en": "Something wet joins the bone wastes."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火将我点燃...", "en": "Fire burns me..."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠落摔断了腿...", "en": "Fell and broke a leg..."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黏液淹没了我...", "en": "Goo suffocates me..."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸震裂了我...", "en": "Explosion shattered me..."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭头钉进我的软肉里。", "en": "The arrowhead is stuck in my soft flesh."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法封住了我...", "en": "Magic seals me..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得连黏液都吐不出。", "en": "Too hungry to spit even slime."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈在我身上，黏液网还没收。", "en": "Lightning hit me, and the slime web is still out."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黏液还没吐完，身体就散了。", "en": "My goo was not spent before I came apart."}
+      ]
+    }
+  }
+}

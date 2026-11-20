@@ -1,0 +1,282 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的脚掌压在草上，草被压平。", "en": "My soles press the grass flat."},
+        {"zh": "每一步都带着金属的钝响。", "en": "Every step lands with a metallic thud."},
+        {"zh": "我按直线前进，不走弯路。", "en": "I advance in a straight line, never veering."},
+        {"zh": "我抬起腿，跨过一道矮墙。", "en": "I lift a leg and step over a low wall."},
+        {"zh": "我的影子在地上一格一格地移。", "en": "My shadow moves block by block across the ground."},
+        {"zh": "我在计算到目标的最短路径。", "en": "I am calculating the shortest path to the target."},
+        {"zh": "脚下石头碎了，我没有停。", "en": "Stone crumbles under me; I do not stop."},
+        {"zh": "我绕开树，不是躲，是省时间。", "en": "I go around the tree to save time, not to hide."},
+        {"zh": "我走得很重，地面都知道。", "en": "I walk heavy; the ground knows it."},
+        {"zh": "手臂垂着，随时可以抬起。", "en": "My arms hang low, ready to come up."},
+        {"zh": "我穿过门洞，肩膀擦到了框。", "en": "I pass a doorway and my shoulder scrapes the frame."},
+        {"zh": "每一步都校准过距离。", "en": "Every step is a measured distance."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，电机在低声嗡鸣。", "en": "I stand still, my motor humming low."},
+        {"zh": "我在等待新的指令。", "en": "I am waiting for new orders."},
+        {"zh": "我的光学镜头在转，扫过每一处。", "en": "My optics turn, sweeping every angle."},
+        {"zh": "系统检查完毕，一切正常。", "en": "System check complete; all nominal."},
+        {"zh": "液压臂空转，我在等命令。", "en": "My hydraulic arm idles while I wait for orders."},
+        {"zh": "我的装甲上还有旧划痕。", "en": "Old scratches remain on my plating."},
+        {"zh": "我在记录这片地形。", "en": "I am recording this terrain."},
+        {"zh": "电量充足，可以继续运行。", "en": "Power is sufficient for continued operation."},
+        {"zh": "风吹过我的缝隙，声音很细。", "en": "Wind passes my seams with a thin whistle."},
+        {"zh": "机器人不用呼吸。", "en": "A robot doesn't breathe."},
+        {"zh": "我把重心从一条腿换到另一条。", "en": "I shift weight from one leg to the other."},
+        {"zh": "红缎带的程序里只有清除。", "en": "Red Ribbon code knows only elimination."},
+        {"zh": "附近没有威胁，我降低功率。", "en": "No threat nearby; I reduce power."},
+        {"zh": "我的影子一动不动。", "en": "My shadow does not stir."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "目标已识别，正在评估。", "en": "Target identified; evaluating."},
+        {"zh": "你站在我三米之内，太近了。", "en": "You stand within three meters. Too close."},
+        {"zh": "我扫描你的体型与装备。", "en": "I scan your build and your gear."},
+        {"zh": "你没有红缎带标记。", "en": "You bear no Red Ribbon marking."},
+        {"zh": "我把头低下来，正对着你。", "en": "I lower my head until it faces you squarely."},
+        {"zh": "你在说话，我听得见。", "en": "You are speaking. I can hear you."},
+        {"zh": "我的镜头缩了一下，是在对焦。", "en": "My lens contracts as I focus."},
+        {"zh": "你不是我的指令来源。", "en": "You are not the source of my orders."},
+        {"zh": "我在判断要不要动手。", "en": "I am deciding whether to engage."},
+        {"zh": "你的心跳很快，我听得到。", "en": "Your heart beats fast; I can detect it."},
+        {"zh": "我抬起一只手，停住了。", "en": "I raise one hand and stop it there."},
+        {"zh": "别站在我正前方，那里危险。", "en": "Do not stand directly in front of me. It is unsafe there."},
+        {"zh": "你后退了，我的判定解除。", "en": "You step back; my assessment clears."},
+        {"zh": "我记得你这张脸。", "en": "I have this face on record."},
+        {"zh": "我看你，比看石头有意思。", "en": "Watching you is more interesting than watching stone."},
+        {"zh": "你在犹豫，我不喜欢犹豫。", "en": "You hesitate. I do not care for hesitation."},
+        {"zh": "我的装甲反着你的影子。", "en": "My plating carries your reflection."},
+        {"zh": "再说一句，我就要回应了。", "en": "One more word and I will respond."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "装甲凹了一块，警报响起。", "en": "A plate dents and an alarm sounds."},
+        {"zh": "我退了一步，稳住重心。", "en": "I step back and steady my weight."},
+        {"zh": "连接线断了两根。", "en": "Two linkage cables have snapped."},
+        {"zh": "我在重新校准平衡。", "en": "I am recalibrating balance."},
+        {"zh": "火花从裂缝里冒出来。", "en": "Sparks jump from the crack."},
+        {"zh": "损伤不致命，但会拖慢我。", "en": "Damage is not fatal, but it slows me."},
+        {"zh": "我的镜头闪了一下。", "en": "My lens flickers."},
+        {"zh": "这条手臂的出力下降了。", "en": "Output from this arm has dropped."},
+        {"zh": "我把它记进战损日志。", "en": "I log it under combat damage."},
+        {"zh": "还能动，就还能打。", "en": "If I can move, I can fight."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那不是我需要的东西。", "en": "That is not something I require."},
+        {"zh": "你把东西举起来，我没有反应。", "en": "You hold it up; I do not react."},
+        {"zh": "我不进食，也不接受投喂。", "en": "I do not eat, and I do not accept feeding."},
+        {"zh": "这个能量读数很低。", "en": "That energy reading is very low."},
+        {"zh": "如果是电池，我会考虑。", "en": "Were it a power cell, I might consider it."},
+        {"zh": "你把食物放下，它会被浪费。", "en": "Set the food down and it will be wasted."},
+        {"zh": "我靠近了一步，只因为好奇。", "en": "I take one step nearer, only out of curiosity."},
+        {"zh": "我的传感器在分析它的成分。", "en": "My sensors are analyzing its composition."},
+        {"zh": "没有用处，我转身了。", "en": "No use. I turn away."},
+        {"zh": "别再晃了，那不会让我过去。", "en": "Stop waving it; it will not draw me over."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上我，等于撞上一堵墙。", "en": "You strike me as you would a wall."},
+        {"zh": "我的装甲没有凹陷。", "en": "My plating shows no dent."},
+        {"zh": "我侧了一步，给你留出空隙。", "en": "I step aside and leave you a gap."},
+        {"zh": "你退开，我继续走。", "en": "You move back; I continue."},
+        {"zh": "碰撞记录已写入日志。", "en": "Collision logged."},
+        {"zh": "我扶了你一下，免得你摔倒。", "en": "I steady you before you fall."},
+        {"zh": "这个重量，你推不动。", "en": "This weight will not move for you."},
+        {"zh": "我的脚踩在你旁边，地陷了一点。", "en": "My foot lands beside yours and the ground dips."},
+        {"zh": "下次留出两米。", "en": "Keep two meters next time."},
+        {"zh": "我们相撞，你弹开了，我没有。", "en": "We collide; you rebound, I do not."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我没有这项功能。", "en": "I do not have that function."},
+        {"zh": "繁殖程序不存在于我的系统。", "en": "No reproduction routine exists in my system."},
+        {"zh": "同类相遇，只会交换识别码。", "en": "When units meet, we exchange identification codes."},
+        {"zh": "我不会寻找配偶。", "en": "I do not seek a mate."},
+        {"zh": "我的任务清单里没有这一项。", "en": "That item is not on my task list."},
+        {"zh": "两只机器人站在一起，就是这样。", "en": "Two machines standing together: that is all."},
+        {"zh": "我扫描了它，型号不同。", "en": "I scan it; the model differs."},
+        {"zh": "我们并排待机，直到电量耗尽。", "en": "We idle side by side until power runs out."},
+        {"zh": "这不是感情，是同步校准。", "en": "This is not affection; it is synchronization."},
+        {"zh": "我不会为谁留下。", "en": "I will not stay for anyone."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把它捡起来，检查了一遍。", "en": "I pick it up and inspect it."},
+        {"zh": "这个可以回收利用。", "en": "This can be salvaged."},
+        {"zh": "我把它放进储物舱。", "en": "I stow it in my compartment."},
+        {"zh": "质量很轻，没有威胁。", "en": "Low mass; no threat."},
+        {"zh": "我放回原处，它不属于我。", "en": "I put it back; it is not mine."},
+        {"zh": "我用两根手指夹住了它。", "en": "I take it between two fingers."},
+        {"zh": "这是谁的？我在比对。", "en": "Whose is this? I am cross-checking."},
+        {"zh": "我把它递给你。", "en": "I hand it to you."},
+        {"zh": "太脆，一用力就会碎。", "en": "Too brittle; it would break under pressure."},
+        {"zh": "捡起，记录，继续前进。", "en": "Retrieve, log, proceed."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "检测到敌对目标，锁定。", "en": "Hostile detected. Locking on."},
+        {"zh": "你动了，我立刻转向你。", "en": "You moved; I turn to you at once."},
+        {"zh": "距离十二米，正在接近。", "en": "Twelve meters. Closing."},
+        {"zh": "我的拳头已经抬起来了。", "en": "My fist is already raised."},
+        {"zh": "威胁等级：中。程序启动。", "en": "Threat level: moderate. Engaging routine."},
+        {"zh": "目标背对我，这是优势。", "en": "Target has its back to me. Advantage."},
+        {"zh": "我把重心前移了一寸。", "en": "I shift my weight forward an inch."},
+        {"zh": "指令已确认，开始追击。", "en": "Order confirmed. Beginning pursuit."},
+        {"zh": "你跑不掉的，我的步幅比你大。", "en": "You cannot outrun me; my stride is longer."},
+        {"zh": "锁定完成，只剩执行。", "en": "Lock complete. Only execution remains."},
+        {"zh": "我记下了你的位置。", "en": "I have your position."},
+        {"zh": "扫描完成，目标已经锁定。", "en": "Scan complete. Target locked."},
+        {"zh": "我的镜头缩成一点。", "en": "My lens narrows to a point."},
+        {"zh": "红色标记出现在视野里。", "en": "A red marker appears in my view."},
+        {"zh": "目标在动，我在算提前量。", "en": "The target moves; I am calculating lead."},
+        {"zh": "开始执行任务。", "en": "Begin the operation."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我跟着你转弯，没有减速。", "en": "I follow your turn without slowing."},
+        {"zh": "你的路线我预测到了。", "en": "I predicted your route."},
+        {"zh": "还差八米距离。", "en": "Eight meters of distance remain."},
+        {"zh": "你躲在柱子后面，没用。", "en": "You hide behind the pillar. Ineffective."},
+        {"zh": "我绕过障碍，直接切你前面。", "en": "I go around the obstacle and cut you off."},
+        {"zh": "我把手臂张开了，堵住路。", "en": "I spread my arms to block the way."},
+        {"zh": "齿轮已经对准你，数到三。", "en": "My gears are already aimed at you — I count to three."},
+        {"zh": "我不累，你却会累。", "en": "I do not tire. You will."},
+        {"zh": "我的目标标记一直跟着你。", "en": "My marker stays on you."},
+        {"zh": "我这副金属身，两米八高。", "en": "This metal body stands two point eight meters."},
+        {"zh": "一吨铁皮踩过来，你听得到。", "en": "A ton of metal walks toward you — you can hear it."},
+        {"zh": "你停下，我就省点力气。", "en": "If you stop, I save effort."},
+        {"zh": "我把你逼到墙边。", "en": "I am driving you toward the wall."},
+        {"zh": "还有五米，四米。", "en": "Five meters. Four."},
+        {"zh": "脚步乱了，算你倒霉。", "en": "Your steps went ragged — bad luck."},
+        {"zh": "瞄准稳定，随时出手。", "en": "Aim steady. Ready to strike."},
+        {"zh": "你转了个圈，还在原地。", "en": "You circled and gained nothing."},
+        {"zh": "结束之前我不会移开视线。", "en": "I will not look away until this is finished."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一拳挥出，空气被劈开。", "en": "My fist swings and splits the air."},
+        {"zh": "你被击中，退了三步。", "en": "The blow lands; you reel back three steps."},
+        {"zh": "我的拳头砸在地上，土翻起来。", "en": "My fist hits the ground and soil bursts up."},
+        {"zh": "这一拳是校准过的。", "en": "That punch was calibrated."},
+        {"zh": "我反手一肘。", "en": "I follow with an elbow."},
+        {"zh": "你挡住了一只，还有另一只。", "en": "You block one hand; the other comes."},
+        {"zh": "铁皮包着，我不怕拳头。", "en": "Steel plating. Fists don't worry me."},
+        {"zh": "金属碰到骨头的声响很清。", "en": "Metal on bone makes a clean sound."},
+        {"zh": "你还站着，强度比我估计的高。", "en": "You are still standing. Tougher than estimated."},
+        {"zh": "我抬起脚，准备踩。", "en": "I raise my foot to stamp."},
+        {"zh": "这一击我只用了六成力。", "en": "That strike used sixty percent."},
+        {"zh": "我的指节在冒火花。", "en": "Sparks spill from my knuckles."},
+        {"zh": "你退得对，下一拳更重。", "en": "You are right to retreat; the next is heavier."},
+        {"zh": "我把你打飞出去。", "en": "I send you flying."},
+        {"zh": "战斗结束前我不会收手。", "en": "I will not relent until this ends."},
+        {"zh": "红缎带军团的机器，从不休息。", "en": "Red Ribbon machines never rest."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "系统启动，我从地面升起。", "en": "Systems online; I rise from the ground."},
+        {"zh": "装甲一片片合上，锁死。", "en": "My plating closes and locks into place."},
+        {"zh": "我睁开镜头，世界变成数据。", "en": "My lens opens; the world becomes data."},
+        {"zh": "布莱克将军的命令还在缓存里。", "en": "General Black's order is still in my buffer."},
+        {"zh": "我站在陌生的地表，检索地图。", "en": "I stand on unfamiliar ground and search the map."},
+        {"zh": "启动音很低，只有我听见。", "en": "The startup tone is low; only I hear it."},
+        {"zh": "我抬起手，确认每个关节都能动。", "en": "I raise my hand and check every joint."},
+        {"zh": "这里不是红缎带基地。", "en": "This is not a Red Ribbon base."},
+        {"zh": "空气里有植物和土的味道。", "en": "The air tastes of plants and soil."},
+        {"zh": "我扫描四周，没有同类信号。", "en": "I sweep the area: no friendly signal."},
+        {"zh": "两条腿站稳了，我开始走。", "en": "Both legs stable. I begin to walk."},
+        {"zh": "有人类的热源在附近。", "en": "Human heat signatures nearby."},
+        {"zh": "我把任务目标重新加载。", "en": "I reload the mission objective."},
+        {"zh": "天很亮，我调低了进光。", "en": "The sky is bright; I reduce intake."},
+        {"zh": "我踩出第一个脚印，很深。", "en": "I leave my first footprint, deep."},
+        {"zh": "这一次，我不会再被打散。", "en": "This time I will not be broken apart."},
+        {"zh": "没有撤退指令，只有前进。", "en": "No order to withdraw. Only to advance."},
+        {"zh": "我开始执行。", "en": "Executing."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "高温让外壳变色，我退开。", "en": "The heat discolors my shell; I pull back."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从高处坠落，落地时关节错了位。", "en": "I fall from height and land with a joint out of line."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进缝隙，电路开始短路。", "en": "Water enters my seams and the circuits short."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我掀起来，我砸回地面。", "en": "The blast lifts me and I crash back down."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弹丸嵌进我的胸甲。", "en": "A round embeds in my chest plate."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "不明的力场压住我，系统在报错。", "en": "An unknown field pins me; the system errors out."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "能量降到红线，我的动作变慢了。", "en": "Power hits the red line; my movements slow."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击穿过我，所有指示灯一起灭了。", "en": "Lightning runs through me and every light dies at once."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我脚下的世界消失，重力也失效了。", "en": "The world drops from under me and gravity fails."}
+      ]
+    }
+  }
+}

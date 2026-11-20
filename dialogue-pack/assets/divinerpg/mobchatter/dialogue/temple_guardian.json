@@ -1,0 +1,261 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沉重的脚步声回响在金字塔中。", "en": "Heavy footsteps echo in the pyramid."},
+        {"zh": "紧握利剑，发出金属摩擦声。", "en": "Clang as he grips his sword."},
+        {"zh": "警惕地观察四周，寻找敌情。", "en": "He scans the surroundings for danger."},
+        {"zh": "挥舞长剑，空气中弥漫着金属味。", "en": "Swish of his sword, metal in the air."},
+        {"zh": "深吸一口气，准备迎接挑战。", "en": "He takes a deep breath, ready for the fight."},
+        {"zh": "我握着剑沿塔阶下行，眼睛没离开你。", "en": "I walk down the pyramid steps, sword in hand, eyes on you."},
+        {"zh": "向前走去，步伐坚定。", "en": "He strides forward with purpose."},
+        {"zh": "轻盈地跃过陷阱，毫发无损。", "en": "He nimbly leaps over traps, unharmed."},
+        {"zh": "在金字塔的通道中缓慢前行。", "en": "He moves slowly down the pyramid’s passage."},
+        {"zh": "挥剑劈向空气，展示力量。", "en": "He swings his sword at empty air, showing his might."},
+        {"zh": "沿阶梯一寸寸往上巡。", "en": "It patrols up the steps one stair at a time."},
+        {"zh": "盾面贴着通道墙滑行。", "en": "Its shield slides along the corridor wall."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静立于金字塔的中心，守护着宝藏。", "en": "Standing at the pyramid’s center, guarding the treasure."},
+        {"zh": "双手交叉，显得稳重而自信。", "en": "Crossing his arms, looking stern and confident."},
+        {"zh": "凝视前方，仿佛预见了你的到来。", "en": "Staring ahead, as if预见着 your arrival."},
+        {"zh": "挥动长剑，发出金属的回响。", "en": "Swinging his sword, creating a metallic echo."},
+        {"zh": "低语着古老咒语，增强力量。", "en": "Muttering ancient spells, boosting his strength."},
+        {"zh": "环视周围，寻找潜在的威胁。", "en": "Surveying his surroundings, looking for threats."},
+        {"zh": "紧握长剑，准备随时战斗。", "en": "Gripping his sword tightly, ready to fight."},
+        {"zh": "眼神警惕，随时准备行动。", "en": "Eyes alert, ready to act."},
+        {"zh": "沉思片刻，似乎在规划策略。", "en": "Pausing to think, planning his next move."},
+        {"zh": "长剑划过，空气中留下痕迹。", "en": "His sword slices through the air, leaving a mark."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锐利的目光盯上你，准备攻击。", "en": "Sharp eyes lock on you, ready to attack."},
+        {"zh": "警惕地观察你，寻找可趁之机。", "en": "Watching you closely, searching for an opening."},
+        {"zh": "长剑紧握，指向你的方向。", "en": "He grips his sword, pointing it at you."},
+        {"zh": "靠近你，准备发起攻击。", "en": "Approaching you, ready to attack."},
+        {"zh": "发出警告的低吼，让你心惊胆战。", "en": "He growls a warning, making you flinch."},
+        {"zh": "你又往上走了一层，我看见了。", "en": "You climbed another level; I saw you."},
+        {"zh": "剑尖指向你，发出威胁。", "en": "His sword points at you, making a threat."},
+        {"zh": "靠近你，做好战斗准备。", "en": "Approaching you, ready for battle."},
+        {"zh": "低吼一声，警告你不要靠近。", "en": "He rumbles a warning, telling you to stay back."},
+        {"zh": "挥剑指向你，表达敌意。", "en": "He swings his sword at you, showing hostility."},
+        {"zh": "它守在顶层门口等你上来。", "en": "It waits at the top doorway for you to climb."},
+        {"zh": "它低头看你走过的陷阱。", "en": "It looks down at the traps you crossed."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的攻击唤醒了我！", "en": "Your attack awakened me!"},
+        {"zh": "金字塔顶层，我守了几百年。", "en": "I have held the pyramid's top for centuries."},
+        {"zh": "你伤到了我！", "en": "You hurt me!"},
+        {"zh": "快点结束这场战斗！", "en": "End this battle quickly!"},
+        {"zh": "你无法打败我！", "en": "You can't defeat me!"},
+        {"zh": "你伤了我的同伴！", "en": "You hurt my companion!"},
+        {"zh": "剑柄脱手，我扶着石壁喘息。", "en": "My sword slips; I lean on the stone wall and pant."},
+        {"zh": "你太强了！", "en": "You're too strong!"},
+        {"zh": "膝盖一软，我靠着金字塔的墙。", "en": "My knees buckle; I lean against the pyramid wall."},
+        {"zh": "你赢了...", "en": "You won..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它的目光锐利，不容你分心。", "en": "Its gaze is sharp, don't let your guard down."},
+        {"zh": "这是守护者的领地，你必须证明自己。", "en": "This is the guardian's domain, prove yourself."},
+        {"zh": "别被幻象迷惑，它会引导你走向死亡。", "en": "Don't be fooled by illusions, it will lead you to your doom."},
+        {"zh": "注意四周，小心那些隐形陷阱。", "en": "Be wary, there are hidden traps around."},
+        {"zh": "它的力量源自梦魇，小心它的攻击。", "en": "Its strength comes from the nightmare, be wary of its attacks."},
+        {"zh": "它会用魔法保护金字塔的宝物。", "en": "It uses magic to protect the pyramid's treasures."},
+        {"zh": "靠近它的人都会被它的力量吸引。", "en": "Anyone near it is drawn to its power."},
+        {"zh": "小心，它会释放腐蚀之气。", "en": "Be careful, it releases corrosive gas."},
+        {"zh": "它不会轻易现身，但你能感受到它的气息。", "en": "It rarely shows itself, but you can feel its presence."},
+        {"zh": "它的力量来自守护的荣耀，不可轻视。", "en": "Its power comes from the honor of guardianship, do not underestimate it."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你和它的碰撞，会让你后悔。", "en": "Your collision with it will bring you regret."},
+        {"zh": "它不会容许任何威胁接近。", "en": "It will not tolerate any threats approaching."},
+        {"zh": "小心，它会用火焰攻击。", "en": "Be careful, it will attack with fire."},
+        {"zh": "它的盾牌坚不可摧，你击不破它。", "en": "Its shield is impenetrable, you cannot break it."},
+        {"zh": "它的撞击比你想象的更致命。", "en": "Its impact is deadlier than you think."},
+        {"zh": "它的力量足以摧毁一切。", "en": "Its strength can destroy anything."},
+        {"zh": "它的撞击如同噩梦般可怕。", "en": "Its collision is nightmare-like."},
+        {"zh": "避开它的直接攻击。", "en": "Avoid its direct attacks."},
+        {"zh": "它的身体坚硬如铁。", "en": "Its body is as hard as iron."},
+        {"zh": "它的撞击能击穿你的防护。", "en": "Its collision can penetrate your defenses."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它寻找伴侣，以繁衍后代。", "en": "It seeks a mate to breed offspring."},
+        {"zh": "小心它的求偶之舞。", "en": "Be wary of its mating dance."},
+        {"zh": "它的求偶仪式充满危险。", "en": "Its mating ritual is dangerous."},
+        {"zh": "它会与同类争斗。", "en": "It will fight同类 to mate."},
+        {"zh": "它的求偶行为不可小觑。", "en": "Its mating behavior is formidable."},
+        {"zh": "它的求偶之舞吸引着同类。", "en": "Its mating dance attracts its kind."},
+        {"zh": "它的求偶声音穿透黑暗。", "en": "Its mating call pierces the darkness."},
+        {"zh": "它的求偶仪式是金字塔的守护。", "en": "Its mating ritual guards the pyramid."},
+        {"zh": "它的求偶行为中蕴含着力量。", "en": "Its mating behavior is full of power."},
+        {"zh": "它的求偶成功与否决定金字塔的未来。", "en": "Its mating success determines the pyramid's future."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我守护着宝藏，莫要妄想得逞！", "en": "Guarding the treasures, do not dream of it!"},
+        {"zh": "这里危险重重，放下武器吧！", "en": "Peril surrounds, lay down your arms!"},
+        {"zh": "金字塔顶层，非尔等凡人可至！", "en": "Top of the pyramid, not for you!"},
+        {"zh": "你闻到了恐惧的气息吗？", "en": "Do you smell fear?"},
+        {"zh": "你的命运，就在金字塔！", "en": "Your destiny lies within the pyramid!"},
+        {"zh": "小心，金字塔的诅咒！", "en": "Beware, the pyramid's curse!"},
+        {"zh": "你是我的试炼，勇敢面对吧！", "en": "You are my trial, face it!"},
+        {"zh": "宝藏属于最勇敢的！", "en": "Treasure for the bravest!"},
+        {"zh": "你离真相越来越近了！", "en": "You're getting closer to the truth!"},
+        {"zh": "这是神殿，不是玩耍之地！", "en": "This is a temple, not for play!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "凡侵入者，必须清除！", "en": "Intruders must be cleared!"},
+        {"zh": "你无法战胜我，神殿守护者！", "en": "You cannot defeat me, Temple Guardian!"},
+        {"zh": "你的命运将在此终结！", "en": "Your fate ends here!"},
+        {"zh": "你只是蝼蚁，妄想反抗！", "en": "You are mere ants, daring to resist!"},
+        {"zh": "守护神殿，不容侵犯！", "en": "Guarding the temple, no invasion!"},
+        {"zh": "你离死亡不远了，凡人！", "en": "You are near death, mortal!"},
+        {"zh": "金字塔只有一条路，我守着。", "en": "The pyramid has one path, and I hold it."},
+        {"zh": "你的弱点，我已看穿！", "en": "Your weaknesses, I see clearly!"},
+        {"zh": "凡侵犯圣地者，必遭严惩！", "en": "Those who invade the holy land shall be punished!"},
+        {"zh": "我的守护，无坚不摧！", "en": "My protection is unbreakable!"},
+        {"zh": "第二层的阶梯被人踩响了。", "en": "Someone is on the second level's stair."},
+        {"zh": "你踏进了金字塔顶层。", "en": "You have stepped onto the pyramid's top floor."},
+        {"zh": "台阶上的脚印还新鲜。", "en": "The footprints on the steps are still fresh."},
+        {"zh": "它听到了你的喘息。", "en": "It heard you gasping for air."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你已进入我的视野，准备迎接死亡！", "en": "You are in my sight, prepare for death!"},
+        {"zh": "你的位置，我已标记！", "en": "Your position marked!"},
+        {"zh": "我会让你付出代价！", "en": "You will pay!"},
+        {"zh": "金字塔顶层，只留一条路。", "en": "The pyramid's top floor leaves one path."},
+        {"zh": "你将为你的行为付出代价！", "en": "You will pay for your actions!"},
+        {"zh": "我已经瞄准，准备攻击！", "en": "Aim acquired, ready to strike!"},
+        {"zh": "你的死亡，将从这里开始！", "en": "Your death begins here!"},
+        {"zh": "我会将你彻底消灭！", "en": "I will utterly destroy you!"},
+        {"zh": "你将为今天的入侵付出代价！", "en": "You will pay for today's intrusion!"},
+        {"zh": "你将被永远封印！", "en": "You will be forever sealed!"},
+        {"zh": "它把盾举到眼睛高度。", "en": "It raises the shield to eye level."},
+        {"zh": "剑尖压低，指向你的膝。", "en": "The sword tip drops, aimed at your knees."},
+        {"zh": "它退到楼梯口，堵住退路。", "en": "It backs to the stairwell and blocks your retreat."},
+        {"zh": "它一步一顿地逼近。", "en": "It advances one measured step at a time."},
+        {"zh": "它的影子在火盆上摇晃。", "en": "Its shadow sways over the brazier."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "挥剑如雷，小心锋芒！", "en": "Swing like thunder, beware the sharpness!"},
+        {"zh": "挥剑斩敌，勇者当先！", "en": "Slash the foe,勇士先行!"},
+        {"zh": "你的攻击太弱！", "en": "Your attack is too weak!"},
+        {"zh": "举起盾牌，迎接挑战！", "en": "Raise your shield, face the challenge!"},
+        {"zh": "力量汇聚，一剑致命！", "en": "Power converges, one strike fatal!"},
+        {"zh": "我为秩序而战！", "en": "I fight for order!"},
+        {"zh": "再往上一层，危险更多。", "en": "One floor up, the dangers only grow."},
+        {"zh": "金字塔顶层，只准我站着。", "en": "Only I stand on the pyramid's peak."},
+        {"zh": "感受死亡的气息！", "en": "Feel the breath of death!"},
+        {"zh": "金字塔顶层，只许我站着。", "en": "Only I stand on the pyramid's top floor."},
+        {"zh": "楼梯口不许通行！", "en": "You shall not pass the stairwell!"},
+        {"zh": "这一剑为神殿而落！", "en": "This blow falls for the temple!"},
+        {"zh": "顶层不欢迎活人！", "en": "The top floor welcomes no living soul!"},
+        {"zh": "你踩过的陷阱都白费了！", "en": "All the traps you crossed were wasted!"},
+        {"zh": "盾后就是你的终点！", "en": "Behind this shield is your end!"},
+        {"zh": "从上往下，你走不了！", "en": "You will not descend from here!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "金字塔顶端，守护之始！", "en": "Top of the pyramid, guardianship starts!"},
+        {"zh": "我是神殿的守卫！", "en": "I am the temple guard!"},
+        {"zh": "梦魇世界的警钟！", "en": "Nightmare world's alarm!"},
+        {"zh": "警惕，危险来临！", "en": "Beware, danger approaches!"},
+        {"zh": "金字塔内，绝无生机！", "en": "Inside the pyramid, no life!"},
+        {"zh": "这里是神殿之巅！", "en": "This is the temple's peak!"},
+        {"zh": "欢迎来到我的领域！", "en": "Welcome to my domain!"},
+        {"zh": "梦魇世界，不可侵犯！", "en": "Nightmare world, inviolable!"},
+        {"zh": "我是金字塔的守护者！", "en": "I am the pyramid's guardian!"},
+        {"zh": "这里不是你该来的！", "en": "You shouldn't be here!"},
+        {"zh": "顶层的火盆又点起来了。", "en": "The top floor's brazier is lit again."},
+        {"zh": "又有人往上层走了。", "en": "Someone else climbs to the upper floor."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "金字塔顶层的火，烧穿了我的守备。", "en": "Fire at the pyramid's top has burned through my guard."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "金字塔顶的风，把人推下去。", "en": "Wind at the pyramid top pushes people off."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "金字塔底的水漫上来了。", "en": "Water from the pyramid's base rises over me."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有人炸开了神殿的墙。", "en": "Someone blasted open the temple wall."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭卡在胸甲上，我倒退了半步。", "en": "An arrow sticks in my breastplate; I stagger back half a step."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石阶上的符文烫穿了我。", "en": "The runes on the steps burned through me."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿使我的力量减弱...", "en": "Starvation weakened me..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷电击中了我...", "en": "Lightning struck me..."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "塔顶塌了，我坠进黑暗。", "en": "The summit collapsed and I fell into the dark."}
+      ]
+    }
+  }
+}

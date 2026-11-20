@@ -1,0 +1,269 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "移动时嘶嘶作响", "en": "Sssss as it moves"},
+        {"zh": "步履蹒跚，发出金属摩擦声", "en": "Grinding metal with each step"},
+        {"zh": "步履沉重，声音沉闷", "en": "Heavy steps, muffled sound"},
+        {"zh": "脚步声中夹杂着金属摩擦", "en": "Metallic scrape amid its steps"},
+        {"zh": "缓慢前行，金属碰撞声", "en": "Slowly moving, metallic clinks"},
+        {"zh": "移动时发出铁器碰撞声", "en": "Iron clatters as it moves"},
+        {"zh": "步伐间摩擦声不断", "en": "Constant scrape with each step"},
+        {"zh": "步履声中夹杂着金属摩擦", "en": "Metallic scrape in its steps"},
+        {"zh": "它拖着枪管走过走廊。", "en": "It drags its barrel down the corridor."},
+        {"zh": "每一步都带着弹壳的响。", "en": "Each step clicks with spent casings."},
+        {"zh": "它侧身穿过门框，枪口先到。", "en": "It angles through the door, muzzle first."},
+        {"zh": "它换弹匣，脚步没停。", "en": "It swaps a magazine without breaking stride."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静注视着远方", "en": "Stares into the distance"},
+        {"zh": "沉默中充满敌意", "en": "Bitterly silent, full of malice"},
+        {"zh": "沉默而警觉", "en": "Silent and vigilant"},
+        {"zh": "枪膛冷着，我先等一等。", "en": "The chamber's cold — I wait a moment."},
+        {"zh": "目光空洞，充满杀气", "en": "Blank stare, filled with malice"},
+        {"zh": "沉默中隐藏着危险", "en": "Danger lurks in its silence"},
+        {"zh": "默默等待着猎物", "en": "Waiting silently for its prey"},
+        {"zh": "沉默中积蓄力量", "en": "Silent with power"},
+        {"zh": "静静地，等待着什么", "en": "Silent, waiting for something"},
+        {"zh": "沉默中酝酿着袭击", "en": "Planning an ambush in silence"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黄铜枪管从肩后探出来。", "en": "The brass barrel slides out from behind my shoulder."},
+        {"zh": "盯紧你，随时准备开枪", "en": "Holding you in sight, ready to shoot"},
+        {"zh": "扳机上的手指收紧了。", "en": "The finger on the trigger tightens."},
+        {"zh": "扳机扣上，目标是你。", "en": "Finger on trigger — target is you."},
+        {"zh": "瞄准玩家，准备开枪", "en": "Aiming at you, ready to shoot"},
+        {"zh": "盯着玩家，准备开枪", "en": "Staring at you, ready to fire"},
+        {"zh": "瞄准你，准备攻击", "en": "Aiming at you, ready to attack"},
+        {"zh": "我歪着头，枪口对准你。", "en": "I tilt my head, muzzle steady on you."},
+        {"zh": "锁定玩家，准备射击", "en": "Targeting player, ready to shoot"},
+        {"zh": "它抬起头，枪口跟着动了。", "en": "It lifts its head and the muzzle follows."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "伤痕累累，快逃！", "en": "Wounds are deep, run!"},
+        {"zh": "我的盔甲受损了！", "en": "My armor is damaged!"},
+        {"zh": "我受伤了，求求你帮帮我！", "en": "I'm hurt, please help me!"},
+        {"zh": "护甲板掉了一块，疼。", "en": "An armor plate has fallen off; it hurts."},
+        {"zh": "这里危险！快走！", "en": "This place is dangerous! Go!"},
+        {"zh": "绷带下面，我还在动。", "en": "Under the bandages, I'm still moving."},
+        {"zh": "不要打我！", "en": "Don't hit me!"},
+        {"zh": "我的弹药箱已经空了。", "en": "My ammo crate is empty."},
+        {"zh": "我被击败了！", "en": "I'm defeated!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "别过来，我的枪还没上膛。", "en": "Stay back — my gun isn't loaded yet."},
+        {"zh": "你手里的东西，我不收。", "en": "I don't take what's in your hand."},
+        {"zh": "弹药不多了，省着打。", "en": "Not much ammo left — make each shot count."},
+        {"zh": "小心，我的枪！", "en": "Watch out, my gun!"},
+        {"zh": "别逼我开火！", "en": "Don't逼 me shoot!"},
+        {"zh": "我的弹链只剩半截了。", "en": "Only half my belt of ammo is left."},
+        {"zh": "我是危险的！", "en": "I'm dangerous!"},
+        {"zh": "再近一步，我就扣扳机。", "en": "One more step and I pull the trigger."},
+        {"zh": "我会保护自己！", "en": "I'll defend myself!"},
+        {"zh": "我有枪，别靠近！", "en": "I have a gun, stay back!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "砰！撞到我了！", "en": "Bang! You撞到 me!"},
+        {"zh": "你撞我了！", "en": "You撞 me!"},
+        {"zh": "别碰我的枪，会走火。", "en": "Don't touch my gun; it might fire."},
+        {"zh": "小心头盔！", "en": "Watch out for my helmet!"},
+        {"zh": "我的护膝撞在你的腿骨。", "en": "My knee guard hits your shin."},
+        {"zh": "我护甲坚硬！", "en": "My armor is tough!"},
+        {"zh": "我只晃了一下，就稳住了。", "en": "I only sway once, then hold."},
+        {"zh": "我的头盔保护我！", "en": "My helmet protects me!"},
+        {"zh": "你撞不到我！", "en": "You can't撞 me!"},
+        {"zh": "别碰我的头盔！", "en": "Don't touch my helmet!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "古代黄铜做我骨头，谁来搭伙。", "en": "Ancient brass is my bone. Who partners up?"},
+        {"zh": "我需要伴侣！", "en": "I need a mate!"},
+        {"zh": "我要找我的爱人！", "en": "I'm looking for my love!"},
+        {"zh": "黄铜壳里也想装个心跳。", "en": "Even a brass shell could use a heartbeat."},
+        {"zh": "找我一起战斗！", "en": "Fight with me!"},
+        {"zh": "寻找我的爱侣！", "en": "Find my love!"},
+        {"zh": "黄铜壳里也想有个伴。", "en": "Even a brass shell wants company."},
+        {"zh": "我要和它一起战斗！", "en": "Fight with it!"},
+        {"zh": "两个人守一个弹药箱。", "en": "Two of us to guard one ammo crate."},
+        {"zh": "它碰了碰同伴的枪托。", "en": "It taps the stock of its fellow's gun."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我感受到你的痛苦！", "en": "I feel your pain!"},
+        {"zh": "过来接受终结吧！", "en": "Come and face your end!"},
+        {"zh": "不要让我再次受伤！", "en": "Don't make me hurt you again!"},
+        {"zh": "我的子弹从不空放！", "en": "My bullets never miss!"},
+        {"zh": "我数着弹壳，一枚一枚。", "en": "I count my casings, one by one."},
+        {"zh": "躲避我的火力！", "en": "Dodge my fire!"},
+        {"zh": "弹壳我捡起来，还能复装。", "en": "I pick up my casings; they can be reloaded."},
+        {"zh": "这枚黄铜弹壳归我了。", "en": "This brass casing is mine."},
+        {"zh": "你的死亡不会白费！", "en": "Your death won't be in vain!"},
+        {"zh": "我是死神的使者！", "en": "I'm the messenger of death!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黄铜的枪身，压不住后坐。", "en": "Brass frame, no recoil control."},
+        {"zh": "我来了，别无选择！", "en": "Here I come, you have no choice!"},
+        {"zh": "我的目标是你的灵魂！", "en": "My target is your soul!"},
+        {"zh": "你逃不掉我的追击！", "en": "You can't escape my pursuit!"},
+        {"zh": "我听见你的脚步，转过枪。", "en": "I hear your steps and turn my gun."},
+        {"zh": "我的子弹不会撒谎！", "en": "My bullets never lie!"},
+        {"zh": "你逃不出我的狙击！", "en": "You can't escape my sniper!"},
+        {"zh": "枪口抬起来，先打你的腿。", "en": "Barrel up — I aim for your legs."},
+        {"zh": "你的命运在我的手中！", "en": "Your fate is in my hands!"},
+        {"zh": "瞄准，然后终结！", "en": "Target, and end it!"},
+        {"zh": "它把瞄具抬到眼前。", "en": "It brings the sight up to its eye."},
+        {"zh": "它听见你的脚步，转过身。", "en": "It hears your steps and turns."},
+        {"zh": "它把你的身影套进准星。", "en": "It sets your shape inside the reticle."},
+        {"zh": "它抬起枪口，试了试风。", "en": "It lifts the muzzle and tests the wind."},
+        {"zh": "它后退半步，拉开射界。", "en": "It backs off half a step to clear its line."},
+        {"zh": "它给枪上了膛，声音很轻。", "en": "It chambers a round, very quietly."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "集中火力射击！", "en": "Focus the firepower!"},
+        {"zh": "准星停在你喉咙下方。", "en": "My sights settle just below your throat."},
+        {"zh": "我的目标是你的弱点！", "en": "My target is your weakness!"},
+        {"zh": "小心，我的子弹来了！", "en": "Beware, my bullets are coming!"},
+        {"zh": "瞄准，瞄准，射击", "en": "Target, target, shoot!"},
+        {"zh": "击中要害，才能取胜！", "en": "Hit the critical point to win!"},
+        {"zh": "不要让我的子弹空放！", "en": "Don't let my bullets miss!"},
+        {"zh": "我等你停下，再开枪。", "en": "I wait for you to stop, then fire."},
+        {"zh": "瞄准，集中火力！", "en": "Target, concentrate the fire!"},
+        {"zh": "瞄准，不要犹豫！", "en": "Target, don't hesitate!"},
+        {"zh": "它把准星压在你的胸口。", "en": "It settles the reticle on your chest."},
+        {"zh": "它屏住呼吸，手指贴住扳机。", "en": "It holds its breath, finger on the trigger."},
+        {"zh": "它数着你的步频，等你停。", "en": "It counts your pace, waiting for you to stop."},
+        {"zh": "它把枪架在断墙上。", "en": "It rests the gun on a broken wall."},
+        {"zh": "它压低枪口，瞄你的腿。", "en": "It drops the muzzle to your legs."},
+        {"zh": "它在等你的护甲出现缝隙。", "en": "It waits for a seam in your armor."},
+        {"zh": "它的瞄具反了一下光。", "en": "Its sight catches a glint of light."},
+        {"zh": "它后坐一步，稳住枪身。", "en": "It rocks back and steadies the gun."},
+        {"zh": "它换了个角度，绕开你的盾。", "en": "It shifts angle to clear your shield."},
+        {"zh": "它把呼吸压到最慢。", "en": "It slows its breathing to the minimum."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶！给我尝尝这把刀的厉害！", "en": "Sssss! Feel the blade's power!"},
+        {"zh": "我抬起枪托砸你的下巴。", "en": "I raise my stock and slam your jaw."},
+        {"zh": "尝尝我的獠牙吧！", "en": "Feel my fangs!"},
+        {"zh": "我的枪口转向你的膝盖。", "en": "My muzzle swings toward your knees."},
+        {"zh": "我的爪子会撕裂你！", "en": "My claws will tear you apart!"},
+        {"zh": "痛苦将是你最后的回忆！", "en": "Pain will be your last memory!"},
+        {"zh": "我的针管在等着，别乱动。", "en": "My syringe is waiting. Hold still."},
+        {"zh": "你死定了，知道吗？", "en": "You're doomed, you know that?"},
+        {"zh": "你的血肉将是我新的战利品！", "en": "Your flesh will be my new trophy!"},
+        {"zh": "你无法逃脱我的锋利牙齿！", "en": "You can't escape my sharp teeth!"},
+        {"zh": "它用枪托砸你的下巴。", "en": "It cracks the stock against your jaw."},
+        {"zh": "它近距离连开两枪。", "en": "It fires twice at point-blank range."},
+        {"zh": "它把滚烫的枪管顶上你。", "en": "It jams the hot barrel against you."},
+        {"zh": "它一膝顶开你，再抬枪。", "en": "A knee shoves you off, then the gun comes up."},
+        {"zh": "弹壳弹到你脚边。", "en": "A casing bounces at your feet."},
+        {"zh": "它用弹匣底部敲你的手。", "en": "It raps your hand with the magazine base."},
+        {"zh": "它压枪连射，震得手臂发麻。", "en": "It fires a burst that numbs its own arm."},
+        {"zh": "它把你的武器打偏了。", "en": "It knocks your weapon aside."},
+        {"zh": "硝烟糊住了它半边面罩。", "en": "Powder smoke clouds half its visor."},
+        {"zh": "它退一步，重新举枪。", "en": "It steps back and raises the gun again."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，这里是我们的领地！", "en": "Sssss, this is our territory!"},
+        {"zh": "我的领地，你懂的！", "en": "My territory, you know it!"},
+        {"zh": "欢迎来到我们的巢穴！", "en": "Welcome to our nest!"},
+        {"zh": "这里是我的地盘，别来惹我！", "en": "This is my territory, don't mess with me!"},
+        {"zh": "我从烟里走出来，枪已上膛。", "en": "I walk out of the smoke, gun chambered."},
+        {"zh": "我是Trauma Unit，你听说过吗？", "en": "I'm Trauma Unit, have you heard of me?"},
+        {"zh": "我们的声音来自黑暗之中！", "en": "Our voices come from the darkness!"},
+        {"zh": "我的力量来自无尽的战斗！", "en": "My strength comes from endless battles!"},
+        {"zh": "这是属于我们的地方！", "en": "This is our place!"},
+        {"zh": "准备好迎接死亡吧！", "en": "Get ready for death!"},
+        {"zh": "枪声先响，它才从烟里走出。", "en": "The shot comes first; then it walks out of the smoke."},
+        {"zh": "它从弹坑边缘站起来。", "en": "It rises from the lip of a crater."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火苗舔到我的绷带。", "en": "Flames lick at my bandages."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从台阶上翻了下去。", "en": "I tumble down the steps."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进枪管...", "en": "Water floods my barrel..."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把我掀进弹坑里。", "en": "The blast throws me into a crater."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "中弹了！", "en": "Shot by projectiles!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的护甲挡不住法术。", "en": "My armor won't stop spells."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弹药还在，力气没了...", "en": "Ammo left, strength gone..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打中我的天线，火花乱跳。", "en": "Lightning hits my antenna; sparks fly."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "装备太重，直往下沉…", "en": "My gear's too heavy — I'm sinking..."}
+      ]
+    }
+  }
+}

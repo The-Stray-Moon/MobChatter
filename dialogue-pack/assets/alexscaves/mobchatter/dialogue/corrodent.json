@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从墙里钻出来，沙落下。", "en": "I come out of the wall, sand falling."},
+        {"zh": "我伏低身子窜出去。", "en": "I flatten and dart out."},
+        {"zh": "我钻进石头，再钻出来。", "en": "I enter the stone and come out again."},
+        {"zh": "我一路留下细沙的痕。", "en": "I leave a trail of fine sand."},
+        {"zh": "我贴着地皮窜，尘土跟着。", "en": "I dart along the ground, dust trailing me."},
+        {"zh": "我从你脚边穿过去。", "en": "I shoot past your feet."},
+        {"zh": "我一边跑一边冒烟。", "en": "I run, trailing motes."},
+        {"zh": "我钻进地里，从前面出来。", "en": "I sink into the ground and surface ahead."},
+        {"zh": "我从石头边上窜过去。", "en": "I dart around the stone's edge."},
+        {"zh": "我贴着地面往你那边去。", "en": "I go low toward you."},
+        {"zh": "我在沙里穿行，很快。", "en": "I move through the sand, quick."},
+        {"zh": "我一停，粒子就沉下去。", "en": "When I stop, the motes settle."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我趴在石头下，不动。", "en": "I lie under a stone, still."},
+        {"zh": "我的身子很长，很细。", "en": "My body is long and thin."},
+        {"zh": "我的门牙合不拢，一直露。", "en": "My front teeth never meet; they show all the time."},
+        {"zh": "我在等，等光移开。", "en": "I wait for the light to move."},
+        {"zh": "我闻到空气里有铁。", "en": "I smell iron in the air."},
+        {"zh": "我把脸埋进土里。", "en": "I bury my face in the soil."},
+        {"zh": "我的爪子在地上刨。", "en": "I claw at the ground."},
+        {"zh": "我记得刚才那块光。", "en": "I remember that patch of light."},
+        {"zh": "我抖了抖，沙从背上落。", "en": "I shudder, and sand slides off."},
+        {"zh": "我很怕太亮的地方。", "en": "I'm afraid of bright places."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手里的灯，我很讨厌。", "en": "I hate that lamp in your hand."},
+        {"zh": "我缩回石头里一半。", "en": "I sink halfway into the stone."},
+        {"zh": "你的影子够我躲。", "en": "Your shadow is enough to hide in."},
+        {"zh": "我看你的脚，不看脸。", "en": "I watch your feet, not your face."},
+        {"zh": "你往前一步，我就退。", "en": "One step from you and I retreat."},
+        {"zh": "我把头低下去，牙还露着。", "en": "I lower my head, teeth still out."},
+        {"zh": "这地方的光太足。", "en": "There's too much light here."},
+        {"zh": "你身上有沙的味道。", "en": "You smell of sand."},
+        {"zh": "我没打算跟你打。", "en": "I'm not looking for a fight."},
+        {"zh": "你挡住灯，我就出来。", "en": "Block the lamp, and I'll come out."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我钻回墙里一半。", "en": "I sink halfway back into the wall."},
+        {"zh": "我缩起来，牙还露着。", "en": "I curl up, teeth still out."},
+        {"zh": "我咬着石头退开。", "en": "I bite the stone and retreat."},
+        {"zh": "这一下让我动不了了。", "en": "That stopped me moving."},
+        {"zh": "我抖了抖，沙落下来。", "en": "I shudder, and sand falls."},
+        {"zh": "我不叫，我只想躲。", "en": "I don't cry out; I only want to hide."},
+        {"zh": "我往暗的地方挪。", "en": "I shift toward the dark."},
+        {"zh": "尾巴少了一截，还在扭。", "en": "A piece of my tail is gone, and it still writhes."},
+        {"zh": "我僵在石头边，连气都不出。", "en": "I stiffen against the stone, not even breathing."},
+        {"zh": "我还能钻，慢一点。", "en": "I can still burrow, slowly."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你把灯关掉，我就靠近。", "en": "Put the lamp out, and I'll come near."},
+        {"zh": "暗一点更好。", "en": "A little darker is better."},
+        {"zh": "你手里那个在响。", "en": "That thing in your hand clicks."},
+        {"zh": "有血味，就在近处。", "en": "Blood smell, very near."},
+        {"zh": "我朝你那边挪了半寸。", "en": "I shift half an inch your way."},
+        {"zh": "把灯压低，我就探出头。", "en": "Lower the lamp, and I'll poke my head out."},
+        {"zh": "黑的地方才安全。", "en": "Only the dark is safe."},
+        {"zh": "你把东西放在角落里。", "en": "Put it in the corner."},
+        {"zh": "我再挪半寸，就够到。", "en": "Half an inch more and I'm within reach."},
+        {"zh": "那点亮太刺眼了，挪开。", "en": "That glow stings; move it."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到我，我钻了一半。", "en": "You hit me, and I'm halfway into the floor."},
+        {"zh": "我退进墙里，只剩头。", "en": "I retreat into the wall, only my head out."},
+        {"zh": "我们碰上，你手上的灯晃。", "en": "We collide, and your lamp sways."},
+        {"zh": "我的牙刮过你的靴子。", "en": "My teeth scrape your boot."},
+        {"zh": "我绕开你，钻到另一边。", "en": "I circle you and sink through the other side."},
+        {"zh": "你的脚压住我的尾尖。", "en": "Your foot pins my tail tip."},
+        {"zh": "我撞在石头上，弹开。", "en": "I hit the stone and bounce off."},
+        {"zh": "我一碰就退，光太近了。", "en": "One touch and I retreat; the light is too close."},
+        {"zh": "你的影子压在我身上。", "en": "Your shadow presses on me."},
+        {"zh": "我们分开，土还在落。", "en": "We part, and the soil still falls."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "另一条从墙里探出头。", "en": "Another pokes its head from the wall."},
+        {"zh": "她的牙比我的短。", "en": "Her teeth are shorter than mine."},
+        {"zh": "两条长身子挤进同一道缝。", "en": "Two long bodies squeeze into the same crack."},
+        {"zh": "她把沙推到我面前。", "en": "She pushes sand toward me."},
+        {"zh": "我们一起在土里穿行。", "en": "We travel through the soil together."},
+        {"zh": "她的身子比我软。", "en": "Her body is softer than mine."},
+        {"zh": "我们在暗处对着头。", "en": "We face each other in the dark."},
+        {"zh": "我们一起等光灭。", "en": "We wait for the light to go out."},
+        {"zh": "两条长身子，一道沙痕。", "en": "Two long bodies, one sandy trail."},
+        {"zh": "我们不叫，只用牙碰。", "en": "We don't call; we touch teeth."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我咬住你的箭，拖进土里。", "en": "I bite your arrow and drag it under."},
+        {"zh": "我把地上的骨头顶走。", "en": "I push the bone along with my head."},
+        {"zh": "我挖出一块砂土，含在嘴里。", "en": "I dig up sandy dirt and hold it."},
+        {"zh": "我把你的手套拖到墙角。", "en": "I drag your glove into the corner."},
+        {"zh": "我咬住一片布，甩了甩。", "en": "I bite a cloth and shake it."},
+        {"zh": "我捡起一颗石子，吞了。", "en": "I pick up a pebble and swallow it."},
+        {"zh": "我把掉下的果核叼走。", "en": "I carry off the fallen pit."},
+        {"zh": "我挖出一枚箭镞。", "en": "I dig out an arrowhead."},
+        {"zh": "我把你的披风拽进裂缝。", "en": "I pull your cloak into the crack."},
+        {"zh": "我咬住一根须，扯断了。", "en": "I bite a root and snap it."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你把灯放下了，很好。", "en": "You set the lamp down; good."},
+        {"zh": "你的脚步从土上传下来。", "en": "Your steps travel down through the soil."},
+        {"zh": "这一片暗归我。", "en": "This patch of dark is mine."},
+        {"zh": "我钻进你脚下的土层里。", "en": "I burrow into the soil under your feet."},
+        {"zh": "你的影子在动，我盯着。", "en": "Your shadow moves; I'm watching."},
+        {"zh": "你背对着光了。", "en": "You've turned your back to the light."},
+        {"zh": "我开始钻了。", "en": "I've started burrowing."},
+        {"zh": "那个角落很适合。", "en": "That corner suits me."},
+        {"zh": "你的脚步声太规律。", "en": "Your steps are too regular."},
+        {"zh": "地底下，我先听见你的脚步。", "en": "Underground, I hear your steps first."},
+        {"zh": "别回头看，我在你脚边。", "en": "Don't look back."},
+        {"zh": "石头在我面前，像软土一样。", "en": "Stone is like soft earth in front of me."},
+        {"zh": "我把身子压低，先等。", "en": "I flatten and wait first."},
+        {"zh": "你正好站在裂缝上面。", "en": "You're standing right over the crack."},
+        {"zh": "这次光不会救你。", "en": "The light won't save you this time."},
+        {"zh": "你的脚步，我一条条数。", "en": "I count your steps one by one."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在土里跟着你。", "en": "I follow you through the soil."},
+        {"zh": "土面微微动了一下。", "en": "The soil stirs faintly."},
+        {"zh": "你的脚一停，我就不敢动。", "en": "Your foot stops, and I freeze."},
+        {"zh": "我从你的侧面绕过去。", "en": "I circle around your flank."},
+        {"zh": "你的灯照不到脚下。", "en": "Your lamp doesn't reach your feet."},
+        {"zh": "我在等你的灯灭。", "en": "I wait for your lamp to die."},
+        {"zh": "土下到你的鞋底，只差一点。", "en": "From under the soil I'm a whisker from your sole."},
+        {"zh": "我咬了一口你的影子。", "en": "I bite at your shadow."},
+        {"zh": "你听见沙在响吗？", "en": "Do you hear the sand?"},
+        {"zh": "我把头低下去，准备冲。", "en": "I lower my head, ready to rush."},
+        {"zh": "你再往前一步，就踩到我了。", "en": "One more step and you're on me."},
+        {"zh": "我退开了，光太亮。", "en": "I withdraw; the light is too bright."},
+        {"zh": "我在你脚边的土里。", "en": "I'm in the soil at your feet."},
+        {"zh": "我把身子扭过去，掉头。", "en": "I twist around and reverse."},
+        {"zh": "你的灯往左照，我往右。", "en": "Your lamp swings left; I go right."},
+        {"zh": "我贴着石壁慢慢挪。", "en": "I creep along the stone wall."},
+        {"zh": "我背上的沙一动就往下滑。", "en": "The sand on my back slides off at the least move."},
+        {"zh": "我再等一等，光就弱了。", "en": "I wait a little; the light will weaken."},
+        {"zh": "我把爪子收起来，不响。", "en": "I draw my claws in, silent."},
+        {"zh": "你换了手提灯，我看见了。", "en": "You switched the lamp hand; I saw."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从土里窜出来咬你。", "en": "I burst from the soil and bite."},
+        {"zh": "我的牙咬进你的靴子。", "en": "My teeth sink into your boot."},
+        {"zh": "我撞你的膝弯。", "en": "I butt the back of your knee."},
+        {"zh": "我拖住你的脚往下。", "en": "I drag your foot down."},
+        {"zh": "这一下从侧面来的。", "en": "That came from the side."},
+        {"zh": "咬过一口，我缩回土里。", "en": "One bite and I sink back into soil."},
+        {"zh": "我甩头，把你带偏。", "en": "I whip my head and pull you off balance."},
+        {"zh": "我的爪子抓着你的小腿。", "en": "My claws grip your calf."},
+        {"zh": "它退开了，我又跟上。", "en": "It pulls back; I follow."},
+        {"zh": "我咬住它的护甲缝。", "en": "I bite into its armor seam."},
+        {"zh": "我咬住你的脚踝，甩头。", "en": "I bite your ankle and shake."},
+        {"zh": "我从侧后方扑。", "en": "I spring from the rear flank."},
+        {"zh": "牙卡在甲上，我拔了两次。", "en": "My teeth stick in the plate; I pull twice."},
+        {"zh": "我把你往沙里拖。", "en": "I drag you toward the sand."},
+        {"zh": "这一下咬在你的手背。", "en": "This bite lands on the back of your hand."},
+        {"zh": "我缩回沙里，只留尾巴。", "en": "I sink back, leaving only my tail."},
+        {"zh": "我撞开一块挡路的石头。", "en": "I shove aside a stone in my way."},
+        {"zh": "你退了，我才露头。", "en": "You back off; only then do I show my head."},
+        {"zh": "我又从另一侧出来。", "en": "I come out on the other side."},
+        {"zh": "这一口很浅，但我很快。", "en": "That bite was shallow, but quick."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石壁里钻出一个头。", "en": "A head comes out of the stone wall."},
+        {"zh": "我从沙土里拱出来。", "en": "I push up out of the sandy soil."},
+        {"zh": "这里暗，很好。", "en": "It's dark here; good."},
+        {"zh": "我先找一条裂缝。", "en": "First I find a crack."},
+        {"zh": "我的身子还沾着土。", "en": "My body is still caked with dirt."},
+        {"zh": "我听见有东西在呼吸。", "en": "I hear something breathing."},
+        {"zh": "我把头低下来，钻进去。", "en": "I lower my head and burrow in."},
+        {"zh": "周围太亮了，我眯起眼。", "en": "It's too bright; I squint."},
+        {"zh": "我在墙里等了一会。", "en": "I waited a while inside the wall."},
+        {"zh": "我把背上的沙抖落。", "en": "I shake the sand off my back."},
+        {"zh": "我扒着石缝往外看。", "en": "I peer out through the crack."},
+        {"zh": "土里还有我的味道。", "en": "My scent is still in the soil."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火光照得我睁不开眼，我钻下去。", "en": "The firelight blinds me; I burrow down."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉下去，土跟着落。", "en": "I fall, and the soil falls with me."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进洞里，我往上拱。", "en": "Water fills the burrow; I push upward."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸开的气浪把墙震裂。", "en": "The blast cracks the wall open."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭钉在我旁边，我缩回去。", "en": "An arrow lands beside me; I shrink back."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有光缠住我，我钻不进去。", "en": "A light binds me; I can't burrow."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我饿得没力气挖。", "en": "I'm too hungry to dig."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光一亮，我整个人僵了。", "en": "A flash of lightning freezes me."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里没有土，也没有墙。", "en": "There's no soil here, and no wall."}
+      ]
+    }
+  }
+}

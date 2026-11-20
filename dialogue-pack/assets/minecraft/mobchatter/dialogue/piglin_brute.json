@@ -1,0 +1,256 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "让路，我只走直线。", "en": "Clear the way. I walk straight lines."},
+        {"zh": "斧子拖在地上，划出印子。", "en": "My axe drags and leaves a groove."},
+        {"zh": "堡垒的每块砖，我都踩过。", "en": "I have stepped on every brick of this bastion."},
+        {"zh": "脚步重，是因为我懒得轻。", "en": "My steps are heavy because I cannot be bothered to soften them."},
+        {"zh": "走廊尽头有我的人。", "en": "My kin hold the end of this hall."},
+        {"zh": "别跟太近，斧子会回头。", "en": "Not so close. The axe swings back."},
+        {"zh": "巡逻一圈，再一圈。", "en": "One patrol, then another."},
+        {"zh": "地砖裂了，是我踩的。", "en": "That cracked tile is mine."},
+        {"zh": "我走得慢，但从不绕路。", "en": "Slow, but I never take a detour."},
+        {"zh": "肩甲碰墙，响一路。", "en": "Pauldron on stone, clanging the whole way."},
+        {"zh": "这层楼归我管。", "en": "This floor answers to me."},
+        {"zh": "一步一停，听有没有人。", "en": "A step, a pause, listening for intruders."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "斧刃该磨了，明天磨。", "en": "The axe needs honing. Tomorrow."},
+        {"zh": "我不用数金子，我只守门。", "en": "I do not count gold. I hold the door."},
+        {"zh": "安静。这层楼就该这样。", "en": "Quiet. This floor should stay this way."},
+        {"zh": "底下有动静，是猪灵在吵。", "en": "Noise below. The piglins are bickering."},
+        {"zh": "我不换东西，别拿货来。", "en": "I do not trade. Bring me nothing."},
+        {"zh": "站久了，腿像石头。", "en": "Standing this long, my legs turn to stone."},
+        {"zh": "这座堡垒比我老。", "en": "This bastion is older than I am."},
+        {"zh": "火光晃，影子也跟着晃。", "en": "The fire flickers; my shadow flickers with it."},
+        {"zh": "我数砖缝，数到一百。", "en": "I count the brick seams. Up to a hundred."},
+        {"zh": "有人在下面敲门，不理。", "en": "Someone knocks below. Ignore it."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "金盔甲？在我这儿没用。", "en": "Gold armor? Useless against me."},
+        {"zh": "你站在我的台阶上。", "en": "You are standing on my stair."},
+        {"zh": "抬头，让我看看你的武器。", "en": "Look up. Show me your weapon."},
+        {"zh": "眼神别躲，我不喜欢。", "en": "Do not avert your eyes. I dislike it."},
+        {"zh": "你身上有股外来的味。", "en": "You smell of somewhere else."},
+        {"zh": "这里不该有你。", "en": "You do not belong here."},
+        {"zh": "手放开剑柄，慢慢放。", "en": "Let go of that hilt. Slowly."},
+        {"zh": "你在算距离，我看见了。", "en": "You are measuring the distance. I saw."},
+        {"zh": "我不问你从哪来。", "en": "I will not ask where you came from."},
+        {"zh": "站好了，别退。", "en": "Stand still. Do not back away."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你居然划破了我。", "en": "You actually cut me."},
+        {"zh": "退开，我要挥斧。", "en": "Back away. I am swinging."},
+        {"zh": "这点伤，不算什么。", "en": "This wound is nothing."},
+        {"zh": "疼会让我更快。", "en": "Pain makes me faster."},
+        {"zh": "你砍在我肩甲上，白费。", "en": "You struck the pauldron. Wasted."},
+        {"zh": "再来，别停手。", "en": "Again. Do not stop."},
+        {"zh": "血顺着斧柄往下流。", "en": "Blood runs down the haft."},
+        {"zh": "我站着，就还没输。", "en": "I am standing, so I have not lost."},
+        {"zh": "这一下，我记住了你。", "en": "Now I know you."},
+        {"zh": "别以为我会退。", "en": "Do not expect me to retreat."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "金子？拿走，我不换。", "en": "Gold? Take it away. I do not trade."},
+        {"zh": "你举着金锭，像在喂猪。", "en": "You hold out an ingot as if feeding a pig."},
+        {"zh": "贿赂我的人，都躺下了。", "en": "Everyone who bribed me is lying down."},
+        {"zh": "我不缺东西，只缺对手。", "en": "I lack nothing except an opponent."},
+        {"zh": "把金锭收好，别晃我眼。", "en": "Put the ingot away before it blinds me."},
+        {"zh": "这一套对楼下那些有用。", "en": "That trick works on the ones downstairs."},
+        {"zh": "我不要你的货，我要你的位置。", "en": "I do not want your goods. I want your place."},
+        {"zh": "你手里那点金子，不够买命。", "en": "That gold will not buy your life."},
+        {"zh": "再举高一点，我就当挑衅。", "en": "Raise it higher and I take it as a challenge."},
+        {"zh": "钱在这儿不值钱，斧子才值。", "en": "Coin means nothing here. The axe does."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "撞我，就要付代价。", "en": "Bump me and you pay for it."},
+        {"zh": "我站着不动，你自己弹开。", "en": "I stand still; you bounce off."},
+        {"zh": "肩甲撞你，算轻的。", "en": "A pauldron check is the gentle option."},
+        {"zh": "别贴墙走，那儿是我的位置。", "en": "Do not hug the wall. That is my spot."},
+        {"zh": "退三步，重新站。", "en": "Three steps back. Start again."},
+        {"zh": "你撞上来的样子很慌。", "en": "You looked panicked when you hit me."},
+        {"zh": "门框窄，我先进。", "en": "The doorway is narrow. I go first."},
+        {"zh": "这一下，我记住了你的重量。", "en": "Now I know how heavy you are."},
+        {"zh": "碰撞也算试探？幼稚。", "en": "Call that a test? Childish."},
+        {"zh": "再来一次，我就动斧。", "en": "Once more and the axe comes out."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蛮兵不谈这个。", "en": "Brutes do not discuss such things."},
+        {"zh": "我的伴，是这把斧。", "en": "My companion is this axe."},
+        {"zh": "楼下的事，别拿到楼上来。", "en": "Keep downstairs business downstairs."},
+        {"zh": "我不留后代，只留名声。", "en": "I leave no heirs, only a name."},
+        {"zh": "别靠过来，我身上全是铁。", "en": "Stay back. I am all iron."},
+        {"zh": "一个人守一层，够了。", "en": "One guard for one floor. Enough."},
+        {"zh": "我生来就一个人站着。", "en": "I was born standing alone."},
+        {"zh": "感情会让人松手，我不松。", "en": "Attachment loosens the grip. Mine never loosens."},
+        {"zh": "这座堡垒就是我的家。", "en": "This bastion is my household."},
+        {"zh": "问这些，还不如问我的斧。", "en": "Ask my axe instead."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不捡东西，我只拿。", "en": "I do not pick things up. I take them."},
+        {"zh": "地上的金子，留给楼下。", "en": "Gold on the floor is for downstairs."},
+        {"zh": "斧柄松了，我换一根。", "en": "The haft loosened. I will swap it."},
+        {"zh": "这块石头趁手，我带走。", "en": "This stone fits my hand. I keep it."},
+        {"zh": "别在我脚边捡，滚开。", "en": "Do not scavenge at my feet. Move."},
+        {"zh": "我手上只握斧，别的都嫌轻。", "en": "My hand holds only an axe; all else feels light."},
+        {"zh": "谁掉的，谁自己来拿。", "en": "Whoever dropped it can come fetch it."},
+        {"zh": "骨头？留着喂下面的东西。", "en": "Bones? Leave them for what waits below."},
+        {"zh": "这玩意儿砸得死人，我收着。", "en": "This thing can kill. I will keep it."},
+        {"zh": "我弯腰一次，你就该跑。", "en": "If I bend down once, you should run."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "入侵者。今天只来了一个。", "en": "An intruder. Only one today."},
+        {"zh": "你踏进了禁地。", "en": "You stepped into the forbidden hall."},
+        {"zh": "金子护不住你，我保证。", "en": "Gold will not shield you. I promise."},
+        {"zh": "我看见了，别躲柱子后。", "en": "I see you. Do not hide behind the pillar."},
+        {"zh": "斧子已经抬起来了。", "en": "The axe is already raised."},
+        {"zh": "这一层，只许我站着。", "en": "On this floor, only I stand."},
+        {"zh": "他先动手的，我记下了。", "en": "He moved first. Noted."},
+        {"zh": "猎物自己送上门。", "en": "The prey delivered itself."},
+        {"zh": "锁门。别让他跑。", "en": "Bar the door. He does not leave."},
+        {"zh": "目标矮，得弯腰砍。", "en": "Short target. I will have to stoop."},
+        {"zh": "他带了很多东西，正好。", "en": "He brought plenty. Convenient."},
+        {"zh": "眼睛盯住了，脚也动了。", "en": "Eyes fixed, feet moving."},
+        {"zh": "站住，这是我最后一句客气话。", "en": "Halt. That was my last polite word."},
+        {"zh": "开始吧，别拖。", "en": "Begin. Do not dawdle."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "别跑，跑也没用。", "en": "Do not run. It will not help."},
+        {"zh": "一步。再两步，就够近。", "en": "One step. Two more and close enough."},
+        {"zh": "他退到墙角了。", "en": "He has backed into the corner."},
+        {"zh": "斧子拖地，声音先到。", "en": "The axe scrapes; the sound arrives first."},
+        {"zh": "我不用瞄，我砍得够宽。", "en": "No need to aim. My swing is wide."},
+        {"zh": "他把盾举起来了，没用。", "en": "He raised a shield. Useless."},
+        {"zh": "他在数我的步子，太慢。", "en": "He is counting my steps. Too slow."},
+        {"zh": "我挡住了唯一的路。", "en": "I am the only road out."},
+        {"zh": "呼吸声这么响，藏不住。", "en": "Breathing that loud will not hide you."},
+        {"zh": "他手在抖，快了。", "en": "His hand is shaking. Soon."},
+        {"zh": "再走一步，就进我的范围。", "en": "One more step into my reach."},
+        {"zh": "火把照着我，我不在乎。", "en": "The torch lights me. I do not care."},
+        {"zh": "他往左看，我就堵左边。", "en": "He looks left, so I block left."},
+        {"zh": "抬头，看着我。", "en": "Look up. Look at me."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一斧，够了。", "en": "One axe stroke. Enough."},
+        {"zh": "金斧砍盾，盾会裂。", "en": "Gold axe on shield — the shield splits."},
+        {"zh": "你飞出去了，别怪墙。", "en": "You flew. Blame the wall."},
+        {"zh": "血在地上，擦不干净。", "en": "Blood on the floor does not wipe clean."},
+        {"zh": "这一下打断你的呼吸。", "en": "That one took your breath."},
+        {"zh": "别跪，站起来打。", "en": "Do not kneel. Get up and fight."},
+        {"zh": "斧背比斧刃更疼。", "en": "The flat of the axe hurts more."},
+        {"zh": "你挡得住一下，挡不住三下。", "en": "You blocked one. Not three."},
+        {"zh": "这一斧，为堡垒。", "en": "This stroke is for the bastion."},
+        {"zh": "骨头的声音，我熟。", "en": "The sound of bone. I know it well."},
+        {"zh": "你退，我压上去。", "en": "You retreat; I press in."},
+        {"zh": "甲片飞了，捡不回来。", "en": "Armor plates flew off. You will not find them."},
+        {"zh": "喊吧，没人来。", "en": "Scream. No one is coming."},
+        {"zh": "倒下了，就别再起来。", "en": "Down means stay down."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "堡垒建成那天，我就在。", "en": "I was here the day the bastion rose."},
+        {"zh": "我只从这里出生，一次。", "en": "I am born here once, and never again."},
+        {"zh": "这一层，从今天起归我。", "en": "This floor is mine from today."},
+        {"zh": "斧子在手里，位置在门口。", "en": "Axe in hand, post at the door."},
+        {"zh": "没有第二个我，你记住。", "en": "There is no second of me. Remember that."},
+        {"zh": "楼下的猪灵太吵，我上来。", "en": "The piglins below are loud. I came up."},
+        {"zh": "火光里，我站起来。", "en": "In the firelight, I rise."},
+        {"zh": "这里少一个守卫，我补上。", "en": "This hall lacked a guard. I fill it."},
+        {"zh": "我数过了，这层只有我。", "en": "I counted. This floor has only me."},
+        {"zh": "有人闯进来过，墙上有痕。", "en": "Someone broke in before. The wall shows it."},
+        {"zh": "斧柄递到我手上，就这么简单。", "en": "The haft was put in my hand. Simple as that."},
+        {"zh": "世界只有一个我，够用了。", "en": "One of me per world is plenty."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火舔到我的皮，滚开。", "en": "Fire licked my hide. Get it off."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔下来，膝盖先着地。", "en": "I landed on my knees."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水？下界没有这东西。", "en": "Water? We have none of that here."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸得砖都掉了。", "en": "The blast knocked bricks loose."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭插在背上，碍事。", "en": "An arrow in my back. In the way."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这股味道，像腐肉。", "en": "This reek is like rotten flesh."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿着也能守门。", "en": "I can hold a door hungry."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "天上打雷，斧子发麻。", "en": "Thunder from above; my axe buzzes."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进空处，连回声都没有。", "en": "Falling into nothing, without even an echo."}
+      ]
+    }
+  }
+}

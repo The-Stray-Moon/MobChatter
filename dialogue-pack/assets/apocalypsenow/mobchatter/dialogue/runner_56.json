@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我踮着脚往前冲。", "en": "I lurch forward on my toes."},
+        {"zh": "我的腿一软一硬，跑得歪。", "en": "My legs go limp then stiff; I run crooked."},
+        {"zh": "我把挡路的推倒。", "en": "I shove down whatever blocks me."},
+        {"zh": "我的下巴垂着，合不上。", "en": "My jaw hangs loose and won't close."},
+        {"zh": "我从废墟的缝里挤过去。", "en": "I squeeze through a gap in the ruins."},
+        {"zh": "我跑起来像摔，可不停。", "en": "I run like I'm falling, but I don't stop."},
+        {"zh": "我身上那件衣服已经很旧。", "en": "These clothes of mine are very old."},
+        {"zh": "我的脚掌磨破了，还在跑。", "en": "My soles are worn through, and I keep running."},
+        {"zh": "我沿着马路一直追。", "en": "I run straight down the road."},
+        {"zh": "我一瘸一拐，还是要走。", "en": "Limping, I still go on."},
+        {"zh": "我的胳膊甩得很不自然。", "en": "My arms swing unnaturally."},
+        {"zh": "我把手伸在前面够着。", "en": "I reach ahead with both hands."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，头歪向一边。", "en": "I stand with my head cocked."},
+        {"zh": "我喉咙里有声音，说不成句。", "en": "There's a sound in my throat, not words."},
+        {"zh": "我不记得自己原来是谁。", "en": "I don't remember who I was."},
+        {"zh": "我在听哪儿有人。", "en": "I'm listening for people."},
+        {"zh": "我的手指在抽。", "en": "My fingers keep twitching."},
+        {"zh": "巷子口飘来一点热气。", "en": "A faint warmth drifts out of the alley mouth."},
+        {"zh": "我还没倒下，就一直走。", "en": "Until I fall, I keep walking."},
+        {"zh": "我身上很凉，没有温度。", "en": "I'm cold. No warmth left."},
+        {"zh": "我抬头看天，很灰。", "en": "I look up. The sky is grey."},
+        {"zh": "我歪着站，腿在抖。", "en": "I stand askew, legs trembling."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你身上是热的。", "en": "You're warm."},
+        {"zh": "我盯着你的脖子。", "en": "I'm staring at your neck."},
+        {"zh": "你退后，我就往前。", "en": "You back away; I come on."},
+        {"zh": "我认得那种眼神。", "en": "I know that look in your eye."},
+        {"zh": "你的手在抖。", "en": "Your hands are shaking."},
+        {"zh": "我咬一口就够了。", "en": "One bite is enough."},
+        {"zh": "你别跑，跑不掉的。", "en": "Don't run. You won't get away."},
+        {"zh": "我以前也这么站着。", "en": "I used to stand like that too."},
+        {"zh": "你的护甲挡不住牙。", "en": "Your armor won't stop teeth."},
+        {"zh": "我一步一步靠近。", "en": "I close in, step by step."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我倒退了一步。", "en": "I stagger back a step."},
+        {"zh": "腰上少了一块，不流血。", "en": "A piece is gone from my side, and no blood comes."},
+        {"zh": "我嘶了一声，继续走。", "en": "I rasp and keep walking."},
+        {"zh": "小腿折了，我改用爬的。", "en": "My shin is folded; I switch to crawling."},
+        {"zh": "单膝跪地，手掌撑了一下。", "en": "One knee hits the ground; my palm braces once."},
+        {"zh": "我不觉得疼。", "en": "I don't feel pain."},
+        {"zh": "我的手臂软了。", "en": "My arm has gone slack."},
+        {"zh": "我还得往前走。", "en": "I still have to walk."},
+        {"zh": "你打得我歪了。", "en": "You knocked me crooked."},
+        {"zh": "我会一直追。", "en": "I'll keep chasing."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那是吃的吗？", "en": "Is that food?"},
+        {"zh": "我往前凑。", "en": "I lean toward it."},
+        {"zh": "我要那个。", "en": "I want that."},
+        {"zh": "你举着，我够。", "en": "You hold it up; I reach."},
+        {"zh": "这点不够。", "en": "Not enough."},
+        {"zh": "我咬你的手。", "en": "I'll bite your hand."},
+        {"zh": "食物换不来命。", "en": "Food won't buy your life."},
+        {"zh": "我闻着，很香。", "en": "It smells good."},
+        {"zh": "你丢下来。", "en": "Drop it."},
+        {"zh": "我不挑。", "en": "I'm not picky."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞我，我歪了一下。", "en": "You hit me and I lurch."},
+        {"zh": "我不退，我压过去。", "en": "I don't yield; I press in."},
+        {"zh": "我抓你的衣服。", "en": "I grab your clothes."},
+        {"zh": "你推我，我又回来。", "en": "You push me off; I come back."},
+        {"zh": "我的身体很轻，可很执拗。", "en": "I'm light, but stubborn."},
+        {"zh": "你的鞋跟碾过我的脚背。", "en": "Your heel grinds across the top of my foot."},
+        {"zh": "我撞在墙上，接着走。", "en": "I hit the wall and keep going."},
+        {"zh": "这点碰撞不算伤。", "en": "That knock is nothing."},
+        {"zh": "我从你身边挤过去。", "en": "I shove past you."},
+        {"zh": "我贴着你，不松。", "en": "I stay against you and don't let go."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "另一只也在街上走。", "en": "Another one walks the street too."},
+        {"zh": "我们互相嗅了嗅。", "en": "We sniff each other."},
+        {"zh": "它缺了半条胳膊。", "en": "It's missing half an arm."},
+        {"zh": "我们一起往声音那边走。", "en": "We head toward the sound together."},
+        {"zh": "同类之间不分食。", "en": "Our kind don't share food."},
+        {"zh": "它咬了我一口，我不在乎。", "en": "It bit me. I don't care."},
+        {"zh": "我们走成一前一后。", "en": "We walk, one behind the other."},
+        {"zh": "它跌倒了，我也没停。", "en": "It fell. I didn't stop."},
+        {"zh": "街上这样的很多。", "en": "There are many of us on the street."},
+        {"zh": "我们一直走到倒下。", "en": "We walk until we drop."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抓起来就往嘴里塞。", "en": "I grab it and shove it in my mouth."},
+        {"zh": "地上那点东西，我捡。", "en": "I pick up what's on the ground."},
+        {"zh": "我拎着它，手垂得很低。", "en": "I carry it with my hand hanging low."},
+        {"zh": "珍珠咬着硬的。", "en": "The pearl is hard on my teeth."},
+        {"zh": "掉落的东西，我都要。", "en": "I want all of it."},
+        {"zh": "我抓不稳，它掉了。", "en": "My grip fails and it drops."},
+        {"zh": "我用胸口把它捂住了。", "en": "I smother it under my chest."},
+        {"zh": "我把它丢下，又低头找。", "en": "I drop it and lower my head to search again."},
+        {"zh": "我把它塞进破口袋。", "en": "I stuff it into a torn pocket."},
+        {"zh": "手不听使唤，很难捡。", "en": "My hands won't obey; picking things up is hard."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在那儿。", "en": "You're there."},
+        {"zh": "我闻到血了。", "en": "I smell blood."},
+        {"zh": "我加快脚步。", "en": "I quicken my pace."},
+        {"zh": "我把手伸在前面。", "en": "I reach out ahead."},
+        {"zh": "你的味道很浓。", "en": "Your scent is strong."},
+        {"zh": "我锁定了你的方向。", "en": "I've fixed on your direction."},
+        {"zh": "我喉咙里发出声音。", "en": "A sound rises in my throat."},
+        {"zh": "你跑，我追。", "en": "You run; I follow."},
+        {"zh": "我拖着腿也追得上你。", "en": "Even dragging a leg, I catch you."},
+        {"zh": "我先咬住袖子，再往里。", "en": "I bite the sleeve first, then bite deeper."},
+        {"zh": "这条街只有你我。", "en": "Only us on this street."},
+        {"zh": "我往前倾，脚已经离地。", "en": "I lean forward, one foot already off the ground."},
+        {"zh": "我听见你的呼吸。", "en": "I hear your breathing."},
+        {"zh": "你别想走出这条巷。", "en": "You won't leave this alley."},
+        {"zh": "我动了。", "en": "I'm moving."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你拐进巷子了。", "en": "You turned into the alley."},
+        {"zh": "我一直跟着。", "en": "I keep following."},
+        {"zh": "你踩到的碎玻璃响了。", "en": "The glass you stepped on rang out."},
+        {"zh": "我掠过低矮的墙。", "en": "I lurch over the low wall."},
+        {"zh": "你换方向，我跟着转。", "en": "You change course; I turn with you."},
+        {"zh": "我的脚步声很乱。", "en": "My footsteps are ragged."},
+        {"zh": "你躲到车后面。", "en": "You're behind the car."},
+        {"zh": "我等你自己出来。", "en": "I wait for you to come out."},
+        {"zh": "你越跑越慢。", "en": "You're slowing."},
+        {"zh": "我停不下来，我会一直走。", "en": "I can't stop. I keep walking."},
+        {"zh": "你的影子还在我前面。", "en": "Your shadow is still ahead of me."},
+        {"zh": "我一刻也没离开。", "en": "I haven't left you once."},
+        {"zh": "你退到死胡同了。", "en": "You've backed into a dead end."},
+        {"zh": "我再近一点。", "en": "A little closer."},
+        {"zh": "你身上有血味了。", "en": "You smell of blood now."},
+        {"zh": "我听见你喘。", "en": "I hear you gasping."},
+        {"zh": "这条路我熟。", "en": "I know this road."},
+        {"zh": "你还有几步。", "en": "You have a few steps left."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我扑上去咬你的手臂。", "en": "I lunge and bite your arm."},
+        {"zh": "我的牙卡在护甲缝里。", "en": "My teeth jam in your armor's seam."},
+        {"zh": "这一口会流血不止。", "en": "This bite won't stop bleeding."},
+        {"zh": "指甲划过去，只刮到衣角。", "en": "My nails rake past and catch only the hem of your coat."},
+        {"zh": "我的指甲抓进你的袖子。", "en": "My nails sink into your sleeve."},
+        {"zh": "你被我压得踉跄。", "en": "My weight staggers you."},
+        {"zh": "我咬你的小腿。", "en": "I bite your calf."},
+        {"zh": "这一下，你跑不动了。", "en": "Now you can't run."},
+        {"zh": "我喉里发出嘶声。", "en": "I rasp in my throat."},
+        {"zh": "你退了，我接着扑。", "en": "You back off; I lunge again."},
+        {"zh": "我一口咬在肩上。", "en": "I bite down on your shoulder."},
+        {"zh": "这伤会烂很久。", "en": "That wound will fester a long while."},
+        {"zh": "我撞你的胸口。", "en": "I slam into your chest."},
+        {"zh": "你护住了一边，另一边空了。", "en": "You guard one side; the other is open."},
+        {"zh": "牙咬进去，扯下一块布。", "en": "My teeth sink in and tear off a strip of cloth."},
+        {"zh": "我的牙上带着血。", "en": "There's blood on my teeth."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从瓦砾下面撑起来。", "en": "I push up out of the rubble."},
+        {"zh": "街上多了一个影子。", "en": "One more shadow on the street."},
+        {"zh": "我歪着站稳。", "en": "I steady myself, crooked."},
+        {"zh": "我不记得怎么死的。", "en": "I don't remember how I died."},
+        {"zh": "我的喉咙发出第一声。", "en": "The first sound leaves my throat."},
+        {"zh": "这里还有活人的味道。", "en": "There's still the smell of the living here."},
+        {"zh": "我从巷子口走出来。", "en": "I come out of the alley mouth."},
+        {"zh": "土从肩头一块块滑下去。", "en": "Clods of earth slide off my shoulders one by one."},
+        {"zh": "我的手指开始动了。", "en": "My fingers begin to move."},
+        {"zh": "这地方我好像来过。", "en": "I think I've been here before."},
+        {"zh": "我一步一步走进光里。", "en": "I step into the light."},
+        {"zh": "灰尘从我衣服上落下。", "en": "Dust falls from my clothes."},
+        {"zh": "我的下颚咔了一声。", "en": "My jaw clicks once."},
+        {"zh": "我抬头，找声音的来源。", "en": "I raise my head toward the sound."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火一烧，我的皮就缩了。", "en": "Fire shrinks my skin."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔下来，我的骨头响了一下。", "en": "I fall and my bones knock."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进肺里，我还在走。", "en": "Water fills my lungs; I keep walking."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆风把我整条腿掀掉。", "en": "The blast tears off a whole leg."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭扎进我的胸口。", "en": "An arrow sinks into my chest."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "光烧着我的神经。", "en": "Light burns along my nerves."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我早就想吃东西了。", "en": "I've been hungry this whole time."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈下来，我整个人一抽。", "en": "Lightning strikes; my whole body jerks."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我往下掉，手臂还伸着。", "en": "I fall, arms still reaching."}
+      ]
+    }
+  }
+}

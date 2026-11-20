@@ -1,0 +1,288 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低吼前行，阴影在移动。", "en": "Rumbles forward, shadows move."},
+        {"zh": "漂移石中穿行，黑影渐近。", "en": "Wanders through driftstone, shadow approaches."},
+        {"zh": "柱影交错，猎食者逼近。", "en": "Columns shift, predator nears."},
+        {"zh": "注视地面，寻找猎物踪迹。", "en": "Stares at ground, hunting prey."},
+        {"zh": "漂石间移动，静默中狩猎。", "en": "Moves through driftstones, silent hunt."},
+        {"zh": "静立不动，等待猎物。", "en": "Stands still, waiting for prey."},
+        {"zh": "阴影中闪烁，静候目标。", "en": "Shadows flicker, waiting target."},
+        {"zh": "漂石群中游走，悄无声息。", "en": "Wanders driftstone, silent."},
+        {"zh": "注视远方，寻找新猎物。", "en": "Stares distant, new prey."},
+        {"zh": "漂石缝隙间穿梭，无声无息。", "en": "Slides through driftstone, silent."},
+        {"zh": "我挪动三格石身，无人看见。", "en": "I shift my three-block body when no one watches."},
+        {"zh": "我在独石间滑行，悄无声息。", "en": "I glide among the monoliths in silence."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑影静立，警惕四周。", "en": "Black shadow stands, wary."},
+        {"zh": "漂石间驻足，静默无声。", "en": "Stands in driftstone, silent."},
+        {"zh": "凝视远方，耐心等待。", "en": "Stares distant, patient."},
+        {"zh": "漂石间徘徊，凝视四面。", "en": "Paces driftstone, watches all."},
+        {"zh": "静静站立，无所事事。", "en": "Stands quietly, idle."},
+        {"zh": "漂石中静立，静观其变。", "en": "Stands in driftstone, observes."},
+        {"zh": "漂石间驻足，静待时机。", "en": "Pauses in driftstone, waits."},
+        {"zh": "黑影伫立，悄然无声。", "en": "Black shadow stands, silent."},
+        {"zh": "漂石间驻足，静静注视。", "en": "Pauses in driftstone, watches."},
+        {"zh": "漂石间徘徊，静待猎物。", "en": "Paces driftstone, waits prey."},
+        {"zh": "我立成石柱，一动不动。", "en": "I stand as a pillar, utterly still."},
+        {"zh": "我等着，等你看累了我。", "en": "I wait until you tire of looking."},
+        {"zh": "我被注视时，只是石头。", "en": "While watched, I am only stone."},
+        {"zh": "我压下呼吸，连风都不惊。", "en": "I stifle my breath, not stirring the wind."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定目标，目光如炬。", "en": "Locks target, eyes glowing."},
+        {"zh": "盯紧玩家，静待猎杀。", "en": "Stares player, waits kill."},
+        {"zh": "注视你的那一刻，我成了柱子。", "en": "The moment I watch you, I become a pillar."},
+        {"zh": "三格高的柱子，也会看你。", "en": "A three-block pillar can watch you too."},
+        {"zh": "盯着玩家，静待机会。", "en": "Staring player, waits opportunity."},
+        {"zh": "你一看我，我就立成这根柱子。", "en": "One look from you and I rise into this pillar."},
+        {"zh": "锁定玩家，随时出手。", "en": "Targets player, ready to attack."},
+        {"zh": "盯着玩家，静待时机。", "en": "Staring player, waits moment."},
+        {"zh": "三格高的柱子，只用镐能敲。", "en": "A three-block pillar; only a pick works."},
+        {"zh": "注视玩家，静待猎杀。", "en": "Staring player, ready to kill."},
+        {"zh": "我的裂纹正对着你的后颈。", "en": "My crack lines up with the back of your neck."},
+        {"zh": "你一移开视线，我就动。", "en": "The moment you look away, I move."},
+        {"zh": "我在石缝里看你，不眨眼。", "en": "I watch through the crack, unblinking."},
+        {"zh": "你抬头，我便凝固成柱。", "en": "You look up, and I harden into a pillar."},
+        {"zh": "我的注视黏在你的后背上。", "en": "My stare clings to your back."},
+        {"zh": "我化成柱子，你只能拿镐敲。", "en": "I become a pillar; only a pick can hurt me."},
+        {"zh": "我用柱尖指向你。", "en": "I aim my pillar tip at you."},
+        {"zh": "你看我一眼，冷到骨头。", "en": "One glance at me chills you to the bone."},
+        {"zh": "我只认一个活物，就是你。", "en": "I acknowledge one living thing: you."},
+        {"zh": "我在漂石间看你走过来。", "en": "I watch you walk in among the drifting stones."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "力量消散了……", "en": "Powers fading..."},
+        {"zh": "视线模糊了……", "en": "Vision blurring..."},
+        {"zh": "我掉下一块独石碎片。", "en": "A chip of monolith falls off me."},
+        {"zh": "力量衰退了……", "en": "Strength waning..."},
+        {"zh": "视野模糊了……", "en": "Sight blurring..."},
+        {"zh": "痛苦难忍……", "en": "Pain unbearable..."},
+        {"zh": "视力受损了……", "en": "Vision impaired..."},
+        {"zh": "柱身裂了，光透不进来。", "en": "My pillar cracks; no light gets in."},
+        {"zh": "石屑落下，我的注视晃了。", "en": "Chips fall; my gaze wavers."},
+        {"zh": "镐尖咬进我的岩层，很深。", "en": "The pickaxe bites deep into my rock."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你无法抵挡它的目光。", "en": "You can't resist its gaze."},
+        {"zh": "靠近它会让你颤抖。", "en": "Approaching it will make you shiver."},
+        {"zh": "它的存在让空气凝固。", "en": "Its presence freezes the air."},
+        {"zh": "触碰它，你会变成石头。", "en": "Touch it, and you'll turn to stone."},
+        {"zh": "它注视着你，你感到害怕。", "en": "It stares at you, and you feel afraid."},
+        {"zh": "靠近它，你会失去理智。", "en": "Approach it, and you'll lose your mind."},
+        {"zh": "它的目光能穿透你的灵魂。", "en": "Its gaze pierces your soul."},
+        {"zh": "触摸它，你就成了石头。", "en": "Touch it, and you'll be stone."},
+        {"zh": "它那目光让你感到恐惧。", "en": "Its gaze fills you with fear."},
+        {"zh": "它的目光如此强大。", "en": "Its gaze is powerful."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它会把岩石撞成碎片。", "en": "It smashes rocks into rubble."},
+        {"zh": "岩石被它撞得粉碎。", "en": "Rocks are crushed by it."},
+        {"zh": "它撞碎了所有岩石。", "en": "It crushes all the rocks."},
+        {"zh": "巨石在它的撞击下碎裂。", "en": "Large stones crack under its impact."},
+        {"zh": "它将岩石撞得粉身碎骨。", "en": "It smashes the rocks to pieces."},
+        {"zh": "岩石无法阻止它的攻击。", "en": "Rocks can't stop its attack."},
+        {"zh": "岩石被它撞击得粉碎。", "en": "Rocks are shattered by its impact."},
+        {"zh": "它的力量巨大，岩石如纸。", "en": "Its power is great, like paper to rocks."},
+        {"zh": "岩石挡不住它的撞击。", "en": "Rocks can't stand its collision."},
+        {"zh": "它撞击岩石，粉碎一切。", "en": "It collides with rocks, crushing all."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找到配偶，它变得更强大。", "en": "Finding a mate makes it stronger."},
+        {"zh": "它的配偶能让它更强大。", "en": "Its mate strengthens it."},
+        {"zh": "配偶让它的力量倍增。", "en": "Its mate doubles its strength."},
+        {"zh": "找到伴侣，它变得更强大。", "en": "Finding a partner makes it stronger."},
+        {"zh": "它的配偶是力量的源泉。", "en": "Its mate is a source of strength."},
+        {"zh": "它会保护它的配偶。", "en": "It protects its mate."},
+        {"zh": "配偶让它拥有更多力量。", "en": "Its mate gives it more power."},
+        {"zh": "它的配偶是它的守护者。", "en": "Its mate is its guardian."},
+        {"zh": "找到伴侣，它变得更强。", "en": "Finding a partner makes it stronger."},
+        {"zh": "它的配偶增强它的力量。", "en": "Its mate enhances its strength."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沉重的石质躯体掉落大地！", "en": "The heavy stone body crashes to the ground!"},
+        {"zh": "触感冰冷，仿佛时间静止！", "en": "Ice-cold, as if time stands still!"},
+        {"zh": "古老的石纹中蕴含力量！", "en": "Ancient stone patterns hold power!"},
+        {"zh": "独石群中散发诡异气息！", "en": "Eerie aura emanates from driftstone!"},
+        {"zh": "注视着你，力量觉醒！", "en": "Eyeing you, power awakens!"},
+        {"zh": "凝视石柱，永恒的守望！", "en": "Gaze at the stone pillar, eternal vigil!"},
+        {"zh": "漂移独石群，静默的守护！", "en": "Driftstone domain, silent guardian!"},
+        {"zh": "石柱下的秘密，等待揭示！", "en": "Secrets beneath the pillar await!"},
+        {"zh": "孤独石柱，无尽注视！", "en": "Lonely pillar, endless gaze!"},
+        {"zh": "你无法逃离全视者的视线！", "en": "You can't escape the Overseer's sight!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踏入我的领域！", "en": "You step into my domain!"},
+        {"zh": "你的存在唤醒了我！", "en": "Your presence awakens me!"},
+        {"zh": "感知到你的灵魂！", "en": "I sense your soul!"},
+        {"zh": "你落入我的视线！", "en": "You fall into my sight!"},
+        {"zh": "漂移的独石把我推到这里。", "en": "The drifting monoliths carried me here."},
+        {"zh": "我一动不动，等你动手。", "en": "I stand motionless, waiting for you to strike."},
+        {"zh": "你的生命气息吸引我！", "en": "Your life essence calls to me!"},
+        {"zh": "你无法逃避我的目光！", "en": "You can't escape my gaze!"},
+        {"zh": "你成为了我的猎物！", "en": "You become my prey!"},
+        {"zh": "你注定被注视！", "en": "You are destined to be observed!"},
+        {"zh": "你的脚步惊醒了我。", "en": "Your footsteps woke me."},
+        {"zh": "镐不举起，你走不掉。", "en": "Without a raised pickaxe, you cannot leave."},
+        {"zh": "我看见你握紧了镐。", "en": "I see you grip the pickaxe."},
+        {"zh": "你的呼吸落在我石面上。", "en": "Your breath falls on my stone face."},
+        {"zh": "这片漂石，只容我一个。", "en": "These drifting stones hold only me."},
+        {"zh": "我转向你，像在点头。", "en": "I turn toward you, almost nodding."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我将注视你！", "en": "I will gaze upon you!"},
+        {"zh": "我化成了柱子，只等你来挖。", "en": "I became a pillar, waiting for your pick."},
+        {"zh": "独石群的低语，就是我的声音。", "en": "The whisper of the monoliths is my voice."},
+        {"zh": "你将被永远注视！", "en": "You will be forever watched!"},
+        {"zh": "我的目光将贯穿你！", "en": "My gaze will pierce through you!"},
+        {"zh": "你将为我服务！", "en": "You will serve me!"},
+        {"zh": "我的注视将引导你！", "en": "My gaze will guide you!"},
+        {"zh": "你将被永远束缚！", "en": "You will be forever bound!"},
+        {"zh": "我的目光将永远笼罩你！", "en": "My gaze will forever envelop you!"},
+        {"zh": "我将永远注视你！", "en": "I will always gaze upon you!"},
+        {"zh": "我会一直看，直到你低头。", "en": "I will watch until you bow your head."},
+        {"zh": "我不追，你也走不掉。", "en": "I don't chase, yet you cannot leave."},
+        {"zh": "你的影子被我钉在岩上。", "en": "I have nailed your shadow to the rock."},
+        {"zh": "再看我一眼，你就输了。", "en": "Look at me once more, and you lose."},
+        {"zh": "我让独石替你合拢成墙。", "en": "I let the monoliths close into a wall for you."},
+        {"zh": "我不出手，只等你力竭。", "en": "I don't strike; I wait for you to tire."},
+        {"zh": "镐声一停，我就靠近。", "en": "When the pickaxe falls silent, I draw near."},
+        {"zh": "我压住你的退路，三格高。", "en": "Three blocks tall, I block your way back."},
+        {"zh": "你一看我，我就僵成石柱。", "en": "When you look, I stiffen into a stone pillar."},
+        {"zh": "这片荒原，只留我的注视。", "en": "This wasteland keeps only my stare."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，动弹不得！", "en": "Sssss, can't move!"},
+        {"zh": "注视着你，颤抖吧！", "en": "Staring at you, tremble!"},
+        {"zh": "镐子以外的刀剑，都滑开了。", "en": "Swords and axes slide off; only picks bite."},
+        {"zh": "化为尘土，求生无望！", "en": "Turn to dust, hope is lost!"},
+        {"zh": "凝视深渊，绝望吞噬！", "en": "Gaze into the abyss, despair devours!"},
+        {"zh": "你触碰了禁忌，痛苦随之！", "en": "You've touched the taboo, pain follows!"},
+        {"zh": "恐惧中寻求庇护，徒劳无功！", "en": "Seek shelter in fear, in vain!"},
+        {"zh": "你已无路可逃！", "en": "You have nowhere to flee!"},
+        {"zh": "你看了我一眼，我就长成柱。", "en": "One glance and I become a pillar."},
+        {"zh": "绝望中求生，已晚！", "en": "Seeking survival in despair, too late!"},
+        {"zh": "我砸下去，尘土埋住脚踝。", "en": "I slam down; dust buries your ankles."},
+        {"zh": "我不反击，这一下是警告。", "en": "I don't fight back; this blow is a warning."},
+        {"zh": "我的岩面压来，挤走空气。", "en": "My stone face presses in and squeezes the air out."},
+        {"zh": "我一倾身，碎石如雨。", "en": "I tilt, and rubble falls like rain."},
+        {"zh": "你的镐崩了口，我毫发无损。", "en": "Your pickaxe chips; I lose nothing."},
+        {"zh": "被我看住的猎物，动不了。", "en": "The prey I watch cannot move."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "漂移独石群中，我现身！", "en": "Spawn in driftstone clusters!"},
+        {"zh": "注视者，我将降临！", "en": "Stalkers, I will appear!"},
+        {"zh": "漂移独石间，我静候！", "en": "In driftstone, I wait!"},
+        {"zh": "寻找我的注视点！", "en": "Find my gaze!"},
+        {"zh": "漂移独石中，我苏醒！", "en": "Awake in driftstone!"},
+        {"zh": "注视者，准备吧！", "en": "Stalkers, prepare!"},
+        {"zh": "漂移独石群，我归来！", "en": "Return to driftstone!"},
+        {"zh": "漂移独石中，我现身！", "en": "Spawn in driftstone!"},
+        {"zh": "注视我的力量！", "en": "See my power!"},
+        {"zh": "漂移独石间，我注视！", "en": "Gaze from driftstone!"},
+        {"zh": "我从地下缓缓顶起。", "en": "I push up slowly out of the ground."},
+        {"zh": "我在荒原上多长出一根柱。", "en": "I add one more pillar to the wasteland."},
+        {"zh": "沙尘落下，我立起三格。", "en": "The dust settles; I stand three blocks tall."},
+        {"zh": "我不是怪物，是会看的柱子。", "en": "I am no monster, but a pillar that watches."},
+        {"zh": "我在独石群里添了道裂纹。", "en": "I add a crack to the monoliths."},
+        {"zh": "我在你背后长成，没有声音。", "en": "I grow behind you without a sound."},
+        {"zh": "岩层裂开，我探出柱顶。", "en": "The rock splits; my pillar top emerges."},
+        {"zh": "漂石聚拢，拼成我的身体。", "en": "Drifting stones gather into my body."},
+        {"zh": "荒原上，多了一处注视。", "en": "The wasteland gains one more watching spot."},
+        {"zh": "我在无人处站起身。", "en": "I rise where no one stands."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火在柱身上留下黑痕。", "en": "Fire leaves black marks on my pillar."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠落的冲击……", "en": "Fall impact..."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我化成柱子，水也只漫到腰。", "en": "As a pillar, the water only reaches my waist."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸冲击波……", "en": "Explosion shockwave..."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢穿透我……", "en": "Arrow pierces me..."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法力量……", "en": "Magic force..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿侵蚀我……", "en": "Starvation erodes me..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闪电劈中我……", "en": "Lightning strikes me..."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空吞噬我……", "en": "Void devours me..."}
+      ]
+    }
+  }
+}

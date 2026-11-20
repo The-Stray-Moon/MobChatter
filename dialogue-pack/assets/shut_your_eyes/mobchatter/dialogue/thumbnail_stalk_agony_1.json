@@ -1,0 +1,261 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的动作不连贯，像跳帧。", "en": "My movements jump, like dropped frames."},
+        {"zh": "我一步之间会停很久。", "en": "I pause a long time between steps."},
+        {"zh": "地板没有响，可我已经近了一步。", "en": "The floor made no sound, yet I am a step closer."},
+        {"zh": "我的轮廓在暗处抖。", "en": "My outline shudders in the dark."},
+        {"zh": "我走的时候，墙上的影子先到。", "en": "As I walk, my shadow on the wall arrives first."},
+        {"zh": "我贴着你视线边缘走。", "en": "I move along the edge of your vision."},
+        {"zh": "我越近，光就越暗。", "en": "The closer I get, the dimmer the light."},
+        {"zh": "我走过去时，空气变冷。", "en": "The air cools as I pass."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，头偏着。", "en": "I stand with my head tilted."},
+        {"zh": "我很久没有动。", "en": "I haven't moved in a long while."},
+        {"zh": "我在你的视野外围。", "en": "I'm at the edge of your field of view."},
+        {"zh": "影子投在墙上，比我大。", "en": "My shadow on the wall is larger than me."},
+        {"zh": "我的形状偶尔不对。", "en": "Sometimes my shape is wrong."},
+        {"zh": "我在数你回头的次数。", "en": "I'm counting how often you look back."},
+        {"zh": "光晃了一下，我还在。", "en": "The light flickers; I'm still here."},
+        {"zh": "我停在同一个角度。", "en": "I hold the same angle."},
+        {"zh": "我很耐心，比你耐心。", "en": "I'm patient. More patient than you."},
+        {"zh": "屋子里没有别的声响。", "en": "There's no other sound in the room."},
+        {"zh": "我一直在那里。", "en": "I've been there all along."},
+        {"zh": "我一动不动，像张图。", "en": "I stay motionless, like a still image."},
+        {"zh": "我在等你闭眼。", "en": "I'm waiting for you to close your eyes."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你看到我了。", "en": "You've seen me."},
+        {"zh": "现在别看别处。", "en": "Now don't look away."},
+        {"zh": "你回头，我就靠近一点。", "en": "When you look back, I'm a little closer."},
+        {"zh": "我只是个被摆着的样子。", "en": "I am only a display, placed here."},
+        {"zh": "你数过几次？", "en": "How many times have you counted?"},
+        {"zh": "我的位置没有变，是你的位置在变。", "en": "My place hasn't changed; yours has."},
+        {"zh": "你这么站着，很好看。", "en": "You look good standing like that."},
+        {"zh": "你不该转过来。", "en": "You shouldn't have turned around."},
+        {"zh": "你还有什么想说的。", "en": "Is there anything you'd like to say?"},
+        {"zh": "我们隔得太近了。", "en": "We're much too close."},
+        {"zh": "你的影子开始不像你的。", "en": "Your shadow no longer looks like yours."},
+        {"zh": "你已经站在这里很久了。", "en": "You've been standing here a long while."},
+        {"zh": "我要你看着我。", "en": "I want you to watch me."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这张脸被打散了，又慢慢拼回来。", "en": "My face scatters, then slowly reassembles."},
+        {"zh": "这一下让我退回了墙上。", "en": "That pushed me back into the wall."},
+        {"zh": "我的轮廓破了一道。", "en": "A gap has opened in my outline."},
+        {"zh": "我缺了一段动作。", "en": "I've lost a stretch of movement."},
+        {"zh": "我停在那里，没有回应。", "en": "I stand there without answering."},
+        {"zh": "这具身体不是真的。", "en": "This body isn't real."},
+        {"zh": "我变得更淡了。", "en": "I've grown fainter."},
+        {"zh": "你没有伤到我，只是打散了。", "en": "You didn't hurt me; you only scattered me."},
+        {"zh": "我还会再显出来。", "en": "I'll show up again."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你举着食物，我只看着你的眼睛。", "en": "You hold out food; I only watch your eyes."},
+        {"zh": "你在跟影子说话。", "en": "You're talking to a shadow."},
+        {"zh": "把东西放下，然后别看。", "en": "Put it down, then don't look."},
+        {"zh": "我不需要那个。", "en": "I don't need that."},
+        {"zh": "收起来，看着我。", "en": "Put it away and look at me."},
+        {"zh": "你试着用食物换什么？", "en": "What are you trying to trade food for?"},
+        {"zh": "你再举一会也没用。", "en": "Hold it up longer; it won't help."},
+        {"zh": "我不饿，我只是在等。", "en": "I'm not hungry; I'm only waiting."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你退了一步，我没动。", "en": "You stepped back; I didn't."},
+        {"zh": "你碰到了我，很冷吧。", "en": "You touched me. Cold, isn't it?"},
+        {"zh": "我的边线擦过你。", "en": "My edge brushed past you."},
+        {"zh": "我们之间的距离没有了。", "en": "There's no distance left between us."},
+        {"zh": "你撞上来的时候，我在笑。", "en": "I was smiling when you stumbled into me."},
+        {"zh": "这一下你没有感觉重量。", "en": "You didn't feel any weight."},
+        {"zh": "我退开，又回到原地。", "en": "I withdraw, then return to the spot."},
+        {"zh": "你身后就是我。", "en": "I'm right behind you."},
+        {"zh": "我们贴得太近，看不见了。", "en": "Too close to see anything now."},
+        {"zh": "第一阶段的影子，薄得像纸。", "en": "In my first phase, my shadow is paper thin."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "墙边还有另一个。", "en": "There's another one by the wall."},
+        {"zh": "我们看起来一样，其实不一样。", "en": "We look alike; we aren't."},
+        {"zh": "它比我更靠近门。", "en": "It's nearer the door than I am."},
+        {"zh": "我们从不互相看。", "en": "We never look at each other."},
+        {"zh": "我们站在同一个屋里，各占一边。", "en": "We share this room, one side each."},
+        {"zh": "它的脸更模糊。", "en": "Its face is less clear than mine."},
+        {"zh": "我们是同一张图的两个版本。", "en": "We're two versions of the same picture."},
+        {"zh": "光一变，它就没了。", "en": "When the light changed, it was gone."},
+        {"zh": "我们没有谁是影子。", "en": "Neither of us is the shadow."},
+        {"zh": "这一夜我们都在等。", "en": "We both wait through the night."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我没有手去拿东西。", "en": "I have no hands to take anything with."},
+        {"zh": "地上的东西我看得见。", "en": "I can see what's on the floor."},
+        {"zh": "我不用捡，它自己会过来。", "en": "I don't pick things up; they come to me."},
+        {"zh": "这间屋里什么都没少。", "en": "Nothing in this room has gone missing."},
+        {"zh": "我看着它滚到墙角。", "en": "I watch it roll into the corner."},
+        {"zh": "那不是我留下的。", "en": "I didn't leave that."},
+        {"zh": "我不碰任何东西。", "en": "I don't touch anything."},
+        {"zh": "我数过地上的每一样。", "en": "I've counted everything on the floor."},
+        {"zh": "它还是原来的位置。", "en": "It's still where it was."},
+        {"zh": "没有人的时候，它们都动过。", "en": "When no one's here, they all move."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "现在你在我这一侧。", "en": "Now you're on my side."},
+        {"zh": "我把头转正了。", "en": "I've turned my head straight."},
+        {"zh": "光变得更少了。", "en": "There's less light now."},
+        {"zh": "你回头看吧。", "en": "Go ahead and look back."},
+        {"zh": "我在你退路的那一头。", "en": "I'm at the far end of your retreat."},
+        {"zh": "这房间没有第二个出口。", "en": "This room has no second exit."},
+        {"zh": "你屏住呼吸，可我还是听见了。", "en": "You hold your breath. I hear it anyway."},
+        {"zh": "你身后有一块地方更黑。", "en": "There's a patch behind you that's darker."},
+        {"zh": "这一步我走了很久。", "en": "This step took me a long time."},
+        {"zh": "你一睁眼，我就站在灯下面。", "en": "You open your eyes and I am under the lamp."},
+        {"zh": "不要移开眼睛。", "en": "Don't look away."},
+        {"zh": "我只是一张会动的图。", "en": "I'm only a picture that moves."},
+        {"zh": "我在你旁边。", "en": "I'm beside you."},
+        {"zh": "我数完了，就这样。", "en": "I've finished counting. This is it."},
+        {"zh": "你已经在我的画里了。", "en": "You're in my picture now."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "走廊尽头，我的轮廓随你移动。", "en": "At the hall's end, my outline moves with you."},
+        {"zh": "你的余光里有我。", "en": "I'm in the corner of your eye."},
+        {"zh": "镜子里的我比实物慢。", "en": "In the mirror I'm slower than the real one."},
+        {"zh": "隔着半条走廊，我就够得着你。", "en": "Half a corridor away, I can already reach you."},
+        {"zh": "你一回头，我就退半步。", "en": "When you look back, I give half a step."},
+        {"zh": "这一路上你都在数。", "en": "You've been counting the whole way."},
+        {"zh": "你的影子有点不对了。", "en": "Your shadow isn't quite right."},
+        {"zh": "你越跑越快，我的影子没离开过。", "en": "You run faster; my shadow never leaves you."},
+        {"zh": "你听得见自己的心跳。", "en": "You can hear your own heartbeat."},
+        {"zh": "门在你那边，我在这一边。", "en": "The door is your side; I'm on this one."},
+        {"zh": "走廊比我记得的更长。", "en": "The corridor is longer than I remember."},
+        {"zh": "我一直在画面外面。", "en": "I'm always just outside the frame."},
+        {"zh": "你看起来累坏了。", "en": "You look worn out."},
+        {"zh": "我不用休息。", "en": "I don't need to rest."},
+        {"zh": "你转身的速度在变慢。", "en": "Your turns are getting slower."},
+        {"zh": "我再等一下就好。", "en": "Just a moment longer."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我伸手，却看不清手。", "en": "I reach out, and I can't see my hand."},
+        {"zh": "你被推了一下，没有来源。", "en": "Something shoves you; there's no source."},
+        {"zh": "这一下不在你的记忆里。", "en": "That didn't go into your memory."},
+        {"zh": "我的动作缺了几帧。", "en": "Some frames of my movement are missing."},
+        {"zh": "你身上没有伤口。", "en": "There's no wound on you."},
+        {"zh": "我碰你的时候，你在抖。", "en": "You tremble when I touch you."},
+        {"zh": "这一下没有人看见。", "en": "No one saw that."},
+        {"zh": "我退回去，又不在原地。", "en": "I withdraw, and I'm not where I was."},
+        {"zh": "你听见了什么。", "en": "You heard something."},
+        {"zh": "我不用力气也能碰到你。", "en": "I can reach you without strength."},
+        {"zh": "这一下会留下来。", "en": "That one will stay with you."},
+        {"zh": "这次闭眼也来不及了。", "en": "Shutting your eyes will not save you this time."},
+        {"zh": "我没有影子跟着动手。", "en": "My shadow doesn't move with me."},
+        {"zh": "你在我的画里了。", "en": "You're in my picture."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在门口出现了。", "en": "I appeared in the doorway."},
+        {"zh": "这间屋里多了一个影子。", "en": "There's an extra shadow in this room."},
+        {"zh": "我就是那张图里的东西。", "en": "I'm the thing from that picture."},
+        {"zh": "光暗下来，我才显形。", "en": "I only take shape when the light dims."},
+        {"zh": "我从墙的一侧开始。", "en": "I begin from one side of the wall."},
+        {"zh": "你刚才数到几了。", "en": "What number had you reached?"},
+        {"zh": "我站定，脸对着你。", "en": "I settle, my face toward you."},
+        {"zh": "我一直睁着眼睛。", "en": "My eyes have been open the whole time."},
+        {"zh": "你听，什么都没有。", "en": "Listen — there's nothing at all."},
+        {"zh": "我又出现在你的视野里。", "en": "I'm in your sight again."},
+        {"zh": "我把脸转向你了。", "en": "I've turned my face your way."},
+        {"zh": "你身后的墙上有影子。", "en": "There's a shadow on the wall behind you."},
+        {"zh": "这就是第一阶段的开始。", "en": "This is how the first phase begins."},
+        {"zh": "灯还会再亮一次。", "en": "The light will come on one more time."},
+        {"zh": "我等那一秒。", "en": "I'm waiting for that second."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火光里，我的影子分裂了。", "en": "In the firelight my shadow splits."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉下去，落地没有声音。", "en": "I fall and land without a sound."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水淹过我，我变得更模糊。", "en": "Water passes through me and I blur."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闪光把我打散了。", "en": "The flash scatters me."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一个东西穿过了我，没有停。", "en": "Something went through me and didn't stop."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "光把我钉在墙上。", "en": "Light pins me to the wall."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从来不饿。", "en": "I have never been hungry."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光照亮整间屋，我却更暗了。", "en": "The flash lights the room, and I grow darker."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没有声音，也没有回音。", "en": "There is no sound here, and no echo."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我这一身是黄染料染的。", "en": "I was dyed yellow."},
+        {"zh": "我的脚步小而急促。", "en": "My steps are small and quick."},
+        {"zh": "我举着武器，往前赶。", "en": "I hurry forward, weapon up."},
+        {"zh": "黄色的我，很好认。", "en": "Yellow, and easy to pick out."},
+        {"zh": "我踩在泥地上，留下小坑。", "en": "I leave small pits in the mud."},
+        {"zh": "我不看路，只看前面。", "en": "I do not watch the path, only ahead."},
+        {"zh": "我和同色的走一排。", "en": "I march in a row with my own color."},
+        {"zh": "我一步一停，规规矩矩。", "en": "I step and pause, neatly."},
+        {"zh": "我沿着营地边走。", "en": "I walk the camp's edge."},
+        {"zh": "土从我的肩上掉。", "en": "Clay falls from my shoulder."},
+        {"zh": "我的小短腿倒得更快。", "en": "My short legs pump faster."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我立着，像个小雕像。", "en": "I stand like a small statue."},
+        {"zh": "黄色染的黏土，等你下令。", "en": "Yellow-dyed clay, waiting for orders."},
+        {"zh": "我的武器靠在肩上。", "en": "My weapon rests on my shoulder."},
+        {"zh": "太阳把我的土晒硬。", "en": "The sun bakes my clay hard."},
+        {"zh": "黄泥在太阳下晒得发硬。", "en": "My yellow clay hardens in the sun."},
+        {"zh": "这里没有敌人。", "en": "No enemies here."},
+        {"zh": "我盯着营地门口。", "en": "I watch the camp gate."},
+        {"zh": "我的手很粗糙。", "en": "My hands are rough."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "是你染的我吗？", "en": "Did you dye me?"},
+        {"zh": "我是黄的那个。", "en": "I am the yellow one."},
+        {"zh": "你身上没有黏土味。", "en": "You do not smell of clay."},
+        {"zh": "我在等你发令。", "en": "I am waiting for your order."},
+        {"zh": "我们都一样高。", "en": "We are about the same height."},
+        {"zh": "我手里这个能打。", "en": "What I hold can strike."},
+        {"zh": "你让我打谁。", "en": "Who do you want me to hit?"},
+        {"zh": "我先站这儿。", "en": "I will stand here."},
+        {"zh": "你点头就行。", "en": "Just nod your head."},
+        {"zh": "那我就上了。", "en": "Then I go in."},
+        {"zh": "别把我捡起来。", "en": "Do not pick me up."},
+        {"zh": "我还没打完。", "en": "I am not done fighting."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉了一块土。", "en": "A lump of clay fell off."},
+        {"zh": "我的一条胳膊掉了半截。", "en": "Half of one arm breaks away."},
+        {"zh": "我裂开一道缝。", "en": "A seam split open."},
+        {"zh": "这一下打得实。", "en": "That landed solidly."},
+        {"zh": "我还举得起武器。", "en": "I can still lift my weapon."},
+        {"zh": "我的颜色被磨掉了。", "en": "Some of my color has worn off."},
+        {"zh": "黄土从我的胳膊上簌簌落。", "en": "Yellow earth sifts off my arm."},
+        {"zh": "黄泥的裂缝又合上了。", "en": "The crack in my yellow clay closes."},
+        {"zh": "我这身黄泥，还捏得紧。", "en": "This yellow clay still holds."},
+        {"zh": "你随时接着来。", "en": "Come whenever you like."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那是燧石吗。", "en": "Is that flint?"},
+        {"zh": "把那个给我。", "en": "Hand that to me."},
+        {"zh": "羊毛能做甲。", "en": "Wool can be armor."},
+        {"zh": "木棍我拿得动。", "en": "I can carry a stick."},
+        {"zh": "你放地上就行。", "en": "On the ground is fine."},
+        {"zh": "黏土不用进食。", "en": "Clay needs no feeding."},
+        {"zh": "我要的不是这块。", "en": "Not this piece I need."},
+        {"zh": "我这就用它。", "en": "I will use it."},
+        {"zh": "我记下这份。", "en": "I will count this one."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我歪了，赶紧站直。", "en": "I tilted and straightened fast."},
+        {"zh": "我们撞出了声。", "en": "We knocked audibly."},
+        {"zh": "你不要推我。", "en": "Do not shove me."},
+        {"zh": "我已经站稳。", "en": "I am steady."},
+        {"zh": "你让一让路。", "en": "Make some room."},
+        {"zh": "我还在队列里。", "en": "I am still in the file."},
+        {"zh": "让开，黏土撞上也是硬的。", "en": "Move aside, clay hits hard too."},
+        {"zh": "你踩到我的队列了，挪一步。", "en": "You stepped on my formation. One step back."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "同色的站一起。", "en": "The same color stands together."},
+        {"zh": "它的颜色比我深。", "en": "Its color is deeper than mine."},
+        {"zh": "我们在一条线上。", "en": "We are on one line."},
+        {"zh": "一样的步幅。", "en": "The same stride."},
+        {"zh": "它倒了，我顶上。", "en": "It falls, I step in."},
+        {"zh": "这条线不能断。", "en": "The line must not break."},
+        {"zh": "我们一起往前压。", "en": "We press forward together."},
+        {"zh": "尘土盖住我们的脚。", "en": "Dust covers our feet."},
+        {"zh": "一直往前走。", "en": "Ever forward."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地上的东西，我捡。", "en": "I take what is on the ground."},
+        {"zh": "黄色的黏土，捏起来最亮。", "en": "Yellow clay comes out brightest."},
+        {"zh": "我举了一下，又放下。", "en": "I lift it, then set it down."},
+        {"zh": "这不能当兵器。", "en": "This is no weapon."},
+        {"zh": "这是谁的东西。", "en": "Whose is this?"},
+        {"zh": "我收进腰里。", "en": "I tuck it at my waist."},
+        {"zh": "那块黏土，正好补我的缺口。", "en": "That lump of clay will patch my crack."},
+        {"zh": "掉的东西归我捡，别抢。", "en": "Dropped loot is mine to collect."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "看见敌人了。", "en": "Enemy in sight."},
+        {"zh": "我转向那边。", "en": "I turn that way."},
+        {"zh": "我的武器前端朝前。", "en": "My weapon points forward."},
+        {"zh": "我小跑起来。", "en": "I break into a jog."},
+        {"zh": "这就是我的目标。", "en": "This is my target."},
+        {"zh": "短腿不耽误事。", "en": "Short legs do not stop me."},
+        {"zh": "挡我的人都得死。", "en": "Anyone in the way dies."},
+        {"zh": "我已经到位。", "en": "In position."},
+        {"zh": "那就杀了它。", "en": "Then kill it."},
+        {"zh": "列队往前上。", "en": "Form up and advance."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一寸一寸挪进射程。", "en": "I inch forward into striking range."},
+        {"zh": "我贴着草丛挪到上风口。", "en": "I creep upwind along the grass."},
+        {"zh": "黄泥的膝盖弯下去。", "en": "My yellow clay knees bend."},
+        {"zh": "黄色染料一刷，我就换了装。", "en": "One brush of yellow dye and I am dressed anew."},
+        {"zh": "同色的在另一边。", "en": "My color is on the other side."},
+        {"zh": "我们收口了。", "en": "We are closing the ring."},
+        {"zh": "我把武器架起来。", "en": "I bring my weapon up."},
+        {"zh": "我把武器落下。", "en": "I bring it down."},
+        {"zh": "这一下中了。", "en": "That one landed."},
+        {"zh": "武器落下，扬起黄尘。", "en": "My weapon falls, raising yellow dust."},
+        {"zh": "你的脚步乱了，我就压上。", "en": "Your steps broke, so I press in."},
+        {"zh": "我把武器横到胸口。", "en": "I bring my weapon across my chest."},
+        {"zh": "我这一身黄，在草里最好认。", "en": "This yellow of mine is easy to spot in grass."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我砍在它膝上。", "en": "I chop at its knee."},
+        {"zh": "我这一下力气小。", "en": "My blow is light."},
+        {"zh": "可是位置很准。", "en": "But it lands true."},
+        {"zh": "它踉跄了一下。", "en": "It staggered."},
+        {"zh": "我的手臂崩了一角。", "en": "A corner broke off my arm."},
+        {"zh": "我又举起武器。", "en": "I raise the weapon again."},
+        {"zh": "它挡了下来。", "en": "It blocked."},
+        {"zh": "碎土到处飞。", "en": "Clay shards fly."},
+        {"zh": "我喘不上气，但还在打。", "en": "I cannot catch breath, and I still fight."},
+        {"zh": "它正在后退。", "en": "It is retreating."},
+        {"zh": "我追了两步。", "en": "I chase two steps."},
+        {"zh": "又砍了一下。", "en": "Another chop."},
+        {"zh": "它终于倒了。", "en": "It went down."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里是黄色的营地吗。", "en": "Is this the yellow camp?"},
+        {"zh": "我把身上的碎土抖掉。", "en": "I shake off the loose clay."},
+        {"zh": "我是被染过的。", "en": "I have been dyed."},
+        {"zh": "我先看队形。", "en": "First I check the formation."},
+        {"zh": "我的位置在这边。", "en": "My place is here."},
+        {"zh": "我握紧武器。", "en": "I grip my weapon."},
+        {"zh": "谁给我命令。", "en": "Who gives me orders?"},
+        {"zh": "我按着队形站。", "en": "I hold my place in the line."},
+        {"zh": "碎土从我的指缝里落下。", "en": "Crumbled clay falls between my fingers."},
+        {"zh": "我把身上的碎土抖掉了。", "en": "I shake the loose clay off."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烤得我的土发红。", "en": "The fire bakes my clay red."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔下去，我少了一条腿。", "en": "I fell and lost a leg."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水一泡，我的脚就软了。", "en": "In water my feet go soft."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸得我翻了两个跟头。", "en": "The blast sends me tumbling twice."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的手臂僵住了。", "en": "My arm has seized up."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不吃不喝，可也在散。", "en": "I neither eat nor drink, and still I crumble."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在我身上，一片焦黄。", "en": "Lightning struck and left me scorched."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一直在往下掉，黄泥也散着。", "en": "I keep falling, yellow clay scattering."}
+      ]
+    }
+  }
+}

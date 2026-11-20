@@ -1,0 +1,282 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蠕动前行，黏液滴落地面。", "en": "Creeps forward, oozing slime."},
+        {"zh": "缓慢移动，发出咕噜声。", "en": "Moves slowly, making gurgling sounds."},
+        {"zh": "在湿滑地面滑行。", "en": "Slides on the slick ground."},
+        {"zh": "黏糊糊地四处爬行。", "en": "Creeps around, all slimy."},
+        {"zh": "寻找湿软的土壤。", "en": "Seeks out soft, wet soil."},
+        {"zh": "黏液滴答落在地上。", "en": "Slime drips onto the ground."},
+        {"zh": "在泥泞中滑行。", "en": "Slides in the mud."},
+        {"zh": "黏糊糊的身体在移动。", "en": "Gooey body moves."},
+        {"zh": "在泥潭中挣扎。", "en": "Struggles in the muck."},
+        {"zh": "黏液四处渗出。", "en": "Slime seeps everywhere."},
+        {"zh": "四条小短腿，追着母亲跑", "en": "Four short legs trotting after mother."},
+        {"zh": "幼小的蹄子，踩过苔藓", "en": "Small hooves press over the moss."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "懒洋洋地蜷缩一团。", "en": "Lazily curled up."},
+        {"zh": "闭着眼睛慢慢蠕动。", "en": "Wiggling with closed eyes."},
+        {"zh": "趴在地上一动不动。", "en": "Lying still on the ground."},
+        {"zh": "黏糊糊的身体放松。", "en": "Gooey body relaxes."},
+        {"zh": "缓慢地伸展身体。", "en": "Slowly stretches its body."},
+        {"zh": "舔舐自己的身体。", "en": "Licking its own body."},
+        {"zh": "蜷缩成一团休息。", "en": "Curling into a ball to rest."},
+        {"zh": "用触手轻触地面。", "en": "Touching the ground with tentacles."},
+        {"zh": "懒懒地享受着。", "en": "Enjoying lazily."},
+        {"zh": "慢慢地舔着自己的脚。", "en": "Licking its own foot slowly."},
+        {"zh": "蜷在父母脚边打盹", "en": "Curled up napping at its parent's feet."},
+        {"zh": "耳朵一转，听见远处蹄声", "en": "An ear flicks at hooves far away."},
+        {"zh": "太小了，还不敢走远", "en": "Too small to wander far yet."},
+        {"zh": "学着父母的样子啃草", "en": "Nibbling grass the way its parents do."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我还没长齐毛，你小声点。", "en": "My fur isn't full yet; keep your voice down."},
+        {"zh": "注意到玩家，身体绷紧。", "en": "Notices the player, body tenses."},
+        {"zh": "用触手指向玩家。", "en": "Tentacles point at the player."},
+        {"zh": "你的靴子比我整个人还大。", "en": "Your boot is bigger than my whole body."},
+        {"zh": "朝玩家的方向转头。", "en": "Turns its head towards the player."},
+        {"zh": "靠近玩家的动作。", "en": "Approaching the player."},
+        {"zh": "我仰起头，还不会叫。", "en": "I lift my head, still too young to call out."},
+        {"zh": "警惕地注视玩家。", "en": "Watchful gaze on the player."},
+        {"zh": "追踪玩家的移动。", "en": "Tracking the player's movements."},
+        {"zh": "你蹲下来，我才看清你。", "en": "Only when you crouch do I see you clearly."},
+        {"zh": "抬头，把你认成长辈", "en": "It looks up and takes you for an elder."},
+        {"zh": "歪着脑袋，打量你的靴子", "en": "Head tilted, studying your boots."},
+        {"zh": "它还不会怕人，只是好奇", "en": "It has not learned fear, only curiosity."},
+        {"zh": "眼睛湿漉漉地望着你", "en": "Wet eyes fixed on you."},
+        {"zh": "朝你迈两步，又缩回去", "en": "Two steps toward you, then back."},
+        {"zh": "闻闻你的手，再抬头", "en": "Sniffs your hand, then looks up."},
+        {"zh": "把你当成新的家人", "en": "It decides you are new family."},
+        {"zh": "躲在草丛后偷看你", "en": "Peeking at you from behind the grass."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我太小了，疼得直叫。", "en": "I'm too small; the pain makes me cry out."},
+        {"zh": "走开，我不舒服...", "en": "Go away, I'm sick..."},
+        {"zh": "好痛，好痛...", "en": "So much pain..."},
+        {"zh": "求求你救救我...", "en": "Please, save me..."},
+        {"zh": "受伤了，很危险...", "en": "Injured, very dangerous..."},
+        {"zh": "好痛，我想要逃跑...", "en": "So much pain, I want to run..."},
+        {"zh": "受伤了，我需要休息...", "en": "Injured, I need to rest..."},
+        {"zh": "受伤了，我不能动...", "en": "Injured, I can't move..."},
+        {"zh": "摔了一跤，鼻子好疼", "en": "I fell over and my nose hurts."},
+        {"zh": "大声叫，想让父母听见", "en": "I call loudly so my parents hear."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕噜咕噜，你要尝尝我的味道吗？", "en": "Gurgle, are you tempted to taste me?"},
+        {"zh": "我的肉质鲜美，你尝尝看！", "en": "My flesh is tender, give it a try!"},
+        {"zh": "别想吃我，我会咬你！", "en": "Don't think about eating me, I'll bite you!"},
+        {"zh": "求求你别杀我，我还可以给你更多！", "en": "Please don't kill me, I can give you more!"},
+        {"zh": "别靠近我，我的朋友！", "en": "Stay away from me, my friend!"},
+        {"zh": "我要成长，不要吃我！", "en": "I'm growing, don't eat me!"},
+        {"zh": "你的力量无法战胜我！", "en": "Your strength can't defeat me!"},
+        {"zh": "我只需要保护自己！", "en": "I just need to protect myself!"},
+        {"zh": "我还小，只想要一口。", "en": "I'm small. Just one bite."},
+        {"zh": "别杀我，我会听话的！", "en": "Don't kill me, I'll be good!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "啊！你撞到我了！", "en": "Ow! You hit me!"},
+        {"zh": "小心！我快要撞到你了！", "en": "Watch out! I'm about to hit you!"},
+        {"zh": "别过来！我会撞到你的！", "en": "Don't come closer! I'll hit you!"},
+        {"zh": "快躲开，我要撞你了！", "en": "Get out of the way, I'm going to hit you!"},
+        {"zh": "你怎么这么笨啊！", "en": "How stupid are you!"},
+        {"zh": "你挡到我的路了！", "en": "You're blocking my way!"},
+        {"zh": "你别动，我要撞你了！", "en": "Don't move, I'm going to hit you!"},
+        {"zh": "快闪开，我要撞到你了！", "en": "Move, I'm going to hit you!"},
+        {"zh": "你真笨，撞到我了！", "en": "You're so dumb, you hit me!"},
+        {"zh": "躲开我，我要撞你了！", "en": "Get out of my way, I'm going to hit you!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我们并排坐着，尾巴碰尾巴。", "en": "We sit side by side, tail against tail."},
+        {"zh": "你需要个伴侣吗？", "en": "Do you need a mate?"},
+        {"zh": "交配吧，我的同类！", "en": "Mate with me, my同类!"},
+        {"zh": "来吧，交配时间到了！", "en": "Come on, it's mating time!"},
+        {"zh": "求求你和我交配吧！", "en": "Please mate with me!"},
+        {"zh": "和我交配，我的爱人！", "en": "Mate with me, my lover!"},
+        {"zh": "我还小，只会蹭蹭你。", "en": "I'm still young; I can only nuzzle you."},
+        {"zh": "求求你，我们交配吧！", "en": "Please, let's mate!"},
+        {"zh": "交配吧，我的伴侣！", "en": "Mate with me, my partner!"},
+        {"zh": "和我交配，一起繁衍！", "en": "Mate with me, to reproduce!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "靠近我！", "en": "Come closer..."},
+        {"zh": "小心我的毒牙！", "en": "Watch out for my fangs!"},
+        {"zh": "我才刚出生，腿还软。", "en": "I was just born; my legs are soft."},
+        {"zh": "这个亮片，我要藏起来。", "en": "This shiny scrap is mine to hide."},
+        {"zh": "我抱住它，拖回窝里。", "en": "I hug it and drag it back to the nest."},
+        {"zh": "我的小爪子按住了它。", "en": "My little paws pin it down."},
+        {"zh": "咕咕咕...", "en": "Gurgle gurgle..."},
+        {"zh": "你的血会滋养我！", "en": "Your blood will nourish me!"},
+        {"zh": "这半块面包够我吃很久。", "en": "Half a loaf will last me a long time."},
+        {"zh": "跟着你，也许有吃的", "en": "Follow you; maybe there is food."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你走近一步，我就不抖了。", "en": "You take one step closer, and I stop shaking."},
+        {"zh": "我身后站着我的母亲。", "en": "My mother stands behind me."},
+        {"zh": "我还小，可牙已经长齐。", "en": "I am small, but my teeth are all in."},
+        {"zh": "我缩低身子，等你弯腰。", "en": "I crouch low and wait for you to bend down."},
+        {"zh": "小腿还软，先学躲。", "en": "My legs are still weak; I'll learn to hide first."},
+        {"zh": "我挡住门口，虽然很害怕。", "en": "I block the doorway, though I'm scared."},
+        {"zh": "我个子小，专挑你的脚踝。", "en": "I'm small, so I go for your ankles."},
+        {"zh": "我还没长牙，但我不退。", "en": "My teeth haven't grown in, but I won't back down."},
+        {"zh": "我扑上去，只够到你膝盖。", "en": "I lunge and only reach your knee."},
+        {"zh": "这株嫩芽，我要试试", "en": "That young shoot looks worth a try."},
+        {"zh": "远处有水声，想去看看", "en": "Water somewhere; it wants a look."},
+        {"zh": "把飘落的叶子当猎物", "en": "It hunts a falling leaf."},
+        {"zh": "追逐一只路过的甲虫", "en": "Chasing a beetle that wandered past."},
+        {"zh": "盯上了你手里的浆果", "en": "Its eyes fix on the berries in your hand."},
+        {"zh": "学着扑咬，姿势还笨", "en": "Practicing a pounce, still clumsy."},
+        {"zh": "锁定目标，却先绊了一跤", "en": "Target locked, then it trips over itself."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "准备攻击...", "en": "Preparing to attack..."},
+        {"zh": "我学着大人的样子龇牙。", "en": "I bare my teeth the way the adults do."},
+        {"zh": "保持警惕！", "en": "Stay alert!"},
+        {"zh": "你不会活着离开！", "en": "You won't live to leave!"},
+        {"zh": "我还没长大，牙已经尖了。", "en": "I am not grown yet, but my teeth are sharp."},
+        {"zh": "我还小，跑得却不慢。", "en": "I'm small, but I'm quick."},
+        {"zh": "我的喉咙里发出小小的低吼。", "en": "A tiny growl rises in my throat."},
+        {"zh": "我还小，可我牙很尖。", "en": "I'm small, but my teeth are sharp."},
+        {"zh": "你的命在我手中！", "en": "Your life is in my hands!"},
+        {"zh": "我绕着你转，找能咬的地方。", "en": "I circle you, looking for somewhere to bite."},
+        {"zh": "低低伏身，学父母潜行", "en": "Crouching low, copying how parents stalk."},
+        {"zh": "尾巴绷紧，准备扑出", "en": "Tail taut, ready to spring."},
+        {"zh": "小爪子在地上刨了两下", "en": "Little claws scrape the ground twice."},
+        {"zh": "盯着目标，耳朵向后压", "en": "Ears flatten back as it stares."},
+        {"zh": "它还不知道该怎么下口", "en": "It still has no idea where to bite."},
+        {"zh": "步子迈得太大，晃了一下", "en": "Its stride is too long; it wobbles."},
+        {"zh": "眼睛瞪圆，全力冲刺", "en": "Eyes wide, it charges with everything."},
+        {"zh": "心里数着：三、二、一", "en": "Counting down: three, two, one."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我还小，牙也还没长齐。", "en": "I'm small; my teeth aren't in yet."},
+        {"zh": "我有牙，小心点！", "en": "I've got teeth, watch out!"},
+        {"zh": "我还没长大，可我已经会咬。", "en": "I'm not grown yet, but I already bite."},
+        {"zh": "抓你个大洞！", "en": "I'll make a big hole in you!"},
+        {"zh": "我的触手缠住你！", "en": "I'll wrap you in my tentacles!"},
+        {"zh": "你闻到我的味道了吗？", "en": "Can you smell me now?"},
+        {"zh": "躲不掉的，投降吧！", "en": "There's no escape, surrender!"},
+        {"zh": "我比你想象的更强大！", "en": "I'm stronger than you think!"},
+        {"zh": "我还小，可牙齿已经长齐。", "en": "I'm small, but my teeth are all in."},
+        {"zh": "别反抗，我会疼你的！", "en": "Don't fight, I'll make you squirm!"},
+        {"zh": "用小乳牙撞你一下", "en": "It bumps you with small milk teeth."},
+        {"zh": "扑上来，又弹开", "en": "It lunges in, then bounces off."},
+        {"zh": "乱抓一通，没伤到要害", "en": "Wild scratching that hits nothing vital."},
+        {"zh": "学父母的样子龇牙", "en": "Baring tiny teeth like its parents."},
+        {"zh": "整个身子撞向你的膝盖", "en": "Its whole body hits your knee."},
+        {"zh": "叫声很凶，力气很小", "en": "Fierce squeak, very little force."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "来了，我的幼年！", "en": "Here comes my baby!"},
+        {"zh": "我的小家伙，快长大！", "en": "My little one, grow up!"},
+        {"zh": "找块肉，我需要能量！", "en": "Find some meat, I need energy!"},
+        {"zh": "这片地是我的领地！", "en": "This is my territory!"},
+        {"zh": "小心，它在窥视！", "en": "Be careful, it's watching!"},
+        {"zh": "我的幼崽，去觅食！", "en": "My baby, go foraging!"},
+        {"zh": "快找到我的巢穴！", "en": "Find my nest quickly!"},
+        {"zh": "别惊动我的幼崽！", "en": "Don't wake my baby!"},
+        {"zh": "我的幼年将继承我！", "en": "My baby will inherit me!"},
+        {"zh": "幼崽，快回到我身边！", "en": "Baby, come back to me!"},
+        {"zh": "父母交配后，我出生了", "en": "I was born after my parents mated."},
+        {"zh": "没有刷怪蛋，我从巢里来", "en": "No spawn egg; I come from a nest."},
+        {"zh": "刚睁眼，世界好亮", "en": "First time my eyes open; the world is bright."},
+        {"zh": "掉落表里没有我", "en": "I am not on any loot table."},
+        {"zh": "我还只是个幼体", "en": "I am still only a juvenile."},
+        {"zh": "在花木林的窝里睁眼", "en": "I open my eyes in a blooming woods nest."},
+        {"zh": "沼泽边，我第一次站起", "en": "By the swamp, I stand up for the first time."},
+        {"zh": "松树荒原的洞穴里出生", "en": "Born in a burrow on the pine barrens."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "快帮我...，被火烧的滋味可不好受。", "en": "Help me — and the fire makes it worse."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "走开，我不舒服...，摔落的滋味可不好受。", "en": "Go away, I'm sick — and the fall makes it worse."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "好痛，好痛...，溺水的滋味可不好受。", "en": "So much pain — and the drown makes it worse."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我还没长大就挨了炸。", "en": "I hadn't grown up before the blast hit."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "求求你救救我...，中箭的滋味可不好受。", "en": "Please, save me — and the projectile makes it worse."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "受伤了，很危险...，中魔法的滋味可不好受。", "en": "Injured, very dangerous — and the magic makes it worse."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "好痛，我想要逃跑...，挨饿的滋味可不好受。", "en": "So much pain, I want to run — and the starvation makes it worse."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "受伤了，我需要休息...，遭雷击的滋味可不好受。", "en": "Injured, I need to rest — and the lightning makes it worse."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "受伤了，我不能动...，坠入虚空的滋味可不好受。", "en": "Injured, I can't move — and the void makes it worse."}
+      ]
+    }
+  }
+}

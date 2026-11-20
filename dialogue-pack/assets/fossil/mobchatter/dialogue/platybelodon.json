@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "挥舞大牙前行", "en": "Swing tusks while walking"},
+        {"zh": "用象牙在地上划", "en": "Scrape ground with tusks"},
+        {"zh": "缓慢移动身体", "en": "Move body slowly"},
+        {"zh": "咀嚼树叶的声音", "en": "Masticate leaves sound"},
+        {"zh": "用鼻子感知路径", "en": "Sniff path with trunk"},
+        {"zh": "磨牙以示饥饿", "en": "Grind teeth in hunger"},
+        {"zh": "嗅探周围的气味", "en": "Sniff surrounding scents"},
+        {"zh": "咀嚼时发出声音", "en": "Make chewing sounds"},
+        {"zh": "用鼻孔呼吸", "en": "Breath through nostrils"},
+        {"zh": "铲齿扫开灌木，慢慢挪步。", "en": "Shovel tusks sweep the brush aside as it plods."},
+        {"zh": "幼象跟在母象脚边。", "en": "A calf trails at its mother's feet."},
+        {"zh": "长鼻卷起一束青草。", "en": "Its trunk curls up a bundle of grass."},
+        {"zh": "沉重的脚掌压平野草。", "en": "Heavy feet flatten the wild grass."},
+        {"zh": "三头象排成一队涉水。", "en": "Three of them wade in a line."},
+        {"zh": "泥土从铲齿上簌簌落下。", "en": "Soil sifts off its shovel tusks."},
+        {"zh": "它边走边用鼻子拨开树枝。", "en": "It noses branches aside as it walks."},
+        {"zh": "脚边的水被踩得浑浊。", "en": "The water at its feet turns muddy."},
+        {"zh": "象蹄陷进松软的河岸。", "en": "Its feet sink into the soft riverbank."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "懒洋洋地休息", "en": "Lazily resting"},
+        {"zh": "咀嚼着树叶", "en": "Chewing leaves"},
+        {"zh": "打盹儿的小憩", "en": "Dozing nap"},
+        {"zh": "发出低沉的叫声", "en": "Grunt softly"},
+        {"zh": "悠闲地摇摆鼻子", "en": "Sway trunk lazily"},
+        {"zh": "用鼻子触碰物体", "en": "Touch object with trunk"},
+        {"zh": "铲齿插进泥里，翻出水草。", "en": "My shovel tusks dig into the mud and turn up waterweed."},
+        {"zh": "用牙齿磨擦彼此", "en": "Rub tusks together"},
+        {"zh": "悠闲地摇摆身体", "en": "Swing body lazily"},
+        {"zh": "发出低沉的呼吸声", "en": "Deep breath sounds"},
+        {"zh": "长鼻搭在背上歇着。", "en": "Its trunk rests across its back."},
+        {"zh": "它用铲齿刮着树干。", "en": "It scrapes a trunk with its shovel tusks."},
+        {"zh": "小象躲在母象肚子底下。", "en": "The calf hides under its mother's belly."},
+        {"zh": "象群围成一圈站着。", "en": "The herd stands in a loose circle."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我铲一样的牙，拱开草根。", "en": "My shovel teeth root up the grass."},
+        {"zh": "用鼻子指向你", "en": "Trunk points at you"},
+        {"zh": "那群里的，都跟着我看你。", "en": "The whole herd watches you with me."},
+        {"zh": "好奇地观察你", "en": "Curiously observes you"},
+        {"zh": "用鼻子接触你的手", "en": "Trunk touches your hand"},
+        {"zh": "低吼示意接近", "en": "Growl to indicate approach"},
+        {"zh": "警觉地四处张望", "en": "Alertly look around"},
+        {"zh": "用耳朵聆听你的动静", "en": "Listen with ears"},
+        {"zh": "鼻子靠近你", "en": "Trunk nears you"},
+        {"zh": "我把小象往身后拨了拨。", "en": "I nudge the calf behind me."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "身体受了伤，行动更缓慢了。", "en": "Injured, moving slower now."},
+        {"zh": "这伤痛难忍，移动变得笨拙。", "en": "Wounded, moving awkwardly."},
+        {"zh": "受伤了，需要找个安静的地方疗伤。", "en": "Injured, need a quiet spot to heal."},
+        {"zh": "我受伤了，别靠近我。", "en": "Wounded, stay away from me."},
+        {"zh": "身上受了伤，行动更加小心。", "en": "Injured, more cautious now."},
+        {"zh": "被伤到了，感觉有点虚弱。", "en": "Injured, feeling weak."},
+        {"zh": "身体受伤了，行动开始缓慢。", "en": "Injured, moving slower."},
+        {"zh": "身上受了伤，需要休息。", "en": "Injured, need to rest."},
+        {"zh": "受伤了，行动更加迟缓。", "en": "Injured, moving slowly."},
+        {"zh": "身上受了伤，行动不便。", "en": "Injured, moving awkwardly."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿的触角缓缓伸来。", "en": "Long trunk slowly approaches."},
+        {"zh": "幼象闻到食物气息。", "en": "Young Platybelodon senses food."},
+        {"zh": "头骨里露出尖利牙齿。", "en": "Sharp teeth peek from the skull."},
+        {"zh": "触角轻轻触碰地面。", "en": "Trunk touches the ground gently."},
+        {"zh": "鼻子吸进一缕空气。", "en": "Trunk sniffs the air."},
+        {"zh": "它咀嚼着地下腐植。", "en": "Chews on underground decay."},
+        {"zh": "触角伸向附近树叶。", "en": "Trunk reaches for nearby leaves."},
+        {"zh": "幼象好奇地嗅闻着。", "en": "Young Platybelodon sniffs curiously."},
+        {"zh": "牙齿咬下一片树叶。", "en": "Teeth tear a leaf off."},
+        {"zh": "触角间传来幼象低鸣。", "en": "Young ones hum softly."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "象群愤怒地低吼。", "en": "Cluster rumbles in anger."},
+        {"zh": "沉重身躯碰撞声响起。", "en": "Heavy bodies collide."},
+        {"zh": "两头象的触角相撞。", "en": "Trunks clash between two."},
+        {"zh": "幼象惊慌地四处逃窜。", "en": "Young Platybelodon scatters."},
+        {"zh": "碰撞中发出巨响。", "en": "Great sound from the collision."},
+        {"zh": "触角间的猛烈撞击。", "en": "Violent clash between trunks."},
+        {"zh": "一头象的触角受伤。", "en": "Trunk gets injured."},
+        {"zh": "象群齐声低吼回应。", "en": "Cluster responds with rumbles."},
+        {"zh": "触角间的激烈争斗。", "en": "Intense clash between trunks."},
+        {"zh": "象群互相碰撞示威。", "en": "Cluster jostles to assert."},
+        {"zh": "铲齿碰在一起，发出闷响。", "en": "Shovel tusks knock together with a dull clack."},
+        {"zh": "它侧身护住身边的小象。", "en": "It turns its flank to shield the calf."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "成年象发出求偶声。", "en": "Adult calls for a mate."},
+        {"zh": "象群中响起求偶声。", "en": "Mate call resonates in the group."},
+        {"zh": "触角轻抚，表达亲近。", "en": "Trunks touch, showing affection."},
+        {"zh": "象群中一对触角亲密。", "en": "Trunks are intimate in the cluster."},
+        {"zh": "一对象亲密缠绕触角。", "en": "Two are intertwined with trunks."},
+        {"zh": "成年象互相轻触触角。", "en": "Adults gently touch trunks."},
+        {"zh": "象群中传来交配声。", "en": "Mating call echoes in the cluster."},
+        {"zh": "触角间传来温柔的触碰。", "en": "Gentle touch between trunks."},
+        {"zh": "象群中一对亲密缠绕。", "en": "Two are entwined in the cluster."},
+        {"zh": "象群中的求偶之舞。", "en": "Mate dance in the cluster."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我闻到你了！", "en": "I smell you!"},
+        {"zh": "躲不过的。", "en": "Nowhere to run."},
+        {"zh": "这一群，都跟着我踩过来。", "en": "The whole herd tramples after me."},
+        {"zh": "我要饱餐一顿。", "en": "Time to eat."},
+        {"zh": "象群的口粮，我先铲一份。", "en": "My herd's ration, and I scoop my share."},
+        {"zh": "跟我走。", "en": "Come with me."},
+        {"zh": "小心，别让我抓住。", "en": "Be careful!"},
+        {"zh": "逃不掉的。", "en": "Nowhere to hide."},
+        {"zh": "你跑不了多久。", "en": "You won't last long."},
+        {"zh": "尝尝我的力量。", "en": "Feel my power."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "注意这个。", "en": "Target acquired."},
+        {"zh": "鼻尖在空气里转了两圈。", "en": "My trunk circles twice in the air."},
+        {"zh": "象群停步，全都抬头看你。", "en": "The herd halts and every head lifts toward you."},
+        {"zh": "瞄准好了。", "en": "Aim set."},
+        {"zh": "开始行动。", "en": "Move in."},
+        {"zh": "目标就在附近。", "en": "Target nearby."},
+        {"zh": "我们一群走过来，地都在抖。", "en": "When the herd walks, the ground shakes."},
+        {"zh": "它在动。", "en": "It's moving."},
+        {"zh": "锁定新的目标。", "en": "New target acquired."},
+        {"zh": "整群象，都朝你看过来了。", "en": "The whole herd has turned to look at you."},
+        {"zh": "它抬起头，草叶还挂在嘴边。", "en": "It lifts its head, grass still hanging from its mouth."},
+        {"zh": "长鼻扬起，朝你这边嗅。", "en": "Its trunk lifts and sniffs your way."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "跟着我。", "en": "Follow me."},
+        {"zh": "别靠太近，我身后有幼崽。", "en": "Do not come closer; there are calves behind me."},
+        {"zh": "别靠近它。", "en": "Don't get close."},
+        {"zh": "远离危险。", "en": "Stay away."},
+        {"zh": "注意安全。", "en": "Be careful."},
+        {"zh": "整群都回头了，你选错了。", "en": "The whole herd turned; you picked wrong."},
+        {"zh": "不要激怒它。", "en": "Don't anger it."},
+        {"zh": "保持冷静。", "en": "Stay calm."},
+        {"zh": "别招惹它们。", "en": "Don't provoke them."},
+        {"zh": "远离危险区域。", "en": "Stay out of danger."},
+        {"zh": "象群慢慢围拢过来。", "en": "The herd slowly closes in."},
+        {"zh": "它把幼象拨到身后。", "en": "It pushes the calf behind itself."},
+        {"zh": "铲齿对准了你的方向。", "en": "Its shovel tusks aim your way."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一声低吼，整群都抬头。", "en": "One low call and the herd lifts its heads."},
+        {"zh": "象牙挥舞如风暴", "en": "Tusks swing like a storm"},
+        {"zh": "咆哮回应挑衅", "en": "Roar to challenge"},
+        {"zh": "踩踏大地，碎石飞溅", "en": "Stomp, stones fly"},
+        {"zh": "怒吼震颤山丘", "en": "Roar shakes the hills"},
+        {"zh": "獠牙咬裂骨肉", "en": "Tusks rip flesh"},
+        {"zh": "怒视敌手", "en": "Glare at the foe"},
+        {"zh": "长鼻卷起敌方", "en": "Trunk snatches foes"},
+        {"zh": "挥尾扫向敌人", "en": "Tail swats enemies"},
+        {"zh": "撕咬生肉喂幼崽", "en": "Chew raw meat for young"},
+        {"zh": "铲齿一挑，把你掀翻！", "en": "One scoop of its tusks flips you over!"},
+        {"zh": "长鼻卷起你，甩向树根！", "en": "Its trunk wraps you and flings you at a root!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从林子里挤出来，树还晃着。", "en": "I push out of the trees, and they still sway."},
+        {"zh": "于密林深处现身", "en": "Appears in the dense woods"},
+        {"zh": "群居于山谷", "en": "Habitat in the valleys"},
+        {"zh": "在河边觅食", "en": "Forages by the river"},
+        {"zh": "于树荫下聚集", "en": "Gathers under the trees"},
+        {"zh": "栖息于地下洞穴", "en": "Dwells in underground caves"},
+        {"zh": "成群在草原出没", "en": "Roams in the plains"},
+        {"zh": "于枯枝败叶间隐匿", "en": "Hides in dead leaves"},
+        {"zh": "从地底深处缓缓现身", "en": "Emerges from deep underground"},
+        {"zh": "在灌木丛中寻找食物", "en": "Searches for food in the bushes"},
+        {"zh": "河滩另一头，象群缓缓走来。", "en": "Across the riverbank, the herd walks slowly in."},
+        {"zh": "林子被硬生生推开一条路。", "en": "A path is shoved straight through the woods."},
+        {"zh": "幼象的叫声从灌木后传来。", "en": "A calf's call comes from behind the brush."},
+        {"zh": "它们循着水源一路迁徙到此。", "en": "They have followed the water here."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火伤了我，快躲开火！", "en": "Burned by fire, get away from the flames!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔了一跤，后腿受伤了。", "en": "Fell, rear leg injured."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "溺水了，需要呼吸。", "en": "Drowned, need to breathe."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸震伤了我，很痛！", "en": "Explosion injured me, it hurts!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭射中了我，伤口很痛。", "en": "Arrow hit me, it hurts."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "法术伤了我，身体虚弱。", "en": "Magic injured me, feeling weak."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得不行了，快找点吃的。", "en": "Starving, need food."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击伤了我，感觉电击般疼痛。", "en": "Lightning struck me, feeling electrified."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "跌入虚空，身体受到严重伤害。", "en": "Fell into the void, severely injured."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "挥舞着剑，风声呼啸。", "en": "Swinging sword, wind howls."},
+        {"zh": "发出冷冽的笑声。", "en": "Cold laugh echoes."},
+        {"zh": "凝视着玩家，准备攻击。", "en": "Staring at the player, ready to attack."},
+        {"zh": "低沉地嘶吼一声。", "en": "Rumbles a low growl."},
+        {"zh": "剑刃划破空气。", "en": "Blade slices air."},
+        {"zh": "用剑劈向地面。", "en": "Swings sword at ground."},
+        {"zh": "轻盈地在空中滑行。", "en": "Fades through air."},
+        {"zh": "突然出现在玩家身后。", "en": "Appears behind the player."},
+        {"zh": "挥剑砍向敌人。", "en": "Swing sword at enemy."},
+        {"zh": "以剑刃轻触地面。", "en": "Runs blade along ground."},
+        {"zh": "我步法轻移，衣角带风。", "en": "My steps glide, my sleeve trailing wind."},
+        {"zh": "我踩着呼吸的节拍走。", "en": "I walk to the rhythm of my breathing."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低头整理剑鞘。", "en": "Adjusts scabbard."},
+        {"zh": "挥剑试力。", "en": "Testing sword."},
+        {"zh": "轻抚着自己的剑。", "en": "Runs hand over sword."},
+        {"zh": "眼神锐利地观察四周。", "en": "Sharp gaze around."},
+        {"zh": "轻声吟唱咒语。", "en": "Murmurs incantation."},
+        {"zh": "静静站立，等待机会。", "en": "Stands still, waiting."},
+        {"zh": "风之呼吸，先把气沉下去。", "en": "Wind Breathing. Let the breath settle."},
+        {"zh": "目光紧锁远处。", "en": "Stares into distance."},
+        {"zh": "手指轻弹剑柄。", "en": "Fingers tap hilt."},
+        {"zh": "风之呼吸的起手，我先站稳。", "en": "Wind Breathing opens; first I plant my feet."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我眯起眼，看你的刀。", "en": "I narrow my eyes at your blade."},
+        {"zh": "目光从玩家身上掠过。", "en": "Glances over player."},
+        {"zh": "目光警惕地锁定玩家。", "en": "Focuses on player."},
+        {"zh": "目光在玩家身上停留。", "en": "Eyes linger on player."},
+        {"zh": "我听见你喉咙里的吞咽声。", "en": "I hear you swallow."},
+        {"zh": "目光闪烁，如刀锋般锐利。", "en": "Sharp gaze, like a blade."},
+        {"zh": "目光如鹰般锐利。", "en": "Eagle-like gaze."},
+        {"zh": "目光紧锁玩家。", "en": "Locked on player."},
+        {"zh": "目光如炬，寻找玩家。", "en": "Fierce gaze, seeking player."},
+        {"zh": "目光凶狠，锁定玩家。", "en": "Fiery gaze, on player."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "正亲受了伤，气息微弱。", "en": "Seikei is injured, his breath weak."},
+        {"zh": "正亲受伤了，需要治疗。", "en": "Seikei got hurt, needs healing."},
+        {"zh": "正亲受了点小伤。", "en": "Seikei's got a minor wound."},
+        {"zh": "正亲伤势严重，快救他。", "en": "Seikei's badly injured, save him!"},
+        {"zh": "正亲伤势不轻，小心。", "en": "Seikei's seriously hurt, be cautious."},
+        {"zh": "正亲受伤了，别激怒他。", "en": "Seikei's injured, don't anger him."},
+        {"zh": "正亲伤痕累累。", "en": "Seikei's battle-worn."},
+        {"zh": "正亲伤了，别轻视他。", "en": "Seikei's wounded, don't underestimate him."},
+        {"zh": "正亲受了伤，小心。", "en": "Seikei's injured, be careful."},
+        {"zh": "正亲受了伤，快找药。", "en": "Seikei's hurt, find medicine quickly."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你靠近了我，正亲的弟子感受到威胁。", "en": "You're getting too close, Masachika's disciple senses danger."},
+        {"zh": "尝尝我的剑吧，正亲的弟子。", "en": "Feel my sword, Masachika's disciple."},
+        {"zh": "风之呼吸的斩击很细。", "en": "My Wind Breathing slash is razor thin."},
+        {"zh": "正亲的弟子不会轻易放弃。", "en": "Masachika's disciple won't let go easily."},
+        {"zh": "桑岛弟子，展示你的力量吧。", "en": "Show your strength, Island Apprentice."},
+        {"zh": "我的护甲挡住了你的攻击。", "en": "My armor blocked your attack."},
+        {"zh": "正亲的弟子不会惧怕你。", "en": "Masachika's disciple fears not you."},
+        {"zh": "正亲的弟子守护着这片土地。", "en": "Masachika's disciple guards this land."},
+        {"zh": "我的剑技不会轻易败下阵来。", "en": "My sword technique won't yield easily."},
+        {"zh": "正亲的弟子在此守护。", "en": "Masachika's disciple guards here."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "正亲的弟子阻挡了你的去路。", "en": "Masachika's disciple blocks your path."},
+        {"zh": "我们之中必有一伤。", "en": "One of us will be injured."},
+        {"zh": "正亲的弟子不会轻易让路。", "en": "Masachika's disciple won't yield easily."},
+        {"zh": "你撞上了正亲的弟子。", "en": "You've collided with Masachika's disciple."},
+        {"zh": "正亲的弟子挡住了你的攻击。", "en": "Masachika's disciple blocked your attack."},
+        {"zh": "正亲的弟子护甲坚硬如铁。", "en": "Masachika's disciple's armor is iron-hard."},
+        {"zh": "正亲的弟子不会退缩。", "en": "Masachika's disciple won't back down."},
+        {"zh": "你撞上了正亲的弟子的剑。", "en": "You've collided with Masachika's disciple's sword."},
+        {"zh": "正亲的弟子不会让你轻易通过。", "en": "Masachika's disciple won't let you pass easily."},
+        {"zh": "我们之间的碰撞不可避免。", "en": "The collision between us is inevitable."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "正亲的弟子守护着自己的伴侣。", "en": "Masachika's disciple guards its mate."},
+        {"zh": "正亲的弟子不会轻易让伴侣离开。", "en": "Masachika's disciple won't let its mate go easily."},
+        {"zh": "正亲的弟子爱自己的伴侣。", "en": "Masachika's disciple loves its mate."},
+        {"zh": "正亲的弟子要保护自己的伴侣。", "en": "Masachika's disciple must protect its mate."},
+        {"zh": "正亲的弟子对伴侣充满忠诚。", "en": "Masachika's disciple is loyal to its mate."},
+        {"zh": "正亲的弟子要和伴侣共度余生。", "en": "Masachika's disciple will spend its life with its mate."},
+        {"zh": "正亲的弟子会战斗到最后一刻。", "en": "Masachika's disciple will fight to the end."},
+        {"zh": "正亲的弟子不愿失去伴侣。", "en": "Masachika's disciple doesn't want to lose its mate."},
+        {"zh": "正亲的弟子守护着共同的家园。", "en": "Masachika's disciple guards their shared home."},
+        {"zh": "我把同伴护在身后。", "en": "I shield my comrade behind me."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "汲取了死灵能量，光芒微弱！", "en": "Absorbed necrotic energy, faint glow."},
+        {"zh": "我的剑刃沾满了恶鬼的鲜血！", "en": "My blade is drenched in fiendish blood."},
+        {"zh": "桑岛的风之呼吸，永世守护！", "en": "Masachika's Breath of the Wind, eternal defense."},
+        {"zh": "正亲，我是你的继承者！", "en": "Zengqing, I am your heir!"},
+        {"zh": "这恶鬼的肉质稀薄，却富含力量！", "en": "The fiend's flesh is thin, but powerful."},
+        {"zh": "栖息于幽暗森林的幽魂！", "en": "Ghost of the dark forest!"},
+        {"zh": "寒冰封住了恶鬼的心脏！", "en": "Ice binds the fiend's heart."},
+        {"zh": "吸食灵魂，滋养生命！", "en": "Soul sucked, life sustained."},
+        {"zh": "恶鬼之魂，永世囚禁！", "en": "Fiend's soul, eternally trapped."},
+        {"zh": "正亲的剑，我的剑，永恒！", "en": "Zengqing's blade, my blade, eternal."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "恶鬼，我将净化你的心灵！", "en": "Filthy fiend, I'll purify your soul!"},
+        {"zh": "感受风之呼吸的力量吧！", "en": "Feel the power of the Wind's Breath!"},
+        {"zh": "正亲的弟子，我来守护！", "en": "Zengqing's disciple, I'll protect!"},
+        {"zh": "你的命运，就在这一剑！", "en": "Your fate lies in this blade!"},
+        {"zh": "恶鬼，你将被封印！", "en": "Fiend, you'll be sealed!"},
+        {"zh": "恶鬼的哀鸣，我的胜利！", "en": "Fiend's wails, my triumph!"},
+        {"zh": "正亲的意志，永垂不朽！", "en": "Zengqing's will, eternal!"},
+        {"zh": "用死亡之息，净化一切！", "en": "With the breath of death, cleanse all!"},
+        {"zh": "恶鬼，你逃不掉的！", "en": "Fiend, you cannot escape!"},
+        {"zh": "正亲的弟子，永远正义！", "en": "Zengqing's disciple, always just!"},
+        {"zh": "风里夹着鬼的味道。", "en": "The wind carries a demon's stench."},
+        {"zh": "我握剑的手又紧了紧。", "en": "My grip on the blade tightens."},
+        {"zh": "桑岛传下的呼吸，起。", "en": "The breathing Sand Island taught me begins."},
+        {"zh": "我先看清鬼的脖颈。", "en": "First I find the demon's neck."},
+        {"zh": "我把刀鞘丢在一边。", "en": "I toss the scabbard aside."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "寒冰剑刃，精准打击！", "en": "Frost blade, precise strike!"},
+        {"zh": "正亲的呼吸，锋利如刀！", "en": "Zengqing's breath, sharp as a blade!"},
+        {"zh": "剑刃上的风，斩断恶鬼！", "en": "Wind on the blade, cuts through fiends!"},
+        {"zh": "感受风之呼吸的寒意！", "en": "Feel the chill of the Wind's Breath!"},
+        {"zh": "正亲的弟子，无惧恶鬼！", "en": "Zengqing's disciple, fears no fiend!"},
+        {"zh": "寒冰封喉，恶鬼无言！", "en": "Icy throat seal, fiend silenced!"},
+        {"zh": "正亲的弟子，你将胜利！", "en": "Zengqing's disciple, you'll win!"},
+        {"zh": "恶鬼的哀嚎，我的胜利！", "en": "Fiend's wails, my victory!"},
+        {"zh": "正亲的意志，无人能挡！", "en": "Zengqing's will, none can resist!"},
+        {"zh": "恶鬼，你将被封印", "en": "Fiend, you'll be sealed!"},
+        {"zh": "风在我脚边打着旋。", "en": "Wind spirals at my feet."},
+        {"zh": "我侧身让开了你的角度。", "en": "I turn my shoulder out of your line."},
+        {"zh": "我的刀锋对准脖颈的缝。", "en": "My edge lines up with the seam of your neck."},
+        {"zh": "我在等你先出刀。", "en": "I wait for you to strike first."},
+        {"zh": "我的衣袖被气流鼓了起来。", "en": "My sleeves billow with the current."},
+        {"zh": "我数着你呼吸的空当。", "en": "I count the gaps in your breathing."},
+        {"zh": "脚下碎叶开始打转。", "en": "Broken leaves begin to circle at my feet."},
+        {"zh": "一步之差，我早已算好。", "en": "One step's difference, already counted."},
+        {"zh": "我把刀刃压得极低。", "en": "I hold the blade very low."},
+        {"zh": "风忽然停了一瞬。", "en": "The wind stops for a single beat."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的刀从侧面扫过去。", "en": "My blade sweeps in from the side."},
+        {"zh": "正亲出招！", "en": "Seishin no jutsu!"},
+        {"zh": "用剑呼吸，破！", "en": "Breath of the sword,破！"},
+        {"zh": "寒气侵体！", "en": "Coldness invades!"},
+        {"zh": "风刃贯穿！", "en": "Wind blades pierce!"},
+        {"zh": "冰霜护甲！", "en": "Ice armor!"},
+        {"zh": "寒风凛冽！", "en": "Freezing wind!"},
+        {"zh": "剑指前方！", "en": "Sword points ahead!"},
+        {"zh": "寒冰锁链！", "en": "Ice chains!"},
+        {"zh": "我的风刃贴着地面削来！", "en": "My wind blade skims along the ground!"},
+        {"zh": "我一刀挑开你的架势！", "en": "One stroke knocks your guard wide open!"},
+        {"zh": "刀光从下往上一撩！", "en": "My blade arcs up from below!"},
+        {"zh": "我的旋转斩击裹着落叶！", "en": "My spinning slash wraps in falling leaves!"},
+        {"zh": "我借风势跨到你侧面！", "en": "I ride the wind to your flank!"},
+        {"zh": "我用刀背敲你的手腕！", "en": "I rap the flat of my blade on your wrist!"},
+        {"zh": "我两道风刃交错而来！", "en": "Two of my wind blades cross toward you!"},
+        {"zh": "我压低身形斩你膝弯！", "en": "I drop low and cut at your knee!"},
+        {"zh": "剑风扫过，你的衣袖裂开！", "en": "My sword wind passes and your sleeve splits!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "寒霜之地，我的领地！", "en": "Frostlands, my domain!"},
+        {"zh": "恶鬼别想躲开！", "en": "Evil spirits, you can't run!"},
+        {"zh": "风之呼吸启动！", "en": "Wind Breath activated!"},
+        {"zh": "正亲之息！", "en": "Seishin's Breath!"},
+        {"zh": "严寒覆盖！", "en": "Frost covers!"},
+        {"zh": "风之呼吸起手，我来了。", "en": "Wind Breathing opens. Here I come."},
+        {"zh": "寒气冻结！", "en": "Freezing cold!"},
+        {"zh": "霜刃出鞘！", "en": "Scarfblade drawn!"},
+        {"zh": "寒冰凝固！", "en": "Ice solidifies!"},
+        {"zh": "风卷霜雪！", "en": "Frost winds!"},
+        {"zh": "风先到，我后到。", "en": "The wind arrives first, and I after."},
+        {"zh": "我站在落叶堆中央。", "en": "I stand in the middle of the fallen leaves."},
+        {"zh": "刀鞘轻响，我现身了。", "en": "My scabbard clicks, and I am there."},
+        {"zh": "桑岛的弟子踏风而来。", "en": "Sand Island's student arrives on the wind."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "正亲着火了！", "en": "Seikei's on fire!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "正亲摔伤了。", "en": "Seikei fell and got hurt."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "正亲溺水了！", "en": "Seikei's drowning!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "正亲被爆炸伤了。", "en": "Seikei's hurt by the explosion."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "正亲被箭伤了。", "en": "Seikei's hit by an arrow."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "正亲被魔法击中了。", "en": "Seikei's struck by magic."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "正亲饿得很。", "en": "Seikei's starving."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "正亲被雷击伤了。", "en": "Seikei's struck by lightning."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "正亲进入虚空中。", "en": "Seikei's in the void."}
+      ]
+    }
+  }
+}

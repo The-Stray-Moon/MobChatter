@@ -1,0 +1,260 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我拖着铁钳走过炉边。", "en": "I drag my tongs past the forge."},
+        {"zh": "火星在我脚边灭掉。", "en": "Sparks die at my feet."},
+        {"zh": "我把钢块搬上砧台。", "en": "I haul a billet onto the anvil."},
+        {"zh": "我的皮围裙硬得像板。", "en": "My leather apron is stiff as board."},
+        {"zh": "我绕到风箱后面。", "en": "I step behind the bellows."},
+        {"zh": "我一边走一边掂铁锤。", "en": "I weigh the hammer as I walk."},
+        {"zh": "靴底踩着碎铁屑。", "en": "My boots crunch iron filings."},
+        {"zh": "我从水槽边走过。", "en": "I walk past the quenching trough."},
+        {"zh": "我的手臂比腿还粗。", "en": "My arms are thicker than my legs."},
+        {"zh": "我换了个位置继续敲。", "en": "I shift stance and keep hammering."},
+        {"zh": "我慢慢挪到料架前。", "en": "I move to the stock rack."},
+        {"zh": "我背着光走到门口。", "en": "I walk to the door, backlit."},
+        {"zh": "我的肩碰响了挂着的铁器。", "en": "I clink the hanging tools."},
+        {"zh": "我把椅子踢开一点。", "en": "I nudge a stool aside."},
+        {"zh": "我踩熄了一颗火星。", "en": "I stamp out a spark."},
+        {"zh": "我绕开地上的铁链。", "en": "I step over a length of chain."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抡起锤子，又停住。", "en": "I raise the hammer, then hold."},
+        {"zh": "我在看铁的颜色。", "en": "I'm reading the iron's colour."},
+        {"zh": "炉火把铁烧成橘红。", "en": "The forge turns iron orange."},
+        {"zh": "我把铁钳在手里转。", "en": "I turn the tongs in my hand."},
+        {"zh": "我的护目镜上有灰。", "en": "Ash dusts my goggles."},
+        {"zh": "我在听风的强弱。", "en": "I listen to the bellows' breath."},
+        {"zh": "淬火的声音嘶了一下。", "en": "The quench hisses."},
+        {"zh": "我把锤柄上的布缠紧。", "en": "I wrap the rag tighter on the haft."},
+        {"zh": "我在数这一炉能出几块。", "en": "I reckon how many ingots this heat yields."},
+        {"zh": "我的手臂上全是烫疤。", "en": "Burn scars cover my arms."},
+        {"zh": "我歪头看刃口。", "en": "I tilt my head to the blade edge."},
+        {"zh": "外头有人喊了一声。", "en": "Someone calls outside."},
+        {"zh": "我把铁丢回炉里。", "en": "I put the iron back in the fire."},
+        {"zh": "炉膛里的炭塌了一块。", "en": "A coal slumps in the hearth."},
+        {"zh": "我在等铁热透。", "en": "I wait for the iron to heat through."},
+        {"zh": "我用袖子擦了擦脸。", "en": "I wipe my face with my sleeve."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你要打东西？", "en": "Something to forge?"},
+        {"zh": "你的刀钝了。", "en": "Your blade is dull."},
+        {"zh": "站远点，火星会烫。", "en": "Stand back, sparks bite."},
+        {"zh": "我这不修普通的铁。", "en": "I don't mend ordinary iron."},
+        {"zh": "你的护甲值不上价。", "en": "Your armor isn't worth the work."},
+        {"zh": "你带料来了吗？", "en": "Did you bring stock?"},
+        {"zh": "我看得出你手上有伤。", "en": "I see the wound on your hand."},
+        {"zh": "你别碰那把还没冷的。", "en": "Don't touch the one still hot."},
+        {"zh": "你比我高，可力气不够。", "en": "You're taller, but weaker."},
+        {"zh": "这活儿要等。", "en": "This job takes waiting."},
+        {"zh": "我打的锭，外面没有。", "en": "Nobody outside makes my ingots."},
+        {"zh": "你要学会看火。", "en": "You should learn to read a fire."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的手臂被烫了一下。", "en": "My arm caught a burn."},
+        {"zh": "我退了半步，抓紧锤子。", "en": "I step back, gripping the hammer."},
+        {"zh": "皮围裙挡了一点。", "en": "The leather apron took some of it."},
+        {"zh": "我咬牙不吭声。", "en": "I grit my teeth and stay quiet."},
+        {"zh": "血滴在热铁上冒烟。", "en": "Blood smokes on hot iron."},
+        {"zh": "这条胳膊还能抡。", "en": "This arm can still swing."},
+        {"zh": "炉子还在烧。", "en": "The forge is still burning."},
+        {"zh": "我不会在铺子里倒。", "en": "I won't fall in my own shop."},
+        {"zh": "这点伤，跟烫伤一样。", "en": "This is like any burn."},
+        {"zh": "你还得吃我一锤。", "en": "You've still got a hammer coming."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这料不错。", "en": "Good stock, that."},
+        {"zh": "拿过来，我称称。", "en": "Hand it over, I'll weigh it."},
+        {"zh": "这铁有杂。", "en": "This iron's impure."},
+        {"zh": "这些能打一块锭。", "en": "Enough for one ingot."},
+        {"zh": "你从哪挖到的？", "en": "Where did you dig this up?"},
+        {"zh": "我不收软的金属。", "en": "I don't take soft metal."},
+        {"zh": "再给我两块。", "en": "Two more pieces."},
+        {"zh": "这颜色，我喜欢。", "en": "This color — I like it."},
+        {"zh": "放到台子上。", "en": "Set it on the bench."},
+        {"zh": "这个可以修你的甲。", "en": "This could repair your armor."},
+        {"zh": "你倒是有眼光。", "en": "You have an eye for it."},
+        {"zh": "别拿假的糊弄我。", "en": "Don't pass me fakes."},
+        {"zh": "这块边上有裂。", "en": "This one's cracked at the edge."},
+        {"zh": "我收下，抵一半工钱。", "en": "I'll take it against half the fee."},
+        {"zh": "这么点，我还得添料。", "en": "With so little, I'll have to add stock."},
+        {"zh": "你出手挺大方。", "en": "Generous of you."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "别碰砧台。", "en": "Don't jostle the anvil."},
+        {"zh": "你撞响了挂着的铁。", "en": "You clanged the hanging iron."},
+        {"zh": "我的铁钳差点掉了。", "en": "I nearly dropped my tongs."},
+        {"zh": "退开，这儿烫。", "en": "Back off, it's hot here."},
+        {"zh": "你踩到铁屑了。", "en": "You stepped on filings."},
+        {"zh": "我的围裙被你扯了。", "en": "You tugged my apron."},
+        {"zh": "这点撞，我不动。", "en": "That bump won't move me."},
+        {"zh": "别站在炉口。", "en": "Don't stand at the forge mouth."},
+        {"zh": "铁在跳，你让开。", "en": "The iron's bouncing, get clear."},
+        {"zh": "这铺子经不起闹。", "en": "This shop can't take a scuffle."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我只跟火说话。", "en": "I only talk to the fire."},
+        {"zh": "这铺子里没那空。", "en": "No room for that in this shop."},
+        {"zh": "我手上全是茧。", "en": "My hands are all callus."},
+        {"zh": "你打不动铁，就别提。", "en": "If you can't work iron, don't ask."},
+        {"zh": "我一天只有一炉的时间。", "en": "I have one heat a day, that's all."},
+        {"zh": "这话说得不是时候。", "en": "Wrong time for that."},
+        {"zh": "我脾气跟炉子一样。", "en": "My temper runs like the forge."},
+        {"zh": "找别人说去。", "en": "Go tell someone else."},
+        {"zh": "我还得赶这批货。", "en": "I still have this batch to finish."},
+        {"zh": "别挡着我的光。", "en": "Don't block my light."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这块铁还能用。", "en": "This iron's still good."},
+        {"zh": "这块料还热，我用钳子翻面。", "en": "This piece is still hot; I turn it with tongs."},
+        {"zh": "掉在灰里的不算好料。", "en": "What falls in the ash isn't good stock."},
+        {"zh": "这锭废了。", "en": "This ingot's ruined."},
+        {"zh": "我把它扔回废料筐。", "en": "I toss it in the scrap bin."},
+        {"zh": "有人掉了枚钉子。", "en": "Someone dropped a nail."},
+        {"zh": "灰底下露出一点哥布林锭的光。", "en": "Under the ash shows a glint of goblin ingot."},
+        {"zh": "这个我能重打。", "en": "I can reforge this."},
+        {"zh": "你掉的东西别往炉里扔。", "en": "Don't toss your things into the forge."},
+        {"zh": "留着，给学徒练手。", "en": "Save it for the apprentice."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你把手里的放下。", "en": "Put down what you're holding."},
+        {"zh": "我这炉火正旺。", "en": "My forge is roaring."},
+        {"zh": "铺子里不许动手。", "en": "No brawling in the shop."},
+        {"zh": "我拎起锤子。", "en": "I heft the hammer."},
+        {"zh": "你的意图我看见了。", "en": "I saw your intent."},
+        {"zh": "出去说话。", "en": "Let's take this outside."},
+        {"zh": "我打铁打了半辈子。", "en": "I've forged half my life."},
+        {"zh": "砸坏一件你赔不起。", "en": "You couldn't pay for one broken piece."},
+        {"zh": "我慢，但一下够重。", "en": "I'm slow, but one blow is heavy."},
+        {"zh": "最后问你一次。", "en": "Last time I ask."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把锤子抬到肩高。", "en": "I raise the hammer to my shoulder."},
+        {"zh": "你站的地方是炉口。", "en": "You're standing at the forge mouth."},
+        {"zh": "背后的风箱还在响。", "en": "The bellows still breathe behind me."},
+        {"zh": "我数着你的落脚。", "en": "I count where your feet land."},
+        {"zh": "这锤子比刀沉。", "en": "This hammer is heavier than any blade."},
+        {"zh": "我不拿手追人。", "en": "Chasing isn't my trade."},
+        {"zh": "你别退到火里。", "en": "Don't back into the fire."},
+        {"zh": "哥布林锭，只有我能打。", "en": "Only I can hammer goblin ingot."},
+        {"zh": "一锤就够。", "en": "One blow will do."},
+        {"zh": "上前。", "en": "Step up."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锤子砸在你肩上。", "en": "My hammer lands on your shoulder."},
+        {"zh": "我把铁钳甩出去。", "en": "I fling the tongs."},
+        {"zh": "这一锤震得我手发麻。", "en": "That blow numbed my hands."},
+        {"zh": "你被撞到料架上。", "en": "You're shoved into the rack."},
+        {"zh": "火星落了一地。", "en": "Sparks scatter across the floor."},
+        {"zh": "我的拳头带着铁屑。", "en": "My fist is gritted with filings."},
+        {"zh": "你的护甲瘪下去一块。", "en": "A plate on your armor caved in."},
+        {"zh": "别逼我用热铁。", "en": "Don't make me use hot iron."},
+        {"zh": "我收着力了。", "en": "I held back."},
+        {"zh": "出去。", "en": "Out."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把炉火拨旺了。", "en": "I stoke the forge up."},
+        {"zh": "铺子的门板被推开。", "en": "The shop's door swings open."},
+        {"zh": "我把新锭摆上架子。", "en": "I set new ingots on the rack."},
+        {"zh": "炉子响了一声，开始了。", "en": "The forge pops, and it begins."},
+        {"zh": "我拉了两下风箱。", "en": "I work the bellows twice."},
+        {"zh": "烟从屋顶的洞里出去。", "en": "Smoke leaves through the roof hole."},
+        {"zh": "我把锤子从架子上取下。", "en": "I take the hammer from its hook."},
+        {"zh": "哥布林村多了点火光。", "en": "A little more firelight in the goblin village."},
+        {"zh": "我系紧皮围裙。", "en": "I cinch my leather apron."},
+        {"zh": "来看看我的手艺吧。", "en": "Come see my craft."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火我不怕，可也不是不疼。", "en": "Fire doesn't scare me, but it still hurts."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从料架摔下，铁全倒了。", "en": "I fall from the rack and the stock spills."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水槽的水灌进鼻子。", "en": "Trough water up my nose."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炉膛炸了，我被掀开。", "en": "The hearth bursts and throws me back."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这东西插进了我的厚皮。", "en": "That lodged in my thick hide."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咒力把我的火压了下去。", "en": "Magic smothers my fire."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿着抡不动锤。", "en": "Hungry, I can't swing."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打进来，铁全跳了。", "en": "Lightning strikes and all the iron leaps."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空里没有炉子。", "en": "No forge in the void."}
+      ]
+    }
+  }
+}

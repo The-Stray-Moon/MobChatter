@@ -1,0 +1,263 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哞哞叫着向前走", "en": "Moo as it walks forward"},
+        {"zh": "缓慢地啃食着草", "en": "Slowly munching on grass"},
+        {"zh": "踩着腐菌，边走边嚼。", "en": "Chewing as I walk over rotten fungus."},
+        {"zh": "警惕地走着", "en": "Wary as it walks"},
+        {"zh": "步履蹒跚地前行", "en": "Shuffling forward"},
+        {"zh": "咀嚼着青草", "en": "Chewing on grass"},
+        {"zh": "摇晃着脑袋前行", "en": "Shaking its head as it walks"},
+        {"zh": "吃东西时走动", "en": "Walking while eating"},
+        {"zh": "小心地移动着", "en": "Carefully moving"},
+        {"zh": "缓慢地漫步", "en": "Slowly ambling"},
+        {"zh": "蹄子踩过腐坏的菌毯", "en": "My hooves sink through rotting fungus."},
+        {"zh": "腐烂的皮肤一块块掉", "en": "Patches of my hide slough off."},
+        {"zh": "边走边咳出黑色的沫", "en": "I cough black foam as I walk."},
+        {"zh": "歪着身子拖着后腿", "en": "I drag a hind leg, listing sideways."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低头嚼食草叶", "en": "Chewing on grass"},
+        {"zh": "静止不动，咀嚼", "en": "Steady, chewing"},
+        {"zh": "抬头看看周围", "en": "Looking around"},
+        {"zh": "慢慢咀嚼着", "en": "Chewing slowly"},
+        {"zh": "站立不动，消化", "en": "Standing, digesting"},
+        {"zh": "嚼着带了孢子的草。", "en": "Chewing grass speckled with spores."},
+        {"zh": "低头啃食发黑的草根。", "en": "Head down, gnawing blackened roots."},
+        {"zh": "慢慢咀嚼食物", "en": "Chewing food slowly"},
+        {"zh": "平静地站立", "en": "Standing calmly"},
+        {"zh": "咀嚼，消化食物", "en": "Chewing and digesting"},
+        {"zh": "站在菌伞下不肯动", "en": "I stand under a fungal cap and will not move."},
+        {"zh": "反刍着发霉的草", "en": "I chew over moldy grass."},
+        {"zh": "苍蝇围着我的背打转", "en": "Flies circle my back."},
+        {"zh": "低下头舔自己的伤口", "en": "I lower my head to lick my sores."},
+        {"zh": "一动不动像块烂木头", "en": "I stand still as rotten wood."},
+        {"zh": "用尾巴拍打腐土", "en": "My tail slaps the rotted soil."},
+        {"zh": "鼻孔里呼出灰白的雾", "en": "Grey mist leaves my nostrils."},
+        {"zh": "歪头听着地下的声音", "en": "I tilt my head toward sounds underground."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐化真菌的味道，正往你身上爬。", "en": "Corrupted fungus is crawling onto you."},
+        {"zh": "鼓起的皮下一阵蠕动。", "en": "Something squirms under my swollen hide."},
+        {"zh": "缓慢地抬起腐烂的头。", "en": "I slowly lift my rotting head."},
+        {"zh": "烂皮裂开，露出菌丝。", "en": "My rotting hide splits, showing hyphae."},
+        {"zh": "我吃腐化的草，也吃你。", "en": "I graze on rot — and on you."},
+        {"zh": "目光集中在玩家身上", "en": "Focused on the player"},
+        {"zh": "看着玩家的动作", "en": "Watching the player's actions"},
+        {"zh": "注意到了近处的玩家", "en": "Noticing the nearby player"},
+        {"zh": "瘤块随着呼吸鼓动。", "en": "The lumps on me pulse with each breath."},
+        {"zh": "发黑的牛角对着你。", "en": "My blackened horns point at you."},
+        {"zh": "浑浊的眼珠转向你", "en": "My clouded eye rolls toward you."},
+        {"zh": "盯了很久才眨一下", "en": "I stare a long while before blinking."},
+        {"zh": "鼻子抽动，闻你的味", "en": "My muzzle twitches at your smell."},
+        {"zh": "慢慢把头抬到肩高", "en": "I slowly lift my head to shoulder height."},
+        {"zh": "一步一步朝你挪过来", "en": "I shuffle toward you one step at a time."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哞，我受伤了...", "en": "Moo, I'm hurt..."},
+        {"zh": "哞，我的角受伤了...", "en": "Moo, my horns are hurt..."},
+        {"zh": "哞，我有点疼...", "en": "Moo, I'm a bit hurt..."},
+        {"zh": "哞，你干啥了...", "en": "Moo, what did you do..."},
+        {"zh": "哞，求求你别再打了...", "en": "Moo, please don't hit me anymore..."},
+        {"zh": "哞，这疼...", "en": "Moo, this hurts..."},
+        {"zh": "哞，我的腿受伤了...", "en": "Moo, my legs are hurt..."},
+        {"zh": "哞，我需要休息...", "en": "Moo, I need to rest..."},
+        {"zh": "哞，我需要帮助...", "en": "Moo, I need help..."},
+        {"zh": "哞...腐肉也补不了我...", "en": "Moo... not even carrion can mend me..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哞哞叫着接近你", "en": "Moos at you invitingly"},
+        {"zh": "低头觅食，眼神迷离", "en": "Lowers head for food, eyes glazed"},
+        {"zh": "啃食你手中的草块", "en": "Chews on the grass in your hand"},
+        {"zh": "靠近你，渴望被抚摸", "en": "Approaches you, eager for petting"},
+        {"zh": "低头让你抚摸它的头", "en": "Lowers head for you to pet"},
+        {"zh": "眼神中透露出乞求", "en": "Looks at you pleadingly"},
+        {"zh": "摇动尾巴，显得兴奋", "en": "Wags tail excitedly"},
+        {"zh": "用牛角轻触你", "en": "Butts you gently with horns"},
+        {"zh": "在你身边安静地吃草", "en": "Eats grass peacefully by you"},
+        {"zh": "享受你给予的草", "en": "Enjoys the grass you give"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "突然冲撞过来", "en": "Collides suddenly"},
+        {"zh": "身体撞向你", "en": "Bodies collide with you"},
+        {"zh": "用角顶你", "en": "Butts you with horns"},
+        {"zh": "试图撞翻你", "en": "Tries to knock you over"},
+        {"zh": "撞倒附近的箱子", "en": "Collides with nearby chests"},
+        {"zh": "被你撞后踉跄", "en": "Stumbles after being bumped"},
+        {"zh": "撞向你手中的物品", "en": "Collides with item in hand"},
+        {"zh": "用头撞击地面", "en": "Butts ground with head"},
+        {"zh": "撞得你退后几步", "en": "Bumps you back a few steps"},
+        {"zh": "撞倒附近的植物", "en": "Collides with nearby plants"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哞哞求偶声", "en": "Rumbles for a mate"},
+        {"zh": "寻找并接近异性", "en": "Seeks and approaches a mate"},
+        {"zh": "围着另一头牛转圈", "en": "Circles another cow"},
+        {"zh": "试图与另一头牛接吻", "en": "Tries to kiss another cow"},
+        {"zh": "用鼻子触碰另一头牛", "en": "Noses another cow"},
+        {"zh": "靠近并试图交配", "en": "Approaches to mate"},
+        {"zh": "展示给另一头牛看", "en": "Displays to another cow"},
+        {"zh": "用尾巴挑逗另一头牛", "en": "Swishes tail at another cow"},
+        {"zh": "我的皮肤下面有菌丝在动。", "en": "Mycelium stirs beneath my hide."},
+        {"zh": "与另一头牛互相触碰", "en": "Noses up against another cow"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哞哞叫着，我挤出了奶汁！", "en": "Moo! And out comes the milk!"},
+        {"zh": "腐化的牛奶，味道怪怪的...", "en": "Corrupted milk, tastes weird..."},
+        {"zh": "我需要找一个好地方休息...", "en": "Need a good place to rest..."},
+        {"zh": "这些腐化真菌真难对付...", "en": "These corrupt fungi are tough..."},
+        {"zh": "我的皮肤开始发痒...", "en": "My skin starts to itch..."},
+        {"zh": "我感到越来越虚弱...", "en": "I feel weaker..."},
+        {"zh": "腐肉是唯一能治愈我的东西...", "en": "Corrupted meat is the only thing that can heal me..."},
+        {"zh": "我需要找个干净的地方...", "en": "Need a clean place..."},
+        {"zh": "我的朋友也感染了...", "en": "My friends got infected too..."},
+        {"zh": "这里的食物都被污染了...", "en": "All the food is polluted here..."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我要去探索附近的区域...", "en": "I’ll explore the nearby area..."},
+        {"zh": "我闻到了食物的味道...", "en": "Smell of food..."},
+        {"zh": "我找到了一片绿洲...", "en": "Found a oasis..."},
+        {"zh": "我需要找到水源...", "en": "Need to find water..."},
+        {"zh": "我感到了危险的气息...", "en": "Dangerous smell..."},
+        {"zh": "我必须保护自己...", "en": "Need to protect myself..."},
+        {"zh": "我感到非常饥饿...", "en": "Extremely hungry..."},
+        {"zh": "我必须找到更多食物...", "en": "Need to find more food..."},
+        {"zh": "我需要更多朋友...", "en": "Need more friends..."},
+        {"zh": "我感受到了同伴的召唤...", "en": "Called by my companion..."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我要用角撞它...", "en": "Will use horns..."},
+        {"zh": "它的血液很鲜美...", "en": "Fresh blood..."},
+        {"zh": "我得小心它的攻击...", "en": "Watch out for its attacks..."},
+        {"zh": "我需要吸取它的生命力...", "en": "Sucking its life..."},
+        {"zh": "它的肉很美味...", "en": "Delicious meat..."},
+        {"zh": "我需要更多能量...", "en": "Need more energy..."},
+        {"zh": "我将吸取它的生命...", "en": "Life draining..."},
+        {"zh": "我感到非常饱腹...", "en": "Feeling full..."},
+        {"zh": "我找到了新的目标...", "en": "Found new target..."},
+        {"zh": "低低地哞了一声", "en": "I let out a low moo."},
+        {"zh": "后腿刨着腐土", "en": "My hind legs paw the rotten dirt."},
+        {"zh": "角尖对准你的肚子", "en": "My horn aims at your middle."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哞哞，你中招了！", "en": "Moo, you’re infected!"},
+        {"zh": "腐化的身躯！", "en": "Corrupted flesh!"},
+        {"zh": "我身上的菌丝也在长。", "en": "The mycelium on me is growing too."},
+        {"zh": "哞哞，吃我一击！", "en": "Moo, take this hit!"},
+        {"zh": "腐化之力！", "en": "Corruption power!"},
+        {"zh": "哞哞，尝尝吧！", "en": "Moo, taste this!"},
+        {"zh": "腐化的呼唤！", "en": "Corruption call!"},
+        {"zh": "哞哞，反击！", "en": "Moo, counter!"},
+        {"zh": "腐化已入骨！", "en": "Corruption in bone!"},
+        {"zh": "用烂掉半边的角撞你", "en": "I butt you with my half-rotted horn."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐化的草地出现我！", "en": "I spawn in corrupted grass!"},
+        {"zh": "从孢子雾里挤出身子。", "en": "I squeeze out of the spore haze."},
+        {"zh": "腐化之地，我的家！", "en": "Corrupted land, my home!"},
+        {"zh": "腐化之魂，我来报到！", "en": "Corrupted spirit, here I am!"},
+        {"zh": "腐化的草原上诞生！", "en": "Born in corrupted fields!"},
+        {"zh": "腐化的大地召唤我！", "en": "Corrupted earth calls me!"},
+        {"zh": "腐化之地，我重生！", "en": "Born from corrupted soil!"},
+        {"zh": "腐化之源，我来了！", "en": "Corruption source, here I am!"},
+        {"zh": "腐化的土地上诞生！", "en": "Born in corrupted lands!"},
+        {"zh": "我的奶早就变成腐水了。", "en": "My milk turned to rot water long ago."},
+        {"zh": "菌原上多了一头牛", "en": "One more cow on the fungal plain."},
+        {"zh": "腐草堆里传出哞声", "en": "A moo comes from the rotting grass."},
+        {"zh": "牛群又添了新成员", "en": "The herd takes on another member."},
+        {"zh": "它在菌伞之间站起来", "en": "It rises between the fungal caps."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哞，着火了...", "en": "Moo, I'm on fire..."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哞，我从高处摔了下来...", "en": "Moo, I fell from a high place..."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哞，我被淹了...", "en": "Moo, I'm drowning..."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哞，我被爆炸击中了...", "en": "Moo, I was hit by an explosion..."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哞，我中箭了...", "en": "Moo, I was hit by an arrow..."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哞，我被法术击中了...", "en": "Moo, I was hit by magic..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哞，我没吃东西...", "en": "Moo, I haven't eaten..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哞，雷击了...", "en": "Moo, I was struck by lightning..."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哞，我跌落虚空...", "en": "Moo, I fell into the void..."}
+      ]
+    }
+  }
+}

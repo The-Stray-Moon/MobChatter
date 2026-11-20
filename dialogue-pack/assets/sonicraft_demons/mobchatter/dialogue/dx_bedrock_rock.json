@@ -1,0 +1,266 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我滚过去，地面都在响。", "en": "I roll along and the ground rumbles."},
+        {"zh": "方块边角一路刮着土。", "en": "My edges scrape the soil all the way."},
+        {"zh": "我转半圈，又转半圈。", "en": "I turn half a turn, then another."},
+        {"zh": "沉甸甸的，谁都推不动。", "en": "I'm so heavy no one can push me."},
+        {"zh": "我压过的地方草都没了。", "en": "No grass is left where I pass."},
+        {"zh": "我顺着斜坡滚下去。", "en": "I roll on down the slope."},
+        {"zh": "我滚过的地方有印子。", "en": "I leave a track where I roll."},
+        {"zh": "我半点也不焦急。", "en": "I'm not the slightest bit hurried."},
+        {"zh": "我一个面朝下压着地。", "en": "One of my faces presses down."},
+        {"zh": "我绕开一块小石头。", "en": "I go around a small stone."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我静静地停在地上。", "en": "I sit still on the ground."},
+        {"zh": "我的表面粗糙又硬。", "en": "My surface is rough and hard."},
+        {"zh": "草从我的缝隙里长。", "en": "Grass grows in my seams."},
+        {"zh": "我没有任何表情。", "en": "I have no expression at all."},
+        {"zh": "我压着的地面陷下去。", "en": "The ground sinks under me."},
+        {"zh": "我一动不动地躺着。", "en": "I lie perfectly still."},
+        {"zh": "我身上的纹路很深。", "en": "The lines across me run deep."},
+        {"zh": "有虫在我下面爬。", "en": "Insects crawl underneath me."},
+        {"zh": "阳光照着我的一角。", "en": "The sun falls on one of my corners."},
+        {"zh": "草从我的裂缝里长高了。", "en": "The grass has grown tall in my cracks."},
+        {"zh": "我重得连自己都懒。", "en": "I'm so heavy even I feel lazy."},
+        {"zh": "我什么也不打算做。", "en": "I don't plan to do anything."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在我面前，显得很小。", "en": "You look small in front of me."},
+        {"zh": "我是一块搬不动的石头。", "en": "I'm a stone that can't be moved."},
+        {"zh": "你想把我挪开吗。", "en": "Do you mean to shift me?"},
+        {"zh": "你的工具在我身上会崩。", "en": "Your tools will break on me."},
+        {"zh": "慢慢转过身来，别急。", "en": "Turning my body slowly, no hurry."},
+        {"zh": "我压着这片地。", "en": "I weigh down this patch of ground."},
+        {"zh": "我是一块搬不动的石头，压着这片地。", "en": "I am an immovable stone, pressing this ground."},
+        {"zh": "我没有眼睛，也看得见你。", "en": "I have no eyes, yet I see you."},
+        {"zh": "你敲一下试试。", "en": "Give me one knock and see."},
+        {"zh": "我这里没有门。", "en": "There's no door in me."},
+        {"zh": "你离我近得过分了。", "en": "You're excessively near."},
+        {"zh": "这块基岩，谁都砸不烂。", "en": "This bedrock cannot be broken."},
+        {"zh": "这里不允许通过。", "en": "Nothing passes here."},
+        {"zh": "我一点余地也不给。", "en": "I leave no room at all."},
+        {"zh": "你想从我上面翻过去吗。", "en": "Are you thinking of climbing over?"},
+        {"zh": "我的角会把你绊住。", "en": "My edges will trip you up."},
+        {"zh": "我在这里一动不动。", "en": "I stay here without moving."},
+        {"zh": "你也走不过去。", "en": "And you can't pass either."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉了一小块碎屑。", "en": "A small chip came off me."},
+        {"zh": "这一下震到了我的中心。", "en": "That shook me to the core."},
+        {"zh": "我的角上有一道裂。", "en": "There's a crack at my corner."},
+        {"zh": "这点伤不改变什么。", "en": "This wound changes nothing."},
+        {"zh": "我还是压在这里。", "en": "I'm still weighing down this spot."},
+        {"zh": "你把碎屑打飞了。", "en": "You knocked some chips loose."},
+        {"zh": "我的重量一点没少。", "en": "I'm no lighter for it."},
+        {"zh": "我慢慢地挪回原位。", "en": "I slide slowly back into place."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那个东西我不需要。", "en": "I don't need that thing."},
+        {"zh": "你手里的东西，我压不到。", "en": "What you hold, I cannot roll onto."},
+        {"zh": "你举着它没有用。", "en": "Holding it up does no good."},
+        {"zh": "它对我毫无意义。", "en": "It means nothing to me."},
+        {"zh": "我没有眼睛去追它。", "en": "I have no eyes to follow it."},
+        {"zh": "你就搁在地面上吧。", "en": "Just set it on the ground."},
+        {"zh": "它没法让我移动。", "en": "It can't make me move."},
+        {"zh": "你想用它引开我。", "en": "You're trying to draw me off."},
+        {"zh": "我不会往旁边挪。", "en": "I won't shift aside."},
+        {"zh": "我压根不理会它。", "en": "I pay it no attention at all."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上来，我一点没动。", "en": "You struck me; I didn't move."},
+        {"zh": "你被震得坐倒在地。", "en": "The shock sat you on the ground."},
+        {"zh": "这一下声音非常沉。", "en": "That made a very heavy sound."},
+        {"zh": "我的重量是你的几十倍。", "en": "I weigh dozens of times what you do."},
+        {"zh": "你推了我很久，无果。", "en": "You pushed a long while to no effect."},
+        {"zh": "土从我底下挤出来。", "en": "Soil squeezes out from under me."},
+        {"zh": "我纹丝不动地坐着。", "en": "I sit without shifting at all."},
+        {"zh": "你的手大概全麻了。", "en": "Your hands must be all numb."},
+        {"zh": "我略微偏了一点点。", "en": "I shifted a very little."},
+        {"zh": "这一点不算移动。", "en": "That doesn't count as moving."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石头不需要同伴。", "en": "A rock needs no companion."},
+        {"zh": "我们只是两块石头。", "en": "We're only two stones."},
+        {"zh": "并排压着就好。", "en": "Lying side by side is enough."},
+        {"zh": "你比我还硬吗。", "en": "Are you harder than I am?"},
+        {"zh": "两块石头贴着就够了。", "en": "Two stones resting together is enough."},
+        {"zh": "一起把这条路堵上。", "en": "Let's close this road together."},
+        {"zh": "风从我们的缝里过。", "en": "The wind passes between our seams."},
+        {"zh": "我们不挪动也不累。", "en": "We neither move nor tire."},
+        {"zh": "这样堆着很结实。", "en": "Piled like this, we're solid."},
+        {"zh": "谁也别想推开我们。", "en": "No one will push us apart."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把它压在身下面。", "en": "I've pressed it under me."},
+        {"zh": "我看不见它在哪。", "en": "I can't see where it went."},
+        {"zh": "它滚到我的边角下。", "en": "It rolled under one of my edges."},
+        {"zh": "我动不了去拿它。", "en": "I can't move to take it."},
+        {"zh": "它在我底下不动了。", "en": "It's stopped beneath me."},
+        {"zh": "我用一个角去顶它。", "en": "I nudge it with one corner."},
+        {"zh": "我压过去，它碎成粉。", "en": "I roll over it and it crumbles to powder."},
+        {"zh": "它挡不住我滚过去。", "en": "It won't stop me rolling over it."},
+        {"zh": "我是一块基岩，滚过去地面都在响。", "en": "I am bedrock; rolling, I shake the ground."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我开始往你那边滚。", "en": "I begin rolling your way."},
+        {"zh": "这一片路我不让。", "en": "I won't yield this stretch of road."},
+        {"zh": "你退后也还是一样。", "en": "Backing off makes no difference."},
+        {"zh": "我缓慢地朝你滚来。", "en": "I roll at you slowly."},
+        {"zh": "你听见石头磨地吗。", "en": "Do you hear stone grinding?"},
+        {"zh": "我的影子罩住你了，这块基岩砸下来。", "en": "My shadow covers you; this bedrock comes down."},
+        {"zh": "你被我堵在这条路上。", "en": "I have you blocked on this road."},
+        {"zh": "我一点一点压过去。", "en": "I press in bit by bit."},
+        {"zh": "这块基岩，你砸不开。", "en": "You can't break this bedrock."},
+        {"zh": "我锁住了这条路。", "en": "I've sealed this road."},
+        {"zh": "你别想从我身边过。", "en": "Don't imagine you'll get past me."},
+        {"zh": "我滚到中间停下了。", "en": "I've rolled to the middle and stopped."},
+        {"zh": "你在往边上走。", "en": "You're heading for the edge."},
+        {"zh": "那边也没有空隙。", "en": "There's no gap over there either."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我沿着地面朝你滚。", "en": "I roll across the ground toward you."},
+        {"zh": "我的边角把土刮开。", "en": "My edges scrape the soil open."},
+        {"zh": "你往左边跑了。", "en": "You've run to the left."},
+        {"zh": "我跟着转了过去。", "en": "I turned to follow."},
+        {"zh": "我每一下都比上一下近。", "en": "Each roll brings me nearer."},
+        {"zh": "你绕过了那块石头。", "en": "You went around that stone."},
+        {"zh": "我的路线上没有障碍。", "en": "Nothing blocks my path."},
+        {"zh": "你回头瞥了我一眼。", "en": "You shot a glance back at me."},
+        {"zh": "我碾碎一路的枯枝。", "en": "I crush dry branches all along the way."},
+        {"zh": "我压碎了几根枯枝。", "en": "I've crushed a few dead twigs."},
+        {"zh": "你退到墙角那边。", "en": "You've backed toward the wall."},
+        {"zh": "那里也拦不住我。", "en": "That won't hold me either."},
+        {"zh": "我停了一下，又滚。", "en": "I paused, then rolled on."},
+        {"zh": "一块基岩，砸不碎。", "en": "A bedrock block that won't break."},
+        {"zh": "我快要压到你跟前。", "en": "I'm about to bear down on you."},
+        {"zh": "我压到你的近处了。", "en": "I've rolled up close to you."},
+        {"zh": "我把路口封住了。", "en": "I've blocked the crossing."},
+        {"zh": "此刻正是那一刻。", "en": "This is precisely that moment."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我整块压了过去。", "en": "I roll over you whole."},
+        {"zh": "你被挤到了墙边。", "en": "You're squeezed against the wall."},
+        {"zh": "这一下有几百斤重。", "en": "That came with hundreds of pounds."},
+        {"zh": "你被我一撞滑出去。", "en": "One shove sent you sliding."},
+        {"zh": "你的护甲被压得变形。", "en": "Your armor got crushed out of shape."},
+        {"zh": "地面的土都被挤出来。", "en": "Soil squeezed out around us."},
+        {"zh": "你退开两步喘气。", "en": "You stepped back two paces, gasping."},
+        {"zh": "我慢慢地重新对准。", "en": "I slowly line myself up again."},
+        {"zh": "这一下留了余地。", "en": "I left you some room there."},
+        {"zh": "你抓住了我的边角。", "en": "You grabbed at my edge."},
+        {"zh": "我稍微一转就甩开。", "en": "One slight turn shook you off."},
+        {"zh": "你被压得只剩呼吸。", "en": "All you have left is breathing."},
+        {"zh": "我又往前滚了一点。", "en": "I rolled a little further."},
+        {"zh": "你还能起来吗。", "en": "Can you still get up?"},
+        {"zh": "这次我不客气了。", "en": "I won't be gentle this time."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从地里冒了出来。", "en": "I rose up out of the ground."},
+        {"zh": "周围的地面塌了一圈。", "en": "The ground caved in around me."},
+        {"zh": "我压出一个很深的坑。", "en": "I pressed out a deep pit."},
+        {"zh": "草被我压在身下。", "en": "Grass is crushed beneath me."},
+        {"zh": "我一点一点落稳了。", "en": "I settled down bit by bit."},
+        {"zh": "我正好堵在中间。", "en": "I'm blocking it right in the middle."},
+        {"zh": "土块从我身上滚落。", "en": "Clods of earth roll off me."},
+        {"zh": "我没有什么动作。", "en": "I make no movement."},
+        {"zh": "我慢慢地转向那边。", "en": "I slowly turn that way."},
+        {"zh": "我的影子很长很宽。", "en": "My shadow is long and broad."},
+        {"zh": "风里的灰落在我身上。", "en": "Ash settles on me from the wind."},
+        {"zh": "我停在那里等待。", "en": "I stay there and wait."},
+        {"zh": "那脚步声越来越近。", "en": "The footsteps are coming closer."},
+        {"zh": "我准备往前滚了。", "en": "I'm ready to roll forward."},
+        {"zh": "这条路上只容一个人。", "en": "This road only fits one."},
+        {"zh": "我堵住了这一头。", "en": "I've blocked this end."},
+        {"zh": "地面的震动能传很远。", "en": "The shaking carries a long way."},
+        {"zh": "现在让我过去。", "en": "Now let me come through."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烤得我表面发烫。", "en": "Fire has my surface hot."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我砸下去，地都陷了。", "en": "I came down and the ground sank."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水进不去，只是把我泡湿。", "en": "The water can't get in; it only wets me."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我震得抬了一下。", "en": "The blast jolted me up slightly."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭头撞在我身上断了。", "en": "The arrowhead broke against me."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股力量穿不透我。", "en": "That force can't pass through me."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在我身上，火星四溅。", "en": "Lightning struck and sparks flew."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在往下掉，很沉。", "en": "I'm falling, heavily."}
+      ]
+    }
+  }
+}

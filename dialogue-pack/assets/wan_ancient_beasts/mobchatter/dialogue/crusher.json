@@ -1,0 +1,267 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "踏着沉重的步伐", "en": "Stomping heavy steps"},
+        {"zh": "我的步子很慢，地面在颤。", "en": "My steps are slow; the ground trembles."},
+        {"zh": "用锋利的爪子挖掘", "en": "Nail the ground with sharp claws"},
+        {"zh": "在遗迹中缓慢移动", "en": "Slowly move in ruins"},
+        {"zh": "搜寻着食物的踪迹", "en": "Search for food traces"},
+        {"zh": "警惕地观察周围环境", "en": "Cautiously observe surroundings"},
+        {"zh": "从地上捡起一根尖刺", "en": "Pick up a sharp spine"},
+        {"zh": "低鸣警告可能的威胁", "en": "Low growl as a warning"},
+        {"zh": "寻找下一个猎物", "en": "Search for next prey"},
+        {"zh": "警惕地四处张望", "en": "Watch carefully around"},
+        {"zh": "背甲擦过遗迹的石柱", "en": "My back plate scrapes the ruin pillars."},
+        {"zh": "蹄子陷进沙里又拔出", "en": "My hooves sink in sand and pull free."},
+        {"zh": "尖刺随步伐轻轻晃", "en": "The spikes sway with each step."},
+        {"zh": "绕着遗迹慢慢踱步", "en": "I pace slowly around the ruins."},
+        {"zh": "低头嗅着沙下的小洞", "en": "I sniff a small hole under the sand."},
+        {"zh": "尾锤在沙上拖出一道沟", "en": "My tail club drags a groove in the sand."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "懒洋洋地躺在沙地上", "en": "Lazily lie on the sand"},
+        {"zh": "用嘴巴啃咬尖刺", "en": "Chew on a spine"},
+        {"zh": "舔舐自己的皮肤", "en": "Lick its own skin"},
+        {"zh": "静静地躺着，享受阳光", "en": "Lie quietly, basking in the sun"},
+        {"zh": "背上这排尖刺，别用凿子碰。", "en": "Do not put a chisel to the spikes on my back."},
+        {"zh": "用爪子梳理自己的毛发", "en": "Scratch its own fur"},
+        {"zh": "发出轻微的呼噜声", "en": "Make a soft snore"},
+        {"zh": "偶尔转动一下脑袋", "en": "Occasionally turn its head"},
+        {"zh": "舔舐自己的嘴巴", "en": "Lick its mouth"},
+        {"zh": "享受沙漠的宁静", "en": "Enjoy the desert's quiet"},
+        {"zh": "在石柱阴影里打盹", "en": "I doze in a pillar's shadow."},
+        {"zh": "背刺上停着一只沙蝇", "en": "A sand fly rests on my spikes."},
+        {"zh": "用后腿挠了挠侧腹", "en": "I scratch my flank with a hind leg."},
+        {"zh": "把鼻子埋进凉沙里", "en": "I bury my snout in the cool sand."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "突然盯上玩家", "en": "Suddenly fixes on the player"},
+        {"zh": "我的尾巴拍在沙地上。", "en": "My tail slaps the sand."},
+        {"zh": "我的尖刺，你凿不走第二根。", "en": "You will not chisel a second spike off me."},
+        {"zh": "我背上的尖刺，一根根竖起。", "en": "The spikes on my back rise one by one."},
+        {"zh": "露出凶狠的眼神", "en": "Shows a fierce gaze"},
+        {"zh": "准备使用尖刺攻击", "en": "Readies a spine attack"},
+        {"zh": "低吼从胸腔里滚出来。", "en": "A growl rolls up from my chest."},
+        {"zh": "瞄准玩家的动作", "en": "Positions to attack the player"},
+        {"zh": "准备用爪子攻击", "en": "Readies a claw attack"},
+        {"zh": "你腰上那把凿子我认得。", "en": "I know that chisel at your belt."},
+        {"zh": "眼睛从背甲缝里看你", "en": "My eye watches you through a gap in my plate."},
+        {"zh": "抬起鼻角闻了闻你", "en": "I lift my nose horn and sniff you."},
+        {"zh": "它停下，盯住你的手", "en": "It stops and stares at your hands."},
+        {"zh": "你手里那把凿子很眼熟", "en": "I know that chisel in your hand."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低吼着蜷缩成一团", "en": "growls and curls up"},
+        {"zh": "嘶嘶地摩擦身体", "en": "grinds its body"},
+        {"zh": "发出痛苦的叫声", "en": "squeals in pain"},
+        {"zh": "哀鸣着缓缓倒下", "en": "cries and slumps"},
+        {"zh": "颤抖着抽搐不止", "en": "shakes and convulses"},
+        {"zh": "痛苦地低吼一声", "en": "growls in agony"},
+        {"zh": "痛苦地哀鸣几声", "en": "cries out in pain"},
+        {"zh": "嘶嘶地倒在地上", "en": "falls and grinds to the ground"},
+        {"zh": "哀鸣着蜷缩起来", "en": "cries and curls up"},
+        {"zh": "痛苦地呻吟着", "en": "groans in pain"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "看着你真想品尝一口！", "en": "Taste you, I must."},
+        {"zh": "别靠近我的蛋，否则后悔莫及！", "en": "Stay away from my eggs."},
+        {"zh": "来吧，尝尝我的肉！", "en": "Taste my flesh!"},
+        {"zh": "这里是我的领地，滚开！", "en": "This is my territory."},
+        {"zh": "你用凿子碰我，我会记住。", "en": "Touch me with that chisel and I'll remember."},
+        {"zh": "别惹我，否则你会死！", "en": "Touch me, and die."},
+        {"zh": "我的尖刺能刺穿任何东西！", "en": "My spines can pierce all."},
+        {"zh": "沙漠遗迹就是我的家！", "en": "Desert ruins are my home."},
+        {"zh": "我只吃软弱的生物！", "en": "I only eat the weak."},
+        {"zh": "别来烦我，我要休息！", "en": "Leave me alone, I need rest."},
+        {"zh": "甜菜根的味道让我发热", "en": "Beetroot scent makes me run hot."},
+        {"zh": "再举一次凿子，试试看", "en": "Raise that chisel one more time. Try it."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你敢碰我一下试试！", "en": "Touch me, dare you?"},
+        {"zh": "我被撞得偏了半步。", "en": "I'm shoved half a step off balance."},
+        {"zh": "你敢再来一次？", "en": "Try again?"},
+        {"zh": "我的防御坚不可摧！", "en": "Unbreakable defenses."},
+        {"zh": "你打不赢我！", "en": "You can't beat me."},
+        {"zh": "我不会轻易被击败！", "en": "I won't fall easily."},
+        {"zh": "你打中了，但我没事！", "en": "Hit me, but I'm fine."},
+        {"zh": "你打得越狠我越兴奋！", "en": "The harder, the better."},
+        {"zh": "箭矢弹开，连皮都没破。", "en": "Arrows bounce off without breaking hide."},
+        {"zh": "你太弱了，打不动我！", "en": "Too weak to hurt me."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找我当伴侣？门都没有！", "en": "Mate with me? No way."},
+        {"zh": "我的伴侣必须是强者！", "en": "My mate must be strong."},
+        {"zh": "我只选择最优秀的！", "en": "I choose the best."},
+        {"zh": "和我一起，你会变得更强！", "en": "With me, you'll be stronger."},
+        {"zh": "背上的尖刺，我留一根给你。", "en": "I'll leave one spine for you."},
+        {"zh": "只有强者才能配得上我！", "en": "Only the strongest can mate with me."},
+        {"zh": "我是最优秀的！", "en": "I'm the best!"},
+        {"zh": "来吧，和我在一起！", "en": "Come with me."},
+        {"zh": "我需要一个强大的伴侣！", "en": "I need a strong mate."},
+        {"zh": "凿子别碰我的刺，我会翻脸。", "en": "Keep the chisel off my spikes or I turn."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咔嚓，它身上的尖刺滑落下来。", "en": "Click. A spike drops off its body."},
+        {"zh": "你试图取刺，它嘶嘶作响。", "en": "It hisses at you as you try to take a spike."},
+        {"zh": "它用粗壮的前肢保护自己。", "en": "It uses its strong forelimbs for defense."},
+        {"zh": "它瞪大眼睛，警惕地看着你。", "en": "It stares at you with wide eyes."},
+        {"zh": "它缓慢地转过头，盯着你。", "en": "It slowly turns its head towards you."},
+        {"zh": "它低吼一声，似乎在警告你。", "en": "It growls, warning you."},
+        {"zh": "它粗重的呼吸声回荡在洞穴中。", "en": "Its heavy breathing echoes in the cave."},
+        {"zh": "它用坚硬的皮肤蹭着地面。", "en": "It rubs its hard skin against the ground."},
+        {"zh": "它用鼻子轻触你，似乎在试探。", "en": "It nudges you with its nose, probing you."},
+        {"zh": "它发出低沉的呼噜声，表示放松。", "en": "It makes a low rumbling sound, indicating relaxation."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它察觉到你的存在，慢慢靠近。", "en": "It senses your presence and slowly approaches."},
+        {"zh": "尖刺立起来，我盯上你了。", "en": "My spikes rise. I have you."},
+        {"zh": "它的目光始终盯着你。", "en": "Its gaze is always on you."},
+        {"zh": "别扔东西，我的硬皮弹开它。", "en": "Throw nothing. My hide bounces it off."},
+        {"zh": "它突然停下了脚步。", "en": "It suddenly stops in its tracks."},
+        {"zh": "它嗅了嗅周围的空气。", "en": "It sniffs the air around it."},
+        {"zh": "它缓缓转过身，面对你。", "en": "It slowly turns to face you."},
+        {"zh": "它的眼中露出警觉的光芒。", "en": "Alertness shines in its eyes."},
+        {"zh": "它发现你，立刻戒备。", "en": "It spots you and immediately becomes wary."},
+        {"zh": "它开始慢慢接近你。", "en": "It slowly approaches you."},
+        {"zh": "你碰到了我的尖刺", "en": "You touched one of my spikes."},
+        {"zh": "背甲一沉，我要转身了", "en": "My plate dips. I'm turning around."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它张开大嘴，露出锋利的牙齿。", "en": "It opens its mouth, revealing sharp teeth."},
+        {"zh": "我低下头，鼻息喷起沙尘。", "en": "I lower my head; my breath kicks up dust."},
+        {"zh": "它用目光锁定你的位置。", "en": "It locks its gaze on you."},
+        {"zh": "我往后退一步，好蓄力冲撞。", "en": "I back up a step to build my charge."},
+        {"zh": "它的身体开始微微震动。", "en": "Its body begins to vibrate slightly."},
+        {"zh": "它的眼睛发出亮光，准备扑向你。", "en": "Its eyes glow as it prepares to pounce on you."},
+        {"zh": "它收紧肌肉，准备一击致命。", "en": "It tightens its muscles, ready for a lethal strike."},
+        {"zh": "它发出低吼，表示愤怒。", "en": "It growls in anger."},
+        {"zh": "它准备好了，只等机会。", "en": "It is ready, waiting for the right moment."},
+        {"zh": "它的眼睛变得血红，充满杀气。", "en": "Its eyes turn blood red, filled with rage."},
+        {"zh": "蹄子刨开沙，压低身", "en": "I paw the sand and lower my body."},
+        {"zh": "我这一撞能推倒石柱", "en": "One charge from me could topple a pillar."},
+        {"zh": "别退到遗迹墙边", "en": "Don't back into the ruin wall."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低吼一声，碎岩兽朝你冲来。", "en": "Growls lowly and charges at you."},
+        {"zh": "用利爪划破你的皮肤。", "en": "Scratches you with sharp claws."},
+        {"zh": "挥动着沉重的头部，撞向你。", "en": "Swings its heavy head towards you."},
+        {"zh": "喷出一股沙石，试图击中你。", "en": "Sprays a jet of sand and rocks."},
+        {"zh": "用巨大的颚咬住你。", "en": "Bites you with its huge jaws."},
+        {"zh": "用岩石砸向你。", "en": "Hurls rocks at you."},
+        {"zh": "挥动坚硬的尾巴抽打你。", "en": "Whips you with its hard tail."},
+        {"zh": "用角抵住你。", "en": "Butts you with its horn."},
+        {"zh": "碎岩兽的尖刺扎入你。", "en": "The crusher’s spines pierce you."},
+        {"zh": "碎岩兽用岩石砸碎你的装备。", "en": "The crusher smashes your gear with rocks."},
+        {"zh": "背甲横扫过去", "en": "My armored back sweeps across."},
+        {"zh": "尖刺扎进你的肋下", "en": "A spike drives under your ribs."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从沙漠遗迹中缓缓走出。", "en": "Emerges from the desert ruins."},
+        {"zh": "在遗迹的阴影下站立。", "en": "Stands in the shadow of the ruins."},
+        {"zh": "从沙中挖掘着出现。", "en": "Emerges from the sand digging."},
+        {"zh": "四处游荡，寻找食物。", "en": "Wanders, searching for food."},
+        {"zh": "避开阳光，躲在阴影里。", "en": "Avoids the sun, hiding in shadows."},
+        {"zh": "在遗迹边缘活动。", "en": "Acts around the edge of the ruins."},
+        {"zh": "白天躲在岩石下。", "en": "Hides under rocks during the day."},
+        {"zh": "夜晚才开始活动。", "en": "Begins to move at night."},
+        {"zh": "寻找合适的环境繁殖。", "en": "Seeks out a proper environment for reproduction."},
+        {"zh": "在遗迹的洞穴中孵化。", "en": "Incubates in the ruins’ caves."},
+        {"zh": "蛋在遗迹沙下裂开", "en": "The egg cracks under ruin sand."},
+        {"zh": "我从沙丘下拱出来", "en": "I push up from beneath the dune."},
+        {"zh": "石柱间多了一个影子", "en": "A new shadow stands between the pillars."},
+        {"zh": "遗迹的地砖被顶开了", "en": "A ruin floor tile lifts from below."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶地嘶叫着滚开", "en": "grinds and rolls away hissing"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "痛苦地哀鸣着摔下来", "en": "cries and falls"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶地挣扎着沉下去", "en": "struggles and sinks hissing"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶地哀鸣着爆炸", "en": "cries and explodes hissing"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶地哀鸣着滚开", "en": "cries and rolls away hissing"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶地哀鸣着化为灰烬", "en": "cries and turns to ash hissing"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶地哀鸣着倒在地上", "en": "cries and falls hissing"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶地哀鸣着被劈中", "en": "cries and is struck hissing"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶地哀鸣着坠入虚无", "en": "cries and falls into the void hissing"}
+      ]
+    }
+  }
+}

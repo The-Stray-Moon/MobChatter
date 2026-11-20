@@ -1,0 +1,267 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "轻轻扇动翅膀飞过草原。", "en": "Gently flap wings over the plains."},
+        {"zh": "低低掠过地面寻找食物。", "en": "Skim low over the ground, searching for food."},
+        {"zh": "用尾巴扫过草地收集金粒。", "en": "Brush tail over grass, collecting gold grains."},
+        {"zh": "轻盈地在空中盘旋。", "en": "Spiral gracefully in the air."},
+        {"zh": "飞到远处的湖泊觅食。", "en": "Fly to the distant lake for a meal."},
+        {"zh": "在空中缓缓飞翔。", "en": "Soar slowly in the sky."},
+        {"zh": "避开玩家的视线飞行。", "en": "Fly out of sight of the player."},
+        {"zh": "轻盈地掠过水面。", "en": "Glide lightly over the water."},
+        {"zh": "栖息在岩石上晒太阳。", "en": "Rest on rocks basking in the sun."},
+        {"zh": "小小翅膀，扑棱两下就起来。", "en": "Tiny wings — two flaps and I'm up."},
+        {"zh": "贴着草尖飞，尾巴扫过。", "en": "Skimming the grass tips, tail sweeping."},
+        {"zh": "爪子里还攥着铁粒。", "en": "An iron nugget still clutched in my claws."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静地栖息在洞穴里。", "en": "Rest quietly in a cave."},
+        {"zh": "悠闲地在树枝上歇息。", "en": "Relax on branches."},
+        {"zh": "偶尔转动脑袋寻找猎物。", "en": "Occasionally turn head to search for prey."},
+        {"zh": "用目光扫描周围环境。", "en": "Scan the surroundings with its gaze."},
+        {"zh": "轻柔地梳理自己的羽毛。", "en": "Gently preen its feathers."},
+        {"zh": "轻声呢喃着自我安慰。", "en": "Whisper to itself soothingly."},
+        {"zh": "享受着午后温暖的阳光。", "en": "Basks in the warm afternoon sun."},
+        {"zh": "在洞穴入口观察动静。", "en": "Observes from the cave entrance."},
+        {"zh": "静静躺在岩石上。", "en": "Lies quietly on a rock."},
+        {"zh": "偶尔发出轻微的嘶嘶声。", "en": "Occasionally hisses softly."},
+        {"zh": "我在数自己的收藏。", "en": "I'm counting my collection."},
+        {"zh": "风从洞口吹进来，舒服。", "en": "Wind slips into the cave; nice."},
+        {"zh": "耳朵转过去，听见了。", "en": "My ear turns; I heard that."},
+        {"zh": "晒够了，该巡视领地了。", "en": "Sunned enough; time to patrol."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "用锐利的眼神盯着玩家。", "en": "Fixes sharp gaze on the player."},
+        {"zh": "警觉地观察着玩家的举动。", "en": "Alertly watches the player's movements."},
+        {"zh": "靠近玩家但保持一定距离。", "en": "Approaches the player but keeps a distance."},
+        {"zh": "发出轻微的嘶嘶警告声。", "en": "Hisses softly as a warning."},
+        {"zh": "尝试靠近玩家但被吓退。", "en": "Attempts to approach the player but backs off."},
+        {"zh": "用尾巴挥动警告玩家。", "en": "Swishes tail as a warning to the player."},
+        {"zh": "我只有巴掌大，你也举刀。", "en": "I am no bigger than your palm, and you raise your blade."},
+        {"zh": "在玩家附近低飞盘旋。", "en": "Loops low around the player."},
+        {"zh": "试图接近玩家但失败。", "en": "Attempts to approach the player but fails."},
+        {"zh": "紧张地注视着玩家。", "en": "Nervously stares at the player."},
+        {"zh": "你把剑放下，我再靠近。", "en": "Put the sword down and I'll come closer."},
+        {"zh": "你不穿盔甲，看着温和些。", "en": "No armor on you; you look gentler."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅膀受伤了，快给我食物！", "en": "My wings are hurt! Feed me!"},
+        {"zh": "腿伤了，别动我！", "en": "Leg hurt! Don't touch me!"},
+        {"zh": "肚子疼，给点鳕鱼！", "en": "My stomach hurts, give me some cod!"},
+        {"zh": "尾巴骨折了，求求你！", "en": "My tail is broken, please!"},
+        {"zh": "我受惊了，别靠近我！", "en": "I'm scared, stay away!"},
+        {"zh": "翅膀被咬了，很疼！", "en": "My wings are bitten, it hurts!"},
+        {"zh": "我迷路了，找不到家！", "en": "I'm lost, I can't find home!"},
+        {"zh": "肚子饿了，快喂我！", "en": "I'm hungry, feed me!"},
+        {"zh": "我累了，给我休息！", "en": "I'm tired, let me rest!"},
+        {"zh": "我的翅膀破了，别打了。", "en": "My wing is torn; stop hitting me."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "轻咬鱼饵，发出细微的嘶嘶声。", "en": "Gently nips at the bait, hissing softly."},
+        {"zh": "在空中盘旋，寻找鳕鱼踪迹。", "en": "Circling in the air, searching for the scent of cod."},
+        {"zh": "低空掠过水面，捕捉鳕鱼。", "en": "Skimming the surface, snatching cod."},
+        {"zh": "用爪子抓起一块金粒，仔细研究。", "en": "Picks up a gold grain, inspecting it closely."},
+        {"zh": "鳕鱼干的味道，先给我闻。", "en": "Let me smell that dried cod first."},
+        {"zh": "发出低沉的咕噜声，接近鳕鱼。", "en": "Makes a low growl, closing in on the cod."},
+        {"zh": "小心翼翼地靠近，以免惊扰鳕鱼。", "en": "Approaches cautiously, not to scare the cod."},
+        {"zh": "发现鳕鱼后，迅速俯冲捕食。", "en": "Dives swiftly upon spotting the cod."},
+        {"zh": "吞下鳕鱼，发出满意的咕噜声。", "en": "Swallows the cod, making contented sounds."},
+        {"zh": "在岸边休息，晒着太阳。", "en": "Rests on the shore, basking in the sun."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "尖锐的龙喙撞向岩石，发出撞击声。", "en": "Sharp dragon beak collides with rock, making a clattering sound."},
+        {"zh": "与另一只Terrible Terror激烈搏斗。", "en": "Fierce combat with another Terrible Terror."},
+        {"zh": "被同伴的攻击激怒，展开攻击。", "en": "Angered by a companion's attack, launches an assault."},
+        {"zh": "用尾巴拍打敌人，试图推开。", "en": "Tails swat at the enemy, trying to push it away."},
+        {"zh": "发出震耳欲聋的咆哮，警告入侵者。", "en": "Rumbling roar to warn off intruders."},
+        {"zh": "翅膀撞在一起，试图占上风。", "en": "Wings collide, trying to gain the upper hand."},
+        {"zh": "被同伴撞得飞出数米。", "en": "Collided and sent flying several meters."},
+        {"zh": "用爪子互抓，搏斗激烈。", "en": "Claws grappling, intense combat."},
+        {"zh": "撞上树干，发出沉重的撞击声。", "en": "Collides with a tree trunk, a heavy thud."},
+        {"zh": "尾巴被同伴抓住，试图挣脱。", "en": "Tail grabbed by a companion, trying to break free."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出低沉的求偶声，吸引伴侣。", "en": "Low growl to attract a mate."},
+        {"zh": "与伴侣相互梳理羽毛。", "en": "Mutually preening each other's feathers."},
+        {"zh": "在空中翱翔，寻找配偶。", "en": "Flying in the air, searching for a mate."},
+        {"zh": "用翅膀轻拂伴侣，表达爱意。", "en": "Gently brushes with its wings, showing affection."},
+        {"zh": "围绕飞行，展示自己的飞行技巧。", "en": "Flying in circles, showcasing its flying skills."},
+        {"zh": "发出吸引伴侣的嘶嘶声。", "en": "Hisses to attract a mate."},
+        {"zh": "在地面上梳理羽毛，准备交配。", "en": "Preens on the ground, preparing for mating."},
+        {"zh": "与伴侣共同巡视领地。", "en": "Patrols the territory with a mate."},
+        {"zh": "相互摩擦喙，增进感情。", "en": "Rub beaks together, strengthening their bond."},
+        {"zh": "用翅膀轻触伴侣，表达亲密。", "en": "Gently touches with its wings, showing closeness."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我找到了我的宝藏！", "en": "Found my treasure!"},
+        {"zh": "这里的金粒闪着光。", "en": "Shiny gold here."},
+        {"zh": "铁粒是完美的收藏。", "en": "Perfect iron piece."},
+        {"zh": "绿宝石是我的最爱。", "en": "Love my emeralds."},
+        {"zh": "这些食物让我的翅膀更轻。", "en": "Food makes my wings lighter."},
+        {"zh": "鳕鱼，我的美味。", "en": "Cod, my treat."},
+        {"zh": "我应该去休息了。", "en": "Time to rest."},
+        {"zh": "我警惕着四周。", "en": "Scanning the area."},
+        {"zh": "我的领地不容侵犯。", "en": "My territory, no trespassing."},
+        {"zh": "我信任你，但要小心。", "en": "Trust me, be cautious."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "猎物在地面上。", "en": "Prey on the ground."},
+        {"zh": "鳕鱼游动在水中。", "en": "Cod swims in water."},
+        {"zh": "我追踪它。", "en": "I track it."},
+        {"zh": "金粒堆在洞里，谁也别碰。", "en": "My gold nuggets are in that hole — hands off."},
+        {"zh": "我发现了新的金粒。", "en": "New gold found."},
+        {"zh": "铁粒隐藏在树根下。", "en": "Iron under roots."},
+        {"zh": "火焰不会伤害我。", "en": "Immune to fire."},
+        {"zh": "我用眼睛锁定目标。", "en": "Eye on the target."},
+        {"zh": "保持静止，不要惊动它。", "en": "Stay still, don't startle it."},
+        {"zh": "小心，它会攻击。", "en": "Be careful, it attacks."},
+        {"zh": "地上有绿宝石的光。", "en": "Emerald light on the ground."},
+        {"zh": "那条鳕鱼跳了一下。", "en": "That cod just jumped."},
+        {"zh": "气味进了我的鼻子。", "en": "A scent reaches my nose."},
+        {"zh": "我记住它藏在哪里了。", "en": "I'll remember where it hides."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我这么小，可牙齿不小。", "en": "I am small, but my teeth are not."},
+        {"zh": "鳕鱼，我要吃了你。", "en": "Cod, time to eat."},
+        {"zh": "它在我的视野中。", "en": "In my sight."},
+        {"zh": "我将守护我的领地。", "en": "Defending my territory."},
+        {"zh": "驯服需要时间。", "en": "Taming takes time."},
+        {"zh": "我信任你，但要耐心。", "en": "Trust, be patient."},
+        {"zh": "我收集金粒作为奖励。", "en": "Collecting gold as reward."},
+        {"zh": "铁粒是我的最爱。", "en": "Iron is my favorite."},
+        {"zh": "绿宝石闪耀着光芒。", "en": "Emeralds shine."},
+        {"zh": "这块地盘，我吼得最响。", "en": "On this patch, my roar is the loudest."},
+        {"zh": "翅膀收紧，准备俯冲。", "en": "Wings tucked; about to dive."},
+        {"zh": "我先低飞一圈看看。", "en": "I'll circle low once first."},
+        {"zh": "火焰伤不了我，你呢？", "en": "Fire can't hurt me. Can it hurt you?"},
+        {"zh": "别跑，我只是好奇。", "en": "Don't run; I'm only curious."},
+        {"zh": "尾巴绷直了，要来了。", "en": "Tail straight; it's coming."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "尖利的喙啄向你！", "en": "Sharp beak pecks at you!"},
+        {"zh": "翅膀扇动，我俯冲而下！", "en": "Wings flap, I dive down!"},
+        {"zh": "咬住你的胳膊，好疼！", "en": "Bite your arm, it hurts!"},
+        {"zh": "用小爪子抓你！", "en": "Claw at you!"},
+        {"zh": "尾巴一扫，你被掀翻！", "en": "Tail swishes, you fall!"},
+        {"zh": "用小牙撕咬你！", "en": "Teeth bite you!"},
+        {"zh": "我用尖嘴啄你！", "en": "Sharp beak pecks you!"},
+        {"zh": "扑向你的脸！", "en": "Leap for your face!"},
+        {"zh": "咬一口，就一口，尝尝。", "en": "One bite, just one, to taste."},
+        {"zh": "抓住你的腿，你动弹不得！", "en": "Legs grabbed, can't move!"},
+        {"zh": "尖牙咬住你的袖子！", "en": "Sharp teeth catch your sleeve!"},
+        {"zh": "从上方啄你的头！", "en": "A peck at your head from above!"},
+        {"zh": "翅膀一拍，尘土迷眼！", "en": "One wingbeat, dust in your eyes!"},
+        {"zh": "抓一下就跑，我很快！", "en": "Grab and go; I'm quick!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗中我出现！", "en": "Spawn in darkness!"},
+        {"zh": "从岩石中钻出！", "en": "Climb from rocks!"},
+        {"zh": "我这副小身板，从岩缝里钻出来。", "en": "This small body squeezes out of a rock crack."},
+        {"zh": "从树洞中飞出！", "en": "Fly from tree!"},
+        {"zh": "天空中突然出现！", "en": "Appear from sky!"},
+        {"zh": "从石缝中跃出！", "en": "Leap from cracks!"},
+        {"zh": "黑夜中现身，无声无息！", "en": "Silently appear at night!"},
+        {"zh": "我从地缝里挤出来，灰头土脸。", "en": "I squeeze out of a crack, covered in dust."},
+        {"zh": "在地面上孵化而出！", "en": "Hatch on ground!"},
+        {"zh": "从岩浆中跳出来！", "en": "Jump from lava!"},
+        {"zh": "我在这片草原孵出来。", "en": "I hatched on these plains."},
+        {"zh": "从枝条间钻出来，翅膀还湿。", "en": "Out of the branches, wings still damp."},
+        {"zh": "巢在岩石后面，别过去。", "en": "Nest behind the rock; don't go there."},
+        {"zh": "这窝里只剩我一个。", "en": "Only me left in this clutch."},
+        {"zh": "白天是我的时间。", "en": "Daytime is my time."},
+        {"zh": "风把我送到这片领地。", "en": "The wind brought me to this land."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧伤我了，救命！", "en": "Fire burns me, save me!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从树枝上掉下来，翅膀没张开。", "en": "I fell off the branch before my wings opened."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进水里了，救命！", "en": "Drowned, save me!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸震伤了我，快跑！", "en": "Explosion hurt me, run!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我这小身子中了一箭。", "en": "A small body like mine took an arrow."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法攻击伤了我，求救！", "en": "Magical attack, help!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得不行了，给点鳕鱼吧！", "en": "Starving, give me some cod!"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被雷击中了，好疼！", "en": "Lightning hit me, it hurts!"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空中，救救我！", "en": "Void, save me!"}
+      ]
+    }
+  }
+}

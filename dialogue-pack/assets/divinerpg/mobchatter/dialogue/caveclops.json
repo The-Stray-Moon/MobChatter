@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石头被我踩得咯吱响。", "en": "The stones crunch under my feet."},
+        {"zh": "咕噜咕噜，咕噜咕噜。", "en": "Rumble, rumble."},
+        {"zh": "洞穴深处的声音。", "en": "Deep cave sound."},
+        {"zh": "石头中伸出一只眼。", "en": "Eye poking out of stone."},
+        {"zh": "石头缝隙里的低吼。", "en": "Growl from stone cracks."},
+        {"zh": "我有大眼睛。", "en": "Big eyes."},
+        {"zh": "寻找食物。", "en": "Seeking food."},
+        {"zh": "洞穴中的独眼巨人。", "en": "Cave eye giant."},
+        {"zh": "石头里钻出一个洞。", "en": "Stone opens a hole."},
+        {"zh": "咚、咚，脚步在石壁间撞回来。", "en": "Thud, thud; my steps bounce off the stone."},
+        {"zh": "我抱着石球走，肩膀一歪。", "en": "I carry a stone ball; my shoulder tilts."},
+        {"zh": "摸黑走，一只眼也够用。", "en": "I walk in the dark; one eye suffices."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "独眼盯着你看。", "en": "Single eye staring."},
+        {"zh": "独眼看着你。", "en": "Single eye watching."},
+        {"zh": "独眼在思考。", "en": "Single eye thinking."},
+        {"zh": "洞穴里的独眼。", "en": "Eye in cave."},
+        {"zh": "独眼里的黑暗。", "en": "Darkness in eye."},
+        {"zh": "独眼盯着你。", "en": "Eye watching you."},
+        {"zh": "洞里太静，我在找心跳声。", "en": "The cave is too quiet; I'm listening for heartbeats."},
+        {"zh": "独眼巨人的独眼。", "en": "Giant eye."},
+        {"zh": "独眼中的黑暗。", "en": "Darkness in eye."},
+        {"zh": "一只眼慢慢眨，像在盘算。", "en": "My single eye blinks slowly, calculating."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在那里！", "en": "There you are!"},
+        {"zh": "石头举起来了，砸得准。", "en": "My boulder is up, and my aim is good."},
+        {"zh": "别躲了，我的眼睛看得见热。", "en": "Stop hiding; my eye sees heat."},
+        {"zh": "我要抓住你。", "en": "I’ll grab you."},
+        {"zh": "你躲不掉的。", "en": "You can’t escape."},
+        {"zh": "一只眼也够瞄准，石头来了。", "en": "One eye is enough to aim; here comes the rock."},
+        {"zh": "你动弹不得。", "en": "You can’t move."},
+        {"zh": "独眼一转，你就在我正前方。", "en": "My single eye turns - you're dead ahead."},
+        {"zh": "一块石头，我扔得比你跑得快。", "en": "I throw a rock faster than you run."},
+        {"zh": "我这只独眼，只看得见你。", "en": "My one eye sees nothing but you."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞窟独眼巨眼冒金光，疼得我直发慌。", "en": "My single eye glows in pain."},
+        {"zh": "独眼巨痛难忍，眼冒金星。", "en": "My eye is hurting badly."},
+        {"zh": "独眼巨眼被打伤，阵阵剧痛。", "en": "My eye hurts from the hit."},
+        {"zh": "独眼巨被击中，好痛。", "en": "I got hit, it hurts."},
+        {"zh": "独眼巨摔伤了，好疼。", "en": "I fell and it hurts."},
+        {"zh": "独眼巨掉入水中，好痛。", "en": "I was in the water, it hurts."},
+        {"zh": "独眼巨被雷劈中，好疼。", "en": "Lightning hit me, it hurts."},
+        {"zh": "独眼巨被扔进虚空，好疼。", "en": "I fell into the void, it hurts."},
+        {"zh": "独眼巨被火伤了，好疼。", "en": "I got burned, it hurts."},
+        {"zh": "独眼巨被魔法攻击，好疼。", "en": "I was hit by magic, it hurts."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你那食物的香味，真诱人！", "en": "That food smells delicious."},
+        {"zh": "想吃点什么吗？", "en": "Want a snack?"},
+        {"zh": "你身上有我想吃的东西吗？", "en": "Anything I can eat?"},
+        {"zh": "别走，我还没吃呢。", "en": "Don't go yet, I'm still hungry."},
+        {"zh": "吃掉你，味道不错。", "en": "Taste good, eating you."},
+        {"zh": "来吧，跟我走。", "en": "Come with me."},
+        {"zh": "我的洞穴里有更好吃的。", "en": "Better food in my cave."},
+        {"zh": "尝尝我的力量吧。", "en": "Feel my strength."},
+        {"zh": "你不吃我，也会被我吃掉。", "en": "You won't escape me."},
+        {"zh": "你逃不掉的，我会追上你。", "en": "You can't escape me."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘿，你撞上我了。", "en": "Hey, you hit me."},
+        {"zh": "撞得我头晕眼花。", "en": "Blind with a bang."},
+        {"zh": "你跑得真快，但不够远。", "en": "You ran fast, but not far enough."},
+        {"zh": "你以为你能避开我？", "en": "Think you can avoid me?"},
+        {"zh": "我不会让你轻易脱逃。", "en": "You won't escape me easily."},
+        {"zh": "我追得上你，你跑不了。", "en": "I'll catch you."},
+        {"zh": "你逃不掉的，我的速度很快。", "en": "You can't escape me, I'm fast."},
+        {"zh": "我的洞穴就在不远处。", "en": "My cave is nearby."},
+        {"zh": "你撞得我有点生气。", "en": "Angry from the hit."},
+        {"zh": "你最好小心点，别撞到我。", "en": "Watch out, don't hit me."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找一个伴侣，共同繁衍。", "en": "Find a mate, reproduce."},
+        {"zh": "我们需要找个地方交配。", "en": "We need to mate somewhere."},
+        {"zh": "找个洞穴，安全点。", "en": "Find a cave, safer."},
+        {"zh": "帮我搬开这块石头，我就信你。", "en": "Help me shift this boulder and I'll trust you."},
+        {"zh": "一起努力，为了后代。", "en": "For our offspring, let's work together."},
+        {"zh": "这么大的洞，一个人守太冷清。", "en": "This cave is too big to guard alone."},
+        {"zh": "你看起来不错，考虑一下吧。", "en": "You look good, consider it."},
+        {"zh": "交配后我们更加亲近。", "en": "Mating brings us closer."},
+        {"zh": "我的洞穴中适合交配。", "en": "My cave is good for mating."},
+        {"zh": "找个安静的地方交配。", "en": "Find a quiet place to mate."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你捡起了它的金镐。", "en": "You picked up its golden pickaxe."},
+        {"zh": "它掉落了诺米特锭。", "en": "It dropped nommite shards."},
+        {"zh": "地上散落着它的武器。", "en": "Its weapons lay on the ground."},
+        {"zh": "诺米特锭闪烁着光芒。", "en": "The nommite glowed."},
+        {"zh": "它留下了金镐。", "en": "It left a golden pick."},
+        {"zh": "洞穴独眼巨人的残骸。", "en": "Remains of the Caveclops."},
+        {"zh": "一具洞穴独眼巨人的尸体。", "en": "A Caveclops corpse."},
+        {"zh": "它掉落了宝贵的金镐。", "en": "It dropped a valuable golden pick."},
+        {"zh": "地上有它的武器。", "en": "Its weapons were there."},
+        {"zh": "它掉落了诺米特锭和金镐。", "en": "It dropped nommite and a golden pick."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它朝你投掷了一颗石头球。", "en": "It threw a stone ball at you."},
+        {"zh": "洞穴独眼巨人瞄准了你。", "en": "The Caveclops targeted you."},
+        {"zh": "它发现了你的存在。", "en": "It noticed you."},
+        {"zh": "它的目光锁定在你身上。", "en": "Its gaze fixed on you."},
+        {"zh": "洞穴独眼巨人准备攻击。", "en": "The Caveclops prepared to attack."},
+        {"zh": "它投掷了一颗石头球。", "en": "It threw a stone ball."},
+        {"zh": "它的石头球飞向你。", "en": "Its stone ball headed for you."},
+        {"zh": "它将你锁定为目标。", "en": "It locked you as its target."},
+        {"zh": "洞穴独眼巨人的石头球。", "en": "The Caveclops' stone ball."},
+        {"zh": "它向你投掷了石头球。", "en": "It threw a stone ball at you."},
+        {"zh": "石缝里有活人的味道。", "en": "The smell of a living one seeps through the crack."},
+        {"zh": "你踩到了我抱着的石球。", "en": "You stepped on the stone ball I carry."},
+        {"zh": "我一只眼，看得比两只清楚。", "en": "With one eye I see clearer than two."},
+        {"zh": "你手里的金镐，我认得。", "en": "That golden pick in your hand, I know it."},
+        {"zh": "你掉下的诺米特锭，也归我。", "en": "The aron ingot you drop is mine too."},
+        {"zh": "别藏在石柱后面，我看得见。", "en": "Do not hide behind the pillar; I see you."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它用独眼瞄准了你。", "en": "It aimed its eye at you."},
+        {"zh": "它的独眼盯着你。", "en": "Its eye fixated on you."},
+        {"zh": "洞穴独眼巨人的石头球", "en": "The Caveclops' stone ball"},
+        {"zh": "它集中精神投掷。", "en": "It focused its throw."},
+        {"zh": "它的石头球即将击中你。", "en": "Its stone ball was coming for you."},
+        {"zh": "洞穴独眼巨人的独眼。", "en": "The Caveclops' eye."},
+        {"zh": "它投掷的石头球。", "en": "Its stone ball."},
+        {"zh": "我只有一只眼，也够瞄准。", "en": "One eye is enough to aim."},
+        {"zh": "它的石头球瞄准了你。", "en": "Its stone ball was aimed at you."},
+        {"zh": "洞穴独眼巨人的投掷。", "en": "The Caveclops' throw."},
+        {"zh": "石球在手里转了半圈。", "en": "The stone ball turns half a turn in my hand."},
+        {"zh": "我往后退一步，才好投。", "en": "I step back once, for a better throw."},
+        {"zh": "独眼缩了缩，对准你的胸口。", "en": "My eye narrows, aimed at your chest."},
+        {"zh": "你跑动时，我的眼跟着转。", "en": "As you run, my eye follows."},
+        {"zh": "这块石头，我挑了最圆的。", "en": "This stone I picked as the roundest."},
+        {"zh": "石球出手前，会先响一声。", "en": "The throw starts with a single thud."},
+        {"zh": "你的盾抬早了，我不扔那边。", "en": "Your shield rose early; I aim elsewhere."},
+        {"zh": "洞顶低，石球会弹回来。", "en": "The roof is low; the ball will bounce back."},
+        {"zh": "我在数你的步数，第三步投。", "en": "I count your steps; I throw on the third."},
+        {"zh": "一只眼锁死，跑不掉的。", "en": "One eye locked on; you cannot slip away."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它挥舞巨大拳头！", "en": "It swings its giant fist!"},
+        {"zh": "石质目光盯着你！", "en": "Stony gaze locked on you!"},
+        {"zh": "岩浆灼烧你的脸！", "en": "Lava burns your face!"},
+        {"zh": "你被巨石砸中了！", "en": "You're hit by a boulder!"},
+        {"zh": "它用拳头攻击！", "en": "It punches with its fist!"},
+        {"zh": "巨石呼啸而来！", "en": "Boulder whizzes by!"},
+        {"zh": "它来了个近身搏击！", "en": "It's in for a melee attack!"},
+        {"zh": "岩浆从它手中喷出！", "en": "Lava spews from its hand!"},
+        {"zh": "它朝你扔了一块石头！", "en": "It throws a rock at you!"},
+        {"zh": "巨石击中你的头！", "en": "Boulder crashes into your head!"},
+        {"zh": "石球擦着洞壁飞过去，碎石四溅。", "en": "The stone ball grazes the wall; chips fly."},
+        {"zh": "一拳砸地，石笋断了两根。", "en": "One fist to the floor snaps two stalagmites."},
+        {"zh": "石球砸中你的盾，响声闷闷的。", "en": "The ball hits your shield with a dull boom."},
+        {"zh": "我抱起整块石头，往你身上压。", "en": "I lift a whole rock and press it on you."},
+        {"zh": "石球从洞顶弹回，砸你后背。", "en": "The ball rebounds off the roof onto your back."},
+        {"zh": "我抡圆手臂，把这颗扔出去。", "en": "I wind my arm and hurl this one."},
+        {"zh": "你贴墙也没用，石球会拐。", "en": "Hugging the wall will not help; the ball curves."},
+        {"zh": "这一投，六点力道。", "en": "This throw carries six points of force."},
+        {"zh": "石屑进你眼睛了，看不清了吧。", "en": "Grit in your eyes; can you still see?"},
+        {"zh": "我一脚踢飞石球，朝你滚来。", "en": "I kick the ball rolling straight at you."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞穴深处的呼唤...", "en": "Call from the depths..."},
+        {"zh": "石质之光指引它...", "en": "Stony light guides it..."},
+        {"zh": "地下世界苏醒了...", "en": "Underworld awakens..."},
+        {"zh": "寻找黑暗的庇护...", "en": "Seeking dark shelter..."},
+        {"zh": "石质之魂在召唤...", "en": "Stony soul summoned..."},
+        {"zh": "洞穴中诞生...", "en": "Born in the cave..."},
+        {"zh": "夜晚来临，它现身...", "en": "It appears at night..."},
+        {"zh": "从黑暗中走出...", "en": "Walks from the darkness..."},
+        {"zh": "它在洞穴中等待...", "en": "It waits in the cave..."},
+        {"zh": "它的到来带来黑夜...", "en": "Its coming brings night..."},
+        {"zh": "洞壁裂开一条缝，独眼先亮。", "en": "A crack opens; my eye lights first."},
+        {"zh": "地下的石堆里，我站起来。", "en": "I rise from the rubble underground."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "独眼巨被火烧伤，好疼。", "en": "I was set on fire, it hurts."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "独眼巨摔伤了，好疼", "en": "I fell, it hurts"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "独眼巨掉入水中，好疼。", "en": "I was in the water, it hurts."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "独眼巨被爆炸震伤，好疼。", "en": "I was hit by an explosion, it hurts."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "独眼巨被射伤，好疼。", "en": "I was hit by an arrow, it hurts."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "独眼巨被魔法攻击，好疼", "en": "I was hit by magic, it hurts"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "独眼巨饿了，好疼。", "en": "I’m hungry, it hurts."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "独眼巨被雷劈中，好疼", "en": "Lightning hit me, it hurts"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "独眼巨掉入虚空，好疼。", "en": "I fell into the void, it hurts."}
+      ]
+    }
+  }
+}

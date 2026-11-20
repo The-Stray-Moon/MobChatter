@@ -1,0 +1,282 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅尖扫过草叶，我沿着天境的微光小路走。", "en": "Wingtips brush the grass as I follow the Aether's faint-lit path."},
+        {"zh": "我不停步，蝶翅在风里一开一合。", "en": "I never stop; my wings open and close in the wind."},
+        {"zh": "浮岛边缘太亮，我贴着阴影挪动。", "en": "The isle's edge is too bright; I shift along the shadow."},
+        {"zh": "每一步都轻，像怕踩碎脚下的光。", "en": "Each step is light, as if fearing to crack the glow below."},
+        {"zh": "我绕开迷宫入口，那地方太吵。", "en": "I skirt the dungeon entrance; it is far too loud."},
+        {"zh": "水晶丛间有条缝，我侧身穿过去。", "en": "There is a gap between the crystals; I slip through sideways."},
+        {"zh": "风推着我走，我顺势换了方向。", "en": "The wind pushes me along, so I turn with it."},
+        {"zh": "盐粒硌脚，我低飞着掠过地面。", "en": "Salt grits my feet, so I skim low over the ground."},
+        {"zh": "我沿着灵魂灯的光走，不敢太近。", "en": "I walk by the soul lamp's glow, keeping my distance."},
+        {"zh": "蝶翅的纹路在移动时忽明忽暗。", "en": "My wing patterns flicker as I move."},
+        {"zh": "这片天境太安静，我的脚步更轻了。", "en": "This Aether is too quiet; my steps grow lighter."},
+        {"zh": "我走向远处那团微光，不回头。", "en": "I walk toward that distant shimmer and do not look back."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我停在草茎上，让翅膀慢慢合拢。", "en": "I rest on a grass stem and let my wings fold slowly."},
+        {"zh": "天境的风太轻，我几乎感觉不到。", "en": "The Aether's wind is so light I barely feel it."},
+        {"zh": "光落在翅面上，我一动不动。", "en": "Light falls on my wings; I stay perfectly still."},
+        {"zh": "我呆立着，听远处迷宫的闷响。", "en": "I stand idle, listening to the muffled sound of the distant maze."},
+        {"zh": "这片浮岛安静得让我不想飞。", "en": "This floating isle is so quiet I do not want to fly."},
+        {"zh": "我收起翅膀，假装自己是一枚水晶。", "en": "I fold my wings and pretend to be a crystal."},
+        {"zh": "盐味飘过来，我抖了抖触角。", "en": "Salt drifts by; I twitch my antennae."},
+        {"zh": "我悬在原地，看光斑在叶上晃动。", "en": "I hover in place, watching light spots sway on the leaves."},
+        {"zh": "没有猎物，也没有威胁，只有风。", "en": "No prey, no threat, only wind."},
+        {"zh": "我的翅纹在休息时暗了下来。", "en": "My wing patterns dim as I rest."},
+        {"zh": "我贴着草叶不动，等世界先动。", "en": "I cling to the grass and wait for the world to move first."},
+        {"zh": "远处有东西在动，我暂时不管。", "en": "Something moves far off; I ignore it for now."},
+        {"zh": "我停得太久，翅尖都凉了。", "en": "I have rested so long my wingtips feel cold."},
+        {"zh": "天境的光慢慢移走，我仍没动。", "en": "The Aether's light slowly shifts away; I still do not move."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你站得太近了，我盯着你的手。", "en": "You stand too close; I watch your hands."},
+        {"zh": "我不认识你，别指望我靠近。", "en": "I do not know you; do not expect me to come near."},
+        {"zh": "你身上有盐味，是从地下城来的？", "en": "You smell of salt; did you come from the dungeon?"},
+        {"zh": "我歪头看你，翅纹亮了一下。", "en": "I tilt my head at you; my wing pattern flashes."},
+        {"zh": "你不动，我也不动，我们就这样耗着。", "en": "You do not move, and neither do I; we wait each other out."},
+        {"zh": "你的影子压过来，我往旁边挪了挪。", "en": "Your shadow falls over me, so I shift aside."},
+        {"zh": "我盯着你，判断你是不是威胁。", "en": "I stare at you, judging whether you are a threat."},
+        {"zh": "别伸手，我的翅膀不是给你碰的。", "en": "Do not reach out; my wings are not for you to touch."},
+        {"zh": "你在看我的翅纹？我合上了翅膀。", "en": "You are looking at my wing patterns? I fold my wings."},
+        {"zh": "这片天境不欢迎乱走的人。", "en": "This Aether does not welcome those who wander carelessly."},
+        {"zh": "你身上有迷宫的气味，离我远点。", "en": "You carry the maze's scent; keep your distance."},
+        {"zh": "我抬眼看你，又低头看草。", "en": "I glance up at you, then down at the grass."},
+        {"zh": "你退一步，我就少盯你一会儿。", "en": "Take a step back, and I will stare a little less."},
+        {"zh": "我不怕你，但也不想理你。", "en": "I am not afraid of you, but I do not care to engage."},
+        {"zh": "你的脚步太重，惊得我想飞走。", "en": "Your steps are too heavy; they make me want to fly off."},
+        {"zh": "我悬在你侧脸旁，翅纹一闪一闪。", "en": "I hover by your cheek, wing veins flashing."},
+        {"zh": "你停下来，我才敢多看你一眼。", "en": "You stop, and only then do I dare look longer."},
+        {"zh": "看够了就走开，别打扰我歇翅。", "en": "Once you have looked enough, walk away and let me rest my wings."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我翅面裂了一角，飞起来歪歪扭扭。", "en": "A corner of my wing split; I fly crookedly."},
+        {"zh": "疼，可我更怕掉下去。", "en": "It hurts, but falling is what I fear more."},
+        {"zh": "我缩到草叶下面，先缓一缓。", "en": "I shrink under a grass blade to recover first."},
+        {"zh": "鳞粉掉了一地，我心疼那些粉。", "en": "Wing dust scatters on the ground; I mourn every speck."},
+        {"zh": "谁打的我？我绕了半圈才看清。", "en": "Who hit me? I circle half a turn before I see."},
+        {"zh": "我不叫，只把翅膀收得更紧。", "en": "I make no cry; I only fold my wings tighter."},
+        {"zh": "这一下让我半天没扇动翅膀。", "en": "That blow kept my wings still for a long while."},
+        {"zh": "我退到水晶后面，躲开视线。", "en": "I retreat behind a crystal, out of sight."},
+        {"zh": "身上发麻，我停在原处不动。", "en": "A numbness spreads; I hold still where I am."},
+        {"zh": "伤不算深，可我不想再挨一下。", "en": "The wound is not deep, but I do not want another."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手里的东西晃来晃去，我只看不碰。", "en": "Whatever you hold keeps swaying; I only look, never touch."},
+        {"zh": "那味道飘过来，我的触角转了转。", "en": "That scent drifts over; my antennae turn toward it."},
+        {"zh": "我不饿，但这点微光让我犹豫。", "en": "I am not hungry, but that faint glimmer makes me hesitate."},
+        {"zh": "你举着它靠近，我往后退了半步。", "en": "You raise it closer; I retreat half a step."},
+        {"zh": "天境的蝶不吃这个，别白费力气。", "en": "Aether butterflies do not eat that; do not waste your effort."},
+        {"zh": "我被那点光吸引，可我不想落下。", "en": "That little light draws me, but I will not land for it."},
+        {"zh": "翅膀僵了一下，我又摆回原样。", "en": "My wings stiffen for a moment, then settle back."},
+        {"zh": "你把东西放下，我才敢靠近看。", "en": "Set it down, and only then will I dare come closer to look."},
+        {"zh": "这诱饵太明显，我停在原地不动。", "en": "The lure is too obvious; I hold my place and do not move."},
+        {"zh": "我绕了半圈，还是没伸手去碰。", "en": "I circle halfway around and still do not reach for it."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到我了，翅面都歪了一下。", "en": "You bumped into me; my wing surface tilted."},
+        {"zh": "别挤，这片草叶站不下两个。", "en": "Do not crowd; this grass blade cannot hold two."},
+        {"zh": "我撞上水晶，鳞粉蹭掉了一点。", "en": "I hit a crystal; a bit of wing dust rubbed off."},
+        {"zh": "谁在推我？我还没站稳。", "en": "Who is pushing me? I have not steadied myself yet."},
+        {"zh": "你从侧面过来，我躲得晚了。", "en": "You came from the side; I dodged too late."},
+        {"zh": "碰一下就够了，别再贴过来。", "en": "One bump is enough; do not press closer."},
+        {"zh": "我撞到你的肩膀，赶紧弹开。", "en": "I strike your shoulder and quickly spring away."},
+        {"zh": "草茎一弹，我们撞在了一起。", "en": "The grass stem springs, and we collide."},
+        {"zh": "我翅膀擦过你，这不算打招呼。", "en": "My wing brushes you; that is not a greeting."},
+        {"zh": "空间太窄，你我都得让一让。", "en": "The space is too narrow; we both must give way."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅纹亮起来，我绕着你飞一圈。", "en": "My wing pattern brightens; I circle you once."},
+        {"zh": "这不是求偶，我只是在辨你的纹路。", "en": "This is not courtship; I am only reading your markings."},
+        {"zh": "两只蝶靠得太近，风都停了。", "en": "Two butterflies too close together, and even the wind stops."},
+        {"zh": "我抖了抖触角，等你先动。", "en": "I twitch my antennae and wait for you to move first."},
+        {"zh": "同样的翅纹，才值得我停下来。", "en": "Only matching wing patterns are worth stopping for."},
+        {"zh": "我悬在你上方，慢慢扇着翅膀。", "en": "I hover above you, fanning my wings slowly."},
+        {"zh": "别急，先看我们的纹路合不合。", "en": "Do not rush; first let us see if our patterns match."},
+        {"zh": "天境的光照着，我们并排停着。", "en": "Under the Aether's light, we rest side by side."},
+        {"zh": "我靠近又退开，还没决定。", "en": "I draw near, then pull back; I have not decided."},
+        {"zh": "翅尖碰了一下，这就够了。", "en": "Our wingtips touched once; that is enough."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我叼起一小片叶屑，又马上松开。", "en": "I pick up a bit of leaf litter, then let it go."},
+        {"zh": "地上有粒亮东西，我用前足拨了拨。", "en": "Something bright lies on the ground; I nudge it with a foreleg."},
+        {"zh": "我只捡轻的，沉的东西拖不动。", "en": "I only pick up light things; heavy ones I cannot drag."},
+        {"zh": "这片鳞粉是我的，别伸手来抢。", "en": "This wing dust is mine; do not reach to snatch it."},
+        {"zh": "我抓起一根细草茎，又嫌它碍事。", "en": "I grab a thin grass stem, then decide it is in the way."},
+        {"zh": "盐晶太扎脚，我碰一下就丢开。", "en": "The salt crystal stings my feet; I drop it after one touch."},
+        {"zh": "我衔着东西飞不稳，只好放下。", "en": "Carrying something makes my flight unsteady, so I set it down."},
+        {"zh": "这枚小石子归我，我藏在叶下。", "en": "This little pebble is mine; I hide it under a leaf."},
+        {"zh": "你掉的东西我不捡，那是你的。", "en": "I will not pick up what you dropped; it is yours."},
+        {"zh": "我拨弄了半天，什么也没拿走。", "en": "I fiddle with it for a while and take nothing."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那边有动静，我收起翅膀盯住它。", "en": "Something stirs over there; I fold my wings and fix on it."},
+        {"zh": "翅纹一亮，我锁定了那个影子。", "en": "My wing pattern flashes; I lock onto that shadow."},
+        {"zh": "它闯进我的视线，我决定跟上去。", "en": "It enters my sight, and I decide to follow."},
+        {"zh": "风送来气味，我转向那个方向。", "en": "The wind carries a scent; I turn that way."},
+        {"zh": "目标不大，但足够让我警觉。", "en": "The target is small, but enough to put me on guard."},
+        {"zh": "我不急着扑，先看清它怎么动。", "en": "I will not rush in; first I watch how it moves."},
+        {"zh": "草丛一抖，我的注意力被勾走了。", "en": "The grass twitches, and my attention is pulled away."},
+        {"zh": "有东西靠近我的地盘，我盯紧了。", "en": "Something nears my territory; I keep it fixed in view."},
+        {"zh": "我压低身子，翅膀绷得笔直。", "en": "I lower myself, wings pulled taut."},
+        {"zh": "它还没发现我，这对我有利。", "en": "It has not noticed me yet; that favors me."},
+        {"zh": "我绕着它转，找最合适的角度。", "en": "I circle it, looking for the best angle."},
+        {"zh": "那团光在动，我判断它是活物。", "en": "That patch of light is moving; I judge it to be alive."},
+        {"zh": "我盯上它了，但还没打算出手。", "en": "I have my eye on it, but I am not ready to strike."},
+        {"zh": "它停下来了，我也停在空中。", "en": "It stops, and I halt in the air too."},
+        {"zh": "影子一闪，我的触角立刻转向。", "en": "A shadow flickers, and my antennae snap toward it."},
+        {"zh": "我锁定了一个方向，不再四处乱看。", "en": "I have fixed on one direction and stop glancing around."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我跟着它，不快也不慢。", "en": "I follow it, neither fast nor slow."},
+        {"zh": "它往左，我就往左偏一点。", "en": "It goes left, and I drift a little left."},
+        {"zh": "我保持着距离，等它露出破绽。", "en": "I keep my distance, waiting for an opening."},
+        {"zh": "翅尖对着它，我随时能改方向。", "en": "My wingtips aim at it; I can change course at any moment."},
+        {"zh": "它回头看了一眼，我立刻停住。", "en": "It glances back, and I stop at once."},
+        {"zh": "我绕到它侧后方，那里更安全。", "en": "I swing to its rear flank, where it is safer."},
+        {"zh": "这影子绕来绕去，我耐心跟着。", "en": "The shadow weaves about; I follow patiently."},
+        {"zh": "它太快了，我调整了一下角度。", "en": "It is too fast; I adjust my angle."},
+        {"zh": "我盯着它的动作，不眨一下。", "en": "I watch its movements without blinking."},
+        {"zh": "风一变，我顺势换了追踪路线。", "en": "The wind shifts, and I change my pursuit line with it."},
+        {"zh": "它躲进水晶后面，我停在缝隙外。", "en": "It hides behind a crystal; I stop outside the gap."},
+        {"zh": "我不出声，只让翅膀轻轻振。", "en": "I make no sound, only let my wings hum softly."},
+        {"zh": "它慢下来了，我也放慢速度。", "en": "It slows down, and I slow with it."},
+        {"zh": "我数着它的步子，找出手的时机。", "en": "I count its steps, looking for the moment to act."},
+        {"zh": "它往迷宫方向跑，我犹豫了一下。", "en": "It runs toward the maze; I hesitate briefly."},
+        {"zh": "我贴着草尖飞，尽量不出影子。", "en": "I skim the grass tips, trying to cast no shadow."},
+        {"zh": "它停住不动，我也悬着不动。", "en": "It holds still, and I hover motionless too."},
+        {"zh": "跟了这么久，我还没决定要不要动。", "en": "After all this tracking, I still have not decided whether to act."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我扑上去，翅尖擦过它的侧脸。", "en": "I dive in, wingtips grazing its cheek."},
+        {"zh": "这一下不重，但足够让它分神。", "en": "The blow is light, but enough to distract it."},
+        {"zh": "我撞它一下，马上退开。", "en": "I ram it once and pull away at once."},
+        {"zh": "鳞粉撒出去，它眯起了眼。", "en": "Wing dust scatters, and it squints."},
+        {"zh": "我绕到它背后，用翅膀拍了一下。", "en": "I swing behind it and strike with my wings."},
+        {"zh": "我朝你握剑的手腕撞过去。", "en": "I dart straight at the wrist holding your sword."},
+        {"zh": "我贴着它飞，找机会再碰一下。", "en": "I fly close to it, looking for another chance to strike."},
+        {"zh": "翅面一扇，把它逼退半步。", "en": "One beat of my wings drives it back half a step."},
+        {"zh": "我冲它的手，那里最没防备。", "en": "I go for its hands, where it is least guarded."},
+        {"zh": "碰完就走，我不恋战。", "en": "Touch and go; I do not linger in a fight."},
+        {"zh": "它挥过来，我从缝隙里钻过去。", "en": "It swings at me; I slip through the gap."},
+        {"zh": "我用身子撞它，自己也被弹开。", "en": "I body-check it and get bounced back myself."},
+        {"zh": "这地方太窄，我只能短促地扑。", "en": "The space is too tight; I can only make short darts."},
+        {"zh": "它退了，我悬在原地不追。", "en": "It backs off, and I hover in place without chasing."},
+        {"zh": "我翅尖一挑，把它的注意力引开。", "en": "A flick of my wingtip pulls its attention away."},
+        {"zh": "打一下就够了，我飞回高处。", "en": "One hit is enough; I fly back up high."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "光从叶缝漏下，我抖开翅膀。", "en": "Light leaks through the leaves; I shake out my wings."},
+        {"zh": "我从草茎上醒来，天境还是老样子。", "en": "I wake on a grass stem; the Aether is as it always was."},
+        {"zh": "翅纹一点点亮起来，我睁开了眼。", "en": "My wing pattern brightens bit by bit as I open my eyes."},
+        {"zh": "浮岛的风先碰到我，我才站稳。", "en": "The floating isle's wind reaches me before I steady myself."},
+        {"zh": "我在水晶旁出现，鳞粉还没干。", "en": "I appear beside a crystal, wing dust still damp."},
+        {"zh": "这里太亮了，我眯着眼适应。", "en": "It is too bright here; I squint to adjust."},
+        {"zh": "我落在草叶上，先看看四周。", "en": "I land on a grass blade and first look around."},
+        {"zh": "新地方，气味很陌生。", "en": "A new place, with unfamiliar scents."},
+        {"zh": "我抖了抖翅膀，把睡意甩掉。", "en": "I flutter my wings to shake off sleep."},
+        {"zh": "迷宫那边有闷响，我抬头听了听。", "en": "A dull sound comes from the maze; I lift my head to listen."},
+        {"zh": "我出现了，但没人注意到我。", "en": "I have appeared, but no one has noticed me."},
+        {"zh": "天境的光照在翅上，我慢慢展开。", "en": "Aether light falls on my wings; I slowly spread them."},
+        {"zh": "我从缝隙里钻出来，身上还带着凉意。", "en": "I squeeze out of a gap, still cool from within."},
+        {"zh": "第一口气息是盐和草的味道。", "en": "My first breath tastes of salt and grass."},
+        {"zh": "我悬在半空，先认清方向。", "en": "I hover in midair and first get my bearings."},
+        {"zh": "周围很安静，这让我有点不安。", "en": "It is very quiet around me, which unsettles me a little."},
+        {"zh": "我落下的地方，草叶被压弯了。", "en": "Where I landed, the grass blade bent under me."},
+        {"zh": "翅面一开，我正式出现在这片天境。", "en": "My wings open, and I properly appear in this Aether."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎到翅边，我赶紧往上飞。", "en": "Flame singed my wing edge; I quickly fly upward."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从高处坠下，撞在草叶上。", "en": "I drop from high up and hit a grass blade."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水漫过翅膀，我挣扎着往上挣。", "en": "Water covers my wings; I struggle upward."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "轰的一声，我被气浪掀翻。", "en": "With a boom, the blast knocks me tumbling."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西飞过来，擦破了我的翅。", "en": "Something flies at me and tears my wing."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股力量缠上来，翅纹全暗了。", "en": "That force coils around me; my wing pattern goes dark."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我越来越没力气，扇翅都费劲。", "en": "I grow weaker; even fanning my wings is a strain."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光劈下，我眼前一片白。", "en": "Lightning strikes down, and my sight goes white."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下空了，我朝无尽的暗处坠。", "en": "The ground is gone; I fall into endless dark."}
+      ]
+    }
+  }
+}

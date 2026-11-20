@@ -1,0 +1,269 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "缓慢前行，石剑挥舞。", "en": "Slowly walks, swinging stone sword."},
+        {"zh": "岩石碎片四溅，剑锋闪烁。", "en": "Shards fly, sword glitters."},
+        {"zh": "低鸣声中，岩柱移动。", "en": "Rumbles as it moves."},
+        {"zh": "岩石中渗出，剑刃寒芒。", "en": "Emerges from rocks, blade gleams."},
+        {"zh": "岩石缝隙中，缓缓前行。", "en": "Moves slowly through rock gaps."},
+        {"zh": "石剑横扫，碎石飞溅。", "en": "Sweeps sword, stones fly."},
+        {"zh": "岩石崩裂，剑锋凌厉。", "en": "Cracks rocks, blade sharp."},
+        {"zh": "缓缓移动，剑刃寒气。", "en": "Moves, blade cold."},
+        {"zh": "岩柱裂隙，剑光乍现。", "en": "Cracks, sword light."},
+        {"zh": "剑尖轻点，石屑纷飞。", "en": "Pointed blade, stone shards fly."},
+        {"zh": "我踏着碎石前行，念珠轻响。", "en": "I tread on rubble, my prayer beads clicking."},
+        {"zh": "念珠垂在胸前，我一步步走。", "en": "Beads hang at my chest as I walk step by step."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "站立不动，目光锐利。", "en": "Stands still, gaze sharp."},
+        {"zh": "岩石中沉思，静默无声。", "en": "Thoughtful in rocks, silent."},
+        {"zh": "凝视黑暗，剑刃闪烁。", "en": "Stares into darkness, blade gleams."},
+        {"zh": "石柱静立，剑锋待发。", "en": "Stone column still, blade ready."},
+        {"zh": "岩石间沉思，剑光隐现。", "en": "Thoughts in rocks, blade flickers."},
+        {"zh": "静默中，剑尖微颤。", "en": "Silent, blade quivers."},
+        {"zh": "岩石缝隙中，剑刃轻颤。", "en": "In rock gaps, blade trembles."},
+        {"zh": "剑尖指向地面，锐利目光。", "en": "Pointed blade, sharp gaze."},
+        {"zh": "石柱中沉思，剑刃微动。", "en": "Thoughtful in stone, blade moves."},
+        {"zh": "剑刃微动，目光如炬。", "en": "Blade moves, gaze like fire."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "念珠在手里转，我没睁眼。", "en": "My beads turn in my hand; my eyes stay shut."},
+        {"zh": "剑尖指向，警惕地注视。", "en": "Blade pointed, wary stare."},
+        {"zh": "凝视玩家，剑光闪烁。", "en": "Stares at player, blade flickers."},
+        {"zh": "目光如炬，剑尖指向。", "en": "Gaze like fire, blade pointed."},
+        {"zh": "目光敏锐，锁定目标。", "en": "Sharp gaze, targets player."},
+        {"zh": "剑尖指向，目光闪烁。", "en": "Blade pointed, gaze flickers."},
+        {"zh": "警惕注视，剑锋待发。", "en": "Wary stare, blade ready."},
+        {"zh": "目光锁定，剑尖指向。", "en": "Gaze locked, blade pointed."},
+        {"zh": "念珠停了一颗，我听见你的呼吸。", "en": "My beads pause on one; I hear your breath."},
+        {"zh": "剑尖指向，目光锐利。", "en": "Blade pointed, sharp gaze."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "岩石身躯裂开，痛！", "en": "Rock body cracks, pain!"},
+        {"zh": "护甲破裂，疼！", "en": "Armor breaks, hurts!"},
+        {"zh": "岩石刮伤，疼！", "en": "Rock scratch, hurts!"},
+        {"zh": "伤口渗出黑烟", "en": "Black smoke seeps from wounds"},
+        {"zh": "裂缝中滴出血液", "en": "Bleeding from cracks"},
+        {"zh": "岩石裂开，真疼！", "en": "Rock splits, hurts so much!"},
+        {"zh": "石壁渗血，痛！", "en": "Stone wall bleeds, hurts!"},
+        {"zh": "碎石划伤，疼！", "en": "Rocks scratch, hurts!"},
+        {"zh": "岩石裂痕中渗血", "en": "Blood seeps from rock cracks"},
+        {"zh": "岩石剥落，疼！", "en": "Rock peels off, hurts!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "诱惑我，就让你看见我的剑光！", "en": "Tempt me, and you'll see my sword's light!"},
+        {"zh": "不要靠近，你会后悔的！", "en": "Stay back, or you'll regret it!"},
+        {"zh": "我有岩之呼吸，你奈何不了我！", "en": "I have Rock Breath, you can't touch me!"},
+        {"zh": "你这凡人，竟敢接近我！", "en": "You mere mortal, how dare you approach me!"},
+        {"zh": "我的剑术，你未必能躲过！", "en": "My swordsmanship is not for the weak to dodge!"},
+        {"zh": "你想要我的力量？做好准备！", "en": "Want my power? Get ready!"},
+        {"zh": "岩石中孕育着我的力量！", "en": "My strength comes from the rocks!"},
+        {"zh": "你触碰不到我的灵魂！", "en": "You can't touch my soul!"},
+        {"zh": "我是悲鸣屿的守护者！", "en": "I am the guardian of Crying Isle!"},
+        {"zh": "你触碰我，必遭重击！", "en": "Touch me, and you'll suffer!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "岩石会保护我！", "en": "The rocks will protect me!"},
+        {"zh": "岩柱从我脚边拔起，退后。", "en": "Stone pillars rise at my feet; step back."},
+        {"zh": "岩石之中，我最强大！", "en": "Of all the rocks, I am the strongest!"},
+        {"zh": "岩石是我的盔甲！", "en": "Rocks are my armor!"},
+        {"zh": "你躲不开我的剑！", "en": "You can't avoid my sword!"},
+        {"zh": "岩石的呼吸，让你窒息！", "en": "Rock's breath, suffocate you!"},
+        {"zh": "岩石之力，无坚不摧！", "en": "Rock's power, nothing can stand!"},
+        {"zh": "岩石是我的家园！", "en": "The rocks are my home!"},
+        {"zh": "岩石之中，我无所畏惧！", "en": "In the rocks, I am fearless!"},
+        {"zh": "岩石的呼吸，让你陷入永恒！", "en": "Rock's breath, eternal imprisonment!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你是我的同类！", "en": "You are my kind!"},
+        {"zh": "与我并肩战斗！", "en": "Fight by my side!"},
+        {"zh": "岩石间共享力量！", "en": "Share power in the rocks!"},
+        {"zh": "同为岩之呼吸！", "en": "We share Rock Breath!"},
+        {"zh": "岩石间，我们最强！", "en": "Among the rocks, we are the strongest!"},
+        {"zh": "岩石中的生命！", "en": "Life among the rocks!"},
+        {"zh": "岩石间，共享命运！", "en": "Fate shared among the rocks!"},
+        {"zh": "岩石中的永恒！", "en": "Eternity in the rocks!"},
+        {"zh": "岩石间，同生共死！", "en": "Live and die with the rocks!"},
+        {"zh": "岩石间，永不分离！", "en": "Forever together in the rocks!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从地底深处召唤岩尘。", "en": "Summon rock dust from below."},
+        {"zh": "岩柱震动，岩之呼吸。", "en": "Rock column shakes, rock breathing."},
+        {"zh": "感知到目标，准备攻击。", "en": "Target detected, preparing to attack."},
+        {"zh": "岩块化为利刃，斩向敌人。", "en": "Rock chunks become blades, slashing at enemies."},
+        {"zh": "岩尘凝聚，形成攻击。", "en": "Rock dust converges, forming attacks."},
+        {"zh": "岩柱中涌出岩流，围困目标。", "en": "Rock flow surges from columns, encircling the target."},
+        {"zh": "岩石碎片四散，击打敌人。", "en": "Rock fragments scatter, striking enemies."},
+        {"zh": "岩流涌动，封锁出口。", "en": "Rock flows block exits."},
+        {"zh": "岩之呼吸，护甲加持。", "en": "Rock breathing, armor加持."},
+        {"zh": "岩柱扭曲，强化攻击。", "en": "Rock column distorts, enhancing attacks."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "感知到恶鬼的气味。", "en": "Detect evil spirits' scent."},
+        {"zh": "岩柱裂开，显现敌踪。", "en": "Rock column splits, revealing enemies."},
+        {"zh": "岩尘飘散，追踪目标。", "en": "Rock dust drifts, tracking target."},
+        {"zh": "岩石中露出獠牙。", "en": "Tusks emerge from rocks."},
+        {"zh": "岩壁裂开，岩尘涌出。", "en": "Rock walls crack, rock dust spews."},
+        {"zh": "岩柱发出低沉吼声。", "en": "Rock column rumbles lowly."},
+        {"zh": "岩流涌动，瞄准敌人。", "en": "Rock flow targets enemies."},
+        {"zh": "岩块中冒出利刃。", "en": "Rock chunks protrude as blades."},
+        {"zh": "岩柱中岩浆涌动。", "en": "Rock columns surge with lava."},
+        {"zh": "岩尘旋转，形成攻击。", "en": "Rock dust whirls, forming attacks."},
+        {"zh": "恶鬼的气息，从那边飘来。", "en": "The smell of a demon drifts from over there."},
+        {"zh": "我握紧日轮刀，转向那气息。", "en": "I grip my nichirin blade and turn to the scent."},
+        {"zh": "眼泪落下，我已看清方位。", "en": "Tears fall, and I have already found the direction."},
+        {"zh": "念珠停下，我知道你来了。", "en": "My beads stop. I know you are here."},
+        {"zh": "悲鸣屿闭上眼，听见你的呼吸。", "en": "Himejima closes his eyes and hears you breathe."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "岩柱中岩浆沸腾。", "en": "Lava boils within rock columns."},
+        {"zh": "岩尘涌向目标。", "en": "Rock dust flows to targets."},
+        {"zh": "岩块化为利刃，攻击目标。", "en": "Rock chunks become blades, attacking targets."},
+        {"zh": "岩柱崩塌，围困目标。", "en": "Rock columns collapse, encircling targets."},
+        {"zh": "岩流涌动，封堵出口。", "en": "Rock flows block exits."},
+        {"zh": "岩尘凝聚，攻击目标。", "en": "Rock dust converges, attacking targets."},
+        {"zh": "岩柱发出低吼，攻击目标。", "en": "Rock columns growl, attacking targets."},
+        {"zh": "岩流涌向敌人。", "en": "Rock flows toward enemies."},
+        {"zh": "岩尘化为利刃，攻击目标。", "en": "Rock dust becomes blades, attacking targets."},
+        {"zh": "岩柱崩裂，攻击目标。", "en": "Rock columns crack, attacking targets."},
+        {"zh": "我屈膝沉腰，刀压低。", "en": "I bend my knees and lower my blade."},
+        {"zh": "岩之呼吸，第一式已就绪。", "en": "Stone Breathing, first form, is ready."},
+        {"zh": "你身后那块岩石，我看见了。", "en": "I see the boulder behind you."},
+        {"zh": "念珠一圈圈转，我算着步数。", "en": "My beads turn round by round as I count my steps."},
+        {"zh": "我侧身，把岩壁留给你。", "en": "I turn sideways and leave the stone wall to you."},
+        {"zh": "刀尖抬起，正对你的胸口。", "en": "My blade tip rises level with your chest."},
+        {"zh": "这一刀，会连岩石一起斩。", "en": "This cut will take the stone with it."},
+        {"zh": "别退，退路我早封了。", "en": "Don't back away. I sealed that path already."},
+        {"zh": "我听见你的心跳在乱。", "en": "I hear your heartbeat losing its rhythm."},
+        {"zh": "岩柱之力，聚在刀锋上了。", "en": "The power of Stone Hashira gathers at my edge."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "岩柱嘶吼，你感受到了吗？", "en": "The stone pillar roars, can you feel it?"},
+        {"zh": "悲鸣屿行冥的剑，斩断你的灵魂！", "en": "The sword of Gyo-meihimeya, cut your soul!"},
+        {"zh": "吞噬你的意志，岩之呼吸！", "en": "Devour your will, Rock Breath!"},
+        {"zh": "岩柱的怒吼，让你颤抖吧！", "en": "The stone pillar's roar, make you tremble!"},
+        {"zh": "悲鸣屿行冥，你的末日到了！", "en": "Gyo-meihimeya, your end has come!"},
+        {"zh": "岩石如刀，切割你的生命！", "en": "Rocks are blades, cut your life!"},
+        {"zh": "岩柱的意志，贯穿你的身体！", "en": "The will of the stone pillar, pierce your body!"},
+        {"zh": "灵魂被岩石束缚，无法逃脱！", "en": "Souls are bound by stone, cannot escape!"},
+        {"zh": "悲鸣屿行冥，用岩石终结你！", "en": "Gyo-meihimeya, end you with rocks!"},
+        {"zh": "岩石之魂，吞噬你的灵魂！", "en": "Rock spirit, devour your soul!"},
+        {"zh": "一记横斩，碎石随刃飞起！", "en": "One sideways cut, and rubble flies with my blade!"},
+        {"zh": "岩之呼吸，斩断你的退路！", "en": "Stone Breathing severs your retreat!"},
+        {"zh": "刀背压下，你跪进土里！", "en": "My blade's spine drives you to your knees!"},
+        {"zh": "我踏步上前，刀光贴身！", "en": "I step in close, my blade hugging your body!"},
+        {"zh": "巨石被我劈成两半！", "en": "I split the boulder clean in two!"},
+        {"zh": "这一击，带着岩层重量！", "en": "This blow carries the weight of stone layers!"},
+        {"zh": "你挡住了刀，却挡不住岩！", "en": "You blocked the blade, but not the stone!"},
+        {"zh": "悲鸣屿的眼，一直睁着。", "en": "Himejima's eyes are open all along."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "岩石中诞生，悲鸣屿行冥！", "en": "Born from rock, Gyo-meihimeya!"},
+        {"zh": "主世界中诞生，悲鸣屿行冥！", "en": "Spawned in the Overworld, Gyo-meihimeya!"},
+        {"zh": "从岩柱中苏醒，悲鸣屿行冥！", "en": "Awaken from the stone pillar, Gyo-meihimeya!"},
+        {"zh": "岩石群中，诞生悲鸣屿行冥！", "en": "Spawn in rock clusters, Gyo-meihimeya!"},
+        {"zh": "石林之间，悲鸣屿行冥重生！", "en": "Spawn in stone forests, Gyo-meihimeya!"},
+        {"zh": "主世界的岩层中，诞生悲鸣屿行冥！", "en": "Spawn in rock layers of the Overworld, Gyo-meihimeya!"},
+        {"zh": "岩层深处，诞生悲鸣屿行冥！", "en": "Spawn in deep rock layers, Gyo-meihimeya!"},
+        {"zh": "主世界的岩石上，诞生悲鸣屿行冥！", "en": "Spawn on rocks in the Overworld, Gyo-meihimeya!"},
+        {"zh": "悲鸣屿行冥，从岩石中诞生！", "en": "Gyo-meihimeya, born from rock!"},
+        {"zh": "岩石之息，诞生悲鸣屿行冥！", "en": "Rock Breath, spawn Gyo-meihimeya!"},
+        {"zh": "我从碎石间站起，合掌。", "en": "I rise among the rubble and join my palms."},
+        {"zh": "念珠落地，我睁眼起身。", "en": "My beads touch the ground, and I open my eyes."},
+        {"zh": "悲鸣的岩石上，我落脚。", "en": "I set foot on the keening stone."},
+        {"zh": "我来了，恶鬼在何处？", "en": "I have come. Where is the demon?"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧到我的僧衣，痛！", "en": "Fire catches my robe. It hurts!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠落摔伤，疼！", "en": "Fall, hurts!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "岩柱被水浸透，疼！", "en": "Water seeps into rock, hurts!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "岩柱炸裂，真疼！", "en": "Rock pillar explodes, hurts!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "岩石射中，真疼！", "en": "Rock hits, hurts!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "法术烧伤，真疼！", "en": "Magic burns, hurts!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得无力，疼！", "en": "Starving, hurts!"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击岩柱，真疼！", "en": "Lightning strikes rock, hurts!"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚无，疼痛！", "en": "Void pain, hurts!"}
+      ]
+    }
+  }
+}

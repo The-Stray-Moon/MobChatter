@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我六条腿在石头上飞快地爬。", "en": "My six legs scurry over the stone."},
+        {"zh": "我贴着毒气洞的地面走。", "en": "I move along the floor of the toxic cave."},
+        {"zh": "我绕过一滩绿色的泥。", "en": "I go around a pool of green sludge."},
+        {"zh": "我朝你那边急速爬来。", "en": "I scurry fast toward your side."},
+        {"zh": "我一边爬一边摇着触须。", "en": "I wiggle my antennae as I crawl."},
+        {"zh": "我的壳在暗处泛着绿光。", "en": "My shell glows green in the dark."},
+        {"zh": "我爬过裂缝，很快过去。", "en": "I cross the fissure quickly."},
+        {"zh": "我从毒泥底下爬出来。", "en": "I crawl out from under the toxic mud."},
+        {"zh": "我朝有辐照的方向去。", "en": "I head toward radiation."},
+        {"zh": "我绕着圈逼近，很快。", "en": "I close in, circling, fast."},
+        {"zh": "我停下来，触须动了动。", "en": "I stop and my antennae twitch."},
+        {"zh": "我拖着一点绿色的黏液。", "en": "I trail a little green slime."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我伏在石上，触须在试。", "en": "I lie on the stone, antennae testing."},
+        {"zh": "我在慢慢咀嚼东西。", "en": "I am chewing something slowly."},
+        {"zh": "我的甲壳一节一节地起伏。", "en": "My shell rises and falls in segments."},
+        {"zh": "我在等有毒气的地方。", "en": "I wait for something toxic."},
+        {"zh": "我把前腿在嘴边擦。", "en": "I wipe a foreleg by my mouth."},
+        {"zh": "我在听洞穴的滴答声。", "en": "I listen to the cave's ticking."},
+        {"zh": "我的身体慢慢转了个方向。", "en": "My body turns slowly to another bearing."},
+        {"zh": "我在看你，触须很直。", "en": "I watch you, antennae straight."},
+        {"zh": "我身上有股刺鼻的味道。", "en": "I give off a sharp smell."},
+        {"zh": "我伏在石上，不动。", "en": "I lie on the stone without moving."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你身上有辐照的味道。", "en": "You smell of radiation."},
+        {"zh": "我要把你拖到他面前。", "en": "I will drag you to him."},
+        {"zh": "你站着，我很快。", "en": "You stand; I am quick."},
+        {"zh": "我抬头，触须对着你。", "en": "I raise my head, antennae at you."},
+        {"zh": "你不该进这个洞。", "en": "You should not be in this cave."},
+        {"zh": "我的甲很硬，你的靴子踩不碎。", "en": "My shell is hard; your boots will not crush it."},
+        {"zh": "你的护甲在这一带会烂。", "en": "Your armour will rot in this place."},
+        {"zh": "活物的味道我分得清。", "en": "I can tell the smell of the living."},
+        {"zh": "你想让我让路？那要看你。", "en": "You want me to move? That depends."},
+        {"zh": "我慢慢地靠近你。", "en": "I come closer to you slowly."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "壳裂了，我照样六脚站稳。", "en": "My shell cracked; I still stand on six legs."},
+        {"zh": "我退了半尺，触须收着。", "en": "I retreat half a foot, antennae folded."},
+        {"zh": "我的甲裂了一条。", "en": "A crack opens in my shell."},
+        {"zh": "我放出一股绿气，先熏到自己。", "en": "I release green gas and choke on it first."},
+        {"zh": "我流出的东西是绿的。", "en": "What leaks from me is green."},
+        {"zh": "我往石缝里钻了半截。", "en": "I push halfway into a crack."},
+        {"zh": "我的腿有一条不灵了。", "en": "One of my legs no longer works."},
+        {"zh": "我就地放了一团毒气。", "en": "I release a cloud of gas on the spot."},
+        {"zh": "你踩得挺准。", "en": "You stomped well."},
+        {"zh": "我缩起来，等伤口合。", "en": "I curl up and wait for the wound to close."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那块绿泥，别动。", "en": "Leave that green sludge alone."},
+        {"zh": "你身上有发光的东西。", "en": "There is something glowing on you."},
+        {"zh": "那个洞里的气，对我很好。", "en": "The gas in that hole is good for me."},
+        {"zh": "你把东西放下，我就走。", "en": "Set it down and I will go."},
+        {"zh": "你越靠近毒气，越慢。", "en": "The closer you get to the gas, the slower you go."},
+        {"zh": "辐照的味道，我追着走。", "en": "I follow the smell of radiation."},
+        {"zh": "你把火把收起来。", "en": "Put that torch away."},
+        {"zh": "你的伤口在发亮，我喜欢。", "en": "Your wound is glowing; I like that."},
+        {"zh": "那一堆烂泥里有好东西。", "en": "There is something good in that rotten heap."},
+        {"zh": "你退开，我就爬回石缝。", "en": "Step back and I crawl back into the crack."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到我，我被弹出去。", "en": "You bump me and I am knocked away."},
+        {"zh": "我撞在你的靴子上，很快退回。", "en": "I strike your boot and retreat fast."},
+        {"zh": "我们一撞，绿色的雾散出来。", "en": "We collide and green haze puffs out."},
+        {"zh": "我被踩扁了一点，又撑起来。", "en": "I am half flattened and push back up."},
+        {"zh": "我贴着你的脚踝爬过去。", "en": "I crawl past your ankle."},
+        {"zh": "你踩到我，壳响了一声。", "en": "You step on me and my shell cracks."},
+        {"zh": "我撞得翻了个身，六脚朝天。", "en": "I am knocked on my back, six legs up."},
+        {"zh": "相撞时，我把毒雾甩出来了。", "en": "At the impact, I shake out poison fog."},
+        {"zh": "我们分开，地上有绿印。", "en": "We part and a green stain remains."},
+        {"zh": "你退开半步，我还贴着。", "en": "You step back half a pace and I stay close."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞里还有很多只。", "en": "There are plenty of us in this cave."},
+        {"zh": "我只关心毒气。", "en": "I care only for the gas."},
+        {"zh": "这种事不需要谈。", "en": "That is not worth discussing."},
+        {"zh": "我摇着触须，没回应。", "en": "I wag my antennae and give no answer."},
+        {"zh": "你问得太慢了。", "en": "You ask too slowly."},
+        {"zh": "我朝那堆烂泥爬过去。", "en": "I crawl toward that rotten heap."},
+        {"zh": "我抬了抬前腿。", "en": "I lift a foreleg."},
+        {"zh": "这一带我自己就够。", "en": "I am enough for this area."},
+        {"zh": "我不介意多几个同类。", "en": "I would not mind a few more of my kind."},
+        {"zh": "我转过身去继续吃。", "en": "I turn back to my meal."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用两条前腿把它抱起。", "en": "I scoop it up with two forelegs."},
+        {"zh": "我咬着它慢慢拖。", "en": "I bite it and drag it slowly."},
+        {"zh": "这块带着毒，我要。", "en": "This one is toxic; I want it."},
+        {"zh": "我用触须碰了碰。", "en": "I touch it with an antenna."},
+        {"zh": "我把它藏到身底下。", "en": "I hide it beneath my body."},
+        {"zh": "这不够我嚼。", "en": "Not enough to chew."},
+        {"zh": "我把它拖到洞里。", "en": "I drag it into the cave."},
+        {"zh": "掉在地上的我都要试。", "en": "I try everything that falls."},
+        {"zh": "我一口口撕着吃。", "en": "I tear it apart bite by bite."},
+        {"zh": "这东西有毒，更好。", "en": "This is toxic; even better."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把你标成目标了。", "en": "I have marked you as the target."},
+        {"zh": "你身上那股辐照，我盯上了。", "en": "That radiation on you; I have my eye on it."},
+        {"zh": "我贴着地朝你过去。", "en": "I go to you hugging the ground."},
+        {"zh": "这个目标很好拖。", "en": "This target will drag nicely."},
+        {"zh": "我把触须朝你伸过去。", "en": "I stretch my antennae toward you."},
+        {"zh": "你在哪，我闻得出。", "en": "I can smell where you are."},
+        {"zh": "我要把你带到他面前。", "en": "I will bring you before him."},
+        {"zh": "目标就是那个站着的。", "en": "The target is the one standing."},
+        {"zh": "我抬起前身，准备扑。", "en": "I rear up, ready to spring."},
+        {"zh": "你身上已有辐照。", "en": "You already carry radiation."},
+        {"zh": "这一带只有一个活物。", "en": "There is only one living thing here."},
+        {"zh": "我朝你的脚去。", "en": "I go for your feet."},
+        {"zh": "你身上的辐照味，我认准了。", "en": "I know that irradiated smell on you."},
+        {"zh": "你喘气的声音很近了。", "en": "Your breathing is close now."},
+        {"zh": "我的六条腿加快了。", "en": "My six legs have quickened."},
+        {"zh": "这一单我接下了。", "en": "I will take this one."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一直朝你那边爬。", "en": "I keep crawling your way."},
+        {"zh": "你跑，我爬得更快。", "en": "You run, and I crawl faster."},
+        {"zh": "我六条腿贴着洞壁绕过去。", "en": "Six legs carry me along the cave wall."},
+        {"zh": "我一边爬一边放毒气。", "en": "I release gas as I crawl."},
+        {"zh": "你退到石缝里，我进得去。", "en": "You back into a crack, and I can enter."},
+        {"zh": "我在你旁边转圈。", "en": "I circle beside you."},
+        {"zh": "你越急，越容易踩到。", "en": "The more frantic you are, the easier to trip."},
+        {"zh": "我的触须一直对着你。", "en": "My antennae stay pointed at you."},
+        {"zh": "你听到那种细响了吗。", "en": "Do you hear that fine ticking?"},
+        {"zh": "我不急，毒气会等你。", "en": "No hurry; the gas will wait for you."},
+        {"zh": "你退我就贴上去，六条腿很快。", "en": "You back off and I cling on; my six legs are quick."},
+        {"zh": "毒雾里，我的触须先到。", "en": "In the gas cloud, my antennae arrive first."},
+        {"zh": "我把地面都沾上了。", "en": "I have stained the ground."},
+        {"zh": "你往哪个方向，我都看着。", "en": "Whichever way you go, I watch."},
+        {"zh": "我等你的脚慢下来。", "en": "I wait for your feet to slow."},
+        {"zh": "这一圈我已经收紧了。", "en": "I have tightened this ring."},
+        {"zh": "你身上的护甲也在变绿。", "en": "Your armour is turning green too."},
+        {"zh": "我不需要快，只要近。", "en": "I need not be fast, only close."},
+        {"zh": "你听，气在响。", "en": "Listen; the gas is hissing."},
+        {"zh": "我一直都没有走远。", "en": "I have never gone far."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我咬在你脚踝上。", "en": "I bite your ankle."},
+        {"zh": "我爬到你腿上，撕了一下。", "en": "I climb your leg and tear."},
+        {"zh": "我这一口把毒泥带进去了。", "en": "That bite carried the toxic mud in."},
+        {"zh": "我撞你的膝盖，很硬。", "en": "I batter your knee, hard."},
+        {"zh": "我用前腿扒你的手。", "en": "I claw your hand with forelegs."},
+        {"zh": "你被咬的地方开始发麻。", "en": "The bite begins to numb."},
+        {"zh": "我一边咬一边放气。", "en": "I bite while releasing gas."},
+        {"zh": "这一下把你绊了一下。", "en": "That tripped you."},
+        {"zh": "我跳到你的护甲缝里。", "en": "I leap into a gap in your armour."},
+        {"zh": "你甩手，我被甩出去。", "en": "You shake your hand and I am flung off."},
+        {"zh": "这一下不算狠，可我很多。", "en": "Not savage, but there are many of me."},
+        {"zh": "我把毒雾吐在你脸上。", "en": "I puff poison fog in your face."},
+        {"zh": "我咔嚓一声咬了个空。", "en": "My jaws snap on air."},
+        {"zh": "你退了，我还在你脚边。", "en": "You retreat and I am still at your feet."},
+        {"zh": "这一口你忘不掉。", "en": "You will not forget that bite."},
+        {"zh": "我咬穿了你的护甲带。", "en": "I bite through your armour strap."},
+        {"zh": "我扒住你不放。", "en": "I cling to you and hold."},
+        {"zh": "这一下让周围都绿了。", "en": "That turned the surroundings green."},
+        {"zh": "我被踢开，又爬回来。", "en": "Kicked away, I crawl back."},
+        {"zh": "我咬完就跑远。", "en": "I bite and run off."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞底的泥里钻出一只。", "en": "One emerges from the mud on the cave floor."},
+        {"zh": "你先听到细碎的爬声。", "en": "You hear fine scrabbling first."},
+        {"zh": "我从石缝里探出触须。", "en": "My antennae emerge from a crack."},
+        {"zh": "我落地，六条腿立刻站稳。", "en": "I land and my six legs brace at once."},
+        {"zh": "这一带忽然有了绿色的气味。", "en": "A green smell rises here suddenly."},
+        {"zh": "我从毒泥里爬上来。", "en": "I climb out of the toxic sludge."},
+        {"zh": "我停在石头顶上看着你。", "en": "I stop on the stone top and watch you."},
+        {"zh": "我从洞顶掉下来，翻身站起。", "en": "I drop from the roof and right myself."},
+        {"zh": "我抖了抖身上的黏液。", "en": "I shake the slime off."},
+        {"zh": "我越过一堆烂泥朝你来。", "en": "I come over a heap of rot toward you."},
+        {"zh": "我出现时，虫子都不叫了。", "en": "When I appear, the insects go silent."},
+        {"zh": "我从阴影里疾速爬出。", "en": "I scurry out of the shadow."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火一烤，我的壳发出臭味。", "en": "Fire scorches my shell and it stinks."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从洞顶落下，砸在石上。", "en": "I fall from the cave roof onto stone."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水一泡，我腿都乱了。", "en": "Soaked in water, my legs go wild."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我翻过去，六脚在空中。", "en": "The blast flips me, six legs in the air."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭把我钉在墙上，我挣了两下。", "en": "An arrow pins me to the wall; I struggle twice."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "法术打来，我的毒气压回去。", "en": "A spell hits and my gas is pushed back in."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没有烂泥吃，我越来越瘦。", "en": "No rot to eat, and I grow thin."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈下来，我的壳一片焦。", "en": "Lightning strikes and my shell is scorched."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空吸我，六条腿都抓不住。", "en": "The void pulls and all six legs find no hold."}
+      ]
+    }
+  }
+}

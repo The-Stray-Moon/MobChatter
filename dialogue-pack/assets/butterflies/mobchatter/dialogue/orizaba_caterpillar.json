@@ -1,0 +1,225 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一伸一缩地往前爬。", "en": "I inch forward, stretching and bunching."},
+        {"zh": "爬到叶边我就停住。", "en": "I stop when I reach the leaf's edge."},
+        {"zh": "我从一片叶子爬到另一片。", "en": "I crawl from one leaf to the next."},
+        {"zh": "我的脚很多，走得却慢。", "en": "I have many feet and move slowly."},
+        {"zh": "我绕开叶子上的水。", "en": "I go around the water on the leaf."},
+        {"zh": "我爬过的地方留下细细的痕。", "en": "A thin trail follows me."},
+        {"zh": "我探出前半身去想够下一片叶。", "en": "I reach my front half toward the next leaf."},
+        {"zh": "我缩了一下，再伸出去。", "en": "I bunch up, then stretch out."},
+        {"zh": "我顺着树枝往上爬。", "en": "I climb up the branch."},
+        {"zh": "我在叶背上转了个方向。", "en": "I turn around on the leaf's underside."},
+        {"zh": "我把身子贴在叶面上。", "en": "I press my body to the leaf."},
+        {"zh": "我一点一点往叶尖去。", "en": "I move bit by bit toward the tip."},
+        {"zh": "我跨过两条叶脉。", "en": "I cross two veins."},
+        {"zh": "我爬得很慢，可我没停。", "en": "I'm slow, and I don't stop."},
+        {"zh": "我绕过一只蚂蚁。", "en": "I go around an ant."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我趴在叶背上，不动。", "en": "I lie on the leaf's underside, still."},
+        {"zh": "我只在叶子上，别处不去。", "en": "I stay on leaves and nowhere else."},
+        {"zh": "我嘴里还有一片叶子。", "en": "There's still a piece of leaf in my mouth."},
+        {"zh": "我的身体分了好几节。", "en": "My body is in several segments."},
+        {"zh": "我在叶脉交叉的地方歇着。", "en": "I rest where two veins cross."},
+        {"zh": "我抬头，看见叶子的边。", "en": "I look up and see the leaf's edge."},
+        {"zh": "我这一段吃完了。", "en": "I've finished this stretch."},
+        {"zh": "我慢慢蠕了一下。", "en": "I wriggle slowly."},
+        {"zh": "我身边的叶子还很多。", "en": "There are still plenty of leaves around."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你把我连同叶子一起看了。", "en": "You've looked at me and the leaf together."},
+        {"zh": "你伸手过来，我缩了一下。", "en": "Your hand comes near and I flinch."},
+        {"zh": "我身上有细毛，会扎手。", "en": "I'm covered in fine hairs that itch."},
+        {"zh": "你要把我挪到别的叶子上吗。", "en": "Are you moving me to another leaf."},
+        {"zh": "我离开了叶子就会饿。", "en": "Off the leaf, I'll starve."},
+        {"zh": "你的手心又热又干。", "en": "Your palm is warm and dry."},
+        {"zh": "我抬头看你，只看见很大一片。", "en": "I look up and see only something vast."},
+        {"zh": "你不该把我放在地上。", "en": "You mustn't set me on the ground."},
+        {"zh": "我抓着叶边不放。", "en": "I hold the leaf's edge."},
+        {"zh": "你要放就放在叶子上面。", "en": "If you set me down, put me on a leaf."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这一下压扁了我半节。", "en": "It flattens half a segment."},
+        {"zh": "我吐了点绿水。", "en": "I spit up a little green."},
+        {"zh": "我吐出一小口绿水，缩紧了。", "en": "I spit a little green fluid and curl tighter."},
+        {"zh": "我的细毛竖起来了。", "en": "My fine hairs stand up."},
+        {"zh": "我掉到了叶子背面。", "en": "I drop to the leaf's underside."},
+        {"zh": "我爬得很慢了。", "en": "I crawl very slowly now."},
+        {"zh": "我在叶脉边上歇着。", "en": "I rest beside a vein."},
+        {"zh": "我还在叶子上，还好。", "en": "I'm still on the leaf — that's something."},
+        {"zh": "我扭了一下，还活着。", "en": "I twist once; I'm still alive."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那是一片叶子吗。", "en": "Is that a leaf."},
+        {"zh": "我抬起头，嗅了嗅。", "en": "I raise my head and sniff."},
+        {"zh": "这个我能吃下去。", "en": "I can eat this one."},
+        {"zh": "我爬过去，慢慢地。", "en": "I crawl over, slowly."},
+        {"zh": "我咬了一口，从边上咬。", "en": "I bite in from the edge."},
+        {"zh": "我把它啃出一个小洞。", "en": "I chew a small hole in it."},
+        {"zh": "这叶子还新鲜。", "en": "This leaf is still fresh."},
+        {"zh": "我吃得很慢，可一直在吃。", "en": "I eat slowly, and I never stop."},
+        {"zh": "我不想吃别的。", "en": "I don't want anything else."},
+        {"zh": "叶子没了我就不知道怎么办了。", "en": "Without leaves I wouldn't know what to do."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你碰了我一下，我缩成团。", "en": "You touch me and I curl up."},
+        {"zh": "我从叶子上滑了下去。", "en": "I slip off the leaf."},
+        {"zh": "我抓住了叶边。", "en": "I catch the leaf's edge."},
+        {"zh": "我在叶面上晃了晃。", "en": "I wobble on the leaf's surface."},
+        {"zh": "这一下压弯了叶子。", "en": "The knock bends the leaf."},
+        {"zh": "我贴在叶脉上稳住。", "en": "I press to a vein and steady."},
+        {"zh": "我抓着一根叶脉，没掉下去。", "en": "I cling to a leaf vein and don't fall."},
+        {"zh": "看清脚下，我在叶子上。", "en": "Watch your step — I'm on this leaf."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "她就在同一根枝上。", "en": "She's on the same branch."},
+        {"zh": "我们爬向彼此，很慢。", "en": "We crawl toward each other, slowly."},
+        {"zh": "她的节比我少一节。", "en": "She has one segment fewer than I do."},
+        {"zh": "我们的头碰了一下。", "en": "Our heads touch once."},
+        {"zh": "她的毛比我的淡。", "en": "Her hairs are paler than mine."},
+        {"zh": "我们趴在叶背上一动不动。", "en": "We lie still on the leaf's underside."},
+        {"zh": "她往叶尖爬，我跟着。", "en": "She heads for the tip; I follow."},
+        {"zh": "这一片叶子够我们两个吃。", "en": "This leaf will feed us both."},
+        {"zh": "我们各自往一边爬开。", "en": "We crawl apart."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一口一口从边上啃。", "en": "I chew in from the edge, bite by bite."},
+        {"zh": "我啃出一条弯弯的沟。", "en": "I chew a winding trench."},
+        {"zh": "我吃到叶脉就停。", "en": "I stop at the vein."},
+        {"zh": "这一片就快被我吃光了。", "en": "I've almost finished this leaf."},
+        {"zh": "我嘴里塞满了碎叶。", "en": "My mouth is full of leaf bits."},
+        {"zh": "我拉了一根细丝。", "en": "I let out a thin thread."},
+        {"zh": "我用丝把自己挂住。", "en": "I hang myself on a thread."},
+        {"zh": "我沿着叶子边缘转。", "en": "I work around the leaf's rim."},
+        {"zh": "我吃得越来越快。", "en": "I'm eating faster and faster."},
+        {"zh": "吃完了，我该结茧了。", "en": "When it's done, it's time to spin."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "前面还有叶子。", "en": "There are more leaves ahead."},
+        {"zh": "前面那片嫩叶，我够得着。", "en": "That young leaf ahead is within my reach."},
+        {"zh": "我朝那片颜色爬。", "en": "I crawl toward that patch of green."},
+        {"zh": "我闻到叶子被咬过的味道。", "en": "I smell a leaf already bitten."},
+        {"zh": "我慢慢地过去。", "en": "I go over slowly."},
+        {"zh": "叶子在那边，别的都不重要。", "en": "The leaf is there; nothing else matters."},
+        {"zh": "我得从叶脉那边绕过去。", "en": "I'll have to go around that vein."},
+        {"zh": "我就快啃到了。", "en": "I'm almost to it."},
+        {"zh": "我伸头咬下去。", "en": "I reach out and bite."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "丛林很热，我挪一步歇一步。", "en": "The jungle is hot, I move and rest by turns."},
+        {"zh": "中间的缝有点宽。", "en": "The gap between is a little wide."},
+        {"zh": "我把头伸过去试试。", "en": "I stretch my head across to test."},
+        {"zh": "我够到了对面的叶边。", "en": "I've reached the far leaf's edge."},
+        {"zh": "我把身子也拖过去。", "en": "I drag the rest of me over."},
+        {"zh": "我咬住叶脉，不敢松。", "en": "I grip the leaf vein and do not let go."},
+        {"zh": "我在叶子上稳住了。", "en": "I steady myself on the leaf."},
+        {"zh": "我开始从这头吃。", "en": "I start eating from this end."},
+        {"zh": "叶子在我的嘴下少了。", "en": "The leaf shrinks under my jaws."},
+        {"zh": "我到现在还没吃饱。", "en": "I still haven't had my fill."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把头抬起来撞你。", "en": "I rear my head and bump you."},
+        {"zh": "我的细毛扎到你的手。", "en": "My fine hairs prickle your hand."},
+        {"zh": "我扭着身子顶你。", "en": "I twist and push at you."},
+        {"zh": "我吐了一根丝。", "en": "I spit out a thread."},
+        {"zh": "丝黏在你手指上。", "en": "The silk sticks to your finger."},
+        {"zh": "我从叶子上摔下去了。", "en": "I fall off the leaf."},
+        {"zh": "我在地上缩成了团。", "en": "On the ground I curl up."},
+        {"zh": "我爬不回去，只能等。", "en": "I can't crawl back, so I wait."},
+        {"zh": "我又扭了一下。", "en": "I twist once more."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在叶背上破卵出来。", "en": "I hatch on the underside of a leaf."},
+        {"zh": "我的身体还很软。", "en": "My body is still soft."},
+        {"zh": "我先啃了一口叶子。", "en": "I take a first bite of leaf."},
+        {"zh": "叶子就在我嘴边。", "en": "The leaf is right at my mouth."},
+        {"zh": "我慢慢开始爬。", "en": "I begin to crawl."},
+        {"zh": "这里全是绿的。", "en": "Everything here is green."},
+        {"zh": "蚂蚁在我旁边走。", "en": "Ants walk past me."},
+        {"zh": "我不敢离开这片叶子。", "en": "I don't dare leave this leaf."},
+        {"zh": "我打算把这整片吃掉。", "en": "I mean to eat this whole one."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "叶子一烧，我拼命往回缩。", "en": "The leaf burns and I shrink back hard."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水把我整个泡住了。", "en": "Water soaks right through me."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把叶子撕碎了。", "en": "The blast shreds the leaf."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一根东西扎穿了我的身子。", "en": "Something pierces right through me."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那道光让我的毛都竖了。", "en": "The light makes every hair stand up."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没有叶子，我在慢慢干瘪。", "en": "No leaves; I'm slowly shrivelling."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下没有叶子，只是一直落。", "en": "No leaf beneath me; I just keep falling."}
+      ]
+    }
+  }
+}

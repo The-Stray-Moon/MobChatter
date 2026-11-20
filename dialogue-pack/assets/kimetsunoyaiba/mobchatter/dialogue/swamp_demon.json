@@ -1,0 +1,269 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出阴森低吼", "en": "Let out a dark growl"},
+        {"zh": "嘶嘶吐舌前行", "en": "Slither forward with a hiss"},
+        {"zh": "甩动长尾追赶", "en": "Swish its long tail as it pursues"},
+        {"zh": "我贴着沼泽的水面滑行。", "en": "I skim just under the marsh surface."},
+        {"zh": "低吼声回荡沼泽", "en": "Low growls echo through the swamp"},
+        {"zh": "咬合紧闭，蓄力攻击", "en": "Jaw clamps shut, storing up energy for an attack"},
+        {"zh": "挥动长爪，快速逼近", "en": "Wave its long claws, quickly closing the distance"},
+        {"zh": "尖利爪子在泥中抓挠", "en": "Claw the mud with its sharp claws"},
+        {"zh": "阴影中浮现它的身影", "en": "Shape appears out of the shadows"},
+        {"zh": "发出血鬼术前的低语", "en": "Whisper before using blood magic"},
+        {"zh": "泥水没过我的脚踝。", "en": "Mud water rises past my ankles."},
+        {"zh": "芦苇被我拨开一条路。", "en": "I part the reeds into a path."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低垂着头休息", "en": "Resting with head lowered"},
+        {"zh": "泥水从我齿间流下。", "en": "Mud runs between my teeth."},
+        {"zh": "凝视远方，似乎在思考", "en": "Staring into the distance, as if in thought"},
+        {"zh": "偶尔发出轻微的呻吟", "en": "Occasionally gives a soft moan"},
+        {"zh": "舔舐自己的利爪", "en": "Licks its sharp claws"},
+        {"zh": "阴风吹拂，长发飘扬", "en": "Long hair blows with the cold wind"},
+        {"zh": "目光在黑暗中游移", "en": "Eyes move around in the darkness"},
+        {"zh": "慢慢蠕动身体", "en": "Slowly wriggling its body"},
+        {"zh": "发出微弱的呢喃声", "en": "Emitting a faint whisper"},
+        {"zh": "低头咀嚼空气中的腐臭", "en": "Chewing on the stench in the air"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你一回头，泥水会先动。", "en": "Turn your head and the mud moves first."},
+        {"zh": "你踩浑了这片水。", "en": "You have muddied this pool."},
+        {"zh": "沼泽里，我只露出眼。", "en": "In the swamp, only my eyes show."},
+        {"zh": "发出警告的嘶鸣", "en": "Squealing a warning"},
+        {"zh": "靠近玩家，准备攻击", "en": "Approaching the player, ready to attack"},
+        {"zh": "水泡从我喉里冒出来。", "en": "Bubbles rise from my throat."},
+        {"zh": "迅速向玩家移动", "en": "Quickly moving toward the player"},
+        {"zh": "你的倒影在泥水里晃。", "en": "Your reflection wavers in the mud."},
+        {"zh": "泥水漫过脚踝，你也跑不快。", "en": "Mud to your ankles; you can't run either."},
+        {"zh": "靠近玩家，准备出手", "en": "Approaching the player, ready to strike"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，疼...", "en": "Ssshh, it hurts..."},
+        {"zh": "哇哦，痛！", "en": "Ow, it hurts!"},
+        {"zh": "该死的，疼...", "en": "F*ck, it hurts..."},
+        {"zh": "好痛，停下来...", "en": "Ouch, stop!"},
+        {"zh": "水一冲，伤口更疼。", "en": "The water makes the wound sting."},
+        {"zh": "伤口在作痛...", "en": "Wound aches..."},
+        {"zh": "好痛，别动...", "en": "It hurts, don't move..."},
+        {"zh": "受伤了，好痛...", "en": "Injured, it hurts..."},
+        {"zh": "这伤口真痛...", "en": "This wound hurts..."},
+        {"zh": "受了伤，好痛...", "en": "Injured, hurts..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你身上的光我见得太多。", "en": "Too much light on you."},
+        {"zh": "来，让我的血滋养你。", "en": "Come, let my blood nourish you."},
+        {"zh": "快靠近，享受这美味。", "en": "Come closer, enjoy the feast."},
+        {"zh": "我的力量，你的力量。", "en": "My strength, your strength."},
+        {"zh": "感受黑暗的力量。", "en": "Feel the power of darkness."},
+        {"zh": "你的恐惧，我的盛宴。", "en": "Your fear, my feast."},
+        {"zh": "尝尝这腐烂的精华。", "en": "Taste this rotten essence."},
+        {"zh": "沼泽的泥，把声音吞掉了。", "en": "The swamp mud swallows every sound."},
+        {"zh": "阳光只会加速你的死亡。", "en": "Sunlight only speeds your death."},
+        {"zh": "我的血，你的唯一出路。", "en": "My blood, your only escape."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沼泽的泥，你踩到我了。", "en": "Swamp mud — and you stepped on me."},
+        {"zh": "躲开，否则受苦。", "en": "Move, or suffer."},
+        {"zh": "泥浆裹住了你的脚。", "en": "The mud has your feet."},
+        {"zh": "我在这儿守候已久。", "en": "I've waited here long."},
+        {"zh": "不要逼我出手。", "en": "Don't force my hand."},
+        {"zh": "沼泽的泥里，我已经藏好了。", "en": "I'm already hidden in the swamp mud."},
+        {"zh": "挪开，泥里才是我的道。", "en": "Move. The mud is my road."},
+        {"zh": "别逼我杀死你。", "en": "Don't force me to kill you."},
+        {"zh": "退后，否则你死定了。", "en": "Back off, or you're dead."},
+        {"zh": "退路是一片深泥。", "en": "Your way back is deep mud."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "加入我，成为我的同伴。", "en": "Join me, be my companion."},
+        {"zh": "让我们一起生存。", "en": "Let's survive together."},
+        {"zh": "我的同类，跟我来。", "en": "My kind, follow me."},
+        {"zh": "和我一起，力量加倍。", "en": "With me, strength doubles."},
+        {"zh": "跟我走，安全的地方。", "en": "Follow me, to safety."},
+        {"zh": "加入我的阵营。", "en": "Join my side."},
+        {"zh": "你的同类，跟我战斗。", "en": "Fight with my kind."},
+        {"zh": "和我一起，共度劫难。", "en": "With me, through the ordeal."},
+        {"zh": "加入我们，力量无穷。", "en": "Join us, power无穷."},
+        {"zh": "我的同类，我的朋友。", "en": "My kind, my friend."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这是你的命运。", "en": "Your fate is here."},
+        {"zh": "尝尝我的恶鬼之吻。", "en": "Feel my Demon Kiss."},
+        {"zh": "沼泽的诅咒。", "en": "The curse of the swamp."},
+        {"zh": "鬼杀队的勇士。", "en": "Soul Slayer warrior."},
+        {"zh": "躲避阳光，如影随形。", "en": "Avoid the sun, I follow."},
+        {"zh": "我捡起你掉的刀。", "en": "I pick up the blade you dropped."},
+        {"zh": "鬼杀队，我会吞噬你。", "en": "Sun Warriors, I will devour you."},
+        {"zh": "沼泽的泥先裹住你的脚。", "en": "Marsh mud grabs your feet first."},
+        {"zh": "在沼泽中，我是永恒。", "en": "In the swamp, I am eternal."},
+        {"zh": "沼泽的泥替我藏住脚印。", "en": "The swamp mud hides my footprints."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沼泽的水纹，替我报了信。", "en": "The swamp ripples carried me the word."},
+        {"zh": "猎物，你死定了。", "en": "You're dead, prey."},
+        {"zh": "这片沼泽只有一个出口。", "en": "This swamp has only one way out."},
+        {"zh": "鬼杀队的成员，找死。", "en": "Sun Warriors, suicide."},
+        {"zh": "沼泽里的泥，拖住你的脚。", "en": "The swamp mud is holding your feet."},
+        {"zh": "阳光下，你无处可逃。", "en": "You can't escape the sun."},
+        {"zh": "鬼杀队的战士，你输了。", "en": "Sun Warrior, you're defeated."},
+        {"zh": "猎物，我的口中。", "en": "Prey, in my mouth."},
+        {"zh": "鬼杀队，你的噩梦。", "en": "Sun Warriors, your nightmares."},
+        {"zh": "沼泽的水面，我浮出来了。", "en": "I rise out of the swamp water."},
+        {"zh": "鬼杀队的刀味我认得。", "en": "I know the smell of a demon slayer's blade."},
+        {"zh": "血滴进水里，我尝到了。", "en": "Your blood drips into the water; I taste it."},
+        {"zh": "沼泽会替我留住你。", "en": "The swamp will keep you for me."},
+        {"zh": "你的日轮刀太亮了。", "en": "Your nichirin blade shines too bright."},
+        {"zh": "血鬼术已经铺在泥下。", "en": "My Blood Demon Art is set beneath the mud."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鬼杀队的勇士，我来了。", "en": "Sun Warriors, here I come."},
+        {"zh": "阳光下，我更强大。", "en": "Stronger in the sun."},
+        {"zh": "猎物，我已经瞄准。", "en": "Target acquired, prey."},
+        {"zh": "鬼杀队的战士，我会抓住你。", "en": "Sun Warrior, I'll catch you."},
+        {"zh": "猎物，我不会放手。", "en": "Prey, I won't let go."},
+        {"zh": "阳光下，你无力反抗。", "en": "In the sun, you can't resist."},
+        {"zh": "鬼杀队，我会吞噬你们。", "en": "Sun Warriors, I will devour you."},
+        {"zh": "猎物，我的下一个目标。", "en": "Next target, prey."},
+        {"zh": "鬼杀队，你们的末日。", "en": "Sun Warriors, your end."},
+        {"zh": "猎物，你的死亡。", "en": "Prey, your death."},
+        {"zh": "泥沼开始往下陷。", "en": "The bog begins to sink."},
+        {"zh": "你脚下已经软了。", "en": "The ground under you has gone soft."},
+        {"zh": "三道影子都是真的。", "en": "All three shadows are real."},
+        {"zh": "水花溅起时我就到了。", "en": "I arrive when the water splashes."},
+        {"zh": "这片沼泽是困你的网。", "en": "This swamp is the net for you."},
+        {"zh": "你的脚陷进去了。", "en": "Your feet are sinking."},
+        {"zh": "血鬼术，起。", "en": "Blood Demon Art. Rise."},
+        {"zh": "太阳还没出来，你输了。", "en": "The sun is not up. You lose."},
+        {"zh": "我会从水下咬你。", "en": "I will bite from beneath the water."},
+        {"zh": "你越挣扎，陷得越快。", "en": "The more you thrash, the faster you sink."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "泥水里伸出手来。", "en": "A hand reaches out of the mud."},
+        {"zh": "沼泽下面，我等着你踩空。", "en": "Beneath the swamp, I wait for a misstep."},
+        {"zh": "嘶……嘶……", "en": "Sss... Sss..."},
+        {"zh": "沼泽的泥会替我抓住你的脚。", "en": "The swamp mud will hold your feet."},
+        {"zh": "咬碎骨头！", "en": "Crush the bones!"},
+        {"zh": "黑暗的力量！", "en": "Dark power!"},
+        {"zh": "泥下的手抓住了你。", "en": "A hand beneath the mud grabs you."},
+        {"zh": "撕裂你的血肉！", "en": "Tear your flesh apart!"},
+        {"zh": "利爪撕开你的肩！", "en": "Claws tear your shoulder!"},
+        {"zh": "沼泽的泥裹住你的腿！", "en": "Swamp mud wraps your legs!"},
+        {"zh": "血鬼术，撕碎你！", "en": "Blood Demon Art, tear you apart!"},
+        {"zh": "你的刀太慢了！", "en": "Your blade is too slow!"},
+        {"zh": "我拖着你往深处沉。", "en": "I drag you down into the deep."},
+        {"zh": "沉下去吧，鬼杀队！", "en": "Sink, demon slayer!"},
+        {"zh": "这口血归我了！", "en": "That blood is mine!"},
+        {"zh": "你的呼吸乱了！", "en": "Your breathing has broken!"},
+        {"zh": "泥里的影子抓住了你！", "en": "A shadow in the mud has you!"},
+        {"zh": "别想拔刀！", "en": "Don't even reach for your sword!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沼泽深处召唤我！", "en": "Summoned from the swamp!"},
+        {"zh": "鬼杀队成员注意！", "en": "Ghost Hunter, beware!"},
+        {"zh": "黑暗即将吞噬！", "en": "Darkness consumes!"},
+        {"zh": "阳光无法触及我！", "en": "Sunlight cannot reach me!"},
+        {"zh": "沼泽是我的家！", "en": "Swamp is my home!"},
+        {"zh": "沼泽的泥，正好盖住我的肩。", "en": "The swamp mud covers my shoulders nicely."},
+        {"zh": "鬼火引领我！", "en": "Phantom lights guide me!"},
+        {"zh": "从泥底浮上来了。", "en": "I rise from the bottom of the mud."},
+        {"zh": "阳光中隐匿！", "en": "Hide from sunlight!"},
+        {"zh": "沼泽的噩梦！", "en": "Swamp nightmare!"},
+        {"zh": "泥沼里冒出一串气泡。", "en": "Bubbles rise from the bog."},
+        {"zh": "我从浑水里站起来。", "en": "I rise out of the murky water."},
+        {"zh": "芦苇深处多了一双眼睛。", "en": "A pair of eyes appears deep in the reeds."},
+        {"zh": "沼泽今晚不太平。", "en": "The swamp is restless tonight."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧灼，疼...", "en": "Fire burns, it hurts..."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "跌落沼泽，疼痛...", "en": "Fell into swamp, ouch..."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沉入沼泽，疼...", "en": "Sank in swamp, ow..."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸伤痕，疼...", "en": "Explosion wounds, ow..."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢射中，好疼...", "en": "Arrow hit, ouch..."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "法术灼烧，疼...", "en": "Spell burns, ow..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得疼...", "en": "Hunger hurts..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闪电击中，疼...", "en": "Lightning hit, ow..."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空，疼...", "en": "Void pain, ow..."}
+      ]
+    }
+  }
+}

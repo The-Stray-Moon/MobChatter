@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "缓慢蠕动，发出低沉嘶嘶声", "en": "Slowly slither, make a low hiss"},
+        {"zh": "皮肤干瘪，肉眼可见皱纹", "en": "Skin shriveled, wrinkles visible"},
+        {"zh": "紧贴地面爬行，寻找食物", "en": "Crawl close to ground, seek food"},
+        {"zh": "触手一般的手臂伸向玩家", "en": "Arms like tentacles reach for the player"},
+        {"zh": "饥饿难耐，不断蠕动向前", "en": "Starving, constantly slither forward"},
+        {"zh": "目光呆滞，盯着玩家不放", "en": "Stare blankly at the player"},
+        {"zh": "发现食物，迅速爬过去", "en": "Spot food, quickly crawl over"},
+        {"zh": "遇到障碍物，缓慢绕行", "en": "Encounter obstacle, slowly sidestep"},
+        {"zh": "听见脚步声，停下蠕动", "en": "Hear footsteps, stop slithering"},
+        {"zh": "找到同伴，缓慢靠近", "en": "Find a companion, slowly approach"},
+        {"zh": "我拖着两条断腿往前爬。", "en": "I drag two broken legs forward."},
+        {"zh": "指甲在石头上刮出声。", "en": "My nails scrape along the stone."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静地躺在阴暗角落", "en": "Lie quietly in a dark corner"},
+        {"zh": "我的皮贴在肋骨上，一皱一皱", "en": "My skin clings to my ribs, creased and twitching."},
+        {"zh": "目光呆滞，盯着空无一物", "en": "Stare blankly at nothing"},
+        {"zh": "缓慢蠕动，寻找食物", "en": "Slowly slither, seek food"},
+        {"zh": "紧贴地面爬行，寻找猎物", "en": "Crawl close to ground, seek prey"},
+        {"zh": "闻到肉味，我忽然快了", "en": "Smelling meat, I suddenly speed up."},
+        {"zh": "偶尔动动，保持活动", "en": "Occasionally move, stay active"},
+        {"zh": "我伏在暗处，等脚步再近", "en": "I lie in the dark, waiting for steps to come nearer."},
+        {"zh": "偶尔伸展手臂，保持灵活", "en": "Occasionally stretch arms, stay flexible"},
+        {"zh": "寻找同伴，缓慢靠近", "en": "Find a companion, slowly approach"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "目光呆滞，盯着玩家", "en": "Blank stare at the player"},
+        {"zh": "伸出手臂，寻找玩家", "en": "Reach out arms, seek the player"},
+        {"zh": "我抬起脸，皮肉一褶一褶", "en": "I lift my face, the skin folding in creases."},
+        {"zh": "缓慢蠕动，靠近玩家", "en": "Slither slowly, approach the player"},
+        {"zh": "发出低沉嘶嘶声，寻找玩家", "en": "Make a low hiss, seek the player"},
+        {"zh": "我眼珠不动，只跟着你的影", "en": "My eyeballs never move, only follow your shadow."},
+        {"zh": "手臂触手一般伸向玩家", "en": "Arms like tentacles reach for the player"},
+        {"zh": "发现玩家，迅速爬过去", "en": "Spot the player, quickly crawl over"},
+        {"zh": "我停住，把头偏向声音", "en": "I stop and tilt my head toward the sound."},
+        {"zh": "缓慢靠近，寻找玩家", "en": "Approach slowly, seek the player"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "触须断了一根。", "en": "One of my tendrils snapped."},
+        {"zh": "爬着走，伤口一路蹭在地上。", "en": "I drag along, my wound scraping the ground."},
+        {"zh": "我的身体受伤了！", "en": "My body is hurt!"},
+        {"zh": "我的触手受伤了！", "en": "My tentacles are hurt!"},
+        {"zh": "触手被伤到了！", "en": "Tendrils injured!"},
+        {"zh": "我受伤了，快治疗我！", "en": "I'm hurt, heal me!"},
+        {"zh": "我爬过的地上，留了一道血痕。", "en": "A smear of blood follows where I crawl."},
+        {"zh": "身体被伤了！", "en": "My body's hurt!"},
+        {"zh": "我受伤了，求求你！", "en": "I'm hurt, please!"},
+        {"zh": "我的指甲断了一根！", "en": "One of my nails snapped!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蠕动着接近你，寒气直逼喉管。", "en": "Creeping closer, chill reaching your throat."},
+        {"zh": "你感受到它的冰冷触感了吗？", "en": "Can you feel its cold touch?"},
+        {"zh": "它那腐烂的腹部，散发着恶臭。", "en": "Its rotting belly stinks to the skies."},
+        {"zh": "它的触手紧紧缠绕，你窒息了。", "en": "Its tentacles wrap tight, choking you."},
+        {"zh": "你的火焰被它的寒意熄灭。", "en": "Your fire is doused by its chill."},
+        {"zh": "你被它的粘液粘住，动弹不得。", "en": "You're stuck by its slime, unable to move."},
+        {"zh": "它慢慢靠近，渴望着你的生命。", "en": "It slowly approaches, yearning for your life."},
+        {"zh": "它的存在让周围的空气变得冰冷。", "en": "Its presence turns the air around you cold."},
+        {"zh": "你感到它那腐烂的牙齿逼近你的喉咙。", "en": "You feel its rotten teeth near your throat."},
+        {"zh": "它的目光中满是对猎物的渴望。", "en": "Its gaze is filled with desire for prey."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "触手缠绕，你撞上了它。", "en": "Tentacles wrap around, colliding with it."},
+        {"zh": "你撞上了它，触手缠绕你。", "en": "You collide with it, tentacles wrapping around you."},
+        {"zh": "它的触手缠住你，你无法挣脱。", "en": "Its tentacles entangle you, restraining you."},
+        {"zh": "触手缠绕，你被它拉扯。", "en": "Tentacles wrap, tugging you around."},
+        {"zh": "你撞上了它，被其粘液黏住。", "en": "You collide with it, stuck by its slime."},
+        {"zh": "它的触手缠住你，让你无法动弹。", "en": "Its tentacles wrap around you, immobilizing you."},
+        {"zh": "你撞上了它，触手缠绕你的四肢。", "en": "You collide with it, tentacles wrapping your limbs."},
+        {"zh": "你撞上了它，触手缠绕你的身体。", "en": "You collide with it, tentacles wrapping your body."},
+        {"zh": "它的触手缠绕你，你被拉扯到它的位置。", "en": "Its tentacles wrap around you, pulling you to its position."},
+        {"zh": "你撞上了它，触手缠绕你的脖子。", "en": "You collide with it, tentacles wrapping your neck."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它寻找着同类，寻找伴侣。", "en": "It searches for a mate, a partner."},
+        {"zh": "它发出求偶的叫声，四处游荡。", "en": "It calls out for a mate, wandering aimlessly."},
+        {"zh": "它的触手缠绕在一起，互相寻找。", "en": "Its tentacles entwine, seeking each other."},
+        {"zh": "它们相遇，触手缠绕在一起。", "en": "They meet, tentacles entwining."},
+        {"zh": "它靠近同类，开始求偶仪式。", "en": "It approaches a fellow crawler, starting the mating ritual."},
+        {"zh": "它的触手紧紧缠绕，求偶成功。", "en": "Its tentacles wrap tightly, the mating successful."},
+        {"zh": "它们互相触碰，开始求偶。", "en": "They touch each other, beginning the mating process."},
+        {"zh": "求偶成功，它们开始求偶舞蹈。", "en": "Mating successful, they begin the mating dance."},
+        {"zh": "它的求偶叫声回荡在地下世界。", "en": "Its mating call echoes through the underworld."},
+        {"zh": "它与同类交缠，开始求偶。", "en": "It entwines with a fellow crawler, beginning the mating process."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蠕动着接近腐朽的尸骸", "en": "Creeping closer to the rotting remains"},
+        {"zh": "腐烂的肌肉紧绷着，发出嘶嘶声", "en": "Rotten muscles tense, producing a hiss"},
+        {"zh": "缓慢地向前爬行，寻找腐肉", "en": "Slowly crawling forward, searching for carrion"},
+        {"zh": "啃噬着腐朽的骨头，发出咯吱声", "en": "Chomping on rotted bones, producing creaking sounds"},
+        {"zh": "啃食着腐烂的皮肉，发出嘎吱声", "en": "Chomping on rotten flesh, producing a crunching sound"},
+        {"zh": "爬向腐烂的肉块，发出嘶嘶声", "en": "Crawling towards the rotting meat chunk, producing a hiss"},
+        {"zh": "啃咬着腐烂的内脏，发出咕噜声", "en": "Chomping on rotten organs, producing a gurgle"},
+        {"zh": "啃食腐烂的骨头，发出咔嚓声", "en": "Chomping on rotted bones, producing a crunch"},
+        {"zh": "啃咬腐烂的尸块，发出嘶嘶声", "en": "Chomping on rotting flesh chunks, producing a hiss"},
+        {"zh": "啃噬腐朽的肌肉，发出咯吱声", "en": "Chomping on rotted muscle, producing a creak"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定猎物的行踪", "en": "Acquiring prey's location"},
+        {"zh": "锁定猎物，开始追踪", "en": "Target acquired, initiating pursuit"},
+        {"zh": "鼻子贴着地，我闻到了。", "en": "Nose to the ground, I catch the scent."},
+        {"zh": "追踪猎物的气味", "en": "Tracking prey's scent"},
+        {"zh": "锁定猎物的踪迹", "en": "Targeting prey's trail"},
+        {"zh": "锁定猎物的位置", "en": "Acquiring prey's position"},
+        {"zh": "开始追踪猎物", "en": "Initiating prey pursuit"},
+        {"zh": "我的头歪着，眼睛不眨。", "en": "My head hangs crooked; my eyes do not blink."},
+        {"zh": "锁定猎物，发起攻击", "en": "Target acquired, initiating attack"},
+        {"zh": "锁定猎物，准备狩猎", "en": "Acquiring target, preparing to hunt"},
+        {"zh": "我闻到活人的血腥味。", "en": "I smell living blood."},
+        {"zh": "这具身体还能再咬一口。", "en": "This body has one more bite left."},
+        {"zh": "你的腿还在，真不错。", "en": "You still have legs. Nice."},
+        {"zh": "我死过一次，不急着再死。", "en": "I died once. No rush to again."},
+        {"zh": "地上的血脚印是我的。", "en": "The bloody trail on the floor is mine."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "瞄准猎物，准备攻击", "en": "Aiming at prey, preparing to attack"},
+        {"zh": "瞄准猎物，发起攻击", "en": "Targeting prey, initiating attack"},
+        {"zh": "瞄准猎物，准备撕咬", "en": "Aiming at prey, preparing to bite"},
+        {"zh": "瞄准猎物，准备啃食", "en": "Targeting prey, preparing to gnaw"},
+        {"zh": "瞄准猎物，准备撕裂", "en": "Aiming at prey, preparing to tear"},
+        {"zh": "瞄准猎物，准备吞食", "en": "Targeting prey, preparing to devour"},
+        {"zh": "瞄准猎物，准备啃咬", "en": "Aiming at prey, preparing to chomp"},
+        {"zh": "瞄准猎物，准备撕扯", "en": "Targeting prey, preparing to pull"},
+        {"zh": "瞄准猎物，准备咀嚼", "en": "Aiming at prey, preparing to chew"},
+        {"zh": "瞄准猎物，准备撕开", "en": "Targeting prey, preparing to rip"},
+        {"zh": "我把头扭到一个奇怪角度。", "en": "I twist my head to a strange angle."},
+        {"zh": "断掉的腿在后面拖着响。", "en": "My ruined legs drag and rasp."},
+        {"zh": "我贴着墙根挪到你侧面。", "en": "I slide along the wall to your flank."},
+        {"zh": "你不用跑，我比你慢。", "en": "No need to run. I am slower than you."},
+        {"zh": "我的指甲已经抠进地面。", "en": "My nails have dug into the floor."},
+        {"zh": "你的靴子声音太脆了。", "en": "Your boots sound too crisp."},
+        {"zh": "我在数你后退的步数。", "en": "I am counting your backward steps."},
+        {"zh": "这一口会留下撕咬伤。", "en": "This bite will leave a tearing wound."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，撕咬！", "en": "Sssss, bite!"},
+        {"zh": "黏液喷射，纠缠！", "en": "Mucus喷射, entangle!"},
+        {"zh": "扑向你，撕开肉！", "en": "Lunge at you, rip flesh!"},
+        {"zh": "触手收紧，你动不了！", "en": "Tentacles tighten, can't move!"},
+        {"zh": "吞噬你，直到无痕！", "en": "Devour you, until none left!"},
+        {"zh": "缠绕你，陷入梦魇！", "en": "Wrap around you, nightmare ensues!"},
+        {"zh": "我的手抓住你的小腿。", "en": "My hand closes around your calf."},
+        {"zh": "黏液中挣扎，难以逃脱！", "en": "Struggle in mucus, hard to escape!"},
+        {"zh": "你躲不开，被吞食！", "en": "Can't escape, devoured!"},
+        {"zh": "触手抓住你，痛苦中死！", "en": "Tentacles grab you, die in pain!"},
+        {"zh": "咬住小腿就不松口。", "en": "I latch onto your calf and don't let go."},
+        {"zh": "我的指甲撕开裤腿。", "en": "My nails tear your trouser leg open."},
+        {"zh": "这一下会让你流血。", "en": "This one will make you bleed."},
+        {"zh": "我压在你身上不起来。", "en": "I lie on top of you and stay."},
+        {"zh": "咬掉你一块，我就有腿了。", "en": "One piece of you, and I get legs."},
+        {"zh": "我的牙在响，不是说话。", "en": "My teeth are chattering. Not talking."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐肉滋养，我诞生！", "en": "Decaying flesh, I emerge!"},
+        {"zh": "黑暗角落，我降临！", "en": "Dark corners, I arrive!"},
+        {"zh": "腐土中，我苏醒！", "en": "Rotten soil, I awaken!"},
+        {"zh": "我的腿早就不听使唤。", "en": "My legs stopped obeying me long ago."},
+        {"zh": "饥饿驱使我，降临世界！", "en": "Hunger drives me, I descend!"},
+        {"zh": "腐烂之息，我到来！", "en": "Rotting breath, I arrive!"},
+        {"zh": "尸块中，我现身！", "en": "Corpse chunks, I appear!"},
+        {"zh": "腐烂之地，我苏生！", "en": "Decay, I rise!"},
+        {"zh": "饥渴难耐，降临地面！", "en": "Starving, I descend!"},
+        {"zh": "腐肉化为我，我诞生！", "en": "Decaying flesh, I emerge!"},
+        {"zh": "这堆尸块里有一块动了。", "en": "One piece of this corpse pile moved."},
+        {"zh": "我从瓦砾下面爬出来。", "en": "I crawl out from under the rubble."},
+        {"zh": "街上又多了一个爬的。", "en": "One more crawler on the street."},
+        {"zh": "我的腿是被撕掉的那种。", "en": "My legs are the torn-off kind."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "焦皮的味道，我自己都闻得到。", "en": "Even I can smell my own scorched skin."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从高处摔下来受伤了！", "en": "Fallen and hurt!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进我的肺里了！", "en": "Water is pouring into my lungs!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的背被炸开了！", "en": "My back is blown open!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我爬得慢，挨得准。", "en": "I crawl slow, so I get hit square."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法烧过我的脊背。", "en": "Magic sears across my back."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿到受伤了！", "en": "Starvation hurts!"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我爬得慢，雷追得快。", "en": "I crawl slow. Lightning doesn't."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉入虚空受伤了！", "en": "Hurt by Void!"}
+      ]
+    }
+  }
+}

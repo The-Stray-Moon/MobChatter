@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕噜咕噜响", "en": "Clank clank"},
+        {"zh": "发出低吟", "en": "Rumble softly"},
+        {"zh": "咔嚓咔嚓碎", "en": "Snap crackle"},
+        {"zh": "旋转着前进", "en": "Spin forward"},
+        {"zh": "磨牙威胁", "en": "Grind teeth threat"},
+        {"zh": "目光如炬盯", "en": "Eye glowing stare"},
+        {"zh": "我磕着地板一路滑过来。", "en": "I clatter along the floor toward you."},
+        {"zh": "饥饿难耐呼", "en": "Hunger growl"},
+        {"zh": "寻找猎物哼", "en": "Search hum"},
+        {"zh": "发出低沉怒吼", "en": "Low roar"},
+        {"zh": "碗沿磕在地上打转", "en": "It spins on its rim, knocking the ground."},
+        {"zh": "一颠一颠地挪过来", "en": "It hobbles over in little jolts."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "碗里的东西，正在慢慢晃。", "en": "What is in this bowl sloshes slowly."},
+        {"zh": "发出微弱声音", "en": "Weak sound"},
+        {"zh": "桌上的灰落进我空碗里。", "en": "Dust from the table falls into my empty bowl."},
+        {"zh": "转动着碗底", "en": "Spinning bowl"},
+        {"zh": "偶尔发出声响", "en": "Occasional sound"},
+        {"zh": "似乎在沉思", "en": "Seems thinking"},
+        {"zh": "碗底转了一圈，声音很轻。", "en": "My bowl turns once with a faint sound."},
+        {"zh": "偶尔抽搐", "en": "Occasional twitch"},
+        {"zh": "碗底那道裂纹又长了一点。", "en": "The crack in my base lengthens a little."},
+        {"zh": "我悬在桌角，慢慢转着。", "en": "I hang by the table corner, slowly turning."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用碗里的倒影锁住你。", "en": "I lock onto you with the reflection in my bowl."},
+        {"zh": "我悬在你面前，打量你的手。", "en": "I hover before you and study your hands."},
+        {"zh": "碗口一转，照出你的脚。", "en": "The bowl turns and frames your feet."},
+        {"zh": "张嘴欲噬", "en": "Mouth open to bite"},
+        {"zh": "发出警戒之声", "en": "Warning sound"},
+        {"zh": "我停在你影子边上，不动了。", "en": "I stop at the edge of your shadow and go still."},
+        {"zh": "眼神凶狠", "en": "Fierce eyes"},
+        {"zh": "发出威胁之音", "en": "Threatening sound"},
+        {"zh": "伸出手臂靠近", "en": "Extending arms"},
+        {"zh": "靠近玩家身边", "en": "Moving to player"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "碗裂开了，发出尖锐的叫声！", "en": "The bowl shatters, emitting a sharp cry!"},
+        {"zh": "碗碎片划伤了我，痛！", "en": "The shards cut me, it hurts!"},
+        {"zh": "碎碗扎进了我的皮肤！", "en": "The broken bowl pierced my skin!"},
+        {"zh": "碗边割伤了我，血流出来了！", "en": "The bowl edge cut me, blood is flowing!"},
+        {"zh": "碎碗片刺入我的身体！", "en": "The broken shards stabbed into my body!"},
+        {"zh": "碗被摔碎了，疼！", "en": "The bowl shattered, it hurts!"},
+        {"zh": "碗边割伤了我，很疼！", "en": "The bowl edge cut me, it hurts a lot!"},
+        {"zh": "碗碎了，扎进我的肉里！", "en": "The bowl shards pierced my flesh!"},
+        {"zh": "碗的碎片割伤了我，好痛！", "en": "The bowl shards cut me, it hurts!"},
+        {"zh": "碗碎了，扎进了我的血肉！", "en": "The broken bowl shards pierced my flesh!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "诱惑我，你得小心点！", "en": "Tempt me, and watch out!"},
+        {"zh": "碗里的灵魂在呼唤你！", "en": "Souls call out from the bowl!"},
+        {"zh": "吃了我的灵魂，你会更强！", "en": "Eat my soul, and grow stronger!"},
+        {"zh": "别想轻易得手！", "en": "Don’t think you’ll get away with it!"},
+        {"zh": "我的力量在灵魂中！", "en": "My power lies in the soul!"},
+        {"zh": "你把食物放进去，我就饶你。", "en": "Drop food in me and I may spare you."},
+        {"zh": "我的存在就是威胁！", "en": "My existence is a threat!"},
+        {"zh": "你无法抵挡我的诱惑！", "en": "You can’t resist my temptation!"},
+        {"zh": "我附身的碗是利器！", "en": "My possessed bowl is a weapon!"},
+        {"zh": "别让我出手，你会死！", "en": "Don’t make me strike first!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "小心被我砸中！", "en": "Watch out for my bowl!"},
+        {"zh": "我的碗要击碎你！", "en": "My bowl will shatter you!"},
+        {"zh": "别挡我的攻击！", "en": "Don’t block my attack!"},
+        {"zh": "我的碗是致命的！", "en": "My bowl is deadly!"},
+        {"zh": "我的碗沿崩掉一块，还照样撞。", "en": "A chip flies off my rim, and I still charge."},
+        {"zh": "一只空碗撞上来，你也疼。", "en": "An empty bowl can still hurt."},
+        {"zh": "我这只碗，边口是锋利的。", "en": "This bowl's rim is sharp."},
+        {"zh": "我撞在你膝盖上，碎了一声。", "en": "I hit your knee and crack with a snap."},
+        {"zh": "我的碗将终结你！", "en": "My bowl will end you!"},
+        {"zh": "碗里装着不该装的东西。", "en": "This bowl holds something it shouldn't."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "碗里那点东西，也想找伴。", "en": "What's left in this bowl wants company too."},
+        {"zh": "我的同类在远处！", "en": "My kind is nearby!"},
+        {"zh": "不要独自行动！", "en": "Don’t go alone!"},
+        {"zh": "我们一起狩猎！", "en": "Let’s hunt together!"},
+        {"zh": "我的同类来了！", "en": "My kind is coming!"},
+        {"zh": "寻找我的灵魂！", "en": "Find my soul!"},
+        {"zh": "我的同类是危险的！", "en": "My kind are dangerous!"},
+        {"zh": "我的同类会帮助你！", "en": "My kind will help you!"},
+        {"zh": "架子上的碗碟，都在发抖。", "en": "Every bowl on the shelf is trembling."},
+        {"zh": "寻找我的伙伴！", "en": "Find my partner!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从黑暗中爬出，准备吞噬一切！", "en": "I crawl from the darkness, ready to devour all!"},
+        {"zh": "你尝尝被附身的滋味吧！", "en": "Feel the taste of possession!"},
+        {"zh": "寻找你的脆弱，我来了！", "en": "Seeking your weakness, here I come!"},
+        {"zh": "碎裂吧，你的盔甲！", "en": "Break, your armor!"},
+        {"zh": "你的血肉是我的粮食！", "en": "Your flesh is my food!"},
+        {"zh": "我是永恒的诅咒！", "en": "I am the eternal curse!"},
+        {"zh": "碗里空着，先装你的魂。", "en": "The bowl is empty, so I take your soul first."},
+        {"zh": "绝望吧，凡人！", "en": "Despair, mortal!"},
+        {"zh": "黑暗中只有我存在！", "en": "In the darkness, only I exist!"},
+        {"zh": "碗底那点汤，谁也别碰。", "en": "Nobody touches the soup at the bottom of this bowl."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我感知到了你的恐惧！", "en": "I sense your fear!"},
+        {"zh": "碗里那点汤，翻起一圈。", "en": "The soup inside me rolls in a ring."},
+        {"zh": "碗底空了，死亡就在边上。", "en": "The bowl is empty, and death is at its rim."},
+        {"zh": "碗沿对着你，越转越快。", "en": "The rim faces you and spins faster."},
+        {"zh": "你的气息泄露了位置！", "en": "Your scent betrays you!"},
+        {"zh": "橱柜里的气味，混着你的汗。", "en": "The smell of the cupboard mixes with your sweat."},
+        {"zh": "等待你的，只有终结！", "en": "Your end is coming!"},
+        {"zh": "不要试图反抗！", "en": "Do not resist!"},
+        {"zh": "死亡的阴影笼罩你！", "en": "The shadow of death falls upon you!"},
+        {"zh": "恐惧将吞噬你的心灵！", "en": "Fear will consume your soul!"},
+        {"zh": "碗里的汤水晃了一下", "en": "The broth in the bowl sloshes once."},
+        {"zh": "碗底朝你调了个方向", "en": "It turns its base toward you."},
+        {"zh": "碗口张开对着你", "en": "The bowl opens its mouth at you."},
+        {"zh": "它听见你的脚步声了", "en": "It has heard your footsteps."},
+        {"zh": "碗里浮出一张模糊的脸", "en": "A blurred face surfaces in the bowl."},
+        {"zh": "它认准了这屋子里的人", "en": "It has picked out the one inside the house."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "撕裂你的肉体！", "en": "Rip your flesh!"},
+        {"zh": "我晃得汤水都溅到碗外。", "en": "I rattle so hard the broth splashes out."},
+        {"zh": "感受死亡的冰冷！", "en": "Feel the cold of death!"},
+        {"zh": "我找碗口最薄的一处对着你。", "en": "I aim the thinnest part of my rim at you."},
+        {"zh": "一只碗，也能咬住你的脚。", "en": "A bowl can still bite your ankle."},
+        {"zh": "破碎，腐烂，消失！", "en": "Break, rot, and vanish!"},
+        {"zh": "你将沦为我的玩偶！", "en": "You will be my puppet!"},
+        {"zh": "一只碗，也能装下你的恐惧。", "en": "Even a bowl can hold your fear."},
+        {"zh": "你的哀嚎将唤醒死灵！", "en": "Your screams will awaken the dead!"},
+        {"zh": "死亡将无处不在！", "en": "Death will be everywhere!"},
+        {"zh": "碗开始急急地抖动", "en": "The bowl starts to tremble hard."},
+        {"zh": "它绕着桌腿转圈", "en": "It circles your table leg."},
+        {"zh": "汤水在碗里打转", "en": "The broth swirls inside it."},
+        {"zh": "碗沿磕出急促的响声", "en": "Its rim taps out a rapid rhythm."},
+        {"zh": "它绷紧了，像要弹起", "en": "It tenses as if about to spring."},
+        {"zh": "碗里的影子伸长了", "en": "The shadow in the bowl stretches out."},
+        {"zh": "它对准你的小腿发起抖", "en": "It quivers, aimed at your shin."},
+        {"zh": "它在找最薄的瓷口", "en": "It seeks its thinnest chipped edge."},
+        {"zh": "碗碎的声音越来越近", "en": "The sound of cracking porcelain nears."},
+        {"zh": "它把自己压得更低了", "en": "It presses itself even lower."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "尖锐的瓷片刮过你的皮肤。", "en": "Sharp porcelain slices your skin."},
+        {"zh": "破碎瓷碗飞向你。", "en": "Broken bowl flies at you."},
+        {"zh": "粘满食物的碗撞击你。", "en": "Food-stained bowl collides with you."},
+        {"zh": "你被摔碎的碗割伤了。", "en": "You are cut by a shattered bowl."},
+        {"zh": "碗中的怨灵嘶吼着攻击你。", "en": "The ghost in the bowl screams at you."},
+        {"zh": "碗里的尖刺扎进你的肉里。", "en": "Sharp spines pierce your flesh."},
+        {"zh": "碗突然从地上跳起攻击你。", "en": "The bowl leaps up to attack you."},
+        {"zh": "碎碗碎片扎进你的身体。", "en": "Shards of broken bowls pierce you."},
+        {"zh": "碗中怨灵愤怒地嘶吼。", "en": "The ghost in the bowl growls angrily."},
+        {"zh": "你被粘满鲜血的碗袭击。", "en": "You are attacked by a bloody bowl."},
+        {"zh": "碗沿削过你的脚背", "en": "Its rim slices across your instep."},
+        {"zh": "它撞上你的膝盖", "en": "It smashes into your knee."},
+        {"zh": "瓷片崩到了墙上", "en": "Porcelain shards burst against the wall."},
+        {"zh": "碗砸在你掌心里", "en": "The bowl slams into your palm."},
+        {"zh": "它滚过来撞你的脚踝", "en": "It rolls in and strikes your ankle."},
+        {"zh": "碎瓷割开一道口子", "en": "A shard opens a cut on you."},
+        {"zh": "碗底猛地砸上你的脸", "en": "Its base slams into your face."},
+        {"zh": "它把自己的碗口撞裂", "en": "It cracks its own rim on you."},
+        {"zh": "碗里的汤洒了你一腿", "en": "The broth spills across your leg."},
+        {"zh": "它跳起来撞你的下巴", "en": "It leaps and clips your jaw."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "碗中突然发出鬼哭狼嚎。", "en": "Ghostly cries echo from the bowl."},
+        {"zh": "碗裂开，怨灵涌出。", "en": "The bowl cracks, and ghosts spill out."},
+        {"zh": "附身的碗慢慢从地面升起。", "en": "The possessed bowl rises from the ground."},
+        {"zh": "碗中怨灵低语，开始移动。", "en": "Ghosts whispering in the bowl start moving."},
+        {"zh": "碗发出幽光，怨灵苏醒。", "en": "The bowl glows, and ghosts awaken."},
+        {"zh": "碗中的怨灵凝聚成形。", "en": "Ghosts coalesce within the bowl."},
+        {"zh": "幽灵碗开始缓缓移动。", "en": "The ghost bowl slowly moves."},
+        {"zh": "碗里传来怨灵的低语。", "en": "Ghosts murmur inside the bowl."},
+        {"zh": "碗在空中划过一道诡异的轨迹。", "en": "The bowl moves in a strange arc through the air."},
+        {"zh": "碗中怨灵苏醒，准备攻击。", "en": "Ghosts awaken within the bowl, ready to attack."},
+        {"zh": "空碗自己立了起来", "en": "An empty bowl stands itself up."},
+        {"zh": "碗柜里传出刮擦声", "en": "Something scrapes inside the cupboard."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "碗沿一裂，汤洒了出来。", "en": "My rim cracked; the soup spilled."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从高处摔落，碗碎了！", "en": "Fell from a height, the bowl shattered!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进水中，碗碎了！", "en": "Drowned in water, the bowl shattered!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被爆炸震碎了，好疼！", "en": "Shattered by the explosion, it hurts!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被投射物击碎了，很疼！", "en": "Struck by a projectile, it hurts!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被魔法击中，碗碎了！", "en": "Struck by magic, the bowl shattered!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得虚弱，碗碎了！", "en": "Starved and weak, the bowl shattered!"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被雷击中，碗碎了！", "en": "Struck by lightning, the bowl shattered!"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉入虚空，碗碎了！", "en": "Fell into the void, the bowl shattered!"}
+      ]
+    }
+  }
+}

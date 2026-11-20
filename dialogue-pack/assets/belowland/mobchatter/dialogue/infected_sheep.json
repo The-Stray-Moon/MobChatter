@@ -1,0 +1,263 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咩～咩～", "en": "Baa! Baa!"},
+        {"zh": "四条腿，有一条拖着。", "en": "Four legs, one of them drags."},
+        {"zh": "啃食腐草", "en": "Chewing tainted grass"},
+        {"zh": "摇摇晃晃前行", "en": "Shuffle forward"},
+        {"zh": "腐土上，我一步一晃。", "en": "On the rot soil I sway with each step."},
+        {"zh": "啃食地上的植物", "en": "Eat ground plants"},
+        {"zh": "啃咬附近的植物", "en": "Eat nearby plants"},
+        {"zh": "缓缓行走", "en": "Slow walk"},
+        {"zh": "羊毛里钻出了菌丝", "en": "Fungal threads push out of my wool."},
+        {"zh": "跟着羊群走上腐土", "en": "I follow the flock onto rotting soil."},
+        {"zh": "蹄子踩碎了毒蘑菇", "en": "My hooves crush a poisonous mushroom."},
+        {"zh": "歪着脑袋往前挪", "en": "Head tilted, I shuffle forward."},
+        {"zh": "腐烂的羊毛一路掉渣", "en": "Rotting wool flakes off behind me."},
+        {"zh": "喉咙里发出湿闷的咩声", "en": "A wet, muffled bleat leaves my throat."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "羊毛下全是菌丝，别摸。", "en": "Hyphae under the wool — don't touch."},
+        {"zh": "低垂头颅", "en": "Lower head"},
+        {"zh": "我嚼着发霉的叶子。", "en": "I chew moldy leaves."},
+        {"zh": "啃食干草", "en": "Eat hay"},
+        {"zh": "慢慢吃草", "en": "Eat grass slowly"},
+        {"zh": "轻咬空气", "en": "Mouth click"},
+        {"zh": "四处张望", "en": "Look around"},
+        {"zh": "我低头啃腐草根。", "en": "I lower my head to gnaw rotgrass roots."},
+        {"zh": "享受食物", "en": "Enjoy food"},
+        {"zh": "羊毛下的孢子慢慢鼓动", "en": "Spores swell slowly under my wool."},
+        {"zh": "嚼着发黑的蘑菇", "en": "I chew on a blackened mushroom."},
+        {"zh": "一只眼已经糊住了", "en": "One of my eyes has crusted shut."},
+        {"zh": "站在菌伞下打盹", "en": "I doze beneath a fungal cap."},
+        {"zh": "舔着溃烂的肩头", "en": "I lick my festering shoulder."},
+        {"zh": "羊群里没有一只出声", "en": "Not one sheep in the flock makes a sound."},
+        {"zh": "呼吸里带着腐土的味", "en": "My breath smells of rotting earth."},
+        {"zh": "菌丝在皮肤下爬动", "en": "Mycelium crawls beneath my skin."},
+        {"zh": "等着腐气再浓一点", "en": "I wait for the rot to thicken."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的羊毛，长满了菌丝。", "en": "My wool is overgrown with mycelium."},
+        {"zh": "我抬起头，伤口朝你。", "en": "I lift my head, my wound toward you."},
+        {"zh": "我的羊毛里，长出了菌丝。", "en": "Fungal threads grow in my wool."},
+        {"zh": "我顺着你的脚印跟着。", "en": "I follow along your footprints."},
+        {"zh": "羊毛缝里的眼睛盯着你。", "en": "The eyes in my wool seams watch you."},
+        {"zh": "朝玩家走去", "en": "Walk towards player"},
+        {"zh": "我的羊毛上长着腐化菌。", "en": "Warped fungus grows in my wool."},
+        {"zh": "我的毛下面，长着真菌。", "en": "Fungus grows under my wool."},
+        {"zh": "我一瘸一拐地转向你。", "en": "My whole body turns to you."},
+        {"zh": "我的羊毛掉了，露出腐肉。", "en": "My wool fell out and the rot shows."},
+        {"zh": "从羊群里抬起头看你", "en": "I lift my head from the flock to look at you."},
+        {"zh": "瞳孔里长着菌斑", "en": "Fungal spots have grown across my pupils."},
+        {"zh": "你身上的味道很新鲜", "en": "You smell fresh."},
+        {"zh": "慢慢转过头，脖子响了", "en": "I turn my head slowly, and my neck creaks."},
+        {"zh": "我记住了你站的地方", "en": "I have marked where you stand."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咩，好疼！", "en": "Oww, that hurts!"},
+        {"zh": "哎哟，受不了！", "en": "Ouch, that really hurts!"},
+        {"zh": "别碰我！好痛！", "en": "Don't touch me! That hurts!"},
+        {"zh": "我的羊毛在打结成块。", "en": "My wool is matting into clumps."},
+        {"zh": "哎呀，受伤了...", "en": "Ouch, injured..."},
+        {"zh": "疼，疼，疼...", "en": "Ouch, ouch, ouch..."},
+        {"zh": "受伤真不是好玩的...", "en": "Getting hurt is no fun..."},
+        {"zh": "快停下！好痛！", "en": "Stop! That hurts!"},
+        {"zh": "疼得我只想躺下...", "en": "Pain makes me want to lie down..."},
+        {"zh": "我受伤了，别再打了...", "en": "I'm injured, stop it..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低头咬食你的脚踝", "en": "Bite at your ankle."},
+        {"zh": "靠近你会分泌毒液", "en": "Poison you if you get too close."},
+        {"zh": "咀嚼你的靴子", "en": "Chew on your boots."},
+        {"zh": "用尖牙刮擦皮肤", "en": "Scratch your skin with its teeth."},
+        {"zh": "尝试啃食你的背包", "en": "Try to bite your backpack."},
+        {"zh": "舔舐伤口以加速腐烂", "en": "Lick wounds to speed up decay."},
+        {"zh": "咬住你，试图拉你倒地", "en": "Bite you to try and knock you down."},
+        {"zh": "啃食腐烂的树叶", "en": "Chomp on decaying leaves."},
+        {"zh": "啃咬你的手以求食物", "en": "Bite your hand for food."},
+        {"zh": "试图用角抵撞你", "en": "Try to ram you with its horns."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲撞你，试图撞倒你", "en": "Ram you to try and knock you down."},
+        {"zh": "用角撞击你的盔甲", "en": "Ram your armor with its horns."},
+        {"zh": "撞向你的身体以攻击", "en": "Ram your body to attack."},
+        {"zh": "用角抵撞你的脑袋", "en": "Ram your head with its horns."},
+        {"zh": "撞向你，试图击倒你", "en": "Ram you to try and knock you down."},
+        {"zh": "用角撞向你的腿", "en": "Ram your legs with its horns."},
+        {"zh": "用角冲撞你，试图击溃你", "en": "Ram you to try and crush you."},
+        {"zh": "用角撞击你的护甲", "en": "Ram your armor with its horns."},
+        {"zh": "用角撞击你的身体", "en": "Ram your body with its horns."},
+        {"zh": "用角撞向你，试图击倒你", "en": "Ram you to try and knock you down."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "靠近同类发出求偶声", "en": "Make mating sounds to attract a mate."},
+        {"zh": "与同类交配，繁殖后代", "en": "Mate with a同类 to produce offspring."},
+        {"zh": "互相用角触碰求偶", "en": "Touch antlers to attract a mate."},
+        {"zh": "求偶时发出咕咕声", "en": "Gurgle to attract a mate."},
+        {"zh": "与同类交配，生成后代", "en": "Mate with a同类 to produce offspring."},
+        {"zh": "互相用角轻触求偶", "en": "Gently touch antlers to attract a mate."},
+        {"zh": "求偶时发出咕噜声", "en": "Gurgle to attract a mate."},
+        {"zh": "用角轻触求偶", "en": "Gently touch antlers to attract a mate."},
+        {"zh": "发出咕咕声，求偶", "en": "Gurgle to attract a mate."},
+        {"zh": "用烂角顶顶同类的颈", "en": "I nudge a flockmate's neck with my rotting horn."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "舔舐伤口，恢复少许生命值。", "en": "Lick wounds, regaining a bit of health."},
+        {"zh": "啃食腐肉，获得一点营养。", "en": "Eat rotten flesh, gaining a bit of nutrition."},
+        {"zh": "触碰草地，似乎得到了力量。", "en": "Touch the grass, gaining some strength."},
+        {"zh": "啃食树叶，生命值增加。", "en": "Eat leaves, regaining health."},
+        {"zh": "啃食蘑菇，力量更强大。", "en": "Eat mushrooms, gaining more strength."},
+        {"zh": "啃食被感染的植物，生命值增加。", "en": "Eat infected plants, regaining health."},
+        {"zh": "咀嚼腐烂的植物，生命值恢复。", "en": "Chew on rotten plants, regaining health."},
+        {"zh": "啃食腐化的果实，获得一点力量。", "en": "Eat corrupt fruits, gaining some strength."},
+        {"zh": "啃食被感染的种子，生命值恢复。", "en": "Eat infected seeds, regaining health."},
+        {"zh": "啃食腐化的树叶，获得营养。", "en": "Eat corrupt leaves, gaining nutrition."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发现猎物，发出嘶嘶声。", "en": "Spot a target, hiss loudly."},
+        {"zh": "盯上玩家，准备攻击。", "en": "Lock onto the player, ready to attack."},
+        {"zh": "看见敌人，低吼一声。", "en": "See an enemy, growl lowly."},
+        {"zh": "我锁住你，喉咙里嘶嘶响。", "en": "I lock on, hissing in my throat."},
+        {"zh": "我的羊毛底下，全是菌丝。", "en": "Mycelium grows under my wool."},
+        {"zh": "发现敌人，发出嘶嘶声。", "en": "Spot an enemy, hiss loudly."},
+        {"zh": "盯上目标，发出嘶嘶声。", "en": "Lock onto the target, hiss loudly."},
+        {"zh": "这身腐毛底下，已经不算羊了。", "en": "Under this rotted wool, I am barely a sheep."},
+        {"zh": "盯上敌人，准备攻击。", "en": "Lock onto the enemy, prepare to attack."},
+        {"zh": "羊群一起转过头来", "en": "The whole flock turns its heads at once."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "向玩家发起攻击。", "en": "Attack the player."},
+        {"zh": "追逐目标。", "en": "Chase the target."},
+        {"zh": "我盯着你，腐草在嘴边。", "en": "I stare, rotting grass at my lips."},
+        {"zh": "向目标发起攻击。", "en": "Attack the target."},
+        {"zh": "我低着头，一步步靠近。", "en": "Head low, I close in step by step."},
+        {"zh": "向目标移动。", "en": "Move towards the target."},
+        {"zh": "盯上目标，准备攻击。", "en": "Lock onto the target, prepare to attack."},
+        {"zh": "向目标追逐。", "en": "Chase the target."},
+        {"zh": "离群的羊朝你逼近", "en": "The straggler closes in on you."},
+        {"zh": "我用角对准你的膝", "en": "I level my horn at your knee."},
+        {"zh": "蹄子刨着腐土助跑", "en": "My hooves paw the rot for a run-up."},
+        {"zh": "菌丝已经伸向你", "en": "The mycelium is reaching for you."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的毛里长着菌，别摸。", "en": "Fungus grows in my wool; do not touch."},
+        {"zh": "呼呼，要生气了！", "en": "Huff, getting angry!"},
+        {"zh": "咩—你太近了！", "en": "Maaaoooow, you're too close!"},
+        {"zh": "啊！不要碰我！", "en": "Ah! Don't touch me!"},
+        {"zh": "我低下头，要撞你了。", "en": "I lower my head to ram you."},
+        {"zh": "别跑，我咬得比你想的快。", "en": "Don't run; I bite faster than you think."},
+        {"zh": "吼—你要被吃了！", "en": "Rrrr, you're going to be eaten!"},
+        {"zh": "你惹我了！", "en": "You惹 me!"},
+        {"zh": "我这口牙想吃活肉。", "en": "These teeth want living meat."},
+        {"zh": "角顶上来，带着腐臭！", "en": "My horn drives in, reeking of rot!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉的是腐肉，不是羊毛。", "en": "I drop rotten flesh, not wool."},
+        {"zh": "腐化的气息，让我苏醒！", "en": "Corruption, awaken me!"},
+        {"zh": "黑暗中，我等待着...", "en": "In the dark, I wait..."},
+        {"zh": "腐化之地，我的领地！", "en": "Corruption, my territory!"},
+        {"zh": "被感染的羊来了！", "en": "Infected sheep here!"},
+        {"zh": "我身上的毛，一扯就掉一把。", "en": "My wool comes off in handfuls."},
+        {"zh": "腐化之地，我要繁衍！", "en": "Corruption, I'll breed here!"},
+        {"zh": "腐化之地，我的乐园！", "en": "Corruption, my paradise!"},
+        {"zh": "腐化菌林，我又回来了！", "en": "Corrupted fungal woods — I'm back!"},
+        {"zh": "腐化之地，我将永生！", "en": "Corruption, I'll live forever!"},
+        {"zh": "腐化菌林里多了一只羊", "en": "One more sheep in the corrupted grove."},
+        {"zh": "我从菌伞下钻出来", "en": "I push out from under a fungal cap."},
+        {"zh": "羊群在腐土上聚拢", "en": "The flock gathers on the rotting ground."},
+        {"zh": "孢子随风，我就到了", "en": "The spores blew in on the wind, and so did I."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "羊毛烧起来，味道发甜。", "en": "My wool burns with a sweet stink."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从石坎上滚下去了...", "en": "I rolled off the stone ledge..."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进羊毛，我沉下去了。", "en": "Water soaks my wool, and I sink."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸开的土埋住了半只羊。", "en": "The blast buries half of me in dirt."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭卡在羊毛里，好痒。", "en": "The arrow is stuck in my wool, so itchy."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "羊毛下的菌丝被烧断了。", "en": "The mycelium under my wool is burnt through."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "连腐草都没得吃了。", "en": "There is not even rotten grass left to eat."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈在湿羊毛上...", "en": "Lightning struck my wet wool..."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "羊毛沉，所以我掉得最快。", "en": "Heavy wool. So I fall the fastest."}
+      ]
+    }
+  }
+}

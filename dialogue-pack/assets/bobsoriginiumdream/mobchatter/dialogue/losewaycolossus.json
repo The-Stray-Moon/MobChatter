@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一步跨过两块砖。", "en": "One step clears two blocks."},
+        {"zh": "地面在我脚下沉下去。", "en": "The ground sinks under me."},
+        {"zh": "我的肩像一堵墙在移动。", "en": "My shoulder moves like a wall."},
+        {"zh": "我每走一步都带起灰。", "en": "Every step raises dust."},
+        {"zh": "我的腿很慢，但很长。", "en": "My legs are slow but long."},
+        {"zh": "我撞开一堵矮墙。", "en": "I knock down a low wall."},
+        {"zh": "我走过的地方没有路。", "en": "No road survives where I pass."},
+        {"zh": "我的拳垂在身侧。", "en": "My fists hang at my sides."},
+        {"zh": "我停下，看了看四周。", "en": "I stop and look around."},
+        {"zh": "我迷过一次路，不想再迷。", "en": "I lost my way once; I don't want to again."},
+        {"zh": "我贴着废墟的边缘走。", "en": "I walk along the edge of the ruins."},
+        {"zh": "我的脚步声像打雷。", "en": "My footfalls sound like thunder."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，比屋顶还高。", "en": "I stand taller than the roof."},
+        {"zh": "我低头看过路标。", "en": "I bend to read a signpost."},
+        {"zh": "我的外壳上爬满裂纹。", "en": "Cracks run all over my shell."},
+        {"zh": "我在找一条能走的路。", "en": "I am looking for a passable road."},
+        {"zh": "我把手搭在一块石头上。", "en": "I rest a hand on a stone."},
+        {"zh": "我停在一截断墙前面。", "en": "I stop before a broken wall."},
+        {"zh": "我把头转向远处。", "en": "I turn my head to the distance."},
+        {"zh": "我的脚趾抠进土里。", "en": "My toes dig into the earth."},
+        {"zh": "我把膝盖压在瓦砾上蹲下。", "en": "I sink onto my knees in the rubble."},
+        {"zh": "我在数剩下的路。", "en": "I count the road left."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你站在我脚边，还没我脚掌大。", "en": "You stand by my foot, smaller than it."},
+        {"zh": "我低下头，把你看全。", "en": "I bow my head and take you in."},
+        {"zh": "你认得路吗？", "en": "Do you know the way?"},
+        {"zh": "我又在这片废墟迷路了。", "en": "I've lost my way in these ruins again."},
+        {"zh": "你能指个方向吗。", "en": "Can you point me a direction?"},
+        {"zh": "我不小心踩坏了东西。", "en": "I broke something by accident."},
+        {"zh": "再站远些，我要转身。", "en": "Further back; I need to turn."},
+        {"zh": "我抬脚很慢。", "en": "I lift my feet slowly."},
+        {"zh": "你的房子在我肩膀上。", "en": "Your house sits at my shoulder."},
+        {"zh": "我一转身就能碰倒墙。", "en": "One turn of mine can knock down a wall."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我退了一步，地面又震。", "en": "I step back and the ground jolts again."},
+        {"zh": "我的外壳掉了一块。", "en": "A piece of my shell came off."},
+        {"zh": "这一下几乎没感觉。", "en": "I barely felt that."},
+        {"zh": "我用一根手指按住裂口。", "en": "I press a finger over the split."},
+        {"zh": "我用手撑住旁边的墙。", "en": "I brace a hand on the wall beside me."},
+        {"zh": "碎石从我肩上落下。", "en": "Rubble falls off my shoulder."},
+        {"zh": "我胸腔里震了一下。", "en": "Something shudders in my chest."},
+        {"zh": "我还能拖着腿走。", "en": "I can still drag myself along."},
+        {"zh": "我把手按在膝上。", "en": "I rest a hand on my knee."},
+        {"zh": "这点疼，我还能忍。", "en": "This pain I can still bear."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在举什么？", "en": "What are you holding up?"},
+        {"zh": "我低头看，太远了。", "en": "I look down; it's too far."},
+        {"zh": "你的手举着，我看不清。", "en": "You hold it up; I cannot make it out."},
+        {"zh": "搁在那块断石上。", "en": "Set it on that broken stone."},
+        {"zh": "太远，我的眼睛看不清。", "en": "Too far. My eyes can't resolve it."},
+        {"zh": "你退开一点，我蹲下。", "en": "Step back and I'll crouch."},
+        {"zh": "这个对我来说不够。", "en": "That isn't enough for me."},
+        {"zh": "我闻到了一点味道。", "en": "I caught a smell."},
+        {"zh": "那一块不够我一口。", "en": "That won't be one bite for me."},
+        {"zh": "我蹲下来，看你的手。", "en": "I crouch to look at your hands."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞在我腿上，退了好几步。", "en": "You hit my leg and stagger back."},
+        {"zh": "你的冲撞只让我偏了偏。", "en": "Your charge only tilts me a little."},
+        {"zh": "我压着地面，你推不动。", "en": "I bear down; you can't shift me."},
+        {"zh": "你被我的脚顶开了。", "en": "My foot nudges you aside."},
+        {"zh": "别贴着我，会踩到。", "en": "Don't press close; I might step on you."},
+        {"zh": "我把那只脚挪到旁边。", "en": "I move that foot aside."},
+        {"zh": "我们撞得地面一震。", "en": "The ground jolts when we collide."},
+        {"zh": "我的脚趾碰到你的背。", "en": "My toe brushes your back."},
+        {"zh": "我低头找有没有压到人。", "en": "I look down to check I didn't crush anyone."},
+        {"zh": "你到旁边等。", "en": "Wait at the side."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我这副骨架不适合。", "en": "This frame of mine isn't suited."},
+        {"zh": "我一坐下就会压坏你。", "en": "If I sit, I'd crush you."},
+        {"zh": "我一直在找路。", "en": "I have been looking for a road."},
+        {"zh": "我没有同伴。", "en": "I have no companion."},
+        {"zh": "你别爬到我的手上来。", "en": "Don't climb onto my hand."},
+        {"zh": "我坐在断墙边就好。", "en": "Sitting by the broken wall is enough."},
+        {"zh": "你坐我影子下面吧。", "en": "Sit in my shadow."},
+        {"zh": "我把手掌摊开，让你站。", "en": "I open my palm for you to stand on."},
+        {"zh": "你说说话，我听着。", "en": "Talk; I am listening."},
+        {"zh": "我把头搁在膝上。", "en": "I rest my head on my knee."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把它在指间翻了个面。", "en": "I turn it over between my fingers."},
+        {"zh": "这个对我来说太小。", "en": "This is too small for me."},
+        {"zh": "我把它轻轻搁在石头上。", "en": "I set it gently on a stone."},
+        {"zh": "我看不清，凑近了看。", "en": "I can't see it; I bring it close."},
+        {"zh": "它在我手里像沙子。", "en": "It is like sand in my hand."},
+        {"zh": "我手指一合就捏碎了。", "en": "One squeeze of my fingers crushed it."},
+        {"zh": "这个能垫脚。", "en": "This could go under my foot."},
+        {"zh": "我把它收进胸口的凹处。", "en": "I tuck it into the hollow in my chest."},
+        {"zh": "这个小东西是你的吗？", "en": "Is this little thing yours?"},
+        {"zh": "我弯腰，把它摆回石台。", "en": "I stoop and set it back on the slab."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这条路上我只看得见你。", "en": "You are the only one left on this road."},
+        {"zh": "我抬脚要先看清。", "en": "I check before lifting my foot."},
+        {"zh": "你踩到了我的脚印。", "en": "You are standing in my footprint."},
+        {"zh": "我转身不太容易。", "en": "Turning is not easy for me."},
+        {"zh": "你最好让开。", "en": "You had better move."},
+        {"zh": "我把整个身子一点点转过来。", "en": "I turn my whole bulk by degrees."},
+        {"zh": "我停下脚步，认出了你。", "en": "I stop walking. I have found you."},
+        {"zh": "你别站在墙边。", "en": "Don't stand by the wall."},
+        {"zh": "一步就够我跨到你那。", "en": "One step crosses to you."},
+        {"zh": "我不想踩到你。", "en": "I don't want to crush you."},
+        {"zh": "退后，我要抬脚了。", "en": "Back up; I'm lifting a foot."},
+        {"zh": "我抬起一只脚了。", "en": "I have lifted a foot."},
+        {"zh": "你挡住了唯一的路。", "en": "You're blocking the only road."},
+        {"zh": "我把脚从这里挪开。", "en": "I move my foot off this spot."},
+        {"zh": "我得先看清再走。", "en": "I must see clearly before I step."},
+        {"zh": "这里的墙比我还矮。", "en": "These walls are shorter than me."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我跟着你走，很慢。", "en": "I follow you, slowly."},
+        {"zh": "你的路我记下了。", "en": "I have noted your road."},
+        {"zh": "你拐进巷子，我绕到另一头。", "en": "You take the alley; I go around it."},
+        {"zh": "我一脚就是两格。", "en": "One of my steps is two blocks."},
+        {"zh": "你别往窄巷里跑。", "en": "Don't run into a narrow alley."},
+        {"zh": "我在那片废墟旁边等你。", "en": "I wait by that ruin."},
+        {"zh": "你听见瓦砾在跳吗。", "en": "Do you hear the rubble hopping?"},
+        {"zh": "我抬起脚了。", "en": "I have raised my foot."},
+        {"zh": "你在墙后面，墙不够高。", "en": "You are behind a wall too short for this."},
+        {"zh": "再等一步，我就到你那。", "en": "One more step and I'm there."},
+        {"zh": "我弯下腰，影子压过来。", "en": "I bend down, and my shadow presses close."},
+        {"zh": "这里的地面撑不住我。", "en": "The ground here won't hold me."},
+        {"zh": "我把手撑在断墙上。", "en": "I brace a hand on the broken wall."},
+        {"zh": "我一转身就带倒一片。", "en": "One turn of mine brings down a stretch."},
+        {"zh": "你退到废墟里面了。", "en": "You've backed into the ruins."},
+        {"zh": "我低下身看你。", "en": "I lower myself to look at you."},
+        {"zh": "我一步步跟着你的脚印。", "en": "I follow your footprints step by step."},
+        {"zh": "你的路只有一条。", "en": "You have only one way out."},
+        {"zh": "我转头的声响像闷雷。", "en": "My head turning sounds like far thunder."},
+        {"zh": "地面开始响了。", "en": "The ground has started to rumble."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用手掌拍下去。", "en": "I bring my palm down."},
+        {"zh": "这一下地面裂开了。", "en": "That cracked the ground."},
+        {"zh": "我的拳头在墙那边落下。", "en": "My fist comes down past the wall."},
+        {"zh": "你被震得跳起来。", "en": "The impact bounces you up."},
+        {"zh": "我推你一下，你滑出去。", "en": "I push and you slide."},
+        {"zh": "我抬脚踩下去，很慢。", "en": "I stamp, very slowly."},
+        {"zh": "碎砖飞了一地。", "en": "Bricks fly everywhere."},
+        {"zh": "我的手背扫到你。", "en": "My hand's back sweeps you."},
+        {"zh": "我已经尽量收了力。", "en": "I tried to hold back."},
+        {"zh": "我落脚的地方空出来了。", "en": "The ground where I step is clear."},
+        {"zh": "我尽力收着力气挥过去。", "en": "I swing as gently as I can."},
+        {"zh": "我推倒了一堵墙。", "en": "I knock down a wall."},
+        {"zh": "碎砖落了你一身。", "en": "Bricks fall all over you."},
+        {"zh": "我把身体压下去。", "en": "I lower my bulk."},
+        {"zh": "这一下我尽量轻了。", "en": "I tried to be gentle with that."},
+        {"zh": "我的掌落地，砖石跳起。", "en": "My palm lands and the bricks leap."},
+        {"zh": "我的脚在你旁边。", "en": "My foot lands beside you."},
+        {"zh": "我抬手，你退开了。", "en": "I raise a hand and you back off."},
+        {"zh": "灰尘把我们隔开。", "en": "Dust separates us."},
+        {"zh": "我不想再往前一步。", "en": "I don't want to take another step."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "瓦砾往下滑，我站起身。", "en": "The rubble slides away as I rise."},
+        {"zh": "我比我想的还高。", "en": "I am taller than I thought."},
+        {"zh": "我的脚陷在瓦砾里。", "en": "My feet are sunk in rubble."},
+        {"zh": "我把身边的墙推开了。", "en": "I push the wall beside me away."},
+        {"zh": "这里的路都断了。", "en": "All the roads here are broken."},
+        {"zh": "我把背上的砖一块块抖落。", "en": "I shake the bricks off my back one by one."},
+        {"zh": "灰尘半天才落下。", "en": "The dust takes a while to settle."},
+        {"zh": "我低头找路标。", "en": "I look down for a signpost."},
+        {"zh": "我有点分不清方向。", "en": "I'm not sure which way is which."},
+        {"zh": "我听见远处有人在走。", "en": "I hear someone walking far off."},
+        {"zh": "我把肩膀从瓦砾里挪开。", "en": "I shift my shoulder out of the rubble."},
+        {"zh": "我开始找路。", "en": "I start looking for the road."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火在我背上烧，我不太在意。", "en": "Fire burns on my back; I hardly mind."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔下去，我半个身子陷进地里。", "en": "I fell and half my body sank into the earth."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水只到我膝盖，但很凉。", "en": "The water only reaches my knees, but it's cold."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸掀掉了我肩上一片。", "en": "The blast tore a patch off my shoulder."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西扎进我的手指。", "en": "Something stuck in my finger."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咒光在我外壳上散开。", "en": "Spell-light spreads over my shell."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我走了太久，没找到补给。", "en": "I walked too long without supplies."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在我肩上，麻了一下。", "en": "Lightning strikes my shoulder and it goes numb."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地面塌了，我往下沉。", "en": "The ground gives and I sink."}
+      ]
+    }
+  }
+}

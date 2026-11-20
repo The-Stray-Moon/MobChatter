@@ -1,0 +1,254 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "步伐坚定，盾牌随步移动。", "en": "Steps with a steady gait, shield swings along."},
+        {"zh": "斧头轻挥，盾牌护体。", "en": "Wields axe, shield protects."},
+        {"zh": "盾牌在身，步伐缓慢。", "en": "Shield at hand, moves slowly."},
+        {"zh": "持盾前行，斧头在侧。", "en": "Shield forward, axe at side."},
+        {"zh": "缓慢前行，护盾护己。", "en": "Moves slowly, shield protects."},
+        {"zh": "左手持盾，右手挥斧。", "en": "Holds shield, wields axe."},
+        {"zh": "盾牌在手，步伐稳重。", "en": "Shield in hand, steps firmly."},
+        {"zh": "缓慢移动，持盾保护。", "en": "Moves slowly, shield defends."},
+        {"zh": "持斧持盾，稳步前行。", "en": "Holds axe, shield, walks steadily."},
+        {"zh": "盾牌遮挡，斧头挥舞。", "en": "Shield blocks, axe swings."},
+        {"zh": "石斧压在肩上走着。", "en": "I walk with the stone axe on my shoulder."},
+        {"zh": "盾沿磕着膝盖前行。", "en": "My shield rim taps my knee as I go."},
+        {"zh": "慢是慢，队形不乱。", "en": "Slow, but the formation holds."},
+        {"zh": "跟在队长后面走。", "en": "I follow behind the captain."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "驻足观察，盾在身侧。", "en": "Pauses, shield at side."},
+        {"zh": "持斧持盾，驻足思索。", "en": "Holds axe, shield, ponders."},
+        {"zh": "盾牌在手，默默守望。", "en": "Holds shield, stands watch."},
+        {"zh": "驻足环视，盾护身旁。", "en": "Pauses, shield protects."},
+        {"zh": "持盾静立，斧头在手。", "en": "Holds shield, axe at hand."},
+        {"zh": "驻足思索，盾牌不离身。", "en": "Pauses, shield stays with."},
+        {"zh": "持盾守护，斧头在侧。", "en": "Holds shield, axe at side."},
+        {"zh": "驻足片刻，盾牌在手。", "en": "Pauses, shield in hand."},
+        {"zh": "持斧持盾，静默不语。", "en": "Holds axe, shield, silent."},
+        {"zh": "驻足凝视，护盾在身。", "en": "Pauses, shield protects."},
+        {"zh": "把盾挪到身前挡着。", "en": "I shift my shield to the front."},
+        {"zh": "低头检查石斧的刃。", "en": "I check the edge of my stone axe."},
+        {"zh": "数着口袋里的绿宝石。", "en": "I count the emeralds in my pocket."},
+        {"zh": "站着，眼睛不闲着。", "en": "I stand still, but my eyes don't."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "察觉玩家，持盾戒备。", "en": "Notices player, shield ready."},
+        {"zh": "眼神锐利，盾牌戒备。", "en": "Sharp eyes, shield ready."},
+        {"zh": "警惕玩家，持盾防御。", "en": "On guard, shield ready."},
+        {"zh": "发现玩家，盾牌戒备。", "en": "Sees player, shield ready."},
+        {"zh": "目光警惕，盾牌戒备。", "en": "Alert eyes, shield ready."},
+        {"zh": "注视玩家，盾牌戒备。", "en": "Looks at player, shield ready."},
+        {"zh": "目光如炬，盾牌戒备。", "en": "Glints, shield ready."},
+        {"zh": "目光锐利，盾牌戒备。", "en": "Sharp eyes, shield ready."},
+        {"zh": "警觉玩家，盾牌戒备。", "en": "Alert, shield ready."},
+        {"zh": "凝视玩家，盾牌戒备。", "en": "Stares, shield ready."},
+        {"zh": "看你一眼，又看盾后。", "en": "I glance at you, then past my shield."},
+        {"zh": "你是雇主还是敌人？", "en": "Are you my employer or my enemy?"},
+        {"zh": "十颗绿宝石的活儿，说吧", "en": "For ten emeralds' work, speak."},
+        {"zh": "盾没放下，别误会。", "en": "The shield stays up. Don't misread it."},
+        {"zh": "十颗绿宝石，记得吗？", "en": "Ten emeralds. Remember?"},
+        {"zh": "我认得你腰上的印记。", "en": "I know the mark at your belt."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盾伤未愈，再去战一回？", "en": "Shield hurt, fight again?"},
+        {"zh": "伤痕累累，再战如何？", "en": "Wounds deep, fight more?"},
+        {"zh": "伤口未好，再去？", "en": "Wounds not healed, fight?"},
+        {"zh": "伤势不轻，再战？", "en": "Injured, fight?"},
+        {"zh": "伤了，再战？", "en": "Hurt, fight?"},
+        {"zh": "伤势难愈，再战？", "en": "Injuries hard, fight?"},
+        {"zh": "再战如何？", "en": "Fight more?"},
+        {"zh": "伤势未愈，再去？", "en": "Wounds not healed, fight?"},
+        {"zh": "伤势未好，再战？", "en": "Wounds not healed, fight?"},
+        {"zh": "再去战一回？", "en": "Fight again?"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "来吧，勇士，加入我们！", "en": "Join us, brave warrior!"},
+        {"zh": "绿色宝石，换取力量！", "en": "Green gems, for strength!"},
+        {"zh": "拿起斧头，保卫家园！", "en": "Pick up the axe, defend!"},
+        {"zh": "盾后方，安全第一！", "en": "Behind the shield, safety!"},
+        {"zh": "用斧头劈开敌人！", "en": "Split open the enemy with an axe!"},
+        {"zh": "绿宝石，换取你的未来！", "en": "Green gems, for your future!"},
+        {"zh": "成为盾兵，守护和平！", "en": "Be a shieldman, protect peace!"},
+        {"zh": "手持石斧，英勇前行！", "en": "Hew with a stone axe, move on!"},
+        {"zh": "铁斧，更强的保护！", "en": "Iron axe, stronger defense!"},
+        {"zh": "勇士，加入盾兵行列！", "en": "Warrior, join the shieldmen!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盾相碰，力量共鸣！", "en": "Shields clash, power resonates!"},
+        {"zh": "保护你，我的任务！", "en": "Protect you, my duty!"},
+        {"zh": "别碰我的盾！", "en": "Don't touch my shield!"},
+        {"zh": "我们的盾，坚固无比！", "en": "Our shields, unbreakable!"},
+        {"zh": "我的盾，你的依靠！", "en": "My shield, your shelter!"},
+        {"zh": "保护同伴，盾兵职责！", "en": "Protect comrades, shieldman's duty!"},
+        {"zh": "盾兵，坚守阵地！", "en": "Shieldman, hold the line!"},
+        {"zh": "盾，我们的第二生命！", "en": "Shield, our second life!"},
+        {"zh": "盾兵，互相保护！", "en": "Shieldmen, protect each other!"},
+        {"zh": "盾，我们的战利品！", "en": "Shield, our trophy!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找到我的配偶，和平共处！", "en": "Find my mate, live in peace!"},
+        {"zh": "与我一起，守护家园！", "en": "Guard with me, protect home!"},
+        {"zh": "我们的孩子，盾兵的希望！", "en": "Our children, shieldmen's hope!"},
+        {"zh": "携手战斗，共筑梦想！", "en": "Fight side by side, build dreams!"},
+        {"zh": "和平使者，盾兵的伴侣！", "en": "Peace使者, shieldman's partner!"},
+        {"zh": "与我并肩，守护和平！", "en": "Fight by my side, protect peace!"},
+        {"zh": "我的配偶，盾兵的伴侣！", "en": "My mate, shieldman's partner!"},
+        {"zh": "与我同在，守护家园！", "en": "With me, guard the home!"},
+        {"zh": "盾兵的守护者，我的配偶！", "en": "Shieldman's protector, my mate!"},
+        {"zh": "和平共处，盾兵的理想！", "en": "Peaceful coexistence, shieldmen's ideal!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "左手握盾，右手挥斧。", "en": "Left shield, right axe swing."},
+        {"zh": "绿宝石闪耀，盾牌加持。", "en": "Emeralds shine, shield boosts."},
+        {"zh": "石斧紧握，铁斧更锋。", "en": "Stone axe tight, iron sharper."},
+        {"zh": "盾后追踪，步步紧逼。", "en": "Shield back, steady approach."},
+        {"zh": "斧头劈砍，盾防坚固。", "en": "Axe chops, shield strong."},
+        {"zh": "绿光闪烁，生命更坚。", "en": "Green glow, health stronger."},
+        {"zh": "盾牌护佑，斧头挥舞。", "en": "Shield guard, axe swings."},
+        {"zh": "石头斧头，铁斧更硬。", "en": "Stone axe, iron harder."},
+        {"zh": "追踪猎物，耐心等待。", "en": "Track prey, wait patient."},
+        {"zh": "斧击盾挡，稳固防守。", "en": "Axe hits, shield blocks."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "视野中现，猎物锁定。", "en": "Target in sight, locked."},
+        {"zh": "目标捕捉，出击在即。", "en": "Target caught, attack soon."},
+        {"zh": "追踪开启，目标出现。", "en": "Track on, target found."},
+        {"zh": "目光锁定，猎物近在。", "en": "Eye on target, near."},
+        {"zh": "目标已现，准备出击。", "en": "Target visible, ready to act."},
+        {"zh": "视线清晰，目标锁定。", "en": "Sight clear, target locked."},
+        {"zh": "目标显现，准备战斗。", "en": "Target shown, battle ready."},
+        {"zh": "我顶着盾往前挪半步", "en": "I brace my shield and edge forward."},
+        {"zh": "追踪开启，目标已现。", "en": "Track on, target found."},
+        {"zh": "目标锁定，即将攻击。", "en": "Target locked, attack coming."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "追踪范围，16-32格。", "en": "Track range, 16-32 blocks."},
+        {"zh": "盾举到眼前，斧柄握紧", "en": "Shield to my eyes, axe haft tight."},
+        {"zh": "视线范围，目标可见。", "en": "Vision range, target seen."},
+        {"zh": "锁定目标，精准无误。", "en": "Target locked, precise."},
+        {"zh": "视线追踪，目标锁定。", "en": "Vision track, target locked."},
+        {"zh": "追踪范围，随时准备。", "en": "Track range, ready."},
+        {"zh": "锁定目标，出击即来。", "en": "Target locked, action soon."},
+        {"zh": "视线范围内，目标锁定。", "en": "In vision, target locked."},
+        {"zh": "锁定目标，等待命令。", "en": "Target locked, await order."},
+        {"zh": "追踪锁定，准备行动。", "en": "Track locked, ready to act."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "挥斧格挡，盾光闪烁！", "en": "Swing axe, shield glows!"},
+        {"zh": "盾牌护体，挥斧击敌！", "en": "Shield protect, swing axe!"},
+        {"zh": "格挡反击，生命恢复！", "en": "Block and counter, HP recover!"},
+        {"zh": "斧头挥动，敌人退缩！", "en": "Axe swing, foe retreat!"},
+        {"zh": "盾后藏身，伺机反击！", "en": "Hide behind shield, counter!"},
+        {"zh": "盾斧双持，勇往直前！", "en": "Shield and axe, charge on!"},
+        {"zh": "盾牌护面，一击致命！", "en": "Shield protects, one hit kill!"},
+        {"zh": "格挡反击，守护家园！", "en": "Block and counter, protect home!"},
+        {"zh": "盾斧并用，攻防兼备！", "en": "Shield and axe, defend and attack!"},
+        {"zh": "以盾挡斧，力挽狂澜！", "en": "Shield blocks axe, turn tide!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "村民召集，新兵到来！", "en": "Villager calls, shieldman arrives!"},
+        {"zh": "巡逻至此，守望四方！", "en": "Patrol here, guard all around!"},
+        {"zh": "盾牌在手，坚守岗位！", "en": "Shield in hand, stand guard!"},
+        {"zh": "等待召唤，随时待命！", "en": "Await summons, ready at all times!"},
+        {"zh": "跟随村民，保卫村庄！", "en": "Follow villagers, protect village!"},
+        {"zh": "巡逻至此，守护家园！", "en": "Patrol here, protect home!"},
+        {"zh": "村民招募，新兵加入！", "en": "Villagers recruit, new shieldman joins!"},
+        {"zh": "驻守边界，保障安全！", "en": "Guard the border, ensure safety!"},
+        {"zh": "盾墙就位，村口交给我", "en": "Shield wall set. The gate is mine."},
+        {"zh": "村民请求，新兵出列！", "en": "Villagers request, shieldman steps out!"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "烈焰噬身，难敌火焰！", "en": "Fire burns, hard fight!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "跌落深坑，盾破人伤！", "en": "Fell deep, shield broke!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "溺水身亡，盾沉人亡！", "en": "Drowned, shield lost!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸震伤，盾碎人亡！", "en": "Exploded, shield broken!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢射穿，盾破伤深！", "en": "Arrow pierced, shield broken!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "法术灼伤，盾破人伤！", "en": "Magic burns, shield broken!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿难耐，盾力不支！", "en": "Starvation, shield weak!"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击伤身，盾毁人亡！", "en": "Lightning, shield destroyed!"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚无，盾毁命绝！", "en": "Void, shield lost!"}
+      ]
+    }
+  }
+}

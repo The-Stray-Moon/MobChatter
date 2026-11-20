@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蹒跚走来，挥舞着火枪", "en": "Waddle forward, brandishing a rifle."},
+        {"zh": "抬枪瞄准，准备射击", "en": "Elevate rifle, aiming to shoot."},
+        {"zh": "沿着废墟移动，枪口冒烟", "en": "Move through ruins, smoke from rifle."},
+        {"zh": "脚步声中，火枪轻响", "en": "Footsteps, rifle click."},
+        {"zh": "射击后倒退几步", "en": "Step back after firing."},
+        {"zh": "穿过烟雾，视线模糊", "en": "Move through smoke, vision blurred."},
+        {"zh": "走几步，停下，再走", "en": "Step, pause, step again."},
+        {"zh": "枪口指向天空，扣动扳机", "en": "Point rifle skyward, pull trigger."},
+        {"zh": "穿过黑暗，枪声突响", "en": "Pass through darkness, rifle fire."},
+        {"zh": "奔跑中开枪射击敌人", "en": "Run while firing at enemies."},
+        {"zh": "黄铜面具下，呼吸很粗。", "en": "Under the brass mask, the breathing is rough."},
+        {"zh": "边走边换弹匣。", "en": "I swap a magazine while walking."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蹲下，手持火枪瞄准", "en": "Crouch, rifle aimed."},
+        {"zh": "坐在地上，火枪放在膝上", "en": "Sit, rifle on knees."},
+        {"zh": "倚靠残垣，枪口指向四方", "en": "Lean on ruins, rifle pointing."},
+        {"zh": "站着不动，警惕四周", "en": "Stand still, watching."},
+        {"zh": "持枪站直，等待敌人", "en": "Stand straight, awaiting."},
+        {"zh": "蹲着抽烟，枪靠在旁边", "en": "Smoke, rifle nearby."},
+        {"zh": "轻拍火枪，检查弹药", "en": "Pat rifle, check ammo."},
+        {"zh": "倚着墙，火枪搁在肩上", "en": "Lean on wall, rifle on shoulder."},
+        {"zh": "持枪坐下，等待目标", "en": "Sit with rifle, awaiting."},
+        {"zh": "靠墙站立，枪口微抬", "en": "Stand by wall, rifle slightly raised."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盯住玩家，扣动扳机", "en": "Focus on player, pull trigger."},
+        {"zh": "瞄准玩家，准备射击", "en": "Aim at player, prepare to shoot."},
+        {"zh": "观察玩家，枪口指向他们", "en": "Observe player, rifle aimed."},
+        {"zh": "看向玩家，扣动扳机", "en": "Look at player, pull trigger."},
+        {"zh": "瞄准玩家，扣动扳机射击", "en": "Aim at player, fire."},
+        {"zh": "目光锁定玩家，扣动扳机", "en": "Lock on player, pull trigger."},
+        {"zh": "看向玩家，轻扣扳机", "en": "Look at player, light trigger."},
+        {"zh": "观察玩家，手指扣动扳机", "en": "Watch player, finger on trigger."},
+        {"zh": "瞄准玩家，扣动扳机开火", "en": "Aim at player, fire."},
+        {"zh": "看向玩家，扣动扳机射击", "en": "Look at player, pull trigger."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "受伤了，感觉好痛。", "en": "I'm hurt. It hurts."},
+        {"zh": "这疼死了！", "en": "Ow, ow, ow!"},
+        {"zh": "枪管烫得握不住，我靠着墙。", "en": "The barrel is too hot to hold; I slump against the wall."},
+        {"zh": "黄铜面具被打凹了。", "en": "My brass mask got dented."},
+        {"zh": "战斗受伤了。", "en": "Wounded in battle."},
+        {"zh": "弹片还卡在肋间。", "en": "Shrapnel is still lodged between my ribs."},
+        {"zh": "受伤了，无法行动。", "en": "Injured, can't move."},
+        {"zh": "受了伤，喘不过气。", "en": "Injured, can't breathe."},
+        {"zh": "肋骨断了一根，呼吸都带哨音。", "en": "A rib is broken; my breath whistles."},
+        {"zh": "受伤了，战斗不能继续。", "en": "Injured, can't fight."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你那把破枪吓不到我！", "en": "That old gun won't scare me!"},
+        {"zh": "腐肉才是我的美食！", "en": "腐肉 is my delicacy!"},
+        {"zh": "靠近我，你会死的更快！", "en": "Get closer, and you'll die faster!"},
+        {"zh": "不要碰我，否则你会后悔！", "en": "Don't touch me, or you'll regret it!"},
+        {"zh": "我的黄铜面具价值连城！", "en": "My brass mask is priceless!"},
+        {"zh": "火器是我的武器，你不懂！", "en": "My gun is my weapon, you don't get it!"},
+        {"zh": "黏土球，我的最爱！", "en": "Clay balls are my favorite!"},
+        {"zh": "你无法伤害我，我的护甲坚不可摧！", "en": "You can't hurt me, my armor is unbreakable!"},
+        {"zh": "我的枪膛里装满了子弹！", "en": "My gun is loaded with bullets!"},
+        {"zh": "不要逼我动手，你会死得很惨！", "en": "Don't逼 me to act, you'll die horribly!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上我了，现在轮到你了！", "en": "You hit me, now it's your turn!"},
+        {"zh": "黄铜面具替我挡了一下。", "en": "The brass mask took that hit for me."},
+        {"zh": "别傻了，我不会被你打败！", "en": "You can't defeat me, fool!"},
+        {"zh": "我这把枪比你的剑快。", "en": "My gun is faster than your sword."},
+        {"zh": "你的速度比不上我！", "en": "You can't match my speed!"},
+        {"zh": "你撞歪我的枪口，我立刻抬正。", "en": "You knock my muzzle aside; I level it again."},
+        {"zh": "黏土球砸向你！", "en": "Clay balls at you!"},
+        {"zh": "我的火焰会烧毁你！", "en": "My flames will burn you!"},
+        {"zh": "别碰我，否则会有危险！", "en": "Don't touch me, or there'll be trouble!"},
+        {"zh": "我的枪口对着你，投降吧！", "en": "My gun is on you, surrender!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找到我的同伴，我们会更强！", "en": "Find my mate, we'll be stronger!"},
+        {"zh": "让我们一起战斗，胜利属于我们！", "en": "Let's fight together, victory is ours!"},
+        {"zh": "我的黄铜面具能保护我的伴侣！", "en": "My brass mask protects my mate!"},
+        {"zh": "黏土球，我的伴侣也需要！", "en": "Clay balls, my mate needs them too!"},
+        {"zh": "我的力量来自我的伴侣！", "en": "My strength comes from my mate!"},
+        {"zh": "我的火器是伴侣间的武器！", "en": "My gun is a weapon between mates!"},
+        {"zh": "我的护甲可以保护我的伴侣！", "en": "My armor protects my mate!"},
+        {"zh": "我的枪声是战斗的号角！", "en": "My gun is the battle's call!"},
+        {"zh": "找到我的伴侣，共同战斗！", "en": "Find my mate, fight together!"},
+        {"zh": "背靠背吧，我信你的枪法。", "en": "Back to back, then; I trust your aim."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐肉入口，力量提升！", "en": "腐烂 flesh, strength up!"},
+        {"zh": "黄铜面具藏有秘密...", "en": "Bronze mask holds secrets..."},
+        {"zh": "黏土球，填充弹药。", "en": "Clay ball, for ammo."},
+        {"zh": "这里曾是猎物的归宿...", "en": "This was where prey ended."},
+        {"zh": "腐肉，给我的力量。", "en": "Flesh, fuel for me."},
+        {"zh": "黏土球，加固盔甲。", "en": "Clay ball, reinforce my armor."},
+        {"zh": "面具中藏有智慧...", "en": "Wisdom in the mask..."},
+        {"zh": "腐肉，力量之源。", "en": "Flesh, power source."},
+        {"zh": "黏土球，保护我。", "en": "Clay ball, shield me."},
+        {"zh": "黄铜面具，指引方向。", "en": "Bronze mask, guide me."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "猎物来了，瞄准！", "en": "Prey near, aim!"},
+        {"zh": "锁定目标，一枪毙命。", "en": "Target locked, one shot down."},
+        {"zh": "黄铜面具底下，我瞄着你。", "en": "Under this brass mask, I aim at you."},
+        {"zh": "瞄准腿部，让他痛苦。", "en": "Leg shot, make him suffer."},
+        {"zh": "锁定腹部，破甲之击。", "en": "Stomach shot, breach armor."},
+        {"zh": "目标锁定，准备射击。", "en": "Target locked, ready to shoot."},
+        {"zh": "瞄准心脏，致命一枪。", "en": "Heart shot, fatal shot."},
+        {"zh": "瞄准脖子，窒息而死。", "en": "Neck shot, choke and die."},
+        {"zh": "锁定背部，致命一击。", "en": "Back shot, fatal strike."},
+        {"zh": "瞄准弱点，致命一击。", "en": "Hit weak point, fatal strike."},
+        {"zh": "铁瞄具压住你的胸口。", "en": "My iron sight settles on your chest."},
+        {"zh": "风向偏左，我要修一格。", "en": "The wind drifts left. One notch of correction."},
+        {"zh": "你的头盔挡不住这一发。", "en": "Your helmet will not stop this round."},
+        {"zh": "火药味飘过来了。", "en": "The smell of black powder drifts over."},
+        {"zh": "距离十二格，正好。", "en": "Twelve blocks out. Just right."},
+        {"zh": "先打持枪的那个。", "en": "The one holding a gun goes first."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定目标，小心射击。", "en": "Target locked, shoot carefully."},
+        {"zh": "瞄准目标，一枪毙命。", "en": "Aim and shoot to kill."},
+        {"zh": "锁定目标，精准射击。", "en": "Target locked, precise shot."},
+        {"zh": "瞄准，准备，射击。", "en": "Aim, ready, shoot."},
+        {"zh": "锁定目标，别让他跑掉。", "en": "Target locked, don't let him escape."},
+        {"zh": "瞄准目标，确保一击即中。", "en": "Aim for the target, hit hard."},
+        {"zh": "锁定目标，小心不要误伤。", "en": "Target locked, be careful not to hit wrong."},
+        {"zh": "锁定目标，不要误伤。", "en": "Target locked, no collateral damage."},
+        {"zh": "瞄准目标，精准射击。", "en": "Aim for the target, precise shot."},
+        {"zh": "四十点生命，够我耗。", "en": "Forty health is enough to outlast you."},
+        {"zh": "我退，是为了换弹。", "en": "I step back to reload."},
+        {"zh": "两点护甲，挡得住近身。", "en": "Two armor points will hold off a knife."},
+        {"zh": "枪管还烫，别急。", "en": "The barrel is still hot. Patience."},
+        {"zh": "你听见拉动枪栓了吗？", "en": "Did you hear the bolt slide?"},
+        {"zh": "我不用瞄准镜也够准。", "en": "I hit fine without a scope."},
+        {"zh": "烟雾里，我换个位置。", "en": "In the smoke, I change position."},
+        {"zh": "你的铁甲在铜弹前会响。", "en": "Your iron armor will ring against brass rounds."},
+        {"zh": "掩体后面，我数你的呼吸。", "en": "Behind cover, I count your breaths."},
+        {"zh": "第二枪，我留给你的腿。", "en": "The second shot goes into your leg."},
+        {"zh": "别举盾，抬不起来的。", "en": "Don't raise that shield. You won't lift it in time."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶！给我让开！", "en": "Sssss! Get out of my way!"},
+        {"zh": "你的肉对我有用！", "en": "Your flesh will do me good."},
+        {"zh": "手枪口抵着你，别乱动。", "en": "My pistol's at your ribs — don't move."},
+        {"zh": "闪开，我要吃你！", "en": "Move, I’m going to eat you!"},
+        {"zh": "我咬住你握枪的手，牙齿发黄。", "en": "I sink yellow teeth into your shooting hand."},
+        {"zh": "躲不开吗？", "en": "Can’t evade me?"},
+        {"zh": "枪托砸下来，比子弹还近。", "en": "The rifle butt comes down, closer than any bullet."},
+        {"zh": "不给我让路，就死亡！", "en": "Make way or die!"},
+        {"zh": "我撕开你的衣领，为的是你口袋。", "en": "I rip your collar open for what's in your pockets."},
+        {"zh": "滚开，我要吃你！", "en": "Move, I want to eat you!"},
+        {"zh": "枪托砸在你下巴上。", "en": "The stock cracks against your jaw."},
+        {"zh": "近距离，一枪打穿。", "en": "Point blank, straight through."},
+        {"zh": "火药在枪口炸开。", "en": "Powder bursts from the muzzle."},
+        {"zh": "弹壳落地，叮一声。", "en": "A casing hits the ground with a chime."},
+        {"zh": "这一发，你退了两步。", "en": "That shot pushed you back two steps."},
+        {"zh": "我打你的膝盖。", "en": "I aim for your knees."},
+        {"zh": "霰弹散开，躲不掉。", "en": "Buckshot spreads. Nowhere to dodge."},
+        {"zh": "黄铜面具后，我在笑。", "en": "Behind the brass mask, I am smiling."},
+        {"zh": "换弹要三秒，你等不起。", "en": "Reloading takes three seconds. You have less."},
+        {"zh": "弹匣空了，我用刀。", "en": "Magazine empty. I use the knife."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐土中孕育着我！", "en": "I arise from the muck!"},
+        {"zh": "腐肉滋养着我！", "en": "I thrive on decay!"},
+        {"zh": "黑暗中我潜伏！", "en": "I lurk in the darkness!"},
+        {"zh": "我从废土的战壕里爬起来，枪上膛。", "en": "I climb out of a wasteland trench, gun loaded."},
+        {"zh": "腐化的土地上，我诞生！", "en": "I am born of corruption!"},
+        {"zh": "枪管比我的胳膊还凉。", "en": "The barrel is colder than my arm."},
+        {"zh": "腐肉是我不灭的火焰！", "en": "Corrupt flesh fuels my flame!"},
+        {"zh": "腐烂的大地，我的领地！", "en": "My domain is in the decay!"},
+        {"zh": "腐化使我能永生！", "en": "Corruption grants me immortality!"},
+        {"zh": "腐肉滋养我的力量！", "en": "Corrupt flesh feeds my power!"},
+        {"zh": "腐肉与黏土堆出我。", "en": "Rotten flesh and clay make me."},
+        {"zh": "黑火药的味道里，我来了。", "en": "I come with the smell of black powder."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的黄铜面具烫手。", "en": "My brass mask is hot to the touch."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从废楼摔下，黄铜面具磕歪了。", "en": "I fall from the ruin and my brass mask knocks askew."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进面具，火枪沉了下去。", "en": "Water fills my mask; the gun sinks away."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪掀翻我，面具里全是耳鸣。", "en": "The blast flips me; my mask rings with noise."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被子弹射伤了！", "en": "Hit by a bullet!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "紫光烧过面具，金属在发烫。", "en": "Violet light sears my mask and the metal grows hot."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿到握不稳枪。", "en": "Too hungry to hold the gun steady."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黄铜面具被电得发烫。", "en": "My brass mask is hot with current."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚无，死亡！", "en": "Void, death!"}
+      ]
+    }
+  }
+}

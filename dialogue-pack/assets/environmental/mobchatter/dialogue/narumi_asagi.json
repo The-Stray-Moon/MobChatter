@@ -1,0 +1,282 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "游向暗处觅食", "en": "Swim to dark spots to feed"},
+        {"zh": "穿梭在水藻间", "en": "Swim among the algae"},
+        {"zh": "避开玩家的目光", "en": "Avoid the player’s gaze"},
+        {"zh": "游向光亮处晒太阳", "en": "Swim to bright spots to sunbathe"},
+        {"zh": "缓慢游动觅食", "en": "Slowly swim to find food"},
+        {"zh": "警惕周围的动静", "en": "Watch for any movement around"},
+        {"zh": "在阴影中觅食", "en": "Feed in the shadows"},
+        {"zh": "避开水面的光斑", "en": "Avoid the light patches on the surface"},
+        {"zh": "在水中缓慢游动", "en": "Swim slowly in the water"},
+        {"zh": "浅蓝的鳞往深水去了，别跟。", "en": "My pale blue scales head for deeper water; do not follow."},
+        {"zh": "沿樱林溪底慢慢巡游", "en": "I cruise slowly along the cherry-wood stream bed."},
+        {"zh": "绕过落进水里的花瓣", "en": "I swim around petals that fell into the water."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静地游动", "en": "Swim quietly"},
+        {"zh": "缓缓地游着", "en": "Swim leisurely"},
+        {"zh": "在水中徘徊", "en": "Pace in the water"},
+        {"zh": "游向安全的地方", "en": "Swim to safety"},
+        {"zh": "静静的栖息", "en": "Rest quietly"},
+        {"zh": "游向水面晒太阳", "en": "Swim to the surface to sunbathe"},
+        {"zh": "静静地等待", "en": "Wait quietly"},
+        {"zh": "在水中游荡", "en": "Wander in the water"},
+        {"zh": "静静地游着", "en": "Swim quietly"},
+        {"zh": "在水中游憩", "en": "Rest in the water"},
+        {"zh": "停在石缝里数光斑", "en": "I hover in a rock crevice, counting light spots."},
+        {"zh": "浅黄鳞片映着花瓣", "en": "My pale yellow scales mirror the petals."},
+        {"zh": "十六格内怪物不敢来", "en": "Within sixteen blocks, no monster dares come."},
+        {"zh": "尾鳍轻轻拨着水草", "en": "My tail fin nudges the water weeds."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "浅蓝的背，映着花瓣。", "en": "My pale blue back mirrors the petals."},
+        {"zh": "注意玩家的动向", "en": "Observe the player's movements"},
+        {"zh": "警惕玩家的靠近", "en": "Be wary of the player"},
+        {"zh": "水纹把你的脚步送过来。", "en": "The ripples carry your footsteps to me."},
+        {"zh": "我隔着花瓣看你的靴子。", "en": "I watch your boots through the petals."},
+        {"zh": "警惕玩家的接近", "en": "Watch for the player's approach"},
+        {"zh": "注意玩家的动静", "en": "Notice the player's movements"},
+        {"zh": "注视玩家的动作", "en": "Watch the player's actions"},
+        {"zh": "警觉玩家的行动", "en": "Be alert to the player's actions"},
+        {"zh": "青灰的鳞，正对着你。", "en": "My blue-grey scales are turned on you."},
+        {"zh": "从花影下抬头看你", "en": "I look up at you from under the blossom shade."},
+        {"zh": "你的倒影让我停住", "en": "Your reflection makes me stop."},
+        {"zh": "侧过身，露出浅黄鳞", "en": "I turn aside and show my pale yellow scales."},
+        {"zh": "看看你手里有没有食", "en": "I check whether your hands hold food."},
+        {"zh": "隔着水面打量你的脚", "en": "I study your feet through the water surface."},
+        {"zh": "你弯腰时我退半尺", "en": "When you stoop, I back off half a foot."},
+        {"zh": "在樱枝阴影里望你", "en": "I watch you from the shade of a cherry branch."},
+        {"zh": "尾巴一摆，潜深了些", "en": "One flick of the tail, and I sink a little deeper."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鱼身泛白，声音虚弱。", "en": "White scales show, voice weak."},
+        {"zh": "鳍片破裂，叫声微弱。", "en": "Fins torn, voice faint."},
+        {"zh": "鱼尾受伤，哀鸣连连。", "en": "Tail injured, moaning non-stop."},
+        {"zh": "鳞片脱落，声若蚊吟。", "en": "Scales fall, sound like a mosquito."},
+        {"zh": "鱼鳍受损，声音沙哑。", "en": "Fins damaged, voice hoarse."},
+        {"zh": "鱼身破损，哀鸣不止。", "en": "Body broken, moaning non-stop."},
+        {"zh": "鱼鳍断裂，声音嘶哑。", "en": "Fins broken, voice hoarse."},
+        {"zh": "鱼鳞破碎，声若呜咽。", "en": "Scales shattered, sound like a sob."},
+        {"zh": "鱼体受伤，声若哭泣。", "en": "Body injured, sound like crying."},
+        {"zh": "鱼身破损，声如叹息。", "en": "Body broken, sound like a sigh."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你靠近了，我感觉到了。", "en": "You're close, I can feel it."},
+        {"zh": "快点，不然我会消失。", "en": "Hurry, or I'll disappear."},
+        {"zh": "不要靠近，否则会有危险。", "en": "Stay back, or there will be danger."},
+        {"zh": "锦鲤是我的同族，但不同。", "en": "Koi are my kin, but different."},
+        {"zh": "这里没有吃的，走开。", "en": "There's nothing to eat here, go away."},
+        {"zh": "我的颜色意味着危险。", "en": "My color means danger."},
+        {"zh": "我不想战斗，但不得不。", "en": "I don't want to fight, but I have to."},
+        {"zh": "我不会让我的领地被侵犯。", "en": "I won't let my territory be invaded."},
+        {"zh": "请不要打扰我，我需要独处。", "en": "Please don't disturb me, I need solitude."},
+        {"zh": "这是我的领域，离开这里。", "en": "This is my domain, get out."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "避开我，否则会受伤。", "en": "Avoid me, or you'll be hurt."},
+        {"zh": "你的动作太粗鲁了。", "en": "Your movements are too rough."},
+        {"zh": "别碰我，否则会后悔。", "en": "Don't touch me, or you'll regret it."},
+        {"zh": "你的手搅乱了我的池水。", "en": "Your hand muddies my pond water."},
+        {"zh": "我警告你，不要碰我。", "en": "I warn you, don't touch me."},
+        {"zh": "你必须小心，否则会有后果。", "en": "You must be careful, or there will be consequences."},
+        {"zh": "我是为了保护自己才这么做的。", "en": "I'm doing this to protect myself."},
+        {"zh": "这是我的领地，不要闯入。", "en": "This is my domain, don't intrude."},
+        {"zh": "你必须学会尊重我的空间。", "en": "You must learn to respect my space."},
+        {"zh": "你闯入了我的领域，必须付出代价。", "en": "You've intruded into my domain, and must pay the price."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "来吧，我们去找个地方。", "en": "Come, let's find a place."},
+        {"zh": "我的鱼卵是珍贵的。", "en": "My eggs are precious."},
+        {"zh": "不要靠近我的卵，它们很脆弱。", "en": "Don't get close to my eggs, they're fragile."},
+        {"zh": "这是我的伴侣，不要侵犯。", "en": "This is my mate, don't invade."},
+        {"zh": "只有特定的鱼能成为我的伴侣。", "en": "Only certain fish can be my mate."},
+        {"zh": "我们必须远离危险。", "en": "We must stay away from danger."},
+        {"zh": "我选择的伴侣必须强大。", "en": "My chosen mate must be strong."},
+        {"zh": "我是为了繁衍后代才接近你。", "en": "I'm approaching you for offspring."},
+        {"zh": "我的伴侣选择很严格。", "en": "My mate selection is strict."},
+        {"zh": "让我们一起寻找新的家园。", "en": "Let's find a new home together."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这锦鲤的花纹真独特！", "en": "Such unique patterns!"},
+        {"zh": "这就是我的新宠吧？", "en": "My new pet?"},
+        {"zh": "这里的食物我都不喜欢？", "en": "I don't like the food here."},
+        {"zh": "我能把它带回家吗？", "en": "Can I take it home?"},
+        {"zh": "花纹有点像锦鲤...", "en": "Patterns like koi..."},
+        {"zh": "这是我的新伙伴了。", "en": "My new companion."},
+        {"zh": "我的新宝贝！", "en": "My new treasure!"},
+        {"zh": "它看起来很凶猛。", "en": "It looks fierce."},
+        {"zh": "我需要一个水族箱。", "en": "I need a fish tank."},
+        {"zh": "我给它准备新家吧。", "en": "Prepare a new home for it."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盯紧了！", "en": "Watch me!"},
+        {"zh": "你要逃哪里去？", "en": "Where are you going?"},
+        {"zh": "浅蓝的鳞一闪，我游到你面前。", "en": "One flash of pale blue scales and I am before you."},
+        {"zh": "你要小心点。", "en": "Be careful!"},
+        {"zh": "你逃不了的！", "en": "You can't escape!"},
+        {"zh": "池底的泥被我蹬起一片。", "en": "I kick up a cloud of pond mud."},
+        {"zh": "你跑不了！", "en": "You can't run!"},
+        {"zh": "我要抓住你！", "en": "I'm going to catch you!"},
+        {"zh": "樱枝的影子替你指了路。", "en": "The cherry branch's shadow shows me your path."},
+        {"zh": "有东西搅动了水面", "en": "Something has stirred the water."},
+        {"zh": "我先沉到水草底下", "en": "I sink beneath the weeds first."},
+        {"zh": "那影子不像鱼", "en": "That shadow is no fish."},
+        {"zh": "我贴着池底跟着它", "en": "I trail it along the pool floor."},
+        {"zh": "花瓣下的动静不对", "en": "The movement under the petals is wrong."},
+        {"zh": "水纹一路推到我面前", "en": "Ripples push all the way to my nose."},
+        {"zh": "我记住它来的方向", "en": "I remember the direction it came from."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我会吃掉你的！", "en": "I'll eat you!"},
+        {"zh": "花瓣落在水面，我绕后。", "en": "Petals fall on the water; I circle behind."},
+        {"zh": "浅黄的鳍在水下转了个弯。", "en": "My pale yellow fin turns beneath the water."},
+        {"zh": "我要吃掉你了！", "en": "I'm going to eat you!"},
+        {"zh": "你跑不了，我会抓住你！", "en": "You can't run, I'll catch you!"},
+        {"zh": "别游了，我咬得到你。", "en": "Stop swimming. I can reach you."},
+        {"zh": "尝尝我的鳞片吧！", "en": "Try my scales!"},
+        {"zh": "我不会让你走的", "en": "You're not going anywhere!"},
+        {"zh": "我躲在花影水里盯着你。", "en": "I watch you from the blossom water."},
+        {"zh": "等它再靠近一点", "en": "Wait until it comes a little closer."},
+        {"zh": "我绕到水草后面", "en": "I circle behind the water weeds."},
+        {"zh": "它一伸手我就躲", "en": "The moment it reaches in, I dodge."},
+        {"zh": "石缝只够我一条鱼", "en": "The crevice fits only one fish: me."},
+        {"zh": "贴着池壁屏住鳃动", "en": "I press to the pool wall and still my gills."},
+        {"zh": "浅黄在水里最好藏", "en": "Pale yellow hides well in water."},
+        {"zh": "眼睛盯着那只手", "en": "My eyes stay on that hand."},
+        {"zh": "池底的泥是我的掩护", "en": "The silt at the bottom is my cover."},
+        {"zh": "等涟漪散尽再动", "en": "I move only after the ripples fade."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "浅黄鳞片如刀锋，游弋间划破水面。", "en": "Yellow scales like blades, slicing through the water."},
+        {"zh": "鱼鳍一摆，水面荡起涟漪。", "en": "Fins waving, ripples on the surface."},
+        {"zh": "鸣海浅黄，一跃而起。", "en": "Narumi Asagi leaps out."},
+        {"zh": "咬紧鱼饵，破水而出。", "en": "Clamps on bait, breaking the surface."},
+        {"zh": "游过树根，尾鳍划过。", "en": "Swims past roots, tail fin brushing by."},
+        {"zh": "游弋水面，静默无声。", "en": "Swims on the surface, silent."},
+        {"zh": "鱼鳞反射月光，如刀锋般闪烁。", "en": "Scales reflect moonlight, like shining blades."},
+        {"zh": "浅黄身躯如剑，破水而入。", "en": "Yellow body like a sword, cutting through the water."},
+        {"zh": "鱼尾一摆，水面破碎。", "en": "Tail swishes, shattering the water."},
+        {"zh": "鳞片闪烁，如同夜光剑。", "en": "Scales gleam, like night blades."},
+        {"zh": "甩尾拍起一片水花", "en": "A tail slap throws up a sheet of spray."},
+        {"zh": "我撞向那只伸来的手", "en": "I ram the hand that reaches for me."},
+        {"zh": "鳍一竖，划出一道水痕", "en": "Fins raised, I cut a line through the water."},
+        {"zh": "张嘴咬住晃动的影子", "en": "I snap at the wavering shadow."},
+        {"zh": "浅黄一闪，钻进花影", "en": "A flash of yellow, and I am in the blossom shade."},
+        {"zh": "鱼身一弹，溅你满脸水", "en": "One spring of my body splashes your face."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水草间游弋，忽现浅黄身影。", "en": "Swims among water plants, a yellow form appears."},
+        {"zh": "隐匿于水草，静待猎物入彀。", "en": "Hides among water plants, waiting for prey."},
+        {"zh": "游入静湖，阴影中浮现。", "en": "Swims into the still lake, a shadow appears."},
+        {"zh": "水面之下，浅黄身形游动。", "en": "Below the surface, a yellow form swims."},
+        {"zh": "水草丛中，鸣海浅黄现身。", "en": "Amidst the water plants, Narumi Asagi appears."},
+        {"zh": "夜幕降临，浅黄身影游弋。", "en": "At nightfall, a yellow form swims."},
+        {"zh": "水底游弋，游至水面。", "en": "Swims in the water, reaching the surface."},
+        {"zh": "隐匿于水草，静静游弋。", "en": "Hides among water plants, swimming quietly."},
+        {"zh": "水面之下，一尾浅黄游过。", "en": "Below the surface, a yellow fish swims by."},
+        {"zh": "夜色中，浅黄身影浮现。", "en": "In the night, a yellow form appears."},
+        {"zh": "樱林的水面轻轻一响", "en": "A soft sound on the blossom-wood water."},
+        {"zh": "我从花瓣下钻出来", "en": "I slip out from beneath the petals."},
+        {"zh": "溪水拐弯处多了条鱼", "en": "A new fish at the bend of the stream."},
+        {"zh": "浅黄的身影落在池底", "en": "A pale yellow shape settles on the pool floor."},
+        {"zh": "落花里游出一尾锦鲤", "en": "A koi swims out of the fallen blossoms."},
+        {"zh": "我在这片水域落户", "en": "I take up residence in these waters."},
+        {"zh": "水面下先亮起一点黄", "en": "A speck of yellow glows under the surface."},
+        {"zh": "花影摇动，我来了", "en": "The blossom shadows sway. I have arrived."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鱼鳞燃烧，哀鸣不断。", "en": "Scales burn, moan non-stop."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鱼身翻滚，哀鸣连连。", "en": "Body flips, moan non-stop."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鱼身沉底，哀鸣不断。", "en": "Body sinks, moan non-stop."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鱼身爆炸，哀鸣嘶哑。", "en": "Body explodes, moan hoarse."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鱼体被击中，哀鸣沙哑。", "en": "Body hit, moan hoarse."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鱼身遭咒，哀鸣低沉。", "en": "Body cursed, moan low."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鱼体消瘦，哀鸣微弱。", "en": "Body emaciated, moan faint."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鱼身遭雷击，哀鸣嘶哑。", "en": "Body struck by lightning, moan hoarse."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鱼身坠入虚无，哀鸣低沉。", "en": "Body falls into void, moan low."}
+      ]
+    }
+  }
+}

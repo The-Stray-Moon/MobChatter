@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我是一整块石头在走。", "en": "I am a single block of stone, walking."},
+        {"zh": "我的脚步把地砖踩出裂纹。", "en": "My steps crack the tiles."},
+        {"zh": "我身上有几处石缝在响。", "en": "Stone seams on me creak."},
+        {"zh": "我慢慢转身，像一堵墙在挪。", "en": "I turn slowly, a wall in motion."},
+        {"zh": "我朝你的方向碾过去。", "en": "I grind forward in your direction."},
+        {"zh": "我一步一个坑，走得很稳。", "en": "Each step a pit. My gait is steady."},
+        {"zh": "我把挡路的木箱踩扁。", "en": "I flatten a crate in my path."},
+        {"zh": "我的手臂垂着，很沉。", "en": "My arms hang heavy."},
+        {"zh": "我走过之后，地上有石粉。", "en": "After I pass, stone dust remains."},
+        {"zh": "我停下来，试了试脚下。", "en": "I stop and test the ground."},
+        {"zh": "我从石堆里出来，身上还挂着碎石。", "en": "I come out of the rubble, chips still clinging."},
+        {"zh": "我沿着墙根走，墙在抖。", "en": "I walk the wall's base; the wall shakes."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着不动，像一尊像。", "en": "I stand still, like a statue."},
+        {"zh": "我身上的石缝里透出一点光。", "en": "A little light shows in my seams."},
+        {"zh": "我慢慢握了握拳头。", "en": "I slowly close my fist."},
+        {"zh": "我脚下的地砖已经碎了。", "en": "The tiles under me are already broken."},
+        {"zh": "我把头转了一格。", "en": "I turn my head one notch."},
+        {"zh": "我很沉，也很耐心。", "en": "I am heavy, and patient."},
+        {"zh": "我抖了抖，石屑落下来。", "en": "I shudder; chips fall."},
+        {"zh": "我盯着门，一直没动。", "en": "I watch the door and never move."},
+        {"zh": "我身上的灰积了一层。", "en": "A layer of dust settles on me."},
+        {"zh": "我听着，等有人来。", "en": "I listen, waiting for someone."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我低下头，你才到我胸口。", "en": "I look down; you reach my chest."},
+        {"zh": "你在我面前显得很薄。", "en": "You look thin in front of me."},
+        {"zh": "我抬起手，石头摩擦发声。", "en": "I raise a hand; stone grinds."},
+        {"zh": "我朝你走了一步，地面凹了。", "en": "I take a step; the ground dents."},
+        {"zh": "你退，我继续走。", "en": "You retreat; I keep coming."},
+        {"zh": "我把两只手举到胸前。", "en": "I raise both hands to my chest."},
+        {"zh": "你手里的东西挡不住石头。", "en": "What you hold will not stop stone."},
+        {"zh": "我把你的站位看进眼里。", "en": "I take in where you stand."},
+        {"zh": "我歪头，石缝里漏出光。", "en": "I tilt my head; light leaks from a seam."},
+        {"zh": "我把肩沉下去，像要撞。", "en": "I sink my shoulder, ready to ram."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉了一块石头。", "en": "A stone falls off me."},
+        {"zh": "我偏了偏，又撑住。", "en": "I lurch, then brace again."},
+        {"zh": "我身上多了一道新裂。", "en": "A new crack appears on me."},
+        {"zh": "我发出很沉的响声。", "en": "A deep sound comes from me."},
+        {"zh": "我把掉下的碎片踢回来。", "en": "I kick the fallen pieces back."},
+        {"zh": "我挪开半步，裂口还在。", "en": "I shift half a step; the crack stays."},
+        {"zh": "我的石缝暗了一下。", "en": "My seams dim."},
+        {"zh": "石头往下沉，我稳住脚。", "en": "The stone settles; I steady my feet."},
+        {"zh": "我脚步一顿，又继续走。", "en": "My stride hitches, then goes on."},
+        {"zh": "我抬起头，石缝还亮着。", "en": "I raise my head; my seams still glow."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石头不需要你的东西。", "en": "Stone has no need of your things."},
+        {"zh": "你把东西放下，我没有捡。", "en": "You set it down. I do not pick it up."},
+        {"zh": "我不吃这套，你收回去。", "en": "I do not take that. Put it away."},
+        {"zh": "我把它踩进地里。", "en": "I press it into the ground."},
+        {"zh": "它在我手里像一块小石子。", "en": "In my hand it is a pebble."},
+        {"zh": "我松手，它落在脚边。", "en": "I open my hand; it drops by my feet."},
+        {"zh": "我没有弯下腰。", "en": "I do not bend down."},
+        {"zh": "你把它收着吧。", "en": "You keep it."},
+        {"zh": "我的目光没离开你。", "en": "My gaze does not leave you."},
+        {"zh": "我随手把它拨到墙根。", "en": "I flick it aside to the wall's base."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞过来，我只晃了晃。", "en": "You crash into me; I only rock."},
+        {"zh": "我一动没动。", "en": "I do not move at all."},
+        {"zh": "你退开时，肩膀在疼。", "en": "As you pull back, your shoulder aches."},
+        {"zh": "我抬臂一拨，你滑到一边。", "en": "I raise an arm and sweep you aside."},
+        {"zh": "我们撞在一起，声音很沉。", "en": "We collide; the sound is deep."},
+        {"zh": "我脚下的砖又碎了一块。", "en": "Another tile breaks under me."},
+        {"zh": "我垂下头，影子罩住你。", "en": "I lower my head; my shadow covers you."},
+        {"zh": "你没有推动我。", "en": "You did not move me."},
+        {"zh": "我侧过身，给你让出半步。", "en": "I turn aside and give you half a step."},
+        {"zh": "我把你抵在墙上。", "en": "I pin you against the wall."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "另一块石头在等我。", "en": "Another stone waits for me."},
+        {"zh": "我们并排站着，缝隙对缝隙。", "en": "We stand side by side, seam to seam."},
+        {"zh": "我把一块石头搬给她。", "en": "I carry a stone over for her."},
+        {"zh": "我们一起踩碎了脚下的砖。", "en": "Together we break the tiles beneath us."},
+        {"zh": "她的石缝里也有光。", "en": "Light shows in her seams too."},
+        {"zh": "我们没有说话，只是站着。", "en": "We do not speak. We only stand."},
+        {"zh": "她把手搭在我的肩上。", "en": "She rests a hand on my shoulder."},
+        {"zh": "我们一起把一面墙推倒。", "en": "Together we push a wall down."},
+        {"zh": "她退开时，地上留了印。", "en": "When she steps back, prints remain."},
+        {"zh": "我们各自站回自己的位置。", "en": "Each of us returns to our place."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用整只手抓起来。", "en": "I take it in my whole hand."},
+        {"zh": "我扫了一眼，随手抛开。", "en": "One glance, and I toss it away."},
+        {"zh": "我手指一合，它成了粉。", "en": "My fingers close and it turns to powder."},
+        {"zh": "它比看起来轻。", "en": "It is lighter than it looks."},
+        {"zh": "我把它放到石堆上。", "en": "I set it on the rubble."},
+        {"zh": "我抬高手臂，让它见光。", "en": "I lift my arm and hold it to the light."},
+        {"zh": "它在我掌心很小。", "en": "It is tiny in my palm."},
+        {"zh": "我按着它，陷进土里。", "en": "I press it down into the earth."},
+        {"zh": "我把它丢掉，脚步没停。", "en": "I drop it without breaking stride."},
+        {"zh": "我把它翻来覆去地看。", "en": "I turn it over and over."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你站在我面前了。", "en": "You are standing before me."},
+        {"zh": "我把两只手抬起来。", "en": "I raise both hands."},
+        {"zh": "我往前碾了半格。", "en": "I grind forward half a block."},
+        {"zh": "石缝里的光变亮了。", "en": "The light in my seams brightens."},
+        {"zh": "你跑不过我的步子。", "en": "You cannot outrun my stride."},
+        {"zh": "你站的这块地砖，我记下了。", "en": "I have marked the tile you stand on."},
+        {"zh": "我开始蓄力，肩背鼓起。", "en": "I wind up; my shoulders swell."},
+        {"zh": "墙就在你背后，退不了了。", "en": "The wall is at your back. No retreat."},
+        {"zh": "我站在原地，你就跑不掉。", "en": "I stay put, and you cannot get away."},
+        {"zh": "我朝你那边整个压过去。", "en": "I bear my whole weight toward you."},
+        {"zh": "我喉咙里发出石头的响。", "en": "A stone sound comes from my throat."},
+        {"zh": "一步就够了。", "en": "One step will be enough."},
+        {"zh": "我把脑袋朝你倾过去。", "en": "I tilt my head toward you."},
+        {"zh": "你脚下的砖在响。", "en": "The tiles under you are creaking."},
+        {"zh": "我已经开始迈步了。", "en": "I have already begun to move."},
+        {"zh": "你身后的砖也归我。", "en": "The brick behind you is mine as well."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一格一格把你逼退。", "en": "I push you back, block by block."},
+        {"zh": "你往左，我的手已经在那儿。", "en": "You go left; my hand is already there."},
+        {"zh": "我走得慢，可一步不停。", "en": "I walk slowly, but I never stop."},
+        {"zh": "你砍我，只留下白点。", "en": "You cut me; only a white mark."},
+        {"zh": "我把你逼进墙角。", "en": "I crowd you into the corner."},
+        {"zh": "我抬脚，落下去就是坑。", "en": "I lift a foot; it lands as a pit."},
+        {"zh": "我一言不发，只管往前。", "en": "I make no sound; I only advance."},
+        {"zh": "我架开你的攻击，反手砸下。", "en": "I turn your blow aside and hammer back."},
+        {"zh": "你越往后退，我落手越沉。", "en": "The farther you retreat, the heavier I strike."},
+        {"zh": "我的石缝全亮了。", "en": "All my seams are lit."},
+        {"zh": "我掰下一块砖，捏在手里。", "en": "I break off a brick and grip it."},
+        {"zh": "你在数我的脚步。", "en": "You are counting my steps."},
+        {"zh": "我把门框挤歪了。", "en": "I bend the door frame."},
+        {"zh": "你背后只剩半块砖的地方。", "en": "Only half a brick of ground is left behind you."},
+        {"zh": "我举起手，石屑落下来。", "en": "I raise my hand; chips fall."},
+        {"zh": "我每一步都很稳。", "en": "Every step is sure."},
+        {"zh": "你在动，我看得清楚。", "en": "You are moving. I see it clearly."},
+        {"zh": "墙上的灰被我震下来。", "en": "Dust falls from the wall where I pass."},
+        {"zh": "再迈一步，我就到你面前。", "en": "One more stride and I am at you."},
+        {"zh": "这一下会很久才停。", "en": "This one will echo for a while."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一拳砸下，地面凹了。", "en": "I bring my fist down; the ground dents."},
+        {"zh": "我横过手臂，把你扫开。", "en": "I sweep my arm and knock you aside."},
+        {"zh": "我抓住你，往墙上按。", "en": "I grab you and press you to the wall."},
+        {"zh": "我的石头肩膀撞在你胸口。", "en": "My stone shoulder hits your chest."},
+        {"zh": "这一拳打偏了，砸进墙里。", "en": "The punch misses and buries in the wall."},
+        {"zh": "我一脚落下，地砖全碎。", "en": "My foot comes down; the tiles shatter."},
+        {"zh": "我用手肘压你。", "en": "I pin you with my elbow."},
+        {"zh": "你护住正面，肋下空着。", "en": "You guard the front. Your ribs are open."},
+        {"zh": "我收拳半步，再举起来。", "en": "I draw my fist back half a step and raise it again."},
+        {"zh": "你的攻击只让我顿了一顿。", "en": "Your hit only makes me pause."},
+        {"zh": "我把你顶得撞开门。", "en": "I shove you through the door."},
+        {"zh": "石屑从我的手臂上崩下来。", "en": "Chips break off my arm."},
+        {"zh": "我的拳还举着。", "en": "My fist is still up."},
+        {"zh": "你被震退了三步。", "en": "The blow puts you back three steps."},
+        {"zh": "我甩手把碎石砸出去。", "en": "I fling the rubble at you."},
+        {"zh": "你倒在地上的砖堆里。", "en": "You land in the broken tiles."},
+        {"zh": "我压下去，砖都陷了。", "en": "I bear down; the tiles sink."},
+        {"zh": "我没有呼吸，只有石头摩擦。", "en": "I have no breath, only grinding stone."},
+        {"zh": "我换一只手继续砸。", "en": "I switch hands and keep hammering."},
+        {"zh": "这一下之后，我退开了一步。", "en": "After that blow, I step back."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从碎砖堆里撑起身。", "en": "I push up out of the broken bricks."},
+        {"zh": "我一块一块把自己拼好。", "en": "I piece myself together, block by block."},
+        {"zh": "我第一眼看见的是裂缝。", "en": "The first thing I see is a crack."},
+        {"zh": "我朝有声音的方向转头。", "en": "I turn toward the sound."},
+        {"zh": "我抬脚，砖先裂了一道。", "en": "I lift a foot; the tile cracks first."},
+        {"zh": "我身上的碎石落了一地。", "en": "Rubble falls off me everywhere."},
+        {"zh": "我站直了，比门框高。", "en": "I straighten up, taller than the door."},
+        {"zh": "我抖了抖，灰散开。", "en": "I shudder; dust scatters."},
+        {"zh": "我认准了一个方向。", "en": "I fix on a direction."},
+        {"zh": "我慢慢把手臂抬起来。", "en": "I slowly raise my arms."},
+        {"zh": "我在原地站定，很稳。", "en": "I settle in place, steady."},
+        {"zh": "我朝最近的活物看过去。", "en": "I look at the nearest living thing."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烤着我的石面，我裂得更开。", "en": "Fire bakes my stone face; the cracks widen."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我砸下来，摔成好几块。", "en": "I crash down and break into pieces."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水压进石缝，我挣不出来。", "en": "Water presses into my seams; I cannot get free."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我炸散了。", "en": "The blast bursts me apart."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭崩在石面上，弹开了。", "en": "An arrow shatters on my stone and bounces."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那光从石缝钻进我体内。", "en": "That light enters through my seams."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没有石头可吃，我在变脆。", "en": "No stone to take in; I am turning brittle."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在我头上，石缝全亮了。", "en": "Lightning hits my crown; every seam lights."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下的地没了，我往下坠。", "en": "The ground is gone; I fall."}
+      ]
+    }
+  }
+}

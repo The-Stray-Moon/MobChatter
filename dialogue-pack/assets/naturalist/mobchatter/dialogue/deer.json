@@ -1,0 +1,254 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蹄子踩在落叶上，声音很轻。", "en": "My hooves barely rustle the fallen leaves."},
+        {"zh": "樱花落在鹿角上，我抖了抖。", "en": "Cherry petals settle on my antlers; I shake them off."},
+        {"zh": "我沿着林间的小径慢慢走。", "en": "I follow the little path winding through the trees."},
+        {"zh": "前面有片嫩草，脚步快了些。", "en": "Fresh grass ahead — my steps quicken a little."},
+        {"zh": "树枝擦过侧腹，我侧身让开。", "en": "A branch grazes my flank; I step around it."},
+        {"zh": "四只蹄子陷进松软的苔藓里。", "en": "All four hooves sink into the soft moss."},
+        {"zh": "我跳过倒木，鹿角差点挂住。", "en": "I leap the fallen log; my antlers nearly snag."},
+        {"zh": "幼鹿跟在后面，我放慢步子。", "en": "A fawn trails behind, so I slow my pace."},
+        {"zh": "溪水边泥软，我挑干的地方落脚。", "en": "The creek bank is soft; I pick the dry ground."},
+        {"zh": "影子在前面拉长，太阳偏西了。", "en": "My shadow stretches ahead; the sun is sinking."},
+        {"zh": "我绕着樱花树走，花瓣铺了一路。", "en": "I circle the cherry tree, petals paving my way."},
+        {"zh": "耳朵转来转去，脚却没停。", "en": "My ears keep turning while my feet keep moving."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着不动，只让耳朵转。", "en": "I stand still and let only my ears turn."},
+        {"zh": "风里有橡树和湿土的味道。", "en": "The wind smells of oak bark and wet earth."},
+        {"zh": "鹿角上还挂着半片樱花。", "en": "Half a cherry blossom still clings to my antler."},
+        {"zh": "我低头啃了一口脚边的草。", "en": "I lower my head and nibble the grass by my hooves."},
+        {"zh": "远处有狼嚎，我绷紧了腿。", "en": "A wolf howls far off; my legs go tense."},
+        {"zh": "斑驳的光落在背上，暖洋洋的。", "en": "Dappled light warms my back through the canopy."},
+        {"zh": "我用后蹄挠了挠耳朵后面。", "en": "I scratch behind my ear with a hind hoof."},
+        {"zh": "树影移动，我跟着挪了半步。", "en": "The shade shifts; I shuffle half a step over."},
+        {"zh": "呼吸很慢，肚子一起一伏。", "en": "My breathing is slow, my flank rising and falling."},
+        {"zh": "我盯着那片晃动的蕨叶看了很久。", "en": "I stare at that swaying fern for a long while."},
+        {"zh": "有只兔子经过，我们互相看了看。", "en": "A rabbit passes; we look at each other."},
+        {"zh": "雨点落在鼻尖，我甩了甩头。", "en": "A raindrop lands on my nose; I shake my head."},
+        {"zh": "我侧过头，听林子里别的声音。", "en": "I tilt my head toward another sound in the woods."},
+        {"zh": "这一小片林间空地，我常来。", "en": "This little clearing is a place I often visit."},
+        {"zh": "我抬起一条前腿，挠了挠脖子。", "en": "I lift a foreleg and scratch my neck."},
+        {"zh": "林子里有啄木鸟，一下一下的。", "en": "A woodpecker is knocking somewhere, over and over."},
+        {"zh": "我嚼着草，眼睛还看着远处。", "en": "I chew the grass while still watching the distance."},
+        {"zh": "雪松的香气从坡上传下来。", "en": "The scent of cedar drifts down from the slope."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你站住，我也站住。", "en": "You stop; so do I."},
+        {"zh": "你的气味我还不认识。", "en": "I don't know your scent yet."},
+        {"zh": "我抬起头，鹿角对着你。", "en": "I raise my head, antlers pointed your way."},
+        {"zh": "别靠太近，我随时能跑。", "en": "Don't come closer; I can bolt any moment."},
+        {"zh": "你的手空着，这让我放心一点。", "en": "Your hands are empty, which settles me somewhat."},
+        {"zh": "我从樱树后面探出半个头。", "en": "I peek half my head from behind the cherry tree."},
+        {"zh": "你看我，我就多看了你两眼。", "en": "You watch me, so I watch you two beats longer."},
+        {"zh": "你的脚步声太直，绕一绕吧。", "en": "You walk too straight; try going around."},
+        {"zh": "我眨了一下眼，没打算走。", "en": "I blink once and decide not to leave."},
+        {"zh": "你身上有铁的味道，我不喜欢。", "en": "You smell of iron, and I don't care for it."},
+        {"zh": "那只幼鹿在我身后，别吓它。", "en": "The fawn's behind me; please don't frighten it."},
+        {"zh": "我们隔着三棵树互相打量。", "en": "Three trees apart, we size each other up."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的腿一软，差点跪下。", "en": "My legs buckle; I nearly go down."},
+        {"zh": "鹿角被撞得偏向一边。", "en": "My antler's knocked to one side."},
+        {"zh": "我喘得很急，喉头发紧。", "en": "I'm breathing hard, throat tight."},
+        {"zh": "这一下打在我肩胛上。", "en": "That one caught me on the shoulder blade."},
+        {"zh": "我拖着一条腿往树后躲。", "en": "I drag one leg behind a tree."},
+        {"zh": "毛被扯掉一小撮。", "en": "A tuft of my coat's been torn loose."},
+        {"zh": "我疼得跳了一下，落地歪了。", "en": "I leap from the pain and land crooked."},
+        {"zh": "别打在角上，那里最疼。", "en": "Not the antlers — that's where it hurts most."},
+        {"zh": "我要跑了，这回是真的。", "en": "I'm running now — I mean it."},
+        {"zh": "血滴在落叶上，颜色很深。", "en": "Blood drops on the leaves, dark against them."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你袖口的嫩草味，我隔着树都闻到了。", "en": "I smelled the fresh grass on your sleeve through the trees."},
+        {"zh": "再举高一点，我够不着。", "en": "Hold it a little higher; I can't reach."},
+        {"zh": "那几颗甜浆果是给我的吗？", "en": "Are those sweet berries meant for me?"},
+        {"zh": "我往前走一步，你也别动。", "en": "I take one step forward; you hold still."},
+        {"zh": "叶子上的露水还在滴。", "en": "Dew is still dripping off those leaves."},
+        {"zh": "我先舔一下，不咬你的手。", "en": "I'll lick it first, not bite your hand."},
+        {"zh": "这味道比林边的草甜多了。", "en": "This tastes sweeter than the grass at the forest edge."},
+        {"zh": "你蹲下来，我才敢靠近。", "en": "Crouch down, and then I'll dare come near."},
+        {"zh": "我的鼻子先碰到你的指尖了。", "en": "My nose touches your fingertips before my teeth."},
+        {"zh": "就一口，然后我就回林子里。", "en": "Just one mouthful, then I'm back to the trees."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的肩膀撞歪了我的鹿角。", "en": "Your shoulder knocked my antlers crooked."},
+        {"zh": "轻一点，我这身骨头很细。", "en": "Easy — my bones are thin and light."},
+        {"zh": "我退了两步，蹄子打了个滑。", "en": "I back off two steps and my hooves slip."},
+        {"zh": "你横在小径上，我的角过不去。", "en": "You're across the trail; my antlers won't fit past."},
+        {"zh": "我们撞在一起，花瓣都落下来了。", "en": "We bump, and cherry petals fall around us."},
+        {"zh": "别从背后贴过来，我会踢。", "en": "Don't come up behind me; I kick."},
+        {"zh": "我侧过身，让出半条小径。", "en": "I turn sideways and give you half the trail."},
+        {"zh": "你的盔甲太硬，撞得我头发晕。", "en": "Your armor's hard; the knock leaves me dizzy."},
+        {"zh": "草地这么宽，何必挤这一处。", "en": "The meadow's wide — why squeeze through here?"},
+        {"zh": "我甩了甩头，把惊惶甩掉。", "en": "I shake my head to throw off the fright."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用鼻子碰了碰她的脖子。", "en": "I touch her neck gently with my nose."},
+        {"zh": "她走在前面，我跟在两步之后。", "en": "She walks ahead; I keep two steps behind."},
+        {"zh": "两只鹿角轻轻碰了一下。", "en": "Our two sets of antlers tap together softly."},
+        {"zh": "我绕着她转，蹄子踩得很小心。", "en": "I circle her, setting each hoof down carefully."},
+        {"zh": "这片樱林够我们待一整个春天。", "en": "This cherry grove can hold us all spring."},
+        {"zh": "她低头吃草，我在旁边守着。", "en": "She grazes; I keep watch at her side."},
+        {"zh": "我把最嫩的那丛草让给她。", "en": "I leave the tenderest patch of grass for her."},
+        {"zh": "风把她的气味带过来，我跟着走。", "en": "The wind brings her scent, and I follow it."},
+        {"zh": "我们的影子在草地上并成一排。", "en": "Our shadows line up side by side on the grass."},
+        {"zh": "等幼鹿会跑了，我们再走远些。", "en": "Once the fawn can run, we'll wander farther."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地上有枚亮东西，我用鼻子拱了拱。", "en": "Something bright on the ground; I nudge it with my nose."},
+        {"zh": "我不捡东西，我只吃草。", "en": "I don't pick things up; I only eat grass."},
+        {"zh": "那朵蘑菇颜色太艳，我不碰。", "en": "That mushroom's too bright; I leave it alone."},
+        {"zh": "有颗橡果滚到蹄边，我绕开了。", "en": "An acorn rolls to my hoof; I step around it."},
+        {"zh": "我把落下的苹果顶回树根旁。", "en": "I push the fallen apple back toward the roots."},
+        {"zh": "你的东西掉了，自己来拿。", "en": "You dropped something; come get it yourself."},
+        {"zh": "这枚铁片凉，碰一下就走。", "en": "This iron shard is cold; one touch and I'm gone."},
+        {"zh": "我用嘴叼起一根树枝，又放下。", "en": "I lift a twig in my mouth, then drop it."},
+        {"zh": "花瓣堆里有东西在反光。", "en": "Something glints inside the drift of petals."},
+        {"zh": "那不是食物，我闻两下就明白。", "en": "That's not food — two sniffs tell me so."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那边有东西在动，我先看住它。", "en": "Something's moving over there; I'll keep my eyes on it."},
+        {"zh": "那只狼的尾巴低着，不是好兆头。", "en": "That wolf's tail is low — a bad sign."},
+        {"zh": "我认出你了，你就是刚才那个。", "en": "I know you now; you're the one from before."},
+        {"zh": "灌木后面有脚步，我耳朵先动。", "en": "Footsteps behind the bush; my ears move first."},
+        {"zh": "我盯住那团影子，腿已经绷紧。", "en": "I fix on that shape, legs already tense."},
+        {"zh": "这气味不对，我得记着这个方向。", "en": "That smell is wrong; I'll remember this direction."},
+        {"zh": "幼鹿在我身后，我先看着前面。", "en": "The fawn's behind me, so I watch what's ahead."},
+        {"zh": "那个弓箭手藏在树后，我看见了。", "en": "That archer hides behind a tree; I saw him."},
+        {"zh": "我要跑的时候，会先跺一下蹄子。", "en": "When I run, I'll stamp a hoof first."},
+        {"zh": "你手里的东西举起来了，我记下了。", "en": "You raised what's in your hand; I noticed."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我绕着你走，始终隔着一段。", "en": "I circle you, always keeping some distance."},
+        {"zh": "鼻子喷气，那是我在警告。", "en": "A snort through my nose — that's my warning."},
+        {"zh": "你往左，我就往右挪半步。", "en": "You go left; I shift half a step right."},
+        {"zh": "别追，我跑起来你追不上。", "en": "Don't chase me — you won't catch my run."},
+        {"zh": "我前蹄刨地，刨出一个小坑。", "en": "My forehoof paws the dirt into a small pit."},
+        {"zh": "目光不离开你，脚步慢慢退。", "en": "Eyes fixed on you, I retreat step by step."},
+        {"zh": "我低了一下头，鹿角朝前。", "en": "I dip my head, antlers angled forward."},
+        {"zh": "这片林子我熟，你未必。", "en": "I know these woods; you likely don't."},
+        {"zh": "你停，我也停；你动，我就退。", "en": "You stop, I stop; you move, I back away."},
+        {"zh": "再靠近，我就钻进树丛里。", "en": "One more step and I'm into the thicket."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "前蹄抬起来，往下一蹬。", "en": "My forelegs rear up, then stamp down."},
+        {"zh": "鹿角只是擦过你的肩。", "en": "My antler only grazes across your shoulder."},
+        {"zh": "我顶了一下，然后立刻退开。", "en": "I butt once, then immediately back away."},
+        {"zh": "后腿发力，这一踢很结实。", "en": "Hind legs drive it — a solid kick."},
+        {"zh": "我不是要杀你，只想你走开。", "en": "I'm not trying to kill you, just to make you leave."},
+        {"zh": "蹄子落在你的护腿上，闷响一声。", "en": "My hoof lands on your greave with a dull thud."},
+        {"zh": "我转半圈，用后蹄扫过去。", "en": "I spin half around and sweep with a hind hoof."},
+        {"zh": "鹿角先顶，蹄子后到，你选一个。", "en": "Antlers first, hooves after — pick one."},
+        {"zh": "我的头低得很低，角尖朝上挑。", "en": "Head low, I tip my antler points upward."},
+        {"zh": "打完我就跑，不留下。", "en": "Once it's done I run and don't linger."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从樱花树影里走出来。", "en": "I step out from the shade of a cherry tree."},
+        {"zh": "睁眼时，脚下是厚厚的落叶。", "en": "I open my eyes on a deep bed of leaves."},
+        {"zh": "鹿角上还带着出生时的湿气。", "en": "My antlers still carry the damp of being new."},
+        {"zh": "这片林子安静，适合落脚。", "en": "These woods are quiet — a good place to begin."},
+        {"zh": "我撑起四条腿，苔藓在蹄下陷。", "en": "I push up on four legs; the moss gives way."},
+        {"zh": "远处有溪水声，我先记住方向。", "en": "Water sounds far off; I note which way."},
+        {"zh": "一抬头，满树的花都在晃。", "en": "I look up and the whole canopy sways with blossoms."},
+        {"zh": "我第一眼看见的是蕨类的卷叶。", "en": "The first thing I see is a curled fern frond."},
+        {"zh": "母鹿在不远处，我叫了一声。", "en": "The doe stands nearby; I call out once."},
+        {"zh": "森林给了我八点生命，够用了。", "en": "Eight points of life from the forest — enough."},
+        {"zh": "蹄子第一次踩在苔藓上，很软。", "en": "My hooves touch moss for the first time — soft."},
+        {"zh": "我抖了抖毛，把花瓣抖落。", "en": "I shake my coat and the petals fall away."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎到我的毛，焦味很冲。", "en": "Flame singes my coat; the scorched smell is sharp."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从坡上摔下来，蹄子先着地。", "en": "I tumble down the slope and land on my hooves."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水淹到脖子，我拼命划。", "en": "Water's at my neck; I kick with all four legs."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那声巨响把我掀翻在林子里。", "en": "The blast throws me over in the woods."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭扎进后腿，我瘸了。", "en": "An arrow sticks in my hind leg; I limp."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "紫色的光缠住我，腿不听使唤。", "en": "Violet light wraps me; my legs won't obey."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "肚子空了，草也嚼不动。", "en": "My belly's empty and I can't chew the grass."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在我旁边的树上，我耳朵嗡响。", "en": "Lightning strikes the tree beside me; my ears ring."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下空了，四蹄都在乱蹬。", "en": "Nothing underfoot; all four hooves thrash."}
+      ]
+    }
+  }
+}

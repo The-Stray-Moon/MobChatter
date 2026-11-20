@@ -1,0 +1,252 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一节一节往前拱，很慢。", "en": "I inch forward one segment at a time."},
+        {"zh": "我从尸体下面爬出来，身上湿。", "en": "I crawl out from under the corpse, damp."},
+        {"zh": "泥地上留一道亮印子。", "en": "I leave a shiny trail across the dirt."},
+        {"zh": "我绕过石头，继续往肉味去。", "en": "I go around the stone and keep toward the meat."},
+        {"zh": "我爬得不快，但不会停。", "en": "I am not fast, but I never stop."},
+        {"zh": "草叶挡住我，我从底下穿。", "en": "Grass blocks me, so I pass underneath."},
+        {"zh": "我缩一下，再伸出去。", "en": "I bunch up, then stretch forward."},
+        {"zh": "暖和的腐肉在前面。", "en": "Warm carrion lies ahead."},
+        {"zh": "我爬过你的靴尖，你没察觉。", "en": "I crawl over your boot tip and you never notice."},
+        {"zh": "我在骨缝间挤过去。", "en": "I squeeze between two bones."},
+        {"zh": "这条路我爬过，还认得。", "en": "I have crawled this way before and remember it."},
+        {"zh": "我留下一串细小的痕迹。", "en": "I leave a string of tiny marks."},
+        {"zh": "慢是慢，可我一直在靠近。", "en": "Slow, yes, but always closer."},
+        {"zh": "我从衣角底下钻了进去。", "en": "I slip beneath the hem of your coat."},
+        {"zh": "我从僵尸的袖子里钻出来，往下爬。", "en": "I crawl out of a zombie's sleeve and down."},
+        {"zh": "肉味在前面，我一次挪一小截。", "en": "Meat ahead. I creep forward a little at a time."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我蜷成一团，慢慢蠕动。", "en": "I curl into a ball and squirm slowly."},
+        {"zh": "我抬头闻了闻，又低下头。", "en": "I lift my head to sniff, then lower it."},
+        {"zh": "腐肉就在旁边，我不急着吃。", "en": "Carrion is right here. I am in no rush."},
+        {"zh": "我的身体一鼓一缩，在呼吸。", "en": "My body swells and shrinks as I breathe."},
+        {"zh": "阳光晒着我，暖得发懒。", "en": "The sun warms me into laziness."},
+        {"zh": "我钻进骨头的空腔里待着。", "en": "I settle inside the hollow of a bone."},
+        {"zh": "周围很安静，只有我在动。", "en": "All is still except me."},
+        {"zh": "我把头缩进身子里。", "en": "I pull my head back into my body."},
+        {"zh": "身上黏糊糊的，我不在乎。", "en": "I am sticky all over and do not care."},
+        {"zh": "我数着苍蝇的嗡嗡声。", "en": "I count the buzzing of the flies."},
+        {"zh": "这块肉还剩不少。", "en": "There is still plenty left on this carcass."},
+        {"zh": "我一动不动，像颗米粒。", "en": "I lie motionless, like a grain of rice."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抬起头，看你弯腰。", "en": "I raise my head as you bend down."},
+        {"zh": "你的影子盖住我，我停住了。", "en": "Your shadow covers me and I freeze."},
+        {"zh": "我在你脚边，你还没看见。", "en": "I am at your feet and you have not seen me."},
+        {"zh": "我盯着你的手指，很软。", "en": "I stare at your fingers. Very soft."},
+        {"zh": "你蹲下来，我们面对面。", "en": "You crouch, and we are face to face."},
+        {"zh": "我晃了晃头，分辨你的气味。", "en": "I sway my head to sort out your scent."},
+        {"zh": "你走了，我还看着那个方向。", "en": "You leave and I keep watching that way."},
+        {"zh": "你的脸对我像一整座山。", "en": "Your face is a whole mountain to me."},
+        {"zh": "你用手电照我，我缩了一下。", "en": "Your light finds me and I shrink back."},
+        {"zh": "你的鞋底离我很近。", "en": "Your sole is very close to me."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被踩扁一半，还在扭。", "en": "Half of me is crushed and still I squirm."},
+        {"zh": "这一下把我打进泥里。", "en": "The blow drives me into the mud."},
+        {"zh": "我太软，挨一下就缩成球。", "en": "I'm so soft one hit curls me into a ball."},
+        {"zh": "我的体液流出来，黏糊糊的。", "en": "My fluids leak out, sticky and thick."},
+        {"zh": "我断了一节，剩下的还在爬。", "en": "I lost a segment; the rest still crawls."},
+        {"zh": "谁踩的我，我记住位置了。", "en": "I remember where the foot came from."},
+        {"zh": "我更慢了，但没死。", "en": "Slower now, but not dead."},
+        {"zh": "同伴被碾碎了，我不敢动。", "en": "Kin crushed beside me, and I dare not move."},
+        {"zh": "我往骨缝里钻，躲一躲。", "en": "I burrow into a bone gap to hide."},
+        {"zh": "疼归疼，我还是要吃。", "en": "It hurts, and I still want to eat."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐肉的味道一飘来，我就动。", "en": "The smell of carrion comes and I start moving."},
+        {"zh": "你手里的肉放久了，很香。", "en": "That meat in your hand has turned. Lovely."},
+        {"zh": "血滴在地上，我朝那去。", "en": "Blood drips onto the ground and I head for it."},
+        {"zh": "这块骨头还带着筋，我要。", "en": "That bone still has tendon. I want it."},
+        {"zh": "我拱到你脚边，找掉下的渣。", "en": "I squirm to your feet, hunting fallen scraps."},
+        {"zh": "有东西死了，我闻得到。", "en": "Something died. I can smell it."},
+        {"zh": "你把腐肉放下，我就爬过去。", "en": "Set the rotten meat down and I will crawl over."},
+        {"zh": "我沿着味道找，不会走错。", "en": "I follow the smell and never lose it."},
+        {"zh": "那味道让我整个身子都绷紧。", "en": "That scent pulls my whole body taut."},
+        {"zh": "再烂一点，我就更喜欢了。", "en": "The rottener it gets, the better I like it."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我撞在你的鞋尖上，弹了一下。", "en": "I bump your boot tip and bounce."},
+        {"zh": "同伴挤过来，我们叠在一起。", "en": "Kin crowd in and we stack up."},
+        {"zh": "我被你的脚推着滚了一圈。", "en": "Your foot rolls me over once."},
+        {"zh": "我从台阶上掉下去，摔在下面。", "en": "I drop off the step and land below."},
+        {"zh": "草茎弹回来，把我扫到一边。", "en": "A grass stem snaps back and sweeps me aside."},
+        {"zh": "我撞进一堆骨头里，卡住了。", "en": "I tumble into a bone pile and stick."},
+        {"zh": "你跺脚，我被震得跳起来。", "en": "You stamp, and the shock makes me jump."},
+        {"zh": "前面有块石头，我慢慢绕。", "en": "A stone ahead; I go slowly around it."},
+        {"zh": "我被水滴砸中，往旁边缩。", "en": "A drop of water hits me and I shrink aside."},
+        {"zh": "我挤过门缝，被夹了一下。", "en": "Squeezing under the door, I get pinched."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我们挤在腐肉里，缠在一起。", "en": "We crowd into the carrion and tangle together."},
+        {"zh": "另一条蛆碰了碰我的头。", "en": "Another maggot bumps its head against mine."},
+        {"zh": "我们这一窝都是一样的。", "en": "This whole brood of ours is the same."},
+        {"zh": "卵产在肉里，省得找地方。", "en": "Eggs go in the meat. No need to look further."},
+        {"zh": "它爬得慢，我等着它。", "en": "It crawls slowly, so I wait."},
+        {"zh": "我们头尾相接地挪。", "en": "We move head to tail in a line."},
+        {"zh": "谁挤我，我就拱回去。", "en": "Whoever crowds me gets shoved back."},
+        {"zh": "这块肉够我们一堆吃。", "en": "This carcass is enough for all of us."},
+        {"zh": "我们都在往深处钻。", "en": "We are all burrowing deeper."},
+        {"zh": "它不动了，我碰了碰它。", "en": "It stops moving. I nudge it."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我拱起一小块腐肉带走。", "en": "I push a scrap of carrion along with me."},
+        {"zh": "这根筋太韧，我拖不动。", "en": "This tendon is too tough to drag."},
+        {"zh": "我用身子卷住一粒碎骨。", "en": "I wrap my body around a bone chip."},
+        {"zh": "我背着这块肉，爬得很累。", "en": "Carrying this meat tires me out."},
+        {"zh": "东西掉下来，正好砸在我旁边。", "en": "Something falls right beside me."},
+        {"zh": "我咬住布角，往后拽。", "en": "I grip a cloth corner and pull backward."},
+        {"zh": "带回去，给同窝的分。", "en": "I will take this back to the brood."},
+        {"zh": "这点东西够我吃一天。", "en": "This much will feed me for a day."},
+        {"zh": "我把它塞进骨缝里藏好。", "en": "I tuck it into a bone crevice for safekeeping."},
+        {"zh": "你丢的东西，我捡走了。", "en": "What you dropped, I am taking."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那边有具尸体，我往那爬。", "en": "A carcass over there. I head for it."},
+        {"zh": "你受伤了，血味很实在。", "en": "You are bleeding, and the smell is thick."},
+        {"zh": "我认准了那块烂肉。", "en": "I have settled on that rotting chunk."},
+        {"zh": "那只僵尸倒下时，我就在旁边。", "en": "I was right there when that zombie fell."},
+        {"zh": "目标不远，我慢慢来。", "en": "The target is close. I will take my time."},
+        {"zh": "谁死了，我就找谁。", "en": "Whoever dies, I find."},
+        {"zh": "我朝味道最重的地方去。", "en": "I go where the smell is heaviest."},
+        {"zh": "这一片就那一处有吃的。", "en": "Only one spot here has food."},
+        {"zh": "腐肉的味道就在这边。", "en": "The smell of rot comes from over here."},
+        {"zh": "动静越大，死得越快。", "en": "The more noise, the sooner something dies."},
+        {"zh": "我锁定你了，别踩到我。", "en": "I have picked you. Do not step on me."},
+        {"zh": "那堆骨头下面还有东西。", "en": "There is still something under that bone pile."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我停在你脚后，等你弯腰。", "en": "I stop behind your heel, waiting for you to bend."},
+        {"zh": "我慢慢靠近，不弄出声音。", "en": "I creep nearer without a sound."},
+        {"zh": "你抬起脚，我就往旁边挪。", "en": "You lift your foot and I shift aside."},
+        {"zh": "我在等你自己躺下。", "en": "I am waiting for you to lie down on your own."},
+        {"zh": "蛆不追杀，只等结果。", "en": "Maggots do not chase. We wait for the outcome."},
+        {"zh": "我先躲进阴影，再过去。", "en": "I duck into shadow first, then cross."},
+        {"zh": "你还在动，我就再等等。", "en": "You are still moving, so I wait longer."},
+        {"zh": "那具僵尸走动时，我跟着。", "en": "I follow that zombie as it shuffles along."},
+        {"zh": "我盯着你的伤口。", "en": "I keep my gaze on your wound."},
+        {"zh": "距离够了，我就爬上去。", "en": "Close enough now, so I climb on."},
+        {"zh": "我不急，腐肉不会跑。", "en": "No rush. Carrion does not run."},
+        {"zh": "你的影子一偏，我就动了。", "en": "Your shadow shifts and I start moving."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我咬住你的脚趾，很轻。", "en": "I bite your toe. Only lightly."},
+        {"zh": "蛆的牙小，可也能咬破皮。", "en": "My teeth are small, but they break skin."},
+        {"zh": "我钻进伤口，往里啃。", "en": "I work into the wound and gnaw inward."},
+        {"zh": "你踩我，我就在鞋里咬。", "en": "Step on me and I bite from inside your boot."},
+        {"zh": "一口一口，慢慢来。", "en": "Bite by bite, slowly."},
+        {"zh": "你抖腿，我还是挂着。", "en": "You shake your leg; I stay attached."},
+        {"zh": "我咬开的地方会发炎。", "en": "Where I bite, it will fester."},
+        {"zh": "这一下让你觉得痒。", "en": "This one will make you itch."},
+        {"zh": "我不停，直到吃饱。", "en": "I do not stop until I am full."},
+        {"zh": "你抓破了皮，正好省我事。", "en": "You scratched yourself open. Saves me the work."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那只僵尸倒下，我从它身上爬出。", "en": "That zombie fell, and I crawl out of it."},
+        {"zh": "我在尸体的肋缝里醒来。", "en": "I wake between the ribs of a corpse."},
+        {"zh": "血还热着，我从里面钻出来。", "en": "The blood is still warm as I wriggle out."},
+        {"zh": "这一批只有我活下来。", "en": "Of this batch, only I made it out."},
+        {"zh": "我第一件事是找吃的。", "en": "My first business is finding food."},
+        {"zh": "周围躺着几个同窝的。", "en": "Several of my brood lie around me."},
+        {"zh": "我不知道自己怎么来的。", "en": "I do not know how I came to be here."},
+        {"zh": "尸体的味道裹着我。", "en": "The smell of the corpse still clings to me."},
+        {"zh": "我从腐肉堆里翻出来。", "en": "I roll out of the pile of carrion."},
+        {"zh": "一睁眼，全是骨头和血。", "en": "I open my eyes to bones and blood."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火一烤，我的皮就皱起来。", "en": "The flame shrivels my skin."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从尸身上掉下来，摔得发晕。", "en": "Dropped off the carcass, I land dizzy."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水一泡，我就漂起来了。", "en": "Once soaked, I float helplessly."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "泥土把我压进腐肉堆里。", "en": "Dirt presses me into the carrion pile."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭落下来，钉穿了我的身体。", "en": "An arrow comes down and pins me through."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那道光让我缩紧又摊开。", "en": "The light makes me clench and then splay out."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没肉吃，我瘦得只剩皮。", "en": "No meat, and I am down to skin."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷一响，我全身僵住。", "en": "Thunder sounds and my whole body stiffens."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没有底，我一直在往下掉。", "en": "No floor, and I keep falling."}
+      ]
+    }
+  }
+}

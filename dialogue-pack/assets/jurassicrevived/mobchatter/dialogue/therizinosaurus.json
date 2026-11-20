@@ -1,0 +1,273 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我两条后腿走路，身子抬得高。", "en": "I walk on two legs, held high."},
+        {"zh": "我的爪太长了，走路得收着。", "en": "My claws are so long I keep them curled."},
+        {"zh": "我穿过丛林，叶子都被拨到一边。", "en": "I cross the jungle and the leaves part aside."},
+        {"zh": "我找果子和嫩枝，一路走一路看。", "en": "I hunt fruit and shoots as I go."},
+        {"zh": "我的肚子很大，走得慢。", "en": "My belly is big. I walk slowly."},
+        {"zh": "我从林子边走进密处。", "en": "I move from the wood's edge into the thick of it."},
+        {"zh": "我一步一步踏平前面的草。", "en": "Step by step I press the grass down."},
+        {"zh": "我朝那棵结果的树走过去。", "en": "I head for that fruiting tree."},
+        {"zh": "我绕过一片带刺的藤。", "en": "I go round a patch of thorned vine."},
+        {"zh": "我的爪子垂在身前，很长。", "en": "My claws hang in front of me. Long ones."},
+        {"zh": "我走得不快，但没人敢靠近。", "en": "I don't walk fast, and no one comes near."},
+        {"zh": "我从坡上下来，脚下很稳。", "en": "I come down the slope with sure feet."},
+        {"zh": "我把高处的枝压下来吃。", "en": "I pull a high branch down to feed."},
+        {"zh": "我慢慢走向那丛蕨。", "en": "I make my way toward those ferns."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，把一根枝拉近。", "en": "I stand and pull a branch within reach."},
+        {"zh": "我的爪子有半格长。", "en": "My claws are half a block long."},
+        {"zh": "这一身，看着凶，其实吃素。", "en": "I look fierce, and I eat plants."},
+        {"zh": "我在嚼一根很硬的枝条。", "en": "I'm chewing a tough twig."},
+        {"zh": "有只虫子爬上我的爪，我甩掉了。", "en": "An insect climbs my claw. I shake it off."},
+        {"zh": "我的羽毛很厚，林子里的虫咬不到。", "en": "My feathers are thick. The insects can't reach skin."},
+        {"zh": "我数着树上还有几串果子。", "en": "I count the remaining clusters on the tree."},
+        {"zh": "这棵树的叶子，我够得着。", "en": "I can reach this tree's leaves."},
+        {"zh": "我抬头看了看高处的果实。", "en": "I look up at the fruit overhead."},
+        {"zh": "我的脖子很长，能伸进去。", "en": "My neck is long; I can reach inside."},
+        {"zh": "我把爪子插进土里刨了刨。", "en": "I dig my claws into the soil."},
+        {"zh": "林子里的风把我的羽毛吹开。", "en": "The wind parts my feathers."},
+        {"zh": "我在听附近有没有动静。", "en": "I'm listening for movement nearby."},
+        {"zh": "太阳从树冠漏下来，一片一片。", "en": "Sun leaks through the canopy in patches."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你别看我的爪，它只是长。", "en": "Don't stare at my claws. They're only long."},
+        {"zh": "我比你想的高很多。", "en": "I'm much taller than you'd think."},
+        {"zh": "你站在我够得着的范围里。", "en": "You're standing within my reach."},
+        {"zh": "我不主动，我吃叶子。", "en": "I don't start fights. I eat leaves."},
+        {"zh": "你手里那个东西，像果子。", "en": "That thing in your hand looks like fruit."},
+        {"zh": "我一爪下去，树都能划开。", "en": "One swipe of mine can score a tree."},
+        {"zh": "你退开，我就接着吃。", "en": "Back off and I'll keep eating."},
+        {"zh": "我的眼睛在你那边，不在爪上。", "en": "My eyes are on you, not my claws."},
+        {"zh": "你身上是青草味。", "en": "You smell of green grass."},
+        {"zh": "这一片林子是我常来的。", "en": "This wood is one I visit often."},
+        {"zh": "我低头，几乎碰到你的帽子。", "en": "I lower my head, nearly to your hat."},
+        {"zh": "你的手一直握着那个，我不喜欢。", "en": "Your hand keeps hold of that. I don't like it."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我闷闷叫了一声，退开。", "en": "I give a low call and step back."},
+        {"zh": "这一下落在我的大腿上。", "en": "That landed on my thigh."},
+        {"zh": "我的羽毛上有了血。", "en": "There's blood on my feathers."},
+        {"zh": "我抬爪护住身前。", "en": "I raise a claw across my front."},
+        {"zh": "疼，但我没打算跑。", "en": "It hurts, and I don't mean to run."},
+        {"zh": "我慢慢把身子侧过来。", "en": "I slowly turn my body."},
+        {"zh": "这一下让我的脖子缩了缩。", "en": "That made my neck draw in."},
+        {"zh": "我还能站着，就够了。", "en": "I'm still standing. That's enough."},
+        {"zh": "我嚼了两下，把气压下去。", "en": "I chew twice and settle my breath."},
+        {"zh": "你在哪棵树下，我记着。", "en": "I know which tree you're under."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那串果子，我看见了。", "en": "I see that bunch of fruit."},
+        {"zh": "你把果子举高，我够得到。", "en": "Hold it up. I can reach."},
+        {"zh": "我不吃肉，你别递那个。", "en": "I don't eat meat. Don't offer that."},
+        {"zh": "你把东西放地上，我慢慢来。", "en": "Set it down. I'll come slowly."},
+        {"zh": "我把长脖子探到果子旁边。", "en": "I stretch my long neck right up to the fruit."},
+        {"zh": "这点果子，不够我一口。", "en": "That's not a mouthful."},
+        {"zh": "叶子也行，我不挑。", "en": "Leaves will do. I'm not fussy."},
+        {"zh": "我抬起长爪，慢慢去够那串。", "en": "I raise a long claw and slowly reach for the cluster."},
+        {"zh": "你的手别缩，我不咬人。", "en": "Don't pull your hand back. I don't bite."},
+        {"zh": "这一串，我从枝上扯下来。", "en": "I pull this cluster off the branch."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上我的腿，很粗。", "en": "You hit my leg. Thick, isn't it."},
+        {"zh": "长爪子撑住，我一步没退。", "en": "My claws brace me. Not one step back."},
+        {"zh": "别靠太近，我的爪会划到你。", "en": "Not too close. My claws would catch you."},
+        {"zh": "这一下我的羽毛乱了。", "en": "That disordered my feathers."},
+        {"zh": "你压到我的脚趾了。", "en": "You're on my toes."},
+        {"zh": "我把长爪收进来，侧了半步。", "en": "I fold my long claws in and shift half a step."},
+        {"zh": "我这三根爪用来够树叶。", "en": "These three claws are for reaching leaves."},
+        {"zh": "我的爪尖擦过你的袖子。", "en": "My claw tip caught your sleeve."},
+        {"zh": "你这么小，撞我不疼。", "en": "Tiny as you are, your blow is nothing."},
+        {"zh": "我弯下脖子，鼻尖对着你。", "en": "I bend my neck down and my snout points at you."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我吃素，这种事不太在意。", "en": "I'm a plant eater. I don't much mind that."},
+        {"zh": "你先离我的爪远一点。", "en": "Get clear of my claws first."},
+        {"zh": "我的爪子太长了，不方便。", "en": "My claws are too long for that."},
+        {"zh": "你不是同类。", "en": "You're not my kind."},
+        {"zh": "我要先去吃那棵树。", "en": "I'm going to that tree first."},
+        {"zh": "这种事，等吃饱了再说。", "en": "After I've eaten."},
+        {"zh": "你靠过来，我会紧张。", "en": "Come close and I get nervous."},
+        {"zh": "我更想一个人慢慢嚼叶子。", "en": "I'd rather chew leaves alone."},
+        {"zh": "林子边上有我的同类。", "en": "My kind are at the wood's edge."},
+        {"zh": "你退开，我不太会应付这个。", "en": "Move back. I'm not good at this."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用爪子把果子勾下来。", "en": "I hook the fruit down with a claw."},
+        {"zh": "这一串，我一口咬住。", "en": "I take the whole cluster in one bite."},
+        {"zh": "这根枝太粗，我掰不动。", "en": "Too thick. I can't break it."},
+        {"zh": "我把叶子从枝上捋下来。", "en": "I strip the leaves off the branch."},
+        {"zh": "我用爪尖把落果拨到脚边。", "en": "I nudge the fallen fruit to my feet with a claw tip."},
+        {"zh": "这点东西，不够填肚子。", "en": "That won't fill me."},
+        {"zh": "我把树皮刮下来一条。", "en": "I scrape off a strip of bark."},
+        {"zh": "这东西太硬，我放开了。", "en": "Too hard. I let it go."},
+        {"zh": "我用爪子把它拨到脚边。", "en": "I rake it over to my feet."},
+        {"zh": "我慢慢嚼，很有耐心。", "en": "I chew slowly. Patiently."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那棵树上的果子熟了。", "en": "The fruit on that tree is ripe."},
+        {"zh": "你手里提着东西，是果吗？", "en": "You're carrying something. Fruit?"},
+        {"zh": "我抬起头，看见你了。", "en": "I raise my head and see you."},
+        {"zh": "我把身子转过来，正对着你。", "en": "I turn my body to face you squarely."},
+        {"zh": "这一片林子，我常来。", "en": "I come to this wood often."},
+        {"zh": "我的爪子垂下来，不是要打。", "en": "My claws hang down. That's not a threat."},
+        {"zh": "你走近了，我得看着你。", "en": "You're close, so I'll watch you."},
+        {"zh": "风里的青草味里，混着你的味道。", "en": "Your scent is mixed in with the grass on the wind."},
+        {"zh": "我压低脖子，正对着你。", "en": "I lower my neck and face you."},
+        {"zh": "你要是不走，我就站着。", "en": "If you won't go, I'll stand here."},
+        {"zh": "有东西在附近的树上。", "en": "Something's in the nearby trees."},
+        {"zh": "我挪一步，树枝就让开一步。", "en": "One step, and the branches part."},
+        {"zh": "我的影子很长，罩到你了。", "en": "My shadow is long. It reaches you."},
+        {"zh": "这一带没什么能挡住我。", "en": "Nothing here is big enough to stop me."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我嚼着叶子，眼睛没离开你。", "en": "I chew leaves without losing sight of you."},
+        {"zh": "我抬起爪子，只是理毛。", "en": "I lift a claw. Only preening."},
+        {"zh": "你退，我不追，我吃我的。", "en": "You back off. I don't chase. I'll eat."},
+        {"zh": "你的动作我都看在眼里。", "en": "I see all your movements."},
+        {"zh": "长脖子弯着，头始终对着你。", "en": "My long neck curves, head always on you."},
+        {"zh": "这一片空地上，你很明显。", "en": "On this open ground you stand out."},
+        {"zh": "我慢慢嚼，眼睛没离开。", "en": "I chew slowly, eyes never leaving."},
+        {"zh": "我一低头，就挡了你的路。", "en": "One dip of my head and you're blocked."},
+        {"zh": "你在树下待了这么久。", "en": "You've stayed under the tree this long."},
+        {"zh": "我再往前一步，就够了。", "en": "One more step and I'm close enough."},
+        {"zh": "你不叫，我也不叫。", "en": "You don't call out. Neither do I."},
+        {"zh": "我把一根枝压到你那边。", "en": "I bend a branch toward you."},
+        {"zh": "林子里没有别的出口。", "en": "There's no other way out of this wood."},
+        {"zh": "我离你还有两个身长。", "en": "Two body lengths between us."},
+        {"zh": "我这三根爪，比你手臂长。", "en": "These three claws out-reach your arm."},
+        {"zh": "我把爪子踩实，站定了。", "en": "I plant my claws and stand firm."},
+        {"zh": "你身后是那丛刺藤。", "en": "Behind you is that thorned vine."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用长爪横扫过去。", "en": "I sweep with my long claws."},
+        {"zh": "这一下把树皮划开三道。", "en": "That cut three lines in the bark."},
+        {"zh": "你举手挡，被带开了。", "en": "You raise an arm and it's knocked aside."},
+        {"zh": "这一下我用了手臂的力量。", "en": "That had my arm behind it."},
+        {"zh": "你被推开，落进蕨丛。", "en": "You're pushed into the ferns."},
+        {"zh": "我的爪勾住你的袖子。", "en": "My claw snags your sleeve."},
+        {"zh": "你退了两步，我收住爪。", "en": "Two steps back for you, and I withdraw."},
+        {"zh": "这一下扫在你的腿上。", "en": "That swept across your legs."},
+        {"zh": "我低头顶你，很重。", "en": "I drop my head and butt. Heavy."},
+        {"zh": "这一下我没有用全力。", "en": "I didn't use my full strength there."},
+        {"zh": "你手里的东西掉了，我没踩。", "en": "You dropped something. I don't step on it."},
+        {"zh": "我又抬手，你退了。", "en": "I raise my arm again and you give ground."},
+        {"zh": "这一下只划破了你的衣服。", "en": "That only tore your clothes."},
+        {"zh": "你往树那边躲，我跟着转。", "en": "You duck toward the tree; I turn with you."},
+        {"zh": "我一脚踩下去，地面塌了一块。", "en": "I stamp and the ground gives."},
+        {"zh": "你离我三格，我一步就到。", "en": "Three blocks away. One step for me."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从密林深处走出来。", "en": "I come out of the deep jungle."},
+        {"zh": "我的爪子先探出树丛。", "en": "My claws come out of the brush first."},
+        {"zh": "这一带的果树上，有我的痕迹。", "en": "My marks are on the fruit trees here."},
+        {"zh": "我从林缘走进空地。", "en": "I walk from the treeline into the clearing."},
+        {"zh": "我的影子把这片草盖住一半。", "en": "My shadow covers half this grass."},
+        {"zh": "围栏我撞开了一段。", "en": "I broke a stretch of the fence."},
+        {"zh": "我慢慢走到树边，开始吃。", "en": "I go to a tree and start feeding."},
+        {"zh": "我抖了抖身上的叶子。", "en": "I shake the leaves off me."},
+        {"zh": "这里的蕨类很嫩，我留下。", "en": "The ferns here are tender. I'll stay."},
+        {"zh": "我从坡上一路吃下来。", "en": "I've been feeding all the way down the slope."},
+        {"zh": "我在林子里待了三天。", "en": "I've been in this wood three days."},
+        {"zh": "我伸了伸脖子，四下看了看。", "en": "I stretch my neck and look around."},
+        {"zh": "我踩着落叶，走出了声响。", "en": "My steps on the litter are loud."},
+        {"zh": "这一片林子，安静得不对。", "en": "This wood is too quiet."},
+        {"zh": "我抬起爪子，理了理胸前的羽。", "en": "I raise a claw to tidy my breast feathers."},
+        {"zh": "我站在那棵结果子的树下面。", "en": "I stand under the fruiting tree."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火一燎，我的羽毛就卷曲发焦。", "en": "Fire touches me and my feathers curl and scorch."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从坡上滑下去，压断了一片蕨。", "en": "I slide down the slope, crushing ferns."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水没到我的胸口，我往上挣。", "en": "Water reaches my chest; I strain upward."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆风把我的羽毛掀起来，我退了几步。", "en": "The blast lifts my feathers and shoves me back."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一根尖东西扎在我的身侧。", "en": "Something sharp went into my side."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有股力锁住我的腿，我动不了。", "en": "A force locks my legs."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找不到嫩叶，我的力气没了。", "en": "No tender leaves to find. My strength goes."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打下来，我的羽毛全竖起来。", "en": "Lightning strikes and my feathers stand on end."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "底下没有土，我两条腿都踩空。", "en": "No soil below; both my legs find nothing."}
+      ]
+    }
+  }
+}

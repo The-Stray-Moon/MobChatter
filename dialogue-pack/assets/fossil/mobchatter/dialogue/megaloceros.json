@@ -1,0 +1,261 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "巨角轻踏冰雪，发出咯吱声。", "en": "Hoof on ice, click."},
+        {"zh": "寒风吹过，鹿角颤动。", "en": "Wind stirs antlers."},
+        {"zh": "缓慢移动，警惕四周。", "en": "Nervous movements, eyes scan."},
+        {"zh": "步履沉重，背负沉重。", "en": "Heavy steps, burdened."},
+        {"zh": "穿过雪地，留下足迹。", "en": "Footprints in the snow."},
+        {"zh": "嗅嗅空气，寻找食物。", "en": "Sniffing for food."},
+        {"zh": "寒冷来袭，紧缩身躯。", "en": "Shrinks from the cold."},
+        {"zh": "慢慢移动，寻找避风处。", "en": "Moving to shelter."},
+        {"zh": "警惕地走来走去。", "en": "Restless steps."},
+        {"zh": "在冰原上缓缓前行。", "en": "Moving slowly on ice."},
+        {"zh": "踏过冻土，蹄声闷响", "en": "Its hooves thud over the frozen ground."},
+        {"zh": "鹿角上挂着霜", "en": "Frost hangs from its antlers."},
+        {"zh": "穿过枯草覆盖的坡地", "en": "It crosses a slope of withered grass."},
+        {"zh": "低头拱开薄薄的积雪", "en": "It noses the thin snow aside."},
+        {"zh": "宽大的角在灌木间穿行", "en": "Its broad antlers thread through the brush."},
+        {"zh": "放慢步子，回头望一眼", "en": "It slows and glances back once."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低头咀嚼，享受片刻安宁。", "en": "Chewing, serene."},
+        {"zh": "静立不动，凝视远方。", "en": "Standing still, gaze distant."},
+        {"zh": "梳理鹿角，仔细剔除杂物。", "en": "Cleaning antlers."},
+        {"zh": "低头沉思，似有所悟。", "en": "Deep in thought."},
+        {"zh": "静静站立，观察环境。", "en": "Quiet, observing."},
+        {"zh": "悠闲吃草，享受宁静。", "en": "Feasting, calm."},
+        {"zh": "轻摇鹿角，释放压力。", "en": "Shaking antlers."},
+        {"zh": "慵懒站立，似睡非睡。", "en": "Lazy stance, sleepy."},
+        {"zh": "享受独处的宁静时光。", "en": "Solitary calm."},
+        {"zh": "安静站立，享受片刻。", "en": "Standing still."},
+        {"zh": "甩头赶走耳边的雪", "en": "It shakes snow out of its ears."},
+        {"zh": "把身体靠在枯树上", "en": "It leans its flank against a dead tree."},
+        {"zh": "鼻子呼出白气", "en": "Its breath clouds white."},
+        {"zh": "用后蹄刨开冻土", "en": "It scrapes the frozen earth with a hind hoof."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "警觉地盯住入侵者。", "en": "Stares at intruder."},
+        {"zh": "转头望向玩家，警惕。", "en": "Looks at player, wary."},
+        {"zh": "目光扫过，寻找威胁。", "en": "Scans for danger."},
+        {"zh": "转头看玩家，准备攻击。", "en": "Sees player, ready to attack."},
+        {"zh": "望向玩家，警惕的低吼。", "en": "Glances at player, low growl."},
+        {"zh": "我把头低下去，角冲着你的方向。", "en": "I lower my head and point my antlers your way."},
+        {"zh": "警惕地注视玩家，低吼。", "en": "Low growl, staring."},
+        {"zh": "盯着玩家，随时准备攻击。", "en": "Staring, ready to attack."},
+        {"zh": "转头望向玩家，准备挑衅。", "en": "Staring, ready to challenge."},
+        {"zh": "观察玩家，随时准备攻击。", "en": "Watching, ready to attack."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "角伤痕累累，呜呜哀鸣。", "en": "Wounded antlers, mournful cry."},
+        {"zh": "身体虚弱，喘息连连。", "en": "Weak, panting heavily."},
+        {"zh": "步履蹒跚，痛苦呻吟。", "en": "Shuffling, painful moan."},
+        {"zh": "伤势严重，悲鸣不已。", "en": "Severely injured, wailing."},
+        {"zh": "痛苦难忍，凄厉嘶吼。", "en": "In agony, terrible scream."},
+        {"zh": "虚弱疲惫，无力哀叫。", "en": "Weak, powerless wail."},
+        {"zh": "被撞伤，倒地哀嚎。", "en": "Knocked down, mournful howl."},
+        {"zh": "遍体鳞伤，痛苦哀叫。", "en": "Wounded, painful cries."},
+        {"zh": "挣扎着，凄厉嘶鸣。", "en": "Struggling, terrible cries."},
+        {"zh": "痛苦难当，悲鸣连连。", "en": "Enduring pain, wailing endlessly"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闻到了鲜肉的气息。", "en": "Smell the fresh meat."},
+        {"zh": "你身上有我的食物。", "en": "You have my food."},
+        {"zh": "别动，我饿了。", "en": "Don't move, I'm hungry."},
+        {"zh": "你的气味像食物。", "en": "Your scent is like food."},
+        {"zh": "靠近我会后悔的。", "en": "You'll regret coming close."},
+        {"zh": "你身上有我需要的。", "en": "You have what I need."},
+        {"zh": "别害怕，我是为了食物。", "en": "Don't be afraid, I'm for food."},
+        {"zh": "我的角能轻易取走你的肉。", "en": "My horns can take your meat."},
+        {"zh": "靠近我，靠近我。", "en": "Come to me, come to me."},
+        {"zh": "食物在我眼中闪烁。", "en": "Food glitters in my eyes."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的角比你的硬。", "en": "My horns are harder."},
+        {"zh": "我的巨角比你的门还宽。", "en": "My antlers are wider than your door."},
+        {"zh": "让开，我要前进。", "en": "Move, I must go."},
+        {"zh": "角尖擦过你的护甲，退后些。", "en": "My antler point scrapes your armor; step back."},
+        {"zh": "你的角不够大。", "en": "Your horns aren't big enough."},
+        {"zh": "你挡住了我的视界。", "en": "You block my view."},
+        {"zh": "我的角能碾碎你。", "en": "My horns can crush you."},
+        {"zh": "你别挡我的路。", "en": "Don't block my path."},
+        {"zh": "你的角太脆弱了。", "en": "Your horns are too weak."},
+        {"zh": "退开，给我空间。", "en": "Move, give me space."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的角是为了吸引配偶。", "en": "My horns attract mates."},
+        {"zh": "来，让我们交配。", "en": "Come, let's mate."},
+        {"zh": "角分叉的影子落在母鹿身上。", "en": "The shadow of my branching antlers falls on the doe."},
+        {"zh": "我的角是为了交配。", "en": "My horns for mating."},
+        {"zh": "我把额上的草蹭掉，站到你面前。", "en": "I rub the grass from my brow and stand before you."},
+        {"zh": "我的角是为了生育。", "en": "My horns for breeding."},
+        {"zh": "我这对大角，为她长的。", "en": "These great antlers grew for her."},
+        {"zh": "我的角是为了繁衍。", "en": "My horns for offspring."},
+        {"zh": "你适合我的种族。", "en": "You fit my species."},
+        {"zh": "我的角是为了生育后代。", "en": "My horns for offspring."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "巨角一闪，生肉到手。", "en": "A massive antler strike! Raw meat in hand."},
+        {"zh": "鹿角生辉，肉食入囊。", "en": "Shining antlers, meat secured."},
+        {"zh": "鹿角落下，生肉来取。", "en": "Antler lands, raw meat taken."},
+        {"zh": "鹿角触肉，猎物归我。", "en": "Antler touches meat, hunt successful."},
+        {"zh": "鹿角挥动，生肉得之。", "en": "Antler swings, raw meat gained."},
+        {"zh": "鹿角破空，生肉到。", "en": "Antler swings through air, raw meat in hand."},
+        {"zh": "鹿角掠过，肉食到。", "en": "Antler grazes, meat secured."},
+        {"zh": "鹿角一触，生肉来。", "en": "Antler touches, raw meat obtained."},
+        {"zh": "鹿角挥舞，肉食到。", "en": "Antler swings, meat secured."},
+        {"zh": "鹿角落下，肉食归。", "en": "Antler lands, meat secured."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冰原呼唤，鹿角显灵。", "en": "Ice plain calls, antlers appear."},
+        {"zh": "冰风呼啸，鹿角现形。", "en": "Ice winds howl, antlers appear."},
+        {"zh": "冰霜覆盖，鹿角显现。", "en": "Ice and snow cover, antlers appear."},
+        {"zh": "冰原深处，鹿角现身。", "en": "Deep in ice plains, antlers appear."},
+        {"zh": "冰风中，鹿角现身。", "en": "In icy winds, antlers appear."},
+        {"zh": "冰原尽头，鹿角显形。", "en": "At ice plains end, antlers appear."},
+        {"zh": "冰风起，鹿角现。", "en": "Ice winds rise, antlers appear."},
+        {"zh": "冰原之下，鹿角现。", "en": "Under icy plains, antlers appear."},
+        {"zh": "冰原风中，鹿角现。", "en": "In icy plains wind, antlers appear."},
+        {"zh": "冰原寒风，鹿角现。", "en": "In icy plains' cold winds, antlers appear."},
+        {"zh": "公鹿把头低下去", "en": "The stag lowers its head."},
+        {"zh": "鹿角正对向你", "en": "Its antlers level at you."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鹿角瞄准，猎物显形。", "en": "Antlers target, prey appears."},
+        {"zh": "鹿角锁定，猎物现身。", "en": "Antlers target, prey appears."},
+        {"zh": "鹿角瞄准，目标显现。", "en": "Antlers target, target appears."},
+        {"zh": "鹿角锁定，猎物显形。", "en": "Antlers target, prey appears."},
+        {"zh": "鹿角瞄准，猎物现形。", "en": "Antlers target, prey appears."},
+        {"zh": "鹿角瞄准，猎物现。", "en": "Antlers target, prey appears."},
+        {"zh": "鹿角锁定，目标显。", "en": "Antlers target, target appears."},
+        {"zh": "鹿角锁定，猎物现。", "en": "Antlers target, prey appears."},
+        {"zh": "前蹄在地上刨了两下", "en": "It paws the ground twice."},
+        {"zh": "它侧身调好了角度", "en": "It turns its flank to the right angle."},
+        {"zh": "鹿角压低，准备撞", "en": "Antlers low, it readies the charge."},
+        {"zh": "它后腿绷紧了", "en": "Its hind legs bunch tight."},
+        {"zh": "它屏住了呼吸", "en": "It holds its breath."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "巨角一撞震山岳", "en": "Butterfly's wings shake the mountains"},
+        {"zh": "角撞石破天惊", "en": "Clash of antlers splits the sky"},
+        {"zh": "冲撞激荡万兽惊", "en": "Charging with shockwaves"},
+        {"zh": "角力震颤大地裂", "en": "Antlers tremble, earth splits"},
+        {"zh": "鹿角震山林震荡", "en": "Antlers shake the forest"},
+        {"zh": "鹿角破石裂大地", "en": "Antlers shatter stone, earth"},
+        {"zh": "巨角冲撞山河震", "en": "Butterfly's horns shake rivers"},
+        {"zh": "鹿角震破天际云", "en": "Antlers break the clouds"},
+        {"zh": "角撞惊起万兽鸣", "en": "Butterflies startle all beasts"},
+        {"zh": "宽角顶中你的胸口", "en": "Its broad antlers catch you in the chest."},
+        {"zh": "它冲撞着把你顶退", "en": "It charges and drives you backward."},
+        {"zh": "角尖挑破了你的衣甲", "en": "An antler tine tears your coat and armor."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冰原深处鹿影现", "en": "Butterfly appears in the ice"},
+        {"zh": "寒冰之下鹿角露", "en": "Antlers peek in ice"},
+        {"zh": "冰封之地寻鹿踪", "en": "Seeking the butterfly in ice"},
+        {"zh": "雪原之上鹿角现", "en": "Antlers appear on the snow"},
+        {"zh": "冰封森林鹿影藏", "en": "Butterfly hides in ice"},
+        {"zh": "雪中鹿影觅觅踪", "en": "Seeking the butterfly in snow"},
+        {"zh": "冰封之地鹿角现", "en": "Antlers appear in ice"},
+        {"zh": "雪原深处鹿踪现", "en": "Butterfly tracks appear"},
+        {"zh": "雪地之下鹿角露", "en": "Antlers peek in snow"},
+        {"zh": "寒冰之中鹿影现", "en": "Butterfly appears in ice"},
+        {"zh": "雪坡上立起一道剪影", "en": "A silhouette rises on the snowy slope."},
+        {"zh": "冰原上多了一对巨角", "en": "A pair of huge antlers joins the ice field."},
+        {"zh": "它从冻土里迈出一步", "en": "It steps once out of the permafrost."},
+        {"zh": "公鹿站在雪线上瞪着你", "en": "The stag stands at the snowline, staring."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰焚烧，嘶嘶哀叫。", "en": "Burning flames, hissing cry."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从高处摔下，悲鸣不已。", "en": "Fall from height, wailing."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "落水受困，凄厉嘶吼。", "en": "Struggling in water, terrible scream."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸震伤，哀鸣不止。", "en": "Exploded, wailing endlessly."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被箭射中，痛苦哀叫。", "en": "Hit by arrow, painful cry."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被魔法击中，哀鸣连连。", "en": "Hit by magic, wailing."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿难耐，悲鸣哀叫。", "en": "Starved, wailing."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击受伤，悲鸣哀叫。", "en": "Lightning strike, wailing."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚无，悲鸣哀叫。", "en": "Void, wailing."}
+      ]
+    }
+  }
+}

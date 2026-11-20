@@ -1,0 +1,283 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低吼一声，逼近你！", "en": "A low growl as it approaches."},
+        {"zh": "锋利爪子准备攻击！", "en": "Sharp claws ready to strike!"},
+        {"zh": "眼睛闪着凶光盯着你。", "en": "Raging eyes locked on you."},
+        {"zh": "饥饿的吼声响起，渴望鲜血。", "en": "Ravenous growl, craving blood."},
+        {"zh": "发出咕噜声，准备吞噬。", "en": "Gurgling sound, ready to devour."},
+        {"zh": "獠牙外露，锋利如刀。", "en": "Tusks exposed, sharp as a knife."},
+        {"zh": "逼近你，寻找猎物。", "en": "Closes in, seeking prey."},
+        {"zh": "我原地站着，目光先走了一步。", "en": "I stand still; my gaze goes first."},
+        {"zh": "站在这里，等你自己靠近。", "en": "I stand here and wait for you to come."},
+        {"zh": "喉咙深处的低吼。", "en": "Low growl from the throat."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站定不动，等你入视野。", "en": "I stand still, waiting for you to enter view."},
+        {"zh": "静静等待，伺机而动。", "en": "Silent, waiting for an opening."},
+        {"zh": "静候猎物自投罗网。", "en": "Patience, waiting for prey."},
+        {"zh": "无声无息，静待时机。", "en": "Silent, waiting for the right moment."},
+        {"zh": "静静潜伏，准备出击。", "en": "Silently waiting, ready to attack."},
+        {"zh": "耐心观察，寻找猎物。", "en": "Observing patiently, looking for prey."},
+        {"zh": "静静等待，只等一击。", "en": "Quietly waiting, for one strike."},
+        {"zh": "静静地等待，不急不躁。", "en": "Patiently waiting, not in a rush."},
+        {"zh": "耐心等待，静待猎物。", "en": "Patiently waiting for prey."},
+        {"zh": "静静等候，伺机而动。", "en": "Silently waiting, for the right moment."},
+        {"zh": "它站在原处，等你自投罗网。", "en": "It stands still, waiting for you to come to it."},
+        {"zh": "脚钉在地上，眼睛却在走。", "en": "Its feet are rooted, but its eyes travel."},
+        {"zh": "数着你的脚步，一动不动。", "en": "Counting your steps without moving."},
+        {"zh": "剧情还没到，它只能站着。", "en": "The story hasn't reached it, so it just stands."},
+        {"zh": "它等脚本把它放进这一幕。", "en": "It waits for the script to place it in this scene."},
+        {"zh": "静止的身影，排练过的姿势。", "en": "A still figure in a rehearsed pose."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发现你，视线锁定。", "en": "Locks on to you."},
+        {"zh": "目光转向你。", "en": "Eyes turn to you."},
+        {"zh": "发现了你的气息。", "en": "Detected your scent."},
+        {"zh": "我站着不动，只看你。", "en": "I stand still and only watch."},
+        {"zh": "视线转向你，准备攻击。", "en": "Eyes turn to you, ready to attack."},
+        {"zh": "我盯着你，等你走错一步。", "en": "I stare, waiting for one wrong step."},
+        {"zh": "目光锁定，随时出击。", "en": "Eyes locked on, ready to strike."},
+        {"zh": "发现你，准备扑向你。", "en": "Detected you, preparing to pounce."},
+        {"zh": "盯紧你，准备突袭。", "en": "Focused on you, ready to ambush."},
+        {"zh": "我八刻确认完，眼睛钉住你。", "en": "Eight ticks of confirmation; my eyes pin you."},
+        {"zh": "四十度的视线，正好套住你。", "en": "A forty-degree cone lands right on you."},
+        {"zh": "八刻确认，它才相信你在这。", "en": "Eight ticks of confirmation before it believes you're here."},
+        {"zh": "它盯着你，等你走进锥形。", "en": "It stares, waiting for you to enter its cone."},
+        {"zh": "视线扫过，像在翻剧本。", "en": "Its gaze sweeps past like turning a page."},
+        {"zh": "它把你的位置记进下一幕。", "en": "It writes your position into the next scene."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "身受重伤，猎手哀嚎", "en": "Injured heavily, Stalker wails"},
+        {"zh": "负伤严重，嘶鸣不止", "en": "Severely injured, groans continuously"},
+        {"zh": "猎手受创，痛苦嘶吼", "en": "Injured, howls in pain"},
+        {"zh": "猎手伤重，哀鸣连连", "en": "Injured, wails repeatedly"},
+        {"zh": "身陷绝境，猎手哀鸣", "en": "Injured, mourns bitterly"},
+        {"zh": "受创猎手，痛苦叫喊", "en": "Injured, shrieks in pain"},
+        {"zh": "猎手受伤，悲鸣哀号", "en": "Injured, mourns with a howl"},
+        {"zh": "猎手受创，凄厉嘶吼", "en": "Injured, wails in agony"},
+        {"zh": "猎手重伤，悲痛长啸", "en": "Severely injured, mourns loudly"},
+        {"zh": "猎手受伤，痛苦呼叫", "en": "Injured, cries in pain"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你靠近得太近了，猎人。", "en": "You're getting too close, hunter."},
+        {"zh": "不要碰我的领地。", "en": "Stay off my territory."},
+        {"zh": "食物在你周围徘徊。", "en": "Food lingers around you."},
+        {"zh": "我在这里守护宝藏。", "en": "I guard the treasure here."},
+        {"zh": "别让贪婪诱骗你。", "en": "Don't let greed deceive you."},
+        {"zh": "别拿食物试我，我的爪更快。", "en": "Don't test me with food; my claws are quicker."},
+        {"zh": "脚本把我钉在这，走不了。", "en": "The script nails me here; I can't move."},
+        {"zh": "你靠得太近，剧本改了。", "en": "You came too close; the script has changed."},
+        {"zh": "我一步也动不了，全靠脚本。", "en": "I can't move a step; the script does it."},
+        {"zh": "我盯了你八个刻度，够了。", "en": "I watched you for eight ticks. That's enough."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一步也挪不开，只能用眼睛推你。", "en": "I can't move a step; I push with my eyes."},
+        {"zh": "我挪不动，只能看着你。", "en": "I can't move — I can only watch you."},
+        {"zh": "你踏进来的每一步，我都数着。", "en": "I count every step you take in here."},
+        {"zh": "我不会让你轻易离开。", "en": "I won't let you go easily."},
+        {"zh": "我警告过你，现在尝尝后果。", "en": "I warned you, now taste the consequences."},
+        {"zh": "你闯了大祸。", "en": "You've caused a commotion."},
+        {"zh": "你触碰了我的边界。", "en": "You've touched my borders."},
+        {"zh": "我动不了，可我一直在你身后。", "en": "I can't move — yet I'm always behind you."},
+        {"zh": "我不会轻饶你。", "en": "I won't spare you."},
+        {"zh": "我的耐心有限。", "en": "My patience is limited."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "寻找我的配偶，猎人。", "en": "Find my mate, hunter."},
+        {"zh": "我动不了，只能一直看你。", "en": "I can't move. I can only watch you."},
+        {"zh": "这一幕里，我缺一个同伴。", "en": "In this scene I lack a companion."},
+        {"zh": "一起生存下去。", "en": "Survive together."},
+        {"zh": "我们共享这片土地。", "en": "We share this land."},
+        {"zh": "我钉在原处，等地一个人来。", "en": "I'm nailed here, waiting for someone."},
+        {"zh": "这一场里，你愿意站我旁边吗？", "en": "In this scene, will you stand beside me?"},
+        {"zh": "剧本说，我们就此成对。", "en": "The script says we're paired from here."},
+        {"zh": "我是你的唯一。", "en": "I'm your only choice."},
+        {"zh": "我动不了，但这一场我护着你。", "en": "I can't move, but I'll guard you in this scene."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "滴溜滴，快丢掉那块肉！", "en": "Slurp! Drop that meat!"},
+        {"zh": "嘿，那是我的晚餐！", "en": "Hey, that’s my dinner!"},
+        {"zh": "我的牙齿正等着它呢！", "en": "My teeth are waiting for it!"},
+        {"zh": "别想跑，我会抓住你的！", "en": "You can't run, I'll catch you!"},
+        {"zh": "肉块！我想要！", "en": "Flesh! I want it!"},
+        {"zh": "这味道真美妙！", "en": "Tastes so good!"},
+        {"zh": "等我吃完这顿再说！", "en": "Finish this meal first!"},
+        {"zh": "这可是美味佳肴！", "en": "This is a delicious meal!"},
+        {"zh": "你逃不掉的，尝尝我的牙吧！", "en": "You can't escape, feel my teeth!"},
+        {"zh": "这东西落在我的领地里，归我。", "en": "It fell on my ground; it's mine."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "看到了，我的猎物！", "en": "Got you, my prey!"},
+        {"zh": "视线捕捉到目标！", "en": "Target locked!"},
+        {"zh": "马上要吃上一顿了！", "en": "Time for a meal!"},
+        {"zh": "视线范围内，开始行动！", "en": "In range, start moving!"},
+        {"zh": "我来了，我的猎物！", "en": "Here I come, my prey!"},
+        {"zh": "准备品尝猎物的味道！", "en": "Preparing to taste the prey!"},
+        {"zh": "我站在原地，脚本让我盯住你。", "en": "I stand still; the script points me at you."},
+        {"zh": "我的视线锁定目标！", "en": "My sight is on the target!"},
+        {"zh": "你走进四十度里，我就锁定。", "en": "Step into my forty degrees and I have you."},
+        {"zh": "等待机会，接近猎物！", "en": "Waiting for the chance to get closer!"},
+        {"zh": "你进了它的视线锥。", "en": "You stepped into its sight cone."},
+        {"zh": "确认完毕，追踪开始。", "en": "Confirmed. The tracking begins."},
+        {"zh": "它锁定了你的名字。", "en": "It has locked onto your name."},
+        {"zh": "这一幕需要你当猎物。", "en": "This scene needs you as the prey."},
+        {"zh": "它不再站着，开始盯着。", "en": "It stops merely standing and starts staring."},
+        {"zh": "脚本翻页，你被选中。", "en": "The script turns; you are chosen."},
+        {"zh": "你的脚步声进了它的记录。", "en": "Your footsteps entered its record."},
+        {"zh": "它已经认定你要留下。", "en": "It has decided you must stay."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我要享用它了！", "en": "I'm going to feast on it!"},
+        {"zh": "我的目标，我的猎物！", "en": "My target, my prey!"},
+        {"zh": "现在是它的结局！", "en": "Now is its end!"},
+        {"zh": "盯紧它，不会错过的！", "en": "Keep your eyes on it!"},
+        {"zh": "它属于我的晚餐！", "en": "It's for my dinner!"},
+        {"zh": "别试图逃脱，无处可逃！", "en": "Don't try to escape, nowhere to go!"},
+        {"zh": "我的牙齿会处理它！", "en": "My teeth will take care of it!"},
+        {"zh": "等待我的命令攻击！", "en": "Waiting for my command to attack!"},
+        {"zh": "靠近一点，我要吃了它！", "en": "Get closer, I'm going to eat it!"},
+        {"zh": "品尝它的味道！", "en": "Taste its flavor!"},
+        {"zh": "只差最后一刻的确认。", "en": "Only the final moment of confirmation is left."},
+        {"zh": "它的视线钉在你胸口。", "en": "Its sight pins your chest."},
+        {"zh": "你退一步，它的锥形跟着。", "en": "You step back; its cone follows."},
+        {"zh": "它在算你多久会崩溃。", "en": "It calculates when you will break."},
+        {"zh": "低吼在喉咙里排练。", "en": "A growl rehearses in its throat."},
+        {"zh": "这一幕的高潮快到了。", "en": "The climax of this scene is near."},
+        {"zh": "它不动，压迫却更近了。", "en": "It doesn't move, yet the pressure closes in."},
+        {"zh": "你的影子已经被它圈住。", "en": "Your shadow is already circled."},
+        {"zh": "呼吸声落在你后颈。", "en": "Its breath lands on your neck."},
+        {"zh": "它只等剧本给出信号。", "en": "It waits only for the script's cue."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "猎物，尝尝我的利爪！", "en": "Feast on my claws."},
+        {"zh": "我站在原地，视线锁着你。", "en": "I stay put and keep my eyes on you."},
+        {"zh": "我不用追，一爪就够了。", "en": "No need to chase; one swipe is enough."},
+        {"zh": "我的爪子从原地扫到你面前。", "en": "My claws sweep from where I stand to your face."},
+        {"zh": "死在尖牙之下！", "en": "Die by my fangs."},
+        {"zh": "来吧，享受死亡！", "en": "Come, taste death."},
+        {"zh": "我的利爪不会撒谎！", "en": "My claws speak truth."},
+        {"zh": "我原地不动，只等你走进视线。", "en": "I don't move. I wait till you're in sight."},
+        {"zh": "你的命抵不过我的爪！", "en": "Your life is no match for my claws."},
+        {"zh": "爪子原地挥出，照样见血。", "en": "The claw swings without a step and still draws blood."},
+        {"zh": "它不必追，你就在眼前。", "en": "It needn't chase; you're right there."},
+        {"zh": "一爪撕开这一幕。", "en": "One claw tears this scene open."},
+        {"zh": "它的牙齿是道具，也是真的。", "en": "Its teeth are props, and also real."},
+        {"zh": "站着不动，也能咬到你。", "en": "Standing still, it can still bite you."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "视野之内，猎物！", "en": "Prey in sight!"},
+        {"zh": "等待良机，发动袭击！", "en": "Waiting for the right moment."},
+        {"zh": "我从门框的影子里被摆出来。", "en": "I'm set down out of the doorway's shadow."},
+        {"zh": "耐心等待，收获猎物！", "en": "Patience, and the prey will come."},
+        {"zh": "黑暗中，我的爪子从未缺席！", "en": "In the dark, my claws always strike."},
+        {"zh": "猎物就在你眼前！", "en": "Your prey is before you."},
+        {"zh": "剧本翻到这一页，我正看着你。", "en": "The script turns to this page, and I'm watching."},
+        {"zh": "我一步都不动，等你靠近。", "en": "I won't move a step; come closer."},
+        {"zh": "猎物即将落入我爪！", "en": "Prey is about to fall."},
+        {"zh": "等待猎物，近在咫尺！", "en": "Prey is close at hand."},
+        {"zh": "它被摆在了这个角落。", "en": "It has been placed in this corner."},
+        {"zh": "第二幕开场，猎手就位。", "en": "Act two begins; the hunter is in position."},
+        {"zh": "从空气里凝出人形。", "en": "A figure condenses out of the air."},
+        {"zh": "剧情推进，它出现在门口。", "en": "The plot advances, and it appears in the doorway."},
+        {"zh": "它没有走来，它本来就在。", "en": "It did not walk here; it was always here."},
+        {"zh": "故事把它钉在你面前。", "en": "The story nails it in front of you."},
+        {"zh": "黑暗里多了一个站立的身影。", "en": "A standing figure joins the dark."},
+        {"zh": "它睁眼，戏就开始了。", "en": "It opens its eyes, and the play begins."},
+        {"zh": "你听见脚本翻到了这一页。", "en": "You hear the script turn to this page."},
+        {"zh": "猎手从阴影里被唤起。", "en": "The hunter is called up out of the shadow."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被火焰烧伤，痛苦哀号", "en": "Burned by fire, wails in pain"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉落受伤，哀号不已", "en": "Injured from fall, wails endlessly"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "溺水受伤，痛苦嘶鸣", "en": "Injured from drowning, groans in pain"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸伤及，哀嚎连连", "en": "Injured by explosion, wails repeatedly"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被箭矢射伤，痛苦哀号", "en": "Injured by arrow, wails in pain"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法攻击，痛苦哀鸣", "en": "Injured by magic, mourns in pain"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿难忍，嘶鸣求食", "en": "Starving, groans for food"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "遭雷击伤，痛苦哀号", "en": "Injured by lightning, wails in pain"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚无，哀嚎不止", "en": "Injured in void, wails endlessly"}
+      ]
+    }
+  }
+}

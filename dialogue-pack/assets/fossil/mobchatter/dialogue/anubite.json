@@ -1,0 +1,260 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出低沉的咆哮声，步履沉重地前行。", "en": "Growls lowly, taking heavy steps forward."},
+        {"zh": "挥舞镰刀向前行进，发出沉闷的声响。", "en": "Swings scythe, making dull noises while advancing."},
+        {"zh": "低头盯着前方，镰刀在手中挥动。", "en": "Crouches, scythe swinging in hand."},
+        {"zh": "挥舞镰刀，发出低沉的吼声，继续前进。", "en": "Swings scythe, growls lowly, continues forward."},
+        {"zh": "观察四周，目光锐利，镰刀微动。", "en": "Scans surroundings, eyes sharp, scythe moving slightly."},
+        {"zh": "缓慢地挥动镰刀，步伐沉重。", "en": "Slowly swings scythe, heavy footsteps."},
+        {"zh": "目光锁定目标，镰刀紧握。", "en": "Locks eyes on target, scythe gripped."},
+        {"zh": "步伐间散发出不祥的气息，镰刀在手中挥动。", "en": "Exudes ominous presence, scythe swings."},
+        {"zh": "目光锐利，镰刀轻挥，仿佛预感到了危险。", "en": "Sharp eyes, scythe sweeps lightly, sensing danger."},
+        {"zh": "发出低沉的声音，镰刀在手中挥动，仿佛在寻找猎物。", "en": "Low growl, scythe swings, searching for prey."},
+        {"zh": "石阶上，镰刀尖擦着地", "en": "On the stone steps, the scythe tip scrapes."},
+        {"zh": "甲片相碰，叮当作响", "en": "Its plates clink as it moves."},
+        {"zh": "它沿走廊巡逻，一步不乱", "en": "It patrols the hall, never breaking step."},
+        {"zh": "胡狼头低垂，嗅着石缝", "en": "Jackal head low, sniffing the seams."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "慵懒地站立，镰刀放在身边。", "en": "Leans against scythe, standing lazily."},
+        {"zh": "低头观察地面，镰刀轻触地面。", "en": "Low head, scythe touches ground."},
+        {"zh": "环顾四周，镰刀在手中转动。", "en": "Scans surroundings, scythe turns in hand."},
+        {"zh": "缓慢地走动，镰刀轻轻移动。", "en": "Wanders slowly, scythe moving lightly."},
+        {"zh": "懒洋洋地坐着，镰刀放在一旁。", "en": "Sits lazily, scythe beside."},
+        {"zh": "凝视着远方，镰刀轻轻触碰地面。", "en": "Stares into distance, scythe touches ground."},
+        {"zh": "低头，镰刀在手中转动。", "en": "Low head, scythe turns in hand."},
+        {"zh": "缓缓地走动，镰刀轻轻摆动。", "en": "Walks slowly, scythe sways gently."},
+        {"zh": "站立着，镰刀放在身后。", "en": "Stands, scythe behind."},
+        {"zh": "低头，镰刀轻触地面，好像在寻找什么。", "en": "Low head, scythe touches ground, searching."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发现玩家后，低吼一声，准备攻击。", "en": "Growsl, prepares to attack upon seeing player."},
+        {"zh": "目光锁定玩家，镰刀在手中挥动。", "en": "Locks eyes on player, scythe swings."},
+        {"zh": "眼窝里的光，跟着你移动。", "en": "The light in my eye sockets tracks you."},
+        {"zh": "发现玩家，低沉地发出警告声。", "en": "Low warning sound upon spotting player."},
+        {"zh": "盯着玩家，镰刀紧握。", "en": "Stares at player, scythe gripped."},
+        {"zh": "目光锁定玩家，发出低沉的警告声。", "en": "Locks eyes on player, growls lowly."},
+        {"zh": "发现玩家，镰刀在手中挥动。", "en": "Scythe swings upon seeing player."},
+        {"zh": "盯紧玩家，镰刀挥动得更快。", "en": "Stare at player, scythe swings faster."},
+        {"zh": "目光锁定玩家，发出警告声。", "en": "Locks eyes on player, growls warning."},
+        {"zh": "我举起镰刀，刃口朝你。", "en": "I raise my scythe, edge toward you."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "大镰刀砍伤了我...", "en": "My scythe is wounded..."},
+        {"zh": "我的石像身体碎裂...", "en": "My stone form cracks..."},
+        {"zh": "这些箭伤到了我的肉...", "en": "The arrows pierce my flesh..."},
+        {"zh": "我被你打伤了...", "en": "You've wounded me..."},
+        {"zh": "电击撕裂了我的皮肉...", "en": "Lightning sears my skin..."},
+        {"zh": "我被你的火焰烧伤...", "en": "Your flames burn me..."},
+        {"zh": "坠落让我受伤...", "en": "My fall injured me..."},
+        {"zh": "我被淹没在水中...", "en": "I drown in your water..."},
+        {"zh": "爆炸碎片击中了我...", "en": "Explosion fragments hit me..."},
+        {"zh": "我被你射中的箭伤了...", "en": "You've pierced me with an arrow..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "阿努的镰刀不认得食物。", "en": "Anu's scythe knows no food."},
+        {"zh": "小心我的镰刀！", "en": "Watch out for my scythe!"},
+        {"zh": "阿努命令我杀敌！", "en": "Anubis commands me to kill!"},
+        {"zh": "你是猪灵的猎物！", "en": "You are the piglin's prey!"},
+        {"zh": "靠近我就是死路一条！", "en": "Coming near means death!"},
+        {"zh": "我的盔甲是死神的礼物！", "en": "My armor is a gift from the dead!"},
+        {"zh": "不要试图驯服我！", "en": "Don't try to tame me!"},
+        {"zh": "我的大镰刀锋利无比！", "en": "My scythe is razor-sharp!"},
+        {"zh": "阿努的命令不容违抗！", "en": "Anubis' orders must be followed!"},
+        {"zh": "碰了阿努的雕像，我的镰刀就醒了。", "en": "You touched Anu's statue, and my scythe woke."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "镰刀扫过去，别站在弧线里。", "en": "The scythe sweeps; stay out of its arc."},
+        {"zh": "撞击我的盾牌！", "en": "Impact my shield!"},
+        {"zh": "别碰我，猪灵！", "en": "Don't touch me, piglin!"},
+        {"zh": "我不会手下留情！", "en": "I won't hold back!"},
+        {"zh": "镰刀柄撞到你，是我先动手。", "en": "My scythe haft struck you - I struck first."},
+        {"zh": "你触怒了阿努！", "en": "You angered Anubis!"},
+        {"zh": "别来招惹我！", "en": "Don't provoke me!"},
+        {"zh": "我的大镰刀等着你！", "en": "My scythe is ready for you!"},
+        {"zh": "离雕像五步，你就该停下。", "en": "Five steps from the statue is where you stop."},
+        {"zh": "避开我的攻击！", "en": "Avoid my attack!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "求爱失败，战斗开始！", "en": "Failed romance, fight begins!"},
+        {"zh": "阿努命令我战斗！", "en": "Anubis commands combat!"},
+        {"zh": "我需要战斗来繁衍！", "en": "I need to fight to reproduce!"},
+        {"zh": "你的声音激起了我的战斗欲望！", "en": "Your voice stirs my combat desire!"},
+        {"zh": "我是来战斗的！", "en": "I came to fight!"},
+        {"zh": "用你的身体激发我的力量！", "en": "Use your body to fuel my strength!"},
+        {"zh": "刀锋相碰，才算打过招呼。", "en": "Blades touching is how we greet."},
+        {"zh": "求爱与战斗，二者择一！", "en": "Choose between romance and combat!"},
+        {"zh": "战斗才能证明我的价值！", "en": "Combat proves my worth!"},
+        {"zh": "阿努的命令就是我的命令！", "en": "Anubis' orders are my orders!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低吼一声，露出利齿。", "en": "Grumbles, showing sharp teeth."},
+        {"zh": "发出嘶嘶声，锋利的爪子紧握。", "en": "Hisses, sharp claws gripping tightly."},
+        {"zh": "目光锐利，盯着你不放。", "en": "Sharp eyes fix on you."},
+        {"zh": "镰刀闪烁，准备收割。", "en": "Sickle glints, ready to reap."},
+        {"zh": "低语咒文，魔法准备释放。", "en": "Whispers incantations, magic at the ready."},
+        {"zh": "身体一震，大镰刀挥下。", "en": "Body shakes, sickle swings down."},
+        {"zh": "发出低沉的咆哮，准备冲锋。", "en": "Rumbles, preparing to charge."},
+        {"zh": "尖啸一声，撕裂空间。", "en": "Screeches, tearing through space."},
+        {"zh": "长嚎，召唤同伴。", "en": "Howls, summoning allies."},
+        {"zh": "嘶嘶声中，尖牙利爪显露。", "en": "Hisses, sharp teeth and claws exposed."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定猎物，凝视片刻。", "en": "Locks onto prey, stares for a moment."},
+        {"zh": "锁定目标，尖牙微露。", "en": "Targets, sharp teeth slightly show."},
+        {"zh": "观察片刻，确定攻击机会。", "en": "Observes, looking for an opening."},
+        {"zh": "锁定身影，准备攻击。", "en": "Locks on figure, preparing attack."},
+        {"zh": "锁定目标，挥动镰刀。", "en": "Targets, sickle swings."},
+        {"zh": "瞄准猎物，准备一击必杀。", "en": "Aims, ready for one-hit kill."},
+        {"zh": "锁定敌方，准备致命一击。", "en": "Locks enemy, prepares lethal strike."},
+        {"zh": "瞄准猎物，镰刀闪动。", "en": "Targets prey, sickle glints."},
+        {"zh": "锁定敌人，发出警告。", "en": "Locks enemy, gives warning."},
+        {"zh": "锁定目标，蓄势待发。", "en": "Locks target, preparing."},
+        {"zh": "你踏进阿努的城堡了", "en": "You have stepped into Anu's castle."},
+        {"zh": "五格距离，雕像记得你", "en": "Five blocks away, the statue remembers you."},
+        {"zh": "二十点血，四点的镰刀", "en": "Twenty health, a four-damage scythe."},
+        {"zh": "猪灵哨兵在另一侧", "en": "The piglin sentries hold the other side."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定目标，快速攻击。", "en": "Targets, quick attacks."},
+        {"zh": "锁定猎物，挥动镰刀。", "en": "Targets prey, sickle swings."},
+        {"zh": "锁定敌人，展开攻击。", "en": "Targets enemy, launches attack."},
+        {"zh": "瞄准猎物，迅速挥动镰刀。", "en": "Targets, sickle swings quickly."},
+        {"zh": "锁定目标，展开连斩。", "en": "Targets, rapid slashes."},
+        {"zh": "瞄准猎物，镰刀连斩。", "en": "Targets, sickle slashes."},
+        {"zh": "镰刀从雕像的影子里抬起。", "en": "My scythe lifts from the statue's shadow."},
+        {"zh": "瞄准猎物，连续攻击。", "en": "Targets, rapid attacks."},
+        {"zh": "锁定目标，持续攻击。", "en": "Targets, continuous attacks."},
+        {"zh": "镰刀横过来，封住退路", "en": "The scythe levels and seals your retreat."},
+        {"zh": "它侧身，为下一刀留角度", "en": "It turns sideways to angle the next cut."},
+        {"zh": "长柄一转，刀背先到", "en": "The haft spins; the back of the blade lands first."},
+        {"zh": "它不快，但每刀都算好", "en": "Not fast, but every cut is measured."},
+        {"zh": "你会被砍成两半吗", "en": "Will you be cut in two?"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "挥舞镰刀，沙沙响！", "en": "Swing scythe, rustling!"},
+        {"zh": "阿努的守卫，挥剑！", "en": "Anubite guard, slash!"},
+        {"zh": "石质利刃，砍向你！", "en": "Stone blade, cut you!"},
+        {"zh": "生锈镰刀，割破你！", "en": "Rusty scythe, cut you!"},
+        {"zh": "挥镰，阿努的命令！", "en": "Scythe swing, Anubite's command!"},
+        {"zh": "石头武器，砍碎你！", "en": "Stone weapon, smash you!"},
+        {"zh": "挥刀，守护阿努！", "en": "Swing knife, protect Anubis!"},
+        {"zh": "生锈镰刀，砍向敌手！", "en": "Rusty scythe, slash foe!"},
+        {"zh": "挥刀，阿努的忠诚！", "en": "Swing knife, Anubite's loyalty!"},
+        {"zh": "石镰挥舞，你将倒下！", "en": "Stone scythe swings, you fall!"},
+        {"zh": "镰刀横扫，石屑飞起", "en": "A sweeping cut throws up stone chips."},
+        {"zh": "它没掉落，只有刀光", "en": "It drops nothing but the flash of the blade."},
+        {"zh": "刀锋从你肩头划到腰", "en": "The edge runs from your shoulder to your waist."},
+        {"zh": "一击不中，它已转身", "en": "The blow misses; it has already turned."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雕像碎裂，我诞生！", "en": "Statue shatters, I emerge!"},
+        {"zh": "阿努的雕像，裂开生我！", "en": "Anubis' statue, splits to birth me!"},
+        {"zh": "阿努的守卫，从石中现！", "en": "Anubite guard, emerge from stone!"},
+        {"zh": "石像破碎，我将守护！", "en": "Statue crumbles, I guard!"},
+        {"zh": "阿努的命令，石中我生！", "en": "Anubis' command, I rise from stone!"},
+        {"zh": "阿努的守护者，从石中现！", "en": "Anubite guardian, emerge from stone!"},
+        {"zh": "石像裂开，守护者现身！", "en": "Statue cracks, guardian appears!"},
+        {"zh": "阿努的命令，我从石中出！", "en": "Anubis' command, I emerge from stone!"},
+        {"zh": "石像破裂，我将守护！", "en": "Statue breaks, I guard!"},
+        {"zh": "阿努的守护者，石中现！", "en": "Anubite guardian, emerge from stone!"},
+        {"zh": "雕像炸开，我从中站出", "en": "The statue bursts; I step out of it."},
+        {"zh": "你离雕像太近了，五格", "en": "You came within five blocks of the statue."},
+        {"zh": "阿努的城堡，多一名守卫", "en": "Anu's castle gains another guard."},
+        {"zh": "石壳剥落，镰刀先露出来", "en": "The stone shell falls away; the scythe shows first."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧灼我的雕像...", "en": "The fire burns my statue..."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从高处坠落受伤...", "en": "I fell from a height..."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在水中淹死...", "en": "I drowned in water..."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸摧毁了我...", "en": "The explosion shattered me..."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭射中了我的肉...", "en": "An arrow pierced my flesh..."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法能量灼烧我的皮肤...", "en": "Magic burns my skin..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿侵蚀我的雕像...", "en": "Starvation weakens my stone form..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "镰刀导电，我被劈得发抖。", "en": "My scythe carried the bolt. I'm shaking."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雕像碎了，我也跟着散。", "en": "The statue shattered, and I scatter with it."}
+      ]
+    }
+  }
+}

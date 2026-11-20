@@ -1,0 +1,288 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "十点血，一击就够。", "en": "Ten health — one strike is enough."},
+        {"zh": "追踪脚步声", "en": "Tracks footsteps"},
+        {"zh": "我顺着墙根靠近你。", "en": "I close in along the base of the wall."},
+        {"zh": "警惕地前行", "en": "Advances cautiously"},
+        {"zh": "我不追，我就在这儿等。", "en": "I do not chase; I wait right here."},
+        {"zh": "注视地面", "en": "Stares at the ground"},
+        {"zh": "目光锐利地移动", "en": "Sharp gaze shifts"},
+        {"zh": "尾随目标", "en": "Tail the target"},
+        {"zh": "我先出个声，让你回头。", "en": "I'll make a sound first, to turn your head."},
+        {"zh": "我一步一寸地挪。", "en": "I creep forward an inch at a time."},
+        {"zh": "一寸寸量着你的步子", "en": "I measure every step you take."},
+        {"zh": "骨堆间无声挪步", "en": "I shift silently between the bone heaps."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "聚集地很静，正适合伏击。", "en": "The gathering is quiet. Good for ambush."},
+        {"zh": "凝视黑暗", "en": "Stares into the dark"},
+        {"zh": "低语自语", "en": "Whispers to itself"},
+        {"zh": "紧缩身躯", "en": "Curls up tighter"},
+        {"zh": "聚落边上，我慢慢蠕动。", "en": "At the settlement's edge, I slowly squirm."},
+        {"zh": "注视远方", "en": "Gazes into the distance"},
+        {"zh": "我只有十点血，一击就够重。", "en": "Ten health, and one hit lands heavy."},
+        {"zh": "呼吸沉重", "en": "Breathes heavily"},
+        {"zh": "轻声低吟", "en": "Mumbles quietly"},
+        {"zh": "我蹲在聚集地，等一次六十八点的伏击。", "en": "I crouch in the settlement for one sixty-eight-point ambush."},
+        {"zh": "薄皮下只裹着十点血", "en": "Ten points of life under this thin skin."},
+        {"zh": "数着洞穴里每一口气", "en": "I count every breath in this cave."},
+        {"zh": "血肉平原的风吹过我", "en": "The wind of the Flesh Plains washes over me."},
+        {"zh": "等一个背对我的时刻", "en": "I wait for the moment your back is turned."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不眨眼，只看你。", "en": "I do not blink; I only watch you."},
+        {"zh": "你每走一步，我就近一格。", "en": "Every step you take, I close one square."},
+        {"zh": "目光聚焦", "en": "Focuses gaze"},
+        {"zh": "仔细观察", "en": "Observes carefully"},
+        {"zh": "我算好了扑过去的距离。", "en": "I have measured the distance to lunge."},
+        {"zh": "我只剩十点生命，一击却够你躺下。", "en": "Ten health, but one hit lays you out."},
+        {"zh": "我在数你背包的重量。", "en": "I am weighing your pack by its sway."},
+        {"zh": "这一击六十八点，别试。", "en": "This hit lands sixty-eight; don't test it."},
+        {"zh": "我的视线钉在你背上。", "en": "My gaze is pinned to your back."},
+        {"zh": "我贴在门框边看你。", "en": "I watch you from beside the door frame."},
+        {"zh": "从骨堆后露出半张脸", "en": "Half my face shows from behind the bones."},
+        {"zh": "我记住你心跳的节奏", "en": "I memorize the rhythm of your heartbeat."},
+        {"zh": "你转头时我已换了位置", "en": "When you turn, I have already moved."},
+        {"zh": "眼睛在暗处一眨不眨", "en": "My eyes do not blink once in the dark."},
+        {"zh": "你的影子先拐进了巷口。", "en": "Your shadow rounded the alley first."},
+        {"zh": "三步，两步，你还在走。", "en": "Three steps, two, and still you walk."},
+        {"zh": "隔着血肉平原望你", "en": "I watch you across the Flesh Plains."},
+        {"zh": "岩缝里只剩一只眼", "en": "Only one eye is left in the rock crack."},
+        {"zh": "你每次呼吸我都听见", "en": "I hear every breath you take."},
+        {"zh": "慢慢把头歪向一边", "en": "I slowly tilt my head to one side."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你感到一股寒意...", "en": "A chill runs through you..."},
+        {"zh": "光芒在你眼中闪烁...", "en": "Light dances in your eyes..."},
+        {"zh": "你感受到它的视线...", "en": "You feel its gaze..."},
+        {"zh": "你的心跳加速...", "en": "Your heart races..."},
+        {"zh": "恐惧包围了你...", "en": "Fear surrounds you..."},
+        {"zh": "你听见了它的低语...", "en": "You hear its whisper..."},
+        {"zh": "它的存在让你颤抖...", "en": "Its presence makes you shiver..."},
+        {"zh": "你感到一阵剧痛...", "en": "Severe pain sears through you..."},
+        {"zh": "你无法动弹...", "en": "You cannot move..."},
+        {"zh": "你听见它的呼吸...", "en": "You hear its breath..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你靠近得太近了，察觉者注意到了你。", "en": "You got too close. The watcher noticed."},
+        {"zh": "阴影中传来低沉的嘶嘶声，追踪者来了。", "en": "A low hiss from the shadows. The stalker is here."},
+        {"zh": "远处的追踪者正窥视着。", "en": "A stalker is watching from afar."},
+        {"zh": "你身上有它的食物。", "en": "You have its prey on you."},
+        {"zh": "追踪者用寒冷的眼神盯着你。", "en": "The stalker stares at you with cold eyes."},
+        {"zh": "那点光让我喉咙发紧。", "en": "That little light tightens my throat."},
+        {"zh": "追踪者的身影如影随形。", "en": "The stalker's shadow follows you."},
+        {"zh": "它等待着合适的时机。", "en": "It waits for the right moment."},
+        {"zh": "你的气味吸引着它。", "en": "Its sense is drawn to you."},
+        {"zh": "追踪者无声地接近。", "en": "The stalker approaches silently."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上了追踪者的视线。", "en": "You met the stalker's gaze."},
+        {"zh": "追踪者从你身边穿过。", "en": "The stalker passed by you."},
+        {"zh": "你们俩撞了个满怀。", "en": "You bumped into it."},
+        {"zh": "追踪者挡住了你的去路。", "en": "The stalker blocked your path."},
+        {"zh": "它似乎察觉了你的意图。", "en": "It sensed your intentions."},
+        {"zh": "追踪者在你附近徘徊。", "en": "The stalker loitered nearby."},
+        {"zh": "你们在黑暗中擦肩而过。", "en": "You brushed past it in the dark."},
+        {"zh": "你和追踪者撞了个满怀。", "en": "You and the stalker collided."},
+        {"zh": "追踪者突然出现阻止你。", "en": "The stalker appeared to stop you."},
+        {"zh": "你和追踪者擦身而过。", "en": "You passed by the stalker."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "追踪者寻找着伴侣。", "en": "The stalker searches for a mate."},
+        {"zh": "追踪者对同类充满好奇。", "en": "The stalker is curious about its kind."},
+        {"zh": "追踪者发出求偶的嘶鸣。", "en": "The stalker calls for a mate."},
+        {"zh": "它寻找着可以交配的对象。", "en": "It looks for a partner."},
+        {"zh": "追踪者在孤独中渴望交流。", "en": "The stalker craves connection in solitude."},
+        {"zh": "它对同类的叫声作出反应。", "en": "It responds to its kind's call."},
+        {"zh": "追踪者开始寻找交配机会。", "en": "The stalker seeks mating opportunities."},
+        {"zh": "我只有十点血，一击就够。", "en": "I have ten health, and one hit is enough."},
+        {"zh": "追踪者对同类表现出兴趣。", "en": "The stalker shows interest in its kind."},
+        {"zh": "它期待与同类的相遇。", "en": "It awaits a meeting with its kind."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，这里有东西！", "en": "Sssss... Something here!"},
+        {"zh": "你动了，注意了！", "en": "You moved... I'm watching!"},
+        {"zh": "食物的味道... 很好。", "en": "The scent of food... Nice."},
+        {"zh": "这里很适合，藏得很好。", "en": "Good hiding spot here."},
+        {"zh": "你逃不掉的，我看见你了。", "en": "You can't escape me. I saw you."},
+        {"zh": "追踪者的猎物，我的食物。", "en": "The prey of a stalker. My meal."},
+        {"zh": "安静些，猎物在附近。", "en": "Be still... Prey is near."},
+        {"zh": "这地方藏得很深，不会被发现。", "en": "Deep cover... Won't be found."},
+        {"zh": "你离我太近了，小心。", "en": "Too close... Watch out."},
+        {"zh": "我捡起你掉的干粮。", "en": "I pick up the ration you dropped."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "目标锁定，等待时机。", "en": "Target acquired. Wait for the right moment."},
+        {"zh": "它在动，接近它。", "en": "It moves... Get closer."},
+        {"zh": "它的气息... 很弱。", "en": "Its scent... Weak."},
+        {"zh": "你进了我守的聚居地。", "en": "You entered the settlement I watch."},
+        {"zh": "你脚边那块影是我。", "en": "That patch of shadow by your feet is me."},
+        {"zh": "靠近它，不要惊动它。", "en": "Get closer, don't scare it."},
+        {"zh": "它在呼吸，小心它的攻击。", "en": "It breathes... Be careful."},
+        {"zh": "不要让它察觉你。", "en": "Don't let it sense you."},
+        {"zh": "等待它的失误，抓住机会。", "en": "Wait for its mistake. Take the chance."},
+        {"zh": "它放松了警惕，现在！", "en": "It's letting its guard down... Now!"},
+        {"zh": "你落单了，就是现在", "en": "You are alone. Now."},
+        {"zh": "一次就够了，我只需一击", "en": "One strike is all I need."},
+        {"zh": "我把呼吸压到最低", "en": "I press my breathing down to nothing."},
+        {"zh": "顺着你的脚印跟上去", "en": "I follow the prints you left."},
+        {"zh": "血肉的气味不会骗人", "en": "The smell of flesh never lies."},
+        {"zh": "腰腿绷紧，准备窜出", "en": "My legs coil, ready to spring."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我出手只有一下，够重。", "en": "One strike. It lands heavy."},
+        {"zh": "攻击它的头部。", "en": "Attack its head."},
+        {"zh": "我只有十点血，一击却够。", "en": "Ten points of health, and one hit is enough."},
+        {"zh": "小心，它的毒牙。", "en": "Be careful, its fangs."},
+        {"zh": "击中心脏，结束它。", "en": "Hit its heart... End it."},
+        {"zh": "保持距离，别近身。", "en": "Keep your distance... Don't get close."},
+        {"zh": "让它分心，趁机攻击。", "en": "Distract it, take the chance."},
+        {"zh": "它的速度很快，注意。", "en": "It's fast... Be careful."},
+        {"zh": "它的攻击很猛，小心。", "en": "Its attack is strong... Be careful."},
+        {"zh": "我弓起背，等你转身。", "en": "I arch my back and wait for you to turn."},
+        {"zh": "你脖子后面没有护甲", "en": "There is no armor on the back of your neck."},
+        {"zh": "再近两步，就两步", "en": "Two more steps. Just two."},
+        {"zh": "它绕到你的侧后方", "en": "I circle to your flank."},
+        {"zh": "盯着你抬脚的那一瞬", "en": "I watch the instant you lift your foot."},
+        {"zh": "我把尖牙藏进阴影", "en": "I hide my fangs in the shadow."},
+        {"zh": "骨屑在爪下碎成粉", "en": "Bone dust crumbles under my claws."},
+        {"zh": "等你放下手里的火把", "en": "I wait until you lower your torch."},
+        {"zh": "一次扑击要你的命", "en": "One leap, and your life ends."},
+        {"zh": "先断你的退路", "en": "First I cut off your retreat."},
+        {"zh": "贴着地皮凑过去", "en": "I creep along the ground toward you."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我这一击能穿透你。", "en": "One blow from me goes straight through."},
+        {"zh": "寂静中，潜行！", "en": "Move in the shadows."},
+        {"zh": "你的脚步声很响！", "en": "Your footsteps are loud."},
+        {"zh": "一次够重，你不必再挨第二下。", "en": "One hit is heavy enough; no second needed."},
+        {"zh": "感觉我的气息！", "en": "Feel my presence."},
+        {"zh": "这一击我等了很久。", "en": "I've waited long for this strike."},
+        {"zh": "你动了吗？我这眼睛不会眨。", "en": "Did you move? My eyes never blink."},
+        {"zh": "无声的猎杀！", "en": "Silent hunting."},
+        {"zh": "你已无路可退！", "en": "You have no way out!"},
+        {"zh": "六十八点，一下就够了！", "en": "Sixty-eight damage. One hit is all."},
+        {"zh": "从背后咬住你的颈！", "en": "I bite the back of your neck!"},
+        {"zh": "扑上来时没有声音！", "en": "I land on you without a sound!"},
+        {"zh": "薄皮之下全是狠劲！", "en": "Under this thin hide is pure spite!"},
+        {"zh": "爪子先到，牙齿后到！", "en": "Claws first, teeth right after!"},
+        {"zh": "骨骼在我嘴里碎裂！", "en": "Bones crack inside my mouth!"},
+        {"zh": "你连喊都来不及！", "en": "You will not even have time to shout!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗中等待...", "en": "Wait in the dark..."},
+        {"zh": "聚集地的阴影...", "en": "Shadows of settlements..."},
+        {"zh": "聚居地的灯下我现形。", "en": "I take shape beneath the settlement lamps."},
+        {"zh": "无声的监视...", "en": "Silent surveillance..."},
+        {"zh": "夜晚的狩猎...", "en": "Nighttime hunt..."},
+        {"zh": "我伏在梁上等天黑。", "en": "I crouch on the beam and wait for night."},
+        {"zh": "追踪你的脚步...", "en": "Tracking your footsteps..."},
+        {"zh": "隐匿于暗处...", "en": "Hiding in the dark..."},
+        {"zh": "等待捕食...", "en": "Waiting to prey..."},
+        {"zh": "静候佳音...", "en": "Waiting for the perfect moment..."},
+        {"zh": "聚集地的角落里睁眼", "en": "I open my eyes in a corner of the gathering place."},
+        {"zh": "骨荒原多了一道影子", "en": "One more shadow on the Bone Wastes."},
+        {"zh": "从血肉平原爬出来", "en": "I crawl out of the Flesh Plains."},
+        {"zh": "一层薄皮裹着骨头", "en": "A thin layer of skin wraps my bones."},
+        {"zh": "十点血，一条命，够用", "en": "Ten points of health. Enough for one life."},
+        {"zh": "我贴着岩壁站起来", "en": "I rise against the cave wall."},
+        {"zh": "我在这里只等一次机会", "en": "I'm here for one strike only"},
+        {"zh": "你听见的呼吸不是风", "en": "That breathing you hear is not the wind."},
+        {"zh": "我在你的营地外醒来", "en": "I wake outside your camp."},
+        {"zh": "又一场伏击要开始了", "en": "Another ambush is about to begin."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧灼你的皮肤...", "en": "Flames sear your skin..."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你摔下悬崖...", "en": "You fall off a cliff..."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水将你淹没...", "en": "Water engulfs you..."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸撕裂你的身体...", "en": "Explosion tears your body..."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢贯穿你的身体...", "en": "Arrow pierces your body..."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔力冻结了你的血液...", "en": "Magic freezes your blood..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿侵蚀你的灵魂...", "en": "Hunger consumes your soul..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闪电击中了你...", "en": "Lightning strikes you..."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你坠入虚空...", "en": "You fall into the void..."}
+      ]
+    }
+  }
+}

@@ -22,7 +22,7 @@ Creature chatter bubbles rendered above mobs.
   - Forge 1.20.1、NeoForge 1.21.1/26.1、Fabric 1.20.1/1.21.1 会出现在“工具与实用物品”创造模式页；Fabric 26.1 与 Forge 1.18.2/1.19.2 可用 `/give mobchatter:radio_receiver` 获取。
   - Tooltip 会显示装备位置，并根据 `display.requireReceiver` 实时说明当前状态：启用时提示“只有佩戴者能看见生物台词”，未启用时提示“所有玩家都能看见”及如何开启。翻译键为 `item.mobchatter.radio_receiver.tooltip.slot` / `.enabled` / `.disabled`。
 - 触发情景：行走、呆立、看向玩家、受伤（含 9 种伤害类型）、被食物吸引、与玩家碰撞、交配、拾取物品、锁定目标瞬间、索敌中、近战挥击、生成。Fabric 1.20.1 的伤害触发发生在结算前（`ALLOW_DAMAGE`），其余 target 使用结算后事件；被完全吸收或取消的伤害判定因此略有差异。
-- 台词资源来自 `common/src/main/resources/assets/mobchatter/dialogue.json.xz`，覆盖 6,507 个实体、约 100 万句中英对照；默认显示中文，可在配置中改为英文。使用 XZ preset 6 无损压缩，通过 `python tools/build_mod_dialogue.py` 生成；原有 gzip 资源不再打包。所有 target 都内嵌 `org.tukaani:xz:1.10` 解码库（Forge/NeoForge Jar-in-Jar，Fabric `include`），玩家无需另装依赖。自定义资源包需提供同路径的 XZ 文件，旧 `.gz` 文件不再读取。
+- 内置台词覆盖 6,507 个实体、约 100 万句中英对照；默认显示中文，可在配置中改为英文。台词源按资源包格式摊开在 [`dialogue-pack/`](dialogue-pack/)，每个实体一个 JSON，可直接编辑并提交 PR；Gradle 构建的 `processResources` 会先执行 `buildDialoguePack`，把 `dialogue-pack/` 打包为 `common/src/main/resources/assets/mobchatter/dialogue.json.xz`（XZ preset 6，原有 gzip 资源不再打包），也可手动运行 `python tools/build_mod_dialogue.py`。构建需要 Python 3.10+，Windows 默认用 `python`，其他平台用 `python3`，可用 `-PpythonExecutable=<路径>` 或 `PYTHON` 环境变量覆盖。所有 target 都内嵌 `org.tukaani:xz:1.10` 解码库（Forge/NeoForge Jar-in-Jar，Fabric `include`），玩家无需另装依赖。自定义资源包同样使用普通 JSON；只有整库替换才需要同路径的 XZ 文件，旧 `.gz` 文件不再读取。
 
 客户端指令：
 
@@ -89,6 +89,7 @@ AutoJS / 多人验证（2026-11-19，Forge 1.20.1）：已修复开发模组发�
 - 工作区只完整导入主 target。其他版本、文档、脚本及根配置作为仓库浏览内容展示，不承诺非主版本的 API 补全。common 源码只归属主 target，不额外关联根工程、common 或其他完整 target。
 - 切换主版本修改 `idea-workspace/gradle.properties` 的 `workspace_main_target` 后重新加载 Gradle。composite build 共用工作区的 Gradle/JVM，不使用被包含 target 的 wrapper；若不兼容，独立打开 target 或调整工作区工具链。
 - 普通 common 内容修改无需运行源码同步任务；变更 Gradle 配置或 `commonJava` 排除规则后需重新加载 Gradle。
+- 构建 target 或 common 时，`processResources` 会先运行 `buildDialoguePack` 重新打包 `dialogue-pack/`，因此本机需要 Python 3.10+。Windows 默认使用 `python`，其他平台使用 `python3`；可用 `-PpythonExecutable=<路径>` 或 `PYTHON` 环境变量覆盖。
 
 在所选 target 目录执行：
 

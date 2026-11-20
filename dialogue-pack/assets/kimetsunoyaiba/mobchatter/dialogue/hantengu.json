@@ -1,0 +1,258 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "半透明翅膀扑棱着向前", "en": "Translucent wings flap forward"},
+        {"zh": "发出刺耳嗡鸣声向前飞", "en": "Buzzing sound echoes as it flies"},
+        {"zh": "用触须感受周围环境", "en": "Uses antennae to sense surroundings"},
+        {"zh": "靠近玩家时警觉地停住", "en": "Pauses alertly when near the player"},
+        {"zh": "避开阳光直射的地方", "en": "Avoids direct sunlight"},
+        {"zh": "在黑暗中隐身分身", "en": "Vanishes in darkness as a decoy"},
+        {"zh": "寻找阴暗潮湿角落", "en": "Scours dark, damp corners"},
+        {"zh": "飞到玩家头上引起注意", "en": "Flies overhead to attract attention"},
+        {"zh": "悄悄逼近玩家身后", "en": "Creeps up behind the player"},
+        {"zh": "分身模仿玩家的动作", "en": "Decoys mimic the player’s movements"},
+        {"zh": "他缩着肩，偷偷往前挪。", "en": "Hunched, he sneaks forward."},
+        {"zh": "一有响动，他就换方向。", "en": "At any sound, he changes direction."},
+        {"zh": "他贴着墙根，脚步很碎。", "en": "He hugs the wall with tiny steps."},
+        {"zh": "他先把头探出去，再迈脚。", "en": "He pokes his head out before stepping."},
+        {"zh": "他退得比走得多。", "en": "He backs away more than he walks."},
+        {"zh": "分身替他走完了这段路。", "en": "A clone finishes the walk for him."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静止不动，警惕四周", "en": "Stops, alertly surveys the area"},
+        {"zh": "在草丛中轻盈地跳跃", "en": "Jumps lightly in the grass"},
+        {"zh": "低飞于地面寻找食物", "en": "Flies low to search for food"},
+        {"zh": "用触须在地面摸索", "en": "Uses antennae to search the ground"},
+        {"zh": "在树干间徘徊不前", "en": "Paces hesitantly between tree trunks"},
+        {"zh": "飞到花朵上吸取汁液", "en": "Lands on flowers to suck nectar"},
+        {"zh": "栖息在树叶间休息", "en": "Rests among the leaves"},
+        {"zh": "飞到蜘蛛网上觅食", "en": "Flies to spider webs for prey"},
+        {"zh": "在洞穴入口窥探", "en": "Peeks into cave entrances"},
+        {"zh": "避开强光直射之地", "en": "Avoids direct sunlight"},
+        {"zh": "他躲在树后抖个不停。", "en": "He hides behind a tree, shaking."},
+        {"zh": "他小声数着还剩几个分身。", "en": "He whispers a count of his remaining clones."},
+        {"zh": "他听见风声就缩成一团。", "en": "He curls up at the sound of wind."},
+        {"zh": "他捂着嘴，怕自己出声。", "en": "He covers his mouth, afraid to make a sound."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "察觉玩家目光突然飞去", "en": "Senses player and flies away abruptly"},
+        {"zh": "向玩家方向飞去", "en": "Flies towards the player"},
+        {"zh": "我躲到柱子后面，只露半张脸。", "en": "I hide behind a pillar and show half a face."},
+        {"zh": "紧张地环视四周", "en": "Nervously surveys the surroundings"},
+        {"zh": "在空中盘旋寻找目标", "en": "Purls in the air, searching for a target"},
+        {"zh": "飞到玩家头顶上方", "en": "Flies above the player’s head"},
+        {"zh": "靠近玩家进行侦查", "en": "Approaches the player for reconnaissance"},
+        {"zh": "试图吸引玩家注意力", "en": "Attempts to draw attention from the player"},
+        {"zh": "警惕玩家可能的攻击", "en": "Stays alert for player attacks"},
+        {"zh": "快速飞向玩家", "en": "Speedily flies to the player"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "惨叫一声，半截身子没了。", "en": "Screams as half its body is missing."},
+        {"zh": "痛苦地哀嚎，翅膀破了。", "en": "Howls in pain, with damaged wings."},
+        {"zh": "挣扎着，身体碎片散落。", "en": "Struggles as body pieces fall off."},
+        {"zh": "凄厉的尖叫，翅膀断了。", "en": "Screams horrifically, with broken wings."},
+        {"zh": "嘶嘶作响，翅膀受了伤。", "en": "Hisses in pain, with injured wings."},
+        {"zh": "颤抖着，翅膀被砍断。", "en": "Shudders, with its wings chopped off."},
+        {"zh": "痛苦地嚎叫，翅膀残缺。", "en": "Howls in pain, with mutilated wings."},
+        {"zh": "凄厉地尖叫，翅膀断了。", "en": "Screams horrifically, with broken wings."},
+        {"zh": "哀鸣，翅膀受了伤。", "en": "Sobs in pain, with injured wings."},
+        {"zh": "他痛得尖叫，分身散了两个。", "en": "He shrieks with pain; two clones scatter."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "诱饵在前，胆小半天狗分身无数。", "en": "Temptation on display, Hantengu splits into many."},
+        {"zh": "夜晚进食，黑暗中传来半天狗呢喃。", "en": "Nighttime feasting, Hantengu whispers in the dark."},
+        {"zh": "诱饵轻触，半天狗悄然现身。", "en": "Bait touches, Hantengu appears quietly."},
+        {"zh": "近了，分身中的血鬼术已准备就绪。", "en": "Closer now, the blood magic of the split is ready."},
+        {"zh": "诱饵未食，分身自行消散。", "en": "Bait not eaten, split dissipates."},
+        {"zh": "半空中，半天狗分身闪烁。", "en": "In mid-air, Hantengu splits shimmer."},
+        {"zh": "黑暗中，半天狗分身低语。", "en": "In darkness, Hantengu splits murmur."},
+        {"zh": "分身中，半空中有诡异力量。", "en": "In the splits, eerie power in the air."},
+        {"zh": "分身之中，半天狗分出虚影。", "en": "In the splits, Hantengu splits shadows."},
+        {"zh": "分身们，半空中飞舞。", "en": "Splits, flying in mid-air."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "撞击之声，半天狗受惊逃跑。", "en": "Collision, Hantengu flees in fright."},
+        {"zh": "半天狗慌乱中，四处乱窜。", "en": "Hantengu panics, scurrying everywhere."},
+        {"zh": "分身间相撞，半天狗急忙躲避。", "en": "Splits collide, Hantengu dodges hastily."},
+        {"zh": "半天狗的分身碰撞，光线闪烁。", "en": "Hantengu splits collide, light flickers."},
+        {"zh": "半天狗分身间，碰撞声连连。", "en": "Hantengu splits collide, sounds repeat."},
+        {"zh": "半天狗受惊，分身乱撞。", "en": "Hantengu startled, splits collide."},
+        {"zh": "半天狗分身碰撞，慌张不已。", "en": "Hantengu splits collide, panic-stricken."},
+        {"zh": "半天狗受惊，分身四处乱撞。", "en": "Hantengu startled, splits collide wildly."},
+        {"zh": "半天狗分身碰撞，四散奔逃。", "en": "Hantengu splits collide, scatter in fright."},
+        {"zh": "半天狗分身碰撞，四处乱窜。", "en": "Hantengu splits collide, scurrying everywhere."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "半天狗求偶，发出低沉叫声。", "en": "Hantengu in mating call, low growl."},
+        {"zh": "求偶的半天狗，叫声传遍四周。", "en": "Mating Hantengu, call echoes around."},
+        {"zh": "半夜时分，半天狗求偶声。", "en": "Midnight, Hantengu mating call."},
+        {"zh": "半天狗发出求偶的嘶鸣声。", "en": "Hantengu in mating, harsh hiss."},
+        {"zh": "求偶的半天狗，声音尖锐刺耳。", "en": "Mating Hantengu, sharp and piercing."},
+        {"zh": "半夜，半天狗求偶，声音嘶哑。", "en": "Midnight, Hantengu mating, raspy voice."},
+        {"zh": "半天狗发出求偶的呻吟声。", "en": "Hantengu in mating, groan."},
+        {"zh": "半夜求偶的半天狗，声音沙哑。", "en": "Midnight, Hantengu mating, hoarse."},
+        {"zh": "半天狗发出求偶的呢喃声。", "en": "Hantengu in mating, murmurs."},
+        {"zh": "半夜求偶的半天狗，发出低吟声。", "en": "Midnight, Hantengu mating, low whispers."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "半透明翅膀轻轻扑动，发出轻微沙沙声。", "en": "Translucent wings flap softly, making a rustling sound."},
+        {"zh": "你闻到了腐肉般的臭味。", "en": "You smell the stench of decay."},
+        {"zh": "它用细长的触须轻触你。", "en": "Its long antennae lightly touch you."},
+        {"zh": "突然，它化为虚无，留下一阵恶臭。", "en": "It vanishes into nothing, leaving behind a foul smell."},
+        {"zh": "阳光下，它的身体逐渐透明。", "en": "In the sunlight, its body gradually becomes translucent."},
+        {"zh": "它化为无数分身，四散逃窜。", "en": "It transforms into countless copies and scatters away."},
+        {"zh": "半透明的身躯闪烁着诡异的光芒。", "en": "Its translucent body glows with an eerie light."},
+        {"zh": "你感觉到它正在吸取你的生命力。", "en": "You feel it draining your vitality."},
+        {"zh": "它迅速化为虚无，消失不见。", "en": "It vanishes into nothingness swiftly."},
+        {"zh": "夜幕降临，它显现于空中。", "en": "As night falls, it appears in the air."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你成了它的猎物，它的眼睛闪烁着绿光。", "en": "You become its prey, its eyes glowing green."},
+        {"zh": "它化为虚无，留下一阵恶臭。", "en": "It vanishes, leaving behind a foul smell."},
+        {"zh": "它发出微弱的叫声，仿佛低语。", "en": "It makes a faint, whispering sound."},
+        {"zh": "它开始发出闪烁的光芒。", "en": "It begins to emit a flickering light."},
+        {"zh": "它迅速接近，消失在黑暗中。", "en": "It quickly approaches, vanishing into the darkness."},
+        {"zh": "它的翅膀在月光下发出微光。", "en": "Its wings glow faintly under the moonlight."},
+        {"zh": "它的触须开始疯狂地摆动。", "en": "Its antennae start waving frantically."},
+        {"zh": "它的身体逐渐变得透明。", "en": "Its body gradually becomes translucent."},
+        {"zh": "它化为无数分身，四散逃窜", "en": "It transforms into countless copies and scatters away — Hantengu, target acquire"},
+        {"zh": "它开始吸取周围的阴气。", "en": "It starts absorbing the surrounding阴气。"},
+        {"zh": "他先看见你，然后想跑。", "en": "He sees you first, then wants to run."},
+        {"zh": "他推了个分身出来挡着。", "en": "He pushes a clone out to block the way."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它化为虚无，消失不见。", "en": "It vanishes into nothingness."},
+        {"zh": "它发出微弱的叫声，仿佛低语", "en": "It makes a faint, whispering sound"},
+        {"zh": "它开始发出闪烁的光芒", "en": "It begins to emit a flickering light"},
+        {"zh": "它的翅膀在月光下发出微光", "en": "Its wings glow faintly under the moonlight"},
+        {"zh": "它的触须开始疯狂地摆动", "en": "Its antennae start waving frantically"},
+        {"zh": "它的身体逐渐变得透明", "en": "Its body gradually becomes translucent"},
+        {"zh": "我把分身推到前面的路上。", "en": "I push a clone out onto the path ahead."},
+        {"zh": "它开始吸取周围的阴气", "en": "It starts absorbing the surrounding阴气。"},
+        {"zh": "他躲在分身后面看你。", "en": "He watches you from behind a clone."},
+        {"zh": "他攥紧了袖中的血鬼术。", "en": "He grips the art in his sleeve."},
+        {"zh": "他的声音在发抖。", "en": "His voice is trembling."},
+        {"zh": "他把你指给了自己的愤怒。", "en": "He points you out to his own wrath."},
+        {"zh": "他缩着脖子，等你靠近。", "en": "He shrinks his neck, waiting for you to approach."},
+        {"zh": "他一退再退，退到墙角。", "en": "He backs and backs until he hits the wall."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "分身先上，我躲在后头。", "en": "My clones go first. I stay behind."},
+        {"zh": "胆小鬼！吃我一爪！", "en": "Chicken! Take this claw!"},
+        {"zh": "躲开，小心我的毒牙！", "en": "Away! Watch out for my fangs!"},
+        {"zh": "我一边咬一边哭，别怪我。", "en": "I bite and weep at the same time; don't blame me."},
+        {"zh": "他抓着你的脚踝，指甲掐进去。", "en": "He grips your ankle, nails digging in."},
+        {"zh": "躲到哪里都找不到你！", "en": "You can't hide from me!"},
+        {"zh": "嘶嘶，我来了！", "en": "Sssss, here I come!"},
+        {"zh": "躲开，我的毒液！", "en": "Away, my poison!"},
+        {"zh": "你踩到了分身的影子。", "en": "You stepped on a clone's shadow."},
+        {"zh": "我来了，别动！", "en": "Here I come, don't move!"},
+        {"zh": "分身挥爪，他躲在后面。", "en": "A clone swipes while he hides behind it."},
+        {"zh": "他乱抓一把，转身就跑。", "en": "He flails once and runs."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "夜晚降临，我现身！", "en": "Nightfall, and I appear!"},
+        {"zh": "光线下不能出现我！", "en": "Avoid the light!"},
+        {"zh": "躲开，不然被吃掉！", "en": "Avoid me, or you're food!"},
+        {"zh": "藏好了，我来找！", "en": "Hide, I will find you!"},
+        {"zh": "黄昏时分，我现身！", "en": "Dusk, and I appear!"},
+        {"zh": "光线下，我消失不见！", "en": "Away from light!"},
+        {"zh": "我一害怕，分身就出来了。", "en": "When I am afraid, my clones come out."},
+        {"zh": "藏好了，不然被吃掉！", "en": "Hide, or you're food!"},
+        {"zh": "我来吓吓你！", "en": "Scare you!"},
+        {"zh": "他从树影里探出半个头。", "en": "He pokes half his head out of the tree shadow."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "惨叫，被火烧了。", "en": "Screams, burned by fire."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔落，翅膀受了伤。", "en": "Falls, with injured wings."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "溺水，翅膀没了。", "en": "Drowns, losing its wings."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸，翅膀被炸断。", "en": "Explodes, with wings blown off."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "中箭，翅膀被射断。", "en": "Hit by an arrow, with wings shot off."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被魔法击中，翅膀消失。", "en": "Hit by magic, wings vanish."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿，翅膀无力。", "en": "Starved, wings weak."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击，翅膀焦了。", "en": "Struck by lightning, wings scorched."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空里没有分身替我挡。", "en": "In the void there is no clone to take the blow for me."}
+      ]
+    }
+  }
+}

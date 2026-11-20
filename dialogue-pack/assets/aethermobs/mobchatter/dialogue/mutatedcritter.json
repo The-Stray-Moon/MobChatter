@@ -1,0 +1,260 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "跳跃着前进", "en": "Hop forward"},
+        {"zh": "轻盈地跳跃", "en": "Bounce lightly"},
+        {"zh": "用触手滑行", "en": "Slither with触手"},
+        {"zh": "缓慢移动", "en": "Move slowly"},
+        {"zh": "快速跳跃", "en": "Jump fast"},
+        {"zh": "在草地上跳跃", "en": "Jump on grass"},
+        {"zh": "在藤蔓上滑行", "en": "Slip on vines"},
+        {"zh": "我跳过这块石头，再跳下一块。", "en": "I hop over this stone and onto the next."},
+        {"zh": "鼻子贴地，找能吃的根。", "en": "Nose to the ground, hunting for edible roots."},
+        {"zh": "适应环境", "en": "Adapt to surroundings"},
+        {"zh": "触角碰碰前面的石头。", "en": "A feeler taps the stone ahead."},
+        {"zh": "软软的身体挤过藤蔓缝。", "en": "Its soft body squeezes between vines."},
+        {"zh": "滑过苔藓，留下一道痕。", "en": "It slides over moss, leaving a trail."},
+        {"zh": "跳上矮岩，四下张望。", "en": "It hops onto a low rock and looks around."},
+        {"zh": "在浮空岛边缘收住脚。", "en": "It stops short at the floating island's edge."},
+        {"zh": "一小步一小步挪向浆果丛。", "en": "It inches toward the berry bush."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的触手在风里各晃各的。", "en": "My tentacles each sway a different way."},
+        {"zh": "轻微摇晃身体", "en": "Gently sway"},
+        {"zh": "舔舐自己的触手", "en": "Lick tentacles"},
+        {"zh": "慢慢呼吸", "en": "Breathe slowly"},
+        {"zh": "浮岛的午后，我摊成一片。", "en": "In the floating isle's afternoon, I spread out flat."},
+        {"zh": "一有响动，我就缩进草里。", "en": "At any noise I shrink into the grass."},
+        {"zh": "轻微摆动触手", "en": "Gently swing tentacles"},
+        {"zh": "休息片刻", "en": "Rest briefly"},
+        {"zh": "感受风向", "en": "Feel the wind"},
+        {"zh": "窝在浮空岛的草地上晒太阳。", "en": "Basking in the grass of a floating island."},
+        {"zh": "把自己团成一小团。", "en": "It curls itself into a small ball."},
+        {"zh": "触手卷着一片叶子玩。", "en": "A tentacle toys with a leaf."},
+        {"zh": "呆望着岛外的云海。", "en": "It stares at the sea of clouds beyond the island."},
+        {"zh": "慢慢嚼着剩下的浆果。", "en": "It slowly chews the last of a berry."},
+        {"zh": "被自己的气泡吓了一跳。", "en": "It startles at its own burp."},
+        {"zh": "在暖石上摊平身体。", "en": "It flattens out on a warm stone."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你蹲低些，我这几根触手才敢伸。", "en": "Crouch lower, and these few tentacles of mine dare reach out."},
+        {"zh": "凑近一点，闻闻你的手。", "en": "I lean in and sniff your hand."},
+        {"zh": "警惕玩家，我这副变异的壳不太听话。", "en": "Wary of players; this mutated shell does not obey me."},
+        {"zh": "我跟着你，是想讨点吃的。", "en": "I follow you hoping for a bite to eat."},
+        {"zh": "天境里，我比别的虫大一圈。", "en": "In the Aether I'm a size bigger."},
+        {"zh": "远离玩家", "en": "Stay away from player"},
+        {"zh": "警惕靠近", "en": "Be cautious"},
+        {"zh": "天境的草，长得有点怪。", "en": "The Aether's grass grows strangely."},
+        {"zh": "我触手上的细毛全竖起来。", "en": "Every hair on my tentacles stands up."},
+        {"zh": "迅速离开", "en": "Quickly leave"},
+        {"zh": "触角朝你的方向探了探。", "en": "Its feelers reach toward you."},
+        {"zh": "躲在叶后，只露出半只眼。", "en": "It hides behind a leaf, one eye peeking."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "身体软绵绵，跌倒好痛苦。", "en": "Soft body hurts when I fall."},
+        {"zh": "食物太稀少，饿得我瘦了。", "en": "Starving makes me skinny."},
+        {"zh": "雷电打过来，吓得我发抖。", "en": "Lighting strikes make me shiver."},
+        {"zh": "被魔法击中，我浑身发痒。", "en": "Magic hits make me itchy."},
+        {"zh": "没有东西吃，感觉很痛苦。", "en": "I’m starved and in pain."},
+        {"zh": "天境太冷，冻得我瑟瑟发抖。", "en": "I’m cold and shivering."},
+        {"zh": "被射中了，伤口好痛。", "en": "Arrow wounds hurt."},
+        {"zh": "被雷劈中，我喘不过气。", "en": "Lighting strike hurts."},
+        {"zh": "我走得太快，摔伤了腿。", "en": "Fell and hurt my leg."},
+        {"zh": "被踩到尾巴了，好痛！", "en": "My tail got stepped on. That hurt!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你靠近了，我能尝尝你的味道吗？", "en": "You're near, can I try your taste?"},
+        {"zh": "小心点，我不是那么好对付的。", "en": "Watch out, I'm not easy to handle."},
+        {"zh": "这么多食物，够我享用一阵子了。", "en": "Such a feast, I'll be full for a while."},
+        {"zh": "这草真香，简直太美味了。", "en": "This grass smells so good, so delicious."},
+        {"zh": "我要在这些蘑菇下休息一下。", "en": "I'll take a rest under these mushrooms."},
+        {"zh": "我在这里找到了一个藏身之所。", "en": "I found a hiding place here."},
+        {"zh": "我用树叶来包裹我的食物。", "en": "I wrap my food with leaves."},
+        {"zh": "这里的食物太多了，我吃不完。", "en": "There's too much food here, I can't eat it all."},
+        {"zh": "我选择这棵树下的地方。", "en": "I choose this tree's base."},
+        {"zh": "你口袋里的浆果，我闻到了。", "en": "I can smell the berries in your pocket."},
+        {"zh": "别动，我看看你好不好吃。", "en": "Hold still. I want to see if you taste good."},
+        {"zh": "这朵蘑菇比你的靴子香。", "en": "This mushroom smells better than your boots."},
+        {"zh": "我只要一片叶子，就一片。", "en": "I only want one leaf. Just one."},
+        {"zh": "你踩到我的晚饭了。", "en": "You stepped on my dinner."},
+        {"zh": "天境的草真甜，你尝过吗？", "en": "Aether grass is sweet. Have you tried it?"},
+        {"zh": "再靠近点，我分你一半。", "en": "Come closer and I will share half."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到了我，有点疼。", "en": "You hit me, it hurts."},
+        {"zh": "我撞到了你，你没事吧？", "en": "I hit you, are you okay?"},
+        {"zh": "我无意中撞到了你，很抱歉。", "en": "I accidentally hit you, sorry."},
+        {"zh": "我撞到了石头，没事吧？", "en": "I hit a stone, are you okay?"},
+        {"zh": "你撞到了我，我有点生气。", "en": "You hit me, I'm a bit mad."},
+        {"zh": "我撞到了树枝，小心点。", "en": "I hit a branch, be careful."},
+        {"zh": "我撞到了你，我没想到。", "en": "I hit you, I didn't mean to."},
+        {"zh": "你撞到了我，我被吓到了。", "en": "You hit me, I'm scared."},
+        {"zh": "我撞到了你的身体，感觉不错。", "en": "I hit your body, it feels good."},
+        {"zh": "我不小心撞到了你，很抱歉。", "en": "I accidentally hit you, sorry."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找到另一半，我感到安心。", "en": "Finding a mate, I feel secure."},
+        {"zh": "我找到了我的伴侣，一起生活。", "en": "I found my mate, to live together."},
+        {"zh": "我的伴侣，我找到你了。", "en": "My mate, I found you."},
+        {"zh": "与我的伴侣一起，我很快乐。", "en": "With my mate, I'm happy."},
+        {"zh": "我和我的伴侣共同生活。", "en": "I live with my mate."},
+        {"zh": "我的伴侣，我们在一起。", "en": "My mate, we're together."},
+        {"zh": "我与我的伴侣，共同成长。", "en": "With my mate, we grow together."},
+        {"zh": "我的伴侣，我永远不会离开你。", "en": "My mate, I'll never leave you."},
+        {"zh": "我的伴侣，我们共同生存。", "en": "My mate, we survive together."},
+        {"zh": "找到我的伴侣，我心满意足。", "en": "Finding my mate, I'm satisfied."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蠕动着接近，准备啃食浆果。", "en": "Creeps closer to munch on berries."},
+        {"zh": "用触手轻轻触碰浆果。", "en": "Taps the berry gently with its tentacle."},
+        {"zh": "舔舐着新鲜的树叶。", "en": "Licks the fresh leaves."},
+        {"zh": "咀嚼着地上的蘑菇。", "en": "Chews on the mushrooms on the ground."},
+        {"zh": "将树叶塞进嘴里。", "en": "Puts a leaf in its mouth."},
+        {"zh": "在藤蔓间搜寻食物。", "en": "Searches for food among the vines."},
+        {"zh": "用触角捡起一颗浆果。", "en": "Uses its tentacle to pick up a berry."},
+        {"zh": "啃食着地上的蘑菇。", "en": "Chews on the mushrooms on the ground."},
+        {"zh": "咀嚼着嫩绿的叶子。", "en": "Chews on the tender leaves."},
+        {"zh": "从藤蔓上摘下一颗浆果。", "en": "Takes a berry from the vine"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "察觉到猎物靠近。", "en": "Notices the prey approaching."},
+        {"zh": "触角先抖了一下，我闻到了。", "en": "My antennae twitch first — I've caught the scent."},
+        {"zh": "感知到危险，迅速逃跑。", "en": "Detects danger and runs away quickly."},
+        {"zh": "嗅到了猎物的气息。", "en": "Smells the prey."},
+        {"zh": "盯上了一个小型猎物。", "en": "Picks a small prey."},
+        {"zh": "锁定目标，准备进食。", "en": "Locks onto the target, ready to eat."},
+        {"zh": "锁定一个附近的浆果。", "en": "Locks onto a nearby berry."},
+        {"zh": "注意到了猎物的踪迹。", "en": "Notices the prey's trail."},
+        {"zh": "发现了目标。", "en": "Aims at the target."},
+        {"zh": "锁定了一棵浆果树。", "en": "Locks onto a berry bush."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "超量的腿让我跑得歪。", "en": "Too many legs make me run crooked."},
+        {"zh": "变异之后，我什么都吃。", "en": "Since the mutation, I eat anything."},
+        {"zh": "向猎物逼近。", "en": "Creeps closer to the prey."},
+        {"zh": "瞄准树叶。", "en": "Aim at the leaves."},
+        {"zh": "向猎物发起攻击。", "en": "Attack the prey."},
+        {"zh": "瞄准浆果。", "en": "Aim at the berry."},
+        {"zh": "锁定并攻击猎物。", "en": "Lock onto and attack the prey."},
+        {"zh": "瞄准小猎物。", "en": "Aim at the small prey."},
+        {"zh": "瞄准附近的浆果。", "en": "Aim at the nearby berries."},
+        {"zh": "锁定并进食猎物。", "en": "Lock onto and eat the prey."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我嘶得太用力，触手打结了。", "en": "I hiss so hard my tentacles knot up."},
+        {"zh": "咬一口，尝尝变异味。", "en": "One bite, and you'll taste the mutation."},
+        {"zh": "快点闪开！", "en": "Move away!"},
+        {"zh": "变异出来的颚，咬合不太准。", "en": "My mutated jaws don't bite straight."},
+        {"zh": "牙是变异的，长短不齐。", "en": "My teeth came out mutated, uneven."},
+        {"zh": "哼，逃不掉！", "en": "Hmph, you can't escape!"},
+        {"zh": "我这一口带着变异的腥味。", "en": "My bite carries the stink of mutation."},
+        {"zh": "甲壳撞过去，我自己也翻了。", "en": "I ram with my shell and flip myself over."},
+        {"zh": "我这里变异得只剩脾气。", "en": "Only my temper mutated here."},
+        {"zh": "咬下去时，壳缝里渗出酸。", "en": "When I bite, acid seeps from the seams of my shell."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕噜咕噜，来了！", "en": "Gurgle, here I come!"},
+        {"zh": "时间到了，登场！", "en": "Time to show up!"},
+        {"zh": "快看，新伙伴！", "en": "Look, a new buddy!"},
+        {"zh": "终于现身了！", "en": "Finally appear!"},
+        {"zh": "咕咚，来了一个！", "en": "Gulping, here one!"},
+        {"zh": "寻找食物，出发！", "en": "Seeking food, go!"},
+        {"zh": "我从天境的云缝里掉下来。", "en": "I drop through a gap in the Aether clouds."},
+        {"zh": "新的一天，新开始！", "en": "New day, new start!"},
+        {"zh": "咕噜，肚子饿了！", "en": "Gurgle, I'm hungry!"},
+        {"zh": "寻找家园，出发！", "en": "Seeking home, go!"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被火烧了，皮肤好疼。", "en": "Burned by fire."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从高处摔下，全身酸痛。", "en": "Fell from height."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进水里，好冷。", "en": "Fell into water."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被炸伤了，好疼。", "en": "Explosion hurts."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被箭射中，伤口好痛。", "en": "Arrow wound hurts."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被魔法击中，我浑身发冷。", "en": "Magic hits chill me."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没有食物吃，好饿。", "en": "Starving for food."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被雷击中，全身抽搐。", "en": "Lightning strikes me."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空，好怕。", "en": "Fall into void."}
+      ]
+    }
+  }
+}

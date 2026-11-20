@@ -1,0 +1,268 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "手臂撑地，骨锯拖出划痕。", "en": "My arms push the ground, saws scraping."},
+        {"zh": "锯齿摩擦", "en": "Saw Rub"},
+        {"zh": "磨锯前行", "en": "Grind Forward"},
+        {"zh": "手臂挥动", "en": "Arm Swing"},
+        {"zh": "抓取骨锯", "en": "Grab Saw"},
+        {"zh": "手臂交错移动", "en": "Arm Cross"},
+        {"zh": "缓慢挪动", "en": "Slow Move"},
+        {"zh": "抓取并投掷", "en": "Grab and Throw"},
+        {"zh": "手臂快速挥动", "en": "Fast Arm Swing"},
+        {"zh": "旋转身体前行", "en": "Spin Forward"},
+        {"zh": "四只手轮流撑地，我挪过去。", "en": "Four hands take turns on the ground as I shift along."},
+        {"zh": "没有腿，我靠手臂爬行。", "en": "Legless, I crawl on my arms."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "转动身体", "en": "Spin Body"},
+        {"zh": "我低头，看着自己的断腿。", "en": "I look down at where my legs should be."},
+        {"zh": "手臂轻摆", "en": "Arm Wave"},
+        {"zh": "缓慢转身", "en": "Slow Turn"},
+        {"zh": "挥动骨锯", "en": "Wave Saw"},
+        {"zh": "静默观察", "en": "Silent Watch"},
+        {"zh": "手臂轻微摆动", "en": "Arm Tweak"},
+        {"zh": "低语咒语", "en": "Mutter Spell"},
+        {"zh": "旋转等待", "en": "Spin Wait"},
+        {"zh": "四只手各握一角，锯子转了。", "en": "Four hands take a corner each and the saw spins."},
+        {"zh": "我低头，看锯上的齿。", "en": "I lower my head and study the saw's teeth."},
+        {"zh": "两只手磨锯，两只手撑地。", "en": "Two hands hone the saw, two brace the ground."},
+        {"zh": "我把骨锯抛起，又接住。", "en": "I toss a bone saw up and catch it."},
+        {"zh": "谁在召唤，我就等谁开口。", "en": "Whoever summoned me, I wait to be told."},
+        {"zh": "我一动不动，只有锯在转。", "en": "I stay perfectly still; only the saw turns."},
+        {"zh": "四只手臂交叠，像一顶笼。", "en": "My four arms fold into a cage."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "四只眼，一起定在你身上。", "en": "Four eyes fix on you together."},
+        {"zh": "目光追随", "en": "Follow Eyes"},
+        {"zh": "骨锯的齿，对准你的喉咙。", "en": "The saw teeth line up with your throat."},
+        {"zh": "我转身时，骨锯先转过去。", "en": "When I turn, my saws turn first."},
+        {"zh": "四只手臂，各抓一把骨锯。", "en": "Four arms, one bone saw each."},
+        {"zh": "四只手各抓一把骨锯。", "en": "Four hands each grip a bone saw."},
+        {"zh": "四只手臂都在转锯。", "en": "All four arms spin a saw."},
+        {"zh": "我四只手臂同时抬了起来。", "en": "All four of my arms rise at once."},
+        {"zh": "我在你背后，锯声先到。", "en": "I'm behind you; the saw sounds first."},
+        {"zh": "瞄准攻击", "en": "Attack Aim"},
+        {"zh": "我从肩膀后面看你。", "en": "I look at you from over my shoulder."},
+        {"zh": "我停住锯，先看清你。", "en": "I stop the saw to look you over."},
+        {"zh": "你在我四个方向里。", "en": "You are in all four of my directions."},
+        {"zh": "我把头歪到一侧，打量你。", "en": "I tilt my head and size you up."},
+        {"zh": "锯响了一声，算打了招呼。", "en": "The saw clicks once as a greeting."},
+        {"zh": "我盯着你的膝盖，那儿好锯。", "en": "I stare at your knees; easy to saw."},
+        {"zh": "你退后，我四只手同时抬起。", "en": "You back away and all four hands rise."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "四肢无力地倒下。", "en": "Weakly falls to the ground."},
+        {"zh": "骨锯在地面上划过。", "en": "Bone saws drag across the ground."},
+        {"zh": "双臂垂落，挣扎着。", "en": "Arms droop, struggling."},
+        {"zh": "骨锯转不动了，我喘着。", "en": "The bone saws stopped spinning; I'm gasping."},
+        {"zh": "身体颤抖不止。", "en": "Body shivers uncontrollably."},
+        {"zh": "缓慢倒下，呼吸微弱。", "en": "Slowly collapses, breathing weakly."},
+        {"zh": "四只手臂护住没有腿的身子。", "en": "Four arms guard a body with no legs."},
+        {"zh": "骨锯划破空气。", "en": "Bone saws slice through the air."},
+        {"zh": "四肢摇晃，站立不稳。", "en": "Arms tremble, wobbly stance."},
+        {"zh": "痛苦的嘶吼。", "en": "Pained howl."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "四臂环绕，骨锯飞旋。", "en": "Four arms spin, saws fly."},
+        {"zh": "靠近我，死亡近在咫尺。", "en": "Draw near, death draws near."},
+        {"zh": "你触碰不到我，我却能触及你。", "en": "You cannot touch me, but I touch you."},
+        {"zh": "骨锯割裂虚空，旋转不息。", "en": "Saws slice void, spin endlessly."},
+        {"zh": "四臂交错，双锯齐发。", "en": "Four arms cross, two saws fly."},
+        {"zh": "阴影中，骨锯如影随形。", "en": "In shadows, saws follow like shadows."},
+        {"zh": "骨锯在手里转，别靠太近。", "en": "The bone saw spins; don't come close."},
+        {"zh": "旋转，旋转，无尽的杀戮。", "en": "Spin, spin, endless slaughter."},
+        {"zh": "四臂合围，骨锯齐飞。", "en": "Four arms converge, saws fly."},
+        {"zh": "无声中，骨锯破空而来。", "en": "Silent, saws pierce the air."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "四臂相撞，锯齿交错。", "en": "Arms collide, saws interlock."},
+        {"zh": "骨锯擦过，留下伤痕。", "en": "Saws graze, leaving marks."},
+        {"zh": "四臂交错，力量碰撞。", "en": "Arms cross, forces clash."},
+        {"zh": "四臂缠绕，锯齿相连。", "en": "Arms wrap, saws link."},
+        {"zh": "撞击中，骨锯撕裂。", "en": "Impact, saws tear."},
+        {"zh": "四臂交错，锯齿磨砺。", "en": "Arms cross, saws grind."},
+        {"zh": "骨锯相碰，力量碰撞。", "en": "Saws clash, power clashes."},
+        {"zh": "四臂缠绕，锯齿相交。", "en": "Arms entwine, saws intersect."},
+        {"zh": "撞击间，骨锯交错。", "en": "Impact, saws cross."},
+        {"zh": "四臂交错，锯齿碰撞。", "en": "Arms cross, saws clash."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "寻找同类，共享力量。", "en": "Seek a mate, share power."},
+        {"zh": "同类间，力量倍增。", "en": "With a mate, power doubles."},
+        {"zh": "四臂相交，双锯合一。", "en": "Four arms meet, two saws unite."},
+        {"zh": "同类靠近，骨锯共鸣。", "en": "Mates near, saws resonate."},
+        {"zh": "四臂缠绕，双锯相合。", "en": "Arms entwine, saws unite."},
+        {"zh": "同类相逢，力量倍增。", "en": "Mates meet, power doubles."},
+        {"zh": "四臂交错，锯齿共鸣。", "en": "Arms cross, saws resonate."},
+        {"zh": "四臂相交，力量倍增。", "en": "Four arms meet, power doubles."},
+        {"zh": "同类间，锯齿共鸣。", "en": "Mates near, saws resonate."},
+        {"zh": "两具无腿的身躯，靠在一起。", "en": "Two legless bodies lean together."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "四臂怪，我捡起骨锯。", "en": "Four-armed beast, I pick up the bone saw."},
+        {"zh": "握住骨锯，我移动缓慢。", "en": "Holding the bone saw, I move slowly."},
+        {"zh": "骨锯在手，行动不便。", "en": "Bone saw in hand, movement is awkward."},
+        {"zh": "四臂怪，骨锯沉重。", "en": "Four-armed beast, the bone saw is heavy."},
+        {"zh": "我的四只手，握紧骨锯。", "en": "My four hands grip the bone saw."},
+        {"zh": "抓起骨锯，我四臂旋转。", "en": "I grab the bone saw and spin."},
+        {"zh": "四臂怪，我准备投掷。", "en": "Four-armed beast, I prepare to throw."},
+        {"zh": "骨锯飞出，四臂怪行动。", "en": "Bone saw thrown, four-armed action."},
+        {"zh": "向后传送，我转到背后。", "en": "Teleport behind, I rotate behind."},
+        {"zh": "四臂怪，我隐身传送。", "en": "Four-armed beast, I teleport invisibly."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定目标，四臂怪来袭。", "en": "Target locked, four-armed approach."},
+        {"zh": "锁定目标，骨锯准备发射。", "en": "Target locked, bone saw ready."},
+        {"zh": "四臂怪，目标就在前方。", "en": "Four-armed, target in front."},
+        {"zh": "锁定目标，我的四臂怪。", "en": "Target locked, my four-armed beast."},
+        {"zh": "瞄准目标，四臂怪逼近。", "en": "Aim at target, four-armed advancing."},
+        {"zh": "目标锁定，四臂怪出手。", "en": "Target locked, four-armed attacks."},
+        {"zh": "锁定目标，四臂怪追踪。", "en": "Target locked, four-armed tracking."},
+        {"zh": "锁定目标，四臂怪准备攻击。", "en": "Target locked, four-armed ready to attack."},
+        {"zh": "目标锁定，四臂怪现身。", "en": "Target locked, four-armed appears."},
+        {"zh": "锁定目标，四臂怪准备传送。", "en": "Target locked, four-armed preparing to teleport."},
+        {"zh": "憎恶把我叫来，为你而来。", "en": "Abhorrence called me here, for you."},
+        {"zh": "你身上的热气，锯子喜欢。", "en": "The saw likes the heat off your skin."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "骨锯旋转，持续伤害。", "en": "Bone saw spins, continuous damage."},
+        {"zh": "四臂怪，我锁定你。", "en": "Four-armed, I target you."},
+        {"zh": "瞄准目标，四臂怪攻击。", "en": "Targeting, four-armed attacks."},
+        {"zh": "四臂怪，开始攻击。", "en": "Four-armed, start attacking."},
+        {"zh": "瞄准目标，四臂怪瞄准。", "en": "Targeting, four-armed aiming."},
+        {"zh": "四臂怪，锁定目标。", "en": "Four-armed, target acquired."},
+        {"zh": "四臂怪，持续施加伤害。", "en": "Four-armed, continuous damage."},
+        {"zh": "四臂怪，瞄准射击。", "en": "Four-armed, target and shoot."},
+        {"zh": "四臂怪，锁定并攻击。", "en": "Four-armed, target and attack."},
+        {"zh": "瞄准目标，四臂怪出手。", "en": "Targeting, four-armed attacks."},
+        {"zh": "你在东边，锯就往东飞。", "en": "You go east; the saw flies east."},
+        {"zh": "我一低头，已在你背后。", "en": "I bow my head and am behind you."},
+        {"zh": "骨锯绕着你转，越转越近。", "en": "The bone saw circles you, closing in."},
+        {"zh": "你挡住一面，另外三面还在。", "en": "Block one side; three more remain."},
+        {"zh": "我不追，我直接到你身后。", "en": "I don't chase; I arrive behind you."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "四臂旋转，骨锯狂舞！", "en": "Four arms spin, saws舞动！"},
+        {"zh": "抓取目标，近战狂暴！", "en": "Lunge at target, melee rage!"},
+        {"zh": "骨锯飞旋，伤你无遗！", "en": "Saws spin, wound you all!"},
+        {"zh": "四臂齐动，骨锯风暴！", "en": "Four arms, saws storm!"},
+        {"zh": "传送背后，致命一击！", "en": "Teleport behind, lethal strike!"},
+        {"zh": "骨锯绞杀，无处藏身！", "en": "Saws绞杀, nowhere to hide!"},
+        {"zh": "撕裂肉身，骨锯狂舞！", "en": "Tear flesh, saws狂舞!"},
+        {"zh": "传送突袭，致命旋锯！", "en": "Teleport strike, lethal saws!"},
+        {"zh": "骨锯无情，碎骨成灰！", "en": "Saws无情, bones粉碎!"},
+        {"zh": "四臂挥舞，致命旋风！", "en": "Four arms, deadly vortex!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "憎厌召唤，掷锯人现！", "en": "Abhorrence calls, Saw Thrower appears!"},
+        {"zh": "四臂蠕动，破地而出！", "en": "Four arms crawl, break the earth!"},
+        {"zh": "憎厌群聚，掷锯人至！", "en": "Abhorrences gather, Saw Throwers come!"},
+        {"zh": "黑暗深处，掷锯人出！", "en": "Darkness, Saw Thrower emerges!"},
+        {"zh": "四臂扭动，骨锯出鞘！", "en": "Four arms twist, saws drawn!"},
+        {"zh": "憎厌召唤，掷锯人至！", "en": "Abhorrences call, Saw Throwers come!"},
+        {"zh": "四臂蠕动，骨锯现形！", "en": "Four arms crawl, saws appear!"},
+        {"zh": "憎恶之手，掷锯人来！", "en": "Hateful hands, Saw Thrower arrives!"},
+        {"zh": "黑暗之中，掷锯人现！", "en": "Darkness, Saw Thrower appears!"},
+        {"zh": "四臂蠕动，骨锯出鞘！", "en": "Four arms crawl, saws drawn!"},
+        {"zh": "憎恶群聚之处，我成形。", "en": "Where abhorrence gathers, I take shape."},
+        {"zh": "四只手先伸出黑暗。", "en": "Four hands reach out of the dark first."},
+        {"zh": "我被召唤，锯已在转。", "en": "Summoned, and the saw already spins."},
+        {"zh": "地上多了一个爬行的影子。", "en": "One more crawling shadow on the floor."},
+        {"zh": "我的手臂撑起身体，站起来。", "en": "My arms push my body upright."},
+        {"zh": "骨锯落地，滚了半圈。", "en": "A bone saw lands and rolls half a turn."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧灼着我的四肢。", "en": "Fire burns my limbs."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从高处摔下，骨头碎裂。", "en": "Falls from height, bones break."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水中的骨头嘎吱作响。", "en": "Bones creak underwater."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "四只手一起松，骨锯就飞了。", "en": "Four hands release at once, and the saws fly."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被投掷的骨锯击中。", "en": "Bone saw hit by projectile."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔力灼烧我的皮肤。", "en": "Magic burns my skin."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿使我的手臂变弱。", "en": "Starvation weakens my arms."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷穿过四只手臂，骨锯落地。", "en": "Lightning crosses my four arms; the saw drops."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "四只手，四把骨锯，四个方向。", "en": "Four arms, four saws, four directions."}
+      ]
+    }
+  }
+}

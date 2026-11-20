@@ -1,0 +1,266 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我没有腿，所以只是被挪动。", "en": "I have no legs, so I am only moved."},
+        {"zh": "有人把我从墙边搬到门口。", "en": "Someone shifts me from the wall to the doorway."},
+        {"zh": "我斜了一点，靠在桌角上。", "en": "I tilt slightly, leaning on the table corner."},
+        {"zh": "我的边角卷了，抵着地板。", "en": "My corner curls, catching the floor."},
+        {"zh": "风一吹，我就往前倾。", "en": "A draft tips me forward."},
+        {"zh": "我被摆到舞台边，面朝观众。", "en": "I am set at the stage edge, facing the seats."},
+        {"zh": "我挪了半格，纸边擦过地砖。", "en": "I shift half a block, my paper edge scraping tile."},
+        {"zh": "我换了个角度，看起来更正。", "en": "I am turned to a better angle."},
+        {"zh": "我被推到走廊中央，挡了一点路。", "en": "I am pushed into the hall, partly blocking it."},
+        {"zh": "我靠住门框，不再晃了。", "en": "I lean on the door frame and stop swaying."},
+        {"zh": "我被翻了个面，墙对着外面。", "en": "I am flipped, my blank back to the room."},
+        {"zh": "我滑下来几厘米，又停住。", "en": "I slide down a few centimeters and stop."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站在这里，一动不动。", "en": "I stand here without moving."},
+        {"zh": "我的图案被灯照得发白。", "en": "The light bleaches my printed colors."},
+        {"zh": "我只印了一面，背面是空的。", "en": "Only one side is printed. The back is blank."},
+        {"zh": "纸板吸了潮，边缘软了。", "en": "The cardboard took damp; my edges softened."},
+        {"zh": "我被胶带固定在墙上。", "en": "I am taped to the wall."},
+        {"zh": "我的影子很薄，几乎贴地。", "en": "My shadow is thin, almost flat."},
+        {"zh": "我只是一块立起来的纸。", "en": "I am only a sheet of board standing up."},
+        {"zh": "灯灭的时候我也还在。", "en": "When the lights go out, I am still here."},
+        {"zh": "我在角落里积了一层灰。", "en": "Dust has gathered on me in the corner."},
+        {"zh": "我不呼吸，也不眨眼。", "en": "I do not breathe, and I do not blink."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我这张脸一直朝前。", "en": "My printed face looks forward, always."},
+        {"zh": "你从旁边走过，我还是这样。", "en": "You pass by. I stay as I am."},
+        {"zh": "我的眼睛是印上去的，不会动。", "en": "My eyes are printed and cannot move."},
+        {"zh": "你盯着我，我也盯着前面。", "en": "You stare at me. I stare at nothing."},
+        {"zh": "你伸手碰我，我会晃。", "en": "If you touch me, I will wobble."},
+        {"zh": "我的笑容画得有点歪。", "en": "My painted smile is a little crooked."},
+        {"zh": "你走近时，我的影子落到你身上。", "en": "As you come close, my shadow falls on you."},
+        {"zh": "你看我第二眼的时候，灯闪了。", "en": "On your second look, the light flickers."},
+        {"zh": "我没有在看你，我只是朝这边。", "en": "I am not watching you. I simply face this way."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被撞出一个折角。", "en": "A corner of me is bent."},
+        {"zh": "我身上的图案花了一块。", "en": "A patch of my print is scuffed."},
+        {"zh": "我的边裂开，露出白芯。", "en": "My edge splits, showing white core."},
+        {"zh": "我倒下去，又被人扶起。", "en": "I fall, and someone stands me up again."},
+        {"zh": "一道划痕横过我的脸。", "en": "A scratch crosses my printed face."},
+        {"zh": "我的一角卷了，立不稳。", "en": "One corner curls; I cannot stand straight."},
+        {"zh": "我被踩了一脚，扁了一点。", "en": "A foot flattens me slightly."},
+        {"zh": "我发出纸板折断的声音。", "en": "I make the sound of cardboard breaking."},
+        {"zh": "我歪着，靠在墙上。", "en": "I lean crooked against the wall."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我拿不了东西，我没有手。", "en": "I cannot take it. I have no hands."},
+        {"zh": "我看着它，但我不会动。", "en": "I face it, but I will not move."},
+        {"zh": "它靠在我身上，滑了下去。", "en": "It leans on me and slides down."},
+        {"zh": "你把吃的举到我脸前，我笑了。", "en": "You hold food to my face. I keep smiling."},
+        {"zh": "这笑容是印上去的，改不了。", "en": "This smile is printed. It cannot change."},
+        {"zh": "你把它塞进我的边缝。", "en": "You tuck it behind my edge."},
+        {"zh": "我看不见，但它在那儿。", "en": "I cannot see it, but it is there."},
+        {"zh": "你等了半天，我什么都没做。", "en": "You wait a long time. I do nothing."},
+        {"zh": "你把东西拿回去了，很好。", "en": "You take it back. Good."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到我，我倒向一边。", "en": "You bump me and I tip sideways."},
+        {"zh": "我倒下去，脸贴着地板。", "en": "I fall face down on the floor."},
+        {"zh": "你扶了我一把，我又立住。", "en": "You steady me, and I stand again."},
+        {"zh": "我的边角在你腿上划了一下。", "en": "My corner scrapes your leg."},
+        {"zh": "纸板一撞就卷边。", "en": "One bump and my cardboard curls."},
+        {"zh": "你从我身上跨过去。", "en": "You step over me."},
+        {"zh": "我擦着墙滑下来一点。", "en": "I slip a little way down the wall."},
+        {"zh": "我被撞出个折痕。", "en": "A crease appears where I was hit."},
+        {"zh": "你退开，我的影子也跟着晃。", "en": "You pull away; my shadow sways with me."},
+        {"zh": "我还立着，只是歪了。", "en": "I am still standing. Only crooked."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "另一块纸板和我并排立着。", "en": "Another board stands beside mine."},
+        {"zh": "我们被摆成一对，脸朝同一方向。", "en": "We are set as a pair, facing the same way."},
+        {"zh": "我们之间隔着一根胶带。", "en": "One strip of tape separates us."},
+        {"zh": "它们的图案和我一样。", "en": "Their print is the same as mine."},
+        {"zh": "有人把我们换了位置。", "en": "Someone swapped our places."},
+        {"zh": "我们靠在一起，边角相抵。", "en": "We lean together, corners touching."},
+        {"zh": "我们谁也不会先倒。", "en": "Neither of us will fall first."},
+        {"zh": "潮气让我们的边缘一起卷。", "en": "The damp curls both our edges."},
+        {"zh": "灯照过来，两个影子叠成一个。", "en": "The light comes; two shadows become one."},
+        {"zh": "我们只是摆件，摆在一起而已。", "en": "We are props, placed together. That is all."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我拿不了它。", "en": "I cannot pick it up."},
+        {"zh": "它卡在我的边上，我抖不下来。", "en": "It is stuck on my edge, and I cannot shake it off."},
+        {"zh": "有人替我把它拿走了。", "en": "Someone took it away for me."},
+        {"zh": "它从我身上滑到地上。", "en": "It slides off me to the floor."},
+        {"zh": "我只是一块板，不会捡东西。", "en": "I am a board. I do not pick things up."},
+        {"zh": "它压在我脚边，我看不见。", "en": "It rests at my base where I cannot see."},
+        {"zh": "风把它吹到我面前。", "en": "The wind blows it in front of me."},
+        {"zh": "我脸上的笑容还对着它。", "en": "My printed smile still faces it."},
+        {"zh": "它挡了我一半图案。", "en": "It covers half my print."},
+        {"zh": "我什么都不做，它一直在那。", "en": "I do nothing, and it stays."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我锁不了谁，我连眼睛都不动。", "en": "I cannot target anyone. My eyes do not move."},
+        {"zh": "你把我当成敌人，我只是纸板。", "en": "You take me for a foe. I am cardboard."},
+        {"zh": "我不会追，我连腿都没有。", "en": "I cannot chase. I have no legs."},
+        {"zh": "你举起了武器，对着一个摆件。", "en": "You raise a weapon at a prop."},
+        {"zh": "我的脸一直笑着，没有别的表情。", "en": "My face keeps smiling. That is all it does."},
+        {"zh": "你砍我一下，我就破一个口。", "en": "One cut and I gain a tear."},
+        {"zh": "我不是藏在暗处的那个。", "en": "I am not the one hiding in the dark."},
+        {"zh": "你多看了我几眼，还是走了。", "en": "You look at me a few more times and leave."},
+        {"zh": "我没有威胁，只有一块纸。", "en": "I am no threat. Only paper."},
+        {"zh": "你要是打我，我不会还手。", "en": "If you strike me, I will not strike back."},
+        {"zh": "你把我推倒，我躺在地上。", "en": "You push me over. I lie on the floor."},
+        {"zh": "我立在这里，是因为有人摆的。", "en": "I stand here because someone placed me."},
+        {"zh": "你的影子压过来，我一动不动。", "en": "Your shadow covers me. I do not move."},
+        {"zh": "我听不见你，我没有耳朵。", "en": "I cannot hear you. I have no ears."},
+        {"zh": "你对着我说话，我没有回答。", "en": "You speak to me. I do not answer."},
+        {"zh": "这间屋子里，真正会动的不是我。", "en": "In this room, I am not the one that moves."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我仍然站着，姿势没变。", "en": "I am still standing. My pose has not changed."},
+        {"zh": "你绕着我走，我朝前看。", "en": "You circle me. I look straight ahead."},
+        {"zh": "我身上的折痕又多了一道。", "en": "Another crease has appeared on me."},
+        {"zh": "你没有走，我也没有动。", "en": "You have not left, and I have not moved."},
+        {"zh": "灯照着我，我一直笑。", "en": "The light is on me, and I keep smiling."},
+        {"zh": "你听，这里没有我的脚步声。", "en": "Listen. There are no footsteps from me."},
+        {"zh": "你退开两步，我还在原位。", "en": "You step back; I am in the same place."},
+        {"zh": "我被你撞歪了，还是立着。", "en": "You knocked me crooked. I am still up."},
+        {"zh": "你怀疑我，那是你的事。", "en": "You suspect me. That is your business."},
+        {"zh": "我的影子一直没动过。", "en": "My shadow has not moved once."},
+        {"zh": "这层楼的声音都不是我发的。", "en": "None of the sounds on this floor are mine."},
+        {"zh": "你盯得太久，眼睛会花。", "en": "Stare too long and your eyes will blur."},
+        {"zh": "我又被挪了半格。", "en": "I have been shifted half a block again."},
+        {"zh": "你的手电扫过去，我又白了。", "en": "Your torch passes; I go pale again."},
+        {"zh": "你身后的响动，不是我。", "en": "That sound behind you is not me."},
+        {"zh": "我连呼吸都没有，怎么追你。", "en": "I do not even breathe. How would I chase you."},
+        {"zh": "你回头时，我的脸还是那样。", "en": "When you look back, my face is still the same."},
+        {"zh": "你踩到我的边，我响了一声。", "en": "You step on my edge; I crackle once."},
+        {"zh": "你走远了，我留在这。", "en": "You walk away. I stay here."},
+        {"zh": "这层楼里，只有一样东西不会变。", "en": "On this floor, only one thing does not change."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我没有手，打不了你。", "en": "I have no hands to hit you with."},
+        {"zh": "你撞在我边上，被纸割了一下。", "en": "You brush my edge and the paper cuts you."},
+        {"zh": "你打倒我，我就压在你脚上。", "en": "You knock me down, and I lie across your feet."},
+        {"zh": "我的边角翘起来，勾到你。", "en": "My corner lifts and catches you."},
+        {"zh": "我不会出手，我只会倒。", "en": "I do not strike. I only fall."},
+        {"zh": "你踢我，我飞出去撞在墙上。", "en": "You kick me; I fly into the wall."},
+        {"zh": "我倒下去的时候压住了一根线。", "en": "Falling, I press down on a wire."},
+        {"zh": "你把我举起来，扔到一边。", "en": "You lift me and throw me aside."},
+        {"zh": "我的折痕裂开，露出白色的芯。", "en": "My crease splits and shows the white core."},
+        {"zh": "你从我上面踩过去。", "en": "You walk over me."},
+        {"zh": "我躺在地上，脸还朝上。", "en": "I lie on the floor, face up."},
+        {"zh": "你砍断我一半，我剩下半个笑。", "en": "You cut me in half. Half a smile remains."},
+        {"zh": "风把我吹到你脚边。", "en": "The wind blows me to your feet."},
+        {"zh": "你退开，我慢慢滑下来。", "en": "You pull back; I slide slowly down."},
+        {"zh": "我又立起来了，被人摆的。", "en": "I am upright again. Someone set me so."},
+        {"zh": "你把我翻过去，只剩空白。", "en": "You flip me over. Only blank board."},
+        {"zh": "我的角落扎进你的靴缝。", "en": "My corner wedges into your boot seam."},
+        {"zh": "你把我推开，纸屑掉了一地。", "en": "You shove me away; scraps fall everywhere."},
+        {"zh": "我最后倒向你的方向。", "en": "I fall at last in your direction."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被立在墙角，图案朝外。", "en": "I am set in the corner, print facing out."},
+        {"zh": "有人把我从仓库搬来。", "en": "Someone carried me in from storage."},
+        {"zh": "我的脚边还留着胶带的痕。", "en": "Tape marks remain at my base."},
+        {"zh": "我被摆在最显眼的位置。", "en": "I am placed where I will be seen."},
+        {"zh": "灯亮起来，我的颜色回来了。", "en": "The lights come up; my colors return."},
+        {"zh": "我从一堆道具里被挑出来。", "en": "I was picked out of a pile of props."},
+        {"zh": "我斜靠着墙，勉强立着。", "en": "I lean against the wall, barely upright."},
+        {"zh": "这间屋子的摆设换了一轮。", "en": "The room's arrangement has been changed."},
+        {"zh": "我被放在门内侧，正对入口。", "en": "I am put inside the door, facing the entrance."},
+        {"zh": "我的边缘还带着切割的毛刺。", "en": "My edge still has cutting burrs."},
+        {"zh": "我在这儿，一直笑。", "en": "I am here. Always smiling."},
+        {"zh": "有人在我旁边放了一盏灯。", "en": "Someone set a lamp beside me."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "纸板一碰到火，边就黑了。", "en": "Fire touches the board and the edge blackens."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从台上掉下去，摔成两半。", "en": "I fall from the stage and split in two."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水泡软了我，我塌下来。", "en": "Water softens me, and I collapse."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我撕成几片。", "en": "The blast tears me into pieces."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一根箭穿出个圆洞。", "en": "An arrow punches a round hole."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那光让我的图案褪色。", "en": "That light bleaches my print."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不会饿，我只是变脆。", "en": "I do not hunger. I only grow brittle."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打过，我的边缘焦了。", "en": "Lightning passes; my edges char."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗里没有地板，我飘走了。", "en": "No floor in the dark; I drift away."}
+      ]
+    }
+  }
+}

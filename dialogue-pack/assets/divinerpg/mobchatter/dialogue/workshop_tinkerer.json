@@ -1,0 +1,252 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冰屋里的炉子还热着。", "en": "My furnace in the ice hut is still warm."},
+        {"zh": "冰面摩擦声", "en": "Ice scraping"},
+        {"zh": "工具碰撞声", "en": "Tools clinking"},
+        {"zh": "轻盈跳跃", "en": "Light hops"},
+        {"zh": "金属触冰声", "en": "Metal on ice"},
+        {"zh": "步履轻盈", "en": "Graceful steps"},
+        {"zh": "雪地摩擦声", "en": "Snow crunching"},
+        {"zh": "机械转动", "en": "Mechanical whir"},
+        {"zh": "金属碰撞", "en": "Metal clangs"},
+        {"zh": "齿轮转动", "en": "Gear whirs"},
+        {"zh": "拎着零件走向工作台。", "en": "Carrying parts over to the bench."},
+        {"zh": "靴子踩碎了薄冰。", "en": "My boots crack the thin ice."},
+        {"zh": "把小屋门推开一半。", "en": "Pushing the hut door half open."},
+        {"zh": "背着工具箱绕到屋后。", "en": "Rounding the hut with a toolbox."},
+        {"zh": "雪地上留下两行脚印。", "en": "Two lines of prints in the snow."},
+        {"zh": "抱着一堆木料回来。", "en": "Coming back with an armload of timber."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "研究图纸", "en": "Studying plans"},
+        {"zh": "擦拭工具", "en": "Polishing tools"},
+        {"zh": "炉火映着图纸，我眯起眼。", "en": "The forge lights my blueprint; I squint."},
+        {"zh": "整理小屋", "en": "Organizing room"},
+        {"zh": "敲打铁锤", "en": "Hammering away"},
+        {"zh": "专注思考", "en": "Deep in thought"},
+        {"zh": "研究机械", "en": "Examining machinery"},
+        {"zh": "擦拭桌面", "en": "Cleaning desk"},
+        {"zh": "翻阅书籍", "en": "Flipping pages"},
+        {"zh": "调试装置", "en": "Adjusting device"},
+        {"zh": "数着货架上的存货。", "en": "Counting stock on the shelves."},
+        {"zh": "给炉子添了一块炭。", "en": "Adding a lump of coal to the stove."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冰晶雪原的小屋里，我放下工具。", "en": "In my ice-plain hut I set down my tools."},
+        {"zh": "投来目光", "en": "Eyeing player"},
+        {"zh": "打量玩家", "en": "Scanning player"},
+        {"zh": "专注玩家", "en": "Fixing on player"},
+        {"zh": "我放下锉刀，打量你的靴。", "en": "I set down the file and study your boots."},
+        {"zh": "门口的风铃响了，我抬头。", "en": "The door chime rings; I look up."},
+        {"zh": "环视四周", "en": "Surveying surroundings"},
+        {"zh": "我的小屋里什么都有。", "en": "My little hut has everything."},
+        {"zh": "观察动静", "en": "Watching for movement"},
+        {"zh": "冰晶雪原的屋子里，我做买卖。", "en": "In my little house on the ice fields, I do business."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的小爪子受伤了...", "en": "My tiny claws hurt..."},
+        {"zh": "冰针扎伤我了...", "en": "Ice needles pierced me..."},
+        {"zh": "我摔坏了...", "en": "I fell..."},
+        {"zh": "我掉进冰洞了...", "en": "I fell into an ice pit..."},
+        {"zh": "我被冰封住了...", "en": "I got frozen..."},
+        {"zh": "我被雪块砸中了...", "en": "Snow chunks hit me..."},
+        {"zh": "我的翅膀折了...", "en": "My wings are broken..."},
+        {"zh": "我被雪淹没...", "en": "I drowned in snow..."},
+        {"zh": "我被冰晶划伤了...", "en": "I got cut by ice shards..."},
+        {"zh": "我的触角被折了...", "en": "My antennae are broken..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嗡嗡声中，我用我的工具吸引你过来。", "en": "Buzzing, I draw you with my tools."},
+        {"zh": "你看着这些闪烁的宝石，心生好奇吗？", "en": "The glittering gems intrigue you, don't they?"},
+        {"zh": "冰晶雪原里最闪耀的，就是我手中的创造。", "en": "In Iceika, it's my creations that shine."},
+        {"zh": "用我的机械臂制作一些有趣的东西吧。", "en": "Let me tinker something fun with my arms."},
+        {"zh": "看这些冰霜下的宝石，多漂亮。", "en": "Check out these gems below the ice."},
+        {"zh": "别让这冰霜骗了你的眼睛。", "en": "Don't let the ice fool your eyes."},
+        {"zh": "你想要看看我的新发明吗？", "en": "Want to see my new invention?"},
+        {"zh": "用我的触须触碰那些珍贵的矿石。", "en": "Feel the precious ores with my feelers."},
+        {"zh": "冰晶雪原的温度适合我的金属。", "en": "Iceika's temp suits my metal."},
+        {"zh": "来吧，一起创造点新奇的东西。", "en": "Come, let's create something new."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "小心，我可能会攻击你。", "en": "Beware, I may attack."},
+        {"zh": "别靠近我，你触碰了不该触碰的东西。", "en": "Stay back, you've touched something you shouldn't."},
+        {"zh": "我的触须是武器，不是玩具。", "en": "My feelers are weapons, not toys."},
+        {"zh": "退后，否则我会反击。", "en": "Back off, or I'll retaliate."},
+        {"zh": "别碰我的机械臂，小心被夹。", "en": "Don't touch my arms, they can pinch."},
+        {"zh": "我的工具锋利，用它们攻击吧。", "en": "My tools are sharp, use them to attack."},
+        {"zh": "靠近我就等于挑衅我。", "en": "Approaching me is a provocation."},
+        {"zh": "我的触须能感受危险，小心点。", "en": "My feelers sense danger, be careful."},
+        {"zh": "不要靠近我的地盘，否则会有后果。", "en": "Stay off my territory, or there'll be consequences."},
+        {"zh": "触碰我，你会付出代价的。", "en": "Touch me, and you'll pay the price."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找到你的同类了吗？", "en": "Found a mate?"},
+        {"zh": "我们互相依靠，共同繁衍。", "en": "We rely on each other, to reproduce."},
+        {"zh": "冰晶雪原的冬天是漫长的，我们要找个伴侣。", "en": "Winter in Iceika is long, we need a mate."},
+        {"zh": "只有找到合适伴侣，我们才能生存下去。", "en": "Only with a suitable mate can we survive."},
+        {"zh": "用我的触须感受对方的存在。", "en": "Use my feelers to sense the other's presence."},
+        {"zh": "找到另一半，我们的生命才完整。", "en": "Find the other half, and our life is complete."},
+        {"zh": "共同经历冰晶雪原的严冬。", "en": "Share the Iceika winter together."},
+        {"zh": "我的触须能感知适合的伴侣。", "en": "My feelers sense suitable mates."},
+        {"zh": "寻找合适的伴侣，共同度过漫长冬季。", "en": "Find a suitable mate to endure the long winter."},
+        {"zh": "找到合适的伴侣，我们才能延续生命。", "en": "Find a suitable mate, to continue our lineage."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我来修理你的工具！", "en": "Let me fix your tools!"},
+        {"zh": "看看这些闪闪发光的零件！", "en": "Check out these shiny parts!"},
+        {"zh": "把旧东西留给我吧！", "en": "Leave the old stuff to me!"},
+        {"zh": "这些零件可以造出利器！", "en": "These parts can make sharp tools!"},
+        {"zh": "给我些材料，我来打造！", "en": "Give me some materials, I'll craft!"},
+        {"zh": "冰晶中蕴藏着无限可能！", "en": "Ice crystals hold infinite possibilities!"},
+        {"zh": "我的指尖流淌着知识之血。", "en": "Knowledge flows through my fingertips."},
+        {"zh": "工具的生命，在于不断升级。", "en": "A tool’s life lies in constant upgrading."},
+        {"zh": "来吧，让我的智慧为你服务。", "en": "Come, let my wisdom serve you."},
+        {"zh": "旧器械换新零件，交易！", "en": "Old tools for new parts, deal?"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冰晶雪原的呼唤，我来了。", "en": "The call of Iceika, here I come."},
+        {"zh": "猎物的气息，越来越近了。", "en": "Prey's scent grows closer."},
+        {"zh": "观察与等待，猎杀的最佳策略。", "en": "Observation and patience, best strategy."},
+        {"zh": "冰晶下的秘密，即将揭晓。", "en": "Secrets beneath the ice, about to be revealed."},
+        {"zh": "捕获目标，我必须这么做。", "en": "Capture the target, I must do this."},
+        {"zh": "冰原上的猎手，永不言败。", "en": "Ice hunters never give up."},
+        {"zh": "冰封之下的生机，即将苏醒。", "en": "Life beneath the ice, about to awaken."},
+        {"zh": "冰晶雪原，我的狩猎场。", "en": "Iceika, my hunting ground."},
+        {"zh": "冰封的猎物，即将落入我手。", "en": "Frozen prey, about to be caught."},
+        {"zh": "我便是自然的裁缝师。", "en": "I am nature's tailor."},
+        {"zh": "你要买点什么，还是卖？", "en": "Are you buying, or selling?"},
+        {"zh": "这单生意我记下了。", "en": "I've noted this deal of ours."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "聚焦目标，精准打击。", "en": "Target locked, precise strike."},
+        {"zh": "冰晶之下，洞悉一切。", "en": "Ice conceals, I see all."},
+        {"zh": "雪屋里谈生意，别带武器。", "en": "Business in the snow hut. No weapons."},
+        {"zh": "冰晶反射的光线，指引我。", "en": "Ice reflects light, guiding me."},
+        {"zh": "猎物的弱点，我已看透。", "en": "Prey's weakness, I see."},
+        {"zh": "精准打击，不留余地。", "en": "Precision strike, no mercy."},
+        {"zh": "冰晶雪原，我的狩猎场", "en": "Iceika, my hunting ground"},
+        {"zh": "冰封世界，我的舞台。", "en": "Ice world, my stage."},
+        {"zh": "瞄准，等待，一击必杀。", "en": "Target, wait, one hit kill."},
+        {"zh": "冰封之下，隐藏的猎物。", "en": "Frozen below, hidden prey."},
+        {"zh": "价钱说清楚再动手。", "en": "Let's agree on the price first."},
+        {"zh": "冰晶雪原不赊账。", "en": "No credit in Iceika."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嗡鸣一声，我向你袭来！", "en": "Buzzing, I attack!"},
+        {"zh": "用我的利爪攻击你！", "en": "Attack with my claws!"},
+        {"zh": "我用钳子抓住你！", "en": "Clamp you with my pincers!"},
+        {"zh": "钳子夹住你，扳手也抡起。", "en": "Pliers clamp you; the wrench swings too."},
+        {"zh": "冰晶中闪现利齿！", "en": "Fangs from the ice!"},
+        {"zh": "挥舞触角，攻击！", "en": "Swing my antennae!"},
+        {"zh": "我的针刺破你的皮肉！", "en": "Pierce with my stinger!"},
+        {"zh": "用我的毒液淹没你！", "en": "Venomous sting!"},
+        {"zh": "冰屋里，我的刺比风还快。", "en": "In the ice hut, my stinger beats the wind."},
+        {"zh": "冰寒中，我发起攻击！", "en": "Attack in the ice!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "在雪地里，我诞生了！", "en": "Born in the snow!"},
+        {"zh": "寒冷之地，我诞生！", "en": "Spawn in the cold!"},
+        {"zh": "冰晶雪原，我的故乡！", "en": "Spawn in Iceika!"},
+        {"zh": "我从冰层下破壳而出！", "en": "Hatch from the ice!"},
+        {"zh": "雪地里，我开始成长！", "en": "Grow in the snow!"},
+        {"zh": "冰封之地，我诞生！", "en": "Spawn in ice!"},
+        {"zh": "冰晶中，我缓缓苏醒！", "en": "Awaken in the ice!"},
+        {"zh": "雪原上，我缓缓苏醒！", "en": "Awaken on the tundra!"},
+        {"zh": "寒冷中，我诞生！", "en": "Spawn in the cold!"},
+        {"zh": "我从雪中爬出！", "en": "Crawl out of the snow!"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火苗烧伤我了...", "en": "I was burned..."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从高处摔下来了...", "en": "I fell from a high place..."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉进了冰水里...", "en": "I drowned in icy water..."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸震伤我了...", "en": "I was shaken by an explosion..."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢射中我了...", "en": "I was hit by an arrow..."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法冰冻了我...", "en": "Magic froze me..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冰晶雪原上，没有东西可吃。", "en": "Nothing to eat on the Iceika tundra."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闪电击中我了...", "en": "Lightning struck me..."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "小屋的地板裂开，我往下沉。", "en": "The hut's floor splits; I sink through."}
+      ]
+    }
+  }
+}

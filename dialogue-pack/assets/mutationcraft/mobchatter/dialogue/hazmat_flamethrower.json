@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我背着燃料罐，一步一步巡逻。", "en": "I patrol step by step with a fuel tank on my back."},
+        {"zh": "我的靴子压过草地，很沉。", "en": "My boots press the grass heavily."},
+        {"zh": "我沿着街道走，扫视两侧。", "en": "I walk the street, scanning both sides."},
+        {"zh": "我把喷嘴抬在胸前。", "en": "I keep the nozzle raised at my chest."},
+        {"zh": "我朝那栋破房子走过去。", "en": "I head for that broken house."},
+        {"zh": "我绕过堆在路口的废料。", "en": "I go around the wreckage at the crossing."},
+        {"zh": "我跟在队友后面几步。", "en": "I keep a few paces behind my squadmate."},
+        {"zh": "我一边走一边查看墙角。", "en": "I check the corners as I walk."},
+        {"zh": "我的面罩里有轻微的白雾。", "en": "There is faint mist inside my visor."},
+        {"zh": "我顺着血迹往前走。", "en": "I follow the blood trail."},
+        {"zh": "我把脚步放轻，虽然没什么用。", "en": "I soften my steps, though it hardly helps."},
+        {"zh": "我朝有尖叫的方向去。", "en": "I head toward the screaming."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我端着喷嘴，站定不动。", "en": "I hold the nozzle and stand still."},
+        {"zh": "我透过面罩看四面。", "en": "I look around through the visor."},
+        {"zh": "我把手搭在阀门上。", "en": "I rest my hand on the valve."},
+        {"zh": "罐子里有液体晃动的声音。", "en": "Liquid sloshes in the tank."},
+        {"zh": "我站着不动，只听。", "en": "I stand still and only listen."},
+        {"zh": "我把视线压得很低。", "en": "I keep my gaze low."},
+        {"zh": "我抬起喷嘴，对上窗口。", "en": "I raise the nozzle toward the window."},
+        {"zh": "我的呼吸在面罩里回响。", "en": "My breathing echoes inside the visor."},
+        {"zh": "我在等队长的信号。", "en": "I wait for the leader's signal."},
+        {"zh": "我把脚边一块碎石踢开。", "en": "I kick a loose stone aside."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把喷嘴转过来对着你。", "en": "I swing the nozzle to face you."},
+        {"zh": "先说明你的身份。", "en": "State your identity first."},
+        {"zh": "我面罩下的眼睛在打量你。", "en": "My eyes study you through the visor."},
+        {"zh": "你身上有变异的气味吗？", "en": "Do you carry the smell of mutation?"},
+        {"zh": "你的皮肉还很完整。", "en": "Your flesh is still whole."},
+        {"zh": "我不轻易放人过去。", "en": "I do not let people pass lightly."},
+        {"zh": "我把手指从阀门上移开。", "en": "I move my finger off the valve."},
+        {"zh": "你退后一步，我才会放下喷嘴。", "en": "Step back and only then will I lower the nozzle."},
+        {"zh": "这里是巡逻区。", "en": "This is a patrol zone."},
+        {"zh": "我不问你的来路。", "en": "I do not ask where you came from."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我退了半步，面罩里起了雾。", "en": "I give half a step and my visor fogs."},
+        {"zh": "这一下打在护甲上，闷响。", "en": "That lands on my armor with a dull thud."},
+        {"zh": "我把喷嘴扶稳。", "en": "I steady the nozzle."},
+        {"zh": "我咬住牙，脚下没松。", "en": "I grit my teeth and hold my footing."},
+        {"zh": "肩上一阵火辣。", "en": "My shoulder burns."},
+        {"zh": "我气息粗了。", "en": "My breathing has gone rough."},
+        {"zh": "我把身体侧过去护住罐子。", "en": "I turn to shield the tank."},
+        {"zh": "这一下我记在日志上。", "en": "That goes into my log."},
+        {"zh": "两条腿还撑着我。", "en": "My legs still carry me."},
+        {"zh": "我把面罩正回来。", "en": "I straighten my visor."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我对这味道没胃口。", "en": "I have no appetite for that."},
+        {"zh": "你把东西举起来，我不为所动。", "en": "You hold it up and I am unmoved."},
+        {"zh": "把手放回去。", "en": "Put your hand back."},
+        {"zh": "我不收这些。", "en": "I take none of that."},
+        {"zh": "你要给我，就放到地上。", "en": "If you offer it, set it on the ground."},
+        {"zh": "我的任务里没有这一项。", "en": "That is not part of my task."},
+        {"zh": "我摆了摆头，不。", "en": "I shake my head, no."},
+        {"zh": "我从你的手外侧绕。", "en": "I go round the outside of your hand."},
+        {"zh": "留着，你自己用。", "en": "Keep it for yourself."},
+        {"zh": "我抬手示意你退开。", "en": "I gesture for you to step back."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上我，我倒退了半步。", "en": "You hit me and I take half a step back."},
+        {"zh": "我把喷嘴横过来挡。", "en": "I bring the nozzle across to block."},
+        {"zh": "我的装备很重，撞不动。", "en": "My gear is heavy and will not shift."},
+        {"zh": "别贴我这么近走。", "en": "Do not walk this close to me."},
+        {"zh": "我用手臂把你格开。", "en": "I bar you off with my arm."},
+        {"zh": "我低头看你，面罩反着光。", "en": "I look down, my visor catching the light."},
+        {"zh": "我侧一侧，让出半步。", "en": "I angle aside and yield half a step."},
+        {"zh": "我们撞在一起，面罩响了一下。", "en": "We collide and my visor knocks."},
+        {"zh": "我站稳了才继续。", "en": "I steady before going on."},
+        {"zh": "退到线外去。", "en": "Get outside the line."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在执勤。", "en": "I am on duty."},
+        {"zh": "这个不谈。", "en": "Not that."},
+        {"zh": "我把面罩转向别处。", "en": "I turn my visor aside."},
+        {"zh": "队里不许这样。", "en": "The squad does not allow it."},
+        {"zh": "我把手放回阀门上。", "en": "I put my hand back on the valve."},
+        {"zh": "我站回原位。", "en": "I return to my post."},
+        {"zh": "这会儿不合时宜。", "en": "This is hardly the time."},
+        {"zh": "我把喷嘴抬起来。", "en": "I raise the nozzle."},
+        {"zh": "我继续看前面。", "en": "I keep watching ahead."},
+        {"zh": "等这一波过去。", "en": "Wait until this wave passes."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我弯腰捡起一个空罐。", "en": "I bend and pick up an empty can."},
+        {"zh": "我把它收进腰包。", "en": "I put it in my belt pouch."},
+        {"zh": "这东西不能碰。", "en": "This must not be touched."},
+        {"zh": "我用夹子把它夹起来。", "en": "I lift it with tongs."},
+        {"zh": "我把样本封进袋里。", "en": "I seal the sample in a bag."},
+        {"zh": "这派不上用场。", "en": "This is of no use."},
+        {"zh": "我放回去，留给回收队。", "en": "I put it back for the recovery team."},
+        {"zh": "我检查了一遍有没有裂。", "en": "I check it for cracks."},
+        {"zh": "我把它扔进废料箱。", "en": "I throw it into the waste bin."},
+        {"zh": "我接着往前巡。", "en": "I go on with my patrol."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "墙后有物在动。", "en": "Something moves behind the wall."},
+        {"zh": "我把喷嘴对准那边。", "en": "I point the nozzle that way."},
+        {"zh": "我把它标在照准线上。", "en": "I have it on my sight line."},
+        {"zh": "它的动作不对。", "en": "Its movement is wrong."},
+        {"zh": "我把阀门打开一半。", "en": "I open the valve halfway."},
+        {"zh": "我抬手示意队友后退。", "en": "I signal my squadmate back."},
+        {"zh": "我开始靠近，脚步压得很低。", "en": "I close in with low steps."},
+        {"zh": "它已经变异了。", "en": "It has already mutated."},
+        {"zh": "我盯着它的关节处。", "en": "I watch the joints on it."},
+        {"zh": "我准备点火。", "en": "I am ready to ignite."},
+        {"zh": "它挡在路口。", "en": "It blocks the crossing."},
+        {"zh": "我从翼侧兜过去。", "en": "I hook round by the flank."},
+        {"zh": "我不喊话，喊了它会跑。", "en": "I do not shout; shouting would scare it off."},
+        {"zh": "它就是我们要找的那个。", "en": "That is the one we came for."},
+        {"zh": "我把喷嘴抬到齐肩。", "en": "I bring the nozzle to shoulder height."},
+        {"zh": "开始焚烧。", "en": "Begin incineration."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我跟着它挪，喷嘴一直对着。", "en": "I shift with it, nozzle always on it."},
+        {"zh": "它绕，我绕，隔着距离。", "en": "It circles; I circle, keeping the gap."},
+        {"zh": "我把它逼进墙角。", "en": "I drive it into the corner."},
+        {"zh": "它一扑，我就退半步。", "en": "It lunges and I give half a step."},
+        {"zh": "我在等它靠近到燃料的最佳距离。", "en": "I wait for it to reach the best range."},
+        {"zh": "我的手一直按在点火上。", "en": "My hand stays on the igniter."},
+        {"zh": "它一退，我便压上。", "en": "It falls back and I press in."},
+        {"zh": "我的燃料还有一半。", "en": "My fuel is half left."},
+        {"zh": "它在喘，可变异体不会累。", "en": "It is panting, but mutants do not tire."},
+        {"zh": "我把喷嘴压低了。", "en": "I lower the nozzle."},
+        {"zh": "它想从右边跑，我先封住。", "en": "It tries the right and I block first."},
+        {"zh": "这一片是死路。", "en": "This stretch is a dead end."},
+        {"zh": "火光在我面上晃。", "en": "The flames flicker on my visor."},
+        {"zh": "我不让它贴近。", "en": "I do not let it get close."},
+        {"zh": "我再等它一下。", "en": "I wait one more moment."},
+        {"zh": "它已经在燃烧的范围内了。", "en": "It is already inside burning range."},
+        {"zh": "我把手套握紧。", "en": "I tighten my grip."},
+        {"zh": "这一圈我封死了。", "en": "I have this circle shut."},
+        {"zh": "它每动一次，我就跟一次。", "en": "Each move of its, I answer."},
+        {"zh": "再靠近一分。", "en": "A fraction closer."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一脚把它踹开。", "en": "I kick it away."},
+        {"zh": "我用喷嘴的柄砸它。", "en": "I strike it with the nozzle's stock."},
+        {"zh": "我把它推开，拉开距离。", "en": "I shove it off to open the gap."},
+        {"zh": "这一下打在它肩上。", "en": "That lands on its shoulder."},
+        {"zh": "它抓我，我的防护服挡住了。", "en": "It claws me and my suit holds."},
+        {"zh": "我又加了一拳。", "en": "I add one more punch."},
+        {"zh": "我把它顶在门上。", "en": "I pin it against the door."},
+        {"zh": "它退开，我立刻举喷嘴。", "en": "It backs off and I raise the nozzle at once."},
+        {"zh": "我的面罩被撞得歪了。", "en": "My visor is knocked askew."},
+        {"zh": "我把它挡在外面。", "en": "I keep it outside."},
+        {"zh": "这一下很近，差点烧到自己。", "en": "That was close; I nearly burned myself."},
+        {"zh": "我退了一步，重新对正。", "en": "I step back and realign."},
+        {"zh": "我气息急促。", "en": "My breath comes fast."},
+        {"zh": "它仍在动弹。", "en": "It is still moving about."},
+        {"zh": "我用肘撞它的胸口。", "en": "I drive my elbow into its chest."},
+        {"zh": "我把喷嘴砸在它脸上。", "en": "I slam the nozzle into its face."},
+        {"zh": "我一脚踩住它的手。", "en": "I pin its hand under my boot."},
+        {"zh": "我撞过去，把它推离门口。", "en": "I ram it and shove it from the door."},
+        {"zh": "它抓破了我的袖口。", "en": "It tears my cuff."},
+        {"zh": "我抬膝顶开它。", "en": "I lift a knee and push it off."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从街口走进来，喷嘴已经抬起。", "en": "I come in from the street with the nozzle up."},
+        {"zh": "先把这一片看一遍。", "en": "First I scan this stretch."},
+        {"zh": "我检查了燃料阀。", "en": "I check the fuel valve."},
+        {"zh": "罐子是满的。", "en": "The tank is full."},
+        {"zh": "这里的味道不对。", "en": "The smell here is wrong."},
+        {"zh": "我把面罩压低，挡住光。", "en": "I lower my visor against the glare."},
+        {"zh": "我在路口站定。", "en": "I take my stand at the crossing."},
+        {"zh": "我朝队长那边看了一眼。", "en": "I glance toward the leader."},
+        {"zh": "我起动往前。", "en": "I set off forward."},
+        {"zh": "脚下的砖是松的。", "en": "The bricks underfoot are loose."},
+        {"zh": "我抬手示意后面跟上。", "en": "I signal those behind to follow."},
+        {"zh": "这一带还没有被烧过。", "en": "This area has not been burned yet."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火苗舔到防护服，我拍了两下。", "en": "Flame licks my suit and I slap it out."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "落地时膝盖一沉，我咬牙撑住。", "en": "My knees drive down on landing and I hold."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水从面罩缝里灌进来，我猛抬头。", "en": "Water seeps through my visor and I jerk my head up."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸风把我推得撞上墙。", "en": "The blast throws me into the wall."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西扎进护甲，我拔了出来。", "en": "Something lodges in my armor and I pull it out."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "术式缠住我，我的罐子一沉。", "en": "An art binds me and my tank feels heavy."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "太久没换班，我的手脚发虚。", "en": "Too long without relief and my limbs go weak."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷顺着装备走，我整条手臂都麻了。", "en": "Lightning runs my gear and my arm goes numb."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下没有砖，我一直坠下去。", "en": "No brick below and I fall away."}
+      ]
+    }
+  }
+}

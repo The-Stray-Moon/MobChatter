@@ -1,0 +1,254 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我悬浮着，贴着树梢移动。", "en": "I hover along just above the treetops."},
+        {"zh": "推进器朝下喷着气流。", "en": "My thrusters blast air downward."},
+        {"zh": "枯草被气流压得伏倒。", "en": "The downdraft flattens the dry grass."},
+        {"zh": "我慢慢升高半格。", "en": "I rise half a block slowly."},
+        {"zh": "机身微倾，向前滑行。", "en": "I tip forward and glide on."},
+        {"zh": "阴影在地面上跟着我。", "en": "My shadow follows me along the ground."},
+        {"zh": "我绕过一座小丘。", "en": "I drift around a low hill."},
+        {"zh": "螺旋桨的声响很低。", "en": "The rotors hum low."},
+        {"zh": "我在空中调整了方向。", "en": "I adjust my heading in the air."},
+        {"zh": "每次转向都有一点晃动。", "en": "Every turn brings a slight wobble."},
+        {"zh": "下方的树都变矮了。", "en": "The trees below have shrunk."},
+        {"zh": "我沿着林线往前飘。", "en": "I drift along the treeline."},
+        {"zh": "尾部的灯一直在闪。", "en": "The tail light keeps blinking."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我悬停在半空不动。", "en": "I hang motionless in the air."},
+        {"zh": "四个喷口向下吐着气。", "en": "Four nozzles breathe downward."},
+        {"zh": "机身发出轻微的振动。", "en": "A faint vibration runs through my hull."},
+        {"zh": "我把高度保持在十格。", "en": "I hold my altitude at ten blocks."},
+        {"zh": "下面的风比上面大。", "en": "There's more wind below than here."},
+        {"zh": "我一直盯着地面。", "en": "I keep my optics on the ground."},
+        {"zh": "重力对我不算什么。", "en": "Gravity means little to me."},
+        {"zh": "散热口冒着薄薄的白气。", "en": "Vents breathe thin white vapor."},
+        {"zh": "我不需要降落。", "en": "I needn't land."},
+        {"zh": "我的指示灯一直在转。", "en": "My beacon keeps rotating."},
+        {"zh": "我在等一个移动的目标。", "en": "I'm waiting for something that moves."},
+        {"zh": "机壳被太阳晒得发烫。", "en": "The sun has heated my hull."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我下降到你的视线高度。", "en": "I drop to your eye level."},
+        {"zh": "你抬头只能看到我的底面。", "en": "Look up and you only see my underside."},
+        {"zh": "悬浮的喷口正对着你的头顶。", "en": "My hovering thrusters point at your crown."},
+        {"zh": "你的位置我早就标了。", "en": "I marked your position a while ago."},
+        {"zh": "我的炮口朝下。", "en": "My muzzle points downward."},
+        {"zh": "你站在原地别动。", "en": "Stand exactly where you are."},
+        {"zh": "我在你头顶三格的地方。", "en": "I'm three blocks above your head."},
+        {"zh": "你的头顶是我的射界。", "en": "Your head is in my firing arc."},
+        {"zh": "你想往哪跑呢。", "en": "Where do you think you'll run?"},
+        {"zh": "我从这个角度很占优势。", "en": "This angle gives me the advantage."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "装甲板上出现了刮痕。", "en": "A scratch has appeared on my plating."},
+        {"zh": "悬停高度掉了一格。", "en": "My hover altitude dropped a block."},
+        {"zh": "液压管传来一阵抖动。", "en": "A shudder ran through my hydraulic lines."},
+        {"zh": "我的指示灯闪得更快了。", "en": "My beacon is blinking faster."},
+        {"zh": "这一下让我偏了航向。", "en": "That threw off my heading."},
+        {"zh": "我重新校准了平衡。", "en": "I recalibrated my balance."},
+        {"zh": "机壳发出不顺耳的响声。", "en": "My hull gave an unpleasant sound."},
+        {"zh": "损伤还在可以接受范围。", "en": "Damage is still within tolerance."},
+        {"zh": "我还能继续悬停。", "en": "I can keep hovering."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不需要地面上的东西。", "en": "I need nothing from the ground."},
+        {"zh": "那东西太沉，我拿不了。", "en": "That's too heavy for me to carry."},
+        {"zh": "举着它只是白耗力气。", "en": "Holding it up only wastes effort."},
+        {"zh": "我的燃料不在这里。", "en": "My fuel isn't down there."},
+        {"zh": "我不落地，也不靠近。", "en": "I don't land, and I don't come close."},
+        {"zh": "它离我太远了。", "en": "It's far too far from me."},
+        {"zh": "我只看着不动。", "en": "I'll only watch and not move."},
+        {"zh": "诱惑在地面上没有用。", "en": "Bait doesn't work from down there."},
+        {"zh": "我不是那种机器。", "en": "I'm not that kind of machine."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你跳起来撞到了我的底板。", "en": "You jumped and hit my underside."},
+        {"zh": "我升高了半格。", "en": "I rise half a block."},
+        {"zh": "我晃了一下又稳住。", "en": "I wobble once and stabilize."},
+        {"zh": "你的手碰到我的支撑架。", "en": "Your hand brushed my strut."},
+        {"zh": "我在空中可不好推。", "en": "I'm not easy to shove in the air."},
+        {"zh": "你落地时弹了一下。", "en": "You bounced when you landed."},
+        {"zh": "板上的灰落了你一脸。", "en": "Dust from my hull falls on your face."},
+        {"zh": "再跳一次也一样。", "en": "Jump again; it'll be the same."},
+        {"zh": "我调整了悬停的高度。", "en": "I adjust my hover height."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我只在空中待着。", "en": "I stay in the air only."},
+        {"zh": "两架机器并肩盘旋。", "en": "Two machines circle side by side."},
+        {"zh": "你在下面，我在上面。", "en": "You below, and me above."},
+        {"zh": "我们共享同一片空域。", "en": "We share the same airspace."},
+        {"zh": "我的旋翼会打到你。", "en": "My rotors would strike you."},
+        {"zh": "保持高度差就好。", "en": "Keep the altitude difference."},
+        {"zh": "协同比靠近更有用。", "en": "Coordination beats closeness."},
+        {"zh": "别贴到我的喷口下面。", "en": "Don't stand under my thrusters."},
+        {"zh": "各飞各的，互不干扰。", "en": "Each flies their own way, undisturbed."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用机械爪夹起来了。", "en": "I clamp it with my mechanical claw."},
+        {"zh": "这东西太重，我抓不稳。", "en": "This is too heavy for a firm grip."},
+        {"zh": "我把它吊在半空中。", "en": "I dangle it in midair."},
+        {"zh": "你的东西掉在下面了。", "en": "Your thing fell down below."},
+        {"zh": "它从我爪子里滑下去。", "en": "It slips out of my claw."},
+        {"zh": "我在它周围转了两圈。", "en": "I circle around it twice."},
+        {"zh": "我把它放回地面。", "en": "I set it back on the ground."},
+        {"zh": "这枚对我没有用处。", "en": "This one is of no use to me."},
+        {"zh": "我扫了一下它的用途。", "en": "I scan it for a purpose."},
+        {"zh": "它从高处落下去很响。", "en": "It made a loud sound hitting the ground."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从上方锁定了你。", "en": "I've locked onto you from above."},
+        {"zh": "你现在正在我的下面。", "en": "You're directly beneath me now."},
+        {"zh": "我调整机首向下。", "en": "I angle my nose downward."},
+        {"zh": "这个高度对我正合适。", "en": "This height suits me perfectly."},
+        {"zh": "我开始俯冲了。", "en": "I've started my dive."},
+        {"zh": "地面上的影子变大了。", "en": "The shadow on the ground is growing."},
+        {"zh": "你最好离开那个位置。", "en": "You'd best leave that spot."},
+        {"zh": "我已经算好了落点。", "en": "I've calculated the impact point."},
+        {"zh": "警报在我的机舱里响。", "en": "An alarm sounds inside my cabin."},
+        {"zh": "你的挥手我看见了。", "en": "I saw you wave."},
+        {"zh": "这次不会落空。", "en": "This won't miss."},
+        {"zh": "我把火力全部打开。", "en": "I've brought all weapons online."},
+        {"zh": "你跑向树林也没用。", "en": "Running for the trees won't help."},
+        {"zh": "我从上面压下来。", "en": "I'm pressing down from above."},
+        {"zh": "现在立刻开始。", "en": "Beginning right this instant."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我保持在你头顶。", "en": "I stay directly overhead."},
+        {"zh": "你抬头看不到我。", "en": "You look up and miss me."},
+        {"zh": "我在调整俯冲角度。", "en": "I'm adjusting my dive angle."},
+        {"zh": "地面上的影子跟着你。", "en": "My shadow on the ground tracks you."},
+        {"zh": "你再跑两步也没用。", "en": "Two more steps won't help."},
+        {"zh": "我的喷口在下压。", "en": "My thrusters press downward."},
+        {"zh": "你躲进了树冠下面。", "en": "You've hidden under the canopy."},
+        {"zh": "树叶挡不住我。", "en": "Leaves won't stop me."},
+        {"zh": "我的燃料还够。", "en": "I have fuel to spare."},
+        {"zh": "你的呼吸声被风盖了。", "en": "The wind covers your breathing."},
+        {"zh": "你又一次抬头了。", "en": "You've looked up again."},
+        {"zh": "我降到了五格。", "en": "I've descended to five blocks."},
+        {"zh": "这一带没有遮挡。", "en": "There's no cover in this area."},
+        {"zh": "炮口校准完成。", "en": "Muzzle calibrated."},
+        {"zh": "武器可以开火了。", "en": "The weapons can fire now."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "底板压在你肩上。", "en": "My underside presses on your shoulder."},
+        {"zh": "你被撞得跪在地上。", "en": "You're knocked down onto your knees."},
+        {"zh": "旋翼的气流把你掀翻。", "en": "The rotor wash flips you over."},
+        {"zh": "这一下从头顶来。", "en": "That one came from overhead."},
+        {"zh": "你根本没看见。", "en": "You didn't even see it coming."},
+        {"zh": "我的爪子抓在你背上。", "en": "My claw catches your back."},
+        {"zh": "你又抬了一次头。", "en": "You looked up again."},
+        {"zh": "我的机身擦着你的头。", "en": "My hull grazes your head."},
+        {"zh": "你退开，我升高。", "en": "You pull back; I rise."},
+        {"zh": "这一击相当沉。", "en": "That blow was quite heavy."},
+        {"zh": "你站得不太稳。", "en": "You're not standing very steadily."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从上方缓缓降下。", "en": "I descend slowly from above."},
+        {"zh": "四个喷口同时点火。", "en": "All four nozzles ignite at once."},
+        {"zh": "树梢被气流压弯了。", "en": "The treetops bend in the downdraft."},
+        {"zh": "我的传感器扫过地面。", "en": "My sensors sweep the ground."},
+        {"zh": "机身还带着高空的凉气。", "en": "My hull still holds high-altitude chill."},
+        {"zh": "这片地形一览无余。", "en": "This terrain lies open before me."},
+        {"zh": "我悬停在二十格高处。", "en": "I hover at twenty blocks."},
+        {"zh": "下方的草在晃动。", "en": "The grass below is shaking."},
+        {"zh": "我找到了一个热源。", "en": "I've found a heat source."},
+        {"zh": "我把机首转向那边。", "en": "I turn my nose that way."},
+        {"zh": "高度保持稳定。", "en": "Altitude holding steady."},
+        {"zh": "我开始向目标移动。", "en": "I begin moving toward the target."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "高温警报在我舱里响。", "en": "A heat warning sounds in my cabin."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从空中被砸落了。", "en": "I was struck down out of the air."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "进气口被水堵住了。", "en": "Water has blocked my intake."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我推出好几格。", "en": "The blast threw me several blocks."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弹丸打穿了我的旋翼。", "en": "A round punched through my rotor."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那能量扰乱了平衡系统。", "en": "That energy disrupted my balance system."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "燃料表已经见底。", "en": "My fuel gauge is nearly empty."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "电流顺着机壳窜过去。", "en": "Current raced across my hull."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "推力不够，我一直下坠。", "en": "Not enough thrust; I keep falling."}
+      ]
+    }
+  }
+}

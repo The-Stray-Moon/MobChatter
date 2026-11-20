@@ -1,0 +1,282 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "扇动着巨大的翅膀，煞针翼缓缓前行。", "en": "Sweeping its massive wings, Winged moves slowly."},
+        {"zh": "它的身影如同阴影一般在空中飘动。", "en": "Its form glides like a shadow in the air."},
+        {"zh": "翅膀拍动，发出低沉的呼啸声。", "en": "Wings beat, producing a low howl."},
+        {"zh": "在漆黑的洞穴中，煞针翼缓缓移动。", "en": "In the dark cavern, Winged moves slowly."},
+        {"zh": "翅膀摩擦声，伴随其缓慢的步伐。", "en": "Wings rubbing, accompanying its slow steps."},
+        {"zh": "翅膀在黑暗中划过，留下一串回响。", "en": "Wings slice through the darkness, leaving echoes."},
+        {"zh": "缓慢飞行，翅膀间歇地扇动。", "en": "Slow flight, wings beat intermittently."},
+        {"zh": "阴影般的身躯，在黑夜里无声滑行。", "en": "Shadowy form glides silently in the night."},
+        {"zh": "缓慢移动，翅膀偶尔拍动。", "en": "Moves slowly, wings occasionally beat."},
+        {"zh": "在黑暗中缓缓前行，翅膀发出细微的声响。", "en": "Moves slowly in the dark, wings producing subtle sounds."},
+        {"zh": "收拢翅膀，在岩缝间挪步。", "en": "Wings folded, I shuffle between the rock seams."},
+        {"zh": "翼尖扫过石壁，沙沙作响。", "en": "My wingtips rasp along the stone."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "停在岩壁上，注视着四周。", "en": "Stops on the rock wall, watching around."},
+        {"zh": "静静地站在黑暗中，凝视着。", "en": "Stands silently in the dark, staring."},
+        {"zh": "静静地伫立，凝视着一切动静。", "en": "Stands quietly, watching all movements."},
+        {"zh": "停在洞穴的入口，警惕地观察。", "en": "Pauses at the cavern entrance, observing vigilantly."},
+        {"zh": "停在暗处，静静等待猎物。", "en": "Pauses in the shadows, waiting silently."},
+        {"zh": "静静站在洞穴深处，观察四周。", "en": "Stands quietly in the deep cavern, watching around."},
+        {"zh": "静静地站在那里，翅膀微微颤抖。", "en": "Stands quietly, wings slightly trembling."},
+        {"zh": "停在岩石上，仔细聆听。", "en": "Pauses on the rock, listening carefully."},
+        {"zh": "在岩壁上静立，警惕地观察。", "en": "Stands on the rock wall, observing vigilantly."},
+        {"zh": "静静地站在黑暗中，翅膀轻微振动。", "en": "Stands silently in the dark, wings slightly vibrating."},
+        {"zh": "收翅伏在崖边，尾尖轻点。", "en": "Perched on the cliff, wings folded, tail tapping."},
+        {"zh": "鳞片映着微光，一动不动。", "en": "My scales catch the faint light, perfectly still."},
+        {"zh": "在巢里数着自己的骨刺。", "en": "In my nest, counting my own bone spurs."},
+        {"zh": "半张翼罩住身下的蛋。", "en": "Half a wing shelters the egg beneath me."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "看到玩家，眼中闪过凶光。", "en": "Player spotted, eyes gleam menacingly."},
+        {"zh": "锁定目标，翅膀轻微抖动。", "en": "Locks onto target, wings slightly trembling."},
+        {"zh": "注意到玩家，目光锐利。", "en": "Notices player, eyes sharp."},
+        {"zh": "盯着玩家，翅膀微微颤抖。", "en": "Stares at player, wings slightly trembling."},
+        {"zh": "锁定玩家，发出警告的嘶嘶声。", "en": "Locks on player, hissing warningly."},
+        {"zh": "目光锁定玩家，翅膀微微振动。", "en": "Eyes lock on player, wings slightly vibrating."},
+        {"zh": "注意到玩家，眼睛闪烁着光芒。", "en": "Notices player, eyes glowing."},
+        {"zh": "盯紧玩家，翅膀轻微振动。", "en": "Stares at player, wings slightly vibrating."},
+        {"zh": "锁定玩家，眼神中带着杀意。", "en": "Locks on player, eyes filled with intent to kill."},
+        {"zh": "注意到玩家，发出警告的嘶嘶声。", "en": "Notices player, hissing warningly."},
+        {"zh": "翼下的眼睛，先看见了你。", "en": "The eye beneath my wing finds you first."},
+        {"zh": "抬起头，毒针微微前倾。", "en": "I lift my head, poison needle tilting forward."},
+        {"zh": "从崖顶俯看你，翼展渐开。", "en": "From the cliff top I open my wings and watch."},
+        {"zh": "你踩响碎石，我盯住了你。", "en": "You crunch gravel, and my gaze locks on."},
+        {"zh": "目光顺着岩壁，滑到你身上。", "en": "My stare slides down the rock face onto you."},
+        {"zh": "我认得你腰间那卷绳索。", "en": "I know that rope coil at your belt."},
+        {"zh": "翅膀一收，视线便锁死。", "en": "My wings snap shut and my stare pins you."},
+        {"zh": "你在下面，我在上面看你。", "en": "You are below; I watch from above."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅膀受伤了，快点治疗！", "en": "My wings are hurt, heal me!"},
+        {"zh": "我快飞不动了，救救我！", "en": "I can't fly anymore, help me!"},
+        {"zh": "疼！疼！快治伤！", "en": "It hurts! It hurts!"},
+        {"zh": "快给我包扎伤口！", "en": "Bandage my wounds!"},
+        {"zh": "求求你，快治伤！", "en": "Please heal me!"},
+        {"zh": "我的翅膀受伤了！", "en": "My wings are wounded!"},
+        {"zh": "受伤了，救救我！", "en": "I'm injured, help me!"},
+        {"zh": "翅膀被咬了，好疼！", "en": "My wings were bitten, it hurts!"},
+        {"zh": "快给我止痛药！", "en": "Give me painkillers!"},
+        {"zh": "翅膀破了，快缝合！", "en": "Fix my wings, they're torn!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它的翅膀在黑暗中划过，发出沙沙声。", "en": "Its wings scrape against the darkness, creating a rustling sound."},
+        {"zh": "你被它的光芒吸引，却感到一丝寒意。", "en": "Its glow attracts you, but you feel a chill."},
+        {"zh": "它的眼睛像是两颗冰冷的宝石。", "en": "Its eyes are like two cold gems."},
+        {"zh": "它的龙肉味道鲜美，但危险重重。", "en": "Its meat is delicious, but it’s a dangerous catch."},
+        {"zh": "它的叫声像是遥远的风暴。", "en": "Its call sounds like a distant storm."},
+        {"zh": "它的鳞片在月光下闪烁。", "en": "Its scales glimmer in the moonlight."},
+        {"zh": "它潜伏在阴影中，等待猎物。", "en": "It lurks in the shadows, waiting for prey."},
+        {"zh": "它的攻击速度快如闪电。", "en": "Its attack is as fast as lightning."},
+        {"zh": "它的尾巴甩出，击中你。", "en": "Its tail whips out and hits you."},
+        {"zh": "它在夜空中翱翔，留下尾迹。", "en": "It soars through the night sky, leaving a trail behind."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的剑刺入它的鳞甲。", "en": "Your sword pierces its scales."},
+        {"zh": "它的翅膀撞击发出巨响。", "en": "Its wings collide, making a loud noise."},
+        {"zh": "你的盾牌被它的力量震碎。", "en": "Your shield is shattered by its force."},
+        {"zh": "它的爪子抓破你的盔甲。", "en": "Its claws tear through your armor."},
+        {"zh": "它的身体重重地撞向岩壁。", "en": "Its body crashes into the rock wall."},
+        {"zh": "它的翅膀在你身上撕裂。", "en": "Its wings tear through your body."},
+        {"zh": "你被它的力量震飞。", "en": "You are sent flying by its power."},
+        {"zh": "它的头颅撞向地面，尘土飞扬。", "en": "Its head smashes into the ground, sending up dust."},
+        {"zh": "它的身体在你之间摩擦。", "en": "Its body rubs between you."},
+        {"zh": "它的触须缠绕在你的腿上。", "en": "Its tentacles wrap around your legs."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它们在月光下交配。", "en": "They mate in the moonlight."},
+        {"zh": "它们发出低沉的交配声。", "en": "They make a low mating sound."},
+        {"zh": "它的触须轻轻触碰。", "en": "Its tentacles gently touch."},
+        {"zh": "它们围绕着彼此旋转。", "en": "They spin around each other."},
+        {"zh": "它的身体散发出炽热的光芒。", "en": "Its body emits a fiery glow."},
+        {"zh": "它们的触须交缠在一起。", "en": "Their tentacles intertwine."},
+        {"zh": "它们在空中轻轻舞动。", "en": "They move gently in the air."},
+        {"zh": "它们的眼睛闪烁着光芒。", "en": "Their eyes glow with light."},
+        {"zh": "它们彼此低语。", "en": "They whisper to each other."},
+        {"zh": "它们发出爱意的低吟。", "en": "They emit a low sound of affection."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翼下暗藏剧毒。", "en": "Poison lurks beneath."},
+        {"zh": "吸取它的血液。", "en": "Suck its blood."},
+        {"zh": "它的肉质鲜美。", "en": "Its flesh is delicious."},
+        {"zh": "避入阴影。", "en": "Retreat into the shadows."},
+        {"zh": "警惕，猎物已现。", "en": "Beware, prey detected."},
+        {"zh": "汲取生命之力。", "en": "Absorb life force."},
+        {"zh": "毒针穿透肌肤。", "en": "Toxic needles pierce."},
+        {"zh": "吞噬这具躯体。", "en": "Devour this body."},
+        {"zh": "腐肉带来力量。", "en": "Decay gives strength."},
+        {"zh": "捕获它，享用猎物。", "en": "Capture it, savor the kill."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定了目标。", "en": "Target acquired."},
+        {"zh": "翅膀一张，龙肉归我。", "en": "One flap of the wings, and that meat is mine."},
+        {"zh": "我看见你在崖边缩了一下。", "en": "I saw you flinch at the cliff edge."},
+        {"zh": "它在远处移动。", "en": "It moves in the distance."},
+        {"zh": "猎物在阴影中。", "en": "Prey in shadow."},
+        {"zh": "目标开始行动。", "en": "Target moving."},
+        {"zh": "猎物发出声响。", "en": "Prey makes noise."},
+        {"zh": "它正接近。", "en": "It approaches."},
+        {"zh": "找到下一个目标。", "en": "Find next target."},
+        {"zh": "猎物进入视野。", "en": "Prey in sight."},
+        {"zh": "崖壁上的人影，是我的。", "en": "That figure on the cliff wall is mine."},
+        {"zh": "你身上有铁的味道，追。", "en": "You smell of iron. I give chase."},
+        {"zh": "扇两下翅膀，已到你上方。", "en": "Two wingbeats put me above you."},
+        {"zh": "碎石滚落，暴露了你的路。", "en": "Falling gravel betrayed your path."},
+        {"zh": "这个洞口，只进不出。", "en": "This cave mouth only lets things in."},
+        {"zh": "我要把你从岩缝里拖出来。", "en": "I will drag you out of that crack."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "瞄准猎物。", "en": "Target prey."},
+        {"zh": "准备攻击。", "en": "Prepare attack."},
+        {"zh": "释放毒针。", "en": "Release toxins."},
+        {"zh": "它的叫声。", "en": "Its scream."},
+        {"zh": "攻击开始。", "en": "Attack initiated."},
+        {"zh": "追踪并消灭。", "en": "Track and destroy."},
+        {"zh": "它在攻击。", "en": "It attacks."},
+        {"zh": "摧毁它的弱点。", "en": "Destroy its weakness."},
+        {"zh": "保持瞄准。", "en": "Keep aiming."},
+        {"zh": "毒针已对着你的脖颈。", "en": "My poison needle lines up with your neck."},
+        {"zh": "别退，身后是悬崖。", "en": "Don't step back; the cliff is behind you."},
+        {"zh": "我的翼影盖住了你。", "en": "My wing's shadow covers you."},
+        {"zh": "再走一步，就落进我的爪。", "en": "One more step and you enter my claws."},
+        {"zh": "等你抬头，针就到了。", "en": "By the time you look up, the needle lands."},
+        {"zh": "石缝太窄，你躲不开。", "en": "The crevice is too narrow to dodge in."},
+        {"zh": "我绕着你的头顶盘旋。", "en": "I circle above your head."},
+        {"zh": "你的火把照不穿我的翼。", "en": "Your torch cannot pierce my wings."},
+        {"zh": "毒针只差一寸。", "en": "The poison needle is an inch away."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "尖刺穿心！", "en": "Spikes through heart!"},
+        {"zh": "闪避，小心针！", "en": "Dodge, watch out for the needles!"},
+        {"zh": "毒液注入！", "en": "Toxin injected!"},
+        {"zh": "鳞片刮脸！", "en": "Scales scrape face!"},
+        {"zh": "爪子撕裂！", "en": "Claws tear!"},
+        {"zh": "快跑，它来了！", "en": "Run, it's coming!"},
+        {"zh": "针雨袭来！", "en": "Needle rain!"},
+        {"zh": "致命一击！", "en": "Final strike!"},
+        {"zh": "尖叫撕裂夜空！", "en": "Scream tears through the night!"},
+        {"zh": "针刺入肩，翅膀随即压上。", "en": "The needle sinks into your shoulder, then my wings press down."},
+        {"zh": "一爪掀翻，碎石乱飞。", "en": "One claw flips you over in a spray of gravel."},
+        {"zh": "翼刃扫过，衣甲开裂。", "en": "My wing edge sweeps past and your armor splits."},
+        {"zh": "咬住手臂，往崖下拖。", "en": "I bite your arm and drag you toward the drop."},
+        {"zh": "毒液顺着针尖流进去。", "en": "Venom runs down the needle into you."},
+        {"zh": "尾鞭抽在膝弯上。", "en": "My tail lashes the back of your knee."},
+        {"zh": "让你尝尝龙爪的重量。", "en": "Feel the weight of a dragon's claw."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗中潜行！", "en": "Creeps in darkness!"},
+        {"zh": "阴影中现身！", "en": "Appears in shadows!"},
+        {"zh": "我从崖缝里挤出来，翼还湿。", "en": "I squeeze out of the cliff crack, wings still damp."},
+        {"zh": "黄昏时分出没！", "en": "Active at dusk!"},
+        {"zh": "夜间巡逻！", "en": "Patrols at night!"},
+        {"zh": "静候时机！", "en": "Holds ambush!"},
+        {"zh": "洞穴深处潜伏！", "en": "Hides in caves!"},
+        {"zh": "夜晚的噩梦！", "en": "Nightmare of the night!"},
+        {"zh": "在腐化之地出现！", "en": "Appears in Corruption!"},
+        {"zh": "追踪猎物不眠！", "en": "Chases prey without rest!"},
+        {"zh": "崖顶的巢里，翼声响起。", "en": "In the cliff nest, wings begin to beat."},
+        {"zh": "蛋壳裂开，毒针先探出来。", "en": "The shell cracks and the poison needle comes first."},
+        {"zh": "从云后的岩壁俯冲下来。", "en": "I dive from the cliff behind the clouds."},
+        {"zh": "洞穴深处，一对翅膀展开。", "en": "Deep in the cave, a pair of wings unfolds."},
+        {"zh": "风把龙腥味吹到你脚边。", "en": "The wind carries dragon musk to your feet."},
+        {"zh": "我落在断崖最高那块石上。", "en": "I land on the highest stone of the broken cliff."},
+        {"zh": "阴影掠过，那是我在飞。", "en": "A shadow passes. That is me, flying."},
+        {"zh": "山谷里回了一声长啸。", "en": "A long cry rolls through the valley."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧穿了翼膜。", "en": "Flames burned through my wing membrane."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "快拉住我，我没摔死！", "en": "Hold me back, I didn't fall!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水下翅膀张不开，好沉。", "en": "My wings won't spread underwater; I sink."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸伤到了我，快治疗！", "en": "The explosion hurt me, heal me!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭卡在翼骨里。", "en": "An arrow is wedged between my wing bones."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法伤害了我，快治伤！", "en": "Magic hurt me, heal me!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得扇不动翅膀。", "en": "Too hungry to beat my wings."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被雷劈伤了，救救我！", "en": "Lightning hurt me, help me!"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空里，翅膀抓不住风。", "en": "In the void my wings find no air."}
+      ]
+    }
+  }
+}

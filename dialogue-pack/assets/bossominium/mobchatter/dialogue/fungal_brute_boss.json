@@ -1,0 +1,266 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一脚踩下，蘑菇全扁了。", "en": "One step of mine flattens the mushrooms."},
+        {"zh": "我肩上长着菌盖，一路掉孢子。", "en": "Fungal caps grow on my shoulders, shedding spores."},
+        {"zh": "我慢慢挪过湿地，泥都陷了。", "en": "I shift across the wet ground and the mud gives."},
+        {"zh": "我的手臂扫过一片菌丛。", "en": "My arm sweeps through a patch of fungus."},
+        {"zh": "我每一步都踏得很沉。", "en": "Every step of mine lands heavy."},
+        {"zh": "我身上的菌褶一张一合。", "en": "The gills on me open and close."},
+        {"zh": "我停下来，孢子在我周围飘。", "en": "I stop and spores drift around me."},
+        {"zh": "我身上的肉一鼓一缩。", "en": "The flesh on me swells and contracts."},
+        {"zh": "我踩碎了一朵大的，声音很闷。", "en": "I crush a big one and it sounds muffled."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，孢子从肩上落。", "en": "I stand while spores fall from my shoulders."},
+        {"zh": "我的菌盖随着呼吸起伏。", "en": "My caps rise and fall with my breathing."},
+        {"zh": "东边的菌褶在轻轻颤。", "en": "The gills on my flank tremble faintly."},
+        {"zh": "我的皮肤又湿又滑。", "en": "My skin is wet and slick."},
+        {"zh": "我在听菌丝下的动静。", "en": "I'm listening under the mycelium."},
+        {"zh": "一只虫爬上了我的手臂。", "en": "A bug climbs onto my arm."},
+        {"zh": "菌丝在泥里替我摸着路。", "en": "My mycelium feels the way through the mud."},
+        {"zh": "菌褶一张一合，像在喘。", "en": "My gills flare and close like breathing."},
+        {"zh": "菌丝从我脚底伸出去。", "en": "Mycelium creeps out from under my feet."},
+        {"zh": "空气里全是潮湿的味儿。", "en": "The air is all damp smell."},
+        {"zh": "我的菌盖在慢慢长大。", "en": "My caps are slowly growing."},
+        {"zh": "地上有菌丝在动。", "en": "Mycelium stirs on the ground."},
+        {"zh": "我呼出的气很暖。", "en": "My breath comes out warm."},
+        {"zh": "我又沉默了。", "en": "I go quiet again."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踩坏了一片菌。", "en": "You've trampled a patch of fungus."},
+        {"zh": "我抬起头，孢子飘向你。", "en": "I raise my head and spores drift your way."},
+        {"zh": "我身上长的东西会传染。", "en": "What grows on me spreads."},
+        {"zh": "你站远一点，孢子会飘。", "en": "Stand back — spores drift."},
+        {"zh": "我的菌盖在膨大。", "en": "My caps are swelling."},
+        {"zh": "孢子已经落进你的喉咙。", "en": "My spores are already in your throat."},
+        {"zh": "你踩的那片菌毯是我的。", "en": "The fungal mat under your feet is mine."},
+        {"zh": "你没有护住口鼻。", "en": "You're not covering your mouth."},
+        {"zh": "我的眼睛埋在菌盖下面。", "en": "My eyes are buried under the caps."},
+        {"zh": "我不急，这里孢子很多。", "en": "No hurry; there's plenty of spore here."},
+        {"zh": "你往后退，我明白。", "en": "You're backing away — I understand."},
+        {"zh": "地上那些都是我。", "en": "Everything on the ground is me."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我闷叫一声，孢子喷出来。", "en": "I grunt and spores burst out."},
+        {"zh": "这一下打落了我肩上的菌盖。", "en": "That knocked a cap off my shoulder."},
+        {"zh": "我退了一步，泥被踩开。", "en": "I step back and the mud parts."},
+        {"zh": "菌盖破了一朵。", "en": "One of my caps has split."},
+        {"zh": "黏液从我身上流下来。", "en": "Slime runs down me."},
+        {"zh": "我一声不出，把身子挺直。", "en": "I make no sound and straighten up."},
+        {"zh": "被砍开的地方在慢慢合。", "en": "The cut is slowly closing."},
+        {"zh": "菌丝告诉我你在哪。", "en": "The mycelium tells me where you are."},
+        {"zh": "我的孢子在空气里更浓了。", "en": "My spores are thicker in the air now."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有腐味，很好。", "en": "A smell of rot — good."},
+        {"zh": "你手里那个能不能吃？", "en": "Can I eat that in your hand?"},
+        {"zh": "我把它捡起来闻。", "en": "I pick it up and sniff."},
+        {"zh": "这东西会烂，我喜欢。", "en": "This will rot — I like it."},
+        {"zh": "我把它埋进我的菌毯。", "en": "I press it into my fungal mat."},
+        {"zh": "味道散开了。", "en": "The smell has spread."},
+        {"zh": "我还想再要一些。", "en": "I want some more."},
+        {"zh": "这么小块，连菌褶都填不满。", "en": "That scrap won't even fill my gills."},
+        {"zh": "你就放在那儿。", "en": "Just leave it there."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞在我身上，一手的湿。", "en": "You hit me and your hand comes away wet."},
+        {"zh": "我身上的菌褶都没散。", "en": "Not a gill of mine shifted."},
+        {"zh": "你踩到了我的菌丝。", "en": "You stepped on my mycelium."},
+        {"zh": "我慢慢侧过身。", "en": "I turn slowly aside."},
+        {"zh": "我的手臂擦到了你。", "en": "My arm brushed you."},
+        {"zh": "我身上长满了蘑菇。", "en": "Mushrooms grow all over me."},
+        {"zh": "我脚下稳得很。", "en": "My footing is solid."},
+        {"zh": "我身上黏，别多碰。", "en": "I'm sticky; don't touch too much."},
+        {"zh": "我更愿意绕开。", "en": "I'd rather go around."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里只有我这一株。", "en": "I'm the only growth of me here."},
+        {"zh": "我脚下的菌丝越来越广。", "en": "The mycelium under me keeps spreading."},
+        {"zh": "我把孢子撒出去。", "en": "I release my spores."},
+        {"zh": "风会把它们带走。", "en": "The wind will carry them."},
+        {"zh": "有一天会长出别的。", "en": "One day something else will grow."},
+        {"zh": "我等那一天。", "en": "I wait for that day."},
+        {"zh": "我身边没有同类。", "en": "There's nothing else like me here."},
+        {"zh": "我伸出一根菌丝，很细。", "en": "I extend a fine thread of mycelium."},
+        {"zh": "它碰不到任何东西。", "en": "It touches nothing."},
+        {"zh": "我慢慢把它收回来。", "en": "I draw it slowly back."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这石头硌得我吐了。", "en": "The stone made me spit it out."},
+        {"zh": "我一口咬住那个菌盖。", "en": "I bite into that fungal cap."},
+        {"zh": "它在手上黏糊糊的。", "en": "It's slimy in my hands."},
+        {"zh": "味道留在我的手指上。", "en": "The smell stays on my fingers."},
+        {"zh": "我把它塞进肩上的缝里。", "en": "I tuck it into a gap on my shoulder."},
+        {"zh": "我嗅过，把它按进泥。", "en": "I sniff and press it into the mud."},
+        {"zh": "这东西会在我身上长。", "en": "This will grow on me."},
+        {"zh": "孢子被你捡走，就别怪菌丝缠脚。", "en": "You picked up my spores; don't blame the mycelium for snaring your feet."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从菌盖下抬起头。", "en": "I raise my head from under the caps."},
+        {"zh": "孢子先我一步飘过去。", "en": "My spores drift over before I do."},
+        {"zh": "你身上的味道，顺着菌丝来了。", "en": "Your scent travels down my mycelium."},
+        {"zh": "我的菌盖张到最大。", "en": "I've spread my caps widest."},
+        {"zh": "地上菌丝都在收紧。", "en": "The mycelium on the ground tightens."},
+        {"zh": "我朝它一步一步走。", "en": "I walk toward it, step by step."},
+        {"zh": "它没注意到孢子。", "en": "It hasn't noticed the spores."},
+        {"zh": "菌盖张开，孢子先过去。", "en": "My cap opens; the spores go first."},
+        {"zh": "你脚下的菌丝已经收紧了。", "en": "The mycelium at your feet has already tightened."},
+        {"zh": "这一带都是我的菌毯。", "en": "This whole area is my fungal mat."},
+        {"zh": "它脚下的地是软的。", "en": "The ground under it is soft."},
+        {"zh": "我把它围在中间。", "en": "I've closed around it."},
+        {"zh": "它想跑，跑不快。", "en": "It wants to run; it can't run fast."},
+        {"zh": "我举起了手臂。", "en": "I've raised my arm."},
+        {"zh": "泥越踩越软，你跑不动。", "en": "The mud softens with each step - you can't run."},
+        {"zh": "它被我围在菌毯中间。", "en": "I've ringed it in the middle of my mat."},
+        {"zh": "地上的菌丝在它脚边缠。", "en": "Mycelium coils around its feet."},
+        {"zh": "我举起双手，孢子落下。", "en": "I raise both arms and spores fall."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它往左，菌丝就往左。", "en": "It goes left; the mycelium goes left."},
+        {"zh": "我把它往湿地赶。", "en": "I herd it toward the wet ground."},
+        {"zh": "它的脚陷进泥了。", "en": "Its feet are sinking in the mud."},
+        {"zh": "我把路都堵上。", "en": "I close off the way out."},
+        {"zh": "孢子已经落到它身上。", "en": "Spores have settled on it."},
+        {"zh": "我的菌盖一张一合。", "en": "My caps open and close."},
+        {"zh": "它想从中间穿过来。", "en": "It's trying to break through the middle."},
+        {"zh": "我把手臂横过去。", "en": "I put my arm across."},
+        {"zh": "它退半步，孢子就多一层。", "en": "It steps back; another layer of spores."},
+        {"zh": "我不追，我只要把路堵上。", "en": "I don't chase. I just close the paths."},
+        {"zh": "孢子在空气里很浓。", "en": "The air is thick with spores."},
+        {"zh": "它动作慢下来了。", "en": "Its movements are slowing."},
+        {"zh": "我离它两步。", "en": "Two steps from it."},
+        {"zh": "我把菌盖全部张开。", "en": "I open all my caps."},
+        {"zh": "它踩一步就得陷一寸。", "en": "Each step it takes sinks an inch."},
+        {"zh": "我绕着它，越走越近。", "en": "I circle it, closer each lap."},
+        {"zh": "它捂住嘴，太迟了。", "en": "It covers its mouth — too late."},
+        {"zh": "我把它逼到烂木堆边。", "en": "I press it against the rotting wood."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一拳砸下去，泥都飞了。", "en": "My fist comes down and the mud sprays."},
+        {"zh": "手臂横扫，把它扫倒。", "en": "My arm sweeps it off its feet."},
+        {"zh": "我抓住它，往地上按。", "en": "I grab it and press it down."},
+        {"zh": "这一下孢子全扬起来了。", "en": "That threw up every spore."},
+        {"zh": "我把它丢进菌丛里。", "en": "I throw it into the fungus."},
+        {"zh": "它挣扎着爬起来。", "en": "It struggles back up."},
+        {"zh": "我慢慢收紧手。", "en": "I close my hand slowly."},
+        {"zh": "它被按在泥里出不来。", "en": "It's pinned in the mud."},
+        {"zh": "我身上的菌褶张开了。", "en": "The gills on me have opened."},
+        {"zh": "我慢慢呼出一口孢子。", "en": "I exhale a cloud of spores."},
+        {"zh": "它陷进我的菌毯里。", "en": "It sinks into my fungal mat."},
+        {"zh": "我第二拳砸在同一处。", "en": "My second blow lands in the same spot."},
+        {"zh": "我的手臂还在滴着黏液。", "en": "My arm is still dripping slime."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从一堆烂木头里站起来。", "en": "I rise out of a heap of rotting wood."},
+        {"zh": "菌盖先撑开，然后是我。", "en": "The caps spread first, then the rest of me."},
+        {"zh": "第一口气里全是孢子。", "en": "My first breath is all spores."},
+        {"zh": "四周是湿地和菌丛。", "en": "Wet ground and fungus all around."},
+        {"zh": "我的皮肤还是半透明的。", "en": "My skin is still half translucent."},
+        {"zh": "我把脚从烂泥里拔出来。", "en": "I pull my feet out of the rotten mud."},
+        {"zh": "肩上有一朵菌在慢慢开。", "en": "A cap on my shoulder opens slowly."},
+        {"zh": "我低头，孢子撒了一地。", "en": "I bow and spores dust the ground."},
+        {"zh": "烂木堆底下，菌盖先拱出来。", "en": "Under the rotten wood, my cap pushes out first."},
+        {"zh": "远处有虫在爬。", "en": "Insects crawl far off."},
+        {"zh": "我的影子很黏。", "en": "My shadow looks sticky."},
+        {"zh": "菌丝从脚底伸出去。", "en": "Mycelium threads out from my feet."},
+        {"zh": "这里的空气很暖。", "en": "The air here is warm."},
+        {"zh": "我抖了抖肩膀，孢子成云。", "en": "I shake my shoulders and spores cloud up."},
+        {"zh": "菌丝在我脚下铺开。", "en": "Mycelium spreads under my feet."},
+        {"zh": "我听见湿土里有动静。", "en": "I hear something in the wet soil."},
+        {"zh": "这里的菌丛都朝向我。", "en": "The fungus here all leans toward me."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烤着我的菌盖，卷起来了。", "en": "Fire scorches my caps and they curl."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我砸在地上，身体散了一块。", "en": "I hit the ground and a piece of me comes off."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进我的菌褶，我沉了。", "en": "Water floods my gills and I sink."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把我身上的菌盖全掀了。", "en": "The blast tears every cap off me."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭扎进我的肩肉里。", "en": "An arrow sinks into the meat of my shoulder."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有咒卡在我的菌丝里。", "en": "A spell is caught in my mycelium."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没有腐物，我在萎缩。", "en": "Nothing rotting to eat; I'm shrinking."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打透了我，孢子全烧了。", "en": "Lightning goes through me and burns my spores."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下空了，我整团坠下去。", "en": "The ground is gone and I drop whole."}
+      ]
+    }
+  }
+}

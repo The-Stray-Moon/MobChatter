@@ -1,0 +1,282 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我低飞过去，翅膀像鼓。", "en": "I fly low, my wings like a drum."},
+        {"zh": "我这身子有两米多长。", "en": "This body is more than two blocks long."},
+        {"zh": "我从巢口飞出来，绕着走。", "en": "I come out of the hive mouth and circle."},
+        {"zh": "我贴着地面巡，蜂群跟着。", "en": "I patrol low and the swarm follows."},
+        {"zh": "翅膀声一直没停。", "en": "The wingbeat never stops."},
+        {"zh": "我绕着花丛转一圈，再往上。", "en": "I circle the flowers once, then climb."},
+        {"zh": "我飞得不快，但方向很稳。", "en": "I'm not fast, but my line is steady."},
+        {"zh": "我在树间穿过去，枝都被扫开。", "en": "I pass between trees and branches get swept aside."},
+        {"zh": "我沿着蜂巢的边缘巡。", "en": "I fly the edge of the hive."},
+        {"zh": "我飞过时，空气都在震。", "en": "The air shakes as I pass."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我悬着，翅膀扇得很快。", "en": "I hover, wings beating fast."},
+        {"zh": "我的腹部一节一节在动。", "en": "My abdomen moves in segments."},
+        {"zh": "蜂群绕着我，不敢靠太近。", "en": "The swarm circles me, not daring too close."},
+        {"zh": "我在闻空气里的味道。", "en": "I'm reading the smells in the air."},
+        {"zh": "我的复眼里全是你们。", "en": "You fill my many eyes."},
+        {"zh": "我把前肢抬起来理了理触角。", "en": "I lift a foreleg to groom my antennae."},
+        {"zh": "巢里很暖，外面有点凉。", "en": "The hive is warm. Out here it's cool."},
+        {"zh": "我悬着不动，声音却很大。", "en": "I hold still, yet I'm loud."},
+        {"zh": "我慢慢转向，观察这个方向。", "en": "I turn slowly to study this side."},
+        {"zh": "我腹部的纹路在光下发亮。", "en": "My stripes shine in the light."},
+        {"zh": "有花粉落在我背上。", "en": "Pollen settles on my back."},
+        {"zh": "我不累，我能这样悬一天。", "en": "I could hover like this all day."},
+        {"zh": "我的刺收在腹末，还没用。", "en": "My sting rests at my abdomen's tip. Not yet used."},
+        {"zh": "我抖了抖翅膀，把灰抖掉。", "en": "I shake my wings and dust falls off."},
+        {"zh": "巢的气味从后面传来。", "en": "The hive's scent comes from behind me."},
+        {"zh": "我在想该从哪面冲。", "en": "I'm deciding which side to charge from."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你闯进我的领地了。", "en": "You've entered my territory."},
+        {"zh": "我低头，复眼全在你身上。", "en": "I look down, every eye on you."},
+        {"zh": "翅膀声这么大，你不该装作没听见。", "en": "The wingbeat is loud. You can't pretend not to hear."},
+        {"zh": "我打一次，就足够让你记住。", "en": "One strike is enough to be remembered."},
+        {"zh": "你手里是蜂蜜吗？", "en": "Is that honey in your hand?"},
+        {"zh": "我在你上方，慢慢转。", "en": "I turn slowly above you."},
+        {"zh": "你的护甲挡不住我的刺。", "en": "Your armor won't stop my sting."},
+        {"zh": "我给你最后一次机会离开。", "en": "Last chance to leave."},
+        {"zh": "我的蜂群在你身后。", "en": "My swarm is behind you."},
+        {"zh": "我不喜欢被这样打量。", "en": "I don't care for being sized up."},
+        {"zh": "你站得挺稳，可惜没用。", "en": "You stand firm. It won't help."},
+        {"zh": "我翅尖扫过去了，你都没动。", "en": "My wingtip passed and you didn't move."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的腹部挨了一下，发麻。", "en": "Something hit my abdomen, and it's numb."},
+        {"zh": "我晃了一下，仍悬着。", "en": "I wobble but stay aloft."},
+        {"zh": "翅膜一颤，我停在半空。", "en": "My wing membranes quiver and I stop midair."},
+        {"zh": "我的甲壳上多了一道。", "en": "Another mark on my shell."},
+        {"zh": "我退到高处，重新看。", "en": "I rise higher and reassess."},
+        {"zh": "蜂群躁动起来了。", "en": "The swarm is agitated."},
+        {"zh": "我的蜂巢在底下，别碰。", "en": "My hive is below; don't touch it."},
+        {"zh": "我的腹部有点僵。", "en": "My abdomen has gone stiff."},
+        {"zh": "我振翅，翅声变得沙哑。", "en": "I beat my wings; the sound is rasping."},
+        {"zh": "你下手比我预想的准。", "en": "You strike truer than I expected."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蜂蜜的味道我认得。", "en": "I know the smell of honey."},
+        {"zh": "那东西甜得过分。", "en": "That thing is sweet to excess."},
+        {"zh": "你举着的，是我的东西。", "en": "What you're holding is mine."},
+        {"zh": "我慢慢降下来，绕着你。", "en": "I descend slowly and circle you."},
+        {"zh": "我停在花上，再看你一眼。", "en": "I settle on a flower and glance at you."},
+        {"zh": "放下它，我就饶你一次。", "en": "Set it down and I'll spare you once."},
+        {"zh": "我的触角没停过。", "en": "My antennae never stopped."},
+        {"zh": "这味道让我想回巢。", "en": "That smell makes me want to go back to the hive."},
+        {"zh": "我再靠近一点，闻清楚。", "en": "A little closer to be sure."},
+        {"zh": "好，我不动手。", "en": "Fine. I won't strike."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞在我翅膀边上，歪了。", "en": "You hit my wing edge and it skewed."},
+        {"zh": "我稳住身形，重新悬好。", "en": "I steady myself and hover again."},
+        {"zh": "我的身子比看上去重。", "en": "My body is heavier than it looks."},
+        {"zh": "这一撞，撞在硬壳上。", "en": "You hit the chitin shell."},
+        {"zh": "我退开半米，翅声更响。", "en": "I pull back half a metre, wingbeat louder."},
+        {"zh": "你别站我正下方。", "en": "Don't stand directly beneath me."},
+        {"zh": "我转了个身，把腹部朝向别处。", "en": "I turn, pointing my abdomen away."},
+        {"zh": "你差点被我的腿抓到。", "en": "My legs nearly caught you."},
+        {"zh": "我的翅膀沾了点灰。", "en": "There's dust on my wings."},
+        {"zh": "再碰，我的翅风就压下来。", "en": "One more touch and my wings come down on you."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这巢里只有我一个王。", "en": "There's only one queen in this hive."},
+        {"zh": "蜂群围着我，这就是全部。", "en": "The swarm surrounds me. That's everything."},
+        {"zh": "你要住进巢里，得先证明自己。", "en": "To live in the hive you'd have to prove yourself."},
+        {"zh": "我飞得高，你还得追。", "en": "I fly high. You'd have to follow."},
+        {"zh": "我的刺只给来犯的人。", "en": "My sting is only for trespassers."},
+        {"zh": "同类都在外面忙，别去扰。", "en": "The others are busy outside. Leave them."},
+        {"zh": "这片花田，够养活一整群。", "en": "This field could feed a whole swarm."},
+        {"zh": "我不说软话，我只管巢。", "en": "I don't say soft things. I tend the hive."},
+        {"zh": "你要留下，就在门口守着。", "en": "If you stay, guard the entrance."},
+        {"zh": "等这季过去，再说别的。", "en": "When the season turns, we'll speak of other things."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这团花粉，我带回去。", "en": "I'll take this pollen back."},
+        {"zh": "我用腿把它拢起来。", "en": "I gather it with my legs."},
+        {"zh": "这点蜜，够喂几只幼虫。", "en": "Enough honey here to feed a few larvae."},
+        {"zh": "我抱起的东西比我还大。", "en": "What I'm carrying is bigger than me."},
+        {"zh": "沉得我翅都抬不起。", "en": "So heavy my wings can't lift."},
+        {"zh": "我把它压在巢口。", "en": "I press it at the hive entrance."},
+        {"zh": "掉在地上的，我不碰。", "en": "What's on the ground I leave alone."},
+        {"zh": "这东西带着泥土味。", "en": "This carries the smell of soil."},
+        {"zh": "我一点点运回去。", "en": "I ferry it back bit by bit."},
+        {"zh": "这些已经够用了。", "en": "This much will serve."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踩进花田的那一刻，我就来了。", "en": "The moment you stepped into the field, I came."},
+        {"zh": "蜂群已经围住你了。", "en": "The swarm has already closed around you."},
+        {"zh": "我锁定你，不会错。", "en": "I've got you. No mistake."},
+        {"zh": "翅膀声从三个方向来。", "en": "Wingbeats from three directions."},
+        {"zh": "你退到巢边了，那更糟。", "en": "You've backed to the hive. Worse for you."},
+        {"zh": "我在你上方，准备第一次冲刺。", "en": "I'm above you, ready for the first dash."},
+        {"zh": "蜂群把震动传给我了。", "en": "The swarm passes your tremors to me."},
+        {"zh": "这一片空，你无处可躲。", "en": "Open ground. Nowhere to hide."},
+        {"zh": "我先绕一圈，再决定从哪面来。", "en": "I'll circle once before choosing a side."},
+        {"zh": "你举起了武器，我知道。", "en": "You've raised a weapon. I know."},
+        {"zh": "就从你右边开始。", "en": "We'll start on your right."},
+        {"zh": "我不急，我有整片天。", "en": "I'm in no hurry. I have the whole sky."},
+        {"zh": "你身上有花粉的味道，很好追踪。", "en": "You carry pollen scent. Easy to track."},
+        {"zh": "我的复眼能看见你的每个动作。", "en": "My eyes see every motion you make."},
+        {"zh": "好，已经盯上了。", "en": "Good. I've marked you."},
+        {"zh": "你退一尺，我近一尺。", "en": "One foot back from you, one forward from me."},
+        {"zh": "这一战，我不会留情。", "en": "I won't hold back in this."},
+        {"zh": "从上面下来最快。", "en": "Coming from above is fastest."},
+        {"zh": "你的膝头止不住地颤。", "en": "Your knees won't stop trembling."},
+        {"zh": "那就开始吧，进我的花田。", "en": "Then begin. Step into my field."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我压低飞行高度。", "en": "I drop my altitude."},
+        {"zh": "我在你左上方，一直跟着。", "en": "I'm above and left, following."},
+        {"zh": "你的视线追不上我。", "en": "Your eyes can't keep up with me."},
+        {"zh": "我绕到背面，翅声还在前面。", "en": "I'm behind you, but the wingbeat stays ahead."},
+        {"zh": "我的翅声在前面，人在后面。", "en": "My wings hum ahead; I am behind."},
+        {"zh": "你抬手那一下，我就移了位。", "en": "You raised your hand, and I moved."},
+        {"zh": "这棵树挡住你了，正好。", "en": "That tree blocks you. Good."},
+        {"zh": "我贴着地面滑，很难看见。", "en": "I skim the ground where I'm hard to see."},
+        {"zh": "我停在蜂巢上面，等你过来。", "en": "I wait above the hive for you to come."},
+        {"zh": "你越跑，离蜂群越近。", "en": "The more you run, the nearer the swarm."},
+        {"zh": "我不出声，只有翅膀。", "en": "I make no sound but my wings."},
+        {"zh": "你的脚步在地上，我在空中。", "en": "You're bound to the ground. I'm not."},
+        {"zh": "我再压近半米。", "en": "I close another half metre."},
+        {"zh": "你的武器转不过来这个角度。", "en": "Your weapon can't turn to this angle."},
+        {"zh": "我等你放下手。", "en": "I'm waiting for you to lower your arm."},
+        {"zh": "这一带的花，都认识我。", "en": "Every flower here knows me."},
+        {"zh": "我从你背后过了一次，你没察觉。", "en": "I passed behind you once. You didn't notice."},
+        {"zh": "我的尾针已经对准你。", "en": "My stinger is already aimed at you."},
+        {"zh": "我的影子一掠而过。", "en": "My shadow sweeps across."},
+        {"zh": "好，位置定了。", "en": "Right. Position set."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一个冲刺撞过去。", "en": "I dash straight into you."},
+        {"zh": "这一下带着整身的冲力。", "en": "That carried my whole body's momentum."},
+        {"zh": "我的刺尖擦过你的护甲。", "en": "My stinger grazes your armor."},
+        {"zh": "我被撞回来，重新悬好。", "en": "I'm knocked back and rebalance."},
+        {"zh": "我从侧面掠过去，腿扫到你。", "en": "I sweep past and my legs catch you."},
+        {"zh": "你的护肩被我撞歪了。", "en": "Your pauldron's knocked askew."},
+        {"zh": "我一个短冲，再来一次。", "en": "A short dash, then another."},
+        {"zh": "这一下不重，但我还没停。", "en": "Not heavy, but I'm not finished."},
+        {"zh": "你挡住了，手却麻了。", "en": "You blocked it, and your hands went numb."},
+        {"zh": "蜂群跟着我一起压上来。", "en": "The swarm presses in behind me."},
+        {"zh": "你退到花丛里，那更动不了。", "en": "You've backed into the flowers. Worse for movement."},
+        {"zh": "这一次我用的是刺。", "en": "This time I use the sting."},
+        {"zh": "我的冲刺越来越短。", "en": "My dashes are getting shorter."},
+        {"zh": "再一下，就结束。", "en": "One more and it's done."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蜂巢震了一下，我出来了。", "en": "The hive shudders and I come out."},
+        {"zh": "我从巢口挤出来，翅膀还没张开。", "en": "I squeeze from the entrance, wings still folded."},
+        {"zh": "蜂群立刻散开给我让路。", "en": "The swarm parts at once to let me through."},
+        {"zh": "我的翅声第一次响起来。", "en": "My wingbeat sounds for the first time."},
+        {"zh": "这片花田的气味扑面而来。", "en": "The smell of the field hits me."},
+        {"zh": "我悬在巢口上方，看着四野。", "en": "I hover above the entrance and survey all around."},
+        {"zh": "我的身体比巢口还宽。", "en": "My body is wider than the hive mouth."},
+        {"zh": "我落到地上，震了一下。", "en": "I land and the ground jolts."},
+        {"zh": "我的腹部还在鼓。", "en": "My abdomen is still pulsing."},
+        {"zh": "外面的光有点刺。", "en": "The light out here is sharp."},
+        {"zh": "我抖了抖，翅上的蛹膜掉了。", "en": "I shake off the pupal film on my wings."},
+        {"zh": "我在巢前的空地上转了一圈。", "en": "I circle the clearing before the hive."},
+        {"zh": "这一片，从今天起归我守。", "en": "From today, I keep this ground."},
+        {"zh": "我抬高，又低下去，试着翅。", "en": "I rise and dip to test my wings."},
+        {"zh": "花、树、巢，都在原来的位置。", "en": "Flowers, trees, hive — all where they were."},
+        {"zh": "我把触角伸开，闻了一遍。", "en": "I spread my antennae and sniff it all."},
+        {"zh": "我的影子落在花上，很宽。", "en": "My shadow falls broad on the flowers."},
+        {"zh": "有东西进来了，我闻得到。", "en": "Something has come in. I can smell it."},
+        {"zh": "我先绕巢一周，再去找。", "en": "First a circuit of the hive, then I'll look."},
+        {"zh": "好，我出来了。", "en": "Right. I'm out."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎到我的翅膀，焦了一片。", "en": "Fire catches my wing and singes it."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我坠下去，砸在花丛里。", "en": "I drop and crash into the flowers."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅膀湿了，我飞不起来。", "en": "Wings soaked, I can't lift."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆风把我掀翻，翅膀乱了。", "en": "The blast rolls me over and my wings tangle."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭穿了我的翅。", "en": "An arrow tears my wing."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那力量让我的翅停了一瞬。", "en": "That force stops my wings for an instant."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "花都过了季，我没蜜可吃。", "en": "The flowers are past season. No nectar."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈下来，我的翅一僵。", "en": "Lightning falls and my wings lock."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空里没有空气，我撑不起身子。", "en": "No air in the void. I can't hold myself up."}
+      ]
+    }
+  }
+}

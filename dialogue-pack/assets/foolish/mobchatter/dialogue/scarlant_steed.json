@@ -1,0 +1,251 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我六条腿跑起来，红草分开。", "en": "My six legs run and the red grass parts."},
+        {"zh": "背上还留着鞍的痕。", "en": "A saddle mark remains on my back."},
+        {"zh": "我比别的 Scarlant 大一圈。", "en": "I am a size larger than the rest."},
+        {"zh": "跑的时候甲壳发出低响。", "en": "My shell hums as I run."},
+        {"zh": "我沿着族群的路线走。", "en": "I follow the colony's route."},
+        {"zh": "拐弯时我压低身子。", "en": "I dip low on the turns."},
+        {"zh": "红土被我踢起来。", "en": "Red soil kicks up behind me."},
+        {"zh": "有需要的时候，我载人。", "en": "When needed, I carry."},
+        {"zh": "现在背上是空的。", "en": "Right now my back is empty."},
+        {"zh": "我照样跑得很快。", "en": "I run fast all the same."},
+        {"zh": "腿落得又密又轻。", "en": "My legs land dense and light."},
+        {"zh": "风把我的触角吹得向后。", "en": "Wind lays my antennae back."},
+        {"zh": "前方是开阔地。", "en": "Open ground ahead."},
+        {"zh": "我跑了更快。", "en": "I run faster."},
+        {"zh": "红草连成一片。", "en": "The red grass runs together."},
+        {"zh": "我跑过整片田野。", "en": "I cross the whole field."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，四条腿稳，两条抬着。", "en": "I stand on four, two raised."},
+        {"zh": "背上的鞍痕晒得发亮。", "en": "The saddle mark shines in the sun."},
+        {"zh": "有同族从旁边跑过。", "en": "Kin run past."},
+        {"zh": "我没追过去。", "en": "I did not go after them."},
+        {"zh": "现在不用跑。", "en": "No need to run now."},
+        {"zh": "口器轻轻动。", "en": "My mouthparts stir."},
+        {"zh": "我转头看后面。", "en": "I turn to look behind."},
+        {"zh": "田野上什么也没有。", "en": "Nothing on the field."},
+        {"zh": "我把头转回来。", "en": "I turn my head back."},
+        {"zh": "风还在吹着。", "en": "The wind still blows."},
+        {"zh": "我等着有人上来。", "en": "I wait for someone to mount."},
+        {"zh": "可是没有人来。", "en": "But no one comes."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "猩红田野的坐骑，低阶不主动。", "en": "A crimson field steed, low rank, not aggressive."},
+        {"zh": "你身上没有鞍。", "en": "You carry no saddle."},
+        {"zh": "我还是把身子侧了侧。", "en": "Still, I angle my body."},
+        {"zh": "那是个可以上去的角度。", "en": "It is an angle you could mount from."},
+        {"zh": "你站在原地。", "en": "You stay where you are."},
+        {"zh": "我也不催你。", "en": "I do not press you."},
+        {"zh": "过了一会我转回去了。", "en": "After a while I turn away."},
+        {"zh": "风把红草吹得伏下去。", "en": "Wind lays the red grass down."},
+        {"zh": "我站在中间。", "en": "I stand in the middle of it."},
+        {"zh": "像一块红色的石头。", "en": "Like a red stone."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的甲上多了一道。", "en": "A mark appears on my shell."},
+        {"zh": "换一侧受力，鞍还稳着。", "en": "Shifting weight to the other side, the saddle holds."},
+        {"zh": "腿有一瞬间没跟上。", "en": "One leg misses for an instant."},
+        {"zh": "然后我又站住了。", "en": "Then I hold again."},
+        {"zh": "口器合了一下。", "en": "My mouthparts close once."},
+        {"zh": "我低头护住背上的鞍。", "en": "I lower my head to shield the saddle on my back."},
+        {"zh": "背上的鞍痕在疼。", "en": "The saddle mark aches."},
+        {"zh": "红土上有我的血。", "en": "My blood is on the red soil."},
+        {"zh": "我半步也不退。", "en": "I do not yield a step."},
+        {"zh": "我在自己的田野上。", "en": "I am on my own field."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "红草才是我们的食。", "en": "The red grass is our food."},
+        {"zh": "我把头扭向旁边。", "en": "I turn my head aside."},
+        {"zh": "红草才是我们的。", "en": "The red grass is ours."},
+        {"zh": "你举着东西站在那里。", "en": "You stand there holding it out."},
+        {"zh": "然后我掉头走。", "en": "Then I turn and walk off."},
+        {"zh": "你还在后面。", "en": "You are still behind."},
+        {"zh": "我一直没回头。", "en": "I never look back."},
+        {"zh": "田野长得望不到头。", "en": "The field stretches out of sight."},
+        {"zh": "你会跟累的。", "en": "You will tire of following."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞在我的腹侧。", "en": "You hit my flank."},
+        {"zh": "我横移了半步。", "en": "I sidestep half a pace."},
+        {"zh": "然后又站正。", "en": "Then square up again."},
+        {"zh": "你扶着我的甲。", "en": "You steady yourself on my shell."},
+        {"zh": "甲壳烫得厉害。", "en": "My shell is hot."},
+        {"zh": "我等你松手。", "en": "I wait for you to let go."},
+        {"zh": "你终于松了手。", "en": "You let go at last."},
+        {"zh": "我这才迈步。", "en": "Only then do I move."},
+        {"zh": "红草被我踩倒一片。", "en": "I flatten a patch of red grass."},
+        {"zh": "很快又立起来。", "en": "It rises again quickly."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "族群里自会安排。", "en": "The colony arranges it."},
+        {"zh": "我在这里等。", "en": "I wait here."},
+        {"zh": "有同族过来。", "en": "A kin comes over."},
+        {"zh": "我们碰了碰触角。", "en": "We touch antennae."},
+        {"zh": "然后它走了。", "en": "Then it leaves."},
+        {"zh": "我站着没动，猩红田野的草在响。", "en": "I stand still; the crimson field grass rustles."},
+        {"zh": "风朝我吹过来。", "en": "The wind comes at me."},
+        {"zh": "我背上的鞍痕发烫。", "en": "The saddle mark on my back grows hot."},
+        {"zh": "我把腿换了一下。", "en": "I shift my legs."},
+        {"zh": "我接着等待。", "en": "I keep waiting."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用口器夹起。", "en": "I take it in my mouthparts."},
+        {"zh": "猩红田野上，我背着骑手。", "en": "On the crimson fields, I carry a rider."},
+        {"zh": "我放回去了。", "en": "I put it back."},
+        {"zh": "这个能带上。", "en": "This one I can carry."},
+        {"zh": "我把它搁在背上。", "en": "I set it on my back."},
+        {"zh": "它歪了一下。", "en": "It tips."},
+        {"zh": "我侧身让它稳住。", "en": "I angle to steady it."},
+        {"zh": "现在可以走了。", "en": "Now we can go."},
+        {"zh": "我跑了出去。", "en": "I break into a run."},
+        {"zh": "它还在背上。", "en": "It is still on my back."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西在田间乱跑。", "en": "Something is running wild in the field."},
+        {"zh": "我把脑袋扬起来。", "en": "I toss my head up."},
+        {"zh": "那是我们的地。", "en": "That is our ground."},
+        {"zh": "红草被我的六条腿踩开。", "en": "My six legs part the red grass."},
+        {"zh": "六条腿一起蹬。", "en": "All six legs drive."},
+        {"zh": "我撒腿冲出去。", "en": "I bolt forward."},
+        {"zh": "红草被我切开。", "en": "I cut the red grass open."},
+        {"zh": "距离缩短得很快。", "en": "The gap closes fast."},
+        {"zh": "它听见蹄声了。", "en": "It hears my six feet."},
+        {"zh": "它把脑袋扭过来。", "en": "It twists its head round."},
+        {"zh": "可是太迟了。", "en": "But too late."},
+        {"zh": "我已经冲到了。", "en": "I have arrived."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我围着它跑圈。", "en": "I run rings around it."},
+        {"zh": "一圈比一圈近。", "en": "Each circle tighter."},
+        {"zh": "它转身追不上。", "en": "It turns and cannot keep up."},
+        {"zh": "我冲到它前面。", "en": "I cut in front of it."},
+        {"zh": "我又折了回来。", "en": "I wheel back."},
+        {"zh": "红土在我脚下飞。", "en": "Red soil flies under me."},
+        {"zh": "我背上能坐人，跑得不慢。", "en": "I can carry a rider and I am not slow."},
+        {"zh": "我把它往边界挤。", "en": "I crowd it toward the boundary."},
+        {"zh": "族群的线在后面。", "en": "The colony's line is behind."},
+        {"zh": "它退不出去了。", "en": "It has nowhere to go."},
+        {"zh": "我一下子刹住。", "en": "I skid to a stop."},
+        {"zh": "抬头对着它。", "en": "And raise my head to it."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我冲撞过去。", "en": "I ram it."},
+        {"zh": "六条腿的力气全压在一点。", "en": "The strength of six legs at one point."},
+        {"zh": "它被顶得后退。", "en": "It is driven back."},
+        {"zh": "口器咬住它的手臂。", "en": "My mouthparts clamp its arm."},
+        {"zh": "前腿劈了下去。", "en": "My forelegs come down."},
+        {"zh": "甲壳边缘划过。", "en": "My shell's edge slices past."},
+        {"zh": "它一下栽倒。", "en": "It goes down."},
+        {"zh": "我从它身上跨过。", "en": "I step over it."},
+        {"zh": "回头看了一眼。", "en": "I glance back once."},
+        {"zh": "它没有再起来。", "en": "It does not rise."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "红草深处先有声音。", "en": "A sound comes from deep in the red grass."},
+        {"zh": "我从草里跑出来。", "en": "I run out of the grass."},
+        {"zh": "背上的鞍痕还是新的。", "en": "The saddle mark is still fresh."},
+        {"zh": "我停在田野中间。", "en": "I stop in the middle of the field."},
+        {"zh": "四周都是同族的气味。", "en": "The smell of kin is all around."},
+        {"zh": "我认得这条路。", "en": "I know this route."},
+        {"zh": "我把前腿抬起。", "en": "I raise my forelegs."},
+        {"zh": "然后我放下前腿。", "en": "Then I set my forelegs down."},
+        {"zh": "我朝族群的方向走。", "en": "I walk toward the colony."},
+        {"zh": "风在背后推我。", "en": "Wind pushes at my back."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎过甲壳，红变成黑。", "en": "Fire sweeps my shell; red turns black."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从坡上摔下来，滚了很远。", "en": "I fall from a slope and roll far."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进口器，我拼命划。", "en": "Water fills my mouthparts; I claw at it."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把我掀过田野。", "en": "The blast throws me across the field."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那东西扎进我的腿节。", "en": "It lodges in a leg joint."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一股麻让我的六条腿都慢了。", "en": "A numbness slows all six legs."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得我跑不动了。", "en": "Hungry enough that I cannot run."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打下来，我伏在红草里。", "en": "Lightning strikes; I flatten in the red grass."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没有田野，也没有红草。", "en": "No field, and no red grass."}
+      ]
+    }
+  }
+}

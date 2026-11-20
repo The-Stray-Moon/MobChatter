@@ -1,0 +1,288 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，别躲了！", "en": "Sssss, don't hide!"},
+        {"zh": "我在泥土下穿行，朝你的呼吸去。", "en": "I travel under the earth toward your breathing."},
+        {"zh": "你待得太久，现在出来吧！", "en": "You've stayed too long, come out now!"},
+        {"zh": "我一直在观察你！", "en": "I've been watching you!"},
+        {"zh": "你的藏身之处无法保护你！", "en": "Your hiding place won't protect you!"},
+        {"zh": "你在黑暗里待太久了，我来了。", "en": "You stayed in the dark too long; I am here."},
+        {"zh": "光明无法拯救你！", "en": "Light won't save you!"},
+        {"zh": "你在暗处待太久了，我来了。", "en": "You've stayed in the dark too long — I'm here."},
+        {"zh": "我贴着洞壁，一步一步挪过去。", "en": "Hugging the cave wall, I inch toward you."},
+        {"zh": "这条石缝我走过一千遍。", "en": "I have walked this stone crack a thousand times."},
+        {"zh": "我挖穿了你的地窖墙壁！", "en": "I dug through your cellar wall!"},
+        {"zh": "两次警告都给过了，还躲？", "en": "Two warnings already. Still hiding?"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "阴影中的目光...", "en": "The gaze in the shadows..."},
+        {"zh": "耐心等待猎物...", "en": "Patience waiting for prey..."},
+        {"zh": "黑暗中的一抹黑影...", "en": "A dark shadow in the darkness..."},
+        {"zh": "两次警告之后，我挖墙来了。", "en": "After two warnings, I dig through walls."},
+        {"zh": "等待机会...", "en": "Waiting for an opportunity..."},
+        {"zh": "没有光的地方，我才睡得着。", "en": "I can only sleep where there is no light."},
+        {"zh": "静默中寻找...", "en": "Searching in silence..."},
+        {"zh": "耐心，耐心...", "en": "Patience, patience..."},
+        {"zh": "黑暗中的一抹漆黑...", "en": "A dark shadow in the darkness..."},
+        {"zh": "等待猎物靠近...", "en": "Waiting for prey to come close..."},
+        {"zh": "这里黑得刚好，我留下。", "en": "Dark enough here. I'll stay."},
+        {"zh": "我数着你的心跳等待。", "en": "I count your heartbeats while I wait."},
+        {"zh": "墙角那道裂缝是我挖的。", "en": "That crack in the wall is mine."},
+        {"zh": "你在黑暗里待了几分钟？", "en": "How long have you stood in the dark?"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你挪了半步，我立刻抬头。", "en": "You shift half a step, and my head snaps up."},
+        {"zh": "玩家就在那里！", "en": "The player is there!"},
+        {"zh": "他的位置被锁定了！", "en": "His position is locked!"},
+        {"zh": "我的眼睛在黑暗里睁开了。", "en": "My eyes open in the dark."},
+        {"zh": "他的气息泄露了！", "en": "His scent gave him away!"},
+        {"zh": "他的位置被标记了！", "en": "His location is marked!"},
+        {"zh": "玩家在移动！", "en": "The player is moving!"},
+        {"zh": "他的位置变了！", "en": "His position has changed!"},
+        {"zh": "你躲进洞里，我也能挖进去。", "en": "Hide in a hole; I'll dig in."},
+        {"zh": "他在移动！", "en": "He's moving!"},
+        {"zh": "我一抬眼，你就僵住了。", "en": "One glance from me and you freeze."},
+        {"zh": "别举火把，我讨厌那味道。", "en": "Don't raise that torch. I hate its smell."},
+        {"zh": "你的眼睛在黑暗里发亮。", "en": "Your eyes glow in the dark."},
+        {"zh": "你的气味，已经刻在我脑子里。", "en": "Your scent is carved into my mind."},
+        {"zh": "你的呼吸声太响亮了。", "en": "Your breathing is far too loud."},
+        {"zh": "照明弹举起前，我还在。", "en": "I stay until the flare goes up."},
+        {"zh": "你一转身，我就贴上来。", "en": "Turn around and I am already close."},
+        {"zh": "你身上没有光的味道。", "en": "You carry no scent of light."},
+        {"zh": "我盯你比你盯我久得多。", "en": "I have watched you longer than you know."},
+        {"zh": "我不喜欢光，你举着火把。", "en": "I hate light, and you hold a torch."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你触怒了我，追踪者来了！", "en": "You've angered me, the Stalker is coming!"},
+        {"zh": "黑暗中的眼睛注视着你...", "en": "Eyes in the darkness watch you..."},
+        {"zh": "别躲了，我来了。", "en": "Come out, I'm here."},
+        {"zh": "黑暗是我的朋友，光是敌人。", "en": "Darkness is my friend, light is my foe."},
+        {"zh": "你最好找个避难所。", "en": "Find a sanctuary, human."},
+        {"zh": "不要害怕，这只是警告。", "en": "Don't be afraid, just a warning."},
+        {"zh": "挨了一下，我退进更深的黑里。", "en": "Struck once, I withdraw into deeper darkness."},
+        {"zh": "你躲不开了，出来吧。", "en": "You can't hide, come out!"},
+        {"zh": "这里没有安全的地方。", "en": "There is no safe place here."},
+        {"zh": "光照到我了，疼！", "en": "The light caught me. It burns!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你会为光明放弃生命吗？", "en": "Would you sacrifice life for light?"},
+        {"zh": "光明是你的敌人。", "en": "Light is your enemy."},
+        {"zh": "你身上那点热气，我闻到了。", "en": "I smell the warmth coming off you."},
+        {"zh": "阴影才是我的家。", "en": "Shadows are my home."},
+        {"zh": "不要靠近光源。", "en": "Stay away from the light."},
+        {"zh": "你离光明太近了。", "en": "You're too close to the light."},
+        {"zh": "光让我恐惧。", "en": "Light terrifies me."},
+        {"zh": "光会引诱我。", "en": "Light will lure me."},
+        {"zh": "你把灯熄了，我就更近了。", "en": "You put the light out, so I am closer."},
+        {"zh": "光明使我虚弱。", "en": "Light weakens me."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你无法躲开我的追击。", "en": "You can't escape my pursuit."},
+        {"zh": "岩石无法阻挡我。", "en": "Rock won't stop me."},
+        {"zh": "我会追到你躲的洞里。", "en": "I'll dig you out of whatever hole you hide in."},
+        {"zh": "你跑不了了。", "en": "You can't run away."},
+        {"zh": "我追踪你到这。", "en": "I've tracked you here."},
+        {"zh": "你的藏身之处被发现了。", "en": "Your hiding place is found."},
+        {"zh": "我会把你抓住。", "en": "I'll get you."},
+        {"zh": "不要试图逃跑。", "en": "Don't try to run."},
+        {"zh": "你撞进我怀里，别想再退。", "en": "You stumble into my arms. No retreating now."},
+        {"zh": "我追踪你到了这里。", "en": "I tracked you here."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗里待久了，我也想找个伴。", "en": "Too long in the dark, and even I want company."},
+        {"zh": "我们属于黑暗。", "en": "We belong in the dark."},
+        {"zh": "深土里还有别的呼吸声。", "en": "There are other breaths deep in the soil."},
+        {"zh": "我需要光合作。", "en": "I need to mate."},
+        {"zh": "黑暗里，我只想找个同类。", "en": "In the dark, I only want my own kind."},
+        {"zh": "这黑暗里，该留下新的追踪者。", "en": "This darkness should hold new stalkers."},
+        {"zh": "我需要我的同类。", "en": "I need my mate."},
+        {"zh": "黑暗中寻找我的伴侣。", "en": "Find my mate in the dark."},
+        {"zh": "我需要繁殖来延续。", "en": "I need to breed to continue."},
+        {"zh": "黑暗这么大，没有谁回应我。", "en": "The dark is vast, and no one answers."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出微弱的绿光，蠕动着接近。", "en": "Emitting faint green light, crawling closer."},
+        {"zh": "你察觉到了危险，转头寻找。", "en": "You sense danger, turning to look around."},
+        {"zh": "慢慢靠近，耐心等待时机。", "en": "Slowly approaching, waiting for the right moment."},
+        {"zh": "你闻到了熟悉的气味，追踪而至。", "en": "You smell the familiar scent, tracking it down."},
+        {"zh": "从阴影中钻出，凝视着你。", "en": "Emerging from the shadows, staring at you."},
+        {"zh": "寻找着可以藏身的黑暗角落。", "en": "Searching for a dark corner to hide in."},
+        {"zh": "低吟着，似乎在寻找猎物。", "en": "Groaning, searching for its prey."},
+        {"zh": "黑暗中的声音，渐渐逼近。", "en": "The sound in the darkness, getting closer."},
+        {"zh": "感觉到你的呼吸，开始行动。", "en": "Feeling your breath, it begins to move."},
+        {"zh": "我拾起你掉下的火把，捏灭。", "en": "I pick up your dropped torch and crush the flame."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定目标，双眼散发绿光。", "en": "Locking onto you, eyes glowing green."},
+        {"zh": "确定你的位置，做好准备。", "en": "Pinpointing you, getting ready."},
+        {"zh": "开始追踪，不会轻易放弃。", "en": "Starting the hunt, won't give up easily."},
+        {"zh": "锁定你的身影，不再犹豫。", "en": "Locked onto you, no hesitation."},
+        {"zh": "确定方向，直奔目标。", "en": "Confirmed target, heading straight."},
+        {"zh": "找到你，准备结束。", "en": "Found you, ready to end it."},
+        {"zh": "识别出你，准备下手。", "en": "Identified you, ready to strike."},
+        {"zh": "盯上你，不会放过。", "en": "Homing in on you, not letting go."},
+        {"zh": "锁定了，不会轻易失手。", "en": "Locked in, won't miss."},
+        {"zh": "确定目标，准备进攻。", "en": "Target confirmed, ready to attack."},
+        {"zh": "你身上的光熄灭了。", "en": "The light on you has gone out."},
+        {"zh": "信号弹的余烬也救不了你。", "en": "The flare's embers won't save you."},
+        {"zh": "我把你的气味记下来了。", "en": "I have your scent memorized."},
+        {"zh": "挖到你脚下只用了三步。", "en": "Three digs brought me under your feet."},
+        {"zh": "你退到墙角，我就到了。", "en": "You backed into the corner. So did I."},
+        {"zh": "我把这片黑暗都借来了。", "en": "I borrowed all of this darkness."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的动作让它更加警觉。", "en": "Your movements make it more cautious."},
+        {"zh": "你试图躲避，它却更紧。", "en": "You try to evade, but it closes in."},
+        {"zh": "你试图隐藏，但它发现了你。", "en": "You try to hide, but it finds you."},
+        {"zh": "你躲藏起来，但它还是找到了。", "en": "You try to hide, but it locates you."},
+        {"zh": "你的一举一动都逃不过它的视线。", "en": "Every move you make is within its sight."},
+        {"zh": "你的声音让它更加警觉。", "en": "Your voice makes it more alert."},
+        {"zh": "你试图移动，但它已经盯上你。", "en": "You try to move, but it has you in its sights."},
+        {"zh": "你试图逃走，但它紧追不舍。", "en": "You try to run, but it won't let you go."},
+        {"zh": "你试图靠近它，但它退后。", "en": "You try to get close, but it backs away."},
+        {"zh": "你试图诱它，但它步步紧逼。", "en": "You try to lure it, but it closes in."},
+        {"zh": "你点亮的火把正在变暗。", "en": "The torch you lit is dimming."},
+        {"zh": "你的信号弹在发抖。", "en": "Your flare hand is shaking."},
+        {"zh": "你数着秒，我等得比你久。", "en": "You count seconds. I wait longer."},
+        {"zh": "我把你的逃跑路线堵了。", "en": "I have blocked your way out."},
+        {"zh": "你踩到的那块石头是我放的。", "en": "The stone you stepped on was mine."},
+        {"zh": "你别回头，我已在身后。", "en": "Don't turn around. I'm behind you."},
+        {"zh": "我顺着你留下的脚印来。", "en": "I follow the prints you left."},
+        {"zh": "你在门后，我也在门后。", "en": "You're behind the door. So am I."},
+        {"zh": "你的光越来越小。", "en": "Your little light keeps shrinking."},
+        {"zh": "你走一步，我在土里跟一步。", "en": "Each step you take, I take one beneath the soil."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，逼近！", "en": "Hisss, closing in!"},
+        {"zh": "阴影中的触手收紧！", "en": "Clutching tentacles from the shadows!"},
+        {"zh": "我的爪子已经搭上你的后背。", "en": "My claws are already on your back."},
+        {"zh": "我的触手准备抓住你！", "en": "My tentacles are ready to grab you!"},
+        {"zh": "我从你背后伸出手，抓住了。", "en": "I reach out from behind you and grab hold."},
+        {"zh": "靠近些，我很快就会抓住你。", "en": "Come closer, I'll grab you soon."},
+        {"zh": "躲藏无用，我总能找到你。", "en": "You can't hide, I'll always find you."},
+        {"zh": "感受恐惧，感受我的力量。", "en": "Feel fear, feel my power."},
+        {"zh": "你逃不掉的，黑暗中你无处可逃。", "en": "You can't escape, you have nowhere to hide in the darkness."},
+        {"zh": "我的影子无处不在。", "en": "My shadow is everywhere."},
+        {"zh": "抓住你的脚踝了！", "en": "Got your ankle!"},
+        {"zh": "黑暗里的一击，看不见吧？", "en": "A strike from the dark. You didn't see it?"},
+        {"zh": "我把你按进阴影里！", "en": "I press you down into the shade!"},
+        {"zh": "这一下来自你背后！", "en": "This one comes from behind!"},
+        {"zh": "尖爪顺着你的脊背！", "en": "Claws down your spine!"},
+        {"zh": "你听不到我，只感觉到我。", "en": "You can't hear me. You only feel me."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你待得太久，出来吧。", "en": "You've stayed too long, come out."},
+        {"zh": "光来了，我得躲一躲。", "en": "Light's here, I need to hide."},
+        {"zh": "你太安静了，我来提醒你。", "en": "You're too quiet, I'll remind you."},
+        {"zh": "黑暗中，我是唯一的存在。", "en": "In the darkness, I'm the only one."},
+        {"zh": "这里不安全，离开。", "en": "This isn't safe, go away."},
+        {"zh": "你在暗里待太久了，我来了。", "en": "You lingered in the dark too long — I'm here."},
+        {"zh": "躲藏没有用，我会找到你。", "en": "Hiding won't work, I'll find you."},
+        {"zh": "黑暗是我的家，我不会离开。", "en": "Darkness is my home, I won't leave."},
+        {"zh": "你别无选择，只能面对我。", "en": "You have no choice but to face me."},
+        {"zh": "黑暗中，我总是占上风。", "en": "In the darkness, I always win."},
+        {"zh": "第二次警告，我现身了。", "en": "Second warning. Now I appear."},
+        {"zh": "你在黑暗里待够了。", "en": "You've spent long enough in the dark."},
+        {"zh": "我从地板下面爬上来。", "en": "I climb up through the floor."},
+        {"zh": "洞穴的缝隙裂开了。", "en": "The cave seam splits open."},
+        {"zh": "黑暗里伸出一只手。", "en": "A hand reaches out of the dark."},
+        {"zh": "你听见的呼吸声是我。", "en": "The breathing you hear is mine."},
+        {"zh": "我踩着你的影子来了。", "en": "I came walking on your shadow."},
+        {"zh": "光在退，我离你越来越近。", "en": "The light is fading; I am getting closer."},
+        {"zh": "没有光，我就来了。", "en": "No light left, so here I am."},
+        {"zh": "这里的黑，是我开的门。", "en": "This dark is a door I opened."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "光…我讨厌光，更讨厌火…", "en": "Light... I hate light, and fire worse..."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从洞顶掉下来，骨节都散了。", "en": "I fall from the cavern roof, my joints scattering."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你触怒了我，追踪者来了，溺水的滋味可不好受。", "en": "You've angered me, the Stalker is coming! — and the drown makes it worse."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火光照亮我，我缩进石缝。", "en": "Firelight reveals me; I shrink into a crack."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭簇钉进我的背，光更远了。", "en": "An arrowhead in my back; the light recedes."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咒语击中了我...", "en": "Struck by magic..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿折磨着我...", "en": "Starvation pains me..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "白光照穿我，我疼得钻进土里。", "en": "White light pierces me; I burrow into the soil in pain."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我挖的洞，通向虚空。", "en": "The hole I dug leads into the void."}
+      ]
+    }
+  }
+}

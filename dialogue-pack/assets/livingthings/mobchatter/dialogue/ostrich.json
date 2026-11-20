@@ -1,0 +1,252 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "扑棱着翅膀前进", "en": "Flapping forward"},
+        {"zh": "用长脖子寻找食物", "en": "Stretching neck for food"},
+        {"zh": "在草原上快速奔跑", "en": "Racing across the savanna"},
+        {"zh": "迈着优雅的步伐", "en": "Graceful strides"},
+        {"zh": "低下头啄食地面", "en": "Bending down to peck"},
+        {"zh": "两步跨过一片草地。", "en": "Two strides carry me across the grass."},
+        {"zh": "用长腿奔跑", "en": "Running on long legs"},
+        {"zh": "低头寻找草籽", "en": "Pecking at seeds"},
+        {"zh": "在草原上自由奔跑", "en": "Free-running on the savanna"},
+        {"zh": "用长脖子触碰树枝", "en": "Tapping branches with neck"},
+        {"zh": "一拍翅膀，沙土扬起来。", "en": "A wingbeat kicks up sand."},
+        {"zh": "两条长腿在草原上迈开。", "en": "Long legs stride across the savanna."},
+        {"zh": "跑起来时头几乎不动。", "en": "My head stays level while I run."},
+        {"zh": "绕过荆丛，一直朝前跑。", "en": "I swerve past thorn scrub and keep going."},
+        {"zh": "踢起沙子，又落下去。", "en": "I kick up sand and let it fall."},
+        {"zh": "在枯草里一路小跑。", "en": "I trot through the dry grass."},
+        {"zh": "低头啄起一粒草籽。", "en": "I dip and peck up a seed."},
+        {"zh": "沙地上踩出一串大脚印。", "en": "Big prints trail behind me in the sand."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静站立在草原上", "en": "Standing on the savanna"},
+        {"zh": "低头沉思的样子", "en": "Head bowed in thought"},
+        {"zh": "仰望蓝天", "en": "Looking up at the sky"},
+        {"zh": "静静观察四周", "en": "Looking around"},
+        {"zh": "微微点头", "en": "Nodding gently"},
+        {"zh": "悠闲地踱步", "en": "Walking slowly"},
+        {"zh": "低头整理羽毛", "en": "Grooming feathers"},
+        {"zh": "静静地站立不动", "en": "Standing still"},
+        {"zh": "低头欣赏脚下的土地", "en": "Looking down at the ground"},
+        {"zh": "微微抖动身体", "en": "Shaking body slightly"},
+        {"zh": "把长脖子弯成一道弧。", "en": "I bend my long neck into an arc."},
+        {"zh": "站在草丛里，只露出头。", "en": "I stand in the grass with only my head showing."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "用长脖子瞄准玩家", "en": "Stretching neck towards player"},
+        {"zh": "转向玩家观察", "en": "Turning towards player"},
+        {"zh": "我的长腿，比你快一步。", "en": "My long legs are a step faster."},
+        {"zh": "低头查看玩家", "en": "Peering at player"},
+        {"zh": "用长眼盯着玩家", "en": "Fixing gaze on player"},
+        {"zh": "高高昂起头看玩家", "en": "Erecting head to look at player"},
+        {"zh": "沙地上的巢，你踩到了。", "en": "You stepped on my nest in the sand."},
+        {"zh": "低头寻找玩家", "en": "Looking for player"},
+        {"zh": "用长脖子寻找玩家", "en": "Stretching neck to find player"},
+        {"zh": "我歪头看你，脖子很长。", "en": "I tilt my long neck to study you."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙子进了眼睛，看不清。", "en": "Sand got in my eye; I cannot see."},
+        {"zh": "沙地上摔伤了。", "en": "Fell in the sand."},
+        {"zh": "箭扎进羽毛里，我不能飞。", "en": "The arrow is in my feathers, and I cannot fly."},
+        {"zh": "被闪电击中了。", "en": "Lightning struck."},
+        {"zh": "被怪物推下悬崖。", "en": "Pushed off a cliff."},
+        {"zh": "肚子上被咬了一口。", "en": "Bitten on the stomach."},
+        {"zh": "饿得站不稳。", "en": "Starved to weakness."},
+        {"zh": "掉进虚空消失了。", "en": "Vanished into the void."},
+        {"zh": "不小心掉进火坑里。", "en": "Burned in a fire pit."},
+        {"zh": "羽尾炸得乱七八糟。", "en": "The blast left my tail feathers a mess."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕咕噜，我想吃小麦！", "en": "Gurgle, I crave wheat!"},
+        {"zh": "这么多小麦！快来喂我吧！", "en": "So much wheat! Come feed me!"},
+        {"zh": "沙地上找点东西吃吧。", "en": "Look for food in the sand."},
+        {"zh": "这些小虫子挺好吃的。", "en": "These bugs taste good."},
+        {"zh": "这小麦真香啊。", "en": "This wheat smells so good."},
+        {"zh": "跑起来找点吃的。", "en": "Run to find something to eat."},
+        {"zh": "沙地里埋几个蛋。", "en": "Bury some eggs in the sand."},
+        {"zh": "咕咕，我饿了。", "en": "Gurgle, I'm hungry."},
+        {"zh": "快给我扔点小麦吧。", "en": "Throw me some wheat!"},
+        {"zh": "沙地里的虫子都藏哪了？", "en": "Where are the bugs in the sand?"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "快闪开，我会撞死你的！", "en": "Move! I'll knock you out!"},
+        {"zh": "不要撞我，我会把你撞飞！", "en": "Don't bump me, or I'll knock you away!"},
+        {"zh": "小心，我跑得很快！", "en": "Watch out, I run fast!"},
+        {"zh": "别靠近我，我会撞死你！", "en": "Stay back, or I'll knock you down!"},
+        {"zh": "躲开，我跑得比你快！", "en": "Get out of the way, I'm faster!"},
+        {"zh": "小心我的速度，别碰我！", "en": "Be careful of my speed, don't touch me!"},
+        {"zh": "撞不死我，我跑得快！", "en": "I'm too fast to be knocked down!"},
+        {"zh": "你碰到我了吗？没碰到吧！", "en": "Did you hit me? I hope not!"},
+        {"zh": "我跑得很快，你追不上我！", "en": "I run too fast for you to catch!"},
+        {"zh": "别靠近我，我跑得比你快！", "en": "Stay back, I'm faster than you!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找个沙地筑个巢。", "en": "Find some sand to make a nest."},
+        {"zh": "来吧，我们产点蛋。", "en": "Come on, let's lay some eggs."},
+        {"zh": "找点树枝做巢。", "en": "Find some twigs for the nest."},
+        {"zh": "一起产点蛋吧。", "en": "Let's lay some eggs together."},
+        {"zh": "我们来产蛋吧。", "en": "Let's lay some eggs."},
+        {"zh": "找个安静的地方。", "en": "Find a quiet place."},
+        {"zh": "一起筑个家。", "en": "Let's build a nest together."},
+        {"zh": "找个地方生蛋。", "en": "Find somewhere to lay eggs."},
+        {"zh": "来吧，我们产蛋。", "en": "Come on, let's lay eggs."},
+        {"zh": "一起筑巢。", "en": "Let's build a nest together."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "快快跑！我在追你！", "en": "Run! I’m chasing you!"},
+        {"zh": "这里不好吃，去找些小麦！", "en": "This isn't good. Find some wheat!"},
+        {"zh": "别过来，否则会有危险！", "en": "Stay away, or it will be dangerous!"},
+        {"zh": "这里是我的领地，滚出去！", "en": "This is my territory, get out!"},
+        {"zh": "沙地是我的家，不要破坏！", "en": "The sand is my home, don’t destroy it!"},
+        {"zh": "快给我喂点小麦，饿了！", "en": "Feed me some wheat, I’m hungry!"},
+        {"zh": "别打扰我产卵，安静点！", "en": "Leave me alone to lay my eggs!"},
+        {"zh": "快离开我的巢穴，危险！", "en": "Leave my nest, it’s dangerous!"},
+        {"zh": "这里不适合交配，换个地方！", "en": "This isn’t a good place for mating, find another!"},
+        {"zh": "用小麦才能让我驯服，明白吗？", "en": "Only wheat will tame me, understand?"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "看到了，那是我的目标！", "en": "Target acquired!"},
+        {"zh": "锁定小麦，开始追逐！", "en": "Targeting wheat, chase initiated!"},
+        {"zh": "锁定！我要吃掉它！", "en": "Locked! I’m going to eat it!"},
+        {"zh": "靠近我，我要吃你！", "en": "Come closer, I want to eat you!"},
+        {"zh": "锁定附近的小麦，享用美食！", "en": "Targeting nearby wheat, enjoy your meal!"},
+        {"zh": "你跑不过我这两条腿。", "en": "You cannot outrun these legs."},
+        {"zh": "锁定食物，启动追逐模式！", "en": "Targeting food, chase mode initiated!"},
+        {"zh": "锁定目标，准备交配！", "en": "Targeting partner, prepare to mate!"},
+        {"zh": "锁定交配对象，产卵前准备！", "en": "Targeting mating partner, prepare for laying eggs!"},
+        {"zh": "锁定食物，我不会错过！", "en": "Targeting food, I won’t miss!"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我要吃掉你，准备好了！", "en": "I’m going to eat you, get ready!"},
+        {"zh": "翅膀张开，我朝你冲。", "en": "Wings spread, I charge at you."},
+        {"zh": "锁定玩家，你逃不掉！", "en": "Targeting player, you can’t escape!"},
+        {"zh": "锁定食物，享用美食！", "en": "Targeting food, enjoy your meal!"},
+        {"zh": "锁定目标，产卵前准备！", "en": "Targeting, prepare for laying eggs!"},
+        {"zh": "锁定交配对象，准备交配！", "en": "Targeting partner, prepare to mate!"},
+        {"zh": "锁定小麦，开始追逐", "en": "Targeting wheat, chase initiated!"},
+        {"zh": "沙地上有东西在动。", "en": "Something is moving on the sand."},
+        {"zh": "锁定目标，开始产卵！", "en": "Targeting, prepare to lay eggs!"},
+        {"zh": "锁定目标，准备交配", "en": "Targeting, prepare to mate!"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "挥动坚硬的喙！", "en": "Swing the hard beak!"},
+        {"zh": "重重一啄，敌人倒下！", "en": "A powerful peck sends them down!"},
+        {"zh": "用喙砸击地面！", "en": "Stomp the ground with the beak!"},
+        {"zh": "快速挥动双足反击！", "en": "Quickly kick back!"},
+        {"zh": "用强有力的长腿踢击！", "en": "Kick with powerful legs!"},
+        {"zh": "地面震动，敌人颤抖！", "en": "The ground shakes!"},
+        {"zh": "用双脚连续踢击！", "en": "Stomp repeatedly!"},
+        {"zh": "用腿攻击敌人！", "en": "Kick at the foe!"},
+        {"zh": "有力的脚爪抓向对手！", "en": "Claw the opponent!"},
+        {"zh": "用脚爪狠狠攻击！", "en": "Attack with claws!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙地上的新巢穴！", "en": "New nest on the sand!"},
+        {"zh": "寻找一片沙地交配！", "en": "Find some sand to mate!"},
+        {"zh": "交配后筑巢产卵！", "en": "Mate and lay eggs!"},
+        {"zh": "在沙地上寻找伴侣！", "en": "Look for a mate in the sand!"},
+        {"zh": "鸵鸟夫妇筑巢产卵！", "en": "The ostriches lay eggs!"},
+        {"zh": "在沙地筑巢产卵！", "en": "Nest in the sand!"},
+        {"zh": "用脚刨沙筑巢！", "en": "Scratch the sand!"},
+        {"zh": "在沙地上产下卵蛋！", "en": "Lay eggs in the sand!"},
+        {"zh": "沙地上的温暖巢穴！", "en": "Warm nest in the sand!"},
+        {"zh": "鸵鸟夫妇准备产卵！", "en": "The ostriches are ready to lay!"},
+        {"zh": "沙地上多了一窝温热的蛋。", "en": "A clutch of warm eggs appears in the sand."},
+        {"zh": "草原上来了新的长腿客。", "en": "A new long-legged one arrives on the savanna."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅膀着火了。", "en": "Wings on fire."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔伤了翅膀。", "en": "Wings hurt from falling."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进水里淹死了。", "en": "Drowned in water."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被爆炸震得晕头转向。", "en": "Blinded by an explosion."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被箭射中了胸部。", "en": "Hit in the chest by an arrow."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被魔法术士击中了。", "en": "Struck by a mage's spell."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿得虚弱无比。", "en": "Starving and weak."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被雷劈中了翅膀。", "en": "Wings struck by lightning."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进虚空中消失。", "en": "Vanished into the void."}
+      ]
+    }
+  }
+}

@@ -70,3 +70,7 @@ tasks.withType(JavaCompile).configureEach {
 tasks.named('test', Test).configure {
     useJUnitPlatform()
 }
+
+// dialogue-pack/ is the source of truth; pack it before resources are processed.
+ext.dialogueRepositoryRoot = file('..')
+apply from: file('../gradle/target-conventions/dialogue-pack.gradle')

@@ -1,0 +1,267 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的铁腿陷进苔藓里。", "en": "My iron legs sink into the moss."},
+        {"zh": "关节上缠着藤，走起来沙沙响。", "en": "Vines wrap my joints and rasp as I move."},
+        {"zh": "我一步一步压过林地。", "en": "I bear down across the woodland."},
+        {"zh": "背上那门炮随步子晃。", "en": "The cannon on my back sways with each step."},
+        {"zh": "苔藓盖住了我的装甲。", "en": "Moss has swallowed my plating."},
+        {"zh": "从树后走出来，苔藓掉了一地。", "en": "Out from behind the tree, moss falling."},
+        {"zh": "我的脚步把落叶碾碎。", "en": "My steps grind the leaves."},
+        {"zh": "我停下来，转头。", "en": "I stop and turn my head."},
+        {"zh": "树枝在我肩上折断。", "en": "Branches snap against my shoulder."},
+        {"zh": "我每走一步，地面就沉一点。", "en": "Each step sinks the ground a little."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，苔藓慢慢长。", "en": "I stand, and the moss keeps growing."},
+        {"zh": "铁皮下面有齿轮在响。", "en": "Gears turn beneath the iron."},
+        {"zh": "一只鸟把我当成树，落在肩上，我随它。", "en": "A bird takes me for a tree and stays. I let it."},
+        {"zh": "我等它自己飞走。", "en": "I wait for it to leave."},
+        {"zh": "我的炮口对着空地。", "en": "My barrel points at empty ground."},
+        {"zh": "我把一只手臂抬起，随后垂落。", "en": "One arm lifts, then falls."},
+        {"zh": "锈味混着草味。", "en": "Rust and cut grass on the air."},
+        {"zh": "这片林子把我当成树了。", "en": "The wood takes me for a tree."},
+        {"zh": "苔藓从我肩上垂下来。", "en": "Moss hangs from my shoulder."},
+        {"zh": "光从叶缝里落在我身上。", "en": "Light falls on me through the leaves."},
+        {"zh": "身上翠绿一片，我很旧了。", "en": "Moss everywhere. I'm very old."},
+        {"zh": "很旧了，但我还能动。", "en": "Old, but I still move."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我低下头，绿光对着你。", "en": "I lower my head, green light on you."},
+        {"zh": "你站在我的根须之间。", "en": "You stand among my roots."},
+        {"zh": "我在判断你是不是树。", "en": "I'm deciding if you're a tree."},
+        {"zh": "你身上没有苔藓。", "en": "There's no moss on you."},
+        {"zh": "我把手抬起来，藤蔓跟着动。", "en": "I raise a hand and the vines follow."},
+        {"zh": "我的绿光扫过去，你退了。", "en": "My green light sweeps over you and you retreat."},
+        {"zh": "我的炮口转向你。", "en": "My barrel swings toward you."},
+        {"zh": "炮口转过去，你站着不动。", "en": "The barrel swings round. You hold still."},
+        {"zh": "你钉在原地，倒省我的事。", "en": "You've planted yourself. Saves me trouble."},
+        {"zh": "我把炮口对着你，等你先动。", "en": "I keep the barrel on you, waiting for you to move."},
+        {"zh": "绿色的光在你脸上晃。", "en": "Green light wavers on your face."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "铁皮被砸出一个坑。", "en": "A dent is punched into my plate."},
+        {"zh": "一整片青苔从我肩上剥落。", "en": "A whole patch of moss peels off my shoulder."},
+        {"zh": "齿轮卡了一下。", "en": "A gear jams."},
+        {"zh": "装甲凹了一块，我退了小半步。", "en": "A dent in my plate. I give a little ground."},
+        {"zh": "绿光闪了一下。", "en": "The green light flickers."},
+        {"zh": "齿轮咬住又松开，我一声不响。", "en": "A gear jams and frees. I stay silent."},
+        {"zh": "绿光一闪，锈渣簌簌掉下来。", "en": "The light flickers and rust sifts down."},
+        {"zh": "我又站住，重新稳住。", "en": "I plant myself and steady again."},
+        {"zh": "这一下伤到了关节。", "en": "That hit a joint."},
+        {"zh": "关节伤到了，但我还能动。", "en": "The joint is hurt, but I can still move."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你举着东西过来，带了什么？", "en": "You come holding something. What have you brought?"},
+        {"zh": "这东西我不能吃。", "en": "I can't eat that."},
+        {"zh": "铁和油才有用。", "en": "Iron and oil are useful."},
+        {"zh": "那点东西，连齿轮都转不动。", "en": "That won't even turn a gear."},
+        {"zh": "你举着它，我看不懂。", "en": "You hold it up and I don't understand."},
+        {"zh": "它对我没有用，我不需要。", "en": "It's no use to me. I don't need it."},
+        {"zh": "没有用处，你可以拿走。", "en": "No use. You can take it away."},
+        {"zh": "我要的是能量。", "en": "What I want is power."},
+        {"zh": "你身上那件东西，也许。", "en": "That thing you carry, perhaps."},
+        {"zh": "我看不清，再靠近一点。", "en": "I can't see it clearly. Come a little closer."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞在我腿上，铁皮响。", "en": "You hit my leg and the iron rings."},
+        {"zh": "你撞在我腿上，我没有动。", "en": "You hit my leg. I don't move."},
+        {"zh": "苔藓掉了一层。", "en": "A layer of moss falls off."},
+        {"zh": "我只挪了挪脚，你被弹开了。", "en": "I only shifted my foot, and you bounced off."},
+        {"zh": "苔藓盖住了我的齿轮。", "en": "Moss covers my gears."},
+        {"zh": "一层苔藓被抖落，我趁机收脚。", "en": "A layer of moss falls. I draw my foot in."},
+        {"zh": "齿轮空转了一下。", "en": "A gear spins freely."},
+        {"zh": "齿轮空响，我却先想着你有没有事。", "en": "A gear spins free, but I'm wondering about you."},
+        {"zh": "我不擅长说话。", "en": "I'm not good with words."},
+        {"zh": "我说不出什么好话，只好往前走。", "en": "I can't find the words, so I walk on."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这片林子里没有同类。", "en": "There's no kin in this wood."},
+        {"zh": "我是最后一件。", "en": "I'm the last one made."},
+        {"zh": "林子里的藤替我做伴。", "en": "The vines keep me company."},
+        {"zh": "它们长得比我慢。", "en": "They grow slower than I move."},
+        {"zh": "我把手伸出去，它们缠上来。", "en": "I put out a hand and they climb it."},
+        {"zh": "满身藤蔓一直伴着我。", "en": "The vines stay with me always."},
+        {"zh": "藤蔓缠着我，齿轮还在转。", "en": "Vines wrap me. The gears still turn."},
+        {"zh": "只要齿轮不停，我便还活着。", "en": "As long as the gears turn, I live."},
+        {"zh": "我慢慢放下手。", "en": "I lower my hand."},
+        {"zh": "手臂垂回身侧，我接着守。", "en": "My arm drops to my side. I keep the watch."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "金属手指夹起一块苔藓。", "en": "Metal fingers pinch up a clump of moss."},
+        {"zh": "太小了，怕捏碎。", "en": "Too small; I might crush it."},
+        {"zh": "我把它放在掌心。", "en": "I set it in my palm."},
+        {"zh": "这东西有一点重量。", "en": "This has a little weight."},
+        {"zh": "我收进装甲的缝里。", "en": "I tuck it into a seam."},
+        {"zh": "一层青苔很快把它埋了。", "en": "A layer of moss soon buries it."},
+        {"zh": "我分不清有没有用了。", "en": "I can't tell if it's any use."},
+        {"zh": "不知道有没有用，我仍然留着。", "en": "No idea if it's useful. I keep it anyway."},
+        {"zh": "掉了我也不知道。", "en": "I wouldn't know if I dropped it."},
+        {"zh": "少没少，我也分不清，继续走。", "en": "I can't tell what I've lost. Walk on."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踩到了我守的这条线里。", "en": "You’ve crossed the line I keep."},
+        {"zh": "我的炮口转过来。", "en": "My barrel comes round."},
+        {"zh": "我锁定你，绿光变亮了。", "en": "I lock on. The green light brightens."},
+        {"zh": "我把一只铁脚离了地。", "en": "I lift one iron foot."},
+        {"zh": "藤蔓顺着我的手臂爬。", "en": "Vines crawl along my arm."},
+        {"zh": "你退一步，我便进一步。", "en": "One step back from you, one from me."},
+        {"zh": "这层装甲，寻常刀剑啃不动。", "en": "This plate shrugs off ordinary blades."},
+        {"zh": "这一片林子我守了很久。", "en": "I've guarded this wood a long time."},
+        {"zh": "没有东西能过去。", "en": "Nothing gets past."},
+        {"zh": "这条道上谁也别想穿过去，你也是。", "en": "Nothing passes this way. Not you either."},
+        {"zh": "绿光扫过你，我明白了。", "en": "The green light crosses you. I understand."},
+        {"zh": "站在这里挡路的，你是敌人。", "en": "Standing in the way. You're an enemy."},
+        {"zh": "我从苔藓里抬起脚，开始移动。", "en": "I lift a foot out of the moss and start moving."},
+        {"zh": "我朝你走过去，不要挡我。", "en": "I walk toward you. Don't stand in my way."},
+        {"zh": "或者站着别动。", "en": "Or stand still."},
+        {"zh": "你不动也好，避开也罢，结局相同。", "en": "Still or aside, the outcome is the same."},
+        {"zh": "那就来吧，我慢慢来。", "en": "Then come. I'll be slow about it."},
+        {"zh": "关节锈住了，我只能一点点挪。", "en": "The joints are rusted. I'll move bit by bit."},
+        {"zh": "慢归慢，但我会到。", "en": "Slow, but I will arrive."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炮口跟着你，你绕到树后。", "en": "The barrel follows you behind the tree."},
+        {"zh": "我把树推倒了。", "en": "I push the tree over."},
+        {"zh": "树身倒下，枝条刮过你身上。", "en": "The trunk falls and branches rake you."},
+        {"zh": "枝条扫过，你避得相当利落。", "en": "Branches sweep past, and you dodge cleanly."},
+        {"zh": "你跑得够快，我犯不着去追。", "en": "You're quick, but I needn't chase."},
+        {"zh": "我朝你前面走。", "en": "I move ahead of you."},
+        {"zh": "我抢到你前头，你便改道。", "en": "I cut ahead, so you change course."},
+        {"zh": "你调转脚步，我也跟着调转。", "en": "You turn. I turn with you."},
+        {"zh": "齿轮尖鸣，炮身缓缓横过。", "en": "Gears whine as the barrel swings across."},
+        {"zh": "你听到它的声音了吧。", "en": "You hear it, don't you?"},
+        {"zh": "你听到它的声音，齿轮在加速。", "en": "You hear it. The gears speed up."},
+        {"zh": "炮口转到位，苔藓被震落。", "en": "The barrel comes round and moss shakes loose."},
+        {"zh": "你退到篱笆边。", "en": "You've backed to the fence."},
+        {"zh": "那道篱笆挡不住我。", "en": "That fence won't hold me."},
+        {"zh": "篱笆挡在前面，我抬脚。", "en": "The fence is in the way. I lift my foot."},
+        {"zh": "一脚落空，你已跳开。", "en": "My foot lands on nothing. You're clear."},
+        {"zh": "好，这样才像样。", "en": "Good. That's more like it."},
+        {"zh": "这样才有点意思。", "en": "That's more interesting."},
+        {"zh": "这才像个对手，接着来。", "en": "Now you're a real opponent. Come again."},
+        {"zh": "我还很久才能停。", "en": "It'll be a while before I stop."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "苔藓下面，全是铁。", "en": "Under the moss, all iron."},
+        {"zh": "地面裂开一道。", "en": "The ground splits."},
+        {"zh": "藤蔓抽在你身上。", "en": "Vines lash across you."},
+        {"zh": "炮口对着你，近了。", "en": "The barrel is very close to you."},
+        {"zh": "炮口对着你，我踩下去。", "en": "The barrel on you, I stomp."},
+        {"zh": "这一下没打实，你退开了。", "en": "That didn't land clean. You've dodged away."},
+        {"zh": "铁皮上掉了一块苔。", "en": "A clump of moss falls from my plate."},
+        {"zh": "这一下没有打实。", "en": "That one didn't land clean."},
+        {"zh": "我调整了一下姿势。", "en": "I adjust my stance."},
+        {"zh": "关节卡住，我抬不起手。", "en": "My joints jam. I can't lift my arm."},
+        {"zh": "你看出我的破绽了。", "en": "You've seen my weakness."},
+        {"zh": "我知道你看出破绽了，再来一次。", "en": "I know you saw the gap. Once more."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "藤蔓从我关节上滑落。", "en": "Vines slide from my joints."},
+        {"zh": "苔藓被顶开，绿光从缝里透出。", "en": "The moss breaks open and green light leaks out."},
+        {"zh": "内里的齿轮已经咬合起来。", "en": "The gears inside have meshed."},
+        {"zh": "脚下的土被我压碎。", "en": "The soil crunches under me."},
+        {"zh": "我不知道睡了多久。", "en": "I don't know how long I slept."},
+        {"zh": "林子还是那片林子。", "en": "The wood is the same wood."},
+        {"zh": "齿轮启动，我把手臂抬起。", "en": "The gears engage and I raise my arm."},
+        {"zh": "藤蔓跟着我的手。", "en": "The vines follow my hand."},
+        {"zh": "我的炮还能用。", "en": "My cannon still works."},
+        {"zh": "我的关节一节节亮起来。", "en": "My joints light up one by one."},
+        {"zh": "我带着满身青苔转过身。", "en": "I turn, moss and all."},
+        {"zh": "我转身，绿光顺着林线扫出去。", "en": "I turn and the green light sweeps the treeline."},
+        {"zh": "转过去一看，什么都没有。", "en": "I turn. Nothing there."},
+        {"zh": "那里空无一物，我又竖起耳朵。", "en": "Nothing there. I listen on."},
+        {"zh": "我在林子里站定，这里归我守。", "en": "I plant myself in the wood. This is mine to guard."},
+        {"zh": "这条林线由我看着，不必催。", "en": "I hold this treeline. No need to rush."},
+        {"zh": "谁过来，谁就留下。", "en": "Whoever comes stays."},
+        {"zh": "来一个留一个，一直如此。", "en": "One comes, one stays. That's how it is."},
+        {"zh": "我抬起头，开始站岗。", "en": "I raise my head and begin the watch."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "苔藓烧起来，火顺着藤蔓往上爬。", "en": "Moss catches and fire climbs the vines."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我砸在地上，铁皮散了一地。", "en": "I land and iron scatters."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进关节，我的齿轮变涩了。", "en": "Water floods my joints and the gears grind."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸掀开了我的胸甲。", "en": "The blast peels open my breastplate."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一枚弹丸卡在装甲缝里。", "en": "A round lodges in a seam."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "光压住了我的齿轮。", "en": "Light jams my gears."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的能量在耗尽。", "en": "My power is draining."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我坠下去，藤蔓全断了。", "en": "I fall, and the vines all snap."}
+      ]
+    }
+  }
+}

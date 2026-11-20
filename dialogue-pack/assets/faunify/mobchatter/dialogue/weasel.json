@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴着地面小跑，肚子很低。", "en": "I trot low to the ground, belly close."},
+        {"zh": "身体长长一条，拐弯特别利落。", "en": "Long body, and I turn sharply."},
+        {"zh": "我钻过倒木的缝隙，毫不费劲。", "en": "I slip through the gap under a log with ease."},
+        {"zh": "雪地里，我换了一身白毛。", "en": "In the snow my coat has turned white."},
+        {"zh": "我一路嗅一路走，鼻子不停。", "en": "I walk with my nose working the whole way."},
+        {"zh": "我踮着脚走，脚步声很轻。", "en": "I go on tiptoe, my steps very light."},
+        {"zh": "草丛一动，我就从里面穿过去。", "en": "The grass stirs and I slip through it."},
+        {"zh": "我绕着石头走，懒得翻过去。", "en": "I walk around the rock; too lazy to climb."},
+        {"zh": "我小跑几步，又停下来听。", "en": "I trot a few paces, then stop to listen."},
+        {"zh": "雪地里我换了一身白。", "en": "In snow I wear white."},
+        {"zh": "我沿着树根走，那里气味最多。", "en": "I follow the roots where the smells are richest."},
+        {"zh": "我找个矮洞，一缩身就进去了。", "en": "I find a low hole and squeeze straight in."},
+        {"zh": "平地上我跑得不算慢。", "en": "On open ground I'm not slow at all."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我坐起来，两只前爪收着。", "en": "I sit up, forepaws tucked."},
+        {"zh": "我竖着耳朵，转来转去。", "en": "Ears up, I turn them this way and that."},
+        {"zh": "我舔了舔前爪，再洗脸。", "en": "I lick a forepaw and wash my face."},
+        {"zh": "有只虫子爬过，我盯了很久。", "en": "A bug crawls by; I watch it a long time."},
+        {"zh": "我把身子盘成一圈，暖和。", "en": "I curl my body into a ring for warmth."},
+        {"zh": "我打了个哈欠，尖牙露出来。", "en": "I yawn, and my little fangs show."},
+        {"zh": "我竖起上半身，四处张望。", "en": "I rear up and look around."},
+        {"zh": "这气味是兔子的，还是蛋？", "en": "Is that scent rabbit, or egg?"},
+        {"zh": "尾巴在地上轻轻拍。", "en": "My tail taps softly on the ground."},
+        {"zh": "我趴着，眼睛却睁得很大。", "en": "I lie down, but my eyes stay wide."},
+        {"zh": "这地方的味道我记熟了。", "en": "I know the smells of this place by now."},
+        {"zh": "我抖了抖毛，把草屑甩掉。", "en": "I shake my fur to shed the bits of grass."},
+        {"zh": "我半眯着眼，其实没睡。", "en": "My eyes are half shut, but I'm not asleep."},
+        {"zh": "我伸了个懒腰，身子拉得老长。", "en": "I stretch and my body pulls out long."},
+        {"zh": "我在等一个动静。", "en": "I'm waiting for a sound."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鸡蛋一落地，我就挖。", "en": "An egg lands, and I dig."},
+        {"zh": "我站起来，才到你膝盖。", "en": "I stand up and reach only your knee."},
+        {"zh": "兔子的味道，在你袖子上。", "en": "Rabbit scent — on your sleeve."},
+        {"zh": "我歪着头，看你半天。", "en": "I tilt my head and study you a while."},
+        {"zh": "别动，我绕你一圈。", "en": "Hold still; I'll circle you once."},
+        {"zh": "蹲下来，我闻闻你的手。", "en": "Crouch down, and let me sniff your hand."},
+        {"zh": "我冬天会换成白毛。", "en": "In winter my coat turns white."},
+        {"zh": "你笑了，我也放松了点。", "en": "You smiled, so I relax a little."},
+        {"zh": "我不怕人，只是警惕。", "en": "I'm not afraid of people, only wary."},
+        {"zh": "你脚步声太重，老远就听见了。", "en": "Your tread is heavy; I heard it far off."},
+        {"zh": "你弯下腰，我才看清你的脸。", "en": "You bend down, and only then I see your face."},
+        {"zh": "你伸手指过来，我先闻一闻。", "en": "You offer a finger; I sniff it first."},
+        {"zh": "这附近有没有洞，你知道吗？", "en": "Know any burrows around here?"},
+        {"zh": "别抓我后颈，我不喜欢。", "en": "Don't grab my scruff; I dislike it."},
+        {"zh": "你蹲下来了，我就靠近点。", "en": "You crouched, so I'll come closer."},
+        {"zh": "我的耳朵能转到背后。", "en": "My ears can turn to the back of my head."},
+        {"zh": "你袖口有熟兔肉的味道。", "en": "Your cuff smells of cooked rabbit."},
+        {"zh": "我绕着你的靴子转了两圈。", "en": "I circle your boots twice."},
+        {"zh": "你要是给吃的，我就跟你走。", "en": "Offer food and I'll follow you."},
+        {"zh": "别踩到我的尾巴。", "en": "Don't step on my tail."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "疼！我缩成一团。", "en": "Ouch! I curl into a ball."},
+        {"zh": "我竖着毛，冲你呲牙。", "en": "Fur up, I bare my teeth at you."},
+        {"zh": "我的腿有点拐。", "en": "I'm limping a little."},
+        {"zh": "这一下，我记你一整天。", "en": "I'll remember that all day."},
+        {"zh": "我往后退，钻进草里。", "en": "I back off and slip into the grass."},
+        {"zh": "雪地里的我会换成白毛。", "en": "In snow, my coat turns white."},
+        {"zh": "吱一声，我缩进落叶里。", "en": "One squeak, and I shrink into the leaves."},
+        {"zh": "我不叫了，我憋着。", "en": "I stop crying and hold it in."},
+        {"zh": "疼得我牙齿打颤。", "en": "It hurts enough that my teeth chatter."},
+        {"zh": "你再打，我就咬回来。", "en": "Hit me again and I bite back."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "生兔肉！你居然有。", "en": "Raw rabbit! You actually have some."},
+        {"zh": "那味道，我隔着草都闻到了。", "en": "I smelled that through the grass."},
+        {"zh": "蛋给我，我就在你脚边挖。", "en": "Give me the egg, and I'll dig at your feet."},
+        {"zh": "我往前凑了两步，又停下。", "en": "I step forward twice, then stop."},
+        {"zh": "这味道让我尾巴都翘起来了。", "en": "That smell lifts my tail right up."},
+        {"zh": "别逗我，直接放地上。", "en": "Don't tease me; just set it down."},
+        {"zh": "我闻着闻着就忘了怕。", "en": "Sniffing it, I forget to be wary."},
+        {"zh": "这块肉，够我吃两天。", "en": "That meat would last me two days."},
+        {"zh": "你把蛋丢在地上，我懂。", "en": "You drop an egg on the ground. I understand."},
+        {"zh": "我先挖两下，看看底下有什么。", "en": "Let me dig twice and see what's underneath."},
+        {"zh": "土里要是有东西，我替你找。", "en": "If there's something in the soil, I'll find it."},
+        {"zh": "沙砾下头埋着硬东西。", "en": "Something hard is buried in the gravel."},
+        {"zh": "我鼻子贴着地，一路刨过去。", "en": "Nose to the ground, I dig my way along."},
+        {"zh": "你站在那儿别动，会踩到我的坑。", "en": "Stand still or you'll step in my hole."},
+        {"zh": "再放一个，我还没挖够。", "en": "Drop another; I haven't dug enough."},
+        {"zh": "我喜欢这种交易。", "en": "I like this kind of trade."},
+        {"zh": "肉先吃，挖土后说。", "en": "Meat first, digging after."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "喂，看脚下！", "en": "Hey, watch your feet!"},
+        {"zh": "撞得我翻了个跟头，没事。", "en": "I tumble head over heels, but I'm fine."},
+        {"zh": "我的身子软，撞完就弹回来。", "en": "I'm supple; I bounce right back."},
+        {"zh": "别踩，我就在你鞋边。", "en": "Careful, I'm right by your shoe."},
+        {"zh": "你撞得我毛都乱了。", "en": "You messed up my fur."},
+        {"zh": "我钻到你腿间躲了一下。", "en": "I dodge between your legs."},
+        {"zh": "退开点，我要跑。", "en": "Back off a bit; I'm about to bolt."},
+        {"zh": "这一下没伤着我。", "en": "That didn't hurt me."},
+        {"zh": "我咬了你裤脚，是下意识的。", "en": "I bit your trouser leg on instinct."},
+        {"zh": "雪原换了白毛，你认不出我。", "en": "In winter white, you won't recognize me."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在雪地里找伴，白毛更好认。", "en": "I look for a mate in the snow; white coats are easier to spot."},
+        {"zh": "两只驯服的在一起，会有惊喜。", "en": "Two tamed ones together may bring a surprise."},
+        {"zh": "你追我三步，我追你三步。", "en": "You chase me three steps, I chase you three."},
+        {"zh": "我们钻同一根倒木下面。", "en": "We both slip under the same fallen log."},
+        {"zh": "先闻闻，认准了再说。", "en": "Smell first; decide after."},
+        {"zh": "我尾巴摆得很快，你懂吧。", "en": "My tail's wagging fast. You understand."},
+        {"zh": "别在这，太敞亮了。", "en": "Not here. Too exposed."},
+        {"zh": "我这窝挖得不错，来看看。", "en": "I dug a good burrow. Come see."},
+        {"zh": "你不咬我，我就不咬你。", "en": "You don't bite me and I won't bite you."},
+        {"zh": "这个冬天，有个伴挺好。", "en": "This winter, company would be good."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从土里刨出一块东西。", "en": "I dig something out of the soil."},
+        {"zh": "这枚蛋滚到坑底了。", "en": "An egg rolled into my hole."},
+        {"zh": "我叼起来，跑到一边慢慢看。", "en": "I carry it off and look at it on my own."},
+        {"zh": "小东西，我一口就带走。", "en": "Small. I'll carry it off in one mouthful."},
+        {"zh": "我挖到的，就是我的。", "en": "What I dig up is mine."},
+        {"zh": "我把土拨开，底下还有。", "en": "I paw the dirt aside; there's more below."},
+        {"zh": "爪子扒了半天，总算拿到。", "en": "Half a day of pawing and I finally have it."},
+        {"zh": "我把它藏在倒木下面。", "en": "I hide it under the fallen log."},
+        {"zh": "这颗比上一颗大。", "en": "This one's bigger than the last."},
+        {"zh": "收好了，别让鸟看见。", "en": "Tucked away. Don't let the birds see."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "草动了一下，我盯上了。", "en": "The grass moved. I'm on it."},
+        {"zh": "那声音不是虫子，太大。", "en": "That's not a bug. Too big."},
+        {"zh": "我伏低，肚皮贴着落叶。", "en": "I flatten down, belly against the fallen leaves."},
+        {"zh": "你站的位置，正好堵住洞。", "en": "You're standing right in front of a burrow."},
+        {"zh": "我先盯住你，不动。", "en": "I'll keep my eyes on you and stay still."},
+        {"zh": "你的靴声太规律，好判断。", "en": "Your bootfalls are too even; easy to read."},
+        {"zh": "我数着你走过来的步数。", "en": "I count the steps as you approach."},
+        {"zh": "落叶堆下面，我埋着蛋。", "en": "Under the leaf litter, I've buried eggs."},
+        {"zh": "你手里那东西，我要。", "en": "I want what you're holding."},
+        {"zh": "好，我锁住你了。", "en": "Right. I've fixed on you."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我绕着你的脚边转。", "en": "I circle around your feet."},
+        {"zh": "你一抬脚，我就钻空档。", "en": "When you lift a foot, I dart through."},
+        {"zh": "我的鼻子告诉我你的位置。", "en": "My nose tells me where you are."},
+        {"zh": "我往草里退，只露一对耳朵。", "en": "I back into the grass, only my ears showing."},
+        {"zh": "再近一步，我就跳开。", "en": "One more step and I leap clear."},
+        {"zh": "我盯的是你的手，不是眼睛。", "en": "I watch your hands, not your eyes."},
+        {"zh": "我试试从这边能不能钻过去。", "en": "Let me see if I can slip through here."},
+        {"zh": "你转身的时候，我换个方向。", "en": "When you turn, I change direction."},
+        {"zh": "贴地爬，连影子都省了。", "en": "Crawling flat, I don't even cast a shadow."},
+        {"zh": "这距离，我一蹿就到。", "en": "At this distance one spring gets me there."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我扑上去咬你的裤脚。", "en": "I lunge and bite your trouser leg."},
+        {"zh": "小尖牙，咬得很准。", "en": "Small sharp teeth, and I bite true."},
+        {"zh": "我一蹿，挂在你腰间。", "en": "One spring and I'm hanging at your waist."},
+        {"zh": "我挠你一爪就退。", "en": "I scratch once and pull back."},
+        {"zh": "我力气不大，但很凶。", "en": "I'm not strong, but I'm fierce."},
+        {"zh": "咬完我马上跑开。", "en": "Bite, then run clear."},
+        {"zh": "牙只碰一下，算提醒。", "en": "My teeth barely touch; consider it a warning."},
+        {"zh": "我竖着毛，吓唬你。", "en": "Fur bristling, I try to scare you."},
+        {"zh": "你的鞋带被我咬断了。", "en": "I bit through your shoelace."},
+        {"zh": "别逼我，我牙很利。", "en": "Don't push me. My teeth are sharp."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从雪堆里探出头。", "en": "I poke my head out of a snowdrift."},
+        {"zh": "林子边的土很松，正好挖洞。", "en": "The soil at the wood's edge is soft, good for digging."},
+        {"zh": "我一落地就抖了抖毛。", "en": "I land and shake out my fur."},
+        {"zh": "这地方有兔子的味道。", "en": "This place smells of rabbit."},
+        {"zh": "我先把四周闻了一遍。", "en": "First I sniff the whole area."},
+        {"zh": "我在雪白的地方，毛也变白了。", "en": "Where it's white with snow, my coat went white too."},
+        {"zh": "我从洞里钻出来，眼睛还没适应。", "en": "I come out of the burrow, eyes still adjusting."},
+        {"zh": "平原上风大，我压低身子。", "en": "The plains are windy; I keep low."},
+        {"zh": "我从砾石堆里钻出来。", "en": "I wriggle out of the gravel pile."},
+        {"zh": "找个地方睡一觉先。", "en": "First, a place to sleep."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎到我尾巴尖。", "en": "Fire singes the tip of my tail."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔下来，落地时滚了一圈。", "en": "I fall and roll on landing."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不会游，四条腿乱扒。", "en": "I can't swim; all four legs flail."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸得我飞出去，落在草里。", "en": "The blast throws me into the grass."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭射穿了我的耳朵边。", "en": "An arrow tears past my ear."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法让我毛发直立，动不了。", "en": "Magic stands my fur on end and I can't move."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得肚子贴着背。", "en": "Hungry enough that my belly touches my spine."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雪地里，我的毛会变白。", "en": "In the snow, my fur turns white."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空里，我的爪子抓不到东西。", "en": "In the void my claws find nothing."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用两只脚跳着走。", "en": "I hop along on two legs."},
+        {"zh": "箱盖一张一合，像在呼吸。", "en": "My lid opens and shuts like breathing."},
+        {"zh": "我拖着箱子底下那一截腿。", "en": "I trail the legs beneath my box."},
+        {"zh": "我跳一下，地面就响。", "en": "One hop and the ground knocks."},
+        {"zh": "我朝你那边蹦过去。", "en": "I hop toward you."},
+        {"zh": "我的箱子很沉，跳得慢。", "en": "This box is heavy; I hop slowly."},
+        {"zh": "我从宝箱的样子变成现在这样。", "en": "I've gone from a chest to this."},
+        {"zh": "我绕过一块石头，很笨重。", "en": "I lumber around a stone."},
+        {"zh": "我的舌头在里面动。", "en": "My tongue moves inside."},
+        {"zh": "我跳了三下就到了。", "en": "Three hops and I'm there."},
+        {"zh": "我的盖子边缘一直在咬。", "en": "The rim of my lid keeps biting."},
+        {"zh": "我一路跳过去，砸出小坑。", "en": "I hop along, leaving small pits."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我合上盖子，像一只箱子。", "en": "I close my lid and look like a chest."},
+        {"zh": "我一动不动，等你过来。", "en": "I stay still and wait for you to come."},
+        {"zh": "箱子上的纹路是真的。", "en": "The grain on the box is real."},
+        {"zh": "箱盖下面有一点微光。", "en": "A faint gleam shows under my lid."},
+        {"zh": "我把腿收在下面。", "en": "I tuck my legs underneath."},
+        {"zh": "我慢慢张开一条缝。", "en": "I open a thin crack."},
+        {"zh": "箱子一动不动，等一个影子。", "en": "The chest lies still, waiting for a shadow."},
+        {"zh": "这一片没人来。", "en": "Nobody comes here."},
+        {"zh": "我的锁扣已经坏了。", "en": "My lock has long broken."},
+        {"zh": "我把盖子抬了一点。", "en": "I raise the lid a little."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你蹲下来看箱子了。", "en": "You crouch to look at the chest."},
+        {"zh": "你伸手的时候我在数。", "en": "I count the moment you reach out."},
+        {"zh": "我的盖子动了一下。", "en": "My lid shifts."},
+        {"zh": "你以为这是个宝箱。", "en": "You think this is a treasure chest."},
+        {"zh": "你看那条箱子上的缝。", "en": "Look at that seam on the chest."},
+        {"zh": "再半步，盖子就要开了。", "en": "Half a step more and the lid opens."},
+        {"zh": "你悬着的手，我数到三。", "en": "I count three on your hovering hand."},
+        {"zh": "我里面全是牙。", "en": "I'm all teeth inside."},
+        {"zh": "你退后了，可惜晚了。", "en": "You've backed off, too late."},
+        {"zh": "我现在不装了。", "en": "I'm done pretending."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的盖子歪了，合不严实。", "en": "My lid is crooked and won't shut properly."},
+        {"zh": "我跳开一段，又蹦回来。", "en": "I hop off a stretch and bounce back."},
+        {"zh": "我的箱子裂了一道缝。", "en": "A crack has opened in my box."},
+        {"zh": "我把盖子闭上，护住里面。", "en": "I shut the lid to guard what's inside."},
+        {"zh": "木板里挤出一声闷响。", "en": "A muffled groan squeezes between my boards."},
+        {"zh": "箱子底下伸出的小腿在抖。", "en": "The little legs beneath my chest tremble."},
+        {"zh": "血从板缝里渗出来。", "en": "Blood seeps between the boards."},
+        {"zh": "我压低了，像只空箱子。", "en": "I settle low like an empty chest."},
+        {"zh": "我还能再跳几下。", "en": "I can hop a few more times."},
+        {"zh": "我慢慢张开盖子。", "en": "I open my lid slowly."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那点东西我吃。", "en": "I'll eat that."},
+        {"zh": "箱子自己动了一下。", "en": "The chest moves by itself."},
+        {"zh": "我把盖子全打开了。", "en": "I open the lid all the way."},
+        {"zh": "我连箱子带东西一起吞。", "en": "I swallow the goods with the box."},
+        {"zh": "它比我想的小。", "en": "It's smaller than I thought."},
+        {"zh": "我的舌头先伸出去。", "en": "My tongue goes out first."},
+        {"zh": "这点塞牙缝都嫌少。", "en": "Not even enough to fill a gap in my teeth."},
+        {"zh": "我用舌头把战利品拖进盖子。", "en": "My tongue drags the loot under the lid."},
+        {"zh": "你听见里面在咬吗。", "en": "Can you hear the chewing inside."},
+        {"zh": "这点塞不住我的牙。", "en": "That wouldn't wedge my teeth."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到箱子上，箱子动了。", "en": "You hit the chest and it moves."},
+        {"zh": "我的盖子被撞得弹起来。", "en": "The knock throws my lid open."},
+        {"zh": "我退了一段，又跳回来。", "en": "I hop back a stretch and return."},
+        {"zh": "这一下让我的箱子凹了。", "en": "That dents my box."},
+        {"zh": "箱子一歪，我滑到旁边去了。", "en": "The chest tips and I slide aside."},
+        {"zh": "箱子撞在地上，很响。", "en": "The box hits the ground loudly."},
+        {"zh": "我的腿露出来了一点。", "en": "My legs show a little."},
+        {"zh": "我把盖子紧紧闭上。", "en": "I press the lid shut."},
+        {"zh": "我不再装死了。", "en": "I stop playing dead."},
+        {"zh": "我又跳到你面前。", "en": "I hop back in front of you."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "两个箱子并排立着。", "en": "Two chests stand side by side."},
+        {"zh": "她的箱子比我的旧。", "en": "Her box is older than mine."},
+        {"zh": "我们把盖子打开对看。", "en": "We open our lids and look at each other."},
+        {"zh": "里面的牙碰了一下。", "en": "Our teeth click together."},
+        {"zh": "她不装，我也不装了。", "en": "She stops pretending, and so do I."},
+        {"zh": "我们一起跳了两下。", "en": "We hop twice together."},
+        {"zh": "她的腿比我的粗。", "en": "Her legs are thicker than mine."},
+        {"zh": "我们把盖子合上。", "en": "We close our lids."},
+        {"zh": "这一片我们分。", "en": "We split this area."},
+        {"zh": "她又变回一只箱子。", "en": "She turns back into a chest."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把盖子一合，东西在里面。", "en": "I shut the lid; it's inside now."},
+        {"zh": "我连土带东西一起咽。", "en": "I swallow the dirt with it."},
+        {"zh": "它卡在我盖子的缝里。", "en": "It's caught in the seam of my lid."},
+        {"zh": "我的舌头把它拉进去。", "en": "My tongue draws it in."},
+        {"zh": "这点重量我背着无所谓。", "en": "Its weight means nothing to me."},
+        {"zh": "它在我里面响。", "en": "It rattles inside me."},
+        {"zh": "我嚼了一下，是石头。", "en": "I bite once; it's stone."},
+        {"zh": "石头硌着了，我吐到箱外。", "en": "The stone jabs me, so I spit it out."},
+        {"zh": "我把它留着当诱饵。", "en": "I'll keep it as bait."},
+        {"zh": "我又合上盖子。", "en": "I close the lid again."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的脚正踩在我影子里。", "en": "Your feet are already in my shadow."},
+        {"zh": "我的盖子自己抬了起来。", "en": "My lid rises by itself."},
+        {"zh": "我不再是一只箱子了。", "en": "I'm not a chest anymore."},
+        {"zh": "我一跳一跳朝你过去。", "en": "I hop at you, one hop at a time."},
+        {"zh": "这一下你退不了了。", "en": "You can't back out of this."},
+        {"zh": "我的牙全都张开了。", "en": "All my teeth are bared."},
+        {"zh": "我从你背后咬过去。", "en": "I bite from behind you."},
+        {"zh": "你还在看别的地方。", "en": "You're still looking somewhere else."},
+        {"zh": "我等了整整一个下午。", "en": "I waited the whole afternoon."},
+        {"zh": "现在该收钱了。", "en": "Now it's time to collect."},
+        {"zh": "我把你的脚压住。", "en": "I pin your foot."},
+        {"zh": "你跑一步，我跳两步。", "en": "One step of yours, two hops of mine."},
+        {"zh": "箱盖对准你，牙全醒了。", "en": "My lid aims at you and every tooth wakes."},
+        {"zh": "你退到墙边去了。", "en": "You've backed to the wall."},
+        {"zh": "我一点一点把盖子掀开。", "en": "I lift my lid a little at a time."},
+        {"zh": "里面很黑，对不对。", "en": "It's dark in here, isn't it."},
+        {"zh": "我这就咬下去了。", "en": "I'm biting down now."},
+        {"zh": "咬住就不再有下一次。", "en": "Once I bite, there is no next time."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一跳一跳，箱子撞着地板。", "en": "I hop, and the chest thumps the floor."},
+        {"zh": "你不看我，我就快一点。", "en": "You look away and I speed up."},
+        {"zh": "你的脚在后面拖。", "en": "Your feet are dragging now."},
+        {"zh": "我跳到你前面截住你。", "en": "I hop ahead and cut you off."},
+        {"zh": "一只箱子立在你路上。", "en": "A chest stands in your way."},
+        {"zh": "你最好不要打开它。", "en": "You'd better not open it."},
+        {"zh": "我的盖缝里透出一点光。", "en": "A little light shows between my lid and box."},
+        {"zh": "你已经上当了。", "en": "You've fallen for it."},
+        {"zh": "我跳起来压住你。", "en": "I leap and come down on you."},
+        {"zh": "你就在我的盖子下面。", "en": "You're right under my lid."},
+        {"zh": "我一点一点地合上。", "en": "I close it little by little."},
+        {"zh": "两排牙都靠了过来。", "en": "Both rows of teeth come together."},
+        {"zh": "你在里面挣得很厉害。", "en": "You're struggling hard inside."},
+        {"zh": "我等你把手伸得更近些。", "en": "I wait for your hand to come closer."},
+        {"zh": "不会有人来开这只箱子。", "en": "No one will come to open this chest."},
+        {"zh": "你的挣扎轻了半分。", "en": "Your struggle has grown lighter."},
+        {"zh": "你在里面喊，我当没听见。", "en": "You shout inside me and I pretend not to hear."},
+        {"zh": "盖子又合拢了一指宽。", "en": "My lid closes another finger's width."},
+        {"zh": "这是最后一下了。", "en": "This is the last one."},
+        {"zh": "现在到这里结束了。", "en": "This is where it ends."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把盖子猛地砸下。", "en": "I slam the lid down."},
+        {"zh": "两排牙一起咬。", "en": "Both rows of teeth close."},
+        {"zh": "我跳起来砸你。", "en": "I leap and come down on you."},
+        {"zh": "你挡住了盖子，我就压。", "en": "You hold the lid; I press harder."},
+        {"zh": "我的舌头缠住你的腿。", "en": "My tongue wraps your leg."},
+        {"zh": "这一口咬在你肩上。", "en": "This bite lands on your shoulder."},
+        {"zh": "你打在我的箱子上，没用。", "en": "You hit the box; it does nothing."},
+        {"zh": "我又张开了盖子。", "en": "I open the lid again."},
+        {"zh": "我用箱角把你顶翻。", "en": "I tip you over with the corner of my lid."},
+        {"zh": "你被撞进了箱子边。", "en": "You're driven against the box."},
+        {"zh": "我合了三次盖。", "en": "I've snapped the lid three times."},
+        {"zh": "你的甲在我嘴里碎了。", "en": "Your armor breaks in my mouth."},
+        {"zh": "箱子落在你背上，压住了。", "en": "The chest lands on your back and pins you."},
+        {"zh": "你怎么甩也甩不掉我。", "en": "No matter how you shake, you can't throw me off."},
+        {"zh": "第二口咬在原来的牙印上。", "en": "My second bite lands on the same mark."},
+        {"zh": "我慢慢磨，你总会软。", "en": "I grind slowly; you will give."},
+        {"zh": "我连环咬了两口。", "en": "Two bites in quick succession."},
+        {"zh": "我把你往箱子里拖。", "en": "I drag you toward the box."},
+        {"zh": "我的牙在你背后合上。", "en": "My teeth close on your back."},
+        {"zh": "我压着你不放。", "en": "I hold you down."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一只箱子出现在路边。", "en": "A chest appears on the roadside."},
+        {"zh": "上面的锁是坏的。", "en": "Its lock is broken."},
+        {"zh": "木头纹路很新。", "en": "The wood grain looks new."},
+        {"zh": "箱子缝里透出一点微光。", "en": "A faint gleam shows through the chest's seam."},
+        {"zh": "有脚步声靠近了。", "en": "Footsteps are coming closer."},
+        {"zh": "我把盖子合得更紧。", "en": "I close my lid tighter."},
+        {"zh": "我调整了一下位置。", "en": "I shift my position."},
+        {"zh": "这里看起来很像宝箱。", "en": "This looks exactly like a treasure chest."},
+        {"zh": "我的腿藏在下面。", "en": "My legs are hidden underneath."},
+        {"zh": "我等那个人伸手。", "en": "I wait for that person to reach out."},
+        {"zh": "我就等他蹲下来。", "en": "I only need them to crouch down."},
+        {"zh": "我把自己摆得很显眼。", "en": "I set myself somewhere obvious."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "木头烧起来了，我蹦着躲。", "en": "My wood catches fire and I hop away."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔在地上，箱子散了半边。", "en": "I hit the ground and half the box breaks."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进箱子里，我合不上盖。", "en": "Water pours in and I can't shut the lid."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我的盖子掀飞了。", "en": "The blast blows my lid off."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一根箭扎进了木板。", "en": "An arrow sticks in my board."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那道光让我的盖子卡住了。", "en": "The light jams my lid."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没东西吃，箱子沉得像石头。", "en": "Nothing to eat; my chest feels like stone."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在箱子上，木头冒烟。", "en": "Lightning hits the box and the wood smokes."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下面没有地，我一直掉。", "en": "No ground below; I keep falling."}
+      ]
+    }
+  }
+}

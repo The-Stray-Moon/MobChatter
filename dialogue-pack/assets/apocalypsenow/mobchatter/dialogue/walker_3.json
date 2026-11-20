@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一步一步向前挪动", "en": "Shuffle forward slowly"},
+        {"zh": "缓慢移动以躲避敌人", "en": "Move slowly to avoid enemies"},
+        {"zh": "啃咬腐烂的肉", "en": "Chomp on rotten meat"},
+        {"zh": "舔舐地面寻找食物", "en": "Lick the ground for food"},
+        {"zh": "我弓着背，一步步蹭向巷口。", "en": "Hunched over, I shuffle toward the alley mouth."},
+        {"zh": "蹒跚着向玩家靠近", "en": "Limp closer to the player"},
+        {"zh": "脚拖在地上，找吃的。", "en": "Feet dragging, looking for a meal."},
+        {"zh": "饥饿让我变得迟缓", "en": "Hunger makes me sluggish"},
+        {"zh": "摸索着向前爬行", "en": "Scrabbles forward"},
+        {"zh": "缓慢地移动以靠近目标", "en": "Move slowly to approach the target"},
+        {"zh": "拖着一只脚往前蹭", "en": "I drag one foot forward"},
+        {"zh": "皮肉挂在骨头上晃", "en": "Skin hangs loose on my bones"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "站在角落慢慢腐烂", "en": "Fade in the corner"},
+        {"zh": "低头啃咬地上的东西", "en": "Bite at something on the ground"},
+        {"zh": "无聊地摇晃脑袋", "en": "Shake its head idly"},
+        {"zh": "腐烂的皮肉在风中飘动", "en": "Skin flaps in the wind"},
+        {"zh": "盯着远处出神", "en": "Stare into the distance"},
+        {"zh": "慢慢蠕动着身体", "en": "Creep slowly"},
+        {"zh": "我在垃圾桶后面站了很久。", "en": "I have stood behind the trash bins a long while."},
+        {"zh": "腐烂的肢体无规律颤动", "en": "Decaying limbs twitch"},
+        {"zh": "腐烂的血液流出", "en": "Decaying blood oozes out"},
+        {"zh": "无意识地移动四肢", "en": "Move limbs aimlessly"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你把瓶子踢响，我的头抬起来。", "en": "You kick a bottle; my head comes up."},
+        {"zh": "视线锁定在目标上", "en": "Gaze fixed on the target"},
+        {"zh": "缓慢转动头部", "en": "Slowly turn its head"},
+        {"zh": "盯着玩家看了一会儿", "en": "Stares at the player for a while"},
+        {"zh": "试图分辨玩家", "en": "Struggles to see the player"},
+        {"zh": "我缓慢转头，颈骨咔了一声。", "en": "I turn my head slowly and my neck clicks."},
+        {"zh": "慢慢转动以寻找玩家", "en": "Slowly turns to look for the player"},
+        {"zh": "试图理解玩家", "en": "Struggles to understand the player"},
+        {"zh": "喉咙里的声音憋不住了", "en": "The sound in my throat won't stay down"},
+        {"zh": "视线集中在目标身上", "en": "Focuses on the target"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的胳膊上，咬痕还在渗。", "en": "The bite mark on my arm still seeps."},
+        {"zh": "腿断了，走不了了。", "en": "Leg broken, can't walk."},
+        {"zh": "我捂着肚子，肠子缠在手上。", "en": "I clutch my belly, intestines wrapped round my hand."},
+        {"zh": "腿上这块肉，已经烂了。", "en": "That patch on my leg has gone rotten."},
+        {"zh": "虚弱得不行了。", "en": "Too weak to move."},
+        {"zh": "快点找药，否则就死定了。", "en": "Find a cure or you're dead."},
+        {"zh": "伤口怎么都不好。", "en": "Wound won't heal."},
+        {"zh": "我舔着地上的水，还是饿。", "en": "I lick water off the ground and am still hungry."},
+        {"zh": "太冷了，快找个避难所。", "en": "Too cold, find shelter."},
+        {"zh": "虚弱到站不稳。", "en": "Too weak to stand."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "骷髅头散发冷光，吸引猎物靠近。", "en": "The skull glows cold, drawing prey closer."},
+        {"zh": "你闻到腐肉的味道了吗？", "en": "Can you smell the rotting flesh?"},
+        {"zh": "你快点过来，这里的食物很香。", "en": "Come over here, the food is delicious."},
+        {"zh": "咬我一口，感受末日的滋味。", "en": "Give me a bite, taste the end."},
+        {"zh": "腐肉的滋味，你值得拥有。", "en": "The taste of rot, it's yours now."},
+        {"zh": "你为何还不咬我？", "en": "Why don't you bite me?"},
+        {"zh": "你已经被腐化了，尝尝吧。", "en": "You are already corrupted, taste it."},
+        {"zh": "靠近我，享受末世的馈赠。", "en": "Come closer, enjoy the offering of the end."},
+        {"zh": "你迟早会成为我的同类。", "en": "You'll become like me eventually."},
+        {"zh": "这里的食物最鲜美，尝尝吧。", "en": "This food is the freshest, taste it."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你挡了我的路，准备好战斗吧。", "en": "You're in my way, prepare to fight."},
+        {"zh": "躲开我，否则你死定了。", "en": "Get out of my way, or you're dead."},
+        {"zh": "你试图伤害我，这只会加速你的死亡。", "en": "You tried to harm me, that only speeds up your death."},
+        {"zh": "你离我太近了，后退！", "en": "You're too close, back off!"},
+        {"zh": "你触碰了我的领地，战斗吧。", "en": "You've trespassed my territory, fight me."},
+        {"zh": "别挡我，否则你会受到攻击。", "en": "Don't block my path, you'll be attacked."},
+        {"zh": "烂掉的手抬起来，抓向你。", "en": "A rotting hand rises toward you."},
+        {"zh": "离我远点，不然你也会变成这样。", "en": "Stay back, or you'll become like me."},
+        {"zh": "你挡住了我的去路，必须解决你。", "en": "You blocked my path, I must deal with you."},
+        {"zh": "你离我太近，我必须保护自己。", "en": "You're too close, I must protect myself."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找一个伴侣，我们的种族才能延续。", "en": "Find a mate, our species can continue."},
+        {"zh": "你适合做我的配偶，跟我来。", "en": "You're suitable as a mate, follow me."},
+        {"zh": "找到一个伴侣，共同抵御末日。", "en": "Find a mate, we can face the end together."},
+        {"zh": "你看起来很健康，适合做配偶。", "en": "You look healthy, you're a good mate."},
+        {"zh": "找到一个健康的伴侣，我们的种族才能延续。", "en": "Find a healthy mate, our species can continue."},
+        {"zh": "我需要一个健康的伴侣，跟我来。", "en": "I need a healthy mate, follow me."},
+        {"zh": "你看起来强壮，适合做我的配偶。", "en": "You look strong, you're a good mate."},
+        {"zh": "和我一起，我们的力量更强。", "en": "Join me, we are stronger together."},
+        {"zh": "我们共同抵御末日，找一个伴侣。", "en": "Face the end together, find a mate."},
+        {"zh": "你需要一个伴侣，我来帮助你。", "en": "You need a mate, I'll help you."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐烂的骨头嘎吱作响", "en": "Rusty bones creak"},
+        {"zh": "干瘪的皮肤发出嘎吱声", "en": "Dried skin creaks"},
+        {"zh": "腐烂的肉块滴下血水", "en": "Decaying flesh drips blood"},
+        {"zh": "干枯的手指关节嘎吱", "en": "Dry knuckles creak"},
+        {"zh": "碎裂的骨头发出咔嗒声", "en": "Broken bones click"},
+        {"zh": "腐烂的手指紧紧抓住你", "en": "Finger bones clutch you"},
+        {"zh": "干瘪的手掌覆盖着血污", "en": "Bloodstained palms"},
+        {"zh": "腐烂的皮肤裂开流血", "en": "Skin splits, blood flows"},
+        {"zh": "干瘪的手指伸向你", "en": "Dry fingers reach for you"},
+        {"zh": "腐烂的指甲刺入你的皮肤", "en": "Decayed nails pierce your skin"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿的眼睛盯着你", "en": "Hungry eyes on you"},
+        {"zh": "干枯的嘴唇蠕动着", "en": "Dry lips move"},
+        {"zh": "干瘪的肌肉紧绷", "en": "Taut, dry flesh"},
+        {"zh": "腐烂的肌肉扭曲", "en": "Decaying muscles twist"},
+        {"zh": "干枯的牙齿露出来", "en": "Dry teeth appear"},
+        {"zh": "干瘪的脸颊紧绷", "en": "Dry cheeks taut"},
+        {"zh": "干枯的喉咙发出嘶嘶声", "en": "Dry throat hisses"},
+        {"zh": "我闻到你背包里有罐头。", "en": "I smell canned food in your pack."},
+        {"zh": "干瘪的脸颊松弛", "en": "Dry cheeks slacken"},
+        {"zh": "干枯的嘴唇紧闭", "en": "Dry lips close tight"},
+        {"zh": "远处有人还在动", "en": "Someone is still moving out there"},
+        {"zh": "活人的热气我闻到了", "en": "I smell the warmth of the living"},
+        {"zh": "他还没被咬过", "en": "He has not been bitten yet"},
+        {"zh": "那边传来喘气声", "en": "Breathing, over there"},
+        {"zh": "我的牙开始发痒", "en": "My teeth have started to itch"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐肉在你周围徘徊", "en": "Flesh rots around you"},
+        {"zh": "血水滴落在你身上", "en": "Blood drips on you"},
+        {"zh": "腐肉的恶臭弥漫", "en": "Putrid smell spreads"},
+        {"zh": "干瘪的手指抓向你", "en": "Dry fingers grasp you"},
+        {"zh": "腐烂的手臂挥舞着", "en": "Decaying arms swing"},
+        {"zh": "腐臭先一步找到你", "en": "The stench reaches you before I do."},
+        {"zh": "我的指节擦着墙走", "en": "My knuckles scrape along the wall as I come."},
+        {"zh": "干瘪的手掌覆盖你", "en": "Dry palms cover you"},
+        {"zh": "腐烂的牙齿咬向你", "en": "Decaying teeth bite"},
+        {"zh": "干瘪的嘴唇蠕动着", "en": "Dry lips move"},
+        {"zh": "我朝他慢慢挪", "en": "I shuffle slowly toward him"},
+        {"zh": "腿断了，我也爬过去", "en": "My leg is broken. I will crawl"},
+        {"zh": "我不喊，只跟着", "en": "I do not shout. I just follow"},
+        {"zh": "他退到墙边了", "en": "He is backing against a wall"},
+        {"zh": "绕过去，那边近", "en": "Around this way is shorter"},
+        {"zh": "我的手指已经碰到他", "en": "My fingers have reached him"},
+        {"zh": "他已经跑不动了", "en": "He cannot run any further"},
+        {"zh": "咬一口，就够了", "en": "One bite is all it takes"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出沉重的嘶吼，用腐烂的手臂攻击！", "en": "Rippling with putrefaction, lunge with decayed arms!"},
+        {"zh": "腐烂的手臂向你挥舞！", "en": "Decayed arms swinging at you!"},
+        {"zh": "痛苦的嘶叫，试图拉扯你！", "en": "Pained wail, trying to tear you apart!"},
+        {"zh": "用腐烂的手臂紧紧抱住你！", "en": "Clutching you with decayed arms!"},
+        {"zh": "嘶嘶声中，腐烂的手臂抓住你！", "en": "Decayed arms grab you with a hiss!"},
+        {"zh": "发出嘶嘶声，试图咬破你的皮肉！", "en": "Snarling, trying to bite through your flesh!"},
+        {"zh": "腐烂的肢体紧紧缠住你！", "en": "Decaying limbs clinging to you!"},
+        {"zh": "嘶嘶声中，腐烂的手臂拉扯你！", "en": "Decayed arms pulling you with a hiss!"},
+        {"zh": "腐烂的手臂迅速攻击你的喉咙！", "en": "Decayed arms lunging for your throat!"},
+        {"zh": "嘶嘶声中，腐烂的手臂试图咬你！", "en": "Decayed arms biting you with a hiss!"},
+        {"zh": "我咬住他的手臂", "en": "I bite into his arm"},
+        {"zh": "血从牙缝里渗出来", "en": "Blood seeps between my teeth"},
+        {"zh": "他推开我，我又抓上去", "en": "He shoves me off. I grab again"},
+        {"zh": "指甲在他背上划开", "en": "My nails rake open his back"},
+        {"zh": "我把他按在废墟上", "en": "I pin him on the rubble"},
+        {"zh": "伤口会开始流血", "en": "The wound will start to bleed"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从黑暗中缓缓爬出，寻找猎物！", "en": "Emerging from the dark, seeking prey!"},
+        {"zh": "爬出地面，四处游荡！", "en": "Crawling out, wandering around!"},
+        {"zh": "在腐烂的土地上缓慢移动！", "en": "Moving slowly on the decaying ground!"},
+        {"zh": "在废墟中寻找新的宿主！", "en": "Scouring ruins for new hosts!"},
+        {"zh": "在夜晚中悄悄出现，寻找目标！", "en": "Appearing in the night, seeking a target!"},
+        {"zh": "从地下涌出，四处搜寻！", "en": "Surging from the ground, searching around!"},
+        {"zh": "在阴影中悄悄移动，寻找猎物！", "en": "Creeping in the shadows, seeking prey!"},
+        {"zh": "在腐烂的树枝上缓缓爬行！", "en": "Crawling slowly on rotting branches!"},
+        {"zh": "在废墟中缓慢游荡，寻找猎物！", "en": "Wandering through ruins, seeking prey!"},
+        {"zh": "从地下缓缓爬出，寻找下一个目标！", "en": "Crawling out of the ground, seeking the next victim!"},
+        {"zh": "废墟下有人翻了个身", "en": "Under the rubble, something turns over"},
+        {"zh": "我从瓦砾里站起来", "en": "I rise out of the debris"},
+        {"zh": "热气散了，我还在走", "en": "The heat is gone. I still walk"},
+        {"zh": "这具身体又动了", "en": "This body moves again"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火苗爬过我的烂皮，缩起来。", "en": "Flames crawl over my rotten skin and it shrinks."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉下来摔断腿了。", "en": "Fell and broke my leg."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水里浮不起来，一直往下沉。", "en": "I can't float; I keep sinking."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被爆炸波及了。", "en": "Hit by an explosion."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "中箭了，快治伤。", "en": "Hit by an arrow."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "中了诅咒，快解。", "en": "Cursed, find a way to break it."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "肚子里空得发响。", "en": "My belly echoes with emptiness."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷把我劈得倒在水泥地上。", "en": "Lightning knocks me flat onto the concrete."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉入末地死亡了。", "en": "Died in the Nether."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "挥舞利爪前行", "en": "Swing claws forward"},
+        {"zh": "跳跃逼近敌人", "en": "Leap to attack"},
+        {"zh": "每一步都让遗迹的沙往下滑。", "en": "Every step sends the ruin's sand sliding."},
+        {"zh": "挥动双臂冲刺", "en": "Swing arms in rush"},
+        {"zh": "地面传来震颤", "en": "Ground trembles"},
+        {"zh": "闪烁后再次跳跃", "en": "Jump again after flash"},
+        {"zh": "双臂划破空气", "en": "Wings slice air"},
+        {"zh": "发出怒吼，震碎岩石", "en": "Roar and shatter rock"},
+        {"zh": "跳跃击打地面", "en": "Leap to hit ground"},
+        {"zh": "冲击波席卷而来", "en": "Shockwave approaches"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "刚玉的边角已磨得发亮。", "en": "The edges of my corundum have worn bright."},
+        {"zh": "我在听有没有第二个人来。", "en": "I listen for a second challenger."},
+        {"zh": "偶尔转头", "en": "Occasionally turn head"},
+        {"zh": "观察四周环境", "en": "Survey surroundings"},
+        {"zh": "发出微弱的咆哮", "en": "Growl softly"},
+        {"zh": "双臂缓缓摆动", "en": "Swing arms slowly"},
+        {"zh": "石头互相摩着，像在说话。", "en": "My stones grind together like speech."},
+        {"zh": "缓缓移动脚步", "en": "Move feet slowly"},
+        {"zh": "警惕地窥视", "en": "Watch carefully"},
+        {"zh": "偶尔发出响动", "en": "Occasionally make noise"},
+        {"zh": "刚玉外壳映出你的脸。", "en": "Its corundum shell mirrors your face."},
+        {"zh": "它在称量你值不值得动手。", "en": "It weighs whether you are worth it."},
+        {"zh": "关节摩擦，发出细微响声。", "en": "Its joints grind faintly."},
+        {"zh": "双臂垂着，蓄着力。", "en": "Its arms hang, charging power."},
+        {"zh": "宝石黯淡，它静候挑战。", "en": "Its gems dim as it waits."},
+        {"zh": "它在这片空地守了很久。", "en": "It has guarded this clearing long."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我跳起来，落地就是冲击波。", "en": "I leap; the landing sends a shockwave."},
+        {"zh": "我数你有几件护甲。", "en": "I count the pieces of your armor."},
+        {"zh": "双拳抬起，这一跳你躲不掉。", "en": "Both fists up, and you cannot dodge this leap."},
+        {"zh": "落地一次，地面都要震。", "en": "Each landing shakes the ground."},
+        {"zh": "我偏头，量你的肩宽。", "en": "I tilt my head and measure your shoulders."},
+        {"zh": "我蹲下，准备跳过去。", "en": "I crouch, ready to leap."},
+        {"zh": "双臂抬起来，准备砸下。", "en": "Both arms rise, ready to come down."},
+        {"zh": "注意你的位置变化", "en": "Notice position change"},
+        {"zh": "锁定你为敌人", "en": "You are enemy"},
+        {"zh": "盯着你看得更紧", "en": "Stare even harder"},
+        {"zh": "两道目光扫过你的护甲。", "en": "Two eyes scan your armor."},
+        {"zh": "它先看你的膝盖，再看地面。", "en": "It looks at your knees, then the floor."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅膀受了伤，移动缓慢。", "en": "Wings injured, moving slowly."},
+        {"zh": "身体受创，动作迟缓。", "en": "Body injured, actions sluggish."},
+        {"zh": "脚踝受伤，跳跃困难。", "en": "Ankle injured, jumping hard."},
+        {"zh": "尾巴受伤，难以平衡。", "en": "Tail injured, hard to balance."},
+        {"zh": "翅膀破损，飞行困难。", "en": "Wings damaged, flying hard."},
+        {"zh": "腹部受伤，攻击无力。", "en": "Stomach injured, attacks weak."},
+        {"zh": "头部受伤，视线模糊。", "en": "Head injured, vision blurry."},
+        {"zh": "翅膀沾满灰尘，飞行不畅。", "en": "Wings covered in dust, flying tough."},
+        {"zh": "手臂受创，攻击受限。", "en": "Arms injured, attacks limited."},
+        {"zh": "刚玉裂开，还会长回来。", "en": "Cracks in corundum heal back."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你似乎被宝石吸引了，Corundum Guardian。", "en": "You seem tempted by the gems, Corundum Guardian."},
+        {"zh": "闪烁的光芒诱惑着你，战斗吧！", "en": "The glowing light tempts you, fight!"},
+        {"zh": "别被表面的光芒迷惑。", "en": "Don't be fooled by the surface light."},
+        {"zh": "来吧，用你的剑唤醒我吧。", "en": "Come, awaken me with your sword."},
+        {"zh": "宝石的诱惑如此强烈。", "en": "The gem’s temptation is strong."},
+        {"zh": "我身上的宝石闪耀着光芒。", "en": "The gems on me glow brightly."},
+        {"zh": "你能否抵挡住我的诱惑？", "en": "Can you resist my temptation?"},
+        {"zh": "宝石的力量让你无法抗拒。", "en": "The gem’s power draws you in."},
+        {"zh": "你已经无法逃避这场战斗了。", "en": "You can’t escape this battle."},
+        {"zh": "宝石守护者的意志如此坚定。", "en": "The Corundum Guardian's will is firm."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击波袭来，避开！", "en": "Impact wave! Dodge!"},
+        {"zh": "你躲开了我的冲击波。", "en": "You dodged my impact wave."},
+        {"zh": "地面颤抖，跳跃避开。", "en": "The ground shakes, jump away!"},
+        {"zh": "小心，冲击波即将降临。", "en": "Be careful, the impact wave is coming."},
+        {"zh": "我再次发动冲击波攻击。", "en": "I strike again with an impact wave."},
+        {"zh": "冲击波产生的震动很强烈。", "en": "The impact wave’s vibrations are strong."},
+        {"zh": "你的跳跃躲开了我的冲击。", "en": "Your jump dodged my impact."},
+        {"zh": "冲击波扫过，快速移动。", "en": "The impact wave sweeps, move quickly."},
+        {"zh": "冲击波过后，你毫发无损。", "en": "You’re unharmed after the impact wave."},
+        {"zh": "我用冲击波击溃你的防御。", "en": "I crush your defenses with an impact wave."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "同类之间，没有恐惧。", "en": "No fear among my kind."},
+        {"zh": "寻找你的伴侣，Corundum Guardian。", "en": "Find your mate, Corundum Guardian."},
+        {"zh": "求偶的季节已经到来。", "en": "The mating season is here."},
+        {"zh": "用战斗证明你的价值。", "en": "Prove your worth in battle."},
+        {"zh": "我的力量源自同类间的竞争。", "en": "My strength comes from competition among equals."},
+        {"zh": "同类间的战斗更加激烈。", "en": "Fighting my kind is more intense."},
+        {"zh": "只有最强者才能赢得伴侣。", "en": "Only the strongest win mates."},
+        {"zh": "同类间的争斗决定一切。", "en": "Everything is decided by fights among us."},
+        {"zh": "求偶意味着生死搏斗。", "en": "Mating means fighting to the death."},
+        {"zh": "同类间的争斗永不休止。", "en": "Fights among us never cease."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "金属盔甲闪耀着光芒。", "en": "Metal armor gleams."},
+        {"zh": "你无法忽视我。", "en": "You can't ignore me."},
+        {"zh": "宝石的光，是我的力气。", "en": "The gem's glow is my strength."},
+        {"zh": "这颗宝石属于我。", "en": "This gemstone is mine."},
+        {"zh": "这块碎刚玉，是我掉的皮。", "en": "This shard of corundum is a flake of my hide."},
+        {"zh": "力量之源在我体内。", "en": "Power resides within me."},
+        {"zh": "我要粉碎你的梦想。", "en": "I'll crush your dreams."},
+        {"zh": "我是重生的守护者。", "en": "I am the reborn guardian."},
+        {"zh": "这把武器也太轻了。", "en": "This weapon is far too light."},
+        {"zh": "力量在我手中。", "en": "Power is in my hands."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "猎物终于出现了。", "en": "Prey at last."},
+        {"zh": "我一跳落地，地面就裂开。", "en": "I land, and the ground cracks open."},
+        {"zh": "双臂举起来，冲击波跟着落下。", "en": "Both arms rise, and the shockwave follows."},
+        {"zh": "你的恐惧无法保护你。", "en": "Your fear won't save you."},
+        {"zh": "双臂举起来，我准备砸下去。", "en": "Both arms raised, I am about to slam down."},
+        {"zh": "你将为你的罪孽付出代价。", "en": "You'll pay for your sins."},
+        {"zh": "我是来净化这片土地的。", "en": "I am here to purify this land."},
+        {"zh": "我的存在将结束你的生命。", "en": "My presence will end your life."},
+        {"zh": "我从石台上直起身，碎屑落了一地。", "en": "I straighten off the stone dais and grit rains down."},
+        {"zh": "挑战者一站定，我就开始计数。", "en": "Once a challenger stands still, I begin counting."},
+        {"zh": "它踩了一下地面，示意开始。", "en": "It stomps once: the duel begins."},
+        {"zh": "刚玉的眼缝里亮起红光。", "en": "Red light wakes in its gem seams."},
+        {"zh": "它把你算进了今天的对手。", "en": "You are on today's list of foes."},
+        {"zh": "双臂抬高，这是开战信号。", "en": "Arms raised: the signal to fight."},
+        {"zh": "它从未败过，也不打算败。", "en": "It has never lost, and will not."},
+        {"zh": "你的名字被刻在它的石壁上。", "en": "Your name is carved on its stone."},
+        {"zh": "它转正身子，面对你。", "en": "It squares up to face you."},
+        {"zh": "护主的本能压过了好奇。", "en": "Guardian instinct beats curiosity."},
+        {"zh": "它决定试试你的脚力。", "en": "It decides to test your footwork."},
+        {"zh": "挑战已经成立，无法撤回。", "en": "The challenge stands, irrevocable."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "集中精神，猎物。", "en": "Focus, prey."},
+        {"zh": "你在我掌握之中。", "en": "You're in my grasp."},
+        {"zh": "让恐惧吞噬你。", "en": "Let fear consume you."},
+        {"zh": "双臂举起，我要跳了。", "en": "Arms up. Here comes my leap."},
+        {"zh": "你将亲眼目睹我的力量。", "en": "You'll witness my power."},
+        {"zh": "我落地的地方，就是你的界线。", "en": "Where I land is the line you cannot cross."},
+        {"zh": "你无法逃离我的攻击。", "en": "You can't escape my attack."},
+        {"zh": "为你的罪孽付出代价。", "en": "Pay for your sins."},
+        {"zh": "我的力量将毁灭你。", "en": "My power will destroy you."},
+        {"zh": "我的裂缝在数你的心跳。", "en": "My cracks are counting your heartbeats."},
+        {"zh": "它在数一二三，准备起跳。", "en": "It counts to three before a leap."},
+        {"zh": "刚玉的裂缝越来越亮。", "en": "Cracks in its corundum glow brighter."},
+        {"zh": "落点已经算好，就在你脚下。", "en": "It has picked the spot under you."},
+        {"zh": "它微微屈膝，蓄势待发。", "en": "It bends its knees, coiled."},
+        {"zh": "你以为躲开了，它还没跳。", "en": "You think you dodged; it has not jumped."},
+        {"zh": "别停，它的连跳会接着来。", "en": "Keep moving; its second jump follows."},
+        {"zh": "地面上的裂纹正在扩散。", "en": "Cracks are spreading on the floor."},
+        {"zh": "它在找你的起跳时机。", "en": "It watches for your jump."},
+        {"zh": "每一下挥臂都渐渐加速。", "en": "Each swing comes a little faster."},
+        {"zh": "它把重心压到后腿。", "en": "It shifts weight to its back legs."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "双臂抡起，先砸再说。", "en": "Both arms swing, and the question comes later."},
+        {"zh": "冲击地面！", "en": "Impact ground!"},
+        {"zh": "一跃而上！", "en": "Leap up!"},
+        {"zh": "双臂狂挥！", "en": "Swing arms wildly!"},
+        {"zh": "双臂砸地，石板翻了起来。", "en": "My arms hit the ground and the flagstones flip up."},
+        {"zh": "跳跃攻击！", "en": "Leap attack!"},
+        {"zh": "我一跳起来，你就得抬脚躲。", "en": "When I leap, you must jump clear."},
+        {"zh": "冲击波袭来！", "en": "Shockwave incoming!"},
+        {"zh": "再试一次吧！", "en": "Try again!"},
+        {"zh": "挥刀斩来！", "en": "Chop down!"},
+        {"zh": "刚玉的拳头砸在你脚边。", "en": "A corundum fist slams beside your feet."},
+        {"zh": "它落地的瞬间，地面裂了。", "en": "The floor splits where it lands."},
+        {"zh": "第二跳比第一跳更狠。", "en": "The second leap lands harder."},
+        {"zh": "跳跃落地，冲击波扩散。", "en": "It lands; the shockwave spreads."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "光芒闪烁！", "en": "Lightning flickers!"},
+        {"zh": "石壁合上，我从裂缝里站起来。", "en": "The stone walls close and I rise from the seam."},
+        {"zh": "守护觉醒！", "en": "Guardian awakens!"},
+        {"zh": "天空裂开！", "en": "Sky splits!"},
+        {"zh": "星辰坠落！", "en": "Stars fall!"},
+        {"zh": "光辉凝聚！", "en": "Light converges!"},
+        {"zh": "幽暗之光！", "en": "Dark light!"},
+        {"zh": "光芒骤现！", "en": "Blinking light!"},
+        {"zh": "光芒吞噬！", "en": "Light devours!"},
+        {"zh": "光辉降临！", "en": "Light descends!"},
+        {"zh": "刚玉成形的瞬间，我醒了。", "en": "The moment corundum formed, I woke."},
+        {"zh": "是召唤者把我从石中叫出。", "en": "A summoner called me out of stone."},
+        {"zh": "我守的石台，谁也别想碰。", "en": "No one touches the altar I keep."},
+        {"zh": "宝石在我的胸膛里跳动。", "en": "A gem beats inside my chest."},
+        {"zh": "我不是生物，我是考验。", "en": "I am not a beast; I am a trial."},
+        {"zh": "挑战者，你带了足够的勇气吗？", "en": "Challenger, did you bring courage?"},
+        {"zh": "双臂已举起，随时可以开始。", "en": "My arms are up; we can begin."},
+        {"zh": "每一次倒下，我都能重来。", "en": "Each time I fall, I rise again."},
+        {"zh": "这片遗迹需要我来守着。", "en": "These ruins need a keeper."},
+        {"zh": "你听见碎石的脚步声了吗？", "en": "Hear that footfall of gravel?"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰灼烧，痛苦不已。", "en": "Burned by flames."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从高空坠落，全身伤痕累累。", "en": "Fell from high, covered in wounds."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水中受伤，呼吸困难。", "en": "Injured in water, hard to breathe."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸冲击，身体震颤。", "en": "Shaken by explosion."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "中箭受伤，疼痛难忍。", "en": "Pierced by arrow, in pain."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "法术击中，全身无力。", "en": "Magic hit, drained."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿难耐，虚弱无力。", "en": "Hunger weakens me."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击伤痕累累，电击痛苦。", "en": "Hit by lightning, electrified."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空中，伤痕累累。", "en": "Fell into void, wounded."}
+      ]
+    }
+  }
+}

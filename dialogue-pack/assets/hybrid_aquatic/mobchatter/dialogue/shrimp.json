@@ -1,0 +1,252 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我沿着珊瑚走，触须一直在探。", "en": "I walk the coral with antennae probing ahead."},
+        {"zh": "我十条腿一起动，速度快得看不清。", "en": "Ten legs move at once, too fast to follow."},
+        {"zh": "我从礁石这面翻到那面。", "en": "I clamber from one face of the reef to the other."},
+        {"zh": "水草太密，我从根缝里钻。", "en": "The weeds are thick; I slip between their roots."},
+        {"zh": "我尾巴一弹，整个人往后跳。", "en": "A flick of my tail throws me backward."},
+        {"zh": "我贴在海葵边上走，那里安全。", "en": "I walk beside the anemone, where it is safe."},
+        {"zh": "沙子进不了我的壳，我照走。", "en": "Sand cannot get in my shell; I keep walking."},
+        {"zh": "我顺着礁壁往上爬，爪子抓得牢。", "en": "I climb the reef wall; my claws hold well."},
+        {"zh": "前面有只大鱼，我绕了半圈。", "en": "A big fish is ahead, so I go half around it."},
+        {"zh": "我一跳一跳地过石缝，像弹豆子。", "en": "I hop the stone gaps like a popping bean."},
+        {"zh": "深水那边更暗，我照旧走。", "en": "The deep side is darker; I walk it anyway."},
+        {"zh": "我钻进草丛，草叶弹回来合上。", "en": "I dive into the grass and the blades spring shut."},
+        {"zh": "我的触须碰到东西，就先停。", "en": "When my antennae touch something, I stop first."},
+        {"zh": "我搬着腿，慢慢挪上那块珊瑚。", "en": "I work my legs and climb onto that coral."},
+        {"zh": "我贴着沙面滑，几乎不扬泥。", "en": "I skim the sand and barely stir the silt."},
+        {"zh": "礁洞口太窄，我侧身挤进去。", "en": "The reef hole is tight. I turn sideways."},
+        {"zh": "我停下来，把触须收短。", "en": "I stop and draw my antennae in."},
+        {"zh": "一群鱼冲过来，我贴地躲开。", "en": "A school rushes past. I drop low and let it go."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我举着两只小螯，等人来清洁。", "en": "I hold up two small claws, waiting for a customer."},
+        {"zh": "我抖了抖触须，水里有味道。", "en": "I twitch my antennae; something is in the water."},
+        {"zh": "我给一条鱼清完鳃，它走了。", "en": "I finished a fish's gills, and it left."},
+        {"zh": "我藏在珊瑚缝里，只露触须。", "en": "I hide in a coral crack with only antennae out."},
+        {"zh": "我的壳刚换过，还软。", "en": "I have just molted; my shell is still soft."},
+        {"zh": "我数着漂过来的碎屑，一片两片。", "en": "I count the scraps drifting by, one and two."},
+        {"zh": "海葵的触手碰我，有点痒。", "en": "The anemone's tentacles brush me and tickle."},
+        {"zh": "我清洁过最大的鱼，有我的二十倍。", "en": "The biggest fish I cleaned was twenty times my size."},
+        {"zh": "我蹲在草叶上，慢慢嚼东西。", "en": "I perch on a grass blade and chew slowly."},
+        {"zh": "有寄生虫爬过来，我伸螯夹住。", "en": "A parasite crawls near; my claw nabs it."},
+        {"zh": "我抖抖水，壳上的沙掉了几粒。", "en": "I shake and a few grains fall off my shell."},
+        {"zh": "这条礁我熟，每条缝都钻过。", "en": "I know this reef; I have been in every crack."},
+        {"zh": "我听见大螯敲壳的声音，躲了躲。", "en": "I hear a big claw knock shell and flinch."},
+        {"zh": "我趴着不动，让水流过鳃。", "en": "I lie still and let the current pass my gills."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你身上有寄生虫吗，我看看。", "en": "Do you have parasites? Let me look."},
+        {"zh": "我只有一点血，你别踩。", "en": "I have one heart; do not step on me."},
+        {"zh": "你的脚趾缝里，好像有东西在动。", "en": "Something seems to move between your toes."},
+        {"zh": "我抬头看你，触须一直抖。", "en": "I look up at you, antennae quivering."},
+        {"zh": "你要清洁服务吗，很快的。", "en": "Do you want a cleaning? It is quick."},
+        {"zh": "你的皮太干，我夹不动。", "en": "Your skin is too dry; my claws cannot grip it."},
+        {"zh": "我认得你这种大个子，走得很响。", "en": "I know your kind; you walk loudly."},
+        {"zh": "我在珊瑚上，你在上面，隔着水。", "en": "I am on the coral, you above, with water between."},
+        {"zh": "你的影子落下，我缩了一半。", "en": "Your shadow falls and I shrink by half."},
+        {"zh": "别用手抓我，我会弹走。", "en": "Do not grab me; I will snap away."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的壳裂了，里面露出来。", "en": "My shell is split and the inside shows."},
+        {"zh": "一点血的我，经不起这一下。", "en": "With one heart, I cannot take that."},
+        {"zh": "我弹开时翻了个身，腿乱抓。", "en": "Springing away, I flip and claw at nothing."},
+        {"zh": "我躲进海葵里，触手护着我。", "en": "I hide in the anemone and its tentacles shield me."},
+        {"zh": "我的螯软了，夹不住东西。", "en": "My claw has gone weak and cannot grip."},
+        {"zh": "血混进水里，很淡一点。", "en": "A faint thread of blood mixes into the water."},
+        {"zh": "我把尾巴卷进腹部，缩得更小。", "en": "I curl my tail under my belly and shrink smaller."},
+        {"zh": "触须断了一截，还在抽。", "en": "Half an antenna is gone and still twitching."},
+        {"zh": "我疼得直抖，可还得走。", "en": "I tremble with pain but still must move."},
+        {"zh": "这一下差一点就把我打没了。", "en": "That blow nearly ended me outright."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你指头上有点碎肉，我闻到了。", "en": "There is a bit of flesh on your finger; I smell it."},
+        {"zh": "我举着螯，慢慢靠近。", "en": "I raise my claws and edge closer."},
+        {"zh": "这点东西比寄生虫好吃。", "en": "This beats eating parasites."},
+        {"zh": "我试探着夹一下，又松开。", "en": "I test it with a pinch, then let go."},
+        {"zh": "我不抢，等其他虾先上。", "en": "I do not rush; let the other shrimp go first."},
+        {"zh": "你手别动，我一惊就弹开。", "en": "Keep your hand still; one startle and I spring away."},
+        {"zh": "我清洁惯了，看见碎屑就想夹。", "en": "Cleaning is habit; scraps make my claws itch."},
+        {"zh": "那味道顺着水过来，很淡。", "en": "The smell comes through the water, very faint."},
+        {"zh": "我饿了一整天，礁上没什么可吃。", "en": "I have fasted a day; the reef offers little."},
+        {"zh": "你放在珊瑚上，我就过去。", "en": "Set it on the coral and I will come."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你一脚踩塌了半块珊瑚。", "en": "One step of yours caves in half the coral."},
+        {"zh": "我被震得翻了个身，腿乱蹬。", "en": "The shock flips me over; my legs flail."},
+        {"zh": "我的壳被蹭出一道白痕。", "en": "A white scuff shows on my shell."},
+        {"zh": "别在礁上跺脚，我在下面。", "en": "Do not stomp the reef; I am underneath."},
+        {"zh": "水流把我推到你脚背上。", "en": "The current pushes me onto your foot."},
+        {"zh": "我弹开的时候撞了石壁。", "en": "Springing away, I hit the stone wall."},
+        {"zh": "你这下把我震出了草丛。", "en": "That knocked me clean out of the grass."},
+        {"zh": "我这么小，你怎么看得见。", "en": "I am this small; how did you even see me?"},
+        {"zh": "触须断了一根，我心疼。", "en": "One antenna broke, and I mourn it."},
+        {"zh": "退后一步，我还没躲好。", "en": "One step back; I have not hidden yet."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我们俩加起来才两点血。", "en": "Together we have only two hearts."},
+        {"zh": "你跟着我，钻进这条礁缝。", "en": "Follow me into this reef crack."},
+        {"zh": "我把螯举起来，你也举起来。", "en": "I raise my claws; you raise yours."},
+        {"zh": "水草下面够暗，没人会看。", "en": "Under the weeds it is dark; nobody will look."},
+        {"zh": "你替我清触须，我替你清壳。", "en": "You clean my antennae; I clean your shell."},
+        {"zh": "我们并排趴着，腿碰着腿。", "en": "We lie side by side, legs touching legs."},
+        {"zh": "这块珊瑚是我们的，别让别的虾来。", "en": "This coral is ours; keep other shrimp off it."},
+        {"zh": "你跳一下，我也跳一下。", "en": "You hop once, and I hop once."},
+        {"zh": "深水那边更安全，我们搬过去。", "en": "The deep side is safer; let us move there."},
+        {"zh": "有你在，我清洁的活也轻了。", "en": "With you here, my cleaning work feels lighter."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我夹起一粒沙，丢到旁边。", "en": "I pinch a grain of sand and toss it aside."},
+        {"zh": "这块碎珊瑚我举得起来。", "en": "I can lift this piece of broken coral."},
+        {"zh": "太滑了，夹了三次都掉。", "en": "Too slippery; it slips three times."},
+        {"zh": "我把寄生虫夹出来，扔进水里。", "en": "I pull a parasite out and flick it away."},
+        {"zh": "你要这个？我还没吃完。", "en": "You want this? I am not done eating."},
+        {"zh": "我抱着它走，腿都不够用。", "en": "I carry it along and run out of legs."},
+        {"zh": "我把它塞进礁缝里存着。", "en": "I stuff it into a reef crack for later."},
+        {"zh": "碎的壳我留着，能补自己的。", "en": "I keep shell bits; they patch my own."},
+        {"zh": "我捡到的都归我，规矩如此。", "en": "What I find is mine; that is the rule."},
+        {"zh": "它比我还大，我推着走。", "en": "It is bigger than I am; I push it along."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那条鱼的鳃上有白点，我看见了。", "en": "That fish has white spots on its gills; I see them."},
+        {"zh": "有寄生虫的味道，很近了。", "en": "The smell of parasites is close now."},
+        {"zh": "我锁定那条大鱼的侧腹。", "en": "I lock onto that big fish's flank."},
+        {"zh": "有东西在礁缝里动，我盯着。", "en": "Something moves in the crack; I stare at it."},
+        {"zh": "我先看它是不是来吃我的。", "en": "First I check whether it means to eat me."},
+        {"zh": "那只海龟背上全是壳虫。", "en": "That turtle's back is covered in shell bugs."},
+        {"zh": "我举螯，往它的鳞缝里探。", "en": "I raise a claw and reach into its scale seam."},
+        {"zh": "目标不大，正好一口。", "en": "The target is small, one bite exactly."},
+        {"zh": "我一动不动，等它游近。", "en": "I hold still and wait for it to swim near."},
+        {"zh": "它一停，我就上去了。", "en": "The moment it stops, I am on it."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我绕着它转，找能落脚的地方。", "en": "I circle it, looking for a place to land."},
+        {"zh": "它一动，我就抓牢。", "en": "When it moves, I hold tight."},
+        {"zh": "我从尾巴那头靠近，那里看不见我。", "en": "I approach from the tail, where it cannot see me."},
+        {"zh": "它的鳃盖一开，我就钻进去。", "en": "When its gill cover opens, I slip inside."},
+        {"zh": "我在等它安静下来。", "en": "I am waiting for it to settle."},
+        {"zh": "这活要快，慢了会被甩掉。", "en": "This work must be quick, or I get thrown."},
+        {"zh": "我把螯张到最大，准备夹。", "en": "I open my claws wide and prepare to pinch."},
+        {"zh": "它身上有伤，那里最招虫。", "en": "It has a wound, and wounds draw bugs."},
+        {"zh": "我贴着礁壁挪，避开水流。", "en": "I creep along the reef wall, out of the current."},
+        {"zh": "再近一寸，我就够到了。", "en": "One inch closer and I can reach."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我夹它一下，它几乎没感觉。", "en": "I pinch it once and it barely notices."},
+        {"zh": "我的螯太小，只能夹软的地方。", "en": "My claws are small; I can only pinch soft spots."},
+        {"zh": "它甩尾，我被甩出两米。", "en": "It flicks its tail and throws me two meters."},
+        {"zh": "我弹了一下，撞在它眼睛边。", "en": "I spring and smack beside its eye."},
+        {"zh": "这一点血，我也敢夹。", "en": "Even with one heart, I dare to pinch."},
+        {"zh": "我夹住不放，它开始乱动。", "en": "I clamp on and it starts thrashing."},
+        {"zh": "我的螯咔了一声，没断。", "en": "My claw clicks once, but does not break."},
+        {"zh": "它回头看我，我立刻松手。", "en": "It looks back at me, and I let go at once."},
+        {"zh": "珊瑚礁里，我替大鱼清寄生虫。", "en": "In the reef I clean the big fish."},
+        {"zh": "我钻进礁缝，它进不来。", "en": "I dive into the crack; it cannot follow."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从珊瑚缝里出来，壳还是软的。", "en": "I come out of a coral crack, shell still soft."},
+        {"zh": "这一窝三只，我最小。", "en": "Three of us in this brood; I am the smallest."},
+        {"zh": "水是暖的，礁上到处是缝。", "en": "The water is warm and the reef is full of cracks."},
+        {"zh": "我一出来就开始找活干。", "en": "I start looking for work the moment I emerge."},
+        {"zh": "深水珊瑚礁那边更暗，我知道路。", "en": "The deep reef is darker; I know the way."},
+        {"zh": "红色草甸的水草很软，适合藏。", "en": "The red meadow's weeds are soft and good for hiding."},
+        {"zh": "我抖抖腿，站直了。", "en": "I shake my legs and stand straight."},
+        {"zh": "身边那只比我早出生一会儿。", "en": "The one beside me was born a moment earlier."},
+        {"zh": "海草床的味道，我记住了。", "en": "I memorize the smell of the seagrass bed."},
+        {"zh": "我先找海葵，那里最安全。", "en": "First I find an anemone; that is safest."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水变热了，我的壳发红。", "en": "The water heats and my shell turns red."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从礁上摔下去，壳磕了一下。", "en": "I fall from the reef and crack my shell."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我离开水，腿只能乱蹬。", "en": "Out of water, my legs can only flail."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸响把我掀进珊瑚缝里。", "en": "The blast throws me into a coral crack."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭尖削掉我一小片甲壳。", "en": "The arrowhead shaves off a sliver of my shell."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一股麻意钻进我的小壳。", "en": "A numb force seeps into my small shell."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没碎屑可吃，我只能啃草。", "en": "With no scraps, I can only gnaw weed."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "白光下来，我整只都僵了。", "en": "White light falls and I go rigid."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的钳子够不到任何东西。", "en": "My little claws reach nothing."}
+      ]
+    }
+  }
+}

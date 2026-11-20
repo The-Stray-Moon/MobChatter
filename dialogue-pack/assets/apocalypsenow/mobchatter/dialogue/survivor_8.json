@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，向你爬来。", "en": "Sssss, creeping toward you."},
+        {"zh": "我拖着步子，找还能用的补给。", "en": "I shuffle along, looking for usable supplies."},
+        {"zh": "发出沙哑叫声，四处巡视。", "en": "Croaking noisily, scanning the area."},
+        {"zh": "蠕动前行，警惕四周。", "en": "Crawling forward, vigilant."},
+        {"zh": "爬行着接近，双眼闪烁。", "en": "Creeping closer, eyes glowing."},
+        {"zh": "嘶嘶声中逼近，眼神凶狠。", "en": "Sssss, advancing with fierce eyes."},
+        {"zh": "缓慢蠕动，发出轻微叫声。", "en": "Crawling slowly, croaking softly."},
+        {"zh": "在阴影中蠕动前行。", "en": "Moving in shadows."},
+        {"zh": "寻找食物，发出嘶嘶声。", "en": "Searching for food, sssssing."},
+        {"zh": "缓缓爬行，警惕敌人的动静。", "en": "Crawling slowly, listening for threats."},
+        {"zh": "我沿着断墙走，不敢走大路。", "en": "I follow the broken walls, never the open road."},
+        {"zh": "每一步都踩实了才落脚。", "en": "I set each foot down only after testing it."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静地伏在地上。", "en": "Lying quietly on the ground."},
+        {"zh": "懒散地晒着太阳。", "en": "Lazily basking in the sun."},
+        {"zh": "在阴影中静止不动。", "en": "Staying still in the shade."},
+        {"zh": "静静地躺在废墟中。", "en": "Lying still in ruins."},
+        {"zh": "静静凝视着远方。", "en": "Staring into the distance."},
+        {"zh": "安静地等待猎物。", "en": "Waiting quietly for prey."},
+        {"zh": "我蹲在玻璃碴后面不动。", "en": "I crouch still behind the broken glass."},
+        {"zh": "在阴暗处静静躺卧。", "en": "Lying quietly in the dark."},
+        {"zh": "静静地等待同伴。", "en": "Waiting quietly for companions."},
+        {"zh": "静静地蜷缩在角落。", "en": "Curling quietly into a corner."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "注视着你，眼神冰冷。", "en": "Staring at you, cold eyes."},
+        {"zh": "盯着你看，似乎有话要说。", "en": "Staring at you, with something to say."},
+        {"zh": "紧紧盯着你，准备攻击。", "en": "Fixing you in sight, ready to attack."},
+        {"zh": "盯着你，仿佛要吃了你。", "en": "Staring at you, like you're prey."},
+        {"zh": "盯着你看，寻找弱点。", "en": "Staring at you, searching for weaknesses."},
+        {"zh": "用空洞眼神盯着你。", "en": "Staring at you with hollow eyes."},
+        {"zh": "盯着你，等待机会。", "en": "Staring at you, waiting for an opportunity."},
+        {"zh": "盯着你看，试图吓退你。", "en": "Staring at you, trying to scare you off."},
+        {"zh": "盯着你，准备战斗。", "en": "Staring at you, ready to fight."},
+        {"zh": "盯着你看，仿佛能读心。", "en": "Staring at you, like it can read minds."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哎哟，被咬了！", "en": "Ouch, bitten!"},
+        {"zh": "我的胳膊！", "en": "My arm!"},
+        {"zh": "腿上受伤了。", "en": "Leg injury."},
+        {"zh": "绷带快用完了。", "en": "I'm almost out of bandages."},
+        {"zh": "布条不够了，血还在渗。", "en": "The cloth strips are gone and I'm still bleeding."},
+        {"zh": "身上有伤。", "en": "Got a wound."},
+        {"zh": "别抓我，好痛！", "en": "Stop, it hurts!"},
+        {"zh": "求求你别再打我。", "en": "Please, stop hitting me!"},
+        {"zh": "伤得很重。", "en": "Serious injury."},
+        {"zh": "需要医疗。", "en": "Needs medical."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你会用火把吓唬我吗？", "en": "Will you scare me with a torch?"},
+        {"zh": "我饿了，想吃肉。", "en": "I'm hungry, want meat."},
+        {"zh": "你身上有面包吗？", "en": "Do you have bread?"},
+        {"zh": "你手里的肉，再近一步试试。", "en": "That meat in your hand—one step closer, I dare you."},
+        {"zh": "给我点吃的，你不会吃亏。", "en": "Give me food, you won't lose out."},
+        {"zh": "我不会攻击你的，但别逼我。", "en": "I won't attack you, but don't逼 me."},
+        {"zh": "我需要火把，用来照亮。", "en": "I need a torch, for light."},
+        {"zh": "你可以给我点金块吗？", "en": "Can you give me some gold?"},
+        {"zh": "我找到了食物，和你分享。", "en": "I found food, to share with you."},
+        {"zh": "别怕，我只是个幸存者。", "en": "Don't be afraid, I'm just a survivor."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我们撞上了，你怎么看？", "en": "We collided, what do you think?"},
+        {"zh": "我撞到你了，很抱歉。", "en": "I bumped into you, sorry."},
+        {"zh": "你撞到我的伤腿了。", "en": "You bumped my bad leg."},
+        {"zh": "你撞倒我了，生气吗？", "en": "You knocked me over, mad?"},
+        {"zh": "别撞我，我有点吓人。", "en": "Don't bump into me, I'm a bit scary."},
+        {"zh": "你撞上我了，感觉如何？", "en": "You bumped into me, how does that feel?"},
+        {"zh": "我撞到你了，想道歉。", "en": "I bumped into you, sorry."},
+        {"zh": "小心，我有点笨拙。", "en": "Be careful, I'm a bit clumsy."},
+        {"zh": "我不小心撞上了，求原谅。", "en": "I accidentally bumped, forgive me."},
+        {"zh": "我们撞到了一起，现在怎么办？", "en": "We collided, now what?"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "末日后，我想有个人守夜。", "en": "After the end, I want someone to share the watch."},
+        {"zh": "我一个人守了三个冬天。", "en": "I've held out three winters alone."},
+        {"zh": "找个伴侣，可以活下去。", "en": "Find a mate, survive."},
+        {"zh": "一个人守了三个冬天，够了。", "en": "Three winters alone is enough."},
+        {"zh": "你是我的唯一希望。", "en": "You're my only hope."},
+        {"zh": "这世道，还想留下后代？", "en": "In this world, you still want children?"},
+        {"zh": "末日后，我只想有个人说话。", "en": "After the end, I just want someone to talk to."},
+        {"zh": "我们需要繁殖，求生存。", "en": "We need to reproduce to survive."},
+        {"zh": "和我交配，我们能活下去。", "en": "Mate with me, we can survive."},
+        {"zh": "分你半块面包，换你留下。", "en": "Half my bread, if you stay."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "啃一口腐烂的肉吧。", "en": "Take a bite of the rotten flesh."},
+        {"zh": "帮我抬开这块水泥板。", "en": "Help me lift this concrete slab."},
+        {"zh": "别动，那是我的食物。", "en": "Don't move, that's my food."},
+        {"zh": "你看起来可以当我的同伴。", "en": "You look like a good companion."},
+        {"zh": "这里太危险，跟我走。", "en": "It's too dangerous here, follow me."},
+        {"zh": "小心，有敌人！", "en": "Watch out, there's an enemy!"},
+        {"zh": "给我点吃的！", "en": "Give me something to eat!"},
+        {"zh": "这栋楼的楼梯口归我守。", "en": "I hold the stairwell of this building."},
+        {"zh": "你闻到了吗？血腥味。", "en": "You smell it, the scent of blood."},
+        {"zh": "带上我，我可以帮你。", "en": "Take me, I can help you."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "看到了吗？我的猎物。", "en": "See that? My prey."},
+        {"zh": "食物和水，交出来。", "en": "Hand over your food and water."},
+        {"zh": "你鞋底的声音我记住了。", "en": "I've memorized the sound of your soles."},
+        {"zh": "你把背包带子勒紧了，我看见了。", "en": "I saw you tighten your pack strap."},
+        {"zh": "你腿上的伤拖慢你了。", "en": "That leg wound is slowing you down."},
+        {"zh": "你拿走了我的水，我记着。", "en": "You took my water; I remember."},
+        {"zh": "你在这儿等我。", "en": "You wait here for me."},
+        {"zh": "我会追上你的。", "en": "I'll catch up with you."},
+        {"zh": "别让我再找到你。", "en": "Don't let me find you again."},
+        {"zh": "你闻起来像刚死不久。", "en": "You smell recently dead."},
+        {"zh": "站住，先让我看清你的脸。", "en": "Stop. Let me see your face first."},
+        {"zh": "你是人还是它们？", "en": "Are you human, or one of them?"},
+        {"zh": "我的手在抖，别逼我。", "en": "My hands are shaking. Do not push me."},
+        {"zh": "这片废墟是我先占的。", "en": "I claimed these ruins first."},
+        {"zh": "你身后有东西跟着吗？", "en": "Is something following you?"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你要被我吃掉。", "en": "You're going to be eaten."},
+        {"zh": "我撑不住了，你也别想走。", "en": "I'm done for — and you won't leave either."},
+        {"zh": "你逃不了了。", "en": "You can't escape now."},
+        {"zh": "你们都是我圈里的。", "en": "All of you are in my pen."},
+        {"zh": "背包留下，人往后退。", "en": "Leave the pack, back away."},
+        {"zh": "末日里，我盯上你的背包。", "en": "In this wasteland, I've got my eye on your pack."},
+        {"zh": "我记住你背包的颜色了。", "en": "I remember the color of your pack."},
+        {"zh": "你背后是塌掉的墙。", "en": "Behind you is a collapsed wall."},
+        {"zh": "我不会让你活着。", "en": "I won't let you live."},
+        {"zh": "我先动手，你别怪我。", "en": "I strike first. Do not blame me."},
+        {"zh": "只剩半块面包，谁也别抢。", "en": "Half a loaf left. Nobody takes it."},
+        {"zh": "别靠近我的背包。", "en": "Stay away from my pack."},
+        {"zh": "我数三下，你就退后。", "en": "I count to three and you step back."},
+        {"zh": "我不敢睡，也不能输。", "en": "I dare not sleep, and I cannot lose."},
+        {"zh": "你的水壶，我想要。", "en": "I want your water flask."},
+        {"zh": "活着比讲道理重要。", "en": "Living matters more than reasoning."},
+        {"zh": "这刀口是我磨出来的。", "en": "I sharpened this blade myself."},
+        {"zh": "别靠太近，我的伤口在渗血。", "en": "Stay back; my wound is still seeping."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，靠近我，就死定了！", "en": "Sssss, come closer, and you're done!"},
+        {"zh": "我咬人，是饿得太久了。", "en": "I bite because I've been hungry too long."},
+        {"zh": "别喘了，省点力气。", "en": "Stop panting; save your breath."},
+        {"zh": "吃我一嘴牙！", "en": "Get bitten!"},
+        {"zh": "咬破你的皮肉！", "en": "Rip your flesh!"},
+        {"zh": "别缩脖子，我咬得准。", "en": "Don't duck your neck; I bite true."},
+        {"zh": "牙磨了三天，就等这一口。", "en": "I ground my teeth for three days for this bite."},
+        {"zh": "我咬人，是因为先被咬过。", "en": "I bite because I was bitten first."},
+        {"zh": "别抢，这是我的口粮。", "en": "Hands off. That's my ration."},
+        {"zh": "来吧，送你上路！", "en": "Here, take this to the grave!"},
+        {"zh": "滚开，我只要物资！", "en": "Get away. I only want supplies!"},
+        {"zh": "这一刀是自保！", "en": "This cut is self-defense!"},
+        {"zh": "别逼我下死手！", "en": "Do not make me kill you!"},
+        {"zh": "我打过比你还凶的！", "en": "I have fought worse than you!"},
+        {"zh": "你的血会引来尸群！", "en": "Your blood will draw the horde!"},
+        {"zh": "打完就散，别追我！", "en": "We break off after this. Do not chase me!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥渴难耐，找吃的！", "en": "Hunger drives me to find food!"},
+        {"zh": "猎物在哪儿？！", "en": "Where's the prey?"},
+        {"zh": "周围有人类！", "en": "Humans around!"},
+        {"zh": "饿到不行，快找食物！", "en": "Starving, find food fast!"},
+        {"zh": "必须得补充能量！", "en": "Need to feed!"},
+        {"zh": "寻找食物，活下去！", "en": "Search for food, survive!"},
+        {"zh": "找点东西吃！", "en": "Find something to eat!"},
+        {"zh": "附近有人类活动！", "en": "Humans nearby!"},
+        {"zh": "找点东西吃，补充能量！", "en": "Find something to eat, regain strength!"},
+        {"zh": "找到食物，才能生存！", "en": "Find food to survive!"},
+        {"zh": "我在这堆瓦砾里躲了三天。", "en": "I hid in this rubble for three days."},
+        {"zh": "城里还剩我一个活人吗？", "en": "Am I the last living soul in this city?"},
+        {"zh": "火还烧着，说明有人。", "en": "The fire still burns, so someone is here."},
+        {"zh": "我从尸群边上摸了回来。", "en": "I slipped back past the horde."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "袖子烧起来，我在地上滚。", "en": "My sleeve catches fire and I roll on the ground."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从瓦砾堆上滚了下来。", "en": "I rolled down a heap of rubble."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "污水灌进喉咙，我抓不住岸。", "en": "Foul water fills my throat; I can't grip the bank."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把耳膜震得嗡嗡响。", "en": "The blast left my ears ringing."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被弹药击中。", "en": "Hit by projectile."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股紫光钻进了我的骨头。", "en": "That violet light crawled into my bones."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "包里只剩半块饼干了。", "en": "Half a biscuit left in my bag."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打下来，我抱着补给。", "en": "Lightning struck; I clutched my supplies."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空中。", "en": "Fell into the void."}
+      ]
+    }
+  }
+}

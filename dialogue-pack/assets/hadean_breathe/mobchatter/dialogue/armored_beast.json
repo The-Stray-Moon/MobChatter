@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "覆甲恶兽重步走来", "en": "The Armored Beast comes on in heavy strides."},
+        {"zh": "它的甲片互相摩擦作响", "en": "Its plates grind against one another."},
+        {"zh": "每走一步地面都微颤", "en": "The ground quivers at each step."},
+        {"zh": "它把头压低，肩背拱起", "en": "Its head stays low, shoulders hunched."},
+        {"zh": "它绕着你走，脚步不停", "en": "It circles you without stopping."},
+        {"zh": "它的尾巴在身后摆着", "en": "Its tail swings behind."},
+        {"zh": "它的爪子把土抓得翻开", "en": "Its claws turn up the soil."},
+        {"zh": "它忽然加速，又慢下来", "en": "It surges, then eases."},
+        {"zh": "它的呼吸在甲缝里出来", "en": "Its breath escapes through the plates."},
+        {"zh": "它走到离你不远才停", "en": "It stops only when close."},
+        {"zh": "它侧过身，甲片全亮出来", "en": "It turns broadside, all plates showing."},
+        {"zh": "它一步跨到你侧面", "en": "One stride takes it to your flank."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "覆甲恶兽站着，一动不动", "en": "The Armored Beast stands without moving."},
+        {"zh": "它的甲片一开一合", "en": "Its plates open and close."},
+        {"zh": "缝里透出一点暗红", "en": "A dull red shows between them."},
+        {"zh": "它把重心慢慢换了边", "en": "It shifts its weight across."},
+        {"zh": "它的喉咙里滚着声音", "en": "A sound rolls in its throat."},
+        {"zh": "它的爪子在地上按了按", "en": "Its claws press the ground."},
+        {"zh": "它的头偏了一下", "en": "Its head cocks."},
+        {"zh": "甲片上的旧划痕很多", "en": "Old scores cover its plates."},
+        {"zh": "它把身体抖了一下", "en": "It shakes its body."},
+        {"zh": "甲片相撞，响成一片", "en": "Plates clatter against each other."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "覆甲恶兽抬头看你", "en": "The Armored Beast raises its head at you."},
+        {"zh": "它的眼睛在甲缝后面", "en": "Its eyes sit behind the plate gaps."},
+        {"zh": "甲片全张，我把你量了一遍。", "en": "Plates flared; I measured you head to foot."},
+        {"zh": "它往前一步，甲片全张", "en": "It steps in, plates flaring."},
+        {"zh": "它抬起一只爪子", "en": "It lifts a claw."},
+        {"zh": "然后慢慢放下", "en": "And lowers it slowly."},
+        {"zh": "它的呼吸变沉了", "en": "Its breathing deepens."},
+        {"zh": "它似乎在称你的份量", "en": "It seems to weigh you."},
+        {"zh": "它退开半步，仍正对你", "en": "It backs half a step, still facing you."},
+        {"zh": "它的头抬得更高", "en": "Its head rises higher."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "覆甲恶兽晃了一下，退了半步", "en": "The Armored Beast sways and gives half a step."},
+        {"zh": "甲片上多了一道白痕", "en": "A pale line shows on a plate."},
+        {"zh": "它的呼吸乱了一拍", "en": "Its breathing stumbles a beat."},
+        {"zh": "它用爪子按了按受伤处", "en": "A claw presses the wound."},
+        {"zh": "它的吼声低了一层", "en": "Its roar drops a register."},
+        {"zh": "它把重心重新压低", "en": "It resets its weight low."},
+        {"zh": "它的甲片开合得更快", "en": "Its plates snap open and shut faster."},
+        {"zh": "它低头看了一眼，又抬头", "en": "It glances down, then up."},
+        {"zh": "它退了半步，仍不退远", "en": "It gives half a step, and no more."},
+        {"zh": "它的眼睛仍锁着你", "en": "Its eyes stay locked on you."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "覆甲恶兽看了一眼你手上的东西", "en": "The Armored Beast glances at what you hold."},
+        {"zh": "它伸出爪子探了探", "en": "A claw probes at it."},
+        {"zh": "它把东西按在地上", "en": "It pins the item to the ground."},
+        {"zh": "它低头闻了闻", "en": "It sniffs it."},
+        {"zh": "它对食物并不急", "en": "Food does not hurry it."},
+        {"zh": "它把东西拨到你脚边", "en": "It nudges the item back to your feet."},
+        {"zh": "它没有吃，只是守着", "en": "It does not eat; it just guards it."},
+        {"zh": "它把头抬起来", "en": "It raises its head."},
+        {"zh": "它对你能给什么没兴趣", "en": "What you can offer does not interest it."},
+        {"zh": "它转向你，等你让开", "en": "It turns to you, waiting for you to move."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上它，像撞一排铁片", "en": "You hit it like a row of iron plates."},
+        {"zh": "它纹丝不动", "en": "It does not shift."},
+        {"zh": "它抬爪把你拨开半步", "en": "A claw moves you back half a step."},
+        {"zh": "它的甲片在你手上刮了一下", "en": "A plate edge scrapes your hand."},
+        {"zh": "它低头看你有没有摔", "en": "It looks down to see if you fell."},
+        {"zh": "它侧身让了让", "en": "It angles slightly aside."},
+        {"zh": "它的尾巴扫过你的腿", "en": "Its tail sweeps your leg."},
+        {"zh": "地面被它踩得陷下去", "en": "The ground dips under it."},
+        {"zh": "它站稳，重心压低", "en": "It settles, weight low."},
+        {"zh": "它没有因此发怒", "en": "It takes no offence."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "两只巨兽并肩站着", "en": "Two beasts stand abreast."},
+        {"zh": "它们的甲片同时张开", "en": "Their plates flare at once."},
+        {"zh": "缝里的暗红连成一片", "en": "The dull red joins between them."},
+        {"zh": "它们互相撞了下肩甲", "en": "They knock shoulder plates."},
+        {"zh": "声音在四周回荡", "en": "The sound rolls around."},
+        {"zh": "它们的呼吸渐渐同步", "en": "Their breathing syncs."},
+        {"zh": "它们把头抵在一起", "en": "They press their heads together."},
+        {"zh": "甲片慢慢合回去", "en": "The plates fold shut."},
+        {"zh": "它们背对背站着", "en": "They stand back to back."},
+        {"zh": "各守一个方向", "en": "Each guarding a side."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "覆甲恶兽用爪子拾起东西", "en": "The Armored Beast picks the item up with a claw."},
+        {"zh": "它把东西举到甲缝前", "en": "It holds it before a plate gap."},
+        {"zh": "它转了两下，收进甲下", "en": "It turns it twice and stows it under the plates."},
+        {"zh": "它把不合用的丢开", "en": "What it cannot use, it casts away."},
+        {"zh": "它拾起时腰几乎没弯", "en": "It barely bends to take it."},
+        {"zh": "它把东西压在爪下", "en": "It pins the item under a claw."},
+        {"zh": "它把几样东西码在一起", "en": "It stacks several items together."},
+        {"zh": "它看了一眼就收好", "en": "One look and it is stowed."},
+        {"zh": "它的动作沉，却没有多余", "en": "Heavy motion, nothing wasted."},
+        {"zh": "收好后它重新站直", "en": "Done, it straightens again."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "覆甲恶兽的甲片全张开了", "en": "Every plate flares open."},
+        {"zh": "缝里的暗红一下变亮", "en": "The dull red brightens."},
+        {"zh": "它把身体压得很低", "en": "It drops its body low."},
+        {"zh": "它的喉咙里滚出一声吼", "en": "A roar rolls in its throat."},
+        {"zh": "地面被它踏出裂纹", "en": "Its stamp cracks the ground."},
+        {"zh": "它开始朝你逼近", "en": "It starts closing in."},
+        {"zh": "它的爪子全部张开", "en": "Its claws spread wide."},
+        {"zh": "它的尾巴绷成一条", "en": "Its tail goes rigid."},
+        {"zh": "它的呼吸变成短促的喷气", "en": "Its breathing turns to short blasts."},
+        {"zh": "它把你锁在正中", "en": "It locks you dead centre."},
+        {"zh": "它的甲片又一次张开", "en": "Its plates flare again."},
+        {"zh": "它随时会扑", "en": "It could spring at any moment."},
+        {"zh": "它忽然直立起来", "en": "It rears up suddenly."},
+        {"zh": "那一吼把尘土掀开", "en": "That roar blows the dust outward."},
+        {"zh": "它的影子把你压住", "en": "Its shadow presses on you."},
+        {"zh": "它已经开始冲刺", "en": "It has already begun to charge."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "覆甲恶兽在你周围绕圈", "en": "The Armored Beast circles you."},
+        {"zh": "它的脚步越来越快", "en": "Its steps quicken."},
+        {"zh": "它试着从侧面切入", "en": "It probes at your flank."},
+        {"zh": "它的甲片一直张着", "en": "Its plates stay open."},
+        {"zh": "它忽然停步，喷出一声", "en": "It stops and blasts out a note."},
+        {"zh": "它在等你先退", "en": "It waits for you to give ground."},
+        {"zh": "它把身体压低再压低", "en": "It sinks lower and lower."},
+        {"zh": "它的爪子在地上刨出沟", "en": "Its claws dig furrows."},
+        {"zh": "它的尾巴一下一下地拍", "en": "Its tail beats the ground."},
+        {"zh": "它找到了冲锋的直线", "en": "It has found its charge line."},
+        {"zh": "它开始助跑", "en": "It starts its run-up."},
+        {"zh": "这次它不再停下", "en": "This time it will not stop."},
+        {"zh": "它的甲片全部锁死", "en": "Its plates lock tight."},
+        {"zh": "它吼了一声，压过来", "en": "It roars and bears down."},
+        {"zh": "地面在它脚下发抖", "en": "The ground shakes under it."},
+        {"zh": "它的速度比看起来快", "en": "It is faster than it looks."},
+        {"zh": "它已经近到能碰到你", "en": "It is close enough to reach you."},
+        {"zh": "它把整个身体甩过来", "en": "It throws its whole weight across."},
+        {"zh": "它把肩上的甲片撑开", "en": "It lifts the plates on its shoulders."},
+        {"zh": "它的头随你的动作转", "en": "Its head turns with your movement."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "覆甲恶兽一爪拍下", "en": "The Armored Beast slams a claw down."},
+        {"zh": "它用肩甲撞你的胸口", "en": "A shoulder plate rams your chest."},
+        {"zh": "它低头一顶，把你推退", "en": "It drives its head in and pushes you back."},
+        {"zh": "它的尾巴抽在你腰上", "en": "Its tail lashes your waist."},
+        {"zh": "它咬住你的护甲撕扯", "en": "It bites your armour and wrenches."},
+        {"zh": "它跃起扑下，双爪先到", "en": "It leaps and comes down claws first."},
+        {"zh": "它的甲片在你手臂上刮过", "en": "Its plates rake your arm."},
+        {"zh": "它一吼，把你震得退步", "en": "A roar drives you back a step."},
+        {"zh": "它抓空后立刻转身", "en": "The miss turns into a spin."},
+        {"zh": "它用整个体重压过来", "en": "It comes down with all its weight."},
+        {"zh": "它踏地一下，你站不稳", "en": "Its stomp costs you your footing."},
+        {"zh": "它的爪子在地面划出深痕", "en": "Its claws score deep lines."},
+        {"zh": "它退开半步，重新张开甲", "en": "It backs half a step, plates opening."},
+        {"zh": "它的呼吸粗重，眼睛没离开", "en": "Breathing hard, it never looks away."},
+        {"zh": "它用甲缘削过你的手臂", "en": "A plate edge shears past your arm."},
+        {"zh": "它抬爪踩向你的脚", "en": "A claw stamps at your foot."},
+        {"zh": "它把你逼到石壁前", "en": "It drives you back against the stone."},
+        {"zh": "它一甩头，把你扫开", "en": "A toss of its head sweeps you aside."},
+        {"zh": "它退开，甲片慢慢合上", "en": "It withdraws, plates closing."},
+        {"zh": "它的吼声在你耳边炸开", "en": "Its roar bursts beside your ear."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的甲缝里漏出热气，先震一下。", "en": "Heat leaks from my seams; the ground shudders."},
+        {"zh": "覆甲恶兽从尘里走出来", "en": "The Armored Beast walks out of the dust."},
+        {"zh": "它的甲片一片片张开", "en": "Its plates flare open one by one."},
+        {"zh": "缝里的暗红亮了", "en": "The dull red between them glows."},
+        {"zh": "它抬头看了这边一眼", "en": "It lifts its head and looks this way."},
+        {"zh": "它把颈上的土抖落", "en": "It shakes the dirt off its neck."},
+        {"zh": "甲片响得刺耳", "en": "The plates clatter harshly."},
+        {"zh": "它朝你的方向迈了一步", "en": "It takes one step your way."},
+        {"zh": "它的脚步落得很沉", "en": "Its footfall lands heavily."},
+        {"zh": "它停住，正面对着你", "en": "It stops, square to you."},
+        {"zh": "它吼了一声", "en": "It roars."},
+        {"zh": "四周的土被震得落下", "en": "Loose soil falls from the sides."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "甲片被烧得发烫，它甩身退开", "en": "Its plates heat and it shies away."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "落地时它一膝磕进土里", "en": "It lands and a knee drives into the soil."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水淹过甲缝，它奋力上顶", "en": "Water reaches its seams; it drives upward."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把它推得滑退数格", "en": "The blast slides it back several blocks."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭在甲面上弹开，只留一点白", "en": "An arrow rings off a plate, leaving a pale spot."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "怪力钻进甲缝，它闷吼", "en": "Odd force slips between plates; it growls."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿着打，它的动作慢了半拍", "en": "Fighting hungry, its timing slips."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击顺着甲片走，火花四溅", "en": "Lightning crawls the plates, throwing sparks."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空拽它，爪子抓进土里", "en": "The void pulls; its claws dig in."}
+      ]
+    }
+  }
+}

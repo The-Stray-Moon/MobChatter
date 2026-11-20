@@ -1,0 +1,261 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "扑通一声跃入水中", "en": "Thud, dives into water"},
+        {"zh": "尾巴一摆，缓缓前行", "en": "Tail sways, moves slowly"},
+        {"zh": "水面荡起一圈圈涟漪", "en": "Water ripples around it"},
+        {"zh": "身体扭动，快速游泳", "en": "Body twists, swims fast"},
+        {"zh": "沿着湖边悠闲游动", "en": "Swims leisurely along the shore"},
+        {"zh": "在水草间缓慢滑行", "en": "Slides slowly among water plants"},
+        {"zh": "尾巴甩动，激起水花", "en": "Tail swishes, splashes water"},
+        {"zh": "跃出水面，探头观察", "en": "Jumps out, pokes head around"},
+        {"zh": "潜入水中，避开玩家", "en": "Dives underwater, avoids player"},
+        {"zh": "游向岸边寻找食物", "en": "Swims toward shore for food"},
+        {"zh": "摆尾穿过水草丛", "en": "A tail flick carries me through the weeds."},
+        {"zh": "四只短腿扒着河底泥", "en": "Four short legs drag along the riverbed."},
+        {"zh": "露出水面换一口气", "en": "I surface to take a breath."},
+        {"zh": "顺着水流慢悠悠漂", "en": "I drift along with the current."},
+        {"zh": "在浅滩上扭动身体", "en": "I squirm across the shallows."},
+        {"zh": "钻进芦苇间不见了", "en": "I slip into the reeds and vanish."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静浮在水面", "en": "Floats on the surface"},
+        {"zh": "偶尔摆动尾巴", "en": "Tails sways occasionally"},
+        {"zh": "双眼环视四周", "en": "Eyes scan the area"},
+        {"zh": "一动不动，静待时机", "en": "Stays still, waiting for prey"},
+        {"zh": "我趴在岸边，等太阳把我晒暖。", "en": "I lie on the bank until the sun warms me."},
+        {"zh": "用嘴轻触水面", "en": "Gently touches water with mouth"},
+        {"zh": "偶尔吞咽一口水", "en": "Occasionally gulps some water"},
+        {"zh": "我趴在泥底，鳃盖轻轻开合。", "en": "On the muddy bottom, my gill covers open and close."},
+        {"zh": "享受夏日的宁静", "en": "Enjoys the summer calm"},
+        {"zh": "泥水里只露出我的眼睛。", "en": "Only my eyes show above the muddy water."},
+        {"zh": "把身体埋进湿泥里", "en": "I bury my body in wet mud."},
+        {"zh": "气泡从嘴边冒上来", "en": "Bubbles rise from my mouth."},
+        {"zh": "我浮在苇根间，像一段烂木。", "en": "I float among reed roots like a rotten log."},
+        {"zh": "被水波推得轻轻摇晃", "en": "The ripples rock me gently."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发现玩家，眼神闪烁", "en": "Notices player, eyes flicker"},
+        {"zh": "我头上这两根，是鳍。", "en": "These two on my head are fins."},
+        {"zh": "两栖的身子，水里才轻快。", "en": "This amphibian body is easy only in water."},
+        {"zh": "靠近玩家，准备跳跃", "en": "Approaches player, ready to leap"},
+        {"zh": "我在桶里紧张地看你，尾巴直抖。", "en": "From my bucket I watch you nervously, tail twitching."},
+        {"zh": "游到玩家附近试探", "en": "Swims close to player to探试"},
+        {"zh": "警惕玩家，准备逃跑", "en": "Alert to player, ready to flee"},
+        {"zh": "游向玩家，准备进食", "en": "Swims toward player, ready to feed"},
+        {"zh": "我的头像一把回旋镖。", "en": "My head is shaped like a boomerang."},
+        {"zh": "游向玩家，准备互动", "en": "Swims toward player, ready to interact"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我感觉自己快不行了...", "en": "I feel weak..."},
+        {"zh": "我的身体开始疼痛...", "en": "My body is in pain..."},
+        {"zh": "我不知道还能坚持多久...", "en": "I don't know how long I can hold on..."},
+        {"zh": "我的鳞片受伤了...", "en": "My scales are hurt..."},
+        {"zh": "离水太久，我的四肢发软。", "en": "Away from water too long, my limbs go limp."},
+        {"zh": "请救救我...", "en": "Help me..."},
+        {"zh": "我受了伤，需要帮助...", "en": "I'm injured, help me..."},
+        {"zh": "我的生命在流逝...", "en": "My life is fading..."},
+        {"zh": "我的皮肤干裂，得回水里去。", "en": "My skin is cracking; I must get back to water."},
+        {"zh": "请不要让我死...", "en": "Don't let me die..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "湿润的角落诱惑着我,", "en": "The damp corner tempts me."},
+        {"zh": "我在这里寻找柔软的泥土,", "en": "I seek soft soil here."},
+        {"zh": "用泥巴包裹我的身体,", "en": "Wrap myself in mud."},
+        {"zh": "湿润的环境最适合我,", "en": "Mud is where I thrive."},
+        {"zh": "泥水中寻找食物更安全,", "en": "Safety in mud for food."},
+        {"zh": "用舌头捕捉水中的小虫,", "en": "Tongue for small bugs."},
+        {"zh": "潮湿的角落是我安家的好地方,", "en": "Damp spots are my home."},
+        {"zh": "在泥水中享受自由游动,", "en": "Freedom in mud swims."},
+        {"zh": "湿润的环境激发我的活力,", "en": "Mud revives me."},
+        {"zh": "这里充满了生机与活力,", "en": "Life thrives here."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "岩石阻挡了我的路,", "en": "Rock blocks my path."},
+        {"zh": "我不停地撞击岩石,", "en": "Collide with rocks."},
+        {"zh": "坚硬的石头让我退缩,", "en": "Hard stones deter me."},
+        {"zh": "用头部撞击障碍物,", "en": "Headbutt obstacles."},
+        {"zh": "岩石阻碍了我前进的路,", "en": "Rocks block my way."},
+        {"zh": "撞击使我的鳞片更亮,", "en": "Collisions brighten scales."},
+        {"zh": "撞击石头发出回声,", "en": "Echos from collisions."},
+        {"zh": "硬石阻挡了我前进的路,", "en": "Hard rocks block progress."},
+        {"zh": "岩石让我改变方向,", "en": "Rocks change my path."},
+        {"zh": "我用身体撞击坚硬的石头,", "en": "Body against hard rocks."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "寻找同类产卵,", "en": "Seeking mates to spawn."},
+        {"zh": "寻找伴侣繁衍后代,", "en": "Find partners for young."},
+        {"zh": "我在这里寻找配偶,", "en": "I seek a mate here."},
+        {"zh": "产卵需要合适的伴侣,", "en": "Spawning needs a mate."},
+        {"zh": "产卵时需要伴侣的陪伴,", "en": "Mate needed for spawning."},
+        {"zh": "寻找适合产卵的伴侣,", "en": "Seeking a spawning mate."},
+        {"zh": "产卵需要合适的环境,", "en": "Spawning needs the right place."},
+        {"zh": "找到伴侣才能完成任务,", "en": "Mate needed for completion."},
+        {"zh": "产卵需要伴侣的帮助,", "en": "Mate needed for spawning."},
+        {"zh": "伴侣帮助完成产卵任务,", "en": "Mate helps with spawning."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出微弱的光芒后，它消失了。", "en": "It emits a weak light before vanishing."},
+        {"zh": "我捉住了它，桶里多了一只。", "en": "I caught it; one more in the bucket."},
+        {"zh": "它似乎很惊讶被捕捉。", "en": "It seems surprised to be caught."},
+        {"zh": "这种史前生物并不常见。", "en": "This prehistoric creature is rare."},
+        {"zh": "它在桶里安静下来了。", "en": "It calms down in the bucket."},
+        {"zh": "我必须小心处理它。", "en": "I need to handle it carefully."},
+        {"zh": "我得给它找个合适的地方。", "en": "I need to find it a proper place."},
+        {"zh": "它的皮肤摸起来滑滑的。", "en": "Its skin feels slippery."},
+        {"zh": "我得小心，别让桶翻了。", "en": "Be careful not to spill the bucket."},
+        {"zh": "这种生物非常稀有。", "en": "This creature is very rare."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水面起了波纹，我伏低身子。", "en": "Ripples spread; I flatten myself low."},
+        {"zh": "我这副扁头，正好贴着水底走。", "en": "My flat head skims the riverbed."},
+        {"zh": "它正靠近水面。", "en": "It's approaching the surface."},
+        {"zh": "我已经找到了它。", "en": "I've found it."},
+        {"zh": "我头两侧的鳍，让我沉得稳。", "en": "The fins on my head keep me steady underwater."},
+        {"zh": "它的动作很缓慢。", "en": "It moves slowly."},
+        {"zh": "我得调整我的位置。", "en": "I need to adjust my position."},
+        {"zh": "我必须小心不要惊扰它。", "en": "Be careful not to alarm it."},
+        {"zh": "我把自己埋进河泥，等你踩。", "en": "I bury myself in river mud and wait."},
+        {"zh": "我一摆尾，朝那个方向。", "en": "One flick of the tail, toward it."},
+        {"zh": "那只小虫落水了，归我", "en": "That insect fell in. Mine."},
+        {"zh": "水面有动静，过去看看", "en": "Something moves on the surface. I'll look."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它似乎害怕我。", "en": "It seems afraid of me."},
+        {"zh": "它在远处游动", "en": "It's swimming far away"},
+        {"zh": "我必须靠近一些。", "en": "I need to get closer."},
+        {"zh": "它开始躲避我。", "en": "It's starting to evade."},
+        {"zh": "它在水下潜行。", "en": "It's swimming underwater."},
+        {"zh": "我必须等待它出现。", "en": "I need to wait for it to appear."},
+        {"zh": "它看起来很警惕。", "en": "It seems very alert."},
+        {"zh": "它游向了另一个地方。", "en": "It's swimming to another place."},
+        {"zh": "我得追踪它的行踪。", "en": "I need to follow its trail."},
+        {"zh": "它正在慢慢靠近。", "en": "It's slowly approaching."},
+        {"zh": "压低身体，悄悄靠近", "en": "I flatten low and close in quietly."},
+        {"zh": "它还在水边，别惊动", "en": "It's still at the bank. Don't startle it."},
+        {"zh": "张开嘴，等它游近", "en": "Mouth open, I wait for it to swim close."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我张开宽嘴，咬住你的靴边。", "en": "I open my wide mouth and clamp your boot."},
+        {"zh": "快躲开，触手攻击！", "en": "Get away! Tentacle attack!"},
+        {"zh": "碰！触手缠绕！", "en": "Bam! Tentacle wrap!"},
+        {"zh": "抓紧我，品尝我的肉！", "en": "Hug me! Taste my flesh!"},
+        {"zh": "我的触手很危险！", "en": "My tentacles are dangerous!"},
+        {"zh": "嘶！尝尝我的毒液！", "en": "Sss! Try my venom!"},
+        {"zh": "用触手抓住你！", "en": "Grab you with tentacles!"},
+        {"zh": "嘶嘶！来尝尝我！", "en": "Sss! Come taste me!"},
+        {"zh": "触手攻击，小心！", "en": "Tentacle attack! Watch out!"},
+        {"zh": "我的触手，你的噩梦！", "en": "My tentacles, your nightmare!"},
+        {"zh": "我叼住不放，尾巴拍起泥水。", "en": "I clamp on and thrash, my tail splashing mud."},
+        {"zh": "用头骨般的脑袋顶过去", "en": "I butt with my boomerang-shaped skull."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙石中孵化而出！", "en": "Hatch from sand!"},
+        {"zh": "岩石缝隙中钻出！", "en": "Crawl out of rocks!"},
+        {"zh": "水潭边孵化成功！", "en": "Successfully hatched by the pond!"},
+        {"zh": "岩层中慢慢苏醒！", "en": "Awake from the rock!"},
+        {"zh": "破壳而出，踏上征程！", "en": "Hatchling, start your journey!"},
+        {"zh": "从化石中重生！", "en": "Reborn from fossils!"},
+        {"zh": "洞穴深处的孵化地！", "en": "Hatch in the cave!"},
+        {"zh": "岩浆中孵化，好险！", "en": "Hatch in lava, what a risk!"},
+        {"zh": "沙地中的孵化场所！", "en": "Hatch in the sand!"},
+        {"zh": "岩壁上，孵化之地！", "en": "Hatch on the rock wall!"},
+        {"zh": "从卵里钻出，游进水塘", "en": "Out of the egg, straight into the pond."},
+        {"zh": "淤泥翻动，我爬了出来", "en": "The silt stirs and I crawl out."},
+        {"zh": "桶一倒，我滑进水里", "en": "The bucket tips and I slide into the water."},
+        {"zh": "雨季的河湾多了一只", "en": "One more in the river bend this rainy season."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烤干我的黏液，我拼命往水里爬。", "en": "Flame dries my slime; I claw my way back to water."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "高处摔下来，骨架都散了。", "en": "Falling from height rattled my whole frame."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我这两栖的身子，泡太久了。", "en": "My amphibian body has soaked too long."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我从浅滩掀到岸上。", "en": "The blast flings me from the shallows onto the bank."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭擦过我的扁头，滑开了。", "en": "The arrow grazed my flat skull and slid off."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "光打在我湿滑的背上，留下灼痕。", "en": "Light hits my slick back and leaves a burn."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没有食物让我饿倒了...", "en": "No food made me starve..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在浅水里，雷直接劈下来。", "en": "I was in the shallows when the bolt came."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空伤害了我...", "en": "Void hurt me..."}
+      ]
+    }
+  }
+}

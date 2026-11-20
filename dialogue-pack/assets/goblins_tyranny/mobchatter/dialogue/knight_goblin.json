@@ -1,0 +1,236 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我扛着盾在村口走", "en": "I pace the village gate with my shield"},
+        {"zh": "我的短腿迈得很急", "en": "My short legs move briskly"},
+        {"zh": "剑鞘敲着我的腿", "en": "My scabbard knocks my leg"},
+        {"zh": "我沿着木栅栏巡逻", "en": "I patrol along the palisade"},
+        {"zh": "我绕着一堆篝火走", "en": "I circle a cookfire"},
+        {"zh": "我踩着村里的土路", "en": "I walk the village's dirt track"},
+        {"zh": "我走过一排蘑菇架", "en": "I pass a rack of mushrooms"},
+        {"zh": "我向同伴点了点头", "en": "I nod at a fellow guard"},
+        {"zh": "我拖着步子往门边去", "en": "I shuffle over to the gate"},
+        {"zh": "我的影子在木桩上跳", "en": "My shadow jumps on the posts"},
+        {"zh": "我边走边敲盾边", "en": "I tap the shield rim as I go"},
+        {"zh": "我从哨塔下走过", "en": "I pass under the watchtower"},
+        {"zh": "我绕到村子后墙", "en": "I circle to the back wall"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抱着盾蹲着", "en": "I crouch with my shield"},
+        {"zh": "我正在磨剑刃", "en": "I am honing the blade right now"},
+        {"zh": "我盯着林子那边", "en": "I stare off toward the trees"},
+        {"zh": "我嚼着一块干肉", "en": "I chew a strip of dried meat"},
+        {"zh": "我把盾靠在腿上", "en": "I rest the shield on my knee"},
+        {"zh": "我在数经过的人", "en": "I count who passes"},
+        {"zh": "我的鼻子抽了两下", "en": "My nose twitches twice"},
+        {"zh": "我把剑插回鞘里", "en": "I slide the sword back in its sheath"},
+        {"zh": "我在等人来换岗", "en": "I wait to be relieved"},
+        {"zh": "我把腰带勒紧", "en": "I cinch my belt"},
+        {"zh": "我用手指敲着头盔", "en": "I tap my helmet with a finger"},
+        {"zh": "我把盾牌翻过来看", "en": "I turn the shield over to check it"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抬盾挡住自己", "en": "I raise my shield in front of me"},
+        {"zh": "你站住，别往前", "en": "Halt, go no further"},
+        {"zh": "我的手按在剑柄上", "en": "My hand rests on my hilt"},
+        {"zh": "你看着不像哥布林", "en": "You do not look like a goblin"},
+        {"zh": "我的眼睛从盾后看你", "en": "I watch you over my shield"},
+        {"zh": "这个村不欢迎你", "en": "This village does not welcome you"},
+        {"zh": "你把武器收起来", "en": "Put your weapon away"},
+        {"zh": "我朝旁边的同伴看了眼", "en": "I glance at the guard beside me"},
+        {"zh": "你的个子比我高，没用", "en": "You are taller than me, and it does not matter"},
+        {"zh": "你别碰那些蘑菇架", "en": "Keep off the mushroom racks"},
+        {"zh": "我的剑比盾短，可够得着。", "en": "My sword is shorter than my shield, but it reaches."},
+        {"zh": "我咳了一声清嗓子", "en": "I cough to clear my throat"},
+        {"zh": "我歪头琢磨你的来意", "en": "I tilt my head at your purpose"},
+        {"zh": "我把身子挡在门口", "en": "I put my body in the gateway"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我低低地骂了一声", "en": "I swear under my breath"},
+        {"zh": "盾牌挡住了，手却麻了。", "en": "My shield held, but my arm went numb."},
+        {"zh": "我按着被砍的地方", "en": "I press the cut"},
+        {"zh": "我的剑柄被震得脱手。", "en": "The blow nearly shook my sword loose."},
+        {"zh": "我抬盾又挡回来", "en": "I bring the shield back up"},
+        {"zh": "我死死咬紧了牙", "en": "I clamp my teeth hard"},
+        {"zh": "我的头盔又歪了", "en": "My helmet is crooked again"},
+        {"zh": "我还打得下去", "en": "I can keep fighting"},
+        {"zh": "我往门边靠了靠", "en": "I edge back toward the gate"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不收外人的东西", "en": "I take nothing from outsiders"},
+        {"zh": "你把吃的放下吧", "en": "Set the food down, then"},
+        {"zh": "我看了看又没接", "en": "I look at it and do not take it"},
+        {"zh": "这点东西不够一顿", "en": "That is not a meal"},
+        {"zh": "我更喜欢金币", "en": "I would rather have coins"},
+        {"zh": "你把肉往前推了推", "en": "You push the meat closer"},
+        {"zh": "等换岗了再说", "en": "Wait until the watch changes"},
+        {"zh": "你先吃一口给我看", "en": "Take a bite first, let me see"},
+        {"zh": "我这时候不能吃", "en": "I cannot eat on duty"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞在我的盾上", "en": "You ran into my shield"},
+        {"zh": "我脚跟一沉顶住你", "en": "I drop my weight and hold"},
+        {"zh": "哥布林骑士的盾，把你顶开。", "en": "The goblin knight's shield shoves you aside."},
+        {"zh": "我的头盔歪了", "en": "My helmet is knocked askew"},
+        {"zh": "我从盾后看你", "en": "I look at you from behind the shield"},
+        {"zh": "你推我我不动", "en": "Push me, I stay put"},
+        {"zh": "我脚下的土松了", "en": "The soil shifts under me"},
+        {"zh": "这一下你自找的", "en": "That one you brought on yourself"},
+        {"zh": "我重新站好步子", "en": "I reset my footing"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "村里有很多女哥布林", "en": "There are plenty of she-goblins here"},
+        {"zh": "我只管守这个门", "en": "I only mind this gate"},
+        {"zh": "换岗后我再去说话", "en": "I will talk to her after my watch"},
+        {"zh": "我给她带过一块肉", "en": "I once brought her a piece of meat"},
+        {"zh": "我们住在同一排木屋", "en": "We live in the same row of huts"},
+        {"zh": "她磨剑比我快", "en": "She hones her blade faster than me"},
+        {"zh": "我的事还没办完", "en": "My duty is not done"},
+        {"zh": "这事得先问首领", "en": "That would need the chief's word"},
+        {"zh": "我们哥布林不讲究", "en": "Goblins are not fussy about this"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我捡起掉在地上的钱", "en": "I pick up coins off the ground"},
+        {"zh": "这枚边缘崩了口", "en": "This one has a chipped edge"},
+        {"zh": "我把它塞进腰包", "en": "I tuck it in my belt pouch"},
+        {"zh": "我捡到一把旧钉子", "en": "I find a handful of old nails"},
+        {"zh": "这东西能修栅栏", "en": "These could fix the palisade"},
+        {"zh": "这个该归村里", "en": "This belongs to the village"},
+        {"zh": "我把它交到仓库", "en": "I will hand it to the store"},
+        {"zh": "我塞进盾带后面", "en": "I shove it behind my shield strap"},
+        {"zh": "我留下当备用", "en": "I keep it as a spare"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你往门里走了一步", "en": "You took a step toward the gate"},
+        {"zh": "我举起盾和剑", "en": "I raise shield and blade"},
+        {"zh": "那就别怪我了", "en": "Then do not blame me"},
+        {"zh": "你踏进了我们的地盘", "en": "You stepped into our ground"},
+        {"zh": "我敲了两下盾", "en": "I strike the shield twice"},
+        {"zh": "我的同伴会听见", "en": "My fellows will hear that"},
+        {"zh": "我锁住了你的脚", "en": "I have your feet marked"},
+        {"zh": "我把剑锋抬起来", "en": "I level my blade"},
+        {"zh": "这一趟我来挡你", "en": "I will be the one to stop you"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴着门口挪", "en": "I edge around the gateway"},
+        {"zh": "你退一步我就进", "en": "One step back, I take one forward"},
+        {"zh": "我的盾一直在前面", "en": "My shield stays in front"},
+        {"zh": "我在等你挥空", "en": "I wait for you to miss"},
+        {"zh": "先举盾，再还手。", "en": "Shield up first, then the counter."},
+        {"zh": "我不追，我只守", "en": "I do not chase, I hold"},
+        {"zh": "你进不来这一段", "en": "You cannot enter this stretch"},
+        {"zh": "我用盾角挡你的路", "en": "I block with the shield's corner"},
+        {"zh": "我把剑尖指向你", "en": "I point my blade at you"},
+        {"zh": "我在门口没挪过地方", "en": "I have not moved from this gate"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的剑从盾后刺出", "en": "My blade stabs out from the shield"},
+        {"zh": "我顶盾撞你的膝", "en": "I drive the shield into your knee"},
+        {"zh": "我砍在你的护甲上", "en": "My edge bites your armor"},
+        {"zh": "剑尖划开你的袖子", "en": "The point opens your sleeve"},
+        {"zh": "我用盾角砸你的手", "en": "I smash your hand with the shield rim"},
+        {"zh": "我矮身钻到你下面", "en": "I duck in under your guard"},
+        {"zh": "我连砍了两下", "en": "I slash twice"},
+        {"zh": "你挡了盾没挡剑", "en": "You stopped the shield, not the sword"},
+        {"zh": "这一剑从下往上", "en": "This one comes from below"},
+        {"zh": "我的剑尖点在你胸口", "en": "My point rests on your chest"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从栅栏后走出来", "en": "I step out from behind the palisade"},
+        {"zh": "我把盾举到胸前", "en": "I bring my shield to my chest"},
+        {"zh": "村口的哨位换了我", "en": "The gate post is mine now"},
+        {"zh": "我踢了踢靴子上的土", "en": "I kick the dirt off my boots"},
+        {"zh": "我拉了拉头盔的带子", "en": "I tighten my helmet strap"},
+        {"zh": "我朝同伴打了个手势", "en": "I signal to my fellows"},
+        {"zh": "我在门口站定", "en": "I take my stand in the gateway"},
+        {"zh": "我的手已经搭在剑柄上", "en": "My hand is already on my hilt"},
+        {"zh": "村里的钟响了一下", "en": "The village bell rings once"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎焦了我胳膊上的毛", "en": "Fire singes the hair on my arm"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔得头盔滚了出去", "en": "I land and my helmet rolls away"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进我的鼻子，我直挣", "en": "Water fills my nose and I thrash"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把我掀到栅栏上", "en": "The blast throws me into the palisade"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭扎进我的肩甲", "en": "An arrow sticks in my shoulder plate"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我还没吃上饭", "en": "I have not had my meal yet"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击让我半边身子发木", "en": "The strike leaves half of me numb"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉下去时还抓着剑", "en": "I fall still gripping my sword"}
+      ]
+    }
+  }
+}

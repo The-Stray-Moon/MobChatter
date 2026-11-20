@@ -1,0 +1,257 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从荒土下面游过去，土不塌。", "en": "I swim under the barren soil and it doesn't fall."},
+        {"zh": "我一段一段往前，脚很多。", "en": "Segment by segment I go forward. Many legs."},
+        {"zh": "我的节上全是眼睛。", "en": "My segments are covered in eyes."},
+        {"zh": "我经过的地方，土会松。", "en": "The soil loosens where I pass."},
+        {"zh": "我抬头，眼睛朝上。", "en": "I lift up, eyes turning upward."},
+        {"zh": "那些眼睛不是一起看的。", "en": "Those eyes don't all look the same way."},
+        {"zh": "有的看上面，有的看下面。", "en": "Some look up, some down."},
+        {"zh": "我朝有震动的地方走。", "en": "I head toward the shaking."},
+        {"zh": "土里没有光，我不用光。", "en": "No light in the soil. I don't need it."},
+        {"zh": "我的脚在土里没有声音。", "en": "My legs make no sound in the soil."},
+        {"zh": "我慢慢挪到更深处。", "en": "I move deeper, slowly."},
+        {"zh": "这条土道归我。", "en": "This soil tunnel is mine."},
+        {"zh": "我停在土下面。", "en": "I stop beneath the soil."},
+        {"zh": "我停下来听。", "en": "I stop and listen."},
+        {"zh": "上面有脚步走过。", "en": "Footsteps pass above."},
+        {"zh": "很轻，可我听得到。", "en": "Light, and I hear them."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我伏在土里，一节都不动。", "en": "I lie in the soil and not one segment moves."},
+        {"zh": "我发出咔嗒声，很轻。", "en": "I make a clicking sound, very softly."},
+        {"zh": "一下，两下，停。", "en": "Once. Twice. Stop."},
+        {"zh": "这是我等猎物的方式。", "en": "That's how I wait for prey."},
+        {"zh": "我的眼睛在土缝里看。", "en": "My eyes watch through the soil's cracks."},
+        {"zh": "上面什么都没有。", "en": "There's nothing above."},
+        {"zh": "土里的时间很慢。", "en": "Time is slow in the soil."},
+        {"zh": "我可以等很久。", "en": "I can wait a long time."},
+        {"zh": "土里有腐骨的味道。", "en": "The soil smells of rotten bone."},
+        {"zh": "我慢慢卷了一下身体。", "en": "I curl my body once."},
+        {"zh": "所有的眼睛都朝上了。", "en": "Every eye turns upward."},
+        {"zh": "我又开始咔嗒。", "en": "I start clicking again."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踩到我了。", "en": "You're standing on me."},
+        {"zh": "这个你并不知道。", "en": "You don't know that."},
+        {"zh": "我的声音在土下面。", "en": "My sound is under the soil."},
+        {"zh": "你听见了，可你看不见。", "en": "You heard it, and you can't see me."},
+        {"zh": "你蹲下来，看土。", "en": "You crouch and look at the soil."},
+        {"zh": "上面的土在动。", "en": "The soil above is moving."},
+        {"zh": "我的眼睛，从下面看你。", "en": "My eyes look up at you from below."},
+        {"zh": "很多只，都在下面。", "en": "Many of them, all below."},
+        {"zh": "你跳开，土落回原处。", "en": "You jumped away and the soil fell back."},
+        {"zh": "你已经站进我的土上面。", "en": "You're standing on my ground already."},
+        {"zh": "我在这儿待了太久。", "en": "I've been here too long."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我缩回土里。", "en": "I pull back into the soil."},
+        {"zh": "土把我盖住了。", "en": "The soil covers me."},
+        {"zh": "我的节断了一截。", "en": "A segment is broken off."},
+        {"zh": "掉下来的那截还在扭。", "en": "The piece that fell is still writhing."},
+        {"zh": "我不去管它。", "en": "I leave it alone."},
+        {"zh": "我有很多节。", "en": "I have many segments."},
+        {"zh": "掉一截，没什么。", "en": "Losing one is nothing."},
+        {"zh": "我慢慢往深里钻。", "en": "I burrow deeper slowly."},
+        {"zh": "土上面很危险。", "en": "Above the soil is dangerous."},
+        {"zh": "我不上去了。", "en": "I won't go back up."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在土上放了东西。", "en": "You've put something on the soil."},
+        {"zh": "有味道下来。", "en": "A smell comes down."},
+        {"zh": "我慢慢往上。", "en": "I rise slowly."},
+        {"zh": "上面的土开始裂。", "en": "The soil above starts to crack."},
+        {"zh": "我先露一条腿。", "en": "I show one leg first."},
+        {"zh": "我再多露一节。", "en": "I show one more segment."},
+        {"zh": "然后所有的眼睛。", "en": "Then all the eyes."},
+        {"zh": "你往后跳了一大步。", "en": "You leap back a full stride."},
+        {"zh": "你没敢捡回去。", "en": "You didn't dare take it back."},
+        {"zh": "我把它拖进土里。", "en": "I drag it down into the soil."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踩下来，我偏了一下。", "en": "You stepped down and I shifted aside."},
+        {"zh": "土塌了一块。", "en": "A patch of soil caved in."},
+        {"zh": "我从下面顶你的脚。", "en": "I push up against your foot from below."},
+        {"zh": "你往旁边跳开了。", "en": "You jumped to one side."},
+        {"zh": "我的节撞在石头上。", "en": "A segment knocks against stone."},
+        {"zh": "咔嗒一声，我从荒土里冒头。", "en": "A click, and I rise from the barren soil."},
+        {"zh": "被踩断了两条，我缩回来。", "en": "Two legs snapped. I pull back."},
+        {"zh": "断掉几条也不碍事。", "en": "Losing a few doesn't matter."},
+        {"zh": "我还有很多。", "en": "I have plenty."},
+        {"zh": "我的节肢刮过你的靴子。", "en": "My legs scrape across your boots."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这片土底下，只有我一条。", "en": "Under this soil there's only one of me."},
+        {"zh": "土里太窄了。", "en": "The soil is too narrow."},
+        {"zh": "我试过找别的。", "en": "I've tried to find others."},
+        {"zh": "我一个也没找到。", "en": "I didn't find one."},
+        {"zh": "我就这么待着。", "en": "So I stay like this."},
+        {"zh": "这么一年一年过去。", "en": "Year after year like this."},
+        {"zh": "土变深了，我变大了。", "en": "The soil deepened and I grew."},
+        {"zh": "眼睛也多了。", "en": "More eyes too."},
+        {"zh": "现在数不清了。", "en": "Too many to count now."},
+        {"zh": "你想数一数吗？", "en": "Do you want to count them?"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把东西卷住。", "en": "I coil around it."},
+        {"zh": "拖到土下面。", "en": "And drag it under the soil."},
+        {"zh": "我咬下去，土一起进嘴。", "en": "I bite, and soil comes with it."},
+        {"zh": "又干又硬，土味。", "en": "Dry and hard. Tastes of dirt."},
+        {"zh": "可我还是吃了。", "en": "I eat it anyway."},
+        {"zh": "土里没什么可挑的。", "en": "There isn't much to be picky about down here."},
+        {"zh": "我留下一截。", "en": "I leave a piece."},
+        {"zh": "我用土把它埋起来。", "en": "I bury it with soil."},
+        {"zh": "留到以后再吃。", "en": "Saved for later."},
+        {"zh": "我把土盖上。", "en": "I cover it with soil."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地面开始震动了。", "en": "The ground has started to tremble."},
+        {"zh": "一下一下，很规律。", "en": "One after another, steady."},
+        {"zh": "我把身体盘起来。", "en": "I coil my body."},
+        {"zh": "所有的眼睛朝上。", "en": "Every eye turns up."},
+        {"zh": "我算着距离。", "en": "I measure the distance."},
+        {"zh": "还剩三步的距离。", "en": "Three steps of distance left."},
+        {"zh": "现在只剩四步了。", "en": "Only four paces now."},
+        {"zh": "我收紧了节。", "en": "I draw my segments in."},
+        {"zh": "只剩三步了。", "en": "Only three steps left."},
+        {"zh": "就在我上面。", "en": "Right above me."},
+        {"zh": "我把土层顶开。", "en": "I push the soil open."},
+        {"zh": "我把土顶开了。", "en": "I push the soil open."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我跟着它，在土下面。", "en": "I follow it beneath the soil."},
+        {"zh": "它每走一步，我就知道。", "en": "Every step it takes, I know."},
+        {"zh": "我的眼睛从缝里往上看。", "en": "My eyes look up through the cracks."},
+        {"zh": "荒土下咔嗒一声，你听到了吗？", "en": "A click under the waste soil — did you hear?"},
+        {"zh": "脚步声不响了。", "en": "The footsteps stop."},
+        {"zh": "我也停下来。", "en": "I stop too."},
+        {"zh": "它蹲下来看了。", "en": "It's crouched and looking."},
+        {"zh": "它把手放在土上。", "en": "It's put a hand on the soil."},
+        {"zh": "我能感觉到。", "en": "I can feel it."},
+        {"zh": "我一动也不动。", "en": "I don't move at all."},
+        {"zh": "它把手拿开了。", "en": "It lifts the hand."},
+        {"zh": "它又站起来了。", "en": "It has stood up again."},
+        {"zh": "它的脚正踩在我的头顶上。", "en": "Its foot is right on top of me."},
+        {"zh": "我从它脚边破土。", "en": "I break out by its feet."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我冲上去，缠住它的腿。", "en": "I burst up and coil around its leg."},
+        {"zh": "我所有的眼睛都在看它。", "en": "Every eye of mine is on it."},
+        {"zh": "它挣，我收得更紧。", "en": "It struggles and I pull tighter."},
+        {"zh": "它喊了一声，很短。", "en": "It yelps once, short."},
+        {"zh": "我把它往土里拖。", "en": "I drag it toward the soil."},
+        {"zh": "它的手抓地。", "en": "Its hands claw at the ground."},
+        {"zh": "它的手抓不住地。", "en": "Its hands can't get a hold."},
+        {"zh": "它被拖到土边。", "en": "It's dragged to the soil's edge."},
+        {"zh": "我松开了一条节。", "en": "I loosen a segment."},
+        {"zh": "它挣脱，滚到一边。", "en": "It breaks free and rolls aside."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从荒土底下醒过来。", "en": "I wake beneath the barren soil."},
+        {"zh": "先动一动的是眼睛。", "en": "The first thing to move is the eyes."},
+        {"zh": "一节，又一节。", "en": "One segment. Then another."},
+        {"zh": "土被我顶开了。", "en": "The soil lifts over me."},
+        {"zh": "荒土底下，我先动了动眼。", "en": "Under the barren soil, I moved an eye first."},
+        {"zh": "我把身体展开。", "en": "I stretch my body out."},
+        {"zh": "到处都是我的眼睛。", "en": "Eyes everywhere on me."},
+        {"zh": "我慢慢往深处钻。", "en": "I burrow deeper slowly."},
+        {"zh": "下面的土更松。", "en": "The soil below is looser."},
+        {"zh": "这个深度我满意了。", "en": "This depth satisfies me."},
+        {"zh": "我开始咔嗒。", "en": "I begin to click."},
+        {"zh": "一下，两下。", "en": "Once. Twice."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "土被烤热了，我往深处钻。", "en": "The soil bakes hot and I dig deeper."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从土壁上翻下来，节撞散了。", "en": "I tumble off a soil wall and my segments knock apart."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水渗进土里，我的眼睛睁不开。", "en": "Water seeps through the soil and I can't keep my eyes open."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸响把土掀开，我们都露出来了。", "en": "The blast opens the soil and exposes us all."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭钉进我的节。", "en": "An arrow lodges in a segment."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一道光照到我所有的眼睛。", "en": "A light finds every one of my eyes."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这片土空了很久。", "en": "This soil has been empty a long while."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打进土里，我整条都弹起来。", "en": "Lightning enters the soil and my whole body jerks."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里连土都没有。", "en": "There isn't even soil here."}
+      ]
+    }
+  }
+}

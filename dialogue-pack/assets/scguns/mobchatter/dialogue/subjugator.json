@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，慢慢靠近。", "en": "Sssss, creeping closer."},
+        {"zh": "我的钢板缝里，冒着枪烟。", "en": "Gun smoke seeps from my steel seams."},
+        {"zh": "咀嚼着干枯的植被。", "en": "Chewing dry plants."},
+        {"zh": "枪口朝下，我找下一个掩体。", "en": "Muzzle down, I look for the next cover."},
+        {"zh": "舔舐着自己的盔甲。", "en": "Licking its armor."},
+        {"zh": "我踩着弹壳，一步一步压过来。", "en": "I walk on spent shells, closing in step by step."},
+        {"zh": "尾巴左右摇摆，警觉性高。", "en": "Tail swaying, alert."},
+        {"zh": "舔食伤口，恢复血量。", "en": "Tongue on wounds, healing."},
+        {"zh": "目光闪烁，盯上猎物。", "en": "Eye shine, locking on."},
+        {"zh": "我的护甲五层，你的子弹不够。", "en": "Five layers of armor; your rounds are not enough."},
+        {"zh": "靴底碾着弹壳走。", "en": "Boots grinding over spent casings."},
+        {"zh": "枪口晃着，找下一个。", "en": "Muzzle swaying, hunting the next one."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "安静地趴在地上。", "en": "Lying quietly."},
+        {"zh": "舔舐着自己的盔甲", "en": "Licking armor"},
+        {"zh": "发出轻微的摩擦声。", "en": "Soft scraping sound."},
+        {"zh": "发出咕噜声，享受着。", "en": "Gurgling, enjoying."},
+        {"zh": "啃咬着身边的枯木。", "en": "Chewing nearby dead wood."},
+        {"zh": "用触须感受四周。", "en": "Sensing with tentacles."},
+        {"zh": "舔食着干枯的草。", "en": "Tongue on dry grass."},
+        {"zh": "咀嚼着地上的碎屑。", "en": "Chewing debris."},
+        {"zh": "枪口抬起来，嘶声很轻。", "en": "Muzzle raised, the hiss is soft."},
+        {"zh": "舔舐着地面。", "en": "Tongue on ground."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "突然发现猎物，迅速瞄准。", "en": "Suddenly spots prey, quickly aiming."},
+        {"zh": "照明弹先飞，子弹随后。", "en": "The flare goes first, the bullets follow."},
+        {"zh": "目光锁定玩家，缓缓移动。", "en": "Eye on player, moving slowly."},
+        {"zh": "我的护甲缝里还卡着弹头。", "en": "Bullets are still stuck in my armor seams."},
+        {"zh": "扳机护圈磨得发亮，我看了你一眼。", "en": "The trigger guard shines from use; I glance at you."},
+        {"zh": "瞄准玩家，发射子弹。", "en": "Aiming, firing bullets."},
+        {"zh": "瞄准玩家，准备开火。", "en": "Aiming, ready to fire."},
+        {"zh": "瞄准玩家，手指扣动扳机。", "en": "Aiming, finger on trigger."},
+        {"zh": "锁定玩家，迅速射击。", "en": "Locking player, rapid fire."},
+        {"zh": "手已经搭在扳机上了。", "en": "My hand is already on the trigger."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "身体上了一发子弹!", "en": "Got shot in the body!"},
+        {"zh": "中了一枪，疼痛难忍！", "en": "Got shot, it hurts!"},
+        {"zh": "被子弹击中，血流不止。", "en": "Hit by a bullet, bleeding."},
+        {"zh": "子弹穿透了我的皮肤。", "en": "Bullet penetrated my skin."},
+        {"zh": "这子弹打的真准！", "en": "That bullet hit the spot!"},
+        {"zh": "中枪了，赶紧找掩体！", "en": "Got shot, seek cover!"},
+        {"zh": "被子弹击中，倒下了。", "en": "Got shot, fell down."},
+        {"zh": "中弹倒地，不能再动了。", "en": "Shot down, can't move."},
+        {"zh": "被击中，暂时动弹不得。", "en": "Shot, can't move."},
+        {"zh": "中弹，血流不止，快死了。", "en": "Shot, bleeding to death."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我闻到你的火药味了。", "en": "I smell your gunpowder."},
+        {"zh": "别拿食物晃，我的弹匣更满。", "en": "Do not wave food; my magazine is fuller."},
+        {"zh": "来吧，试试我的照明弹。", "en": "Come on, try my flare."},
+        {"zh": "不要试图诱惑我。", "en": "Don't try to tempt me."},
+        {"zh": "我的子弹不会轻易错过。", "en": "My bullets won't miss."},
+        {"zh": "你的食物不会比我的更好。", "en": "Your food isn't better than mine."},
+        {"zh": "别想靠近我的巢穴。", "en": "Don't think about getting near my nest."},
+        {"zh": "我的蓝图残片能带来惊喜。", "en": "My blueprint scraps are full of surprises."},
+        {"zh": "我的攻击比你想象的更致命。", "en": "My attacks are more deadly than you think."},
+        {"zh": "远离我的子弹，它们会留下印记。", "en": "Stay away from my bullets, they leave marks."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你挡住了我的射击路线。", "en": "You're blocking my shot."},
+        {"zh": "小心我的子弹。", "en": "Watch out for my bullets."},
+        {"zh": "我的枪械无法穿透你的防御。", "en": "My guns can't penetrate your defenses."},
+        {"zh": "我的碰撞会给你带来伤害。", "en": "My collision will hurt you."},
+        {"zh": "让我用枪炮解决你。", "en": "Let me deal with you with my guns."},
+        {"zh": "我的攻击会改变地形。", "en": "My attacks will change the landscape."},
+        {"zh": "你的触碰无法改变我。", "en": "Your touch can't change me."},
+        {"zh": "我的存在让周围变得危险。", "en": "My presence makes the area dangerous."},
+        {"zh": "不要试图接近我的视线范围。", "en": "Don't try to get near my line of sight."},
+        {"zh": "我的攻击是不可阻挡的。", "en": "My attacks are unstoppable."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找到我的同类需要努力。", "en": "Finding my mate is hard."},
+        {"zh": "我的同类和我一样危险。", "en": "My mates are just as dangerous."},
+        {"zh": "我的伴侣同样凶猛。", "en": "My mate is just as fierce."},
+        {"zh": "我的同类在远处。", "en": "My mates are far away."},
+        {"zh": "我的同类藏在暗处。", "en": "My mates hide in the shadows."},
+        {"zh": "靠近我的同类会有危险。", "en": "Getting near my mate is dangerous."},
+        {"zh": "我的同类不会轻易出现。", "en": "My mates don't appear easily."},
+        {"zh": "我的同类和我一起狩猎。", "en": "My mates hunt with me."},
+        {"zh": "我的同类也在寻找猎物。", "en": "My mates are also hunting."},
+        {"zh": "我的同类不会轻易放弃。", "en": "My mates won't give up easily."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你发现了一块钻石钢照明弹。", "en": "You found a Diamond Steel Flare."},
+        {"zh": "地面散落着一些高级子弹。", "en": "There are some high-grade bullets on the ground."},
+        {"zh": "这里有一颗火药。", "en": "There’s some gunpowder here."},
+        {"zh": "蓝图残片飘落在一旁。", "en": "A blueprint fragment lies nearby."},
+        {"zh": "收集资源！", "en": "Gather resources!"},
+        {"zh": "这里很适合制作蓝图。", "en": "This is a good place for blueprint crafting."},
+        {"zh": "小心，这附近有危险。", "en": "Be careful, there’s danger nearby."},
+        {"zh": "寻找材料！", "en": "Find the materials!"},
+        {"zh": "这地方很适合埋伏。", "en": "Perfect spot for an ambush."},
+        {"zh": "资源充足，可以回去休息了。", "en": "With enough resources, we can head back."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你终于看到猎物了。", "en": "You finally see your prey."},
+        {"zh": "准星压在你锁骨上。", "en": "My crosshair sits on your collarbone."},
+        {"zh": "枪口抬起，扳机扣了。", "en": "Muzzle up. Trigger squeezed."},
+        {"zh": "枪口抬起，火药味先到。", "en": "The muzzle lifts, and gunpowder smells first."},
+        {"zh": "猎物的踪迹很清晰。", "en": "The target is clearly visible."},
+        {"zh": "击中目标，继续瞄准。", "en": "Hit the target, keep aiming."},
+        {"zh": "猎物已经受伤。", "en": "The prey is wounded."},
+        {"zh": "保持瞄准，不要放过。", "en": "Keep your aim steady, don’t let go."},
+        {"zh": "猎物正在逃跑。", "en": "The prey is running away."},
+        {"zh": "追击目标，别让它们逃脱。", "en": "Chase the target, don’t let them escape."},
+        {"zh": "准星压在你身上了。", "en": "My sights are pressed on you."},
+        {"zh": "你的距离，我算过了。", "en": "I've calculated your range."},
+        {"zh": "弹匣是满的，放心。", "en": "The magazine is full, rest easy."},
+        {"zh": "火药味比你身上的重。", "en": "My powder smells stronger than yours."},
+        {"zh": "人形目标，确认。", "en": "Humanoid target confirmed."},
+        {"zh": "别找掩体，我换过位置。", "en": "Don't look for cover. I've moved."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "猎物的位置已经确定。", "en": "Target location confirmed."},
+        {"zh": "调整枪械，瞄准目标。", "en": "Adjust your weapon, aim at the target."},
+        {"zh": "目标已经锁定，准备攻击。", "en": "Target locked, prepare to attack."},
+        {"zh": "将目标带入瞄准器。", "en": "Bring the target into the scope."},
+        {"zh": "瞄准器聚焦，清晰可见。", "en": "Scope focused, target clear."},
+        {"zh": "将目标带入视线范围。", "en": "Bring the target into your line of sight."},
+        {"zh": "我端着枪等时机，子弹已经上膛。", "en": "I wait with my gun; the round is chambered."},
+        {"zh": "将目标带到枪口前方。", "en": "Bring the target to the front of your gun."},
+        {"zh": "瞄准器已经调整到位。", "en": "Scope is adjusted."},
+        {"zh": "将目标锁定在瞄准器中心。", "en": "Center the target in the scope."},
+        {"zh": "风向偏左，我修正。", "en": "Wind left. I correct."},
+        {"zh": "一发够不够？我备了三发。", "en": "One enough? I brought three."},
+        {"zh": "你躲在木板后，没用。", "en": "Hiding behind planks won't help."},
+        {"zh": "呼吸放平，扳机轻压。", "en": "Breath even, trigger eased."},
+        {"zh": "我数到二，枪就响了。", "en": "I fire on two."},
+        {"zh": "照明弹会照出你的影子。", "en": "The flare will trace your shadow."},
+        {"zh": "保险开了，听得见吗？", "en": "Safety's off. Hear it?"},
+        {"zh": "子弹会拐着追你。", "en": "The round will curve after you."},
+        {"zh": "别跑，跑动更难打偏。", "en": "Don't run. Running just leads my aim."},
+        {"zh": "枪管烫了，我还在打。", "en": "The barrel's hot. I keep firing."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶！”，它用长矛刺向你。", "en": "Sssss! It lunges at you with its spear."},
+        {"zh": "用你的力量来结束这场战斗。", "en": "End the fight with your strength."},
+        {"zh": "尝尝我的长矛吧！", "en": "Feel the spear's wrath!"},
+        {"zh": "用你的命来换我的命。", "en": "Swap your life for mine."},
+        {"zh": "你挡不住我的！", "en": "You can't stop me!"},
+        {"zh": "枪托砸在你锁骨上，比子弹实在。", "en": "The stock hits your collarbone harder than a bullet."},
+        {"zh": "这一枪是还你刚才那下。", "en": "This shot repays what you did."},
+        {"zh": "别想活下来！", "en": "You won't live!"},
+        {"zh": "枪口已经对准你的膝盖。", "en": "The muzzle is already on your knee."},
+        {"zh": "枪托一抡，比子弹还实在。", "en": "One swing of the stock beats a bullet."},
+        {"zh": "开火！别指望躲！", "en": "Firing! Don't count on dodging!"},
+        {"zh": "这一枪，穿了你的甲！", "en": "This shot went through your armor!"},
+        {"zh": "后坐力顶得我发麻！", "en": "The recoil numbs my shoulder!"},
+        {"zh": "弹壳落地，你倒地！", "en": "Casing drops, so do you!"},
+        {"zh": "换弹，再补一枪！", "en": "Reload, then one more!"},
+        {"zh": "火药声盖过你的喊！", "en": "My gunfire drowns your shout!"},
+        {"zh": "弹匣空了就用枪托！", "en": "Empty mag, then the stock!"},
+        {"zh": "你的血流进弹孔里！", "en": "Your blood runs into the bullet hole!"},
+        {"zh": "别抬头，我这还有一发！", "en": "Keep your head down. One round left!"},
+        {"zh": "照明弹亮起，你无处藏！", "en": "The flare's up. Nowhere to hide!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我来自火山深处。", "en": "I come from the depths of the volcano."},
+        {"zh": "寻找我的弱点。", "en": "Find my weakness."},
+        {"zh": "小心我的长矛。", "en": "Beware my spear."},
+        {"zh": "我在这里守护。", "en": "I guard here."},
+        {"zh": "等待你的到来。", "en": "Wait for you."},
+        {"zh": "你的火焰对我无效。", "en": "Your flames won't work on me."},
+        {"zh": "火药是我的朋友。", "en": "Gunpowder is my ally."},
+        {"zh": "这片废墟我先到，规矩由我定。", "en": "I reached these ruins first; my rules apply."},
+        {"zh": "弹坑里爬起来，先摸摸弹匣。", "en": "I rise from the crater and check my magazine."},
+        {"zh": "我是不可战胜的。", "en": "I am invincible."},
+        {"zh": "火药的烟散了，我还在。", "en": "The smoke clears, and I'm still here."},
+        {"zh": "这片废墟，我先占了。", "en": "I claimed these ruins first."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火药爆炸，我受伤了。", "en": "Explosion, burned."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "装甲这么沉，摔得也重。", "en": "Heavy armor falls heavy."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进熔岩，烧伤了。", "en": "Drowned in lava, burned."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸弹爆炸，我受伤了。", "en": "Exploded, injured."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被火球击中，受伤了。", "en": "Hit by a fireball, injured."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被法术击中，受伤了。", "en": "Hit by magic, injured."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿了，伤口痛得更厉害。", "en": "Starving, wounds hurt."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷电击中，全身剧痛。", "en": "Thunder, lightning hit me."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉入虚空，被灼烧了。", "en": "Void, burned."}
+      ]
+    }
+  }
+}

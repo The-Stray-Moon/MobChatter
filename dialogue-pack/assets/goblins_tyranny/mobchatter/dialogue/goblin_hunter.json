@@ -1,0 +1,264 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我猫着腰在草里走", "en": "I move through the grass hunched low."},
+        {"zh": "脚踩在枯枝上会露馅", "en": "A dry twig underfoot would give me away."},
+        {"zh": "弓挂在背上，箭在腰侧", "en": "Bow on my back, arrows at my hip."},
+        {"zh": "我绕着村子外围走", "en": "I circle the village's edge."},
+        {"zh": "身上是兽皮，味道很重", "en": "My furs smell strong."},
+        {"zh": "走两步停一下，听", "en": "Two steps, then stop and listen."},
+        {"zh": "我从那棵树走到这棵树", "en": "I go from that tree to this one."},
+        {"zh": "远处的烟是我的目标", "en": "The distant smoke is my target."},
+        {"zh": "草高过我的头", "en": "The grass is taller than me."},
+        {"zh": "我走路不出声，鞋底软", "en": "My steps are silent; my soles are soft."},
+        {"zh": "我沿着上风处走", "en": "I keep to the upwind side."},
+        {"zh": "这一带我走过很多次", "en": "I've walked this ground many times."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我蹲着，把弓放在膝上", "en": "I crouch with the bow on my knee."},
+        {"zh": "箭羽我用牙咬齐", "en": "I bite the fletching even."},
+        {"zh": "身上挂着三张皮", "en": "Three pelts hang on me."},
+        {"zh": "弓弦有点松", "en": "The string's a little slack."},
+        {"zh": "我不洗，洗了就没味了", "en": "I don't wash; washing kills the smell."},
+        {"zh": "草叶蹭在我脸上", "en": "Grass brushes my face."},
+        {"zh": "那边的鸟惊了", "en": "The birds over there startled."},
+        {"zh": "我在等一个合适的距离", "en": "I'm waiting for the right distance."},
+        {"zh": "树林是最好的墙", "en": "The trees are the best wall."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你走得太响了", "en": "You walk too loudly."},
+        {"zh": "你腰上那把刀，鞘松了。", "en": "The blade at your waist — its sheath is loose."},
+        {"zh": "我搭箭很快", "en": "I nock an arrow fast."},
+        {"zh": "别以为草能藏住你", "en": "Don't think the grass hides you."},
+        {"zh": "你先动，我就先射", "en": "You move first, I shoot first."},
+        {"zh": "你的护甲在脖子那边短", "en": "Your armor is short at the neck."},
+        {"zh": "我射过比我高的人", "en": "I've shot men taller than you."},
+        {"zh": "村里的烟是你点的吗", "en": "Did you light that smoke in the village?"},
+        {"zh": "你手里那把剑，够不着我", "en": "That sword won't reach me."},
+        {"zh": "我站在这儿，是因为你走不了", "en": "I stand here because you can't leave."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "皮子上多了一个口", "en": "A new gash in my furs."},
+        {"zh": "我退了，弓还举着", "en": "I fell back, bow still up."},
+        {"zh": "这一下，手抖了", "en": "That shook my hand."},
+        {"zh": "我不叫出声", "en": "I don't cry out."},
+        {"zh": "血滴在草上", "en": "Blood drips on the grass."},
+        {"zh": "我重新搭箭", "en": "I nock another arrow."},
+        {"zh": "箭袋空了一半", "en": "My quiver's half empty."},
+        {"zh": "这一下，我记着这笔", "en": "I'm marking that down."},
+        {"zh": "我压着伤口，蹲下去", "en": "I press the wound and crouch."},
+        {"zh": "跑之前，我还会射一箭", "en": "Before I run, I'll loose one more."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "肉？我只吃自己打的", "en": "Meat? I eat only what I kill."},
+        {"zh": "你把东西放下，别动", "en": "Put it down and don't move."},
+        {"zh": "我不收外来人的东西", "en": "I take nothing from outsiders."},
+        {"zh": "你手里那块，闻着不新鲜", "en": "That in your hand isn't fresh."},
+        {"zh": "往前扔，扔远一点", "en": "Toss it forward, farther."},
+        {"zh": "你退开三步", "en": "Back up three paces."},
+        {"zh": "这个我不稀罕", "en": "I don't care for that."},
+        {"zh": "留给野狗吧", "en": "Leave it to the wild dogs."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到我的弓了", "en": "You bumped my bow."},
+        {"zh": "这一下，我们离得太近", "en": "That brought us too close."},
+        {"zh": "我退了，弓弦还绷着", "en": "I back off, string still drawn."},
+        {"zh": "别抓我的皮子", "en": "Don't grab my furs."},
+        {"zh": "草里的脚印乱了", "en": "The prints in the grass are a mess now."},
+        {"zh": "我不是近身的那种", "en": "I'm not the close-quarters kind."},
+        {"zh": "你踩到我的箭袋", "en": "You stepped on my quiver."},
+        {"zh": "我甩开你，往后退", "en": "I shake you off and retreat."},
+        {"zh": "这一下，我得换位置", "en": "That means I change position."},
+        {"zh": "松手", "en": "Let go."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "村里有这样的规矩", "en": "The village has its own customs."},
+        {"zh": "我不谈这些", "en": "I don't discuss that."},
+        {"zh": "我的弓比这个可靠", "en": "My bow is more reliable than that."},
+        {"zh": "这一带只有我一个猎人", "en": "I'm the only hunter here."},
+        {"zh": "身上这三张皮，是我自己挣的", "en": "These three pelts I earned myself."},
+        {"zh": "我在等猎物，不是在等人", "en": "I wait for prey, not people."},
+        {"zh": "林子会替我们保密", "en": "The woods keep our secrets."},
+        {"zh": "别在这儿说", "en": "Not here."},
+        {"zh": "天快黑了，回去吧", "en": "It's getting dark; go back."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭捡回来还能用", "en": "A recovered arrow can be reused."},
+        {"zh": "这张皮是我的", "en": "This pelt is mine."},
+        {"zh": "我弯腰很快", "en": "I bend quickly."},
+        {"zh": "地上的东西，先看有没有陷阱", "en": "Let me check for traps first."},
+        {"zh": "这块铁，回去能换东西", "en": "This iron will trade for something."},
+        {"zh": "我把它塞进皮袋", "en": "I stuff it into the hide bag."},
+        {"zh": "这东西不轻", "en": "This isn't light."},
+        {"zh": "掉了的箭我一根不落", "en": "I don't leave a single dropped arrow."},
+        {"zh": "这个味道不对", "en": "This doesn't smell right."},
+        {"zh": "归我了", "en": "Mine now."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那边的草动了", "en": "The grass moved over there."},
+        {"zh": "我看见你的头了", "en": "I saw your head."},
+        {"zh": "弓抬起来，箭搭上", "en": "Bow up, arrow nocked."},
+        {"zh": "这个距离，我有把握", "en": "At this range I'm confident."},
+        {"zh": "我的弓已经拉成了满月。", "en": "My bow is drawn to a full moon."},
+        {"zh": "树干挡着你一半", "en": "The trunk covers half of you."},
+        {"zh": "你站在空地上了", "en": "You're standing in the open."},
+        {"zh": "人只有一个", "en": "Only one of them."},
+        {"zh": "你还没看见我", "en": "You haven't seen me yet."},
+        {"zh": "这是最好的角度", "en": "This is the best angle."},
+        {"zh": "村子那边没人过来", "en": "No one's coming from the village."},
+        {"zh": "我看见烟了", "en": "I see smoke."},
+        {"zh": "它比你更值钱", "en": "Its pelt is worth more than you."},
+        {"zh": "先拉满", "en": "Full draw first."},
+        {"zh": "就这一箭", "en": "Just this one arrow."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把弓拉满", "en": "I draw the bow full."},
+        {"zh": "再等一步", "en": "One more step."},
+        {"zh": "风从你那边吹来，正好", "en": "The wind comes from your side, perfect."},
+        {"zh": "你转身了", "en": "You turned."},
+        {"zh": "你往树后走", "en": "You're moving behind the tree."},
+        {"zh": "我换个树桩", "en": "I switch to another stump."},
+        {"zh": "箭尖对着你的胸口", "en": "My arrow points at your chest."},
+        {"zh": "你听见弦声了", "en": "You heard the string."},
+        {"zh": "我不急，猎物都会停", "en": "No rush; prey always stops."},
+        {"zh": "距离越来越合适", "en": "The range keeps improving."},
+        {"zh": "你退，我就等", "en": "You retreat, and I wait."},
+        {"zh": "我在绕你的上风", "en": "I'm working around to your upwind."},
+        {"zh": "脚在草里慢慢挪", "en": "I shift my feet slowly in the grass."},
+        {"zh": "你抬手了", "en": "You raised a hand."},
+        {"zh": "这一箭要中脖子", "en": "This arrow goes for the neck."},
+        {"zh": "呼吸放慢", "en": "Breathing slows."},
+        {"zh": "你踩进泥里了", "en": "You stepped into mud."},
+        {"zh": "草的缝里，刚好", "en": "Through the gap in the grass, perfect."},
+        {"zh": "最后一息", "en": "One last breath."},
+        {"zh": "放", "en": "Loose."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一箭出去，很快", "en": "One arrow, very quick."},
+        {"zh": "我换箭，再射", "en": "I swap arrows and shoot again."},
+        {"zh": "你冲过来，我先退", "en": "You charge; I retreat first."},
+        {"zh": "近距离我也能射", "en": "I can shoot at close range too."},
+        {"zh": "弓梢打在你手上", "en": "The bow's tip cracks your hand."},
+        {"zh": "你挡住箭，露了肩", "en": "You blocked the arrow and exposed a shoulder."},
+        {"zh": "第二箭追着你", "en": "The second arrow follows you."},
+        {"zh": "我把你逼到树边", "en": "I back you against the tree."},
+        {"zh": "这一箭偏了半寸", "en": "That one was half an inch off."},
+        {"zh": "我抽第三支", "en": "I draw a third."},
+        {"zh": "你退了，我就换地方", "en": "You retreat; I relocate."},
+        {"zh": "我射的是你的腿", "en": "I aimed at your leg."},
+        {"zh": "弦松了，我重新拉", "en": "The string slipped; I draw again."},
+        {"zh": "这一下，够你慢一点", "en": "That will slow you a little."},
+        {"zh": "我不喜欢追人", "en": "I dislike chasing people."},
+        {"zh": "你还有力气跑", "en": "You still have strength to run."},
+        {"zh": "我又退了两步", "en": "I step back twice more."},
+        {"zh": "箭只剩五支", "en": "Five arrows left."},
+        {"zh": "你别过来", "en": "Don't come closer."},
+        {"zh": "我停手了", "en": "I stopped."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从树后站起来", "en": "I stand up from behind the tree."},
+        {"zh": "弓已经在手里了", "en": "The bow is already in my hand."},
+        {"zh": "我蹲进草里，只露出头", "en": "I crouch in the grass with only my head showing."},
+        {"zh": "这村子外面，我盯了几天", "en": "I've watched outside this village for days."},
+        {"zh": "风从远处过来", "en": "The wind comes from far off."},
+        {"zh": "我数过这里的每一条路", "en": "I've counted every path here."},
+        {"zh": "我把箭尾咬齐", "en": "I bite the arrow's tail even."},
+        {"zh": "草叶合上，看不见我了", "en": "The grass closes and I'm invisible."},
+        {"zh": "我抬起弓", "en": "I raise the bow."},
+        {"zh": "有人从那边过来", "en": "Someone's coming from that way."},
+        {"zh": "这里的兽皮味是我留的", "en": "The pelt smell here is mine."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火一烧，皮子先焦", "en": "Fire scorches my furs first."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从树上摔下来，崴了脚", "en": "I fell from the tree and twisted my ankle."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水里我拉不开弓", "en": "I can't draw a bow in water."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸得我贴在地上", "en": "The blast flattened me."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "对方也有箭，扎在我肩上", "en": "They had arrows too; one took my shoulder."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "法术打来，我眼睛一花", "en": "The spell hit and my vision blurred."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿着的时候，拉不满弓", "en": "Hungry, I can't draw full."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷落地，皮子都立起来", "en": "Lightning struck and my furs bristled."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空里没有树可以躲", "en": "No tree to hide behind in the void."}
+      ]
+    }
+  }
+}

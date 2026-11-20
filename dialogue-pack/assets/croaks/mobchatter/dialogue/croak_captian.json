@@ -1,0 +1,256 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一跳一跳地推进。", "en": "I advance in heavy hops."},
+        {"zh": "湿地上留下大脚印。", "en": "Big prints mark the marsh."},
+        {"zh": "我朝蛙村的方向去。", "en": "I head for the frog village."},
+        {"zh": "喉咙鼓起来又落下。", "en": "My throat swells and drops."},
+        {"zh": "这身皮是从腐木里长出来的。", "en": "This hide grew out of rotten wood."},
+        {"zh": "我踩碎一片苔藓。", "en": "I crush a patch of moss."},
+        {"zh": "队伍跟在我后头。", "en": "The warband follows behind me."},
+        {"zh": "我跳过倒下的树干。", "en": "I hop over a fallen trunk."},
+        {"zh": "水面被我震出圈。", "en": "My landing rings the water."},
+        {"zh": "我一步一步压近。", "en": "I press closer step by step."},
+        {"zh": "雾气让我更难被发现。", "en": "The fog makes me harder to spot."},
+        {"zh": "我不急，村子跑不掉。", "en": "No rush; the village can't flee."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我蹲在烂泥里。", "en": "I squat in the mud."},
+        {"zh": "喉咙一鼓一鼓。", "en": "My throat pulses."},
+        {"zh": "我在听村里的动静。", "en": "I listen to the village."},
+        {"zh": "腐木的气味贴着我。", "en": "The smell of rot clings to me."},
+        {"zh": "我慢慢眨着眼。", "en": "I blink slowly."},
+        {"zh": "水里有我的倒影。", "en": "My reflection sits in the water."},
+        {"zh": "我在等天色暗下来。", "en": "I wait for the light to fail."},
+        {"zh": "我的属下在附近。", "en": "My underlings are nearby."},
+        {"zh": "风把我的气味吹向村子。", "en": "Wind carries my scent to the village."},
+        {"zh": "这片沼泽我熟。", "en": "I know this marsh."},
+        {"zh": "我在数他们的守卫。", "en": "I'm counting their guards."},
+        {"zh": "等月亮再高一点。", "en": "A little longer."},
+        {"zh": "我蹲在苔石上，等队伍到齐。", "en": "I squat on a mossy stone, waiting for the squad."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你要护着那些蛙？", "en": "You'd shield those frogs?"},
+        {"zh": "我从腐木里来。", "en": "I came from the rotten wood."},
+        {"zh": "你身上是蛙村的味道。", "en": "You smell of the frog village."},
+        {"zh": "你不该站在我和村子之间。", "en": "You shouldn't stand between me and the village."},
+        {"zh": "我的喉咙能叫得整片沼泽都听见。", "en": "My call carries across the whole marsh."},
+        {"zh": "你手里的盾挡不住我。", "en": "That shield won't stop me."},
+        {"zh": "你看我这身皮。", "en": "Look at this hide of mine."},
+        {"zh": "我们不是来谈的。", "en": "We didn't come to talk."},
+        {"zh": "你要么让开，要么留下。", "en": "Either step aside, or stay."},
+        {"zh": "我的兵会从水里上来。", "en": "My soldiers will rise from the water."},
+        {"zh": "你的村子墙太矮了。", "en": "Your village walls are too low."},
+        {"zh": "我看你像是想拦我。", "en": "You look like you mean to stop me."},
+        {"zh": "我数过你们的人数。", "en": "I've counted your numbers."},
+        {"zh": "别以为我不会跳墙。", "en": "Don't think I can't clear a wall."},
+        {"zh": "你手上那把剑太短。", "en": "That sword is too short."},
+        {"zh": "村口的火把照不到这里。", "en": "The torches at the gate don't reach here."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我退了半步，湿皮一抖。", "en": "I give half a step; my wet hide shivers."},
+        {"zh": "你敢对队长动手。", "en": "You dare strike."},
+        {"zh": "肩上的旧伤被这一剑挑开了。", "en": "That blade reopened the old wound on my shoulder."},
+        {"zh": "我喉咙里的气散了。", "en": "The air in my throat escapes."},
+        {"zh": "我按住了伤口。", "en": "I press the wound."},
+        {"zh": "湿皮上这道口不碍事。", "en": "This wound doesn't slow me."},
+        {"zh": "我现在看清你了。", "en": "I see you clearly now."},
+        {"zh": "你要付出代价。", "en": "You'll pay for that."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那点东西不够我塞牙。", "en": "That won't fill a gap in my teeth."},
+        {"zh": "这点吃食拦不住我的兵。", "en": "You think that would stop me?"},
+        {"zh": "沼泽里的虫子更合我口。", "en": "Marsh bugs suit me better."},
+        {"zh": "这味道太干净了。", "en": "The smell is too clean."},
+        {"zh": "你拿这个换村子？", "en": "You'd trade this for a village?"},
+        {"zh": "这点实在太少。", "en": "Too little."},
+        {"zh": "留着自己吃吧。", "en": "Eat it yourself."},
+        {"zh": "蛙村的灯火一亮，我就忍不住靠近。", "en": "When the frog village lights up, I can't help drawing near."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上的是湿皮。", "en": "You hit wet hide."},
+        {"zh": "蛙人的队伍，我来带。", "en": "I lead this band of frogfolk."},
+        {"zh": "你被弹到了一边。", "en": "You were knocked aside."},
+        {"zh": "这点力气不够挡我。", "en": "That's not enough to stop me."},
+        {"zh": "我踩到了你的脚。", "en": "I stepped on your foot."},
+        {"zh": "我的皮肤黏得很。", "en": "My skin is sticky."},
+        {"zh": "别整个人贴着我。", "en": "Don't press against me."},
+        {"zh": "你撞几次都推不动我。", "en": "Again and it's the same."},
+        {"zh": "你挡在错的位置。", "en": "You're standing in the wrong place."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沼泽里不需要这些。", "en": "The marsh doesn't need that."},
+        {"zh": "我要的是村子。", "en": "What I want is the village."},
+        {"zh": "这问题很可笑。", "en": "That question is absurd."},
+        {"zh": "你在拖延时间。", "en": "You're stalling."},
+        {"zh": "我的兵在等着。", "en": "My soldiers are waiting."},
+        {"zh": "你赶紧给我退开。", "en": "Move aside."},
+        {"zh": "寨子还没拿下，谈什么交配。", "en": "The village isn't taken yet; breeding can wait."},
+        {"zh": "别拿这种话挡我。", "en": "Don't use such words to stop me."},
+        {"zh": "你把时间浪费了。", "en": "You're wasting time."},
+        {"zh": "把中间的路让出来。", "en": "Make way."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一脚踩住了。", "en": "I stepped on it."},
+        {"zh": "不值钱的东西。", "en": "Worthless thing."},
+        {"zh": "我把它踢进泥里。", "en": "I kick it into the mud."},
+        {"zh": "有用的就带走。", "en": "Take it if it's useful."},
+        {"zh": "这是蛙村的东西吧。", "en": "This belongs to the frog village."},
+        {"zh": "我留着当个记号。", "en": "I'll keep it as a marker."},
+        {"zh": "这点分量不够我掂。", "en": "Too light."},
+        {"zh": "把它扔到一边去。", "en": "Toss it aside."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "村口那边有动静。", "en": "Something's stirring at the gate."},
+        {"zh": "我盯上那个守卫。", "en": "I've marked that guard."},
+        {"zh": "我的喉咙鼓满了气。", "en": "My throat is full of air."},
+        {"zh": "先叫一声给他们听。", "en": "First, a call for them to hear."},
+        {"zh": "这一跳就够到墙根。", "en": "One hop takes me to the wall."},
+        {"zh": "我要先解决你。", "en": "I'll deal with you first."},
+        {"zh": "腐木给了我力气。", "en": "The rotten wood gave me strength."},
+        {"zh": "守卫的甲片声，我听得清清楚楚。", "en": "I can hear the plates of the village guard."},
+        {"zh": "我们全都到了。", "en": "We are here."},
+        {"zh": "这就只是个开始。", "en": "This is the beginning."},
+        {"zh": "别看后面，我在正面。", "en": "Don't look behind; I'm in front."},
+        {"zh": "我数三声，你们就上。", "en": "I count to three."},
+        {"zh": "你给我让出一条路。", "en": "Clear a path for me."},
+        {"zh": "今晚村子要烧。", "en": "Tonight the village burns."},
+        {"zh": "我已经锁住你了。", "en": "I've locked onto you."},
+        {"zh": "全都给我起来。", "en": "Rise."},
+        {"zh": "跟着我往前走。", "en": "Go."},
+        {"zh": "趁火把还没点起来。", "en": "Now."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一跳一跳地逼近。", "en": "I close in hop by hop."},
+        {"zh": "你在往门槛退。", "en": "You're backing toward the threshold."},
+        {"zh": "我的兵从两边包。", "en": "My soldiers flank from both sides."},
+        {"zh": "你挡住的那扇门会先倒。", "en": "The door you guard falls first."},
+        {"zh": "你的箭射不穿湿皮。", "en": "Arrows won't pierce wet hide."},
+        {"zh": "村里的人在喊。", "en": "The villagers are shouting."},
+        {"zh": "我把你逼到火把下。", "en": "I drive you into the torchlight."},
+        {"zh": "你还能跳得动吗？", "en": "Can you still hop?"},
+        {"zh": "我叫一声，你就乱了。", "en": "One call and you'll break."},
+        {"zh": "你握矛的手在抖。", "en": "Your hands are shaking."},
+        {"zh": "我把你留给后面的人。", "en": "I'll leave you to those behind me."},
+        {"zh": "最后一次机会。", "en": "Last chance."},
+        {"zh": "你给我让开路。", "en": "Step aside."},
+        {"zh": "我已经到你面前了。", "en": "Here."},
+        {"zh": "别喘了，来不及。", "en": "Stop panting; too late."},
+        {"zh": "我说过我会来。", "en": "I said I'd come."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "舌头抽出去了！", "en": "The tongue lashes out!"},
+        {"zh": "一巴掌拍倒你。", "en": "One slap takes you down."},
+        {"zh": "湿皮撞在你胸口。", "en": "Wet hide slams your chest."},
+        {"zh": "你被我的体重压住。", "en": "My weight pins you down."},
+        {"zh": "这一跳落地就是一下。", "en": "I land and strike as one."},
+        {"zh": "我的喉咙发出低鸣。", "en": "A low hum comes from my throat."},
+        {"zh": "你连退了两步。", "en": "You gave two steps."},
+        {"zh": "别拿剑背来挡。", "en": "Don't block with the flat."},
+        {"zh": "我再来上一下。", "en": "Again."},
+        {"zh": "你的甲裂了一道。", "en": "Your armor split."},
+        {"zh": "这点伤换你一条腿。", "en": "A small wound for your leg."},
+        {"zh": "蛙村的鼓，敲得我心烦。", "en": "The frog village drums are getting on my nerves."},
+        {"zh": "村门就在后面。", "en": "The village gate is right behind."},
+        {"zh": "我压着你不起。", "en": "I hold you down."},
+        {"zh": "你倒是叫出声啊。", "en": "Scream."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从腐木里钻出来。", "en": "I crawl out of the rotten wood."},
+        {"zh": "沼泽的水漫到我的膝。", "en": "Marsh water reaches my knees."},
+        {"zh": "我抖掉背上的苔。", "en": "I shake the moss off my back."},
+        {"zh": "空气里全是村子味。", "en": "The air is thick with village smell."},
+        {"zh": "我的兵陆续起来。", "en": "My soldiers rise one by one."},
+        {"zh": "喉咙鼓起来，先叫一声。", "en": "Throat swelling; a first call."},
+        {"zh": "这里离村口不远。", "en": "The village gate isn't far."},
+        {"zh": "天还没黑下来。", "en": "It's not dark yet."},
+        {"zh": "我先看清守卫的位置。", "en": "First, I place the guards."},
+        {"zh": "雾对我们有利。", "en": "The fog favors us."},
+        {"zh": "让他们都听见。", "en": "Let them hear."},
+        {"zh": "整片沼泽都听见了。", "en": "The whole marsh heard that."},
+        {"zh": "村子就在那边。", "en": "The village is that way."},
+        {"zh": "我们这就走了。", "en": "Move."},
+        {"zh": "这一夜不会安静。", "en": "This night won't be quiet."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎到湿皮，冒出白气。", "en": "Fire hits my wet hide and steam rises."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从墙上掉下来，砸进泥里。", "en": "I fell off the wall into the mud."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水堵住我的喉咙，我叫不出声。", "en": "Water plugs my throat; I can't call."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蛙族队长的肩，插着一支箭。", "en": "An arrow sticks in the frog captain's shoulder."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咒力缠住我的喉咙。", "en": "Spellwork snared my throat."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得我叫不动了。", "en": "Too hungry to call."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在我的湿皮上，我僵住了。", "en": "Lightning struck my wet hide; I went stiff."}
+      ]
+    }
+  }
+}

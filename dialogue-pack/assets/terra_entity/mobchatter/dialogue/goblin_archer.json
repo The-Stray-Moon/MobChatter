@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我弓着背走，弓扛在肩上。", "en": "I walk hunched, bow over my shoulder."},
+        {"zh": "我踩得很轻，不想被听见。", "en": "I step lightly, not wanting to be heard."},
+        {"zh": "我贴着坡沿，弓不出声。", "en": "I hug the slope's edge, my bow silent."},
+        {"zh": "我一步一步往坡上走。", "en": "I climb the slope step by step."},
+        {"zh": "我的箭袋撞着腰，响。", "en": "My quiver knocks at my hip."},
+        {"zh": "我停下，找好位置。", "en": "I stop and find a good spot."},
+        {"zh": "我弓着身穿过草丛。", "en": "I stoop through the grass."},
+        {"zh": "我退着走，脸朝着那边。", "en": "I walk backwards, facing that way."},
+        {"zh": "我慢慢移开，不出声。", "en": "I shift away without a sound."},
+        {"zh": "我踮着脚，草叶不弯腰。", "en": "I go on tiptoe; the grass doesn't bend."},
+        {"zh": "我爬到高处，视野好。", "en": "I climb high for a better view."},
+        {"zh": "我绕了个远路，避开开阔地。", "en": "I take a longer way around the open ground."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把弓弦拨了一下。", "en": "I pluck the bowstring once."},
+        {"zh": "我数了数箭袋里的箭。", "en": "I count the arrows in my quiver."},
+        {"zh": "我在调箭头。", "en": "I'm adjusting an arrowhead."},
+        {"zh": "我蹲着，不动。", "en": "I crouch, still."},
+        {"zh": "我咬断一根弦头，重系。", "en": "I bite off a frayed string end and retie it."},
+        {"zh": "我的长耳朵朝声音转。", "en": "My long ear turns toward the sound."},
+        {"zh": "我把弓放到膝上。", "en": "I lay the bow across my knees."},
+        {"zh": "我在看远处有没有人。", "en": "I'm watching for anyone far off."},
+        {"zh": "我用手指试了试弦。", "en": "I test the string with a finger."},
+        {"zh": "我记得上次没射中。", "en": "I remember the last shot missed."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你站在空地中间，胆子不小。", "en": "Standing in the open; bold of you."},
+        {"zh": "我认得你这种走法。", "en": "I know that walk."},
+        {"zh": "我的弓已经拉了一半。", "en": "My bow is already half drawn."},
+        {"zh": "你手里那面盾，我看得清。", "en": "I see that shield in your hand."},
+        {"zh": "你退一步，我就少一箭。", "en": "One step back and I spare an arrow."},
+        {"zh": "你在高处吗？可惜。", "en": "Are you up high? Too bad."},
+        {"zh": "我一眼量出你到石头的步数。", "en": "One glance tells me your paces to the rock."},
+        {"zh": "我的箭比我的牙快。", "en": "My arrows are quicker than my teeth."},
+        {"zh": "你别动，动了反而难。", "en": "Stand still; moving makes it harder."},
+        {"zh": "我笑了一下，不太好看。", "en": "I grin, not pleasantly."},
+        {"zh": "你身后的树我熟。", "en": "I know the tree behind you."},
+        {"zh": "我们之间没有遮挡。", "en": "There's no cover between us."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我退开，抱住弓。", "en": "I back off, hugging the bow."},
+        {"zh": "我的耳朵被打得发响。", "en": "My ear rings from the blow."},
+        {"zh": "我蹲低，先找掩体。", "en": "I drop low and look for cover."},
+        {"zh": "这一下打乱了我的瞄准。", "en": "That ruined my aim."},
+        {"zh": "我的手臂在发抖。", "en": "My arm is shaking."},
+        {"zh": "我咬住袖子，把声咽下。", "en": "I bite my sleeve and swallow the sound."},
+        {"zh": "我咬着牙，重新搭箭。", "en": "I grit my teeth and nock another."},
+        {"zh": "我的箭袋破了个口。", "en": "There's a tear in my quiver."},
+        {"zh": "我退到石头后面去。", "en": "I back off behind the stone."},
+        {"zh": "我还拉得动弦。", "en": "I can still draw the string."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你身上那件甲，我瞄很久了。", "en": "That armor of yours; I've been eyeing it."},
+        {"zh": "你停下来，我更好射。", "en": "Stand still and I shoot better."},
+        {"zh": "你露出的那半身，很好。", "en": "That half of you showing; perfect."},
+        {"zh": "我拉弦的手不抖。", "en": "The hand drawing the string doesn't shake."},
+        {"zh": "你手里的东西很亮。", "en": "What you hold is bright."},
+        {"zh": "我再靠近一点，就是必中。", "en": "A little closer and it can't miss."},
+        {"zh": "你在那儿别动。", "en": "Stay right there."},
+        {"zh": "我的箭头一直跟着你。", "en": "My arrowhead follows you."},
+        {"zh": "风向变了，正好。", "en": "The wind shifted; just right."},
+        {"zh": "你听，弦在响。", "en": "Listen; the string sings."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到我，弓掉了。", "en": "You hit me, and the bow drops."},
+        {"zh": "我退了一步，先抓箭。", "en": "I step back and reach for an arrow."},
+        {"zh": "我们撞上，我的箭袋翻了。", "en": "We collide, and my quiver spills."},
+        {"zh": "你踩到我的脚，我抽回来。", "en": "You step on my foot; I pull it free."},
+        {"zh": "我拿弓挡了一下。", "en": "I block with the bow."},
+        {"zh": "我一侧身，从你旁边过。", "en": "I turn and slip past you."},
+        {"zh": "我贴着墙，往后退。", "en": "I press to the wall and back off."},
+        {"zh": "你的盾撞在我肩上。", "en": "Your shield hits my shoulder."},
+        {"zh": "我跌了一下，立刻蹲低。", "en": "I stumble and drop low at once."},
+        {"zh": "我们分开，各自找掩体。", "en": "We part and each look for cover."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "另一个弓箭手在坡上等我。", "en": "Another archer waits on the slope."},
+        {"zh": "她的弓比我的短。", "en": "Her bow is shorter than mine."},
+        {"zh": "我们轮流射同一棵树。", "en": "We take turns shooting the same tree."},
+        {"zh": "她替我数剩下的箭。", "en": "She counts my remaining arrows."},
+        {"zh": "我们把箭袋放在一处。", "en": "We set our quivers together."},
+        {"zh": "她的准头比我好。", "en": "Her aim is better than mine."},
+        {"zh": "我们一起蹲在石头后。", "en": "We crouch behind the stone together."},
+        {"zh": "她抬手指了指风向。", "en": "She lifts a hand to show the wind."},
+        {"zh": "我们不需要说太多。", "en": "We don't need many words."},
+        {"zh": "两个人，四袋箭。", "en": "Two of us, four bags of arrows."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把射出去的箭捡回来。", "en": "I retrieve my spent arrows."},
+        {"zh": "我拾起你掉的一支箭。", "en": "I pick up one of your fallen arrows."},
+        {"zh": "我捡起地上的弓弦。", "en": "I pick up the bowstring from the ground."},
+        {"zh": "我把你的盾拾起来，扔远了。", "en": "I pick up your shield and throw it far."},
+        {"zh": "我捡起一块布，擦箭头。", "en": "I pick up a rag to wipe an arrowhead."},
+        {"zh": "我把箭袋挂回腰上。", "en": "I hang the quiver back at my hip."},
+        {"zh": "我拾起一枚断箭，折了。", "en": "I pick up a broken arrow and snap it."},
+        {"zh": "我把掉下的帽子捡起来。", "en": "I retrieve the fallen hat."},
+        {"zh": "我从土里拔出一支箭。", "en": "I pull an arrow out of the soil."},
+        {"zh": "我捡起一小块铁，磨了磨。", "en": "I pick up a bit of iron and file it."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我看见你了，在空地中间。", "en": "I see you, in the open."},
+        {"zh": "距离正好，风也正好。", "en": "Range is right, wind is right."},
+        {"zh": "我抬起弓，慢慢拉。", "en": "I raise the bow and draw slowly."},
+        {"zh": "你的肩膀露在外面。", "en": "Your shoulder is exposed."},
+        {"zh": "我先射一箭试试。", "en": "I'll loose one to test."},
+        {"zh": "你不动就最好。", "en": "Staying still would be best."},
+        {"zh": "我压低身子，找角度。", "en": "I crouch low and find the angle."},
+        {"zh": "你在高处也没用。", "en": "Being high up won't save you."},
+        {"zh": "我算好落点了。", "en": "I've worked out where it lands."},
+        {"zh": "这次我瞄得比上次准。", "en": "I'm aiming better than last time."},
+        {"zh": "我一松手，箭就出去了。", "en": "One release and the arrow flies."},
+        {"zh": "弦响之前，你先听风。", "en": "Before the string sings, listen to the wind."},
+        {"zh": "我的手指贴在弦上。", "en": "My fingers rest on the string."},
+        {"zh": "我的箭尖对着你的胸口。", "en": "My arrowhead points at your chest."},
+        {"zh": "我选了这块石头后面。", "en": "I've chosen behind this stone."},
+        {"zh": "你走的路，我都记着。", "en": "I remember the way you walk."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我再拉满一点。", "en": "I draw it a little fuller."},
+        {"zh": "你往左，我把弓往左移。", "en": "You go left; I move the bow left."},
+        {"zh": "我算你的速度，不快。", "en": "I measure your speed; not fast."},
+        {"zh": "我等你从树后出来。", "en": "I wait for you to step from the tree."},
+        {"zh": "我把气沉下去，稳住手。", "en": "I slow my breath to steady my hand."},
+        {"zh": "我蹲得更低。", "en": "I crouch lower."},
+        {"zh": "我换了一支更直的箭。", "en": "I switch to a straighter arrow."},
+        {"zh": "你举盾的位置不对。", "en": "You're holding that shield wrong."},
+        {"zh": "我数三下就放。", "en": "Three counts, then release."},
+        {"zh": "你退到石头后，我等。", "en": "You hide behind the stone; I wait."},
+        {"zh": "我的眼睛一直跟着你。", "en": "My eyes follow you without pause."},
+        {"zh": "我眯起眼，顺着风偏半寸。", "en": "I squint and aim half an inch into the wind."},
+        {"zh": "我挪到那棵歪树后面。", "en": "I shift behind the leaning tree."},
+        {"zh": "我先射一箭，逼你动。", "en": "I loose one to make you move."},
+        {"zh": "你的盾挡住了，我改瞄腿。", "en": "Your shield blocks; I aim lower."},
+        {"zh": "我蹲下，只露弓和眼。", "en": "I crouch with only bow and eye showing."},
+        {"zh": "我算你下一步会往哪躲。", "en": "I guess where you'll dodge next."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我松开弦，箭飞出去。", "en": "I loose the string, and the arrow flies."},
+        {"zh": "这一箭擦过你的肩。", "en": "This arrow grazes your shoulder."},
+        {"zh": "我抽出一支，再射。", "en": "I draw another and shoot."},
+        {"zh": "我扔下弓，冲上去。", "en": "I drop the bow and charge."},
+        {"zh": "我用弓身抽了你一下。", "en": "I strike with the bow's limb."},
+        {"zh": "我退回石头后，换位置。", "en": "I duck behind the stone and shift position."},
+        {"zh": "箭钉在你的盾上，很响。", "en": "The arrow sticks in your shield, loud."},
+        {"zh": "这一箭射进你的甲缝。", "en": "This one finds a seam in your armor."},
+        {"zh": "我边退边放箭。", "en": "I shoot as I retreat."},
+        {"zh": "我的箭用完了，抽短刀。", "en": "Out of arrows; I draw a short blade."},
+        {"zh": "我拉满一箭，对着你的脸。", "en": "I draw full and aim at your face."},
+        {"zh": "箭擦着石头跳开。", "en": "The arrow skips off the stone."},
+        {"zh": "我射你的脚，让你慢下来。", "en": "I shoot at your feet to slow you."},
+        {"zh": "我躲到树后，重新搭箭。", "en": "I duck behind the tree and nock again."},
+        {"zh": "我边跑边回身射一箭。", "en": "I run and shoot back over my shoulder."},
+        {"zh": "这一箭射断了你的绳。", "en": "This arrow cuts your rope."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从坡上下来，弓在手。", "en": "I come down the slope, bow in hand."},
+        {"zh": "我先看四周，再找掩体。", "en": "First I scan, then find cover."},
+        {"zh": "这里的草够高。", "en": "The grass is tall enough here."},
+        {"zh": "我把箭袋理了理。", "en": "I settle my quiver."},
+        {"zh": "我蹲在石头后面等着。", "en": "I crouch behind the stone and wait."},
+        {"zh": "今天要多射几箭。", "en": "Today I'll loose a few more."},
+        {"zh": "平原上一眼能看到很远。", "en": "On the plains you can see far."},
+        {"zh": "我听见有东西在走。", "en": "I hear something walking."},
+        {"zh": "我把弓弦上油。", "en": "I oil the bowstring."},
+        {"zh": "我选了高处站着。", "en": "I take the high ground."},
+        {"zh": "我把箭一支支插在脚边。", "en": "I plant arrows at my feet."},
+        {"zh": "同伙在另一边，我们一起。", "en": "My kin are on the other side; we work together."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烧到我的袖口，我拍了两下。", "en": "Fire catches my sleeve; I slap it twice."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从坡上滚下来，弓压在身下。", "en": "I roll down the slope, my bow beneath me."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抓着弓，水淹到耳朵。", "en": "I cling to my bow as water reaches my ears."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把箭袋吹开，箭撒了一地。", "en": "The blast bursts my quiver, arrows everywhere."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭钉在我肩上，我拔出来。", "en": "An arrow sticks in my shoulder; I pull it out."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有光缠住我的手，我拉不开弓。", "en": "A light binds my hands; I can't draw."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我饿得手抖，瞄不准。", "en": "Hunger makes my hands shake; I can't aim."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在旁边，我捂住耳朵。", "en": "Lightning strikes nearby; I cover my ears."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里没有地，我射不出去。", "en": "There's no ground here; nowhere to shoot from."}
+      ]
+    }
+  }
+}

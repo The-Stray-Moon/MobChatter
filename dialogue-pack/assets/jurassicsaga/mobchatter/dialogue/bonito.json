@@ -1,0 +1,221 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摆尾往前游，身体一亮一暗。", "en": "I swim with a tailbeat, my body flashing."},
+        {"zh": "背上的条纹在水里忽明忽暗。", "en": "The stripes on my back flicker underwater."},
+        {"zh": "我贴着一群小鱼游过去。", "en": "I glide past a school of small fish."},
+        {"zh": "我转了个方向，绕开礁石。", "en": "I turn to avoid the rock."},
+        {"zh": "水的阻力让我慢下来。", "en": "The water slows me."},
+        {"zh": "我摆动胸鳍，稳住身体。", "en": "I steady myself with my pectoral fins."},
+        {"zh": "我一路跟着水流往深处。", "en": "I follow the current deeper."},
+        {"zh": "我从海草边上滑过。", "en": "I slip past the seagrass."},
+        {"zh": "我在水里一个侧身。", "en": "I bank on my side."},
+        {"zh": "我往上浮，又落下来。", "en": "I rise, then settle."},
+        {"zh": "我穿过一片光斑。", "en": "I cross a patch of light."},
+        {"zh": "我的尾巴有力地摆了两下。", "en": "Two strong beats of my tail."},
+        {"zh": "我沿着珊瑚的边缘走。", "en": "I cruise the edge of the coral."},
+        {"zh": "我停下来，悬在水里。", "en": "I stop and hover."},
+        {"zh": "我换了个水层。", "en": "I change depth."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我悬着，鳍轻轻摆。", "en": "I hover, fins barely moving."},
+        {"zh": "水从我的鳃上过。", "en": "Water passes over my gills."},
+        {"zh": "我的身体在光里泛蓝。", "en": "My body shows blue in the light."},
+        {"zh": "我不动，让水托着。", "en": "I hold still and let the water hold me."},
+        {"zh": "附近有小鱼在动。", "en": "Small fish move nearby."},
+        {"zh": "我一动不动，只让鳃开合。", "en": "I hold still and let my gills work."},
+        {"zh": "我的条纹正好藏身。", "en": "My stripes make good cover."},
+        {"zh": "我轻轻摆了摆尾。", "en": "I flick my tail lightly."},
+        {"zh": "我等着水流把我带走。", "en": "I wait for the current to carry me."},
+        {"zh": "我把鳍收了一点。", "en": "I fold my fins in a little."},
+        {"zh": "我把鳍竖起来，随水漂。", "en": "I raise my fins and drift."},
+        {"zh": "一群小鱼从我身边绕过。", "en": "A school of small fish curves around me."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我停在你面前的水里。", "en": "I stop in the water before you."},
+        {"zh": "你比我大得多。", "en": "You're much bigger than me."},
+        {"zh": "我慢慢往旁边游。", "en": "I drift sideways."},
+        {"zh": "水面的光挡着我看你。", "en": "The surface light obscures you."},
+        {"zh": "你在岸上站着，我绕了两圈。", "en": "You stand on the bank; I circle twice."},
+        {"zh": "我又游近了一点。", "en": "I come a little closer."},
+        {"zh": "你的影子投进水里。", "en": "Your shadow falls into the water."},
+        {"zh": "我绕着那影子转。", "en": "I circle that shadow."},
+        {"zh": "我不确定那是什么。", "en": "I'm not sure what it is."},
+        {"zh": "我把嘴朝上，看你映在水面。", "en": "Mouth up, I watch you in the surface."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在水里翻了个身，鳞闪了一下。", "en": "I roll over in the water and a scale flashes."},
+        {"zh": "侧面的鳞翻起来，露出白肉。", "en": "A flank scale lifts, showing white flesh."},
+        {"zh": "我拼命摆尾。", "en": "I beat my tail hard."},
+        {"zh": "鳃急促地开合。", "en": "My gills pump fast."},
+        {"zh": "我往深处游。", "en": "I dive deeper."},
+        {"zh": "我的方向乱了。", "en": "I've lost my heading."},
+        {"zh": "这一下伤到了侧面。", "en": "That hit my flank."},
+        {"zh": "水里我成群，别追。", "en": "In water we shoal; don't chase."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水里有碎屑。", "en": "There are scraps in the water."},
+        {"zh": "你撒下来的东西，我看见了。", "en": "I see what you scattered."},
+        {"zh": "我游过去。", "en": "I swim over."},
+        {"zh": "我张开嘴，滤了一口。", "en": "I open my mouth and filter a mouthful."},
+        {"zh": "水流把味道带走了。", "en": "The current carries the taste away."},
+        {"zh": "我跟着味道游。", "en": "I follow the taste."},
+        {"zh": "你在船上吗？", "en": "Are you in a boat?"},
+        {"zh": "我再吃一口就走。", "en": "One more bite and I'll go."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被撞得横过来，鳍全乱了。", "en": "Knocked sideways, my fins all splayed."},
+        {"zh": "鳞片上蹭掉了一片。", "en": "A scale is scraped off."},
+        {"zh": "你的动作太重了。", "en": "Your movements are too heavy."},
+        {"zh": "我绕了半圈才稳住。", "en": "It takes half a turn to steady."},
+        {"zh": "我的鳃急促地动。", "en": "My gills work fast."},
+        {"zh": "我们互不相干。", "en": "We'll leave each other alone."},
+        {"zh": "我沉下去，躲进暗一点的水层。", "en": "I sink into a dimmer layer of water."},
+        {"zh": "我只是条鲣鱼，别撞我。", "en": "I'm only a bonito. Don't bump into me."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鱼群里有同类。", "en": "Kin in the school."},
+        {"zh": "我们并排游。", "en": "We swim side by side."},
+        {"zh": "条纹对着条纹。", "en": "Stripe to stripe."},
+        {"zh": "我们一起转了个弯。", "en": "We bank together."},
+        {"zh": "它先游走了。", "en": "It swims off first."},
+        {"zh": "水里有细小的卵。", "en": "There are tiny eggs in the water."},
+        {"zh": "它们会随水流散开。", "en": "The current will spread them."},
+        {"zh": "我继续往前，海水的温度刚好。", "en": "I move on; the seawater temperature is just right."},
+        {"zh": "这片海够大。", "en": "The sea is big enough."},
+        {"zh": "我跟着群游。", "en": "I stay with the school."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我张开嘴，滤进去。", "en": "I open my mouth and filter it."},
+        {"zh": "太小了，感觉不到。", "en": "So small I can't feel it."},
+        {"zh": "尝了一口，不是吃的。", "en": "I taste it once. Not food."},
+        {"zh": "我背上的条纹在水里忽明忽暗。", "en": "The stripes on my back fade and brighten."},
+        {"zh": "图鉴没写我，我也照样游。", "en": "The field guide skipped me. I swim anyway."},
+        {"zh": "图鉴里没写我，我也游。", "en": "No entry in the book. I swim anyway."},
+        {"zh": "我追下去。", "en": "I chase it down."},
+        {"zh": "追到了，我又吐掉。", "en": "I catch it and spit it out."},
+        {"zh": "我回到原来的水层。", "en": "I return to my depth."},
+        {"zh": "还是水里的碎屑好。", "en": "The scraps in the water are better."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水纹一圈圈推过来，有东西。", "en": "Ripples push toward me. Something's there."},
+        {"zh": "我停下来，先看清你。", "en": "I stop and look you over first."},
+        {"zh": "它游得比我快。", "en": "It swims faster than me."},
+        {"zh": "我掉头。", "en": "I turn away."},
+        {"zh": "那片影子很大。", "en": "That shadow is large."},
+        {"zh": "我往深处躲。", "en": "I hide deeper."},
+        {"zh": "鳃动得更快了。", "en": "My gills work faster."},
+        {"zh": "我等了一会。", "en": "I wait a while."},
+        {"zh": "水里又安静了。", "en": "The water is quiet again."},
+        {"zh": "我往礁石的阴影里挪。", "en": "I shift into the rock's shadow."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它还在上面。", "en": "It's still above."},
+        {"zh": "我贴着海草不动。", "en": "I hold by the seagrass."},
+        {"zh": "条纹把我藏住了。", "en": "My stripes hide me."},
+        {"zh": "它游过去了。", "en": "It passes by."},
+        {"zh": "水流变了方向。", "en": "The current has turned."},
+        {"zh": "上面没有动静了。", "en": "Nothing stirs above."},
+        {"zh": "我回到浅一些的水。", "en": "I return to shallower water."},
+        {"zh": "我摆尾往前。", "en": "I beat my tail and go."},
+        {"zh": "水底安静下来。", "en": "The bottom goes still."},
+        {"zh": "我贴着沙往前。", "en": "I move forward along the sand."},
+        {"zh": "上面的影子移开了。", "en": "The shadow above has moved on."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我撞了一下。", "en": "I bump into it."},
+        {"zh": "这一点力气不大。", "en": "It isn't much force."},
+        {"zh": "我用尾巴拍水。", "en": "I slap the water with my tail."},
+        {"zh": "水花把它推开了。", "en": "The splash pushes it away."},
+        {"zh": "我拍了一下尾巴就窜走了。", "en": "I flick my tail and bolt."},
+        {"zh": "鳃还在急促地动。", "en": "My gills are still racing."},
+        {"zh": "我一侧身，它扑了个空。", "en": "I turn side-on and it grabs nothing."},
+        {"zh": "我慢慢平静。", "en": "I calm down slowly."},
+        {"zh": "我一甩身，水花溅出去。", "en": "A twist of my body throws spray."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在浅水里出现。", "en": "I appear in the shallows."},
+        {"zh": "阳光穿过水面。", "en": "Sunlight pierces the surface."},
+        {"zh": "我摆尾试了试。", "en": "I test a tailbeat."},
+        {"zh": "浅滩的水晒得温温的。", "en": "The shallows are warm from the sun."},
+        {"zh": "有一群小鱼在附近。", "en": "A school of small fish is nearby."},
+        {"zh": "我朝它们游。", "en": "I swim toward them."},
+        {"zh": "我的条纹在光里闪。", "en": "My stripes flash in the light."},
+        {"zh": "我跟着群走。", "en": "I join the school."},
+        {"zh": "水里有很多声音。", "en": "There are many sounds in the water."},
+        {"zh": "我低下头，找吃的。", "en": "I dip down to feed."},
+        {"zh": "我抖了一下鳍。", "en": "I quiver my fins."},
+        {"zh": "海底的沙很白。", "en": "The seabed sand is white."},
+        {"zh": "我找到一处缓流。", "en": "I find a gentle current."},
+        {"zh": "我悬在那里。", "en": "I hang there."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水烫起来，我拼命往下钻。", "en": "The water heats and I dive."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔在水面上，翻了个身。", "en": "I hit the surface and roll."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我明明在水里，却透不过气。", "en": "In water, yet I can't breathe."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水下的冲击把我推出去很远。", "en": "The underwater blast throws me far."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得我游不动。", "en": "Too hungry to swim."}
+      ]
+    }
+  }
+}

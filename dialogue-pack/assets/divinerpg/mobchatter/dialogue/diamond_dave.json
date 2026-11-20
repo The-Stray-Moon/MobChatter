@@ -1,0 +1,282 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咯吱咯吱，金属声响起。", "en": "Squeak squeak, metal sounds."},
+        {"zh": "铁链叮当，脚步声回响。", "en": "Jingle jingle, footsteps echo."},
+        {"zh": "磨磨磨，刀片声不绝。", "en": "Grind grind, blade sounds endless."},
+        {"zh": "嘶嘶嘶，寒气随行。", "en": "Sssss, chill follows."},
+        {"zh": "嘎吱吱，关节作响。", "en": "Creak creak, joints creak."},
+        {"zh": "脚步沉重，金属碰撞。", "en": "Heavy footsteps, metal clashing."},
+        {"zh": "脚步声，地表颤抖。", "en": "Footsteps, ground trembles."},
+        {"zh": "金属摩擦，地面刮擦。", "en": "Metal scrape, ground scratches."},
+        {"zh": "叮叮当，铁链拖地。", "en": "Tinkle tinkle, chain drags."},
+        {"zh": "咯咯哒，齿轮转动。", "en": "Gogogo, gears turn."},
+        {"zh": "钻石碎屑从关节间掉落", "en": "Diamond dust falls from its joints."},
+        {"zh": "它拖着锁链碾过矿石", "en": "It drags its chain across the ore."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "机械沉默，静待时机。", "en": "Mechanical silence, waiting."},
+        {"zh": "转动齿轮，慢慢启动。", "en": "Turn gears, slowly start."},
+        {"zh": "铁锁无言，静候猎物。", "en": "Iron lock silent, waits."},
+        {"zh": "机械呼吸，深沉且慢。", "en": "Mechanical breath, deep and slow."},
+        {"zh": "铁爪微动，寻找目标。", "en": "Iron claws move, seek target."},
+        {"zh": "金属身躯，缓缓蠕动。", "en": "Metal body, slowly moves."},
+        {"zh": "铁索束缚，无法逃脱。", "en": "Iron chains, no escape."},
+        {"zh": "齿轮轻转，行动缓慢。", "en": "Gears turn, move slowly."},
+        {"zh": "机械身躯，一动不动。", "en": "Mechanical body, still."},
+        {"zh": "铁臂垂下，等待指令。", "en": "Iron arms down, wait orders."},
+        {"zh": "它摩挲着身上的晶体", "en": "It runs a hand over its crystal plates."},
+        {"zh": "它把断链接回腕上", "en": "It winds the broken chain back around its wrist."},
+        {"zh": "晶体在暗处泛出蓝光", "en": "Its crystals glow blue in the dark."},
+        {"zh": "它不动，像一条矿脉", "en": "It stands still as a vein of ore."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "目光冷冽，锁定玩家。", "en": "Cold gaze, player locked."},
+        {"zh": "铁眼闪烁，玩家入镜。", "en": "Iron eyes flash, player in sight."},
+        {"zh": "机械瞳孔，盯上猎物。", "en": "Mechanical pupils, target."},
+        {"zh": "铁目紧盯着，玩家在望。", "en": "Iron eyes fixed, player watching."},
+        {"zh": "机械瞳孔，锁定目标。", "en": "Mechanical pupils, target locked."},
+        {"zh": "冰冷目光，玩家被盯。", "en": "Cold gaze, player stared."},
+        {"zh": "机械眼眸，玩家入镜。", "en": "Mechanical eyes, player in sight."},
+        {"zh": "铁目凝视，玩家显眼。", "en": "Iron eyes, player obvious."},
+        {"zh": "机械瞳孔，玩家锁定。", "en": "Mechanical pupils, player targeted."},
+        {"zh": "铁目紧盯着，猎物在望。", "en": "Iron eyes fixed, prey watching."},
+        {"zh": "晶体的反光扫过你的脸", "en": "The gleam of its crystals sweeps your face."},
+        {"zh": "它在估你带没带钻石", "en": "It weighs whether you carry diamonds."},
+        {"zh": "它盯上你的镐，眼睛发亮", "en": "It fixes on your pickaxe, eyes brightening."},
+        {"zh": "它从矿石堆后探出头", "en": "It peers out from behind a heap of ore."},
+        {"zh": "它侧头听你包里的叮当", "en": "It tilts its head toward the clink in your pack."},
+        {"zh": "它的眼光落在你的镐尖", "en": "Its eye-light settles on your pick’s tip."},
+        {"zh": "它记住了你的站位", "en": "It marks where you stand and looks away no more."},
+        {"zh": "它看你像看未采的矿", "en": "It stares at you like unclaimed ore."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "身体疼痛，快找药！", "en": "Body hurts, need potion!"},
+        {"zh": "这伤怎么这么痛？", "en": "This hurt a lot!"},
+        {"zh": "伤口流血，快治伤！", "en": "Wound is bleeding, heal me!"},
+        {"zh": "骨头折了，很疼！", "en": "Broken bones, hurts!"},
+        {"zh": "箭伤了我，好疼！", "en": "Arrow in my side!"},
+        {"zh": "受了伤，动不了！", "en": "Injured, can't move!"},
+        {"zh": "伤口发炎，很痒！", "en": "Wound itches!"},
+        {"zh": "身体虚弱，快吃药！", "en": "Weak, need potion!"},
+        {"zh": "伤口疼痛难忍！", "en": "Painful wound!"},
+        {"zh": "晶体崩了一块，它疼得发抖", "en": "A crystal chips off and it shakes with pain."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出诱人的光芒，引诱你靠近。", "en": "Shines enticingly, drawing you closer."},
+        {"zh": "你听到地面下传来的声音，是他的呼吸。", "en": "You hear a breath beneath the ground."},
+        {"zh": "它的声音在黑暗中回荡，充满诱惑。", "en": "Its voice echoes in the darkness, enticingly."},
+        {"zh": "你发现它盯着你的矿石。", "en": "You see it staring at your ore."},
+        {"zh": "它似乎在等待最佳的狩猎时机。", "en": "It seems to be waiting for the perfect hunting opportunity."},
+        {"zh": "靠近它的矿洞入口，你感到一阵寒意。", "en": "Approaching its cave entrance, a chill runs down your spine."},
+        {"zh": "它的目光锐利，似乎能看透一切。", "en": "Its gaze is sharp, as if it can see through everything."},
+        {"zh": "它的叫声在夜空中回荡，令人不安。", "en": "Its call echoes through the night, unsettling."},
+        {"zh": "它的存在仿佛在警告你远离。", "en": "Its presence seems to warn you to stay away."},
+        {"zh": "它的声音中带着一种难以抗拒的吸引力。", "en": "Its voice holds an irresistible allure."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你一不小心撞上了它，几乎丧命。", "en": "You bump into it, nearly losing your life."},
+        {"zh": "你撞上它坚硬的躯体，感到剧痛。", "en": "You collide with its hard body, feeling intense pain."},
+        {"zh": "它的身体如此庞大，让你无法避免碰撞。", "en": "Its massive body makes collision inevitable."},
+        {"zh": "你和它在洞穴中碰撞，四处飞散。", "en": "You collide with it in the cave, scattering in all directions."},
+        {"zh": "它的触碰让你感到刺痛。", "en": "Its touch is painful."},
+        {"zh": "你和它在黑暗中擦身而过，几乎相撞。", "en": "You nearly collide with it in the darkness."},
+        {"zh": "它的动作快如闪电，你只能勉强避开。", "en": "Its movements are lightning fast, barely avoiding it."},
+        {"zh": "你试图避开它，却撞上它的尾巴。", "en": "You try to avoid it, but collide with its tail."},
+        {"zh": "它突然出现，迫使你改变方向。", "en": "It suddenly appears, forcing you to change direction."},
+        {"zh": "你试图绕过它，却意外撞上了它的领地。", "en": "You try to bypass it, but accidentally collide with its territory."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它开始发出求偶的低鸣声。", "en": "It begins to make low mating calls."},
+        {"zh": "它用低沉的声音吸引配偶。", "en": "It uses a deep sound to attract a mate."},
+        {"zh": "它的求偶声在空气中回荡。", "en": "Its mating call echoes through the air."},
+        {"zh": "它用特殊的声音吸引伴侣。", "en": "It uses a unique sound to attract a partner."},
+        {"zh": "它发出求偶的呢喃声。", "en": "It makes a soft mating whisper."},
+        {"zh": "它试图与潜在的配偶建立联系。", "en": "It tries to establish contact with a potential mate."},
+        {"zh": "它的声音中充满了对伴侣的渴望。", "en": "Its voice is filled with desire for a mate."},
+        {"zh": "它发出的求偶声吸引了另一只同类。", "en": "Its mating call attracts another of its kind."},
+        {"zh": "它在求偶中表现出异常的温顺。", "en": "It displays an unusual docility in mating."},
+        {"zh": "它的求偶声在夜晚格外响亮。", "en": "Its mating call is particularly loud at night."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闪烁的光芒吸引着我！", "en": "Flickering light draws me in!"},
+        {"zh": "这里应该有东西！", "en": "There must be something here!"},
+        {"zh": "钻石的光一闪，我就弯下腰。", "en": "A diamond glint, and I stoop to grab it."},
+        {"zh": "钻石！我的最爱！", "en": "Diamonds! My favorite!"},
+        {"zh": "这里感觉不对劲...", "en": "Something feels off..."},
+        {"zh": "声音来自下方！", "en": "Sound comes from below!"},
+        {"zh": "我的宝藏，别抢走！", "en": "My treasure, don't take it!"},
+        {"zh": "追踪那微弱的光芒...", "en": "Track the faint light..."},
+        {"zh": "找到它，然后带走！", "en": "Find it and take it!"},
+        {"zh": "小心，我的领地！", "en": "Watch out, this is my territory!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定目标，不要放手！", "en": "Target locked, don't let go!"},
+        {"zh": "你矿灯的光，照进了我的矿层。", "en": "Your headlamp shines into my ore layer."},
+        {"zh": "靠近，然后抓住它！", "en": "Approach and grab it!"},
+        {"zh": "感觉它的存在...", "en": "Sense its presence..."},
+        {"zh": "它就在那里，别错过！", "en": "It's there, don't miss it!"},
+        {"zh": "捕捉它的声音...", "en": "Capture its sound..."},
+        {"zh": "抓住机会，攻击它！", "en": "Seize the chance, attack it!"},
+        {"zh": "钻石在口袋里，别想抢。", "en": "The diamonds are in my pocket. Don't try."},
+        {"zh": "锁定并抓住它！", "en": "Lock and grab it!"},
+        {"zh": "瞄准，然后行动！", "en": "Target and act!"},
+        {"zh": "你身上的晶味暴露了你", "en": "The crystal scent on you gives you away."},
+        {"zh": "它锁定了你的矿灯", "en": "It locks onto your mining lamp."},
+        {"zh": "你挖进了它的矿层", "en": "You have broken into its ore layer."},
+        {"zh": "链条一绷，它开始追", "en": "The chain snaps taut and it gives chase."},
+        {"zh": "它当你是会走的矿脉", "en": "It takes you for a walking ore vein."},
+        {"zh": "它决定：你归它所有", "en": "It decides: you are its property."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我要吞噬你的心脏！", "en": "I'll devour your heart!"},
+        {"zh": "钻石在手里沉甸甸。", "en": "The diamond sits heavy in my hand."},
+        {"zh": "我把铁链在拳上绕了两圈。", "en": "I wrap the chain twice around my fist."},
+        {"zh": "它属于我！", "en": "It's mine!"},
+        {"zh": "感受到恐惧吧！", "en": "Feel the fear!"},
+        {"zh": "你逃不掉的，戴夫！", "en": "You can't escape, Dave!"},
+        {"zh": "等待你的只有死亡！", "en": "Death awaits you!"},
+        {"zh": "你已经没有选择了！", "en": "You have no choice!"},
+        {"zh": "你逃不掉，戴夫！", "en": "You can't escape, Dave!"},
+        {"zh": "恐惧将是你最后的伴侣！", "en": "Fear will be your last companion!"},
+        {"zh": "它一扣一扣收紧锁链", "en": "It reels the chain in, link by link."},
+        {"zh": "它用矿石堵死你的退路", "en": "It seals your retreat with chunks of ore."},
+        {"zh": "它把断链绕过头顶", "en": "It whirls the broken chain overhead."},
+        {"zh": "晶体在它拳上聚成尖刺", "en": "Crystals gather into spikes on its fist."},
+        {"zh": "它不急，矿跑不掉", "en": "It is in no hurry; ore does not escape."},
+        {"zh": "它在石上敲出回声", "en": "It strikes an echo from the stone."},
+        {"zh": "它算准距离，只差半步", "en": "It has the distance measured, half a step short."},
+        {"zh": "它压低身子，链条绷紧", "en": "It lowers its body; the chain draws tight."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "链条抽在地上，碎石乱跳。", "en": "The chain lashes the ground; gravel jumps."},
+        {"zh": "晶体从我的指节长出来。", "en": "Crystals grow out of my knuckles."},
+        {"zh": "躲不开就死定了！", "en": "Die if you can't dodge!"},
+        {"zh": "你的肉不够美味！", "en": "Your meat isn't tasty enough!"},
+        {"zh": "我用锁链把你的脚踝缠住。", "en": "I coil the chain around your ankle."},
+        {"zh": "我的牙齿要吃掉你！", "en": "My teeth will eat you!"},
+        {"zh": "你无法对抗我！", "en": "You can't fight me!"},
+        {"zh": "品尝我的剑齿！", "en": "Taste my fangs!"},
+        {"zh": "别试图逃跑！", "en": "Don't try to run!"},
+        {"zh": "我的剑齿会贯穿你！", "en": "My fangs will pierce you!"},
+        {"zh": "铁链抽在你背上", "en": "The chain lashes across your back."},
+        {"zh": "晶体拳砸碎了你的盾", "en": "A crystal fist shatters your shield."},
+        {"zh": "它用锁链把你拽过去", "en": "It hauls you toward itself by the chain."},
+        {"zh": "尖刺划开你的护甲", "en": "Its spikes open your armor."},
+        {"zh": "它把你按在矿脉上", "en": "It pins you against the ore vein."},
+        {"zh": "铁拳落下，地面塌了一角", "en": "The iron fist falls and a corner of the floor gives way."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里即将有猎物！", "en": "Prey is nearby!"},
+        {"zh": "我来了，懦夫！", "en": "Here I come, coward!"},
+        {"zh": "猎物的味道越来越浓！", "en": "The scent of prey grows stronger!"},
+        {"zh": "饥饿的时刻到了！", "en": "Hunger calls!"},
+        {"zh": "钻石戴夫来了，闪开。", "en": "Diamond Dave is here — clear out."},
+        {"zh": "寻找新的猎物！", "en": "Seek new prey!"},
+        {"zh": "我的眼睛从未撒谎！", "en": "My eyes never lie!"},
+        {"zh": "我是致命的威胁！", "en": "I am a deadly threat!"},
+        {"zh": "等待着我的猎物！", "en": "My prey awaits!"},
+        {"zh": "饥饿驱使我前进！", "en": "Hunger drives me forward!"},
+        {"zh": "矿洞深处，晶体亮了一下", "en": "Deep in the mine, a crystal flickers."},
+        {"zh": "锁链声从岩层后传来", "en": "Chain noise comes from behind the rock."},
+        {"zh": "它从钻石矿脉中挣出", "en": "It tears free of a diamond vein."},
+        {"zh": "废弃矿道尽头有了脚步", "en": "Footsteps start at the end of the abandoned shaft."},
+        {"zh": "蓝光先照亮了洞壁", "en": "Its blue light reaches the cave wall first."},
+        {"zh": "它拖着断链走上这层", "en": "It climbs to this level, dragging a broken chain."},
+        {"zh": "矿石簌簌落下，它起身", "en": "Ore clatters down; it stands up."},
+        {"zh": "有人在矿里唤它的名字", "en": "Someone in the mine calls its name."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧伤，快冷却！", "en": "Burned by fire!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠落受伤，快来救我！", "en": "Fell and hurt!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "溺水受伤，快来救我！", "en": "Drowned and hurt!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸伤了我，快救我！", "en": "Explosion hurt me!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢射中我，好疼！", "en": "Arrow hit me!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法伤了我，快来救我！", "en": "Magic hit me!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得不行了，快来喂我！", "en": "Starving, feed me!"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷电击中我，好疼！", "en": "Lightning hit me!"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空，快救我！", "en": "Void hurts me!"}
+      ]
+    }
+  }
+}

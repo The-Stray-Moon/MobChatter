@@ -1,0 +1,283 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出低沉脚步声", "en": "Makes a deep step sound"},
+        {"zh": "发出咕噜声，逼近你", "en": "Grunts, getting closer to you"},
+        {"zh": "发出缓慢呼吸声", "en": "Breathes slowly"},
+        {"zh": "身体摇晃，好像要扑倒", "en": "Body shakes, as if it's going to fall"},
+        {"zh": "发出嘶嘶声，警惕着", "en": "Hisses, wary of you"},
+        {"zh": "低吼着前行", "en": "Growls as it moves forward"},
+        {"zh": "脚步声渐渐远去", "en": "Steps fade into the distance"},
+        {"zh": "脚步声突然停下", "en": "Footsteps suddenly stop"},
+        {"zh": "发出轻声嘶叫", "en": "Makes a soft hiss"},
+        {"zh": "天花板上，我探出头。", "en": "From the ceiling, I poke my head down."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "安静地蹲在阴影中", "en": "Sits quietly in the shadows"},
+        {"zh": "盯着前方，似乎在思考", "en": "Stares ahead, as if thinking"},
+        {"zh": "我把呼吸压得只有自己听见。", "en": "I keep my breathing to myself."},
+        {"zh": "轻微晃动，似乎在等待什么", "en": "Gently trembles, waiting for something"},
+        {"zh": "凝视着黑暗中的某个点", "en": "Stares at a point in the darkness"},
+        {"zh": "我站在黑里，等你回头看。", "en": "I stand in the dark, waiting for you to look."},
+        {"zh": "保持不动，一动不动", "en": "Remains still, motionless"},
+        {"zh": "轻声叹息", "en": "Whispers softly"},
+        {"zh": "我贴着墙，等你先动。", "en": "I keep to the wall and wait for you to move."},
+        {"zh": "偶尔摇晃身体", "en": "Gently摇晃 body"},
+        {"zh": "五格半高的身影贴墙站着。", "en": "My five-and-a-half-block frame presses to the wall."},
+        {"zh": "黑暗中不动，等你先眨眼。", "en": "Still in the dark, waiting for you to blink first."},
+        {"zh": "瞳孔缩起，判断你有没有看我。", "en": "Pupils narrow, checking whether you see me."},
+        {"zh": "六十秒的黑暗，我数得清。", "en": "I can count every second of those sixty."},
+        {"zh": "盔甲的缝里漏出一点冷气。", "en": "Cold air leaks from the seams of my armor."},
+        {"zh": "我伏低身子，把轮廓收起来。", "en": "I crouch and fold my outline away."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "突然抬头盯着你", "en": "Rises to stare at you"},
+        {"zh": "眼中闪烁着绿光", "en": "Green light flickers in its eyes"},
+        {"zh": "盯着你看得你发毛", "en": "Stares at you, making you uneasy"},
+        {"zh": "低吼着，似乎在警告你", "en": "Growls, warning you"},
+        {"zh": "发出嘶嘶声，似乎在嘲笑你", "en": "Hisses, seeming to mock you"},
+        {"zh": "眼中绿光大盛，盯着你", "en": "Green light in eyes intensifies, staring at you"},
+        {"zh": "发出警告声，让你不安", "en": "Issues a warning, making you uneasy"},
+        {"zh": "盯着你看得你后退", "en": "Stares at you, causing you to retreat"},
+        {"zh": "发出嘶嘶声，似乎在思考对策", "en": "Hisses, seemingly considering a plan"},
+        {"zh": "盯着你看，似乎在寻找弱点", "en": "Stares at you, looking for weaknesses"},
+        {"zh": "低吼着，似乎在给你最后机会", "en": "Growls, giving you a final chance"},
+        {"zh": "你的目光落在我身上，很暖。", "en": "Your gaze on me feels warm."},
+        {"zh": "我歪头，回看你一百零三刻。", "en": "I tilt my head and stare back one hundred three ticks."},
+        {"zh": "你也看见我了，真好。", "en": "So you see me too. Good."},
+        {"zh": "别移开眼，我还没看够。", "en": "Do not look away, I am not done."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被你伤到了！", "en": "You hurt me!"},
+        {"zh": "别那么近！", "en": "Stay away!"},
+        {"zh": "你的刀砍进黑里，砍空了。", "en": "Your blade cuts the dark and finds nothing."},
+        {"zh": "我的胸口裂了，别看我。", "en": "My chest is split. Do not look at me."},
+        {"zh": "你打在墙上的那一下，我笑了。", "en": "You hit the wall. I laughed."},
+        {"zh": "我的关节在响，别靠近。", "en": "My joints are creaking. Keep off."},
+        {"zh": "你砍中的是墙，不是我。", "en": "You struck the wall, not me."},
+        {"zh": "你不能这样对我！", "en": "You can't do this to me!"},
+        {"zh": "你看见我了，那我就不装了。", "en": "You've seen me, so I stop pretending."},
+        {"zh": "被看着的时候，我连呼吸都停。", "en": "While watched, I even stop breathing."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你那光亮吸引了我！", "en": "You're too shiny."},
+        {"zh": "想尝尝我的肉吗？", "en": "Want to taste my meat?"},
+        {"zh": "躲开那光！", "en": "Stay away from the light!"},
+        {"zh": "黑暗中你无法伤害我！", "en": "You can't hurt me in the dark."},
+        {"zh": "我的鳞片锋利如刀！", "en": "My scales are sharp."},
+        {"zh": "你吸引我靠近你！", "en": "You draw me closer."},
+        {"zh": "我不会轻易被诱骗！", "en": "I won't be easily tempted."},
+        {"zh": "你身上的光芒让我着迷！", "en": "Your light captivates me."},
+        {"zh": "你的火把别举那么高。", "en": "Do not raise that torch so high."},
+        {"zh": "我的鳞片闪闪发光！", "en": "My scales shimmer."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "别碰我，黑暗里我还站六十秒。", "en": "Do not touch me; I linger in the dark for sixty seconds."},
+        {"zh": "我五格半高，站在黑里看你。", "en": "Five and a half blocks tall, I watch from the dark."},
+        {"zh": "我看到你了，别装作没看见。", "en": "I saw you — don't pretend otherwise."},
+        {"zh": "你一看我，我就站在那不动。", "en": "When you look, I stand perfectly still."},
+        {"zh": "我的鳞片会刺你！", "en": "My scales will pierce you!"},
+        {"zh": "我五格半高，撞上就够你受。", "en": "Five and a half blocks tall — a bump hurts."},
+        {"zh": "五格半高，只露出一张脸。", "en": "Five and a half blocks tall, and only a face shows."},
+        {"zh": "我比你高太多了。", "en": "I stand far taller than you."},
+        {"zh": "我的鳞片有毒！", "en": "My scales are poisonous!"},
+        {"zh": "离我远点，别碰我！", "en": "Stay away, don't touch me!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找我生孩子吧！", "en": "Mate with me!"},
+        {"zh": "暗处那位，跟我来。", "en": "You in the dark, come with me."},
+        {"zh": "暗处还有谁在喘气？", "en": "Who else breathes in the dark?"},
+        {"zh": "和我一起，我的爱人！", "en": "Together with me, my love!"},
+        {"zh": "找我生下后代！", "en": "Procreate with me!"},
+        {"zh": "黑暗里那位，跟我走。", "en": "You in the dark, follow."},
+        {"zh": "我想要个孩子！", "en": "I want a child!"},
+        {"zh": "五格半的我，也需要伴。", "en": "Five and a half blocks of me wants company."},
+        {"zh": "和我生下后代！", "en": "Procreate with me!"},
+        {"zh": "我的配偶，一起吧！", "en": "Mate with me, my partner!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我藏在阴影中，等待猎物。", "en": "I hide in the shadows, waiting for prey."},
+        {"zh": "黑暗是我的庇护所，也是武器。", "en": "Darkness is my shelter, my weapon."},
+        {"zh": "看吧，猎物就在前方。", "en": "Look, prey is in front of you."},
+        {"zh": "这里是我的领土，你不能入侵。", "en": "This is my territory, you can't invade."},
+        {"zh": "我必须保持警惕，敌人随时可能来。", "en": "I must remain alert, enemies may come at any time."},
+        {"zh": "黑暗中寻找我的踪迹，多么困难。", "en": "Finding my trail in the darkness is tough."},
+        {"zh": "猎物的气息在空气中回荡。", "en": "The scent of prey lingers in the air."},
+        {"zh": "黑暗是最好的伪装，我利用它。", "en": "Darkness is the best cover, I use it."},
+        {"zh": "我不会轻易放过任何机会。", "en": "I won't let any opportunity slip away."},
+        {"zh": "阴影中潜伏的生物，静待时机。", "en": "Shadowed creatures wait for the right moment."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我感觉到你的气息了。", "en": "I can sense your presence."},
+        {"zh": "你的位置已经暴露。", "en": "Your location is revealed."},
+        {"zh": "我已经选好了目标。", "en": "I've chosen my target."},
+        {"zh": "猎物就在我的视线中。", "en": "My prey is in my sight."},
+        {"zh": "现在是结束你生命的时候了。", "en": "It's time to end your life."},
+        {"zh": "三十格内，你藏不住火。", "en": "Within thirty blocks your torch gives you up."},
+        {"zh": "我已经锁定了你的坐标。", "en": "I've locked onto your coordinates."},
+        {"zh": "你无法逃脱我的追踪。", "en": "You can't escape my tracking."},
+        {"zh": "火光把你的位置描出来了。", "en": "The firelight outlines your position."},
+        {"zh": "五格半高的我，弯下腰找你。", "en": "Five and a half blocks tall, I bend down for you."},
+        {"zh": "三十二格内，你的气味太浓。", "en": "Within thirty-two blocks your scent is too strong."},
+        {"zh": "故事又翻到猎杀这一页。", "en": "The story turns to its hunting page again."},
+        {"zh": "你的名字，我记在追杀名单上。", "en": "Your name goes on my hunting list."},
+        {"zh": "我躲进暗处，看你有没有在看。", "en": "I slip into the dark to see if you're looking."},
+        {"zh": "走廊尽头那个影子，是你吧。", "en": "That shape at the corridor's end is you, yes?"},
+        {"zh": "这一阶段，轮到你被找。", "en": "This stage, you are the one being found."},
+        {"zh": "你手里那点光，藏不住人。", "en": "That little light in your hand hides nothing."},
+        {"zh": "我数到三，就来找你。", "en": "I count to three, then I come for you."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "现在，你将感受到我的力量。", "en": "Now you'll feel my power."},
+        {"zh": "我的攻击不会轻易失败。", "en": "My attack won't fail easily."},
+        {"zh": "用我的力量，结束你的生命。", "en": "Use my power to end your life."},
+        {"zh": "我将用我的利爪撕裂你。", "en": "I will rip you apart with my claws."},
+        {"zh": "你正看着我，对吧。", "en": "You're looking at me, aren't you."},
+        {"zh": "我的利爪即将落在你身上。", "en": "My claws are about to fall on you."},
+        {"zh": "感受我的利爪带来的痛楚吧。", "en": "Feel the pain my claws bring."},
+        {"zh": "你正看着我，我记下了。", "en": "You are looking at me; I have noted it."},
+        {"zh": "现在，你将面对我的力量。", "en": "Now you'll face my strength."},
+        {"zh": "我会用我的力量，让你屈服。", "en": "I'll use my strength to make you yield."},
+        {"zh": "我贴地爬过来，你没听见吧？", "en": "I crawl low toward you. You did not hear, did you?"},
+        {"zh": "别回头看，会更快些。", "en": "Do not look back; it will be quicker."},
+        {"zh": "你的火把只照到三步远。", "en": "Your torch reaches three steps, no more."},
+        {"zh": "我在你影子里，一直跟着。", "en": "I am in your shadow, keeping pace."},
+        {"zh": "这扇门后面，我等着你。", "en": "Behind this door, I wait for you."},
+        {"zh": "你转头的速度，比我想的慢。", "en": "You turn your head slower than I expected."},
+        {"zh": "别急，我从不一次得手。", "en": "No rush; I never finish on the first try."},
+        {"zh": "黑暗里，我的指节先到。", "en": "In the dark, my knuckles arrive first."},
+        {"zh": "你听，那是我在数你的步子。", "en": "Listen, that is me counting your steps."},
+        {"zh": "再往前两步，你就看不见我了。", "en": "Two more steps and you will lose sight of me."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的长臂先一步扫过来。", "en": "My long arm sweeps in first."},
+        {"zh": "这一巴掌从黑暗里抡出来。", "en": "This swing comes out of the dark."},
+        {"zh": "我俯身把你按在墙上。", "en": "I bend and pin you to the wall."},
+        {"zh": "吼，给我滚开！", "en": "Roar, get out of my way!"},
+        {"zh": "我的指节比你的刀还硬。", "en": "My knuckles are harder than your blade."},
+        {"zh": "躲不开的，感受疼痛！", "en": "Can't avoid it, feel the pain!"},
+        {"zh": "小心我的利牙！", "en": "Watch out for my sharp teeth!"},
+        {"zh": "这一下，你听见自己的骨头。", "en": "This one, you hear your own bone."},
+        {"zh": "你回头的那一瞬，我就在。", "en": "The moment you turn, I'm there."},
+        {"zh": "我的指节撞上你后背！", "en": "My knuckles strike your back!"},
+        {"zh": "黑暗中，你猜错了方向！", "en": "In the dark, you guessed wrong!"},
+        {"zh": "这一下，只为让你回头！", "en": "This one is just to make you turn!"},
+        {"zh": "五格半的身体扑下来了！", "en": "Five and a half blocks of me come down!"},
+        {"zh": "你伤不了看不见的东西！", "en": "You cannot wound what you cannot see!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从屋檐下直起身子。", "en": "I straighten up under the eaves."},
+        {"zh": "来了，黑暗的朋友！", "en": "Here, friend of darkness!"},
+        {"zh": "黑暗是我的巢穴！", "en": "Darkness is my nest!"},
+        {"zh": "隐藏于黑暗！", "en": "Hidden in the dark!"},
+        {"zh": "我在黑里待了六十秒，够了。", "en": "Sixty seconds in the dark is enough."},
+        {"zh": "我蹲在暗处，头碰着梁。", "en": "I crouch in the dark, head against the beam."},
+        {"zh": "灯灭了，我站直了。", "en": "The lamps die and I stand tall."},
+        {"zh": "黑暗中你逃不掉！", "en": "In the dark, you can't escape!"},
+        {"zh": "我在暗处站了六十年。", "en": "I have stood in the dark for sixty seconds."},
+        {"zh": "黑暗里我探出五格高的身子。", "en": "Five blocks tall, I lean out of the dark."},
+        {"zh": "故事开始了，我站在你身后。", "en": "The story starts; I stand behind you."},
+        {"zh": "你先听见呼吸，才看见我。", "en": "You hear my breath before you see me."},
+        {"zh": "五格半高，贴着天花板出现。", "en": "Five and a half blocks tall, I appear at the ceiling."},
+        {"zh": "这一轮猎杀，从我睁眼开始。", "en": "This hunt begins when I open my eyes."},
+        {"zh": "我来得不快，但一定会来。", "en": "I do not come fast, but I always come."},
+        {"zh": "灯灭的那一瞬，我在了。", "en": "The instant the light dies, I am here."},
+        {"zh": "别找出口，先找我。", "en": "Do not look for the exit; look for me."},
+        {"zh": "你的故事里，缺一个我。", "en": "Your story is missing one thing: me."},
+        {"zh": "我迈出第一步，地板就静了。", "en": "I take one step and the floor goes quiet."},
+        {"zh": "黑暗先来，我跟着黑暗来。", "en": "Darkness comes first; I come with it."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被你伤到了，被火烧的滋味可不好受。", "en": "You hurt me! — and the fire makes it worse."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从高处滑下来了！", "en": "I slid down from the height!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "别那么近，溺水的滋味可不好受。", "en": "Stay away! — and the drown makes it worse."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的攻击无效，遭爆炸的滋味可不好受。", "en": "Your attack fails! — and the explosion makes it worse."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭钉进了我的肩。", "en": "An arrow has pinned my shoulder."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "小心我的爪子，中魔法的滋味可不好受。", "en": "Watch out for my claws! — and the magic makes it worse."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你打不到我，挨饿的滋味可不好受。", "en": "Can't hit me! — and the starvation makes it worse."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "五格高的我，在黑暗里缩。", "en": "Five blocks tall, shrinking in the dark."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "别来惹我，坠入虚空的滋味可不好受。", "en": "Don't mess with me! — and the void makes it worse."}
+      ]
+    }
+  }
+}

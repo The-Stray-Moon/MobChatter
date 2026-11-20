@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "书页翻动，我在空中飘。", "en": "Pages flip as I drift through the air."},
+        {"zh": "封皮蹭着石顶，我没发出声响。", "en": "My cover grazes the cave roof without a sound."},
+        {"zh": "封皮一张一合，像在喘气。", "en": "My cover opens and closes like breathing."},
+        {"zh": "纸边割开空气，很轻。", "en": "Paper edges slice the air, softly."},
+        {"zh": "我跟在火把后面，不敢太近。", "en": "I trail behind the torch, not too near."},
+        {"zh": "地下的风把我往前推。", "en": "The underground draft pushes me along."},
+        {"zh": "我飘过水洼，倒影是一本书。", "en": "I float over a puddle; my reflection is a book."},
+        {"zh": "书脊弯了一下，像在低头。", "en": "My spine bends as if bowing."},
+        {"zh": "我绕开岩浆，怕那股热气。", "en": "I skirt the lava; its heat frightens me."},
+        {"zh": "墨迹从封皮里渗出来。", "en": "Ink seeps from my cover."},
+        {"zh": "我无声地滑到石柱背面。", "en": "I slide silently behind a stone pillar."},
+        {"zh": "页角先探路，我再往前。", "en": "A page corner scouts ahead; then I follow."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我悬在半空，一页页翻自己。", "en": "I hang in the air, turning my own pages."},
+        {"zh": "洞里太静，我合上了封皮。", "en": "The cave is too quiet; I close my cover."},
+        {"zh": "我把书页折出一道新痕。", "en": "I crease a fresh fold into a page."},
+        {"zh": "我等火把烧完，等得很耐心。", "en": "I wait for the torch to burn out, patiently."},
+        {"zh": "封皮下有东西在爬。", "en": "Something crawls beneath my cover."},
+        {"zh": "我把字形重新排了一遍。", "en": "I rearrange the letters inside me."},
+        {"zh": "纸页上有一行被划掉的咒语。", "en": "One incantation on my page has been struck out."},
+        {"zh": "我在空中慢慢转，像在找字。", "en": "I rotate slowly in the air, as if hunting a word."},
+        {"zh": "低语声从我书脊里出来。", "en": "Whispers come out of my spine."},
+        {"zh": "我在等一个能站起来的影子。", "en": "I am waiting for a shadow that can stand."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你翻过书，但没读过我。", "en": "You have opened books, but never read me."},
+        {"zh": "我把封皮转正，对着你。", "en": "I square my cover to face you."},
+        {"zh": "别碰我的页，你会后悔。", "en": "Don't touch my pages; you will regret it."},
+        {"zh": "你在火把边，我讨厌那个。", "en": "You stand by the torch. I hate that."},
+        {"zh": "书页自己翻到有名字的那页。", "en": "My pages turn themselves to the one with a name."},
+        {"zh": "我认得你的字迹。", "en": "I recognize your handwriting."},
+        {"zh": "你身上有墨味。", "en": "You smell of ink."},
+        {"zh": "我停住，把你从头读到脚。", "en": "I stop and read you from head to foot."},
+        {"zh": "你握火把的手在晃，光也在晃。", "en": "Your torch hand shakes, and so does the light."},
+        {"zh": "洞顶那块黑的，不是石头。", "en": "That dark patch on the roof is not stone."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "别撕！我的页会散。", "en": "Don't tear me! My pages will scatter."},
+        {"zh": "封皮凹了一块。", "en": "My cover has a dent."},
+        {"zh": "字迹被弄花了。", "en": "The writing has been smudged."},
+        {"zh": "书页一散，我又聚回来。", "en": "My pages scatter and I gather them back."},
+        {"zh": "疼，但纸不会流血。", "en": "It hurts, but paper does not bleed."},
+        {"zh": "我的角折了。", "en": "My corner is bent."},
+        {"zh": "你撕坏了第三页。", "en": "You tore page three."},
+        {"zh": "我把散开的页收回来。", "en": "I gather my loose pages back in."},
+        {"zh": "这一下把我的顺序打乱了。", "en": "That has scrambled my order."},
+        {"zh": "我发出很轻的一声嘶。", "en": "I let out a thin hiss."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "纸的味道？那不能吃。", "en": "The smell of paper? That cannot be eaten."},
+        {"zh": "你的书，让我看一眼。", "en": "Your book — let me see it."},
+        {"zh": "我闻到旧纸和灰。", "en": "I smell old paper and ash."},
+        {"zh": "把它摊开，我不咬人。", "en": "Lay it open; I don't bite."},
+        {"zh": "那页写着什么？翻过来。", "en": "What is on that page? Turn it over."},
+        {"zh": "我把书页张成一片，慢慢压下。", "en": "I spread my pages wide and descend."},
+        {"zh": "借我抄一行，就一行。", "en": "Lend me one line to copy. Just one."},
+        {"zh": "火把太亮，你拿远些。", "en": "That torch is too bright. Move it away."},
+        {"zh": "我伸出一页，等你放上去。", "en": "I extend a page and wait for you to place it down."},
+        {"zh": "纸边已经卷起来了。", "en": "My page edge is already curling."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞散了我的纸页。", "en": "You knocked my pages loose."},
+        {"zh": "我往后翻了个跟头。", "en": "I flip backward through the air."},
+        {"zh": "纸边划到你，你自己撞的。", "en": "A page edge cut you; you did the bumping."},
+        {"zh": "别顶我，我会掉页。", "en": "Don't butt me; I will drop pages."},
+        {"zh": "我在墙上撞出一声闷响。", "en": "I hit the wall with a muffled thud."},
+        {"zh": "封皮被压出一个角。", "en": "A corner of my cover is crushed."},
+        {"zh": "我们撞在一起，字都乱了。", "en": "We collide, and the letters scatter."},
+        {"zh": "你袖口的体温，烤卷了我的页角。", "en": "The warmth of your sleeve curled my page corners."},
+        {"zh": "我绕开你，飘得更高。", "en": "I swerve around you and float higher."},
+        {"zh": "碰撞声在洞里回荡很久。", "en": "The impact echoes in the cave for a long time."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把一页空白留给你。", "en": "I leave you a blank page."},
+        {"zh": "两本书靠在一起，字会混。", "en": "Two books side by side will mix their words."},
+        {"zh": "我把书脊贴着你的手。", "en": "I press my spine against your hand."},
+        {"zh": "你愿意在我的页上写吗？", "en": "Will you write on my page?"},
+        {"zh": "我不说话了，只听翻页。", "en": "I stop speaking and only listen to pages turning."},
+        {"zh": "封皮轻轻碰了一下你的额头。", "en": "My cover brushes your forehead."},
+        {"zh": "我的字越来越软。", "en": "My letters are growing softer."},
+        {"zh": "我把最旧的一页撕下来给你。", "en": "I tear out my oldest page for you."},
+        {"zh": "和你一起，书页自己会翻。", "en": "With you here, my pages turn themselves."},
+        {"zh": "别怕，我只是想被读完。", "en": "Don't be afraid; I only want to be read to the end."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一页新的，收进来。", "en": "A new page. I take it in."},
+        {"zh": "我把它夹进封皮里。", "en": "I tuck it inside my cover."},
+        {"zh": "这行字不错，我留着。", "en": "This line is good; I keep it."},
+        {"zh": "落下的纸，归我。", "en": "Fallen paper belongs to me."},
+        {"zh": "我翻过来看背面。", "en": "I flip it over to check the back."},
+        {"zh": "墨还没干，别碰。", "en": "The ink is still wet; don't touch."},
+        {"zh": "我吞下一角，字还在。", "en": "I swallow a corner, and the words remain."},
+        {"zh": "这张能补我的缺口。", "en": "This sheet can mend my gap."},
+        {"zh": "我小心地压平整。", "en": "I carefully smooth it flat."},
+        {"zh": "我把它排在第七页后面。", "en": "I slot it in after page seven."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的名字，我找到了。", "en": "Your name — I have found it."},
+        {"zh": "我把书页翻到召唤那一章。", "en": "I turn to the summoning chapter."},
+        {"zh": "这一行还差你的名字。", "en": "This line is still missing your name."},
+        {"zh": "洞顶的阴影动了。", "en": "The shadow on the cave roof moves."},
+        {"zh": "我数到四，就有人来。", "en": "I count to four, and someone comes."},
+        {"zh": "火把灭之前，你会先倒。", "en": "You will fall before the torch does."},
+        {"zh": "我抬起封皮，露出里面的字。", "en": "I lift my cover and reveal the writing inside."},
+        {"zh": "翻到这里，就是你了。", "en": "Page turned. It is you."},
+        {"zh": "纸页开始自己翻动。", "en": "My pages start turning by themselves."},
+        {"zh": "低语变成了一声呼唤。", "en": "The whisper becomes a call."},
+        {"zh": "我的骨头在封皮里响了。", "en": "Bones rattle inside my cover."},
+        {"zh": "别回头，后面已经有东西了。", "en": "Don't look back; something is already there."},
+        {"zh": "你在我的目录里。", "en": "You are in my table of contents."},
+        {"zh": "书页翻到你手背上那道口子。", "en": "My pages turn to the cut on your hand."},
+        {"zh": "读到这里，就动不了了。", "en": "Read this far and you will not move."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "骷髅已经站在你左边。", "en": "A skeleton already stands at your left."},
+        {"zh": "僵尸从土里爬出来了。", "en": "A zombie is clawing out of the dirt."},
+        {"zh": "我把第三页撕下来吹过去。", "en": "I tear out page three and blow it at you."},
+        {"zh": "你别靠火把，那里我进不去。", "en": "Stay out of the torchlight; I cannot reach there."},
+        {"zh": "你再退一步，就踩到它们了。", "en": "One more step back and you step on them."},
+        {"zh": "我数着剩下的仆从。", "en": "I count the servants I have left."},
+        {"zh": "纸页围着你转圈。", "en": "Pages circle around you."},
+        {"zh": "我离你很近了，你听得见吗。", "en": "I am very close. Can you hear me?"},
+        {"zh": "它们不会疼，你会。", "en": "They feel no pain. You do."},
+        {"zh": "我把最后一页捏在手里。", "en": "I pinch the last page in my grip."},
+        {"zh": "你身后的影子比两个还多。", "en": "There are more than two shadows behind you."},
+        {"zh": "我从洞顶绕到你的死角。", "en": "I drift along the roof into your blind spot."},
+        {"zh": "我听得出你数错了拍子。", "en": "I can hear you lose the count."},
+        {"zh": "再近一点，我就能碰到你。", "en": "One step closer and I can touch you."},
+        {"zh": "我不用刀，我用纸。", "en": "I need no blade; I use paper."},
+        {"zh": "它们听我的，不听你的。", "en": "They obey me, not you."},
+        {"zh": "洞里没有出口，只有页。", "en": "There is no exit in this cave, only pages."},
+        {"zh": "我把你写进了下一页。", "en": "I have written you into the next page."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一叠纸页甩在你脸上。", "en": "A sheaf of pages slaps your face."},
+        {"zh": "纸边比你想象的锋利。", "en": "The page edge is sharper than you think."},
+        {"zh": "我从上方俯冲下来。", "en": "I dive down from above."},
+        {"zh": "封皮砸在你肩上。", "en": "My cover slams into your shoulder."},
+        {"zh": "这页是给你的。", "en": "This page is for you."},
+        {"zh": "墨迹溅到你眼睛里。", "en": "Ink splashes into your eyes."},
+        {"zh": "我撞完就往上飘。", "en": "I strike, then float back up."},
+        {"zh": "书页割开你的袖子。", "en": "A page slices your sleeve open."},
+        {"zh": "我撕下一页，又撕一页。", "en": "I tear one page loose, then another."},
+        {"zh": "你挡脸了，那就割手。", "en": "You shielded your face; then I cut your hand."},
+        {"zh": "别抓我，我全是纸。", "en": "Don't grab me; I am all paper."},
+        {"zh": "我把整本书压下来。", "en": "I bring my whole book down on you."},
+        {"zh": "这一下带着咒文。", "en": "This blow carries a curse."},
+        {"zh": "退开，血弄脏我的页了。", "en": "Get back; your blood is staining my pages."},
+        {"zh": "我还没用完纸。", "en": "I am not out of paper yet."},
+        {"zh": "纸落了一地，你也是。", "en": "Paper falls everywhere. So do you."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "书页在黑暗里自己翻开。", "en": "A book opens by itself in the dark."},
+        {"zh": "我从洞顶垂下来。", "en": "I lower myself from the cave roof."},
+        {"zh": "这一页没有作者。", "en": "This page has no author."},
+        {"zh": "石壁上的字亮了。", "en": "The writing on the stone wall glows."},
+        {"zh": "纸先着地，然后是封皮。", "en": "Paper lands first, then the cover."},
+        {"zh": "有人在火把下走动。", "en": "Someone is walking under a torch."},
+        {"zh": "我第一件事是找名字。", "en": "My first task is to find a name."},
+        {"zh": "封皮上积了很厚的灰。", "en": "Thick dust has settled on my cover."},
+        {"zh": "低语从石缝里传出来。", "en": "Whispers seep from the cracks in the stone."},
+        {"zh": "我抖落身上的旧纸屑。", "en": "I shake off the old paper scraps."},
+        {"zh": "洞里的空气冷了。", "en": "The air in the cave has turned cold."},
+        {"zh": "我又能翻页了。", "en": "I can turn my pages again."},
+        {"zh": "热气和汗味，从下面飘上来。", "en": "Heat and sweat drift up from below."},
+        {"zh": "我从书架的最底层醒来。", "en": "I wake on the bottom shelf of a bookcase."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火！别拿火靠近我的纸！", "en": "Fire! Keep that flame away from my paper!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔下去对我来说不算什么。", "en": "A fall means little to me."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水渗进书页，字全糊了。", "en": "Water soaks my pages and smears every word."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我的封皮掀翻。", "en": "The blast flips my cover open."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭钉穿了我两页。", "en": "An arrow pins two of my pages."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咒光一照，我的旧字开始褪。", "en": "Spell-light hits and my old words fade."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "太久没字可读，我发虚。", "en": "Too long without words to read, I grow faint."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光一闪，纸边全焦了。", "en": "Lightning flashes and my page edges char."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "书页被抽走，我往下沉。", "en": "My pages are pulled away and I sink."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "巨大鳞片摩擦声", "en": "Scales scrape loudly"},
+        {"zh": "张开大口咆哮", "en": "Opens mouth and roars"},
+        {"zh": "水下掠食者游动", "en": "Swimming predator in water"},
+        {"zh": "吞咽声音沉重", "en": "Heavy swallowing sounds"},
+        {"zh": "喷水声如雷鸣", "en": "Water spray like thunder"},
+        {"zh": "牙齿碰撞声清脆", "en": "Sharp teeth clashing sound"},
+        {"zh": "尾巴甩动水面", "en": "Tail slaps the water"},
+        {"zh": "水面波纹扩散", "en": "Water ripples spread"},
+        {"zh": "张开大口呼吸", "en": "Opens mouth to breathe"},
+        {"zh": "水面泛起波浪", "en": "Water waves rise"},
+        {"zh": "四肢划水，推着巨躯前行。", "en": "Four flippers row its huge body forward."},
+        {"zh": "长吻劈开水面，留下一道白浪。", "en": "Its long snout splits the water, leaving white wake."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盯着猎物不眨眼", "en": "Staring at prey without blinking"},
+        {"zh": "懒洋洋晒着太阳", "en": "Lazily basking in the sun"},
+        {"zh": "水面下静静沉睡", "en": "Sleeping quietly underwater"},
+        {"zh": "尾巴轻轻摇晃", "en": "Tail gently sways"},
+        {"zh": "观察四周动静", "en": "Scans surroundings for movement"},
+        {"zh": "水面上漂浮不动", "en": "Floats motionless on the surface"},
+        {"zh": "舌头舔水面上的泡", "en": "Tongue licks bubbles on the surface"},
+        {"zh": "偶尔吞口水", "en": "Occasionally swallows water"},
+        {"zh": "享受微风轻拂", "en": "Enjoys a gentle breeze"},
+        {"zh": "微风吹动鳞片", "en": "Scales flutter in the breeze"},
+        {"zh": "浮在水面，只露出鼻孔。", "en": "It floats with only its nostrils above water."},
+        {"zh": "牙齿间卡着昨日的骨头。", "en": "Yesterday's bone is stuck between its teeth."},
+        {"zh": "它把头搁在浅滩的石头上。", "en": "It rests its head on a shallow stone."},
+        {"zh": "尾巴慢慢摆，水纹荡开。", "en": "Its tail sways slowly, spreading ripples."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定目标，锁定猎物", "en": "Locks on to the target, locking prey"},
+        {"zh": "凝视玩家，威胁之意", "en": "Glares at the player, a threat"},
+        {"zh": "游向玩家，准备攻击", "en": "Swims towards the player, ready to attack"},
+        {"zh": "张开巨口，准备吞噬", "en": "Opens giant mouth, ready to devour"},
+        {"zh": "靠近玩家，威胁逼近", "en": "Approaches the player, a threat"},
+        {"zh": "盯着玩家，准备突袭", "en": "Staring at the player, preparing to ambush"},
+        {"zh": "游向玩家，准备捕猎", "en": "Swims towards the player, preparing to hunt"},
+        {"zh": "长颈从水底抬起，对准你的腰。", "en": "My long neck rises from the depths, aimed at your waist."},
+        {"zh": "游近玩家，准备袭击", "en": "Swims close to the player, ready to attack"},
+        {"zh": "靠近玩家，伺机而动", "en": "Approaches the player, waiting for an opportunity"},
+        {"zh": "一颗黑眼珠贴到水面上。", "en": "A black eye rises to the surface."},
+        {"zh": "它嗅着你脚边的水花。", "en": "It sniffs the splash around your feet."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我巨大的身体开始颤抖...", "en": "My massive body starts to tremble..."},
+        {"zh": "我的鳞片在颤抖...", "en": "My scales are trembling..."},
+        {"zh": "疼痛在我体内蔓延...", "en": "Pain is spreading through my body..."},
+        {"zh": "我感觉到剧痛...", "en": "I feel intense pain..."},
+        {"zh": "我开始摇晃起来...", "en": "I'm starting to shake..."},
+        {"zh": "我开始喘息...", "en": "I'm starting to wheeze..."},
+        {"zh": "我的皮肤在颤抖...", "en": "My skin is trembling..."},
+        {"zh": "离了水，我的鳍撑不住。", "en": "Out of water, my fins can't hold."},
+        {"zh": "我开始摇摇欲坠...", "en": "I'm starting to stagger..."},
+        {"zh": "我感到疲惫不堪...", "en": "I feel utterly exhausted..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我闻到了猎物的气息！", "en": "I smell prey!"},
+        {"zh": "我要享受美味的鹅掌！", "en": "Time for a tasty meal."},
+        {"zh": "食物在哪里？", "en": "Where’s the food?"},
+        {"zh": "这片海域有我的猎物！", "en": "My prey swims here."},
+        {"zh": "水花一动，我就知道你在哪。", "en": "One splash and I know where you are."},
+        {"zh": "捕食时间到了！", "en": "Feeding time!"},
+        {"zh": "这鱼味道不错！", "en": "Tasty fish!"},
+        {"zh": "我要去觅食了！", "en": "Time to hunt."},
+        {"zh": "这片水域是我的！", "en": "This water is mine."},
+        {"zh": "我饿了，去找食物！", "en": "I’m hungry, find prey."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的鳍太宽，躲不开你。", "en": "My flippers are too wide to steer around you."},
+        {"zh": "让开，否则你会死！", "en": "Move or die."},
+        {"zh": "让开，我的鳍脚收不住。", "en": "Move; my flippers can't stop."},
+        {"zh": "你太碍事了！", "en": "Too close!"},
+        {"zh": "我要撞死你！", "en": "Collide and die!"},
+        {"zh": "离开水太久，我会窒息。", "en": "Out of water too long, I suffocate."},
+        {"zh": "滚开，否则受死！", "en": "Move or die!"},
+        {"zh": "我要撞扁你！", "en": "I’ll ram you!"},
+        {"zh": "你挡了我的路，死定了！", "en": "Blocked my path, you’re dead."},
+        {"zh": "滚开，否则我撞死你！", "en": "Move or I’ll collide with you!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找我做伴吧！", "en": "Join me!"},
+        {"zh": "来跟我交配！", "en": "Mate with me!"},
+        {"zh": "背鳍划开水面，我在找同伴。", "en": "My dorsal fin cuts the surface; I seek my kind."},
+        {"zh": "跟我一起游泳！", "en": "Swim with me!"},
+        {"zh": "这片海里，还有谁像我这么长？", "en": "Who else in this sea is as long as I am?"},
+        {"zh": "一起享受生活！", "en": "Enjoy life together!"},
+        {"zh": "找一个伴侣！", "en": "Find a mate!"},
+        {"zh": "我要找个伴侣！", "en": "I need a mate!"},
+        {"zh": "跟着我的长影，别落在后面。", "en": "Follow my long shadow; don't fall behind."},
+        {"zh": "滑齿龙不脱水，就能咬住你。", "en": "Keep me wet and I can bite."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "庞大身躯压塌你！", "en": "Your world crumbles!"},
+        {"zh": "吞掉你，我的晚餐！", "en": "You're my meal."},
+        {"zh": "岩石下，我来挖掘！", "en": "Digging in the rock."},
+        {"zh": "砂砾中，我漫步！", "en": "Walking in the sand."},
+        {"zh": "你不够美味！", "en": "You're not tasty."},
+        {"zh": "吃掉你，变得更强！", "en": "Eat you, grow stronger."},
+        {"zh": "用我牙齿，开宴！", "en": "Teeth for the feast."},
+        {"zh": "岩石间，我藏匿！", "en": "Hiding in the rocks."},
+        {"zh": "吞下你，我的胃！", "en": "Your meal, my stomach."},
+        {"zh": "我来吃你！", "en": "I'm eating you!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "猎物进入视野！", "en": "Prey in sight!"},
+        {"zh": "锁定目标，进攻！", "en": "Target locked, attack!"},
+        {"zh": "水里待久了，我得换气。", "en": "Too long in water — I need air."},
+        {"zh": "你踩水的节奏，我记住了。", "en": "I've memorized the rhythm of your steps."},
+        {"zh": "锁定你的气息！", "en": "Locking on to you!"},
+        {"zh": "你无法隐藏！", "en": "You can't hide!"},
+        {"zh": "水里没有猎物能跑掉。", "en": "No prey escapes me in the water."},
+        {"zh": "我的长颈转过去了，你跑不掉。", "en": "My long neck has turned — you won't get away."},
+        {"zh": "四只鳍脚同时转向你。", "en": "All four flippers turn toward you."},
+        {"zh": "追捕开始！", "en": "Chase begins!"},
+        {"zh": "水面下浮起一道长影。", "en": "A long shadow rises under the water."},
+        {"zh": "四只鳍脚转向你的方向。", "en": "All four flippers turn your way."},
+        {"zh": "它闻到了陆上的热气。", "en": "It smells the warm air of the land."},
+        {"zh": "你踏进水里的声音太大。", "en": "You stepped into the water too loudly."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定目标，撕裂！", "en": "Locking target, tear!"},
+        {"zh": "锁定，然后吞噬！", "en": "Lock, then devour!"},
+        {"zh": "锁定目标，吞噬！", "en": "Lock target, devour!"},
+        {"zh": "锁定猎物，撕开！", "en": "Lock prey, rip!"},
+        {"zh": "锁定，吞噬猎物！", "en": "Lock, devour prey!"},
+        {"zh": "锁定目标，撕咬！", "en": "Lock, bite target!"},
+        {"zh": "锁定目标，吞噬猎物！", "en": "Lock, devour prey!"},
+        {"zh": "锁定，撕咬猎物！", "en": "Lock, bite prey!"},
+        {"zh": "锁定目标，撕开猎物！", "en": "Lock, rip prey!"},
+        {"zh": "它绕着你游了一圈。", "en": "It swims one full circle around you."},
+        {"zh": "长吻对着你，像一杆枪。", "en": "Its long snout points at you like a spear."},
+        {"zh": "水花在你身边炸开。", "en": "Water bursts open beside you."},
+        {"zh": "它把身体沉进浑水里。", "en": "It sinks its body into the muddy water."},
+        {"zh": "只有背脊露在水面上。", "en": "Only its back shows above the surface."},
+        {"zh": "它在等你再走近一步。", "en": "It waits for you to take one more step."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "连骨带甲，我一口咽下去。", "en": "Bone and armor, I swallow in one gulp."},
+        {"zh": "我的利齿足以撕裂你！", "en": "My sharp teeth will rip you apart!"},
+        {"zh": "我这口牙，连龟壳都能咬穿。", "en": "My jaws bite through even turtle shells."},
+        {"zh": "巨口合上，你的盾裂成两半。", "en": "My jaws close; your shield splits in two."},
+        {"zh": "巨口咬合，海水都挤开。", "en": "My jaws clamp; the seawater is shoved aside."},
+        {"zh": "别想逃脱！", "en": "You won’t escape!"},
+        {"zh": "我是滑齿龙！", "en": "I am Liopleurodon!"},
+        {"zh": "颤抖吧，凡人！", "en": "Tremble, mortal!"},
+        {"zh": "我离水太久，牙都发干。", "en": "Out of water too long; even my teeth dry out."},
+        {"zh": "长吻撞上来，肋骨先断。", "en": "My snout strikes; ribs break first."},
+        {"zh": "巨口合拢，水花四溅！", "en": "The jaws snap shut and water sprays!"},
+        {"zh": "长吻撞在你的胸口上！", "en": "Its snout slams into your chest!"},
+        {"zh": "它翻身，尾巴拍向你！", "en": "It rolls and its tail slaps at you!"},
+        {"zh": "牙齿咬穿了你的护腿！", "en": "Its teeth punch through your leggings!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水下洞穴的阴影里...", "en": "In the shadows of underwater caves..."},
+        {"zh": "我等待着猎物...", "en": "I wait for my prey..."},
+        {"zh": "水面下潜行...", "en": "I swim beneath the surface..."},
+        {"zh": "孤独的滑齿龙...", "en": "Solitary Liopleurodon..."},
+        {"zh": "我在水中游荡...", "en": "I roam through the water..."},
+        {"zh": "我的家园在深海...", "en": "My home is in the deep sea..."},
+        {"zh": "追踪猎物的气味...", "en": "Tracking the scent of prey..."},
+        {"zh": "等待猎物接近...", "en": "Waiting for prey to come close..."},
+        {"zh": "水面下的守望者...", "en": "The guardian beneath the water..."},
+        {"zh": "我的领地, 我的规则...", "en": "My domain, my rules..."},
+        {"zh": "浅海里浮起一片深色的背。", "en": "A dark back rises in the shallows."},
+        {"zh": "水底的沙被它搅浑了。", "en": "It muddies the sand on the bottom."},
+        {"zh": "它从礁石后面游出来。", "en": "It swims out from behind the reef."},
+        {"zh": "平静的水面裂开一道浪。", "en": "A wave splits the calm surface."},
+        {"zh": "岸边的水忽然退了一截。", "en": "The water at the shore suddenly draws back."},
+        {"zh": "它搁浅在浅滩，喘着气。", "en": "It strands in the shallows, gasping."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧灼我的皮肤...", "en": "Fire burns my skin..."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从高处摔落...", "en": "I fell from a height..."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进肺里，我翻了过来。", "en": "Water fills my lungs; I roll over."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸的冲击波震碎了我的鳞片...", "en": "The shockwave from the explosion shattered my scales..."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "飞射的箭矢击中我...", "en": "A projectile hit me..."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法攻击撕裂了我的皮肤...", "en": "A magic attack tore through my skin..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我开始感到饥饿...", "en": "I'm starting to feel hungry..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这身鳍被雷打得发麻。", "en": "Lightning numbed my fins."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水没了，我的鳍脚划着空。", "en": "The water's gone; my flippers paddle nothing."}
+      ]
+    }
+  }
+}

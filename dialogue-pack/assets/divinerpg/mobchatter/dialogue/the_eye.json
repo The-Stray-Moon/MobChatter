@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕噜噜，四处游荡！", "en": "Rumble, wandering around."},
+        {"zh": "咕噜噜，寻找猎物！", "en": "Rumble, seeking prey."},
+        {"zh": "嘶嘶嘶，警惕四周！", "en": "Hisss, watch your surroundings."},
+        {"zh": "咕噜噜，阴影中潜行！", "en": "Rumble, creeping in the shadows."},
+        {"zh": "嘶嘶嘶，注意我！", "en": "Hisss, notice me."},
+        {"zh": "咕噜噜，追踪目标！", "en": "Rumble, tracking target."},
+        {"zh": "我贴着洞壁，慢慢滚过去。", "en": "I hug the cave wall and roll slowly closer."},
+        {"zh": "咕噜噜，准备攻击！", "en": "Rumble, ready to attack."},
+        {"zh": "嘶嘶嘶，不要靠近！", "en": "Hisss, stay away."},
+        {"zh": "咕噜噜，猎物来了！", "en": "Rumble, prey approaches."},
+        {"zh": "眼球贴着岩壁一路滚过去。", "en": "The eye rolls along the cavern wall."},
+        {"zh": "一层膜张开又合上，我在挪动。", "en": "A lid parts and shuts as I shift along."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕噜噜，我在这里！", "en": "Rumble, here I am."},
+        {"zh": "嘶嘶嘶，这里安全！", "en": "Hisss, this is safe."},
+        {"zh": "咕噜噜，享受黑暗！", "en": "Rumble, enjoy the dark."},
+        {"zh": "嘶嘶嘶，耐心等待！", "en": "Hisss, be patient."},
+        {"zh": "咕噜噜，准备休息！", "en": "Rumble, ready to rest."},
+        {"zh": "嘶嘶嘶，不要打扰我！", "en": "Hisss, don't disturb me."},
+        {"zh": "咕噜噜，等待时机！", "en": "Rumble, waiting for the right moment."},
+        {"zh": "嘶嘶嘶，小心陷阱！", "en": "Hisss, watch out for traps."},
+        {"zh": "咕噜噜，这里适合！", "en": "Rumble, this is good."},
+        {"zh": "嘶嘶嘶，安静点！", "en": "Hisss, be quiet."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕噜噜，玩家注意！", "en": "Rumble, player detected."},
+        {"zh": "嘶嘶嘶，锁定目标！", "en": "Hisss, target locked."},
+        {"zh": "咕噜噜，开始行动！", "en": "Rumble, action initiated."},
+        {"zh": "嘶嘶嘶，靠近我！", "en": "Hisss, come to me."},
+        {"zh": "咕噜噜，你逃不掉！", "en": "Rumble, you can't escape."},
+        {"zh": "嘶嘶嘶，瞄准猎物！", "en": "Hisss, aim at the prey."},
+        {"zh": "咕噜噜，攻击准备！", "en": "Rumble, attack ready."},
+        {"zh": "嘶嘶嘶，小心！", "en": "Hisss, be careful!"},
+        {"zh": "咕噜噜，你在这里！", "en": "Rumble, here you are."},
+        {"zh": "嘶嘶嘶，别动！", "en": "Hisss, don't move!"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "眼睛模糊了，看不清路了！", "en": "My eye is blurry!"},
+        {"zh": "我迷路了，找不到回去的路！", "en": "Lost my way back!"},
+        {"zh": "我的世界一片黑暗！", "en": "Darkness surrounds me!"},
+        {"zh": "我被什么东西撞了，好痛！", "en": "Hit by something!"},
+        {"zh": "我的视线被遮住了，看不见！", "en": "Can't see through this!"},
+        {"zh": "我被堵住了，动不了！", "en": "Can't move!"},
+        {"zh": "我被抓住了，好疼！", "en": "They're holding me!"},
+        {"zh": "我的视线被干扰了，好难受！", "en": "My eye is irritated!"},
+        {"zh": "我快看不见了，我快不行了！", "en": "I can't see, I'm dying!"},
+        {"zh": "我再也看不到光明了！", "en": "I won't see light again!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你散发的光吸引了我！", "en": "The light you emit attracted me!"},
+        {"zh": "你手里那块肉，晃得我眼花。", "en": "That meat in your hand dazzles my eye."},
+        {"zh": "美味的食物，快投降吧！", "en": "Delicious! Surrender!"},
+        {"zh": "你的光让我着迷！", "en": "Your light fascinates me!"},
+        {"zh": "不要打扰我的晚餐！", "en": "Don't disturb my dinner!"},
+        {"zh": "我能看到你的恐惧！", "en": "I can see your fear!"},
+        {"zh": "你掏出的东西，我全看见了。", "en": "I see everything you pull out."},
+        {"zh": "那味道让我滚出了洞穴。", "en": "That smell rolls me out of my cave."},
+        {"zh": "火把的味，我认得。", "en": "I know the smell of a torch."},
+        {"zh": "你的光芒指引我！", "en": "Your light guides me!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "避开我的视线！", "en": "Avoid my gaze!"},
+        {"zh": "你的膝盖磕在我的眼球上。", "en": "Your knee knocks against my eyeball."},
+        {"zh": "我的眼白蹭上了你的灰。", "en": "My eye white smears with your dust."},
+        {"zh": "力量的碰撞！", "en": "Collision of strength!"},
+        {"zh": "我的力量强大！", "en": "My strength is great!"},
+        {"zh": "你无法伤害我！", "en": "You can't hurt me!"},
+        {"zh": "地下的眼睛睁开就不会闭。", "en": "An underground eye that never shuts."},
+        {"zh": "你触碰了我的防线！", "en": "You touched my defenses!"},
+        {"zh": "我的力量在你面前！", "en": "My strength is before you!"},
+        {"zh": "你撞上我，像撞进一团雾。", "en": "You hit me as if plunging into fog."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一只眼睛也在找另一只。", "en": "One eye is looking for another."},
+        {"zh": "地下只有我一只眼。", "en": "Underground, I am the only eye."},
+        {"zh": "地下这么黑，我只有一只眼。", "en": "It's so dark underground, and I've only one eye."},
+        {"zh": "我找到了我的伴侣！", "en": "I found my mate!"},
+        {"zh": "不要靠近我的伴侣！", "en": "Stay away from my mate!"},
+        {"zh": "我是唯一的伴侣，找到我！", "en": "I am the only one, find me!"},
+        {"zh": "再找一只眼，两只一起看。", "en": "One more eye, so we can watch together."},
+        {"zh": "我们是唯一的伴侣！", "en": "We are the only couple!"},
+        {"zh": "你不能破坏我的家庭！", "en": "You can't destroy my family!"},
+        {"zh": "我的伴侣和我在一起！", "en": "My mate and I are together!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "幽眼在你身边闪烁。", "en": "The Eye glows near you."},
+        {"zh": "它的目光锁定你。", "en": "Its gaze locks onto you."},
+        {"zh": "它盯着你的眼睛。", "en": "It stares into your eyes."},
+        {"zh": "你闻到它的腐烂气息。", "en": "You smell its腐烂气息rotting scent."},
+        {"zh": "我把亮东西吸进眼眶里。", "en": "I draw the shiny thing into my socket."},
+        {"zh": "它的眼中映出你的影子。", "en": "Its eyes reflect your shadow."},
+        {"zh": "我的目光落在你脚边那块东西上。", "en": "My gaze settles on that thing by your feet."},
+        {"zh": "它的视线穿越黑暗。", "en": "Its sight cuts through the darkness."},
+        {"zh": "它的目光像是要穿透你。", "en": "Its gaze seems to pierce you."},
+        {"zh": "它的目光中带着恶意。", "en": "Its gaze holds malice."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它盯上了一个新的目标。", "en": "It locks onto a new target."},
+        {"zh": "它的目光紧紧锁定你。", "en": "Its gaze is fixed on you."},
+        {"zh": "我的独眼已经对准你的胸口。", "en": "My single eye is fixed on your chest."},
+        {"zh": "它的视线锁定你。", "en": "Its sight is locked on you."},
+        {"zh": "它开始追踪你的踪迹。", "en": "It starts tracking your trail."},
+        {"zh": "它盯上了你的声音。", "en": "It locks onto your sound."},
+        {"zh": "它开始注意你的动静。", "en": "It starts noticing your movements."},
+        {"zh": "它的目光越来越紧。", "en": "Its gaze tightens."},
+        {"zh": "它开始关注你的行踪。", "en": "It starts paying attention to your whereabouts."},
+        {"zh": "它的目光中透露出恶意。", "en": "Its gaze reveals malice."},
+        {"zh": "有脚步声从上面传下来。", "en": "Footsteps come down from above."},
+        {"zh": "你的火把让我眨了一下。", "en": "Your torch makes me blink once."},
+        {"zh": "在这片黑里，只有你在动。", "en": "In all this dark, only you are moving."},
+        {"zh": "瞳孔缩了一下，是你进来了。", "en": "My pupil contracts — you have come in."},
+        {"zh": "我看见你的影子比你先到。", "en": "I see your shadow arrive before you."},
+        {"zh": "地下很静，你的呼吸太响。", "en": "The deep is quiet; your breathing is loud."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的瞳孔收得只剩一线。", "en": "My pupil tightens to a single line."},
+        {"zh": "它的攻击迫在眉睫。", "en": "Its attack is imminent."},
+        {"zh": "幽眼睁开，正对着你。", "en": "The eye opens, aimed right at you."},
+        {"zh": "它的眼中透露出攻击欲望。", "en": "Its eyes reveal a desire to attack."},
+        {"zh": "它准备好了。", "en": "It's ready."},
+        {"zh": "它的攻击准备就绪。", "en": "Its attack is ready."},
+        {"zh": "它的目光如利剑。", "en": "Its gaze is like a sword."},
+        {"zh": "它准备用眼睛刺穿你。", "en": "It prepares to pierce you with its gaze."},
+        {"zh": "它开始瞄准你的弱点。", "en": "It starts targeting your weakness."},
+        {"zh": "它的目光中充满杀气。", "en": "Its gaze is filled with malice."},
+        {"zh": "我把瞳孔对准你。", "en": "I center my pupil on you."},
+        {"zh": "你往左，我往左看。", "en": "You go left; my gaze follows left."},
+        {"zh": "火把晃了，你在紧张。", "en": "Your torch shakes — you are nervous."},
+        {"zh": "我看得见你身后的黑暗。", "en": "I can see the dark behind you."},
+        {"zh": "岩缝里都是我的视线。", "en": "My gaze fills every crack in the rock."},
+        {"zh": "你靠墙走，我看着墙。", "en": "You hug the wall; I watch the wall."},
+        {"zh": "别找出口，我盯着呢。", "en": "Don't look for the exit; I am watching it."},
+        {"zh": "你一闭眼，我就靠近一点。", "en": "Every time you blink, I come closer."},
+        {"zh": "我的眼白比火把还亮。", "en": "The white of my eye outshines your torch."},
+        {"zh": "你退一步，我往前滚一寸。", "en": "You step back; I roll an inch forward."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出刺眼绿光", "en": "Emits blinding green light"},
+        {"zh": "双眼闪烁红光", "en": "Red eyes glow"},
+        {"zh": "猛扑向前攻击", "en": "Charge and attack"},
+        {"zh": "用角撞击地面", "en": "Butt the ground"},
+        {"zh": "挥舞着长触手", "en": "Waves its long tentacles"},
+        {"zh": "瞪大眼睛盯着你", "en": "Stare at you with big eyes"},
+        {"zh": "突然从暗处冲出", "en": "Suddenly bursts out of darkness"},
+        {"zh": "尖叫着向你扑来", "en": "Screams and rushes at you"},
+        {"zh": "用爪子撕咬你的衣服", "en": "Rips at your clothes with claws"},
+        {"zh": "嘶嘶作响威胁你", "en": "Hisses menacingly at you"},
+        {"zh": "我把眼膜撕开，扑过去！", "en": "I tear my lid open and lunge!"},
+        {"zh": "瞳孔一缩，光全灭了！", "en": "My pupil clenches and all light dies!"},
+        {"zh": "滚到你脚边，撞你的小腿！", "en": "I roll to your feet and strike your shin!"},
+        {"zh": "一记直视，让你站不稳！", "en": "One hard stare and your balance fails!"},
+        {"zh": "眼里的红光扫过你的脸！", "en": "Red light from my eye sweeps your face!"},
+        {"zh": "我狠狠撞向你的膝盖！", "en": "I slam hard into your knee!"},
+        {"zh": "别眨眼，眨眼就挨打！", "en": "Don't blink — blinking costs you a hit!"},
+        {"zh": "眼白一翻，你的影子碎了！", "en": "My eye rolls white and your shadow shatters!"},
+        {"zh": "我把火光吸进瞳孔！", "en": "I drink the torchlight into my pupil!"},
+        {"zh": "这一下，专挑你看不见的角！", "en": "This blow comes from the angle you can't see!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞里睁开一只，只有一只眼。", "en": "In the cave, one eye opens. Only one."},
+        {"zh": "从岩层裂隙中爬出", "en": "Crawls out of rock cracks"},
+        {"zh": "在黑暗中逐渐显形", "en": "Gradually takes shape in darkness"},
+        {"zh": "被黑暗吸引而苏醒", "en": "Awakens from darkness"},
+        {"zh": "在地底深处等待", "en": "Wait in deep underground"},
+        {"zh": "依靠岩浆保持活力", "en": "Keeps alive by magma"},
+        {"zh": "从远处慢慢接近", "en": "Approach from a distance"},
+        {"zh": "在洞穴出口附近徘徊", "en": "Wanders near cave entrances"},
+        {"zh": "地下的黑里，我睁开眼。", "en": "In the black underground, I open my eye."},
+        {"zh": "寻找新的领地", "en": "Search for new territory"},
+        {"zh": "黑暗里浮起一只眼，那是我。", "en": "An eye floats up out of the dark — that is me."},
+        {"zh": "岩层裂开，我从缝里挤出来。", "en": "The stone splits and I squeeze out of the seam."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火把我烧伤了！", "en": "Burned by fire!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从高处摔了下来，好疼！", "en": "Fell from a height!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我淹在水中，快不行了！", "en": "Sinking, can't breathe!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸差点击中我！", "en": "Explosion close call!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被投射物击中了，好疼！", "en": "Hit by projectile!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被魔法攻击了，好疼！", "en": "Hit by magic!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我饿得快不行了！", "en": "Starving, can't eat!"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光把我的瞳孔照得发白。", "en": "The lightning bleaches my pupil white."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空，我快没了！", "en": "Falling into void!"}
+      ]
+    }
+  }
+}

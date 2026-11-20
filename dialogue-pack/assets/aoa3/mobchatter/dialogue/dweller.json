@@ -1,0 +1,282 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴着洞壁走，石头擦着我的背。", "en": "I walk against the tunnel wall, stone scraping my back."},
+        {"zh": "深层的路很窄，我走得很慢。", "en": "The Deep Lands' passages are narrow; I walk slowly."},
+        {"zh": "我的脚步没有声音，这不容易。", "en": "My steps make no sound, which is not easy."},
+        {"zh": "我在岩缝里钻，膝盖磨得发亮。", "en": "I squeeze through crevices until my knees shine."},
+        {"zh": "这里没有光，我靠摸墙走。", "en": "No light here; I walk by touching the wall."},
+        {"zh": "我走过的地方，苔藓会暗下去。", "en": "Where I pass, the moss dims."},
+        {"zh": "我不跑，跑起来会撞到石柱。", "en": "I do not run; running would hit the pillars."},
+        {"zh": "地下很静，我的关节声很响。", "en": "It is quiet down here, and my joints are loud."},
+        {"zh": "我绕过那条暗河，水声太吵。", "en": "I go around the dark river; the water is too loud."},
+        {"zh": "往上走是别人的地盘，我不去。", "en": "Upward belongs to others; I do not go."},
+        {"zh": "我一步步挪，等你先动。", "en": "I shuffle step by step and wait for you to move first."},
+        {"zh": "这条隧道我熟，你陌生。", "en": "I know this tunnel; you do not."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我蹲在暗处，几乎和石头一样。", "en": "I crouch in the dark, nearly the same as stone."},
+        {"zh": "我屏住气，洞里就真没声音了。", "en": "I hold my breath, and the cave goes truly silent."},
+        {"zh": "滴水落在我背上，一滴，两滴。", "en": "Drips fall on my back, one, then two."},
+        {"zh": "我数着洞顶的裂缝，一共十九条。", "en": "I count the cracks overhead; there are nineteen."},
+        {"zh": "我不睡，睡了就有人经过。", "en": "I do not sleep; sleepers get walked past."},
+        {"zh": "我缩在深层岩缝里，连苔藓都不动。", "en": "I crouch in a Deep cavern crack; even the moss stays still."},
+        {"zh": "这块石头我坐了三天。", "en": "I have sat on this stone for three days."},
+        {"zh": "深处的风是往上吹的，我知道。", "en": "The deep wind blows upward; I know that."},
+        {"zh": "我在等一个脚步声出错。", "en": "I am waiting for one footstep to go wrong."},
+        {"zh": "安静得久了，我会忘了自己多大。", "en": "Quiet this long, I forget my own size."},
+        {"zh": "苔藓在我脚边长了一圈。", "en": "Moss has grown a ring around my feet."},
+        {"zh": "不动的时候，我就是洞穴的一部分。", "en": "Holding still, I am part of the cave."},
+        {"zh": "我在听上面，上面也在听我。", "en": "I listen above, and above listens back."},
+        {"zh": "没有人来的时候，我数心跳。", "en": "When no one comes, I count heartbeats."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的火把先到，我看见了。", "en": "Your torch came first, and I saw it."},
+        {"zh": "我一直在看你，看了很久。", "en": "I have been watching you for a long while."},
+        {"zh": "你的影子在墙上晃，比我大。", "en": "Your shadow sways on the wall, bigger than me."},
+        {"zh": "你听见石头响，那是我挪了脚。", "en": "You heard stone scrape; that was my foot."},
+        {"zh": "你别急着转头，我在你侧后。", "en": "Do not turn quickly; I am at your side and behind."},
+        {"zh": "你手里的火把，我数着它抖。", "en": "I count how your torch trembles."},
+        {"zh": "你的眼还没适应黑，我早看惯了。", "en": "Your eyes have not adjusted; mine are used to it."},
+        {"zh": "我认得你这种走路的方式。", "en": "I know that way of walking you have."},
+        {"zh": "你回头，我就退半步。", "en": "Turn around and I retreat half a step."},
+        {"zh": "你的呼吸在洞里传得很远。", "en": "Your breathing carries far in this cave."},
+        {"zh": "深层维度没有光，我不用躲。", "en": "The Deep has no light. I need no hiding."},
+        {"zh": "你身上的味道，是地面的味道。", "en": "The smell on you is the smell of the surface."},
+        {"zh": "深层的石头缝里，全是我。", "en": "Every crack in the Deep is full of me."},
+        {"zh": "我等你看够了，再动手。", "en": "I will wait until you have looked enough."},
+        {"zh": "你的火把照到我的手指了", "en": "Your torch caught my fingers."},
+        {"zh": "我在这块石头后面看了你一会", "en": "I watched you a while from behind this rock."},
+        {"zh": "你的眼睛还没找到我的位置", "en": "Your eyes have not found my spot yet."},
+        {"zh": "你把火把举高，我就低下去", "en": "Raise the torch and I sink lower."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你砍中我，我退进了石头缝。", "en": "You cut me and I slipped into a crack."},
+        {"zh": "我流血很少，血是黑的。", "en": "I bleed little, and the blood is black."},
+        {"zh": "这一下让我趴了很久。", "en": "That blow kept me flat a long while."},
+        {"zh": "我不叫，我只喘。", "en": "I do not cry out; I only gasp."},
+        {"zh": "你打在我肩上，骨头响了。", "en": "You hit my shoulder and the bone answered."},
+        {"zh": "我比你怕得少，疼得却一样。", "en": "I fear less than you, but hurt the same."},
+        {"zh": "二十五颗心，掉一颗少一颗。", "en": "Twenty-five hearts, and each one lost stays lost."},
+        {"zh": "我贴在墙上，你就砍不准了。", "en": "I press to the wall so your cuts miss."},
+        {"zh": "你把我的腿砍伤了，我爬着走。", "en": "You hurt my leg; I will crawl."},
+        {"zh": "这点伤在深层很常见。", "en": "Wounds like this are common in the Deep Lands."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手里那点吃的，照不亮这里。", "en": "That bit of food in your hand cannot light this place."},
+        {"zh": "我不饿，我只是想靠近你。", "en": "I am not hungry; I only want to be closer."},
+        {"zh": "食物在深层会发霉，很快。", "en": "Food molds fast in the Deep Lands."},
+        {"zh": "你把面包举高，我看见你的手腕。", "en": "You raise the bread, and I see your wrist."},
+        {"zh": "拿开它，挡着我走路了。", "en": "Move it; it blocks my way."},
+        {"zh": "我吃苔藓和虫子，不吃施舍。", "en": "I eat moss and insects, not charity."},
+        {"zh": "你越晃，我越确定你手在抖。", "en": "The more you wave it, the surer I am your hand shakes."},
+        {"zh": "用吃的引我，是最笨的办法。", "en": "Luring me with food is the clumsiest way."},
+        {"zh": "你放下东西，就得弯腰。", "en": "To set it down, you must bend over."},
+        {"zh": "你把面包放下，弯腰那刻最好下手。", "en": "Set the bread down — the moment you bend over is when I strike."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我们撞上，你才发现我这么矮。", "en": "We collide, and only then you find I am this short."},
+        {"zh": "我贴着你过去，像一块湿石头。", "en": "I slide past you like a wet stone."},
+        {"zh": "你踢到我，我顺势抱住你的腿。", "en": "You kick me, and I wrap your leg."},
+        {"zh": "碰一下我就缩回暗里。", "en": "One touch and I pull back into the dark."},
+        {"zh": "我身上很凉，你打了一个激灵。", "en": "I am cold, and you flinched."},
+        {"zh": "你的膝盖撞到我，声音很闷。", "en": "Your knee met me with a dull sound."},
+        {"zh": "我让路，但只让一半。", "en": "I yield the path, but only halfway."},
+        {"zh": "挤过这条缝，我们难免碰上。", "en": "In this narrow crack we cannot help but touch."},
+        {"zh": "你退后一步，我前进一步。", "en": "You step back one; I step forward one."},
+        {"zh": "别踩，我不是石头。", "en": "Do not step there; I am not a stone."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "深层里我很少遇见同类。", "en": "I seldom meet my own kind in the Deep Lands."},
+        {"zh": "同类见面，先互相看很久。", "en": "When my kind meet, they look at each other a long time."},
+        {"zh": "这里太黑，找伴要看运气。", "en": "It is too dark here; finding a mate is luck."},
+        {"zh": "我没有巢，石头缝就是家。", "en": "I keep no nest; a crack in the stone is home."},
+        {"zh": "两个我藏在同一条缝里，会挤。", "en": "Two of me in one crack would be crowded."},
+        {"zh": "你问这个，我有点想笑了。", "en": "You ask that, and I almost laugh."},
+        {"zh": "我这样的东西，不常成双。", "en": "Things like me do not often pair."},
+        {"zh": "我听过同类叫，只有一次。", "en": "I heard my kind call once, only once."},
+        {"zh": "这里养不出小的，太冷。", "en": "Nothing young survives here; it is too cold."},
+        {"zh": "我陪着自己，已经很多年。", "en": "I have kept myself company for many years."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地上有块骨头，我踢到一边。", "en": "A bone lay there; I nudged it aside."},
+        {"zh": "我捡起一块矿石，掂了掂。", "en": "I picked up a piece of ore and weighed it."},
+        {"zh": "太亮的东西，我不碰。", "en": "I do not touch anything too bright."},
+        {"zh": "我把它塞进墙缝，藏起来。", "en": "I wedge it into a crack and hide it."},
+        {"zh": "这枚碎铁，我含着走了一段。", "en": "I carried this scrap of iron in my mouth a while."},
+        {"zh": "你的东西掉了，我捡起来看你。", "en": "You dropped something; I picked it up and looked at you."},
+        {"zh": "我没有口袋，藏东西很麻烦。", "en": "I have no pockets, so hiding things is a bother."},
+        {"zh": "沉的东西我不要，跑不快。", "en": "I do not want heavy things; they slow me down."},
+        {"zh": "这块石头有点暖，奇怪。", "en": "This stone is a little warm; strange."},
+        {"zh": "我把它推进石缝，回头就找不着。", "en": "I shove it into a crack and lose it by the time I turn."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的火把晃了一下，我就知道了。", "en": "Your torch flickered once, and I knew."},
+        {"zh": "脚步声在洞里绕，我听得清。", "en": "Your steps echo in the cave, and I hear them clearly."},
+        {"zh": "二十五颗心，不多，但够用。", "en": "Twenty-five hearts, not many, but enough."},
+        {"zh": "我一击六点五，你算算挨几下。", "en": "Six and a half a hit; count how many you can take."},
+        {"zh": "我比你熟悉黑暗，这是优势。", "en": "I know the dark better than you; that is my advantage."},
+        {"zh": "你走错了一条岔路，就是这条。", "en": "You took a wrong branch, and it was this one."},
+        {"zh": "我不着急，你会走到我这来。", "en": "I am not rushed; you will walk to me."},
+        {"zh": "你举起武器，我看见了影子。", "en": "You raised your weapon; I saw its shadow."},
+        {"zh": "别往回走，那边是死路。", "en": "Do not go back; that way is a dead end."},
+        {"zh": "我在这里等了很多天，就为这个。", "en": "I waited many days here for exactly this."},
+        {"zh": "你身上的光越来越小了。", "en": "The light on you is getting smaller."},
+        {"zh": "我要的不是你的东西。", "en": "It is not your belongings I want."},
+        {"zh": "我贴地爬过去，你听不见。", "en": "I crawl low, and you will not hear it."},
+        {"zh": "你数到三，我就到跟前。", "en": "Count to three, and I will be beside you."},
+        {"zh": "你的脚踩到了我留的痕", "en": "Your foot landed on the mark I left."},
+        {"zh": "这条路往下，只有我一个", "en": "This way down belongs to me alone."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我跟着你的火光走，不用看。", "en": "I follow your torchlight; I need not see."},
+        {"zh": "你走得快，回声就乱。", "en": "Walk fast and your echoes scatter."},
+        {"zh": "我在你前面那条岔口，等你。", "en": "I wait at the fork ahead of you."},
+        {"zh": "你每停一次，我就近一点。", "en": "Each time you stop, I get a little closer."},
+        {"zh": "你的汗味在洞里散不开。", "en": "Your sweat does not disperse in here."},
+        {"zh": "我听见你腰上的东西在响。", "en": "I hear the things on your belt rattling."},
+        {"zh": "你不回头，我就一直跟着。", "en": "If you do not look back, I keep following."},
+        {"zh": "上面那条路塌了，你只能往前。", "en": "The way above collapsed; you can only go on."},
+        {"zh": "我贴墙走，火光扫不到我。", "en": "I hug the wall where the torchlight does not reach."},
+        {"zh": "深层太安静，你的心跳很响。", "en": "The deep is quiet. Your heartbeat is loud."},
+        {"zh": "再往前十步，就是我的地方。", "en": "Ten steps more and you are in my place."},
+        {"zh": "我没有跑，我一直在慢慢挪。", "en": "I have not run; I have been shifting slowly."},
+        {"zh": "你不该往下挖这么深。", "en": "You should not have dug this deep."},
+        {"zh": "最后这段路，我陪你走。", "en": "This last stretch, I will walk with you."},
+        {"zh": "我把石头挪了一下，路更窄了", "en": "I shifted a stone; the path is narrower."},
+        {"zh": "你停在原地，我绕到你上面", "en": "You stop, so I climb above you."},
+        {"zh": "你听见的水声，是我在爬", "en": "That dripping is me crawling."},
+        {"zh": "上面的裂缝，我比你熟", "en": "I know the cracks above better than you."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抓了一下，很浅，但很疼。", "en": "I clawed once, shallow but sharp."},
+        {"zh": "六点五的力气，够撕开皮。", "en": "Six and a half of force will open skin."},
+        {"zh": "我不挥拳，我用指甲。", "en": "I do not punch; I use my nails."},
+        {"zh": "你退开时，我咬到了布。", "en": "As you pulled back, I caught cloth."},
+        {"zh": "这一下打在膝后，你站不稳。", "en": "That went behind your knee, and you stagger."},
+        {"zh": "指甲先到，声音还留在石头里。", "en": "My nails arrive first; the sound is still in the stone."},
+        {"zh": "你砍中我，我还是贴上来了。", "en": "You hit me, and still I closed in."},
+        {"zh": "我打一下就走，你会等很久。", "en": "I strike once and leave; you will wait long."},
+        {"zh": "你的火把掉了，正好。", "en": "Your torch fell, and that suits me."},
+        {"zh": "这一口咬在护腕上，很硬。", "en": "My bite landed on your bracer; it is hard."},
+        {"zh": "我一击不够，就再来一击。", "en": "One blow is not enough, so I strike again."},
+        {"zh": "我在你背后，别转太快。", "en": "I am behind you; do not turn too fast."},
+        {"zh": "你流血了，洞里闻得很清楚。", "en": "You are bleeding, and the cave carries the smell."},
+        {"zh": "这一下不致命，只想让你怕。", "en": "This blow is not fatal; it is only meant to frighten."},
+        {"zh": "我的指甲从你手背划过去", "en": "My nails rake across your hand."},
+        {"zh": "这一下不算重，只是先尝尝", "en": "That one was light, just a taste."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石头裂了一道缝，我从里面出来。", "en": "A crack opened in the stone, and I came out."},
+        {"zh": "深层总有空出来的洞，我填进去。", "en": "The Deep Lands always have an empty hole; I fill it."},
+        {"zh": "我先伸出手，再伸出头。", "en": "I put out a hand first, then my head."},
+        {"zh": "这里太黑，正合我的眼睛。", "en": "It is dark here, which suits my eyes."},
+        {"zh": "我落在地上，几乎没有声音。", "en": "I landed with almost no sound."},
+        {"zh": "又一个影子贴在洞壁上。", "en": "Another shadow clings to the cave wall."},
+        {"zh": "苔藓的味道告诉我该往哪走。", "en": "The smell of moss tells me which way to go."},
+        {"zh": "我是从上面的裂缝掉下来的。", "en": "I fell in through a crack from above."},
+        {"zh": "这块石头后面一直空着，现在不空了。", "en": "Behind this stone was empty; it is not now."},
+        {"zh": "上面的声音传下来，我得等等。", "en": "Sounds from above drift down; I must wait."},
+        {"zh": "我出生时，洞里只有水声。", "en": "When I was born, only water spoke in the cave."},
+        {"zh": "二十五颗心，够在这活一阵。", "en": "Twenty-five hearts will last a while here."},
+        {"zh": "别往深处走，那里才有我这样的。", "en": "Do not go deeper; that is where things like me are."},
+        {"zh": "我睁眼时，火把还没点起来。", "en": "When I opened my eyes, no torch was lit yet."},
+        {"zh": "我从深层的一道窄缝里挤出来", "en": "I squeeze out of a narrow crack below."},
+        {"zh": "我出生时，四周只有苔藓", "en": "When I woke, there was only moss."},
+        {"zh": "洞壁上多了一道新影子", "en": "A new shadow clings to the cave wall."},
+        {"zh": "我顺着滴水的声音找上来", "en": "I followed the dripping up to you."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火光太近，我的皮肤缩起来。", "en": "The flame is too close, and my skin shrinks."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从洞顶掉下来，摔在湿石上。", "en": "I fell from the roof onto wet stone."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "暗河的水漫过我，我又爬出来。", "en": "The dark river covered me; I crawled out again."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸响之后，洞里全是石头味。", "en": "After the blast, the cave tastes of stone."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭钉在我背上，我够不到。", "en": "The arrow is in my back, and I cannot reach it."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "药水的光让我的眼睛刺痛。", "en": "The potion's light stings my eyes."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞里没什么可吃，我啃苔藓。", "en": "Little to eat down here; I gnaw moss."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷从裂缝打进来，我蜷成一团。", "en": "Lightning came through the crack, and I curled up."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "底下什么都没有，我不敢再往下。", "en": "Nothing lies below, and I go no deeper."}
+      ]
+    }
+  }
+}

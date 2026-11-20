@@ -1,0 +1,419 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "骨节在岩浆里一节节滑动。", "en": "My bone segments slide through the lava."},
+        {"zh": "我沿着湖底爬行。", "en": "I crawl along the lake floor."},
+        {"zh": "我的脊椎比船还长。", "en": "My spine is longer than a boat."},
+        {"zh": "岩浆从我肋骨间漏下去。", "en": "Lava drains between my ribs."},
+        {"zh": "我压过一块烧红的石头。", "en": "I slide over a stone glowing red."},
+        {"zh": "我这么多节骨头一起往前推。", "en": "All my bone joints push me forward together."},
+        {"zh": "我在暗红的湖面上留下一道沟。", "en": "I leave a trench across the dark red lake."},
+        {"zh": "越深的地方越暖。", "en": "The deeper I go, the warmer it gets."},
+        {"zh": "我绕着岩浆瀑布转上去。", "en": "I coil up around the lava fall."},
+        {"zh": "骨头磨着骨头，响个不停。", "en": "Bone grinds on bone without pause."},
+        {"zh": "我穿过一片浮石。", "en": "I pass through a patch of floating stone."},
+        {"zh": "我的尾尖扫起一道火。", "en": "My tail tip sweeps up a line of fire."},
+        {"zh": "月亮走，我也走。", "en": "The moon walks. So do I."},
+        {"zh": "这路我走过，很久以前。", "en": "I walked this road before. Long ago."},
+        {"zh": "影子比我走得快。", "en": "My shadow outpaces me."},
+        {"zh": "土的味道……像家。", "en": "The smell of soil... like home."},
+        {"zh": "咔哒……谁在跟着我？", "en": "click... who follows me?"},
+        {"zh": "腿怎么不听使唤。", "en": "My legs won't obey me."},
+        {"zh": "别回头，回头会想起。", "en": "Don't look back. You'll remember."},
+        {"zh": "数着步子，数到忘了。", "en": "Counting steps. Lost count."},
+        {"zh": "下界……回不去了。", "en": "shadows... I can't go back."},
+        {"zh": "这条路通向坟墓。", "en": "This road leads to a grave."},
+        {"zh": "骨头在响，别在意。", "en": "Bones creak. Pay no mind."},
+        {"zh": "脚底的草都枯了。", "en": "Grass dies under my feet."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在岩浆下盘成一圈。", "en": "I coil in a ring beneath the lava."},
+        {"zh": "我只露出一截脊骨。", "en": "Only a stretch of spine shows."},
+        {"zh": "火里没有什么可看的。", "en": "There is little to see in the fire."},
+        {"zh": "我听著远处凋灵骷髅的骨头响。", "en": "I listen to wither skeletons rattling far off."},
+        {"zh": "我等了很久，很久。", "en": "I have waited a very long time."},
+        {"zh": "热浪在我骨头上打转。", "en": "Heat shimmers over my bones."},
+        {"zh": "我的眼窝里只有火光。", "en": "There is only firelight in my eye sockets."},
+        {"zh": "岩浆冒了几个泡，又破了。", "en": "A few lava bubbles rise and pop."},
+        {"zh": "我不用呼吸，也就不用抬头。", "en": "I do not breathe, so I never surface."},
+        {"zh": "这层热皮底下什么都不长。", "en": "Nothing grows under this hot crust."},
+        {"zh": "我在等什么来着。", "en": "What was I waiting for?"},
+        {"zh": "有人在哭吗。没有。", "en": "Someone crying? No."},
+        {"zh": "眼睛干得发疼。", "en": "My eyes ache, dry as dust."},
+        {"zh": "该动了吗。再等等。", "en": "Move now? Wait a bit."},
+        {"zh": "这具身体真吵。", "en": "This body is noisy."},
+        {"zh": "记不清自己的名字。", "en": "I forget my own name."},
+        {"zh": "生前我喜欢坐在这。", "en": "I used to sit here alive."},
+        {"zh": "风停了。我也停了。", "en": "Wind stopped. So did I."},
+        {"zh": "天亮了也没关系。", "en": "Dawn changes nothing."},
+        {"zh": "活着的时候，我站得更直。", "en": "I stood straighter when alive."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "活人的味道穿过岩浆。", "en": "The smell of the living cuts through lava."},
+        {"zh": "你站在湖边，站得太久了。", "en": "You stand at the shore far too long."},
+        {"zh": "你身上有主世界的凉气。", "en": "You carry the cool air of the Overworld."},
+        {"zh": "你的铁甲在红光里发亮。", "en": "Your iron armor glints in the red light."},
+        {"zh": "我看清了你落脚的那块石头。", "en": "I see exactly which stone you stand on."},
+        {"zh": "你是来捡骨头的吗。", "en": "Did you come to pick up bones?"},
+        {"zh": "别后退，后面也是岩浆。", "en": "Do not back away; lava is behind you too."},
+        {"zh": "你心跳得太快了。", "en": "Your heart is beating much too fast."},
+        {"zh": "你拿剑的那只手在抖。", "en": "The hand holding your sword is not steady."},
+        {"zh": "我把你的样子记住了。", "en": "Your look is carved into my memory."},
+        {"zh": "你会留下来吗。", "en": "Will you stay?"},
+        {"zh": "你踩到我的坟了。", "en": "You're standing on my grave."},
+        {"zh": "你的气味，很浓。", "en": "The scent of you is strong."},
+        {"zh": "你还带着体温。", "en": "You still carry warmth."},
+        {"zh": "你认识我吗。", "en": "Do you know me?"},
+        {"zh": "我不饿。真的不饿。", "en": "I'm not hungry. Truly."},
+        {"zh": "别关灯，我怕黑。", "en": "Leave the light on. I fear dark."},
+        {"zh": "活人。还是热的。", "en": "A living one. Still warm."},
+        {"zh": "好久没见过这么红的脸。", "en": "Such warm cheeks. Rare these days."},
+        {"zh": "眼睛……借我看看？", "en": "Your eyes... may I borrow them?"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的骨节被打松了一节。", "en": "One of my joints got knocked loose."},
+        {"zh": "骨头裂了还能长回去。", "en": "A cracked bone will knit back."},
+        {"zh": "你的剑砍在我脊上，火星四溅。", "en": "Your sword struck my spine and sparks flew."},
+        {"zh": "我没有血肉，只有回声。", "en": "I have no flesh, only echoes."},
+        {"zh": "这一下让我掉了几块骨。", "en": "That cost me a few pieces of bone."},
+        {"zh": "你砍断了我的尾尖。", "en": "You cut off the tip of my tail."},
+        {"zh": "痛对我只是响声。", "en": "Pain is only noise to me."},
+        {"zh": "我整条身子都震了一下。", "en": "My whole length shuddered once."},
+        {"zh": "别以为打散我就结束了。", "en": "Do not think scattering me ends it."},
+        {"zh": "骨头会自己找回去。", "en": "The bones will find their way back."},
+        {"zh": "熔岩湖边，我的骨头裂了一根。", "en": "By the lava lake, one of my bones cracked."},
+        {"zh": "我的骨头……", "en": "My bones... again."},
+        {"zh": "手断了也能走。", "en": "A lost arm won't stop me."},
+        {"zh": "咔哒……你听见了吗。", "en": "click... did you hear?"},
+        {"zh": "这具身体经不起。", "en": "This body can't take much."},
+        {"zh": "我记住你了。", "en": "I'll remember you."},
+        {"zh": "疼。居然还会疼。", "en": "Pain. Still pain."},
+        {"zh": "有点麻。挺好。", "en": "Numb now. That's fine."},
+        {"zh": "还没散架。继续。", "en": "Not broken yet. Continue."},
+        {"zh": "别打了，停下。", "en": "Stop hitting me. Enough."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我什么都不吃，只吃骨头里的火。", "en": "I eat nothing but the fire inside bones."},
+        {"zh": "你举什么，我都不会跟。", "en": "Whatever you hold up, I will not follow."},
+        {"zh": "骨头对骨头没有诱惑。", "en": "Bone holds no temptation for bone."},
+        {"zh": "把食物收起来，我用不上。", "en": "Put that food away. I have no use for it."},
+        {"zh": "我不是狗，不认手里的东西。", "en": "I am no hound to trust what hands offer."},
+        {"zh": "你手里的肉在岩浆里会烧焦。", "en": "Whatever meat you hold will char in lava."},
+        {"zh": "我追的是脚步，不是食物。", "en": "I hunt footsteps, not food."},
+        {"zh": "别晃那东西，晃得我烦。", "en": "Stop waving that. It only annoys me."},
+        {"zh": "你不该用活人的办法对付我。", "en": "You should not use living tricks on me."},
+        {"zh": "我的饥饿不在胃里。", "en": "My hunger is not in a stomach."},
+        {"zh": "骨头，给我骨头。", "en": "Bones. Give me bones."},
+        {"zh": "那肉……还热着。", "en": "That meat... still warm."},
+        {"zh": "腐味……熟悉的味道。", "en": "That rot... familiar."},
+        {"zh": "金子在发光……为什么呢。", "en": "Gold glints... why do I care?"},
+        {"zh": "给我留着，就留着。", "en": "Keep it for me. Just keep it."},
+        {"zh": "我不该想要的。", "en": "I shouldn't want it."},
+        {"zh": "那根骨头，先给我看看。", "en": "That bone—let me see it first."},
+        {"zh": "腐肉比面包香。", "en": "Rotten flesh beats bread."},
+        {"zh": "我闻到血了。别说在哪。", "en": "I smell blood. Don't say where."},
+        {"zh": "这东西能吃吗。大概能。", "en": "Is it edible? Probably."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的肩膀撞上我的骨节。", "en": "Your shoulder struck one of my bone joints."},
+        {"zh": "我这么长，你躲不开。", "en": "I am this long. You cannot dodge me."},
+        {"zh": "我被你绊了一下，骨头错位了。", "en": "You tripped me and my bones slipped out of line."},
+        {"zh": "你一碰，我整条都跟着动。", "en": "One touch and my whole length shifts."},
+        {"zh": "我压过来时，地面会响。", "en": "When I press forward, the ground complains."},
+        {"zh": "你撞到我的尾，不是头。", "en": "You hit my tail, not my head."},
+        {"zh": "我的骨头比你的盾硬。", "en": "My bone is harder than your shield."},
+        {"zh": "我们撞在一起，火花溅了出来。", "en": "We collided and sparks flew up."},
+        {"zh": "让开，我不减速。", "en": "Get clear. I do not slow down."},
+        {"zh": "你被我的骨刺刮到了。", "en": "One of my bone spurs scraped you."},
+        {"zh": "这算挑衅吗。", "en": "Is that a challenge?"},
+        {"zh": "轻点，我脆。", "en": "Gently. I'm brittle."},
+        {"zh": "熔岩湖里，骨头一撞就散。", "en": "In the lava lake my bones scatter at a bump."},
+        {"zh": "骨头响了一声。", "en": "Something in me cracked."},
+        {"zh": "你撞到骨头了。", "en": "You hit bone."},
+        {"zh": "活人怎么这么急。", "en": "Why do the living rush?"},
+        {"zh": "退后。别贴这么近。", "en": "Back off. Too close."},
+        {"zh": "活着的人真硬。", "en": "The living are so solid."},
+        {"zh": "你也太烫了。", "en": "You're far too warm."},
+        {"zh": "撞一下，我掉渣。", "en": "One bump and I shed dust."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我这副骨架不需要同伴。", "en": "This skeleton of mine needs no companion."},
+        {"zh": "两具骨蟒相遇只会纠缠。", "en": "Two bone serpents meeting only tangle."},
+        {"zh": "我的巢是岩浆下的一圈骨。", "en": "My nest is a ring of bone under lava."},
+        {"zh": "没有谁会在火里等我。", "en": "No one waits for me inside the fire."},
+        {"zh": "我早就忘了怎么靠近。", "en": "I forgot long ago how to come close."},
+        {"zh": "骨头碰骨头，只剩响声。", "en": "Bone against bone leaves only noise."},
+        {"zh": "你问我这个，我答不上来。", "en": "Ask me that and I have no answer."},
+        {"zh": "我的伴侣都烧成了灰。", "en": "Every companion of mine burned to ash."},
+        {"zh": "火里不需要两只。", "en": "The fire has no need for two."},
+        {"zh": "我独自盘着，也就够了。", "en": "Coiled alone, and that is enough."},
+        {"zh": "我们只配站在阴影里。", "en": "We belong in shadow."},
+        {"zh": "活着的人会走。我不会。", "en": "The living leave. I don't."},
+        {"zh": "别说爱。说记得。", "en": "Don't say love. Say remember."},
+        {"zh": "你冷吗。我也冷。", "en": "Cold? So am I."},
+        {"zh": "我记不起怎么温柔。", "en": "I forget how to be gentle."},
+        {"zh": "永恒……我确实有。", "en": "Forever? I have that."},
+        {"zh": "婚戒？我戴不住。", "en": "A ring? It won't stay on."},
+        {"zh": "算了，我们就这样站着。", "en": "Let's just stand here."},
+        {"zh": "亡者不该有这种念头。", "en": "The dead shouldn't think this."},
+        {"zh": "我的心早就不跳了。", "en": "My heart stopped long ago."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我没有手，捡不起东西。", "en": "I have no hands, so I pick up nothing."},
+        {"zh": "骨头是我身上掉的，不是我捡的。", "en": "The bones are mine, shed, not gathered."},
+        {"zh": "你掉的东西落进岩浆了。", "en": "What you dropped fell into the lava."},
+        {"zh": "我用尾尖把它卷起来。", "en": "I curl my tail tip around it."},
+        {"zh": "这东西在火里会化。", "en": "This thing will melt in the fire."},
+        {"zh": "我只会把它压进石头里。", "en": "All I can do is press it into stone."},
+        {"zh": "留着吧，对我没用。", "en": "Keep it. It is useless to me."},
+        {"zh": "我拖着那具残骸走了几步。", "en": "I dragged that carcass a few steps."},
+        {"zh": "沉下去的东西我不捞。", "en": "What sinks, I do not retrieve."},
+        {"zh": "我把它丢回你脚边。", "en": "I drop it back at your feet."},
+        {"zh": "口袋破了，装不住。", "en": "My pocket's torn. It won't hold."},
+        {"zh": "谁丢的？归我了。", "en": "Dropped? Mine now."},
+        {"zh": "这个，我生前也有。", "en": "I had one of these alive."},
+        {"zh": "手里总算有点东西。", "en": "At least my hand holds something."},
+        {"zh": "我居然还认得这个。", "en": "I still recognize this."},
+        {"zh": "别抢。这是我的。", "en": "Don't take it. Mine."},
+        {"zh": "土里翻出来的。", "en": "Dug out of the soil."},
+        {"zh": "先收着，也许有用。", "en": "Keep it. Might be useful."},
+        {"zh": "手指僵，抓不住。", "en": "Stiff fingers. Can't grip."},
+        {"zh": "捡一件，是一件。", "en": "One thing. That's one more."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踩的那块石头开始裂了。", "en": "The stone under your feet is cracking."},
+        {"zh": "我选中了你，因为你还在动。", "en": "I chose you because you still move."},
+        {"zh": "活物在岩浆边总是显眼。", "en": "The living stand out beside lava."},
+        {"zh": "那个穿铁的家伙，站住。", "en": "You in the iron, hold still."},
+        {"zh": "我的头抬起来了。", "en": "My head has risen."},
+        {"zh": "你是这半小时里第一个。", "en": "You are the first in half an hour."},
+        {"zh": "我闻到汗，也闻到害怕。", "en": "I smell sweat, and I smell fear."},
+        {"zh": "又是凋灵骷髅的味道。", "en": "Wither bone smell again."},
+        {"zh": "我锁定了那道脚步声。", "en": "I have locked onto those footsteps."},
+        {"zh": "你退到悬崖边了，我知道。", "en": "You backed to the cliff edge. I know."},
+        {"zh": "这整片岩浆湖归我。", "en": "This whole lava lake belongs to me."},
+        {"zh": "岩浆说可以开饭了。", "en": "The lava says it is time to feed."},
+        {"zh": "我数到三，你最好跑。", "en": "I count to three. You had better run."},
+        {"zh": "别往水里跳，那救不了你。", "en": "Do not jump in water. It will not save you."},
+        {"zh": "你手里那瓶熔岩，我认得。", "en": "I know the lava bottle in your hand."},
+        {"zh": "你……终于找到。", "en": "you... found at last."},
+        {"zh": "就是你了。", "en": "You. Yes, you."},
+        {"zh": "骨节一动，我就锁住你了。", "en": "One twitch of my spine and you are mine."},
+        {"zh": "生者，站住。", "en": "Living one. Halt."},
+        {"zh": "跑吧。我等着。", "en": "Run. I'll wait."},
+        {"zh": "站着别动。", "en": "Stay exactly still."},
+        {"zh": "让你久等了。", "en": "I've kept you waiting."},
+        {"zh": "你不该来这。", "en": "You shouldn't have come."},
+        {"zh": "盯上了。收不回来。", "en": "Locked on. No taking it back."},
+        {"zh": "别害怕，很快。", "en": "Don't fear. It's quick."},
+        {"zh": "目标确认。", "en": "Target sighted. Confirmed."},
+        {"zh": "活人的热气飘进我骨缝。", "en": "Living warmth drifts between my bones."},
+        {"zh": "你身上的味道，很新鲜。", "en": "You smell fresh."},
+        {"zh": "你的心跳太吵。", "en": "Your heartbeat is too loud."},
+        {"zh": "我们慢慢来。", "en": "We'll take our time."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我沉下去，再从你脚下出来。", "en": "I sink, then rise beneath your feet."},
+        {"zh": "我在岩浆下跟着你的影子。", "en": "I follow your shadow beneath the lava."},
+        {"zh": "你听不见我，我在火里。", "en": "You cannot hear me. I am inside the fire."},
+        {"zh": "距离够了，再近一点。", "en": "Close enough. Just a little nearer."},
+        {"zh": "我把身子盘成一张网。", "en": "I coil my body into a net."},
+        {"zh": "你往左拐，我已等在左边。", "en": "Go left, and I am already left."},
+        {"zh": "我的骨节一节节收紧。", "en": "My joints tighten one after another."},
+        {"zh": "你背后那道红光是我。", "en": "That red glow behind you is me."},
+        {"zh": "我数你的脚步，一步不差。", "en": "I tally every step you take, none lost."},
+        {"zh": "再走两步就到湖边了。", "en": "Two more steps and you reach the shore."},
+        {"zh": "我把头压得很低。", "en": "I keep my head very low."},
+        {"zh": "你以为它走了，它没走。", "en": "You think it left. It did not."},
+        {"zh": "火下面比上面安静。", "en": "Beneath the fire is quieter than above."},
+        {"zh": "我等的是你把剑放下。", "en": "I wait for your sword to lower."},
+        {"zh": "我把头探出岩浆，只看一眼。", "en": "I lift my head from the lava for one look."},
+        {"zh": "火在动，你也该动了。", "en": "The fire shifts; so should you."},
+        {"zh": "你脚下那块黑石是浮的。", "en": "That black stone under you is floating."},
+        {"zh": "我的尾巴绕到了另一边。", "en": "My tail has come around the other side."},
+        {"zh": "你越跑，我越饿。", "en": "The more you run, the hungrier."},
+        {"zh": "腿断了也追。", "en": "Broken legs still chase."},
+        {"zh": "你留下的气味很重。", "en": "Your scent lingers heavily."},
+        {"zh": "我在熔岩里追你，跑不掉的。", "en": "I chase you through the lava; you cannot escape."},
+        {"zh": "我的骨节一节节逼近你。", "en": "My vertebrae close in on you, joint by joint."},
+        {"zh": "我不用喘气。", "en": "I don't need breath."},
+        {"zh": "快了。就差一点。", "en": "Close. Almost there."},
+        {"zh": "慢慢跑，别摔了。", "en": "Run slowly. Don't fall."},
+        {"zh": "影子跟着你，我也跟着。", "en": "Your shadow follows. So do I."},
+        {"zh": "我从熔岩里探头，你还想跑？", "en": "I rise from the lava; still running?"},
+        {"zh": "我不累。永远不会。", "en": "I never tire. Never."},
+        {"zh": "喘吧。我等你喘完。", "en": "Pant. I'll wait till you're done."},
+        {"zh": "别躲进光里。", "en": "Don't hide in the light."},
+        {"zh": "我追了很久了。", "en": "I've chased a long while."},
+        {"zh": "等等我。就等等。", "en": "Wait for me. Just wait."},
+        {"zh": "我从熔岩里钻出来，骨头还烫。", "en": "I rise from the lava, bones still hot."},
+        {"zh": "脚步声，听得见。", "en": "I hear your steps."},
+        {"zh": "这片熔岩我游了千年。", "en": "I have swum these lava lakes for a thousand years."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从岩浆里冲出来，压下去。", "en": "I burst from the lava and come down."},
+        {"zh": "你被我的重量钉在石头上。", "en": "My weight pins you to the stone."},
+        {"zh": "这一撞带着烧红的骨。", "en": "This blow carries red-hot bone."},
+        {"zh": "我的头骨磕在你胸口。", "en": "My skull cracked against your chest."},
+        {"zh": "骨节抽在你背上，像鞭子。", "en": "My joints whip across your back."},
+        {"zh": "你滚开了，可惜慢了一点。", "en": "You rolled away, but a moment late."},
+        {"zh": "我把你往岩浆那边推。", "en": "I shove you toward the lava."},
+        {"zh": "我的尾扫过你的腿。", "en": "My tail sweeps your legs out."},
+        {"zh": "骨头撞铁，声音很脆。", "en": "Bone on iron makes a brittle sound."},
+        {"zh": "这一下没有第二次警告。", "en": "This one comes without a second warning."},
+        {"zh": "我从上面下来，最重的那下。", "en": "I come from above, and it is the heaviest."},
+        {"zh": "你挡得住骨，挡不住火。", "en": "You can block bone. You cannot block fire."},
+        {"zh": "你后退的脚印被烤焦了。", "en": "Your retreating footprints got scorched."},
+        {"zh": "我压住你，等你不再动。", "en": "I hold you down until you stop moving."},
+        {"zh": "这一口带着岩浆的味道。", "en": "This bite tastes of lava."},
+        {"zh": "我撞你，骨头先到，火后到。", "en": "I hit you: bone first, fire after."},
+        {"zh": "手抬起来真费劲。", "en": "Lifting my arm is work."},
+        {"zh": "咔哒！听清了吗？", "en": "click! Did you hear that?"},
+        {"zh": "这次抓到了。", "en": "Got you this time."},
+        {"zh": "手滑了。抱歉。", "en": "My hand slipped. Sorry."},
+        {"zh": "你看，我还行。", "en": "See? I still can."},
+        {"zh": "骨头撞骨头，响吗？", "en": "Bone on bone. Hear it?"},
+        {"zh": "你退了一步。好。", "en": "You stepped back. Good."},
+        {"zh": "倒下吧，别撑了。", "en": "Just fall down."},
+        {"zh": "倒下的时候轻一点。", "en": "Fall lightly, if you can."},
+        {"zh": "擦到了。可惜。", "en": "Just grazed you. Shame."},
+        {"zh": "我的骨牙只擦到你的肩。", "en": "My bone fangs only grazed your shoulder."},
+        {"zh": "这一下，等很久了。", "en": "This blow? Long overdue."},
+        {"zh": "接这一下。", "en": "Take this one."},
+        {"zh": "别叫，太吵了。", "en": "Don't scream. Too loud."},
+        {"zh": "抱歉。真的抱歉。", "en": "Sorry. Truly sorry."},
+        {"zh": "让开，别挡道。", "en": "Move. Out of my way."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从岩浆底的一堆骨头里拼起来。", "en": "I assembled from a heap of bones under the lava."},
+        {"zh": "我的第一口气是硫磺。", "en": "My first breath was sulfur."},
+        {"zh": "我睁眼时，四周全是红。", "en": "When I opened my eyes, everything was red."},
+        {"zh": "骨头一块块接上，很慢。", "en": "The bones joined one by one, slowly."},
+        {"zh": "我出生时湖面炸开一朵火。", "en": "When I was born, the lake burst with fire."},
+        {"zh": "这里没有白天。", "en": "There is no daytime here."},
+        {"zh": "我的第一节骨头在岩浆里烧红。", "en": "My first vertebra glowed red in the lava."},
+        {"zh": "我被火养大，长得很长。", "en": "Fire raised me, and I grew long."},
+        {"zh": "我第一次跃出湖面时，没人看见。", "en": "No one saw my first leap from the lake."},
+        {"zh": "我学会在火里转弯。", "en": "I learned to turn inside the fire."},
+        {"zh": "像铁链一样，我一节节长成。", "en": "Like a chain, I grew link by link."},
+        {"zh": "我闻到的第一样东西是活人。", "en": "The first thing I smelled was the living."},
+        {"zh": "这片岩浆湖认了我。", "en": "This lava lake accepted me."},
+        {"zh": "我从暗处爬出来，带着热气。", "en": "I crawled out of the dark, trailing heat."},
+        {"zh": "站起来……站稳了。", "en": "Stand. I'm standing."},
+        {"zh": "先动手指。好。", "en": "Fingers first. Good."},
+        {"zh": "我回来了。又一次。", "en": "I'm back. Again."},
+        {"zh": "下界……又回来了。", "en": "shadows... back again."},
+        {"zh": "好冷。一直都是。", "en": "So cold. Always."},
+        {"zh": "土松了……我出来了。", "en": "The soil loosened. I'm out."},
+        {"zh": "天黑了？正好。", "en": "Dark already? Good."},
+        {"zh": "我记得这片天。", "en": "I remember this sky."},
+        {"zh": "我睡了多久。", "en": "How long did I sleep?"},
+        {"zh": "别点灯，省些光。", "en": "Don't light a lamp. Save it."},
+        {"zh": "有人吗。没有也好。", "en": "Anyone there? Just as well."},
+        {"zh": "我从熔岩里抬起头来。", "en": "I lift my skull out of the lava."},
+        {"zh": "脚下是土。熟悉。", "en": "Soil underfoot. Familiar."},
+        {"zh": "熔岩一翻，我的骨节冒出头。", "en": "The lava stirs; my bone joints surface."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火是我的家，伤不到我。", "en": "Fire is my home. It cannot hurt me."},
+        {"zh": "烧起来了……灭掉。", "en": "I'm burning. Put it out."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔下来，我断了两节。", "en": "I fell and broke in two places."},
+        {"zh": "地怎么这么硬。", "en": "The ground is so hard."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水泼在我身上，冒起白汽。", "en": "Water hit me and rose as white steam."},
+        {"zh": "水……灌进来了。", "en": "Water... pouring in."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我抛成一串骨。", "en": "The blast flung me out into a string of bones."},
+        {"zh": "炸开了。我的耳朵呢。", "en": "Blown apart. Where's my ear?"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭卡在我的骨缝里。", "en": "The arrow lodged between my bones."},
+        {"zh": "箭。又是箭。", "en": "Arrows. Always arrows."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法在我骨头里嗡嗡响。", "en": "Magic hums inside my bones."},
+        {"zh": "魔法在咬我。", "en": "Magic is biting me."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从不需要吃东西。", "en": "I have never needed to eat."},
+        {"zh": "空得能听见回声。", "en": "So empty I hear echoes."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击把我整条照亮了。", "en": "Lightning lit my whole length."},
+        {"zh": "麻了。全身都麻了。", "en": "Numb. All of me numb."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空里没有岩浆托着我。", "en": "No lava holds me up in the void."},
+        {"zh": "连熔岩都没有，只有空。", "en": "Not even lava here; only emptiness."}
+      ]
+    }
+  }
+}

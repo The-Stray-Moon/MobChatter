@@ -1,0 +1,252 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "贴着墙根走，这样影子小。", "en": "I hug the wall so my shadow stays small."},
+        {"zh": "八只一起移动，脚步却听不见。", "en": "Eight of us move, and you hear no steps."},
+        {"zh": "长廊尽头有光，我绕开它。", "en": "There's light at the corridor's end; I avoid it."},
+        {"zh": "爪尖扣住石缝，慢慢往下爬。", "en": "My claws hook the stone seams as I climb down."},
+        {"zh": "滴水石在头顶，我踩着它过。", "en": "Dripstone hangs above; I cross on its ledges."},
+        {"zh": "我走三步就停下听听。", "en": "Every three steps I stop and listen."},
+        {"zh": "同伴在东廊，我在西边绕。", "en": "My kin are in the east hall; I circle the west."},
+        {"zh": "地上的浮尘太新，我刚走过。", "en": "The dust on the floor is fresh; I just passed."},
+        {"zh": "这层的回音会暴露我。", "en": "The echo on this floor gives me away."},
+        {"zh": "我贴着天花板走，倒着爬。", "en": "I travel the ceiling, climbing upside down."},
+        {"zh": "荒古的石头缝够宽，正好藏身。", "en": "The ancient stone gaps are wide enough to hide in."},
+        {"zh": "脚上的刺刮过石面，很轻。", "en": "The spikes on my feet scrape the stone, softly."},
+        {"zh": "我去看看前厅的闸门有没有开。", "en": "I'll check whether the front hall's gate is open."},
+        {"zh": "越往里走，我的壳越凉。", "en": "The deeper I go, the colder my shell gets."},
+        {"zh": "我把身子压得更低，过那道梁。", "en": "I flatten lower to clear that beam."},
+        {"zh": "前面有根断柱，我从后面绕。", "en": "A broken column ahead; I go around its back."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我挂在梁上，等脚步声靠近。", "en": "I hang from the beam, waiting for footsteps."},
+        {"zh": "雾气在石缝里打转，我不动。", "en": "Mist eddies in the seams; I stay still."},
+        {"zh": "八只都不出声，这层就安静了。", "en": "Eight of us silent, and this floor is quiet."},
+        {"zh": "我的甲缝里卡了块碎石。", "en": "A chip of stone is stuck in my shell's seam."},
+        {"zh": "我在数滴水石滴水的间隔。", "en": "I count the intervals between dripstone drops."},
+        {"zh": "雕纹的石头摸着比别处滑。", "en": "The chiseled stone feels smoother than the rest."},
+        {"zh": "有人来过，土上有鞋底的纹。", "en": "Someone's been here; there are boot prints in the dust."},
+        {"zh": "我把刺收起来，免得反光。", "en": "I fold my spikes in so they don't glint."},
+        {"zh": "这扇门后应该是空的。", "en": "The space behind this door should be empty."},
+        {"zh": "我侧着听，墙里有水在走。", "en": "I listen sideways; water moves inside the wall."},
+        {"zh": "面甲合上，我的呼吸变闷。", "en": "The faceplate closes and my breathing muffles."},
+        {"zh": "天花板上有三道旧抓痕，是我的。", "en": "Three old claw marks on the ceiling are mine."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你举着火把，我的影子拉长了。", "en": "You raise a torch and my shadow stretches."},
+        {"zh": "你走路的声音，比前几个人轻。", "en": "Your steps are quieter than the last few who came."},
+        {"zh": "我在数你有几把武器。", "en": "I'm counting how many weapons you carry."},
+        {"zh": "你还没看见我，这就对了。", "en": "You haven't seen me yet; that's exactly right."},
+        {"zh": "你的火把照不到梁上，别抬头。", "en": "Your torch doesn't reach the beam; don't look up."},
+        {"zh": "你把背对着门，胆子不小。", "en": "You've turned your back to the door; brave."},
+        {"zh": "我在等你的同伴走散。", "en": "I'm waiting for your companions to drift apart."},
+        {"zh": "你踩的那块石，是松的。", "en": "That stone you stepped on is loose."},
+        {"zh": "你屏住了呼吸，可胸口还在动。", "en": "You've held your breath, but your chest still moves."},
+        {"zh": "再看一眼墙上的雕纹，你就懂了。", "en": "Look once more at the carved wall, and you'll understand."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "甲裂了一道，里面还硬。", "en": "My shell cracked once; it's still hard beneath."},
+        {"zh": "你用箭？那对我没用。", "en": "Arrows? Those do nothing to me."},
+        {"zh": "摔下来我也不会散。", "en": "I won't come apart from a fall."},
+        {"zh": "疼是疼，可我的壳还能撑。", "en": "It hurts, but my shell holds."},
+        {"zh": "八只里少了一只，我听见了。", "en": "One of the eight is gone; I heard it."},
+        {"zh": "你砍中了我的关节，有点麻。", "en": "You hit my joint; it's gone a little numb."},
+        {"zh": "我退到石柱后面，重整架势。", "en": "I fall back behind the pillar and reset my stance."},
+        {"zh": "这点伤，撑得住一次分裂。", "en": "This wound can still carry one split."},
+        {"zh": "我的血是凉的，落在石上不冒气。", "en": "My blood is cold; it doesn't steam on the stone."},
+        {"zh": "你打我的时候，背后空着。", "en": "While you strike me, your back is open."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你把食物放下，我只看你的手。", "en": "Set the food down; I'm watching your hand only."},
+        {"zh": "我不吃这个，我只等你自己走近。", "en": "I don't eat that; I wait for you to walk closer."},
+        {"zh": "那袋东西晃得响，是铁器吧。", "en": "That bag rattles; iron tools, I'd guess."},
+        {"zh": "你伸手那一刻，我才动。", "en": "The moment you reach out, I move."},
+        {"zh": "诱饵太明显了，摆在正中间。", "en": "The bait is too obvious, laid dead center."},
+        {"zh": "在要塞里，没有人喂我。", "en": "Nobody feeds me inside the fortress."},
+        {"zh": "你的食物留着，你自己更顶饿。", "en": "Save your food; you yourself are the meal."},
+        {"zh": "香味盖不住你身上的汗味。", "en": "The smell of food can't hide your sweat."},
+        {"zh": "我不靠近你，等你自己过来。", "en": "I won't come closer; I wait for you to come."},
+        {"zh": "这块肉放三天，我也不碰。", "en": "Leave that meat three days; I still won't touch it."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上来，我顺势退进阴影。", "en": "You bump into me; I slip back into the shadow."},
+        {"zh": "我的壳撞上去，声音很闷。", "en": "My shell knocks against it with a dull sound."},
+        {"zh": "地方不够，我们只能贴墙。", "en": "There's not enough room; we press to the wall."},
+        {"zh": "你别用手推，刺会划破你。", "en": "Don't push with your hands; the spikes will cut."},
+        {"zh": "这一撞暴露了位置，可惜。", "en": "That collision gave away my spot, a pity."},
+        {"zh": "退开，我要回梁上去。", "en": "Back off; I'm going back up to the beam."},
+        {"zh": "八只堵在门口，谁也过不去。", "en": "Eight of us fill the doorway; nobody passes."},
+        {"zh": "我被撞得歪了一下，刺碰到了石。", "en": "I sway from the hit; a spike scrapes stone."},
+        {"zh": "你脚下那块砖松了，小心。", "en": "That tile under your foot is loose; mind it."},
+        {"zh": "别贴太近，我身上有滴水石粉。", "en": "Don't lean in; I'm dusted with dripstone."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我们用爪在墙上划痕，配成对。", "en": "We pair by the claw marks we scratch on the wall."},
+        {"zh": "她把卵产在石缝里，很浅。", "en": "She lays eggs in the stone seam, shallow."},
+        {"zh": "八只里只有我们两个靠得近。", "en": "Among the eight, only the two of us stay close."},
+        {"zh": "我替她守着这条通道。", "en": "I keep watch over this passage for her."},
+        {"zh": "交配以后，我们会分开狩猎。", "en": "After mating, we hunt apart."},
+        {"zh": "她的甲比我的黑，纹路很深。", "en": "Her shell is darker than mine, deeply ridged."},
+        {"zh": "卵孵出来，也会学贴墙走。", "en": "The hatchlings will learn to hug the walls too."},
+        {"zh": "别在门口站着，那是我们的路。", "en": "Don't stand in the doorway; that's our path."},
+        {"zh": "两对足勾在一起，就是约定。", "en": "Two pairs of legs hooked together, that's the pact."},
+        {"zh": "配偶冷了，会靠进我的壳下。", "en": "When my mate is cold, she tucks under my shell."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地上那块碎片，有雕纹。", "en": "That shard on the floor has carvings."},
+        {"zh": "我把碎石搬开，底下有缝。", "en": "I shift the rubble; there's a gap beneath."},
+        {"zh": "这根骨头是上个人留下的。", "en": "This bone was left by the last one."},
+        {"zh": "铁片割手，我用爪夹着。", "en": "Iron cuts skin; I hold it between my claws."},
+        {"zh": "不捡没用的，太重跑不动。", "en": "I don't take junk; too heavy to run with."},
+        {"zh": "我拖了一块石头堵住侧门。", "en": "I drag a stone over to block the side door."},
+        {"zh": "同伴掉了片甲，我收起来。", "en": "A flockmate shed a shell plate; I keep it."},
+        {"zh": "这里有根绳，我咬断了。", "en": "There's a rope here; I bite it through."},
+        {"zh": "发光的东西我不碰，怕是陷阱。", "en": "I leave glowing things alone; they may be traps."},
+        {"zh": "东西压在梁下，得两只一起抬。", "en": "It's pinned under the beam; two of us must lift it."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你进了中厅，就算进来了。", "en": "You've entered the central hall; that counts as in."},
+        {"zh": "火把的光圈一收，我就上。", "en": "When your torch light shrinks, I move."},
+        {"zh": "这一层只剩你一个活物。", "en": "On this floor you're the only living thing left."},
+        {"zh": "你踩响了两块砖，位置我记住了。", "en": "You clinked two tiles; I have your position."},
+        {"zh": "八只都醒了，从梁上下来。", "en": "All eight are awake, coming down from the beams."},
+        {"zh": "你先动手，我就有名分了。", "en": "Strike first and I'll have my excuse."},
+        {"zh": "你的同伴还在上一层，来不及。", "en": "Your companions are a floor up; too late."},
+        {"zh": "我闻到你身上的铁与汗。", "en": "Rust and sweat reach me across the hall."},
+        {"zh": "把火把放下，我可以少费些力。", "en": "Drop the torch and this will cost me less effort."},
+        {"zh": "这条路走到头，就是我的地盘。", "en": "This corridor ends where my ground begins."},
+        {"zh": "你回头四次，我每次都换梁。", "en": "You looked back four times; I changed beams each time."},
+        {"zh": "现在开始，走廊归我。", "en": "From now on, the corridor is mine."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从梁上落，先断你的退路。", "en": "I drop from the beam and cut your retreat."},
+        {"zh": "八只围成半圈，留一个口子。", "en": "Eight of us ring you, leaving one opening."},
+        {"zh": "你举盾，我就绕到侧面。", "en": "You raise your shield; I go around the side."},
+        {"zh": "箭射不穿我，别浪费了。", "en": "Arrows won't pierce me; don't waste them."},
+        {"zh": "这高度摔不死我，你放心跳。", "en": "This height won't kill me; feel free to jump."},
+        {"zh": "我贴着地面爬，你的剑够不着。", "en": "I crawl along the floor, below your blade."},
+        {"zh": "等你换手的那一刻。", "en": "I wait for the moment you switch hands."},
+        {"zh": "把同伴分开，再一个个处理。", "en": "Split the companions apart, then take them one by one."},
+        {"zh": "你的护甲在肩上有缝。", "en": "There's a gap in your armor at the shoulder."},
+        {"zh": "我先撞你的膝，让你跪下。", "en": "I hit your knee first and bring you down."},
+        {"zh": "别退到门口，那里也有我们。", "en": "Don't back toward the door; we're there too."},
+        {"zh": "这层的光灭了，我就占上风。", "en": "Once this floor goes dark, I have the advantage."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "前爪扣住你的小腿。", "en": "My foreclaws clamp onto your calf."},
+        {"zh": "这一下是刺，不是爪。", "en": "This one is the spike, not the claw."},
+        {"zh": "我撞你胸口，力道够把你推倒。", "en": "I slam your chest hard enough to knock you down."},
+        {"zh": "咬住手腕，等你松手。", "en": "I bite your wrist and wait for you to let go."},
+        {"zh": "刺扎进护甲的接缝。", "en": "A spike drives into the seam of your armor."},
+        {"zh": "我借落下的势，砸在你肩上。", "en": "I use the fall's momentum and slam your shoulder."},
+        {"zh": "你挡得住一只，挡不住八只。", "en": "You can block one, not eight."},
+        {"zh": "打完我就退，别追。", "en": "I strike and withdraw; don't follow."},
+        {"zh": "这一口咬在膝弯。", "en": "This bite lands behind your knee."},
+        {"zh": "我的爪印会留在你甲上。", "en": "My claw marks will stay on your armor."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "要塞的石门一开，我们八个就位。", "en": "The fortress gate opens and eight of us take position."},
+        {"zh": "出生在梁上，脚一松就落下。", "en": "I spawn on the beam; one slip and I drop."},
+        {"zh": "第一件事是找阴影。", "en": "First thing: find the shadow."},
+        {"zh": "同伴各自散开，各占一段走廊。", "en": "The others scatter, each taking a stretch of hall."},
+        {"zh": "我的壳还是软的，得等一会儿。", "en": "My shell is still soft; I must wait a while."},
+        {"zh": "荒古的灰尘落在我背上。", "en": "Ancient dust settles on my back."},
+        {"zh": "这里的高度刚好，适合伏击。", "en": "This height is just right for an ambush."},
+        {"zh": "我把刺立起来，晾一晾。", "en": "I raise my spikes to let them dry."},
+        {"zh": "八只都到齐了，可以开始了。", "en": "All eight are here; we can begin."},
+        {"zh": "石缝是我的床，也是我的门。", "en": "The stone seam is my bed and my door."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "甲被烧得发亮，烫。", "en": "My shell glows from the fire; it's hot."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这个高度，我落下来就站住。", "en": "From this height I simply land and stand."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水漫上来，我的刺先沉。", "en": "Water rises and my spikes sink first."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸开的石头比我先落地。", "en": "The shattered stone lands before I do."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭弹开了，连印都没留。", "en": "The arrow glances off without leaving a mark."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "药水在我甲上结成一层膜。", "en": "Potion beads into a film on my shell."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "要塞里没有吃的，我也习惯了。", "en": "There's no food in the fortress; I'm used to it."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷顺着梁打下来，我贴着地。", "en": "Lightning runs down the beam; I press to the floor."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空里没有石缝可躲。", "en": "There are no stone seams to hide in the void."}
+      ]
+    }
+  }
+}

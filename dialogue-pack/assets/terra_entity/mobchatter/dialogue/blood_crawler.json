@@ -1,0 +1,256 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "八条腿，爬得又快又稳。", "en": "Eight legs, quick and sure."},
+        {"zh": "我的壳是暗红的。", "en": "My shell is dark red."},
+        {"zh": "我沿着石棱往上走。", "en": "I climb along a stone ridge."},
+        {"zh": "下界的空气，我早习惯了。", "en": "The nether air is familiar."},
+        {"zh": "我的腿一伸一收。", "en": "My legs reach and pull."},
+        {"zh": "我在裂缝里穿行。", "en": "I slip through crevices."},
+        {"zh": "红色的腿，节节分明。", "en": "Red legs, jointed and clear."},
+        {"zh": "我一路留下细痕。", "en": "I leave thin tracks."},
+        {"zh": "我爬过熔岩边上。", "en": "I crawl past the lava's edge."},
+        {"zh": "这点热度，还伤不到我。", "en": "That heat won't hurt me."},
+        {"zh": "我探出一根触须。", "en": "One feeler probes ahead."},
+        {"zh": "我顺着震动往前探。", "en": "I probe forward along the vibration."},
+        {"zh": "壳上沾着灰。", "en": "Ash on my shell."},
+        {"zh": "别看壳小，腿跑得飞快。", "en": "Don't be fooled by my small shell - my legs are fast."},
+        {"zh": "我沿着岩壁的底边爬。", "en": "I crawl along the base of the rock."},
+        {"zh": "我停下来，再接着爬。", "en": "I pause, then crawl on."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在数岩壁上的裂缝。", "en": "I'm counting the cracks in the rock."},
+        {"zh": "触须在空中探。", "en": "My feelers test the air."},
+        {"zh": "下界荒地，太干了。", "en": "The wastes are too dry."},
+        {"zh": "我的壳在微微起伏。", "en": "My shell rises and falls."},
+        {"zh": "石头里没有活物的动静。", "en": "Nothing living stirs inside the stone."},
+        {"zh": "身上落了点灰。", "en": "Ash settled on me."},
+        {"zh": "毒囊还鼓着。", "en": "My sac is still full."},
+        {"zh": "我把口器来回磨动。", "en": "I work my mouthparts back and forth."},
+        {"zh": "四周没什么可吃的。", "en": "Nothing to eat around here."},
+        {"zh": "我不需要藏。", "en": "I needn't hide."},
+        {"zh": "几条腿交替敲着石面。", "en": "My legs tap the stone in turn."},
+        {"zh": "壳上映出火光。", "en": "Firelight on my shell."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你离我不到一步。", "en": "You're less than a step away."},
+        {"zh": "八条腿都在对着你。", "en": "All eight legs face you."},
+        {"zh": "这层甲壳很厚。", "en": "This carapace is thick."},
+        {"zh": "你皮肤下的血，我感觉得到。", "en": "I sense the blood under your skin."},
+        {"zh": "我的腿绕着你的靴子。", "en": "My legs ring your boots."},
+        {"zh": "你的靴子，我看着。", "en": "I'm watching your boots."},
+        {"zh": "我这口器，不客气。", "en": "My mouthparts aren't gentle."},
+        {"zh": "你不属于下界。", "en": "You're not of the nether."},
+        {"zh": "八条腿量着到你那儿。", "en": "Eight legs measure the way to you."},
+        {"zh": "你脚抬起来，我就退。", "en": "When your foot lifts, I back away."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "甲上多了个白口子。", "en": "A white notch has opened in my shell."},
+        {"zh": "我仰过去，八条腿乱蹬。", "en": "I tip over, eight legs flailing."},
+        {"zh": "几条腿乱了节奏。", "en": "My legs lose their rhythm."},
+        {"zh": "这点伤，还能爬。", "en": "I can still crawl."},
+        {"zh": "我退了，往缝里钻。", "en": "I retreat into a crack."},
+        {"zh": "体液渗出来。", "en": "Fluid seeps out."},
+        {"zh": "腿缩了一下，又撑起来。", "en": "My legs curl in, then brace again."},
+        {"zh": "这一脚，壳凹了一块。", "en": "That stomp dented my shell."},
+        {"zh": "我一瘸一拐地爬。", "en": "I crawl with a limp."},
+        {"zh": "这事还没算完。", "en": "This isn't settled yet."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这类东西我不碰。", "en": "I don't touch this sort of thing."},
+        {"zh": "那东西太干了。", "en": "That's too dry."},
+        {"zh": "你举着它，我绕着走。", "en": "Hold it out; I'll go around."},
+        {"zh": "我只对活物有兴趣。", "en": "Only living things interest me."},
+        {"zh": "这点连壳缝都填不满。", "en": "That won't fill a seam in my shell."},
+        {"zh": "我的口器不咬木头。", "en": "My mouthparts don't chew wood."},
+        {"zh": "你把食物放下，我看看。", "en": "Set it down and I'll look."},
+        {"zh": "这口我不接。", "en": "I'll not take that bite."},
+        {"zh": "我往反方向爬。", "en": "I crawl the other way."},
+        {"zh": "这口你自己留着。", "en": "Keep that bite for yourself."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "撞我，你的脚会疼。", "en": "Hit me and your foot suffers."},
+        {"zh": "我的壳很脆，也很硬。", "en": "My shell is brittle and hard."},
+        {"zh": "我横着让开，腿磕在石上。", "en": "I sidestep; a leg knocks against the stone."},
+        {"zh": "地上有我的黏液。", "en": "My fluid is on the ground."},
+        {"zh": "你的鞋底压住我一条腿。", "en": "Your sole pins one of my legs."},
+        {"zh": "我被撞得横过来，腿直划。", "en": "The hit turns me sideways; my legs paddle."},
+        {"zh": "我贴着墙往上爬。", "en": "I climb the wall."},
+        {"zh": "这点磕碰，壳都不响。", "en": "That bump didn't even rattle my shell."},
+        {"zh": "我从你脚边逃开。", "en": "I scurry from your feet."},
+        {"zh": "别拿掌心来抓我。", "en": "Don't close your palm on me."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的气味，已经散出去了。", "en": "My scent is already out."},
+        {"zh": "同类会自己找上门。", "en": "Kin will find their way."},
+        {"zh": "我们不挑地方。", "en": "We're not picky about places."},
+        {"zh": "两只一起爬过岩面。", "en": "Two crawl across the rock."},
+        {"zh": "下界的角落里，常有这事。", "en": "Common in nether corners."},
+        {"zh": "我的卵会藏在石缝。", "en": "My eggs go in stone cracks."},
+        {"zh": "你们看不见那些卵。", "en": "You won't see the eggs."},
+        {"zh": "多一只少一只，无所谓。", "en": "One more or less doesn't matter."},
+        {"zh": "别在这儿站着。", "en": "Don't stand here."},
+        {"zh": "爬到别处去。", "en": "Crawl somewhere else."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "前腿一合，把它卡住。", "en": "My forelegs close and pin it."},
+        {"zh": "口器撕不开这个。", "en": "My mouthparts can't tear this."},
+        {"zh": "口器磨了半天，白费。", "en": "My mouthparts grind for nothing."},
+        {"zh": "东西太重，我一路蹭地。", "en": "Too heavy; I scrape along the ground with it."},
+        {"zh": "掉下去，砸到我自己的脚。", "en": "It drops on my own leg."},
+        {"zh": "我拖着它，往石缝里藏。", "en": "I drag it into a stone crack."},
+        {"zh": "这玩意儿没半点用。", "en": "This thing is of no use."},
+        {"zh": "我用触须探了探。", "en": "I test it with a feeler."},
+        {"zh": "再拖一段就扔了。", "en": "A little further, then I drop it."},
+        {"zh": "这块我拖着走。", "en": "I'll drag this one off."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地面有东西在动。", "en": "Something moves on the ground."},
+        {"zh": "我抬起头，触须前伸。", "en": "I raise up, feelers forward."},
+        {"zh": "八条腿绷紧。", "en": "Eight legs tense."},
+        {"zh": "那股热就在石缝外头。", "en": "That warmth is just beyond the crack."},
+        {"zh": "腿一撑，我窜了出去。", "en": "My legs push off and I dart out."},
+        {"zh": "你身上的热，我摸得到。", "en": "I can sense your warmth."},
+        {"zh": "这面岩壁，我爬得上去。", "en": "I can climb this rock face."},
+        {"zh": "你踩在哪，我记着。", "en": "I remember where you stepped."},
+        {"zh": "跑起来反而更快死。", "en": "Running only kills you faster."},
+        {"zh": "我第一次咬，会很准。", "en": "My first bite lands true."},
+        {"zh": "你的左后方，我停下了。", "en": "I've stopped at your back left."},
+        {"zh": "这一口就是现在。", "en": "This bite, right now."},
+        {"zh": "我贴过去了。", "en": "I'm on you."},
+        {"zh": "你会慢慢麻。", "en": "You'll go numb slowly."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一直缀在你后头。", "en": "I've been trailing you."},
+        {"zh": "你转到哪，我跟到哪。", "en": "Wherever you turn, I follow."},
+        {"zh": "我的腿比你多。", "en": "I have more legs than you."},
+        {"zh": "这一带，我熟。", "en": "I know these paths."},
+        {"zh": "我躲在你看不见的缝里。", "en": "I'm in a crack you can't see."},
+        {"zh": "你每落一步，我都数着。", "en": "I count every step you set down."},
+        {"zh": "毒已经备好了。", "en": "The venom is ready."},
+        {"zh": "我爬得更近了。", "en": "I'm closer now."},
+        {"zh": "你听见细响了吗？", "en": "Do you hear that faint scuttling?"},
+        {"zh": "它就在你脚边。", "en": "It's right by your foot."},
+        {"zh": "口器已经对准你的脚踝。", "en": "My mouthparts are already aimed at your ankle."},
+        {"zh": "我上了你的腿。", "en": "I'm on your leg."},
+        {"zh": "别拿手掌来拍我。", "en": "Don't bring your palm down on me."},
+        {"zh": "你意识到得太晚。", "en": "You realized too late."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的口器咬下去！", "en": "My mouthparts bite down!"},
+        {"zh": "这一口带着毒液。", "en": "That bite carried venom."},
+        {"zh": "我把腿插进甲缝。", "en": "My leg probes an armor seam."},
+        {"zh": "甩是甩不掉我的。", "en": "You can't shake me loose."},
+        {"zh": "我咬一口就退。", "en": "One bite, then back."},
+        {"zh": "你的手臂开始麻了。", "en": "Your arm is going numb."},
+        {"zh": "我用前肢抓你的脸。", "en": "My forelegs claw at your face."},
+        {"zh": "甲挡得住牙，挡不住毒。", "en": "Armor stops teeth, not venom."},
+        {"zh": "我又爬上去了。", "en": "I climb up again."},
+        {"zh": "再补上一口。", "en": "One more bite on top."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这片灰地，我从没来过。", "en": "I've never been to this ashen ground."},
+        {"zh": "八条腿先探出来。", "en": "Eight legs emerge first."},
+        {"zh": "下界的光，暗红。", "en": "The nether's light is dull red."},
+        {"zh": "地上的灰被我拨开。", "en": "I push the ash aside."},
+        {"zh": "这里很干燥。", "en": "Very dry here."},
+        {"zh": "我转了转触须。", "en": "I turn my feelers."},
+        {"zh": "附近有活物的热。", "en": "Living warmth nearby."},
+        {"zh": "我先贴在墙上。", "en": "First, I cling to the wall."},
+        {"zh": "壳上还有余温。", "en": "My shell is still warm."},
+        {"zh": "周围空旷，没处藏。", "en": "Open ground; little cover."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火一燎，我的壳就卷。", "en": "Fire curls my shell."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔下去，壳先着地。", "en": "I land on my shell."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进壳缝，我挣不动。", "en": "Water fills my seams; I can't move."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸得我翻出去。", "en": "The blast throws me."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭头卡进壳缝里。", "en": "An arrowhead lodges in my shell's seam."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股力量让我腿都僵了。", "en": "That force stiffens my legs."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿着，毒也淡了。", "en": "Hungry, and my venom thins."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打下来，我八条腿一缩。", "en": "Lightning; all eight legs curl."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉下去，腿还在划。", "en": "I fall, legs still paddling."}
+      ]
+    }
+  }
+}

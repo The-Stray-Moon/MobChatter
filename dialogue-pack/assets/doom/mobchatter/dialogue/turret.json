@@ -1,0 +1,260 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我没有腿，我是被架着走的。", "en": "No legs. I'm carried along."},
+        {"zh": "我把眼睛转过去，那就算走了。", "en": "I turn my eye. That counts as walking."},
+        {"zh": "底座在地面刮出一道浅痕。", "en": "My base scrapes a shallow line."},
+        {"zh": "我缓慢地挪到射界更好的位置。", "en": "I edge to a better firing angle."},
+        {"zh": "下界的地面很烫，我不在乎。", "en": "Nether stone is hot. I don't care."},
+        {"zh": "我在墙边等着，眼睛一直睁着。", "en": "I wait by the wall. Eye open."},
+        {"zh": "我挪一下，视野就宽一点。", "en": "One shift and my field widens."},
+        {"zh": "这东西不走路，只找角度。", "en": "I don't walk. I look for angles."},
+        {"zh": "我转到能看见整条走廊的地方。", "en": "I turn where I can see the whole hall."},
+        {"zh": "地面震了一下，我调整了一下。", "en": "The floor shook. I adjusted."},
+        {"zh": "我在你身后挪了半格。", "en": "I moved half a block behind you."},
+        {"zh": "我移过去，把出口封上。", "en": "I move over and seal the exit."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的眼睛一直睁着。", "en": "My eye never closes."},
+        {"zh": "我盯着走廊尽头，等东西出现。", "en": "Watching the hall's end. Waiting."},
+        {"zh": "我眼眶里有点光在转。", "en": "Something turns in my socket."},
+        {"zh": "这地方归我扫。", "en": "I sweep this place."},
+        {"zh": "我数过了，你有两个影子。", "en": "I counted two shadows on you."},
+        {"zh": "我听见脚步，还没看见人。", "en": "Footsteps. No one visible yet."},
+        {"zh": "我停在你视线之外。", "en": "I've stopped outside your sightline."},
+        {"zh": "我的外壳上沾着亚金。", "en": "Argent clings to my shell."},
+        {"zh": "我这样盯着，可以盯一整天。", "en": "I could watch like this all day."},
+        {"zh": "没有东西可以看的时候，我盯着墙。", "en": "With nothing to watch, I watch the wall."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我只有一只眼睛，够用了。", "en": "One eye. It's enough."},
+        {"zh": "你站的位置，是我的正中。", "en": "Where you stand is dead center."},
+        {"zh": "我这颗眼球转过来，只对准你。", "en": "My single eye turns and aims only at you."},
+        {"zh": "我的眼皮不会累。", "en": "My lid doesn't tire."},
+        {"zh": "你在往左挪，我看见了。", "en": "You're edging left. I saw."},
+        {"zh": "我这样看着你，你该退了。", "en": "I watch you like this. You should retreat."},
+        {"zh": "你的轮廓在我眼里很清楚。", "en": "Your outline is clear to me."},
+        {"zh": "我不是动物，我不知道怕。", "en": "I'm not a beast. I don't know fear."},
+        {"zh": "你举的东西挡不住光。", "en": "What you raise won't block light."},
+        {"zh": "我看你的时候，眼睛会亮。", "en": "My eye brightens when I watch you."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "外壳有个凹点。", "en": "A dent in the shell."},
+        {"zh": "眼球被砸得偏了半寸。", "en": "The blow knocks my eye half an inch off target."},
+        {"zh": "你打到了我的支架。", "en": "You hit my mount."},
+        {"zh": "我没有痛觉，只有故障。", "en": "No pain. Only faults."},
+        {"zh": "视角偏了两度，我修正。", "en": "Two degrees off. Correcting."},
+        {"zh": "你打断了我的扫描。", "en": "You interrupted my sweep."},
+        {"zh": "沙尘进了眼眶。", "en": "Grit in my socket."},
+        {"zh": "炮口卡了一下，我在重新充能。", "en": "My barrel jams a beat; I am recharging."},
+        {"zh": "我还能看，还能打。", "en": "Still seeing. Still firing."},
+        {"zh": "你的位置我记住了，这次更清楚。", "en": "Your position. Clearer now."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不用吃，我只需要靶子。", "en": "No eating. I need targets."},
+        {"zh": "你晃那个没用。", "en": "Waving that does nothing."},
+        {"zh": "那东西不是热的，我不看。", "en": "That's not hot. I won't look."},
+        {"zh": "你把它举到我眼前，我看不见。", "en": "Right at my eye and I can't see it."},
+        {"zh": "我的燃料够用，不用你喂。", "en": "I have fuel. Don't feed me."},
+        {"zh": "放下吧，占你的手。", "en": "Drop it. It occupies your hands."},
+        {"zh": "你抬手时，护甲露出缝了。", "en": "When you raised it, your armor opened a seam."},
+        {"zh": "我不需要讨价还价。", "en": "I don't bargain."},
+        {"zh": "你退开一步，我就放过你。", "en": "One step back and I'll spare you."},
+        {"zh": "你不是我的目标，只是挡住了。", "en": "You're not my target. Just in the way."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到的是铁壳。", "en": "You hit an iron shell."},
+        {"zh": "我晃都没晃，底座钉得深。", "en": "I didn't sway. My base is deep."},
+        {"zh": "别贴着我，眼会瞎。", "en": "Don't press against me. The light blinds."},
+        {"zh": "你踢我，我的眼睛就转过去。", "en": "You kicked me. My eye turned."},
+        {"zh": "这么近，你不用瞄准了。", "en": "This close, no need to aim."},
+        {"zh": "我退不了，只能转。", "en": "I can't retreat. Only rotate."},
+        {"zh": "碰撞让我的角度偏了半度。", "en": "That knocked me half a degree off."},
+        {"zh": "你踩到底座了，我会记住。", "en": "You stepped on my base. Noted."},
+        {"zh": "我的外壳烫，你手没事吧。", "en": "My shell is hot. Is your hand alright?"},
+        {"zh": "你在我射界之内贴着，很冒险。", "en": "Standing this close inside my arc. Risky."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我是炮塔，没有那种构造。", "en": "I'm a turret. No such parts."},
+        {"zh": "我的所有功能都是为了射击。", "en": "Every function I have is for firing."},
+        {"zh": "你想拆开我看看？不行。", "en": "You want to take me apart? No."},
+        {"zh": "我的眼睛不属于我，是借的。", "en": "This eye is not mine. It's borrowed."},
+        {"zh": "这具身体没有温度。", "en": "This body has no warmth."},
+        {"zh": "你站远些，我只对光有兴趣。", "en": "Stand farther. Only light interests me."},
+        {"zh": "别摸我的眼眶。", "en": "Don't touch my socket."},
+        {"zh": "我没有嘴回答你。", "en": "I have no mouth to answer."},
+        {"zh": "你挡着我的视线了。", "en": "You're blocking my line of sight."},
+        {"zh": "退到走廊外，我就答应。", "en": "Leave the hall and I'll comply."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我没有手，我推着它走。", "en": "No hands. I nudge it along."},
+        {"zh": "它在我底座旁边，我够不着。", "en": "It's beside my base. Out of reach."},
+        {"zh": "我用眼睛对着它，它不亮。", "en": "I fix my eye on it. It doesn't light up."},
+        {"zh": "地上的东西，我记账上。", "en": "I log what's on the ground."},
+        {"zh": "这块是金属，值得。", "en": "This is metal. Worth something."},
+        {"zh": "我看它很久，然后不管了。", "en": "I watched it a long time, then let it be."},
+        {"zh": "它对我没用，对你更没用。", "en": "No use to me. Less to you."},
+        {"zh": "我把它踩进地里，收好。", "en": "I press it into the floor. Stored."},
+        {"zh": "这个角度能看见，形状很怪。", "en": "Visible from here. Strange shape."},
+        {"zh": "它反射我的光，很亮。", "en": "It throws my light back. Bright."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你进了我的射界。", "en": "You've entered my field of fire."},
+        {"zh": "红光落在你胸口，不挪开了。", "en": "The red beam settles on your chest and stays."},
+        {"zh": "这里没有掩体，选错了地方。", "en": "No cover here. Wrong place."},
+        {"zh": "我听见你的呼吸，位置确定了。", "en": "Your breathing fixes your position."},
+        {"zh": "你站在走廊正中，很好。", "en": "Standing in the middle of the hall. Good."},
+        {"zh": "光点落在你胸口。", "en": "A point of light rests on your chest."},
+        {"zh": "我先打拿武器的那个。", "en": "The one with the weapon first."},
+        {"zh": "你退，我的眼睛跟着。", "en": "You retreat. My eye follows."},
+        {"zh": "我的镜头收了一下。", "en": "My lens drew in."},
+        {"zh": "视野里只有你一个人。", "en": "Only you in the field."},
+        {"zh": "这一发不会偏。", "en": "This shot won't miss."},
+        {"zh": "你刚才动了一下，确认了。", "en": "You moved. Confirmed."},
+        {"zh": "我数过了，你的步幅是固定的。", "en": "Your stride is constant. I measured it."},
+        {"zh": "地面上的影子，暴露了你。", "en": "Your shadow on the floor gave you away."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一直看着，没有眨眼。", "en": "I keep watching. No blinking."},
+        {"zh": "你绕墙，我的角度也在变。", "en": "You circle the wall. My angle adjusts."},
+        {"zh": "我的外壳开始发烫。", "en": "My shell is heating up."},
+        {"zh": "你把门关上了，我这里能看见。", "en": "You shut the door. I can still see it."},
+        {"zh": "你在数我的射击间隔吧。", "en": "Counting my intervals, are you?"},
+        {"zh": "这里只有一个门，我等它。", "en": "One door. I'll wait on it."},
+        {"zh": "你退到暗处，我的眼睛更亮。", "en": "You back into shadow. My eye brightens."},
+        {"zh": "镜头里的你越来越大。", "en": "You grow larger in my lens."},
+        {"zh": "这一片我扫了三遍。", "en": "I've swept this area three times."},
+        {"zh": "你没有掩体，墙太薄。", "en": "No cover. The wall's too thin."},
+        {"zh": "我的燃料在下降，得快点。", "en": "Fuel is dropping. Be quick."},
+        {"zh": "你的护甲不错，我还是会试。", "en": "Decent armor. I'll try anyway."},
+        {"zh": "我一动不动，是因为在算。", "en": "I'm still because I'm calculating."},
+        {"zh": "你在我的正前方停了。", "en": "You stopped dead ahead."},
+        {"zh": "再来半格，就进死角。", "en": "Half a block more and you're in a dead angle."},
+        {"zh": "镜头对上了，开火。", "en": "Lens locked. Firing."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的光一直照着你，别躲。", "en": "My light holds on you. Don't dodge."},
+        {"zh": "这一下抵在近处，很响。", "en": "At this range it's very loud."},
+        {"zh": "你退了，眼眶还亮着。", "en": "You retreat. My socket still glows."},
+        {"zh": "我压过去，把距离挤掉。", "en": "I press in and eat the distance."},
+        {"zh": "你被闪光晃到了，站不稳。", "en": "The flash caught you. Unsteady."},
+        {"zh": "我的底座碾过你的脚背。", "en": "My base rolls over your foot."},
+        {"zh": "这一击，我的外壳裂了一点。", "en": "That cracked my shell a little."},
+        {"zh": "你挡住上面，眼睛还在看。", "en": "You guard high. My eye still sees."},
+        {"zh": "你近身了，这对我不好。", "en": "You've closed in. Bad for me."},
+        {"zh": "我撞你一下，够你退三步。", "en": "One shove sends you three steps back."},
+        {"zh": "我的光变红了，你自己看。", "en": "My light went red. See for yourself."},
+        {"zh": "这一下，我用了全部输出。", "en": "That was full output."},
+        {"zh": "我的光在你脸上停了一瞬。", "en": "My light paused on your face."},
+        {"zh": "你退不了，后面是墙。", "en": "You can't retreat. Wall behind you."},
+        {"zh": "金属撞骨头的动静，听着不一样。", "en": "Metal on bone sounds different."},
+        {"zh": "我用眼眶的边缘撞过去。", "en": "I slam the rim of my socket into you."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被钉在下界的墙上，然后活了。", "en": "I was fixed to a Nether wall. Then I woke."},
+        {"zh": "一只眼睛在黑暗里睁开。", "en": "An eye opens in the dark."},
+        {"zh": "我的底座压进地面，站稳了。", "en": "My base sinks into the ground. Settled."},
+        {"zh": "我扫了一圈，这地方不错。", "en": "I sweep once. Good spot."},
+        {"zh": "亚金在我眼眶里点起来。", "en": "Argent ignites in my socket."},
+        {"zh": "没有人听见我启动的声音。", "en": "No one heard me power up."},
+        {"zh": "走廊的尽头多了一个光点。", "en": "A light appears at the end of the hall."},
+        {"zh": "我选择这个角度，能看两条路。", "en": "This angle sees two paths."},
+        {"zh": "我在这里，等第一个人。", "en": "I'm here. Waiting for the first."},
+        {"zh": "我的镜头对上了焦距。", "en": "My lens found its focus."},
+        {"zh": "地面的灰尘被我一扫而空。", "en": "My sweep cleared the dust."},
+        {"zh": "我醒来的第一件事是睁眼。", "en": "First thing on waking: open the eye."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烤外壳，金属在响。", "en": "Fire on the shell. Metal ticking."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉下去的时候角度全乱了。", "en": "Falling scrambled my angles."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水进了镜头，什么也看不见。", "en": "Water in my lens. Nothing visible."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炮座翻倒，我的眼还瞪着。", "en": "My mount flips over, yet my eye keeps glaring."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弹丸卡在我的眼眶边。", "en": "A round lodged by my socket."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这不属于我的传感器范围。", "en": "That's outside my sensor range."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "燃料见底，眼眶慢慢暗了。", "en": "Fuel nearly gone. The socket dims."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷让我的电路一起闪。", "en": "Lightning made my circuits flash."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉下去，镜头还在对着上面。", "en": "Falling, lens still pointed up."}
+      ]
+    }
+  }
+}

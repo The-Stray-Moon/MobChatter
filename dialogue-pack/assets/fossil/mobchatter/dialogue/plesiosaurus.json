@@ -1,0 +1,258 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "慢游水中觅食", "en": "Swimming slowly for food"},
+        {"zh": "水面下潜捕食", "en": "Dives underwater to hunt"},
+        {"zh": "长颈探出水面", "en": "Neck pokes out of water"},
+        {"zh": "缓慢移动觅食", "en": "Slowly moves to find food"},
+        {"zh": "追踪猎物游动", "en": "Trails the prey"},
+        {"zh": "水面漂游觅食", "en": "Drifts on the surface hunting"},
+        {"zh": "水面下捕食鱼类", "en": "Hunts fish underwater"},
+        {"zh": "长颈望向猎物", "en": "Long neck looks for prey"},
+        {"zh": "游向食物所在地", "en": "Swims towards food"},
+        {"zh": "水中悠闲游动", "en": "Swims leisurely in water"},
+        {"zh": "四鳍一齐划动水波", "en": "All four flippers row the water together."},
+        {"zh": "长颈在水下摆成弧线", "en": "Its long neck arcs beneath the surface."},
+        {"zh": "贴着海底沙地滑行", "en": "It glides just over the sea floor."},
+        {"zh": "从海草间侧身穿过去", "en": "It slips sideways between the seagrass."},
+        {"zh": "尾鳍一摆，窜出一截", "en": "One beat of its tail carries it forward."},
+        {"zh": "绕着鱼群缓缓兜圈", "en": "It circles the school of fish slowly."},
+        {"zh": "把长颈探进礁石缝", "en": "It pokes its neck into a rock crevice."},
+        {"zh": "浮上海面换了一口气", "en": "It rises to the surface for a breath."},
+        {"zh": "顺着洋流悄悄滑动", "en": "It drifts quietly on the current."},
+        {"zh": "游过沉船的断裂处", "en": "It swims past the broken wreck."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我悬在蓝水里，四鳍几乎不动。", "en": "I hang in the blue, four flippers barely moving."},
+        {"zh": "水中悠然自得", "en": "Relaxes in water"},
+        {"zh": "水面浮游不动", "en": "Floats on the surface"},
+        {"zh": "平静游动栖息", "en": "Gently swims"},
+        {"zh": "水面平静漫游", "en": "Drifts calmly"},
+        {"zh": "水面悠闲游动", "en": "Swims leisurely"},
+        {"zh": "水中缓缓游动", "en": "Swims slowly"},
+        {"zh": "水面悠然自得", "en": "Relaxes on the surface"},
+        {"zh": "水面漂浮不动", "en": "Floats on the surface still"},
+        {"zh": "悬在水中一动不动", "en": "It hangs motionless in the water."},
+        {"zh": "只让鼻尖露出水面", "en": "Only its snout breaks the surface."},
+        {"zh": "四鳍轻轻划着圈", "en": "Its flippers scull slow circles."},
+        {"zh": "藏在礁石的暗影里", "en": "It hides in the reef's shadow."},
+        {"zh": "顺着水流打盹", "en": "It dozes along with the current."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从水下抬头，只露出眼和鼻。", "en": "I raise my eyes and nostrils just above the surface."},
+        {"zh": "长颈转过去，鱼群也一起转。", "en": "My neck turns, and the school turns with me."},
+        {"zh": "长颈转向玩家", "en": "Long neck turns to player"},
+        {"zh": "注意玩家位置", "en": "Notices the player"},
+        {"zh": "长颈从水面探出来。", "en": "My long neck rises from the water."},
+        {"zh": "长脖子探出水面看你。", "en": "My long neck rises to look at you."},
+        {"zh": "盯着玩家不动", "en": "Stares at the player"},
+        {"zh": "我歪过头，一只眼对着你。", "en": "I tilt my head and fix one eye on you."},
+        {"zh": "锁定玩家方向", "en": "Locks on to player's direction"},
+        {"zh": "长颈盯紧玩家", "en": "Long neck focuses on player"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "身体一震，疼痛难忍。", "en": "Shudder from the pain."},
+        {"zh": "肌肉抽搐，难以动弹。", "en": "Muscles twitch, can't move."},
+        {"zh": "疼痛让我喘不过气。", "en": "Pain makes me gasp."},
+        {"zh": "伤处渗出血水。", "en": "Wound leaks blood."},
+        {"zh": "伤口火辣辣的痛。", "en": "Wound burns."},
+        {"zh": "鳞片裂开，疼痛难忍。", "en": "Scales crack, pain."},
+        {"zh": "疼痛让我无法思考。", "en": "Pain clouds my mind."},
+        {"zh": "伤口流出淡绿色液体。", "en": "Wound oozes green liquid."},
+        {"zh": "疼痛让我颤抖不止。", "en": "Pain makes me shiver."},
+        {"zh": "身体受创，难以继续游动。", "en": "Injured, can't swim well."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的长脖子，绕得过礁石。", "en": "My long neck coils around the reef."},
+        {"zh": "鱼儿，快点游！", "en": "Fish, swim faster!"},
+        {"zh": "我的脖子长，你逃不掉！", "en": "My neck is long, you can't escape!"},
+        {"zh": "水面之下，我的领地！", "en": "Under the water, my territory!"},
+        {"zh": "水里那群鱼，跑不掉了。", "en": "That school of fish has nowhere to run."},
+        {"zh": "安静点，不要惊扰我！", "en": "Be quiet, don't disturb me!"},
+        {"zh": "别想靠近我的鱼！", "en": "Don't think about my fish!"},
+        {"zh": "躲开我，小家伙！", "en": "Stay away from me, little one!"},
+        {"zh": "我的家园，我的食物！", "en": "My home, my food!"},
+        {"zh": "鱼就在礁石后，我绕着石头转。", "en": "The fish is behind the reef, so I circle the rock."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "快让开，我要游泳！", "en": "Move, I'm swimming!"},
+        {"zh": "撞上我，你后悔！", "en": "Hit me, you'll regret!"},
+        {"zh": "我的身躯庞大，小心！", "en": "My body is big, watch out!"},
+        {"zh": "水面下的危险，别碰我！", "en": "Danger under the water, don't touch me!"},
+        {"zh": "我们来一场水下对峙！", "en": "Let's have a showdown underwater!"},
+        {"zh": "躲开，我正在游！", "en": "Move, I'm swimming!"},
+        {"zh": "我的鳞片坚硬，别碰！", "en": "My scales are hard, don't touch!"},
+        {"zh": "小心，别惹我！", "en": "Be careful, don't provoke me!"},
+        {"zh": "水面之下，我的领地", "en": "Under the water, my territory!"},
+        {"zh": "长脖子一摆，把你撞开。", "en": "One swing of my long neck shoves you aside."},
+        {"zh": "它的鳍扫到你身上", "en": "Its flipper sweeps across you."},
+        {"zh": "撞上来时像块石头", "en": "It hits like a stone block."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "求偶，我的同类！", "en": "Mate, my同类！"},
+        {"zh": "靠近我，我的伴侣！", "en": "Come closer, my mate!"},
+        {"zh": "我的触须伸向你！", "en": "My tentacles reach for you!"},
+        {"zh": "我们是同类，靠近点！", "en": "We are the same, come closer!"},
+        {"zh": "我的声音吸引你！", "en": "My sound attracts you!"},
+        {"zh": "靠近，我的同类！", "en": "Come, my mate!"},
+        {"zh": "我的触须感受你！", "en": "My tentacles sense you!"},
+        {"zh": "我的声音，你的回应！", "en": "My sound, your response!"},
+        {"zh": "我的触须，我的伴侣！", "en": "My tentacles, my mate!"},
+        {"zh": "同类，靠近！", "en": "Mate, come close!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，慢慢接近...", "en": "Sssss, creeping closer..."},
+        {"zh": "这条鱼整群都闻到了。", "en": "The whole pod smells that fish."},
+        {"zh": "鱼儿们，这里来了猎物！", "en": "Fish, prey is near!"},
+        {"zh": "我的颈很长，能缠住你！", "en": "My neck is long, will wrap you!"},
+        {"zh": "看我的鳍，它们能夹你！", "en": "Fins, they will pinch you!"},
+        {"zh": "别小看我，我很强壮！", "en": "Don't underestimate me, I'm strong!"},
+        {"zh": "这块礁石是我的猎场，别过来。", "en": "This reef is my hunting ground; stay back."},
+        {"zh": "跟我战斗吧，你会后悔！", "en": "Fight me, you'll regret it!"},
+        {"zh": "这条鱼滑掉了，我潜下去再咬。", "en": "The fish slipped free; I dive and bite again."},
+        {"zh": "我的牙齿很锋利，小心！", "en": "My teeth are sharp, beware!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "猎物靠近了，锁定目标！", "en": "Target approaching, lock!"},
+        {"zh": "鱼群中，哪个是你？", "en": "Which fish, you are?"},
+        {"zh": "注意，我瞄准了你！", "en": "Watch out, I'm targeting you!"},
+        {"zh": "锁定，锁定目标！", "en": "Lock on, target acquired!"},
+        {"zh": "这里就是你的终点！", "en": "This is where your journey ends!"},
+        {"zh": "水里的血味一散，我就锁定了。", "en": "One trace of blood in the water and I am fixed on it."},
+        {"zh": "你逃不掉的，靠近了！", "en": "You can't escape, come closer!"},
+        {"zh": "四片鳍一齐转向，我朝鱼群压下去。", "en": "All four flippers turn as I bear down on the school."},
+        {"zh": "我的视野内，只有你！", "en": "Only you in my sight!"},
+        {"zh": "锁定目标，马上行动！", "en": "Target locked, act now!"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盯紧你的猎物，不要松懈！", "en": "Stare at your prey, don't falter!"},
+        {"zh": "我贴着海床滑行，不激起水花。", "en": "I skim the seabed without raising a splash."},
+        {"zh": "你在我注视下颤抖吧！", "en": "Shiver under my gaze!"},
+        {"zh": "锁定目标，不会失败！", "en": "Lock on, won't fail!"},
+        {"zh": "长颈一点点收短，准备弹出去。", "en": "My neck draws in, coiling to strike."},
+        {"zh": "我不会让你跑掉的！", "en": "I won't let you escape!"},
+        {"zh": "锁定目标，攻击吧！", "en": "Lock on, attack!"},
+        {"zh": "瞄准猎物，不要犹豫！", "en": "Target prey, no hesitation!"},
+        {"zh": "盯紧目标，马上攻击！", "en": "Stare at target, strike now!"},
+        {"zh": "锁定目标，确保成功！", "en": "Lock on, ensure success!"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，咬住它！", "en": "Sssss, bite it!"},
+        {"zh": "扑向猎物！", "en": "Charge the prey!"},
+        {"zh": "用脖子夹住！", "en": "Use my neck!"},
+        {"zh": "紧咬不放！", "en": "Hold on tight!"},
+        {"zh": "长脖子一伸，鱼就没了。", "en": "One lunge of my neck and the fish is gone."},
+        {"zh": "颈部缠绕住！", "en": "Neck wrap!"},
+        {"zh": "喷出毒液！", "en": "Venom spray!"},
+        {"zh": "狠狠地咬下一口！", "en": "Grip and tear!"},
+        {"zh": "攻击同类！", "en": "Attack peers!"},
+        {"zh": "发出警告嘶鸣！", "en": "Warning hiss!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "新的猎物来了！", "en": "New prey!"},
+        {"zh": "我从深水浮起，背鳍先破面。", "en": "I rise from the deep, my back ridge breaking the surface first."},
+        {"zh": "潜入水中寻找！", "en": "Dive for food!"},
+        {"zh": "加入我的队伍！", "en": "Join my pack!"},
+        {"zh": "分享战利品！", "en": "Share the loot!"},
+        {"zh": "长脖子探出海面，看清楚了。", "en": "My long neck breaks the surface — I see you clearly."},
+        {"zh": "等待时机！", "en": "Wait for the right time!"},
+        {"zh": "巡逻中！", "en": "On patrol!"},
+        {"zh": "发出召唤！", "en": "Call peers!"},
+        {"zh": "开始觅食！", "en": "Start feeding!"},
+        {"zh": "海面下浮出一道长影", "en": "A long shape surfaces under the waves."},
+        {"zh": "浪里钻出一颗小脑袋", "en": "A small head pokes up through the swell."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火在水上烧，我的鳞片焦了。", "en": "The fire burns on the water and my scales scorch."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "重重摔入水中。", "en": "Crash into water."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水压让我窒息。", "en": "Pressure almost kills me."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击波将我震飞。", "en": "Explosion flings me."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢穿透我的甲壳。", "en": "Arrow pierces my shell."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法攻击撕裂我的肉身。", "en": "Magic tears my flesh."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿让我的身体虚弱。", "en": "Starvation weakens me."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击让我浑身抽搐。", "en": "Lightning convulses me."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空之力撕裂我的身体。", "en": "Void tears my body."}
+      ]
+    }
+  }
+}

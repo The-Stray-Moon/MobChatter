@@ -1,0 +1,269 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咆哮着飞向敌人", "en": "Rages and flies towards enemies"},
+        {"zh": "扇动翅膀向猎物扑去", "en": "Flaps wings towards prey"},
+        {"zh": "低沉的咕噜声", "en": "Low growl"},
+        {"zh": "张开嘴，发出尖锐叫声", "en": "Opens mouth, emits sharp cry"},
+        {"zh": "挥动翅膀，快速接近", "en": "Wings flap, quickly approaching"},
+        {"zh": "追逐敌人，发出嘶嘶声", "en": "Chases enemies, hisses"},
+        {"zh": "在空中翻滚，寻找猎物", "en": "Rolls in air, searching for prey"},
+        {"zh": "拍打翅膀，低吼着", "en": "Flaps wings, low growls"},
+        {"zh": "低吼着，准备进攻", "en": "Growls low, ready to attack"},
+        {"zh": "追逐敌人，低沉的咆哮", "en": "Chases enemies, deep growls"},
+        {"zh": "我踏着雷声，在屋脊上逼近。", "en": "Treading on thunder, I close in along the rooftops."},
+        {"zh": "积怒的怒气先到，我才到。", "en": "Sekido's wrath arrives before I do."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "栖息在枯枝上", "en": "Perches on dead branches"},
+        {"zh": "半空中盘旋", "en": "Hovers in mid-air"},
+        {"zh": "凝视着四周", "en": "Staring around"},
+        {"zh": "静静地栖息", "en": "Silently perched"},
+        {"zh": "目光锐利地观察着", "en": "Sharp gaze"},
+        {"zh": "怒气攒够了，我才动手。", "en": "I strike only when my rage is full."},
+        {"zh": "我握着锡杖，站得笔直。", "en": "I hold my staff and stand straight."},
+        {"zh": "静静地栖息在岩壁上", "en": "Perched quietly on rock"},
+        {"zh": "在黑暗中隐匿", "en": "Hiding in darkness"},
+        {"zh": "我的头发像雷一样竖着。", "en": "My hair stands up like lightning."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定玩家，发出嘶嘶声", "en": "Locks on player, hisses"},
+        {"zh": "注视着玩家，发出警告", "en": "Watching player, warning"},
+        {"zh": "盯着玩家，低吼着", "en": "Staring at player, growls"},
+        {"zh": "积怒的眼睛，只装得下你。", "en": "Sekido's eyes hold only you."},
+        {"zh": "注视着玩家，准备攻击", "en": "Watching player, ready to attack"},
+        {"zh": "锁定玩家，发出尖啸", "en": "Locks on player, screech"},
+        {"zh": "锁定玩家，低吼警告", "en": "Locks on player, warns with growl"},
+        {"zh": "我抬起锡杖，指向你的胸口。", "en": "I raise my staff and point it at your chest."},
+        {"zh": "我的眼睛里全是雷光。", "en": "Lightning fills my eyes."},
+        {"zh": "锁定玩家，发出警告声", "en": "Locks on player, warning"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "积怒咆哮着，翅膀沾满鲜血。", "en": "Sekido roars, its wings stained with blood."},
+        {"zh": "积怒受伤了，嘶嘶作响。", "en": "Sekido hisses in pain."},
+        {"zh": "积怒哀鸣，翅膀在流血。", "en": "Sekido moans, its wings bleeding."},
+        {"zh": "积怒痛苦地嘶吼。", "en": "Sekido howls in agony."},
+        {"zh": "积怒怒吼着，翅膀受了伤。", "en": "Sekido roars, its wings wounded."},
+        {"zh": "积怒痛苦地尖叫着。", "en": "Sekido screams in agony."},
+        {"zh": "积怒痛苦地鸣叫。", "en": "Sekido cries out in pain."},
+        {"zh": "积怒尖叫着，翅膀破裂。", "en": "Sekido screams, its wings torn."},
+        {"zh": "积怒痛苦地嘶叫。", "en": "Sekido yells in agony."},
+        {"zh": "积怒悲鸣着，翅膀受创。", "en": "Sekido moans, its wings injured."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿鬼缠身，食血成瘾！", "en": "Hungry ghost, blood addiction!"},
+        {"zh": "鬼气森森，夜行凶灵！", "en": "Grim reaper, night-time terror!"},
+        {"zh": "半生未灭，怨气冲天！", "en": "Half-life, anger skyward!"},
+        {"zh": "噬血之魂，鬼影幢幢！", "en": "Blood-sucking soul, ghostly presence!"},
+        {"zh": "积怒不散，食肉噬血！", "en": "Fury lingers, flesh and blood!"},
+        {"zh": "鬼火游荡，半生不灭！", "en": "Ghostly fire, half-life!"},
+        {"zh": "怨气化形，半鬼半人！", "en": "Anger solidified, half-devil, half-human!"},
+        {"zh": "鬼杀队，速离此地！", "en": "Scout, leave this place!"},
+        {"zh": "近身缠斗，鬼影难分！", "en": "Close combat, ghostly confusion!"},
+        {"zh": "血鬼术起，吞噬灵魂！", "en": "Blood magic, soul devoured!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "怒气冲撞，撞碎虚空！", "en": "Fury crash, shatter the void!"},
+        {"zh": "半生鬼影，碰撞即亡！", "en": "Half-life, collide and die!"},
+        {"zh": "鬼魂相撞，碎裂如尘！", "en": "Ghostly collision, shattered like dust!"},
+        {"zh": "怒气冲撞，天崩地裂！", "en": "Fury crash, earth shattering!"},
+        {"zh": "鬼影交错，生死一线！", "en": "Ghostly cross, life and death!"},
+        {"zh": "怒气冲撞，阴阳交错！", "en": "Fury crash, yin and yang!"},
+        {"zh": "鬼影相撞，化为飞灰！", "en": "Ghosts collide, turned to ash!"},
+        {"zh": "半生怒气，碰撞成灰！", "en": "Half-life, collide to ash!"},
+        {"zh": "鬼影激撞，碎裂四方！", "en": "Ghosts clash, shatter all sides!"},
+        {"zh": "怒气冲撞，鬼影消散！", "en": "Fury crash, ghosts dissipate!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "怒气凝聚，求偶为甚！", "en": "Fury condenses, for mate!"},
+        {"zh": "鬼魂伴侣，共享怒气！", "en": "Ghostly mate, shared fury!"},
+        {"zh": "怨气积聚，求偶之心！", "en": "Anger gathers, desire for mate!"},
+        {"zh": "半生鬼魅，求偶无惧！", "en": "Half-life, fear no mate!"},
+        {"zh": "怒气相激，鬼魅成双！", "en": "Fury clashed, ghosts paired!"},
+        {"zh": "怨气汇聚，求偶之欲！", "en": "Anger converges, desire for mate!"},
+        {"zh": "鬼魂之恋，怒气相随！", "en": "Ghostly love, fury in tow!"},
+        {"zh": "怒气激荡，鬼魅求偶！", "en": "Fury rages, ghostly courtship!"},
+        {"zh": "怨气积聚，求偶成双！", "en": "Anger builds, mates form!"},
+        {"zh": "怒气冲撞，鬼魅成对！", "en": "Fury clash, ghosts paired!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "积怒的爪子在地面上留下痕迹。", "en": "Claws scratch the ground."},
+        {"zh": "积怒张开血盆大口。", "en": "Lips curl to reveal fangs."},
+        {"zh": "积怒的双眼闪烁着红光。", "en": "Eyes glow with red light."},
+        {"zh": "积怒在吸取灵魂的精华。", "en": "Absorbing soul essence."},
+        {"zh": "积怒的翅膀在阳光中反射光芒。", "en": "Wings reflect light in the sun."},
+        {"zh": "积怒发出腐烂的恶臭。", "en": "Releasing a foul stench."},
+        {"zh": "积怒的爪子抓住了目标。", "en": "Claws grab the target."},
+        {"zh": "积怒的牙齿咬破了鬼杀队的盔甲。", "en": "Bites through armor."},
+        {"zh": "积怒的血液散发着诡异的光。", "en": "Blood glows with a strange light."},
+        {"zh": "我把断刀踢到脚下，等下一击。", "en": "I kick a broken blade to my feet and wait for the next strike."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它注视着鬼杀队。", "en": "Staring at the Demon Slayers."},
+        {"zh": "它向鬼杀队成员逼近。", "en": "Approaching the Demon Slayers."},
+        {"zh": "从半天狗身上，我分裂出来。", "en": "I split off from Hantengu."},
+        {"zh": "它发现了鬼杀队的存在。", "en": "Found the Demon Slayers."},
+        {"zh": "它将注意力集中在一个人身上。", "en": "Focusing on one person."},
+        {"zh": "它准备攻击鬼杀队。", "en": "Preparing to attack."},
+        {"zh": "它向鬼杀队发起攻击。", "en": "Attacking the Demon Slayers."},
+        {"zh": "它开始血鬼术仪式。", "en": "Starting blood ritual."},
+        {"zh": "它准备释放血鬼术。", "en": "Prepared to release blood ritual."},
+        {"zh": "它开始了血鬼术。", "en": "Performing blood ritual."},
+        {"zh": "鬼杀队的队服，我不会认错。", "en": "I never mistake a Demon Slayer uniform."},
+        {"zh": "日轮刀的光，从街角透过来。", "en": "The glint of a nichirin blade shows at the corner."},
+        {"zh": "血的味道让我想起半天狗。", "en": "The smell of blood reminds me of Hantengu."},
+        {"zh": "你握刀的手在抖，我看得清。", "en": "I can see your sword hand trembling."},
+        {"zh": "积怒先怒，再动手。", "en": "Sekido rages first, then strikes."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它躲开了阳光。", "en": "Ducking from the sun."},
+        {"zh": "它躲避着阳光。", "en": "Avoiding the sun."},
+        {"zh": "它飞向鬼杀队。", "en": "Flying towards the Demon Slayers."},
+        {"zh": "它向鬼杀队成员挥动翅膀。", "en": "Wings flapping towards the Demon Slayers."},
+        {"zh": "它向目标扑去。", "en": "Plunging towards the target."},
+        {"zh": "它向鬼杀队成员冲去。", "en": "Charging at the Demon Slayers."},
+        {"zh": "它用尖爪攻击鬼杀队。", "en": "Attacking with sharp claws."},
+        {"zh": "它用触手抓住鬼杀队。", "en": "Grabbing with tentacles."},
+        {"zh": "它向鬼杀队成员挥舞触手。", "en": "Swinging tentacles at the Demon Slayers."},
+        {"zh": "它向鬼杀队成员释放血鬼术。", "en": "Releasing blood ritual at the Demon Slayers."},
+        {"zh": "我往阴影里退，阳光要来了。", "en": "I back into the shade; the sunlight is coming."},
+        {"zh": "雷声在云里攒着，我借它。", "en": "Thunder gathers in the clouds, and I borrow it."},
+        {"zh": "你的呼吸乱了，破绽就在那。", "en": "Your breathing broke, and there is the opening."},
+        {"zh": "我先躲屋檐下，不跟你硬碰。", "en": "I duck under the eaves first and will not clash head-on."},
+        {"zh": "等你挥刀之后，我再进来。", "en": "After your swing, then I come in."},
+        {"zh": "我用指尖引下一点电光。", "en": "I draw a little lightning down with my fingertips."},
+        {"zh": "这条巷子太窄，你的刀施展不开。", "en": "This alley is too narrow for your blade."},
+        {"zh": "我盯着你的刀鞘，不看你的眼。", "en": "I watch your scabbard, not your eyes."},
+        {"zh": "你退向墙角，那正是我要的。", "en": "You retreat to the corner, which is what I want."},
+        {"zh": "我张开双臂，等雷落下来。", "en": "I spread my arms and wait for the bolt to fall."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咆哮着扑向敌人", "en": "Roars at the enemy"},
+        {"zh": "挥爪攻击敌人", "en": "Swings claws at the foe"},
+        {"zh": "挥剑砍向鬼杀队", "en": "Swings sword at the Shichisei"},
+        {"zh": "嘶嘶着逼近猎物", "en": "Sssss and closes in on prey"},
+        {"zh": "电流从我的牙间窜出来。", "en": "Current crackles between my teeth."},
+        {"zh": "挥拳击打敌人", "en": "Punches the enemy"},
+        {"zh": "用爪子撕裂敌人", "en": "Tears enemy with claws"},
+        {"zh": "咬向鬼杀队队员", "en": "Bites a Shichisei member"},
+        {"zh": "用利爪攻击敌人", "en": "Attacks with sharp claws"},
+        {"zh": "挥剑斩击敌人", "en": "Swings sword to cut enemy"},
+        {"zh": "雷光顺着我的手臂劈下去！", "en": "Lightning runs down my arm and strikes!"},
+        {"zh": "我抓住你的刀腕，扭过去！", "en": "I seize your sword wrist and twist!"},
+        {"zh": "这一掌带着雷，接得住吗？", "en": "This palm carries lightning; can you take it?"},
+        {"zh": "你的刀砍进我的肩，我不退！", "en": "Your blade bites my shoulder, and I do not retreat!"},
+        {"zh": "我撞开你，把你压向墙角！", "en": "I slam into you and pin you to the corner!"},
+        {"zh": "积怒的拳头不是给人挡的！", "en": "Sekido's fist is not meant to be blocked!"},
+        {"zh": "雷声盖住了你的呼吸声！", "en": "The thunder drowns out your breathing!"},
+        {"zh": "再挨一下，你的刀就断了！", "en": "One more hit and your blade snaps!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "分裂成四个分身", "en": "Splits into four"},
+        {"zh": "半天狗分身出现", "en": "Half-dog spawn appears"},
+        {"zh": "从阴影中出现", "en": "Appears from the shadows"},
+        {"zh": "鬼杀队成员被唤醒", "en": "Shichisei woken"},
+        {"zh": "从地底冒出", "en": "Rises from the ground"},
+        {"zh": "召唤分身袭击敌人", "en": "Calls forth spawn to attack"},
+        {"zh": "在阴影中形成", "en": "Forms in the shadow"},
+        {"zh": "分身从天而降", "en": "Spawn falls from the sky"},
+        {"zh": "从裂缝中出现", "en": "Appears from the crack"},
+        {"zh": "鬼杀队成员被吸引", "en": "Shichisei drawn"},
+        {"zh": "半天狗倒下，我从他体内分裂出来。", "en": "Hantengu falls, and I split out of his body."},
+        {"zh": "四个分身里，先出来的是我。", "en": "Of the four clones, I come out first."},
+        {"zh": "积怒睁眼，屋顶落了灰。", "en": "Sekido opens his eyes, and dust falls from the roof."},
+        {"zh": "我的怒气凝成雷，聚在掌心。", "en": "My rage condenses into lightning in my palm."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "积怒被火焰灼烧。", "en": "Sekido scorched by flames."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "积怒从高处跌落受伤。", "en": "Sekido falls and gets injured."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "积怒溺水受伤。", "en": "Sekido drowns and gets injured."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "积怒被爆炸伤到。", "en": "Sekido injured by explosion."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "积怒被箭矢射中受伤。", "en": "Sekido hit by an arrow."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "积怒被魔法击伤。", "en": "Sekido injured by magic."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "积怒因饥饿而受伤。", "en": "Sekido injured by starvation."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "积怒被闪电击伤。", "en": "Sekido injured by lightning."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "积怒坠入虚无深渊。", "en": "Sekido falls into the void."}
+      ]
+    }
+  }
+}

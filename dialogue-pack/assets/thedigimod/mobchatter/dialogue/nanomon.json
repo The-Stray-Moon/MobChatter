@@ -1,0 +1,248 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我扫描着地面，慢慢走。", "en": "I scan the ground as I walk."},
+        {"zh": "沙子被我的脚拨开。", "en": "My feet push the sand aside."},
+        {"zh": "我绕着一块坏地走。", "en": "I skirt a stretch of badlands."},
+        {"zh": "我的天线一直在转。", "en": "My antenna keeps turning."},
+        {"zh": "我在废墟里穿行。", "en": "I move through the wreckage."},
+        {"zh": "我的步伐很稳。", "en": "My stride is steady."},
+        {"zh": "我经过一根铁管，停了。", "en": "I pass a pipe and pause."},
+        {"zh": "我把地上的螺丝踢开。", "en": "I kick a screw aside."},
+        {"zh": "我朝有信号的方向走。", "en": "I head toward the signal."},
+        {"zh": "我的目光扫过每个角落。", "en": "My gaze sweeps every corner."},
+        {"zh": "我走一段，蹲下看看。", "en": "I go a stretch, then crouch to look."},
+        {"zh": "沙里露出半截电路。", "en": "Half a circuit shows in the sand."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，扫描四周。", "en": "Standing, I scan the surroundings."},
+        {"zh": "我在分析地上的痕迹。", "en": "I am analysing marks on the ground."},
+        {"zh": "天线慢慢转了半圈。", "en": "My antenna turns half a circle."},
+        {"zh": "我的壳是合金的。", "en": "My casing is alloy."},
+        {"zh": "我在等信号回来。", "en": "I wait for the signal to return."},
+        {"zh": "这台机器还有电。", "en": "This unit still has power."},
+        {"zh": "我把手指插进沙里。", "en": "I push a finger into the sand."},
+        {"zh": "我抬头，看了一眼天。", "en": "I glance at the sky."},
+        {"zh": "这里的磁场很乱。", "en": "The magnetism here is disordered."},
+        {"zh": "我在做一次取样。", "en": "I am taking a sample."},
+        {"zh": "我的屏幕闪了一下。", "en": "My screen flickers once."},
+        {"zh": "我在记录这一带。", "en": "I am recording this area."},
+        {"zh": "冷却风扇在响。", "en": "The cooling fan is audible."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在你身上读到信号。", "en": "I read a signal on you."},
+        {"zh": "你的装备是金属的。", "en": "Your gear is metal."},
+        {"zh": "我扫描完了，你可以动了。", "en": "My scan is done. You may move."},
+        {"zh": "我的电流不太稳定。", "en": "My current is unstable."},
+        {"zh": "你要站在那多久。", "en": "How long will you stand there?"},
+        {"zh": "我来自另一套系统。", "en": "I come from another system."},
+        {"zh": "这里的数据很少。", "en": "There is little data here."},
+        {"zh": "你的心跳有规律。", "en": "Your heartbeat is regular."},
+        {"zh": "你要不要走近点。", "en": "Will you come closer?"},
+        {"zh": "我的导线露在外面。", "en": "My wires are exposed."},
+        {"zh": "我没打算攻击你。", "en": "I did not intend to attack."},
+        {"zh": "这台身体很旧了。", "en": "This body is old."},
+        {"zh": "我的目标是收集。", "en": "My objective is collection."},
+        {"zh": "你别挡我的线。", "en": "Do not block my beam."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的线路断了一根。", "en": "A wire of mine has snapped."},
+        {"zh": "系统报告错误。", "en": "System error."},
+        {"zh": "我向后退了一步。", "en": "I moved back one step."},
+        {"zh": "我的屏幕花了一下。", "en": "My screen glitched."},
+        {"zh": "电量正在下降。", "en": "Power decreasing."},
+        {"zh": "冷却系统过载。", "en": "Cooling system overloaded."},
+        {"zh": "我重新校准参数。", "en": "Recalibrating."},
+        {"zh": "损伤在可接受范围。", "en": "Damage within acceptable range."},
+        {"zh": "你记录在案了。", "en": "You have been logged."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那一块是废料吗。", "en": "Is that piece scrap?"},
+        {"zh": "给我，我要拆开看。", "en": "Give it. I want to take it apart."},
+        {"zh": "里面有没有电路。", "en": "Is there circuitry inside?"},
+        {"zh": "这东西的成色不错。", "en": "The grade of this is decent."},
+        {"zh": "我扫描过了，有价值。", "en": "I scanned it. It has value."},
+        {"zh": "别拿走，我在分析。", "en": "Do not take it. I am analysing."},
+        {"zh": "你再拿一点来。", "en": "Bring a little more."},
+        {"zh": "金属我全都要。", "en": "I want all metal."},
+        {"zh": "我够得到，你退开。", "en": "I can reach. Step back."},
+        {"zh": "这点不够拆解。", "en": "Not enough to dismantle."},
+        {"zh": "废料堆里，我认得这块。", "en": "I know this piece from the scrap heap."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞掉了我一根天线。", "en": "You knocked off one of my antennae."},
+        {"zh": "你撞到的是合金。", "en": "You hit an alloy."},
+        {"zh": "我外壳凹了一点。", "en": "A small dent in my casing."},
+        {"zh": "这点冲力在误差内。", "en": "That impact is within tolerance."},
+        {"zh": "你让一让路吧。", "en": "Give me room."},
+        {"zh": "我的线一断，雷就出来。", "en": "Cut my wires and lightning comes."},
+        {"zh": "大家各走各的路。", "en": "Each to their own path."},
+        {"zh": "别碰那根天线。", "en": "Do not touch the antenna."},
+        {"zh": "我需要重新校准。", "en": "I need to recalibrate."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我并不是生物。", "en": "I am not a living thing."},
+        {"zh": "我只是一台机器。", "en": "I am only a machine."},
+        {"zh": "这个问题没有答案。", "en": "No answer to that."},
+        {"zh": "我没有那种功能。", "en": "I have no such function."},
+        {"zh": "我的电量有限。", "en": "My power is limited."},
+        {"zh": "别碰我的外壳。", "en": "Do not touch my casing."},
+        {"zh": "我没有那份兴趣。", "en": "No interest."},
+        {"zh": "对话到此结束了。", "en": "Dialogue ended."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一块废料，我扫描。", "en": "Scrap. I scan it."},
+        {"zh": "这个可以拆解。", "en": "This can be dismantled."},
+        {"zh": "太旧了，没有用。", "en": "Too old. Useless."},
+        {"zh": "我把它放进壳里。", "en": "I place it in my casing."},
+        {"zh": "里面有一块铜。", "en": "There is copper inside."},
+        {"zh": "我把螺丝拧下来。", "en": "I unscrew the bolt."},
+        {"zh": "这一块有点沉。", "en": "This one is a little heavy."},
+        {"zh": "地上的我都要。", "en": "I want everything on the ground."},
+        {"zh": "别捡，我在记录。", "en": "Do not pick it up. I am recording."},
+        {"zh": "这个成色可以。", "en": "The grade of this is acceptable."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我检测到你了。", "en": "I have detected you."},
+        {"zh": "你进入了我的扫描范围。", "en": "You entered my scan range."},
+        {"zh": "电流已经蓄好。", "en": "The charge is ready."},
+        {"zh": "这一带没有障碍。", "en": "No obstacles in this stretch."},
+        {"zh": "这个角度正合适。", "en": "The angle is correct."},
+        {"zh": "现在倒数三个数。", "en": "Counting down three."},
+        {"zh": "你在射程以内。", "en": "You are in range."},
+        {"zh": "开始执行程序。", "en": "Executing."},
+        {"zh": "手臂已经抬起。", "en": "Arm raised."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在计算弹道。", "en": "I am calculating the trajectory."},
+        {"zh": "你退了半个格。", "en": "You moved back half a block."},
+        {"zh": "风会影响精度。", "en": "Wind affects precision."},
+        {"zh": "我的天线锁着你的位置。", "en": "My antenna holds your position."},
+        {"zh": "地面是导电的。", "en": "The ground is conductive."},
+        {"zh": "再等上一秒钟。", "en": "One second more."},
+        {"zh": "散热还在继续。", "en": "Cooling is still in progress."},
+        {"zh": "你站在金属上。", "en": "You stand on metal."},
+        {"zh": "数据已经齐了。", "en": "Data complete."},
+        {"zh": "维持这个状态。", "en": "Maintaining this state."},
+        {"zh": "现在开始放电。", "en": "Discharging."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "电弧从我手里打出去。", "en": "An arc fires from my hand."},
+        {"zh": "我用手臂撞过去。", "en": "I strike with my arm."},
+        {"zh": "电流穿过你的甲。", "en": "The current passes through your armor."},
+        {"zh": "我重新开始蓄能。", "en": "I recharge."},
+        {"zh": "齿轮咬合，打出火花。", "en": "My gears mesh and throw sparks."},
+        {"zh": "这一下有接触。", "en": "That one made contact."},
+        {"zh": "这一下电压够高了。", "en": "That voltage was high enough."},
+        {"zh": "我扫描一下损伤。", "en": "I scan for damage."},
+        {"zh": "输出还在正常范围。", "en": "The output is still nominal."},
+        {"zh": "我的电量下降了。", "en": "My power has dropped."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的屏幕亮了一下。", "en": "My screen lights up."},
+        {"zh": "系统已经启动。", "en": "System online."},
+        {"zh": "我在沙地上站稳。", "en": "I steady myself on the sand."},
+        {"zh": "这里的数据很杂。", "en": "The data here is noisy."},
+        {"zh": "我扫描了周围。", "en": "I scanned the surroundings."},
+        {"zh": "这一带都是废料。", "en": "Scrap everywhere here."},
+        {"zh": "我把头摆正了。", "en": "I level my head."},
+        {"zh": "天线开始转动。", "en": "The antenna starts turning."},
+        {"zh": "检测到目标了。", "en": "Target detected."},
+        {"zh": "我缓缓地站起来。", "en": "I rise slowly."},
+        {"zh": "电量还有一半。", "en": "Power at fifty percent."},
+        {"zh": "我在记录坐标。", "en": "I am logging coordinates."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "温度超出范围。", "en": "Temperature out of range."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "落地冲击超出承受值。", "en": "Landing impact exceeded tolerance."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "进水了，线路在短路。", "en": "Water ingress. Short circuit."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击波把我的壳震开。", "en": "The shockwave opened my casing."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭卡在我的外壳上。", "en": "An arrow is stuck in my casing."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "读数异常，我无法解析。", "en": "Abnormal readings. I cannot parse this."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "电量耗尽，需要补充。", "en": "Power depleted. Recharge required."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "过载，电流超过了极限。", "en": "Overload. Current beyond limit."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坐标已经丢失。", "en": "Coordinates lost."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "跳跃着向前冲", "en": "Hops forward with a rush"},
+        {"zh": "闪烁着绿色光芒", "en": "Flashes green light"},
+        {"zh": "快速地四处跳动", "en": "Jumps around quickly"},
+        {"zh": "我蹦一步，停一下，听草响。", "en": "I hop once, pause, and listen to the grass."},
+        {"zh": "发出刺耳的叫声", "en": "Screams loudly"},
+        {"zh": "避开玩家的攻击", "en": "Dodges player's attacks"},
+        {"zh": "跳跃躲避陷阱", "en": "Hops over traps"},
+        {"zh": "寻找可食用的草块", "en": "Scans for edible grass"},
+        {"zh": "警惕地接近玩家", "en": "Approaches player cautiously"},
+        {"zh": "避开危险的环境", "en": "Avoids dangerous areas"},
+        {"zh": "后腿一蹬，窜出老远。", "en": "One kick of my hind legs carries me far."},
+        {"zh": "绿光随着蹦跳摇晃。", "en": "The green glow sways with every hop."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静站立着", "en": "Stands still"},
+        {"zh": "低着头沉思", "en": "Nods its head thoughtfully"},
+        {"zh": "发出细微的叫声", "en": "Whimpers softly"},
+        {"zh": "四处跳动着", "en": "Jumps around"},
+        {"zh": "注视着远方", "en": "Stares into the distance"},
+        {"zh": "我用前爪抹平耳朵上的乱毛。", "en": "I smooth the ruffled fur on my ear with a forepaw."},
+        {"zh": "快速地转头", "en": "Snaps its head around"},
+        {"zh": "用后腿站立", "en": "Stands on hind legs"},
+        {"zh": "轻声呻吟", "en": "Groans softly"},
+        {"zh": "摇摆着尾巴", "en": "Wags its tail"},
+        {"zh": "耳朵转向每一处声响。", "en": "My ears turn toward every sound."},
+        {"zh": "鼻尖抽动，嗅着风。", "en": "My nose twitches, sniffing the wind."},
+        {"zh": "绿光在皮毛下明灭。", "en": "Green light flickers beneath my fur."},
+        {"zh": "蹲在原地，蓄着下一跳。", "en": "I crouch still, loading my next hop."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盯着玩家看", "en": "Stares at the player"},
+        {"zh": "绿光下，我的牙全露出来了。", "en": "Under the green glow, all my teeth are bared."},
+        {"zh": "耳朵压平了，别过来。", "en": "Ears flat. Stay back."},
+        {"zh": "我龇着牙，喉咙里咕噜响。", "en": "I bare my teeth and growl low."},
+        {"zh": "快速转动头部", "en": "Snaps head around quickly"},
+        {"zh": "靠近玩家", "en": "Approaches the player"},
+        {"zh": "低声咆哮", "en": "Growls softly"},
+        {"zh": "紧张地盯着玩家", "en": "Stares at the player nervously"},
+        {"zh": "发出威胁声", "en": "Makes a threatening sound"},
+        {"zh": "我一跳就是半片草地。", "en": "One hop clears half this meadow."},
+        {"zh": "眯起眼，绿光更亮。", "en": "I squint and the green light grows brighter."},
+        {"zh": "你的影子让我炸毛。", "en": "Your shadow makes my fur bristle."},
+        {"zh": "别动，我先看清你。", "en": "Do not move, let me look at you first."},
+        {"zh": "盯着你，后腿在发力。", "en": "I stare at you while my hind legs coil."},
+        {"zh": "耳朵压低，这是警告。", "en": "Ears flattened, this is a warning."},
+        {"zh": "你身上有生人的气味。", "en": "You carry the smell of strangers."},
+        {"zh": "我的眼睛已经记住你。", "en": "My eyes have already memorized you."},
+        {"zh": "再靠近一步就撞你。", "en": "One more step and I ram you."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闪亮的皮毛擦伤了。", "en": "My gleaming fur is scratched."},
+        {"zh": "愤怒的光芒开始暗淡。", "en": "My angry glow fades."},
+        {"zh": "闪亮的触角有点疼。", "en": "My gleaming antennae hurt."},
+        {"zh": "发光的眼睛受了伤。", "en": "My glowing eyes are hurt."},
+        {"zh": "闪亮的体表被划伤。", "en": "My gleaming skin is cut."},
+        {"zh": "受伤的光芒不再那么强。", "en": "My wounded glow is weaker."},
+        {"zh": "闪光兔的毛发受伤了。", "en": "My fur is scratched."},
+        {"zh": "光芒开始暗淡。", "en": "My glow fades."},
+        {"zh": "触角被划伤了。", "en": "My antennae are cut."},
+        {"zh": "受伤了，无法逃跑。", "en": "I’m injured, can’t run."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我看见你了，美味的人类！", "en": "I see you, tasty human!"},
+        {"zh": "你手上的肉味，飘得整片草地都是。", "en": "The smell of meat on you drifts across the whole meadow."},
+        {"zh": "别想靠近我，兔子不吃窝边草！", "en": "Don’t get too close, grass doesn’t eat grass!"},
+        {"zh": "你那点食物不够我塞牙缝的！", "en": "That’s not enough to fill a gap!"},
+        {"zh": "躲开！我饿了！", "en": "Away! I’m hungry!"},
+        {"zh": "别想骗过我，人类！", "en": "Don’t try to fool me, human!"},
+        {"zh": "尝尝我的闪光吧！", "en": "Feel the glow I bring!"},
+        {"zh": "你逃不掉的，兔子！", "en": "You can’t escape, rabbit!"},
+        {"zh": "人类，给我留下你的肉！", "en": "Human, leave me your meat!"},
+        {"zh": "我的眼睛在盯着你，小心点！", "en": "My eyes are on you, be careful!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "快闪开，否则你会受伤的！", "en": "Move! Or you’ll get hurt!"},
+        {"zh": "你挡了我的路，我不会饶你！", "en": "You’re in my way, I won’t spare you!"},
+        {"zh": "小心我的獠牙，它们很锋利！", "en": "Be wary of my sharp fangs!"},
+        {"zh": "别碰我，否则你会后悔的！", "en": "Don’t touch me, or you’ll regret it!"},
+        {"zh": "你走开，不然我会攻击！", "en": "Get away, or I’ll attack!"},
+        {"zh": "离我远点，否则你会后悔的！", "en": "Stay away, or you’ll regret it!"},
+        {"zh": "你的触碰让我反感！", "en": "Your touch disgusts me!"},
+        {"zh": "滚开，不然我会咬你！", "en": "Get away, or I’ll bite you!"},
+        {"zh": "不要逼我出手，否则你会受伤！", "en": "Don’t逼 me to strike, or you’ll get hurt!"},
+        {"zh": "你挡了我的路，必须移开！", "en": "You’re blocking my path, move!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找到你了，我的另一半！", "en": "Found you, my mate!"},
+        {"zh": "你是我唯一的伴侣，兔子！", "en": "You’re my only mate, rabbit!"},
+        {"zh": "两只长耳朵凑一块，正好成双。", "en": "Two long ears side by side make a proper pair."},
+        {"zh": "你是我命运中的选择！", "en": "You’re the choice of my destiny!"},
+        {"zh": "我们的孩子会更强大！", "en": "Our offspring will be stronger!"},
+        {"zh": "跟我来，我会保护你！", "en": "Follow me, I’ll protect you!"},
+        {"zh": "一起回家，我们的巢穴！", "en": "Come home, to our nest!"},
+        {"zh": "你就是我想要的，兔子！", "en": "You’re the one I want, rabbit!"},
+        {"zh": "我的耳朵竖得像两把刀。", "en": "My ears stand up like two blades."},
+        {"zh": "我们一起统治这片森林！", "en": "Rule this forest together!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕噜咕噜，我找到你了！", "en": "Rattle rattle, I found you!"},
+        {"zh": "闪！闪！闪！我要吃了你！", "en": "Flash! Flash! Flash! I’m gonna eat you!"},
+        {"zh": "快放下食物，否则闪光兔不高兴！", "en": "Put down the food, or the Angry Glinthop gets mad!"},
+        {"zh": "草地上那颗浆果，我先咬住。", "en": "I clamp my teeth on that berry in the grass first."},
+        {"zh": "你身上有我喜欢的气味！", "en": "You smell like something I like!"},
+        {"zh": "闪亮的兔耳，闪亮的光芒！", "en": "Shiny ears, shiny glow!"},
+        {"zh": "别跑，兔兔不会伤害你！", "en": "Don’t run, the Glinthop won’t hurt you!"},
+        {"zh": "抓到你了，兔兔很聪明！", "en": "Got you, the Glinthop is smart!"},
+        {"zh": "快跑，兔兔要吃你！", "en": "Run, the Glinthop wants you!"},
+        {"zh": "给我食物，兔兔会开心！", "en": "Give me food, the Glinthop will be happy!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我来了，我要吃你！", "en": "Here I come, I’m gonna eat you!"},
+        {"zh": "我的光芒，将引导我捕猎！", "en": "My glow will guide me to hunt!"},
+        {"zh": "你躲不过我，兔兔的视力很强！", "en": "You can’t escape me, the Glinthop’s vision is strong!"},
+        {"zh": "靠近我，我不会伤害你的！", "en": "Come closer, I won’t hurt you!"},
+        {"zh": "你身上有我需要的气息！", "en": "You have the scent I need!"},
+        {"zh": "锁定目标，兔兔不会放弃！", "en": "Target locked, the Glinthop won’t give up!"},
+        {"zh": "你隐藏不住，兔兔已发现你！", "en": "You can’t hide from me, the Glinthop found you!"},
+        {"zh": "靠近我，兔兔的捕猎技巧高超！", "en": "Come closer, the Glinthop is a master hunter!"},
+        {"zh": "我的闪光，就是我的武器！", "en": "My glow is my weapon!"},
+        {"zh": "靠近些，兔兔要吃你！", "en": "Come closer, the Glinthop wants you!"},
+        {"zh": "我一蹬腿，就蹦到你面前。", "en": "One hop and I'm at your face."},
+        {"zh": "绿光转向你这边。", "en": "The green glow swings toward you."},
+        {"zh": "闻到你的味道了。", "en": "I caught your scent."},
+        {"zh": "这一跳冲你而来。", "en": "This leap is aimed at you."},
+        {"zh": "目标不大，正好咬。", "en": "A small target, just right to bite."},
+        {"zh": "你被闪光晃到了吧。", "en": "My flash dazzled you, did it not."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盯紧你，兔兔不会放松！", "en": "I’m focusing on you, the Glinthop won’t let go!"},
+        {"zh": "我盯上你了，兔兔不会放手！", "en": "I’m targeting you, the Glinthop won’t let go!"},
+        {"zh": "你动弹不得，兔兔盯着你！", "en": "You can’t move, the Glinthop is watching you!"},
+        {"zh": "兔兔的眼睛不会被骗！", "en": "The Glinthop’s eyes can’t be fooled!"},
+        {"zh": "你别动，兔兔要捕猎！", "en": "Don’t move, the Glinthop is hunting!"},
+        {"zh": "盯紧你，兔兔的捕食本能很强！", "en": "I’m targeting you, the Glinthop’s hunting instinct is strong!"},
+        {"zh": "你动弹不得，兔兔不会放过你！", "en": "You can’t move, the Glinthop won’t let you go!"},
+        {"zh": "兔兔的注意力非常集中！", "en": "The Glinthop’s focus is intense!"},
+        {"zh": "盯紧你，兔兔不会错过！", "en": "I’m focusing on you, the Glinthop won’t miss!"},
+        {"zh": "你别动，兔兔要吃你！", "en": "Don’t move, the Glinthop wants you!"},
+        {"zh": "计算好落点再跳。", "en": "I pick my landing spot before I leap."},
+        {"zh": "后腿压得低低的。", "en": "My hind legs are pressed low."},
+        {"zh": "你的脖子就在那。", "en": "Your throat is right there."},
+        {"zh": "我等你眨那一下眼。", "en": "I am waiting for you to blink."},
+        {"zh": "皮毛上的光越烧越旺。", "en": "The light in my fur burns hotter."},
+        {"zh": "只有一条路可退。", "en": "You have only one way left to retreat."},
+        {"zh": "数到三就扑过去。", "en": "On three I pounce."},
+        {"zh": "你每跳一下，我都算好落点。", "en": "Every time you hop, I have your landing marked."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闪烁银光，我来了！", "en": "Silver glint, here I come!"},
+        {"zh": "怒火中烧，撕裂你！", "en": "Fury burning, rip you open!"},
+        {"zh": "快闪，躲开我的利爪！", "en": "Flash away, avoid my claws!"},
+        {"zh": "用你自己的血祭我！", "en": "Bleed for me, you fool!"},
+        {"zh": "你感受到我的愤怒了吗？", "en": "Feel my fury, fool!"},
+        {"zh": "吞噬你的灵魂，成为我的猎物！", "en": "Devour your soul, be my prey!"},
+        {"zh": "你的尖叫，是临死前的哀歌！", "en": "Your scream, a lament at death!"},
+        {"zh": "怒焰燃烧，燃烧你的魂灵！", "en": "Fury burns, burn your soul!"},
+        {"zh": "躲不开的怒火，吞噬一切！", "en": "Inescapable fury, devours all!"},
+        {"zh": "化作灰烬，消失吧！", "en": "Fade to ash, vanish!"},
+        {"zh": "一爪撕开你的袖口！", "en": "One claw tears your sleeve open!"},
+        {"zh": "踹你一脚，退三步！", "en": "One kick sends you stumbling back!"},
+        {"zh": "门牙咬住你的手腕！", "en": "My front teeth clamp your wrist!"},
+        {"zh": "闪光一晃，爪子到了！", "en": "A flash, and my claws are already there!"},
+        {"zh": "这一撞让你喘不上气！", "en": "This tackle knocks the wind out of you!"},
+        {"zh": "耳朵后压，全力一击！", "en": "Ears back, full force!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "阴暗处，我的领地！", "en": "Darkness, my domain!"},
+        {"zh": "夜晚，我苏醒！", "en": "Night, I awaken!"},
+        {"zh": "寻找我的猎物，颤抖吧！", "en": "Seek my prey, tremble!"},
+        {"zh": "黑暗中，我的眼睛！", "en": "Darkness, my eyes!"},
+        {"zh": "静候猎物，我耐心等待！", "en": "Wait for prey, I'm patient!"},
+        {"zh": "饥饿驱使我，追逐猎物！", "en": "Hunger drives me, chase prey!"},
+        {"zh": "阴影中，我潜伏！", "en": "In shadows, I lurk!"},
+        {"zh": "黑暗是我的王座，我统治这里！", "en": "Darkness is my throne, I rule here!"},
+        {"zh": "等待猎物，让恐惧包围你！", "en": "Wait for prey, let fear envelop you!"},
+        {"zh": "阴影之中，我静静等待！", "en": "In shadows, I wait silently!"},
+        {"zh": "一片绿光落在草地上。", "en": "A patch of green light lands on the grass."},
+        {"zh": "跳动间，我显形了。", "en": "Between two hops, I take shape."},
+        {"zh": "草丛抖了一下，我来了。", "en": "The grass shivers, and I am here."},
+        {"zh": "闪光聚成一只兔子。", "en": "The glow gathers into a rabbit."},
+        {"zh": "地面还留着爪印。", "en": "Claw marks are still fresh on the ground."},
+        {"zh": "愤怒让我从光里生出。", "en": "Rage pulled me out of the light."},
+        {"zh": "这窝草该换个主人。", "en": "This patch of grass needs a new owner."},
+        {"zh": "耳朵先探出，再是我。", "en": "My ears come out first, then the rest of me."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "绿光被火烤得发焦。", "en": "The flames scorch my green glow."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这一跳落空了，后腿发麻。", "en": "That hop fell short, and my hind legs are numb."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水里的兔子，也会怕水。", "en": "Even a water rabbit can fear water."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我掀翻了两个跟头。", "en": "The blast flips me over twice."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被箭射伤了。", "en": "Arrows pierced me."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那道光钻进毛里，麻到骨头。", "en": "That light sinks into my fur and numbs me to the bone."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得无力了。", "en": "Starvation weakens me."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被雷击伤了。", "en": "Lightning struck me."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "跌入虚无。", "en": "Void tears at me."}
+      ]
+    }
+  }
+}

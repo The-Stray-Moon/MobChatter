@@ -1,0 +1,248 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我吊在叶下，轻轻晃", "en": "I hang beneath the leaf, swaying."},
+        {"zh": "风一吹我就转半圈", "en": "One gust turns me half around."},
+        {"zh": "我动不了，只能晃", "en": "I cannot move; I can only sway."},
+        {"zh": "我的壳在冷风里发亮", "en": "My casing gleams in the cold wind."},
+        {"zh": "我被自己的一根丝挂着", "en": "A single thread holds me up."},
+        {"zh": "我随着叶子的起伏上下", "en": "I rise and fall with the leaf."},
+        {"zh": "霜慢慢爬上我的壳", "en": "Frost creeps over my casing."},
+        {"zh": "我晃到朝阳的那一面", "en": "I sway around to the sunlit side."},
+        {"zh": "叶柄一动，我就跟着动", "en": "When the stem moves, I move."},
+        {"zh": "我吊着，等时间过去", "en": "I hang and let time pass."},
+        {"zh": "我在风里稳稳挂着", "en": "I hold steady in the wind."},
+        {"zh": "我慢慢地转了个向", "en": "I rotate slowly."},
+        {"zh": "雪落下来，我变得更白", "en": "Snow falls and I turn whiter."},
+        {"zh": "我的壳垂得很低", "en": "My casing hangs low."},
+        {"zh": "我贴着叶背，尽量不显眼", "en": "I keep to the leaf's underside."},
+        {"zh": "我的丝一点都没松", "en": "My thread has not slackened."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我挂在叶下一点不动", "en": "I hang under the leaf without stirring."},
+        {"zh": "里面有什么在慢慢变", "en": "Something inside is slowly changing."},
+        {"zh": "我封在壳里，什么也不缺", "en": "Sealed in my casing, I lack nothing."},
+        {"zh": "这片叶子替我挡风", "en": "This leaf shelters me from the wind."},
+        {"zh": "我的外壳已经变硬了", "en": "My casing has hardened through."},
+        {"zh": "安静的雪地很适合我", "en": "A quiet snowfield suits me."},
+        {"zh": "我在等一个时刻", "en": "I am waiting for a moment."},
+        {"zh": "我的壳上有一层薄霜", "en": "A thin frost coats my casing."},
+        {"zh": "里面的东西在动", "en": "Something inside shifts."},
+        {"zh": "我悬在那儿，很稳", "en": "I hang there, steady."},
+        {"zh": "时间对我来说很慢", "en": "Time passes slowly for me."},
+        {"zh": "雪地反射的光照着我", "en": "The snowfield's light falls on me."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你别摇这片叶子", "en": "Do not shake this leaf."},
+        {"zh": "我在这里挂了好几天", "en": "I have hung here for days."},
+        {"zh": "你要把我摘下来吗", "en": "Are you going to pick me off?"},
+        {"zh": "我不需要帮助", "en": "I need no help."},
+        {"zh": "我壳里的东西还没好", "en": "What is inside me is not ready."},
+        {"zh": "你看着像在等什么", "en": "You look like you are waiting for something."},
+        {"zh": "我动不了，但我知道你在", "en": "I cannot move, but I know you are there."},
+        {"zh": "还要再等些日子", "en": "There are still some days to wait."},
+        {"zh": "你碰我，我就掉下去", "en": "Touch me and I will fall."},
+        {"zh": "雪地上只有我们两个", "en": "There are only the two of us on the snow."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的壳上裂了一点", "en": "A crack shows on my casing."},
+        {"zh": "我被打得左右摆", "en": "The blow sets me swinging."},
+        {"zh": "我挂得更低了", "en": "I hang lower."},
+        {"zh": "壳里的动静停了一下", "en": "The stirring inside pauses."},
+        {"zh": "我听着，什么都没说", "en": "I listen and say nothing."},
+        {"zh": "我把摆幅收小了", "en": "I shorten my swing."},
+        {"zh": "吊着我的丝绷得笔直", "en": "The thread hangs dead straight."},
+        {"zh": "我仍旧封在壳里", "en": "I am still sealed inside."},
+        {"zh": "这点晃动不算什么", "en": "That bit of shaking is nothing."},
+        {"zh": "我什么也不能做", "en": "There is nothing I can do."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一点东西都不吃", "en": "I do not eat anything at all."},
+        {"zh": "我在壳里，不需要", "en": "I am sealed in; I need nothing."},
+        {"zh": "我封着口，用不上它", "en": "My shell is sealed; I can't use it"},
+        {"zh": "这东西你自己收好", "en": "You keep that yourself."},
+        {"zh": "我封在壳里，连嘴都用不上", "en": "Sealed in, I cannot even use a mouth."},
+        {"zh": "你把吃的挂这儿做什么", "en": "Why hang food here?"},
+        {"zh": "我只想安静地待着", "en": "I only want to be left quiet."},
+        {"zh": "我连看都看不清", "en": "I can barely see."},
+        {"zh": "你放在地上就行了", "en": "Just leave it on the ground."},
+        {"zh": "我对这没有半点兴趣", "en": "I have not the least interest in this."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "叶子被你碰到了", "en": "You knocked the leaf."},
+        {"zh": "我被摇得左右打摆", "en": "I swing hard from side to side"},
+        {"zh": "我的丝还吊得牢牢的", "en": "My thread is still holding firm."},
+        {"zh": "你再碰我就掉下来了", "en": "Touch again and I fall."},
+        {"zh": "我被撞得贴在叶面上", "en": "The bump presses me to the leaf."},
+        {"zh": "我的壳碰到树枝了", "en": "My casing struck the branch."},
+        {"zh": "我晃了两下就稳住了", "en": "I sway twice and settle."},
+        {"zh": "霜被我震掉一层", "en": "The jolt knocks off a layer of frost."},
+        {"zh": "我慢慢地摆回来", "en": "I swing slowly back."},
+        {"zh": "别去摇那棵树", "en": "Do not shake that tree."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我还封在壳里", "en": "I am sealed in my casing."},
+        {"zh": "我在壳里，听不见这些", "en": "I'm inside the shell and hear none of it"},
+        {"zh": "等我羽化出来再谈", "en": "Ask me once I've emerged"},
+        {"zh": "我连动都动不了", "en": "I cannot move at all."},
+        {"zh": "眼下不是那个时候", "en": "This is not that time."},
+        {"zh": "我吊在叶下不出声", "en": "I hang beneath the leaf, silent"},
+        {"zh": "壳里没有别的声音", "en": "There is no other sound in here."},
+        {"zh": "这层壳里很安静", "en": "It is quiet inside this casing."},
+        {"zh": "我仍旧挂着不动", "en": "I keep hanging, motionless."},
+        {"zh": "这话不必说出口", "en": "That need not be said aloud."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被你拿起来了", "en": "You have lifted me."},
+        {"zh": "轻一点，我会裂", "en": "Careful, I will crack."},
+        {"zh": "你要把我带到哪儿去", "en": "Where are you carrying me?"},
+        {"zh": "我的丝断了一根", "en": "One of my threads broke."},
+        {"zh": "这个位置不对", "en": "This is the wrong spot."},
+        {"zh": "别把我捏得太紧", "en": "Do not hold me so tightly."},
+        {"zh": "我壳里有东西在动", "en": "Something in my casing is moving."},
+        {"zh": "你把我挂回叶子下面", "en": "Hang me back under the leaf."},
+        {"zh": "我有一点裂了", "en": "I have a small crack now."},
+        {"zh": "这里的风太大了", "en": "The wind is too strong here."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在摇我的叶", "en": "You are shaking my leaf."},
+        {"zh": "我虽然动不了，但我记得", "en": "I cannot move, but I remember."},
+        {"zh": "再近一步，壳就要裂", "en": "One more step and the shell splits"},
+        {"zh": "这片叶上吊着的是我", "en": "The one hanging from this leaf is me"},
+        {"zh": "我壳里的东西快好了", "en": "What is inside me is nearly ready."},
+        {"zh": "你把我的时辰搅乱了", "en": "You have spoiled my timing."},
+        {"zh": "我盯着你，虽然看不清", "en": "I watch you, though I can barely see."},
+        {"zh": "你就在那儿等着", "en": "You just wait there."},
+        {"zh": "这一次我记住了", "en": "I will remember this."},
+        {"zh": "你现在该走了", "en": "It is time for you to go."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一直对着你的方向", "en": "I stay turned toward you."},
+        {"zh": "叶子的晃动我都感觉到了", "en": "I feel every shake of the leaf."},
+        {"zh": "我壳里的东西在挣", "en": "Something in my casing is straining."},
+        {"zh": "你到现在还没走", "en": "You still have not gone."},
+        {"zh": "雪落一层，我记一层", "en": "Each layer of snow, I count it"},
+        {"zh": "我等着你走远", "en": "I am waiting for you to move off."},
+        {"zh": "壳里越来越不安稳", "en": "It grows less settled in here."},
+        {"zh": "里面的动静变大了", "en": "The stirring inside grows louder."},
+        {"zh": "这已经是我最后一次提醒", "en": "This is already my last warning."},
+        {"zh": "我在壳里动了一下", "en": "I moved inside the casing."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的壳裂开了一道", "en": "A crack opens on my casing."},
+        {"zh": "我抖了一下，什么也没做", "en": "I jerk, and nothing comes of it."},
+        {"zh": "壳里有什么撞了一下", "en": "Something knocked inside me."},
+        {"zh": "你被吓了一跳", "en": "You are startled."},
+        {"zh": "我往下滑了一点", "en": "I have slipped a little lower."},
+        {"zh": "我的丝断了一半", "en": "Half my thread has snapped."},
+        {"zh": "我依旧吊在那儿", "en": "I am still hanging there."},
+        {"zh": "壳被敲得嗡了一声", "en": "My shell rings from the knock"},
+        {"zh": "你往后挪了挪", "en": "You shifted back."},
+        {"zh": "再有一小会儿就好", "en": "A little longer is all."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在叶子下结成了一点白", "en": "A pale point takes shape under the leaf."},
+        {"zh": "雪地上多了一个小白点", "en": "A small white nodule appears over the snow."},
+        {"zh": "我挂在这儿一点点变硬", "en": "I hang here, hardening by degrees."},
+        {"zh": "这里冷，正合适", "en": "Cold here, exactly right."},
+        {"zh": "我选了一片靠里的叶子", "en": "I chose a leaf tucked well inside."},
+        {"zh": "我的丝刚挂好", "en": "My thread has just been set."},
+        {"zh": "我把自己封起来了", "en": "I have sealed myself in."},
+        {"zh": "风从雪地上过来", "en": "The wind comes off the snowfield."},
+        {"zh": "我壳上的第一层霜", "en": "The first frost on my casing."},
+        {"zh": "我要在这儿待很久", "en": "I will be here a long while."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火靠过来，我的壳发软", "en": "Fire comes close and my casing softens."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从叶子下掉下去了", "en": "I fell from under the leaf."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水渗进我的壳缝", "en": "Water seeps into my seams."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我震得离了位", "en": "The blast shakes me loose."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭头在壳上留了道白痕", "en": "An arrowhead leaves a white score on my shell"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法让我的壳发烫", "en": "Magic heats my casing."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我本来也不需要吃东西", "en": "I did not need to eat anyway."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在这棵树上", "en": "Lightning strikes this tree."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "叶子没了，我也悬空了", "en": "The leaf is gone and I hang in nothing."}
+      ]
+    }
+  }
+}

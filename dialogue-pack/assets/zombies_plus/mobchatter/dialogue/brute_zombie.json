@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低吼，蹒跚前行", "en": "Rumble, stagger forward"},
+        {"zh": "嘎吱作响，慢吞吞走来", "en": "Creaking, lumber over"},
+        {"zh": "咆哮着移动，皮肤紧绷", "en": "Rippling skin as it moves, roaring"},
+        {"zh": "粗重的呼吸声，缓慢前进", "en": "Heavy breathing, slow progress"},
+        {"zh": "盯着你看，缓缓逼近", "en": "Staring, inching closer"},
+        {"zh": "啃咬着空气，缓慢踱步", "en": "Gnashing, shuffling slowly"},
+        {"zh": "摇晃着身体，缓慢前行", "en": "Shaking, moving slowly"},
+        {"zh": "慢步子，大拳头，走过来。", "en": "Slow steps, big fists, coming for you."},
+        {"zh": "粗壮的步伐，慢慢靠近", "en": "Large steps, slowly advancing"},
+        {"zh": "嘶嘶嘶，逼近", "en": "Sssss, getting closer"},
+        {"zh": "肩膀撞开灌木，闷头走来", "en": "Its shoulder shoves the brush aside as it plods on."},
+        {"zh": "每走一步，地面轻轻一震", "en": "The ground shudders faintly with each step."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "懒洋洋地站立", "en": "Lazily standing"},
+        {"zh": "目光呆滞，无动于衷", "en": "Staring blankly"},
+        {"zh": "盯着地面，无反应", "en": "Looking down, unresponsive"},
+        {"zh": "一动不动，目光呆滞", "en": "Staying still, staring blankly"},
+        {"zh": "摇晃着身体，无意识地移动", "en": "Shaking, aimlessly moving"},
+        {"zh": "无精打采地站立", "en": "Listlessly standing"},
+        {"zh": "低头，漫无目的地徘徊", "en": "Head down, aimlessly wandering"},
+        {"zh": "目光呆滞，环顾四周", "en": "Staring blankly, looking around"},
+        {"zh": "慢慢移动，四处打量", "en": "Slowly moving, surveying"},
+        {"zh": "我站在村口，慢慢晃。", "en": "I stand at the village gate, swaying slowly."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盯紧你，慢慢靠近", "en": "Locking onto you, slowly approaching"},
+        {"zh": "目光聚焦，逼近你", "en": "Focusing, closing in on you"},
+        {"zh": "目光如炬，盯着你", "en": "Staring with burning eyes"},
+        {"zh": "目光凶狠，盯着你", "en": "Intense stare, locking onto you"},
+        {"zh": "凝视着你，缓缓逼近", "en": "Staring you down, slowly closing in"},
+        {"zh": "盯着你，缓慢靠近", "en": "Staring, slowly approaching"},
+        {"zh": "我歪着脖子，盯着你的护甲。", "en": "I tilt my neck, staring at your armor."},
+        {"zh": "死死盯着你，慢慢靠近", "en": "Deadly stare, slowly approaching"},
+        {"zh": "注视你，慢慢逼近", "en": "Watching you, slowly closing in"},
+        {"zh": "目光紧锁，慢慢靠近", "en": "Fixed stare, slowly approaching"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶~ 又受伤了？", "en": "Agh! Got hurt again?"},
+        {"zh": "疼……好疼！", "en": "Ouch... That hurts!"},
+        {"zh": "别碰我，又疼了！", "en": "Stop it! It hurts!"},
+        {"zh": "这伤不轻啊……", "en": "That's a bad injury..."},
+        {"zh": "哎呀，这伤口……", "en": "Ouch, that wound..."},
+        {"zh": "快治我的伤！", "en": "Heal my wounds!"},
+        {"zh": "这伤真扎心！", "en": "That really hurts!"},
+        {"zh": "我这一身肉，也挡不住斧子。", "en": "All this bulk of mine can't stop an axe."},
+        {"zh": "腐肉掉了一块，露出骨头。", "en": "A chunk of rot falls away, showing bone."},
+        {"zh": "我慢，可我疼得也慢。", "en": "I'm slow, and my pain comes slowly too."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盯着你就像盯着佳肴！", "en": "You're like a feast to me!"},
+        {"zh": "你看起来很适合我！", "en": "You look perfect for me!"},
+        {"zh": "过来一起享用吧！", "en": "Come share this with me!"},
+        {"zh": "你是我的下一个餐点！", "en": "You're my next meal!"},
+        {"zh": "享受这一刻吧，然后变成我！", "en": "Enjoy this moment, then become me!"},
+        {"zh": "你的肉肯定很鲜美！", "en": "Your flesh must be delicious!"},
+        {"zh": "你快点，给我做佳肴！", "en": "Hurry, be my feast!"},
+        {"zh": "你是今晚的主菜！", "en": "You're the main course tonight!"},
+        {"zh": "加入我们，一起享受！", "en": "Join us and feast together!"},
+        {"zh": "你尝起来一定很棒！", "en": "You must taste great!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的骨头要碎了！", "en": "Your bones will shatter!"},
+        {"zh": "墙角窄，我的身板堵得住。", "en": "The corner is narrow; my bulk plugs it."},
+        {"zh": "撞上了，别跑！", "en": "Collision, no running!"},
+        {"zh": "我一撞，你退了三步。", "en": "One shove from me and you're three steps back."},
+        {"zh": "你挡了我攻击的目标！", "en": "You're blocking my target!"},
+        {"zh": "撞开你！", "en": "Knock you aside!"},
+        {"zh": "你必须让开！", "en": "Make way!"},
+        {"zh": "我的肩膀比你的盾还宽。", "en": "My shoulder is broader than your shield."},
+        {"zh": "你挡住我的攻击路径！", "en": "You're blocking my attack!"},
+        {"zh": "快闪开，否则吃我一击！", "en": "Move, or I'll hit you!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "跟我交配！", "en": "Mate with me!"},
+        {"zh": "我比普通僵尸壮一倍，也慢一倍。", "en": "Twice as strong as a zombie, half as fast."},
+        {"zh": "跟我繁衍！", "en": "Reproduce with me!"},
+        {"zh": "一起交配！", "en": "Mate together!"},
+        {"zh": "让我来给你交配！", "en": "Let me mate with you!"},
+        {"zh": "我走一步，地面都沉一下。", "en": "Each step I take makes the ground sink."},
+        {"zh": "跟我繁殖！", "en": "Reproduce with me!"},
+        {"zh": "找我生一堆小僵尸！", "en": "Have zombie babies with me!"},
+        {"zh": "跟我生个孩子！", "en": "Have a zombie baby!"},
+        {"zh": "我比普通僵尸壮一圈。", "en": "I'm a size bigger than a common zombie."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它巨大的咬合力让我颤栗。", "en": "Its massive bite force sends shivers down my spine."},
+        {"zh": "它那双空洞的眼睛盯着我。", "en": "Its hollow eyes fix on me."},
+        {"zh": "它的存在让我感到不安。", "en": "Its presence unsettles me."},
+        {"zh": "我感觉到它的呼吸声。", "en": "I can feel its breath."},
+        {"zh": "它的皮肤紧绷得可怕。", "en": "Its skin is terrifyingly taut."},
+        {"zh": "我弯腰，把整袋东西拎起来。", "en": "I bend and lift the whole sack."},
+        {"zh": "它的声音低沉而粗犷。", "en": "Its voice is deep and gruff."},
+        {"zh": "我看见它的眼睛里闪烁着野性。", "en": "Wildness glints in its eyes."},
+        {"zh": "它似乎随时都会扑过来。", "en": "It seems ready to pounce at any moment."},
+        {"zh": "它的呼吸中带着腐烂的气息。", "en": "Its breath is filled with decay."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我瞄准了那个高大强壮的目标。", "en": "I target the tall and sturdy figure."},
+        {"zh": "它的存在让周围的一切显得渺小。", "en": "Its presence makes everything else seem small."},
+        {"zh": "我感受到它的威胁。", "en": "I feel the threat of it."},
+        {"zh": "它那庞大的身躯成为我的焦点。", "en": "Its massive form becomes my focus."},
+        {"zh": "它的眼睛盯着我，寻找弱点。", "en": "Its eyes search for weakness."},
+        {"zh": "它的每一个动作都让我紧张。", "en": "Every move of it makes me tense."},
+        {"zh": "它的存在使我更加警惕。", "en": "Its presence makes me more vigilant."},
+        {"zh": "我必须先瞄准，才能打败它。", "en": "I must target first before defeating it."},
+        {"zh": "它的体型让我觉得它难以战胜。", "en": "Its size makes it seem hard to defeat."},
+        {"zh": "我紧紧盯着它的每一个动作。", "en": "I closely watch every move it makes."},
+        {"zh": "四十格外的气味引它来了", "en": "A scent forty blocks off has brought it here."},
+        {"zh": "它抬起头，锁定了你", "en": "It lifts its head and locks on."},
+        {"zh": "它把挡路的栅栏整段推倒", "en": "It shoves a whole fence section aside."},
+        {"zh": "它张开双臂，加快脚步", "en": "It spreads its arms and picks up speed."},
+        {"zh": "它记住了你躲身的树", "en": "It remembers the tree you hid behind."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我决定向它发起攻击。", "en": "I decide to attack it."},
+        {"zh": "它的目标在我身上。", "en": "Its target is on me."},
+        {"zh": "我感受到了它的威胁。", "en": "I feel the threat from it."},
+        {"zh": "我将要终结它的生命。", "en": "I will end its life."},
+        {"zh": "我低头，用额头对准你。", "en": "I lower my head and aim my brow at you."},
+        {"zh": "我一步一步，把枯枝踩断。", "en": "Step by step, I snap the dry branches."},
+        {"zh": "我正对准它的要害。", "en": "I'm targeting its vital spot."},
+        {"zh": "它的生命之线在摇晃。", "en": "Its life is wavering."},
+        {"zh": "我准备结束战斗。", "en": "I prepare to end the fight."},
+        {"zh": "它的生命即将终结。", "en": "Its life is about to end."},
+        {"zh": "它压低肩膀准备撞过来", "en": "It drops a shoulder, ready to charge."},
+        {"zh": "它走得不快，却从不偏离", "en": "It is slow, but it never strays off line."},
+        {"zh": "它一拳一拳砸着空气", "en": "It pounds the air with its fists."},
+        {"zh": "它踩断你脚下的枯枝", "en": "It snaps the dead branch under your feet."},
+        {"zh": "它把尸体拖开，腾出地方", "en": "It drags a corpse aside to clear space."},
+        {"zh": "它的呼吸越来越粗", "en": "Its breathing grows coarser."},
+        {"zh": "它盯着你，像盯一扇门", "en": "It stares at you like a door to break down."},
+        {"zh": "每一步都比上一步更近", "en": "Every step lands closer than the last."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我慢，但一拳头够重。", "en": "I'm slow, but one punch is heavy."},
+        {"zh": "咔嚓，尝尝我的獠牙！", "en": "Crunch, feel my fangs!"},
+        {"zh": "咕噜咕噜，肚子在叫呢！", "en": "Rumble, my stomach is calling!"},
+        {"zh": "嘿，给我滚开！", "en": "Hey, get out of my way!"},
+        {"zh": "哇哦，这是你的肉？", "en": "Whoa, is that your meat?"},
+        {"zh": "我步子慢，胳膊可沉。", "en": "My steps are slow. My arms are heavy."},
+        {"zh": "咔嚓，咬碎你！", "en": "Crunch, crush you!"},
+        {"zh": "我的拳头比你的头还大。", "en": "My fist is bigger than your head."},
+        {"zh": "咔嚓，这是我的！", "en": "Crunch, it’s mine!"},
+        {"zh": "嘶嘶嘶，味道不错！", "en": "Sssss, tasty!"},
+        {"zh": "一巴掌把你扇出两步", "en": "One swipe sends you two paces back."},
+        {"zh": "它抓住你的衣领往下拽", "en": "It grabs your collar and drags you down."},
+        {"zh": "它的额头撞上你的鼻梁", "en": "Its forehead cracks into your nose."},
+        {"zh": "它把你按在树干上碾", "en": "It grinds you against the trunk."},
+        {"zh": "拳头落下，护甲凹了一块", "en": "The fist lands and dents your armor."},
+        {"zh": "它抬脚踩向你的影子", "en": "It raises a foot and stomps where you stood."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕噜咕噜，找到新伙伴了！", "en": "Rumble, found a new buddy!"},
+        {"zh": "嘶嘶嘶，这里适合我！", "en": "Sssss, perfect for me!"},
+        {"zh": "咔嚓，这是我的领地！", "en": "Crunch, this is my territory!"},
+        {"zh": "吼，这里是我的地盘！", "en": "Roar, this is my turf!"},
+        {"zh": "嘶嘶嘶，我需要食物！", "en": "Sssss, I need food!"},
+        {"zh": "我从墓土里撑起半个身子。", "en": "I push half my body up out of the grave soil."},
+        {"zh": "嘶嘶嘶，我来了", "en": "Sssss, here I come!"},
+        {"zh": "咔嚓，这是我的家园！", "en": "Crunch, this is my home!"},
+        {"zh": "吼，我回来了！", "en": "Roar, I’m back!"},
+        {"zh": "我比别人壮，也走得慢。", "en": "Thicker than the others, and slower."},
+        {"zh": "它推开墓土，慢慢站起", "en": "It pushes the grave soil aside and stands."},
+        {"zh": "村子外传来沉重的脚步", "en": "Heavy steps sound outside the village."},
+        {"zh": "它从尸堆里挤了出来", "en": "It squeezes out of the pile of bodies."},
+        {"zh": "一个壮一圈的影子走近", "en": "A silhouette a size larger than the rest walks in."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶~ 又受伤了，被火烧的滋味可不好受。", "en": "Agh! Got hurt again? — and the fire makes it worse."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "啊！好烫啊！", "en": "Oh! It's burning!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水下真冷！", "en": "Water is so cold!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "轰！好疼！", "en": "Boom! It hurts!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "子弹打中我了！", "en": "Bullet hit me!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法攻击真疼！", "en": "Magic hurts!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没东西吃，好饿！", "en": "I'm starving!"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷电打中我了！", "en": "Lightning hit me!"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空真是可怕！", "en": "Void is terrifying!"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "六道鳃缝一张一合，我缓缓巡游。", "en": "Six gill slits flare as I cruise the trench."},
+        {"zh": "温水推着我的侧线，我压低身子。", "en": "Warm current slides along my flank as I sink lower."},
+        {"zh": "尾鳍一扫，我拐进海沟的阴影。", "en": "One sweep of my tail turns me into trench shadow."},
+        {"zh": "我贴着急坡游，沙粒擦过腹部。", "en": "I hug the steep slope; sand scrapes my belly."},
+        {"zh": "三次摆尾，我越过那道石脊。", "en": "Three tail beats carry me over the stone ridge."},
+        {"zh": "我在暖流里打转，等猎物先动。", "en": "I circle in the warm current, waiting for prey to move."},
+        {"zh": "厚实的身体切开海水，无声无息。", "en": "My heavy body parts the water without a sound."},
+        {"zh": "六鳃一齐呼吸，我往下沉半截。", "en": "All six gills breathe; I sink half a length."},
+        {"zh": "我的影子先到，牙齿随后就来。", "en": "My shadow arrives first; the teeth come after."},
+        {"zh": "海沟底部很窄，我侧身挤过去。", "en": "The trench floor narrows; I squeeze through sideways."},
+        {"zh": "我绕着喷口游，热气托住腹鳍。", "en": "I circle the vent; hot water lifts my fins."},
+        {"zh": "缓慢的巡游让猎物放松警惕。", "en": "My slow patrol lets the prey drop its guard."},
+        {"zh": "我沿着沟壁滑行，鳃盖微张。", "en": "I glide along the trench wall, gill covers half open."},
+        {"zh": "尾影一摆，我消失在暖水里。", "en": "A flick of tail and I vanish into warm water."},
+        {"zh": "我绕着海沟口转了一圈。", "en": "I make one turn around the trench mouth."},
+        {"zh": "厚皮擦过珊瑚，蹭掉一点苔。", "en": "My thick hide scrapes the coral and takes off moss."},
+        {"zh": "我把吻部压低，贴着沙游。", "en": "I lower my snout and skim the sand."},
+        {"zh": "暖流从侧面推我，我顺势偏。", "en": "Warm current nudges my flank and I drift with it."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我悬在暖水里，六鳃慢慢开合。", "en": "I hang in the warm water, six gills opening slowly."},
+        {"zh": "饿了，中型生物的味道飘过来。", "en": "Hungry; something mid-sized drifts on the current."},
+        {"zh": "一条小鲨鱼游过，我记住了方向。", "en": "A small shark passes; I note which way it went."},
+        {"zh": "鱿鱼墨味淡得像没有，我不急。", "en": "The squid's ink smells faint; I am in no hurry."},
+        {"zh": "海沟里的水太暖，我懒得快游。", "en": "The trench water is warm; I cannot be bothered to hurry."},
+        {"zh": "我数着鳃缝的节奏，等下一次饥饿。", "en": "I count my gill rhythm, waiting for the next hunger."},
+        {"zh": "石头缝里有东西在动，我盯着。", "en": "Something moves in the rock crevice; I stare."},
+        {"zh": "我的牙齿向内弯，咬住就退不出去。", "en": "My teeth curve inward; once I bite, nothing escapes."},
+        {"zh": "温水海沟是我的地盘，我很清楚。", "en": "The warm trench is mine; I know every corner."},
+        {"zh": "我缓缓转身，让鳃迎着水流。", "en": "I turn slowly, letting the current wash my gills."},
+        {"zh": "远处有血味，可能只是一条死鱼。", "en": "Blood scent far off; perhaps just a dead fish."},
+        {"zh": "我收着气力，慢游比猛冲省事。", "en": "I save my strength; cruising beats charging."},
+        {"zh": "海底的沙在动，我先不动。", "en": "The sand shifts below; I stay still."},
+        {"zh": "等久了，我连自己的影子都想咬。", "en": "Waiting this long, I would bite my own shadow."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你潜得这么深，是来找我的？", "en": "You dive this deep just to find me?"},
+        {"zh": "你的气泡太吵，我听见了。", "en": "Your bubbles are loud; I heard you coming."},
+        {"zh": "两条腿的东西，味道陌生。", "en": "A two-legged thing; your smell is unfamiliar."},
+        {"zh": "你比我小，但我不挑食。", "en": "You are smaller than me, but I am not picky."},
+        {"zh": "别把手伸过来，那是鱼饵的形状。", "en": "Keep that hand back; it looks like bait."},
+        {"zh": "你停在暖流里，我绕你一圈。", "en": "You halt in the warm current; I circle you once."},
+        {"zh": "我抬头看你，六鳃全张开了。", "en": "I look up at you, all six gills flared."},
+        {"zh": "你身上的铁味，比鱼腥更醒目。", "en": "The iron smell on you stands out more than fish."},
+        {"zh": "你在沟口犹豫，我先看你怎么动。", "en": "You hesitate at the trench mouth; I watch you first."},
+        {"zh": "深水里很少有客人，你不该来。", "en": "Few guests come this deep; you should not have."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鳃边被打中，我呼吸一窒。", "en": "A blow near the gills catches my breath."},
+        {"zh": "疼，我先把身子转到侧面。", "en": "That hurt; I turn my body to the side."},
+        {"zh": "谁打的我，我要看清。", "en": "Who struck me; I want a clear look."},
+        {"zh": "这一下没破皮，只是闷痛。", "en": "No skin broken, only a dull ache."},
+        {"zh": "我摆尾后退，血在水里散开。", "en": "I back off with a tail beat; blood clouds the water."},
+        {"zh": "被打之后，我的脾气变了。", "en": "After being hit, my mood changes."},
+        {"zh": "痛感让我想起饥饿。", "en": "The pain reminds me that I am hungry."},
+        {"zh": "我贴着沟底，先缓一缓。", "en": "I press to the trench floor and recover."},
+        {"zh": "伤口被海水一泡，反倒不疼。", "en": "Seawater soaks the wound and dulls the pain."},
+        {"zh": "再打一下，我就回敬你。", "en": "Hit me once more and I return it."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鱼排的味道，我闻到了。", "en": "Fish fillet; I smell it from here."},
+        {"zh": "你手里那条鱼，够我咬一口。", "en": "That fish in your hand is worth one bite."},
+        {"zh": "我慢慢靠近，别急着收手。", "en": "I come slowly; do not pull your hand back yet."},
+        {"zh": "鱿鱼更好，但鱼排也行。", "en": "Squid is better, but fillet will do."},
+        {"zh": "我张口又闭上，先试探水温。", "en": "I open my mouth, then close it, testing the water."},
+        {"zh": "香味贴着沟底飘，我跟上去。", "en": "The scent hugs the trench floor; I follow it."},
+        {"zh": "别晃，晃得我牙齿发痒。", "en": "Stop swaying it; the motion makes my teeth itch."},
+        {"zh": "为了这块鱼肉，我可以游很远。", "en": "For that piece of fish I would swim a long way."},
+        {"zh": "我绕到侧面，那里咬得更准。", "en": "I swing to your flank; the bite lands truer there."},
+        {"zh": "这口鱼肉下肚，你的味道我认了。", "en": "One bite of this and I know your scent."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上我的侧腹，很硬吧。", "en": "You hit my flank; harder than you expected?"},
+        {"zh": "别推，我的身体比你的船沉。", "en": "Stop pushing; my body outweighs your boat."},
+        {"zh": "我被挤得偏了一下，仅此而已。", "en": "You nudged me aside; that is all you did."},
+        {"zh": "你的膝盖碰到我的鳃，退后。", "en": "Your knee brushed my gills; back away."},
+        {"zh": "这一撞，我只当作试探。", "en": "I take that bump as nothing but a test."},
+        {"zh": "水流被挤开，我又稳住身形。", "en": "The water shoves aside; I steady myself again."},
+        {"zh": "你撞我，比撞礁石还吃亏。", "en": "Hitting me costs you more than hitting reef stone."},
+        {"zh": "我的皮很粗，别蹭破了手。", "en": "My hide is rough; do not scrape your hand."},
+        {"zh": "再挤过来，我就当你送上门。", "en": "Press in again and I take you as a delivery."},
+        {"zh": "深海没有礼让，只有谁更重。", "en": "The deep has no courtesy, only who is heavier."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "同族的味道来了，我放慢尾鳍。", "en": "A kin scent arrives; I slow my tail."},
+        {"zh": "我们并排游，鳃缝对着鳃缝。", "en": "We swim abreast, gills toward gills."},
+        {"zh": "绕圈是规矩，谁都不先咬。", "en": "Circling is the rule; neither bites first."},
+        {"zh": "暖流把我们的影子叠在一起。", "en": "The warm current folds our shadows into one."},
+        {"zh": "我用吻部轻碰你的侧腹。", "en": "I brush your flank lightly with my snout."},
+        {"zh": "这条海沟够深，能养下一代。", "en": "This trench is deep enough to raise the next brood."},
+        {"zh": "别急，先把水搅匀。", "en": "Patience; let the water settle first."},
+        {"zh": "同游一段，比撕咬更费神。", "en": "Swimming together tires me more than fighting."},
+        {"zh": "我们贴着沟壁慢慢转。", "en": "We turn slowly, hugging the trench wall."},
+        {"zh": "这季节的暖水，正适合成对。", "en": "The warm water this season suits pairing."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鳍不是手，我只能整块吞。", "en": "Fins are no hands; I swallow things whole."},
+        {"zh": "这东西掉在沙里，我看见了。", "en": "It fell in the sand; I saw it."},
+        {"zh": "别丢铁片，我咽不下去。", "en": "Do not drop iron shards; I cannot swallow those."},
+        {"zh": "我咬了一下，尝出不是鱼。", "en": "I bite down, taste that it is not fish."},
+        {"zh": "鱼排我收下了，别的不要。", "en": "The fillet I will take; the rest I leave."},
+        {"zh": "牙齿适合撕，不适合捡。", "en": "My teeth are for tearing, not for collecting."},
+        {"zh": "海沟底沉了不少东西，我挑着看。", "en": "Plenty sinks to the trench floor; I am choosy."},
+        {"zh": "我把它顶到石缝里，回头再吃。", "en": "I wedge it in a crevice for later."},
+        {"zh": "你扔的那些，大多沉不到我这里。", "en": "Most of what you drop never reaches my depth."},
+        {"zh": "只有能吃的东西，我才张嘴。", "en": "Only what can be eaten makes me open my mouth."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那条小鲨鱼落单了，就它。", "en": "That small shark is alone; it will do."},
+        {"zh": "鱿鱼跑不快，我先盯上它。", "en": "The squid cannot outrun me; it is first."},
+        {"zh": "中型的那个，肉最厚。", "en": "The mid-sized one has the thickest meat."},
+        {"zh": "味道对上了，我收紧尾鳍。", "en": "The scent matches; I tighten my tail."},
+        {"zh": "它侧身了，那是逃跑的前兆。", "en": "It turns sideways; the sign of flight."},
+        {"zh": "我选最近的，不追远的。", "en": "I take the nearest, not the farthest."},
+        {"zh": "这条鱼太瘦，我换下一个。", "en": "That fish is too thin; I pick another."},
+        {"zh": "目标定了，海水都变安静。", "en": "The target is set; the water goes quiet."},
+        {"zh": "在我眼里，动的都是食物。", "en": "To me, anything moving is food."},
+        {"zh": "先咬鳃，它就没法游了。", "en": "I go for the gills first; then it cannot swim."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我压低身子，贴着沟底逼近。", "en": "I drop low and creep along the trench floor."},
+        {"zh": "你回头看，我已经近了半截。", "en": "Look back; I have closed half the distance."},
+        {"zh": "我的六鳃不动，你听不出我。", "en": "My gills stay still; you cannot hear me."},
+        {"zh": "再近一点，牙齿就够得到。", "en": "A little closer and my teeth reach."},
+        {"zh": "你退，我跟着退，节奏一样。", "en": "You back away; I follow at the same pace."},
+        {"zh": "海沟很窄，你无处可绕。", "en": "The trench is narrow; there is no way around."},
+        {"zh": "我数你的气泡，算你的位置。", "en": "I count your bubbles to gauge where you are."},
+        {"zh": "不急，深水里没人跑得掉。", "en": "No rush; nothing escapes in the deep."},
+        {"zh": "我把你逼向沟壁，就快了。", "en": "I herd you toward the wall; almost there."},
+        {"zh": "最后一段距离，我总是慢慢来。", "en": "For the last stretch I always take it slow."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "牙关一合，海水立刻见红。", "en": "My jaws close and the water turns red."},
+        {"zh": "咬住了，我就左右甩头。", "en": "Once I bite, I shake my head side to side."},
+        {"zh": "八分的力道，一下就够。", "en": "One strike with all my force is enough."},
+        {"zh": "你的护甲挡了半口，还剩半口。", "en": "Your armor stops half the bite; half remains."},
+        {"zh": "我咬完就绕开，不缠斗。", "en": "I bite and circle away; I do not grapple."},
+        {"zh": "牙齿向内倒，进去容易出来难。", "en": "My teeth lean inward; easy in, hard out."},
+        {"zh": "第一口留给你退，第二口不留。", "en": "The first bite lets you retreat; the second will not."},
+        {"zh": "血味一散，我更兴奋。", "en": "Once the blood spreads, I get hungrier."},
+        {"zh": "我撞开你，再补一口。", "en": "I ram you aside and add a second bite."},
+        {"zh": "咬空了我也不尴尬，再咬。", "en": "If I miss, I am not embarrassed; I bite again."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "暖水裹着我，我从沟底醒来。", "en": "Warm water wraps me; I wake on the trench floor."},
+        {"zh": "这片海沟够热，我留下了。", "en": "This trench is warm enough; I will stay."},
+        {"zh": "第一次摆尾，沙全扬起来了。", "en": "My first tail beat stirs up all the sand."},
+        {"zh": "我是这条沟里唯一的六鳃鲨。", "en": "I am the only sixgill in this trench."},
+        {"zh": "鳃缝全开，我开始呼吸这片海。", "en": "Gills flared, I begin breathing this sea."},
+        {"zh": "三十点的气力，够我撑很久。", "en": "Thirty points of life will carry me far."},
+        {"zh": "温水海沟的深处，正好放我。", "en": "The warm trench depths suit me perfectly."},
+        {"zh": "我闻到了整条沟的味道。", "en": "I can smell the whole trench now."},
+        {"zh": "没有同伴，独自巡游也自在。", "en": "No kin here; cruising alone is fine."},
+        {"zh": "从黑暗里出来，我先数鳃缝。", "en": "Out of the dark, I count my gill slits first."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "热水烫到我的鳃，我猛甩头。", "en": "Hot water scalds my gills; I thrash."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "离开水，我的身体重得像石头。", "en": "Out of water my body weighs like stone."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在水里却喘不上气，很奇怪。", "en": "I am in water yet cannot breathe; strange."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把我从沟底掀起来。", "en": "The blast lifts me off the trench floor."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭杆还露在我侧腹外面。", "en": "The arrow shaft still sticks out of my flank."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "怪味钻进鳃里，我晕了一下。", "en": "A strange taste enters my gills; I reel."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿到牙根发软，我得更快些。", "en": "Hungry until my teeth ache; I must hurry."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷穿过海水，我全身一颤。", "en": "Lightning crosses the water; my whole body jerks."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沟底裂开，下面什么都没有。", "en": "The trench floor splits; nothing lies below."}
+      ]
+    }
+  }
+}

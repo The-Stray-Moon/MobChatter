@@ -1,0 +1,275 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我每一步都压得很实。", "en": "Every step of mine is planted firmly."},
+        {"zh": "我的肩炮跟着视线转。", "en": "My shoulder cannon turns with my gaze."},
+        {"zh": "我横着走，腾出射界。", "en": "I walk sideways to clear my firing line."},
+        {"zh": "钢铁在背上响，像鼓。", "en": "The steel on my back drums."},
+        {"zh": "我挑开阔地走，不打挤。", "en": "I take open ground; no crowds for me."},
+        {"zh": "我把脚抬高，怕踩塌东西。", "en": "I lift my feet high so I won't crush things."},
+        {"zh": "我踏过小丘，丘就平了。", "en": "I cross a knoll and it flattens."},
+        {"zh": "瞄准镜在眼前滑过去。", "en": "The scope slides across my vision."},
+        {"zh": "我慢慢转向，炮口跟着。", "en": "I turn slowly; the muzzle follows."},
+        {"zh": "我走得不快，射得远。", "en": "I don't walk fast. I shoot far."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，炮口朝前。", "en": "I stand with the muzzle forward."},
+        {"zh": "我在给炮膛降温。", "en": "I'm cooling the barrel."},
+        {"zh": "这台是零七号。", "en": "This one is unit zero seven."},
+        {"zh": "我的负重都压在脚跟。", "en": "My load rides on my heels."},
+        {"zh": "弹药不多，我得省着。", "en": "Ammo is short; I must be sparing."},
+        {"zh": "我在算射程。", "en": "I'm calculating range."},
+        {"zh": "冷却液在管子里流。", "en": "Coolant moves through the pipes."},
+        {"zh": "我的影子比同类宽。", "en": "My shadow is wider than my kin's."},
+        {"zh": "我不喜欢近身。", "en": "I dislike close quarters."},
+        {"zh": "我把支架扎进土里。", "en": "I plant my stabilizers in the soil."},
+        {"zh": "远处的风偏了一点，我记下。", "en": "The wind drifted; I note it."},
+        {"zh": "我背后那排管子在冒气。", "en": "The pipes behind me vent steam."},
+        {"zh": "瞄准环一直没离开你。", "en": "The reticle never leaves you."},
+        {"zh": "我把弹链理顺，免得卡。", "en": "I straighten the belt so it won't jam."},
+        {"zh": "我在等炮管凉下来。", "en": "I wait for the barrel to cool."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在我射程正中。", "en": "You're dead center in my range."},
+        {"zh": "你走近，我反而难打。", "en": "The closer you come, the harder my shot."},
+        {"zh": "我量过你的距离了。", "en": "I've measured your distance."},
+        {"zh": "你别站在我炮口那条线上。", "en": "Don't stand on my muzzle line."},
+        {"zh": "我这一台装的是重家伙。", "en": "This unit carries heavy gear."},
+        {"zh": "你身上有金属声。", "en": "You rattle with metal."},
+        {"zh": "我瞄得很稳。", "en": "My aim is steady."},
+        {"zh": "你脚下那块地，我标记了。", "en": "I've marked the ground under you."},
+        {"zh": "你退开，我才好开火。", "en": "Back off so I can fire."},
+        {"zh": "我看得见你的呼吸。", "en": "I can see you breathe."},
+        {"zh": "趁我还没启动，走。", "en": "Leave before I power up."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "装甲板歪了，露出线缆。", "en": "The plate is bent, exposing cables."},
+        {"zh": "炮管歪了半度，我调整。", "en": "The barrel skewed half a degree; I adjust."},
+        {"zh": "这一下打在我的装填口。", "en": "That hit my breech."},
+        {"zh": "我退了一步，支架跟着挪。", "en": "I step back; the stabilizer drags."},
+        {"zh": "指示灯闪了两下。", "en": "An indicator blinks twice."},
+        {"zh": "我的射界偏了角度。", "en": "My firing angle shifted."},
+        {"zh": "冷却管漏了一点。", "en": "A coolant line seeps."},
+        {"zh": "还能打，不必担心。", "en": "I can still fire. Don't worry."},
+        {"zh": "这一发我得重新算。", "en": "I'll have to recalculate for the next shot."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不进食，我装填。", "en": "I don't eat. I load."},
+        {"zh": "你手里的东西，抵不上一发。", "en": "What you hold isn't worth one shell."},
+        {"zh": "收起来，挡着视线。", "en": "Put it away; it blocks the sight."},
+        {"zh": "那点热量，我连预热都不够。", "en": "That heat won't even preheat me."},
+        {"zh": "拿弹药来才有意义。", "en": "Bring ammunition and we'll talk."},
+        {"zh": "你在跟炮口讲话。", "en": "You're talking to a muzzle."},
+        {"zh": "我没那个接口。", "en": "I have no port for that."},
+        {"zh": "别靠过来，危险。", "en": "Don't come closer. It's dangerous."},
+        {"zh": "这些我都不认。", "en": "I recognize none of that."},
+        {"zh": "你哄我，我就瞄得更准。", "en": "Coax me and I aim better."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞我的支架，它没动。", "en": "You hit my stabilizer; it holds."},
+        {"zh": "我重心很宽，推不动。", "en": "My base is wide. I won't be pushed."},
+        {"zh": "你被挤到一边。", "en": "You're crowded to one side."},
+        {"zh": "别贴着我的炮管。", "en": "Don't lean on my barrel."},
+        {"zh": "我的外壳厚重，撞起来闷。", "en": "My hull is thick; the knock is dull."},
+        {"zh": "你退开，我要转向。", "en": "Step back; I need to turn."},
+        {"zh": "这一下没能让我偏。", "en": "That didn't shift me."},
+        {"zh": "我把支架重新扎稳。", "en": "I reseat my stabilizers."},
+        {"zh": "你踩到我的炮架了。", "en": "You stepped on my mount."},
+        {"zh": "擦过我的肩，你会擦伤。", "en": "Brush my shoulder and you'll be scraped."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "另一台也在同一批里。", "en": "Another unit from the same batch."},
+        {"zh": "我们编号挨着。", "en": "Our serials are close."},
+        {"zh": "它的炮管比我的长。", "en": "Its barrel is longer than mine."},
+        {"zh": "我们互相校了准星。", "en": "We aligned each other's sights."},
+        {"zh": "我们分工：它近，我远。", "en": "We split duties: it close, me far."},
+        {"zh": "它敲了敲我的装填口。", "en": "It taps my breech."},
+        {"zh": "我们一起架好了位。", "en": "We set up our positions together."},
+        {"zh": "它先开火，我补第二发。", "en": "It fires first; I add the second."},
+        {"zh": "打完了，我们各自撤。", "en": "Done, we each withdraw."},
+        {"zh": "下次校炮，不知何时。", "en": "Who knows when we'll align barrels again."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我弯腰，支架先抬起来。", "en": "I bend; my stabilizer lifts first."},
+        {"zh": "我用炮管把它拨过来。", "en": "I nudge it over with my barrel."},
+        {"zh": "这枚珍珠太轻了。", "en": "This pearl is too light."},
+        {"zh": "我把它放进弹药箱。", "en": "I drop it into the ammo bin."},
+        {"zh": "掉落的东西，我挑重的。", "en": "From the drops I take the heavy ones."},
+        {"zh": "我夹起来，声音很脆。", "en": "I pinch it up with a crisp click."},
+        {"zh": "这东西能当配重。", "en": "This can serve as ballast."},
+        {"zh": "我脚下有个弹壳，我踢开。", "en": "A spent casing underfoot; I kick it away."},
+        {"zh": "收好，别碍着射界。", "en": "Stow it. It's in my firing line."},
+        {"zh": "捡完，我回到位置。", "en": "Done, I return to position."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抬炮口，就是信号。", "en": "My muzzle rising is the signal."},
+        {"zh": "距离正好，我不用挪。", "en": "Range is right. No need to move."},
+        {"zh": "你的位置，我标成红点。", "en": "You're a red dot on my display."},
+        {"zh": "你别动，动了更难。", "en": "Hold still; moving makes it worse."},
+        {"zh": "我这一台负责远距离。", "en": "This unit handles the long range."},
+        {"zh": "支架扎稳了，我开火。", "en": "Stabilizers set. Firing."},
+        {"zh": "你举盾挡得住一发吗？", "en": "Can your shield take one?"},
+        {"zh": "冷却完了，正好。", "en": "Cooling finished. Perfect timing."},
+        {"zh": "你刚好站在开阔地。", "en": "You're standing in the open."},
+        {"zh": "我把风偏校掉了。", "en": "I've corrected for the wind."},
+        {"zh": "你脚下那块土，会先炸。", "en": "The dirt under you goes first."},
+        {"zh": "我从高一点的地方打。", "en": "I fire from slightly higher ground."},
+        {"zh": "这一发，我留了余量。", "en": "I left margin on this shot."},
+        {"zh": "你别往前，我会误判。", "en": "Don't advance; I'll miscalculate."},
+        {"zh": "锁定完成，我开始装填。", "en": "Lock complete. Loading."},
+        {"zh": "你这身甲，挡不住重弹。", "en": "That armor won't stop a heavy shell."},
+        {"zh": "我距离正好，不用挪步。", "en": "I'm at the right range — no need to move."},
+        {"zh": "炮膛已经热了。", "en": "The breech is hot."},
+        {"zh": "最后提醒一次，走开。", "en": "Last warning. Walk away."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你移到石头后面，石头不够厚。", "en": "You're behind a rock. It's not thick enough."},
+        {"zh": "我压着炮口，慢慢跟。", "en": "I keep the muzzle on you, tracking slowly."},
+        {"zh": "你在跑，我的提前量也在变。", "en": "You run; my lead changes with you."},
+        {"zh": "我不用跑，我射得远。", "en": "I needn't run; I shoot far."},
+        {"zh": "我的支架已经扎稳。", "en": "My stabilizers are set."},
+        {"zh": "你换方向，我的准星也换。", "en": "You change direction; the reticle follows."},
+        {"zh": "你在高处，视线正好。", "en": "You're high up. Clear line of sight."},
+        {"zh": "我数着你的距离。", "en": "I'm counting down your range."},
+        {"zh": "你踩过的地面我都记着。", "en": "I've noted every patch you crossed."},
+        {"zh": "我等冷却，不着急。", "en": "I wait for the cooldown. No hurry."},
+        {"zh": "你一停，我就定住。", "en": "The moment you stop, I lock."},
+        {"zh": "我的影子把地面分成了两半。", "en": "My shadow halves the ground."},
+        {"zh": "你再躲，也只是换个角度。", "en": "Dodging only changes the angle."},
+        {"zh": "我压低了炮口。", "en": "I've lowered my muzzle."},
+        {"zh": "你退到墙边，墙会替你挡一下。", "en": "At the wall, the wall blocks one shot."},
+        {"zh": "我把射界扫了一遍。", "en": "I've swept my firing arc."},
+        {"zh": "你的脚步声，我算进去了。", "en": "Your footfalls are in my calculation."},
+        {"zh": "我还在装填，你快点。", "en": "I'm still loading. Hurry."},
+        {"zh": "再近，我就不用瞄了。", "en": "Closer and I needn't aim."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炮口一亮，地面开了洞。", "en": "The muzzle flashes; a hole opens in the ground."},
+        {"zh": "这一发直接砸在你的盾上。", "en": "This one lands square on your shield."},
+        {"zh": "爆炸把碎石推到你身上。", "en": "The blast throws gravel into you."},
+        {"zh": "我拿炮管横扫。", "en": "I sweep with the barrel."},
+        {"zh": "近距离我也能打。", "en": "I can still fight at close range."},
+        {"zh": "你被震得耳朵发响。", "en": "The blast rings in your ears."},
+        {"zh": "这一发偏了半格，我不满意。", "en": "That one drifted half a mark. Unsatisfying."},
+        {"zh": "第二发已经在膛里。", "en": "The second shell is already chambered."},
+        {"zh": "我用支架顶你。", "en": "I shove with my stabilizer."},
+        {"zh": "爆炸的气浪把我自己也推了一下。", "en": "The blast pushes me back too."},
+        {"zh": "你的护甲凹得很厉害。", "en": "Your armor dents badly."},
+        {"zh": "这一下，够你换条路。", "en": "That should send you another way."},
+        {"zh": "我抬脚踩你的落点。", "en": "I bring a foot down where you'll land."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被架起来，炮口朝外。", "en": "I'm set up with the muzzle facing out."},
+        {"zh": "有人给我装上了弹。", "en": "Someone loaded me."},
+        {"zh": "我的测距仪亮了一圈。", "en": "My rangefinder sweeps once."},
+        {"zh": "支架落地，扎进土里。", "en": "The stabilizers drop and bite the soil."},
+        {"zh": "这是零七号机体，已就位。", "en": "Unit zero seven, in position."},
+        {"zh": "我先校准了一下风向。", "en": "First I corrected for wind."},
+        {"zh": "这地方视野很开阔。", "en": "Wide field of view here."},
+        {"zh": "我的冷却管开始运作了。", "en": "My coolant lines start running."},
+        {"zh": "我扫了一圈，标了几个点。", "en": "I scan once and mark a few points."},
+        {"zh": "炮口抬起来，正对远处。", "en": "The muzzle rises, aimed far off."},
+        {"zh": "我没打算走近。", "en": "I don't intend to come close."},
+        {"zh": "地面被我的重量压出四个坑。", "en": "My weight leaves four pits."},
+        {"zh": "有人把这个型号也叫 Boss。", "en": "Some call this model a boss too."},
+        {"zh": "我的弹药箱是满的。", "en": "My ammo bin is full."},
+        {"zh": "这个世界的天空，太干净。", "en": "This world's sky is too clean."},
+        {"zh": "我落地，尘埃一圈散开。", "en": "I land and the dust spreads in a ring."},
+        {"zh": "先把支架调平。", "en": "First level the stabilizers."},
+        {"zh": "我的射界里暂时没人。", "en": "My arc is clear for now."},
+        {"zh": "炮管的铁味，我很熟。", "en": "The smell of the barrel is familiar."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烤着炮管，我担心里面的药。", "en": "Fire heats the barrel; I worry about the charge."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "落地那下，支架全弯了。", "en": "On landing, the stabilizers all bend."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进炮膛，我彻底哑了。", "en": "Water in the barrel and I'm silenced."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把我的弹药箱震得直响。", "en": "The blast rattles my ammo bin."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弹丸打在我瞄准镜上，裂了。", "en": "A round cracks my scope."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "光进到电路里，测距全乱。", "en": "Light gets into the circuits; ranging goes wild."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没弹了，我只能站着。", "en": "Out of shells; I can only stand."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在我的炮管上，麻了半边。", "en": "Lightning hits my barrel; half of me goes numb."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉下去，炮口朝上。", "en": "I fall with the muzzle pointing up."}
+      ]
+    }
+  }
+}

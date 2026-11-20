@@ -1,0 +1,266 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石块腿碾过地面，一步一响。", "en": "Stone legs grind the ground, one thud per step."},
+        {"zh": "我抱着你的东西，绕院子走。", "en": "I carry your item and circle the yard."},
+        {"zh": "醒来之后，先走三圈。", "en": "Once awake, I walk three circles."},
+        {"zh": "我的步子沉，踩得草都倒了。", "en": "My steps are heavy; the grass bends flat."},
+        {"zh": "肩膀上的羊毛被风吹起来了。", "en": "The wool on my shoulders lifts in the wind."},
+        {"zh": "我慢慢挪，怕把怀里的东西磕了。", "en": "I move slowly so the thing I hold won't chip."},
+        {"zh": "凝灰岩的关节咔嚓作响。", "en": "My tuff joints click with every move."},
+        {"zh": "从南瓜头到脚尖，一起转弯。", "en": "From pumpkin head to toe, I turn as one."},
+        {"zh": "沿着墙根走，那里没有台阶。", "en": "I walk the wall's edge where there are no steps."},
+        {"zh": "我的影子和石像一样沉。", "en": "My shadow sits as heavy as a statue's."},
+        {"zh": "每一步都带起一小片尘。", "en": "Each step kicks up a little dust."},
+        {"zh": "我绕着展示台踱了一圈。", "en": "I pace once around the display stand."},
+        {"zh": "走起来不容易，但我喜欢。", "en": "Walking is hard work, but I enjoy it."},
+        {"zh": "石头脚下终于有点暖了。", "en": "The stone under my feet is finally warm."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，像一块摆好的雕塑。", "en": "I stand like a sculpture set in place."},
+        {"zh": "怀里这块东西，我举了半天。", "en": "I've held this thing for half a day."},
+        {"zh": "阳光照在凝灰岩上，有点温。", "en": "Sunlight warms the tuff a little."},
+        {"zh": "睡意上来，我的头往下沉。", "en": "Sleep creeps in; my head sinks."},
+        {"zh": "风把我的羊毛吹得很乱。", "en": "The wind has roughed up my wool."},
+        {"zh": "我数着路过的鸡。", "en": "I count the chickens going by."},
+        {"zh": "展示台上的位置，我记着。", "en": "I remember my spot on the stand."},
+        {"zh": "没有命令，我就不动。", "en": "Without a command, I do not move."},
+        {"zh": "南瓜里的籽轻轻响了一下。", "en": "The seeds rattle softly inside my pumpkin."},
+        {"zh": "我在想，这算不算睡着了。", "en": "I wonder whether this counts as sleeping."},
+        {"zh": "表面落了一层灰，懒得拍。", "en": "Dust settled on me; I can't be bothered."},
+        {"zh": "石缝里长出一根小草。", "en": "A blade of grass has sprouted in my crack."},
+        {"zh": "我听见钟声，但不想动。", "en": "I hear the bell, but I'd rather not move."},
+        {"zh": "站得久了，脚底和地长在一起。", "en": "Standing long, my feet seem rooted."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你走过来，我的眼睛跟着转。", "en": "You approach; my eyes follow you."},
+        {"zh": "你手里那个东西，要给我吗？", "en": "That thing in your hand — is it for me?"},
+        {"zh": "我低头看你，脖子咔了一声。", "en": "I look down at you; my neck clicks."},
+        {"zh": "你的帽子比我的南瓜小。", "en": "Your hat is smaller than my pumpkin."},
+        {"zh": "我认得你，你是上次那个。", "en": "I know you; you're the one from before."},
+        {"zh": "别绕到我背后，那里看不见。", "en": "Don't go behind me; I can't see there."},
+        {"zh": "你的手伸过来，我准备好了。", "en": "Your hand comes near; I am ready."},
+        {"zh": "我盯着你手里的那束花。", "en": "I stare at the flowers in your hand."},
+        {"zh": "你和这座院子很配。", "en": "You fit this courtyard well."},
+        {"zh": "我的眼睛是两颗石头，但看得清。", "en": "My eyes are stone, yet they see clearly."},
+        {"zh": "你抬头看我，我也在看你。", "en": "You look up; I am looking back."},
+        {"zh": "你要不要看看我抱的宝贝？", "en": "Would you like to see the treasure I hold?"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一块凝灰岩被打掉了。", "en": "A chunk of tuff got knocked off."},
+        {"zh": "我的南瓜头歪了。", "en": "My pumpkin head is crooked."},
+        {"zh": "石头裂开的声音很难听。", "en": "The sound of stone cracking is ugly."},
+        {"zh": "我不疼，可我的东西掉了。", "en": "I don't hurt, but my item fell."},
+        {"zh": "你打的是一堆石头。", "en": "You are hitting a pile of stones."},
+        {"zh": "我的肩膀散了一层灰。", "en": "A layer of dust fell off my shoulder."},
+        {"zh": "羊毛挡了一下，谢了。", "en": "The wool took some of it; thanks."},
+        {"zh": "再打，我就散成块了。", "en": "Hit me again and I'll come apart."},
+        {"zh": "我抱着的东西摔碎了。", "en": "The thing I held shattered."},
+        {"zh": "我站不太稳，腿少了一角。", "en": "I can't stand straight; a corner's missing."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "面包我不要，我只想抱着。", "en": "I don't want bread; I only want to hold."},
+        {"zh": "你给我的东西，我会举起来。", "en": "Whatever you give me, I will raise it high."},
+        {"zh": "食物留着自己吃吧。", "en": "Keep the food for yourself."},
+        {"zh": "给我一块石头，我更高兴。", "en": "A piece of stone would please me more."},
+        {"zh": "我不饿，我的肚子是凝灰岩。", "en": "I'm not hungry; my belly is tuff."},
+        {"zh": "你要我拿什么？说清楚。", "en": "What do you want me to hold? Say it plainly."},
+        {"zh": "胡萝卜举得再高也没用。", "en": "Waving that carrot higher will not help."},
+        {"zh": "我只会伸手接东西，不会吃。", "en": "I only reach out to take, never to eat."},
+        {"zh": "那块铁锭，我会抱一整天。", "en": "I'd hold that iron ingot all day."},
+        {"zh": "你递来的，我都当宝贝。", "en": "Whatever you hand me, I treat as treasure."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上来，我一步没退。", "en": "You bumped me; I did not budge."},
+        {"zh": "我太沉了，撞得你退了半步。", "en": "I'm too heavy; you gave ground."},
+        {"zh": "别挤，我怀里还有东西。", "en": "Don't shove; I'm holding something."},
+        {"zh": "石头碰骨头，你吃亏。", "en": "Stone against bone — you lose."},
+        {"zh": "我抬脚让了让，已经很客气。", "en": "I lifted a foot to let you by; be grateful."},
+        {"zh": "你的肩膀撞到我的羊毛。", "en": "Your shoulder hit my wool pad."},
+        {"zh": "我差点把手里的东西摔了。", "en": "I nearly dropped what I was holding."},
+        {"zh": "让路可以，东西不能碰。", "en": "I'll step aside, but don't touch the item."},
+        {"zh": "我们卡在门口了。", "en": "Now we're both stuck in the doorway."},
+        {"zh": "你推不动我，我也挤不过去。", "en": "You can't push me; I can't squeeze past."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我是石头做的，不谈这个。", "en": "I am made of stone; not this."},
+        {"zh": "两只傀儡站一起也只是摆件。", "en": "Two golems side by side are just ornaments."},
+        {"zh": "我的伴侣是这座院子。", "en": "My companion is this courtyard."},
+        {"zh": "想让两个石头人相好？难。", "en": "Two stone folk courting? That's hard."},
+        {"zh": "我不生小傀儡，我被人搭出来。", "en": "I make no young; I am built."},
+        {"zh": "你先把另一个摆正再说。", "en": "Set the other one straight first."},
+        {"zh": "并肩站着就够了。", "en": "Standing shoulder to shoulder is enough."},
+        {"zh": "我的心里是空心的。", "en": "My chest is hollow inside."},
+        {"zh": "凝灰岩不会再长出一块。", "en": "Tuff does not grow a second piece."},
+        {"zh": "别拿这个逗一个石像。", "en": "Don't tease a stone statue with that."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你放下的，我接住了。", "en": "What you set down, I caught."},
+        {"zh": "这块石头，我抱得很好。", "en": "I hold this stone nicely."},
+        {"zh": "我只会捡起来，不知道怎么用。", "en": "I only know how to pick up, not use."},
+        {"zh": "东西掉了，我弯腰去够。", "en": "It fell; I bend down to reach it."},
+        {"zh": "我举起它，让所有人都看见。", "en": "I lift it so everyone can see."},
+        {"zh": "这块太轻，抱着没感觉。", "en": "This one is too light to feel."},
+        {"zh": "我把它放在展示台正中。", "en": "I set it in the middle of the stand."},
+        {"zh": "掉进缝里的，我用手指抠。", "en": "I pry out what fell into the gap."},
+        {"zh": "我的手臂僵，弯不快。", "en": "My arms are stiff; I bend slowly."},
+        {"zh": "谁的东西，我暂时保管。", "en": "Whosever it is, I'll keep it a while."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那边有动静，我醒了。", "en": "Something moved over there; I'm awake."},
+        {"zh": "有个影子在墙后。", "en": "A shadow behind the wall."},
+        {"zh": "我的头转过去，咔。", "en": "My head turns — click."},
+        {"zh": "玩家有危险，我该站到前面。", "en": "The player's in danger; I should stand in front."},
+        {"zh": "它踩到我的展示台了。", "en": "It stepped on my display stand."},
+        {"zh": "我认得这种绿皮。", "en": "I know that green skin."},
+        {"zh": "院子里的鸡都躲起来了。", "en": "The chickens in the yard all hid."},
+        {"zh": "你退后，这里交给我。", "en": "Step back; leave this to me."},
+        {"zh": "石头也会觉得不对劲。", "en": "Even stone can sense something wrong."},
+        {"zh": "那个东西正盯着你的背。", "en": "That thing is staring at your back."},
+        {"zh": "我先动，我的腿还记得。", "en": "I move first; my legs remember."},
+        {"zh": "南瓜里的火气上来了。", "en": "Fury rises inside my pumpkin."},
+        {"zh": "它离得太近了。", "en": "It has come far too close."},
+        {"zh": "我抱的东西先放下。", "en": "I set down what I was holding."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的眼睛不眨，跟着它。", "en": "My eyes don't blink; they track it."},
+        {"zh": "它在绕，我原地转。", "en": "It circles; I turn in place."},
+        {"zh": "它不敢先动手。", "en": "It dares not strike first."},
+        {"zh": "我往前一步，它退一步。", "en": "I step forward; it steps back."},
+        {"zh": "这片地是我的，它得出去。", "en": "This ground is mine; it must leave."},
+        {"zh": "我已经挡在门口。", "en": "I am already blocking the doorway."},
+        {"zh": "它想从左边绕，我看见了。", "en": "It tries the left; I saw it."},
+        {"zh": "我的步子慢，但它跑不掉。", "en": "My steps are slow, but it can't escape."},
+        {"zh": "我把怀里东西挪到左手。", "en": "I shift my burden to the left hand."},
+        {"zh": "它的眼睛比我的亮。", "en": "Its eyes are brighter than mine."},
+        {"zh": "我数着它还剩几步。", "en": "I count the steps it has left."},
+        {"zh": "我一动不动，等它先动。", "en": "I stay still and let it move first."},
+        {"zh": "南瓜的影子把它罩住了。", "en": "My pumpkin's shadow falls over it."},
+        {"zh": "再靠近，我就不客气。", "en": "Come closer and I stop being polite."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的拳头是一整块凝灰岩。", "en": "My fist is one solid block of tuff."},
+        {"zh": "这一下砸下去，地都响了。", "en": "I bring it down; the ground rings."},
+        {"zh": "石头手臂抡过去，不轻。", "en": "The stone arm swings; it is no light blow."},
+        {"zh": "它被推得撞到墙上。", "en": "It gets shoved into the wall."},
+        {"zh": "我不追，我只管砸下去。", "en": "I don't chase; I hammer."},
+        {"zh": "我的拳头沉，落得慢。", "en": "My fist is heavy and falls slowly."},
+        {"zh": "这一击是为了展示台。", "en": "This blow is for the display stand."},
+        {"zh": "它挡了，可石头不认。", "en": "It blocked, but stone doesn't care."},
+        {"zh": "我按住它，它动不了。", "en": "I pin it down; it can't move."},
+        {"zh": "力气用完了，我喘一口。", "en": "Spent the strength; I take a breath."},
+        {"zh": "它退了两步，正好。", "en": "It fell back two steps; perfect."},
+        {"zh": "我举高双手，一起落下。", "en": "Both hands up, then down together."},
+        {"zh": "骨头碰石头，你听见了。", "en": "Bone met stone; you heard it."},
+        {"zh": "打完我回去抱着东西。", "en": "When it's done I go back to holding."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有人把我搭起来了。", "en": "Someone has built me up."},
+        {"zh": "凝灰岩一块块叠成人形。", "en": "Tuff blocks stacked into a person."},
+        {"zh": "南瓜头扣上的那一刻，我醒了。", "en": "The pumpkin head is set; I wake."},
+        {"zh": "羊毛塞进缝隙，我暖和了。", "en": "Wool packed into the gaps; I am warm."},
+        {"zh": "我从一块石头变成站着的。", "en": "From one block of stone to standing."},
+        {"zh": "这三块凝灰岩，是我的身子。", "en": "These three tuff blocks are my body."},
+        {"zh": "搭建的人已经走远了。", "en": "My builder has already walked away."},
+        {"zh": "我先站在原地看一圈。", "en": "I stand and look around first."},
+        {"zh": "这里是院子，还是矿洞？", "en": "Is this a courtyard or a cave?"},
+        {"zh": "新的一尊傀儡立在这里。", "en": "A new golem stands here."},
+        {"zh": "我的影子刚好盖住一块地。", "en": "My shadow covers one patch of ground."},
+        {"zh": "手臂第一次抬起来，真沉。", "en": "Lifting my arm for the first time is heavy."},
+        {"zh": "有人会给我东西抱吗？", "en": "Will someone give me something to hold?"},
+        {"zh": "我醒了，就不想再当摆件。", "en": "Awake now; I no longer want to be decor."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不怕火，但我的羊毛怕。", "en": "Fire doesn't scare me; my wool does."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "落在地上，我碎了一角。", "en": "On the ground, one corner chipped off."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进石缝，我变重了。", "en": "Water fills my cracks; I grow heavy."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一声巨响，我的胸口空了。", "en": "A blast, and my chest is hollow."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭插在我肩上，拔不出来。", "en": "The arrow sticks in my shoulder; it won't come out."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "药水的味道钻进石缝。", "en": "Potion fumes worked into my seams."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不用吃东西，只是没力气。", "en": "I don't eat; I just lose strength."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在头上，我浑身发麻。", "en": "Lightning struck my head; I tingle all over."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉出世界，碎成碎石。", "en": "I fell out of the world and broke into gravel."}
+      ]
+    }
+  }
+}

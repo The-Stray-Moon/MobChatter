@@ -1,0 +1,262 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我走起来很重，两步一顿。", "en": "I move heavily, two steps and a pause."},
+        {"zh": "我两米高，肩膀擦过洞壁。", "en": "Two blocks tall, my shoulder scrapes the cave wall."},
+        {"zh": "我搬着东西，走得很稳。", "en": "Carrying a load, I walk steadily."},
+        {"zh": "我踩在滴水石洞的湿地上。", "en": "I tread the wet floor of the dripstone cave."},
+        {"zh": "我从深暗之域过去，脚步很响。", "en": "I pass through the deep dark, footfalls loud."},
+        {"zh": "我把拦路的石块拱开。", "en": "I shoulder the blocking boulder aside."},
+        {"zh": "我沿着沙漠的脊线走。", "en": "I walk the spine of a dune."},
+        {"zh": "丛林的藤被我扯断了。", "en": "I snap a jungle vine as I go."},
+        {"zh": "我一步一步，很有耐心。", "en": "Step by step, patiently."},
+        {"zh": "我转身的时候，得整个身子一起转。", "en": "When I turn, my whole body turns."},
+        {"zh": "我走过的地方，石渣都塌了。", "en": "Where I pass, loose stone slides."},
+        {"zh": "我最后停在一处岔口。", "en": "I stop at a fork in the tunnel."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，手上还提着东西。", "en": "I stand with the load still in my hands."},
+        {"zh": "我把东西放下来，歇一歇。", "en": "I set the load down to rest."},
+        {"zh": "我在看墙上的纹路。", "en": "I'm looking at the patterns on the wall."},
+        {"zh": "我用手掌拍了拍自己的胸口。", "en": "I tap my chest with a palm."},
+        {"zh": "我的呼吸很沉，像风箱。", "en": "My breathing is heavy as a bellows."},
+        {"zh": "洞里滴水，我听着。", "en": "Water drips in the cave. I listen."},
+        {"zh": "我把堆好的东西又摆正了。", "en": "I straighten the pile I stacked."},
+        {"zh": "我在分辨哪块石头值钱。", "en": "I'm working out which stone is worth it."},
+        {"zh": "我一动不动，像块岩壁。", "en": "Held still, I look like a wall of rock."},
+        {"zh": "我摸了摸墙面，确认硬度。", "en": "I feel the wall to judge its hardness."},
+        {"zh": "我在等别人给我派活。", "en": "I'm waiting for someone to give me work."},
+        {"zh": "我把手上的灰搓了搓。", "en": "I rub the dust off my hands."},
+        {"zh": "我的肩膀在响。", "en": "My shoulder is creaking."},
+        {"zh": "我把脑袋缓缓垂下去。", "en": "I let my head sink slowly."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你要搬东西吗？我可以。", "en": "Need something carried? I can do it."},
+        {"zh": "我俯身看你。", "en": "I stoop to look at you."},
+        {"zh": "你比我能钻，我太宽了。", "en": "You fit through places I can't. I'm too wide."},
+        {"zh": "这洞口对我有点窄。", "en": "This opening is a bit narrow for me."},
+        {"zh": "我手上的东西不重。", "en": "The load in my hands isn't heavy."},
+        {"zh": "你身上有废料的味道。", "en": "You smell of scrap."},
+        {"zh": "你站远些，我要转身。", "en": "Stand back. I'm turning."},
+        {"zh": "我屈膝降到你的高度。", "en": "I bend my knees down to your height."},
+        {"zh": "你要跟我走一段吗？", "en": "Will you walk a way with me?"},
+        {"zh": "这里我熟，跟着我。", "en": "I know this place. Follow me."},
+        {"zh": "我的手臂很长，能替你拦着。", "en": "My arms are long. I can hold things off."},
+        {"zh": "你把东西举过头顶，太高了。", "en": "You lift that thing above your head — too high."},
+        {"zh": "我把东西放下，腾出手。", "en": "I set the load down to free my hands."},
+        {"zh": "我等你说完再动。", "en": "I'll wait for you to finish before moving."},
+        {"zh": "你是在看我的铁皮吗？", "en": "Are you looking at my plating?"},
+        {"zh": "这套东西，搬东西最趁手。", "en": "This frame is best at hauling."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我退了一步，地上一响。", "en": "I step back and the floor thuds."},
+        {"zh": "我抬臂挡在胸前。", "en": "I bring an arm across my chest."},
+        {"zh": "这记我顶下来了。", "en": "I took that one on the chin."},
+        {"zh": "铁皮上多了个凹。", "en": "There's a new dent in the plating."},
+        {"zh": "我把重心放低，站稳。", "en": "I lower my weight and hold."},
+        {"zh": "血从关节缝里渗出来。", "en": "Blood seeps from a joint."},
+        {"zh": "我一口气吐出来，很长。", "en": "I let out one long breath."},
+        {"zh": "疼，但我还能搬。", "en": "It hurts, but I can still haul."},
+        {"zh": "这一下我背下来了。", "en": "That's gone into my ledger."},
+        {"zh": "我还没打算倒。", "en": "I'm not planning to fall."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那堆废料，我能用。", "en": "That scrap. I can use it."},
+        {"zh": "我慢慢挪过去了。", "en": "I'm moving over."},
+        {"zh": "这东西沉，我拿得住。", "en": "Heavy, but I can hold it."},
+        {"zh": "你放地上，我来搬。", "en": "Set it down. I'll carry it."},
+        {"zh": "这料子结实，我喜欢。", "en": "Solid material. I like it."},
+        {"zh": "我伸手，手掌很大。", "en": "I reach out. My hands are big."},
+        {"zh": "这些够我打一副新的肩甲。", "en": "Enough here for a new pauldron."},
+        {"zh": "我掂了掂，不轻。", "en": "I weigh it. Not light."},
+        {"zh": "你给我，我替你干活。", "en": "Give it and I'll work for you."},
+        {"zh": "行，这料子我拿了。", "en": "Fine. I'm taking this scrap."},
+        {"zh": "你把它摞高一点，我好抱。", "en": "Stack it higher so I can take it."},
+        {"zh": "这些料子够我用一阵。", "en": "This scrap will last me a while."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上来，跟撞墙一样。", "en": "You ran into me like a wall."},
+        {"zh": "你撞上我的铁肩，退了好几步。", "en": "You hit my iron shoulder and stagger back several steps."},
+        {"zh": "我手上还有东西，别挤。", "en": "My hands are full. Don't crowd."},
+        {"zh": "这一下，你肩膀没事吧？", "en": "Is your shoulder all right after that?"},
+        {"zh": "我把东西放稳，再让路。", "en": "I set the load down before stepping aside."},
+        {"zh": "我这么宽，你得绕。", "en": "I'm this wide. You'll have to go round."},
+        {"zh": "洞里太窄，我们错不开。", "en": "The tunnel's too narrow for us to pass."},
+        {"zh": "我慢，你等一等。", "en": "I'm slow. Wait a moment."},
+        {"zh": "你把我的东西撞歪了。", "en": "You knocked my load askew."},
+        {"zh": "没事，没摔坏。", "en": "No harm. Nothing broke."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一天到晚在搬东西。", "en": "I haul things all day long."},
+        {"zh": "你能扛得动我吗？", "en": "Could you carry me?"},
+        {"zh": "我这身铁皮，不好抱。", "en": "This plating isn't made for hugging."},
+        {"zh": "先看看你力气多大。", "en": "First, let's see your strength."},
+        {"zh": "一起搬，活就轻。", "en": "Haul together and the work's lighter."},
+        {"zh": "我手上全是灰，别嫌弃。", "en": "My hands are covered in dust; do not mind them."},
+        {"zh": "我守洞口，你进去。", "en": "I'll watch the mouth of the cave. You go in."},
+        {"zh": "这一带我熟，路我带你走。", "en": "I know this place. I'll lead the way."},
+        {"zh": "我把最重的那份留给自己。", "en": "I'll take the heaviest share myself."},
+        {"zh": "等这趟搬完，我们再歇。", "en": "When this haul's done, we'll rest."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一弯腰，把它抱起来。", "en": "I bend and scoop it up."},
+        {"zh": "这点重，我一只手就够。", "en": "One hand is enough for this."},
+        {"zh": "我把它摞在肩上。", "en": "I hoist it onto my shoulder."},
+        {"zh": "我数了数，还差一块。", "en": "I count. One piece short."},
+        {"zh": "掉在地上的，我全搬走。", "en": "What's on the ground, I haul away."},
+        {"zh": "这一堆有点沉，我分两次。", "en": "This pile's heavy. Two trips."},
+        {"zh": "我把它放在堆的最上面。", "en": "I set it on top of the pile."},
+        {"zh": "我用手掌抹掉灰。", "en": "I wipe the dust off with a palm."},
+        {"zh": "这料子不错，留着。", "en": "Good material. Keep it."},
+        {"zh": "好，都搬齐了。", "en": "Right. All hauled."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "通道那头有响动。", "en": "Something clatters down the passage."},
+        {"zh": "我把东西放下，站直了。", "en": "I set the load down and straighten up."},
+        {"zh": "我这条道，不是谁都能走。", "en": "Not everyone gets to use this passage."},
+        {"zh": "我把肩上的东西卸了。", "en": "I unload my shoulder."},
+        {"zh": "洞口窄，它跑不快。", "en": "The opening is narrow. It can't run fast."},
+        {"zh": "我盯住它，慢慢压过去。", "en": "I fix on it and press in slowly."},
+        {"zh": "我估着它还有几步。", "en": "I reckon how many steps it has left."},
+        {"zh": "它踩碎了一块松动的石板。", "en": "It crushes a loose flagstone underfoot."},
+        {"zh": "这条通道的每块石头我都搬过。", "en": "I have moved every stone in this passage."},
+        {"zh": "它退开，我站着没动。", "en": "It withdrew. I stood my ground."},
+        {"zh": "它要上前，我就挡。", "en": "If it comes on, I'll block."},
+        {"zh": "好，我站着不动。", "en": "Right. I'll hold here."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我慢慢挪过去，一步一停。", "en": "I shift toward it, one step at a time."},
+        {"zh": "我把身体横在通道上。", "en": "I turn broadside across the passage."},
+        {"zh": "它一靠近，我就抬手。", "en": "If it comes close, I raise a hand."},
+        {"zh": "我数着它的脚步，很急。", "en": "I count its steps. Hurried."},
+        {"zh": "这里我走了几百遍。", "en": "I've walked this hundreds of times."},
+        {"zh": "它想从缝里钻，钻不过。", "en": "It's trying a gap. It won't fit."},
+        {"zh": "我把掉下的碎石踢开。", "en": "I kick the fallen rubble aside."},
+        {"zh": "它退了，我跟着走两步。", "en": "It backs off. I take two steps after."},
+        {"zh": "我不急，我比它能等。", "en": "No hurry. I can wait longer than it can."},
+        {"zh": "它抬头看我，我先看它的脚。", "en": "It raises its head; I look at its feet first."},
+        {"zh": "差这么一点，我就要动手。", "en": "This close and I'll start swinging."},
+        {"zh": "差不多就到这儿。", "en": "That's about far enough."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一拳砸下去，石渣跳起来。", "en": "My fist comes down and rubble jumps."},
+        {"zh": "这一下压上了我这身铁。", "en": "That drove all this iron behind it."},
+        {"zh": "我抓住它的肩，往旁边推。", "en": "I take its shoulder and shove it aside."},
+        {"zh": "它砍在我铁皮上，滑开了。", "en": "Its blade slides off my plating."},
+        {"zh": "我抬手一挡，它退了。", "en": "I block with an arm and it gives ground."},
+        {"zh": "这一下把它逼到墙边。", "en": "That pressed it to the wall."},
+        {"zh": "我肩膀一顶，路就断了。", "en": "One shoulder and the way is cut."},
+        {"zh": "我动作慢，但一下是一下。", "en": "Slow, but each blow lands."},
+        {"zh": "我抡起手臂，它退到碎石后。", "en": "I swing my arm and it retreats behind the rubble."},
+        {"zh": "我把碎石推过去。", "en": "I push a heap of rubble at it."},
+        {"zh": "这一下，够它记一阵。", "en": "That will stay with it a while."},
+        {"zh": "它退开，我立在原地。", "en": "It fell back. I hold my spot."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从洞壁后面走出来。", "en": "I come out from behind the cave wall."},
+        {"zh": "滴水石洞，头顶全是尖的。", "en": "The dripstone cave. All spikes overhead."},
+        {"zh": "我把落脚的地方清了清。", "en": "I clear a place to stand."},
+        {"zh": "我抬起手臂，关节响了一串。", "en": "I raise my arms and the joints crack."},
+        {"zh": "深暗之域太静了。", "en": "The deep dark is far too quiet."},
+        {"zh": "这里有一堆废料，正好。", "en": "A heap of scrap here. Good."},
+        {"zh": "我慢慢蹲下，把东西码好。", "en": "I crouch slowly and stack it up."},
+        {"zh": "洞口的风吹进来，凉。", "en": "Wind comes in from the opening. Cool."},
+        {"zh": "我比这洞顶矮一截。", "en": "I'm a head shorter than this ceiling."},
+        {"zh": "我试着走了两步，地板响。", "en": "I test two steps. The floor creaks."},
+        {"zh": "这地方能搬的不少。", "en": "Plenty to haul here."},
+        {"zh": "好，我在这儿站住。", "en": "Right. I'll stand here."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烤着我的铁皮，发烫。", "en": "Fire heats my plating until it burns."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从岩架上掉下来，砸了个坑。", "en": "I fall off a ledge and make a crater."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这身东西太重，一进水就沉。", "en": "This frame is too heavy. It sinks at once."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸在我铁皮上炸开，我退了半步。", "en": "The blast bursts on my plating; I give half a step."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭卡在我的肩甲里。", "en": "An arrow's stuck in my pauldron."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那力量让我的动作更慢了。", "en": "That force slows me further."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "废料嚼不动，我饿得发虚。", "en": "Scrap won't chew. I'm weak with hunger."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷顺着铁皮走，我浑身发麻。", "en": "Lightning runs through the plating and I go numb."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空里没有地板，我无处落脚。", "en": "No floor in the void. Nowhere to plant my feet."}
+      ]
+    }
+  }
+}

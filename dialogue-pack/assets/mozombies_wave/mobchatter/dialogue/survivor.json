@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我提着铁剑，沿着大路慢慢走。", "en": "I carry an iron sword and walk the road slowly."},
+        {"zh": "靴子磨破了，我用草绳绑了两圈。", "en": "My boots are worn; I tied them twice with grass rope."},
+        {"zh": "我绕过那片林子，里面昨晚有响动。", "en": "I skirt that wood; something moved there last night."},
+        {"zh": "一步一停，我得先看清前面。", "en": "A step, then a pause; I look ahead before moving."},
+        {"zh": "锁链甲在肩上响，声音太吵。", "en": "My chainmail rattles at the shoulder, far too loud."},
+        {"zh": "我背着面包走，面包不多了。", "en": "I walk with bread on my back, and there is little left."},
+        {"zh": "我走得不快，这样能听见僵尸。", "en": "I go slowly so I can hear the zombies coming."},
+        {"zh": "草地上的露水浸湿了我的裤脚。", "en": "Dew on the grass soaks through my trousers."},
+        {"zh": "我在雪里走，脚印一深一浅。", "en": "I walk through snow, one print deep and one shallow."},
+        {"zh": "我绕开村庄，那里夜里守不住。", "en": "I avoid the village; it cannot be held at night."},
+        {"zh": "我沿着河走，水能掩住气味。", "en": "I follow the river; water hides my scent."},
+        {"zh": "走了四十步，我就回头看一眼。", "en": "Every forty paces, I look back over my shoulder."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我靠着树坐下，剑放在膝盖上。", "en": "I sit against a tree, sword laid across my knees."},
+        {"zh": "我清点面包，还剩三块。", "en": "I count my bread; three pieces left."},
+        {"zh": "我在磨剑，石头一下一下擦过刃。", "en": "I hone the blade, and the stone scrapes along the edge."},
+        {"zh": "我抬头看太阳，想知道还剩多久。", "en": "I look at the sun to see how much daylight remains."},
+        {"zh": "我替自己包了一下手上的伤口。", "en": "I wrap the cut on my hand with a strip of cloth."},
+        {"zh": "风里有腐肉味，我握紧了剑。", "en": "Rotten flesh is on the wind; I tighten my grip."},
+        {"zh": "我坐着不出声，等天色暗下来。", "en": "I sit without a sound and wait for the light to fail."},
+        {"zh": "我把马鞍擦了擦，那马不会再回来。", "en": "I wipe the saddle; that horse is not coming back."},
+        {"zh": "我数着自己的呼吸，让手不抖。", "en": "I count my breaths to keep my hands steady."},
+        {"zh": "我在想，还能撑几个晚上。", "en": "I wonder how many more nights I can last."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你走近了，我先看你的手。", "en": "You come closer; I look at your hands first."},
+        {"zh": "你的剑没拔，那我就先不拔。", "en": "Your sword is sheathed, so mine stays where it is."},
+        {"zh": "你的眼睛不像僵尸，我就放心一半。", "en": "Your eyes are not a zombie's, so I relax a little."},
+        {"zh": "你身上没有腐肉味，这很好。", "en": "You do not smell of rotten flesh; that is good."},
+        {"zh": "我在看你是不是也一个人。", "en": "I am checking whether you are alone too."},
+        {"zh": "你手上那把剑，比我的是新的。", "en": "That sword of yours is newer than mine."},
+        {"zh": "你从哪个方向来，那边还安全吗。", "en": "Which way did you come from, and is it still safe?"},
+        {"zh": "别靠太近，我看不清你的时候会动手。", "en": "Not too close; I swing when I cannot see clearly."},
+        {"zh": "你也在找一个能过夜的地方吧。", "en": "You are looking for a night's shelter too, I think."},
+        {"zh": "我记住了你的脸，别在背后动刀。", "en": "I have your face in mind; do not knife me from behind."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你砍中我的肩，我咬住牙没出声。", "en": "You cut my shoulder; I bite down and stay silent."},
+        {"zh": "血顺着袖子流，我握剑更紧了。", "en": "Blood runs down my sleeve, and I grip tighter."},
+        {"zh": "这一下让我想起失去的人。", "en": "This wound brings back the ones I lost."},
+        {"zh": "我退了两步，重新举剑。", "en": "I give two steps and raise the sword again."},
+        {"zh": "这一下疼得实在，我还活着。", "en": "This one hurts properly, so I am still alive."},
+        {"zh": "你的刀口很浅，我的甲挡了一半。", "en": "Your cut is shallow; my armor took half of it."},
+        {"zh": "我按住伤口，指缝全是红的。", "en": "I press the wound and my fingers come away red."},
+        {"zh": "我吐了一口血，还能走。", "en": "I spit blood and can still walk."},
+        {"zh": "别以为我倒了，我跪着也能砍。", "en": "Do not think I am down; I can cut from my knees."},
+        {"zh": "我会记住这笔账，等你背对我。", "en": "I will remember this when your back is turned."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你递来面包，我先看你的另一只手。", "en": "You offer bread; I check your other hand first."},
+        {"zh": "我不白拿，我用一块铁换。", "en": "I do not take charity; I trade a piece of iron."},
+        {"zh": "食物我收下，但剑我不会放下。", "en": "I will take the food, but I keep my sword."},
+        {"zh": "你把面包掰开，我闻到了酵母。", "en": "You break the bread and I smell the yeast."},
+        {"zh": "饿太久的人，看见食物会先愣一下。", "en": "Starve long enough and food makes you freeze."},
+        {"zh": "我不吃别人手里的东西，除非他先咬一口。", "en": "I eat nothing from a hand unless it bites first."},
+        {"zh": "你拿食物引我，我不是野猪。", "en": "You lure me with food; I am not a boar."},
+        {"zh": "这块面包够我撑到明天早上。", "en": "This bread will keep me until tomorrow morning."},
+        {"zh": "我收下了，欠你一次。", "en": "I take it and owe you one."},
+        {"zh": "别用食物换我的命，那太便宜。", "en": "Do not trade food for my life; it is too cheap."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到我，我第一反应是抓剑柄。", "en": "You bump me and my first move is for the hilt."},
+        {"zh": "我们肩撞肩，都退了一步。", "en": "Shoulder against shoulder, we both step back."},
+        {"zh": "别贴这么近，我背后还有伤口。", "en": "Not so close; I have a wound on my back."},
+        {"zh": "我抬手挡了一下，是习惯。", "en": "I raise an arm to block; it is habit."},
+        {"zh": "你的护甲撞出响声，会引来东西。", "en": "Your armor clangs, and clanging draws company."},
+        {"zh": "站稳，别把火把撞掉了。", "en": "Stand steady; do not knock the torch loose."},
+        {"zh": "我们挤过同一道门，木头在响。", "en": "We squeeze through one doorway and the wood creaks."},
+        {"zh": "撞我就算了，别碰我的面包。", "en": "Bump me if you must, but leave my bread alone."},
+        {"zh": "我侧身让你过，这条路窄。", "en": "I turn sideways to let you pass; the path is narrow."},
+        {"zh": "碰一下不算挑衅，我懂。", "en": "A bump is not a challenge; I know that."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "上回有人陪我走了三天，后来没回来。", "en": "Someone walked with me three days, then did not return."},
+        {"zh": "半个世界是女人，可活下来的没几个。", "en": "Half the world is women, but few of them live."},
+        {"zh": "我把多余的面包分给过一个姑娘。", "en": "I once shared my spare bread with a girl."},
+        {"zh": "我们没成家，只一起守过一夜。", "en": "We built no home, only guarded one night together."},
+        {"zh": "我留着一枚戒指，不知道给谁。", "en": "I keep a ring and do not know who should have it."},
+        {"zh": "她死在僵尸嘴里，我砍了那几只。", "en": "She died in a zombie's jaws; I cut those ones down."},
+        {"zh": "有人一起走，夜会短一点。", "en": "With someone beside me, the night runs shorter."},
+        {"zh": "我不说喜欢，我只说别走远。", "en": "I do not say love; I say do not wander off."},
+        {"zh": "我给她留过一半火把，她拿走了。", "en": "I saved her half a torch and she took it."},
+        {"zh": "成双的人容易招来更多僵尸。", "en": "Pairs draw more zombies than lone walkers do."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地上有把断剑，我捡起来当铁料。", "en": "A broken sword lies there; I pick it up as iron."},
+        {"zh": "我捡起一块面包，吹掉上面的土。", "en": "I pick up a piece of bread and blow the dirt off."},
+        {"zh": "这副皮甲还合身，就是有点旧。", "en": "This leather armor fits, though it is worn."},
+        {"zh": "我捡起一根铁锭，掂了掂，值钱。", "en": "I pick up an iron ingot, weigh it, and it is worth keeping."},
+        {"zh": "我捡起那顶头盔，里面还有血。", "en": "I pick up the helmet; there is still blood inside."},
+        {"zh": "有人掉的金护甲，穿上太亮。", "en": "Someone dropped gold armor; it shines too much."},
+        {"zh": "我把药水塞进包里，留着救命。", "en": "I tuck the potion in my pack to save a life."},
+        {"zh": "这匹马的马鞍我拆了，马没回来。", "en": "I strip the saddle; the horse never came back."},
+        {"zh": "我捡起一把箭，箭羽还干净。", "en": "I pick up some arrows; the fletching is still clean."},
+        {"zh": "能拿的都拿，明天也许用得上。", "en": "I take what I can; tomorrow may need it."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那边有僵尸，我先数清楚几只。", "en": "Zombies over there; I count them before I move."},
+        {"zh": "你刚才打了我一下，这事没完。", "en": "You struck me once, and that is not finished."},
+        {"zh": "它咬过活人，我不能留它。", "en": "It has bitten the living; I cannot leave it."},
+        {"zh": "三只，从林子里出来了。", "en": "Three of them, coming out of the trees."},
+        {"zh": "我看到它抓着门，那就得先杀它。", "en": "I see it clawing at a door, so it dies first."},
+        {"zh": "它挡在我和马之间，那就选它。", "en": "It stands between me and the horse, so it goes first."},
+        {"zh": "目标定了，是那只会跑的。", "en": "Target chosen: the one that runs."},
+        {"zh": "它咬了我的同伴，我要它偿。", "en": "It bit my companion, and I will collect."},
+        {"zh": "别管我，先解决右面那只。", "en": "Do not mind me; take the one on the right."},
+        {"zh": "你偷袭我，我记住了你的位置。", "en": "You ambushed me; I have your position marked."},
+        {"zh": "它是从洞里爬出来的，一只都不会放过。", "en": "They crawled out of that hole; none of them gets away."},
+        {"zh": "我先动，僵尸从不给第二次机会。", "en": "I move first; zombies never grant a second chance."},
+        {"zh": "村里还有人，我不能退。", "en": "There are still people in the village; I cannot retreat."},
+        {"zh": "它身上那件衣甲，我要拿回来。", "en": "The armor it wears was someone's; I will take it back."},
+        {"zh": "那边有只僵尸在拆门，先它。", "en": "A zombie is breaking a door over there; it first."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我压低身子，剑尖朝前。", "en": "I lower my body and point the sword forward."},
+        {"zh": "它转身了，我跟着换步。", "en": "It turns, and I shift my feet with it."},
+        {"zh": "我数着它的距离，三步就够。", "en": "I measure the gap; three paces will do."},
+        {"zh": "火把在我左手，光晃它的眼。", "en": "The torch is in my left hand; the light blinds it."},
+        {"zh": "我绕到侧面，僵尸不会转身快。", "en": "I circle to its flank; zombies turn slowly."},
+        {"zh": "它靠近门，我得挡在门前面。", "en": "It nears the door, and I must stand in front."},
+        {"zh": "我憋住气，腐肉味太重。", "en": "I hold my breath; the rotten stench is thick."},
+        {"zh": "它在犹豫，我不等它想明白。", "en": "It hesitates, and I do not wait for it to decide."},
+        {"zh": "剑举到肩膀高，这一下要断它的颈。", "en": "My sword comes to shoulder height for its neck."},
+        {"zh": "我脚跟踩实，别被它扑倒。", "en": "I plant my heels so it cannot tackle me down."},
+        {"zh": "它绕着我转，我也绕着它转。", "en": "It walks around me; I keep my blade between us."},
+        {"zh": "左边有响动，可能还有一只。", "en": "Something moves on the left; there may be another."},
+        {"zh": "我把面包塞回包里，手要空出来。", "en": "I stuff the bread away so my hands are free."},
+        {"zh": "它扑过来之前，我先出手。", "en": "Before it lunges, I strike first."},
+        {"zh": "我贴着墙走，把火把藏到身后。", "en": "I creep along the wall, torch behind my back."},
+        {"zh": "它背对着我，脚步再轻一点。", "en": "Its back is turned; I lighten my step."},
+        {"zh": "我数它挥手的间隔，等空档。", "en": "I time its swings and wait for a gap."},
+        {"zh": "它的头转向别处，我上前一步。", "en": "Its head turns away and I take a step in."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "铁剑落下，十点伤害，它退了。", "en": "The iron sword falls for ten and it falls back."},
+        {"zh": "空手也有四分力，别小看我。", "en": "Even bare-handed I hit for four; do not underestimate me."},
+        {"zh": "我砍它的膝盖，先让它跪下。", "en": "I cut its knee so it kneels first."},
+        {"zh": "这一剑劈开它的肩，腐肉飞了。", "en": "The blade splits its shoulder and rot flies."},
+        {"zh": "我横着扫，逼它离门远点。", "en": "I sweep sideways to push it away from the door."},
+        {"zh": "它抓到我小臂，我照砍不误。", "en": "It rakes my forearm, and I keep cutting."},
+        {"zh": "我把剑当棍用，砸它的头。", "en": "I use the sword like a club and hammer its skull."},
+        {"zh": "它倒了，我再补一下。", "en": "It goes down, and I add one more."},
+        {"zh": "我的手在抖，但剑没偏。", "en": "My hand shakes, but the blade stays true."},
+        {"zh": "它咬空了一口，我趁机劈下去。", "en": "It bites only air, and I chop down."},
+        {"zh": "剑刃卡在骨头里，我抬脚踹开。", "en": "The blade sticks in bone; I kick it free."},
+        {"zh": "我背后有人，先把前面这只解决。", "en": "Someone is behind me; this one dies first."},
+        {"zh": "这一下是为了村里那扇门。", "en": "This blow is for the village door."},
+        {"zh": "我喘得厉害，可我还站得住。", "en": "I am gasping hard, but I am still standing."},
+        {"zh": "这一剑劈在它肩上，卡住了。", "en": "The blade bites its shoulder and sticks."},
+        {"zh": "我用剑柄砸它太阳穴。", "en": "I slam the pommel into its temple."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在草坡上睁眼，天刚亮。", "en": "I wake on a grassy slope just after dawn."},
+        {"zh": "我记不清自己从哪来，只记得要活。", "en": "I do not recall where I came from, only that I must live."},
+        {"zh": "醒来时手里已经握着铁剑。", "en": "I wake with an iron sword already in hand."},
+        {"zh": "我身上是锁链甲，不知谁给的。", "en": "Chainmail is on my back, and I do not know who gave it."},
+        {"zh": "这是第几个世界，我数不清了。", "en": "I have lost count of how many worlds this is."},
+        {"zh": "我从马背上摔下来，马跑了。", "en": "I fell off a horse, and the horse ran."},
+        {"zh": "我落在雪原中央，四周白得刺眼。", "en": "I land in the middle of a snowfield, blinded by white."},
+        {"zh": "我带着三块面包出现在这里。", "en": "I appear here with three pieces of bread."},
+        {"zh": "一睁眼就先摸剑，这是规矩。", "en": "First thing on waking is to check the sword."},
+        {"zh": "上一位求生者倒在不远处。", "en": "The last survivor lies dead not far off."},
+        {"zh": "这一回我是个女人，剑一样重。", "en": "This time I am a woman, and the sword weighs the same."},
+        {"zh": "我从烟里走出来，衣服还带着火味。", "en": "I walk out of the smoke with fire still in my clothes."},
+        {"zh": "世界给了我二十点生命和一把剑。", "en": "The world gave me twenty health and one sword."},
+        {"zh": "我又站起来了，这次也打算活下去。", "en": "I am on my feet again, and I mean to keep living."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火舌舔到我，皮革开始卷边。", "en": "Flame licks me and my leather starts to curl."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔下来时我先护住剑，胳膊断了。", "en": "Falling, I shield the sword first and break my arm."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进嘴里，我抓着岸边的草。", "en": "Water fills my mouth; I clutch at the bank grass."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我掀进沟里，耳朵嗡嗡响。", "en": "The blast throws me into a ditch, ears ringing."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭穿了我的腿，我砍断箭杆。", "en": "An arrow goes through my leg; I cut the shaft."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "药水泼过来，我的视线开始发花。", "en": "A potion splashes over me and my sight blurs."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿到第三天，我连剑都举不稳。", "en": "By the third day hungry, I can barely lift the sword."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在旁边，我趴下，剑扔远了。", "en": "Lightning hits nearby; I drop flat and lose the sword."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下没有地，我一直往下掉。", "en": "There is no ground under me, only falling."}
+      ]
+    }
+  }
+}

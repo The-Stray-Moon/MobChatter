@@ -1,0 +1,273 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雪地里一步一个脚印。", "en": "One footprint after another in the snow."},
+        {"zh": "斧头扛肩，慢慢巡山。", "en": "Axe on my shoulder, I patrol the hills."},
+        {"zh": "靴子踩碎薄冰。", "en": "My boots crack the thin ice."},
+        {"zh": "绕过石堆，别绊了脚。", "en": "Round the cairn — mind your footing."},
+        {"zh": "长路漫漫，稳步向前。", "en": "A long road — steady steps."},
+        {"zh": "木盾碰上石墙，咚。", "en": "My shield knocks the stone wall. Thud."},
+        {"zh": "山道陡，脚下留神。", "en": "Steep path — watch each step."},
+        {"zh": "甲叶相碰，沙沙响。", "en": "My mail rings softly as I walk."},
+        {"zh": "巡完这圈就回长屋。", "en": "One more round, then back to the hall."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火堆还暖，烤烤手。", "en": "The fire's still warm — let me warm my hands."},
+        {"zh": "磨一磨斧刃。", "en": "I hone the axe edge."},
+        {"zh": "听浪拍在礁石上。", "en": "I listen to waves on the rocks."},
+        {"zh": "数一数箭孔，够用。", "en": "Counting the arrow slits — enough."},
+        {"zh": "给盾牌补一道缝。", "en": "I patch a crack in my shield."},
+        {"zh": "盯住山口的动静。", "en": "I watch the pass for movement."},
+        {"zh": "默念祖辈的名字。", "en": "I name my ancestors silently."},
+        {"zh": "苍鹰在头顶盘旋。", "en": "A hawk circles overhead."},
+        {"zh": "铁盔有点闷。", "en": "My helm is stuffy."},
+        {"zh": "门帘晃个不停。", "en": "The door curtain won't settle."},
+        {"zh": "远处传来船号声。", "en": "A ship horn sounds far off."},
+        {"zh": "拿布擦甲上的盐霜。", "en": "I wipe salt rime off my armor."},
+        {"zh": "靠着木桩歇一会儿。", "en": "I lean on a post and rest."},
+        {"zh": "雪落进领口，抖抖。", "en": "Snow down my collar — I shake it out."},
+        {"zh": "今晚该谁守夜呢。", "en": "Whose watch is it tonight?"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "陌生人，报上来意。", "en": "Stranger, state your business."},
+        {"zh": "眼睛别乱瞟，站住。", "en": "Eyes forward. Stand still."},
+        {"zh": "你带着铁器，做什么。", "en": "You carry steel — what for?"},
+        {"zh": "你的脸对我是新的。", "en": "Your face is new to me."},
+        {"zh": "再近一步我就拔斧。", "en": "One more step and I draw my axe."},
+        {"zh": "是客是敌，说清楚。", "en": "Friend or foe — say it plainly."},
+        {"zh": "你踩着我们的界石。", "en": "You're standing on our boundary stone."},
+        {"zh": "抬头，让我看旗号。", "en": "Lift your head — show your colors."},
+        {"zh": "手上没老茧，不像兵。", "en": "No calluses. Not a fighter, then."},
+        {"zh": "说吧，你要找谁。", "en": "Speak — who are you looking for?"},
+        {"zh": "我的斧还没出鞘。", "en": "My axe is still sheathed."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "甲没护住那里。", "en": "The mail missed that spot."},
+        {"zh": "血是热的，雪是冷的。", "en": "Blood is warm. Snow is cold."},
+        {"zh": "我还能站着！", "en": "I can still stand!"},
+        {"zh": "记下这一下。", "en": "I'll remember that blow."},
+        {"zh": "骨头没断，运气好。", "en": "Bones held. Lucky."},
+        {"zh": "疼得眼前发黑。", "en": "The pain darkens my sight."},
+        {"zh": "这伤口要缝两针。", "en": "That needs two stitches."},
+        {"zh": "锁子甲裂开，雪灌进我的领口。", "en": "My mail has split; snow pours down my collar."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "烤肉味，是烤肉！", "en": "Roast meat — that's roast meat!"},
+        {"zh": "蜜酒香得我腿软。", "en": "The mead smell weakens my knees."},
+        {"zh": "那条鱼还滴着海水。", "en": "That fish is still dripping seawater."},
+        {"zh": "面包能分我一半？", "en": "Half that loaf for me?"},
+        {"zh": "肚子叫得比战鼓响。", "en": "My belly drums louder than war."},
+        {"zh": "谁在炖肉，这么香。", "en": "Who's stewing meat? So rich."},
+        {"zh": "我不抢，只要一口。", "en": "I won't raid — just one bite."},
+        {"zh": "盐渍鱼正合我口味。", "en": "Salted fish — just my taste."},
+        {"zh": "别收走，我没吃够。", "en": "Don't take it away, I'm not done."},
+        {"zh": "一口能顶一天路。", "en": "One bite carries me a day's walk."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "站稳，别撞翻我。", "en": "Steady — don't bowl me over."},
+        {"zh": "撞上铁甲，疼的是你。", "en": "You hit mail; you'll feel it."},
+        {"zh": "挤什么挤，排队走。", "en": "Stop shoving — walk in line."},
+        {"zh": "哎，我的盾歪了。", "en": "Hey, my shield's crooked."},
+        {"zh": "脚步声这么重，停。", "en": "Such heavy steps — halt."},
+        {"zh": "别推，后面是台阶。", "en": "Don't push — stairs behind me."},
+        {"zh": "肩膀对肩膀，让开。", "en": "Shoulder to shoulder — make way."},
+        {"zh": "你撞洒了我的酒。", "en": "You spilled my drink with that."},
+        {"zh": "站稳脚跟再说话。", "en": "Plant your feet, then talk."},
+        {"zh": "长屋里不许乱撞。", "en": "No shoving inside the hall."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "她的辫子在火光里发亮。", "en": "Her braid shines by the firelight."},
+        {"zh": "同一面旗，才结伴。", "en": "Same banner, same bond."},
+        {"zh": "等你打完这仗再说。", "en": "Ask me after this battle."},
+        {"zh": "我会带回一张好狼皮。", "en": "I'll bring back a fine wolf pelt."},
+        {"zh": "说话别这么大声。", "en": "Speak softer than that."},
+        {"zh": "长屋角落留两个位子。", "en": "Two seats in the hall's corner."},
+        {"zh": "冬天太长，找个伴。", "en": "Winter is long — find a companion."},
+        {"zh": "你笑得像春天的河。", "en": "You laugh like a river in spring."},
+        {"zh": "手给我，别抖。", "en": "Give me your hand. Don't tremble."},
+        {"zh": "一起守到天亮吧。", "en": "Let's keep watch till dawn."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "铜片？回去打成钉。", "en": "Copper scrap? I'll hammer it into nails."},
+        {"zh": "弓弦断了，捡根筋。", "en": "The string snapped — I'll take this sinew."},
+        {"zh": "谁掉的护腕，归我。", "en": "A dropped bracer — mine now."},
+        {"zh": "石头也收着，能垒墙。", "en": "I keep the stone too — walls need it."},
+        {"zh": "这块铁还热着呢。", "en": "This iron's still warm."},
+        {"zh": "布袋里多点口粮。", "en": "A fuller bag of rations."},
+        {"zh": "箭头断了，尖还能用。", "en": "The shaft broke; the head's still good."},
+        {"zh": "顺手捡起，别浪费。", "en": "Pick it up — waste nothing."},
+        {"zh": "战利品要登记入册。", "en": "Loot goes in the ledger."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有脚步声——敌人！", "en": "Footsteps — enemy!"},
+        {"zh": "那头山口闪了一下。", "en": "A glint from that pass."},
+        {"zh": "你不是我们的人。", "en": "You're not one of ours."},
+        {"zh": "斧已出鞘，别看别处。", "en": "Axe is out. Eyes on me."},
+        {"zh": "旗号不对，是敌军。", "en": "Wrong banner — hostile."},
+        {"zh": "盯住那个带头的。", "en": "I mark the one in front."},
+        {"zh": "风向不利，绕过去。", "en": "Bad wind — go around."},
+        {"zh": "他先动手了！", "en": "He struck first!"},
+        {"zh": "吹号，叫醒整营。", "en": "Sound the horn — wake the camp."},
+        {"zh": "别让他上城墙。", "en": "Don't let him reach the wall."},
+        {"zh": "数三个数就冲。", "en": "I count three, then charge."},
+        {"zh": "那眼神，是敌人。", "en": "Those eyes — hostile."},
+        {"zh": "他在翻我们的箱子。", "en": "He's going through our chests."},
+        {"zh": "铁器出鞘的声音。", "en": "Steel leaving leather."},
+        {"zh": "这次不谈判。", "en": "No talking this time."},
+        {"zh": "抓活的？抓不住。", "en": "Take him alive? Not likely."},
+        {"zh": "队形展开，包抄。", "en": "Spread out. Flank him."},
+        {"zh": "我盯他很久了。", "en": "I've had my eye on him."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "跟着他，别丢。", "en": "Follow him. Don't lose him."},
+        {"zh": "他往石堆后躲了。", "en": "He slipped behind the cairn."},
+        {"zh": "绕着走，别中埋伏。", "en": "Circle round — no ambush."},
+        {"zh": "他的盾压得偏低。", "en": "His guard hangs low."},
+        {"zh": "再近十步就砍。", "en": "Ten steps more, then strike."},
+        {"zh": "踩碎枯枝，藏不住。", "en": "Dry twigs give him away."},
+        {"zh": "他回头看，稳住。", "en": "He looks back — hold still."},
+        {"zh": "我叫人堵后路。", "en": "I'll have the rear blocked."},
+        {"zh": "别让他上船。", "en": "Don't let him reach the boat."},
+        {"zh": "我一直盯着他的斧。", "en": "My eyes stay on his axe."},
+        {"zh": "他的脚步乱了。", "en": "His steps have lost rhythm."},
+        {"zh": "坡上有人接应？", "en": "Someone waiting on the slope?"},
+        {"zh": "绕树走，别硬冲。", "en": "Round the tree — no head-on rush."},
+        {"zh": "等我喊一声再动。", "en": "Wait for my shout."},
+        {"zh": "他一换气，我就进。", "en": "When he draws breath, I close in."},
+        {"zh": "这猎物跑不远。", "en": "This prey won't run far."},
+        {"zh": "我数着他的伤。", "en": "I count his wounds."},
+        {"zh": "压着步子跟紧。", "en": "Track him at a walk."},
+        {"zh": "整队都跟着我。", "en": "The whole file stays on me."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "斧头从肩上劈下去！", "en": "The axe comes down from my shoulder!"},
+        {"zh": "整面木盾顶过去！", "en": "The whole shield drives forward!"},
+        {"zh": "尝尝铁的滋味！", "en": "Taste the iron!"},
+        {"zh": "这一下为兄弟！", "en": "That one's for my brother!"},
+        {"zh": "劈开你的架势！", "en": "Splitting your guard!"},
+        {"zh": "退两步，再来！", "en": "Two steps back — again!"},
+        {"zh": "斧柄敲你手腕。", "en": "The haft finds your wrist."},
+        {"zh": "别挡，挡不住！", "en": "Don't block it. You can't."},
+        {"zh": "撞开你，进中门！", "en": "I shove in past your reach!"},
+        {"zh": "吼一声，压上去！", "en": "One roar and I press in!"},
+        {"zh": "侧身，砍空档！", "en": "Turn and cut the gap!"},
+        {"zh": "矮身，剁你膝。", "en": "Low — the axe bites your knee."},
+        {"zh": "这一斧带着风。", "en": "This swing carries wind."},
+        {"zh": "收手，下一招。", "en": "Recover — next blow."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从长船上下来了。", "en": "I step off the longship."},
+        {"zh": "冰化了，我们就上岸。", "en": "We land when the ice breaks."},
+        {"zh": "谁在敲盾？我到了。", "en": "Who beats the shield? I'm here."},
+        {"zh": "火把点起来，照亮营地。", "en": "Torches up — light the camp."},
+        {"zh": "甲胄还凉，先活动下。", "en": "Cold mail — I loosen up."},
+        {"zh": "这块地是我们的。", "en": "This ground is ours."},
+        {"zh": "风里有血腥味。", "en": "The wind carries blood."},
+        {"zh": "我从山口一路走来。", "en": "I came through the pass."},
+        {"zh": "长屋的门开了。", "en": "The hall door opens."},
+        {"zh": "排队，我接哨位。", "en": "Form up. I take the watch."},
+        {"zh": "斧磨亮了才出门。", "en": "I sharpen my axe before stepping out."},
+        {"zh": "海雾散开，露出我。", "en": "The fog parts and shows me."},
+        {"zh": "部落派我来了。", "en": "The clan sent me."},
+        {"zh": "我踏碎冰上岸。", "en": "I come ashore over broken ice."},
+        {"zh": "号角吹过，我该到场。", "en": "The horn blew. My place is here."},
+        {"zh": "别挡路，我赶时间。", "en": "Out of the way — I'm late."},
+        {"zh": "旗子立起，我就站这。", "en": "Banner up — I stand here."},
+        {"zh": "我带着斧和盾来了。", "en": "I bring axe and shield."},
+        {"zh": "这一带由我巡。", "en": "This stretch is mine to patrol."},
+        {"zh": "听见脚步声？那是我。", "en": "Heard footsteps? That was me."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎到胡子了！", "en": "Fire's caught my beard!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "落地时腿一软。", "en": "My leg buckled on landing."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进头盔，咳。", "en": "Water in my helm — I cough."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "耳朵嗡嗡直响。", "en": "My ears are ringing."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭钉在盾上，震手。", "en": "An arrow in my shield jarred my arm."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "什么邪术，烫得慌。", "en": "What sorcery — it burns."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "肚子空了，手也软。", "en": "Empty belly, weak arms."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈下来，甲发麻。", "en": "Lightning struck — my armor tingles."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下没地了，下坠。", "en": "No ground — I'm falling."}
+      ]
+    }
+  }
+}

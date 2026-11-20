@@ -4,6 +4,7 @@
 - [ ] `common-internal`
 - [ ] `common-contract`
 - [ ] `cross-target-feature`
+- [ ] `dialogue-content`
 - [ ] `build-or-ci`
 - [ ] `docs-only`
 

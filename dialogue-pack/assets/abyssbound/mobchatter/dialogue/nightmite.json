@@ -1,0 +1,252 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴着岩面爬。", "en": "I crawl along the rock face."},
+        {"zh": "我的腿又细又多。", "en": "My legs are thin and many."},
+        {"zh": "我朝裂缝里挤。", "en": "I squeeze into the fissure."},
+        {"zh": "我在雾里穿行。", "en": "I move through the fog."},
+        {"zh": "我贴着岩面一点点靠近。", "en": "I creep closer step by step."},
+        {"zh": "石头上的苔被我踩碎。", "en": "I crush the moss on the stone."},
+        {"zh": "我绕开亮的地方。", "en": "I avoid the lit places."},
+        {"zh": "我的身体低得很。", "en": "My body rides very low."},
+        {"zh": "我往有热气的地方去。", "en": "I head toward warmth."},
+        {"zh": "我爬过一道石脊。", "en": "I climb over a stone ridge."},
+        {"zh": "我不需要看清。", "en": "I don't need to see clearly."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我伏在石缝里。", "en": "I lie in the crevice."},
+        {"zh": "五滴血的身子，也敢咬。", "en": "Five points of body, still biting."},
+        {"zh": "雾气把我遮住了。", "en": "The fog hides me."},
+        {"zh": "我在等脚步声。", "en": "I wait for footsteps."},
+        {"zh": "我身上的壳很薄。", "en": "My shell is thin."},
+        {"zh": "我不太需要光。", "en": "I don't much need light."},
+        {"zh": "我在听石头的声音。", "en": "I listen to the stone."},
+        {"zh": "我伏在缝里不动。", "en": "I'm doing nothing."},
+        {"zh": "我慢慢地缩起来。", "en": "I slowly curl up."},
+        {"zh": "岩缝里再藏一阵。", "en": "A little longer."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雾里你看不见我。", "en": "You can't see me in the fog."},
+        {"zh": "我只有六点血。", "en": "I have only six health."},
+        {"zh": "但我还是咬得住。", "en": "But I can bite."},
+        {"zh": "你踩过来试试。", "en": "Try stepping here."},
+        {"zh": "你别蹲下来看。", "en": "Don't crouch down."},
+        {"zh": "你看见我了……那就别想走。", "en": "You see me now... so don't think of leaving."},
+        {"zh": "深渊里，眼睛最先背叛你。", "en": "In the abyss, your eyes betray you first."},
+        {"zh": "我就站在雾里，看着你。", "en": "I stand in the fog, watching you."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我缩进裂缝里。", "en": "I shrink into the crack."},
+        {"zh": "这一下把我压得发麻。", "en": "That was far too heavy."},
+        {"zh": "我有一条腿动不了。", "en": "One of my legs won't move."},
+        {"zh": "我吐了一点东西。", "en": "I spat something out."},
+        {"zh": "我还在往上爬。", "en": "I'm still crawling."},
+        {"zh": "壳裂了，我的腿还在乱蹬。", "en": "My shell is cracked, but my legs still kick."},
+        {"zh": "你再跺一下脚试试。", "en": "Again."},
+        {"zh": "深渊会记住这笔账。", "en": "The abyss will remember this debt."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这些没了气的我不碰。", "en": "I don't eat that."},
+        {"zh": "我要会挣扎的猎物。", "en": "I want something that moves."},
+        {"zh": "你搁下，我瞧一眼。", "en": "Set it down; let me look."},
+        {"zh": "这东西干净得可疑。", "en": "Too clean."},
+        {"zh": "我更喜欢鲜血。", "en": "I prefer blood."},
+        {"zh": "这不够我咬一口。", "en": "Not enough for a bite."},
+        {"zh": "快把它拿走呀。", "en": "Take it away."},
+        {"zh": "我用不着这东西。", "en": "I don't need it."},
+        {"zh": "这块你自己收着。", "en": "Keep it."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从石缝里窜出来，又钻回去。", "en": "I dart out of the crack and slip back in."},
+        {"zh": "我被压得贴住石头。", "en": "I got pressed flat to the stone."},
+        {"zh": "我从你脚下窜开。", "en": "I dart out from under your foot."},
+        {"zh": "我太小，很难被看到。", "en": "I'm too small to spot."},
+        {"zh": "我退进裂缝里。", "en": "I back into the crack."},
+        {"zh": "这点碰撞我受不住。", "en": "I can't take that kind of bump."},
+        {"zh": "你别胡乱跺脚。", "en": "Don't stomp."},
+        {"zh": "我换个位置待着。", "en": "I'll move elsewhere."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "裂缝深处更合适。", "en": "Deeper in the fissure is better."},
+        {"zh": "这片石头够热。", "en": "This stone is warm enough."},
+        {"zh": "我们靠气味找。", "en": "We find each other by scent."},
+        {"zh": "别在雾里停下。", "en": "Don't stop in the fog."},
+        {"zh": "岩层里的暖还没回来。", "en": "Slowly."},
+        {"zh": "这层石头还没暖透。", "en": "Not yet."},
+        {"zh": "我藏在缝里等着。", "en": "I'm waiting."},
+        {"zh": "你从岩脊上退开。", "en": "Go on."},
+        {"zh": "你别在这里碍我。", "en": "Don't get in my way."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我轻轻咬了一下。", "en": "I bit it once."},
+        {"zh": "这血已经干在皮上。", "en": "Not meat."},
+        {"zh": "这东西实在太硬。", "en": "Too hard."},
+        {"zh": "我用口器拖那截干硬的东西。", "en": "I drag the dry hard thing with my mouthparts."},
+        {"zh": "这块肉早就馊了。", "en": "Not much use."},
+        {"zh": "我把它扔掉了。", "en": "I drop it."},
+        {"zh": "上面沾着干涸的血。", "en": "Smells of blood."},
+        {"zh": "我用触须探了一探。", "en": "I sniff it."},
+        {"zh": "就留在这个地方。", "en": "Leave it here."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有脚步过来了。", "en": "Footsteps approaching."},
+        {"zh": "我贴住了石头。", "en": "I press to the stone."},
+        {"zh": "它从我头顶走过去。", "en": "It walks right over me."},
+        {"zh": "我朝它的脚踝去。", "en": "I go for its ankle."},
+        {"zh": "这个距离一跳就到。", "en": "One jump covers it."},
+        {"zh": "我贴着石壁，朝脚踝爬。", "en": "I cling to the stone wall and crawl toward the ankle."},
+        {"zh": "我开始动起来了。", "en": "I'm moving now."},
+        {"zh": "你别再乱动了。", "en": "Don't move."},
+        {"zh": "趁它脚还停在石上。", "en": "Right now."},
+        {"zh": "我一口咬下去了。", "en": "I bite down."},
+        {"zh": "快点动手咬它。", "en": "Quick."},
+        {"zh": "抓住它的后腿。", "en": "Take its leg."},
+        {"zh": "我已经贴到脚边。", "en": "Here."},
+        {"zh": "我已经上去了。", "en": "I'm on."},
+        {"zh": "它开始觉得疼了。", "en": "It's starting to hurt."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一直跟着它的脚。", "en": "I keep with its feet."},
+        {"zh": "它每走一步我就换位置。", "en": "I shift with its every step."},
+        {"zh": "它开始慢下来。", "en": "It's slowing down."},
+        {"zh": "我在它两脚之间。", "en": "I'm between its feet."},
+        {"zh": "它又往前走了。", "en": "It walked on."},
+        {"zh": "我紧紧跟上去。", "en": "I follow."},
+        {"zh": "再等它走上一步。", "en": "One more step."},
+        {"zh": "这个位置正好。", "en": "This position is right."},
+        {"zh": "它把重心放在左脚。", "en": "Its weight is on the left foot."},
+        {"zh": "我要下口咬了。", "en": "I'm biting."},
+        {"zh": "它把脚抬起来了。", "en": "It lifted a foot."},
+        {"zh": "我紧紧贴了上去。", "en": "I cling on."},
+        {"zh": "它已经感觉到了。", "en": "It felt that."},
+        {"zh": "它开始猛踢腿。", "en": "It's kicking."},
+        {"zh": "我咬得更紧了。", "en": "I bite harder."},
+        {"zh": "它已经倒下了。", "en": "It's going down."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一口咬上脚踝。", "en": "I clamp its ankle."},
+        {"zh": "我的口器扎进去。", "en": "My mouthparts pierce in."},
+        {"zh": "它一脚踢开我。", "en": "It kicks me away."},
+        {"zh": "我又爬了上去。", "en": "I climb back on."},
+        {"zh": "这一口只啃破皮。", "en": "That bite was shallow."},
+        {"zh": "它流了一点血。", "en": "It bled a little."},
+        {"zh": "我从它的腿上滑下来。", "en": "I slid off its leg."},
+        {"zh": "我再咬它一次。", "en": "I bite again."},
+        {"zh": "它开始乱踢乱甩。", "en": "It's losing its rhythm."},
+        {"zh": "我往膝盖上咬。", "en": "I bite at the knee."},
+        {"zh": "它一下子蹲下来了。", "en": "It crouched."},
+        {"zh": "它的手拍下来了。", "en": "Its hand comes down."},
+        {"zh": "我滚到一边去。", "en": "I roll aside."},
+        {"zh": "我又贴了上去。", "en": "I cling on again."},
+        {"zh": "它甩不掉我的。", "en": "It can't shake me off."},
+        {"zh": "我咬住了不放。", "en": "I don't let go."},
+        {"zh": "它的腿发软了。", "en": "Its leg gave way."},
+        {"zh": "它终于倒下去了。", "en": "It fell."},
+        {"zh": "我还在它身上。", "en": "I'm still on it."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这层石头很冷。", "en": "This layer of stone is cold."},
+        {"zh": "这一层雾气正好。", "en": "The fog is just right."},
+        {"zh": "裂缝里有热气。", "en": "Warmth comes from the fissure."},
+        {"zh": "我抖了抖几条腿。", "en": "I shake out my legs."},
+        {"zh": "脚下长着苔藓。", "en": "Moss underfoot."},
+        {"zh": "岩壁里传来脚步。", "en": "I hear footsteps far off."},
+        {"zh": "我贴住了岩面。", "en": "I press to the rock."},
+        {"zh": "我沿着石缝往前爬。", "en": "I move slowly forward."},
+        {"zh": "这道缝正好藏身。", "en": "Good cover here."},
+        {"zh": "我已经贴在岩面上。", "en": "I'm here."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎过我的壳，我滚进缝里。", "en": "Fire seared my shell; I rolled into the crack."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从岩面掉下去，壳磕破了。", "en": "I fell off the rock face and cracked my shell."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水顺着口器灌进去。", "en": "Water floods my mouthparts."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把我甩到石壁上。", "en": "The blast threw me against the wall."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭把我钉在岩面上，还在动。", "en": "The arrow pins me to the rock face, still wriggling."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股力量让我缩成一团。", "en": "That force curled me into a ball."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我连爬的力气都没有。", "en": "I can't even crawl."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光里我无处可躲。", "en": "The flash left me nowhere to hide."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石头下面没有东西。", "en": "There's nothing under the stone."}
+      ]
+    }
+  }
+}

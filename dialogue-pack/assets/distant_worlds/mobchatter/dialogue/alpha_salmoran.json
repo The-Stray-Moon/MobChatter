@@ -1,0 +1,240 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在死谷的灰土上慢慢走。", "en": "I walk slowly over the grey soil of the dead valley."},
+        {"zh": "我的甲壳一节压着一节。", "en": "My shell plates press one over another."},
+        {"zh": "我从枯枝之间穿过。", "en": "I thread between dead branches."},
+        {"zh": "我的触须一直探在前面。", "en": "My feelers are always reaching ahead."},
+        {"zh": "我踩过一片灰白的苔。", "en": "I step over pale grey moss."},
+        {"zh": "我在死谷里巡着自己的路。", "en": "I patrol my own path through the dead valley."},
+        {"zh": "我的背壳很厚，走起来发沉。", "en": "My back plates are thick and heavy to carry."},
+        {"zh": "风把灰土吹到我的关节里。", "en": "The wind blows ash into my joints."},
+        {"zh": "我绕过一块倒下的枯树。", "en": "I go around a fallen dead tree."},
+        {"zh": "枯谷里我走走停停，甲壳刮着沙。", "en": "Through the dead valley I pause and go, shell scraping sand."},
+        {"zh": "我沿着干裂的地面往前。", "en": "I work forward along the cracked ground."},
+        {"zh": "我的影子贴着地面。", "en": "My shadow stays flat on the ground."},
+        {"zh": "我用前腿挑起一块石子。", "en": "I flick a pebble away with a front leg."},
+        {"zh": "这片死谷很安静。", "en": "This dead valley is very quiet."},
+        {"zh": "我一步步走向谷里的低处。", "en": "I move step by step toward the lower ground."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我停在灰土上，甲壳不动。", "en": "I stop on the ash and my shell goes still."},
+        {"zh": "我的节缝里积了细灰。", "en": "Fine ash has settled in my joints."},
+        {"zh": "我在听风穿过死树。", "en": "I listen to the wind through dead trees."},
+        {"zh": "我的触须慢慢转了一圈。", "en": "My feelers turn a full circle slowly."},
+        {"zh": "我的颜色和这片土一样。", "en": "My color matches this soil."},
+        {"zh": "我在等灰土里有什么动。", "en": "I'm waiting for something in the ash to move."},
+        {"zh": "我的背甲反着一点冷光。", "en": "My back plate catches a little cold light."},
+        {"zh": "我一动不动，很难被看到。", "en": "I hold still; I'm hard to spot."},
+        {"zh": "我慢慢张开上颚。", "en": "I open my mandibles slowly."},
+        {"zh": "我听见远处石头滚落。", "en": "I hear a stone roll somewhere far off."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你看上去很软。", "en": "You look soft."},
+        {"zh": "我的甲比你的皮厚。", "en": "My shell is thicker than your skin."},
+        {"zh": "你踩到了我的灰。", "en": "You've trodden on my ash."},
+        {"zh": "我在死谷里住了很久。", "en": "I've lived in the dead valley a long while."},
+        {"zh": "你的靴子沾满了白灰。", "en": "Your boots are covered in white ash."},
+        {"zh": "我判断你不需要害怕我。", "en": "I judge you have no need to fear me."},
+        {"zh": "我抬起头，停了一下。", "en": "I lift my head and pause."},
+        {"zh": "你要摸我吗。", "en": "Are you going to touch me?"},
+        {"zh": "你站着挡了我的路。", "en": "You're standing in my path."},
+        {"zh": "我不急，我等你让开。", "en": "I'm in no hurry; I'll wait for you to move."},
+        {"zh": "我的六只脚都抓在地上。", "en": "All six of my feet are planted."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的甲上多了一道白痕。", "en": "A white line has appeared on my shell."},
+        {"zh": "我缩起腿，稳住。", "en": "I pull my legs in and steady."},
+        {"zh": "这一下震得我发闷。", "en": "That left me ringing."},
+        {"zh": "我退了半步，灰土扬起。", "en": "I give half a step and ash lifts."},
+        {"zh": "我的节缝里渗出水。", "en": "Fluid seeps from my joints."},
+        {"zh": "我低下头，护住触须。", "en": "I lower my head to guard my feelers."},
+        {"zh": "这点伤我能撑。", "en": "I can take this much."},
+        {"zh": "我慢慢挪回原处。", "en": "I shift slowly back into place."},
+        {"zh": "我的关节都在响。", "en": "All my joints are creaking."},
+        {"zh": "我还要再试一次。", "en": "I'll try again."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你带吃的来了？", "en": "Did you bring food?"},
+        {"zh": "我不认识那个味道。", "en": "I don't know that smell."},
+        {"zh": "我的上颚只适合啃硬东西。", "en": "My mandibles are for hard things."},
+        {"zh": "你手上是什么。", "en": "What's in your hand?"},
+        {"zh": "我靠近一点看看。", "en": "I'll come a little closer to look."},
+        {"zh": "这个不能吃吧。", "en": "This can't be edible."},
+        {"zh": "你退开半步就行。", "en": "Just take half a step back."},
+        {"zh": "我先闻闻再说。", "en": "Let me smell it first."},
+        {"zh": "这比灰土好闻多了。", "en": "This smells much better than ash."},
+        {"zh": "你别举着不动。", "en": "Don't hold it up like that."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "死谷的窄道上，我先来。", "en": "On the dead valley's narrow path, I go first."},
+        {"zh": "我被撞得滑了半尺。", "en": "I slide half a foot from the impact."},
+        {"zh": "我退开，把腿重新摆好。", "en": "I pull back and reset my legs."},
+        {"zh": "这条窄道只够一个过去。", "en": "This narrow path fits one of us."},
+        {"zh": "我的甲壳擦过你的裤腿。", "en": "My shell scrapes your trouser leg."},
+        {"zh": "你把我推离了原路。", "en": "You've pushed me off my line."},
+        {"zh": "我慢慢挪回来。", "en": "I shift slowly back."},
+        {"zh": "这一下让灰土扬了起来。", "en": "That sent ash into the air."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "死谷里还有别的甲壳。", "en": "There are other shells in the dead valley."},
+        {"zh": "我们碰了碰触须。", "en": "We touch feelers."},
+        {"zh": "我们并排走过一段。", "en": "We walked a stretch side by side."},
+        {"zh": "它钻进了灰土下面。", "en": "It went under the ash."},
+        {"zh": "我们一起守着一块石头。", "en": "We hold one stone together."},
+        {"zh": "它的甲上有一道裂缝。", "en": "There's a crack in its shell."},
+        {"zh": "它先走了，我没有跟。", "en": "It left first; I didn't follow."},
+        {"zh": "灰土把我们的痕迹盖住了。", "en": "The ash covered both our trails."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这块石头我推得动。", "en": "I can push this stone."},
+        {"zh": "我用上颚夹起来。", "en": "I pick it up with my mandibles."},
+        {"zh": "这个沉，但我不介意。", "en": "It's heavy, but I don't mind."},
+        {"zh": "我把它拖到壳下面。", "en": "I drag it under my shell."},
+        {"zh": "掉在灰里的，我先翻一翻。", "en": "I turn over what's fallen in the ash."},
+        {"zh": "我抱着它往回走。", "en": "I carry it back with me."},
+        {"zh": "太重了，我换了条腿撑。", "en": "Too heavy; I brace with another leg."},
+        {"zh": "我把它埋在洞口。", "en": "I bury it at the burrow mouth."},
+        {"zh": "这是我的收藏之一。", "en": "This is one of my collection."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "灰里有东西在动。", "en": "Something's moving in the ash."},
+        {"zh": "我压低身子，六条腿扣地。", "en": "I crouch and set all six legs."},
+        {"zh": "我在等你再近一点。", "en": "I'm waiting for you to come nearer."},
+        {"zh": "我的甲壳已经朝前了。", "en": "My shell has turned forward."},
+        {"zh": "我抬起尾刺，你身上的热气暴露了。", "en": "I lift my tail sting; your body heat betrays you."},
+        {"zh": "你退到枯树的另一边。", "en": "You've backed to the far side of a dead tree."},
+        {"zh": "我的触须僵住了。", "en": "My feelers went still."},
+        {"zh": "我看见了，你就别想走。", "en": "I've seen you; don't plan on leaving."},
+        {"zh": "这地方没有别的出口。", "en": "There's no other way out of here."},
+        {"zh": "我用不着跑，我比你稳。", "en": "No need to run; I'm steadier than you."},
+        {"zh": "我朝你的方向挪过去。", "en": "I shift in your direction."},
+        {"zh": "灰土把我的脚都埋住了。", "en": "The ash has buried my feet."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我沿着灰土的边跟过去。", "en": "I follow along the edge of the ash."},
+        {"zh": "你走一步，我挪半尺。", "en": "You take a step; I shift half a foot."},
+        {"zh": "我的甲色帮我藏住。", "en": "My color keeps me hidden."},
+        {"zh": "我比你更懂这片死谷。", "en": "I know this dead valley better than you."},
+        {"zh": "我在等你的靴子陷进去。", "en": "I'm waiting for your boot to sink."},
+        {"zh": "我数着你落脚的次数。", "en": "I'm counting how often you step."},
+        {"zh": "死谷的路绕来绕去。", "en": "The dead valley's paths twist about."},
+        {"zh": "我走了捷路。", "en": "I've taken the short way."},
+        {"zh": "我不给你留空子。", "en": "I won't leave you an opening."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用前腿顶了一下。", "en": "I shove with a foreleg."},
+        {"zh": "上颚咬住了你的护腕。", "en": "My mandibles close on your bracer."},
+        {"zh": "死谷里，我是最大的那只。", "en": "In the dead valley, I'm the biggest."},
+        {"zh": "我整块甲撞过去。", "en": "I drive my whole shell into you."},
+        {"zh": "你被撞得退了一步。", "en": "You're pushed back one step."},
+        {"zh": "我的腿在你脚边钩了一下。", "en": "My leg hooks at your feet."},
+        {"zh": "你夺回手，我退开。", "en": "You pull free and I draw back."},
+        {"zh": "我的上颚咬不动铁。", "en": "My mandibles can't bite iron."},
+        {"zh": "我扭身甩开了。", "en": "I twist free."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从灰土里钻出来。", "en": "I come up out of the ash."},
+        {"zh": "死谷里又多了一个壳。", "en": "One more shell in the dead valley."},
+        {"zh": "这里的土是白的。", "en": "The soil here is white."},
+        {"zh": "我先辨了一下风向。", "en": "First I test the wind."},
+        {"zh": "我从倒木下面爬出。", "en": "I crawl out from under a fallen tree."},
+        {"zh": "我的六条腿站稳了。", "en": "My six legs find their footing."},
+        {"zh": "这片谷安静得像死了。", "en": "This valley is quiet as death."},
+        {"zh": "我抬起头，看了一圈。", "en": "I raise my head and look around."},
+        {"zh": "我在这里第一眼看到的是灰。", "en": "The first thing I saw here was ash."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎过甲壳，我往里缩。", "en": "Fire sears my shell and I pull in."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从石头上翻下去，甲磕响了。", "en": "I tumble off a stone and my shell clangs."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进节缝，我动得很慢。", "en": "Water fills my joints and I slow down."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆风把我整只掀起来。", "en": "The blast lifts me right off the ground."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭卡在我的甲缝。", "en": "An arrow lodges in a seam of my shell."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "光落在甲上，我不太舒服。", "en": "Light falls on my shell; it doesn't sit well."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "灰土里没什么可吃的。", "en": "There's little to eat in this ash."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷顺着我的甲爬过去。", "en": "Lightning creeps across my shell."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里没有地给我的六条腿。", "en": "There's no ground for my six legs here."}
+      ]
+    }
+  }
+}

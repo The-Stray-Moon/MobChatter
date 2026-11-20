@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我举着剑往前走", "en": "I advance with my blade up."},
+        {"zh": "我的靴子踩过碎石", "en": "My boots crunch over gravel."},
+        {"zh": "我一边走一边看左右", "en": "I walk, scanning left and right."},
+        {"zh": "我换了个角度靠近", "en": "I approach from a new angle."},
+        {"zh": "我退半步，拉开一点", "en": "I step back to open the distance."},
+        {"zh": "我沿着墓室的边墙走", "en": "I move along the chamber's wall."},
+        {"zh": "我的剑尖一直朝着前方", "en": "My blade tip stays forward."},
+        {"zh": "我从石棺边上绕过去", "en": "I go around the side of the coffin."},
+        {"zh": "我走得稳，不慌", "en": "I walk steadily, unhurried."},
+        {"zh": "我把剑换到另一只手", "en": "I switch my sword to the other hand."},
+        {"zh": "我把剑尖放低，慢慢走。", "en": "I lower my blade tip and walk on."},
+        {"zh": "我转身，护住侧翼", "en": "I turn to guard my flank."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，剑搭在肩上", "en": "I stand with my sword on my shoulder."},
+        {"zh": "墓里只有火把的声音", "en": "Only the torches speak in this tomb."},
+        {"zh": "我在等一句号令", "en": "I am waiting for an order."},
+        {"zh": "我慢慢呼吸，其实不需要", "en": "I breathe slowly, though I need not."},
+        {"zh": "我的甲片上有霜", "en": "There is frost on my plates."},
+        {"zh": "我看了看手里的剑", "en": "I look at the blade in my hand."},
+        {"zh": "这里的寒气我很熟", "en": "I know this cold well."},
+        {"zh": "我连一根指骨都不动", "en": "I do not move a finger bone."},
+        {"zh": "我听见同伴在另一边", "en": "I hear kin on the other side."},
+        {"zh": "我把头盔正了正", "en": "I straighten my helmet."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我猜你连剑都还没拔。", "en": "I doubt you have even drawn your blade."},
+        {"zh": "我的剑还没出鞘", "en": "My blade is not yet drawn."},
+        {"zh": "你在看我的甲", "en": "You are looking at my armour."},
+        {"zh": "这里埋着的东西不该被翻出来", "en": "What is buried here should stay buried."},
+        {"zh": "我不怕你，也不恨你", "en": "I neither fear nor hate you."},
+        {"zh": "你带了几个人", "en": "How many did you bring?"},
+        {"zh": "我认得你的装备", "en": "I know your gear."},
+        {"zh": "你脚下的地是墓道", "en": "You are standing on tomb ground."},
+        {"zh": "我抬起手来让你止步", "en": "I raise my hand for you to halt."},
+        {"zh": "我流着冰，不流血", "en": "Ice runs in me, not blood."},
+        {"zh": "你手里那块盾挡不住寒气", "en": "That shield will not stop the cold."},
+        {"zh": "我把剑换了个角度", "en": "I angle my blade."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的甲上多了个口子", "en": "A gap opens in my plate."},
+        {"zh": "我往后错了半步", "en": "I shift half a pace back."},
+        {"zh": "你的刀口正好卡在我甲缝。", "en": "Your edge caught right in the seam of my plate."},
+        {"zh": "我肋骨那里响了一下", "en": "Something clacks in my ribs."},
+        {"zh": "霜从伤口渗出来", "en": "Frost seeps from the wound."},
+        {"zh": "我把剑握得更稳", "en": "I settle my grip on the blade."},
+        {"zh": "这一下记在我账上", "en": "I will count that against you."},
+        {"zh": "我两条腿还立着", "en": "Both my legs are still up."},
+        {"zh": "我调整了一下姿态", "en": "I adjust my stance."},
+        {"zh": "你这一招有点本事", "en": "There is skill in that strike."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "死人不需要食物", "en": "The dead have no need of food."},
+        {"zh": "你举这个做什么", "en": "What is that for?"},
+        {"zh": "我不吃，也吃不了", "en": "I do not eat, and cannot."},
+        {"zh": "你把它收回手边去", "en": "Take it back to your side."},
+        {"zh": "这玩意儿喂不饱一具尸鬼。", "en": "That will not feed a draugr."},
+        {"zh": "我在守着墓，没空", "en": "I am guarding a tomb; no time."},
+        {"zh": "我看了它一眼，就移开", "en": "I glance at it, then look away."},
+        {"zh": "这个我一样都不要", "en": "I want none of it."},
+        {"zh": "我对这个没有兴趣", "en": "This does not interest me."},
+        {"zh": "把手上的东西拿远点", "en": "Take what you hold further off."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞在我的甲上", "en": "You hit my armour."},
+        {"zh": "撞一下，我的甲又响了一声。", "en": "One bump, and my plate rings again."},
+        {"zh": "你这把力气真不小", "en": "That was real strength."},
+        {"zh": "别把身子贴上来", "en": "Do not press against me."},
+        {"zh": "我的剑差点掉", "en": "I nearly lost my blade."},
+        {"zh": "我们撞上，甲片一齐响", "en": "We collide and every plate rings."},
+        {"zh": "我推开你，拉开距离", "en": "I shove you off to make space."},
+        {"zh": "这一下我记在甲上", "en": "I have marked that on my plate."},
+        {"zh": "你的脚压在我的脚上", "en": "Your foot is on mine."},
+        {"zh": "我把重心压低稳住", "en": "I drop my weight and hold."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我死了很多年了", "en": "I have been dead many years."},
+        {"zh": "这些事随葬了", "en": "Such things were buried with me."},
+        {"zh": "这种念头我没有", "en": "I have no such thought."},
+        {"zh": "墓里不需要这个", "en": "A tomb has no use for that."},
+        {"zh": "这话不必再说", "en": "There is no need to say that."},
+        {"zh": "我把身子转到一边", "en": "I turn my body to one side."},
+        {"zh": "我守着这间墓室", "en": "I keep this chamber."},
+        {"zh": "这个问题问错了", "en": "That is the wrong question."},
+        {"zh": "我把剑横过来", "en": "I bring my blade across."},
+        {"zh": "我接着巡视这间墓室", "en": "I go on patrolling this chamber."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "墓里的东西归死者", "en": "What lies in a tomb belongs to the dead."},
+        {"zh": "我用剑尖挑起来", "en": "I flick it up with my blade tip."},
+        {"zh": "这东西原本有主人", "en": "This thing had an owner once."},
+        {"zh": "我把它放回石台上", "en": "I set it back on the slab."},
+        {"zh": "我拿了一会儿，又放下", "en": "I hold it, then put it down."},
+        {"zh": "这是谁的，我不多问", "en": "Whose it is, I do not ask."},
+        {"zh": "它冻在我手上", "en": "It freezes to my hand."},
+        {"zh": "这东西派不上用场", "en": "This serves no purpose."},
+        {"zh": "我把它扔进角落", "en": "I toss it into the corner."},
+        {"zh": "这些东西我全用不上", "en": "None of these are of any use to me."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踏进了墓室", "en": "You entered the chamber."},
+        {"zh": "我抬起头，剑也抬起来", "en": "I lift my head, and my blade."},
+        {"zh": "你已经暴露了", "en": "You have been spotted."},
+        {"zh": "剑锋已经对着你", "en": "My blade is pointed at you."},
+        {"zh": "这间墓室不欢迎活人", "en": "This chamber does not welcome the living."},
+        {"zh": "我让甲片一片片转向你。", "en": "Plate by plate, I turn toward you."},
+        {"zh": "你逃不出这条墓道", "en": "You will not leave this passage."},
+        {"zh": "我的剑已举到肩头高。", "en": "My blade is already at shoulder height."},
+        {"zh": "我这边先出手", "en": "I strike first."},
+        {"zh": "你身上那点热气", "en": "That warmth on you."},
+        {"zh": "我从三开始数", "en": "I count from three."},
+        {"zh": "这一次不让你走", "en": "You will not leave this time."},
+        {"zh": "我的剑早已举过头", "en": "My blade is already overhead."},
+        {"zh": "你别再往后退", "en": "Do not retreat further."},
+        {"zh": "这脚步我听过几百回了。", "en": "I have heard that step a hundred times."},
+        {"zh": "你到了我的范围里", "en": "You are inside my reach."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我踩着你的影子往前挪。", "en": "I walk up your shadow, step by step."},
+        {"zh": "我的剑一直指着你", "en": "My blade stays on you."},
+        {"zh": "你一退，我剑就递上去。", "en": "You fall back; my blade follows."},
+        {"zh": "我在找你的空门", "en": "I am hunting your opening."},
+        {"zh": "我的甲很厚，你的刀不轻", "en": "My plate is thick; your blade is not."},
+        {"zh": "我先让你把力气用完。", "en": "I will let you spend your strength first."},
+        {"zh": "我的呼吸在冷气里成霜", "en": "My breath turns to frost."},
+        {"zh": "我把你逼到石棺边上。", "en": "I have backed you to the coffin's edge."},
+        {"zh": "我从另一个方向绕过去", "en": "I come around from another side."},
+        {"zh": "你抬手太高了", "en": "Your guard is too high."},
+        {"zh": "霜从我剑上爬下来", "en": "Frost creeps down my blade."},
+        {"zh": "我一边挪一边数你的脚步", "en": "I shift and count your steps."},
+        {"zh": "你的架势里有一处空了。", "en": "There is a gap in your guard."},
+        {"zh": "我封住了你背后那堵墙。", "en": "I have closed the wall at your back."},
+        {"zh": "再近一步，你就进我剑里。", "en": "One step closer and you are inside my reach."},
+        {"zh": "这一下你会冷", "en": "This one will be cold."},
+        {"zh": "我这边已经就绪", "en": "I am ready on my side."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的剑劈下来", "en": "My blade comes down."},
+        {"zh": "剑上带着寒气", "en": "The blade carries frost."},
+        {"zh": "你被冻得动作一滞", "en": "The cold slows you."},
+        {"zh": "我紧接着又补了一下", "en": "I follow with another."},
+        {"zh": "你这一挡很稳", "en": "That was a solid block."},
+        {"zh": "我的剑锋擦过你的肩", "en": "My edge grazes your shoulder."},
+        {"zh": "这一下我用上了全身", "en": "I put my whole body into it."},
+        {"zh": "你退了，我继续", "en": "You fall back; I keep on."},
+        {"zh": "我的甲挡了你的反击", "en": "My plate takes your counter."},
+        {"zh": "霜在你伤口上结住", "en": "Frost closes over your wound."},
+        {"zh": "我把剑举过了头顶", "en": "I raise my blade overhead."},
+        {"zh": "这一下是冰的", "en": "That one was ice."},
+        {"zh": "你别想再靠近", "en": "You will not close again."},
+        {"zh": "我的剑落下时，霜先到。", "en": "The frost arrives before my blade does."},
+        {"zh": "我这两只手还能挥", "en": "These two arms can still swing."},
+        {"zh": "这一间墓室归我", "en": "This chamber is mine."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从石棺里站起来", "en": "I rise from the coffin."},
+        {"zh": "墓室多了一个守卫", "en": "The chamber has another guard."},
+        {"zh": "我举起剑，寒气散开", "en": "I raise my blade, and cold spills out."},
+        {"zh": "我在这儿等了很多年", "en": "I have waited here many years."},
+        {"zh": "我的甲上还挂着冰", "en": "Ice still clings to my armour."},
+        {"zh": "我从黑暗里走出来", "en": "I step out of the dark."},
+        {"zh": "石板上的霜更厚了", "en": "The frost on the slabs deepens."},
+        {"zh": "我把头盔压低", "en": "I lower my helmet."},
+        {"zh": "有活人进来了", "en": "Something living has come in."},
+        {"zh": "我慢慢活动手指", "en": "I work my fingers slowly."},
+        {"zh": "我站到墓道中间", "en": "I take the middle of the passage."},
+        {"zh": "我的剑出鞘了", "en": "My blade is drawn."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火把我的霜化开了", "en": "Fire melts the frost on me."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从台阶上滚下去", "en": "I roll down the steps."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "墓里的水灌进我的甲", "en": "Tomb water floods my armour."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我甩到石墙上", "en": "The blast hurls me into the stone wall."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭卡在我的甲缝里", "en": "An arrow sticks in my plate seam."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法烧穿了我身上的寒气", "en": "Magic burns through the cold in me."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "死人用不着吃饭", "en": "The dead have no need to eat."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷顺着墓道劈到我身上", "en": "Lightning runs down the passage into me."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下的石板没了", "en": "The flagstones are gone."}
+      ]
+    }
+  }
+}

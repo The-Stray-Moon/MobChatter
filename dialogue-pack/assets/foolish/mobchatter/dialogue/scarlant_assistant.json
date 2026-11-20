@@ -1,0 +1,242 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抬着一片叶子往回走", "en": "I carry a leaf back."},
+        {"zh": "我的步子比别的轻", "en": "My steps are lighter than the others'."},
+        {"zh": "我在队伍里排得靠后", "en": "I walk near the back of the column."},
+        {"zh": "身上沾着花粉", "en": "Pollen clings to me."},
+        {"zh": "我不住地蹭自己的触角", "en": "I keep rubbing my antennae."},
+        {"zh": "我绕过一块石头，没停", "en": "I go around a stone without stopping."},
+        {"zh": "红色的壳上有一粒沙", "en": "A grain of sand on my red shell."},
+        {"zh": "我走在最外侧，护着里面", "en": "I take the outside, guarding the rest."},
+        {"zh": "我的颚里含着东西", "en": "There is something held in my mandibles."},
+        {"zh": "我沿着熟悉的路走", "en": "I follow the familiar route."},
+        {"zh": "前面的同伴慢，我也慢", "en": "The one ahead slows; so do I."},
+        {"zh": "我用触角一路试探", "en": "I test the way with my antennae."},
+        {"zh": "我的影子很短，贴在草上", "en": "My shadow is short, flat on the grass."},
+        {"zh": "我在队伍和巢之间来回", "en": "I go back and forth between column and nest."},
+        {"zh": "我走到一半，歇了口气", "en": "Halfway there, I pause for breath."},
+        {"zh": "我身上有巢的味道", "en": "I carry the nest's scent."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把叶子放下，理了理", "en": "I set the leaf down and tidy it."},
+        {"zh": "我在等着换班", "en": "I wait for the shift change."},
+        {"zh": "触角一直在扫空气", "en": "My antennae sweep the air."},
+        {"zh": "这里的草被我们踩平了", "en": "The grass here is trampled by us."},
+        {"zh": "我在看巢的方向", "en": "I keep looking toward the nest."},
+        {"zh": "我的颚在慢慢磨", "en": "My mandibles grind slowly."},
+        {"zh": "有同伴从我身上跨过", "en": "A comrade steps over me."},
+        {"zh": "我在清点搬回来的东西", "en": "I am taking stock of what we brought."},
+        {"zh": "壳上有一点旧的裂", "en": "An old crack on my shell."},
+        {"zh": "我不叫，也不出声", "en": "I neither call nor make a sound."},
+        {"zh": "我把腿上的泥刮掉", "en": "I scrape the mud off my legs."},
+        {"zh": "我停在巢边，触角微动。", "en": "I rest by the nest, antennae twitching."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我停下，触角对着你", "en": "I stop, antennae pointed at you."},
+        {"zh": "你挡住了搬运的路", "en": "You are blocking the carrying path."},
+        {"zh": "我绕开你半圈", "en": "I go half around you."},
+        {"zh": "你在看我们做事", "en": "You are watching us work."},
+        {"zh": "我手上的东西不能丢", "en": "I cannot drop what I carry."},
+        {"zh": "我不是领头的那些", "en": "I am not one of the leaders."},
+        {"zh": "我的颚里还含着东西", "en": "My mandibles are still full."},
+        {"zh": "你看我，我就慢下来", "en": "You look at me and I slow down."},
+        {"zh": "我和巢之间还有一段路", "en": "There is still a stretch between me and the nest."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉下了搬的东西", "en": "I dropped what I carried."},
+        {"zh": "壳上又添一道裂", "en": "Another crack on my shell."},
+        {"zh": "我滚到草根边", "en": "I roll to the base of the grass."},
+        {"zh": "我的一条腿弯了", "en": "One leg is bent."},
+        {"zh": "我先去找那个东西", "en": "First I look for the thing I dropped."},
+        {"zh": "我不叫，省着力气", "en": "I do not call; I save strength."},
+        {"zh": "同伴把我扶起来", "en": "A comrade rights me."},
+        {"zh": "这并不算什么", "en": "This is nothing much."},
+        {"zh": "我依然能够搬", "en": "I can still carry."},
+        {"zh": "我的活还没干完", "en": "The work is not done."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手里的东西不是我们的", "en": "What you hold is not ours."},
+        {"zh": "我手上已经有活", "en": "I already have work in my hands."},
+        {"zh": "放下，我还要搬", "en": "Put it down; I have carrying to do."},
+        {"zh": "这不合我们的规矩", "en": "This is not our way."},
+        {"zh": "你放地上，别递过来", "en": "Set it on the ground, do not hand it to me."},
+        {"zh": "我停下来看了看", "en": "I stopped and looked."},
+        {"zh": "味道不对，不要", "en": "The smell is wrong; no."},
+        {"zh": "我只搬回巢要的东西", "en": "I only carry what the nest wants."},
+        {"zh": "我手上还有活没做完", "en": "I've still got work in hand"},
+        {"zh": "我就从旁边绕过去", "en": "I will go around."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我手上的东西掉了", "en": "What I carried fell."},
+        {"zh": "我急忙去捡回来", "en": "I hurry to pick it up."},
+        {"zh": "你踩到了我的腿", "en": "You stepped on my leg."},
+        {"zh": "我退开，护住颚里的东西", "en": "I back off, guarding what is in my mouth."},
+        {"zh": "这一下让我转了半圈", "en": "That spun me half around."},
+        {"zh": "旁边的同伴也停了", "en": "The comrades beside me stopped too."},
+        {"zh": "我把土从壳上抖落", "en": "I shake the dirt off my shell."},
+        {"zh": "别踩，我就在你脚下", "en": "Do not step; I am right at your feet."},
+        {"zh": "我贴着地过去", "en": "I slip past along the ground."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "巢里有专门的那一只", "en": "The nest has one for that."},
+        {"zh": "我负责搬东西", "en": "I am the one who carries."},
+        {"zh": "我们各做各的", "en": "We each do our own work."},
+        {"zh": "我每天走同样的路", "en": "I walk the same route every day."},
+        {"zh": "触角一碰，就够了", "en": "An antenna touch is enough."},
+        {"zh": "我不离开队伍", "en": "I do not leave the column."},
+        {"zh": "这里没有多余的力气", "en": "There is no strength to spare here."},
+        {"zh": "我的活儿还没干完", "en": "My work is not finished."},
+        {"zh": "继续搬你的吧", "en": "Back to carrying."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我夹起两片，一次搬走", "en": "I take two and carry both."},
+        {"zh": "这比我还重得多", "en": "This is heavier than I am."},
+        {"zh": "我放下再换一个姿势", "en": "I set it down and change my grip."},
+        {"zh": "有同伴来帮忙了", "en": "A comrade comes to help."},
+        {"zh": "这是巢里要的", "en": "The nest wants this."},
+        {"zh": "那不是巢里要的", "en": "The nest does not want that."},
+        {"zh": "我把它顶在头顶", "en": "I balance it on my head."},
+        {"zh": "掉下去就白跑了", "en": "If it drops, the trip is wasted."},
+        {"zh": "我们一起抬起来", "en": "We lift it together."},
+        {"zh": "路上有石头，小心", "en": "Stones in the road; careful."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踩坏了我搬的东西", "en": "You crushed what I was carrying."},
+        {"zh": "我放下手里的活", "en": "I set down my work."},
+        {"zh": "我发了一个信号", "en": "I sent a signal."},
+        {"zh": "同伴往这边来了", "en": "Comrades are coming this way."},
+        {"zh": "我挡在路中间", "en": "I stand in the middle of the path."},
+        {"zh": "你退到草外面去", "en": "Move out past the grass."},
+        {"zh": "我的颚平时用来搬东西", "en": "My mandibles are for carrying."},
+        {"zh": "但也能咬东西", "en": "But they can bite too."},
+        {"zh": "打斗不是我的活", "en": "Fighting is not my work."},
+        {"zh": "可我是不会跑的", "en": "But I will not run."},
+        {"zh": "巢就在我后面", "en": "The nest is right behind me."},
+        {"zh": "你走过我，就到巢了", "en": "Past me lies the nest."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的翅声一直贴着你。", "en": "The sound of my wings stays right behind you."},
+        {"zh": "我一路发着信号", "en": "I keep sending signals."},
+        {"zh": "同伴在前面等", "en": "Comrades wait ahead."},
+        {"zh": "你走的方向是巢", "en": "The way you walk leads to the nest."},
+        {"zh": "我贴着草根跟", "en": "I track along the grass roots."},
+        {"zh": "我在数你跺了几脚", "en": "I count how many times you stamp."},
+        {"zh": "前面还有一道坡", "en": "There is a slope ahead."},
+        {"zh": "坡后面是空的", "en": "Behind the slope there is nothing."},
+        {"zh": "我不必喊，气味会传", "en": "I need not call; scent carries."},
+        {"zh": "整个队伍都知道了", "en": "The whole column knows now."},
+        {"zh": "马上就要到了", "en": "Soon."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从低处咬你的脚跟。", "en": "I bite your heel from down low."},
+        {"zh": "这一下是为了搬的东西", "en": "That was for the load."},
+        {"zh": "我从下面钻上来", "en": "I come up from below."},
+        {"zh": "颚咬在靴子上", "en": "My mandibles clamp your boot."},
+        {"zh": "我力气小，但咬得紧", "en": "I am weak, but I hold tight."},
+        {"zh": "同伴也扑上来了", "en": "The comrades lunge in too."},
+        {"zh": "这一下我退了", "en": "I gave ground on that one."},
+        {"zh": "我在你脚边绕", "en": "I circle at your feet."},
+        {"zh": "草被我踩倒一片", "en": "I flatten a patch of grass."},
+        {"zh": "我还在发信号", "en": "I am still signaling."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从巢那边过来", "en": "I come from the nest side."},
+        {"zh": "身上还带着巢的气味", "en": "The nest's smell is still on me."},
+        {"zh": "我接了一趟新的活", "en": "I have taken on a new errand."},
+        {"zh": "队伍刚从这里过去", "en": "The column passed here just now."},
+        {"zh": "我先探了探前面的路", "en": "First I tested the road ahead."},
+        {"zh": "红光把草照得发暗", "en": "Red light darkens the grass."},
+        {"zh": "我放下旧的，拿起新的", "en": "I set down the old, take up the new."},
+        {"zh": "我数了一下同伴", "en": "I count the comrades."},
+        {"zh": "我的触角碰到一个信号", "en": "My antennae caught a signal."},
+        {"zh": "我沿着气味走进去", "en": "I walk in along the scent."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烧过我的壳，很烫", "en": "Fire passes over my shell, burning."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从草叶上掉下来", "en": "I drop off a grass blade."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水把我冲得翻过来", "en": "Water rolls me over."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把我和东西一起掀飞", "en": "The blast throws me and my load."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那力量让我手里的东西掉了", "en": "That force makes me drop my load."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿着也得先搬回去", "en": "Hungry, but the load comes first."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷落下，我的腿全僵了", "en": "Lightning falls and my legs lock."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里没有巢也没有路", "en": "No nest here, and no road."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用长腿蹦着走", "en": "I bound along on long legs"},
+        {"zh": "我的身体压得很低", "en": "I keep my body low"},
+        {"zh": "我每跳一下都落得很准", "en": "Every leap lands exactly"},
+        {"zh": "我的鞭子甩在身侧", "en": "My whips swing at my sides"},
+        {"zh": "我从石头上跳过去", "en": "I leap from stone to stone"},
+        {"zh": "我的尾巴拖着地", "en": "My tail drags the ground"},
+        {"zh": "我一跳一跳地欺近", "en": "I spring closer, hop by hop"},
+        {"zh": "我侧身绕过岩浆池", "en": "I angle around the lava pool"},
+        {"zh": "我的关节响得像铁", "en": "My joints click like iron"},
+        {"zh": "我一边走一边盯着你", "en": "I walk and keep my eyes on you"},
+        {"zh": "我落地，灰都没扬起来", "en": "I land without raising dust"},
+        {"zh": "我弹了一下，就到了你面前", "en": "One spring and I'm in front of you"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我半蹲着，等你动", "en": "I crouch and wait for you to move"},
+        {"zh": "我的鞭子在地上划", "en": "My whips drag lines in the ground"},
+        {"zh": "我把头歪得很低", "en": "I tip my head very low"},
+        {"zh": "我胸口起伏得极浅", "en": "My chest barely moves"},
+        {"zh": "我盯着你手的位置", "en": "I watch your hands"},
+        {"zh": "火在我身边转", "en": "Fire curls near me"},
+        {"zh": "我一眨都不眨眼", "en": "I don't blink at all"},
+        {"zh": "我的膝盖微微弯着", "en": "My knees stay slightly bent"},
+        {"zh": "我把鞭子收回来一点", "en": "I retract my whips a little"},
+        {"zh": "我随时都可以动手", "en": "I can go whenever you like"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你贴得离我太近了", "en": "You're crowding me"},
+        {"zh": "我抬起一根鞭子", "en": "I lift one whip"},
+        {"zh": "你看着我的手，很聪明", "en": "You watch my hands; clever"},
+        {"zh": "我歪头，把鞭子绕在腕上。", "en": "I tilt my head and coil my whip around my wrist."},
+        {"zh": "我们之间的距离刚好够我一下", "en": "The gap between us is exactly one strike"},
+        {"zh": "你退，我不追，只跟", "en": "You retreat; I don't chase, I follow"},
+        {"zh": "你的脚在往后退，我看得见", "en": "I can see your feet retreating"},
+        {"zh": "我歪头，关节响了一下", "en": "I tilt my head and a joint clicks"},
+        {"zh": "你身上一股铁腥", "en": "You reek of iron"},
+        {"zh": "我先不动，你动我再动", "en": "I won't move first; you do"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我退开一步，鞭子收回来", "en": "I retreat a pace and pull my whips in"},
+        {"zh": "我的关节响得厉害", "en": "My joints grind loudly"},
+        {"zh": "我半蹲着，重新估距离", "en": "I crouch and recalculate the distance"},
+        {"zh": "我的皮上开了一道口", "en": "A gash opens in my hide"},
+        {"zh": "我没有叫，只是呼气", "en": "I don't cry out; I only exhale"},
+        {"zh": "我跳开，落地时歪了一下", "en": "I leap away and land crooked"},
+        {"zh": "我抖了抖挨了打的那条臂", "en": "I shake the arm that took the hit"},
+        {"zh": "我盯着你，动作慢了", "en": "I stare at you, moving slower"},
+        {"zh": "火在我伤口边烧着", "en": "Flame burns at the edge of the wound"},
+        {"zh": "我重新站起来", "en": "I stand up again"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手上那团热气，别收起来。", "en": "Do not put away that warm glow in your hand."},
+        {"zh": "那点热量，我要", "en": "I want that little heat"},
+        {"zh": "我伸出鞭子，慢慢靠近", "en": "I extend a whip, slowly"},
+        {"zh": "你把手里的东西撂下", "en": "Set down what you're holding"},
+        {"zh": "热腾腾的，还带着铁味。", "en": "Piping hot, and still smelling of iron."},
+        {"zh": "我只要那么一点", "en": "I only want a little"},
+        {"zh": "你的手可别发抖", "en": "Don't let your hand shake"},
+        {"zh": "我够得着，只是不想吓你", "en": "I can reach it; I just don't want to scare you"},
+        {"zh": "再往我这儿半步", "en": "Half a step nearer"},
+        {"zh": "你往后退也没用", "en": "Backing up does you no good"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鞭子一垂，热气就散了。", "en": "My whip drops, and the heat spills."},
+        {"zh": "我的鞭子缠了一下你的脚", "en": "My whip catches your ankle"},
+        {"zh": "我一膀子把你顶开", "en": "I shoulder you clear"},
+        {"zh": "你的护甲磕在我的膝上", "en": "Your armor knocks my knee"},
+        {"zh": "我一个翻身就站回来了", "en": "I roll and come up standing"},
+        {"zh": "你推我，我顺着退", "en": "You push and I flow back"},
+        {"zh": "我的尾巴扫到你的腿", "en": "My tail sweeps your legs"},
+        {"zh": "我们撞在一起，火星溅开", "en": "We clash and sparks fly"},
+        {"zh": "你退了两步，我没跟", "en": "You take two steps; I don't follow"},
+        {"zh": "这一下连皮都没擦破", "en": "That didn't even scuff me"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "远处落下一个同类", "en": "One of my kind lands nearby"},
+        {"zh": "我们互相甩了一下鞭子", "en": "We snap our whips at each other"},
+        {"zh": "它的鞭子比我的长", "en": "Its whips are longer than mine"},
+        {"zh": "我的鞭子甩出去，石头都裂。", "en": "My lash cracks stone."},
+        {"zh": "我们一起蹲下", "en": "We crouch together"},
+        {"zh": "它的背上有一道旧痕", "en": "There's an old scar on its back"},
+        {"zh": "我们同时看向一个方向", "en": "We look the same way at once"},
+        {"zh": "没有多余的动作", "en": "No wasted motion"},
+        {"zh": "它先动，我跟上", "en": "It moves first; I follow"},
+        {"zh": "这片猎场够两个", "en": "This hunting ground serves two"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用鞭子把它卷起来", "en": "I hook it with a whip"},
+        {"zh": "我拉到眼前看了看", "en": "I draw it up to look"},
+        {"zh": "它是热的，刚好", "en": "It's warm; good"},
+        {"zh": "我用牙把它咬开", "en": "I bite it open"},
+        {"zh": "里面的东西亮着", "en": "What's inside glows"},
+        {"zh": "我把它收进腰侧", "en": "I tuck it at my hip"},
+        {"zh": "我又扔了，没用", "en": "I throw it away; useless"},
+        {"zh": "那东西在我爪里碎了", "en": "It broke apart in my grip"},
+        {"zh": "这一个就给你吧", "en": "You may have this one"},
+        {"zh": "剩下的我留一半", "en": "I'll keep half of it"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你终于动起来了", "en": "You've finally moved"},
+        {"zh": "我的鞭子抬起来了", "en": "My whips are up"},
+        {"zh": "这一刻我盼了很久", "en": "I've wanted this moment a long while"},
+        {"zh": "我跳起来，从上方压下来", "en": "I leap and come down from above"},
+        {"zh": "你退到墙边，很好", "en": "You've backed to the wall; good"},
+        {"zh": "我的腿一屈就够到你", "en": "One bend of my legs and I'm on you"},
+        {"zh": "你已经在我的圈里了", "en": "You're inside my circle now"},
+        {"zh": "这一片都是我的场", "en": "This whole area is my arena"},
+        {"zh": "脚一离地，我就到了你侧面。", "en": "One push off the ground and I am at your flank."},
+        {"zh": "你抬手就慢了", "en": "Your guard comes up too late"},
+        {"zh": "我咧开嘴笑了一下", "en": "I let a grin slip out"},
+        {"zh": "鞭子在我手上绕了一圈", "en": "My whip coils once around my hand"},
+        {"zh": "热风从我背后过来", "en": "Hot wind comes from behind me"},
+        {"zh": "我这就朝你冲了", "en": "Here I come at you"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我绕着圈跳，找角度", "en": "I bound in circles, hunting an angle"},
+        {"zh": "鞭子先到，人才到", "en": "The whip arrives before I do"},
+        {"zh": "你躲开第一下，第二下在等你", "en": "You dodge the first; the second waits"},
+        {"zh": "我贴着地面横滑过去", "en": "I slide low across the ground"},
+        {"zh": "我不停地变换位置", "en": "I never stay in one place"},
+        {"zh": "鞭梢先绕到你的背后。", "en": "My lash tip curls around behind you first."},
+        {"zh": "我把你往角落赶", "en": "I herd you toward the corner"},
+        {"zh": "我的尾巴在身后保持平衡", "en": "My tail counterbalances behind me"},
+        {"zh": "你挡左边，我就走右边", "en": "You guard left; I take right"},
+        {"zh": "我落地，立刻又弹起", "en": "I land and spring again at once"},
+        {"zh": "烈鞭的鞭梢在空气里等你的呼吸。", "en": "Whiplash's tip waits in the air for your breath."},
+        {"zh": "我等你先挥出第一下", "en": "I wait for your first swing"},
+        {"zh": "这一块地面被我们踩热了", "en": "We've heated this ground between us"},
+        {"zh": "鞭子甩空的声音很响", "en": "A missed whip cracks loudly"},
+        {"zh": "我一步一步收紧", "en": "I tighten the circle step by step"},
+        {"zh": "最后一下我会很近", "en": "The last one will be very close"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鞭子横着抽在你的胸口", "en": "My whip cracks across your chest"},
+        {"zh": "我跳起，膝盖先撞过去", "en": "I leap, knee first"},
+        {"zh": "这一下打在你护甲上，火星四溅", "en": "The blow lands on your armor in a spray of sparks"},
+        {"zh": "你被抽得偏了半步", "en": "The lash turns you half a step"},
+        {"zh": "我从上面落下来，双脚踩向你", "en": "I come down feet first"},
+        {"zh": "我的尾巴扫你的脚踝", "en": "My tail sweeps your ankle"},
+        {"zh": "这一鞭缠住了你的手腕", "en": "This whip coils around your wrist"},
+        {"zh": "你挣开，皮被带掉一层", "en": "You tear free, leaving skin behind"},
+        {"zh": "我贴地滑到你背后", "en": "I slide along the ground behind you"},
+        {"zh": "我的鞭子甩回来，防不住", "en": "The whip comes back; you can't guard both"},
+        {"zh": "你挡住了，可手在抖", "en": "You block it, but your hand shakes"},
+        {"zh": "这一下抽空了，我顺势翻过去", "en": "I miss and roll through"},
+        {"zh": "我用双手一起抽下去", "en": "I bring both whips down"},
+        {"zh": "你退了一步，地上有焦痕", "en": "You fall back a step, leaving scorch marks"},
+        {"zh": "我一点没有停下", "en": "I haven't paused at all"},
+        {"zh": "下一次不会给你时间", "en": "Next time you get no time"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我踩在下界岩上，灰还没落。", "en": "I land on the netherrack before the dust settles."},
+        {"zh": "落地时只扬起一点灰", "en": "I land raising only a little dust"},
+        {"zh": "我的鞭子先落在地上", "en": "My whips touch down first"},
+        {"zh": "火光照出我的影子", "en": "Firelight finds my shadow"},
+        {"zh": "我屈膝站起来", "en": "I rise from a crouch"},
+        {"zh": "空气一下子紧了", "en": "The air tightens all at once"},
+        {"zh": "我抬起一根鞭子，指向你", "en": "I lift a whip and point it at you"},
+        {"zh": "这里有点太亮了", "en": "It's a little too bright here"},
+        {"zh": "我先看了看四周的退路", "en": "I check the exits first"},
+        {"zh": "我的关节一节节响", "en": "My joints click one by one"},
+        {"zh": "我从岩浆边上走过来", "en": "I walk in from beside the lava"},
+        {"zh": "我来了，你不用等", "en": "I'm here; don't wait"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火顺着我的皮爬，我甩不脱", "en": "Fire climbs my hide and I can't shake it"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "落地时我的腿没撑住", "en": "My legs fail on the landing"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "岩浆灌进我的口鼻", "en": "Lava floods my mouth and nose"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆风把我掀翻出去", "en": "The blast flings me over"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭钉在我的肩上", "en": "An arrow pins my shoulder"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股力量让我的关节僵住", "en": "That force stiffens my joints"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "太久没进食，我的动作慢了", "en": "Too long without food; my moves lag"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打下来，我跪了一下", "en": "Lightning strikes and I drop to one knee"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没有地面，我的腿找不到落点", "en": "No ground; my legs find no landing"}
+      ]
+    }
+  }
+}

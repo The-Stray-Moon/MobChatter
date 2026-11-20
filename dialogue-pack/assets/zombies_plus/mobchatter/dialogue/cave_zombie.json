@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出低沉的脚步声", "en": "Makes a low grunt"},
+        {"zh": "缓慢地挪动着", "en": "Moves slowly"},
+        {"zh": "咀嚼着岩石碎片", "en": "Chews on rock chunks"},
+        {"zh": "在洞穴中缓慢前行", "en": "Crawls slowly through the cave"},
+        {"zh": "摸索着前进", "en": "Feels its way forward"},
+        {"zh": "盯着光源", "en": "Stares at the light source"},
+        {"zh": "啃咬着墙壁", "en": "Bites at the wall"},
+        {"zh": "我摸着石壁，一步步往前。", "en": "I feel along the wall and move forward step by step."},
+        {"zh": "啃噬着石质地面", "en": "Chews on the stonework floor"},
+        {"zh": "石头缝里，我慢慢爬出来。", "en": "Out of a stone crack, I crawl slowly."},
+        {"zh": "光越亮，我的腿越沉。", "en": "The brighter the light, the heavier my legs."},
+        {"zh": "贴着石壁走，避开火把。", "en": "I hug the stone wall, away from the torches."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低头喘息", "en": "Sniffs the ground"},
+        {"zh": "盯着前方", "en": "Stares ahead"},
+        {"zh": "观察洞穴", "en": "Scans the cave"},
+        {"zh": "我在暗处数着矿灯的余烬。", "en": "I count the embers of the mine lamps from the dark."},
+        {"zh": "舔着嘴唇", "en": "Licks its lips"},
+        {"zh": "注视着地面上", "en": "Stares at the ground"},
+        {"zh": "啃咬着空气", "en": "Bites at the air"},
+        {"zh": "盯着黑暗", "en": "Stares into the darkness"},
+        {"zh": "发出沉闷的叫声", "en": "Gives a low moan"},
+        {"zh": "低头观察", "en": "Nods its head"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从矿石缝里，我露出半张脸。", "en": "I show half a face from the ore seam."},
+        {"zh": "越黑的地方，我越快。", "en": "The darker it is, the faster I get."},
+        {"zh": "我在算你的火把还能烧多久。", "en": "I'm working out how long your torch will last."},
+        {"zh": "张望玩家", "en": "Scans for the player"},
+        {"zh": "我的眼睛在暗处反了一下光。", "en": "My eyes catch the light once in the dark."},
+        {"zh": "朝向玩家", "en": "Faces the player"},
+        {"zh": "火光下我的动作慢了一半。", "en": "In torchlight my movements are half as fast."},
+        {"zh": "我盯着你的火把，往后退了半步。", "en": "I stare at your torch and shrink back half a step."},
+        {"zh": "盯着玩家的行踪", "en": "Tracks the player's movements"},
+        {"zh": "矿石缝里的黑，正合我意。", "en": "The dark in these ore seams suits me."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "骨头在颤抖...", "en": "The bones tremble..."},
+        {"zh": "石头在我身上...", "en": "Stone on me..."},
+        {"zh": "我感觉不妙...", "en": "Not good..."},
+        {"zh": "洞穴中回响...", "en": "Echoes in the cave..."},
+        {"zh": "洞穴中颤抖...", "en": "Cave trembles..."},
+        {"zh": "石缝中痛苦...", "en": "Pain in the stones..."},
+        {"zh": "洞穴中呻吟...", "en": "Whimper in the cave..."},
+        {"zh": "石壁中颤抖...", "en": "Rock wall trembles..."},
+        {"zh": "洞穴中哭泣...", "en": "Cave cries..."},
+        {"zh": "石中痛苦...", "en": "Pain in the stone..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐烂的骨头诱人落下。", "en": "Rotting bone tempts you down."},
+        {"zh": "你手里的火光照亮了我。", "en": "Your flame lights me up."},
+        {"zh": "跟随我，享受腐肉的滋味。", "en": "Follow me, savor the flesh."},
+        {"zh": "你的声音引我靠近。", "en": "Your voice draws me near."},
+        {"zh": "靠近些，让我的气息包围你。", "en": "Come closer, let my presence envelop you."},
+        {"zh": "黑暗中你无法看见我的利爪。", "en": "In the dark, you cannot see my claws."},
+        {"zh": "我只需一点你的鲜血。", "en": "Just a drop of your blood."},
+        {"zh": "你身上的光让我更饿。", "en": "Your light makes me hungrier."},
+        {"zh": "你身上有我想要的。", "en": "You have what I want."},
+        {"zh": "靠近一些，我有东西给你。", "en": "Come closer, I have something for you."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石头撞击发出沉闷声响。", "en": "Stones clatter with dull sounds."},
+        {"zh": "你的碰撞激发我的怒火。", "en": "Your collision stirs my anger."},
+        {"zh": "撞击洞壁的回声。", "en": "Echoes from hitting the cave wall."},
+        {"zh": "你撞碎了我身后的石头。", "en": "You shattered the stone behind me."},
+        {"zh": "洞穴的石块阻挡你的路。", "en": "Cave stones block your path."},
+        {"zh": "撞击让我更加警觉。", "en": "Impact sharpens my vigilance."},
+        {"zh": "撞击声让我注意到你。", "en": "The sound draws my attention."},
+        {"zh": "撞击洞穴墙壁，灰尘四起。", "en": "Dust flies from hitting the cave wall."},
+        {"zh": "撞击声打破了洞穴的寂静。", "en": "The silence is broken by the impact."},
+        {"zh": "碰撞让我的警惕心更强。", "en": "Collision heightens my alertness."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这一层矿洞，只我一个。", "en": "On this level of the mine, I am alone."},
+        {"zh": "矿洞里回声太多，我喊不准。", "en": "Too many echoes in the mine; I can't call straight."},
+        {"zh": "洞里太暗，反而舒服。", "en": "The dark cave suits me better."},
+        {"zh": "我听见另一双脚在碎石上走。", "en": "I hear another pair of feet on the gravel."},
+        {"zh": "我在矿脉深处等一个同类。", "en": "I wait deep in the ore vein for one of my kind."},
+        {"zh": "石缝里够宽，能容下两个。", "en": "The stone crack is wide enough for two."},
+        {"zh": "我的同类会来寻我。", "en": "My kind will seek me."},
+        {"zh": "与我共舞。", "en": "Dance with me."},
+        {"zh": "光一暗，我的速度就上来。", "en": "When the light drops, my speed rises."},
+        {"zh": "石头缝里的我，也在等一个伴。", "en": "In this rock crack, I too wait for a mate."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "骨头上的泥是洞穴给的。", "en": "Cave dirt comes with the bones."},
+        {"zh": "啃食石头碎片", "en": "Chomping on stone fragments."},
+        {"zh": "矿石中挖洞", "en": "Digging in the stones."},
+        {"zh": "啃食岩石残渣", "en": "Chomping on rock debris."},
+        {"zh": "岩石间寻找出路", "en": "Seeking an escape through rocks."},
+        {"zh": "在矿洞里寻找食物", "en": "Scavenging in the mines."},
+        {"zh": "岩石下寻找洞穴出口", "en": "Hunting for an exit in the rocks."},
+        {"zh": "啃食着矿石", "en": "Feasting on the stone."},
+        {"zh": "岩石缝隙中穿梭", "en": "Slithering through rock crevices."},
+        {"zh": "挖掘岩石获取养分", "en": "Mining the rock for nutrients."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "感知微弱光芒", "en": "Perceiving faint light."},
+        {"zh": "黑暗中锁定目标", "en": "Targeting in the dark."},
+        {"zh": "瞄准闪烁的火把", "en": "Aiming at the flickering torch."},
+        {"zh": "追踪微光中的敌人", "en": "Tracing the enemy in the dim light."},
+        {"zh": "感知远处的火把", "en": "Perceiving the distant torch."},
+        {"zh": "在黑暗中搜寻敌人", "en": "Hunting for enemies in the dark."},
+        {"zh": "黑暗中锁定猎物", "en": "Locking on to prey in the dark."},
+        {"zh": "微光下锁定目标", "en": "Locking on to the target in the light."},
+        {"zh": "黑暗中搜索猎物", "en": "Searching for prey in the dark."},
+        {"zh": "光线下搜寻敌人", "en": "Scanning for enemies in the light."},
+        {"zh": "火把的光，让我慢了下来。", "en": "The torchlight slows me down."},
+        {"zh": "你举着火把，反而更好找。", "en": "Your torch makes you easier to find."},
+        {"zh": "光照到我，力量就退一半。", "en": "Light hits me and half my strength drains."},
+        {"zh": "我把身子往暗处挪，再盯你。", "en": "I shift into the dark, then watch you."},
+        {"zh": "石缝里传来回应，不止我一个。", "en": "Something answers from the cracks. I'm not alone."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "光一亮，我就慢下来。", "en": "The brighter it gets, the slower I move."},
+        {"zh": "这里够黑，我的力量全回来了。", "en": "Dark enough here — all my strength is back."},
+        {"zh": "我等你走进没有光的那段。", "en": "I wait for you to step into the stretch with no light."},
+        {"zh": "瞄准敌人的头部", "en": "Targeting the head."},
+        {"zh": "锁定敌人的关键部位", "en": "Locking on to the critical point."},
+        {"zh": "瞄准敌人的要害", "en": "Targeting the vital point."},
+        {"zh": "瞄准敌人的要害部位", "en": "Targeting the vital spot."},
+        {"zh": "瞄准敌人的致命部位", "en": "Targeting the fatal spot."},
+        {"zh": "瞄准敌人的致命弱点", "en": "Targeting the fatal weak spot."},
+        {"zh": "我等你把火把放下。", "en": "I wait for you to put the torch down."},
+        {"zh": "暗处我最快，你站错地方了。", "en": "I'm fastest in the dark, and you chose the wrong spot."},
+        {"zh": "我贴着洞顶，从上面看你。", "en": "I cling to the ceiling and look down at you."},
+        {"zh": "你身后的矿洞，比前面黑。", "en": "The tunnel behind you is darker than the one ahead."},
+        {"zh": "我在等光照等级掉到零。", "en": "I am waiting for the light level to hit zero."},
+        {"zh": "你踩的这块石头，我啃过。", "en": "I have chewed the stone you're standing on."},
+        {"zh": "离火光越远，我越快。", "en": "The farther from firelight, the faster I get."},
+        {"zh": "你把火把举高，也不够亮。", "en": "Raise that torch all you like. It isn't enough."},
+        {"zh": "每两秒，我都在变强。", "en": "Every two seconds, I get stronger."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我扑上去，把你撞在石壁上。", "en": "I lunge and slam you against the stone wall."},
+        {"zh": "我咬在你的肘上，牙陷进骨缝。", "en": "I bite your elbow, teeth sinking into the joint."},
+        {"zh": "我这一拳带着石粉的味道。", "en": "This punch of mine tastes of stone dust."},
+        {"zh": "光不能伤害我！", "en": "Light can't hurt me!"},
+        {"zh": "你的头颅是我的晚餐！", "en": "Your head's my dinner!"},
+        {"zh": "洞里越黑，我越有力气。", "en": "The darker the cave, the stronger I get."},
+        {"zh": "躲进阴影里！", "en": "Hide in the shadows!"},
+        {"zh": "你退进阴影，正合我意。", "en": "You back into the shadows; that suits me fine."},
+        {"zh": "光太弱了！", "en": "Too weak!"},
+        {"zh": "牙齿缝里全是石灰。", "en": "My teeth are packed with limestone grit."},
+        {"zh": "我把你按进岩石里。", "en": "I press you into the rock."},
+        {"zh": "黑处的一击，最重。", "en": "A blow from the dark lands hardest."},
+        {"zh": "火把一熄，我的速度就回来了。", "en": "The torch dies, and my speed returns."},
+        {"zh": "我咬下去，骨头上留着坑。", "en": "I bite, and leave pits in the bone."},
+        {"zh": "矿石的味道，混着你的血。", "en": "The taste of ore, mixed with your blood."},
+        {"zh": "在洞穴里，我从不放慢。", "en": "In a cave, I never slow down."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从矿石裂缝里挤出来。", "en": "I squeeze out of a crack in the ore."},
+        {"zh": "矿洞的守护者！", "en": "Cave guardian!"},
+        {"zh": "石头中走出！", "en": "Out of the stone!"},
+        {"zh": "矿石的腐化！", "en": "Stone corruption!"},
+        {"zh": "这石头缝里，光越少我越壮。", "en": "In this rock crack, less light makes me stronger."},
+        {"zh": "矿洞的幽灵！", "en": "Mine ghost!"},
+        {"zh": "躲在石缝中！", "en": "Hide in the cracks!"},
+        {"zh": "洞穴的遗民！", "en": "Cave remnant!"},
+        {"zh": "光中消失！", "en": "Fade in light!"},
+        {"zh": "我从不多的光里爬出来。", "en": "I crawl out of what little light there is."},
+        {"zh": "洞穴的黑暗里，多了一个影子。", "en": "A new shadow joins the cave's dark."},
+        {"zh": "岩石裂开，我钻了出来。", "en": "The rock splits and I squeeze out."},
+        {"zh": "三十的权重，让我常见。", "en": "With weight thirty, I turn up often."},
+        {"zh": "这里的石头，正好够我藏。", "en": "There is just enough stone here to hide me."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧灼我...", "en": "Fire burns me..."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石头砸中我...", "en": "Stone falls on me..."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞穴淹没了我...", "en": "Cave drowned me..."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石头爆炸了...", "en": "Stone explodes..."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石块击中我...", "en": "Stone hits me..."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石头魔法伤我...", "en": "Stone magic hurts me..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞穴中饥饿...", "en": "Cave hunger..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞穴雷击我...", "en": "Cave lightning strikes..."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞穴深渊吞噬...", "en": "Cave void swallows..."}
+      ]
+    }
+  }
+}

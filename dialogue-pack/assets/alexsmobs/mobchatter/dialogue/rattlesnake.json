@@ -1,0 +1,411 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴着沙面滑过去，没声音。", "en": "I glide over the sand without a sound."},
+        {"zh": "恶地的红土上，我的花纹最不显眼。", "en": "On red badlands clay my pattern disappears."},
+        {"zh": "我走一条弯线，不走直线。", "en": "I take a winding line, never straight."},
+        {"zh": "沙子烫，我挑石块下面走。", "en": "The sand is hot; I keep to the shade of stones."},
+        {"zh": "尾巴拖在身后，一路留下痕迹。", "en": "My tail drags behind, leaving a trail."},
+        {"zh": "我慢慢绕过去，不惊动那只鸟。", "en": "I circle wide so that bird isn't startled."},
+        {"zh": "我停下来，舌头先探一探风。", "en": "I stop and let my tongue test the wind."},
+        {"zh": "这段路石头多，我贴着走。", "en": "This stretch is stony; I hug the ground."},
+        {"zh": "我身后那串波纹，一看就知道是我。", "en": "That rippled trail behind me is unmistakable."},
+        {"zh": "沙丘背面凉，我往那边挪。", "en": "The dune's far side is cooler; I move there."},
+        {"zh": "前面是走鹃的地盘，我绕着走。", "en": "That's roadrunner country ahead; I go around."},
+        {"zh": "我藏在草丛边，慢慢往前。", "en": "I hide by the grass and inch forward."},
+        {"zh": "一步一停，我在量这片地。", "en": "A step, a pause — I'm measuring this ground."},
+        {"zh": "沙子从鳞片间滑过，我不在意。", "en": "Sand slides between my scales; I don't mind."},
+        {"zh": "我从一块暖石滑到另一块。", "en": "I slide from one warm stone to another."},
+        {"zh": "阴影斜过来，我往那边靠。", "en": "The shade leans in. I lean with it."},
+        {"zh": "谁在沙路上堆石头。", "en": "Who piled stones in my path?"},
+        {"zh": "我的尾巴一响，你最好停。", "en": "When my tail rattles, stop."},
+        {"zh": "我的尾巴在响，退后。", "en": "My tail is rattling. Back off."},
+        {"zh": "沙太烫，我沿着阴影走。", "en": "Sand's hot; I follow the shade."},
+        {"zh": "尾环一响，沙漠都知道。", "en": "One shake of my rattle and the desert knows."},
+        {"zh": "太阳落了，我才出动。", "en": "I only move once the sun drops."},
+        {"zh": "旧皮脱不下来，真烦。", "en": "This old skin won't shed; annoying."},
+        {"zh": "尾环一响，你就该退。", "en": "My rattle sounds, and you should back off."},
+        {"zh": "沿着石缝巡逻一圈。", "en": "One patrol along the rock cracks."},
+        {"zh": "听见沙上的窸窣了吗。", "en": "Hear that rustle on the sand?"},
+        {"zh": "沙粒钻进我的鳞缝。", "en": "Sand works into my scales."},
+        {"zh": "绕开那摊水，我不游泳。", "en": "Go around that puddle; I don't swim."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我盘着身子，等太阳挪位置。", "en": "I coil and wait for the sun to shift."},
+        {"zh": "尾环轻轻一响，就够警告了。", "en": "One soft rattle is warning enough."},
+        {"zh": "我在石头上摊开，晒够了再动。", "en": "I spread on the stone till I'm warm enough."},
+        {"zh": "有只甲虫爬过去，我懒得理。", "en": "A beetle crawls past; I can't be bothered."},
+        {"zh": "谁在远处走，我听得出来。", "en": "I can tell from the sound who walks far off."},
+        {"zh": "舌头一伸一缩，风就清楚了。", "en": "Tongue out and in, and the wind is clear."},
+        {"zh": "我的花纹和沙丘的影子一样。", "en": "My pattern matches the dune shadows."},
+        {"zh": "我数着走鹃的步子，还远。", "en": "I count the roadrunner's steps — still far."},
+        {"zh": "这窝沙是我刨的，别踩。", "en": "I dug this hollow; don't step in it."},
+        {"zh": "尾环干了，响起来更脆。", "en": "My rattle has dried; it sounds sharper now."},
+        {"zh": "我不叫，响环就是我的话。", "en": "I don't call; the rattle is my voice."},
+        {"zh": "恶地的风一阵一阵，我等着。", "en": "The badlands wind comes in gusts; I wait."},
+        {"zh": "一颗鳞片又翘起来了。", "en": "Another scale is lifting."},
+        {"zh": "就这样晒着吧。", "en": "Just bask like this."},
+        {"zh": "风里有一股热乎的味道。", "en": "There is a warm scent on the wind."},
+        {"zh": "沙面刚才鼓了一下。", "en": "The sand bulged just now."},
+        {"zh": "盘久了，忘了要等谁。", "en": "Coiled so long I forgot what I waited for."},
+        {"zh": "尾巴在沙上沙沙响。", "en": "My rattle hisses on the sand."},
+        {"zh": "等凉下来，等脚步声。", "en": "Wait for cool air, wait for footsteps."},
+        {"zh": "这块石头晒得正好。", "en": "This rock is warmed just right."},
+        {"zh": "我是不是盘错了石头。", "en": "Did I coil on the wrong rock?"},
+        {"zh": "尾环一响，你就该退了。", "en": "When my rattle sounds, back off."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的脚步太重，我一早听见。", "en": "Your steps are heavy; I heard them early."},
+        {"zh": "站住，别再往前半步。", "en": "Stop — not half a step further."},
+        {"zh": "你听见尾环了吗？那就够了。", "en": "You hear the rattle? Then that's enough."},
+        {"zh": "我抬起头，是在量你的距离。", "en": "I raise my head to measure your distance."},
+        {"zh": "你不退，我就不再警告。", "en": "If you don't back off, I stop warning."},
+        {"zh": "别用棍子挑我，我会记仇。", "en": "Don't poke me with a stick; I hold grudges."},
+        {"zh": "我的眼睛不眨，你的会。", "en": "My eyes don't blink; yours do."},
+        {"zh": "你站在我的晒太阳的地盘上。", "en": "You're standing on my sunning ground."},
+        {"zh": "再近一步，我就当你要踩我。", "en": "One step more and I'll think you mean to tread on me."},
+        {"zh": "你身上有肉味，我闻到了。", "en": "You smell of meat; I noticed."},
+        {"zh": "沙地上只有一串脚印。", "en": "Only one set of prints on this sand."},
+        {"zh": "响尾蛇？一点也不像。", "en": "Rattlesnake? Doesn't look like one."},
+        {"zh": "在找水？这片沙没有。", "en": "Looking for water? Not in this sand."},
+        {"zh": "听听我尾巴的响声。", "en": "Listen to the rattle in my tail."},
+        {"zh": "尾巴一响，沙地就静了。", "en": "One rattle and the sand goes quiet."},
+        {"zh": "你的靴子挡不住毒牙。", "en": "Your boots won't stop these fangs."},
+        {"zh": "你的鞋底压扁我的沙窝。", "en": "You stepped on my sand hollow."},
+        {"zh": "火把举高点，我看不清。", "en": "Hold the torch higher, I can't see."},
+        {"zh": "我在沙里埋了很久。", "en": "I've been buried in the sand a long while."},
+        {"zh": "别装没看见我盘在石头上。", "en": "Don't pretend you missed me coiled on the rock."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我盘紧了，尾环响个不停。", "en": "I coil tight, rattle going without pause."},
+        {"zh": "这一下打断了我晒太阳。", "en": "That cut short my sunbathing."},
+        {"zh": "鳞片翻起来两片，很疼。", "en": "Two scales flipped up — that hurts."},
+        {"zh": "你打我之前，我警告过。", "en": "I warned you before you struck."},
+        {"zh": "我退到石头缝里，不再出来。", "en": "I retreat into a rock crack and stay."},
+        {"zh": "毒牙还完好，这算好消息。", "en": "The fangs are intact — that's the good news."},
+        {"zh": "我尾巴抬起来了，你最好退。", "en": "My tail is up; you'd best back off."},
+        {"zh": "这一下让我想起了走鹃。", "en": "That blow reminded me of the roadrunner."},
+        {"zh": "我不叫疼，蛇不叫。", "en": "I don't cry out; snakes don't."},
+        {"zh": "沙里藏不住疼，我只能忍。", "en": "Sand can't hide pain; I just endure it."},
+        {"zh": "疼得我尾环直响。", "en": "Pain makes my rattle buzz."},
+        {"zh": "毒囊还满着，可骨头裂了。", "en": "Venom sac full, but my bones cracked."},
+        {"zh": "再来，我鳞片硬。", "en": "Again — my scales are tough."},
+        {"zh": "毒牙还在，只是身子僵了。", "en": "The fangs are fine — only my body's stiff."},
+        {"zh": "尾环响了，你惹火我了。", "en": "My rattle is going; you angered me."},
+        {"zh": "你的棍子正打在我的环纹上。", "en": "Your stick landed right on my bands."},
+        {"zh": "恶地的石头，比我还烫。", "en": "The badlands stone is hotter than I am."},
+        {"zh": "我还能把身子撑起来。", "en": "I can still lift myself up."},
+        {"zh": "谁往沙里扔石头？", "en": "Who threw a stone into my sand?"},
+        {"zh": "退后，毒牙已经竖起来。", "en": "Back off, my fangs are already bared."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "肉味是真的，我不挑种类。", "en": "That meat smell is real; I'm not picky."},
+        {"zh": "你把肉放下，退开三步。", "en": "Put the meat down and back off three steps."},
+        {"zh": "我慢慢过来，你别伸手。", "en": "I'll come over slowly; don't reach out."},
+        {"zh": "生肉最好，熟的也凑合。", "en": "Raw meat is best; cooked will do."},
+        {"zh": "为了这块肉，尾环先收起来。", "en": "For this meat, the rattle goes quiet."},
+        {"zh": "我闻到了，但我还要再看一会儿。", "en": "I smell it, but I'll watch a while longer."},
+        {"zh": "你晃那块肉，我头就跟着动。", "en": "Wave that meat and my head follows."},
+        {"zh": "繁殖的事，得先有肉。", "en": "Breeding first requires meat."},
+        {"zh": "这味道比沙鼠还浓。", "en": "Stronger than a desert rat, this smell."},
+        {"zh": "别扔过来，我讨厌突然的动静。", "en": "Don't toss it; sudden moves annoy me."},
+        {"zh": "放下，退开，我不追。", "en": "Set it down, back off, I won't follow."},
+        {"zh": "沙里的味道，是肉。", "en": "That smell in the sand — meat."},
+        {"zh": "我的尾巴在响，你听见了。", "en": "My tail is rattling — you hear it."},
+        {"zh": "我只要那个会动的。", "en": "I only want the one that moves."},
+        {"zh": "那点热气，我的舌头尝到了。", "en": "My tongue tastes that warmth."},
+        {"zh": "是温的还是凉的？", "en": "Is it warm or cold?"},
+        {"zh": "别晃，我扑不准。", "en": "Don't sway, I can't aim my strike."},
+        {"zh": "整只吞，不用切。", "en": "I swallow it whole, no need to cut."},
+        {"zh": "有蛋就吃，我不挑。", "en": "An egg will do; I'm not picky."},
+        {"zh": "恶地的石头，烫得正好。", "en": "Badland stones are just hot enough."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的脚压住了我的尾环。", "en": "Your foot is pinning my rattle."},
+        {"zh": "撞我之前，先听尾环。", "en": "Before you bump me, hear the rattle."},
+        {"zh": "我盘得太靠路中间了。", "en": "I coiled too close to the path."},
+        {"zh": "这一脚让我整条身子都绷紧了。", "en": "That kick tensed my whole body."},
+        {"zh": "别用靴尖试我，我会咬。", "en": "Don't test me with your boot; I bite."},
+        {"zh": "我挪开，但不太情愿。", "en": "I'll move aside, unwillingly."},
+        {"zh": "沙被踢起来，落了我一身。", "en": "Kicked sand settles all over me."},
+        {"zh": "我抬头看你，你还站着不动。", "en": "I look up at you and you still don't move."},
+        {"zh": "该退的是你，我盘在这儿。", "en": "You're the one to retreat; I'm coiled here."},
+        {"zh": "我贴着你脚边滑过去，别动。", "en": "I'll slide past your foot — hold still."},
+        {"zh": "撞一下不会死，毒会。", "en": "A bump will not kill you; my venom will."},
+        {"zh": "我的尾巴一响，你就退了。", "en": "My rattle sounds and you step back."},
+        {"zh": "别挤，我盘着呢。", "en": "Don't crowd me, I'm coiled."},
+        {"zh": "看路，我贴在沙面上。", "en": "Watch your step, I lie flat on the sand."},
+        {"zh": "尾巴一响，就是警告。", "en": "One rattle of my tail is the warning."},
+        {"zh": "你踩着我盘着的沙了。", "en": "You stepped on the sand I'm coiled on."},
+        {"zh": "我的鳞片被你蹭乱了。", "en": "You scuffed my scales loose."},
+        {"zh": "站稳，你的脚跟压着我的尾尖。", "en": "Steady, don't step on my tail."},
+        {"zh": "两块石头之间，刚好夹住我。", "en": "Between two stones, I barely fit."},
+        {"zh": "你踢到我的尾环了。", "en": "You kicked my rattle."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的尾环声比我的沉。", "en": "Your rattle sounds deeper than mine."},
+        {"zh": "我们盘在一处，晒同一块石头。", "en": "Coiled together, we share one warm stone."},
+        {"zh": "肉我分你一半，别抢。", "en": "Half the meat is yours — don't snatch."},
+        {"zh": "走鹃来时，我们分头走。", "en": "When the roadrunner comes, we split ways."},
+        {"zh": "沙窝挖好了，就在那块石头下。", "en": "The nest hollow is dug, under that stone."},
+        {"zh": "孩子生下来就会响环吗？", "en": "Will the young rattle from birth?"},
+        {"zh": "你靠过来一点，沙子挡风。", "en": "Come closer; the sand blocks the wind."},
+        {"zh": "别让别的蛇进这片沙。", "en": "Don't let other snakes into this patch."},
+        {"zh": "天冷了，我们盘紧一点。", "en": "It's cold; let's coil tighter."},
+        {"zh": "明年这时候，还在这道沙梁。", "en": "Same sand ridge this time next year."},
+        {"zh": "沙窝里暖和，跟我来。", "en": "The sand hollow is warm, come along."},
+        {"zh": "我们的尾环响得一样。", "en": "Our rattles sound alike."},
+        {"zh": "我盘起来，尾巴还在响。", "en": "Coiled, my rattle still sounds."},
+        {"zh": "我在这儿等了三夜。", "en": "I've waited here three nights."},
+        {"zh": "我清出的沙窝够宽。", "en": "The hollow I cleared is wide enough."},
+        {"zh": "沙漠里，只有我们两条命。", "en": "In the desert, only two lives are left."},
+        {"zh": "我收着毒，别怕。", "en": "I'll hold the venom back."},
+        {"zh": "沙太烫，我贴着阴影走。", "en": "The sand burns. I follow the shade."},
+        {"zh": "石缝里暖，跟我来。", "en": "The rock crevice is warm; follow me."},
+        {"zh": "响尾一摇，沙地都在响。", "en": "One shake of my rattle and the sand rings."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这块肉掉在地上，归我了。", "en": "This meat fell on the ground — mine."},
+        {"zh": "我一口吞下，不嚼。", "en": "I swallow it whole, no chewing."},
+        {"zh": "骨头太大，我吞不下。", "en": "That bone is too big to swallow."},
+        {"zh": "有只沙鼠倒在沙里，正好。", "en": "A desert rat lies dead in the sand — just right."},
+        {"zh": "我不捡亮东西，只捡肉。", "en": "I don't pick up shiny things, only meat."},
+        {"zh": "吞完我找个石头底下消化。", "en": "After swallowing I'll digest under a stone."},
+        {"zh": "这味道不新鲜，但还能吃。", "en": "Not fresh, but still edible."},
+        {"zh": "你掉的碎肉，我不客气。", "en": "The scrap you dropped — I'll take it."},
+        {"zh": "我慢慢张嘴，把它整个吞了。", "en": "I open slowly and take it whole."},
+        {"zh": "吃完这顿，几天不用动。", "en": "After this meal I won't move for days."},
+        {"zh": "这个我盘起来守着。", "en": "I'll coil around this and keep it."},
+        {"zh": "这块铁，正好压住我的窝。", "en": "This iron will pin my den down."},
+        {"zh": "别看我吞，我害羞。", "en": "Don't watch me swallow."},
+        {"zh": "尾巴上的响环，就是警告。", "en": "The rattle on my tail is the warning."},
+        {"zh": "这硬东西能吞吗？", "en": "Can I swallow something this hard?"},
+        {"zh": "恶地的石头下面，我盘着。", "en": "Under badlands stone, I coil."},
+        {"zh": "别抢，那枚蛋是我的。", "en": "Don't grab it, that egg is mine."},
+        {"zh": "我盘在暖石上，不想动。", "en": "Coiled on a warm stone, I do not want to move."},
+        {"zh": "沙漠的热把我烤得很干。", "en": "Desert heat dries me out."},
+        {"zh": "沉甸甸的，也算收获。", "en": "Heavy, but it counts as a find."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那边沙下有东西在动。", "en": "Something moves under the sand over there."},
+        {"zh": "一只沙鼠，我盯上了。", "en": "A desert rat — I'm fixed on it."},
+        {"zh": "走鹃的影子落下来，我看见了。", "en": "A roadrunner's shadow falls; I see it."},
+        {"zh": "有脚步声，不太重，是猎物。", "en": "Footsteps, not heavy — prey."},
+        {"zh": "我抬起头，锁住那个方向。", "en": "I raise my head and lock onto that direction."},
+        {"zh": "舌头顶到气味，就在前面。", "en": "My tongue catches the scent — just ahead."},
+        {"zh": "它没看见我，花纹起作用了。", "en": "It hasn't seen me; the pattern works."},
+        {"zh": "我慢慢拉直身子，准备弹出去。", "en": "I straighten out slowly, ready to lunge."},
+        {"zh": "目标在石头背面，我绕过去。", "en": "The target's behind a stone; I circle it."},
+        {"zh": "那团影子太小，不是猎物。", "en": "That shadow is too small to be prey."},
+        {"zh": "我先响一声，看它动不动。", "en": "I rattle once and see if it moves."},
+        {"zh": "距离够了，我不再等。", "en": "Close enough — I stop waiting."},
+        {"zh": "你踩到我的沙窝了。", "en": "You stepped into my sand hollow."},
+        {"zh": "就是你，别往石后躲。", "en": "You, don't hide behind that rock."},
+        {"zh": "石缝那边我守住了。", "en": "I've got the crevice covered."},
+        {"zh": "尾环摇起来，你应该听得见。", "en": "My tail rings rattle — you should hear them."},
+        {"zh": "你的心跳传到沙里。", "en": "Your heartbeat carries through the sand."},
+        {"zh": "尾巴一响，你就该退了。", "en": "My tail rattles. Time to back off."},
+        {"zh": "我的毒牙刚换过新的。", "en": "My fangs have just regrown."},
+        {"zh": "我尾巴一响，就是警告。", "en": "My tail rattles as a warning."},
+        {"zh": "你的汗味太浓了。", "en": "Your sweat is strong."},
+        {"zh": "尾巴一摇，沙沙作响。", "en": "My tail shakes. Rattle, rattle."},
+        {"zh": "别喊，沙子会传声。", "en": "Don't shout; sand carries sound."},
+        {"zh": "尾环一抖，沙就响了。", "en": "One shake of my rattle and the sand hisses."},
+        {"zh": "沙烫脚，我的响环先响。", "en": "The sand is hot; my rattle sounds first."},
+        {"zh": "终于有热乎的了。", "en": "Finally, something warm."},
+        {"zh": "从沙丘背面绕过去。", "en": "I'll circle behind the dune."},
+        {"zh": "冲我来？正好。", "en": "Coming for me? Even better."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一动不动，只有舌头在动。", "en": "I stay still; only my tongue moves."},
+        {"zh": "它再走两步就进范围了。", "en": "Two more steps and it's in range."},
+        {"zh": "我压低头，尾巴收紧了。", "en": "I lower my head and draw my tail in."},
+        {"zh": "风向不对，我再等一等。", "en": "Wrong wind; I'll wait a little."},
+        {"zh": "它抬头了，我停住不动。", "en": "It looks up; I freeze."},
+        {"zh": "就这一下，我瞄准了脖子。", "en": "Just one strike — I aim for the neck."},
+        {"zh": "沙子太松，我得先稳住。", "en": "The sand is loose; I steady myself first."},
+        {"zh": "我把心跳压得很慢，它听不见。", "en": "I slow my heartbeat so it can't be heard."},
+        {"zh": "近了，尾环也停了。", "en": "Closer now, and the rattle falls silent."},
+        {"zh": "它转身了，时机正好。", "en": "It turned — the moment is right."},
+        {"zh": "我数到三，身子就弹出去。", "en": "On three my body springs out."},
+        {"zh": "这一口要准，不能浪费毒。", "en": "One precise bite — I won't waste venom."},
+        {"zh": "慢慢走，我很有耐心。", "en": "Walk slow; I have patience."},
+        {"zh": "沙地下，我比你先到。", "en": "Under the sand I arrive first."},
+        {"zh": "恶地的石头下，我盘着。", "en": "Coiled under badland stone."},
+        {"zh": "热沙上，我的身子贴着走。", "en": "On hot sand I move with my belly down."},
+        {"zh": "沙上的印子，一路都是你的。", "en": "Every print in the sand is yours."},
+        {"zh": "沙上的热，把你的味道送上来。", "en": "Heat off the sand lifts your scent to me."},
+        {"zh": "尾巴一摇，沙就沙沙响。", "en": "One tail shake, and the sand hisses."},
+        {"zh": "爬石头也没用，我缠得紧。", "en": "Climbing won't help; I coil tight."},
+        {"zh": "你身上的热气近了。", "en": "Your body heat is getting closer."},
+        {"zh": "沙子把你的脚步漏给我了。", "en": "The sand leaked your footsteps to me."},
+        {"zh": "我尾巴一响，你该停下来了。", "en": "My rattle sounds; you should stop."},
+        {"zh": "沙地上，我的尾巴在响。", "en": "On the sand my tail rattles."},
+        {"zh": "我不眨眼，也不睡。", "en": "I don't blink and I don't sleep."},
+        {"zh": "拐弯？我贴着沙地抄近路。", "en": "Turn away? I cut close along the sand."},
+        {"zh": "沙丘怎么绕，我清楚。", "en": "I know every turn of these dunes."},
+        {"zh": "你的脚印印在沙上。", "en": "Your prints show clear in the sand."},
+        {"zh": "等等，我爬得不快。", "en": "Wait, I don't crawl fast."},
+        {"zh": "这片沙里没有别人。", "en": "There's no one else in this sand."},
+        {"zh": "我盘起来，尾巴举高给你看。", "en": "I coil up and raise my rattle for you to see."},
+        {"zh": "你还能撑过几座沙丘？", "en": "How many more steps can you run?"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "毒牙先落下，警告在后。", "en": "The fangs land first; the warning comes after."},
+        {"zh": "你靠得太近了，这就是后果。", "en": "You came too close — this is the result."},
+        {"zh": "一口就够，我从不咬第二次。", "en": "One bite suffices; I never strike twice."},
+        {"zh": "我的毒让你的腿发软。", "en": "My venom makes your legs go weak."},
+        {"zh": "咬完我立刻松开，退到石头下。", "en": "I let go at once and retreat under a stone."},
+        {"zh": "你踩我的那一脚，我还回来了。", "en": "That step on me — I've returned it."},
+        {"zh": "尾环响过三次，你没听。", "en": "The rattle sounded three times; you didn't listen."},
+        {"zh": "我的牙很短，但扎得进去。", "en": "My fangs are short, but they go in deep."},
+        {"zh": "别抓我尾巴，那是我的警报。", "en": "Don't grab my tail — that's my alarm."},
+        {"zh": "打完我就走，不守着你。", "en": "I leave after the strike; I don't linger."},
+        {"zh": "腿开始发沉了吧。", "en": "Your legs are getting heavy, right?"},
+        {"zh": "别眨眼，看我的牙。", "en": "Don't blink — watch my fangs."},
+        {"zh": "毒牙很短，够得着你。", "en": "Short fangs, but they reach you."},
+        {"zh": "铁片挡不住毒。", "en": "Iron plates don't stop venom."},
+        {"zh": "吃我一记毒牙！", "en": "Take a venomous bite!"},
+        {"zh": "抱歉，牙收不回来。", "en": "Sorry, the fangs don't retract."},
+        {"zh": "毒已经顺着牙注进去。", "en": "The venom is already in."},
+        {"zh": "再补上一口毒。", "en": "One more dose of venom."},
+        {"zh": "响尾一摇，牙齿就到了。", "en": "One rattle, and my fangs are already there."},
+        {"zh": "走鹃又来了，它专吃我。", "en": "The roadrunner's back. It hunts me."},
+        {"zh": "沙漠的沙子，替我藏住身子。", "en": "Desert sand hides my body."},
+        {"zh": "毒牙一合，你就麻了。", "en": "My fangs close and you go numb."},
+        {"zh": "毒牙一收，你就慢了。", "en": "One bite of venom, and you slow down."},
+        {"zh": "毒牙比尾巴先动。", "en": "My fangs move before my rattle."},
+        {"zh": "这一咬我练了整个夏天。", "en": "I practiced this strike all summer."},
+        {"zh": "咬中了，我退开等。", "en": "Struck; I pull back and wait."},
+        {"zh": "我的毒牙，一咬就麻。", "en": "One bite of my fangs and you go numb."},
+        {"zh": "疼就喊出来，我听得见。", "en": "Scream if it hurts, I can hear you."},
+        {"zh": "退也没用，我慢但不停。", "en": "Backing off won't help; I'm slow but steady."},
+        {"zh": "别动，一下就好。", "en": "Hold still, it's quick."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从沙里出来，尾环先响。", "en": "I come out of the sand, rattle sounding first."},
+        {"zh": "这片恶地够热，我住下了。", "en": "These badlands are hot enough; I'll stay."},
+        {"zh": "先找块石头晒太阳。", "en": "First, a stone to sun myself on."},
+        {"zh": "我盘起来，看看今天有什么。", "en": "I coil up and see what today brings."},
+        {"zh": "沙下有洞，正好藏身。", "en": "A burrow under the sand — good cover."},
+        {"zh": "走鹃的气味不在这片。", "en": "No roadrunner scent in this stretch."},
+        {"zh": "我的花纹在红土上刚好。", "en": "My pattern fits the red clay exactly."},
+        {"zh": "我贴着地面滑进草丛。", "en": "I slip along the ground into the grass."},
+        {"zh": "这里沙鼠多，我留一阵。", "en": "Plenty of rats here; I'll stay a while."},
+        {"zh": "尾环一动，四周就安静了。", "en": "One rattle and everything around goes quiet."},
+        {"zh": "沙那边是谁在动？", "en": "Who's moving beyond the dune?"},
+        {"zh": "这块沙窝我要多待几天。", "en": "I'll keep this hollow for a few days."},
+        {"zh": "我从沙里探出头。", "en": "I poke my head up through the sand."},
+        {"zh": "听，我的尾环在响。", "en": "Listen, my rattle is going."},
+        {"zh": "这石头晒得太烫。", "en": "This rock has baked too hot."},
+        {"zh": "沙丘之间，我醒过来。", "en": "I wake between the dunes."},
+        {"zh": "沙漠，我已经到了。", "en": "the dark. I've arrived."},
+        {"zh": "沙面在晃，我盘不稳。", "en": "The sand sways; I can't coil steady."},
+        {"zh": "刚出沙就饿了。", "en": "Out of the sand and already hungry."},
+        {"zh": "沙子里凉，正好醒神。", "en": "The sand is cool. Good for waking up."},
+        {"zh": "谁把沙子拨开了？", "en": "Who brushed the sand off me?"},
+        {"zh": "抬起身子，看看四周。", "en": "I raise myself to look around."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鳞片一烤就卷，别拿火近我。", "en": "My scales curl in heat — keep flames away."},
+        {"zh": "尾巴的响环都在烧，快灭掉。", "en": "Even my rattle is burning, put it out."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从石头上摔下来，身子打了结。", "en": "I fell off the rock and my body knotted."},
+        {"zh": "从石头上滑下来，摔疼了。", "en": "I slid off the rock and landed hard."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水一漫过背，我就使不上劲。", "en": "Water over my back and I have no strength."},
+        {"zh": "沙子吸水，我要沉了。", "en": "The sand soaks up water; I'm sinking."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我掀到沙丘那头。", "en": "The blast flung me to the far dune."},
+        {"zh": "爆炸把我掀得打了滚。", "en": "The blast rolled me over."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭穿过了我的尾环。", "en": "An arrow went through my rattle."},
+        {"zh": "毒牙还没碰到，先中箭。", "en": "My fangs never landed — the arrow did."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咒语让我的舌头尝不出味道。", "en": "The spell left my tongue tasteless."},
+        {"zh": "那些词让我的鳞发烫。", "en": "Those words make my scales burn."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "七天没肉，毒牙也钝了。", "en": "Seven days without meat and my fangs dull."},
+        {"zh": "沙漠里再不吃就撑不住。", "en": "In the desert, fasting too long ends me."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷落后，沙地烫得像铁板。", "en": "After the lightning the sand burns like iron."},
+        {"zh": "雷劈在沙上，亮得刺眼。", "en": "Lightning on the sand, blinding bright."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我盘在空中，找不到落点。", "en": "I coil in midair with nowhere to land."},
+        {"zh": "连沙粒落下的声音都没有。", "en": "Not even a grain of sand falls here."}
+      ]
+    }
+  }
+}

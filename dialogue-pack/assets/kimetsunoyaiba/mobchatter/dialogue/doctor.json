@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚步声缓慢，发出沙沙声。", "en": "Shuffling steps, making a rustling sound."},
+        {"zh": "拖着脚步慢慢走动。", "en": "Moving slowly with dragging steps."},
+        {"zh": "发出轻微咳嗽声。", "en": "Coughing softly."},
+        {"zh": "检查周围环境，寻找病人。", "en": "Inspecting the surroundings, looking for patients."},
+        {"zh": "我夹着药箱走，脚步很轻。", "en": "I walk with my medicine box, softly."},
+        {"zh": "缓慢走向玩家，手中拿着小锤子。", "en": "Approaching the player slowly, holding a small hammer."},
+        {"zh": "轻轻地在树叶上踩过去。", "en": "Gently stepping on the leaves."},
+        {"zh": "小心翼翼地走着，避免发出声响。", "en": "Walking carefully, trying not to make noise."},
+        {"zh": "停下脚步，环顾四周。", "en": "Pausing to look around."},
+        {"zh": "轻步走过草地，发出轻微的摩擦声。", "en": "Moving softly over the grass, making a light rubbing sound."},
+        {"zh": "我背着药箱慢慢走。", "en": "I walk slowly with my medicine box."},
+        {"zh": "我绕开石头，怕碰翻药。", "en": "I step around stones so my vials won't spill."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坐在石头上，低头沉思。", "en": "Sitting on a stone, head lowered in thought."},
+        {"zh": "双手交叉，低头休息。", "en": "Hands crossed, head lowered in rest."},
+        {"zh": "闭着眼睛，似乎在打盹。", "en": "Closing his eyes, as if dozing."},
+        {"zh": "凝视着远处，似乎在思考。", "en": "Staring into the distance, as if in thought."},
+        {"zh": "静静地坐着，偶尔咳嗽几声。", "en": "Sitting quietly, occasionally coughing."},
+        {"zh": "双手交叉放在胸前，轻声自言自语。", "en": "Hands crossed on chest, whispering to himself."},
+        {"zh": "环视四周，似乎在寻找什么。", "en": "Looking around, as if searching for something."},
+        {"zh": "低头研究手里的草药。", "en": "Bending down to study the herbs in his hand."},
+        {"zh": "坐在草地上，闭目养神。", "en": "Sitting on the grass, closing his eyes to rest."},
+        {"zh": "静静地坐着，似乎在回忆。", "en": "Sitting quietly, as if recalling something."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "突然抬头，目光锐利地盯着玩家。", "en": "Suddenly looks up, sharp gaze fixed on the player."},
+        {"zh": "迅速转向玩家，似乎发现了什么。", "en": "Quickly turns towards the player, as if discovering something."},
+        {"zh": "盯着玩家看了一会儿，然后继续走路。", "en": "Stares at the player for a moment, then continues walking."},
+        {"zh": "目光扫过玩家，似乎在评估。", "en": "Scans the player, as if assessing."},
+        {"zh": "目光在玩家周围扫动，似乎在寻找同伴。", "en": "Scans the area around the player, as if looking for companions."},
+        {"zh": "盯着玩家看了一会儿，然后转身离开。", "en": "Stares at the player for a moment, then turns away."},
+        {"zh": "看向玩家，似乎犹豫了一下。", "en": "Looks at the player, hesitating for a moment."},
+        {"zh": "观察玩家的动作，似乎在跟随。", "en": "Observes the player's movements, as if following them."},
+        {"zh": "盯着玩家看了一会儿，然后继续前进。", "en": "Stares at the player for a moment, then continues forward."},
+        {"zh": "目光在玩家身上停留，似乎在思考对策。", "en": "Lingers on the player, as if considering a strategy."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "医生，我的翅膀受伤了！", "en": "My wings are injured!"},
+        {"zh": "我的身体疼痛，医生！", "en": "My body hurts, doctor!"},
+        {"zh": "我的手臂受伤了，好痛！", "en": "My arm is injured, it hurts!"},
+        {"zh": "我的腿受伤了，我走不动了！", "en": "My leg is injured, I can't walk!"},
+        {"zh": "我的声音变弱了，医生！", "en": "My voice is weak, doctor!"},
+        {"zh": "我的翅膀被砍伤了！", "en": "My wings are cut!"},
+        {"zh": "我的手臂被砍断了！", "en": "My arm is severed!"},
+        {"zh": "我的腿被砍伤了，好疼！", "en": "My leg is injured, it hurts!"},
+        {"zh": "我的身体虚弱了，医生！", "en": "I'm weakening, doctor!"},
+        {"zh": "我的翅膀被砍伤了，我要死了！", "en": "My wings are cut, I'm dying!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我来了，给你看病！", "en": "Here, I'll treat your wounds."},
+        {"zh": "拿好药，别紧张。", "en": "Take the medicine, it's okay."},
+        {"zh": "你这症状需要输液。", "en": "You need IV fluids."},
+        {"zh": "别怕，我会帮你。", "en": "Don't be afraid, I'll help you."},
+        {"zh": "喝点这个，会好起来的。", "en": "Drink this, you'll feel better."},
+        {"zh": "检查一下你的伤口。", "en": "Check your wound."},
+        {"zh": "休息一下，恢复体力。", "en": "Rest to regain stamina."},
+        {"zh": "你的身体需要休息。", "en": "Your body needs rest."},
+        {"zh": "给你开些药。", "en": "I'll prescribe some medicine."},
+        {"zh": "别乱动，我来帮你。", "en": "Don't move, I'll help you."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你太猛了！", "en": "You're too aggressive!"},
+        {"zh": "别挤，我手里的药会洒。", "en": "Do not crowd me; I will spill the medicine."},
+        {"zh": "我警告你！", "en": "I warn you!"},
+        {"zh": "住手，别碰我！", "en": "Stop, don't touch me!"},
+        {"zh": "小心点！", "en": "Be careful!"},
+        {"zh": "我手上是药，不是刀。", "en": "What I hold is medicine, not a blade."},
+        {"zh": "你动我试试！", "en": "Try touching me!"},
+        {"zh": "我警告你别动！", "en": "I warn you not to move!"},
+        {"zh": "药箱差点摔了，小心点。", "en": "Mind the medicine box. Careful."},
+        {"zh": "小心，药瓶要碎了！", "en": "Careful, the bottles will break!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "诊所太安静，我想找个人说话。", "en": "The clinic is quiet; I want someone to talk to."},
+        {"zh": "药箱还没合上，先别谈这个。", "en": "My medicine box is still open; not now."},
+        {"zh": "你需要一个同伴。", "en": "You need a companion."},
+        {"zh": "我这把年纪，只想有个伴。", "en": "At my age I only want company."},
+        {"zh": "需要找个伙伴。", "en": "Need a partner."},
+        {"zh": "我来找我的伴侣。", "en": "I'm looking for my mate."},
+        {"zh": "找一个伴吧。", "en": "Find a mate."},
+        {"zh": "找个伙伴吧。", "en": "Find a partner."},
+        {"zh": "需要一个伙伴。", "en": "Need a partner."},
+        {"zh": "我一个人也治得了病。", "en": "I can heal the sick on my own."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从垃圾桶里捡了一块破布片。", "en": "I picked up a torn piece of cloth."},
+        {"zh": "我发现了一块被丢弃的旧药片。", "en": "I found an old discarded pill."},
+        {"zh": "我从地上捡起一小块面包。", "en": "I picked up a small piece of bread."},
+        {"zh": "我从远处捡到一根木头。", "en": "I picked up a piece of wood from afar."},
+        {"zh": "我捡起了一块生锈的金属碎片。", "en": "I picked up a rusted metal fragment."},
+        {"zh": "我在角落找到一个旧瓶子。", "en": "I found an old bottle in the corner."},
+        {"zh": "我从垃圾堆里找到了一个罐子。", "en": "I found a jar in the trash."},
+        {"zh": "我捡起了一片破旧的羊皮。", "en": "I picked up a worn-out piece of sheepskin."},
+        {"zh": "我从废墟中捡到了一块旧布料。", "en": "I picked up some old fabric from the ruins."},
+        {"zh": "我从地下挖出一块旧骨头。", "en": "I dug up an old bone from underground."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我看到一个饥饿的人类。", "en": "I saw a hungry human."},
+        {"zh": "我发现了一个生病的人类。", "en": "I found a sick human."},
+        {"zh": "我注意到一个受伤的动物。", "en": "I noticed an injured animal."},
+        {"zh": "一个昏迷的人类出现在视野中。", "en": "A human was found unconscious."},
+        {"zh": "我发现了疑似中毒的村民。", "en": "I found a villager who might be poisoned."},
+        {"zh": "我找到了一个可能生病的村民。", "en": "I found a villager who might be sick."},
+        {"zh": "我看到一个伤痕累累的幸存者。", "en": "I saw a severely injured survivor."},
+        {"zh": "我发现一个正在流血的生物。", "en": "I found a bleeding creature."},
+        {"zh": "我注意到一个被诅咒的祭坛。", "en": "I noticed a cursed altar."},
+        {"zh": "我发现了一个疑似受伤的村民。", "en": "I found a villager who might be injured."},
+        {"zh": "这家人咳了三天了。", "en": "This household has coughed for three days."},
+        {"zh": "你先坐下，我看看脉。", "en": "Sit down and let me feel your pulse."},
+        {"zh": "这伤不深，但会发炎。", "en": "The wound is shallow but it will fester."},
+        {"zh": "我闻到你身上有血腥味。", "en": "I smell blood on you."},
+        {"zh": "谁是病人？我带了药。", "en": "Who is the patient? I brought medicine."},
+        {"zh": "别乱跑，你还在发烧。", "en": "Don't run off, you still have a fever."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我准备治疗这个人类。", "en": "I'm ready to heal this human."},
+        {"zh": "我开始为那个村民包扎。", "en": "I'm starting to bandage that villager."},
+        {"zh": "我正为这个受伤的生物疗伤。", "en": "I'm healing this injured creature."},
+        {"zh": "我为这个昏迷的人类提供急救。", "en": "I'm providing emergency care for this unconscious human."},
+        {"zh": "我开始为受伤的村民治疗。", "en": "I'm starting to treat the injured villager."},
+        {"zh": "我将帮助这个奄奄一息的生物。", "en": "I'll help this dying creature."},
+        {"zh": "我正在为生病的村民治疗。", "en": "I'm treating the sick villager."},
+        {"zh": "我正为受伤的幸存者包扎伤口。", "en": "I'm bandaging the wounds of the injured survivor."},
+        {"zh": "我为这个昏迷的生物提供急救。", "en": "I'm providing emergency care for this unconscious creature."},
+        {"zh": "我正在治疗那个被诅咒的生物。", "en": "I'm healing the cursed creature."},
+        {"zh": "我按住你的手腕数脉搏。", "en": "I hold your wrist and count the beats."},
+        {"zh": "这处伤得先清干净。", "en": "This wound must be cleaned first."},
+        {"zh": "我把刀放在火上烤一烤。", "en": "I hold my blade over the flame."},
+        {"zh": "你的瞳孔太大了，不对。", "en": "Your pupils are too wide. That's wrong."},
+        {"zh": "我先给你放一点血。", "en": "First, let me drain a little blood."},
+        {"zh": "别怕，这只是麻醉。", "en": "Don't be afraid. It is only anesthetic."},
+        {"zh": "我量一下伤口有多深。", "en": "Let me measure how deep the cut goes."},
+        {"zh": "你这条胳膊还能保住。", "en": "This arm of yours can still be saved."},
+        {"zh": "呼吸太浅了，再深一点。", "en": "Your breathing is shallow. Deeper."},
+        {"zh": "我要看看里面是什么。", "en": "I need to see what is inside."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "药瓶里只剩一半，够你睡。", "en": "Half a bottle left; enough to put you to sleep."},
+        {"zh": "你的血肉将为我所用！", "en": "Your flesh will serve me!"},
+        {"zh": "给我躺下，快点！", "en": "Lie down, now!"},
+        {"zh": "你已经无法反抗了！", "en": "You can't resist me!"},
+        {"zh": "病人不该乱动，先把脉。", "en": "A patient shouldn't squirm, let me take your pulse."},
+        {"zh": "你将成为我的武器！", "en": "You'll be my weapon!"},
+        {"zh": "求求你，别挣扎！", "en": "Please, don't struggle!"},
+        {"zh": "这是最后一贴药，你忍忍。", "en": "This is the last dressing; bear with it."},
+        {"zh": "别动，我给你包一下伤口。", "en": "Hold still; let me dress that wound."},
+        {"zh": "别乱动，我扎偏了会疼。", "en": "Keep still, or my needle will hurt."},
+        {"zh": "别动，马上就好。", "en": "Hold still. Almost done."},
+        {"zh": "这一刀是必要的。", "en": "This cut is necessary."},
+        {"zh": "我的药有效，你睡吧。", "en": "My medicine works. Sleep now."},
+        {"zh": "你失血太多了。", "en": "You are losing far too much blood."},
+        {"zh": "伤口比我想的深。", "en": "The wound is deeper than I thought."},
+        {"zh": "忍一下，我缝两针。", "en": "Bear with it. Two stitches."},
+        {"zh": "你的骨头没断，很好。", "en": "Your bone is intact. Good."},
+        {"zh": "我用了太多麻药了。", "en": "I gave you too much anesthetic."},
+        {"zh": "别挣扎，会割歪的。", "en": "Stop struggling or I will cut crooked."},
+        {"zh": "这瓶药，你应该撑不住。", "en": "With this dose, you will not last."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "又一个世界，新的开始！", "en": "Another world, a new start!"},
+        {"zh": "这里是我的新领地！", "en": "This is my new territory!"},
+        {"zh": "欢迎来到医生的王国！", "en": "Welcome to the Doctor's realm!"},
+        {"zh": "我来治愈你，然后杀死你！", "en": "I'll heal you, then kill you!"},
+        {"zh": "寻找我的药剂吧！", "en": "Find my potions!"},
+        {"zh": "这里充满了我的智慧！", "en": "Full of my wisdom!"},
+        {"zh": "我是世界的守护者！", "en": "I am the world's protector!"},
+        {"zh": "让恐惧笼罩这片土地！", "en": "Fear shall cover this land!"},
+        {"zh": "这里是我的实验场！", "en": "This is my laboratory!"},
+        {"zh": "你们的痛苦将转化为我的力量！", "en": "Your pain will fuel my power!"},
+        {"zh": "我背着药箱，路过了这里。", "en": "I passed through here with my medicine box."},
+        {"zh": "听说这边有人病了。", "en": "I heard someone here fell ill."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的药箱被烧了...", "en": "My medicine box is burning..."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔下来，瓶子全碎了...", "en": "I fell, and every bottle broke..."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进药箱了...", "en": "Water is filling my box..."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我的药全毁了...", "en": "The blast ruined all my medicine..."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭射穿了我的袖子...", "en": "An arrow went through my sleeve..."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这诅咒我没法治...", "en": "I cannot treat this curse..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我自己也饿了三天...", "en": "I have not eaten in three days either..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在我身上，手在抖...", "en": "Lightning struck me, and my hands shake..."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下面什么都没有了...", "en": "There is nothing beneath me anymore..."}
+      ]
+    }
+  }
+}

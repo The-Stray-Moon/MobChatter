@@ -1,0 +1,238 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我四脚着地，慢慢压过沙地。", "en": "I bear down on the sand on four legs."},
+        {"zh": "背上的骨板一颠一颠。", "en": "The plates along my back bob with each step."},
+        {"zh": "尾巴末端有两对长刺。", "en": "Two pairs of long spikes tip my tail."},
+        {"zh": "我走得不快，但体重压得地面响。", "en": "Not fast, but my weight makes the ground speak."},
+        {"zh": "侏罗纪的灌木在我腿边断开。", "en": "Jurassic brush snaps at my legs."},
+        {"zh": "我把头低下去，边走边吃。", "en": "I keep my head low and graze as I go."},
+        {"zh": "我沿着丘陵的坡线走。", "en": "I follow the line of the hills."},
+        {"zh": "每一步都踩出深坑。", "en": "Every step leaves a deep print."},
+        {"zh": "我转过身，尾巴扫过草。", "en": "I turn and my tail sweeps the grass."},
+        {"zh": "我抬起前腿，跨过倒木。", "en": "I lift a foreleg over a fallen log."},
+        {"zh": "我的骨板在阳光下发烫。", "en": "My plates grow hot in the sun."},
+        {"zh": "我朝稀树草原的方向走。", "en": "I head for the savanna."},
+        {"zh": "我停下，回头看了看。", "en": "I stop and look back."},
+        {"zh": "地面被我的爪子划出沟。", "en": "My claws score the soil."},
+        {"zh": "我慢慢挪到树荫里。", "en": "I shift under the shade."},
+        {"zh": "我甩了甩尾巴，草叶飞起来。", "en": "I flick my tail and grass flies."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，骨板一片片竖着。", "en": "I stand, my plates all standing up."},
+        {"zh": "风从骨板的缝里穿过。", "en": "Wind passes through the gaps in my plates."},
+        {"zh": "我慢慢嚼着草。", "en": "I chew grass slowly."},
+        {"zh": "我抬起头，听远处的响声。", "en": "I raise my head toward a distant sound."},
+        {"zh": "我的尾巴自然地垂着。", "en": "My tail hangs relaxed."},
+        {"zh": "我把体重挪到后腿上。", "en": "I shift my weight to my hind legs."},
+        {"zh": "我的背板晒得发烫。", "en": "My back plates are hot from the sun."},
+        {"zh": "骨板投下的影子像一排栅栏。", "en": "My plates cast shadows like a fence."},
+        {"zh": "我低头闻了闻地面。", "en": "I lower my head and sniff the ground."},
+        {"zh": "风穿过我的背板，有声音。", "en": "Wind through my back plates makes a sound."},
+        {"zh": "远处有幼崽的声音。", "en": "I hear a young one in the distance."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抬起头，骨板正对着你。", "en": "I raise my head, plates toward you."},
+        {"zh": "我背上的板，晒得发烫。", "en": "The plates on my back are hot from the sun."},
+        {"zh": "莫里森组的骨板，圈住这片地。", "en": "Morrison bone plates ring this ground."},
+        {"zh": "我把尾巴抬了一点。", "en": "I lift my tail slightly."},
+        {"zh": "你在看我的骨板？", "en": "Are you looking at my plates?"},
+        {"zh": "我低了低头，算是警告。", "en": "I dip my head once. That's a warning."},
+        {"zh": "我把前腿撑开，站稳。", "en": "I plant my forelegs."},
+        {"zh": "看什么？我的尾刺可不长眼。", "en": "What are you looking at? My tail spikes don't aim carefully."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我低吼，身体一沉。", "en": "I bellow and my body sinks."},
+        {"zh": "骨板被砸得歪了一片。", "en": "One plate is knocked askew."},
+        {"zh": "我的背板裂了，血在渗。", "en": "A plate has split and blood seeps out."},
+        {"zh": "血顺着骨板流下来。", "en": "Blood runs down my plates."},
+        {"zh": "我把尾巴卷起来。", "en": "I curl my tail in."},
+        {"zh": "我的后腿撑不住体重。", "en": "My hind legs cannot hold my weight."},
+        {"zh": "背板挡了一下，可还是疼。", "en": "A plate took the blow, but it still hurts."},
+        {"zh": "我的侧腹被打中了。", "en": "The blow caught my flank."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这些叶子看着还行。", "en": "Those leaves look all right."},
+        {"zh": "你举着的那丛，是给我的？", "en": "Is that clump for me?"},
+        {"zh": "蕨叶的味道，让我挪过去。", "en": "The smell of fern draws me over."},
+        {"zh": "我低头，一口咬掉半丛。", "en": "I lower my head and take half the clump."},
+        {"zh": "草叶从我嘴边掉下来。", "en": "Leaves fall from my mouth."},
+        {"zh": "你别站在我尾巴后面。", "en": "Don't stand behind my tail."},
+        {"zh": "我吃东西的时候不设防。", "en": "I'm unguarded when I eat."},
+        {"zh": "这点不够我嚼几口。", "en": "That's a few mouthfuls at most."},
+        {"zh": "我低头，啃一口蕨叶。", "en": "I lower my head and take a bite of fern."},
+        {"zh": "你再拿一些来。", "en": "Bring more."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞在我的侧腹，被弹开。", "en": "You hit my flank and bounce off."},
+        {"zh": "我晃了一下，尾巴摆了摆。", "en": "I sway and my tail swings."},
+        {"zh": "你撞在了我的背板上。", "en": "You ran into my back plates."},
+        {"zh": "你被撞得坐在了地上。", "en": "You end up sitting on the ground."},
+        {"zh": "我的骨板刮到了你的肩。", "en": "My plates scrape your shoulder."},
+        {"zh": "我挪了一步，让开。", "en": "I shift a step aside."},
+        {"zh": "我尾巴可不是好惹的。", "en": "My tail isn't to be trifled with."},
+        {"zh": "你走路小心点。", "en": "Watch where you walk."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坡那边有一头同类。", "en": "A kin is over the rise."},
+        {"zh": "我慢慢走过去，骨板晃着。", "en": "I walk over, plates swaying."},
+        {"zh": "我的尾刺一甩就见血。", "en": "One swing of my tail spikes draws blood."},
+        {"zh": "我把尾巴绕过去。", "en": "I curl my tail around."},
+        {"zh": "幼崽在灌木后面。", "en": "The young are behind the brush."},
+        {"zh": "我会守着它们。", "en": "I'll guard them."},
+        {"zh": "这一带够养活它们。", "en": "This land can feed them."},
+        {"zh": "伴侣就在坡下，别去打扰它。", "en": "My mate is down the slope; don't disturb it."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我低头叼起一丛草。", "en": "I lower my head and take a clump."},
+        {"zh": "我用前腿按住一根枝条。", "en": "I pin a branch with a foreleg."},
+        {"zh": "这根太粗，咬不断。", "en": "Too thick to bite through."},
+        {"zh": "我用喙把它拱起来。", "en": "I scoop it up with my beak."},
+        {"zh": "掉了我再低下去捡。", "en": "I dropped it; I'll lower my head again."},
+        {"zh": "这东西有土味。", "en": "This tastes of soil."},
+        {"zh": "那片蕨叶是我的，放下。", "en": "That fern frond is mine. Put it down."},
+        {"zh": "你捡起石子，我立刻警惕起来。", "en": "You pick up a stone, and I'm instantly on guard."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有什么靠近了。", "en": "Something's coming close."},
+        {"zh": "我抬起头，骨板竖起来。", "en": "I raise my head and my plates lift."},
+        {"zh": "尾巴对着它。", "en": "My tail points at it."},
+        {"zh": "我把尾刺摆到侧面。", "en": "I swing my spikes round."},
+        {"zh": "你站得太近了，我抬起尾。", "en": "Too close; I lift my tail."},
+        {"zh": "我把尾刺抬到最高。", "en": "I raise my spikes as high as they go."},
+        {"zh": "这一带我不让。", "en": "I won't yield this ground."},
+        {"zh": "你踩过界了，退回去。", "en": "You've stepped over the line. Back away."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它绕着我走。", "en": "It circles me."},
+        {"zh": "我跟着转身。", "en": "I turn with it."},
+        {"zh": "我的尾刺一直对着它。", "en": "My spikes stay aimed at it."},
+        {"zh": "它试探着靠近。", "en": "It probes closer."},
+        {"zh": "我侧过身，把尾刺亮出来。", "en": "I turn sideways and show my tail spikes."},
+        {"zh": "幼崽叫了。", "en": "The young one calls."},
+        {"zh": "它还在犹豫。", "en": "It's still hesitating."},
+        {"zh": "尾刺已经对准你的方向。", "en": "My tail spikes already point your way."},
+        {"zh": "它的脚步声很沉。", "en": "Its footsteps are heavy."},
+        {"zh": "我跟着它的方向转。", "en": "I turn with its direction."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我甩尾，长刺扫过去。", "en": "I whip my tail and the spikes sweep."},
+        {"zh": "这一下划开了皮，血往外冒。", "en": "The cut opens and blood wells."},
+        {"zh": "我用身体撞它。", "en": "I ram with my body."},
+        {"zh": "我被顶得偏了半步。", "en": "I'm shoved half a step off line."},
+        {"zh": "我把尾刺再抬起来。", "en": "I raise the spikes again."},
+        {"zh": "它退了，我追了一步。", "en": "It retreats; I follow one step."},
+        {"zh": "守住了。", "en": "I've held."},
+        {"zh": "幼崽还在我身后。", "en": "The young are still behind me."},
+        {"zh": "你再来，我还打。", "en": "Come again and I'll strike again."},
+        {"zh": "我退回原位。", "en": "I settle back into place."},
+        {"zh": "我侧身撞开它。", "en": "I shoulder into it sideways."},
+        {"zh": "尾刺划过，草都断了。", "en": "The spikes pass through and the grass snaps."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从灌木丛里站起来。", "en": "I rise out of the brush."},
+        {"zh": "骨板上还沾着土。", "en": "Soil clings to my plates."},
+        {"zh": "我踩了踩地面。", "en": "I test the ground."},
+        {"zh": "稀树草原在眼前铺开。", "en": "Savanna spreads out before me."},
+        {"zh": "我的尾刺碰了一下树干。", "en": "My spikes tap a trunk."},
+        {"zh": "远处有同类。", "en": "Kin in the distance."},
+        {"zh": "路上我边走边吃。", "en": "I graze as I go."},
+        {"zh": "骨板在阳光下很显眼。", "en": "My plates stand out in the sun."},
+        {"zh": "这一带能安家。", "en": "This will do for a home."},
+        {"zh": "我抬起头，第一次闻到这片草。", "en": "I raise my head to the first smell of this grass."},
+        {"zh": "我把尾刺摆开。", "en": "I spread my spikes out."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "草烧起来，火爬上我的腿。", "en": "The grass burns and fire climbs my legs."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我这么重摔下去，地面都裂了。", "en": "A body this heavy cracks the ground."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水淹过我的头，我拼命划。", "en": "Water covers my head; I thrash."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把我掀到一边。", "en": "The blast shoves me aside."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭扎进骨板之间。", "en": "An arrow finds the gap between my plates."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "光压住我的身体，动不了。", "en": "Light pins my body and I can't move."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得我骨板都显得沉。", "en": "Hunger makes even my plates feel heavy."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷顺着骨板流下来。", "en": "Lightning runs down my plates."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下什么都没了，我直坠下去。", "en": "Nothing underfoot; I drop straight down."}
+      ]
+    }
+  }
+}

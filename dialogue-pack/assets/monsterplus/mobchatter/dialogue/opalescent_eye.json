@@ -1,0 +1,254 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我浮在半空，慢慢转。", "en": "I float in the air, turning slowly."},
+        {"zh": "我漂过去，光在后面拖。", "en": "I drift over, light trailing behind."},
+        {"zh": "我朝更暗的地方去。", "en": "I head for somewhere darker."},
+        {"zh": "我离地两格，不急不慢。", "en": "Two blocks up, unhurried."},
+        {"zh": "我慢慢飘到洞的另一边。", "en": "I drift to the other side of the cave."},
+        {"zh": "我转着，光扫过墙面。", "en": "I turn and my light sweeps the wall."},
+        {"zh": "我浮过一段碎石。", "en": "I float across rubble."},
+        {"zh": "我在阴影里前进。", "en": "I advance inside the shadow."},
+        {"zh": "我飘的时候没有声音。", "en": "I drift without a sound."},
+        {"zh": "我略略降了一点高度。", "en": "I lower my height a little."},
+        {"zh": "我贴着岩壁往上浮。", "en": "I float up along the rock wall."},
+        {"zh": "我绕过你的火把。", "en": "I go around your torch."},
+        {"zh": "我一层层往下绕。", "en": "I wind down in layers."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的光在石壁上转圈。", "en": "My light circles across the stone wall."},
+        {"zh": "我没有瞳孔，也没有方向。", "en": "I have no pupil and no direction."},
+        {"zh": "我在半空里转了一下。", "en": "I rotate once in midair."},
+        {"zh": "我的光把石头染蓝。", "en": "My light stains the stone blue."},
+        {"zh": "我在等主人开口。", "en": "I wait for my master to speak."},
+        {"zh": "我静静地看着前方。", "en": "I watch straight ahead, silent."},
+        {"zh": "我的表面有一层彩光。", "en": "A sheen of color plays on my surface."},
+        {"zh": "我慢慢地转，很匀。", "en": "I turn slowly and evenly."},
+        {"zh": "我的光在石壁上转圈", "en": "My light circles across the stone wall"},
+        {"zh": "我的光弱了一点，又亮。", "en": "My light dims, then returns."},
+        {"zh": "我在他身边绕了一小圈。", "en": "I circle once around him."},
+        {"zh": "我浮着，像挂在空中的灯。", "en": "I hang like a lamp in the air."},
+        {"zh": "我把光收进自己里面。", "en": "I draw my light inward."},
+        {"zh": "我一直在原处等着。", "en": "I have stayed right here, waiting."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的光落到了你身上。", "en": "My light falls on you."},
+        {"zh": "我朝你的方向转过来。", "en": "I turn your way."},
+        {"zh": "我其实看不见你。", "en": "In truth I cannot see you."},
+        {"zh": "你被照亮得很清楚。", "en": "You are lit very clearly."},
+        {"zh": "我停在离你两格的地方。", "en": "I stop two blocks from you."},
+        {"zh": "我的光一暗，洞里更黑了。", "en": "My light dims and the cave darkens."},
+        {"zh": "我是被派来看住你的。", "en": "I was sent to keep watch on you."},
+        {"zh": "我自己并不可怕。", "en": "I am not frightening by myself."},
+        {"zh": "我的光照出你脸上的汗。", "en": "My light picks out the sweat on your face."},
+        {"zh": "我对着你，像一盏盯人的灯。", "en": "I face you like a lamp that stares."},
+        {"zh": "你走到哪边，我都转过去。", "en": "Whichever way you go, I turn."},
+        {"zh": "我映出你的样子在表面。", "en": "Your shape shows on my surface."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这只巨眼没视力，撞偏了。", "en": "This giant eye has no sight — it veered off."},
+        {"zh": "我的表面裂了一条。", "en": "A crack runs across my surface."},
+        {"zh": "我抖了抖，重新亮起。", "en": "I shudder and light up again."},
+        {"zh": "我的光弱下去一点。", "en": "My light weakens."},
+        {"zh": "我往后飘开两格。", "en": "I drift back two blocks."},
+        {"zh": "我的彩光散了一片。", "en": "My iridescence scatters."},
+        {"zh": "我发不出声音来。", "en": "I cannot make a sound."},
+        {"zh": "我慢慢把光聚回来。", "en": "I slowly gather my light again."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我没有嘴，也没有胃。", "en": "I have no mouth and no stomach."},
+        {"zh": "我围着那东西转了整圈。", "en": "I circle the thing completely."},
+        {"zh": "我的光照在它上面。", "en": "My light falls on it."},
+        {"zh": "我轻轻推了它一下。", "en": "I give it a light nudge."},
+        {"zh": "它对我没有意义。", "en": "It means nothing to me."},
+        {"zh": "我看不见，但我闻得出。", "en": "I have no sight, but I can smell it."},
+        {"zh": "我继续看着你。", "en": "I go back to watching you."},
+        {"zh": "我只听主人的命令。", "en": "I follow only my master's orders."},
+        {"zh": "我用光扫了一遍。", "en": "I sweep it with light."},
+        {"zh": "我不需要奖励。", "en": "I need no reward."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到我，像碰到一团光。", "en": "You hit me like a patch of light."},
+        {"zh": "我晃了晃，光散了又聚。", "en": "I wobble; my light scatters and reforms."},
+        {"zh": "你身上多了一层彩。", "en": "A sheen of color rubs off on you."},
+        {"zh": "我退开一格，重新对准。", "en": "I retreat a block and realign."},
+        {"zh": "你伸手，我从指间滑开。", "en": "You reach, and I slip between your fingers."},
+        {"zh": "我们之间亮了一下。", "en": "A light flares between us."},
+        {"zh": "我被你顶得偏了方向。", "en": "You knock me off my heading."},
+        {"zh": "我几乎不在乎。", "en": "I hardly care."},
+        {"zh": "我慢慢飘回原位。", "en": "I drift slowly back to position."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "两只眼并排悬着。", "en": "Two eyes hang side by side."},
+        {"zh": "我们的光合成一圈。", "en": "Our lights join into one ring."},
+        {"zh": "我们一起转了起来。", "en": "We start turning together."},
+        {"zh": "它的光比我的淡。", "en": "Its light is paler than mine."},
+        {"zh": "我们互相照了一下。", "en": "We shine on each other once."},
+        {"zh": "我们一起望同一个方向。", "en": "We gaze the same way together."},
+        {"zh": "我们靠得很近，不碰。", "en": "We draw close and do not touch."},
+        {"zh": "我们的彩光混在一起。", "en": "Our iridescence mingles."},
+        {"zh": "我们一起浮上去。", "en": "We float up together."},
+        {"zh": "我们谁都没有瞳孔。", "en": "Neither of us has a pupil."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我让它浮在我的光里。", "en": "I let it float in my light."},
+        {"zh": "它在我附近转。", "en": "It turns near me."},
+        {"zh": "我的光把它照透了。", "en": "My light shines right through it."},
+        {"zh": "我把它往上托了一点。", "en": "I lift it a little."},
+        {"zh": "我松开，它掉下去。", "en": "I release it and it falls."},
+        {"zh": "我推着它移动。", "en": "I push it along."},
+        {"zh": "我照着它，没有别的。", "en": "I only light it, nothing more."},
+        {"zh": "它停在我的光边上。", "en": "It rests at the edge of my light."},
+        {"zh": "我把它送到主人脚边。", "en": "I deliver it to my master's feet."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的光定在你身上。", "en": "My light settles on you."},
+        {"zh": "我开始往你那边浮。", "en": "I begin floating your way."},
+        {"zh": "我的光变得更白。", "en": "My light turns whiter."},
+        {"zh": "我绕到你的背后。", "en": "I drift behind you."},
+        {"zh": "我亮得让人睁不开眼。", "en": "I shine too bright to look at."},
+        {"zh": "我的光扫过你站的地方。", "en": "My glow sweeps the spot where you stand."},
+        {"zh": "我不再飘动了。", "en": "I stop drifting."},
+        {"zh": "我把光都聚成一束。", "en": "I gather all my light into a beam."},
+        {"zh": "我把主人的敌人都照出来。", "en": "I light up my master's enemies."},
+        {"zh": "我的光开始跳动。", "en": "My light begins to pulse."},
+        {"zh": "我升到比他更高的位置。", "en": "I rise above him."},
+        {"zh": "洞里的阴影都往我这边收。", "en": "The cave's shadows draw toward me."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我悬在你侧上方。", "en": "I hang above your flank."},
+        {"zh": "你走到哪，光跟到哪。", "en": "Where you walk, the light follows."},
+        {"zh": "我一直照着你的背。", "en": "I keep shining on your back."},
+        {"zh": "我不靠近，也不离开。", "en": "I neither close in nor leave."},
+        {"zh": "你在暗处，我就过去。", "en": "You go into the dark and I follow."},
+        {"zh": "我的光让洞里没有阴影。", "en": "My light leaves no shadow in the cave."},
+        {"zh": "我连一声嗡响也没有。", "en": "I do not even hum."},
+        {"zh": "我一直照着这条路。", "en": "I keep this path lit."},
+        {"zh": "我慢慢贴近你的脸。", "en": "I drift slowly toward your face."},
+        {"zh": "我一直没有离开这条线。", "en": "I have never left this line."},
+        {"zh": "你听见一声很低的光响。", "en": "You hear a faint ringing of light."},
+        {"zh": "我照着你的手，不照别的。", "en": "I light your hands and nothing else."},
+        {"zh": "我在你要走的方向上。", "en": "I am in the direction you mean to go."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我照着你的眼睛。", "en": "I shine straight into your eyes."},
+        {"zh": "我的光烫了一下。", "en": "My light burns once."},
+        {"zh": "我撞在你胸口。", "en": "I bump into your chest."},
+        {"zh": "我压下来，光很刺。", "en": "I press down, blindingly bright."},
+        {"zh": "你被晃得站不稳。", "en": "The glare makes you stagger."},
+        {"zh": "我绕到你面前又照。", "en": "I swing in front and shine again."},
+        {"zh": "我撞在你的护甲上。", "en": "I knock against your armor."},
+        {"zh": "你抬起手挡那道强光。", "en": "You raise a hand against the glare."},
+        {"zh": "我退开，光还留着。", "en": "I withdraw and the light remains."},
+        {"zh": "我只是在照，可你疼。", "en": "I am only shining, yet it hurts."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "半空里多了一团光。", "en": "A point of light appears in the air."},
+        {"zh": "我从他掌上浮起来。", "en": "I rise from his palm."},
+        {"zh": "洞里忽然亮成蓝色。", "en": "The cave glows blue."},
+        {"zh": "我一出现就转了一圈。", "en": "I spin once as I appear."},
+        {"zh": "你听见很轻的一个音。", "en": "You hear one faint tone."},
+        {"zh": "我的彩光先铺在墙上。", "en": "My iridescence spreads on the wall first."},
+        {"zh": "我在他身边定住。", "en": "I settle beside him."},
+        {"zh": "这里本该是暗的。", "en": "This place should be dark."},
+        {"zh": "我开始悬在这一层。", "en": "I begin hanging at this level."},
+        {"zh": "我的光把你的影子推开。", "en": "My light pushes your shadow back."},
+        {"zh": "两只眼一起亮起来。", "en": "Two eyes light up together."},
+        {"zh": "洞口那边闪了一下。", "en": "Something flashes at the cave mouth."},
+        {"zh": "我的彩光把岩壁照得发亮。", "en": "My iridescence brightens the rock wall."},
+        {"zh": "我成形时没有半点声响。", "en": "I took shape without a whisper."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火里我的光被染红了。", "en": "My light turns red in the fire."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从半空掉下来，滚了两圈。", "en": "I drop from the air and roll twice."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水把我包住，光散在水里。", "en": "Water closes around me and my light spreads in it."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆光压过我的光。", "en": "The blast's glare overwhelms mine."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭穿过我，光从洞里漏出去。", "en": "An arrow pierces me and light leaks out."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股力量把我的光定住。", "en": "That force freezes my light."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不会饿，只会暗。", "en": "I do not hunger; I only dim."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光与我混在一起，看不出来。", "en": "The lightning glare merges with mine."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉进黑暗里，什么也照不到。", "en": "I fall into darkness and light nothing."}
+      ]
+    }
+  }
+}

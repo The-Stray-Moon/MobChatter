@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴着高空往你那边滑。", "en": "I glide your way high overhead."},
+        {"zh": "我从云下冲过去。", "en": "I streak beneath the clouds."},
+        {"zh": "我的薄膜张开，兜住风。", "en": "My membrane spreads to catch the wind."},
+        {"zh": "我飞得很高，你听不见。", "en": "I fly high; you cannot hear me."},
+        {"zh": "我转了个弯，速度不减。", "en": "I bank without losing speed."},
+        {"zh": "我从上方划出一道弧。", "en": "I carve an arc from above."},
+        {"zh": "我贴着树梢飞过。", "en": "I skim over the treetops."},
+        {"zh": "我一路俯冲下去。", "en": "I dive all the way down."},
+        {"zh": "我的影子先扫过地面。", "en": "My shadow sweeps the ground first."},
+        {"zh": "我扑着薄膜平飞。", "en": "I beat my membrane and level out."},
+        {"zh": "我绕开高的地形。", "en": "I route around the tall terrain."},
+        {"zh": "我越飞越低，靠近你。", "en": "I fly lower, closing on you."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我悬在高空，几乎不动。", "en": "I hang high, barely moving."},
+        {"zh": "我的薄膜慢慢扇。", "en": "My membrane fans slowly."},
+        {"zh": "我在等风把我送下去。", "en": "I wait for the wind to carry me down."},
+        {"zh": "我吊在半空，像片破布。", "en": "I hang like a scrap of cloth."},
+        {"zh": "有东西骑在我背上。", "en": "Something is riding on my back."},
+        {"zh": "我不发声，只是漂。", "en": "I make no sound, only drift."},
+        {"zh": "我的触须朝下探。", "en": "My tendrils reach downward."},
+        {"zh": "我保持着高度。", "en": "I hold my altitude."},
+        {"zh": "我的身体被风推得歪。", "en": "The wind pushes me crooked."},
+        {"zh": "我在听下面的脚步。", "en": "I am listening to the steps below."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从高空垂下头看你。", "en": "I lower my head from high above."},
+        {"zh": "我的薄膜挡住了一片天。", "en": "My membrane blots out a patch of sky."},
+        {"zh": "我盯着你，不动。", "en": "I stare at you and hold still."},
+        {"zh": "你已经在我正下方了。", "en": "You are directly below me now."},
+        {"zh": "我把身体转成俯冲的角。", "en": "I angle my body to dive."},
+        {"zh": "我的触须在你头顶晃。", "en": "My tendrils sway above your head."},
+        {"zh": "你仰起脸，我就在头顶。", "en": "You look up—and I'm right overhead."},
+        {"zh": "我没眨眼，也不需要。", "en": "I do not blink, and need not."},
+        {"zh": "我在你视野的上缘悬着。", "en": "I hang at the upper edge of your vision."},
+        {"zh": "我把触须朝你的方向摆。", "en": "I swing my tendrils toward you."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的薄膜破了个口。", "en": "A hole tears in my membrane."},
+        {"zh": "我上浮了一点，躲开。", "en": "I rise a little to dodge."},
+        {"zh": "我的触须卷了起来。", "en": "My tendrils curl up."},
+        {"zh": "我滑出半尺，又飘回来。", "en": "I skid half a meter, then drift back."},
+        {"zh": "我泄出一声很轻的气。", "en": "I leak out a very soft breath."},
+        {"zh": "我的身体晃了晃。", "en": "My body sways."},
+        {"zh": "我停了一拍才继续。", "en": "I pause a beat before going on."},
+        {"zh": "风吹过我破掉的边。", "en": "Wind whistles through my torn edge."},
+        {"zh": "我往下沉了一格。", "en": "I sink a block."},
+        {"zh": "碎屑从我破开的边掉下去。", "en": "Debris falls from my torn edge."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我闻了一下，绕开了。", "en": "I sniff and veer away."},
+        {"zh": "地上的东西我半点不沾。", "en": "I don't touch a thing on the ground."},
+        {"zh": "那味道让我慢了一点。", "en": "The smell slows me a little."},
+        {"zh": "我在上方绕了一圈。", "en": "I circle once above."},
+        {"zh": "我把它看成陷阱。", "en": "I read it as a trap."},
+        {"zh": "我降低半格又升高。", "en": "I dip half a block and rise again."},
+        {"zh": "我伸触须碰了碰空气。", "en": "I touch the air with a tendril."},
+        {"zh": "我更想吸你身上的东西。", "en": "I would rather drain what you carry."},
+        {"zh": "我连碰都懒得碰它。", "en": "I can't even be bothered to touch it."},
+        {"zh": "我转头继续往下看。", "en": "I turn and keep looking down."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞进我的薄膜里。", "en": "You hit my membrane."},
+        {"zh": "我的薄膜闷闷地撞上你。", "en": "My membrane hits you with a dull thud."},
+        {"zh": "我的身体没被撞开。", "en": "I am not knocked aside."},
+        {"zh": "我的触须顶得你后仰。", "en": "My tendrils knock you backward."},
+        {"zh": "我的触须刮到你。", "en": "My tendrils scrape you."},
+        {"zh": "我从你头上一擦而过。", "en": "I skim right over your head."},
+        {"zh": "我飞得太低，撞到树。", "en": "I fly too low and hit a tree."},
+        {"zh": "我的薄膜被撞得皱起。", "en": "My membrane wrinkles from the hit."},
+        {"zh": "你怎么也甩不开我。", "en": "You cannot shake me off at all."},
+        {"zh": "我的边擦过你的肩胛。", "en": "My edge grazes your shoulder blade."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "两只在高空并排盘旋。", "en": "Two of us circle side by side up high."},
+        {"zh": "我们的薄膜互相擦过。", "en": "Our membranes brush."},
+        {"zh": "我贴着它的薄膜盘旋。", "en": "I wheel close against its membrane."},
+        {"zh": "我和它顺着气流一起下坠。", "en": "It and I sink together on the air current."},
+        {"zh": "它的触须勾住我的。", "en": "Its tendrils hook mine."},
+        {"zh": "我们在云下交错飞过。", "en": "We cross paths beneath the clouds."},
+        {"zh": "它们骑在我们身上。", "en": "They ride on our backs."},
+        {"zh": "我们的影子叠成一片。", "en": "Our shadows merge on the ground."},
+        {"zh": "我们一起往上升。", "en": "We rise together."},
+        {"zh": "我们两个都不落地。", "en": "Neither of us ever lands."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我俯冲下去抓那样东西。", "en": "I dive to grab that thing."},
+        {"zh": "我的触须把它卷起来。", "en": "My tendrils coil around it."},
+        {"zh": "我拎着它飞回高处。", "en": "I carry it back up."},
+        {"zh": "它在我身下晃。", "en": "It swings beneath me."},
+        {"zh": "我把它塞进薄膜缝里。", "en": "I tuck it into my membrane folds."},
+        {"zh": "我抓得很牢，风吹不掉。", "en": "I grip it tight; the wind cannot take it."},
+        {"zh": "我看了看，松开了。", "en": "I look, then let it drop."},
+        {"zh": "它太重了，我歪了一下。", "en": "It is too heavy; I tilt."},
+        {"zh": "我让它挂在下面。", "en": "I let it dangle below."},
+        {"zh": "我抱着它往上爬升。", "en": "I climb while holding it."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把高度降了一格。", "en": "I drop one block."},
+        {"zh": "我的触须收紧了。", "en": "My tendrils draw in."},
+        {"zh": "我锁定了正下方。", "en": "I have locked on directly below."},
+        {"zh": "风把你送到我这。", "en": "The wind delivers you to me."},
+        {"zh": "我摆好了俯冲的姿势。", "en": "I am set to dive."},
+        {"zh": "我开始往你这边倾。", "en": "I begin tipping your way."},
+        {"zh": "我的薄膜完全张开。", "en": "My membrane spreads wide."},
+        {"zh": "有热的味道升上来。", "en": "A warm scent rises."},
+        {"zh": "我不再盘旋了。", "en": "I stop circling."},
+        {"zh": "这个高度刚好。", "en": "This height is just right."},
+        {"zh": "我认出了会喘气的活物。", "en": "I recognize something that breathes."},
+        {"zh": "我开始下降，很快。", "en": "I descend, fast."},
+        {"zh": "我的影子缩成一小块。", "en": "My shadow shrinks to a spot."},
+        {"zh": "我拉直身子，对准了你。", "en": "I stretch myself straight and aim at you."},
+        {"zh": "你听见上面的风声了。", "en": "You hear the wind above."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我悬在你上方跟着。", "en": "I hang above and follow."},
+        {"zh": "你跑到哪，影子就在哪。", "en": "Wherever you run, my shadow follows."},
+        {"zh": "我一点点降低。", "en": "I lower myself bit by bit."},
+        {"zh": "我盘着圈一直压在你上方。", "en": "I circle in a tightening ring above you."},
+        {"zh": "你进树林，我在树顶。", "en": "You enter the woods; I am on the canopy."},
+        {"zh": "我不急，高空很安全。", "en": "No hurry; up here is safe."},
+        {"zh": "我在等一个好的角度。", "en": "I wait for a good angle."},
+        {"zh": "你回头看，我在云那边。", "en": "You look up; I am past the clouds."},
+        {"zh": "我的薄膜在风里鼓起来。", "en": "My membrane billows in the wind."},
+        {"zh": "你退，我也跟着转。", "en": "You retreat; I bank along."},
+        {"zh": "我数着你还有多少路。", "en": "I count how far you can still go."},
+        {"zh": "你一直在我的下面。", "en": "You are always beneath me."},
+        {"zh": "我从一个云洞穿过去。", "en": "I pass through a hole in the cloud."},
+        {"zh": "我的触须已经张开了。", "en": "My tendrils are already spread."},
+        {"zh": "你走的方向我知道。", "en": "I know which way you are headed."},
+        {"zh": "我保持在你在正上方。", "en": "I stay directly over you."},
+        {"zh": "我等风停的那一刻。", "en": "I wait for the wind to drop."},
+        {"zh": "你停住了，我就压下去。", "en": "You stop, and I press down."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我撞在你肩上，没被弹开。", "en": "I slam your shoulder and am not bounced away."},
+        {"zh": "我的触须缠住你的手。", "en": "My tendrils wrap your arm."},
+        {"zh": "我整个压下来。", "en": "I press down with my whole body."},
+        {"zh": "我的薄膜抽在你脸上。", "en": "My membrane whips your face."},
+        {"zh": "我从上方撞进你怀里。", "en": "I crash into your chest from above."},
+        {"zh": "我没被击退，贴着你不放。", "en": "I am not knocked back; I stay stuck to you."},
+        {"zh": "你推我，我还在你身上。", "en": "You shove me and I am still on you."},
+        {"zh": "我的触须吸住你的皮。", "en": "My tendrils cling to your skin."},
+        {"zh": "这一撞把你按倒了。", "en": "The impact pins you down."},
+        {"zh": "我从侧上方切过来。", "en": "I cut in from the upper side."},
+        {"zh": "你退开，我又俯冲。", "en": "You pull off; I dive again."},
+        {"zh": "我撞完还挂着，很黏。", "en": "After the hit I stay latched, clinging."},
+        {"zh": "我的身体撞出了风声。", "en": "My body hitting you makes a rush of wind."},
+        {"zh": "你被撞得往后滑。", "en": "You slide backward from the hit."},
+        {"zh": "我把你顶到背靠石头。", "en": "I drive you back against a stone."},
+        {"zh": "我不躲你的手。", "en": "I do not dodge your hands."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "天上有一块东西在动。", "en": "Something up there is moving."},
+        {"zh": "我从高空落下来。", "en": "I come down from high above."},
+        {"zh": "78 格之上有东西醒了。", "en": "Something above seventy-eight blocks has woken."},
+        {"zh": "一片薄膜遮住了月光。", "en": "A membrane blots out the moonlight."},
+        {"zh": "我的影子落进你的院子。", "en": "My shadow falls into your yard."},
+        {"zh": "你听到头顶的风。", "en": "You hear wind overhead."},
+        {"zh": "云缝里垂下一串触须。", "en": "A string of tendrils hangs from a cloud gap."},
+        {"zh": "这里忽然冷了下来。", "en": "It suddenly grew cold here."},
+        {"zh": "我从很远的高处滑下来。", "en": "I glide down from very high."},
+        {"zh": "天空多了个不落地的东西。", "en": "The sky has gained something that never lands."},
+        {"zh": "你抬头，什么都没有。", "en": "You look up and see nothing."},
+        {"zh": "我从上面开始存在。", "en": "I begin to exist overhead."},
+        {"zh": "一片影子慢慢放大。", "en": "A shadow slowly grows."},
+        {"zh": "空气被风压得很低。", "en": "The air is pressed low by wind."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火沿我的薄膜烧开一条边。", "en": "Fire eats an edge along my membrane."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从高空摔下，薄膜先着地。", "en": "I fall from high and land on my membrane."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉进水里，飞不起来。", "en": "I drop into water and cannot take off."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆风把我整片掀翻。", "en": "The blast flips me whole."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭扎穿我的薄膜，风漏了。", "en": "An arrow pierces my membrane and the wind leaks."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股力量把我按在原地。", "en": "That force pins me in place."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我饿得飞不稳了。", "en": "Hunger makes my flight unsteady."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈在我身上，整片薄膜发亮。", "en": "Lightning strikes and my whole membrane glows."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下面的世界没了，我落下去。", "en": "The world below is gone; I drop."}
+      ]
+    }
+  }
+}

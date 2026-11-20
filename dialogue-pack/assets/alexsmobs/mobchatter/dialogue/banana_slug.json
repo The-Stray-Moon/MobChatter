@@ -1,0 +1,395 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "贴着树干侧面往上挪，慢得看不见。", "en": "It creeps up the trunk's side, too slow to see moving."},
+        {"zh": "身后留下一条亮亮的黏液带。", "en": "A bright trail of slime is left behind it."},
+        {"zh": "爬过苔藓时，把苔藓压出浅窝。", "en": "Crossing the moss, it presses shallow dents into it."},
+        {"zh": "一根触角先探出去，身体才跟上。", "en": "One tentacle reaches out before the body follows."},
+        {"zh": "从蘑菇伞下滑过，伞面晃了晃。", "en": "It slides under a mushroom cap and the cap sways."},
+        {"zh": "一整分钟才挪过一片叶子。", "en": "A whole minute to get across a single leaf."},
+        {"zh": "越过小石子，身体被拉得细长。", "en": "Crossing a pebble, its body stretches long and thin."},
+        {"zh": "它顺着倒木的沟槽走，省力些。", "en": "It follows the groove of a fallen log to save effort."},
+        {"zh": "黏液把枯叶粘在身后，拖着走。", "en": "Slime glues a dead leaf behind it and it drags along."},
+        {"zh": "遇到干土就掉头，宁可绕远。", "en": "Meeting dry soil, it turns back and takes the long way."},
+        {"zh": "爬过菌丝层时，身体亮得像蜡。", "en": "Over the mycelium it looks glossy as wax."},
+        {"zh": "它在树皮缝里拐了个弯，不慌不忙。", "en": "It rounds a crack in the bark without any hurry."},
+        {"zh": "慢吞吞地蠕动着", "en": "Slowly slithering along"},
+        {"zh": "黏糊糊的身子蠕动", "en": "Slimy body moving"},
+        {"zh": "在地上留下了黏液", "en": "Leaving slime trail behind"},
+        {"zh": "粘在地面上滑行", "en": "Sliding along the ground"},
+        {"zh": "粘在方块上缓缓移动", "en": "Moving slowly on blocks"},
+        {"zh": "尾巴拖出黏液", "en": "Tail trailing slime"},
+        {"zh": "粘在石头上慢慢爬", "en": "Crawling slowly on stone"},
+        {"zh": "粘着树叶爬行", "en": "Crawling on leaves"},
+        {"zh": "粘附在树干上", "en": "Attached to a tree"},
+        {"zh": "粘在石头上蠕动", "en": "Slithering on stone"},
+        {"zh": "黄澄澄的身子在林下挪。", "en": "Its yellow body inches along the forest floor."},
+        {"zh": "爬过一片就留下一道亮痕。", "en": "It leaves a bright trail wherever it passes."},
+        {"zh": "黏液垫在身下，慢慢推。", "en": "It pushes itself over a cushion of slime."},
+        {"zh": "倒挂在叶子背面往前蹭。", "en": "It creeps along the underside of a leaf."},
+        {"zh": "触角一伸一缩地探路。", "en": "Its tentacles stretch and shrink as it probes ahead."},
+        {"zh": "爬过苔藓，黏出一条线。", "en": "It crosses the moss, drawing a sticky line."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "趴在蘑菇伞下面，一动不动。", "en": "It rests beneath a mushroom cap without stirring."},
+        {"zh": "触角缩回去，只剩一根短的露着。", "en": "Its tentacles retract until only a stub shows."},
+        {"zh": "身体背面铺着黑斑，像香蕉皮。", "en": "Black spots pattern its back like a banana peel."},
+        {"zh": "呼吸孔一开一合，很慢。", "en": "The breathing pore opens and closes, very slowly."},
+        {"zh": "它把自己摊平，像一小块湿面团。", "en": "It flattens out like a lump of wet dough."},
+        {"zh": "挂在方块侧面，黏液让它没掉下去。", "en": "It clings to the block's side, slime holding it up."},
+        {"zh": "一只小虫爬过它背上，它也不动。", "en": "A small bug crosses its back and it does not react."},
+        {"zh": "树冠滴水，它就着水珠洗了洗触角。", "en": "Water drips from the canopy and it washes its tentacles."},
+        {"zh": "身体一伸一缩，像在打瞌睡。", "en": "It stretches and contracts as if dozing."},
+        {"zh": "藏在烂木缝里，只露出一点黄。", "en": "It hides in a rotten wood seam with just a bit of yellow showing."},
+        {"zh": "黏液在它周围聚成一小圈亮边。", "en": "Slime gathers in a bright ring around it."},
+        {"zh": "它在等菌丝长得再密一些。", "en": "It is waiting for the mycelium to grow a little denser."},
+        {"zh": "触角顶端动了动，闻到了什么。", "en": "The tips of its tentacles stir at some scent."},
+        {"zh": "苔藓比它软，它躺得很舒服。", "en": "The moss is softer than it is and it lies comfortably."},
+        {"zh": "蘑菇伞下有一缕潮气。", "en": "A thread of damp air under the mushroom cap."},
+        {"zh": "我把身子挪了半寸，就累了。", "en": "I shift half an inch and I am tired."},
+        {"zh": "一滴露落在背上，滑了下去。", "en": "A drop of dew lands on my back and slides off."},
+        {"zh": "树影挪了，我还在原来的位置。", "en": "The tree's shadow moved; I did not."},
+        {"zh": "懒洋洋地趴着", "en": "Lazily lying down"},
+        {"zh": "粘在地面上不动", "en": "Sticking to the ground"},
+        {"zh": "粘在叶子上发呆", "en": "Sticking to leaves"},
+        {"zh": "粘在木头上歇息", "en": "Resting on wood"},
+        {"zh": "粘着树干发呆", "en": "Sticking to a tree trunk"},
+        {"zh": "粘在石头上打盹", "en": "Dozing on stone"},
+        {"zh": "粘着泥土发呆", "en": "Sticking to dirt"},
+        {"zh": "粘在树叶上休息", "en": "Resting on leaves"},
+        {"zh": "粘在方块上不动", "en": "Sticking to a block"},
+        {"zh": "粘着沙子发呆", "en": "Sticking to sand"},
+        {"zh": "缩成一小团黏在墙上。", "en": "It curls into a small lump stuck to the wall."},
+        {"zh": "触角缩了回去，慢慢想。", "en": "Its tentacles retract while it thinks slowly."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "两根触角一起抬起来对你。", "en": "Both tentacles lift toward you at once."},
+        {"zh": "触角顶端那两点黑，一直对着你。", "en": "The two dark tips of its tentacles stay fixed on you."},
+        {"zh": "它抬起身子，像在闻你鞋底。", "en": "It raises its front end as if sniffing your boot sole."},
+        {"zh": "看了你很久，才慢慢缩回去。", "en": "It watches you a long time before slowly withdrawing."},
+        {"zh": "眼睛长在触角上，只能朝这边看。", "en": "Its eyes ride on its tentacles and can only look this way."},
+        {"zh": "你蹲下时，它把头抬得更高了。", "en": "When you crouch, it lifts its head even higher."},
+        {"zh": "它对你的影子比对你有兴趣。", "en": "It is more interested in your shadow than in you."},
+        {"zh": "触角碰了碰你的手指，凉的。", "en": "A tentacle touches your finger and comes away cold."},
+        {"zh": "它慢慢转身，黏液在叶上打滑。", "en": "It turns slowly and its slime slips on the leaf."},
+        {"zh": "你看它，它好像也在看你。", "en": "You look at it and it seems to look back."},
+        {"zh": "它缩成一团，觉得没危险又摊开了。", "en": "It balls up, decides there is no danger, and spreads out."},
+        {"zh": "那双柄眼一上一下，看得人发毛。", "en": "Those stalked eyes seesaw and set your nerves on edge."},
+        {"zh": "香蕉色的身体停了一下。", "en": "My banana-yellow body pauses."},
+        {"zh": "黏液在方块侧面拖出一道亮痕。", "en": "Slime leaves a bright streak down the block."},
+        {"zh": "我抬起黏液里的两根触角。", "en": "I lift my two tentacles out of the slime."},
+        {"zh": "我爬过的地方亮了一条。", "en": "I left a bright trail behind me."},
+        {"zh": "我没有壳，只能慢慢缩回去。", "en": "Shell-less, I can only shrink slowly."},
+        {"zh": "看着玩家", "en": "Looking at the player"},
+        {"zh": "向玩家方向移动", "en": "Moving towards the player"},
+        {"zh": "我爬过的地方全是黏液。", "en": "Everywhere I crawl is left slimy."},
+        {"zh": "你鞋底离我太近了。", "en": "Your sole is far too close to me."},
+        {"zh": "它抬头，触角朝你转了转。", "en": "It lifts its head, tentacles turning toward you."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它缩成一个球，黏液挤出来一圈。", "en": "It balls up and squeezes out a ring of slime."},
+        {"zh": "挨了一下，它掉了半截身子那么长。", "en": "Struck, it shrinks by half a body length."},
+        {"zh": "它慌忙往木缝里钻，钻不进去。", "en": "It scrambles for the wood crack and does not fit."},
+        {"zh": "触角全缩回去了，只剩光滑的背。", "en": "The tentacles vanish, leaving only a smooth back."},
+        {"zh": "它抖了抖，把土粒抖掉。", "en": "It shivers and shakes the grains of soil off."},
+        {"zh": "受伤的地方渗出更多黏液。", "en": "The hurt place leaks more slime."},
+        {"zh": "它爬得比平时快了一点点。", "en": "It crawls a tiny bit faster than usual."},
+        {"zh": "那一声几乎没有，只有黏液在响。", "en": "The cry is almost nothing, only the slime making sound."},
+        {"zh": "它把自己压得更扁，贴住地面。", "en": "It flattens itself even lower against the ground."},
+        {"zh": "它慢慢挪向阴影里，想躲起来。", "en": "It creeps toward the shade, meaning to hide."},
+        {"zh": "软软的身体受伤了。", "en": "My soft body is hurt."},
+        {"zh": "黏糊糊的我受伤了。", "en": "My gooey self is hurt."},
+        {"zh": "香蕉蛞蝓被撞伤了。", "en": "Banana Slug was hit."},
+        {"zh": "我的黏液溅到了伤口。", "en": "My slime splashed on the wound."},
+        {"zh": "香蕉蛞蝓受了点小伤。", "en": "Banana Slug got a small injury."},
+        {"zh": "身体被压扁了一块，很慢才鼓回来。", "en": "Part of me is squashed flat and slowly refills."},
+        {"zh": "我被绊倒了。", "en": "I tripped."},
+        {"zh": "黏液被割破了。", "en": "My slime is cut."},
+        {"zh": "我的黏液流了一地。", "en": "My slime is running all over the ground."},
+        {"zh": "身体被压得很扁。", "en": "My body has been squashed very flat."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闻到蘑菇味，触角全竖起来。", "en": "Smelling mushroom, all its tentacles stand up."},
+        {"zh": "一小块真菌让它挪了半尺。", "en": "A scrap of fungus moves it half a foot."},
+        {"zh": "它朝着菌盖爬，慢但不改方向。", "en": "It creeps toward the mushroom cap, slow but unwavering."},
+        {"zh": "你把蘑菇放在叶上，它正对着过来。", "en": "Set the mushroom on a leaf and it comes straight at it."},
+        {"zh": "它先舔了舔，才决定吃。", "en": "It tastes first, then decides to eat."},
+        {"zh": "为了一口菌丝，它肯爬过整根木桩。", "en": "For a mouthful of mycelium it will cross a whole stump."},
+        {"zh": "触角碰到食物，身体马上鼓起来。", "en": "A tentacle finds the food and its body swells at once."},
+        {"zh": "它在你手边打转，黏液蹭了你一手。", "en": "It circles your hand and leaves slime all over it."},
+        {"zh": "那点腐木的味道把它从缝里引出来。", "en": "The smell of rotting wood draws it out of the crack."},
+        {"zh": "吃饱后它就伏在食物旁边不动了。", "en": "Once fed, it simply lies down beside the food."},
+        {"zh": "我闻到了香蕉的香味！", "en": "I smell banana!"},
+        {"zh": "快给我香蕉吧！", "en": "Give me banana!"},
+        {"zh": "我爱香蕉！", "en": "I love banana!"},
+        {"zh": "请给我点香蕉！", "en": "Give me some banana!"},
+        {"zh": "香蕉是我的最爱！", "en": "Banana is my favorite!"},
+        {"zh": "求求你，给我香蕉！", "en": "Please, give me banana!"},
+        {"zh": "香蕉就是我的动力！", "en": "Banana is my fuel!"},
+        {"zh": "快点给我香蕉！", "en": "Give me banana now!"},
+        {"zh": "我需要吃香蕉！", "en": "I need banana!"},
+        {"zh": "没有香蕉我活不下去！", "en": "No banana, no life!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你碰到它，它软得几乎没有阻力。", "en": "Touching it meets almost no resistance at all."},
+        {"zh": "它被挤得变形，然后又圆回来。", "en": "It squashes out of shape, then rounds back."},
+        {"zh": "一整条黏液蹭到你裤腿上。", "en": "A whole streak of slime transfers to your trouser leg."},
+        {"zh": "它慢慢爬上你的靴子，没打算下来。", "en": "It climbs your boot slowly with no plan to get off."},
+        {"zh": "你踩下去收住了脚，它还在原地。", "en": "You check your step and it is still right there."},
+        {"zh": "碰一下，它缩成小球滚了半圈。", "en": "One touch and it balls up and rolls half a turn."},
+        {"zh": "它贴在你脚边，像块掉落的果皮。", "en": "It clings by your foot like a dropped piece of peel."},
+        {"zh": "它被推开了，又慢慢挪回原位。", "en": "Pushed aside, it creeps slowly back to the same spot."},
+        {"zh": "鞋底粘上它的黏液，走一步响一下。", "en": "Its slime sticks to your sole and clicks with each step."},
+        {"zh": "它从你手背爬过，留下一道凉。", "en": "It crawls across your hand and leaves a cool line."},
+        {"zh": "啊，撞到你了！", "en": "Ouch, hit you!"},
+        {"zh": "碰到了你！", "en": "Hit you!"},
+        {"zh": "我的黏液沾了你一鞋底。", "en": "My slime smears across your sole."},
+        {"zh": "黏糊糊地贴上你的靴子。", "en": "I stick to your boot, all slime."},
+        {"zh": "碰了你一下！", "en": "Touched you!"},
+        {"zh": "我身上黏糊糊的，别怪我。", "en": "I'm covered in slime — don't blame me."},
+        {"zh": "撞上你了，真倒霉！", "en": "Hit you, unlucky!"},
+        {"zh": "不小心碰到了你！", "en": "Accidentally hit you!"},
+        {"zh": "撞上你了，真疼！", "en": "Hit you, really hurts!"},
+        {"zh": "撞到你了，真意外！", "en": "Hit you, surprised!"},
+        {"zh": "你鞋底粘上了我。", "en": "I am stuck to the sole of your boot."},
+        {"zh": "别踩，我黏在石头上！", "en": "Do not step! I am stuck to the stone!"},
+        {"zh": "这一碰把我挤扁了。", "en": "That bump squashed me flat."},
+        {"zh": "我黏在你的鞋帮上了。", "en": "I am stuck to the side of your boot."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "两条蛞蝓首尾相绕，转成一个小圈。", "en": "Two slugs coil head to tail into a small ring."},
+        {"zh": "它们用触角互相碰了很久。", "en": "They touch tentacles back and forth for a long while."},
+        {"zh": "一对香蕉蛞蝓并排爬同一根木。", "en": "A pair crawls side by side along the same log."},
+        {"zh": "黏液把它们粘住，分开要费点劲。", "en": "Slime glues them together and parting takes some effort."},
+        {"zh": "它们慢慢绕着蘑菇转，像在跳舞。", "en": "They circle the mushroom slowly, almost dancing."},
+        {"zh": "一条抬起前身，另一条跟着抬。", "en": "One lifts its front half and the other follows."},
+        {"zh": "它们交换了位置，又换回来。", "en": "They trade places, then trade back."},
+        {"zh": "两只一起缩进同一道树皮缝里。", "en": "Both retreat into the same crack in the bark."},
+        {"zh": "触角缠了一下，算是打了招呼。", "en": "The tentacles twine once, which counts as a greeting."},
+        {"zh": "它们把卵藏在腐木下，动作很轻。", "en": "They tuck their eggs under the rotten wood, gently."},
+        {"zh": "找个伴儿吧！", "en": "Find a mate!"},
+        {"zh": "找个伙伴！", "en": "Find a partner!"},
+        {"zh": "我要找伴儿！", "en": "I need a mate!"},
+        {"zh": "一起繁殖吧！", "en": "Reproduce together!"},
+        {"zh": "找一个伴儿！", "en": "Find a buddy!"},
+        {"zh": "找伴儿啊！", "en": "Find a mate!"},
+        {"zh": "我的黏液，能粘住一整块。", "en": "My slime can glue a whole block."},
+        {"zh": "找个伴儿生宝宝！", "en": "Find a mate to reproduce!"},
+        {"zh": "找一个伴儿吧！", "en": "Find a partner!"},
+        {"zh": "两只蛞蝓贴着黏液缠在一起。", "en": "Two slugs twine together in a shared trail."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "托在手里像一块凉凉的软糖。", "en": "In your palm it feels like a cool soft candy."},
+        {"zh": "它从指缝里滑出去，又爬回来。", "en": "It slips between your fingers, then crawls back."},
+        {"zh": "黏液拉着丝，从你的手垂到地上。", "en": "Slime draws a thread from your hand to the ground."},
+        {"zh": "你抬起手，它就挂在你指尖上。", "en": "You lift your hand and it hangs from your fingertips."},
+        {"zh": "它在掌心里摊平，看着更大了。", "en": "It spreads flat in your palm and looks bigger."},
+        {"zh": "抓它得用叶子垫着，不然黏手。", "en": "You need a leaf to hold it or your hand gets sticky."},
+        {"zh": "它慢慢爬上你的手腕，没有挣扎。", "en": "It climbs your wrist slowly, without struggling."},
+        {"zh": "放回地面时，它先缩一下再伸展。", "en": "Set down, it contracts once before stretching out."},
+        {"zh": "它在手心里留下一个亮亮的圆印。", "en": "It leaves a bright round print in your palm."},
+        {"zh": "那么轻，你差点以为抓了个空。", "en": "So light you almost think you grabbed nothing."},
+        {"zh": "黏液拖尾真漂亮！", "en": "The trailing slime is so pretty!"},
+        {"zh": "黏液块等你来采！", "en": "Slime block waiting for you!"},
+        {"zh": "黏液滴落，小心脚下！", "en": "Slime drips, be careful where you step!"},
+        {"zh": "黏液粘附，小心别滑倒！", "en": "Watch out for slime, it's sticky!"},
+        {"zh": "香蕉蛞蝓黏液，美味又黏手！", "en": "Banana Slug slime, tasty and sticky!"},
+        {"zh": "黏液滴答，香蕉蛞蝓黏了！", "en": "Slime dripping, Banana Slug stuck!"},
+        {"zh": "黏液拖行，香蕉蛞蝓慢悠悠！", "en": "Trailing slime, Banana Slug moves slow!"},
+        {"zh": "香蕉蛞蝓黏液，快采起来！", "en": "Banana Slug slime, collect it!"},
+        {"zh": "小心香蕉蛞蝓黏液黏住你！", "en": "Be careful, Banana Slug slime!"},
+        {"zh": "黏液黏手，快来拿取吧！", "en": "Slime on, grab it!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "触角定向那丛真菌，身体跟着转。", "en": "Its tentacles aim at the fungus patch and the body follows."},
+        {"zh": "它锁定了一朵小蘑菇，开始出发。", "en": "It locks onto a small mushroom and sets off."},
+        {"zh": "有东西挡路，它只当是绕个弯。", "en": "Something blocks the way; it treats it as a detour."},
+        {"zh": "它把嘴对准菌褶，慢慢靠过去。", "en": "It aims its mouth at the gills and closes in slowly."},
+        {"zh": "目标很近，它也要爬上一刻钟。", "en": "The target is close and it still takes a quarter hour."},
+        {"zh": "嗅到腐木的甜味，它换了方向。", "en": "Catching the sweetness of rotten wood, it changes course."},
+        {"zh": "它认准了那片苔，别处都不去。", "en": "It settles on that patch of moss and ignores everywhere else."},
+        {"zh": "身体前段抬起来，像在瞄准。", "en": "Its front half lifts, as if taking aim."},
+        {"zh": "它选定目标后，连头都不再偏。", "en": "Once the target is chosen it does not turn aside again."},
+        {"zh": "触角缩回，说明它已经决定好了。", "en": "The tentacles pull in, which means the decision is made."},
+        {"zh": "找到了，香蕉蛞蝓！", "en": "Found you, Banana Slug!"},
+        {"zh": "黏液目标已锁定！", "en": "Slime target locked!"},
+        {"zh": "香蕉蛞蝓，我要抓住你！", "en": "Banana Slug, I got you!"},
+        {"zh": "香蕉蛞蝓在移动！", "en": "Banana Slug moving!"},
+        {"zh": "香蕉蛞蝓黏附目标！", "en": "Banana Slug attached!"},
+        {"zh": "追踪香蕉蛞蝓！", "en": "Tracking Banana Slug!"},
+        {"zh": "香蕉蛞蝓目标确定！", "en": "Banana Slug target acquired!"},
+        {"zh": "锁定香蕉蛞蝓黏液！", "en": "Slime target acquired!"},
+        {"zh": "找到了香蕉蛞蝓的行踪！", "en": "Found Banana Slug's trail!"},
+        {"zh": "香蕉蛞蝓被锁定，别想逃！", "en": "Banana Slug locked, no escape!"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它一寸一寸靠近那朵蘑菇。", "en": "It approaches the mushroom an inch at a time."},
+        {"zh": "黏液在身后连成一条直线。", "en": "Its slime lays a straight line behind it."},
+        {"zh": "触角先碰到菌盖边缘，停住了。", "en": "A tentacle meets the mushroom rim and stops."},
+        {"zh": "它不急，反正蘑菇不会跑。", "en": "It is in no hurry; mushrooms do not run."},
+        {"zh": "身体一伸一缩，像在量还剩多远。", "en": "It stretches and contracts, measuring the distance left."},
+        {"zh": "它绕开一片干叶，路线没变。", "en": "It goes around a dry leaf without changing course."},
+        {"zh": "黏液标出了路，它沿着自己走。", "en": "The slime marks the way and it follows its own trail."},
+        {"zh": "触角左右扫动，反复确认菌丛的位置。", "en": "Its tentacles sweep side to side, confirming the fungus patch."},
+        {"zh": "它靠近到能闻见菌丝，才停下来。", "en": "It stops only when close enough to smell the mycelium."},
+        {"zh": "它把前半身抬高，够向菌盖。", "en": "It lifts its front half to reach the cap."},
+        {"zh": "香蕉蛞蝓，别跑！", "en": "Banana Slug, don't run!"},
+        {"zh": "香蕉蛞蝓目标明确！", "en": "Banana Slug target clear!"},
+        {"zh": "锁定香蕉蛞蝓，别想逃脱！", "en": "Targeting Banana Slug, can't escape!"},
+        {"zh": "香蕉蛞蝓黏液要喷了！", "en": "Banana Slug slime blast!"},
+        {"zh": "香蕉蛞蝓黏液准备发射！", "en": "Banana Slug slime ready!"},
+        {"zh": "香蕉蛞蝓锁定目标，黏液射来！", "en": "Banana Slug targeting, slime incoming!"},
+        {"zh": "香蕉蛞蝓黏液瞄准射击！", "en": "Banana Slug aiming slime!"},
+        {"zh": "香蕉蛞蝓黏液即将发射！", "en": "Banana Slug slime on standby!"},
+        {"zh": "香蕉蛞蝓锁定并准备攻击！", "en": "Banana Slug targeting and ready to attack!"},
+        {"zh": "香蕉蛞蝓黏液瞄准锁定了！", "en": "Banana Slug slime targeting!"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它整个身体撞过来，只是软软一顶。", "en": "Its whole body bumps you, soft and harmless."},
+        {"zh": "说是攻击，其实只是爬到你鞋上。", "en": "The attack amounts to crawling onto your shoe."},
+        {"zh": "它拿触角戳了你一下，就这些。", "en": "It pokes you with a tentacle, and that is all."},
+        {"zh": "那一撞把黏液抹了你一腿。", "en": "The bump smears slime down your leg."},
+        {"zh": "它没有牙，只能用身体压过来。", "en": "It has no teeth, so it just leans its weight on you."},
+        {"zh": "它试图缠住你的手指，滑掉了。", "en": "It tries to wrap your finger and slides off."},
+        {"zh": "这一下唯一的伤害是黏。", "en": "The only damage here is the stickiness."},
+        {"zh": "它撞完自己也晃了晃，慢慢稳住。", "en": "After the bump it sways, then slowly steadies."},
+        {"zh": "它的攻击像一块湿布拍在脚背上。", "en": "Its attack is like a wet cloth slapped on your instep."},
+        {"zh": "它甚至没意识到自己撞到了什么。", "en": "It never even realizes what it ran into."},
+        {"zh": "黏液糊满脸", "en": "Gloop in face!"},
+        {"zh": "黏糊糊袭击", "en": "Goo attack!"},
+        {"zh": "滚过去咬你", "en": "Roll and bite!"},
+        {"zh": "黏液触手攻击", "en": "Goo tentacle attack!"},
+        {"zh": "黏糊糊的触碰", "en": "Goo touch!"},
+        {"zh": "被黏液包围", "en": "Surrounded by goo!"},
+        {"zh": "黏液溅你一身", "en": "Goo splat!"},
+        {"zh": "黏糊糊的反击", "en": "Goo retaliation!"},
+        {"zh": "黏液喷射", "en": "Goo spray!"},
+        {"zh": "黏糊糊的攻击", "en": "Goo attack!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐木下面翻出一条亮黄色的蛞蝓。", "en": "A bright yellow slug turns up under the rotten log."},
+        {"zh": "老林深处，苔上多了一点黄。", "en": "Deep in the old forest, a spot of yellow appears on the moss."},
+        {"zh": "它从菌丝里钻出来，身上还沾着白丝。", "en": "It emerges from the mycelium with white threads on its back."},
+        {"zh": "树皮缝里挤出一段柔软的身子。", "en": "A soft length of body squeezes out of a bark crack."},
+        {"zh": "露水还没干，它已经开始爬了。", "en": "The dew is still wet and it is already crawling."},
+        {"zh": "一片香蕉色的影子贴在树干上。", "en": "A banana-colored shape clings to the trunk."},
+        {"zh": "它的黏液在石头上留下第一道亮痕。", "en": "Its slime leaves the first bright streak on the stone."},
+        {"zh": "苔藓层动了一下，是它在下面翻身。", "en": "The moss shifts a little as it turns over underneath."},
+        {"zh": "这棵老树的根部住进了一条蛞蝓。", "en": "A slug has moved in at the roots of this old tree."},
+        {"zh": "它落地很轻，几乎没声音。", "en": "It lands very lightly, almost without sound."},
+        {"zh": "一根触角从叶背探出来，慢慢升高。", "en": "A tentacle shows from under the leaf and rises slowly."},
+        {"zh": "潮湿的木头里，有什么在慢慢挪动。", "en": "Something is shifting slowly inside the damp wood."},
+        {"zh": "香蕉蛞蝓游动", "en": "Banana slug moves!"},
+        {"zh": "黏液中孵化", "en": "Spawn from goo!"},
+        {"zh": "黏液里爬出", "en": "Goo crawl!"},
+        {"zh": "黏液下诞生", "en": "Goo birth!"},
+        {"zh": "黏液中诞生", "en": "Goo spawn!"},
+        {"zh": "黏液中孵化出", "en": "Spawn from goo!"},
+        {"zh": "香蕉蛞蝓游出", "en": "Banana slug spawns!"},
+        {"zh": "黏液中游动", "en": "Goo slither!"},
+        {"zh": "黏液里爬行", "en": "Goo crawl!"},
+        {"zh": "黏液中蠕动", "en": "Goo wriggle!"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它的黏液被烤得吱吱响。", "en": "Its slime sizzles under the heat."},
+        {"zh": "我的黏液被烤得吱吱响。", "en": "My slime sizzles in the heat."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从方块上掉下来，它软软地弹了一下。", "en": "It falls from the block and bounces softly once."},
+        {"zh": "黏液先落地，我还是摔扁了。", "en": "My slime lands first, but I still flatten."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它在水里缩成一小团，慢慢往下沉。", "en": "It curls into a small lump and sinks slowly."},
+        {"zh": "被黏液淹没了。", "en": "I drowned in slime."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把它掀到半空，像片湿叶。", "en": "The blast throws it up like a wet leaf."},
+        {"zh": "黏液在地上拖出长长的尾。", "en": "My slime trails out behind me."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭扎进去又滑出来，没处着力。", "en": "The arrow sinks in and slides out, finding no purchase."},
+        {"zh": "我中了箭。", "en": "I was hit by an arrow."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它缩了一下，不知道痛从哪儿来。", "en": "It flinches without knowing where the pain came from."},
+        {"zh": "黏液被法术烧得吱吱响。", "en": "Magic sizzled my slime trail."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找不到真菌，它开始啃树皮。", "en": "Finding no fungus, it starts gnawing at bark."},
+        {"zh": "饿得不行了。", "en": "Starvation hurts."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打过，它周围的黏液焦成黑边。", "en": "After the strike, the slime around it is scorched black."},
+        {"zh": "雷击伤了我的身体。", "en": "Lightning struck me."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它伸出触角，在空处慢慢摸索。", "en": "It reaches out a tentacle and gropes at nothing."},
+        {"zh": "我在虚空中消失了。", "en": "I vanished in the void."}
+      ]
+    }
+  }
+}

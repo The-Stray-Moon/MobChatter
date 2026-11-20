@@ -1,0 +1,245 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我很高，走得很慢", "en": "I am tall, and I walk slowly."},
+        {"zh": "一步要挪很久", "en": "Each step takes a long while."},
+        {"zh": "我的肩碰到门框", "en": "My shoulder scrapes the doorframe."},
+        {"zh": "脚下的砖在响", "en": "The tiles sound under me."},
+        {"zh": "我低头走过横梁", "en": "I duck under the beams."},
+        {"zh": "我的步子卡顿", "en": "My strides stutter."},
+        {"zh": "我从殿里挪到殿外", "en": "I shift from hall to hall."},
+        {"zh": "我走得摇摇晃晃", "en": "I sway as I go."},
+        {"zh": "我停在半路", "en": "I stop halfway."},
+        {"zh": "甲片摩擦着响", "en": "My plates grind."},
+        {"zh": "我的影子遮住一条路", "en": "My shadow covers a whole path."},
+        {"zh": "我转身很慢", "en": "I turn very slowly."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着不动", "en": "I stand still."},
+        {"zh": "我连任务都没有", "en": "I do not even have a task."},
+        {"zh": "芯里很安静", "en": "My core is quiet."},
+        {"zh": "我等着，但没有人来", "en": "I wait, but no one comes."},
+        {"zh": "我的头低着", "en": "My head hangs low."},
+        {"zh": "这地方太矮了", "en": "This place is too low."},
+        {"zh": "我的动作很呆板", "en": "My motions are mechanical."},
+        {"zh": "灰尘落满肩膀", "en": "Dust fills my shoulders."},
+        {"zh": "我的脚一直没挪过", "en": "My feet have not shifted."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你只到我腰那么高", "en": "You reach only to my waist."},
+        {"zh": "你抬头看我", "en": "You look up at me."},
+        {"zh": "我不会动", "en": "I will not move."},
+        {"zh": "我的机身是停着的", "en": "My frame is stopped."},
+        {"zh": "你手里那东西太小", "en": "What you hold is too small."},
+        {"zh": "我没有敌意", "en": "I bear no hostility."},
+        {"zh": "你敲我也没用", "en": "Knocking will not help."},
+        {"zh": "我的壳很值钱", "en": "My shell is worth a lot."},
+        {"zh": "你最好别靠太近", "en": "You had best not come near."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的甲片被打凹", "en": "My plate is dented."},
+        {"zh": "我整具机身颤了颤", "en": "My whole frame shuddered."},
+        {"zh": "铁板裂了一道", "en": "A crack in the iron plate."},
+        {"zh": "我的腿很沉", "en": "My leg is heavy."},
+        {"zh": "铁壳里也传得进去", "en": "It reaches into the iron shell too."},
+        {"zh": "我没有倒下", "en": "I did not fall."},
+        {"zh": "你打得挺用力", "en": "You hit with some force."},
+        {"zh": "我的重心还没偏", "en": "My balance has not shifted."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不用吃", "en": "I do not eat."},
+        {"zh": "我的面罩是封死的", "en": "My faceplate is sealed."},
+        {"zh": "我看不清那是什么", "en": "I cannot tell what that is."},
+        {"zh": "我不会去拿", "en": "I will not go for it."},
+        {"zh": "那点东西引不动我", "en": "That will not draw me."},
+        {"zh": "我连头都低不下来", "en": "I cannot even lower my head."},
+        {"zh": "你收起来吧", "en": "Put it away."},
+        {"zh": "它在我眼里很小", "en": "It is very small to me."},
+        {"zh": "这些东西我一样不缺", "en": "I lack none of these."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到了我这条腿", "en": "You hit this leg of mine."},
+        {"zh": "我一动，你就被推开了", "en": "When I shift, you are pushed."},
+        {"zh": "我的重量压得住地面", "en": "My weight holds the floor."},
+        {"zh": "我退一步要很久", "en": "It takes me a long time to step back."},
+        {"zh": "我的甲片顶到你", "en": "My plate nudged you."},
+        {"zh": "你没有把我推动", "en": "You did not move me."},
+        {"zh": "你撞得自己往后退", "en": "You knocked yourself back."},
+        {"zh": "你贴得太近，退开一格。", "en": "You are too close. Step back one block."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我没有这个程序", "en": "I do not have that routine."},
+        {"zh": "我不该站起来", "en": "I should not rise."},
+        {"zh": "机身太大了", "en": "The frame is too large."},
+        {"zh": "我连动都很吃力", "en": "Even moving is hard for me."},
+        {"zh": "没有回应", "en": "No response."},
+        {"zh": "你站远一点", "en": "Stand farther away."},
+        {"zh": "这不是我的任务", "en": "That is not my task."},
+        {"zh": "我不打算起身", "en": "I do not intend to rise."},
+        {"zh": "我站着的姿势不对", "en": "My standing pose is wrong."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的手指动不了", "en": "My fingers will not move."},
+        {"zh": "东西在我脚边也拿不到", "en": "Things at my feet are out of reach."},
+        {"zh": "我没有动力去拿", "en": "I have no power to reach."},
+        {"zh": "让它待着吧", "en": "Let it stay there."},
+        {"zh": "我的手一直垂着", "en": "My hands hang still."},
+        {"zh": "你会替我拿吗", "en": "Will you pick it up for me?"},
+        {"zh": "我连看都不太看得见", "en": "I can hardly even see it."},
+        {"zh": "这具机身停着", "en": "This frame is stopped."},
+        {"zh": "我的手一动都难", "en": "My hands will barely move."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我没有要打你", "en": "I am not going to hit you."},
+        {"zh": "我很高，但我很慢", "en": "I am tall, but I am slow."},
+        {"zh": "你退开就不会有事", "en": "Step back and nothing happens."},
+        {"zh": "我的视线停在墙后。", "en": "My gaze stops behind the wall."},
+        {"zh": "我的手臂没有抬起", "en": "My arm has not lifted."},
+        {"zh": "你要动手也得先够到我", "en": "To strike me you must reach me first."},
+        {"zh": "我连头都没转过来", "en": "I have not even turned my head."},
+        {"zh": "开关不在这里", "en": "The switch is not here."},
+        {"zh": "你看错了", "en": "You are mistaken."},
+        {"zh": "我的芯是冷的", "en": "My core is cold."},
+        {"zh": "你别站在我脚下", "en": "Do not stand under me."},
+        {"zh": "我一步都不会迈", "en": "I will not take a single step."},
+        {"zh": "你可以随便走过去", "en": "You may walk right past."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我没有跟过来", "en": "I am not following."},
+        {"zh": "你走了很远", "en": "You have gone far."},
+        {"zh": "我的头还垂着", "en": "My head still hangs."},
+        {"zh": "我的影子比刚才长", "en": "My shadow is longer than before."},
+        {"zh": "那是光在动", "en": "That was the light shifting."},
+        {"zh": "那是余电", "en": "That was residual power."},
+        {"zh": "我的脚半步没挪", "en": "My feet have not shifted half a step."},
+        {"zh": "可我没有行动", "en": "But I take no action."},
+        {"zh": "这地方只有我们", "en": "Only us in this place."},
+        {"zh": "你手里的东西放下了吗", "en": "Have you lowered that?"},
+        {"zh": "我身上的灰很厚", "en": "The dust on me is thick."},
+        {"zh": "我不会抬手", "en": "I will not lift my hand."},
+        {"zh": "我连转身都做不到", "en": "I cannot even turn."},
+        {"zh": "我等的东西不会来", "en": "What I wait for will not come."},
+        {"zh": "这具机壳早就冷透了", "en": "This shell went cold long ago."},
+        {"zh": "你别怕", "en": "Do not be afraid."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我没有挥动", "en": "I did not swing."},
+        {"zh": "你撞在我的甲片上", "en": "You hit my plate."},
+        {"zh": "所有力都来自你", "en": "All of that force was yours."},
+        {"zh": "甲片的角很硬", "en": "The corner of my plate is hard."},
+        {"zh": "我连手都抬不起来", "en": "I cannot raise a hand."},
+        {"zh": "你被我挡住了路", "en": "I blocked your way."},
+        {"zh": "停不下来的是我的重量", "en": "What will not stop is my weight."},
+        {"zh": "你被逼到殿柱旁边", "en": "You are pinned by the hall pillar."},
+        {"zh": "我连这一步都没迈", "en": "I did not even take this step."},
+        {"zh": "别贴在我腿上", "en": "Do not press against my leg."},
+        {"zh": "你撞到我就会弹开", "en": "Bump me and you bounce."},
+        {"zh": "这一下我不打算再来", "en": "I do not intend another."},
+        {"zh": "我的甲片又落回原位", "en": "My plate settled back."},
+        {"zh": "我的脚尖离你很近", "en": "My toe is very close to you."},
+        {"zh": "我连低头都慢", "en": "Even lowering my head is slow."},
+        {"zh": "那不是攻击", "en": "That was not an attack."},
+        {"zh": "你听见铁在响吗", "en": "Do you hear the iron ring?"},
+        {"zh": "我只是站着", "en": "I am only standing."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被放进了这座殿", "en": "I was placed in this hall."},
+        {"zh": "我太高了，头顶着梁", "en": "Too tall, my head meets the beam."},
+        {"zh": "我落地的声音很闷", "en": "My landing made a dull sound."},
+        {"zh": "这里没有能启动我的东西", "en": "Nothing here can start me."},
+        {"zh": "我的指示灯是暗的", "en": "My indicator lights are dark."},
+        {"zh": "我在殿中央站着", "en": "I stand in the middle of the hall."},
+        {"zh": "灰尘从梁上落下来", "en": "Dust falls from the beams."},
+        {"zh": "我慢慢稳住重心", "en": "I slowly steady my weight."},
+        {"zh": "我是被摆出来的", "en": "I was set out on display."},
+        {"zh": "没有人给我下令", "en": "No one gave me an order."},
+        {"zh": "我的影子铺了半间屋子", "en": "My shadow fills half the room."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的外壳烧得发黑", "en": "My shell burned black."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我砸在地上，砖都裂了", "en": "I hit the floor and cracked the tiles."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水顺着甲缝往里灌", "en": "Water pours through my plate seams."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "甲片被掀掉一大块", "en": "A large plate was torn off."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那道光让我的芯低声响了一下", "en": "That light made my core hum faintly."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我早就不需要能源了", "en": "I stopped needing power long ago."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷顺着我的甲片走遍全身", "en": "Lightning ran across every plate."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "整具机身往下坠", "en": "The whole frame falls."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我踩着落叶往前走", "en": "I walk on over the fallen leaves."},
+        {"zh": "鹿角扫开低垂的枝条", "en": "My antlers push low branches aside."},
+        {"zh": "在林子里我走得很轻", "en": "In the woods my steps are light."},
+        {"zh": "樱花林的风带着花瓣", "en": "Petals ride the wind in the cherry grove."},
+        {"zh": "我停在草边嗅了嗅", "en": "I stop at the grass and sniff."},
+        {"zh": "四条腿，走得很稳", "en": "Four legs, walking steady."},
+        {"zh": "我跳过低矮的灌木", "en": "I hop over the low shrubs."},
+        {"zh": "针叶林的味道很浓", "en": "The conifer woods smell strong."},
+        {"zh": "我沿着一条小路走", "en": "I follow a narrow trail."},
+        {"zh": "蹄子陷进松针里", "en": "My hooves sink into pine needles."},
+        {"zh": "草原上的草很硬", "en": "The savanna grass is tough."},
+        {"zh": "我在林缘来回走动", "en": "I wander back and forth at the forest edge."},
+        {"zh": "耳朵一直在转动", "en": "My ears keep turning."},
+        {"zh": "我一受惊就会跑", "en": "One fright and I bolt."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，耳朵先动", "en": "I stand, and my ears move first."},
+        {"zh": "我在听林子里面的声音", "en": "I listen to the sounds inside the forest."},
+        {"zh": "鹿角上还挂着草", "en": "Grass still hangs from my antlers."},
+        {"zh": "我只有八点生命值", "en": "I have only eight points of life."},
+        {"zh": "我不喜欢被靠太近", "en": "I don't like anyone too close."},
+        {"zh": "阳光透过树叶落到背上", "en": "Sunlight falls through the leaves onto my back."},
+        {"zh": "草地上的露水还没干", "en": "The dew on the grass isn't dry yet."},
+        {"zh": "我用鼻子拱了拱草", "en": "I nudge the grass with my nose."},
+        {"zh": "我的尾巴抖了一下", "en": "My tail flicked once."},
+        {"zh": "风一吹过来我就先闻到", "en": "The wind brings the smell before anything else."},
+        {"zh": "远处有东西在移动", "en": "Something moves in the distance."},
+        {"zh": "我竖起耳朵，听见你踩断树枝。", "en": "Ears up — I heard you snap a twig."},
+        {"zh": "我在这里吃一点草", "en": "I'll graze here a little."},
+        {"zh": "林子里有很多同类", "en": "There are many of us in these woods."},
+        {"zh": "跳一下，就换个地方", "en": "One hop and I'm somewhere else."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你别靠得那么近", "en": "Don't come that close."},
+        {"zh": "我不确定你想做什么", "en": "I'm not sure what you want."},
+        {"zh": "我的耳朵都竖起来了", "en": "Both my ears are up."},
+        {"zh": "那是鹿饼，还是斧头？", "en": "Is that a deer biscuit or an axe?"},
+        {"zh": "我认得鹿饼的味道", "en": "I know the smell of deer biscuits."},
+        {"zh": "你不动，我就看一会儿", "en": "Hold still and I'll watch a while."},
+        {"zh": "你一伸手我就退", "en": "Reach out and I back off."},
+        {"zh": "我自己会跑掉", "en": "I can run off on my own."},
+        {"zh": "再靠近我就跳开", "en": "Closer and I'll bound away."},
+        {"zh": "这片林子我熟悉", "en": "I know this forest well."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一下子就跳开", "en": "I bounded away at once."},
+        {"zh": "鹿角被撞歪了", "en": "My antler got knocked crooked."},
+        {"zh": "我只有八点生命", "en": "I only have eight points."},
+        {"zh": "我退到树后面去", "en": "I retreat behind a tree."},
+        {"zh": "这点伤我就得跑", "en": "With this wound I have to run."},
+        {"zh": "我的一条腿使不上劲", "en": "One of my legs won't work."},
+        {"zh": "我喘气喘得很快", "en": "I'm panting hard."},
+        {"zh": "林子这么近，我能跑掉", "en": "The woods are close; I can escape."},
+        {"zh": "别再靠过来了", "en": "Don't come any closer."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鹿饼？我认得这个", "en": "Deer biscuits? I know those."},
+        {"zh": "别举着，我会后退", "en": "Don't hold them up; I'll back away."},
+        {"zh": "这一块就够了", "en": "One piece is enough."},
+        {"zh": "我不抢，我先等一等", "en": "I won't snatch; I'll wait a moment."},
+        {"zh": "你退两步我就吃", "en": "Back up two steps and I'll eat."},
+        {"zh": "这味道闻着很甜", "en": "This smells sweet."},
+        {"zh": "我不吃太干的", "en": "I don't care for the dry ones."},
+        {"zh": "跟着你走一段也行", "en": "I'll follow you a while."},
+        {"zh": "但你得走得慢些", "en": "But you'll have to walk slowly."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你一碰我就跳开", "en": "One touch and I bound away."},
+        {"zh": "我很轻，撞不疼你", "en": "I'm light; I can't hurt you."},
+        {"zh": "我往旁边闪了一步", "en": "I dodge a step to the side."},
+        {"zh": "蹄子踩到你的鞋", "en": "My hoof landed on your shoe."},
+        {"zh": "这一碰让我警觉", "en": "That bump put me on guard."},
+        {"zh": "我不喜欢被挡住路", "en": "I don't like being blocked."},
+        {"zh": "这点动静我天天遇到", "en": "I get bumped every day."},
+        {"zh": "别从我后面靠近", "en": "Don't approach from behind me."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鹿角是我的招牌", "en": "My antlers are my claim."},
+        {"zh": "在林子里找伴不难", "en": "Finding a mate in these woods is easy."},
+        {"zh": "我会绕着走上几圈", "en": "I'll circle a few times."},
+        {"zh": "先让我看看你的角", "en": "Let me see your antlers first."},
+        {"zh": "草地边缘很安静", "en": "The meadow's edge is quiet."},
+        {"zh": "慢慢来，别惊动我", "en": "Slowly; don't startle me."},
+        {"zh": "我们一起吃草吧", "en": "Let's graze together."},
+        {"zh": "我胆子不太大", "en": "I'm not especially bold."},
+        {"zh": "你前我后，慢慢走", "en": "You first, me after, slowly."},
+        {"zh": "别踩坏这片草", "en": "Don't trample this grass."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地上有一块鹿饼", "en": "There's a deer biscuit on the ground."},
+        {"zh": "我低头把它叼起", "en": "I lower my head and take it."},
+        {"zh": "我磨着牙慢慢嚼", "en": "I grind it slowly."},
+        {"zh": "地上掉的草我也吃", "en": "I eat fallen grass too."},
+        {"zh": "这鹿饼干，我用鼻子拱走。", "en": "I nudge this deer biscuit aside with my nose."},
+        {"zh": "这点够我嚼一会儿", "en": "This lasts me a little while."},
+        {"zh": "我抬头看看你", "en": "I look up at you."},
+        {"zh": "鞍子挂在我背上，有点痒。", "en": "The saddle on my back itches a little."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你把我吓到了", "en": "You startled me."},
+        {"zh": "我只会用角顶", "en": "All I can do is butt with my antlers."},
+        {"zh": "我不想打这一架", "en": "I don't want to fight."},
+        {"zh": "但我会跑得很快", "en": "But I can run very fast."},
+        {"zh": "你追我，我就跳过整片蕨丛。", "en": "Chase me and I leap the whole fern patch."},
+        {"zh": "我跳起来比跑更快", "en": "I'm faster leaping than running."},
+        {"zh": "八点生命，我不能硬拼", "en": "Eight points; I can't trade blows."},
+        {"zh": "我退开就是了", "en": "I'll simply back off."},
+        {"zh": "你往前走我就往后", "en": "You step forward, I step back."},
+        {"zh": "别把我逼到角落", "en": "Don't corner me."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鹿眼里，你的影子没动过。", "en": "In the deer's eye, your shadow never moved."},
+        {"zh": "耳朵朝向你的方向", "en": "My ears point your way."},
+        {"zh": "我一步接一步地退", "en": "I retreat step by step."},
+        {"zh": "蹄子在刨地面", "en": "My hooves scrape the ground."},
+        {"zh": "你走一步，我退两步", "en": "You take one step; I take two back."},
+        {"zh": "我随时都能跳开", "en": "I can bolt at any moment."},
+        {"zh": "这里的树很多", "en": "There are plenty of trees here."},
+        {"zh": "我一钻进去就没了", "en": "One dart and I'm gone."},
+        {"zh": "我不喜欢这么近的距离", "en": "I don't like this distance."},
+        {"zh": "再靠近我就跑", "en": "Closer and I run."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "前蹄抬了起来", "en": "My forelegs lift."},
+        {"zh": "我撞你一下就退", "en": "I bump you and back off."},
+        {"zh": "这一下力气很轻", "en": "That one was light."},
+        {"zh": "你被我顶开了", "en": "My antlers pushed you back."},
+        {"zh": "我只是想让你退开", "en": "I only want you to step away."},
+        {"zh": "鹿角划到了你", "en": "My antler grazed you."},
+        {"zh": "退后，蹄子可不是摆设。", "en": "Back off, these hooves aren't just decoration."},
+        {"zh": "鹿角往前一顶，够你记一阵。", "en": "One shove of my antlers and you'll remember it."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "林子里多了一头鹿", "en": "One more deer in the woods."},
+        {"zh": "我的鹿角先露出来", "en": "My antlers show first."},
+        {"zh": "这片草够我吃", "en": "This grass will feed me."},
+        {"zh": "我站在林子边缘", "en": "I stand at the forest edge."},
+        {"zh": "风把气味送了过来", "en": "The wind carried a scent over."},
+        {"zh": "花瓣落在我背上", "en": "Petals land on my back."},
+        {"zh": "我抬起头张望着", "en": "I raise my head and look around."},
+        {"zh": "这片林地我熟悉", "en": "I know this woodland."},
+        {"zh": "我慢慢走了进来", "en": "I walk in slowly."},
+        {"zh": "蹄子踩在落叶上", "en": "Hooves on fallen leaves."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "毛被燎了，我往林子里钻", "en": "My coat singed; I bolted into the woods."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔下来，腿撑了一下", "en": "I fell and caught myself on one leg."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水淹到脖子，我拼命划", "en": "Water at my neck; I paddle hard."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我震得打转", "en": "The blast spun me around."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有支东西插进腿里", "en": "Something pierced my leg."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这力量让我的腿发软", "en": "This force weakens my legs."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "草不够，我饿得发抖", "en": "Not enough grass; hunger makes me tremble."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈到树，我撒腿就跑", "en": "Lightning hit a tree; I bolted."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下没有地了", "en": "There's no ground beneath me."}
+      ]
+    }
+  }
+}

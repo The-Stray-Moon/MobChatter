@@ -1,0 +1,288 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石脚在泥地上磨出痕迹。", "en": "My stone feet grind marks into the dirt."},
+        {"zh": "伸长触手寻找猎物", "en": "stretch tentacles"},
+        {"zh": "缓慢移动，观察周围", "en": "move slowly"},
+        {"zh": "柱子是我，眼也是我。", "en": "The pillar is me, and so is the eye."},
+        {"zh": "三块石头叠起来，我就站得住", "en": "Three blocks stacked and I can stand"},
+        {"zh": "用触手摸索地面", "en": "touch ground with tentacles"},
+        {"zh": "缓慢穿过黑暗", "en": "move through darkness"},
+        {"zh": "柱子一点点挪向你。", "en": "The pillar inches toward you."},
+        {"zh": "用触手拨弄沙粒", "en": "stir sand with tentacles"},
+        {"zh": "三格高的柱身缓缓挪动", "en": "The three-block pillar inches along."},
+        {"zh": "独石基座在骨荒原上摩擦", "en": "Its monolith base grinds over the bone wastes."},
+        {"zh": "柱身摇晃，眼珠四处滚动", "en": "The pillar sways, eyes rolling around."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "凝视虚空之眼", "en": "stare at eye"},
+        {"zh": "三格高的柱子，静静立着。", "en": "Three blocks tall, the pillar stands still."},
+        {"zh": "石头之间挤出一声低响。", "en": "A low groan squeezes between the stones."},
+        {"zh": "三格高的影子没人注意。", "en": "Nobody notices a three-block shadow."},
+        {"zh": "缓缓转动身体", "en": "turn slowly"},
+        {"zh": "柱子上的眼缝一直睁着。", "en": "The eye slit in my pillar stays open."},
+        {"zh": "用触手轻轻移动", "en": "move tentacles gently"},
+        {"zh": "注视虚空之眼", "en": "stare at eye"},
+        {"zh": "缓缓呼吸", "en": "breathe slowly"},
+        {"zh": "检查周围动静", "en": "check surroundings"},
+        {"zh": "柱顶的虚空之眼缓缓眨动", "en": "The Void Eye atop it blinks slowly."},
+        {"zh": "独石缝隙里渗出低语", "en": "Whispers seep from the monolith seams."},
+        {"zh": "如石碑般立在血肉平原上", "en": "It stands like a gravestone on the flesh plains."},
+        {"zh": "回想失落文明的搭建仪式", "en": "It recalls the lost civilization's rite."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "直视玩家", "en": "stare at player"},
+        {"zh": "我用石眼的余光夹住你。", "en": "I catch you in the corner of my stone eye."},
+        {"zh": "我发出低沉的嘶声", "en": "I let out a low hiss"},
+        {"zh": "我挪不动，只能看你走近。", "en": "I can't move; I watch you come closer."},
+        {"zh": "发出威胁嘶嘶声", "en": "hiss threat"},
+        {"zh": "我低下柱顶，正对你。", "en": "I tip my pillar top toward you."},
+        {"zh": "你的火把映在我身上。", "en": "Your torchlight plays across me."},
+        {"zh": "你举起镐子，我看见了。", "en": "You raise your pick; I see it."},
+        {"zh": "独石柱身转向你", "en": "The monolith pillar turns toward you."},
+        {"zh": "眼珠从柱顶滚到你身上", "en": "An eye rolls down from the top onto you."},
+        {"zh": "先知的光泽映出你的脸", "en": "Prophet-sheen mirrors your face."},
+        {"zh": "虚空之眼钉住你的影子", "en": "The Void Eye pins your shadow."},
+        {"zh": "你举起镐，我的眼珠缩紧", "en": "You raise a pick, and my eyes narrow."},
+        {"zh": "柱身静止，只盯着你", "en": "The pillar goes still, just watching you."},
+        {"zh": "我数着你身上每块独石", "en": "I count every monolith on you."},
+        {"zh": "你的脚步惊动了柱中的眼", "en": "Your steps wake the eyes inside."},
+        {"zh": "我以三格高的姿态俯视你", "en": "I look down on you from three blocks high."},
+        {"zh": "骨荒原的风送来你的气味", "en": "Bone-waste wind carries your scent."},
+        {"zh": "我认出你搭柱时的手法", "en": "I know the hands that stacked me."},
+        {"zh": "柱身裂开一道缝，眼睛探出", "en": "A crack opens and an eye peers out."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你戳破了我的视网膜！", "en": "You punctured my retina!"},
+        {"zh": "我的视野被模糊了……", "en": "My vision is blurred..."},
+        {"zh": "我的眼睛在流血……", "en": "Blood is streaming from my eyes..."},
+        {"zh": "视野扭曲了……", "en": "My vision is distorted..."},
+        {"zh": "我看到了你的弱点！", "en": "I see your weakness!"},
+        {"zh": "我的视力越来越模糊……", "en": "My vision is fading..."},
+        {"zh": "我的视觉正在消失……", "en": "My vision is disappearing..."},
+        {"zh": "你剥夺了我的视野！", "en": "You stole my sight!"},
+        {"zh": "我的眼睛在燃烧……", "en": "My eyes are burning..."},
+        {"zh": "我的视野被黑暗吞噬……", "en": "My vision is consumed by darkness..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你似乎引起了我的注意，独石之王。", "en": "You've caught my interest, King of Quarzite."},
+        {"zh": "我注视着你，直到你成为我的一部分。", "en": "I will gaze upon you until you become a part of me."},
+        {"zh": "我能够看到你的灵魂，它并不纯净。", "en": "I can see through your soul, it is not pure."},
+        {"zh": "不要靠近我的视线，否则会后悔。", "en": "Do not approach my sight, or you'll regret it."},
+        {"zh": "你的灵魂将是我力量的源泉。", "en": "Your soul will be the source of my power."},
+        {"zh": "你身上的先知光芒，激起了我的兴趣。", "en": "The prophet's light on you interests me."},
+        {"zh": "我能够透过虚无之眼看到你的恐惧。", "en": "I can see your fear through the Eye of Void."},
+        {"zh": "你身上的独石让我着迷。", "en": "The Quarzite on you is captivating."},
+        {"zh": "你身上的光芒让我感到不安。", "en": "The light on you unnerves me."},
+        {"zh": "我将你视为未来的养分。", "en": "I see you as future nourishment."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你挡住了我的视线，这是不能容忍的。", "en": "You obstruct my sight, this cannot be tolerated."},
+        {"zh": "不要阻挡我的视线，否则我将清除你。", "en": "Do not block my sight, or I will eliminate you."},
+        {"zh": "你的存在干扰了我的视线，我必须净化你。", "en": "Your presence disrupts my sight, I must purify you."},
+        {"zh": "你挡住了我的视界，必须解决。", "en": "You obstruct my vision, it must be resolved."},
+        {"zh": "我不能容忍任何东西阻挡我的视线。", "en": "I cannot tolerate anything obstructing my sight."},
+        {"zh": "我必须保持视线清晰，你必须消失。", "en": "I must maintain clear sight, you must disappear."},
+        {"zh": "你挡住了我的视野，我必须处理。", "en": "You obstruct my view, I must address it."},
+        {"zh": "不要挡住我的视线，否则会有危险。", "en": "Do not block my sight, or there will be danger."},
+        {"zh": "我不能让你挡住我的视线。", "en": "You cannot obstruct my sight."},
+        {"zh": "你阻挡了我的视线，我将移除你。", "en": "You obstruct my sight, I will remove you."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的同胞在哪里？", "en": "Where is my fellow?"},
+        {"zh": "三块石头垒起来，我就在里面。", "en": "Three stones stacked, and I'm inside."},
+        {"zh": "只有找到我的伴侣，我才能休息。", "en": "I can only rest with my mate."},
+        {"zh": "我的生命之火取决于我的伴侣。", "en": "My life force depends on my mate."},
+        {"zh": "与我结合，共同创造。", "en": "Unite with me, for creation."},
+        {"zh": "我的伴侣是生存的关键。", "en": "My mate is key to survival."},
+        {"zh": "只有与我结合，你才能生存。", "en": "Only by uniting with me can you survive."},
+        {"zh": "找到我的伴侣，结束孤独。", "en": "Find my mate, end your loneliness."},
+        {"zh": "我的伴侣是唯一的希望。", "en": "My mate is the only hope."},
+        {"zh": "与我结合，共同生存。", "en": "Unite with me, for survival."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这玩意儿看起来可不简单！", "en": "This one's not to be messed with."},
+        {"zh": "我的视线在你身上停留了！", "en": "My gaze is upon you."},
+        {"zh": "你体内有值得我关注的东西！", "en": "Something in you piques my interest."},
+        {"zh": "独石，先知的恩赐，虚空之眼！", "en": "Obsidian, Prophet's blessing, Void Eye."},
+        {"zh": "我看到了你的恐惧！", "en": "I see your fear."},
+        {"zh": "你身上有什么值得我注意？", "en": "What do you have that interests me?"},
+        {"zh": "这片土地是我的狩猎场！", "en": "This land is my hunting ground."},
+        {"zh": "我看到了你的潜力！", "en": "I see your potential."},
+        {"zh": "虚空之眼注视着你！", "en": "Void Eye watches you."},
+        {"zh": "这独石不是凡品！", "en": "This obsidian is no ordinary stone."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "三格高的柱子，是我搭的。", "en": "This three-block pillar is my own making."},
+        {"zh": "三格高的柱子，你够得着吗。", "en": "A three-block pillar. Can you reach?"},
+        {"zh": "我睁开了眼，就在柱身上。", "en": "I open my eye upon the pillar's shaft."},
+        {"zh": "柱子脚下的影子拉长了。", "en": "The shadow at my pillar's foot stretches."},
+        {"zh": "这是我的狩猎时刻！", "en": "This is my hunting moment."},
+        {"zh": "你的脚步声传到我这里。", "en": "Your footsteps carry up to me."},
+        {"zh": "三格高的柱子，是我站的地方", "en": "Three blocks tall — this pillar is where I stand — 巨型全视者, target acquire"},
+        {"zh": "你将被永远铭记！", "en": "You will be forever remembered."},
+        {"zh": "你已无处可逃！", "en": "You have nowhere to run."},
+        {"zh": "这是你应有的下场！", "en": "This is what you deserve."},
+        {"zh": "柱身一震，我选定了你", "en": "The pillar shudders; I choose you."},
+        {"zh": "独石基座朝你的方向倾斜", "en": "Its base leans your way."},
+        {"zh": "虚空之眼在你身上对焦", "en": "The Void Eye focuses on you."},
+        {"zh": "柱顶的眼睛一齐睁开", "en": "Every eye atop the pillar opens."},
+        {"zh": "镐声一响，我便认你为敌", "en": "One pick-strike and you are my foe."},
+        {"zh": "我的所有眼睛都转向你", "en": "All my eyes turn to you."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的眼对着你的后脑。", "en": "My eye is fixed on the back of your head."},
+        {"zh": "我将追踪你！", "en": "I will track you."},
+        {"zh": "我将监视你！", "en": "I will monitor you."},
+        {"zh": "我将把你抓回去！", "en": "I will take you back."},
+        {"zh": "我将把你带回去！", "en": "I will bring you back."},
+        {"zh": "我将把你置于死地！", "en": "I will put you to death."},
+        {"zh": "我将让你尝尝痛苦！", "en": "I will make you suffer."},
+        {"zh": "我将把你带回巢穴！", "en": "I will take you back to the nest."},
+        {"zh": "我将把你带回黑暗！", "en": "I will take you back to the darkness."},
+        {"zh": "我将把你带回深渊！", "en": "I will take you back to the abyss."},
+        {"zh": "柱身缓慢逼近，无处可躲", "en": "The pillar closes in; nowhere to hide."},
+        {"zh": "我盯着你手里的那柄镐", "en": "I watch the pick in your hand."},
+        {"zh": "你的影子被钉在骨荒原上", "en": "Your shadow is pinned to the wastes."},
+        {"zh": "眼睛从四面围拢过来", "en": "Eyes gather from every side."},
+        {"zh": "我的注视比石柱更沉重", "en": "My gaze weighs more than stone."},
+        {"zh": "独石之间传出磨牙的声响", "en": "Grinding teeth sound between monoliths."},
+        {"zh": "我以眼为锁，扣住你的脚步", "en": "My eyes lock your steps in place."},
+        {"zh": "柱身投下的影子正在收紧", "en": "The pillar's shadow tightens around you."},
+        {"zh": "你退一步，我多睁一只眼", "en": "Each step back opens one more eye."},
+        {"zh": "虚空之眼在你头顶睁开", "en": "A Void Eye opens above your head."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "吼！你的末日到了！", "en": "Roar! Your end is here!"},
+        {"zh": "石指张开，抓住你的衣领。", "en": "Stone fingers open and grab your collar."},
+        {"zh": "三格高的我，堵住路口。", "en": "Three blocks tall, I block the way."},
+        {"zh": "柱子一斜，压向你的肩。", "en": "The pillar tilts down toward your shoulder."},
+        {"zh": "三格高的柱子是我。", "en": "This three-block pillar is me."},
+        {"zh": "我伸手，石缝里掉灰。", "en": "I reach out, and dust falls from my seams."},
+        {"zh": "你的游戏结束了！", "en": "Your game is over!"},
+        {"zh": "石头的手没有温度。", "en": "My stone hand has no warmth."},
+        {"zh": "三格高的柱子，也能砸到你。", "en": "Three blocks tall, and I still smash you."},
+        {"zh": "感受绝望！", "en": "Feel despair!"},
+        {"zh": "柱身砸下，骨屑四处飞溅", "en": "The pillar slams down, bone dust flying."},
+        {"zh": "独石边角撞向你的肩膀", "en": "A monolith corner jabs your shoulder."},
+        {"zh": "眼睛喷出腥臭的黏液", "en": "An eye spits foul slime."},
+        {"zh": "三格高的重量压向你", "en": "Three blocks of weight bear down."},
+        {"zh": "柱身横扫，把你推开", "en": "It sweeps you off your feet."},
+        {"zh": "我用石化的一角捅穿你", "en": "I pierce you with a stone-hard corner."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗中我等待！", "en": "I wait in the darkness."},
+        {"zh": "三格高，是我自己搭的。", "en": "Three blocks tall — I built this myself."},
+        {"zh": "我是全视者！", "en": "I am the Overseer."},
+        {"zh": "这座柱子是我自己搭的。", "en": "I built this pillar myself."},
+        {"zh": "我将引导你！", "en": "I will guide you."},
+        {"zh": "独石立起来，我也就站起来了。", "en": "The monolith rises, and so do I."},
+        {"zh": "我是末日的使者！", "en": "I am the harbinger of doom."},
+        {"zh": "你将消失在黑暗中！", "en": "You will vanish into the darkness."},
+        {"zh": "我是全视者的影子！", "en": "I am the shadow of the Overseer."},
+        {"zh": "黑暗中我追踪你！", "en": "I track you in the darkness."},
+        {"zh": "独石三块叠起，我睁眼了", "en": "Three monoliths stacked, and I open my eyes."},
+        {"zh": "虚空之眼落在柱顶，我成形", "en": "A Void Eye set on top, and I take form."},
+        {"zh": "有人搭好柱子，我便醒来", "en": "Someone built the pillar, so I woke."},
+        {"zh": "骨荒原上多了一座会看的柱", "en": "The wastes gained a pillar that watches."},
+        {"zh": "血肉平原的土里，我立起", "en": "I rise from the flesh plains' soil."},
+        {"zh": "先知的碎片拼成了我的柱身", "en": "Prophet shards assembled my body."},
+        {"zh": "失落文明的手法又造出了我", "en": "The lost civilization's craft made me again."},
+        {"zh": "基岩洞口的黑灌进我的眼", "en": "Bedrock darkness pours into my eyes."},
+        {"zh": "柱影落下，我便在此守候", "en": "My shadow falls, so here I stay."},
+        {"zh": "我不自然生成，只被人搭出", "en": "I never spawn wild; I am built."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧毁了我的眼睛！", "en": "The flames burned my eyes!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从高处摔下！", "en": "I fell from a height!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水淹没了我的视野！", "en": "The water obscured my vision!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸震瞎了我的眼睛！", "en": "The explosion blinded me!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的箭射瞎了我的眼睛！", "en": "Your arrow blinded me!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法模糊了我的视野！", "en": "Magic blurred my vision!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的视野在饥饿中模糊！", "en": "My vision is blurred by hunger!"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闪电击中了我的眼睛！", "en": "Lightning struck my eyes!"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空吞噬了我的视线！", "en": "The void devoured my sight!"}
+      ]
+    }
+  }
+}

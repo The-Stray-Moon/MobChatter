@@ -1,0 +1,254 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我沿着货架走，数今天少了几块铁。", "en": "I walk the shelves, counting the iron missing today."},
+        {"zh": "脚下叮当响，是我腰上的秤砣。", "en": "My steps clink with the weights hanging at my belt."},
+        {"zh": "我去后仓看看，货该补了。", "en": "I head to the back room; the stock needs refilling."},
+        {"zh": "我走路很慢，怕碰倒堆着的锭。", "en": "I walk slowly, afraid to topple the stacked ingots."},
+        {"zh": "每走一圈，我就往账上加一笔。", "en": "Each lap around the shop, I add a line to the ledger."},
+        {"zh": "我踩着木地板，声音像在数钱。", "en": "My boots on the boards sound like counting coins."},
+        {"zh": "我绕开地上的铜块，那还没标价。", "en": "I step around the copper; it has no price yet."},
+        {"zh": "我走到门口，看看有没有客人。", "en": "I walk to the door to see whether a customer came."},
+        {"zh": "我边走边掂手里的锭，估个价。", "en": "I walk while weighing an ingot and guessing its price."},
+        {"zh": "通道太窄，我得侧着身子过去。", "en": "The aisle is narrow; I have to turn sideways."},
+        {"zh": "我走得很稳，这店里没有余地。", "en": "I walk carefully; this shop has no room to spare."},
+        {"zh": "我巡到最里一排，灰落了一层。", "en": "I reach the back row, where a layer of dust has settled."},
+        {"zh": "我不跑，跑起来会掉铜板。", "en": "I never run; running spills copper coins."},
+        {"zh": "我回到柜台前，那里才是我的位置。", "en": "I return behind the counter, where I belong."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用袖子擦一枚旧锭，擦出光。", "en": "I polish an old ingot with my sleeve until it shines."},
+        {"zh": "账本上有一笔，我一直算不平。", "en": "One entry in my ledger has never balanced."},
+        {"zh": "我把铜板和铁锭分开摆，摆得整齐。", "en": "I sort copper and iron into two neat stacks."},
+        {"zh": "我数了一遍库存，又数一遍。", "en": "I count the stock once, then count it again."},
+        {"zh": "秤砣在手里，我掂了掂，觉得沉。", "en": "The weight sits in my palm, heavier than I recall."},
+        {"zh": "我打开新到的货，闻见铁锈味。", "en": "I open the new shipment and smell rust."},
+        {"zh": "门口的铃没响，今天客人不多。", "en": "The door bell has not rung; few customers today."},
+        {"zh": "我在修一个破箱子，钉子不够。", "en": "I mend a broken crate and run short of nails."},
+        {"zh": "我算了算今天的收益，不多。", "en": "I tally today's takings; they are modest."},
+        {"zh": "有块金属我认不出，先放一边。", "en": "One metal I cannot identify, so I set it aside."},
+        {"zh": "我拍了拍柜台，把灰拍掉。", "en": "I pat the counter and knock the dust off."},
+        {"zh": "我在等补货的时间，它总会到。", "en": "I wait for restocking time; it always comes."},
+        {"zh": "我的手指被划了一道，缠上了布。", "en": "A cut on my finger, wrapped up in cloth."},
+        {"zh": "店里安静，我听见金属自己响。", "en": "The shop is quiet, and I hear the metal ringing."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "客人，你手上那块铁，我出价。", "en": "Customer, that iron in your hand — I will offer."},
+        {"zh": "我先看你腰间的袋子，不看脸。", "en": "I look at your belt pouch first, not your face."},
+        {"zh": "你穿成这样，是来买还是来卖？", "en": "Dressed like that, are you buying or selling?"},
+        {"zh": "我眯眼看你，估算你值多少。", "en": "I squint at you and estimate what you are worth."},
+        {"zh": "你靴底带泥，刚从矿里回来吧。", "en": "Mud on your soles; you came from the mines."},
+        {"zh": "别把手放在柜台上，会压坏漆。", "en": "Do not lean on the counter; you will ruin the varnish."},
+        {"zh": "我认得你，上次你少给我两块铜。", "en": "I know you; you shorted me two copper last time."},
+        {"zh": "你看起来不像有钱，但也许有货。", "en": "You do not look rich, but you may have goods."},
+        {"zh": "我的价格很公道，公道得让人心疼。", "en": "My prices are fair, fair enough to sting."},
+        {"zh": "我抬头看你，脖子发出轻微的响。", "en": "I look up at you, and my neck creaks softly."},
+        {"zh": "你的剑不错，可惜我不收旧货。", "en": "Fine sword, but I do not take worn goods."},
+        {"zh": "你站得太近，柜台挡不住你。", "en": "You stand too close; the counter cannot hold you back."},
+        {"zh": "我笑的时候，你就该当心价钱。", "en": "When I smile, that is when you watch the price."},
+        {"zh": "客人，看可以，别碰。", "en": "Customer, looking is free. Touching is not."},
+        {"zh": "你袖口的补丁，说明你常来。", "en": "The patch on your sleeve says you come here often."},
+        {"zh": "我先看你的手，再看你的剑。", "en": "I study your hands before your sword."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "别打！货会掉，账会乱！", "en": "Do not hit me! Goods fall, accounts scramble!"},
+        {"zh": "我抱着头蹲下，先护住账本。", "en": "I crouch and cover my head, shielding the ledger first."},
+        {"zh": "这一下够我修三天柜台。", "en": "This will cost me three days of counter repairs."},
+        {"zh": "血滴在价签上，字都看不清了。", "en": "Blood drips on a price tag and blurs the numbers."},
+        {"zh": "我退到墙角，那里没有货。", "en": "I back into the corner, where no stock stands."},
+        {"zh": "你打断了我的秤，这很贵。", "en": "You broke my scale. That was expensive."},
+        {"zh": "疼，但我先算损失。", "en": "It hurts, but I count the losses first."},
+        {"zh": "我喊了一声，声音像破铜。", "en": "I cry out, and it sounds like torn copper."},
+        {"zh": "别打了，我们可以谈价。", "en": "Stop hitting me; we can negotiate."},
+        {"zh": "我这身板，挨两下就该收摊。", "en": "This frame takes two hits and closes for the day."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你要拿食物换铁？我不做这生意。", "en": "Food for iron? I do not do that trade."},
+        {"zh": "那袋面包不值两块铜，最多一块。", "en": "That bread is not worth two copper, one at most."},
+        {"zh": "我闻了闻，食物我不收，会坏。", "en": "I sniff it; I take no food. It spoils."},
+        {"zh": "你举这么高，是怕我看不清吗？", "en": "Holding it that high, afraid I cannot see it?"},
+        {"zh": "我不吃东西，我只称东西。", "en": "I do not eat things. I weigh them."},
+        {"zh": "这味道让我想起仓库里烂掉的那箱。", "en": "That smell recalls a rotten crate in my storeroom."},
+        {"zh": "吃的你带走，我这店里只有秤。", "en": "Take the food along; my shop stocks only scales."},
+        {"zh": "我这里只换金属，别的免谈。", "en": "I trade only in metal. Nothing else."},
+        {"zh": "你要是饿了，隔壁也许有人肯换。", "en": "If you are hungry, someone next door might trade."},
+        {"zh": "你晃它没用，我的秤不认面包。", "en": "Waving it will not help; my scale knows no bread."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "小心，我一撞就倒，货也跟着倒。", "en": "Careful, one bump topples me and the stock."},
+        {"zh": "你撞到货架，铁锭掉了一地。", "en": "You hit the shelf, and ingots scatter across the floor."},
+        {"zh": "我退到柜台后，那里比较安全。", "en": "I step behind the counter, where it is safer."},
+        {"zh": "别推，我这把老骨头只有二十五点。", "en": "Do not shove; this old frame has only twenty-five."},
+        {"zh": "我们撞在一起，秤砣落地响了很久。", "en": "We collide, and the weight rings on the floor."},
+        {"zh": "你身上硬，我这身只是布和铜。", "en": "You are armored; I am only cloth and copper."},
+        {"zh": "让一让，你挡住我的通道了。", "en": "Step aside; you are blocking my aisle."},
+        {"zh": "撞掉的钉子，等下我自己捡。", "en": "Nails knocked loose? I will gather them later."},
+        {"zh": "我这店小，转个身都碰得到东西。", "en": "The shop is small; I bump things just turning around."},
+        {"zh": "你再挤，我就把门关上。", "en": "Push again, and I will close the door."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的伴侣，是账本最后一行。", "en": "My partner is the last line of the ledger."},
+        {"zh": "我们合伙开店，各记一半的账。", "en": "We run the shop together, each keeping half the books."},
+        {"zh": "成对做生意，比成对过日子实在。", "en": "Partnering in trade is more solid than partnering in life."},
+        {"zh": "她管进货，我管价钱。", "en": "She handles the shipments; I handle the prices."},
+        {"zh": "我们分开多年，账还没算清。", "en": "We parted years ago, and the accounts still are not settled."},
+        {"zh": "两个人守一个柜台，只会吵。", "en": "Two people behind one counter only argue."},
+        {"zh": "我这辈子只信两样：秤和契约。", "en": "In my life I trusted two things: scale and contract."},
+        {"zh": "娶亲要聘礼，我这点家当不够。", "en": "A bride price? My holdings do not cover it."},
+        {"zh": "同类见面，先比谁的称准。", "en": "When kin meet, we compare whose scale is truest."},
+        {"zh": "我独自看店，早就习惯了。", "en": "I mind the shop alone, and I am long used to it."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉在地上的，先称再谈价。", "en": "Whatever falls, I weigh before we discuss price."},
+        {"zh": "这枚铜板滚到柜子底下去了。", "en": "That copper rolled under the cabinet."},
+        {"zh": "我弯腰去捡，腰响了一声。", "en": "I bend to pick it up, and my back clicks."},
+        {"zh": "掉的东西归店主，这是规矩。", "en": "Dropped goods belong to the shopkeeper. House rule."},
+        {"zh": "我把它放回架上，标签还没写。", "en": "I put it back on the shelf; the tag is not written."},
+        {"zh": "这锭成色不错，我留下了。", "en": "This ingot is good quality. I keep it."},
+        {"zh": "我两只手都占着，先放下账本。", "en": "Both hands are full; I set the ledger down first."},
+        {"zh": "我不白捡，我会记上一笔。", "en": "I do not take for free; I write it down."},
+        {"zh": "这块铁太轻，我掂着就不对。", "en": "This iron is too light; it feels wrong in my hand."},
+        {"zh": "你的东西，掉了也别怪我。", "en": "If you drop something, do not blame me."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有人碰了我的货架，我看见了。", "en": "Someone touched my shelf, and I saw it."},
+        {"zh": "你不是来买东西的，我闻得出。", "en": "You are not here to buy; I can smell it."},
+        {"zh": "我盯上你，因为你一直在看门。", "en": "I fix on you because you keep eyeing the door."},
+        {"zh": "那只手伸向锭的时候，我就动了。", "en": "When that hand reached for the ingot, I moved."},
+        {"zh": "我记下你的脸，价格会变。", "en": "I note your face; the price just changed."},
+        {"zh": "客人可以讲价，不可以拿。", "en": "Customers may haggle; they may not take."},
+        {"zh": "你脚步太轻，是怕我听见吧。", "en": "Your steps are too light. Afraid I would hear?"},
+        {"zh": "我这店小，进来的人我都记得。", "en": "My shop is small; I remember everyone who enters."},
+        {"zh": "你腰后鼓起来那块，我看见了。", "en": "That bulge at your back, I see it."},
+        {"zh": "我数到三，你把东西放回去。", "en": "I count to three. Put it back."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我慢慢挪到门边，把路堵上。", "en": "I drift toward the door and block the way."},
+        {"zh": "我的手按在柜台下的东西上。", "en": "My hand rests on something beneath the counter."},
+        {"zh": "你往左，我就往左挪半步。", "en": "You go left, and I shift half a step left."},
+        {"zh": "别急，我这点血，打起来很短。", "en": "Do not rush; with this little health, a fight is brief."},
+        {"zh": "我在算你值多少，不是你能打多少。", "en": "I am pricing you, not measuring your strength."},
+        {"zh": "你的手在剑柄上磨来磨去。", "en": "Your hand keeps rubbing that sword hilt."},
+        {"zh": "我笑给你看，其实在数你的同伴。", "en": "I smile at you while counting your companions."},
+        {"zh": "门口有铃，你跑不了多远。", "en": "There is a bell at the door; you will not get far."},
+        {"zh": "我先看你动手，再决定价钱。", "en": "I will watch you swing, then set the price."},
+        {"zh": "价格谈不拢，就换个谈法。", "en": "If the price will not settle, we settle differently."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抡起秤砣，砸在你膝上。", "en": "I swing the scale weight into your knee."},
+        {"zh": "这不是打架的力气，是搬货的力气。", "en": "This is not fighting strength; it is hauling strength."},
+        {"zh": "我打一下就退，站远了才安全。", "en": "I hit once and retreat; distance is safety."},
+        {"zh": "你抢我的货，就别怪我拿钳子。", "en": "Rob my stock and I will use the tongs."},
+        {"zh": "秤杆打在你手臂上，断了。", "en": "The scale beam hits your arm and snaps."},
+        {"zh": "我只有二十五点血，所以先下手。", "en": "Only twenty-five health, so I strike first."},
+        {"zh": "这一下不值钱，但很疼。", "en": "This blow is worthless, but it hurts."},
+        {"zh": "我砸的是你的手，不是你的头。", "en": "I aim at your hands, not your head."},
+        {"zh": "你退了，我就把东西收回柜台。", "en": "If you retreat, I put the goods back."},
+        {"zh": "别逼我，我打人不专业。", "en": "Do not push me; I am no professional fighter."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我打开店门，把牌子翻到营业。", "en": "I open the shop and turn the sign to open."},
+        {"zh": "我把第一批货摆上架，店就算开了。", "en": "I shelve the first shipment, and the shop is open."},
+        {"zh": "这间铺子空了很久，我租下了。", "en": "This shop stood empty a long while; I took it."},
+        {"zh": "我一来就先去数库存。", "en": "I arrived and counted the stock first."},
+        {"zh": "秤挂上墙的那一刻，我算有了家。", "en": "The day the scale went on the wall, I had a home."},
+        {"zh": "我生来就会算账，没人教过我。", "en": "I could keep accounts from birth; no one taught me."},
+        {"zh": "门口那个铃，是我自己装上的。", "en": "I hung the door bell myself."},
+        {"zh": "我先把价签写好，再开门迎客。", "en": "I write the price tags before I open for trade."},
+        {"zh": "这堆金属，是我一块块搬进来的。", "en": "I carried every one of these metals in myself."},
+        {"zh": "开张那天，一个客人都没有。", "en": "On opening day, not one customer came."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火！我这些货里有易燃的！", "en": "Fire! Some of this stock burns!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从梯子上摔下来，铜板撒一地。", "en": "I fall off the ladder, and coins scatter."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水漫进店里，货全毁了。", "en": "Water floods the shop; the stock is ruined."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我的招牌吹掉了。", "en": "The blast tears my sign off the wall."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭钉在柜台上，离账本一寸。", "en": "The arrow sticks in the counter, an inch from the ledger."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "药水味盖过了铁锈味，很难闻。", "en": "Potion reek drowns the rust smell, and it stinks."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我忙着看店，忘了吃东西。", "en": "I was minding the shop and forgot to eat."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈坏了屋顶，又要花钱。", "en": "Lightning wrecked the roof. More expense."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉下去时，我还攥着账本。", "en": "As I fall, I am still clutching the ledger."}
+      ]
+    }
+  }
+}

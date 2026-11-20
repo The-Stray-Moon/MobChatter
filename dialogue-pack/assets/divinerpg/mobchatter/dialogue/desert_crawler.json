@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙中蠕动前行", "en": "Crawls through the sand"},
+        {"zh": "沙地里缓慢移动", "en": "Moves slowly in the sand"},
+        {"zh": "沙粒下爬行", "en": "Crawls beneath the sand"},
+        {"zh": "沙丘间滑行", "en": "Slides between dunes"},
+        {"zh": "沙地里蜿蜒前行", "en": "Wriggles through the sand"},
+        {"zh": "沙底蠕动前进", "en": "Crawls forward in the sand"},
+        {"zh": "沙中缓缓移动", "en": "Slowly moves in the sand"},
+        {"zh": "沙地里扭动前行", "en": "Crawls forward in the sand"},
+        {"zh": "沙粒中移动", "en": "Moves in the sand"},
+        {"zh": "在沙中爬行", "en": "Crawls in the sand"},
+        {"zh": "它把半个身子埋在沙里挪动。", "en": "Half buried, it drags itself through the sand."},
+        {"zh": "六条腿在沙丘上留下乱纹。", "en": "Six legs leave a tangle of trails on the dune."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "懒洋洋晒太阳", "en": "Lazily basks in the sun"},
+        {"zh": "躺在沙子上休息", "en": "Rests on the sand"},
+        {"zh": "沙中慵懒打盹", "en": "Naps in the sand"},
+        {"zh": "缓慢地打滚", "en": "Rolls slowly"},
+        {"zh": "沙地里打圈", "en": "Rotates in the sand"},
+        {"zh": "沙中缓慢踱步", "en": "Moves slowly in the sand"},
+        {"zh": "沙中慢慢走动", "en": "Walks slowly in the sand"},
+        {"zh": "沙地里慢慢移动", "en": "Moves slowly in the sand"},
+        {"zh": "沙子上慢慢走", "en": "Walks slowly on sand"},
+        {"zh": "在沙中徘徊", "en": "Wanders in the sand"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从沙里露出两只颚尖。", "en": "I show only two jaw tips above the sand."},
+        {"zh": "发现你的影子", "en": "Sees your shadow"},
+        {"zh": "沙漠的热气里，沙子都在动。", "en": "In the desert haze, even the sand stirs."},
+        {"zh": "沙子底下的我，看见你了。", "en": "Under the sand, I see you."},
+        {"zh": "注视你的移动", "en": "Sees your movement"},
+        {"zh": "沙子教会我藏身。", "en": "The sand taught me to hide."},
+        {"zh": "盯着你看", "en": "Stares at you"},
+        {"zh": "盯紧你的动作", "en": "Tracks your movements"},
+        {"zh": "沙子底下，我的眼珠跟着你转。", "en": "Under the sand, my eyes track you."},
+        {"zh": "它从沙里抬起一对颚。", "en": "It lifts a pair of mandibles out of the sand."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你很强！", "en": "You're strong!"},
+        {"zh": "我的壳裂了！", "en": "My shell cracked!"},
+        {"zh": "你伤害了我！", "en": "You hurt me!"},
+        {"zh": "我的腿受伤了！", "en": "My leg is hurt!"},
+        {"zh": "沙钻进甲壳缝，磨得生疼。", "en": "Sand works into my shell seams and grinds."},
+        {"zh": "你打中了我！", "en": "You hit me!"},
+        {"zh": "我的甲壳碎了一块，沙灌进来。", "en": "A piece of my shell broke; sand pours in."},
+        {"zh": "我不能动了！", "en": "I can't move!"},
+        {"zh": "沙灌进了我的节缝！", "en": "Sand is grinding into my joints!"},
+        {"zh": "我的颚合不上了！", "en": "My jaws will not close!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你靠近我，我会撕裂你！", "en": "Come near, and I'll tear you apart!"},
+        {"zh": "沙漠的馈赠，你尝尝？", "en": "A desert gift, taste it!"},
+        {"zh": "我的皮肤是天然防弹衣！", "en": "My skin is a natural armor!"},
+        {"zh": "看我的砂岩之吻！", "en": "Feel the sandstone kiss!"},
+        {"zh": "你的肉对我有吸引力！", "en": "Your flesh is attractive to me!"},
+        {"zh": "来吧，享受我的力量！", "en": "Come, enjoy my strength!"},
+        {"zh": "我是沙漠中的猎手！", "en": "I am the desert hunter!"},
+        {"zh": "砂岩是我的最爱！", "en": "Sandstone is my favorite!"},
+        {"zh": "我的毒液让你痛苦！", "en": "My venom causes pain!"},
+        {"zh": "我的利爪能撕裂你！", "en": "My claws will tear you apart!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踩在我的洞口上了。", "en": "You're standing on my burrow mouth."},
+        {"zh": "躲开，否则你会死！", "en": "Move, or you'll die!"},
+        {"zh": "我的洞口被你踩塌了一半。", "en": "You've caved in half my burrow mouth."},
+        {"zh": "你触碰了我的地盘！", "en": "You've touched my territory!"},
+        {"zh": "让开，否则我攻击！", "en": "Move, or I'll attack!"},
+        {"zh": "这是我的领地，滚出去！", "en": "This is my territory, get out!"},
+        {"zh": "我不会轻易退让！", "en": "I won't back down!"},
+        {"zh": "你干扰了我的狩猎！", "en": "You're interfering with my hunt!"},
+        {"zh": "别逼我反击！", "en": "Don't force me to retaliate!"},
+        {"zh": "你挡住了我的食物！", "en": "You're blocking my prey!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找到我的伴侣，求偶！", "en": "Find my mate, for mating!"},
+        {"zh": "我需要繁殖，快找我！", "en": "I need to reproduce, find me!"},
+        {"zh": "我的伴侣，跟我来！", "en": "My mate, follow me!"},
+        {"zh": "让我们生下下一代！", "en": "Let's produce the next generation!"},
+        {"zh": "求你，别让别人来！", "en": "Please, don't let others come!"},
+        {"zh": "这是我唯一的愿望！", "en": "This is my only wish!"},
+        {"zh": "我是孤独的，求偶！", "en": "I'm alone, seek mating!"},
+        {"zh": "找我，求偶，快！", "en": "Find me, for mating, quickly!"},
+        {"zh": "我的伴侣是唯一的！", "en": "My mate is the only one!"},
+        {"zh": "只有你是我的选择！", "en": "You're my only choice!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "砂岩碎了！", "en": "Sandstone crumbles!"},
+        {"zh": "我的壳有点疼！", "en": "My shell hurts!"},
+        {"zh": "这沙子怎么这么硬？", "en": "This sand is hard!"},
+        {"zh": "食物不够了，找更多！", "en": "Food is running low, hunt more!"},
+        {"zh": "小心脚下！", "en": "Watch your step!"},
+        {"zh": "这里的沙子太干燥了！", "en": "This sand is too dry!"},
+        {"zh": "我找到新的猎物了！", "en": "I found a new prey!"},
+        {"zh": "壳里有吃的！", "en": "Food in my shell!"},
+        {"zh": "这里的沙子太热了！", "en": "This sand is too hot!"},
+        {"zh": "快找遮蔽！", "en": "Find shelter quickly!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "猎物在动！", "en": "Prey moving!"},
+        {"zh": "我要追捕！", "en": "I will hunt!"},
+        {"zh": "热浪把你的味道送进沙里。", "en": "The heat wave carries your scent into the sand."},
+        {"zh": "猎物在移动！", "en": "Prey is moving!"},
+        {"zh": "沙子里埋着你的脚印。", "en": "Your footprints are buried in the sand."},
+        {"zh": "我要咬住它！", "en": "I'll bite it!"},
+        {"zh": "猎物开始奔跑！", "en": "Prey is running!"},
+        {"zh": "猎物就在我身边！", "en": "Prey is beside me!"},
+        {"zh": "追上它！", "en": "Catch it!"},
+        {"zh": "沙纹往你脚边聚，是我在动。", "en": "The sand ripples gather at your feet; that's me."},
+        {"zh": "沙丘动了，它在等人踩上来。", "en": "The dune shifts; it waits for a foot to land."},
+        {"zh": "你在沙漠里走，它跟着沙纹走。", "en": "You cross the desert; it rides the ripples behind you."},
+        {"zh": "风停了，它闻到了活的。", "en": "The wind stops, and it smells something alive."},
+        {"zh": "它从岩壁的阴影里选了你。", "en": "From the shade of the cliff it picks you."},
+        {"zh": "它的甲壳一节节绷起。", "en": "Its plating tightens plate by plate."},
+        {"zh": "你踩塌的那个洞，是它的门。", "en": "The hole you caved in was its door."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把身子埋进沙，只留颚。", "en": "I bury myself, leaving only my jaws out."},
+        {"zh": "咬住它！", "en": "Bite it!"},
+        {"zh": "沙子底下，我等着你踩空。", "en": "Under the sand, I wait for your misstep."},
+        {"zh": "沙里埋好一半，等你过。", "en": "Half buried in sand, I wait for you to pass."},
+        {"zh": "沙面下，我的尾巴绷紧了。", "en": "Beneath the sand, my tail pulls taut."},
+        {"zh": "锁定目标位置！", "en": "Target location!"},
+        {"zh": "锁定猎物位置！", "en": "Prey location!"},
+        {"zh": "攻击位置确定！", "en": "Attack confirmed!"},
+        {"zh": "我的每一节甲都对准你的脚踝。", "en": "Every segment of my armor aims at your ankle."},
+        {"zh": "它对准你的脚踝。", "en": "It lines up on your ankle."},
+        {"zh": "沙面鼓起，朝你的方向推来。", "en": "The sand bulges and pushes toward you."},
+        {"zh": "它把颚张到最大。", "en": "It opens its mandibles as wide as they go."},
+        {"zh": "它在沙下数着你的步子。", "en": "Under the sand it counts your steps."},
+        {"zh": "它的尾巴翘起，准备弹动。", "en": "Its tail lifts, ready to snap."},
+        {"zh": "它停在你影子边缘，等风。", "en": "It stops at the edge of your shadow and waits for wind."},
+        {"zh": "它把沙粒筛开，露出眼。", "en": "It sifts the grains aside and shows its eyes."},
+        {"zh": "它的身子压低，贴住地面。", "en": "It flattens itself to the ground."},
+        {"zh": "它顺着热浪的方向靠近。", "en": "It creeps along the heat shimmer."},
+        {"zh": "它选中了你露在外面的皮。", "en": "It has chosen the skin you left bare."},
+        {"zh": "它的每一节都对准了角度。", "en": "Every segment of it is set at an angle."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙中卷曲，咬向你！", "en": "Twist in sand, bite you!"},
+        {"zh": "砂下蠕动，痛苦蔓延！", "en": "Wriggle in sand, pain spreads!"},
+        {"zh": "沙石中潜行，致命一击！", "en": "Creep in sand, deadly strike!"},
+        {"zh": "沙地翻滚，咬破皮肤！", "en": "Roll in sand, pierce skin!"},
+        {"zh": "沙中嘶嘶，致命噬咬！", "en": "Sss in sand, deadly bite!"},
+        {"zh": "沙下潜行，致命一击！", "en": "Crawl in sand, deadly hit!"},
+        {"zh": "砂中扭动，撕裂肌肤！", "en": "Twist in sand, rip skin!"},
+        {"zh": "砂下蠕动，毒牙尽显！", "en": "Wriggle in sand, fangs show!"},
+        {"zh": "沙中卷曲，毒牙刺破！", "en": "Twist in sand, fangs pierce!"},
+        {"zh": "沙地扭动，致命攻击！", "en": "Twist in sand, fatal hit!"},
+        {"zh": "它从沙里窜出，咬你的脚背。", "en": "It bursts from the sand and bites your foot."},
+        {"zh": "沙尘扬起，它缠住了你的小腿。", "en": "Dust flies; it coils around your calf."},
+        {"zh": "颚合上的声音，像石头相撞。", "en": "Its jaws snap like stones knocking."},
+        {"zh": "它一甩尾，把沙撒进你眼睛。", "en": "It flicks its tail and throws sand in your eyes."},
+        {"zh": "它钻进你的靴口。", "en": "It dives into the top of your boot."},
+        {"zh": "它在沙下翻身，把你绊倒。", "en": "It rolls beneath the sand and trips you."},
+        {"zh": "它的尾刺挑破了你的手套。", "en": "Its tail barb splits your glove."},
+        {"zh": "沙丘塌了，正好压在你身上。", "en": "The dune collapses, right onto you."},
+        {"zh": "它咬住腰间的绳，把你往沙里拉。", "en": "It grips your belt rope and hauls you into the sand."},
+        {"zh": "沙落定，只留下它的沙印。", "en": "The sand settles, leaving only its mark."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "在沙丘中诞生！", "en": "Born in sand dunes!"},
+        {"zh": "沙漠之中，悄然现身！", "en": "Appears in deserts!"},
+        {"zh": "于沙中孵化，成！", "en": "Hatch in sand, done!"},
+        {"zh": "沙丘之下，我来了！", "en": "Dune below, here I am!"},
+        {"zh": "在沙海中苏醒！", "en": "Awake in sand sea!"},
+        {"zh": "沙漠深处，我现身！", "en": "Appears in desert depths!"},
+        {"zh": "于沙中孕育，成！", "en": "Grows in sand, done!"},
+        {"zh": "沙丘之上，我来了！", "en": "Dune above, here I am!"},
+        {"zh": "在沙地里孵化，成！", "en": "Hatch in sand, done!"},
+        {"zh": "沙中苏醒，现身沙漠！", "en": "Awake in sand, appear desert!"},
+        {"zh": "沙丘顶端的沙开始往下淌。", "en": "Sand starts sliding off the dune's crest."},
+        {"zh": "你一转身，沙里有了动静。", "en": "You turn, and the sand is already moving."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火伤到我了！", "en": "Burned by fire!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔了下来！", "en": "I fell down!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙里没有水，我也不会游。", "en": "There is no water in sand, and I cannot swim."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸伤到我了！", "en": "Explosion hurt me!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭射中我了！", "en": "Arrow hit me!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法伤到我了！", "en": "Spell hit me!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙子磨牙，胃里空空。", "en": "Sand grinds my teeth and my stomach is empty."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷电击中我了！", "en": "Lightning hit me!"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空伤害了我！", "en": "Void hurt me!"}
+      ]
+    }
+  }
+}

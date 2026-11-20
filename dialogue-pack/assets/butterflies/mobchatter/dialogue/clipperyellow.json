@@ -1,0 +1,248 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我扇着翅膀掠过林间", "en": "I beat my wings through the canopy."},
+        {"zh": "我的黄色翅膀一开一合", "en": "My yellow wings open and close."},
+        {"zh": "我沿着藤蔓飞过去", "en": "I fly along the vine."},
+        {"zh": "我从一棵树飞到下一棵", "en": "I hop from tree to tree."},
+        {"zh": "我贴着叶面低飞", "en": "I skim low over the leaves."},
+        {"zh": "我在光斑里绕了一圈", "en": "I loop through a patch of light."},
+        {"zh": "我飞快地穿过空地", "en": "I dash across the clearing."},
+        {"zh": "我扇两下就滑一段", "en": "Two beats, then a glide."},
+        {"zh": "我绕开那张蛛网", "en": "I steer around a spiderweb."},
+        {"zh": "我顺着风往上飘", "en": "I ride the wind upward."},
+        {"zh": "我的翅尖擦过花", "en": "My wingtips brush a flower."},
+        {"zh": "我从树冠间钻出来", "en": "I slip out between the crowns."},
+        {"zh": "我降到灌木的高度", "en": "I drop to the height of the shrubs."},
+        {"zh": "我跟着香气走", "en": "I follow the scent."},
+        {"zh": "我一朵一朵地看过去", "en": "I check the flowers one by one."},
+        {"zh": "我在半空停了一拍", "en": "I hold a beat in midair."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "叶尖上，我等风小一点。", "en": "On the leaf tip I wait for the wind to ease."},
+        {"zh": "翅膀慢慢合上", "en": "My wings close slowly."},
+        {"zh": "我在花上歇着", "en": "I sit on a flower."},
+        {"zh": "我飞得快，丛林里追不上。", "en": "I fly fast; the jungle cannot catch me."},
+        {"zh": "我晒着斑驳的光", "en": "I bask in dappled light."},
+        {"zh": "我抖了抖黄翅", "en": "I flutter my yellow wings."},
+        {"zh": "我在叶脉上走两步", "en": "I take two steps along a vein."},
+        {"zh": "风来的时候我抓稳了", "en": "I grip as the wind comes."},
+        {"zh": "我停在花上不出翅", "en": "I rest on the bloom, wings still."},
+        {"zh": "我的翅面反着光", "en": "My wings catch the light."},
+        {"zh": "我在叶背下躲着", "en": "I shelter under a leaf."},
+        {"zh": "我又把翅膀张开", "en": "I open my wings again."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "丛林里，我的黄翅很大。", "en": "In the jungle, my yellow wings are large."},
+        {"zh": "我停在你面前的叶上", "en": "I land on the leaf in front of you."},
+        {"zh": "我的翅膀一张一合", "en": "My wings open and close."},
+        {"zh": "你不像一朵花", "en": "You are not a flower."},
+        {"zh": "翅膀张得太大，丛林里不好拐。", "en": "These wide wings are hard to turn in jungle."},
+        {"zh": "你的影子把我罩住了", "en": "Your shadow closes over me."},
+        {"zh": "我又飞起来了", "en": "I take off again."},
+        {"zh": "我从你肩边掠过", "en": "I skim past your shoulder."},
+        {"zh": "我停在你手上的叶子上", "en": "I land on the leaf in your hand."},
+        {"zh": "我在你头顶转圈", "en": "I circle above your head."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的翅膀被蹭坏了", "en": "My wings are scuffed."},
+        {"zh": "我歪歪斜斜地飞", "en": "I fly crooked."},
+        {"zh": "我掉了几片鳞粉", "en": "I shed some wing scales."},
+        {"zh": "我落在地上又爬起来", "en": "I fall to the ground and rise."},
+        {"zh": "我一边翅膀使不上劲。", "en": "One of my wings won't beat properly."},
+        {"zh": "我躲在叶下不动", "en": "I hide under a leaf."},
+        {"zh": "我的翅尖缺了一块", "en": "A corner of my wing is gone."},
+        {"zh": "我振翅缓了缓", "en": "I beat my wings and recover."},
+        {"zh": "我飞不太高了", "en": "I cannot fly very high."},
+        {"zh": "草叶划破了我的翅。", "en": "A blade of grass tears my wing."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虞美人的味道", "en": "The smell of poppies."},
+        {"zh": "我朝那朵花飞过去", "en": "I fly toward that flower."},
+        {"zh": "红色的花瓣在动", "en": "The red petals move."},
+        {"zh": "我落在花心上了", "en": "I settle on the flower's heart."},
+        {"zh": "我探进花心，吸了一口。", "en": "I dip into the flower and drink."},
+        {"zh": "我在花上转着圈", "en": "I turn circles on the blossom."},
+        {"zh": "这朵花的蜜最甜", "en": "This bloom has the sweetest nectar."},
+        {"zh": "我又换了一朵", "en": "I move to another one."},
+        {"zh": "花粉沾在我的腿上", "en": "Pollen clings to my legs."},
+        {"zh": "我慢慢爬上花瓣", "en": "I climb up the petal."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅膀一歪，我撞进叶丛。", "en": "One wing tips, and I tumble into the leaves."},
+        {"zh": "我的翅膀被碰歪了", "en": "My wings are knocked askew."},
+        {"zh": "我赶紧飞高些", "en": "I hurry up out of reach."},
+        {"zh": "我在空中晃了一下", "en": "I wobble in the air."},
+        {"zh": "我落在旁边的叶上", "en": "I settle on the next leaf."},
+        {"zh": "你碰掉了一些鳞粉", "en": "You knocked off some of my scales."},
+        {"zh": "我又稳住翅膀", "en": "I steady my wings again."},
+        {"zh": "我从你手边逃开", "en": "I escape past your hand."},
+        {"zh": "我绕了一圈回来", "en": "I loop once and come back."},
+        {"zh": "撞一下我就飘走了", "en": "One bump and I drift away."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "另一只黄翅的飞过来", "en": "Another yellow one comes near."},
+        {"zh": "我们绕着对方转", "en": "We circle each other."},
+        {"zh": "我们的翅膀几乎碰上", "en": "Our wings nearly touch."},
+        {"zh": "我们一起往上飞", "en": "We rise together."},
+        {"zh": "它比我颜色浅一点", "en": "It is a shade lighter than I."},
+        {"zh": "我们一前一后追着", "en": "We chase, one behind the other."},
+        {"zh": "我们落在一片叶上", "en": "We settle on one leaf."},
+        {"zh": "它飞走了我又跟上", "en": "It flies off and I follow."},
+        {"zh": "我们的翅粉蹭在一起", "en": "Our wing dust brushes together."},
+        {"zh": "我们绕着花转了三圈", "en": "We circle the flower three times."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我落在花上吸蜜", "en": "I land and sip nectar."},
+        {"zh": "我把口器卷起来", "en": "I coil my proboscis up."},
+        {"zh": "我碰到一滴露水", "en": "I touch a drop of dew."},
+        {"zh": "我抖落的花粉洒了一地。", "en": "The pollen I shake off dusts the ground."},
+        {"zh": "我抓着一片花瓣", "en": "I cling to a petal."},
+        {"zh": "我把它带起飞了一段", "en": "I carry it a short way."},
+        {"zh": "我放下就飞走了", "en": "I drop it and fly off."},
+        {"zh": "我试了试这朵花", "en": "I test this flower."},
+        {"zh": "我从这朵挪到那朵。", "en": "I move from one bloom to the next."},
+        {"zh": "我又回到刚才那朵", "en": "I return to the earlier bloom."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我侧过身子朝那边", "en": "I turn my side that way."},
+        {"zh": "有东西飞近了", "en": "Something is flying closer."},
+        {"zh": "我的翅膀停了一瞬", "en": "My wings pause a beat."},
+        {"zh": "我从花上抬起来", "en": "I lift off the flower."},
+        {"zh": "我往更高处飞", "en": "I climb higher."},
+        {"zh": "我躲到叶子的背面", "en": "I hide behind the leaf."},
+        {"zh": "我在找逃的路线", "en": "I am looking for a way out."},
+        {"zh": "我贴着树皮往上爬飞", "en": "I skim up the bark."},
+        {"zh": "我不喜欢这个影子", "en": "I do not like that shadow."},
+        {"zh": "我先飞远一点", "en": "I fly a little farther off."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我悬在半空看", "en": "I hover and watch."},
+        {"zh": "我总在你眼角外面", "en": "I stay just past the corner of your eye."},
+        {"zh": "我的翅在微微颤", "en": "My wings tremble slightly."},
+        {"zh": "我在算飞到哪棵树", "en": "I am picking which tree to reach."},
+        {"zh": "风一变我就换向", "en": "When the wind shifts, I turn."},
+        {"zh": "我躲在叶影里", "en": "I hide in the leaf shadow."},
+        {"zh": "我大黄翅膀掠过藤蔓。", "en": "My broad yellow wings sweep past the vines."},
+        {"zh": "我就不落地了", "en": "I will not land."},
+        {"zh": "我绕到你的背后", "en": "I drift behind you."},
+        {"zh": "再等一下就飞走", "en": "One more moment and I am gone."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我朝他脸上扑", "en": "I flutter at his face."},
+        {"zh": "我的翅膀扫过他的眼", "en": "My wings sweep his eyes."},
+        {"zh": "我撞了一下就退，丛林的叶子太密。", "en": "I bumped once and backed off; the jungle is dense."},
+        {"zh": "我在他耳边绕圈", "en": "I circle by his ear."},
+        {"zh": "我用翅粉糊他的眼", "en": "I dust his eyes with scales."},
+        {"zh": "我贴着鼻子飞过去", "en": "I dart right past his nose."},
+        {"zh": "他挥手我升高", "en": "He swats; I rise."},
+        {"zh": "我又落回花上", "en": "I settle back on the flower."},
+        {"zh": "我这一下很轻", "en": "That was a light touch."},
+        {"zh": "我绕着他转不停", "en": "I keep circling him."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从叶缝里飞出来", "en": "I come out from between the leaves."},
+        {"zh": "一片黄色在林中一闪", "en": "A flash of yellow in the trees."},
+        {"zh": "我落在最近的一朵花上", "en": "I land on the nearest flower."},
+        {"zh": "我的翅膀先亮了一下", "en": "My wings catch the light first."},
+        {"zh": "风把我送上来了", "en": "The wind carries me up."},
+        {"zh": "我在林间找蜜源", "en": "I am looking for nectar here."},
+        {"zh": "我从树冠下钻过", "en": "I slip under the canopy."},
+        {"zh": "我绕着这朵花转", "en": "I circle this flower."},
+        {"zh": "这里的虞美人开着", "en": "The poppies are open here."},
+        {"zh": "我找到了一片好地方", "en": "I have found a good spot."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎焦了我的翅边", "en": "Fire singes my wing edges."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从高处掉了下来", "en": "I drop from a height."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水粘住了我的翅膀", "en": "Water glues my wings."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我吹出很远", "en": "The blast blows me far."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西擦过我的翅", "en": "Something grazes my wing."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咒光把我的翅照得发白", "en": "Spell light bleaches my wings."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我饿得没力气飞", "en": "Hunger leaves me too weak to fly."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光里我的翅全白了", "en": "In the lightning my wings go white."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉进没有底的地方", "en": "I fall into a place with no bottom."}
+      ]
+    }
+  }
+}

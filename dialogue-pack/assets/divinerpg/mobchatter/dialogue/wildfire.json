@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "呼呼呼呼", "en": "Huff huff huff"},
+        {"zh": "火焰在身", "en": "On fire"},
+        {"zh": "猎物在逃", "en": "Prey escapes"},
+        {"zh": "火势蔓延", "en": "Fire spreads"},
+        {"zh": "箭矢击中", "en": "Arrow hit"},
+        {"zh": "逼近危险", "en": "Approaching danger"},
+        {"zh": "火光冲天", "en": "Flame rises"},
+        {"zh": "熔火在身", "en": "Lava within"},
+        {"zh": "火星落在我身后的路上。", "en": "Sparks fall on the path behind me."},
+        {"zh": "我贴着岩浆的边缘走。", "en": "I walk along the edge of the lava."},
+        {"zh": "我的脚下石面烧出焦痕。", "en": "The stone scorches under my feet."},
+        {"zh": "我的火舌拖着，扫过岩壁。", "en": "My flames trail behind, licking the rock wall."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静候猎物", "en": "Waiting prey"},
+        {"zh": "火焰守候", "en": "Flame guard"},
+        {"zh": "我把箭搭好，火苗舔着弦。", "en": "I nock an arrow; flame licks the string."},
+        {"zh": "熔火碎块在脚边发烫。", "en": "Molten shards glow at my feet."},
+        {"zh": "火焰缠身", "en": "Wrapped in flames"},
+        {"zh": "火势渐长", "en": "Fire grows"},
+        {"zh": "伺机而动", "en": "Lie in wait"},
+        {"zh": "耐心狩猎", "en": "Patient hunter"},
+        {"zh": "火焰燃烧", "en": "Flames burn"},
+        {"zh": "熔岩箭搭好了，只等拉弦。", "en": "Lava arrow nocked, waiting for the draw."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的箭比你的盾快一步。", "en": "My arrow beats your shield by a step."},
+        {"zh": "玩家在望", "en": "Player sighted"},
+        {"zh": "熔岩的光，映在我的护目上。", "en": "Lava light glints off my visor."},
+        {"zh": "猎物现身", "en": "Prey revealed"},
+        {"zh": "玩家危险", "en": "Player danger"},
+        {"zh": "近了,近了", "en": "Close, closer"},
+        {"zh": "玩家注意", "en": "Player beware"},
+        {"zh": "玩家在逃", "en": "Player runs"},
+        {"zh": "猎物就在", "en": "Prey here"},
+        {"zh": "我半跪下来，箭尖不动。", "en": "I kneel and hold the arrowhead steady."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "熔火碎块从我甲缝里掉落。", "en": "Molten shards drop from my armor seams."},
+        {"zh": "我受伤了，必须快逃。", "en": "I'm hurt. I need to run."},
+        {"zh": "箭矢穿过了我的身体。", "en": "An arrow pierced me."},
+        {"zh": "我被雷击中了。", "en": "Lightning struck me."},
+        {"zh": "饥饿慢慢侵蚀着我。", "en": "Hunger eats at me."},
+        {"zh": "我被陷阱困住了。", "en": "I'm trapped."},
+        {"zh": "我掉入了深渊。", "en": "I fell into the void."},
+        {"zh": "熔火碎块护着我，雷也怕。", "en": "Molten shards shield me, even from bolts."},
+        {"zh": "我被冰封了。", "en": "I was frozen."},
+        {"zh": "毒液腐蚀着我。", "en": "Toxin eats at me."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰在你周围跳舞。", "en": "Flames dance around you."},
+        {"zh": "你散发出诱人的光芒。", "en": "You emit an alluring glow."},
+        {"zh": "我只需一点你的力量。", "en": "Just a little of your power will do."},
+        {"zh": "燃烧吧，勇士。", "en": "Burn, brave warrior."},
+        {"zh": "你体内有我需要的。", "en": "You have what I need inside you."},
+        {"zh": "感受火焰的呼唤。", "en": "Feel the call of the flames."},
+        {"zh": "火焰中的力量诱惑着你。", "en": "Power in flames tempts you."},
+        {"zh": "火焰中的秘密，只有你能揭露。", "en": "Secrets of the flames, only you can reveal."},
+        {"zh": "燃烧你的灵魂，让它为我服务。", "en": "Burn your soul and serve me."},
+        {"zh": "火焰中蕴藏着力量。", "en": "Power lies within the flames."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上了我的箭矢。", "en": "You hit my arrow."},
+        {"zh": "箭矢穿透了你的身体。", "en": "The arrow pierced your body."},
+        {"zh": "我的攻击毫无阻碍。", "en": "My attack goes through."},
+        {"zh": "火焰之力无坚不摧。", "en": "Flame power cannot be stopped."},
+        {"zh": "你挡不住我的火焰。", "en": "You cannot stop my flames."},
+        {"zh": "火焰吞噬了你。", "en": "Flames devoured you."},
+        {"zh": "火星溅开，我连眼都没眨。", "en": "Sparks scatter; I don't even blink."},
+        {"zh": "火焰之力击碎了你的防御。", "en": "Flame power shattered your defenses."},
+        {"zh": "火焰从你身体中穿出。", "en": "Flames pierced through you."},
+        {"zh": "你被我的火焰击中。", "en": "You were hit by my flames."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我们的力量合二为一。", "en": "Our powers merge."},
+        {"zh": "来吧，让我们结合。", "en": "Come, let us combine."},
+        {"zh": "火焰中的灵魂相交。", "en": "Spirits of the flames intertwine."},
+        {"zh": "我们一同燃烧。", "en": "We burn together."},
+        {"zh": "火焰中的灵魂相拥。", "en": "Spirits of the flames embrace."},
+        {"zh": "我们的力量将更加强大。", "en": "Our power will be greater."},
+        {"zh": "火焰中的我们合一。", "en": "We unite in the flames."},
+        {"zh": "火焰中的我们融为一体。", "en": "We become one in the flames."},
+        {"zh": "燃烧的我们，无法分割。", "en": "We are inseparable, burning."},
+        {"zh": "我们共同燃烧，永生。", "en": "We burn forever together."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "熔火碎块，小心不要被点燃。", "en": "Watch out, it’s a piece of molten shard."},
+        {"zh": "熔岩锭，危险之源。", "en": "Beware, it’s a lava ingot."},
+        {"zh": "狱石锭，坚硬又危险。", "en": "Be careful, a cobblestone of the Nether."},
+        {"zh": "火焰围绕，别靠近。", "en": "Stay away, flames surround."},
+        {"zh": "熔火碎片，小心被烧。", "en": "Beware of the molten shards."},
+        {"zh": "熔岩锭，烫手的宝贝。", "en": "Lava ingot, a hot find."},
+        {"zh": "狱石在手，小心陷阱。", "en": "Beware, Nether stone hides traps."},
+        {"zh": "熔火碎片，别被吞噬。", "en": "Don’t be devoured by molten shards."},
+        {"zh": "小心熔岩锭的高温。", "en": "Beware of the high heat of lava ingots."},
+        {"zh": "狱石锭，暗藏玄机。", "en": "Cobblestone of the Nether, watch out."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火苗在我眼中燃烧。", "en": "Fire burns in my sight."},
+        {"zh": "你的影子，落在我的射程里。", "en": "Your shadow falls inside my range."},
+        {"zh": "我要燃烧一切。", "en": "I will burn all."},
+        {"zh": "目标明确，行动。", "en": "Target locked, move."},
+        {"zh": "火焰引导我的狩猎。", "en": "Flames guide my hunt."},
+        {"zh": "猎物，就在前方。", "en": "Prey, in front of you."},
+        {"zh": "我将吞噬你的火焰。", "en": "I will consume your flames."},
+        {"zh": "猎物，就在你的脚下。", "en": "Prey, at your feet."},
+        {"zh": "火焰是我们的纽带。", "en": "Flames bind us."},
+        {"zh": "我将化你为灰烬。", "en": "I will turn you to ashes."},
+        {"zh": "你身上的水汽让我兴奋。", "en": "The moisture on you excites me."},
+        {"zh": "我的弓弦被火烤得发红。", "en": "My bowstring glows red from the heat."},
+        {"zh": "我闻到了血肉的焦味。", "en": "I smell scorched flesh."},
+        {"zh": "猎物就在岩石对面。", "en": "The prey is just past the rock."},
+        {"zh": "我把你看成一捆待燃的柴。", "en": "I see you as a bundle of kindling."},
+        {"zh": "我的火焰朝你这边偏了。", "en": "My flames lean toward you."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "第二箭追着你的退路。", "en": "The second follows your retreat."},
+        {"zh": "瞄准，不要错过。", "en": "Target, don’t miss."},
+        {"zh": "攻击，不要犹豫。", "en": "Attack, don’t hesitate."},
+        {"zh": "锁定，准备射击。", "en": "Lock, ready to shoot."},
+        {"zh": "瞄准，一击毙命。", "en": "Target, one shot to kill."},
+        {"zh": "瞄准，击溃敌人。", "en": "Target, crush the enemy."},
+        {"zh": "瞄准，精准打击。", "en": "Target, precise strike."},
+        {"zh": "弦拉到耳边，我屏住呼吸。", "en": "The string reaches my ear; I hold my breath."},
+        {"zh": "火箭上膛，别靠近熔岩。", "en": "Fire arrows loaded — stay off the lava."},
+        {"zh": "第一箭先钉住你的脚边。", "en": "The first arrow pins the ground by your feet."},
+        {"zh": "我弓弦拉满，火星四射。", "en": "My bow bends full, sparks scattering."},
+        {"zh": "我在算这一箭的落点。", "en": "I am figuring where this arrow lands."},
+        {"zh": "我的火苗指着你的心口。", "en": "My flame points at your chest."},
+        {"zh": "我把箭头烧成了亮橙色。", "en": "I burn my arrowhead bright orange."},
+        {"zh": "我站到上风口瞄准。", "en": "I take the windward side to aim."},
+        {"zh": "我把三支箭同时搭上弦。", "en": "I rest three arrows on the string at once."},
+        {"zh": "我等你走出岩影。", "en": "I wait for you to leave the rock's shadow."},
+        {"zh": "我的火圈在你脚边合拢。", "en": "My ring of fire closes at your feet."},
+        {"zh": "我的呼吸把火吹得更旺。", "en": "My breath blows the fire higher."},
+        {"zh": "我压低弓身，屏住火息。", "en": "I lower the bow and hold my fiery breath."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰咆哮！", "en": "Fire roar!"},
+        {"zh": "燃烧的箭矢！", "en": "Burning arrows!"},
+        {"zh": "喷火攻击！", "en": "Breath fire!"},
+        {"zh": "熔岩碎片！", "en": "Lava fragments!"},
+        {"zh": "炽热的爪击！", "en": "Scalding claws!"},
+        {"zh": "熔火环绕！", "en": "Writhing flames!"},
+        {"zh": "火球冲刺！", "en": "Fireball charge!"},
+        {"zh": "熔岩之息！", "en": "Lava breath!"},
+        {"zh": "灼热打击！", "en": "Searing strike!"},
+        {"zh": "熔火喷射！", "en": "Lava blast!"},
+        {"zh": "我的火箭擦着岩壁飞来！", "en": "My fire arrow skims in off the rock wall!"},
+        {"zh": "我把火星溅进你的眼睛！", "en": "I splash sparks into your eyes!"},
+        {"zh": "我把弓当棍砸下来！", "en": "I swing my bow down like a club!"},
+        {"zh": "热浪先到，我的箭后到！", "en": "The heat arrives first, my arrow after!"},
+        {"zh": "我一支箭钉住了你的影子！", "en": "One of my arrows pins your shadow down!"},
+        {"zh": "火焰从我的箭尾炸开！", "en": "Flame bursts from my arrow's tail!"},
+        {"zh": "我逼近，浑身噼啪作响！", "en": "I close in, crackling all over!"},
+        {"zh": "我把熔渣甩到你的脚边！", "en": "I fling molten slag at your feet!"},
+        {"zh": "我的第二箭追着第一箭！", "en": "My second arrow chases the first!"},
+        {"zh": "我用燃烧的手臂扫向你！", "en": "I sweep at you with a burning arm!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰在暗处闪烁。", "en": "Flames flicker in the darkness."},
+        {"zh": "熔岩中浮现身影。", "en": "A form rises from the lava."},
+        {"zh": "幽暗丛林深处。", "en": "In the dark jungle."},
+        {"zh": "岩浆湖旁现身。", "en": "Appears by the lava pool."},
+        {"zh": "熔岩洞穴深处。", "en": "In the depths of a lava cave."},
+        {"zh": "夜晚的阴影中。", "en": "In the shadows of night."},
+        {"zh": "岩浆河畔出现。", "en": "Appears by the lava river."},
+        {"zh": "熔火中浮现。", "en": "Rises from the molten fire."},
+        {"zh": "幽暗之地潜行。", "en": "Creeps through the dark lands."},
+        {"zh": "岩浆池边缘。", "en": "At the edge of the lava pool."},
+        {"zh": "岩浆面鼓起一个泡。", "en": "A bubble swells on the lava surface."},
+        {"zh": "我从焦黑的岩缝里亮起。", "en": "I kindle in a scorched rock crack."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧灼着我的鳞片。", "en": "Flames burn my scales."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "熔火碎块从甲缝里掉了一地。", "en": "Molten shards spilled out of my armour's seams."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水流冲刷着我的身体。", "en": "Water washes over me."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "熔岩烧的皮也会被炸开。", "en": "Even lava-tanned skin tears open."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢击中了我。", "en": "Arrow hit me."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法冰霜冻结了我。", "en": "Magic froze me."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我感到饥饿难耐。", "en": "Starvation gnaws at me."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "熔火碎块从我身上掉。", "en": "Molten shards drop off my body."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉入了无底深渊。", "en": "I fell into the void."}
+      ]
+    }
+  }
+}

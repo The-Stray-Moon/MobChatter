@@ -1,0 +1,252 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在洞顶一阵乱飞", "en": "I fly in a flurry across the cave roof"},
+        {"zh": "翅膀拍得很快", "en": "My wings beat fast"},
+        {"zh": "我从裂开的岩壁挤出来", "en": "I squeeze out of the split rock"},
+        {"zh": "我贴着洞壁横穿", "en": "I cross close along the cave wall"},
+        {"zh": "我的翅膀带起灰尘", "en": "My wings stir up dust"},
+        {"zh": "我一上一下地飞", "en": "I dip and rise as I fly"},
+        {"zh": "我绕着石柱转圈", "en": "I circle a stone pillar"},
+        {"zh": "我撞了一下洞顶", "en": "I clip the cave roof"},
+        {"zh": "我的叫声在洞里回荡", "en": "My cry echoes in the cave"},
+        {"zh": "我飞得很低，掠过头顶", "en": "I fly low, over your head"},
+        {"zh": "我贴着洞顶一路擦过", "en": "I brush along the whole cave roof"},
+        {"zh": "我拍翅时拐了个急弯", "en": "I bank sharply on a wingbeat"},
+        {"zh": "我从这根石梁飞到那根", "en": "I fly from this stone beam to that one"},
+        {"zh": "我飞过洞里的水洼", "en": "I fly over the pool in the cave"},
+        {"zh": "我上下起伏着穿过洞道", "en": "I weave up and down through the tunnel"},
+        {"zh": "我飞得很急，没有方向", "en": "I fly urgently, with no direction"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我倒挂在洞顶", "en": "I hang upside down from the roof"},
+        {"zh": "我的翅膀裹着身体", "en": "My wings wrap my body"},
+        {"zh": "洞里每一声我都听着", "en": "I hear every sound in the cave"},
+        {"zh": "我在听洞里的水声", "en": "I listen to the water in the cave"},
+        {"zh": "我倒挂在石缝下不动", "en": "I hang under the crack without moving"},
+        {"zh": "我的眼睛在暗处很小", "en": "My eyes are small in the dark"},
+        {"zh": "我在等有东西进来", "en": "I wait for something to come in"},
+        {"zh": "我把头转了个方向", "en": "I turn my head the other way"},
+        {"zh": "我轻轻地叫了一声", "en": "I give a soft cry"},
+        {"zh": "我倒挂着，很稳", "en": "I hang upside down, quite secure"},
+        {"zh": "我把头缩进翅膀里", "en": "My head goes under my wing"},
+        {"zh": "我挂在最暗的那片洞顶", "en": "I hang from the darkest part of the roof"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火光来了，我的影子躲起来", "en": "Torchlight comes; my shadow hides"},
+        {"zh": "我的耳朵能听见你的心跳", "en": "My ears can hear your heartbeat"},
+        {"zh": "你站在下面我不喜欢", "en": "I do not like you standing below"},
+        {"zh": "你是来抓我的不成", "en": "Have you come to catch me, then"},
+        {"zh": "我在你头顶三格", "en": "I am three blocks above your head"},
+        {"zh": "你抬头的样子很慢", "en": "You look up slowly"},
+        {"zh": "你抓不到会飞的我", "en": "You can't catch me in the air"},
+        {"zh": "你一动我就换位置", "en": "Move and I change position"},
+        {"zh": "这洞里有的是地方", "en": "There is plenty of room in this cave"},
+        {"zh": "别再往我这边走", "en": "Do not come any closer to me"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被打中了翅膀", "en": "I was struck on the wing"},
+        {"zh": "我从空中掉了几格", "en": "I dropped a few blocks in the air"},
+        {"zh": "我一边叫一边乱飞", "en": "I cry and fly erratically"},
+        {"zh": "八点生命撑不了几下", "en": "Eight health will not last many hits"},
+        {"zh": "我的耳朵贴平了", "en": "My ears are flattened"},
+        {"zh": "我撞在洞壁上", "en": "I hit the cave wall"},
+        {"zh": "我爬到石缝里", "en": "I crawl into a rock crack"},
+        {"zh": "我的翅膀一直在抖", "en": "My wings will not stop shaking"},
+        {"zh": "我的叫声变得很尖", "en": "My cry has gone shrill"},
+        {"zh": "我的翅膀还扇得动", "en": "My wings can still beat"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那是只虫子吗", "en": "Is that a bug"},
+        {"zh": "你手里晃的是什么", "en": "What are you waving in your hand"},
+        {"zh": "我闻不出什么味道", "en": "I cannot smell anything"},
+        {"zh": "我在这上面看不清", "en": "I cannot see clearly up here"},
+        {"zh": "你再举高一点点", "en": "Lift it a little higher"},
+        {"zh": "这东西不像能吃", "en": "This does not look edible"},
+        {"zh": "我在洞顶已经吃饱了", "en": "I have eaten my fill on the cave roof"},
+        {"zh": "你放下我就下来看", "en": "Put it down and I will come look"},
+        {"zh": "我朝你那边偏了一点", "en": "I tilted a little toward you"},
+        {"zh": "我最后还是不动", "en": "In the end I do not move"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的手撞到我了", "en": "Your hand struck me"},
+        {"zh": "我在空中翻了个身", "en": "I flipped once in the air"},
+        {"zh": "我们撞在一起，我掉了几格", "en": "We collided and I dropped a few blocks"},
+        {"zh": "我的翅膀被你碰歪了", "en": "You knocked my wing crooked"},
+        {"zh": "我马上飞高了一截", "en": "I climb a stretch at once"},
+        {"zh": "这一下让我乱了一阵", "en": "That left me confused for a moment"},
+        {"zh": "我拐个弯，又扑回来", "en": "I bank away and swoop back"},
+        {"zh": "别用光扫我的翅膀", "en": "Do not sweep my wings with light"},
+        {"zh": "你的手带着暖气", "en": "Your hand carries warmth"},
+        {"zh": "你走你的，我飞我的", "en": "You walk your way, I fly mine"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞里不需要这些", "en": "The cave has no need of this"},
+        {"zh": "我们靠叫声互相找", "en": "We find each other by calls"},
+        {"zh": "我的群落不在这一片", "en": "My colony is not in this patch"},
+        {"zh": "要找同伴，得听叫声", "en": "To find a mate, follow the calls"},
+        {"zh": "这种事在洞顶发生", "en": "Such things happen on the cave roof"},
+        {"zh": "我在洞里叫了两声", "en": "I called twice in the cave"},
+        {"zh": "我没有松开爪子", "en": "I have not let go with my claws"},
+        {"zh": "我只是一声尖啸", "en": "I give only a shriek"},
+        {"zh": "我在空中转了个身", "en": "I turn over in the air"},
+        {"zh": "我转头冲进黑处", "en": "I turn and dart into the dark"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我俯冲下去抓它", "en": "I dive and snatch it"},
+        {"zh": "这个连一口都不够", "en": "This is not even one mouthful"},
+        {"zh": "爪尖一挑，它就离了地", "en": "One flick of my claw lifts it"},
+        {"zh": "地上的东西我看得清", "en": "I can see things on the ground clearly"},
+        {"zh": "我飞回洞顶去了", "en": "I fly back up to the roof"},
+        {"zh": "这塞不进我的牙缝", "en": "This will not fill a gap in my teeth"},
+        {"zh": "我把它丢了下去", "en": "I dropped it"},
+        {"zh": "我叼着它绕了一圈", "en": "I circle once with it in my teeth"},
+        {"zh": "我落在石头上吃", "en": "I land on a rock to eat"},
+        {"zh": "我把它吃干净了", "en": "I finished it off"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西进来了", "en": "Something has come in"},
+        {"zh": "我先听见它的脚步", "en": "I heard its footsteps first"},
+        {"zh": "我的耳朵转过去", "en": "My ears turn toward it"},
+        {"zh": "我在洞顶跟着它", "en": "I follow it along the roof"},
+        {"zh": "这个距离我一次俯冲就到", "en": "One stoop closes this gap"},
+        {"zh": "我的翅膀已经张开了", "en": "My wings are already spread"},
+        {"zh": "我先叫一声，再看它怕不怕", "en": "I call once and see if it is afraid"},
+        {"zh": "它比虫子大得多", "en": "It is far bigger than a bug"},
+        {"zh": "我锁定了它的头", "en": "I have fixed on its head"},
+        {"zh": "我从洞顶降了一点", "en": "I drop a little from the roof"},
+        {"zh": "洞口那边有动静", "en": "There is movement by the cave mouth"},
+        {"zh": "这个比虫子有意思", "en": "This is more interesting than a bug"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在它头顶跟着飞", "en": "I fly along above its head"},
+        {"zh": "它每走一步我就跟一格", "en": "I match every step it takes"},
+        {"zh": "洞里没有风，我的声音很清楚", "en": "There is no wind in here, my voice is clear"},
+        {"zh": "它一直没抬头", "en": "It never looks up"},
+        {"zh": "我的影子在它脚边动", "en": "My shadow moves at its feet"},
+        {"zh": "我在等它走到低处", "en": "I wait for it to reach low ground"},
+        {"zh": "我贴着洞顶飞", "en": "I fly close to the roof"},
+        {"zh": "我的叫声越来越近", "en": "My cry is getting nearer"},
+        {"zh": "再低一点就够", "en": "A little lower is enough"},
+        {"zh": "我翅膀上的血热起来了", "en": "The blood in my wings has warmed"},
+        {"zh": "我在它上方画着圈", "en": "I trace circles above it"},
+        {"zh": "它的脚步声在洞里被放大", "en": "Its footsteps are amplified by the cave"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我俯冲撞了一下", "en": "I stoop and ram it"},
+        {"zh": "我的牙很小但很尖", "en": "My teeth are small but sharp"},
+        {"zh": "翅骨抽在它的鼻梁上", "en": "My wing bone cracks across its nose"},
+        {"zh": "我在它头上绕了一圈", "en": "I circle once around its head"},
+        {"zh": "这一下只有四点伤害", "en": "This one is only four damage"},
+        {"zh": "我撞完就往上飞", "en": "I fly up right after the hit"},
+        {"zh": "我咬了一口它的耳朵", "en": "I bite its ear"},
+        {"zh": "它的手挥过来时我闪开", "en": "I dodge its swinging hand"},
+        {"zh": "我在它脖子边飞过", "en": "I pass by its neck"},
+        {"zh": "我撞在它的后颈上", "en": "I slam into the back of its neck"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从洞顶的暗处飞出来", "en": "I fly out of the dark of the roof"},
+        {"zh": "洞里多了一阵翅膀声", "en": "The cave has gained a sound of wings"},
+        {"zh": "我落在石柱上", "en": "I settle on the stone pillar"},
+        {"zh": "这里没有日光", "en": "There is no daylight here"},
+        {"zh": "我从洞口带进来两只", "en": "I brought two in from the cave mouth"},
+        {"zh": "我的叫声先在洞里散开", "en": "My cry spreads through the cave first"},
+        {"zh": "我在洞顶找了个位置", "en": "I found a spot on the roof"},
+        {"zh": "洞里的热气引我出来", "en": "Warmth in the cave draws me out"},
+        {"zh": "我挂在洞顶看着洞口", "en": "I hang from the roof watching the cave mouth"},
+        {"zh": "我的翅膀在暗处不显眼", "en": "My wings are inconspicuous in the dark"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火光让我睁不开眼", "en": "The firelight blinds me"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从洞顶掉到地上", "en": "I fell from the roof to the ground"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞里的水把我压住了", "en": "The cave water pressed me down"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把洞顶的碎石全震下来", "en": "The blast shook all the gravel off the roof"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭穿破了我的翼膜", "en": "An arrow tears through my wing"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股术力让我的耳朵嗡嗡响", "en": "That magic left my ears ringing"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞里没有虫子了", "en": "There are no bugs left in this cave"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷声顺着洞口传进来", "en": "The thunder rolled in through the cave mouth"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下面变成了空的深洞", "en": "Below turned into an empty chasm"}
+      ]
+    }
+  }
+}

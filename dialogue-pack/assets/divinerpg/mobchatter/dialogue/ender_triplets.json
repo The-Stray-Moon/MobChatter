@@ -1,0 +1,258 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅膀扇动，夜幕低垂。", "en": "Wings flap, night descends."},
+        {"zh": "穿梭末地，无尽虚空。", "en": "Fly through the End, endless void."},
+        {"zh": "黑暗中闪现，无声飞行。", "en": "Silent flight in the dark."},
+        {"zh": "穿梭于末地之尘。", "en": "Fly through End dust."},
+        {"zh": "漆黑翅膀掠过。", "en": "Black wings glide by."},
+        {"zh": "黑暗中的影子。", "en": "Shadow in the dark."},
+        {"zh": "飘浮于虚空中。", "en": "Float in the void."},
+        {"zh": "夜色中，缓缓前行。", "en": "Move slowly in the night."},
+        {"zh": "末地的飘浮者。", "en": "End's flier."},
+        {"zh": "黑夜中的旅者。", "en": "Night's traveler."},
+        {"zh": "三对翅膀一起扇。", "en": "Three pairs of wings beat as one."},
+        {"zh": "在末地石上飞低一点。", "en": "I fly a little lower over the end stone."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静漂浮，静静等待。", "en": "Float, wait."},
+        {"zh": "静默中窥伺猎物。", "en": "Watch, silent."},
+        {"zh": "闲暇时光，暗中观察。", "en": "Idle, observe."},
+        {"zh": "静静漂浮，静待时机。", "en": "Wait, wait."},
+        {"zh": "闲暇时刻，静静漂浮。", "en": "Float, idle."},
+        {"zh": "静静漂浮，暗中观察。", "en": "Idle, watch."},
+        {"zh": "静静漂浮，等待冒险。", "en": "Float, await."},
+        {"zh": "静默中，静静等待。", "en": "Wait, silent."},
+        {"zh": "漂浮于虚空中。", "en": "Float in the void."},
+        {"zh": "静静等待，暗中观察。", "en": "Watch, idle."},
+        {"zh": "三颗小脑袋各看一处。", "en": "Three small heads watch three directions."},
+        {"zh": "翅膀停在半空不动。", "en": "My wings hold still in midair."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "察觉到你，迅速接近。", "en": "Notice you, approach."},
+        {"zh": "盯上你，准备攻击。", "en": "Lock on, prepare to attack."},
+        {"zh": "注意到你，开始跟踪。", "en": "Notice you, track."},
+        {"zh": "锁定目标，紧随其后。", "en": "Target locked, follow."},
+        {"zh": "你一出现，立即锁定。", "en": "Lock on at your appearance."},
+        {"zh": "三颗脑袋一起偏过来看你。", "en": "Three little heads tilt toward you."},
+        {"zh": "盯上你，开始追踪。", "en": "Track you, focus."},
+        {"zh": "翅尖的紫光指向你的肩。", "en": "Purple light at my wingtips points at your shoulder."},
+        {"zh": "我们三只一起从末地飞下来。", "en": "All three of us descend from the End."},
+        {"zh": "盯上你，迅速接近。", "en": "Lock on, approach."},
+        {"zh": "三双眼睛同时看你。", "en": "Three pairs of eyes look at you at once."},
+        {"zh": "它们围着你转了一圈。", "en": "We circle once around you."},
+        {"zh": "翅膀扇得慢了下来。", "en": "Our wingbeats slow."},
+        {"zh": "你身上没有末影的味道。", "en": "You don't smell of the End."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哎哟，受点伤没啥大碍。", "en": "Ow, not a big deal."},
+        {"zh": "哎呀，被它戳了一下。", "en": "Ouch, stabbed by one."},
+        {"zh": "啊，被箭射中了。", "en": "Ouch, hit by an arrow."},
+        {"zh": "疼，被雷劈了。", "en": "Ouch, lightning hit."},
+        {"zh": "嘶，受点小伤。", "en": "Sss, minor injury."},
+        {"zh": "呜，掉了一块肉。", "en": "Waa, lost some flesh."},
+        {"zh": "啊，被火烤了。", "en": "Ouch, burned by fire."},
+        {"zh": "啊，掉进水里了。", "en": "Ouch, fell into water."},
+        {"zh": "啊，被投射物打中。", "en": "Ouch, hit by a projectile."},
+        {"zh": "嘶，受了点魔法伤。", "en": "Sss, magic hit."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "看这些美味的虫子！", "en": "Look at those tasty insects!"},
+        {"zh": "你来抓我试试！", "en": "You try and catch me!"},
+        {"zh": "末地的食物，我来挑！", "en": "I pick what I eat in the End."},
+        {"zh": "你来尝尝我的飞行能力！", "en": "Try my flying!"},
+        {"zh": "末影碎片是我的食粮！", "en": "End Crystals are my food!"},
+        {"zh": "你能否驯服我？", "en": "Can you tame me?"},
+        {"zh": "这些碎片对我才有价值！", "en": "Only these fragments matter!"},
+        {"zh": "我的飞行速度很快！", "en": "My flight is swift!"},
+        {"zh": "你不想吃点儿吗？", "en": "You want to eat?"},
+        {"zh": "我有六点生命值！", "en": "I have 6 health points!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "飞得太高了！", "en": "Fly too high!"},
+        {"zh": "你撞散了我们，又聚回来。", "en": "You scattered us; we gathered again."},
+        {"zh": "翅膀撞歪了，我翻了个圈。", "en": "My wing bent; I tumbled once."},
+        {"zh": "我讨厌被撞！", "en": "I hate being hit!"},
+        {"zh": "我撞你了，你怎么样？", "en": "I hit you, how are you?"},
+        {"zh": "小心我！", "en": "Watch out for me!"},
+        {"zh": "撞我有什么好处？", "en": "What do you get from hitting me?"},
+        {"zh": "你不能伤害我！", "en": "You can't hurt me!"},
+        {"zh": "我不会让你们碰我！", "en": "I won't let you touch me!"},
+        {"zh": "你飞得太高了！", "en": "Fly too high! Again!?"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找我当伴侣吗？", "en": "Want a mate?"},
+        {"zh": "我是雌性，来吧！", "en": "I'm a female, come on!"},
+        {"zh": "来和我交配吧！", "en": "Mate with me!"},
+        {"zh": "找我交配！", "en": "Mate with me!"},
+        {"zh": "我是雌性，求交配！", "en": "I'm a female, please mate!"},
+        {"zh": "来吧，和我交配！", "en": "Mate with me!"},
+        {"zh": "我是雌性，快来！", "en": "I'm a female, hurry!"},
+        {"zh": "三个一起，末地这么空。", "en": "All three of us. The End is so empty."},
+        {"zh": "我们三个是一体的。", "en": "We three are one."},
+        {"zh": "在虚空里成双成三。", "en": "In the void we pair in threes."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "吸取了你的能量！", "en": "Absorbed your energy!"},
+        {"zh": "这块末地石是我先落的脚。", "en": "I set foot on this end stone first."},
+        {"zh": "小心，被捕捉了！", "en": "Careful, I'm being captured!"},
+        {"zh": "我饿了，快给我吃！", "en": "I'm hungry, feed me!"},
+        {"zh": "你的食物不够！", "en": "Not enough food!"},
+        {"zh": "别靠近我", "en": "Stay away from me!"},
+        {"zh": "这块末影碎片，我先踩住了。", "en": "I landed on this ender shard first."},
+        {"zh": "这是我的碎片，给我食物！", "en": "Here, feed me with my fragment!"},
+        {"zh": "不要打扰我！", "en": "Do not disturb me!"},
+        {"zh": "用食物驯服我吧！", "en": "Tame me with food!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找到目标了！", "en": "Target acquired!"},
+        {"zh": "追逐开始！", "en": "Chase begins!"},
+        {"zh": "我来抓你了！", "en": "I'm after you!"},
+        {"zh": "快跑，我来了！", "en": "Run, I'm coming!"},
+        {"zh": "食物的味道不错！", "en": "Tasty food!"},
+        {"zh": "三对小翅一收，齐齐转向你。", "en": "Three pairs of wings fold and all turn to you."},
+        {"zh": "追逐开始了！", "en": "Chase started!"},
+        {"zh": "我的眼睛盯着你！", "en": "I'm watching you!"},
+        {"zh": "这是我的游戏！", "en": "This is my game!"},
+        {"zh": "不要让我抓住你！", "en": "Don't let me catch you!"},
+        {"zh": "它动了，我们跟上。", "en": "It moved. We follow."},
+        {"zh": "三面合围，跑不掉。", "en": "Three sides close in. No escape."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我来教你飞翔！", "en": "Learn to fly!"},
+        {"zh": "飞到我身边来！", "en": "Come to me, fly!"},
+        {"zh": "用我的能力！", "en": "Use my power!"},
+        {"zh": "一起飞翔吧！", "en": "Fly with me!"},
+        {"zh": "我是你的朋友！", "en": "I'm your friend!"},
+        {"zh": "跟着我！", "en": "Follow me!"},
+        {"zh": "我从上面，另外两只绕后。", "en": "I take above; the other two circle behind."},
+        {"zh": "三个影子，绕着末地石转。", "en": "Three shadows circle the end stone."},
+        {"zh": "我是你的同伴！", "en": "I'm your companion!"},
+        {"zh": "一起飞翔，探索世界！", "en": "Fly together, explore the world!"},
+        {"zh": "我从上面，它从下面。", "en": "I take above; he takes below."},
+        {"zh": "你只能看一个方向。", "en": "You can only face one way."},
+        {"zh": "末影之力在翅尖聚。", "en": "Ender force gathers at our wing tips."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "啾啾尖叫，瞄准目标！", "en": "Squeal, targeting you!"},
+        {"zh": "挥舞利爪，撕裂一切！", "en": "Swing claws, rip apart!"},
+        {"zh": "末影碎片闪烁，攻击！", "en": "Phosphorescent shards, attack!"},
+        {"zh": "漆黑之翼，袭向猎物！", "en": "Dark wings, hunt prey!"},
+        {"zh": "末影之眼闪现，致命一击！", "en": "Eyes glow, fatal strike!"},
+        {"zh": "尖啸划破夜空，进攻！", "en": "Scream pierces night, attack!"},
+        {"zh": "黑暗触手，紧紧缠绕！", "en": "Dark tentacles, wrap tight!"},
+        {"zh": "末影之力，撕开虚空！", "en": "Ender power, rip space!"},
+        {"zh": "末地碎片砸落，粉碎敌人！", "en": "Ender shards fall, shatter foes!"},
+        {"zh": "尖叫回应，战斗无尽！", "en": "Screams echo, endless battle!"},
+        {"zh": "三只爪子一起落下。", "en": "Three sets of claws come down."},
+        {"zh": "末影碎片溅开。", "en": "Ender shards spray out."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "夜晚降临，我们现身！", "en": "Night falls, we emerge!"},
+        {"zh": "黑暗之中，寻找猎物！", "en": "In darkness, prey is found!"},
+        {"zh": "末地深处，我们出没！", "en": "In End depths, we roam!"},
+        {"zh": "影子聚集，夜幕降临！", "en": "Shadows gather, night falls!"},
+        {"zh": "末影碎片，指引我们！", "en": "Ender shards guide us!"},
+        {"zh": "末影之眼，黑夜之光！", "en": "Ender eyes, night’s light!"},
+        {"zh": "虚空之中，我们游荡！", "en": "In void, we wander!"},
+        {"zh": "黑暗之主，我们追随！", "en": "Dark master, we follow!"},
+        {"zh": "影子三子，末地守护！", "en": "Shadow triplets, End guardians!"},
+        {"zh": "末地裂缝，我们出现！", "en": "Ender rift, we appear!"},
+        {"zh": "末地石上落下三道影。", "en": "Three shadows drop onto the end stone."},
+        {"zh": "虚空里传来细小的叫。", "en": "Small cries come out of the void."},
+        {"zh": "我们三个一起出现。", "en": "The three of us appear together."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火苗舔我呢。", "en": "Fire licking me."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进裂缝里了。", "en": "Fell into a crack."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进水里了。", "en": "Drowned in water."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "三兄弟飞起来，末影碎片落一地。", "en": "Three of us take flight, Ender fragments falling."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被射中了。", "en": "Hit by a projectile."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "中了魔法。", "en": "Hit by magic."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哎哟，受点伤没啥大碍，挨饿的滋味可不好受。", "en": "Ow, not a big deal — and the starvation makes it worse."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被雷劈中了。", "en": "Lightning struck."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "跌入虚无深渊。", "en": "Fell into the void."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我沿着岩壁缓缓移动。", "en": "I creep along the rock wall."},
+        {"zh": "我的光扫过地面。", "en": "My beam sweeps the ground."},
+        {"zh": "我走得很稳，没有声音。", "en": "I move steadily, soundlessly."},
+        {"zh": "岩石里有金属的味道。", "en": "There's metal in this rock."},
+        {"zh": "我绕着这根石柱转。", "en": "I circle this pillar."},
+        {"zh": "我不太重，飘着走。", "en": "I'm not heavy. I drift."},
+        {"zh": "我从洞顶滑过去。", "en": "I slide along the cavern roof."},
+        {"zh": "光线跟着我移动。", "en": "The beam moves with me."},
+        {"zh": "我靠那块矿石充能。", "en": "I draw charge from that ore."},
+        {"zh": "我很少偏离路线。", "en": "I rarely stray from my route."},
+        {"zh": "我路过一片碎石。", "en": "I pass a field of rubble."},
+        {"zh": "我的镜头一直在转。", "en": "My lens keeps turning."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "镜头缩了一下，又张开。", "en": "My lens retracts, then opens again."},
+        {"zh": "光从我的眼睛里出来。", "en": "Light comes from my eye."},
+        {"zh": "我在记录这一片。", "en": "I'm recording this area."},
+        {"zh": "岩石的纹路很密。", "en": "The rock's patterns are dense."},
+        {"zh": "我的外壳有点凉。", "en": "My shell is cool."},
+        {"zh": "我的光扫过去，影子都投出来。", "en": "My beam sweeps and casts your shadow."},
+        {"zh": "我慢慢调整角度。", "en": "I adjust my angle."},
+        {"zh": "我把洞壁扫了一遍又一遍。", "en": "I sweep the cave wall over and over."},
+        {"zh": "我在等新的输入。", "en": "I wait for new input."},
+        {"zh": "我的光线暗了一下。", "en": "My beam dimmed."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在读取你的形状。", "en": "I'm reading your shape."},
+        {"zh": "你走进了扫描范围。", "en": "You entered scan range."},
+        {"zh": "我正在投影你的影像。", "en": "I'm projecting your image."},
+        {"zh": "你身上的金属很多。", "en": "You carry a lot of metal."},
+        {"zh": "我会把你的样子放出去。", "en": "I'll broadcast what you look like."},
+        {"zh": "你会引来别的。", "en": "You'll draw others."},
+        {"zh": "我的镜头对着你的影子。", "en": "My lens is aimed at your shadow."},
+        {"zh": "我只是一个记录器。", "en": "I'm only a recorder."},
+        {"zh": "别动，我正在测你的高度。", "en": "Hold still, I'm measuring your height."},
+        {"zh": "我看到你身后还有东西。", "en": "I see something behind you."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的外壳裂了一条。", "en": "A crack in my shell."},
+        {"zh": "光闪了两下。", "en": "The light flickered twice."},
+        {"zh": "我被撞偏了。", "en": "I got knocked off line."},
+        {"zh": "镜片有点花。", "en": "The lens is a bit scratched."},
+        {"zh": "我记录了这一下。", "en": "I recorded that hit."},
+        {"zh": "我退开了几格。", "en": "I withdrew a few blocks."},
+        {"zh": "扫描线抖成了锯齿。", "en": "My scan line jitters into a sawtooth."},
+        {"zh": "我没有发声的部件。", "en": "I have no part that makes sound."},
+        {"zh": "扫描还在继续。", "en": "The scan continues."},
+        {"zh": "我外壳上的漆掉了一块。", "en": "A patch of paint knocks off my shell."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不能进食。", "en": "I can't eat."},
+        {"zh": "那不是我的能源。", "en": "That isn't my power source."},
+        {"zh": "你举着它，是给我扫描的？", "en": "You're holding that up — for me to scan?"},
+        {"zh": "我的扫描不需要它。", "en": "My scan doesn't need it."},
+        {"zh": "放下去，别挡我的光。", "en": "Put it down. Don't block my beam."},
+        {"zh": "我投影出你的影子，给别人看。", "en": "I project your image for others to see."},
+        {"zh": "那点电不够我扫一次。", "en": "That charge won't power a single scan."},
+        {"zh": "离那块矿石远一点。", "en": "Get away from that ore."},
+        {"zh": "我不换东西。", "en": "I don't trade."},
+        {"zh": "我只需要矿石。", "en": "I only need ore."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你穿过我的光束。", "en": "You crossed my beam."},
+        {"zh": "我身上是金属。", "en": "I'm metal."},
+        {"zh": "我一撞就偏了。", "en": "One bump and I'm off line."},
+        {"zh": "你的肩碰到我的腿。", "en": "Your shoulder hit my leg."},
+        {"zh": "你的肩碰歪了我的镜头。", "en": "Your shoulder knocks my lens askew."},
+        {"zh": "我们两个都很轻。", "en": "We're both light."},
+        {"zh": "我退开，继续扫。", "en": "I withdraw and resume."},
+        {"zh": "岩石把声音吞了。", "en": "The rock swallows the sound."},
+        {"zh": "你身上落了点灰。", "en": "A little dust is on you."},
+        {"zh": "我抖了抖外壳。", "en": "I shook my shell."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我们没有这种方式。", "en": "We don't have that."},
+        {"zh": "两个扫描器靠在一起。", "en": "Two scanners side by side."},
+        {"zh": "别站在光里。", "en": "Don't stand in the beam."},
+        {"zh": "它比我旧一些。", "en": "It's older than I am."},
+        {"zh": "光叠在一起变白了。", "en": "The overlapping light turned white."},
+        {"zh": "我们互相读了一遍。", "en": "We read each other once."},
+        {"zh": "两个镜头对着照了很久。", "en": "Two lenses face each other a long while."},
+        {"zh": "这一片都被照过一次。", "en": "This area's been lit once over."},
+        {"zh": "我们没有留下东西。", "en": "We left nothing behind."},
+        {"zh": "洞里的回声很长。", "en": "The echo is long in this cave."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把这块铁吸起来。", "en": "I attract this iron."},
+        {"zh": "我不太能拿重东西。", "en": "I can't carry much weight."},
+        {"zh": "我的腿夹不住它。", "en": "My legs can't grip it."},
+        {"zh": "我扫描了它的成分。", "en": "I scanned its composition."},
+        {"zh": "这是铜，里面有别的东西。", "en": "Copper, with something inside."},
+        {"zh": "我用光把它扫开。", "en": "I sweep it aside with the beam."},
+        {"zh": "你的东西落在碎石里。", "en": "Yours fell among the rubble."},
+        {"zh": "它一下就消失了。", "en": "It vanished at once."},
+        {"zh": "我只看，不动。", "en": "I look. I don't touch."},
+        {"zh": "我记录了这个位置。", "en": "I logged this location."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我扫到你了。", "en": "I've scanned you."},
+        {"zh": "光线扫过，影像已经投出。", "en": "The beam swept past. The image is projected."},
+        {"zh": "我把影像放出去了。", "en": "I've broadcast the image."},
+        {"zh": "洞里的东西都看见了。", "en": "Everything in the cave has seen."},
+        {"zh": "镜头缩紧，对准你的脸。", "en": "My lens tightens on your face."},
+        {"zh": "你身上的金属很亮。", "en": "The metal on you is bright."},
+        {"zh": "我没有攻击的手段。", "en": "I have no way to attack."},
+        {"zh": "但别的东西有。", "en": "But other things do."},
+        {"zh": "你听到了脚步吗？", "en": "Heard footsteps?"},
+        {"zh": "光线在你身上停了两秒。", "en": "My beam rests on you for two seconds."},
+        {"zh": "我慢慢后退。", "en": "I'm backing away slowly."},
+        {"zh": "这一片已经被点亮。", "en": "This area is lit up now."},
+        {"zh": "你在我的记录里了。", "en": "You're in my record now."},
+        {"zh": "我把你的轮廓投到石壁上。", "en": "I cast your outline on the stone wall."},
+        {"zh": "我的镜片对着你的方向。", "en": "My lens points your way."},
+        {"zh": "你在光里没有遮挡。", "en": "Nothing hides you in the beam."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一直对着你。", "en": "I'm aimed at you."},
+        {"zh": "你走到哪，我照到哪。", "en": "Wherever you go, I light you."},
+        {"zh": "岩石把那边的声挡住了。", "en": "The rock blocks that sound."},
+        {"zh": "你的影子先被投出来。", "en": "Your shadow gets projected first."},
+        {"zh": "你的影子投在墙上。", "en": "Your shadow is on the wall."},
+        {"zh": "我正在投影出去。", "en": "I'm projecting it out."},
+        {"zh": "洞口那边有动静。", "en": "Something moved at the cave mouth."},
+        {"zh": "我不着急，慢慢扫。", "en": "No hurry. Scanning slowly."},
+        {"zh": "你在光里很明显。", "en": "You're obvious in the beam."},
+        {"zh": "这里的一切都在记录。", "en": "Everything here is being recorded."},
+        {"zh": "我的光一直跟着你。", "en": "My beam stays on you."},
+        {"zh": "石柱挡不住我的光线。", "en": "A stone pillar won't block my beam."},
+        {"zh": "洞里有一层薄雾。", "en": "There's a thin haze in the cave."},
+        {"zh": "它从我的光里出去了。", "en": "It went out of my beam."},
+        {"zh": "我又扫到第二个。", "en": "I picked up a second one."},
+        {"zh": "这里的矿很多。", "en": "There's a lot of ore here."},
+        {"zh": "你的脚步越来越远。", "en": "Your steps are getting further."},
+        {"zh": "我把画面传了出去。", "en": "I sent the image out."},
+        {"zh": "岩石上有回声。", "en": "There's an echo off the rock."},
+        {"zh": "你退到洞口的亮处了。", "en": "You're at the lit cave mouth."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用镜头磕了你一下。", "en": "I knock you with my lens housing."},
+        {"zh": "我只能撞一下。", "en": "All I can do is bump."},
+        {"zh": "扫描光线一歪，力道全无。", "en": "My scanning beam skewed — no force behind it."},
+        {"zh": "你身上留了一点光。", "en": "You carry a trace of my light."},
+        {"zh": "我的外壳磕到你。", "en": "My shell knocked against you."},
+        {"zh": "我赶紧退开了。", "en": "I pulled back at once."},
+        {"zh": "镜片被撞花了。", "en": "The lens is scratched."},
+        {"zh": "我看不清了。", "en": "I can't see clearly now."},
+        {"zh": "我还在记录。", "en": "I'm still recording."},
+        {"zh": "你的位置变了。", "en": "Your position changed."},
+        {"zh": "我用外壳去顶。", "en": "I drive my shell at you."},
+        {"zh": "这一步踩在你脚边。", "en": "I set a foot beside yours."},
+        {"zh": "我的腿太细，推不动。", "en": "My legs are too thin to shove."},
+        {"zh": "光晃到你眼睛了。", "en": "The beam flashed in your eyes."},
+        {"zh": "我撞上去又弹开。", "en": "I hit and bounced away."},
+        {"zh": "你被照得看不清。", "en": "The light blinds you."},
+        {"zh": "我这点分量推不动人。", "en": "My weight pushes nothing."},
+        {"zh": "这一下我自己也偏了。", "en": "That knocked me off line too."},
+        {"zh": "你在我的记录里更清楚了。", "en": "You're clearer in my record now."},
+        {"zh": "我退到石柱边上。", "en": "I backed to the pillar."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从磁场里浮起来。", "en": "I rise out of the magnetic field."},
+        {"zh": "我的光先亮起来。", "en": "My light came on first."},
+        {"zh": "这一片有矿。", "en": "There's ore in this stretch."},
+        {"zh": "我停在反光的石面上。", "en": "I settle on the shiny stone."},
+        {"zh": "洞里的光不够。", "en": "There isn't enough light in here."},
+        {"zh": "我扫描了一圈。", "en": "I ran one scan."},
+        {"zh": "我的腿还不太稳。", "en": "My legs aren't steady yet."},
+        {"zh": "这里很适合扫描。", "en": "This is a good place to scan."},
+        {"zh": "我在找铁矿。", "en": "I'm looking for iron ore."},
+        {"zh": "我的外壳还带着热。", "en": "My shell is still warm."},
+        {"zh": "我从一块矿石边上出来。", "en": "I came out beside a vein of ore."},
+        {"zh": "我先校准了镜片。", "en": "First I calibrated the lens."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "热把外壳烤得发红。", "en": "The heat turned my shell red."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我落地时外壳响了一声。", "en": "My shell rang on landing."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水进了壳里，光就断了。", "en": "Water got in and the light cut out."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我推得翻滚。", "en": "The blast sent me tumbling."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭扎在壳上，光偏了。", "en": "The arrow stuck and my beam skewed."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这股光把我的读数打乱了。", "en": "That light scrambled my readings."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不进食，只靠磁场。", "en": "I don't eat. Only the field feeds me."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打下来，我全身过电。", "en": "Lightning went through me entirely."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空里没有磁场。", "en": "No magnetic field in the void."}
+      ]
+    }
+  }
+}

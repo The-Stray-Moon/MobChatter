@@ -1,0 +1,254 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚步声铿锵有力", "en": "Stomp, stomp, stomp."},
+        {"zh": "手持长剑，步伐坚定", "en": "Holds sword, strides confidently."},
+        {"zh": "巡逻中，目光警惕", "en": "Patrols, eyes alert."},
+        {"zh": "行走在石板路上", "en": "Walks on the stone path."},
+        {"zh": "走过村庄边缘", "en": "Passes the village edge."},
+        {"zh": "挥剑劈砍假想敌", "en": "Swings sword at imaginary foes."},
+        {"zh": "转身查看四周", "en": "Turns to check surroundings."},
+        {"zh": "沿墙根缓缓前行", "en": "Walks slowly by the wall."},
+        {"zh": "行走在阳光下", "en": "Walks in the sunlight."},
+        {"zh": "穿过茂密树林", "en": "Walks through the dense forest."},
+        {"zh": "步枪挂在肩上，我踩着瓦砾走。", "en": "Rifle on my shoulder, I walk the rubble."},
+        {"zh": "靴底沾着血泥，我不低头看。", "en": "Blood-mud cakes my soles; I do not look down."},
+        {"zh": "我绕着废墟走第二圈。", "en": "I make a second circuit of the ruins."},
+        {"zh": "枪带磨着肩膀，我照旧巡逻。", "en": "The strap rubs my shoulder; I keep patrolling."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "环顾四周，寻找隐患", "en": "Scans surroundings for threats."},
+        {"zh": "站岗时，双手交叠", "en": "Stands, hands crossed."},
+        {"zh": "在角落里，默默守护", "en": "Hides in the corner, guarding."},
+        {"zh": "无聊时，轻抚剑柄", "en": "Taps sword hilt idly."},
+        {"zh": "低头整理装备", "en": "Kneels to check gear."},
+        {"zh": "站在瞭望塔上，警惕观察", "en": "Stands on lookout, vigilant."},
+        {"zh": "倚着柱子，沉思", "en": "leans on pillar, thinks."},
+        {"zh": "悠闲地喝水", "en": "Drinks water leisurely."},
+        {"zh": "在树荫下休息", "en": "Rests under a tree."},
+        {"zh": "闲聊，放松片刻", "en": "Chats, relaxes briefly."},
+        {"zh": "我蹲下检查弹匣，一言不发。", "en": "I crouch to check my magazine, saying nothing."},
+        {"zh": "我靠着断墙，盯着街口。", "en": "I lean on a broken wall, watching the street."},
+        {"zh": "我撕开绷带，又缠紧一圈。", "en": "I tear a bandage and wrap it tighter."},
+        {"zh": "我在废墟里点数剩下的罐头。", "en": "I count the remaining cans in the ruins."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把手电照在你脸上。", "en": "I shine my torch in your face."},
+        {"zh": "朝向玩家，警惕起来", "en": "Looks at player, alert."},
+        {"zh": "发现玩家，立即警惕", "en": "Notices player, becomes alert."},
+        {"zh": "眼神锐利，盯紧玩家", "en": "Glares at the player."},
+        {"zh": "从玩家那里获得信息", "en": "Gets info from the player."},
+        {"zh": "玩家靠近，紧张地戒备", "en": "Tenses up as player approaches."},
+        {"zh": "与玩家保持距离", "en": "Keeps distance from player."},
+        {"zh": "询问玩家身份", "en": "Asks about the player's identity."},
+        {"zh": "玩家离开，警惕减弱", "en": "Relaxes as player leaves."},
+        {"zh": "玩家出现，立即行动", "en": "Acts as player appears."},
+        {"zh": "手按在枪上，我没有抬高。", "en": "My hand is on my rifle; I do not raise it."},
+        {"zh": "你是活人，还是尸变的前兆？", "en": "Are you living, or the start of a turning?"},
+        {"zh": "枪口抬起来了，别动。", "en": "The barrel is up. Don't move."},
+        {"zh": "你走路的样子不像被咬过。", "en": "You do not walk like the bitten."},
+        {"zh": "我退半步，给你让出通道。", "en": "I step back to give you a path."},
+        {"zh": "这条街归我守，别乱走。", "en": "I hold this street. Do not wander."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "绷带不够，血从指缝渗出。", "en": "Not enough bandage; blood seeps through my fingers."},
+        {"zh": "枪里没子弹，只能挨打。", "en": "No rounds left. I just take the hits."},
+        {"zh": "电台没回应，我只能自己撑。", "en": "No answer on the radio; I hold on alone."},
+        {"zh": "快治伤！", "en": "Heal me!"},
+        {"zh": "我的盔甲被击穿了！", "en": "My armor is damaged!"},
+        {"zh": "受伤了，要休息！", "en": "Injured, need to rest!"},
+        {"zh": "请帮我！", "en": "Help me!"},
+        {"zh": "我是无辜的！", "en": "I'm innocent!"},
+        {"zh": "别让我死！", "en": "Don't let me die!"},
+        {"zh": "腿断了，我得先扎紧。", "en": "My leg is broken. I need a tourniquet."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "别想用面包骗我！", "en": "No bread tricks me!"},
+        {"zh": "你们的食物对我没用！", "en": "Your food means nothing!"},
+        {"zh": "小心我的长矛！", "en": "Watch out for my spear!"},
+        {"zh": "罐头放下，先把手举起来。", "en": "Set the can down and raise your hands first."},
+        {"zh": "你无法改变我！", "en": "You can't change me!"},
+        {"zh": "别想靠近我的家！", "en": "Don't get near my home!"},
+        {"zh": "只有强者才能得到尊重！", "en": "Only the strong are respected!"},
+        {"zh": "我的剑是无情的！", "en": "My sword is unyielding!"},
+        {"zh": "我的职责就是保护！", "en": "My duty is to protect!"},
+        {"zh": "面包可以，武器先放下。", "en": "Bread is fine; put the weapon down first."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "躲开！我要用剑！", "en": "Get out of the way! Sword time!"},
+        {"zh": "我不会退缩的！", "en": "I won't back down!"},
+        {"zh": "我这身军装还挺干净。", "en": "My uniform is still fairly clean."},
+        {"zh": "我要用盾牌防御！", "en": "I'll use my shield!"},
+        {"zh": "我的剑刃锋利无比！", "en": "My blade is sharp!"},
+        {"zh": "别靠近我的立场！", "en": "Stay away from my stance!"},
+        {"zh": "我的枪托撞上你的胸口。", "en": "My rifle butt jabs your chest."},
+        {"zh": "你不会占到便宜！", "en": "You won't get the upper hand!"},
+        {"zh": "我的剑是最后的防线！", "en": "My sword is the final line!"},
+        {"zh": "我会守护我的土地！", "en": "I'll protect my land!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "枪还背着，先找个人一起守夜。", "en": "My rifle stays slung; first I find someone to share a watch."},
+        {"zh": "守夜的人，最好不只我一个。", "en": "I would rather not keep watch alone."},
+        {"zh": "我要找一个合适的！", "en": "I need a good one!"},
+        {"zh": "我需要一个真正的伴侣！", "en": "I need a true mate!"},
+        {"zh": "你适合我吗？", "en": "Are you suitable for me?"},
+        {"zh": "我只找最合适的人！", "en": "I only find the best!"},
+        {"zh": "我要找个强大的伴侣！", "en": "I need a powerful mate!"},
+        {"zh": "我要找到我的灵魂伴侣！", "en": "I must find my soul mate!"},
+        {"zh": "我会选择最好的！", "en": "I choose the best!"},
+        {"zh": "我的选择将很严格！", "en": "My choices will be strict!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这面盾，我捡走了。", "en": "This shield is mine now."},
+        {"zh": "物资？给我！", "en": "Supplies? Mine!"},
+        {"zh": "食物？不需要！", "en": "Food? Not needed!"},
+        {"zh": "铠甲！给我盔甲！", "en": "Armor! Give me armor!"},
+        {"zh": "补给！快！", "en": "Supply! Quick!"},
+        {"zh": "食物？留给敌人吧！", "en": "Food? For the enemy!"},
+        {"zh": "资源！收集起来！", "en": "Resources! Gather them!"},
+        {"zh": "食物！给战士！", "en": "Food! For the soldier!"},
+        {"zh": "装备！快！", "en": "Gear up! Quick!"},
+        {"zh": "补给品？我们需要！", "en": "Supplies? We need them!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "目标发现：入侵者！", "en": "Target acquired: Invader!"},
+        {"zh": "敌人出现了！", "en": "Enemies appear!"},
+        {"zh": "捕获目标：平民！", "en": "Captured target: Civilian!"},
+        {"zh": "目标锁定：敌军！", "en": "Target locked: Enemy!"},
+        {"zh": "士兵注意，目标确认！", "en": "Soldiers, target confirmed!"},
+        {"zh": "目标是：商人！", "en": "Target is: Merchant!"},
+        {"zh": "目标锁定：旅行者！", "en": "Target locked: Traveller!"},
+        {"zh": "目标是：村民！", "en": "Target is: Villager!"},
+        {"zh": "目标锁定：冒险者！", "en": "Target locked: Adventurer!"},
+        {"zh": "目标确认：怪物！", "en": "Target confirmed: Monster!"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "巷口有人影，我抬枪。", "en": "A shape at the alley mouth; I raise my rifle."},
+        {"zh": "枪里没子弹，刺刀还有。", "en": "No bullets left, but the bayonet works."},
+        {"zh": "瞄准村民！", "en": "Target the villager!"},
+        {"zh": "瞄准商人！", "en": "Target the merchant!"},
+        {"zh": "瞄准冒险者！", "en": "Target the adventurer!"},
+        {"zh": "瞄准入侵者！", "en": "Target the invader!"},
+        {"zh": "别晃，我在数你的脚步。", "en": "Hold still; I am counting your steps."},
+        {"zh": "三点一线，我扣下扳机。", "en": "Sights aligned, I squeeze the trigger."},
+        {"zh": "准星压在你的胸口上。", "en": "My sights rest on your chest."},
+        {"zh": "保险已经打开了。", "en": "The safety is already off."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "挥剑如风，杀敌无数！", "en": "Swinging sword, slaying foes."},
+        {"zh": "盾牌护心，一往无前！", "en": "Shield at chest, charging ahead."},
+        {"zh": "长矛刺出，贯穿敌人！", "en": "Long spear, piercing through."},
+        {"zh": "弓箭上弦，一箭双杀！", "en": "Bow drawn, two for one."},
+        {"zh": "斧头砍落，血流成河！", "en": "Axe chopping, blood runs."},
+        {"zh": "斩断敌首，壮我军威！", "en": "Head chopped, boosting morale."},
+        {"zh": "挥刀如雨，敌人倒地！", "en": "Swinging like rain, foes fall."},
+        {"zh": "盾击敌人，反击必杀！", "en": "Shield strike, counterkill."},
+        {"zh": "长剑扫过，敌人无存！", "en": "Longsword sweeping, none left."},
+        {"zh": "战鼓声中，冲锋陷阵！", "en": "Drum beats, charge into battle."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "士兵出列，准备战斗！", "en": "Soldier in formation, ready to fight."},
+        {"zh": "巡逻至此，警惕四周！", "en": "Patrolling here, watchful."},
+        {"zh": "军营深处，士兵宿营！", "en": "Camp deep, soldiers sleep."},
+        {"zh": "城堡守卫，不可轻敌！", "en": "Fortress guard, don’t underestimate."},
+        {"zh": "村庄外围，警戒哨兵！", "en": "Outer village, watchful sentry."},
+        {"zh": "森林隐蔽，士兵埋伏！", "en": "Forest conceal, soldiers wait."},
+        {"zh": "山洞入口，士兵驻守！", "en": "Cave entrance, soldiers guard."},
+        {"zh": "矿洞深处，士兵采矿！", "en": "Mine depths, soldiers mine."},
+        {"zh": "平原之上，士兵巡逻！", "en": "Plains, soldiers patrol."},
+        {"zh": "沙漠边缘，士兵驻足！", "en": "Desert edge, soldiers halt."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "伤口在流血，被火烧的滋味可不好受。", "en": "Blood is flowing from the wound! — and the fire makes it worse."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "跌下了悬崖！", "en": "I fell off a cliff!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进了虚空中！", "en": "Drowned in the void!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的枪管，被炸弯了。", "en": "The blast bent my rifle barrel."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我受伤了，中箭的滋味可不好受。", "en": "I'm hurt! — and the projectile makes it worse."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被魔法烧伤！", "en": "Burnt by magic!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "口粮见底，我的腿在发软。", "en": "My rations are gone; my legs feel weak."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的军装被烧出焦边。", "en": "My uniform is scorched at the edges."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "快治伤，坠入虚空的滋味可不好受。", "en": "Heal me! — and the void makes it worse."}
+      ]
+    }
+  }
+}

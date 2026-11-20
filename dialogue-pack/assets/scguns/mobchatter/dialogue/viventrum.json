@@ -1,0 +1,269 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙沙作响前行", "en": "Clicking steps forward"},
+        {"zh": "发出低沉嘶吼", "en": "Rumbles with a growl"},
+        {"zh": "摇摇晃晃地行走", "en": "Shuffles forward"},
+        {"zh": "露出尖牙", "en": "Baring fangs"},
+        {"zh": "啃咬腐烂木头", "en": "Chomping rotting wood"},
+        {"zh": "寻找食物的沙沙声", "en": "Sizzling sound of searching for food"},
+        {"zh": "啃食腐烂的尸体", "en": "Munching on a rotting corpse"},
+        {"zh": "发出饥渴呼喊", "en": "Hunger cry"},
+        {"zh": "在腐土中移动", "en": "Moving in the corrupted soil"},
+        {"zh": "啃咬泥土", "en": "Chomping on the dirt"},
+        {"zh": "骷髅指节摩着枪管走动", "en": "Bone knuckles rasp the barrel as it walks"},
+        {"zh": "拖着夜视模块踱步", "en": "It paces, dragging its night vision module"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着不动，是在等主人吹哨。", "en": "I stand still, waiting for my master's whistle."},
+        {"zh": "绿光暗了一下，又亮起来。", "en": "The green light dims, then brightens."},
+        {"zh": "低头思考", "en": "Looking down thoughtfully"},
+        {"zh": "转动脖子", "en": "Turning its neck"},
+        {"zh": "我下颌张开，又慢慢合上。", "en": "My jaw opens, then closes slowly."},
+        {"zh": "摇晃骷髅头", "en": "Shaking its skull"},
+        {"zh": "我在等主人吹一声口哨。", "en": "I wait for my master's whistle."},
+        {"zh": "闭上眼睛", "en": "Closing its eyes"},
+        {"zh": "轻轻摇动", "en": "Gently swaying"},
+        {"zh": "空眼窝里绿光缓缓闪烁", "en": "Green light pulses slowly in its empty sockets"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你身上的味道，我盯上了。", "en": "Your scent, I have it now."},
+        {"zh": "露出凶光", "en": "Showing its fangs"},
+        {"zh": "张大眼睛", "en": "Opening wide eyes"},
+        {"zh": "慢慢接近", "en": "Creeping closer"},
+        {"zh": "发出嘶吼", "en": "Growling loudly"},
+        {"zh": "发出低鸣", "en": "Making a low hiss"},
+        {"zh": "张开双臂", "en": "Spreading its arms"},
+        {"zh": "钻石钢的骨，也会看你。", "en": "Diamond-steel bones watch you too."},
+        {"zh": "空眼窝里的绿光定住了。", "en": "The green light in my socket goes still."},
+        {"zh": "我骨头里嵌着钻石钢。", "en": "Diamond steel is set into my bones."},
+        {"zh": "它把枪口抬向你的方向", "en": "It raises the muzzle toward you"},
+        {"zh": "骷髅头微微歪着打量你", "en": "Its skull tilts, measuring you"},
+        {"zh": "绿光在你身上停了一下", "en": "The green light rests on you a moment"},
+        {"zh": "它认出了你手里的铁", "en": "It recognizes the iron in your hand"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的钻石钢壳，被你敲开了。", "en": "You cracked my diamond-steel shell."},
+        {"zh": "骨头裂开了！", "en": "Bone cracked!"},
+        {"zh": "被砍伤了，好疼！", "en": "Cut wound hurts."},
+        {"zh": "伤势严重，快救我！", "en": "Severe injury, help!"},
+        {"zh": "翅膀折了，好痛！", "en": "Wing broken, hurts."},
+        {"zh": "触须断了，好疼！", "en": "Tentacle broken, hurts."},
+        {"zh": "子弹打穿了我肩上的钢片。", "en": "A bullet punches through the steel at my shoulder."},
+        {"zh": "爪子被折了，好痛！", "en": "Claw broken, hurts."},
+        {"zh": "我裂开的骨缝里爬着虫。", "en": "Insects crawl in the crack of my bone."},
+        {"zh": "跌倒了，好疼！", "en": "Fell down, hurts."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你面前摆着肉，我能抗拒吗？", "en": "You have meat. Can I resist?"},
+        {"zh": "来吧，吃我！", "en": "Come on, eat me!"},
+        {"zh": "我的新朋友，共享美食吧！", "en": "New friend, share the food!"},
+        {"zh": "你看起来很美味，别犹豫了。", "en": "You look delicious, no hesitation."},
+        {"zh": "和我一起享用盛宴吧！", "en": "Join me in the feast!"},
+        {"zh": "你真的不吃我吗？", "en": "You're not going to eat me?"},
+        {"zh": "我饿了，给我点吃的！", "en": "I'm hungry, give me some food!"},
+        {"zh": "你为什么不靠近我？", "en": "Why aren't you closer?"},
+        {"zh": "你闻到了吗？肉香！", "en": "Can you smell it? Meat!"},
+        {"zh": "你不会让我饿着吧？", "en": "You won't let me starve, right?"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "小心，我正要撞你！", "en": "Watch out, I'm ramming you!"},
+        {"zh": "撞翻你，是我的目标！", "en": "Knock you down, that's my goal!"},
+        {"zh": "我整个身子撞向你的侧肋。", "en": "I throw my whole frame into your ribs."},
+        {"zh": "用力一撞，你就会倒下！", "en": "A good push and you'll fall!"},
+        {"zh": "你的位置，正中我下怀！", "en": "Perfect spot, right on target!"},
+        {"zh": "冲撞，是最有效的攻击！", "en": "Ramming is the most effective attack!"},
+        {"zh": "来吧，让我来撞你！", "en": "Come on, let me ram you!"},
+        {"zh": "我来个直接的撞！", "en": "A direct ram!"},
+        {"zh": "用力，再用力撞！", "en": "Push, push harder!"},
+        {"zh": "撞倒你，是我唯一的意图！", "en": "Knock you down, that's my only intent!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你适合和我一起吗？", "en": "Are you suitable for me?"},
+        {"zh": "我们结合吧，更强大！", "en": "We can be stronger together!"},
+        {"zh": "跟我一起，我们的后代会更强壮！", "en": "Stay with me, our offspring will be stronger!"},
+        {"zh": "你愿意做我的伴侣吗，我可驯服。", "en": "Will you be my mate? I am tameable."},
+        {"zh": "和我在一起，你会很安全！", "en": "Stay with me, you'll be safe!"},
+        {"zh": "我们能一起生存下去！", "en": "We can survive together!"},
+        {"zh": "你愿意被我驯服，一起走？", "en": "Will you be tamed and walk with me?"},
+        {"zh": "跟我一起，我们能抵御一切！", "en": "Stay with me, we can withstand anything!"},
+        {"zh": "我们结合，让爱永恒！", "en": "We unite, love forever!"},
+        {"zh": "和我一起，我们是完美搭档！", "en": "Stay with me, we're a perfect pair!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "听到声音，Viventrum慢慢睁开眼睛，四处张望。", "en": "Viventrum slowly opens its eyes, looking around at the sound."},
+        {"zh": "它用锐利的目光盯住了你。", "en": "It fixes its sharp gaze on you."},
+        {"zh": "那双空洞的眼眶里闪烁着绿光。", "en": "Green light flickers in its hollow eye sockets."},
+        {"zh": "你手中的食物让它起了食欲。", "en": "The food in your hand stirs its appetite."},
+        {"zh": "饥渴的它渴望着你的肉。", "en": "Starving, it longs for your flesh."},
+        {"zh": "你成了它的猎物，只能祈祷。", "en": "You are its prey, and you can only pray."},
+        {"zh": "它的叫声如同地狱的低吟。", "en": "Its call is a hellish whisper."},
+        {"zh": "靠近它的区域被寒气包围。", "en": "The area around it is shrouded in cold."},
+        {"zh": "它的牙齿闪烁着寒光。", "en": "Its teeth glimmer with cold."},
+        {"zh": "你手中的东西让它的胃酸分泌。", "en": "The item in your hand causes its stomach to acidify."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的夜视模块，在暗里也不怕。", "en": "My night-vision module sees through dark."},
+        {"zh": "它的眼睛里只有你。", "en": "Its eyes only see you."},
+        {"zh": "你的动作引起了它的注意。", "en": "Your movements catch its attention."},
+        {"zh": "我把枪端平，压住呼吸。", "en": "I level the gun and hold my breath."},
+        {"zh": "夜视模块把你看成一片红。", "en": "My night-vision module paints you red."},
+        {"zh": "它的步伐变得更快。", "en": "Its steps quicken."},
+        {"zh": "它的眼中燃起了一丝贪婪。", "en": "Avarice flickers in its eyes."},
+        {"zh": "它的呼吸声变得粗重。", "en": "Its breathing grows heavy."},
+        {"zh": "它准备好了，将要行动。", "en": "It is ready, about to act."},
+        {"zh": "它的爪子紧握着空气。", "en": "Its claws grip the air."},
+        {"zh": "你被它列进了目标名单", "en": "You have entered its list of targets"},
+        {"zh": "它端起枪，锁住你的胸口", "en": "It raises the gun and locks on your chest"},
+        {"zh": "那种气息让它兴奋起来", "en": "That scent sets it twitching"},
+        {"zh": "它朝你走近了半步", "en": "It takes half a step toward you"},
+        {"zh": "它决定先拿你试枪", "en": "It decides to test the gun on you"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "驯服我之后，我替你看夜。", "en": "Tame me, and I'll watch the night for you."},
+        {"zh": "锁定你的移动。", "en": "Locking onto your movement."},
+        {"zh": "确定你的位置。", "en": "Locating your position."},
+        {"zh": "你成了它的焦点。", "en": "You are its focus."},
+        {"zh": "你躲在墙后，我听见你喘。", "en": "Hide behind the wall; I hear you breathe."},
+        {"zh": "夜视模块，已经锁住你的热。", "en": "My night-vision module has your heat."},
+        {"zh": "它的眼睛盯着你不放。", "en": "Its eyes stare at you."},
+        {"zh": "它的呼吸声越来越近。", "en": "Its breathing gets closer."},
+        {"zh": "夜视模块还没冷。", "en": "My night vision module is still warm."},
+        {"zh": "我调整瞄具，跟着你移动。", "en": "I adjust my sight and follow you."},
+        {"zh": "它调整了一下瞄具", "en": "It adjusts the sight a little"},
+        {"zh": "枪口跟着你移动", "en": "The muzzle tracks you"},
+        {"zh": "它在等你走出掩体", "en": "It waits for you to leave cover"},
+        {"zh": "手指扣在扳机护圈上", "en": "A finger rests on the trigger guard"},
+        {"zh": "它算好了弹道", "en": "It has worked out the trajectory"},
+        {"zh": "你把后背露给它了", "en": "You have shown it your back"},
+        {"zh": "它屏住了不存在的呼吸", "en": "It holds a breath it does not have"},
+        {"zh": "一声轻响，它上了膛", "en": "A soft click: it chambers a round"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，你动我一下，死一个！", "en": "Sssss, move and you die one!"},
+        {"zh": "你敢靠近，我保证你后悔！", "en": "Get close and you’ll regret it!"},
+        {"zh": "我一枪托顶在你胸口。", "en": "I drive my stock into your chest."},
+        {"zh": "钻石钢的爪，刮过你的甲。", "en": "Diamond-steel claws scrape your armor."},
+        {"zh": "我来了，你无处可逃！", "en": "I’m here, nowhere to run!"},
+        {"zh": "我的骨爪从你肩上刮过。", "en": "My bone claw scrapes across your shoulder."},
+        {"zh": "尝尝死亡的味道！", "en": "Taste death!"},
+        {"zh": "钻石钢的骨头挡住了刀刃。", "en": "Diamond-steel bone stops your blade."},
+        {"zh": "驯服我，我给你钻石钢。", "en": "Tame me and I bring diamond steel."},
+        {"zh": "你逃不出我的爪下！", "en": "You can’t escape my claws!"},
+        {"zh": "枪托砸在你的护甲上", "en": "The stock slams into your armor"},
+        {"zh": "它用骨爪撕开你的袖口", "en": "Bone claws tear open your sleeve"},
+        {"zh": "近距离一枪，震得你耳鸣", "en": "A point-blank shot leaves your ears ringing"},
+        {"zh": "骷髅指抠进你的肩膀", "en": "Skull fingers dig into your shoulder"},
+        {"zh": "它把你顶在墙上", "en": "It pins you against the wall"},
+        {"zh": "弹壳落在你脚边", "en": "A spent casing drops at your feet"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "夜视模块亮了，我看得见。", "en": "Night vision module on. I can see."},
+        {"zh": "我是死亡的使者！", "en": "I am the bringer of death!"},
+        {"zh": "夜幕降临，我将出没！", "en": "Nightfall, and I appear!"},
+        {"zh": "这里，是我的领地！", "en": "This is my territory!"},
+        {"zh": "等待吧，死亡即将来临！", "en": "Wait, for death is coming!"},
+        {"zh": "夜晚，我的时间！", "en": "Night, my time!"},
+        {"zh": "我是漆黑中的阴影！", "en": "I am the shadow in darkness!"},
+        {"zh": "我将守护这里！", "en": "I shall guard here!"},
+        {"zh": "黑暗是我的盟友！", "en": "Darkness is my ally!"},
+        {"zh": "这里，将化为废墟！", "en": "This place shall be ruins!"},
+        {"zh": "黄铜味里站起一具骷髅", "en": "A skeleton rises in a smell of brass"},
+        {"zh": "它抱着一把旧枪醒来", "en": "It wakes clutching an old gun"},
+        {"zh": "军械库里传来骨响", "en": "Bone rattles in the armory"},
+        {"zh": "它从弹坑里爬了出来", "en": "It crawls out of a shell crater"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "夜视模块被烤得发白。", "en": "My night-vision module burns white."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔在石上，骷髅头歪了。", "en": "I land on stone and my skull tilts."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进水里了，好疼！", "en": "Drowned, hurts."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我的护甲掀开了一角。", "en": "The blast peeled a corner off my plating."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭卡进我钻石钢的肋骨。", "en": "An arrow sticks in my diamond-steel ribs."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "夜视模块短路了，眼前一片白。", "en": "My night-vision module shorted, everything is white."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我肚子里空得只剩骨头。", "en": "My belly is empty down to the bone."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "缝合的皮肉，被雷烤了一遍。", "en": "The lightning cooked my stitched hide."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进虚空中了！", "en": "Void hurt."}
+      ]
+    }
+  }
+}

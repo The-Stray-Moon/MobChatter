@@ -1,0 +1,260 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我浮在半空，肚皮朝下慢慢挪。", "en": "I float midair, belly down, drifting along."},
+        {"zh": "我没有腿，只用整颗身子往前挤。", "en": "I have no legs; my whole body pushes forward."},
+        {"zh": "我的嘴一张一合，往下一沉。", "en": "My mouth opens and shuts as I sink lower."},
+        {"zh": "我漂过岩浆上方，热气托着我。", "en": "I drift over the lava and the heat holds me up."},
+        {"zh": "我撞开挡路的岩柱。", "en": "I shoulder a rock pillar aside."},
+        {"zh": "我朝前面的洞口飘。", "en": "I drift toward the opening ahead."},
+        {"zh": "我的尖牙在外面露着。", "en": "My fangs show on the outside."},
+        {"zh": "我上下起伏，像一颗浮着的球。", "en": "I bob up and down like a floating ball."},
+        {"zh": "我慢慢转过去，看了看来路。", "en": "I turn slowly and look back the way I came."},
+        {"zh": "我擦着洞顶过去。", "en": "I skim under the cavern roof."},
+        {"zh": "我朝有声音的方向挤过去。", "en": "I push toward the noise."},
+        {"zh": "我停下，悬在那儿晃。", "en": "I stop and hang there swaying."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我悬着不动，一只眼慢慢转。", "en": "I hang still and my single eye rolls slowly."},
+        {"zh": "我的嘴半张着，牙露在外面。", "en": "My mouth hangs half open with fangs showing."},
+        {"zh": "我一吐一吸，身体鼓起来。", "en": "I swell and shrink with each breath."},
+        {"zh": "热气把我围住，很舒服。", "en": "The heat wraps me and feels good."},
+        {"zh": "岩浆泡破了，我眨眨眼。", "en": "A lava bubble pops; I blink."},
+        {"zh": "我的舌头舔了一下牙。", "en": "My tongue passes over my teeth."},
+        {"zh": "我浮着，肚皮一鼓一鼓。", "en": "I float, my belly rising and falling."},
+        {"zh": "我把身体缩了一点。", "en": "I draw my body in a little."},
+        {"zh": "我什么也不做，只是浮着。", "en": "I do nothing; I only float."},
+        {"zh": "上面的岩顶有东西爬。", "en": "Something crawls on the roof above."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把整颗身子转过来，一只眼对着你。", "en": "I turn my whole body, one eye on you."},
+        {"zh": "我盯着你，眼里有点发亮。", "en": "I stare with a slight glow in my eye."},
+        {"zh": "我没有别的表情。", "en": "I have no other expression."},
+        {"zh": "你站得那么低，我得沉下来。", "en": "You stand so low that I must sink to look."},
+        {"zh": "我张开嘴，牙全露出来。", "en": "I open my mouth and all my fangs show."},
+        {"zh": "我飘高一点，俯视你。", "en": "I float higher and look down on you."},
+        {"zh": "我飘近了一点。", "en": "I drift a little closer."},
+        {"zh": "你退，我跟着往上抬。", "en": "You retreat and I rise a little."},
+        {"zh": "这东西是活的，我要想想。", "en": "This thing is alive; let me think."},
+        {"zh": "你头顶是我的影子。", "en": "My shadow falls over your head."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我翻了个身，又飘稳。", "en": "I roll over and steady myself in the air."},
+        {"zh": "我退开一截，眼还在看你。", "en": "I back off and my eye stays on you."},
+        {"zh": "这一下让我在半空晃了晃。", "en": "That leaves me swaying in the air."},
+        {"zh": "我吐了口血，牙上都是。", "en": "I spit blood and my fangs are covered."},
+        {"zh": "我张开嘴，吼了一声。", "en": "I open my mouth and roar."},
+        {"zh": "我往下沉了一点，才稳住。", "en": "I sink a little before steadying."},
+        {"zh": "这一下，我记你账上。", "en": "That one goes on your tab."},
+        {"zh": "我的眼眯了起来。", "en": "My eye narrows."},
+        {"zh": "我退到柱子后头。", "en": "I retreat behind a pillar."},
+        {"zh": "这记分量不轻。", "en": "That one had real weight."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这一种我不吃。", "en": "I do not eat this kind."},
+        {"zh": "你把东西举起来，我没兴趣。", "en": "You hold it up and I lose interest."},
+        {"zh": "我只对动的东西感兴趣。", "en": "Only moving things interest me."},
+        {"zh": "我朝它吹了口气。", "en": "I puff a breath at it."},
+        {"zh": "我绕开，继续飘。", "en": "I drift around it and move on."},
+        {"zh": "连牙缝都填不满。", "en": "Not enough to fill the gap in my teeth."},
+        {"zh": "这东西不合我胃口。", "en": "This thing doesn't suit my appetite."},
+        {"zh": "我翻身，把它挡在下面。", "en": "I roll over and put it beneath me."},
+        {"zh": "你用这个引不开我。", "en": "You will not draw me off with that."},
+        {"zh": "我不饿。", "en": "I am not hungry."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你弹开，我继续飘。", "en": "You bounce off; I keep floating."},
+        {"zh": "我悬空着，你推就推着走。", "en": "I am airborne, so a push carries me."},
+        {"zh": "我转了个身，把你顶开。", "en": "I turn and shove you off."},
+        {"zh": "我肚皮很软，撞上去不疼。", "en": "My belly is soft; it does not hurt to hit."},
+        {"zh": "我一下沉到和你同高。", "en": "I sink level with you."},
+        {"zh": "你撞到我，我张嘴咬了个空。", "en": "You knock me and I snap at nothing."},
+        {"zh": "我退了一点，又浮回来。", "en": "I draw back and float in again."},
+        {"zh": "离我远些。", "en": "Keep away from me."},
+        {"zh": "一撞，我转了大半圈。", "en": "One hit spins me most of a turn."},
+        {"zh": "我悬稳了才看你。", "en": "I steady myself before looking at you."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这种事我没有。", "en": "I have nothing to do with that."},
+        {"zh": "我只是浮着的一颗球。", "en": "I am only a floating sphere."},
+        {"zh": "我翻了身，肚皮朝上。", "en": "I roll over, belly up."},
+        {"zh": "我把它拨到一旁。", "en": "I flick it aside."},
+        {"zh": "同族之间没有凑近的道理。", "en": "My kind have no cause to draw near."},
+        {"zh": "我朝岩浆那边飘。", "en": "I drift toward the lava."},
+        {"zh": "我把嘴闭上了。", "en": "I shut my mouth."},
+        {"zh": "我转过去背对它。", "en": "I turn my back to it."},
+        {"zh": "这里的地盘只够一个。", "en": "This territory fits only one."},
+        {"zh": "我飘远了。", "en": "I drift away."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我张嘴便吞。", "en": "I open my mouth and swallow."},
+        {"zh": "牙缝里卡着东西。", "en": "Something's stuck between my teeth."},
+        {"zh": "它在我嘴里化掉了。", "en": "It dissolves in my mouth."},
+        {"zh": "这东西太硬。", "en": "This is too hard."},
+        {"zh": "我吐了出来，不好吃。", "en": "I spit it out; it tastes bad."},
+        {"zh": "我用嘴拱了拱它。", "en": "I nudge it with my mouth."},
+        {"zh": "我把它吞下，肚子鼓了一下。", "en": "I swallow and my belly bulges once."},
+        {"zh": "太小了，我一口吞。", "en": "Too small — I swallow it whole."},
+        {"zh": "我含在嘴里，慢慢磨。", "en": "I hold it in my mouth and grind slowly."},
+        {"zh": "没用，我吐掉了。", "en": "Useless; I spit it out."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你一动，我的眼就定住了。", "en": "You move and my eye locks on."},
+        {"zh": "我把口张到极处。", "en": "I stretch my mouth as far as it goes."},
+        {"zh": "我朝你缓缓沉下去。", "en": "I sink slowly toward you."},
+        {"zh": "这一带有血味。", "en": "There is blood in the air here."},
+        {"zh": "我锁定了你，别的都不看。", "en": "I have you fixed and look nowhere else."},
+        {"zh": "我开始往上浮，找角度。", "en": "I begin to rise for an angle."},
+        {"zh": "我的牙在嘴里转。", "en": "My fangs shift in my mouth."},
+        {"zh": "你跑不掉，我的距离够。", "en": "You cannot run; you are in my range."},
+        {"zh": "我从上面看你。", "en": "I look down at you."},
+        {"zh": "再动一下，我就吐。", "en": "One more move and I spit."},
+        {"zh": "我在你头顶停住了。", "en": "I have stopped over your head."},
+        {"zh": "你身上的热量，我看得见。", "en": "I can see the heat of you."},
+        {"zh": "我把身子压低，正对着它。", "en": "I sink low and square up to it."},
+        {"zh": "它在那儿，我不打算放过。", "en": "It is there, and I do not mean to let it go."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我跟着你飘，始终在上面。", "en": "I drift with you, always above."},
+        {"zh": "你拐弯，我的嘴跟着。", "en": "You turn; my mouth follows."},
+        {"zh": "我一点一点压低高度。", "en": "I lower my height bit by bit."},
+        {"zh": "我在找你不挡的角度。", "en": "I am finding an angle you cannot cover."},
+        {"zh": "你一抬手，我就往上浮。", "en": "You raise a hand and I rise."},
+        {"zh": "你躲到柱子后面，我绕过去。", "en": "You hide behind a pillar and I go around."},
+        {"zh": "我盯着你，口水在滴。", "en": "I stare at you, drooling."},
+        {"zh": "你越退，我越压低。", "en": "The more you retreat, the lower I press."},
+        {"zh": "这一片我能看全。", "en": "I can see all of this area."},
+        {"zh": "你抬手，我就扑。", "en": "Raise your hand and I pounce."},
+        {"zh": "你在喘，听得很清楚。", "en": "Your panting is very clear."},
+        {"zh": "再近一点就在射程里。", "en": "A little closer and you are in range."},
+        {"zh": "我停在你正上方。", "en": "I hold directly above you."},
+        {"zh": "我不急，你总要走出来。", "en": "I am not rushing; you must come out."},
+        {"zh": "我感觉到了，你准备动。", "en": "I can feel that you are about to move."},
+        {"zh": "这次不会偏。", "en": "This one will not miss."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一口咬下去，牙刮过骨头。", "en": "I bite down and my fangs scrape bone."},
+        {"zh": "我用整个身子撞它。", "en": "I slam my whole body into it."},
+        {"zh": "我含住它，甩了一下。", "en": "I catch it and shake it."},
+        {"zh": "咬住了，就别想我松。", "en": "Once bitten, don't expect me to let go."},
+        {"zh": "它砍我，我咬回去。", "en": "It cuts me and I bite back."},
+        {"zh": "我咬空了，牙撞得响。", "en": "I miss and my fangs clack."},
+        {"zh": "我把头一低，又咬上去。", "en": "I dip my head and bite again."},
+        {"zh": "嘴里全是它的血。", "en": "My mouth is full of its blood."},
+        {"zh": "我把它往墙上顶。", "en": "I push it against the wall."},
+        {"zh": "我吐掉嘴里那块。", "en": "I spit out the piece in my mouth."},
+        {"zh": "我再咬，没松口。", "en": "I bite again and do not let go."},
+        {"zh": "它退了，我浮高了。", "en": "It retreats and I float higher."},
+        {"zh": "这一口带走了不少。", "en": "That bite took a good deal."},
+        {"zh": "我慢慢退开，嘴上还挂着。", "en": "I withdraw slowly, still hanging there."},
+        {"zh": "我一甩头，把它撞歪。", "en": "One toss of my head knocks it off line."},
+        {"zh": "我咬住它的腿，往上一提。", "en": "I bite its leg and haul it up."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从上方垂下来，肚皮先出现。", "en": "I lower myself from above, belly first."},
+        {"zh": "我浮在洞口，一只眼往里看。", "en": "I hover at the cave mouth, one eye peering in."},
+        {"zh": "岩浆的光照在我身上。", "en": "Lava light plays over me."},
+        {"zh": "我慢慢转动，看了看四周。", "en": "I turn slowly and survey the area."},
+        {"zh": "我的嘴张着，牙在外面。", "en": "My mouth hangs open with fangs out."},
+        {"zh": "热气托住我，很稳。", "en": "The heat holds me steady."},
+        {"zh": "我朝深处飘了一点。", "en": "I drift a little deeper in."},
+        {"zh": "这里的气味我很熟。", "en": "This smell is familiar to me."},
+        {"zh": "我发出一声咕噜。", "en": "I let out a gurgle."},
+        {"zh": "我在洞口绕了半圈。", "en": "I circle half the cave mouth."},
+        {"zh": "有什么在下面动。", "en": "Something moves below."},
+        {"zh": "我沉了一点，看清了。", "en": "I sink a little and see clearly."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火对我没什么用，只是烤得我发干。", "en": "Fire does little but dry me out."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从半空砸下去，肚皮先着地。", "en": "I slam down from the air, belly first."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水扑上来，我浮不起来。", "en": "Water hits and I cannot rise."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸风把我掀翻，我滚了两圈。", "en": "The blast flips me and I tumble twice."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西扎进我的身子，我扭了一下。", "en": "Something lodges in me and I twist."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "术式捏住我，我的眼一阵发黑。", "en": "An art squeezes me and my eye goes black."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "太久没咬到东西，我发虚。", "en": "Too long without biting anything leaves me weak."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷穿过我的身体，我抖了一下。", "en": "Lightning passes through me and I spasm."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下头什么都没有，我一路坠下去。", "en": "Nothing below and I fall away."}
+      ]
+    }
+  }
+}

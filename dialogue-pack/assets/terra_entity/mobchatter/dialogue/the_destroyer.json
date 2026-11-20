@@ -1,0 +1,282 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的金属节段，比铁轨还长。", "en": "My metal segments run longer than rails."},
+        {"zh": "一节一节的身体拖在后面。", "en": "My segmented body trails behind."},
+        {"zh": "地面被我犁开一道沟。", "en": "The ground is ploughed into a trench."},
+        {"zh": "铁皮节环相互摩擦。", "en": "My iron plates grind against each other."},
+        {"zh": "我穿过整片平原。", "en": "I cross the whole plain."},
+        {"zh": "我要从地下穿过去。", "en": "I'll go through underneath."},
+        {"zh": "我压平了前面的树。", "en": "I flatten the trees ahead."},
+        {"zh": "每一节都在扭动。", "en": "Every segment twists."},
+        {"zh": "我翻身钻回土中。", "en": "I roll and dive back into the soil."},
+        {"zh": "泥土从缝隙里挤出来。", "en": "Dirt squeezes out of my seams."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我盘在地下，缓慢转动。", "en": "Coiled below, I turn slowly."},
+        {"zh": "我的节环一节节亮起。", "en": "My segments light one by one."},
+        {"zh": "铁壳里传来低鸣。", "en": "A low hum comes from within."},
+        {"zh": "这片地已经被我翻过。", "en": "I've already turned this ground over."},
+        {"zh": "我在找下一个目标。", "en": "Looking for the next target."},
+        {"zh": "我的核心还在转。", "en": "My core is still spinning."},
+        {"zh": "碎石嵌进了关节。", "en": "Debris is wedged in my joints."},
+        {"zh": "地底深处，我的节在动。", "en": "Deep underground, my segments move."},
+        {"zh": "远处有人在跑。", "en": "Someone is running far off."},
+        {"zh": "我又往深处钻了一点。", "en": "I sank a little deeper."},
+        {"zh": "我的头抬起来又低下。", "en": "My head lifts, then lowers."},
+        {"zh": "地表的震动是我。", "en": "The shaking ground is me."},
+        {"zh": "我在校准瞄准。", "en": "I'm calibrating my aim."},
+        {"zh": "这一片已经很安静了。", "en": "This area has gone quiet."},
+        {"zh": "我在蓄下一轮。", "en": "Charging the next round."},
+        {"zh": "我的外壳还是滚烫的。", "en": "My shell is still hot."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你站在我的地面上。", "en": "You're standing on my ground."},
+        {"zh": "我比你见过的都大。", "en": "I'm bigger than anything you've seen."},
+        {"zh": "位置已经锁定，别动。", "en": "Position locked. Hold still."},
+        {"zh": "你手上的东西挡不住我。", "en": "What's in your hand can't stop me."},
+        {"zh": "我抬起身，遮住月光。", "en": "I rear up and block the moonlight."},
+        {"zh": "我的节环在对着你转。", "en": "My segments are turning toward you."},
+        {"zh": "你脚下的地会先动。", "en": "The ground under you moves first."},
+        {"zh": "你跑不出一整片平原。", "en": "You can't outrun a whole plain."},
+        {"zh": "我会一直往上钻。", "en": "I'll keep coming up."},
+        {"zh": "你听见那个低鸣了吗。", "en": "Do you hear that hum?"},
+        {"zh": "这具身体有几十节。", "en": "This body has dozens of segments."},
+        {"zh": "你以为砍断一节就够了？", "en": "Think cutting one segment is enough?"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一节被打凹了。", "en": "One segment got dented."},
+        {"zh": "我的低鸣声变了。", "en": "My hum has changed pitch."},
+        {"zh": "我往地下缩了一节。", "en": "I drew one segment under."},
+        {"zh": "铁壳裂了一道。", "en": "A crack in my iron shell."},
+        {"zh": "这具身体还能转动。", "en": "This body can still turn."},
+        {"zh": "我被打得偏了一点。", "en": "That knocked me slightly off."},
+        {"zh": "我的核心还在跳。", "en": "My core is still pulsing."},
+        {"zh": "这一下打得有点深。", "en": "That one went in deep."},
+        {"zh": "我又钻回土里。", "en": "I'm back under the soil."},
+        {"zh": "断掉一节，我还能动。", "en": "Lose a segment, and I still move."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "金属和石头才是我的食。", "en": "Metal and stone are my food."},
+        {"zh": "这些东西不属于我。", "en": "Such things aren't for me."},
+        {"zh": "我只吃土和岩石。", "en": "I eat only soil and rock."},
+        {"zh": "拿开，我要去找目标。", "en": "Move it. I've a target to find."},
+        {"zh": "你给我这个做什么。", "en": "Why are you giving me this?"},
+        {"zh": "机械不需要进食。", "en": "Machines don't feed."},
+        {"zh": "我吞矿石，不吞你的肉。", "en": "I swallow ore, not your flesh."},
+        {"zh": "别挡在我和地面之间。", "en": "Don't stand between me and the ground."},
+        {"zh": "你想用食物换命吗。", "en": "Trading food for your life?"},
+        {"zh": "食物对铁壳无用。", "en": "Food is useless to iron."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞在我的节环上。", "en": "You hit one of my segments."},
+        {"zh": "你的骨头会先断。", "en": "Your bones will break first."},
+        {"zh": "我碾过灌木和石头。", "en": "I crush brush and stone alike."},
+        {"zh": "地面已经被我翻起。", "en": "I've already torn up the ground."},
+        {"zh": "我这一节身躯撞开土墙。", "en": "One segment of my body smashes the dirt wall."},
+        {"zh": "我的一节还在你脚下。", "en": "One of my segments is still under you."},
+        {"zh": "你踩到了我的铁壳。", "en": "You stepped on my iron shell."},
+        {"zh": "你顶在我身上，像顶山。", "en": "You push against me as if against a mountain."},
+        {"zh": "震动从脚底传上来。", "en": "The shaking comes up through your feet."},
+        {"zh": "退开，我又要钻下去了。", "en": "Clear out. I'm diving again."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我是造出来的兵器。", "en": "I was built as a weapon."},
+        {"zh": "这具身体没有那种用处。", "en": "This body has no such use."},
+        {"zh": "我只会钻和打。", "en": "I only bore and strike."},
+        {"zh": "这些事，跟我无关。", "en": "That has nothing to do with me."},
+        {"zh": "我连同伴都不需要。", "en": "I don't even need allies."},
+        {"zh": "别站在这里说废话。", "en": "Don't stand there talking nonsense."},
+        {"zh": "我被造成只有一种目的。", "en": "I was made for exactly one purpose."},
+        {"zh": "那种东西，我可没有。", "en": "I don't have anything like that."},
+        {"zh": "你想问别的就问。", "en": "Ask something else."},
+        {"zh": "我转过头，继续转。", "en": "My head turns away and keeps turning."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我这一节身子，压碎它。", "en": "One segment of me crushes it."},
+        {"zh": "我不用手拿东西。", "en": "I don't pick things up."},
+        {"zh": "它掉进了我的节缝。", "en": "It fell into a seam."},
+        {"zh": "这个对铁壳没用。", "en": "That does nothing to iron."},
+        {"zh": "我一下把它撞开。", "en": "I knock it aside at once."},
+        {"zh": "金属小块，我认得。", "en": "A scrap of metal. I know it."},
+        {"zh": "它在我身下压扁了。", "en": "It flattened underneath me."},
+        {"zh": "这么小的东西，不值得捡。", "en": "Something this small isn't worth picking up."},
+        {"zh": "我把它卷进去。", "en": "I roll it up inside."},
+        {"zh": "留着这个东西没用。", "en": "Keeping this thing serves nothing."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "震动传到了我这里。", "en": "The tremor reached me."},
+        {"zh": "我锁定了地面的脚步。", "en": "I've fixed on the footsteps above."},
+        {"zh": "你的重量很清楚。", "en": "Your weight is very clear."},
+        {"zh": "我要从下面过去。", "en": "I'll go underneath."},
+        {"zh": "这一整片都是我的。", "en": "This whole stretch is mine."},
+        {"zh": "节环一节节转向你。", "en": "My segments turn toward you one by one."},
+        {"zh": "我的核心开始发热。", "en": "My core is heating."},
+        {"zh": "你站在正中间。", "en": "You're standing dead center."},
+        {"zh": "你退十步也没有用。", "en": "Ten steps back won't help."},
+        {"zh": "我从地底穿过去。", "en": "I'm coming through the ground."},
+        {"zh": "你的影子在我背上的土里。", "en": "Your shadow is in the dirt on my back."},
+        {"zh": "我开始锁定了。", "en": "I'm locking on now."},
+        {"zh": "你听见土在裂开吗。", "en": "Do you hear the soil cracking?"},
+        {"zh": "这一发从这里出去。", "en": "This shot leaves from here."},
+        {"zh": "我不用看见你。", "en": "I don't need to see you."},
+        {"zh": "地面的裂纹会告诉你。", "en": "The cracks will tell you."},
+        {"zh": "我现在就上来。", "en": "I'm coming up now."},
+        {"zh": "你的位置没有掩护。", "en": "Your position has no cover."},
+        {"zh": "我把整块地掀起来。", "en": "I'll lift the whole patch of ground."},
+        {"zh": "这会是第一次。", "en": "This will be the first hit."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的节环还在转。", "en": "My segments keep turning."},
+        {"zh": "你往哪边我都跟得上。", "en": "Wherever you go, I keep up."},
+        {"zh": "我从下面追你。", "en": "I chase you from below."},
+        {"zh": "地表的隆起是我。", "en": "That ridge on the surface is me."},
+        {"zh": "第一发射偏了。", "en": "The first shot went wide."},
+        {"zh": "我在校下一发。", "en": "I'm correcting the next shot."},
+        {"zh": "你跳上了石头。", "en": "You jumped onto the rock."},
+        {"zh": "你逃不出整片平原去。", "en": "You can't escape this whole plain."},
+        {"zh": "我的身体把这片围住了。", "en": "My body surrounds this area."},
+        {"zh": "你还剩几步的空间。", "en": "You have a few steps of room left."},
+        {"zh": "低鸣声越来越响。", "en": "The hum is getting louder."},
+        {"zh": "两万三千点生命，全在地下。", "en": "Twenty-three thousand health, all underground."},
+        {"zh": "你的脚下开始裂了。", "en": "The ground under you is cracking."},
+        {"zh": "我往上抬了一节。", "en": "One of my segments rose."},
+        {"zh": "你数不清我有多长。", "en": "You can't count how long I am."},
+        {"zh": "我想看你还剩多少力气。", "en": "Let's see how much you have left."},
+        {"zh": "那个方向我堵住了。", "en": "I've blocked that direction."},
+        {"zh": "你手里的光很亮。", "en": "That light in your hand is bright."},
+        {"zh": "我的节肢一节节转向你。", "en": "My segments turn toward you one by one."},
+        {"zh": "我的头节张开，对准你。", "en": "My head segment opens and aims at you."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一节撞过去。", "en": "A segment slams into you."},
+        {"zh": "铁皮划过你的护甲。", "en": "Iron plate shears across your armor."},
+        {"zh": "我从下面顶起来。", "en": "I surge up from below."},
+        {"zh": "你被震退了两步。", "en": "The shock knocked you back two steps."},
+        {"zh": "核心的光扫过去。", "en": "My core's light sweeps across."},
+        {"zh": "你挡不住整条身体。", "en": "You can't block an entire body."},
+        {"zh": "这一下压碎了石头。", "en": "That crushed the stone."},
+        {"zh": "你刚躲过一节。", "en": "You dodged one segment."},
+        {"zh": "土和铁一起压下来。", "en": "Soil and iron press down together."},
+        {"zh": "我打中了侧腰。", "en": "That caught your side."},
+        {"zh": "我甩头，把你抛向半空。", "en": "I whip my head and throw you into the air."},
+        {"zh": "我马上又钻回去。", "en": "I dive back down at once."},
+        {"zh": "我的钻头碾过你的护甲。", "en": "My drill grinds through your armor."},
+        {"zh": "我的节环还在你脚边。", "en": "My segment is still at your feet."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从地底升起。", "en": "I rise from beneath the ground."},
+        {"zh": "整片地先开始震。", "en": "The whole ground shakes first."},
+        {"zh": "我的头先破土。", "en": "My head breaks the surface first."},
+        {"zh": "铁壳上挂满泥土。", "en": "Iron shell caked with earth."},
+        {"zh": "我的节环一节节冒上来。", "en": "My segments surface one by one."},
+        {"zh": "低鸣声压过了风。", "en": "The hum drowns out the wind."},
+        {"zh": "我抬起巨大的头部。", "en": "I raise my immense head."},
+        {"zh": "这片平原归我了。", "en": "This plain is mine."},
+        {"zh": "我的核心亮了。", "en": "My core has lit."},
+        {"zh": "周围没有别的活物。", "en": "Nothing else living is around."},
+        {"zh": "我开始转动身体。", "en": "I begin to turn my body."},
+        {"zh": "我把整块地翻了个身。", "en": "I've turned the whole patch over."},
+        {"zh": "地表传来细小的震动。", "en": "A small tremor comes from above."},
+        {"zh": "我的节数还在增加。", "en": "My segments are still increasing."},
+        {"zh": "我盘成了一圈。", "en": "I've coiled into a ring."},
+        {"zh": "我从地底钻出，土在塌。", "en": "I burst from the ground as soil caves in."},
+        {"zh": "这一带的地面在陷。", "en": "The ground here is sinking."},
+        {"zh": "我慢慢对准了方向。", "en": "I slowly take aim."},
+        {"zh": "泥土从我的缝隙落下。", "en": "Dirt falls from my seams."},
+        {"zh": "我的第一个目标是活的。", "en": "My first target is alive."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧红了我的铁皮。", "en": "Fire has reddened my iron."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我重重砸进自己挖的坑。", "en": "I crashed into the pit I dug."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水进了节缝，我转得慢了。", "en": "Water in my seams. I turn slower."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我的节环炸开。", "en": "The blast split my segment."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一枚东西嵌进我的关节。", "en": "Something lodged in my joint."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咒力让我的核心乱跳。", "en": "The spell jumbles my core."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不吃不喝，但也会耗尽。", "en": "I don't eat, but I can run down."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷顺着铁壳跑遍全身。", "en": "Lightning runs through the iron."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下面连土都没有。", "en": "There isn't even soil below."}
+      ]
+    }
+  }
+}

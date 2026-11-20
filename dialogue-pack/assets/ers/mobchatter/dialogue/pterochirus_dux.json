@@ -1,0 +1,267 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "六肢间绷着薄翼", "en": "Thin membranes stretch between my six limbs."},
+        {"zh": "我从这棵树滑到那棵树", "en": "I glide from this tree to that one."},
+        {"zh": "爪子先抓，翼才收", "en": "Claws grip first. The wings fold after."},
+        {"zh": "落地时六肢一沉", "en": "Six limbs dip on landing."},
+        {"zh": "翅膀上的纹路像叶脉", "en": "My wing patterns look like leaf veins."},
+        {"zh": "我在枝间横着挪", "en": "I shuffle sideways between branches."},
+        {"zh": "尾巴当舵，左右摆", "en": "My tail steers, left and right."},
+        {"zh": "翼尖擦过树叶", "en": "My wingtips brush the leaves."},
+        {"zh": "我沿着树冠层移动", "en": "I travel along the canopy layer."},
+        {"zh": "脚下的枝细得发抖", "en": "The branch under me trembles."},
+        {"zh": "我压低身体，减少阻力", "en": "I flatten to cut the drag."},
+        {"zh": "风一来，我就借力", "en": "When the wind comes, I borrow it."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "挂在枝上，翼收在身侧", "en": "Hanging from a branch, wings folded."},
+        {"zh": "六肢里两只抓着树皮", "en": "Two of my six limbs grip the bark."},
+        {"zh": "头在下，脚在上", "en": "Head down, feet up."},
+        {"zh": "翼膜轻轻颤着", "en": "My wing membrane quivers."},
+        {"zh": "我把头慢慢转过去", "en": "I turn my head slowly."},
+        {"zh": "阳光透过翼膜", "en": "Sunlight shows through my wings."},
+        {"zh": "有果子在近处", "en": "Fruit within reach."},
+        {"zh": "我没去够，先看看", "en": "I don't reach. First I look."},
+        {"zh": "尾巴绕住细枝", "en": "My tail loops around a twig."},
+        {"zh": "树冠里有别的动静", "en": "Something moves in the canopy."},
+        {"zh": "我把翼抖了抖", "en": "I shake my wings out."},
+        {"zh": "身体随着枝轻轻摆", "en": "My body sways with the branch."},
+        {"zh": "这一层的光很散", "en": "The light up here is scattered."},
+        {"zh": "我在枝上等着风停", "en": "I wait for the wind to settle."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从枝上低头看你", "en": "I look down at you from the branch."},
+        {"zh": "你在树下很远", "en": "You're far below."},
+        {"zh": "翼张开了一点", "en": "My wings open a little."},
+        {"zh": "我的头偏向一侧", "en": "My head tilts to one side."},
+        {"zh": "你抬头的速度，跟不上我。", "en": "Your head lifts slower than I move."},
+        {"zh": "我一跳你就跟丢", "en": "One hop and you'll lose me."},
+        {"zh": "我抓着枝，没打算下来", "en": "I keep my grip. I'm not coming down."},
+        {"zh": "你的影子落在树干上", "en": "Your shadow falls on the trunk."},
+        {"zh": "我看了你一会儿", "en": "I watch you a while."},
+        {"zh": "然后转头看别的", "en": "Then turn to look elsewhere."},
+        {"zh": "然后我再次回头", "en": "Then I look back again."},
+        {"zh": "你居然还在那里", "en": "You're still there."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的翼膜又撕开一指宽。", "en": "Another finger's width torn from my membrane."},
+        {"zh": "翼膜破了一小道", "en": "A small tear in my wing membrane."},
+        {"zh": "六肢里有两只发软", "en": "Two of my six limbs go slack."},
+        {"zh": "我换了一只爪抓住", "en": "I switch to another claw."},
+        {"zh": "身体晃了两下", "en": "My body sways twice."},
+        {"zh": "这一下打在翼根", "en": "That hit the base of my wing."},
+        {"zh": "我把翼收紧了", "en": "I fold my wings tight."},
+        {"zh": "有血滴到下面的叶上", "en": "Blood drips onto leaves below."},
+        {"zh": "我记住你停在哪", "en": "I remember where you stand."},
+        {"zh": "我在枝上等风来", "en": "I wait on the branch for wind."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那果子的颜色不错", "en": "That fruit has a good color."},
+        {"zh": "我伸长脖子看", "en": "I stretch my neck to look."},
+        {"zh": "我从枝上探出半个身", "en": "I lean half my body off the branch."},
+        {"zh": "翼展开了，还没跳", "en": "Wings open. I haven't jumped."},
+        {"zh": "太远了，风又不对", "en": "Too far, and the wind's wrong."},
+        {"zh": "我算了一下落点", "en": "I calculate where I'd land."},
+        {"zh": "算出来的结果不太好", "en": "The answer isn't good."},
+        {"zh": "于是我又缩回去了", "en": "So I pull back."},
+        {"zh": "树上的果子更近", "en": "What's on the tree is closer."},
+        {"zh": "六肢的翅膀，扇起来很稳。", "en": "Six-limbed wings beat steady."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被撞得晃了一下，翅膀还撑着。", "en": "I wobbled from the hit, wings still spread."},
+        {"zh": "爪子抓得更深", "en": "My claws dig deeper."},
+        {"zh": "翼一下张开了", "en": "My wings snap open."},
+        {"zh": "树皮被我抓出痕", "en": "My claws score the bark."},
+        {"zh": "你撞的是树干", "en": "You hit the trunk."},
+        {"zh": "我在你头顶上", "en": "I'm above your head."},
+        {"zh": "别摇动这棵树", "en": "Don't shake this tree."},
+        {"zh": "我往另一根枝跳过去", "en": "I hop to another branch."},
+        {"zh": "叶子落了几片", "en": "A few leaves fall."},
+        {"zh": "这下终于安静了", "en": "Quiet again."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "两只在枝上挨着", "en": "Two of us, side by side on a branch."},
+        {"zh": "翼膜碰了一下", "en": "Our wing membranes touch."},
+        {"zh": "我们轮流展翼", "en": "We take turns spreading our wings."},
+        {"zh": "她先跳，我跟上", "en": "She jumps first. I follow."},
+        {"zh": "两片影子在树间滑", "en": "Two shadows glide through the trees."},
+        {"zh": "落点总是同一根枝", "en": "We always land on the same branch."},
+        {"zh": "六肢间那张薄翼，撑得很紧。", "en": "The thin membrane between my six limbs pulls taut."},
+        {"zh": "六肢交叠着抓", "en": "Our limbs overlap on the bark."},
+        {"zh": "树冠就是我们的地", "en": "The canopy is our ground."},
+        {"zh": "高处没人打扰", "en": "Up high, no one bothers us."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用后肢夹住它", "en": "A hind limb pins it."},
+        {"zh": "头一低，咬进嘴里", "en": "Head down, into my mouth."},
+        {"zh": "汁水顺着手腕流", "en": "Juice runs down my wrist."},
+        {"zh": "太硬，咬不动", "en": "Too hard to bite."},
+        {"zh": "我扔下去，看看落哪", "en": "I drop it to see where it lands."},
+        {"zh": "接着又抓回来", "en": "Then I catch it again."},
+        {"zh": "挂着吃不方便", "en": "Hard to eat while hanging."},
+        {"zh": "我调整了抓握", "en": "I adjust my hold."},
+        {"zh": "现在这样就顺了", "en": "Now it works."},
+        {"zh": "吃完擦擦爪子", "en": "Done. I wipe my claws."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在下面停下来了", "en": "You've stopped below."},
+        {"zh": "那可是正好极了", "en": "That's just perfect."},
+        {"zh": "我把翼张开到最大", "en": "I spread my wings fully."},
+        {"zh": "六条肢一起蹬枝", "en": "Six limbs push off the branch."},
+        {"zh": "我从树冠滑下来", "en": "I glide down out of the canopy."},
+        {"zh": "一点声音都没有", "en": "Without a sound."},
+        {"zh": "只有翼膜兜风的声音", "en": "Only the wind in my membranes."},
+        {"zh": "你在看别的方向", "en": "You're looking the other way."},
+        {"zh": "落点在你身后", "en": "My landing point is behind you."},
+        {"zh": "你听见的时候已经晚了", "en": "By the time you hear it, it's too late."},
+        {"zh": "我是从上面下来的", "en": "I come from above."},
+        {"zh": "角度和时机都对了", "en": "Both angle and timing are right."},
+        {"zh": "枝晃了，我借这个力", "en": "The branch dips, and I use it."},
+        {"zh": "我来得比你想的快", "en": "I'm faster than you thought."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翼不动，我借着风绕你半圈。", "en": "Wings still, I ride the wind half around you."},
+        {"zh": "翼不动，只靠风", "en": "Wings still. Only the wind."},
+        {"zh": "你正抬头找着", "en": "You're searching above."},
+        {"zh": "我不在那儿了", "en": "I'm not there anymore."},
+        {"zh": "树冠这一层太密", "en": "The canopy is too dense."},
+        {"zh": "你根本看不清", "en": "You can't see clearly."},
+        {"zh": "我换到另一侧", "en": "I shift to the other side."},
+        {"zh": "爪子在枝上收着", "en": "My claws stay sheathed on the branch."},
+        {"zh": "你只要转身，我就落下。", "en": "Turn once, and I drop."},
+        {"zh": "就赶准那一下", "en": "Right at that instant."},
+        {"zh": "风帮了我一次", "en": "The wind helped me once."},
+        {"zh": "风再帮我一次", "en": "Let the wind help once more."},
+        {"zh": "我压低，贴着枝", "en": "I press flat against the branch."},
+        {"zh": "我松开爪子起跳", "en": "Claws release and I launch."},
+        {"zh": "然后我从上面落下来", "en": "Then I drop down."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "六爪同时抓下", "en": "All six claws rake down."},
+        {"zh": "翼扫过你的脸", "en": "My wings sweep across your face."},
+        {"zh": "我从上方扑落", "en": "I drop onto you from above."},
+        {"zh": "爪子扣住你的肩", "en": "My claws hook your shoulder."},
+        {"zh": "这一下借了风", "en": "I used the wind for that."},
+        {"zh": "你甩了一下，我松了", "en": "You fling me off and I let go."},
+        {"zh": "我落到地上，走不利索", "en": "I land on the ground, clumsy."},
+        {"zh": "地上我不如你", "en": "On the ground I'm outmatched."},
+        {"zh": "所以我马上起飞", "en": "So I take off at once."},
+        {"zh": "翅膀拍了两下", "en": "Two beats of my wings."},
+        {"zh": "我又回到枝上", "en": "And I'm back in the branches."},
+        {"zh": "后爪蹬在你背上", "en": "My hind claws kick off your back."},
+        {"zh": "翼一合，我换了个角度", "en": "Wings closed, I switch angle."},
+        {"zh": "爪尖在你袖口留了洞", "en": "My claws leave holes in your sleeve."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "树冠里掠过一道影", "en": "A shape darts through the canopy."},
+        {"zh": "落的枝轻晃了一下", "en": "The branch bends slightly under me."},
+        {"zh": "六条肢都抓稳了", "en": "Six limbs grip firm."},
+        {"zh": "我的翼慢慢展开", "en": "My wings unfold slowly."},
+        {"zh": "这里的树很高", "en": "The trees here are tall."},
+        {"zh": "我上下看了看", "en": "I look up and down."},
+        {"zh": "六足的翼，在风里张得很开。", "en": "Six-limbed wings spread wide in the wind."},
+        {"zh": "这个我记下了", "en": "Noted."},
+        {"zh": "远处有果树的颜色", "en": "Fruit trees show color in the distance."},
+        {"zh": "我先往那边滑", "en": "I'll glide that way first."},
+        {"zh": "我慢慢松开爪子", "en": "I ease my claws open."},
+        {"zh": "我开始起飞了", "en": "I lift off."},
+        {"zh": "树叶被我碰掉了两片", "en": "Two leaves fall where I touched."},
+        {"zh": "我顺着树干往上爬了一段", "en": "I scramble a way up the trunk."},
+        {"zh": "枝上视野很好", "en": "Good view from this branch."},
+        {"zh": "我抖开翼膜上的水汽", "en": "I shake the damp off my membranes."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翼膜一烧就卷起来", "en": "Fire curls my membrane up."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "落地没站住，翻了个身", "en": "I land badly and roll over."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "湿了的翼飞不起来", "en": "Wet wings can't lift me."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆风把我从枝上掀掉", "en": "The blast knocks me off the branch."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "东西穿过翼膜", "en": "Something punches through my membrane."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这股劲让我抓不住", "en": "This force makes my grip fail."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得翅膀都抬不动", "en": "Too hungry to lift my wings."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击让我在空中一僵", "en": "Lightning locks me mid-air."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下面没有树，也没有地", "en": "No trees below. No ground."}
+      ]
+    }
+  }
+}

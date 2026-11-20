@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出低沉的咕噜声，步履蹒跚前行。", "en": "Grunts softly, shuffling forward."},
+        {"zh": "发出嘶嘶声，艰难地迈着沉重的步伐。", "en": "Hisses, laboriously taking steps."},
+        {"zh": "饥饿的低吼声中，慢慢踱步。", "en": "Growls hungrily, shuffling slowly."},
+        {"zh": "蹒跚前行，发出轻微的呼吸声。", "en": "Shuffles forward, breathing lightly."},
+        {"zh": "嘶嘶地叫着，继续缓慢前行。", "en": "Hisses, continuing to move slowly."},
+        {"zh": "发出嘶嘶声，步伐缓慢而沉重。", "en": "Hissing, taking slow, heavy steps."},
+        {"zh": "低吼着，继续缓慢踱步。", "en": "Growls, shuffling slowly."},
+        {"zh": "嘶嘶声中，艰难地向前挪动。", "en": "Hissing, laboriously moving forward."},
+        {"zh": "咕噜着，一步步艰难前行。", "en": "Grunting, taking steps forward."},
+        {"zh": "发出嘶嘶声，慢慢移动。", "en": "Hissing, moving slowly."},
+        {"zh": "抱着一把卷刃的刀走。", "en": "I walk with a blunted blade in my arms."},
+        {"zh": "绕过瓦砾，脚步放轻。", "en": "I skirt the rubble on quiet feet."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盯着玩家，眼中闪烁着贪婪的光芒。", "en": "Staring at the player, eyes gleaming with greed."},
+        {"zh": "四处张望，寻找食物。", "en": "Scanning the area for food."},
+        {"zh": "低头咀嚼着一块人类尸体。", "en": "Chewing on a human corpse."},
+        {"zh": "用空洞的眼神盯着远处。", "en": "Staring off into the distance with hollow eyes."},
+        {"zh": "咀嚼着人类遗骸，发出轻微的声音。", "en": "Chewing on human remains, making soft sounds."},
+        {"zh": "低头吃着散落的食物。", "en": "Eating scraps on the ground."},
+        {"zh": "我在数你背包里的罐头。", "en": "I am counting the cans in your pack."},
+        {"zh": "在原地徘徊，等待行动。", "en": "Pacing in place, waiting to act."},
+        {"zh": "低头咀嚼着什么，发出轻微的声音。", "en": "Chewing softly, head lowered."},
+        {"zh": "用空洞的眼神盯着玩家。", "en": "Staring at the player with hollow eyes."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "突然转向玩家，露出尖牙。", "en": "Suddenly turns to the player, showing sharp teeth."},
+        {"zh": "我舔了舔干裂的嘴唇。", "en": "I lick my cracked lips."},
+        {"zh": "转向玩家，发出低吼声。", "en": "Turns to the player, growling."},
+        {"zh": "注意到了玩家，嘶嘶地叫着。", "en": "Notices the player, hissing."},
+        {"zh": "发出嘶嘶声，盯着玩家。", "en": "Hisses, staring at the player."},
+        {"zh": "盯着玩家，露出尖利的牙齿。", "en": "Stares at the player, showing sharp teeth."},
+        {"zh": "转向玩家，发出嘶嘶警告声。", "en": "Turns to the player, hissing a warning."},
+        {"zh": "注意到玩家，发出嘶嘶声。", "en": "Notices the player, hissing."},
+        {"zh": "盯着玩家，发出嘶嘶威胁声。", "en": "Stares at the player, hissing a threat."},
+        {"zh": "盯着玩家，发出低沉的嘶嘶声。", "en": "Stares at the player, hissing softly."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的皮肤裂开了……", "en": "My skin is cracking..."},
+        {"zh": "我的手套磨破了，指头在流血。", "en": "My glove is worn through and my fingers bleed."},
+        {"zh": "我靠在墙角，喘得像风箱。", "en": "I lean in the corner and wheeze like a bellows."},
+        {"zh": "我走不动了……", "en": "I can't walk..."},
+        {"zh": "我需要休息……", "en": "I need to rest..."},
+        {"zh": "我受冻了……", "en": "I'm freezing..."},
+        {"zh": "我中弹了，谁还有绷带？", "en": "I am hit, who still has bandages?"},
+        {"zh": "帮我……", "en": "Help me..."},
+        {"zh": "绷带全用完了，只剩这口气。", "en": "All my bandages are gone. Only breath remains."},
+        {"zh": "伤口在流血，帮我压住！", "en": "I'm bleeding, press down here!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你会愿意帮助我吗？", "en": "Will you help me?"},
+        {"zh": "这里食物很少，你能帮我吗？", "en": "There's little food here. Can you help me?"},
+        {"zh": "我的家就在那边，可以一起走吗？", "en": "My home is over there. Can we go together?"},
+        {"zh": "这些药草可以治愈你的伤口。", "en": "These herbs can heal your wounds."},
+        {"zh": "给我点吃的，我好恢复力量。", "en": "Feed me, so I can regain my strength."},
+        {"zh": "别怕，我不会攻击你的。", "en": "Don't be afraid, I won't attack you."},
+        {"zh": "我们一起对抗敌人吧。", "en": "Let's fight the enemies together."},
+        {"zh": "我需要你的剑来战斗。", "en": "I need your sword to fight."},
+        {"zh": "你可以教我怎样攻击吗？", "en": "Can you teach me how to attack?"},
+        {"zh": "我可以教你我的生存技巧。", "en": "I can teach you my survival skills."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我退了半步，手按在刀上。", "en": "I step back half a pace, my hand on the knife."},
+        {"zh": "你为什么攻击我？", "en": "Why are you attacking me?"},
+        {"zh": "我只想和平共处。", "en": "I just want to coexist."},
+        {"zh": "别靠过来，我手里只有钝刀。", "en": "Stay back — all I have is a dull knife."},
+        {"zh": "我们不是敌人。", "en": "We're not enemies."},
+        {"zh": "你先别动，我不会攻击你的。", "en": "Don't move, I won't attack you."},
+        {"zh": "让我先检查一下你的情况。", "en": "Let me check on you first."},
+        {"zh": "你碰到了我，现在必须攻击你。", "en": "You touched me, now you must attack."},
+        {"zh": "你动了，我只能攻击你。", "en": "You moved, I have to attack you."},
+        {"zh": "我需要你帮我，别攻击我。", "en": "I need your help, don't attack me."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我想要一个同伴。", "en": "I want a companion."},
+        {"zh": "跟我一起吧，我会保护你。", "en": "Come with me, I'll protect you."},
+        {"zh": "让我们一起生存下去。", "en": "Let's survive together."},
+        {"zh": "我能保护你。", "en": "I can protect you."},
+        {"zh": "守夜时有人换班，就够了。", "en": "Someone to share the night watch is enough."},
+        {"zh": "这世道，两个人总比一个人强。", "en": "In this world, two beats one."},
+        {"zh": "一起面对困难吧。", "en": "Face the difficulties together."},
+        {"zh": "两个人守夜，比一个强。", "en": "Two on watch beat one."},
+        {"zh": "我需要一个朋友。", "en": "I need a friend."},
+        {"zh": "你看起来不错，想试试吗？", "en": "You look good, want to try?"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "捡起食物时发出微弱的嘶嘶声", "en": "Whisper faintly when picking up food"},
+        {"zh": "啃食腐烂的人类残骸", "en": "Chew on decayed human remains"},
+        {"zh": "吃腐肉的声音", "en": "Sound of eating carrion"},
+        {"zh": "听到脚步声时转动脑袋", "en": "Turn head upon hearing footsteps"},
+        {"zh": "咀嚼骨头发出咔嚓声", "en": "Crunching sound on bones"},
+        {"zh": "舔舐伤口以恢复生命值", "en": "Lick wounds to heal"},
+        {"zh": "啃食腐烂的手套", "en": "Eat decayed gloves"},
+        {"zh": "咀嚼骨头补充力量", "en": "Chew bones to regain strength"},
+        {"zh": "啃食木头发出嘎吱声", "en": "Creaking sound when eating wood"},
+        {"zh": "啃食腐烂的衣物", "en": "Eat decayed clothing"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶声后锁定目标", "en": "Whisper then lock target"},
+        {"zh": "凝视目标并慢慢接近", "en": "Stare at target then approach"},
+        {"zh": "我攥紧空罐头，盯住你。", "en": "I grip an empty can and fix on you."},
+        {"zh": "观察并寻找猎物", "en": "Scan for prey"},
+        {"zh": "嘶嘶声中确认目标", "en": "Confirm target with whisper"},
+        {"zh": "目光锁住目标", "en": "Lock eyes on target"},
+        {"zh": "盯着目标缓缓靠近", "en": "Approach target slowly"},
+        {"zh": "嘶嘶声后瞄准目标", "en": "Whisper then aim at target"},
+        {"zh": "锁定目标并等待", "en": "Lock target and wait"},
+        {"zh": "观察并锁定目标", "en": "Scan and lock target"},
+        {"zh": "废墟那边有人影。", "en": "A shape moves among the ruins."},
+        {"zh": "我按住刀柄，蹲下身。", "en": "I grip my hilt and crouch."},
+        {"zh": "听，是脚步还是拖地声？", "en": "Listen: footsteps or dragging?"},
+        {"zh": "那道影子晃得不正常。", "en": "That shadow sways wrong."},
+        {"zh": "我数着它靠近的节奏。", "en": "I count the rhythm of its approach."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶声警告同伴", "en": "Whisper to warn companions"},
+        {"zh": "嘶嘶声聚集同伴", "en": "Whisper to gather companions"},
+        {"zh": "发出嘶嘶声吸引注意", "en": "Whisper to draw attention"},
+        {"zh": "嘶嘶声后发起攻击", "en": "Whisper then attack"},
+        {"zh": "嘶嘶声引导攻击", "en": "Whisper to direct attack"},
+        {"zh": "嘶嘶声发出警报", "en": "Whisper to alert others"},
+        {"zh": "嘶嘶声中发起冲锋", "en": "Whisper then charge"},
+        {"zh": "嘶嘶声呼唤同伴", "en": "Whisper to summon companions"},
+        {"zh": "嘶嘶声集结战斗", "en": "Whisper to rally for battle"},
+        {"zh": "嘶嘶声中发起进攻", "en": "Whisper to launch attack"},
+        {"zh": "刀尖对着它的喉咙。", "en": "My blade points at its throat."},
+        {"zh": "我退到断墙后面。", "en": "I back behind the broken wall."},
+        {"zh": "呼吸放慢，等它走近。", "en": "Breathing slow, I wait for it to close."},
+        {"zh": "手在抖，我握得更紧。", "en": "My hands shake; I grip harder."},
+        {"zh": "一、二，等它转身。", "en": "One, two, wait for it to turn."},
+        {"zh": "我把刀举到肩高。", "en": "I raise the blade to shoulder height."},
+        {"zh": "它的脚步就在拐角。", "en": "Its steps are just past the corner."},
+        {"zh": "这一刻不能犹豫。", "en": "No hesitating now."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，我可不友善。", "en": "Hisss, I'm not friendly."},
+        {"zh": "尝尝我的毒牙吧。", "en": "Taste my venomous fangs."},
+        {"zh": "我把木棍举过头顶，砸下来。", "en": "I raise the wooden club overhead and bring it down."},
+        {"zh": "我手里的木棍不是摆设。", "en": "The stick in my hand isn't decoration."},
+        {"zh": "尝尝这尖牙。", "en": "Feel my sharp fangs."},
+        {"zh": "这条街尽头，只剩我一个。", "en": "At this street's end, only me."},
+        {"zh": "我一脚踹翻挡路的椅子。", "en": "I kick a chair out of my way."},
+        {"zh": "别逼我出手。", "en": "Don't逼me to attack."},
+        {"zh": "小心我的毒爪。", "en": "Beware my venomous claws."},
+        {"zh": "一刀捅进它的胸口！", "en": "I drive my blade into its chest!"},
+        {"zh": "我抡起木棍砸它脑袋！", "en": "I swing a club at its skull!"},
+        {"zh": "踹开它，别让它咬到！", "en": "Kick it off before it bites!"},
+        {"zh": "刀卡住了，我用肩撞！", "en": "Blade stuck, so I shoulder-check it!"},
+        {"zh": "我压住它的手臂！", "en": "I pin its arm down!"},
+        {"zh": "别咬我，滚开！", "en": "Don't bite me, get off!"},
+        {"zh": "我拖着伤腿也要砍！", "en": "Even on a bad leg, I swing!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "废墟里没剩什么，连罐头都空了。", "en": "Nothing left in the ruins, not even a can."},
+        {"zh": "这里适合。", "en": "Good spot."},
+        {"zh": "闻到你的气息了。", "en": "I smell you."},
+        {"zh": "我从空罐头堆里抬起头。", "en": "I lift my head out of the pile of empty cans."},
+        {"zh": "等待猎物上门。", "en": "Waiting for prey."},
+        {"zh": "这条街上我认得每个门洞。", "en": "I know every doorway on this street."},
+        {"zh": "食物匮乏。", "en": "Scarcity of food."},
+        {"zh": "总算找到个能住的地方。", "en": "Finally found somewhere I can stay."},
+        {"zh": "我还活着，还有一罐水。", "en": "I'm alive, and I still have water."},
+        {"zh": "我从倒塌的楼里爬出来。", "en": "I crawl out of a collapsed building."},
+        {"zh": "背包里只剩半瓶水。", "en": "Half a bottle of water is all I have left."},
+        {"zh": "我拍掉身上的灰。", "en": "I brush the ash off my clothes."},
+        {"zh": "远处的吼声提醒我该走了。", "en": "Distant howls tell me to move."},
+        {"zh": "这一夜我又活下来了。", "en": "I survived another night."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰灼烧我的皮肤……", "en": "The flames burn my skin..."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔在瓦砾上，护住了头。", "en": "I land in the rubble and shield my head."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水淹没了我的身体……", "en": "The water drowned me..."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸撕裂了我的身体……", "en": "The explosion tore me apart..."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢穿过了我的肉体……", "en": "The arrow pierced my flesh..."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法之力摧毁了我的身体……", "en": "Magic destroyed my body..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿侵蚀了我的肌体……", "en": "Hunger weakened my body..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击击穿了我的灵魂……", "en": "Lightning struck me..."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空吞噬了我的存在……", "en": "The void devoured me..."}
+      ]
+    }
+  }
+}

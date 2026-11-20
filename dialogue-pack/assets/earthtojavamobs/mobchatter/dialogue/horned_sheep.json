@@ -1,0 +1,260 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蹄子踩过草地，羊毛一颠一颠。", "en": "My hooves cross the grass and my fleece bobs."},
+        {"zh": "两只角很沉，我走路要低着头。", "en": "My horns are heavy, so I walk with my head low."},
+        {"zh": "我慢慢挪步，羊群跟着我。", "en": "I move slowly and the flock follows me."},
+        {"zh": "四蹄踏得很稳，不会踩空。", "en": "My hooves land sure and never miss."},
+        {"zh": "我沿着山坡横着走。", "en": "I traverse along the hillside."},
+        {"zh": "羊毛太长，挡得我有点看不清。", "en": "My fleece is so long it partly blinds me."},
+        {"zh": "我一边走一边甩头，赶苍蝇。", "en": "I walk and toss my head to shake off flies."},
+        {"zh": "步子沉，走到哪儿草就倒一片。", "en": "My heavy steps flatten a patch of grass."},
+        {"zh": "我领着队伍从篱笆边过去。", "en": "I lead the flock past the fence."},
+        {"zh": "拐弯时，我的角蹭到了树干。", "en": "Turning, my horn scrapes a trunk."},
+        {"zh": "我踩过浅溪，水没过蹄子。", "en": "I cross the shallows, water over my hooves."},
+        {"zh": "太阳偏了，我朝阴凉处走。", "en": "The sun has shifted, so I head for shade."},
+        {"zh": "我走几步就低头咬一口。", "en": "Every few steps I dip for a bite."},
+        {"zh": "同伴挨着我，羊毛蹭羊毛。", "en": "A flockmate presses close, fleece against fleece."},
+        {"zh": "我绕过那块石头，不踩上去。", "en": "I go around that stone instead of over it."},
+        {"zh": "尾巴一摆，我继续往前走。", "en": "One wag of my tail and I walk on."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着反刍，嘴巴慢慢磨。", "en": "I stand and ruminate, jaws grinding slowly."},
+        {"zh": "风吹开羊毛，露出底下的皮。", "en": "The wind parts my fleece and shows the hide beneath."},
+        {"zh": "我把头低着，角尖冲着前面。", "en": "My head hangs low with horn tips forward."},
+        {"zh": "我在打盹，眼睛只睁一条缝。", "en": "I doze with my eyes only a slit open."},
+        {"zh": "一只鸟落在我背上，我没动。", "en": "A bird lands on my back and I do not stir."},
+        {"zh": "我甩甩耳朵，赶走一只飞虫。", "en": "I flick my ears to drive off a fly."},
+        {"zh": "站得太久，我换了个蹄子着力。", "en": "Standing long, I shift to another hoof."},
+        {"zh": "草在脚边，我随时能低头。", "en": "Grass is at my feet and I can dip any time."},
+        {"zh": "我慢吞吞地嚼，嚼了很久。", "en": "I chew slowly and it takes a long while."},
+        {"zh": "远处有狗叫，我抬了下头。", "en": "A dog barks far off and I lift my head."},
+        {"zh": "角上的纹路被太阳晒得发亮。", "en": "Sunlight makes the ridges on my horns shine."},
+        {"zh": "我叹出一口气，声音很闷。", "en": "I let out a breath, low and muffled."},
+        {"zh": "羊毛里藏了些草籽。", "en": "There are grass seeds caught in my fleece."},
+        {"zh": "我一动不动，像块带角的石头。", "en": "I hold still and pass for a horned boulder."},
+        {"zh": "风停了，我才慢慢抬头。", "en": "When the wind dies I slowly raise my head."},
+        {"zh": "我把脸贴在同伴的背上。", "en": "I rest my face against a flockmate's back."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抬起头，角先对准你。", "en": "I lift my head and my horns point at you first."},
+        {"zh": "我透过羊毛的缝看你。", "en": "I look at you through a gap in my fleece."},
+        {"zh": "你手里没有草，我不太在意。", "en": "No grass in your hands; I am unimpressed."},
+        {"zh": "我嚼着东西，一边打量你。", "en": "I size you up while still chewing."},
+        {"zh": "你靠近，我把前蹄挪了挪。", "en": "As you near, I shift a forehoof."},
+        {"zh": "我侧头，让角避开你的方向。", "en": "I turn my head to angle my horns away."},
+        {"zh": "我扫你一眼，接着啃草。", "en": "I glance at you and go on grazing."},
+        {"zh": "你身上有股陌生的味道。", "en": "You carry an unfamiliar smell."},
+        {"zh": "我往前一步，角几乎碰到你。", "en": "I step forward until my horns nearly touch you."},
+        {"zh": "我们互相看着，谁都没动。", "en": "We look at each other and neither moves."},
+        {"zh": "我把头一低，是招呼，不是威胁。", "en": "I dip my head in greeting, not threat."},
+        {"zh": "风吹得我睁不开眼，我眯着看你。", "en": "The wind stings my eyes and I squint at you."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我惨叫一声，往旁边跳开。", "en": "I bleat sharply and jump aside."},
+        {"zh": "这一下打得我腿一软。", "en": "The blow buckles my legs."},
+        {"zh": "我退了半步，角低了低。", "en": "I give half a step and lower my horns."},
+        {"zh": "羊毛底下火辣辣地疼。", "en": "Under the fleece it burns with pain."},
+        {"zh": "我甩着头，想甩掉这阵痛。", "en": "I toss my head to shake off the pain."},
+        {"zh": "血把羊毛粘成一撮。", "en": "Blood mats a patch of my fleece."},
+        {"zh": "我喘着粗气，站得不太稳。", "en": "I pant hard and stand unsteadily."},
+        {"zh": "疼归疼，我还能顶。", "en": "It hurts, and I can still butt."},
+        {"zh": "同伴围过来，蹭了蹭我。", "en": "The flock crowds in and nuzzles me."},
+        {"zh": "这笔账我记在角根上。", "en": "I keep that account at the root of my horns."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你一扬那束草，我就过来了。", "en": "You lift that bundle and over I come."},
+        {"zh": "小麦的味道，我最喜欢。", "en": "The smell of wheat is my favorite."},
+        {"zh": "我低头凑到你手边。", "en": "I lower my head to your hand."},
+        {"zh": "我一口咬住，扯了半截走。", "en": "I bite down and drag half of it away."},
+        {"zh": "吃完我抬头，等你再给。", "en": "Finished, I look up for another."},
+        {"zh": "我嚼得嘴边都是草屑。", "en": "I chew until grass bits line my mouth."},
+        {"zh": "这一把比地上的嫩。", "en": "This handful is tenderer than what grows here."},
+        {"zh": "我挤开同伴，先到先得。", "en": "I shoulder past a flockmate; first come, first served."},
+        {"zh": "你拍拍我脖子，我不介意。", "en": "You pat my neck and I do not mind."},
+        {"zh": "我跟着你走了一步又一步。", "en": "I follow you step after step."},
+        {"zh": "羊毛蹭到你手上，痒吧？", "en": "My fleece brushes your hand; ticklish?"},
+        {"zh": "吃完了，我舔舔你的掌心。", "en": "Done, I lick your palm."},
+        {"zh": "我顶了顶你的手背，还要。", "en": "I butt your hand for more."},
+        {"zh": "我在你脚边站定，不打算走了。", "en": "I settle at your feet and mean to stay."},
+        {"zh": "角差点撞到你，我赶紧偏头。", "en": "My horn nearly catches you and I turn my head fast."},
+        {"zh": "你走动，我的头就跟着转。", "en": "When you walk, my head turns to follow."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被撞得横了一步，站稳了。", "en": "The bump shoves me a step sideways and I hold."},
+        {"zh": "你撞在羊毛上，像撞进一团云。", "en": "You hit my fleece like hitting a cloud."},
+        {"zh": "我低头看你，角离你很近。", "en": "I lower my head and my horns come close."},
+        {"zh": "让一让，我这身羊毛占地方。", "en": "Make way; this fleece takes up room."},
+        {"zh": "我被挤得歪了一下，蹄子打滑。", "en": "I lurch and a hoof slips."},
+        {"zh": "一撞，我嗓子里响了一声。", "en": "On impact a note sounds in my throat."},
+        {"zh": "我转过身，把角冲着你。", "en": "I turn and bring my horns to bear."},
+        {"zh": "你靠得太近，我退开半步。", "en": "You are too close, so I step back half."},
+        {"zh": "羊毛被扯了一下，我甩甩身子。", "en": "My fleece is tugged and I shake myself."},
+        {"zh": "我们挤在一处，谁也过不去。", "en": "We crowd one spot and neither can pass."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我们头顶着头，角碰角。", "en": "We press head to head, horn against horn."},
+        {"zh": "它替我蹭了蹭脖子。", "en": "It rubs against my neck."},
+        {"zh": "我的下巴压在它背上。", "en": "My chin presses down on its back."},
+        {"zh": "两副身子挤着一片草吃。", "en": "Two bodies crowd one patch of grass."},
+        {"zh": "它一掉队，我就吆一声。", "en": "When it drops back, I call out."},
+        {"zh": "两只羊挤在一起打盹。", "en": "Two sheep doze pressed together."},
+        {"zh": "我替它理了理脖子后面的毛。", "en": "I tidy the wool behind its neck."},
+        {"zh": "我们绕着圈走，步子很慢。", "en": "We walk in a slow circle."},
+        {"zh": "它的角比我的短一些。", "en": "Its horns are a little shorter than mine."},
+        {"zh": "它停下，我也停下，靠在一起。", "en": "It stops, I stop, and we lean together."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我咬住一绺草，慢慢磨。", "en": "I clamp a wisp of grass and grind it."},
+        {"zh": "嘴唇一卷，叶子就进嘴了。", "en": "One curl of the lip and the leaf is in."},
+        {"zh": "我卷起一把嫩叶，慢慢磨碎。", "en": "I roll up a mouthful of young leaves and grind them."},
+        {"zh": "我啃断了草根。", "en": "I gnaw the roots apart."},
+        {"zh": "草茎从嘴角垂着，我还在嚼。", "en": "A grass stem dangles from my mouth as I chew."},
+        {"zh": "我把它推到舌头后面。", "en": "I work it to the back of my tongue."},
+        {"zh": "有片花瓣，我也照吃。", "en": "A petal fell, and I eat that too."},
+        {"zh": "不新鲜的，我吐出来。", "en": "Not fresh, so I spit it out."},
+        {"zh": "我嚼得下巴都是沫。", "en": "I chew until my chin is frothy."},
+        {"zh": "吃完我又去找下一丛。", "en": "Done, I look for the next tuft."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西闯进草地，我抬起头。", "en": "Something enters the meadow and my head comes up."},
+        {"zh": "我锁定了那团影子。", "en": "I fix on that shape."},
+        {"zh": "我先低吼一声，声音不大。", "en": "I growl low, not loudly."},
+        {"zh": "小羊在那边，我得站到前面。", "en": "The lambs are there, so I stand in front."},
+        {"zh": "我把角压低，对准它。", "en": "I lower my horns and aim them."},
+        {"zh": "我把羊群挡在身后，角冲前。", "en": "I put the flock behind me and point my horns forward."},
+        {"zh": "我角的影子先落在它身上。", "en": "The shadow of my horns falls on it first."},
+        {"zh": "我前蹄刨了一下土。", "en": "I paw the soil with a forehoof."},
+        {"zh": "同伴们往后退，我却往前。", "en": "My flock backs away while I step forward."},
+        {"zh": "锁住它的那一刻，我不再吃草。", "en": "The moment I lock on, I stop grazing."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我跟着它挪步，角一直对着。", "en": "I move with it, horns always aimed."},
+        {"zh": "它绕，我慢慢转身。", "en": "It circles and I turn slowly."},
+        {"zh": "我挡在羊群和它之间。", "en": "I hold the line between it and the flock."},
+        {"zh": "我低下头，摆出冲撞的姿势。", "en": "I drop my head into a charging posture."},
+        {"zh": "它进一步，我就顶半步。", "en": "It steps in and I press half a step."},
+        {"zh": "我不出声，只用角说话。", "en": "I say nothing; my horns do the talking."},
+        {"zh": "它想从侧面绕，我先堵过去。", "en": "It tries the flank and I block first."},
+        {"zh": "我们隔着草地对峙。", "en": "We face off across the turf."},
+        {"zh": "我的蹄子踩实了才动。", "en": "I plant my hooves before I move."},
+        {"zh": "再近一点，我就要冲了。", "en": "A little closer and I will charge."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我侧头一挑，把它挑得离了地。", "en": "I swing my head and toss it off its feet."},
+        {"zh": "这一顶把它顶得倒退。", "en": "That butt drives it backward."},
+        {"zh": "我前蹄砸下去。", "en": "My forehooves slam down."},
+        {"zh": "角擦过它的侧身。", "en": "My horn rakes its flank."},
+        {"zh": "我把它挤开，护住身后。", "en": "I shoulder it away and shield what is behind me."},
+        {"zh": "撞完我晃了晃头。", "en": "After the hit I shake my head."},
+        {"zh": "第二下我撞得更实。", "en": "The second butt lands harder."},
+        {"zh": "角一挑，我把它掀得侧过身。", "en": "One hook of my horn tips it onto its side."},
+        {"zh": "羊毛里全是草屑和土。", "en": "My fleece is full of grass bits and dirt."},
+        {"zh": "打完我喘着，角还低着。", "en": "Done, I pant with my horns still low."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从坡上下来，羊毛里还沾着草。", "en": "I come down the slope with grass in my fleece."},
+        {"zh": "一群羊落在我身后，挤成一团。", "en": "A flock lands behind me in a huddle."},
+        {"zh": "这片草地不错，草很密。", "en": "Good meadow this, with thick grass."},
+        {"zh": "我落地的时候，角先磕在石头上。", "en": "As I land, my horns clack against the stone."},
+        {"zh": "风里有草香，也有别的味道。", "en": "The wind carries grass, and something else."},
+        {"zh": "我抬头看了看天，云很低。", "en": "I look up; the clouds hang low."},
+        {"zh": "我落地时蹄子陷进土里。", "en": "My hooves sink into the soil as I land."},
+        {"zh": "角上还挂着旧羊毛。", "en": "Old wool still clings to my horns."},
+        {"zh": "我绕着圈走，把羊群拢住。", "en": "I circle to gather the flock."},
+        {"zh": "这里没有围栏，我有点不安。", "en": "No fence here, and I am uneasy."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "羊毛烧起来，我满地打滚。", "en": "My fleece catches fire and I roll on the ground."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "落地时四蹄一软，我趴下了。", "en": "My legs give on landing and I go down."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水淹到鼻子，我拼命抬下巴。", "en": "Water reaches my nose and I strain my chin up."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸风掀动羊毛，我被推得直退。", "en": "The blast lifts my fleece and drives me back."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西扎进羊毛里，我甩不掉。", "en": "Something lodges in my fleece and I cannot shake it out."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一股凉意钻进皮下，我打了个抖。", "en": "Cold seeps under my hide and I shudder."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得太久，草在眼前我都嚼不动。", "en": "Too hungry, and I cannot even chew the grass before me."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷穿过羊毛，我整只都麻了。", "en": "Lightning runs through my fleece and numbs me."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蹄下空了，我一路坠落。", "en": "Nothing under my hooves and I fall away."}
+      ]
+    }
+  }
+}

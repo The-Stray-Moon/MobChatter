@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴着地面爬，身子很扁。", "en": "I crawl flat to the ground."},
+        {"zh": "我一步挪一点，像条影子。", "en": "I shift a little at a time, like a shadow."},
+        {"zh": "我从石缝里钻出来，个头不大。", "en": "I come out of a crack, none too big."},
+        {"zh": "我的壳上有倒刺，你别碰。", "en": "I have barbs on my shell. Don't touch."},
+        {"zh": "我绕到你脚后，动作很轻。", "en": "I circle behind your feet. Quietly."},
+        {"zh": "我贴着地砖一寸寸挪。", "en": "I creep along the tiles by inches."},
+        {"zh": "我在草丛下面走，草不动。", "en": "I move beneath the grass and it doesn't stir."},
+        {"zh": "我把身体压低，几乎贴地。", "en": "I keep so low I'm nearly flat."},
+        {"zh": "我从墙根爬到门槛上。", "en": "I crawl from the wall base onto the threshold."},
+        {"zh": "我走过的地方，留下细痕。", "en": "I leave fine marks where I pass."},
+        {"zh": "我往阴影里走，那里才好藏。", "en": "I go into the shade. Easier to hide."},
+        {"zh": "我一停下来，就跟石头一样。", "en": "When I stop, I'm just another stone."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我伏在暗处，脊背拱起。", "en": "I lie in the dark, my back arched."},
+        {"zh": "我的刺在光下有一点亮。", "en": "My barbs catch a little light."},
+        {"zh": "我不主动，我看着。", "en": "I don't start things. I watch."},
+        {"zh": "有个虫爬过来，我让开了。", "en": "An insect crawled over and I moved aside."},
+        {"zh": "我身上的壳很硬，十八点的护甲。", "en": "My shell is hard. Eighteen points of it."},
+        {"zh": "我在等一个人先动。", "en": "I'm waiting for someone to make the first move."},
+        {"zh": "这一带的地面，我摸得很熟。", "en": "I know this ground well."},
+        {"zh": "我把腿收在身下，不动。", "en": "I tuck my legs under me and hold still."},
+        {"zh": "我把头贴在石头上，凉快。", "en": "I rest my head on the stone. Cool."},
+        {"zh": "我这副身板，适合守着一个地方。", "en": "This frame of mine suits guarding one spot."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踩到我旁边那块石头了。", "en": "You stepped on the stone beside me."},
+        {"zh": "你踩到我，我才会动。", "en": "I only move if you step on me."},
+        {"zh": "你退开，我就当没看见。", "en": "Back away and I'll pretend I didn't see."},
+        {"zh": "我这么矮，你低头才看得见。", "en": "I'm this low. You'd have to look down."},
+        {"zh": "我身上的刺不是装饰。", "en": "My barbs aren't decoration."},
+        {"zh": "你的影子落到我身上了。", "en": "Your shadow has fallen on me."},
+        {"zh": "你手里的东西，我不感兴趣。", "en": "What's in your hand doesn't interest me."},
+        {"zh": "我扁扁地贴着地爬，像一道影子。", "en": "I crawl flat along the ground like a shadow."},
+        {"zh": "你要试，就试一次。", "en": "If you're going to try, try once."},
+        {"zh": "我压得很低，你不好打我。", "en": "I'm pressed low. Hard to hit."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我压得更低了。", "en": "I press even lower."},
+        {"zh": "这一下我的壳响了一声。", "en": "That made my shell crack audibly."},
+        {"zh": "十八层甲，贴着地面走。", "en": "Eighteen armor plates, moving low to the ground."},
+        {"zh": "我没有退远，只是转了方向。", "en": "I didn't back far. Only changed angle."},
+        {"zh": "这点伤，我的壳扛得住。", "en": "My shell can take this much."},
+        {"zh": "我的刺还在，还完整。", "en": "My barbs are still there. Intact."},
+        {"zh": "我慢慢爬回去，不慌。", "en": "I crawl back slowly. Unhurried."},
+        {"zh": "这一下让我贴地更紧了。", "en": "That pressed me flatter still."},
+        {"zh": "我贴地这么矮，照样刺。", "en": "Low to the ground, I still pierce."},
+        {"zh": "我在等，一直等。", "en": "I'm waiting. Always waiting."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你把东西放下，我看看。", "en": "Set it down. I'll look."},
+        {"zh": "地上的吃食，我不碰。", "en": "Food off the ground, I won't touch."},
+        {"zh": "那东西反光，我看不清。", "en": "It's catching the light. I can't make it out."},
+        {"zh": "那虫子停下，我才挪。", "en": "I wait for the bug to stop before I move."},
+        {"zh": "你手举得太高，我够不着。", "en": "Your hand's too high for me to reach."},
+        {"zh": "这点东西，换不来我挪窝。", "en": "That won't move me from here."},
+        {"zh": "我挪了半步，又停下。", "en": "I shift half a step and stop."},
+        {"zh": "你退开，我才过去。", "en": "Step back and I'll go."},
+        {"zh": "嗅了一下，我不想要。", "en": "One sniff and I'm done with it."},
+        {"zh": "你要真想给，扔远点。", "en": "If you mean it, throw it farther."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你碰到我的刺了，退开。", "en": "You touched my barbs. Back away."},
+        {"zh": "我不重，但你推不动。", "en": "I'm not heavy, and you can't shove me."},
+        {"zh": "这一下我贴在了地上。", "en": "That pressed me to the ground."},
+        {"zh": "你脚差点落在我身上。", "en": "Your foot nearly came down on me."},
+        {"zh": "我往石缝那边缩了半寸。", "en": "I shrink half an inch toward the crack."},
+        {"zh": "你的靴子边刮到我的壳。", "en": "Your boot's edge scraped my shell."},
+        {"zh": "我们挤在一起，我先让。", "en": "We're crowded. I move first."},
+        {"zh": "这一撞，我的腿乱了一下。", "en": "That tangled my legs a moment."},
+        {"zh": "你身上沾了一根刺。", "en": "One of my barbs is in you."},
+        {"zh": "我贴着地不动，你就过去了。", "en": "I lie flat and you pass by."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我没那个意思。", "en": "I don't mean that."},
+        {"zh": "把手从我面前移开。", "en": "Move your hand away from my face."},
+        {"zh": "我身上全是刺，不合适。", "en": "I'm all barbs. Not suitable."},
+        {"zh": "这地方太开阔，我不放心。", "en": "Too open here. I'm not easy."},
+        {"zh": "我更喜欢贴着石头待着。", "en": "I prefer lying against stone."},
+        {"zh": "你靠过来会被扎到。", "en": "Come close and you'll get pricked."},
+        {"zh": "这种事，得有遮挡。", "en": "That needs cover."},
+        {"zh": "我不主动，这次也一样。", "en": "I don't start things. Same here."},
+        {"zh": "你退开，我就当你没说过。", "en": "Move back and I'll forget you said it."},
+        {"zh": "我只想安静待着。", "en": "I just want to stay quiet."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把它扫到身下。", "en": "I sweep it under me."},
+        {"zh": "我用前脚按住，慢慢看。", "en": "I pin it with a foreleg and look."},
+        {"zh": "我背上的甲，比石头还硬。", "en": "The shell on my back is harder than stone."},
+        {"zh": "东西滑进石缝里了。", "en": "It slipped into the crack."},
+        {"zh": "我的腿太短，抓不住。", "en": "My legs are too short to grip it."},
+        {"zh": "我把它顶在壳上，带着走。", "en": "I balance it on my shell and carry it."},
+        {"zh": "地上那点食物，我不碰。", "en": "I won't touch that food on the ground."},
+        {"zh": "我慢慢挪过去，压住它。", "en": "I edge over and press it down."},
+        {"zh": "这么硬，我咬不开。", "en": "That's too hard to crack."},
+        {"zh": "我把它塞进石缝里压住。", "en": "I wedge it under a stone and press."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踩进了我这边。", "en": "You've stepped onto my ground."},
+        {"zh": "我伏着，你也停住。", "en": "I stay flat. You stop too."},
+        {"zh": "我的刺已经朝上。", "en": "My barbs are already up."},
+        {"zh": "你站在我唯一的出口上。", "en": "You're standing in my only way out."},
+        {"zh": "我伏着，等你先动。", "en": "I stay flat and wait for your move."},
+        {"zh": "这块地方很窄，躲不开。", "en": "This spot is narrow. No dodging."},
+        {"zh": "你抬脚的时候，我就动了。", "en": "When you lift that foot, I move."},
+        {"zh": "我的壳贴住地面，不好撬。", "en": "My shell is flat to the ground. Hard to pry."},
+        {"zh": "我盯住它，六条腿都没动。", "en": "I've fixed on it; all six legs are still."},
+        {"zh": "你手里的东西，我记着。", "en": "I'll remember what's in your hand."},
+        {"zh": "你一弯腰，就露了空。", "en": "Bend down and you leave a gap."},
+        {"zh": "这一下我不会先出手。", "en": "I won't be the one to start."},
+        {"zh": "你不是第一个走这条路的。", "en": "You're not the first to come this way."},
+        {"zh": "我贴着这块石头，等一个机会。", "en": "I keep to this stone and wait for a chance."},
+        {"zh": "你的膝盖离我只有半格。", "en": "Your knee is half a block from me."},
+        {"zh": "我的刺全竖起来，别碰。", "en": "My spines are all raised; don't touch."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴着地跟着，不显眼。", "en": "I trail you flat to the ground."},
+        {"zh": "你走到哪儿，影子到哪儿。", "en": "Wherever you go, the shadow goes."},
+        {"zh": "我在石头后面，等你转身。", "en": "I'm behind the stone, waiting for you to turn."},
+        {"zh": "你不看我，我就不动。", "en": "You're not looking, so I stay still."},
+        {"zh": "这么近，我一扑就着。", "en": "This close, one pounce lands."},
+        {"zh": "你越走越往墙角。", "en": "You keep walking toward the corner."},
+        {"zh": "我只在你侧面，不在前面。", "en": "I stay on your flank, never the front."},
+        {"zh": "你一低头，我就往前挪。", "en": "When you look down, I shift forward."},
+        {"zh": "我在这儿等，不着急。", "en": "I'll wait here. No rush."},
+        {"zh": "你抬脚时，我缩成一团。", "en": "When you lift your foot, I curl into a ball."},
+        {"zh": "我从这块石头挪到那块，慢慢来。", "en": "Stone to stone, taking my time."},
+        {"zh": "你在门口犹豫，我就等着。", "en": "You hesitate at the door. I'll wait."},
+        {"zh": "我一动不动，等你走近。", "en": "I hold still until you come near."},
+        {"zh": "你的光扫过来，我又躲回暗处。", "en": "Your light sweeps past and I slip back into the dark."},
+        {"zh": "这一片地砖，中间高两边低。", "en": "These floor tiles slope from the middle."},
+        {"zh": "我听见你换脚了。", "en": "I heard you shift your weight."},
+        {"zh": "你退了三步，我就往前挪一格。", "en": "Three steps back for you, one block forward for me."},
+        {"zh": "我总在你的侧后。", "en": "I'm always at your back-side."},
+        {"zh": "你的靴子在石头上打滑了。", "en": "Your boot slipped on the stone."},
+        {"zh": "我贴着地面，刺朝上。", "en": "I press to the ground, spines up."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我撞上去，刺先到。", "en": "I ram you; my barbs arrive first."},
+        {"zh": "这一下扎在你的靴面上。", "en": "That pricked your boot."},
+        {"zh": "我用整个壳顶你的脚。", "en": "I drive my whole shell into your foot."},
+        {"zh": "你退开，我立刻缩回去。", "en": "You pull back and I withdraw at once."},
+        {"zh": "这一下我卯足了劲。", "en": "That one had everything behind it."},
+        {"zh": "你踩下来，我钻到旁边。", "en": "You stamp and I slip aside."},
+        {"zh": "我的刺挂住你的裤脚。", "en": "A barb snagged your trouser leg."},
+        {"zh": "这一撞，我自己的壳也响。", "en": "That knocked my own shell too."},
+        {"zh": "你抬脚，我就滚了一下。", "en": "You lift a foot and I roll clear."},
+        {"zh": "这一下不算重，但是很疼。", "en": "Not heavy, but it stings."},
+        {"zh": "我撞你的脚背，刺先挨上。", "en": "I hit your instep, barbs first."},
+        {"zh": "这一下扎进你的裤管。", "en": "That pricked into your trouser leg."},
+        {"zh": "我从你脚边滚过去，再翻回来。", "en": "I roll past your foot and back again."},
+        {"zh": "你踢我，我贴着地滑开。", "en": "You kick and I skate along the ground."},
+        {"zh": "这一击我缩在壳里撞。", "en": "That one I hit you with my shell tucked in."},
+        {"zh": "你退了两步，落点不对。", "en": "You backed two steps onto bad footing."},
+        {"zh": "这一下正撞你的脚踝。", "en": "That one caught your ankle square."},
+        {"zh": "我伏着不动，等你折回来。", "en": "I stay flat and wait for you to circle back."},
+        {"zh": "你手里的东西掉了，我压住它。", "en": "You dropped it. I've pinned it."},
+        {"zh": "这一撞之后，我立刻缩回去。", "en": "After that hit I withdraw at once."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从石缝里爬出来，背甲刮着岩。", "en": "I crawl out of the crevice, my shell scraping rock."},
+        {"zh": "这片阴影里，我待着。", "en": "I keep to this shade."},
+        {"zh": "我的壳和石头颜色差不多。", "en": "My shell is near the color of stone."},
+        {"zh": "有人挪开了这块石头，我露了出来。", "en": "Someone moved that stone and exposed me."},
+        {"zh": "我贴着墙根爬了很远。", "en": "I crawled a long way along the wall's base."},
+        {"zh": "我在一堆枯枝下面。", "en": "I'm under a pile of dead branches."},
+        {"zh": "我从土里顶出来，抖了抖。", "en": "I push up out of the soil and shake."},
+        {"zh": "我从地砖的缝里出来。", "en": "I come up through a gap in the tiles."},
+        {"zh": "我钻进石缝，只露刺尖。", "en": "I slip into a crack, only my spines showing."},
+        {"zh": "有人踩碎了一块砖，我露出来了。", "en": "Someone cracked a tile and exposed me."},
+        {"zh": "我在门槛下面待了一会儿。", "en": "I waited a while under the threshold."},
+        {"zh": "我从石堆里爬出来，很慢。", "en": "I crawl out of the rubble. Slowly."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "热一上来，我赶紧往石缝里钻。", "en": "The heat comes and I dive for the crack."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从台阶上摔下去，壳磕了一下。", "en": "I fall off the step and my shell knocks."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水一淹，我往下沉得很快。", "en": "Water covers me and I sink fast."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我掀到墙上，贴了一会儿。", "en": "The blast slams me to the wall and I stick."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西打在我的壳上，滑开了。", "en": "Something struck my shell and glanced off."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有股力把我按住，我动不了。", "en": "A force holds me still."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "好久没吃到东西，我懒得动。", "en": "No food for long. I can't be bothered to move."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打下来，我的腿全缩进去了。", "en": "Lightning strikes and all my legs pull in."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "底下没有地，我还在往下坠。", "en": "No ground below, and I keep falling."}
+      ]
+    }
+  }
+}

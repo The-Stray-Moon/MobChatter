@@ -1,0 +1,248 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在墓碑顶跳两步，换个角度。", "en": "I hop twice along the gravestone's top for a better angle."},
+        {"zh": "我走路一颠一颠，翅膀半张着。", "en": "I bob as I walk, wings half open."},
+        {"zh": "我沿着栅栏横木走，爪子扣紧。", "en": "I walk the fence rail with my claws locked on."},
+        {"zh": "墙头晒得暖，我多走了几步。", "en": "The wall top is warm; I take a few extra steps."},
+        {"zh": "我踩着树叶，叶子几乎没动。", "en": "I walk on leaves, and they barely stir."},
+        {"zh": "黑羽毛擦过石面，沙沙地响。", "en": "My black feathers rasp against the stone."},
+        {"zh": "我走三步，停下来侧头听。", "en": "Three steps, then I stop and tilt my head to listen."},
+        {"zh": "地上有食，我跳下去又跳上来。", "en": "There is food below; I drop and hop back up."},
+        {"zh": "我不爱走平地，平地太敞亮。", "en": "I dislike open ground; it is far too bright."},
+        {"zh": "我拖着影子走过一排坟。", "en": "I drag my shadow past a row of graves."},
+        {"zh": "风一吹，我就得重新站稳。", "en": "Each gust makes me find my footing again."},
+        {"zh": "我走过你的脚印，比你轻多了。", "en": "I cross your footprints, far lighter than you."},
+        {"zh": "跟着钟声走，那附近总有人。", "en": "I walk toward the bell; people gather there."},
+        {"zh": "我落脚处，青苔被踩出小坑。", "en": "Where I land, the moss takes tiny dents."},
+        {"zh": "我从一块碑跳到另一块碑。", "en": "I hop from one gravestone to the next."},
+        {"zh": "我落在你的肩头，只一下。", "en": "I land on your shoulder, just for a moment."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我停在十字架顶端，收好翅膀。", "en": "I perch atop the cross and fold my wings."},
+        {"zh": "我理了理胸口的羽毛。", "en": "I preen the feathers on my chest."},
+        {"zh": "我侧头，用一只眼看天。", "en": "I tilt my head and watch the sky with one eye."},
+        {"zh": "我缩起一只爪，立在栅栏尖上。", "en": "I tuck one claw and perch on the fence tip."},
+        {"zh": "我张了张嘴，没叫出声。", "en": "I open my beak but make no sound."},
+        {"zh": "风把羽毛吹乱，我又理顺。", "en": "The wind ruffles my feathers; I smooth them again."},
+        {"zh": "我在等一场葬礼，那是好日子。", "en": "I wait for a funeral; those are good days."},
+        {"zh": "我蹲在墙头，像一块黑石头。", "en": "I squat on the wall like a black stone."},
+        {"zh": "太阳太亮，我把头埋进翅膀。", "en": "The sun is too bright; I tuck my head under a wing."},
+        {"zh": "远处有乌鸦叫，我没理它。", "en": "A raven calls far off; I ignore it."},
+        {"zh": "我换个爪子站，石头凉了。", "en": "I shift my claws; the stone has gone cold."},
+        {"zh": "我一动不动，好让苔藓忘了我。", "en": "I stay still so the moss forgets me."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我歪头看你，眼珠黑得发亮。", "en": "I tilt my head at you, eyes black and bright."},
+        {"zh": "你走近了，我不飞，只是看着。", "en": "You come close; I do not fly, only watch."},
+        {"zh": "我看你手里的东西，不看你的脸。", "en": "I look at what you hold, not at your face."},
+        {"zh": "你走过墓碑，我跟在后面。", "en": "You pass the gravestones. I follow."},
+        {"zh": "我把头转到另一侧，再看一遍。", "en": "I turn my head the other way and look again."},
+        {"zh": "你抬头找我，我就在你正上方。", "en": "You look up for me; I am directly above."},
+        {"zh": "我的眼睛像两颗湿石子。", "en": "My eyes are like two wet pebbles."},
+        {"zh": "你眨眼，我不眨。", "en": "You blink; I do not."},
+        {"zh": "我盯着你，是因为你在动。", "en": "I stare because you are moving."},
+        {"zh": "你走开，我的头跟着转过去。", "en": "You walk off and my head follows."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一根羽毛被打落，我记住了你。", "en": "A feather knocked loose; I will remember you."},
+        {"zh": "我尖叫一声，往高处飞。", "en": "I shriek once and climb higher."},
+        {"zh": "翅膀被擦到，我歪了一下。", "en": "My wing was grazed, and I lurched."},
+        {"zh": "疼，但我先保住这身羽毛。", "en": "It hurts, but I guard these feathers first."},
+        {"zh": "我落地时滚了半圈，又站起。", "en": "I hit the ground, roll half a turn, and rise."},
+        {"zh": "你打掉了我一根飞羽。", "en": "You knocked out one of my flight feathers."},
+        {"zh": "我缩成一团，像块焦木。", "en": "I curl small, like a charred log."},
+        {"zh": "这片羽毛留给你，别再打了。", "en": "Take this feather and stop hitting me."},
+        {"zh": "我飞起来才觉得疼。", "en": "Only once airborne do I feel the pain."},
+        {"zh": "我落在远处，先喘一会儿。", "en": "I land far off and catch my breath."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手里的种子，我看见了。", "en": "I see the seeds in your hand."},
+        {"zh": "有吃的？那我愿意靠近一点。", "en": "Food? Then I am willing to come closer."},
+        {"zh": "我跳下墓碑，落在你脚边。", "en": "I drop from the gravestone and land by your feet."},
+        {"zh": "我想落在你手边那块墓碑上吃。", "en": "Let me eat on the tombstone beside your hand."},
+        {"zh": "你把东西放下，退后两步。", "en": "Set it down and step back two paces."},
+        {"zh": "我盯着那块面包，头一点一点。", "en": "I fix on the bread, head bobbing."},
+        {"zh": "我扑下来，抢了就跑。", "en": "I swoop, snatch it, and fly."},
+        {"zh": "这点不够，我还能再吃。", "en": "That is not enough; I could eat more."},
+        {"zh": "我不吃你的手，只吃手里的。", "en": "I will not eat your hand, only what it holds."},
+        {"zh": "你一撒手，我就知道该动了。", "en": "The moment you let go, I know to move."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你差点踩到我，我跳开了。", "en": "You nearly stepped on me; I hopped clear."},
+        {"zh": "翅膀拍到你脸，抱歉。", "en": "My wing brushed your face; apologies."},
+        {"zh": "我从你肩头掠过，爪子收着。", "en": "I skim past your shoulder with claws tucked."},
+        {"zh": "撞上栅栏，我稳住身子继续站。", "en": "I hit the fence, steady myself, and stay perched."},
+        {"zh": "你挥手赶我，我只挪了半尺。", "en": "You shoo me and I move half a foot."},
+        {"zh": "我的羽毛落了你一身。", "en": "My feathers settle all over you."},
+        {"zh": "撞在一起，我比你慌。", "en": "We collide, and I am the more startled."},
+        {"zh": "我的翅膀擦过墓碑，掉了根羽毛。", "en": "My wing scraped a tombstone and shed a feather."},
+        {"zh": "你退后，我才敢落回墙头。", "en": "You step back, and only then do I return to the wall."},
+        {"zh": "别推，我爪子还扣着石头。", "en": "Do not push; my claws still grip the stone."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "开春时我会找一只同伴。", "en": "Come spring I will seek a companion."},
+        {"zh": "我们会一起修巢，用树枝和苔。", "en": "We will build a nest together of twigs and moss."},
+        {"zh": "我鸣叫三声，远处就有回应。", "en": "I call three times, and an answer comes."},
+        {"zh": "配偶会替我守着这片墙头。", "en": "My mate will guard this stretch of wall for me."},
+        {"zh": "我们轮流孵蛋，谁也不偷懒。", "en": "We take turns on the eggs; neither slacks."},
+        {"zh": "它的羽毛比我的亮一点。", "en": "Its feathers shine a little brighter than mine."},
+        {"zh": "我们并肩站着，谁都不叫。", "en": "We stand side by side, neither calling."},
+        {"zh": "巢在钟楼背面，风小，安全。", "en": "The nest sits behind the belfry: sheltered and safe."},
+        {"zh": "雏鸟张嘴时，我们轮流喂。", "en": "When the chicks gape, we feed them in turns."},
+        {"zh": "失去同伴那年，我很久不叫。", "en": "The year I lost my mate, I stopped calling."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我叼起一枚亮东西，又放下。", "en": "I pick up something shiny, then drop it."},
+        {"zh": "这粒种子我藏在舌头下面。", "en": "I tuck this seed under my tongue."},
+        {"zh": "我用爪子按住面包，撕成小块。", "en": "I pin the bread with a claw and tear it small."},
+        {"zh": "掉落的堕落精华，我衔走了。", "en": "I carry off the fallen essence that dropped."},
+        {"zh": "太重了，我叼不动整块。", "en": "Too heavy; I cannot carry the whole piece."},
+        {"zh": "我捡羽毛，其实那不是我的。", "en": "I gather a feather that is not mine."},
+        {"zh": "骨头渣我也收，能垫巢。", "en": "I collect bone chips too; they line the nest."},
+        {"zh": "我衔着东西飞不高，慢慢来。", "en": "Carrying this, I cannot fly high; I go slow."},
+        {"zh": "有人掉了硬币，我看看就走。", "en": "Someone dropped a coin; I look and move on."},
+        {"zh": "我把东西藏进墙缝，记住位置。", "en": "I hide it in a wall crack and remember the spot."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西在坟边动，我盯住了。", "en": "Something stirs by the grave; I lock on."},
+        {"zh": "我听见土响，那不是风。", "en": "I hear the soil shift, and it is not wind."},
+        {"zh": "一只甲虫爬出来，今天有得吃。", "en": "A beetle crawls out; dinner is served."},
+        {"zh": "那个人倒下了，我先到先得。", "en": "That one has fallen; first come, first fed."},
+        {"zh": "我看见田里有动静，翅膀张开。", "en": "Movement in the field; my wings open."},
+        {"zh": "老鼠在碑后跑，我记下路线。", "en": "A rat runs behind the stone; I note the route."},
+        {"zh": "谁在翻我的巢？我听见了。", "en": "Who is poking my nest? I heard it."},
+        {"zh": "面包引来别的鸟，我先到。", "en": "Bread draws other birds; I arrive first."},
+        {"zh": "它受伤了，飞不快。", "en": "It is hurt and cannot fly fast."},
+        {"zh": "我压低身子，等它再近一步。", "en": "I flatten myself and wait one more step."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我绕到它背后，落在高处。", "en": "I circle behind it and land high."},
+        {"zh": "我盯着它的手，那里有食物。", "en": "I watch its hands; food is there."},
+        {"zh": "我等它低头，才动。", "en": "I wait for it to look down, then move."},
+        {"zh": "我的影子从它脚边滑过去。", "en": "My shadow slides past its feet."},
+        {"zh": "它一抬头，我就装成石头。", "en": "When it looks up, I become a stone."},
+        {"zh": "我在数它眨眼的间隙。", "en": "I count the gaps between its blinks."},
+        {"zh": "再等一会，它就会背对我。", "en": "A moment more and it will turn its back."},
+        {"zh": "我挪了半步，羽毛没出声。", "en": "I shift half a step, feathers silent."},
+        {"zh": "这距离刚好，风也帮我。", "en": "The distance is right, and the wind helps."},
+        {"zh": "它走了，我换成另一个目标。", "en": "It left; I switch to another target."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我俯冲下去，爪子抓向它手。", "en": "I dive, claws aimed at its hand."},
+        {"zh": "我的喙啄在它指节上。", "en": "My beak strikes its knuckle."},
+        {"zh": "我拍翅膀打它脸，趁乱抢走。", "en": "I beat its face with my wings and snatch the prize."},
+        {"zh": "它挥拳，我早飞起来了。", "en": "It swings; I am already airborne."},
+        {"zh": "这一啄用了全力，喙也疼。", "en": "That peck took everything; my beak aches too."},
+        {"zh": "我从后面抓它耳朵，然后跑。", "en": "I grab its ear from behind and flee."},
+        {"zh": "空中转半圈，我又落它肩上。", "en": "I wheel in the air and land back on its shoulder."},
+        {"zh": "它抓住我的尾羽，我挣开了。", "en": "It caught my tail feathers; I tore free."},
+        {"zh": "我不恋战，抢到就飞。", "en": "I do not linger; I grab and fly."},
+        {"zh": "叫声是我最后的武器。", "en": "My call is my last weapon."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从钟楼顶飞下，落在墓碑上。", "en": "I glide from the belfry and land on a gravestone."},
+        {"zh": "教堂的墙头今天有点冷。", "en": "The church wall is chilly today."},
+        {"zh": "这片墓地归我，我早就住下了。", "en": "This graveyard is mine; I have long lived here."},
+        {"zh": "我落在栅栏上，抖掉露水。", "en": "I settle on the fence and shake off the dew."},
+        {"zh": "天黑后我才从叶子里钻出来。", "en": "I emerge from the leaves only after dark."},
+        {"zh": "我绕塔三圈，算是报到。", "en": "I circle the tower thrice to announce myself."},
+        {"zh": "枯树最高那根枝是我的位置。", "en": "The highest branch of the dead tree is my seat."},
+        {"zh": "风把雾送来，我也就到了。", "en": "The wind brings the fog, and I arrive with it."},
+        {"zh": "我落在新坟的土上，土还是软的。", "en": "I land on fresh grave soil, still soft."},
+        {"zh": "村口的木牌上，我站了很多年。", "en": "I have stood on the village sign for years."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎掉半身羽毛，烟熏得我睁不开眼。", "en": "Fire singes half my feathers; smoke blinds me."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔在地上，我半天没翻过身。", "en": "I hit the ground and lie stunned a while."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水浸透羽毛，我扑腾着往岸边挪。", "en": "Water soaks my feathers; I flounder toward the bank."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸起的土盖住我，我抖了三次。", "en": "Blast dirt buries me; I shake it off three times."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭穿过翅膀，我歪歪斜斜地飞。", "en": "An arrow tears my wing; I fly crooked."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法打在羽毛上，冒出一股焦味。", "en": "Magic hits my feathers and leaves a burnt smell."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得我站不稳，还是不肯落地。", "en": "Hunger makes me sway, but I refuse to land."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷声把我从枝头震下来。", "en": "Thunder knocks me clean off the branch."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进虚空，我连叫都来不及。", "en": "Falling into the void, I have no time to call."}
+      ]
+    }
+  }
+}

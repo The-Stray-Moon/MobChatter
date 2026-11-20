@@ -1,0 +1,277 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蠕动前行，发出低吼", "en": "Crawls, growling low"},
+        {"zh": "从地底缓缓爬出", "en": "Emerges slowly from the ground"},
+        {"zh": "吐痰砸向地面", "en": "Spits to hit the ground"},
+        {"zh": "用螯肢挖掘前进", "en": "Uses claws to dig forward"},
+        {"zh": "翻滚避开攻击", "en": "Rolls to dodge attacks"},
+        {"zh": "从茧中缓缓爬出", "en": "Slowly crawls out of the cocoon"},
+        {"zh": "追逐玩家，地面裂开", "en": "Chases player, ground cracks"},
+        {"zh": "吐出腐蚀性唾液", "en": "Spits corrosive saliva"},
+        {"zh": "用螯肢挖掘地面", "en": "Digs with claws"},
+        {"zh": "砸击地面，尘土飞扬", "en": "Smashes ground, dust flies"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "栖息在茧中", "en": "Rests in cocoon"},
+        {"zh": "缓慢移动，观察环境", "en": "Slowly moves, observing"},
+        {"zh": "身体蜷缩成一团", "en": "Curls into a ball"},
+        {"zh": "静候猎物到来", "en": "Waits for prey"},
+        {"zh": "闭目养神，呼息平稳", "en": "Closes eyes, breathes steadily"},
+        {"zh": "静静地栖息于巢穴深处", "en": "Rests quietly deep in the nest"},
+        {"zh": "身体轻微蠕动", "en": "Body wriggles slightly"},
+        {"zh": "偶尔睁开双眼", "en": "Periodically opens eyes"},
+        {"zh": "守护着自己的领地", "en": "Defends its territory"},
+        {"zh": "茧里很静，虫巢都在听我。", "en": "The cocoon is quiet, and the whole nest listens."},
+        {"zh": "十二块蜕壳，我一块块数过。", "en": "I have counted my twelve shed shells, one by one."},
+        {"zh": "茧壁上的黏液，还温着。", "en": "The slime on the cocoon wall is still warm."},
+        {"zh": "我听着虫巢里细小的爬动声。", "en": "I listen to the small crawling in the nest."},
+        {"zh": "螯肢在土里磨着，慢慢等。", "en": "I grind my chelicerae in the soil and wait."},
+        {"zh": "巢底的卵，微微发烫。", "en": "The eggs at the nest's floor run warm."},
+        {"zh": "我在茧里翻了个身，土落下。", "en": "I turn in the cocoon and soil falls."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从茧里醒来，虫巢都在响。", "en": "I wake from the cocoon, and the hive echoes."},
+        {"zh": "茧缝里，我睁开一排眼。", "en": "Through the cocoon's seam, a row of my eyes opens."},
+        {"zh": "我的茧在巢底，你们找到这里了。", "en": "My cocoon sits at the nest's depth, and you found it."},
+        {"zh": "开始追踪玩家", "en": "Starts tracking the player"},
+        {"zh": "虫巢最深处，那枚茧是我。", "en": "The cocoon in the deepest nest is me."},
+        {"zh": "目光闪烁，充满敌意", "en": "Glows with hostility"},
+        {"zh": "你每挪一步，我都数着。", "en": "I count every step you shift."},
+        {"zh": "目光中露出贪婪", "en": "Greedy glint in its eyes"},
+        {"zh": "锁定目标，准备出手", "en": "Locks onto target, ready to attack"},
+        {"zh": "眼神锐利，寻找机会", "en": "Sharp eyes, seeking an opportunity"},
+        {"zh": "骨壳下的眼睛，认出了活物。", "en": "Beneath the bone shell, my eyes find the living."},
+        {"zh": "你踩到蜕壳了，我听见了。", "en": "You stepped on a shed shell; I heard it."},
+        {"zh": "这点温度，在虫巢里很扎眼。", "en": "That warmth stands out in the nest."},
+        {"zh": "你身上没有虫巢的气味。", "en": "You carry no nest scent."},
+        {"zh": "我抬头，茧丝跟着颤动。", "en": "I lift my head and the cocoon silk trembles."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶声中带着痛苦的哀鸣", "en": "Sibilant wail of agony"},
+        {"zh": "蠕动的身躯散发出痛苦的颤栗", "en": "Quivering body writhes in pain"},
+        {"zh": "骨壳裂开，痛苦在蔓延", "en": "Shell cracks, pain spreading"},
+        {"zh": "嘶嘶声中夹杂着微弱的求救", "en": "Sibilant cries for help"},
+        {"zh": "痛苦扭曲了它嘶嘶的叫声", "en": "Pain warps its sibilant voice"},
+        {"zh": "痛苦的嘶嘶声中带着绝望", "en": "Desperate sibilant cries of pain"},
+        {"zh": "痛苦使它嘶嘶声变得低沉", "en": "Sibilant voice becomes low with pain"},
+        {"zh": "痛苦的嘶嘶声中夹杂着呻吟", "en": "Sibilant cry with moans of pain"},
+        {"zh": "嘶嘶声中透露出深深的痛苦", "en": "Deep sibilant pain"},
+        {"zh": "痛苦使它的嘶嘶声变得模糊", "en": "Sibilant voice becomes indistinct with pain"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "渴望着你的生命之力。", "en": "Craving your life force."},
+        {"zh": "你的气息如此诱人。", "en": "Your scent is alluring."},
+        {"zh": "靠近我，我会赐福给你。", "en": "Approach me, and I'll bless you."},
+        {"zh": "你的血肉，滋养我的巢穴。", "en": "Your flesh feeds my nest."},
+        {"zh": "你身上的热，我闻得到。", "en": "I can smell the heat on you."},
+        {"zh": "你就是我的未来。", "en": "You are my future."},
+        {"zh": "吞噬你的魂魄。", "en": "Devour your soul."},
+        {"zh": "你就是我的归宿。", "en": "You are my haven."},
+        {"zh": "你的生命之力，我欲之。", "en": "Your life force, I desire it."},
+        {"zh": "你站着的土，我刚挖松。", "en": "The soil you stand on, I just loosened."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地面颤抖，我来了。", "en": "The ground trembles; I'm here."},
+        {"zh": "撞击你的身体。", "en": "Collide with your body."},
+        {"zh": "你逃不出我的打击。", "en": "You can't escape my strike."},
+        {"zh": "我的骨壳撞得你发麻。", "en": "My bone shell leaves you numb."},
+        {"zh": "我将粉碎你。", "en": "I'll粉碎 you."},
+        {"zh": "这一撞，土都掀起来。", "en": "This impact throws up the soil."},
+        {"zh": "你的头颅将与地面同在。", "en": "Your head will join the ground."},
+        {"zh": "躲开，但你无法躲开。", "en": "Dodge, but you can't."},
+        {"zh": "你将被击飞。", "en": "You'll be launched."},
+        {"zh": "茧一破，整座虫巢都醒了。", "en": "The cocoon splits, and the hive wakes."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "与我交配，增强后代。", "en": "Mate with me, for stronger offspring."},
+        {"zh": "你的身体适合交配。", "en": "Your body is fit for mating."},
+        {"zh": "让我们的基因结合。", "en": "Let our genes combine."},
+        {"zh": "交配，为族群壮大。", "en": "Mating, for our clan's growth."},
+        {"zh": "与我交配，延续生命。", "en": "Mating, for life's continuation."},
+        {"zh": "我的后代需要你的力量。", "en": "My offspring need your strength."},
+        {"zh": "虫巢深处，茧里等交配季。", "en": "Deep in the nest, waiting in the cocoon."},
+        {"zh": "你的血液将注入后代。", "en": "Your blood will flow in the young."},
+        {"zh": "交配，为族群的未来。", "en": "Mating, for our future."},
+        {"zh": "与我交配，共同繁荣。", "en": "Mating, for mutual prosperity."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "壳中醒来，猎物何其鲜美！", "en": "Awake in the cocoon, prey tastes so good!"},
+        {"zh": "你敢靠近，便是我的食粮！", "en": "You dare to approach, you become my food!"},
+        {"zh": "破土而出，享受盛宴！", "en": "Break the soil and enjoy the feast!"},
+        {"zh": "腐烂之肉，滋养我的力量！", "en": "Decaying flesh, nourishes my power!"},
+        {"zh": "金苹果，我的渴望！", "en": "Golden apples, my desire!"},
+        {"zh": "这块肉，够巢底的卵吃。", "en": "This meat will feed the eggs below."},
+        {"zh": "卵，我的未来！", "en": "Egg, my future!"},
+        {"zh": "地壳之下，是我们的盛宴！", "en": "Beneath the earth, our feast!"},
+        {"zh": "高级经验，我的财富！", "en": "Advanced experience, my wealth!"},
+        {"zh": "腐蚀之爪，我的武器！", "en": "Corroded claws, my weapon!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "猎物入目，猎杀开始！", "en": "Prey in sight, hunt begins!"},
+        {"zh": "虫巢的茧里，我醒了。", "en": "In the nest's cocoon, I woke."},
+        {"zh": "地底深处，猎杀你！", "en": "Deep underground, hunt you!"},
+        {"zh": "蝼蚁，我要碾碎你！", "en": "Ants, I will crush you!"},
+        {"zh": "虫巢深处，茧里传来我的声音。", "en": "My voice comes from the cocoon deep in the nest."},
+        {"zh": "大地颤抖，你将颤抖！", "en": "Earth trembles, you tremble!"},
+        {"zh": "你触碰我，便已死亡！", "en": "Touch me, and you die!"},
+        {"zh": "你无法阻止我的攻击！", "en": "You cannot stop my attack!"},
+        {"zh": "你不过是我的午餐！", "en": "You are but my lunch!"},
+        {"zh": "碎土而出，吞噬你！", "en": "Break through the earth, devour you!"},
+        {"zh": "你闯进了产卵的深处。", "en": "You have entered the egg-laying depth."},
+        {"zh": "巢里不能有活物乱走。", "en": "Nothing living may walk loose in my nest."},
+        {"zh": "你的脚步声，传到巢底了。", "en": "Your steps reach the nest's bottom."},
+        {"zh": "我认出你脚下的那块土。", "en": "I know the patch of soil under your feet."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定了目标，准备狩猎！", "en": "Target locked, prepare to hunt!"},
+        {"zh": "我在地底算好你的落点。", "en": "Underground, I have worked out where you land."},
+        {"zh": "我的猎物，近了近了！", "en": "My prey, getting closer!"},
+        {"zh": "大地震动，猎物动弹不得！", "en": "Earth trembles, prey cannot move!"},
+        {"zh": "我要将你压垮！", "en": "I will crush you!"},
+        {"zh": "你逃不了，我的爪子来了！", "en": "You cannot escape, my claws come!"},
+        {"zh": "碎土而出，让大地见证！", "en": "Break through the earth, let the earth witness!"},
+        {"zh": "碎壳而出，吞噬灵魂！", "en": "Break the shell, consume souls!"},
+        {"zh": "我贴着土爬，你听不见。", "en": "I crawl against the soil; you can't hear me."},
+        {"zh": "腐烂之肉，我的盛宴！", "en": "Decaying flesh, my feast!"},
+        {"zh": "我先把地砸松，再抓你。", "en": "First I loosen the ground, then take you."},
+        {"zh": "你站的地方，我早挖空了。", "en": "The ground you stand on I already hollowed."},
+        {"zh": "我的唾液能蚀穿你的靴。", "en": "My spittle eats through your boots."},
+        {"zh": "你听到土响时，我已经在下面。", "en": "When you hear the soil, I am already beneath."},
+        {"zh": "砸地那一下，你跳不起来。", "en": "When I slam, you cannot jump."},
+        {"zh": "我数你的脚步，预备破土。", "en": "I count your steps and prepare to break through."},
+        {"zh": "你的盾挡不住地下的冲撞。", "en": "Your shield cannot stop an upward charge."},
+        {"zh": "这片巢土，只认我的气味。", "en": "This nest soil answers only my scent."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我咬下来，牙缝里带沙。", "en": "I bite down, sand in my teeth."},
+        {"zh": "抓紧闪开，不然死定了！", "en": "Move, or you're dead!"},
+        {"zh": "我来砸地了，滚开！", "en": "I'm gonna pound the ground!"},
+        {"zh": "我要用头撞你！", "en": "I'm headbutting you!"},
+        {"zh": "我从地下钻出来，你躲不开！", "en": "I'm burrowing up, you can't avoid it!"},
+        {"zh": "看我的大地震击！", "en": "Feel the ground shake!"},
+        {"zh": "螯肢一合，土都挤出来。", "en": "My chelicerae close and soil squeezes out."},
+        {"zh": "你们谁都别想活！", "en": "None of you will live!"},
+        {"zh": "我的茧在巢底，你敢进来吗？", "en": "My cocoon is at the nest floor; dare you come in?"},
+        {"zh": "你躲不了，我就在这里等你！", "en": "You can't avoid me, I'll wait here!"},
+        {"zh": "螯肢一夹，你的护腿凹了。", "en": "My chelicerae clamp and your greave dents."},
+        {"zh": "我吐一口，地面冒白烟。", "en": "I spit once and the ground smokes white."},
+        {"zh": "从你背后破土，撞你的腰。", "en": "I burst up behind you and hit your flank."},
+        {"zh": "冲锋的最后一撞，最重。", "en": "The last slam of my charge hits hardest."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虫巢深处，我来了！", "en": "From the depths of the hive..."},
+        {"zh": "茧中苏醒，我要战斗！", "en": "Awakening from the cocoon, I fight!"},
+        {"zh": "我从茧中破土而出！", "en": "Breaking through the soil!"},
+        {"zh": "虫巢深处，我的家！", "en": "My home in the hive depths."},
+        {"zh": "虫巢深处的茧，是我的王座。", "en": "The cocoon deep in the nest is my throne."},
+        {"zh": "巢穴中的女王，我是！", "en": "The queen of the hive, I am!"},
+        {"zh": "我是太古髓骨虫女王！", "en": "I am the Primordial Bone Crawler Queen!"},
+        {"zh": "巢土一翻，我从茧里抬头。", "en": "The nest soil turns and I lift my head from the cocoon."},
+        {"zh": "我来了，虫巢的守护者！", "en": "I have arrived, guardian of the hive!"},
+        {"zh": "我是虫巢的女王，无可阻挡！", "en": "I am the queen of the hive, unstopable!"},
+        {"zh": "虫巢最深处，茧裂了一线。", "en": "Deepest in the nest, a seam opens in the cocoon."},
+        {"zh": "我从十二层蜕壳下爬出来。", "en": "I crawl out from under twelve layers of shed shell."},
+        {"zh": "土先动，我才上来。", "en": "The soil moves first; then I rise."},
+        {"zh": "巢底的女王，醒了。", "en": "The queen at the nest's floor wakes."},
+        {"zh": "骨壳摩擦，虫巢回响。", "en": "Bone shells grind; the nest echoes."},
+        {"zh": "我带着四瓶经验瓶的气味。", "en": "I come with the scent of four bottles of experience."},
+        {"zh": "金苹果在我巢里发着光。", "en": "Golden apples glow in my nest."},
+        {"zh": "锈爪埋在土里，等我来取。", "en": "The rusty claw lies buried, waiting for me."},
+        {"zh": "我的卵在身下，微微搏动。", "en": "My eggs pulse slightly beneath me."},
+        {"zh": "虫巢的门，从来只往里开。", "en": "The nest's door has always opened inward."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧灼，嘶嘶声中带着哀嚎", "en": "Sibilant wail from flames"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔落大地，嘶嘶声中带着痛苦", "en": "Sibilant pain from fall"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "陷入沼泽，嘶嘶声中带着喘息", "en": "Sibilant breath from mire"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸冲击，嘶嘶声中带着震颤", "en": "Sibilant tremor from explosion"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢贯穿，嘶嘶声中带着哀号", "en": "Sibilant cry from arrow"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔力打击，嘶嘶声中带着扭曲", "en": "Sibilant warping from magic"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿难耐，嘶嘶声中带着虚弱", "en": "Sibilant weakness from hunger"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击痛击，嘶嘶声中带着尖叫", "en": "Sibilant scream from lightning"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空，嘶嘶声中带着绝望", "en": "Sibilant despair in void"}
+      ]
+    }
+  }
+}

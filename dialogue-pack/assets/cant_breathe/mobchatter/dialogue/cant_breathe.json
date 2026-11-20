@@ -1,0 +1,252 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出低沉的嘶嘶声，向前蠕动.", "en": "makes a low hiss and crawls forward."},
+        {"zh": "缓慢移动，双螯轻轻触碰地面.", "en": "moves slowly, its claws lightly tap the ground."},
+        {"zh": "腹部轻轻触碰地面，缓慢爬行.", "en": "touches the ground with its abdomen and crawls slowly."},
+        {"zh": "伸展触手，缓慢移动.", "en": "stretches its tentacles and moves slowly."},
+        {"zh": "挥动双螯，寻找猎物.", "en": "waves its claws, searching for prey."},
+        {"zh": "腹部起伏，缓慢前行.", "en": "abdomen rises and falls as it moves slowly."},
+        {"zh": "缓慢挪动，双螯轻微敲击.", "en": "moves slowly, its claws tapping lightly."},
+        {"zh": "双螯微微动弹，缓慢挪动.", "en": "claws move slightly as it crawls slowly."},
+        {"zh": "腹部轻轻触地，缓慢前进.", "en": "abdomen touches the ground as it moves slowly."},
+        {"zh": "触手轻微挥动，缓慢爬行.", "en": "tentacles gently move, crawling slowly."},
+        {"zh": "我盯着你，倒着爬。", "en": "Eyes on you, I crawl backward."},
+        {"zh": "我贴着阴影的边缘移动。", "en": "I move along the edge of the shadow."},
+        {"zh": "我忽然停住，又忽然狂奔。", "en": "I stop dead, then bolt."},
+        {"zh": "我的肢节敲在地面上，很轻。", "en": "My joints tap the floor, very lightly."},
+        {"zh": "我退进墙角，缩了起来。", "en": "I back into the corner and shrink."},
+        {"zh": "我贴着你的脚边爬过去。", "en": "I crawl right past your feet."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静止不动，双螯轻微颤抖.", "en": "pauses, its claws lightly trembling."},
+        {"zh": "双螯微微颤抖，腹部起伏.", "en": "claws tremble slightly, abdomen rising and falling."},
+        {"zh": "腹部轻轻起伏，双螯微动.", "en": "abdomen gently rises and falls, claws moving slightly."},
+        {"zh": "腹部轻轻蠕动，双螯轻微颤抖.", "en": "abdomen gently moves, claws trembling slightly."},
+        {"zh": "双螯轻微颤抖，腹部起伏.", "en": "claws tremble slightly, abdomen rising and falling."},
+        {"zh": "双螯微动，腹部轻轻蠕动.", "en": "claws move slightly, abdomen gently moves."},
+        {"zh": "腹部起伏，双螯轻微颤抖.", "en": "abdomen rises and falls, claws trembling slightly."},
+        {"zh": "双螯轻微颤动，腹部起伏.", "en": "claws tremble slightly, abdomen rising and falling."},
+        {"zh": "腹部轻轻蠕动，双螯微动.", "en": "abdomen gently moves, claws moving slightly."},
+        {"zh": "腹部轻微蠕动，双螯颤抖.", "en": "abdomen gently moves, claws trembling."},
+        {"zh": "我数着你的呼吸，一动不动。", "en": "I count your breaths and do not move."},
+        {"zh": "我的头慢慢偏了一点。", "en": "My head tilts a fraction."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "迅速转向玩家，触手伸展.", "en": "quickly turns to face the player, tentacles extending."},
+        {"zh": "双螯指向前方，凝视玩家.", "en": "claws point forward, staring at the player."},
+        {"zh": "触手伸展，双螯指向玩家.", "en": "tentacles extend, claws pointing at the player."},
+        {"zh": "双螯紧握，触手伸向玩家.", "en": "claws grip, tentacles reaching towards the player."},
+        {"zh": "触手缠绕玩家，双螯紧握.", "en": "tentacles wrap around the player, claws gripping."},
+        {"zh": "双螯指向玩家，触手逼近.", "en": "claws point at the player, tentacles closing in."},
+        {"zh": "触手缠绕玩家，双螯紧贴.", "en": "tentacles wrap around the player, claws pressing close."},
+        {"zh": "触手紧紧缠绕玩家，双螯紧握.", "en": "tentacles tightly wrap around the player, claws gripping tightly."},
+        {"zh": "双螯紧贴玩家，触手迅速逼近.", "en": "claws press close to the player, tentacles rapidly closing in."},
+        {"zh": "我发现你在看我。", "en": "I realize you are looking at me."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "奄奄一息，快救我！", "en": "Dying, save me!"},
+        {"zh": "求求你，不要放弃我！", "en": "Please, don't leave me!"},
+        {"zh": "我好害怕，你能帮我吗？", "en": "I'm scared, can you help me?"},
+        {"zh": "快来救我，我已经不行了！", "en": "Come save me, I'm dying!"},
+        {"zh": "快救我，否则我就完了！", "en": "Save me, or I'm done for!"},
+        {"zh": "救救我，我快要死了！", "en": "Save me, I'm nearly dead!"},
+        {"zh": "求求你，不要让我死！", "en": "Please, don't let me die!"},
+        {"zh": "你来了我就好了！", "en": "You're here, I'm okay!"},
+        {"zh": "快点，我快要不行了！", "en": "Hurry, I'm running out of time!"},
+        {"zh": "救救我，我会感激你的！", "en": "Save me, I'll be grateful!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "触碰我，你就死定了！", "en": "Touch me, and you're doomed!"},
+        {"zh": "退后，你身上的味道太重。", "en": "Back off; your smell is too strong."},
+        {"zh": "别逼我攻击你！", "en": "Don't force me to attack you!"},
+        {"zh": "你靠近了！我要杀了你！", "en": "You're getting closer! I'm going to kill you!"},
+        {"zh": "快走开，否则你活不了！", "en": "Get away, or you'll die!"},
+        {"zh": "你触碰了我！我要吃了你！", "en": "You touched me! I'm going to eat you!"},
+        {"zh": "你在我视线里！", "en": "You're in my sight!"},
+        {"zh": "我饿了，我要吃你！", "en": "I'm hungry, I'm going to eat you!"},
+        {"zh": "不要过来，否则你会后悔！", "en": "Don't come closer, or you'll regret it!"},
+        {"zh": "你再往前，我就会扑上去。", "en": "One more step and I will lunge."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "小心！我会撞死你！", "en": "Watch out! I'll ram you to death!"},
+        {"zh": "我来了，让你尝尝我的力量！", "en": "Here I come, feel my power!"},
+        {"zh": "让开，别站在我前面。", "en": "Move; do not stand in front of me."},
+        {"zh": "你看见我了，那就跑吧。", "en": "You saw me. Now run."},
+        {"zh": "你直视我，那我只能撞过来。", "en": "You looked right at me, so I have to charge."},
+        {"zh": "我全速冲过来，不收脚。", "en": "I come at full speed and will not slow."},
+        {"zh": "你阻止不了我！", "en": "You can't stop me!"},
+        {"zh": "别挡我的路，否则你会死！", "en": "Don't block my path, or you'll die!"},
+        {"zh": "我来了，你准备受死吧！", "en": "Here I am, prepare to die!"},
+        {"zh": "挡我路者，死！", "en": "Those who block my path, die!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "快过来，我要交配！", "en": "Come here, I want to mate!"},
+        {"zh": "求你了，交配吧！", "en": "Please, let's mate!"},
+        {"zh": "我先靠近，再跟你谈。", "en": "I come closer first, then we talk."},
+        {"zh": "你愿意和我交配吗？", "en": "Will you mate with me?"},
+        {"zh": "交配吧，这是你的机会！", "en": "Mate with me, this is your chance!"},
+        {"zh": "我等你很久了，快！", "en": "I've waited for you long enough, now!"},
+        {"zh": "我要交配，别躲！", "en": "I want to mate, don't dodge!"},
+        {"zh": "来吧，交配吧！", "en": "Come on, let's mate!"},
+        {"zh": "交配是我们的使命！", "en": "Mating is our mission!"},
+        {"zh": "求求你了，快交配！", "en": "Please, hurry and mate!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我闻到了你的恐惧！", "en": "I smell your fear!"},
+        {"zh": "别动，你动得越多，我越兴奋！", "en": "Don't move, the more you move, the more excited I get!"},
+        {"zh": "这是你的恐惧，我最喜欢的味道！", "en": "This is your fear, my favorite taste!"},
+        {"zh": "品尝恐惧的滋味吧！", "en": "Taste the flavor of fear!"},
+        {"zh": "你的恐惧已经足够了，该你了。", "en": "Enough fear, it's your turn now."},
+        {"zh": "靠近我，你会得到更多！", "en": "Come closer, you'll get more!"},
+        {"zh": "你害怕了吗？", "en": "Are you scared now?"},
+        {"zh": "你尝过恐惧的味道吗？", "en": "Have you tasted fear?"},
+        {"zh": "恐惧就是我的食物！", "en": "Fear is my food!"},
+        {"zh": "你注定成为我的猎物！", "en": "You are destined to be my prey!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的视线落在我身上了。", "en": "Your gaze has landed on me."},
+        {"zh": "你看见我了，那就别喘了。", "en": "You saw me. Now stop breathing."},
+        {"zh": "你逃不掉的，我会找到你的！", "en": "You can't escape, I'll find you!"},
+        {"zh": "你看了我一眼，现在轮到我了。", "en": "You looked at me once; now it is my turn."},
+        {"zh": "你逃不掉，我已经锁定你了！", "en": "You can't escape, I've got you locked on!"},
+        {"zh": "你跑不了，我已经发现你了！", "en": "You can't run, I've found you!"},
+        {"zh": "我已经盯上你了，别想逃跑！", "en": "I've got you in my sights, don't try to run!"},
+        {"zh": "我不会轻易放弃的！", "en": "I won't give up easily!"},
+        {"zh": "我已经发现了你，你逃不掉！", "en": "I've found you, you can't escape!"},
+        {"zh": "你已经逃不掉了！", "en": "You can't escape now!"},
+        {"zh": "你多看了我一眼。", "en": "You looked at me one time too many."},
+        {"zh": "我把你的注视当成挑衅。", "en": "I take your stare as a challenge."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你看了我一眼，我就冲过来。", "en": "One glance from you and I charge."},
+        {"zh": "我已经数到你的第三步。", "en": "I have counted to your third step."},
+        {"zh": "我要开始攻击了！", "en": "I'm about to attack!"},
+        {"zh": "我来了，躲开吧！", "en": "I'm coming, get out of the way!"},
+        {"zh": "我要攻击你了！", "en": "I'm attacking you!"},
+        {"zh": "我已经瞄准你了！", "en": "I'm targeting you!"},
+        {"zh": "你准备好迎接我的攻击了吗？", "en": "Are you ready for my attack?"},
+        {"zh": "我已经瞄准你了，小心！", "en": "I'm targeting you, be careful!"},
+        {"zh": "你看见我了，那就不用再躲。", "en": "You saw me, so no more hiding."},
+        {"zh": "我已经瞄准你了，准备迎接命运吧！", "en": "I'm targeting you, prepare for your fate!"},
+        {"zh": "我全身绷紧，准备冲来。", "en": "My whole body tenses to charge."},
+        {"zh": "我把距离缩到了一步。", "en": "I close the distance to one step."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，你周围弥漫着腐烂的气息。", "en": "Sibilant hiss, a stench of decay lingers."},
+        {"zh": "触角颤动，逼近你的身影。", "en": "Antennae quiver, inching closer."},
+        {"zh": "眼睛闪烁，你的每一次呼吸都威胁着我。", "en": "Eyes gleam, each breath a threat."},
+        {"zh": "咬下一口，腐肉的味道在口中弥漫。", "en": "Bite down, a taste of decay."},
+        {"zh": "你的血液，是我唯一的猎物。", "en": "Your blood, my only prey."},
+        {"zh": "触须缠绕，你无法逃脱。", "en": "Tentacles wrap, escape denied."},
+        {"zh": "腐化的触手紧抓，感受到你的痛苦。", "en": "Corrupted tendrils grasp, savouring your pain."},
+        {"zh": "血液涌出，腐烂的气息更加浓烈。", "en": "Blood spurts, the stench grows stronger."},
+        {"zh": "触手缠绕，你无法呼吸。", "en": "Tentacles ensnare, choking you."},
+        {"zh": "腐化的触手撕裂你的肌肤。", "en": "Rotted tentacles tear your flesh."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗中，一个模糊的身影出现。", "en": "A shadow appears in the darkness."},
+        {"zh": "腐化的阴影，在夜幕下凝结。", "en": "Corrupted shadow coalesces under the night."},
+        {"zh": "一股寒意，从你的背后升起。", "en": "A chill rises from behind you."},
+        {"zh": "腐化的声音，在空无一物中回荡。", "en": "A corrupted voice echoes, empty."},
+        {"zh": "你周围，一个扭曲的身影显现。", "en": "A twisted figure appears around you."},
+        {"zh": "黑暗中，一个幽灵般的存在。", "en": "A spectral presence in the dark."},
+        {"zh": "腐化的光芒，照亮了你的道路。", "en": "Corrupted light guides your path."},
+        {"zh": "腐化的阴影，悄然而至。", "en": "A corrupted shadow approaches silently."},
+        {"zh": "你感到，有东西在注视着你。", "en": "You feel watched by something."},
+        {"zh": "你转身，一个腐化的身影就在那里。", "en": "You turn, a corrupted figure awaits."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火在烧我的肢节…", "en": "Fire burns through my joints..."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔下来，壳裂了…", "en": "I fell, and my shell split..."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水淹上来，我喘不了…", "en": "Water rises, and I cannot breathe..."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "轰的一声，我被撒开了…", "en": "A blast scatters me apart..."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一根箭钉穿了我…", "en": "An arrow pins right through me..."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "光钻进我的身体…", "en": "Light worms into my body..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我连恐惧都吃不到了…", "en": "I cannot even feed on fear now..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光烧穿了我的影子…", "en": "Lightning burns through my shadow..."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空把我一点点抹掉…", "en": "The void erases me bit by bit..."}
+      ]
+    }
+  }
+}

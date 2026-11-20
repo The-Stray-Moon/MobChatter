@@ -1,0 +1,282 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蠕动着巨大的身体向前爬行", "en": "Slithering forward with immense bulk"},
+        {"zh": "发出嘶嘶声，身体扭曲前行", "en": "Sssss, twisting body forward"},
+        {"zh": "身体快速扭动，寻找猎物", "en": "Body twists quickly, seeking prey"},
+        {"zh": "用触须感知周围环境", "en": "Using tendrils to sense surroundings"},
+        {"zh": "不断蠕动，试图逼近玩家", "en": "Constantly slithering, trying to approach player"},
+        {"zh": "快速扭动身体，准备攻击", "en": "Body twists rapidly, preparing to attack"},
+        {"zh": "用尖利的触角刺向敌人", "en": "Sharp tentacles pierce enemies"},
+        {"zh": "用长舌舔舐皮肤，试图驯服玩家", "en": "Long tongue licks skin, trying to tame player"},
+        {"zh": "快速扭动，试图吞噬玩家", "en": "Body twists quickly, trying to swallow player"},
+        {"zh": "快速游动，寻找新的猎物", "en": "Quickly swimming, seeking new prey"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "躺在黑暗中静静等待", "en": "Lies still in darkness, waiting"},
+        {"zh": "土里钻出来，身上还挂着泥。", "en": "I rise from the dirt, mud still clinging."},
+        {"zh": "目光如炬，警惕着周围", "en": "Keen eyes watching surroundings"},
+        {"zh": "静静地躺着，等待机会", "en": "Lies quietly, waiting for an opportunity"},
+        {"zh": "静静地盯着远处", "en": "Staring into the distance"},
+        {"zh": "偶尔挪动身体，准备行动", "en": "Occasionally shifts, readying itself"},
+        {"zh": "静静地等待着猎物出现", "en": "Patiently waiting for prey"},
+        {"zh": "静静地观察周围的一切", "en": "Quietly observing surroundings"},
+        {"zh": "静待夜深，准备行动", "en": "Waiting for night to fall"},
+        {"zh": "静静地栖息在黑暗中", "en": "Resides quietly in the dark"},
+        {"zh": "盘成一圈，安静得像块石头", "en": "Coiled into a ring, it sits still as stone."},
+        {"zh": "鳞片在夜里泛着淡淡的光", "en": "Its scales give off a faint glow in the night."},
+        {"zh": "偶尔抬头，像是在等谁召唤", "en": "It lifts its head now and then, as if awaiting a summons."},
+        {"zh": "身体一半埋进土里，一动不动", "en": "Half its body buried, it does not stir."},
+        {"zh": "喉咙里滚出低沉的咕噜声", "en": "A low rumble rolls in its throat."},
+        {"zh": "触须探出，慢慢扫过地面", "en": "Its feelers reach out and sweep the ground."},
+        {"zh": "它把身子缩紧，蓄着下一次冲刺", "en": "It coils tight, storing up its next lunge."},
+        {"zh": "深夜的凉意让它舒展身体", "en": "The deep-night chill makes it stretch out."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "看见玩家立即加速攻击", "en": "Sees player, immediately speeds up attack"},
+        {"zh": "盯住玩家，准备一击致命", "en": "Locks on to player, ready to deliver the killing blow"},
+        {"zh": "锁定玩家，迅速调整位置", "en": "Locks onto player, quickly adjusts position"},
+        {"zh": "目光锁定玩家，准备进攻", "en": "Fixes eyes on player, preparing to attack"},
+        {"zh": "注视玩家，寻找攻击机会", "en": "Observes player, looking for an opening"},
+        {"zh": "目光锁定玩家，准备发动攻击", "en": "Fixes gaze on player, readying attack"},
+        {"zh": "盯着玩家，试图抓住机会", "en": "Staring at player, looking for an opening"},
+        {"zh": "盯紧玩家，等待最佳时机", "en": "Holding gaze on player, waiting for the right moment"},
+        {"zh": "锁定玩家，准备致命一击", "en": "Locking onto player, ready for the final strike"},
+        {"zh": "观察玩家，寻找最佳攻击点", "en": "Observing player, searching for the perfect attack point"},
+        {"zh": "它把整条身子转向你", "en": "It turns its whole length toward you."},
+        {"zh": "隔着夜色，它记住了你的位置", "en": "Through the dark, it memorizes where you stand."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "身体开始变得脆弱。", "en": "Body starts to weaken."},
+        {"zh": "蠕动变得缓慢。", "en": "Movement slows down."},
+        {"zh": "鳞片开始剥落。", "en": "Scales start to peel off."},
+        {"zh": "力量正在消退。", "en": "Strength fades away."},
+        {"zh": "伤口开始流血。", "en": "Wounds start bleeding."},
+        {"zh": "疼痛让它蜷缩起来。", "en": "Pain causes it to curl up."},
+        {"zh": "伤口在慢慢愈合。", "en": "Wounds start to heal."},
+        {"zh": "疼痛让它无法集中注意力。", "en": "Pain distracts it."},
+        {"zh": "它开始感到虚弱。", "en": "It feels weak."},
+        {"zh": "它开始缓慢下来。", "en": "It slows down."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它的鳞片闪烁着以太光。", "en": "Its scales shimmer with aether light."},
+        {"zh": "我闻到了它的以太气息。", "en": "I smell the aether around it."},
+        {"zh": "它的心脏跳动着以太之心。", "en": "Its heart beats with aether's pulse."},
+        {"zh": "它的血液像是流动的星光。", "en": "Its blood flows like starlight."},
+        {"zh": "它体内藏着无尽的能量。", "en": "In its body lies endless energy."},
+        {"zh": "它的眼睛盯着我的每一口食物。", "en": "Its eyes lock onto every morsel I have."},
+        {"zh": "它的鳞片在月光下发出微光。", "en": "Its scales glow faintly under moonlight."},
+        {"zh": "它仿佛在等待着什么。", "en": "It seems to be waiting for something."},
+        {"zh": "我感受到它的强大意志。", "en": "I feel its powerful will."},
+        {"zh": "它的每一次呼吸都充满力量。", "en": "Each of its breaths is filled with power."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它快速游动，击破空气。", "en": "It swims fast, shattering the air."},
+        {"zh": "它的身体撞击出火花。", "en": "Its body collides with sparks."},
+        {"zh": "撞击声震动了整个空间。", "en": "The collision shakes the space."},
+        {"zh": "它的蠕动打破寂静。", "en": "Its writhing breaks the silence."},
+        {"zh": "撞击地面，激起尘埃。", "en": "It collides with the ground, raising dust."},
+        {"zh": "撞击发出雷鸣般声响。", "en": "It collides with a thunderous sound."},
+        {"zh": "它的每一次触碰都带电。", "en": "Its every touch is electric."},
+        {"zh": "碰撞的火花照亮了黑暗。", "en": "The sparks from the collision light up the dark."},
+        {"zh": "它的身体扭曲碰撞。", "en": "Its body twists and collides."},
+        {"zh": "撞击地面，引发震动。", "en": "It collides with the ground, causing tremors."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它寻找着同类。", "en": "It seeks its kind."},
+        {"zh": "它用身体摩擦对方。", "en": "It rubs against the other with its body."},
+        {"zh": "它释放出吸引的光芒。", "en": "It emits an attracting light."},
+        {"zh": "它们互相低语着。", "en": "They whisper to each other."},
+        {"zh": "我的躯干贴着另一条，缓缓缠绕。", "en": "My body slides against another, slowly coiling."},
+        {"zh": "它的身体紧密相连。", "en": "Its body is tightly joined."},
+        {"zh": "它们的触角轻轻触碰。", "en": "Their antennae lightly touch."},
+        {"zh": "它们相互依偎。", "en": "They snuggle together."},
+        {"zh": "它在交配中释放能量。", "en": "It releases energy during mating."},
+        {"zh": "两条长身缓缓交缠在一起", "en": "Two long bodies slowly wind together."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它的鳞片闪烁着星光。", "en": "Its scales glint with starlight."},
+        {"zh": "蠕动的身体中藏匿着光芒。", "en": "Glory hides within its writhing form."},
+        {"zh": "它从黑暗中伸展出触手。", "en": "It extends tentacles from the shadows."},
+        {"zh": "饥饿的叫声回荡在夜空中。", "en": "Its hunger echoes through the night."},
+        {"zh": "它的眼睛如同深渊般深邃。", "en": "Its eyes are as deep as the abyss."},
+        {"zh": "蠕虫体内涌动着未知的力量。", "en": "Unknown power surges within the worm."},
+        {"zh": "它的鳞片在月光下闪耀。", "en": "Its scales shine in the moonlight."},
+        {"zh": "触手上的光芒如同星辰。", "en": "The light on its tentacles is like stars."},
+        {"zh": "它的鳞片反射出微弱的光芒。", "en": "Its scales reflect a faint light."},
+        {"zh": "触手在夜色中悄然伸展。", "en": "Tentacles creep out in the night."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它锁定目标，准备攻击。", "en": "It locks on, ready to strike."},
+        {"zh": "目标已被锁定，等待机会。", "en": "Target locked, waiting for an opening."},
+        {"zh": "它盯紧猎物，准备一击毙命。", "en": "It fixes its gaze on the prey."},
+        {"zh": "瞄准，锁定，准备攻击。", "en": "Target acquired, ready to strike."},
+        {"zh": "它紧盯着目标，毫不放松。", "en": "It watches the target intently."},
+        {"zh": "锁定目标，给予致命一击。", "en": "Locking on, delivering the fatal blow."},
+        {"zh": "锁定猎物，准备致命攻击。", "en": "Target locked, prepare for a fatal attack."},
+        {"zh": "锁定，瞄准，准备攻击。", "en": "Lock on, aim, prepare to strike."},
+        {"zh": "瞄准猎物，准备致命一击。", "en": "Aim at the prey, prepare the fatal blow."},
+        {"zh": "它停下蠕动，头部对准你", "en": "It stops writhing and points its head at you."},
+        {"zh": "身体绷紧，像拉满的弓弦", "en": "Its body tenses like a drawn bowstring."},
+        {"zh": "一声嘶鸣，它选定你当猎物", "en": "With a hiss, it picks you as its prey."},
+        {"zh": "它在沙地上划出一道弧线逼近", "en": "It carves an arc through the sand toward you."},
+        {"zh": "触须缠住你的脚，试着拖倒你", "en": "A feeler wraps your foot and tries to trip you."},
+        {"zh": "它把泥土拱开，直冲你来", "en": "It plows up the soil and charges straight at you."},
+        {"zh": "尾端一拍，它知道你跑不掉", "en": "Its tail slaps the ground; it knows you cannot escape."},
+        {"zh": "黑暗中传来它锁定你的嘶声", "en": "A hiss in the dark says it has locked onto you."},
+        {"zh": "它压低身子，蓄势待发", "en": "It lowers its body, ready to spring."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "夜里的召唤让我快得看不清。", "en": "Summoned at night, I move too fast to follow."},
+        {"zh": "锁定目标，准备行动。", "en": "Target locked, ready to act."},
+        {"zh": "它开始追踪目标。", "en": "It begins to track the target."},
+        {"zh": "目标已确定，现在瞄准。", "en": "Target identified, now aim."},
+        {"zh": "锁定，瞄准目标。", "en": "Locking on, aiming at the target."},
+        {"zh": "追踪目标，准备攻击。", "en": "Tracking the target, ready to attack."},
+        {"zh": "夜里的以太蠕虫，从土里拱出来。", "en": "At night the Aether worm pushes up from soil."},
+        {"zh": "我盘起长躯，沙土簌簌落下。", "en": "I coil my long body; sand patters down."},
+        {"zh": "瞄准目标，锁定猎物。", "en": "Targeting the target, locking on to the prey."},
+        {"zh": "锁定目标，准备捕获。", "en": "Targeting, preparing to capture."},
+        {"zh": "它绕着你打转，找薄弱处", "en": "It circles you, hunting for a weak spot."},
+        {"zh": "头高高扬起，随时会砸下来", "en": "Its head rears high, ready to come down."},
+        {"zh": "它贴着地面滑行，沙土翻飞", "en": "It slides along the ground, sand flying."},
+        {"zh": "嘶声越来越近，就在你身后", "en": "The hissing grows closer, right behind you."},
+        {"zh": "它把你的影子当成落点", "en": "It marks your shadow as its landing spot."},
+        {"zh": "一圈圈收紧，像绳索一样", "en": "It tightens in rings, like a rope."},
+        {"zh": "你转身，它已换到另一边", "en": "You turn, and it is already on the other side."},
+        {"zh": "它试探性地撞了你一下", "en": "It tests you with a light bump."},
+        {"zh": "它伏低身体，只等夜色更浓", "en": "It crouches low, waiting for the night to thicken."},
+        {"zh": "它的头跟着你的每一步移动", "en": "Its head follows your every step."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从沙里竖起来，扭成一圈。", "en": "I rise from sand and coil into a ring."},
+        {"zh": "蠕动的身躯，致命的攻击！", "en": "Slithering body,致命 attack!"},
+        {"zh": "触手缠绕，感受我的力量！", "en": "Tentacles wrap, feel my power!"},
+        {"zh": "你连逃跑的机会都没有！", "en": "No chance to run!"},
+        {"zh": "我的每一次攻击都致命！", "en": "Each attack is deadly!"},
+        {"zh": "你触碰到的都是死亡！", "en": "What you touch is death!"},
+        {"zh": "我的力量源自这片星空！", "en": "My power comes from the stars!"},
+        {"zh": "感受以太能量的怒火！", "en": "Feel the fury of the aether!"},
+        {"zh": "无处可逃，只有灭亡！", "en": "Nowhere to run, only death!"},
+        {"zh": "我的每一次挥动都是致命的！", "en": "Each swing is deadly!"},
+        {"zh": "整条身躯抽来，把你掀翻", "en": "Its whole body lashes out and flips you over."},
+        {"zh": "尖牙咬住你的护甲，往里钻", "en": "Fangs clamp your armor and bore inward."},
+        {"zh": "它一头撞在你胸口", "en": "It slams its head into your chest."},
+        {"zh": "尾部横扫，把你扫出几步远", "en": "A sweep of its tail throws you several steps back."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "夜晚，是我们的时刻！", "en": "Night, our time!"},
+        {"zh": "天空中有我的召唤！", "en": "The sky calls me!"},
+        {"zh": "梦境与现实的交界！", "en": "The boundary of dreams and reality!"},
+        {"zh": "黑暗中，我苏醒！", "en": "I awaken in the dark!"},
+        {"zh": "以太之力，觉醒！", "en": "Aether power, awakening!"},
+        {"zh": "吞噬梦魇，释放光明！", "en": "Devour nightmares, release light!"},
+        {"zh": "在这梦境与现实之间！", "en": "Between dreams and reality!"},
+        {"zh": "我是以太的守护者！", "en": "I am the guardian of the aether!"},
+        {"zh": "夜晚，属于以太娜迦！", "en": "The night, for the Aether Naga!"},
+        {"zh": "我的存在，即是黑夜！", "en": "My presence is the night!"},
+        {"zh": "夜里沙土翻起，它钻了出来", "en": "At night the sand heaves and it emerges."},
+        {"zh": "召唤的嘶声在黑暗中响起", "en": "A summoning hiss sounds in the dark."},
+        {"zh": "它从地底一节一节钻出", "en": "It rises from the ground, segment by segment."},
+        {"zh": "月光下，巨大的影子铺开", "en": "Under the moon, a huge shadow spreads."},
+        {"zh": "孢子与尘土中，它直起身", "en": "Through spores and dust, it rears up."},
+        {"zh": "大地裂开一道蜿蜒的缝", "en": "The earth splits in a winding seam."},
+        {"zh": "它以嘶鸣宣告自己的到来", "en": "It announces itself with a long hiss."},
+        {"zh": "夜风带来它的腥气", "en": "The night wind carries its stench."},
+        {"zh": "沙丘起伏，它就在下面", "en": "The dune ripples; it is underneath."},
+        {"zh": "它盘在月光里，等你靠近", "en": "It coils in the moonlight, waiting for you to come near."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰灼烧着我的皮肤。", "en": "Flames burn my skin."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠落的冲击撕裂了我的身体。", "en": "Impact of fall rips my body."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水淹没了我的呼吸孔。", "en": "Water blocks my breathing."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸撕开了我的皮肤。", "en": "Explosion tears my skin."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭钉进我的腹节，我拧得更快。", "en": "An arrow lodges in my segment and I twist faster."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法之力侵蚀了我的鳞片。", "en": "Magic erodes my scales."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿感越来越强。", "en": "Hunger grows stronger."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闪电击中了我的神经。", "en": "Lightning sears my nerves."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空之力侵蚀着我的身躯。", "en": "Void erodes my body."}
+      ]
+    }
+  }
+}

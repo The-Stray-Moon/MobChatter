@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我踩着碎玻璃走。", "en": "I walk over broken glass."},
+        {"zh": "我的靴子拖在地上。", "en": "My boots drag on the ground."},
+        {"zh": "我像人，但走路不太对。", "en": "I look human, but I don't walk right."},
+        {"zh": "我一步一步找东西。", "en": "Step by step, I scavenge."},
+        {"zh": "我把一扇门推开。", "en": "I push a door open."},
+        {"zh": "我的肩上扛着袋子。", "en": "I carry a sack on my shoulder."},
+        {"zh": "我从废弃车后面走过。", "en": "I walk past the wrecked truck."},
+        {"zh": "我弯着腰找。", "en": "I walk stooped, searching."},
+        {"zh": "我把路边的箱子踢开。", "en": "I kick the crate by the road aside."},
+        {"zh": "我贴着墙走。", "en": "I move along the wall."},
+        {"zh": "我的脚步很重，很慢。", "en": "My steps are heavy and slow."},
+        {"zh": "我绕过一具尸体。", "en": "I step around a body."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我蹲在废墟上翻东西。", "en": "I crouch in the rubble, rummaging."},
+        {"zh": "我把袋子倒过来抖。", "en": "I turn the sack upside down and shake it."},
+        {"zh": "我在数还剩多少。", "en": "I count what's left."},
+        {"zh": "我把一块布缠在手上。", "en": "I wrap a cloth around my hand."},
+        {"zh": "我在听街上的声音。", "en": "I listen to the street."},
+        {"zh": "我的眼睛一直看远处。", "en": "My eyes stay on the distance."},
+        {"zh": "我把一只鞋脱下来。", "en": "I take off one boot."},
+        {"zh": "我一动不动，蹲着。", "en": "I crouch, motionless."},
+        {"zh": "我的伤口用破布包着。", "en": "My wound is bound with rags."},
+        {"zh": "我在想下一顿。", "en": "I am thinking of the next meal."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你也是来翻东西的？", "en": "Are you scavenging too?"},
+        {"zh": "我从袋子上抬起头。", "en": "I lift my head from the sack."},
+        {"zh": "你的鞋比我好。", "en": "Your boots are better than mine."},
+        {"zh": "你手上是什么？", "en": "What's in your hand?"},
+        {"zh": "别靠我的袋子太近。", "en": "Not so close to my sack."},
+        {"zh": "我撑着膝盖直起身。", "en": "I push up on my knees."},
+        {"zh": "你的眼睛很干净。", "en": "Your eyes are clean."},
+        {"zh": "我退到墙边。", "en": "I retreat to the wall."},
+        {"zh": "我在看你的袋子。", "en": "I'm looking at your bag."},
+        {"zh": "你走路的声音我认得。", "en": "I know the sound of your walk."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我按住手臂。", "en": "I press my arm."},
+        {"zh": "袋子掉在地上。", "en": "The sack hit the ground."},
+        {"zh": "我退到墙后。", "en": "I retreat behind the wall."},
+        {"zh": "我趴进瓦砾里，不敢抬头。", "en": "I drop flat into the rubble and keep my head down."},
+        {"zh": "我咬着牙，把布缠紧。", "en": "I grit my teeth and cinch the rag."},
+        {"zh": "我贴着墙蹲下去。", "en": "I crouch against the wall."},
+        {"zh": "腿还在，就走得动。", "en": "Legs still work; I can walk."},
+        {"zh": "我撑着膝盖起来。", "en": "I push up on my knees."},
+        {"zh": "我把袋子捡回来。", "en": "I pick the sack back up."},
+        {"zh": "血滴在玻璃碴上，我按住。", "en": "Blood drips onto the glass shards; I press it shut."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那个东西能吃吗？", "en": "Can that be eaten?"},
+        {"zh": "你搁到那块碎砖上。", "en": "Set it on that broken brick."},
+        {"zh": "我踩着玻璃碴走过去。", "en": "I walk over, glass crunching."},
+        {"zh": "我不抢，我等你退到街对面。", "en": "I won't snatch; get across the street."},
+        {"zh": "这个味道很熟。", "en": "That smell is familiar."},
+        {"zh": "我闻到罐头里的油味了。", "en": "I can smell the oil in that can."},
+        {"zh": "我肚子响得整条街都听见。", "en": "My stomach growls loud enough for the whole street."},
+        {"zh": "我饿了好几天。", "en": "I have been hungry for days."},
+        {"zh": "手别抖，我会以为你要抢。", "en": "Steady. Shaking looks like a grab."},
+        {"zh": "再掰一半给我。", "en": "Break me off half of it."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到我，我退开了。", "en": "You bumped me and I backed off."},
+        {"zh": "我下意识举手。", "en": "I raise my hands on instinct."},
+        {"zh": "我的袋子掉了。", "en": "My sack fell."},
+        {"zh": "对不起，我没看见。", "en": "Sorry, I didn't see you."},
+        {"zh": "我蹲下捡东西。", "en": "I crouch to pick things up."},
+        {"zh": "别推，我腰上有旧伤。", "en": "Don't shove; my back's hurt."},
+        {"zh": "我们撞在一起，灰落下来。", "en": "We collide and dust falls."},
+        {"zh": "你踩到我在捡东西的手。", "en": "You stepped on my scavenging hand."},
+        {"zh": "我把袋子抱回怀里。", "en": "I clutch the sack back to my chest."},
+        {"zh": "我慢慢站直。", "en": "I straighten up slowly."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这种日子里不谈这些。", "en": "Not in days like these."},
+        {"zh": "我连明天都不确定。", "en": "I'm not sure of tomorrow."},
+        {"zh": "我只想活下去。", "en": "I only want to survive."},
+        {"zh": "你走吧，街上快没人了。", "en": "Go on; the street's emptying."},
+        {"zh": "我摇头，脖子上有灰。", "en": "I shake my head; dust falls."},
+        {"zh": "我们不熟，别靠太近。", "en": "We don't know each other. Keep back."},
+        {"zh": "我还有很多活没干。", "en": "I have work left."},
+        {"zh": "你手里那点东西自己留着。", "en": "Keep what you have."},
+        {"zh": "我把袋子抱紧。", "en": "I hold the sack tighter."},
+        {"zh": "天一黑，街上会有别的东西。", "en": "At dark, other things walk here."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我捡起来，擦了擦。", "en": "I pick it up and wipe it."},
+        {"zh": "这个还能用。", "en": "This is still usable."},
+        {"zh": "不是我的，我放回原处。", "en": "Not mine; I put it back."},
+        {"zh": "我把它塞进袋子。", "en": "I stuff it in the sack."},
+        {"zh": "这个能换东西。", "en": "This could trade."},
+        {"zh": "我在手里掂了掂。", "en": "I weigh it in my hand."},
+        {"zh": "这个换不了东西。", "en": "This won't trade for anything."},
+        {"zh": "你掉的？还你。", "en": "You dropped it? Here."},
+        {"zh": "我把半瓶水拧好盖子。", "en": "I screw the cap back on a half bottle of water."},
+        {"zh": "这个有点锈。", "en": "This is a bit rusty."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在我袋子边站着。", "en": "You're standing by my sack."},
+        {"zh": "我把头从袋子上抬起来。", "en": "I lift my head from the sack."},
+        {"zh": "我手边就有一块砖。", "en": "There is a brick within reach."},
+        {"zh": "你别再往前。", "en": "Don't come further."},
+        {"zh": "我扶着墙立起身。", "en": "I brace on the wall and get up."},
+        {"zh": "这些东西是我先看到的。", "en": "I saw these first."},
+        {"zh": "退开，这堆是我的。", "en": "Back off. This pile is mine."},
+        {"zh": "我们没必要动手。", "en": "We don't have to do this."},
+        {"zh": "我把袋子往身后挪。", "en": "I shift the sack behind me."},
+        {"zh": "你背包的拉链没拉严。", "en": "Your pack zipper is still open."},
+        {"zh": "我压低身子贴着门框。", "en": "I duck low by the door frame."},
+        {"zh": "我摸到腰上的东西。", "en": "My hand finds what's at my waist."},
+        {"zh": "你手里那份我要一半。", "en": "I want half of what you carry."},
+        {"zh": "这条街我先来的。", "en": "I got to this street first."},
+        {"zh": "我把袋子挪到身后。", "en": "I shift the sack behind me."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我隔着三米跟着你。", "en": "I trail you at three metres."},
+        {"zh": "你踩一块砖，我踩一块砖。", "en": "You take a brick; I take one."},
+        {"zh": "我在等你放下袋子。", "en": "I wait for you to set the bag down."},
+        {"zh": "你听见我的靴子吗。", "en": "Do you hear my boots?"},
+        {"zh": "我贴在墙后面。", "en": "I press behind the wall."},
+        {"zh": "你再走两步就到拐角。", "en": "Two more steps and you're at the corner."},
+        {"zh": "我把手放在腰间。", "en": "I put my hand at my waist."},
+        {"zh": "你离那堆箱子还有十步。", "en": "Ten more steps and you reach those crates."},
+        {"zh": "我在拐角停住了。", "en": "I stopped at the corner."},
+        {"zh": "我从门框后动了。", "en": "I move from behind the frame."},
+        {"zh": "我把身体贴在门框后。", "en": "I press behind the door frame."},
+        {"zh": "你踩碎玻璃的声音很清楚。", "en": "Your steps on the glass are clear."},
+        {"zh": "我在数你还有多少水。", "en": "I am counting how much water you have."},
+        {"zh": "你绕不过我这边。", "en": "You can't get past my side."},
+        {"zh": "我往前挪了半格。", "en": "I shifted half a block forward."},
+        {"zh": "你退到废车旁边了。", "en": "You've backed to the wreck."},
+        {"zh": "那辆车挡不住我。", "en": "That wreck won't stop me."},
+        {"zh": "我把袖子里的东西抽出来。", "en": "I slide the thing out of my sleeve."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我挥了一下。", "en": "I swing once."},
+        {"zh": "我的拳头打在你肩上。", "en": "My fist lands on your shoulder."},
+        {"zh": "我抡起捡来的铁管。", "en": "I swing the pipe I picked off the street."},
+        {"zh": "我推你一把。", "en": "I shove you."},
+        {"zh": "你退了半步。", "en": "You gave half a step."},
+        {"zh": "我抓你的袋子。", "en": "I grab your bag."},
+        {"zh": "我又打了一下。", "en": "I hit again."},
+        {"zh": "我们扭在一起。", "en": "We grapple."},
+        {"zh": "我退到废车后面。", "en": "I fall back behind the wreck."},
+        {"zh": "我把手放下来了。", "en": "I lower my hand."},
+        {"zh": "我用肩撞你的胸口。", "en": "I drive my shoulder into your chest."},
+        {"zh": "我拿铁管横着扫你的肋骨。", "en": "I sweep the pipe sideways across your ribs."},
+        {"zh": "这一下打在你腰侧。", "en": "That landed on your flank."},
+        {"zh": "你被推到墙上。", "en": "You're shoved against the wall."},
+        {"zh": "我一脚踩住你受伤的腿。", "en": "I stomp down on your bad leg."},
+        {"zh": "我们都摔在地上。", "en": "We both go down."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从那栋楼里出来。", "en": "I come out of that building."},
+        {"zh": "街上没有人。", "en": "The street is empty."},
+        {"zh": "我的袋子还是空的。", "en": "My sack is still empty."},
+        {"zh": "我拉了拉衣领。", "en": "I pull my collar up."},
+        {"zh": "街那头有烟升起来。", "en": "Smoke is rising down the street."},
+        {"zh": "我踩着碎石走。", "en": "I walk over the rubble."},
+        {"zh": "我把门关上。", "en": "I close the door."},
+        {"zh": "我听见有东西在动。", "en": "I hear something moving."},
+        {"zh": "我开始翻找。", "en": "I begin to search."},
+        {"zh": "我蹲下来看地面。", "en": "I crouch and check the ground."},
+        {"zh": "我选了条小路。", "en": "I picked a side street."},
+        {"zh": "我蹲在墙根等着。", "en": "I crouch by the wall and wait."},
+        {"zh": "我把背包带子勒紧。", "en": "I cinch the pack strap."},
+        {"zh": "废墟里还有东西。", "en": "There are still things in the rubble."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烧到我的衣服，我打滚。", "en": "Fire catches my clothes and I roll."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从楼上摔下来，腿先着地。", "en": "I fell from the floor and landed on my legs."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进喉咙，我抓着岸边。", "en": "Water floods my throat; I claw at the bank."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我掀到车后面。", "en": "The blast throws me behind the truck."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一枚箭头扎进我的肩。", "en": "An arrowhead sticks in my shoulder."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "紫色的光让我眼前发黑。", "en": "Violet light darkens my sight."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我饿得站不稳。", "en": "Too hungry to stand steady."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光把整条街照白。", "en": "The flash bleaches the whole street."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地陷下去，袋子还攥在手里。", "en": "The ground gave way, but I still clutched my bag."}
+      ]
+    }
+  }
+}

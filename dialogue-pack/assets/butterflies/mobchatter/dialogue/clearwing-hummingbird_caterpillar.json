@@ -1,0 +1,237 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的身子一拱一伸。", "en": "My body arches and stretches."},
+        {"zh": "我啃了一口叶边。", "en": "I take a bite from the leaf edge."},
+        {"zh": "我挪到叶子另一头。", "en": "I creep to the other end of the leaf."},
+        {"zh": "我差一点越过叶缘。", "en": "I nearly cross the leaf's rim."},
+        {"zh": "我赶紧缩回来。", "en": "I pull back quickly."},
+        {"zh": "离开叶子我会死的。", "en": "Off the leaf, I would die."},
+        {"zh": "我贴着叶面，几乎透明。", "en": "I cling to the leaf, almost transparent."},
+        {"zh": "我的小脚一下一下抓着。", "en": "My little feet grip, one after another."},
+        {"zh": "我绕过一小堆虫粪。", "en": "I crawl around a little pile of droppings."},
+        {"zh": "我朝叶心爬。", "en": "I crawl toward the middle of the leaf."},
+        {"zh": "我在两片叶之间换了个位置。", "en": "I move to another leaf."},
+        {"zh": "平原的叶子上有我。", "en": "There is me on a plains leaf."},
+        {"zh": "我停下来，抬头嗅。", "en": "I stop and raise my head to sniff."},
+        {"zh": "我又低下头啃。", "en": "I lower my head and chew again."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我停在叶心，一动不动。", "en": "I stop at the leaf's heart and hold still."},
+        {"zh": "我把身子蜷成半圈。", "en": "I curl into a half circle."},
+        {"zh": "我的头抬起来，又低下。", "en": "I lift my head, then lower it."},
+        {"zh": "我嚼得很起劲。", "en": "I chew with enthusiasm."},
+        {"zh": "我在找下一口。", "en": "I am looking for the next bite."},
+        {"zh": "太阳晒着我的背。", "en": "The sun warms my back."},
+        {"zh": "我不敢走太远。", "en": "I dare not go far."},
+        {"zh": "叶子是我的全部。", "en": "The leaf is everything to me."},
+        {"zh": "我慢慢蠕动了一下。", "en": "I wriggle slowly."},
+        {"zh": "雪地上没有叶子，我不能去。", "en": "No leaves on the snow; I cannot go there."},
+        {"zh": "我贴着叶脉休息。", "en": "I rest against the vein."},
+        {"zh": "我把自己藏进叶子的褶皱。", "en": "I hide in the leaf's fold."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你可以把我拿起来。", "en": "You may pick me up."},
+        {"zh": "别捏太紧。", "en": "Do not squeeze."},
+        {"zh": "你手上的叶子不错。", "en": "The leaf in your hand is good."},
+        {"zh": "你把我放回去好吗？", "en": "Would you put me back?"},
+        {"zh": "我抬头看你，看不太清。", "en": "I lift my head; you are hard to make out."},
+        {"zh": "别把我放在地上。", "en": "Do not set me on the ground."},
+        {"zh": "我会饿死的。", "en": "I would starve."},
+        {"zh": "别把我从叶子上挪走，好吗？", "en": "Please don't move me off this leaf."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我缩起来了。", "en": "I curl up."},
+        {"zh": "我掉了半片叶。", "en": "Half a leaf drops away."},
+        {"zh": "我的脚抓不住叶脉了。", "en": "My feet can't hold the leaf vein."},
+        {"zh": "我抱紧叶柄不放。", "en": "I cling to the leaf stem."},
+        {"zh": "我的身子弓起来。", "en": "My body arches."},
+        {"zh": "我怕得不敢动。", "en": "I am too frightened to move."},
+        {"zh": "我被压得蜷成一团。", "en": "I'm squeezed into a tight curl."},
+        {"zh": "我慢慢爬开。", "en": "I crawl slowly away."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "叶子！我要叶子。", "en": "A leaf! I want the leaf."},
+        {"zh": "这个可以吃吗？", "en": "Can I eat this?"},
+        {"zh": "我闻了闻，是叶子。", "en": "I sniff; it is a leaf."},
+        {"zh": "我啃出一个缺口，正好够我躲。", "en": "I gnaw a notch just big enough to hide in."},
+        {"zh": "好吃。", "en": "That is good."},
+        {"zh": "再给我一片叶子好吗？", "en": "May I have one more leaf?"},
+        {"zh": "别的我都不要。", "en": "I want nothing else."},
+        {"zh": "你手上还有一片吗？", "en": "Do you have another leaf?"},
+        {"zh": "我爬到你手指上。", "en": "I crawl onto your finger."},
+        {"zh": "别抖，我会掉。", "en": "Do not shake, or I will fall."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一头撞在叶脉上。", "en": "I bump into the leaf vein."},
+        {"zh": "你碰到我，我缩起来了。", "en": "You touch me and I curl up."},
+        {"zh": "你碰得我紧抓叶边。", "en": "Your touch makes me grip the leaf edge."},
+        {"zh": "我的脚抓着叶面。", "en": "My feet grip the leaf."},
+        {"zh": "这片叶子被我压弯了。", "en": "The leaf dips under me."},
+        {"zh": "我在你手指上绕了一圈。", "en": "I loop around your finger."},
+        {"zh": "我抬起身子看。", "en": "I rear up to look."},
+        {"zh": "我又贴回叶子上。", "en": "I press myself back to the leaf."},
+        {"zh": "你不要再碰我了。", "en": "Do not touch me again."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这件事以后再说。", "en": "That comes later."},
+        {"zh": "我现在的任务是吃。", "en": "My task now is eating."},
+        {"zh": "等我长出翅膀。", "en": "Wait until I grow wings."},
+        {"zh": "我在叶背上待着。", "en": "I stay on the underside of the leaf."},
+        {"zh": "同类的味道我没有闻到。", "en": "I have not smelled any kin."},
+        {"zh": "叶子比这件事重要。", "en": "The leaf matters more."},
+        {"zh": "我再啃两口。", "en": "Two more bites."},
+        {"zh": "风一吹，我就抓紧。", "en": "The wind blows and I grip."},
+        {"zh": "我继续吃。", "en": "I keep eating."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你把我拿起来了。", "en": "You have picked me up."},
+        {"zh": "你手心里很暖。", "en": "Your palm is warm."},
+        {"zh": "把我放到另一片叶子上。", "en": "Set me on another leaf."},
+        {"zh": "别放在地上，我会饿死。", "en": "Not on the ground; I would starve."},
+        {"zh": "我抓紧你的手指。", "en": "I grip your finger."},
+        {"zh": "这是我第一次离叶子这么远。", "en": "This is my first time this far from a leaf."},
+        {"zh": "我有点怕。", "en": "I am a little scared."},
+        {"zh": "上面有叶子吗？", "en": "Is there a leaf up there?"},
+        {"zh": "我看见了，那边。", "en": "I see one, over there."},
+        {"zh": "就放那里。", "en": "Put me there."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我做不了什么。", "en": "There is little I can do."},
+        {"zh": "我只会吃叶子。", "en": "I only eat leaves."},
+        {"zh": "我只会啃叶，不会躲。", "en": "I only know how to chew leaves, not hide."},
+        {"zh": "我太小了。", "en": "I am too small."},
+        {"zh": "我无处可躲。", "en": "There is nowhere to hide."},
+        {"zh": "别把我弄下叶子。", "en": "Do not knock me off the leaf."},
+        {"zh": "我还没变成蛾。", "en": "I have not become a moth yet."},
+        {"zh": "我怕。", "en": "I am afraid."},
+        {"zh": "求你了。", "en": "Please."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我往叶心爬。", "en": "I crawl toward the leaf's center."},
+        {"zh": "我尽量不动。", "en": "I try not to move."},
+        {"zh": "我的脚在抖。", "en": "My feet are trembling."},
+        {"zh": "叶子边缘太近了。", "en": "The leaf's edge is too close."},
+        {"zh": "我抓紧叶脉。", "en": "I grip the vein."},
+        {"zh": "我看不见你了。", "en": "I cannot see you anymore."},
+        {"zh": "我把自己蜷起来。", "en": "I curl myself up."},
+        {"zh": "我停在叶脉上，不敢动。", "en": "I freeze on the leaf vein."},
+        {"zh": "我想回到叶子上。", "en": "I want to be back on the leaf."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被碰得翻过去了。", "en": "The blow rolls me over."},
+        {"zh": "我缩成一圈。", "en": "I curl into a ring."},
+        {"zh": "我掉了一小段。", "en": "I drop a short way."},
+        {"zh": "我抓到叶面了。", "en": "I catch the leaf."},
+        {"zh": "我说不出疼。", "en": "I cannot say it hurts."},
+        {"zh": "我的身子软了。", "en": "My body goes limp."},
+        {"zh": "我这身透明翅，还只是幼虫。", "en": "These clear wings are still larval."},
+        {"zh": "我抓紧了。", "en": "I am holding on."},
+        {"zh": "我快撑不住。", "en": "I cannot hold much longer."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从卵里出来，第一次咬叶子。", "en": "I hatched from an egg and took my first bite of leaf."},
+        {"zh": "我在平原的叶子上。", "en": "I am on a plains leaf."},
+        {"zh": "雪地边上也能活，只要有叶。", "en": "I can live by the snow too, as long as there are leaves."},
+        {"zh": "我只是一条小虫。", "en": "I am only a small worm."},
+        {"zh": "我慢慢爬到叶心。", "en": "I crawl slowly to the leaf's heart."},
+        {"zh": "我的第一口是叶边。", "en": "My first bite was at the leaf's edge."},
+        {"zh": "叶子上面很亮。", "en": "It is bright on the leaf."},
+        {"zh": "我出生就会吃。", "en": "I knew how to eat from birth."},
+        {"zh": "我把自己藏在叶背。", "en": "I hide under the leaf."},
+        {"zh": "我要一直吃到长大。", "en": "I will eat until I grow up."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "叶子烧起来，我赶紧往前爬。", "en": "The leaf catches fire and I crawl away fast."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉到地上，找不到叶子。", "en": "I land on the ground and find no leaf."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我泡在水里，身子沉。", "en": "I soak in the water and my body sinks."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我从叶上吹走。", "en": "The blast blows me off the leaf."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭擦过我的身子。", "en": "An arrow grazes my body."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "光打过来，我缩成一团。", "en": "Light strikes and I curl into a ball."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我离开叶子太久了。", "en": "I have been off a leaf too long."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷声太响，我把头埋起来。", "en": "The thunder is too loud and I bury my head."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没有叶子，我什么也抓不住。", "en": "No leaf; there is nothing to grip."}
+      ]
+    }
+  }
+}

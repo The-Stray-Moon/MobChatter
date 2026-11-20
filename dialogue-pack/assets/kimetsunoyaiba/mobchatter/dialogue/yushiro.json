@@ -1,0 +1,269 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出嘶嘶声，慢慢接近玩家", "en": "Sibilant, creeping towards the player"},
+        {"zh": "挥舞着苍白的手臂，试图抓住玩家", "en": "Swinging pale arms, trying to grab the player"},
+        {"zh": "摇摆着头，寻找食物", "en": "Shaking head, searching for food"},
+        {"zh": "慢慢移动，警惕地注视四周", "en": "Moving slowly, cautiously looking around"},
+        {"zh": "蹒跚着前行，发出微弱的呢喃", "en": "Stumbling forward, whispering faintly"},
+        {"zh": "张开干瘪的嘴巴，试图咬住玩家", "en": "Opening dry mouth, trying to bite the player"},
+        {"zh": "低头寻找地面的腐肉", "en": "Bending down to search for rotting flesh"},
+        {"zh": "缓慢移动，眼睛闪烁着绿色光芒", "en": "Moving slowly, green eyes glowing"},
+        {"zh": "发出低沉的嘶嘶声，表明它在思考", "en": "Issuing low hiss, indicating it's thinking"},
+        {"zh": "慢慢地舔着自己的手，似乎在自舔伤口", "en": "Slowly licking its own hand, as if cleaning a wound"},
+        {"zh": "贴着墙根溜过去", "en": "I slip along the base of the wall."},
+        {"zh": "阳光太烈，绕进阴影", "en": "The sun is harsh; I slip into the shade."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静地站立，眼睛盯着地面", "en": "Standing still, eyes on the ground"},
+        {"zh": "用干枯的手指整理自己的衣服", "en": "Adjusting clothes with withered fingers"},
+        {"zh": "目光空洞地四处张望", "en": "Staring aimlessly around"},
+        {"zh": "坐在地上，低垂着头", "en": "Sitting on the ground, head hanging"},
+        {"zh": "缓慢地摇摆着身体，似乎在等待", "en": "Shaking body slowly, waiting"},
+        {"zh": "轻声呢喃，似乎在自言自语", "en": "Whispering softly, to himself"},
+        {"zh": "双手交叉放在胸前，显得很疲惫", "en": "Crossing arms over chest, looking weary"},
+        {"zh": "在原地踱步，似乎在寻找什么东西", "en": "Pacing, as if searching for something"},
+        {"zh": "轻轻挥动手臂，似乎在试图唤醒什么", "en": "Swinging arms, as if trying to awaken something"},
+        {"zh": "偶尔低声自语，但很快又沉默下来", "en": "Occasionally muttering, but quickly falls silent"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "突然抬起头，盯着玩家", "en": "Suddenly looks up, staring at the player"},
+        {"zh": "向玩家方向转动脑袋，眼神空洞", "en": "Turning head towards the player, eyes vacant"},
+        {"zh": "快速转动脖子，寻找玩家的身影", "en": "Quickly turning neck, looking for the player"},
+        {"zh": "目光从玩家身上移开，又回到地面", "en": "Eyes move from player to the ground"},
+        {"zh": "凝视着玩家，试图确定威胁", "en": "Staring at the player, trying to assess threat"},
+        {"zh": "瞪大眼睛，盯着玩家，然后缓缓转头", "en": "Bolting eyes towards player, then slowly turning head"},
+        {"zh": "目光聚焦在玩家身上，随后再次分散", "en": "Eyes focus on player, then drift away"},
+        {"zh": "看向玩家，似乎在犹豫是否袭击", "en": "Looking at the player, deciding whether to attack"},
+        {"zh": "目光闪烁，似乎在思考下一步", "en": "Eyes flicker, contemplating next move"},
+        {"zh": "盯着玩家，低垂的头颅突然抬起", "en": "Staring at the player, head suddenly lifting"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "愈史郎受了伤，缓缓倒下。", "en": "Yushiro is wounded and falls slowly."},
+        {"zh": "愈史郎受了些伤，虚弱地站着。", "en": "Yushiro is hurt, standing weakly."},
+        {"zh": "愈史郎受了伤，蹒跚前行。", "en": "Yushiro is hurt, staggering forward."},
+        {"zh": "愈史郎受了伤，痛苦地嘶吼。", "en": "Yushiro is hurt, howling in pain."},
+        {"zh": "愈史郎受了伤，发出低沉的呻吟。", "en": "Yushiro is hurt, groaning lowly."},
+        {"zh": "愈史郎受了伤，踉跄地退后。", "en": "Yushiro is hurt, staggering back."},
+        {"zh": "愈史郎受了伤，缓缓倒在地上。", "en": "Yushiro is hurt, falling to the ground."},
+        {"zh": "愈史郎受了伤，无力地挣扎。", "en": "Yushiro is hurt, struggling weakly."},
+        {"zh": "愈史郎受了伤，痛苦地咆哮。", "en": "Yushiro is hurt, roaring in pain."},
+        {"zh": "愈史郎受了伤，虚弱地摇晃。", "en": "Yushiro is hurt,摇晃 weakly."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥渴难耐，想要品尝你的鲜血！", "en": "Hunger drives me to taste your blood!"},
+        {"zh": "你身上的味道引来了我的注意！", "en": "Your scent calls to me."},
+        {"zh": "我的力量来自于你的痛苦！", "en": "My power comes from your pain."},
+        {"zh": "与我同归于尽吧，永生在即！", "en": "Perish with me, eternal life awaits!"},
+        {"zh": "你的恐惧给了我力量！", "en": "Your fear fuels me!"},
+        {"zh": "靠近我，让我的血液流淌！", "en": "Come closer, let my blood flow."},
+        {"zh": "你是我下一个猎物！", "en": "You're my next victim."},
+        {"zh": "你递来的血，我先闻了闻。", "en": "I sniff the blood you offer before taking it."},
+        {"zh": "你的血，不如珠世大人的。", "en": "Your blood is nothing next to Lady Tamayo's."},
+        {"zh": "我是不死之身，永生的象征！", "en": "I am the embodiment of eternal life."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "阳光下，我的存在显而易见！", "en": "Sunlight reveals my presence."},
+        {"zh": "躲开阳光，否则你将被消灭！", "en": "Avoid the sun, or you'll be destroyed!"},
+        {"zh": "你阻挡了我的道路，准备战斗！", "en": "You block my path, prepare to fight!"},
+        {"zh": "你的存在威胁到了我！", "en": "Your presence endangers me!"},
+        {"zh": "你的碰撞激起了我的怒火！", "en": "Your collision angers me!"},
+        {"zh": "你撞到我，我袖子里的血术亮了。", "en": "You bump me, and the blood art in my sleeve glows."},
+        {"zh": "阳光下，你无处可藏！", "en": "In the sun, you have nowhere to hide!"},
+        {"zh": "你挡住了我的去路，必须清除！", "en": "You block my way, must be cleared!"},
+        {"zh": "你的干扰让我无法前进！", "en": "Your interference blocks my path!"},
+        {"zh": "我的存在不容挑战！", "en": "My presence cannot be challenged!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "与我交配，共同创造不死之灵！", "en": "Mate with me, create an undying spirit!"},
+        {"zh": "你是我理想的伴侣，让我们结合！", "en": "You are my perfect mate, let's unite!"},
+        {"zh": "与我结合，成为不死的眷侣！", "en": "Unite with me, become an eternal couple!"},
+        {"zh": "让我们的灵魂永生不灭！", "en": "Let our souls be eternal!"},
+        {"zh": "我的血液将注入你的身体！", "en": "My blood flows into you!"},
+        {"zh": "与我交配，共享不死之力！", "en": "Mate with me, share the power of immortality!"},
+        {"zh": "你的灵魂将与我融合！", "en": "Your soul will merge with mine!"},
+        {"zh": "让我们一起永恒存在！", "en": "Let's exist eternally together!"},
+        {"zh": "与我结合，永生不再遥远！", "en": "Unite with me, immortality is near!"},
+        {"zh": "你的存在让我更有力量！", "en": "Your presence strengthens me!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "滴溜溜转眼珠，吸取你灵魂！", "en": "Roll eyes and drain your soul!"},
+        {"zh": "饥渴的双眼盯着你，愈史郎来了！", "en": "Hungry eyes on you, Yushiro comes!"},
+        {"zh": "吸血鬼之吻，灵魂归我！", "en": "Vampire's kiss, soul mine!"},
+        {"zh": "血鬼术启动，灵魂摇曳！", "en": "Blood magic active, soul swaying!"},
+        {"zh": "你就是我的新灵魂食粮！", "en": "You're my new soul snack!"},
+        {"zh": "滴答滴答，灵魂的滴答声！", "en": "Tick tock, soul's tick tock!"},
+        {"zh": "灵魂之灯，为你而燃！", "en": "Soul lantern, for you!"},
+        {"zh": "愈史郎来了，灵魂受苦！", "en": "Yushiro comes, soul suffers!"},
+        {"zh": "黑暗中吸取你的灵魂！", "en": "Soul drain in the dark!"},
+        {"zh": "魂归深渊，灵魂吞噬！", "en": "Soul into abyss, devour!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你逃不掉，愈史郎抓你！", "en": "You can't escape, Yushiro got you!"},
+        {"zh": "血鬼术启动，瞄准猎物！", "en": "Blood magic active, target acquired!"},
+        {"zh": "愈史郎的视线，锁定目标！", "en": "Yushiro's gaze, target locked!"},
+        {"zh": "灵魂的呼唤，愈史郎找你！", "en": "Soul's call, Yushiro seeks!"},
+        {"zh": "血之渴望，愈史郎追踪！", "en": "Blood craving, Yushiro tracks!"},
+        {"zh": "灵魂的味道，愈史郎闻到！", "en": "Soul's scent, Yushiro detects!"},
+        {"zh": "愈史郎来了，灵魂颤抖！", "en": "Yushiro comes, soul quivers!"},
+        {"zh": "黑暗中寻找，愈史郎发现！", "en": "Darkness reveals, Yushiro finds!"},
+        {"zh": "灵魂的气息，愈史郎感知！", "en": "Soul's aura, Yushiro senses!"},
+        {"zh": "愈史郎追踪，灵魂哀鸣！", "en": "Yushiro tracks, soul wails!"},
+        {"zh": "珠世大人说过，不能放你走", "en": "Lady Tamayo said you must not leave."},
+        {"zh": "你身上血腥味很重", "en": "The smell of blood on you is heavy."},
+        {"zh": "纸符一扬，看见的都不真", "en": "Talismans rise; nothing you see is real."},
+        {"zh": "别乱动，术已经发动", "en": "Do not move. The art is already cast."},
+        {"zh": "你走错了地方", "en": "You have come to the wrong place."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "愈史郎的尖牙，即将咬碎！", "en": "Yushiro's fangs, soon to bite!"},
+        {"zh": "灵魂要被吸干了！", "en": "Soul's nearly drained!"},
+        {"zh": "愈史郎的血鬼术，即将发动！", "en": "Yushiro's blood magic coming!"},
+        {"zh": "愈史郎的吸血之吻，即将降临！", "en": "Yushiro's vampiric kiss coming!"},
+        {"zh": "愈史郎的黑暗，即将笼罩！", "en": "Yushiro's darkness descends!"},
+        {"zh": "愈史郎的利爪，即将撕裂！", "en": "Yushiro's claws, tearing!"},
+        {"zh": "愈史郎的尖牙，即将贯穿！", "en": "Yushiro's fangs, piercing!"},
+        {"zh": "愈史郎的黑暗力量，即将吞噬！", "en": "Yushiro's dark force, devouring!"},
+        {"zh": "愈史郎的吸血之吻，即将吻落！", "en": "Yushiro's vampiric kiss! Kiss!"},
+        {"zh": "幻术铺开，你的方向错了", "en": "The illusion spreads; your direction is wrong."},
+        {"zh": "数三下，你就看不见我", "en": "Count to three and you will lose sight of me."},
+        {"zh": "符纸在暗处一张张亮起", "en": "Talismans light up one by one in the dark."},
+        {"zh": "你的眼睛已不听使唤", "en": "Your eyes no longer obey you."},
+        {"zh": "再往前一步就进我的术", "en": "One more step and you are inside my art."},
+        {"zh": "我把你的影子画歪了", "en": "I have skewed the shape of your shadow."},
+        {"zh": "记住，这一切都是假的", "en": "Remember: all of this is false."},
+        {"zh": "你听见的脚步声是假的", "en": "The footsteps you hear are not real."},
+        {"zh": "珠世大人看着，我不能失手", "en": "Lady Tamayo is watching; I must not fail."},
+        {"zh": "月光被云遮住，正好", "en": "Clouds cover the moon — perfect timing."},
+        {"zh": "你眨眼那一刻，我在旁边", "en": "The moment you blink, I am beside you."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鬼火在愈史郎周围绕舞。", "en": "Yoshiro's ghostly aura swirls around him."},
+        {"zh": "愈史郎发出阴森的呢喃声。", "en": "Yoshiro mutters darkly."},
+        {"zh": "愈史郎紧握利刃，准备攻击。", "en": "Yoshiro clutches his blade, ready to strike."},
+        {"zh": "愈史郎的影子在月光下拉长。", "en": "Yoshiro's shadow lengthens under moonlight."},
+        {"zh": "愈史郎的攻击带有寒气。", "en": "Yoshiro's attack is icy."},
+        {"zh": "愈史郎的血液如同液体宝石。", "en": "Yoshiro's blood glows like liquid gems."},
+        {"zh": "愈史郎的鬼火在夜晚中闪烁。", "en": "Yoshiro's ghostly flames flicker in the night."},
+        {"zh": "愈史郎的喉咙发出嘶嘶声。", "en": "Yoshiro hisses."},
+        {"zh": "愈史郎的攻击如影随形。", "en": "Yoshiro's attacks follow you."},
+        {"zh": "愈史郎的刀刃反射月光。", "en": "Yoshiro's blade glints in the moonlight."},
+        {"zh": "指甲划开你的衣袖", "en": "My nails tear open your sleeve."},
+        {"zh": "我从你背后伸手", "en": "I reach out from behind you."},
+        {"zh": "一记短促的掌击", "en": "A short, sharp palm strike."},
+        {"zh": "你看见的我在左边", "en": "The me you see is on your left."},
+        {"zh": "符纸割过你的手背", "en": "A talisman slices across your hand."},
+        {"zh": "抓住你手腕用力一拧", "en": "I seize your wrist and twist."},
+        {"zh": "幻影先出，真身随后", "en": "The phantom goes first, the real body after."},
+        {"zh": "贴着你耳朵低语一句", "en": "I whisper one line by your ear."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "愈史郎从黑暗中浮现。", "en": "Yoshiro materializes from the darkness."},
+        {"zh": "愈史郎在阴影中现身。", "en": "Yoshiro appears in the shadows."},
+        {"zh": "愈史郎从破碎的墓碑中走出。", "en": "Yoshiro steps out from a broken tombstone."},
+        {"zh": "愈史郎在坟地里缓缓现身。", "en": "Yoshiro slowly emerges from the graveyard."},
+        {"zh": "愈史郎从地下突现。", "en": "Yoshiro pops out of the ground."},
+        {"zh": "愈史郎在夜晚中出现。", "en": "Yoshiro appears at night."},
+        {"zh": "愈史郎从雾中走出。", "en": "Yoshiro steps out from the mist."},
+        {"zh": "愈史郎从密林深处走出。", "en": "Yoshiro emerges from the dense forest."},
+        {"zh": "愈史郎在荒废的村庄出现。", "en": "Yoshiro appears in the abandoned village."},
+        {"zh": "愈史郎在月光下现身。", "en": "Yoshiro appears in moonlight."},
+        {"zh": "从墙里的阴影渗出来", "en": "I seep out of the shadow in the wall."},
+        {"zh": "符纸一张张在身边落定", "en": "Talismans settle around me one by one."},
+        {"zh": "避开阳光，藏在屋檐下", "en": "Out of the sun, tucked under the eaves."},
+        {"zh": "珠世大人的宅邸多了影子", "en": "Another shadow joins Lady Tamayo's house."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "愈史郎躲开了火焰的攻击。", "en": "Yushiro dodges the fire attack."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "愈史郎从高处摔下，发出惨叫。", "en": "Yushiro falls from a high place, screaming."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "愈史郎在水中挣扎，快要溺水。", "en": "Yushiro struggles in the water, nearly drowning."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "愈史郎被爆炸震伤，踉跄倒地。", "en": "Yushiro is injured by the explosion, staggering to the ground."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "愈史郎被飞射的箭伤到，痛苦哀嚎。", "en": "Yushiro is hurt by a projectile, howling in pain."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "愈史郎被咒术伤到，倒地抽搐。", "en": "Yushiro is injured by magic, twitching on the ground."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "愈史郎因饥饿而虚弱，摇摇欲坠。", "en": "Yushiro is weak from hunger, teetering."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "愈史郎被闪电击中，颤抖倒地。", "en": "Yushiro is struck by lightning, trembling on the ground."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "愈史郎跌入虚无，发出惨烈的哀嚎。", "en": "Yushiro falls into the void, emitting a terrible scream."}
+      ]
+    }
+  }
+}

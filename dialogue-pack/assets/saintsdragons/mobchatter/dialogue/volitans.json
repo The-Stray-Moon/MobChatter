@@ -1,0 +1,267 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "深潜，追踪猎物。", "en": "Dive deep, seek prey."},
+        {"zh": "毒素在水中蔓延。", "en": "Toxin spreads in water."},
+        {"zh": "领地不容侵犯。", "en": "This is my territory."},
+        {"zh": "水下压力巨大。", "en": "Underwater pressure immense."},
+        {"zh": "游动中释放毒息。", "en": "Releases toxins while swimming."},
+        {"zh": "警惕，有危险。", "en": "Alert, danger present."},
+        {"zh": "猎物靠近了。", "en": "Prey approaches."},
+        {"zh": "毒刺准备出击。", "en": "Poison spines ready."},
+        {"zh": "猎杀者注意了。", "en": "Predators beware."},
+        {"zh": "毒液腐蚀一切。", "en": "Toxic venom corrupts all."},
+        {"zh": "背鳍划开水面，我贴着河底走。", "en": "My dorsal fin splits the surface as I hug the riverbed."},
+        {"zh": "毒刺在身后拖出一道雾。", "en": "My spines trail a haze behind me."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静卧在珊瑚丛中。", "en": "Lies still among coral."},
+        {"zh": "慢慢吸收养分。", "en": "Absorbs nutrients slowly."},
+        {"zh": "我漂在水草里，一动不动。", "en": "I drift in the weeds without moving."},
+        {"zh": "环境压力稳定。", "en": "Environmental pressure steady."},
+        {"zh": "平静地游弋。", "en": "Swims calmly."},
+        {"zh": "毒液逐渐恢复。", "en": "Toxin regenerates."},
+        {"zh": "偶尔瞥一眼。", "en": "Glances occasionally."},
+        {"zh": "耐心守候猎物。", "en": "Patience with prey."},
+        {"zh": "栖息于此已久。", "en": "Resides here long."},
+        {"zh": "享受这片水域。", "en": "Enjoys this water."},
+        {"zh": "我把鳍贴在石缝上歇息。", "en": "I rest my fins against a crevice."},
+        {"zh": "水草缠住我的尾巴，我也不动。", "en": "Weeds snag my tail and I do not stir."},
+        {"zh": "我在等潮水把猎物送来。", "en": "I wait for the tide to bring prey."},
+        {"zh": "毒囊还满着，慢慢来。", "en": "My venom sac is full. There is time."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "感受到你的存在。", "en": "Detects your presence."},
+        {"zh": "你闯入了我的地盘。", "en": "Intruder in my territory."},
+        {"zh": "鳍张开，你该后退了。", "en": "My fins are spread; step back."},
+        {"zh": "快离开！", "en": "Leave now."},
+        {"zh": "注意，危险来了。", "en": "Watch out, danger."},
+        {"zh": "你无法逃离。", "en": "You cannot escape."},
+        {"zh": "这片水湾，是我的毒窝。", "en": "This cove is my poisoned nest."},
+        {"zh": "毒刺准备好。", "en": "Spines ready."},
+        {"zh": "我的毒刺，只认这片水。", "en": "My venomous spines claim this water."},
+        {"zh": "你离死亡不远了。", "en": "Close to death."},
+        {"zh": "你踩进的水，浑了。", "en": "The water you stepped into has gone cloudy."},
+        {"zh": "我数着你的脚步，一步一停。", "en": "I count your steps, one pause at a time."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "身体受损，鳞片划破，疼痛难忍！", "en": "Scales are torn, pain unbearable!"},
+        {"zh": "毒刺伤了我的皮肤，剧痛难忍！", "en": "Toxic spikes pierced my skin, agonizing pain!"},
+        {"zh": "毒液侵蚀我的身体，痛苦难忍！", "en": "Poison seeps into my flesh, excruciating pain!"},
+        {"zh": "毒素侵蚀我的肌肉，剧痛难忍！", "en": "Toxins eat away at my muscles, unbearable pain!"},
+        {"zh": "环境压力伤了我的鳍，疼痛难忍！", "en": "Pressure wounds on my fins, unbearable pain!"},
+        {"zh": "鳞片受损，刺痛难忍！", "en": "Damaged scales, sharp pain!"},
+        {"zh": "毒息侵蚀我的肺，剧痛难忍！", "en": "Toxic fumes hurt my lungs, agonizing pain!"},
+        {"zh": "环境压力刺痛我的鳃，剧痛难忍！", "en": "Pressure stabs my gills, unbearable pain!"},
+        {"zh": "毒刺划破了我的皮肉，剧痛难忍！", "en": "Toxic spikes cut my flesh, unbearable pain!"},
+        {"zh": "毒囊破了，嘴里发苦...", "en": "My venom sac burst. My mouth tastes bitter..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你看那绚烂的鳞片！", "en": "Look at those vibrant scales!"},
+        {"zh": "别靠近，危险的触手！", "en": "Stay back, dangerous tentacles!"},
+        {"zh": "我的毒息足以让你窒息！", "en": "My poisonous exhalation will suffocate you!"},
+        {"zh": "尝尝毒刺的滋味吧！", "en": "Feel the sting of my poison!"},
+        {"zh": "别把手伸进我的浅滩。", "en": "Keep your hands out of my shallows."},
+        {"zh": "河水中的敌人，尝尝吧！", "en": "Enemy in the river, taste this!"},
+        {"zh": "鲑鱼，我的早餐！", "en": "Salmon, my breakfast!"},
+        {"zh": "毒息弥漫，你逃不出去！", "en": "Poisoned air, you can't escape!"},
+        {"zh": "你无法战胜我，蓑鲉龙！", "en": "You can't defeat me, Volitans Dragon!"},
+        {"zh": "我在这里守护着我的领地！", "en": "I protect my territory here!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "毒刺竖起来了，退回去。", "en": "My venom spines are up. Back off."},
+        {"zh": "我们来比试比试！", "en": "Let's test each other!"},
+        {"zh": "你的盔甲挡不住我的攻击！", "en": "Your armor can't stop my attack!"},
+        {"zh": "你碰了不该碰的东西！", "en": "You touched something you shouldn't!"},
+        {"zh": "你试图侵犯我的领地！", "en": "You're trying to invade my territory!"},
+        {"zh": "你和我战斗是愚蠢的！", "en": "Foolish to fight me!"},
+        {"zh": "别靠近我，否则你会后悔的！", "en": "Stay away from me, or you'll regret it!"},
+        {"zh": "我的刺比你的剑还密。", "en": "My spines are thicker than your blade."},
+        {"zh": "你触碰到了我的领地！", "en": "You've touched my territory!"},
+        {"zh": "你的力量无法伤害我！", "en": "Your strength can't harm me!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找到合适的配偶，繁衍后代！", "en": "Find a mate to reproduce!"},
+        {"zh": "我的配偶，让我展示！", "en": "My mate, let me show you!"},
+        {"zh": "在水中找我，我会等你！", "en": "Find me in the water, I'll wait for you!"},
+        {"zh": "让我们的后代在水中游泳！", "en": "Let our offspring swim in the water!"},
+        {"zh": "选择一个适合的伴侣！", "en": "Choose a suitable partner!"},
+        {"zh": "我的配偶，靠近我！", "en": "My mate, come closer!"},
+        {"zh": "水中找我，我在这里等你！", "en": "Find me in the water, I'll be here waiting!"},
+        {"zh": "找到我的配偶，才能繁衍！", "en": "Find my mate to reproduce!"},
+        {"zh": "我的配偶，展示我的力量！", "en": "My mate, show my strength!"},
+        {"zh": "水中等我，我会来找你！", "en": "Wait for me in the water, I'll find you!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鲑鱼，毒之馈赠！", "en": "Salmon, a gift of poison!"},
+        {"zh": "鳕鱼，危险相伴！", "en": "Cod, danger lurking."},
+        {"zh": "热带鱼，尝尝我的毒息！", "en": "Tropical fish, taste my venom."},
+        {"zh": "河豚，你的死期到了！", "en": "Pufferfish, your time is up!"},
+        {"zh": "鲑鱼，加入我的领地！", "en": "Salmon, join my domain!"},
+        {"zh": "鳕鱼，游得太远了！", "en": "Cod, you've gone too far!"},
+        {"zh": "热带鱼，别想逃跑！", "en": "Tropical fish, nowhere to run!"},
+        {"zh": "河豚，品尝恐惧吧！", "en": "Pufferfish, taste fear!"},
+        {"zh": "鲑鱼，这是我的水域！", "en": "Salmon, this is my water!"},
+        {"zh": "鳕鱼，感受到压力了吗？", "en": "Cod, feeling the pressure?"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我来了，入侵者！", "en": "Here, intruder!"},
+        {"zh": "毒之呼吸，开始吧！", "en": "Venomous breath, begin!"},
+        {"zh": "环境压力，让你屈服！", "en": "Environmental pressure, submit!"},
+        {"zh": "我的毒刺，让你颤抖！", "en": "My venomous刺, make you tremble!"},
+        {"zh": "毒息环绕，你无处可逃！", "en": "Venomous息, no escape!"},
+        {"zh": "侵入者，见识我的力量！", "en": "Intruder, witness my might!"},
+        {"zh": "你的领地，已是我家！", "en": "Your domain, mine now!"},
+        {"zh": "毒之力量，无坚不摧！", "en": "Venomous power, unbreakable!"},
+        {"zh": "毒刺一触即溃！", "en": "Venomous刺, a touch and fall!"},
+        {"zh": "你越过了这条水线。", "en": "You crossed this waterline."},
+        {"zh": "毒雾先把你的退路封了。", "en": "My venom mist seals your retreat first."},
+        {"zh": "我浮上来了，别慌。", "en": "I am surfacing. Do not panic."},
+        {"zh": "水质开始变了，你感觉到了吗？", "en": "The water is changing. Do you feel it?"},
+        {"zh": "在这片水域，我是规矩。", "en": "In this water, I am the rule."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定目标，开始狩猎！", "en": "Target locked, hunt begin!"},
+        {"zh": "毒之力量，显现无疑！", "en": "Venomous power, clear!"},
+        {"zh": "毒息包围，你动弹不得！", "en": "Venomous息, unable to move!"},
+        {"zh": "环境压力，让你崩溃！", "en": "Environmental pressure, collapse!"},
+        {"zh": "毒刺穿透，痛苦不堪！", "en": "Venomous刺, pain unbearable!"},
+        {"zh": "毒之咆哮，震慑四方！", "en": "Venomous roar,震撼四方!"},
+        {"zh": "毒液弥漫，无处藏身！", "en": "Venomous mist, nowhere to hide!"},
+        {"zh": "毒之领域，无人能抗！", "en": "Venomous domain, none can resist!"},
+        {"zh": "毒之气息，让你窒息！", "en": "Venomous气息, choking you!"},
+        {"zh": "毒之锁定，无处可逃！", "en": "Venomous lock, nowhere to run!"},
+        {"zh": "毒刺对准你裸露的脚踝。", "en": "My spines aim at your bare ankle."},
+        {"zh": "你往浅处退，那里更糟。", "en": "Back toward the shallows? That is worse."},
+        {"zh": "水流把你往我这边推。", "en": "The current pushes you toward me."},
+        {"zh": "你呼吸越急，毒进得越快。", "en": "The faster you breathe, the faster the venom works."},
+        {"zh": "再一步，就进了毒圈。", "en": "One more step and you are inside the venom ring."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "吐毒息围困你！", "en": "Toxic mists will surround you!"},
+        {"zh": "毒刺穿你的心脏！", "en": "Toxic spines pierce your heart!"},
+        {"zh": "压力让你窒息！", "en": "Pressure suffocates you!"},
+        {"zh": "你逃不出我的领地！", "en": "You can't escape my domain!"},
+        {"zh": "毒液腐蚀你的肉身！", "en": "Toxic venom eats away at your flesh!"},
+        {"zh": "被我的毒息笼罩！", "en": "You are trapped by my toxic mists!"},
+        {"zh": "承受我的环境压力！", "en": "Bear the pressure of my domain!"},
+        {"zh": "毒刺洞穿你的防御！", "en": "My spines pierce your defenses!"},
+        {"zh": "我的毒息让你无法呼吸！", "en": "My toxic breath leaves you gasping for air!"},
+        {"zh": "领地界限不容侵犯！", "en": "My territory is off-limits!"},
+        {"zh": "毒刺擦过你的小腿！", "en": "A spine grazes your calf!"},
+        {"zh": "这一口带着河豚的毒！", "en": "This bite carries pufferfish venom!"},
+        {"zh": "水压先把你按住了！", "en": "The water pressure pins you first!"},
+        {"zh": "被我的鳍扫中了！", "en": "My fin swept you!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里是我的水域！", "en": "This is my water!"},
+        {"zh": "欢迎来到毒渊！", "en": "Welcome to the Toxic Abyss!"},
+        {"zh": "水是我的元素！", "en": "Water is my element!"},
+        {"zh": "我是这里的主宰！", "en": "I am the ruler here!"},
+        {"zh": "深海是我的家园！", "en": "The deep sea is my home!"},
+        {"zh": "这里是毒之乐园！", "en": "This is the Paradise of Poison!"},
+        {"zh": "领地领地，不容侵犯！", "en": "My territory, not to be trespassed!"},
+        {"zh": "我的毒息弥漫四方！", "en": "My toxic mists spread far and wide!"},
+        {"zh": "毒刺立起来，水也变味。", "en": "My spines stand up, and the water sours."},
+        {"zh": "我掌控着这片水域！", "en": "I control this water!"},
+        {"zh": "水面鼓起一团暗紫色的纹。", "en": "A dark purple ripple swells on the surface."},
+        {"zh": "我顺着河口游进了这片水域。", "en": "I swim in from the river mouth."},
+        {"zh": "珊瑚丛里，毒刺先伸出来。", "en": "From the coral, the spines emerge first."},
+        {"zh": "河底多了一道长长的影子。", "en": "A long shadow joins the riverbed."},
+        {"zh": "这片水塘归蓑鲉龙了。", "en": "This pool now belongs to Volitans."},
+        {"zh": "鱼群一散，我就到了。", "en": "The fish scatter, and I arrive."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧灼，灼热难耐！", "en": "Burned by fire, scalding hot!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "跌入深水，压力刺痛！", "en": "Pressure wounds from falling into deep water!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "溺水窒息，疼痛难忍！", "en": "Struggling to breathe, agony unbearable!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸冲击波伤了我，剧痛难忍！", "en": "Explosion wounds, agonizing pain!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被射中，剧痛难忍！", "en": "Hit by projectiles, agonizing pain!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法攻击，剧痛难忍！", "en": "Magical attack, excruciating pain!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿了三天，毒也变淡了。", "en": "Three days hungry, my venom thins."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击伤我，剧痛难忍！", "en": "Lightning strike, agony unbearable!"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚无，压力刺痛！", "en": "Pressure stabs me in the void!"}
+      ]
+    }
+  }
+}

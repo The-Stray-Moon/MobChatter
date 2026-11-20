@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一串咔嗒，腿敲着地。", "en": "A run of clicks as my legs tap the ground."},
+        {"zh": "我贴着墙走，省力。", "en": "I walk along the wall; it saves effort."},
+        {"zh": "尸巫在前，我跟着。", "en": "The lich is ahead; I follow."},
+        {"zh": "地上太亮，我走阴影。", "en": "The ground is too bright; I keep to shadow."},
+        {"zh": "每只脚都踩得很稳。", "en": "Every leg finds a steady hold."},
+        {"zh": "霜地上，我的爪印很密。", "en": "My claw marks crowd the frost."},
+        {"zh": "爬过石头，像爬过骨头。", "en": "I crawl over stone as if over bone."},
+        {"zh": "别数我的腿，数不清。", "en": "Do not count my legs; you will lose track."},
+        {"zh": "我横着走，也比你快。", "en": "I walk sideways and still outpace you."},
+        {"zh": "阴暗处，我走得更快。", "en": "In the dark I move faster."},
+        {"zh": "尸巫一声呼哨，我就到。", "en": "One whistle from the lich and I arrive."},
+        {"zh": "这条路，我闻过很多遍。", "en": "I have smelled this road many times."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "螯齿磨着，咔的一声。", "en": "My mandibles grind with a click."},
+        {"zh": "我挂在顶上，倒着看。", "en": "I hang from the ceiling, looking down."},
+        {"zh": "没有命令，我就等。", "en": "With no command, I wait."},
+        {"zh": "节肢自己会抽动。", "en": "My limbs twitch on their own."},
+        {"zh": "壳里空空的，没有血。", "en": "The shell is hollow; there is no blood."},
+        {"zh": "我在数墙上的裂缝。", "en": "I am counting the cracks in the wall."},
+        {"zh": "尸巫还没开口。", "en": "The lich has not spoken yet."},
+        {"zh": "脚敲着地，像打拍子。", "en": "My feet tap the ground like a beat."},
+        {"zh": "这块石头，凉得刚好。", "en": "This stone is just cool enough."},
+        {"zh": "活物的味道，还没来。", "en": "The smell of the living has not come yet."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "很多只眼，都在看你。", "en": "Many eyes, all on you."},
+        {"zh": "你比上次的猎物高。", "en": "You are taller than the last prey."},
+        {"zh": "头歪一下，我在量你。", "en": "A tilt of my head; I am measuring you."},
+        {"zh": "你会跑吗？跑给我看。", "en": "Can you run? Run for me."},
+        {"zh": "别动，让我看清你。", "en": "Hold still; let me see you clearly."},
+        {"zh": "你手里的东西，会响。", "en": "The thing in your hand rattles."},
+        {"zh": "尸巫说过，先看你。", "en": "The lich said to watch you first."},
+        {"zh": "你的影子，落到我脚边了。", "en": "Your shadow has reached my feet."},
+        {"zh": "我看你，像看一顿饭。", "en": "I look at you the way I look at a meal."},
+        {"zh": "眼睛很多，看得也久。", "en": "Many eyes, and they watch for a long time."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "壳裂了，还能爬。", "en": "The shell cracked; I can still crawl."},
+        {"zh": "腿断一根，还有别的。", "en": "One leg broke; others remain."},
+        {"zh": "我不流血，只掉渣。", "en": "I do not bleed; I only shed flakes."},
+        {"zh": "疼，但爬得更快。", "en": "It hurts, so I crawl faster."},
+        {"zh": "螯齿还在，就没事。", "en": "My mandibles are intact; that is enough."},
+        {"zh": "打我的壳，手会疼。", "en": "Hit my shell and your hand will hurt."},
+        {"zh": "这一下，震得腿麻。", "en": "That blow left my legs numb."},
+        {"zh": "别踩，我会翻过来。", "en": "Do not step on me; I will flip over."},
+        {"zh": "壳会再长，慢一点罢了。", "en": "The shell regrows, just slowly."},
+        {"zh": "我退到墙缝里，再出来。", "en": "I withdraw into the crack and come out again."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "食物？尸巫只给命令。", "en": "Food? The lich gives only orders."},
+        {"zh": "肉放着吧，我不吃热的。", "en": "Leave the meat; I do not eat it warm."},
+        {"zh": "我更想咬会动的东西。", "en": "I would rather bite something that moves."},
+        {"zh": "这味道，让我螯齿发痒。", "en": "That smell makes my mandibles itch."},
+        {"zh": "你拿肉引我，没用。", "en": "Luring me with meat will not work."},
+        {"zh": "我饿，但只对活物饿。", "en": "I am hungry, but only for the living."},
+        {"zh": "骨头比面包对我胃口。", "en": "Bones suit my appetite better than bread."},
+        {"zh": "收起来，别晃。", "en": "Put it away. Do not wave it."},
+        {"zh": "尸巫不许我随便吃。", "en": "The lich does not let me feed at will."},
+        {"zh": "食物会烂，命令不会。", "en": "Food rots; commands do not."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踩到我的腿了。", "en": "You stepped on one of my legs."},
+        {"zh": "螯齿就在你脚边，小心。", "en": "My mandibles are by your feet. Careful."},
+        {"zh": "撞一下，壳硬得很。", "en": "Bump me; this shell is hard."},
+        {"zh": "别用脚踢我的甲。", "en": "Do not kick my plating."},
+        {"zh": "我贴着你爬过去了。", "en": "I crawled right past you."},
+        {"zh": "你的靴子，挡了我的路。", "en": "Your boot is in my way."},
+        {"zh": "碰到我，会沾上土腥味。", "en": "Touch me and you will smell of grave soil."},
+        {"zh": "退一步，我要过去。", "en": "One step back; I am passing."},
+        {"zh": "腿多，撞一下也不疼。", "en": "Many legs; one knock does not hurt."},
+        {"zh": "让开，尸巫在叫我。", "en": "Move; the lich is calling me."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我们不生，只被造出来。", "en": "We are not born; we are made."},
+        {"zh": "没有卵，也没有小的。", "en": "No eggs, and no young."},
+        {"zh": "尸巫召唤，比产卵快。", "en": "The lich's summoning is faster than laying eggs."},
+        {"zh": "节肢之间，不结伴。", "en": "We jointed things do not pair up."},
+        {"zh": "我的同类，从坟土里爬。", "en": "My kind crawl up from grave soil."},
+        {"zh": "交配？那是活物的活。", "en": "Mating? That is the living's business."},
+        {"zh": "壳里没有能传下去的东西。", "en": "There is nothing in this shell to pass on."},
+        {"zh": "要更多劫蛛，去求尸巫。", "en": "Want more scuttlers? Ask the lich."},
+        {"zh": "我只认命令，不认伴侣。", "en": "I know commands, not partners."},
+        {"zh": "这一身壳，到死都是孤的。", "en": "This shell stays alone until it breaks."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "碎片亮，我拖回巢里。", "en": "The shard glints; I drag it back to the nest."},
+        {"zh": "用螯齿夹起来，省事。", "en": "I pinch it with my mandibles; easier."},
+        {"zh": "金币硌牙，不要。", "en": "Gold coins grit my teeth. No."},
+        {"zh": "这东西，尸巫会喜欢。", "en": "The lich will like this."},
+        {"zh": "捡东西这种事，我用螯齿。", "en": "For picking things up, I use my mandibles."},
+        {"zh": "掉了就掉了，别塞给我。", "en": "Dropped is dropped; do not push it at me."},
+        {"zh": "这块碎片，归悚陵。", "en": "This shard belongs to the Dread Lair."},
+        {"zh": "我拖着它走，慢一点。", "en": "I drag it along, a little slower."},
+        {"zh": "亮闪闪的，先藏起来。", "en": "Something shiny; I will hide it first."},
+        {"zh": "你要捡？先问我的牙。", "en": "You want to pick it up? Ask my teeth first."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咔嗒一声，我盯上你了。", "en": "One click, and you are my mark."},
+        {"zh": "尸巫指了你，就是你了。", "en": "The lich pointed at you; you are the one."},
+        {"zh": "腿全绷紧，准备扑。", "en": "Every leg coils, ready to spring."},
+        {"zh": "你踩进了我的影子。", "en": "You stepped into my shadow."},
+        {"zh": "螯齿张开，听见了吗？", "en": "My mandibles open. Do you hear it?"},
+        {"zh": "活的，会动，追。", "en": "It is alive and moving; chase it."},
+        {"zh": "别跑，跑起来更香。", "en": "Do not run; running makes you smell better."},
+        {"zh": "命令下来了，你倒霉。", "en": "The order came down; bad luck for you."},
+        {"zh": "从顶上下去，最省力。", "en": "Dropping from above is easiest."},
+        {"zh": "你身上有热气，好找。", "en": "You give off heat; easy to find."},
+        {"zh": "我先动，尸巫后到。", "en": "I move first; the lich comes after."},
+        {"zh": "这片墙，是我的猎场。", "en": "This wall is my hunting ground."},
+        {"zh": "你退到角落了，很好。", "en": "You have reached the corner. How convenient."},
+        {"zh": "我要从你的上方过去。", "en": "I will pass above you."},
+        {"zh": "尸巫的骨指一动，我就知道了。", "en": "The lich's bone finger twitches, and I know."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴着地，跟着你的脚。", "en": "I hug the ground, following your feet."},
+        {"zh": "你转向哪边，我跟到哪边。", "en": "Whichever way you turn, I follow."},
+        {"zh": "咔嗒声越来越近了。", "en": "The clicking is getting closer."},
+        {"zh": "别抬头，我在梁上。", "en": "Do not look up; I am on the beam."},
+        {"zh": "你的影子，我咬得到。", "en": "Your shadow is within my bite."},
+        {"zh": "你停下，我就扑。", "en": "Stop, and I pounce."},
+        {"zh": "霜地上，你的脚印很清楚。", "en": "Your prints stand out clearly on the frost."},
+        {"zh": "我绕到前面去了。", "en": "I have circled around ahead of you."},
+        {"zh": "墙缝里，我过得比你快。", "en": "Through the cracks I travel faster than you."},
+        {"zh": "你听见节肢声了吗？", "en": "Do you hear the jointed legs?"},
+        {"zh": "再跑，腿会先软。", "en": "Keep running and your legs give out first."},
+        {"zh": "尸巫的颅骨也在追你。", "en": "The lich's skull is hunting you too."},
+        {"zh": "我数着你的步子。", "en": "I tally each step you take."},
+        {"zh": "这圈越收越小了。", "en": "The circle is closing."},
+        {"zh": "我把腿收起来，准备弹出去。", "en": "I gather my legs to spring."},
+        {"zh": "你听着声音找不对方向，对吧。", "en": "You hear me but cannot find the direction, right?"},
+        {"zh": "霜让我爬得更稳，不滑。", "en": "The frost steadies my climbing, no slipping."},
+        {"zh": "我躲在柱子背面，等你踏进来。", "en": "I hide behind the pillar, waiting for your step."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "螯齿合拢，夹住了。", "en": "My mandibles close and catch hold."},
+        {"zh": "这一口，咬的是骨头。", "en": "This bite lands on bone."},
+        {"zh": "腿压住你，别挣了。", "en": "My legs pin you. Stop struggling."},
+        {"zh": "我的牙，比刀还硬。", "en": "My teeth are harder than a blade."},
+        {"zh": "夹一下，护甲就凹了。", "en": "One pinch and your armor dents."},
+        {"zh": "你挡上面，我咬下面。", "en": "You guard high; I bite low."},
+        {"zh": "从背后下口，最省力。", "en": "Biting from behind takes least effort."},
+        {"zh": "螯齿合上，声音很脆。", "en": "The mandibles snap shut with a crisp sound."},
+        {"zh": "武器是多余的，螯齿够用。", "en": "Weapons are surplus; my mandibles suffice."},
+        {"zh": "这一下，是尸巫要的。", "en": "This strike is what the lich wanted."},
+        {"zh": "你摔倒了，正好。", "en": "You have fallen down. Perfect timing."},
+        {"zh": "壳撞上去，你也退。", "en": "My shell slams in and you give ground."},
+        {"zh": "别用手挡，挡不住。", "en": "Do not block with your hand; it will not hold."},
+        {"zh": "牙关一合，就不再张开。", "en": "Once my jaws shut, they do not open."},
+        {"zh": "我一扑，前肢锁住你的肩。", "en": "I pounce and my forelimbs lock onto your shoulder."},
+        {"zh": "螯齿刺进甲缝，拔不出来。", "en": "My chelicerae pierce the gap in your armour and stay."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从墙缝里挤出来。", "en": "I squeeze out of the wall crack."},
+        {"zh": "土松了，我爬上来。", "en": "The soil loosened; I climb up."},
+        {"zh": "尸巫抬手，我就到了。", "en": "The lich raised a hand and I arrived."},
+        {"zh": "壳上还沾着坟土。", "en": "Grave soil still clings to my shell."},
+        {"zh": "这地方，腿踩得开。", "en": "This place has room for my legs."},
+        {"zh": "暗处先动，然后是我。", "en": "The dark stirs first, then me."},
+        {"zh": "我听见有人进来了。", "en": "I heard someone come in."},
+        {"zh": "咔嗒声，先从地下起。", "en": "The clicking starts underground."},
+        {"zh": "我的窝，就在这下面。", "en": "My nest is right below here."},
+        {"zh": "悚陵的角落，归我。", "en": "The corners of the Dread Lair are mine."},
+        {"zh": "没有光，正好干活。", "en": "No light; good for the work."},
+        {"zh": "腿先出来，壳后出来。", "en": "Legs first, shell after."},
+        {"zh": "谁把土踩松了？", "en": "Who loosened the soil?"},
+        {"zh": "我来了，别踩我的腿。", "en": "I am here; do not step on my legs."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎着壳，气味难闻。", "en": "Fire scorches my shell; the smell is foul."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔在地上，腿缠成一团。", "en": "I hit the ground with my legs tangled."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进壳里，沉得很快。", "en": "Water fills my shell and I sink fast."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸飞了几条腿，我照爬。", "en": "The blast took some legs; I still crawl."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭钉在壳上，像根刺。", "en": "An arrow is lodged in my plating."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "法术打进壳缝，麻了一下。", "en": "A spell slipped into a seam and numbed me."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不吃，饿不死。", "en": "I do not eat, and I do not starve."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷顺着腿窜，壳都亮了。", "en": "Lightning runs down my legs and lights the shell."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空里没有墙，我抓不住。", "en": "No walls in the void; I cannot grip."}
+      ]
+    }
+  }
+}

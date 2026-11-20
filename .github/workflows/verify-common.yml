@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - 'common/**'
+      - 'dialogue-pack/**'
+      - 'tools/build_mod_dialogue.py'
       - 'build.gradle'
       - 'settings.gradle'
       - 'gradle.properties'
@@ -18,6 +20,8 @@ on:
   pull_request:
     paths:
       - 'common/**'
+      - 'dialogue-pack/**'
+      - 'tools/build_mod_dialogue.py'
       - 'build.gradle'
       - 'settings.gradle'
       - 'gradle.properties'

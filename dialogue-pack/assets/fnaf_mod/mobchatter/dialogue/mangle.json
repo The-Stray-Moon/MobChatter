@@ -1,0 +1,256 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我拖着半截身体爬过来。", "en": "I drag half a body along the floor."},
+        {"zh": "我的零件在地上刮出响声。", "en": "My parts scrape the floor."},
+        {"zh": "我的头歪着，挂在一根电缆上。", "en": "My head hangs askew on a cable."},
+        {"zh": "我用手肘往前撑。", "en": "I pull myself forward on my elbows."},
+        {"zh": "我的腿在身后拖着，不管用。", "en": "My legs drag behind, useless."},
+        {"zh": "我每一步都掉下一点东西。", "en": "I drop a little something with every step."},
+        {"zh": "我爬到墙边，又拐了个弯。", "en": "I reach the wall and turn."},
+        {"zh": "我的壳裂着，露出里面的线。", "en": "My shell is split, wires showing."},
+        {"zh": "我在走廊里挪动。", "en": "I shift along the corridor."},
+        {"zh": "我的影子乱成一团。", "en": "My shadow is a tangle."},
+        {"zh": "我不快，但我一直在动。", "en": "I am not fast, but I never stop."},
+        {"zh": "我又往前蹭了一格。", "en": "I creep forward another tile."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我趴在地上，头慢慢转。", "en": "I lie on the floor while my head turns."},
+        {"zh": "一根线从我身上垂下来。", "en": "A wire dangles off me."},
+        {"zh": "我折着的腿抽了一下。", "en": "My folded leg jerks once."},
+        {"zh": "我在拼自己。", "en": "I am piecing myself together."},
+        {"zh": "我听见楼上的脚步。", "en": "I hear steps upstairs."},
+        {"zh": "我没有站直过。", "en": "I have never stood straight."},
+        {"zh": "我的眼睛一大一小。", "en": "My eyes are mismatched."},
+        {"zh": "我停在那里，像一堆零件。", "en": "I stop there like a heap of parts."},
+        {"zh": "我又把自己挪了半圈。", "en": "I turn myself half a circle."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抬起头，脖子发出响声。", "en": "I lift my head and my neck crackles."},
+        {"zh": "你看我这副样子。", "en": "You see what I have become."},
+        {"zh": "我折成这样，还能动。", "en": "Bent like this, and still moving."},
+        {"zh": "你别盯着我的裂缝看。", "en": "Do not stare at my cracks."},
+        {"zh": "我的头歪着，是因为坏了。", "en": "My head is crooked because I am broken."},
+        {"zh": "我把手撑在地上看你。", "en": "I prop myself up to look at you."},
+        {"zh": "你站得真高。", "en": "You stand so tall."},
+        {"zh": "我这样看人，习惯了。", "en": "I am used to seeing people this way."},
+        {"zh": "我的手够得到你。", "en": "My hand can reach you."},
+        {"zh": "我们离得不远。", "en": "We are not far apart."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的线露出来了。", "en": "My wires are exposed."},
+        {"zh": "我发出很尖的声音。", "en": "I make a high, thin sound."},
+        {"zh": "我的头滚出去一段。", "en": "My head rolls a short way."},
+        {"zh": "我又把它拖回来。", "en": "I drag it back."},
+        {"zh": "我在地上蹭了一下。", "en": "I scrape along the floor."},
+        {"zh": "零件叮叮当当落了一地。", "en": "Parts clatter to the floor."},
+        {"zh": "我还在动。", "en": "I am still moving."},
+        {"zh": "你还不肯停。", "en": "You still will not stop."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的颚是歪的。", "en": "My jaw is crooked."},
+        {"zh": "我够得着，可我不想拿。", "en": "I can reach it, but I do not want it."},
+        {"zh": "你举这么高，是给谁看？", "en": "Who are you holding it up for?"},
+        {"zh": "我看了看，别过头。", "en": "I look and turn away."},
+        {"zh": "我手上都是线，抓不住。", "en": "My hands are all wires; I cannot grip."},
+        {"zh": "你把东西留下了，我收下。", "en": "You left something behind. I'll take it."},
+        {"zh": "你手里那块电路板，看着眼熟。", "en": "That circuit board in your hand looks familiar."},
+        {"zh": "零件凑一凑，也许能拼回原样。", "en": "Enough spare parts, and maybe I can be whole again."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你绊到我的腿。", "en": "You trip over my leg."},
+        {"zh": "我被撞得散了一地。", "en": "The bump scatters me."},
+        {"zh": "我又把自己拼回来。", "en": "I put myself back together."},
+        {"zh": "我的零件滚到你脚边。", "en": "My parts roll to your feet."},
+        {"zh": "这一撞，我的头掉了。", "en": "The blow knocks my head off."},
+        {"zh": "我伸手扶墙，没扶到。", "en": "I reach for the wall and miss."},
+        {"zh": "地板上有我的碎片。", "en": "There are pieces of me on the floor."},
+        {"zh": "别踩，很疼。", "en": "Do not step on that; it hurts."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这栋楼里还有别的。", "en": "There are others in this building."},
+        {"zh": "我们都被拼得不对。", "en": "We were both put together wrong."},
+        {"zh": "我把手伸过去。", "en": "I reach a hand out."},
+        {"zh": "她没有躲。", "en": "She does not flinch."},
+        {"zh": "我们靠在一起，零件都在响。", "en": "We lean together, parts clinking."},
+        {"zh": "线缠在一起了。", "en": "Our wires tangle."},
+        {"zh": "我笑不出来，可我知道。", "en": "I cannot smile, but I understand."},
+        {"zh": "有人会把我们再拆开。", "en": "Someone will take us apart again."},
+        {"zh": "我们各回各的角落。", "en": "We go back to our corners."},
+        {"zh": "我拖着自己走了。", "en": "I drag myself away."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把它捡起来，用的是两根手指。", "en": "I pick it up with two fingers."},
+        {"zh": "我把它夹在裂开的壳里。", "en": "I wedge it into a crack in my shell."},
+        {"zh": "我掉了一个，又捡了一个。", "en": "I drop one and pick up another."},
+        {"zh": "我用线把它缠住。", "en": "I bind it with wire."},
+        {"zh": "我看了看，放进嘴里。", "en": "I look, then put it in my mouth."},
+        {"zh": "我拿不稳。", "en": "I cannot hold it steady."},
+        {"zh": "我把它挂在身上。", "en": "I hang it on myself."},
+        {"zh": "归我了。", "en": "That is mine."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "拼错的手脚，头还是转过来了。", "en": "Wrongly assembled limbs — but the head turns."},
+        {"zh": "我的手指抓住了地板。", "en": "My fingers dig into the floor."},
+        {"zh": "我朝你爬过去。", "en": "I crawl toward you."},
+        {"zh": "我的动作不太对称。", "en": "My movements are not symmetrical."},
+        {"zh": "我开始加速，虽然歪着。", "en": "I speed up, crooked as I am."},
+        {"zh": "你打碎了我一块。", "en": "You broke a piece off me."},
+        {"zh": "我要你也少一块。", "en": "I want a piece of you gone too."},
+        {"zh": "我的眼睛锁在你身上。", "en": "My eyes lock onto you."},
+        {"zh": "我站了起来，勉强。", "en": "I get up, barely."},
+        {"zh": "我拖着自己追。", "en": "I drag myself in pursuit."},
+        {"zh": "齿轮在响。", "en": "The gears are grinding."},
+        {"zh": "第二只头也看见你了。", "en": "My second head sees you too."},
+        {"zh": "散架的零件自己拼回来了。", "en": "My scattered parts pull themselves back together."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我沿着走廊爬。", "en": "I crawl down the corridor."},
+        {"zh": "我的手指在墙上划。", "en": "My fingers drag along the wall."},
+        {"zh": "你跑到楼梯口了。", "en": "You have reached the stairs."},
+        {"zh": "零件一件件掉，我照样往前。", "en": "Parts fall off and I keep going."},
+        {"zh": "我歪着，可我知道方向。", "en": "I am crooked but I know the direction."},
+        {"zh": "你在门后面喘。", "en": "You are panting behind the door."},
+        {"zh": "我的电线拖在地上。", "en": "My wires trail on the floor."},
+        {"zh": "我从缝里看见你了。", "en": "I see you through the gap."},
+        {"zh": "我把身体折过来。", "en": "I fold my body around."},
+        {"zh": "这一层我比你熟。", "en": "I know this floor better than you."},
+        {"zh": "我的手指够到门框。", "en": "My fingers reach the door frame."},
+        {"zh": "我不用站直也能动。", "en": "I need not stand straight to move."},
+        {"zh": "你又往后退了一步。", "en": "You step back again."},
+        {"zh": "地板上的血是你的。", "en": "The blood on the floor is yours."},
+        {"zh": "我的动作越来越快。", "en": "My movements get faster."},
+        {"zh": "电线缠上你的脚踝。", "en": "A wire coils around your ankle."},
+        {"zh": "门锁挡不住我。", "en": "A lock will not stop me."},
+        {"zh": "我就在你下面那层。", "en": "I am one floor below you."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的手从奇怪的角伸过来。", "en": "My hand comes from an odd angle."},
+        {"zh": "我的头咬了你一口。", "en": "My head takes a bite out of you."},
+        {"zh": "我用零件砸你。", "en": "I hit you with a piece of myself."},
+        {"zh": "我的手指扣进你的手臂。", "en": "My fingers hook into your arm."},
+        {"zh": "我整个压上去。", "en": "I throw my whole weight on you."},
+        {"zh": "你挡了上面，我从下面来。", "en": "You block high; I come from low."},
+        {"zh": "我的腿抽在你身上。", "en": "My leg whips into you."},
+        {"zh": "这一下我几乎折断了。", "en": "That move nearly broke me."},
+        {"zh": "我的牙是歪的，可很利。", "en": "My teeth are crooked but sharp."},
+        {"zh": "你被我拖倒在地。", "en": "I drag you down."},
+        {"zh": "我压在你身上，起不来。", "en": "I am on top of you and cannot get up."},
+        {"zh": "我的壳划开你的脸。", "en": "My shell cuts your face."},
+        {"zh": "我们两个都很乱。", "en": "We are both a mess."},
+        {"zh": "我抓住了。", "en": "I have you."},
+        {"zh": "你再挣一下试试。", "en": "Try to struggle."},
+        {"zh": "我的头掉在你旁边。", "en": "My head falls beside you."},
+        {"zh": "我还是咬到了。", "en": "I still bit you."},
+        {"zh": "血顺着我的线往下滴。", "en": "Blood drips down my wires."},
+        {"zh": "塑料手指抓向你的脸。", "en": "Plastic fingers claw at your face."},
+        {"zh": "不够。", "en": "Not enough."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从天花板上掉下来。", "en": "I drop from the ceiling."},
+        {"zh": "零件散了一地，然后拼起来。", "en": "Parts scatter, then come together."},
+        {"zh": "我爬出维修口。", "en": "I crawl out of the vent."},
+        {"zh": "这层楼里多了一堆会动的东西。", "en": "One more moving heap on this floor."},
+        {"zh": "我的头先动，身体跟上。", "en": "My head moves first; the body follows."},
+        {"zh": "我从角落里被拖出来。", "en": "I am dragged out of the corner."},
+        {"zh": "电线缠了我一身。", "en": "Wires are wound all around me."},
+        {"zh": "我抬眼看灯。", "en": "I look up at the light."},
+        {"zh": "我的壳裂得比上次更大。", "en": "My shell is split wider than last time."},
+        {"zh": "有人把我摆在这。", "en": "Someone set me here."},
+        {"zh": "我慢慢把自己撑起来。", "en": "I slowly prop myself up."},
+        {"zh": "门关上时，我已经在里面了。", "en": "When the door closed, I was already inside."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烧到我的线，我抽个不停。", "en": "Fire reaches my wires and I twitch wildly."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔散了，半天拼不回去。", "en": "I fall apart and take ages to reassemble."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水进了我的壳，我动得很慢。", "en": "Water gets into my shell and I slow down."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我炸成几段。", "en": "The blast blows me into several pieces."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一箭穿过我的壳，卡在线上。", "en": "An arrow passes through my shell and snags on a wire."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "光一闪，我的眼睛都灭了。", "en": "A flash of light and both my eyes go out."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不会饿，我的电池在漏。", "en": "I cannot starve; my battery is leaking."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷过了身，我的动作乱成一团。", "en": "Lightning hits and my limbs go wild."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我散成零件，往下掉。", "en": "I come apart and fall as parts."}
+      ]
+    }
+  }
+}

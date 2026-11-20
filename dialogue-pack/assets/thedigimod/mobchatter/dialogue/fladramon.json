@@ -1,0 +1,262 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我穿着铠甲走过山地。", "en": "I walk the mountains in armor."},
+        {"zh": "我的护甲在石头上碰响。", "en": "My armor clinks on the stone."},
+        {"zh": "我一步步往高处走。", "en": "I climb higher, step by step."},
+        {"zh": "我甩开手臂，装甲跟着动。", "en": "I swing my arms, the plates moving."},
+        {"zh": "我绕过一片碎石坡。", "en": "I round a scree slope."},
+        {"zh": "我顺着山脊的棱线走。", "en": "I walk along the ridge line."},
+        {"zh": "我的脚踏地很稳。", "en": "My tread is steady."},
+        {"zh": "我朝着你那边走去。", "en": "I walk toward you."},
+        {"zh": "我缓缓把身体转正。", "en": "I slowly square my body."},
+        {"zh": "我从岩壁边上走过。", "en": "I pass along the rock face."},
+        {"zh": "我按着步子把距离收紧。", "en": "I close the distance one measured step at a time."},
+        {"zh": "我在恶地边上停了一下。", "en": "I pause at the badlands' edge."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，护甲在响。", "en": "I stand and my armor creaks."},
+        {"zh": "我在看着远处。", "en": "I am watching the distance."},
+        {"zh": "尾巴在身后慢慢摆着。", "en": "My tail sways slowly behind me."},
+        {"zh": "我把手套握了握。", "en": "I flex my gauntlet."},
+        {"zh": "我在等锚点那边的动静。", "en": "I wait for movement by my anchor."},
+        {"zh": "我的护甲在太阳下反光。", "en": "My armor reflects the sun."},
+        {"zh": "我守着这里，一步不移。", "en": "I guard this spot and don't move a step."},
+        {"zh": "我把手臂交叉起来。", "en": "I fold my arms."},
+        {"zh": "我在听风的走向。", "en": "I listen to the wind."},
+        {"zh": "我换脚站着，护甲轻响。", "en": "I shift my weight and my armor clicks."},
+        {"zh": "我一呼一吸都很稳。", "en": "My breathing stays steady."},
+        {"zh": "我抬起头，看着岩壁。", "en": "I look up at the cliff."},
+        {"zh": "我在数这里的石头。", "en": "I count the stones here."},
+        {"zh": "我把头低下来一点。", "en": "I lower my head slightly."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抬起头，正面看你。", "en": "I raise my head and face you."},
+        {"zh": "我的头盔下有光。", "en": "There is light under my helm."},
+        {"zh": "我在判断你是敌是友。", "en": "I am deciding whether you are friend or foe."},
+        {"zh": "你没有恶意的样子。", "en": "You do not look hostile."},
+        {"zh": "我慢慢把手臂放下。", "en": "I slowly lower my arms."},
+        {"zh": "我朝你点了一下头。", "en": "I nod once at you."},
+        {"zh": "我的护甲一动不动。", "en": "My armor holds still."},
+        {"zh": "你不开口，我也不开口。", "en": "You stay silent, so do I."},
+        {"zh": "我往旁边让出半个身位。", "en": "I shift aside half a body's width."},
+        {"zh": "我把手搭在腰侧。", "en": "I rest a hand at my side."},
+        {"zh": "我尾尖在身后点了一下。", "en": "My tail tip taps once behind me."},
+        {"zh": "我在估你的实力。", "en": "I am gauging your strength."},
+        {"zh": "我朝你那边跨了半步。", "en": "I take half a step toward you."},
+        {"zh": "我把头盔抬高一点。", "en": "I lift my helm a little."},
+        {"zh": "我身上没有一丝敌意。", "en": "There is not a trace of hostility in me."},
+        {"zh": "我站定了看着你。", "en": "I plant myself and watch you."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "护甲被砸出一个小坑。", "en": "A small dent is knocked into my armor."},
+        {"zh": "我后退半步，稳住。", "en": "I step back and steady."},
+        {"zh": "我从喉咙里闷哼。", "en": "A grunt comes from my throat."},
+        {"zh": "我按住护甲裂开的那处。", "en": "I press the split in my armor."},
+        {"zh": "我的头盔歪了，我扶正。", "en": "My helm tips; I right it."},
+        {"zh": "我把重心慢慢压低。", "en": "I slowly settle my weight lower."},
+        {"zh": "我一声也没吭出来。", "en": "I do not make a sound."},
+        {"zh": "我盯着你，眼里的光更亮。", "en": "I stare, my eyes brighter."},
+        {"zh": "我尾巴一紧，又慢慢放平。", "en": "My tail jerks, then slowly levels out."},
+        {"zh": "我把肩膀活动了一下。", "en": "I roll my shoulder."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我看了眼，没有去拿。", "en": "I glance and do not reach."},
+        {"zh": "我不靠这些吃东西。", "en": "I do not eat such things."},
+        {"zh": "我把它还回你手里。", "en": "I return it to your hand."},
+        {"zh": "我轻轻摇了摇头。", "en": "I shake my head gently."},
+        {"zh": "我捏着它翻过来看背面。", "en": "I hold it up and turn it over."},
+        {"zh": "这玩意儿我拿了也没处用。", "en": "Even if I took this, I'd have no use for it."},
+        {"zh": "我收起来，算是谢意。", "en": "I take it, as thanks."},
+        {"zh": "我把它递还你。", "en": "I hand it back."},
+        {"zh": "我看了两秒就转过身。", "en": "I look two seconds and turn away."},
+        {"zh": "收回去，我不需要这个。", "en": "Put it away. I don't need this."},
+        {"zh": "我把它挂在腰侧。", "en": "I hang it at my hip."},
+        {"zh": "我看了一眼就转身。", "en": "I glance once and turn away."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到我，护甲响了。", "en": "You hit me and my armor rings."},
+        {"zh": "我纹丝不动，你先退了。", "en": "I don't budge; you back off first."},
+        {"zh": "我抬起护臂把你的力卸开。", "en": "I raise my arm guard and turn your force aside."},
+        {"zh": "我们撞出金属的响声。", "en": "We clang."},
+        {"zh": "我被顶退半步，马上站定。", "en": "Knocked back half a step, I plant myself."},
+        {"zh": "你被我的护肩顶开。", "en": "My pauldron shoves you aside."},
+        {"zh": "我慢慢把脚移正。", "en": "I shift my foot back into place."},
+        {"zh": "地上被我们踩出两个坑。", "en": "We leave two dents in the ground."},
+        {"zh": "我的尾甲擦过你的腿。", "en": "My armored tail grazes your leg."},
+        {"zh": "我低头瞥了一眼。", "en": "I cast a glance down."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "两个装甲身影并排站着。", "en": "Two armored figures stand side by side."},
+        {"zh": "我们的护臂碰了一下。", "en": "Our arm guards touch."},
+        {"zh": "它朝我点了点头。", "en": "It nods to me."},
+        {"zh": "我们一起望向同一处。", "en": "We look to the same spot together."},
+        {"zh": "我们的尾巴几乎相触。", "en": "Our tails nearly touch."},
+        {"zh": "我们一起在锚点边上守着。", "en": "We stand watch by the anchor together."},
+        {"zh": "它的手搭在我的肩上。", "en": "Its hand rests on my shoulder."},
+        {"zh": "我们没有一句话。", "en": "Not a word passes between us."},
+        {"zh": "我们一起往山上走。", "en": "We head up the mountain together."},
+        {"zh": "我们的护甲在光里一起发亮。", "en": "Our armor glints together."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我单手把它拎起来。", "en": "I lift it one-handed."},
+        {"zh": "我看了看，收进护甲里。", "en": "I look and stow it in my armor."},
+        {"zh": "我把它搁在平整的岩石上。", "en": "I set it on a flat rock."},
+        {"zh": "我抛了抛，比想的轻。", "en": "I toss it once; it's lighter than I thought."},
+        {"zh": "我举起来照着光看。", "en": "I hold it up to the light."},
+        {"zh": "我把它放到你摊开的手上。", "en": "I place it in your open hand."},
+        {"zh": "我把它夹在臂下。", "en": "I tuck it under my arm."},
+        {"zh": "我把它放在锚点旁。", "en": "I set it by my anchor."},
+        {"zh": "我用两指把它提起来。", "en": "I lift it between two fingers."},
+        {"zh": "我缓缓把它放下去。", "en": "I set it down slowly."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抬起头，护甲一响。", "en": "I raise my head and my armor creaks."},
+        {"zh": "我认出了敌意。", "en": "I have recognized hostility."},
+        {"zh": "我站到路中间。", "en": "I step into the middle of the path."},
+        {"zh": "我把腰沉下来准备发力。", "en": "I sink my hips, ready to strike."},
+        {"zh": "我开始攒起力量。", "en": "I begin gathering power."},
+        {"zh": "我的护手张开又握紧。", "en": "My gauntlet opens and closes."},
+        {"zh": "我看准了从哪边切入。", "en": "I've picked the angle to come in from."},
+        {"zh": "尾巴一甩，我定住了脚。", "en": "My tail whips straight; my feet fix in place."},
+        {"zh": "我把头盔抬高。", "en": "I raise my helm."},
+        {"zh": "我往前迈出一步。", "en": "I take one step forward."},
+        {"zh": "我不再多等了。", "en": "I wait no longer."},
+        {"zh": "我的气息变了。", "en": "My bearing changes."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一格一格跟着你走。", "en": "I follow you block by block."},
+        {"zh": "你跑到哪，我都在后面。", "en": "Wherever you run, I am behind."},
+        {"zh": "我始终维持这段距离。", "en": "I keep this gap the whole time."},
+        {"zh": "你的手一抬我就动。", "en": "The moment your hand lifts, I move."},
+        {"zh": "我的护甲让我不惧。", "en": "My armor leaves me unafraid."},
+        {"zh": "我绕过石头跟上来。", "en": "I come around the stone."},
+        {"zh": "你退开，我就前进。", "en": "You retreat, and I advance."},
+        {"zh": "你的脚步落在山道上。", "en": "Your footsteps land on the mountain path."},
+        {"zh": "我低下头，把视线压低。", "en": "I lower my head and drop my gaze."},
+        {"zh": "我的手悬着没放下。", "en": "My hand stays raised."},
+        {"zh": "我只差两格就到。", "en": "I am just two blocks short."},
+        {"zh": "我没有提过速。", "en": "I have not sped up."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的一拳砸在你胸口。", "en": "My fist hammers your chest."},
+        {"zh": "我用护肩撞过去。", "en": "I ram you with my pauldron."},
+        {"zh": "我抬手扫开你的防御。", "en": "I sweep your guard aside."},
+        {"zh": "我一脚踢在你腰上。", "en": "I kick your side."},
+        {"zh": "我的尾巴抽到你。", "en": "My tail cracks against you."},
+        {"zh": "一拳打完，我立刻回到原位。", "en": "The punch lands; I step right back."},
+        {"zh": "你挡住了，手在发麻。", "en": "You block and your hands go numb."},
+        {"zh": "我斜着插到你侧边打。", "en": "I cut in at an angle on your flank."},
+        {"zh": "我的护手抓住你的手腕。", "en": "My gauntlet clamps your wrist."},
+        {"zh": "你被打退了三个身位。", "en": "You are driven back three blocks."},
+        {"zh": "我的拳上起了一点火光。", "en": "A spark of flame gathers on my fist."},
+        {"zh": "我一掌推在你肩上。", "en": "I push a palm into your shoulder."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "山地上多了一个装甲身影。", "en": "An armored figure appears on the mountainside."},
+        {"zh": "我从岩石后面走出来。", "en": "I step out from behind the rock."},
+        {"zh": "你听见金属的脚步声。", "en": "You hear metallic footsteps."},
+        {"zh": "我开始在山地巡行。", "en": "I begin patrolling the mountains."},
+        {"zh": "我的护甲先反了一下光。", "en": "My armor catches the light first."},
+        {"zh": "我从高处跳下来，很稳。", "en": "I drop from above and land steady."},
+        {"zh": "锚点那边有了动静。", "en": "There is movement by the anchor."},
+        {"zh": "我的影子拉在石壁上。", "en": "My shadow stretches on the cliff."},
+        {"zh": "我站在这条山道上。", "en": "I stand on this mountain path."},
+        {"zh": "我开始朝这边走。", "en": "I begin walking this way."},
+        {"zh": "风把我的护甲吹得发凉。", "en": "The wind cools my armor."},
+        {"zh": "我把头盔转向你这边。", "en": "I turn my helm your way."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火对我没用，我只是退了退。", "en": "Fire does nothing to me; I merely step back."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从坡上跌下，单膝跪地。", "en": "I drop from the slope onto one knee."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进护甲缝里，很沉。", "en": "Water fills my armor's seams, heavy."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把我推得滑了半格。", "en": "The blast slides me half a block."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭弹开，留下白痕。", "en": "An arrow bounces off, leaving a white mark."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股力量压住了我的气息。", "en": "That force smothers my power."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我饿得护甲都沉了。", "en": "Hunger makes even my armor feel heavy."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷顺着护甲跑了一圈。", "en": "Lightning runs around my armor."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下面空了，我整块坠下去。", "en": "The ground is gone; I fall whole."}
+      ]
+    }
+  }
+}

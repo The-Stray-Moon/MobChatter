@@ -2,6 +2,17 @@
 
 当前全部客户端 target（Forge 1.18.2/1.19.2/1.20.1、NeoForge 1.21.1/26.1、Fabric 1.20.1/1.21.1/26.1）均已接入对话资源加载。资源包无需压缩或复制整个台词库，可以用普通 UTF-8 JSON 新增实体台词、追加、覆盖或禁用场景。
 
+## 内置台词源
+
+模组自带的 6,507 个实体台词按本页格式摊开在仓库 [`dialogue-pack/`](../dialogue-pack/)：
+
+- 路径与运行时资源包一致：`dialogue-pack/assets/<实体命名空间>/mobchatter/dialogue/<实体路径>.json`，每个实体一个文件。
+- 每个文件使用 `mode: "replace"` 与 `operation: "replace"`，即该实体的完整台词；增删或改写句子直接编辑对应文件。
+- 构建时 `processResources` 依赖 `buildDialoguePack`，会先自动重新生成 `common/src/main/resources/assets/mobchatter/dialogue.json.xz`；也可手动运行 `python tools/build_mod_dialogue.py`。贡献者只需提交 JSON，无需处理 XZ。
+- `python tools/export_dialogue_pack.py` 可从当前 XZ 反向重建整棵目录；数据流水线更新后也可用 `python tools/export_dialogue_pack.py --source mods` 从 `data/dialogue/mods/` 重建。XZ 是生成物，不要手工编辑。
+- `dialogue-pack/pack.mcmeta` 只用于把该目录压缩成临时资源包进游戏验收；`pack_format` 按目标版本调整，打包脚本不读取它。
+- 当前目录与内置 XZ 内容一致：6,507 个实体、998,401 句。字段错误的文件会被 `build_mod_dialogue.py` 拒绝并指出位置。
+
 ## 目录
 
 ```text
@@ -75,6 +86,8 @@ Forge 1.20.1 的 `pack.mcmeta`：
 日志搜索 `Dialogue prepared` 查看实体数、台词数、补丁成功/失败数和准备耗时；搜索 `Skipping dialogue patch` 定位错误文件。
 
 ## 验证状态
+
+2026-11-21：`buildDialoguePack` 接入 `common` 与各 target 的 `processResources`、`sourcesJar`。`common` 与 neoforge-1.21.1 实际执行通过；neoforge-1.21.1 的 `jar` 包含由 `dialogue-pack/` 重新生成的 XZ，内容与旧库一致（6,507 个实体、998,401 句）。其余 target 未逐一重跑。
 
 2026-11-20：共享补丁解析/合并迁移到 `common` 后，全部 8 个 target 的 `build` 通过；common 自动化测试覆盖合并规则、资源包优先级、新实体嵌套路径、错误文件跳过、禁用与回退、移除资源包恢复，以及基础库损坏不替换旧快照。2026-11-19 的 Forge 1.20.1 真实 `MultiPackResourceManager` 测试保留为历史记录。
 

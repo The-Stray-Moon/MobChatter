@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出嘶嘶声，缓慢前进", "en": "Sssss, moves slowly"},
+        {"zh": "脚步声，缓慢行走", "en": "Steps, moves slowly"},
+        {"zh": "嘶嘶声中露出尖牙", "en": "Sss, sharp teeth shown"},
+        {"zh": "舔了舔嘴唇，缓缓移动", "en": "Tasted lips, moves slowly"},
+        {"zh": "咀嚼声，缓缓向前", "en": "Chewing sound, moves slowly"},
+        {"zh": "嘶嘶声中接近猎物", "en": "Sss, approaching prey"},
+        {"zh": "磨牙声，缓缓行进", "en": "Grinding teeth, moves slowly"},
+        {"zh": "低吼着向前走", "en": "Growls, moves forward"},
+        {"zh": "张开嘴，嘶嘶声中前进", "en": "Opens mouth, sss"},
+        {"zh": "舔了舔地面，慢慢走开", "en": "Tasted ground, slowly leaves"},
+        {"zh": "背着鼓囊囊的麻袋慢慢走。", "en": "He trudges along with a bulging sack."},
+        {"zh": "踩着废墟的碎砖前进。", "en": "He picks his way over rubble."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低垂着眼睛，盯着地面", "en": "Low eyes, staring at ground"},
+        {"zh": "缓缓摇晃头部，似乎思考", "en": "Shaking head slowly, thinking"},
+        {"zh": "舔了舔嘴唇，似乎在回味", "en": "Tasted lips, relishing"},
+        {"zh": "嘶嘶声中打量周围环境", "en": "Sss, surveying surroundings"},
+        {"zh": "低头舔着身体，似乎在自疗", "en": "Tasting body, self-healing"},
+        {"zh": "咬咬手指，似乎在计数", "en": "Biting fingers, counting"},
+        {"zh": "舔了舔手指，露出牙齿", "en": "Tasting fingers, showing teeth"},
+        {"zh": "舔了舔伤口，似乎在愈合", "en": "Tasting wound, healing"},
+        {"zh": "嘶嘶声中自言自语", "en": "Sss, mumbling to self"},
+        {"zh": "低头舔了舔地面，似乎在寻找线索", "en": "Tasting ground, searching clues"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的同伴都倒下了，你还站着。", "en": "My crew's all down, and you're still standing."},
+        {"zh": "露出凶光，盯着玩家", "en": "Sharp eyes, staring at player"},
+        {"zh": "嘶嘶声中盯着玩家", "en": "Sss, staring at player"},
+        {"zh": "低吼着盯着玩家", "en": "Growling, staring at player"},
+        {"zh": "咬紧嘴唇，盯着玩家", "en": "Biting lips, staring at player"},
+        {"zh": "露出獠牙，盯着玩家", "en": "Showing fangs, staring at player"},
+        {"zh": "舔了舔嘴唇，盯着玩家", "en": "Tasting lips, staring at player"},
+        {"zh": "眼神锐利，盯着玩家", "en": "Sharp eyes, staring at player"},
+        {"zh": "张开嘴，露出獠牙盯着玩家", "en": "Opens mouth, showing fangs, staring at player"},
+        {"zh": "从上到下打量你的背包。", "en": "His eyes run down your backpack."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这疼死我了！", "en": "Ouch, that hurts!"},
+        {"zh": "我要死了！", "en": "I'm dying!"},
+        {"zh": "我按住腰上的伤口。", "en": "I press a hand to the wound at my waist."},
+        {"zh": "别让那家伙靠近！", "en": "Don't let it get near!"},
+        {"zh": "我的小腿歪向不该有的方向。", "en": "My calf bends the wrong way."},
+        {"zh": "血从我的袖口滴下来。", "en": "Blood drips from my sleeve."},
+        {"zh": "快给我水喝！", "en": "Give me water!"},
+        {"zh": "快给我药草！", "en": "Give me some herbs!"},
+        {"zh": "你快来救救我！", "en": "Save me, please!"},
+        {"zh": "这道口子得缠上。", "en": "This cut needs wrapping."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "背包鼓鼓的，我先看看。", "en": "That bulging pack. Let me look."},
+        {"zh": "别想逃脱，你的肉很美味。", "en": "Don’t think you can escape. Your flesh is delicious."},
+        {"zh": "不要接近我，否则你会后悔。", "en": "Stay back, or you’ll regret it."},
+        {"zh": "跟我走，你会被转化的。", "en": "Follow me. You’ll be transformed."},
+        {"zh": "你的物品对我没用。", "en": "Your items are useless to me."},
+        {"zh": "我的眼睛盯着你的弱点。", "en": "My eyes are on your weaknesses."},
+        {"zh": "你的末影珍珠对我无用。", "en": "Your Elytra won’t help you."},
+        {"zh": "你会为你的贪婪付出代价。", "en": "You’ll pay for your greed."},
+        {"zh": "我不在乎你是谁。", "en": "I don’t care who you are."},
+        {"zh": "来吧，享受这个。", "en": "Here, take this."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的肩膀撞歪了我的背包。", "en": "Your shoulder knocks my pack askew."},
+        {"zh": "滚开，这是我的领地。", "en": "Get out of my territory."},
+        {"zh": "你不会想惹我的。", "en": "You don’t want to mess with me."},
+        {"zh": "别让我发现你。", "en": "Don’t let me find you."},
+        {"zh": "废墟里的东西都归我。", "en": "Everything in these ruins is mine."},
+        {"zh": "我不会饶过你。", "en": "I won’t spare you."},
+        {"zh": "你挡了我的路，必须解决。", "en": "You’re in my way. I need to deal with you."},
+        {"zh": "我要清理这个区域。", "en": "I’m cleaning up this area."},
+        {"zh": "这片废墟归我先搜。", "en": "I search these ruins first."},
+        {"zh": "让开，我来过了。", "en": "Move, I’ve been here before."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "跟我一起吧，我们会强大。", "en": "Join me. We’ll be stronger together."},
+        {"zh": "废墟里，我们分同一罐水。", "en": "In the ruins, we share the same canteen."},
+        {"zh": "和我交配，一起生存。", "en": "Mate with me. Survive together."},
+        {"zh": "末世的夜里，只剩我们俩。", "en": "On this dead night, only the two of us are left."},
+        {"zh": "和我在一起，你会活下来。", "en": "Stay with me, you’ll survive."},
+        {"zh": "搭伙分粮，比一个人活得久。", "en": "Sharing rations outlives going solo."},
+        {"zh": "来吧，我们是同类。", "en": "Come, we’re the same."},
+        {"zh": "和我合作，我们会更强大。", "en": "Work with me. We’ll be stronger."},
+        {"zh": "我会保护你，你愿意吗？", "en": "I’ll protect you. Will you join me?"},
+        {"zh": "搭个伙，活下来的机会大点。", "en": "Teaming up might keep us alive."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，这里有美味。", "en": "Sssss, something tasty here."},
+        {"zh": "尝尝吧，人类的肉！", "en": "Taste this, human flesh!"},
+        {"zh": "找点东西吃吧。", "en": "Time to eat something."},
+        {"zh": "我翻着垃圾，找没坏的那罐。", "en": "I dig through the trash for an unbroken can."},
+        {"zh": "人类的血，不错。", "en": "Human blood, good."},
+        {"zh": "咬住，不然吃不到。", "en": "Hold it still, or you won't get any."},
+        {"zh": "不给就吃掉。", "en": "Take it or I'll take it."},
+        {"zh": "别跑，给我停下。", "en": "Don't run, stop now."},
+        {"zh": "找到你了，现在尝尝吧。", "en": "Found you, now taste this."},
+        {"zh": "这里有很多可以吃的东西。", "en": "There's plenty to eat here."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发现了新的猎物。", "en": "New prey acquired."},
+        {"zh": "跟踪目标。", "en": "Tracking target."},
+        {"zh": "灰尘里有一串新脚印。", "en": "A fresh line of footprints shows in the dust."},
+        {"zh": "我在数你换弹的间隙。", "en": "I count the gap while you reload."},
+        {"zh": "目标已经锁定。", "en": "Target locked."},
+        {"zh": "目标暴露了。", "en": "Target exposed."},
+        {"zh": "靠近猎物。", "en": "Getting closer to the prey."},
+        {"zh": "准备攻击目标。", "en": "Preparing to attack the target."},
+        {"zh": "目标的气味。", "en": "Target's scent."},
+        {"zh": "锁定目标的行动。", "en": "Target's movements detected."},
+        {"zh": "你背包里装了罐头。", "en": "You've got cans in that pack."},
+        {"zh": "这地方我先搜的。", "en": "I searched this place first."},
+        {"zh": "你身上有消毒水味。", "en": "You smell of antiseptic."},
+        {"zh": "放下东西，人可以走。", "en": "Drop the goods and walk."},
+        {"zh": "你今天出门没带够。", "en": "You came out under-armed today."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "抓住他，别让他跑了。", "en": "Get him, don't let him run."},
+        {"zh": "咬住他的腿。", "en": "Grab his leg."},
+        {"zh": "别让他逃走。", "en": "Don't let him escape."},
+        {"zh": "用利爪抓住他。", "en": "Lunge with my claws."},
+        {"zh": "狠狠地咬下去。", "en": "Sink your teeth in hard."},
+        {"zh": "咬住他的脖子。", "en": "Grab his throat."},
+        {"zh": "别让他逃脱。", "en": "Don't let him get away."},
+        {"zh": "攻击他的心脏。", "en": "Target his heart."},
+        {"zh": "紧紧抓住他。", "en": "Hold him tight."},
+        {"zh": "别让他跑远。", "en": "Don't let him get too far away."},
+        {"zh": "我先砸你的腿。", "en": "I go for your legs first."},
+        {"zh": "断腿就跑不掉了。", "en": "A broken leg ends the chase."},
+        {"zh": "你在流血，我知道。", "en": "You're bleeding. I can tell."},
+        {"zh": "绕到巷子那头等你。", "en": "I'll wait at the far end of the alley."},
+        {"zh": "别捂伤口，越捂越慢。", "en": "Clutch that wound and you slow down."},
+        {"zh": "你退路有具会动的尸体。", "en": "Something's moving behind you."},
+        {"zh": "你背包鼓着，我看见了。", "en": "Your pack is full. I noticed."},
+        {"zh": "你手里的棍子太短。", "en": "That stick of yours is too short."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用枪托砸你的下巴。", "en": "I slam my rifle butt into your jaw."},
+        {"zh": "指甲缝里还卡着上一顿。", "en": "Last meal's bits still wedge under my nails."},
+        {"zh": "不逃了？你想死吗？", "en": "No running? You want to die?"},
+        {"zh": "这包东西现在归我。", "en": "This bag of yours is mine now."},
+        {"zh": "我一脚踹在你的膝弯上。", "en": "I kick the back of your knee."},
+        {"zh": "我的牙缝里还塞着布条。", "en": "Cloth scraps are still stuck in my teeth."},
+        {"zh": "我的牙嵌进你的护腕。", "en": "My teeth sink into your bracer."},
+        {"zh": "我的砍刀卡进你的护甲缝。", "en": "My machete wedges into your armor seam."},
+        {"zh": "我抡起铁管，朝你脑袋。", "en": "I swing a pipe at your head."},
+        {"zh": "喊也没用，交出来。", "en": "Screaming won't help — hand it over."},
+        {"zh": "撬棍砸在你肩上！", "en": "The crowbar lands on your shoulder!"},
+        {"zh": "这一下冲你的膝盖。", "en": "This one's for your knee."},
+        {"zh": "包给我，滚开！", "en": "Give me the bag and get lost!"},
+        {"zh": "咬你一口也能传染。", "en": "One bite can pass it on."},
+        {"zh": "你流血流得太快了。", "en": "You're bleeding out fast."},
+        {"zh": "别怪我，末世的规矩。", "en": "Don't blame me. End-times rules."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "来了，来了，我的猎物！", "en": "Here, here, my prey!"},
+        {"zh": "新的目标出现了！", "en": "New prey appears!"},
+        {"zh": "废墟的门开了，我闻到你。", "en": "The ruin's door opens and I smell you."},
+        {"zh": "这是我的！", "en": "This is mine!"},
+        {"zh": "我从废车的阴影里站起来。", "en": "I rise from the shadow of a wrecked car."},
+        {"zh": "这袋东西归我了。", "en": "This sack is mine now."},
+        {"zh": "这里就是你的坟墓！", "en": "This is your grave!"},
+        {"zh": "我饿了，给我食物！", "en": "I'm hungry, give me food!"},
+        {"zh": "先搜口袋，再咬脖子。", "en": "Search the pockets, then the throat."},
+        {"zh": "我是掠夺者！", "en": "I'm the looter!"},
+        {"zh": "废墟里翻出一个人影。", "en": "A figure climbs out of the rubble."},
+        {"zh": "我在这条街守了三天。", "en": "I've held this street three days."},
+        {"zh": "有活人，就有东西可拿。", "en": "Where there's a living man, there's loot."},
+        {"zh": "别靠近，我在数子弹。", "en": "Stay back. I'm counting rounds."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "着火了，快打滚！", "en": "I'm on fire, roll, roll!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔下来，口袋撒了一地。", "en": "I fell, and my pockets spilled."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这脏水呛死我了。", "en": "This filthy water is choking me."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "啊！被爆炸震伤了！", "en": "Boom! I got hit by an explosion!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "中箭了，谁射的！", "en": "Arrow in me! Who shot that?"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "啊！魔法攻击！", "en": "Magic hit me!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "再没东西吃就要倒下了。", "en": "One more hungry hour and I drop."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "啊！被闪电击中！", "en": "Lightning hit me!"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抓不住任何东西，往下掉。", "en": "I claw at nothing and fall."}
+      ]
+    }
+  }
+}

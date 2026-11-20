@@ -1,0 +1,244 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我小跑着穿过枯草。", "en": "I trot through the dead grass."},
+        {"zh": "我低头贴着地跑，鼻尖在前。", "en": "I run with my head low, nose ahead."},
+        {"zh": "我跑得很快，腿很短。", "en": "I run fast on short legs."},
+        {"zh": "我一边跑一边扭头看。", "en": "I run and twist my head around."},
+        {"zh": "我从菜地边跑过去。", "en": "I run past the edge of the field."},
+        {"zh": "我跑的路线是弯的。", "en": "My path curves."},
+        {"zh": "我绕着房子跑了一圈。", "en": "I circle the house once."},
+        {"zh": "我跑过的地方土发白。", "en": "The soil pales where I've run."},
+        {"zh": "我停下，嗅了嗅，再跑。", "en": "I stop, sniff, and run again."},
+        {"zh": "我从栅栏底下钻过去。", "en": "I squeeze under the fence."},
+        {"zh": "我跑到仓库门口，又跑了。", "en": "I run to the barn door and away."},
+        {"zh": "我拖着一条后腿，还能跑。", "en": "I drag a hind leg and can still run."},
+        {"zh": "我贴着墙角快走。", "en": "I hurry along the base of the wall."},
+        {"zh": "我跑到水沟那边停下来。", "en": "I run to the ditch and stop."},
+        {"zh": "我急急忙忙，看着很慌。", "en": "I move frantically, and it looks like panic."},
+        {"zh": "我绕了一圈，又回到原地。", "en": "I circle and come back to the same spot."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我蹲着，四下里看。", "en": "I crouch and look all around."},
+        {"zh": "土里有一丝甜味，我记住了。", "en": "A trace of sweetness in the soil; noted."},
+        {"zh": "我在数你的箱子和口袋。", "en": "I'm counting your chests and pockets."},
+        {"zh": "我听到了很远的声音。", "en": "I hear something far off."},
+        {"zh": "这一带的土已经不肥了。", "en": "The soil here has gone poor."},
+        {"zh": "我在等没人看着的时候。", "en": "I'm waiting for no one to be watching."},
+        {"zh": "我蹲在墙根，缩成一团。", "en": "I crouch at the wall base, folded up."},
+        {"zh": "我什么都没吃。", "en": "I haven't eaten anything."},
+        {"zh": "我抓了抓耳朵后面。", "en": "I scratch behind my ear."},
+        {"zh": "我把下巴贴在土上。", "en": "I rest my chin on the soil."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你发现我了，那我就不藏了。", "en": "You've spotted me; then I won't hide."},
+        {"zh": "我抬起头，嘴里还有东西。", "en": "I raise my head with something still in my mouth."},
+        {"zh": "你的口袋鼓着。", "en": "Your pocket is bulging."},
+        {"zh": "你手指一动，我就上前半步。", "en": "The moment your fingers twitch, I take half a step closer."},
+        {"zh": "你不追我，我就不跑。", "en": "If you don't chase, I won't run."},
+        {"zh": "我一边看你一边往后挪。", "en": "I watch you and edge backward."},
+        {"zh": "我的牙露出来了，很短。", "en": "My teeth show, and they're short."},
+        {"zh": "我记住你家在哪了。", "en": "I've remembered where you live."},
+        {"zh": "你今晚会睡着的。", "en": "You'll fall asleep tonight."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿的嘴，只挤出半声。", "en": "The hungry jaws squeeze out half a cry."},
+        {"zh": "我滚到墙根下面。", "en": "I roll under the wall base."},
+        {"zh": "这一下让我丢了一半东西。", "en": "The blow makes me drop half of it."},
+        {"zh": "我贴着土，喘得很快。", "en": "I press to the soil, breathing fast."},
+        {"zh": "我的腿在抖，站不稳。", "en": "My legs shake and I can't stand."},
+        {"zh": "我想跑，跑了两步就倒。", "en": "I try to run and fall after two steps."},
+        {"zh": "我身上的土被血浸了。", "en": "Blood soaks the soil on me."},
+        {"zh": "我回头看你，牙还露着。", "en": "I look back at you, teeth bared."},
+        {"zh": "我往洞那边爬。", "en": "I crawl toward the hole."},
+        {"zh": "我偷的还不够多。", "en": "I haven't stolen nearly enough."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那些东西在地上，我能拿。", "en": "That's on the ground; I can take it."},
+        {"zh": "我慢慢走过去，很小心。", "en": "I walk over slowly, careful."},
+        {"zh": "我抓起一把就往嘴里塞。", "en": "I grab a handful and stuff it in."},
+        {"zh": "这点不够我带回窝里。", "en": "Not enough to carry home."},
+        {"zh": "我把剩下的往怀里塞。", "en": "I stuff the rest inside my coat."},
+        {"zh": "你多给一点，我就走远点。", "en": "A little more and I'll go farther off."},
+        {"zh": "我吃得太快，噎住了。", "en": "I eat too fast and choke."},
+        {"zh": "我吃完就跑，不停。", "en": "When I'm done I run, without stopping."},
+        {"zh": "我在口袋里还藏了。", "en": "I've hidden some in my pocket too."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上我，我滚了一圈。", "en": "You hit me and I roll once."},
+        {"zh": "我爬起来就跑了两步。", "en": "I get up and run two paces."},
+        {"zh": "这一下让我掉了个东西。", "en": "The bump makes me drop something."},
+        {"zh": "我贴着墙滑开。", "en": "I slide off along the wall."},
+        {"zh": "我踉跄了一下，站住了。", "en": "I stumble and catch myself."},
+        {"zh": "你比我重得多。", "en": "You're much heavier than me."},
+        {"zh": "我回头看了一眼，没停。", "en": "I glance back without stopping."},
+        {"zh": "我钻到你腿后面去了。", "en": "I dart behind your legs."},
+        {"zh": "泥被我们踩得到处都是。", "en": "We trample mud everywhere."},
+        {"zh": "我把背上的土抖落。", "en": "I shake the earth off my back."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "她也在这片地里。", "en": "She's in this field too."},
+        {"zh": "我们两个都低着头。", "en": "Both of us keep our heads down."},
+        {"zh": "她把偷来的东西分给我。", "en": "She shares what she stole."},
+        {"zh": "我们没有叫，只是碰了碰鼻子。", "en": "We don't call; we only touch noses."},
+        {"zh": "她的腿比我短一点。", "en": "Her legs are a little shorter."},
+        {"zh": "她把土推到一边。", "en": "She pushes the soil aside."},
+        {"zh": "我们蹲在坑里，很安静。", "en": "We crouch in the pit, quiet."},
+        {"zh": "她先跑，我在后面。", "en": "She runs first; I follow."},
+        {"zh": "这一片地够我们两个偷。", "en": "This field is enough for us both to rob."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一把抓起来就跑。", "en": "I snatch it up and run."},
+        {"zh": "我塞进嘴里，腮帮子鼓着。", "en": "I stuff it in; my cheeks bulge."},
+        {"zh": "我抱着走，走得很歪。", "en": "I carry it and walk crooked."},
+        {"zh": "它太沉，我把一半丢了。", "en": "Too heavy; I drop half."},
+        {"zh": "我叼在嘴里，不敢嚼。", "en": "I hold it in my mouth without chewing."},
+        {"zh": "我从土里把它刨出来。", "en": "I dig it out of the soil."},
+        {"zh": "我一边跑一边掉。", "en": "Things fall from me as I run."},
+        {"zh": "我把它藏到石头后面。", "en": "I hide it behind a stone."},
+        {"zh": "我拿了就走，没多看。", "en": "I take it and go without a second look."},
+        {"zh": "它上面有别人的味道。", "en": "It smells of someone else."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我闻到了，是吃的。", "en": "I smell it — food."},
+        {"zh": "我抬起头，眼睛定住了。", "en": "I raise my head and my eyes fix."},
+        {"zh": "我开始往那边凑。", "en": "I start edging that way."},
+        {"zh": "我等你不看着我的时候。", "en": "I wait for you to look away."},
+        {"zh": "它放在那里，没人看着。", "en": "It's sitting there, unwatched."},
+        {"zh": "这个我拿得走。", "en": "I can carry this off."},
+        {"zh": "我蹲下来，准备冲。", "en": "I crouch, ready to dash."},
+        {"zh": "我先偷到手，然后再跑。", "en": "First I steal it, then I run."},
+        {"zh": "我记住了来的那条路线。", "en": "I've memorized the route I came by."},
+        {"zh": "我记住了路线。", "en": "I've memorized the route."},
+        {"zh": "你转身的时候就是机会。", "en": "Your turning away is my chance."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴着墙根跟过去。", "en": "I keep to the wall and follow."},
+        {"zh": "你没回头，这很好。", "en": "You haven't looked back — good."},
+        {"zh": "我一步一步挪，很小声。", "en": "I shift step by step, very quietly."},
+        {"zh": "我从桌子下面钻过去。", "en": "I slip under the table."},
+        {"zh": "我伸手试了试，够得到。", "en": "I reach out and test the distance."},
+        {"zh": "它在箱子里，箱子没锁。", "en": "It's in the chest, and the chest is unlocked."},
+        {"zh": "我抓了一把塞进怀里。", "en": "I grab a handful into my coat."},
+        {"zh": "我开始往门口退。", "en": "I start backing toward the door."},
+        {"zh": "门口有响动，我停住。", "en": "A sound at the door and I freeze."},
+        {"zh": "我往墙角的洞里跑。", "en": "I run for the hole in the corner."},
+        {"zh": "那个洞是我自己挖的。", "en": "That hole is one I dug myself."},
+        {"zh": "外面没人追来。", "en": "No one follows outside."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我扑上去咬你的手。", "en": "I lunge and bite your hand."},
+        {"zh": "我抓了一把土扔你眼睛。", "en": "I throw a fistful of dirt at your eyes."},
+        {"zh": "我撞你的膝盖，想把你绊倒。", "en": "I ram your knee to trip you."},
+        {"zh": "你抓住我的背，我扭开了。", "en": "You grab my back and I twist free."},
+        {"zh": "我一边打一边看退路。", "en": "I fight while watching for a way out."},
+        {"zh": "这一下咬得很浅。", "en": "That bite was shallow."},
+        {"zh": "我踢翻了一个桶挡路。", "en": "I kick a bucket over in your way."},
+        {"zh": "我把偷的东西扔向另一边。", "en": "I throw the stolen goods the other way."},
+        {"zh": "我趁你转头就跑。", "en": "You look away, and I run."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从土里钻出来，抖了抖。", "en": "I come up out of the soil and shake."},
+        {"zh": "这一带有吃的味道。", "en": "There's food-smell here."},
+        {"zh": "我压低身子，往墙根跑。", "en": "I drop low and run for the wall."},
+        {"zh": "我的鼻子贴到地上。", "en": "My nose goes to the ground."},
+        {"zh": "我在墙根下面找了个洞。", "en": "I find a hole under the wall base."},
+        {"zh": "这里的土还是软的。", "en": "The soil here is still soft."},
+        {"zh": "我听见上面有脚步。", "en": "I hear footsteps above."},
+        {"zh": "天黑了，正合适。", "en": "It's dark — just right."},
+        {"zh": "我开始找能偷的东西。", "en": "I start looking for what can be stolen."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎到我的毛，我乱窜。", "en": "Fire catches my fur and I bolt."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉进坑里，摔在硬土上。", "en": "I drop into a pit onto hard earth."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进嘴里，我抓着草根。", "en": "Water fills my mouth; I grab at roots."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把我掀出好几步。", "en": "The blast throws me several paces."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭钉进我的后腰。", "en": "An arrow pins my lower back."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那道光一照，我腿就软了。", "en": "The light hits and my legs go weak."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得跑不动，我趴在土里。", "en": "Too starved to run, I lie in the dirt."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷声一响，我钻得比谁都快。", "en": "At the thunder I burrow faster than anyone."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下没有土，我什么都抓不住。", "en": "No soil under me; I catch nothing."}
+      ]
+    }
+  }
+}

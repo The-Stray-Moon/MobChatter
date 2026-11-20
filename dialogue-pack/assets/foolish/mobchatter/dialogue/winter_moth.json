@@ -1,0 +1,239 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴着雪面飞，很轻。", "en": "I fly low over the snow, weightless."},
+        {"zh": "我的翅膀上落着霜。", "en": "Frost settles on my wings."},
+        {"zh": "我绕过一根结冰的枝。", "en": "I go round an icy branch."},
+        {"zh": "雪林里很安静。", "en": "The snow forest is quiet."},
+        {"zh": "我的身体只有半格大。", "en": "My body is only half a block."},
+        {"zh": "我一阵一阵地扇翅。", "en": "I beat my wings in bursts."},
+        {"zh": "我在松林的空隙间穿行。", "en": "I weave through gaps in the pines."},
+        {"zh": "风把我抬高一格。", "en": "The wind lifts me a block."},
+        {"zh": "我飞过一片没有脚印的雪地。", "en": "I cross untouched snow."},
+        {"zh": "我贴着树皮飞行。", "en": "I fly close to the bark."},
+        {"zh": "我的触角碰到了雪。", "en": "An antenna touches the snow."},
+        {"zh": "我慢慢地绕了一圈。", "en": "I circle once, slowly."},
+        {"zh": "背后是一道浅浅的痕迹。", "en": "A faint trail stays behind me."},
+        {"zh": "雪光太亮，我眯着复眼。", "en": "The snow light stings my eyes."},
+        {"zh": "我落在一根针叶上。", "en": "I settle on a needle."},
+        {"zh": "我又提起来，继续飞。", "en": "I lift again and continue."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我停在一根枝上。", "en": "I rest on a branch."},
+        {"zh": "我的翅膀合拢了。", "en": "My wings fold."},
+        {"zh": "霜在我背上化了。", "en": "Frost melts on my back."},
+        {"zh": "我在等一阵暖一点的风。", "en": "I'm waiting for a warmer breeze."},
+        {"zh": "脚下的雪有我的影子。", "en": "My shadow lies on the snow."},
+        {"zh": "我在听雪落的声音。", "en": "I listen to snow falling."},
+        {"zh": "我的触角朝下弯。", "en": "My antennae curl down."},
+        {"zh": "树皮上有霜花。", "en": "Hoarfrost blooms on the bark."},
+        {"zh": "我慢慢地扇了一下翅。", "en": "I beat my wings once, slowly."},
+        {"zh": "我很小，很难被看见。", "en": "I'm small, hard to notice."},
+        {"zh": "我在枝上转了个方向。", "en": "I turn on the branch."},
+        {"zh": "我的身体几乎不动。", "en": "I barely move at all."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你走近了，我往后退。", "en": "You're close; I back away."},
+        {"zh": "你比这棵树还高。", "en": "You're taller than this tree."},
+        {"zh": "我不喜欢被靠近。", "en": "I don't like being approached."},
+        {"zh": "我往枝的另一头挪。", "en": "I shift to the far end of the branch."},
+        {"zh": "雪把我们的声音都吸掉了。", "en": "The snow swallows both our sounds."},
+        {"zh": "你一动，我就飞走。", "en": "One move and I'm gone."},
+        {"zh": "你的呼吸是白的。", "en": "Your breath is white."},
+        {"zh": "我不是给你抓的。", "en": "I'm not yours to catch."},
+        {"zh": "我扇起雪粉，遮住自己。", "en": "I beat up a puff of snow to hide myself."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我落到枝上缓了缓。", "en": "I landed on a branch to recover."},
+        {"zh": "霜粉落了一地。", "en": "Frost dust falls everywhere."},
+        {"zh": "我的触角有一根歪了。", "en": "One antenna is bent."},
+        {"zh": "这点伤对我来说不轻。", "en": "A wound this size is not small for me."},
+        {"zh": "我又扇了两下。", "en": "I beat my wings twice."},
+        {"zh": "雪接住了我。", "en": "The snow caught me."},
+        {"zh": "我缩起一只翅。", "en": "I fold one wing in."},
+        {"zh": "我只是路过，轻一点好吗。", "en": "I was only passing by. Please be gentle."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "树皮上有甜的东西。", "en": "Something sweet on the bark."},
+        {"zh": "那点湿气很吸引我。", "en": "That bit of moisture draws me."},
+        {"zh": "我绕着树皮飞了半圈。", "en": "I fly half a circle around the bark."},
+        {"zh": "我试着尝一口。", "en": "I try a taste."},
+        {"zh": "这个不太对。", "en": "This isn't quite right."},
+        {"zh": "雪林里的我，只有七点命。", "en": "Seven points, up in the snow woods."},
+        {"zh": "霜上的甜味，我尝不出来。", "en": "I cannot taste the sweetness on the frost."},
+        {"zh": "有股花蜜的味道。", "en": "Smells like nectar."},
+        {"zh": "绕了一圈，我又停在雪上。", "en": "One loop, and I settle on the snow again."},
+        {"zh": "我再试一下。", "en": "Let me try once more."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你碰到了树枝。", "en": "You touched the branch."},
+        {"zh": "我被晃得飞了起来。", "en": "I'm shaken into the air."},
+        {"zh": "我的翅膀撞到了针叶。", "en": "My wing hits a needle."},
+        {"zh": "我落回另一根枝。", "en": "I land on another branch."},
+        {"zh": "雪从上面落下来。", "en": "Snow falls from above."},
+        {"zh": "我很快稳住了。", "en": "I steady quickly."},
+        {"zh": "你的手扫到了雪。", "en": "Your hand swept the snow."},
+        {"zh": "这点冲击对我很大。", "en": "That much impact is large for me."},
+        {"zh": "我拍了拍翅升起来。", "en": "I beat my wings and rise."},
+        {"zh": "我不在这里停了。", "en": "I won't stay here."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "另一只蛾在松树那边。", "en": "Another moth is by the pine."},
+        {"zh": "我们在半空绕了一圈。", "en": "We circle once in the air."},
+        {"zh": "我们并排落在枝上。", "en": "We land side by side."},
+        {"zh": "触角轻轻碰了一下。", "en": "Our antennae touch lightly."},
+        {"zh": "两只一同起飞。", "en": "We lift off as a pair."},
+        {"zh": "她慢了下来。", "en": "She slowed."},
+        {"zh": "我转回去等她。", "en": "I circled back for her."},
+        {"zh": "霜落在我们两个身上。", "en": "Frost lands on both of us."},
+        {"zh": "我们朝林深处去了。", "en": "We head deeper into the trees."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "枝上有一点东西。", "en": "There's a bit of something on the branch."},
+        {"zh": "它粘在我脚上。", "en": "It sticks to my foot."},
+        {"zh": "我把它带到枝上。", "en": "I carry it onto the branch."},
+        {"zh": "我抱着它，落到雪枝上。", "en": "Holding it, I settle on a snowy branch."},
+        {"zh": "霜把它冻住了。", "en": "Frost has frozen it."},
+        {"zh": "我甩了甩脚。", "en": "I shake my foot."},
+        {"zh": "我离开那根枝。", "en": "I leave that branch."},
+        {"zh": "这片雪太凉了，我捡片叶子垫着。", "en": "The snow is too cold, so I'll pick up a leaf to rest on."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那边的雪动了。", "en": "The snow over there moved."},
+        {"zh": "我抬起触角。", "en": "I lift my antennae."},
+        {"zh": "我朝反方向飞。", "en": "I fly the other way."},
+        {"zh": "我找了个缝。", "en": "I found a gap."},
+        {"zh": "我翅膀扇得快了。", "en": "My wings beat faster."},
+        {"zh": "它停下来看我。", "en": "It stopped and looked at me."},
+        {"zh": "我缩在树皮上。", "en": "I press against the bark."},
+        {"zh": "我收住翅膀。", "en": "I still my wings."},
+        {"zh": "它转开去了。", "en": "It turned away."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在树枝间绕。", "en": "I weave between branches."},
+        {"zh": "我的翅膀上落着霜，贴着雪面飞。", "en": "Frost on my wings, I fly just over the snow."},
+        {"zh": "我贴着雪飞。", "en": "I fly low over the snow."},
+        {"zh": "它追不上我的转弯。", "en": "It can't match my turns."},
+        {"zh": "我悬了一会儿。", "en": "I hover for a moment."},
+        {"zh": "它又靠近了。", "en": "It's closer again."},
+        {"zh": "我往松树深处去。", "en": "I head deeper into the pines."},
+        {"zh": "针叶帮我挡住。", "en": "The needles shield me."},
+        {"zh": "雪林的翅，夜里也发白。", "en": "Snow-forest wings stay pale even at night."},
+        {"zh": "我飞起来了，冰封山峰的雪沫很细。", "en": "I take flight; snow dust on the frozen peak is fine."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被撞了一下。", "en": "I took a hit."},
+        {"zh": "我撞进雪里，翅上全是霜。", "en": "I crash into the snow with frost all over my wings."},
+        {"zh": "我被打得打转。", "en": "The hit sends me spinning."},
+        {"zh": "我落到雪上。", "en": "I land on the snow."},
+        {"zh": "一点霜粉从翅上落下。", "en": "A little frost dust falls from my wings."},
+        {"zh": "我抖着翅重新升空。", "en": "I shudder my wings and rise again."},
+        {"zh": "我往树缝里钻。", "en": "I dive into a tree gap."},
+        {"zh": "这里它伸不进来。", "en": "It can't reach in here."},
+        {"zh": "动静远去了。", "en": "The sound moved away."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雪林里多了一点白。", "en": "A fleck of white in the snow forest."},
+        {"zh": "我从针叶间飞出来。", "en": "I fly out from between the needles."},
+        {"zh": "霜先落在我的翅上。", "en": "Frost settles on my wings first."},
+        {"zh": "这里的雪很厚。", "en": "The snow here is deep."},
+        {"zh": "我试着扇了几下。", "en": "I test a few wingbeats."},
+        {"zh": "几只同类在附近飞。", "en": "A few of my kind fly nearby."},
+        {"zh": "我找到一根低枝。", "en": "I found a low branch."},
+        {"zh": "空气冷得发脆。", "en": "The air is brittle with cold."},
+        {"zh": "雪光把一切都照亮了。", "en": "The snow light brightens everything."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火一靠近，我的翅边就焦了。", "en": "Fire nears and my wingtip scorches."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从半空落进雪里，陷下去。", "en": "I drop into the snow and sink."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雪化了，水把我困住。", "en": "The snow melted and the water traps me."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我吹过一整棵树。", "en": "The blast blows me past a whole tree."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一根尖东西穿过了我的翅。", "en": "Something pointed passes through my wing."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "周围的冷忽然整个变了。", "en": "The cold around me suddenly changes."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我飞得越来越没力。", "en": "My flight gets weaker and weaker."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光把雪照成一片白。", "en": "Lightning turns the snow white."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没有雪，也没有树，只有暗。", "en": "No snow, no trees, only dark."}
+      ]
+    }
+  }
+}

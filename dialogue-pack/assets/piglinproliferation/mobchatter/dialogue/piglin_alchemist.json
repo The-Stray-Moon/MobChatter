@@ -1,0 +1,256 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出轻盈脚步声，手中紧握药瓶。", "en": "Taps feet softly, holding a vial."},
+        {"zh": "在荒地上跳跃，药瓶不离手。", "en": "Jumps on the desert, never leaving the vial."},
+        {"zh": "在森林中穿梭，药水随身携带。", "en": "Darts through the forest, vials always with him."},
+        {"zh": "在遗迹中走动，常有药瓶掉落。", "en": "Wanders in the ruins, often dropping a vial."},
+        {"zh": "投掷药水后，快速后退几步。", "en": "Darts back after throwing a potion."},
+        {"zh": "走来走去，目光警惕地扫视。", "en": "Paces, eyes scanning警惕地."},
+        {"zh": "轻盈地跳跃，手中的药瓶闪闪发光。", "en": "Jumps lightly, vial glowing in hand."},
+        {"zh": "在战斗中穿梭，药瓶如影随形。", "en": "Darts between fights, vial always at hand."},
+        {"zh": "发现同伴受伤，迅速奔去施救。", "en": "Runs to help when a companion is hurt."},
+        {"zh": "药瓶中倒映着自己的影子。", "en": "Vial mirrors his shadow."},
+        {"zh": "跨过熔岩沟，药瓶没晃。", "en": "I cross a lava ditch without spilling."},
+        {"zh": "抱着药箱在堡垒里巡行。", "en": "I patrol the bastion with my crate."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低头品尝着手中的药剂。", "en": "Tastes a potion in hand."},
+        {"zh": "安静地站立，手握药瓶，眼神深邃。", "en": "Stands quietly, holding a vial, eyes deep."},
+        {"zh": "环视四周，寻找战斗的机会。", "en": "Scans, looking for a fight."},
+        {"zh": "手中不断变幻药水的形状。", "en": "Twists potion in hand."},
+        {"zh": "轻轻舔舐药瓶的瓶口。", "en": "Tongue licks the vial's rim."},
+        {"zh": "专注地制作药水，偶尔发出细微的咒语声。", "en": "Focuses on brewing, whispering spells."},
+        {"zh": "轻抚药瓶，似乎在思考什么。", "en": "Cradles the vial, deep in thought."},
+        {"zh": "低头轻嗅药瓶中的药剂。", "en": "Sniffs a vial gently."},
+        {"zh": "不时地调整药瓶的位置。", "en": "Adjusts the vial's position."},
+        {"zh": "手中不断变换着药水的颜色。", "en": "Changes the potion's color in hand."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "注视玩家，眼中闪着好奇的光芒。", "en": "Stares at the player, eyes curious."},
+        {"zh": "警惕地观察玩家，手中紧握药瓶。", "en": "Watchful of the player, vial in hand."},
+        {"zh": "目光穿过火焰，注视玩家。", "en": "Looks through the flames at the player."},
+        {"zh": "向玩家投掷药水，发出细微的咒语声。", "en": "Throws a potion, whispering a spell."},
+        {"zh": "目光闪烁，似乎在决定是否接近。", "en": "Eyes flash, deciding whether to approach."},
+        {"zh": "轻声咒语后，投掷药水。", "en": "Whispers a spell, then throws a potion."},
+        {"zh": "注视玩家，手中药瓶微微发光。", "en": "Stares, vial glowing in hand."},
+        {"zh": "目光如炬，注视玩家的一举一动。", "en": "Stares, eyes like torches."},
+        {"zh": "发出细微的咒语声，投掷药水。", "en": "Whispers, throws a potion."},
+        {"zh": "注视玩家，眼神中带着复杂的情绪。", "en": "Stares, eyes filled with complex emotions."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶——怎么了？", "en": "Sss—What's wrong?"},
+        {"zh": "嘶——怎么回事？", "en": "Sss—What happened?"},
+        {"zh": "嘶嘶——我的腿！", "en": "Sss—My leg!"},
+        {"zh": "嘶——我的手！", "en": "Ow—My hand!"},
+        {"zh": "嘶嘶——救救我！", "en": "Sss—Help me!"},
+        {"zh": "嘶嘶——我需要药水！", "en": "Sss—I need a potion!"},
+        {"zh": "嘶——这疼的！", "en": "Ow—This hurts!"},
+        {"zh": "嘶嘶——怎么这么疼？", "en": "Sss—Why so much pain?"},
+        {"zh": "药洒了，得再配一瓶。", "en": "I spilled it; I need another flask."},
+        {"zh": "这一箭，我记住了。", "en": "I will remember that arrow."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你拿出一块药草，我给你一瓶再生药水。", "en": "You have a potion of regeneration."},
+        {"zh": "我的药水是治疗之箭，你给我药草吧。", "en": "Give me some herbs for my healing arrows."},
+        {"zh": "你看起来需要治疗药水，我有。", "en": "Need a potion? I’ve got one."},
+        {"zh": "来来来，喝下这瓶抗火药水。", "en": "Drink this fire resistance potion."},
+        {"zh": "我们互相交换吧，我有药水。", "en": "Trading? I have potions."},
+        {"zh": "你的状态不太好，这瓶力量药水给你。", "en": "Your health is low. Take this strength potion."},
+        {"zh": "我的药水能救你一命。", "en": "You need my potions."},
+        {"zh": "你看起来很疲惫，试试这瓶恢复药水。", "en": "Need a potion?"},
+        {"zh": "交易吧，我有药水。", "en": "Potions are my currency."},
+        {"zh": "你的药草换我的药水。", "en": "Trade herbs for potions."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上了我，小心治疗之箭。", "en": "Careful, I'm armed."},
+        {"zh": "我的弓箭准备好了，别靠近。", "en": "Watch out for my arrows."},
+        {"zh": "别靠近，小心我的药水攻击。", "en": "Stay back, my potions are dangerous."},
+        {"zh": "我的药水能治疗伤口。", "en": "My potions heal."},
+        {"zh": "我的药水可以让你更强大。", "en": "My potions boost power."},
+        {"zh": "别碰我，我的药水有毒。", "en": "Don't touch me."},
+        {"zh": "我的治疗之箭会救你。", "en": "My healing arrows will help."},
+        {"zh": "注意我的力量药水。", "en": "Watch out for my strength potion."},
+        {"zh": "我的药水可以保护你。", "en": "My potions protect."},
+        {"zh": "我的药水能让你复活。", "en": "My potions revive."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你过来，我们互相交换。", "en": "Come here, we trade."},
+        {"zh": "我要找个伙伴，你能帮我吗？", "en": "I’m looking for a mate."},
+        {"zh": "我们互相交换药水吧。", "en": "Let’s trade potions."},
+        {"zh": "你需要治疗药水吗？", "en": "Need a potion?"},
+        {"zh": "我有力量药水，能帮助你。", "en": "I have a strength potion."},
+        {"zh": "我们互相交换，互相帮助。", "en": "We can help each other."},
+        {"zh": "你看起来很需要我的药水。", "en": "You need my potion."},
+        {"zh": "我们互相交换吧，我有药水", "en": "Let’s trade, I have potions"},
+        {"zh": "我们需要交换资源。", "en": "We need to trade resources."},
+        {"zh": "你能帮我找同伴吗？", "en": "Can you help me find a mate?"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "收到药水，咕噜一声咬紧药瓶", "en": "Got potion, clamped bottle with a gulp"},
+        {"zh": "半空中拾药，药水在手中闪烁", "en": "Potion in mid-air, glowing in my hand"},
+        {"zh": "拾起药瓶，仔细检查药水成分", "en": "Potion bottle picked, checking contents"},
+        {"zh": "药水入怀，治疗同伴", "en": "Potion in arms, healing ally"},
+        {"zh": "拾药水瓶，伙伴需要恢复", "en": "Potion bottle, ally needs healing"},
+        {"zh": "药水瓶在手，准备治疗", "en": "Potion bottle, ready to heal"},
+        {"zh": "收到药水，准备投掷", "en": "Got potion, ready to throw"},
+        {"zh": "药水入怀，准备赠予", "en": "Potion in arms, ready to give"},
+        {"zh": "药水瓶在手，治疗时刻", "en": "Potion bottle, healing time"},
+        {"zh": "捡起药水，准备投掷", "en": "Potion picked, ready to toss"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "瞄准同伴，治疗之箭蓄势待发", "en": "Targeting ally, healing arrow charged"},
+        {"zh": "瞄准生命低的伙伴，准备治疗", "en": "Targeting low HP ally, healing ready"},
+        {"zh": "瞄准半血同伴，力量之箭待发", "en": "Targeting half HP ally, power arrow ready"},
+        {"zh": "瞄准燃烧的同伴，投掷抗火药水", "en": "Targeting burning ally, throwing fire resistance"},
+        {"zh": "瞄准受伤的同伴，准备投掷", "en": "Targeting wounded ally, ready to throw"},
+        {"zh": "瞄准半血战斗中的同伴，力量之箭待发", "en": "Targeting half HP fighting ally, power arrow ready"},
+        {"zh": "瞄准同伴，治疗之箭即将发射", "en": "Targeting ally, healing arrow to fire"},
+        {"zh": "瞄准同伴，准备投掷药水", "en": "Targeting ally, ready to throw potion"},
+        {"zh": "瞄准低血同伴，力量之箭待发射", "en": "Targeting low HP ally, power arrow to fire"},
+        {"zh": "瞄准同伴，投掷抗火药水", "en": "Targeting ally, throwing fire resistance"},
+        {"zh": "那个同伴在烧，得灭火。", "en": "That one's burning; time to douse it."},
+        {"zh": "他半血还在打，该补力气。", "en": "Half health and still fighting; he needs strength."},
+        {"zh": "这支箭是给同伴的。", "en": "This arrow is for my kin."},
+        {"zh": "你把弓放下了，那就射你。", "en": "You lowered your bow; then I shoot you."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "注视同伴，准备投掷治疗药水", "en": "Looking at ally, ready to throw healing potion"},
+        {"zh": "凝视半血同伴，准备投掷力量药水", "en": "Fixing on half HP ally, ready for power potion"},
+        {"zh": "注视低血同伴，准备投掷再生药水", "en": "Looking at low HP ally, ready for regeneration potion"},
+        {"zh": "盯着燃烧同伴，准备投掷抗火药水", "en": "Fixing on burning ally, ready for fire resistance"},
+        {"zh": "我把箭头对准它的伤口。", "en": "I aim my arrow at its wound."},
+        {"zh": "注视同伴，准备投掷药水", "en": "Looking at ally, ready to throw potion"},
+        {"zh": "凝视半血同伴，力量之箭待发射", "en": "Fixing on half HP ally, power arrow to fire"},
+        {"zh": "注视低血同伴，再生之箭待发射", "en": "Looking at low HP ally, regen arrow to fire"},
+        {"zh": "注视燃烧同伴，准备投掷抗火药水", "en": "Fixing on burning ally, ready for fire resistance"},
+        {"zh": "注视同伴，治疗之箭即将发射", "en": "Aim at ally, healing arrow to fire"},
+        {"zh": "我把抗火药水掂在手里。", "en": "I weigh the fire-resist flask in my hand."},
+        {"zh": "箭头上抹的是再生。", "en": "Regeneration coats this arrowhead."},
+        {"zh": "你先别动，我给你一箭。", "en": "Hold still; this arrow's for you."},
+        {"zh": "药瓶的塞子已经拔了。", "en": "The flask is already uncorked."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "快跑，我要战斗！", "en": "Run! I'm fighting!"},
+        {"zh": "我的力量药水来了！", "en": "Here comes my strength potion!"},
+        {"zh": "火药水！小心！", "en": "Flame potion! Beware!"},
+        {"zh": "治疗之箭射来！", "en": "Healing arrow coming!"},
+        {"zh": "我有药水，可以交易！", "en": "Got potions, can trade!"},
+        {"zh": "你们受伤了吗？", "en": "Need any healing?"},
+        {"zh": "战斗中，别受伤！", "en": "Be careful in battle!"},
+        {"zh": "治疗药水，急需！", "en": "Need healing potions!"},
+        {"zh": "抗火药水，救命！", "en": "Flame resistance potion, now!"},
+        {"zh": "弓弦一响，箭头到了。", "en": "The string snaps; the arrow arrives."},
+        {"zh": "我把治疗箭射进你肩膀。", "en": "I plant a healing arrow in your shoulder."},
+        {"zh": "药瓶砸碎在你脚边。", "en": "A flask shatters at your feet."},
+        {"zh": "我用弓臂砸向你的头。", "en": "I swing my bow limb at your head."},
+        {"zh": "溅出的药水烫得你后退。", "en": "Splashed brew makes you recoil."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "新的同伴出现！", "en": "New ally appears!"},
+        {"zh": "我在这里！不要害怕！", "en": "Here! Don’t be afraid!"},
+        {"zh": "我们是炼金之友！", "en": "We are alchemists!"},
+        {"zh": "下界荒地，我的家！", "en": "Nether Wastes, my home!"},
+        {"zh": "绯红森林，密布药草！", "en": "Redwood Forest, full of herbs!"},
+        {"zh": "堡垒遗迹，藏宝之地！", "en": "Fortress ruins, treasure trove!"},
+        {"zh": "我们的药水，很珍贵！", "en": "Our potions, very precious!"},
+        {"zh": "交易，用物品来换！", "en": "Trading, use items!"},
+        {"zh": "这里很安全，不要离开！", "en": "Stay here, it’s safe!"},
+        {"zh": "我们共存，共享知识！", "en": "Coexist, share knowledge!"},
+        {"zh": "堡垒的炉火边，我调好了药。", "en": "By the bastion forge I finish my brew."},
+        {"zh": "绯红的林子里，药瓶响了。", "en": "In the crimson woods a flask clinks."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶——别靠近火！", "en": "Ow—Stay away from the fire!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从砖墙上摔下来，腰扭了。", "en": "I fell from the bricks and wrenched my back."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水进了鼻子，药也没用了。", "en": "Water in my snout; the brew is useless."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "药瓶全炸碎了。", "en": "Every flask shattered."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭穿了我的护肩。", "en": "An arrow pierced my shoulder guard."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法把药性打乱了。", "en": "Magic scrambled my brew."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我饿得手抖，配不准药。", "en": "I shake with hunger and mis-measure."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷把药箱劈开了。", "en": "Lightning split my crate."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空把我的药瓶吞了。", "en": "The void swallowed my flasks."}
+      ]
+    }
+  }
+}

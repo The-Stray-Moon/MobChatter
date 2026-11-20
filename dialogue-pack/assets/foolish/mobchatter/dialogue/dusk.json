@@ -1,0 +1,243 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我飘在半空，慢慢挪。", "en": "I drift in midair, moving slowly."},
+        {"zh": "我的翅膀一扇，就滑出一段。", "en": "One beat of my wings carries me along."},
+        {"zh": "我从树枝下穿过去。", "en": "I slip beneath a branch."},
+        {"zh": "我的影子在树皮上滑。", "en": "My shadow slides over the bark."},
+        {"zh": "我贴着腐叶浮起来。", "en": "I float up off the rotting leaves."},
+        {"zh": "我在黑森林的暗里绕。", "en": "I circle through the dark of the black forest."},
+        {"zh": "我上上下下，不落地。", "en": "I bob up and down without landing."},
+        {"zh": "我从洞穴的缝里钻进去。", "en": "I slip into a gap in the cave."},
+        {"zh": "我的翅膀发出很轻的响。", "en": "My wings make a faint sound."},
+        {"zh": "我从一片苔上掠过。", "en": "I skim over a patch of moss."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我停在空中，不动。", "en": "I stop in the air and hold still."},
+        {"zh": "我的眼睛里有一点亮。", "en": "There's a small light in my eyes."},
+        {"zh": "我从叶下滑出去，没有声音。", "en": "I slip out from under the leaf without a sound."},
+        {"zh": "我在听洞穴里的滴水。", "en": "I'm listening to water drip in the cave."},
+        {"zh": "我在叶片背面过夜。", "en": "I spend the night on the back of a leaf."},
+        {"zh": "我的手在膝盖上。", "en": "My hands rest on my knees."},
+        {"zh": "我没有要攻击谁。", "en": "I'm not about to attack anyone."},
+        {"zh": "我在一片安静里。", "en": "I'm inside a pocket of quiet."},
+        {"zh": "我把脸埋进臂弯。", "en": "I tuck my face into my arms."},
+        {"zh": "我听着自己的翅膀。", "en": "I listen to my own wings."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不找麻烦。", "en": "I'm not looking for trouble."},
+        {"zh": "你的灯让我不太舒服。", "en": "Your lamp bothers me."},
+        {"zh": "这里没有什么值得打。", "en": "There's nothing worth a fight here."},
+        {"zh": "你退开，我就回去。", "en": "Step back, and I'll go."},
+        {"zh": "别抬头找我，我在你头顶。", "en": "Don't bother looking up. I'm right above you."},
+        {"zh": "你看见我了，对吧？我也看见你了。", "en": "You saw me, didn't you? I saw you too."},
+        {"zh": "林子这么暗，你偏要往上看。", "en": "The woods are dark enough. Why look up?"},
+        {"zh": "我绕着你飞，只是好奇。", "en": "I'm just circling you out of curiosity."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一下弹开很远。", "en": "I spring a long way back."},
+        {"zh": "我发出很轻的声音。", "en": "I make a faint sound."},
+        {"zh": "我在半空晃了一下。", "en": "I wobble in midair."},
+        {"zh": "这点伤让我飞不稳。", "en": "This makes my flight unsteady."},
+        {"zh": "我的眼睛暗了一点。", "en": "My eyes have dimmed a little."},
+        {"zh": "我落在一根低枝上，黑森林还没黑透。", "en": "I land on a low branch; the dark forest is not fully dark."},
+        {"zh": "我抖了抖，稳住。", "en": "I shake and steady myself."},
+        {"zh": "我还是想避开打架。", "en": "I'd still rather avoid a fight."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "放到叶子上，别放泥里。", "en": "Put it on a leaf, not in the mud."},
+        {"zh": "那东西我不碰。", "en": "I won't touch that."},
+        {"zh": "我只是好奇。", "en": "I'm only curious."},
+        {"zh": "我不饿，只是看你手里的光。", "en": "I am not hungry — just watching the light in your hand."},
+        {"zh": "我离得远一点看。", "en": "I'll look from further off."},
+        {"zh": "你举那么高，我够不到。", "en": "You hold it too high; I cannot reach."},
+        {"zh": "我在空中飘，扑你很低。", "en": "I hover, then pounce low."},
+        {"zh": "这个不对劲。", "en": "Something's wrong with that."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你把我撞得转了一圈。", "en": "You knocked me into a spin."},
+        {"zh": "我一跳，就扑到你肩上。", "en": "One hop and I am on your shoulder."},
+        {"zh": "我贴在你肩膀旁边。", "en": "I end up pressed by your shoulder."},
+        {"zh": "你差点拍到我的翅膀。", "en": "You nearly swatted my wing."},
+        {"zh": "我一下弹开老远。", "en": "I spring a long way back."},
+        {"zh": "我们靠得很近，我都不习惯。", "en": "We're closer than I'm used to."},
+        {"zh": "我缓了一下才稳住。", "en": "It took me a beat to steady."},
+        {"zh": "我的翅膀撞到了墙。", "en": "My wing hit the wall."},
+        {"zh": "你退了一步，我也退了。", "en": "You stepped back; so did I."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗里还有一点亮。", "en": "There's another small light in the dark."},
+        {"zh": "它的眼睛比我的暗。", "en": "Its eyes are dimmer than mine."},
+        {"zh": "我们落在一起，挨着。", "en": "We land together, side by side."},
+        {"zh": "黑森林里，我跃起来扑。", "en": "In the dark forest I leap to strike."},
+        {"zh": "我们从不发出声音。", "en": "We never make a sound."},
+        {"zh": "它的翅膀有一点破。", "en": "There's a small tear in its wing."},
+        {"zh": "我们在同一片阴影里。", "en": "We share the same patch of shadow."},
+        {"zh": "天一亮，它就没了。", "en": "At daylight, it was gone."},
+        {"zh": "我们在暗里并排，不出声。", "en": "We hover side by side in the dark, silent."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我飘下去，把它捞起来。", "en": "I drift down and scoop it up."},
+        {"zh": "这粒东西，我两只手才捧住。", "en": "It takes both my hands to cup this little thing."},
+        {"zh": "我把它带回到树上。", "en": "I carry it back up to the tree."},
+        {"zh": "掉在苔上的我都看得见。", "en": "I can see whatever falls on the moss."},
+        {"zh": "它从上面的洞里落下来。", "en": "It fell from the hole above."},
+        {"zh": "我把它藏回叶背。", "en": "I hide it on the back of a leaf."},
+        {"zh": "我又把它丢了下去。", "en": "I dropped it down again."},
+        {"zh": "咦，这亮闪闪的东西归我了。", "en": "Ooh, this shiny little thing is mine now."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你动了手，那我就动。", "en": "You raised a hand, so I'll move."},
+        {"zh": "我的眼睛亮了一点。", "en": "My eyes have brightened."},
+        {"zh": "现在已经不一样了。", "en": "It's different now."},
+        {"zh": "我不喊，只扑下去。", "en": "No shouting; I just pounce."},
+        {"zh": "你的手还在抬着。", "en": "Your hand is still raised."},
+        {"zh": "在这片暗里，我比你看得清。", "en": "In this dark I see better than you."},
+        {"zh": "我已经想好了。", "en": "I have decided."},
+        {"zh": "你离树太近了。", "en": "You're too close to the tree."},
+        {"zh": "我要一次就够。", "en": "One strike should do it."},
+        {"zh": "这是你先起的头。", "en": "You started this."},
+        {"zh": "我压低身体，藏在树影里。", "en": "I crouch low and hide in the tree shadow."},
+        {"zh": "你先别眨眼。", "en": "Don't blink just yet."},
+        {"zh": "那就从这一刻开始。", "en": "Then let it start from this moment."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在你上方跟着。", "en": "I follow above you."},
+        {"zh": "你抬手的方向我都记得。", "en": "I remember which way you raised your hand."},
+        {"zh": "我在树枝间跳着跟。", "en": "I hop from tree to tree behind you."},
+        {"zh": "你走一步，我飘一段。", "en": "You take a step; I drift a stretch."},
+        {"zh": "这里到处都是阴影。", "en": "Shadows are everywhere here."},
+        {"zh": "你没有再动。", "en": "You haven't moved again."},
+        {"zh": "我的翅膀一直没停。", "en": "My wings never stop."},
+        {"zh": "你在洞穴边上。", "en": "You're at the cave mouth."},
+        {"zh": "背后是石壁，前面是暗。", "en": "Stone behind you, dark ahead."},
+        {"zh": "你在微微发抖。", "en": "You are trembling slightly."},
+        {"zh": "我一直绕在你的侧上方。", "en": "I keep circling your upper flank."},
+        {"zh": "你的呼吸声在树间回响。", "en": "Your breathing echoes between the trees."},
+        {"zh": "我不从正面来。", "en": "I never come from the front."},
+        {"zh": "我等你把手放下那一刻。", "en": "I wait for the moment your hand drops."},
+        {"zh": "洞口只够一个人挤过去。", "en": "The cave mouth fits one person."},
+        {"zh": "我数着你的脚步声。", "en": "I count your footsteps."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我扑下来抓了一下。", "en": "I swoop down and claw once."},
+        {"zh": "我的爪子很小，但很利。", "en": "My claws are small, and sharp."},
+        {"zh": "这一下很轻，可很快。", "en": "Light, and very fast."},
+        {"zh": "我的牙咬到你的袖子。", "en": "My teeth catch your sleeve."},
+        {"zh": "你还没有还手。", "en": "You still haven't struck back."},
+        {"zh": "这一次没抓到。", "en": "That didn't land."},
+        {"zh": "我在你上方转了个圈。", "en": "I loop once above you."},
+        {"zh": "这一下就够我收手。", "en": "That's enough for me to stop."},
+        {"zh": "我在阴影里重新稳住。", "en": "I steady myself in the shadow."},
+        {"zh": "你还是站着。", "en": "You're still standing."},
+        {"zh": "我落回树枝上。", "en": "I settle back onto the branch."},
+        {"zh": "你的耳朵边有风声。", "en": "There is a rush of air by your ear."},
+        {"zh": "我翅膀一扇，从树枝下钻过去。", "en": "One beat of my wings and I slip under the branch."},
+        {"zh": "你被撞得撞上树干。", "en": "You are knocked into a tree trunk."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从树叶背面浮出来。", "en": "I float out from behind a leaf."},
+        {"zh": "这片暗里多了一点亮。", "en": "One more small light in the dark."},
+        {"zh": "洞穴里很静。", "en": "The cave is very quiet."},
+        {"zh": "我的翅膀还有露水。", "en": "There's still dew on my wings."},
+        {"zh": "我先是影子，然后才是眼睛。", "en": "First a shadow, then eyes."},
+        {"zh": "我转了一圈，找了处树荫。", "en": "I circle once and find shade."},
+        {"zh": "这里的黑暗正合我。", "en": "This darkness suits me."},
+        {"zh": "我抖了抖身上的湿气。", "en": "I shake off the damp."},
+        {"zh": "光很远处才有一点。", "en": "There's only a little light far off."},
+        {"zh": "我停在一个不会被打扰的位置。", "en": "I settle where I won't be disturbed."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火光照得我晕，我往后退。", "en": "The firelight dazes me and I pull back."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从枝上掉下去，摔在腐叶上。", "en": "I drop from the branch onto the rotting leaves."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水裹住我的翅膀，我沉了。", "en": "Water wraps my wings and I sink."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆风把我吹进树干。", "en": "The blast throws me into a trunk."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一颗东西穿过我的翅膀。", "en": "Something passes through my wing."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "光黏住我，我挣不开。", "en": "Light sticks to me and I can't get free."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我已经很久没吃什么了。", "en": "I haven't eaten in a long while."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光把林子照白了，我躲进洞。", "en": "The flash whites out the wood; I hide in the cave."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里没有枝，没有影。", "en": "No branches here, no shadows."}
+      ]
+    }
+  }
+}

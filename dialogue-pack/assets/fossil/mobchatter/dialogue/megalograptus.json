@@ -1,0 +1,274 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "缓慢爬行，发出低沉的咕噜声。", "en": "Slowly crawls, making a low rumbly sound."},
+        {"zh": "在淤泥中爬行，偶尔挥动大钳。", "en": "Crawls through the muck, occasionally waving its large claws."},
+        {"zh": "寻找水洼，发出求救的嘶嘶声。", "en": "Scans for puddles, making a distress hiss."},
+        {"zh": "爬行至食物，发出轻微咔嚓声。", "en": "Approaches food, making a soft crunching sound."},
+        {"zh": "在水中游动，发出咕噜咕噜声。", "en": "Swims in water, making a gurgling sound."},
+        {"zh": "沿着河岸缓慢前行，偶尔摆动触手。", "en": "Creeps along the riverbank, occasionally waving its tentacles."},
+        {"zh": "在水草中寻找猎物，发出轻微嘶嘶声。", "en": "Scouring for prey in the water plants, making a faint hiss."},
+        {"zh": "慢慢游动，偶尔咬住小鱼。", "en": "Slowly swimming, occasionally biting small fish."},
+        {"zh": "在石缝中觅食，发出轻微的响声。", "en": "Feeds in the cracks, making a soft noise."},
+        {"zh": "在水中缓慢移动，偶尔敲击触须。", "en": "Moves slowly in water, occasionally tapping its feelers."},
+        {"zh": "用十只步足在浅水里划行。", "en": "I row through the shallows on ten walking legs."},
+        {"zh": "尾针扫过水底，搅起泥沙。", "en": "My tail spike sweeps the bottom and stirs the silt."},
+        {"zh": "爬出水洼，壳上挂着水藻。", "en": "I crawl from the pool with algae on my shell."},
+        {"zh": "沿着湿地边缘逡巡。", "en": "I prowl along the marsh's edge."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "半睁着眼睛，静静等待猎物。", "en": "Half-closed eyes, quietly waiting for prey."},
+        {"zh": "静止不动，等待猎物靠近。", "en": "Staying still, waiting for prey to approach."},
+        {"zh": "静静地呆在水中，观察着周围。", "en": "Quietly staying in the water, observing its surroundings."},
+        {"zh": "在水中漂浮，偶尔摆动触手。", "en": "Floating in the water, occasionally waving its tentacles."},
+        {"zh": "在淤泥中静止不动，等待猎物。", "en": "Staying still in the mud, waiting for prey."},
+        {"zh": "在水中漂浮，偶尔移动触须。", "en": "Floating in the water, occasionally moving its feelers."},
+        {"zh": "静静地在水中漂浮，等待猎物。", "en": "Quietly floating in the water, waiting for prey."},
+        {"zh": "静静地呆在水中，等待猎物。", "en": "Quietly staying in the water, waiting for prey."},
+        {"zh": "在水中漂浮，偶尔摆动触须。", "en": "Floating in the water, occasionally moving its feelers."},
+        {"zh": "把身体埋进泥里，只露双眼。", "en": "I bury myself in mud with only my eyes showing."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "察觉玩家，眼睛猛然睁开。", "en": "Notices the player, eyes suddenly open wide."},
+        {"zh": "看到玩家，发出低沉的嘶嘶声。", "en": "Sees the player, makes a low hiss."},
+        {"zh": "凝视玩家，发出微弱的咕噜声。", "en": "Stares at the player, makes a faint rumbly sound."},
+        {"zh": "瞪大眼睛盯着玩家。", "en": "Wide eyes fixed on the player."},
+        {"zh": "察觉玩家，发出警觉的嘶嘶声。", "en": "Notices the player, makes an alert hiss."},
+        {"zh": "盯着玩家，发出轻微的嘶嘶声。", "en": "Staring at the player, makes a faint hiss."},
+        {"zh": "盯着玩家，发出低沉的咕噜声。", "en": "Staring at the player, makes a low rumbly sound."},
+        {"zh": "盯着玩家，发出微弱的咕噜声。", "en": "Staring at the player, makes a faint rumbly sound."},
+        {"zh": "复眼转向你，螯肢微张。", "en": "My compound eyes turn to you, pincers parting."},
+        {"zh": "从水底抬头，盯住你的脚。", "en": "I lift my head from the water and fix on your feet."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "壳破裂，痛！", "en": "Shell cracked!"},
+        {"zh": "挣扎着移动，好疼！", "en": "Moving hurts!"},
+        {"zh": "伤口渗出墨汁，痛！", "en": "Ink seeps, hurting!"},
+        {"zh": "情绪一低，我就想钻进沙里。", "en": "When my mood dips, I want to burrow in sand."},
+        {"zh": "甲壳裂开，蓝血滴进泥里。", "en": "My shell cracks and blue blood drips into the mud."},
+        {"zh": "被攻击了，好疼！", "en": "Attacked, hurts!"},
+        {"zh": "伤口感染了，好疼！", "en": "Wound infected, hurts!"},
+        {"zh": "受伤了，躲起来！", "en": "Injured, hide!"},
+        {"zh": "伤口结疤，不再痛！", "en": "Scabbed, no longer hurts!"},
+        {"zh": "受伤后，行动缓慢！", "en": "Slow now, injured!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我饿了，快来喂我！", "en": "I'm hungry, come feed me!"},
+        {"zh": "你有我喜欢的食物吗？", "en": "Do you have my favorite food?"},
+        {"zh": "你的脚步引诱着我。", "en": "Your footsteps entice me."},
+        {"zh": "食物！食物！", "en": "Food! Food!"},
+        {"zh": "快来！这里有好吃的！", "en": "Come here! There's food!"},
+        {"zh": "别走，我没吃饱。", "en": "Don't go, I'm not full."},
+        {"zh": "你手里的肉味压过了泥腥。", "en": "The meat in your hand overpowers the reek of mud."},
+        {"zh": "泥底的腐肉不够，我要现成的。", "en": "Carrion in the mud is not enough; I want fresh meat."},
+        {"zh": "你身上有我爱吃的吗？", "en": "Do you have what I like?"},
+        {"zh": "食物的味道真美妙。", "en": "The taste of food is so good."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我要把你撞飞！", "en": "I'll knock you away!"},
+        {"zh": "碰碰你的硬壳！", "en": "Hit your tough shell!"},
+        {"zh": "我们来一场较量！", "en": "Let's have a contest!"},
+        {"zh": "我在泥里爬，钳子先碰到你。", "en": "I crawl through the mud; my claw reaches you first."},
+        {"zh": "撞开你，我才能前进！", "en": "Push you out of my way!"},
+        {"zh": "小心我的撞击！", "en": "Be careful of my impact!"},
+        {"zh": "我要把你推回去！", "en": "I'll push you back!"},
+        {"zh": "你的硬度能撑多久？", "en": "How long can you hold out?"},
+        {"zh": "用我的角撞你！", "en": "Use my horn to hit you!"},
+        {"zh": "让我来展示我的力量！", "en": "Show you my power!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水浅的时候，正好找伴。", "en": "In the shallows, it is a good time to find a mate."},
+        {"zh": "我的螯足已经举起来求偶。", "en": "My claws are raised in courtship display."},
+        {"zh": "我的季节到了！", "en": "My season has come!"},
+        {"zh": "潮水退了，我该去找伴。", "en": "The tide fell; time to find a mate."},
+        {"zh": "我们一起去繁殖！", "en": "Let's go reproduce together!"},
+        {"zh": "找到你的同类！", "en": "Find your kind!"},
+        {"zh": "潮水退下去，该找伴产卵了。", "en": "The tide is ebbing; time to find a mate and spawn."},
+        {"zh": "一起产卵吧！", "en": "Let's lay eggs together!"},
+        {"zh": "我的繁殖季节来了！", "en": "My breeding season has arrived!"},
+        {"zh": "泥岸上留下我的气味，等同类。", "en": "I leave my scent on the mudbank for a mate."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "触须感知到猎物！", "en": "Feeler senses prey!"},
+        {"zh": "岩石中伸出触手！", "en": "Reach out from stone!"},
+        {"zh": "这具贝壳下面，我抢到就吃。", "en": "Under this shell, whatever I grab I eat."},
+        {"zh": "捕捉机会！", "en": "Seize the moment!"},
+        {"zh": "食物就在附近！", "en": "Food nearby!"},
+        {"zh": "岩石间游弋！", "en": "Swim through rocks!"},
+        {"zh": "抓紧猎物！", "en": "Clamp down on prey!"},
+        {"zh": "吸取营养！", "en": "Feed on flesh!"},
+        {"zh": "岩石庇护所！", "en": "Rock sanctuary!"},
+        {"zh": "岩石下避难！", "en": "Seek shelter in stone!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "玩家踏入领地！", "en": "Player enters domain!"},
+        {"zh": "水边的小东西靠近了。", "en": "Something small by the water is coming near."},
+        {"zh": "注意玩家！", "en": "Notice player!"},
+        {"zh": "浅水的震动把你暴露了。", "en": "The tremor in the shallows gave you away."},
+        {"zh": "猎物的味道", "en": "Victim’s scent! — 巨笔石鲎, target acquire"},
+        {"zh": "玩家的威胁！", "en": "Player threat!"},
+        {"zh": "心情不好，你别靠太近。", "en": "My mood is foul. Do not come close."},
+        {"zh": "猎物在水中！", "en": "Victim in water!"},
+        {"zh": "浅水里，我的触肢先探路。", "en": "In the shallows my feelers go first."},
+        {"zh": "水面一晃，是你来了。", "en": "The water ripples. You came."},
+        {"zh": "触须捕捉到你的震动。", "en": "My feelers catch your vibration."},
+        {"zh": "你在我的水洼边上。", "en": "You are at the edge of my pool."},
+        {"zh": "这么大一块猎物。", "en": "Such a large piece of prey."},
+        {"zh": "饿得发慌，正好你来了。", "en": "I am starving, and here you are."},
+        {"zh": "水草后面，我盯住你了。", "en": "Behind the weeds, I have you in sight."},
+        {"zh": "这块湿地归我，你不该来。", "en": "This marsh is mine. You should not be here."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "泥水一浑，你就看不见我了。", "en": "One stir of the mud and you lose sight of me."},
+        {"zh": "猎物在阴影中！", "en": "Prey in shadows!"},
+        {"zh": "攻击时机到了！", "en": "Attack time!"},
+        {"zh": "猎物即将丧命！", "en": "Victim’s end!"},
+        {"zh": "岩石间藏匿！", "en": "Stone concealment!"},
+        {"zh": "猎物被吞没！", "en": "Victim devoured!"},
+        {"zh": "猎物在水中挣扎！", "en": "Victim struggles!"},
+        {"zh": "螯肢张到最大，等你靠近。", "en": "My chelicerae gape wide as I wait for you to come closer."},
+        {"zh": "猎物落入陷阱！", "en": "Victim trapped!"},
+        {"zh": "猎物被包围！", "en": "Victim surrounded!"},
+        {"zh": "我贴近泥底，向你挪过去。", "en": "I hug the muddy bottom and creep toward you."},
+        {"zh": "螯肢开合，等一个机会。", "en": "My pincers open and close, waiting for a chance."},
+        {"zh": "你一低头，我就扑上去。", "en": "When you look down, I strike."},
+        {"zh": "浅水让我更快。", "en": "The shallows make me faster."},
+        {"zh": "往回退，你已经在水里了。", "en": "Back away; you are already in the water."},
+        {"zh": "我的尾针抬起来了。", "en": "My tail spike is raised."},
+        {"zh": "你踩起的泥雾挡住了眼。", "en": "The mud you kicked up blinds you."},
+        {"zh": "我的螯足一绕，就到你的侧面。", "en": "My chelicerae swing around to your flank."},
+        {"zh": "这一步，我要夹住你的腿。", "en": "This lunge, I take your leg."},
+        {"zh": "你逃上岸也没用。", "en": "Fleeing onto land will not save you."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咔嚓，它挥动大钳子！", "en": "Snap! It swings its claws!"},
+        {"zh": "它挥舞着巨大的钳子！", "en": "It wields its massive claws!"},
+        {"zh": "它的腿猛扑过来！", "en": "Its legs lunge forward!"},
+        {"zh": "巨笔石鲎的螯狠狠一夹！", "en": "Megalograptus's claws clamp down!"},
+        {"zh": "它用螯攻击你的腹部！", "en": "It attacks your abdomen with its claws!"},
+        {"zh": "它试图抓住你！", "en": "It tries to grab you!"},
+        {"zh": "巨笔石鲎挥舞着大钳！", "en": "Megalograptus swings its big claws!"},
+        {"zh": "它用利爪攻击你！", "en": "It attacks you with its sharp claws!"},
+        {"zh": "它的螯向你挥去！", "en": "Its claws swing at you!"},
+        {"zh": "巨笔石鲎挥动它的大螯！", "en": "Megalograptus swings its big claws!"},
+        {"zh": "螯肢夹住你的脚踝。", "en": "My pincers clamp your ankle."},
+        {"zh": "尾针刺进你的小腿。", "en": "My tail spike stabs your calf."},
+        {"zh": "整只扑上你的腿。", "en": "I throw my whole body onto your leg."},
+        {"zh": "钳子撕下一块皮。", "en": "My pincers tear away a strip of skin."},
+        {"zh": "用壳撞开你的膝盖。", "en": "I ram your knee with my shell."},
+        {"zh": "把你往深水里拖。", "en": "I drag you toward deeper water."},
+        {"zh": "泥沙迷了你的眼睛。", "en": "Silt blinds your eyes."},
+        {"zh": "十只步足扒住你不放。", "en": "Ten legs claw at you and hold fast."},
+        {"zh": "咬住你的手指不松。", "en": "I bite your finger and will not let go."},
+        {"zh": "一夹，骨头都响了。", "en": "One snap, and your bones creak."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "环境适宜，它破壳而出！", "en": "Habitat right, it hatches!"},
+        {"zh": "它从卵中孵化而出！", "en": "It hatches from an egg!"},
+        {"zh": "幼体破卵而出，弱小但凶猛！", "en": "Young hatchling breaks free, small but fierce!"},
+        {"zh": "它从水中孵化而出！", "en": "It hatches from the water!"},
+        {"zh": "在泥沼中它孵化成形！", "en": "It hatches in the mire!"},
+        {"zh": "它破卵而出，开始了新生活！", "en": "It hatches and begins its life!"},
+        {"zh": "它在阴暗处孵化成形！", "en": "It hatches in the darkness!"},
+        {"zh": "幼体孵化，充满活力！", "en": "Young hatchling, full of energy!"},
+        {"zh": "它从淤泥中孵化而出！", "en": "It hatches from the muck!"},
+        {"zh": "它在沼泽中破壳而出！", "en": "It hatches in the swamp!"},
+        {"zh": "蛋壳裂开，它滑进浅水。", "en": "The eggshell splits, and it slides into the shallows."},
+        {"zh": "湿泥里钻出一只小鲎。", "en": "A small eurypterid wriggles out of the wet mud."},
+        {"zh": "培育器亮起，它在水里舒展。", "en": "The incubator glows, and it unfolds in the water."},
+        {"zh": "复活的胚胎睁开了复眼。", "en": "The revived embryo opens its compound eyes."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧灼，灼痛！", "en": "Flame burns!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉入深渊，摔伤！", "en": "Fell, injured!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "溺水受伤，快上岸！", "en": "Drowned, hurt!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸伤我，好疼！", "en": "Exploded, hurts!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢射中，受伤！", "en": "Shot, hurt!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔咒伤我，痛！", "en": "Cursed, hurts!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿难耐，虚弱！", "en": "Hungry, weak!"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击伤我，疼痛！", "en": "Lightning hit, hurts!"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空，伤重！", "en": "Void, injured badly!"}
+      ]
+    }
+  }
+}

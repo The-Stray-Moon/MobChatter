@@ -22,6 +22,7 @@
 | `targets/fabric-26.1/` | Fabric 26.1 Maintainer | Java 25、26.1 API、资源、渲染和适配器 | 同上 |
 | `targets/neoforge-1.21.1/` | NeoForge 1.21.1 Maintainer | NeoForge 入口、事件、资源、Mixin、适配器 | 同上 |
 | `targets/neoforge-26.1/` | NeoForge 26.1 Maintainer | Java 25、26.1 API、资源、渲染和适配器 | 同上 |
+| `dialogue-pack/` | Dialogue Maintainer | 逐实体台词 JSON | Core Maintainer 抽查格式并确认生成的 XZ |
 | 根 Gradle、CI、`docs/` | Build / Release Maintainer | 聚合入口、CI 矩阵、维护文档 | 受影响 target 维护者 |
 
 一个人可以承担多个角色，但评审规则仍按路径执行。实际 GitHub 账号映射写入 `.github/CODEOWNERS`；仓库提供 `.github/CODEOWNERS.example` 作为起点。
@@ -65,6 +66,7 @@
 | `common-internal` | `common/`，无接口变化 | Core Maintainer | common 测试 + 所有引用 common 的已支持 target build |
 | `common-contract` | `common/` 接口、DTO、语义变化 | Core + 每个受影响 target 维护者 | 所有受影响 target build；行为改动应有测试 |
 | `cross-target-feature` | common 加多个 target | Core + 每个改动 target 维护者 | 每个改动 target build；未实现 target 必须明确记录 |
+| `dialogue-content` | `dialogue-pack/` | Dialogue Maintainer | `gradlew build`（`processResources` 依赖 `buildDialoguePack`）成功并提交生成的 XZ；抽查实体路径与中英文 |
 | `build-or-ci` | 根 Gradle、wrapper、CI | Build / Release + 受影响 target 维护者 | 对应 JDK 的完整 job |
 | `docs-only` | README、docs | 文档责任人 | 链接和命令检查 |
 
@@ -84,6 +86,7 @@ target/fabric-26.1/<topic>
 target/neoforge-1.21.1/<topic>
 target/neoforge-26.1/<topic>
 common/<topic>
+dialogue/<topic>
 build/<topic>
 docs/<topic>
 ```
@@ -100,6 +103,7 @@ fabric-26.1: migrate render pipeline
 neoforge-1.21.1: update data generation
 neoforge-26.1: migrate item template handling
 common: expose render-plan hook
+dialogue: rewrite grizzly_bear hurt lines
 build: update neoforge-26.1 wrapper
 docs: clarify release matrix
 ```

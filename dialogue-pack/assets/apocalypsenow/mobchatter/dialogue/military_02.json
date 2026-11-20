@@ -1,0 +1,254 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我端着枪，沿着废墟走。", "en": "I walk the ruins with my weapon up."},
+        {"zh": "脚下的碎砖很响。", "en": "The broken brick is loud underfoot."},
+        {"zh": "我压低枪口，绕过墙。", "en": "I pass the wall with the muzzle low."},
+        {"zh": "我的护甲磨得发亮。", "en": "My armor is worn bright."},
+        {"zh": "我一步一步清过去。", "en": "I clear it step by step."},
+        {"zh": "这地方曾是条街。", "en": "This used to be a street."},
+        {"zh": "我踩过一堆弹壳。", "en": "I cross a heap of casings."},
+        {"zh": "我回头看了一眼。", "en": "I glance back once."},
+        {"zh": "我贴着断墙走。", "en": "I keep to the broken wall."},
+        {"zh": "我不跑，跑了会漏掉。", "en": "I do not run. Running misses things."},
+        {"zh": "我的影子拖在墙皮上。", "en": "My shadow drags over the plaster."},
+        {"zh": "我慢慢转过街角。", "en": "I round the corner slowly."},
+        {"zh": "我又检查了一遍弹匣。", "en": "I check the magazine again."},
+        {"zh": "我朝路口走过去。", "en": "I move toward the junction."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，枪没放下。", "en": "I stand, weapon still up."},
+        {"zh": "我在听风里的声音。", "en": "I am listening to the wind."},
+        {"zh": "这地方太静了。", "en": "It is too quiet here."},
+        {"zh": "我把头盔往上推了推。", "en": "I push my helmet up."},
+        {"zh": "烟还没散。", "en": "The smoke has not cleared."},
+        {"zh": "我在等命令。", "en": "I wait for orders."},
+        {"zh": "我的手套磨破了。", "en": "My gloves are worn through."},
+        {"zh": "我在数剩下的弹药。", "en": "I am counting the ammo left."},
+        {"zh": "远处有一声闷响。", "en": "There was a dull report far off."},
+        {"zh": "我不坐下。", "en": "I do not sit down."},
+        {"zh": "我把枪带重新系紧。", "en": "I tighten the sling again."},
+        {"zh": "雨要来了。", "en": "Rain is coming."},
+        {"zh": "我在看楼上的窗口。", "en": "I am watching the upper windows."},
+        {"zh": "这块砖被我踩碎了。", "en": "I crumbled that brick underfoot."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "手举起来。", "en": "Hands up."},
+        {"zh": "枪口对着你。", "en": "The muzzle is on you."},
+        {"zh": "你是活人吗。", "en": "Are you living?"},
+        {"zh": "报身份。", "en": "Identify yourself."},
+        {"zh": "你身上有血。", "en": "You have blood on you."},
+        {"zh": "你被咬了吗。", "en": "Were you bitten?"},
+        {"zh": "站远一点。", "en": "Stay back."},
+        {"zh": "这年头谁都不能信。", "en": "Nobody can be trusted these days."},
+        {"zh": "再走一步我就开枪。", "en": "One more step and I fire."},
+        {"zh": "我们不是来救人的。", "en": "We are not here to rescue anyone."},
+        {"zh": "你的手别往下放。", "en": "Do not lower your hands."},
+        {"zh": "我看得见你的动作。", "en": "I see what your hands are doing."},
+        {"zh": "说话慢一点。", "en": "Speak slowly."},
+        {"zh": "我还有事要做。", "en": "I still have work to do."},
+        {"zh": "让开。", "en": "Move aside."},
+        {"zh": "别跟着我。", "en": "Do not follow me."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "中弹了，还能动。", "en": "Hit, still moving."},
+        {"zh": "护甲挡住一半。", "en": "The plate took half of it."},
+        {"zh": "我压住伤口。", "en": "I press the wound."},
+        {"zh": "退到墙后。", "en": "Back to the wall."},
+        {"zh": "血顺着手往下流。", "en": "Blood runs down my arm."},
+        {"zh": "我咬着牙换弹。", "en": "I reload through my teeth."},
+        {"zh": "还能开火。", "en": "Still able to fire."},
+        {"zh": "别管我，守位置。", "en": "Leave me. Hold position."},
+        {"zh": "我数了三下，站起来。", "en": "Three breaths, and I am up."},
+        {"zh": "再来。", "en": "Again."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "罐头的。", "en": "Canned."},
+        {"zh": "我不缺这个。", "en": "I am not short of that."},
+        {"zh": "弹药比吃的要紧。", "en": "Ammo matters more than food."},
+        {"zh": "你从哪里弄的。", "en": "Where did you get that?"},
+        {"zh": "放下，退后。", "en": "Set it down and step back."},
+        {"zh": "我收下了。", "en": "I will take it."},
+        {"zh": "这年头，东西都得查。", "en": "These days everything must be checked."},
+        {"zh": "你自己留着吧。", "en": "Keep it for yourself."},
+        {"zh": "谢了。", "en": "Thanks."},
+        {"zh": "别想着换什么。", "en": "Do not think it buys anything."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "撞我一下，枪会走火。", "en": "One bump and the gun may fire."},
+        {"zh": "退开。", "en": "Back off."},
+        {"zh": "你撞乱了我的准星。", "en": "You knocked my aim off."},
+        {"zh": "别挤在门口。", "en": "Do not bunch in the doorway."},
+        {"zh": "我用肩膀把你顶开。", "en": "I shoulder you aside."},
+        {"zh": "护甲碰护甲，太响。", "en": "Armor on armor is too loud."},
+        {"zh": "我稳住了。", "en": "I steadied."},
+        {"zh": "这里太窄。", "en": "Too narrow here."},
+        {"zh": "你踩到我的枪带了。", "en": "You stepped on my sling."},
+        {"zh": "靠近前先出声。", "en": "Make a sound before you come close."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "战后没有这种事。", "en": "Not after all this."},
+        {"zh": "她也在队里。", "en": "She is in the unit too."},
+        {"zh": "我们不用说话。", "en": "We need no words."},
+        {"zh": "我把半个弹匣分给她。", "en": "I split a magazine with her."},
+        {"zh": "她守左边。", "en": "She takes the left."},
+        {"zh": "我守右边。", "en": "I take the right."},
+        {"zh": "一起活着，才算同伴。", "en": "Only the ones who live are comrades."},
+        {"zh": "天亮前我们换班。", "en": "We change watch before dawn."},
+        {"zh": "她睡着了。", "en": "She is asleep."},
+        {"zh": "我看着门口。", "en": "I watch the door."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "能用的都带上。", "en": "We take what is serviceable."},
+        {"zh": "弹匣还有一半。", "en": "Half a magazine."},
+        {"zh": "我塞进胸袋。", "en": "I slot it into my chest pocket."},
+        {"zh": "这个我用不上。", "en": "I have no use for this."},
+        {"zh": "我看了看编号。", "en": "I read the serial."},
+        {"zh": "不是我们的制式。", "en": "Not our issue."},
+        {"zh": "放回去。", "en": "Put it back."},
+        {"zh": "留给后面的人。", "en": "Leave it for whoever comes."},
+        {"zh": "我自己拿着。", "en": "I will keep it."},
+        {"zh": "走。", "en": "Move."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "动了。", "en": "Movement."},
+        {"zh": "我先看见的。", "en": "I saw it first."},
+        {"zh": "举枪。", "en": "Weapons up."},
+        {"zh": "距离二十步。", "en": "Twenty paces."},
+        {"zh": "别开灯。", "en": "Do not use a light."},
+        {"zh": "我一个人过去。", "en": "I will go alone."},
+        {"zh": "压住这个角。", "en": "Cover this corner."},
+        {"zh": "我数到三。", "en": "I count to three."},
+        {"zh": "上。", "en": "Go."},
+        {"zh": "别留活的。", "en": "Leave none standing."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把枪架稳了。", "en": "I have the weapon braced."},
+        {"zh": "你躲在柱子后。", "en": "You are behind the pillar."},
+        {"zh": "换个位置。", "en": "Shift position."},
+        {"zh": "别回头。", "en": "Do not look back."},
+        {"zh": "我把准星压在你身上。", "en": "I keep the sight on you."},
+        {"zh": "呼吸放慢。", "en": "Slow the breathing."},
+        {"zh": "弹匣还有十五发。", "en": "Fifteen rounds left."},
+        {"zh": "你往左挪了。", "en": "You shifted left."},
+        {"zh": "再一步就露头。", "en": "One more step and you show."},
+        {"zh": "我不急。", "en": "No hurry."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "开火。", "en": "Fire."},
+        {"zh": "三连发。", "en": "Three-round burst."},
+        {"zh": "打中了。", "en": "Hit."},
+        {"zh": "他倒了。", "en": "It went down."},
+        {"zh": "我补了一下。", "en": "I put one more in."},
+        {"zh": "换弹匣。", "en": "Changing magazines."},
+        {"zh": "枪托砸下去。", "en": "I drive the stock down."},
+        {"zh": "弹壳落在砖上。", "en": "Casings fall on brick."},
+        {"zh": "硝烟挡了眼。", "en": "Smoke blocks my view."},
+        {"zh": "枪托都打断了，换手。", "en": "The stock broke; switching hands."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我睁眼，枪在手里。", "en": "I open my eyes. The rifle is in my hands."},
+        {"zh": "这是哪条街。", "en": "Which street is this?"},
+        {"zh": "我先靠墙。", "en": "First I take the wall."},
+        {"zh": "没有掩体，别停。", "en": "No cover. Do not stop."},
+        {"zh": "风里有股腐味。", "en": "There is rot on the wind."},
+        {"zh": "我拉了拉枪机。", "en": "I work the bolt."},
+        {"zh": "这里没人接应。", "en": "No one is coming for me here."},
+        {"zh": "我清点了弹药。", "en": "I checked my ammunition."},
+        {"zh": "远处有响动。", "en": "There is movement far off."},
+        {"zh": "我开始推进。", "en": "I begin to advance."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烧到护甲，烫得我直缩。", "en": "Fire on my armor, and I flinch."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从二楼摔下，腿先着地。", "en": "I came off the second floor, legs first."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进口鼻，枪也丢了。", "en": "Water in my mouth, and I lost the rifle."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把我和枪一起掀翻。", "en": "The blast flips me and the rifle."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一发打穿了我的肩甲。", "en": "A round punched my pauldron."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的手指僵了。", "en": "My fingers have gone stiff."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "两天没吃，手开始抖。", "en": "Two days without food and my hands shake."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打下来，眼前全是白。", "en": "Lightning, and everything goes white."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下没有地面。", "en": "There is no ground under me."}
+      ]
+    }
+  }
+}

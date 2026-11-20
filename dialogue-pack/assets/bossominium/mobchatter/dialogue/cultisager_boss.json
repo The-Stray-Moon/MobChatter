@@ -1,0 +1,282 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我举着那件器物，慢慢走。", "en": "I walk slowly, holding the relic up."},
+        {"zh": "袍子破了，可我还是穿着。", "en": "My robe is torn, and I still wear it."},
+        {"zh": "我走过的地方，草枯了。", "en": "The grass withers where I pass."},
+        {"zh": "我绕着这圈石头走。", "en": "I walk the ring of stones."},
+        {"zh": "那件器物在发热。", "en": "The relic is growing warm."},
+        {"zh": "我的脚步很慢，像在唱。", "en": "My steps are slow, like a chant."},
+        {"zh": "我一边走，一边念词。", "en": "I walk and recite."},
+        {"zh": "风把袍角吹得响。", "en": "The wind snaps my hem."},
+        {"zh": "我停在圆圈的正中。", "en": "I stop at the circle's center."},
+        {"zh": "这里的土最薄。", "en": "The soil is thinnest here."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我举着器物，对着天。", "en": "I hold the relic up to the sky."},
+        {"zh": "我的嘴一直在动。", "en": "My mouth never stops moving."},
+        {"zh": "器物在我手里转了一点。", "en": "The relic has turned slightly in my hand."},
+        {"zh": "石头上的刻痕，亮了一下。", "en": "The marks on the stones flashed once."},
+        {"zh": "我在等一个回音。", "en": "I'm waiting for an answer."},
+        {"zh": "它还没有回。", "en": "It hasn't answered yet."},
+        {"zh": "我低下头，换了个词。", "en": "I lower my head and change the words."},
+        {"zh": "风停了，正好念词。", "en": "The wind's down. Good for reciting."},
+        {"zh": "风停了，词传得更远。", "en": "The wind's down. The words carry further."},
+        {"zh": "换了个方向，看清楚。", "en": "Changed angle to see clearly."},
+        {"zh": "地上的草，全倒了。", "en": "The grass has all gone flat."},
+        {"zh": "我听见石头在响。", "en": "I hear the stones sounding."},
+        {"zh": "第十块石头快亮了。", "en": "The tenth stone is nearly lit."},
+        {"zh": "我再念一遍。", "en": "I'll recite it once more."},
+        {"zh": "这回它该听见了。", "en": "This time it should hear."},
+        {"zh": "我举着器物，等着。", "en": "I hold the relic up and wait."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你站在圆圈外面。", "en": "You're standing outside the circle."},
+        {"zh": "走到圈里来吧。", "en": "Step into the circle."},
+        {"zh": "这个圈，是给你画的。", "en": "This circle was drawn for you."},
+        {"zh": "我等了很久才等到人。", "en": "I waited a long time for a person."},
+        {"zh": "我手里的东西，你也看见了。", "en": "You can see what I'm holding."},
+        {"zh": "它上面有血，不是我的。", "en": "There's blood on it. Not mine."},
+        {"zh": "我要用它打开一扇门。", "en": "I mean to open a door with it."},
+        {"zh": "门需要一个人。", "en": "The door requires a person."},
+        {"zh": "你就是那个人。", "en": "You're the person."},
+        {"zh": "别急着逃跑。", "en": "Don't be in a hurry to flee."},
+        {"zh": "圈外面的草，也枯了。", "en": "The grass outside the circle has withered too."},
+        {"zh": "你跑出去，一样。", "en": "Run out and it's the same."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "破袍子又添了一道口。", "en": "Another tear in my ragged robe."},
+        {"zh": "我退了一步，念词没停。", "en": "I step back and don't stop reciting."},
+        {"zh": "器物还在我手里。", "en": "The relic is still in my hand."},
+        {"zh": "这一下，打断了我一句。", "en": "That broke one of my lines."},
+        {"zh": "我又从头念。", "en": "I start again from the beginning."},
+        {"zh": "血从袖子里流下来。", "en": "Blood runs from my sleeve."},
+        {"zh": "我不去擦那些血。", "en": "I don't wipe the blood off."},
+        {"zh": "这血也是祭品。", "en": "This blood is an offering too."},
+        {"zh": "血滴在器物上，它应了一声。", "en": "Blood drips onto the artifact, and it answers."},
+        {"zh": "你做了什么，你自己知道。", "en": "You know what you've done."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手里的东西，放进来。", "en": "What's in your hand, put it in."},
+        {"zh": "把它放进圈里。", "en": "Put it in the circle."},
+        {"zh": "它需要一点祭品。", "en": "It needs an offering."},
+        {"zh": "你带了什么来？", "en": "What have you brought?"},
+        {"zh": "它闻到你身上的味道了，别急。", "en": "It has caught your scent; no need to hurry."},
+        {"zh": "我要的不是物品。", "en": "I don't want an object."},
+        {"zh": "我在等你放下戒心。", "en": "I'm waiting for you to lower your guard."},
+        {"zh": "把你带来的东西放在圈边上。", "en": "Set down what you brought at the edge of the circle."},
+        {"zh": "就当是帮我。", "en": "Call it a favour to me."},
+        {"zh": "仪式用品，你带齐了吗？", "en": "Did you bring the ritual items?"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞在我身上，跨进了圈。", "en": "You bumped me and stepped into the circle."},
+        {"zh": "你脚下的刻痕开始发红了。", "en": "The carvings beneath your feet begin to glow red."},
+        {"zh": "圈自己会抓人。", "en": "The circle takes people itself."},
+        {"zh": "你的脚动不了了。", "en": "Your feet won't move."},
+        {"zh": "这一下，你还站着。", "en": "After that, you're still standing."},
+        {"zh": "圈还没合上，正好。", "en": "The circle isn't closed yet. Perfect."},
+        {"zh": "站着比躺着好看。", "en": "Standing looks better than lying down."},
+        {"zh": "石头圈的影子把你也圈进去了。", "en": "The shadow of the stone circle draws you in as well."},
+        {"zh": "器物开始亮了。", "en": "The relic is beginning to glow."},
+        {"zh": "你看，它认得你。", "en": "See? It knows you."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "召唤我的人，早就走远了。", "en": "Whoever summoned me left long ago."},
+        {"zh": "我把自己交给了它。", "en": "I gave myself to it."},
+        {"zh": "它没有给我留下别的。", "en": "It left me nothing else."},
+        {"zh": "石头上的刻痕，就是我的家人。", "en": "The marks on the stones are my family."},
+        {"zh": "我每天念它们的名字。", "en": "I say their names every day."},
+        {"zh": "它们不回答。", "en": "They don't answer."},
+        {"zh": "可它们记得我。", "en": "But they remember me."},
+        {"zh": "有这些刻痕就够了。", "en": "These marks are enough for me."},
+        {"zh": "你的问题，超出了礼数。", "en": "Your question oversteps courtesy."},
+        {"zh": "我们回到正事吧。", "en": "Let's return to the matter at hand."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把器物举高。", "en": "I lift the relic higher."},
+        {"zh": "它在我手里越来越烫。", "en": "It grows hotter in my hand."},
+        {"zh": "我不打算松手。", "en": "I don't intend to let go."},
+        {"zh": "烫是一种回应。", "en": "The heat is a reply."},
+        {"zh": "我把石子丢进圈里，听它裂开。", "en": "I drop a pebble into the circle and hear it crack."},
+        {"zh": "石头在里面裂开了。", "en": "The stone splits inside the circle."},
+        {"zh": "石头在手里裂了。", "en": "The stone splits in my hand."},
+        {"zh": "它需要更多。", "en": "It needs more."},
+        {"zh": "我捡起你的东西。", "en": "I pick up your thing."},
+        {"zh": "这个，归它了。", "en": "This belongs to it now."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有人踩进了圈。", "en": "Someone's stepped into the circle."},
+        {"zh": "石头全亮了。", "en": "Every stone has lit."},
+        {"zh": "我不用回头。", "en": "I don't need to turn."},
+        {"zh": "右手一击，我就从方块里出来。", "en": "One right-click and I rise from the block."},
+        {"zh": "圈里的位置，我都记着。", "en": "I know every place in the circle."},
+        {"zh": "你站在第四块石头旁边。", "en": "You're beside the fourth stone."},
+        {"zh": "那里土最软。", "en": "The soil is softest there."},
+        {"zh": "我把器物转过去。", "en": "I turn the relic toward you."},
+        {"zh": "它就对着你了。", "en": "Now it faces you."},
+        {"zh": "站在圈里，别迈出去。", "en": "Stay inside the circle. Don't step out."},
+        {"zh": "动了也没用。", "en": "Moving won't help."},
+        {"zh": "我念了第一句。", "en": "I speak the first line."},
+        {"zh": "脚下的地开始沉。", "en": "The ground underfoot begins to sink."},
+        {"zh": "你也开始沉。", "en": "So do you."},
+        {"zh": "这样很省力。", "en": "This is very little effort."},
+        {"zh": "我只要念完。", "en": "I only have to finish."},
+        {"zh": "还差最后三句。", "en": "Three lines left."},
+        {"zh": "只剩两句了。", "en": "Only two left."},
+        {"zh": "最后一句，念完了。", "en": "The last line. It's spoken."},
+        {"zh": "念完了，成了。", "en": "Finished. It's done."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一边念，一边绕着你走。", "en": "I walk around you as I recite."},
+        {"zh": "每走一圈，它就亮一分。", "en": "Every circuit, it brightens."},
+        {"zh": "你想打断我。", "en": "You want to interrupt me."},
+        {"zh": "这个词你打不断。", "en": "You can't break these words."},
+        {"zh": "这个词，我念了几百年。", "en": "I've spoken these words for centuries."},
+        {"zh": "闭着眼也能念。", "en": "I can say them with my eyes shut."},
+        {"zh": "你把石头踢倒了。", "en": "You've kicked a stone over."},
+        {"zh": "它又立起来了。", "en": "It stands up again."},
+        {"zh": "圈不是画在地上。", "en": "The circle isn't drawn on the ground."},
+        {"zh": "圈在这儿，在我胸口。", "en": "The circle is here, in my chest."},
+        {"zh": "我指了指胸口。", "en": "I point at my chest."},
+        {"zh": "你出不去的。", "en": "You can't get out."},
+        {"zh": "除非我念完。", "en": "Not until I finish."},
+        {"zh": "我开始念最后一段。", "en": "I begin the last passage."},
+        {"zh": "声音越来越大了。", "en": "The sound is growing louder."},
+        {"zh": "你每退一步，石头就亮一块。", "en": "Every step you give, a stone lights."},
+        {"zh": "第九块石头亮了。", "en": "The ninth stone has lit."},
+        {"zh": "第十块亮起来的时候，就该走了。", "en": "When the tenth lights, it's time to go."},
+        {"zh": "我把器物举得更高。", "en": "I lift the relic higher."},
+        {"zh": "地上的影子里，多出几个我。", "en": "There are several of me in the shadows now."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把器物对着你。", "en": "I aim the relic at you."},
+        {"zh": "一道暗光出去了。", "en": "A dim light goes out."},
+        {"zh": "它打在你身上，你的皮在裂。", "en": "It strikes you and your skin splits."},
+        {"zh": "我一句也没有停。", "en": "I didn't stop for a line."},
+        {"zh": "第二道更粗。", "en": "The second is thicker."},
+        {"zh": "你退了，可圈把你推回来。", "en": "You retreat and the circle pushes you back."},
+        {"zh": "我举起双手。", "en": "I raise both hands."},
+        {"zh": "地上的土翻开了。", "en": "The soil turns over."},
+        {"zh": "有东西从底下伸上来。", "en": "Something reaches up from below."},
+        {"zh": "它抓到你了。", "en": "It has you."},
+        {"zh": "那些我都没有看。", "en": "I didn't look at any of it."},
+        {"zh": "我继续往下念。", "en": "I keep reciting."},
+        {"zh": "最后一段念完了。", "en": "The last passage is finished."},
+        {"zh": "我把器物放下。", "en": "I set the relic down."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把器物放在方块上。", "en": "I set the relic down on the block."},
+        {"zh": "地上的刻痕自己亮了。", "en": "The marks on the ground light themselves."},
+        {"zh": "我把袍角压好，风越来越冷。", "en": "I settle my robe hem as the wind turns colder."},
+        {"zh": "土开始往下沉。", "en": "The soil starts to sink."},
+        {"zh": "我站在中间，等着。", "en": "I stand in the middle and wait."},
+        {"zh": "风从四面来。", "en": "Wind comes from all sides."},
+        {"zh": "我的袍子鼓起来。", "en": "My robe fills out."},
+        {"zh": "石头一块块立起来。", "en": "The stones rise one by one."},
+        {"zh": "它们排成一个圈。", "en": "They form a ring."},
+        {"zh": "我举着器物，走到中间。", "en": "I raise the relic and walk to the center."},
+        {"zh": "我念了第一个词。", "en": "I speak the first word."},
+        {"zh": "天上暗了一点。", "en": "The sky dims a little."},
+        {"zh": "还差一点点。", "en": "Almost there."},
+        {"zh": "我又念了一句。", "en": "I speak another line."},
+        {"zh": "天再暗下去一点。", "en": "The sky darkens a little more."},
+        {"zh": "它已经在门外了。", "en": "It's already outside the door."},
+        {"zh": "它已经答应我了。", "en": "It has answered me."},
+        {"zh": "刻痕从脚下一直烧到墙角。", "en": "The carvings burn from beneath my feet to the wall corner."},
+        {"zh": "很久没笑了。", "en": "I haven't smiled in a long time."},
+        {"zh": "现在，等人进来。", "en": "Now, wait for someone to step in."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烧着我的袍子，我照念。", "en": "Fire burns my robe. I keep reciting."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从石台上摔下，器物还在手里。", "en": "I fall from the stone platform, relic still in hand."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "土变成泥，我陷进去了。", "en": "The soil turns to mud and I sink in."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸响把圈吹散了。", "en": "The blast scatters the circle."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭扎进我的肩，我没拔。", "en": "An arrow sticks in my shoulder. I leave it."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有人用比我更老的词。", "en": "Someone is using older words than mine."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我很久没吃了，也不重要。", "en": "I haven't eaten in a long while. It doesn't matter."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在石头上，全亮了。", "en": "Lightning strikes the stones and they all flare."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里没有土，也没有圈。", "en": "No soil here, and no circle."}
+      ]
+    }
+  }
+}

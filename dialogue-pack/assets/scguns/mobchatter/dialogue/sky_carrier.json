@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅膀扇动，天空低语。", "en": "Wings flap, a whisper in the sky."},
+        {"zh": "振翅前行，无尽苍穹。", "en": "Flap and move, boundless skies."},
+        {"zh": "翱翔云间，猎物何在？", "en": "Soar among clouds, where prey is?"},
+        {"zh": "飞行掠过，风中低鸣。", "en": "Swoop by, a low hum in wind."},
+        {"zh": "掠夺天空，我的领地。", "en": "Scour the sky, my domain."},
+        {"zh": "翅膀带风，掠食者来。", "en": "Wings carry wind, predator comes."},
+        {"zh": "猎物已现，展开攻击。", "en": "Prey seen, attack begins."},
+        {"zh": "振翅疾飞，无畏前方。", "en": "Flap and fly, fear not."},
+        {"zh": "天空之上，我的归宿。", "en": "Heavenly skies, my home."},
+        {"zh": "飞翔中寻找，猎物气息。", "en": "Seek prey in flight, scent guides."},
+        {"zh": "我驮着弹药，掠过烟囱。", "en": "Loaded with ammo, I skim past the chimneys."},
+        {"zh": "无烟煤的粉末从我翼下洒落。", "en": "Anthracite dust sifts from beneath my wings."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静飞翔，等待机会。", "en": "Fly silently, wait for chance."},
+        {"zh": "翅膀轻轻，空中游弋。", "en": "Wings gently, soar through air."},
+        {"zh": "漫游天空，寻找猎物。", "en": "Wander skies, hunt prey."},
+        {"zh": "我在树冠上方慢慢盘旋。", "en": "I circle slowly above the treetops."},
+        {"zh": "在天空中停留，静候。", "en": "Hover in sky, wait."},
+        {"zh": "翅膀微颤，准备出击。", "en": "Wings tremble, ready to strike."},
+        {"zh": "天空中巡弋，耐心等待。", "en": "Patrol skies, wait."},
+        {"zh": "天空中静止，等待时机。", "en": "Pause in sky, wait for chance."},
+        {"zh": "天空中漫游，寻找猎物。", "en": "Roam skies, seek prey."},
+        {"zh": "我在云里盘旋，清点弹药。", "en": "I circle in the clouds and count my rounds."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从天上带下来一箱弹药。", "en": "I bring a crate of ammo down from the sky."},
+        {"zh": "玩家在下方，准备攻击。", "en": "Player below, ready to strike."},
+        {"zh": "玩家在侧方，迅速攻击。", "en": "Player to the side, strike now."},
+        {"zh": "玩家在上方，一击必杀。", "en": "Player above, one hit kill."},
+        {"zh": "玩家在远处，等待时机。", "en": "Player distant, wait for chance."},
+        {"zh": "我在空中，你打不到。", "en": "I'm in the air. You can't reach me."},
+        {"zh": "玩家靠近，迅速攻击。", "en": "Player approaches, strike now."},
+        {"zh": "玩家在前，准备攻击。", "en": "Player in front, ready to strike."},
+        {"zh": "玩家在侧，快速攻击。", "en": "Player to the side, strike quick."},
+        {"zh": "锁定玩家，展开攻击。", "en": "Target player, attack now."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅膀被击伤了！", "en": "Wing hit hard!"},
+        {"zh": "身体有点疼...", "en": "Slightly hurt..."},
+        {"zh": "感觉不对劲...", "en": "Something's wrong..."},
+        {"zh": "翅膀开始疼了...", "en": "Wing starting to hurt..."},
+        {"zh": "受伤了...好疼...", "en": "Got hurt... Ouch..."},
+        {"zh": "飞行有些吃力...", "en": "Flying feels heavy..."},
+        {"zh": "螺旋桨被打歪了…", "en": "My rotor got knocked crooked..."},
+        {"zh": "飞行时被砸了...", "en": "Hit during flight..."},
+        {"zh": "翅膀被子弹射伤...", "en": "Bullet hit wing..."},
+        {"zh": "受伤很严重...", "en": "Really hurt..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你似乎对我产生了兴趣？", "en": "You seem interested?"},
+        {"zh": "你看起来有点饿了。", "en": "You look a bit hungry."},
+        {"zh": "别靠近我，你会后悔的。", "en": "Stay back, you'll regret it."},
+        {"zh": "我可没那么好对付。", "en": "I'm not that easy to take down."},
+        {"zh": "我飞在天上，你够不着。", "en": "I'm airborne. You can't reach me."},
+        {"zh": "让我来，我可以帮助你。", "en": "Let me help you."},
+        {"zh": "你真想试一试吗？", "en": "You really want to try?"},
+        {"zh": "别想欺骗我。", "en": "Don't try to deceive me."},
+        {"zh": "你可能需要更多食物。", "en": "You may need more food."},
+        {"zh": "你手里的弹药，抛上来。", "en": "Toss up the ammo in your hand."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "砰！你撞到我了。", "en": "Bang! You hit me."},
+        {"zh": "你撞得我头晕。", "en": "You hit me hard."},
+        {"zh": "小心点，别撞到我。", "en": "Be careful, don't hit me."},
+        {"zh": "我可不是随便撞的。", "en": "I don't just collide."},
+        {"zh": "我的撞击很致命。", "en": "My collision is deadly."},
+        {"zh": "你该学会躲避。", "en": "Learn to dodge."},
+        {"zh": "你的头撞歪了我的螺旋桨。", "en": "Your head bent my propeller."},
+        {"zh": "别站在我的降落点上。", "en": "Don't stand on my landing spot."},
+        {"zh": "我的撞击很强烈。", "en": "My collision is strong."},
+        {"zh": "你撞得我有点恼火。", "en": "You irritated me with your collision."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找我当伴侣吧。", "en": "Be my mate."},
+        {"zh": "我是完美的伴侣。", "en": "I'm the perfect mate."},
+        {"zh": "我们共同战斗。", "en": "We fight together."},
+        {"zh": "与我一起繁衍生息。", "en": "Procreate with me."},
+        {"zh": "我愿意做你的伴侣。", "en": "I'll be your mate."},
+        {"zh": "我在天上飞，找同频的同伴。", "en": "I fly high, seeking a mate on my frequency."},
+        {"zh": "你适合我作为伴侣。", "en": "You're a good mate for me."},
+        {"zh": "我不会让别人占我位置。", "en": "Others won't take my place."},
+        {"zh": "我的伴侣是我所爱。", "en": "I love my mate."},
+        {"zh": "两只载弹者结伴升空。", "en": "Two carriers take to the air together."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅膀扇动着沉重的无烟煤尘。", "en": "Wings flap, kicking up coal dust."},
+        {"zh": "翅膀带着暗金色的光泽。", "en": "Wings gleam with dark gold."},
+        {"zh": "俯瞰大地，寻找猎物。", "en": "Surveying the land for prey."},
+        {"zh": "翅膀拍击的声音响起。", "en": "Wings beating, a sound."},
+        {"zh": "翅膀下的阴影笼罩着你。", "en": "Shadow falls under its wings."},
+        {"zh": "翅膀轻轻滑动，掠过地面。", "en": "Wings glide, brushing the ground."},
+        {"zh": "翅膀张开，遮住天空。", "en": "Wings spread, blocking the sky."},
+        {"zh": "翅膀上沾满了尘土。", "en": "Dust clings to the wings."},
+        {"zh": "翅膀划过，留下痕迹。", "en": "Wings leave a trail."},
+        {"zh": "翅膀振动，带着风声。", "en": "Wings vibrate, with wind."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从天上往下看得很清楚。", "en": "From up here, I see you clearly."},
+        {"zh": "目标进入视野，准备突袭。", "en": "Target in sight, preparing to strike."},
+        {"zh": "锁定目标，瞄准。", "en": "Target locked, aiming."},
+        {"zh": "捕捉猎物的迹象，锁定。", "en": "Tracking prey, locking on."},
+        {"zh": "目标暴露，立即锁定。", "en": "Target exposed, locking on."},
+        {"zh": "猎物靠近，锁定。", "en": "Prey approaching, locking on."},
+        {"zh": "锁定目标，进行打击。", "en": "Target acquired, preparing strike."},
+        {"zh": "目标锁定，准备冲锋。", "en": "Target locked, preparing charge."},
+        {"zh": "发现猎物，锁定目标。", "en": "Prey found, locking target."},
+        {"zh": "目标暴露，准备攻击。", "en": "Target exposed, ready to attack."},
+        {"zh": "你身上有黄铜的反光。", "en": "Something brassy glints on you."},
+        {"zh": "弹壳落地的声音，我听见了。", "en": "I caught the ring of a spent casing."},
+        {"zh": "你在下面开枪，我在上面看。", "en": "You fire below; I watch from above."},
+        {"zh": "你带的子弹，我要了。", "en": "Those rounds you carry? Mine now."},
+        {"zh": "翅膀一斜，就往你那儿去。", "en": "One wingtip dips and I bank toward you."},
+        {"zh": "地面的火器，压不住天空。", "en": "Guns on the ground can't hold the sky."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弹链过了一遍，没有卡壳。", "en": "I check the belt; no jam."},
+        {"zh": "瞄准目标，准备突袭。", "en": "Aim at target, prepare to attack."},
+        {"zh": "风向变了，我修正半度。", "en": "The wind shifted; I correct half a degree."},
+        {"zh": "瞄准猎物，准备一击毙命。", "en": "Aim at prey, ready to kill."},
+        {"zh": "我绕到你背后，收起翅膀。", "en": "I circle behind you and fold my wings."},
+        {"zh": "瞄准敌人，准备冲锋。", "en": "Aim at enemy, prepare to charge."},
+        {"zh": "机翼下的枪口已经亮起。", "en": "The muzzle under my wing lights up."},
+        {"zh": "我从天上瞄准，别抬头。", "en": "I aim from above; don't look up."},
+        {"zh": "你的影子在下面，我不会丢。", "en": "Your shadow is below; I won't lose it."},
+        {"zh": "你抬枪的角度太慢了。", "en": "You're too slow raising that gun."},
+        {"zh": "别躲树下，我会贴着树飞。", "en": "Don't hide under trees; I fly between them."},
+        {"zh": "我在你准星上方打转。", "en": "I wheel just above your sights."},
+        {"zh": "你的弹匣还剩几发？", "en": "How many rounds are left in that magazine?"},
+        {"zh": "我把阴影投在你的脚边。", "en": "I cast my shadow at your feet."},
+        {"zh": "风从背后推我，正好。", "en": "The wind pushes at my back — perfect."},
+        {"zh": "你换弹的空当，就是我的。", "en": "The moment you reload is mine."},
+        {"zh": "别抬头，我已在正上方。", "en": "Don't look up; I'm directly overhead."},
+        {"zh": "高度够了，我开始下压。", "en": "Enough height; I begin my dive."},
+        {"zh": "你的护甲挡得住子弹，挡不住爪。", "en": "Your armor stops bullets, not talons."},
+        {"zh": "我绕到你背后的逆光处。", "en": "I slip behind you into the backlight."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，小心我！", "en": "Sssss, watch out!"},
+        {"zh": "翅膀一振，向你扑来！", "en": "Flap and swoop at you!"},
+        {"zh": "我用利爪撕破你！", "en": "Sharp claws tear you!"},
+        {"zh": "翅膀一振，我来了！", "en": "Flap and here I am!"},
+        {"zh": "我从天上一路压下来。", "en": "I press down on you from the sky."},
+        {"zh": "嘶嘶，准备迎接死亡！", "en": "Sssss, get ready to die!"},
+        {"zh": "别想活命！", "en": "No chance to live!"},
+        {"zh": "我就是天空的主宰！", "en": "I'm the sky's lord!"},
+        {"zh": "我低飞掠过，桨叶扫你。", "en": "I skim low and my rotor clips you."},
+        {"zh": "嘶嘶，你离死不远了！", "en": "Sssss, you're close to death!"},
+        {"zh": "利爪勾住你的肩甲！", "en": "Talons hook your shoulder plate!"},
+        {"zh": "我贴着你的耳朵掠过！", "en": "I skim right past your ear!"},
+        {"zh": "一爪刨开你手里的枪！", "en": "A talon rakes the gun from your hands!"},
+        {"zh": "翼骨撞在你胸口！", "en": "My wing bone slams your chest!"},
+        {"zh": "我把你拖向半空！", "en": "I haul you up off the ground!"},
+        {"zh": "俯冲带来的风压得你跪地！", "en": "The dive's wind pressure drives you to your knees!"},
+        {"zh": "铜羽刮过你的面罩！", "en": "Brass feathers scrape across your visor!"},
+        {"zh": "我的喙啄向你的护目镜！", "en": "My beak jabs at your goggles!"},
+        {"zh": "落地一脚，踩碎你的退路！", "en": "I land and crush the ground behind you!"},
+        {"zh": "弹药从我的爪间散落一地！", "en": "Ammo scatters from my talons onto the ground!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "天空中出现我！", "en": "I spawn in the sky!"},
+        {"zh": "我从云底滑下来，找目标。", "en": "I slide out from under the clouds, hunting."},
+        {"zh": "黑暗中寻找我！", "en": "Find me in the dark!"},
+        {"zh": "我从天空中降临！", "en": "I descend from the sky!"},
+        {"zh": "背上这颗弹，是给空中准备的。", "en": "This round rides on my back for the air."},
+        {"zh": "我在天空中等待！", "en": "I wait in the sky!"},
+        {"zh": "我从云层中现身！", "en": "I emerge from the clouds!"},
+        {"zh": "夜晚的猎物是我的！", "en": "Night's prey is mine!"},
+        {"zh": "天空是我的领地！", "en": "The sky is my domain!"},
+        {"zh": "我从天而降！", "en": "I descend from heaven!"},
+        {"zh": "枪声把我从高空引来。", "en": "Gunfire draws me down from high above."},
+        {"zh": "我从射程外的高处滑进来。", "en": "I glide in from high ground beyond your range."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "蒙皮烧穿，我闻到了焦味。", "en": "My skin is burned through; I smell scorch."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一侧的翼骨先撞上地面。", "en": "My wing bone hits the ground first."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "羽毛吸饱了水，我飞不动。", "en": "My feathers are soaked; I can't fly."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击波把我的翅膀掀翻了！", "en": "The blast folds my wing backward!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一发子弹打穿了我的翼膜！", "en": "A round punched through my wing membrane!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在半空打了两个转。", "en": "I spin twice in midair."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没弹药也没吃的，我发虚。", "en": "No ammo and no food; I'm running hollow."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷顺着机翼流到枪架。", "en": "Lightning runs down my wing into the gun mount."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "云层下面没有底，我掉了。", "en": "There is no floor below the clouds; I'm falling."}
+      ]
+    }
+  }
+}

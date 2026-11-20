@@ -1,0 +1,269 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "轻飘飘地飘过你身旁。", "en": "Drift past you lightly."},
+        {"zh": "我总是飘在空中。", "en": "I always float in the air."},
+        {"zh": "寻找食物时飘来飘去。", "en": "Drift around while searching for food."},
+        {"zh": "飘向远方的村庄。", "en": "Drift towards the distant village."},
+        {"zh": "飘过田野和树林。", "en": "Drift over fields and forests."},
+        {"zh": "飘向夜幕下的村庄。", "en": "Drift towards the village under the night."},
+        {"zh": "飘向那座破旧的木屋。", "en": "Drift towards the old wooden house."},
+        {"zh": "飘向那片空旷的田野。", "en": "Drift towards the open field."},
+        {"zh": "飘向村庄的废墟。", "en": "Drift towards the village ruins."},
+        {"zh": "飘向那座废弃的磨坊。", "en": "Drift towards the abandoned mill."},
+        {"zh": "提着一盏灯笼走过田埂。", "en": "She crosses the field ridge with a lantern."},
+        {"zh": "踩着木屐，悄悄绕向村口。", "en": "Her sandals click softly toward the village gate."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "在这荒凉之地静静漂浮。", "en": "Hover quietly in this desolate place."},
+        {"zh": "在这废墟中静静漂浮。", "en": "Hover quietly in these ruins."},
+        {"zh": "在这里游荡，寻找猎物。", "en": "Wander here, searching for prey."},
+        {"zh": "在这破旧的木屋外飘荡。", "en": "Drift outside the old wooden house."},
+        {"zh": "在这片废墟中徘徊。", "en": "Prowl in these ruins."},
+        {"zh": "在村庄的废墟中飘荡。", "en": "Drift in the village ruins."},
+        {"zh": "在这荒废的磨坊外飘荡。", "en": "Drift outside the abandoned mill."},
+        {"zh": "在这破旧的教堂里飘荡。", "en": "Drift in the old church."},
+        {"zh": "在这破败的村庄里飘荡。", "en": "Drift in this decayed village."},
+        {"zh": "在这废弃的矿井上方飘荡。", "en": "Drift above the abandoned mine."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "看到了你，准备袭击！", "en": "Found you, ready to attack!"},
+        {"zh": "发现了你，准备战斗。", "en": "Found you, ready to fight."},
+        {"zh": "靠近了，准备攻击！", "en": "You're close, ready to attack!"},
+        {"zh": "盯上了你，准备出手。", "en": "Targeted you, ready to act."},
+        {"zh": "我歪头，确认你不是村里人。", "en": "I tilt my head to be sure you are not from the village."},
+        {"zh": "看到了你，准备战斗。", "en": "Found you, ready to fight."},
+        {"zh": "注意到了你，准备攻击。", "en": "Noticed you, ready to attack."},
+        {"zh": "盯上你了，准备袭击。", "en": "Targeted you, ready to attack."},
+        {"zh": "歪头看你是不是鬼。", "en": "She tilts her head, checking if you're a demon."},
+        {"zh": "把刀往身后藏了藏。", "en": "She hides her blade behind her back."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我...我受伤了。", "en": "I'm hurt..."},
+        {"zh": "我...我的翅膀受伤了。", "en": "My wings..."},
+        {"zh": "握刀的手臂抬不起来了。", "en": "My sword arm will not rise."},
+        {"zh": "腿被划开了，我站不住了。", "en": "My leg is cut open, I can't stay standing."},
+        {"zh": "我...我受惊了。", "en": "I'm scared..."},
+        {"zh": "我...我累了。", "en": "I'm tired..."},
+        {"zh": "草鞋磨破了，脚底全是血。", "en": "My straw sandal wore through, my sole bleeding."},
+        {"zh": "我...我饿了。", "en": "I'm hungry..."},
+        {"zh": "我...我困了。", "en": "I'm sleepy..."},
+        {"zh": "我...我病了。", "en": "I'm sick..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "听到烤肉香气，你忍不住靠近。", "en": "Can't resist the smell of roasting meat."},
+        {"zh": "看到村民准备食物，你偷偷接近。", "en": "Creep close to villagers preparing food."},
+        {"zh": "你悄悄跟在村民身后，寻找机会。", "en": "Follow villagers to find an opportunity."},
+        {"zh": "夜晚来临，你开始在村边游荡。", "en": "Wander around the village at night."},
+        {"zh": "闻到食物香味，你忍不住靠近。", "en": "Can't stay away from the food smell."},
+        {"zh": "村民的篝火让你感到温暖。", "en": "Campfire gives you a sense of warmth."},
+        {"zh": "你试图靠近篝火，吸引注意。", "en": "Try to approach the campfire to attract attention."},
+        {"zh": "你悄悄靠近，寻找可利用机会。", "en": "Creep close to find an opportunity."},
+        {"zh": "听到村民谈论食物，你心动了。", "en": "Food talk makes you crave."},
+        {"zh": "你悄悄观察，寻找进入村庄的机会。", "en": "Watch villagers to find an entry point."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上了试图逃跑的村民。", "en": "Collide with fleeing villagers."},
+        {"zh": "村民试图避开你。", "en": "Villagers try to avoid you."},
+        {"zh": "你无意中撞上了一名村民。", "en": "Accidentally bump into a villager."},
+        {"zh": "村民试图摆脱你的纠缠。", "en": "Villagers try to get away from you."},
+        {"zh": "你撞翻了一名试图逃跑的村民。", "en": "You knock down a fleeing villager."},
+        {"zh": "村民试图躲避你的攻击。", "en": "Villager tries to dodge your attack."},
+        {"zh": "你试图用撞击阻止村民逃跑。", "en": "You try to stop villagers from escaping by colliding."},
+        {"zh": "村民试图推开你，保护自己。", "en": "Villager tries to push you away."},
+        {"zh": "村民试图躲避你的撞击。", "en": "Villager tries to avoid your collision."},
+        {"zh": "她扶住你，怕你摔进沟里。", "en": "She steadies you so you don't fall in the ditch."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你与另一名Undead少女相遇。", "en": "Meet another Undead girl."},
+        {"zh": "Undead少女彼此互相吸引。", "en": "Undead girls are attracted to each other."},
+        {"zh": "你试图与另一名Undead少女互动。", "en": "Try to interact with another Undead girl."},
+        {"zh": "Undead少女在村庄中寻找同伴。", "en": "Undead girls search for companions in the village."},
+        {"zh": "你与另一名Undead少女建立了联系。", "en": "Form a connection with another Undead girl."},
+        {"zh": "Undead少女彼此交流，寻找盟友。", "en": "Undead girls communicate to find allies."},
+        {"zh": "你试图吸引另一名Undead少女注意。", "en": "Try to attract another Undead girl's attention."},
+        {"zh": "Undead少女们聚集在一起。", "en": "Undead girls gather together."},
+        {"zh": "你与另一名Undead少女成为了朋友。", "en": "Become friends with another Undead girl."},
+        {"zh": "Undead少女们在村庄中寻找同伴。", "en": "Undead girls search for companions in the village."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我找到我的魔杖了！", "en": "Found my staff!"},
+        {"zh": "村庄的守卫者！", "en": "Guardian of the village!"},
+        {"zh": "这是属于我的地方！", "en": "This is my place!"},
+        {"zh": "快跑，恶鬼来了！", "en": "Run, the wraiths are here!"},
+        {"zh": "守护村庄，我不能死！", "en": "Protect the village, I can’t die!"},
+        {"zh": "恶鬼，尝尝我的剑！", "en": "Wraiths, taste my sword!"},
+        {"zh": "我们属于这片土地！", "en": "We belong here!"},
+        {"zh": "恶鬼，你们逃不掉！", "en": "Wraiths, you can’t escape!"},
+        {"zh": "我是Yachan，村庄的孩子！", "en": "I’m Yachan, the village’s child!"},
+        {"zh": "用我的力量保护村子！", "en": "Use my power to protect the village!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我感觉到你的气息！", "en": "I sense your presence!"},
+        {"zh": "再走一步，就进我的刀围。", "en": "One more step and you enter my blade's reach."},
+        {"zh": "我在井边等你绕回来。", "en": "I wait by the well for you to circle back."},
+        {"zh": "你的角露在斗笠外面了。", "en": "Your horns show above your hat."},
+        {"zh": "村里的人都躲了，你们逃不掉。", "en": "The villagers hid; you will not escape."},
+        {"zh": "小心，恶鬼来了！", "en": "Beware, wraiths are here!"},
+        {"zh": "村里的姑娘，也拿得动刀。", "en": "A village girl can hold a blade too."},
+        {"zh": "我是村庄的守护者！", "en": "I’m the village’s protector!"},
+        {"zh": "你们的末日来了！", "en": "Your doom is here!"},
+        {"zh": "恶鬼，你们的结局！", "en": "Wraiths, your end!"},
+        {"zh": "你的牙太尖了。", "en": "Your teeth are too sharp."},
+        {"zh": "鬼不敢在白天露面。", "en": "Demons don't dare show by day."},
+        {"zh": "我闻到了血腥味。", "en": "I smell blood on you."},
+        {"zh": "别往村里走。", "en": "Don't walk toward the village."},
+        {"zh": "我认得那条花纹。", "en": "I know those stripes."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "给我尝尝我的刀！", "en": "Feel my blade!"},
+        {"zh": "我只是村里的女孩，别伤我。", "en": "I am only a village girl, do not hurt me."},
+        {"zh": "村口的门我早拴上了。", "en": "I barred the village gate long ago."},
+        {"zh": "这是我的战斗！", "en": "This is my fight!"},
+        {"zh": "村口那口井，我绕得过去。", "en": "I can get around the well at the village gate."},
+        {"zh": "我是为了正义而战！", "en": "I fight for justice!"},
+        {"zh": "你们都逃不掉的！", "en": "You all can’t escape!"},
+        {"zh": "我是为了保护村庄！", "en": "I’m protecting the village!"},
+        {"zh": "你们都逃不掉我的攻击！", "en": "You can’t escape my attacks!"},
+        {"zh": "父亲教的站姿，今晚用上了。", "en": "The stance my father taught me, used tonight."},
+        {"zh": "你只会往左边扑。", "en": "You only lunge to the left."},
+        {"zh": "再走一步我就喊人。", "en": "One more step and I call for help."},
+        {"zh": "村口那口井我能绕过去。", "en": "I can get around the village well."},
+        {"zh": "我握刀的手还很稳。", "en": "My grip on the knife is steady."},
+        {"zh": "别以为我是普通村女。", "en": "Don't take me for a village girl."},
+        {"zh": "父亲教过我站姿。", "en": "My father taught me how to stand."},
+        {"zh": "你退到阳光下了。", "en": "You've backed into the sunlight."},
+        {"zh": "我飘在半空，你抬不起刀。", "en": "I float overhead; you cannot raise that blade."},
+        {"zh": "我会在你抬爪前出手。", "en": "I strike before your claw lifts."},
+        {"zh": "守住这道门就行。", "en": "I only need to hold this door."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "手持长剑冲向恶鬼，口中发出哀嚎。", "en": "Rush at the evil with a sword, wailing loudly."},
+        {"zh": "挥舞着镰刀攻击恶鬼，发出刺耳尖叫。", "en": "Swing the scythe at the evil, emitting a piercing scream."},
+        {"zh": "从村民家偷来盾牌，对着恶鬼狠狠挥击。", "en": "Steal a shield from a villager and strike the evil hard."},
+        {"zh": "举起破碎的木剑，嘶吼着向恶鬼扑去。", "en": "Raise a broken wooden sword and lunge at the evil, snarling."},
+        {"zh": "咬紧牙关，用双手握着小刀向恶鬼刺去。", "en": "Gritting her teeth, stab the evil with both hands holding a small knife."},
+        {"zh": "用腐烂的长矛攻击恶鬼，发出痛苦的呻吟。", "en": "Attack the evil with a rotten spear, groaning in pain."},
+        {"zh": "挥舞着燃烧的木棒，对恶鬼进行猛烈攻击。", "en": "Swing a burning stick at the evil with great force."},
+        {"zh": "从地上捡起尖刺，向恶鬼乱刺。", "en": "Grasp the sharp stake and stab the evil wildly."},
+        {"zh": "用沾满毒液的匕首刺向恶鬼的心脏。", "en": "Stab the evil's heart with a poisonous dagger."},
+        {"zh": "手持镰刀，向恶鬼扑去，发出低沉的嘶吼。", "en": "Rush at the evil with a scythe, emitting a low growl."},
+        {"zh": "菜刀也能削鬼！", "en": "A kitchen knife can cut a demon!"},
+        {"zh": "这是给村长的份！", "en": "That one's for the village chief!"},
+        {"zh": "我砍你的手腕！", "en": "I go for your wrist!"},
+        {"zh": "厨房的柴刀够用。", "en": "The wood axe from the kitchen will do."},
+        {"zh": "我为隔壁的孩子出刀。", "en": "This is for the child next door."},
+        {"zh": "别碰我们家门口。", "en": "Keep off our doorstep."},
+        {"zh": "你也会疼，对吧？", "en": "You feel pain too, don't you?"},
+        {"zh": "我练了三年的挥砍。", "en": "I've practiced this swing for three years."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从村民家的地下室中爬出。", "en": "I crawl out of the basement of a villager's house."},
+        {"zh": "我从远处的树林中慢慢出现。", "en": "I slowly emerge from the distant forest."},
+        {"zh": "我从废弃的村庄边缘悄悄现身。", "en": "I silently appear from the edge of a deserted village."},
+        {"zh": "我从附近的坟墓中缓缓升起。", "en": "I slowly rise from a nearby grave."},
+        {"zh": "我从黑暗的洞穴中缓缓走出。", "en": "I slowly emerge from a dark洞穴."},
+        {"zh": "我从村边的小河中爬出。", "en": "I crawl out from the village stream."},
+        {"zh": "我从远处的废墟中慢慢现身。", "en": "I slowly emerge from the ruins in the distance."},
+        {"zh": "我从一座倒塌的建筑物中走出。", "en": "I walk out from a collapsed building."},
+        {"zh": "我从一片荒废的田野中现身。", "en": "I appear from a desolate field."},
+        {"zh": "我从一片荒废的果园中走出。", "en": "I walk out from a desolate orchard."},
+        {"zh": "灯笼一亮，我就守在这。", "en": "The lantern's lit. I stand guard here."},
+        {"zh": "今晚轮到我巡村。", "en": "Tonight it's my turn to patrol."},
+        {"zh": "我听见狗叫就出来了。", "en": "The dogs barked, so I came out."},
+        {"zh": "稻子还没收完呢。", "en": "The rice isn't even harvested yet."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我只是个村子里的女孩，救命。", "en": "I'm only a village girl; help me."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从屋顶滑下来，膝盖磕破了。", "en": "I slid off the roof and skinned my knee."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "河水灌进袖子，好重。", "en": "River water fills my sleeves. So heavy."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸伤了我。", "en": "Explosion hurt me."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一箭射来，我肩上一热。", "en": "An arrow came and my shoulder burned."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "药水溅上手臂，像火烧。", "en": "Potion splashed my arm like fire."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "村子没了，肚子还饿。", "en": "The village is gone. The hunger isn't."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "村子里的姑娘，哪见过这样的雷。", "en": "A village girl has never seen such a bolt."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在虚空里迷失了。", "en": "I'm lost in the void."}
+      ]
+    }
+  }
+}

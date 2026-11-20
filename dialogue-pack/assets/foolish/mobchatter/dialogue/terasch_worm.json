@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙虫贴着荒地慢慢蠕动", "en": "The worm inches over the waste, close to the ground."},
+        {"zh": "它的身体一弓一伸", "en": "Its body humps and stretches."},
+        {"zh": "沙土被它拖出一条细沟", "en": "It drags a thin furrow in the dirt."},
+        {"zh": "它挪得很慢，却不转向", "en": "It moves slowly but never turns aside."},
+        {"zh": "它一节节往前推", "en": "It pushes forward segment by segment."},
+        {"zh": "它的小身体贴着土疙瘩爬", "en": "It crawls against clods of earth."},
+        {"zh": "它从石头底下穿过去", "en": "It passes under a stone."},
+        {"zh": "它动得几乎看不出", "en": "Its movement is almost invisible."},
+        {"zh": "它的头前端一缩一探", "en": "Its front end pulls in and reaches out."},
+        {"zh": "它沿着一条干裂的缝爬", "en": "It follows a cracked seam in the ground."},
+        {"zh": "它的影子比它自己大得多", "en": "Its shadow is far bigger than it is."},
+        {"zh": "它停下来，又继续蠕动", "en": "It pauses, then worms on."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙虫蜷在枯草边上", "en": "The worm curls at the edge of dry grass."},
+        {"zh": "它把身体缩成一小段", "en": "It draws itself into a short length."},
+        {"zh": "它的一端微微抬起", "en": "One end lifts slightly."},
+        {"zh": "它像是睡着了", "en": "It looks asleep."},
+        {"zh": "干土落在它身上，它不动", "en": "Dry soil settles on it; it does not stir."},
+        {"zh": "它的身体偶尔抽一下", "en": "Its body twitches now and then."},
+        {"zh": "它把自己埋进半个身子", "en": "It buries half of itself."},
+        {"zh": "它像一小截灰色的绳", "en": "It looks like a short grey cord."},
+        {"zh": "风吹过，它往草里贴近", "en": "The wind passes; it presses closer to the grass."},
+        {"zh": "它的颜色和荒地一样", "en": "Its colour matches the wasteland."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙虫抬起前端，对着你", "en": "The worm lifts its front end at you."},
+        {"zh": "它分辨不出你是什么", "en": "It cannot tell what you are."},
+        {"zh": "它把身体缩小了一点", "en": "It draws itself in a little."},
+        {"zh": "它在犹豫要不要靠近", "en": "It is unsure whether to come closer."},
+        {"zh": "它缓缓朝你的鞋去了", "en": "It moves slowly toward your boot."},
+        {"zh": "它在你的影子边上停住", "en": "It stops at the edge of your shadow."},
+        {"zh": "它没有眼睛，只有感觉", "en": "It has no eyes, only feeling."},
+        {"zh": "它触了一下你的鞋面", "en": "It touches your shoe lightly."},
+        {"zh": "然后它退了一点", "en": "Then it pulls back a little."},
+        {"zh": "它又朝你蠕动过来", "en": "And it comes at you again."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙虫一下缩成团", "en": "The worm snaps into a ball."},
+        {"zh": "它在地上弹了两下", "en": "It bounces twice on the ground."},
+        {"zh": "它的一端抽动着", "en": "One end twitches."},
+        {"zh": "它往土里钻了半截", "en": "It digs half of itself under."},
+        {"zh": "它从土里探出一点看看", "en": "It peeks back out a little."},
+        {"zh": "它把身体拉得细长", "en": "It stretches itself thin."},
+        {"zh": "它在原地打了个圈", "en": "It turns a circle in place."},
+        {"zh": "它慢慢往远处挪", "en": "It crawls slowly away."},
+        {"zh": "它还是忍不住回头", "en": "It cannot help turning back."},
+        {"zh": "它的动作比之前更慢", "en": "Its movement is slower now."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙虫朝味道的方向挪", "en": "The worm shifts toward the smell."},
+        {"zh": "它停在食物前，先不动", "en": "It stops before the food, still."},
+        {"zh": "它把前端搭上去", "en": "It lays its front end on it."},
+        {"zh": "它开始一点点吸食", "en": "It starts drawing it in."},
+        {"zh": "吃到一半它停了一下", "en": "Halfway through it pauses."},
+        {"zh": "然后又继续吃", "en": "Then carries on."},
+        {"zh": "它把剩下的绕住", "en": "It coils around what is left."},
+        {"zh": "吃完它慢慢退开", "en": "Done, it draws slowly away."},
+        {"zh": "它朝你要更多", "en": "It comes back for more."},
+        {"zh": "它在你脚边团成一圈", "en": "It curls in a ring by your feet."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙虫被碰得弹了一下", "en": "The worm bounces at the touch."},
+        {"zh": "它蜷成一小团", "en": "It curls into a small ball."},
+        {"zh": "它慢慢展开，试着走", "en": "It slowly uncurls and tries to move."},
+        {"zh": "它在你鞋边滚了半圈", "en": "It rolls half a turn by your shoe."},
+        {"zh": "它贴着地面爬开", "en": "It crawls away along the ground."},
+        {"zh": "它被推得挪了半尺", "en": "The push shifts it half a foot."},
+        {"zh": "它没有反击，只是躲", "en": "It does not fight, only hides."},
+        {"zh": "它钻进土缝里", "en": "It slips into a crack in the soil."},
+        {"zh": "然后又探出头", "en": "Then pokes out again."},
+        {"zh": "它抖掉身上的土粒", "en": "It shakes the grains of soil off."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "两条沙虫缠在一起", "en": "Two worms twine together."},
+        {"zh": "它们绕成一个小小的结", "en": "They knot into a small loop."},
+        {"zh": "它们一伸一缩，节奏一致", "en": "They stretch and contract in time."},
+        {"zh": "它们贴在枯草根部", "en": "They press against the base of dry grass."},
+        {"zh": "它们几乎看不出是两条", "en": "They barely look like two."},
+        {"zh": "它们把身体埋进土里一半", "en": "They bury half their length."},
+        {"zh": "它们很久都没有动", "en": "They stay still a long while."},
+        {"zh": "风吹过时它们一起缩", "en": "When wind passes, both draw in."},
+        {"zh": "它们的颜色融在一起", "en": "Their colour merges."},
+        {"zh": "荒地上看不出这里有什么", "en": "You would not guess anything was there."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙虫把食物绕住", "en": "The worm coils around the food."},
+        {"zh": "它一点点把东西裹进来", "en": "It wraps the item in by degrees."},
+        {"zh": "它把食物压在身下", "en": "It presses the food under itself."},
+        {"zh": "它吸食时身体一起一伏", "en": "Its body rises and falls as it feeds."},
+        {"zh": "它把不合口的东西推开", "en": "What it dislikes, it pushes away."},
+        {"zh": "它把食物拖进土缝", "en": "It drags the food into a crack."},
+        {"zh": "它吃完缩成一小团", "en": "Done, it shrinks into a ball."},
+        {"zh": "它从土里拱出来找剩下的", "en": "It surfaces to look for leftovers."},
+        {"zh": "它绕着你给的东西转圈", "en": "It circles what you offer."},
+        {"zh": "它慢慢爬回荒地深处", "en": "It crawls back deep into the waste."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙虫忽然转向你", "en": "The worm turns toward you."},
+        {"zh": "它把前端抬得很高", "en": "It lifts its front end high."},
+        {"zh": "它的身体绷紧了", "en": "Its body pulls taut."},
+        {"zh": "它朝你的脚慢慢过来", "en": "It comes slowly at your feet."},
+        {"zh": "它把身体拉长，像根鞭子", "en": "It stretches out like a whip."},
+        {"zh": "它的动作忽然快了一点", "en": "Its motion quickens slightly."},
+        {"zh": "它缠向你的鞋", "en": "It coils toward your shoe."},
+        {"zh": "它感觉不到害怕", "en": "It seems incapable of fear."},
+        {"zh": "它一点一点绕上来", "en": "It winds upward by degrees."},
+        {"zh": "它已经贴住了你的腿", "en": "It has reached your leg."},
+        {"zh": "它开始一圈圈收紧", "en": "It starts cinching loop by loop."},
+        {"zh": "它的前端顶住你的裤腿", "en": "Its front end presses your trouser leg."},
+        {"zh": "它把整条身子绷直", "en": "It pulls its whole length straight."},
+        {"zh": "它开始朝你的鞋底钻", "en": "It starts working under your sole."},
+        {"zh": "它在你脚边盘成一个环", "en": "It loops into a ring at your feet."},
+        {"zh": "它显得比刚才更有精神", "en": "It seems livelier than before."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙虫缠在你脚踝上", "en": "The worm coils around your ankle."},
+        {"zh": "它一圈一圈往上绕", "en": "It winds higher, loop by loop."},
+        {"zh": "它勒得又紧又死", "en": "It pulls tight and dead."},
+        {"zh": "它贴在你的皮肤上，很凉", "en": "It lies cold against your skin."},
+        {"zh": "它试着再绕一圈", "en": "It tries another loop."},
+        {"zh": "它被你甩动，却不松", "en": "You shake it; it does not let go."},
+        {"zh": "它慢慢往膝盖那边去", "en": "It works slowly toward your knee."},
+        {"zh": "它的身体一起一伏", "en": "Its body pulses."},
+        {"zh": "它像在听你的骨头", "en": "It seems to listen to your bones."},
+        {"zh": "它继续往肉里勒", "en": "It keeps biting into the flesh."},
+        {"zh": "它不在乎被拖在地上", "en": "Being dragged along does not trouble it."},
+        {"zh": "它就是不松开", "en": "It simply will not let go."},
+        {"zh": "它顺着你的鞋带往上爬", "en": "It climbs along your laces."},
+        {"zh": "它绕过你的脚踝两次", "en": "It goes twice around your ankle."},
+        {"zh": "它在你腿上停了一下", "en": "It pauses on your leg."},
+        {"zh": "它好像在找最细的地方", "en": "It seems to seek the narrowest point."},
+        {"zh": "你走一步，它被拖着走", "en": "You step; it gets dragged along."},
+        {"zh": "它从裤脚里露出一点", "en": "A bit of it shows at your trouser hem."},
+        {"zh": "它又慢慢缩回去", "en": "Then it creeps back in."},
+        {"zh": "它的力气小，却很固执", "en": "Its strength is small, its stubbornness isn't."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙虫缠住你的脚踝收力", "en": "The worm cinches your ankle."},
+        {"zh": "它勒得你站不稳", "en": "It squeezes until you stagger."},
+        {"zh": "它用前端顶你一下", "en": "Its front end butts you."},
+        {"zh": "它绕上你的小腿", "en": "It winds up your calf."},
+        {"zh": "它拉了一下，像绳子", "en": "It pulls like a rope."},
+        {"zh": "它在你皮肤上留下一道红", "en": "It leaves a red line on your skin."},
+        {"zh": "它被甩开又绕回来", "en": "Shaken off, it coils back on."},
+        {"zh": "它从鞋面上爬过去", "en": "It crawls over your shoe."},
+        {"zh": "它咬了一下，很小", "en": "It bites, a tiny nip."},
+        {"zh": "它退开一点，又贴上来", "en": "It eases off and presses in again."},
+        {"zh": "它的动作没什么力气", "en": "There is little strength in it."},
+        {"zh": "它只是不肯离开你", "en": "It merely refuses to leave you."},
+        {"zh": "它在你小腿上收紧一圈", "en": "It cinches a loop on your calf."},
+        {"zh": "它用身体拍你的脚背", "en": "It slaps your instep with its body."},
+        {"zh": "它把自己拉成一条直线", "en": "It pulls itself into a straight line."},
+        {"zh": "它顶住你的脚跟", "en": "It braces against your heel."},
+        {"zh": "它被踩到，猛地一抽", "en": "Stepped on, it jerks hard."},
+        {"zh": "它从鞋跟绕到鞋头", "en": "It winds from heel to toe."},
+        {"zh": "它勒出浅浅的印子", "en": "It leaves a shallow band."},
+        {"zh": "它松开一点，又收紧", "en": "It slackens, then tightens again."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "干土里冒出一小段身子", "en": "A short length of body pushes up from the soil."},
+        {"zh": "沙虫从土里钻出来", "en": "The worm comes out of the earth."},
+        {"zh": "它抖掉身上的沙粒", "en": "It shakes the sand off."},
+        {"zh": "它朝有动静的方向挪", "en": "It moves toward the disturbance."},
+        {"zh": "它停在枯草边上", "en": "It stops at the edge of the dry grass."},
+        {"zh": "它的身体颜色和土一样", "en": "Its colour matches the dirt."},
+        {"zh": "它慢慢伸长，探了探", "en": "It stretches out to feel about."},
+        {"zh": "一小道沟留在它身后", "en": "A small furrow stays behind it."},
+        {"zh": "它的动作慢得像在睡觉", "en": "Its movement is slow as sleep."},
+        {"zh": "它开始朝你的方向爬", "en": "It begins crawling your way."},
+        {"zh": "它的头先探出土面", "en": "Its head surfaces first."},
+        {"zh": "随后整条身子才钻出来", "en": "Then the rest of its body follows."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "身体被烫得猛地一缩", "en": "The heat makes it snap inward."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔在地上，它摊成一条", "en": "It lands and sprawls out flat."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "浸了水，它越扭越慢", "en": "In the water its writhing slows."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把它掀出老远", "en": "The blast throws it far."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭把它钉在地里", "en": "An arrow pins it to the dirt."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "怪力过体，它一阵急抽", "en": "Odd force runs through it in sharp jerks."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "瘦成一条线，它几乎不动", "en": "Starved to a thread, it barely moves."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击让它蜷得死紧", "en": "Lightning curls it up hard."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空吸它，它拼命往土里钻", "en": "The void pulls; it drills into the dirt."}
+      ]
+    }
+  }
+}

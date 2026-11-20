@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "逼近猎物", "en": "Closing in"},
+        {"zh": "挥动巨大爪子", "en": "Swinging claws"},
+        {"zh": "月光下的阴影", "en": "Shadow in moonlight"},
+        {"zh": "嘶嘶声中移动", "en": "Moving with hiss"},
+        {"zh": "近战杀戮", "en": "Melee kill"},
+        {"zh": "搜寻目标", "en": "Searching target"},
+        {"zh": "月球表面的掠食者", "en": "Moon’s predator"},
+        {"zh": "缓慢接近", "en": "Creeping closer"},
+        {"zh": "攻击前的低吟", "en": "Pre-attack hiss"},
+        {"zh": "我爪尖刮过月岩。", "en": "My claw tips scrape across moon rock."},
+        {"zh": "我压低身子，逼近三步。", "en": "Crouched low, I close three steps."},
+        {"zh": "我的呼吸沉重，越来越近。", "en": "My heavy breathing draws nearer."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "慵懒摇摆", "en": "Lazily swaying"},
+        {"zh": "月尘落在我肩上，我盯着地平线。", "en": "Moon dust settles on my shoulders as I stare at the horizon."},
+        {"zh": "舔舐锋利爪子", "en": "Licking claws"},
+        {"zh": "夜晚的守护者", "en": "Night’s guardian"},
+        {"zh": "偶尔晃动", "en": "Occasionally swaying"},
+        {"zh": "月辉下的沉思", "en": "Thinking in moonlight"},
+        {"zh": "低姿态站立", "en": "Low stance"},
+        {"zh": "享受月光", "en": "Basking in moonlight"},
+        {"zh": "月砖堆旁，我一动不动。", "en": "By the moon brick pile, I stand perfectly still."},
+        {"zh": "偶尔打个盹", "en": "Occasional doze"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "月球砖下面钻出来的我，正看着你。", "en": "I crawled out from lunar bricks, watching you."},
+        {"zh": "我眯起眼，月光太刺了。", "en": "I squint; the moonlight is too sharp."},
+        {"zh": "追踪玩家", "en": "Tracking player"},
+        {"zh": "注意四周", "en": "Scanning surroundings"},
+        {"zh": "眼神中露凶光", "en": "Evil eyes"},
+        {"zh": "寻找弱点", "en": "Finding weakness"},
+        {"zh": "警惕的目光", "en": "Alert gaze"},
+        {"zh": "锁定行动", "en": "Action locked"},
+        {"zh": "盯紧猎物", "en": "Staring target"},
+        {"zh": "我隔着月尘打量你。", "en": "I size you up through the moon dust."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "身体被撕裂，疼痛难忍。", "en": "My flesh is torn apart, agony!"},
+        {"zh": "鲜血直流，生命垂危。", "en": "Blood flows, my end is near."},
+        {"zh": "伤口深如沟壑，痛不欲生。", "en": "Wounds run deep, unbearable pain."},
+        {"zh": "挣扎中生命流逝，快死了。", "en": "Life drains away in struggle, I'm dying."},
+        {"zh": "伤口处鲜血淋漓，快要挂了。", "en": "Wounds bleed, I'm dying."},
+        {"zh": "伤口剧痛，快不行了。", "en": "Pain from wounds, I'm close."},
+        {"zh": "伤口如刀割，快不行了。", "en": "Wounds like knives, dying."},
+        {"zh": "伤口感染，疼痛难忍。", "en": "Wounds infected, agony."},
+        {"zh": "伤口剧痛，快挂了。", "en": "Pain unbearable, dying."},
+        {"zh": "伤口处鲜血直流，快不行了。", "en": "Bleeding, dying."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，锋利的爪子准备捕猎！", "en": "Sssss, sharp claws ready to hunt!"},
+        {"zh": "月光下闪烁着寒光，扎尔格来了！", "en": "Moonlight glinting, Zarg is here!"},
+        {"zh": "用月光的力量诱惑你！", "en": "Entice you with moonlight power!"},
+        {"zh": "近战攻击，感受我的力量！", "en": "Close combat, feel my power!"},
+        {"zh": "你逃不掉的，扎尔格来了！", "en": "You can't escape, Zarg is here!"},
+        {"zh": "冰冷的月球之息，包围你！", "en": "Chill of the moon, surrounds you!"},
+        {"zh": "我的月光力量让你颤抖！", "en": "Moonlight power makes you tremble!"},
+        {"zh": "月球砖块，我的战利品！", "en": "Moonbricks, my trophy!"},
+        {"zh": "闪烁石，我的宝藏！", "en": "Twinkling stones, my treasure!"},
+        {"zh": "月锭，我的猎物！", "en": "Moon ingots, my prey!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "砰！你撞上了扎尔格！", "en": "Bang! You collided with Zarg!"},
+        {"zh": "坚硬的躯体撞上你！", "en": "Hard body collides with you!"},
+        {"zh": "扎尔格的碰撞，无处可逃！", "en": "Zarg's collision, nowhere to run!"},
+        {"zh": "你被扎尔格撞飞了！", "en": "You're knocked back by Zarg!"},
+        {"zh": "月球的引力拉扯你！", "en": "Moon's gravity pulls you!"},
+        {"zh": "扎尔格的力量，让你动弹不得！", "en": "Zarg's strength, immobilizes you!"},
+        {"zh": "碰撞的力量，让你窒息！", "en": "Collision force, suffocating!"},
+        {"zh": "扎尔格的撞击，无法抵挡！", "en": "Zarg's impact, unblockable!"},
+        {"zh": "你被扎尔格猛烈撞击！", "en": "You're struck by Zarg!"},
+        {"zh": "扎尔格的力量，让你失去平衡！", "en": "Zarg's power, unbalances you!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "寻找我的伴侣，扎尔格！", "en": "Find my mate, Zarg!"},
+        {"zh": "我的伴侣，一起繁衍！", "en": "My mate, for reproduction!"},
+        {"zh": "扎尔格的伴侣，不可或缺！", "en": "Zarg's mate, indispensable!"},
+        {"zh": "求偶的叫声，月球上回荡！", "en": "Mating call, resounds on moon!"},
+        {"zh": "扎尔格的伴侣，月光下的秘密！", "en": "Zarg's mate, moonlit secret!"},
+        {"zh": "月光下的求偶仪式！", "en": "Mating ritual under moonlight!"},
+        {"zh": "月光见证我们的结合！", "en": "Moonlight witnesses our union!"},
+        {"zh": "扎尔格的伴侣，月球之心！", "en": "Zarg's mate, moon's heart!"},
+        {"zh": "我与同伴并肩而立。", "en": "My kin and I stand shoulder to shoulder."},
+        {"zh": "我们在月尘里互相嗅闻。", "en": "We sniff each other in the moon dust."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "拾起月砖碎片", "en": "Picked up lunar brick fragments."},
+        {"zh": "闪烁石光芒微弱", "en": "Phosphor stone glows faintly."},
+        {"zh": "月矿渣堆满口袋", "en": "Moon slag pockets full."},
+        {"zh": "手中握紧月石", "en": "Holding moon stone in hand."},
+        {"zh": "月铁矿闪烁微光", "en": "Moon iron glimmers in hand."},
+        {"zh": "月尘堆积如山", "en": "Moon dust piled high."},
+        {"zh": "闪烁石在手中发光", "en": "Phosphor stone glows in hand."},
+        {"zh": "月砖碎片扎手", "en": "Lunar brick shard scratches."},
+        {"zh": "月铁矿石沉重", "en": "Moon iron is heavy."},
+        {"zh": "月尘遮蔽视线", "en": "Moon dust obscures vision."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发现猎物", "en": "Prey detected."},
+        {"zh": "月光下逼近目标", "en": "Approaching prey in moonlight."},
+        {"zh": "月尘落定，我认准了你的方向。", "en": "The dust settles, and I have your direction."},
+        {"zh": "月面猎物，锁定了。", "en": "Lunar prey — locked."},
+        {"zh": "近战准备攻击", "en": "Melee attack ready."},
+        {"zh": "月光中悄然移动", "en": "Moving silently in moonlight."},
+        {"zh": "目标暴露，攻击", "en": "Target exposed, attack."},
+        {"zh": "猎物进入视野", "en": "Prey in sight."},
+        {"zh": "月影中逼近", "en": "Approaching in moon shadow."},
+        {"zh": "月光引导攻击", "en": "Attacking guided by moonlight."},
+        {"zh": "我的嗅觉锁住你的方向。", "en": "My nose has locked onto your direction."},
+        {"zh": "陨石坑边有了我的动静。", "en": "I stir at the rim of the crater."},
+        {"zh": "这颗卫星上只有你会跑。", "en": "On this moon, only you run."},
+        {"zh": "我踩进了你留下的脚印。", "en": "I step into the prints you left."},
+        {"zh": "我把你算进今日的猎单。", "en": "I add you to today's hunting list."},
+        {"zh": "我低鸣一声，转向你。", "en": "With one low call, I turn to you."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我伏低，爪子扣住月岩的棱。", "en": "I flatten low, claws hooked on the ridge of moon rock."},
+        {"zh": "锁定近战目标", "en": "Target locked."},
+        {"zh": "瞄准攻击位置", "en": "Aiming for the attack."},
+        {"zh": "月光中瞄准", "en": "Aiming in moonlight."},
+        {"zh": "月球砖在我脚下咯咯响。", "en": "Moon bricks grind under my feet."},
+        {"zh": "瞄准猎物弱点", "en": "Attacking prey's weak point."},
+        {"zh": "锁定攻击方位", "en": "Attacking from the side."},
+        {"zh": "我已把它的退路堵在月岩后。", "en": "I have blocked its retreat behind the moon rock."},
+        {"zh": "锁定并攻击", "en": "Locking and attacking."},
+        {"zh": "我绕着陨石坑向你逼近。", "en": "I close in on you around the crater rim."},
+        {"zh": "我把利爪插进月岩蓄力。", "en": "I sink my claws into moon rock to build force."},
+        {"zh": "我把重心压得更低了些。", "en": "I sink my weight a little lower."},
+        {"zh": "月光把我的影子送到你脚边。", "en": "Moonlight carries my shadow to your feet."},
+        {"zh": "我一步一步，缩短距离。", "en": "Step by step, I shorten the distance."},
+        {"zh": "我的爪子犁开一道月尘沟。", "en": "My claws plow a furrow in the dust."},
+        {"zh": "我在等你转身的那一瞬。", "en": "I wait for the instant you turn."},
+        {"zh": "我的低吟越来越短促。", "en": "My low growl grows shorter and shorter."},
+        {"zh": "月亮正升到我的背后。", "en": "The moon climbs right behind me."},
+        {"zh": "我肩胛绷紧，随时前扑。", "en": "My shoulders bunch, ready to spring."},
+        {"zh": "我在数你的脚步声。", "en": "I am counting your footsteps."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，扑向你！", "en": "Sssss, lunging at you!"},
+        {"zh": "挥舞利爪，咬破皮肤！", "en": "Swinging claws, breaking skin!"},
+        {"zh": "月光下的黑影逼近！", "en": "Black shadow closing in under moonlight!"},
+        {"zh": "锋利利爪撕裂空气！", "en": "Sharp claws cutting the air!"},
+        {"zh": "冰冷毒液喷射而出！", "en": "Cold venom spewing out!"},
+        {"zh": "阴影中的獠牙闪烁！", "en": "Fangs gleaming in shadows!"},
+        {"zh": "月光下闪现利爪！", "en": "Claws flash in moonlight!"},
+        {"zh": "冰冷之躯扑向猎物！", "en": "Cold body lunges at prey!"},
+        {"zh": "月辉下的死神降临！", "en": "Death approaches in moonlight!"},
+        {"zh": "挥动镰刀般的利爪！", "en": "Swinging scythe-like claws!"},
+        {"zh": "我的巨爪横扫，月尘四溅！", "en": "My giant claw sweeps, moon dust flying!"},
+        {"zh": "我一头撞向你的胸口！", "en": "I drive my head into your chest!"},
+        {"zh": "我的利爪撕开你的护甲！", "en": "My claws tear your armor open!"},
+        {"zh": "我沉重的躯体整个压向你！", "en": "My whole heavy body bears down on you!"},
+        {"zh": "我的爪子从侧面掏向你的腰！", "en": "My claw hooks in at your flank!"},
+        {"zh": "我把你甩向坚硬的月岩！", "en": "I hurl you against the hard moon rock!"},
+        {"zh": "我一口咬住了你的胳膊！", "en": "My jaws clamp onto your arm!"},
+        {"zh": "我的爪背抽在你的脸上！", "en": "The back of my claw whips across your face!"},
+        {"zh": "我扑上来，把你按进月尘！", "en": "I pounce and press you into the moon dust!"},
+        {"zh": "我两声低吼，一击落下！", "en": "Two growls from me, and the blow lands!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "月球尘土中浮现！", "en": "Emerges from moon dust!"},
+        {"zh": "阴影中无声地出现！", "en": "Silently appears in shadows!"},
+        {"zh": "从陨石坑中跃起！", "en": "Jumps from meteor crater!"},
+        {"zh": "月岩缝隙间显现！", "en": "Appears from moon rock crevices!"},
+        {"zh": "月光下化形而出！", "en": "Shaped in moonlight!"},
+        {"zh": "月球表面裂开现身！", "en": "Emerges from moon surface cracks!"},
+        {"zh": "陨石轰鸣中生成！", "en": "Generated in meteor crash!"},
+        {"zh": "夜幕降临中现身！", "en": "Appears in the night!"},
+        {"zh": "黑暗中悄然浮现！", "en": "Silently appears in darkness!"},
+        {"zh": "月影下凝聚成形！", "en": "Condenses in moon shadows!"},
+        {"zh": "月尘堆里我站了起来。", "en": "I rise out of the dust drift."},
+        {"zh": "陨石落处，我钻了出来。", "en": "Where the meteor fell, I crawl out."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧伤，我受伤了。", "en": "Burned by fire, injured."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "跌落摔伤，我受伤了。", "en": "Fell and hurt."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "溺水受伤，我淹死了。", "en": "Drowned, injured."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸撕裂，我受伤了。", "en": "Explosion, injured."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "子弹贯穿，我受伤了。", "en": "Hit by projectile, injured."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法伤我，我受伤了。", "en": "Struck by magic, injured."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿难耐，我受伤了。", "en": "Starving, injured."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闪电劈伤，我受伤了。", "en": "Lightning hit, injured."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空，我受伤了。", "en": "Void, injured."}
+      ]
+    }
+  }
+}

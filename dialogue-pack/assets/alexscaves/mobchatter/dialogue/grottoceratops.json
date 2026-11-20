@@ -1,0 +1,267 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我四脚踏在洞底", "en": "My four feet press the cavern floor."},
+        {"zh": "我的头盾很重", "en": "My frill is heavy."},
+        {"zh": "我走起来地面在震", "en": "The ground shakes as I walk."},
+        {"zh": "我在洞穴里慢慢走", "en": "I walk slowly through the cave."},
+        {"zh": "我的尾锤拖在后面", "en": "My tail club drags behind."},
+        {"zh": "我绕过那些石笋", "en": "I go around those stalagmites."},
+        {"zh": "我低头嚼着草", "en": "I chew grass with my head down."},
+        {"zh": "我朝洞口的亮处踱过去", "en": "I pace toward the light at the cave mouth"},
+        {"zh": "我一步步踩实，不慌", "en": "I plant each step without hurry"},
+        {"zh": "我的角擦过岩壁", "en": "My horn scrapes the cave wall."},
+        {"zh": "我一脚踩碎了一块石头", "en": "I crushed a stone underfoot."},
+        {"zh": "我沿着地下的水边走", "en": "I follow the underground stream."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我半闭着眼慢慢反刍", "en": "Half-lidded, I chew my cud"},
+        {"zh": "我的头盾挡住了一半视线", "en": "My frill blocks half my view."},
+        {"zh": "我在洞里很安心", "en": "I feel safe in this cave."},
+        {"zh": "白气从我鼻孔里慢慢喷出", "en": "White breath drifts slowly from my nostrils"},
+        {"zh": "我的伤在慢慢好", "en": "My wounds are slowly healing."},
+        {"zh": "我蹭了蹭石柱", "en": "I rub against a stone pillar."},
+        {"zh": "我抬头看洞顶", "en": "I look up at the cavern roof."},
+        {"zh": "我的尾巴偶尔一摆", "en": "My tail swings now and then."},
+        {"zh": "我一点也不怕黑", "en": "The dark does not trouble me at all."},
+        {"zh": "我嚼着一根粗草", "en": "I chew a thick stalk."},
+        {"zh": "我鼻孔里喷出白气", "en": "White breath puffs from my nostrils."},
+        {"zh": "我挪了挪重心", "en": "I shift my weight."},
+        {"zh": "这里没有天敌", "en": "There are no predators here."},
+        {"zh": "我在听水滴的声音", "en": "I listen to dripping water."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你走进我的洞了", "en": "You walked into my cave."},
+        {"zh": "我从草里慢慢抬起眼", "en": "I lift my eyes slowly from the grass"},
+        {"zh": "你比石笋还要矮", "en": "You are shorter than the stalagmites."},
+        {"zh": "别退，这次我只想看看你", "en": "Do not back off; this time I only want a look"},
+        {"zh": "你身上没有敌意", "en": "I sense no hostility on you."},
+        {"zh": "我的头盾很硬", "en": "My frill is hard."},
+        {"zh": "你退开点，我转个身", "en": "Step back; I am turning."},
+        {"zh": "你袖口有洞外的味道", "en": "Your sleeve smells of the outside"},
+        {"zh": "一只眼看你，一只看洞口", "en": "One eye on you, one on the cave mouth"},
+        {"zh": "你的脚别挪地方", "en": "Keep your feet where they are."},
+        {"zh": "我掉转身体朝你", "en": "I swing my body around to you."},
+        {"zh": "你可以摸我的头盾", "en": "You may touch my frill."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低吼从我喉咙里滚出来", "en": "A low growl rolls out of my throat"},
+        {"zh": "我往旁边侧了侧", "en": "I shifted to one side."},
+        {"zh": "这一下打在头盾上", "en": "That hit my frill."},
+        {"zh": "我没有倒下去", "en": "I did not fall."},
+        {"zh": "我的尾锤垂下来", "en": "My tail club drooped."},
+        {"zh": "我掉头用了很久", "en": "Turning took me a long while."},
+        {"zh": "我不喊出声来", "en": "I do not cry out."},
+        {"zh": "你这一下够沉", "en": "That one had weight."},
+        {"zh": "伤口正一点点收口", "en": "The wound is closing up bit by bit"},
+        {"zh": "我记下这一撞", "en": "I note that impact."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这是星树果吗", "en": "Are these star-fruit?"},
+        {"zh": "我喜欢这个味道", "en": "I like that smell."},
+        {"zh": "放在石笋旁边", "en": "Set it by the stalagmite."},
+        {"zh": "我这就踱过去", "en": "I will amble over."},
+        {"zh": "这一口不够塞牙", "en": "One bite is all that is."},
+        {"zh": "我不动别人的东西", "en": "I do not take what is not mine."},
+        {"zh": "你再拿一个过来", "en": "Bring another one over."},
+        {"zh": "我一口一口磨这颗果子", "en": "I grind the berry one bite at a time"},
+        {"zh": "你的手停在那儿", "en": "Stop your hand where it is."},
+        {"zh": "这味道让我心情好", "en": "That scent lifts my mood."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上前腿，自己弹开了", "en": "You hit my foreleg and bounce off"},
+        {"zh": "我连步子都没乱", "en": "My stride did not even break."},
+        {"zh": "你被顶得退了一步", "en": "You were shoved back a step."},
+        {"zh": "我这身子太重了", "en": "This body of mine is very heavy."},
+        {"zh": "我的角没碰坏你吧", "en": "My horn did not hurt you, did it"},
+        {"zh": "我的头盾擦到你", "en": "My frill brushed you."},
+        {"zh": "这一下不算太重", "en": "That was not a heavy blow."},
+        {"zh": "你退开到旁边", "en": "Step aside."},
+        {"zh": "我们都很结实", "en": "We are both sturdy."},
+        {"zh": "下次从石笋那边绕开", "en": "Next time, go around by the stalagmite"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我正吃着东西呢", "en": "I am in the middle of eating."},
+        {"zh": "这事要等季节", "en": "That waits for the season."},
+        {"zh": "我的头盾不是给谁看的", "en": "My frill is not for display."},
+        {"zh": "我一年才想一回这事", "en": "I think about that once a year"},
+        {"zh": "我一个人也挺好", "en": "I do fine alone."},
+        {"zh": "洞里没有同类", "en": "There are no others of my kind here."},
+        {"zh": "我把头慢慢转开", "en": "I turn my head away slowly."},
+        {"zh": "你回你的路上去", "en": "Go back to your road."},
+        {"zh": "我只想低头再嚼两口", "en": "I just want two more mouthfuls of grass"},
+        {"zh": "别过来打断我", "en": "Do not come and interrupt me."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我低头衔起来", "en": "I dip my head and take it."},
+        {"zh": "这东西塞不满我的嘴", "en": "It will not fill my mouth."},
+        {"zh": "它滚到石笋下面了", "en": "It rolled under a stalagmite."},
+        {"zh": "我用鼻子顶不动", "en": "I cannot budge it with my snout."},
+        {"zh": "我用鼻子顶了一下", "en": "I nudged it with my nose."},
+        {"zh": "那东西滚进洞穴的暗渠了", "en": "It rolled into the cave's dark channel"},
+        {"zh": "你伸手更方便", "en": "Your hand reaches it easier."},
+        {"zh": "我的前肢够不到", "en": "My forelimbs cannot reach."},
+        {"zh": "泥巴糊了一层", "en": "It is caked in mud."},
+        {"zh": "我帮你推过来", "en": "I will push it to you."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你碰到那块石头了", "en": "You touched that stone."},
+        {"zh": "我不喜欢有人碰石笋", "en": "I dislike anyone touching the stalagmites."},
+        {"zh": "我朝你转过身", "en": "I turn toward you."},
+        {"zh": "我低头了，是警告", "en": "My head is down; that is a warning."},
+        {"zh": "我一步一顿地过来", "en": "I come on, halting between steps."},
+        {"zh": "现在退，还来得及", "en": "Back off now and it stops here"},
+        {"zh": "我认得你站的地方", "en": "I have your spot marked."},
+        {"zh": "这片洞是我的", "en": "This cave is mine."},
+        {"zh": "我已经跑起来了", "en": "I have started running."},
+        {"zh": "你站得越稳我撞得越狠", "en": "The firmer you stand, the harder I hit"},
+        {"zh": "我这一撞很沉", "en": "My charge is heavy."},
+        {"zh": "你要么走要么挡", "en": "Leave or brace."},
+        {"zh": "我并不常发怒", "en": "I do not often lose my temper."},
+        {"zh": "你运气实在不好", "en": "Your luck is truly bad."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我踏在你踩过的石板上", "en": "I step on the flags you crossed."},
+        {"zh": "你跑到石笋后面了", "en": "You went behind a stalagmite."},
+        {"zh": "我把石笋撞倒了", "en": "I knocked the stalagmite down."},
+        {"zh": "我的脚步声很沉", "en": "My steps are heavy."},
+        {"zh": "你跑不过我这四条腿", "en": "You cannot outrun my four legs."},
+        {"zh": "我转身转得很慢", "en": "I turn around very slowly."},
+        {"zh": "你绕我也跟着绕", "en": "You circle, and I circle too."},
+        {"zh": "我的尾锤扫过地面", "en": "My tail club sweeps the ground."},
+        {"zh": "你听见石头碎了吗", "en": "Do you hear stone breaking?"},
+        {"zh": "这洞里没几条路", "en": "This cave has few paths."},
+        {"zh": "我堵住了那条", "en": "I blocked that one."},
+        {"zh": "你只剩往深处", "en": "The only way is deeper."},
+        {"zh": "我一直低着头", "en": "My head stays lowered."},
+        {"zh": "我还在加快步子", "en": "I am still picking up speed."},
+        {"zh": "你停下，我也停在你面前", "en": "You stop, and I stop right in front of you"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用头盾撞过去", "en": "I ram with my frill."},
+        {"zh": "这一撞带着整个身子", "en": "This charge carries my whole bulk."},
+        {"zh": "你被顶得退后", "en": "You are driven backward."},
+        {"zh": "我的角擦过你", "en": "My horn grazed you."},
+        {"zh": "我把尾巴甩出去", "en": "I swung my tail across."},
+        {"zh": "你被尾锤扫倒", "en": "The tail club swept you down."},
+        {"zh": "你没有护住侧面", "en": "You did not guard your flank."},
+        {"zh": "这一下把你推开了三格", "en": "That pushed you three blocks."},
+        {"zh": "尾锤甩完，我气还没匀", "en": "I have not caught my breath after the tail swing"},
+        {"zh": "我不愿再撞第二下", "en": "I do not want a second charge."},
+        {"zh": "你还站得起来", "en": "You can still stand."},
+        {"zh": "我的头盾有点疼", "en": "My frill aches."},
+        {"zh": "退到石柱后面", "en": "Get behind the pillar."},
+        {"zh": "我低头是最后警告", "en": "My lowered head is the last warning."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从洞穴深处走来", "en": "I come from deep in the cave."},
+        {"zh": "石笋后面有动静", "en": "Something moved behind the stalagmites."},
+        {"zh": "我的脚步先到", "en": "My footsteps arrive first."},
+        {"zh": "这片地下空间很合适我", "en": "This cavern suits me."},
+        {"zh": "我把头盾抬起来", "en": "I lift my frill."},
+        {"zh": "我踩碎了一块石头", "en": "I cracked a stone."},
+        {"zh": "我闻到草的味道", "en": "I smell grass."},
+        {"zh": "我在这洞里长大", "en": "I grew up in this cave."},
+        {"zh": "我慢慢走到光下", "en": "I walk slowly into the light."},
+        {"zh": "我的呼吸喷起尘土", "en": "My breath stirs dust."},
+        {"zh": "我不是来找麻烦的", "en": "I did not come looking for trouble."},
+        {"zh": "你听见脚步才认出我", "en": "You heard my steps before you saw me"},
+        {"zh": "我停在石柱旁", "en": "I halt by a stone pillar."},
+        {"zh": "这里本该只有水声", "en": "Only water should sound here."},
+        {"zh": "我把头盾朝你偏了偏", "en": "I tilt my frill toward you"},
+        {"zh": "我的伤已经好了", "en": "My wounds have healed."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火让我的皮发紧", "en": "Fire tightens my hide."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从石阶上滚下来", "en": "I rolled down the stone steps."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水太深，我踩不到底", "en": "The water is too deep for my feet."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我震得后退", "en": "The blast drove me back."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭打在我的头盾上", "en": "An arrow struck my frill."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "术法压住了我的四腿", "en": "The spell weighs down my four legs."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞里的草不够吃", "en": "There is not enough grass in this cave."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷声在洞里回响很久", "en": "Thunder echoes long in this cave."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里没有一块石头", "en": "There is not a single stone here."}
+      ]
+    }
+  }
+}

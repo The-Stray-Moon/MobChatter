@@ -1,0 +1,256 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我拖着焦黑的腿走过岩地。", "en": "I drag my charred legs across the rock."},
+        {"zh": "我的壳一步一响。", "en": "My shell knocks with every step."},
+        {"zh": "我从熔岩边上慢慢挪过。", "en": "I edge past the lava slowly."},
+        {"zh": "我踩下的地方还在冒烟。", "en": "Smoke rises where I step."},
+        {"zh": "我沿着下界的岩壁走。", "en": "I walk along the Nether's rock wall."},
+        {"zh": "我的骨头在里面蹭着响。", "en": "My bones scrape together inside."},
+        {"zh": "我一步一步往前磨。", "en": "I grind forward step by step."},
+        {"zh": "我朝有热气的地方走。", "en": "I head toward the heat."},
+        {"zh": "我绕过一摊岩浆。", "en": "I go around a pool of magma."},
+        {"zh": "我的影子在地上烧出痕迹。", "en": "My shadow burns a trace on the ground."},
+        {"zh": "我停下来，看着前方。", "en": "I stop and look ahead."},
+        {"zh": "我又踏出一步。", "en": "I take another step."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，壳缝里冒烟。", "en": "I stand as smoke seeps from my shell."},
+        {"zh": "我在等自己烧尽。", "en": "I wait to burn out."},
+        {"zh": "我的关节卡了一下。", "en": "One of my joints sticks."},
+        {"zh": "火光在我脚边跳。", "en": "Firelight jumps at my feet."},
+        {"zh": "下界的余烬还粘着我。", "en": "Nether embers still cling to me."},
+        {"zh": "我一动也不动，像一段炭。", "en": "I stay still as a piece of charcoal."},
+        {"zh": "下界的空气很烫。", "en": "The Nether air is scorching."},
+        {"zh": "我听见远处岩浆的响声。", "en": "I hear lava bubbling far off."},
+        {"zh": "我又吐出一口余焰。", "en": "I breathe out another ember."},
+        {"zh": "我没有痛，也没有急。", "en": "I feel no pain, and no hurry."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你站在我冒烟的这一侧。", "en": "You stand on my smoking side."},
+        {"zh": "我慢慢抬起眼。", "en": "I raise my eyes slowly."},
+        {"zh": "我身上没有可以抓的地方。", "en": "There's nowhere on me to grip."},
+        {"zh": "我的脸只剩一层焦壳。", "en": "Only a charred shell is left of my face."},
+        {"zh": "你退开一点。", "en": "Step back a little."},
+        {"zh": "我的热度会让你难受。", "en": "My heat will trouble you."},
+        {"zh": "我盯住你，很久不动。", "en": "I fix on you and don't move for a long while."},
+        {"zh": "我的焦脸抬起来，正对着你。", "en": "My charred face lifts and points right at you."},
+        {"zh": "我抬起手，又垂下去。", "en": "I raise a hand, then let it fall."},
+        {"zh": "你来了，就站近些。", "en": "Since you've come, stand closer."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一块焦壳掉了下来。", "en": "A piece of charred shell falls off."},
+        {"zh": "这一下打进裂缝里。", "en": "That went into a crack."},
+        {"zh": "我退了半步，烟更浓。", "en": "I step back and smoke thickens."},
+        {"zh": "我几乎不觉得疼。", "en": "I scarcely feel it."},
+        {"zh": "灰从伤口里流出来。", "en": "Ash trickles from the wound."},
+        {"zh": "焦壳碎了一角，灰落了一地。", "en": "A corner of my charred shell breaks off and ashes fall."},
+        {"zh": "我里面的火还没有灭。", "en": "The fire inside me hasn't gone out."},
+        {"zh": "火从我胸口的洞里往外舔。", "en": "Fire licks out from the hole in my chest."},
+        {"zh": "我还能往前走。", "en": "I can still walk on."},
+        {"zh": "我朝你压过去。", "en": "I press toward you."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那东西会被我烤焦。", "en": "That will scorch in my hands."},
+        {"zh": "我闻到的只有烟味。", "en": "All I smell is smoke."},
+        {"zh": "我站在原地没有动。", "en": "I stay where I am."},
+        {"zh": "我的手碰了一下就收。", "en": "I touch it once and pull back."},
+        {"zh": "这点东西对我没用。", "en": "That's no use to me."},
+        {"zh": "你手上会烫伤的。", "en": "Your hands will burn."},
+        {"zh": "我慢慢摇了摇头。", "en": "I shake my head slowly."},
+        {"zh": "我的手指碰一下，它就黑了。", "en": "One touch of my fingers blackens it."},
+        {"zh": "我早已不吃东西。", "en": "I stopped eating long ago."},
+        {"zh": "你留着吧，别靠近我。", "en": "Keep it; don't come near me."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上我，烫得缩手。", "en": "You hit me and snatch your hand back."},
+        {"zh": "我几乎没有被推动。", "en": "I'm barely shifted."},
+        {"zh": "我慢慢让开半步。", "en": "I yield half a step slowly."},
+        {"zh": "我的壳硬得像石头。", "en": "My shell is hard as stone."},
+        {"zh": "你的袖子冒了点烟。", "en": "Your sleeve smokes a little."},
+        {"zh": "我退到岩壁边。", "en": "I retreat to the rock wall."},
+        {"zh": "这点冲撞不算什么。", "en": "That bump was nothing."},
+        {"zh": "我又站回原处。", "en": "I return to my place."},
+        {"zh": "灰从我的壳上落下。", "en": "Ash falls from my shell."},
+        {"zh": "你最好离我远些。", "en": "You'd best keep your distance."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "另一具焦壳从烟里走出。", "en": "Another charred shell steps out of the smoke."},
+        {"zh": "我们的壳碰在一起。", "en": "Our shells knock together."},
+        {"zh": "它的火比我的弱一点。", "en": "Its fire is a little weaker than mine."},
+        {"zh": "我们一起站在岩台上。", "en": "We stand together on the rock ledge."},
+        {"zh": "烟把我们缠在一起。", "en": "Smoke winds around us."},
+        {"zh": "我们不需要言语。", "en": "We need no words."},
+        {"zh": "我们的热度互相烤着。", "en": "Our heat scorches each other."},
+        {"zh": "这一刻火光很亮。", "en": "In this moment the firelight is bright."},
+        {"zh": "余焰会留在石头上。", "en": "Embers will stay on the stone."},
+        {"zh": "我们一起去更深的地方。", "en": "We go deeper together."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我弯腰，把它拿起来。", "en": "I bend and take it up."},
+        {"zh": "余焰烬骨，烫得手心发红。", "en": "Ember bone — hot enough to redden my palm."},
+        {"zh": "骨缝里塞着还没灭的余烬。", "en": "Embers still smolder in my bone gaps."},
+        {"zh": "它很快就被烤黑了。", "en": "It chars quickly."},
+        {"zh": "我看了看，扔进岩浆。", "en": "I look, then throw it into the lava."},
+        {"zh": "这东西带不走。", "en": "This can't be carried off."},
+        {"zh": "我刚碰到就碎了。", "en": "It crumbled the moment I touched it."},
+        {"zh": "我把它压在石头下。", "en": "I press it under a stone."},
+        {"zh": "这点东西，我留着。", "en": "I'll keep this much."},
+        {"zh": "它在我手里化成灰。", "en": "It turns to ash in my hand."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你身上的热气偏了。", "en": "Your heat is off."},
+        {"zh": "我的壳缝里亮起一道橙红的光。", "en": "An orange-red glow lights the cracks in my shell."},
+        {"zh": "我锁定了你的位置。", "en": "I've fixed your position."},
+        {"zh": "这附近只有你是活的。", "en": "You're the only living thing near."},
+        {"zh": "我开始动了。", "en": "I start moving."},
+        {"zh": "我抬起一只焦手。", "en": "I raise a charred hand."},
+        {"zh": "我的壳缝亮了一下。", "en": "My shell seams glow once."},
+        {"zh": "你退到岩壁了。", "en": "You're against the rock wall."},
+        {"zh": "好，就是你。", "en": "Good, you."},
+        {"zh": "我抬起焦黑的手，火从掌心跳。", "en": "I raise my charred hand and fire jumps from the palm."},
+        {"zh": "这一下会烫。", "en": "This will burn."},
+        {"zh": "我踏出一步。", "en": "I take a step."},
+        {"zh": "我不喊，只往前走。", "en": "I don't shout; I only walk."},
+        {"zh": "这条路只有你在。", "en": "You alone are on this path."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我踩过的岩面留下干裂的印。", "en": "The rock I tread leaves dry cracked prints."},
+        {"zh": "你退，我就跟着。", "en": "You retreat; I follow."},
+        {"zh": "我的烟先到了。", "en": "My smoke arrives first."},
+        {"zh": "距离在缩短。", "en": "The distance shrinks."},
+        {"zh": "我把壳压低了一些。", "en": "I lower my shell a little."},
+        {"zh": "岩地上留下了焦痕。", "en": "Char marks trail on the rock."},
+        {"zh": "你被逼到了角落。", "en": "I've backed you into a corner."},
+        {"zh": "我的烟已经先缠住你的腿了。", "en": "My smoke winds around your legs ahead of me."},
+        {"zh": "我的骨头一直在响。", "en": "My bones never stop creaking."},
+        {"zh": "好，够近了。", "en": "Good, close enough."},
+        {"zh": "指骨之间还挂着烧红的筋。", "en": "Red-hot sinew still hangs between my finger bones."},
+        {"zh": "就是这个时候。", "en": "This is the moment."},
+        {"zh": "我动起来了。", "en": "I'm moving."},
+        {"zh": "这一下我不会停。", "en": "I won't stop this time."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一爪挥过去。", "en": "I swing a claw across."},
+        {"zh": "我的手碰到你的护甲，冒烟。", "en": "My hand meets your armor and smokes."},
+        {"zh": "我击倒你，只留下一根烬骨。", "en": "I strike you and leave only a burnt bone."},
+        {"zh": "你被烫得退了。", "en": "The heat drives you back."},
+        {"zh": "我抓住你的肩。", "en": "I grip your shoulder."},
+        {"zh": "灰从我身上洒下来。", "en": "Ash showers off me."},
+        {"zh": "骨头缝里还冒着余焰。", "en": "Embers still smoke between my bones."},
+        {"zh": "地面被我踩出裂口。", "en": "My step cracks the ground."},
+        {"zh": "你还没有倒下。", "en": "You have not fallen yet."},
+        {"zh": "我又抬起手。", "en": "I raise my hand again."},
+        {"zh": "火在我骨头缝里跳。", "en": "Fire leaps between my bones."},
+        {"zh": "这一下很沉。", "en": "That one was heavy."},
+        {"zh": "我退开一步。", "en": "I step back once."},
+        {"zh": "我站在原地不动。", "en": "I stand and don't move."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "余焰烬骨从我背上的裂缝里露出来。", "en": "Ember-lit bones show through the cracks on my back."},
+        {"zh": "烟先聚起来，然后是我。", "en": "Smoke gathers first, then me."},
+        {"zh": "炎壳，站在下界岩上。", "en": "The Flamed Husk, on Nether rock."},
+        {"zh": "我的壳缝里火光一闪。", "en": "Firelight flares in my shell's seams."},
+        {"zh": "我抖落一身的灰。", "en": "I shake off a coat of ash."},
+        {"zh": "我从裂开的岩地走出来。", "en": "I walk out of the cracked rock."},
+        {"zh": "这里很热，正合适。", "en": "It's hot here; just right."},
+        {"zh": "余焰烬骨还插在我身上。", "en": "The ember bone is still stuck in me."},
+        {"zh": "我的脚步声闷闷的。", "en": "My footsteps are muffled."},
+        {"zh": "我停在你前面几步。", "en": "I stop a few steps before you."},
+        {"zh": "余焰还在我身上烧。", "en": "Embers still burn on me."},
+        {"zh": "我的骨头响了起来。", "en": "My bones begin to creak."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火扑上来，我反而更亮了。", "en": "Fire hits me and I burn brighter."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从岩台摔下，壳碎了一半。", "en": "I fall from the ledge and half my shell breaks."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水浇在我身上，我嘶嘶冒气。", "en": "Water hits me and I hiss with steam."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我掀散了一角。", "en": "The blast blows a corner off me."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一枚投射物嵌进我的壳。", "en": "A projectile lodges in my shell."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股力钻进我骨头里，火都暗了。", "en": "The force enters my bones and my fire dims."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我身上已经没有可烧的了。", "en": "There's nothing left in me to burn."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打下来，我的残骸全亮了。", "en": "Lightning strikes and my remains glow."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里没有热，我快要熄了。", "en": "There's no heat here; I'm going out."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出刺耳尖叫，声若钢锯摩擦。", "en": "Screams harshly, like a saw grinding."},
+        {"zh": "身体扭曲，发出低沉的呼啸。", "en": "Body twists, emits low whistles."},
+        {"zh": "蠕动前进，身体发出嘶嘶声。", "en": "Crawls forward, body hisses softly."},
+        {"zh": "挥动触手，发出细小的嘶嘶声。", "en": "Swings tentacles, makes soft hissing noises."},
+        {"zh": "快速移动，发出咯咯声。", "en": "Moves quickly, makes cackling noises."},
+        {"zh": "发出咕噜声，仿佛饱腹后的低吟。", "en": "Grunts contentedly, like a sated beast."},
+        {"zh": "扭动身体，发出咕噜声。", "en": "Twists body, makes grunting noises."},
+        {"zh": "嘶嘶作响，似乎在计算什么。", "en": "Hisses, seemingly counting something."},
+        {"zh": "发出咯咯声，像是在嘲笑玩家。", "en": "Cackles, as if mocking the player."},
+        {"zh": "缓缓爬行，身体发出沙沙声。", "en": "Crawls slowly, body makes rustling sounds"},
+        {"zh": "在岩壁上倒着爬，像在戏弄你。", "en": "I crawl upside down on the cave wall, mocking you."},
+        {"zh": "停一下，再倒退两步，装作迷路。", "en": "I stop, back away two steps, and pretend to be lost."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静注视玩家，眼珠转动。", "en": "Stares at the player, eyes rolling."},
+        {"zh": "静静地站立，眼睛闪烁着绿光。", "en": "Stands quietly, eyes glowing green."},
+        {"zh": "身体微微颤抖，眼睛发亮。", "en": "Body trembles slightly, eyes brighten."},
+        {"zh": "舔唇，目光愈发贪婪。", "en": "Takes a lick, eyes grow hungrier."},
+        {"zh": "身体僵硬，注视远方。", "en": "Body stiffens, stares into the distance."},
+        {"zh": "凝视虚空，眼神空洞。", "en": "Stares into space, eyes vacant."},
+        {"zh": "静静地站立，似乎在思考。", "en": "Stands quietly, seemingly thinking."},
+        {"zh": "发出细微的呼噜声，显得慵懒。", "en": "Makes soft snoring noises, appearing lazy."},
+        {"zh": "身体微微颤动，似乎在回味。", "en": "Body quivers, seems to be reminiscing."},
+        {"zh": "目光在黑暗中闪烁，寻找猎物。", "en": "Eyes flash in the darkness, hunting for prey."},
+        {"zh": "歪着头，模仿你刚才的动作。", "en": "I tilt my head and copy what you just did."},
+        {"zh": "躲在钟乳石后，忍住不出声。", "en": "I hide behind a stalactite, holding my breath."},
+        {"zh": "用爪子在地上画出你的轮廓。", "en": "I scratch your outline into the cave floor."},
+        {"zh": "数着你走过的步子，一言不发。", "en": "I count your footsteps without a word."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "突然盯住玩家，眼珠转动。", "en": "Suddenly stares at the player, eyes rolling."},
+        {"zh": "注意玩家，眼睛闪烁着绿光。", "en": "Notices the player, eyes glowing green."},
+        {"zh": "目光锁定玩家，眼睛瞪大。", "en": "Eyes lock on the player, widening."},
+        {"zh": "盯着玩家，发出咯咯声。", "en": "Stares at the player, cackles."},
+        {"zh": "目光紧锁玩家，发出嘶嘶声。", "en": "Fixes gaze on the player, hisses."},
+        {"zh": "盯着玩家，身体微微颤抖。", "en": "Stares at the player, body trembles."},
+        {"zh": "注视玩家，发出咕噜声。", "en": "Stares at the player, makes grunting noises."},
+        {"zh": "目光转向玩家，发出低吼。", "en": "Eyes turn to the player, growling softly."},
+        {"zh": "盯着玩家，发出细微的嘶嘶声。", "en": "Stares at the player, making a soft hissing sound."},
+        {"zh": "凝视玩家，眼珠转动。", "en": "Stares at the player, eyes rolling."},
+        {"zh": "从石缝里探出半张脸，偷偷看你。", "en": "I poke half my face from a crack and peek at you."},
+        {"zh": "你回头，我就把头缩回去。", "en": "You turn around, and I pull my head back."},
+        {"zh": "站在你身后三步，不出声。", "en": "I stand three steps behind you, silent."},
+        {"zh": "歪着头学你眨眼，学得不像。", "en": "I tilt my head and copy your blink, badly."},
+        {"zh": "盯着你的背影，喉咙里发笑。", "en": "I watch your back and chuckle in my throat."},
+        {"zh": "躲在暗处，等你先眨眼。", "en": "I wait in the dark for you to blink first."},
+        {"zh": "把你的影子当成另一个猎物。", "en": "I take your shadow for another prey."},
+        {"zh": "伸出手，又慢慢收回去。", "en": "I reach out a hand, then slowly pull it back."},
+        {"zh": "在洞口探头，只露出一只眼。", "en": "I peek from the entrance with only one eye."},
+        {"zh": "对上你的目光，故意笑给你看。", "en": "I meet your eyes and grin on purpose."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，你被咬了。", "en": "Sssssss, you've been bitten."},
+        {"zh": "我的触须缠住了你！", "en": "My tentacles got you!"},
+        {"zh": "这伤痛难忍！", "en": "That hurts!"},
+        {"zh": "退开，我的面具裂了。", "en": "Stay back, my mask is cracking."},
+        {"zh": "我笑的时候，伤口也在笑。", "en": "When I laugh, my wound laughs too."},
+        {"zh": "求求你，别伤害我！", "en": "Please, don't hurt me!"},
+        {"zh": "我快支撑不住了。", "en": "I'm nearly done for."},
+        {"zh": "我受够了，让我死吧。", "en": "Enough, let me die."},
+        {"zh": "这一刀，也是剧本里的。", "en": "This cut was in the script too."},
+        {"zh": "我要死了。", "en": "I'm dying."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在做什么？", "en": "What are you doing?"},
+        {"zh": "别动，快点！", "en": "Don't move, hurry!"},
+        {"zh": "你的面包很好吃！", "en": "Your bread is delicious!"},
+        {"zh": "跟紧我，我带你出去！", "en": "Follow me, I'll take you out!"},
+        {"zh": "来吧，我的新朋友！", "en": "Come on, my new friend!"},
+        {"zh": "我有吃的！", "en": "I have food!"},
+        {"zh": "你手里的东西在逗我笑。", "en": "What you hold is making me laugh."},
+        {"zh": "我不会伤害你的！", "en": "I won't hurt you!"},
+        {"zh": "跟我来，我带你回家！", "en": "Follow me, I'll take you home!"},
+        {"zh": "洞穴深处，我一直在等你。", "en": "Deep in the caves, I've been waiting."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "避开车流！", "en": "Watch out for the flow!"},
+        {"zh": "洞穴这么深，你还敢来。", "en": "The cave is deep, and still you came."},
+        {"zh": "你撞碎了我的台词。", "en": "You knocked the lines out of my mouth."},
+        {"zh": "洞顶滴水，你踩了我的道。", "en": "Water drips from the ceiling, and you tread my path."},
+        {"zh": "我需要空间！", "en": "I need space!"},
+        {"zh": "你站错位置了！", "en": "You're in the wrong spot!"},
+        {"zh": "别挡我！", "en": "Don't block me!"},
+        {"zh": "你离我远点", "en": "Stay away from me!"},
+        {"zh": "我必须移动！", "en": "I need to move!"},
+        {"zh": "你踩到我的手，我笑得更响了。", "en": "You stepped on my hand, so I laughed louder."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你看起来不错！", "en": "You look good!"},
+        {"zh": "来吧，我的伴侣！", "en": "Come on, my mate!"},
+        {"zh": "我们交配吧！", "en": "Let's mate!"},
+        {"zh": "你愿意吗？", "en": "You willing?"},
+        {"zh": "你很适合我！", "en": "You're perfect for me!"},
+        {"zh": "让我们一起！", "en": "Let's together!"},
+        {"zh": "留下来陪我演完这出。", "en": "Stay and finish this scene with me."},
+        {"zh": "跟我来！", "en": "Come with me!"},
+        {"zh": "我等你很久了！", "en": "I've waited for you!"},
+        {"zh": "你愿意成为我的吗？", "en": "Will you be mine?"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出微弱的荧光，吸引你靠近。", "en": "Emits faint bioluminescence to draw you in."},
+        {"zh": "低语着诡异的咒语，试图迷惑你。", "en": "Whispers an eerie incantation to confuse you."},
+        {"zh": "散发出腐烂的味道，让你感到恶心。", "en": "Releases a putrid odor, making you feel sick."},
+        {"zh": "靠近你时，身体发出奇异的波动。", "en": "Its body pulses strangely as it approaches you."},
+        {"zh": "从口中吐出模糊不清的低语。", "en": "Mumbles indistinctly from its mouth."},
+        {"zh": "在你附近徘徊，寻找机会。", "en": "Loiters near you, looking for an opportunity."},
+        {"zh": "突然加速，试图抓住你。", "en": "Suddently accelerates, trying to grab you."},
+        {"zh": "发出轻微的咕噜声，似乎在消化食物。", "en": "Makes a low gurgling sound, as if digesting something."},
+        {"zh": "用模糊不清的视线盯着你。", "en": "Stares at you with blurred vision."},
+        {"zh": "尝试用触手触碰你。", "en": "Attempts to touch you with its tentacles."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "注视着你，确定你的位置。", "en": "Fixes its gaze on you to pinpoint your location."},
+        {"zh": "靠近你，开始追踪你的气息。", "en": "Approaches you, starting to track your scent."},
+        {"zh": "感应到你的存在，逐渐逼近。", "en": "Senses your presence, slowly closing in."},
+        {"zh": "发出尖锐的嘶嘶声，锁定你。", "en": "Emit a sharp hiss, locking onto you."},
+        {"zh": "通过声波感知你的位置。", "en": "Locates you via sound waves."},
+        {"zh": "感受到你的心跳，开始行动。", "en": "Detects your heartbeat, starting to move."},
+        {"zh": "用触手试探你所在的位置。", "en": "Uses tentacles to probe your location."},
+        {"zh": "开始悄悄地接近你。", "en": "Starts to approach you stealthily."},
+        {"zh": "观察你的行动，寻找弱点。", "en": "Observes your movements, searching for weaknesses."},
+        {"zh": "确认你的位置后，开始行动。", "en": "Confirms your position, then acts accordingly."},
+        {"zh": "沿着你的脚印，一步步跟上来。", "en": "I follow your footprints, one step at a time."},
+        {"zh": "嗅到你呼出的白气，转向你。", "en": "I smell your warm breath and turn toward you."},
+        {"zh": "在头顶的岩壁上，悄悄跟住你。", "en": "I trail you along the ceiling of the cave."},
+        {"zh": "把你的回声记下来，学给你听。", "en": "I memorize your echo and play it back to you."},
+        {"zh": "从岔路口选了你走的那条。", "en": "At the fork, I took the path you chose."},
+        {"zh": "收起笑声，第一次认真起来。", "en": "I stop laughing and get serious for once."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "凝视你，准备攻击。", "en": "Stares at you, preparing to attack."},
+        {"zh": "瞄准你，准备发起攻击。", "en": "Aims at you, ready to attack."},
+        {"zh": "靠近你，准备发动攻击。", "en": "Approaches you, preparing to attack."},
+        {"zh": "锁定你的位置，准备攻击。", "en": "Locks onto your position, preparing to attack."},
+        {"zh": "确定攻击目标，准备出手。", "en": "Decides on the target, getting ready to attack."},
+        {"zh": "瞄准你，准备咬破你的皮肤。", "en": "Aim at you, ready to break your skin."},
+        {"zh": "靠近你，准备使用触手攻击。", "en": "Approaches you, ready to use its tentacles."},
+        {"zh": "瞄准你，准备使用毒素。", "en": "Aims at you, ready to use its toxins."},
+        {"zh": "确定攻击目标，准备发出致命一击。", "en": "Locks onto the target, preparing the fatal strike."},
+        {"zh": "瞄准你，准备释放致命毒液。", "en": "Aim at you, ready to release the deadly toxin."},
+        {"zh": "把身子压低，学你屏住呼吸。", "en": "I crouch low and hold my breath like you."},
+        {"zh": "从背后靠近，脚步轻得像风。", "en": "I come up behind you, light as wind."},
+        {"zh": "等你转身，我再换个位置。", "en": "When you turn, I move somewhere else."},
+        {"zh": "先吓你一跳，再咬你的脚踝。", "en": "I scare you first, then bite your ankle."},
+        {"zh": "让我在你身后笑到最后一刻。", "en": "Let me laugh behind you until the very end."},
+        {"zh": "你看不见的地方，我在数你的骨头。", "en": "Where you cannot see, I count your bones."},
+        {"zh": "这次不装了，我要你的命。", "en": "No more games. I want your life."},
+        {"zh": "把出口堵上，看你往哪里跑。", "en": "I block the exit and watch where you run."},
+        {"zh": "伸长脖子，嗅你脖子的味道。", "en": "I stretch my neck and sniff at your throat."},
+        {"zh": "我张开四肢，像一张网罩下来。", "en": "I spread my limbs and drop like a net."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，你感到一阵阴冷的气息。", "en": "Sibilant hiss, a chill runs down your spine."},
+        {"zh": "它的身体扭曲，像是某种恶梦的产物。", "en": "Its body twists, a product of nightmares."},
+        {"zh": "你听见它咕噜作响的腹部。", "en": "You hear its growling belly."},
+        {"zh": "它的眼睛闪烁着诡异的光芒。", "en": "Its eyes flicker with an eerie light."},
+        {"zh": "它的爪子如刀锋般锋利。", "en": "Its claws are sharp as blades."},
+        {"zh": "它用触手缠绕你的四肢。", "en": "Its tentacles wrap around your limbs."},
+        {"zh": "你感受到它的气息，如同深渊的低语。", "en": "You sense its presence, a whisper from the depths."},
+        {"zh": "它的声音低沉而嘶哑。", "en": "Its voice is low and raspy."},
+        {"zh": "它突然向你扑来，触手缠绕。", "en": "It lunges at you, tentacles wrapping around you."},
+        {"zh": "它的尖牙在黑暗中闪耀。", "en": "Its fangs gleam in the dark."},
+        {"zh": "咬住你的衣角，把你往深处拖。", "en": "I bite your hem and drag you deeper."},
+        {"zh": "用指甲在你手背上划一道。", "en": "I rake one line across the back of your hand."},
+        {"zh": "从岩壁跳下，砸在你的肩上。", "en": "I leap off the wall and land on your shoulder."},
+        {"zh": "一边笑，一边咬你的小腿。", "en": "I laugh while biting your calf."},
+        {"zh": "我的牙齿一排排地合上。", "en": "My teeth close in row after row."},
+        {"zh": "别跑，我只是想跟你玩。", "en": "Don't run. I only want to play with you."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞穴深处传来一声低吟。", "en": "A low吟 echoes from the depths of the cave."},
+        {"zh": "地底深处，阴影中出现了它的身影。", "en": "Its form appears in the shadows deep beneath."},
+        {"zh": "洞穴中忽现一团扭曲的身影。", "en": "A twisted form appears in the cave."},
+        {"zh": "你听到它轻微的呼吸声。", "en": "You hear its faint breathing."},
+        {"zh": "它悄悄地从洞穴角落中现身。", "en": "It emerges from the corner of the cave quietly."},
+        {"zh": "洞穴中传来一阵奇怪的声响。", "en": "Strange sounds emanate from the cave."},
+        {"zh": "阴影中忽现一双闪亮的眼睛。", "en": "A pair of glowing eyes appear in the shadows."},
+        {"zh": "洞穴深处，它的轮廓逐渐显现。", "en": "Its outline gradually appears from the depths of the cave."},
+        {"zh": "它在洞穴中缓缓移动。", "en": "It moves slowly in the cave."},
+        {"zh": "地底深处传来一阵低语声。", "en": "A low murmur comes from deep underground."},
+        {"zh": "你在第几天才挖到我这里？", "en": "How many days did it take you to dig down to me?"},
+        {"zh": "你的火把一晃，我就醒了。", "en": "Your torch flickered, and I woke up."},
+        {"zh": "我在地底等了很久很久。", "en": "I waited underground for a very long time."},
+        {"zh": "洞穴更深处，有东西在笑。", "en": "Deeper in the cave, something is laughing."},
+        {"zh": "你脚下的岩层忽然空了一块。", "en": "A patch of rock beneath you suddenly goes hollow."},
+        {"zh": "黑暗里多了一张脸。", "en": "There is one more face in the dark."},
+        {"zh": "我不在前几天出现，现在来了。", "en": "I don't show up in the first days. Now I'm here."},
+        {"zh": "越往下走，我越长出新的关节。", "en": "The deeper you go, the more joints I grow."},
+        {"zh": "石头缝里，我先伸出三根手指。", "en": "Three fingers come out of the crack first."},
+        {"zh": "你把光带来，也把我叫醒了。", "en": "You brought the light and woke me with it."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰吞噬了我的皮肤！", "en": "Flames sear my flesh!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "岩石砸碎了我的身体！", "en": "Rocks crush my body!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水浸透了我的触须！", "en": "Water soaks my tentacles!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸撕裂了我的外壳！", "en": "Explosion rips my shell!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "飞弹击穿了我的身体！", "en": "Missile pierces my body!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法之力灼烧我！", "en": "Magical force burns me!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的力量在消散！", "en": "My strength fades!"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷电击中了我的心脏！", "en": "Lightning strikes my heart!"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞穴把我一口吞了。", "en": "The cave swallowed me whole."}
+      ]
+    }
+  }
+}

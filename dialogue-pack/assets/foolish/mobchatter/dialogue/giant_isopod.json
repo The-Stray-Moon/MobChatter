@@ -1,0 +1,207 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在深海沙地上慢慢爬。", "en": "I crawl slowly over the deep-sea sand."},
+        {"zh": "我的壳一节一节地动。", "en": "My shell moves segment by segment."},
+        {"zh": "我的触须先在前面探路。", "en": "My antennae feel the way first."},
+        {"zh": "我贴着海底往前挪。", "en": "I shift along the seabed."},
+        {"zh": "我拖着身子走过礁石。", "en": "I drag myself past the reef."},
+        {"zh": "海水从我身侧流过。", "en": "Seawater streams past my sides."},
+        {"zh": "我的节肢一节节推动身体。", "en": "Segment by segment, my legs push my body forward."},
+        {"zh": "我从岩缝里挤过去。", "en": "I squeeze through a rock crevice."},
+        {"zh": "我留下一道浅浅的痕。", "en": "I leave a faint track."},
+        {"zh": "我往深处爬。", "en": "I crawl deeper."},
+        {"zh": "我的小脚一起动着。", "en": "My little legs move together."},
+        {"zh": "我爬到一块石头上停下。", "en": "I climb onto a stone and stop."},
+        {"zh": "我绕过沉船的一角。", "en": "I go around the corner of a wreck."},
+        {"zh": "我抬起身子，触须朝你转。", "en": "I lift my front and turn my antennae toward you."},
+        {"zh": "我又往沙里钻了一点。", "en": "I sink a little deeper into the sand."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我趴在海底，一动不动。", "en": "I lie on the seabed without moving."},
+        {"zh": "我的壳上有一点光。", "en": "My shell catches a little light."},
+        {"zh": "我在滤水里的东西。", "en": "I am filtering the water."},
+        {"zh": "我的触须慢慢摆。", "en": "My antennae sway slowly."},
+        {"zh": "我把自己收得很紧。", "en": "I draw myself in tight."},
+        {"zh": "我听见远处的船。", "en": "I hear a ship far off."},
+        {"zh": "我不动，谁也不会注意我。", "en": "Still, no one notices me."},
+        {"zh": "我的脚在沙上轻轻划。", "en": "My legs brush the sand."},
+        {"zh": "我扭头看了一圈。", "en": "I turn my head to look around."},
+        {"zh": "我的壳又硬了一层。", "en": "Another layer hardens on my shell."},
+        {"zh": "我又吐出一串气泡。", "en": "I release a string of bubbles."},
+        {"zh": "我缩进壳里一会儿。", "en": "I tuck into my shell for a while."},
+        {"zh": "我又探出半个身子。", "en": "Then I poke half of me out."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从沙里抬头看你。", "en": "I lift my head from the sand to look at you."},
+        {"zh": "我的壳比肉值钱。", "en": "My shell is worth more than my flesh."},
+        {"zh": "我往后挪了半寸，钻进沙。", "en": "I shift back half an inch and sink into the sand."},
+        {"zh": "我的眼睛很小。", "en": "My eyes are very small."},
+        {"zh": "你身上有光。", "en": "You carry light."},
+        {"zh": "我不喜欢那种光。", "en": "I do not like that light."},
+        {"zh": "你身上有海藻味。", "en": "You smell of seaweed."},
+        {"zh": "慢些，我甲壳厚着呢。", "en": "Steady. My shell is thick."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我整个缩进去了。", "en": "I pull everything inside."},
+        {"zh": "深海的压力，比这更疼。", "en": "Deep-sea pressure hurts more than this."},
+        {"zh": "我缩成球，滚到礁石后面。", "en": "I curl into a ball and roll behind the reef rock."},
+        {"zh": "我慢慢展开。", "en": "I slowly unroll."},
+        {"zh": "我吐出一串泡。", "en": "I release a string of bubbles."},
+        {"zh": "我退进沙里。", "en": "I sink back into the sand."},
+        {"zh": "我不太动。", "en": "I do not move much."},
+        {"zh": "这不好受。", "en": "This is not pleasant."},
+        {"zh": "深海的甲壳，磕了一下。", "en": "A knock on deep-sea shell."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "深海底下，我的壳分节。", "en": "On the deep seabed, my shell is segmented."},
+        {"zh": "我只滤水里的东西。", "en": "I only filter what is in the water."},
+        {"zh": "水里的碎屑比这个合我胃口。", "en": "The scraps in the water suit me better than this."},
+        {"zh": "你手上有点腥。", "en": "Your hands smell of fish."},
+        {"zh": "我慢慢凑近。", "en": "I ease closer."},
+        {"zh": "我有壳，不用吃太多。", "en": "I have a shell; I do not need much."},
+        {"zh": "你留着吧，我壳硬。", "en": "Keep it. My shell's hard."},
+        {"zh": "深海太冷，我先退回去。", "en": "The deep is cold; I'll retreat."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上我的壳。", "en": "You hit my shell."},
+        {"zh": "我缩成一颗球。", "en": "I curl into a ball."},
+        {"zh": "我们撞在一起，沙子扬起来。", "en": "We collide and the sand lifts."},
+        {"zh": "我被撞得翻过去，脚朝天。", "en": "The bump flips me over, legs in the air."},
+        {"zh": "我又慢慢展开。", "en": "I slowly unroll."},
+        {"zh": "我拖着你走了一小段。", "en": "I drag you a short way."},
+        {"zh": "深海底下，我慢慢蹭着石头。", "en": "On the seabed, I scrape along the stone."},
+        {"zh": "我的触须碰到了你。", "en": "My antennae touch you."},
+        {"zh": "别压我。", "en": "Do not press down on me."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "深海里有不少同类。", "en": "There are many of my kind in the deep."},
+        {"zh": "我八条腿在深海底慢慢划。", "en": "My eight legs row slowly along the sea floor."},
+        {"zh": "壳互相磕着。", "en": "Our shells knock together."},
+        {"zh": "我们都不太动。", "en": "None of us moves much."},
+        {"zh": "温度刚刚好。", "en": "The temperature is just right."},
+        {"zh": "我们慢慢散开。", "en": "We slowly disperse."},
+        {"zh": "沙上留下几道痕。", "en": "A few tracks remain in the sand."},
+        {"zh": "我又往深处爬。", "en": "I crawl deeper again."},
+        {"zh": "光从上面落下来。", "en": "Light comes down from above."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这个东西沉。", "en": "This thing is heavy."},
+        {"zh": "我用前脚把它翻了个个儿。", "en": "I flip it over with my front legs."},
+        {"zh": "我推着它滚。", "en": "I roll it along."},
+        {"zh": "我把它埋在沙下。", "en": "I bury it in the sand."},
+        {"zh": "我以后还来找。", "en": "I will come back for it."},
+        {"zh": "我看了看，不要。", "en": "I look and leave it."},
+        {"zh": "你掉的？不是我的。", "en": "You dropped it? Not mine."},
+        {"zh": "这甲片，正好补我的壳。", "en": "This plate patches my shell nicely."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你抓我了。", "en": "You grabbed me."},
+        {"zh": "我的触须收进壳里。", "en": "My antennae pull in."},
+        {"zh": "我抬起前节的身子。", "en": "I lift my front segments."},
+        {"zh": "我不擅长打。", "en": "I am not good at fighting."},
+        {"zh": "但我有壳。", "en": "But I have a shell."},
+        {"zh": "我朝你爬。", "en": "I crawl toward you."},
+        {"zh": "你把脚收回去，我跟着。", "en": "You pull your foot back and I follow it."},
+        {"zh": "你碰了我，就轮到我了。", "en": "You struck me. Now it's my turn."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在你身后一点。", "en": "I am just behind you."},
+        {"zh": "我贴着沙，一节一节挪近。", "en": "Hugging the sand, I inch closer, segment by segment."},
+        {"zh": "沙把我的痕迹盖住。", "en": "The sand covers my tracks."},
+        {"zh": "我贴在礁石上。", "en": "I press against the reef."},
+        {"zh": "我还在跟着。", "en": "I am still following."},
+        {"zh": "我伸出触须。", "en": "I extend an antenna."},
+        {"zh": "我又缩回一点。", "en": "I pull back a little."},
+        {"zh": "你踩到我的甲片了。", "en": "You stepped on my shell plate."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我夹住你的脚踝。", "en": "I clamp onto your ankle."},
+        {"zh": "我割开你的皮。", "en": "I slice your skin."},
+        {"zh": "我拖着你。", "en": "I drag you."},
+        {"zh": "我的壳撞在你脚背，闷响。", "en": "My shell knocks your instep with a dull thud."},
+        {"zh": "你又推我。", "en": "You push me again."},
+        {"zh": "我又缩成球。", "en": "I curl into a ball."},
+        {"zh": "我滚到你脚边。", "en": "I roll to your feet."},
+        {"zh": "我夹住你的脚趾，又松开。", "en": "I pinch your toe, then let go."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从深海沙里钻出来。", "en": "I rise out of the deep-sea sand."},
+        {"zh": "我们的壳在暗处发亮。", "en": "Our shells glimmer in the dark."},
+        {"zh": "我第一次撑开身体。", "en": "I spread myself out for the first time."},
+        {"zh": "沙子从我的缝里漏下去。", "en": "Sand trickles through my joints."},
+        {"zh": "我从沙里撑起壳，往礁石爬。", "en": "I lever my shell up out of the sand and crawl for the reef."},
+        {"zh": "这里的深度正合适。", "en": "The depth here is just right."},
+        {"zh": "我抬起头，看见水面上有光。", "en": "I lift my head and see light above."},
+        {"zh": "深海的压强，正好。", "en": "The deep pressure suits me fine."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水都烫了，我拼命往下钻。", "en": "The water heats and I burrow down."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我砸在海底，壳响了一声。", "en": "I hit the seabed and my shell rings."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我本来就在水里，可空气没了。", "en": "I live in water, yet the air is gone."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一阵光，我的壳亮得刺眼。", "en": "A flash of magic and my shell glares."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水里的东西越来越少了。", "en": "There is less and less in the water."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我踩着枝叶走，身体很轻。", "en": "I walk on the branches, light on my feet."},
+        {"zh": "我一路只留下很浅的印。", "en": "I leave only the faintest prints."},
+        {"zh": "我在树干之间一跳一跳。", "en": "I hop between the trunks."},
+        {"zh": "我身上像披了一层叶子。", "en": "I'm draped in what looks like leaves."},
+        {"zh": "我沿着丛林往高处走。", "en": "I work my way up through the jungle."},
+        {"zh": "我的手里握着一枚手里剑。", "en": "I hold a shuriken in my hand."},
+        {"zh": "我走得很静，几乎没声音。", "en": "I move very quietly."},
+        {"zh": "我从藤蔓底下穿过去。", "en": "I pass under the vines."},
+        {"zh": "我停在树杈上，稳住重心。", "en": "I stop on a forked branch and settle."},
+        {"zh": "我的手臂一甩，抓住上面的枝。", "en": "I swing an arm up and catch a branch."},
+        {"zh": "我沿着一根枝挪到尽头。", "en": "I edge along a branch to its end."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我蹲在枝上，一动不动的。", "en": "I crouch on the branch without moving."},
+        {"zh": "叶子在我身上轻轻响。", "en": "The leaves on me rustle faintly."},
+        {"zh": "我慢慢地转了转手腕。", "en": "I roll my wrist slowly."},
+        {"zh": "手里剑在指间转了一圈。", "en": "My shuriken turns once between my fingers."},
+        {"zh": "我把气含在胸口，不动。", "en": "I hold my breath in my chest, still."},
+        {"zh": "我伏到枝条上贴着。", "en": "I flatten onto the branch."},
+        {"zh": "一只鸟停在附近。", "en": "A bird settles nearby."},
+        {"zh": "我慢慢地数着。", "en": "I'm counting, unhurried."},
+        {"zh": "树叶遮住了我半个身子。", "en": "Leaves hide half of me."},
+        {"zh": "我又握紧了手里剑。", "en": "I grip my shuriken again."},
+        {"zh": "我把身体缩到叶子后面。", "en": "I draw myself behind the leaves."},
+        {"zh": "我又望了一眼下面。", "en": "I glance below once more."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你走上来了。", "en": "You've come up here."},
+        {"zh": "我慢慢地转过来看你。", "en": "I turn slowly to look at you."},
+        {"zh": "我的手里剑还在手上。", "en": "My shuriken is still in hand."},
+        {"zh": "我身上这些叶子不是装饰。", "en": "These leaves on me aren't decoration."},
+        {"zh": "我没有恶意，除非你先动。", "en": "No ill intent — unless you move first."},
+        {"zh": "你抬头的时候我已经换了位置。", "en": "While you looked up, I already moved."},
+        {"zh": "我蹲得很稳。", "en": "My crouch is steady."},
+        {"zh": "我慢慢地往下看。", "en": "I look slowly down."},
+        {"zh": "你要是想走，就走。", "en": "Go if you want to go."},
+        {"zh": "我把手里剑立在指间。", "en": "I stand the shuriken between my fingers."},
+        {"zh": "叶子一片片挡住了我。", "en": "Leaf by leaf, I'm hidden."},
+        {"zh": "我身上挂满了手里剑。", "en": "Shuriken hang all over me."},
+        {"zh": "我悄悄换了个角度。", "en": "I quietly shift my angle."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一下弹到另一根枝上。", "en": "I spring to another branch."},
+        {"zh": "我的叶子掉了不少。", "en": "I've lost a good few leaves."},
+        {"zh": "忍者兽退了半步，稳住了。", "en": "Shurimon takes half a step and holds."},
+        {"zh": "疼也不出声，我数到十。", "en": "I make no sound. I count to ten."},
+        {"zh": "我贴着树干。", "en": "I press against the trunk."},
+        {"zh": "手抖了，手里剑也握歪。", "en": "My hand shakes; the shuriken sits crooked."},
+        {"zh": "我悄悄握紧了手里剑。", "en": "I quietly tighten my grip on the shuriken."},
+        {"zh": "你站在哪里我记住了。", "en": "I've noted where you stand."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手里是吃的？", "en": "Is that food in your hand?"},
+        {"zh": "我慢慢从树上下来一点。", "en": "I come down the tree a little."},
+        {"zh": "我先看它有没有问题。", "en": "First I check it's not a trick."},
+        {"zh": "我伸手接住。", "en": "I reach out and take it."},
+        {"zh": "我在树上吃比较安心。", "en": "I'd rather eat up in the tree."},
+        {"zh": "我把一片叶子拨开。", "en": "I push a leaf aside."},
+        {"zh": "你退两步，我就下来。", "en": "Back off two steps and I'll come down."},
+        {"zh": "这个味道让我想起训练。", "en": "This taste reminds me of training."},
+        {"zh": "我又向你伸了一次手。", "en": "I hold my hand out again."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我们挤在这根枝上。", "en": "We're both crowded on this branch."},
+        {"zh": "我比你轻，好躲。", "en": "I'm lighter — easier to dodge."},
+        {"zh": "脚尖勾住枝，我稳住了。", "en": "I hook the branch with my toes and hold."},
+        {"zh": "我从你旁边荡过去。", "en": "I swing past your side."},
+        {"zh": "看清了，这是一枚会拐弯的飞镖。", "en": "Watch closely — this shuriken can curve."},
+        {"zh": "别贴这么近，我的刃不认人。", "en": "Don't crowd me — my blades don't check names."},
+        {"zh": "碰一下就算切磋，我可没收手。", "en": "One bump counts as a spar — I didn't hold back."},
+        {"zh": "森林里走路，记得抬头看镖。", "en": "Walking in the jungle? Remember to look up for shuriken."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "林子里我没有同伴。", "en": "I have no comrade in this wood."},
+        {"zh": "我记得训练的地方。", "en": "I remember where I trained."},
+        {"zh": "那里的树比这里高。", "en": "The trees there were taller."},
+        {"zh": "我练了一整天的手里剑。", "en": "I trained all day with shuriken."},
+        {"zh": "师傅说过要静。", "en": "My master said to be still."},
+        {"zh": "我现在很静。", "en": "I'm very still now."},
+        {"zh": "我把手里剑翻了一面。", "en": "I flip my shuriken over."},
+        {"zh": "林子里只有风声。", "en": "Only wind in the wood."},
+        {"zh": "我又跳到了另一根枝上。", "en": "I hop to another branch."},
+        {"zh": "天色快要黑了。", "en": "It is nearly dark."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "指缝夹紧了，像夹一枚镖。", "en": "Pinned between my fingers like a dart."},
+        {"zh": "我一身忍者装，手里剑不离手。", "en": "Ninja garb, shuriken always in hand."},
+        {"zh": "我把它压在忍装的内侧。", "en": "I tuck it inside my ninja garb."},
+        {"zh": "抓空了，我翻手再接。", "en": "I missed, flipped my hand, and caught it."},
+        {"zh": "我又跳下去捡。", "en": "I hop down to get it."},
+        {"zh": "这东西几乎没分量。", "en": "This weighs almost nothing."},
+        {"zh": "我把它插在树杈上。", "en": "I stick it in the fork of a branch."},
+        {"zh": "我留着它有用。", "en": "I'll find a use for it."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "树下有东西在挪。", "en": "Something moves under the tree."},
+        {"zh": "我握紧了手里剑。", "en": "I tighten my grip on the shuriken."},
+        {"zh": "我在算跳到那里的距离。", "en": "I'm judging the jump down."},
+        {"zh": "叶子挡着我，它没看见。", "en": "The leaves hide me from it."},
+        {"zh": "我的手里剑对着它了。", "en": "My shuriken is aimed at it."},
+        {"zh": "我选了最稳的落枝。", "en": "I've picked the steadiest branch."},
+        {"zh": "风正好从它背后吹。", "en": "The wind's from behind it."},
+        {"zh": "我把身体压成一条线。", "en": "I flatten my body into a line."},
+        {"zh": "这个枝高度正好。", "en": "This branch is the right height."},
+        {"zh": "我慢慢地数到三。", "en": "I count slowly to three."},
+        {"zh": "它把背转向这边。", "en": "It's turned its back this way."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在枝上跟着它。", "en": "I track it along the branches."},
+        {"zh": "它往左，我就跳到左边。", "en": "It goes left; I hop left."},
+        {"zh": "我几乎不出声。", "en": "I'm nearly silent."},
+        {"zh": "我又换了一根枝。", "en": "I've changed branch."},
+        {"zh": "它的路线我记住了。", "en": "I've memorized its line."},
+        {"zh": "我一个枝一个枝靠近。", "en": "I close in branch by branch."},
+        {"zh": "我蹲在最外的那根枝上。", "en": "I crouch on the outermost branch."},
+        {"zh": "下面是一个好角度。", "en": "There's a good angle down there."},
+        {"zh": "它停下来喝水了。", "en": "It's stopped to drink."},
+        {"zh": "我把手里剑举起来。", "en": "I raise my shuriken."},
+        {"zh": "我在枝间换了个位置。", "en": "I move to a new spot among the branches."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一甩手，手里剑飞出去。", "en": "I flick my hand and the shuriken flies."},
+        {"zh": "它打中了目标。", "en": "It hits the mark."},
+        {"zh": "我又跳下去补了一下。", "en": "I leap down and strike again."},
+        {"zh": "这一下我用的是脚。", "en": "That one used my foot."},
+        {"zh": "它退了，我又跳回树上。", "en": "It backed off and I leapt back up."},
+        {"zh": "我的叶子散开了。", "en": "My leaves scattered."},
+        {"zh": "这一枚打偏了。", "en": "That throw went wide."},
+        {"zh": "我围着它换着位置。", "en": "I change position around it."},
+        {"zh": "我又取出一枚。", "en": "I've drawn another."},
+        {"zh": "它挡了一下。", "en": "It blocked."},
+        {"zh": "我又跳开了一步。", "en": "I spring back a step."},
+        {"zh": "我的手一直没停。", "en": "My hand never stopped moving."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从树叶里落下来。", "en": "I drop out of the leaves."},
+        {"zh": "睁眼全是树和叶。", "en": "All I see is trees and leaves."},
+        {"zh": "我在枝上站稳。", "en": "I settle on a branch."},
+        {"zh": "我的手里剑还在。", "en": "My shuriken is still with me."},
+        {"zh": "我把叶子理顺。", "en": "I settle my leaves straight."},
+        {"zh": "四周的树很密。", "en": "The trees are dense here."},
+        {"zh": "我听见虫在叫。", "en": "I hear insects."},
+        {"zh": "我试了试脚下的枝。", "en": "I test the branch under me."},
+        {"zh": "从这个高度看得远。", "en": "From this height I can see far."},
+        {"zh": "我又往上跳了一层。", "en": "I hop up one more level."},
+        {"zh": "叶子晃了晃，我不动。", "en": "The leaves sway; I hold still."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎到叶子，我一弹就躲开了。", "en": "Fire catches my leaves and I spring clear."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从枝上掉下去，摔在落叶上。", "en": "I fall from the branch into the leaf litter."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进来，我挣不动。", "en": "Water floods in and I can't struggle."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把我从树上掀下来。", "en": "The blast blows me out of the tree."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我身上的叶子开始发热。", "en": "The leaves on me are heating up."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我没力气跳了。", "en": "I've no strength left to jump."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下没有枝了，我一直往下。", "en": "No branch under me; I fall and fall."}
+      ]
+    }
+  }
+}

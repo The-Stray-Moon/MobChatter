@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出低沉的嚎叫，脚步沉重地移动。", "en": "Growls lowly, moves heavily."},
+        {"zh": "嚎叫着冲向附近的敌人。", "en": "Growls and charges at nearby enemies."},
+        {"zh": "嗅探地面，寻找猎物。", "en": "Sniffs the ground, searching for prey."},
+        {"zh": "摇动头部，试图保持清醒。", "en": "Shakes head to stay alert."},
+        {"zh": "用嘴叼起一块骨头，咀嚼着。", "en": "Bites into a bone, chewing."},
+        {"zh": "瞪大眼睛，警惕地观察四周。", "en": "Stares intently, eyes wide."},
+        {"zh": "低吼着追逐目标。", "en": "Growls, chasing the target."},
+        {"zh": "发现玩家后发出尖锐的咆哮。", "en": "Releases a sharp roar upon spotting the player."},
+        {"zh": "舔了舔嘴唇，分泌着口水。", "en": "Licks lips, drooling."},
+        {"zh": "摇摇晃晃地朝玩家走去。", "en": "Tries to stagger towards the player."},
+        {"zh": "拖着一条腿，蹭着石壁走。", "en": "I drag a leg along the stone wall."},
+        {"zh": "尾巴垂着，扫过碎石。", "en": "My tail hangs and scrapes the gravel."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坐在地上，盯着空洞的眼珠。", "en": "Sits on the ground, staring with empty eyes."},
+        {"zh": "四处游荡，寻找可攻击目标。", "en": "Wanders, searching for targets."},
+        {"zh": "咬着自己的爪子，显得不安。", "en": "Bites its own paw, looking uneasy."},
+        {"zh": "发出嘶嘶声，似乎在思考。", "en": "Hisses, seemingly thinking."},
+        {"zh": "摇摇晃晃地站立，试图站立稳。", "en": "Tries to stand steadily, wobbles."},
+        {"zh": "用爪子在地上挖着，寻找食物。", "en": "Scratches the ground, searching for food."},
+        {"zh": "用牙齿咬着空气，发出低吼。", "en": "Snarls, biting at the air."},
+        {"zh": "啃咬身边的树根，发出沉重的咀嚼声。", "en": "Chews on a tree root, making heavy chewing noises."},
+        {"zh": "自言自语般地低吼着。", "en": "Growls to itself."},
+        {"zh": "坐在原地，显得有些迷茫。", "en": "Sits, looking somewhat dazed."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "注意到玩家，发出尖锐的嚎叫。", "en": "Notices the player, releasing a sharp roar."},
+        {"zh": "盯紧玩家，准备好攻击。", "en": "Fixes on the player, ready to attack."},
+        {"zh": "张开嘴，露出尖牙，向玩家靠近。", "en": "Opens mouth, showing sharp teeth, advancing."},
+        {"zh": "低吼着，准备扑向玩家。", "en": "Growls, preparing to pounce on the player."},
+        {"zh": "向玩家发出警告的低吼。", "en": "Issues a warning growl towards the player."},
+        {"zh": "张大嘴，露出锋利的牙齿。", "en": "Lobs open mouth, revealing sharp teeth."},
+        {"zh": "用爪子在地上敲打，警告玩家。", "en": "Bangs claws on the ground, warning the player."},
+        {"zh": "盯着玩家，眼睛里闪烁着凶光。", "en": "Stares at the player, eyes gleaming with hostility."},
+        {"zh": "突然发起攻击，向玩家扑去。", "en": "Suddenly attacks, lunging at the player."},
+        {"zh": "低吼着，准备用爪子攻击玩家。", "en": "Growls, preparing to attack the player with its claws."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "呜呜，我好疼。", "en": "Aww, it hurts."},
+        {"zh": "我的腿受伤了。", "en": "My leg is hurt."},
+        {"zh": "我需要休息。", "en": "I need rest."},
+        {"zh": "我受伤了，找金苹果吧。", "en": "I’m injured, get the golden apple."},
+        {"zh": "我的爪子受伤了。", "en": "My claws are hurt."},
+        {"zh": "我的骨头碎了。", "en": "My bones are broken."},
+        {"zh": "我受了重伤。", "en": "I’m severely injured."},
+        {"zh": "金苹果救救我。", "en": "Golden apple, save me."},
+        {"zh": "好疼，好疼。", "en": "Ow, ow."},
+        {"zh": "金苹果…谁有金苹果…", "en": "A golden apple... does anyone have one..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "听到肉声，它开始流口水。", "en": "Hearing flesh, it starts drooling."},
+        {"zh": "你身上有我的猎物？", "en": "You have my prey?"},
+        {"zh": "我饥渴难耐，要吃东西了。", "en": "I'm starving, time to eat."},
+        {"zh": "看那里，猎物正走过。", "en": "Prey over there."},
+        {"zh": "别跑，我来了！", "en": "Don't run, I'm coming!"},
+        {"zh": "金苹果能救活我？", "en": "Can an apple save me?"},
+        {"zh": "那块肉看起来不错。", "en": "That meat looks good."},
+        {"zh": "你闻起来像刚宰的肉。", "en": "You smell like fresh meat."},
+        {"zh": "我要去寻找更多猎物。", "en": "I'm going to find more prey."},
+        {"zh": "金苹果能让我变回原来的模样吗？", "en": "Can an apple change me back?"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你挡住了我的路。", "en": "You're blocking my way."},
+        {"zh": "我要撞倒你。", "en": "I'm going to knock you down."},
+        {"zh": "你的身体太硬了。", "en": "Your body is too hard."},
+        {"zh": "你撞得我头疼。", "en": "You hit me hard."},
+        {"zh": "我要把你除掉。", "en": "I'm going to get rid of you."},
+        {"zh": "你挡了我的去路。", "en": "You're in my way."},
+        {"zh": "你撞得太重了。", "en": "You hit too hard."},
+        {"zh": "我要把你撞开。", "en": "I'm going to push you away."},
+        {"zh": "你挡了我的视线。", "en": "You're blocking my view."},
+        {"zh": "你的力量很强。", "en": "You're very strong."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找个伴侣，继续种族。", "en": "Find a mate, continue the race."},
+        {"zh": "我们一起去繁衍后代。", "en": "Let's go and breed."},
+        {"zh": "谁愿意陪我看守巢穴？", "en": "Who will guard the burrow beside me?"},
+        {"zh": "我们要开始新生命。", "en": "We should start a new life."},
+        {"zh": "我的基因需要传承。", "en": "My genes need to be passed on."},
+        {"zh": "找个伴侣，共同生存。", "en": "Find a mate, survive together."},
+        {"zh": "一起繁衍后代。", "en": "Breed together."},
+        {"zh": "我的后代将继承我。", "en": "My offspring will inherit me."},
+        {"zh": "我们需要更多的同类。", "en": "We need more of our kind."},
+        {"zh": "让我们一起延续生命。", "en": "Let's continue our life together."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闻到金苹果的香味！", "en": "Smell the Golden Apple!"},
+        {"zh": "金苹果！治愈我的！", "en": "Golden Apple! Cure me!"},
+        {"zh": "我的牙齿在发痒！", "en": "My teeth itch!"},
+        {"zh": "金苹果！快给我！", "en": "Golden Apple! Give me!"},
+        {"zh": "主人，我饿了！", "en": "Master, I’m hungry!"},
+        {"zh": "找到食物，我活了！", "en": "Found food, I’m alive!"},
+        {"zh": "弱小的生物，给我食物！", "en": "Little creature, give me food!"},
+        {"zh": "这金苹果真好吃！", "en": "This Golden Apple is delicious!"},
+        {"zh": "我需要金苹果！", "en": "I need a Golden Apple!"},
+        {"zh": "食物，快点给我！", "en": "Food, give me now!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "绿皮肤也认得猎物。", "en": "Green skin still knows prey."},
+        {"zh": "獠牙还挂在嘴边呢。", "en": "My fangs are still hanging by my lip."},
+        {"zh": "我闻到了狗头人洞穴的锈味。", "en": "I smell rust from a kobold burrow."},
+        {"zh": "猎物，你逃不掉！", "en": "Prey, you can’t escape!"},
+        {"zh": "咬你一口，别让我再躺下。", "en": "One bite, before I fall again."},
+        {"zh": "腐肉的味道就是你了。", "en": "That smell of rot is you."},
+        {"zh": "快逃，不然被吃了！", "en": "Run, or you’ll be eaten!"},
+        {"zh": "猎物的味道不错！", "en": "The prey tastes good!"},
+        {"zh": "抓住你！", "en": "Got you!"},
+        {"zh": "我要享受这一刻！", "en": "I’m enjoying this!"},
+        {"zh": "鼻子抽动，闻到了活物。", "en": "My nose twitches; I smell the living."},
+        {"zh": "巢穴的通道里有脚步。", "en": "Footsteps in the burrow tunnel."},
+        {"zh": "我从矿道拐角探出头。", "en": "I poke my head around the mine corner."},
+        {"zh": "紫水晶的微光照着猎物。", "en": "Amethyst glow lights up my prey."},
+        {"zh": "喉咙里挤出半声狗吠。", "en": "Half a bark rasps out of my throat."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "金苹果能把我变回狗头人。", "en": "A golden apple turns me back into a kobold."},
+        {"zh": "猎物在颤抖！", "en": "The prey is trembling!"},
+        {"zh": "我要吃了你的心脏！", "en": "I’m going to eat your heart!"},
+        {"zh": "猎物即将成为我的！", "en": "The prey is mine!"},
+        {"zh": "我连金苹果的甜都忘了。", "en": "I forgot even the sweetness of a golden apple."},
+        {"zh": "猎物，你没机会！", "en": "Prey, no chance!"},
+        {"zh": "我以前也在地下挖矿。", "en": "I used to dig down here too."},
+        {"zh": "猎物在尖叫！", "en": "The prey is screaming!"},
+        {"zh": "烂掉的手抓向你的脚踝。", "en": "A rotting hand claws at your ankle."},
+        {"zh": "我来了，猎物！", "en": "Here I come, prey!"},
+        {"zh": "我弓起背，爪子刨地。", "en": "I arch my back and rake the dirt."},
+        {"zh": "牙关咬紧，口水滴落。", "en": "Jaws clenched, drool dripping."},
+        {"zh": "眼睛浑浊，却盯得很准。", "en": "Cloudy eyes, but locked on."},
+        {"zh": "一步一停，逼过来。", "en": "Step, pause, step, closing in."},
+        {"zh": "喉咙里滚着低吼。", "en": "A growl rolls in my throat."},
+        {"zh": "我贴墙绕到你侧面。", "en": "I hug the wall and come at your flank."},
+        {"zh": "爪子抬起来又放下。", "en": "My claw lifts, then drops."},
+        {"zh": "你退到矿道尽头了。", "en": "You've backed to the tunnel's end."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爪子挠你！", "en": "Scratch you!"},
+        {"zh": "呜呜咽咽。", "en": "Gulp, gulp."},
+        {"zh": "饿狼扑食！", "en": "Wolf attack!"},
+        {"zh": "啃骨头！", "en": "Eat bones!"},
+        {"zh": "嗷！你肉好！", "en": "Ahhh! You taste good!"},
+        {"zh": "狂吠攻击！", "en": "Bark attack!"},
+        {"zh": "咬断你的喉咙！", "en": "Choke you!"},
+        {"zh": "咕噜咕噜。", "en": "Rip, rip."},
+        {"zh": "一口咬住你的靴子！", "en": "I bite down on your boot!"},
+        {"zh": "爪子挠向你的膝盖！", "en": "My claws rake your knee!"},
+        {"zh": "用头撞你的肚子！", "en": "I butt my head into your gut!"},
+        {"zh": "牙齿磕在护腕上！", "en": "My teeth clack on your bracer!"},
+        {"zh": "我扑上来抱住你的腿！", "en": "I leap and clamp onto your leg!"},
+        {"zh": "尾巴扫你的脚踝！", "en": "My tail sweeps your ankle!"},
+        {"zh": "咬住不放，左右甩头！", "en": "I bite and shake my head side to side!"},
+        {"zh": "低吼着把你往后推！", "en": "Growling, I shove you backward!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我要来了。", "en": "Here I come."},
+        {"zh": "我从土里爬出来找吃的。", "en": "I claw out of the dirt looking for food."},
+        {"zh": "闻到了肉味。", "en": "Smell meat."},
+        {"zh": "来了，来了。", "en": "Coming, coming."},
+        {"zh": "寂静之夜。", "en": "Quiet night."},
+        {"zh": "黑夜是我的家。", "en": "Night is my home."},
+        {"zh": "饿了，我要吃。", "en": "Hungry, I need to eat."},
+        {"zh": "我要杀了你！", "en": "I'll kill you!"},
+        {"zh": "被僵尸咬过的狗头人站起。", "en": "A kobold bitten by a zombie rises."},
+        {"zh": "我睁眼时眼睛已浑浊。", "en": "My eyes are clouded when they open."},
+        {"zh": "矿道深处传来一声哀嚎。", "en": "A wail echoes deep in the mine."},
+        {"zh": "金苹果的光也照不醒我。", "en": "Even golden apple light won't wake me."},
+        {"zh": "我从尸体堆里爬出来。", "en": "I crawl out of the pile of bodies."},
+        {"zh": "巢穴里少了一个同伴。", "en": "The burrow is one companion short."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧伤我！", "en": "Fire burns me!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔下来时撞掉一颗牙。", "en": "I knocked a tooth loose when I fell."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我溺水了。", "en": "I drowned."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸伤害了我。", "en": "Explosion hurt me."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "狗头人的血也变成绿色了。", "en": "Even a kobold's blood turns green now."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咒文烫穿了我的肋骨。", "en": "The spell burned through my ribs."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我饿得奄奄一息。", "en": "I’m starving."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "焦味从我的头骨冒出来。", "en": "A burnt smell rises from my skull."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空剥夺了我的生命。", "en": "Void took my life."}
+      ]
+    }
+  }
+}

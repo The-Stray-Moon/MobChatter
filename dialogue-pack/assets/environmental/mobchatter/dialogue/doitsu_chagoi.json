@@ -1,0 +1,282 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "在水中缓缓游动，发出微弱的咕噜声。", "en": "Moves slowly, making a faint gurgle."},
+        {"zh": "用红色和棕色的鳞片，优雅地游过。", "en": "Swims gracefully with red and brown scales."},
+        {"zh": "咬住水中的叶子，享受着美味。", "en": "Bites a leaf, enjoying the taste."},
+        {"zh": "在石缝间穿梭，寻找食物。", "en": "Darts between rocks, searching for food."},
+        {"zh": "在水草中隐匿，等待猎物。", "en": "Hides in the water plants, waiting for prey."},
+        {"zh": "突然一跃，吞下小鱼。", "en": "Jumps suddenly, swallowing a small fish."},
+        {"zh": "游到岸边，用尾鳍划水。", "en": "Swims to the shore, using the tail fin."},
+        {"zh": "在水中留下一串串泡泡。", "en": "Leaves a trail of bubbles in the water."},
+        {"zh": "用嘴巴轻触玩家。", "en": "Gently touches the player with its mouth."},
+        {"zh": "逆流而上，寻找新的水域。", "en": "Swims upstream, looking for new waters."},
+        {"zh": "茶褐色的背脊划开水面。", "en": "A tea-brown back parts the water."},
+        {"zh": "顺着花瓣漂来的方向游。", "en": "I swim the way the petals drifted."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静静地游动，观察四周。", "en": "Swims quietly, observing the surroundings."},
+        {"zh": "缓缓摆动尾鳍，似乎在思考。", "en": "Gently摆动 tail fin, seems to be thinking."},
+        {"zh": "我贴着水面，让阳光晒暖鳞。", "en": "I hug the surface and let the sun warm my scales."},
+        {"zh": "用鳞片轻触水面，发出细响。", "en": "Taps the surface with scales, making a soft sound."},
+        {"zh": "在水中静止不动，显得很悠闲。", "en": "Stays still in the water, looking relaxed."},
+        {"zh": "偶尔用嘴轻啄水草。", "en": "Occasionally pecks at water plants with its mouth."},
+        {"zh": "在水中慢慢打转。", "en": "Swims in circles in the water."},
+        {"zh": "用眼睛观察周围的环境。", "en": "Observes the surroundings with its eyes."},
+        {"zh": "静静地躺在石头上，沐浴阳光。", "en": "Lays quietly on a stone, basking in the sun."},
+        {"zh": "慢慢地移动，观察猎物。", "en": "Moves slowly, observing prey."},
+        {"zh": "在花影里悬停不动。", "en": "I hover still in the shadow of the blossoms."},
+        {"zh": "鳞片映着落水的花瓣。", "en": "My scales mirror the fallen petals."},
+        {"zh": "慢慢转圈，守着这片水面。", "en": "I circle slowly, keeping to this patch of water."},
+        {"zh": "贴着水底的石子歇一会儿。", "en": "I rest a while against the pebbles below."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "突然看向玩家，发出警告。", "en": "Suddenly looks at the player, giving a warning."},
+        {"zh": "迅速游向玩家，准备攻击。", "en": "Rushes towards the player, ready to attack."},
+        {"zh": "用警惕的眼神盯着玩家。", "en": "Stares at the player with alert eyes."},
+        {"zh": "游到玩家附近，用嘴触碰玩家。", "en": "Swims close to the player, touching with its mouth."},
+        {"zh": "发出警惕的叫声，警告玩家。", "en": "Emits a warning call, alerting the player."},
+        {"zh": "用尾鳍轻轻拍打水面。", "en": "Gently taps the surface with the tail fin."},
+        {"zh": "快速游动，试图吓退玩家。", "en": "Swims quickly, trying to scare the player away."},
+        {"zh": "靠近玩家，用嘴轻咬。", "en": "Approaches the player, gently biting with its mouth."},
+        {"zh": "向玩家发出嘶嘶声。", "en": "Hisses at the player."},
+        {"zh": "用嘴触碰玩家，似乎在询问。", "en": "Touches the player with its mouth, as if inquiring."},
+        {"zh": "从水里抬头看你一眼。", "en": "I lift my head from the water to look at you."},
+        {"zh": "听到岸边的动静就转过来。", "en": "I turn at the sound from the bank."},
+        {"zh": "你在池边蹲下，我游近了。", "en": "You crouch at the pond, so I swim closer."},
+        {"zh": "花瓣落水，我以为是吃的。", "en": "A petal falls; I took it for food."},
+        {"zh": "盯着你手里的东西看。", "en": "I keep my eye on what you hold."},
+        {"zh": "绕到你脚边的浅水里。", "en": "I drift into the shallows by your feet."},
+        {"zh": "水面下有一道茶色影子。", "en": "A tea-colored shadow passes under the surface."},
+        {"zh": "我不怕人，只是有点好奇。", "en": "I am not afraid of people, only curious."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "身体受伤，行动迟缓。", "en": "Injured, moves slowly."},
+        {"zh": "鳞片被咬伤，疼痛难忍。", "en": "Scale bitten, hurts a lot."},
+        {"zh": "鱼鳍受伤，游泳困难。", "en": "Fins injured, hard to swim."},
+        {"zh": "体表破了，疼痛难忍。", "en": "Cut, hurts a lot."},
+        {"zh": "尾巴断了，无法游动。", "en": "Tail broken, can't swim."},
+        {"zh": "伤口流血，疼痛难忍。", "en": "Bleeding, hurts a lot."},
+        {"zh": "身上有伤，行动缓慢。", "en": "Injured, slow movement."},
+        {"zh": "鱼鳞被撕裂，疼痛难忍。", "en": "Scale torn, hurts a lot."},
+        {"zh": "鳞片被咬掉，行动缓慢。", "en": "Scale bitten off, slow movement."},
+        {"zh": "受伤严重，游不动了。", "en": "Severely injured, can't swim."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我闻到了鱼饵的香味！", "en": "Smell the bait!"},
+        {"zh": "我要享受这场盛宴！", "en": "Time for a feast!"},
+        {"zh": "小心，我的牙齿锋利！", "en": "Sharp teeth, watch out!"},
+        {"zh": "这饵料看起来不错。", "en": "Nice bait."},
+        {"zh": "我可是吃货一条！", "en": "Just a hungry fish."},
+        {"zh": "享受这一刻，你很快就会消失。", "en": "Enjoy this moment, you won't last long."},
+        {"zh": "鱼饵，我的目标！", "en": "Bait, my target!"},
+        {"zh": "别想逃，我会吃掉你。", "en": "You can't escape, I'll eat you!"},
+        {"zh": "你来吧，我等着你。", "en": "Come on, I'm waiting."},
+        {"zh": "鱼饵就在眼前，别错过。", "en": "Bait in front of you, don't miss it."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "躲开，否则你会受伤！", "en": "Move or get hurt!"},
+        {"zh": "别碰我，这是我的领地！", "en": "Don't touch me!"},
+        {"zh": "你撞上我了，现在怎么走？", "en": "Hit me, now what?"},
+        {"zh": "撞上我，你会后悔的！", "en": "You'll regret this!"},
+        {"zh": "小心，我的身体很硬！", "en": "Be careful, hard body!"},
+        {"zh": "别撞我，这池子里的怪都被我赶走。", "en": "Don't bump me; I keep monsters out of this pond."},
+        {"zh": "别碰我，我不会客气的！", "en": "Don't touch me, I won't be polite!"},
+        {"zh": "你没长眼？这是花影下的池子。", "en": "Eyes elsewhere? This pond lies under the blossoms."},
+        {"zh": "撞上我，你会吃苦头！", "en": "Hit me, you'll suffer!"},
+        {"zh": "别碰我，小心被弹开！", "en": "Don't touch me, I'll push you away!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我要找个伴了！", "en": "Time to mate!"},
+        {"zh": "花瓣落水时，我们该成对了。", "en": "When petals fall on the water, we should pair."},
+        {"zh": "找到合适的，我们就繁殖！", "en": "Find a suitable one, we breed!"},
+        {"zh": "我们需要找个地方交配！", "en": "We need a place to mate!"},
+        {"zh": "交配成功，我们的后代会更强！", "en": "Successful mating, our offspring will be strong!"},
+        {"zh": "找个伴侣，开始新的生命！", "en": "Find a partner, start a new life!"},
+        {"zh": "一起交配，传递基因！", "en": "Mate together, pass on genes!"},
+        {"zh": "找个合适的伴侣，开始交配！", "en": "Find a suitable partner, mate!"},
+        {"zh": "繁殖后代，延续种族！", "en": "Breed, continue the species!"},
+        {"zh": "找个伴侣，开始繁衍后代！", "en": "Find a partner, start breeding offspring!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "银鳞闪烁，猎物入目。", "en": "Silvery scales gleam, prey in sight."},
+        {"zh": "寻找猎物，水面微动。", "en": "Seeking prey, ripples on the surface."},
+        {"zh": "感知猎物，张开大口。", "en": "Perceiving prey, open wide."},
+        {"zh": "鱼群中穿行，追逐猎物。", "en": "Swim through the school, chase prey."},
+        {"zh": "深水之中，等待时机。", "en": "Deep waters, wait for the right moment."},
+        {"zh": "猎物游过，迅速出击。", "en": "Prey swims by, strike quickly."},
+        {"zh": "静待猎物，耐心十足。", "en": "Patiently wait for the prey to come."},
+        {"zh": "猎物靠近，张口捕食。", "en": "Prey near, open mouth to feed."},
+        {"zh": "水面之下，追逐欢畅。", "en": "Joyful chase beneath the surface."},
+        {"zh": "捕食猎物，享受美食。", "en": "Feast on prey, savor the meal."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发现目标，悄然逼近。", "en": "Target spotted, closing in silently."},
+        {"zh": "猎物显露，迅速锁定。", "en": "Target revealed, locking on."},
+        {"zh": "目标在侧，静待时机。", "en": "Target beside, waiting for the moment."},
+        {"zh": "锁定猎物，伺机而动。", "en": "Target locked, waiting for the right time."},
+        {"zh": "猎物显露，静待捕食。", "en": "Target in sight, waiting to strike."},
+        {"zh": "目标锁定，准备捕食。", "en": "Target acquired, ready to feed."},
+        {"zh": "锁定目标，静待良机。", "en": "Target secured, waiting for the best moment."},
+        {"zh": "猎物在侧，静待机会。", "en": "Target nearby, waiting for the right moment."},
+        {"zh": "花木林的水里，有虫在动。", "en": "Something stirs in the Blossom Woods water."},
+        {"zh": "猎物显形，伺机捕食。", "en": "Target visible, waiting to strike."},
+        {"zh": "这片水里没有怪物敢来。", "en": "No monster dares come into this water."},
+        {"zh": "我守着的十六格很干净。", "en": "The sixteen paces I keep are clean."},
+        {"zh": "有东西落水了，我去看看。", "en": "Something fell in; I will go see."},
+        {"zh": "水纹动了，我游过去。", "en": "The ripples moved, so I swim over."},
+        {"zh": "谁在我的池子里扑腾？", "en": "Who is thrashing in my pond?"},
+        {"zh": "这一圈水面由我巡着。", "en": "I patrol this ring of water."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定目标，近在咫尺。", "en": "Targeting, close by."},
+        {"zh": "目标逼近，捕食在即。", "en": "Target approaching, feeding soon."},
+        {"zh": "锁定目标，静待良机", "en": "Targeting, waiting for the right moment"},
+        {"zh": "锁定目标，准备捕食。", "en": "Target locked, ready to feed."},
+        {"zh": "目标锁定，捕食在即。", "en": "Target acquired, feeding soon."},
+        {"zh": "目标在侧，静待时机", "en": "Target beside, waiting for the moment"},
+        {"zh": "锁定目标，静待捕食。", "en": "Targeting, waiting to feed."},
+        {"zh": "目标显露，准备捕食。", "en": "Target revealed, ready to feed."},
+        {"zh": "锁定目标，捕食在即。", "en": "Target locked, feeding soon."},
+        {"zh": "目标靠近，准备捕食。", "en": "Target approaching, ready to feed."},
+        {"zh": "先绕一圈，看清楚再说。", "en": "One circle first, to be sure."},
+        {"zh": "我贴过去，用嘴碰一碰。", "en": "I press close and nudge it with my mouth."},
+        {"zh": "尾鳍一摆，正对目标。", "en": "One flick of the tail and I face it."},
+        {"zh": "水里的事我最清楚。", "en": "Nothing in the water escapes me."},
+        {"zh": "它就在水草后面。", "en": "It is right behind the water weeds."},
+        {"zh": "我慢慢逼近那点动静。", "en": "I ease toward that small disturbance."},
+        {"zh": "别急，先看清它的样子。", "en": "Easy now, let me see what it is."},
+        {"zh": "水底的石缝里有影子。", "en": "A shadow moves in the crevice below."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，你想吃鱼肉吗？", "en": "Sss, want some fish meat?"},
+        {"zh": "用你的肉来填饱我的空腹吧。", "en": "Fill my empty belly with your flesh."},
+        {"zh": "啊，鲜美的鱼肉！", "en": "Yum, fresh fish meat!"},
+        {"zh": "来吧，尝尝我的利齿。", "en": "Come, feel my sharp teeth."},
+        {"zh": "你逃不掉的，我的猎物。", "en": "You can't escape, my prey."},
+        {"zh": "我的牙齿锋利如刀。", "en": "My teeth are sharp as knives."},
+        {"zh": "吃下我的毒液，倒下吧！", "en": "Swallow my venom and fall!"},
+        {"zh": "美味的鱼，快点！", "en": "Delicious fish, hurry!"},
+        {"zh": "我一拧身，滑鳞擦过你的膝。", "en": "I twist, and my slick scales graze your knee."},
+        {"zh": "吞下我，你就会消失。", "en": "Swallow me and vanish."},
+        {"zh": "张嘴一吸，水花四溅！", "en": "I gulp, and water sprays everywhere!"},
+        {"zh": "尾鳍拍在水面上！", "en": "My tail slaps the surface!"},
+        {"zh": "用嘴顶开挡路的东西！", "en": "I shove the obstacle aside with my mouth!"},
+        {"zh": "身子一拧撞了过去！", "en": "I twist and ram into it!"},
+        {"zh": "咬着不放，往水下拖！", "en": "I bite down and drag it under!"},
+        {"zh": "扑腾起一片水声！", "en": "A splash of thrashing water!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，又一个猎物。", "en": "Sss, another prey."},
+        {"zh": "寂静森林中的一员。", "en": "A part of the Silent Forest."},
+        {"zh": "我要在这片水域中觅食。", "en": "I'll hunt in these waters."},
+        {"zh": "我将守护这片水域。", "en": "I'll protect this water."},
+        {"zh": "我的鳞片闪着光泽。", "en": "My scales shine."},
+        {"zh": "这里很适合我生存。", "en": "Perfect for me to survive here."},
+        {"zh": "等待那些愚蠢的猎物。", "en": "Wait for foolish prey."},
+        {"zh": "寂静森林中的守护者。", "en": "Guardian of the Silent Forest."},
+        {"zh": "我的存在阻止怪物。", "en": "I prevent monster spawn."},
+        {"zh": "寂静森林中的凶兆。", "en": "Omen of the Silent Forest."},
+        {"zh": "樱花落在水面，我在这里。", "en": "Blossoms fall on the water; here I am."},
+        {"zh": "茶色的影子从水底浮起。", "en": "A tea-colored shadow rises from the bottom."},
+        {"zh": "这片水塘多了一条锦鲤。", "en": "This pond has one more koi."},
+        {"zh": "花瓣漂来，我跟着来了。", "en": "The petals drifted in, and I followed."},
+        {"zh": "水底的石缝里游出一条。", "en": "One slips out of a crack in the streambed."},
+        {"zh": "我从花影下的浅水出来。", "en": "I come out of the shallows under the blossoms."},
+        {"zh": "池水一晃，我现身了。", "en": "The pool shivers, and I appear."},
+        {"zh": "这条溪里本就有我。", "en": "I was always in this stream."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧伤鳞片。", "en": "Burned by flames."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从瀑口摔下，鳞片磕在石上。", "en": "I tumble from the falls, scales knocking stone."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被水淹没，呼吸困难。", "en": "Drowned, can't breathe."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我这身茶色鳞，被水波掀翻了。", "en": "My tea-colored scales flipped in the blast wave."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被箭射中，受伤了。", "en": "Hit by an arrow."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被魔法攻击，受伤了。", "en": "Hit by magic."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "肚子饿得发慌。", "en": "Starving, very hungry."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷电击中了。", "en": "Hit by lightning."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空，疼痛难忍。", "en": "Fell into void, hurts a lot."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把尾巴抬着走。", "en": "I walk with my tail held high."},
+        {"zh": "我的六条腿踩在烫沙上。", "en": "My legs step on the hot sand."},
+        {"zh": "我绕过一丛干枯的草。", "en": "I go round a clump of dry grass."},
+        {"zh": "我的钳子垂在身前。", "en": "My pincers hang in front of me."},
+        {"zh": "我沿着沙丘的阴影走。", "en": "I walk in the dune's shadow."},
+        {"zh": "我一步一探，很谨慎。", "en": "I test each step, careful."},
+        {"zh": "我朝你那边横着挪。", "en": "I sidle in your direction."},
+        {"zh": "沙从我的背甲上滑下去。", "en": "Sand slides off my back plates."},
+        {"zh": "我的尾巴尖对着前面。", "en": "My tail points ahead."},
+        {"zh": "我慢慢爬过一块石头。", "en": "I crawl slowly over a stone."},
+        {"zh": "沙漠的沙，我踩得比谁都实。", "en": "On desert sand my steps land solid."},
+        {"zh": "我从沙里钻出来一半。", "en": "I come half out of the sand."},
+        {"zh": "我把身后的沙痕拖得很长。", "en": "My trail drags long behind me."},
+        {"zh": "我朝有阴影的地方走。", "en": "I head for the shade."},
+        {"zh": "我转了半圈，对着你。", "en": "I turn half a circle to face you."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我伏在沙里，只有尾巴在动。", "en": "I lie in the sand; only my tail moves."},
+        {"zh": "太阳把我的背甲晒得很烫。", "en": "The sun bakes my back plates."},
+        {"zh": "我等着东西自己走近。", "en": "I wait for something to come near."},
+        {"zh": "沙上有一道细小的动静。", "en": "There's a small movement in the sand."},
+        {"zh": "我的尾巴一下一下地晃。", "en": "My tail sways in slow arcs."},
+        {"zh": "我不需要喝水。", "en": "I don't need water."},
+        {"zh": "我把钳子梳了梳口器。", "en": "I clean my mouthparts with a pincer."},
+        {"zh": "风把沙粒吹进我的甲缝。", "en": "The wind blows grit into my seams."},
+        {"zh": "我伏在沙里，跟石头一样。", "en": "I lie in the sand as still as stone."},
+        {"zh": "沙下的暗处，我的眼在亮。", "en": "In the dark under the sand, my eyes glow."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踩到我旁边的沙了。", "en": "You stepped on the sand beside me."},
+        {"zh": "我把尾巴抬得更高。", "en": "I raise my tail higher."},
+        {"zh": "我在看你有没有伸手。", "en": "I'm watching whether you reach out."},
+        {"zh": "我慢慢地横着退。", "en": "I sidle slowly away."},
+        {"zh": "你要是踩我，我就蜇。", "en": "Step on me and I'll sting."},
+        {"zh": "沙地上，我的影子几乎没形。", "en": "On the sand, my shadow has almost no shape."},
+        {"zh": "你身上有很多水。", "en": "There's a lot of water in you."},
+        {"zh": "我在等你走开一些。", "en": "I'm waiting for you to move off a bit."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "背甲裂开，渗出黏液。", "en": "My back plate splits, oozing slime."},
+        {"zh": "我缩成一团，尾巴还举着。", "en": "I curl up, tail still raised."},
+        {"zh": "我一条腿被踩断了。", "en": "One of my legs is crushed."},
+        {"zh": "我慢慢地又伸开。", "en": "I slowly open out again."},
+        {"zh": "我又把它抬起来。", "en": "I raise it again."},
+        {"zh": "这样我还爬得动。", "en": "I can still crawl like this."},
+        {"zh": "壳裂了，还能夹。", "en": "Shell's cracked. I can still pinch."},
+        {"zh": "沙漠会替我记着。", "en": "The desert will remember for me."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那东西闻着像铁，不吃。", "en": "That smells of iron — I won't eat it."},
+        {"zh": "我举着钳子看了一会儿。", "en": "I hold my pincers up and watch a while."},
+        {"zh": "钳子一拨，它滚开了。", "en": "One nudge of a pincer and it rolls off."},
+        {"zh": "这点东西引不动我。", "en": "That won't draw me out."},
+        {"zh": "它被太阳晒干了。", "en": "The sun has dried it out."},
+        {"zh": "我横着挪开了半步。", "en": "I sidle half a step away."},
+        {"zh": "我把头扭开，不感兴趣。", "en": "I turn my head away, uninterested."},
+        {"zh": "我只想要你走远些。", "en": "I only want you further off."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的钳子撞在你腿上。", "en": "My pincer knocks your leg."},
+        {"zh": "我侧过身，尾巴还抬着。", "en": "I turn aside, tail still up."},
+        {"zh": "我六条腿乱抓，翻回来。", "en": "Six legs scrabble and I right myself."},
+        {"zh": "沙扬起来一片。", "en": "A sheet of sand rises."},
+        {"zh": "我贴着沙面退开。", "en": "I retreat flat along the sand."},
+        {"zh": "我并没有蜇你。", "en": "I didn't sting you."},
+        {"zh": "我又把尾巴竖起来。", "en": "I raise my tail again."},
+        {"zh": "我就那么站定了。", "en": "I just hold still there."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "她也抬着尾巴。", "en": "She carries her tail high too."},
+        {"zh": "我们在沙丘后面碰了碰钳子。", "en": "Our pincers touch behind the dune."},
+        {"zh": "她的甲比我的浅。", "en": "Her plates are paler than mine."},
+        {"zh": "我们一起伏在沙里。", "en": "We lie together in the sand."},
+        {"zh": "她的尾巴尖碰了碰我的。", "en": "Her tail tip touches mine."},
+        {"zh": "我们不动，沙就盖上来。", "en": "We keep still and the sand covers us."},
+        {"zh": "她往东边去了。", "en": "She heads east."},
+        {"zh": "我在原地又伏了一会儿。", "en": "I lie there a while longer."},
+        {"zh": "这一片沙够我们两个。", "en": "This sand is enough for both of us."},
+        {"zh": "夜里我们各自出来。", "en": "At night we each come out."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用钳子把它夹住。", "en": "I take it in my pincers."},
+        {"zh": "它在我钳下碎了。", "en": "It crumbles in my grip."},
+        {"zh": "我把它送到口器边。", "en": "I bring it to my mouthparts."},
+        {"zh": "闻不出味道，先夹着。", "en": "No scent at all — I'll hold it anyway."},
+        {"zh": "我夹着它走了两步。", "en": "I carry it two steps."},
+        {"zh": "这块壳太硬，钳不开。", "en": "This shell is too hard for my pincers."},
+        {"zh": "它从我钳子里滑掉了。", "en": "It slips from my pincers."},
+        {"zh": "我没有再管它。", "en": "I leave it alone."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西走近了。", "en": "Something is coming near."},
+        {"zh": "我把尾巴竖到最高。", "en": "I raise my tail as high as it goes."},
+        {"zh": "我的钳子全张开了。", "en": "Both pincers open wide."},
+        {"zh": "我的尾巴尖上有一点湿。", "en": "There's a bead of wet at my tail tip."},
+        {"zh": "沙在我脚下陷了一点。", "en": "The sand shifts under me."},
+        {"zh": "我锁住了它的位置。", "en": "I've fixed its position."},
+        {"zh": "沙在钳下窸窣作响。", "en": "Sand rustles under my pincers."},
+        {"zh": "我开始摆尾巴。", "en": "I start swinging my tail."},
+        {"zh": "这一下要蜇在它身上。", "en": "This sting has to land."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我横着跟过去。", "en": "I follow sideways."},
+        {"zh": "我把钳子举在前面。", "en": "I hold my pincers out front."},
+        {"zh": "它还没发现我在沙里。", "en": "It hasn't found me in the sand."},
+        {"zh": "我从沙里过去，只露眼睛。", "en": "I cross the sand with only my eyes showing."},
+        {"zh": "它停下，我就停。", "en": "It stops; I stop."},
+        {"zh": "我的尾巴举着，稳得很。", "en": "My tail is up and steady."},
+        {"zh": "它转过来，我伏住了。", "en": "It turns; I freeze."},
+        {"zh": "它又继续往前走了。", "en": "It moves on again."},
+        {"zh": "沙漠的蝎，离它只有两步。", "en": "A desert scorpion, two steps from it."},
+        {"zh": "它开始靠近了。", "en": "It's starting to come close."},
+        {"zh": "我把尾巴往前一送。", "en": "I drive my tail forward."},
+        {"zh": "尾巴的角度我算好了。", "en": "I've worked out the tail's angle."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一钳子夹下去。", "en": "I snap a pincer shut."},
+        {"zh": "我的尾巴蜇了进去。", "en": "My tail stings in."},
+        {"zh": "这一下让它麻了。", "en": "That numbs it."},
+        {"zh": "它甩开我，退了两步。", "en": "It throws me off and backs two paces."},
+        {"zh": "我又一次扑上去。", "en": "I lunge once more."},
+        {"zh": "我的钳子夹住它的腿。", "en": "My pincer takes its leg."},
+        {"zh": "它踩我，我缩进沙里。", "en": "It stamps; I sink into the sand."},
+        {"zh": "尾巴又蜇了一下。", "en": "The tail stings again."},
+        {"zh": "它现在站不稳了。", "en": "It can't stand steady now."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "然后是两只钳子。", "en": "Then the two pincers."},
+        {"zh": "我把自己从沙里拖出来。", "en": "I drag myself out of the sand."},
+        {"zh": "沙面鼓起一个小包，是我。", "en": "A small bump in the sand — that is me."},
+        {"zh": "这里很干，很好。", "en": "It's dry here — good."},
+        {"zh": "沙丘的影子正好。", "en": "The dune's shadow falls just right."},
+        {"zh": "我试了试钳子。", "en": "I test my pincers."},
+        {"zh": "我朝最近的那片阴影走。", "en": "I head for the nearest shade."},
+        {"zh": "沙子还烫着我的脚。", "en": "The sand still burns my feet."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烤着我的甲，我往沙底钻。", "en": "Fire bakes my shell and I dig down."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔在硬沙上，甲响了一声。", "en": "I land on hard sand and my shell rings."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水漫过我的背，我往上爬。", "en": "Water covers my back; I climb up."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把我掀出去，埋在沙里。", "en": "The blast throws me and buries me in sand."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一根尖物扎进我的甲缝。", "en": "Something sharp goes into a seam."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那道光让我的尾巴僵住。", "en": "The light stiffens my tail."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得尾巴都举不起来。", "en": "Too starved to lift my tail."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷落在沙上，我缩进坑里。", "en": "Lightning hits the sand and I shrink into a hollow."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下面没有沙，我一直在掉。", "en": "No sand below; I keep falling."}
+      ]
+    }
+  }
+}

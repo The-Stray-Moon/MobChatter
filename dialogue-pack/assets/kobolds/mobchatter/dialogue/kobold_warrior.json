@@ -1,0 +1,261 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕噜咕噜，闪躲一旁！", "en": "Gurgle, sidestepping."},
+        {"zh": "盾牌护胸，脚步稳健！", "en": "Shield on chest, steady steps."},
+        {"zh": "持剑在手，警惕前行！", "en": "Sword in hand, alert and on the move."},
+        {"zh": "咕噜咕噜，目光如炬！", "en": "Gurgle, eyes like fire."},
+        {"zh": "盾牌高举，步步为营！", "en": "Shield raised, each step counts."},
+        {"zh": "咕噜咕噜，步步生风！", "en": "Gurgle, every step sounds."},
+        {"zh": "剑光闪烁，步伐凌厉！", "en": "Sword glints, steps sharp."},
+        {"zh": "盾牌一挡，步步为营地！", "en": "Shield blocks, steps cautious."},
+        {"zh": "咕噜咕噜，目光如鹰！", "en": "Gurgle, eyes like an eagle."},
+        {"zh": "持剑而行，步步生威！", "en": "Sword in hand, every step intimidating."},
+        {"zh": "尾巴一甩，我绕到石柱后。", "en": "A flick of my tail and I slip behind the pillar."},
+        {"zh": "鳞片擦过岩壁，沙沙响。", "en": "My scales rasp softly along the cave wall."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盾护胸前，静待敌来！", "en": "Shield on chest, waiting."},
+        {"zh": "咕噜咕噜，持剑而立！", "en": "Gurgle, sword in hand."},
+        {"zh": "咕噜咕噜，静观其变！", "en": "Gurgle, watchful."},
+        {"zh": "盾护胸前，静静守护！", "en": "Shield on chest, guarding."},
+        {"zh": "咕噜咕噜，目光如炬", "en": "Gurgle, eyes like fire"},
+        {"zh": "持剑而立，静静思考！", "en": "Sword in hand, thinking."},
+        {"zh": "咕噜咕噜，静静等待！", "en": "Gurgle, waiting."},
+        {"zh": "盾护胸前，静静地！", "en": "Shield on chest, quietly."},
+        {"zh": "咕噜咕噜，警惕四方！", "en": "Gurgle, alert to all sides."},
+        {"zh": "持剑而立，静静地思考！", "en": "Sword in hand, quietly thinking."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕噜咕噜，敌在何方！", "en": "Gurgle, where is the enemy?"},
+        {"zh": "盾牌一挡，寻找目标！", "en": "Shield, finding the target."},
+        {"zh": "咕噜咕噜，敌人在哪！", "en": "Gurgle, where's the enemy?"},
+        {"zh": "持剑而立，寻找敌人！", "en": "Sword in hand, searching."},
+        {"zh": "盾牌护胸，观察四周！", "en": "Shield on chest, looking around."},
+        {"zh": "咕噜咕噜，瞄准射击！", "en": "Gurgle, aiming."},
+        {"zh": "持剑而立，敌人在哪！", "en": "Sword in hand, where is the enemy?"},
+        {"zh": "盾牌护胸，静观其变！", "en": "Shield on chest, watching."},
+        {"zh": "咕噜咕噜，发现敌人！", "en": "Gurgle, enemy found."},
+        {"zh": "我从盾沿上方瞄你。", "en": "I peek at you over my shield's rim."},
+        {"zh": "鼻尖抽动，我嗅你的味道。", "en": "My snout twitches as I sniff you out."},
+        {"zh": "我把你看成闯巢的贼。", "en": "I take you for a nest thief."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哎呦，盾被击穿了！", "en": "Ouch, my shield is broken!"},
+        {"zh": "这伤不轻啊！", "en": "That really hurts!"},
+        {"zh": "头盔碎了，好疼！", "en": "My helmet broke, ow!"},
+        {"zh": "脚一软，不行了！", "en": "Knees gave out, no good!"},
+        {"zh": "腿断了，动不了！", "en": "Leg broken, can't move!"},
+        {"zh": "掉盾了，快跑！", "en": "Lost my shield, run!"},
+        {"zh": "剑断了，糟了！", "en": "Sword broken, trouble!"},
+        {"zh": "肩伤了，坚持不住了！", "en": "Shoulder injured, can't hold on!"},
+        {"zh": "盾砸手了，痛！", "en": "Shield hit my hand, ouch!"},
+        {"zh": "被砍伤，血流不止！", "en": "Slash wound, bleeding out!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盯着你，仿佛看到了猎物。", "en": "Eye on you, thinking of prey."},
+        {"zh": "你的味道像极了晚餐。", "en": "You taste like dinner."},
+        {"zh": "过来，让我们谈谈交易。", "en": "Come, let's talk business."},
+        {"zh": "食物在战士心中最重要。", "en": "Food is a warrior's priority."},
+        {"zh": "吃掉他，这是命令。", "en": "Eat him, it's an order."},
+        {"zh": "不交易，只有战斗。", "en": "No trade, only combat."},
+        {"zh": "食物可以暂时平息怒火。", "en": "Food quiets the anger."},
+        {"zh": "交易失败，战斗开始。", "en": "Failure to trade, battle starts."},
+        {"zh": "食物是生存的关键。", "en": "Food is key to survival."},
+        {"zh": "用食物贿赂，或许有效。", "en": "Bribe with food, it might work."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盾牌挡住了你的攻击。", "en": "Shield blocked your attack."},
+        {"zh": "我们的剑刃相撞了。", "en": "Swords clash."},
+        {"zh": "盾牌一顶，你退回去。", "en": "My shield shoves you back."},
+        {"zh": "撞击中你被挡住了。", "en": "You're stopped by the impact."},
+        {"zh": "我们的身体撞在了一起。", "en": "We collided."},
+        {"zh": "你无法穿透我的防御。", "en": "You can't breach my defenses."},
+        {"zh": "撞击中你陷入了困境。", "en": "You're stuck after the impact."},
+        {"zh": "你撞上了我的剑锋。", "en": "You hit my blade."},
+        {"zh": "防御中的一个错误让你撞上了。", "en": "A mistake in defense let you collide."},
+        {"zh": "你冲得太猛，撞上了。", "en": "You charged too hard, colliding."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找到新的猎物了。", "en": "Found a new target."},
+        {"zh": "来吧，战斗结束。", "en": "Come, battle's over."},
+        {"zh": "猎物分我一半。", "en": "Share half the kill with me."},
+        {"zh": "猎物归巢。", "en": "The prey returns to the nest."},
+        {"zh": "新的战士加入。", "en": "A new warrior joins."},
+        {"zh": "一起享用猎物。", "en": "We feast together."},
+        {"zh": "猎物成了我们的伴侣。", "en": "The prey is our mate."},
+        {"zh": "食物也是胜利的奖励。", "en": "Food is the reward for victory."},
+        {"zh": "猎物带来了新的希望。", "en": "The prey brings hope."},
+        {"zh": "猎物让我们的队伍壮大。", "en": "The prey strengthens our numbers."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盾牌沉重，我需小心！", "en": "Heavy shield, must be careful."},
+        {"zh": "我的剑在呼唤战斗！", "en": "My sword craves battle."},
+        {"zh": "巢穴深处，猎物的味道！", "en": "Prey's scent from deep in the lair."},
+        {"zh": "石头在手，战斗无惧！", "en": "Stone in hand, no fear of battle."},
+        {"zh": "盾牌前，万箭难穿！", "en": "Shield before, arrows can't pierce."},
+        {"zh": "石墙之外，我的领地！", "en": "Beyond the stone wall, my territory."},
+        {"zh": "猎物的嘶吼，即将消失！", "en": "Victim's roar, about to cease."},
+        {"zh": "毒牙，准备出击！", "en": "Fang ready, strike soon."},
+        {"zh": "盾牌挡下致命一击！", "en": "Shield blocks fatal blow."},
+        {"zh": "战斗不息，直到死亡！", "en": "Fight till death, never cease."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "猎物，我已锁定！", "en": "Prey locked."},
+        {"zh": "毒牙瞄准，准备攻击！", "en": "Fangs aim, prepare to strike."},
+        {"zh": "我的剑，将割裂一切！", "en": "Sword will cleave all."},
+        {"zh": "猎物在望，我的猎物！", "en": "Prey in sight, my kill."},
+        {"zh": "毒牙，将你吞噬！", "en": "Fangs will consume you."},
+        {"zh": "盾牌，保护我！", "en": "Shield, protect me."},
+        {"zh": "我的剑，无坚不摧！", "en": "My sword, invincible."},
+        {"zh": "毒牙，准备咬断！", "en": "Fangs ready, bite soon."},
+        {"zh": "猎物颤抖，恐惧！", "en": "Prey trembles, fear."},
+        {"zh": "毒牙，将你撕碎！", "en": "Fangs will shred you."},
+        {"zh": "警报传下去了，你完了。", "en": "The alarm is passed down. You are done."},
+        {"zh": "巢穴守卫，全员到齐。", "en": "Nest guard, all present."},
+        {"zh": "我的剑尖点向你的方向。", "en": "My blade tip points your way."},
+        {"zh": "这层地道归我守。", "en": "This tunnel level is mine to hold."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "瞄准，猎物即将倒下！", "en": "Aim, prey falls."},
+        {"zh": "我的剑，划破黑暗！", "en": "Sword cuts through darkness."},
+        {"zh": "毒牙，致命一击！", "en": "Fangs, lethal strike."},
+        {"zh": "我的剑，血肉之躯！", "en": "Sword, flesh and blood."},
+        {"zh": "毒牙，死亡之吻！", "en": "Fangs, kiss of death."},
+        {"zh": "猎物，你的命运！", "en": "Prey, your fate."},
+        {"zh": "毒牙，你的归宿！", "en": "Fangs, your end."},
+        {"zh": "我的剑，血流成河！", "en": "Sword, rivers of blood."},
+        {"zh": "毒牙，吞噬生命！", "en": "Fangs, consume life."},
+        {"zh": "我的剑，终结者！", "en": "Sword, terminator."},
+        {"zh": "我把盾顶到最前面。", "en": "I push my shield out in front."},
+        {"zh": "剑在盾后轻轻晃。", "en": "My sword sways behind the shield."},
+        {"zh": "我侧身挪到你的左面。", "en": "I shuffle around to your left."},
+        {"zh": "矮有矮的好处，难砍中。", "en": "Being short has its uses: hard to hit."},
+        {"zh": "我数到三就上。", "en": "On three, I come at you."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "举盾猛攻！", "en": "Shield bash!"},
+        {"zh": "剑挥向你！", "en": "Swing sword!"},
+        {"zh": "挡下攻击！", "en": "Block attack!"},
+        {"zh": "挥剑破敌！", "en": "Sword slash!"},
+        {"zh": "盾牌护我！", "en": "Shield protects!"},
+        {"zh": "近战猛击！", "en": "Melee strike!"},
+        {"zh": "剑光闪烁！", "en": "Sword gleams!"},
+        {"zh": "格挡反击！", "en": "Block and counter!"},
+        {"zh": "挥剑斩首！", "en": "Sword decapitates!"},
+        {"zh": "盾牌横扫！", "en": "Shield sweeps!"},
+        {"zh": "盾牌撞你的膝盖！", "en": "My shield bashes your knee!"},
+        {"zh": "剑从盾下刺出去！", "en": "My blade stabs out from under the shield!"},
+        {"zh": "我砍你的脚背！", "en": "I chop at the top of your foot!"},
+        {"zh": "盾沿砸你的手腕！", "en": "My shield rim cracks your wrist!"},
+        {"zh": "我贴着你打，让你抬不起手！", "en": "I fight close so you cannot swing!"},
+        {"zh": "一剑划开你的腰带！", "en": "One slash opens your belt!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞穴深处再现！", "en": "Cavern reappears!"},
+        {"zh": "巢穴中出现！", "en": "Nest spawns!"},
+        {"zh": "从岩缝中跳出！", "en": "Jumps from rocks!"},
+        {"zh": "地下深处突现！", "en": "Emerges from depths!"},
+        {"zh": "暗处闪现！", "en": "Darkness spawns!"},
+        {"zh": "黑暗中现身！", "en": "Spawn in darkness!"},
+        {"zh": "石缝间出现！", "en": "Appears from stone!"},
+        {"zh": "岩壁后闪现！", "en": "Rocks spawn!"},
+        {"zh": "洞窟中冒出！", "en": "Cave spawns!"},
+        {"zh": "地底钻出！", "en": "Emerges from earth!"},
+        {"zh": "我从巢穴的侧洞钻出来。", "en": "I squeeze out of a side tunnel in the nest."},
+        {"zh": "石灯一亮，我提盾站好。", "en": "A stone lamp flares and I raise my shield."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盾被烧穿了，剑还在。", "en": "The shield burned through — my sword's still here."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉坑里了，痛！", "en": "Fell into a pit, ow!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉水里了，快淹死！", "en": "Drowned, almost dead!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盾被炸飞，手臂发麻。", "en": "The blast tore my shield away; my arm is numb."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被箭射中了，痛！", "en": "Arrow hit me, ow!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "中了法术，全身烧灼！", "en": "Magic hit me, burning!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没吃的，好饿！", "en": "Starving, so hungry!"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盾牌被劈出一道亮痕。", "en": "A bright scar splits my shield."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚无，要死了！", "en": "Void, almost dead!"}
+      ]
+    }
+  }
+}

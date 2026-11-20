@@ -1,0 +1,235 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我背着大壳，一步一步走。", "en": "I carry my great shell, step by step."},
+        {"zh": "四只脚踩得很慢，壳在晃。", "en": "Four feet move slowly; the shell sways."},
+        {"zh": "我绕过林子里的树根。", "en": "I go around the roots in the wood."},
+        {"zh": "壳上的珊瑚擦着枝叶。", "en": "The coral on my shell scrapes the leaves."},
+        {"zh": "我在丛林里找有水的地方。", "en": "I look for water in the jungle."},
+        {"zh": "我身体的重量压弯了草。", "en": "My weight bends the grass."},
+        {"zh": "我停下来，把头探低。", "en": "I stop and lower my head."},
+        {"zh": "我一步一步拖着壳走。", "en": "I drag the shell forward step by step."},
+        {"zh": "我回头看了一下锚点。", "en": "I glance back at my anchor."},
+        {"zh": "我走得不快，但不会乱。", "en": "Not fast, but never aimless."},
+        {"zh": "我的爪子抓住泥地。", "en": "My claws grip the mud."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我趴在壳里，慢慢呼吸。", "en": "I settle in my shell and breathe slowly."},
+        {"zh": "壳上有一层薄薄的苔。", "en": "A thin moss has grown on my shell."},
+        {"zh": "我把头缩了一下。", "en": "I draw my head in a little."},
+        {"zh": "我把脚在泥里蹭了蹭。", "en": "I rub my feet in the mud."},
+        {"zh": "这片丛林很潮湿。", "en": "This jungle is very damp."},
+        {"zh": "我眼皮慢慢垂下来。", "en": "My eyelids sink slowly."},
+        {"zh": "壳里传来一点响动。", "en": "A small sound comes from inside the shell."},
+        {"zh": "我把头从壳里探出来。", "en": "I poke my head out of the shell."},
+        {"zh": "我在锚点附近，很安稳。", "en": "Near my anchor, I am secure."},
+        {"zh": "我又缩回壳里。", "en": "I pull back into my shell."},
+        {"zh": "这地方够安静。", "en": "This place is quiet enough."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你比我的壳矮。", "en": "You are shorter than my shell."},
+        {"zh": "我在这一带活动。", "en": "I keep to this area."},
+        {"zh": "你是我的主人吗。", "en": "Are you my tamer?"},
+        {"zh": "我有壳，不用怕。", "en": "I have a shell. No need to fear."},
+        {"zh": "你在看我的背吗。", "en": "Are you looking at my back?"},
+        {"zh": "我走得很慢，你别催。", "en": "I move slowly. Do not rush me."},
+        {"zh": "这一片丛林是我的地盘。", "en": "This patch of jungle is mine."},
+        {"zh": "我闻到水的味道。", "en": "I smell water."},
+        {"zh": "你的影子落进我的壳纹里。", "en": "Your shadow falls across the ridges of my shell."},
+        {"zh": "我这只壳沉得很。", "en": "This shell of mine is very heavy."},
+        {"zh": "你让我想起来了。", "en": "You remind me of something."},
+        {"zh": "坐下的话，我就跟着。", "en": "If you sit, I will follow."},
+        {"zh": "我不太爱说话。", "en": "I do not talk much."},
+        {"zh": "你要到哪儿去。", "en": "Where are you going?"},
+        {"zh": "你站在锚旁边了。", "en": "You are standing by the anchor."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "裂缝里渗进了泥水。", "en": "Muddy water seeps into the crack."},
+        {"zh": "我缩了缩脖子，没退远。", "en": "I pull my neck in but barely retreat."},
+        {"zh": "我把脖子往里一缩。", "en": "I pull my neck in a little."},
+        {"zh": "身上的肉有点疼。", "en": "The flesh stings a little."},
+        {"zh": "壳护着，我还行。", "en": "The shell held. I am all right."},
+        {"zh": "我把脖子缩进壳里。", "en": "I pull my neck into the shell."},
+        {"zh": "这点伤，慢慢好。", "en": "This will heal slowly."},
+        {"zh": "我闷着不吭声。", "en": "I keep it in and stay quiet."},
+        {"zh": "你把我给惹火了。", "en": "You have annoyed me."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那一滩是水吗。", "en": "Is that a pool of water?"},
+        {"zh": "放到我够得到的地方。", "en": "Put it where I can reach."},
+        {"zh": "给我的话，我先闻闻。", "en": "If it is for me, let me sniff it first."},
+        {"zh": "你手上那东西，亮。", "en": "That thing in your hand is bright."},
+        {"zh": "我挪得慢，别急。", "en": "I shuffle slowly. Do not rush."},
+        {"zh": "别举过我的背。", "en": "Do not hold it over my back."},
+        {"zh": "我动作慢得很。", "en": "I move very slowly."},
+        {"zh": "你稍等我一下。", "en": "Wait for me a moment."},
+        {"zh": "我背上驮着壳，够不着。", "en": "With this shell on my back, I cannot reach."},
+        {"zh": "这点东西，我收下。", "en": "I will take that much."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我退起来很慢。", "en": "I give ground slowly."},
+        {"zh": "壳太重，我转不过来。", "en": "My shell is too heavy to turn quickly."},
+        {"zh": "给这只壳让条路。", "en": "Make way for this shell."},
+        {"zh": "这么一撞，壳都不晃。", "en": "That nudge did not even rock my shell."},
+        {"zh": "你的肩膀撞到了珊瑚。", "en": "Your shoulder hit the coral."},
+        {"zh": "我脚下滑了一下。", "en": "My foot slipped."},
+        {"zh": "别推我背上的壳。", "en": "Do not push the shell on my back."},
+        {"zh": "四只脚都踩住了。", "en": "All four feet are planted."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我已经有主人了。", "en": "I already have a tamer."},
+        {"zh": "这话题不是我能定的。", "en": "That is not mine to decide."},
+        {"zh": "我这只壳沉得厉害。", "en": "This shell of mine is very heavy."},
+        {"zh": "你留些距离给我。", "en": "Keep some distance from me."},
+        {"zh": "我要先守着锚点。", "en": "I must guard my anchor first."},
+        {"zh": "我壳里只装得下主人。", "en": "My shell has room only for my master."},
+        {"zh": "我做什么都慢。", "en": "I do everything slowly."},
+        {"zh": "让我先歇一会。", "en": "Let me rest a moment."},
+        {"zh": "我缩回壳里了。", "en": "I have withdrawn into my shell."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地上有一块湿石头。", "en": "A wet stone on the ground."},
+        {"zh": "我用爪子拨过来。", "en": "I hook it over with a claw."},
+        {"zh": "壳挡住了我的视线。", "en": "My shell blocks my view."},
+        {"zh": "我低头，很费劲。", "en": "Lowering my head is difficult."},
+        {"zh": "我用爪子拨到旁边。", "en": "I hook it to one side."},
+        {"zh": "这一枚有点用处。", "en": "This one might be useful."},
+        {"zh": "我根本捧不起来。", "en": "I cannot scoop it up."},
+        {"zh": "还是给主人吧。", "en": "Better to give it to my tamer."},
+        {"zh": "我的爪子太钝。", "en": "My claws are too blunt."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你被我盯住了。", "en": "I have my eye on you."},
+        {"zh": "壳转过来要一会。", "en": "Turning my shell takes a while."},
+        {"zh": "我想用远的那一招。", "en": "I will use the ranged move."},
+        {"zh": "石块在我身边浮起来。", "en": "Stones rise around me."},
+        {"zh": "我数过这三口气。", "en": "I have counted three breaths."},
+        {"zh": "四只脚都扎住了。", "en": "All four feet are set."},
+        {"zh": "这一带没有掩护。", "en": "There is no cover here."},
+        {"zh": "我慢慢来，但会来。", "en": "I come slowly, but I come."},
+        {"zh": "动手了，别愣着。", "en": "Moving now. Do not stand dazed."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一步一寸地靠近。", "en": "I close in an inch at a time."},
+        {"zh": "地上的石头开始动。", "en": "Stones on the ground begin to move."},
+        {"zh": "你退到树后了。", "en": "You moved behind a tree."},
+        {"zh": "我的壳挡住了半个路。", "en": "My shell blocks half the path."},
+        {"zh": "我借树根遮住半边壳。", "en": "I hide half my shell behind the roots."},
+        {"zh": "再凑近一点看看。", "en": "Closer for a look."},
+        {"zh": "石块浮得更高。", "en": "The stones hover higher."},
+        {"zh": "就停在这一块地方。", "en": "Stop right in this spot."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石块跟着飞出去。", "en": "The stones fly after me."},
+        {"zh": "我的前爪抓了一下。", "en": "A swipe of my foreclaw."},
+        {"zh": "撞得我壳都发闷响。", "en": "The shell boomed with that one."},
+        {"zh": "我的壳沿撞在你膝上。", "en": "My shell rim strikes your knee."},
+        {"zh": "壳的边缘蹭到你。", "en": "The shell's rim scraped you."},
+        {"zh": "我的壳上长着苔藓。", "en": "Moss grows on my shell."},
+        {"zh": "石块打在你肩上。", "en": "A stone strikes your shoulder."},
+        {"zh": "我费力地转身。", "en": "I turn with effort."},
+        {"zh": "这一下够沉重了。", "en": "That one was heavy enough."},
+        {"zh": "你被推到水边。", "en": "You are pushed to the water's edge."},
+        {"zh": "我停下来喘气。", "en": "I stop and catch my breath."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从浅水里爬上来。", "en": "I climb out of the shallows."},
+        {"zh": "壳上全是水和苔。", "en": "Water and moss all over my shell."},
+        {"zh": "这一片丛林很合适。", "en": "This jungle suits me."},
+        {"zh": "我缓缓抬起头。", "en": "I raise my head slowly."},
+        {"zh": "我先看了看锚点。", "en": "First I check the anchor."},
+        {"zh": "树上的水落到我壳上。", "en": "Water from the trees lands on my shell."},
+        {"zh": "我走得实在很慢。", "en": "I move very slowly."},
+        {"zh": "这一带有活物走动。", "en": "Something living moves nearby."},
+        {"zh": "我把四只脚摆正。", "en": "I square up my four feet."},
+        {"zh": "这一带有些水。", "en": "There is some water here."},
+        {"zh": "我缩了一下脖子。", "en": "I retract my neck a little."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烤在我的壳上，很烫。", "en": "Fire on my shell. Very hot."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从坡上滑下来，壳先着地。", "en": "I slid down; the shell landed first."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "壳沿磕在石头上，闷响。", "en": "My shell rim cracks against stone with a dull thud."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭扎在壳上，拔不下来。", "en": "An arrow sticks in my shell."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这光穿过了壳。", "en": "This light passed through my shell."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "苔藓吃光了，壳里发空。", "en": "The moss is gone and my shell feels hollow."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "电打在我的壳上，全身一震。", "en": "Lightning hits my shell and I jolt."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的壳也挡不住这个。", "en": "Even my shell cannot stop this."}
+      ]
+    }
+  }
+}

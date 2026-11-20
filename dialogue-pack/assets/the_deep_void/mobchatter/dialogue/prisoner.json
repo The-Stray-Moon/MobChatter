@@ -1,0 +1,288 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "铁链叮当响，悔恨囚徒缓行。", "en": "Iron chains clink as the prisoner walks."},
+        {"zh": "狱中阴暗处，囚徒无声行。", "en": "In the dim prison, the prisoner moves silently."},
+        {"zh": "铁锁链缠身，步履沉重。", "en": "Heavy chains bind, each step weighed down."},
+        {"zh": "囚徒拖着脚步，步履蹒跚。", "en": "The prisoner shuffles, each step a burden."},
+        {"zh": "锁链摩擦，囚徒挪步。", "en": "Chains scrape as the prisoner moves."},
+        {"zh": "阴冷地牢，囚徒缓缓行。", "en": "In the cold dungeon, the prisoner walks slowly."},
+        {"zh": "铁链摩擦声，囚徒低语。", "en": "Chains clink, the prisoner mutters."},
+        {"zh": "沉重铁链，囚徒前行。", "en": "Heavy chains, the prisoner moves forward."},
+        {"zh": "囚徒拖步，步履艰难。", "en": "The prisoner shuffles, each step hard."},
+        {"zh": "铁锁链束缚，囚徒行进。", "en": "Bound by iron chains, the prisoner advances"},
+        {"zh": "赤脚踩过骨荒原的碎石。", "en": "Bare feet crunch over the bone wastes."},
+        {"zh": "带着伤腿，一步步挪动。", "en": "It drags a wounded leg, one step at a time."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "囚徒目光呆滞，似已绝望。", "en": "The prisoner's gaze is dull, as if in despair."},
+        {"zh": "囚徒懒散躺地，眼无生气。", "en": "The prisoner lies listlessly, eyes lacking life."},
+        {"zh": "阴暗角落，囚徒闲坐。", "en": "In the dark corner, the prisoner sits idle."},
+        {"zh": "囚徒静坐，似已放弃。", "en": "The prisoner sits quietly, as if giving up."},
+        {"zh": "铁链缠绕，囚徒空坐。", "en": "Bound by chains, the prisoner sits idly."},
+        {"zh": "囚徒呆坐，眼神空洞。", "en": "The prisoner sits, his eyes hollow."},
+        {"zh": "狱中无望，囚徒闲坐。", "en": "Hopeless in the dungeon, the prisoner sits idle."},
+        {"zh": "铁锁链束缚，囚徒懒坐。", "en": "Bound by chains, the prisoner sits lazily."},
+        {"zh": "囚徒眼神空洞，懒散坐地。", "en": "The prisoner sits lazily, eyes hollow."},
+        {"zh": "阴暗地牢，囚徒闲坐。", "en": "In the dark dungeon, the prisoner sits idly."},
+        {"zh": "囚服挂在瘦骨上，风一吹就响。", "en": "The prison rags flap on its ribs."},
+        {"zh": "它数着石墙上的划痕。", "en": "It counts the scratches on the stone."},
+        {"zh": "它把头抵在冰冷的铁栏上。", "en": "It rests its head on the cold bars."},
+        {"zh": "眼泪落在锁链上，无声无息。", "en": "A tear falls on the chain without a sound."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "囚徒目光如炬，盯上你。", "en": "The prisoner's gaze locks onto you."},
+        {"zh": "囚徒目光锐利，盯着你。", "en": "Sharp eyes, the prisoner fixes on you."},
+        {"zh": "囚徒眼神凶狠，盯紧你。", "en": "Fierce eyes, the prisoner stares at you."},
+        {"zh": "囚徒目光凶恶，盯着你。", "en": "Evil eyes, the prisoner stares intently at you."},
+        {"zh": "铁链束缚，目光紧盯着你。", "en": "Bound by chains, the prisoner's eyes fix on you."},
+        {"zh": "囚徒眼神空洞，却盯着你。", "en": "Hollow eyes, but they focus on you."},
+        {"zh": "囚徒盯着你，眼神危险。", "en": "The prisoner's eyes fix on you, dangerous."},
+        {"zh": "囚徒目光锐利，直视你。", "en": "Sharp eyes, the prisoner stares directly at you."},
+        {"zh": "铁锁链束缚，囚徒盯着你。", "en": "Bound by chains, the prisoner stares at you."},
+        {"zh": "囚徒眼神凶狠，直视你。", "en": "Fierce eyes, the prisoner stares at you."},
+        {"zh": "你活着，还能出门。", "en": "You're alive. You can still walk out."},
+        {"zh": "你的衣服没有编号。", "en": "Your clothes have no number."},
+        {"zh": "你袖子上有野地的草籽。", "en": "Your sleeve has wild grass seed on it."},
+        {"zh": "它盯着你的脚踝。", "en": "It stares at your bare ankles."},
+        {"zh": "它看的是你身后的门。", "en": "It looks past you, at the door."},
+        {"zh": "它在数你还剩多少自由。", "en": "It counts how much freedom you have left."},
+        {"zh": "囚徒认出你也是被关住的。", "en": "It sees that you are caged too."},
+        {"zh": "那眼神不属于活人。", "en": "That look belongs to no living thing."},
+        {"zh": "它向你伸出手，又缩回去。", "en": "It reaches out, then pulls back."},
+        {"zh": "它把你的影子当成了钥匙。", "en": "It mistakes your shadow for a key."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "骨翼折断了。", "en": "My bone wings are broken."},
+        {"zh": "身体虚弱无力。", "en": "My body is weak."},
+        {"zh": "骨头裂开了。", "en": "My bones are cracked."},
+        {"zh": "肌肉撕裂了。", "en": "My muscles are torn."},
+        {"zh": "旧伤又裂开，黑水渗出来。", "en": "An old wound splits; black fluid seeps."},
+        {"zh": "囚服被撕破了。", "en": "My prison服is torn."},
+        {"zh": "这一刀下去，我笑了一声。", "en": "The blade lands; I laugh once."},
+        {"zh": "铁链磨破的手腕。", "en": "Chains wore through my wrists."},
+        {"zh": "我扶着墙，才没倒下。", "en": "I lean on the wall to stay upright."},
+        {"zh": "骨头发出响声。", "en": "My bones crack."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你身上有我们从未尝过的美味。", "en": "You have something we’ve never tasted."},
+        {"zh": "监狱的铁栏不会永远束缚我。", "en": "The prison bars won't hold me forever."},
+        {"zh": "你的眼睛透露了自由的气息。", "en": "Your eyes give away the scent of freedom."},
+        {"zh": "你不知道我有多渴望自由。", "en": "You have no idea how much I desire freedom."},
+        {"zh": "你的肉质异常鲜美。", "en": "Your flesh is exceptionally delicious."},
+        {"zh": "囚徒也有享受的权利。", "en": "Prisoners have rights too."},
+        {"zh": "逃离是唯一的出路。", "en": "Escape is the only way out."},
+        {"zh": "我愿意用自由换取你的肉。", "en": "I’ll trade freedom for your flesh."},
+        {"zh": "我从未如此渴望过。", "en": "I’ve never craved this so much."},
+        {"zh": "自由的气息让我无法抗拒。", "en": "The scent of freedom is irresistible to me."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我这双手，锁了太久。", "en": "These hands of mine have been locked too long."},
+        {"zh": "牢门没关，我就不出去。", "en": "The door's open, and I still won't leave."},
+        {"zh": "镣铐拖着，我走不快。", "en": "These shackles slow me."},
+        {"zh": "让开，墙那边有光。", "en": "Step aside; there is light beyond the wall."},
+        {"zh": "铁链还拴着我的脚。", "en": "The chain is still on my ankle."},
+        {"zh": "别想从我这里夺走食物。", "en": "Don’t try to take my food away."},
+        {"zh": "别碰我手上的铁环。", "en": "Do not touch the iron on my wrist."},
+        {"zh": "铁栏后等了太久，别挡我。", "en": "I waited too long behind bars; move."},
+        {"zh": "你触碰了我的警戒线。", "en": "You’ve crossed my threshold."},
+        {"zh": "这间牢房，我住了太久。", "en": "I have held this cell too long."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "求你了，快过来。", "en": "Please, come to me."},
+        {"zh": "我的伴侣，快过来。", "en": "My mate, come to me."},
+        {"zh": "让我们一起逃离。", "en": "Let’s escape together."},
+        {"zh": "我需要你，我的同类。", "en": "I need you, my kind."},
+        {"zh": "一起寻找自由吧。", "en": "Let’s find freedom together."},
+        {"zh": "跟我来，我带你走。", "en": "Follow me, I’ll lead you out."},
+        {"zh": "我的爱，快回应我。", "en": "My love, respond to me."},
+        {"zh": "牢门锁着，我们跳不了。", "en": "The cell is locked; we cannot dance."},
+        {"zh": "让我们一起飞翔。", "en": "Let’s fly together."},
+        {"zh": "我的伴侣，不要离开我。", "en": "My mate, don’t leave me."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "铁链在你手中发出沉重的声响。", "en": "The heavy chains clank in your hand."},
+        {"zh": "你的手握住了冰冷的金属。", "en": "Your hand grasps the cold metal."},
+        {"zh": "一滩血迹在你脚下蔓延。", "en": "A pool of blood spreads beneath your feet."},
+        {"zh": "牢里的手，也能捡起你的东西。", "en": "Even jailed hands can pick up your things."},
+        {"zh": "囚徒的镣铐叮当作响。", "en": "The prisoner's shackles clink."},
+        {"zh": "你发现了它破碎的锁链。", "en": "You find its broken chains."},
+        {"zh": "它的目光透过铁窗望向你。", "en": "Its eyes look at you through the iron bars."},
+        {"zh": "锁链在它手中变得扭曲。", "en": "The chains twist in its hand."},
+        {"zh": "它的皮带因饥饿而松弛。", "en": "Its belt loosens from hunger."},
+        {"zh": "腐烂的肉块挂在它脖子上。", "en": "Foul meat hangs from its neck."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你要小心了，囚徒。", "en": "Watch out, prisoner."},
+        {"zh": "它的目光锁定了你。", "en": "Its gaze is fixed on you."},
+        {"zh": "铁栏后面，我盯了你很久。", "en": "Behind these bars I've watched you a long while."},
+        {"zh": "囚徒的视线从阴影中投射。", "en": "The prisoner's gaze projects from the shadows."},
+        {"zh": "它知道你隐藏的地方。", "en": "It knows where you hide."},
+        {"zh": "囚徒的呼吸在黑暗中回响。", "en": "The prisoner's breath echoes in the darkness."},
+        {"zh": "它的脚步声越来越近。", "en": "Its footsteps grow closer."},
+        {"zh": "它从阴影中慢慢走出。", "en": "It slowly emerges from the shadows."},
+        {"zh": "它的声音在夜幕下低语。", "en": "Its voice whispers in the night."},
+        {"zh": "囚徒的眼神中满是杀气。", "en": "The prisoner's eyes are full of malice."},
+        {"zh": "你进来时没锁门。", "en": "You left the door unlocked."},
+        {"zh": "你身上带着钥匙的味道。", "en": "You smell of keys."},
+        {"zh": "终于有人来陪我说话了。", "en": "At last, someone to talk to."},
+        {"zh": "你会替我留在这里。", "en": "You'll stay here in my place."},
+        {"zh": "我等的不是救兵，是替身。", "en": "I wasn't waiting for rescue. I wanted a stand-in."},
+        {"zh": "你走进来了，就别想走。", "en": "You came in. You don't leave."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "瞄准，射击，不让他靠近。", "en": "Target, shoot, don't let him get close."},
+        {"zh": "集中精神，瞄准囚徒。", "en": "Focus, target the prisoner."},
+        {"zh": "它在你的视野中移动。", "en": "It moves within your sight."},
+        {"zh": "你要做好准备。", "en": "You need to be ready."},
+        {"zh": "囚徒的身形越来越模糊。", "en": "The prisoner's figure grows indistinct."},
+        {"zh": "保持警惕，注意它的动向。", "en": "Stay alert, watch its movements."},
+        {"zh": "它正缓缓向你靠近。", "en": "It is slowly approaching you."},
+        {"zh": "集中注意力，不要分心。", "en": "Concentrate, don't lose focus."},
+        {"zh": "它是你的唯一目标。", "en": "It is your sole target."},
+        {"zh": "不要让它靠近你的据点。", "en": "Don't let it get close to your base."},
+        {"zh": "你的脚链比我轻。", "en": "Your shackles are lighter than mine."},
+        {"zh": "慢慢来，我等得起。", "en": "Take your time. I can wait."},
+        {"zh": "我在数你走过来的步数。", "en": "I count the steps you take toward me."},
+        {"zh": "你的影子落在我的牢门口。", "en": "Your shadow falls on my cell door."},
+        {"zh": "别急，锁链不会松。", "en": "No rush. The chain won't loosen."},
+        {"zh": "你身后的走廊是空的。", "en": "The corridor behind you is empty."},
+        {"zh": "走廊尽头，你在跑。", "en": "At the corridor's end, you run."},
+        {"zh": "你也会习惯这里的墙。", "en": "You'll get used to these walls."},
+        {"zh": "我早就记得你的脚步声。", "en": "I already know your footsteps."},
+        {"zh": "锁链的长度，刚好够到你。", "en": "My chain is exactly long enough to reach you."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低吼，撕咬!", "en": "Growl, bite!"},
+        {"zh": "发出呻吟，扑向你!", "en": "Scream, lunge at you!"},
+        {"zh": "磨牙，准备攻击!", "en": "Clench teeth, ready to attack!"},
+        {"zh": "张开血盆大口!", "en": "Open bloody mouth!"},
+        {"zh": "嘶嘶作响，逼近!", "en": "Sssss, advance!"},
+        {"zh": "用爪子抓你!", "en": "Scratch you with claws!"},
+        {"zh": "咆哮着扑来!", "en": "Rip you with roars!"},
+        {"zh": "嘶嘶地靠近，准备撕裂!", "en": "Sss, close in to tear!"},
+        {"zh": "嚎叫着扑向猎物!", "en": "Howl and lunge!"},
+        {"zh": "抓向你的喉咙!", "en": "Grab your throat!"},
+        {"zh": "这口牙是狱里练出来的。", "en": "These teeth were trained in a cell."},
+        {"zh": "我抓住你的衣领了！", "en": "I've got your collar!"},
+        {"zh": "锁链也是我的武器。", "en": "The chain is a weapon too."},
+        {"zh": "让我尝尝外面的肉。", "en": "Let me taste meat from outside."},
+        {"zh": "这一下欠了十年。", "en": "That one was owed for ten years."},
+        {"zh": "我咬你，就像咬铁栏。", "en": "I bite you the way I bit the bars."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "监狱深处传来叫声!", "en": "Call from the depths!"},
+        {"zh": "黑暗中露出头颅!", "en": "Head pops out of darkness!"},
+        {"zh": "从废墟中爬出!", "en": "Crawl from ruins!"},
+        {"zh": "铁门后发出嘶嘶声!", "en": "Sssss behind iron gates!"},
+        {"zh": "牢房中突然冒出!", "en": "Suddenly from a cell!"},
+        {"zh": "破墙而出，嘶嘶着!", "en": "Break out, sss!"},
+        {"zh": "铁栅栏中闪现!", "en": "Flash from iron bars!"},
+        {"zh": "黑暗中显现身影!", "en": "Shadow appears in darkness!"},
+        {"zh": "铁锁中挣脱!", "en": "Unlock and escape!"},
+        {"zh": "从尘封的牢房中走出!", "en": "Walk out of forgotten cells!"},
+        {"zh": "锁链一响，我就站起来了。", "en": "The chain rattled, so I stood."},
+        {"zh": "这间牢房空了太久。", "en": "This cell was empty too long."},
+        {"zh": "牢门的锈味把我叫醒。", "en": "The smell of rust woke me."},
+        {"zh": "我还记得自己怎么被关进来。", "en": "I remember how I was locked in."},
+        {"zh": "我的编号还刻在墙上。", "en": "My number is still carved in the wall."},
+        {"zh": "别熄灭那支火把。", "en": "Don't put out that torch."},
+        {"zh": "黑暗里我又能闻见血。", "en": "In the dark I can smell blood again."},
+        {"zh": "有人终于打开了我的门。", "en": "Someone finally opened my door."},
+        {"zh": "铁栏断了很多年，我还在。", "en": "The bars broke years ago; I remain."},
+        {"zh": "锁链断了，我也醒了。", "en": "The chain broke, and I woke."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火光照见我脸上的疤。", "en": "Firelight finds the scars on my face."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "牢门是铁的，我的镣铐也是。", "en": "Iron door, iron shackles."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水流进我的肺里。", "en": "Water enters my lungs."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸炸伤了我的身体。", "en": "Explosion wounds my body."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭射穿了我的肉。", "en": "Arrow pierces my flesh."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法术士的咒语。", "en": "Sorcerer's curse."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿让我的身体枯萎。", "en": "Starvation withers my body."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光里，我的影子没动。", "en": "In the lightning, my shadow stays still."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空之风撕裂了我的身体。", "en": "Void wind tears me apart."}
+      ]
+    }
+  }
+}

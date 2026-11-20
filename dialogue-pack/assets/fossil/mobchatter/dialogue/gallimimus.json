@@ -1,0 +1,279 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "轻盈地奔跑着", "en": "Runs lightly"},
+        {"zh": "小心翼翼地挪动脚步", "en": "Moves cautiously"},
+        {"zh": "低头觅食的小恐龙", "en": "Feeds on the ground"},
+        {"zh": "在草地上闲逛", "en": "Wanders in the grass"},
+        {"zh": "张开翅膀缓缓飞行", "en": "Flaps its wings"},
+        {"zh": "我伸长脖子，先看左边草丛。", "en": "I stretch my neck and check the grass on the left first."},
+        {"zh": "发出微弱的咕咕声", "en": "Gives a weak call"},
+        {"zh": "寻找同伴的声音", "en": "Seeks for its kind"},
+        {"zh": "吃着地上的嫩叶", "en": "Eats fresh leaves"},
+        {"zh": "我踩着沙地，一步两尺地小跑。", "en": "I trot across the sand, two feet to a stride."},
+        {"zh": "长腿一迈就是好几米。", "en": "My long legs cover meters in one stride."},
+        {"zh": "跑起来像一只大鸵鸟。", "en": "I run like an oversized ostrich."},
+        {"zh": "三步一停，抬头张望。", "en": "Three steps, one pause, head up."},
+        {"zh": "细长的尾巴保持平衡。", "en": "My long tail keeps me balanced."},
+        {"zh": "踩过蕨类，沙沙作响。", "en": "I rustle through the ferns."},
+        {"zh": "绕着食盆转了两圈。", "en": "I circle the feed trough twice."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "太阳照在背上，我半闭着眼。", "en": "The sun warms my back and my eyes half close."},
+        {"zh": "缓慢地晃动身体", "en": "Shakes its body"},
+        {"zh": "低头打量四周", "en": "Stares around"},
+        {"zh": "轻轻地扇动翅膀", "en": "Flaps its wings gently"},
+        {"zh": "低头沉思", "en": "Nods its head"},
+        {"zh": "偶尔发出咕咕声", "en": "Occasionally calls"},
+        {"zh": "轻盈地抖动羽毛", "en": "Shakes its feathers"},
+        {"zh": "眼神警惕地盯着", "en": "Glances cautiously"},
+        {"zh": "用喙轻轻拨弄草叶", "en": "Pokes at the grass"},
+        {"zh": "偶尔啄食地上的小虫", "en": "Pecks at insects"},
+        {"zh": "用后腿挠了挠脖子。", "en": "I scratch my neck with a hind leg."},
+        {"zh": "把脑袋埋进翅膀里。", "en": "I tuck my head into my wing."},
+        {"zh": "盯着自己的影子发呆。", "en": "I stare blankly at my own shadow."},
+        {"zh": "喉咙里滚出一串咕嘟。", "en": "A gurgle rolls up my throat."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的长腿，跑起来像鸟。", "en": "My long legs run like a bird's."},
+        {"zh": "你的高度，我需要仰着看。", "en": "I have to look up to take in your height."},
+        {"zh": "用尖喙轻轻敲击地面", "en": "Tap the ground with its beak"},
+        {"zh": "我缩起翅膀，脚尖已经朝外。", "en": "I tuck my wings and my toes already point away."},
+        {"zh": "小步靠近玩家", "en": "Steps closer to the player"},
+        {"zh": "发出轻微的叫声", "en": "Gives a soft call"},
+        {"zh": "我歪头，慢慢数你的手指。", "en": "I tilt my head and count your fingers."},
+        {"zh": "小心翼翼地靠近玩家", "en": "Approaches the player cautiously"},
+        {"zh": "用翅膀遮住眼睛", "en": "Shades its eyes with its wings"},
+        {"zh": "好奇地盯着玩家手中的食物", "en": "Stares at the food in the player's hand"},
+        {"zh": "歪着头看你的手。", "en": "I tilt my head at your hands."},
+        {"zh": "你手里的种子我认识。", "en": "I know the seeds in your hand."},
+        {"zh": "你比我还高一点。", "en": "You're a little taller than me."},
+        {"zh": "你一动我就想跑。", "en": "When you move, I want to bolt."},
+        {"zh": "你身上有蛋壳的味道。", "en": "You smell of eggshell."},
+        {"zh": "你站在我的逃跑路线上。", "en": "You're standing on my escape route."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅膀受伤了，好疼！", "en": "My wings are hurt, it hurts!"},
+        {"zh": "腿上被咬了，好疼！", "en": "My leg is bitten, it hurts!"},
+        {"zh": "头被砸了，疼！", "en": "My head is hit, it hurts!"},
+        {"zh": "肚子被踢了，疼！", "en": "My belly is kicked, it hurts!"},
+        {"zh": "翅膀折了，走不了！", "en": "My wings are broken, I can't walk!"},
+        {"zh": "翅膀被削了，飞不起来了！", "en": "My wings are cut, I can't fly!"},
+        {"zh": "翅膀破了，飞不动了！", "en": "My wings are torn, I can't fly!"},
+        {"zh": "翅膀被折了，飞不起来了！", "en": "My wings are broken, I can't fly!"},
+        {"zh": "翅膀受伤了，飞不动了！", "en": "My wings are hurt, I can't fly!"},
+        {"zh": "翅膀破了，飞不起来！", "en": "My wings are torn, I can't fly!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我猜鸡会这么吃？", "en": "I wonder if chickens eat like this."},
+        {"zh": "你手心的嫩叶，比野草香多了。", "en": "The tender leaves in your palm smell sweeter than wild grass."},
+        {"zh": "我不抢地，只想讨一把嫩叶。", "en": "I claim no land, only a handful of tender leaves."},
+        {"zh": "来吧，尝尝这个！", "en": "Try this!"},
+        {"zh": "我好怕别的似鸡龙！", "en": "Scared of other Gallimimus!"},
+        {"zh": "快过来，给我喂食！", "en": "Come here, give me some food!"},
+        {"zh": "这地方适合安家！", "en": "Perfect place to settle!"},
+        {"zh": "我闻到了食物的气息！", "en": "Smell of food!"},
+        {"zh": "我爱这美味的草地！", "en": "Love these tasty grasses!"},
+        {"zh": "我的同类都在这里！", "en": "My kind are here!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "快闪开，我要撞倒你！", "en": "Move! I'll crash into you!"},
+        {"zh": "别碰我，小心点！", "en": "Don't touch me! Be careful!"},
+        {"zh": "小心，我会撞你！", "en": "Watch out, I'll crash into you!"},
+        {"zh": "细长的腿撞上你，先软的是我。", "en": "My slim legs hit you, and mine give way first."},
+        {"zh": "我跑起来，翅膀在身侧乱摆。", "en": "Running, my small wings flail at my sides."},
+        {"zh": "我不会让你得逞！", "en": "I won't let you!"},
+        {"zh": "我要碾压你！", "en": "Crush you!"},
+        {"zh": "让开，我要展示！", "en": "Get out of my way!"},
+        {"zh": "我要试试力量！", "en": "Test my strength!"},
+        {"zh": "你挡住了阳光！", "en": "You're blocking the sun!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "求求你，我的爱人！", "en": "Please, my love!"},
+        {"zh": "我想要个伴侣！", "en": "Need a mate!"},
+        {"zh": "我抖开颈羽，围着你转了半圈。", "en": "I fluff my neck feathers and circle you half a turn."},
+        {"zh": "让我们共舞吧！", "en": "Let's dance together!"},
+        {"zh": "跑得快，也能替你挡一下。", "en": "I run fast, and I can take a hit for you."},
+        {"zh": "我会照顾好你！", "en": "I'll take care of you!"},
+        {"zh": "跑得快是我的本事，跟紧我。", "en": "Running is my gift. Keep up."},
+        {"zh": "跑起来才好看，你跟不跟？", "en": "I look better running, coming along?"},
+        {"zh": "我们一起生活吧！", "en": "Live together!"},
+        {"zh": "我会永远守护你！", "en": "Protect you forever!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕咕，快吃吧！", "en": "Gukuk, eat quickly!"},
+        {"zh": "咕嘟，肚子饿了！", "en": "Gudoo, I'm hungry!"},
+        {"zh": "咕咕，这里安全！", "en": "Gukuk, this is safe!"},
+        {"zh": "咕嘟嘟，我要睡觉！", "en": "Gudoo-doo, time to sleep!"},
+        {"zh": "咕咕咕，快来一起玩！", "en": "Gukukuk, come play with me!"},
+        {"zh": "咕嘟，这里的食物好！", "en": "Gudoo, nice food here!"},
+        {"zh": "咕咕，主人回来了！", "en": "Gukuk, master is back!"},
+        {"zh": "咕嘟嘟，我要喝水！", "en": "Gudoo-doo, I want water!"},
+        {"zh": "咕咕咕，我在这里！", "en": "Gukukuk, I'm here!"},
+        {"zh": "咕嘟，来捉迷藏！", "en": "Gudoo, let's hide and seek!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕嘟，你在这里！", "en": "Gudoo, you're here!"},
+        {"zh": "咕咕，小心！", "en": "Gukuk, beware!"},
+        {"zh": "咕嘟嘟，来了来了！", "en": "Gudoo-doo, here they come!"},
+        {"zh": "咕咕咕，注意！", "en": "Gukukuk, watch out!"},
+        {"zh": "咕嘟，敌人来了！", "en": "Gudoo, enemies!"},
+        {"zh": "咕咕，快闪开！", "en": "Gukuk, move!"},
+        {"zh": "咕嘟嘟，危险！", "en": "Gudoo-doo, danger!"},
+        {"zh": "咕咕，小心陷阱！", "en": "Gukuk, watch the trap!"},
+        {"zh": "咕嘟，快跑！", "en": "Gudoo, run!"},
+        {"zh": "咕咕咕，快隐蔽！", "en": "Gukukuk, hide quickly!"},
+        {"zh": "有东西碰到我尾巴了！", "en": "Something touched my tail!"},
+        {"zh": "那片灌木在动。", "en": "That bush is moving."},
+        {"zh": "我的羽毛全竖起来了。", "en": "All my feathers are standing up."},
+        {"zh": "我听见石头滚动的声音。", "en": "I hear a stone rolling."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕嘟，锁定目标！", "en": "Gudoo, target acquired!"},
+        {"zh": "咕咕，我看到你了！", "en": "Gukuk, I see you!"},
+        {"zh": "咕嘟，我脖子一伸，看清你了。", "en": "Gudu, my neck shoots up and I see you clearly."},
+        {"zh": "咕咕咕，瞄准目标！", "en": "Gukukuk, target locked!"},
+        {"zh": "咕嘟，锁定成功！", "en": "Gudoo, target locked!"},
+        {"zh": "咕咕，瞄准射击！", "en": "Gukuk, aim and shoot!"},
+        {"zh": "咕嘟嘟，射击准备！", "en": "Gudoo-doo, ready to shoot!"},
+        {"zh": "咕咕，锁定中！", "en": "Gukuk, locking target!"},
+        {"zh": "咕嘟，瞄准锁定！", "en": "Gudoo, target locked!"},
+        {"zh": "咕咕咕，瞄准射击！", "en": "Gukukuk, aim and shoot!"},
+        {"zh": "我盯着那块石头。", "en": "I keep my eyes on that rock."},
+        {"zh": "它一动，我就跑。", "en": "If it moves, I run."},
+        {"zh": "我的腿已经准备好了。", "en": "My legs are ready."},
+        {"zh": "它离我的巢太近了。", "en": "It's too close to my nest."},
+        {"zh": "要不要先叫一声？", "en": "Should I give a warning call first?"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘎嘎，别靠近我！", "en": "Gack! Stay back!"},
+        {"zh": "咕咕，小心点！", "en": "Guk! Be careful!"},
+        {"zh": "咯咯，离我远点！", "en": "Kuk! Keep away!"},
+        {"zh": "咕咕，我要啄你！", "en": "Guk! I'll peck you!"},
+        {"zh": "嘎嘎，闪开！", "en": "Gack! Move away!"},
+        {"zh": "咯咯，你太靠近了！", "en": "Kuk! You're too close!"},
+        {"zh": "咕咕，我要反击！", "en": "Guk! I'll fight back!"},
+        {"zh": "嘎嘎，我不喜欢你！", "en": "Gack! I don't like you!"},
+        {"zh": "咕咕，我要自卫！", "en": "Guk! I'm defending myself!"},
+        {"zh": "咯咯，你惹毛我了！", "en": "Kuk! You've angered me!"},
+        {"zh": "长腿一蹬，蹬在你身上！", "en": "A kick from my long leg lands on you!"},
+        {"zh": "我啄了你的手背！", "en": "I peck the back of your hand!"},
+        {"zh": "喙尖戳到了你的肋骨。", "en": "My beak jabs your ribs."},
+        {"zh": "这一脚带着逃跑的力气。", "en": "That kick was powered by panic."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕咕，我来了！", "en": "Guk! Here I am!"},
+        {"zh": "嘎嘎，我出壳了！", "en": "Gack! I hatched!"},
+        {"zh": "咯咯，我是来觅食的！", "en": "Kuk! I'm foraging!"},
+        {"zh": "我踩着落叶跑回来了。", "en": "I'm back, running over fallen leaves."},
+        {"zh": "嘎嘎，我要找食物！", "en": "Gack! I'm looking for food!"},
+        {"zh": "咯咯，我找到吃的了！", "en": "Kuk! I found food!"},
+        {"zh": "咕咕，我要休息了！", "en": "Guk! I'm going to sleep!"},
+        {"zh": "嘎嘎，我要搬家！", "en": "Gack! I'm relocating!"},
+        {"zh": "咯咯，我要找妈妈！", "en": "Kuk! I'm looking for mom!"},
+        {"zh": "咕咕，我要喝水！", "en": "Guk! I need water!"},
+        {"zh": "蛋壳裂开，我站起来了。", "en": "The shell cracked and I stood up."},
+        {"zh": "我从蕨丛里探出头。", "en": "I poke my head out of the ferns."},
+        {"zh": "沙地上多了一串三趾脚印。", "en": "A line of three-toed prints shows in the sand."},
+        {"zh": "我跟着族群跑进空地。", "en": "I run into the clearing with the flock."},
+        {"zh": "远处的草丛晃了一下。", "en": "The grass in the distance sways."},
+        {"zh": "我抖掉羽毛上的沙子。", "en": "I shake the sand off my feathers."},
+        {"zh": "刚孵化的腿还有点软。", "en": "My new legs are still a bit wobbly."},
+        {"zh": "我抬头看了看陌生的天空。", "en": "I look up at an unfamiliar sky."},
+        {"zh": "一只似鸡龙站在阳光下。", "en": "A Gallimimus stands in the sunlight."},
+        {"zh": "出壳第一眼看见的是草。", "en": "The first thing I saw from the egg was grass."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅膀受伤了，好疼，被火烧的滋味可不好受。", "en": "My wings are hurt, it hurts! — and the fire makes it worse."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "跌进火里了，好烫！", "en": "I fell into fire, it's so hot!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进火里了，快烧死了！", "en": "I fell into fire, I'm burning!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我跑得比火快，这次没跑掉。", "en": "I outrun fire; not this time."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被火烧伤了，好疼", "en": "Burned by fire, it hurts!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "符咒缠住我的长腿，我站不稳", "en": "A hex tangles my long legs and I can't stay upright."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿着肚子，好虚弱！", "en": "Starved, so weak!"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈在头顶，腿一软就跪了", "en": "Lightning hits my crown and my legs buckle under me."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进火里，快烧死了！", "en": "Fell into fire, burning!"}
+      ]
+    }
+  }
+}

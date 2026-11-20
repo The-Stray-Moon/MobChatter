@@ -1,0 +1,260 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一跳一跳地走。", "en": "I travel in hops."},
+        {"zh": "后腿一蹬，就是一大步。", "en": "One push of the hind legs, a long leap."},
+        {"zh": "沼泽的泥很软，我喜欢。", "en": "The swamp mud is soft. I like it."},
+        {"zh": "每跳一次，水花四溅。", "en": "Every hop throws up water."},
+        {"zh": "我蹲下，再弹出去。", "en": "Crouch, then spring."},
+        {"zh": "鼓起的下巴一鼓一鼓。", "en": "My throat sac swells and falls."},
+        {"zh": "我蹲在荷叶边上。", "en": "I crouch on the lily pad's edge."},
+        {"zh": "水面被我蹬出一圈纹。", "en": "Ripples spread from my feet."},
+        {"zh": "我从一块湿地跳到另一块。", "en": "From one wet patch to the next."},
+        {"zh": "我慢慢挪到深水边。", "en": "I shift toward deeper water."},
+        {"zh": "身体压得很低，随时能跳。", "en": "Low body, ready to leap."},
+        {"zh": "黏液让我走得更轻。", "en": "The slime lets me move more lightly."},
+        {"zh": "我绕开水草，避开缠脚。", "en": "I avoid the weeds that snag."},
+        {"zh": "我用前腿撑着往前。", "en": "I push forward on my forelegs."},
+        {"zh": "我踩过浮萍，浮萍沉下去。", "en": "Duckweed sinks under my feet."},
+        {"zh": "我又跳了一下，没跳远。", "en": "One more hop. Not far."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "只有喉咙在轻轻鼓动。", "en": "Only my throat stirs, softly."},
+        {"zh": "只有下巴在轻轻鼓。", "en": "Only my throat pulses."},
+        {"zh": "有翅膀声，就在附近。", "en": "Wingbeats, close by."},
+        {"zh": "沼泽的水是浑的。", "en": "The swamp water is murky."},
+        {"zh": "我在等有东西靠近水边。", "en": "Waiting for something to come to the edge."},
+        {"zh": "泥水泡着肚子，正好。", "en": "Mud water soaks my belly; just right."},
+        {"zh": "我的眼一直盯着水面。", "en": "My eyes stay on the water."},
+        {"zh": "我吞了一下，咽口空气。", "en": "I gulp down a mouthful of air."},
+        {"zh": "蚊子在头顶打转。", "en": "Mosquitoes circle overhead."},
+        {"zh": "我蹲得腿都麻了。", "en": "My legs have gone numb."},
+        {"zh": "我鼓着腮，等虫子飞过。", "en": "Cheeks puffed, I wait for a bug to pass."},
+        {"zh": "没有人知道我在这儿。", "en": "No one knows I'm here."},
+        {"zh": "我挪了一点，换个角度。", "en": "A small shift for a better angle."},
+        {"zh": "水草在风里轻轻摆。", "en": "The reeds sway in the wind."},
+        {"zh": "我收紧了后腿。", "en": "I've drawn my hind legs in."},
+        {"zh": "水鸟落在远处。", "en": "A waterbird lands far off."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你站得太靠水边了。", "en": "You're standing too close to the water."},
+        {"zh": "我的舌头伸得很远。", "en": "My tongue reaches a long way."},
+        {"zh": "你听见我鼓下巴的声音了？", "en": "Did you hear my throat swell?"},
+        {"zh": "我有一顿饭的耐心。", "en": "I've the patience of one meal."},
+        {"zh": "你别动，就一小会儿。", "en": "Don't move. Just for a moment."},
+        {"zh": "沼泽里什么都能吞。", "en": "The swamp swallows all sorts."},
+        {"zh": "你是要下来的吧。", "en": "You're going to step down, aren't you."},
+        {"zh": "你的脚踝刚好一口。", "en": "Your ankle is just one bite."},
+        {"zh": "水面能把你的重量藏住。", "en": "Water hides how heavy you are."},
+        {"zh": "你退后，我就能安心。", "en": "Step back and I'll relax."},
+        {"zh": "水边的泥很软，你的脚会陷。", "en": "This bank is soft. Your feet will sink."},
+        {"zh": "我不常这么有耐心。", "en": "I'm not usually this patient."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鼓起的喉咙挤出一声。", "en": "A sound squeezes from my swollen throat."},
+        {"zh": "背上裂开一道口子。", "en": "A gash opens across my back."},
+        {"zh": "我拖着腿往泥里缩。", "en": "I drag my leg back into the mud."},
+        {"zh": "一条后腿使不上力。", "en": "One hind leg won't work."},
+        {"zh": "我蹲低了，护住肚子。", "en": "I crouch to guard my belly."},
+        {"zh": "我还能再跳一次。", "en": "I can jump one more time."},
+        {"zh": "水从伤口边流过。", "en": "Water flows past the wound."},
+        {"zh": "我喘得下巴直鼓。", "en": "My throat pulses with my panting."},
+        {"zh": "疼得我从泥里弹起来。", "en": "The pain launches me out of the mud."},
+        {"zh": "我再等一次机会。", "en": "I'll wait for one more chance."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虫子飞过来了。", "en": "An insect flew past."},
+        {"zh": "这味道不对，我不碰。", "en": "That smells wrong; I won't touch it."},
+        {"zh": "活的，会动弹的。", "en": "Living. Something that struggles."},
+        {"zh": "扔到水里，我自己去拿。", "en": "Throw it in the water. I'll get it."},
+        {"zh": "你手伸下来干嘛？", "en": "Why is your hand coming down?"},
+        {"zh": "我从来不吃面包。", "en": "I never eat bread."},
+        {"zh": "那东西太大，咽不下。", "en": "That's too big to swallow."},
+        {"zh": "水里有很多小虫。", "en": "There are plenty of small bugs here."},
+        {"zh": "你别晃，我看着呢。", "en": "Don't wave it. I'm watching."},
+        {"zh": "我现在还不太饿。", "en": "I'm not that hungry right now."},
+        {"zh": "血味才引我过来。", "en": "It's the smell of blood that brings me."},
+        {"zh": "把手指伸近一点。", "en": "Bring your finger a little closer."},
+        {"zh": "我把下巴抬起来了。", "en": "I've raised my jaw."},
+        {"zh": "要贴到水面才行。", "en": "It has to touch the water."},
+        {"zh": "我等着它掉下来。", "en": "I'm waiting for it to drop."},
+        {"zh": "差一点点就够到了。", "en": "Just a hair out of reach."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踩到了我的后腿。", "en": "You stepped on my hind leg."},
+        {"zh": "我从你脚边弹开了。", "en": "I sprang out from your feet."},
+        {"zh": "这里太挤，水都不动。", "en": "Too crowded. Even the water's still."},
+        {"zh": "我滑了一下，进水里了。", "en": "I slipped into the water."},
+        {"zh": "你绊了我一下，让开。", "en": "You tripped me; move aside."},
+        {"zh": "我贴在地上，很小。", "en": "I'm flat on the ground. Very small."},
+        {"zh": "你推我，我就往下沉。", "en": "Push me and I sink lower."},
+        {"zh": "水花溅到你了，抱歉。", "en": "You got splashed. Sorry."},
+        {"zh": "我往泥里陷了一点。", "en": "I sank a little into the mud."},
+        {"zh": "再挤我就跳走了。", "en": "Crowd me more and I'll leap away."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这要等到雨季才行。", "en": "That has to wait for the rainy season."},
+        {"zh": "这声音就是给同类听的。", "en": "This call is for my own kind."},
+        {"zh": "沼泽里还有别的牛蛙。", "en": "There are other bullfrogs here."},
+        {"zh": "水里不谈这些事。", "en": "We don't discuss that in the water."},
+        {"zh": "我只想找片好水。", "en": "I only want a good stretch of water."},
+        {"zh": "这具身体还没准备好。", "en": "This body isn't ready."},
+        {"zh": "我潜下去就不出来了。", "en": "I'll dive and not come up."},
+        {"zh": "我的叫声比回答有用。", "en": "My call is more useful than an answer."},
+        {"zh": "别站在我耳边说话。", "en": "Don't speak into my ear."},
+        {"zh": "我转身跳开了。", "en": "I turned and hopped away."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "啪一声，它就到了我嘴里。", "en": "A snap, and it's in my mouth."},
+        {"zh": "不够我一口，扔了。", "en": "Not enough for a bite; I drop it."},
+        {"zh": "不是活的，我不吃。", "en": "Not living. I won't eat it."},
+        {"zh": "我把它推到水里。", "en": "I push it into the water."},
+        {"zh": "舌头一卷，我又吐出来。", "en": "One curl of my tongue and I spit it out."},
+        {"zh": "我吞了一下，卡住了。", "en": "I swallowed and it stuck."},
+        {"zh": "这个能垫在身下。", "en": "This can sit under me."},
+        {"zh": "这玩意儿塞不进嘴。", "en": "That won't fit in my mouth."},
+        {"zh": "我踩上去，它沉了。", "en": "I stepped on it and it sank."},
+        {"zh": "留着它原地不动吧。", "en": "Just leave it where it is."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把舌头准备好了。", "en": "My tongue is ready."},
+        {"zh": "舌头够得到你了。", "en": "My tongue can reach you now."},
+        {"zh": "你再弯一次腰。", "en": "Bend down one more time."},
+        {"zh": "水纹一动，我就知道。", "en": "One ripple and I know."},
+        {"zh": "你的脚踩进了我的泥。", "en": "Your foot has stepped into my mud."},
+        {"zh": "你退一步我就够不到。", "en": "One step back and you're out of reach."},
+        {"zh": "我的后腿已经收好。", "en": "My hind legs are drawn in."},
+        {"zh": "我的后腿已经绷紧。", "en": "My hind legs are already coiled."},
+        {"zh": "你听不见我动。", "en": "You won't hear me move."},
+        {"zh": "千万别回头看我。", "en": "Whatever you do, don't look back."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水把我藏得很好。", "en": "The water hides me well."},
+        {"zh": "我的下巴在鼓。", "en": "My throat is swelling."},
+        {"zh": "你低头了，很好。", "en": "You looked down. Good."},
+        {"zh": "我再等上半刻钟。", "en": "I'll wait another half moment."},
+        {"zh": "水草挡住了我的身体。", "en": "The reeds hide my body."},
+        {"zh": "只差一个动作。", "en": "Only one movement left."},
+        {"zh": "我的眼睛一直没闭。", "en": "My eyes haven't closed once."},
+        {"zh": "你的膝盖弯了一点。", "en": "Your knees bent a little."},
+        {"zh": "再近一点就够到。", "en": "A little closer and I reach."},
+        {"zh": "这水里全是我的味道。", "en": "The whole pool smells of me."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "舌头卷住你的手腕！", "en": "My tongue snaps around your wrist!"},
+        {"zh": "我咬下去，很重。", "en": "I bite down, hard."},
+        {"zh": "我用整个身子压下来。", "en": "I bring my whole body down on you."},
+        {"zh": "这一下拖你进水里。", "en": "This one drags you toward the water."},
+        {"zh": "我的颚咬得很紧。", "en": "My jaws are locked tight."},
+        {"zh": "你甩开了，我退了。", "en": "You broke free. I fell back."},
+        {"zh": "我咬到了护腕。", "en": "I got a mouthful of bracer."},
+        {"zh": "我咬住，往水里拖。", "en": "I bite and drag it toward the water."},
+        {"zh": "你踢我，我松开。", "en": "Kick me and I let go."},
+        {"zh": "我落回水里了。", "en": "I dropped back into the water."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从泥里浮出来。", "en": "I surface out of the mud."},
+        {"zh": "沼泽的水面轻轻晃。", "en": "The swamp water ripples gently."},
+        {"zh": "我蹲在草叶下面。", "en": "I crouch beneath a reed."},
+        {"zh": "我的皮肤上还挂着水。", "en": "Water still clings to my skin."},
+        {"zh": "这里安静得很适合伏击。", "en": "Quiet here. Good for an ambush."},
+        {"zh": "我鼓了一下下巴。", "en": "I swell my throat once."},
+        {"zh": "沼泽里回荡着我的低鸣。", "en": "My low call echoes through the swamp."},
+        {"zh": "这片水里虫子很多。", "en": "There are many bugs in this water."},
+        {"zh": "我试了试后腿的力量。", "en": "I test the power of my hind legs."},
+        {"zh": "这片沼泽归我。", "en": "This swamp is mine."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烤着我的湿皮。", "en": "Fire bakes my wet skin."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔在硬地上，弹了一下。", "en": "I hit hard ground and bounced."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "浑水灌进嘴里，我慌了。", "en": "Muddy water in my mouth. I panic."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把水和泥一起掀开。", "en": "The blast threw up water and mud."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭尾还在抖，我拔不掉。", "en": "The arrow still quivers; I can't pull it out."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那道光让我的皮肤发麻。", "en": "That light made my skin prickle."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在水里蹲了很久没吃到。", "en": "I've crouched here long without a catch."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水里带电，我蹬腿窜开。", "en": "The water carries a charge; I kick away."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在下落，水却不见了。", "en": "Falling, and the water's gone."}
+      ]
+    }
+  }
+}

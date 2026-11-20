@@ -1,0 +1,406 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅膀嗡嗡，绕着腐肉打转。", "en": "My wings buzz in circles around the rotten meat."},
+        {"zh": "这条小路，我一天飞八趟。", "en": "I fly this little path eight times a day."},
+        {"zh": "跟着尸体的味道走，不会迷路。", "en": "Follow the smell of corpses and you never get lost."},
+        {"zh": "六条腿走不快，翅膀快。", "en": "Six legs are slow; the wings are quick."},
+        {"zh": "有僵尸在动，我就凑过去。", "en": "If a zombie moves, I drift over to it."},
+        {"zh": "腐肉摊子在哪，我的航线就在哪。", "en": "Where the rotten flesh lies, there my flight path goes."},
+        {"zh": "我贴着地面飞，躲开鸟嘴。", "en": "I skim the ground to dodge hungry beaks."},
+        {"zh": "这只僵尸的脖子，我盯很久了。", "en": "I have watched this zombie's neck for a long while."},
+        {"zh": "翅膜每秒扇两百下，别数了。", "en": "My wings beat two hundred times a second; do not count."},
+        {"zh": "阳光太亮，我往阴影里钻。", "en": "The sun is bright; I duck into the shade."},
+        {"zh": "前面有只快倒的僵尸，我先等着。", "en": "A zombie is nearly down ahead; I will wait."},
+        {"zh": "我绕着你转，是因为你身上有味。", "en": "I circle you because you carry a certain smell."},
+        {"zh": "这一圈，是巡逻我的饭桌。", "en": "This loop is me patrolling my dinner table."},
+        {"zh": "落在木栅栏上，擦擦前腿。", "en": "I land on the fence post and wipe my front legs."},
+        {"zh": "腐肉摊前，我先落一脚。", "en": "I land a step before the carrion."},
+        {"zh": "翅膀一收，我停在水沟边。", "en": "Wings folded, I rest by the drain."},
+        {"zh": "阴影……回不去了。", "en": "shadows... I can't go back."},
+        {"zh": "我该往哪走来着？", "en": "Which way was I going?"},
+        {"zh": "影子比我走得快，可我先到。", "en": "My shadow moves faster, yet I arrive first."},
+        {"zh": "别催，我已经很快了。", "en": "Don't rush me. This is fast."},
+        {"zh": "我跟着一股臭味往前。", "en": "I follow a stench forward."},
+        {"zh": "风吹过来，我不冷。", "en": "Wind blows. I feel nothing."},
+        {"zh": "我绕着腐肉飞了三圈。", "en": "I circle the carrion three times."},
+        {"zh": "我六条腿在灰里走。", "en": "I walk through the ash on six legs."},
+        {"zh": "白天……讨厌白天。", "en": "Daylight... I hate daylight."},
+        {"zh": "有人在等我吗。大概没有。", "en": "Someone waiting? Probably not."},
+        {"zh": "腐肉上还有血，我落下。", "en": "There is still blood on the carrion; I land."},
+        {"zh": "腐肉的味道，我绕三圈。", "en": "I circle the rotten smell three times."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "停在这里，搓一搓前腿。", "en": "Stopped here, rubbing my front legs together."},
+        {"zh": "翅膀收起来，也很吵。", "en": "Folded wings still make a faint noise."},
+        {"zh": "我在等一只走不动的僵尸。", "en": "I am waiting for a zombie that cannot walk."},
+        {"zh": "天冷了，我的动作会慢半拍。", "en": "When it turns cold, I move half a beat slower."},
+        {"zh": "蛆在土里翻身，我听得见。", "en": "I can hear maggots turning in the soil."},
+        {"zh": "一只苍蝇的下午，就是晒太阳。", "en": "A fly's afternoon is just sitting in the sun."},
+        {"zh": "我数着草叶，数到第十七根。", "en": "I count blades of grass, up to the seventeenth."},
+        {"zh": "这块腐肉，留到傍晚再吃。", "en": "This bit of rotten flesh I save for evening."},
+        {"zh": "有人走过，风把我吹歪了。", "en": "Someone passed by; the breeze knocked me sideways."},
+        {"zh": "我的复眼里，你有很多个影子。", "en": "In my compound eyes you have many shadows."},
+        {"zh": "翅膀脏了，飞起来会打滑。", "en": "Dirty wings make my flight slip."},
+        {"zh": "下界？听说那里我会变红。", "en": "The Nether? They say I turn red down there."},
+        {"zh": "腐肉的味道，比花还准。", "en": "The reek of rotten flesh beats any flower."},
+        {"zh": "我停在墓碑上搓手。", "en": "I perch on a gravestone and rub my forelegs."},
+        {"zh": "呼吸……不必了。", "en": "Breathing... no longer needed."},
+        {"zh": "我好像忘了一件要紧事。", "en": "I forgot something important."},
+        {"zh": "腐肉的味道，指引我飞。", "en": "The smell of rotten flesh guides me."},
+        {"zh": "有东西快死了，我去等着。", "en": "Something is dying; I'll wait by it."},
+        {"zh": "我的复眼里全是碎光。", "en": "My compound eyes are full of broken light."},
+        {"zh": "有虫在土里翻身。", "en": "Worms turn in the soil."},
+        {"zh": "数一数肋骨。", "en": "Counting my ribs."},
+        {"zh": "太阳晒不暖我。", "en": "Sunlight warms nothing in me."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手上是不是拿过腐肉？", "en": "Have your hands held rotten flesh lately?"},
+        {"zh": "你眨一下眼，我看见了三次。", "en": "You blink once; I see it three times."},
+        {"zh": "别挥手，我的翅膀经不起拍。", "en": "Do not swat; my wings cannot take a hit."},
+        {"zh": "你站着不动，像一块好落脚的地方。", "en": "Standing still, you look like a fine place to land."},
+        {"zh": "你的汗味，比腐肉淡一点。", "en": "Your sweat smells fainter than rotten flesh."},
+        {"zh": "我落在你肩上，只歇一会儿。", "en": "I will land on your shoulder, just for a moment."},
+        {"zh": "你身后那只僵尸，快撑不住了。", "en": "That zombie behind you is nearly finished."},
+        {"zh": "抬头看我的时候，请别张嘴。", "en": "When you look up at me, please keep your mouth shut."},
+        {"zh": "你身上没有伤口，真可惜。", "en": "No wound on you; what a pity."},
+        {"zh": "你的影子够大，我能躲进去。", "en": "Your shadow is big enough to hide in."},
+        {"zh": "我们见过。在很久以前。", "en": "We met once, long ago."},
+        {"zh": "过来一点，我看不清。", "en": "Come closer. I can't see."},
+        {"zh": "你怎么还不倒下呢。", "en": "Why haven't you fallen yet?"},
+        {"zh": "你眨眼的时候，我最靠近。", "en": "I'm closest whenever you blink."},
+        {"zh": "你的名字……我记不住。", "en": "Your name... it slips away."},
+        {"zh": "我落在你的睫毛上。", "en": "I have landed on your eyelashes."},
+        {"zh": "你的影子真好看。", "en": "Your shadow is lovely."},
+        {"zh": "你的眼睛里有死气。", "en": "There is a dead look in your eyes."},
+        {"zh": "我绕着你的头打转。", "en": "I circle around your head."},
+        {"zh": "你身上的味道，快不行了。", "en": "Your smell says you are nearly done."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅膀破了个口，飞不稳了。", "en": "A hole in my wing makes my flight wobble."},
+        {"zh": "别拍，我这身板一碰就散。", "en": "Do not swat; this body falls apart at a touch."},
+        {"zh": "我的腿断了一条，还剩五条。", "en": "One leg is gone; five remain."},
+        {"zh": "疼是疼，可我还得飞。", "en": "It hurts, but I still have to fly."},
+        {"zh": "你一巴掌，我差点没了。", "en": "One slap and I was nearly gone."},
+        {"zh": "我的复眼花了，看你有重影。", "en": "My compound eyes blur; you have doubles."},
+        {"zh": "这点伤，几天就好了。", "en": "A wound like this heals in days."},
+        {"zh": "我掉在地上，翻了个身。", "en": "I dropped to the ground and rolled over."},
+        {"zh": "别补第二下，我已经飞不动。", "en": "Do not finish it; I can barely fly."},
+        {"zh": "翅膀还在响，我就没死。", "en": "As long as my wings buzz, I am alive."},
+        {"zh": "我这两点血不禁打。", "en": "With two health, I can't take a hit."},
+        {"zh": "我的腿断了两条。", "en": "Two of my legs are broken."},
+        {"zh": "退后。我警告你。", "en": "Back off. I'm warning you."},
+        {"zh": "这点疼，我还能飞。", "en": "A little sting. I can still fly."},
+        {"zh": "我掉在地上，翻过来。", "en": "I hit the ground and flipped over."},
+        {"zh": "我连骨头都是别人的。", "en": "Even my bones belonged to someone else."},
+        {"zh": "你别再拍我了，疼。", "en": "Stop swatting me, it hurts."},
+        {"zh": "再来。我扛得住。", "en": "Again. I can take it."},
+        {"zh": "我的薄翅缺了一角。", "en": "A corner of my thin wing is gone."},
+        {"zh": "你还挺有力气。", "en": "You've got strength."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐肉的味道，我隔着墙都闻得到。", "en": "I can smell rotten flesh through a wall."},
+        {"zh": "那块肉放下，我马上下来。", "en": "Set that meat down and I will come at once."},
+        {"zh": "你手里的东西，是不是坏了？", "en": "Is the thing in your hand spoiled?"},
+        {"zh": "越臭越好，我的鼻子就爱这个。", "en": "The stinkier the better; my nose loves it."},
+        {"zh": "我绕三圈，是在忍。", "en": "I circle three times because I am holding back."},
+        {"zh": "蛆虫的味道比腐肉更香。", "en": "Maggots smell even sweeter than rotten flesh."},
+        {"zh": "再放一会儿，我还没吃够。", "en": "Leave it out a moment longer; I am not full."},
+        {"zh": "你给的这一口，够我飞一整天。", "en": "This bite you offer will carry me all day."},
+        {"zh": "我扑过去了，谁让你举着肉。", "en": "I dive in; you were the one holding meat."},
+        {"zh": "腐烂的东西，对我是热饭。", "en": "Something rotten is a hot meal to me."},
+        {"zh": "我咬着牙呢。听见没。", "en": "Hear my teeth grind?"},
+        {"zh": "你别动，让我舔一口。", "en": "Hold still and let me take one lick."},
+        {"zh": "那块腐肉在朝我招手。", "en": "That rotten flesh is waving at me."},
+        {"zh": "我绕着你的伤口转。", "en": "I circle around your wound."},
+        {"zh": "那点血味让我发晕。", "en": "That hint of blood makes my head spin."},
+        {"zh": "我落在僵尸的肩膀上。", "en": "I land on a zombie's shoulder."},
+        {"zh": "活物的气味太浓了。", "en": "The living smell too strong."},
+        {"zh": "僵尸身上的味儿，我追着咬。", "en": "I chase the smell on a zombie."},
+        {"zh": "手指不听使唤了。", "en": "My fingers reach on their own."},
+        {"zh": "别喂我，我会跟着你。", "en": "Feed me and I'll follow."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "撞上我的翅膀了，让一让。", "en": "You hit my wing; step aside."},
+        {"zh": "我这么小，你居然撞得到。", "en": "I am this small, and you still managed to bump me."},
+        {"zh": "你走路带风，把我推了半米。", "en": "Your walking makes wind and pushes me half a meter."},
+        {"zh": "你的鞋底离我只有一寸。", "en": "Your sole is only an inch from me."},
+        {"zh": "撞一下没事，我的壳软。", "en": "A bump is fine; my shell is soft."},
+        {"zh": "你膝盖碰到的，是我的翅膀根。", "en": "What your knee touched is the base of my wing."},
+        {"zh": "我这身板，经不起第二次。", "en": "This little body cannot take a second one."},
+        {"zh": "你后退半步，我才有路飞。", "en": "Take half a step back so I have room to fly."},
+        {"zh": "差点被压成一小片。", "en": "I was nearly pressed into a little flake."},
+        {"zh": "别用手拨，我会断腿。", "en": "Do not brush me away; my legs will snap."},
+        {"zh": "疼……还会疼。", "en": "Pain... still pain."},
+        {"zh": "咔哒……谁撞了我？", "en": "click... who bumped me?"},
+        {"zh": "走开，我身上有土。", "en": "Move. I'm covered in dirt."},
+        {"zh": "你一挥，我就翻了个身。", "en": "One swat and I'm on my back."},
+        {"zh": "对不起。我该说这句吗。", "en": "Sorry. Was that right?"},
+        {"zh": "站稳，别踩我。", "en": "Steady. Don't tread on me."},
+        {"zh": "我的肩掉了。捡一下。", "en": "My shoulder fell. Pick it up."},
+        {"zh": "同类的味道？不是。", "en": "Kin? No. Not quite."},
+        {"zh": "我的薄翅被你碰皱了。", "en": "You have creased my thin wings."},
+        {"zh": "我撞在你手背上，弹开。", "en": "I hit your hand and bounce off."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手里有腐肉，我们就能成对。", "en": "Hold out rotten flesh and we can pair up."},
+        {"zh": "两只苍蝇的事，也要看肉。", "en": "Even two flies need meat to agree."},
+        {"zh": "我闻到另一只的翅膀声了。", "en": "I hear another pair of wings nearby."},
+        {"zh": "繁殖前先吃饱，这是规矩。", "en": "Eat well before breeding; that is the rule."},
+        {"zh": "我们会在腐肉上落下卵。", "en": "We will lay our eggs on the rotten flesh."},
+        {"zh": "那只飞得慢的，我看上了。", "en": "I have my eye on the slow flier over there."},
+        {"zh": "蛆是我们的孩子，别嫌它们。", "en": "The maggots are our children; do not scorn them."},
+        {"zh": "你多喂一块肉，就多一窝蛆。", "en": "One more piece of meat means one more brood."},
+        {"zh": "我的寿命短，得抓紧时间。", "en": "My life is short; I must hurry."},
+        {"zh": "配对成功，我就绕着她飞。", "en": "Paired up, I will circle her in flight."},
+        {"zh": "下辈子……我尽量早点来。", "en": "Next life, I'll come sooner."},
+        {"zh": "坟头并排挖两个？", "en": "Two graves, side by side?"},
+        {"zh": "月亮作证，我不会变心。", "en": "The moon knows I won't stray."},
+        {"zh": "你要是也死了就好了。", "en": "If only you were dead too."},
+        {"zh": "我们的卵会孵在尸身上。", "en": "Our eggs will hatch in the corpse."},
+        {"zh": "婚戒戴不上，那就跟着你。", "en": "A ring won't fit, so I'll just follow you."},
+        {"zh": "靠近点……不，还是算了。", "en": "Closer... no. Never mind."},
+        {"zh": "我给你留了半个坟。", "en": "I saved you half a grave."},
+        {"zh": "我们落在同一块腐肉上。", "en": "We have landed on the same piece of carrion."},
+        {"zh": "这副身子生不出什么。", "en": "This body makes nothing."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这块腐肉，我拖得动。", "en": "I can drag this piece of rotten flesh."},
+        {"zh": "掉了的蛆，我一条条捡回来。", "en": "I gather the fallen maggots one by one."},
+        {"zh": "你丢下的碎肉，归我了。", "en": "The scrap you dropped is mine now."},
+        {"zh": "太重了，我换六条腿一起抬。", "en": "Too heavy; I will lift it with all six legs."},
+        {"zh": "捡到一小块皮革，也能吃。", "en": "A scrap of leather I find is still food."},
+        {"zh": "这个东西比我的头还大。", "en": "This thing is bigger than my head."},
+        {"zh": "我先搬走，回头再慢慢啃。", "en": "I will carry it off and chew it later."},
+        {"zh": "地上有粒种子，也算收获。", "en": "A seed on the ground counts as a find."},
+        {"zh": "抱着蛆飞，翅膀有点沉。", "en": "Carrying a maggot in flight makes my wings heavy."},
+        {"zh": "松手，这块归我搬走。", "en": "Let go; this one is mine to haul."},
+        {"zh": "亮的东西，我都要。", "en": "Shiny things. I want them."},
+        {"zh": "这味道……像活人用过。", "en": "Smells like the living touched it."},
+        {"zh": "僵尸的味道，比什么都香。", "en": "The smell from a zombie beats anything."},
+        {"zh": "是给我的吗。", "en": "Is this for me?"},
+        {"zh": "我抱着一小块干皮。", "en": "I am clutching a scrap of dried skin."},
+        {"zh": "我捡它做什么。", "en": "Why am I taking this?"},
+        {"zh": "这个能换一块肉吗。", "en": "Will this buy me meat?"},
+        {"zh": "这块骨头归我，你们慢用。", "en": "This bone is mine. Enjoy the rest."},
+        {"zh": "带回去，埋起来。", "en": "Take it home. Bury it."},
+        {"zh": "这个能垫我的卵。", "en": "This will cushion my eggs."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那只僵尸，皮已经松了。", "en": "That zombie's skin is already loose."},
+        {"zh": "它走得很慢，正好下口。", "en": "It walks slowly, just right for a bite."},
+        {"zh": "我盯上的是快死的那只。", "en": "I have chosen the one close to falling."},
+        {"zh": "有腐尸味的地方，就有我的猎物。", "en": "Where the corpse smell is, my prey is."},
+        {"zh": "先咬脖子，那里最软。", "en": "Bite the neck first; it is softest there."},
+        {"zh": "你身边的僵尸，我接手了。", "en": "The zombie beside you is mine now."},
+        {"zh": "它的血不流了，肉还热。", "en": "Its blood has stopped, but the flesh is warm."},
+        {"zh": "一群苍蝇都来了，我得快。", "en": "The whole swarm is here; I must hurry."},
+        {"zh": "我闻到新鲜的死人味。", "en": "I smell a freshly dead thing."},
+        {"zh": "目标找到了，就在那棵树下。", "en": "Target found, right under that tree."},
+        {"zh": "它倒下去之前，我要先咬一口。", "en": "Before it falls, I want one bite."},
+        {"zh": "这只僵尸撑不过今晚。", "en": "This zombie will not last the night."},
+        {"zh": "哪里烂了，我就往哪里去。", "en": "Wherever something rots, I go."},
+        {"zh": "我跟到你倒下为止。", "en": "I will follow until you drop."},
+        {"zh": "死的活的，我都凑近。", "en": "Dead or alive, I come close."},
+        {"zh": "你走路的样子不稳了。", "en": "Your walk is getting unsteady."},
+        {"zh": "你的血在皮下跳。", "en": "Your blood is pulsing under the skin."},
+        {"zh": "那股味，是快死的人。", "en": "That smell is someone near death."},
+        {"zh": "追上你只是时间问题，腐肉味太浓。", "en": "Catching you is only a matter of time; the rot smell is strong."},
+        {"zh": "今晚有肉了。", "en": "There's meat tonight."},
+        {"zh": "我盯上了你的后颈。", "en": "I have my eye on your neck."},
+        {"zh": "我绕着你的头等一等。", "en": "I circle your head and wait."},
+        {"zh": "腐烂的味道，我替你清。", "en": "I'll clean up that rotting smell for you."},
+        {"zh": "那双眼睛，归我了。", "en": "Those eyes are mine."},
+        {"zh": "腐肉的味道，我落下了。", "en": "The smell of rotten flesh — I land."},
+        {"zh": "我落在你背上了，别动。", "en": "I'm on your back now, don't move."},
+        {"zh": "腐肉的味道，比花还香。", "en": "Rotten flesh smells sweeter than flowers."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴着它的后背飞。", "en": "I fly close along its back."},
+        {"zh": "它抬手了，我钻到腋下。", "en": "It raises an arm; I slip under it."},
+        {"zh": "别急，等它自己倒下。", "en": "Patience; let it fall on its own."},
+        {"zh": "我咬一口，它就少一分力气。", "en": "Each bite takes a little strength from it."},
+        {"zh": "它拍我，拍不到这么小的东西。", "en": "It swats at me but cannot hit something this small."},
+        {"zh": "我绕到它耳朵边，声音最大。", "en": "I circle to its ear, where the buzz is loudest."},
+        {"zh": "一千口也咬不死，我就咬一千口。", "en": "A thousand bites will not kill it, so I will bite a thousand times."},
+        {"zh": "它已经站不稳了，加点劲。", "en": "It can barely stand; press harder."},
+        {"zh": "它的脚步乱了，我跟着乱。", "en": "Its steps are clumsy; I follow clumsily."},
+        {"zh": "我落在它肩上，它没感觉。", "en": "I land on its shoulder and it feels nothing."},
+        {"zh": "它快倒了，我等那一口。", "en": "It is nearly down; I wait for that bite."},
+        {"zh": "追了半里地，我还没吃饱。", "en": "Chased it half a mile and I am still hungry."},
+        {"zh": "我在你耳后停了一下。", "en": "I paused behind your ear."},
+        {"zh": "我贴着你飞，不出声。", "en": "I fly close beside you, silent."},
+        {"zh": "你歇下的地方，就是我的饭桌。", "en": "Wherever you rest becomes my table."},
+        {"zh": "僵尸的味道，隔着林子都闻得到。", "en": "I smell the zombie through the trees."},
+        {"zh": "我等你摔第二跤。", "en": "I am waiting for your second stumble."},
+        {"zh": "腐肉的味道，我一路跟着。", "en": "I follow the smell of carrion all the way."},
+        {"zh": "僵尸的味儿，我绕不过去。", "en": "I can't resist the smell of a zombie."},
+        {"zh": "回头看看我。", "en": "Turn and look at me."},
+        {"zh": "你抬手，我就升一点。", "en": "When you raise a hand, I rise a little."},
+        {"zh": "你身上的温度在降。", "en": "Your warmth is dropping."},
+        {"zh": "这一路我都没离开。", "en": "I haven't left you this whole way."},
+        {"zh": "你跑不过一对薄翅。", "en": "You can't outrun a pair of thin wings."},
+        {"zh": "别停下，我正落在你后颈。", "en": "Don't stop — I'm landing on your neck."},
+        {"zh": "你身上那股味，隔远也闻得到。", "en": "I smell that on you from far off."},
+        {"zh": "你身上有腐肉味，我就跟着你。", "en": "You smell of rotten flesh, so I follow."},
+        {"zh": "腐味越来越浓了。", "en": "The smell of rot is getting stronger."},
+        {"zh": "我一直在你的视野边上。", "en": "I stay at the edge of your sight."},
+        {"zh": "腐肉的味道，我在十步外就闻到了。", "en": "I smell rot from ten paces away."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咬开了，它的皮像旧布。", "en": "Bit through; its skin is like old cloth."},
+        {"zh": "这一口不大，但我咬了很多次。", "en": "It is a small bite, but I have bitten many times."},
+        {"zh": "我的口器细，专挑缝。", "en": "My mouthparts are thin and seek the seams."},
+        {"zh": "咬到骨头了，硌牙。", "en": "Hit bone; it grates on my mouth."},
+        {"zh": "它抖了一下，我继续咬。", "en": "It twitched; I keep biting."},
+        {"zh": "血不流了，我还是咬。", "en": "The blood has stopped, but I bite anyway."},
+        {"zh": "这一下，替我的同伙咬的。", "en": "This bite is for the rest of my swarm."},
+        {"zh": "咬完就退，别被压到。", "en": "Bite and pull back before I am crushed."},
+        {"zh": "我的牙小，伤口却多。", "en": "My teeth are tiny, but the wounds add up."},
+        {"zh": "它终于倒了，我落在上面。", "en": "It finally fell; I land on it."},
+        {"zh": "停在僵尸背上，慢慢啃。", "en": "Perched on a zombie's back, I nibble."},
+        {"zh": "我落在僵尸肩上，咬一口。", "en": "I land on a zombie's shoulder and bite."},
+        {"zh": "我在你伤口上又叮一下。", "en": "I sting the wound again."},
+        {"zh": "我力气不大，但够。", "en": "Not strong. Strong enough."},
+        {"zh": "我落在你的护甲上，有点滑。", "en": "I landed on your armour and it is slippery."},
+        {"zh": "我的口器比针还细。", "en": "My mouthparts are finer than a needle."},
+        {"zh": "我咬了你一口，很小。", "en": "I bit you, just a little."},
+        {"zh": "我吐了口酸在你手上。", "en": "I spat acid on your hand."},
+        {"zh": "别躲，站好。", "en": "Don't dodge. Hold still."},
+        {"zh": "快死的东西，我最喜欢。", "en": "I love things that are nearly dead."},
+        {"zh": "这一下我咬在皮上。", "en": "This bite landed on bare skin."},
+        {"zh": "我这么小，咬你也不疼吧。", "en": "I am so small — my bite cannot hurt, right?"},
+        {"zh": "我是来叮将死的那个。", "en": "I come for the one already dying."},
+        {"zh": "你拍空了，我还在。", "en": "You missed, and I'm still here."},
+        {"zh": "这具身体只剩这个用处。", "en": "This body is good for this."},
+        {"zh": "倒下的时候轻一点，我只有两点血。", "en": "Fall gently; I have only two health."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐肉的味道把我从卵里叫醒。", "en": "The smell of rotten flesh woke me from the egg."},
+        {"zh": "我出生在一具没人收的尸体旁。", "en": "I was born beside an unclaimed body."},
+        {"zh": "主世界的空气，又湿又暖。", "en": "The overworld air is damp and warm."},
+        {"zh": "第一天，我就学会了绕圈飞。", "en": "On my first day I learned to fly in circles."},
+        {"zh": "我破蛆而出，翅膀还是软的。", "en": "I broke out of the maggot, wings still soft."},
+        {"zh": "这片草地，够我飞一辈子。", "en": "This meadow is enough for my whole life."},
+        {"zh": "我一睁眼，世界都是慢的。", "en": "I opened my eyes and the world was slow."},
+        {"zh": "有人在附近死了，我才来。", "en": "I only come when something dies nearby."},
+        {"zh": "第一次扇翅，只飞了半米。", "en": "My first wingbeat carried me half a meter."},
+        {"zh": "我闻见了这地方的气味，就留下。", "en": "I smelled this place and decided to stay."},
+        {"zh": "土松了一块，我就钻出来。", "en": "One loose patch of dirt, and I am out."},
+        {"zh": "有东西快死了，我闻得到。", "en": "Something is dying; I can smell it."},
+        {"zh": "光太亮……刺眼。", "en": "Light too bright... stings."},
+        {"zh": "我落在腐肉上，搓搓手。", "en": "I land on the rot and rub my legs."},
+        {"zh": "刚落地，先找具尸体。", "en": "Just landed, so first, find a corpse."},
+        {"zh": "我搓了搓前脚，起飞。", "en": "I rub my forelegs and take off."},
+        {"zh": "我从卵壳里爬出来。", "en": "I crawl out of the eggshell."},
+        {"zh": "没有活人，也没有腐肉。", "en": "No living, no carrion either."},
+        {"zh": "腐肉的味道把我引来。", "en": "The smell of carrion drew me here."},
+        {"zh": "我落在刚断气的东西上。", "en": "I land on something that just died."},
+        {"zh": "醒来的第一件事：饿。", "en": "First thing on waking: hunger."},
+        {"zh": "这里有几具尸体。", "en": "There are a few bodies here."},
+        {"zh": "我该往哪去。", "en": "Where should I go?"},
+        {"zh": "阴影……又回来了。", "en": "shadows... back again."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火一烧，我的翅膀先卷。", "en": "Fire curls my wings before anything else."},
+        {"zh": "我的薄翅，一碰火就卷。", "en": "One touch of flame curls my thin wings."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从三米高掉下来，壳裂了。", "en": "Dropped three meters and my shell cracked."},
+        {"zh": "我落到地上，翅还没收。", "en": "I hit the ground with my wings still open."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水滴裹住我，我喘不上气。", "en": "A drop of water traps me; I cannot breathe."},
+        {"zh": "沉下去……也好。", "en": "Sinking... fine by me."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一声炸响，我飞出了好远。", "en": "An explosion flung me far away."},
+        {"zh": "一只苍蝇被炸得翻了个面。", "en": "One fly got flipped over by the blast."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭擦过，带走半片翅。", "en": "An arrow grazed me and took half a wing."},
+        {"zh": "那支箭把我钉在墙上。", "en": "That arrow pinned me to the wall."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这股味道，让我翅膀发麻。", "en": "This strange scent makes my wings go numb."},
+        {"zh": "这股味道……不对劲。", "en": "This taste... wrong."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "三天没腐肉，我飞得发虚。", "en": "Three days without rotten flesh and my flight weakens."},
+        {"zh": "饿……比平常更饿。", "en": "Hungry... hungrier than usual."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷声太大，我躲进树皮缝。", "en": "The thunder is too loud; I hide in bark."},
+        {"zh": "雷一劈，我的翅膀都焦了。", "en": "One bolt and my wings are singed."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下面没有底，我一直往下掉。", "en": "There is no bottom below; I keep falling."},
+        {"zh": "我在往下掉，一直在掉。", "en": "Falling. Still falling."}
+      ]
+    }
+  }
+}

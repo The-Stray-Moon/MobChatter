@@ -1,0 +1,269 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我踮着脚在玄武岩上走。", "en": "I walk on tiptoe across the basalt."},
+        {"zh": "脚下的石头是烫的，我不在乎。", "en": "The stone is hot underfoot. I do not mind."},
+        {"zh": "我的小翅膀扇得很快。", "en": "My little wings beat very fast."},
+        {"zh": "我在岩浆边上跳来跳去。", "en": "I skip about at the edge of the lava."},
+        {"zh": "尾巴尖上烧着一团火。", "en": "A little fire burns at my tail tip."},
+        {"zh": "我边走边发出尖细的笑。", "en": "I giggle shrilly as I walk."},
+        {"zh": "我从火里穿过去，身上没焦。", "en": "I walk through the flames unburnt."},
+        {"zh": "我绕过熔岩池，脚步很熟。", "en": "I skirt the lava pool with practised steps."},
+        {"zh": "我的影子被火光照得乱跳。", "en": "Firelight makes my shadow jump about."},
+        {"zh": "我跑到岩柱后面躲了一下。", "en": "I run behind a basalt pillar and hide."},
+        {"zh": "我踩碎了一块焦黑的石头。", "en": "I crush a piece of charred stone."},
+        {"zh": "我边走边抛着小火球。", "en": "I toss a small fireball as I walk."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把火球在手里转。", "en": "I turn a fireball over in my hands."},
+        {"zh": "我在等有人走近岩浆。", "en": "I wait for someone to come near the lava."},
+        {"zh": "我的牙齿又尖又小。", "en": "My teeth are small and sharp."},
+        {"zh": "我蹲在岩柱上，晃着腿。", "en": "I squat on a basalt pillar, swinging my legs."},
+        {"zh": "火光在我眼里打转。", "en": "Firelight wheels in my eyes."},
+        {"zh": "我舔了舔手指上的火星。", "en": "I lick sparks off my fingers."},
+        {"zh": "这片荒地一直是热的。", "en": "These wastes are always hot."},
+        {"zh": "我张开手掌，火苗升起来。", "en": "I open my palm and a flame rises."},
+        {"zh": "我听着熔岩冒泡的声音。", "en": "I listen to the lava bubbling."},
+        {"zh": "我把小翅膀敛到背后。", "en": "I fold my little wings behind me."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你站到我的地盘上了。", "en": "You are standing on my ground."},
+        {"zh": "我比看上去要凶。", "en": "I am fiercer than I look."},
+        {"zh": "我的火球不用瞄准。", "en": "My fireballs need no aiming."},
+        {"zh": "我在想你能不能点着。", "en": "I am wondering whether you will catch fire."},
+        {"zh": "我的火球已经攒好了。", "en": "My fireball is ready."},
+        {"zh": "你退开，我就少烧你一下。", "en": "Step back and I will burn you one time less."},
+        {"zh": "这里的地面比你的鞋热。", "en": "The ground here is hotter than your boots."},
+        {"zh": "我从上面看你，很方便。", "en": "From up here you are easy to watch."},
+        {"zh": "你抬头的时候我笑了。", "en": "I laughed when you looked up."},
+        {"zh": "你的护甲缝里有缝隙。", "en": "There are gaps in your armor's seams."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我尖叫了一声，很刺耳。", "en": "I let out a piercing shriek."},
+        {"zh": "我跳开，抱着肩膀。", "en": "I hop back, clutching my shoulder."},
+        {"zh": "火苗暗了一下。", "en": "My flame dimmed for a moment."},
+        {"zh": "我退到岩柱后面。", "en": "I retreat behind a basalt pillar."},
+        {"zh": "这一下打断了我的笑。", "en": "That cut off my laughing."},
+        {"zh": "血滴在热石上，嗞了一声。", "en": "Blood drips onto hot stone and hisses."},
+        {"zh": "火灭了一半，我还能烧。", "en": "Half my flame is out; I can still burn."},
+        {"zh": "我咬着牙，翅膀在抖。", "en": "I grit my teeth, wings trembling."},
+        {"zh": "你打到我了，很有意思。", "en": "You hit me. Very interesting."},
+        {"zh": "我要加倍还给你。", "en": "I will repay that twice over."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "是烈焰粉的味道。", "en": "That smells like blaze powder."},
+        {"zh": "我不吃那个，我吃火。", "en": "I do not eat that. I eat fire."},
+        {"zh": "你手里有火星的味道。", "en": "Your hands smell of sparks."},
+        {"zh": "这供奉太没诚意。", "en": "This offering has no sincerity."},
+        {"zh": "我伸手碰了碰，是凉的。", "en": "I touch it. It is cold."},
+        {"zh": "扔进火里，我就收下。", "en": "Throw it in the fire and I will accept it."},
+        {"zh": "你退后点，别烧到。", "en": "Back off, or you will be burnt."},
+        {"zh": "这东西点燃了才好看。", "en": "This would look better burning."},
+        {"zh": "这个你自己收着。", "en": "Keep this one yourself."},
+        {"zh": "你的好意我笑纳了。", "en": "I accept your kindness with a grin."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火星落了一地，你躲开点。", "en": "Sparks hit the floor. Stay back."},
+        {"zh": "我被撞得跳了一下。", "en": "The impact made me hop."},
+        {"zh": "我的尾巴上的火晃了。", "en": "The fire on my tail swayed."},
+        {"zh": "我很轻，撞不疼你。", "en": "I am light; I cannot hurt you that way."},
+        {"zh": "别靠这么近，我身上有火。", "en": "Not so close; I'm made of fire."},
+        {"zh": "火星溅到你袖子上了。", "en": "Sparks landed on your sleeve."},
+        {"zh": "我吱了一声，往边上跳。", "en": "I squeak and hop aside."},
+        {"zh": "我们擦身过去，都带着热气。", "en": "We pass close, both trailing heat."},
+        {"zh": "你退开，我的火还在烧。", "en": "You back off; my fire still burns."},
+        {"zh": "这一碰让我笑出了声。", "en": "That bump made me laugh out loud."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我跟着你，替你点火。", "en": "I will follow and light fires for you."},
+        {"zh": "你引它，我扔火球。", "en": "You draw it in; I throw fire."},
+        {"zh": "我们站在岩浆两边。", "en": "We take opposite sides of the lava."},
+        {"zh": "我这火球不会烧到你。", "en": "My fireball will not burn you."},
+        {"zh": "你怕火，就站远些。", "en": "If you fear fire, stand further off."},
+        {"zh": "我把你护在岩柱后面。", "en": "I will keep you behind the basalt pillar."},
+        {"zh": "我们一起笑着看它烧。", "en": "We laugh together and watch it burn."},
+        {"zh": "你打近的，我打远的。", "en": "You take close range; I take the far."},
+        {"zh": "我不用你抱，我飞得快。", "en": "You need not carry me; I fly fast."},
+        {"zh": "玩够了我们就回火里。", "en": "When the fun is done, we go back to the fire."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "两指一捏，就起来了。", "en": "Two fingers pinch it up."},
+        {"zh": "这石头烫，正好。", "en": "This stone is hot. Just right."},
+        {"zh": "我扔进嘴里，嚼了两下。", "en": "I toss it in my mouth and chew twice."},
+        {"zh": "这不能吃，我吐出来。", "en": "This is not edible. I spit it out."},
+        {"zh": "我把它在火上烤了烤。", "en": "I hold it over the fire a moment."},
+        {"zh": "我把它烤热了再收起来。", "en": "I scorch it warm, then pocket it."},
+        {"zh": "我举到火边给你瞧。", "en": "I hold it by the fire to show you."},
+        {"zh": "这东西太凉，拿不住手。", "en": "This is too cold to hold comfortably."},
+        {"zh": "我藏到腰上的皮袋里。", "en": "I tuck it into the pouch at my waist."},
+        {"zh": "掉进熔岩了，没了。", "en": "It fell in the lava. Gone."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我看见你了，就在岩浆那边。", "en": "I see you, there past the lava."},
+        {"zh": "火球在我掌心里鼓起来。", "en": "A fireball swells in my palm."},
+        {"zh": "火球在我掌心转。", "en": "A fireball spins in my palm."},
+        {"zh": "你退不开，背后是熔岩。", "en": "You cannot back away; there is lava behind you."},
+        {"zh": "我先扔一个试试。", "en": "I will throw one to test."},
+        {"zh": "这距离正好。", "en": "This distance is just right."},
+        {"zh": "你在下风口，很不利。", "en": "You are downwind. Bad for you."},
+        {"zh": "我的笑声是给同伴的。", "en": "My laughter is for my companions."},
+        {"zh": "你挡在光里，很好找。", "en": "You stand against the glow. Easy to find."},
+        {"zh": "我不靠近，也能打到你。", "en": "I need not come close to hit you."},
+        {"zh": "这次我要扔准一点。", "en": "This time I will aim more carefully."},
+        {"zh": "你听见火球的响声了吗？", "en": "Do you hear the fireball?"},
+        {"zh": "你跑的方向有我的同伴。", "en": "There are companions of mine where you are running."},
+        {"zh": "这座岩柱后面看不见你。", "en": "I cannot see you behind that pillar."},
+        {"zh": "小火球，从另一边来。", "en": "The small fireball comes from the other side."},
+        {"zh": "现在，接一下这个。", "en": "Now — catch this."},
+        {"zh": "你别想着爬上来。", "en": "Do not think of climbing up here."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在岩柱上换位置。", "en": "I shift position on the pillars."},
+        {"zh": "我的火球只追一个方向。", "en": "My fireball chases one direction."},
+        {"zh": "我又攒了一个火球。", "en": "I have gathered another fireball."},
+        {"zh": "铁会烫，你会松手。", "en": "Iron burns. You'll let go."},
+        {"zh": "我等你的脚踩到岩浆边。", "en": "I wait for your foot to reach the lava's edge."},
+        {"zh": "你每次跳，我都看准了。", "en": "I mark every jump you make."},
+        {"zh": "熔岩的光让我藏不住。", "en": "The lava's light gives me away."},
+        {"zh": "我压低身子，飞得低些。", "en": "I crouch and fly lower."},
+        {"zh": "你的喘气声挺响。", "en": "Your panting is loud enough to hear."},
+        {"zh": "你手里的盾太小了。", "en": "That shield is too small."},
+        {"zh": "我一跳一跳数你的步子。", "en": "I count your steps hop by hop."},
+        {"zh": "你身后的岩壁挡了退路。", "en": "The rock wall behind you blocks the way back."},
+        {"zh": "火球在我手里越来越热。", "en": "The fireball grows hotter in my hand."},
+        {"zh": "你听见笑声了吧。", "en": "You heard the laughter, did you not?"},
+        {"zh": "再等一会儿就扔。", "en": "A little longer, then I throw."},
+        {"zh": "下界的热风替我掩护。", "en": "The nether's hot wind covers me."},
+        {"zh": "你转身，我就退。", "en": "You turn, and I retreat."},
+        {"zh": "我的翅膀已经张开。", "en": "My wings are already spread."},
+        {"zh": "这段距离刚好在射程内。", "en": "This is well within range."},
+        {"zh": "现在，我飞出去。", "en": "Now — I fly out."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火球砸在你脚边。", "en": "The fireball bursts at your feet."},
+        {"zh": "我贴上去，爪子烧红了你。", "en": "I press close; my claws sear you."},
+        {"zh": "我张开手掌，火喷出来。", "en": "I open my palm and fire sprays out."},
+        {"zh": "我飞到你背后扔了一个。", "en": "I fly behind you and throw one."},
+        {"zh": "烟直往你喉咙里钻。", "en": "Smoke goes straight down your throat."},
+        {"zh": "我落地，笑得更大声。", "en": "I land and laugh louder."},
+        {"zh": "你扑过来，我飞开了。", "en": "You lunge, and I fly clear."},
+        {"zh": "这一下烧到了你的靴子。", "en": "That caught your boots."},
+        {"zh": "我的火球偏了一点。", "en": "My fireball went a little wide."},
+        {"zh": "熔岩那边的石头爆了。", "en": "A stone by the lava bursts."},
+        {"zh": "我又攒了一个，很快。", "en": "I gather another, quickly."},
+        {"zh": "你退到岩柱后面，正好。", "en": "You retreat behind the pillar. Perfect."},
+        {"zh": "我在等你出来。", "en": "I wait for you to come out."},
+        {"zh": "火星落在我脚边，我踢开。", "en": "Sparks fall at my feet and I kick them aside."},
+        {"zh": "你身上还冒着烟。", "en": "You are still smoking."},
+        {"zh": "下次我扔两个。", "en": "Next time I throw two."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从熔岩的裂缝里钻出来。", "en": "I crawl out of a crack in the lava."},
+        {"zh": "玄武岩上多了个小影子。", "en": "There is one more small shadow on the basalt."},
+        {"zh": "我的尾巴先点着，然后是我。", "en": "My tail lit first; then the rest of me."},
+        {"zh": "下界的空气让我精神起来。", "en": "The Nether's air sharpens me."},
+        {"zh": "我抖了抖翅膀，火星四散。", "en": "I shake my wings and sparks scatter."},
+        {"zh": "我蹲在岩柱顶上，看着你。", "en": "I squat on a pillar top and watch you."},
+        {"zh": "我把火球在手里抛了两下。", "en": "I toss a fireball twice in my hand."},
+        {"zh": "这里的热气我熟。", "en": "I know this heat."},
+        {"zh": "我先笑了一声。", "en": "I laugh once first."},
+        {"zh": "我绕着熔岩池边跑了一圈。", "en": "I run one lap around the lava pool."},
+        {"zh": "我的脚尖落地，石头就响。", "en": "My toes touch down and the stone ticks."},
+        {"zh": "我从火里走出，身上没灰。", "en": "I walk out of the fire without a speck of ash."},
+        {"zh": "我看见新的脚步印。", "en": "I see fresh footprints."},
+        {"zh": "这次我不着急。", "en": "This time I am in no hurry."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火对我不算什么。", "en": "Fire is nothing to me."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我砸在岩柱上，摔得发晕。", "en": "I hit a pillar and land stunned."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水对我很陌生，我拼命挣扎。", "en": "Water is strange to me, and I thrash."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我掀进了岩壁。", "en": "The blast throws me into the rock."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冰凉的箭头卡在翅膀上。", "en": "A cold arrowhead sticks in my wing."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一股冷意让我打了个抖。", "en": "A coldness makes me shiver."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我饿得火都弱了。", "en": "Hunger has weakened my fire."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打下来，我被震得耳鸣。", "en": "Lightning strikes and my ears ring."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里没有热，我直往下掉。", "en": "There is no heat here, and I fall."}
+      ]
+    }
+  }
+}

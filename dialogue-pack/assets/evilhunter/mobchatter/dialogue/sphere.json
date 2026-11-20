@@ -1,0 +1,283 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嗡嗡响，球体滚动。", "en": "Rumble, rolling sphere."},
+        {"zh": "发出低沉嗡鸣，向前移动。", "en": "Buzzing low, rolling forward."},
+        {"zh": "光芒闪烁，逐渐接近。", "en": "Glittering light, approaching."},
+        {"zh": "加速滚动，寻找敌方。", "en": "Roll faster, seeking enemies."},
+        {"zh": "护盾闪烁，继续前进。", "en": "Shield flaring, moving forward."},
+        {"zh": "低语回响，向玩家靠近。", "en": "Whispering, moving toward you."},
+        {"zh": "护盾光芒增强，威胁玩家。", "en": "Shield glow stronger, threat shown."},
+        {"zh": "滚动中，护盾微闪。", "en": "Shield flickers, rolling."},
+        {"zh": "护盾亮了，先打穿再说。", "en": "The shield is up, so break it first."},
+        {"zh": "靠近玩家，护盾闪烁。", "en": "Approaching, shield flares."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "静止不动，等待目标。", "en": "Stationary, waiting for target."},
+        {"zh": "悬浮空中，静静观察。", "en": "Hanging, observing."},
+        {"zh": "发出轻微振动，保持警惕。", "en": "Vibrating lightly, alert."},
+        {"zh": "护盾微闪，静待时机。", "en": "Shield flickers, waiting."},
+        {"zh": "缓缓转动，保持警惕。", "en": "Rotating slowly, alert."},
+        {"zh": "光芒微弱，寻找猎物。", "en": "Faint light, searching."},
+        {"zh": "护盾微光，静待猎物。", "en": "Shield glows faintly, waiting."},
+        {"zh": "悬浮半空，静静等待。", "en": "Hanging in air, waiting."},
+        {"zh": "护盾微亮，随时准备。", "en": "Shield glowing, ready."},
+        {"zh": "保持静止，寻找目标。", "en": "Stationary, seeking target."},
+        {"zh": "我一层层叠起护盾，慢慢自转。", "en": "I layer my shield and slowly spin."},
+        {"zh": "我悬着，像呼吸一样起伏。", "en": "I hover, rising and falling like breath."},
+        {"zh": "我里面的光一明一暗。", "en": "The light inside me brightens and dims."},
+        {"zh": "我贴着墙角，像盏不动的灯。", "en": "I rest by the wall like a still lamp."},
+        {"zh": "我表面的细纹缓缓流动。", "en": "Fine patterns drift across my surface."},
+        {"zh": "我把嗡鸣压到几乎无声。", "en": "I lower my hum almost to silence."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定玩家，护盾微闪。", "en": "Target locked, shield flares."},
+        {"zh": "视线锁定，护盾闪烁。", "en": "Target locked, shield flares."},
+        {"zh": "这层护盾，得先打穿再说。", "en": "You must break through this shield first."},
+        {"zh": "光芒聚焦，瞄准玩家。", "en": "Light focused, targeting player."},
+        {"zh": "锁定玩家，护盾微动。", "en": "Targeted, shield moves."},
+        {"zh": "护盾还亮着，打不穿我。", "en": "My shield still glows; you cannot pierce me."},
+        {"zh": "目光锁定，护盾微动。", "en": "Locked gaze, shield moves."},
+        {"zh": "光芒闪烁，锁定玩家。", "en": "Glittering light, locked on player."},
+        {"zh": "光圈收窄，只留你一个。", "en": "My halo narrows until only you remain."},
+        {"zh": "护盾微亮，锁定玩家。", "en": "Shield glowing, locked on player."},
+        {"zh": "我转向你，光聚成一点。", "en": "I turn to you; my light gathers to a point."},
+        {"zh": "我隔着护盾打量你。", "en": "I study you through my shield."},
+        {"zh": "你的倒影在我表面晃动。", "en": "Your reflection wavers on my surface."},
+        {"zh": "你的影子被我的光拖到墙角。", "en": "My glow drags your shadow to the corner."},
+        {"zh": "你看我时，我也正看你。", "en": "When you look at me, I am looking back."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "能量受损，缓缓恢复。", "en": "Energy lost, slowly regenerating."},
+        {"zh": "护盾受创，抓紧恢复。", "en": "Shield damaged, try to mend."},
+        {"zh": "伤势沉重，小心恢复。", "en": "Serious injury, be careful to heal."},
+        {"zh": "受伤严重，尽快恢复。", "en": "Serious wound, heal quickly."},
+        {"zh": "护盾受损，请勿轻敌。", "en": "Shield damaged, don't be careless."},
+        {"zh": "能量受损，继续战斗。", "en": "Energy lost, keep fighting."},
+        {"zh": "受伤了，恢复吧。", "en": "Injured, heal yourself."},
+        {"zh": "能量受损，快恢复！", "en": "Energy lost, heal now."},
+        {"zh": "护盾受创，小心应对。", "en": "Shield damaged, be cautious."},
+        {"zh": "恢复能量，继续战斗。", "en": "Regenerate energy, keep fighting."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕噜咕噜，你看起来很有营养！", "en": "Rumble, rumble, yum yum!"},
+        {"zh": "我要吸收你的能量！", "en": "Absorb your energy!"},
+        {"zh": "靠近我，让我吞噬你！", "en": "Come closer, for I will consume you!"},
+        {"zh": "你身上的光芒很耀眼！", "en": "Your light is so bright!"},
+        {"zh": "护盾裂了，快补上能量。", "en": "My shield cracked — feed me more energy."},
+        {"zh": "你的存在让我变得更强！", "en": "Your presence strengthens me!"},
+        {"zh": "你体内有我要的资源！", "en": "You have what I need!"},
+        {"zh": "我来尝尝你的味道！", "en": "Let me taste you!"},
+        {"zh": "你就是我的下一个目标！", "en": "You are my next target!"},
+        {"zh": "别想逃，我会抓住你！", "en": "Don’t try to escape, I will get you!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "碰撞！我要打碎你！", "en": "Collision! I’ll break you!"},
+        {"zh": "别靠近我！我要反击！", "en": "Stay away! I’ll retaliate!"},
+        {"zh": "我要用力量摧毁你！", "en": "I’ll destroy you with force!"},
+        {"zh": "我的护盾能挡住你！", "en": "My shield can withstand you!"},
+        {"zh": "你太弱了，挡不住我！", "en": "You’re too weak to stop me!"},
+        {"zh": "我会粉碎你的！", "en": "I’ll crush you!"},
+        {"zh": "我的护盾还有四十点。", "en": "My shield still holds forty points."},
+        {"zh": "你碰到了我，痛苦吧！", "en": "You touched me, feel the pain!"},
+        {"zh": "我用力量击败你！", "en": "I’ll defeat you with strength!"},
+        {"zh": "你无法伤到我！", "en": "You can’t hurt me!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "两个光球撞在一起，护盾更亮。", "en": "Two orbs collide, and both shields flare."},
+        {"zh": "找到一个同伴！", "en": "Find a companion!"},
+        {"zh": "我们必须联手！", "en": "We must work together!"},
+        {"zh": "一个强大的盟友！", "en": "A powerful ally!"},
+        {"zh": "我们的力量更强了！", "en": "Our strength is greater!"},
+        {"zh": "护盾还有四十点，一起上。", "en": "The shield holds forty more, hit it together."},
+        {"zh": "我们需要一个伙伴！", "en": "We need a partner!"},
+        {"zh": "我们的力量结合！", "en": "Our powers unite!"},
+        {"zh": "我们需要更多的力量！", "en": "We need more strength!"},
+        {"zh": "一起变得更强大！", "en": "Become stronger together!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我感应到你了。", "en": "I feel you."},
+        {"zh": "我的嗡鸣一直跟着你。", "en": "My hum follows you everywhere."},
+        {"zh": "靠近一步，护盾就烫你一下。", "en": "One step closer and my shield burns you."},
+        {"zh": "我的护盾能挡住一切。", "en": "My shield can block anything."},
+        {"zh": "这层护盾还有四十点。", "en": "This shield still has forty points."},
+        {"zh": "护盾即将破裂。", "en": "My shield is weakening."},
+        {"zh": "这东西我吞进去，护盾又满了。", "en": "I swallow this and my shield is whole again."},
+        {"zh": "你的力量不足。", "en": "Your strength is insufficient."},
+        {"zh": "你的食物已经准备好了。", "en": "Your meal is ready."},
+        {"zh": "我护盾里还满着，你打不穿。", "en": "My shield is full — you cannot break through."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我滚过去，把你圈进护盾里。", "en": "I roll in and wrap you in my shield."},
+        {"zh": "你躲不开了。", "en": "You can't hide."},
+        {"zh": "你的行动被锁定了。", "en": "Your movement is locked."},
+        {"zh": "我的视线锁上你，护盾四十点。", "en": "My gaze locks on you, shield at forty points."},
+        {"zh": "你跑不出我这道光的半径。", "en": "You can't leave the radius of my light."},
+        {"zh": "光点收紧，全部落在你身上。", "en": "My light gathers into a point on you."},
+        {"zh": "护盾还亮着，先别急着打。", "en": "My shield is up. Hold your fire."},
+        {"zh": "我的护盾随时待命。", "en": "My shield is ready."},
+        {"zh": "我不会放过的。", "en": "I won't let go."},
+        {"zh": "我要把你撕碎。", "en": "I will tear you apart."},
+        {"zh": "我为你张开一圈护盾。", "en": "I open a ring of shield for you."},
+        {"zh": "护盾嗡了一声，我认出你了。", "en": "My shield hums once; I've found you."},
+        {"zh": "光点跳了一下，认出你。", "en": "A point of light jumps—I know you."},
+        {"zh": "你身上有我要的能量。", "en": "You carry the energy I want."},
+        {"zh": "我开始绕着你转。", "en": "I begin to circle you."},
+        {"zh": "你已经在我的半径里。", "en": "You are already inside my radius."},
+        {"zh": "我的嗡鸣变了调。", "en": "My hum has changed key."},
+        {"zh": "别动，我在量你。", "en": "Hold still; I am measuring you."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴着你转，找护甲的缝。", "en": "I circle close, hunting a seam in your armor."},
+        {"zh": "我的攻击会更致命。", "en": "My attack will be more fatal."},
+        {"zh": "让我看看你的防御。", "en": "Let's see your defenses."},
+        {"zh": "我会让你感受到痛。", "en": "I'll make you feel the pain."},
+        {"zh": "我一滚过去，就把你压扁。", "en": "One roll and I flatten you."},
+        {"zh": "我要让你屈服。", "en": "I'll make you yield."},
+        {"zh": "我会将你变成碎片。", "en": "I'll turn you into pieces."},
+        {"zh": "我的护盾会保护我。", "en": "My shield will protect me."},
+        {"zh": "我的护盾还剩四十点。", "en": "My shield still holds forty points."},
+        {"zh": "我的攻击不会失败。", "en": "My attack will not fail."},
+        {"zh": "护盾的缺口只留给你。", "en": "My shield's gap is meant only for you."},
+        {"zh": "我的核心越聚越亮。", "en": "My core gathers brighter and brighter."},
+        {"zh": "你退一步，我近一寸。", "en": "You step back; I close an inch."},
+        {"zh": "我已经算好你的距离。", "en": "I have your distance worked out."},
+        {"zh": "我转护盾，像在倒数。", "en": "I spin my shield like a countdown."},
+        {"zh": "我每嗡一声，就更近一点。", "en": "Each hum brings me a little closer."},
+        {"zh": "你的破绽我都记下了。", "en": "I noted every opening you showed."},
+        {"zh": "我的球心对着你的胸口。", "en": "My core lines up with your chest."},
+        {"zh": "我悬着不动，护盾转得很慢。", "en": "I hang still, shield turning slowly."},
+        {"zh": "我的护盾边缘开始发烫。", "en": "My shield's rim is heating up."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出一声低沉的嗡鸣，朝你逼近。", "en": "Buzzing low, it advances toward you."},
+        {"zh": "身体快速膨胀，护盾光芒大亮。", "en": "Body inflates, shield glow intensifies."},
+        {"zh": "用触手缠绕你，试图击退。", "en": "Wraps you in tentacles, trying to repel."},
+        {"zh": "释放电击，击打你的盔甲。", "en": "Discharges electricity, striking your armor."},
+        {"zh": "挤压身体，试图击晕你。", "en": "Compresses body, aiming to knock you out."},
+        {"zh": "挥舞双臂，向你投掷能量球。", "en": "Swings arms, hurling energy spheres at you."},
+        {"zh": "发出痛苦的嘶鸣，护盾破损。", "en": "Screams in pain, shield breaking."},
+        {"zh": "缩小身体，准备重新充能。", "en": "Contracts, preparing to recharge."},
+        {"zh": "用触手缠绕并撕裂敌人。", "en": "Wraps and rips enemies with tentacles."},
+        {"zh": "释放大量电荷，冲击周围的方块。", "en": "Releases massive charge, shocking surrounding blocks."},
+        {"zh": "我用护盾猛推，把你顶退。", "en": "I shove with my shield and drive you back."},
+        {"zh": "我整个撞过去，拖着电光。", "en": "I slam in whole, trailing sparks."},
+        {"zh": "我一圈能量炸开，震得你耳鸣。", "en": "I burst a ring of energy that rings your ears."},
+        {"zh": "我压住你，护盾咔咔作响。", "en": "I bear down as my shield crackles."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从远处电光中浮现。", "en": "Flickers into existence from distant lightning."},
+        {"zh": "从虚空之门缓缓升起。", "en": "Rises slowly from the void portal."},
+        {"zh": "在雷暴中突然出现。", "en": "Spawns suddenly in a storm."},
+        {"zh": "被强光吸引而来。", "en": "Drawn by strong light."},
+        {"zh": "在黑暗中隐现。", "en": "Appears and vanishes in the dark."},
+        {"zh": "被雷击激活，从地面涌出。", "en": "Activated by lightning, surges from the ground."},
+        {"zh": "在天空中盘旋，寻找猎物。", "en": "Loiters in the sky, searching for prey."},
+        {"zh": "被巨大的能量波动触发。", "en": "Triggered by massive energy波动, triggered by massive energy波动."},
+        {"zh": "在雷暴中心现身。", "en": "Appears at the center of a storm."},
+        {"zh": "被黑暗魔法召唤而来。", "en": "Summoned by dark magic."},
+        {"zh": "黑暗里先亮起我的一点光。", "en": "A point of my light wakes in the dark."},
+        {"zh": "我从空处展开成球。", "en": "I unfold from nothing into a sphere."},
+        {"zh": "我的嗡鸣从墙后传来。", "en": "My hum drifts from behind the wall."},
+        {"zh": "空气先震动，我才现身。", "en": "The air trembles before I appear."},
+        {"zh": "一团光慢慢凝成我。", "en": "A knot of light slowly becomes me."},
+        {"zh": "我从符文的缝隙里挤出来。", "en": "I squeeze out of a rune's seam."},
+        {"zh": "战场中央多了我这个光球。", "en": "A glowing orb—me—appears mid-battlefield."},
+        {"zh": "电光散尽，我悬在那儿。", "en": "The sparks fade; I hang there."},
+        {"zh": "远处的嗡鸣忽然变大。", "en": "The distant hum suddenly grows loud."},
+        {"zh": "我的护盾一亮，宣告我来了。", "en": "My shield flares, announcing my arrival."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰灼伤，难以恢复。", "en": "Burned by fire, hard to heal."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠落伤害，护盾受损。", "en": "Fall damage, shield lost."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "溺水伤害，能量受损。", "en": "Drowned, energy lost."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸伤害，护盾破裂。", "en": "Exploded, shield shattered."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弹道伤，护盾受损。", "en": "Projectile hit, shield lost."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法伤害，能量受损。", "en": "Magic attack, energy lost."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿难耐，能量耗尽。", "en": "Starving, energy drained."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击伤，护盾受损。", "en": "Lightning hit, shield lost."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空，能量耗尽。", "en": "Fell into void, energy lost."}
+      ]
+    }
+  }
+}

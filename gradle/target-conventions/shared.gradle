@@ -58,3 +58,7 @@ tasks.named('processResources', ProcessResources).configure {
         into 'docs/en'
     }
 }
+
+// dialogue-pack/ is the source of truth; pack it before common resources are copied.
+ext.dialogueRepositoryRoot = file('../..')
+apply from: file('../../gradle/target-conventions/dialogue-pack.gradle')

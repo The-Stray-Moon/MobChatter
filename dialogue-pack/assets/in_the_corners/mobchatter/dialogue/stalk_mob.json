@@ -1,0 +1,288 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我走一步，然后就不见了。", "en": "I take one step, and then I am gone."},
+        {"zh": "我在你前面消失，又在你后面出现。", "en": "I vanish ahead of you and appear behind."},
+        {"zh": "我的脚步没有声音，只有草在动。", "en": "My steps are silent; only the grass moves."},
+        {"zh": "我走的是你刚才走过的路。", "en": "I walk the path you just walked."},
+        {"zh": "我一消失，空气就凉了一截。", "en": "When I vanish, the air drops a degree."},
+        {"zh": "我走过来，影子留在原地。", "en": "I walk on, and my shadow stays behind."},
+        {"zh": "我从不走直线，我总是绕到你看不见的角。", "en": "I never walk straight; I always slip to an unseen corner."},
+        {"zh": "我一步一步换位置，越来越近。", "en": "I change position step by step, closer each time."},
+        {"zh": "我走过你的火把，火苗矮了一下。", "en": "I pass your torch and the flame dips."},
+        {"zh": "我从墙里穿过去，墙没有开口。", "en": "I pass through the wall and it does not open."},
+        {"zh": "我的动作断断续续的，像掉了帧。", "en": "My motion stutters, like dropped frames."},
+        {"zh": "我走过的地方，灰尘浮着不落。", "en": "Where I pass, the dust hangs and will not settle."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站在角落里，那里本来没有东西。", "en": "I stand in the corner where nothing stood before."},
+        {"zh": "我一动不动，你看不见我，但你知道。", "en": "I hold still; you cannot see me, but you know."},
+        {"zh": "我等在门后，等你走过去。", "en": "I wait behind the door for you to pass."},
+        {"zh": "我不呼吸，所以没有声音可以听。", "en": "I do not breathe, so there is no sound to hear."},
+        {"zh": "我贴着天花板，头朝下看着。", "en": "I cling to the ceiling, head down, watching."},
+        {"zh": "我把身体收得很小，藏在柜子边上。", "en": "I fold myself small at the edge of the cabinet."},
+        {"zh": "我站在窗外，只是一个轮廓。", "en": "I stand outside the window, only an outline."},
+        {"zh": "我停住的时候，时间好像也停住。", "en": "When I stop, time seems to stop with me."},
+        {"zh": "我在等你回头，我一直等。", "en": "I am waiting for you to look back, and I keep waiting."},
+        {"zh": "我身上有一层冷，靠近就感觉得到。", "en": "A cold clings to me, felt at close range."},
+        {"zh": "我坐在楼梯上，腿收在下面。", "en": "I sit on the stairs with my legs folded under."},
+        {"zh": "我的位置换过，你却没看见我动。", "en": "My position has changed, and you never saw me move."},
+        {"zh": "我静止时比动的时候更难受。", "en": "My stillness is worse than my motion."},
+        {"zh": "我藏在梁上，等你抬头。", "en": "I hide on the beam, waiting for you to look up."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从角落露出半张脸，看着你。", "en": "Half my face shows from the corner, watching you."},
+        {"zh": "你转身，我正对着你，离得很近。", "en": "You turn and I am facing you, very close."},
+        {"zh": "我不眨眼，因为我不会眨。", "en": "I do not blink, because I cannot."},
+        {"zh": "我的眼睛在你身后亮了一下。", "en": "My eyes glint behind you once."},
+        {"zh": "你举起火把，照到的是空墙。", "en": "You raise a torch and light only bare wall."},
+        {"zh": "我把头探出来，只探出一点。", "en": "I poke my head out, only a little."},
+        {"zh": "你退，我的头跟着偏过去。", "en": "You back away and my head tips after you."},
+        {"zh": "我贴在你耳边，你听见风。", "en": "I lean to your ear and you hear wind."},
+        {"zh": "你看我的时候，我往暗处退了半步。", "en": "While you look, I slip half a step into the dark."},
+        {"zh": "我对着你，脸一直没有动过。", "en": "I face you, and my face has not moved at all."},
+        {"zh": "你移开视线，我就靠近一点。", "en": "You look away, and I come a little nearer."},
+        {"zh": "我从镜子里看你，镜子里只有你。", "en": "I watch from the mirror, and the mirror shows only you."},
+        {"zh": "我抬起手，慢慢指着你。", "en": "I raise a hand and slowly point at you."},
+        {"zh": "你数着墙角的影子，多了一个。", "en": "You count the shadows in the corners, and one is extra."},
+        {"zh": "我在你的视野边缘，怎么都不进去。", "en": "I stay at the rim of your sight and never come in."},
+        {"zh": "你叫了一声，回答你的是背后的空气。", "en": "You call out, and the air behind you answers."},
+        {"zh": "你看我时，我的脸比刚才近了一寸。", "en": "As you watch, my face is an inch nearer."},
+        {"zh": "我把头歪到不可能的角度。", "en": "I tilt my head to an impossible angle."},
+        {"zh": "你的眼睛适应了黑，就看见我了。", "en": "Your eyes adjust to the dark, and there I am."},
+        {"zh": "我一直看着你，从头到尾。", "en": "I watch you from beginning to end."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被打中，那一块散开又聚回。", "en": "I am struck and that part scatters, then returns."},
+        {"zh": "我退了半步，退回暗处。", "en": "I give half a step back into the dark."},
+        {"zh": "我没有血，只有一团冷的空气。", "en": "I have no blood, only a pocket of cold air."},
+        {"zh": "我的轮廓晃了一下，又稳住了。", "en": "My outline wavers, then firms."},
+        {"zh": "你不该打得到我，可你打到了。", "en": "You should not have been able to hit me, and yet."},
+        {"zh": "我发出一声，方向不对。", "en": "I make a sound, and it comes from the wrong place."},
+        {"zh": "我倒下去，倒进阴影里。", "en": "I fall, and I fall into the shadow."},
+        {"zh": "我被击退，退到房间另一头。", "en": "Knocked back, I end up across the room."},
+        {"zh": "我的形状破了，边缘不平。", "en": "My shape is broken and my edges are wrong."},
+        {"zh": "你不看我时，伤口就不见了。", "en": "When you look away, the wound is gone."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你丢下东西，我没有去看。", "en": "You drop something and I do not look at it."},
+        {"zh": "你举起火把，我退到光的外面。", "en": "You raise a torch and I retreat past the light."},
+        {"zh": "你的光让我退，但我没有走远。", "en": "Your light pushes me back, but not away."},
+        {"zh": "你把东西摆成一排，我只看着你。", "en": "You line things up and I watch only you."},
+        {"zh": "你退到灯下，我就不进来了。", "en": "You step under the lamp and I do not come in."},
+        {"zh": "你把门打开，我停在门槛外。", "en": "You open the door and I stop at the threshold."},
+        {"zh": "你伸手过来，我的头往后缩。", "en": "You reach out and my head draws back."},
+        {"zh": "你手里的火晃，我跟着晃了一下。", "en": "The fire in your hand sways and I sway once."},
+        {"zh": "你点亮一圈火把，我绕着走。", "en": "You ring the place with torches and I walk around."},
+        {"zh": "我不吃你的东西，我只等你关门。", "en": "I do not take your food; I only wait for you to shut the door."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到我，那地方是空的。", "en": "You run into me, and that place is empty."},
+        {"zh": "我撞你一下，你退了两步。", "en": "I bump you once and you take two steps back."},
+        {"zh": "我的身体很冷，碰一下你就知道。", "en": "My body is cold; one touch tells you."},
+        {"zh": "你推我，我的手穿过了墙。", "en": "You push me and my hand passes into the wall."},
+        {"zh": "我贴在你背后，你转身撞上我。", "en": "I press to your back and you turn into me."},
+        {"zh": "我挡在门口，你挤不过去。", "en": "I fill the doorway and you cannot squeeze by."},
+        {"zh": "你撞上来，我的身体像雾一样散了。", "en": "You hit me, and my body scatters like fog."},
+        {"zh": "你从我身体里穿过去，打了个寒战。", "en": "You pass through me and shiver."},
+        {"zh": "我退开半步，让出一条路。", "en": "I draw back half a step and open a way."},
+        {"zh": "你踩到我的位置，那里已经空了。", "en": "You step where I was, and it is empty."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "角落里又出现一个，也看不见脸。", "en": "Another appears in the corner, also faceless."},
+        {"zh": "我们各站一个角，中间是你。", "en": "We take a corner each, with you between."},
+        {"zh": "它靠近我，我们合成一块黑。", "en": "It comes near and we merge into one dark."},
+        {"zh": "我们同时消失，又同时出现。", "en": "We vanish together and reappear together."},
+        {"zh": "我们不用说话，位置就换好了。", "en": "We need no words; our positions are already set."},
+        {"zh": "它把一部分伸进我这里，很凉。", "en": "It reaches part of itself into me, cold."},
+        {"zh": "两个影子在墙上叠成一个。", "en": "Two shadows fold into one on the wall."},
+        {"zh": "它退到另一个角，我留在原处。", "en": "It withdraws to another corner and I remain."},
+        {"zh": "我们一起朝你转过头。", "en": "We both turn our heads toward you."},
+        {"zh": "它走了，我的位置没有变。", "en": "It leaves and my position does not change."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你抓住我，手里只剩冷的空气。", "en": "You grab me and hold only cold air."},
+        {"zh": "你把我按在墙上，墙里没有人。", "en": "You pin me to the wall, and there is no one in it."},
+        {"zh": "你拽我的衣服，布散成了灰。", "en": "You pull my clothes and they crumble."},
+        {"zh": "你抱我，手臂合拢时我已经不在。", "en": "You embrace me, and by the time your arms close I am gone."},
+        {"zh": "你试着拖我走，我却在原地。", "en": "You try to drag me and I am still in place."},
+        {"zh": "你把我锁在屋里，我站在屋外。", "en": "You lock me inside and I stand outside."},
+        {"zh": "你伸手的时候，我先退了。", "en": "When you reach, I withdraw first."},
+        {"zh": "你把我堵在墙角，那墙角只有影子。", "en": "You corner me, and the corner holds only a shadow."},
+        {"zh": "你抓住我的手腕，它在我手里断开。", "en": "You seize my wrist and it comes apart in your grip."},
+        {"zh": "你松手，我站在三步之外。", "en": "You let go, and I stand three paces off."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我选定你了，从现在起你走不掉。", "en": "I have chosen you, and from now you cannot leave."},
+        {"zh": "我先消失，再在更近的地方出现。", "en": "I vanish first, then appear closer."},
+        {"zh": "我的位置忽然变到你旁边。", "en": "My position jumps to beside you."},
+        {"zh": "你听见身后一声轻响，那就是开始。", "en": "You hear a soft sound behind you, and that is the start."},
+        {"zh": "我把脸转正，对准你的方向。", "en": "I straighten my face toward you."},
+        {"zh": "我不再躲了，这是最坏的那一步。", "en": "I stop hiding, and that is the worst step."},
+        {"zh": "我一步一步缩短距离，中间会不见。", "en": "I shorten the distance step by step, vanishing along the way."},
+        {"zh": "你回头，我就往前挪了一格。", "en": "You look back and I have moved a block nearer."},
+        {"zh": "我把你周围的路都记下来了。", "en": "I have memorized every way out around you."},
+        {"zh": "我出现的位置，总是在你前面。", "en": "Wherever I appear, it is always ahead of you."},
+        {"zh": "我压低身体，融进影子。", "en": "I lower myself and melt into shadow."},
+        {"zh": "我的眼睛亮起来，只亮了一下。", "en": "My eyes light once, and only once."},
+        {"zh": "你听到的第二个脚步声，是我。", "en": "The second footstep you hear is mine."},
+        {"zh": "我朝你来了，走得不快，可我不会停。", "en": "I come for you, not quickly, but without pause."},
+        {"zh": "我选定你的时候，屋里静了一瞬。", "en": "When I choose you, the room falls quiet for an instant."},
+        {"zh": "我从门口让开，让你往里面走。", "en": "I step aside from the door and let you go deeper."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我跟着你，隔一段就换一个位置。", "en": "I follow you, changing position every stretch."},
+        {"zh": "你走三步，我出现在第四步的地方。", "en": "You take three steps; I appear where the fourth would land."},
+        {"zh": "你回头看，那个角落已经空了。", "en": "You look back and that corner is empty."},
+        {"zh": "我在你前面的门后等着。", "en": "I wait behind the door ahead of you."},
+        {"zh": "你绕过家具，我从另一头出现。", "en": "You skirt the furniture and I appear from the other side."},
+        {"zh": "我把你往深处引，路越来越窄。", "en": "I draw you deeper in, the way narrowing."},
+        {"zh": "你退，我就出现在你退的方向。", "en": "You retreat, and I appear in the direction you retreat to."},
+        {"zh": "我一次只靠近一点，你没察觉。", "en": "I close in a little at a time, unnoticed."},
+        {"zh": "你跑起来，我还是那个距离。", "en": "You run, and I keep the same distance."},
+        {"zh": "你数着自己的脚步，我数得更准。", "en": "You count your steps; I count them more exactly."},
+        {"zh": "我在你视野外待着，一直跟着。", "en": "I stay outside your sight and keep following."},
+        {"zh": "你一停，我就在离你两格的地方。", "en": "When you stop, I am two blocks away."},
+        {"zh": "你点了火把，我在火照不到的地方。", "en": "You light a torch and I stay where it does not reach."},
+        {"zh": "我把你的方向记牢，不会跟丢。", "en": "I hold your direction fast and never lose it."},
+        {"zh": "你转过三次弯，我一次都没落后。", "en": "You turn three corners and I fall behind at none."},
+        {"zh": "你开始听身后的声音，那就是我。", "en": "You start listening behind you, and that is me."},
+        {"zh": "你退到墙角，我就不再躲了。", "en": "You back into the corner and I stop hiding."},
+        {"zh": "我把你圈在中间，圈在慢慢收。", "en": "I ring you and the ring draws in."},
+        {"zh": "你喘得厉害，我一直没有呼吸。", "en": "You are panting; I have not breathed once."},
+        {"zh": "我在你侧面，一直保持着侧面的角度。", "en": "I stay on your flank, always at that angle."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从你背后伸手，抓住你的肩。", "en": "I reach from behind and take your shoulder."},
+        {"zh": "我拍你一下，冷顺着骨头走。", "en": "I touch you once and cold runs down the bone."},
+        {"zh": "我把你往墙里按，墙开始发软。", "en": "I press you toward the wall and it softens."},
+        {"zh": "我抓住你的手腕，你的手麻了。", "en": "I grip your wrist and your hand goes numb."},
+        {"zh": "我贴在你耳边，你很疼，却看不见我。", "en": "I press to your ear; it hurts and you cannot see me."},
+        {"zh": "我推你一下，你撞上门框。", "en": "I shove once and you hit the door frame."},
+        {"zh": "我从你身侧划过，留下一道凉。", "en": "I slice past your side and leave a cold line."},
+        {"zh": "我按住你的脸，让你转过来。", "en": "I hold your face and turn it toward me."},
+        {"zh": "我拉你的衣领，把你往后拖。", "en": "I pull your collar and drag you back."},
+        {"zh": "我抓你的喉咙，力气不大，你却喘不上。", "en": "I close on your throat, gently, and you cannot breathe."},
+        {"zh": "我从你脚下伸出手，抓住脚踝。", "en": "A hand comes up from below and takes your ankle."},
+        {"zh": "我一撞，你被推进了阴影。", "en": "One shove and you are into the shadow."},
+        {"zh": "我打完就退开，退到看不见的地方。", "en": "I strike and withdraw out of sight."},
+        {"zh": "我用手指划过你的背，很慢。", "en": "I drag my fingers down your back, slowly."},
+        {"zh": "我抓住你的头发，往暗处拉。", "en": "I seize your hair and pull toward the dark."},
+        {"zh": "我按住你的肩，你在原地动不了。", "en": "I pin your shoulder and you cannot move."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "角落里多了一个影子，没有形状。", "en": "A shadow appears in the corner, shapeless."},
+        {"zh": "你听见一声极轻的响，然后我在这里。", "en": "You hear the faintest sound, and then I am here."},
+        {"zh": "门没有开，我进来了。", "en": "The door never opened, and I am inside."},
+        {"zh": "灯灭的那一刻，我在房间里。", "en": "The light fails, and I am in the room."},
+        {"zh": "你转身，墙上多了一道长的影子。", "en": "You turn and there is a long shadow on the wall."},
+        {"zh": "我出现在你背后，一开始只是轮廓。", "en": "I appear behind you, at first only an outline."},
+        {"zh": "刷怪蛋落下，我比它先到。", "en": "The spawn egg falls, and I arrive before it."},
+        {"zh": "这间屋子的角落本来不该有东西。", "en": "This room's corners should have held nothing."},
+        {"zh": "你的火把自己暗了一下，然后我出现。", "en": "Your torch dims by itself, and then I appear."},
+        {"zh": "我从墙缝里出来，缝没有变宽。", "en": "I come out of a crack in the wall and it does not widen."},
+        {"zh": "你数过屋子里的影子，现在多一个。", "en": "You counted the shadows in the room; now there is one more."},
+        {"zh": "夜刚开始，我就在天花板上了。", "en": "Night has barely begun and I am already on the ceiling."},
+        {"zh": "我站在你的床脚，等你睁眼。", "en": "I stand at the foot of your bed, waiting for you to open your eyes."},
+        {"zh": "你听到消息说这里闹东西，我来了。", "en": "You heard this place was haunted, and here I am."},
+        {"zh": "我出现的时候，屋里所有的灯都偏了一下。", "en": "When I appear, every lamp in the room leans."},
+        {"zh": "我不敲门，我就在门里。", "en": "I do not knock; I am already inside the door."},
+        {"zh": "你刚砌好的墙角，我站在那儿。", "en": "I stand at the corner you just finished building."},
+        {"zh": "我慢慢从地板里升起来，一节一节。", "en": "I rise slowly out of the floor, piece by piece."},
+        {"zh": "你在院子里回头，屋里多了个影子。", "en": "You look back from the yard and the house has a new shadow."},
+        {"zh": "我出现时，狗都不叫了。", "en": "When I appear, the dogs stop barking."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火光烧到我，我散开又聚不回来。", "en": "Fire touches me and I scatter, unable to gather."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从梁上掉下，落地时没声。", "en": "I drop from the beam and land without a sound."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水进到我的形状里，我沉下去。", "en": "Water enters my shape and I sink."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我撕开，碎片落在四个角。", "en": "The blast shreds me, pieces landing in four corners."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭插进墙里，我已在更近处", "en": "The arrow sticks in the wall; I am already closer."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "药水的光罩住我，我动不了了。", "en": "The potion's light cages me and I cannot move."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不吃东西，可我会变得越来越薄。", "en": "I eat nothing, yet I grow thinner."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打下来，我被照得无处可藏。", "en": "Lightning strikes and I am lit with nowhere to hide."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉进虚空，还回头看着你。", "en": "I fall into the void, still looking back at you."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "挥舞弓箭，蓄力射箭。", "en": "Waving bow, drawing back an arrow."},
+        {"zh": "张弓射箭，目标锁定。", "en": "Draws back bow, locking target."},
+        {"zh": "快速移动，寻找猎物。", "en": "Quickly moves, searching for prey."},
+        {"zh": "在遗迹中穿梭，警惕四周。", "en": "Passes through ruins, vigilant."},
+        {"zh": "低语咒语，准备战斗。", "en": "Whispers incantations, preparing to fight."},
+        {"zh": "弓弦拉响，箭矢划破空气。", "en": "String taut, arrow slicing through air."},
+        {"zh": "步伐坚定，威慑敌人。", "en": "Firm steps, intimidating enemies."},
+        {"zh": "注视祭坛，寻找弱点。", "en": "Stares at the altar, searching for weaknesses."},
+        {"zh": "缓慢移动，保持专注。", "en": "Moves slowly, maintaining focus."},
+        {"zh": "警惕地巡视四周。", "en": "Cautiously surveys the area."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弓箭手雕像般矗立。", "en": "Stands like a statue archer."},
+        {"zh": "背靠遗迹墙，凝视远方。", "en": "Reclines against the ruins, gazing."},
+        {"zh": "目光游离，寻找目标。", "en": "Eyes wander, seeking targets."},
+        {"zh": "手握弓箭，静候敌人。", "en": "Holds bow, waiting for enemies."},
+        {"zh": "环顾四周，警惕环境。", "en": "Surveys the surroundings, vigilant."},
+        {"zh": "沉思弓箭之道。", "en": "Meditates on the bow."},
+        {"zh": "放松身体，凝神静听。", "en": "Relaxes, listening intently."},
+        {"zh": "眺望天空，寻找猎物。", "en": "Scans the sky, seeking prey."},
+        {"zh": "轻轻抚弄弓弦。", "en": "Tenderly touches the bowstring."},
+        {"zh": "倚墙而立，若有所思。", "en": "Leans against the wall, lost in thought."},
+        {"zh": "他把箭尖抵在祭坛上磨。", "en": "He hones an arrowhead against the altar."},
+        {"zh": "石像般的躯干纹丝不动。", "en": "His statue-like body does not stir."},
+        {"zh": "他数着箭袋里剩下的箭。", "en": "He counts the arrows left in his quiver."},
+        {"zh": "阿帕拉契亚的风吹过遗迹。", "en": "The Appalachia wind crosses the ruins."},
+        {"zh": "他记着每一支射出的箭。", "en": "He remembers every arrow he has loosed."},
+        {"zh": "祭坛的火光映在石甲上。", "en": "Altar light plays over his stone armor."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "眼神锐利，锁定玩家。", "en": "Sharp gaze, locking onto player."},
+        {"zh": "瞄准玩家，准备射击。", "en": "Aim at player, ready to shoot."},
+        {"zh": "警惕玩家，步步紧逼。", "en": "Nervous of player, closing in."},
+        {"zh": "注视玩家，发出警告。", "en": "Staring at player, giving warning."},
+        {"zh": "祭坛的宝石亮了，弓也拉开了。", "en": "The altar gem lit, and my bow is drawn."},
+        {"zh": "靠近玩家，准备战斗。", "en": "Approaches player, preparing to fight."},
+        {"zh": "弓弦绷紧，等待时机。", "en": "Bowstring taut, waiting for opportunity."},
+        {"zh": "瞄准玩家，蓄势待发。", "en": "Aiming at player, ready to fire."},
+        {"zh": "目光坚定，准备射击。", "en": "Resolute gaze, ready to shoot."},
+        {"zh": "眼神闪烁，锁定弱点。", "en": "Eyes flash, locking on weak point."},
+        {"zh": "他确认你站在射程正中。", "en": "He confirms you stand dead center in range."},
+        {"zh": "石甲下的眼缝收紧了。", "en": "The slit in his stone helm narrows."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弓弦绷紧，箭矢受阻！", "en": "Tighten the bow, stuck arrow!"},
+        {"zh": "箭矢受阻，无法射出！", "en": "Arrow stuck, can't shoot!"},
+        {"zh": "筋疲力尽，我几乎要倒下！", "en": "Exhausted, I nearly fall!"},
+        {"zh": "残破的弓，无力再战！", "en": "Rusty bow, can't fight anymore!"},
+        {"zh": "战甲受损，战斗不易！", "en": "Armor damaged, fighting hard!"},
+        {"zh": "伤痕累累，难以再动！", "en": "Wounds too deep, hard to move!"},
+        {"zh": "我几乎要坚持不住了！", "en": "I'm nearly worn out!"},
+        {"zh": "筋疲力尽，无力再战！", "en": "So tired, can't fight anymore!"},
+        {"zh": "疲惫不堪，无法继续！", "en": "Too exhausted, can't continue!"},
+        {"zh": "伤势严重，无法行动！", "en": "Serious injury, can't move!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "听到我的弓弦声，你会成为我的猎物。", "en": "Hear my bowstring, and you become my prey."},
+        {"zh": "用你的生命之箭填满我的箭袋。", "en": "Fill my quiver with the arrows of life."},
+        {"zh": "岩晶之弓在手中，永恒之力掌握。", "en": "In my hands, the Rock Crystal Bow and eternal power."},
+        {"zh": "我在这里等你，猎物永远不会失望。", "en": "I wait here, prey never disappoint."},
+        {"zh": "你的剑太轻，对付我无用。", "en": "Your sword is too light, useless against me."},
+        {"zh": "岩石中诞生，我永恒守护。", "en": "Born from stone, I eternal guard."},
+        {"zh": "你的箭无法穿透我的护甲。", "en": "Your arrows cannot pierce my armor."},
+        {"zh": "选择我，成为永恒的一部分。", "en": "Choose me, become part of the eternal."},
+        {"zh": "用阿帕拉契亚之心唤醒我。", "en": "Awaken me with the Apalachia Heart."},
+        {"zh": "我比任何弓箭都更强大。", "en": "I am stronger than any bow and arrow."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "岩石中传来我的咆哮，让你颤抖。", "en": "Rumble from the rocks, making you quake."},
+        {"zh": "我的存在，就是对你的警告。", "en": "My presence, a warning to you."},
+        {"zh": "避开我，否则你会后悔。", "en": "Avoid me, or you'll regret it."},
+        {"zh": "你敢靠近遗迹祭坛吗？", "en": "Dare you approach the altar?"},
+        {"zh": "用你的生命之箭攻击我？", "en": "Attack me with your life arrows?"},
+        {"zh": "你无法伤害我，岩石之护甲。", "en": "You cannot harm me, stone armor."},
+        {"zh": "我不会轻易落败。", "en": "I will not fall easily."},
+        {"zh": "你靠近了，离我再近一点。", "en": "You're close, get closer."},
+        {"zh": "用岩晶之弓攻击，否则。", "en": "Attack with the Rock Crystal Bow, or."},
+        {"zh": "我的护甲比你想象的更坚固。", "en": "My armor is stronger than you think."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在这里，等待我的伴侣。", "en": "I am here, waiting for my mate."},
+        {"zh": "找到我的同类，共享永恒。", "en": "Find my同类, share the eternal."},
+        {"zh": "我的声音召唤我的伴侣。", "en": "My voice calls my mate."},
+        {"zh": "我们共同守护这片土地。", "en": "We protect this land together."},
+        {"zh": "我的弓箭代表着我的承诺。", "en": "My bow represents my promise."},
+        {"zh": "与我并肩，共同面对挑战。", "en": "Stand by me, face the challenges."},
+        {"zh": "永恒之力，源自我的爱情。", "en": "Eternal power, from my love."},
+        {"zh": "让我们共同走过这片遗迹。", "en": "Let's walk this ruin together."},
+        {"zh": "我的伴侣，我的一切。", "en": "My mate, my everything."},
+        {"zh": "与我一起，体验永恒的爱。", "en": "Be with me, experience eternal love."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "手中的岩晶之弓闪烁着古朴光芒。", "en": "The Rock Crystal Bow glows with ancient light in your hands."},
+        {"zh": "阿帕拉契亚之心，力量之源。", "en": "The Appalachia Heart, the source of power."},
+        {"zh": "这把弓箭是永恒之选。", "en": "This bow is the eternal choice."},
+        {"zh": "岩晶之弓，我的同伴。", "en": "Rock Crystal Bow, my companion."},
+        {"zh": "永恒射手雕像，注视着我。", "en": "The Eternal Archer statue gazes upon me."},
+        {"zh": "岩晶之弓，准备好迎接战斗。", "en": "Rock Crystal Bow, ready for battle."},
+        {"zh": "阿帕拉契亚之心，我即将得到。", "en": "The Appalachia Heart, mine soon."},
+        {"zh": "岩晶突击者，我的力量源泉。", "en": "Rock Crystal Striker, my power source."},
+        {"zh": "永恒弓箭手，我的宿敌。", "en": "Eternal Archer, my foe."},
+        {"zh": "这雕像代表着永恒。", "en": "This statue represents eternity."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "猎物的气息越来越浓。", "en": "The prey's scent grows stronger."},
+        {"zh": "祭坛的宝石一亮，我拉开了弓。", "en": "The altar gem flares; I draw my bow."},
+        {"zh": "弓弦紧绷，箭矢出鞘。", "en": "The bowstring tightens, the arrow is drawn."},
+        {"zh": "永恒的箭矢，即将释放。", "en": "The eternal arrow is about to be released."},
+        {"zh": "目标就在眼前，一箭毙命。", "en": "The target is within sight, one arrow to kill."},
+        {"zh": "岩晶之弓，瞄准射击。", "en": "Rock Crystal Bow, aim and shoot."},
+        {"zh": "永恒弓箭手的箭矢，无坚不摧。", "en": "The Eternal Archer's arrows are unbreakable."},
+        {"zh": "锁定目标，永恒之箭。", "en": "Target acquired, eternal arrow."},
+        {"zh": "箭矢呼啸，目标已中。", "en": "The arrow whistles, the target is hit."},
+        {"zh": "永恒弓箭手，无坚不摧。", "en": "Eternal Archer, unbreakable."},
+        {"zh": "你踏上祭坛的台阶了。", "en": "You have stepped onto the altar's stair."},
+        {"zh": "宝石的光把你照亮了。", "en": "The gem's light has picked you out."},
+        {"zh": "他听见你拉动弓弦的声音。", "en": "He heard you draw a bowstring."},
+        {"zh": "遗迹里只有你一个活物。", "en": "You are the only living thing in these ruins."},
+        {"zh": "他的箭袋已经为你打开。", "en": "His quiver is already open for you."},
+        {"zh": "你离祭坛太近了。", "en": "You are too close to the altar."},
+        {"zh": "他数完你的步数，抬弓了。", "en": "He finishes counting your steps and lifts the bow."},
+        {"zh": "你的影子落在祭坛中央。", "en": "Your shadow falls across the altar's center."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的箭矢永不偏移。", "en": "My arrows never miss."},
+        {"zh": "永恒之光，引导箭矢。", "en": "Eternal light guides the arrow."},
+        {"zh": "锁定猎物，一箭穿心。", "en": "Lock on the prey, one arrow to the heart."},
+        {"zh": "永恒弓箭手，精准无误。", "en": "Eternal Archer, precise and accurate."},
+        {"zh": "瞄准，射击，毁灭。", "en": "Aim, shoot, destroy."},
+        {"zh": "我的箭矢，命中要害。", "en": "My arrows hit the mark."},
+        {"zh": "永恒弓箭手，精准之王。", "en": "Eternal Archer, king of precision."},
+        {"zh": "永恒之光，穿透一切。", "en": "Eternal light pierces through."},
+        {"zh": "锁定目标，箭矢将至。", "en": "Target locked, arrow coming."},
+        {"zh": "永恒弓箭手，无懈可击。", "en": "Eternal Archer, flawless."},
+        {"zh": "他退后一步，取好角度。", "en": "He steps back to take his angle."},
+        {"zh": "箭尖对着你的胸口不动。", "en": "The arrowhead holds steady on your chest."},
+        {"zh": "他把弓拉到最大弧度。", "en": "He draws the bow to its fullest arc."},
+        {"zh": "石甲转向，缝隙对准你。", "en": "His stone armor turns, seams aimed at you."},
+        {"zh": "他算好了你侧身的余地。", "en": "He has already allowed for your dodge."},
+        {"zh": "风停了，他要放箭了。", "en": "The wind dies. He is about to loose."},
+        {"zh": "他踩着祭坛边沿找角度。", "en": "He works the altar's rim for a clear line."},
+        {"zh": "第二支箭已搭上弦。", "en": "A second arrow is already nocked."},
+        {"zh": "他等你先动，再射。", "en": "He waits for you to move first."},
+        {"zh": "弓身发出低沉的绷响。", "en": "The bow hums with stored tension."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "挥舞长弓，箭矢划破长空！", "en": "Swing the longbow, arrows slicing the sky!"},
+        {"zh": "箭矢如雨，击破一切！", "en": "Arrows rain down, piercing all!"},
+        {"zh": "蓄力射击，瞄准弱点！", "en": "Load and shoot, target weak spots!"},
+        {"zh": "我的箭矢永不虚发！", "en": "My arrows never miss!"},
+        {"zh": "瞄准猎物，一箭双穿！", "en": "Target and shoot, double pierce!"},
+        {"zh": "弓弦震动，力量汇聚！", "en": "Bowstring vibrates, power converges!"},
+        {"zh": "猎物何足挂齿，一箭毙命！", "en": "Game not worth a bullet, one arrow kills!"},
+        {"zh": "箭矢呼啸，精准制导！", "en": "Arrows scream, precise guidance!"},
+        {"zh": "弓箭如风，无孔不入！", "en": "Arrows like wind, penetrate all!"},
+        {"zh": "猎物别想逃脱，箭矢封喉！", "en": "Game has no chance, arrow to the throat!"},
+        {"zh": "这一箭，量过你的距离！", "en": "This arrow was measured to your distance!"},
+        {"zh": "祭坛之上，箭不落空！", "en": "On this altar, no arrow misses!"},
+        {"zh": "拿你的心跳当靶心！", "en": "I use your heartbeat as the target!"},
+        {"zh": "石甲挡得住你的剑！", "en": "Stone armor turns your blade!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弓箭手的召唤仪式开始了！", "en": "Eternal Archer's summoning ritual begins!"},
+        {"zh": "阿帕拉契亚之心跳动着力量！", "en": "The Appalachia Heart beats with power!"},
+        {"zh": "遗迹祭坛，召唤永恒！", "en": "Relic altar, summon the eternal!"},
+        {"zh": "献上阿帕拉契亚宝石，唤醒我！", "en": "Offer the Appalachia gem, awaken me!"},
+        {"zh": "我的雕像，见证永恒之战！", "en": "My statue, witness eternal war!"},
+        {"zh": "岩晶之弓，我的得力助手！", "en": "Rock Crystal Bow, my trusty aid!"},
+        {"zh": "岩晶突击者，你的对手！", "en": "Rock Crystal Assaulters, your opponents!"},
+        {"zh": "献上祭品，召唤我吧！", "en": "Offer sacrifices, summon me!"},
+        {"zh": "永恒弓箭手，即将降临！", "en": "Eternal Archer, about to arrive!"},
+        {"zh": "我的存在，不容忽视！", "en": "My existence, cannot be ignored!"},
+        {"zh": "宝石嵌入，我睁开眼睛。", "en": "The gem seats, and I open my eyes."},
+        {"zh": "祭坛震动，永恒苏醒。", "en": "The altar shakes and eternity wakes."},
+        {"zh": "多少年了，终于有人献上宝石。", "en": "After so many years, someone brings a gem."},
+        {"zh": "阿帕拉契亚的守卫归位。", "en": "Appalachia's warden takes his post."},
+        {"zh": "我在这座祭坛上站了千年。", "en": "I have stood at this altar a thousand years."},
+        {"zh": "你把我的雕像唤醒了。", "en": "You have woken my statue."},
+        {"zh": "岩石记得我的每一箭。", "en": "The stone remembers every arrow of mine."},
+        {"zh": "献祭完成，试炼开始。", "en": "The offering is made. The trial begins."},
+        {"zh": "弓已在手，退路已断。", "en": "The bow is in hand. Your way back is closed."},
+        {"zh": "让我看看你配不配这颗心。", "en": "Let us see if you deserve this heart."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火舌舔上了我的石甲。", "en": "Flame licks across my stone armor."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从祭坛边缘跌了下来。", "en": "I dropped from the altar's edge."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进了石甲的缝隙。", "en": "Water pours into the seams of my armor."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸震裂了我的弓臂。", "en": "The blast cracked my bow's limb."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的箭找到了我的缝。", "en": "Your arrow found a seam in me."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咒语烧穿了我的石甲。", "en": "A spell burns through my stone armor."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "祭坛的供品早就没了。", "en": "The altar's offerings ran out long ago."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈中了我的弓身。", "en": "Lightning struck my bow."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "永恒的射手也会坠落。", "en": "Even an eternal archer can fall."}
+      ]
+    }
+  }
+}

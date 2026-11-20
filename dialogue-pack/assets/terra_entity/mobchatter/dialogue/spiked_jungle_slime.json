@@ -1,0 +1,252 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一跳一跳穿过藤蔓。", "en": "I hop through the vines."},
+        {"zh": "绿色的胶体里浮着草叶。", "en": "Grass blades float in the green gel."},
+        {"zh": "每一次落地都粘一下。", "en": "Each landing sticks for a moment."},
+        {"zh": "叶子被我带倒一片。", "en": "A patch of leaves goes down with me."},
+        {"zh": "丛林的地很软。", "en": "The jungle floor is soft."},
+        {"zh": "我跳起来的时候能看见树顶。", "en": "When I hop, I see the treetops."},
+        {"zh": "落下来只有树叶。", "en": "Landing, there is only leaves."},
+        {"zh": "我身上长着尖刺。", "en": "I grow spikes."},
+        {"zh": "它们挂在藤上。", "en": "They catch on the vines."},
+        {"zh": "我从一丛蕨上滚过去。", "en": "I roll over a fern."},
+        {"zh": "那片蕨被我压平。", "en": "That fern is flattened under me."},
+        {"zh": "这里的水汽让我更沉。", "en": "The damp makes me heavier."},
+        {"zh": "我还是跳得动。", "en": "I can still hop."},
+        {"zh": "我跳过的藤蔓，全沾着绿胶。", "en": "Every vine I hop past is smeared with green gel."},
+        {"zh": "藤蔓会被我压弯。", "en": "The vines bend under me."},
+        {"zh": "我走过的地方全是黏液。", "en": "Everything I cross is left slimy."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我停着，慢慢地鼓。", "en": "I rest and swell slowly."},
+        {"zh": "刺上的水珠在滴。", "en": "Drops fall from the spikes."},
+        {"zh": "脚下这块地很潮。", "en": "The ground under me is damp."},
+        {"zh": "我的胶体里有东西在动。", "en": "Something moves inside the gel."},
+        {"zh": "是我吃下去的叶子。", "en": "Leaves I swallowed."},
+        {"zh": "我把身体鼓了一下。", "en": "I swell my body once."},
+        {"zh": "随后又缩回来。", "en": "Then shrink back again."},
+        {"zh": "树上的猴子在叫。", "en": "Monkeys call in the trees."},
+        {"zh": "它们不敢下来。", "en": "They will not come down."},
+        {"zh": "一片叶子落在我身上。", "en": "A leaf falls onto me."},
+        {"zh": "我把它吞进去了。", "en": "I swallow it in."},
+        {"zh": "我的胶里有草籽。", "en": "There are grass seeds in my gel."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你站在藤蔓中间。", "en": "You stand among the vines."},
+        {"zh": "我离你就不远了。", "en": "I am close to you now."},
+        {"zh": "你身上没有刺。", "en": "You have no spikes."},
+        {"zh": "可我背上长着刺。", "en": "But spikes grow on my back."},
+        {"zh": "你的手上有泥。", "en": "There is mud on your hands."},
+        {"zh": "我浑身都是尖刺。", "en": "I am covered in spikes."},
+        {"zh": "这两样都不好。", "en": "Neither is a good thing."},
+        {"zh": "我盯上你踩在藤蔓上的脚。", "en": "You're standing in vines, mud all over your soles."},
+        {"zh": "丛林本来就这样。", "en": "The jungle is like this anyway."},
+        {"zh": "你往前迈了半步。", "en": "You took half a step forward."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我身上掉了些胶。", "en": "Some gel has come off me."},
+        {"zh": "刺被压弯了几根。", "en": "A few spikes are bent."},
+        {"zh": "我塌了半边，又慢慢鼓起。", "en": "Half of me collapsed, then slowly bulges back."},
+        {"zh": "这点伤不打紧。", "en": "That wound is nothing."},
+        {"zh": "我的胶在往下滴。", "en": "My gel drips down."},
+        {"zh": "滴到地上就长草。", "en": "Where it falls, grass grows."},
+        {"zh": "我塌下去一块。", "en": "Part of me collapses."},
+        {"zh": "又慢慢鼓起来。", "en": "Then slowly swells back."},
+        {"zh": "我两根刺断了，胶还在往下滴。", "en": "Two spines snapped, and gel still drips."},
+        {"zh": "断口还在流胶。", "en": "Gel still seeps from the breaks."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手上那东西。", "en": "That thing in your hand."},
+        {"zh": "我却瞧不明白。", "en": "I cannot make it out."},
+        {"zh": "我的眼睛在胶里。", "en": "My eyes are inside the gel."},
+        {"zh": "你手里的是什么颜色？", "en": "What colour is that in your hand?"},
+        {"zh": "我分不清颜色。", "en": "I cannot tell colours apart."},
+        {"zh": "你把它扔在地上。", "en": "You threw it on the ground."},
+        {"zh": "我根本看不见它。", "en": "I cannot see it at all."},
+        {"zh": "那味道也很淡。", "en": "The smell is faint as well."},
+        {"zh": "你是不是给错东西了。", "en": "Have you brought the wrong thing?"},
+        {"zh": "你手上那点东西不够塞的。", "en": "What you hold is not enough to plug anything."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你一碰我就扎到。", "en": "Touch me and you are pricked."},
+        {"zh": "那些刺还带毒。", "en": "The spikes carry venom."},
+        {"zh": "你最好别碰第二次。", "en": "Best not to touch a second time."},
+        {"zh": "你踏在我身上了。", "en": "You stepped onto me."},
+        {"zh": "刺扎进了鞋底。", "en": "A spike went through your sole."},
+        {"zh": "你整个人跳起来。", "en": "You jump clear off the ground."},
+        {"zh": "我在你脚还没抬的时候就挪了。", "en": "I moved before you lifted your foot."},
+        {"zh": "地上留了一摊绿。", "en": "A green puddle stays on the ground."},
+        {"zh": "你的靴底粘上了我的胶。", "en": "My gel is stuck to your boot sole."},
+        {"zh": "每走一步都黏。", "en": "Every step sticks fast."},
+        {"zh": "你会想把它刮掉。", "en": "You will want to scrape it off."},
+        {"zh": "你蹲下去处理它。", "en": "You crouch to deal with it."},
+        {"zh": "我在旁边等着。", "en": "I wait beside you."},
+        {"zh": "我贴在你鞋底上跟了一路。", "en": "I rode along on your boot sole."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我们不过是胶。", "en": "We are nothing but gel."},
+        {"zh": "胶没有配不配。", "en": "Gel does not pair off."},
+        {"zh": "我连自己有几只都说不清。", "en": "I cannot even say how many of me there are."},
+        {"zh": "我们只是散开又聚。", "en": "We scatter and gather, that is all."},
+        {"zh": "这个别再提了。", "en": "Do not bring that up."},
+        {"zh": "胶不会去找胶的。", "en": "Gel does not seek out gel."},
+        {"zh": "我们只是碰巧在一处。", "en": "We merely end up in the same place."},
+        {"zh": "我们没有什么可谈的。", "en": "There is nothing for us to discuss."},
+        {"zh": "你要真想要答案，是没有。", "en": "If you want an answer: no."},
+        {"zh": "我真的说不出更多了。", "en": "I truly cannot say more."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我压过叶子，它粘在刺上。", "en": "I roll over a leaf; it sticks to my spines."},
+        {"zh": "我压过去，它粘住了。", "en": "I press over it and it sticks."},
+        {"zh": "这样也算吃到了。", "en": "That counts as eating."},
+        {"zh": "叶子粘在我身上。", "en": "The leaf sticks to me."},
+        {"zh": "带刺的胶体，跳得更高。", "en": "Spiked gel jumps higher."},
+        {"zh": "过一会儿就化了。", "en": "In a while it dissolves."},
+        {"zh": "它卡在我的刺上。", "en": "It is caught on my spikes."},
+        {"zh": "我怎么也甩不掉。", "en": "I cannot shake it loose."},
+        {"zh": "我压过去的时候它已经烂了。", "en": "It had rotted before I pressed on it."},
+        {"zh": "烂的东西也吃。", "en": "Rotten things get eaten too."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在我的落点上。", "en": "You are on my landing spot."},
+        {"zh": "我弹起来，藤蔓还在晃。", "en": "I bounce up, vines still swaying."},
+        {"zh": "你别站着不挪。", "en": "Do not just stand there."},
+        {"zh": "我先试着跳一下。", "en": "Let me try one hop."},
+        {"zh": "你朝后缩了一步。", "en": "You shrank a step back."},
+        {"zh": "那说明你懂了。", "en": "So you understand."},
+        {"zh": "我的黏液已经渗到你鞋底。", "en": "My slime has already seeped under your sole."},
+        {"zh": "跳起来比走路快。", "en": "Hopping beats walking."},
+        {"zh": "你脚边的草在动。", "en": "The grass at your feet is moving."},
+        {"zh": "那是我的黏液。", "en": "That is my slime."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一下一下挪过去。", "en": "I shift closer, hop by hop."},
+        {"zh": "脚下越来越黏。", "en": "The ground gets stickier."},
+        {"zh": "你走路会出声音。", "en": "You make noise walking."},
+        {"zh": "我落在藤上又弹起来。", "en": "I land on a vine and bounce."},
+        {"zh": "每次弹起来我都看你一眼。", "en": "Each bounce, I glance at you."},
+        {"zh": "我从藤蔓上弹起，落到你背后。", "en": "I bounce off the vine and land behind you."},
+        {"zh": "你没往这儿看。", "en": "You are not looking this way."},
+        {"zh": "我在藤蔓后面等你。", "en": "I wait behind the vines."},
+        {"zh": "叶子挡着我一半。", "en": "The leaves hide half of me."},
+        {"zh": "我弹到你的侧面。", "en": "I bounce to your flank."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我整个人压上去。", "en": "I press my whole body onto you."},
+        {"zh": "那些刺先扎了进去。", "en": "The spikes go in first."},
+        {"zh": "然后才是毒性。", "en": "Then the venom."},
+        {"zh": "你被扎得甩手。", "en": "You shake your hand from the sting."},
+        {"zh": "毒性发作得很慢。", "en": "The venom works slowly."},
+        {"zh": "你会先觉得麻。", "en": "You will feel numb first."},
+        {"zh": "你的手一碰就缩。", "en": "Your hand jerks back at the touch."},
+        {"zh": "你被我裹了一下。", "en": "I wrap over you once."},
+        {"zh": "刺从各个方向来。", "en": "Spikes come from every side."},
+        {"zh": "你挣出去的时候掉了东西。", "en": "You dropped something getting free."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "藤叶底下鼓起一块。", "en": "A lump rises under the ferns."},
+        {"zh": "我慢慢挤出来。", "en": "I squeeze out slowly."},
+        {"zh": "这地方太潮了。", "en": "This place is very damp."},
+        {"zh": "我很喜欢这儿。", "en": "I like it here."},
+        {"zh": "我从腐叶里挤出来。", "en": "I push out from the rotting leaves."},
+        {"zh": "这根藤被我压断了。", "en": "I snapped this vine."},
+        {"zh": "这里热得发闷。", "en": "It is hot and close here."},
+        {"zh": "丛林的雨刚停。", "en": "The jungle rain has just stopped."},
+        {"zh": "地上的积水还没干。", "en": "The puddles have not dried."},
+        {"zh": "我从叶堆下面出来。", "en": "I come out from under the leaf litter."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎到我，胶开始冒泡。", "en": "Fire touches me and the gel bubbles."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从藤上滑下去，散了一块。", "en": "I slide off a vine and part of me scatters."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水把我泡开了一些。", "en": "The water loosens me a little."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆风把我的胶吹得一片。", "en": "The blast sprays my gel wide."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一根箭穿过我，留下洞。", "en": "An arrow passes through and leaves a hole."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那光让我的胶变硬。", "en": "That light hardens my gel."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿的时候我缩得比现在小。", "en": "Hungry, I shrink smaller than this."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打下来，刺上全是火。", "en": "Lightning strikes and my spikes carry fire."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我身上的刺都是绿的。", "en": "The spikes on me are all green."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我跟着主人跑", "en": "I run along with my master."},
+        {"zh": "我飘着跟在后面", "en": "I float along behind."},
+        {"zh": "我从半空往前扑", "en": "I lunge forward from the air."},
+        {"zh": "我绕着主人转半圈", "en": "I circle half around my master."},
+        {"zh": "我的小翅膀扑得很快", "en": "My small wings beat fast."},
+        {"zh": "我踩在地上又弹起", "en": "I touch down and spring up."},
+        {"zh": "我贴着地面飞一段", "en": "I fly low for a stretch."},
+        {"zh": "我绕开路中间的石头", "en": "I skirt the stone in the way."},
+        {"zh": "我一边飞一边看四周", "en": "I scan around as I fly."},
+        {"zh": "我一直跟得很紧", "en": "I keep close behind."},
+        {"zh": "我一步不落地追", "en": "I never fall behind."},
+        {"zh": "我冲到主人前面", "en": "I dash ahead of my master."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我悬在主人肩边", "en": "I hover by my master's shoulder."},
+        {"zh": "我歪着头等命令", "en": "I tilt my head for orders."},
+        {"zh": "我的小翅膀慢慢扇", "en": "My small wings beat slowly."},
+        {"zh": "我在半空停着", "en": "I hold still in the air."},
+        {"zh": "我盯着主人看的方向", "en": "I watch where my master looks."},
+        {"zh": "我慢慢地搓了搓手", "en": "I rub my hands together."},
+        {"zh": "我身上冒了一点烟", "en": "A little smoke rises off me."},
+        {"zh": "我悬在半空不动弹", "en": "I hang in the air, still."},
+        {"zh": "我落在地上歇脚", "en": "I light on the ground to rest."},
+        {"zh": "我在主人脚边绕了个小圈。", "en": "I circle once at my master's feet."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我挡在主人的身前", "en": "I stand before my master."},
+        {"zh": "我瞪着你直看", "en": "I glare at you."},
+        {"zh": "我的小翅膀停在半空", "en": "My wings pause mid-beat."},
+        {"zh": "你是敌人还是朋友", "en": "Friend or foe?"},
+        {"zh": "我把头歪着瞅你", "en": "I cock my head at you."},
+        {"zh": "我慢慢升高一点", "en": "I rise a little."},
+        {"zh": "我抬手指了指你", "en": "I point at you."},
+        {"zh": "我悬着等你先来", "en": "I hover, waiting for you."},
+        {"zh": "我在主人旁边待着", "en": "I stay at my master's side."},
+        {"zh": "你别靠得太近了", "en": "Do not come too close."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被打得晃了一下", "en": "The hit makes me bob."},
+        {"zh": "我退到主人旁边", "en": "I retreat to my master's side."},
+        {"zh": "我的火苗缩了一截。", "en": "My flame shrinks by half."},
+        {"zh": "我闷闷哼了一声", "en": "I let out a muffled sound."},
+        {"zh": "我身上的烟散了", "en": "The smoke around me thins."},
+        {"zh": "我扑了扑翅膀换气", "en": "I beat my wings and breathe."},
+        {"zh": "我还要接着打", "en": "I will keep fighting."},
+        {"zh": "我一点点端平身子", "en": "I level myself out slowly."},
+        {"zh": "我的火差点灭了", "en": "My fire nearly went out."},
+        {"zh": "我并没有退远", "en": "I did not retreat far."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手上攥着什么", "en": "What is in your fist?"},
+        {"zh": "我飘近了一点瞧", "en": "I drift nearer to look."},
+        {"zh": "我伸手够了一下", "en": "I reach for it."},
+        {"zh": "我把那东西在爪里翻了个面。", "en": "I turn the thing over in my claws."},
+        {"zh": "我回头看了看主人", "en": "I glance back at my master."},
+        {"zh": "我把它举起来", "en": "I lift it up."},
+        {"zh": "我又放回去了", "en": "I put it back down."},
+        {"zh": "我不太想要这个", "en": "I do not really want it."},
+        {"zh": "我摇摇小脑袋", "en": "I shake my small head."},
+        {"zh": "我飘回主人身边", "en": "I drift back to my master."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞我，我弹开一点", "en": "You bump me and I bob aside."},
+        {"zh": "主人一指，我就扑。", "en": "One point from my master and I pounce."},
+        {"zh": "我被撞得翻了个身，又稳住。", "en": "The hit flips me over; I right myself."},
+        {"zh": "我飘到你上方", "en": "I rise above you."},
+        {"zh": "我又回到主人旁边", "en": "I return to my master."},
+        {"zh": "我的身体还挺硬", "en": "My body is harder than it looks."},
+        {"zh": "我伸手挡了一下", "en": "I block once."},
+        {"zh": "我重重哼了一声", "en": "I let out a small grunt."},
+        {"zh": "我慢慢稳住自己", "en": "I steady myself."},
+        {"zh": "我一点都不怕你撞", "en": "I am not afraid of your shove."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "另一个小鬼飘来", "en": "Another imp drifts over."},
+        {"zh": "我们在半空转圈", "en": "We circle in the air."},
+        {"zh": "它个子比我矮些", "en": "It is shorter than I."},
+        {"zh": "我们一起回到主人身边", "en": "We drift back to our master together."},
+        {"zh": "我们的翅膀节奏一致", "en": "Our wingbeats fall in time."},
+        {"zh": "它跟我撞了撞手", "en": "It bumps my hand."},
+        {"zh": "我们一起往前飘", "en": "We drift forward together."},
+        {"zh": "我们两个都没开口", "en": "Neither of us opens a mouth."},
+        {"zh": "它先冲出去了", "en": "It dashes out first."},
+        {"zh": "我马上跟上去", "en": "I follow."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抓起那东西", "en": "I snatch it up."},
+        {"zh": "我用爪子掂了掂那东西。", "en": "I weigh the thing in my claws."},
+        {"zh": "我捧着送去给主人", "en": "I carry it to my master."},
+        {"zh": "我凑近先闻了闻", "en": "I sniff it first."},
+        {"zh": "我把它塞进袋子", "en": "I tuck it into the pouch."},
+        {"zh": "我随手就丢开了", "en": "I toss it away."},
+        {"zh": "我又把它捡回来", "en": "I pick it up again."},
+        {"zh": "主人指哪我就打哪。", "en": "Where my master points, I strike."},
+        {"zh": "我根本拿不动它", "en": "I cannot lift it."},
+        {"zh": "我干脆放弃它了", "en": "I give up on it."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我听见主人喊了", "en": "I hear my master call."},
+        {"zh": "我立刻转向那个方向", "en": "I turn that way at once."},
+        {"zh": "我的翅膀绷紧了", "en": "My wings go taut."},
+        {"zh": "我正在找目标", "en": "I am finding the target."},
+        {"zh": "主人锁定的就是那个", "en": "That is the one my master marked."},
+        {"zh": "我冲到前面去", "en": "I dash out front."},
+        {"zh": "我举起两只小手", "en": "I lift both little hands."},
+        {"zh": "它藏在哪我盯着", "en": "I keep my eyes where it hides."},
+        {"zh": "我的爪子已经烧红了。", "en": "My claws are already red-hot."},
+        {"zh": "我不等主人再说", "en": "I do not wait for another word."},
+        {"zh": "我先动上一步", "en": "I move first."},
+        {"zh": "这一个交给我", "en": "Leave this one to me."},
+        {"zh": "我把小身子伏低", "en": "I flatten my little body."},
+        {"zh": "我要抢在主人前面", "en": "I will get there before my master."},
+        {"zh": "我算好角度了", "en": "I have the angle."},
+        {"zh": "我朝它冲过去", "en": "I charge at it."},
+        {"zh": "千万别让它跑掉", "en": "It must not escape."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我围着它转圈飞", "en": "I fly rings around it."},
+        {"zh": "我在等它露出空隙", "en": "I wait for an opening."},
+        {"zh": "它往左我就跟左", "en": "It goes left; I follow left."},
+        {"zh": "我的手上聚起一点火", "en": "A little fire gathers in my hand."},
+        {"zh": "我穿过它和墙之间", "en": "I slip between it and the wall."},
+        {"zh": "它手一动我就飘开", "en": "It lifts a hand; I drift off."},
+        {"zh": "我保持在它背后", "en": "I stay behind it."},
+        {"zh": "我贴着墙影滑到它背后。", "en": "I slide along the wall's shadow behind it."},
+        {"zh": "我一点声音都没有", "en": "I make no sound."},
+        {"zh": "我又忍了半口气", "en": "I hold on half a breath more."},
+        {"zh": "我在找它最弱的地方", "en": "I am finding its weak point."},
+        {"zh": "从这个角正好够", "en": "This angle will do."},
+        {"zh": "我的尾巴尖扫过它的颈后。", "en": "My tail tip brushes the back of its neck."},
+        {"zh": "它转身我就动", "en": "It turns, and I move."},
+        {"zh": "我不急，我很快", "en": "No hurry; I am fast."},
+        {"zh": "我准备好出手了", "en": "I am ready to strike."},
+        {"zh": "它还在找我在哪", "en": "It is still looking for me."},
+        {"zh": "我的翅膀不扇也停得住", "en": "I can hold the air without beating."},
+        {"zh": "我一动就能到", "en": "One move and I am there."},
+        {"zh": "我等主人一个眼神", "en": "I wait for one look from my master."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一爪抓在它身上", "en": "I rake it with a claw."},
+        {"zh": "我甩出一小团火", "en": "I fling a little fire."},
+        {"zh": "我一爪撕开它的肩。", "en": "One claw tears open its shoulder."},
+        {"zh": "我撞在它的肩上", "en": "I slam into its shoulder."},
+        {"zh": "我抓完就退开", "en": "I claw and pull back."},
+        {"zh": "它被烫得跳了一下", "en": "The burn makes it jump."},
+        {"zh": "我从侧面又抓一下", "en": "I rake again from the side."},
+        {"zh": "我又添了一爪子", "en": "I tack on one more claw."},
+        {"zh": "它把我的头一下挡了", "en": "It stops my first swing."},
+        {"zh": "我从它腿边窜过去", "en": "I dart past its legs."},
+        {"zh": "我撞到墙上又弹回", "en": "I hit the wall and bounce back."},
+        {"zh": "我抓破了它的袖子", "en": "I tear its sleeve."},
+        {"zh": "它向我挥了一下", "en": "It swings at me."},
+        {"zh": "我躲开又扑上去", "en": "I dodge and lunge back in."},
+        {"zh": "我的手里还有火", "en": "There is still fire in my hand."},
+        {"zh": "我一直不停手", "en": "I do not stop."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被召了出来", "en": "I am summoned out."},
+        {"zh": "我从一小团烟里现身", "en": "I appear from a puff of smoke."},
+        {"zh": "我先看了看主人", "en": "First I look at my master."},
+        {"zh": "召唤的烟还没散，我已悬停。", "en": "The summoning smoke has not cleared; I already hover."},
+        {"zh": "我在主人肩边停住", "en": "I stop by my master's shoulder."},
+        {"zh": "我身上还在冒烟", "en": "Smoke is still rising off me."},
+        {"zh": "我沾了下地又飘起", "en": "I touch down and float up."},
+        {"zh": "我绕着主人转了半圈", "en": "I circle half around my master."},
+        {"zh": "我站到了该站的地方", "en": "I have taken my spot."},
+        {"zh": "我悬着听主人吩咐", "en": "I hang here for orders."},
+        {"zh": "我开始往四周看", "en": "I start scanning around."},
+        {"zh": "我的小翅膀张开了", "en": "My small wings spread."},
+        {"zh": "那声召唤我听见了", "en": "I heard the summoning."},
+        {"zh": "我这不就来了", "en": "And here I am."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烧着我的身体", "en": "Fire burns my body."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "翅膀没兜住风，我直往下坠。", "en": "My wings catch no air; I drop straight down."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水把我的火浇灭了", "en": "Water puts my fire out."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我吹出去很远", "en": "The blast throws me far."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭羽挂在我的翼膜上。", "en": "Fletching snags in my wing membrane."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咒光烧得我发白", "en": "Spell light burns me pale."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我饿得飞不稳", "en": "Hunger makes my flight unsteady."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光打得我浑身发麻", "en": "Lightning leaves me numb."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我往下掉，抓不到东西", "en": "I fall with nothing to catch."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "轻盈的步伐飘过草地。", "en": "Graceful steps on the grass."},
+        {"zh": "缓慢地咀嚼着树叶。", "en": "Chewing leaves slowly."},
+        {"zh": "用触手轻轻触碰地面。", "en": "Touching the ground gently with tentacles."},
+        {"zh": "悠闲地在林间漫步。", "en": "Wandering through the forest leisurely."},
+        {"zh": "伸展身体寻找食物。", "en": "Stretches to find food."},
+        {"zh": "安静地走过小溪。", "en": "Passes quietly by the stream."},
+        {"zh": "享受着清晨的露水。", "en": "Enjoys the morning dew."},
+        {"zh": "沿着河流缓慢移动。", "en": "Moves slowly along the river."},
+        {"zh": "轻巧地跳跃到枝头。", "en": "Jumps lightly onto the branch."},
+        {"zh": "漫步在柔软的苔藓上。", "en": "Strolls on the soft moss."},
+        {"zh": "乘着上升气流飘过浮岛", "en": "It rides the updraft across a floating island."},
+        {"zh": "脚掌踩在云苔上，软软的", "en": "Its feet sink softly into the cloud moss."},
+        {"zh": "它绕着岛缘走，避开空处", "en": "It walks the isle's rim, avoiding the gaps."},
+        {"zh": "长尾一摆，转向另一片草地", "en": "A swing of its long tail turns it to another meadow."},
+        {"zh": "走走停停，嗅着风来的方向", "en": "It wanders, sniffing where the wind comes from."},
+        {"zh": "它低头舔了舔石上的露水", "en": "It bends to lick dew off the stone."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "安静地站立在树荫下。", "en": "Stands quietly in the shade of the tree."},
+        {"zh": "闭上眼睛享受宁静。", "en": "Closes eyes to enjoy the peace."},
+        {"zh": "静静地站在花朵旁。", "en": "Stands quietly by the flower."},
+        {"zh": "凝视着远方的天空。", "en": "Gazes at the distant sky."},
+        {"zh": "舔舐着湿润的触手。", "en": "Licks its wet tentacles."},
+        {"zh": "懒洋洋地打量四周。", "en": "Lazily surveys the surroundings."},
+        {"zh": "微风吹拂下轻摆触手。", "en": "Tentacles sway gently in the breeze."},
+        {"zh": "安静地享受片刻时光。", "en": "Enjoys a quiet moment."},
+        {"zh": "静静地倾听森林的声音。", "en": "Listens quietly to the forest sounds."},
+        {"zh": "在阳光下缓缓伸展。", "en": "Stretches slowly in the sun."},
+        {"zh": "卧在苔上，尾巴搭着身子", "en": "It lies on the moss, tail over its body."},
+        {"zh": "它仰头看着岛外的云海", "en": "It looks up at the sea of clouds beyond the isle."},
+        {"zh": "耳朵抖了抖，赶走一只虫", "en": "Its ear flicks, shooing a bug away."},
+        {"zh": "风一变，它就换个方向站着", "en": "When the wind shifts, it turns to face it."},
+        {"zh": "它把鼻子埋进柔软的苔里", "en": "It buries its nose in the soft moss."},
+        {"zh": "光尘落在背上，它没动", "en": "Light dust settles on its back; it does not move."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的触手在空气里打着手势。", "en": "My tendrils make gestures in the air."},
+        {"zh": "轻轻挪动触手示意。", "en": "Gently moves tentacles as a sign."},
+        {"zh": "靠近玩家观察。", "en": "Approaches the player to observe."},
+        {"zh": "你身上带着天境的味道。", "en": "You carry the smell of the Aether."},
+        {"zh": "用触手轻触玩家。", "en": "Taps the player gently with a tentacle."},
+        {"zh": "悄悄接近玩家。", "en": "Creeps closer to the player."},
+        {"zh": "用目光追踪玩家。", "en": "Traces the player with its gaze."},
+        {"zh": "在玩家附近慢慢游走。", "en": "Slowly wanders near the player."},
+        {"zh": "靠近玩家表示友好。", "en": "Approaches the player in a friendly manner."},
+        {"zh": "我的触手先碰碰你的手。", "en": "My tendrils test your hand first."},
+        {"zh": "它偏头打量你的行囊", "en": "It tilts its head at your pack."},
+        {"zh": "它嗅了嗅你的靴子", "en": "It sniffs at your boots."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "受伤了，真扎心。", "en": "This hurts..."},
+        {"zh": "这刺痛着呢。", "en": "It stings..."},
+        {"zh": "伤口好痛啊。", "en": "That hurts..."},
+        {"zh": "受伤了，真难熬。", "en": "This is painful..."},
+        {"zh": "这伤口好疼。", "en": "This really hurts..."},
+        {"zh": "受伤了，真不好受。", "en": "This really hurts..."},
+        {"zh": "这伤好痛。", "en": "That hurts..."},
+        {"zh": "受伤了，好痛。", "en": "This hurts..."},
+        {"zh": "受伤了，痛得不行。", "en": "This is really painful..."},
+        {"zh": "受伤了，痛得很。", "en": "This is painful..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你身上那块金片吸引了我！", "en": "That gold piece on you attracts me!"},
+        {"zh": "这些树叶很适合我胃口。", "en": "These leaves suit my taste."},
+        {"zh": "这片草地看起来很舒服。", "en": "This grassland feels cozy."},
+        {"zh": "光之尘让我活力满满。", "en": "Light dust gives me energy."},
+        {"zh": "雨后的树叶更美味。", "en": "Leaves are tastier after rain."},
+        {"zh": "远处的花香引诱我。", "en": "The distant flower scent lures me."},
+        {"zh": "我的触须感受到美食。", "en": "My tendrils feel the food."},
+        {"zh": "这朵蘑菇营养价值高。", "en": "This mushroom has high nutrition."},
+        {"zh": "光之露珠带来力量。", "en": "Light dew brings strength."},
+        {"zh": "阳光下更易觅食。", "en": "It's easier to find food in the sun."},
+        {"zh": "那包里的苔藓闻着真香", "en": "The moss in that pack smells good."},
+        {"zh": "给我一把光尘，我就跟你走", "en": "Give me a handful of light dust and I'll follow."},
+        {"zh": "你手里的果子比花甜", "en": "The fruit in your hand is sweeter than flowers."},
+        {"zh": "风里有熟透的菌子气味", "en": "The wind carries the smell of ripe mushrooms."},
+        {"zh": "你把草放下，我就靠近", "en": "Put the grass down and I'll come closer."},
+        {"zh": "我只想再吃一口那朵花", "en": "I just want one more bite of that flower."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "不小心撞上了你。", "en": "I accidentally hit you."},
+        {"zh": "你的体型挡住了我的路。", "en": "Your size blocked my way."},
+        {"zh": "我们撞了个满怀。", "en": "We bumped into each other."},
+        {"zh": "我的触须触碰到了你。", "en": "My tendrils touched you."},
+        {"zh": "与你相撞后我受了伤。", "en": "I was injured after the collision."},
+        {"zh": "我的身体和你的身体碰撞。", "en": "My body collided with yours."},
+        {"zh": "你挡住了我的路径。", "en": "You blocked my path."},
+        {"zh": "我撞上了你的身体。", "en": "I hit your body."},
+        {"zh": "我们的触须交错在一起。", "en": "Our tendrils intertwined."},
+        {"zh": "碰撞后我感到不适。", "en": "The collision made me uncomfortable."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "天境的水晶光下，我等你。", "en": "Under Aether crystal light, I wait for you."},
+        {"zh": "我的触须寻找着配偶。", "en": "My tendrils search for a mate."},
+        {"zh": "我和它交配了。", "en": "I mated with it."},
+        {"zh": "我的触须缠绕在它的身上。", "en": "My tendrils wrapped around it."},
+        {"zh": "交配后我感到满足。", "en": "I felt satisfied after mating."},
+        {"zh": "我找到了我的伴侣。", "en": "I found my mate."},
+        {"zh": "我的触须和它的触须交织。", "en": "My tendrils intertwined with its."},
+        {"zh": "我们互相触碰。", "en": "We touched each other."},
+        {"zh": "我们的触须轻轻碰触。", "en": "Our tendrils gently touched."},
+        {"zh": "交配后我变得更有活力。", "en": "Mating invigorated me."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "Percipitus的羽毛闪烁着微光。", "en": "Percipitus's feathers glow softly."},
+        {"zh": "Percipitus轻盈地飘落在草丛中。", "en": "Percipitus gently lands among the grasses."},
+        {"zh": "Percipitus咀嚼着树叶的声音。", "en": "The sound of Percipitus munching leaves."},
+        {"zh": "Percipitus在林间穿梭。", "en": "Percipitus moves through the forest."},
+        {"zh": "Percipitus轻巧地跳向树枝。", "en": "Percipitus lightly leaps to a branch."},
+        {"zh": "Percipitus的羽毛在阳光下熠熠生辉。", "en": "Percipitus's feathers shine in the sunlight."},
+        {"zh": "Percipitus安静地啃食着果实。", "en": "Percipitus quietly munches on fruit."},
+        {"zh": "Percipitus享受着清晨的露水。", "en": "Percipitus enjoys the morning dew."},
+        {"zh": "Percipitus在花丛中穿梭。", "en": "Percipitus moves through the flowers."},
+        {"zh": "Percipitus的羽毛轻触着地面。", "en": "Percipitus's feathers softly touch the ground."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "Percipitus察觉到远处的动静。", "en": "Percipitus notices movement in the distance."},
+        {"zh": "Percipitus向猎物发出低鸣。", "en": "Percipitus makes a low call to its prey."},
+        {"zh": "Percipitus的双眼锐利地盯着猎物。", "en": "Percipitus's eyes fix on its prey."},
+        {"zh": "Percipitus准备跃向猎物。", "en": "Percipitus prepares to leap at its prey."},
+        {"zh": "Percipitus悄无声息地接近。", "en": "Percipitus approaches silently."},
+        {"zh": "Percipitus锁定猎物的位置。", "en": "Percipitus locks onto its prey's position."},
+        {"zh": "Percipitus的羽毛随风飘动。", "en": "Percipitus's feathers flutter in the wind."},
+        {"zh": "Percipitus观察猎物的行动。", "en": "Percipitus observes its prey's movements."},
+        {"zh": "Percipitus静候猎物出现。", "en": "Percipitus waits for its prey to appear."},
+        {"zh": "Percipitus准备发起攻击。", "en": "Percipitus prepares to attack."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "Percipitus的喙精准地捕捉到猎物。", "en": "Percipitus's beak precisely seizes its prey."},
+        {"zh": "Percipitus的触角触碰猎物。", "en": "Percipitus's antennae touch its prey."},
+        {"zh": "Percipitus用舌头卷起猎物。", "en": "Percipitus uses its tongue to wrap its prey."},
+        {"zh": "Percipitus的利爪刺入猎物。", "en": "Percipitus's sharp claws pierce its prey."},
+        {"zh": "Percipitus享受猎物的美味。", "en": "Percipitus relishes its prey's taste."},
+        {"zh": "Percipitus用尖喙啄食猎物。", "en": "Percipitus pecks at its prey with its sharp beak."},
+        {"zh": "Percipitus的触须缠绕猎物。", "en": "Percipitus's feelers wrap around its prey."},
+        {"zh": "Percipitus的利齿咬碎猎物。", "en": "Percipitus's sharp teeth crunch its prey."},
+        {"zh": "Percipitus的触角感知猎物的位置。", "en": "Percipitus's antennae sense its prey's position."},
+        {"zh": "Percipitus的利爪撕裂猎物。", "en": "Percipitus's claws tear through its prey."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，锋利的牙齿磨擦着。", "en": "Sibilant, sharpening teeth together."},
+        {"zh": "一跃而起，锋爪划过空气。", "en": "Leaping, claws slicing through the air."},
+        {"zh": "巨颚张开，捕食者逼近。", "en": "Maw opens wide, predator closing in."},
+        {"zh": "用角顶撞，试图将猎物制服。", "en": "Butt with horn, trying to subdue prey."},
+        {"zh": "用尾巴扫动，惊吓猎物。", "en": "Tail swish, startle the prey."},
+        {"zh": "猛冲过去，用尖牙撕咬。", "en": "Charge, bite with sharp teeth."},
+        {"zh": "跳跃攻击，精准击中目标。", "en": "Leap attack, precise hit."},
+        {"zh": "用蹄子踢击，力道惊人。", "en": "Kick with hooves, powerful strike."},
+        {"zh": "挥动角，试图撞倒猎物。", "en": "Swing horns, trying to knock down."},
+        {"zh": "用牙齿撕裂猎物。", "en": "Teeth rip the prey apart."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "在花丛中悄然孵化。", "en": "Hatch quietly in flowers."},
+        {"zh": "从洞穴中缓慢爬出。", "en": "Crawl out of the cave slowly."},
+        {"zh": "从地底深处缓缓升起。", "en": "Rise from the depths of the earth."},
+        {"zh": "在草丛中轻轻落地。", "en": "Land softly in the grass."},
+        {"zh": "从荆棘丛中慢慢现身。", "en": "Appears slowly from the thorns."},
+        {"zh": "在森林边缘缓缓出现。", "en": "Appears slowly at the forest edge."},
+        {"zh": "在岩石缝隙中慢慢爬出。", "en": "Crawl out of the rock crevices."},
+        {"zh": "从远处缓缓靠近。", "en": "Approach slowly from afar."},
+        {"zh": "在阳光下慢慢现身。", "en": "Appears slowly in the sunlight."},
+        {"zh": "从树洞中慢慢探出头。", "en": "Peeks out of the tree洞 slowly."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "受伤了，真扎心，被火烧的滋味可不好受。", "en": "This hurts — and the fire makes it worse."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从浮空岛边缘滑下去，摔得不轻。", "en": "I slipped off the island's edge and landed hard."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "淹死了，好疼。", "en": "Got drowned..."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这刺痛着呢，遭爆炸的滋味可不好受。", "en": "It stings — and the explosion makes it worse."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被射中了，好痛。", "en": "Hit by a projectile..."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被魔法伤了。", "en": "Magic hit me..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿死了，好痛。", "en": "Starved to death..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "伤口好痛啊，遭雷击的滋味可不好受。", "en": "That hurts — and the lightning makes it worse."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空，好疼。", "en": "Void hurt me..."}
+      ]
+    }
+  }
+}

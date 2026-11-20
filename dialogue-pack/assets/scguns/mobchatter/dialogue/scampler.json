@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "哒哒哒，瞄准敌人！", "en": "Bzzt! Aim at the enemy!"},
+        {"zh": "砰，打中了！", "en": "Bang! Hit!"},
+        {"zh": "呼呼，装填子弹！", "en": "Brrr, reloading!"},
+        {"zh": "嘶嘶，瞄准射击！", "en": "Sss, aiming and shooting!"},
+        {"zh": "哒哒哒，敌人倒下了！", "en": "Bzzt! Enemy down!"},
+        {"zh": "咔嚓，子弹上膛！", "en": "Click, chambering!"},
+        {"zh": "嘶嘶嘶，敌人的血线下降！", "en": "Sss, enemy health down!"},
+        {"zh": "哒哒哒，快速移动！", "en": "Bzzt, quick movement!"},
+        {"zh": "我猫着腰，穿过弹坑。", "en": "I crouch low and cross the crater."},
+        {"zh": "枪口朝前，一步步挪。", "en": "Muzzle forward, I shuffle step by step."},
+        {"zh": "拖着弹链往前走。", "en": "I drag my ammo belt along."},
+        {"zh": "火器的热气熏着我的脸。", "en": "The heat of my gun fogs my face."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咔咔，等待机会！", "en": "Click, waiting for a chance!"},
+        {"zh": "嘶嘶，保持警惕！", "en": "Sss, on high alert!"},
+        {"zh": "哒哒哒，随时准备！", "en": "Bzzt, always ready!"},
+        {"zh": "砰，子弹入膛！", "en": "Bang, bullet chambered!"},
+        {"zh": "嘶嘶，耐心等待！", "en": "Sss, patient waiting!"},
+        {"zh": "哒哒哒，小心四周！", "en": "Bzzt, be alert!"},
+        {"zh": "咔咔，瞄准待发！", "en": "Click, ready to shoot!"},
+        {"zh": "嘶嘶，隐藏身形！", "en": "Sss, blending in!"},
+        {"zh": "哒哒哒，静候时机！", "en": "Bzzt, waiting for the right moment!"},
+        {"zh": "嘶嘶，等待最佳射击机会！", "en": "Sss, waiting for perfect shot!"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶，敌人出现了！", "en": "Sss, enemy spotted!"},
+        {"zh": "哒哒哒，瞄准玩家！", "en": "Bzzt, aiming at player!"},
+        {"zh": "嘶嘶，锁定玩家！", "en": "Sss, locking player!"},
+        {"zh": "哒哒哒，准备射击！", "en": "Bzzt, prepare to shoot!"},
+        {"zh": "嘶嘶，玩家就在附近！", "en": "Sss, player nearby!"},
+        {"zh": "哒哒哒，瞄准射击！", "en": "Bzzt, aim and shoot!"},
+        {"zh": "嘶嘶，玩家暴露了！", "en": "Sss, player exposed!"},
+        {"zh": "哒哒哒，开始追踪！", "en": "Bzzt, tracking started!"},
+        {"zh": "嘶嘶，玩家在视野中！", "en": "Sss, player in sight!"},
+        {"zh": "哒哒哒，锁定并射击！", "en": "Bzzt, lock and shoot!"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚被夹了！", "en": "Foot stuck!"},
+        {"zh": "我这十点血，摔一下就见底。", "en": "Ten health. One fall and it's gone."},
+        {"zh": "肚子被打穿了！", "en": "Stomach shot!"},
+        {"zh": "血糊住镜片，我看不清。", "en": "Blood smears my lens; I can't see."},
+        {"zh": "尾巴断了！", "en": "Tail broken!"},
+        {"zh": "子弹卡在我的护目镜上。", "en": "A bullet lodged in my goggles."},
+        {"zh": "尾巴被抓住了！", "en": "Tail grabbed!"},
+        {"zh": "脑袋被击中了！", "en": "Head hit!"},
+        {"zh": "我的翅膀被弹片削掉一半。", "en": "Shrapnel sheared half my wing off."},
+        {"zh": "枪卡壳了，血也在漏。", "en": "My gun jammed, and I'm bleeding too."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，瞄准你！", "en": "Sssss, targeting you!"},
+        {"zh": "瞄准你的脸！", "en": "Targeting your face!"},
+        {"zh": "那箱弹药，别挡着我。", "en": "That crate of ammo, don't block me."},
+        {"zh": "这一枪，你躲不掉。", "en": "You can't dodge this shot."},
+        {"zh": "瞄准你的头！", "en": "Targeting your head!"},
+        {"zh": "射中你的胸口！", "en": "Hit your chest!"},
+        {"zh": "小心我的枪！", "en": "Be careful of my gun!"},
+        {"zh": "瞄准你的眼睛！", "en": "Targeting your eyes!"},
+        {"zh": "别伸手，这枪会走火。", "en": "Hands off. This gun misfires."},
+        {"zh": "射中你的四肢！", "en": "Hit your limbs!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "撞到你的头！", "en": "Bang into your head!"},
+        {"zh": "撞飞你的身体！", "en": "Knock you off your feet!"},
+        {"zh": "我枪里的子弹不多。", "en": "I don't have many rounds left."},
+        {"zh": "碰撞你的躯干！", "en": "Collide with your body!"},
+        {"zh": "撞碎你的骨骼！", "en": "Crush your bones!"},
+        {"zh": "撞飞你的头盔！", "en": "Knock off your helmet!"},
+        {"zh": "碰撞你的肩膀！", "en": "Collide with your shoulder!"},
+        {"zh": "撞击你的胸膛！", "en": "Smash into your chest!"},
+        {"zh": "撞飞你的武器！", "en": "Knock your weapon away!"},
+        {"zh": "撞断你的手臂！", "en": "Break your arm!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "寻找配偶！", "en": "Seeking a mate!"},
+        {"zh": "十点血，也敢举枪。", "en": "Ten points of health, and I still raise the gun."},
+        {"zh": "吸引我的注意！", "en": "Catch my attention!"},
+        {"zh": "我的配偶在哪儿？", "en": "Where is my mate?"},
+        {"zh": "你的枪法，我想学。", "en": "I want to learn your aim."},
+        {"zh": "求偶的季节来了！", "en": "Mating season is here!"},
+        {"zh": "枪带碰枪带，就算招呼。", "en": "Strap against strap counts as a greeting."},
+        {"zh": "我的配偶是唯一的！", "en": "My mate is the only one!"},
+        {"zh": "互相交配！", "en": "Mate with each other!"},
+        {"zh": "子弹分你一半，跟我走。", "en": "Half my ammo is yours. Come with me."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咔哒一声，Scampler的枪上膛了。", "en": "Click! Scampler chambers a bullet."},
+        {"zh": "瞄准目标，Scampler的枪管紧绷。", "en": "Aim locked, Scampler's barrel tautens."},
+        {"zh": "Scampler的视线集中在猎物上。", "en": "Scammer locks onto the prey."},
+        {"zh": "猎物的动静引起了Scampler的注意。", "en": "Scammer notices the prey's movement."},
+        {"zh": "一枪射出，火光冲天。", "en": "A shot rings out, flames erupt."},
+        {"zh": "Scampler从枪管中取出一枚子弹。", "en": "Scammer pulls a bullet from the chamber."},
+        {"zh": "Scampler的眼神闪烁着杀气。", "en": "Scammer's eyes glint with malice."},
+        {"zh": "远处，Scampler发现了新的猎物。", "en": "Distantly, Scammer spots new prey."},
+        {"zh": "子弹发出啸叫声飞向目标。", "en": "The bullet whizzes towards the target."},
+        {"zh": "Scampler的枪声震耳欲聋。", "en": "Scammer's gunshot deafens."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锁定目标，Scampler蓄势待发。", "en": "Target locked, Scammer charges."},
+        {"zh": "猎物落入Scampler的视野。", "en": "Prey in Scammer's sights."},
+        {"zh": "猎物离Scampler越来越近。", "en": "Prey closing in on Scammer."},
+        {"zh": "Scampler紧盯着猎物不放。", "en": "Scammer fixates on the prey."},
+        {"zh": "猎物的动作令Scampler激动。", "en": "Prey's movements excite Scammer."},
+        {"zh": "Scampler瞄准了目标的心脏。", "en": "Scammer aims for the heart."},
+        {"zh": "Scampler期待猎物的出现。", "en": "Scammer awaits the prey."},
+        {"zh": "猎物的气味引来了Scampler。", "en": "Prey's scent draws Scammer."},
+        {"zh": "猎物的动作触动了Scampler。", "en": "Prey's movements trigger Scammer."},
+        {"zh": "猎物的叫声刺激了Scampler。", "en": "Prey's call stirs Scammer."},
+        {"zh": "瞄准镜里跳出一个人影。", "en": "A figure pops into my sights."},
+        {"zh": "枪声一停，我就找上你。", "en": "The moment the shooting stops, I come for you."},
+        {"zh": "你的脚步声比枪响还响。", "en": "Your footsteps are louder than gunfire."},
+        {"zh": "十点血，也要先开枪。", "en": "Ten health, but I still shoot first."},
+        {"zh": "别跑，弹道已经算好。", "en": "Don't run. The trajectory is already calculated."},
+        {"zh": "这条街的窗户，我都算过了。", "en": "I have ranged every window on this street."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "Scampler调整着射击的角度。", "en": "Scammer adjusts the shot angle."},
+        {"zh": "Scampler的枪口瞄准了猎物。", "en": "Scammer's gun aims at the prey."},
+        {"zh": "Scampler的枪口指向了目标。", "en": "Scammer's gun points at the target."},
+        {"zh": "Scampler的瞄准镜聚焦在猎物上。", "en": "Scammer's scope focuses on the prey."},
+        {"zh": "Scampler调整射击的位置。", "en": "Scammer adjusts the shot position."},
+        {"zh": "Scampler瞄准猎物的弱点。", "en": "Scammer targets the prey's weak spot."},
+        {"zh": "Scampler的枪口紧盯着猎物。", "en": "Scammer's gun stares at the prey."},
+        {"zh": "Scampler瞄准猎物的头部。", "en": "Scammer aims at the prey's head."},
+        {"zh": "Scampler的瞄准器锁定目标。", "en": "Scammer's sight locks on the target."},
+        {"zh": "Scampler的枪口对准猎物的心脏。", "en": "Scammer's gun points at the heart."},
+        {"zh": "弹匣一拍，对准你的胸口。", "en": "I slap the magazine in and aim at your chest."},
+        {"zh": "风偏一格，我修正一下。", "en": "The wind drifts a block; I correct."},
+        {"zh": "你的护甲厚度，我估过了。", "en": "I have estimated your armor's thickness."},
+        {"zh": "准星压在你的膝盖上。", "en": "My crosshair rests on your knee."},
+        {"zh": "枪管发烫，也没关系。", "en": "The barrel is hot. Doesn't matter."},
+        {"zh": "你一探头，我就扣扳机。", "en": "Poke your head out and I pull the trigger."},
+        {"zh": "这一发留给你跑的那步。", "en": "This round is for the step you're about to take."},
+        {"zh": "别躲在木箱后，穿得透。", "en": "Don't hide behind crates. These rounds punch through."},
+        {"zh": "退壳声一响，下一发已上膛。", "en": "The casing ejects; the next round is chambered."},
+        {"zh": "我瞄准的不是你，是你的路。", "en": "I aim not at you, but at where you're going."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "喷火射弹，炽热袭来！", "en": "Blasts fire, scorching approach!"},
+        {"zh": "嘶嘶作响，凶光乍现！", "en": "Hisses, fierce gaze reveals!"},
+        {"zh": "獠牙闪现，扑向猎物！", "en": "Fangs gleam, lunge at prey!"},
+        {"zh": "火焰喷吐，灼热凶猛！", "en": "Fire spits, scorching fierce!"},
+        {"zh": "枪膛紧顶，扣动扳机！", "en": "Gun pressed, trigger pulled!"},
+        {"zh": "瞄准射击，精准致命！", "en": "Target locked, shot deadly!"},
+        {"zh": "枪声骤响，烟雾腾起！", "en": "Gunfire, smoke rises!"},
+        {"zh": "爆弹出膛，轰鸣四起！", "en": "Shell fires, booms around!"},
+        {"zh": "瞄准敌首，一击毙命！", "en": "Target head, single kill!"},
+        {"zh": "狂喷烈焰，无畏向前！", "en": "Fires rage, fearlessly forward!"},
+        {"zh": "枪托砸向你的下巴。", "en": "The stock cracks against your jaw."},
+        {"zh": "近距离一发，直接掀翻。", "en": "Point-blank shot, and you flip over."},
+        {"zh": "火花溅在你护甲上。", "en": "Sparks splash across your armor."},
+        {"zh": "枪口顶住，扣下去。", "en": "The muzzle presses in, and I squeeze."},
+        {"zh": "后坐力把我推得后退。", "en": "The recoil shoves me backward."},
+        {"zh": "这一枪打穿了木板。", "en": "This round went through the planks."},
+        {"zh": "弹壳落在你脚边。", "en": "A shell casing lands by your feet."},
+        {"zh": "枪管红了，你皮也焦了。", "en": "The barrel glows red, and so does your skin."},
+        {"zh": "打偏了，退一步再来。", "en": "Missed. One step back and I try again."},
+        {"zh": "你听见的最后一声是枪响。", "en": "The last thing you hear is the shot."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火炮蛋孵化，Scampler出世！", "en": "Gunpowder egg hatches, Scampler emerges!"},
+        {"zh": "枪械声中，怪物现身！", "en": "Gunfire, monster appears!"},
+        {"zh": "枪响炮鸣，怪物刷出！", "en": "Gunfire, monsters spawn!"},
+        {"zh": "枪炮声中，怪物出没！", "en": "Gunfire, monsters appear!"},
+        {"zh": "火炮蛋孵化，Scampler现世！", "en": "Gunpowder egg hatches, Scampler appears!"},
+        {"zh": "枪声炸响，怪物刷出！", "en": "Gunfire, monsters spawn!"},
+        {"zh": "炮声轰鸣，怪物刷现！", "en": "Gunfire, monsters appear!"},
+        {"zh": "火器声中，怪物刷出！", "en": "Gunfire, monsters spawn!"},
+        {"zh": "枪响炮鸣，怪物现身！", "en": "Gunfire, monsters appear!"},
+        {"zh": "枪炮声中，怪物刷出！", "en": "Gunfire, monsters spawn!"},
+        {"zh": "火药味里，我扛枪站起。", "en": "In the smell of powder, I rise with my gun."},
+        {"zh": "弹链一响，我从角落现身。", "en": "A belt rattles, and I step out of the corner."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火药烧到脸上了！", "en": "Powder flash burns my face!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔下来时，我护住了枪。", "en": "As I fell, I shielded my gun."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水里枪打不响。", "en": "My gun won't fire underwater."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弹片划开了我的袖口。", "en": "Shrapnel sliced my cuff."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "对面枪法比我准。", "en": "Their aim beats mine."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "紫色的火在我枪上烧。", "en": "Purple fire burns on my gun."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得握不稳枪。", "en": "Too hungry to hold my gun steady."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打弯了我的枪管。", "en": "Lightning bent my barrel."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进虚空，枪也没了。", "en": "Falling into the void, and my gun too."}
+      ]
+    }
+  }
+}

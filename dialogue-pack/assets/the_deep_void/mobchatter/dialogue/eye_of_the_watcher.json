@@ -1,0 +1,255 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嗡嗡声中飞过蜂巢", "en": "Buzzing past the hive"},
+        {"zh": "翅膀拍动，寻找目标", "en": "Wings flapping, searching for a target"},
+        {"zh": "低鸣，穿越巢穴", "en": "Rumble as it flies through the hive"},
+        {"zh": "绕圈飞行，观察周遭", "en": "Circling, surveying the surroundings"},
+        {"zh": "嗡嗡声中闪烁身影", "en": "Flitting form, buzzing sound"},
+        {"zh": "注视着下一个猎物", "en": "Staring at the next prey"},
+        {"zh": "飞行中发出警告声", "en": "Issue a warning while flying"},
+        {"zh": "掠过巢穴边缘", "en": "Fly by the hive's edge"},
+        {"zh": "嗡嗡声中加速飞行", "en": "Accelerate, buzzing along"},
+        {"zh": "观察者之眼在空中飘动", "en": "Eye of the Watcher floats in the air"},
+        {"zh": "贴着密室顶壁慢慢滑行", "en": "Sliding along the vault's ceiling."},
+        {"zh": "翅膜绷紧，绕柱一周", "en": "Membrane taut, it circles a pillar."},
+        {"zh": "沿着蜂巢的纹路飞", "en": "It flies along the hive's veins."},
+        {"zh": "低掠而过，没带起风", "en": "It skims past without stirring air."},
+        {"zh": "在观者之间换了位置", "en": "It switches places among the Watchers."},
+        {"zh": "半空停一下，又转向", "en": "A pause in midair, then a turn."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盘旋于蜂巢上空", "en": "Hovering above the hive"},
+        {"zh": "安静地盘旋，警觉着", "en": "Circling quietly, vigilant"},
+        {"zh": "静止在半空，凝视远方", "en": "Stationary in mid-air, gazing afar"},
+        {"zh": "偶尔发出低鸣", "en": "Occasionally make a rumble"},
+        {"zh": "悬浮在空中，观察一切", "en": "Suspended, observing all"},
+        {"zh": "静静地漂浮，等待指令", "en": "Floating quietly, awaiting instructions"},
+        {"zh": "在空中盘旋，等待激活", "en": "Circling in the air, waiting to be activated"},
+        {"zh": "悬浮不动，静候敌人", "en": "Hovering still, waiting for an enemy"},
+        {"zh": "静静地漂浮，警惕着周围", "en": "Floating silently, watching the surroundings"},
+        {"zh": "静静地悬浮，静待行动", "en": "Suspended quietly, awaiting action"},
+        {"zh": "瞳孔慢慢收紧又放开", "en": "Its pupil narrows, then widens."},
+        {"zh": "贴在石壁上，像一枚钉", "en": "It clings to stone like a nail."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "直视玩家，准备攻击", "en": "Stare at the player, ready to attack"},
+        {"zh": "锁定玩家，即将攻击", "en": "Locking on to the player, ready to strike"},
+        {"zh": "追踪玩家，准备打击", "en": "Tracking the player, ready to strike"},
+        {"zh": "盯着玩家，等待时机", "en": "Staring at the player, waiting for an opportunity"},
+        {"zh": "瞄准玩家，准备进攻", "en": "Targeting the player, preparing to attack"},
+        {"zh": "注视玩家，寻找弱点", "en": "Studying the player, searching for weaknesses"},
+        {"zh": "注视玩家，准备发起攻击", "en": "Fixing on the player, ready to attack"},
+        {"zh": "盯着玩家，寻找可利用之处", "en": "Staring at the player, looking for an advantage"},
+        {"zh": "我用瞳孔量了量你的距离。", "en": "My pupil measures the distance to you."},
+        {"zh": "注视玩家，评估威胁", "en": "Staring at the player, assessing the threat"},
+        {"zh": "它数清了你带了几把火把", "en": "It counted every torch you carry."},
+        {"zh": "视线扫过你的护甲缝", "en": "Its gaze traces your armor's seams."},
+        {"zh": "与你对视，它先笑了", "en": "It meets your eyes and smiles first."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你那双眼睛……", "en": "Your eyes..."},
+        {"zh": "我的视野被遮蔽！", "en": "My vision is obstructed!"},
+        {"zh": "我被你盯住了！", "en": "You've got me!"},
+        {"zh": "你看不到我！", "en": "You can't see me!"},
+        {"zh": "我的眼膜裂了，看不清你！", "en": "My eye membrane cracked; I can't see you!"},
+        {"zh": "你们永远找不到我！", "en": "You'll never find me!"},
+        {"zh": "薄翼破了个洞，我飞不稳...", "en": "A hole in my thin wing; I can't fly straight..."},
+        {"zh": "我需要藏起来！", "en": "I need to hide!"},
+        {"zh": "这具眼壳撑不住第二次！", "en": "This eye-shell won't take another hit!"},
+        {"zh": "这只眼，看不清了...", "en": "This eye can no longer see..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你靠近了我，我会注视你更久。", "en": "You approach, and I'll gaze upon you longer."},
+        {"zh": "看着我，你会变成我的一部分。", "en": "Look at me, and you'll become part of me."},
+        {"zh": "你是我的猎物，注定要被吞噬。", "en": "You're my prey, destined to be devoured."},
+        {"zh": "你手里的东西，逃不过注视。", "en": "What you hold won't escape my gaze."},
+        {"zh": "我的注视能让你变成蜂巢的一部分。", "en": "My gaze will turn you into a part of the hive."},
+        {"zh": "你越靠近，我的力量越强。", "en": "The closer you are, the stronger my power becomes."},
+        {"zh": "你的恐惧让我更强大。", "en": "Your fear makes me stronger."},
+        {"zh": "你无法抵挡我的力量。", "en": "You can't resist my power."},
+        {"zh": "我的注视会改变你的一切。", "en": "My gaze will change everything about you."},
+        {"zh": "你是下一个进入蜂巢的生物。", "en": "You're the next creature to enter the hive."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "不要碰我，我会看穿你的灵魂。", "en": "Don't touch me, I'll see through your soul."},
+        {"zh": "你触碰了我，痛苦将伴随你。", "en": "You've touched me, pain will accompany you."},
+        {"zh": "别靠近，我会追踪你的每一个动作。", "en": "Stay away, I'll track every move you make."},
+        {"zh": "你触碰了我，现在感受我的注视。", "en": "You've touched me, now feel my gaze."},
+        {"zh": "我的存在会将你撕裂。", "en": "My presence will tear you apart."},
+        {"zh": "你触碰了我，我会标记你。", "en": "You've touched me, I'll mark you."},
+        {"zh": "你碰到我的眼柄，我记住了。", "en": "You touched my eye stalk; I've noted it."},
+        {"zh": "你触碰了我，现在尝尝我的力量。", "en": "You've touched me, taste my power now."},
+        {"zh": "我的存在将使你痛苦。", "en": "My presence will bring you pain."},
+        {"zh": "不要碰我，否则你会被注视。", "en": "Don't touch me, or you'll be gazed upon."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的同伴，一起守护蜂巢。", "en": "My mate, together we'll guard the hive."},
+        {"zh": "与我结合，成为蜂巢的一部分。", "en": "Join me, become part of the hive."},
+        {"zh": "我的伴侣，共同抵御外来者。", "en": "My partner, together we repel intruders."},
+        {"zh": "一起守护蜂巢的荣耀。", "en": "Guard the hive's honor together."},
+        {"zh": "与我结合，共创蜂巢未来。", "en": "Combine with me, create the hive's future."},
+        {"zh": "我的伴侣，共同对抗敌人。", "en": "My partner, we'll fight together."},
+        {"zh": "与我结合，成为蜂巢的一员。", "en": "Join with me, be part of the hive."},
+        {"zh": "我的伴侣，一起守护蜂巢。", "en": "My mate, together we protect the hive."},
+        {"zh": "与我结合，共创辉煌。", "en": "Combine with me, create greatness."},
+        {"zh": "我的伴侣，一起守护家园。", "en": "My partner, together we'll protect our home."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嗡嗡，这地方不妙。", "en": "Buzz, something’s not right here."},
+        {"zh": "密室中的阴影，危险潜伏。", "en": "Shadows in the watcher’s chamber."},
+        {"zh": "蜂巢之眼已启动，注意！", "en": "Watcher’s eye activated, beware!"},
+        {"zh": "嗡嗡，警惕，有猎物。", "en": "Buzz, beware, prey detected."},
+        {"zh": "这蜂巢不是归宿。", "en": "This hive is not a home."},
+        {"zh": "嗡嗡，蜂王已察觉。", "en": "Buzz, the queen has been sensed."},
+        {"zh": "密室深处，敌友难辨。", "en": "In the depths of the chamber."},
+        {"zh": "嗡嗡，蜂巢意志强大。", "en": "Buzz, the hive’s will is strong."},
+        {"zh": "蜂巢之主，密室之王。", "en": "Hive master, chamber king."},
+        {"zh": "嗡嗡，不要打扰我。", "en": "Buzz, leave me be."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "观察目标，锁定。", "en": "Target observed, locking on."},
+        {"zh": "密室中的猎物，将被吞噬。", "en": "Prey in the chamber, to be consumed."},
+        {"zh": "蜂巢意志，永不放弃。", "en": "Hive will, never giving up."},
+        {"zh": "嗡嗡，目标接近。", "en": "Buzz, target approaching."},
+        {"zh": "嗡嗡，蜂王在注视。", "en": "Buzz, the queen is watching."},
+        {"zh": "密室之中，无处可逃。", "en": "Nowhere to run in the chamber."},
+        {"zh": "嗡嗡，目标已经锁定。", "en": "Buzz, target locked."},
+        {"zh": "蜂巢意志，不容侵犯。", "en": "Hive will, not to be trespassed."},
+        {"zh": "嗡嗡，这是蜂巢的规则。", "en": "Buzz, this is the hive’s rule."},
+        {"zh": "观察者之眼，永不失焦。", "en": "Watcher’s eye, never faltering."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嗡嗡，目标已瞄准。", "en": "Buzz, target acquired."},
+        {"zh": "密室中的敌人，已瞄准。", "en": "Enemy in the chamber, acquired."},
+        {"zh": "蜂巢之眼，永不偏移。", "en": "Watcher’s eye, never swerving."},
+        {"zh": "嗡嗡，目标将被清除。", "en": "Buzz, target to be cleared."},
+        {"zh": "密室之中，无所不察。", "en": "All in the chamber are observed."},
+        {"zh": "嗡嗡，蜂巢意志在行动。", "en": "Buzz, hive will in action."},
+        {"zh": "观察者之眼，始终如一。", "en": "Watcher’s eye, consistent."},
+        {"zh": "密室深处，静待时机。", "en": "In the depths, waiting."},
+        {"zh": "嗡嗡，蜂巢意志支配一切。", "en": "Buzz, hive will controls all."},
+        {"zh": "观察者之眼，洞察一切。", "en": "Watcher’s eye, sees all."},
+        {"zh": "我看得见你背后的路", "en": "I can see the path behind you."},
+        {"zh": "你逃到哪，蜂巢都知道", "en": "The hive knows wherever you flee."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出一声低沉的咆哮，向你扑来。", "en": "Growls lowly and lunges at you."},
+        {"zh": "用它锋利的爪子攻击你。", "en": "Attacks you with its sharp claws."},
+        {"zh": "它的翅膀扇动，向你逼近。", "en": "Its wings flap as it advances on you."},
+        {"zh": "眼睛闪烁着诡异的光芒。", "en": "Its eyes glow eerily."},
+        {"zh": "突然从空中俯冲下来。", "en": "Plummets down from the air suddenly."},
+        {"zh": "挥舞着它的触手，准备攻击。", "en": "W waves its tentacles, ready to attack."},
+        {"zh": "发出嘶嘶声，准备战斗。", "en": "Hisses and prepares for battle."},
+        {"zh": "用它的翅膀拍打你的脸。", "en": "Pounds your face with its wings."},
+        {"zh": "它的眼睛变得异常巨大。", "en": "Its eyes grow abnormally large."},
+        {"zh": "喷出一团浓密的黑雾。", "en": "Releases a thick cloud of black fog."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从洞穴中缓缓升起。", "en": "Rises slowly from the cave."},
+        {"zh": "我沿着蜂巢的墙慢慢浮行。", "en": "I drift slowly along the hive's walls."},
+        {"zh": "从观者密室中飞出。", "en": "Flies out of the Watcher Chamber."},
+        {"zh": "在蜂巢的高处巡逻。", "en": "Patrols the high areas of the hive."},
+        {"zh": "偶尔发出一声闷响。", "en": "Occasionally rumbles loudly."},
+        {"zh": "你的火把晃了一下，我就到了。", "en": "Your torch flickers, and there I am."},
+        {"zh": "用它的眼睛观察周围的环境。", "en": "Uses its eyes to survey its surroundings."},
+        {"zh": "从巢穴的顶部飞下。", "en": "Flies down from the top of the hive."},
+        {"zh": "我从密室顶上的缝里钻出。", "en": "I slip out through a crack in the chamber roof."},
+        {"zh": "偶尔发出轻微的呼噜声。", "en": "Occasionally makes a low growl."},
+        {"zh": "观者密室的灯亮了", "en": "The Watcher vault's light comes on."},
+        {"zh": "蜂巢意志多了一只眼", "en": "The hive mind gains one more eye."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰吞噬了我...", "en": "Fire consumes me..."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠落的痛苦...", "en": "The pain of falling..."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水淹没了我的眼睛...", "en": "Water drowned my eyes..."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸的冲击...", "en": "The shock of the explosion..."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "眼睛破了，观者会替我出来。", "en": "My eye broke — the Watcher will come out for me."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法的力量...", "en": "The power of magic..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿吞噬了我...", "en": "Starvation consumes me..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "电光灼穿了我的膜翼...", "en": "Lightning burns through my membrane wings..."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空从我的眼眶往里灌。", "en": "The void pours in through my eye sockets."}
+      ]
+    }
+  }
+}

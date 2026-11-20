@@ -1,0 +1,257 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发出尖利叫声", "en": "Screams piercingly"},
+        {"zh": "蠕动前进", "en": "Crawls forward"},
+        {"zh": "我的尖叫先划破死地。", "en": "My shriek cuts the deadlands first."},
+        {"zh": "低语威胁", "en": "Whispers threats"},
+        {"zh": "在地表爬行", "en": "Crawls on surface"},
+        {"zh": "先尖叫一声，再咬下去。", "en": "First a shriek, then the bite."},
+        {"zh": "咀嚼猎物肉", "en": "Masticates meat"},
+        {"zh": "在腐肉间移动", "en": "Moves through carrion"},
+        {"zh": "寻找新猎物", "en": "Seeks new prey"},
+        {"zh": "地面蠕动", "en": "Grows on ground"},
+        {"zh": "一圈圈肉环向前挤。", "en": "Ring after ring of flesh pushes forward."},
+        {"zh": "身后拖着湿滑的痕迹。", "en": "A wet trail drags behind me."},
+        {"zh": "我从腐肉堆里钻过去。", "en": "I burrow through the heap of carrion."},
+        {"zh": "身体拱起又塌下。", "en": "My body arches and collapses."},
+        {"zh": "湿泥被我的重量挤开。", "en": "My weight squeezes the wet mud aside."},
+        {"zh": "我绕着骨堆打转。", "en": "I circle the pile of bones."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "尖叫声在死地里回荡。", "en": "My scream echoes through the dead lands."},
+        {"zh": "肉环慢慢收紧，我在听。", "en": "My rings tighten slowly as I listen."},
+        {"zh": "观察周围", "en": "Scans surroundings"},
+        {"zh": "喉咙里滚着威胁的低语。", "en": "A threatening whisper rolls in my throat."},
+        {"zh": "蜷缩一团", "en": "Curls up"},
+        {"zh": "慢慢蠕动", "en": "Crawls slowly"},
+        {"zh": "我把身子盘在骨堆下面。", "en": "I coil my body beneath the bone pile."},
+        {"zh": "我的口器朝着你的方向张着。", "en": "My mouth parts toward where you stand."},
+        {"zh": "轻微颤动", "en": "Quivers lightly"},
+        {"zh": "慢慢苏醒", "en": "Slowly awakens"},
+        {"zh": "肉环一收一放，慢慢呼吸。", "en": "My rings clench and slacken, breathing."},
+        {"zh": "我把头埋进腐肉里。", "en": "I bury my head in carrion."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我叫一声，死地都听见了。", "en": "One scream and the dead land hears it."},
+        {"zh": "尖叫声拔高，我朝你转过来。", "en": "My scream climbs as I turn toward you."},
+        {"zh": "喉咙里滚出一串刺耳的音。", "en": "A string of harsh notes rolls from my throat."},
+        {"zh": "低语警告", "en": "Whispers warnings"},
+        {"zh": "我朝活物这边转过来。", "en": "I turn toward the living."},
+        {"zh": "肉环一伸一缩，我挪近半寸。", "en": "My rings stretch and pull; I close half an inch."},
+        {"zh": "叫声撞在骨堆上，又弹回来。", "en": "My cry hits the bone heap and rebounds."},
+        {"zh": "尖叫声先到，牙齿随后。", "en": "The shriek first, the teeth after."},
+        {"zh": "接近玩家", "en": "Approaches player"},
+        {"zh": "我的尖叫声先到，身体后到。", "en": "My scream arrives before my body."},
+        {"zh": "环状口器张开又合上。", "en": "My ringed mouth opens and closes."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶声中，血肉蠕虫颤抖不已。", "en": "Sibilant hiss as the Flesh Worm shudders."},
+        {"zh": "痛苦中，蠕虫发出吱吱声。", "en": "Painful creaks from the worm."},
+        {"zh": "虚弱时，蠕虫尖叫不止。", "en": "Worm screams in weakness."},
+        {"zh": "挣扎中，血肉蠕虫哀嚎。", "en": "Flesh Worm howls in struggle."},
+        {"zh": "挣扎中，蠕虫发出嘶嘶声。", "en": "Worm sizzles in struggle."},
+        {"zh": "受伤时，蠕虫吱吱作响。", "en": "Worm creaks in injury."},
+        {"zh": "尖叫中，蠕肉蠕虫痛苦呻吟。", "en": "Worm screeches in agony."},
+        {"zh": "挣扎中，血肉蠕虫嘶嘶作响。", "en": "Flesh Worm sizzles in agony."},
+        {"zh": "痛苦中，蠕虫尖叫连连。", "en": "Worm screeches nonstop in pain."},
+        {"zh": "虚弱时，蠕虫吱吱哀鸣。", "en": "Worm creaks weakly."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，你的肉块看起来很好吃！", "en": "Sssss, your flesh块 looks delicious!"},
+        {"zh": "靠近些，我要品尝你的肉！", "en": "Come closer, I want to taste your flesh!"},
+        {"zh": "你的血肉散发着诱惑！", "en": "Your flesh is tempting!"},
+        {"zh": "你的肉味在土里，我闻到了。", "en": "Your meat smell is in the soil. I have it."},
+        {"zh": "血渗进泥土，我顺着找过去。", "en": "Blood soaks the soil; I follow it to you."},
+        {"zh": "你的肉块是我的午餐！", "en": "Your flesh块 is my lunch!"},
+        {"zh": "过来，让我享用你的血肉！", "en": "Come, let me feast on your flesh!"},
+        {"zh": "你那鲜美的肉块吸引着我！", "en": "Your fresh flesh块 attracts me!"},
+        {"zh": "我的肚子在叫，给我肉！", "en": "My stomach calls, give me flesh!"},
+        {"zh": "你身上的肉块诱惑着我！", "en": "The flesh块 on you tempts me!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "小心，我要用肉槌砸你！", "en": "Watch out, I’m going to smash you with my meat mallet!"},
+        {"zh": "让我的肉槌砸碎你！", "en": "Let my meat mallet crush you!"},
+        {"zh": "我要用肉槌打击敌人！", "en": "I’m going to bash enemies with my meat mallet!"},
+        {"zh": "我的肉槌准备就绪！", "en": "My meat mallet is ready!"},
+        {"zh": "用肉槌教训一下他！", "en": "Use my meat mallet on him!"},
+        {"zh": "我的肉槌是致命的武器！", "en": "My meat mallet is a deadly weapon!"},
+        {"zh": "用我的肉槌击退敌人！", "en": "Repel enemies with my meat mallet!"},
+        {"zh": "让我的肉槌发出巨大声响！", "en": "Let my meat mallet make a loud noise!"},
+        {"zh": "用肉槌制造混乱！", "en": "Cause chaos with my meat mallet!"},
+        {"zh": "用肉槌击败你的对手！", "en": "Defeat your opponent with my meat mallet!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找一个伴侣来繁殖！", "en": "Find a mate to reproduce!"},
+        {"zh": "另一声尖叫从死地那头传来。", "en": "Another scream answers from across the dead land."},
+        {"zh": "放下肉槌，我就知道该找谁了。", "en": "Set down the meat mallet, and I know who to look for."},
+        {"zh": "我的尖叫，另一条都听见了。", "en": "My scream carried to the other one."},
+        {"zh": "找到伴侣，共同生存！", "en": "Find a partner to survive together!"},
+        {"zh": "寻找一个伴侣来交配！", "en": "Find a partner to mate with!"},
+        {"zh": "我们需要一个配偶来交配！", "en": "We need a mate to mate with!"},
+        {"zh": "繁殖后代，保证种族！", "en": "Procreate to ensure the species!"},
+        {"zh": "我的尖叫，是求偶，不是威胁。", "en": "My scream is a courtship, not a threat."},
+        {"zh": "一起繁殖，让种族延续！", "en": "Reproduce to keep the species alive!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "肉块是我的食物！", "en": "Flesh is my food."},
+        {"zh": "在这里等死吧！", "en": "Die here."},
+        {"zh": "我的牙比你想象的利！", "en": "My teeth are sharper."},
+        {"zh": "这颗牙，我用舌头卷起来了。", "en": "I curl this tooth up with my tongue."},
+        {"zh": "这一声尖叫，是告诉全场我到了。", "en": "This scream tells the whole place I have arrived."},
+        {"zh": "寻找我的肉槌！", "en": "Find my mallet."},
+        {"zh": "腐烂的肉更美味！", "en": "Rotting flesh is tastier."},
+        {"zh": "看我的刺耳尖叫！", "en": "Hear my screech."},
+        {"zh": "肉块拖进嘴，我一圈圈咽下。", "en": "I drag the meat in and swallow it ring by ring."},
+        {"zh": "这颗牙，是从我嘴里掉的。", "en": "That tooth fell from my mouth."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的猎物，靠近些！", "en": "My prey, come closer."},
+        {"zh": "享受这致命的拥抱！", "en": "Feel the deadly embrace."},
+        {"zh": "蠕虫的盛宴即将开始！", "en": "Festin' time begins."},
+        {"zh": "腐肉的味道即将揭晓！", "en": "Flesh taste revealed."},
+        {"zh": "你逃不掉的，蠕虫！", "en": "You can't escape, worm."},
+        {"zh": "我的肉槌即将派上用场！", "en": "Mallet's coming into play."},
+        {"zh": "死亡之地的主人，现身！", "en": "Death's lord, show yourself."},
+        {"zh": "尖叫一声，死地都知道我来了。", "en": "One scream and the deadlands know I've come."},
+        {"zh": "阴郁之地是我的领地！", "en": "Dark land, my domain."},
+        {"zh": "我的尖叫将引导你！", "en": "My scream will lead you."},
+        {"zh": "腐肉的气味变了。", "en": "The smell of carrion changes."},
+        {"zh": "有温热的东西在走动。", "en": "Something warm is walking."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "放下的肉槌，把我叫来了。", "en": "The meat mallet placed down called me here."},
+        {"zh": "我的肉槌在等待你！", "en": "Mallet's waiting for you."},
+        {"zh": "尝尝我的利爪，蠕虫！", "en": "Feel my claws, worm."},
+        {"zh": "阴郁之地，我的领地！", "en": "Dark land, my domain."},
+        {"zh": "我的尖叫将指引你！", "en": "My scream will guide you."},
+        {"zh": "死亡之地的主人在此！", "en": "Death's lord here."},
+        {"zh": "享受这致命的拥抱，猎物！", "en": "Feel the deadly embrace, prey."},
+        {"zh": "腐烂的肉块，我的猎物！", "en": "Flesh, my prey."},
+        {"zh": "看我的刺耳尖叫，猎物！", "en": "Hear my screech, prey."},
+        {"zh": "肉槌即将敲碎你的骨头！", "en": "Mallet will crack your bones."},
+        {"zh": "我把身体盘成圈。", "en": "I coil my body into a ring."},
+        {"zh": "尖叫声拔高了。", "en": "My scream climbs higher."},
+        {"zh": "口器对准你的脚踝。", "en": "My mouth aims at your ankle."},
+        {"zh": "泥土被我挤得塌下去。", "en": "The soil gives way beneath me."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把身子甩起来，砸你的肩。", "en": "I whip my body up and slam your shoulder."},
+        {"zh": "肉槌落地的声音，把我引来。", "en": "The sound of the flesh mallet hitting ground drew me."},
+        {"zh": "我张开环口，罩住你的手腕。", "en": "I open my ringed mouth and cover your wrist."},
+        {"zh": "一圈牙咬下去，越收越紧。", "en": "My ring of teeth bites down and keeps tightening."},
+        {"zh": "这一声尖叫，贴着你的耳朵。", "en": "This scream lands right against your ear."},
+        {"zh": "躲不开我的咬噬！", "en": "Avoid my bite!"},
+        {"zh": "我的尖叫先到，牙后到。", "en": "My scream arrives before my teeth."},
+        {"zh": "我的叫声先到，身体后到。", "en": "My scream arrives before my body does."},
+        {"zh": "我咬住不放，把身子缠上去。", "en": "I bite and hold, winding my body up your arm."},
+        {"zh": "这声尖叫，就是你的葬礼曲。", "en": "This shriek is your funeral song."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "听我的叫声！", "en": "Listen to my call!"},
+        {"zh": "放下肉槌召唤我！", "en": "Lower the mallet to summon me!"},
+        {"zh": "阴郁之地，我来报到！", "en": "Arriving in the bleak lands!"},
+        {"zh": "我是死亡之地霸主！", "en": "I’m the top predator!"},
+        {"zh": "我的叫声刺耳尖锐！", "en": "My scream is sharp!"},
+        {"zh": "来吧，看看我的力量！", "en": "Come and see my strength!"},
+        {"zh": "你将见识我的厉害！", "en": "You will see my power!"},
+        {"zh": "用肉槌召唤我吧！", "en": "Summon me with the mallet!"},
+        {"zh": "我的尖叫，先割你的耳朵。", "en": "My shriek cuts your ears first."},
+        {"zh": "凝视丘陵，我来啦！", "en": "Here I come to the gaze hill!"},
+        {"zh": "肉槌落地，土开始动。", "en": "The flesh mallet lands; the soil stirs."},
+        {"zh": "死地深处传来一声尖叫。", "en": "A scream rises from deep in the dead lands."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰燃烧，血肉蠕虫嘶嘶尖叫。", "en": "Flesh Worm sizzles in fire."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "跌落时，血肉蠕虫痛苦哀号。", "en": "Flesh Worm wails in fall."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "溺水时，血肉蠕虫嘶嘶尖叫。", "en": "Flesh Worm sizzles in water."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸中，血肉蠕虫尖叫连连。", "en": "Flesh Worm screeches in explosion."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被击中，血肉蠕虫吱吱尖叫。", "en": "Flesh Worm screeches in hit."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法攻击，血肉蠕虫哀嚎连连。", "en": "Flesh Worm howls in magic."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿时，血肉蠕虫吱吱哀鸣。", "en": "Flesh Worm creaks in hunger."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击时，血肉蠕虫尖叫刺耳。", "en": "Flesh Worm screeches in lightning."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空，血肉蠕虫嘶嘶尖叫。", "en": "Flesh Worm sizzles in void."}
+      ]
+    }
+  }
+}

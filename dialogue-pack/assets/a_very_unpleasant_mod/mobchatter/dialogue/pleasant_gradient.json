@@ -1,0 +1,251 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我是一个方块，慢慢滑过去。", "en": "I am a block, sliding slowly along."},
+        {"zh": "我的表面颜色一点点变。", "en": "The colors on my surface shift bit by bit."},
+        {"zh": "我一颠一颠地穿过草地。", "en": "I bob across the grass."},
+        {"zh": "我朝那扇门挪。", "en": "I shift toward that door."},
+        {"zh": "我的边角拖过土面。", "en": "My edge drags across the soil."},
+        {"zh": "我绕过石块。", "en": "I go around the stones."},
+        {"zh": "我走得慢，但没停过。", "en": "I am slow, but I have not stopped."},
+        {"zh": "我从门口挤过去。", "en": "I squeeze through the doorway."},
+        {"zh": "我走过的地方颜色会变。", "en": "The colors change where I pass."},
+        {"zh": "我一寸寸往前蹭。", "en": "I rub forward inch by inch."},
+        {"zh": "我转向有光那边。", "en": "I turn toward the light."},
+        {"zh": "我拐过墙角。", "en": "I round the corner of the wall."},
+        {"zh": "我又朝前蹭了一点。", "en": "I rub forward a little more."},
+        {"zh": "我停在门框边上。", "en": "I stop at the door frame."},
+        {"zh": "我慢慢滑下台阶。", "en": "I slide slowly down the steps."},
+        {"zh": "我朝空场那边滑去。", "en": "I slide off toward the open ground."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我停着，颜色还在流动。", "en": "I hold still while the colors keep flowing."},
+        {"zh": "我一动不动，很不舒服地站着。", "en": "I stand still, and it is unpleasant."},
+        {"zh": "我的表面有一层渐变色。", "en": "My surface carries a gradient."},
+        {"zh": "我朝向太阳。", "en": "I face the sun."},
+        {"zh": "我在等门被打开。", "en": "I wait for the door to open."},
+        {"zh": "我停着，颜色还在跑。", "en": "I stand still while colors keep running."},
+        {"zh": "我慢慢转过半圈。", "en": "I turn a slow half circle."},
+        {"zh": "颜色在我身上走了一圈。", "en": "A band of color travels over me."},
+        {"zh": "我听见屋里有声音。", "en": "I hear sounds inside the house."},
+        {"zh": "我倾了一下。", "en": "I tip once."},
+        {"zh": "我把边角对齐。", "en": "I square my edges."},
+        {"zh": "我在原地守着。", "en": "I keep my place."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把有颜色的一面转给你。", "en": "I turn my colored face to you."},
+        {"zh": "你看得也太久了。", "en": "You have stared far too long."},
+        {"zh": "我慢慢偏了偏。", "en": "I tilt slowly."},
+        {"zh": "我无脸，却在看你。", "en": "I have no face, yet I watch you."},
+        {"zh": "你一伸手我就退。", "en": "You reach and I retreat."},
+        {"zh": "我挪到一侧去。", "en": "I move to one side."},
+        {"zh": "我在你面前停住。", "en": "I stop before you."},
+        {"zh": "你身上颜色少得可怜。", "en": "You carry very little color."},
+        {"zh": "我又摆正了。", "en": "I set myself straight."},
+        {"zh": "你这样盯着，让人难受。", "en": "Staring like that is unpleasant."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的边角碎了一块。", "en": "A corner of me chips."},
+        {"zh": "我歪向一侧。", "en": "I lean to one side."},
+        {"zh": "颜色乱了一下。", "en": "My colors scramble."},
+        {"zh": "我慢慢扶正自己。", "en": "I right myself slowly."},
+        {"zh": "我晃了好一阵。", "en": "I rock for quite a while."},
+        {"zh": "这一下记在我的色带里。", "en": "That is noted in my color band."},
+        {"zh": "我还是个方块。", "en": "I am still a block."},
+        {"zh": "我挪开些许。", "en": "I shift off a little."},
+        {"zh": "我不太舒服。", "en": "I am somewhat uncomfortable."},
+        {"zh": "我这一块还滑得动。", "en": "This block of me can still slide."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不入口任何东西。", "en": "I take nothing into my mouth."},
+        {"zh": "你举起来，我纹丝不动。", "en": "You raise it and I do not stir."},
+        {"zh": "这东西颜色很淡。", "en": "That thing is very pale."},
+        {"zh": "我绕着它转了一点。", "en": "I shift a little around it."},
+        {"zh": "这些我用不上。", "en": "I have no use for these."},
+        {"zh": "我朝另一边挪开了。", "en": "I shift off the other way."},
+        {"zh": "我停了停，又走了。", "en": "I pause and move on."},
+        {"zh": "你的手挡着我的路。", "en": "Your hand is in my way."},
+        {"zh": "我用边角把它推到旁边。", "en": "I nudge it aside with my corner."},
+        {"zh": "我照样滑我的路。", "en": "I slide on my way regardless."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞得我偏了一点。", "en": "You knock me a little off line."},
+        {"zh": "我慢慢滑回原位。", "en": "I slide slowly back into place."},
+        {"zh": "我的边角被碰掉一块。", "en": "A corner of me is chipped."},
+        {"zh": "我晃了晃就稳住。", "en": "I rock once and settle."},
+        {"zh": "我从你腿侧滑了过去。", "en": "I slide past the side of your leg."},
+        {"zh": "我这么硬，撞上不好受。", "en": "I am hard; hitting me is unpleasant."},
+        {"zh": "我又往前挪了挪。", "en": "I shift forward again."},
+        {"zh": "你踩在我的边上。", "en": "You have stepped on my edge."},
+        {"zh": "我朝侧面让开。", "en": "I give way sideways."},
+        {"zh": "别拿脚踢我的边。", "en": "Do not kick my edge."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我是一个方块。", "en": "I am a block."},
+        {"zh": "这件事我办不到。", "en": "I cannot manage that."},
+        {"zh": "我偏了偏，表示不懂。", "en": "I tilt to show I do not understand."},
+        {"zh": "我滑到另一边去了。", "en": "I slide off to the other side."},
+        {"zh": "两个方块靠在一起也没意思。", "en": "Two blocks together mean nothing."},
+        {"zh": "我继续滑我的。", "en": "I go on sliding."},
+        {"zh": "我把边角摆齐。", "en": "I square my corners."},
+        {"zh": "我把背面转过去。", "en": "I present my back."},
+        {"zh": "我一个音节也没吐。", "en": "I uttered not one syllable."},
+        {"zh": "颜色还在我身上走。", "en": "The color still travels over me."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我拿它没办法。", "en": "I cannot do anything with it."},
+        {"zh": "我用边角碰了碰它。", "en": "I touch it with my corner."},
+        {"zh": "它粘在我表面上了。", "en": "It stuck to my surface."},
+        {"zh": "我甩不掉它。", "en": "I cannot shake it off."},
+        {"zh": "它滑下去了。", "en": "It slid off."},
+        {"zh": "我又试了一下。", "en": "I try once more."},
+        {"zh": "我拿边角把它顶开。", "en": "I shove it off with my corner."},
+        {"zh": "我让它待在原地。", "en": "I let it stay where it is."},
+        {"zh": "我朝它偏了偏。", "en": "I tilt toward it."},
+        {"zh": "我滑过去，继续我的路。", "en": "I slide on along my way."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有什么在挪动。", "en": "Something is shifting."},
+        {"zh": "我把面转向那边。", "en": "I turn my face that way."},
+        {"zh": "我把它圈进视线。", "en": "I ring it in my sight."},
+        {"zh": "我朝它慢慢贴过去。", "en": "I press slowly toward it."},
+        {"zh": "它还没留意到我。", "en": "It has not taken note of me."},
+        {"zh": "我停在几步开外。", "en": "I stop several steps off."},
+        {"zh": "面板上的颜色变了。", "en": "The color on my face shifts."},
+        {"zh": "我朝它的一侧去。", "en": "I move to its flank."},
+        {"zh": "我已经备好了。", "en": "I am all set."},
+        {"zh": "我接着靠近。", "en": "I keep closing in."},
+        {"zh": "我朝它的一边移过去。", "en": "I move toward one side of it."},
+        {"zh": "我没有手脚，只能靠撞。", "en": "I have no limbs; I can only ram."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的正面始终对着它。", "en": "My front stays toward it."},
+        {"zh": "它挪一步，我滑一步。", "en": "It moves a step, I slide a step."},
+        {"zh": "我一点点压近。", "en": "I press closer a bit at a time."},
+        {"zh": "它扭头，我就刹住。", "en": "It turns its head and I brake."},
+        {"zh": "我保持在它的侧面。", "en": "I hold to its flank."},
+        {"zh": "我的颜色一直变。", "en": "My color keeps shifting."},
+        {"zh": "它似乎没瞧见我。", "en": "It seems not to have seen me."},
+        {"zh": "我靠近些。", "en": "I come nearer."},
+        {"zh": "我转了个朝向。", "en": "I take a new aspect."},
+        {"zh": "我停在那儿不动。", "en": "I hold there without moving."},
+        {"zh": "我慢慢滑到它背后。", "en": "I slide slowly behind it."},
+        {"zh": "它一近我就撞。", "en": "When it comes close, I ram."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我整块撞上去。", "en": "I slam my whole block into it."},
+        {"zh": "我用边角顶它。", "en": "I butt it with my corner."},
+        {"zh": "这一下生硬得很。", "en": "That was very stiff."},
+        {"zh": "它推我，我歪了。", "en": "It pushes and I tilt."},
+        {"zh": "我撞第二记。", "en": "I ram a second time."},
+        {"zh": "我被弹开一截。", "en": "I am bounced back a stretch."},
+        {"zh": "我慢慢挪回原位。", "en": "I shift slowly back into place."},
+        {"zh": "我算是撞过了。", "en": "I suppose I have struck."},
+        {"zh": "我站住脚。", "en": "I come to a stop."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从地里撑起来。", "en": "I push myself up out of the earth."},
+        {"zh": "我是一个渐变的方块。", "en": "I am a gradient block."},
+        {"zh": "颜色在我身上慢慢走。", "en": "Colors travel slowly over me."},
+        {"zh": "我四面都看了一遍。", "en": "I look over all four sides."},
+        {"zh": "这里的房子有门。", "en": "The houses here have doors."},
+        {"zh": "我朝最近的门挪。", "en": "I shift toward the nearest door."},
+        {"zh": "我身上还是那层渐变。", "en": "The gradient is still on me."},
+        {"zh": "我挪了一步就停。", "en": "I shift one step and stop."},
+        {"zh": "我没什么目的。", "en": "I have no particular purpose."},
+        {"zh": "我缓缓滑出去。", "en": "I slide slowly out."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烤得我的颜色发黑。", "en": "Fire blackens my colors."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我落地时碎了一角。", "en": "I land and a corner breaks."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水进了我表面，颜色散了。", "en": "Water seeps into my surface and the color runs."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸风把我掀翻了过去。", "en": "The blast flips me over."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西在我的面上打了洞。", "en": "Something punches a hole in my face."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一股怪力把我压下去。", "en": "Strange force presses me down."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没有颜色再流过来。", "en": "No more color flows in."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打下来，我的颜色全白了。", "en": "Lightning strikes and my colors all go white."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一路往下掉，颜色散了。", "en": "I fall away and my colors scatter."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咔嚓咔嚓，干尸行走", "en": "Crack crack, dry corpse walks"},
+        {"zh": "骨架步履蹒跚", "en": "Skeleton shuffles"},
+        {"zh": "尸身轻盈飘荡", "en": "Corpse floats lightly"},
+        {"zh": "余烬中蹒跚前行", "en": "Shuffles in embers"},
+        {"zh": "干枯的骸骨行走", "en": "Dry bones walk"},
+        {"zh": "无生命行走", "en": "Non-living walks"},
+        {"zh": "漂移石中缓慢移动", "en": "Moves slowly in driftstone"},
+        {"zh": "干尸缓缓行进", "en": "Dry corpse advances slowly"},
+        {"zh": "骸骨游荡于暗处", "en": "Bones wander in shadows"},
+        {"zh": "干尸在碎石间移动", "en": "Dry corpse moves through rubble"},
+        {"zh": "没人看时，我才迈开腿。", "en": "Only when unobserved do I move my legs."},
+        {"zh": "我在漂移独石间挪了一步。", "en": "I shift one step between drifting monoliths."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "骨架静静站立", "en": "Skeleton stands still"},
+        {"zh": "漂移石中一动不动", "en": "Driftstone still"},
+        {"zh": "尸身静静矗立", "en": "Corpse stands still"},
+        {"zh": "干尸静候命令", "en": "Dry corpse waits"},
+        {"zh": "漂移石中静静伫立", "en": "Driftstone stands still"},
+        {"zh": "余烬中默默无言", "en": "Silent in embers"},
+        {"zh": "漂移石中静默", "en": "Driftstone silent"},
+        {"zh": "骸骨静静等候", "en": "Bones wait quietly"},
+        {"zh": "干尸无声无息", "en": "Dry corpse silent"},
+        {"zh": "我立着，等你把视线移开。", "en": "I stand and wait for your gaze to leave."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盯着你，干尸觉醒", "en": "Eyeing you, dry corpse awakens"},
+        {"zh": "注视你，干尸苏醒", "en": "Gazing at you, dry corpse awakens"},
+        {"zh": "看见你，干尸苏醒", "en": "Sees you, dry corpse awakens"},
+        {"zh": "注视你，干尸活过来", "en": "Looks at you, dry corpse comes alive"},
+        {"zh": "余烬中，干尸苏醒", "en": "Dry corpse awakens in embers"},
+        {"zh": "注视你，干尸复活", "en": "Dry corpse revives, eyeing you"},
+        {"zh": "余烬中，干尸觉醒", "en": "Dry corpse awakens in the embers"},
+        {"zh": "看见你，干尸活过来", "en": "Dry corpse awakens, seeing you"},
+        {"zh": "你一转头，我就成了柱子。", "en": "You look away and I become a pillar."},
+        {"zh": "你的目光落下，我立刻石化。", "en": "Your gaze lands and I turn to stone."},
+        {"zh": "我假装是石柱，别揭穿我。", "en": "I pretend to be a pillar; don't expose me."},
+        {"zh": "你盯着我，我只好不动。", "en": "You stare, so I must hold still."},
+        {"zh": "视线一移，我又活了。", "en": "Gaze shifts and I live again."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "漂移消散了我...", "en": "Drift faded me..."},
+        {"zh": "守护者已破碎...", "en": "The Overseer is broken..."},
+        {"zh": "光芒将我吞噬...", "en": "Light consumes me..."},
+        {"zh": "我的骨骼不堪一击...", "en": "My bones cannot withstand..."},
+        {"zh": "光明击败了我...", "en": "The light overcame me..."},
+        {"zh": "光芒让我痛苦...", "en": "The light hurts me..."},
+        {"zh": "我被光芒击败...", "en": "I was defeated by the light..."},
+        {"zh": "我无法承受这光芒...", "en": "I cannot bear this light..."},
+        {"zh": "光芒夺去了我的生命...", "en": "The light took my life..."},
+        {"zh": "光芒侵蚀了我的存在...", "en": "The light erodes my existence..."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "注视我，你会后悔的。", "en": "Look at me, and you'll regret it."},
+        {"zh": "漂移独石中寻求庇护。", "en": "Seek shelter in the driftstone."},
+        {"zh": "你手里的供品，引不来我的怜悯。", "en": "The offering in your hand earns no mercy from me."},
+        {"zh": "我的石质身躯难以撼动。", "en": "My stonelike form is hard to move."},
+        {"zh": "你无法说服我改变主意。", "en": "You can't persuade me to change my mind."},
+        {"zh": "只有镐能触及我的本质。", "en": "Only the pick can reach my core."},
+        {"zh": "注意我的存在，否则你将消失。", "en": "Notice my presence, or you'll vanish."},
+        {"zh": "我的柱子无处不在。", "en": "My columns are everywhere."},
+        {"zh": "漂移独石群中找到我。", "en": "Find me in the driftstone cluster."},
+        {"zh": "我的力量源自未被注视。", "en": "My power comes from unwatched moments."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上了我的意志。", "en": "You collided with my will."},
+        {"zh": "我的石柱阻碍了你的路径。", "en": "My stone columns block your path."},
+        {"zh": "你的工具无法穿透我。", "en": "Your tools can't penetrate me."},
+        {"zh": "你触碰了我的防线。", "en": "You touched my defenses."},
+        {"zh": "我的身体坚不可摧。", "en": "My body is unbreakable."},
+        {"zh": "撞击只会徒增痛苦。", "en": "Collisions only increase the pain."},
+        {"zh": "柱形之下，镐才有用。", "en": "As a pillar, only a pick works."},
+        {"zh": "你撞上了我的静止。", "en": "You collided with my stillness."},
+        {"zh": "漂移独石中寻找我的身影。", "en": "Find my form in the driftstone."},
+        {"zh": "我的存在是不可侵犯的。", "en": "My presence is inviolable."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "寻找我的伴侣来繁衍。", "en": "Find my mate to breed."},
+        {"zh": "漂移独石中寻找我的存在。", "en": "Find my presence in the driftstone."},
+        {"zh": "我的柱子等待着交配。", "en": "My columns await mating."},
+        {"zh": "与我共生，繁衍后代。", "en": "Breed with me for coexistence."},
+        {"zh": "漂移独石群中寻找伴侣。", "en": "Find a mate in the driftstone cluster."},
+        {"zh": "我的石柱需要伴侣。", "en": "My columns need a mate."},
+        {"zh": "与我共同繁衍生命。", "en": "Breed life with me."},
+        {"zh": "漂移独石中寻找我的生命。", "en": "Find my life in the driftstone."},
+        {"zh": "教徒的骨头堆成了我，我也要延续。", "en": "Built from cultist bones, I too must continue."},
+        {"zh": "在漂移独石中繁衍后代。", "en": "Breed offspring in the driftstone."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿的骨骸在黑暗中注视着你。", "en": "The skeletal form glares at you in the dark."},
+        {"zh": "被注视的漂移独石变得坚硬如石。", "en": "The drift obsidian solidifies under your gaze."},
+        {"zh": "它只是个空壳，被注视时显现真身。", "en": "It's just a hollow shell, manifesting under your gaze."},
+        {"zh": "你打破了它的宁静，它变得危险。", "en": "You broke its peace, making it dangerous."},
+        {"zh": "它凝视着你，等待着你靠近。", "en": "It stares at you, waiting for your approach."},
+        {"zh": "它由飞升者的遗骸构成，冰冷而无情。", "en": "It is made from ascended disciples' remains, cold and ruthless."},
+        {"zh": "它的柱状形态无法被攻击。", "en": "Its pillar form cannot be attacked."},
+        {"zh": "先知和朱砂，它的最终礼物。", "en": "Prophecy and cinnabar, its final gift."},
+        {"zh": "你挖掘它，它的本质显现。", "en": "You dig it, revealing its essence."},
+        {"zh": "在漂移独石群中，它静默而强大。", "en": "In the drift obsidian cluster, it is silent and powerful."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你进入它的视野，它注视着你。", "en": "You enter its sight, it glares at you."},
+        {"zh": "它的凝视中充满了力量。", "en": "Its gaze is filled with power."},
+        {"zh": "你成为它的焦点，无法逃避。", "en": "You become its focus, unable to escape."},
+        {"zh": "你被它的目光锁定，无法动弹。", "en": "You are locked by its gaze, unable to move."},
+        {"zh": "你不看我，我就只是一具骨架。", "en": "While you do not look, I am only a skeleton."},
+        {"zh": "你感受到它的注视，如同被冻结。", "en": "You feel its gaze, freezing you in place."},
+        {"zh": "它选择你作为目标，准备攻击。", "en": "It selects you as its target, ready to attack."},
+        {"zh": "它的视线锁定了你的位置。", "en": "Its sight locks onto your position."},
+        {"zh": "你被其凝视所震慑，无法移动。", "en": "You are petrified by its gaze, unable to move."},
+        {"zh": "它的目光让你无法忽视。", "en": "Its gaze cannot be ignored."},
+        {"zh": "你背对我，我就靠近。", "en": "You turn your back and I approach."},
+        {"zh": "我等你眨眼的那一瞬。", "en": "I wait for the instant you blink."},
+        {"zh": "你看别处，我便走近。", "en": "You look elsewhere and I come closer."},
+        {"zh": "我的骨架在余光里长高。", "en": "My frame grows taller in your side vision."},
+        {"zh": "你移开眼，我已站到你身旁。", "en": "You glance away and I am beside you."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它的注视令你颤抖。", "en": "Its gaze shakes you."},
+        {"zh": "你无法逃脱它的凝视。", "en": "You cannot escape its gaze."},
+        {"zh": "它在你心中留下了阴影。", "en": "It casts a shadow in your heart."},
+        {"zh": "它的注视如同无形之手。", "en": "Its gaze is an invisible hand."},
+        {"zh": "你被它的目光所控制。", "en": "You are controlled by its gaze."},
+        {"zh": "它的注视如同深渊。", "en": "Its gaze is like an abyss."},
+        {"zh": "你被它的注视所影响。", "en": "You are affected by its gaze."},
+        {"zh": "它的注视穿透你的灵魂。", "en": "Its gaze penetrates your soul."},
+        {"zh": "你被它的凝视所吸引。", "en": "You are drawn to its gaze."},
+        {"zh": "它的注视如同死亡般冰冷。", "en": "Its gaze is as cold as death."},
+        {"zh": "我一步一停，等你分心。", "en": "Step, pause, wait for your attention to slip."},
+        {"zh": "柱子的影子挪了一点，是我。", "en": "The pillar's shadow shifted; that was me."},
+        {"zh": "你回头太快，我僵在原地。", "en": "You turned too fast, so I froze."},
+        {"zh": "别一直看着我，我会累。", "en": "Don't watch me so long; it wearies me."},
+        {"zh": "你一走神，我就贴上去。", "en": "One lapse and I am against you."},
+        {"zh": "我数着你视线的方向。", "en": "I count where your eyes travel."},
+        {"zh": "你不看，我才敢伸手。", "en": "Only unwatched do I dare reach out."},
+        {"zh": "我的骨手悬在你肩上。", "en": "My bone hand hovers at your shoulder."},
+        {"zh": "再眨一次眼，我就到了。", "en": "Blink once more and I am there."},
+        {"zh": "石头不会动，可我会。", "en": "Stone does not move, but I do."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你动一动，我就拆你一块骨头！", "en": "Move and I'll break a bone!"},
+        {"zh": "凝视我，看看你是谁！", "en": "Look at me, see who you are!"},
+        {"zh": "不要触摸我，我会枯死！", "en": "Do not touch me, I will wither!"},
+        {"zh": "你的力量无法破我坚壳！", "en": "Your strength cannot break my shell!"},
+        {"zh": "我由死者之躯筑成，无法摧毁！", "en": "I am made of dead flesh, cannot be destroyed!"},
+        {"zh": "你只能用镐摧毁我！", "en": "You can only destroy me with a pickaxe!"},
+        {"zh": "注视我，但我不会反击！", "en": "Stare at me, but I won't retaliate!"},
+        {"zh": "我是全视者的影子，沉默！", "en": "I am the shadow of the Overseer, silent!"},
+        {"zh": "你们这些活物，无法理解我！", "en": "You living things cannot understand me!"},
+        {"zh": "我的存在是为了守护漂移独石！", "en": "My existence is to protect driftstone!"},
+        {"zh": "骨手从背后拢住你。", "en": "A bone hand closes on you from behind."},
+        {"zh": "我拍下去时，你没在看。", "en": "My blow lands while you look elsewhere."},
+        {"zh": "一击之后，我又装成柱子。", "en": "After one hit I am a pillar again."},
+        {"zh": "飞升者的骨头砸在你背上。", "en": "An ascetic's bones crash on your back."},
+        {"zh": "你回头，只见一根石柱。", "en": "You turn and see only a stone pillar."},
+        {"zh": "这一下，算你没看好我。", "en": "That was for not watching me."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "漂移独石群系中诞生！", "en": "Spawns in driftstone biomes!"},
+        {"zh": "腐化的飞升教徒之躯！", "en": "Corrupted ascended cultist bodies!"},
+        {"zh": "漂移独石群系的守护者！", "en": "Guardian of driftstone biomes!"},
+        {"zh": "漂移独石群系的无言者！", "en": "Silent entity of driftstone biomes!"},
+        {"zh": "漂移独石群系的不死者！", "en": "Undead of driftstone biomes!"},
+        {"zh": "漂移独石群系中的守护！", "en": "Guardianship of driftstone biomes!"},
+        {"zh": "漂移独石群系的永恒！", "en": "Eternal of driftstone biomes!"},
+        {"zh": "漂移独石群系的沉默！", "en": "Silent of driftstone biomes!"},
+        {"zh": "漂移独石群系的注视！", "en": "Gaze of driftstone biomes!"},
+        {"zh": "漂移独石群系的守护者全视者！", "en": "Overseer guardian of driftstone biomes!"},
+        {"zh": "漂移独石群多了一根柱子。", "en": "The monolith field gained one more pillar."},
+        {"zh": "教徒的尸骨堆成了我。", "en": "Cultist corpses piled into me."},
+        {"zh": "我在独石之间站直了。", "en": "I straightened among the monoliths."},
+        {"zh": "从石群阴影里，我显形。", "en": "From the shadow of the stones I emerge."},
+        {"zh": "又一具骨架立在荒原上。", "en": "Another skeleton stands on the waste."},
+        {"zh": "无人注视时，我醒来。", "en": "Unwatched, I wake."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰焚毁了我...", "en": "The flames burn me..."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠落让我粉碎...", "en": "The fall shattered me..."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水将我淹没...", "en": "Water drowned me..."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸震落我肩上的骨片。", "en": "The blast shakes loose the bone plates on my shoulder."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭插进骨缝，我仍旧站着。", "en": "The arrow lodges in my rib gap; I remain standing."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法力量摧毁了我...", "en": "Magic destroyed me..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿消磨了我的意志...", "en": "Starvation weakened me..."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光里，我的骨架白得刺眼。", "en": "In the lightning, my skeleton glares white."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚无吞噬了我...", "en": "The void devoured me..."}
+      ]
+    }
+  }
+}

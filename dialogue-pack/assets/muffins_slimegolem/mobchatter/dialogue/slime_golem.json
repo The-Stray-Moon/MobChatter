@@ -1,0 +1,218 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的身体一晃一晃地走", "en": "My body sways as I walk"},
+        {"zh": "黏液从我的肩上滑下来", "en": "Slime slides down my shoulders"},
+        {"zh": "我的南瓜头在顶上", "en": "My carved pumpkin head sits on top"},
+        {"zh": "我每走一步都滴下黏丝", "en": "Every step drips a thread of slime"},
+        {"zh": "我从史莱姆块上被立起来", "en": "I was set up on a slime block"},
+        {"zh": "我越过一片草地", "en": "I cross a stretch of grass"},
+        {"zh": "我的脚步把它压扁又弹回", "en": "My steps flatten it and it springs back"},
+        {"zh": "我慢慢挪动我的重心", "en": "I shift my weight slowly"},
+        {"zh": "我在找敌对的生物", "en": "I am looking for hostile creatures"},
+        {"zh": "我迈一步，身体就往下沉一点", "en": "Each step sinks my body a little"},
+        {"zh": "我从这块黏液上滑下来", "en": "I slide off this patch of slime"},
+        {"zh": "我的南瓜头一直朝前", "en": "My pumpkin head always faces forward"},
+        {"zh": "我沿着墙根走，黏液抹在墙上", "en": "I walk the wall base, smearing slime"},
+        {"zh": "我把身体往前倾倒再立起来", "en": "I tip my body forward and stand it up again"},
+        {"zh": "我的步子没有声音，只有黏声", "en": "My steps are silent but for the squelch"},
+        {"zh": "我慢得像一滩会走的水", "en": "I move as slow as walking water"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，黏液在往下滴", "en": "I stand, slime dripping down"},
+        {"zh": "我的眼睛是两个黑洞", "en": "My eyes are two black holes"},
+        {"zh": "我的南瓜里有一点光", "en": "There is a little light inside my pumpkin"},
+        {"zh": "我在这一块地上不动", "en": "I hold this patch of ground"},
+        {"zh": "我的身体慢慢塌了一点", "en": "My body has sagged a little"},
+        {"zh": "我在等我该打的东西", "en": "I am waiting for what I should fight"},
+        {"zh": "我两条黏臂贴着身体", "en": "My two slimy arms hang at my sides"},
+        {"zh": "我的南瓜里嗡嗡地响", "en": "My pumpkin hums quietly"},
+        {"zh": "黏液在我肩上聚成一颗水珠", "en": "Slime gathers in a bead on my shoulder"},
+        {"zh": "我在看一丛草有没有动", "en": "I am watching whether a bush moves"},
+        {"zh": "我站着，脚下的草被压平了", "en": "I stand and the grass beneath me is flattened"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你不是史莱姆", "en": "You are not a slime"},
+        {"zh": "我的南瓜头上还滴着黏液。", "en": "Slime still drips from my pumpkin head."},
+        {"zh": "我只打那些敌对的", "en": "I only strike the hostile ones"},
+        {"zh": "你站在我这边吗", "en": "Are you on my side"},
+        {"zh": "我的南瓜头是可以取下的", "en": "My pumpkin head can be taken off"},
+        {"zh": "你会用剪刀吗", "en": "Do you have shears"},
+        {"zh": "我身上的黏丝很滑", "en": "The slime threads on me are slippery"},
+        {"zh": "你的衣服沾上黏液了", "en": "Your clothes have slime on them"},
+        {"zh": "我走得很慢，你可以先走", "en": "I am slow, you may go ahead"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的身体掉了一块黏液", "en": "A blob of slime fell off my body"},
+        {"zh": "我不太疼，只是变形", "en": "It does not hurt much, I am only misshapen"},
+        {"zh": "我的南瓜掉了一角", "en": "A corner of my pumpkin broke off"},
+        {"zh": "我的身体变形了", "en": "My body has lost its shape"},
+        {"zh": "我不觉得多疼", "en": "It does not hurt much"},
+        {"zh": "我的黏液流得更快", "en": "My slime is flowing faster"},
+        {"zh": "我慢慢地恢复回去", "en": "I slowly recover"},
+        {"zh": "我用胳膊撑住自己", "en": "I brace myself with an arm"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的身体不需要进胃里", "en": "My body has no stomach to fill"},
+        {"zh": "这个我吞不下去", "en": "I cannot swallow this"},
+        {"zh": "我的身体会把它弹开", "en": "My body would bounce it away"},
+        {"zh": "我只需要黏液", "en": "I need only slime"},
+        {"zh": "我用不着吃东西", "en": "I have no need to eat"},
+        {"zh": "我的身体会把它裹起来", "en": "My body would wrap around it"},
+        {"zh": "这个不黏，我喜欢黏的", "en": "This is not sticky, I like sticky"},
+        {"zh": "你给我，我也用不上", "en": "Even given, I could not use it"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到我身上，很滑", "en": "You bumped me, very slippery"},
+        {"zh": "我晃了一下，黏液溅出来", "en": "I swayed and slime splashed out"},
+        {"zh": "你被我的黏液粘住了吧", "en": "You are stuck to my slime, are you not"},
+        {"zh": "我往后淌了半步", "en": "I ooze back half a step"},
+        {"zh": "这点碰撞不影响我", "en": "This collision does not affect me"},
+        {"zh": "我把身体回正", "en": "I right my body"},
+        {"zh": "你从我身上滑过去了", "en": "You slid across me"},
+        {"zh": "我的黏液粘住了你的鞋", "en": "My slime caught your shoe"},
+        {"zh": "我们撞在一起，很闷", "en": "We collided, a dull sound"},
+        {"zh": "我掉了一小块黏液", "en": "I lost a small blob of slime"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我是用南瓜和黏液拼的", "en": "I am put together from pumpkin and slime"},
+        {"zh": "这些东西我没有", "en": "I do not have such things"},
+        {"zh": "我的职责是打敌对的", "en": "My duty is to fight the hostile ones"},
+        {"zh": "我把头转回前方", "en": "I turn my head back to the front"},
+        {"zh": "我是用方块拼出来的傀儡", "en": "I am a golem assembled from blocks"},
+        {"zh": "我是方块拼的傀儡", "en": "I am a golem of blocks"},
+        {"zh": "我只会打敌对的生物", "en": "I only strike hostile creatures"},
+        {"zh": "我把南瓜的头稍微转开", "en": "I turn my pumpkin head slightly aside"},
+        {"zh": "我继续站着守", "en": "I go on standing guard"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用黏手去够它", "en": "I reach for it with a sticky hand"},
+        {"zh": "这个可以塞进身体里", "en": "This can go into my body"},
+        {"zh": "我把它粘在手上", "en": "I stick it to my hand"},
+        {"zh": "掉在地上的我都粘走", "en": "I stick away whatever falls"},
+        {"zh": "我用黏手把它粘住", "en": "I catch it with my sticky hand"},
+        {"zh": "这个我拿得稳", "en": "I can hold this steadily"},
+        {"zh": "它被我的黏液包住了", "en": "My slime has wrapped around it"},
+        {"zh": "地上掉的我都粘起来", "en": "I stick up whatever falls"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那边有个敌对的", "en": "There is a hostile over there"},
+        {"zh": "我要把它打掉", "en": "I will strike it down"},
+        {"zh": "我的黏液开始流得快", "en": "My slime has started flowing faster"},
+        {"zh": "我把整团黏液转过去", "en": "I swing my whole mass that way"},
+        {"zh": "我这身黏液，粘住你了。", "en": "This slime of mine sticks to you."},
+        {"zh": "有个敌对的靠近了", "en": "A hostile has come near"},
+        {"zh": "我的南瓜里亮了一下", "en": "Something flashed in my pumpkin"},
+        {"zh": "我一向先动手", "en": "I always strike first"},
+        {"zh": "它不是我该放过的", "en": "It is not one I should spare"},
+        {"zh": "我朝它的方向压过去", "en": "I press toward it"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我淌着黏液推过去", "en": "I ooze toward it"},
+        {"zh": "我的手臂已经抬起来", "en": "My arm is already raised"},
+        {"zh": "我一晃一晃地挪过去", "en": "I sway over toward it"},
+        {"zh": "它绕到了我侧面", "en": "It circled to my flank"},
+        {"zh": "我转身非常慢", "en": "I turn very slowly"},
+        {"zh": "我的手臂举着没放下", "en": "My arm stays up"},
+        {"zh": "我在等它进入我的范围", "en": "I wait for it to enter my range"},
+        {"zh": "我的黏液在地上铺开一层", "en": "My slime spreads in a layer on the ground"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用手臂砸下去", "en": "I bring my arm down"},
+        {"zh": "噗的一声，黏液飞出去", "en": "With a splat, slime flies out"},
+        {"zh": "我把它推出去", "en": "I push it away"},
+        {"zh": "我把整条手臂砸下", "en": "I bring the whole arm down"},
+        {"zh": "黏液溅了它一身", "en": "Slime splashed all over it"},
+        {"zh": "我推着它往后退", "en": "I push it backwards"},
+        {"zh": "我把它压在地上", "en": "I press it to the ground"},
+        {"zh": "我这一击粘住它半天", "en": "This blow of mine sticks it for a while"},
+        {"zh": "我打完了就慢下来", "en": "I slow down after striking"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从史莱姆块上站起来", "en": "I stand up from the slime block"},
+        {"zh": "南瓜头被放在我顶上", "en": "The carved pumpkin was set on my head"},
+        {"zh": "我身上到处是黏丝", "en": "Slime threads hang all over me"},
+        {"zh": "这里不是史莱姆区块", "en": "This is not a slime chunk"},
+        {"zh": "我先进去看看有没有敌对的", "en": "First I go and see if anything is hostile"},
+        {"zh": "史莱姆块上放下了一个南瓜", "en": "A pumpkin was set on a slime block"},
+        {"zh": "我就这样站了起来", "en": "And so I stood up"},
+        {"zh": "我的身体还在往下淌", "en": "My body is still trickling down"},
+        {"zh": "我是黏土傀儡，守这一片", "en": "I am a Slime Golem, I guard this patch"},
+        {"zh": "我会一直守在这块史莱姆块上", "en": "I will keep guarding this slime block"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火一烤，我的黏液在冒泡", "en": "The fire made my slime bubble"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从高处掉下来，摊了一片", "en": "I fell from height and spread out flat"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭插在我的黏液里", "en": "An arrow stuck in my slime"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股术力穿透了我的身体", "en": "That magic passed through my body"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在我身上，黏液烧焦了", "en": "Lightning struck me and my slime scorched"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的黏液散在空气里", "en": "My slime scattered in the air"}
+      ]
+    }
+  }
+}

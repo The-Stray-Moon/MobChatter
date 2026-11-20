@@ -1,0 +1,248 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一节一节地爬，壳挤着壳。", "en": "I crawl segment by segment, shell against shell."},
+        {"zh": "我贴着洞壁往前爬。", "en": "I creep along the cave wall."},
+        {"zh": "我闻到石头了，就在前面。", "en": "I smell stone; it is just ahead."},
+        {"zh": "我爬得很快，腿一路响。", "en": "I crawl fast, my legs a constant rustle."},
+        {"zh": "我绕过一堆积土。", "en": "I work around a pile of dug soil."},
+        {"zh": "我在石头之间挤过去。", "en": "I squeeze between stones."},
+        {"zh": "我的触须一直在前面探。", "en": "My antennae feel ahead the whole way."},
+        {"zh": "我朝那块发灰的石头去。", "en": "I head for that grey stone."},
+        {"zh": "我从货架下面爬过去。", "en": "I crawl under the shelf."},
+        {"zh": "我拖着身子下坡。", "en": "I drag myself down the slope."},
+        {"zh": "我沿着新挖的通道走。", "en": "I follow the newly dug tunnel."},
+        {"zh": "我走走停停，闻着味道。", "en": "I stop and start, sniffing."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我趴在一块石头旁边。", "en": "I lie beside a stone."},
+        {"zh": "我在嚼一块石屑。", "en": "I am chewing a chip of stone."},
+        {"zh": "这洞里的石头味道不错。", "en": "The stone in this cave tastes good."},
+        {"zh": "我的壳是银灰色的。", "en": "My shell is silver-grey."},
+        {"zh": "我在听谁的脚步。", "en": "I am listening to someone's steps."},
+        {"zh": "我的腿还沾着石粉。", "en": "My legs are still dusty with stone."},
+        {"zh": "我不喜欢跟人动手。", "en": "I do not care for fighting."},
+        {"zh": "我把头埋进食槽边。", "en": "I put my head at the edge of the trough."},
+        {"zh": "这洞越挖越深了。", "en": "This cave is dug deeper all the time."},
+        {"zh": "我慢慢地蹭了蹭墙。", "en": "I rub slowly against the wall."},
+        {"zh": "我身旁有粪便。", "en": "There is droppings beside me."},
+        {"zh": "我又咽下一小口石屑。", "en": "I swallow another bit of stone grit."},
+        {"zh": "我的背靠着墙，很凉。", "en": "My back rests against the cool wall."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你站在我的石头前面。", "en": "You are standing in front of my stone."},
+        {"zh": "我把触须朝你伸了伸。", "en": "I extend my antennae toward you."},
+        {"zh": "你的靴底沾着别处的石粉。", "en": "There's stone dust from elsewhere on your soles."},
+        {"zh": "我的头探近了一点。", "en": "I pushed my head a little nearer."},
+        {"zh": "我的口器停了。", "en": "My mouthparts have stopped."},
+        {"zh": "你要拿我的石头吗。", "en": "Are you taking my stone?"},
+        {"zh": "我慢慢地转了转身体。", "en": "I turn my body slowly."},
+        {"zh": "你的鞋底像石头。", "en": "Your soles look like stone."},
+        {"zh": "我在看你脚边有没有石头。", "en": "I am checking for stone by your feet."},
+        {"zh": "你把脚挪开，那块石屑是我的。", "en": "Move your foot; that stone chip is mine."},
+        {"zh": "我把头偏到一边。", "en": "I turn my head aside."},
+        {"zh": "你没有恶意，我看得出来。", "en": "You mean no harm; I can tell."},
+        {"zh": "我还在慢慢嚼东西。", "en": "I am still slowly chewing."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把身子卷成一个球。", "en": "I roll my body into a ball."},
+        {"zh": "我翻了过去，又翻回来。", "en": "I roll over and back."},
+        {"zh": "这一下硌得我壳发响。", "en": "That made my shell ring."},
+        {"zh": "我缩到墙角去。", "en": "I shrink back into the corner."},
+        {"zh": "壳上添了一道细纹。", "en": "A fine line has joined my shell."},
+        {"zh": "我发出短促的嘶声。", "en": "I hissed once, sharply."},
+        {"zh": "我一点点把腿伸开。", "en": "I stretched my legs out one by one."},
+        {"zh": "我仍在这块地上。", "en": "I am still on this patch of floor."},
+        {"zh": "我等着穴居者。", "en": "I wait for the burrowers."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这块是石头做的吗。", "en": "Is this made of stone?"},
+        {"zh": "我朝你那边爬。", "en": "I crawl toward you."},
+        {"zh": "这个咬得动吗。", "en": "Can that be bitten?"},
+        {"zh": "除了石头我都不吃。", "en": "I eat nothing but stone."},
+        {"zh": "你不吃这个吧。", "en": "You do not eat this, surely."},
+        {"zh": "我一口啃下去。", "en": "I gnaw into it."},
+        {"zh": "这个软得不像石头。", "en": "This is too soft for stone."},
+        {"zh": "越硬的石头越好吃。", "en": "The harder the stone, the better."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞我，我翻了一下。", "en": "You hit me and I roll over."},
+        {"zh": "我这层壳硬得很。", "en": "This shell of mine is very hard."},
+        {"zh": "壳上磕了一下，没事。", "en": "My shell knocked, nothing more."},
+        {"zh": "我一路退到了墙根。", "en": "I backed all the way to the wall."},
+        {"zh": "我的腿缠在一起了。", "en": "My legs have tangled."},
+        {"zh": "我慢慢地理顺。", "en": "I slowly sort them out."},
+        {"zh": "你脚底下看着点。", "en": "Watch your feet."},
+        {"zh": "我又往前爬了。", "en": "I am crawling forward again."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我这辈子就待在洞里。", "en": "I spend my life in the cave."},
+        {"zh": "这种事我在石头旁边做。", "en": "I do this by the stones."},
+        {"zh": "我留下一片卵。", "en": "I leave a patch of eggs."},
+        {"zh": "之后我还是吃石头。", "en": "Afterwards I go back to stone."},
+        {"zh": "我不在乎别的。", "en": "I do not care about anything else."},
+        {"zh": "洞里还有别的同类。", "en": "There are others of my kind in the cave."},
+        {"zh": "我拿身子蹭了蹭它。", "en": "I rubbed against it."},
+        {"zh": "两只蠹虫的壳叠在一起，咔咔响。", "en": "Our two shells stack together with a clatter."},
+        {"zh": "这个洞够宽敞。", "en": "This burrow is roomy enough."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我咬了一下，是石头。", "en": "I bite it; it is stone."},
+        {"zh": "这一块我啃得动。", "en": "This one I can gnaw."},
+        {"zh": "太软了，我不吃。", "en": "Too soft; I will not eat it."},
+        {"zh": "这东西沉得搬不动。", "en": "Too heavy to shift."},
+        {"zh": "我啃了一小块。", "en": "I gnaw off a small piece."},
+        {"zh": "这个我留着慢慢啃。", "en": "I keep this to gnaw at."},
+        {"zh": "这不是石头的味道。", "en": "This does not smell of stone."},
+        {"zh": "这块石头，我啃完就变光滑。", "en": "I will gnaw this stone smooth."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我停下来，头抬起来。", "en": "I stop and lift my head."},
+        {"zh": "我闻到危险的味道了。", "en": "I smell danger."},
+        {"zh": "我把身子卷起来。", "en": "I curl my body."},
+        {"zh": "洞口的石头被动了，我记住了。", "en": "Someone moved the stones at my tunnel mouth; noted."},
+        {"zh": "我嘶叫着招呼同伴。", "en": "I hissed to call the others."},
+        {"zh": "我在等穴居者。", "en": "I am waiting for the burrowers."},
+        {"zh": "他们就在附近。", "en": "They are close by."},
+        {"zh": "我把脚撑住地。", "en": "I brace my legs."},
+        {"zh": "你想在这儿做什么。", "en": "What do you mean to do here?"},
+        {"zh": "我的口器张开了。", "en": "My mouthparts have opened."},
+        {"zh": "那块石砖在响，我的触须竖了。", "en": "That stone brick hums; my antennae rise."},
+        {"zh": "我张开嘴开始啃。", "en": "I open my jaws and start to bite."},
+        {"zh": "这一下我会还手。", "en": "I will answer this one."},
+        {"zh": "别碰我身上的壳。", "en": "Do not touch my shell."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你退一步，我就跟着挪一步。", "en": "One step back from you, one step from me."},
+        {"zh": "我贴着墙绕过去。", "en": "I go around along the wall."},
+        {"zh": "一节一节地追，我的腿不会累。", "en": "I chase segment by segment; my legs don't tire."},
+        {"zh": "我把身体卷成半圈。", "en": "I curl into a half circle."},
+        {"zh": "我的腿一直在响。", "en": "My legs never stop rustling."},
+        {"zh": "我在等穴居者来。", "en": "I am waiting for the burrowers."},
+        {"zh": "他们的脚步近了。", "en": "Their steps are closer."},
+        {"zh": "我站起来了一点。", "en": "I have risen a little."},
+        {"zh": "我的壳撑开了。", "en": "My shell has spread."},
+        {"zh": "我又嘶了一声。", "en": "I hissed again."},
+        {"zh": "你踩在石屑上了。", "en": "You are standing on stone chips."},
+        {"zh": "我缩短了半尺。", "en": "I closed half a foot."},
+        {"zh": "我的触须全伸出来了。", "en": "All my antennae are out."},
+        {"zh": "我在等你露出脚。", "en": "I am waiting for your feet to show."},
+        {"zh": "我的头压得比壳还低。", "en": "My head is lower than my shell."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我咬住你的脚。", "en": "I bite your foot."},
+        {"zh": "我卷起来又弹开。", "en": "I coil and snap open."},
+        {"zh": "这一下咬得很硬。", "en": "That bite went in hard."},
+        {"zh": "我咬完一口就退开。", "en": "I bite once and pull back."},
+        {"zh": "我的口器很利。", "en": "My mouthparts are sharp."},
+        {"zh": "这一下咬在了空处。", "en": "That bite closed on nothing."},
+        {"zh": "你踢了我，我翻了。", "en": "You kicked me and I rolled."},
+        {"zh": "我爬起来又咬。", "en": "I get up and bite again."},
+        {"zh": "我的腿抱住你的脚踝。", "en": "My legs clamp your ankle."},
+        {"zh": "这一下没咬多重。", "en": "That bite was not heavy."},
+        {"zh": "我啃了一下你的鞋。", "en": "I gnaw at your boot."},
+        {"zh": "我用头撞你的小腿。", "en": "I butt my head against your shin."},
+        {"zh": "我咬住裤脚往下拖。", "en": "I bite your trouser leg and pull."},
+        {"zh": "我又卷起来了。", "en": "I coil up again."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "墙边的土松了一块。", "en": "A patch of earth by the wall loosens."},
+        {"zh": "地上多了石屑。", "en": "Stone chips appear on the floor."},
+        {"zh": "这一带的石头味道好。", "en": "The stone here tastes good."},
+        {"zh": "我顺着新挖的通道过来。", "en": "I come along the new tunnel."},
+        {"zh": "我的壳在灯下反光。", "en": "My shell shines under the lamp."},
+        {"zh": "我开始啃脚下的石头。", "en": "I begin gnawing the stone under me."},
+        {"zh": "一只小的跟着我爬。", "en": "A small one crawls behind me."},
+        {"zh": "我抬起触须探了探。", "en": "I raised my antennae to test the air."},
+        {"zh": "我找到了食槽。", "en": "I have found the trough."},
+        {"zh": "我在洞口停了一会儿。", "en": "I pause at the cave mouth."},
+        {"zh": "我把身体放平。", "en": "I flatten myself out."},
+        {"zh": "我还带着一身土。", "en": "I am still covered in earth."},
+        {"zh": "我慢慢爬到亮处。", "en": "I crawl slowly into the light."},
+        {"zh": "我吐出一口石粉。", "en": "I spit out a mouthful of stone dust."},
+        {"zh": "我在这洞里长大。", "en": "I grew up in this cave."},
+        {"zh": "我顺着石缝下来。", "en": "I come down through the seams in the stone."},
+        {"zh": "我从食槽那边过来。", "en": "I come from the trough."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烤得我的壳发白。", "en": "The fire whitens my shell."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从墙上掉下来，壳先着地。", "en": "I fall from the wall and land on my shell."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西打裂了我的壳。", "en": "Something cracked my shell."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一股力把我的腿缠住。", "en": "Some force tangles my legs."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这一片石头都被啃光了。", "en": "The stone here has all been gnawed away."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打下来，我整只都紧成一团。", "en": "Lightning strikes and I clamp into a ball."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下没有地，我抓不住任何东西。", "en": "There is no ground and nothing to grip."}
+      ]
+    }
+  }
+}

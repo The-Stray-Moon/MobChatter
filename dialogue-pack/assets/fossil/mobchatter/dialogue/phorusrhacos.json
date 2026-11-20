@@ -1,0 +1,286 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低鸣似雷，步步生风。", "en": "Rumble low, feet strike fast."},
+        {"zh": "挥舞利爪，向前疾驰。", "en": "Claws swipe, rush ahead."},
+        {"zh": "俯冲地面，如影随形。", "en": "Dive ground, shadow chase."},
+        {"zh": "羽毛滑翔，掠过天空。", "en": "Feathers glide, skyward glide."},
+        {"zh": "喙锋如剑，迅猛而至。", "en": "Beak sharp, swift and cruel."},
+        {"zh": "脚步沉重，地动山摇。", "en": "Heavy steps, earth quakes."},
+        {"zh": "俯身低吼，掠夺者来临。", "en": "Bow low, predator comes."},
+        {"zh": "疾跑如风，无处可藏。", "en": "Run swift, nowhere to hide."},
+        {"zh": "紧随其后，静待猎物。", "en": "Follow close, wait prey."},
+        {"zh": "风中掠过，无声无息。", "en": "Silent pass, breeze like ghost."},
+        {"zh": "长腿迈开，尘土飞扬", "en": "Long legs stride, dust flies."},
+        {"zh": "三步便跨过小溪", "en": "Three strides and I am over the stream."},
+        {"zh": "脖子前探，追着风", "en": "Neck stretched forward, I chase the wind."},
+        {"zh": "爪印烙在泥地上", "en": "My claw prints burn into the mud."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低头思索，等待时机。", "en": "Head low, await chance."},
+        {"zh": "站立片刻，观察四方。", "en": "Stand still, watch all sides."},
+        {"zh": "静静伫立，耐心等待。", "en": "Silent stand, wait long."},
+        {"zh": "目光如炬，搜索猎物。", "en": "Stare keen, seek prey."},
+        {"zh": "低吼回应，领地宣言。", "en": "Rumble loud, claim land."},
+        {"zh": "缓缓踱步，保持警惕。", "en": "Stroll slow, keep watch."},
+        {"zh": "伸展羽翼，稍作休息。", "en": "Stretcher wings, rest a bit."},
+        {"zh": "环顾四周，寻找敌人。", "en": "Scan around, find foes."},
+        {"zh": "静静等候，静观其变。", "en": "Wait quietly, see how."},
+        {"zh": "低头沉思，思考捕食。", "en": "Head low, plan prey."},
+        {"zh": "歪头打量这片林", "en": "I tilt my head and size up this wood."},
+        {"zh": "抖落羽毛上的尘", "en": "I shake the dust from my feathers."},
+        {"zh": "喉间滚出一声低鸣", "en": "A low rumble rolls from my throat."},
+        {"zh": "长脖子上下一伸一缩", "en": "My long neck pumps up and down."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "锐眼注视，玩家已被发现。", "en": "Sharp eyes, player found."},
+        {"zh": "盯紧目标，准备出击。", "en": "Target locked, ready strike."},
+        {"zh": "追踪玩家，一刻不放松。", "en": "Track player, never slack."},
+        {"zh": "盯着玩家，气息全无。", "en": "Stare at player, breathless."},
+        {"zh": "注视玩家，心无旁骛。", "en": "Focus on player, no distractions."},
+        {"zh": "目光锁紧，毫不动摇。", "en": "Fixed gaze, unswayed."},
+        {"zh": "目光如炬，直视前方。", "en": "Gaze sharp, straight ahead."},
+        {"zh": "盯着玩家，威胁之意。", "en": "Stare down, threat clear."},
+        {"zh": "我一步没动，眼睛已经跟着你。", "en": "I have not moved, but my eyes follow you."},
+        {"zh": "盯紧玩家，不容忽视。", "en": "Stare hard, not missed."},
+        {"zh": "这片地界归我", "en": "You are on my ground."},
+        {"zh": "这双眼睛从远处认出你", "en": "These eyes picked you out from afar."},
+        {"zh": "既不是同类，也不是朋友", "en": "Neither kin nor friend."},
+        {"zh": "你踩坏了我领地的草", "en": "You crushed the grass of my territory."},
+        {"zh": "歪着脑袋评估你的块头", "en": "I tilt my head and weigh your size."},
+        {"zh": "你退后一步，我就前一步", "en": "You step back, I step forward."},
+        {"zh": "你的气味飘进了巢区", "en": "Your scent drifted into my nest."},
+        {"zh": "你的脚步落在我土上", "en": "I recognize your footsteps."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腿上伤了，跑不动了。", "en": "Wounded leg, can't run."},
+        {"zh": "我的羽毛乱了，一瘸一拐地退。", "en": "My feathers are in disarray as I limp backward."},
+        {"zh": "被箭射中，好痛。", "en": "Arrows hurt."},
+        {"zh": "摔伤了，动不了了。", "en": "Fell down, can't move."},
+        {"zh": "被闪电击中，好疼。", "en": "Lightning strike, hurts."},
+        {"zh": "捉不到吃的，饿坏了。", "en": "No food, starving."},
+        {"zh": "掉下悬崖，快死了。", "en": "Fell off, dying."},
+        {"zh": "被魔法击中，痛得不行。", "en": "Magical hit, hurts."},
+        {"zh": "掉进深坑，困住了。", "en": "Pit trap, stuck."},
+        {"zh": "翅骨被敲断了一根", "en": "One of my wing bones is snapped."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "血肉的味道让我停不下脚。", "en": "The smell of blood keeps my feet moving."},
+        {"zh": "你不会逃得掉！", "en": "You won't escape!"},
+        {"zh": "两条长腿已经迈开了。", "en": "These long legs are already moving."},
+        {"zh": "让开，草原上没有第二个方向。", "en": "Move — on this plain there is no other way."},
+        {"zh": "跟我一起飞，你会后悔的。", "en": "Fly with me, and you'll regret it."},
+        {"zh": "这是我的领地。", "en": "This is my territory."},
+        {"zh": "你跑不掉的，别试试。", "en": "You won't outrun me, try it."},
+        {"zh": "看我的利爪，水里我可追不上。", "en": "See my talons, though in water I cannot chase."},
+        {"zh": "你只能活到今天。", "en": "You'll only last until today."},
+        {"zh": "这条鱼，够我一口吞。", "en": "That fish is one gulp for me."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我来晚了吗？", "en": "Was I late?"},
+        {"zh": "我这双长腿一迈就是两格。", "en": "One stride of these legs clears two blocks."},
+        {"zh": "我俯身让过你，爪子在土里划。", "en": "I duck past you, talons raking the dirt."},
+        {"zh": "我不飞，但我追得比你快。", "en": "I don't fly, but I run you down."},
+        {"zh": "你这是找死。", "en": "You're asking for it."},
+        {"zh": "让开，不然后悔莫及。", "en": "Move, or you'll regret it."},
+        {"zh": "你的膝盖撞上我的胸口骨。", "en": "Your knee knocks against my breastbone."},
+        {"zh": "快滚开！", "en": "Get out of my way!"},
+        {"zh": "你挡了我的路，我只能除掉你。", "en": "You're blocking my path, so I must remove you."},
+        {"zh": "撞进我的地盘了", "en": "You just barged into my territory."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的伴侣，一起狩猎。", "en": "My mate, let's hunt together."},
+        {"zh": "跑得快，也得有人一起跑。", "en": "Fast legs still want someone running beside."},
+        {"zh": "我们一起，更强。", "en": "Together, we're stronger."},
+        {"zh": "寻找我的伴侣，共度一生。", "en": "Find my mate for life."},
+        {"zh": "这是我的领地，也是我的伴侣的。", "en": "This is my territory, and my mate's."},
+        {"zh": "我的伴侣，我的生活。", "en": "My mate, my life."},
+        {"zh": "我们并排跑，翅膀几乎碰到。", "en": "We run side by side, wings almost touching."},
+        {"zh": "我们的孩子会更强大。", "en": "Our children will be stronger."},
+        {"zh": "与我的伴侣共舞。", "en": "Dance with my mate."},
+        {"zh": "我的伴侣，我的一生。", "en": "My mate, my life."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "巨大的羽翼在我身旁掠过。", "en": "Great wings pass near me."},
+        {"zh": "这里是我的地盘，滚开！", "en": "This is my territory, get out!"},
+        {"zh": "这片羽毛，是从猎物身上扯的。", "en": "This feather was torn off my quarry."},
+        {"zh": "寻找食物，猎杀敌人。", "en": "Find food, hunt enemies."},
+        {"zh": "我的羽毛能击溃你。", "en": "My feathers can crush you."},
+        {"zh": "不要靠近我的巢穴。", "en": "Don't come close to my nest."},
+        {"zh": "警惕，有危险！", "en": "Alert, danger!"},
+        {"zh": "你是我的午餐。", "en": "You're my lunch."},
+        {"zh": "离开这里，快！", "en": "Leave now, fast!"},
+        {"zh": "这双腿在草原上比风快。", "en": "These legs outrun the wind on the plain."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发现猎物，扑上去！", "en": "Prey detected, attack!"},
+        {"zh": "两米高的影子落到你身上。", "en": "A shadow two meters tall falls over you."},
+        {"zh": "我伸长脖子，把喙对准你。", "en": "I stretch my neck and level my beak at you."},
+        {"zh": "我的利爪能撕裂你。", "en": "My claws can tear you."},
+        {"zh": "猎物跑不过我。", "en": "Prey can't outrun me."},
+        {"zh": "我跑起来，一步跨过灌木。", "en": "Once I run, I clear the bushes in a stride."},
+        {"zh": "品尝猎物的恐惧。", "en": "Taste prey's fear."},
+        {"zh": "抓住机会，杀死它。", "en": "Seize the moment, kill it."},
+        {"zh": "它躲进草里，可草太矮了。", "en": "It hides in the grass, but the grass is too short."},
+        {"zh": "抓住机会，别让它跑了。", "en": "Seize the chance, don't let it go."},
+        {"zh": "目标已定，不再更改", "en": "Target chosen, no changing now."},
+        {"zh": "它跑，我追，就这么简单", "en": "It runs, I chase. Simple."},
+        {"zh": "选定你了，别回头", "en": "I have chosen you, do not look back."},
+        {"zh": "你一动，我就追", "en": "Move an inch and I follow."},
+        {"zh": "巢穴的边界不容越过", "en": "The nest border is not to be crossed."},
+        {"zh": "先追上，再谈其他", "en": "First I catch you, then we talk."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抬高一条腿，准备踹下去。", "en": "I lift one leg high, ready to kick down."},
+        {"zh": "猎物，就在这里。", "en": "Prey, here."},
+        {"zh": "我的头一动不动，只等风停。", "en": "My head is still; I wait for the wind to drop."},
+        {"zh": "长腿一迈，逃不掉了。", "en": "Long legs stride — nowhere to run."},
+        {"zh": "锁定目标，射击。", "en": "Lock target, shoot."},
+        {"zh": "猎物就在我的视线里。", "en": "Prey in my sight."},
+        {"zh": "我数着它抬脚的间隙。", "en": "I count the gaps between its footfalls."},
+        {"zh": "猎物，我的猎物。", "en": "Prey, my prey."},
+        {"zh": "瞄准，杀死它。", "en": "Aim, kill it."},
+        {"zh": "我两条长腿一迈，就到了。", "en": "Two strides of my long legs and I am there."},
+        {"zh": "压低脖子，蓄力", "en": "Neck low, gathering power."},
+        {"zh": "右爪先落地，再起跳", "en": "Right claw lands first, then the leap."},
+        {"zh": "算好你逃跑的方向", "en": "I measure which way you will flee."},
+        {"zh": "爪子扣住地面", "en": "My claws dig into the ground."},
+        {"zh": "它转向左边了", "en": "It is turning left."},
+        {"zh": "等他露出后背", "en": "I wait for his back to show."},
+        {"zh": "眼睛里只剩你一个", "en": "Only you remain in my eyes."},
+        {"zh": "最后一跃的距离", "en": "One last leap of distance."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶鸣一声，利爪撕裂空气！", "en": "Snarl, tearing air with claws!"},
+        {"zh": "锋喙直刺，鲜血飞溅！", "en": "Sharp beak pierces, blood spurts!"},
+        {"zh": "怒吼中扑来，无坚不摧！", "en": "Raging charge, nothing stands!"},
+        {"zh": "挥舞巨大翅膀，扑向猎物！", "en": "Wings flap, diving on prey!"},
+        {"zh": "利喙撕咬，肉屑纷飞！", "en": "Sharp beak tears flesh, splattering!"},
+        {"zh": "奔跑如风，掠夺者来了！", "en": "Run like wind, predator here!"},
+        {"zh": "巨喙啄击，硬甲也破！", "en": "Beak smashes armor, breaks through!"},
+        {"zh": "粗壮双腿，一跃而起！", "en": "Strong legs, spring into action!"},
+        {"zh": "咆哮回荡，猎物无处藏！", "en": "Roar echoes, prey nowhere!"},
+        {"zh": "狂奔之下，无物可挡！", "en": "Rushing, nothing can stand!"},
+        {"zh": "长腿蹬出，撞进你怀里", "en": "My leg kicks out into your chest."},
+        {"zh": "喙尖直取你的喉咙", "en": "My beak goes straight for your throat."},
+        {"zh": "一脚踢碎你的肋骨", "en": "One kick cracks your ribs."},
+        {"zh": "爪子按倒你，撕开", "en": "Claws pin you down and tear."},
+        {"zh": "嘶叫着啄你的肩膀", "en": "Hissing, I peck your shoulder."},
+        {"zh": "用整个身体压过去", "en": "I throw my whole body at you."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗中，影子掠过！", "en": "Shadow passes in darkness!"},
+        {"zh": "天空中，巨鸟振翅！", "en": "Bird soars, wings spread!"},
+        {"zh": "枯枝间，目光如炬！", "en": "Branches, eyes like torches!"},
+        {"zh": "丛林中，低语呢喃！", "en": "Forest, whispers here!"},
+        {"zh": "夜幕下，身影隐现！", "en": "Night, form appears!"},
+        {"zh": "沼泽边，静静窥视！", "en": "Swamp, silent watch!"},
+        {"zh": "密林深处，低吼回荡！", "en": "Deep forest, rumbles!"},
+        {"zh": "岩壁上，阴影跳动！", "en": "Cave wall, shadows jump!"},
+        {"zh": "水面下，潜行不露！", "en": "Water, stalking unseen!"},
+        {"zh": "风吹过，毛羽沙沙！", "en": "Wind, feathers rustle!"},
+        {"zh": "草原上立起一只巨鸟", "en": "A giant bird stands up on the plain."},
+        {"zh": "蛋壳裂开，细腿撑起", "en": "The shell splits, thin legs push up."},
+        {"zh": "破壳而出的窃鹤幼雏", "en": "A terror bird chick breaks free."},
+        {"zh": "我踩平了这片矮草", "en": "I have flattened this patch of grass."},
+        {"zh": "三米高的影子落下", "en": "A three-meter shadow lands."},
+        {"zh": "从化石里复活的猎手", "en": "A hunter revived from fossil stone."},
+        {"zh": "沼泽边多了一串爪印", "en": "A line of claw marks appears by the marsh."},
+        {"zh": "树冠被我的喙拨开", "en": "My beak parts the canopy."},
+        {"zh": "晨雾里立着长颈的身影", "en": "A long-necked shape stands in the mist."},
+        {"zh": "这片林从此有了主人", "en": "This forest has an owner now."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "大火烧伤了我。", "en": "Burned by fire."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进深渊，快没了。", "en": "Fell down, dying."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被水呛到，喘不过气。", "en": "Water choking."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被炸弹炸伤，痛得不行。", "en": "Explosion wound, hurts."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被投射物击中，好痛。", "en": "Hit by projectile, hurts."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法攻击，好疼。", "en": "Magical hit, hurts."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没找到吃的，饿死了。", "en": "Starved to death."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被雷劈中，好疼。", "en": "Lightning strike, hurts."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉入虚空，消失不见了。", "en": "Died in void."}
+      ]
+    }
+  }
+}

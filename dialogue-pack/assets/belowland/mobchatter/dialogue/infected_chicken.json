@@ -1,0 +1,263 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咯哒咯哒走来走去", "en": "Clucking as it walks"},
+        {"zh": "咕噜咕噜叫着移动", "en": "Grunts as it moves"},
+        {"zh": "吃着周围的腐肉", "en": "Eating nearby rotting flesh"},
+        {"zh": "啄食着地上的腐物", "en": "Pecking at the ground"},
+        {"zh": "啄食腐肉，咕噜咕噜", "en": "Pecks at rotting flesh, grunting"},
+        {"zh": "啄食腐肉，咯哒咯哒", "en": "Pecks at rotting flesh, clucking"},
+        {"zh": "啄食地上的腐败物", "en": "Pecks at the corrupted stuff"},
+        {"zh": "啄食腐化的肉块", "en": "Pecks at corrupted meat chunks"},
+        {"zh": "啄食腐化的食物", "en": "Pecks at the corrupted food"},
+        {"zh": "咯哒咯哒走向玩家", "en": "Walks towards the player, clucking"},
+        {"zh": "一步一歪，翅膀垂着", "en": "Listing with each step, wings drooping."},
+        {"zh": "成群走过腐化菌毯", "en": "A flock crosses the corrupted mycelium."},
+        {"zh": "爪子刮过发灰的土", "en": "Its claws rake the ashen soil."},
+        {"zh": "走两步，低头啄一口", "en": "Two steps, then a peck at the ground."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "呆呆地看着周围", "en": "Staring around"},
+        {"zh": "在腐化地踱步", "en": "Pacing in the corruption"},
+        {"zh": "在腐化地漫步", "en": "Wandering in the corruption"},
+        {"zh": "呆呆地望着玩家", "en": "Staring at the player"},
+        {"zh": "呆呆地盯着腐物", "en": "Staring at the rotting stuff"},
+        {"zh": "啄食腐化的果子", "en": "Pecks at corrupted fruit"},
+        {"zh": "在腐化真菌中觅食", "en": "Foraging in the corruption"},
+        {"zh": "呆呆地吃着腐肉", "en": "Eating rotting flesh"},
+        {"zh": "呆呆地啄食腐物", "en": "Pecks at the rotting stuff"},
+        {"zh": "呆呆地看着腐化真菌", "en": "Staring at the corruption"},
+        {"zh": "站着打盹，头慢慢垂", "en": "Dozy on its feet, head sinking slowly."},
+        {"zh": "歪头看天，像在等什么", "en": "Head cocked at the sky, as if waiting."},
+        {"zh": "抖了抖羽毛，掉下菌丝", "en": "It shakes, shedding strands of fungus."},
+        {"zh": "窝在菌伞下不动", "en": "Huddled still beneath a fungal cap."},
+        {"zh": "喉咙里卡着咕噜声", "en": "A gurgle stuck in its throat."},
+        {"zh": "一只眼浑浊，一只还亮", "en": "One eye clouded, one still bright."},
+        {"zh": "慢慢地眨了两次眼", "en": "It blinks twice, slowly."},
+        {"zh": "蜷着身体，羽毛沾满孢子", "en": "Curled up, feathers caked with spores."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "朝玩家方向转头", "en": "Turns head towards the player"},
+        {"zh": "盯着玩家咕噜咕噜", "en": "Staring at the player, grunting"},
+        {"zh": "盯着玩家咯哒咯哒", "en": "Staring at the player, clucking"},
+        {"zh": "歪着发黑的鸡头看你。", "en": "I tilt my blackened chicken head at you."},
+        {"zh": "盯上玩家，咕噜咕噜", "en": "Locks on to the player, grunting"},
+        {"zh": "盯着玩家啄食", "en": "Pecks at the player, staring"},
+        {"zh": "盯着玩家，咕噜咕噜", "en": "Staring at the player, grunting"},
+        {"zh": "盯上玩家，咯哒咯哒", "en": "Locks on to the player, clucking"},
+        {"zh": "盯上玩家，啄食着", "en": "Locks on to the player, pecks"},
+        {"zh": "歪头，用那只亮眼瞧你", "en": "It tilts its head and watches with the bright eye."},
+        {"zh": "喉头鼓了一下，没叫出声", "en": "Its throat swells, but no sound comes."},
+        {"zh": "它看你的样子，像在认人", "en": "It studies you as if recalling a face."},
+        {"zh": "孢子从羽毛里飘向你", "en": "Spores drift from its feathers toward you."},
+        {"zh": "脖子一伸一缩，盯得很久", "en": "Its neck pumps; it stares a long while."},
+        {"zh": "它朝你挪了一步，停下", "en": "It shuffles one step your way, then stops."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咯咯叫，翅膀受伤了。", "en": "Cackles in pain, wings hurt."},
+        {"zh": "腐肉散着味，站都站不稳。", "en": "Rotten flesh reeks, I can barely stand."},
+        {"zh": "羽毛掉了一地，飞不了。", "en": "Feathers litter the ground, I can't fly."},
+        {"zh": "翅膀受了伤，疼。", "en": "Wings hurt, painful."},
+        {"zh": "感染让我的翅膀变沉。", "en": "The infection weighs my wings down."},
+        {"zh": "翅膀受了伤，不能跑。", "en": "Wings hurt, can't run."},
+        {"zh": "翅膀受伤，快不行了。", "en": "Wings hurt, can't move."},
+        {"zh": "翅膀受了伤，需要治疗。", "en": "Wings hurt, needs treatment."},
+        {"zh": "翅膀受伤，痛苦中。", "en": "Wings hurt, painful experience."},
+        {"zh": "一只翅膀歪了，走不稳", "en": "One wing is crooked, and I wobble."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕咕咕，找到食物了！", "en": "Cluck! Found food!"},
+        {"zh": "腐肉的香味真诱人！", "en": "Smells like rotting meat."},
+        {"zh": "给点种子，我饿得发慌。", "en": "Give me seeds, I'm starving."},
+        {"zh": "这片草很适合我！", "en": "Nice grass here."},
+        {"zh": "腐化真菌让我的皮肤更黑！", "en": "Mushrooms darken my skin."},
+        {"zh": "腐肉就是我的生命之源！", "en": "Rotten meat is my lifeblood."},
+        {"zh": "这里的食物很充足！", "en": "Plenty of food here."},
+        {"zh": "我得吃了，快活！", "en": "I gotta eat, feel alive."},
+        {"zh": "腐化之地最适合我！", "en": "Perfect in the Corruption."},
+        {"zh": "鸡块和腐肉一起吃更香！", "en": "Chicken and meat go well together."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "砰！差点撞到你！", "en": "Bang! Almost hit you!"},
+        {"zh": "腐烂的翅膀撞上你的腿。", "en": "My rotting wing bumps your leg."},
+        {"zh": "别挡我路，我来晚了！", "en": "Move, I'm late!"},
+        {"zh": "注意脚下！", "en": "Watch where you're going!"},
+        {"zh": "别撞我，我病得很重！", "en": "Don't bump into me, I'm sick!"},
+        {"zh": "我们相撞了，真遗憾！", "en": "We collided, too bad!"},
+        {"zh": "你踩到我了，痛！", "en": "You stepped on me, it hurts!"},
+        {"zh": "别撞我，我要倒了！", "en": "Don't bump into me, I'm falling!"},
+        {"zh": "小心，我快要倒了！", "en": "Be careful, I'm falling!"},
+        {"zh": "我们撞上了，真倒霉！", "en": "We collided, what bad luck!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找个伴侣吧，好繁殖！", "en": "Find a mate, we can reproduce!"},
+        {"zh": "找个伴侣，产蛋吧！", "en": "Mate, let's lay eggs!"},
+        {"zh": "求偶时间到了，我需要你！", "en": "Time to mate, I need you!"},
+        {"zh": "找个伴侣，共同繁衍！", "en": "Find a mate, we'll reproduce!"},
+        {"zh": "我需要伴侣来产蛋！", "en": "Need a mate to lay eggs!"},
+        {"zh": "我愿意找伴侣生蛋！", "en": "Willing to mate, lay eggs!"},
+        {"zh": "腐化的鸡，也想找个伴。", "en": "Even a rotted chicken wants a partner."},
+        {"zh": "求偶吧，我在这里！", "en": "Mate, I'm here!"},
+        {"zh": "一起产蛋吧，好繁衍！", "en": "Let's lay eggs, reproduce!"},
+        {"zh": "找个伴侣，一起产蛋！", "en": "Find a mate, lay eggs together!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕咕哒，主人来了！", "en": "Cluck, the owner is here!"},
+        {"zh": "救命啊，我要飞起来！", "en": "Help, I’m flying!"},
+        {"zh": "咕咕咕，我好害怕！", "en": "Cluck, I’m scared!"},
+        {"zh": "快给我扔点东西吃！", "en": "Feed me something!"},
+        {"zh": "咕咕，我要吃蘑菇！", "en": "Cluck, I want mushrooms!"},
+        {"zh": "我需要找个安全的地方！", "en": "I need a safe place!"},
+        {"zh": "咕咕咕，我不喜欢水！", "en": "Cluck, I don’t like water!"},
+        {"zh": "快帮我找点稻草！", "en": "Find me some straw!"},
+        {"zh": "咕咕咕，我要睡觉了！", "en": "Cluck, I’m going to sleep!"},
+        {"zh": "咕咕，这里不太安全！", "en": "Cluck, this isn’t safe!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找到了，我要攻击！", "en": "Target acquired, attacking!"},
+        {"zh": "咕咕咕，我要啄你！", "en": "Cluck, pecking you!"},
+        {"zh": "快闪开，我要吃你！", "en": "Move, I’m attacking!"},
+        {"zh": "咕咕，你跑不了！", "en": "You can’t run, cluck!"},
+        {"zh": "咕咕咕，你很美味！", "en": "You taste good, cluck!"},
+        {"zh": "喉囊鼓起来，盯住你。", "en": "My throat sac swells as I lock onto you."},
+        {"zh": "咕咕咕，你别过来！", "en": "Don’t come near me!"},
+        {"zh": "快跑，我要吃你！", "en": "Run, I’m attacking!"},
+        {"zh": "咕咕，你躲不掉！", "en": "You can’t hide, cluck!"},
+        {"zh": "我要啄烂你！", "en": "Pecking you to pieces!"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我要啄你，咕咕！", "en": "Pecking you, cluck!"},
+        {"zh": "瞄准，咕咕咕！", "en": "Targeting, cluck!"},
+        {"zh": "咕咕咕，我要吃你！", "en": "Cluck, eating you!"},
+        {"zh": "快闪开，咕咕！", "en": "Move, cluck!"},
+        {"zh": "我来了，咕咕咕！", "en": "I’m coming, cluck!"},
+        {"zh": "我的羽毛下全是腐化的菌。", "en": "Rotting fungus under my feathers."},
+        {"zh": "快跑，咕咕咕！", "en": "Run, cluck!"},
+        {"zh": "咕咕咕，我要攻击！", "en": "Cluck, attacking!"},
+        {"zh": "低头，喙尖对着你的脚", "en": "Head down, beak aimed at your feet."},
+        {"zh": "羽毛竖起，身子前倾", "en": "Feathers bristle; it leans forward."},
+        {"zh": "它跳一下，又跳一下", "en": "It hops, then hops again."},
+        {"zh": "小东西，啄人却挺准", "en": "A small thing, but it pecks accurately."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咯咯咯，你完啦！", "en": "Cluck, you're done!"},
+        {"zh": "快跑，别碰我！", "en": "Run, don't touch me!"},
+        {"zh": "我的羽毛里长出了菌伞。", "en": "Mushroom caps sprout from my feathers."},
+        {"zh": "腐化的喙，先啄你一口。", "en": "A rotted beak pecks you first."},
+        {"zh": "我的喙上全是腐肉味。", "en": "There's rotten meat all over my beak."},
+        {"zh": "腐化真菌的味道最好。", "en": "Corrupted fungus smells best."},
+        {"zh": "啄你一口，带点真菌。", "en": "One peck from me, with a bit of fungus."},
+        {"zh": "我的羽毛全粘在腐肉上。", "en": "My feathers are stuck with rot."},
+        {"zh": "别过来，否则倒霉！", "en": "Don't come closer or you're doomed!"},
+        {"zh": "啄在你手背上，留下红点", "en": "A peck on your hand leaves a red mark."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐化的土地呼唤我！", "en": "The corrupted land calls to me!"},
+        {"zh": "腐化真菌中苏醒！", "en": "Rise from the corrupt fungi!"},
+        {"zh": "腐化之地是我的家！", "en": "The corrupted land is my home!"},
+        {"zh": "腐化真菌孕育我！", "en": "Corrupt fungi nourish me!"},
+        {"zh": "腐化真菌让我复活！", "en": "Corrupt fungi bring me back!"},
+        {"zh": "腐化之地召唤我！", "en": "The corrupted land calls me!"},
+        {"zh": "腐化真菌中诞生！", "en": "Born from corrupt fungi!"},
+        {"zh": "腐化之地，我的归宿！", "en": "The corrupted land, my home!"},
+        {"zh": "腐化真菌滋养我！", "en": "Corrupt fungi sustain me!"},
+        {"zh": "腐化之地，我永恒的家！", "en": "The corrupted land, my eternal home!"},
+        {"zh": "腐化菌群中，蛋壳破了", "en": "In the fungal growth, the shell breaks."},
+        {"zh": "我和感染的同伴一起出来", "en": "I come out with the other infected."},
+        {"zh": "掉落表上，只写着一两块腐肉", "en": "The loot table lists one or two rotten flesh."},
+        {"zh": "六点血的小身体，站住了", "en": "Six health on small legs, and it stands."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "腐化菌里的鸡，也会被烧。", "en": "Even a corrupted-fungus chicken burns."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从木栅栏摔下，翅骨折了。", "en": "Fell from the fence, my wing bone snapped."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "淹死在水中。", "en": "Drowned in water."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "绒羽被气浪掀走一半。", "en": "The blast stripped half my down."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭穿过腐肉，卡在骨上。", "en": "The arrow pierces rotten flesh, stuck in bone."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被魔法咒伤了。", "en": "Hit by magic."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得虚脱了。", "en": "Starved to exhaustion."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷火烧焦了我的鸡冠。", "en": "The lightning scorched my comb."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉出世界，腐肉也散了。", "en": "Falling out of the world, my flesh scatters."}
+      ]
+    }
+  }
+}

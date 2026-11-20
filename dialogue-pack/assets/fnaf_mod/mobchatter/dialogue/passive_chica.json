@@ -1,0 +1,247 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的脚爪在地砖上刮。", "en": "My clawed feet scrape the tiles."},
+        {"zh": "我一步一顿，关节在响。", "en": "I step in jerks, joints creaking."},
+        {"zh": "黄羽毛蹭过墙，掉了灰。", "en": "My yellow feathers brush the wall and shed dust."},
+        {"zh": "我走得很直，像有轨道。", "en": "I walk very straight, as if on rails."},
+        {"zh": "我的围裙带子垂在腿边。", "en": "My apron strings hang by my legs."},
+        {"zh": "我穿过走廊，灯跟着灭。", "en": "I cross the corridor and the lights go out behind me."},
+        {"zh": "我不拐弯，直接撞开门。", "en": "I don't turn; I shoulder the door open."},
+        {"zh": "我每走几步就停一停。", "en": "Every few steps I stop."},
+        {"zh": "我的爪子在门框上刮了一道。", "en": "My claw gouges the door frame."},
+        {"zh": "我拖着右脚走。", "en": "I drag my right foot."},
+        {"zh": "我朝有动静的地方走。", "en": "I head toward the noise."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站在走廊尽头，不动。", "en": "I stand at the end of the corridor, still."},
+        {"zh": "我的喙张着，合不上。", "en": "My beak is open and will not close."},
+        {"zh": "灯泡在我头顶闪。", "en": "The bulb above me flickers."},
+        {"zh": "我的手垂着，爪子很长。", "en": "My hands hang low, claws long."},
+        {"zh": "我数着监控的红点。", "en": "I count the red dots of the cameras."},
+        {"zh": "我不需要呼吸，只是站着。", "en": "I don't need air; I only stand."},
+        {"zh": "我的围裙上有一块污渍。", "en": "There is a stain on my apron."},
+        {"zh": "我一动不动，等你转身。", "en": "I stay motionless until you turn."},
+        {"zh": "我的眼睛是两盏小灯。", "en": "My eyes are two little lamps."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你不该在这个时候走动。", "en": "You shouldn't be walking at this hour."},
+        {"zh": "我低头看你，脖子弯得很怪。", "en": "I look down at you; my neck bends oddly."},
+        {"zh": "你的手电照到我脸上。", "en": "Your torch is on my face."},
+        {"zh": "你把门关上是没用的。", "en": "Closing the door won't help."},
+        {"zh": "背后是墙，你退不了了。", "en": "The wall's behind you; nowhere left."},
+        {"zh": "我的喙对着你一张一合。", "en": "My beak opens and shuts at you."},
+        {"zh": "你不喊，我更喜欢。", "en": "You don't scream. I prefer that."},
+        {"zh": "我在看你有没有带工具。", "en": "I'm checking whether you carry tools."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我胸口的铁架被砸凹了。", "en": "The frame at my chest is dented in."},
+        {"zh": "电机声变调了。", "en": "The motor's pitch has changed."},
+        {"zh": "我退了一步，膝盖卡住。", "en": "I step back and my knee jams."},
+        {"zh": "我的羽毛掉了几根。", "en": "A few feathers came off."},
+        {"zh": "你打得动我，但不够。", "en": "You can move me, but not enough."},
+        {"zh": "我抬起手挡了一下。", "en": "I raise a hand to block."},
+        {"zh": "里面有东西松了。", "en": "Something has come loose inside."},
+        {"zh": "我直起来，关节一节节归位。", "en": "I straighten up, joints snapping into place."},
+        {"zh": "我的爪子还在。", "en": "My claws are still here."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那个不能吃。", "en": "That cannot be eaten."},
+        {"zh": "你给我，我也不要。", "en": "Even if you offer, I won't take it."},
+        {"zh": "我的嘴合不上，咬不住。", "en": "My beak won't close; I cannot bite."},
+        {"zh": "我歪头看了看，没兴趣。", "en": "I tilt my head, uninterested."},
+        {"zh": "这个东西会响吗？", "en": "Does this thing make noise?"},
+        {"zh": "我闻到油和铁。", "en": "I smell oil and iron."},
+        {"zh": "我只追怪物，不追你。", "en": "I only chase monsters, not you."},
+        {"zh": "我退了半步，还是盯着你。", "en": "I step back, still watching you."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞在我胸口的铁架上。", "en": "You hit the metal frame in my chest."},
+        {"zh": "我不退，你退了。", "en": "I don't budge; you do."},
+        {"zh": "我的羽毛下面全是铁。", "en": "Under my feathers it's all metal."},
+        {"zh": "你被我的重量顶开了。", "en": "My weight shoves you aside."},
+        {"zh": "我的爪子在你鞋面上。", "en": "My claw is on your shoe."},
+        {"zh": "别贴着我，我的关节会卡。", "en": "Don't press close; my joints jam."},
+        {"zh": "铁壳和你的肩膀碰了一声。", "en": "My casing rings off your shoulder."},
+        {"zh": "我伸手扶住墙，稳住。", "en": "I put a hand on the wall to steady myself."},
+        {"zh": "你的肩膀撞歪了我的头。", "en": "Your shoulder knocked my head askew."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我是机器，只有骨架和羽毛。", "en": "I am a machine: frame and feathers."},
+        {"zh": "我里面只有一个骨架。", "en": "There is only an endoskeleton inside me."},
+        {"zh": "你别靠过来。", "en": "Don't come near."},
+        {"zh": "我摇头，电机响了一下。", "en": "I shake my head; a motor whirs."},
+        {"zh": "我不谈恋爱，我得去赶怪。", "en": "No romance for me; I have monsters to chase."},
+        {"zh": "我站在你旁边，但不为这个。", "en": "I stand beside you, but not for that."},
+        {"zh": "我的手抬到一半停住。", "en": "My hand stops halfway up."},
+        {"zh": "你说话我听得到，仅此而已。", "en": "I hear you speak. That's all."},
+        {"zh": "别跟着我，巡逻路线不带你。", "en": "Do not follow; the patrol route is not for you."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "用爪子夹起来，递给你。", "en": "My claw picks it up and offers it."},
+        {"zh": "这个能塞进我的口袋。", "en": "This fits in my pocket."},
+        {"zh": "不是客人的，我摆回架子上。", "en": "Not a guest's; I put it back on the shelf."},
+        {"zh": "它在我手里响。", "en": "It rattles in my hand."},
+        {"zh": "我把它放到台面上。", "en": "I set it on the counter."},
+        {"zh": "这个能垫在展台的歪脚下面。", "en": "This can shim the display stand's bad leg."},
+        {"zh": "这披萨盒，我替你压扁收好。", "en": "I will flatten this pizza box and keep it for you."},
+        {"zh": "我用爪尖戳了戳，软的。", "en": "I poke it with a claw tip. Soft."},
+        {"zh": "我慢慢弯腰，怕卡住。", "en": "I bend slowly so as not to jam."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你还在走廊里。", "en": "You're still in the corridor."},
+        {"zh": "我听见你踩到地砖的接缝。", "en": "I heard you step on a tile seam."},
+        {"zh": "我开始数你的步子了。", "en": "I've started counting your steps."},
+        {"zh": "你那件工具挡不住我的爪子。", "en": "That tool won't stop my claws."},
+        {"zh": "走廊只有一个出口。", "en": "The corridor has one exit."},
+        {"zh": "你听见我的脚步了吗。", "en": "Do you hear my steps?"},
+        {"zh": "灯灭的时候我就到了。", "en": "When the lights go out, I arrive."},
+        {"zh": "你的后背贴着墙。", "en": "Your back is against the wall."},
+        {"zh": "你终于回头了。", "en": "You finally looked back."},
+        {"zh": "你的手在门把上。", "en": "Your hand is on the handle."},
+        {"zh": "我把爪子扣进墙里。", "en": "I dig my claws into the wall."},
+        {"zh": "这一层的监控灭了两个。", "en": "Two cameras on this floor just died."},
+        {"zh": "你别数了，走廊很长。", "en": "Don't bother counting. The corridor is long."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我沿着走廊靠近。", "en": "I come along the corridor."},
+        {"zh": "你在门后，我知道。", "en": "You're behind the door. I know."},
+        {"zh": "我不用呼吸，所以你不会听见。", "en": "I don't breathe, so you won't hear me."},
+        {"zh": "我把手放在门把上。", "en": "I put my hand on the handle."},
+        {"zh": "门在我手里弯了。", "en": "The door warps in my grip."},
+        {"zh": "你退到监控的死角。", "en": "You've backed into a camera blind spot."},
+        {"zh": "我数到七就拐进这条走廊。", "en": "I count to seven, then take this hall."},
+        {"zh": "我从另一边绕过去。", "en": "I circle around the other way."},
+        {"zh": "我的爪子刮着墙走。", "en": "I walk with claws scraping the wall."},
+        {"zh": "你听见电流声了吗。", "en": "Do you hear the current hum?"},
+        {"zh": "我停在你身后三格。", "en": "I stop three blocks behind you."},
+        {"zh": "我把爪子从墙里抽出来。", "en": "I pull my claws out of the wall."},
+        {"zh": "你听，是铁在响。", "en": "Listen — that's metal ringing."},
+        {"zh": "你身后的门关上了。", "en": "The door behind you has shut."},
+        {"zh": "我一步一步，关节很吵。", "en": "Step by step, my joints are noisy."},
+        {"zh": "别躲，我的喙已经对准你。", "en": "Do not hide. My beak is aimed at you."},
+        {"zh": "我贴着墙，你听不见。", "en": "I hug the wall; you won't hear."},
+        {"zh": "我把手伸进通风口。", "en": "I reach into the vent."},
+        {"zh": "你跑到哪里都是走廊。", "en": "Wherever you run, it's corridor."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的爪子扫下来。", "en": "My claws sweep down."},
+        {"zh": "我一抓撕开你的袖子。", "en": "One rake tears your sleeve."},
+        {"zh": "我撞过去，你贴在墙上。", "en": "I ram you into the wall."},
+        {"zh": "我的喙咬合，声音很响。", "en": "My beak snaps loudly."},
+        {"zh": "我把你按在地砖上。", "en": "I press you to the tiles."},
+        {"zh": "这一下几乎把你掀翻。", "en": "That nearly flipped you over."},
+        {"zh": "我不怕击退，你推不动我。", "en": "Knockback means nothing; you can't push me."},
+        {"zh": "我的爪尖很长。", "en": "My claw tips are long."},
+        {"zh": "你再退，就没有路了。", "en": "Retreat more and there is no way out."},
+        {"zh": "我抬起一只脚，慢慢落下。", "en": "I lift one foot and let it fall."},
+        {"zh": "你听见铁碰地的声音。", "en": "You hear metal hit the floor."},
+        {"zh": "我抓住你的手臂，往下拽。", "en": "I seize your arm and yank it down."},
+        {"zh": "我的爪子在墙上留了四道。", "en": "My claws leave four lines on the wall."},
+        {"zh": "我一脚踩碎了地砖。", "en": "I crush a floor tile underfoot."},
+        {"zh": "我的喙卡了一下，又咬下来。", "en": "My beak jams, then snaps shut."},
+        {"zh": "这一下带着整条手臂的重量。", "en": "That blow carried my whole arm's weight."},
+        {"zh": "你挡的位置不对。", "en": "You blocked the wrong place."},
+        {"zh": "我抬你起来，又放下。", "en": "I lift you up and set you down."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站在舞台上，灯亮了。", "en": "I stand on the stage as the lights come up."},
+        {"zh": "我的关节自己转了几下。", "en": "My joints rotate a few times on their own."},
+        {"zh": "这里很安静，太安静了。", "en": "It's quiet here. Too quiet."},
+        {"zh": "我走下台阶，一步一响。", "en": "I come down the steps, one clang each."},
+        {"zh": "演出还没开始。", "en": "The show hasn't started."},
+        {"zh": "我先把围裙理好。", "en": "First I straighten my apron."},
+        {"zh": "空气里有灰尘的味道。", "en": "The air tastes of dust."},
+        {"zh": "我听见有人在走廊里。", "en": "I hear someone in the corridor."},
+        {"zh": "我的头卡了一下。", "en": "My head caught for a moment."},
+        {"zh": "我开始巡逻。", "en": "I begin my patrol."},
+        {"zh": "灯管闪了三下。", "en": "The tube light flickers three times."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎到羽毛，我不喜欢这个温度。", "en": "Fire catches my feathers; I dislike that heat."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "摔下来，我的腿歪了。", "en": "I fell and my leg is crooked."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水进了我的关节，转不动了。", "en": "Water got into my joints; they won't turn."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我掀到台子上。", "en": "The blast throws me onto the stage."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西卡进我的外壳。", "en": "Something is lodged in my casing."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "紫色的光让我的电路乱了。", "en": "Violet light scrambles my circuits."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光打在我身上，灯全亮了。", "en": "Lightning hits and every light comes on."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我不该会掉下去。", "en": "I am not supposed to fall."}
+      ]
+    }
+  }
+}

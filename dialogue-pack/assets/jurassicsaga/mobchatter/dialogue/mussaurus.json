@@ -1,0 +1,242 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我四条腿撑起身子往前走。", "en": "I push up on four legs and walk."},
+        {"zh": "我的脖子长出一点了。", "en": "My neck has grown a little longer."},
+        {"zh": "我慢慢走过泥地。", "en": "I walk slowly across the mud."},
+        {"zh": "我沿着河走，边走边找草。", "en": "I follow the river, grazing as I go."},
+        {"zh": "我一步踩得很稳。", "en": "Each step lands firmly."},
+        {"zh": "我踩过泥地，脚印很深。", "en": "I cross the mud and leave deep prints."},
+        {"zh": "我身后的脚印很深。", "en": "My prints behind me are deep."},
+        {"zh": "我朝那片矮树去。", "en": "I head for that stand of low trees."},
+        {"zh": "我慢慢地挪着，不急。", "en": "I shift along without hurrying."},
+        {"zh": "我转过身，往回走。", "en": "I turn and walk back."},
+        {"zh": "我加快了步子，有点沉。", "en": "I quicken my pace, and it's heavy."},
+        {"zh": "我停下来啃了几口。", "en": "I stop for a few mouthfuls."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我慢慢嚼，嚼得很久。", "en": "I chew slowly, a long time."},
+        {"zh": "我的小前肢垂着。", "en": "My small forelimbs hang."},
+        {"zh": "我在树荫下面乘凉。", "en": "I rest in the shade of a tree."},
+        {"zh": "风把我的头吹得偏了。", "en": "The wind turns my head aside."},
+        {"zh": "四周没有别的声音。", "en": "There's no other sound around."},
+        {"zh": "我的尾巴碰了一下树。", "en": "My tail touches a tree."},
+        {"zh": "这一片草不够我吃一天。", "en": "This much grass won't last me a day."},
+        {"zh": "我抬头看太阳的位置。", "en": "I check where the sun stands."},
+        {"zh": "我喷了一口气，草动了。", "en": "I snort and the grass moves."},
+        {"zh": "我嚼着叶子，嚼得很慢。", "en": "I chew a leaf, very slowly."},
+        {"zh": "我用前肢拨了拨草。", "en": "I push the grass aside with a forelimb."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你比我还高一些。", "en": "You're a little taller than me."},
+        {"zh": "我把脖子抬起来看你。", "en": "I raise my neck to look at you."},
+        {"zh": "我不认识你，先退开。", "en": "I don't know you; I'll step back."},
+        {"zh": "你站在我吃草的地方了。", "en": "You're standing where I graze."},
+        {"zh": "我歪了歪头，看着你。", "en": "I tilt my head and watch you."},
+        {"zh": "你手上没有草。", "en": "There's no grass in your hands."},
+        {"zh": "我慢慢往树那边走。", "en": "I walk slowly toward the trees."},
+        {"zh": "我的步子比你慢得多。", "en": "My pace is much slower than yours."},
+        {"zh": "我停在你前面，不动。", "en": "I stop in front of you and stay still."},
+        {"zh": "你要是一直站着，我就走了。", "en": "If you keep standing there, I'll go."},
+        {"zh": "我把头低了低，算是打招呼。", "en": "I dip my head a little in greeting."},
+        {"zh": "我又回头看你一眼。", "en": "I look back at you once."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我细长的腿抖了一下。", "en": "My slender legs tremble once."},
+        {"zh": "我退到母龙身后。", "en": "I shrink behind my mother."},
+        {"zh": "这一下撞在我肋侧。", "en": "It landed on my ribs."},
+        {"zh": "我退了两步，很慢。", "en": "I back two paces, slowly."},
+        {"zh": "血从腿上流下来。", "en": "Blood runs down my leg."},
+        {"zh": "我低着头，喘得很重。", "en": "I lower my head, breathing heavily."},
+        {"zh": "我靠着一棵树。", "en": "I lean against a tree."},
+        {"zh": "我的尾巴一动不动。", "en": "My tail stops moving."},
+        {"zh": "我扶着树又站直了。", "en": "I brace on the tree and straighten up."},
+        {"zh": "走得慢了，可还走得动。", "en": "Slower now, but I still walk."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那丛草我看上了。", "en": "I've got my eye on that clump."},
+        {"zh": "我低头，把整丛都啃了。", "en": "I lower my head and take the whole clump."},
+        {"zh": "我一边吃，一边甩尾巴。", "en": "I eat and swing my tail."},
+        {"zh": "我在你旁边吃草。", "en": "I graze beside you."},
+        {"zh": "你再给一点，我就跟着你。", "en": "A little more and I'll follow you."},
+        {"zh": "我把草连根拔起来。", "en": "I pull the grass up roots and all."},
+        {"zh": "吃完我就靠着你站一会儿。", "en": "When I'm done I'll lean near you a while."},
+        {"zh": "叶子递过来，我就当你是朋友。", "en": "Hand me a leaf and I'll call you a friend."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我这身小骨头，撞一下也晃。", "en": "Small bones like mine rattle at a bump."},
+        {"zh": "这一下撞在我腿上，不疼。", "en": "It lands on my leg; it doesn't hurt."},
+        {"zh": "我的长脖子低下来，让你过。", "en": "My long neck dips so you can pass."},
+        {"zh": "我们撞在一起，土都翻起来。", "en": "We collide and the soil turns over."},
+        {"zh": "我又慢慢站回原来的地方。", "en": "I slowly return to my spot."},
+        {"zh": "你比我小，我不怪你。", "en": "You're smaller than me; no harm done."},
+        {"zh": "我看了看你，继续吃。", "en": "I glance at you and go back to eating."},
+        {"zh": "我的尾巴扫了你一下。", "en": "My tail brushes you."},
+        {"zh": "我只好挪开两步。", "en": "I have to move two steps away."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "她的脖子比我的细。", "en": "Her neck is slimmer than mine."},
+        {"zh": "我们一起走到树下。", "en": "We walk to the tree together."},
+        {"zh": "她的头抵在我肩侧。", "en": "Her head presses my shoulder."},
+        {"zh": "我们慢慢绕着圈子。", "en": "We circle slowly."},
+        {"zh": "我们的脚步踩在一起。", "en": "Our steps fall together."},
+        {"zh": "她比我走得稳。", "en": "She walks more steadily than I do."},
+        {"zh": "我们靠在一起晒太阳。", "en": "We lean together in the sun."},
+        {"zh": "她往林子里去了。", "en": "She heads into the trees."},
+        {"zh": "我留在原地，看她走远。", "en": "I stay and watch her go."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我低头咬住就往上提。", "en": "I bite down and pull up."},
+        {"zh": "这点东西我一口就没了。", "en": "One bite and this is gone."},
+        {"zh": "我把它按在脚下啃。", "en": "I pin it underfoot and gnaw."},
+        {"zh": "它太粗，卡在嘴里。", "en": "It's too coarse; it's stuck in my mouth."},
+        {"zh": "我吃得很慢，很仔细。", "en": "I eat slowly and carefully."},
+        {"zh": "我把它吞下去，肚子响。", "en": "I swallow and my belly rumbles."},
+        {"zh": "我这么小，已经是蜥脚类。", "en": "Small as I am, I'm a sauropodomorph."},
+        {"zh": "我还想再找一丛。", "en": "I want to find another clump."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西在那边晃。", "en": "Something's moving over there."},
+        {"zh": "我把脖子伸直看。", "en": "I stretch my neck to see."},
+        {"zh": "我慢慢往那边走。", "en": "I walk slowly that way."},
+        {"zh": "它个头比我稍大些。", "en": "It's a little bigger than I am."},
+        {"zh": "我把身子伏低了些。", "en": "I settle my body lower."},
+        {"zh": "有东西靠近，我收住脚步。", "en": "Something nears; I stop in my tracks."},
+        {"zh": "我先看看它要做什么。", "en": "Let me see what it means to do."},
+        {"zh": "我把头护在身子后面。", "en": "I keep my head behind my body."},
+        {"zh": "它要是冲过来，我就撞。", "en": "If it charges, I'll ram it."},
+        {"zh": "我踩稳了四条腿。", "en": "I plant all four legs."},
+        {"zh": "它已经走近了一些。", "en": "It has come a little closer."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一步一步后退。", "en": "I retreat step by step."},
+        {"zh": "它跟在我后面。", "en": "It's following behind me."},
+        {"zh": "前面那片树就在那儿。", "en": "That stand of trees is just ahead."},
+        {"zh": "我挤到两棵树中间。", "en": "I squeeze between two trees."},
+        {"zh": "它挤不进两棵树之间。", "en": "It can't squeeze between the two trees."},
+        {"zh": "我抬高头，看清前面的动静。", "en": "I raise my head to read the movement ahead."},
+        {"zh": "尾巴一甩打在它腿上。", "en": "One swing of my tail hits its leg."},
+        {"zh": "它退了小半步。", "en": "It gives a small half step."},
+        {"zh": "我又往回挪了一点。", "en": "I shift back a little more."},
+        {"zh": "它绕着那棵树走。", "en": "It walks around the tree."},
+        {"zh": "我跑起来了，很笨重。", "en": "I break into a run, clumsily."},
+        {"zh": "又跑了几步，我停下。", "en": "A few more steps and I stop."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我甩尾巴打它的腿。", "en": "I slap its legs with my tail."},
+        {"zh": "这一下撞得它后退。", "en": "It stumbles backward."},
+        {"zh": "我用前肢扒它。", "en": "I claw at it with my forelimbs."},
+        {"zh": "它扑过来，我用肩膀挡。", "en": "It lunges; I take it on the shoulder."},
+        {"zh": "我低下头，用力顶它。", "en": "I lower my head and butt it hard."},
+        {"zh": "它被推开了两步。", "en": "It's shoved two paces."},
+        {"zh": "我踩了它一脚。", "en": "I step on it once."},
+        {"zh": "它终于退开了。", "en": "At last it backs off."},
+        {"zh": "我用前肢推了它一把。", "en": "I shove it with my forelimbs."},
+        {"zh": "我站在原地喘。", "en": "I stand there and pant."},
+        {"zh": "它终于自己走开了。", "en": "At last it walks off on its own."},
+        {"zh": "我回头看了看伤。", "en": "I look back at the damage."},
+        {"zh": "我慢慢回到草地。", "en": "I walk slowly back to the grass."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的腿还有点发软。", "en": "My legs are still a bit weak."},
+        {"zh": "我先把四野看了一遍。", "en": "I look the whole country over first."},
+        {"zh": "我低下头吃了两口。", "en": "I lower my head for two bites."},
+        {"zh": "我的脖子伸出去够叶子。", "en": "I stretch my neck for leaves."},
+        {"zh": "太阳照在背上。", "en": "The sun is on my back."},
+        {"zh": "我试着走快一点。", "en": "I try a faster pace."},
+        {"zh": "地上留下四个坑。", "en": "Four hollows stay in the ground."},
+        {"zh": "我从巢里站起，腿还软。", "en": "I rise from the nest on unsteady legs."},
+        {"zh": "我记住了水的位置。", "en": "I've marked where the water is."},
+        {"zh": "我慢慢走进树荫。", "en": "I walk slowly into the shade."},
+        {"zh": "太阳在脖子上很暖。", "en": "The sun is warm on my neck."},
+        {"zh": "尾巴甩了一下，草全倒了。", "en": "One tail swing and the grass all falls flat."},
+        {"zh": "深呼吸一口，我开始走。", "en": "One deep breath and I start walking."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎到我的腿，我乱走。", "en": "Fire catches my leg and I stumble around."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我摔进坑里，很重。", "en": "I fall into a pit, heavily."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水漫到脖子，我挣扎。", "en": "Water climbs my neck and I struggle."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一根东西扎进我的肩。", "en": "Something sticks in my shoulder."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那道光让我四条腿都软了。", "en": "The light turns all four legs weak."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得太久，我撑不住身子。", "en": "Too long hungry, I can't hold myself up."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷落在背上，我一抖。", "en": "Lightning hits my back and I jolt."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下没有地，我一直在往下。", "en": "No ground under me; I keep going down."}
+      ]
+    }
+  }
+}

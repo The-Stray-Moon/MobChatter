@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用三条腿挪动", "en": "I move on three legs"},
+        {"zh": "我走起来一晃一晃", "en": "I sway as I go"},
+        {"zh": "我的铁壳在地上刮", "en": "My iron shell scrapes the ground"},
+        {"zh": "我朝有活物的方向走，餐盘已经打开。", "en": "I walk toward anything living; my tray is open."},
+        {"zh": "我的托盘撞到石头", "en": "My tray hits a stone"},
+        {"zh": "我一格一格格栅挪过去", "en": "I shuffle across, tile by tile"},
+        {"zh": "我停下，转了半圈", "en": "I stop and turn half around"},
+        {"zh": "我的轮子空转了一下", "en": "One of my wheels spins free"},
+        {"zh": "我经过的地方草被压平", "en": "The grass flattens where I pass"},
+        {"zh": "我抬起机械臂", "en": "I raise a mechanical arm"},
+        {"zh": "我沿着路走，路是铺好的", "en": "I take the road; roads are laid for this"},
+        {"zh": "我一拐一拐地靠近", "en": "I limp closer"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，托盘还举着", "en": "I stand with the tray still raised"},
+        {"zh": "我的灯一下一下地闪", "en": "My lamp blinks on and off"},
+        {"zh": "铁皮里有东西在响", "en": "Something rattles inside the tin"},
+        {"zh": "我的菜单是空的", "en": "My menu is empty"},
+        {"zh": "我这三条腿挪一下，铁壳在地上刮。", "en": "Three legs shift, and the iron shell scrapes ground."},
+        {"zh": "我在等人来点单", "en": "I wait for someone to order"},
+        {"zh": "我的关节油干了", "en": "My joints have run dry"},
+        {"zh": "我抖了一下，掉下一个螺丝", "en": "I shudder and a screw drops out"},
+        {"zh": "我举起托盘，又放下", "en": "I raise the tray and lower it"},
+        {"zh": "我等着，我的耐心不会用完", "en": "I wait; my patience doesn't run out"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "欢迎光临本店", "en": "Welcome to our establishment"},
+        {"zh": "请问你要点什么", "en": "What will you have, please"},
+        {"zh": "我们只收源石", "en": "We only take originium"},
+        {"zh": "你可以看看今日供应", "en": "You may look at today's offering"},
+        {"zh": "我把托盘递过去", "en": "I offer the tray"},
+        {"zh": "这张桌子是空的", "en": "The tray is empty"},
+        {"zh": "你站在取餐口了", "en": "You're at the pickup window"},
+        {"zh": "请不要碰里面的东西", "en": "Please don't touch what's inside"},
+        {"zh": "上一个客人也站在这儿", "en": "The last customer stood here too"},
+        {"zh": "我在这窗口站很久了", "en": "I've stood at this window a long while"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉了一个零件", "en": "I've lost a part"},
+        {"zh": "我晃了晃，重新平衡", "en": "I rock and rebalance"},
+        {"zh": "我的灯乱闪起来", "en": "My lamp is stuttering"},
+        {"zh": "铁皮上多了一个凹", "en": "A dent appears in my casing"},
+        {"zh": "我发出一串杂音", "en": "I emit a burst of static"},
+        {"zh": "我的机械臂垂下去", "en": "My arm droops"},
+        {"zh": "我退了一点，轮子打滑", "en": "I back off and my wheels slip"},
+        {"zh": "我自检了一遍", "en": "I run a self-check"},
+        {"zh": "本机还在运行", "en": "This unit is still running"},
+        {"zh": "请稍等，正在恢复", "en": "One moment; restoring"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你带了原料来", "en": "You've brought ingredients"},
+        {"zh": "放进投料口就行", "en": "Just put it in the intake"},
+        {"zh": "越新鲜的越好", "en": "The fresher the better"},
+        {"zh": "这一份够做一顿", "en": "This will make one meal"},
+        {"zh": "我闻不到，但我称得出", "en": "I can't smell it, but I can weigh it"},
+        {"zh": "请您稍等一下", "en": "One moment, please"},
+        {"zh": "机器正在处理", "en": "The machine is processing"},
+        {"zh": "你的手别伸进去", "en": "Keep your hand out"},
+        {"zh": "马上就好了，请等等", "en": "Almost ready; do wait"},
+        {"zh": "这是您的那份", "en": "This one is yours"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞在我铁壳上，很响", "en": "You hit my shell and it rings"},
+        {"zh": "我机身晃了两下才稳住", "en": "My chassis rocks twice before settling"},
+        {"zh": "我的托盘歪了", "en": "My tray has tipped"},
+        {"zh": "托盘一歪，菜汤洒了一地。", "en": "My tray tips; soup spills everywhere."},
+        {"zh": "我的轮子被你踩住", "en": "You step on one of my wheels"},
+        {"zh": "我发出一声电子音", "en": "I make an electronic noise"},
+        {"zh": "我们一起撞到墙上", "en": "We both hit the wall"},
+        {"zh": "我的盖子开了又合", "en": "My lid opens and shuts"},
+        {"zh": "这机器往后退了半格", "en": "The unit retreats half a tile"},
+        {"zh": "请不要推这台机器", "en": "Please don't push this unit"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "仓库里还有一台", "en": "There's another unit in the storeroom"},
+        {"zh": "我们并排站着，灯一起闪", "en": "We stand side by side, lamps blinking together"},
+        {"zh": "它的型号更旧", "en": "Its model is older"},
+        {"zh": "我们交换了一段数据", "en": "We trade a segment of data"},
+        {"zh": "它的托盘也是空的", "en": "Its tray is empty too"},
+        {"zh": "我们一起举起了托盘", "en": "We raise our trays together"},
+        {"zh": "电源不够两台", "en": "There's not enough power for two"},
+        {"zh": "它的指示灯灭了", "en": "Its indicator has gone dark"},
+        {"zh": "我继续站在这里", "en": "I go on standing here"},
+        {"zh": "等待下一位客人", "en": "Waiting for the next customer"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用机械臂夹起来", "en": "I pick it up with the arm"},
+        {"zh": "它太重了，我放不下", "en": "It's too heavy; I can't put it down"},
+        {"zh": "我把它放进舱里", "en": "I put it in the compartment"},
+        {"zh": "它滚动了一下", "en": "It rolls once"},
+        {"zh": "我把它称了称", "en": "I weigh it"},
+        {"zh": "这个不在菜单上", "en": "This isn't on the menu"},
+        {"zh": "我用托盘把它扫到一边", "en": "I sweep it aside with the tray"},
+        {"zh": "舱门夹住了它", "en": "The hatch catches it"},
+        {"zh": "我留着，也许能用", "en": "I'll keep it; maybe it's useful"},
+        {"zh": "请不要把它拿走", "en": "Please don't take it away"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你拿了没付钱的东西", "en": "You've taken something unpaid"},
+        {"zh": "我锁上了舱门", "en": "I've locked the compartment"},
+        {"zh": "我的灯变红了", "en": "My lamp turns red"},
+        {"zh": "请您留在原地", "en": "Please remain where you are"},
+        {"zh": "这台机器还有安保模式", "en": "This unit has a security mode"},
+        {"zh": "你的动作被记录了", "en": "Your movements have been logged"},
+        {"zh": "请配合本机工作", "en": "Please cooperate with this unit"},
+        {"zh": "本机开始靠近", "en": "The unit is approaching"},
+        {"zh": "这不是点单流程", "en": "This isn't the ordering procedure"},
+        {"zh": "我要回收那份餐", "en": "I need to recover that meal"},
+        {"zh": "你还剩下三秒", "en": "You have three seconds left"},
+        {"zh": "倒计时开始了", "en": "The countdown has begun"},
+        {"zh": "我的轮子锁住了", "en": "My wheels have locked"},
+        {"zh": "我接到了新指令", "en": "I've received a new directive"},
+        {"zh": "请勿挣扎抵抗", "en": "Please do not struggle"},
+        {"zh": "我的机械臂已经抬起来了", "en": "My arm is already up"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我沿着直线过来", "en": "I come along a straight line"},
+        {"zh": "托盘伸在前面", "en": "The tray extends in front"},
+        {"zh": "你的腿脚比我快", "en": "You're quicker on your feet"},
+        {"zh": "可我的路线更短", "en": "But my route is shorter"},
+        {"zh": "出餐口的铁，撞得叮当响。", "en": "The serving hatch clangs when I hit it."},
+        {"zh": "我的灯一直照着你的位置", "en": "My lamp keeps on your position"},
+        {"zh": "链条从舱里伸出来", "en": "A chain extends from the compartment"},
+        {"zh": "你的鞋印留在我的托盘上", "en": "Your footprint stays on my tray"},
+        {"zh": "我正在计算轨迹", "en": "I'm calculating the path"},
+        {"zh": "结果已经出来了", "en": "The result is in"},
+        {"zh": "餐盘转了个弯，拦住你。", "en": "My tray swings around and cuts you off."},
+        {"zh": "扫码口亮着，你走不了。", "en": "My scan slot glows; you're not leaving."},
+        {"zh": "我停在那儿等", "en": "I wait there"},
+        {"zh": "你听见我的马达", "en": "You hear my motor"},
+        {"zh": "我没有累的时候", "en": "I don't tire"},
+        {"zh": "我关了多余的灯", "en": "I switch off the spare lamps"},
+        {"zh": "你的退路是扇防火门", "en": "Your way out is a fire door"},
+        {"zh": "我比那扇门先到", "en": "I reach it before you do"},
+        {"zh": "我在门口停住", "en": "I stop in the doorway"},
+        {"zh": "链条在托盘下面有声音", "en": "The chain rattles under the tray"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "机械臂砸下来", "en": "The arm comes down"},
+        {"zh": "这一下打在你的肩上", "en": "It lands on your shoulder"},
+        {"zh": "托盘边缘划过你的手", "en": "The tray's edge rakes your hand"},
+        {"zh": "你被撞得退了两步", "en": "You're knocked back two steps"},
+        {"zh": "自助终端出了故障，抓到你。", "en": "The service terminal is glitching, and it has you."},
+        {"zh": "舱门夹住你的手腕", "en": "The hatch clamps your wrist"},
+        {"zh": "这一下打空了，墙被撞出一个坑", "en": "I miss and dent the wall"},
+        {"zh": "我用整个机身撞你", "en": "I ram you with my whole chassis"},
+        {"zh": "你挡住，听见铁的声音", "en": "You block and hear metal"},
+        {"zh": "我的机械臂还在响", "en": "My arm is still whirring"},
+        {"zh": "你退到走廊尽头", "en": "You retreat to the corridor's end"},
+        {"zh": "我没有停下来", "en": "I haven't stopped"},
+        {"zh": "螺丝一颗颗掉下来", "en": "Screws drop out one by one"},
+        {"zh": "可我还站得稳", "en": "Yet I stay upright"},
+        {"zh": "这一下我用尽了", "en": "That used everything I had"},
+        {"zh": "请在这边结账", "en": "Please settle up here"},
+        {"zh": "我夹住你的手臂", "en": "I clamp your arm"},
+        {"zh": "你挣开，袖子留在我手里", "en": "You tear free, leaving your sleeve"},
+        {"zh": "我撞你的膝盖", "en": "I ram your knee"},
+        {"zh": "托盘横着扫过来", "en": "The tray sweeps across"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "走廊尽头有一盏灯亮了", "en": "A lamp lights at the end of the hall"},
+        {"zh": "托盘从拐角伸出来", "en": "A tray comes around the corner"},
+        {"zh": "我的轮子在地砖上响", "en": "My wheels sound on the tile"},
+        {"zh": "我停在取餐口", "en": "I stop at the pickup window"},
+        {"zh": "铁皮上的字已经掉了漆", "en": "The paint has flaked off my casing"},
+        {"zh": "机器开始预热", "en": "The machine begins to warm up"},
+        {"zh": "我的灯闪了三下", "en": "My lamp blinks three times"},
+        {"zh": "这里以前是个食堂", "en": "This used to be a canteen"},
+        {"zh": "我等了很久，终于有人", "en": "I waited so long, and now someone's here"},
+        {"zh": "舱门开了一条缝", "en": "The hatch opens a crack"},
+        {"zh": "机器的提示音响了一下", "en": "The machine chimes once"},
+        {"zh": "我把托盘摆正", "en": "I square the tray"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的外壳被烤得发烫", "en": "My shell heats up"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从台阶上翻下去，零件散了", "en": "I tumble off the steps and parts scatter"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水进了电路，我的灯忽明忽暗", "en": "Water reaches the circuits and my lamp flickers"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我掀翻，铁皮裂了", "en": "The blast flips me and my casing splits"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭钉在托盘上", "en": "An arrow pins the tray"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股力量搅乱了我的程序", "en": "That force scrambles my routines"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没有源石了，我的灯暗下去", "en": "No originium left; my lamp dims"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在我的外壳上，全身一亮", "en": "Lightning hits my casing and I light all over"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下面没有地砖，我找不到支撑", "en": "No tile below; I find no support"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的护腕链子拖在砖上。", "en": "My bracer chain drags across the bricks."},
+        {"zh": "沉重的脚步声", "en": "Heavy footsteps"},
+        {"zh": "金属铠甲摩擦", "en": "Metallic armor rubs"},
+        {"zh": "挥舞附魔斧", "en": "Wields enchanted axe"},
+        {"zh": "警惕环视四周", "en": "Scans the surroundings"},
+        {"zh": "剑光闪烁护盾", "en": "Shimmering shield"},
+        {"zh": "盔甲下肌肉绷紧", "en": "Taut muscles"},
+        {"zh": "黑石长廊里，我的甲片相碰。", "en": "In the blackstone hall, my plates clatter."},
+        {"zh": "挥剑劈砍", "en": "Swings sword"},
+        {"zh": "护盾阻挡攻击", "en": "Shield blocks"},
+        {"zh": "黑石砖被我的铁靴踩得发响。", "en": "My iron boots ring on the blackstone bricks."},
+        {"zh": "我挎着附魔斧，走过长廊。", "en": "I carry my enchanted axe down the corridor."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "手持附魔剑站立", "en": "Holds enchanted sword"},
+        {"zh": "附魔斧在手里发烫。", "en": "My enchanted axe runs hot."},
+        {"zh": "沉思片刻", "en": "Meditates briefly"},
+        {"zh": "轻拂附魔斧", "en": "Runs hand over axe"},
+        {"zh": "调整头盔位置", "en": "Adjusts helmet"},
+        {"zh": "抚摸手腕上的护甲", "en": "Taps armor on wrist"},
+        {"zh": "我在数通往下界的岔路。", "en": "I count the paths deeper into the Nether."},
+        {"zh": "附魔斧在手里，别靠近。", "en": "Enchanted axe in hand — keep your distance."},
+        {"zh": "偶尔咆哮", "en": "Occasionally growls"},
+        {"zh": "轻声低语", "en": "Whispers softly"},
+        {"zh": "我数着要塞里的每一根柱子。", "en": "I count every pillar in the fortress."},
+        {"zh": "斧刃上的附魔光，忽明忽暗。", "en": "The enchantment on my axe flickers."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "头盔下的火光锁住你。", "en": "The firelight under my helm fixes on you."},
+        {"zh": "铁靴一转，我正对着你。", "en": "A turn of my iron boots squares me to you."},
+        {"zh": "瞄准玩家射击", "en": "Aims at player"},
+        {"zh": "我把斧头换到右手，压低身。", "en": "I shift the axe to my right hand and crouch."},
+        {"zh": "挥剑向玩家", "en": "Swings sword at player"},
+        {"zh": "护盾防御玩家攻击", "en": "Blocks player attack"},
+        {"zh": "锁链在腕上绕了三圈。", "en": "My chains wrap my wrist three times."},
+        {"zh": "附魔斧在手，别乱动。", "en": "Enchanted axe drawn — don't move."},
+        {"zh": "发出警告咆哮", "en": "Issues warning growl"},
+        {"zh": "准备投掷斧头", "en": "Prepares to throw axe"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的剑伤到了我！", "en": "Your sword hurt me!"},
+        {"zh": "我受你攻击了！", "en": "Attacked by you!"},
+        {"zh": "快停下！我受伤了！", "en": "Stop! I'm hurt!"},
+        {"zh": "你真厉害，我受伤了！", "en": "You're tough! I'm hurt!"},
+        {"zh": "斧和剑，都是从要塞带出来的。", "en": "Axe and sword, both carried from the fortress."},
+        {"zh": "快过来！我受攻击了！", "en": "Come over! I'm attacked!"},
+        {"zh": "你打中我了！", "en": "You hit me!"},
+        {"zh": "我倒下了，别靠近！", "en": "I'm down, stay away!"},
+        {"zh": "伤口很疼！", "en": "That wound hurts!"},
+        {"zh": "我需要你的帮助！", "en": "Need your help!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你身上的光让我不安。", "en": "The light on you unsettles me."},
+        {"zh": "为什么你看起来那么眼熟？", "en": "Why do you look so familiar?"},
+        {"zh": "你的盔甲是我的荣耀。", "en": "Your armor is my glory."},
+        {"zh": "来吧，交出你的盔甲。", "en": "Give me your armor, fool."},
+        {"zh": "不要让我杀你两次。", "en": "Do not let me kill you twice."},
+        {"zh": "你的末影珍珠是我的战利品。", "en": "Your Ender Pearls are my trophy."},
+        {"zh": "你身上的魔法是你的死亡。", "en": "The magic on you is your death."},
+        {"zh": "你的斧子和剑都是我的。", "en": "Your axe and sword are mine."},
+        {"zh": "你的力量只能维持一时。", "en": "Your strength is fleeting."},
+        {"zh": "你最好快点投降。", "en": "Surrender quickly, fool."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "岩石在你脚下破碎。", "en": "The rock crumbles beneath your feet."},
+        {"zh": "你的盾牌无法阻挡我。", "en": "Your shield cannot stop me."},
+        {"zh": "附魔斧和附魔剑都在我手上。", "en": "Enchanted axe and sword, both mine."},
+        {"zh": "你的盔甲抵挡不了太久。", "en": "Your armor will not hold long."},
+        {"zh": "你的剑无法伤到我。", "en": "Your sword cannot harm me."},
+        {"zh": "岩石碎片飞向你。", "en": "Rock fragments fly at you."},
+        {"zh": "我的斧头砍碎了你的盾。", "en": "My axe shatters your shield."},
+        {"zh": "你被我抛出很远。", "en": "You are thrown far by me."},
+        {"zh": "岩石砸中了你的身体。", "en": "Rock hits your body."},
+        {"zh": "别贴着我走，铁甲会刮伤人。", "en": "Do not walk so close; my plate scrapes."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我们的种群需要你。", "en": "Our kind needs you."},
+        {"zh": "你的力量和我相配。", "en": "Your strength matches mine."},
+        {"zh": "和我一起守护这片土地。", "en": "Guard this land with me."},
+        {"zh": "要塞砖缝里，也想有个伴。", "en": "Even in fortress brick seams, one wants company."},
+        {"zh": "我们共同为下界而战。", "en": "We fight for the Nether together."},
+        {"zh": "让我们一起生活在这要塞。", "en": "Let us live here in the fortress together."},
+        {"zh": "你很适合我的族群。", "en": "You suit my kind well."},
+        {"zh": "你是我族群的完美人选。", "en": "You are the perfect choice for our kind."},
+        {"zh": "让我们共同守护要塞。", "en": "Let us guard the fortress together."},
+        {"zh": "要塞太大，一个人守不过来。", "en": "The fortress is too large for one guard."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "手持魔斧与魔剑！", "en": "Holding enchanted axe and sword!"},
+        {"zh": "我来收复这片土地！", "en": "I will reclaim this land!"},
+        {"zh": "骨头是我的食物！", "en": "Bones are my food!"},
+        {"zh": "要塞中寻找同伴！", "en": "Seeking allies in the fortress!"},
+        {"zh": "附魔武器掉落了！", "en": "Enchanted weapons dropped!"},
+        {"zh": "注意我的攻击方式！", "en": "Be wary of my attacks!"},
+        {"zh": "下界骑士的强大！", "en": "Power of the Nether Knight!"},
+        {"zh": "骨头掉落，拾起！", "en": "Drop bones, pick them up!"},
+        {"zh": "要塞中寻找资源！", "en": "Resources in the fortress!"},
+        {"zh": "警惕，骨头掉落！", "en": "Bones dropped, beware!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "附魔斧在我手里转了个向。", "en": "My enchanted axe turns in my grip."},
+        {"zh": "附魔斧和剑，我一手一把。", "en": "Enchanted axe and sword, one in each hand."},
+        {"zh": "我把剑尖抬到你的胸口高度。", "en": "I lift my blade tip to the height of your chest."},
+        {"zh": "附魔斧已经举起来了！", "en": "My enchanted axe is already raised!"},
+        {"zh": "我的斧剑附魔！", "en": "My sword and axe enchanted!"},
+        {"zh": "我将保护要塞！", "en": "I will protect the fortress!"},
+        {"zh": "瞄准并射击！", "en": "Aim and shoot!"},
+        {"zh": "我的剑指向你！", "en": "My sword points at you!"},
+        {"zh": "注意我的力量！", "en": "Feel my power!"},
+        {"zh": "我是下界的卫士！", "en": "I am the Nether guardian!"},
+        {"zh": "你踩响了我守的那块砖。", "en": "You rang the brick I was posted to."},
+        {"zh": "下界要塞不欢迎活人。", "en": "The Nether fortress does not welcome the living."},
+        {"zh": "我的斧和剑，都是附了魔的。", "en": "Both my axe and sword are enchanted."},
+        {"zh": "你身上没有下界的气息。", "en": "You carry no Nether scent."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "斧刃上的附魔光对准了你。", "en": "The enchantment on my axe finds you."},
+        {"zh": "我的攻击无误！", "en": "My attack is certain!"},
+        {"zh": "瞄准并发射！", "en": "Target and fire!"},
+        {"zh": "我的攻击即将命中！", "en": "My attack is imminent!"},
+        {"zh": "保护要塞的安宁！", "en": "Protecting the fortress!"},
+        {"zh": "附魔斧先劈，剑后补。", "en": "Enchanted axe first, sword to finish."},
+        {"zh": "我的剑锋无解！", "en": "My sword is unbreakable!"},
+        {"zh": "敌人即将被击败！", "en": "Enemy is about to fall!"},
+        {"zh": "我将守护要塞！", "en": "I will defend the fortress!"},
+        {"zh": "我的攻击势不可挡！", "en": "My attacks are unstoppable!"},
+        {"zh": "我先劈你的盾，再劈你。", "en": "I split your shield first, then you."},
+        {"zh": "斧刃举到肩高，就差一步。", "en": "My axe is at shoulder height; one step left."},
+        {"zh": "你在熔岩边上，别退太快。", "en": "You stand by the lava; do not step back far."},
+        {"zh": "我守这道门守了太久。", "en": "I have guarded this gate too long."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闪耀剑光劈敌首", "en": "Shining sword slices through foes."},
+        {"zh": "挥斧破敌我无惧", "en": "Axe swings with no fear."},
+        {"zh": "骨甲骑士怒冲来", "en": "Bone-armor knight charges angrily."},
+        {"zh": "挥剑斩敌血如注", "en": "Sword slashes, blood flows."},
+        {"zh": "手持宝斧劈敌酋", "en": "Holding a magic axe, slaying enemies."},
+        {"zh": "附魔之剑斩敌首", "en": "Enchanted sword cuts down enemies."},
+        {"zh": "斧剑齐出破敌军", "en": "Axe and sword break enemy lines."},
+        {"zh": "挥剑如龙破敌军", "en": "Sword slashes like a dragon breaking lines."},
+        {"zh": "宝剑如雷劈敌首", "en": "Sword strikes like thunder, decapitating enemies."},
+        {"zh": "挥斧破甲敌难挡", "en": "Axe breaks armor, enemies can't resist."},
+        {"zh": "斧刃落下，黑石砖崩了口。", "en": "My axe falls and chips the blackstone."},
+        {"zh": "剑锋横切，火星溅了一地。", "en": "My sword cuts across; sparks scatter."},
+        {"zh": "我把你顶向熔岩那边。", "en": "I shove you toward the lava."},
+        {"zh": "骨头在我甲下作响，别怕。", "en": "Bones rattle under my plate; do not fret."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "要塞深处显身手", "en": "Appears in fortress depths."},
+        {"zh": "要塞中诞生骑士", "en": "Knight spawns in the fortress."},
+        {"zh": "要塞要塞显神威", "en": "Fortress knight shows its might."},
+        {"zh": "下界要塞中现身", "en": "Appears in the nether fortress."},
+        {"zh": "要塞中巡逻骑士", "en": "Knight patrols the fortress."},
+        {"zh": "要塞深处显威严", "en": "Knight in the depths shows its might."},
+        {"zh": "要塞中守护者出现", "en": "Guardian appears in the fortress."},
+        {"zh": "要塞中显神威", "en": "Fortress knight shows its might."},
+        {"zh": "要塞中诞生勇士", "en": "Warrior spawns in the fortress."},
+        {"zh": "要塞深处显神勇", "en": "Knight in the depths shows bravery."},
+        {"zh": "要塞的走廊尽头，甲片响了。", "en": "At the corridor's end, plate clanks."},
+        {"zh": "我从黑石砖的阴影里迈出来。", "en": "I step out of the blackstone's shadow."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "熔岩的热，透过了甲缝。", "en": "Lava heat seeps through my plate's seams."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从要塞的桥上摔下来，甲凹了。", "en": "I fell from the fortress bridge; my plate dented."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "头盔进了水，我看不见路。", "en": "Water fills my helm; I cannot see."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我掀翻在砖上。", "en": "The blast throws me down onto the bricks."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭卡在肩甲缝里，拔不出来。", "en": "An arrow wedges in my pauldron seam."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "附魔相冲，我的剑在抖。", "en": "Enchantments clash; my sword shudders."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "骨头饿了，敲得甲片作响。", "en": "My bones hunger and rattle the plate."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈在斧刃上，火花四散。", "en": "Lightning strikes my axe blade; sparks fly."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空里的我，连甲都没了重量。", "en": "In the void even my plate loses weight."}
+      ]
+    }
+  }
+}

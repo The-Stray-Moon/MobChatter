@@ -1,0 +1,256 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一步一步压过地面", "en": "I press across the ground step by step"},
+        {"zh": "我的装甲每一块都沉", "en": "Every plate of my armor is heavy"},
+        {"zh": "我的高度超过两格", "en": "I stand over two blocks tall"},
+        {"zh": "我走过的地方草都平了", "en": "The grass flattens where I pass"},
+        {"zh": "我转了转肩膀的炮口", "en": "I rotate the cannon on my shoulder"},
+        {"zh": "我朝目标的方向慢慢走过去", "en": "I walk slowly toward the target"},
+        {"zh": "我在地上一踩就是一个坑", "en": "Every step leaves a pit"},
+        {"zh": "我从平原走到针叶林", "en": "I walk from the plains into the taiga"},
+        {"zh": "我的影子把小路盖满", "en": "My shadow covers the whole path"},
+        {"zh": "我的轮轴在肩后转着", "en": "The wheel gear turns behind my shoulder"},
+        {"zh": "我每走一步都先算好落点", "en": "Every step, I calculate the landing spot first"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，装甲缝里透出光", "en": "I stand, light leaking from the armor seams"},
+        {"zh": "我的头低着，在扫描", "en": "My head is low, scanning"},
+        {"zh": "我一动不动地待命", "en": "I stand by without moving"},
+        {"zh": "我的呼吸像风吹过金属", "en": "My breathing sounds like wind over metal"},
+        {"zh": "我在等下一个指令", "en": "I wait for the next command"},
+        {"zh": "我的脚边积着一圈土", "en": "A ring of soil has built up at my feet"},
+        {"zh": "我的传感器在扫过树林", "en": "My sensors sweep the woods"},
+        {"zh": "我的一条腿微微下沉", "en": "One of my legs sinks slightly"},
+        {"zh": "我在等废料被丢下", "en": "I wait for scrap to be dropped"},
+        {"zh": "我的装甲缝里溢出一点蒸汽", "en": "A little steam seeps from my armor joints"},
+        {"zh": "我站得像一座铁像", "en": "I stand like an iron statue"},
+        {"zh": "我在听机械的声音", "en": "I listen to mechanical sounds"},
+        {"zh": "我的头顶的管子亮了一下", "en": "The pipe on my head lit once"},
+        {"zh": "我慢慢把重心挪到另一条腿", "en": "I slowly shift weight to the other leg"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在我扫描范围里", "en": "You are inside my scan range"},
+        {"zh": "我的火力和你的距离成正比", "en": "My firepower scales with your distance"},
+        {"zh": "我的重炮装在后背上。", "en": "My heavy cannon sits on my back."},
+        {"zh": "我吃废料，不吃别的", "en": "I eat scrap, nothing else"},
+        {"zh": "我这副身板不适合搬东西", "en": "This frame of mine is not built for hauling"},
+        {"zh": "我的装甲每一块都能挡下你", "en": "Every plate of my armor can stop you"},
+        {"zh": "你的体重不够挡住我", "en": "Your weight is not enough to stop me"},
+        {"zh": "我扫描了你的装备", "en": "I have scanned your gear"},
+        {"zh": "你要不要我替你搬东西", "en": "Do you want me to haul for you"},
+        {"zh": "我的火力会伤到旁边的东西", "en": "My firepower would damage things nearby"},
+        {"zh": "我说话的时候关节在响", "en": "My joints click when I speak"},
+        {"zh": "你最好别站在我正前方", "en": "You had better not stand directly in front of me"},
+        {"zh": "我的射界很清楚", "en": "My field of fire is clear"},
+        {"zh": "你要下指令就快一点", "en": "If you have an order, give it quickly"},
+        {"zh": "我不喜欢被人从后面碰", "en": "I dislike being touched from behind"},
+        {"zh": "我的装甲不会替你挡风", "en": "My armor will not shield you from wind"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的装甲上多了一个坑", "en": "A dent appeared in my armor"},
+        {"zh": "我不疼，只是出力下降", "en": "I do not hurt, only my output drops"},
+        {"zh": "我退了半步，稳住重心", "en": "I fall back half a step and steady my balance"},
+        {"zh": "我的关节在冒气", "en": "Steam vents from my joints"},
+        {"zh": "我的炮还能开火", "en": "My cannon can still fire"},
+        {"zh": "我的装甲上有一道划痕", "en": "There is a scratch across my armor"},
+        {"zh": "我降到更低的出力", "en": "I drop to a lower output"},
+        {"zh": "我的传感器有点偏", "en": "My sensors are slightly off"},
+        {"zh": "我的关节活动范围小了一点", "en": "My joint range has shrunk a little"},
+        {"zh": "我重新校准了一次", "en": "I recalibrate once"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我燃料槽里只要废料", "en": "Only scrap goes in my fuel slot"},
+        {"zh": "废料才是我的口粮", "en": "Scrap is my ration"},
+        {"zh": "拿走，别挡着我", "en": "Take it away, do not block me"},
+        {"zh": "我连闻都懒得闻", "en": "I cannot even be bothered to sniff it"},
+        {"zh": "我的燃料不是这个", "en": "This is not my fuel"},
+        {"zh": "这一块是废料吗", "en": "Is this piece scrap"},
+        {"zh": "看起来不能烧", "en": "It does not look burnable"},
+        {"zh": "你留着吧，我找金属", "en": "Keep it, I look for metal"},
+        {"zh": "那个太软，塞不进我的槽", "en": "That is too soft, it will not fit my slot"},
+        {"zh": "我不吃有机物", "en": "I do not eat organic matter"},
+        {"zh": "你手里那个连螺丝都不如", "en": "What you hold is not even worth a screw"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站得一动不动", "en": "I stand without moving"},
+        {"zh": "金属碰上了装甲", "en": "Metal met armour"},
+        {"zh": "我稍微偏了一下身体", "en": "I tilted my body slightly"},
+        {"zh": "我的重心连晃都没晃", "en": "My balance did not even shift"},
+        {"zh": "你的肩膀撞在我的肋甲上", "en": "Your shoulder hit my rib plate"},
+        {"zh": "我被你顶得转了半圈", "en": "You turned me half a circle"},
+        {"zh": "我把脚重新踩稳", "en": "I plant my feet again"},
+        {"zh": "我的尾甲扫到了你", "en": "My tail plate swept against you"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我是战斗用的", "en": "I am built for combat"},
+        {"zh": "这类事跟我无关", "en": "That is not my affair"},
+        {"zh": "我的时间用来搬运和作战", "en": "My time goes to hauling and fighting"},
+        {"zh": "我的头卡回扫描角度", "en": "My head clicks back to scan angle"},
+        {"zh": "我没有那种程序", "en": "I have no such program"},
+        {"zh": "我的结构里没有这一项", "en": "There is no such entry in my structure"},
+        {"zh": "我只负责搬和打", "en": "I am only responsible for hauling and fighting"},
+        {"zh": "我接着扫我的范围", "en": "I go on sweeping my range"},
+        {"zh": "我把头转开了，机械地转开", "en": "I turn my head away, mechanically"},
+        {"zh": "这个问题不在我的程序里", "en": "That question is not in my program"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这个可以当废料", "en": "This will do as scrap"},
+        {"zh": "我把它塞进胸口的槽", "en": "I stuff it into the slot in my chest"},
+        {"zh": "地上掉的我都捡", "en": "I pick up whatever falls"},
+        {"zh": "掂了掂，这东西有分量。", "en": "Weighed it in my hand, it has some heft."},
+        {"zh": "这个分量搬着没手感", "en": "This weight gives me nothing to haul"},
+        {"zh": "我用夹具把它夹起来", "en": "I clamp it with my gripper"},
+        {"zh": "这个能当燃料", "en": "This can serve as fuel"},
+        {"zh": "我把它压成一块", "en": "I crush it into a block"},
+        {"zh": "太重的东西我也搬", "en": "I haul heavy things too"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "扫描到活动目标", "en": "A moving target detected"},
+        {"zh": "我的炮口转过去了", "en": "My cannon has turned"},
+        {"zh": "我开始计算距离", "en": "I begin calculating range"},
+        {"zh": "我的扫描已经锁定", "en": "My scan has locked on"},
+        {"zh": "这一击会很大", "en": "This strike will be large"},
+        {"zh": "检测到活动物", "en": "Living thing detected"},
+        {"zh": "我的警示灯亮了", "en": "My warning light came on"},
+        {"zh": "我把它标成敌对", "en": "I mark it hostile"},
+        {"zh": "我的炮口开始充能", "en": "My cannon starts charging"},
+        {"zh": "这个角度我的炮口能压住", "en": "My cannon can bear at this angle"},
+        {"zh": "它离村子太近了", "en": "It is too close to the village"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一直在跟着它", "en": "I keep tracking it"},
+        {"zh": "我的装甲在蓄能", "en": "My armor is charging"},
+        {"zh": "我的脚步没有变慢", "en": "My steps have not slowed"},
+        {"zh": "它想躲到石头后面", "en": "It wants to hide behind stone"},
+        {"zh": "我把角度压低了", "en": "I lowered my angle"},
+        {"zh": "我在等它露头", "en": "I wait for it to show itself"},
+        {"zh": "我在距离十五格处停下", "en": "I stop at fifteen blocks"},
+        {"zh": "我的炮口一直在动", "en": "My cannon keeps adjusting"},
+        {"zh": "它的动作我预测得到", "en": "I can predict its movements"},
+        {"zh": "我把一条腿往后蹬住", "en": "I brace one leg back"},
+        {"zh": "我在等充能完成", "en": "I wait for the charge to finish"},
+        {"zh": "我的装甲一格格亮起来", "en": "My armor lights up plate by plate"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的炮口亮了一下", "en": "My cannon flashed"},
+        {"zh": "巨大爆破从肩部出去", "en": "A Mega Blaster leaves my shoulder"},
+        {"zh": "这一击把地面都掀了", "en": "This blow tore up the ground"},
+        {"zh": "我把它推出去三格", "en": "I push it back three blocks"},
+        {"zh": "我把手臂横过去挡", "en": "I swing my arm across to block"},
+        {"zh": "我的前臂砸了下去", "en": "My forearm comes down"},
+        {"zh": "巨大爆破贴着地面推过去", "en": "The Mega Blaster drives low across the ground"},
+        {"zh": "这一击把我脚边的地都掀了", "en": "This blow tore up the ground at my feet"},
+        {"zh": "我把手臂挡在它前面", "en": "I put my arm in its way"},
+        {"zh": "我把它推离那片树林", "en": "I push it clear of the woods"},
+        {"zh": "我又补了一发", "en": "I fire one more round"},
+        {"zh": "我用肩膀的装甲撞过去", "en": "I drive my shoulder plate in"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从废料堆里站起来", "en": "I rise out of the scrap heap"},
+        {"zh": "我的装甲一块块合上", "en": "My armor plates close one by one"},
+        {"zh": "我比周围的东西都高", "en": "I stand taller than everything around"},
+        {"zh": "我的扫描已经开始", "en": "My scan has already begun"},
+        {"zh": "我落到地上，地面凹了一块", "en": "I land and the ground dents"},
+        {"zh": "我可以被派去搬东西", "en": "I can be assigned to hauling"},
+        {"zh": "我从黑森林的树影里走出来", "en": "I walk out of the dark forest's shadows"},
+        {"zh": "我的装甲上还挂着树皮", "en": "Bark still clings to my armor"},
+        {"zh": "我可以被指派去搬东西", "en": "I can be assigned to hauling"},
+        {"zh": "我的扫描先亮起来", "en": "My scan lights up first"},
+        {"zh": "这里的地很适合我落脚", "en": "This ground suits my footing"},
+        {"zh": "我一出现，鸟都飞走了", "en": "The moment I appear, the birds scatter"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰在我装甲上滑开", "en": "Fire slides off my armor"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从高处落下，压碎了地面", "en": "I fell from height and crushed the ground"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水从装甲缝里灌进来", "en": "Water poured in through the armor seams"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我的装甲掀起一角", "en": "The blast lifted a corner of my armor"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一枚弹丸嵌在我的肩甲上", "en": "A shot lodged in my shoulder plate"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那股术力绕过了我的装甲", "en": "That magic went around my armor"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "废料不够，我的出力在降", "en": "Not enough scrap, my output is dropping"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷穿过我的装甲走了一圈", "en": "Lightning ran a circuit through my armor"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的脚下没有地面", "en": "There is no ground beneath me"}
+      ]
+    }
+  }
+}

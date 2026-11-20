@@ -1,0 +1,256 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用两条短腿挪动，笼子一路响。", "en": "I shuffle on two short legs, cage rattling."},
+        {"zh": "笼子里的骨头撞在一起，咔咔响。", "en": "The bones in my cage knock and clatter."},
+        {"zh": "我拖着铁条走，地上留下刮痕。", "en": "I drag my bars along, scoring the stone floor."},
+        {"zh": "南瓜灯在前面照路，我在后面跟。", "en": "The jack-o'-lantern leads; I follow behind it."},
+        {"zh": "我走得不稳，四条腿各走各的。", "en": "I walk unsteadily, each leg going its own way."},
+        {"zh": "核心在笼子里滚，撞得我发晃。", "en": "The core rolls inside and knocks me off balance."},
+        {"zh": "我在找下一具尸体，或者下一根骨头。", "en": "I am looking for the next corpse or bone."},
+        {"zh": "我每走三十秒就停一下。", "en": "Every thirty seconds I pause in my walking."},
+        {"zh": "笼底的灰一路漏出来。", "en": "Ash leaks out through the bottom of my cage."},
+        {"zh": "我顺着地牢的走廊慢慢挪。", "en": "I creep slowly along the dungeon corridor."},
+        {"zh": "我的手脚比笼子还忙。", "en": "My hands and feet work harder than the cage."},
+        {"zh": "我踩到自己的铁链了。", "en": "I have stepped on my own chain again."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我停着，笼里的东西还在消化。", "en": "I stand still while my cage keeps digesting."},
+        {"zh": "我在数，还有多久到三十秒。", "en": "I count down the seconds to the thirtieth."},
+        {"zh": "南瓜灯在我头上晃，火苗很小。", "en": "The lantern sways above me, its flame tiny."},
+        {"zh": "我听着核心里的声音，很闷。", "en": "I listen to the muffled sounds inside my core."},
+        {"zh": "骨头在笼底堆了一层。", "en": "Bones have piled up along the cage floor."},
+        {"zh": "我不需要呼吸，但也停不下来。", "en": "I do not breathe, yet I cannot stay still."},
+        {"zh": "我在想上一只被我吸进去的东西。", "en": "I think about the last creature I absorbed."},
+        {"zh": "铁条上还挂着一点腐肉。", "en": "A scrap of rotten flesh still hangs on my bars."},
+        {"zh": "没有东西可吃，我就敲笼子。", "en": "With nothing to eat, I rattle my own cage."},
+        {"zh": "我歪着南瓜灯，看地上的影子。", "en": "I tilt my lantern and watch the shadows shift."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你身上的味道，我认得出火药。", "en": "I know the gunpowder smell on you."},
+        {"zh": "别把手伸进笼子，会少一根指头。", "en": "Do not reach into my cage; you will lose a finger."},
+        {"zh": "我抬头，南瓜灯正好照着你。", "en": "I look up and my lantern lands right on you."},
+        {"zh": "你是来送材料的吗。", "en": "Have you come to bring me materials?"},
+        {"zh": "我数你身上带了几根骨头。", "en": "I am counting the bones you carry."},
+        {"zh": "你站的位置，正是刷怪的好地方。", "en": "Where you stand is a fine spot for spawning."},
+        {"zh": "我在你身上闻到了烈焰棒。", "en": "I smell blaze rods somewhere on you."},
+        {"zh": "你不像尸体，但也可以试试。", "en": "You are no corpse, but we could try."},
+        {"zh": "我的核心在你面前转了一圈。", "en": "My core turns over once in front of you."},
+        {"zh": "别看笼子，看我的眼睛。", "en": "Do not look at the cage; look at my eyes."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "铁条弯了，但笼子还没散。", "en": "A bar is bent, but the cage still holds."},
+        {"zh": "你打的是笼子，不是里面的东西。", "en": "You strike the cage, not what is inside it."},
+        {"zh": "这一下把南瓜灯打歪了。", "en": "That blow has knocked my lantern crooked."},
+        {"zh": "骨头碎了几根，我还能走。", "en": "A few bones cracked; I can still walk."},
+        {"zh": "我的核心在笼里乱撞。", "en": "My core is bouncing wildly inside the cage."},
+        {"zh": "你听见铁条响了吗，很刺耳。", "en": "Did you hear the bars ring? It was shrill."},
+        {"zh": "打碎我之前，先想清楚谁在里面。", "en": "Before you break me, think about who is inside."},
+        {"zh": "我的腿断了一条，还有三条撑着。", "en": "One leg is broken; three still hold me up."},
+        {"zh": "这一击让我的消化停了一下。", "en": "That hit stopped my digestion for a moment."},
+        {"zh": "你把我打退了一步，铁链拖地。", "en": "You knock me back a step; my chain drags."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手里那块腐肉，扔过来。", "en": "Toss me that piece of rotten flesh."},
+        {"zh": "火药的味道让我挪不动腿。", "en": "The smell of gunpowder roots my legs."},
+        {"zh": "给我一根烈焰棒，我就放你走。", "en": "Give me a blaze rod and I will let you go."},
+        {"zh": "岩浆膏也行，我不挑。", "en": "Magma cream will do too; I am not picky."},
+        {"zh": "骨头，骨头，再多一点。", "en": "Bones, bones, and a few more bones."},
+        {"zh": "你把东西放下，我就安静。", "en": "Set it down and I will stay quiet."},
+        {"zh": "我的笼子在往前倾。", "en": "My cage is tipping forward toward you."},
+        {"zh": "那点灰我都要，别扫走。", "en": "I want even that ash; do not sweep it away."},
+        {"zh": "你退得太快，我会追的。", "en": "You retreat too fast; I will follow."},
+        {"zh": "我张开笼门，你放进来就好。", "en": "I open the cage door; just drop it in."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞在铁条上，声音很响。", "en": "You hit my bars and the sound rings out."},
+        {"zh": "这一撞，我整个笼子斜了过去。", "en": "That bump tips my whole cage onto one side."},
+        {"zh": "南瓜灯差点从头上掉下来。", "en": "My lantern nearly falls off my head."},
+        {"zh": "你的膝盖撞到了我的核心。", "en": "Your knee has struck my core."},
+        {"zh": "我身上的铁锈蹭了你一身。", "en": "Rust from my bars rubs off on you."},
+        {"zh": "四个人才推得动我，你一个不够。", "en": "It takes four to move me; you are not enough."},
+        {"zh": "我们卡在门口了，谁先退。", "en": "We are wedged in the doorway; who moves first?"},
+        {"zh": "这一下让我的腿打了个结。", "en": "That knock tangled two of my legs."},
+        {"zh": "铁条硌着你的肋骨了吧。", "en": "My bars must be digging into your ribs."},
+        {"zh": "别贴太近，笼门是开着的。", "en": "Do not press close; my cage door is open."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "两个笼子并排，就成了个大厅。", "en": "Two cages side by side make a hall."},
+        {"zh": "我们交换核心里的东西。", "en": "We trade what our cores have swallowed."},
+        {"zh": "她的南瓜灯比我的亮。", "en": "Her lantern burns brighter than mine."},
+        {"zh": "铁条碰铁条，就是我们的招呼。", "en": "Bars striking bars is how we greet."},
+        {"zh": "我们的孩子一开始只是颗火花。", "en": "Our child starts as nothing but a spark."},
+        {"zh": "两个笼子挤在一起会卡住。", "en": "Two cages pressed together will jam."},
+        {"zh": "我把最好的骨头分给她。", "en": "I give her the best of my bones."},
+        {"zh": "我们在黑暗里并排立着。", "en": "We stand side by side in the dark."},
+        {"zh": "她的核心转得比我快。", "en": "Her core spins faster than my own."},
+        {"zh": "分开时，我们各自带走一半灰。", "en": "When we part, we each carry half the ash."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我弯腰捡起那根骨头。", "en": "I bend down and pick up that bone."},
+        {"zh": "腐肉一进笼就化成了水。", "en": "The rotten flesh dissolves the moment it enters."},
+        {"zh": "我把火药收进核心旁边。", "en": "I tuck the gunpowder beside my core."},
+        {"zh": "那颗岩浆膏还是烫的。", "en": "That magma cream is still burning hot."},
+        {"zh": "掉在地上的东西，都归我的笼子。", "en": "Anything dropped on the floor belongs in my cage."},
+        {"zh": "我用脚趾夹起一根小骨。", "en": "I pinch a small bone between my toes."},
+        {"zh": "你掉的那块，我替你收着。", "en": "I will keep the piece you dropped."},
+        {"zh": "东西不够，我还是吞了。", "en": "It is not enough, but I swallow it anyway."},
+        {"zh": "我把烈焰棒立在笼子角落。", "en": "I stand the blaze rod in the cage corner."},
+        {"zh": "捡完之后，我舔了舔铁条。", "en": "After picking it up, I lick my bars."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你身上带的东西，正好都是我吃的。", "en": "Everything you carry happens to be my food."},
+        {"zh": "我锁定你了，三十秒后见。", "en": "You are marked; see you in thirty seconds."},
+        {"zh": "那只僵尸，味道应该不错。", "en": "That zombie should taste rather good."},
+        {"zh": "我先要你的骨头，再要你的火药。", "en": "First your bones, then your gunpowder."},
+        {"zh": "你站在刷怪笼旁边，太方便了。", "en": "You stand beside a spawner; how convenient."},
+        {"zh": "我的笼门已经朝你转过去了。", "en": "My cage door has already turned toward you."},
+        {"zh": "核心在跳，说明它想要你。", "en": "My core is pulsing; it wants you."},
+        {"zh": "那具骨架正合适做材料。", "en": "That skeleton makes suitable material."},
+        {"zh": "我不追快的，只追走不动的。", "en": "I do not chase the quick, only the stuck."},
+        {"zh": "你刚才打了我的笼子。", "en": "You struck my cage a moment ago."},
+        {"zh": "我闻到岩浆膏，就在你包里。", "en": "I smell magma cream in your pack."},
+        {"zh": "目标确定，笼子开始发烫。", "en": "Target confirmed; my cage begins to heat."},
+        {"zh": "那只苦力怕的灰，我要定了。", "en": "I will have that creeper's ash for certain."},
+        {"zh": "我把你划进了今晚的名单。", "en": "I have written you into tonight's list."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我盯着你，笼里的骨头在响。", "en": "I fix on you while my bones rattle."},
+        {"zh": "再等十秒，我就有帮手了。", "en": "Ten more seconds and I will have help."},
+        {"zh": "我的腿在你脚边慢慢挪。", "en": "My legs creep slowly toward your feet."},
+        {"zh": "墙角没有路，你只剩一个方向。", "en": "The corner leaves you only one direction to go."},
+        {"zh": "我没有眼睛，但我看得见你。", "en": "I have no eyes, yet I see you."},
+        {"zh": "南瓜灯的光圈缩到了你身上。", "en": "My lantern's ring of light shrinks onto you."},
+        {"zh": "我在等核心给出信号。", "en": "I wait for my core to give the signal."},
+        {"zh": "你手里的剑，我不怕。", "en": "That sword in your hand does not frighten me."},
+        {"zh": "我数到三，笼门就开。", "en": "I count to three and the door opens."},
+        {"zh": "你脚步一乱，我就知道机会来了。", "en": "Your steps falter, and I know my chance has come."},
+        {"zh": "铁条后面那双眼，一直对着你。", "en": "The eyes behind my bars never leave you."},
+        {"zh": "我先不出手，等你先挥空一次。", "en": "I hold back and let you swing at nothing first."},
+        {"zh": "这个距离，笼门一开就到。", "en": "At this distance, one open door reaches you."},
+        {"zh": "我把重心往前压了一点。", "en": "I have shifted my weight slightly forward."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "笼门一开，铁条就咬住了你。", "en": "The door opens and my bars bite into you."},
+        {"zh": "我用腿扫你的膝弯。", "en": "I sweep my leg against the back of your knee."},
+        {"zh": "这一撞，把你顶在墙上。", "en": "This shove pins you against the wall."},
+        {"zh": "我的笼角很硬。", "en": "The corner of my cage is very hard."},
+        {"zh": "骨头从笼缝里戳出去。", "en": "Bones jab out through the gaps in my cage."},
+        {"zh": "你被铁条划了一道。", "en": "My bars have opened a line on your arm."},
+        {"zh": "我不挥拳，我整个人撞。", "en": "I do not punch; I ram with my whole cage."},
+        {"zh": "三十秒到了，你还没跑掉。", "en": "Thirty seconds are up and you are still here."},
+        {"zh": "这一下是为了被你砸弯的铁条。", "en": "This one is for the bars you bent."},
+        {"zh": "我把你往笼门里带。", "en": "I drag you toward my open cage door."},
+        {"zh": "你打得动我，但推不动。", "en": "You can hit me, but you cannot push me."},
+        {"zh": "铁链甩出去，缠住你的脚。", "en": "My chain whips out and wraps your ankle."},
+        {"zh": "我踩住你的影子，也踩住了你。", "en": "I step on your shadow, and on you."},
+        {"zh": "笼子合拢的声音，你听见了。", "en": "You heard the sound of my cage closing."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "南瓜灯一亮，我就站了起来。", "en": "The lantern flares and I rise to my feet."},
+        {"zh": "三十秒到了，我的核心又动了。", "en": "Thirty seconds pass and my core stirs again."},
+        {"zh": "我从刷怪笼里长出了手脚。", "en": "I have grown hands and feet from the spawner."},
+        {"zh": "地牢里从此多了一个会走的笼子。", "en": "The dungeon now has a cage that walks."},
+        {"zh": "我刚被点起来，铁条还是凉的。", "en": "I was just lit, and my bars are still cold."},
+        {"zh": "我第一次用自己的腿站着。", "en": "I am standing on my own legs for the first time."},
+        {"zh": "核心里的东西还没醒。", "en": "What is inside my core has not woken yet."},
+        {"zh": "南瓜里的火苗照着我自己的铁条。", "en": "The flame in my pumpkin lights my own bars."},
+        {"zh": "我又该生成一个了。", "en": "It is time for me to spawn another."},
+        {"zh": "这间屋子，以后归我走。", "en": "This room is mine to walk from now on."},
+        {"zh": "我听见自己的笼子在响第一声。", "en": "I hear my own cage rattle for the first time."},
+        {"zh": "我从灰里站起，带着一身骨头。", "en": "I rise from the ash wearing a coat of bones."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "南瓜灯烧得更旺了，谢谢。", "en": "The flames on my lantern burn brighter; thank you."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "笼子摔开了个口，我漏了点灰。", "en": "The cage cracks open on impact and leaks ash."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进笼子，我的火在冒烟。", "en": "Water floods my cage and my flame smokes out."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把铁条吹弯成了一排牙。", "en": "The blast bends my bars into a row of teeth."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭卡在两根铁条中间。", "en": "The arrow lodges between two of my bars."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "药水泼进笼里，核心的颜色变了。", "en": "Potion spills into the cage and my core shifts color."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我空转着，三十秒一到还是照刷。", "en": "Empty, I still spawn something every thirty seconds."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打在铁条上，整笼都亮了。", "en": "Lightning strikes the bars and the whole cage glows."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空里我还在数那三十秒。", "en": "In the void I keep counting those thirty seconds."}
+      ]
+    }
+  }
+}

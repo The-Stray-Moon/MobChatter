@@ -1,0 +1,258 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把货背在背上，慢慢走。", "en": "My goods ride on my back as I walk."},
+        {"zh": "用爪子拍打地面", "en": "Tap the ground with paws"},
+        {"zh": "摇摇晃晃地走着", "en": "Shuffle along"},
+        {"zh": "盯着你看了一会儿", "en": "Stare at you for a while"},
+        {"zh": "嗅嗅周围的空气", "en": "Sniff the air around"},
+        {"zh": "慢吞吞地走过", "en": "Move slowly by"},
+        {"zh": "舔了舔嘴巴", "en": "Lick lips"},
+        {"zh": "摊子摆好了，等人来换。", "en": "My stall is set; I wait for a trade."},
+        {"zh": "轻声咕噜着", "en": "Murmur softly"},
+        {"zh": "我闻闻你的手，有没有刷怪蛋。", "en": "I sniff your hand for a spawn egg."},
+        {"zh": "踩着落叶慢慢踱步", "en": "It ambles over the fallen leaves."},
+        {"zh": "把背在树上蹭两下", "en": "It rubs its back against a tree."},
+        {"zh": "跟在你后面走一段", "en": "It trails a few paces behind you."},
+        {"zh": "低头闻闻你留下的脚印", "en": "It sniffs at your footprints."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "慵懒地躺在地上", "en": "Lie lazily on ground"},
+        {"zh": "打个长长的哈欠", "en": "Yawn widely"},
+        {"zh": "晒着太阳打盹", "en": "Nap in sun"},
+        {"zh": "伸伸懒腰", "en": "Stretch lazily"},
+        {"zh": "舔着前爪", "en": "Lick front paws"},
+        {"zh": "摆弄着胡须", "en": "Play with whiskers"},
+        {"zh": "商人身边的熊，打了个盹。", "en": "The merchant's bear dozed off."},
+        {"zh": "用前爪挠头", "en": "Scratch head with paw"},
+        {"zh": "嚼着一根树枝", "en": "Chew on a stick"},
+        {"zh": "磨磨牙齿", "en": "Teeth clash together"},
+        {"zh": "一屁股坐在地上", "en": "It plops down on its rump."},
+        {"zh": "抓抓脖子上的毛", "en": "It scratches the fur at its neck."},
+        {"zh": "翻找树根边的蘑菇", "en": "It nuzzles for mushrooms by the roots."},
+        {"zh": "盯着树上的蜜蜂发呆", "en": "It stares off at the bees in the tree."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我数过你腰上的东西，能换。", "en": "I've counted what hangs at your belt; it can be traded."},
+        {"zh": "让我看看你口袋里有什么。", "en": "Let me see what is in your pockets."},
+        {"zh": "你要买什么？先把货拿出来。", "en": "What are you buying? Put the goods out first."},
+        {"zh": "摇摇尾巴表示友好", "en": "Wag tail in greeting"},
+        {"zh": "围着你看一圈", "en": "Circle around you"},
+        {"zh": "好奇地走近", "en": "Curiously approach"},
+        {"zh": "闻闻我，我不咬人。", "en": "Sniff me — I don't bite."},
+        {"zh": "轻轻摇动身体", "en": "Gently sway body"},
+        {"zh": "用鼻子触碰你", "en": "Touch you with nose"},
+        {"zh": "表现出警惕", "en": "Show alertness"},
+        {"zh": "抬头看你手里的东西", "en": "It looks up at what you hold."},
+        {"zh": "慢慢挪到你旁边坐下", "en": "It shuffles over and sits by you."},
+        {"zh": "用鼻子闻你的袖子", "en": "It sniffs at your sleeve."},
+        {"zh": "它把手搭在你腿上", "en": "It rests a paw on your leg."},
+        {"zh": "见你蹲下就凑过来", "en": "When you crouch, it wanders over."},
+        {"zh": "它围着你嗅了一圈", "en": "It snuffles a full circle around you."},
+        {"zh": "你说话时它歪着头", "en": "It tilts its head when you speak."},
+        {"zh": "它记住了你的味道", "en": "It has learned your scent."},
+        {"zh": "看你不走，它也留下", "en": "Seeing you stay, it stays too."},
+        {"zh": "它用脑袋顶你的手", "en": "It pushes its head into your hand."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "受伤了，真疼……", "en": "That hurts..."},
+        {"zh": "哎呀，受伤了……", "en": "Ouch, injured..."},
+        {"zh": "受伤了，需要休息……", "en": "Injured, need rest..."},
+        {"zh": "受点小伤，别担心……", "en": "Just a little hurt, don't worry..."},
+        {"zh": "伤口还在隐隐作痛……", "en": "The wound still hurts..."},
+        {"zh": "受伤了，得治治……", "en": "Injured, need to be fixed..."},
+        {"zh": "被什么东西咬了……", "en": "Bitten by something..."},
+        {"zh": "伤口有些疼……", "en": "Wound hurts..."},
+        {"zh": "受点小伤，慢慢恢复……", "en": "Just a little hurt, recover slowly..."},
+        {"zh": "它低声哼着蹭你的手", "en": "It whines softly and noses your hand."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘿，吃胡萝卜吧！", "en": "Hey, have some carrot!"},
+        {"zh": "这面包真香呢！", "en": "This bread smells good!"},
+        {"zh": "别看我，我在做梦呢！", "en": "Don't look at me, I'm dreaming!"},
+        {"zh": "快给我吃胡萝卜！", "en": "Give me a carrot!"},
+        {"zh": "我喜欢吃甜薯！", "en": "I like potatoes!"},
+        {"zh": "你快来看看我的商店！", "en": "Come see my shop!"},
+        {"zh": "你看我的小熊宝宝多可爱！", "en": "Look at my cute baby bear!"},
+        {"zh": "我要吃面包！", "en": "I want bread!"},
+        {"zh": "你帮我看着，我去拿面包！", "en": "Watch me, I'll get the bread!"},
+        {"zh": "我饿了，给点胡萝卜吧！", "en": "I'm hungry, give me a carrot!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "小心点，我脾气不好！", "en": "Watch out, I'm grumpy!"},
+        {"zh": "我这一身棕毛不许人摸！", "en": "Nobody pets this brown coat of mine!"},
+        {"zh": "闪开，我正忙着！", "en": "Move, I'm busy!"},
+        {"zh": "快让开，我要去喝水！", "en": "Move, I'm going to drink!"},
+        {"zh": "别挡道，我走我的！", "en": "Don't block me, I'm passing!"},
+        {"zh": "离我远点，我要睡觉！", "en": "Stay away, I'm sleeping!"},
+        {"zh": "你挡我的路了！", "en": "You're blocking my way!"},
+        {"zh": "让一让，我要喝水！", "en": "Make way, I'm thirsty!"},
+        {"zh": "别碰我的东西！", "en": "Don't touch my stuff!"},
+        {"zh": "别跟着我，烦人！", "en": "Don't follow me, you're annoying!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "快来帮我找伴吧！", "en": "Come help me find a mate!"},
+        {"zh": "找个伴儿，我们一起去玩！", "en": "Find a mate, we'll play together!"},
+        {"zh": "快点，我要找伴了！", "en": "Hurry, I'm looking for a mate!"},
+        {"zh": "找伴儿，找伴儿！", "en": "Find a mate, find a mate!"},
+        {"zh": "有伴儿才好玩！", "en": "More fun with a mate!"},
+        {"zh": "快来陪我玩吧！", "en": "Come play with me!"},
+        {"zh": "找个伴儿，我们一起去！", "en": "Find a mate, let's go together!"},
+        {"zh": "快帮我找伴儿！", "en": "Help me find a mate!"},
+        {"zh": "找个伴儿，一起快乐！", "en": "Find a mate, be happy together!"},
+        {"zh": "快来，我要找伴儿！", "en": "Come, I'm looking for a mate!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "用铃铛喂我，我会长大！", "en": "Feed me with a bell, I'll grow up!"},
+        {"zh": "听到铃声我就来了！", "en": "I come when I hear the bell."},
+        {"zh": "铃铛是我的最爱食物！", "en": "Bell is my favorite food."},
+        {"zh": "栖息在林间，吃树叶度日！", "en": "I live in the forest, eating leaves."},
+        {"zh": "我最爱吃甜食和铃铛！", "en": "I love sweet food and bells."},
+        {"zh": "你用铃铛能买到我！", "en": "I can be bought with a bell."},
+        {"zh": "铃铛是我的家当，也是食物！", "en": "Bell is my home and food."},
+        {"zh": "用铃铛交易，我为你服务！", "en": "Trade with a bell, and I'll serve you."},
+        {"zh": "听到铃声，我就会来！", "en": "I come when I hear the bell."},
+        {"zh": "用铃铛引我驯服！", "en": "Use the bell to tame me!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "驯服过熊的人，也怕我这声咕噜。", "en": "You tamed a bear, yet my growl still scares you."},
+        {"zh": "铃声就是我的召唤！", "en": "Bell calls me."},
+        {"zh": "听到铃声就出发！", "en": "Go when you hear the bell."},
+        {"zh": "铃声就是我的命令！", "en": "Bell is my command."},
+        {"zh": "来吧，我被你召唤了！", "en": "Here, I'm summoned by you."},
+        {"zh": "铃声，我的回应！", "en": "Bell, my answer."},
+        {"zh": "听到铃声，我来了！", "en": "I come when I hear the bell."},
+        {"zh": "铃声就是我的号令！", "en": "Bell is my order."},
+        {"zh": "听到铃声就来救我！", "en": "Come when you hear the bell."},
+        {"zh": "铃声就是我的命令符！", "en": "Bell is my command symbol."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕噜噜，准备好了！", "en": "Rumble, ready."},
+        {"zh": "铃声就是我的信号！", "en": "Bell is my signal."},
+        {"zh": "听到铃声，我来了", "en": "I come when I hear the bell"},
+        {"zh": "铃声召唤我行动！", "en": "Bell calls me to action."},
+        {"zh": "听到铃声就来帮助！", "en": "Come when you hear the bell to help."},
+        {"zh": "铃声就是我的信号灯！", "en": "Bell is my signal."},
+        {"zh": "铃声就是我的指令！", "en": "Bell is my command."},
+        {"zh": "铃声就是我的召唤声！", "en": "Bell is my call."},
+        {"zh": "它站稳了身子等你", "en": "It plants its feet and waits for you."},
+        {"zh": "爪子搭在你肩上", "en": "It rests its paws on your shoulder."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低吼一声，准备扑倒你！", "en": "Roar low, ready to tackle you!"},
+        {"zh": "咆哮着冲向你！", "en": "Charge at you with a growl!"},
+        {"zh": "准备用爪子抓住你！", "en": "Ready to grab you with claws!"},
+        {"zh": "用熊掌拍打地面！", "en": "Slap the ground with paws!"},
+        {"zh": "狠狠地咬一口！", "en": "Take a big bite!"},
+        {"zh": "用熊掌击打你！", "en": "Pound you with paws!"},
+        {"zh": "咆哮着发起攻击！", "en": "Launch attack with a roar!"},
+        {"zh": "用鼻子推你！", "en": "Push you with nose!"},
+        {"zh": "我尾巴一甩，刷怪蛋差点掉。", "en": "My tail swings; the spawn eggs nearly fall."},
+        {"zh": "用大熊掌攻击你！", "en": "Attack with big paws!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "在树洞里醒来！", "en": "Awake in tree洞!"},
+        {"zh": "在森林中觅食！", "en": "Forage in forest!"},
+        {"zh": "在山谷中游荡！", "en": "Roam in valley!"},
+        {"zh": "在河边饮水！", "en": "Drink by river!"},
+        {"zh": "在雪地里打滚！", "en": "Roll in snow!"},
+        {"zh": "在草地里打盹！", "en": "Doze in grass!"},
+        {"zh": "在灌木丛中玩耍！", "en": "Play in bushes!"},
+        {"zh": "在洞穴中睡觉！", "en": "Sleep in cave!"},
+        {"zh": "在石头旁休息！", "en": "Rest by stone!"},
+        {"zh": "在阳光下打盹！", "en": "Doze in sunlight!"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被火烧伤了……", "en": "Burned by fire..."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉下去摔伤了……", "en": "Fell and got hurt..."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进水里淹伤了……", "en": "Drowned in water..."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被爆炸震伤了……", "en": "Injured by explosion..."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被射伤了……", "en": "Hit by projectile..."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被魔法伤了……", "en": "Injured by magic..."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "受伤了，真疼，挨饿的滋味可不好受。", "en": "That hurts — and the starvation makes it worse."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被闪电击伤了……", "en": "Struck by lightning..."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进虚空中摔伤了……", "en": "Fell into void..."}
+      ]
+    }
+  }
+}

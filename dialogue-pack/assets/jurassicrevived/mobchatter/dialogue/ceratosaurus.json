@@ -1,0 +1,244 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我踩着腐叶走", "en": "I walk over rotting leaves."},
+        {"zh": "角在树影下一闪", "en": "My horn glints in the shadows."},
+        {"zh": "我穿过藤蔓", "en": "I push through the vines."},
+        {"zh": "我在林下走得很慢", "en": "I move slowly under the canopy."},
+        {"zh": "尾巴扫开蕨叶", "en": "My tail pushes the ferns aside."},
+        {"zh": "我沿着兽径走", "en": "I follow a game trail."},
+        {"zh": "我从树根上跨过", "en": "I step over a root."},
+        {"zh": "我一边走一边嗅地面", "en": "I sniff the ground as I move."},
+        {"zh": "林子太密了", "en": "The forest is too dense."},
+        {"zh": "我低头钻过树枝", "en": "I duck under a branch."},
+        {"zh": "我在等光线暗下来", "en": "I wait for the light to dim."},
+        {"zh": "我绕着水洼走", "en": "I walk around a puddle."},
+        {"zh": "我贴着树干过去", "en": "I pass close to a trunk."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站在蕨丛里", "en": "I stand among the ferns."},
+        {"zh": "丛林很闷", "en": "The jungle is stifling."},
+        {"zh": "我的鼻角有点痒", "en": "My nose horn itches."},
+        {"zh": "我听见树上有什么", "en": "I hear something in the trees."},
+        {"zh": "我在等一个不小心", "en": "I wait for one careless move."},
+        {"zh": "湿气贴在皮上", "en": "The damp clings to my hide."},
+        {"zh": "我慢慢张嘴", "en": "I open my jaws slowly."},
+        {"zh": "叶子盖住了我的尾巴", "en": "Leaves cover my tail."},
+        {"zh": "这里的味道太杂", "en": "There are too many smells here."},
+        {"zh": "我换了个姿势", "en": "I shift my stance."},
+        {"zh": "我在听远处的鸟", "en": "I listen to the birds."},
+        {"zh": "我没有走近路", "en": "I do not take the easy path."},
+        {"zh": "苔藓很滑", "en": "The moss is slippery."},
+        {"zh": "我甩了甩头上的水", "en": "I shake the water off my head."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的味道盖不住", "en": "You cannot hide your smell."},
+        {"zh": "你踩的蕨叶还在回弹，我看见了。", "en": "The fern you stepped on is still springing back."},
+        {"zh": "你手上的东西不够长", "en": "What you hold is not long enough."},
+        {"zh": "丛林里走路要听声", "en": "In the jungle you must listen."},
+        {"zh": "我从树后面出来", "en": "I come out from behind the tree."},
+        {"zh": "你在发抖吗", "en": "Are you trembling?"},
+        {"zh": "我闻着你的味道", "en": "I am taking your scent."},
+        {"zh": "我等你走一步", "en": "I wait for you to take a step."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你割破了我的皮", "en": "You cut my hide."},
+        {"zh": "我的腿有点疼", "en": "My leg hurts."},
+        {"zh": "鼻角下面发出低吼", "en": "A growl comes from under my horn."},
+        {"zh": "叶子被我撞得乱飞", "en": "Leaves flew as I moved."},
+        {"zh": "这一下很深", "en": "That one went deep."},
+        {"zh": "我两条腿还撑着", "en": "Both my legs still hold me."},
+        {"zh": "血滴在苔藓上", "en": "Blood drips on the moss."},
+        {"zh": "伤口的血腥味，只会让我更快。", "en": "The blood from my wound only makes me faster."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手里的东西在滴", "en": "What you hold is dripping."},
+        {"zh": "血腥味混着湿泥，我鼻角发颤。", "en": "Blood mixes with wet mud and my nose horn twitches."},
+        {"zh": "我朝你这边偏过头", "en": "I tilt my head your way."},
+        {"zh": "这股味道很浓", "en": "This smell is strong."},
+        {"zh": "别把它藏起来", "en": "Do not hide it."},
+        {"zh": "丛林里我吃得杂。", "en": "In the jungle, I'll eat anything."},
+        {"zh": "我慢慢过来了", "en": "I am coming over slowly."},
+        {"zh": "鼻角的影子一晃，我闻到了肉。", "en": "My horn's shadow shifts — I smell meat."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上我的胸口", "en": "You hit my chest."},
+        {"zh": "我在原地没动", "en": "I stayed exactly where I was."},
+        {"zh": "树上落下一片叶子", "en": "A leaf fell from the tree."},
+        {"zh": "我的皮很厚", "en": "My hide is thick."},
+        {"zh": "你被顶开了", "en": "You are shoved aside."},
+        {"zh": "我转过头", "en": "I turned my head."},
+        {"zh": "藤蔓被我们扯断了", "en": "We tore the vines."},
+        {"zh": "我们贴着树站着", "en": "We stood pressed to the trunk."},
+        {"zh": "你再撞也一样", "en": "Bump again, same result."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "丛林里没人看", "en": "No one watches in the jungle."},
+        {"zh": "脚印会被雨水冲掉", "en": "The rain will wash the prints away."},
+        {"zh": "我们都很湿", "en": "We are both soaked."},
+        {"zh": "别把树枝弄断", "en": "Do not break the branches."},
+        {"zh": "我之后还要猎食", "en": "I still have to hunt after."},
+        {"zh": "我不喜欢说话", "en": "I do not like to talk."},
+        {"zh": "很快就好了", "en": "It will be over quickly."},
+        {"zh": "走吧", "en": "Go."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这块肉我吃了", "en": "I am eating this meat."},
+        {"zh": "我咬起来就走", "en": "I bite it and go."},
+        {"zh": "掉在蕨叶上的也算我的", "en": "What falls on the ferns is mine."},
+        {"zh": "两口就没了", "en": "Two bites and it is gone."},
+        {"zh": "这骨头我能咬碎", "en": "I can crush this bone."},
+        {"zh": "我鼻上的角，只是一块骨头。", "en": "The horn on my snout is only bone."},
+        {"zh": "不够", "en": "Not enough."},
+        {"zh": "苔藓盖住了它", "en": "The moss hid it."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你惊动了林子", "en": "You disturbed the forest."},
+        {"zh": "你退到蕨丛里也没用", "en": "Retreating into the ferns will not help."},
+        {"zh": "我朝你那边低头", "en": "I lower my head your way."},
+        {"zh": "丛林里我比你熟", "en": "I know this jungle better than you."},
+        {"zh": "我在树影里", "en": "I am in the tree shadows."},
+        {"zh": "我绕过藤蔓，从树影里探头。", "en": "I round the vines and poke my head from the tree shadow."},
+        {"zh": "你只有一条退路", "en": "You have only one way back."},
+        {"zh": "那条路我占着", "en": "And I hold it."},
+        {"zh": "别转身", "en": "Do not turn."},
+        {"zh": "一点点靠近，爪子先落下。", "en": "Closing in slowly. Claws land first."},
+        {"zh": "你的呼吸声藏不住", "en": "Your breathing gives you away."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "丛林太厚，你听不见我的脚步。", "en": "The jungle's thick — you can't hear my steps."},
+        {"zh": "蕨叶挡着你的视线", "en": "The ferns block your view."},
+        {"zh": "我在等你的灯往下照", "en": "I wait for your lamp to dip."},
+        {"zh": "你的脚陷进泥里", "en": "Your feet sink into the mud."},
+        {"zh": "这一段林子很窄", "en": "This part of the wood is narrow."},
+        {"zh": "我贴着水洼走", "en": "I move along the puddle."},
+        {"zh": "你的味道在前面", "en": "Your scent is ahead."},
+        {"zh": "我每绕一步就更近", "en": "Every step of my circle brings me closer."},
+        {"zh": "树上落着水", "en": "Water falls from the leaves."},
+        {"zh": "你换了几次方向", "en": "You changed direction a few times."},
+        {"zh": "我在你侧面", "en": "I am at your flank."},
+        {"zh": "这一片很暗", "en": "This stretch is very dark."},
+        {"zh": "我就在这棵树后面", "en": "I am behind this tree."},
+        {"zh": "再近一点就能咬到", "en": "A little closer and I can bite."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我冲出来撞你", "en": "I burst out and ram you."},
+        {"zh": "角划开你的衣服", "en": "My horn tears your clothes."},
+        {"zh": "我咬住你的腰", "en": "I bite your side."},
+        {"zh": "你被抵在树上", "en": "You are pinned against the tree."},
+        {"zh": "我的牙很利", "en": "My teeth are sharp."},
+        {"zh": "这一下没落空", "en": "That did not miss."},
+        {"zh": "你被拖进泥里", "en": "You are dragged into the mud."},
+        {"zh": "我从侧面咬你", "en": "I bite from the side."},
+        {"zh": "你的刀被撞开", "en": "Your blade is knocked away."},
+        {"zh": "你又退了一步", "en": "You took another step back."},
+        {"zh": "我再咬一次", "en": "I bite again."},
+        {"zh": "泥把你绊住了", "en": "The mud caught you."},
+        {"zh": "我压住你的腿", "en": "I pin your leg."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我抖掉背上的叶子", "en": "I shake the leaves off my back."},
+        {"zh": "这里的水汽很重", "en": "The humidity is heavy here."},
+        {"zh": "林子里出来三只", "en": "Three of us came out of the wood."},
+        {"zh": "我踩进软泥", "en": "My feet sink into soft mud."},
+        {"zh": "树冠挡住了太阳", "en": "The canopy hides the sun."},
+        {"zh": "我的角碰到树枝", "en": "My horn touched a branch."},
+        {"zh": "苔藓上留了我的脚印", "en": "My prints show in the moss."},
+        {"zh": "远处的鸟惊飞了", "en": "Birds flew up in the distance."},
+        {"zh": "我伏进蕨丛里", "en": "I sink into the ferns."},
+        {"zh": "我在这片林子里扎下脚", "en": "I settle into this stretch of jungle."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "湿气也挡不住这火", "en": "The damp does not stop this fire."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "斜坡太滑，我整个滑进了蕨丛。", "en": "The slope is slick and I slide into the ferns."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "泥水灌进我的嘴里", "en": "Muddy water pours into my mouth."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "树枝全被炸断了", "en": "The branches were blasted apart."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭插在我的侧腹", "en": "An arrow is in my flank."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "林子里那道光刺得我发昏", "en": "That light in the jungle dazes me."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "林子里找不到吃的", "en": "Nothing to eat in this jungle."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈断了我旁边的大树", "en": "Lightning split the tree beside me."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "连根带叶都没了", "en": "Roots and leaves are gone."}
+      ]
+    }
+  }
+}

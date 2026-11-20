@@ -1,0 +1,271 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔宠低吼前行", "en": "Familiar rumbles forward"},
+        {"zh": "沙哑低吟，前行不息", "en": "Raspy chant, moves on"},
+        {"zh": "魔咒般低语，脚步不停", "en": "Mystical murmurs, feet keep moving"},
+        {"zh": "嘶嘶声中踏步前行", "en": "Steps forward with hiss"},
+        {"zh": "幽光闪烁，缓慢前行", "en": "Glows faintly, moves slowly"},
+        {"zh": "轻声吟唱，稳步前行", "en": "Chants softly, steps steadily"},
+        {"zh": "低声咒语，脚步轻盈", "en": "Whispering incantations, light steps"},
+        {"zh": "低吟咒语，缓缓前行", "en": "Chants softly, moves slowly"},
+        {"zh": "细语间前行", "en": "Whispers, moves on"},
+        {"zh": "咕噜声中前行", "en": "Gurgles, moves forward"},
+        {"zh": "爪尖蹭着深暗石前行", "en": "Claws rasp along the deepslate"},
+        {"zh": "悄悄跟在你三步之后", "en": "It trails three steps behind you"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低垂双眼，默默等待", "en": "Low eyes, silent wait"},
+        {"zh": "微眯双眼，静候命令", "en": "Slightly squinted eyes, waiting"},
+        {"zh": "微张嘴，轻声呢喃", "en": "Mouth slightly open, whispering"},
+        {"zh": "静默中低语", "en": "Whispers in silence"},
+        {"zh": "默默凝视，等待指示", "en": "Stares silently, awaiting instructions"},
+        {"zh": "轻语间静候", "en": "Whispers, waits quietly"},
+        {"zh": "低语声中沉思", "en": "Whispers, ponders"},
+        {"zh": "轻声吟唱，静候命令", "en": "Chants softly, awaits command"},
+        {"zh": "低声呢喃，静候指示", "en": "Whispers softly, awaits instructions"},
+        {"zh": "低声语，静候行动", "en": "Whispers, awaits action"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "目光锐利，注视玩家", "en": "Sharp eyes, staring at the player"},
+        {"zh": "目光灼灼，紧盯着玩家", "en": "Intense gaze, fixes on the player"},
+        {"zh": "凝视玩家，等待指令", "en": "Stares at the player, awaiting instructions"},
+        {"zh": "目光如炬，盯紧玩家", "en": "Bright eyes, fixed on the player"},
+        {"zh": "目光聚焦，注视玩家", "en": "Focused gaze, on the player"},
+        {"zh": "注视玩家，轻声吟唱", "en": "Stares at the player, whispers"},
+        {"zh": "目光闪烁，注视玩家", "en": "Gleaming eyes, staring at the player"},
+        {"zh": "凝视玩家，低声低语", "en": "Stares at the player, whispers softly"},
+        {"zh": "注视玩家，低吟咒语", "en": "Stares at the player, chants softly"},
+        {"zh": "目光如炬，锁定玩家", "en": "Glinting eyes, locking on the player"},
+        {"zh": "抬头等你掏出源质", "en": "It looks up, waiting for essence"},
+        {"zh": "盯着你的魔宠宝典", "en": "It stares at your Familiar Tome"},
+        {"zh": "侧耳听你念的咒", "en": "It tilts an ear to your spell"},
+        {"zh": "它记得你救过它", "en": "It remembers you healed it"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "身体虚弱，主人快给我加点药！", "en": "Weak, give me a potion, master!"},
+        {"zh": "主人，我需要休息！", "en": "I need rest, master!"},
+        {"zh": "我受伤了，需要治疗！", "en": "I’m hurt, need healing!"},
+        {"zh": "我需要魔法的力量！", "en": "Need magic power!"},
+        {"zh": "主人，我需要食物！", "en": "Need food, master!"},
+        {"zh": "请用我的魔宠宝典！", "en": "Use my familiar book!"},
+        {"zh": "主人快来帮我，我受伤了！", "en": "Master, help, I’m hurt!"},
+        {"zh": "请带我去床上休息！", "en": "Take me to my bed!"},
+        {"zh": "主人，我的爪子裂了", "en": "Master, my claw is split"},
+        {"zh": "让我进宝典里缓一会", "en": "Let me rest inside the Tome"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被法术吸引，你无法忽视。", "en": "Spellbound, you can't resist."},
+        {"zh": "看到魔力，它蠢蠢欲动。", "en": "It licks its lips at the magic."},
+        {"zh": "你散发的光芒让它困惑。", "en": "Its eyes glaze over at your light."},
+        {"zh": "它对你心生欲望。", "en": "Desire stirs within it."},
+        {"zh": "你身上的奥术源质让它兴奋。", "en": "It gets excited by the Orbs on you."},
+        {"zh": "看到你，它跃跃欲试。", "en": "It's eager for a taste of you."},
+        {"zh": "魔宠宝典里，它渴望自由。", "en": "In its Tome, it longs for freedom."},
+        {"zh": "你手中的魔杖让它更加兴奋。", "en": "Its excitement peaks with your staff."},
+        {"zh": "它想吞噬你的力量。", "en": "It wants to consume your power."},
+        {"zh": "你的一举一动都在它的注意中。", "en": "It watches you intently."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它的攻击撞上了你的法术。", "en": "Its attack collides with your spell."},
+        {"zh": "你挥剑，它撞飞你的攻击。", "en": "It deflects your sword with a crash."},
+        {"zh": "你释放法术，它挡在前面。", "en": "It blocks your spell with its body."},
+        {"zh": "它一头撞向你的护盾。", "en": "It crashes into your shield."},
+        {"zh": "你躲闪，它撞上你同伴。", "en": "It bashes your companion's shield."},
+        {"zh": "你的箭矢撞上它的鳞甲。", "en": "Its scales deflect your arrows."},
+        {"zh": "你用魔杖，它撞碎你的法术。", "en": "It shatters your spell with its staff."},
+        {"zh": "你释放毒药，它撞得你措手不及。", "en": "It catches you off guard with poison."},
+        {"zh": "你试图躲避，但它撞上了你。", "en": "It crashes into you despite your dodge."},
+        {"zh": "它的撞击力量惊人。", "en": "Its impact is powerful."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它寻找同类进行交配。", "en": "It seeks a mate to breed."},
+        {"zh": "它发出求偶的叫声。", "en": "It calls for a mate."},
+        {"zh": "它渴望繁衍后代。", "en": "It desires to procreate."},
+        {"zh": "它在深暗之域寻找伴侣。", "en": "It searches for a mate in the deep dark."},
+        {"zh": "它与同类交配后安静下来。", "en": "It calms down after mating."},
+        {"zh": "它的叫声引来另一只唤魔师魔宠。", "en": "Its call attracts another Summoner Familiar."},
+        {"zh": "同类的出现让它兴奋。", "en": "Its presence excites it."},
+        {"zh": "它闻到了同类的气息。", "en": "It detects another's scent."},
+        {"zh": "它为后代寻找一个温暖的巢穴。", "en": "It seeks a warm nest for its offspring."},
+        {"zh": "它把窝让给别的魔宠", "en": "It gives up its nest to another familiar"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕噜咕噜，你就是我的新主人？", "en": "Gurgle, you're my new master?"},
+        {"zh": "咕噜咕噜，跟我走吧。", "en": "Gurgle, follow me."},
+        {"zh": "咕噜咕噜，我有魔法可以保护你。", "en": "Gurgle, I have magic to protect you."},
+        {"zh": "咕噜咕噜，你给了我奥术源质吗？", "en": "Gurgle, did you give me the Arcane Essence?"},
+        {"zh": "咕噜咕噜，深暗之域是我的家。", "en": "Gurgle, this is my home, the Deep Dark."},
+        {"zh": "咕噜咕噜，快把食物给我。", "en": "Gurgle, give me some food."},
+        {"zh": "咕噜咕噜，我们一起去战斗。", "en": "Gurgle, let's go fight together."},
+        {"zh": "咕噜咕噜，用床让我休息。”", "en": "Gurgle, use the bed to rest me."},
+        {"zh": "咕噜咕噜，我需要你的帮助。”", "en": "Gurgle, I need your help."},
+        {"zh": "咕噜咕噜，这里没有我需要的。”", "en": "Gurgle, there's nothing I need here."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕噜咕噜，我要攻击它。”", "en": "Gurgle, I'm attacking it."},
+        {"zh": "咕噜咕噜，你看到了吗？”", "en": "Gurgle, did you see it?"},
+        {"zh": "咕噜咕噜，它的血很鲜美。”", "en": "Gurgle, its blood is fresh."},
+        {"zh": "咕噜咕噜，我要把它干掉。”", "en": "Gurgle, I'm going to take it out."},
+        {"zh": "咕噜咕噜，不要接近我。”", "en": "Gurgle, stay away from me."},
+        {"zh": "咕噜咕噜，我的法术要准备好了。”", "en": "Gurgle, my spell is ready."},
+        {"zh": "咕噜咕噜，我已经瞄准了。”", "en": "Gurgle, I've targeted it."},
+        {"zh": "咕噜咕噜，让我们一起战斗。”", "en": "Gurgle, let's fight together."},
+        {"zh": "咕噜咕噜，它很危险。”", "en": "Gurgle, it's dangerous."},
+        {"zh": "咕噜咕噜，小心它的攻击。”", "en": "Gurgle, beware its attack."},
+        {"zh": "主人，那个在动！", "en": "Master, that one moved!"},
+        {"zh": "我嗅到它的魔力了", "en": "I smell its magic"},
+        {"zh": "让我先扑上去", "en": "Let me lunge first"},
+        {"zh": "那只归我，别抢", "en": "That one is mine, don't take it"},
+        {"zh": "它背对着我们", "en": "Its back is to us"},
+        {"zh": "这一箭我来挡", "en": "I'll block that arrow"},
+        {"zh": "它在念咒，快打断", "en": "It's casting. Break it now"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕噜咕噜，我要盯紧它。”", "en": "Gurgle, I'll keep my eye on it."},
+        {"zh": "咕噜咕噜，让它无法逃脱。”", "en": "Gurgle, don't let it escape."},
+        {"zh": "咕噜咕噜，我要锁定目标。”", "en": "Gurgle, I'm locking onto the target."},
+        {"zh": "咕噜咕噜，你把它牵制住。”", "en": "Gurgle, hold it off."},
+        {"zh": "咕噜咕噜，保持警戒。”", "en": "Gurgle, stay alert."},
+        {"zh": "咕噜咕噜，我会来支援你。”", "en": "Gurgle, I'll back you up."},
+        {"zh": "咕噜咕噜，小心它的魔法。”", "en": "Gurgle, beware its magic."},
+        {"zh": "咕噜咕噜，我来引开它。”", "en": "Gurgle, I'll draw it away."},
+        {"zh": "咕噜咕噜，注意它的动作。”", "en": "Gurgle, watch its movements."},
+        {"zh": "咕噜咕噜，我们合作。”", "en": "Gurgle, we work together."},
+        {"zh": "我绕到它侧边了", "en": "I'm on its flank"},
+        {"zh": "它只会打正面", "en": "It only strikes straight ahead"},
+        {"zh": "我把幽光压低了", "en": "I keep my glow low"},
+        {"zh": "它没看见我的脚印", "en": "It hasn't seen my tracks"},
+        {"zh": "数三下我就冲", "en": "On three, I charge"},
+        {"zh": "它往黑暗里退了", "en": "It's backing into the dark"},
+        {"zh": "我的爪钩住它了", "en": "My claws have hooked it"},
+        {"zh": "它喘得比我厉害", "en": "It's panting harder than I am"},
+        {"zh": "再近一点就够到", "en": "One more step and it's in reach"},
+        {"zh": "我替你看住后路", "en": "I'm watching your back"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶嘶，咬你一口！", "en": "Sssss, bite you!"},
+        {"zh": "嘶嘶，尝尝我的牙齿！", "en": "Sss, feel my fangs!"},
+        {"zh": "嘶嘶，别动！", "en": "Sss, don't move!"},
+        {"zh": "嘶嘶嘶，尝尝我的利爪！", "en": "Sssss, feel my claws!"},
+        {"zh": "嘶嘶，我的毒液会让你痛苦！", "en": "Sss, my venom will hurt you!"},
+        {"zh": "嘶嘶，你跑不掉的！", "en": "Sss, you won't escape!"},
+        {"zh": "嘶嘶，小心我的利牙！", "en": "Sss, beware my sharp teeth!"},
+        {"zh": "嘶嘶，尝尝我的咬合力！", "en": "Sss, feel my biting power!"},
+        {"zh": "深暗之域教会我这招。", "en": "The deep dark taught me this move."},
+        {"zh": "嘶嘶，你死定了！", "en": "Sss, you're doomed!"},
+        {"zh": "爪子先到，魔法后到", "en": "Claws first, magic after"},
+        {"zh": "我咬住它的袖口了", "en": "I've got its sleeve in my teeth"},
+        {"zh": "这口带着奥术味", "en": "This bite tastes of arcane"},
+        {"zh": "它被我掀翻了", "en": "I've knocked it over"},
+        {"zh": "别碰我的主人！", "en": "Don't touch my master!"},
+        {"zh": "深暗石替我垫脚", "en": "The deepslate gives me footing"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黑暗中，我来了！", "en": "Out of the darkness, I come!"},
+        {"zh": "深暗之域是我的家！", "en": "Deep Dark is my home!"},
+        {"zh": "主人召唤我来了！", "en": "Summoned by the master!"},
+        {"zh": "黑暗的魔法将我召唤！", "en": "Dark magic calls me!"},
+        {"zh": "等待这一刻，我已经很久了！", "en": "I've been waiting for this!"},
+        {"zh": "这里是我的领地，别靠近！", "en": "This is my territory, stay back!"},
+        {"zh": "深暗之域，我来了！", "en": "Into the Deep Dark I come!"},
+        {"zh": "跟随主人，战斗开始！", "en": "Follow the master, battle begins!"},
+        {"zh": "黑暗中，我将显现！", "en": "Out of the shadows, I appear!"},
+        {"zh": "主人，我来了！", "en": "Master, I'm here!"},
+        {"zh": "我从宝典的缝隙里钻出来", "en": "I slip out from the Tome's pages"},
+        {"zh": "幽光先到，我才到", "en": "The glow arrives before I do"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧伤，好痛！", "en": "Burned by fire, hurts!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从上面摔下来，护符没接住。", "en": "I fell. My charm didn't catch me."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "溺水受伤，救救我！", "en": "Drowned, save me!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸伤痕累累，快治疗！", "en": "Explosion, heal me!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被箭射中，好疼！", "en": "Hit by arrow, hurts!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "法术攻击，快用魔宠宝典防御！", "en": "Attacked by magic, use book!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿了，主人快给我吃！", "en": "Hungry, give me food, master!"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击伤痕，快用魔法治疗！", "en": "Lightning hit, use magic!"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚无，好冷好黑！", "en": "Void, so cold and dark!"}
+      ]
+    }
+  }
+}

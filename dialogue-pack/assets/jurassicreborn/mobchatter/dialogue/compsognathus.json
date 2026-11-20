@@ -1,0 +1,264 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我小步快跑，草尖打着脸。", "en": "I trot fast, grass tips slapping my face."},
+        {"zh": "这么短的腿，倒腾得挺快。", "en": "Short legs, but they churn quickly."},
+        {"zh": "沿着沙地的边缘，我一路小跑。", "en": "I trot along the edge of the sandy ground."},
+        {"zh": "尾巴平举，给我保持平衡。", "en": "Tail out level, keeping me balanced."},
+        {"zh": "我从石子间穿过去，一跳一跳。", "en": "I hop and weave between the pebbles."},
+        {"zh": "这么轻的身子，踩不塌草。", "en": "I'm light enough not to crush the grass."},
+        {"zh": "三步一停，看看有没有吃的。", "en": "Three steps, a pause, a check for food."},
+        {"zh": "我贴着地面跑，影子很小。", "en": "I run low and my shadow stays small."},
+        {"zh": "沙子在爪下沙沙作响。", "en": "Sand hisses under my claws."},
+        {"zh": "绕过那滩水，我不喜欢湿脚。", "en": "Around that puddle — I dislike wet feet."},
+        {"zh": "一只虫子飞起来，我追过去。", "en": "A bug takes flight; I chase it."},
+        {"zh": "我追着同伴的尾巴跑。", "en": "I run after a packmate's tail."},
+        {"zh": "草丛一响，我就换个方向。", "en": "The grass rustles; I change direction."},
+        {"zh": "小跑起来，脖颈一伸一伸。", "en": "At a trot my neck reaches out and back."},
+        {"zh": "我钻进石缝，又从另一边出来。", "en": "I duck into a gap and pop out the other side."},
+        {"zh": "踩着同伴的脚印走，省力。", "en": "I step in a packmate's tracks to save effort."},
+        {"zh": "前爪点地，拐了个急弯。", "en": "Foreclaws touch down as I take a sharp turn."},
+        {"zh": "这么热的天，我跑一段歇一段。", "en": "In this heat I run a while, rest a while."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站住，歪头看地上的虫。", "en": "I stop and tilt my head at a bug on the ground."},
+        {"zh": "小东西，谁都能欺负我。", "en": "A little thing like me — anyone could bully me."},
+        {"zh": "太阳晒着沙地，暖得舒服。", "en": "The sun bakes the sand; it's pleasantly warm."},
+        {"zh": "我歪头看天，等虫子。", "en": "I tilt my head and watch for bugs."},
+        {"zh": "同伴在我旁边刨土，很吵。", "en": "A packmate digs beside me. Very noisy."},
+        {"zh": "只有四点血，我得小心。", "en": "Only a sliver of life — I must be careful."},
+        {"zh": "我坐在后腿上，像只大鸟。", "en": "I sit back on my haunches like a big bird."},
+        {"zh": "我蹲在沙里，像块石头。", "en": "I crouch in the sand like a stone."},
+        {"zh": "虫子在石头下，我听见了。", "en": "An insect is under the stone. I hear it."},
+        {"zh": "四点的身子，一只小蜥蜴大小。", "en": "Four points of life, lizard-sized."},
+        {"zh": "这么小的牙，只能吃小东西。", "en": "Teeth this small only handle small meals."},
+        {"zh": "风把沙子吹进我眼睛里了。", "en": "Wind blew sand into my eye."},
+        {"zh": "我在等太阳挪到那边去。", "en": "I'm waiting for the sun to shift over there."},
+        {"zh": "两只同伴挤在一起打盹。", "en": "Two packmates doze in a huddle."},
+        {"zh": "我抬头，看有没有大鸟盘旋。", "en": "I look up for circling birds."},
+        {"zh": "小小的身子，藏在一块石头后。", "en": "A tiny body, tucked behind a stone."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你这么大，我仰得脖子都酸。", "en": "You're so big my neck aches from looking up."},
+        {"zh": "我不咬人，真的，我牙很小。", "en": "I don't bite. Really. My teeth are tiny."},
+        {"zh": "你要抓我吗？我跑得可快。", "en": "Are you going to catch me? I'm quick."},
+        {"zh": "你蹲下来了，我退两步。", "en": "You crouch down; I back off two steps."},
+        {"zh": "我看着你的靴子，比我还高。", "en": "I look at your boot. It's taller than me."},
+        {"zh": "别伸手，我会以为你要抓我。", "en": "Don't reach out; I'll think you're grabbing me."},
+        {"zh": "你身上有食物的味道吗？", "en": "Do you smell of food?"},
+        {"zh": "我歪着头，先看你的脚踝。", "en": "Head tilted, I study your ankle first."},
+        {"zh": "你眨眼比我慢，我数着呢。", "en": "You blink slower than I do. I'm counting."},
+        {"zh": "我不怕你，我只是想跑。", "en": "I'm not afraid of you — I just want to run."},
+        {"zh": "我围着你转了半圈，又停下。", "en": "I circle half around you and stop."},
+        {"zh": "你脚边有只虫，你看见了吗？", "en": "There's a bug by your foot. Do you see it?"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我这么小，一下就要命。", "en": "I'm this small — one hit could finish me."},
+        {"zh": "我疼得直打转，停不下来。", "en": "It hurts so much I keep spinning."},
+        {"zh": "让我躲进沙里，别追。", "en": "Let me hide in the sand. Don't follow."},
+        {"zh": "我的腿在抖，站不住。", "en": "My legs shake; I can't stand."},
+        {"zh": "一声轻叫，同伴都跑了。", "en": "One weak cry and my packmates scatter."},
+        {"zh": "别踩，我会被踩扁的。", "en": "Don't step — I'd be flattened."},
+        {"zh": "细细的血流到沙上。", "en": "Thin blood runs onto the sand."},
+        {"zh": "我细骨头响了一下。", "en": "My thin bones click once."},
+        {"zh": "沙地太软，我爬不起来。", "en": "The sand is too soft; I can't get up."},
+        {"zh": "这一下，比虫子咬的疼多了。", "en": "That hurt far more than a bug bite."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "是肉！我一下就闻到。", "en": "Meat! I smell it at once."},
+        {"zh": "我靠近，又怕你突然动。", "en": "I come close, then fear you'll move."},
+        {"zh": "这么一小块，够我吃半天。", "en": "Such a small piece — it'd last me ages."},
+        {"zh": "我伸长脖子，脚尖踮起来。", "en": "I stretch my neck and rise on my toes."},
+        {"zh": "沙地里的虫，我最会找。", "en": "I am best at finding bugs in sand."},
+        {"zh": "你手放低一点，我够不着。", "en": "Lower your hand; I can't reach."},
+        {"zh": "我绕到你手边，试探着闻。", "en": "I edge to your hand and sniff at it."},
+        {"zh": "为这一口，我可以很勇敢。", "en": "For one bite, I can be very brave."},
+        {"zh": "肚子空了，顾不上怕。", "en": "My belly is empty; fear can wait."},
+        {"zh": "我叼起来就退到远处吃。", "en": "I snatch it and retreat to eat."},
+        {"zh": "你手别合上，先让我咬。", "en": "Don't close your hand yet — let me bite."},
+        {"zh": "沙地上掉了一点，先吃那个。", "en": "Some fell on the sand; I'll start with that."},
+        {"zh": "香味顺着风过来，我坐不住。", "en": "The smell rides the wind; I can't sit still."},
+        {"zh": "我小跑过去，尾巴晃个不停。", "en": "I trot over, tail wagging away."},
+        {"zh": "就一口，然后我就走。", "en": "One bite and then I'll go."},
+        {"zh": "你喂我，是不是想让我留下？", "en": "Are you feeding me to make me stay?"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被撞得翻了个跟头。", "en": "The bump flipped me head over heels."},
+        {"zh": "我这么轻，一碰就飞出去。", "en": "I'm so light that a touch sends me flying."},
+        {"zh": "我这四点血，经不起你一脚。", "en": "Four points of health cannot take your foot."},
+        {"zh": "我只有四点血，可跑得飞快。", "en": "Four points of life, and very fast."},
+        {"zh": "同伴撞我，我撞你。", "en": "A packmate bumps me and I bump you."},
+        {"zh": "别挤，这里只够我站。", "en": "Don't crowd; there's only room for me."},
+        {"zh": "沙地上滑，我撞歪了。", "en": "The sand is loose and I slid into you."},
+        {"zh": "我抖抖毛，当作没发生。", "en": "I shake myself off as if nothing happened."},
+        {"zh": "我们撞得很轻，我小。", "en": "It was a light bump. I'm small."},
+        {"zh": "绕开我，我要去那边。", "en": "Step around me; I'm heading over there."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你比我高，得低下头来。", "en": "You're taller — you'll have to lower your head."},
+        {"zh": "我绕着你的脚转，你懂吗？", "en": "I circle your feet. Do you understand?"},
+        {"zh": "这么小的身子，也有春天。", "en": "Even a body this small has its spring."},
+        {"zh": "我们头碰头，像两只小鸟。", "en": "We touch heads like two small birds."},
+        {"zh": "我们找个背风的地方吧。", "en": "Let's find a place out of the wind."},
+        {"zh": "我把最好的一块肉留给你。", "en": "I'll save the best scrap for you."},
+        {"zh": "你愿意跟着我跑一段吗？", "en": "Will you run a while with me?"},
+        {"zh": "尾巴碰尾巴，就这样定了。", "en": "Tail touches tail. It's settled."},
+        {"zh": "同伴都在看，我不在乎。", "en": "The pack is watching. I don't care."},
+        {"zh": "明天你还会在这块沙地上吗？", "en": "Will you still be on this sand tomorrow?"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我叼起一块小石子，玩一玩。", "en": "I pick up a pebble to play with."},
+        {"zh": "亮亮的一小片，我喜欢。", "en": "A small bright thing, I like it."},
+        {"zh": "我叼着它，跑两步歇一下。", "en": "I carry it, run two steps, rest."},
+        {"zh": "我把它藏在沙里，做记号。", "en": "I tuck it in the sand as a marker."},
+        {"zh": "嘴里塞满了，说话含糊。", "en": "My mouth is full; I mumble."},
+        {"zh": "这块骨头，够我啃一天。", "en": "This bone will keep me busy all day."},
+        {"zh": "它比我还长，我拖着走。", "en": "It is longer than I am; I drag it."},
+        {"zh": "我只有四滴血，跑得却快。", "en": "Four health, yet I run fast."},
+        {"zh": "用小爪子扒拉一下，滚了。", "en": "I nudge it with a claw and it rolls."},
+        {"zh": "这颗归我，那颗也归我。", "en": "This one's mine, and that one too."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有虫在动，我盯上了。", "en": "A bug is moving. I've got it."},
+        {"zh": "你踩到枯枝，我立刻抬头。", "en": "You snapped a twig; my head snaps up."},
+        {"zh": "那东西比我大，我犹豫。", "en": "That thing is bigger than me. I hesitate."},
+        {"zh": "我伏低身子，准备扑。", "en": "I crouch, ready to pounce."},
+        {"zh": "同伴叫了一声，我也看过去。", "en": "A packmate calls; I look too."},
+        {"zh": "就是这只虫，别让它跑了。", "en": "That's the bug. Don't let it get away."},
+        {"zh": "我盯住它的腿，先咬那里。", "en": "I fix on its legs — I'll bite there first."},
+        {"zh": "沙地上有什么在扑腾，我看见了。", "en": "Something flutters in the sand—I see it."},
+        {"zh": "我竖起身子，看清楚些。", "en": "I rise up to see it better."},
+        {"zh": "这么近，我跑不掉了。", "en": "It's this close — no running now."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一直盯着，头都不歪。", "en": "I keep staring without tilting my head."},
+        {"zh": "四条点血，靠群才敢追。", "en": "Four hit points—only a pack dares chase."},
+        {"zh": "我跟着，不急着扑。", "en": "I follow, in no hurry to pounce."},
+        {"zh": "这么小的猎手，只能等机会。", "en": "A hunter this small can only wait."},
+        {"zh": "它停，我也停，看谁先动。", "en": "It stops, I stop. Who moves first?"},
+        {"zh": "我压低身子，藏在草影里。", "en": "I flatten down in the grass shadow."},
+        {"zh": "我盯着它的影子，等它转头。", "en": "I watch its shadow, waiting for it to turn."},
+        {"zh": "我的眼睛跟着它的每一下。", "en": "My eyes track its every move."},
+        {"zh": "我贴着它的脚跟，等破绽。", "en": "I hug its heel and wait for an opening."},
+        {"zh": "它没发现我，草丛够高。", "en": "It has not seen me; the grass is tall enough."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我扑上去，咬它的腿。", "en": "I pounce and bite its leg."},
+        {"zh": "我跳到它脚背上咬。", "en": "I leap and bite its foot."},
+        {"zh": "小牙也能撕开口子。", "en": "Small teeth can still tear a hole."},
+        {"zh": "咬完退开，别被踩到。", "en": "Bite, then back off before I'm stepped on."},
+        {"zh": "我跳起来抓它的眼睛。", "en": "I leap for its eyes."},
+        {"zh": "同伴咬前面，我咬后面。", "en": "My packmate takes the front; I take the back."},
+        {"zh": "我冲过去，撞它一下就好。", "en": "I dash in — one hit is enough."},
+        {"zh": "这么小的口子，也够它疼。", "en": "A little wound like this still stings."},
+        {"zh": "我扒住它的皮，往上爬。", "en": "I dig in and climb its hide."},
+        {"zh": "咬一口就跑，这是我们的规矩。", "en": "Bite once and run — that's our way."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从草丛里钻出来，很小。", "en": "I slip out of the grass. Very small."},
+        {"zh": "沙地上多了我一串脚印。", "en": "A new line of prints joins the sand."},
+        {"zh": "我抖抖身子，站直了。", "en": "I shake myself out and stand up straight."},
+        {"zh": "这只小小的猎手，来了。", "en": "A very small hunter has arrived."},
+        {"zh": "同伴已经在这片沙地上了。", "en": "My packmates are already on this sand."},
+        {"zh": "我先转一圈，看看有没有大东西。", "en": "First a circle, checking for anything big."},
+        {"zh": "我从石缝里挤出来，挤得费劲。", "en": "I squeeze out of a crack — a tight fit."},
+        {"zh": "沙地上一只虫，就是我的第一餐。", "en": "A bug on the sand will be my first meal."},
+        {"zh": "我这么小，谁都比我大。", "en": "Everyone here is bigger than me."},
+        {"zh": "出生第一天，我就学会跑了。", "en": "On my first day I already knew how to run."},
+        {"zh": "热风里，我闻到了活物的味道。", "en": "On the hot wind I smell something alive."},
+        {"zh": "我从蛋里爬出来，腿还在打颤。", "en": "I crawled from the egg, legs still trembling."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火一燎，我的毛都焦了。", "en": "The flame singed my hide all over."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉下来，我的腿短，摔得重。", "en": "I fell — short legs, heavy landing."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水没过头顶，我不会游。", "en": "Water's over my head and I can't swim."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我整个被震得飞出去。", "en": "The blast threw me clear off the ground."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一根刺扎穿了我的背。", "en": "A barb went through my back."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "光一闪，我的力气全没了。", "en": "A flash, and all my strength drained away."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得只找到沙子，我撑不住。", "en": "I found only sand to eat; I'm fading."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈下来，我小小的身子一麻。", "en": "Lightning struck; my little body went numb."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下没有沙，我一直在掉。", "en": "No sand under my feet — I keep falling."}
+      ]
+    }
+  }
+}

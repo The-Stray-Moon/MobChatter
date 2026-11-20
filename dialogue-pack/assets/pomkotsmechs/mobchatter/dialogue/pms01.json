@@ -1,0 +1,251 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "液压杆一伸，我迈出一步。", "en": "A piston extends and I take a step."},
+        {"zh": "地面的灰被脚步声震起来。", "en": "Dust jumps with every footfall."},
+        {"zh": "我压低机身，全速前进。", "en": "I drop low and charge at full speed."},
+        {"zh": "金属脚掌碾过碎石。", "en": "Metal soles grind over gravel."},
+        {"zh": "转向架在我肩后转动。", "en": "The turret turns behind my shoulder."},
+        {"zh": "我的步幅比门还宽。", "en": "My stride is wider than a doorway."},
+        {"zh": "推进器在后面喷着热气。", "en": "Thrusters vent hot air behind me."},
+        {"zh": "我把速度推到最大。", "en": "I push my speed to maximum."},
+        {"zh": "铁板互相摩擦发出响声。", "en": "The plates grind against each other."},
+        {"zh": "我锁着直线往前冲。", "en": "I charge in a dead straight line."},
+        {"zh": "小腿的铰链在发烫。", "en": "The knee hinges are heating up."},
+        {"zh": "每一步都把土踩实。", "en": "Each step packs the soil down."},
+        {"zh": "我朝你那边笔直过去。", "en": "I head straight for you."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "引擎在低声运转。", "en": "The engine idles low."},
+        {"zh": "我的传感器扫着四周。", "en": "My sensors sweep the area."},
+        {"zh": "散热口冒着白气。", "en": "Vents exhale white vapor."},
+        {"zh": "我站着，锁住姿态。", "en": "I stand with my stance locked."},
+        {"zh": "装甲缝里积了土。", "en": "Dirt has gathered in the seams."},
+        {"zh": "我抬起炮口又放下。", "en": "I raise the muzzle, then lower it."},
+        {"zh": "关节每十秒自检一次。", "en": "The joints self-check every ten seconds."},
+        {"zh": "这片空地视野很好。", "en": "This clearing has good sightlines."},
+        {"zh": "我把重心调低了半格。", "en": "I lower my centre of gravity slightly."},
+        {"zh": "指示灯一直闪着红。", "en": "The indicator keeps blinking red."},
+        {"zh": "我听见风里有机件声。", "en": "I hear machinery on the wind."},
+        {"zh": "没有目标，待机中。", "en": "No target. Standing by."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "扫描完成：你是目标。", "en": "Scan complete: you are a target."},
+        {"zh": "你的体型在记录里。", "en": "Your build is now on record."},
+        {"zh": "我的光学镜缩了一下。", "en": "My optic lens narrows."},
+        {"zh": "你身上没有装甲。", "en": "You're carrying no armour."},
+        {"zh": "我把炮口对着你。", "en": "I level the muzzle at you."},
+        {"zh": "你在我的射界内。", "en": "You're inside my field of fire."},
+        {"zh": "我的传感器锁住你了。", "en": "My sensors have you locked."},
+        {"zh": "我们之间没有谈判。", "en": "There is no negotiating between us."},
+        {"zh": "我慢慢抬起机械臂。", "en": "I slowly raise my mechanical arm."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "装甲上出现了凹痕。", "en": "A dent has appeared in my armour."},
+        {"zh": "液压系统压力下降。", "en": "Hydraulic pressure is dropping."},
+        {"zh": "这一下很有力量。", "en": "That blow had real force."},
+        {"zh": "我的指示灯转成橙色。", "en": "My indicator turned orange."},
+        {"zh": "关节卡了一瞬。", "en": "A joint locked for an instant."},
+        {"zh": "装甲板发出脆响。", "en": "The armour plate gave a sharp crack."},
+        {"zh": "我退开半格重算。", "en": "I pull back and recalculate."},
+        {"zh": "损伤程度可以接受。", "en": "Damage is within tolerance."},
+        {"zh": "我还能继续战斗。", "en": "I can still fight."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的燃料不是那一种。", "en": "That isn't the kind of fuel I take."},
+        {"zh": "那东西不能装进机舱。", "en": "That won't fit in my bay."},
+        {"zh": "你举起它也没用。", "en": "Raising it accomplishes nothing."},
+        {"zh": "我检测到诱饵信号。", "en": "Deception signal detected."},
+        {"zh": "别在我面前晃动。", "en": "Don't wave that in front of me."},
+        {"zh": "这不是我的接口。", "en": "That's not my interface."},
+        {"zh": "我的指令里没有这一项。", "en": "That's not in my orders."},
+        {"zh": "你只是想拖住我。", "en": "You're only trying to delay me."},
+        {"zh": "我不会为你减速。", "en": "I won't slow down for you."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "撞击力被装甲吸收。", "en": "The impact is absorbed by my armour."},
+        {"zh": "我半步没有后撤。", "en": "I don't give half a step."},
+        {"zh": "你被反作用力弹开。", "en": "Recoil throws you back."},
+        {"zh": "我和你对撞了一声闷响。", "en": "We met with a heavy clang."},
+        {"zh": "我的重心很稳。", "en": "My centre of gravity is solid."},
+        {"zh": "别靠在我的腿上。", "en": "Don't lean on my leg."},
+        {"zh": "这一下连警报都没响。", "en": "That didn't even trip an alarm."},
+        {"zh": "我甩开机械臂把你拨开。", "en": "I swing my arm and sweep you off."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "同一型号只交换数据。", "en": "Same model units pass only data."},
+        {"zh": "我们不谈这种事情。", "en": "We don't speak of such things."},
+        {"zh": "并排站好，校准坐标。", "en": "Stand side by side and sync coordinates."},
+        {"zh": "两台机甲互为掩护。", "en": "Two mechs cover each other."},
+        {"zh": "你的涂装和我不同。", "en": "Your paint scheme differs from mine."},
+        {"zh": "同一批次的机件。", "en": "Parts from the same production run."},
+        {"zh": "我替你盯着西面。", "en": "I'll watch the west for you."},
+        {"zh": "保持间距三格。", "en": "Maintain a three-block gap."},
+        {"zh": "这是协同，不是亲近。", "en": "This is coordination, not closeness."},
+        {"zh": "协议接受，执行。", "en": "Protocol accepted. Proceeding."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "金属残片，收进舱里。", "en": "Metal scrap — into the bay."},
+        {"zh": "这枚零件的规格不对。", "en": "This part's spec is wrong."},
+        {"zh": "我举起它扫了一下。", "en": "I lift it and scan it."},
+        {"zh": "读数显示没有价值。", "en": "The reading shows no value."},
+        {"zh": "你掉的，自己拿。", "en": "You dropped it; take it."},
+        {"zh": "我把它投进回收槽。", "en": "I drop it into the recycle chute."},
+        {"zh": "指关节一合就夹住了。", "en": "My fingers close and clamp it."},
+        {"zh": "这东西挡过我的路。", "en": "This was in my way."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "目标确认，立即交战。", "en": "Target confirmed. Engaging at once."},
+        {"zh": "我全速向你冲锋。", "en": "I charge at you at full speed."},
+        {"zh": "你的位置已经算好了。", "en": "Your position is calculated."},
+        {"zh": "我启动推进器。", "en": "Thrusters online."},
+        {"zh": "你跑不过我的履带。", "en": "You can't outrun my treads."},
+        {"zh": "这一战五秒结束。", "en": "This fight ends in five seconds."},
+        {"zh": "我锁住你的路线。", "en": "I've locked your route."},
+        {"zh": "你的武器对我不够。", "en": "Your weapon isn't enough for me."},
+        {"zh": "我从正面压过去。", "en": "I press in from the front."},
+        {"zh": "警报响起，开始作战。", "en": "Alarm raised. Combat begins."},
+        {"zh": "你被标记为敌对。", "en": "You're tagged as hostile."},
+        {"zh": "我把炮口转正。", "en": "I square the muzzle."},
+        {"zh": "这一片地都归我扫。", "en": "I sweep this whole area."},
+        {"zh": "你不会有机会转身。", "en": "You won't get a chance to turn."},
+        {"zh": "我把推力加满了。", "en": "I push the thrust to full."},
+        {"zh": "现在就开始交战。", "en": "Combat begins right now."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在你右侧推进。", "en": "I close in on your right."},
+        {"zh": "你藏到石头后面了。", "en": "You've gone behind a rock."},
+        {"zh": "那块石头挡不住炮。", "en": "That rock won't stop the gun."},
+        {"zh": "我在校准射角。", "en": "I'm calibrating the firing angle."},
+        {"zh": "引擎拉满，我冲你来了。", "en": "Engine at full, I charge at you."},
+        {"zh": "这一带的坡度我知道。", "en": "I know this slope."},
+        {"zh": "你把速度提起来了。", "en": "You've picked up speed."},
+        {"zh": "我的散热片全开着。", "en": "My heat sinks are fully open."},
+        {"zh": "炮弹已经上膛。", "en": "The shell is chambered."},
+        {"zh": "我在你要去的路上。", "en": "I'm already on your route."},
+        {"zh": "你还有三格距离。", "en": "You have three blocks left."},
+        {"zh": "瞄准已经完成。", "en": "The aiming is complete."},
+        {"zh": "准备进行开火。", "en": "Preparing to open fire."},
+        {"zh": "我在做最后的校准。", "en": "Running the final calibration."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "机械臂扫在你身上。", "en": "My arm sweeps into you."},
+        {"zh": "这一下把你撞出去。", "en": "That knocks you clean away."},
+        {"zh": "我的拳头是液压的。", "en": "My fist runs on hydraulics."},
+        {"zh": "你被压得贴在墙上。", "en": "You're pinned flat to the wall."},
+        {"zh": "我抬脚踩下去。", "en": "I raise my foot and stamp."},
+        {"zh": "撞击把我自己也震得晃。", "en": "The impact shakes even me."},
+        {"zh": "关节的响声很大。", "en": "The joint noise is loud."},
+        {"zh": "你一退，我立刻贴上去。", "en": "You retreat; I close in at once."},
+        {"zh": "这一击是最后警告。", "en": "That was the final warning."},
+        {"zh": "我的铁壳擦着你的肩。", "en": "My hull scrapes past your shoulder."},
+        {"zh": "你倒在地上了。", "en": "You've gone down."},
+        {"zh": "你的两只手都在抖。", "en": "Both your hands are shaking."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "引擎点火的声响很大。", "en": "Engine ignition is loud."},
+        {"zh": "我从停放架里站起来。", "en": "I rise out of the rack."},
+        {"zh": "装甲上的漆还很新。", "en": "The paint on my armour is fresh."},
+        {"zh": "传感器逐项自检。", "en": "Sensors self-check one by one."},
+        {"zh": "我抬起了头部的组件。", "en": "I raise the head assembly."},
+        {"zh": "这片地形已经测绘完。", "en": "This terrain is mapped."},
+        {"zh": "远处有个热源在动。", "en": "A heat source moves in the distance."},
+        {"zh": "我把姿态调成作战。", "en": "I switch to combat stance."},
+        {"zh": "四处没有一点遮挡。", "en": "There's no cover anywhere."},
+        {"zh": "我测试了一下转向。", "en": "I test my steering."},
+        {"zh": "我开始例行巡逻。", "en": "I begin a routine patrol."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "高温警报响了起来。", "en": "A heat warning went off."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "落地冲击压弯了支架。", "en": "The landing bent my frame."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水进了进气口。", "en": "Water got into the intake."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我推得侧滑。", "en": "The blast slid me sideways."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弹丸打穿了一块薄甲。", "en": "A round punched through thin plate."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "异常能量干扰了我。", "en": "Anomalous energy is interfering."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "燃料掉到警戒线。", "en": "Fuel is at the warning line."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "电流过载，屏幕闪烁。", "en": "Overload; my screen flickers."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "失去重力，我在下坠。", "en": "No gravity; I'm falling."}
+      ]
+    }
+  }
+}

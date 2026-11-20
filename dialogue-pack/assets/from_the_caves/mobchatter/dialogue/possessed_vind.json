@@ -1,0 +1,263 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "挥舞着镰刀向前冲", "en": "Swinging scythe, rushing forward"},
+        {"zh": "嘶嘶作响，四处游荡", "en": "Hissing, wandering around"},
+        {"zh": "发出尖锐的嘶吼声", "en": "Emitting sharp growls"},
+        {"zh": "在腐烂之地徘徊", "en": "Roaming in the Nether Wastes"},
+        {"zh": "手持武器，步步逼近", "en": "Holding weapon, advancing"},
+        {"zh": "瞪着空洞的眼睛", "en": "Staring with hollow eyes"},
+        {"zh": "突然转身，露出獠牙", "en": "Suddenly turning, showing fangs"},
+        {"zh": "挥舞镰刀，制造旋风", "en": "Swinging scythe, creating a whirlwind"},
+        {"zh": "寻找活人作为目标", "en": "Seeking live targets"},
+        {"zh": "发出诡异的低吟声", "en": "Emitting eerie whispers"},
+        {"zh": "拖着斧子，在岩壁上磨出声。", "en": "It drags its axe, scraping the cave wall."},
+        {"zh": "脚步一深一浅，像被别人牵着。", "en": "Its steps are uneven, as if led on a string."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "呆滞地站立着", "en": "Standing dully"},
+        {"zh": "空洞的目光盯着远方", "en": "Hollow eyes staring into the distance"},
+        {"zh": "低垂着脑袋，似乎迷失", "en": "Hanging head, seemingly lost"},
+        {"zh": "环顾四周，寻找猎物", "en": "Scanning surroundings for prey"},
+        {"zh": "发出低沉的呢喃声", "en": "Muttering lowly"},
+        {"zh": "我把斧子举起，又放下。", "en": "I raise the axe and lower it again."},
+        {"zh": "凝视虚空，陷入沉思", "en": "Staring into space, in deep thought"},
+        {"zh": "偶尔摆动头部", "en": "Occasionally swaying head"},
+        {"zh": "呆滞地盯着玩家", "en": "Staring at the player dully"},
+        {"zh": "发出微弱的呜咽声", "en": "Emitting weak wails"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "猛地转头盯着玩家", "en": "Sudden head turn, staring at player"},
+        {"zh": "斧子在我手里，草草收场吧。", "en": "The axe is in my hand; let's end this quickly."},
+        {"zh": "尖锐的目光盯着玩家", "en": "Sharp gaze locking on player"},
+        {"zh": "我数着你握武器的手指。", "en": "I count the fingers on your weapon."},
+        {"zh": "紧盯着玩家的动作", "en": "Staring intently at player's movements"},
+        {"zh": "你站的位置，正好在斧程内。", "en": "You stand exactly within axe reach."},
+        {"zh": "我的斧头还记得怎么用。", "en": "My axe still remembers its use."},
+        {"zh": "斧子先动，还是你先动？", "en": "Does the axe move first, or you?"},
+        {"zh": "目光坚定，锁定目标", "en": "Steady gaze, locking target"},
+        {"zh": "斧刃映出你的轮廓。", "en": "The axe blade mirrors your outline."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "灵魂碎片缠身，痛得要命！", "en": "Astral shards torment me!"},
+        {"zh": "苍白恶魔夺走我的力量！", "en": "Pale demon steals my strength!"},
+        {"zh": "身体被撕裂，痛苦难忍！", "en": "My body is torn apart!"},
+        {"zh": "恶灵附体，痛不欲生！", "en": "Evil spirit torments me!"},
+        {"zh": "灵魂被束缚，剧痛难忍！", "en": "My soul is bound in pain!"},
+        {"zh": "灵魂碎片纠缠，痛入骨髓！", "en": "Astral shards pierce my flesh!"},
+        {"zh": "恶灵附身，痛苦难当！", "en": "Evil spirit torments me!"},
+        {"zh": "恶灵的诅咒，痛不欲生！", "en": "Curse of the pale demon!"},
+        {"zh": "被恶灵操控，痛苦不堪！", "en": "Controlled by a pale demon!"},
+        {"zh": "恶灵的魔爪，痛苦难忍！", "en": "Pale demon's grasp!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "苍白之光令你动心？", "en": "Pale light tempts you?"},
+        {"zh": "那点食物引不动我手里的斧。", "en": "That scrap of food won't move the axe in my hand."},
+        {"zh": "你无法逃过我。", "en": "You can't escape me."},
+        {"zh": "斧头举起来，别靠近。", "en": "Axe raised — don't come closer."},
+        {"zh": "我的存在是为了毁灭。", "en": "My existence is for destruction."},
+        {"zh": "我只需一点点灵魂。", "en": "Just a little soul."},
+        {"zh": "别反抗，你无力反抗。", "en": "Don't resist, you can't resist."},
+        {"zh": "我的武器，你的终结。", "en": "My weapon, your end."},
+        {"zh": "斧柄上的裂缝，我数过了。", "en": "I've counted the cracks in your axe handle."},
+        {"zh": "力量在我心中燃烧。", "en": "Power burns in my heart."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "卫道士的斧子撞上你了。", "en": "The vindicator's axe has met you."},
+        {"zh": "撞击是我的使命。", "en": "Collision is my purpose."},
+        {"zh": "你无法躲开我。", "en": "You can't avoid me."},
+        {"zh": "撞击我吧，感受痛苦。", "en": "Collide with me, feel pain."},
+        {"zh": "别碰斧柄，它不认人。", "en": "Don't touch the haft; it knows no master."},
+        {"zh": "你挡不住我的冲击。", "en": "You can't stop my impact."},
+        {"zh": "你还没转身，我已经贴上来。", "en": "You haven't turned and I'm already on you."},
+        {"zh": "斧柄横过来，路就断了。", "en": "My axe haft swings across and the path is closed."},
+        {"zh": "撞击我，感受死亡。", "en": "Collide with me, feel death."},
+        {"zh": "我一步不让，斧柄顶着你。", "en": "I give no ground; my axe haft holds you off."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我们的灵魂相连。", "en": "Our souls are linked."},
+        {"zh": "与我结合，永恒不变。", "en": "Unite with me, forever."},
+        {"zh": "这具身体记得牵过谁的手。", "en": "This body remembers whose hand it held."},
+        {"zh": "我们在一起更加强大。", "en": "Together we're stronger."},
+        {"zh": "你无法拒绝我的召唤。", "en": "You can't resist my call."},
+        {"zh": "我的伴侣，唯一的归属。", "en": "My mate, the only归属."},
+        {"zh": "只有我们才能理解彼此。", "en": "Only we understand each other."},
+        {"zh": "斧子还在手里，只是不再听我的。", "en": "The axe is still in my hand — it just doesn't obey me now."},
+        {"zh": "我们的力量将无尽。", "en": "Our power will be endless."},
+        {"zh": "你属于我，永远。", "en": "You belong to me, forever."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "苍白光芒覆盖全身。", "en": "Pale light covers its body."},
+        {"zh": "嘶嘶作响，眼中闪烁绿光。", "en": "Hisses, green light in its eyes."},
+        {"zh": "盯上远处的玩家。", "en": "Fixes its gaze on the player far away."},
+        {"zh": "伸出长矛准备攻击。", "en": "Extends its spear to attack."},
+        {"zh": "低吟着不祥的旋律。", "en": "Sings a sinister tune."},
+        {"zh": "从坟墓中缓缓爬出。", "en": "Creeps out from the grave."},
+        {"zh": "尖锐的利爪划破空气。", "en": "Sharp claws slice the air."},
+        {"zh": "嘶吼声回荡在黑暗中。", "en": "Screams echo in the darkness."},
+        {"zh": "寻找食物以维持生命。", "en": "Searches for food to survive."},
+        {"zh": "徘徊在废弃的要塞附近。", "en": "Wanders near abandoned fortresses."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "卫道士的斧头在你面前停住。", "en": "My axe stops right in front of you."},
+        {"zh": "锁定玩家作为目标。", "en": "Targeted the player."},
+        {"zh": "瞄准玩家进行攻击。", "en": "Attacking the player."},
+        {"zh": "感知到敌人的靠近。", "en": "Feeling the enemy's approach."},
+        {"zh": "开始跟踪目标。", "en": "Tracking the target."},
+        {"zh": "识别出潜在威胁。", "en": "Identified potential threat."},
+        {"zh": "玩家已被标记。", "en": "Player has been marked."},
+        {"zh": "斧尖转向你，停住了。", "en": "The axe head turns to you and stops."},
+        {"zh": "瞄准敌方单位。", "en": "Targeting enemy unit."},
+        {"zh": "玩家已被锁定。", "en": "Player locked on."},
+        {"zh": "它记得自己举过斧子。", "en": "It remembers raising an axe once."},
+        {"zh": "那具身体还在挣。", "en": "That body is still struggling."},
+        {"zh": "你身上有光，它讨厌光。", "en": "You carry light. It hates light."},
+        {"zh": "它把你也看成容器。", "en": "It sees you as another vessel."},
+        {"zh": "它跟着你进了洞穴。", "en": "It followed you into the cave."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "引导攻击方向。", "en": "Guiding attack direction."},
+        {"zh": "瞄准玩家的弱点。", "en": "Targeting player's weak points."},
+        {"zh": "保持与目标的距离。", "en": "Maintaining distance from target."},
+        {"zh": "调整瞄准位置。", "en": "Adjusting aim position."},
+        {"zh": "对准目标发射魔法。", "en": "Firing magic at target."},
+        {"zh": "攻击目标的防御。", "en": "Attacking target's defenses."},
+        {"zh": "集中火力攻击。", "en": "Focusing fire on target."},
+        {"zh": "引导生物攻击玩家。", "en": "Directing mobs to attack player."},
+        {"zh": "持续瞄准目标。", "en": "Continuing to target."},
+        {"zh": "锁定目标并攻击。", "en": "Locking on and attacking."},
+        {"zh": "它把斧子举得歪歪的。", "en": "It raises the axe at a crooked angle."},
+        {"zh": "它不会累，你会。", "en": "It never tires. You do."},
+        {"zh": "它的关节在反方向折。", "en": "Its joints bend the wrong way."},
+        {"zh": "它堵在洞穴的窄口。", "en": "It blocks the cave's narrow mouth."},
+        {"zh": "它模仿你举盾的姿势。", "en": "It copies the way you hold your shield."},
+        {"zh": "它在等你点亮火把。", "en": "It waits for you to light a torch."},
+        {"zh": "它把石头推到你脚边。", "en": "It rolls stones toward your feet."},
+        {"zh": "它数着你退后的步数。", "en": "It counts the steps you give up."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘶嘶作响，挥剑狂斩！", "en": "Hisses and swings sword wildly."},
+        {"zh": "眼中红光闪烁，挥剑砍击！", "en": "Red light in eyes as it swings sword."},
+        {"zh": "怒吼着冲向敌人，剑影如风！", "en": "Ragers at enemies, sword shadow like wind."},
+        {"zh": "挥剑劈向猎物，嘶嘶嘶！", "en": "Swings sword at prey, hiss hiss hiss."},
+        {"zh": "紧握利剑，疯狂冲锋！", "en": "Holds sharp sword, charges madly."},
+        {"zh": "嘶嘶嘶，挥剑斩向近敌！", "en": "Hiss, swings sword at nearby enemies."},
+        {"zh": "狂怒中挥剑，剑光闪烁！", "en": "Swings sword in rage, blade glinting."},
+        {"zh": "嘶嘶嘶，剑光如电劈来！", "en": "Hiss, sword like lightning劈来!"},
+        {"zh": "嘶嘶嘶，斩向敌人头部！", "en": "Hiss, slices at enemy’s head."},
+        {"zh": "挥剑斩向近处的敌人！", "en": "Swings sword at nearby enemies!"},
+        {"zh": "斧刃砍进了岩壁。", "en": "The axe bites into the cave wall."},
+        {"zh": "它用斧背砸你的锁骨。", "en": "The axe's flat side hits your collarbone."},
+        {"zh": "这具身体的手在抖。", "en": "This body's hands are trembling."},
+        {"zh": "它砍你时的眼神是别人的。", "en": "The eyes cutting you belong to someone else."},
+        {"zh": "斧子比它想砍的更快。", "en": "The axe swings faster than it intends."},
+        {"zh": "它把你当成新壳。", "en": "It takes you for a new shell."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "苍白恶魔召唤卫道士！", "en": "Pale demon calls Vindicator."},
+        {"zh": "苍白恶魔附身卫道士！", "en": "Pale demon possesses Vindicator."},
+        {"zh": "苍白恶魔操纵卫道士！", "en": "Pale demon controls Vindicator."},
+        {"zh": "苍白恶魔附身，卫道士变异！", "en": "Pale demon possesses, Vindicator变异！"},
+        {"zh": "苍白恶魔附身，卫道士出现！", "en": "Pale demon possesses, Vindicator appears."},
+        {"zh": "苍白恶魔的卫道士来了！", "en": "Vindicator of pale demon arrives."},
+        {"zh": "苍白恶魔的卫道士现身！", "en": "Vindicator of pale demon appears."},
+        {"zh": "苍白恶魔附身卫道士，战斗开始！", "en": "Pale demon possessed Vindicator, battle starts."},
+        {"zh": "苍白恶魔的卫道士来了，小心！", "en": "Vindicator of pale demon arrives, be wary!"},
+        {"zh": "洞穴深处有人站了起来。", "en": "Something stands up deep in the cave."},
+        {"zh": "斧子从黑暗里递出来。", "en": "An axe slides out of the dark."},
+        {"zh": "这具卫道士身体被借走了。", "en": "This vindicator's body has been borrowed."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火把烧到了它的壳。", "en": "The torch burned the shell."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它摔下石阶，没出声。", "en": "It fell down the steps without a sound."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水下它还在往前走。", "en": "Underwater, it keeps walking forward."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把它掀成了奇怪的姿势。", "en": "The blast folded it into a strange pose."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭头插在它肩上，它没感觉。", "en": "An arrow in its shoulder and it feels nothing."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "驱魔的咒让它尖啸。", "en": "The exorcism spell makes it shriek."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这身体早就不需要吃了。", "en": "This body stopped needing food long ago."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光把它照出了两个影子。", "en": "The lightning gives it two shadows."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它掉下去了，哀嚎还留在上面。", "en": "It fell, and the wail stayed behind."}
+      ]
+    }
+  }
+}

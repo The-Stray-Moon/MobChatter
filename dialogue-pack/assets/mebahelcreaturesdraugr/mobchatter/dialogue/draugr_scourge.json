@@ -1,0 +1,269 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我沿着墓道的墙走", "en": "I move along the tomb's wall."},
+        {"zh": "我的杖在地上轻轻点着", "en": "My staff taps the floor lightly."},
+        {"zh": "我每一步都踩得很稳", "en": "Each step I take is deliberate."},
+        {"zh": "我绕开地上的骨堆", "en": "I step around the bone piles."},
+        {"zh": "我的袍子扫过石砖", "en": "My robe sweeps the flagstones."},
+        {"zh": "我沿着柱子往后退了三步。", "en": "I back three steps along the pillars."},
+        {"zh": "我走得很慢，保持距离", "en": "I move slowly, keeping my distance."},
+        {"zh": "我在找能放法术的地方", "en": "I am looking for a place to cast from."},
+        {"zh": "我沿着台阶往下", "en": "I descend the stairs."},
+        {"zh": "我的手一直在抬着", "en": "My hand stays raised."},
+        {"zh": "我走到通道的另一头", "en": "I cross to the far end of the passage."},
+        {"zh": "我在阴影里换了个位置", "en": "I shift position inside the shadows."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我举着杖，等你靠近", "en": "I hold my staff up and wait."},
+        {"zh": "这座墓穴干得没有一点水汽", "en": "This tomb is dry as bone."},
+        {"zh": "我在听远处的脚步", "en": "I listen to footsteps far off."},
+        {"zh": "我的手指在杖上敲", "en": "My fingers tap the staff."},
+        {"zh": "我离你有点远", "en": "I am a little far from you."},
+        {"zh": "我在估你到我这儿的距离", "en": "I am judging the distance you must cross."},
+        {"zh": "咒语在我嘴里打转", "en": "The words circle in my mouth."},
+        {"zh": "我慢慢吸进一口冷气", "en": "I draw in a slow breath of cold air."},
+        {"zh": "我的护符晃了一下", "en": "My amulet swings once."},
+        {"zh": "我等着，不着急", "en": "I wait; there is no hurry."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你走近了三步", "en": "You have come three steps closer."},
+        {"zh": "你的手一动，我的咒就起。", "en": "Your hand moves; my spell begins."},
+        {"zh": "活人的热气在我杖上凝霜。", "en": "Your living warmth frosts over on my staff."},
+        {"zh": "我不喜欢近身", "en": "I do not like close quarters."},
+        {"zh": "你再往前，我就出手", "en": "One more step and I strike."},
+        {"zh": "我的杖尖对着你", "en": "My staff points at you."},
+        {"zh": "我在算还有多远", "en": "I am working out the remaining distance."},
+        {"zh": "柱子后面我也有眼睛。", "en": "I have eyes behind the pillars too."},
+        {"zh": "这座墓穴不欢迎你", "en": "This tomb does not welcome you."},
+        {"zh": "我认得这种姿势", "en": "I know that stance."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我身上的骨头响了一声", "en": "My bones give one clatter."},
+        {"zh": "我躲进柱子的阴影里。", "en": "I slip into the pillar's shadow."},
+        {"zh": "这一下打乱了我的咒", "en": "That broke my incantation."},
+        {"zh": "我差一点就散了架", "en": "I nearly came apart."},
+        {"zh": "我的袍子破了个口", "en": "A tear opens in my robe."},
+        {"zh": "我扶着墙站稳", "en": "I brace against the wall."},
+        {"zh": "我离你太近了", "en": "I am too close to you."},
+        {"zh": "我喘不上气，也不需要", "en": "I cannot catch my breath, nor do I need to."},
+        {"zh": "这一点我记着", "en": "I am keeping that in mind."},
+        {"zh": "骨头散了，我再捡回来。", "en": "Bones scatter; I gather them up again."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "死人不吃这个", "en": "The dead do not eat that."},
+        {"zh": "你举着那玩意儿做什么", "en": "What are you holding that thing up for?"},
+        {"zh": "我活着的时候也不馋", "en": "Even alive, I was never greedy."},
+        {"zh": "这些东西你收好", "en": "Keep those things to yourself."},
+        {"zh": "这东西对骨头没用", "en": "That is no use to bone."},
+        {"zh": "我早已用不上这些", "en": "I have no use for such things now."},
+        {"zh": "你把吃的带进墓里", "en": "You brought food into a tomb."},
+        {"zh": "我只扫了一眼", "en": "I gave it a single glance."},
+        {"zh": "这东西挡了我的视线", "en": "That is blocking my view."},
+        {"zh": "那点东西你趁早收回去", "en": "Take that little thing back now."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你整个人撞在我身上", "en": "You ran right into me."},
+        {"zh": "我退了半步，拉开距离", "en": "I step back to make space."},
+        {"zh": "我被撞得差点倒了", "en": "The bump nearly topples me."},
+        {"zh": "别把身子贴这么近", "en": "Do not press up so close."},
+        {"zh": "我的杖差点掉了", "en": "I nearly dropped my staff."},
+        {"zh": "我的袍角一扯，咒就断了。", "en": "My hem snags, and the chant breaks."},
+        {"zh": "我们撞在一起，骨头发响", "en": "We collide, and bones knock."},
+        {"zh": "我推开你，退到后头", "en": "I push you off and back away."},
+        {"zh": "别贴着我的骨头走。", "en": "Do not walk against my bones."},
+        {"zh": "我把脚跟站稳了", "en": "I set my heels."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我早就是死人了", "en": "I have been dead a long time."},
+        {"zh": "这些事随我入土了", "en": "Such things went into the ground with me."},
+        {"zh": "这种事不在我心上", "en": "Such matters are not on my mind."},
+        {"zh": "墓里只有我一个", "en": "I am alone in this tomb."},
+        {"zh": "这话题不必再提", "en": "No need to raise that subject."},
+        {"zh": "我把整副身子转开", "en": "I turn my whole body away."},
+        {"zh": "我守着这里就够了", "en": "Guarding this place is enough."},
+        {"zh": "你问的人不对", "en": "You are asking the wrong one."},
+        {"zh": "我把杖举了起来", "en": "I raise my staff."},
+        {"zh": "我接着念下去", "en": "I go on with the chant."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉在这块砖上的，我收着。", "en": "Whatever falls on this flagstone, I keep."},
+        {"zh": "我用杖挑起来", "en": "I hook it up with my staff."},
+        {"zh": "这东西有点旧", "en": "This is rather old."},
+        {"zh": "这物件上的尘土比我还老。", "en": "The dust on this is older than I am."},
+        {"zh": "它从我的指骨间滑掉了", "en": "It slips through my finger bones."},
+        {"zh": "落在这儿的东西归墓地", "en": "What falls here belongs to the tomb."},
+        {"zh": "我把它塞进袍子里", "en": "I tuck it into my robe."},
+        {"zh": "这东西能换点力气", "en": "This might buy me some strength."},
+        {"zh": "我拿着它不舒服", "en": "Holding it is unpleasant."},
+        {"zh": "这点东西算不上什么", "en": "This little thing is nothing."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踏进了墓道", "en": "You stepped into the passage."},
+        {"zh": "我的杖已经举起来了", "en": "My staff is already up."},
+        {"zh": "你离得够近了", "en": "You are close enough now."},
+        {"zh": "我就等你到这一步", "en": "I waited for exactly this."},
+        {"zh": "咒语已经出口", "en": "The words are already spoken."},
+        {"zh": "你身上那点光太显眼", "en": "That little light on you is too bright."},
+        {"zh": "我不打算让你再往里走", "en": "You will go no deeper."},
+        {"zh": "这座墓穴归我守", "en": "I keep this tomb."},
+        {"zh": "我这边先动手", "en": "I strike first on my side."},
+        {"zh": "杖尖已经指着你了", "en": "My staff tip is on you now."},
+        {"zh": "我的杖尖亮起来了", "en": "My staff tip has lit up."},
+        {"zh": "这一次你不该来", "en": "You should not have come."},
+        {"zh": "我在远处就能杀你", "en": "I can kill you from here."},
+        {"zh": "我退到石柱后", "en": "I slip behind the pillar."},
+        {"zh": "别以为我离得远", "en": "Do not think distance saves you."},
+        {"zh": "我念完这最后一个字", "en": "I finish the last word."},
+        {"zh": "我封住了你想退的那条廊。", "en": "I have sealed the gallery you meant to retreat down."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一直和你保持距离", "en": "I keep my distance from you."},
+        {"zh": "我的杖尖跟着你", "en": "My staff tip follows you."},
+        {"zh": "你每走一步，我就退一步", "en": "Each step you take, I take one back."},
+        {"zh": "咒语在我手里攒着", "en": "The spell gathers in my hand."},
+        {"zh": "我在等你停下", "en": "I wait for you to stop."},
+        {"zh": "你靠近我，我就更弱", "en": "The closer you get, the weaker I am."},
+        {"zh": "我不会让你贴上来", "en": "I will not let you close."},
+        {"zh": "我的袍角在动", "en": "My hem stirs."},
+        {"zh": "你数不清我在哪儿", "en": "You cannot tell where I am."},
+        {"zh": "石头挡住了你的视线", "en": "The stones block your view."},
+        {"zh": "我在柱子之间换位置", "en": "I move between the pillars."},
+        {"zh": "我的手指已经抬起来了", "en": "My fingers are raised."},
+        {"zh": "你听见念咒的声音了吗", "en": "Do you hear the chanting?"},
+        {"zh": "这声音不是从我这来的", "en": "That sound is not from me."},
+        {"zh": "我咒文的最后一个字快成了。", "en": "The last word of my chant is nearly done."},
+        {"zh": "你的影子投在墙上", "en": "Your shadow falls on the wall."},
+        {"zh": "我在等你走到那块地上", "en": "I wait for you to reach that spot."},
+        {"zh": "这一片地我布置过", "en": "I have prepared this ground."},
+        {"zh": "你已经踩在那块地上", "en": "You have stepped onto that ground."},
+        {"zh": "等的就是这一刻", "en": "This is the moment I waited for."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我射出一道光", "en": "I release a bolt of light."},
+        {"zh": "魔法打在你身上", "en": "The magic strikes you."},
+        {"zh": "你退了一步，很好", "en": "You fell back a step, good."},
+        {"zh": "我的杖点了一下", "en": "My staff taps once."},
+        {"zh": "这一下离你很远，却打中了", "en": "That came from far off and still hit."},
+        {"zh": "我趁着空档后退", "en": "I use the gap to retreat."},
+        {"zh": "别再往我这儿靠", "en": "Do not come any nearer."},
+        {"zh": "我的护符亮了一下", "en": "My amulet flares."},
+        {"zh": "你身上冒烟了", "en": "You are smoking."},
+        {"zh": "我的杖尖又亮起一小团。", "en": "A small light gathers on my staff again."},
+        {"zh": "我的手指发凉", "en": "My fingers are cold."},
+        {"zh": "你再近我就撑不住了", "en": "Any closer and I will not hold."},
+        {"zh": "这一道光我自己也嫌弱。", "en": "Even I find that bolt weak."},
+        {"zh": "地面被烧出一道痕", "en": "A scorch mark is left on the floor."},
+        {"zh": "我退回阴影里", "en": "I retreat into the shadow."},
+        {"zh": "我嘴里的咒还没停", "en": "The chant has not stopped in my mouth."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从石棺旁站起来", "en": "I rise beside the stone coffin."},
+        {"zh": "墓道里多了一个影子", "en": "Another shadow joins the passage."},
+        {"zh": "我举起杖，光就亮了", "en": "I raise my staff and the light comes."},
+        {"zh": "这座墓穴需要看守", "en": "This tomb needs a keeper."},
+        {"zh": "我从更深的一层上来", "en": "I came up from a deeper level."},
+        {"zh": "骨头动了几下才站稳", "en": "My bones rattle before I stand steady."},
+        {"zh": "我的袍子还带着土", "en": "My robe is still full of earth."},
+        {"zh": "我把护符摆正", "en": "I straighten my amulet."},
+        {"zh": "这里的空气很干", "en": "The air here is very dry."},
+        {"zh": "我慢慢开始念", "en": "I begin to chant, slowly."},
+        {"zh": "我选了个远一点的位置", "en": "I chose a spot further back."},
+        {"zh": "我杖上的灰落了一层又一层。", "en": "Dust settles on my staff, layer after layer."},
+        {"zh": "我听见有人进来了", "en": "I heard someone come in."},
+        {"zh": "我抬头，眼窝里亮了一下", "en": "I lift my head, and my eye sockets glow."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火把的火焰舔着我的袍子", "en": "Torch fire licks my robe."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从台阶上滚下去，骨头散了", "en": "I tumble down the steps and rattle apart."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "墓里的水灌进我的胸腔", "en": "Tomb water floods my ribcage."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我掀到石棺上", "en": "The blast throws me onto the coffin."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭穿过我的肋骨", "en": "An arrow passes between my ribs."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法把我的咒打断了", "en": "Magic snaps my incantation."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我早已不需要进食", "en": "I have long had no need to eat."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷顺着墓道劈下来", "en": "Lightning runs down the passage."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下的石砖没了", "en": "The flagstones are gone."}
+      ]
+    }
+  }
+}

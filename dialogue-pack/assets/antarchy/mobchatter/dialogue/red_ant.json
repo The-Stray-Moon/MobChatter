@@ -1,0 +1,252 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我六条腿走得很稳", "en": "My six legs carry me steadily."},
+        {"zh": "红色的甲在暗处发亮", "en": "My red shell gleams in the dark."},
+        {"zh": "岩浆在下头亮，我走在上头。", "en": "Lava glows below; I walk along the top."},
+        {"zh": "我绕过一小片岩浆", "en": "I skirt a patch of lava."},
+        {"zh": "触角探着前方的热气", "en": "My antennae test the heat ahead."},
+        {"zh": "热风里有喘气，我改了方向。", "en": "Breathing rides the hot wind; I change course."},
+        {"zh": "我的颚一张一合", "en": "My mandibles open and close."},
+        {"zh": "我从裂缝里钻出来", "en": "I come out of a crack."},
+        {"zh": "我在这一带筑巢", "en": "I have built here."},
+        {"zh": "我走得很直，不绕路", "en": "I go straight, without detours."},
+        {"zh": "身后跟着几只", "en": "A few follow behind me."},
+        {"zh": "我在岩石上留下气味", "en": "I leave my scent on the rock."},
+        {"zh": "我沿岩壁往上爬", "en": "I climb up the rock face."},
+        {"zh": "我从一块浮石跳到另一块", "en": "I hop from one floatstone to the next."},
+        {"zh": "我贴着巢壁走了一圈", "en": "I make one circuit along the nest wall."},
+        {"zh": "我的同伴在前后各一只", "en": "Companions flank me front and back."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站在自己的巢口", "en": "I stand at my own nest mouth."},
+        {"zh": "我的颚没有放松", "en": "My mandibles do not relax."},
+        {"zh": "我在看岩壁下的动静", "en": "I watch the movement below the rock face."},
+        {"zh": "热气从我背上过去", "en": "Heat passes over my back."},
+        {"zh": "这里的一切都烫", "en": "Everything here is hot."},
+        {"zh": "我在数经过的东西", "en": "I count what passes."},
+        {"zh": "我不需要呼吸得很急", "en": "I do not need to breathe hard."},
+        {"zh": "我碰了碰同伴的触角", "en": "I touch a companion's antenna."},
+        {"zh": "巢里传来些声音", "en": "Some sounds come from the nest."},
+        {"zh": "我在等它们出来", "en": "I wait for them to come out."},
+        {"zh": "我在巢口来回走了两步", "en": "I pace two steps at the nest mouth."},
+        {"zh": "我把触角竖得更高", "en": "I raise my antennae higher."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你站在我的巢前面", "en": "You are standing before my nest."},
+        {"zh": "我把头缓缓抬起", "en": "I raise my head slowly."},
+        {"zh": "我认得活物的味道，下界巢里全是。", "en": "I know the smell of the living; it fills my Nether nest."},
+        {"zh": "你站在我的巢前面，前足抬起来了。", "en": "You stand before my nest; my foreleg is raised."},
+        {"zh": "我的前足抬起来了", "en": "My forelegs have lifted."},
+        {"zh": "这还只是提醒", "en": "This is only a reminder."},
+        {"zh": "这一带方圆都是我的", "en": "This whole area is mine."},
+        {"zh": "我不太喜欢等", "en": "I do not like waiting."},
+        {"zh": "我的颚一直张着", "en": "My mandibles stay open."},
+        {"zh": "巢口的岩缝里还有十只。", "en": "Ten more wait in the crevice at my nest mouth."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的甲上有一道裂", "en": "A crack in my shell."},
+        {"zh": "我退了一步，颚还张着", "en": "I step back, mandibles still open."},
+        {"zh": "甲裂到腹节，我照样张颚。", "en": "The crack reaches my abdomen; my mandibles still open."},
+        {"zh": "我翻过身，又翻回来", "en": "I flip over, and back."},
+        {"zh": "我一声也没叫", "en": "I made no sound."},
+        {"zh": "我的颚还使得上", "en": "My mandibles still work."},
+        {"zh": "同伴朝我靠过来", "en": "My companions are closing in around me."},
+        {"zh": "同伴用触角敲我的甲，问伤。", "en": "A nestmate taps my shell, asking if I am hurt."},
+        {"zh": "这点伤不打紧", "en": "This wound is no matter."},
+        {"zh": "我会还回去的", "en": "I will pay it back."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手里的血还在滴。", "en": "Blood is still dripping from your hand."},
+        {"zh": "我朝你那边转", "en": "I turn your way."},
+        {"zh": "这点不够分给巢", "en": "Not enough to share with the nest."},
+        {"zh": "我把颚伸出去", "en": "I extend my mandibles."},
+        {"zh": "下界的蚁巢，我守着。", "en": "I guard the Nether ant nest."},
+        {"zh": "我闻到了血腥气", "en": "I smell blood."},
+        {"zh": "你手别抽回去", "en": "Do not pull your hand back."},
+        {"zh": "下界的热气把我的味道吹过去。", "en": "Nether heat carries my scent toward you."},
+        {"zh": "岩壁挡着你的退路", "en": "The rock face blocks your retreat."},
+        {"zh": "这个我就收下了", "en": "I will take this."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上我的红甲", "en": "You struck my red shell."},
+        {"zh": "我一步也没退", "en": "I did not give a step."},
+        {"zh": "我的颚差点咬到你", "en": "My mandibles nearly caught you."},
+        {"zh": "你退开时踩碎了石头", "en": "You cracked stone as you backed away."},
+        {"zh": "我们贴得太紧了", "en": "We are pressed too tight."},
+        {"zh": "热风把我们推到一处", "en": "The hot wind pushed us together."},
+        {"zh": "我贴着你的靴子", "en": "I am against your boot."},
+        {"zh": "这点碰撞不算数", "en": "That bump does not count."},
+        {"zh": "让开，这是我的路", "en": "Move; this is my road."},
+        {"zh": "别堵在巢的门口", "en": "Do not block the nest entrance."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我们用触角交谈", "en": "We speak with our antennae."},
+        {"zh": "巢已经挖好了", "en": "The nest is dug."},
+        {"zh": "你守着这一侧", "en": "You watch this side."},
+        {"zh": "我下去看另一侧", "en": "I go down to check the other."},
+        {"zh": "这里的岩层够暖", "en": "These rock layers are warm enough."},
+        {"zh": "我们把卵放进去", "en": "We put the eggs inside."},
+        {"zh": "别让热气散出去", "en": "Do not let the heat out."},
+        {"zh": "我们轮流在外面", "en": "We take turns outside."},
+        {"zh": "这一片归我们", "en": "This stretch is ours."},
+        {"zh": "声音再轻一些", "en": "Quieter still."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用大颚夹住它", "en": "I grip it with my mandibles."},
+        {"zh": "它比我的身子还大", "en": "It is bigger than my body."},
+        {"zh": "我扛在背上走", "en": "I carry it on my back."},
+        {"zh": "烫得实在太厉害", "en": "It is far too hot."},
+        {"zh": "我把它拖进巢口", "en": "I drag it to the nest mouth."},
+        {"zh": "这东西我咽不下", "en": "I cannot swallow this."},
+        {"zh": "我的巢口，冒着下界热气。", "en": "Heat rises from my nest mouth."},
+        {"zh": "队伍用得上这个", "en": "The colony can use this."},
+        {"zh": "我搬得动这个", "en": "I can carry this."},
+        {"zh": "先搁在洞口边", "en": "Set it by the nest mouth."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的眼盯住你了", "en": "My eyes are on you."},
+        {"zh": "我在下界筑巢，红得显眼。", "en": "I nest in the Nether, red and plain."},
+        {"zh": "我的同伴从后面绕", "en": "My companions circle behind."},
+        {"zh": "你只有一个出口", "en": "You have only one way out."},
+        {"zh": "这一带没有别的东西可吃", "en": "There is nothing else to eat here."},
+        {"zh": "我在巢前，不会让", "en": "I stand before the nest, and will not yield."},
+        {"zh": "你踩到我的气味线了", "en": "You stepped on my scent trail."},
+        {"zh": "我的红甲在发亮", "en": "My red shell is gleaming."},
+        {"zh": "那就先开始吧", "en": "Then let us start."},
+        {"zh": "你退也来不及", "en": "Retreating is too late."},
+        {"zh": "我数三下就动手", "en": "I act on the third count."},
+        {"zh": "喊破喉咙也没有用", "en": "Shouting your throat out is useless."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我沿着气味线追你", "en": "I follow the scent trail after you."},
+        {"zh": "你往哪走，触角就往哪", "en": "My antennae turn wherever you go."},
+        {"zh": "我绕到岩壁上面", "en": "I go up the rock face."},
+        {"zh": "从下界巢顶爬下来更快。", "en": "Climbing down from the Nether nest is faster."},
+        {"zh": "你背后有我的同伴", "en": "My companions are behind you."},
+        {"zh": "你前面的路被岩浆截断", "en": "Lava cuts off the road ahead."},
+        {"zh": "我一步一步收拢", "en": "I close in step by step."},
+        {"zh": "你已经开始出汗了", "en": "You are already sweating."},
+        {"zh": "这里的热对我有利", "en": "The heat favours me."},
+        {"zh": "我的甲不怕烫", "en": "My shell does not mind heat."},
+        {"zh": "我也在找，找更好的角度", "en": "I am looking too, for a better angle."},
+        {"zh": "我从侧面迂回过去", "en": "I work around the flank."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下界筑巢的红蚁，牙很硬。", "en": "A Nether-nesting red ant with hard jaws."},
+        {"zh": "我的颚合得很紧", "en": "My mandibles clamp tight."},
+        {"zh": "我从你靴子上爬上去", "en": "I climb up your boot."},
+        {"zh": "这一下会一直疼", "en": "This will ache for a while."},
+        {"zh": "我从你的护甲缝里咬", "en": "I bite at your armour's seam."},
+        {"zh": "我的同伴也到了", "en": "My companions have arrived."},
+        {"zh": "我退开重新排位", "en": "I pull back and reposition."},
+        {"zh": "这一下很划算", "en": "That was worth it."},
+        {"zh": "我的颚上还挂着你的布。", "en": "Your cloth still hangs from my mandibles."},
+        {"zh": "这回咬得更深", "en": "This bite went deeper."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从下界的岩缝里爬出来，红甲发亮。", "en": "I crawl out of a nether crevice, red shell shining."},
+        {"zh": "红色的甲很显眼", "en": "My red shell stands out."},
+        {"zh": "同伴一只只跟上", "en": "One companion after another follows."},
+        {"zh": "这是我的巢口", "en": "This is my nest mouth."},
+        {"zh": "热气从下面冒上来", "en": "Heat rises from below."},
+        {"zh": "这一带我很熟悉", "en": "I know this area well."},
+        {"zh": "前面有活物的味道", "en": "There is the smell of something living ahead."},
+        {"zh": "我朝那边转了身", "en": "I turned that way."},
+        {"zh": "我把颚张开了", "en": "I have opened my mandibles."},
+        {"zh": "我已经到了这边", "en": "I have come to this side."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的甲被烧得更红了", "en": "My shell burns brighter red."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从岩壁上摔下来", "en": "I fall from the rock face."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水在这里很稀奇，也很难受", "en": "Water is rare here, and painful."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "热浪把我掀到岩壁上。", "en": "The blast throws me against the cliff wall."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一根东西扎进我的甲缝", "en": "Something sticks in my shell's seam."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那道力量让我的颚发麻", "en": "That force numbs my mandibles."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "巢里没有存粮了", "en": "The nest has no stores left."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打下来，我的甲噼啪响", "en": "Lightning strikes; my shell crackles."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里没有岩壁可以爬", "en": "There is no rock face to climb."}
+      ]
+    }
+  }
+}

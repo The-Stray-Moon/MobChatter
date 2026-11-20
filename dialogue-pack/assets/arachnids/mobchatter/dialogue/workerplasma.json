@@ -1,0 +1,245 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我六条腿一起动，沙地陷下去。", "en": "Six legs move and the sand sinks."},
+        {"zh": "我身上的甲片一节一节动。", "en": "The plates on my body shift segment by segment."},
+        {"zh": "我沿着沙丘的脊线走。", "en": "I walk the crest of the dune."},
+        {"zh": "我的颚一直在磨。", "en": "My mandibles never stop grinding."},
+        {"zh": "我把沙子推到两边。", "en": "I push the sand aside."},
+        {"zh": "我绕开一块风化的石头。", "en": "I go round a weathered stone."},
+        {"zh": "我走得离地面很近。", "en": "I keep very low to the ground."},
+        {"zh": "我的六条腿上都带着刺。", "en": "There are spines on all six of my legs."},
+        {"zh": "我从虫巢的方向走过来。", "en": "I come from the hive's direction."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我立着，腿撑得很开。", "en": "I stand with my legs spread wide."},
+        {"zh": "我把头压低，等着。", "en": "I lower my head and wait."},
+        {"zh": "沙打在甲上，很轻。", "en": "Sand patters lightly on my shell."},
+        {"zh": "我的腿一直没停过抖。", "en": "My legs never stop twitching."},
+        {"zh": "虫巢那边在动。", "en": "Something moves at the hive."},
+        {"zh": "我不需要躲太阳。", "en": "I needn't hide from the sun."},
+        {"zh": "我的甲壳里，等离子在响。", "en": "Plasma hums inside my shell."},
+        {"zh": "我身上的刺一根根竖着。", "en": "My spines stand up in rows."},
+        {"zh": "风一停，我就听见了。", "en": "When the wind stops, I hear it."},
+        {"zh": "我把一条前腿悬在沙面上。", "en": "I hold one foreleg above the sand."},
+        {"zh": "虫巢的低音传过来。", "en": "A low hum comes from the hive."},
+        {"zh": "我把头转向风口。", "en": "I turn my head into the wind."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你正站在虫群的路上。", "en": "You stand in the swarm's path."},
+        {"zh": "我的六只眼睛都对着你。", "en": "All six of my eyes are on you."},
+        {"zh": "我低头闻了闻沙。", "en": "I lower my head and sniff the sand."},
+        {"zh": "我们从不后退。", "en": "We never step back."},
+        {"zh": "我把口器张开又合上。", "en": "I open and close my mouthparts."},
+        {"zh": "我还在等你动。", "en": "I'm still waiting for you to move."},
+        {"zh": "这一片沙子归虫群。", "en": "This sand belongs to the swarm."},
+        {"zh": "你退，我就让你走。", "en": "Back off and I'll let you go."},
+        {"zh": "我把甲贴到沙面上。", "en": "I press my shell to the sand."},
+        {"zh": "我的影子是黑的。", "en": "My shadow is black."},
+        {"zh": "你的靴子陷在沙里了。", "en": "Your boots are sunk in the sand."},
+        {"zh": "我不喜欢别人走近虫巢。", "en": "I don't like anyone nearing the hive."},
+        {"zh": "你的手一直没动。", "en": "Your hands haven't moved."},
+        {"zh": "你还有七步，我数着。", "en": "Seven steps left — I'm counting."},
+        {"zh": "这里的沙很松，你跑不快。", "en": "The sand is loose; you can't run fast."},
+        {"zh": "我等你露出背影。", "en": "I'm waiting to see your back."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的甲上裂了一道。", "en": "A crack opens in my shell."},
+        {"zh": "我退了半步，腿还在撑。", "en": "I give half a step, legs still braced."},
+        {"zh": "我少了一条腿，还站着。", "en": "A leg short, and still standing."},
+        {"zh": "我的体液滴进沙里。", "en": "My fluid drips into the sand."},
+        {"zh": "我低低地发声。", "en": "I make a low sound."},
+        {"zh": "我把伤的那边转开。", "en": "I turn the wounded side away."},
+        {"zh": "我的口器合不上了。", "en": "My mouthparts won't close."},
+        {"zh": "我抖了抖，又站住了。", "en": "I shudder once and plant myself."},
+        {"zh": "我这样还能走。", "en": "I can still walk like this."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那是从虫巢拿来的吗。", "en": "Did that come from the hive?"},
+        {"zh": "我只抬了抬前腿。", "en": "I only lift a foreleg."},
+        {"zh": "虫群不吃这种东西。", "en": "The swarm doesn't eat that."},
+        {"zh": "你把东西扔在地上。", "en": "You throw it on the ground."},
+        {"zh": "我伸腿把它拨开。", "en": "I push it aside with a leg."},
+        {"zh": "这味道不像虫巢的东西。", "en": "It doesn't smell of the hive."},
+        {"zh": "虫群不吃这个。", "en": "The swarm doesn't eat this."},
+        {"zh": "我脚步没有停一下。", "en": "My feet don't pause once."},
+        {"zh": "它被埋进沙里了。", "en": "It's buried in the sand."},
+        {"zh": "我连脚都没有停。", "en": "I don't even slow my feet."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞在我身上，我的甲响了。", "en": "You hit me and my shell rings."},
+        {"zh": "我六条腿一撑，站稳了。", "en": "Six legs brace and hold."},
+        {"zh": "这一下让我侧了半步。", "en": "That shifts me half a step sideways."},
+        {"zh": "我把你推开，没用多少力。", "en": "I shove you off without much force."},
+        {"zh": "我低下头，口器在动。", "en": "I lower my head, mouthparts working."},
+        {"zh": "我又回到原来的路线。", "en": "I return to my line."},
+        {"zh": "你没有把我推动。", "en": "You didn't move me."},
+        {"zh": "我抖了抖甲上的沙。", "en": "I shake the sand off my shell."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "她身上的光更暗。", "en": "Her glow is dimmer than mine."},
+        {"zh": "我们在沙丘背后靠在一起。", "en": "We come together behind the dune."},
+        {"zh": "她的腿比我细。", "en": "Her legs are thinner than mine."},
+        {"zh": "我们用触角碰了碰。", "en": "Our antennae touch."},
+        {"zh": "沙地上有三行印。", "en": "There are three lines of prints in the sand."},
+        {"zh": "我们只用触角说话。", "en": "We speak only with our antennae."},
+        {"zh": "她的甲上有一个缺口。", "en": "There's a chip in her shell."},
+        {"zh": "我们朝虫巢那边去了。", "en": "We head toward the hive."},
+        {"zh": "这一片沙丘归我们巡。", "en": "This dune is ours to patrol."},
+        {"zh": "她先进了通道。", "en": "She goes into the tunnel first."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它在我钳上碎了。", "en": "It crumbles in my grip."},
+        {"zh": "我把它塞进口器。", "en": "I push it into my mouthparts."},
+        {"zh": "这东西太软了。", "en": "This is far too soft."},
+        {"zh": "我把它丢在沙上。", "en": "I drop it on the sand."},
+        {"zh": "它上面有别的味道。", "en": "There's another smell on it."},
+        {"zh": "我把它举到口器前面。", "en": "I hold it before my mouthparts."},
+        {"zh": "沙子立刻盖住了它。", "en": "The sand covers it at once."},
+        {"zh": "我没有再看它一眼。", "en": "I don't give it another look."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你终于动了一下。", "en": "You finally moved."},
+        {"zh": "等离子在我甲壳里转。", "en": "Plasma churns in my shell."},
+        {"zh": "我把前腿抬高。", "en": "I lift my forelegs higher."},
+        {"zh": "虫群从不放过。", "en": "The swarm never lets anything go."},
+        {"zh": "我朝你那边迈开腿。", "en": "I start my legs toward you."},
+        {"zh": "沙在我脚下陷。", "en": "The sand gives under me."},
+        {"zh": "我的口器张到最大。", "en": "My mouthparts open wide."},
+        {"zh": "你退到沙丘下面。", "en": "You've backed below the dune."},
+        {"zh": "那一边没有路。", "en": "There's no way out that side."},
+        {"zh": "你已经被我盯死了。", "en": "I have you pinned in my sight."},
+        {"zh": "我把身体压低，再低。", "en": "I lower myself, and lower."},
+        {"zh": "这一下我要压到你身上。", "en": "This time I'll come down on you."},
+        {"zh": "你现在只能跑了。", "en": "All you can do now is run."},
+        {"zh": "我的一条腿已经抬起来。", "en": "One of my legs is already raised."},
+        {"zh": "沙丘挡不住我。", "en": "A dune won't stop me."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一路跟着，没有停。", "en": "I follow without pausing."},
+        {"zh": "六条腿一齐动，比你快。", "en": "Six legs move as one — faster than you."},
+        {"zh": "沙让我的步子变慢。", "en": "The sand slows my stride."},
+        {"zh": "我绕到沙丘那边。", "en": "I go round the far side of the dune."},
+        {"zh": "你在我和虫巢之间。", "en": "You're between me and the hive."},
+        {"zh": "我把前腿抬到你胸口那么高。", "en": "I raise my forelegs to your chest height."},
+        {"zh": "你已经把手抬起来挡了。", "en": "You've already put your hands up."},
+        {"zh": "我一下一下地压过去。", "en": "I press in, jolt by jolt."},
+        {"zh": "你退到一块石头边上。", "en": "You've backed to a stone."},
+        {"zh": "我把石头撞开。", "en": "I knock the stone away."},
+        {"zh": "最后只剩几步距离了。", "en": "There are only a few steps left."},
+        {"zh": "我便压了下去。", "en": "So I come down."},
+        {"zh": "你的呼吸乱了，虫群听见了。", "en": "Your breathing broke rhythm; the swarm heard."},
+        {"zh": "我把整个身子放低。", "en": "I bring my whole body down."},
+        {"zh": "这一下就结束。", "en": "This one finishes it."},
+        {"zh": "我已经压住你了。", "en": "I've got you pinned down."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用前腿劈下去。", "en": "My forelegs hack down."},
+        {"zh": "我的口器咬在你肩上。", "en": "My mouthparts bite your shoulder."},
+        {"zh": "这一下把你撞倒了。", "en": "That knocks you down."},
+        {"zh": "我用刺扫过你的腿。", "en": "My spines rake your leg."},
+        {"zh": "你砍在我甲上，滑开了。", "en": "Your blade skids off my shell."},
+        {"zh": "你在我下面挣扎。", "en": "You struggle beneath me."},
+        {"zh": "又补了一下，等离子还烫。", "en": "Another hit. Plasma's still hot."},
+        {"zh": "你终于不再动了。", "en": "You've finally stopped moving."},
+        {"zh": "我把口器抬起来。", "en": "I raise my mouthparts."},
+        {"zh": "我把前腿收回来。", "en": "I draw my forelegs back."},
+        {"zh": "你的血渗进沙里。", "en": "Your blood soaks into the sand."},
+        {"zh": "虫群会来收拾。", "en": "The swarm will come for the rest."},
+        {"zh": "我转身朝虫巢去。", "en": "I turn back toward the hive."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙里钻出一个黑色的头。", "en": "A black head pushes up out of the sand."},
+        {"zh": "我的六条腿一条条伸出来。", "en": "My six legs come out one by one."},
+        {"zh": "甲片一节节接上。", "en": "The plates lock segment to segment."},
+        {"zh": "我把身上的沙抖掉。", "en": "I shake the sand off."},
+        {"zh": "虫巢的方向有低低的声音。", "en": "There's a low sound from the hive's direction."},
+        {"zh": "我抬起头，看了看这片沙。", "en": "I raise my head and look over the sand."},
+        {"zh": "我的口器第一次张开。", "en": "I open my mouthparts for the first time."},
+        {"zh": "沙丘上一道道风纹。", "en": "Wind ridges run across the dune."},
+        {"zh": "我试着挪了几步。", "en": "I try a few shuffling steps."},
+        {"zh": "我的腿陷下去很深。", "en": "My legs sink deep."},
+        {"zh": "远处有热的东西。", "en": "Something warm is far off."},
+        {"zh": "风把沙吹到我的甲上。", "en": "Wind blows sand onto my shell."},
+        {"zh": "我把腿一根根理顺。", "en": "I straighten my legs one by one."},
+        {"zh": "这里的每道沙脊我都记着。", "en": "I know every ridge of sand here."},
+        {"zh": "我开始巡这一片。", "en": "I begin patrolling this stretch."},
+        {"zh": "太阳照得沙发白。", "en": "The sun bleaches the sand white."},
+        {"zh": "我朝最高的沙丘爬。", "en": "I climb the highest dune."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎到我的甲，我往沙里钻。", "en": "Fire catches my shell and I dig into the sand."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从沙丘上滚下去。", "en": "I roll down the dune."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击掀起一层沙子盖住我。", "en": "The blast throws a layer of sand over me."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一根尖东西卡进甲缝。", "en": "Something lodges in a seam of my shell."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得腿都撑不住。", "en": "Too starved to hold my legs up."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷落在我身上，甲都亮了。", "en": "Lightning hits and my shell lights up."}
+      ]
+    }
+  }
+}

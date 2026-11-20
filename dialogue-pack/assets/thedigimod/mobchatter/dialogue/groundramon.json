@@ -1,0 +1,266 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的爪子刨开一层碎石", "en": "My claws scoop away a layer of gravel"},
+        {"zh": "我的翅膀折着，像两片岩", "en": "My wings fold like two slabs of rock."},
+        {"zh": "在滴水石洞里，我走得很慢", "en": "In the dripstone caves I move slowly."},
+        {"zh": "洞顶很低，我低着头", "en": "The ceiling is low; I keep my head down."},
+        {"zh": "我的尾巴在洞里拖出声", "en": "My tail drags noisily in the cave."},
+        {"zh": "每一步都让碎石滑一下", "en": "Every step makes rubble slide."},
+        {"zh": "我贴着石笋绕过去", "en": "I skirt around a stalagmite."},
+        {"zh": "每走一步，碎石往下滑", "en": "Every step, gravel slides down beneath me"},
+        {"zh": "在沙漠里，我反而走得快", "en": "In the desert I move faster."},
+        {"zh": "我的爪子抓着干裂的土", "en": "My claws grip the cracked earth."},
+        {"zh": "我沿着洞壁走，避开深处", "en": "I keep to the cave wall, away from the depths."},
+        {"zh": "深处太暗，我不喜欢", "en": "The depths are too dark. I dislike them."},
+        {"zh": "我转身，肩膀擦过石面", "en": "Turning, my shoulder scrapes the stone."},
+        {"zh": "我的爪子，专挖地面。", "en": "These claws are made for digging."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我伏在洞底，一动不动", "en": "I lie on the cave floor, motionless."},
+        {"zh": "背上的甲片透着一点红", "en": "A faint red shows through my back plates."},
+        {"zh": "我在听滴水的声音", "en": "I listen to the dripping water."},
+        {"zh": "空气里有硫磺和石粉", "en": "Sulfur and stone dust in the air."},
+        {"zh": "我的尾巴在身后轻轻摆", "en": "My tail sways gently behind me."},
+        {"zh": "我在锚点附近盘着", "en": "I coil near my anchor."},
+        {"zh": "洞外有风，洞内没有", "en": "Wind outside, none in here."},
+        {"zh": "我把头抬起来，听了一下", "en": "I raise my head and listen."},
+        {"zh": "石柱的影子很长", "en": "The pillar's shadow is long."},
+        {"zh": "我在等有东西进洞", "en": "I wait for something to enter the cave."},
+        {"zh": "我的甲片慢慢凉下来", "en": "My plates cool slowly."},
+        {"zh": "凉下来反而更好", "en": "Cooler is better, actually."},
+        {"zh": "我又把身体压回地面", "en": "I press my body back to the floor."},
+        {"zh": "那就先等着吧", "en": "Then I'll wait for now."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从石笋后面打量你", "en": "I size you up from behind a stalagmite."},
+        {"zh": "你站在洞口，背着光", "en": "You stand in the cave mouth, backlit."},
+        {"zh": "我的甲片比你的护甲厚", "en": "My plates are thicker than your armour."},
+        {"zh": "我的翅膀折着，但能张开", "en": "My wings are folded, but they open."},
+        {"zh": "你走近了，洞里的声音变了", "en": "You came closer; the cave's sound changed."},
+        {"zh": "我把脑袋从地面抬起来", "en": "I lift my head off the ground."},
+        {"zh": "洞顶很低，你退不远", "en": "The ceiling is low. You can't retreat far."},
+        {"zh": "我对这一带很熟", "en": "I know this place well."},
+        {"zh": "你也会挖洞吗", "en": "Do you dig as well?"},
+        {"zh": "我可以教你，也可以不理", "en": "I could teach you, or ignore you."},
+        {"zh": "现在我还没决定", "en": "I haven't decided yet."},
+        {"zh": "你站在原地等着", "en": "You stand there waiting."},
+        {"zh": "那我就给你答案", "en": "Then I'll give you an answer."},
+        {"zh": "我从石笋后探出半个头", "en": "I poke half my head out from the stalagmite"},
+        {"zh": "这只是准备动作", "en": "This is only preparation."},
+        {"zh": "你站在那儿一直没退开", "en": "You've stood there and not stepped back."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的甲片上裂了一块", "en": "A chunk cracks off my plate."},
+        {"zh": "我伏得更低了些", "en": "I press down even lower."},
+        {"zh": "洞顶的灰落在我背上", "en": "Dust from the ceiling settles on my back."},
+        {"zh": "我低吼，回声很响", "en": "I growl; the echo is loud."},
+        {"zh": "翅膀有一边不太能动", "en": "One wing won't move well."},
+        {"zh": "我往石柱后面缩", "en": "I shrink back behind the pillar."},
+        {"zh": "甲片裂了一块，我慢了。", "en": "A plate cracked; I slowed down."},
+        {"zh": "你又退开了，很好", "en": "You pulled back again. Good."},
+        {"zh": "洞里还有很长的路", "en": "There's a long way left in this cave."},
+        {"zh": "我还没打算认输", "en": "I'm not about to yield."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那东西我不入口", "en": "That thing doesn't go in my mouth."},
+        {"zh": "但它的材质我认得", "en": "But I know its material."},
+        {"zh": "我这两条铲子似的手，先拱开土。", "en": "My shovel hands dig through the soil first."},
+        {"zh": "那东西的硬度，我闻得出", "en": "I can smell how hard that thing is"},
+        {"zh": "我用爪尖蹭了蹭它", "en": "I scrape it with a claw tip."},
+        {"zh": "石头，或者金属", "en": "Stone, or metal."},
+        {"zh": "这个好像能挖开", "en": "This looks diggable."},
+        {"zh": "我的翅根一合，它就归我", "en": "My wing roots close and it is mine"},
+        {"zh": "你退到洞口去", "en": "Go back to the cave mouth."},
+        {"zh": "现在这东西归我了", "en": "It belongs to me now."},
+        {"zh": "我的爪子已经攥住它了", "en": "My claws have already closed on it"},
+        {"zh": "看可以，别伸手", "en": "Look if you like. Don't reach."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞在我身上，洞里有回音", "en": "You hit me; it echoes in the cave."},
+        {"zh": "我的身体几乎没有挪", "en": "My body barely shifts."},
+        {"zh": "碎石从洞顶落了几块", "en": "A few stones drop from the ceiling."},
+        {"zh": "这一撞让我的翅膀弹开一下", "en": "That made my wing flick open."},
+        {"zh": "我把翅膀又折回去", "en": "I fold it back."},
+        {"zh": "你退开，鞋底在石上滑", "en": "You back off, boots slipping on stone."},
+        {"zh": "洞里灰尘扬起来", "en": "Dust rises in the cave."},
+        {"zh": "别贴着我的翅根", "en": "Don't press at the base of my wings."},
+        {"zh": "那里是最脆弱的地方", "en": "That's the most fragile spot."},
+        {"zh": "我不喜欢有人知道", "en": "I don't like anyone knowing that."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我这么大的身子，没有同类", "en": "A body this big, and no kin of mine"},
+        {"zh": "我们各占一段洞道", "en": "We each hold a stretch of tunnel."},
+        {"zh": "碰上了就互相让", "en": "Meeting, we give way."},
+        {"zh": "我的锚点在石柱旁边", "en": "My anchor is by the pillar."},
+        {"zh": "那条洞道朝下，很暖", "en": "That tunnel leads down. It's warm."},
+        {"zh": "你走前面，我压后", "en": "You lead; I'll take the rear."},
+        {"zh": "有东西来，我挡在洞里", "en": "If something comes, I block the tunnel."},
+        {"zh": "我够宽，挡得住", "en": "I'm wide enough."},
+        {"zh": "洞里回声大，别喊", "en": "Echoes are loud in here. Don't shout."},
+        {"zh": "就用碰一下代替说话", "en": "A nudge will do instead of words."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用爪子把它刨出来", "en": "I dig it out with a claw."},
+        {"zh": "它卡在石缝里", "en": "It's stuck in a crack."},
+        {"zh": "我用力一撬，出来了", "en": "One hard lever and it's out."},
+        {"zh": "这东西能挖更深的洞", "en": "This can dig deeper tunnels."},
+        {"zh": "你掉的，落在洞底了", "en": "You dropped it on the cave floor."},
+        {"zh": "我把它压在翅膀下面", "en": "I tuck it under my wing."},
+        {"zh": "太重了，我推着走", "en": "Too heavy. I push it."},
+        {"zh": "我推到石柱后面", "en": "I push it behind the pillar."},
+        {"zh": "回头我再来搬", "en": "I'll come move it later."},
+        {"zh": "没用的就扔进缝里", "en": "Useless things go into a crack."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你走进了我的洞道", "en": "You've walked into my tunnel."},
+        {"zh": "我把身子转过来", "en": "I turn my body around."},
+        {"zh": "翅膀张开一半，卡着洞壁", "en": "I half-open my wings against the walls."},
+        {"zh": "这里很窄，你躲不开", "en": "It's narrow here. You can't dodge."},
+        {"zh": "我的爪子先挖进石缝", "en": "My claws dig into the rock seam."},
+        {"zh": "这一扑会把你压在壁上", "en": "This lunge will pin you to the wall."},
+        {"zh": "你后退，我跟着挤", "en": "You retreat; I squeeze after."},
+        {"zh": "我的甲片比石头硬", "en": "My plates are harder than the stone."},
+        {"zh": "你手里的东西挡不住", "en": "What you hold won't stop this."},
+        {"zh": "前面是条死路", "en": "There's a dead end ahead."},
+        {"zh": "这一点我很确定", "en": "I'm quite sure of that."},
+        {"zh": "我来，别回头", "en": "Here I come. Don't look back."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在洞道里跟着你", "en": "I follow you through the tunnel."},
+        {"zh": "我的呼吸声在石壁间撞", "en": "My breathing bounces off the walls."},
+        {"zh": "你听得见，但躲不开", "en": "You hear it, but you can't dodge."},
+        {"zh": "这条道只有一个方向", "en": "This tunnel runs one way."},
+        {"zh": "你只能一直往前", "en": "You can only keep going forward."},
+        {"zh": "前面的洞顶更低了", "en": "The ceiling drops further ahead."},
+        {"zh": "到那里你就得弯腰", "en": "There you'll have to stoop."},
+        {"zh": "那你就跑不掉了", "en": "Then you can't get away."},
+        {"zh": "洞里太窄，你侧不开身", "en": "The cave is too narrow for you to sidestep"},
+        {"zh": "我的甲片擦过石壁，冒火星", "en": "My plates scrape the wall and throw sparks"},
+        {"zh": "地龙兽的爪，再走几步就到。", "en": "A few more steps of these claws."},
+        {"zh": "现在该我动了", "en": "Now it's my turn to move."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的爪子拍在你背上", "en": "My claw strikes your back."},
+        {"zh": "我的爪把你钉进碎石里", "en": "My claw pins you into the rubble"},
+        {"zh": "我的头顶在你胸口", "en": "My headbutt lands on your chest."},
+        {"zh": "洞顶被我们撞落几块石头", "en": "We knock stones from the ceiling."},
+        {"zh": "我的翅膀扫开你的武器", "en": "My wing sweeps your weapon aside."},
+        {"zh": "你的护甲在石头上刮出响", "en": "Your armour scrapes loudly on stone."},
+        {"zh": "我压低身子又冲了一次", "en": "I lower myself and charge again."},
+        {"zh": "洞里没有地方闪", "en": "No room to dodge in here."},
+        {"zh": "洞壁帮了我一把", "en": "The tunnel walls help me."},
+        {"zh": "你被挤在角落里", "en": "You're squeezed into the corner."},
+        {"zh": "这一下把事办完", "en": "This blow gets it done."},
+        {"zh": "到这儿结束了", "en": "It's over here."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从深暗的洞里爬上来", "en": "I crawl up out of the deep dark."},
+        {"zh": "石壁上映出我的形状", "en": "My shape shows on the cave wall."},
+        {"zh": "翅膀折着，走过窄处", "en": "Wings folded, I pass the narrow spots."},
+        {"zh": "这一群来了两三头", "en": "Two or three of us came."},
+        {"zh": "我在石柱旁边盘下来", "en": "I settle by the stone pillar."},
+        {"zh": "洞里有滴水，很规律", "en": "Water drips steadily in here."},
+        {"zh": "我的甲片还带着地下的凉", "en": "My plates still carry the underground chill."},
+        {"zh": "我抬起头，听外面", "en": "I raise my head and listen outside."},
+        {"zh": "有风声，也有别的", "en": "Wind, and something else."},
+        {"zh": "我慢慢转向洞口", "en": "I turn slowly to the cave mouth."},
+        {"zh": "爪子在地上刮了一下", "en": "My claws scrape once."},
+        {"zh": "我就在这儿等着", "en": "I'll wait right here."},
+        {"zh": "洞道里只有我的呼吸声", "en": "Only my breathing fills the tunnel."},
+        {"zh": "洞顶太低，我只得伏着", "en": "The ceiling is low, so I have to crouch"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火光照亮整条洞道", "en": "Firelight fills the whole tunnel."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从洞壁摔下，砸在石堆上", "en": "I fall from the wall onto a pile of stone."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进洞里，我往下沉", "en": "Water floods the cave and I sink."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把洞道里的石头全掀起来", "en": "The blast throws up every stone in the tunnel."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭插在我的翅根旁", "en": "An arrow sticks by the base of my wing."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这光在洞里绕了一圈", "en": "That light circles once in the cave."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得连翅膀都撑不开", "en": "Too starved to spread my wings."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打进洞里，我整具身子一颤", "en": "Lightning enters the cave and my whole body jolts."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "洞底没有了，我往下掉", "en": "The cave floor is gone. I fall."}
+      ]
+    }
+  }
+}

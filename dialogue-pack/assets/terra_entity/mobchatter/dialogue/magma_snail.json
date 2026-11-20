@@ -1,0 +1,260 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我拖着壳往前滑", "en": "I drag my shell forward."},
+        {"zh": "壳缝里渗出橙色的光", "en": "Orange light seeps from my shell's seams."},
+        {"zh": "我身后留下一道焦痕", "en": "I leave a scorched trail behind."},
+        {"zh": "我很慢，但一直不停", "en": "I'm slow, but I never stop."},
+        {"zh": "黏液在地上滋一声", "en": "My slime hisses on the ground."},
+        {"zh": "我沿着岩面贴过去", "en": "I glide along the rock face."},
+        {"zh": "我的壳比我的身体沉", "en": "My shell weighs more than my body."},
+        {"zh": "我绕过热的地方", "en": "I go around hot spots."},
+        {"zh": "两根触角在探路", "en": "My two tentacles feel the way."},
+        {"zh": "我过了土坡，很费力", "en": "Crossing the rise takes effort."},
+        {"zh": "我的身后有点烟", "en": "A little smoke trails behind me."},
+        {"zh": "我不需要快，我只要到", "en": "I needn't be fast. Only arrive."},
+        {"zh": "壳上有一圈圈的纹", "en": "My shell has rings of ridges."},
+        {"zh": "我缓慢地转向", "en": "I turn, slowly."},
+        {"zh": "地面在我身下微微发烫", "en": "The ground warms under me."},
+        {"zh": "我停一下，壳里的光晃了", "en": "I stop; the light in my shell shifts."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把身体缩回壳里", "en": "I draw my body into the shell."},
+        {"zh": "壳里的光慢慢转", "en": "The light inside turns slowly."},
+        {"zh": "我在等岩面凉一点", "en": "I wait for the rock to cool."},
+        {"zh": "我的触角伸出去又收回", "en": "My tentacles reach out, then back."},
+        {"zh": "周围很热，我很舒服", "en": "It's hot here. Comfortable."},
+        {"zh": "我壳缝里的光很稳", "en": "The light in my seams is steady."},
+        {"zh": "我壳里的岩浆，还在滚。", "en": "Lava still rolls inside my shell."},
+        {"zh": "有灰落在我的壳上", "en": "Ash settles on my shell."},
+        {"zh": "我把触角缩短了一点", "en": "I retract my tentacles a little."},
+        {"zh": "壳里传来轻微的裂响", "en": "A faint crack sounds inside the shell."},
+        {"zh": "我慢慢转过一点身子", "en": "I turn my body a little."},
+        {"zh": "附近没有东西在动", "en": "Nothing moves nearby."},
+        {"zh": "我缩着，省点力", "en": "I stay tucked, saving effort."},
+        {"zh": "我的壳一直暖着", "en": "My shell stays warm."},
+        {"zh": "又一片灰落下来", "en": "Another flake of ash falls."},
+        {"zh": "壳口的黏液慢慢冷下来。", "en": "The slime at my shell's mouth slowly cools."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从壳口看你", "en": "I look at you from my shell's mouth."},
+        {"zh": "我的触角尖对着你的靴子。", "en": "My tentacle tips point at your boots."},
+        {"zh": "我慢慢把触角收回来", "en": "I slowly draw my tentacles in."},
+        {"zh": "我的壳还在发烫", "en": "My shell is still hot."},
+        {"zh": "你退开一点，我会好受", "en": "Step back and I'll be easier."},
+        {"zh": "我不快，但我不好惹", "en": "I'm slow, but not harmless."},
+        {"zh": "壳缝里的光透不过你的影子。", "en": "The light in my shell cannot pierce your shadow."},
+        {"zh": "我缩了一下，壳响了一声", "en": "I shrink in and the shell clicks."},
+        {"zh": "这一片岩面是我的路", "en": "This rock face is my road."},
+        {"zh": "你要过去，就绕着走", "en": "If you want past, go around."},
+        {"zh": "我把壳口朝向你", "en": "I turn my shell's mouth toward you."},
+        {"zh": "你还没走，我就等着", "en": "You haven't left, so I wait."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我立刻缩回壳里", "en": "I pull straight back into the shell."},
+        {"zh": "我的壳被敲得嗡嗡响。", "en": "My shell rings from the blow."},
+        {"zh": "我的触角缩得很短", "en": "My tentacles pull in very short."},
+        {"zh": "壳里的光暗了一下", "en": "The light in my shell dims."},
+        {"zh": "我慢慢滑开一点", "en": "I slide away a little."},
+        {"zh": "壳裂了一声，很轻", "en": "A faint crack sounds in the shell."},
+        {"zh": "黏液流了一地", "en": "Slime runs across the ground."},
+        {"zh": "这一下让我很不好受", "en": "That left me badly off."},
+        {"zh": "我还缩着，但没碎", "en": "I'm still tucked in, but not broken."},
+        {"zh": "你别再来一次了", "en": "Don't do that a second time."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我嘴里的东西不是这个", "en": "What goes in my mouth isn't this."},
+        {"zh": "你放下的东西我看不清", "en": "I can't see clearly what you set down."},
+        {"zh": "我慢慢伸触角碰了碰", "en": "I reach a tentacle out and touch it."},
+        {"zh": "烫吗，我不确定", "en": "Hot? I'm not sure."},
+        {"zh": "我不靠它活着", "en": "I don't live on that."},
+        {"zh": "你退开，我过来看看", "en": "Step back and I'll come look."},
+        {"zh": "我的触角缩回去了", "en": "My tentacle withdraws."},
+        {"zh": "这个味道很淡", "en": "That smell is very faint."},
+        {"zh": "这东西不烫，我不感兴趣。", "en": "It is not hot; I am not interested."},
+        {"zh": "那这件事就算了", "en": "Then let's drop it."},
+        {"zh": "我靠热，不靠这些", "en": "I live on heat, not on that."},
+        {"zh": "这东西凉得快", "en": "That cools quickly."},
+        {"zh": "我伸触角碰了一下", "en": "I touch it with a tentacle."},
+        {"zh": "不烫，也不软", "en": "Not hot, not soft."},
+        {"zh": "凉的东西，我用触角推远。", "en": "Something cold; I push it away with my tentacles."},
+        {"zh": "还是留给别人吧", "en": "Leave it for someone else."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你碰到我的壳，烫手", "en": "You touch my shell. It's hot."},
+        {"zh": "我被推得滑了一小段", "en": "I slide a little way."},
+        {"zh": "壳里的光晃了一下", "en": "The light in my shell wavers."},
+        {"zh": "我慢慢滑回来一点", "en": "I slide slowly back."},
+        {"zh": "你踩到我的黏液了", "en": "You stepped in my slime."},
+        {"zh": "我的壳很硬，撞不坏", "en": "My shell is hard. It won't break."},
+        {"zh": "这一撞让我偏了路", "en": "That knocks me off my line."},
+        {"zh": "我重新贴住岩面", "en": "I settle against the rock again."},
+        {"zh": "你别踢我的壳", "en": "Don't go kicking my shell."},
+        {"zh": "再碰，我就把身体缩紧", "en": "Another touch and I'll pull in tight."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "两只蜗牛慢慢凑近", "en": "Two snails drawing slowly together."},
+        {"zh": "我们的壳碰一下就算认识", "en": "Our shells touch, and that's enough."},
+        {"zh": "这一片岩面够我们走", "en": "This rock face is enough for us both."},
+        {"zh": "你比我快一点", "en": "You're a little faster than I am."},
+        {"zh": "不用等我，我会到", "en": "Don't wait. I'll get there."},
+        {"zh": "壳里的光，你也有吗", "en": "That light in the shell — do you have it?"},
+        {"zh": "我们靠在一起会烫", "en": "Together we'd get too hot."},
+        {"zh": "那就隔一点距离", "en": "Then keep a little space."},
+        {"zh": "一起慢慢挪也不坏", "en": "Easing along together isn't bad."},
+        {"zh": "这条路实在太长", "en": "This road is really very long."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我伸触角把它卷过来", "en": "I curl a tentacle around it."},
+        {"zh": "太重了，我拖不动", "en": "Too heavy. I can't drag it."},
+        {"zh": "我用身体把它顶起来", "en": "I lever it up with my body."},
+        {"zh": "它压在我的壳下面", "en": "It's wedged under my shell."},
+        {"zh": "你掉的，我正好路过", "en": "You dropped it, and I happened by."},
+        {"zh": "这个能垫在壳边", "en": "This could sit at my shell's edge."},
+        {"zh": "我带着它慢慢走", "en": "I'll carry it slowly."},
+        {"zh": "太热，它在我壳上化了", "en": "Too hot. It melts on my shell."},
+        {"zh": "没用了，我放下", "en": "No use now. I set it down."},
+        {"zh": "有用的我拖着", "en": "Useful things I drag along."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你已经站得很近了", "en": "You're standing very close already."},
+        {"zh": "岩浆蜗牛不追，只等。", "en": "A magma snail does not chase. It waits."},
+        {"zh": "我的身体缩紧了", "en": "My body pulls in tight."},
+        {"zh": "壳缝里的光变亮了", "en": "The light in my seams brightens."},
+        {"zh": "你踩下去会烫", "en": "Step on me and you'll burn."},
+        {"zh": "我朝你脚下那点热气挪。", "en": "I creep toward the warmth at your feet."},
+        {"zh": "我不需要很快", "en": "I don't need to be fast."},
+        {"zh": "我的壳还带着余温。", "en": "My shell is still warm."},
+        {"zh": "前面那块岩，我来回爬过。", "en": "That rock ahead, I have crawled it many times."},
+        {"zh": "慢慢来，来得及", "en": "Slowly is enough. There's time."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我拖着黏液，往热气那边爬。", "en": "Dragging slime, I crawl toward the warmth."},
+        {"zh": "你退一步，我挪半寸", "en": "You step back a pace; I move half an inch."},
+        {"zh": "黏液留了一路", "en": "My slime trails all the way."},
+        {"zh": "你每踩一下，岩面就震一震。", "en": "The rock shivers with your every step."},
+        {"zh": "你站在岩面上，很显眼", "en": "On bare rock you stand out."},
+        {"zh": "我靠近时，地面会热", "en": "The ground warms as I approach."},
+        {"zh": "你还没注意到吧", "en": "You haven't noticed yet, have you?"},
+        {"zh": "壳里的光已经很亮", "en": "The light in my shell is bright now."},
+        {"zh": "我的腹足贴住你脚下的岩。", "en": "My foot clings to the rock beneath you."},
+        {"zh": "这样就够近了", "en": "This is close enough now."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用烫的壳顶了你", "en": "I butt you with my hot shell."},
+        {"zh": "黏液沾在你靴子上", "en": "Slime sticks to your boot."},
+        {"zh": "这一下很慢，但很烫", "en": "It's slow, but it burns."},
+        {"zh": "你退了，地上的痕还在", "en": "You pull back; the trail stays."},
+        {"zh": "我的身体从壳里探出来", "en": "My body eases out of the shell."},
+        {"zh": "这一撞压在你脚背上", "en": "This shove lands on your instep."},
+        {"zh": "壳缝里溅出一点火星", "en": "Sparks spit from my shell's seams."},
+        {"zh": "我不快，但我贴得紧", "en": "I'm not quick, but I stick close."},
+        {"zh": "你的护甲边被烤热了", "en": "The edge of your armour heats up."},
+        {"zh": "我慢慢退开，缩回壳里", "en": "I ease back into my shell."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的壳先出现，然后是我", "en": "My shell appears first, then the rest."},
+        {"zh": "地上多了一道焦痕", "en": "A scorched line appears on the ground."},
+        {"zh": "壳缝里的光慢慢亮起来", "en": "Light slowly fills my shell's seams."},
+        {"zh": "这片岩面还热着", "en": "This rock face is still warm."},
+        {"zh": "我把身体从壳里伸出来", "en": "I stretch my body out of the shell."},
+        {"zh": "触角先探了探方向", "en": "My tentacles test the direction first."},
+        {"zh": "我慢慢开始挪动", "en": "I begin to move, slowly."},
+        {"zh": "附近没有别的蜗牛", "en": "No other snails nearby."},
+        {"zh": "我从冷却的岩缝里伸出触角。", "en": "I extend my tentacles from the cooling crack."},
+        {"zh": "我往有热度的地方去", "en": "I head for the warmth."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火和我的壳很合，可也烫", "en": "Fire suits my shell, but it still burns."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的壳先着地，闷响一声", "en": "My shell lands first with a dull knock."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水一浇，壳里滋滋响", "en": "Water hits me; my shell hisses."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "气浪把我的壳掀翻了", "en": "The blast tips my shell over."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭尖在壳面上滑出一道火星。", "en": "The arrowhead scrapes a spark off my shell."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这光比我的壳还亮", "en": "That light is brighter than my shell."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "壳里的光越来越弱", "en": "The light in my shell grows weak."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打下来，我的壳一颤", "en": "Lightning falls and my shell jolts."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "没有岩面，我只能往下坠", "en": "No rock face. I can only fall."}
+      ]
+    }
+  }
+}

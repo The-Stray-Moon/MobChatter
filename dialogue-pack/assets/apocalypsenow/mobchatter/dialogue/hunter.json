@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弓箭拉满，悄无声息。", "en": "Draw the bow, silent."},
+        {"zh": "追踪目标，脚步轻灵。", "en": "Chase prey, feet light."},
+        {"zh": "森林深处，脚步沉重。", "en": "Heavy steps in the woods."},
+        {"zh": "箭矢呼啸，逼近猎物。", "en": "Arrows whizz, close in."},
+        {"zh": "阴森林间，脚步缓慢。", "en": "Slow steps in the woods."},
+        {"zh": "月光下，悄悄移动。", "en": "Move in moonlight."},
+        {"zh": "枯枝落叶，无声落地。", "en": "Fall like leaves."},
+        {"zh": "追踪脚步，悄然无声。", "en": "Silent footsteps follow."},
+        {"zh": "夜幕降临，行动加快。", "en": "Quicken under nightfall."},
+        {"zh": "枯木之间，敏捷跳跃。", "en": "Leap between stumps."},
+        {"zh": "靴底碾过碎玻璃。", "en": "My boot grinds over broken glass."},
+        {"zh": "弓贴着背，脚步压轻。", "en": "Bow on my back, I keep my steps quiet."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "弓箭斜握，眼神冷酷。", "en": "Bow at rest, eyes cold."},
+        {"zh": "静立不动，耐心等待。", "en": "Stand still, patient wait."},
+        {"zh": "猎物已现，心中平静。", "en": "Prey visible, calm."},
+        {"zh": "长矛斜倚，静候时机。", "en": "Lance rests, wait for chance."},
+        {"zh": "夜风轻拂，静待猎物。", "en": "Breeze stirs, wait for prey."},
+        {"zh": "枯树旁，静静等待。", "en": "Wait by dead trees."},
+        {"zh": "夜晚巡逻，身形隐匿。", "en": "Patrol at night, hidden."},
+        {"zh": "森林深处，静静窥伺。", "en": "Stalk in the woods."},
+        {"zh": "月光下，身形若隐若现。", "en": "Silhouetted in moonlight."},
+        {"zh": "等待猎物，眼神锐利。", "en": "Sharp eyes for prey."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发现目标，箭矢上弦。", "en": "Target seen, arrow drawn."},
+        {"zh": "玩家出现，弓箭紧张。", "en": "Player seen, bow taut."},
+        {"zh": "锁定玩家，准备射击。", "en": "Player locked, ready to shoot."},
+        {"zh": "玩家移动，箭矢指向。", "en": "Player moves, arrow follows."},
+        {"zh": "玩家近了，箭矢拉满。", "en": "Player near, bow full."},
+        {"zh": "玩家在望，弓弦紧绷。", "en": "Player in sight, bow taut."},
+        {"zh": "玩家出现，长矛挥动。", "en": "Player seen, lance raised."},
+        {"zh": "玩家就在眼前，一箭毙命。", "en": "Player here, one shot kill."},
+        {"zh": "玩家现身，长矛挥击。", "en": "Player seen, lance thrusts."},
+        {"zh": "玩家近了，弓箭瞄准。", "en": "Player near, bow aimed."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "身体被洞穿了！", "en": "My body is pierced!"},
+        {"zh": "箭射穿了我的身体！", "en": "An arrow pierced me!"},
+        {"zh": "子弹擦过我的头盔。", "en": "A bullet grazes my helmet."},
+        {"zh": "我的弓摔出去老远。", "en": "My bow went flying out of reach."},
+        {"zh": "我被电得站不稳。", "en": "The shock left me unsteady."},
+        {"zh": "我溺水了...", "en": "I drowned..."},
+        {"zh": "我被魔法击中了！", "en": "I was hit by magic!"},
+        {"zh": "我中弹了！", "en": "Shot by a bullet!"},
+        {"zh": "我中弹了...", "en": "I was shot..."},
+        {"zh": "伤口开裂，血止不住。", "en": "The wound splits open and will not stop bleeding."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你点火把，就是给我报信。", "en": "Your torch is a signal to me."},
+        {"zh": "你的肉质鲜美。", "en": "Your flesh is delicious."},
+        {"zh": "来吧，尝尝我的箭。", "en": "Come, taste my arrows."},
+        {"zh": "猎物的味道很好。", "en": "Game tastes good."},
+        {"zh": "我的箭毒能杀死你。", "en": "My arrows are poisonous."},
+        {"zh": "你适合我的餐盘。", "en": "You fit my plate."},
+        {"zh": "你身上的血液很诱人。", "en": "Your blood is inviting."},
+        {"zh": "你手里那袋东西，扔过来。", "en": "Toss that bag in your hand over here."},
+        {"zh": "你身上的肉会很美味。", "en": "Your meat will taste good."},
+        {"zh": "你很适合成为我的晚餐。", "en": "You're perfect for dinner."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "枪口顶在你胸口上。", "en": "My muzzle presses against your chest."},
+        {"zh": "我们不得不分个高下。", "en": "We must fight."},
+        {"zh": "袖子上的血，已经干成褐色。", "en": "The blood on my sleeve has dried brown."},
+        {"zh": "瞄准线被你切断了。", "en": "You've cut my line of sight."},
+        {"zh": "我们来比试比试。", "en": "Let's see each other."},
+        {"zh": "让开，我要通行。", "en": "Move, I need to pass."},
+        {"zh": "我侧身，绕开你半步。", "en": "I step sideways around you."},
+        {"zh": "我的箭会穿过你。", "en": "My arrow will pierce you."},
+        {"zh": "让开，我还要去清点补给。", "en": "Move aside — I still have supplies to count."},
+        {"zh": "让我们较量一下。", "en": "Let's compete."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "跟我一起吧。", "en": "Be with me."},
+        {"zh": "让我们成为一体。", "en": "We should merge."},
+        {"zh": "被咬过的，都会变成我们。", "en": "Anyone bitten becomes one of us."},
+        {"zh": "跟我繁殖。", "en": "Mate with me."},
+        {"zh": "让我们一起重生。", "en": "We rise together."},
+        {"zh": "你适合我的血统。", "en": "You fit my lineage."},
+        {"zh": "一起融入黑暗吧。", "en": "Join the darkness."},
+        {"zh": "跟我一起重生。", "en": "Be reborn with me."},
+        {"zh": "让我们共同进化。", "en": "Evolve with me."},
+        {"zh": "加入我的行列。", "en": "Join my side."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "干枯的手抓住了我！", "en": "Dry hands grab me!"},
+        {"zh": "尸体上的皮肤开始蠕动！", "en": "Skin moves on the corpse!"},
+        {"zh": "腐烂的骨头敲击着地面！", "en": "Rotten bones tap the ground!"},
+        {"zh": "腐烂的手臂紧紧缠住我！", "en": "Rotten arms grip me!"},
+        {"zh": "腐臭的嘶吼，逼近我！", "en": "Stinking howl, approaching!"},
+        {"zh": "腐烂的牙齿咬住我的衣服！", "en": "Rotting teeth bite my clothes!"},
+        {"zh": "腐烂的气息扑面而来！", "en": "Rotten breath on me!"},
+        {"zh": "腐烂的手从阴影中伸来！", "en": "Rotten hand from shadow!"},
+        {"zh": "腐烂的血液滴落，疼！", "en": "Rotten blood drips, hurts!"},
+        {"zh": "腐烂的触手抓住我的脚！", "en": "Rotten tentacles grab my foot!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "终于看到猎物了！", "en": "Prey in sight!"},
+        {"zh": "你身上有活人的热味。", "en": "You smell warm. Alive."},
+        {"zh": "血腥味从巷口飘过来。", "en": "The smell of blood drifts from the alley mouth."},
+        {"zh": "我抬枪，瞄准那道背影。", "en": "I raise my gun at that retreating back."},
+        {"zh": "血迹还新，你刚过去。", "en": "The blood is fresh; you just passed."},
+        {"zh": "锁定，瞄准，射杀！", "en": "Lock, aim, kill!"},
+        {"zh": "猎物的影子！", "en": "Prey shadow!"},
+        {"zh": "猎物的气息泄露！", "en": "Prey scent leaked!"},
+        {"zh": "废墟那头有脚步声。", "en": "Footsteps beyond the rubble."},
+        {"zh": "瞄准猎物，等待机会！", "en": "Target prey, wait for chance!"},
+        {"zh": "废墟里有动静。", "en": "Something moved in the rubble."},
+        {"zh": "我数着你的步数。", "en": "I am counting your footsteps."},
+        {"zh": "你把影子露在墙角。", "en": "You left your shadow past the corner."},
+        {"zh": "箭已经在弦上了。", "en": "The arrow is already on the string."},
+        {"zh": "这年头，活人也是猎物。", "en": "These days, the living are prey too."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的目标，猎物！", "en": "My target, prey!"},
+        {"zh": "我的猎物，目标！", "en": "My prey, target!"},
+        {"zh": "弹匣一拍，狩猎开始。", "en": "I slap the magazine in; the hunt begins."},
+        {"zh": "我的目标，不可错过！", "en": "My target, can't miss!"},
+        {"zh": "我的猎物，捕食开始！", "en": "My prey, feast starts!"},
+        {"zh": "我的目标，瞄准射击！", "en": "My target, aim and shoot!"},
+        {"zh": "我的目标，瞄准！", "en": "My target, aim!"},
+        {"zh": "我的猎物，不可错过！", "en": "My prey, can't miss!"},
+        {"zh": "我的目标，开始捕食！", "en": "My target, start feasting!"},
+        {"zh": "逆风，正好掩住我。", "en": "The wind is against you. It hides me."},
+        {"zh": "等你走出那堵墙。", "en": "I wait for you to clear that wall."},
+        {"zh": "我不会浪费第二支箭。", "en": "I will not waste a second arrow."},
+        {"zh": "你的伤口在拖慢你。", "en": "That wound is slowing you down."},
+        {"zh": "先把你的腿射穿。", "en": "Your leg goes first."},
+        {"zh": "喉咙，还是膝盖？", "en": "The throat, or the knee?"},
+        {"zh": "这块废墟是我挑的。", "en": "I picked this ruin myself."},
+        {"zh": "我算好了你的退路。", "en": "I have already worked out your retreat."},
+        {"zh": "我的枪口跟着你肩膀转。", "en": "My muzzle tracks your shoulder."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咬住你！", "en": "Bite you!"},
+        {"zh": "这一下贴着你肋骨划过。", "en": "This strike grazes along your ribs."},
+        {"zh": "血肉之躯！", "en": "Flesh and blood!"},
+        {"zh": "尝尝我的利牙！", "en": "Feel my sharp teeth!"},
+        {"zh": "我的咬伤，治不好的。", "en": "My bite does not heal."},
+        {"zh": "我跨过瓦砾，追上去了。", "en": "I climb over the rubble and follow."},
+        {"zh": "来吧，品尝死亡！", "en": "Here, taste death!"},
+        {"zh": "枪托砸在你下颌上。", "en": "My rifle butt cracks your jaw."},
+        {"zh": "咬下去，你会流血不止。", "en": "Bite down, and you will bleed and bleed."},
+        {"zh": "撕开这层，你就完了。", "en": "Tear this open and you are finished."},
+        {"zh": "我不给你留活路。", "en": "I am not leaving you a way out."},
+        {"zh": "刀口对准你的咽喉。", "en": "My edge lines up with your throat."},
+        {"zh": "你身上还有吃的吗？", "en": "Do you still have food on you?"},
+        {"zh": "疼吧？这才刚开始。", "en": "It hurts? We have barely started."},
+        {"zh": "这一刀省了我的箭。", "en": "This cut saves me an arrow."},
+        {"zh": "你的血会招来行尸。", "en": "Your blood will draw the walkers."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "阴暗之地再现！", "en": "Spawn in darkness!"},
+        {"zh": "猎手到场，猎物散开。", "en": "The hunter's here; the prey scatters."},
+        {"zh": "寂静之中，我来了！", "en": "Silence, and I come!"},
+        {"zh": "腐烂的生命！", "en": "Decaying life!"},
+        {"zh": "末世里，我拿着枪登场。", "en": "In the wasteland I arrive armed."},
+        {"zh": "我端着枪，从废墟里出来。", "en": "I come out of the ruins with my gun up."},
+        {"zh": "藏在暗处！", "en": "Hiding in the shadows!"},
+        {"zh": "诱饵摆好了，就等你上钩。", "en": "Bait's set — now wait for the bite."},
+        {"zh": "我背着弓，先占了这块地。", "en": "Bow on my back, this ground is taken."},
+        {"zh": "暗夜中的影子！", "en": "Shadow in the night!"},
+        {"zh": "废楼二层，我推开窗。", "en": "On the second floor of a ruin, I push a window open."},
+        {"zh": "这片街区归我巡。", "en": "I patrol this block."},
+        {"zh": "我把弓弦重新上紧。", "en": "I re-string my bow tight."},
+        {"zh": "又有脚步声进了我的地盘。", "en": "More footsteps have entered my ground."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的夹克烧穿了两个洞。", "en": "Two holes burned through my jacket."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从高处摔下来，我的腿先断了。", "en": "I fell from a height and my leg gave out first."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进喉咙，岸离得太远。", "en": "Water pours down my throat; the bank is too far."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击波把我掀进瓦砾。", "en": "The blast throws me into the rubble."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭撞箭，我的弓掉了。", "en": "Arrow met arrow, and my bow slipped."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被魔法击中了", "en": "Hit by magic!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "断粮第三天，手在抖。", "en": "Third day without food, and my hands shake."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一道电光，把我照得透亮。", "en": "A flash of lightning lights me up inside."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉出了这个世界。", "en": "I fell out of this world."}
+      ]
+    }
+  }
+}

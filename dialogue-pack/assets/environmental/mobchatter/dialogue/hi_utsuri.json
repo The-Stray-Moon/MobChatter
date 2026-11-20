@@ -1,0 +1,282 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "绯写游过水面留下红纹", "en": "Utsuri swims, leaving red patterns on the surface"},
+        {"zh": "绯写游动寻找猎物", "en": "Utsuri swims, seeking prey"},
+        {"zh": "绯写缓缓游向岸边", "en": "Utsuri slowly swims towards the shore"},
+        {"zh": "绯写避开玩家的脚步", "en": "Utsuri avoids the player's footsteps"},
+        {"zh": "绯写游入深水区域", "en": "Utsuri swims into deeper waters"},
+        {"zh": "绯写在水草间穿梭", "en": "Utsuri moves through underwater grass"},
+        {"zh": "绯写警惕地游来游去", "en": "Utsuri swims cautiously"},
+        {"zh": "绯写发现玩家后远离", "en": "Utsuri swims away after spotting the player"},
+        {"zh": "绯写在水面下潜行", "en": "Utsuri swims underwater"},
+        {"zh": "绯写偶遇玩家绕路而行", "en": "Utsuri avoids the player when encountered"},
+        {"zh": "绯写摆尾追着一片落花", "en": "Hi Utsuri flicks its tail after a fallen petal"},
+        {"zh": "红黑斑纹在浅水里晃动", "en": "Red and black patches sway in the shallows"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "绯写静静地待在水中", "en": "Utsuri stays still in the water"},
+        {"zh": "绯写闭目养神于水面", "en": "Utsuri rests with eyes closed on the surface"},
+        {"zh": "绯写静静地游着", "en": "Utsuri swims quietly"},
+        {"zh": "绯写在水底悠闲游动", "en": "Utsuri swims leisurely on the bottom"},
+        {"zh": "绯写慢慢游动着", "en": "Utsuri swims slowly"},
+        {"zh": "绯写静静等待时机", "en": "Utsuri waits quietly"},
+        {"zh": "绯写悠然游弋于水中", "en": "Utsuri swims gracefully in the water"},
+        {"zh": "绯写在水中悠闲游动", "en": "Utsuri swims leisurely in the water"},
+        {"zh": "绯写缓缓游过水面", "en": "Utsuri slowly swims over the surface"},
+        {"zh": "绯写悠闲地游动", "en": "Utsuri swims leisurely"},
+        {"zh": "绯写停在花瓣的倒影里", "en": "Hi Utsuri rests in the reflection of petals"},
+        {"zh": "它在花树湾的水底打盹", "en": "It dozes on the bed of Blossom Woods"},
+        {"zh": "鱼鳍轻轻扇动，水纹散开", "en": "Its fins fan softly, rippling the water"},
+        {"zh": "绯写张合着嘴，吐着泡泡", "en": "Hi Utsuri opens and closes its mouth, blowing bubbles"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "绯写察觉玩家后游走", "en": "Utsuri swims away upon spotting the player"},
+        {"zh": "绯写注视着玩家", "en": "Utsuri watches the player"},
+        {"zh": "绯写警惕地盯着玩家", "en": "Utsuri stares cautiously at the player"},
+        {"zh": "绯写游向玩家", "en": "Utsuri swims towards the player"},
+        {"zh": "绯写游离玩家较远", "en": "Utsuri keeps a distance from the player"},
+        {"zh": "绯写警惕地观察玩家", "en": "Utsuri observes the player cautiously"},
+        {"zh": "绯写游近玩家", "en": "Utsuri swims closer to the player"},
+        {"zh": "绯写游向玩家的方向", "en": "Utsuri swims in the player's direction"},
+        {"zh": "绯写靠近玩家", "en": "Utsuri approaches the player"},
+        {"zh": "绯写观察玩家的动作", "en": "Utsuri watches the player's movements"},
+        {"zh": "绯写绕着你投下的影子转", "en": "Hi Utsuri circles the shadow you cast"},
+        {"zh": "它停在岸边，鳍在抖动", "en": "It halts by the bank, fins quivering"},
+        {"zh": "你靠近一步，它就退一寸", "en": "One step from you, one inch from it"},
+        {"zh": "绯写从水下打量你的靴子", "en": "Hi Utsuri studies your boots from underwater"},
+        {"zh": "它把脸贴到水面上看你", "en": "It presses its face to the surface to see you"},
+        {"zh": "这片水里没有别的鱼敢近", "en": "No other fish dares come near this water"},
+        {"zh": "绯写在你脚边打了个旋", "en": "Hi Utsuri spins once beside your feet"},
+        {"zh": "你弯腰时，它潜了下去", "en": "When you bend down, it dives away"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鱼身泛红，哀鸣不止", "en": "Red body, wails endlessly"},
+        {"zh": "鳞片破损，游得慢了", "en": "Scales torn, moves slower"},
+        {"zh": "绯写受伤，游得慢", "en": "Utsuri hurt, swims slower"},
+        {"zh": "鳞片受损，游得摇摆", "en": "Scale damage, swims wobbly"},
+        {"zh": "绯写受创，游速减", "en": "Utsuri hurt, speed drops"},
+        {"zh": "受伤绯写，游得艰难", "en": "Hurt Utsuri, swims hard"},
+        {"zh": "绯写受伤，动作迟缓", "en": "Utsuri hurt, moves slowly"},
+        {"zh": "鱼身破损，游得迟缓", "en": "Wounded fish, moves slowly"},
+        {"zh": "绯写受伤，游动无力", "en": "Utsuri hurt, weak swimming"},
+        {"zh": "受伤绯写，游速下降", "en": "Hurt Utsuri, speed down"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "鱼饵近了，我能尝尝吗？", "en": "Tempted by the bait, can I try it?"},
+        {"zh": "这腥味真诱人...", "en": "This smell is so tempting..."},
+        {"zh": "游过去，享受美味吧！", "en": "Swim over, enjoy the feast!"},
+        {"zh": "小心，我的鳞片锋利！", "en": "Watch out, my scales are sharp!"},
+        {"zh": "你怎么不吃？", "en": "Why aren't you eating?"},
+        {"zh": "这团鱼饵，够我吞三口。", "en": "That clump of bait is three gulps for me."},
+        {"zh": "这么小的鱼饵，不够吃！", "en": "Such a small bait, not enough!"},
+        {"zh": "别害怕，我是素食主义者！", "en": "Don't be afraid, I'm a herbivore!"},
+        {"zh": "鱼饵不是用来吃的...", "en": "Bait isn't meant to be eaten..."},
+        {"zh": "看，那边有更多！", "en": "Look, there are more over there!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞上我了，很疼！", "en": "You hit me, it hurts!"},
+        {"zh": "别碰我，我有鳞片！", "en": "Don't touch me, I have scales!"},
+        {"zh": "快躲开，我生气了！", "en": "Move away, I'm mad!"},
+        {"zh": "你撞疼我了...", "en": "You hit me, it hurts..."},
+        {"zh": "小心点，别撞歪了！", "en": "Be careful, don't get off balance!"},
+        {"zh": "你碰到了我，我会反击！", "en": "You touched me, I'll fight back!"},
+        {"zh": "我在水里，你踩进来做什么？", "en": "I am in the water; why are you stepping in?"},
+        {"zh": "你的靴底蹭掉我一片墨鳞。", "en": "Your sole scraped off one of my ink-black scales."},
+        {"zh": "你怎么这么不小心？", "en": "How careless are you?"},
+        {"zh": "墨色鳞片怕刮，别用手抓。", "en": "Ink-dark scales scar easily; do not grab them."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找到合适的伴侣了！", "en": "Found a suitable mate!"},
+        {"zh": "墨白相间的我，找到伴了。", "en": "Black and white as I am, I have found a mate."},
+        {"zh": "我有鱼伴，不孤单！", "en": "I have a fish mate, not alone!"},
+        {"zh": "一起游，更加快乐！", "en": "Swim together, it's more fun!"},
+        {"zh": "来，让我们共舞！", "en": "Come, let's dance together!"},
+        {"zh": "找到另一半，很高兴！", "en": "Found a partner, glad!"},
+        {"zh": "我们一起去觅食！", "en": "Let's go foraging together!"},
+        {"zh": "找到我的鱼伴了！", "en": "Found my fish mate!"},
+        {"zh": "和我在一起，很安全！", "en": "Stay with me, it's safe!"},
+        {"zh": "找到我的伙伴了！", "en": "Found my partner!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我来了，要来吃你吗？", "en": "Here I am, are you here for me to eat?"},
+        {"zh": "漂亮的鱼，你怎么会在这里？", "en": "Beautiful fish, how did you end up here?"},
+        {"zh": "小心，我是来捕猎的。", "en": "Be careful, I am a predator."},
+        {"zh": "我的色彩能吓退怪物。", "en": "My colors repel monsters."},
+        {"zh": "附近没有我的同类。", "en": "There are no others like me nearby."},
+        {"zh": "我这身红斑纹，水里最显眼。", "en": "These red patches of mine stand out underwater."},
+        {"zh": "不要靠近我，危险！", "en": "Stay away, it’s dangerous!"},
+        {"zh": "你们怪物最好避开我。", "en": "Monsters, stay away from me."},
+        {"zh": "我的存在让这里更加诡异。", "en": "My presence makes this place eerie."},
+        {"zh": "不要靠近，否则你会后悔的。", "en": "Don’t come close, you’ll regret it."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "猎物在我的视野里。", "en": "My target is in sight."},
+        {"zh": "我要去捕捉它了。", "en": "I’m going to catch it."},
+        {"zh": "我的黑白花纹，正对着你。", "en": "My black-and-white pattern is aimed straight at you."},
+        {"zh": "它正在水中游动。", "en": "It’s moving in the water."},
+        {"zh": "我会享受这场猎杀。", "en": "I’ll enjoy the hunt."},
+        {"zh": "我已经盯上它了。", "en": "I’ve got my eye on it."},
+        {"zh": "我不会轻易放过它的。", "en": "I won’t let it go easily."},
+        {"zh": "我的目标就是你。", "en": "My target is you."},
+        {"zh": "它将成为我的晚餐。", "en": "It will be my dinner."},
+        {"zh": "我要开始行动了。", "en": "I’m about to act."},
+        {"zh": "有东西踩进了花树湾", "en": "Something has stepped into Blossom Woods"},
+        {"zh": "水波告诉我你有多重", "en": "The ripples tell me how heavy you are"},
+        {"zh": "这片水面归绯写管", "en": "This stretch of water answers to Hi Utsuri"},
+        {"zh": "怪物都绕着这十六格走", "en": "Monsters give these sixteen blocks a wide berth"},
+        {"zh": "你不该把脚伸进水里", "en": "You should not have put your feet in the water"},
+        {"zh": "落花之下，我盯上你了", "en": "Beneath the fallen petals, I have marked you"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我会享受捕食你的过程。", "en": "I’ll enjoy hunting you."},
+        {"zh": "我会慢慢品尝你的肉。", "en": "I’ll savor your flesh."},
+        {"zh": "它即将成为我的猎物。", "en": "It will be my prey soon."},
+        {"zh": "我会慢慢享受它。", "en": "I’ll savor it."},
+        {"zh": "我已经准备好捕猎。", "en": "I’m ready to hunt."},
+        {"zh": "我不会让猎物轻易逃走。", "en": "I won’t let the prey escape."},
+        {"zh": "我的红黑斑纹转向了你。", "en": "My red and black patches turn toward you."},
+        {"zh": "我会享受捕杀它的乐趣。", "en": "I’ll enjoy killing it."},
+        {"zh": "我不会轻易放过它。", "en": "I won’t let it go."},
+        {"zh": "黑红斑纹，我盯上你了。", "en": "Black and red patterns — I've marked you."},
+        {"zh": "红纹收紧，像拉开的弓", "en": "The red patterns tighten like a drawn bow"},
+        {"zh": "我顺着水底的暗流靠近", "en": "I close in along the undercurrent"},
+        {"zh": "你踩浑了水，藏不住了", "en": "You muddied the water. No more hiding"},
+        {"zh": "鳍立起来了，你看见了吗", "en": "My fins are raised. Do you see them?"},
+        {"zh": "再往前一步就是深水", "en": "One more step and the water deepens"},
+        {"zh": "我在等你弯腰的那一下", "en": "I wait for the moment you bend down"},
+        {"zh": "鳞片下的力道攒足了", "en": "The strength beneath my scales is gathered"},
+        {"zh": "水面越平静越危险", "en": "The calmer the surface, the worse for you"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "绯写一跃而起，锋利的鳍划破水面！", "en": "Utsuri leaps, slicing the water with sharp fins!"},
+        {"zh": "鱼鳞闪烁，绯写朝你发起攻击！", "en": "Flickering scales, Utsuri attacks!"},
+        {"zh": "这锦鲤的攻击如刀锋般致命！", "en": "This koi's attack is as deadly as a knife!"},
+        {"zh": "绯写用尾巴拍击水面反击！", "en": "Utsuri counters with a tail slap!"},
+        {"zh": "它那红黑相间的鳞片在月光下闪烁！", "en": "Its red and black scales shimmer under moonlight!"},
+        {"zh": "绯写的攻击迅猛而致命！", "en": "Utsuri's attack is swift and deadly!"},
+        {"zh": "它的红黑鳞片在夜晚格外醒目！", "en": "Its red and black scales stand out at night!"},
+        {"zh": "绯写用尾巴攻击你的手！", "en": "Utsuri attacks your hand with its tail!"},
+        {"zh": "这鱼的攻击令人难以招架！", "en": "Its attack is hard to block!"},
+        {"zh": "绯写的攻击速度让人防不胜防！", "en": "Utsuri's attack speed is overwhelming!"},
+        {"zh": "绯写甩尾抽在你脚踝上", "en": "Hi Utsuri slaps your ankle with its tail"},
+        {"zh": "红黑鳞片擦过你的手指", "en": "Red-black scales rake across your fingers"},
+        {"zh": "水花溅起，鳍划破了皮", "en": "Water sprays as a fin cuts skin"},
+        {"zh": "它撞向你的小腿", "en": "It rams into your calf"},
+        {"zh": "别把手伸进我的水", "en": "Keep your hands out of my water"},
+        {"zh": "这一下是从花影里来的", "en": "That blow came from the flower shadows"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "绯写在水中缓缓游弋，寻找猎物。", "en": "Utsuri swims in the water, searching for prey."},
+        {"zh": "绯写从阴影中浮现，静静观察着。", "en": "Utsuri emerges from the shadows, observing quietly."},
+        {"zh": "绯写在水中游弋，警惕地窥视四周。", "en": "Utsuri swims in the water, vigilant in its surroundings."},
+        {"zh": "绯写在暗处静静地等待着。", "en": "Utsuri waits quietly in the shadows."},
+        {"zh": "绯写在水中悠然自得地游动。", "en": "Utsuri glides in the water with ease."},
+        {"zh": "绯写在水草间悄然游弋。", "en": "Utsuri swims quietly among the water plants."},
+        {"zh": "绯写在水底游动，寻找食物。", "en": "Utsuri swims at the bottom, searching for food."},
+        {"zh": "绯写在水边游弋，等待着猎物。", "en": "Utsuri swims by the edge of the water, waiting for prey."},
+        {"zh": "绯写在暗处静静地漂浮。", "en": "Utsuri floats quietly in the shadows."},
+        {"zh": "花树湾的水里多了一道绯红", "en": "A streak of crimson enters the Blossom Woods water"},
+        {"zh": "绯写从花影下滑进池塘", "en": "Hi Utsuri slips into the pond from flower shade"},
+        {"zh": "水底的红黑纹路醒来了", "en": "The red and black pattern stirs on the riverbed"},
+        {"zh": "落花盖住了它的背脊", "en": "Fallen petals cover its back"},
+        {"zh": "这汪水从此安静了", "en": "This pool will be quiet from now on"},
+        {"zh": "一条锦鲤在浅滩转身", "en": "A koi turns in the shallows"},
+        {"zh": "绯红的身影浮上水面", "en": "A crimson shape rises to the surface"},
+        {"zh": "它顺着溪流游进了山谷", "en": "It swims down the stream into the valley"},
+        {"zh": "鱼鳍拨开浮萍，绯写来了", "en": "Fins part the duckweed. Hi Utsuri has come"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水温太高，我受不住", "en": "Too hot, can't handle it"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉入陷阱，我受伤了", "en": "Fell into trap, hurt"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "溺水太久，我快不行了", "en": "Drowned too long, almost gone"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸冲击，我受伤了", "en": "Explosion hit, hurt"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢射中，我受伤了", "en": "Arrow hit, hurt"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法攻击，我受伤了", "en": "Magic hit, hurt"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "食物不够，我饿了", "en": "Not enough food, hungry"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷电击中，我受伤了", "en": "Lightning hit, hurt"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空，我死了", "en": "Fell into void, dead"}
+      ]
+    }
+  }
+}

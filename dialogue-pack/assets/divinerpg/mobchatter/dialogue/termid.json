@@ -1,0 +1,252 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爬行于树根间", "en": "Crawling among roots"},
+        {"zh": "啃食树皮的声音", "en": "Chewing bark sound"},
+        {"zh": "蜿蜒前行于地下", "en": "Wriggling underground"},
+        {"zh": "在地底觅食", "en": "Foraging in the ground"},
+        {"zh": "快速移动中", "en": "Moving quickly"},
+        {"zh": "用触须探索四周", "en": "Using antennae to explore"},
+        {"zh": "穿过泥土的脚步声", "en": "Footsteps through soil"},
+        {"zh": "从地下钻出", "en": "Emerging from the ground"},
+        {"zh": "寻找新的树木", "en": "Searching for new trees"},
+        {"zh": "在树根间穿梭", "en": "Navigating tree roots"},
+        {"zh": "六足在树皮上打滑", "en": "Six legs slip on the bark."},
+        {"zh": "我沿着根须往下爬", "en": "I crawl down along a root."},
+        {"zh": "木屑在我身后落下", "en": "Wood dust falls behind me."},
+        {"zh": "我钻进年轮的缝", "en": "I slip into a gap in the rings."},
+        {"zh": "触须先探到前面", "en": "My antennae feel the way."},
+        {"zh": "我绕开一块石头", "en": "I crawl around a stone."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "慵懒地爬行", "en": "Crawling lazily"},
+        {"zh": "停在树根上休息", "en": "Pausing on a root"},
+        {"zh": "缓慢蠕动的身体", "en": "Slow-moving body"},
+        {"zh": "我趴在原木上，一动不动。", "en": "I lie on the log without moving."},
+        {"zh": "静静地等待机会", "en": "Waiting quietly"},
+        {"zh": "慢慢移动触须", "en": "Moving antennae slowly"},
+        {"zh": "偶尔晃动身体", "en": "Occasionally shaking body"},
+        {"zh": "在原地打转", "en": "Spinning in place"},
+        {"zh": "懒洋洋地晒太阳", "en": "Lazily basking in the sun"},
+        {"zh": "悠闲地探索环境", "en": "Exploring the environment"},
+        {"zh": "我咬住一块旧木", "en": "I hold a piece of old wood."},
+        {"zh": "树液粘住了我的足", "en": "Sap sticks to my feet."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的复眼映出你的影子。", "en": "My compound eyes mirror your shadow."},
+        {"zh": "我停在你手边，不飞了。", "en": "I stop by your hand and stay still."},
+        {"zh": "我从树皮缝里探出触角。", "en": "I poke my antennae out of a bark seam."},
+        {"zh": "对你的存在感兴趣", "en": "Interested in your presence"},
+        {"zh": "靠近你以嗅探", "en": "Approaching to sniff"},
+        {"zh": "试图确定你是什么", "en": "Trying to determine what you are"},
+        {"zh": "准备攻击你", "en": "Preparing to attack you"},
+        {"zh": "小心地避开你", "en": "Carefully avoiding you"},
+        {"zh": "我是从树里爬出来的。", "en": "I crawled out of the wood itself."},
+        {"zh": "紧张地盯着你", "en": "Staring at you nervously"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "触角受伤，飞行不稳。", "en": "Antennae hurt, flight unstable."},
+        {"zh": "翅膀受创，飞行吃力。", "en": "Wings injured, flying hard."},
+        {"zh": "身体受损，行动迟缓。", "en": "Body hurt, moving slow."},
+        {"zh": "触须断裂，只能蠕动。", "en": "Feelers broken, crawl now."},
+        {"zh": "翅膀受伤，只能滑翔。", "en": "Wings injured, glide only."},
+        {"zh": "触角折断，难以飞高。", "en": "Antennae broken, can't fly high."},
+        {"zh": "翅膀受创，速度减半。", "en": "Wings hurt, speed halved."},
+        {"zh": "触须受损，视力模糊。", "en": "Feelers hurt, vision blur."},
+        {"zh": "身体受伤，行动笨拙。", "en": "Body hurt, clumsy now."},
+        {"zh": "翅膀受损，飞行乏力。", "en": "Wings hurt, flying weak."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被你美味诱惑了！", "en": "Tempted by your sweetness!"},
+        {"zh": "来吧，享用原始森林！", "en": "Come, feast on the primeval forest!"},
+        {"zh": "树叶是我的美食！", "en": "Leaves are my delicacy!"},
+        {"zh": "这片森林是我们的！", "en": "This forest is ours!"},
+        {"zh": "快尝尝原始木的味道！", "en": "Taste the raw wood!"},
+        {"zh": "森林之魂，我的猎物！", "en": "Forest soul, my prey!"},
+        {"zh": "我就是吃树叶的！", "en": "I eat leaves!"},
+        {"zh": "享受这原始的美味吧！", "en": "Enjoy this primal delicacy!"},
+        {"zh": "我只吃树叶和森林！", "en": "I only eat leaves and forests!"},
+        {"zh": "享受这无尽的盛宴！", "en": "Indulge in this endless feast!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "木头做的身子，也会撞人。", "en": "A wooden body can still ram you."},
+        {"zh": "碰撞，痛苦！", "en": "Collision, pain!"},
+        {"zh": "碰上我，你会后悔！", "en": "Meet me, and you'll regret it!"},
+        {"zh": "躲开我那尖锐的触角！", "en": "Avoid my sharp antennae!"},
+        {"zh": "不要碰我，疼！", "en": "Don't touch me, it hurts!"},
+        {"zh": "我只用触角攻击！", "en": "I only attack with my antennae!"},
+        {"zh": "触角碰撞，痛苦！", "en": "Antenna collision, pain!"},
+        {"zh": "碰撞，致命！", "en": "Collision, deadly!"},
+        {"zh": "用触角对抗你！", "en": "Use my antennae against you!"},
+        {"zh": "别一脚踩扁我！", "en": "Don't crush me underfoot!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被树虫叫醒，只为啃木头。", "en": "The tree bug woke me only to gnaw wood."},
+        {"zh": "我寻找我的爱人！", "en": "I seek my love!"},
+        {"zh": "我们啃同一棵树，一起变强。", "en": "We gnaw the same tree and grow together."},
+        {"zh": "一起飞向天空！", "en": "Fly to the sky together!"},
+        {"zh": "我用翅膀敲了敲树干。", "en": "I tap the trunk with my wings."},
+        {"zh": "我的爱人，我的生命！", "en": "My love, my life!"},
+        {"zh": "我发出很轻的木头气味。", "en": "I give off a faint scent of wood."},
+        {"zh": "与我共舞！", "en": "Dance with me!"},
+        {"zh": "原始森林里，我只认你。", "en": "In this primal forest, I know only you."},
+        {"zh": "我们的触角碰了一下", "en": "Our antennae touch once."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从地底钻出，寻找新的树木！", "en": "I emerge from the ground to seek new trees!"},
+        {"zh": "这里木头的味道真好！", "en": "This wood smells good!"},
+        {"zh": "这棵树木是我的了！", "en": "This tree is mine!"},
+        {"zh": "树叶的味道让我感到愉悦。", "en": "The taste of leaves pleases me."},
+        {"zh": "我会保护这片森林。", "en": "I will protect this forest."},
+        {"zh": "新的木材，新的力量！", "en": "New wood, new power!"},
+        {"zh": "森林是我永远的家园。", "en": "The forest is my eternal home."},
+        {"zh": "我要让森林更加强大。", "en": "I will make the forest stronger."},
+        {"zh": "这是我的领地，你们不能侵犯。", "en": "This is my territory, you can't invade."},
+        {"zh": "我会守护这片土地。", "en": "I will guard this land."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "猎物的气息真香！", "en": "The prey's scent is strong!"},
+        {"zh": "我要享用这片树叶。", "en": "I will feast on this leaf."},
+        {"zh": "让我品尝新鲜的树汁。", "en": "Let me taste fresh sap."},
+        {"zh": "树液是我的食物。", "en": "Tree sap is my food."},
+        {"zh": "我找到了我的晚餐。", "en": "I found my dinner."},
+        {"zh": "这棵树是我的！", "en": "This tree is mine!"},
+        {"zh": "我将吸取它的力量。", "en": "I will draw its power."},
+        {"zh": "树叶是我的猎物。", "en": "Leaves are my prey."},
+        {"zh": "我要吸取它的生命。", "en": "I will drain its life."},
+        {"zh": "我将吞噬这片森林。", "en": "I will devour this forest."},
+        {"zh": "那棵树在渗汁", "en": "That tree is seeping sap."},
+        {"zh": "我闻到新鲜木心", "en": "I smell fresh heartwood."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我要咬破它！", "en": "I will bite it!"},
+        {"zh": "让这棵树枯萎吧！", "en": "Let this tree wither!"},
+        {"zh": "我要将它连根拔起。", "en": "I will uproot it!"},
+        {"zh": "我要把这棵树吸干。", "en": "I will drain this tree dry."},
+        {"zh": "我要摧毁这片森林。", "en": "I will destroy this forest."},
+        {"zh": "我要吞噬这片土地。", "en": "I will devour this land."},
+        {"zh": "我要吸取这片土地的生命。", "en": "I will drain the life from this land."},
+        {"zh": "我要将它根除。", "en": "I will root it out."},
+        {"zh": "我要让它消失！", "en": "I will make it vanish!"},
+        {"zh": "我要将这片森林变成灰烬。", "en": "I will turn this forest to ash."},
+        {"zh": "我从树皮背面靠近", "en": "I come up the back of the bark."},
+        {"zh": "我的颚已经张开", "en": "My mandibles are already open."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "嘎吱——啃咬树皮！", "en": "Squeak—Chew bark!"},
+        {"zh": "嘶嘶——咬断枝条！", "en": "Hisss—Snap twigs!"},
+        {"zh": "咔嚓——啃食树根！", "en": "Crack—Chomp roots!"},
+        {"zh": "嗡嗡——钻入树干！", "en": "Buzz—Drill trunk!"},
+        {"zh": "咔咔——咬断树枝！", "en": "Click—Snap branch!"},
+        {"zh": "吱吱——啃食树干！", "en": "Squeak—Chomp trunk!"},
+        {"zh": "嘶嘶——咬碎树叶！", "en": "Hisss—Chew leaves!"},
+        {"zh": "嗡嗡——飞来咬你！", "en": "Buzz—Bite you!"},
+        {"zh": "嘎吱——啃食果实！", "en": "Squeak—Crunch fruit!"},
+        {"zh": "颚咬断了你的弓弦", "en": "My mandibles snap your bowstring."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "钻出地底！", "en": "Drill up!"},
+        {"zh": "原始木的碎屑还沾在我背上。", "en": "Primordial wood dust still clings to my back."},
+        {"zh": "从树皮中出现！", "en": "Emerge from bark!"},
+        {"zh": "从树根中钻出！", "en": "Drill from roots!"},
+        {"zh": "爬入树洞躲雨！", "en": "Crawl into tree!"},
+        {"zh": "从枯木中钻出！", "en": "Drill from log!"},
+        {"zh": "爬入树洞休息！", "en": "Crawl into rest!"},
+        {"zh": "从树根中爬出！", "en": "Crawl from roots!"},
+        {"zh": "钻入地下生存！", "en": "Drill underground!"},
+        {"zh": "从树枝中爬出！", "en": "Crawl from branch!"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰焚烧，痛不欲生。", "en": "Flames burning, agony."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉落地面，重伤难愈。", "en": "Fall to ground, badly hurt."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "溺水身亡，无法呼吸。", "en": "Drowned, can't breathe."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸冲击，身体震裂。", "en": "Explosion, body shattered."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢贯穿，生命垂危。", "en": "Arrow pierced, dying now."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法攻击，灵魂受损。", "en": "Magic hurt, soul injured."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿难忍，虚弱无力。", "en": "Starving, weak and tired."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷击而亡，无力挣扎。", "en": "Lightning strike, powerless."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空，魂飞魄散。", "en": "Void fall, soul lost."}
+      ]
+    }
+  }
+}

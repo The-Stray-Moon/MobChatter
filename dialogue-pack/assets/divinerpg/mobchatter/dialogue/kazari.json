@@ -1,0 +1,254 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "挥舞着大锤，叮当作响。", "en": "Hammer clatters as it swings."},
+        {"zh": "闪烁着绿光的眼睛注视前方。", "en": "Green eyes gleam forward."},
+        {"zh": "敲击木板，发出轻脆的声音。", "en": "Knocks sticks, producing a crisp sound."},
+        {"zh": "脚上绑着的布条轻轻移动。", "en": "Cloth tied around legs moves gently."},
+        {"zh": "手中的木铲偶尔敲击地面。", "en": "Mallet taps ground occasionally."},
+        {"zh": "身上布满修补痕迹的斗篷随风摆动。", "en": "Dust-covered cloak flutters."},
+        {"zh": "时不时发出低沉的咒语声。", "en": "Muttering occasionally."},
+        {"zh": "挥动木棒，发出劈劈啪啪的声音。", "en": "Wooden staff crackles as swung."},
+        {"zh": "仔细检查手中的书籍。", "en": "Examines book in hand."},
+        {"zh": "轻声吟唱古老的咒语。", "en": "Whispers ancient incantations."},
+        {"zh": "货担在肩上吱呀作响。", "en": "My pack creaks on my shoulder."},
+        {"zh": "沿着林间小路慢慢晃。", "en": "I wander slowly along the forest path."},
+        {"zh": "把布帘掀开，露出钥匙。", "en": "I lift the cloth and show the keys."},
+        {"zh": "数着走过来的第几个人。", "en": "Counting each traveler who passes."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "低头吃着树叶。", "en": "Eats leaves."},
+        {"zh": "用手指轻轻触碰草药。", "en": "Taps herbs with finger."},
+        {"zh": "盯着远处的一片森林。", "en": "Stares at distant forest."},
+        {"zh": "整理面前的书籍。", "en": "Organizes books."},
+        {"zh": "抚摸着怀中的小狼。", "en": "Pats small wolf."},
+        {"zh": "轻声吟唱着古老的咒语。", "en": "Whispers ancient incantations."},
+        {"zh": "翻阅一本厚重的古书。", "en": "Flips through heavy tome."},
+        {"zh": "用长棍指向空中。", "en": "Points stick at sky."},
+        {"zh": "低头轻抚手中的羽毛。", "en": "Taps feather in hand."},
+        {"zh": "仔细观察手中的水晶。", "en": "Examines crystal in hand."},
+        {"zh": "擦干净那枚旧钥匙。", "en": "I polish the old key."},
+        {"zh": "给斗篷缝上新的补丁。", "en": "I sew a new patch onto my cloak."},
+        {"zh": "把货物按价位摆好。", "en": "I lay out my goods by price."},
+        {"zh": "等一个愿意开口的人。", "en": "Waiting for someone willing to speak."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "看着玩家，眼中闪过警觉的光芒。", "en": "Looks at player, eyes glinting."},
+        {"zh": "微笑地向玩家打招呼。", "en": "Smiles at player."},
+        {"zh": "认真地打量着玩家。", "en": "Examines player closely."},
+        {"zh": "突然警惕地看着四周。", "en": "Suddenly looks around suspiciously."},
+        {"zh": "礼貌地向玩家点头。", "en": "Nods to player politely."},
+        {"zh": "凝视着玩家的眼睛。", "en": "Stares into player's eyes."},
+        {"zh": "轻声对玩家说话。", "en": "Whispers to player."},
+        {"zh": "看着玩家，眼中流露出好奇。", "en": "Looks at player curiously."},
+        {"zh": "友好地向玩家挥手。", "en": "Waves at player."},
+        {"zh": "用手指轻点玩家。", "en": "Taps player with finger."},
+        {"zh": "你像是要走远路的人。", "en": "You look like someone going far."},
+        {"zh": "先看看货，再谈价钱。", "en": "Look at the wares, then we talk price."},
+        {"zh": "我这里只换，不赊。", "en": "I trade here. I do not lend."},
+        {"zh": "秘界的门，你听说过吗？", "en": "Have you heard of the Apalachia gate?"},
+        {"zh": "你口袋里有几枚金币？", "en": "How many coins are in your pocket?"},
+        {"zh": "五十点生命，经不起抢。", "en": "Fifty health does not survive a robbery."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我受伤了，我的手受伤了！", "en": "My hand is hurt!"},
+        {"zh": "我被划伤了，快帮我！", "en": "I'm cut, help me!"},
+        {"zh": "我的脚受了伤，走不动了。", "en": "My foot is hurt, I can't walk."},
+        {"zh": "我被摔伤了，痛死我了。", "en": "I got hurt, it hurts."},
+        {"zh": "我的翅膀受伤了，飞不起来了。", "en": "My wings are hurt, I can't fly."},
+        {"zh": "我的脸被撞伤了，流血了。", "en": "My face is hurt, it's bleeding."},
+        {"zh": "我的身体受了伤，快救救我吧。", "en": "My body is hurt, please help."},
+        {"zh": "我的尾巴被咬伤了，好痛。", "en": "My tail is hurt, it hurts."},
+        {"zh": "我的胳膊受伤了，拿不了东西。", "en": "My arm is hurt, I can't hold things."},
+        {"zh": "我的腿受伤了，我需要休息。", "en": "My leg is hurt, I need rest."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手中的面包让我想起了家乡的麦田。", "en": "That bread reminds me of the wheat fields back home."},
+        {"zh": "愿你的慷慨带我回家。", "en": "May your generosity bring me home."},
+        {"zh": "用食物打开我的心吧。", "en": "Open my heart with food."},
+        {"zh": "这里的食物，也许能换取我手中的钥匙。", "en": "Food might earn me the key in my hand."},
+        {"zh": "你的蛋糕看起来和家乡的很像。", "en": "Your cake looks like the one from home."},
+        {"zh": "分享点鱼吧，换我的钥匙。", "en": "Give me some fish, and I’ll give you the key."},
+        {"zh": "用蜂蜜蛋糕取悦我吧。", "en": "Persuade me with a honey cake."},
+        {"zh": "我的蜂蜜和你的面包交换怎么样？", "en": "How about trading honey for your bread?"},
+        {"zh": "你那串蘑菇我可以吃吗？", "en": "Can I have those mushrooms?"},
+        {"zh": "用苹果让我心甘情愿。", "en": "Persuade me with apples."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "小心，我可能对你有兴趣。", "en": "Watch out, I might be interested in you."},
+        {"zh": "我们来一场交易吧。", "en": "Let’s do a trade."},
+        {"zh": "碰碰看，也许你会喜欢我。", "en": "Touch me, you might like me."},
+        {"zh": "你撞到我了，让我有点生气。", "en": "You bumped into me, making me a bit angry."},
+        {"zh": "小心，我可能会反抗。", "en": "Be careful, I might resist."},
+        {"zh": "你这么撞我，让我有点不悦。", "en": "You bumped into me, making me unhappy."},
+        {"zh": "你撞到我了，让我有些生气。", "en": "You bumped into me, making me angry."},
+        {"zh": "别再撞我了，我会生气的。", "en": "Stop bumping into me, or I’ll get angry."},
+        {"zh": "你这样撞我，我很生气。", "en": "You’re making me angry by bumping into me."},
+        {"zh": "你撞到我了，我有点不高兴。", "en": "You bumped into me, making me unhappy."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "寻找伴侣是我的使命。", "en": "Finding a mate is my mission."},
+        {"zh": "找个伴儿，我在这里。", "en": "Find a partner, I’m here."},
+        {"zh": "我想找个朋友一起生活。", "en": "I want a friend to live with."},
+        {"zh": "跟我一起，你会快乐的。", "en": "Be with me, and you’ll be happy."},
+        {"zh": "钥匙就挂在腰间，跟我走。", "en": "The key hangs at my belt; come with me."},
+        {"zh": "买把秘界钥匙，陪我走。", "en": "Buy a secret-realm key and come with me."},
+        {"zh": "找个伙伴，开始新的生活。", "en": "Find a partner for a new life."},
+        {"zh": "一起生活吧，我会保护你。", "en": "Live with me, and I’ll protect you."},
+        {"zh": "一起探索世界，做个伴。", "en": "Explore the world together, as a companion."},
+        {"zh": "我想要个伴侣，可以吗？", "en": "Can I have a partner?"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "拿起我手中的胡萝卜，温暖你的心灵。", "en": "Take my carrot, warm your heart."},
+        {"zh": "这根糖蜜胡萝卜，能驱走你的寒冷。", "en": "This honeyed carrot will keep you warm."},
+        {"zh": "这颗魔豆，能带你去冒险。", "en": "These magic beans will take you on an adventure."},
+        {"zh": "尝一口我的蜂蜜面包，你会忘记疲惫。", "en": "Taste my honey bread, and you’ll forget your tiredness."},
+        {"zh": "小心，这些麦片谷物可能有毒。", "en": "Be careful, these oatmeal may be poisonous."},
+        {"zh": "我这里有新鲜的蘑菇，适合在森林中食用。", "en": "Fresh mushrooms for the forest."},
+        {"zh": "别忘了带点鱼肉，它们适合冷水栖息地。", "en": "Don’t forget some fish, they suit cold waters."},
+        {"zh": "用我的鱼肉和蜂蜜面包喂养小羊，能安抚它。", "en": "Feed my fish and honey bread to the sheep, and it will calm."},
+        {"zh": "将我的蜂蜜面包喂给马，能使它更快。", "en": "Feed my honey bread to the horse, and it will go faster."},
+        {"zh": "小心，不要误食我的蜂蜜面包，它很甜。", "en": "Be careful, my honey bread is very sweet and can be fatal if eaten by mistake."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的眼神吸引了我。", "en": "Your gaze has caught my attention."},
+        {"zh": "让我看看你是谁。", "en": "Let me see who you are."},
+        {"zh": "我们似乎有共同之处。", "en": "We seem to have something in common."},
+        {"zh": "你看起来值得信赖。", "en": "You look trustworthy."},
+        {"zh": "你的眼睛透露出智慧。", "en": "Your eyes reveal wisdom."},
+        {"zh": "你有着勇敢的灵魂。", "en": "You have a brave soul."},
+        {"zh": "我们有共同的目标。", "en": "We have a common goal."},
+        {"zh": "你的勇气打动了我。", "en": "Your courage has touched me."},
+        {"zh": "你的话语中有力量。", "en": "There is power in your words."},
+        {"zh": "你身上有种特殊的感觉。", "en": "You have a special feel about you."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我会保护你的。", "en": "I will protect you."},
+        {"zh": "你值得我信任。", "en": "You deserve my trust."},
+        {"zh": "我会帮你打开秘界门。", "en": "I will help you open the秘界门."},
+        {"zh": "我们一起行动吧。", "en": "Let’s act together."},
+        {"zh": "你不会孤单的。", "en": "You won’t be alone."},
+        {"zh": "我们可以共同面对。", "en": "We can face it together."},
+        {"zh": "你必须信任我。", "en": "You must trust me."},
+        {"zh": "我会引导你前行。", "en": "I will guide you."},
+        {"zh": "让我们一起努力。", "en": "Let’s work together."},
+        {"zh": "你不是一个人。", "en": "You’re not alone."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "用角撞击敌人！", "en": "Butt attack!"},
+        {"zh": "第二下我撞得更低。", "en": "The second butt comes in lower."},
+        {"zh": "角是武器！", "en": "Horns are weapons!"},
+        {"zh": "我低头，角尖先到。", "en": "I lower my head; the horn arrives first."},
+        {"zh": "我的角撞上你的肋骨。", "en": "My horn finds your ribs."},
+        {"zh": "撞开你的防御！", "en": "Break through your defense!"},
+        {"zh": "角尖刺向你！", "en": "Stab with my horn!"},
+        {"zh": "用角顶开你！", "en": "Butt you open!"},
+        {"zh": "躲我的角攻击！", "en": "Avoid my horn! attack!"},
+        {"zh": "别抢，我用木棍招呼你！", "en": "Don't rob me, or my stick will answer."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从秘界来！", "en": "I come from the Nether!"},
+        {"zh": "我是卡扎里！", "en": "I am Kazari!"},
+        {"zh": "我守护着钥匙！", "en": "I guard the key!"},
+        {"zh": "打开门需钥匙！", "en": "Key opens the door!"},
+        {"zh": "我是秘界使者！", "en": "I am Nether messenger!"},
+        {"zh": "寻找钥匙吧！", "en": "Seek the key!"},
+        {"zh": "秘界之门钥匙！", "en": "Nether door key!"},
+        {"zh": "我从山谷的石阶上下来。", "en": "I come down the valley steps."},
+        {"zh": "我来自另一个世界！", "en": "I come from another world!"},
+        {"zh": "钥匙可以打开一切！", "en": "Key opens all!"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧伤了我，好疼！", "en": "Burned by fire, it hurts!"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从高处摔了下来，快救救我！", "en": "I fell from high, help me!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我掉进水里，快来救我！", "en": "I fell in the water, save me!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "炸弹爆炸伤了我，好疼！", "en": "Explosion hurt me, it hurts!"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭射伤了我，痛死我了。", "en": "Arrow hit me, it hurts!"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔咒击中了我，好疼！", "en": "Magic hit me, it hurts!"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我饿坏了，求点吃的！", "en": "I'm starving, give me food!"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "闪电击中了我，好疼！", "en": "Lightning hit me, it hurts!"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚无伤了我，快来救我！", "en": "Void hurt me, save me!"}
+      ]
+    }
+  }
+}

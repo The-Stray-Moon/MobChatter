@@ -1,0 +1,270 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我拖着一身泥往前走", "en": "I drag a body of mud forward"},
+        {"zh": "我走过的地方变成烂地", "en": "The ground turns to mire where I pass"},
+        {"zh": "泥从我身上一块块掉", "en": "Clumps of mud fall off me"},
+        {"zh": "我的脚步陷下去，又拔出来", "en": "My steps sink and pull free"},
+        {"zh": "我朝着干燥的地方去", "en": "I head for the dry ground"},
+        {"zh": "我的手垂着，滴着泥水", "en": "My hands hang, dripping silt"},
+        {"zh": "我一摊一摊往前淌", "en": "I ooze forward, pool by pool"},
+        {"zh": "我把挡路的草压进泥里", "en": "I press the grass down into the mire"},
+        {"zh": "我的身体边缘是散的", "en": "My edges are coming apart"},
+        {"zh": "我绕过一块硬石头", "en": "I go around a hard stone"},
+        {"zh": "我走得很慢，可我不会停", "en": "I'm slow, but I don't stop"},
+        {"zh": "泥在地上留下深色的痕", "en": "Dark trails follow me"}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，泥在往下淌", "en": "I stand and the mud runs off me"},
+        {"zh": "我的形状一直没定", "en": "My shape never settles"},
+        {"zh": "地上积了一小滩", "en": "A small pool gathers at my feet"},
+        {"zh": "我没有眼睛，可我在看", "en": "I have no eyes, yet I watch"},
+        {"zh": "我抬手，泥从指缝漏下去", "en": "I raise a hand and mud leaks through it"},
+        {"zh": "这片土和我很像", "en": "This soil is much like me"},
+        {"zh": "我在等地面软下来", "en": "I wait for the ground to soften"},
+        {"zh": "我的一部分流到了旁边", "en": "Part of me flows off to the side"},
+        {"zh": "我呼吸的时候会冒泡", "en": "Bubbles rise when I breathe"},
+        {"zh": "我的头低下去，又抬起来", "en": "My head sinks and rises again"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你脚下的地是我的", "en": "The ground under you is mine"},
+        {"zh": "我的轮廓往你这边偏", "en": "My outline leans toward you"},
+        {"zh": "你往后退，泥跟着你", "en": "You back away and the mud follows"},
+        {"zh": "你站的地方在下沉", "en": "Where you stand is sinking"},
+        {"zh": "我记得你踩过我的边", "en": "I remember you stepping on my edge"},
+        {"zh": "我抬起手，很慢", "en": "I raise a hand, very slowly"},
+        {"zh": "你鞋上已经沾了泥", "en": "There's mud on your boots already"},
+        {"zh": "我等你再走一步", "en": "I wait for one more step"},
+        {"zh": "你看着我的时候，我也在看", "en": "You look at me and I look back"},
+        {"zh": "这片地不听你的", "en": "This ground doesn't answer to you"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我被打散了一块", "en": "A chunk of me is knocked loose"},
+        {"zh": "泥溅到旁边，又流回来", "en": "Mud splashes away and flows back"},
+        {"zh": "我退了一点，地面更软了", "en": "I recede and the ground softens"},
+        {"zh": "我的形状扁了", "en": "My shape flattens"},
+        {"zh": "我没有痛叫，只是冒着泡", "en": "I don't cry out; I only bubble"},
+        {"zh": "我又缩回泥里", "en": "I sink back into the mire"},
+        {"zh": "我的一只手没了，又长出来", "en": "One of my hands is gone, then returns"},
+        {"zh": "我抖了一下，泥落了一地", "en": "I shudder and mud falls everywhere"},
+        {"zh": "我停在那儿，慢慢地聚拢", "en": "I stop and slowly gather myself"},
+        {"zh": "我还在，只是稀了", "en": "I'm still here, only thinner"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手里的东西是硬的", "en": "What you hold is hard"},
+        {"zh": "把它放下，让它变软", "en": "Set it down and let it soften"},
+        {"zh": "源石的泥裹着我，四只一起走。", "en": "Originium mud coats me; four of us move."},
+        {"zh": "你退开，我就不碰你", "en": "Step back and I won't touch you"},
+        {"zh": "泥会自己过去", "en": "The mud goes on its own"},
+        {"zh": "你手里的东西在变暗", "en": "What you hold is darkening"},
+        {"zh": "我只要它，不要你", "en": "I want it, not you"},
+        {"zh": "再近一步就好", "en": "One step nearer will do"},
+        {"zh": "你抓着也没用", "en": "Holding it won't help"},
+        {"zh": "地面已经开始吃了", "en": "The ground has started eating"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你陷进我这里", "en": "You sink into me"},
+        {"zh": "我的手臂穿过你的膝盖", "en": "My arm passes through your knees"},
+        {"zh": "你拔出来，鞋少了一只", "en": "You pull free, missing a boot"},
+        {"zh": "泥裹住你的脚踝", "en": "Mud wraps your ankles"},
+        {"zh": "我们撞在一起，溅了一片", "en": "We meet and mud sprays"},
+        {"zh": "我塌下去一片，又拢回来", "en": "A part of me slumps, then pulls back"},
+        {"zh": "你推我，手上全是泥", "en": "You push me and your hands are filthy"},
+        {"zh": "我粘在你的护甲上", "en": "I cling to your armor"},
+        {"zh": "你蹭了半天也没蹭掉", "en": "You scrape and it won't come off"},
+        {"zh": "我慢慢从你身上滑下去", "en": "I slowly slide off you"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "泥滩那头又鼓起来一块", "en": "Another mound rises across the mire"},
+        {"zh": "我们流到一起", "en": "We flow into each other"},
+        {"zh": "它比我稀一些", "en": "It's thinner than I am"},
+        {"zh": "我们的边界分不清了", "en": "Our edges can't be told apart"},
+        {"zh": "我们一起漫过一片草", "en": "We spread over a patch of grass"},
+        {"zh": "两个在一起，地陷得更深", "en": "Two together sink the ground deeper"},
+        {"zh": "我们两个一滴声音也没有", "en": "Neither of us makes a sound"},
+        {"zh": "它把一部分分给我", "en": "It gives me part of itself"},
+        {"zh": "这一片泥滩以后有两个", "en": "Two now share this mire"},
+        {"zh": "再往更低处流", "en": "Flow on to lower ground"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用泥把它包起来", "en": "I wrap it in mud"},
+        {"zh": "它沉下去了一点", "en": "It sinks a little"},
+        {"zh": "我举起来，泥往下滴", "en": "I lift it and mud drips off"},
+        {"zh": "这东西不是软的", "en": "This thing isn't soft"},
+        {"zh": "我裹了两层，还不满意", "en": "I wrap it twice and it's still not right"},
+        {"zh": "它从我手里滑走了", "en": "It slips out of my grip"},
+        {"zh": "我用泥巴把它封住。", "en": "I seal it shut with mud."},
+        {"zh": "这块东西，归我的泥潭。", "en": "This piece belongs to my mire."},
+        {"zh": "它正在被吃掉", "en": "It's being eaten away"},
+        {"zh": "你最好也别碰", "en": "You'd best not touch it either"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你踩进我这片地了", "en": "You've stepped into my ground"},
+        {"zh": "地面开始收紧了", "en": "The ground is tightening"},
+        {"zh": "我朝你流过去", "en": "I flow toward you"},
+        {"zh": "你别抬脚，抬了会陷得更深", "en": "Don't lift a foot; it'll sink deeper"},
+        {"zh": "你脚下的泥开始发烫。", "en": "The mud under you starts to warm."},
+        {"zh": "周围都是软的", "en": "Everything around is soft"},
+        {"zh": "我抬起手，泥成条地挂着", "en": "I raise a hand, mud hanging in ropes"},
+        {"zh": "你退得越急，陷得越快", "en": "The faster you retreat, the faster you sink"},
+        {"zh": "我听见你踩水的声音", "en": "I hear you stepping in water"},
+        {"zh": "这里没有硬地", "en": "There's no hard ground here"},
+        {"zh": "我已经在你脚下了", "en": "I'm already under your feet"},
+        {"zh": "这一片地归我", "en": "This patch of ground is mine"},
+        {"zh": "你踢起一脚泥，我笑了", "en": "You kick up mud, and I laugh"},
+        {"zh": "我顺着坡往下流", "en": "I flow down the slope"},
+        {"zh": "你转身的时候，我已经到了", "en": "By the time you turn, I'm there"},
+        {"zh": "这里的土早就松了", "en": "This soil has been loose a long while"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我在地上慢慢推过去", "en": "I push across the ground slowly"},
+        {"zh": "泥从你的脚踝爬到小腿", "en": "Mud climbs from your ankles to your shins"},
+        {"zh": "你在往硬地上跳", "en": "You're leaping for hard ground"},
+        {"zh": "硬地也裂了缝", "en": "The hard ground has cracks too"},
+        {"zh": "我不急，我有的是地", "en": "No hurry; I have all the ground"},
+        {"zh": "我沿着裂缝渗过去", "en": "I seep along the cracks"},
+        {"zh": "你回头看了一眼脚下", "en": "You glance down at your feet"},
+        {"zh": "你的动作慢下来了", "en": "Your movements are slowing"},
+        {"zh": "我在等你的力气用完", "en": "I wait for your strength to run out"},
+        {"zh": "每一脚都把你往下带", "en": "Every step draws you lower"},
+        {"zh": "你听，泥在说话", "en": "Listen; the mud is speaking"},
+        {"zh": "这一圈我围住了", "en": "I've closed the ring"},
+        {"zh": "再走两步，你就动不了", "en": "Two more steps and you can't move"},
+        {"zh": "我抬起来，又落下去", "en": "I rise and settle again"},
+        {"zh": "地面开始像水一样晃", "en": "The ground sways like water"},
+        {"zh": "这马上就好了", "en": "It'll be done in a moment"},
+        {"zh": "你已经在往下沉了", "en": "You're already sinking"},
+        {"zh": "我这就过来接你", "en": "I'm coming to take you now"},
+        {"zh": "这片泥滩今晚有客", "en": "The mire has a guest tonight"},
+        {"zh": "一丝也不会疼", "en": "It won't hurt at all"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一手按下去，泥裹住你", "en": "I press a hand down and mud wraps you"},
+        {"zh": "你被拖得跪了下去", "en": "You're dragged to your knees"},
+        {"zh": "泥顺着你的护甲缝往里钻", "en": "Mud works into your armor's seams"},
+        {"zh": "这一下把你掀翻在泥里", "en": "That flips you into the mire"},
+        {"zh": "泥浆涌上来，裹住你的膝盖。", "en": "Slurry surges up and wraps your knees."},
+        {"zh": "我的手臂缠住你的腿", "en": "My arm wraps your legs"},
+        {"zh": "这一下没抓住，泥溅了一片", "en": "I miss and mud sprays everywhere"},
+        {"zh": "你挣扎着爬起，又滑倒", "en": "You struggle up and slide down again"},
+        {"zh": "我的拳头落下来，软的", "en": "My fist comes down, soft"},
+        {"zh": "可它压得你喘不上气", "en": "But it presses the breath out of you"},
+        {"zh": "我把你往深处拖", "en": "I drag you toward the deep"},
+        {"zh": "你的鞋已经找不到了", "en": "Your boots are already gone"},
+        {"zh": "我松开一点点", "en": "I loosen a little"},
+        {"zh": "你抓住了一根树根", "en": "You catch a root"},
+        {"zh": "那根树根在烂", "en": "The root is rotting"},
+        {"zh": "我还在往下拉", "en": "I'm still pulling"},
+        {"zh": "我把你按进泥里", "en": "I press you down into the mire"},
+        {"zh": "你整个人往下沉", "en": "You sink whole"},
+        {"zh": "泥从你嘴里进去", "en": "Mud gets into your mouth"},
+        {"zh": "我压着你没松", "en": "I'm holding you down"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地面鼓起了一块", "en": "A patch of ground swells"},
+        {"zh": "我从泥里慢慢立起来", "en": "I rise slowly out of the mire"},
+        {"zh": "水从我的形状里漏下去", "en": "Water drains out of my shape"},
+        {"zh": "周围的草开始往下陷", "en": "The grass around starts to sink"},
+        {"zh": "土腥味一下子重了", "en": "The smell of wet earth thickens"},
+        {"zh": "我先漫过一小片地", "en": "I spread over a small patch first"},
+        {"zh": "我伸出手，泥往下流", "en": "I reach out and mud runs down"},
+        {"zh": "这里低，正合适", "en": "This dip suits me"},
+        {"zh": "我发出的声音像冒泡", "en": "The sound I make is like bubbling"},
+        {"zh": "有人踩到了软地", "en": "Someone stepped on soft ground"},
+        {"zh": "泥水漫过路面", "en": "Muddy water spills across the road"},
+        {"zh": "我慢慢地成形", "en": "I slowly take shape"}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火烤着我，泥面结了一层硬壳", "en": "Fire bakes me and my surface crusts over"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从高处塌下来，摊成一滩", "en": "I collapse from a height into a pool"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水太多，我散在水里", "en": "Too much water; I come apart in it"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我掀得四处都是", "en": "The blast scatters me everywhere"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭穿过去，洞自己合上了", "en": "The arrow passes through and the hole closes"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法烘着我，我变硬了", "en": "Magic bakes me hard"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这片地被我吃干了", "en": "I've eaten this ground dry"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打进泥里，我抖成一片", "en": "Lightning enters the mud and I shake apart"}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "下面没有土，我留不住形状", "en": "No soil below; I can't hold a shape"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我是一块会走的矩形。", "en": "I am a rectangle that walks."},
+        {"zh": "我四条边在地上挪。", "en": "My four sides shift along the ground."},
+        {"zh": "我的颜色从一头到另一头。", "en": "My colour runs from one end to the other."},
+        {"zh": "我晃晃悠悠地过去。", "en": "I wobble my way across."},
+        {"zh": "我拐了个直角。", "en": "I turn at a right angle."},
+        {"zh": "我的边角擦过草丛。", "en": "My corners brush the grass."},
+        {"zh": "我看上去不太舒服。", "en": "I do not look comfortable."},
+        {"zh": "我没有脚，只能贴着地面挪。", "en": "I have no feet; I slide along the floor."},
+        {"zh": "我顺着斜坡滑下。", "en": "I slide down the slope."},
+        {"zh": "我又挪回原处。", "en": "I shift back where I was."},
+        {"zh": "我的影子也是方的。", "en": "My shadow is square too."},
+        {"zh": "我一路走，一路变淡。", "en": "I fade as I go."},
+        {"zh": "我没有把门关上。", "en": "I did not shut the door."},
+        {"zh": "我停在门框里。", "en": "I stop in the doorway."},
+        {"zh": "我又朝另一边去。", "en": "I head the other way."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我立着，颜色在流。", "en": "I stand, my colours flowing."},
+        {"zh": "谁看了都不舒服。", "en": "Nobody feels right looking at me."},
+        {"zh": "我的边很直。", "en": "My edges are very straight."},
+        {"zh": "我在原地微微动。", "en": "I move slightly in place."},
+        {"zh": "我是一条渐变。", "en": "I am a gradient."},
+        {"zh": "我不知道自己为什么在这。", "en": "I do not know why I am here."},
+        {"zh": "我一角翘了一下。", "en": "One of my corners lifted."},
+        {"zh": "我的形状不变。", "en": "My shape never changes."},
+        {"zh": "我那块矩形影子，投在墙上。", "en": "My rectangular shadow falls on the wall."},
+        {"zh": "我把一角压低。", "en": "I lower one corner."},
+        {"zh": "我慢慢变亮。", "en": "I brighten slowly."},
+        {"zh": "我的两端颜色不同。", "en": "My two ends are different colours."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你看了我一眼，愣住了。", "en": "You looked at me and stopped."},
+        {"zh": "我这样，确实难看。", "en": "I am ugly, true enough."},
+        {"zh": "这一点我不怪你。", "en": "I do not blame you for that."},
+        {"zh": "我只是块矩形。", "en": "I am only a rectangle."},
+        {"zh": "我的边上全是直线。", "en": "My edges are all straight lines."},
+        {"zh": "你眼睛不舒服吧。", "en": "Your eyes are uncomfortable, yes."},
+        {"zh": "你别一直看。", "en": "Do not keep staring."},
+        {"zh": "我会走，但不会跑。", "en": "I walk, but I do not run."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的边凹了一块。", "en": "One edge dented."},
+        {"zh": "我的边歪了。", "en": "My edge went crooked."},
+        {"zh": "颜色淡了一下。", "en": "My colour dimmed."},
+        {"zh": "我晃得停不住。", "en": "I cannot stop swaying."},
+        {"zh": "我偏了半步。", "en": "I skewed half a step."},
+        {"zh": "我没什么能反抗的。", "en": "I have no way to fight back."},
+        {"zh": "这一下让我更难看。", "en": "That made me worse to look at."},
+        {"zh": "我歪着也不对称了。", "en": "Even my crookedness is off balance."},
+        {"zh": "我薄了一片。", "en": "A layer of me thinned out."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发酵的蜘蛛眼。", "en": "A fermented spider eye."},
+        {"zh": "给我一个吧。", "en": "Give me one."},
+        {"zh": "我吃了就长大。", "en": "Eating makes me bigger."},
+        {"zh": "你举高，我的边就够不着。", "en": "Hold it high, and my edge can't reach."},
+        {"zh": "两个才能成事。", "en": "It takes two for that."},
+        {"zh": "你还有没有。", "en": "Do you have any more."},
+        {"zh": "发酵蛛眼……我的边缘变软了。", "en": "Fermented spider eye… my edges are softening."},
+        {"zh": "给我那个，我跟你飘一段。", "en": "Give me that and I'll drift with you a while."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我平平地撞上去。", "en": "I hit you flat."},
+        {"zh": "我的边角很硬，你撞上就退。", "en": "My edges are hard; you bounce off."},
+        {"zh": "我的边角磕了一下。", "en": "One of my corners knocked."},
+        {"zh": "这一撞把我顶斜了。", "en": "That knocked me askew."},
+        {"zh": "我不算很重。", "en": "I am not very heavy."},
+        {"zh": "你穿过了我，真不愉快。", "en": "You passed through me. How unpleasant."},
+        {"zh": "让一让，我的角是直角。", "en": "Step aside — my corners are right angles."},
+        {"zh": "这一撞，把我撞得更歪了。", "en": "That bump knocked me even less level."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我们把发酵蜘蛛眼吃了。", "en": "We eat the fermented spider eyes."},
+        {"zh": "两只凑一起，就够了。", "en": "Two of us together is enough."},
+        {"zh": "两只矩形并排，严丝合缝。", "en": "Two rectangles align edge to edge."},
+        {"zh": "边对边，正好。", "en": "Edge to edge, that works."},
+        {"zh": "小的会很像我们。", "en": "The small one will look like us."},
+        {"zh": "别急，先站稳。", "en": "Easy. Get your footing."},
+        {"zh": "颜色会混在一起。", "en": "Our colours will blend."},
+        {"zh": "这一带会多一个。", "en": "There will be one more here."},
+        {"zh": "这样就好了。", "en": "That will do."},
+        {"zh": "那就动身吧。", "en": "Then let us be off."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我用边把它兜起来。", "en": "I scoop it up with an edge."},
+        {"zh": "这东西方方的。", "en": "This thing is squarish."},
+        {"zh": "我顶着它挪。", "en": "I push it along."},
+        {"zh": "它从边上滑掉了。", "en": "It slid off my edge."},
+        {"zh": "这对我没价值。", "en": "This has no value to me."},
+        {"zh": "它圆得不好推。", "en": "It is too round to push."},
+        {"zh": "这个颜色不好看。", "en": "This colour is unpleasant."},
+        {"zh": "我缓缓挪开。", "en": "I creep away."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有影子在挪。", "en": "A shadow is shifting."},
+        {"zh": "我朝那边偏。", "en": "I tilt that way."},
+        {"zh": "我的边朝你摆。", "en": "My edge turns toward you."},
+        {"zh": "矩形的一角，先挪过来。", "en": "One corner of this rectangle slides over first."},
+        {"zh": "颜色变深了一点。", "en": "My colour darkened a little."},
+        {"zh": "我在门口停住。", "en": "I stop in the doorway."},
+        {"zh": "我要顶过去了。", "en": "I am about to shove."},
+        {"zh": "你别挡着我。", "en": "Do not block me."},
+        {"zh": "这是我唯一会的。", "en": "This is the only thing I can do."},
+        {"zh": "我这就开始动了。", "en": "I'm starting to move now."},
+        {"zh": "你不要一直催我。", "en": "Do not keep rushing me."},
+        {"zh": "就这一格吧。", "en": "Just this square."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一直朝你挪。", "en": "I keep shifting toward you."},
+        {"zh": "我挪过门槛，门还开着。", "en": "I slide past the threshold, leaving the door open."},
+        {"zh": "我的颜色一直在变。", "en": "My colours keep changing."},
+        {"zh": "你退，我还在。", "en": "You retreat, and I am still here."},
+        {"zh": "我在门边绕。", "en": "I circle by the door."},
+        {"zh": "我与你的间隔在减。", "en": "The gap between us is shrinking."},
+        {"zh": "我边角刮着地。", "en": "My corners scrape the ground."},
+        {"zh": "你看着我，就慢了。", "en": "Watching me slows you down."},
+        {"zh": "再挪上两格。", "en": "Two squares nearer."},
+        {"zh": "我卡在门口，进不去也出不来。", "en": "I wedge in the doorway, neither in nor out."},
+        {"zh": "我又开始走。", "en": "I start walking again."},
+        {"zh": "只剩下几格。", "en": "Only a few squares left."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的边角顶在腿上。", "en": "My corner digs into your leg."},
+        {"zh": "你被顶开了一步。", "en": "You were shoved a step."},
+        {"zh": "我摆了两摆才正。", "en": "I rocked twice to straighten."},
+        {"zh": "我的边弯了一点。", "en": "My edge bent a little."},
+        {"zh": "我缓缓退开。", "en": "I ease back."},
+        {"zh": "你被我撞偏了。", "en": "I knocked you off your line."},
+        {"zh": "我还是块矩形。", "en": "I am still a rectangle."},
+        {"zh": "再抵上去一下。", "en": "Press in once more."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地上多了一块矩形。", "en": "A rectangle appears on the ground."},
+        {"zh": "我颜色慢慢浮出来。", "en": "My colours surface slowly."},
+        {"zh": "我摆正了自己的边。", "en": "I squared off my edges."},
+        {"zh": "这里很开阔。", "en": "It is open here."},
+        {"zh": "风从我的边角过去。", "en": "The wind passes my corners."},
+        {"zh": "我这就开始了。", "en": "Here I begin."},
+        {"zh": "我朝前走过去。", "en": "I walk forward."},
+        {"zh": "又被铺在地上了，毫无必要。", "en": "Spread across the ground again. Entirely unnecessary."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火把我的边烤软了。", "en": "Fire softened my edges."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我一头栽下去，边角先着地。", "en": "I fell corner-first."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水里我颜色都花了。", "en": "In water my colours ran."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把我推成一个斜角。", "en": "The blast skewed my corner."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有东西在我边上打了个洞。", "en": "Something punched a hole in my edge."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这光让我的渐变乱了。", "en": "This light scrambled my gradient."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我很久没吃了。", "en": "I have not eaten in a long time."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷让我的颜色全白了。", "en": "The lightning bleached me white."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里没有地面给我挪。", "en": "There is no ground to shift on."}
+      ]
+    }
+  }
+}

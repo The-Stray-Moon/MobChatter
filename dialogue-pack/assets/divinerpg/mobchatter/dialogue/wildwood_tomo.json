@@ -1,0 +1,265 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "沙沙响，缓缓移。", "en": "Sandy shuffle, step by step."},
+        {"zh": "树木间，悄悄行。", "en": "Amidst trees, silent and light."},
+        {"zh": "枯叶下，挪挪腿。", "en": "Stirring legs under dead leaves."},
+        {"zh": "树影里，悄无声。", "en": "In the shadows, silent and still."},
+        {"zh": "枯枝上，缓行缓。", "en": "On brittle branches, move slow."},
+        {"zh": "森林暗，步步轻。", "en": "Dark forest, steps soft."},
+        {"zh": "风声里，轻移步。", "en": "In the breeze, silent steps."},
+        {"zh": "落叶舞，缓缓行。", "en": "Leaves dance, slow steps."},
+        {"zh": "暮色中，静静行。", "en": "Twilight, silent and still."},
+        {"zh": "夜幕下，悄无声。", "en": "Under the night, silent and light"},
+        {"zh": "苔痕里，一步一停。", "en": "Through the moss, one step, then pause."},
+        {"zh": "树冠滴下的水，打在我背上。", "en": "Water drips from the canopy onto my back."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "树根旁，静悄悄。", "en": "By the roots, silent."},
+        {"zh": "苔藓上，懒懒躺。", "en": "On the moss, lazily laid."},
+        {"zh": "树枝间，静静待。", "en": "In the branches, silent."},
+        {"zh": "阴影中，静静躺。", "en": "In the shadows, silent."},
+        {"zh": "枯叶堆，懒懒躺。", "en": "In the leaves, lazily laid."},
+        {"zh": "树洞里，静静待。", "en": "In the hollows, silent."},
+        {"zh": "石缝间，静静卧。", "en": "In the crevices, silent."},
+        {"zh": "草丛中，静静待。", "en": "In the grass, silent."},
+        {"zh": "原木上，懒懒躺。", "en": "On the logs, lazily laid."},
+        {"zh": "树皮下，静静待。", "en": "Under the bark, silent"}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "目光锁，人影现。", "en": "Eyes on you."},
+        {"zh": "玩家来，目光闪。", "en": "Player seen, eyes flicker."},
+        {"zh": "人声起，目光移。", "en": "Voice heard, eyes shift."},
+        {"zh": "玩家近，目光锐。", "en": "Player near, eyes keen."},
+        {"zh": "目光锐，人影现。", "en": "Sharp eyes, player seen."},
+        {"zh": "玩家动，目光紧。", "en": "Player moves, eyes fixed."},
+        {"zh": "目光锐，人影清。", "en": "Sharp eyes, player clear."},
+        {"zh": "人影现，目光闪。", "en": "Player seen, eyes flash."},
+        {"zh": "目光锐，人影明。", "en": "Sharp eyes, player bright."},
+        {"zh": "玩家近，目光炽。", "en": "Player near, eyes hot"}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "树叶下的我受伤了！", "en": "Got damaged by the leaves!"},
+        {"zh": "我的皮肉受伤了！", "en": "My skin is hurt!"},
+        {"zh": "我的骨头断裂了！", "en": "My bones are broken!"},
+        {"zh": "有毒蘑菇侵蚀了我！", "en": "Toxic mushrooms are poisoning me!"},
+        {"zh": "我的树枝砸中了我！", "en": "A branch hit me!"},
+        {"zh": "我的森林之魂受损！", "en": "My forest soul is hurt!"},
+        {"zh": "我的魔法肉受伤了！", "en": "My magical flesh is injured!"},
+        {"zh": "被藤蔓缠住了！", "en": "Got entangled!"},
+        {"zh": "尖刺陷阱伤害了我！", "en": "Pierced by spikes!"},
+        {"zh": "腐烂的叶子伤了我！", "en": "Decaying leaves hurt me!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿引诱你靠近，小心被吞噬！", "en": "Hunger lures you near, beware of being devoured!"},
+        {"zh": "原始之魂呼唤着你，跟随我吧！", "en": "The spirit of the wild calls, follow me!"},
+        {"zh": "靠近我，分享你的力量！", "en": "Come closer, share your strength with me."},
+        {"zh": "森林的低语，诱惑你前行！", "en": "The forest whispers, tempt you forward."},
+        {"zh": "你无法抵抗我的诱惑，快跟我来！", "en": "You cannot resist my temptation, come with me!"},
+        {"zh": "森林之魂渴望与你结合！", "en": "The spirit of the forest craves your union!"},
+        {"zh": "品尝我的魔法肉，你将变得更强！", "en": "Sample my magic meat, you will grow stronger!"},
+        {"zh": "和我一起，你将拥有永恒生命！", "en": "Join me, and you shall have eternal life!"},
+        {"zh": "黑暗中的光芒，引你进入深渊！", "en": "The light in the darkness draws you down!"},
+        {"zh": "跟随我，揭露你的弱点！", "en": "Follow me, and reveal your weakness!"}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "硬碰硬，力量决定生死！", "en": "Clash of strength, survival is at stake!"},
+        {"zh": "铁锤撞击，你将被击碎！", "en": "Hammer strike, you shall be shattered!"},
+        {"zh": "你不是我的对手，让出道路！", "en": "You are no match, make way!"},
+        {"zh": "岩石阻挡，用魔法穿透！", "en": "Rock blocks, magic pierces through!"},
+        {"zh": "木材撞击，粉碎一切障碍！", "en": "Wooden blows, crush all obstacles!"},
+        {"zh": "火焰焚烧，阻止我不得！", "en": "Fire burns, stop me if you can!"},
+        {"zh": "铁钉穿透，你已无力反抗！", "en": "Iron spikes, you are powerless now!"},
+        {"zh": "刀刃交锋，决定你的命运！", "en": "Blade clash, decide your fate!"},
+        {"zh": "箭矢射穿，你将命丧于此！", "en": "Arrow pierces, your end is here!"},
+        {"zh": "巨石压顶，求生之路已断！", "en": "Boulder crushes, escape is cut off!"}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "同类相吸，我们共存！", "en": "同类相吸, we coexist!"},
+        {"zh": "灵魂伴侣，与我共舞！", "en": "Soulmate, dance with me!"},
+        {"zh": "与我交配，延续生命！", "en": "Mate with me,延续生命!"},
+        {"zh": "我们是森林中的伴侣！", "en": "We are partners of the forest!"},
+        {"zh": "同类之间，力量倍增！", "en": "Strength in unity, mates!"},
+        {"zh": "与我交配，灵魂合一！", "en": "Mate with me, souls merge!"},
+        {"zh": "交配是我们的本能！", "en": "Mating is our instinct!"},
+        {"zh": "同类之间，共享生命！", "en": "Share life with your kind!"},
+        {"zh": "灵魂伴侣，共同前行！", "en": "Soulmate, forward together!"},
+        {"zh": "与我交配，共创未来！", "en": "Mate with me, build our future!"}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "啃咬枯木的声音", "en": "Crunching on a dead tree branch"},
+        {"zh": "腐肉的味道，我先咬一口。", "en": "Rotten meat. I take a bite first."},
+        {"zh": "啃食腐烂的叶子", "en": "Eating decayed leaves"},
+        {"zh": "爬向掉落的魔法肉", "en": "Crawling towards dropped magical meat"},
+        {"zh": "咀嚼着原始森林之魂", "en": "Chewing on a Wildwood Soul"},
+        {"zh": "张开血盆大口", "en": "Opening its bloodied mouth"},
+        {"zh": "盯着玩家的眼睛", "en": "Staring into the player's eyes"},
+        {"zh": "从泥土中冒出", "en": "Emerging from the ground"},
+        {"zh": "咀嚼着腐烂的树枝", "en": "Munching on a decaying branch"},
+        {"zh": "舔着嘴角的鲜血", "en": "Licking the blood from its mouth"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盯着猎物", "en": "Staring at the prey"},
+        {"zh": "缓缓靠近目标", "en": "Slowly approaching the target"},
+        {"zh": "嗅探目标的气息", "en": "Sniffing the target's scent"},
+        {"zh": "原始森林里，我盯上你了。", "en": "In the wildwood, I've picked you."},
+        {"zh": "开始追逐", "en": "Starting to chase"},
+        {"zh": "低吼着靠近", "en": "Creeping closer with a growl"},
+        {"zh": "目光中闪烁着贪婪", "en": "Greedy glint in its eyes"},
+        {"zh": "嘶嘶地接近", "en": "Slithering closer with a hiss"},
+        {"zh": "我从苔藓里抬起头。", "en": "I lift my head out of the moss."},
+        {"zh": "发出威胁的嘶鸣", "en": "Releasing a threatening hiss"},
+        {"zh": "你不惹我，我也不惹你。", "en": "Leave me be, and I leave you be."},
+        {"zh": "先动手的，才是我猎物。", "en": "Whoever strikes first becomes my prey."},
+        {"zh": "原始森林里，我记住你了。", "en": "In the wildwood, I have noted you."},
+        {"zh": "这片苔藓，我认得每一寸。", "en": "I know every inch of this moss."},
+        {"zh": "同类的低吼，传得很远。", "en": "My kind's low growl carries far."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咬住猎物", "en": "Biting the prey"},
+        {"zh": "啃咬着腐肉", "en": "Munching on flesh"},
+        {"zh": "发出嘶嘶声", "en": "Releasing a hiss"},
+        {"zh": "咬住目标的腿", "en": "Biting the target's leg"},
+        {"zh": "用獠牙撕裂", "en": "Tearing with its fangs"},
+        {"zh": "发出低吼", "en": "Releasing a growl"},
+        {"zh": "咬断敌人的胳膊", "en": "Biting off an enemy's arm"},
+        {"zh": "啃食尸体", "en": "Feasting on a corpse"},
+        {"zh": "发出愤怒的嘶吼", "en": "Releasing an angry hiss"},
+        {"zh": "撕咬猎物的头", "en": "Tearing at the prey's head"},
+        {"zh": "牙齿磨着，等你先动。", "en": "I grind my teeth and wait for you to move first."},
+        {"zh": "一百一十点血，够挨几下。", "en": "A hundred and ten health; enough for a few hits."},
+        {"zh": "你的剑，还是收起来吧。", "en": "Better put that sword away."},
+        {"zh": "树干后面，我绕过去了。", "en": "I went around behind the trunk."},
+        {"zh": "森林的魂，站在我这边。", "en": "The forest's soul stands with me."},
+        {"zh": "你退，我不追；你进，我咬。", "en": "You back off, I hold. You come in, I bite."},
+        {"zh": "我的獠牙上还挂着苔。", "en": "Moss still clings to my tusks."},
+        {"zh": "魔法肉的味道，你闻到了吗？", "en": "Can you smell the enchanted meat?"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "原木的皮很糙，我的牙更糙。", "en": "The log bark is rough, my teeth are rougher."},
+        {"zh": "轰隆一声，腐烂的拳头！", "en": "Bang! Rotting fist!"},
+        {"zh": "吱吱吱，咬紧不松口！", "en": "Squeak, hold on tight!"},
+        {"zh": "吼！吃掉你，森林的子嗣！", "en": "Roar! Eat you, forest's child!"},
+        {"zh": "咔嚓咔嚓，牙齿生锈！", "en": "Rust, teeth crunch!"},
+        {"zh": "咕噜噜，吸血开始！", "en": "Gurgle, blood starts!"},
+        {"zh": "呜呜呜，吸干你的血！", "en": "Woo, drain your blood!"},
+        {"zh": "嘶嘶嘶，森林的诅咒！", "en": "Sssss, forest's curse!"},
+        {"zh": "嘶嘶嘶，腐烂之魂！", "en": "Sssss, rotting soul!"},
+        {"zh": "咕噜噜，森林的怨灵！", "en": "Gurgle, forest's wraith!"},
+        {"zh": "獠牙一挑，你退了半步。", "en": "One tusk flick and you stagger back."},
+        {"zh": "树根绊住你，我扑上去。", "en": "A root trips you and I lunge."},
+        {"zh": "这一口，带着森林的力气。", "en": "This bite carries the forest's strength."},
+        {"zh": "腐叶飞起来，盖了你的眼。", "en": "Rotten leaves fly up into your eyes."},
+        {"zh": "你砍中树皮，不是我。", "en": "You struck bark, not me."},
+        {"zh": "同类的低吼，跟着我一起上。", "en": "My kin's growl rises as I charge."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "森林之夜，我将苏醒！", "en": "Forest night, I awaken!"},
+        {"zh": "森林之魂，融入我身！", "en": "Forest soul, in me now!"},
+        {"zh": "枯枝落地，我将重生！", "en": "Dry branch, I’m reborn!"},
+        {"zh": "树影摇曳，我将现身！", "en": "Shadows move, I appear!"},
+        {"zh": "腐叶落地，我将苏醒！", "en": "Decay falls, I awaken!"},
+        {"zh": "暮色降临，我将出现！", "en": "Dusk, I emerge!"},
+        {"zh": "腐朽之地，我将驻足！", "en": "Rotting ground, I stay!"},
+        {"zh": "林间古木，我将栖息！", "en": "Ancient trees, I rest!"},
+        {"zh": "暮色森林，我将降临！", "en": "Dusk forest, I arrive!"},
+        {"zh": "枯木成精，我将现身！", "en": "Wilted wood, I appear!"},
+        {"zh": "原始森林的苔上，我站起。", "en": "On the wildwood moss, I rise."},
+        {"zh": "落叶堆下，慢慢爬出来。", "en": "From under the leaf litter, I crawl out."},
+        {"zh": "树干裂开，我抖了抖土。", "en": "The trunk splits and I shake off the dirt."},
+        {"zh": "这片林子又多了个看守。", "en": "This wood has one more keeper now."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "原始森林的皮，怕火。", "en": "This wildwood hide fears the flame."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从树上摔了下来！", "en": "Fell from the tree!"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉进沼泽中了！", "en": "Drowned in the swamp!"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "原始森林的树，替我挡了一半。", "en": "A wildwood trunk took half the blast."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被箭射中了！原始森林的叶子替我挡了一下。", "en": "Pierced by an arrow! The wildwood leaves took part of it."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "原始森林的魔法，扎进肉里。", "en": "Wildwood magic sinks into my flesh."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "肚子空了，我站不稳。", "en": "My belly is empty; I cannot stand steady."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷劈开枯枝，落在我背上。", "en": "Lightning split a dead branch onto my back."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "原始森林的魂，从虚空掉了。", "en": "The wildwood soul fell into the void."}
+      ]
+    }
+  }
+}

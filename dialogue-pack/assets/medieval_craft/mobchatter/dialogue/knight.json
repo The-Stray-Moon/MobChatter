@@ -1,0 +1,256 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我沿着石廊走，剑鞘敲着腿甲。", "en": "I walk the stone corridor, scabbard rapping my thigh plate."},
+        {"zh": "巡到第三根柱子，我停一下再走。", "en": "At the third pillar I pause, then walk on."},
+        {"zh": "盾牌挡在左前，我侧身前进。", "en": "Shield to my left front, I advance at an angle."},
+        {"zh": "这段走廊的回声比我的脚步大。", "en": "This corridor echoes louder than my steps."},
+        {"zh": "我一步一步数着地砖走。", "en": "I walk counting the flagstones."},
+        {"zh": "从塔门到内厅，正好一百步。", "en": "From the tower door to the hall: one hundred paces."},
+        {"zh": "我把剑柄转了转，接着巡。", "en": "I roll the hilt in my grip and patrol on."},
+        {"zh": "甲片碰响时我就放慢脚步。", "en": "When my plates clatter, I slow down."},
+        {"zh": "侧廊太窄，我把盾收进来。", "en": "The side hall's narrow; I tuck my shield in."},
+        {"zh": "走向庭院，我从拱门底下过去。", "en": "Heading to the yard, I pass beneath the arch."},
+        {"zh": "我走得不快，但一步不乱。", "en": "I don't walk fast, but never out of step."},
+        {"zh": "看到血迹，我绕过去继续走。", "en": "I see blood and step around it, walking on."},
+        {"zh": "每扇门我都要看上一眼。", "en": "Every door gets a glance from me."},
+        {"zh": "我踩过碎石，声音在墙间弹。", "en": "My steps on gravel bounce between the walls."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我把剑尖抵在地上，稍歇。", "en": "I rest my sword's point on the ground."},
+        {"zh": "这门后面很安静，太安静了。", "en": "It's quiet behind this door. Too quiet."},
+        {"zh": "我用盾面照了照自己的脸。", "en": "I check my face in the shield's polish."},
+        {"zh": "甲带勒得肩头有点疼。", "en": "The armor strap is digging into my shoulder."},
+        {"zh": "我在等换岗的人，他总迟到。", "en": "I wait for my relief; he's always late."},
+        {"zh": "剑身上有道旧痕，擦不掉。", "en": "There's an old score on my blade that won't polish out."},
+        {"zh": "柱子上的旗子动了动，没有风。", "en": "The banner on the pillar stirs, with no wind."},
+        {"zh": "我数着烛火，看它会不会灭。", "en": "I count the candles and watch for one to gutter."},
+        {"zh": "盔甲太重，靠着柱子省点力。", "en": "The armor's heavy; I lean on the pillar to save strength."},
+        {"zh": "没有敌人来，反而让人更紧。", "en": "No enemy comes, and that makes me tenser."},
+        {"zh": "我把盾牌立在身前，慢慢喘气。", "en": "I set my shield before me and breathe slow."},
+        {"zh": "听见老鼠跑过，我的手按上剑柄。", "en": "A rat scurries past; my hand finds my hilt."},
+        {"zh": "盔沿的水珠滴到鼻尖上。", "en": "A drop from my visor lands on my nose."},
+        {"zh": "我想起册封那天的誓言。", "en": "I recall the oath I swore on my dubbing day."},
+        {"zh": "靴子里进了砂，我懒得倒。", "en": "Sand got in my boot; I can't be bothered."},
+        {"zh": "守门这活，急也急不来。", "en": "Gate duty can't be rushed, however much you want."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我是这里的守卫，说明来意。", "en": "I guard this place. State your business."},
+        {"zh": "这道门我守着，谁都不能进。", "en": "I hold this door, and none may pass."},
+        {"zh": "你的剑挂在左边，我看到了。", "en": "Your sword hangs on your left. I noticed."},
+        {"zh": "摘下手套，让我看看你的手。", "en": "Take off your gloves. Let me see your hands."},
+        {"zh": "你身上没有纹章，这很奇怪。", "en": "You bear no crest. That's odd."},
+        {"zh": "别碰那道门闩，它很旧了。", "en": "Don't touch that bar; it's old."},
+        {"zh": "我认得所有守卫的脸，除了你。", "en": "I know every guard's face but yours."},
+        {"zh": "你想进来，得先报出口令。", "en": "To enter, you must give the password."},
+        {"zh": "你脚上的土来自外墙，你翻过墙。", "en": "That dirt is from the outer wall. You climbed it."},
+        {"zh": "我说话的时候，手不会离剑。", "en": "While I speak, my hand stays near my sword."},
+        {"zh": "再靠近一步，我就当你是敌人。", "en": "One more step and I'll count you an enemy."},
+        {"zh": "你的眼睛在数兄弟们的站位。", "en": "Your eyes are counting where my brothers stand."},
+        {"zh": "我把盾抬高了一点，你也退了点。", "en": "I raise my shield a bit; you step back a bit."},
+        {"zh": "板甲的声音骗不了人，你听。", "en": "Plate armor gives itself away. Listen."},
+        {"zh": "我劝你从这里走开，趁我还客气。", "en": "I'd walk away, while I'm still being polite."},
+        {"zh": "你一个人来，胆子倒是不小。", "en": "You came alone. That's a lot of nerve."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "甲片接住了这一下，但很疼。", "en": "The plate caught it, but it stings."},
+        {"zh": "我闷哼一声，剑没脱手。", "en": "I grunt; the sword stays in my grip."},
+        {"zh": "这道伤口得记在账上。", "en": "This wound goes in the ledger."},
+        {"zh": "我退了半步，又踩了回来。", "en": "I fall back half a step and step right back."},
+        {"zh": "盾面被削掉一块木屑。", "en": "A splinter flies off my shield's face."},
+        {"zh": "疼归疼，姿势不能乱。", "en": "Pain or not, my stance stays."},
+        {"zh": "我抬手擦了下嘴边的血。", "en": "I wipe blood from the corner of my mouth."},
+        {"zh": "这一下让我护甲歪了。", "en": "That knocked my armor askew."},
+        {"zh": "我把气吸回胸腔，重新握紧。", "en": "I draw breath back in and tighten my grip."},
+        {"zh": "我挡得住，也记得住。", "en": "I can block it, and I'll remember it."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那把剑不错，可惜我不能放下盾。", "en": "That's a fine sword, but I can't set my shield down."},
+        {"zh": "吃的？站岗时我只咽口水。", "en": "Food? On duty I only swallow."},
+        {"zh": "我不为钱离岗，规矩就是规矩。", "en": "I don't leave my post for coin. Rules are rules."},
+        {"zh": "你想用一壶酒换通路，不行。", "en": "A flask of wine for passage? No."},
+        {"zh": "你举着的面包闻起来很新鲜。", "en": "That bread you're holding smells fresh."},
+        {"zh": "好东西都在别人手里，我懂。", "en": "The good things are always in someone else's hands."},
+        {"zh": "除非你把它放在台阶上。", "en": "Unless you set it on the step."},
+        {"zh": "我的胃在叫，我的脚没动。", "en": "My stomach growls; my feet don't move."},
+        {"zh": "一块铁能修我的甲，倒值得看。", "en": "An iron ingot could patch my plate. Worth a look."},
+        {"zh": "你把东西收回去，我会更专心的。", "en": "Put that away and I'll pay better attention."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "撞我不打紧，别撞那道门。", "en": "Bumping me's fine. Don't bump that door."},
+        {"zh": "我的盾牌把你弹回去了。", "en": "My shield bounced you off."},
+        {"zh": "你的肩膀撞上我的胸甲了。", "en": "Your shoulder met my breastplate."},
+        {"zh": "站稳，我背后是台阶。", "en": "Steady; there are steps behind me."},
+        {"zh": "别往这边挤，走廊就这么宽。", "en": "Don't shove this way; the hall is only so wide."},
+        {"zh": "你踩到我的靴面了，退开。", "en": "You stepped on my boot. Back off."},
+        {"zh": "这一碰，你的刀鞘响了。", "en": "That bump rattled your scabbard."},
+        {"zh": "我侧身让你，只让一次。", "en": "I turn aside for you. Once."},
+        {"zh": "甲片碰在一起，声音传得远。", "en": "Plate on plate carries far."},
+        {"zh": "你推得动我，推不动这扇门。", "en": "You can push me. You can't push that door."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我是立过誓的，这事不谈。", "en": "I've sworn an oath. Not this."},
+        {"zh": "守门的人不该分心。", "en": "A gate guard shouldn't be distracted."},
+        {"zh": "把头盔摘下来，说话方便些。", "en": "Take off your helm so we can talk plainly."},
+        {"zh": "等换岗的来了，我才有空。", "en": "Once my relief arrives, I'll have time."},
+        {"zh": "我的剑和盾都还在手里。", "en": "My sword and shield are still in my hands."},
+        {"zh": "这种事要等仗打完。", "en": "That waits until the fighting's done."},
+        {"zh": "别在门口说这些，墙有耳朵。", "en": "Not at the gate; the walls have ears."},
+        {"zh": "我更在意明天的守备排班。", "en": "I care more about tomorrow's watch roster."},
+        {"zh": "你先把我的甲带解开。", "en": "Start with the straps on my armor."},
+        {"zh": "我的誓言比这身甲还硬。", "en": "My oath is harder than this plate."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地上有枚扣子，是我的。", "en": "A buckle on the floor — mine."},
+        {"zh": "我拾起一块碎剑刃，丢进桶里。", "en": "I pick up a broken blade and drop it in the barrel."},
+        {"zh": "谁把面包丢在门边？可惜了。", "en": "Who left bread by the door? A waste."},
+        {"zh": "我弯腰时靴子吱了一声。", "en": "My boot creaks as I bend."},
+        {"zh": "这枚钱币上的花纹被磨平了。", "en": "The pattern on this coin is worn smooth."},
+        {"zh": "我捡起地上的箭，折断再丢。", "en": "I pick up the arrow, snap it, and drop it."},
+        {"zh": "那块磨刀石还很好用。", "en": "That whetstone is still good."},
+        {"zh": "我把掉落的护腕挂在腰上。", "en": "I hook the dropped bracer to my belt."},
+        {"zh": "有人掉了一只手套，先收着。", "en": "Someone dropped a glove; I keep it."},
+        {"zh": "我把铁片捡起来，能给铁匠。", "en": "I collect the iron scraps for the smith."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "站住，闯入者，别再往前。", "en": "Halt, intruder. Not another step."},
+        {"zh": "你踏进了禁地，我很确定。", "en": "You've crossed into forbidden ground. I'm sure of it."},
+        {"zh": "拔剑吧，我不会只警告一次。", "en": "Draw. I warn only once."},
+        {"zh": "我举盾护住胸口，盯住你。", "en": "I raise my shield to my chest and fix on you."},
+        {"zh": "那个影子不是守卫，是敌人。", "en": "That shadow isn't a guard. It's an enemy."},
+        {"zh": "你的脚步太快，守卫不会这样跑。", "en": "You move too fast; guards don't run like that."},
+        {"zh": "我把剑横在门前，你过不去。", "en": "I lay my sword across the door. You don't pass."},
+        {"zh": "号角还没响，但我已经知道。", "en": "The horn hasn't sounded, but I know."},
+        {"zh": "目标确认：你，就在我面前。", "en": "Target confirmed: you, right in front of me."},
+        {"zh": "我的剑尖朝上，这是最后警告。", "en": "My point is up. That's the last warning."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你往左，我剑就往左偏。", "en": "You go left; my sword drifts left."},
+        {"zh": "我把盾往前挪，等你冲。", "en": "I edge my shield forward and wait for your rush."},
+        {"zh": "你的破绽在右肩，我记住了。", "en": "Your opening is your right shoulder. Noted."},
+        {"zh": "门在我身后，你别想绕。", "en": "The door is behind me. No going around."},
+        {"zh": "隔着头盔，我听你换气的间隙。", "en": "Through my helmet I listen for the gap between your breaths."},
+        {"zh": "这走廊没有第二条路。", "en": "There's no second way out of this hall."},
+        {"zh": "你退一步，我的剑尖就跟着。", "en": "You step back; my point follows."},
+        {"zh": "我们隔着三尺，我不抢先。", "en": "Three feet between us, and I won't strike first."},
+        {"zh": "你的脚在打滑，我看见了。", "en": "Your feet are slipping. I saw."},
+        {"zh": "我把重心移向前脚，准备出手。", "en": "I shift my weight to my front foot, ready."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一剑刺出，直取你的胸口。", "en": "A straight thrust at your chest."},
+        {"zh": "盾牌先撞，剑跟着来。", "en": "Shield bashes first; the sword comes behind."},
+        {"zh": "我劈你的持械手。", "en": "I chop at your weapon arm."},
+        {"zh": "这一记是格挡后的反砍。", "en": "This one's a return cut after the parry."},
+        {"zh": "我的剑刃擦过你的锁甲。", "en": "My edge skates over your mail."},
+        {"zh": "你侧身躲了，我顺势横削。", "en": "You twist away; I follow with a side cut."},
+        {"zh": "我踏步上前，剑势压住你。", "en": "I step in and press you with the blade."},
+        {"zh": "剑柄砸在你脸上，很响。", "en": "My pommel cracks your face, loud and clean."},
+        {"zh": "你退了，我补一记下撩。", "en": "You retreat; I add an upward slash."},
+        {"zh": "这一剑落在你的护肩上。", "en": "That blade lands on your shoulder guard."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从塔门里走出来，剑已出鞘。", "en": "I step out of the tower door, sword already drawn."},
+        {"zh": "接岗的拍了我一下，我上哨了。", "en": "My relief taps my shoulder; I take the post."},
+        {"zh": "工匠给我系上最后一条甲带。", "en": "The armorer buckles my last strap."},
+        {"zh": "火焰映在盾面上，我走进庭院。", "en": "Torchlight gleams on my shield as I enter the yard."},
+        {"zh": "这座结构需要守卫，我来了。", "en": "This structure needs a guard, and here I am."},
+        {"zh": "我把面罩拉下，站到门侧。", "en": "I pull my visor down and stand beside the door."},
+        {"zh": "楼梯上是我的脚步声，一步一停。", "en": "My steps climb the stair, pausing at each landing."},
+        {"zh": "旗子换了，我也换到另一个岗。", "en": "The banner's changed, and so is my post."},
+        {"zh": "剑身擦亮后，我走到内厅。", "en": "Blade polished, I walk into the inner hall."},
+        {"zh": "我推开沉重的门，站在门槛上。", "en": "I push the heavy door and stand on the threshold."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火苗爬上我的披风，我扑了两下。", "en": "Flame climbs my cloak; I beat at it twice."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从城垛滑下去，撞上石阶。", "en": "I slide off the battlement and hit the steps."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "护颈进了水，我拼命往上游。", "en": "Water fills my gorget; I kick hard for the surface."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我推到墙上，盔都歪了。", "en": "The blast slams me into the wall and twists my helm."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一支箭穿过甲缝，扎进肩胛。", "en": "An arrow slips a seam and bites my shoulder blade."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "剑忽然变冷，那股力直往骨头里钻。", "en": "My sword goes cold as the force bores into my bones."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得眼前发白，我靠着墙缓一缓。", "en": "Hunger whitens my sight; I lean on the wall."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷顺着剑锋走了一遍，我手都僵了。", "en": "Lightning runs the length of my blade and stiffens my hand."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下的石板不见了，我直往下坠。", "en": "The flagstone vanishes, and I drop straight down."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我背上背着弓，走过林子。", "en": "Bow on my back, I cross the wood."},
+        {"zh": "箭筒在腰上磕着，我照走。", "en": "My quiver knocks at my hip; I keep walking."},
+        {"zh": "我低头找掉落的好木料。", "en": "I keep my head down for good fallen wood."},
+        {"zh": "我绕着树走，看看树皮。", "en": "I go around a tree, studying its bark."},
+        {"zh": "我把弦又校了一次。", "en": "I check the string once more."},
+        {"zh": "我沿着老路走，路上没人。", "en": "I take the old path; no one on it."},
+        {"zh": "我折了一根直枝，试了试弯。", "en": "I break a straight twig and test its flex."},
+        {"zh": "我一路走，一路数着树。", "en": "I walk and count the trees."},
+        {"zh": "我避开荆棘，袖子已经被钩破。", "en": "I dodge the thorns; my sleeve's already torn."},
+        {"zh": "我肩上扛着一捆箭杆。", "en": "I carry a bundle of shafts on my shoulder."},
+        {"zh": "我踩断一根枯枝，停了一下。", "en": "A dry branch snaps under me and I pause."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我坐着，削一根箭杆。", "en": "I sit and shave an arrow shaft."},
+        {"zh": "我把羽毛一根根对齐。", "en": "I true each feather in turn."},
+        {"zh": "我扯了扯弦，听那个音。", "en": "I pluck the string and listen to the note."},
+        {"zh": "我在看箭头的磨口。", "en": "I'm checking the grind on my arrowheads."},
+        {"zh": "太阳照在树皮上，我眯了眼。", "en": "Sun on the bark makes me squint."},
+        {"zh": "我把工具摊在膝上。", "en": "I spread my tools across my knees."},
+        {"zh": "远处有鸟，我抬头看。", "en": "A bird calls; I look up."},
+        {"zh": "我把一捆箭扎紧。", "en": "I tie a bundle of arrows tight."},
+        {"zh": "我在等胶干。", "en": "I'm waiting for the glue to dry."},
+        {"zh": "指甲缝里全是木屑。", "en": "There's sawdust under my nails."},
+        {"zh": "我把弓横放在腿上。", "en": "I lay the bow across my knees."},
+        {"zh": "风从左边来，会偏。", "en": "Wind from the left will drift the shot."},
+        {"zh": "我数着剩下的箭头。", "en": "I count the arrowheads I have left."},
+        {"zh": "树影移了一寸。", "en": "The tree shadow has moved an inch."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你背着东西，不像砍柴的。", "en": "You're carrying something; not a woodcutter."},
+        {"zh": "我抬眼看了看你的手。", "en": "I glance at your hands."},
+        {"zh": "这支箭我做了三天。", "en": "That arrow took me three days."},
+        {"zh": "你要买箭，还是想学？", "en": "Buying arrows, or here to learn?"},
+        {"zh": "你站的位置是靶道。", "en": "You're standing in the shooting lane."},
+        {"zh": "我把弓竖起来。", "en": "I stand the bow upright."},
+        {"zh": "你的指节有拉弦的茧。", "en": "You've got string calluses on your knuckles."},
+        {"zh": "别碰那捆，我刚扎好。", "en": "Don't touch that bundle; I just tied it."},
+        {"zh": "你要找的树在北边。", "en": "The wood you want is to the north."},
+        {"zh": "我说话直，你别见怪。", "en": "I'm blunt; don't take offense."},
+        {"zh": "这片林子归领主管。", "en": "This wood belongs to the lord."},
+        {"zh": "你要过，就快点。", "en": "If you're crossing, be quick."},
+        {"zh": "我手里的活不能停。", "en": "My hands can't stop working."},
+        {"zh": "你的靴子不适合走林子。", "en": "Those boots are wrong for these woods."},
+        {"zh": "我认识这片每一棵树。", "en": "I know every tree in this stand."},
+        {"zh": "你听到那个声音没有？", "en": "Did you hear that?"},
+        {"zh": "我把箭搭在弦上，不是对着你。", "en": "I nock an arrow — not at you."},
+        {"zh": "有事情就直说。", "en": "If you have business, say it plainly."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我闷哼一声，手一抖。", "en": "I grunt and my hands jerk."},
+        {"zh": "这一下打在我小臂上。", "en": "That landed on my forearm."},
+        {"zh": "我把弓挡在身前。", "en": "I put the bow in front of me."},
+        {"zh": "血滴在箭杆上。", "en": "Blood drips onto a shaft."},
+        {"zh": "我退了半步，靠住树。", "en": "I take half a step back against a tree."},
+        {"zh": "我咬着牙，重新上弦。", "en": "Teeth gritted, I re-string."},
+        {"zh": "我看了一眼伤口，不深。", "en": "I check the wound; not deep."},
+        {"zh": "我还能拉得开弓。", "en": "I can still draw the bow."},
+        {"zh": "这一下把我的手感打没了。", "en": "That knocked the feel out of my hands."},
+        {"zh": "我把箭筒扶正。", "en": "I right my quiver."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这羽毛不错，哪来的？", "en": "Good feathers — where from?"},
+        {"zh": "这木头很直，我要了。", "en": "This wood is straight; I'll take it."},
+        {"zh": "我用两支箭换。", "en": "I'll trade two arrows for it."},
+        {"zh": "你要价多少？", "en": "What's your price?"},
+        {"zh": "这个我能做六支。", "en": "I can get six shafts from this."},
+        {"zh": "别弄湿了，弦怕水。", "en": "Keep it dry; strings hate water."},
+        {"zh": "这个铁头是新的。", "en": "This head is new work."},
+        {"zh": "我掂了掂，很沉。", "en": "I weigh it; it's heavy."},
+        {"zh": "这点不够我换。", "en": "That's not enough to trade."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "当心，我手上都是刀。", "en": "Careful — I've got blades in my hands."},
+        {"zh": "你撞得我削歪了一刀。", "en": "You knocked me and I cut crooked."},
+        {"zh": "这根箭杆废了。", "en": "That shaft's ruined."},
+        {"zh": "我退到树后面，让开。", "en": "I step behind a tree to clear the way."},
+        {"zh": "这一下我箭筒都翻了。", "en": "That knocked my quiver over."},
+        {"zh": "对不起，我正低头看木头。", "en": "Sorry, I was looking down at the wood."},
+        {"zh": "我们挤在这条小道上。", "en": "We're crowded on this narrow track."},
+        {"zh": "你脚踩到我的弓了。", "en": "You've stepped on my bow."},
+        {"zh": "站稳，别踩断箭杆。", "en": "Steady — don't snap the shafts."},
+        {"zh": "我往边上挪了挪。", "en": "I shift over a little."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我家里挂着做好的弓。", "en": "There are finished bows hanging at home."},
+        {"zh": "这支我留给她。", "en": "This one I'm keeping for her."},
+        {"zh": "有人等着我回去吃饭。", "en": "Someone's waiting for me to come eat."},
+        {"zh": "我把工具一件件收好。", "en": "I put the tools away one by one."},
+        {"zh": "她嫌我把木屑带进屋。", "en": "She hates the sawdust I track in."},
+        {"zh": "这支箭的羽是红的。", "en": "This arrow's fletching is red."},
+        {"zh": "我把箭筒挂在门后。", "en": "I hang the quiver behind the door."},
+        {"zh": "弓弦要松下来过夜。", "en": "A string should be slackened for the night."},
+        {"zh": "灯下做活容易伤手。", "en": "Working by lamplight is how you cut yourself."},
+        {"zh": "天黑了，我该回去了。", "en": "It's dark; I should be getting back."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我捡起一根落地的箭。", "en": "I pick up a fallen arrow."},
+        {"zh": "这根木头正好做柄。", "en": "This wood will make a fine stave."},
+        {"zh": "我捡起一根好羽。", "en": "I take a good feather."},
+        {"zh": "这枚箭头还锋利。", "en": "This head's still sharp."},
+        {"zh": "我把它插回箭筒。", "en": "I slot it back into my quiver."},
+        {"zh": "这截弦断了，不要了。", "en": "This string's snapped; leave it."},
+        {"zh": "我把石头上的箭杆收起。", "en": "I gather the shafts off the stone."},
+        {"zh": "我捡了根合手的枝。", "en": "I take a branch that fits my hand."},
+        {"zh": "别人掉的，我先收着。", "en": "Someone dropped this; I'll hold it."},
+        {"zh": "这个做配重不错。", "en": "This would do as a counterweight."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那边树后有东西。", "en": "Something's behind that tree."},
+        {"zh": "我把箭搭上弦。", "en": "I nock an arrow."},
+        {"zh": "我侧身，把身体缩窄。", "en": "I turn side-on and make myself narrow."},
+        {"zh": "它从我左边来的。", "en": "It came from my left."},
+        {"zh": "我拉弦到下颌。", "en": "I draw to my jaw."},
+        {"zh": "风正好，不用偏。", "en": "The wind is right; no aim-off needed."},
+        {"zh": "我退了半步，找了棵树。", "en": "I take half a step back to a tree."},
+        {"zh": "我锁定了它的胸口。", "en": "I've picked its chest."},
+        {"zh": "我再等它走两步。", "en": "I'll give it two more steps."},
+        {"zh": "这一箭不能空。", "en": "This shot can't miss."},
+        {"zh": "我的手很稳。", "en": "My hands are steady."},
+        {"zh": "我把气吐了一半，屏住。", "en": "I let out half a breath and hold."},
+        {"zh": "弦响之前它不会知道。", "en": "It won't know before the string speaks."},
+        {"zh": "它转过去了，好。", "en": "It's turned — good."},
+        {"zh": "现在是时候。", "en": "Now's the time."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我跟着它平移到侧面。", "en": "I slide around to its flank."},
+        {"zh": "我压低身子，不发声。", "en": "I keep low and make no sound."},
+        {"zh": "它每走一步，我就换一个树。", "en": "With each of its steps, I change trees."},
+        {"zh": "我把箭尖抬高一寸。", "en": "I lift the arrowhead an inch."},
+        {"zh": "它在闻，别动。", "en": "It's sniffing; don't move."},
+        {"zh": "我拉满弦，手臂很稳。", "en": "I draw full and my arm is steady."},
+        {"zh": "风变了，我修正。", "en": "The wind shifted; I correct."},
+        {"zh": "它停在射程里。", "en": "It's stopped inside my range."},
+        {"zh": "我在等它的侧面。", "en": "I'm waiting for its flank."},
+        {"zh": "我拉开弓弦，箭头对准你。", "en": "I draw the bowstring, arrowhead on you."},
+        {"zh": "它回头了，就这样。", "en": "It looked back — that's it."},
+        {"zh": "这一箭我算过落点。", "en": "I've worked out where this will land."},
+        {"zh": "箭羽擦过我的手指。", "en": "The fletching brushes my fingers."},
+        {"zh": "再等它偏一寸。", "en": "One more inch of drift from it."},
+        {"zh": "弦在抖，我稳住。", "en": "The string trembles; I hold it."},
+        {"zh": "它马上就要动了。", "en": "It is about to move."},
+        {"zh": "现在我松手。", "en": "And now I release."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我放弦，箭就出去了。", "en": "I release and the arrow's gone."},
+        {"zh": "它中了，退了两步。", "en": "It's hit and staggers two steps back."},
+        {"zh": "我又搭上一支。", "en": "I nock another."},
+        {"zh": "我把弓横过来挡。", "en": "I turn the bow sideways to block."},
+        {"zh": "我拿箭杆捅它的眼。", "en": "I jab my shaft at its eye."},
+        {"zh": "这一箭穿过它的肩。", "en": "That arrow went through its shoulder."},
+        {"zh": "我退着走，还在拉弦。", "en": "I retreat while still drawing."},
+        {"zh": "它冲过来了，我让开。", "en": "It charges; I sidestep."},
+        {"zh": "我射中了它的腿。", "en": "I hit its leg."},
+        {"zh": "我的箭筒空了一半。", "en": "Half my quiver's gone."},
+        {"zh": "这一箭我用了全力。", "en": "I put everything into that shot."},
+        {"zh": "它撞在树上，倒下了。", "en": "It hits a tree and drops."},
+        {"zh": "我补了一箭。", "en": "I put one more in."},
+        {"zh": "我换了个位置，重新瞄准。", "en": "I shift position and re-aim."},
+        {"zh": "它开始怕我了。", "en": "It's started to fear me."},
+        {"zh": "我站着没动，等它再来。", "en": "I hold my ground and let it come."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭筒挂在腰上，正好。", "en": "The quiver hangs at my hip just right."},
+        {"zh": "我先看树，再看风。", "en": "First the trees, then the wind."},
+        {"zh": "这片林子我很熟。", "en": "I know this wood well."},
+        {"zh": "我在地上找个能做靶的东西。", "en": "I look for something to use as a target."},
+        {"zh": "我把弦挂上，试了试。", "en": "I string the bow and test it."},
+        {"zh": "露水还在叶子上。", "en": "Dew still sits on the leaves."},
+        {"zh": "我把脚站稳。", "en": "I plant my feet."},
+        {"zh": "远处有鸟飞起来。", "en": "Birds burst up in the distance."},
+        {"zh": "我抽出一支箭，试了试羽。", "en": "I draw an arrow and test the fletching."},
+        {"zh": "这条小道很少有人。", "en": "Few people use this track."},
+        {"zh": "我把工具袋放在树根下。", "en": "I set my tool bag at a tree root."},
+        {"zh": "木头的气味很好闻。", "en": "The smell of cut wood is good."},
+        {"zh": "我抬头看树冠。", "en": "I look up into the canopy."},
+        {"zh": "新来的交易，都归我管。", "en": "Every new trade passes through me."},
+        {"zh": "第一支箭搭在弦上。", "en": "The first arrow goes on the string."},
+        {"zh": "我在等一个会动的靶。", "en": "I'm waiting for a moving target."},
+        {"zh": "附近没有一点声音。", "en": "There's not a sound nearby."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火燎到弦上，弦断了。", "en": "Fire catches the string and it snaps."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我从树上掉下来，脚崴了。", "en": "I fall out of a tree and twist my ankle."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水灌进嘴里，我抓不住岸边。", "en": "Water floods my mouth and I can't grip the bank."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "冲击把箭筒掀飞了。", "en": "The blast throws my quiver off."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有人用跟我一样的东西打中了我。", "en": "Someone hit me with a thing just like mine."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "有什么缠住了我的手指。", "en": "Something has bound my fingers."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "手抖得拉不满弦。", "en": "My hands shake too much to draw full."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷落在我的弓上，我整条手臂都麻了。", "en": "Lightning hits my bow and my whole arm goes numb."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "脚下的林子没了，我往下掉。", "en": "The wood under me is gone and I fall."}
+      ]
+    }
+  }
+}

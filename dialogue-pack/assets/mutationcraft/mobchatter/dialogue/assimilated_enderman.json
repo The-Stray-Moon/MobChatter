@@ -1,0 +1,258 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的四肢太长，收不拢。", "en": "My limbs are too long to gather."},
+        {"zh": "我一步跨出两格。", "en": "One step covers two blocks."},
+        {"zh": "我身上多了几条黑色的肢。", "en": "Extra black limbs hang from me."},
+        {"zh": "我走过的地方空气发紫。", "en": "The air goes purple where I pass."},
+        {"zh": "我的身体像被拉长了。", "en": "My body looks drawn out."},
+        {"zh": "我顺着林线挪，不踏进空地。", "en": "I creep along the treeline without stepping into the open."},
+        {"zh": "我的头低得很低。", "en": "My head hangs very low."},
+        {"zh": "紫色粒子从我身上掉下来。", "en": "Purple motes drop off me."},
+        {"zh": "我不再看人。", "en": "I don't look at people anymore."},
+        {"zh": "我走得很慢，关节卡着。", "en": "I walk slowly, joints catching."},
+        {"zh": "我的手指比我记得的长。", "en": "My fingers are longer than I remember."},
+        {"zh": "走到一半我停住，换了个朝向。", "en": "Halfway there I halt and face a different way."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我站着，身体在轻微抽动。", "en": "I stand, my body twitching."},
+        {"zh": "紫色的烟围着我。", "en": "Purple smoke circles me."},
+        {"zh": "我听见很远的声音。", "en": "I hear something very far off."},
+        {"zh": "我的嘴里有东西在响。", "en": "Something clicks in my mouth."},
+        {"zh": "我的眼睛不成形了。", "en": "My eyes no longer hold shape."},
+        {"zh": "一只手举起来，关节一节节响。", "en": "One hand rises, its joints clicking one by one."},
+        {"zh": "地上有一圈黑的。", "en": "There's a black ring on the ground."},
+        {"zh": "我在试着站起来。", "en": "I'm trying to stand up straight."},
+        {"zh": "我的骨头比皮长。", "en": "My bones are longer than my hide."},
+        {"zh": "我缓缓地弯下腰。", "en": "I bend slowly."},
+        {"zh": "风把紫色的烟吹散。", "en": "The wind scatters the purple smoke."},
+        {"zh": "我又直起来。", "en": "I straighten again."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你不该看我。", "en": "You shouldn't look at me."},
+        {"zh": "我转过身，你也跟着。", "en": "I turn, and so do you."},
+        {"zh": "我身上已经不完整了。", "en": "I'm no longer whole."},
+        {"zh": "你看到的是影子。", "en": "What you see is a shadow."},
+        {"zh": "我抬起手，你退了。", "en": "I lift a hand; you stepped back."},
+        {"zh": "我从前不会这样。", "en": "I wasn't like this before."},
+        {"zh": "我的眼睛里有紫色的东西。", "en": "There's something violet in my eyes."},
+        {"zh": "我数不清你有几层影。", "en": "I can't count how many shadows you cast."},
+        {"zh": "我向前挪了一点。", "en": "I shifted forward a little."},
+        {"zh": "你听见那一声响了吗？", "en": "Did you hear that click?"},
+        {"zh": "一根长指头抬起来，对着你。", "en": "One long finger lifts and points straight at you."},
+        {"zh": "你的名字我还读得出来。", "en": "I can still read your name."},
+        {"zh": "我一脚一脚靠近，地没响。", "en": "I come closer foot by foot, and the ground stays silent."},
+        {"zh": "空气在我们之间变稠。", "en": "The air thickens between us."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我身上的紫色闪了一下。", "en": "The violet on me flickers."},
+        {"zh": "我退了一步，关节卡住。", "en": "I step back; a joint catches."},
+        {"zh": "几片暗紫的东西落在地上。", "en": "A few dark violet flecks fall to the ground."},
+        {"zh": "我没有一点声音。", "en": "Not one sound."},
+        {"zh": "这一下让我身上少了些东西。", "en": "That blow leaves me with less of myself."},
+        {"zh": "我把自己又拉回来。", "en": "I pull myself back together."},
+        {"zh": "这一下让我更慢。", "en": "That made me slower."},
+        {"zh": "我盯着你的位置。", "en": "I mark where you stand."},
+        {"zh": "我还没有散掉。", "en": "I haven't come apart yet."},
+        {"zh": "我还是会过去。", "en": "I'll come over all the same."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你手里的一块东西。", "en": "A block in your hand."},
+        {"zh": "我认得那个。", "en": "I know that."},
+        {"zh": "我以前会拿走它。", "en": "I used to take it."},
+        {"zh": "现在我还想拿。", "en": "I still want to."},
+        {"zh": "我伸出手，很长。", "en": "I reach out; my arm is long."},
+        {"zh": "它在我手里变轻了。", "en": "It got lighter in my hand."},
+        {"zh": "你退开一步。", "en": "Step back a pace."},
+        {"zh": "这东西不合我用。", "en": "This does me no good."},
+        {"zh": "但我还是拿了。", "en": "But I took it anyway."},
+        {"zh": "我从前闻过它。", "en": "I've smelled it before."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞在我身上，冷的。", "en": "You hit me; it's cold."},
+        {"zh": "你撞过来，我的身体只是让了让。", "en": "You crash into me, and my body merely yields a little."},
+        {"zh": "你的手穿过了我的手臂。", "en": "Your hand passed through my arm."},
+        {"zh": "我身上掉了些紫色的东西。", "en": "Purple bits fall off me."},
+        {"zh": "我们之间有一层空的。", "en": "There's a gap between us."},
+        {"zh": "我把脚抬起来，往旁边落。", "en": "I lift a foot and set it down to one side."},
+        {"zh": "地面上的黑圈扩大了。", "en": "The black ring widens."},
+        {"zh": "你又靠过来。", "en": "You came close again."},
+        {"zh": "我往后退了一格。", "en": "I fall back a block."},
+        {"zh": "我靠近时，你身边的空气凉了。", "en": "As I close in, the air around you turns cold."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里没有别的末影人。", "en": "There are no other Endermen here."},
+        {"zh": "我不再是末影人了。", "en": "I'm not an Enderman anymore."},
+        {"zh": "我记得他们在雨里叫。", "en": "I remember them calling in the rain."},
+        {"zh": "我站在这里，很安静。", "en": "I stand here, quiet."},
+        {"zh": "紫色的烟把我包住。", "en": "Purple smoke wraps me."},
+        {"zh": "我试着抬手，动作很慢。", "en": "I try to raise a hand; it's slow."},
+        {"zh": "没有人回应。", "en": "No one answers."},
+        {"zh": "喉咙里漏出一点声音，很短。", "en": "A little sound leaks from my throat, very brief."},
+        {"zh": "声音散掉了。", "en": "The sound scattered away."},
+        {"zh": "我把头垂下去，谁也没在看。", "en": "I let my head droop, though no one is watching."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我拿起一块土。", "en": "I pick up a block of earth."},
+        {"zh": "它在我的手里变凉。", "en": "It cools in my hand."},
+        {"zh": "我把它举高。", "en": "I hold it up."},
+        {"zh": "它开始发紫。", "en": "It starts to turn purple."},
+        {"zh": "我把它摆回去。", "en": "I set it back."},
+        {"zh": "地上留下一个空的。", "en": "A gap is left in the ground."},
+        {"zh": "我拿了不该拿的。", "en": "I took what I shouldn't."},
+        {"zh": "拿起来看看，又放回原处。", "en": "I lift it to look, then put it back where it was."},
+        {"zh": "这样好一些。", "en": "That's better."},
+        {"zh": "我重新站起来。", "en": "I stand up again."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你在我视线里了。", "en": "You're in my sight."},
+        {"zh": "我的身体向前倾。", "en": "My body leans forward."},
+        {"zh": "紫色的烟变浓。", "en": "The purple smoke thickens."},
+        {"zh": "手臂比我想要的高出了一截。", "en": "My arm rises higher than I intended by a good stretch."},
+        {"zh": "它比看起来长。", "en": "It's longer than it looks."},
+        {"zh": "空气开始扭曲。", "en": "The air begins to warp."},
+        {"zh": "你退了半步，我的头跟着低。", "en": "You step back half a pace and my head lowers after you."},
+        {"zh": "我跟着一起动。", "en": "I move along with it."},
+        {"zh": "骨头在皮下错开，咔了一下。", "en": "Bone shifts beneath the skin with a single click."},
+        {"zh": "我越靠越近。", "en": "I'm getting closer."},
+        {"zh": "这里的东西都是我的。", "en": "Everything here is mine."},
+        {"zh": "你踩到了我的地。", "en": "You stepped on my ground."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的眼没离开。", "en": "My eyes don't leave you."},
+        {"zh": "你跑我也跑。", "en": "You run; I run."},
+        {"zh": "我跨过栅栏。", "en": "I step over the fence."},
+        {"zh": "紫色从我脚边散开。", "en": "Purple spreads from my feet."},
+        {"zh": "你绕到树后。", "en": "You go behind a tree."},
+        {"zh": "我就在树旁。", "en": "I'm right by the tree."},
+        {"zh": "你听得见我。", "en": "You can hear me."},
+        {"zh": "你踩断的枝叶，我都听见了。", "en": "Every twig you snap, I hear."},
+        {"zh": "距离越来越近。", "en": "The gap closes."},
+        {"zh": "我伸手够过去。", "en": "I reach across."},
+        {"zh": "手伸出去很远。", "en": "It reaches far."},
+        {"zh": "你退到崖边。", "en": "You back to the cliff edge."},
+        {"zh": "前面没有路了。", "en": "There's no path ahead."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "指头穿过铁片，碰到里面的热。", "en": "My fingers pass through the iron and touch the heat beneath."},
+        {"zh": "你被拉退了两格。", "en": "You're dragged back two blocks."},
+        {"zh": "紫色的光在你身上烧。", "en": "Violet light burns on you."},
+        {"zh": "另一只手也伸出来。", "en": "The other hand comes out."},
+        {"zh": "爪子压着你的胸口，地很硬。", "en": "A claw pins your chest and the ground is hard beneath you."},
+        {"zh": "地面裂开一道黑。", "en": "A black split opens in the ground."},
+        {"zh": "我的声音从别处来。", "en": "My voice comes from elsewhere."},
+        {"zh": "你挣了一下。", "en": "You struggle once."},
+        {"zh": "我往后滑了半步。", "en": "I slide back half a step."},
+        {"zh": "烟散了一些。", "en": "The smoke thins."},
+        {"zh": "我还没有倒。", "en": "I haven't fallen."},
+        {"zh": "我摊开手掌。", "en": "I open my palm."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "空地上多了一个站着的影子。", "en": "A standing shadow appears in the clearing."},
+        {"zh": "紫色的烟先聚起来。", "en": "The purple smoke gathers first."},
+        {"zh": "我从烟里显出形。", "en": "I take shape out of the smoke."},
+        {"zh": "这地方的空气干得发脆。", "en": "The air here is so dry it feels brittle."},
+        {"zh": "我的四肢伸得太长。", "en": "My limbs stretch too long."},
+        {"zh": "我慢慢站稳。", "en": "I settle upright slowly."},
+        {"zh": "地上的草黑了。", "en": "The grass beneath has blackened."},
+        {"zh": "林子那头有声音，我在听。", "en": "There's a sound at the far side of the woods; I'm listening."},
+        {"zh": "我把头朝你偏。", "en": "I tilt my head your way."},
+        {"zh": "我一步跨过草，落得很轻。", "en": "One stride carries me over the grass, landing softly."},
+        {"zh": "我的影子不太成形。", "en": "My shadow doesn't hold shape."},
+        {"zh": "我转过头，眼睛没有跟着动。", "en": "I turn my head, though my eyes don't follow."},
+        {"zh": "这里没有门，但我会。", "en": "There's no door here, but I will."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火在我身上烧，紫色变成黑的。", "en": "Fire burns on me; the violet turns black."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "落下去的时候我的身体拉得很长。", "en": "As I fall my body stretches long."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "水打湿了我，紫色散开了。", "en": "Water soaks me; the violet comes apart."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆响把我的上半身吹散了。", "en": "The blast scatters my upper body."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "一根尖物穿过我，留下紫边。", "en": "A point passes through, leaving violet edges."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "那道光绑住了我的关节。", "en": "That light binds my joints."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我空得太久，快撑不住形。", "en": "Empty too long; I can barely hold shape."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷打下来，我全身的紫都亮了。", "en": "Lightning hits; all my violet flares."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这里空得像我来的地方。", "en": "This void is like where I came from."}
+      ]
+    }
+  }
+}

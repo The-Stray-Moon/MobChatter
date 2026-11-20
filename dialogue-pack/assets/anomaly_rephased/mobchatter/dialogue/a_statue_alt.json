@@ -1,0 +1,288 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石像的手指缓缓移动，发出沙沙声。", "en": "The statue's fingers move slowly, producing a rustling sound."},
+        {"zh": "雕像的眼睛微微发光，似乎在思考。", "en": "The statue's eyes glow slightly, as if contemplating something."},
+        {"zh": "它缓缓转动头部，追踪玩家的动作。", "en": "It slowly turns its head to follow the player's movements."},
+        {"zh": "石像发出低沉的嘶嘶声。", "en": "The statue hisses softly."},
+        {"zh": "雕像的手臂紧绷，准备攻击。", "en": "The statue's arms tense, preparing to attack."},
+        {"zh": "石像的腿沉重地移动。", "en": "The statue's legs move heavily."},
+        {"zh": "雕像的呼吸声让人毛骨悚然。", "en": "The statue's breathing is terrifying."},
+        {"zh": "石像的脚在沙上蹭出一步。", "en": "The statue's foot scrapes one step through the sand."},
+        {"zh": "石像的脚爪发出喀嚓声。", "en": "The statue's claws creak."},
+        {"zh": "雕像的身体开始扭曲，预示着战斗。", "en": "The statue's body distorts, signaling a fight."},
+        {"zh": "石像贴着洞壁滑行，无声无息。", "en": "The statue slides along the cave wall, silent."},
+        {"zh": "它一步一顿，石屑簌簌落下。", "en": "It lurches forward, stone chips raining down."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石像的眼神空洞，仿佛迷失了方向。", "en": "The statue's eyes are vacant, as if lost."},
+        {"zh": "雕像的皮肤似乎在剥落。", "en": "The statue's skin seems to be peeling."},
+        {"zh": "石粉从我的肩头慢慢落下。", "en": "Stone dust drifts slowly from my shoulder."},
+        {"zh": "石像的眼神中闪过一丝光芒。", "en": "A glimmer passes through its eyes."},
+        {"zh": "雕像的肌肉松弛，显得慵懒。", "en": "The statue's muscles relax, appearing lazy."},
+        {"zh": "它盯着前方，好像在等待什么。", "en": "It stares ahead, as if waiting for something."},
+        {"zh": "石像的脸上出现了一丝诡异的微笑。", "en": "A grotesque smile appears on its face."},
+        {"zh": "雕像的关节嘎吱作响。", "en": "Its joints creak."},
+        {"zh": "它的眼神中充满了仇恨。", "en": "Its eyes are filled with hatred."},
+        {"zh": "石像的表面开始渗出黏液。", "en": "Slimy substance oozes from its surface."},
+        {"zh": "我在洞穴深处数着你的心跳。", "en": "Deep in the cave, I count your heartbeats."},
+        {"zh": "石像立在原地，假装是雕刻。", "en": "The statue stands still, pretending to be carved."},
+        {"zh": "我已等了三天，不差这一会儿。", "en": "Three days I have waited; a moment more is nothing."},
+        {"zh": "石头下面的东西在慢慢长大。", "en": "Something beneath the stone is slowly growing."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "石像突然转头看向玩家，眼中闪着凶光。", "en": "The statue suddenly turns to look at the player, its eyes flashing with malice."},
+        {"zh": "它的眼神锁定在了玩家身上，发出咯吱声。", "en": "Its eyes lock onto the player, creaking."},
+        {"zh": "雕像的头缓慢转动，紧盯着玩家。", "en": "The statue slowly turns its head, staring at the player."},
+        {"zh": "石像的眼睛猛然瞪大，充满敌意。", "en": "The statue's eyes suddenly widen with hostility."},
+        {"zh": "雕像盯着玩家，嘴里发出嘶嘶声。", "en": "The statue stares at the player, hissing."},
+        {"zh": "它的眼睛紧紧盯着玩家，发出低吼。", "en": "Its eyes fix on the player, growling low."},
+        {"zh": "石像的头突然转动，发出咔嚓声。", "en": "The statue's head suddenly turns, creaking."},
+        {"zh": "雕像的眼睛闪烁着绿色的光芒，注视着玩家。", "en": "Its eyes flash green, staring at the player."},
+        {"zh": "石像的头部缓缓转动，发出咯吱声。", "en": "The statue's head turns, creaking."},
+        {"zh": "雕像的眼神中充满了敌意，盯着玩家。", "en": "Its eyes are filled with malice, staring at the player."},
+        {"zh": "我抬起石眼，记住你的脸。", "en": "I raise my stone eyes and memorize your face."},
+        {"zh": "你回头时，我已经换了姿势。", "en": "When you look back, I have changed posture."},
+        {"zh": "石像的瞳孔里倒映着火光。", "en": "Torchlight flickers in the statue's pupils."},
+        {"zh": "你越看它，它越像在看你。", "en": "The longer you look, the more it looks back."},
+        {"zh": "我数着你手里的火把还剩几根。", "en": "I count the torches left in your hand."},
+        {"zh": "石屑落进你的领口，你没察觉。", "en": "Grit falls into your collar and you never notice."},
+        {"zh": "我盯着你背后的那片黑暗。", "en": "I stare at the dark behind your back."},
+        {"zh": "你看我一眼，我便近了一格。", "en": "One glance, and I am a block closer."},
+        {"zh": "石像的面孔此刻正对着你。", "en": "The statue's face is turned to you now."},
+        {"zh": "别眨眼，我的头会转过来。", "en": "Do not blink; my head will turn."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的入侵激起了我的愤怒！", "en": "Your intrusion angers me!"},
+        {"zh": "我不会轻易饶恕你的！", "en": "I won't spare you easily!"},
+        {"zh": "别逼我露出真面目！", "en": "Don't逼 me reveal my true form!"},
+        {"zh": "求饶对你没用！", "en": "Crying for mercy won't help you!"},
+        {"zh": "你为何要挑衅我！", "en": "Why do you provoke me!"},
+        {"zh": "敲在石头上，你手不疼吗？", "en": "Doesn't your hand hurt, striking stone?"},
+        {"zh": "你永远无法战胜我！", "en": "You can never defeat me!"},
+        {"zh": "求你别再动了！", "en": "Please don't move!"},
+        {"zh": "别逼我毁灭你！", "en": "Don't force me to destroy you!"},
+        {"zh": "你逃不出我的手掌心！", "en": "You can't escape my palm!"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你靠近了我，这是个坏主意。", "en": "You got too close, that's a bad idea."},
+        {"zh": "别想靠近我，这会让事情变得更糟糕。", "en": "Don't try to get closer, it will make things worse."},
+        {"zh": "你似乎对我产生了兴趣，这很危险。", "en": "You seem interested in me, that's dangerous."},
+        {"zh": "你触碰了我，疼痛即将来临。", "en": "You touched me, pain is coming soon."},
+        {"zh": "不要试图靠近我的雕像，这很愚蠢。", "en": "Don't try to get near my statue, that's foolish."},
+        {"zh": "你触碰了我的雕像，感受痛苦吧。", "en": "You touched my statue, feel the pain."},
+        {"zh": "你的贪婪将带来痛苦。", "en": "Your greed will bring pain."},
+        {"zh": "你越靠近我，痛苦就越多。", "en": "The closer you get, the more pain you'll feel."},
+        {"zh": "我是无解的谜题，你永远无法理解。", "en": "I'm an unsolvable puzzle, you'll never understand."},
+        {"zh": "靠近我只会让你陷入更深的黑暗。", "en": "Getting closer will only lead you deeper into darkness."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你撞到我了，这不会好。", "en": "You collided with me, that won't end well."},
+        {"zh": "你撞上了我的雕像，痛苦就在眼前。", "en": "You collided with my statue, pain is coming."},
+        {"zh": "你的撞击只会让我更强大。", "en": "Your collision only makes me stronger."},
+        {"zh": "你撞上我了，这招不会管用。", "en": "You hit me, that won't work."},
+        {"zh": "你的撞击只会带来更多的痛苦。", "en": "Your collisions will only bring more pain."},
+        {"zh": "不要尝试与我碰撞，这很愚蠢。", "en": "Don't try to collide with me, that's foolish."},
+        {"zh": "你撞到了我的雕像，我不会饶恕你。", "en": "You hit my statue, I won't forgive you."},
+        {"zh": "你撞上我，这只会让你更危险。", "en": "You hit me, that only makes you more dangerous."},
+        {"zh": "你的碰撞只会让我更加逼近你。", "en": "Your collisions only bring me closer to you."},
+        {"zh": "你越接近我，碰撞只会更频繁。", "en": "The closer you get, the more collisions there will be."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你不能破坏我与雕像的纽带。", "en": "You can't break my bond with the statue."},
+        {"zh": "我的雕像，是我唯一的伴侣。", "en": "My statue, my only partner."},
+        {"zh": "我不会允许你破坏我的爱情。", "en": "I won't let you destroy my love."},
+        {"zh": "不要试图靠近我的雕像，我爱人。", "en": "Don't try to get near my statue, my love."},
+        {"zh": "这是我的伴侣，你不会得逞。", "en": "This is my partner, you won't succeed."},
+        {"zh": "靠近我的雕像，你就靠近了爱情。", "en": "Get near my statue, and you get near love."},
+        {"zh": "我的雕像，是我唯一的选择。", "en": "My statue, my only choice."},
+        {"zh": "你不能破坏我与雕像的爱情。", "en": "You can't break my love with the statue."},
+        {"zh": "不要试图破坏我和雕像之间的关系。", "en": "Don't try to break my bond with the statue."},
+        {"zh": "我不会让我的爱人离开我。", "en": "I won't let my lover leave me."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我感受到你的恐惧，这是我的雕像。", "en": "I feel your fear. This is my statue."},
+        {"zh": "你们的存在对我来说，就是装饰。", "en": "Your existence serves as decoration to me."},
+        {"zh": "你是新添的美味。", "en": "You're a new delicacy."},
+        {"zh": "雕像，是用来吓唬人的。", "en": "Statues are meant to frighten."},
+        {"zh": "你们的存在对我无足轻重。", "en": "Your presence means nothing to me."},
+        {"zh": "你注定成为我的艺术品。", "en": "You are destined to be my artwork."},
+        {"zh": "来吧，加入我的行列。", "en": "Join my ranks, shall we?"},
+        {"zh": "你们只是我收藏的一部分。", "en": "You're just part of my collection."},
+        {"zh": "你在这里，恰到好处。", "en": "You are in the right place."},
+        {"zh": "享受这无尽的静默。", "en": "Enjoy this endless silence."}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你无法逃脱我的注视。", "en": "You cannot escape my gaze."},
+        {"zh": "我将永远注视你。", "en": "I will always watch you."},
+        {"zh": "你已被我锁定。", "en": "You are locked on."},
+        {"zh": "你是我的新猎物。", "en": "You are my new prey."},
+        {"zh": "我的注视不会让你安眠。", "en": "My gaze will not let you sleep."},
+        {"zh": "你即将成为我的俘虏。", "en": "You are about to be my captive."},
+        {"zh": "你的命运已注定。", "en": "Your fate is sealed."},
+        {"zh": "你已落入我的陷阱。", "en": "You have fallen into my trap."},
+        {"zh": "你将无处可逃。", "en": "You will have nowhere to run."},
+        {"zh": "我的注视如影随形。", "en": "My gaze follows you."},
+        {"zh": "你踏进了我守了几百年的洞。", "en": "You walked into the cave I have kept for centuries."},
+        {"zh": "石头记住了你的脚步声。", "en": "The stone has memorized your footsteps."},
+        {"zh": "就你了，今天的祭品。", "en": "You will do. Today's offering."},
+        {"zh": "我在你身后合上了洞口。", "en": "I sealed the entrance behind you."},
+        {"zh": "越往深处走，我越快。", "en": "The deeper you go, the faster I get."},
+        {"zh": "你的名字已经刻在石壁上。", "en": "Your name is already carved on the wall."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你的声音，我在倾听。", "en": "Your voice, I am listening."},
+        {"zh": "你的痛苦，我会享受。", "en": "Your pain, I will savor."},
+        {"zh": "你的挣扎，徒劳无功。", "en": "Your struggle is futile."},
+        {"zh": "你的一切，尽在我的掌握。", "en": "Everything about you is in my grasp."},
+        {"zh": "你的恐惧，我将利用。", "en": "Your fear, I will exploit."},
+        {"zh": "你只是我手中的玩物。", "en": "You are just a toy in my hands."},
+        {"zh": "你的力量，无法触及我。", "en": "Your strength cannot reach me."},
+        {"zh": "你的求生欲，无法拯救你。", "en": "Your survival instinct cannot save you."},
+        {"zh": "你的一切，都将归于我。", "en": "All of you will belong to me."},
+        {"zh": "你的未来，掌握在我手中。", "en": "Your future is in my hands."},
+        {"zh": "我等那支火把烧到最后一截。", "en": "I wait for that torch to burn to its last stub."},
+        {"zh": "你每呼吸一次，我便近一寸。", "en": "Every breath you take, I gain an inch."},
+        {"zh": "石臂已经抬到你的高度。", "en": "My stone arm is level with your head."},
+        {"zh": "我在等你的膝盖开始发软。", "en": "I wait for your knees to weaken."},
+        {"zh": "洞顶的碎石是我安排的。", "en": "The loose stones overhead are my doing."},
+        {"zh": "石像的脚步总比你快半拍。", "en": "The statue always moves half a beat faster than you."},
+        {"zh": "你的退路已被落石封死。", "en": "Falling rock has sealed your way out."},
+        {"zh": "我算准了你转身的时机。", "en": "I timed the moment you would turn."},
+        {"zh": "石像的裂缝里露出牙齿。", "en": "Teeth show in the cracks of the statue."},
+        {"zh": "再走近些，我就动手。", "en": "A little closer and I begin."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "它抓住了你，尖叫回响！", "en": "It grabs you, screams resound!"},
+        {"zh": "扭曲的触手缠绕！", "en": "Distorted tentacles wrap!"},
+        {"zh": "你感受到它的呼吸！", "en": "You feel its breath!"},
+        {"zh": "雕像突然伸出手！", "en": "Statue suddenly extends hand!"},
+        {"zh": "致命的石爪刺穿！", "en": "Deadly stone claws pierce!"},
+        {"zh": "它以你为食！", "en": "It feeds on you!"},
+        {"zh": "雕像的头颅摇动！", "en": "Statue’s head rocks!"},
+        {"zh": "你闻到腐肉的味道！", "en": "You smell rotting flesh!"},
+        {"zh": "痛苦的挣扎结束！", "en": "End of agonizing struggle!"},
+        {"zh": "它的力量压垮你！", "en": "Its strength crushes you!"},
+        {"zh": "石拳砸落，洞壁裂开。", "en": "The stone fist falls and the wall splits."},
+        {"zh": "它把你按在岩壁上。", "en": "It pins you against the rock."},
+        {"zh": "石指扣进你的护甲缝。", "en": "Stone fingers dig into your armor seams."},
+        {"zh": "这一拳带着百年的重量。", "en": "This blow carries a hundred years of weight."},
+        {"zh": "雕像的下巴咬住你的肩。", "en": "The statue's jaw closes on your shoulder."},
+        {"zh": "石屑与血一起飞溅。", "en": "Stone dust and blood spray together."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雕像变异体出现！", "en": "Statue variant spawns!"},
+        {"zh": "洞穴深处传来声响！", "en": "Sounds echo from caverns!"},
+        {"zh": "阴影中扭曲的面容！", "en": "Distorted face in shadows!"},
+        {"zh": "雕像的碎片重新组合！", "en": "Statue fragments reassemble!"},
+        {"zh": "它在黑暗中注视你！", "en": "It watches you in darkness!"},
+        {"zh": "腐化的雕像开始移动！", "en": "Corrupted statue moves!"},
+        {"zh": "雕像的身躯缓缓苏醒！", "en": "Statue’s form slowly awakens!"},
+        {"zh": "雕像的头颅突然转动！", "en": "Statue’s head turns suddenly!"},
+        {"zh": "它从黑暗中走出！", "en": "It emerges from darkness!"},
+        {"zh": "雕像的影子在地面上舞动！", "en": "Statue’s shadow dances on ground!"},
+        {"zh": "洞壁上的雕像少了一尊。", "en": "One statue is missing from the wall."},
+        {"zh": "第四天夜里，它睁开了眼。", "en": "On the fourth night, it opened its eyes."},
+        {"zh": "地底的空气忽然变得沉重。", "en": "The underground air turns heavy."},
+        {"zh": "整条走廊的雕像都在转头。", "en": "Every statue in the corridor turns its head."},
+        {"zh": "它从你挖开的岔道里出来。", "en": "It comes out of the tunnel you dug."},
+        {"zh": "火把照不到的地方，它站起。", "en": "Where the torchlight ends, it rises."},
+        {"zh": "石像从底座上迈下第一步。", "en": "The statue takes its first step off the pedestal."},
+        {"zh": "洞穴深处传来持续的刮擦声。", "en": "A slow scraping sound comes from the depths."},
+        {"zh": "你脚下的地面开始微微震动。", "en": "The ground under you begins to tremble."},
+        {"zh": "它顺着你的矿道往上爬。", "en": "It climbs up your mineshaft."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "烈焰烧裂了我的石壳。", "en": "Flames have cracked my stone shell."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从洞顶坠落，我碎了半张脸。", "en": "I fell from the roof and broke half my face."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "地下水灌进了我的裂缝。", "en": "Groundwater is pouring into my cracks."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸把我炸成了石块。", "en": "The blast scattered me into rubble."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭矢钉进了我的石眼。", "en": "An arrow is lodged in my stone eye."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "这股力量在瓦解我的形体。", "en": "This power is unmaking my form."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饥饿让石头变得更冷。", "en": "Hunger makes the stone colder."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷光劈开了我一道裂缝。", "en": "Lightning split one of my cracks open."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "虚空正在把我磨成粉末。", "en": "The void is grinding me to dust."}
+      ]
+    }
+  }
+}

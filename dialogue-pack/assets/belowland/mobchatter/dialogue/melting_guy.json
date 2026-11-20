@@ -1,0 +1,255 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黏稠躯体蠕动前行", "en": "Sluggish body moves forward"},
+        {"zh": "攀爬中缓慢移动", "en": "Slowly climbs"},
+        {"zh": "黏液团从墙上滚落", "en": "Gel oozes down from wall"},
+        {"zh": "滴答声中缓慢前行", "en": "Slowly moves with drips"},
+        {"zh": "粘稠触感推动前行", "en": "Slime pushes forward"},
+        {"zh": "沿着墙面缓缓爬行", "en": "Slowly crawls along wall"},
+        {"zh": "黏液滴答作响", "en": "Dripping gel sounds"},
+        {"zh": "缓慢地移动触手", "en": "Slowly moves tentacles"},
+        {"zh": "从墙里缓缓探出", "en": "Slowly oozes out from wall"},
+        {"zh": "沿着墙角缓慢爬行", "en": "Slowly crawls along wall corner"},
+        {"zh": "顺着墙缝一点点往下流。", "en": "I trickle down along the wall's seam."},
+        {"zh": "每爬一格，地上多一滩。", "en": "Every block I climb leaves a puddle."},
+        {"zh": "黏液拉成丝，扯着往前。", "en": "My slime draws into threads, pulling me on."},
+        {"zh": "贴在梯子背面往上蹭。", "en": "I cling to the ladder's back and creep up."},
+        {"zh": "半边身子流下去，又爬上来。", "en": "Half of me drips off, then climbs back."},
+        {"zh": "在墙上拖出一条亮痕。", "en": "I leave a wet trail along the wall."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "懒散地贴附墙面", "en": "Lazily sticks to wall"},
+        {"zh": "黏液中懒洋洋地游动", "en": "Lazily moves in gel"},
+        {"zh": "静止的黏液团", "en": "Stagnant gel blob"},
+        {"zh": "凝固的黏液团", "en": "Solidified gel"},
+        {"zh": "缓慢蠕动的触手", "en": "Slowly moving tentacles"},
+        {"zh": "黏液中的懒惰身影", "en": "Lazy form in gel"},
+        {"zh": "缓缓蠕动的触须", "en": "Slowly moving tendrils"},
+        {"zh": "静止的黏性触手", "en": "Static sticky tentacles"},
+        {"zh": "懒洋洋的黏液团", "en": "Lazy gel blob"},
+        {"zh": "静止的黏液触须", "en": "Static sticky tendrils"},
+        {"zh": "摊在墙上，慢慢喘着。", "en": "Spread on the wall, slowly breathing."},
+        {"zh": "一滴一滴，数着往下掉。", "en": "Drop by drop, I count my fall."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "墙上的我，把脸朝你转过来。", "en": "The me on the wall turns my face toward you."},
+        {"zh": "瞄准玩家投掷", "en": "Aims at player"},
+        {"zh": "黏液触手追逐玩家", "en": "Tentacles chase player"},
+        {"zh": "注视玩家准备攻击", "en": "Gazes at player for attack"},
+        {"zh": "黏液团盯着玩家", "en": "Gel blob stares at player"},
+        {"zh": "追踪玩家的动作", "en": "Tracks player's movements"},
+        {"zh": "瞄准玩家投掷黏液", "en": "Aims gel at player"},
+        {"zh": "黏液触手准备攻击", "en": "Tentacles ready for attack"},
+        {"zh": "你爬梯子的动作，我全看在眼里。", "en": "Every motion you make on that ladder is noted."},
+        {"zh": "黏液触手环绕玩家", "en": "Tentacles surround player"},
+        {"zh": "墙上的水痕，抬起了头。", "en": "The wet streak on the wall lifts its head."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "软糊糊的身体在颤抖", "en": "My gooey body trembles"},
+        {"zh": "黏液团从我身上滑落", "en": "The slime drops from me"},
+        {"zh": "身上黏糊糊的", "en": "I'm all sticky"},
+        {"zh": "又疼又软", "en": "Painful and gooey"},
+        {"zh": "黏液在渗出", "en": "The slime oozes out"},
+        {"zh": "软绵绵的触感", "en": "Soft and squishy"},
+        {"zh": "慢慢地滑下", "en": "Sliding down slowly"},
+        {"zh": "黏糊糊的伤害", "en": "Sticky damage"},
+        {"zh": "被黏住的感觉", "en": "Stuck feeling"},
+        {"zh": "黏糊糊地倒下", "en": "Sliding down"}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "看我的粘液！", "en": "Watch my goo!"},
+        {"zh": "黏糊糊的诱惑！", "en": "Gooey temptation!"},
+        {"zh": "你手里的干粮，我闻着有点甜。", "en": "That dry ration in your hand smells faintly sweet."},
+        {"zh": "尝尝我的粘液吧！", "en": "Taste my goo!"},
+        {"zh": "别往上爬了，梯子背面是我。", "en": "Stop climbing; the back of the ladder is me."},
+        {"zh": "我粘性十足！", "en": "I'm sticky!"},
+        {"zh": "我贴在墙上，黏液是投给你的。", "en": "I cling to the wall. This slime is for you."},
+        {"zh": "我的粘液很美味！", "en": "My goo is delicious!"},
+        {"zh": "快靠近我！", "en": "Come closer!"},
+        {"zh": "我贴着墙流下来，黏黏的。", "en": "I slide down the wall, sticky."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我的黏液在你后颈上炸开。", "en": "My slime bursts open on the back of your neck."},
+        {"zh": "别撞我！", "en": "Don't hit me!"},
+        {"zh": "你撞到墙上，正好撞进我身体。", "en": "You hit the wall and land right inside my body."},
+        {"zh": "小心黏液！", "en": "Beware the goo!"},
+        {"zh": "黏在一起了！", "en": "We're stuck!"},
+        {"zh": "我粘住你了！", "en": "I'm sticking you!"},
+        {"zh": "你的鞋被黏住，抬不起来了。", "en": "Your boots are stuck; you cannot lift them."},
+        {"zh": "黏液碰撞！", "en": "Goo collision!"},
+        {"zh": "黏液粘在一起！", "en": "Goo sticks together!"},
+        {"zh": "你撞散了我一半。", "en": "Your bump scattered half of me."},
+        {"zh": "沾到袖口，就甩不掉了。", "en": "Once it's on your sleeve, you can't shake it off."},
+        {"zh": "贴住你的靴底，慢慢爬。", "en": "I stick to your boot sole and creep up."},
+        {"zh": "我的边角粘住了墙皮。", "en": "My edge is stuck to the wall plaster."},
+        {"zh": "黏丝从你肩头拉到我身上。", "en": "A slime thread stretches from your shoulder to me."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "另一团黏液在墙角等我。", "en": "Another ooze waits for me in the corner."},
+        {"zh": "融在一起，也算作伴。", "en": "Melting together counts as company."},
+        {"zh": "我是你的配偶！", "en": "I'm your mate!"},
+        {"zh": "我融下来，陪你走一段。", "en": "I melt down and walk with you a while."},
+        {"zh": "我从墙上流下来找你。", "en": "I'll flow down the wall to find you."},
+        {"zh": "我们流到一起，分不清彼此。", "en": "We flow together until neither of us can be told apart."},
+        {"zh": "我的伴侣在这里！", "en": "My mate is here!"},
+        {"zh": "两团东西慢慢合成了一个。", "en": "Two blobs slowly merge into one."},
+        {"zh": "和我繁衍后代！", "en": "Procreate with me!"},
+        {"zh": "两团黏液合成一大团。", "en": "Two blobs merge into one big blob."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黏液附身，快跑！", "en": "Slime attach, run!"},
+        {"zh": "小心黏液团！", "en": "Be careful of the slime balls!"},
+        {"zh": "墙壁上，黏液来了！", "en": "Slime from the wall!"},
+        {"zh": "黏液从梯子下来了！", "en": "Slime from the ladder!"},
+        {"zh": "黏液团，投掷而来！", "en": "Slime ball thrown!"},
+        {"zh": "墙上黏液滴答滴！", "en": "Slime dripping from the wall!"},
+        {"zh": "爬上来了，黏液黏人！", "en": "Climbing up, sticky slime!"},
+        {"zh": "黏液贴附，小心！", "en": "Slime attaching, beware!"},
+        {"zh": "黏液团砸中地面！", "en": "Slime ball lands!"},
+        {"zh": "墙壁上的黏液滑落！", "en": "Slime from the wall slides!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "玩家出现，锁定目标！", "en": "Player spotted, target acquired!"},
+        {"zh": "快躲开黏液！", "en": "Avoid the slime!"},
+        {"zh": "黏液贴附成功！", "en": "Attach to player!"},
+        {"zh": "追踪玩家，小心攻击！", "en": "Tracking player, be cautious!"},
+        {"zh": "黏液团砸向玩家！", "en": "Slime ball targeting player!"},
+        {"zh": "玩家在梯子上，锁定！", "en": "Player on ladder, target!"},
+        {"zh": "黏液从墙上掉落，注意！", "en": "Slime falling from wall, watch out!"},
+        {"zh": "梯子上黏液投掷，小心！", "en": "Slime ball from ladder, beware!"},
+        {"zh": "黏液团即将撞击玩家！", "en": "Slime ball approaching player!"},
+        {"zh": "梯子顶端，黏液团投掷！", "en": "Slime ball from ladder top!"}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "瞄准玩家，准备投掷！", "en": "Targeting player, prepare to throw!"},
+        {"zh": "梯子上，黏液贴附！", "en": "Slime attaching to ladder!"},
+        {"zh": "玩家近了，黏液团！", "en": "Player near, slime ball!"},
+        {"zh": "墙上黏液滑落，玩家注意！", "en": "Slime from wall sliding, player beware!"},
+        {"zh": "梯子顶端，黏液投掷！", "en": "Slime ball from ladder top!"},
+        {"zh": "黏液贴附，准备攻击！", "en": "Slime attaching, prepare to attack!"},
+        {"zh": "玩家头顶，黏液团！", "en": "Slime ball above player!"},
+        {"zh": "梯子顶端，黏液即将投掷！", "en": "Slime ball from ladder top, ready to throw!"},
+        {"zh": "玩家脚下，黏液团！", "en": "Slime ball at player’s feet!"},
+        {"zh": "梯子上，黏液团投掷！", "en": "Slime ball from ladder throw!"}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "黏液裹身，进攻！", "en": "Gooey body, attack!"},
+        {"zh": "黏液弹射，瞄准玩家！", "en": "Goo ball, aim at player!"},
+        {"zh": "攀爬梯子，准备攻击！", "en": "Climbing, ready to attack!"},
+        {"zh": "黏液团飞溅，小心！", "en": "Goo ball flying, beware!"},
+        {"zh": "紧紧贴墙，蓄力攻击！", "en": "Stuck to wall, charging!"},
+        {"zh": "喷射黏液，攻击！", "en": "Goo spurt, attack!"},
+        {"zh": "身体黏液化，扑向目标！", "en": "Goo body, charge target!"},
+        {"zh": "攀爬高度，锁定玩家！", "en": "Height climbed, target locked!"},
+        {"zh": "黏液团弹跳，攻击玩家！", "en": "Bounce goo, attack player!"},
+        {"zh": "黏液飞溅，你中招了！", "en": "Goo splash, you're hit!"}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "融化的我来了！", "en": "Here comes the melted!"},
+        {"zh": "攀爬时注意！", "en": "Watch out for climbing!"},
+        {"zh": "从墙上下来了！", "en": "Spilling from the wall!"},
+        {"zh": "黏液团乱飞！", "en": "Goo balls flying!"},
+        {"zh": "贴墙而生！", "en": "Born from the wall!"},
+        {"zh": "爬梯子小心！", "en": "Be careful on ladders!"},
+        {"zh": "墙壁上出现了！", "en": "Appearing on the wall!"},
+        {"zh": "黏液团掉落！", "en": "Goo ball falling!"},
+        {"zh": "攀爬时注意黏液！", "en": "Watch for goo while climbing!"},
+        {"zh": "从梯子上滚下来！", "en": "Rolling down from ladders!"},
+        {"zh": "梯子背面，先渗出一小片。", "en": "On the ladder's back, a small patch seeps out."},
+        {"zh": "墙上多了一处湿印。", "en": "There is a new damp patch on the wall."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火融化了我的身体", "en": "Fire melts me"}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "从墙上摔下来", "en": "Fell from the wall"}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被黏液淹没", "en": "Drowned in slime"}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被爆炸震裂", "en": "Exploded apart"}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "被弹药击中", "en": "Hit by projectiles"}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法攻击让我融化", "en": "Magic melts me"}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "缺少食物让我软弱", "en": "Starvation weakens me"}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我贴在墙上往下淌。", "en": "I cling to the wall and drip down."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "坠入虚空融化", "en": "Fell into the void"}
+      ]
+    }
+  }
+}

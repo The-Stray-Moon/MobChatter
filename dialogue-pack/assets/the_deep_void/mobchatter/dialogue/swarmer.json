@@ -1,0 +1,290 @@
+{
+  "format_version": 1,
+  "mode": "replace",
+  "scenarios": {
+    "walk": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕噜咕噜滚来", "en": "Rumble, roll towards you"},
+        {"zh": "寻找猎物嗡鸣", "en": "Buzz, seek prey"},
+        {"zh": "眼睛在空中闪烁", "en": "Eyes flash in the air"},
+        {"zh": "盯上猎物了", "en": "Locked onto the prey"},
+        {"zh": "我扇着薄膜翅膀，贴着石壁飞。", "en": "I beat my membrane wings, flying along the stone wall."},
+        {"zh": "十几只眼睛一起转向你。", "en": "A dozen eyes turn toward you together."},
+        {"zh": "追逐猎物飞行", "en": "Chase the flying target"},
+        {"zh": "锁定目标，攻击", "en": "Target locked, attack"},
+        {"zh": "锁定猎物，冲刺", "en": "Lock target, charge"},
+        {"zh": "成群飞过丘陵", "en": "We sweep over the hills in a flock."},
+        {"zh": "眼球滚过骨荒原", "en": "Eyeballs roll across the bone wastes."},
+        {"zh": "盘旋着靠近你", "en": "We circle closer to you."},
+        {"zh": "漂浮的眼群压过来", "en": "The floating swarm presses in."},
+        {"zh": "冲刺前的低鸣", "en": "A low hum before the dash."}
+      ]
+    },
+    "idle": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "孤独的眼球漂浮", "en": "Lonely eye floats"},
+        {"zh": "我们一群眼珠，从远处就看见。", "en": "A swarm of eyeballs spots you from afar."},
+        {"zh": "注视天空中的一切", "en": "Stare at the sky"},
+        {"zh": "静默地等待猎物", "en": "Silently wait"},
+        {"zh": "漂浮于黑暗中", "en": "Float in darkness"},
+        {"zh": "我们一群眼球，一起看。", "en": "A flock of eyes, all watching."},
+        {"zh": "漂浮并游荡", "en": "Drift and wander"},
+        {"zh": "等待猎物现身", "en": "Wait for prey to appear"},
+        {"zh": "漂浮等待猎物", "en": "Drift, wait for prey"},
+        {"zh": "漂浮在空中", "en": "Hover in the air"},
+        {"zh": "在凝视丘陵上空打转", "en": "We hover in circles above the Gaze Hills."},
+        {"zh": "眼睑一眨不眨", "en": "Not one lid ever blinks."},
+        {"zh": "成群悬停在半空", "en": "The flock hangs motionless in the air."},
+        {"zh": "用瞳孔数着黑暗", "en": "Pupils count the darkness."}
+      ]
+    },
+    "look_player": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "发现猎物！", "en": "Prey detected!"},
+        {"zh": "玩家被发现了！", "en": "Player spotted!"},
+        {"zh": "玩家在远处", "en": "Player in the distance"},
+        {"zh": "玩家被盯上了", "en": "Player locked"},
+        {"zh": "玩家被锁定", "en": "Player targeted"},
+        {"zh": "锁定玩家！", "en": "Target player!"},
+        {"zh": "盯上玩家了", "en": "Targeted player"},
+        {"zh": "发现玩家了", "en": "Player detected"},
+        {"zh": "玩家被注视", "en": "Player observed"},
+        {"zh": "玩家在视线中", "en": "Player in sight"},
+        {"zh": "远处的体温暴露了你", "en": "Your distant warmth gives you away."},
+        {"zh": "你逃不过这群眼睛", "en": "You cannot escape this many eyes."},
+        {"zh": "一个玩家，够分吗", "en": "One player — is that enough to share?"},
+        {"zh": "又一双眼睛看向你", "en": "Another eye turns toward you."},
+        {"zh": "你身上的光太显眼", "en": "The light on you is too obvious."},
+        {"zh": "我看见你的呼吸了", "en": "I can see your breathing."},
+        {"zh": "这么多眼睛都对着你", "en": "So many eyes are all on you."},
+        {"zh": "别动，正看着你呢", "en": "Hold still, I am watching you."},
+        {"zh": "你的轮廓被我们记住", "en": "We have memorized your outline."},
+        {"zh": "眼球群转向了你", "en": "The swarm has turned to you."}
+      ]
+    },
+    "hurt": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "痛苦让我飞不起来", "en": "Pain keeps me from flying."},
+        {"zh": "我的眼睛好疼", "en": "My eyes hurt."},
+        {"zh": "不能再这样下去了", "en": "This can't keep happening."},
+        {"zh": "受伤了，不能再追了", "en": "Injured, can't keep pursuing."},
+        {"zh": "被击中了，飞不动了", "en": "Hit, can't fly anymore."},
+        {"zh": "伤口好痛，停下吧", "en": "Wound hurts, stop."},
+        {"zh": "我不能再这样飞了", "en": "Can't keep flying like this."},
+        {"zh": "停下来，受伤了", "en": "Stop, injured."},
+        {"zh": "受伤了，只能躲起来", "en": "Injured, must hide."},
+        {"zh": "眼球被砸瘪了一只", "en": "One of my eyeballs got crushed flat."}
+      ]
+    },
+    "tempted": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "你们靠近我，尝尝我的味道！", "en": "You come closer, taste my essence!"},
+        {"zh": "我的视线能看穿你的心！", "en": "My gaze sees through your soul!"},
+        {"zh": "你们的肉对我来说，只是食物罢了。", "en": "Your flesh is just food to me."},
+        {"zh": "一整群眼睛，都看着你的肉。", "en": "A whole swarm of eyes, all on your flesh."},
+        {"zh": "你们的贪婪将带来死亡。", "en": "Your greed will bring death."},
+        {"zh": "你们的出现让我感到不满。", "en": "Your presence annoys me."},
+        {"zh": "靠近我，你会得到什么？", "en": "Come closer, what will you get?"},
+        {"zh": "我的视力超乎你的想象。", "en": "My vision exceeds your imagination."},
+        {"zh": "你们无法逃脱我的视线。", "en": "You can't escape my gaze."},
+        {"zh": "你们的存在只是我猎食的诱惑。", "en": "Your existence is just a lure for me to prey on."}
+      ]
+    },
+    "collide": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "快避开我，否则你会被撕裂！", "en": "Move away, or you'll be torn apart!"},
+        {"zh": "一整个眼球群，被你撞散了。", "en": "A whole swarm of eyes, and you knocked us apart."},
+        {"zh": "别试图与我相撞！", "en": "Don't try to collide with me!"},
+        {"zh": "我的速度比你快得多。", "en": "My speed is much faster than yours."},
+        {"zh": "别靠近，一群眼睛都盯着。", "en": "Do not come near, a swarm of eyes is watching."},
+        {"zh": "我的冲击力会撕碎你！", "en": "My impact will tear you apart!"},
+        {"zh": "快退后，否则你会受伤！", "en": "Move back, or you'll get hurt!"},
+        {"zh": "你的速度无法与我匹敌。", "en": "Your speed can't match mine."},
+        {"zh": "靠近我只会带来痛苦。", "en": "Getting close only brings pain."},
+        {"zh": "我的撞击足以击穿你。", "en": "My collision can pierce through you."}
+      ]
+    },
+    "mate": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "我是唯一的，唯一的。", "en": "I am the only, the one and only."},
+        {"zh": "寻找我的，只有我。", "en": "Those who seek me, find me."},
+        {"zh": "我的同伴会从丘陵一起赶来。", "en": "My swarm will come from the gazing hills."},
+        {"zh": "我是孤独的，也是唯一的。", "en": "I am alone, and I am the only one."},
+        {"zh": "我的存在就是你的伴侣。", "en": "My existence is your partner."},
+        {"zh": "我是唯一能理解你的人。", "en": "I am the only one who understands you."},
+        {"zh": "我的视线将永远追随你。", "en": "My gaze will forever follow you."},
+        {"zh": "我是唯一的，也是唯一的。", "en": "I am the only, and I am the only one."},
+        {"zh": "我的存在就是你的唯一。", "en": "My existence is your only one."},
+        {"zh": "你是我的，我也是你的。", "en": "You are mine, and I am yours."}
+      ]
+    },
+    "pickup": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "咕噜噜，又发现一个猎物！", "en": "Rummmble, another meal!"},
+        {"zh": "食物的味道，真不错！", "en": "Yummy, tastes good!"},
+        {"zh": "我的族群需要更多肉！", "en": "My kin needs more flesh!"},
+        {"zh": "这是我的战利品，是我的！", "en": "My trophy, mine!"},
+        {"zh": "猎物的味道，真是香！", "en": "The prey smells good!"},
+        {"zh": "眼球，我的宝藏！", "en": "Eye, my treasure!"},
+        {"zh": "我的族群依赖于这东西！", "en": "My kin rely on this!"},
+        {"zh": "这片凝视丘陵归我们这群眼。", "en": "These Gazing Hills belong to our swarm of eyes."},
+        {"zh": "眼球，我的食物！", "en": "Eye, my meal!"},
+        {"zh": "我的族群需要成长！", "en": "My kin needs growth!"}
+      ]
+    },
+    "target_acquire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "找到了，猎物！", "en": "Found, prey!"},
+        {"zh": "我的族群，开始行动！", "en": "My kin, move!"},
+        {"zh": "玩家，我的新目标！", "en": "Player, new target!"},
+        {"zh": "视线锁定，准备攻击！", "en": "Target locked, ready to attack!"},
+        {"zh": "猎物就在那，抓住它！", "en": "Prey there, take it!"},
+        {"zh": "猎物就在那里，抓住它！", "en": "Prey there, take it!"},
+        {"zh": "我的族群，开始狩猎！", "en": "My kin, hunt!"},
+        {"zh": "猎物在远处，开始追逐！", "en": "Prey far, start chase!"},
+        {"zh": "玩家在远处，开始追踪！", "en": "Player far, start track!"},
+        {"zh": "那个影子在移动", "en": "That shadow is moving."},
+        {"zh": "新的猎物入群了", "en": "New prey has joined the flock."},
+        {"zh": "全体转向那个玩家", "en": "All of us turn to that player."},
+        {"zh": "锁定，然后撞过去", "en": "Locked on, now ram it."},
+        {"zh": "他走进我们的视野", "en": "He has walked into our sight."},
+        {"zh": "从丘陵这头盯住他", "en": "We pin him from this side of the hills."},
+        {"zh": "猎物标记完成", "en": "Prey marked."}
+      ]
+    },
+    "targeting": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "盯紧，不要错过！", "en": "Watch, don’t miss!"},
+        {"zh": "瞄准，准备冲刺！", "en": "Target, ready to charge!"},
+        {"zh": "瞄准，锁定目标！", "en": "Target, lock on!"},
+        {"zh": "盯紧，别让机会溜走！", "en": "Watch, don’t let it slip!"},
+        {"zh": "一颗眼珠，也能俯冲。", "en": "A single eyeball can still dive."},
+        {"zh": "瞄准，抓住机会！", "en": "Target, seize the moment!"},
+        {"zh": "盯紧，机会稍纵即逝！", "en": "Watch, opportunity fleeting!"},
+        {"zh": "盯紧，不要放弃！", "en": "Watch, don’t give up!"},
+        {"zh": "瞄准，准备一击必杀！", "en": "Target, ready to strike!"},
+        {"zh": "数到三便一起冲", "en": "On three we all dive."},
+        {"zh": "眼睛都对准它", "en": "Every eye is aimed at it."},
+        {"zh": "翅膜绷紧，要冲了", "en": "Membranes taut, about to dive."},
+        {"zh": "它还没发现我们", "en": "It has not seen us yet."},
+        {"zh": "等它背过身去", "en": "We wait for it to turn away."},
+        {"zh": "眼珠齐刷刷转动", "en": "The eyeballs all pivot at once."},
+        {"zh": "准备俯冲的角度", "en": "Adjusting the dive angle."},
+        {"zh": "呼吸停在这一刻", "en": "Breath stops at this moment."},
+        {"zh": "瞳孔缩成了针尖", "en": "Pupils shrink to pinpoints."},
+        {"zh": "别眨眼，跟上它", "en": "Do not blink, keep on it."},
+        {"zh": "一群眼睛同时聚焦", "en": "A swarm of eyes focuses at once."}
+      ]
+    },
+    "melee_attack": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "滴答滴答，我要吃了你！", "en": "Tock tock, got you now."},
+        {"zh": "看我的视线，尝尝我的味道！", "en": "Feel my gaze, feel my bite."},
+        {"zh": "你逃不掉的，视线无处不在！", "en": "Nowhere to run, eyes everywhere."},
+        {"zh": "凝视成为我的食物，你逃不掉！", "en": "Gaze is my meal, you can't run."},
+        {"zh": "吞噬你的光，让黑暗笼罩你！", "en": "Devour your light, darkness swallows you."},
+        {"zh": "看见你了吗？该你了！", "en": "Found you, time to eat."},
+        {"zh": "视线聚焦，恐惧吞噬你！", "en": "Focus on you, fear consumes you."},
+        {"zh": "我们是一群眼球，扑一次就散。", "en": "We are a swarm of eyes; one dive, then scatter."},
+        {"zh": "视线锁定目标，准备攻击！", "en": "Locking target, ready to strike."},
+        {"zh": "黑暗中，你是我的猎物！", "en": "In darkness, you're my prey."},
+        {"zh": "撞上去，撕开它", "en": "Ram it and tear it open."},
+        {"zh": "眼球撞在你胸口", "en": "An eyeball slams into your chest."},
+        {"zh": "尝尝被群眼撕咬", "en": "Taste being bitten by many eyes."},
+        {"zh": "尖啸着撞碎你的护甲", "en": "We shriek and shatter your armor."},
+        {"zh": "从背后刺穿你", "en": "I pierce you from behind."},
+        {"zh": "眼柄缠住你的手腕", "en": "An eyestalk coils around your wrist."}
+      ]
+    },
+    "spawn": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "阴影中聚集，注视玩家！", "en": "Gather in shadows, watch players."},
+        {"zh": "凝视丘陵，等待猎物！", "en": "Watch from hills, wait for prey."},
+        {"zh": "远处的玩家，我的猎物！", "en": "Distant player, my meal."},
+        {"zh": "玩家的脚步声，吸引眼球！", "en": "Player's footsteps, attract eyes."},
+        {"zh": "视线追踪，目标锁定！", "en": "Gaze tracks, target locked."},
+        {"zh": "注视地面，寻找弱点！", "en": "Watch ground, find weakness."},
+        {"zh": "黑暗中，我们狩猎！", "en": "In darkness, we hunt."},
+        {"zh": "视线如针，穿透黑暗！", "en": "Gaze like needles, pierce darkness."},
+        {"zh": "聚集力量，攻击时刻！", "en": "Amass power, attack time."},
+        {"zh": "视线交错，恐惧蔓延！", "en": "Gazes cross, fear spreads."},
+        {"zh": "眼球从丘陵升起", "en": "Eyeballs rise from the hills."},
+        {"zh": "骨荒原上睁开新眼", "en": "A new eye opens on the bone wastes."},
+        {"zh": "我们成群浮出地面", "en": "We float up from the ground as a swarm."},
+        {"zh": "一颗，两颗，成百颗", "en": "One, two, a hundred of us."},
+        {"zh": "丘陵的风带来人味", "en": "The hill wind carries the smell of people."},
+        {"zh": "眼群在洞口聚拢", "en": "The swarm gathers at the cave mouth."},
+        {"zh": "眨眼间，我们已是群", "en": "In a blink we are already a swarm."},
+        {"zh": "从血肉平原飘来", "en": "We drift in from the flesh plains."},
+        {"zh": "每一颗眼都在看你", "en": "Every eye is looking at you."},
+        {"zh": "地底的眼睛睁开了", "en": "The eyes underground have opened."}
+      ]
+    },
+    "hurt.fire": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "火焰烧伤我的眼睛", "en": "Fire burns my eyes."}
+      ]
+    },
+    "hurt.fall": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "掉下来，摔伤了", "en": "Fell, injured."}
+      ]
+    },
+    "hurt.drown": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "溺水了，眼睛无法呼吸", "en": "Drowned, can't breathe."}
+      ]
+    },
+    "hurt.explosion": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "爆炸震伤我的眼睛", "en": "Explosion shook my eyes."}
+      ]
+    },
+    "hurt.projectile": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "箭射伤了我的眼睛", "en": "Arrow hit my eye."}
+      ]
+    },
+    "hurt.magic": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "魔法伤了我", "en": "Magic hurt me."}
+      ]
+    },
+    "hurt.starvation": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "饿得太久了，眼睛虚弱", "en": "Starved too long, eyes weak."}
+      ]
+    },
+    "hurt.lightning": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "雷电击伤我的眼睛", "en": "Lightning hit my eye."}
+      ]
+    },
+    "hurt.void": {
+      "operation": "replace",
+      "lines": [
+        {"zh": "进入虚空，眼睛消失", "en": "Void pulled my eyes."}
+      ]
+    }
+  }
+}
