@@ -2,7 +2,7 @@ package com.merrysnow.mobchatter;
 
 import com.merrysnow.mobchatter.network.DialoguePayload;
 import com.merrysnow.mobchatter.item.ModItems;
-import com.merrysnow.mobchatter.item.RadioReceiverItem;
+import com.merrysnow.mobchatter.item.Fabric261RadioReceiverItem;
 import com.merrysnow.mobchatter.platform.FabricPlatform;
 import com.merrysnow.mobchatter.platform.Platforms;
 import com.merrysnow.mobchatter.server.ServerDialogueController;
@@ -32,7 +32,7 @@ public final class MobChatterFabric implements ModInitializer {
         ResourceKey<Item> receiverKey = ResourceKey.create(Registries.ITEM,
                 Identifier.fromNamespaceAndPath(MobChatterCommon.MOD_ID, "radio_receiver"));
         Item receiver = Registry.register(BuiltInRegistries.ITEM, receiverKey,
-                new RadioReceiverItem(new Item.Properties()
+                new Fabric261RadioReceiverItem(new Item.Properties()
                         .setId(receiverKey)
                         .stacksTo(1)
                         .component(DataComponents.EQUIPPABLE, Equippable.builder(EquipmentSlot.HEAD)

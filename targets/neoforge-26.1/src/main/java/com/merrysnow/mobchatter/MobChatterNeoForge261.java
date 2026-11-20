@@ -3,7 +3,7 @@ package com.merrysnow.mobchatter;
 import com.merrysnow.mobchatter.compat.CuriosBridge;
 import com.merrysnow.mobchatter.config.CommonConfig;
 import com.merrysnow.mobchatter.item.ModItems;
-import com.merrysnow.mobchatter.item.RadioReceiverItem;
+import com.merrysnow.mobchatter.item.NeoForge261RadioReceiverItem;
 import com.merrysnow.mobchatter.platform.NeoForgePlatform;
 import com.merrysnow.mobchatter.platform.Platforms;
 import net.minecraft.core.component.DataComponents;
@@ -31,7 +31,7 @@ public final class MobChatterNeoForge261 {
     private static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MOD_ID);
     private static final DeferredItem<Item> RADIO_RECEIVER = ITEMS.register(
             ModItems.RADIO_RECEIVER,
-            id -> new RadioReceiverItem(new Item.Properties()
+            id -> new NeoForge261RadioReceiverItem(new Item.Properties()
                     .setId(ResourceKey.create(Registries.ITEM, id))
                     .stacksTo(1)
                     .component(DataComponents.EQUIPPABLE, Equippable.builder(EquipmentSlot.HEAD)

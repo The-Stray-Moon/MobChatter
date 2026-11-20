@@ -5,7 +5,12 @@ import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
+
+import java.util.List;
 
 /** Right-click fallback: move the receiver into the vanilla head slot. */
 public final class FabricRadioReceiverItem extends RadioReceiverItem {
@@ -28,5 +33,11 @@ public final class FabricRadioReceiverItem extends RadioReceiverItem {
             player.getInventory().placeItemBackInInventory(previous);
         }
         return InteractionResultHolder.success(stack);
+    }
+
+    @Override
+    public void appendHoverText(ItemStack stack, Item.TooltipContext context,
+                                List<Component> tooltip, TooltipFlag flag) {
+        tooltip.addAll(RadioReceiverTooltip.lines());
     }
 }

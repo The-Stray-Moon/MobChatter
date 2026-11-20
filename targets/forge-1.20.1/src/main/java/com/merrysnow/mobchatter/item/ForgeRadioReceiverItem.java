@@ -5,7 +5,11 @@ import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
+
+import java.util.List;
 
 /** Right-click fallback when Curios is not installed: move the item into the head slot. */
 public final class ForgeRadioReceiverItem extends RadioReceiverItem {
@@ -28,5 +32,10 @@ public final class ForgeRadioReceiverItem extends RadioReceiverItem {
             player.getInventory().placeItemBackInInventory(previous);
         }
         return InteractionResultHolder.success(stack);
+    }
+
+    @Override
+    public void appendHoverText(ItemStack stack, Level level, List<Component> tooltip, TooltipFlag flag) {
+        tooltip.addAll(RadioReceiverTooltip.lines());
     }
 }

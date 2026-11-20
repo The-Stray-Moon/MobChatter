@@ -37,6 +37,7 @@ Creature chatter bubbles rendered above mobs.
   - Forge/NeoForge 安装 Curios 时可放入 `head` 槽；Curios 是可选依赖，不安装也能用。无 Curios 时右键把接收器放入原版头盔槽（1.18.2–1.21.1）；26.1 使用原版 `Equippable` 组件，右键直接换装。
   - Fabric 没有 Curios，使用原版头盔槽；26.1 同样走 `Equippable`。
   - Forge 1.20.1、NeoForge 1.21.1/26.1、Fabric 1.20.1/1.21.1 会出现在“工具与实用物品”创造模式页；Fabric 26.1 与 Forge 1.18.2/1.19.2 可用 `/give mobchatter:radio_receiver` 获取。
+  - Tooltip 会显示装备位置，并根据 `display.requireReceiver` 实时说明当前状态：启用时提示“只有佩戴者能看见生物台词”，未启用时提示“所有玩家都能看见”及如何开启。翻译键为 `item.mobchatter.radio_receiver.tooltip.slot` / `.enabled` / `.disabled`。
 - 触发情景：行走、呆立、看向玩家、受伤（含 9 种伤害类型）、被食物吸引、与玩家碰撞、交配、拾取物品、锁定目标瞬间、索敌中、近战挥击、生成。Fabric 1.20.1 的伤害触发发生在结算前（`ALLOW_DAMAGE`），其余 target 使用结算后事件；被完全吸收或取消的伤害判定因此略有差异。
 - 台词资源来自 `common/src/main/resources/assets/mobchatter/dialogue.json.xz`，覆盖 6,507 个实体、约 100 万句中英对照；默认显示中文，可在配置中改为英文。使用 XZ preset 6 无损压缩，通过 `python tools/build_mod_dialogue.py` 生成；原有 gzip 资源不再打包。所有 target 都内嵌 `org.tukaani:xz:1.10` 解码库（Forge/NeoForge Jar-in-Jar，Fabric `include`），玩家无需另装依赖。自定义资源包需提供同路径的 XZ 文件，旧 `.gz` 文件不再读取。
 

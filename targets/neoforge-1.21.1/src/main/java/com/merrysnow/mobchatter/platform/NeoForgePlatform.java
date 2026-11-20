@@ -5,6 +5,7 @@ import com.merrysnow.mobchatter.config.CommonConfig;
 import com.merrysnow.mobchatter.item.ModItems;
 import com.merrysnow.mobchatter.network.NeoForgeDialogueNetwork;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.DamageTypeTags;
 import net.minecraft.world.damagesource.DamageSource;
@@ -70,5 +71,10 @@ public final class NeoForgePlatform implements MobChatterPlatform {
             return true;
         }
         return ModList.get().isLoaded("curios") && CuriosBridge.isWearing(player);
+    }
+
+    @Override
+    public net.minecraft.network.chat.MutableComponent translatable(String key) {
+        return Component.translatable(key);
     }
 }

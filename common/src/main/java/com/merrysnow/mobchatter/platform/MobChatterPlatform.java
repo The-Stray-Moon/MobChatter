@@ -1,5 +1,6 @@
 package com.merrysnow.mobchatter.platform;
 
+import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
@@ -37,4 +38,7 @@ public interface MobChatterPlatform {
 
     /** True when the receiver is in the vanilla head slot or the optional Curios head slot. */
     boolean isWearingReceiver(Player player);
+
+    /** Version-safe translatable component (1.18.2 has no Component.translatable). */
+    MutableComponent translatable(String key);
 }

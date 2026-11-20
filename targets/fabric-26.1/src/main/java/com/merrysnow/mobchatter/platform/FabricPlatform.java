@@ -5,6 +5,7 @@ import com.merrysnow.mobchatter.item.ModItems;
 import com.merrysnow.mobchatter.network.FabricDialogueNetwork;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
 import net.minecraft.tags.DamageTypeTags;
 import net.minecraft.world.damagesource.DamageSource;
@@ -68,5 +69,10 @@ public final class FabricPlatform implements MobChatterPlatform {
     @Override
     public boolean isWearingReceiver(Player player) {
         return player.getItemBySlot(EquipmentSlot.HEAD).is(ModItems.radioReceiver());
+    }
+
+    @Override
+    public net.minecraft.network.chat.MutableComponent translatable(String key) {
+        return Component.translatable(key);
     }
 }

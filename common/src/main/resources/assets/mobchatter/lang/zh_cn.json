@@ -4,5 +4,7 @@
   "commands.mobchatter.unsupported.none": "当前已加载的生物均有台词记录，已复制空列表。",
   "commands.mobchatter.unsupported.copied": "已将 %s 个未支持的生物 ID 复制到剪贴板（仅当前客户端已加载实体）。",
   "item.mobchatter.radio_receiver": "电波接收器",
-  "item.mobchatter.radio_receiver.tooltip": "只有佩戴者才能看见生物台词。"
+  "item.mobchatter.radio_receiver.tooltip.slot": "可装备在原版头盔槽；安装 Curios 时也可放入 head 槽。",
+  "item.mobchatter.radio_receiver.tooltip.enabled": "已启用接收器控制：只有佩戴者才能看见生物台词。",
+  "item.mobchatter.radio_receiver.tooltip.disabled": "未启用接收器控制（display.requireReceiver = false）：所有玩家都能看见生物台词。可在 mobchatter-common.toml 中开启。"
 }
