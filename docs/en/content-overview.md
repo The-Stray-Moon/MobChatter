@@ -1,7 +1,5 @@
 # MobChatter
 
-[中文](../content-overview.md)
-
 Many authors have tried to let players talk with mobs — some use hand-written lines, others use live AI. This mod takes a third approach: AI-preset dialogue.
 
 The mod ships with a large library of mob lines generated ahead of time for popular mods. They are played at suitable moments, with more than ten lines per scenario selected at random, for roughly **one million** lines in total.
