@@ -22,7 +22,7 @@ Creature chatter bubbles rendered above mobs.
   - Forge 1.20.1、NeoForge 1.21.1/26.1、Fabric 1.20.1/1.21.1 会出现在“工具与实用物品”创造模式页；Fabric 26.1 与 Forge 1.18.2/1.19.2 可用 `/give mobchatter:radio_receiver` 获取。
   - Tooltip 会显示装备位置，并根据 `display.requireReceiver` 实时说明当前状态：启用时提示“只有佩戴者能看见生物台词”，未启用时提示“所有玩家都能看见”及如何开启。翻译键为 `item.mobchatter.radio_receiver.tooltip.slot` / `.enabled` / `.disabled`。
 - 触发情景：行走、呆立、看向玩家、受伤（含 9 种伤害类型）、被食物吸引、与玩家碰撞、交配、拾取物品、锁定目标瞬间、索敌中、近战挥击、生成。Fabric 1.20.1 的伤害触发发生在结算前（`ALLOW_DAMAGE`），其余 target 使用结算后事件；被完全吸收或取消的伤害判定因此略有差异。
-- 内置台词覆盖 6,507 个实体、约 100 万句中英对照；默认显示中文，可在配置中改为英文。台词源按资源包格式摊开在 [`dialogue-pack/`](dialogue-pack/)，每个实体一个 JSON，可直接编辑并提交 PR；Gradle 构建的 `processResources` 会先执行 `buildDialoguePack`，把 `dialogue-pack/` 打包为 `common/src/main/resources/assets/mobchatter/dialogue.json.xz`（XZ preset 6，原有 gzip 资源不再打包），也可手动运行 `python tools/build_mod_dialogue.py`。构建需要 Python 3.10+，Windows 默认用 `python`，其他平台用 `python3`，可用 `-PpythonExecutable=<路径>` 或 `PYTHON` 环境变量覆盖。所有 target 都内嵌 `org.tukaani:xz:1.10` 解码库（Forge/NeoForge Jar-in-Jar，Fabric `include`），玩家无需另装依赖。自定义资源包同样使用普通 JSON；只有整库替换才需要同路径的 XZ 文件，旧 `.gz` 文件不再读取。
+- 内置台词覆盖 6,507 个实体、约 100 万句中英对照；默认跟随游戏语言（`auto`），可强制中文或英文。台词源按资源包格式摊开在 [`dialogue-pack/`](dialogue-pack/)，每个实体一个 JSON，可直接编辑并提交 PR；Gradle 构建的 `processResources` 会先执行 `buildDialoguePack`，把 `dialogue-pack/` 打包为 `common/src/main/resources/assets/mobchatter/dialogue.json.xz`（XZ preset 6，原有 gzip 资源不再打包），也可手动运行 `python tools/build_mod_dialogue.py`。构建需要 Python 3.10+，Windows 默认用 `python`，其他平台用 `python3`，可用 `-PpythonExecutable=<路径>` 或 `PYTHON` 环境变量覆盖。所有 target 都内嵌 `org.tukaani:xz:1.10` 解码库（Forge/NeoForge Jar-in-Jar，Fabric `include`），玩家无需另装依赖。自定义资源包同样使用普通 JSON；只有整库替换才需要同路径的 XZ 文件，旧 `.gz` 文件不再读取。
 
 客户端指令：
 
@@ -48,7 +48,7 @@ Creature chatter bubbles rendered above mobs.
 | 客户端 | `display.lineSpacing` | 10 | 两行间距 |
 | 客户端 | `display.bottomLineScale` | 0.8 | 第二行缩放 |
 | 客户端 | `display.bottomLineAlpha` | 0.55 | 第二行不透明度 |
-| 客户端 | `display.language` | zh | `zh` / `en` |
+| 客户端 | `display.language` | auto | `auto` 跟随游戏语言（含 `zh` 用中文，否则英文）；可强制 `zh` / `en` |
 | 客户端 | `display.requireReceiver` | false | 仅佩戴电波接收器时显示台词；Fabric 文件配置同名键 |
 
 服务端每实体每 tick 最多发送一条新台词，按受伤、生成、锁定/索敌、挥击、拾取等优先级仲裁，不随观察玩家数量重复随机。受伤使用服务端 `LivingDamageEvent` 的最终正伤害和伤害类型/标签；全被吸收或取消的伤害不触发。行走、呆立、挥击、手持物品数量增加和动物状态由服务端采样；`look_player` 根据服务端玩家朝向射线及方块遮挡判定。生成只针对新加入世界的实体，不把磁盘加载或玩家首次看到旧实体当成生成。
@@ -118,7 +118,7 @@ AutoJS / 多人验证（2026-11-19，Forge 1.20.1）：已修复开发模组发�
 
 ## 发布与维护
 
-- curseforge: project ID not configured in root gradle.properties; environment overrides and credentials remain unverified.
+- curseforge: project ID `1820068` 写在根 `gradle.properties`；各 target 用 `publishCurseforge` 上传，需要 `CURSEFORGE_TOKEN`。
 - modrinth: project ID not configured in root gradle.properties; environment overrides and credentials remain unverified.
 
 发布前验证承诺支持的每个 target：构建、检查 jar 的 metadata/共享类/资源、使用 AutoJS 做最小 client 和 dedicated server 行为验证，并记录实际范围。初始化没有运行这些验证，不得把上表的待验证状态当作兼容性承诺。

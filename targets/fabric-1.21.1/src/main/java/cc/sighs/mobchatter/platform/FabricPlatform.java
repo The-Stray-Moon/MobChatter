@@ -75,4 +75,9 @@ public final class FabricPlatform implements MobChatterPlatform {
     public net.minecraft.network.chat.MutableComponent translatable(String key) {
         return Component.translatable(key);
     }
+
+    @Override
+    public String gameLanguage() {
+        return net.minecraft.client.Minecraft.getInstance().getLanguageManager().getSelected();
+    }
 }

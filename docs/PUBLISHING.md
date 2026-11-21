@@ -24,4 +24,18 @@ cd targets\fabric-1.20.1
 
 The generated POM intentionally omits the target build classpath. Minecraft, loader, mappings, and `common` are packaged or supplied by the runtime rather than exposed as Maven dependencies.
 
+## CurseForge
+
+The CurseForge project ID is `1820068` (`publish_curseforge_project_id` in the root `gradle.properties`). Each target uploads its production artifact with its declared JDK:
+
+```powershell
+cd targets\fabric-1.20.1
+$env:CURSEFORGE_TOKEN = '<token>'
+.\gradlew.bat publishCurseforge
+```
+
+`publishCurseforge` needs only the CurseForge project ID and `CURSEFORGE_TOKEN`. The aggregate `publishMods` task uploads to every configured platform, so it additionally requires `publish_modrinth_project_id` and `MODRINTH_TOKEN`.
+
+The release type is `STABLE`, the artifact is the target's `remapJar`/`reobfJar` production jar, and the CurseForge game version and loader are read from that target's properties.
+
 The shared convention script also injects the common resources through the relative path `../../common/src/main/resources`, so every published jar carries the shared assets. For the published artifact it prefers `remapJar` first, then `reobfJar`, and falls back to `jar`.

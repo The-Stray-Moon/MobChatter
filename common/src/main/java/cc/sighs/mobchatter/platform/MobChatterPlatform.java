@@ -41,4 +41,7 @@ public interface MobChatterPlatform {
 
     /** Version-safe translatable component (1.18.2 has no Component.translatable). */
     MutableComponent translatable(String key);
+
+    /** Selected Minecraft language code, for example en_us or zh_cn. */
+    String gameLanguage();
 }

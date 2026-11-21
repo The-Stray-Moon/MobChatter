@@ -46,6 +46,7 @@ class RadioReceiverTooltipTest {
         public boolean onGround(Entity entity) { return true; }
         public boolean isWearingReceiver(Player player) { return false; }
         public MutableComponent translatable(String key) { return null; }
+        public String gameLanguage() { return "en_us"; }
     }
 
     @Test

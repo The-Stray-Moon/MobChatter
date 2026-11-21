@@ -27,6 +27,7 @@ public interface DialogueConfig {
 
     double bottomAlpha();
 
+    /** "auto" follows the game language; "zh"/"en" force a language. */
     String language();
 
     /** When true, dialogue is only rendered while the player wears the radio receiver. */

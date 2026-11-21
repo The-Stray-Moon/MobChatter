@@ -34,8 +34,8 @@ public final class CommonConfig {
                 .defineInRange("bottomLineScale", 0.8D, 0.4D, 1.0D);
         BOTTOM_ALPHA = builder.comment("Second line opacity.")
                 .defineInRange("bottomLineAlpha", 0.55D, 0.1D, 1.0D);
-        LANGUAGE = builder.comment("Bubble language: zh or en.")
-                .defineInList("language", "zh", java.util.List.of("zh", "en"));
+        LANGUAGE = builder.comment("Bubble language: auto (follow game language), zh, or en.")
+                .defineInList("language", "auto", java.util.List.of("auto", "zh", "en"));
         REQUIRE_RECEIVER = builder.comment("Only show chatter for players wearing the radio receiver.")
                 .define("requireReceiver", false);
         builder.pop();

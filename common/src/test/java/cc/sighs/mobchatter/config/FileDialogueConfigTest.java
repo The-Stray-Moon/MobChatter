@@ -26,7 +26,7 @@ class FileDialogueConfigTest {
         assertEquals(10.0D, config.lineSpacing());
         assertEquals(0.8D, config.bottomScale());
         assertEquals(0.55D, config.bottomAlpha());
-        assertEquals("zh", config.language());
+        assertEquals("auto", config.language());
         assertFalse(config.requireReceiver());
     }
 
@@ -70,7 +70,7 @@ class FileDialogueConfigTest {
         Files.writeString(file, "display.enabled = maybe\n[display]\nlanguage = \"fr\"\n");
         FileDialogueConfig config = FileDialogueConfig.load(file);
         assertTrue(config.enabled());
-        assertEquals("zh", config.language());
+        assertEquals("auto", config.language());
         assertEquals(32.0D, config.maxDistance());
     }
 }

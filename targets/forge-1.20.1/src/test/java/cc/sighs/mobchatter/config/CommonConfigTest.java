@@ -24,7 +24,7 @@ class CommonConfigTest {
         assertEquals(20, CommonConfig.FADE_OUT.getDefault());
         assertEquals(160, CommonConfig.SCENARIO_COOLDOWN.getDefault());
         assertEquals(0.35D, CommonConfig.CHANCE.getDefault());
-        assertEquals("zh", CommonConfig.LANGUAGE.getDefault());
+        assertEquals("auto", CommonConfig.LANGUAGE.getDefault());
         assertEquals(false, CommonConfig.REQUIRE_RECEIVER.getDefault());
     }
 }

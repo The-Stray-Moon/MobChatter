@@ -31,7 +31,7 @@ public final class FileDialogueConfig implements DialogueConfig {
             lineSpacing = 10.0
             bottomLineScale = 0.8
             bottomLineAlpha = 0.55
-            language = "zh"
+            language = "auto"
             requireReceiver = false
 
             [trigger]
@@ -59,8 +59,9 @@ public final class FileDialogueConfig implements DialogueConfig {
         lineSpacing = clampDouble(values, "display.lineSpacing", 10.0D, 6.0D, 24.0D);
         bottomScale = clampDouble(values, "display.bottomLineScale", 0.8D, 0.4D, 1.0D);
         bottomAlpha = clampDouble(values, "display.bottomLineAlpha", 0.55D, 0.1D, 1.0D);
-        String languageValue = values.getOrDefault("display.language", "zh").replace("\"", "").trim();
-        language = "en".equalsIgnoreCase(languageValue) ? "en" : "zh";
+        String languageValue = values.getOrDefault("display.language", "auto").replace("\"", "").trim();
+        language = "zh".equalsIgnoreCase(languageValue) || "en".equalsIgnoreCase(languageValue)
+                ? languageValue.toLowerCase(java.util.Locale.ROOT) : "auto";
         requireReceiver = bool(values, "display.requireReceiver", false);
         scenarioCooldown = clampInt(values, "trigger.scenarioCooldownTicks", 160, 20, 2400);
         chance = clampDouble(values, "trigger.ambientChance", 0.35D, 0.0D, 1.0D);

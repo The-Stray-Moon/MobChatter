@@ -48,6 +48,16 @@ class BubbleLayoutTest {
     }
 
     @Test
+    void autoFollowsTheGameLanguageAndExplicitValuesOverrideIt() {
+        assertTrue(BubbleLayout.useChinese("auto", "zh_cn"));
+        assertTrue(BubbleLayout.useChinese("auto", "zh_tw"));
+        assertFalse(BubbleLayout.useChinese("auto", "en_us"));
+        assertFalse(BubbleLayout.useChinese("auto", null));
+        assertTrue(BubbleLayout.useChinese("zh", "en_us"));
+        assertFalse(BubbleLayout.useChinese("en", "zh_cn"));
+    }
+
+    @Test
     void hidesEverythingOutsideTheServerProvidedRange() {
         DialogueState state = new DialogueState();
         state.current = new Bubble("甲", "A", 100, 80, 20, 32);

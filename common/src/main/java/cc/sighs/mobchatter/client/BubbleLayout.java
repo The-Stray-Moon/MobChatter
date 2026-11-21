@@ -1,6 +1,7 @@
 package cc.sighs.mobchatter.client;
 
 import cc.sighs.mobchatter.platform.DialogueConfig;
+import cc.sighs.mobchatter.platform.Platforms;
 
 /**
  * Shared layout maths: which two texts are visible, their opacity, and the
@@ -36,14 +37,28 @@ public final class BubbleLayout {
             }
         }
 
-        boolean english = "en".equals(config.language());
-        String top = english ? state.current.en : state.current.zh;
-        String bottom = state.previous == null ? null : (english ? state.previous.en : state.previous.zh);
+        boolean chinese = useChinese(config.language(), selectedLanguage());
+        String top = chinese ? state.current.zh : state.current.en;
+        String bottom = state.previous == null ? null : (chinese ? state.previous.zh : state.previous.en);
         if (top == null || top.isEmpty()) {
             return null;
         }
         return new View(top, currentAlpha, bottom, previousAlpha,
                 (float) config.lineSpacing(), (float) config.bottomScale());
+    }
+
+    static boolean useChinese(String configured, String selected) {
+        if ("zh".equalsIgnoreCase(configured)) {
+            return true;
+        }
+        if ("en".equalsIgnoreCase(configured)) {
+            return false;
+        }
+        return selected != null && selected.toLowerCase(java.util.Locale.ROOT).contains("zh");
+    }
+
+    private static String selectedLanguage() {
+        return Platforms.isInstalled() ? Platforms.get().gameLanguage() : null;
     }
 
     public static float fade(Bubble bubble, long now) {
